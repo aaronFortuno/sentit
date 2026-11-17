@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Comparació de veus per als personatges d’El senyal de la ràdio.">
+  <base href="../">
+  <link rel="icon" href="./assets/sentit.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./proves/veus.css">
+  <script type="module" src="./proves/veus.js"></script>
+  <title>Prova de veus · Sentit</title>
+</head>
+<body>
+  <header class="top">
+    <div class="top-inner">
+      <div class="identity">
+        <a class="brand" href="./" aria-label="Sentit"><img src="./assets/sentit.svg" width="35" height="35" alt=""><span>sentit<span class="brand-dot">.</span></span></a>
+        <p>Prova de veus</p>
+      </div>
+      <button id="theme" class="icon-button" type="button" aria-label="Tema fosc" aria-pressed="false"></button>
+    </div>
+  </header>
+
+  <main class="voice-review">
+    <div class="voice-intro">
+      <h1>El senyal de la ràdio</h1>
+      <p>Escolta el mateix fragment amb les dues parelles de veus per comparar el timbre, la dicció i l’edat que transmeten.</p>
+    </div>
+    <div class="voice-samples">
+      <section class="voice-sample" aria-labelledby="current-title">
+        <h2 id="current-title">Veus actuals</h2>
+        <dl><div><dt>Laia</dt><dd>Aoede</dd></div><div><dt>Biel</dt><dd>Charon</dd></div></dl>
+        <audio controls preload="none" aria-label="Fragment amb Aoede i Charon" src="./assets/audio/proves/s001-aoede-charon.mp3"></audio>
+      </section>
+      <section class="voice-sample" aria-labelledby="test-title">
+        <h2 id="test-title">Prova amb Leda i Puck</h2>
+        <dl><div><dt>Laia</dt><dd>Leda</dd></div><div><dt>Biel</dt><dd>Puck</dd></div></dl>
+        <audio controls preload="none" aria-label="Fragment amb Leda i Puck" src="./assets/audio/proves/s001-leda-puck.mp3"></audio>
+      </section>
+    </div>
+    <section class="voice-script" aria-labelledby="script-title">
+      <h2 id="script-title">Guió del fragment</h2>
+      <p><strong>Laia</strong> · Prova de so. Divendres, a l’hora del pati, farem un intercanvi de còmics al porxo.</p>
+      <p><strong>Biel</strong> · Para un moment, Laia. Ahir vam penjar un cartell que deia que es faria a la biblioteca.</p>
+    </section>
+    <p class="small">Veus sintetitzades amb Gemini TTS. <a href="./CREDITS.md">Crèdits</a></p>
+  </main>
+
+  <footer class="bottom">
+    <div class="bottom-inner">
+      <span class="motto">Escolta. Entén. Respon.</span>
+      <a class="parent-brand" href="https://ortogra.fi/"><span>Un projecte d’</span><img src="./assets/ortografi.svg" width="83" height="20" alt="ortogra.fi"></a>
+      <nav aria-label="Projecte"><a href="./">Torna a Sentit</a></nav>
+    </div>
+  </footer>
+</body>
+</html>

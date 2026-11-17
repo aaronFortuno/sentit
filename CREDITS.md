@@ -6,6 +6,8 @@ Les locucions inicials i les guies de la sessió pautada en català s’han gene
 
 Guió, preguntes i senyals de so originals de Sentit. Veus sintetitzades amb Gemini TTS (Aoede per a la Laia i Charon per a en Biel). Els tocs del senyal i la sintonia final s’han generat amb FFmpeg. [Fitxa i transcripció](content/el-senyal-de-la-radio.js)
 
+La [comparativa de veus](proves/veus-s001.html) inclou un extracte de l’enregistrament original i una presa nova amb Leda per a la Laia i Puck per a en Biel, sintetitzada amb Gemini TTS. Les dues mostres tenen el volum normalitzat per comparar-les.
+
 ## «Canvi de plans»
 
 Guió original en català. Veus sintetitzades amb Gemini TTS (Aoede i Charon). Els efectes s’han retallat i mesclat amb les veus.
