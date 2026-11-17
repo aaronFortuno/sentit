@@ -1,5 +1,10 @@
 # Canvis
 
+## 0.1.6 · 17 de novembre de 2026
+
+- Locució inicial i locució entre escoltes activables independentment. El QR i el resum del full incorporen aquests ajustos.
+- Locució d’un minut per a la lectura de 60 segons i locució genèrica amb referència al compte enrere per a les altres durades.
+
 ## 0.1.5 · 17 de novembre de 2026
 
 - Els controls de línies de resposta i d’amagar preguntes apareixen directament al visor. El sidebar mostra només les preguntes amagades, per recuperar-les.

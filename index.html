@@ -97,6 +97,10 @@
                 <label><span data-t="readingTime">Lectura prèvia (s)</span><input id="session-reading" type="number" min="0" max="300" step="1" value="60" required></label>
                 <label><span data-t="intervalTime">Pausa (s)</span><input id="session-interval" type="number" min="0" max="300" step="1" value="30" required></label>
                 <label><span data-t="listens">Escoltes</span><select id="session-listens"><option value="1">1</option><option value="2" selected>2</option><option value="3">3</option></select></label>
+                <div class="session-prompts">
+                  <label><input id="session-prepare" type="checkbox" checked><span data-t="preparePrompt">Locució inicial</span></label>
+                  <label><input id="session-repeat" type="checkbox" checked><span data-t="repeatPrompt">Locució entre escoltes</span></label>
+                </div>
               </fieldset>
             </form>
             <details class="audio-preview"><summary data-t="audioPreview">Escolta el fragment</summary><audio id="teacher-audio" controls preload="none" data-label="audio"></audio></details>
@@ -157,7 +161,7 @@
       <a class="parent-brand" href="https://ortogra.fi/"><span data-t="parent">Un projecte d’</span><img src="./assets/ortografi.svg" width="83" height="20" alt="ortogra.fi"></a>
       <nav aria-label="Projecte" data-label="project">
         <a href="./LICENSE" data-t="license">Llicència</a>
-        <button type="button" data-open="changes" data-label="changes">v0.1.5</button>
+        <button type="button" data-open="changes" data-label="changes">v0.1.6</button>
         <button type="button" data-open="v4v">V4V</button>
       </nav>
     </div>
@@ -168,6 +172,8 @@
       <div class="dialog-head"><h2 id="changes-title" data-t="changes">Canvis</h2>
         <form method="dialog"><button class="icon-button" type="submit" data-label="close"><span data-icon="close" aria-hidden="true"></span></button></form>
       </div>
+      <h3>0.1.6 <time datetime="2026-11-17" data-t="releaseDate">17 de novembre de 2026</time></h3>
+      <p data-t="releasePrompts">Locució inicial i entre escoltes opcionals, amb una indicació del temps adaptada a la lectura prèvia.</p>
       <h3>0.1.5 <time datetime="2026-11-17" data-t="releaseDate">17 de novembre de 2026</time></h3>
       <p data-t="releaseWorkspace">Controls de preguntes al full, recuperació de preguntes amagades i accessos fixos a escolta i impressió. Selector compacte d’activitat sobre el visor.</p>
       <h3>0.1.4 <time datetime="2026-11-17" data-t="releaseDate">17 de novembre de 2026</time></h3>

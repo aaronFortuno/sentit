@@ -14,6 +14,12 @@ export const strings = {
     chooseActivity: 'Tria una activitat per veure la fitxa.', activity: 'Activitat', audio: 'Àudio', openPlayer: 'Obre la vista d’escolta',
     audioAndPrint: 'Àudio i impressió', audioPreview: 'Escolta el fragment',
     guidedMode: 'Sessió pautada', readingTime: 'Lectura prèvia (s)', listens: 'Escoltes', intervalTime: 'Pausa (s)',
+    preparePrompt: 'Locució inicial', repeatPrompt: 'Locució entre escoltes',
+    paperPrompts: (prepare, repeat) => {
+      if (prepare && repeat) return 'Locucions · inicial i entre escoltes';
+      if (prepare) return 'Locució inicial';
+      return repeat ? 'Locució entre escoltes' : 'Locucions desactivades';
+    },
     paperReading: time => `Lectura prèvia · ${time}`,
     paperListens: (count, time) => count === 1 ? `1 escolta · ${time}` : `${count} escoltes · ${time} cadascuna`,
     paperInterval: time => `Pausa entre escoltes · ${time}`,
@@ -27,6 +33,7 @@ export const strings = {
     releaseListening: 'Adreça d’escolta per idioma i codi al costat del QR. Els àudios s’obren amb el títol locutat i una pausa breu.',
     releaseGuided: 'Sessió pautada amb temps de lectura, escoltes i pauses configurables. La fitxa mostra el resum al costat del QR.',
     releaseWorkspace: 'Controls de preguntes al full, recuperació de preguntes amagades i accessos fixos a escolta i impressió. Selector compacte d’activitat sobre el visor.',
+    releasePrompts: 'Locució inicial i entre escoltes opcionals, amb una indicació del temps adaptada a la lectura prèvia.',
     v4vIntro: 'Sentit és una eina oberta per treballar la comprensió oral amb àudio i paper.',
     portfolio: 'Portafoli', source: 'Codi font', support: 'Pots fer una aportació voluntària amb Lightning.',
     copyAddress: 'Copia l’adreça', credits: 'Crèdits de l’àudio i les biblioteques',
@@ -66,6 +73,12 @@ export const strings = {
     chooseActivity: 'Elige una actividad para ver la ficha.', activity: 'Actividad', audio: 'Audio', openPlayer: 'Abrir la vista de escucha',
     audioAndPrint: 'Audio e impresión', audioPreview: 'Escuchar el fragmento',
     guidedMode: 'Sesión pautada', readingTime: 'Lectura previa (s)', listens: 'Escuchas', intervalTime: 'Pausa (s)',
+    preparePrompt: 'Locución inicial', repeatPrompt: 'Locución entre escuchas',
+    paperPrompts: (prepare, repeat) => {
+      if (prepare && repeat) return 'Locuciones · inicial y entre escuchas';
+      if (prepare) return 'Locución inicial';
+      return repeat ? 'Locución entre escuchas' : 'Locuciones desactivadas';
+    },
     paperReading: time => `Lectura previa · ${time}`,
     paperListens: (count, time) => count === 1 ? `1 escucha · ${time}` : `${count} escuchas · ${time} cada una`,
     paperInterval: time => `Pausa entre escuchas · ${time}`,
@@ -79,6 +92,7 @@ export const strings = {
     releaseListening: 'Dirección de escucha por idioma y código junto al QR. Los audios empiezan con el título locutado y una pausa breve.',
     releaseGuided: 'Sesión pautada con tiempo de lectura, escuchas y pausas configurables. La ficha muestra el resumen junto al QR.',
     releaseWorkspace: 'Controles de preguntas en la ficha, recuperación de preguntas ocultas y accesos fijos a escucha e impresión. Selector compacto de actividad sobre el visor.',
+    releasePrompts: 'Locución inicial y entre escuchas opcionales, con una indicación del tiempo adaptada a la lectura previa.',
     v4vIntro: 'Sentit es una herramienta abierta para trabajar la comprensión oral con audio y papel.',
     portfolio: 'Portafolio', source: 'Código fuente', support: 'Puedes hacer una aportación voluntaria con Lightning.',
     copyAddress: 'Copiar la dirección', credits: 'Créditos del audio y las bibliotecas',

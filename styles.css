@@ -181,6 +181,10 @@ summary { color: var(--quiet); cursor: pointer; }
 #session-fields label { display: grid; min-width: 0; gap: 3px; font-size: .8rem; color: var(--quiet); }
 #session-fields :is(select, input) { width: 100%; min-height: 31px; padding: 4px 5px; font-size: .87rem; }
 #session-fields input:disabled { opacity: .55; }
+#session-fields .session-prompts { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 5px 12px; margin-top: 2px; }
+#session-fields .session-prompts label { display: flex; align-items: center; gap: 4px; }
+#session-fields .session-prompts input { width: auto; min-height: 0; margin: 0; accent-color: var(--green); }
+#session-fields .session-prompts label:has(input:disabled) { opacity: .55; }
 #worksheet-editor summary { color: var(--ink); font-weight: 650; font-size: .87rem; }
 #worksheet-editor details + details { margin-block-start: 14px; }
 #worksheet-format { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: end; gap: 7px 9px; padding-top: 9px; }

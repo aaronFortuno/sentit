@@ -35,13 +35,16 @@ export function initGuidedPlayer(entry, session, prompts, button, render) {
     loading = true;
     paint();
     await context.resume();
+    const prepare = session.prepare ?? true;
+    const repeat = session.repeat ?? true;
+    const prepareUrl = session.reading === 60 ? prompts.prepareMinute : prompts.prepare;
     buffers ??= await Promise.all([
       decode(entry.audio),
-      session.reading > 0 ? decode(prompts.prepare) : null,
-      session.listens > 1 ? decode(prompts.repeat) : null,
+      session.reading > 0 && prepare ? decode(prepareUrl) : null,
+      session.listens > 1 && repeat ? decode(prompts.repeat) : null,
     ]);
 
-    const [activity, prepare, repeat] = buffers;
+    const [activity, prepareAudio, repeatAudio] = buffers;
     const fragmentStart = entry.fragment.start;
     const fragmentDuration = activity.duration - fragmentStart;
     if (fragmentStart < 0 || fragmentDuration <= 0) throw new Error('Invalid fragment');
@@ -61,14 +64,12 @@ export function initGuidedPlayer(entry, session, prompts, button, render) {
     }
 
     append('sessionIntroduction', fragmentStart, { buffer: activity });
-    if (prepare) {
-      append('sessionReading', prepare.duration, { buffer: prepare });
-      append('sessionReading', session.reading, { countdown: true });
-    }
+    if (prepareAudio) append('sessionReading', prepareAudio.duration, { buffer: prepareAudio });
+    append('sessionReading', session.reading, { countdown: true });
     for (let number = 1; number <= session.listens; number++) {
       if (number > 1) {
         append('sessionInterval', session.interval, { countdown: true });
-        append('sessionNext', repeat.duration, { buffer: repeat });
+        if (repeatAudio) append('sessionNext', repeatAudio.duration, { buffer: repeatAudio });
       }
       append('sessionListening', fragmentDuration, { buffer: activity, offset: fragmentStart, number });
     }

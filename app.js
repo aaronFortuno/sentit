@@ -185,6 +185,10 @@ function renderSessionEditor() {
     byId('session-fields').disabled = !session.enabled;
     byId('session-fields').hidden = !session.enabled;
     byId('session-interval').disabled = session.listens === 1;
+    byId('session-prepare').checked = session.prepare;
+    byId('session-prepare').disabled = session.reading === 0;
+    byId('session-repeat').checked = session.repeat;
+    byId('session-repeat').disabled = session.listens === 1;
   }
   if (selected) byId('open-player').href = listenUrl(selected);
   byId('open-player').hidden = !selected?.audio;
@@ -299,6 +303,8 @@ sessionEditor.addEventListener('change', () => {
       reading: byId('session-reading').valueAsNumber,
       listens: Number(byId('session-listens').value),
       interval: byId('session-interval').valueAsNumber,
+      prepare: byId('session-prepare').checked,
+      repeat: byId('session-repeat').checked,
     };
     saveActivity();
   }
