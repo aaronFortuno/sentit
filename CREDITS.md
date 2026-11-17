@@ -1,5 +1,9 @@
 # Crèdits
 
+## «El senyal de la ràdio»
+
+Guió, preguntes i senyals de so originals de Sentit. Veus sintetitzades amb Gemini TTS (Aoede per a la Laia i Charon per a en Biel). Els tocs del senyal i la sintonia final s’han generat amb FFmpeg. [Fitxa i transcripció](content/el-senyal-de-la-radio.js)
+
 ## «Canvi de plans»
 
 Guió original en català. Veus sintetitzades amb Gemini TTS (Aoede i Charon). Els efectes s’han retallat i mesclat amb les veus.

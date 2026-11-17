@@ -1,5 +1,6 @@
 import { activities } from './catalogue.js';
 import { strings } from './locales.js';
+import { defaultFormat, maxLines, questionFormat, renderWorksheet } from './worksheet.js';
 
 const byId = id => document.getElementById(id);
 const preferences = {
@@ -16,6 +17,19 @@ const listenId = new URL(location.href).searchParams.get('escolta');
 const listenUrl = entry => new URL(`?escolta=${encodeURIComponent(entry.id)}`, location.href).href;
 const publicListenUrl = entry => `https://sentit.ortogra.fi/?escolta=${encodeURIComponent(entry.id)}`;
 const printLocale = entry => strings[entry.language] ?? strings.ca;
+const formatForm = byId('worksheet-format');
+const paper = byId('paper');
+const format = { ...defaultFormat };
+let activitySettings = {};
+try {
+  const saved = JSON.parse(preferences.get('worksheet-format'));
+  for (const [key, fallback] of Object.entries(defaultFormat)) {
+    const input = formatForm.elements.namedItem(key);
+    input.value = saved?.[key] ?? fallback;
+    if (input.value && input.checkValidity()) format[key] = input.type === 'number' ? input.valueAsNumber : input.value;
+  }
+  activitySettings = JSON.parse(preferences.get('worksheet-activities')) ?? {};
+} catch { /* Use defaults if settings cannot be read. */ }
 
 const icons = {
   sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.4 1.4m11.2 11.2L19 19m0-14-1.4 1.4M6.4 17.6 5 19"/>',
@@ -86,55 +100,64 @@ function renderCatalogue() {
   renderSelection();
 }
 
-function renderPaper(entry) {
-  const paper = byId('paper');
-  paper.replaceChildren();
-  paper.hidden = !entry;
-  byId('paper-empty').hidden = Boolean(entry);
-  if (!entry) return;
-  paper.lang = entry.language;
-  const labels = printLocale(entry);
-  const head = node('div', undefined, 'paper-top');
-  head.append(node('span', `Sentit · ${documentMode === 'answers' ? labels.answers : labels.sheetTitle}`, 'paper-brand'),
-    node('span', entry.code, 'paper-code'));
-  paper.append(head, node('h3', entry.title));
-  if (entry.sample) paper.append(node('p', labels.sample, 'paper-caption'));
-  if (documentMode === 'worksheet') {
-    const identity = node('div', undefined, 'paper-identity');
-    for (const key of ['name', 'date']) {
-      const line = node('span', labels[key]);
-      line.append(node('i'));
-      identity.append(line);
-    }
-    paper.append(identity, node('p', labels.instructions, 'paper-instructions'));
+function fitZoom() {
+  if (paper.clientWidth) paper.style.setProperty('--sheet-zoom', Math.min(1, paper.clientWidth / (210 * 96 / 25.4)));
+}
+
+function renderPaper() {
+  paper.hidden = !selected;
+  byId('paper-empty').hidden = Boolean(selected);
+  if (!selected) {
+    paper.replaceChildren();
+    return;
   }
-  const questions = node('ol', undefined, 'paper-questions');
-  for (const question of entry.questions) {
-    const item = node('li', question.prompt);
-    if (documentMode === 'answers') item.append(node('p', question.answer, 'paper-answer'));
-    else item.append(node('div', undefined, 'write-line'));
-    questions.append(item);
-  }
-  paper.append(questions);
-  if (documentMode === 'worksheet' && entry.audio) {
-    const block = node('div', undefined, 'paper-listen');
-    const url = publicListenUrl(entry);
-    if (typeof globalThis.qrcode === 'function') {
-      const qr = globalThis.qrcode(0, 'M');
-      qr.addData(url);
-      qr.make();
-      const image = node('div');
-      image.setAttribute('aria-hidden', 'true');
-      image.innerHTML = qr.createSvgTag(3, 12);
-      block.append(image);
-    }
-    const body = node('div');
-    const link = node('a', url.replace('https://', ''));
-    link.href = url;
-    body.append(node('strong', labels.listen), node('br'), link);
-    block.append(body);
-    paper.append(block);
-  }
+  fitZoom();
+  const answerKey = documentMode === 'answers';
+  renderWorksheet(paper, selected, format, activitySettings[selected.id], {
+    answerKey,
+    labels: printLocale(selected),
+    listenUrl: !answerKey && selected.audio ? publicListenUrl(selected) : null,
+  });
+}
+
+function syncFormat() {
+  for (const key of Object.keys(defaultFormat)) formatForm.elements.namedItem(key).value = format[key];
+}
+
+function renderEditor() {
+  byId('worksheet-editor').hidden = !selected;
+  const list = byId('question-list');
+  list.replaceChildren();
+  if (!selected) return;
+  const settings = activitySettings[selected.id];
+  byId('classroom-code').value = settings?.code ?? '';
+  selected.questions.forEach((question, index) => {
+    const { id, included, lines } = questionFormat(question, index, settings);
+    const row = node('div', undefined, 'question-setting');
+    const include = node('input');
+    include.type = 'checkbox';
+    include.checked = included;
+    include.dataset.questionId = id;
+    include.dataset.questionField = 'included';
+    const label = node('label', undefined, 'question-choice');
+    label.lang = selected.language;
+    label.append(include, node('span', `${index + 1}. ${question.prompt}`));
+
+    const lineLabel = node('label', undefined, 'question-lines');
+    const count = node('input');
+    Object.assign(count, { type: 'number', min: 0, max: maxLines, value: lines, disabled: !included });
+    count.dataset.questionId = id;
+    count.dataset.questionField = 'lines';
+    count.setAttribute('aria-label', `${t('responseLines')} · ${index + 1}`);
+    lineLabel.append(node('span', t('responseLines')), count);
+    row.append(label, lineLabel);
+    list.append(row);
+  });
+}
+
+function saveActivity() {
+  preferences.set('worksheet-activities', JSON.stringify(activitySettings));
+  renderPaper();
 }
 
 function renderSelection() {
@@ -142,7 +165,8 @@ function renderSelection() {
   byId('answers-mode').setAttribute('aria-pressed', String(documentMode === 'answers'));
   byId('print').disabled = !selected;
   byId('print-kind').textContent = selected ? `${t('printKind')} · ${t(documentMode)}` : '';
-  renderPaper(selected);
+  renderPaper();
+  renderEditor();
   const audio = byId('teacher-audio');
   if (selected?.audio !== (audio.getAttribute('src') ?? undefined)) {
     audio.pause();
@@ -204,6 +228,48 @@ function translate() {
 }
 
 byId('language').value = language;
+syncFormat();
+new ResizeObserver(fitZoom).observe(paper);
+formatForm.addEventListener('submit', event => event.preventDefault());
+formatForm.addEventListener('change', event => {
+  const input = event.target;
+  if (!Object.hasOwn(defaultFormat, input.name)) return;
+  if (input.type === 'number' && (!input.value || !input.checkValidity())) input.value = format[input.name];
+  format[input.name] = input.type === 'number' ? input.valueAsNumber : input.value;
+  preferences.set('worksheet-format', JSON.stringify(format));
+  renderPaper();
+});
+formatForm.addEventListener('reset', event => {
+  event.preventDefault();
+  Object.assign(format, defaultFormat);
+  syncFormat();
+  preferences.set('worksheet-format', JSON.stringify(format));
+  renderPaper();
+});
+byId('classroom-code').addEventListener('input', event => {
+  if (!selected) return;
+  (activitySettings[selected.id] ??= {}).code = event.target.value;
+  saveActivity();
+});
+byId('question-settings').addEventListener('change', event => {
+  const input = event.target;
+  const { questionId: id, questionField: field } = input.dataset;
+  if (!selected || !field) return;
+  const settings = activitySettings[selected.id] ??= {};
+  const index = selected.questions.findIndex((question, i) => (question.id ?? String(i)) === id);
+  if (index === -1) return;
+  const { lines } = questionFormat(selected.questions[index], index, settings);
+  settings.questions ??= {};
+  const override = settings.questions[id] ??= {};
+  if (field === 'lines') {
+    if (!input.value || !input.checkValidity()) input.value = lines;
+    override.lines = input.valueAsNumber;
+  } else {
+    override.included = input.checked;
+    input.closest('.question-setting').querySelector('[data-question-field="lines"]').disabled = !input.checked;
+  }
+  saveActivity();
+});
 byId('language').addEventListener('change', event => {
   language = event.target.value;
   preferences.set('lang', language);
@@ -275,6 +341,7 @@ if (listenId === null) {
   byId('player').hidden = false;
   document.querySelector('.skip').href = '#player';
 }
+if (matchMedia('(max-width: 1040px)').matches) byId('format-panel').open = false;
 if (matchMedia('(max-width: 590px)').matches) byId('filter-panel').open = false;
 theme();
 translate();
