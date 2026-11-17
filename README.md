@@ -4,6 +4,8 @@ Banc de comprensió oral d’ortogra.fi. El docent busca una activitat, en previ
 
 [Obre Sentit](https://sentit.ortogra.fi/)
 
+El projecte es manté a la sèrie **0.1.x** mentre es revisen les primeres activitats i la interfície. El pas a **0.2** requereix una comprensió oral validada en tots els aspectes —àudio, fitxa i solucionari— i una interfície prou definida.
+
 ## Prepara una fitxa
 
 «El senyal de la ràdio» és una activitat de nivell accessible per a 5è de primària. «Canvi de plans» conserva l’àudio i l’enllaç del pilot.

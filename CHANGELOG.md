@@ -1,18 +1,18 @@
 # Canvis
 
-## 0.3.0 · 17 de novembre de 2026
+## 0.1.4 · 17 de novembre de 2026
 
 - Sessió pautada amb temps de lectura prèvia, fins a tres escoltes i pausa entre escoltes configurables.
 - Locucions per guiar la lectura de les preguntes i anunciar les escoltes següents.
 - El QR i l’enllaç incorporen els ajustos. El full resumeix els temps, el nombre d’escoltes i la durada del fragment.
 
-## 0.2.1 · 17 de novembre de 2026
+## 0.1.3 · 17 de novembre de 2026
 
 - La capçalera de la fitxa mostra l’adreça curta d’escolta al costat del QR.
 - Els enllaços nous identifiquen la fitxa per idioma i codi. Els enllaços anteriors continuen obrint la mateixa activitat.
 - Els àudios comencen amb el títol locutat i una pausa breu. El solucionari inclou la locució.
 
-## 0.2.0 · 17 de novembre de 2026
+## 0.1.2 · 17 de novembre de 2026
 
 - Maquetador A4 amb format configurable, selecció de preguntes i línies de resposta per pregunta.
 - Codi d’aula a la fitxa i al solucionari, i QR d’escolta a la capçalera de la fitxa.
