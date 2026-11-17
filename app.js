@@ -20,6 +20,8 @@ const printLocale = entry => strings[entry.language] ?? strings.ca;
 const icons = {
   sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.4 1.4m11.2 11.2L19 19m0-14-1.4 1.4M6.4 17.6 5 19"/>',
   moon: '<path d="M20.9 13.35A9 9 0 1 1 10.65 3.1a7 7 0 0 0 10.25 10.25Z"/>',
+  languages: '<path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="M2 5h12"/><path d="M7 2h1"/><path d="m22 22-5-10-5 10"/><path d="M14 18h6"/>',
+  'chevron-down': '<path d="m6 9 6 6 6-6"/>',
   close: '<path d="m18 6-12 12M6 6l12 12"/>',
   printer: '<path d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2M6 14h12v8H6zm12-2h.01"/>',
   play: '<path d="m7 4 14 8-14 8Z"/>',
@@ -160,14 +162,15 @@ function player(entry) {
   const play = byId('play');
   byId('player-title').textContent = entry?.title ?? t('invalid');
   byId('player-title').lang = entry?.language ?? language;
-  byId('player-instructions').textContent = t(entry?.audio ? 'playerInstructions' : 'invalidHint');
+  byId('player-hint').hidden = Boolean(entry?.audio);
   play.hidden = !entry?.audio;
   if (!entry?.audio) return;
   if (!audio.hasAttribute('src')) audio.src = entry.audio;
-  function announce(error = false) {
+  function announce(error = Boolean(audio.error)) {
     const status = byId('play-status');
     const label = audio.ended ? 'repeat' : !audio.paused ? 'pause' : audio.currentTime ? 'resume' : 'listen';
     byId('play-label').textContent = t(label);
+    status.classList.toggle('sr-only', !error);
     status.textContent = error ? t('audioError') : audio.paused ? '' : t('playing');
     icon(play.querySelector('[data-icon]'), audio.paused ? 'play' : 'pause');
   }
@@ -179,10 +182,9 @@ function player(entry) {
         try { await audio.play(); } catch { announce(true); }
       }
     };
-    for (const event of ['play', 'pause', 'ended']) audio.addEventListener(event, () => announce());
-    audio.addEventListener('error', () => announce(true));
+    for (const event of ['play', 'pause', 'ended', 'error']) audio.addEventListener(event, () => announce());
   }
-  announce(Boolean(audio.error));
+  announce();
 }
 
 function translate() {
@@ -261,9 +263,15 @@ for (const button of document.querySelectorAll('[data-open]')) {
   button.addEventListener('click', () => dialog.showModal());
   dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
 }
-for (const element of document.querySelectorAll('[data-icon="close"],[data-icon="printer"]')) icon(element, element.dataset.icon);
-if (listenId !== null) {
-  byId('workspace').hidden = true;
+for (const element of document.querySelectorAll('[data-icon]')) {
+  if (Object.hasOwn(icons, element.dataset.icon)) icon(element, element.dataset.icon);
+}
+if (listenId === null) {
+  document.querySelector('.top').hidden = false;
+  byId('workspace').hidden = false;
+  document.querySelector('.bottom').hidden = false;
+} else {
+  document.body.classList.add('listening');
   byId('player').hidden = false;
   document.querySelector('.skip').href = '#player';
 }

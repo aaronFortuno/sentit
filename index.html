@@ -14,7 +14,7 @@
 </head>
 <body>
   <a class="skip" href="#workspace" data-t="skip">Ves al contingut</a>
-  <header class="top">
+  <header class="top" hidden>
     <div class="top-inner">
       <div class="identity">
         <a class="brand" href="./" aria-label="Sentit">
@@ -24,8 +24,10 @@
         <p data-t="tagline">Dona sentit al que escoltes.</p>
       </div>
       <div class="top-actions">
-        <label class="language">
+        <label class="language icon-button">
           <span class="sr-only" data-t="interfaceLanguage">Idioma de la interfície</span>
+          <span data-icon="languages" aria-hidden="true"></span>
+          <span class="language-chevron" data-icon="chevron-down" aria-hidden="true"></span>
           <select id="language">
             <option value="ca" lang="ca">Català</option>
             <option value="es" lang="es">Español</option>
@@ -38,7 +40,7 @@
     </div>
   </header>
 
-  <main id="workspace" class="workspace" tabindex="-1">
+  <main id="workspace" class="workspace" tabindex="-1" hidden>
     <aside class="pane catalog" aria-labelledby="catalog-title">
       <div class="section-heading"><h1 id="catalog-title" data-t="catalog">Catàleg</h1><span id="count" class="count" role="status"></span></div>
       <details id="filter-panel" open>
@@ -93,18 +95,18 @@
 
   <main id="player" class="player" tabindex="-1" hidden>
     <section aria-labelledby="player-title">
+      <img src="./assets/sentit.svg" width="34" height="34" alt="Sentit">
       <h1 id="player-title"></h1>
-      <p id="player-instructions" data-t="playerInstructions">Tingues la fitxa a mà i prem el botó per escoltar.</p>
+      <p id="player-hint" data-t="invalidHint" hidden>Comprova l’enllaç amb el docent.</p>
       <button id="play" type="button" class="button primary play" hidden>
         <span data-icon="play" aria-hidden="true"></span><span id="play-label"></span>
       </button>
       <audio id="student-audio" preload="none"></audio>
-      <p id="play-status" class="inline-status" role="status"></p>
-      <a class="subtle" href="./" data-t="back">Torna al catàleg</a>
+      <p id="play-status" class="sr-only" role="status"></p>
     </section>
   </main>
 
-  <footer class="bottom">
+  <footer class="bottom" hidden>
     <div class="bottom-inner">
       <span class="motto" data-t="motto">Escolta. Entén. Respon.</span>
       <a class="parent-brand" href="https://ortogra.fi/"><span data-t="parent">Un projecte d’</span><img src="./assets/ortografi.svg" width="83" height="20" alt="ortogra.fi"></a>
@@ -121,6 +123,8 @@
       <div class="dialog-head"><h2 id="changes-title" data-t="changes">Canvis</h2>
         <form method="dialog"><button class="icon-button" type="submit" data-label="close"><span data-icon="close" aria-hidden="true"></span></button></form>
       </div>
+      <h3>0.1.1 <time datetime="2026-11-17" data-t="releaseDate">17 de novembre de 2026</time></h3>
+      <p data-t="releaseUpdate">Vista d’escolta simplificada i selector amb icona de traducció.</p>
       <h3>0.1.0 <time datetime="2026-11-17" data-t="releaseDate">17 de novembre de 2026</time></h3>
       <p data-t="release">Catàleg, reproductor d’escolta i vista d’impressió amb una fitxa de mostra.</p>
     </div>
