@@ -12,11 +12,13 @@ El projecte es manté a la sèrie **0.1.x** mentre es revisen les primeres activ
 
 - Filtres combinables de curs, dificultat, durada i tipus.
 - Ajustos de tipografia, mida, espaiat i interlineat, amb codi d’aula opcional.
-- Selecció de preguntes i nombre de línies de resposta per pregunta.
+- Controls de línies de resposta i d’amagar preguntes al costat de cada enunciat, quan s’hi passa el ratolí o s’hi accedeix amb el teclat. En pantalla tàctil, el botó de tres punts obre aquests controls. A **Preguntes amagades** es poden recuperar les preguntes excloses.
 - Vista A4 de la fitxa amb QR i del solucionari amb respostes orientatives i transcripció de l’àudio. El diàleg d’impressió permet desar el document seleccionat com a PDF.
 - Reproductor docent i vista d’escolta directa. L’àudio comença quan es prem el botó.
 - Amb **Sessió pautada**, tria el temps per llegir les preguntes, el nombre d’escoltes i la pausa entre escoltes. Els valors inicials són 60 segons, dues escoltes i 30 segons de pausa. El QR, l’adreça i el resum imprès segueixen aquests ajustos. Amb el mode desactivat, l’enllaç obre el reproductor d’escolta lliure.
 - Interfície en català i castellà. Cada fitxa conserva l’idioma propi de l’activitat.
+
+Els filtres de l’esquerra acoten el selector d’activitat situat sobre el full. El sidebar dret agrupa l’àudio i el format d’impressió. L’accés a la vista d’escolta i el botó per imprimir el document seleccionat queden visibles mentre es consulten els ajustos. En pantalles petites, **Àudio i impressió** desplega els ajustos.
 
 ## Desenvolupament
 

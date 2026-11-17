@@ -59,6 +59,7 @@ const icons = {
   'chevron-down': '<path d="m6 9 6 6 6-6"/>',
   close: '<path d="m18 6-12 12M6 6l12 12"/>',
   printer: '<path d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2M6 14h12v8H6zm12-2h.01"/>',
+  copy: '<rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>',
   play: '<path d="m7 4 14 8-14 8Z"/>',
   pause: '<path d="M9 4H6v16h3zm9 0h-3v16h3z"/>',
 };
@@ -100,21 +101,16 @@ function renderCatalogue() {
   if (!matched.includes(selected)) selected = matched[0] ?? null;
   byId('count').textContent = matched.length;
   byId('catalog-empty').hidden = matched.length > 0;
-  const list = byId('activity-list');
-  list.replaceChildren();
+  const select = byId('activity-select');
+  select.replaceChildren();
   for (const entry of matched) {
-    const item = node('li');
-    const button = node('button', undefined, 'activity');
-    button.type = 'button';
-    button.dataset.activity = entry.id;
-    button.setAttribute('aria-pressed', String(entry === selected));
-    const title = node('strong', entry.title);
-    title.lang = entry.language;
-    button.append(title, node('span', `${t('grades')[entry.grade]} · ${t('genres')[entry.genre]} · ${clockTime(entry.seconds)}`, 'meta'));
-    if (entry.sample) button.append(node('span', t('sample'), 'meta'));
-    item.append(button);
-    list.append(item);
+    const option = new Option(`${entry.code} · ${entry.title}`, entry.id);
+    option.lang = entry.language;
+    select.append(option);
   }
+  if (!matched.length) select.append(new Option(t('noResults'), ''));
+  select.disabled = !selected;
+  select.value = selected?.id ?? '';
   renderSelection();
 }
 
@@ -130,13 +126,17 @@ function renderPaper() {
     return;
   }
   fitZoom();
+  const scroller = paper.parentElement;
+  const scrollTop = scroller.scrollTop;
   const answerKey = documentMode === 'answers';
   renderWorksheet(paper, selected, format, activitySettings[selected.id], {
     answerKey,
     labels: printLocale(selected),
+    toolLabels: strings[language],
     listenUrl: !answerKey && selected.audio ? publicListenUrl(selected) : null,
     session: configuredSession(selected),
   });
+  scroller.scrollTop = scrollTop;
 }
 
 function syncFormat() {
@@ -145,33 +145,27 @@ function syncFormat() {
 
 function renderEditor() {
   byId('worksheet-editor').hidden = !selected;
-  const list = byId('question-list');
+  const list = byId('hidden-questions');
   list.replaceChildren();
+  byId('question-panel').hidden = true;
   if (!selected) return;
   const settings = activitySettings[selected.id];
   byId('classroom-code').value = settings?.code ?? '';
   selected.questions.forEach((question, index) => {
-    const { id, included, lines } = questionFormat(question, index, settings);
-    const row = node('div', undefined, 'question-setting');
-    const include = node('input');
-    include.type = 'checkbox';
-    include.checked = included;
-    include.dataset.questionId = id;
-    include.dataset.questionField = 'included';
-    const label = node('label', undefined, 'question-choice');
+    const { id, included } = questionFormat(question, index, settings);
+    if (included) return;
+    const row = node('li');
+    const label = node('span', `${index + 1}. ${question.prompt}`);
     label.lang = selected.language;
-    label.append(include, node('span', `${index + 1}. ${question.prompt}`));
-
-    const lineLabel = node('label', undefined, 'question-lines');
-    const count = node('input');
-    Object.assign(count, { type: 'number', min: 0, max: maxLines, value: lines, disabled: !included });
-    count.dataset.questionId = id;
-    count.dataset.questionField = 'lines';
-    count.setAttribute('aria-label', `${t('responseLines')} · ${index + 1}`);
-    lineLabel.append(node('span', t('responseLines')), count);
-    row.append(label, lineLabel);
+    const restore = node('button', t('restore'), 'subtle');
+    restore.type = 'button';
+    restore.dataset.restoreQuestion = id;
+    restore.setAttribute('aria-label', t('questionRestore')(index + 1));
+    row.append(label, restore);
     list.append(row);
   });
+  byId('hidden-count').textContent = list.childElementCount;
+  byId('question-panel').hidden = list.childElementCount === 0;
 }
 
 function saveActivity() {
@@ -193,6 +187,8 @@ function renderSessionEditor() {
     byId('session-interval').disabled = session.listens === 1;
   }
   if (selected) byId('open-player').href = listenUrl(selected);
+  byId('open-player').hidden = !selected?.audio;
+  byId('copy-link').hidden = !selected?.audio;
   byId('copy-fallback').hidden = true;
   byId('copy-status').textContent = '';
 }
@@ -201,7 +197,9 @@ function renderSelection() {
   byId('worksheet-mode').setAttribute('aria-pressed', String(documentMode === 'worksheet'));
   byId('answers-mode').setAttribute('aria-pressed', String(documentMode === 'answers'));
   byId('print').disabled = !selected;
-  byId('print-kind').textContent = selected ? `${t('printKind')} · ${t(documentMode)}` : '';
+  byId('print-label').textContent = t(documentMode === 'answers' ? 'printAnswers' : 'printWorksheet');
+  byId('print-kind').textContent = selected ? t('printHint') : '';
+  byId('activity-meta').textContent = selected ? `${t('grades')[selected.grade]} · ${t('genres')[selected.genre]} · ${clockTime(selected.seconds)}${selected.sample ? ` · ${t('sample')}` : ''}` : '';
   renderPaper();
   renderEditor();
   const audio = byId('teacher-audio');
@@ -327,24 +325,56 @@ byId('classroom-code').addEventListener('input', event => {
   (activitySettings[selected.id] ??= {}).code = event.target.value;
   saveActivity();
 });
-byId('question-settings').addEventListener('change', event => {
-  const input = event.target;
-  const { questionId: id, questionField: field } = input.dataset;
-  if (!selected || !field) return;
+paper.addEventListener('click', event => {
+  const button = event.target.closest('[data-question-action]');
+  if (!selected || !button) return;
+  const tools = button.closest('[data-question-id]');
+  const { questionId: id } = tools.dataset;
+  const action = button.dataset.questionAction;
+  if (action === 'toggle') {
+    const open = button.getAttribute('aria-expanded') !== 'true';
+    button.setAttribute('aria-expanded', String(open));
+    tools.classList.toggle('is-open', open);
+    return;
+  }
   const settings = activitySettings[selected.id] ??= {};
   const index = selected.questions.findIndex((question, i) => (question.id ?? String(i)) === id);
   if (index === -1) return;
   const { lines } = questionFormat(selected.questions[index], index, settings);
   settings.questions ??= {};
   const override = settings.questions[id] ??= {};
-  if (field === 'lines') {
-    if (!input.value || !input.checkValidity()) input.value = lines;
-    override.lines = input.valueAsNumber;
-  } else {
-    override.included = input.checked;
-    input.closest('.question-setting').querySelector('[data-question-field="lines"]').disabled = !input.checked;
-  }
+  if (action === 'hide') override.included = false;
+  else override.lines = Math.max(0, Math.min(maxLines, lines + (action === 'more' ? 1 : -1)));
+  const expanded = tools.classList.contains('is-open');
   saveActivity();
+  renderEditor();
+  if (action === 'hide') {
+    byId('question-panel').open = true;
+    byId('question-panel').querySelector('summary').focus({ preventScroll: true });
+  } else {
+    const restored = [...paper.querySelectorAll('.paper-question-tools')].find(element => element.dataset.questionId === id);
+    if (expanded) {
+      restored.classList.add('is-open');
+      restored.querySelector('[data-question-action="toggle"]').setAttribute('aria-expanded', 'true');
+    }
+    const focus = restored.querySelector(`[data-question-action="${action}"]`);
+    (focus.disabled ? restored.querySelector(`[data-question-action="${action === 'more' ? 'less' : 'more'}"]`) : focus).focus({ preventScroll: true });
+  }
+});
+byId('hidden-questions').addEventListener('click', event => {
+  const button = event.target.closest('[data-restore-question]');
+  if (!selected || !button) return;
+  activitySettings[selected.id].questions[button.dataset.restoreQuestion].included = true;
+  saveActivity();
+  renderEditor();
+  if (!byId('question-panel').hidden) byId('question-panel').querySelector('summary').focus({ preventScroll: true });
+});
+byId('restore-all').addEventListener('click', () => {
+  if (!selected) return;
+  const settings = activitySettings[selected.id];
+  for (const override of Object.values(settings?.questions ?? {})) override.included = true;
+  saveActivity();
+  renderEditor();
 });
 byId('language').addEventListener('change', event => {
   language = event.target.value;
@@ -362,11 +392,9 @@ byId('filters').addEventListener('reset', event => {
   for (const field of filterNames) byId(field).value = '';
   renderCatalogue();
 });
-byId('activity-list').addEventListener('click', event => {
-  const button = event.target.closest('[data-activity]');
-  if (!button) return;
-  selected = activities.find(entry => entry.id === button.dataset.activity);
-  for (const item of byId('activity-list').querySelectorAll('button')) item.setAttribute('aria-pressed', String(item === button));
+byId('activity-select').addEventListener('change', event => {
+  selected = activities.find(entry => entry.id === event.target.value);
+  paper.parentElement.scrollTop = 0;
   renderSelection();
 });
 for (const [id, mode] of [['worksheet-mode', 'worksheet'], ['answers-mode', 'answers']]) {
@@ -417,7 +445,16 @@ if (listenId === null) {
   byId('player').hidden = false;
   document.querySelector('.skip').href = '#player';
 }
-if (matchMedia('(max-width: 1040px)').matches) byId('format-panel').open = false;
-if (matchMedia('(max-width: 590px)').matches) byId('filter-panel').open = false;
+const mobileLayout = matchMedia('(max-width: 640px)');
+const compactCatalog = matchMedia('(max-width: 1000px)');
+function toggleSettings(open) {
+  byId('settings-toggle').setAttribute('aria-expanded', String(open));
+  byId('settings-scroll').hidden = !open;
+}
+toggleSettings(!mobileLayout.matches);
+byId('filter-panel').open = !compactCatalog.matches;
+byId('settings-toggle').addEventListener('click', () => toggleSettings(byId('settings-scroll').hidden));
+mobileLayout.addEventListener('change', event => { toggleSettings(!event.matches); });
+compactCatalog.addEventListener('change', event => { byId('filter-panel').open = !event.matches; });
 theme();
 translate();

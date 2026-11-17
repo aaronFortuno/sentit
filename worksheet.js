@@ -92,6 +92,33 @@ function questionBlock(number, heading, parts) {
   return block;
 }
 
+function questionTools(id, number, count, answerKey, labels) {
+  const tools = element('div', 'paper-question-tools');
+  tools.dataset.questionId = id;
+  tools.lang = labels.language;
+  const button = (action, text, label) => {
+    const control = element('button', 'paper-question-tool', text);
+    control.type = 'button';
+    control.dataset.questionAction = action;
+    control.setAttribute('aria-label', label);
+    control.title = label;
+    return control;
+  };
+  const toggle = button('toggle', '⋯', labels.questionOptions(number));
+  toggle.setAttribute('aria-expanded', 'false');
+  const actions = element('div', 'paper-question-actions');
+  if (!answerKey) {
+    const less = button('less', '−', labels.questionLess(number));
+    const more = button('more', '+', labels.questionMore(number));
+    less.disabled = count === 0;
+    more.disabled = count >= maxLines;
+    actions.append(less, element('span', 'paper-question-units', count), more);
+  }
+  actions.append(button('hide', '×', labels.questionHide(number)));
+  tools.append(toggle, actions);
+  return tools;
+}
+
 function transcriptBlock({ speaker, text }, heading) {
   const block = element('div', 'paper-block');
   if (heading) block.append(element('h4', 'paper-section-title', heading));
@@ -102,7 +129,7 @@ function transcriptBlock({ speaker, text }, heading) {
   return block;
 }
 
-export function renderWorksheet(container, entry, format, settings, { answerKey, labels, listenUrl, session }) {
+export function renderWorksheet(container, entry, format, settings, { answerKey, labels, toolLabels = labels, listenUrl, session }) {
   const footers = [];
   let content;
   container.replaceChildren();
@@ -174,17 +201,22 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
 
   let number = 0;
   entry.questions.forEach((question, index) => {
-    const { included, lines } = questionFormat(question, index, settings);
+    const { id, included, lines } = questionFormat(question, index, settings);
     if (!included) return;
     const position = ++number;
     const heading = position === 1 ? labels.questions : '';
-    const prompt = element('p', 'paper-prompt', question.prompt);
+    const makePrompt = (text, first = true) => {
+      const wrap = element('div', 'paper-prompt-wrap');
+      wrap.append(element('p', 'paper-prompt', text));
+      if (first) wrap.append(questionTools(id, position, lines, answerKey, toolLabels));
+      return wrap;
+    };
     const response = answerKey
       ? [element('p', 'paper-answer', question.answer ?? labels.noAnswer)]
       : Array.from({ length: lines }, () => element('div', 'write-line'));
-    const block = questionBlock(position, heading, [prompt, ...response]);
+    const block = questionBlock(position, heading, [makePrompt(question.prompt), ...response]);
     placeBlock(block, () => {
-      placeText(question.prompt, (text, first) => questionBlock(first && position, first && heading, [element('p', 'paper-prompt', text)]));
+      placeText(question.prompt, (text, first) => questionBlock(first && position, first && heading, [makePrompt(text, first)]));
       if (answerKey) {
         placeText(question.answer ?? labels.noAnswer, text => questionBlock(null, '', [element('p', 'paper-answer', text)]));
       } else {

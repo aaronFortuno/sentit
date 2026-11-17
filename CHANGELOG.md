@@ -1,5 +1,12 @@
 # Canvis
 
+## 0.1.5 · 17 de novembre de 2026
+
+- Els controls de línies de resposta i d’amagar preguntes apareixen directament al visor. El sidebar mostra només les preguntes amagades, per recuperar-les.
+- Accés a l’escolta a la part superior i botó d’impressió a la part inferior del sidebar dret. Àudio i impressió tenen espais diferenciats.
+- Selector d’activitat sobre el full i controls més compactes. El peu obre els canvis amb el número de versió.
+- Capçalera del full sense la línia sobre el nom i la data.
+
 ## 0.1.4 · 17 de novembre de 2026
 
 - Sessió pautada amb temps de lectura prèvia, fins a tres escoltes i pausa entre escoltes configurables.
