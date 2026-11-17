@@ -1,5 +1,9 @@
 # Canvis
 
+## 0.1.7 · 17 de novembre de 2026
+
+- Comparativa de les dues primeres intervencions d’«El senyal de la ràdio» amb Aoede–Charon i Leda–Puck, disponible des del quadre de canvis.
+
 ## 0.1.6 · 17 de novembre de 2026
 
 - Locució inicial i locució entre escoltes activables independentment. El QR i el resum del full incorporen aquests ajustos.

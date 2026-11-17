@@ -1,0 +1,14 @@
+.voice-review { min-height: 0; overflow: auto; padding: clamp(22px, 5vw, 56px) clamp(16px, 6vw, 60px); display: grid; grid-template-columns: minmax(0, 900px); justify-content: center; align-content: start; gap: 26px; scrollbar-width: thin; scrollbar-color: var(--line) transparent; }
+.voice-intro { display: grid; gap: 12px; }
+.voice-intro h1 { font-size: clamp(1.7rem, 4vw, 2.5rem); }
+.voice-intro p { color: var(--quiet); max-width: 68ch; }
+.voice-samples { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+.voice-sample { min-width: 0; padding: 20px; border: 1px solid var(--line); border-radius: 12px; background: var(--panel); }
+.voice-sample h2 { font-size: 1.25rem; }
+.voice-sample dl { display: flex; gap: 38px; margin: 18px 0 12px; }
+.voice-sample dt { color: var(--quiet); font-size: .85rem; }
+.voice-sample dd { margin: 3px 0 0; font-weight: 650; }
+.voice-sample audio { height: 44px; }
+.voice-script { display: grid; gap: 14px; padding-top: 24px; border-top: 1px solid var(--line); }
+.voice-script p { max-width: 76ch; line-height: 1.65; }
+@media (max-width: 620px) { .voice-samples { grid-template-columns: minmax(0, 1fr); gap: 12px; } .voice-sample { padding: 16px; } }

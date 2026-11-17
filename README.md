@@ -21,6 +21,8 @@ El projecte es manté a la sèrie **0.1.x** mentre es revisen les primeres activ
 
 Els filtres de l’esquerra acoten el selector d’activitat situat sobre el full. El sidebar dret agrupa l’àudio i el format d’impressió. L’accés a la vista d’escolta i el botó per imprimir el document seleccionat queden visibles mentre es consulten els ajustos. En pantalles petites, **Àudio i impressió** desplega els ajustos.
 
+La [prova de veus d’«El senyal de la ràdio»](proves/veus-s001.html) permet comparar les dues primeres intervencions amb Aoede–Charon i Leda–Puck.
+
 ## Desenvolupament
 
 HTML, CSS i JavaScript executats al navegador. GitHub Pages serveix la branca `main` des de l’arrel. No cal compilar.
