@@ -1,6 +1,6 @@
 # Crèdits
 
-Les locucions inicials dels dos àudios s’han generat amb la veu Aoede de [Gemini TTS](https://ai.google.dev/gemini-api/docs/speech-generation).
+Les locucions inicials i les dues guies de la sessió pautada en català s’han generat amb la veu Aoede de [Gemini TTS](https://ai.google.dev/gemini-api/docs/speech-generation).
 
 ## «El senyal de la ràdio»
 

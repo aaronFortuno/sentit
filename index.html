@@ -76,6 +76,15 @@
         <h2 id="actions-title" data-t="audio">Àudio</h2>
         <div id="audio-actions" hidden>
           <audio id="teacher-audio" controls preload="none" data-label="audio"></audio>
+          <form id="session-editor" autocomplete="off" hidden>
+            <label class="session-mode"><input id="guided-mode" type="checkbox" checked><span data-t="guidedMode">Sessió pautada</span></label>
+            <fieldset id="session-fields">
+              <legend class="sr-only" data-t="guidedMode">Sessió pautada</legend>
+              <label><span data-t="readingTime">Lectura prèvia (s)</span><input id="session-reading" type="number" min="0" max="300" step="1" value="60" required></label>
+              <label><span data-t="listens">Escoltes</span><select id="session-listens"><option value="1">1</option><option value="2" selected>2</option><option value="3">3</option></select></label>
+              <label class="session-break"><span data-t="intervalTime">Pausa entre escoltes (s)</span><input id="session-interval" type="number" min="0" max="300" step="1" value="30" required></label>
+            </fieldset>
+          </form>
           <a class="button" id="open-player" data-t="openPlayer">Obre la vista d’escolta</a>
           <button class="subtle share" id="copy-link" type="button" data-t="copyLink">Copia l’enllaç</button>
           <input id="copy-fallback" type="text" readonly data-label="listeningLink" hidden>
@@ -127,6 +136,7 @@
       </button>
       <audio id="student-audio" preload="none"></audio>
       <p id="play-status" class="sr-only" role="status"></p>
+      <p id="session-countdown" class="session-countdown" role="timer" data-label="remainingTime" hidden></p>
     </section>
   </main>
 
@@ -147,6 +157,8 @@
       <div class="dialog-head"><h2 id="changes-title" data-t="changes">Canvis</h2>
         <form method="dialog"><button class="icon-button" type="submit" data-label="close"><span data-icon="close" aria-hidden="true"></span></button></form>
       </div>
+      <h3>0.3.0 <time datetime="2026-11-17" data-t="releaseDate">17 de novembre de 2026</time></h3>
+      <p data-t="releaseGuided">Sessió pautada amb temps de lectura, escoltes i pauses configurables. La fitxa mostra el resum al costat del QR.</p>
       <h3>0.2.1 <time datetime="2026-11-17" data-t="releaseDate">17 de novembre de 2026</time></h3>
       <p data-t="releaseListening">Adreça d’escolta per idioma i codi al costat del QR. Els àudios s’obren amb el títol locutat i una pausa breu.</p>
       <h3>0.2.0 <time datetime="2026-11-17" data-t="releaseDate">17 de novembre de 2026</time></h3>

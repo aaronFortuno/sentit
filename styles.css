@@ -61,7 +61,7 @@ svg { display: block; fill: none; stroke: currentColor; stroke-width: 1.7; strok
 .brand { gap: 9px; text-decoration: none; font: 700 2.05rem/1 var(--serif); letter-spacing: -.06em; }
 .brand-dot { color: var(--accent); }
 .top-actions { gap: 8px; }
-.icon-button, #filters select, #copy-fallback, #worksheet-format :is(select, input), .question-lines input {
+.icon-button, #filters select, #copy-fallback, #worksheet-format :is(select, input), #session-fields :is(select, input), .question-lines input {
   border: 1px solid var(--line); border-radius: 7px; background: var(--panel);
 }
 .icon-button { display: inline-grid; place-items: center; width: 36px; min-height: 36px; padding-inline: 8px; }
@@ -125,7 +125,9 @@ summary { color: var(--quiet); cursor: pointer; }
 .paper-class-code strong { font: 700 11pt/1.3 "Instrument Sans", "Segoe UI", sans-serif; }
 .paper h3 { margin: 1.5mm 0 1mm; font: 700 1.65em/1.12 var(--sheet-font); }
 .paper-listening { display: flex; align-self: center; align-items: center; gap: 2mm; flex: none; }
-.paper-audio-url { max-inline-size: 48mm; text-align: end; font: 8pt/1.25 "Instrument Sans", "Segoe UI", sans-serif; color: var(--paper-green); }
+.paper-listening-details { display: grid; gap: 1mm; max-inline-size: 59mm; text-align: end; font: 8pt/1.25 "Instrument Sans", "Segoe UI", sans-serif; color: var(--paper-green); }
+.paper-listening-details li + li { margin-block-start: .5mm; }
+.paper-session-summary { margin: 0; padding: 0; list-style: none; }
 .paper-qr { flex: none; }
 .paper-qr svg { width: 26mm; height: 26mm; stroke: none; }
 .paper-identity { display: flex; gap: 8mm; margin: 5mm 0; }
@@ -145,6 +147,14 @@ summary { color: var(--quiet); cursor: pointer; }
 .paper-empty { text-align: center; padding: 36px 8px; }
 .actions section + section { border-top: 1px solid var(--line); margin-top: 14px; padding-top: 16px; }
 .actions h2 { margin-block-end: 9px; }
+#session-editor { margin-block-end: 12px; }
+.session-mode { display: flex; align-items: center; gap: 5px; font-size: .9rem; font-weight: 650; }
+.session-mode input { margin: 0; accent-color: var(--green); }
+#session-fields { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr); align-items: end; gap: 6px 8px; min-width: 0; margin: 7px 0 0; padding: 0; border: 0; }
+#session-fields label { display: grid; gap: 3px; font-size: .85rem; color: var(--quiet); }
+#session-fields :is(select, input) { width: 100%; min-height: 33px; padding: 4px 6px; }
+#session-fields .session-break { grid-column: 1 / -1; }
+#session-fields input:disabled { opacity: .55; }
 #worksheet-editor summary { color: var(--ink); font-weight: 650; }
 #worksheet-editor details + details { margin-block-start: 12px; }
 #worksheet-format { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: end; gap: 8px; padding-top: 9px; }
@@ -181,6 +191,8 @@ audio[controls] { inline-size: 100%; min-width: 0; margin-bottom: 10px; }
 .player section { display: grid; justify-items: center; gap: 17px; }
 .player h1 { font-size: clamp(1.8rem, 6vw, 3.15rem); }
 .player p { color: var(--quiet); }
+#play-status:empty { position: absolute; }
+.player .session-countdown { color: var(--ink); font-size: 1.5rem; line-height: 1; font-variant-numeric: tabular-nums; }
 .play { min-height: 52px; padding-inline: 23px; font-size: 1.05rem; }
 dialog { width: min(calc(100% - 24px), 490px); max-height: 88dvh; border: 1px solid var(--line); border-radius: 13px; padding: 0; background: var(--panel); color: var(--ink); }
 dialog[open] { animation: appear var(--motion) ease both; }

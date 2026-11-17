@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.3.0 · 17 de novembre de 2026
+
+- Sessió pautada amb temps de lectura prèvia, fins a tres escoltes i pausa entre escoltes configurables.
+- Locucions per guiar la lectura de les preguntes i anunciar les escoltes següents.
+- El QR i l’enllaç incorporen els ajustos. El full resumeix els temps, el nombre d’escoltes i la durada del fragment.
+
 ## 0.2.1 · 17 de novembre de 2026
 
 - La capçalera de la fitxa mostra l’adreça curta d’escolta al costat del QR.

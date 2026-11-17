@@ -1,3 +1,5 @@
+import { clockTime } from './session.js';
+
 export const defaultFormat = { font: 'serif', size: 12, spacing: 4, leading: 1.35 };
 
 const fontStacks = {
@@ -22,7 +24,7 @@ function element(tag, className, text) {
   return node;
 }
 
-function makeHeader(entry, labels, code, answerKey, listenUrl) {
+function makeHeader(entry, labels, code, answerKey, listenUrl, session) {
   const head = element('header', 'paper-heading');
   const headerMain = element('div', 'paper-header-main');
   const top = element('div', 'paper-top');
@@ -43,7 +45,16 @@ function makeHeader(entry, labels, code, answerKey, listenUrl) {
   head.append(headerMain);
   if (listenUrl) {
     const listening = element('div', 'paper-listening');
-    listening.append(element('span', 'paper-audio-url', listenUrl.replace(/^https:\/\//, '')));
+    const details = element('div', 'paper-listening-details');
+    details.append(element('span', 'paper-audio-url', listenUrl.replace(/^https:\/\//, '')));
+    if (session) {
+      const summary = element('ul', 'paper-session-summary');
+      summary.append(element('li', null, labels.paperReading(clockTime(session.reading))));
+      summary.append(element('li', null, labels.paperListens(session.listens, clockTime(entry.fragment.seconds))));
+      if (session.listens > 1) summary.append(element('li', null, labels.paperInterval(clockTime(session.interval))));
+      details.append(summary);
+    }
+    listening.append(details);
     if (typeof globalThis.qrcode === 'function') {
       const qr = globalThis.qrcode(0, 'M');
       qr.addData(listenUrl);
@@ -91,7 +102,7 @@ function transcriptBlock({ speaker, text }, heading) {
   return block;
 }
 
-export function renderWorksheet(container, entry, format, settings, { answerKey, labels, listenUrl }) {
+export function renderWorksheet(container, entry, format, settings, { answerKey, labels, listenUrl, session }) {
   const footers = [];
   let content;
   container.replaceChildren();
@@ -156,7 +167,7 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
   }
 
   startPage();
-  content.append(makeHeader(entry, labels, settings?.code?.trim(), answerKey, listenUrl));
+  content.append(makeHeader(entry, labels, settings?.code?.trim(), answerKey, listenUrl, session));
   if (!answerKey) {
     content.append(makeIdentity(labels), element('p', 'paper-instructions', labels.instructions));
   }

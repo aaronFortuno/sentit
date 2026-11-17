@@ -1,6 +1,8 @@
 import { activities } from './catalogue.js';
 import { strings } from './locales.js';
 import { defaultFormat, maxLines, questionFormat, renderWorksheet } from './worksheet.js';
+import { clockTime, decodeSession, defaultSession, encodeSession, guidedPrompts } from './session.js';
+import { initGuidedPlayer } from './guided-player.js';
 
 const byId = id => document.getElementById(id);
 const preferences = {
@@ -13,12 +15,13 @@ let selected = activities[0] ?? null;
 let documentMode = 'worksheet';
 const t = key => strings[language][key];
 const filterNames = ['grade', 'level', 'duration', 'genre'];
-const listenId = new URL(location.href).searchParams.get('escolta');
+const query = new URL(location.href).searchParams;
+const listenId = query.get('escolta');
 const listenKey = entry => `${entry.language}-${entry.code}`;
-const listenUrl = (entry, base = location.href) => new URL(`?escolta=${encodeURIComponent(listenKey(entry))}`, base).href;
 const publicListenUrl = entry => listenUrl(entry, 'https://sentit.ortogra.fi/');
 const printLocale = entry => strings[entry.language] ?? strings.ca;
 const formatForm = byId('worksheet-format');
+const sessionEditor = byId('session-editor');
 const paper = byId('paper');
 const format = { ...defaultFormat };
 let activitySettings = {};
@@ -31,6 +34,23 @@ try {
   }
   activitySettings = JSON.parse(preferences.get('worksheet-activities')) ?? {};
 } catch { /* Use defaults if settings cannot be read. */ }
+
+function sessionSettings(entry) {
+  return { ...defaultSession, ...activitySettings[entry.id]?.session };
+}
+
+function configuredSession(entry) {
+  if (!guidedPrompts(entry)) return null;
+  const session = sessionSettings(entry);
+  return session.enabled ? session : null;
+}
+
+function listenUrl(entry, base = location.href) {
+  const url = new URL(`?escolta=${encodeURIComponent(listenKey(entry))}`, base);
+  const session = configuredSession(entry);
+  if (session) url.searchParams.set('p', encodeSession(session));
+  return url.href;
+}
 
 const icons = {
   sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.4 1.4m11.2 11.2L19 19m0-14-1.4 1.4M6.4 17.6 5 19"/>',
@@ -50,9 +70,6 @@ function node(tag, text, className) {
   if (text !== undefined) element.textContent = text;
   if (className) element.className = className;
   return element;
-}
-function duration(entry) {
-  return `${Math.floor(entry.seconds / 60)}:${String(entry.seconds % 60).padStart(2, '0')}`;
 }
 function filterDuration(entry) {
   if (entry.seconds <= 60) return 'short';
@@ -93,7 +110,7 @@ function renderCatalogue() {
     button.setAttribute('aria-pressed', String(entry === selected));
     const title = node('strong', entry.title);
     title.lang = entry.language;
-    button.append(title, node('span', `${t('grades')[entry.grade]} · ${t('genres')[entry.genre]} · ${duration(entry)}`, 'meta'));
+    button.append(title, node('span', `${t('grades')[entry.grade]} · ${t('genres')[entry.genre]} · ${clockTime(entry.seconds)}`, 'meta'));
     if (entry.sample) button.append(node('span', t('sample'), 'meta'));
     item.append(button);
     list.append(item);
@@ -118,6 +135,7 @@ function renderPaper() {
     answerKey,
     labels: printLocale(selected),
     listenUrl: !answerKey && selected.audio ? publicListenUrl(selected) : null,
+    session: configuredSession(selected),
   });
 }
 
@@ -161,6 +179,24 @@ function saveActivity() {
   renderPaper();
 }
 
+function renderSessionEditor() {
+  const available = Boolean(guidedPrompts(selected));
+  sessionEditor.hidden = !available;
+  if (available) {
+    const session = sessionSettings(selected);
+    byId('guided-mode').checked = session.enabled;
+    byId('session-reading').value = session.reading;
+    byId('session-listens').value = session.listens;
+    byId('session-interval').value = session.interval;
+    byId('session-fields').disabled = !session.enabled;
+    byId('session-fields').hidden = !session.enabled;
+    byId('session-interval').disabled = session.listens === 1;
+  }
+  if (selected) byId('open-player').href = listenUrl(selected);
+  byId('copy-fallback').hidden = true;
+  byId('copy-status').textContent = '';
+}
+
 function renderSelection() {
   byId('worksheet-mode').setAttribute('aria-pressed', String(documentMode === 'worksheet'));
   byId('answers-mode').setAttribute('aria-pressed', String(documentMode === 'answers'));
@@ -177,19 +213,41 @@ function renderSelection() {
   }
   byId('audio-actions').hidden = !selected?.audio;
   byId('audio-empty').hidden = Boolean(selected?.audio);
-  if (selected) byId('open-player').href = listenUrl(selected);
-  byId('copy-fallback').hidden = true;
-  byId('copy-status').textContent = '';
+  renderSessionEditor();
 }
 
 function player(entry) {
   const audio = byId('student-audio');
   const play = byId('play');
-  byId('player-title').textContent = entry?.title ?? t('invalid');
+  const sessionCode = query.get('p');
+  const session = sessionCode === null ? null : decodeSession(sessionCode);
+  const prompts = guidedPrompts(entry);
+  const invalidConfig = Boolean(entry) && sessionCode !== null && (!session || !prompts);
+  const available = Boolean(entry?.audio) && !invalidConfig;
+  byId('player-title').textContent = invalidConfig ? t('invalidSession') : entry?.title ?? t('invalid');
   byId('player-title').lang = entry?.language ?? language;
-  byId('player-hint').hidden = Boolean(entry?.audio);
-  play.hidden = !entry?.audio;
-  if (!entry?.audio) return;
+  byId('player-hint').hidden = available;
+  play.hidden = !available;
+  if (!available) return;
+  if (session) {
+    const statusNode = byId('play-status');
+    const timer = byId('session-countdown');
+    const label = byId('play-label');
+    statusNode.classList.remove('sr-only');
+    initGuidedPlayer(entry, session, prompts, play, ({ action, status, countdown, number, busy }) => {
+      if (label.textContent !== t(action)) {
+        label.textContent = t(action);
+        icon(play.querySelector('[data-icon]'), action === 'pause' ? 'pause' : 'play');
+      }
+      const message = status === 'sessionListening' ? t(status)(number, session.listens) : status ? t(status) : '';
+      if (statusNode.textContent !== message) statusNode.textContent = message;
+      const time = countdown === null ? '' : clockTime(countdown);
+      if (timer.textContent !== time) timer.textContent = time;
+      timer.hidden = countdown === null;
+      play.disabled = busy;
+    });
+    return;
+  }
   if (!audio.hasAttribute('src')) audio.src = entry.audio;
   function announce(error = Boolean(audio.error)) {
     const status = byId('play-status');
@@ -234,6 +292,20 @@ function translate() {
 byId('language').value = language;
 syncFormat();
 new ResizeObserver(fitZoom).observe(paper);
+sessionEditor.addEventListener('submit', event => event.preventDefault());
+sessionEditor.addEventListener('change', () => {
+  if (!guidedPrompts(selected)) return;
+  if (sessionEditor.checkValidity()) {
+    (activitySettings[selected.id] ??= {}).session = {
+      enabled: byId('guided-mode').checked,
+      reading: byId('session-reading').valueAsNumber,
+      listens: Number(byId('session-listens').value),
+      interval: byId('session-interval').valueAsNumber,
+    };
+    saveActivity();
+  }
+  renderSessionEditor();
+});
 formatForm.addEventListener('submit', event => event.preventDefault());
 formatForm.addEventListener('change', event => {
   const input = event.target;
