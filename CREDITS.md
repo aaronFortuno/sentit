@@ -1,5 +1,7 @@
 # Crèdits
 
+Les locucions inicials dels dos àudios s’han generat amb la veu Aoede de [Gemini TTS](https://ai.google.dev/gemini-api/docs/speech-generation).
+
 ## «El senyal de la ràdio»
 
 Guió, preguntes i senyals de so originals de Sentit. Veus sintetitzades amb Gemini TTS (Aoede per a la Laia i Charon per a en Biel). Els tocs del senyal i la sintonia final s’han generat amb FFmpeg. [Fitxa i transcripció](content/el-senyal-de-la-radio.js)

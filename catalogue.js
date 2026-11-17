@@ -9,10 +9,11 @@ export const activities = [
     title: 'Canvi de plans',
     grade: '5',
     level: 'easy',
-    seconds: 70,
+    seconds: 75,
     genre: 'dialogue',
     sample: true,
     audio: './assets/audio/canvi-de-plans.mp3',
+    introduction: 'Comprensió oral. Canvi de plans.',
     transcript: [
       { text: '[Se sent ploure.]' },
       { speaker: 'Júlia', text: 'T’has mirat el cel? Fa una estona que plou de valent. Amb aquestes botes jo hi podria anar, però a l’hort ens enfonsaríem fins als turmells.' },

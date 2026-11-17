@@ -5,9 +5,10 @@ export const radio = {
   title: 'El senyal de la ràdio',
   grade: '5',
   level: 'easy',
-  seconds: 74,
+  seconds: 80,
   genre: 'dialogue',
   audio: './assets/audio/el-senyal-de-la-radio.mp3',
+  introduction: 'Comprensió oral. El senyal de la ràdio.',
   transcript: [
     { speaker: 'Laia', text: 'Prova de so. Divendres, a l’hora del pati, farem un intercanvi de còmics al porxo.' },
     { speaker: 'Biel', text: 'Para un moment, Laia. Ahir vam penjar un cartell que deia que es faria a la biblioteca.' },

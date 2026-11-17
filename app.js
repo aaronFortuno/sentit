@@ -14,8 +14,9 @@ let documentMode = 'worksheet';
 const t = key => strings[language][key];
 const filterNames = ['grade', 'level', 'duration', 'genre'];
 const listenId = new URL(location.href).searchParams.get('escolta');
-const listenUrl = entry => new URL(`?escolta=${encodeURIComponent(entry.id)}`, location.href).href;
-const publicListenUrl = entry => `https://sentit.ortogra.fi/?escolta=${encodeURIComponent(entry.id)}`;
+const listenKey = entry => `${entry.language}-${entry.code}`;
+const listenUrl = (entry, base = location.href) => new URL(`?escolta=${encodeURIComponent(listenKey(entry))}`, base).href;
+const publicListenUrl = entry => listenUrl(entry, 'https://sentit.ortogra.fi/');
 const printLocale = entry => strings[entry.language] ?? strings.ca;
 const formatForm = byId('worksheet-format');
 const paper = byId('paper');
@@ -223,7 +224,10 @@ function translate() {
     renderFilters();
     renderCatalogue();
   } else {
-    player(activities.find(entry => entry.id === listenId));
+    const key = listenId.trim().toLowerCase();
+    const entry = activities.find(activity => listenKey(activity).toLowerCase() === key)
+      ?? activities.find(activity => activity.id === key);
+    player(entry);
   }
 }
 

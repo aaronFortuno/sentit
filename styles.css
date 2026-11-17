@@ -115,17 +115,18 @@ summary { color: var(--quiet); cursor: pointer; }
 .paper-heading { display: flex; align-items: start; gap: 5mm; padding-block-end: 4mm; border-bottom: 1px solid var(--paper-line); }
 .paper-header-main { min-width: 0; flex: 1; }
 .paper-top, .paper-brand { display: flex; align-items: center; }
-.paper-top { gap: 3mm; min-height: 12mm; }
+.paper-top { flex-wrap: wrap; gap: 2mm 3mm; min-height: 12mm; }
 .paper-brand { gap: 2mm; color: var(--paper-green); font: 700 15pt/1 var(--serif); letter-spacing: -.045em; }
 .paper-brand img { flex: none; }
 .paper-kind { border-inline-start: 1px solid var(--paper-line); padding-inline-start: 3mm; }
-.paper-kind, .paper-caption, .paper-audio-url, .paper-qr, .paper-footer { font: 9pt/1.3 "Instrument Sans", "Segoe UI", sans-serif; color: var(--paper-green); }
+.paper-kind, .paper-caption, .paper-footer { font: 9pt/1.3 "Instrument Sans", "Segoe UI", sans-serif; color: var(--paper-green); }
 .paper-class-code { margin-inline-start: auto; display: grid; justify-items: start; padding: 1mm 2mm; border: 1px solid var(--paper-line); border-radius: 1mm; }
 .paper-class-code span { font: 8pt/1.2 "Instrument Sans", "Segoe UI", sans-serif; }
 .paper-class-code strong { font: 700 11pt/1.3 "Instrument Sans", "Segoe UI", sans-serif; }
 .paper h3 { margin: 1.5mm 0 1mm; font: 700 1.65em/1.12 var(--sheet-font); }
-.paper-audio-url { display: inline-block; margin-block-start: 1mm; }
-.paper-qr { display: grid; justify-items: center; align-self: end; gap: .5mm; flex: none; text-underline-offset: .2em; }
+.paper-listening { display: flex; align-self: center; align-items: center; gap: 2mm; flex: none; }
+.paper-audio-url { max-inline-size: 48mm; text-align: end; font: 8pt/1.25 "Instrument Sans", "Segoe UI", sans-serif; color: var(--paper-green); }
+.paper-qr { flex: none; }
 .paper-qr svg { width: 26mm; height: 26mm; stroke: none; }
 .paper-identity { display: flex; gap: 8mm; margin: 5mm 0; }
 .paper-identity span { display: flex; align-items: baseline; flex: 1; gap: 2mm; }

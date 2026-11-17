@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.2.1 · 17 de novembre de 2026
+
+- La capçalera de la fitxa mostra l’adreça curta d’escolta al costat del QR.
+- Els enllaços nous identifiquen la fitxa per idioma i codi. Els enllaços anteriors continuen obrint la mateixa activitat.
+- Els àudios comencen amb el títol locutat i una pausa breu. El solucionari inclou la locució.
+
 ## 0.2.0 · 17 de novembre de 2026
 
 - Maquetador A4 amb format configurable, selecció de preguntes i línies de resposta per pregunta.

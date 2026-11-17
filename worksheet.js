@@ -40,23 +40,21 @@ function makeHeader(entry, labels, code, answerKey, listenUrl) {
   }
   headerMain.append(top, element('h3', null, entry.title));
   if (entry.sample) headerMain.append(element('p', 'paper-caption', labels.sample));
-  if (listenUrl) {
-    const link = element('a', 'paper-audio-url', listenUrl.replace('https://', ''));
-    link.href = listenUrl;
-    headerMain.append(link);
-  }
   head.append(headerMain);
-  if (listenUrl && typeof globalThis.qrcode === 'function') {
-    const link = element('a', 'paper-qr', labels.listen);
-    link.href = listenUrl;
-    const qr = globalThis.qrcode(0, 'M');
-    qr.addData(listenUrl);
-    qr.make();
-    const qrImage = element('span');
-    qrImage.setAttribute('aria-hidden', 'true');
-    qrImage.innerHTML = qr.createSvgTag(3, 12);
-    link.prepend(qrImage);
-    head.append(link);
+  if (listenUrl) {
+    const listening = element('div', 'paper-listening');
+    listening.append(element('span', 'paper-audio-url', listenUrl.replace(/^https:\/\//, '')));
+    if (typeof globalThis.qrcode === 'function') {
+      const qr = globalThis.qrcode(0, 'M');
+      qr.addData(listenUrl);
+      qr.make();
+      const link = element('a', 'paper-qr');
+      link.href = listenUrl;
+      link.setAttribute('aria-label', labels.listen);
+      link.innerHTML = qr.createSvgTag(3, 12);
+      listening.append(link);
+    }
+    head.append(listening);
   }
   return head;
 }
@@ -185,7 +183,11 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
   });
 
   if (answerKey) {
-    entry.transcript?.forEach((part, index) => {
+    const transcript = entry.transcript ?? [];
+    const parts = entry.introduction
+      ? [{ speaker: labels.introduction, text: entry.introduction }, ...transcript]
+      : transcript;
+    parts.forEach((part, index) => {
       const heading = index === 0 ? labels.transcript : '';
       placeBlock(transcriptBlock(part, heading), () => {
         placeText(part.text, (text, first) => transcriptBlock({ text, speaker: first && part.speaker }, first && heading));
