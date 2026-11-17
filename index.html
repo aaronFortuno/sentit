@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Comprensions orals en català amb àudio, fitxes imprimibles i solucionari.">
+  <meta name="theme-color" content="#f7f5ee">
+  <link rel="canonical" href="https://sentit.ortogra.fi/">
+  <link rel="icon" href="./assets/sentit.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Sentit · Comprensió oral</title>
+  <script defer src="./assets/vendor/qrcode.js"></script>
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#workspace" data-t="skip">Ves al contingut</a>
+  <header class="top">
+    <div class="top-inner">
+      <div class="identity">
+        <a class="brand" href="./" aria-label="Sentit">
+          <img src="./assets/sentit.svg" width="35" height="35" alt="">
+          <span>sentit<span class="brand-dot">.</span></span>
+        </a>
+        <p data-t="tagline">Dona sentit al que escoltes.</p>
+      </div>
+      <div class="top-actions">
+        <label class="language">
+          <span class="sr-only" data-t="interfaceLanguage">Idioma de la interfície</span>
+          <select id="language">
+            <option value="ca" lang="ca">Català</option>
+            <option value="es" lang="es">Español</option>
+          </select>
+        </label>
+        <button id="theme" class="icon-button" type="button" data-label="theme" aria-label="Canvia el tema">
+          <span data-icon="theme" aria-hidden="true"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="workspace" class="workspace" tabindex="-1">
+    <aside class="pane catalog" aria-labelledby="catalog-title">
+      <div class="section-heading"><h1 id="catalog-title" data-t="catalog">Catàleg</h1><span id="count" class="count" role="status"></span></div>
+      <details id="filter-panel" open>
+        <summary data-t="filters">Filtres</summary>
+        <form id="filters">
+          <label><span data-t="grade">Curs</span><select name="grade" id="grade"></select></label>
+          <label><span data-t="level">Dificultat</span><select name="level" id="level"></select></label>
+          <label><span data-t="duration">Durada</span><select name="duration" id="duration"></select></label>
+          <label><span data-t="genre">Tipus</span><select name="genre" id="genre"></select></label>
+          <button type="reset" class="subtle reset" data-t="reset">Neteja els filtres</button>
+        </form>
+      </details>
+      <ul class="activity-list" id="activity-list"></ul>
+      <p class="empty" id="catalog-empty" hidden data-t="noResults">Cap activitat amb aquests filtres.</p>
+    </aside>
+
+    <section class="preview" aria-labelledby="preview-title">
+      <div class="preview-bar">
+        <h2 id="preview-title" data-t="preview">Previsualització</h2>
+        <div class="mode-switch" role="group" data-label="document">
+          <button id="worksheet-mode" type="button" aria-pressed="true" data-t="worksheet">Fitxa</button>
+          <button id="answers-mode" type="button" aria-pressed="false" data-t="answers">Solucionari</button>
+        </div>
+      </div>
+      <div class="paper-stage">
+        <article class="paper" id="paper" aria-label="Full A4"></article>
+        <div class="empty paper-empty" id="paper-empty" hidden data-t="chooseActivity">Tria una activitat per veure la fitxa.</div>
+      </div>
+    </section>
+
+    <aside class="pane actions" aria-labelledby="actions-title">
+      <section>
+        <h2 id="actions-title" data-t="audio">Àudio</h2>
+        <div id="audio-actions" hidden>
+          <audio id="teacher-audio" controls preload="none" data-label="audio"></audio>
+          <a class="button" id="open-player" data-t="openPlayer">Obre la vista d’escolta</a>
+          <button class="subtle share" id="copy-link" type="button" data-t="copyLink">Copia l’enllaç</button>
+          <input id="copy-fallback" type="text" readonly data-label="listeningLink" hidden>
+          <p class="inline-status" id="copy-status" role="status"></p>
+        </div>
+        <p id="audio-empty" class="empty" data-t="noAudio">Tria una activitat per escoltar-la.</p>
+      </section>
+      <section>
+        <h2 data-t="print">Impressió</h2>
+        <button id="print" class="button primary" type="button" disabled>
+          <span data-icon="printer" aria-hidden="true"></span><span data-t="printPDF">Imprimeix o desa en PDF</span>
+        </button>
+        <p class="small" id="print-kind"></p>
+      </section>
+    </aside>
+  </main>
+
+  <main id="player" class="player" tabindex="-1" hidden>
+    <section aria-labelledby="player-title">
+      <h1 id="player-title"></h1>
+      <p id="player-instructions" data-t="playerInstructions">Tingues la fitxa a mà i prem el botó per escoltar.</p>
+      <button id="play" type="button" class="button primary play" hidden>
+        <span data-icon="play" aria-hidden="true"></span><span id="play-label"></span>
+      </button>
+      <audio id="student-audio" preload="none"></audio>
+      <p id="play-status" class="inline-status" role="status"></p>
+      <a class="subtle" href="./" data-t="back">Torna al catàleg</a>
+    </section>
+  </main>
+
+  <footer class="bottom">
+    <div class="bottom-inner">
+      <span class="motto" data-t="motto">Escolta. Entén. Respon.</span>
+      <a class="parent-brand" href="https://ortogra.fi/"><span data-t="parent">Un projecte d’</span><img src="./assets/ortografi.svg" width="83" height="20" alt="ortogra.fi"></a>
+      <nav aria-label="Projecte" data-label="project">
+        <a href="./LICENSE" data-t="license">Llicència</a>
+        <button type="button" data-open="changes" data-t="changes">Canvis</button>
+        <button type="button" data-open="v4v">V4V</button>
+      </nav>
+    </div>
+  </footer>
+
+  <dialog id="changes" aria-labelledby="changes-title">
+    <div class="dialog-content">
+      <div class="dialog-head"><h2 id="changes-title" data-t="changes">Canvis</h2>
+        <form method="dialog"><button class="icon-button" type="submit" data-label="close"><span data-icon="close" aria-hidden="true"></span></button></form>
+      </div>
+      <h3>0.1.0 <time datetime="2026-11-17" data-t="releaseDate">17 de novembre de 2026</time></h3>
+      <p data-t="release">Catàleg, reproductor d’escolta i vista d’impressió amb una fitxa de mostra.</p>
+    </div>
+  </dialog>
+  <dialog id="v4v" aria-labelledby="v4v-title">
+    <div class="dialog-content">
+      <div class="dialog-head"><h2 id="v4v-title">Value for Value</h2>
+        <form method="dialog"><button class="icon-button" type="submit" data-label="close"><span data-icon="close" aria-hidden="true"></span></button></form>
+      </div>
+      <p data-t="v4vIntro">Sentit és una eina oberta per treballar la comprensió oral amb àudio i paper.</p>
+      <div class="author">
+        <img src="./assets/aaron-fortuno.png" alt="" width="60" height="60" loading="lazy">
+        <div><strong>Aarón Fortuño</strong><br><a href="https://aaronfortuno.github.io/portfolio/" data-t="portfolio">Portafoli</a> · <a href="https://github.com/aaronFortuno/sentit" data-t="source">Codi font</a></div>
+      </div>
+      <p data-t="support">Pots fer una aportació voluntària amb Lightning.</p>
+      <div class="support">
+        <img src="./assets/lightning.svg" alt="QR Lightning" width="96" height="96" loading="lazy">
+        <div><code>aptswim903@walletofsatoshi.com</code><br>
+          <button id="copy-lightning" class="subtle" type="button" data-t="copyAddress">Copia l’adreça</button>
+          <p class="inline-status" id="lightning-status" role="status"></p>
+        </div>
+      </div>
+      <p class="small"><a href="./CREDITS.md" data-t="credits">Crèdits de l’àudio i les biblioteques</a></p>
+    </div>
+  </dialog>
+</body>
+</html>
