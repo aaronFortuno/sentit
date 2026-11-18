@@ -46,7 +46,7 @@
 
   <main id="catalog-view" class="catalog-view" tabindex="-1" hidden>
     <div class="catalog-heading">
-      <div><h1 data-t="catalogTitle">Comprensions orals</h1><p id="catalog-count" class="small" role="status"></p></div>
+      <div><h1 data-t="catalogTitle">Comprensions orals</h1><div class="catalog-meta"><p id="catalog-count" class="small" role="status"></p><a href="./personatges.html" data-t="characters">Els personatges</a></div></div>
       <label class="catalog-search"><span class="sr-only" data-t="catalogSearch">Cerca per títol o codi</span><input id="search" type="search" data-placeholder="catalogSearch" placeholder="Cerca per títol o codi" autocomplete="off"></label>
     </div>
     <div class="catalog-layout">
@@ -223,7 +223,7 @@
       <a class="parent-brand" href="https://ortogra.fi/"><span data-t="parent">Un projecte d’</span><img src="./assets/ortografi.svg" width="83" height="20" alt="ortogra.fi"></a>
       <nav aria-label="Projecte" data-label="project">
         <a href="./LICENSE" data-t="license">Llicència</a>
-        <button type="button" data-open="changes" data-label="changes">v0.1.20</button>
+        <button type="button" data-open="changes" data-label="changes">v0.1.21</button>
         <button type="button" data-open="v4v">V4V</button>
       </nav>
     </div>
@@ -261,6 +261,9 @@
       <div class="dialog-head"><h2 id="changes-title" data-t="changes">Canvis</h2>
         <form method="dialog"><button class="icon-button" type="submit" data-label="close"><span data-icon="close" aria-hidden="true"></span></button></form>
       </div>
+      <h3>0.1.21 <time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></h3>
+      <p data-t="releaseCharacters">Vuit personatges recurrents amb fitxes gràfiques, personalitat, interessos i veus de referència. Noves il·lustracions amb identitats diferenciades i episodis independents. Les noves veus es marquen com a propostes pendents d’audició.</p>
+      <a href="./personatges.html" data-t="characters">Els personatges</a>
       <h3>0.1.20 <time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></h3>
       <p data-t="releaseEditorialReview">Revisió dels cinc primers prototips: preguntes més precises, criteris de correcció explícits i pistes ajustades. Es documenta l’adequació a cada curs i dificultat, amb el ritme de S008 pendent de validació a l’aula.</p>
       <a href="https://github.com/aaronFortuno/sentit/blob/main/docs/revisio-editorial-prototips.md" target="_blank" rel="noopener" data-t="editorialReview">Criteris i revisió dels prototips</a>
@@ -327,6 +330,7 @@
         </div>
       </div>
       <p class="small"><a href="./CREDITS.md" data-t="credits">Crèdits de l’àudio i les biblioteques</a></p>
+      <p class="small"><a href="./personatges.html" data-t="characters">Els personatges</a></p>
     </div>
   </dialog>
 </body>

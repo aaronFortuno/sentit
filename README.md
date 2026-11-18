@@ -43,6 +43,14 @@ Cada comprensió conserva dins de cada col·lecció el format, el codi d’aula,
 
 Les col·leccions es desen automàticament en el navegador i es recuperen en tornar al web. El format es guarda amb la pertinença i l’ordre en una única escriptura a `sentit.collections.v1`. No hi ha compte ni sincronització entre dispositius. Si el navegador no permet desar-hi dades, es mostra un avís.
 
+## Personatges recurrents
+
+La [galeria de personatges](https://sentit.ortogra.fi/personatges.html), accessible des del catàleg i del quadre V4V, presenta Laia, Biel, Aina, Mireia, Nora, Mar, Pau i Ferran. Cada fitxa té referències visuals des de diversos angles, caràcter, interessos, manera de parlar i una veu Gemini associada. Laia–Leda, Biel–Puck i Mireia–Aoede parteixen de veus ja escoltades; les altres cinc assignacions són candidates pendents d’una prova en català.
+
+Els [criteris de continuïtat](docs/personatges.md) fixen noms, identitats i episodis independents, sense ordre obligatori ni coneixement previ per respondre. [content/characters.js](content/characters.js) és el registre editorial que alimenta la galeria; els [models i prompts](assets/characters/README.md) serveixen per generar escenes noves sense confondre personatges.
+
+Les candidates no canvien la producció automàticament: la presa parcial de Nora encara és Aoede i el pla anterior de S023 preveu Aoede per a la presentadora. Abans de produir amb el repartiment nou cal provar les candidates i actualitzar les assignacions de síntesi i els crèdits. Els fitxers antics es conserven i no es barregen dues identitats vocals d’un personatge dins del mateix màster.
+
 La [prova de veus d’«El senyal de la ràdio»](proves/veus-s001.html) permet comparar les dues primeres intervencions amb Aoede–Charon i Leda–Puck. La comprensió completa fa servir les veus juvenils. Cal ajustar-hi l’edat i el context dels personatges dels guions futurs.
 
 La [revisió del prototip S001](content/el-senyal-de-la-radio-revisio.md) recull la durada, els nivells de so, l’ordre dels senyals i la correspondència de cada pregunta amb el que s’escolta. La prova d’audició del docent i la prova amb alumnat completaran la validació.

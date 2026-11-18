@@ -4,7 +4,7 @@ export const capsa = {
   summary: 'Una proposta senzilla per guardar records i retrobar-los a final de curs.',
   grade: '3', level: 'easy', genre: 'instructions', seconds: 55,
   audio: './assets/audio/s002-preparem-una-capsa-de-records-v1.mp3',
-  image: { src: './assets/images/preparem-una-capsa-de-records.webp', alt: 'Una mestra al costat d’una capsa de records tancada.', width: 1536, height: 1024 },
+  image: { src: './assets/images/preparem-una-capsa-de-records-v2.webp', alt: 'La mestra Mireia al costat d’una capsa de records tancada.', width: 1536, height: 1024 },
   introduction: 'Comprensió oral. Preparem una capsa de records.',
   fragment: { start: 4.88192, seconds: 50 },
   transcript: [

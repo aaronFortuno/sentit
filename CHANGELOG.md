@@ -1,5 +1,12 @@
 # Canvis
 
+## 0.1.21 · 18 de novembre de 2026
+
+- Repartiment de vuit personatges amb noms estables, perfil, interessos, interpretació i veu de referència: Laia, Biel, Aina, Mireia, Nora, Mar, Pau i Ferran.
+- Vuit model sheets amb vistes de cos i de cara, PNG originals i previsualitzacions WebP. Galeria accessible des del catàleg i de V4V, amb tema clar/fosc i enllaços a les aparicions.
+- Noves versions de les quatre escenes de prototip amb les identitats de les fitxes, mantenint les imatges originals. Laia i Biel conserven la imatge de S001.
+- Es distingeixen veus escoltades i assignacions candidates. Documentació de la migració dels àudios i de la continuïtat en episodis independents; cap petició nova de TTS.
+
 ## 0.1.20 · 18 de novembre de 2026
 
 - Revisió editorial de S001, S002, S008, S015 i S023: demandes més precises, respostes mínimes i alternatives acceptables, sense exigir detalls accessoris.
