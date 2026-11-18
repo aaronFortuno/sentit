@@ -183,27 +183,6 @@
   text-decoration: underline;
 }
 
-.paper-illustrated {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) var(--image-width);
-  align-items: center;
-  gap: 2mm 5mm;
-  margin-block: 3mm var(--sheet-spacing);
-}
-
-.paper-illustrated > .paper-section-title {
-  grid-column: 1 / -1;
-  margin: 0;
-}
-
-.paper-illustrated-copy {
-  min-width: 0;
-}
-
-.paper-illustrated-copy .paper-instructions {
-  margin: 0;
-}
-
 .paper-illustration {
   margin: 0;
   max-inline-size: 100%;
@@ -215,60 +194,39 @@
   block-size: auto;
 }
 
-.paper-illustrated.image-left {
-  grid-template-columns: var(--image-width) minmax(0, 1fr);
+.paper-flow-title {
+  margin-block-end: 4mm;
 }
 
-.paper-illustrated.image-left > .paper-illustration {
-  grid-column: 1;
-  grid-row: 1;
+.paper-flow-image {
+  margin-block-end: 3mm;
 }
 
-.paper-illustrated.image-left > .paper-illustrated-copy {
-  grid-column: 2;
-  grid-row: 1;
+.paper-flow-image.image-right {
+  float: right;
+  margin-inline-start: 5mm;
 }
 
-.paper-transcript-illustrated.image-left > :is(.paper-illustration, .paper-illustrated-copy) {
-  grid-row: 2;
+.paper-flow-image.image-left {
+  float: left;
+  margin-inline-end: 5mm;
 }
 
-.paper-illustrated.image-center {
-  grid-template-columns: minmax(0, 1fr);
+.paper-flow-image.image-center {
+  clear: both;
+  margin: 3mm auto var(--sheet-spacing);
 }
 
-.paper-illustrated.image-center > .paper-illustration {
-  grid-column: 1;
-  grid-row: 1;
-  justify-self: center;
+.paper-transcript-image {
+  margin-block-start: 6mm;
 }
 
-.paper-illustrated.image-center > .paper-illustrated-copy {
-  grid-column: 1;
-  grid-row: 2;
+.paper-transcript-image ~ .paper-transcript-block {
+  margin-block-start: 1.2mm;
 }
 
-.paper-transcript-illustrated.image-center > .paper-section-title {
-  grid-row: 1;
-}
-
-.paper-transcript-illustrated.image-center > .paper-illustration {
-  grid-row: 2;
-}
-
-.paper-transcript-illustrated.image-center > .paper-illustrated-copy {
-  grid-row: 3;
-}
-
-.paper-transcript-illustrated {
-  margin-block-end: 0;
-  font-size: max(9pt, calc(var(--sheet-size) * .83));
-  line-height: 1.3;
-}
-
-.paper-transcript-illustrated .paper-transcript-block + .paper-transcript-block,
-.paper-transcript-illustrated ~ .paper-transcript-block {
-  margin-block-start: 1.5mm;
+.paper-transcript-image + .paper-transcript-start {
+  margin-block-start: 6mm;
 }
 
 #image-editor {

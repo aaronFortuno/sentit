@@ -13,10 +13,10 @@ export const maxLines = 12;
 
 export function imageOptions(entry, settings = {}) {
   const available = Boolean(entry?.image?.src);
-  const savedWidth = Number(settings.imageWidth ?? 45);
+  const savedWidth = Number(settings.imageWidth ?? 80);
   return {
     available, visible: available && (settings.showImage ?? true),
-    width: Number.isFinite(savedWidth) ? Math.max(30, Math.min(90, savedWidth)) : 45,
+    width: Number.isFinite(savedWidth) ? Math.max(30, Math.min(90, savedWidth)) : 80,
     position: ['left', 'center', 'right'].includes(settings.imagePosition) ? settings.imagePosition : 'right',
   };
 }
@@ -241,13 +241,11 @@ function illustration(entry, options) {
   return figure;
 }
 
-function illustratedBlock(entry, options, body, className) {
-  const block = element('div', `paper-block paper-illustrated ${className} image-${options.position}`);
-  block.style.setProperty('--image-width', `${options.width}mm`);
-  const copy = element('div', 'paper-illustrated-copy');
-  copy.append(...body);
-  block.append(copy, illustration(entry, options));
-  return block;
+function flowingIllustration(entry, options, transcript = false) {
+  const figure = illustration(entry, options);
+  figure.classList.add('paper-flow-image', `image-${options.position}`);
+  if (transcript) figure.classList.add('paper-transcript-image');
+  return figure;
 }
 
 export function renderWorksheet(container, entry, format, settings, { answerKey, labels, toolLabels = labels, listenUrl, session }) {
@@ -320,11 +318,19 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
   }
 
   startPage();
-  content.append(makeHeader(entry, labels, settings?.code?.trim(), answerKey, listenUrl, session));
+  const header = makeHeader(entry, labels, settings?.code?.trim(), answerKey, listenUrl, session);
+  const floatedImage = !answerKey && image.visible && image.position !== 'center';
+  if (floatedImage) {
+    const title = header.querySelector('.paper-title-row');
+    title.remove();
+    title.classList.add('paper-flow-title');
+    content.append(header);
+    placeBlock(flowingIllustration(entry, image));
+    placeBlock(title);
+  } else content.append(header);
   if (!answerKey) {
-    const instructions = settings?.showInstructions ?? true ? [element('p', 'paper-instructions', worksheetInstructions(entry, session))] : [];
-    if (image.visible) placeBlock(illustratedBlock(entry, image, instructions, 'paper-context'));
-    else if (instructions.length) placeBlock(instructions[0]);
+    if (image.visible && !floatedImage) placeBlock(flowingIllustration(entry, image));
+    if (settings?.showInstructions ?? true) placeBlock(element('p', 'paper-instructions', worksheetInstructions(entry, session)));
   }
 
   let number = 0;
@@ -364,17 +370,9 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
         placeText(part.text, (text, first, offset) => transcriptBlock({ text, speaker: first && part.speaker }, first && heading, ranges, offset));
       });
     };
-    const leading = image.visible ? parts.slice(0, 3) : [];
-    if (leading.length) {
-      const lead = illustratedBlock(entry, image, leading.map(part => transcriptBlock(part, '', evidence.byPart.get(part.id))), 'paper-transcript-start paper-transcript-illustrated');
-      lead.prepend(element('h4', 'paper-section-title', labels.transcript));
-      placeBlock(lead, () => {
-        placeBlock(illustratedBlock(entry, image, [], 'paper-context'));
-        leading.forEach((part, index) => placePart(part, index === 0 ? labels.transcript : ''));
-      });
-    }
-    parts.slice(leading.length).forEach((part, index) => {
-      const heading = leading.length === 0 && index === 0 ? labels.transcript : '';
+    if (image.visible && parts.length) placeBlock(flowingIllustration(entry, image, true));
+    parts.forEach((part, index) => {
+      const heading = index === 0 ? labels.transcript : '';
       placePart(part, heading);
     });
   }

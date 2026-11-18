@@ -15,7 +15,7 @@ El projecte es manté a la sèrie **0.1.x** mentre es revisen les primeres activ
 - Controls de línies de resposta i d’amagar preguntes al costat de cada enunciat, quan s’hi passa el ratolí o s’hi accedeix amb el teclat. En pantalla tàctil, el botó de tres punts obre aquests controls. A **Preguntes amagades** es poden recuperar les preguntes excloses.
 - Vista A4 de la fitxa amb QR i del solucionari amb respostes orientatives i transcripció de l’àudio. El diàleg d’impressió permet desar el document seleccionat com a PDF.
 - Al solucionari, els enunciats van en negreta i les respostes orientatives dins d’un requadre suau. La transcripció fa servir una mida menor i un interlineat més compacte. Les respostes localitzables porten **Veure la transcripció**, del mateix color que els passatges ressaltats i numerats. **Ressalta les pistes a la transcripció**, activat per defecte, permet obtenir un solucionari sense marques ni indicacions de color. Aquesta preferència es desa amb la fitxa i en cada col·lecció.
-- **Imatge de context** permet mostrar o amagar la il·lustració, canviar-ne l’amplada (30–90 mm, 45 mm per defecte) i situar-la a l’esquerra, al centre o a la dreta. A la fitxa acompanya les instruccions; al solucionari acompanya la transcripció. La imatge aporta context sense revelar les respostes i els ajustos es desen amb la fitxa o col·lecció.
+- **Imatge de context** permet mostrar o amagar la il·lustració, canviar-ne l’amplada (30–90 mm, 80 mm per defecte) i situar-la a l’esquerra, al centre o a la dreta. A la fitxa s’alinea amb el títol i el text de les instruccions envolta la imatge; al solucionari acompanya el títol i el text de la transcripció. A l’esquerra o a la dreta, el text recupera tota l’amplada quan supera la imatge; al centre es mostra en una fila pròpia. La imatge aporta context sense revelar les respostes i els ajustos es desen amb la fitxa o col·lecció.
 - Reproductor docent i vista d’escolta directa. L’àudio comença quan es prem el botó.
 - Amb **Sessió pautada**, tria el temps per llegir les preguntes, el nombre d’escoltes i la pausa entre escoltes. Els valors inicials són 60 segons, dues escoltes i 30 segons de pausa. El QR, l’adreça i el resum imprès segueixen aquests ajustos. Amb el mode desactivat, l’enllaç obre el reproductor d’escolta lliure.
 - Les locucions inicial i entre escoltes es poden activar independentment. Amb 60 segons de lectura, la locució indica «un minut». Amb una altra durada, remet al compte enrere. Els temps programats s’apliquen també quan es desactiven les locucions.
@@ -35,6 +35,10 @@ Les col·leccions es desen automàticament en el navegador i es recuperen en tor
 La [prova de veus d’«El senyal de la ràdio»](proves/veus-s001.html) permet comparar les dues primeres intervencions amb Aoede–Charon i Leda–Puck. La comprensió completa fa servir les veus juvenils. Cal ajustar-hi l’edat i el context dels personatges dels guions futurs.
 
 La [revisió del prototip S001](content/el-senyal-de-la-radio-revisio.md) recull la durada, els nivells de so, l’ordre dels senyals i la correspondència de cada pregunta amb el que s’escolta. La prova d’audició del docent i la prova amb alumnat completaran la validació.
+
+## Proposta del fons inicial
+
+La [proposta de catàleg](docs/proposta-cataleg.md) planteja 24 activitats de 3r a 6è, amb sis tipologies i un repartiment equilibrat de dificultats. Inclou temes, durades objectiu, focus de comprensió i una primera tanda de guions per revisar. Les activitats proposades encara no s’incorporen al catàleg d’escolta ni comporten peticions de síntesi.
 
 ## Desenvolupament
 

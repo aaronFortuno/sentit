@@ -163,7 +163,7 @@
               <label class="image-toggle"><input type="checkbox" id="show-image" checked><span data-t="showImage">Mostra la imatge</span></label>
               <fieldset id="image-fields">
                 <legend class="sr-only" data-t="contextImage">Imatge de context</legend>
-                <label><span data-t="imageWidth">Amplada (mm)</span><input type="number" id="image-width" min="30" max="90" step="5" value="45" required></label>
+                <label><span data-t="imageWidth">Amplada (mm)</span><input type="number" id="image-width" min="30" max="90" step="5" value="80" required></label>
                 <label><span data-t="imagePosition">Posició</span><select id="image-position"><option value="left" data-t="imageLeft">Esquerra</option><option value="center" data-t="imageCenter">Al centre</option><option value="right" selected data-t="imageRight">Dreta</option></select></label>
               </fieldset>
             </form>
@@ -206,7 +206,7 @@
       <a class="parent-brand" href="https://ortogra.fi/"><span data-t="parent">Un projecte d’</span><img src="./assets/ortografi.svg" width="83" height="20" alt="ortogra.fi"></a>
       <nav aria-label="Projecte" data-label="project">
         <a href="./LICENSE" data-t="license">Llicència</a>
-        <button type="button" data-open="changes" data-label="changes">v0.1.12</button>
+        <button type="button" data-open="changes" data-label="changes">v0.1.13</button>
         <button type="button" data-open="v4v">V4V</button>
       </nav>
     </div>
@@ -240,6 +240,9 @@
       <div class="dialog-head"><h2 id="changes-title" data-t="changes">Canvis</h2>
         <form method="dialog"><button class="icon-button" type="submit" data-label="close"><span data-icon="close" aria-hidden="true"></span></button></form>
       </div>
+      <h3>0.1.13 <time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></h3>
+      <p data-t="releaseImageFlow">Imatge de 80 mm per defecte, alineada amb el títol. El text envolta la il·lustració i recupera tota l’amplada quan s’acaba. Proposta inicial de 24 comprensions de 3r a 6è.</p>
+      <a href="https://github.com/aaronFortuno/sentit/blob/main/docs/proposta-cataleg.md" target="_blank" rel="noopener" data-t="catalogueProposal">Consulta la proposta de catàleg</a>
       <h3>0.1.12 <time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></h3>
       <p data-t="releaseImages">Adreces d’edició amb idioma i codi d’activitat. Il·lustracions de context opcionals als fulls, amb mida i posició ajustables i desades a cada fitxa i col·lecció.</p>
       <h3>0.1.11 <time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></h3>
