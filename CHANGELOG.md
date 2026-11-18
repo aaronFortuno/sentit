@@ -1,5 +1,9 @@
 # Canvis
 
+## 0.1.18 · 18 de novembre de 2026
+
+- El color de tipologia es concentra a la part superior de cada targeta i es degrada cap al fons neutre inferior. Degradat adaptat als dos temes i transicions de 220 ms també en seleccionar targetes.
+
 ## 0.1.17 · 18 de novembre de 2026
 
 - Colors de tipologia més presents al fons, les etiquetes i la vora de les targetes. Verd més vegetal i blau més definit, amb una paleta reforçada també en mode fosc.

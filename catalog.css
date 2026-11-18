@@ -31,12 +31,16 @@
 .catalog-results { min-width: 0; min-height: 0; display: flex; flex-direction: column; }
 .catalog-results-scroll { min-height: 0; overflow: auto; flex: 1; padding: 3px 12px 12px 3px; scrollbar-gutter: stable; }
 .activity-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 270px), 1fr)); align-content: start; gap: 18px; }
+@property --card-tint { syntax: '<color>'; inherits: false; initial-value: transparent; }
+@property --card-base { syntax: '<color>'; inherits: false; initial-value: transparent; }
 .activity-card {
   --type-tint: #dcebd7; --type-ink: #365e3e; --type-edge: #91b28a; --level-ink: #327452;
+  --card-tint: color-mix(in srgb, var(--type-tint) 60%, var(--panel));
+  --card-base: var(--panel);
   position: relative; isolation: isolate; overflow: hidden; display: flex; flex-direction: column; align-items: start; gap: 12px; min-width: 0;
-  border: 1px solid var(--line); border-top: 3px solid var(--type-edge); border-radius: 12px; padding: 18px; background: color-mix(in srgb, var(--type-tint) 60%, var(--panel)); color: var(--ink);
+  border: 1px solid var(--line); border-top: 3px solid var(--type-edge); border-radius: 12px; padding: 18px; background: linear-gradient(180deg, var(--card-tint) 0%, var(--card-tint) 35%, var(--card-base) 86%); color: var(--ink);
   text-align: start; text-decoration: none; cursor: pointer;
-  transition: border-color var(--motion), background-color var(--motion), box-shadow var(--motion), transform var(--motion);
+  transition: --card-tint var(--motion), --card-base var(--motion), border-color var(--motion), box-shadow var(--motion), transform var(--motion);
 }
 .activity-card:hover { border-color: var(--green); transform: translateY(-2px); box-shadow: 0 5px 16px #11291f0c; }
 .activity-card > :not(.activity-card-art, input) { position: relative; z-index: 1; }
@@ -76,7 +80,7 @@
 .activity-card-status { align-self: start; padding: 3px 8px; border-radius: 5px; background: var(--soft); color: var(--green); font-size: .75rem; }
 .activity-card > input { position: absolute; z-index: 2; inset: 19px 18px auto auto; width: 17px; height: 17px; accent-color: var(--green); }
 .activity-card:has(input) .activity-card-head { padding-inline-end: 25px; }
-.activity-card.is-selected { background: var(--soft); border-color: var(--green); }
+.activity-card.is-selected { --card-tint: var(--soft); --card-base: var(--soft); border-color: var(--green); }
 .activity-card:has(:focus-visible) { outline: 2px solid var(--focus); outline-offset: 3px; }
 .catalog-selection { display: flex; align-items: center; gap: 10px 18px; flex-wrap: wrap; padding: 12px 15px; margin-bottom: 12px; background: var(--soft); border-radius: 9px; font-size: .85rem; }
 .catalog-selection .button { margin-inline-start: auto; font-size: .85rem; }
