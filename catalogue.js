@@ -16,6 +16,7 @@ export const activities = [
     audio: './assets/audio/canvi-de-plans.mp3',
     introduction: 'Comprensió oral. Canvi de plans.',
     fragment: { start: 5.02, seconds: 70 },
+    image: { src: './assets/images/canvi-de-plans.webp', alt: 'Dos joves conversen en un passadís de l’escola.', width: 1536, height: 1024 },
     transcript: [
       { id: 'pluja', text: '[Se sent ploure.]' },
       { speaker: 'Júlia', text: 'T’has mirat el cel? Fa una estona que plou de valent. Amb aquestes botes jo hi podria anar, però a l’hort ens enfonsaríem fins als turmells.' },

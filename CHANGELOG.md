@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.12 · 18 de novembre de 2026
+
+- L’editor fa servir adreces amb idioma i codi, com `#lectura=ca-S001`. Els enllaços anteriors s’obren i adopten l’adreça nova.
+- Il·lustracions de context per a les dues activitats. Es mostren per defecte i es poden amagar, ajustar entre 30 i 90 mm d’amplada i situar a l’esquerra, al centre o a la dreta.
+- A la fitxa, la imatge acompanya les instruccions. Al solucionari queda a la secció de transcripció. Els ajustos es desen independentment en cada fitxa i col·lecció.
+
 ## 0.1.11 · 18 de novembre de 2026
 
 - Nou enregistrament complet d’«El senyal de la ràdio» amb Leda per a la Laia i Puck per a en Biel. Manté el guió, els senyals, les pauses i la sintonia del prototip.

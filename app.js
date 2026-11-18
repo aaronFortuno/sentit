@@ -1,6 +1,6 @@
 import { activities } from './catalogue.js';
 import { strings } from './locales.js';
-import { defaultFormat, maxLines, questionFormat, renderWorksheet } from './worksheet.js';
+import { defaultFormat, imageOptions, maxLines, questionFormat, renderWorksheet } from './worksheet.js';
 import { clockTime, decodeSession, defaultSession, encodeSession, guidedPrompts } from './session.js';
 import { initGuidedPlayer } from './guided-player.js';
 import { mountCatalog } from './catalog.js';
@@ -21,6 +21,10 @@ const t = key => strings[language][key];
 const query = new URL(location.href).searchParams;
 const listenId = query.get('escolta');
 const listenKey = entry => `${entry.language}-${entry.code}`;
+const findActivity = reference => {
+  const key = String(reference ?? '').trim().toLowerCase();
+  return activities.find(entry => listenKey(entry).toLowerCase() === key) ?? activities.find(entry => entry.id === key);
+};
 const publicListenUrl = entry => listenUrl(entry, 'https://sentit.ortogra.fi/');
 const printLocale = entry => strings[entry.language] ?? strings.ca;
 const formatForm = byId('worksheet-format');
@@ -151,6 +155,7 @@ function renderEditor() {
   byId('show-instructions').closest('label').hidden = documentMode === 'answers';
   byId('evidence-option').hidden = documentMode !== 'answers';
   byId('show-evidence').checked = settings.showEvidence ?? true;
+  renderImageEditor();
   selected.questions.forEach((question, index) => {
     const { id, included } = questionFormat(question, index, settings);
     if (included) return;
@@ -166,6 +171,15 @@ function renderEditor() {
   });
   byId('hidden-count').textContent = list.childElementCount;
   byId('question-panel').hidden = list.childElementCount === 0;
+}
+
+function renderImageEditor() {
+  const options = imageOptions(selected, currentSettings);
+  byId('image-panel').hidden = !options.available;
+  byId('show-image').checked = options.visible;
+  byId('image-width').value = options.width;
+  byId('image-position').value = options.position;
+  byId('image-fields').disabled = !options.visible;
 }
 
 function saveActivity() {
@@ -252,8 +266,16 @@ function showActivity(entry, collectionId = '') {
 function route() {
   if (listenId !== null) return;
   const hash = new URLSearchParams(location.hash.slice(1));
-  const entry = activities.find(item => item.id === hash.get('lectura'));
-  if (entry) showActivity(entry, hash.get('col') ?? '');
+  const entry = findActivity(hash.get('lectura'));
+  if (entry) {
+    if (hash.get('lectura') !== listenKey(entry)) {
+      hash.set('lectura', listenKey(entry));
+      const url = new URL(location.href);
+      url.hash = hash.toString();
+      history.replaceState(null, '', url);
+    }
+    showActivity(entry, hash.get('col') ?? '');
+  }
   else {
     byId('teacher-audio').pause();
     byId('workspace').hidden = true;
@@ -266,7 +288,7 @@ function route() {
 
 function openActivity(entry, collectionId = '') {
   if (!entry) return;
-  const hash = new URLSearchParams({ lectura: entry.id });
+  const hash = new URLSearchParams({ lectura: listenKey(entry) });
   if (collectionId) hash.set('col', collectionId);
   const url = new URL(location.href);
   url.hash = hash.toString();
@@ -348,10 +370,7 @@ function translate() {
     catalog.render();
     if (!byId('workspace').hidden) renderSelection();
   } else {
-    const key = listenId.trim().toLowerCase();
-    const entry = activities.find(activity => listenKey(activity).toLowerCase() === key)
-      ?? activities.find(activity => activity.id === key);
-    player(entry);
+    player(findActivity(listenId));
   }
 }
 
@@ -427,6 +446,27 @@ byId('show-evidence').addEventListener('change', event => {
   currentSettings.showEvidence = event.target.checked;
   saveActivity();
 });
+function updateImage(event) {
+  if (!selected) return;
+  const previous = imageOptions(selected, currentSettings);
+  const width = byId('image-width');
+  if (event.target === width && (!width.value || !width.checkValidity())) {
+    if (event.type === 'change') width.value = previous.width;
+    return;
+  }
+  const next = {
+    showImage: byId('show-image').checked,
+    imageWidth: width.value && width.checkValidity() ? width.valueAsNumber : previous.width,
+    imagePosition: byId('image-position').value,
+  };
+  if (previous.visible === next.showImage && previous.width === next.imageWidth && previous.position === next.imagePosition) return;
+  Object.assign(currentSettings, next);
+  saveActivity();
+  renderImageEditor();
+}
+byId('image-editor').addEventListener('submit', event => event.preventDefault());
+byId('image-editor').addEventListener('input', updateImage);
+byId('image-editor').addEventListener('change', updateImage);
 byId('classroom-code').addEventListener('input', event => {
   if (!selected) return;
   currentSettings.code = event.target.value;

@@ -21,6 +21,8 @@ Guió original en català. Veus sintetitzades amb Gemini TTS (Aoede i Charon). E
 
 ## Web
 
+Les il·lustracions de context de les dues activitats s’han generat per a Sentit amb l’eina integrada de generació d’imatges i s’han convertit a WebP, sense canviar-ne la composició. [Fitxers i prompts](assets/images/README.md).
+
 - Generador de codis QR de Kazuhiko Arase. [Llicència MIT](assets/vendor/qrcode.LICENSE)
 - Icones derivades de Lucide. [Avisos ISC i MIT](assets/vendor/lucide.LICENSE)
 - Marca d’ortogra.fi, fotografia d’Aarón Fortuño i QR del V4V. [Projecte ortogra.fi](https://github.com/aaronFortuno/ortogra-fi)

@@ -11,6 +11,16 @@ const fontStacks = {
 
 export const maxLines = 12;
 
+export function imageOptions(entry, settings = {}) {
+  const available = Boolean(entry?.image?.src);
+  const savedWidth = Number(settings.imageWidth ?? 45);
+  return {
+    available, visible: available && (settings.showImage ?? true),
+    width: Number.isFinite(savedWidth) ? Math.max(30, Math.min(90, savedWidth)) : 45,
+    position: ['left', 'center', 'right'].includes(settings.imagePosition) ? settings.imagePosition : 'right',
+  };
+}
+
 export function questionFormat(question, index, settings) {
   const id = question.id ?? String(index);
   const override = settings?.questions?.[id];
@@ -222,8 +232,27 @@ function answerBlock(text, labels, reference, first = true, last = true) {
   return answer;
 }
 
+function illustration(entry, options) {
+  const figure = element('figure', 'paper-illustration');
+  figure.style.inlineSize = `${options.width}mm`;
+  const image = element('img');
+  Object.assign(image, { src: entry.image.src, alt: entry.image.alt ?? '', width: entry.image.width, height: entry.image.height });
+  figure.append(image);
+  return figure;
+}
+
+function illustratedBlock(entry, options, body, className) {
+  const block = element('div', `paper-block paper-illustrated ${className} image-${options.position}`);
+  block.style.setProperty('--image-width', `${options.width}mm`);
+  const copy = element('div', 'paper-illustrated-copy');
+  copy.append(...body);
+  block.append(copy, illustration(entry, options));
+  return block;
+}
+
 export function renderWorksheet(container, entry, format, settings, { answerKey, labels, toolLabels = labels, listenUrl, session }) {
   const footers = [];
+  const image = imageOptions(entry, settings);
   const evidence = answerKey && (settings?.showEvidence ?? true) ? buildEvidence(entry, evidenceQuestions(entry, settings)) : { byPart: new Map(), byQuestion: new Map() };
   let content;
   container.replaceChildren();
@@ -292,8 +321,10 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
 
   startPage();
   content.append(makeHeader(entry, labels, settings?.code?.trim(), answerKey, listenUrl, session));
-  if (!answerKey && (settings?.showInstructions ?? true)) {
-    placeBlock(element('p', 'paper-instructions', worksheetInstructions(entry, session)));
+  if (!answerKey) {
+    const instructions = settings?.showInstructions ?? true ? [element('p', 'paper-instructions', worksheetInstructions(entry, session))] : [];
+    if (image.visible) placeBlock(illustratedBlock(entry, image, instructions, 'paper-context'));
+    else if (instructions.length) placeBlock(instructions[0]);
   }
 
   let number = 0;
@@ -327,12 +358,24 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
     const parts = entry.introduction
       ? [{ speaker: labels.introduction, text: entry.introduction }, ...transcript]
       : transcript;
-    parts.forEach((part, index) => {
-      const heading = index === 0 ? labels.transcript : '';
+    const placePart = (part, heading) => {
       const ranges = evidence.byPart.get(part.id);
       placeBlock(transcriptBlock(part, heading, ranges), () => {
         placeText(part.text, (text, first, offset) => transcriptBlock({ text, speaker: first && part.speaker }, first && heading, ranges, offset));
       });
+    };
+    const leading = image.visible ? parts.slice(0, 3) : [];
+    if (leading.length) {
+      const lead = illustratedBlock(entry, image, leading.map(part => transcriptBlock(part, '', evidence.byPart.get(part.id))), 'paper-transcript-start paper-transcript-illustrated');
+      lead.prepend(element('h4', 'paper-section-title', labels.transcript));
+      placeBlock(lead, () => {
+        placeBlock(illustratedBlock(entry, image, [], 'paper-context'));
+        leading.forEach((part, index) => placePart(part, index === 0 ? labels.transcript : ''));
+      });
+    }
+    parts.slice(leading.length).forEach((part, index) => {
+      const heading = leading.length === 0 && index === 0 ? labels.transcript : '';
+      placePart(part, heading);
     });
   }
 
