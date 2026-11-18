@@ -21,3 +21,9 @@ export function durationText(entry, t) {
   if (!bounds) return t('durationPending');
   return bounds.estimated ? t('estimatedDuration')(clockTime(bounds.min), clockTime(bounds.max)) : clockTime(bounds.min);
 }
+
+// Four fixed steps across the catalogue; estimates use their upper bound.
+export function durationTier(entry) {
+  const bounds = durationBounds(entry);
+  return bounds ? Math.min(4, Math.ceil(bounds.max / 60)) : 0;
+}

@@ -35,4 +35,5 @@ Les sis il·lustracions de context s’han generat per a Sentit amb l’eina int
 
 - Generador de codis QR de Kazuhiko Arase. [Llicència MIT](assets/vendor/qrcode.LICENSE)
 - Icones derivades de Lucide. [Avisos ISC i MIT](assets/vendor/lucide.LICENSE)
+- Reordenació amb SortableJS 1.15.7, servit localment. [Llicència MIT](assets/vendor/sortable/LICENSE)
 - Marca d’ortogra.fi, fotografia d’Aarón Fortuño i QR del V4V. [Projecte ortogra.fi](https://github.com/aaronFortuno/ortogra-fi)

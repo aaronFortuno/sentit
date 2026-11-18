@@ -1,5 +1,12 @@
 # Canvis
 
+## 0.1.19 · 18 de novembre de 2026
+
+- Gestió de col·leccions com a Trama: clic llarg o clic dret per afegir una comprensió a una col·lecció, crear-ne una o retirar-la de l’actual. Ordenació arrossegant les mateixes targetes, amb ratolí, pantalla tàctil o Alt + fletxes.
+- Selecció múltiple clicant les targetes, amb una etiqueta de selecció i sense caselles. Nom i eliminació de la col·lecció accessibles al sidebar, sense una finestra de gestió separada.
+- Es conserven les maquetacions independents, l’ordre desat i les posicions dels elements filtrats. Els errors d’emmagatzematge restauren l’ordre anterior i mostren un avís.
+- Durada comparable amb quatre segments: fins a 1, 2 o 3 minuts, i més de 3 minuts. Es manté el temps exacte; les durades previstes fan servir el límit superior de l’interval.
+
 ## 0.1.18 · 18 de novembre de 2026
 
 - El color de tipologia es concentra a la part superior de cada targeta i es degrada cap al fons neutre inferior. Degradat adaptat als dos temes i transicions de 220 ms també en seleccionar targetes.
