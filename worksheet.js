@@ -69,7 +69,8 @@ function makeHeader(entry, labels, code, answerKey, listenUrl, session) {
     if (session) {
       const summary = element('ul', 'paper-session-summary');
       summary.append(element('li', null, labels.paperReading(clockTime(session.reading))));
-      summary.append(element('li', null, labels.paperListens(session.listens, clockTime(entry.fragment?.seconds ?? entry.seconds))));
+      summary.append(element('li', null, labels.paperListens(session.listens, clockTime((entry.fragment?.seconds ?? entry.seconds) / (session.rate ?? 1)))));
+      if ((session.rate ?? 1) !== 1) summary.append(element('li', null, labels.paperRate(session.rate)));
       if (session.listens > 1) summary.append(element('li', null, labels.paperInterval(clockTime(session.interval))));
       const prepare = session.reading > 0 && (session.prepare ?? true);
       const repeat = session.listens > 1 && (session.repeat ?? true);

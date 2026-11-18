@@ -41,3 +41,7 @@ Els vuit retrats de presentació parteixen dels mateixos models i s’han genera
 - Icones derivades de Lucide. [Avisos ISC i MIT](assets/vendor/lucide.LICENSE)
 - Reordenació amb SortableJS 1.15.7, servit localment. [Llicència MIT](assets/vendor/sortable/LICENSE)
 - Marca d’ortogra.fi, fotografia d’Aarón Fortuño i QR del V4V. [Projecte ortogra.fi](https://github.com/aaronFortuno/ortogra-fi)
+
+## Registre sonor per comprensió
+
+[Fonts, llicències, muntatges i procés de validació](docs/fonts-sonores.md). La revisió 0.1.23 conserva els WAV crus, elimina el retall automàtic i afegeix marges de seguretat; no s’han fet peticions TTS noves. La base instrumental de S008 i la sintonia inicial són originals procedurals de Sentit, sota la llicència MIT del projecte.

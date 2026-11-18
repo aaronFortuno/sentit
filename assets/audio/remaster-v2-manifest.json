@@ -1,0 +1,317 @@
+{
+  "date": "2026-11-18",
+  "state": "teacher-listening-pending",
+  "activities": [
+    {
+      "code": "S001",
+      "activity": "ca-S001",
+      "file": "s001-el-senyal-de-la-radio-v2.mp3",
+      "productionMode": "offline-raw-remaster",
+      "newSynthesisRequests": 0,
+      "offset": 5.35,
+      "bodyDuration": 80.805,
+      "fullDuration": 86.155,
+      "lufs": -19.8,
+      "peakDbTP": -2.9,
+      "timeline": [
+        {
+          "segment": "entrada",
+          "start": 0,
+          "end": 0.25
+        },
+        {
+          "segment": "avis",
+          "start": 0.25,
+          "end": 32.6
+        },
+        {
+          "segment": "entre-avis-i-acord",
+          "start": 32.6,
+          "end": 33.050000000000004
+        },
+        {
+          "segment": "acord",
+          "start": 33.050000000000004,
+          "end": 61.080000000000005
+        },
+        {
+          "segment": "abans-dels-tocs",
+          "start": 61.080000000000005,
+          "end": 61.56
+        },
+        {
+          "segment": "toc-1",
+          "start": 61.56,
+          "end": 61.75
+        },
+        {
+          "segment": "entre-tocs",
+          "start": 61.75,
+          "end": 61.99
+        },
+        {
+          "segment": "toc-2",
+          "start": 61.99,
+          "end": 62.18
+        },
+        {
+          "segment": "espera",
+          "start": 62.18,
+          "end": 63.8
+        },
+        {
+          "segment": "toc-3",
+          "start": 63.8,
+          "end": 63.989999999999995
+        },
+        {
+          "segment": "abans-de-lletra",
+          "start": 63.989999999999995,
+          "end": 64.42
+        },
+        {
+          "segment": "emissio",
+          "start": 64.42,
+          "end": 78.69
+        },
+        {
+          "segment": "abans-de-sintonia",
+          "start": 78.69,
+          "end": 78.92999999999999
+        },
+        {
+          "segment": "sintonia-1",
+          "start": 78.92999999999999,
+          "end": 79.145
+        },
+        {
+          "segment": "sintonia-2",
+          "start": 79.145,
+          "end": 79.36
+        },
+        {
+          "segment": "sintonia-3",
+          "start": 79.36,
+          "end": 79.575
+        },
+        {
+          "segment": "sintonia-4",
+          "start": 79.575,
+          "end": 80.155
+        },
+        {
+          "segment": "sortida",
+          "start": 80.155,
+          "end": 80.405
+        }
+      ],
+      "effects": [
+        {
+          "effect": "radio-ticks-and-closing-theme",
+          "origin": "original-procedural"
+        }
+      ],
+      "sources": [
+        {
+          "file": "sentit-radio-leda-puck/entrada.wav",
+          "sha256": "0f8b3dc2928589c16a3ffad397648eee66e9d033f79efd0188ccf4610cfbb190",
+          "seconds": 0.25
+        },
+        {
+          "file": "sentit-radio-leda-puck/avis-3dc483633dd2.wav",
+          "sha256": "72c8c89b5fca865671882fa4403fdb2c4e3884ac583b7bd8248cd54d62a005e1",
+          "seconds": 31.8
+        },
+        {
+          "file": "sentit-radio-leda-puck/entre-avis-i-acord.wav",
+          "sha256": "2646f853e24264a143e81e340736931a8cac78a9d37886ca8c695cf57a2e67d1",
+          "seconds": 0.45
+        },
+        {
+          "file": "sentit-radio-leda-puck/acord-065881e216c0.wav",
+          "sha256": "b4f086c4b4dbc7df83823370628a6a33c277a157f3ae586ee25d122c6d74ac62",
+          "seconds": 27.48
+        },
+        {
+          "file": "sentit-radio-leda-puck/abans-dels-tocs.wav",
+          "sha256": "0a952563d0c490b90a72e8ae91ce447dc45f89580a954d69e14423dd63e7a569",
+          "seconds": 0.48
+        },
+        {
+          "file": "sentit-radio-leda-puck/toc.wav",
+          "sha256": "ceaa12504c605f89a80495f31fdc714daec05a22387b63a53388433aec9d4771",
+          "seconds": 0.19
+        },
+        {
+          "file": "sentit-radio-leda-puck/entre-tocs.wav",
+          "sha256": "f8a5a9f4fe4506987aeb5f5cf4f0c6107cd098d08bc76d34ced24dad494d444d",
+          "seconds": 0.24
+        },
+        {
+          "file": "sentit-radio-leda-puck/toc.wav",
+          "sha256": "ceaa12504c605f89a80495f31fdc714daec05a22387b63a53388433aec9d4771",
+          "seconds": 0.19
+        },
+        {
+          "file": "sentit-radio-leda-puck/espera.wav",
+          "sha256": "620b243c5b530dc9afa821d1cac644a3c16d2401c684a5683fe5eeba384944e1",
+          "seconds": 1.62
+        },
+        {
+          "file": "sentit-radio-leda-puck/toc.wav",
+          "sha256": "ceaa12504c605f89a80495f31fdc714daec05a22387b63a53388433aec9d4771",
+          "seconds": 0.19
+        },
+        {
+          "file": "sentit-radio-leda-puck/abans-de-lletra.wav",
+          "sha256": "33515aec7a8f0a937a0b795e309f81e35034e807d07d7130fedb395c322d9d5b",
+          "seconds": 0.43
+        },
+        {
+          "file": "sentit-radio-leda-puck/emissio-4651373c630a.wav",
+          "sha256": "ebb39264d2bf7cfa405eae85db44cd1ec10d30e3983c9d91e7f2892cbd821f03",
+          "seconds": 13.72
+        },
+        {
+          "file": "sentit-radio-leda-puck/abans-de-sintonia.wav",
+          "sha256": "f8a5a9f4fe4506987aeb5f5cf4f0c6107cd098d08bc76d34ced24dad494d444d",
+          "seconds": 0.24
+        },
+        {
+          "file": "sentit-radio-leda-puck/nota-1.wav",
+          "sha256": "ee542b1599b34d57969ffa2d0ea7ecfee08f02882a32c33e6017359c1edbb61e",
+          "seconds": 0.215
+        },
+        {
+          "file": "sentit-radio-leda-puck/nota-2.wav",
+          "sha256": "e7ec75cdc5f1039fc4395471389041ed160813c2c9f47adc96f3571cb21c17a6",
+          "seconds": 0.215
+        },
+        {
+          "file": "sentit-radio-leda-puck/nota-3.wav",
+          "sha256": "18efd4956e2562d56f289260a5e6ac7f330f133306446a4debb363b4529c68cf",
+          "seconds": 0.215
+        },
+        {
+          "file": "sentit-radio-leda-puck/nota-4.wav",
+          "sha256": "ae6fab4c9272deee0c68318b5f3d3d6f9075fe33eb388debeb5be08ce1fd45d7",
+          "seconds": 0.58
+        },
+        {
+          "file": "sentit-radio-leda-puck/sortida.wav",
+          "sha256": "0f8b3dc2928589c16a3ffad397648eee66e9d033f79efd0188ccf4610cfbb190",
+          "seconds": 0.25
+        },
+        {
+          "file": "sentit-locucions/el-senyal-de-la-radio-locucio.wav",
+          "sha256": "236e5b02860d396387d8002328ba6a5cbc14198a426bae3ffc2ebd2772252b6e",
+          "seconds": 3.6
+        }
+      ],
+      "sha256": "3a2c3d66470125b5c26591c47f5cdd7cfbc9237adf2a7cc7e273d8012d489330"
+    },
+    {
+      "code": "S002",
+      "activity": "ca-S002",
+      "file": "s002-preparem-una-capsa-de-records-v2.mp3",
+      "productionMode": "offline-raw-remaster",
+      "newSynthesisRequests": 0,
+      "offset": 5.71,
+      "bodyDuration": 53.05,
+      "fullDuration": 58.76,
+      "lufs": -19.4,
+      "peakDbTP": -3.3,
+      "timeline": [
+        {
+          "scene": 1,
+          "start": 0.35,
+          "end": 22.14
+        },
+        {
+          "scene": 2,
+          "start": 25.14,
+          "end": 52.05
+        }
+      ],
+      "effects": [],
+      "sources": [
+        {
+          "file": "sentit-primera-tanda/s002/intro-ce2b3a050ea7.wav",
+          "sha256": "1c940503c4aedf621ea7aecf60e90b46951d639ebc2f9cd6085f4d91fc62b80b",
+          "seconds": 3.96
+        },
+        {
+          "file": "sentit-primera-tanda/s002/scene-1-ea228eae42cf.wav",
+          "sha256": "2bee777337b6f6da0639f66b9f7a93128b53413fc7f0946503abf45464b0673d",
+          "seconds": 21.24
+        },
+        {
+          "file": "sentit-primera-tanda/s002/scene-2-5b663f6ef0cb.wav",
+          "sha256": "2fdc9706b18aa1b6eb9d677ec14d6ad8585097fa98db69d8cab2aa2759cd1da2",
+          "seconds": 26.36
+        }
+      ],
+      "sha256": "412e36f1e189b28d8aa284abba133c5ee988acdfd87804c1e6d1f3e9421fa6d9"
+    },
+    {
+      "code": "S008",
+      "activity": "ca-S008",
+      "file": "s008-la-foto-que-faltava-v2.mp3",
+      "productionMode": "offline-raw-remaster",
+      "newSynthesisRequests": 0,
+      "offset": 5.11,
+      "bodyDuration": 88.27,
+      "fullDuration": 93.38,
+      "lufs": -18.9,
+      "peakDbTP": -2.8,
+      "timeline": [
+        {
+          "scene": 1,
+          "start": 0.35,
+          "end": 43.7
+        },
+        {
+          "scene": 2,
+          "start": 44.2,
+          "end": 87.27000000000001
+        }
+      ],
+      "effects": [
+        {
+          "effect": "original-instrumental-bed",
+          "start": 0,
+          "end": 87.87,
+          "duckedUnderSpeech": true
+        },
+        {
+          "effect": "paper",
+          "start": 44.050000000000004,
+          "end": 44.800000000000004
+        }
+      ],
+      "sources": [
+        {
+          "file": "sentit-primera-tanda/s008/intro-b95c1bb58fd7.wav",
+          "sha256": "712f58c359246d8634a539d2db399a482d337ecbbe1080425140cf7af0acd33c",
+          "seconds": 3.36
+        },
+        {
+          "file": "sentit-primera-tanda/s008/scene-1-ac19f53f1302.wav",
+          "sha256": "340edd9f7dc490dfc885da3bc54c421e392606abea9096e6e4bd7420b3b5b4d0",
+          "seconds": 42.8
+        },
+        {
+          "file": "sentit-primera-tanda/s008/scene-2-b0a580acecb3.wav",
+          "sha256": "7c1ff527d9bba5098974058fc1d6ebf2757f6e0007a558fc600749942483ce3d",
+          "seconds": 42.52
+        },
+        {
+          "file": "sentit-primera-tanda/s008/paper.wav",
+          "sha256": "b6d79fd49dad5cd995b25dcab746a78f3a3aab8f157c4c6279c085a7844733e8",
+          "seconds": 0.75
+        }
+      ],
+      "sha256": "82066f88273bac31005d414cc6b0b1543879e74f6a25186564b14ee8ee1ba7f6"
+    }
+  ]
+}
