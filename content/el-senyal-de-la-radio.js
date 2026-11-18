@@ -30,7 +30,7 @@ export const radio = {
     {
       id: 'activitat',
       prompt: 'Quina activitat anuncien a la ràdio? Quin dia i en quin moment del dia es farà?',
-      answer: 'Un intercanvi de còmics. Es farà divendres, a l’hora del pati.',
+      answer: 'Un intercanvi de còmics, divendres a l’hora del pati. S’accepten paraules clau.',
       evidence: [{ part: 'avis-inicial', quote: 'Divendres, a l’hora del pati, farem un intercanvi de còmics' }],
       lines: 2,
     },
@@ -55,14 +55,14 @@ export const radio = {
     {
       id: 'senyal-visual',
       prompt: 'Per què en Biel proposa canviar el senyal que feia amb la mà?',
-      answer: 'Quan la Laia mira el paper per llegir, pot no veure el gest i començar tard. El toc li permet rebre el senyal sense aixecar la vista.',
+      answer: 'Perquè la Laia mirava el paper, no va veure el gest i va començar tard. També es pot dir que el senyal sonor li arriba encara que no miri en Biel.',
       evidence: [{ part: 'problema-gest', quote: 'L’altre dia vaig aixecar la mà i vas començar tard perquè miraves el paper.' }],
       lines: 2,
     },
     {
       id: 'musica-de-fons',
       prompt: 'Quan tornarà a sonar la música? Quin problema volen evitar amb aquest canvi?',
-      answer: 'La música tornarà a sonar quan la Laia acabi de llegir. Volen que s’entengui la veu, perquè l’àvia de la Laia havia sentit el piano i prou en un altre avís.',
+      answer: 'La música tornarà quan la Laia acabi de llegir, per poder entendre bé la veu.',
       evidence: [
         { part: 'senyals-i-musica', quote: 'Però podem treure la música mentre parlo? L’altre dia la meva àvia deia que només sentia el piano.' },
         { part: 'tornar-musica', quote: 'Quan acabis, hi tornarem a posar la música.' },
@@ -81,8 +81,8 @@ export const radio = {
     },
     {
       id: 'prova-oral',
-      prompt: 'Com saps, pel que se sent durant la prova, que la Laia segueix els senyals acordats?',
-      answer: 'Es queda en silenci després dels dos tocs. Quan sona un sol toc, comença a llegir l’avís. La resposta ha de relacionar com a mínim un dels senyals amb el que fa la Laia en aquell moment.',
+      prompt: 'Explica un moment de la prova que mostri que la Laia segueix els senyals acordats.',
+      answer: 'Espera després dels dos tocs, o comença a llegir després d’un sol toc. N’hi ha prou amb un d’aquests exemples de la prova.',
       evidence: [
         { part: 'senyals-i-musica', quote: 'Si sento un toc, començo a llegir.' },
         { part: 'tocs', quote: 'La Laia espera en silenci. Després se sent un sol toc.' },
@@ -93,7 +93,7 @@ export const radio = {
     {
       id: 'repetir-lloc',
       prompt: 'En quina situació pot ajudar algú que la Laia digui «al porxo» dues vegades durant l’avís? Posa’n un exemple.',
-      answer: 'Si algú es perd la primera part, encara pot sentir el lloc al final. També és vàlid si hi ha soroll al principi o si algú encara es refia del cartell i la repetició li permet confirmar el lloc.',
+      answer: 'Si algú arriba tard a l’escolta o hi ha soroll al principi, encara pot sentir el lloc al final. S’accepten altres situacions concretes on repetir-lo ajudi a recordar o confirmar el canvi.',
       lines: 3,
     },
   ],

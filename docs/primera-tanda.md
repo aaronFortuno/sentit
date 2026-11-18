@@ -1,6 +1,6 @@
 # Primera tanda de prototips
 
-18 de novembre de 2026 · v0.1.15 · Pendent d’audició del docent i prova amb alumnat.
+18 de novembre de 2026 · v0.1.20 · Pendent d’audició del docent i prova amb alumnat.
 
 ## Estat
 
@@ -23,7 +23,7 @@ La quota de Gemini ha retornat HTTP 429 amb una espera fins aproximadament al **
 - S002 té una pausa de tres segons entre els primers passos i el missatge final. S008 incorpora un fregadís de paper breu i suau que se superposa a l’inici de la segona escena. Cap resposta depèn d’aquest so.
 - S015 mantindrà els torns de l’entrevista sense efectes; S023 tindrà una sintonia curta que es retirarà en començar la notícia. La notícia és fictícia i així s’anuncia.
 - Les transcripcions automàtiques de Gemini i Vosk s’han contrastat amb els guions de S002 i S008. Conserven la seqüència i les dades preguntades, amb errors propis de reconeixement; no substitueixen una audició humana.
-- Comprovació local de filtres, dues pàgines de fitxa i dues de solucionari per activitat amb el format inicial, transcripcions completes, ressalts opcionals, tipografia ampliada i absència de desbordaments.
+- Comprovació local 0.1.20: S002 ocupa una pàgina de fitxa i dues de solucionari; S008, dues i dues. Transcripcions completes, ressalts opcionals, tipografia ampliada i absència de desbordaments.
 - Els esborranys S015 i S023 també passen la comprovació de transcripció i ressalts: S015 ocupa dues pàgines de fitxa i tres de solucionari; S023, tres i tres. Aquests recomptes encara no inclouen el bloc QR de l’àudio acabat.
 - La sessió pautada reprodueix la presentació una vegada i el fragment sencer en cada escolta, amb les pauses configurades. El QR conserva el codi i la configuració.
 
@@ -59,6 +59,8 @@ En completar cada activitat: contrastar l’àudio amb el guió, verificar nivel
 
 ## Guions, preguntes i respostes de revisió
 
+Enunciats i respostes sincronitzats amb les fitxes 0.1.20. La [revisió editorial](revisio-editorial-prototips.md) inclou també S001 i concreta els criteris de curs, dificultat i correcció.
+
 ### ca-S002 · Preparem una capsa de records
 
 3r · Accessible · Instruccions · 6 preguntes
@@ -79,15 +81,15 @@ Presentació: «Comprensió oral. Preparem una capsa de records.»
 
 **Mestra.** La guardarem a classe i l’obrirem a final de curs. Avui no cal portar cap record valuós. Un record petit també pot explicar una gran història.
 
-**1. Què prepararem? Com ha de ser la capsa?**
+**1. Com ha de ser la capsa? Digues dues característiques.**
 
-Resposta orientativa: Una capsa de records. Ha d’estar buida i s’ha de poder tancar; no cal que sigui nova.
+Resposta orientativa: Ha d’estar buida i s’ha de poder tancar. També és vàlid dir que no cal que sigui nova. S’accepten dues d’aquestes tres informacions.
 
-Pistes: «prepararem una capsa de records. Busqueu una capsa buida que es pugui tancar.»
+Pistes: «Busqueu una capsa buida que es pugui tancar. No cal que sigui nova.»
 
-**2. Què hem de posar primer al fons?**
+**2. Què hem de posar primer al fons de la capsa?**
 
-Resposta orientativa: Un dibuix d’un dia que vulguem recordar.
+Resposta orientativa: Un dibuix. No cal explicar quin dia representa.
 
 Pistes: «poseu al fons un dibuix d’un dia que vulgueu recordar.»
 
@@ -103,11 +105,11 @@ Resposta orientativa: Al damunt de tot, dins de la capsa.
 
 Pistes: «Doblegueu-lo i poseu-lo al damunt de tot.»
 
-**5. On escriurem el nom? Per a què servirà?**
+**5. Per què escriurem el nom a la tapa de la capsa?**
 
-Resposta orientativa: A la tapa. Permetrà identificar la capsa sense remenar-ne el contingut.
+Resposta orientativa: Per saber de qui és. També es pot explicar que així no cal obrir-la o remenar-ne el contingut.
 
-Pistes: «escriviu el vostre nom a la tapa. Així sabrem de qui és la capsa sense remenar el contingut.»
+Pistes: «Així sabrem de qui és la capsa sense remenar el contingut.»
 
 **6. Quan tornarem a obrir la capsa?**
 
@@ -135,9 +137,9 @@ Presentació: «Comprensió oral. La foto que faltava.»
 
 **Narradora.** Quan va tornar a guardar la foto, va dir a l’avi que primer havia sospitat del seu germà. L’avi li va respondre que preguntar sovint estalvia una bona estona de buscar. L’Aina va tancar l’àlbum. Ja tenia una història per explicar, i també sabia que una primera impressió no sempre és la bona.
 
-**1. Per a què busca fotografies, l’Aina?**
+**1. Per a què busca la fotografia, l’Aina?**
 
-Resposta orientativa: Per preparar un treball de l’escola sobre com havia canviat el poble.
+Resposta orientativa: Per preparar un treball de l’escola. Explicar com havia canviat el poble concreta el tema, però no és imprescindible per respondre la finalitat.
 
 Pistes: «per preparar un treball de l’escola. Volia explicar com havia canviat el poble.»
 
@@ -147,31 +149,33 @@ Resposta orientativa: Sospita del seu germà petit. Abans de buscar-lo, pregunta
 
 Pistes: «va pensar que el seu germà petit l’havia agafada per jugar.» · «va preguntar a l’avi si sabia on era.»
 
-**3. On era la fotografia i per què l’avi l’havia tret de l’àlbum?**
+**3. On era la fotografia? Per què l’avi l’havia tret de l’àlbum?**
 
-Resposta orientativa: En un sobre damunt de la prestatgeria. L’avi volia portar-la a copiar per donar-ne una còpia a la biblioteca.
+Resposta orientativa: En un sobre damunt de la prestatgeria, perquè volia fer-ne una còpia. Dir «en un sobre» és suficient per al lloc; explicar que la còpia era per a la biblioteca és una ampliació.
 
 Pistes: «un sobre damunt de la prestatgeria.» · «L’avi havia tret la fotografia de l’àlbum per portar-la a copiar. Volia donar-ne una còpia a la biblioteca.»
 
-**4. La plaça havia canviat de mida? Per què ho semblava?**
+**4. Per què la plaça sembla més petita a la fotografia?**
 
-Resposta orientativa: No. Ho semblava perquè el fotògraf havia fet la foto des d’un racó.
+Resposta orientativa: Perquè el fotògraf l’havia fotografiada des d’un racó. També s’accepta explicar-ho amb el punt de vista o l’angle de la foto. No n’hi ha prou amb dir que és una foto antiga.
 
 Pistes: «el fotògraf l’havia retratada des d’un racó. La plaça no havia canviat de mida.»
 
 **5. Quin canvi de la plaça sí que era real?**
 
-Resposta orientativa: L’arbre havia caigut durant una tempesta i ara hi havia un banc llarg al seu lloc.
+Resposta orientativa: Ara hi ha un banc on abans hi havia l’arbre. També s’accepta dir que l’arbre ja no hi és. No cal recordar la tempesta ni descriure la mida del banc.
 
-Pistes: «Una tempesta l’havia fet caure anys enrere. Ara, al seu lloc, hi havia un banc llarg.»
+Pistes: «l’arbre sí que havia desaparegut. Una tempesta l’havia fet caure anys enrere. Ara, al seu lloc, hi havia un banc llarg.»
 
-**6. Què ha après l’Aina sobre les primeres impressions? Explica-ho amb una cosa que li hagi passat.**
+**6. Què ha après l’Aina sobre les primeres impressions? Explica-ho amb un exemple de la història.**
 
-Resposta orientativa: Que cal comprovar-les abans de donar-les per bones. Pot explicar que el germà no havia agafat la foto o que la plaça semblava més petita sense haver canviat de mida. Cal relacionar l’aprenentatge amb un exemple del relat.
+Resposta orientativa: Cal comprovar-les abans de donar-les per bones, o preguntar abans d’acusar. Per exemple, la foto la tenia l’avi i no l’havia agafada el germà; també pot explicar que la plaça semblava més petita sense haver canviat de mida. Cal una idea i un exemple del relat, amb paraules pròpies.
 
 ### ca-S015 · Una restauradora ens explica el seu ofici
 
 5è · Intermèdia · Entrevista · 8 preguntes
+
+[Obre la fitxa i el solucionari](https://sentit.ortogra.fi/#lectura=ca-S015)
 
 Presentació: «Comprensió oral. Una restauradora ens explica el seu ofici.»
 
@@ -203,13 +207,13 @@ Pistes: «El primer és observar-la. Miro com està feta i quins problemes té. 
 
 **2. Quina idea equivocada sobre restaurar tenia l’entrevistador?**
 
-Resposta orientativa: Que calia repintar les parts que havien perdut el color i fer que l’obra semblés acabada de fer.
+Resposta orientativa: Pensava que restaurar volia dir deixar l’obra com nova. Repintar les parts sense color és l’exemple que ell proposa, però no cal esmentar-lo si la idea de «fer-la semblar nova» queda clara.
 
 Pistes: «repintes les parts que han perdut el color? Suposo que l’objectiu és que torni a semblar acabada de fer.»
 
 **3. Per què la Nora no s’inventa el dibuix que falta en aquesta pintura?**
 
-Resposta orientativa: Perquè no saben amb seguretat què hi havia. Inventar-lo afegiria informació sense proves i podria esborrar o alterar la història de l’obra.
+Resposta orientativa: Perquè no sap amb seguretat què hi havia dibuixat i afegiria informació sense proves. També s’accepta «perquè no sap com era el dibuix».
 
 Pistes: «no sabem amb seguretat què hi havia dibuixat. Si m’ho inventés perquè quedés bonic, estaria afegint una informació que no tenim.»
 
@@ -221,7 +225,7 @@ Pistes: «Cada obra està feta amb materials diferents i una neteja inadequada l
 
 **5. A qui ajudarà deixar escrit què s’ha fet a l’obra? De quina manera?**
 
-Resposta orientativa: A la persona que hi treballi en el futur: sabrà què s’ha fet, amb quins materials i per què, i no haurà de començar l’estudi de zero.
+Resposta orientativa: A qui la restauri o l’estudiï en el futur: podrà saber què s’hi ha fet i no començarà de zero. No cal enumerar alhora els tractaments, els materials i els motius.
 
 Pistes: «documentem què hem fet, amb quins materials i per què. Així, si una altra persona hi treballa d’aquí a uns anys, no haurà de començar de zero.»
 
@@ -237,13 +241,15 @@ Resposta orientativa: Prendre decisions sense prou informació.
 
 Pistes: «La pressa pot portar a prendre decisions sense prou informació.»
 
-**8. Per què diu que treballa també amb els ulls i amb preguntes? Explica-ho amb un exemple de l’entrevista.**
+**8. La Nora diu que treballa també «amb els ulls» i «amb preguntes». Què vol dir? Explica-ho amb un exemple de l’entrevista.**
 
-Resposta orientativa: Perquè observar, investigar i comprovar és necessari abans d’intervenir. Pot posar com a exemple estudiar els materials, esbrinar què falta al dibuix o comprovar com netejar sense fer malbé. Cal una explicació i un exemple coherent.
+Resposta orientativa: Vol dir que ha d’observar, investigar i entendre l’obra abans d’intervenir-hi. Per exemple, estudia els materials abans de decidir com netejar-la, o comprova si se sap què hi havia al dibuix. Cal explicar la idea i relacionar-hi un exemple; no cal definir cap terme tècnic.
 
 ### ca-S023 · Reobren el mercat: què canvia i què falta decidir?
 
 6è · Avançada · Notícia · 10 preguntes
+
+[Obre la fitxa i el solucionari](https://sentit.ortogra.fi/#lectura=ca-S023)
 
 Presentació: «Comprensió oral. Reobren el mercat: què canvia i què falta decidir. Notícia de ficció.»
 
@@ -265,9 +271,9 @@ Presentació: «Comprensió oral. Reobren el mercat: què canvia i què falta de
 
 **Presentadora.** En resum: dilluns es podrà tornar al mercat, entrant pel carrer Major i en horari de matí. Continuen pendents l’obertura de la porta de la plaça i la proposta d’obrir una tarda. D’aquí a un mes, l’associació explicarà què s’ha recollit amb els suggeriments. Aquest seguiment permetrà saber quines demandes es repeteixen abans de prendre noves decisions.
 
-**1. Quina és la notícia principal? Què feien les parades durant les obres?**
+**1. Quina és la notícia principal? On treballaven les parades durant les obres?**
 
-Resposta orientativa: El mercat reobre dilluns després de quatre mesos d’obres. Durant les obres les parades treballaven en una carpa al costat del poliesportiu.
+Resposta orientativa: El mercat reobre dilluns després de les obres. Durant les obres, les parades treballaven en una carpa.
 
 Pistes: «El mercat del barri tornarà a obrir dilluns, després de quatre mesos d’obres.» · «Les parades que fins ara treballaven en una carpa al costat del poliesportiu tornaran a l’edifici habitual.»
 
@@ -285,9 +291,9 @@ Pistes: «El comunicat no fixa el dia que s’obrirà aquesta segona entrada.»
 
 **4. Es pot afirmar que el mercat obrirà els divendres a la tarda? Diferencia el que està aprovat del que vol en Pau.**
 
-Resposta orientativa: No. Només està confirmat l’horari de matí, de dilluns a dissabte. Obrir una tarda és una proposta encara no aprovada i divendres és la preferència d’en Pau.
+Resposta orientativa: No. Està confirmada l’obertura al matí. Obrir una tarda encara és una proposta, i divendres és la preferència d’en Pau.
 
-Pistes: «Obrir una tarda a la setmana és, de moment, una proposta de l’associació de comerciants. Encara no s’ha aprovat ni s’ha triat quin dia seria.» · «A mi m’agradaria obrir els divendres a la tarda, però sé que altres companys prefereixen un altre dia.»
+Pistes: «L’horari també està confirmat. El mercat obrirà de dilluns a dissabte, de vuit del matí a dues del migdia.» · «Obrir una tarda a la setmana és, de moment, una proposta de l’associació de comerciants. Encara no s’ha aprovat ni s’ha triat quin dia seria.» · «A mi m’agradaria obrir els divendres a la tarda, però sé que altres companys prefereixen un altre dia.»
 
 **5. L’augment de vendes és una dada comprovada o una expectativa? Justifica-ho amb el que diu el comerciant.**
 
@@ -303,15 +309,15 @@ Pistes: «es recolliran suggeriments al punt d’informació durant les dues pri
 
 **7. Per què seria inexacte anunciar que tothom haurà de portar una carmanyola?**
 
-Resposta orientativa: Perquè acceptar recipients reutilitzables és una iniciativa d’algunes parades, no una obligació general, i les condicions depenen del producte i de cada parada.
+Resposta orientativa: Perquè és una opció d’algunes parades, no una obligació per a tothom. No cal enumerar les condicions de cada producte.
 
 Pistes: «Algunes parades acceptaran recipients reutilitzables de la clientela. Però no serà una obligació general ni s’aplicarà de la mateixa manera a tots els productes.»
 
 **8. Un cartell diu dimarts i el comunicat d’avui diu dilluns. Quina informació has de seguir i per què?**
 
-Resposta orientativa: La del comunicat d’avui: és la més recent i rectifica la previsió antiga dels cartells. Cal comprovar la data i la font.
+Resposta orientativa: La del comunicat de l’ajuntament, que anuncia dilluns i rectifica el cartell antic. La raó és aquesta actualització expressa, no només que sigui un missatge més nou.
 
-Pistes: «És el dia que es va preveure durant les obres, però el comunicat d’avui el rectifica.»
+Pistes: «És la informació principal del comunicat que ha publicat avui l’ajuntament.» · «És el dia que es va preveure durant les obres, però el comunicat d’avui el rectifica.»
 
 **9. Per a què servirà revisar els suggeriments al cap d’un mes?**
 

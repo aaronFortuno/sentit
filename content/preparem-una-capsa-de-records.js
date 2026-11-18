@@ -16,11 +16,11 @@ export const capsa = {
     { id: 'final', speaker: 'Mestra', text: 'La guardarem a classe i l’obrirem a final de curs. Avui no cal portar cap record valuós. Un record petit també pot explicar una gran història.' },
   ],
   questions: [
-    { id: 'recipient', prompt: 'Què prepararem? Com ha de ser la capsa?', answer: 'Una capsa de records. Ha d’estar buida i s’ha de poder tancar; no cal que sigui nova.', lines: 2, evidence: [{ part: 'capsa', quote: 'prepararem una capsa de records. Busqueu una capsa buida que es pugui tancar.' }] },
-    { id: 'fons', prompt: 'Què hem de posar primer al fons?', answer: 'Un dibuix d’un dia que vulguem recordar.', lines: 1, evidence: [{ part: 'dibuix', quote: 'poseu al fons un dibuix d’un dia que vulgueu recordar.' }] },
+    { id: 'recipient', prompt: 'Com ha de ser la capsa? Digues dues característiques.', answer: 'Ha d’estar buida i s’ha de poder tancar. També és vàlid dir que no cal que sigui nova. S’accepten dues d’aquestes tres informacions.', lines: 2, evidence: [{ part: 'capsa', quote: 'Busqueu una capsa buida que es pugui tancar. No cal que sigui nova.' }] },
+    { id: 'fons', prompt: 'Què hem de posar primer al fons de la capsa?', answer: 'Un dibuix. No cal explicar quin dia representa.', lines: 1, evidence: [{ part: 'dibuix', quote: 'poseu al fons un dibuix d’un dia que vulgueu recordar.' }] },
     { id: 'original', prompt: 'Hi posarem una fotografia original o una còpia? Per què?', answer: 'Una còpia, per evitar que l’original es faci malbé.', lines: 2, evidence: [{ part: 'foto', quote: 'afegiu una còpia d’una fotografia. Guardarem l’original fora de la capsa perquè no es faci malbé.' }] },
     { id: 'damunt', prompt: 'On posarem el missatge, després de doblegar-lo?', answer: 'Al damunt de tot, dins de la capsa.', lines: 1, evidence: [{ part: 'missatge', quote: 'Doblegueu-lo i poseu-lo al damunt de tot.' }] },
-    { id: 'identificar', prompt: 'On escriurem el nom? Per a què servirà?', answer: 'A la tapa. Permetrà identificar la capsa sense remenar-ne el contingut.', lines: 2, evidence: [{ part: 'nom', quote: 'escriviu el vostre nom a la tapa. Així sabrem de qui és la capsa sense remenar el contingut.' }] },
+    { id: 'identificar', prompt: 'Per què escriurem el nom a la tapa de la capsa?', answer: 'Per saber de qui és. També es pot explicar que així no cal obrir-la o remenar-ne el contingut.', lines: 1, evidence: [{ part: 'nom', quote: 'Així sabrem de qui és la capsa sense remenar el contingut.' }] },
     { id: 'quan', prompt: 'Quan tornarem a obrir la capsa?', answer: 'A final de curs.', lines: 1, evidence: [{ part: 'final', quote: 'l’obrirem a final de curs.' }] },
   ],
 };
