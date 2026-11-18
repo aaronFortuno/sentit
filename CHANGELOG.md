@@ -1,5 +1,9 @@
 # Canvis
 
+## 0.1.17 · 18 de novembre de 2026
+
+- Colors de tipologia més presents al fons, les etiquetes i la vora de les targetes. Verd més vegetal i blau més definit, amb una paleta reforçada també en mode fosc.
+
 ## 0.1.16 · 18 de novembre de 2026
 
 - Menú d’idioma propi, sense fletxa, amb opció activa, navegació per teclat i tancament amb Escape o clic exterior. L’idioma del text passa al primer filtre.
