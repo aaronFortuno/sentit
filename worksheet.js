@@ -1,6 +1,6 @@
 import { clockTime } from './session.js';
 
-export const defaultFormat = { font: 'serif', size: 12, spacing: 4, leading: 1.35 };
+export const defaultFormat = { font: 'serif', size: 12, spacing: 5, leading: 1.5 };
 
 const fontStacks = {
   serif: 'Georgia, serif',
@@ -28,21 +28,25 @@ function makeHeader(entry, labels, code, answerKey, listenUrl, session) {
   const head = element('header', 'paper-heading');
   const headerMain = element('div', 'paper-header-main');
   const top = element('div', 'paper-top');
+  const mark = element('div', 'paper-mark');
   const brand = element('div', 'paper-brand');
   const logo = element('img');
   Object.assign(logo, { src: './assets/sentit.svg', alt: '', width: 25, height: 25 });
   const name = element('span', null, 'sentit');
   name.append(element('span', 'brand-dot', '.'));
   brand.append(logo, name);
-  top.append(brand, element('span', 'paper-kind', answerKey ? labels.answers : labels.sheetTitle));
+  mark.append(brand, element('span', 'paper-kind', labels.sheetTitle));
+  top.append(mark);
+  if (!answerKey) top.append(makeIdentity(labels));
   if (code) {
     const badge = element('div', 'paper-class-code');
     badge.append(element('span', null, labels.classroomCode), element('strong', null, code));
     top.append(badge);
   }
-  headerMain.append(top, element('h3', null, entry.title));
+  if (answerKey) headerMain.append(element('p', 'paper-solution-label', labels.answers));
+  headerMain.append(element('h3', null, entry.title));
   if (entry.sample) headerMain.append(element('p', 'paper-caption', labels.sample));
-  head.append(headerMain);
+  head.append(top, headerMain);
   if (listenUrl) {
     const listening = element('div', 'paper-listening');
     const details = element('div', 'paper-listening-details');
@@ -50,7 +54,7 @@ function makeHeader(entry, labels, code, answerKey, listenUrl, session) {
     if (session) {
       const summary = element('ul', 'paper-session-summary');
       summary.append(element('li', null, labels.paperReading(clockTime(session.reading))));
-      summary.append(element('li', null, labels.paperListens(session.listens, clockTime(entry.fragment.seconds))));
+      summary.append(element('li', null, labels.paperListens(session.listens, clockTime(entry.fragment?.seconds ?? entry.seconds))));
       if (session.listens > 1) summary.append(element('li', null, labels.paperInterval(clockTime(session.interval))));
       const prepare = session.reading > 0 && (session.prepare ?? true);
       const repeat = session.listens > 1 && (session.repeat ?? true);
@@ -81,6 +85,46 @@ function makeIdentity(labels) {
     identity.append(line);
   }
   return identity;
+}
+
+export function worksheetInstructions(entry, session) {
+  const spanish = entry.language?.split('-')[0] === 'es';
+  if (!session || session.enabled === false) {
+    return spanish
+      ? 'Lee las preguntas antes de empezar. Escucha el audio y responde por escrito. Puedes volver a escucharlo cuando lo necesites.'
+      : 'Llegeix les preguntes abans de començar. Escolta l’àudio i respon per escrit. Pots tornar-lo a escoltar quan ho necessitis.';
+  }
+  const duration = seconds => {
+    const minutes = Math.floor(seconds / 60);
+    const remainder = seconds % 60;
+    const units = spanish
+      ? { minute: 'minuto', minutes: 'minutos', second: 'segundo', seconds: 'segundos', and: ' y ' }
+      : { minute: 'minut', minutes: 'minuts', second: 'segon', seconds: 'segons', and: ' i ' };
+    const parts = [];
+    if (minutes) parts.push(`${minutes} ${minutes === 1 ? units.minute : units.minutes}`);
+    if (remainder) parts.push(`${remainder} ${remainder === 1 ? units.second : units.seconds}`);
+    return parts.join(units.and);
+  };
+  const sentences = [];
+  if (session.reading > 0) {
+    sentences.push(spanish
+      ? `Tienes ${duration(session.reading)} para leer las preguntas antes de escuchar el audio.`
+      : `Tens ${duration(session.reading)} per llegir les preguntes abans d’escoltar l’àudio.`);
+  }
+  const once = spanish ? 'una vez' : 'una vegada';
+  const times = session.listens === 1 ? once : `${session.listens} ${spanish ? 'veces' : 'vegades'}`;
+  sentences.push(spanish ? `Escucharás el audio ${times}.` : `Escoltaràs l’àudio ${times}.`);
+  if (session.listens > 1) {
+    if (session.interval > 0) {
+      sentences.push(spanish
+        ? `Entre las escuchas tendrás ${duration(session.interval)} para revisar y completar las respuestas.`
+        : `Entre les escoltes tindràs ${duration(session.interval)} per revisar i completar les respostes.`);
+    } else {
+      sentences.push(spanish ? 'Las escuchas se suceden sin pausa.' : 'Les escoltes se succeeixen sense pausa.');
+    }
+  }
+  sentences.push(spanish ? 'Responde a las preguntas por escrito.' : 'Respon les preguntes per escrit.');
+  return sentences.join(' ');
 }
 
 function questionBlock(number, heading, parts) {
@@ -198,8 +242,8 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
 
   startPage();
   content.append(makeHeader(entry, labels, settings?.code?.trim(), answerKey, listenUrl, session));
-  if (!answerKey) {
-    content.append(makeIdentity(labels), element('p', 'paper-instructions', labels.instructions));
+  if (!answerKey && (settings?.showInstructions ?? true)) {
+    placeBlock(element('p', 'paper-instructions', worksheetInstructions(entry, session)));
   }
 
   let number = 0;

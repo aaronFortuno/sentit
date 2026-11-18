@@ -3,6 +3,8 @@ import { strings } from './locales.js';
 import { defaultFormat, maxLines, questionFormat, renderWorksheet } from './worksheet.js';
 import { clockTime, decodeSession, defaultSession, encodeSession, guidedPrompts } from './session.js';
 import { initGuidedPlayer } from './guided-player.js';
+import { mountCatalog } from './catalog.js';
+import { listCollections, saveCollectionLayout } from './collections.js';
 
 const byId = id => document.getElementById(id);
 const preferences = {
@@ -11,10 +13,11 @@ const preferences = {
 };
 const mediaTheme = matchMedia('(prefers-color-scheme: dark)');
 let language = preferences.get('lang') === 'es' ? 'es' : 'ca';
-let selected = activities[0] ?? null;
+let selected = null;
+let activeCollectionId = '';
+let currentSettings = {};
 let documentMode = 'worksheet';
 const t = key => strings[language][key];
-const filterNames = ['grade', 'level', 'duration', 'genre'];
 const query = new URL(location.href).searchParams;
 const listenId = query.get('escolta');
 const listenKey = entry => `${entry.language}-${entry.code}`;
@@ -26,7 +29,8 @@ const paper = byId('paper');
 const format = { ...defaultFormat };
 let activitySettings = {};
 try {
-  const saved = JSON.parse(preferences.get('worksheet-format'));
+  let saved = JSON.parse(preferences.get('worksheet-format'));
+  if (saved?.font === 'serif' && saved.size === 12 && saved.spacing === 4 && saved.leading === 1.35) saved = null;
   for (const [key, fallback] of Object.entries(defaultFormat)) {
     const input = formatForm.elements.namedItem(key);
     input.value = saved?.[key] ?? fallback;
@@ -34,9 +38,26 @@ try {
   }
   activitySettings = JSON.parse(preferences.get('worksheet-activities')) ?? {};
 } catch { /* Use defaults if settings cannot be read. */ }
+const standardFormat = { ...format };
+
+function snapshot(entry, collectionId = '') {
+  const stored = collectionId ? listCollections().find(item => item.id === collectionId)?.layouts?.[entry.id] : null;
+  if (stored) return structuredClone(stored);
+  const { format: savedFormat, ...settings } = activitySettings[entry.id] ?? {};
+  return { format: { ...standardFormat, ...savedFormat }, settings: structuredClone(settings) };
+}
+
+function applyFormat(settings) {
+  for (const [key, fallback] of Object.entries(defaultFormat)) {
+    const input = formatForm.elements.namedItem(key);
+    input.value = settings?.[key] ?? fallback;
+    format[key] = input.value && input.checkValidity() ? input.type === 'number' ? input.valueAsNumber : input.value : fallback;
+  }
+  syncFormat();
+}
 
 function sessionSettings(entry) {
-  return { ...defaultSession, ...activitySettings[entry.id]?.session };
+  return { ...defaultSession, ...(entry === selected ? currentSettings.session : activitySettings[entry.id]?.session) };
 }
 
 function configuredSession(entry) {
@@ -62,6 +83,10 @@ const icons = {
   copy: '<rect x="9" y="9" width="13" height="13" rx="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>',
   play: '<path d="m7 4 14 8-14 8Z"/>',
   pause: '<path d="M9 4H6v16h3zm9 0h-3v16h3z"/>',
+  'arrow-left': '<path d="m12 19-7-7 7-7M5 12h14"/>',
+  'arrow-up': '<path d="m5 12 7-7 7 7M12 5v14"/>',
+  'arrow-down': '<path d="m5 12 7 7 7-7M12 5v14"/>',
+  grip: '<circle cx="9" cy="5" r="1"/><circle cx="9" cy="12" r="1"/><circle cx="9" cy="19" r="1"/><circle cx="15" cy="5" r="1"/><circle cx="15" cy="12" r="1"/><circle cx="15" cy="19" r="1"/>',
 };
 function icon(container, name) {
   container.innerHTML = `<svg viewBox="0 0 24 24" aria-hidden="true">${icons[name]}</svg>`;
@@ -72,46 +97,12 @@ function node(tag, text, className) {
   if (className) element.className = className;
   return element;
 }
-function filterDuration(entry) {
-  if (entry.seconds <= 60) return 'short';
-  return entry.seconds <= 120 ? 'medium' : 'long';
-}
 function theme() {
   const dark = (preferences.get('theme') ?? (mediaTheme.matches ? 'dark' : 'light')) === 'dark';
   document.documentElement.dataset.theme = dark ? 'dark' : 'light';
   byId('theme').setAttribute('aria-pressed', String(dark));
   document.querySelector('[name="theme-color"]').content = dark ? '#131f1b' : '#f7f5ee';
   icon(byId('theme').querySelector('[data-icon]'), dark ? 'sun' : 'moon');
-}
-
-function renderFilters() {
-  const choices = { grade: t('grades'), level: t('levels'), duration: t('durations'), genre: t('genres') };
-  for (const field of filterNames) {
-    const select = byId(field);
-    const value = select.value;
-    select.replaceChildren(new Option(t('all'), ''), ...Object.entries(choices[field]).map(([key, label]) => new Option(label, key)));
-    select.value = value;
-  }
-}
-
-function renderCatalogue() {
-  const values = Object.fromEntries(new FormData(byId('filters')));
-  const matched = activities.filter(entry => filterNames.every(field =>
-    !values[field] || values[field] === (field === 'duration' ? filterDuration(entry) : entry[field])));
-  if (!matched.includes(selected)) selected = matched[0] ?? null;
-  byId('count').textContent = matched.length;
-  byId('catalog-empty').hidden = matched.length > 0;
-  const select = byId('activity-select');
-  select.replaceChildren();
-  for (const entry of matched) {
-    const option = new Option(`${entry.code} · ${entry.title}`, entry.id);
-    option.lang = entry.language;
-    select.append(option);
-  }
-  if (!matched.length) select.append(new Option(t('noResults'), ''));
-  select.disabled = !selected;
-  select.value = selected?.id ?? '';
-  renderSelection();
 }
 
 function fitZoom() {
@@ -121,7 +112,7 @@ function fitZoom() {
 function renderPaper() {
   paper.hidden = !selected;
   byId('paper-empty').hidden = Boolean(selected);
-  if (!selected) {
+  if (!selected || byId('workspace').hidden) {
     paper.replaceChildren();
     return;
   }
@@ -129,7 +120,7 @@ function renderPaper() {
   const scroller = paper.parentElement;
   const scrollTop = scroller.scrollTop;
   const answerKey = documentMode === 'answers';
-  renderWorksheet(paper, selected, format, activitySettings[selected.id], {
+  renderWorksheet(paper, selected, format, currentSettings, {
     answerKey,
     labels: printLocale(selected),
     toolLabels: strings[language],
@@ -149,8 +140,9 @@ function renderEditor() {
   list.replaceChildren();
   byId('question-panel').hidden = true;
   if (!selected) return;
-  const settings = activitySettings[selected.id];
+  const settings = currentSettings;
   byId('classroom-code').value = settings?.code ?? '';
+  byId('show-instructions').checked = settings.showInstructions ?? true;
   selected.questions.forEach((question, index) => {
     const { id, included } = questionFormat(question, index, settings);
     if (included) return;
@@ -169,7 +161,15 @@ function renderEditor() {
 }
 
 function saveActivity() {
-  preferences.set('worksheet-activities', JSON.stringify(activitySettings));
+  if (!selected) return;
+  try {
+    if (activeCollectionId) saveCollectionLayout(activeCollectionId, selected.id, { format: { ...format }, settings: currentSettings });
+    else {
+      activitySettings[selected.id] = { ...currentSettings, format: { ...format } };
+      localStorage.setItem('sentit-worksheet-activities', JSON.stringify(activitySettings));
+    }
+    byId('layout-status').textContent = '';
+  } catch { byId('layout-status').textContent = t('layoutStorageError'); }
   renderPaper();
 }
 
@@ -198,12 +198,17 @@ function renderSessionEditor() {
 }
 
 function renderSelection() {
+  const entries = catalog.entries();
+  const options = entries.includes(selected) ? entries : [...entries, selected].filter(Boolean);
+  byId('activity-select').replaceChildren(...options.map(entry => new Option(`${entry.code} · ${entry.title}`, entry.id)));
+  byId('activity-select').value = selected?.id ?? '';
   byId('worksheet-mode').setAttribute('aria-pressed', String(documentMode === 'worksheet'));
   byId('answers-mode').setAttribute('aria-pressed', String(documentMode === 'answers'));
   byId('print').disabled = !selected;
   byId('print-label').textContent = t(documentMode === 'answers' ? 'printAnswers' : 'printWorksheet');
   byId('print-kind').textContent = selected ? t('printHint') : '';
-  byId('activity-meta').textContent = selected ? `${t('grades')[selected.grade]} · ${t('genres')[selected.genre]} · ${clockTime(selected.seconds)}${selected.sample ? ` · ${t('sample')}` : ''}` : '';
+  const scope = listCollections().find(entry => entry.id === activeCollectionId);
+  byId('activity-meta').textContent = selected ? `${t('grades')[selected.grade] ?? selected.grade} · ${t('genres')[selected.genre] ?? selected.genre} · ${clockTime(selected.fragment?.seconds ?? selected.seconds)}${scope ? ` · ${scope.name}` : ''}` : '';
   renderPaper();
   renderEditor();
   const audio = byId('teacher-audio');
@@ -216,6 +221,56 @@ function renderSelection() {
   byId('audio-actions').hidden = !selected?.audio;
   byId('audio-empty').hidden = Boolean(selected?.audio);
   renderSessionEditor();
+}
+
+function showActivity(entry, collectionId = '') {
+  const collection = listCollections().find(item => item.id === collectionId);
+  activeCollectionId = collection?.readingIds.includes(entry.id) ? collectionId : '';
+  if (catalog.collectionId() !== activeCollectionId) catalog.setCollection(activeCollectionId);
+  selected = entry;
+  const saved = snapshot(entry, activeCollectionId);
+  currentSettings = saved.settings ?? {};
+  applyFormat(saved.format);
+  documentMode = 'worksheet';
+  byId('catalog-view').hidden = true;
+  byId('workspace').hidden = false;
+  byId('layout-status').textContent = '';
+  document.querySelector('.skip').href = '#workspace';
+  paper.parentElement.scrollTop = 0;
+  renderSelection();
+  byId('workspace').focus({ preventScroll: true });
+}
+
+function route() {
+  if (listenId !== null) return;
+  const hash = new URLSearchParams(location.hash.slice(1));
+  const entry = activities.find(item => item.id === hash.get('lectura'));
+  if (entry) showActivity(entry, hash.get('col') ?? '');
+  else {
+    byId('teacher-audio').pause();
+    byId('workspace').hidden = true;
+    byId('catalog-view').hidden = false;
+    document.querySelector('.skip').href = '#catalog-view';
+    catalog.render();
+    byId('catalog-view').focus({ preventScroll: true });
+  }
+}
+
+function openActivity(entry, collectionId = '') {
+  if (!entry) return;
+  const hash = new URLSearchParams({ lectura: entry.id });
+  if (collectionId) hash.set('col', collectionId);
+  const url = new URL(location.href);
+  url.hash = hash.toString();
+  history.pushState(null, '', url);
+  route();
+}
+
+function openCatalog() {
+  const url = new URL(location.href);
+  url.hash = '';
+  history.pushState(null, '', url);
+  route();
 }
 
 function player(entry) {
@@ -280,9 +335,10 @@ function translate() {
     element.setAttribute('aria-label', t(element.dataset.label));
     if (element.matches('button')) element.title = t(element.dataset.label);
   }
+  for (const element of document.querySelectorAll('[data-placeholder]')) element.placeholder = t(element.dataset.placeholder);
   if (listenId === null) {
-    renderFilters();
-    renderCatalogue();
+    catalog.render();
+    if (!byId('workspace').hidden) renderSelection();
   } else {
     const key = listenId.trim().toLowerCase();
     const entry = activities.find(activity => listenKey(activity).toLowerCase() === key)
@@ -291,14 +347,25 @@ function translate() {
   }
 }
 
+const catalog = mountCatalog({
+  activities, t, locale: () => language, icon, snapshot, onOpen: openActivity,
+  onCollectionsChange() {
+    if (!activeCollectionId || byId('workspace').hidden) return;
+    const collection = listCollections().find(item => item.id === activeCollectionId);
+    if (collection?.readingIds.includes(selected.id)) showActivity(selected, activeCollectionId);
+    else openCatalog();
+  },
+});
+
 byId('language').value = language;
 syncFormat();
 new ResizeObserver(fitZoom).observe(paper);
 sessionEditor.addEventListener('submit', event => event.preventDefault());
-sessionEditor.addEventListener('change', () => {
+function updateSession(event) {
   if (!guidedPrompts(selected)) return;
+  if (event.type === 'input' && !sessionEditor.checkValidity()) return;
   if (sessionEditor.checkValidity()) {
-    (activitySettings[selected.id] ??= {}).session = {
+    const session = {
       enabled: byId('guided-mode').checked,
       reading: byId('session-reading').valueAsNumber,
       listens: Number(byId('session-listens').value),
@@ -306,29 +373,51 @@ sessionEditor.addEventListener('change', () => {
       prepare: byId('session-prepare').checked,
       repeat: byId('session-repeat').checked,
     };
-    saveActivity();
+    if (JSON.stringify(session) !== JSON.stringify(sessionSettings(selected))) {
+      currentSettings.session = session;
+      saveActivity();
+    } else return;
   }
   renderSessionEditor();
-});
+}
+sessionEditor.addEventListener('input', updateSession);
+sessionEditor.addEventListener('change', updateSession);
 formatForm.addEventListener('submit', event => event.preventDefault());
-formatForm.addEventListener('change', event => {
+function updateFormat(event) {
   const input = event.target;
   if (!Object.hasOwn(defaultFormat, input.name)) return;
-  if (input.type === 'number' && (!input.value || !input.checkValidity())) input.value = format[input.name];
-  format[input.name] = input.type === 'number' ? input.valueAsNumber : input.value;
-  preferences.set('worksheet-format', JSON.stringify(format));
-  renderPaper();
-});
+  if (input.type === 'number' && (!input.value || !input.checkValidity())) {
+    if (event.type === 'change') input.value = format[input.name];
+    return;
+  }
+  const value = input.type === 'number' ? input.valueAsNumber : input.value;
+  if (format[input.name] === value) return;
+  format[input.name] = value;
+  if (!activeCollectionId) {
+    Object.assign(standardFormat, format);
+    preferences.set('worksheet-format', JSON.stringify(format));
+  }
+  saveActivity();
+}
+formatForm.addEventListener('input', updateFormat);
+formatForm.addEventListener('change', updateFormat);
 formatForm.addEventListener('reset', event => {
   event.preventDefault();
   Object.assign(format, defaultFormat);
   syncFormat();
-  preferences.set('worksheet-format', JSON.stringify(format));
-  renderPaper();
+  if (!activeCollectionId) {
+    Object.assign(standardFormat, format);
+    preferences.set('worksheet-format', JSON.stringify(format));
+  }
+  saveActivity();
+});
+byId('show-instructions').addEventListener('change', event => {
+  currentSettings.showInstructions = event.target.checked;
+  saveActivity();
 });
 byId('classroom-code').addEventListener('input', event => {
   if (!selected) return;
-  (activitySettings[selected.id] ??= {}).code = event.target.value;
+  currentSettings.code = event.target.value;
   saveActivity();
 });
 paper.addEventListener('click', event => {
@@ -343,7 +432,7 @@ paper.addEventListener('click', event => {
     tools.classList.toggle('is-open', open);
     return;
   }
-  const settings = activitySettings[selected.id] ??= {};
+  const settings = currentSettings;
   const index = selected.questions.findIndex((question, i) => (question.id ?? String(i)) === id);
   if (index === -1) return;
   const { lines } = questionFormat(selected.questions[index], index, settings);
@@ -370,14 +459,14 @@ paper.addEventListener('click', event => {
 byId('hidden-questions').addEventListener('click', event => {
   const button = event.target.closest('[data-restore-question]');
   if (!selected || !button) return;
-  activitySettings[selected.id].questions[button.dataset.restoreQuestion].included = true;
+  currentSettings.questions[button.dataset.restoreQuestion].included = true;
   saveActivity();
   renderEditor();
   if (!byId('question-panel').hidden) byId('question-panel').querySelector('summary').focus({ preventScroll: true });
 });
 byId('restore-all').addEventListener('click', () => {
   if (!selected) return;
-  const settings = activitySettings[selected.id];
+  const settings = currentSettings;
   for (const override of Object.values(settings?.questions ?? {})) override.included = true;
   saveActivity();
   renderEditor();
@@ -392,17 +481,17 @@ byId('theme').addEventListener('click', () => {
   theme();
 });
 mediaTheme.addEventListener('change', theme);
-byId('filters').addEventListener('change', renderCatalogue);
-byId('filters').addEventListener('reset', event => {
-  event.preventDefault();
-  for (const field of filterNames) byId(field).value = '';
-  renderCatalogue();
-});
 byId('activity-select').addEventListener('change', event => {
-  selected = activities.find(entry => entry.id === event.target.value);
-  paper.parentElement.scrollTop = 0;
-  renderSelection();
+  openActivity(activities.find(entry => entry.id === event.target.value), activeCollectionId);
 });
+byId('back-catalog').addEventListener('click', openCatalog);
+document.querySelector('.brand').addEventListener('click', event => {
+  if (listenId === null && !event.ctrlKey && !event.metaKey && !event.shiftKey && !event.altKey) {
+    event.preventDefault();
+    openCatalog();
+  }
+});
+window.addEventListener('hashchange', route);
 for (const [id, mode] of [['worksheet-mode', 'worksheet'], ['answers-mode', 'answers']]) {
   byId(id).addEventListener('click', () => {
     documentMode = mode;
@@ -444,7 +533,6 @@ for (const element of document.querySelectorAll('[data-icon]')) {
 }
 if (listenId === null) {
   document.querySelector('.top').hidden = false;
-  byId('workspace').hidden = false;
   document.querySelector('.bottom').hidden = false;
 } else {
   document.body.classList.add('listening');
@@ -452,7 +540,7 @@ if (listenId === null) {
   document.querySelector('.skip').href = '#player';
 }
 const mobileLayout = matchMedia('(max-width: 640px)');
-const compactCatalog = matchMedia('(max-width: 1000px)');
+const compactCatalog = matchMedia('(max-width: 640px)');
 function toggleSettings(open) {
   byId('settings-toggle').setAttribute('aria-expanded', String(open));
   byId('settings-scroll').hidden = !open;
@@ -464,3 +552,4 @@ mobileLayout.addEventListener('change', event => { toggleSettings(!event.matches
 compactCatalog.addEventListener('change', event => { byId('filter-panel').open = !event.matches; });
 theme();
 translate();
+route();

@@ -7,6 +7,7 @@ export const activities = [
     code: 'MOSTRA',
     language: 'ca',
     title: 'Canvi de plans',
+    summary: 'La pluja altera els plans d’un taller i cal decidir què fer.',
     grade: '5',
     level: 'easy',
     seconds: 75,
