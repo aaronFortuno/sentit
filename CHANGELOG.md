@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.9 · 18 de novembre de 2026
+
+- Nom i data apilats entre la marca i el bloc del QR. Les dades de l’alumne i les condicions d’escolta comparteixen una sola fila, amb el títol i el codi d’aula a sota.
+- Interlineat inicial d’1,6 i separació inicial de 7 mm entre preguntes. Línies de resposta de 9 mm i una mica més d’espai després de l’enunciat.
+- Els formats que conservaven exactament els valors inicials anteriors adopten els nous valors; els formats personalitzats es mantenen.
+
 ## 0.1.8 · 18 de novembre de 2026
 
 - Catàleg inicial amb targetes, cerca per títol o codi i filtres de curs, dificultat, durada, tipus i idioma. Cada comprensió s’obre en un editor independent, amb retorn al catàleg.

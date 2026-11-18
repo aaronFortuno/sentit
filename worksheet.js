@@ -1,6 +1,6 @@
 import { clockTime } from './session.js';
 
-export const defaultFormat = { font: 'serif', size: 12, spacing: 5, leading: 1.5 };
+export const defaultFormat = { font: 'serif', size: 12, spacing: 7, leading: 1.6 };
 
 const fontStacks = {
   serif: 'Georgia, serif',
@@ -27,6 +27,8 @@ function element(tag, className, text) {
 function makeHeader(entry, labels, code, answerKey, listenUrl, session) {
   const head = element('header', 'paper-heading');
   const headerMain = element('div', 'paper-header-main');
+  const titleRow = element('div', 'paper-title-row');
+  titleRow.append(headerMain);
   const top = element('div', 'paper-top');
   const mark = element('div', 'paper-mark');
   const brand = element('div', 'paper-brand');
@@ -41,13 +43,14 @@ function makeHeader(entry, labels, code, answerKey, listenUrl, session) {
   if (code) {
     const badge = element('div', 'paper-class-code');
     badge.append(element('span', null, labels.classroomCode), element('strong', null, code));
-    top.append(badge);
+    titleRow.append(badge);
   }
   if (answerKey) headerMain.append(element('p', 'paper-solution-label', labels.answers));
   headerMain.append(element('h3', null, entry.title));
   if (entry.sample) headerMain.append(element('p', 'paper-caption', labels.sample));
-  head.append(top, headerMain);
+  head.append(top, titleRow);
   if (listenUrl) {
+    head.classList.add('has-listening');
     const listening = element('div', 'paper-listening');
     const details = element('div', 'paper-listening-details');
     details.append(element('span', 'paper-audio-url', listenUrl.replace(/^https:\/\//, '')));

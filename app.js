@@ -28,9 +28,13 @@ const sessionEditor = byId('session-editor');
 const paper = byId('paper');
 const format = { ...defaultFormat };
 let activitySettings = {};
+function restoreFormat(saved) {
+  const previousDefault = saved?.font === 'serif' && saved.size === 12
+    && ((saved.spacing === 4 && saved.leading === 1.35) || (saved.spacing === 5 && saved.leading === 1.5));
+  return previousDefault ? { ...defaultFormat } : saved;
+}
 try {
-  let saved = JSON.parse(preferences.get('worksheet-format'));
-  if (saved?.font === 'serif' && saved.size === 12 && saved.spacing === 4 && saved.leading === 1.35) saved = null;
+  const saved = restoreFormat(JSON.parse(preferences.get('worksheet-format')));
   for (const [key, fallback] of Object.entries(defaultFormat)) {
     const input = formatForm.elements.namedItem(key);
     input.value = saved?.[key] ?? fallback;
@@ -48,9 +52,10 @@ function snapshot(entry, collectionId = '') {
 }
 
 function applyFormat(settings) {
+  const saved = restoreFormat(settings);
   for (const [key, fallback] of Object.entries(defaultFormat)) {
     const input = formatForm.elements.namedItem(key);
-    input.value = settings?.[key] ?? fallback;
+    input.value = saved?.[key] ?? fallback;
     format[key] = input.value && input.checkValidity() ? input.type === 'number' ? input.valueAsNumber : input.value : fallback;
   }
   syncFormat();
