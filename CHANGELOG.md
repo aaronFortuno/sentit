@@ -1,5 +1,10 @@
 # Canvis
 
+## 0.1.13 · 18 de novembre de 2026
+
+- Amplada inicial de la imatge de 80 mm. A la fitxa s’alinea amb el títol i les instruccions envolten la il·lustració. La transcripció del solucionari també aprofita l’espai del costat i recupera tota l’amplada sota la imatge.
+- Proposta editorial de 24 comprensions de 3r a 6è: sis per curs, dues de cada dificultat i una de cada tipologia. Inclou durades i objectius, amb una primera tanda de quatre guions per revisar abans de generar àudios.
+
 ## 0.1.12 · 18 de novembre de 2026
 
 - L’editor fa servir adreces amb idioma i codi, com `#lectura=ca-S001`. Els enllaços anteriors s’obren i adopten l’adreça nova.
