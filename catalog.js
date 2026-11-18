@@ -1,6 +1,7 @@
 import { collectionsKey, listCollections, saveCollectionEntries, renameCollection, removeCollection, moveCollectionReading, removeCollectionReading } from './collections.js';
-import { durationText, matchesDuration } from './activity-meta.js';
+import { durationText, durationTier, matchesDuration } from './activity-meta.js';
 import { animateRefresh, closeDialog, openDialog, setDisclosure } from './motion.js';
+import { mountCatalogGestures } from './catalog-gestures.js';
 
 const normalise = value => value.toLocaleLowerCase().normalize('NFD').replace(/\p{M}/gu, '');
 const activeKey = 'sentit.collection.active.v1';
@@ -16,13 +17,12 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
   let selectedIds = new Set();
   let selectionSource = '';
   let addingTo = '';
-  let libraryId = '';
-  let draggedId;
   let matches = [];
   let limit = 12;
   const grid = byId('activity-grid');
   const dialog = byId('collection-dialog');
-  const library = byId('collection-library');
+  const scroller = byId('catalog-view').querySelector('.catalog-results-scroll');
+  let gestures;
 
   function element(tag, text, className) {
     const node = document.createElement(tag);
@@ -50,11 +50,17 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
   }
 
   function setCollection(id) {
+    gestures?.close();
     collectionId = id;
     try { localStorage.setItem(activeKey, id); } catch { /* Retain this selection for this visit. */ }
     selecting = false;
     selectedIds.clear();
     addingTo = '';
+    for (const select of byId('filters').querySelectorAll('select')) select.value = '';
+    byId('search').value = '';
+    setDisclosure(byId('collection-rename'), false);
+    byId('collection-rename-toggle').setAttribute('aria-expanded', 'false');
+    limit = 12;
     render();
   }
 
@@ -78,17 +84,28 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
     byId('selection-count').textContent = t('selectionCount')(selectedIds.size);
     byId('selection-save').disabled = selectedIds.size === 0;
     byId('collection-save').setAttribute('aria-pressed', String(selecting));
+    byId('collection-save').hidden = selecting;
     setDisclosure(byId('catalog-selection'), selecting);
-    for (const input of grid.querySelectorAll('[data-select-activity]')) {
-      input.checked = selectedIds.has(input.dataset.selectActivity);
-      input.closest('.activity-card').classList.toggle('is-selected', input.checked);
+    grid.classList.toggle('is-selecting', selecting);
+    for (const card of grid.children) {
+      const selected = selecting && selectedIds.has(card.dataset.id);
+      card.classList.toggle('is-selected', selected);
+      card.querySelector('.card-selection').hidden = !selected;
+      if (selecting) card.setAttribute('aria-pressed', String(selected));
+      else card.removeAttribute('aria-pressed');
+      card.setAttribute('aria-describedby', selecting ? 'catalog-selection-help' : 'catalog-card-help');
     }
+    if (selecting) gestures?.close();
+    gestures?.sync();
   }
 
   function renderCards() {
     grid.replaceChildren();
     for (const entry of matches.slice(0, limit)) {
-      const card = element(selecting ? 'label' : 'button', undefined, 'activity-card');
+      const card = element('button', undefined, 'activity-card');
+      card.type = 'button';
+      card.dataset.id = entry.id;
+      card.dataset.openActivity = entry.id;
       card.dataset.genre = entry.genre;
       card.dataset.level = entry.level;
       if (entry.image?.src) {
@@ -99,16 +116,12 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
         art.append(illustration);
         card.append(art);
       }
-      if (selecting) {
-        const select = element('input');
-        select.type = 'checkbox';
-        select.dataset.selectActivity = entry.id;
-        select.setAttribute('aria-label', t('selectActivity')(entry.title));
-        card.append(select);
-      } else {
-        card.type = 'button';
-        card.dataset.openActivity = entry.id;
-      }
+      const selection = element('span', undefined, 'card-selection');
+      const check = element('span'); icon(check, 'check');
+      selection.append(check, element('span', t('selectedActivity')));
+      selection.setAttribute('aria-hidden', 'true');
+      selection.hidden = true;
+      card.append(selection);
       const code = element('span', `${entry.code} · ${languageName(entry.language)}`, 'activity-card-code');
       const head = element('div', undefined, 'activity-card-head');
       const type = element('span', undefined, 'activity-type');
@@ -131,6 +144,13 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
       const duration = element('span', undefined, 'activity-duration');
       const clock = element('span'); icon(clock, 'clock');
       duration.append(clock, element('span', durationText(entry, t)));
+      const meter = element('span', undefined, 'duration-meter');
+      const tier = durationTier(entry);
+      meter.setAttribute('aria-hidden', 'true');
+      meter.hidden = !tier;
+      for (let i = 0; i < 4; i++) meter.append(element('i', undefined, i < tier ? 'is-filled' : ''));
+      duration.append(meter);
+      duration.title = `${durationText(entry, t)} · ${t('durationScale')}`;
       const level = element('span', undefined, 'activity-difficulty');
       const dots = element('span', undefined, 'difficulty-dots');
       dots.setAttribute('aria-hidden', 'true');
@@ -148,12 +168,14 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
   }
 
   function render() {
+    gestures?.close();
     const collections = listCollections();
     if (collectionId && !collections.some(entry => entry.id === collectionId)) collectionId = '';
     const picker = byId('collection-select');
     picker.replaceChildren(new Option(t('wholeCatalogue'), ''), ...collections.map(entry => new Option(entry.name, entry.id)));
     picker.value = collectionId;
-    byId('collection-manage').disabled = !collectionId;
+    byId('collection-actions').hidden = !collectionId;
+    byId('collection-help').textContent = t(collectionId ? 'collectionGestureHelp' : 'catalogGestureHelp');
     renderFilters();
     const values = Object.fromEntries(new FormData(byId('filters')));
     const terms = normalise(byId('search').value).trim().split(/\s+/u).filter(Boolean);
@@ -174,8 +196,12 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
   }
 
   function startSelection(target = '') {
+    gestures?.close();
     addingTo = target;
-    if (target) collectionId = '';
+    if (target) {
+      setCollection('');
+      addingTo = target;
+    }
     selecting = true;
     selectionSource = collectionId;
     selectedIds.clear();
@@ -201,82 +227,86 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
     byId(addingTo ? 'collection-submit' : 'collection-name').focus();
   }
 
-  function actionButton(action, label, symbol, disabled = false) {
-    const button = element('button', undefined, 'icon-button');
-    button.type = 'button';
-    button.dataset.action = action;
-    button.disabled = disabled;
-    button.setAttribute('aria-label', label);
-    button.title = label;
-    icon(button, symbol);
-    return button;
+  function updatePicker() {
+    const picker = byId('collection-select');
+    picker.replaceChildren(new Option(t('wholeCatalogue'), ''), ...listCollections().map(entry => new Option(entry.name, entry.id)));
+    picker.value = collectionId;
   }
 
-  function renderLibrary(focusId, action) {
-    const collection = listCollections().find(entry => entry.id === libraryId);
-    byId('collection-library-title').textContent = collection?.name ?? t('collections');
-    byId('collection-rename-name').value = collection?.name ?? '';
-    const ids = collection?.readingIds ?? [];
-    byId('collection-library-empty').hidden = ids.length > 0;
-    const list = byId('collection-library-list');
-    list.replaceChildren();
-    ids.forEach((id, position) => {
-      const entry = index.get(id);
-      const name = entry?.title ?? id;
-      const row = element('li');
-      row.dataset.id = id;
-      const drag = actionButton('drag', t('dragActivity')(name), 'grip');
-      drag.draggable = true;
-      drag.classList.add('collection-drag');
-      const copy = element('div', undefined, 'collection-library-copy');
-      copy.append(element('small', entry ? `${entry.code} · ${languageName(entry.language)}` : t('unavailableActivity')), element('span', name));
-      if (entry) copy.lang = entry.language;
-      const actions = element('div', undefined, 'collection-row-actions');
-      const edit = element('button', t('edit'), 'button');
-      edit.type = 'button';
-      edit.dataset.action = 'edit';
-      edit.disabled = !entry;
-      actions.append(edit, actionButton('up', t('moveUp')(name), 'arrow-up', position === 0),
-        actionButton('down', t('moveDown')(name), 'arrow-down', position === ids.length - 1),
-        actionButton('remove', t('removeFromCollection')(name), 'close'));
-      row.append(drag, copy, actions);
-      list.append(row);
-    });
-    if (focusId) {
-      const row = [...list.children].find(row => row.dataset.id === focusId);
-      const focus = row?.querySelector(`[data-action="${action}"]:not(:disabled)`) ?? row?.querySelector('button:not(:disabled)');
-      focus?.focus({ preventScroll: true });
-    }
+  function focusCard(id) {
+    [...grid.children].find(card => card.dataset.id === id)?.focus({ preventScroll: true });
   }
 
-  function manage() {
-    if (!currentCollection()) return;
-    libraryId = collectionId;
-    byId('collection-library-status').textContent = '';
-    renderLibrary();
-    openDialog(library);
-    byId('collection-library-title').focus();
-  }
-
-  function commit(change, focusId, action) {
+  function commit(change, focusId, message) {
+    const scrollTop = scroller.scrollTop;
     try {
       change();
-      byId('collection-library-status').textContent = '';
       render();
-      renderLibrary(focusId, action);
-    } catch (error) { byId('collection-library-status').textContent = errorMessage(error); }
+      byId('catalog-status').textContent = '';
+      byId('catalog-card-status').textContent = message;
+      onCollectionsChange();
+    } catch (error) {
+      // Sortable has already moved the DOM; rebuild from the saved order on failure.
+      render();
+      byId('catalog-status').textContent = errorMessage(error);
+    }
+    scroller.scrollTop = scrollTop;
+    focusCard(focusId);
   }
+
+  function afterReading(id, movingId) {
+    const ids = currentCollection()?.readingIds ?? [];
+    return ids.slice(ids.indexOf(id) + 1).find(next => next !== movingId);
+  }
+
+  function moveReading(id, beforeId) {
+    if (!beforeId) {
+      // The last visible card can precede filtered or not-yet-loaded entries.
+      const previous = [...grid.children].findLast(card => card.dataset.id !== id);
+      beforeId = afterReading(previous?.dataset.id, id);
+    }
+    commit(() => moveCollectionReading(collectionId, id, beforeId), id, t('collectionReordered'));
+  }
+
+  gestures = mountCatalogGestures({
+    root: document, grid, scroller, t,
+    getState: () => ({ collectionId, selecting }),
+    getCollections: () => listCollections(),
+    onMove: moveReading,
+    onStep(id, step) {
+      const visible = matches.slice(0, limit);
+      const position = visible.findIndex(entry => entry.id === id);
+      const neighbour = visible[position + step];
+      if (!neighbour) return;
+      const beforeId = step < 0 ? neighbour.id : afterReading(neighbour.id, id);
+      commit(() => moveCollectionReading(collectionId, id, beforeId), id, t('collectionReordered'));
+    },
+    onAdd(id, target, name) {
+      try {
+        const entry = index.get(id);
+        const collection = saveCollectionEntries(name, [entry], { [id]: snapshot(entry, collectionId) }, target);
+        // Keep the menu's anchor alive while adding to more than one collection.
+        updatePicker();
+        onCollectionsChange();
+        return { ok: true, message: t('activityAdded')(collection.name) };
+      } catch (error) { return { ok: false, message: errorMessage(error) }; }
+    },
+    onRemove(id) {
+      const position = matches.findIndex(entry => entry.id === id);
+      const next = matches[position + 1] ?? matches[position - 1];
+      commit(() => removeCollectionReading(collectionId, id), next?.id, t('activityRemoved'));
+    },
+  });
 
   grid.addEventListener('click', event => {
     const button = event.target.closest('[data-open-activity]');
-    if (button) onOpen(index.get(button.dataset.openActivity), collectionId);
-  });
-  grid.addEventListener('change', event => {
-    const input = event.target.closest('[data-select-activity]');
-    if (!input) return;
-    if (input.checked) selectedIds.add(input.dataset.selectActivity);
-    else selectedIds.delete(input.dataset.selectActivity);
-    renderSelection();
+    if (!button) return;
+    const id = button.dataset.id;
+    if (selecting) {
+      if (selectedIds.has(id)) selectedIds.delete(id);
+      else selectedIds.add(id);
+      renderSelection();
+    } else onOpen(index.get(id), collectionId);
   });
   byId('filters').addEventListener('change', refresh);
   byId('filters').addEventListener('reset', event => {
@@ -286,14 +316,12 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
     refresh();
   });
   byId('search').addEventListener('input', refresh);
-  byId('catalog-more').addEventListener('click', () => { limit += 12; renderCards(); });
+  byId('catalog-more').addEventListener('click', () => { gestures.close(); limit += 12; renderCards(); });
   byId('collection-select').addEventListener('change', event => setCollection(event.target.value));
-  byId('collection-save').addEventListener('click', () => {
-    if (selecting) { selecting = false; selectedIds.clear(); render(); }
-    else startSelection();
-  });
+  byId('collection-save').addEventListener('click', () => startSelection());
+  byId('collection-add').addEventListener('click', () => startSelection(collectionId));
   byId('selection-all').addEventListener('click', () => { for (const entry of matches) selectedIds.add(entry.id); renderSelection(); });
-  byId('selection-cancel').addEventListener('click', () => { selecting = false; selectedIds.clear(); render(); });
+  byId('selection-cancel').addEventListener('click', () => { selecting = false; selectedIds.clear(); addingTo = ''; render(); });
   byId('selection-save').addEventListener('click', saveSelection);
   byId('collection-target').addEventListener('change', updateDestination);
   byId('collection-form').addEventListener('submit', event => {
@@ -302,67 +330,37 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
       const readings = sourceEntries().filter(entry => selectedIds.has(entry.id));
       const layouts = Object.fromEntries(readings.map(entry => [entry.id, snapshot(entry, selectionSource)]));
       const collection = saveCollectionEntries(byId('collection-name').value, readings, layouts, byId('collection-target').value);
-      closeDialog(dialog, () => byId('collection-manage').focus({ preventScroll: true }));
       setCollection(collection.id);
+      closeDialog(dialog, () => byId('collection-add').focus({ preventScroll: true }));
+      onCollectionsChange();
     } catch (error) { byId('collection-error').textContent = errorMessage(error); }
   });
-  byId('collection-manage').addEventListener('click', manage);
+  byId('collection-rename-toggle').addEventListener('click', event => {
+    const button = event.currentTarget;
+    const open = button.getAttribute('aria-expanded') !== 'true';
+    button.setAttribute('aria-expanded', String(open));
+    byId('collection-rename-name').value = currentCollection()?.name ?? '';
+    setDisclosure(byId('collection-rename'), open);
+    if (open) byId('collection-rename-name').focus({ preventScroll: true });
+  });
   byId('collection-rename').addEventListener('submit', event => {
     event.preventDefault();
-    commit(() => renameCollection(libraryId, byId('collection-rename-name').value));
+    commit(() => renameCollection(collectionId, byId('collection-rename-name').value), undefined, t('collectionRenamed'));
+    if (!byId('catalog-status').textContent) {
+      setDisclosure(byId('collection-rename'), false);
+      byId('collection-rename-toggle').setAttribute('aria-expanded', 'false');
+      byId('collection-rename-toggle').focus({ preventScroll: true });
+    }
   });
-  byId('collection-library-add').addEventListener('click', () => { closeDialog(library, () => startSelection(libraryId)); });
-  byId('collection-library-delete').addEventListener('click', () => {
-    const entry = listCollections().find(item => item.id === libraryId);
+  byId('collection-delete').addEventListener('click', () => {
+    const entry = currentCollection();
     if (!entry || !confirm(t('collectionDeleteConfirm')(entry.name))) return;
-    try { removeCollection(libraryId); closeDialog(library); setCollection(''); }
-    catch (error) { byId('collection-library-status').textContent = errorMessage(error); }
+    try { removeCollection(collectionId); setCollection(''); onCollectionsChange(); }
+    catch (error) { byId('catalog-status').textContent = errorMessage(error); }
   });
-  byId('collection-library-list').addEventListener('click', event => {
-    const button = event.target.closest('[data-action]');
-    if (!button) return;
-    const id = button.closest('li').dataset.id;
-    const collection = listCollections().find(entry => entry.id === libraryId);
-    const position = collection?.readingIds.indexOf(id) ?? -1;
-    if (position < 0) return;
-    const action = button.dataset.action;
-    if (action === 'edit') closeDialog(library, () => onOpen(index.get(id), libraryId));
-    if (action === 'up' && position > 0) commit(() => moveCollectionReading(libraryId, id, collection.readingIds[position - 1]), id, action);
-    if (action === 'down' && position < collection.readingIds.length - 1) commit(() => moveCollectionReading(libraryId, id, collection.readingIds[position + 2]), id, action);
-    if (action === 'remove') commit(() => removeCollectionReading(libraryId, id));
-  });
-  const list = byId('collection-library-list');
-  function clearDrag() { draggedId = undefined; for (const row of list.children) delete row.dataset.drop; }
-  list.addEventListener('dragstart', event => {
-    const handle = event.target.closest('.collection-drag');
-    if (!handle) return;
-    draggedId = handle.closest('li').dataset.id;
-    event.dataTransfer.setData('text/plain', draggedId);
-    event.dataTransfer.effectAllowed = 'move';
-  });
-  list.addEventListener('dragover', event => {
-    const row = event.target.closest('li');
-    if (!draggedId || !row) return;
-    event.preventDefault();
-    event.dataTransfer.dropEffect = 'move';
-    for (const item of list.children) delete item.dataset.drop;
-    const box = row.getBoundingClientRect();
-    row.dataset.drop = event.clientY < box.top + box.height / 2 ? 'before' : 'after';
-  });
-  list.addEventListener('drop', event => {
-    const row = event.target.closest('li');
-    if (!draggedId || !row) return;
-    event.preventDefault();
-    const id = draggedId;
-    const beforeId = row.dataset.drop === 'after' ? row.nextElementSibling?.dataset.id : row.dataset.id;
-    clearDrag();
-    commit(() => moveCollectionReading(libraryId, id, beforeId), id, 'drag');
-  });
-  list.addEventListener('dragend', clearDrag);
   window.addEventListener('storage', event => {
     if (event.key === collectionsKey || event.key === null) {
       render();
-      if (library.open) renderLibrary();
       onCollectionsChange();
     }
   });

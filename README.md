@@ -31,7 +31,11 @@ La preparació té dos passos. Primer es tria una comprensió al catàleg, amb e
 
 ## Col·leccions del docent
 
-Prem **Selecciona comprensions**, marca les targetes o tots els resultats filtrats i desa la selecció en una col·lecció nova o afegeix-la a una d’existent. El selector de col·leccions acota el catàleg. **Gestiona la col·lecció** permet canviar-ne el nom, ordenar les comprensions amb les fletxes o arrossegant-les, treure’n alguna i afegir-ne més.
+Mantén premuda una targeta (o fes-hi clic dret) per obrir les accions: afegir-la a una col·lecció existent, crear-ne una o treure-la de l’actual. Un clic curt continua obrint la fitxa. Amb teclat, **Majúscules + F10** obre el menú i **Escape** el tanca.
+
+Dins d’una col·lecció, arrossega les mateixes targetes per ordenar-les, amb ratolí o pantalla tàctil; **Alt + fletxes** permet moure la targeta enfocada. L’ordre es desa en deixar anar. Les comprensions que amaguen els filtres mantenen la seva posició relativa i un error d’emmagatzematge restaura l’ordre desat. El sidebar permet canviar el nom, afegir-hi comprensions o eliminar la col·lecció.
+
+Per treballar amb diverses comprensions alhora, prem **Selecciona comprensions**, fes clic o prem Espai sobre les targetes (sense caselles), o selecciona tots els resultats filtrats, i desa la selecció en una col·lecció nova o existent. El selector de col·leccions acota el catàleg.
 
 Cada comprensió conserva dins de cada col·lecció el format, el codi d’aula, les preguntes incloses, les línies de resposta, les instruccions impreses i els ajustos de sessió. En crear una col·lecció es copien els ajustos de la selecció d’origen; després cada còpia és independent. Afegir de nou una comprensió que s’havia tret recupera els seus ajustos en aquella col·lecció. Eliminar tota la col·lecció elimina també aquestes còpies.
 
@@ -53,7 +57,9 @@ HTML, CSS i JavaScript executats al navegador. GitHub Pages serveix la branca `m
 node tools/serve.cjs
 ```
 
-La comprovació del model de col·leccions s’executa amb `node tools/check-collections.mjs`: cobreix les còpies independents, l’ordre, la recuperació de maquetacions i els errors d’emmagatzematge.
+La comprovació del model de col·leccions s’executa amb `node tools/check-collections.mjs`: cobreix les còpies independents, l’ordre, la recuperació de maquetacions i els errors d’emmagatzematge. `node tools/check-catalog-gestures.cjs` prova els gestos i la persistència al navegador local (Playwright i Chrome). `catalog-gestures.js` adapta el controlador de Trama i utilitza SortableJS 1.15.7 local, sense dependència d’un CDN.
+
+A les targetes, quatre segments horitzontals comparen la durada del fragment: un fins a 1 minut, dos fins a 2, tres fins a 3 i quatre per sobre de 3. El temps exacte es mostra al costat del rellotge. Per als materials pendents, l’indicador pren el límit superior de l’interval previst; no representa la durada de tota la sessió pautada.
 
 `node tools/check-catalogue.mjs` comprova els identificadors, els fitxers, les preguntes i els límits dels filtres de durada. `node tools/check-audio-plan.cjs` comprova el pla de dues peticions, la recuperació de preses i les aturades de quota, sense xarxa.
 

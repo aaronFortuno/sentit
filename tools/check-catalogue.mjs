@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { access } from 'node:fs/promises';
 import { activities, legacyActivities } from '../catalogue.js';
-import { durationBounds, durationText, matchesDuration } from '../activity-meta.js';
+import { durationBounds, durationText, durationTier, matchesDuration } from '../activity-meta.js';
 import { strings } from '../locales.js';
 
 const ids = new Set();
@@ -34,6 +34,11 @@ for (const [seconds, expected] of [[60, 'short'], [60.1, 'medium'], [120, 'mediu
   assert.deepEqual(['short', 'medium', 'long'].filter(bucket => matchesDuration(entry, bucket)), [expected]);
 }
 const draft = { audio: null, seconds: 0, fragment: { seconds: 0 }, durationEstimate: { min: 150, max: 180 } };
+for (const [seconds, tier] of [[1, 1], [60, 1], [60.1, 2], [120, 2], [120.1, 3], [180, 3], [180.1, 4], [600, 4]]) {
+  assert.equal(durationTier({ audio: 'ready.mp3', seconds }), tier);
+}
+assert.equal(durationTier({}), 0, 'Unknown lengths do not fill duration segments');
+assert.equal(durationTier({ durationEstimate: { min: 50, max: 80 } }), 2, 'Estimated lengths use the upper bound');
 assert(matchesDuration(draft, 'long'));
 assert(!matchesDuration(draft, 'short'));
 assert.equal(durationText(draft, key => strings.ca[key]), 'Prevista: 2:30–3:00');
