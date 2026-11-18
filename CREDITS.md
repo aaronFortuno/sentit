@@ -4,9 +4,11 @@ Les locucions inicials i les guies de la sessió pautada en català s’han gene
 
 ## «El senyal de la ràdio»
 
-Guió, preguntes i senyals de so originals de Sentit. Veus sintetitzades amb Gemini TTS (Aoede per a la Laia i Charon per a en Biel). Els tocs del senyal i la sintonia final s’han generat amb FFmpeg. [Fitxa i transcripció](content/el-senyal-de-la-radio.js)
+Guió, preguntes i senyals de so originals de Sentit. La versió actual fa servir Leda per a la Laia i Puck per a en Biel, sintetitzades amb Gemini 3.8 Flash TTS. La presentació i les instruccions reutilitzables fan servir Aoede. Els tocs del senyal i la sintonia final s’han generat amb FFmpeg. [Fitxa i transcripció](content/el-senyal-de-la-radio.js)
 
-La [comparativa de veus](proves/veus-s001.html) inclou un extracte de l’enregistrament original i una presa nova amb Leda per a la Laia i Puck per a en Biel, sintetitzada amb Gemini TTS. Les dues mostres tenen el volum normalitzat per comparar-les.
+La [comparativa de veus](proves/veus-s001.html) conserva un extracte de l’enregistrament original amb Aoede i Charon i la prova curta amb Leda i Puck. Les dues mostres tenen el volum normalitzat per comparar-les.
+
+El nou fragment dura 76,725 segons i la versió amb presentació, 81,825 segons. La mescla conserva les pauses i els senyals originals i normalitza els nivells sense canviar la velocitat de les veus.
 
 ## «Canvi de plans»
 
