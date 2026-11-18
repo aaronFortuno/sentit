@@ -1,5 +1,12 @@
 # Canvis
 
+## 0.1.8 · 18 de novembre de 2026
+
+- Catàleg inicial amb targetes, cerca per títol o codi i filtres de curs, dificultat, durada, tipus i idioma. Cada comprensió s’obre en un editor independent, amb retorn al catàleg.
+- Col·leccions persistents al navegador: selecció, creació, ampliació, canvi de nom, ordenació i eliminació. Cada comprensió conserva dins de cada col·lecció la seva maquetació, les preguntes i la sessió d’escolta.
+- Capçalera del full amb «comprensió oral» sota la marca i nom i data al costat. Espaiat i interlineat inicials més amplis.
+- Quadre gris d’instruccions opcional, generat segons el temps de lectura, les escoltes i les pauses configurades.
+
 ## 0.1.7 · 17 de novembre de 2026
 
 - Comparativa de les dues primeres intervencions d’«El senyal de la ràdio» amb Aoede–Charon i Leda–Puck, disponible des del quadre de canvis.

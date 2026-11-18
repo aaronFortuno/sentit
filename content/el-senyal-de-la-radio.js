@@ -3,6 +3,7 @@ export const radio = {
   code: 'S001',
   language: 'ca',
   title: 'El senyal de la ràdio',
+  summary: 'La Laia i en Biel preparen un avís per a la ràdio de l’escola i proven com posar-se d’acord.',
   grade: '5',
   level: 'easy',
   seconds: 80,

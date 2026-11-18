@@ -1,0 +1,52 @@
+import assert from 'node:assert/strict';
+import { collectionsKey, listCollections, saveCollectionEntries, renameCollection, moveCollectionReading, removeCollectionReading, saveCollectionLayout, removeCollection } from '../collections.js';
+import { worksheetInstructions } from '../worksheet.js';
+
+const data = new Map();
+const storage = { getItem: key => data.get(key) ?? null, setItem: (key, value) => data.set(key, value) };
+const readings = [{ id: 'radio' }, { id: 'pluja' }, { id: 'entrevista' }];
+const layout = { format: { size: 12 }, settings: { code: 'A', questions: { lloc: { lines: 2 } }, session: { reading: 60 } } };
+const first = saveCollectionEntries('Cicle superior', readings.slice(0, 2), { radio: layout }, '', storage);
+layout.settings.code = 'ORIGEN MODIFICAT';
+assert.equal(listCollections(storage)[0].layouts.radio.settings.code, 'A');
+
+const second = saveCollectionEntries('Suport', [readings[0]], { radio: first.layouts.radio }, '', storage);
+const changed = structuredClone(second.layouts.radio);
+changed.settings.code = 'B';
+changed.settings.questions.lloc.lines = 6;
+saveCollectionLayout(second.id, 'radio', changed, storage);
+assert.equal(listCollections(storage)[0].layouts.radio.settings.code, 'A');
+assert.equal(listCollections(storage)[0].layouts.radio.settings.questions.lloc.lines, 2);
+assert.equal(listCollections(storage)[1].layouts.radio.settings.questions.lloc.lines, 6);
+
+saveCollectionEntries('', readings, { radio: layout }, first.id, storage);
+assert.deepEqual(listCollections(storage)[0].readingIds, ['radio', 'pluja', 'entrevista']);
+assert.equal(listCollections(storage)[0].layouts.radio.settings.code, 'A');
+moveCollectionReading(first.id, 'entrevista', 'radio', storage);
+moveCollectionReading(first.id, 'radio', undefined, storage);
+assert.deepEqual(listCollections(storage)[0].readingIds, ['entrevista', 'pluja', 'radio']);
+removeCollectionReading(first.id, 'radio', storage);
+saveCollectionEntries('', [readings[0]], { radio: layout }, first.id, storage);
+assert.equal(listCollections(storage)[0].layouts.radio.settings.code, 'A');
+renameCollection(first.id, 'Ràdio i diàlegs', storage);
+assert.throws(() => renameCollection(second.id, 'ràdio i diàlegs', storage), /collectionDuplicate/);
+assert.throws(() => saveCollectionEntries(' ', readings, {}, '', storage), /collectionNameError/);
+assert.throws(() => saveCollectionEntries('Buida', [], {}, '', storage), /collectionSelectionError/);
+assert.throws(() => saveCollectionLayout(first.id, 'absent', changed, storage), /collectionChanged/);
+const before = data.get(collectionsKey);
+const fullStorage = { getItem: storage.getItem, setItem() { throw new DOMException('Full', 'QuotaExceededError'); } };
+assert.throws(() => saveCollectionEntries('Sense espai', readings, {}, '', fullStorage), { name: 'QuotaExceededError' });
+assert.equal(data.get(collectionsKey), before, 'Failed writes leave membership and layouts intact');
+removeCollection(second.id, storage);
+assert.equal(listCollections(storage).length, 1);
+assert.equal(listCollections({ getItem: () => '{' }).length, 0);
+
+const entry = { language: 'ca' };
+assert.match(worksheetInstructions(entry, { reading: 90, listens: 3, interval: 15 }), /1 minut i 30 segons.*3 vegades.*15 segons/);
+const once = worksheetInstructions(entry, { reading: 0, listens: 1, interval: 30 });
+assert.match(once, /una vegada/);
+assert.doesNotMatch(once, /minut|segons|Entre/);
+assert.match(worksheetInstructions(entry, { reading: 0, listens: 2, interval: 0 }), /sense pausa/);
+assert.match(worksheetInstructions(entry, null), /tornar-lo a escoltar/);
+assert.match(worksheetInstructions({ language: 'es' }, { reading: 60, listens: 2, interval: 30 }), /1 minuto.*2 veces.*30 segundos/);
+console.log('PASS · Independent layouts, persistence, ordering, errors and session instructions.');
