@@ -59,6 +59,7 @@ function makeHeader(entry, labels, code, answerKey, listenUrl, session) {
   if (answerKey) headerMain.append(element('p', 'paper-solution-label', labels.answers));
   headerMain.append(element('h3', null, entry.title));
   if (entry.sample) headerMain.append(element('p', 'paper-caption', labels.sample));
+  if (!entry.audio) headerMain.append(element('p', 'paper-caption', labels.audioPending));
   head.append(top, titleRow);
   if (listenUrl) {
     head.classList.add('has-listening');
@@ -349,6 +350,7 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
       ? [answerBlock(question.answer ?? labels.noAnswer, labels, evidence.byQuestion.get(id))]
       : Array.from({ length: lines }, () => element('div', 'write-line'));
     const block = questionBlock(position, heading, [makePrompt(question.prompt), ...response]);
+    block.dataset.completeQuestion = id;
     placeBlock(block, () => {
       placeText(question.prompt, (text, first) => questionBlock(first && position, first && heading, [makePrompt(text, first)]));
       if (answerKey) {
@@ -358,6 +360,22 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
       }
     });
   });
+
+  // Keep a final worksheet page from containing just one complete question.
+  // Move a whole block; never split the prompt from its writing space.
+  if (!answerKey) {
+    const pages = [...container.querySelectorAll('.paper-content')];
+    const last = pages.at(-1);
+    const previous = pages.at(-2);
+    const complete = page => [...(page?.children ?? [])].filter(block => block.dataset.completeQuestion !== undefined);
+    if (last && previous && last.childElementCount === 1 && complete(last).length === 1 && complete(previous).length >= 3) {
+      const candidate = previous.lastElementChild;
+      if (candidate?.dataset.completeQuestion !== undefined) {
+        last.prepend(candidate);
+        if (last.lastElementChild.getBoundingClientRect().bottom > last.getBoundingClientRect().bottom - 2) previous.append(candidate);
+      }
+    }
+  }
 
   if (answerKey) {
     const transcript = entry.transcript ?? [];

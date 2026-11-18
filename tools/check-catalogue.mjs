@@ -1,0 +1,41 @@
+import assert from 'node:assert/strict';
+import { access } from 'node:fs/promises';
+import { activities } from '../catalogue.js';
+import { durationBounds, durationText, matchesDuration } from '../activity-meta.js';
+import { strings } from '../locales.js';
+
+const ids = new Set();
+const codes = new Set();
+for (const entry of activities) {
+  assert(!ids.has(entry.id)); ids.add(entry.id);
+  const code = `${entry.language}-${entry.code}`;
+  assert(!codes.has(code)); codes.add(code);
+  assert(entry.title && entry.questions.length && strings.ca.grades[entry.grade] && strings.ca.levels[entry.level] && strings.ca.genres[entry.genre]);
+  assert.equal(new Set(entry.questions.map(q => q.id)).size, entry.questions.length);
+  assert(entry.questions.every(q => q.prompt && q.answer && Number.isInteger(q.lines) && q.lines >= 0));
+  const bounds = durationBounds(entry);
+  assert(bounds && bounds.min > 0 && bounds.max >= bounds.min, code + ' has an actual or explicitly estimated duration');
+  if (entry.audio) {
+    assert(!bounds.estimated);
+    await access(new URL('../' + entry.audio, import.meta.url));
+  } else {
+    assert.equal(entry.status, 'awaiting-audio');
+    assert(bounds.estimated);
+  }
+  if (entry.image) {
+    assert(entry.image.alt && entry.image.width > 0 && entry.image.height > 0);
+    await access(new URL('../' + entry.image.src, import.meta.url));
+  }
+}
+
+for (const [seconds, expected] of [[60, 'short'], [60.1, 'medium'], [120, 'medium'], [120.1, 'long']]) {
+  const entry = { audio: 'recording.mp3', fragment: { seconds } };
+  assert.deepEqual(['short', 'medium', 'long'].filter(bucket => matchesDuration(entry, bucket)), [expected]);
+}
+const draft = { audio: null, seconds: 0, fragment: { seconds: 0 }, durationEstimate: { min: 150, max: 180 } };
+assert(matchesDuration(draft, 'long'));
+assert(!matchesDuration(draft, 'short'));
+assert.equal(durationText(draft, key => strings.ca[key]), 'Prevista: 2:30–3:00');
+assert(!matchesDuration({ audio: null, seconds: 0 }, 'short'), 'Unknown durations must not appear as short recordings');
+assert.equal(durationBounds({ ...draft, audio: 'ready.mp3', fragment: { seconds: 145 } }).min, 145, 'Actual length replaces estimates after synthesis');
+console.log('PASS · Unique catalogue, real files, questions, estimated lengths and duration filter boundaries.');

@@ -36,6 +36,6 @@ La [documentació de facturació de Google](https://aistudio.google.com/docs/bil
 
 Per fer una prova controlada: projecte separat, saldo petit sense recàrrega automàtica, topall mensual i un límit addicional dins del generador. Aquest últim hauria de reservar el cost màxim abans de cada petició, guardar-ne l’ús real i aturar-se davant d’un límit, sense reintents il·limitats. Les claus continuen fora del repositori.
 
-El generador actual conserva les preses per l’empremta de la petició i s’atura amb errors de quota. Per passar a pagament caldrà afegir el registre de consum i el topall local abans del primer lot facturat. No s’ha fet cap d’aquests canvis al compte.
+El generador actual fa una petició pel fragment complet i una per la presentació. Reutilitza les preses existents, desa els intents i s’atura amb errors de quota. El registre d’intents no és encara un registre de cost facturat. Per passar a pagament caldrà afegir el registre de consum i el topall local abans del primer lot facturat. No s’ha fet cap d’aquests canvis al compte.
 
 Es pot consultar l’ús a [Google AI Studio · Usage](https://aistudio.google.com/usage) i els límits a [Rate limits](https://aistudio.google.com/rate-limit).

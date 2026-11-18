@@ -1,4 +1,5 @@
 import { collectionsKey, listCollections, saveCollectionEntries, renameCollection, removeCollection, moveCollectionReading, removeCollectionReading } from './collections.js';
+import { durationText, matchesDuration } from './activity-meta.js';
 
 const normalise = value => value.toLocaleLowerCase().normalize('NFD').replace(/\p{M}/gu, '');
 const activeKey = 'sentit.collection.active.v1';
@@ -6,7 +7,7 @@ const activeKey = 'sentit.collection.active.v1';
 export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, onCollectionsChange }) {
   const byId = id => document.getElementById(id);
   const index = new Map(activities.map(entry => [entry.id, entry]));
-  const searchIndex = new Map(activities.map(entry => [entry.id, normalise(`${entry.code} ${entry.title} ${entry.summary ?? ''}`)]));
+  const searchIndex = new Map(activities.map(entry => [entry.id, normalise(`${entry.language}-${entry.code} ${entry.title} ${entry.summary ?? ''}`)]));
   const fields = ['grade', 'level', 'duration', 'genre'];
   let collectionId = '';
   try { collectionId = localStorage.getItem(activeKey) ?? ''; } catch { /* Start with the full catalogue. */ }
@@ -107,8 +108,8 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
         card.append(summary);
       }
       card.append(element('p', `${t('grades')[entry.grade] ?? entry.grade} · ${t('levels')[entry.level] ?? entry.level}`, 'meta'));
-      const duration = entry.fragment?.seconds ?? entry.seconds;
-      const time = `${Math.floor(duration / 60)}:${String(duration % 60).padStart(2, '0')}`;
+      if (!entry.audio) card.append(element('span', t('audioPending'), 'activity-card-status'));
+      const time = durationText(entry, t);
       card.append(element('span', `${t('genres')[entry.genre] ?? entry.genre} · ${time}${entry.sample ? ` · ${t('sample')}` : ''}`, 'activity-card-bottom'));
       grid.append(card);
     }
@@ -128,9 +129,7 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
     const values = Object.fromEntries(new FormData(byId('filters')));
     const terms = normalise(byId('search').value).trim().split(/\s+/u).filter(Boolean);
     matches = sourceEntries().filter(entry => {
-      const seconds = entry.fragment?.seconds ?? entry.seconds;
-      const bucket = seconds <= 60 ? 'short' : seconds <= 120 ? 'medium' : 'long';
-      return fields.every(field => !values[field] || values[field] === (field === 'duration' ? bucket : entry[field]))
+      return fields.every(field => field === 'duration' ? matchesDuration(entry, values[field]) : !values[field] || values[field] === entry[field])
         && (!values['content-language'] || entry.language === values['content-language'])
         && terms.every(term => searchIndex.get(entry.id).includes(term));
     });

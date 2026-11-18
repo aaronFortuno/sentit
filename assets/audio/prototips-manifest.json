@@ -94,13 +94,23 @@
       "code": "S015",
       "activity": "ca-S015",
       "state": "awaiting-audio",
-      "script": "content/una-restauradora-ens-explica-el-seu-ofici.js"
+      "script": "content/una-restauradora-ens-explica-el-seu-ofici.js",
+      "durationEstimate": {
+        "min": 150,
+        "max": 180
+      },
+      "plannedNewRequests": 2
     },
     {
       "code": "S023",
       "activity": "ca-S023",
       "state": "awaiting-audio",
-      "script": "content/reobren-el-mercat.js"
+      "script": "content/reobren-el-mercat.js",
+      "durationEstimate": {
+        "min": 195,
+        "max": 240
+      },
+      "plannedNewRequests": 2
     }
   ]
 }

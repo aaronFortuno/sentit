@@ -5,6 +5,7 @@ import { clockTime, decodeSession, defaultSession, encodeSession, guidedPrompts 
 import { initGuidedPlayer } from './guided-player.js';
 import { mountCatalog } from './catalog.js';
 import { listCollections, saveCollectionLayout } from './collections.js';
+import { durationText } from './activity-meta.js';
 
 const byId = id => document.getElementById(id);
 const preferences = {
@@ -230,7 +231,7 @@ function renderSelection() {
   byId('print-label').textContent = t(documentMode === 'answers' ? 'printAnswers' : 'printWorksheet');
   byId('print-kind').textContent = selected ? t('printHint') : '';
   const scope = listCollections().find(entry => entry.id === activeCollectionId);
-  byId('activity-meta').textContent = selected ? `${t('grades')[selected.grade] ?? selected.grade} · ${t('genres')[selected.genre] ?? selected.genre} · ${clockTime(selected.fragment?.seconds ?? selected.seconds)}${scope ? ` · ${scope.name}` : ''}` : '';
+  byId('activity-meta').textContent = selected ? `${t('grades')[selected.grade] ?? selected.grade} · ${t('genres')[selected.genre] ?? selected.genre} · ${durationText(selected, t)}${scope ? ` · ${scope.name}` : ''}` : '';
   renderPaper();
   renderEditor();
   const audio = byId('teacher-audio');
@@ -242,6 +243,7 @@ function renderSelection() {
   }
   byId('audio-actions').hidden = !selected?.audio;
   byId('audio-empty').hidden = Boolean(selected?.audio);
+  byId('audio-empty').textContent = selected ? t('audioPendingHint') : t('noAudio');
   renderSessionEditor();
 }
 
@@ -309,11 +311,12 @@ function player(entry) {
   const sessionCode = query.get('p');
   const session = sessionCode === null ? null : decodeSession(sessionCode);
   const prompts = guidedPrompts(entry);
-  const invalidConfig = Boolean(entry) && sessionCode !== null && (!session || !prompts);
+  const invalidConfig = Boolean(entry?.audio) && sessionCode !== null && (!session || !prompts);
   const available = Boolean(entry?.audio) && !invalidConfig;
   byId('player-title').textContent = invalidConfig ? t('invalidSession') : entry?.title ?? t('invalid');
   byId('player-title').lang = entry?.language ?? language;
   byId('player-hint').hidden = available;
+  byId('player-hint').textContent = entry && !entry.audio ? t('audioPendingHint') : t('invalidHint');
   play.hidden = !available;
   if (!available) return;
   if (session) {
