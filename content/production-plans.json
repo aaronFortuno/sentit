@@ -1,0 +1,36 @@
+{
+  "S002": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "format": "Instruccions de taller amb una única mestra adulta.",
+    "cues": ["Sintonia de Sentit opcional abans de la presentació.", "Pausa clara entre els blocs d’instruccions, sense efectes que avancin les respostes.", "Provar sons discrets de materials només entre passos, mai damunt de les instruccions."],
+    "ending": "Cua de silenci completa; sense paraules afegides fins que es validi el guió."
+  },
+  "S008": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "format": "Proposta: microprograma de ràdio de relats, amb una única narradora adulta sense identitat explícita.",
+    "openingProposal": "Benvingudes i benvinguts a Històries amb sentit. Avui: La foto que faltava.",
+    "cues": ["Sintonia de marca opcional, diferenciada del petit separador del programa.", "Base instrumental original, baixa i amb atenuació sota la veu; mai competir amb les consonants.", "Passar una pàgina a la transició del segon bloc; pot solapar-se amb l’ambient, sense interrompre la frase.", "El relat actual es conserva íntegre: no s’imiten les veus de l’Aina ni de l’avi.", "La base puja suaument només en els espais sense parla i es fon després del comiat."],
+    "endingProposal": "Gràcies per escoltar Històries amb sentit. Ens retrobem al pròxim programa.",
+    "publishedNow": "Remuntatge sense síntesi nova: relat actual, marges conservats i prova de base instrumental. La benvinguda i el comiat no s’han sintetitzat. Cal integrar-los al guió definitiu abans d’aprovar-ne l’empremta."
+  },
+  "S015": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "format": "Entrevista enregistrada a una restauradora adulta, amb un entrevistador adolescent.",
+    "cues": ["Entrada breu de programa, baixada abans de la primera pregunta.", "Ambient de taller molt discret, sense sons que suggereixin procediments incorrectes.", "Respectar tots els torns; cap música sota explicacions precises si en redueix la intel·ligibilitat.", "Resoldre abans la continuïtat de veu de Nora: la presa parcial és Aoede; Kore només és una proposta de personatge."],
+    "ending": "Separador de sortida original i cua de silenci; guió i repartiment encara per validar."
+  },
+  "S023": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "format": "Notícia radiofònica amb presentadora i testimoni adult.",
+    "cues": ["Capçalera informativa original breu, sense copiar sintonies de mitjans.", "Ambient de mercat a l’entrada del testimoni, amb reducció abans de les dades.", "Les pauses han de separar fets confirmats, expectatives i propostes pendents.", "Validar les veus definitives abans de consumir quota: Aoede i Charon són les assignacions del generador actual."],
+    "ending": "Tancament informatiu definit al guió abans de sintetitzar."
+  }
+}

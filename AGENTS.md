@@ -1,0 +1,7 @@
+# Sentit
+
+- Abans de fer **qualsevol petició nova de síntesi**, el docent ha d’haver validat el guió complet, les veus i l’escaleta de muntatge (entrada, música, efectes, solapaments, pauses i comiat). Una quota restablerta no equival a validació. No marcar `approved` sense la confirmació de l’usuari.
+- Registrar la confirmació i l’empremta exacta a `content/production-plans.json`; el generador comprova que encara coincideixi amb guió, veus, direcció i muntatge. Vegeu `docs/fonts-sonores.md`.
+- Les preses crues es conserven. No fer retalls automàtics que puguin eliminar atacs de consonants o finals. Es pot remuntar àudio local sense síntesi nova, mantenint els originals i anotant la revisió pendent d’audició.
+- Cada recurs sonor necessita origen, autor, llicència i referència al registre de fonts; distingir recursos utilitzats i propostes. Aina i Ferran són personatges narrats a S008, no veus participants. La narradora de S008 no té nom en el relat.
+- Fer les comprovacions en local i publicar els canvis al repositori remot. No comprovar el desplegament remot: el revisa l’usuari.

@@ -105,9 +105,9 @@ function waveFixture() {
     await page.goto(base + 'personatges.html#ferran');
     await page.locator('.character-profile-intro h3').waitFor();
     assert.equal(await page.locator('.character-profile-intro h3').innerText(), 'Ferran');
-    await page.locator('.character-detail-actions button').click();
-    await page.locator('.activity-card').first().waitFor(); assert.deepEqual(await codes(), ['S008']);
-    assert.equal(new URL(page.url()).searchParams.get('personatge'), 'ferran');
+    assert.equal(await page.locator('.character-detail-actions button').isDisabled(), true);
+    assert.equal(await page.locator('.character-story').count(), 0);
+    await page.goto(base);
     await page.locator('#language').evaluate(node => { node.value = 'es'; node.dispatchEvent(new Event('change', { bubbles: true })); });
     await open(); assert.equal(await page.locator('#characters-title').innerText(), 'Conoce a los personajes');
     assert.match(await page.locator('#characters-dialog .character-detail-actions button').innerText(), /^Ver sus/);

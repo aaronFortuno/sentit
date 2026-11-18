@@ -6,11 +6,21 @@ Banc de comprensió oral d’ortogra.fi. El docent busca una activitat, en previ
 
 El projecte es manté a la sèrie **0.1.x** mentre es revisen les primeres activitats i la interfície. El pas a **0.2** requereix una comprensió oral validada en tots els aspectes —àudio, fitxa i solucionari— i una interfície prou definida.
 
+## Producció sonora i validació
+
+**Abans de qualsevol petició de síntesi cal validar amb el docent el guió complet, les veus i l’escaleta de muntatge, amb música, efectes, solapaments, pauses, presentació i comiat.** La quota gratuïta no s’utilitza per provar guions encara oberts. El generador comprova una empremta d’aquest conjunt: l’aprovació caduca si canvia qualsevol dels elements. Les propostes actuals continuen pendents; no es reprenen automàticament en restablir-se la quota.
+
+[Fonts sonores, llicències, escaletes i procediment](docs/fonts-sonores.md). Les fonts també es poden consultar al desplegable de cada comprensió, sense afegir-les al PDF. V4V incorpora el mateix accés.
+
+La revisió 0.1.23 remunta les preses locals de S001, S002 i S008 i les instruccions sense retallar consonants ni consumir síntesi. Els màsters v1 es conserven. S008 té una prova de base instrumental suau; la proposta de programa de ràdio encara no té benvinguda ni comiat enregistrats. La narradora és una única veu no identificada pel relat: Aina i Ferran no compten com a veus participants. La referència de veu d’Aoede al perfil de Mireia no atribueix el nom de Mireia a aquesta narradora.
+
+La sintonia inicial és opcional i activa per defecte. Es pot ajustar el ritme entre ×0,80 i ×1,20 en passos de 0,05, conservant el to. El QR i l’enllaç guarden `ritme` i `jingle`; les pauses i les locucions de preparació mantenen la seva durada. La sintonia només sona una vegada, abans de la presentació, i no a cada repetició. Els inicis i finals queden pendents d’audició docent: els marges no poden recuperar un fonema absent en la presa crua.
+
 ## Prepara una fitxa
 
-«El senyal de la ràdio» és una activitat de nivell accessible per a 5è de primària, amb Leda per a la Laia i Puck per a en Biel. El fragment dura aproximadament 1 minut i 17 segons; amb la presentació, 1 minut i 22 segons. «Canvi de plans» conserva l’àudio i l’enllaç del pilot, però no apareix al catàleg.
+«El senyal de la ràdio» és una activitat de nivell accessible per a 5è de primària, amb Leda per a la Laia i Puck per a en Biel. El fragment dura aproximadament 1 minut i 21 segons; amb la presentació, 1 minut i 27 segons. «Canvi de plans» conserva l’àudio i l’enllaç del pilot, però no apareix al catàleg.
 
-La primera tanda afegeix **S002 · Preparem una capsa de records** (3r, instruccions accessibles, 50 segons i 6 preguntes) i **S008 · La foto que faltava** (4t, narració accessible, 1 minut i 25 segons i 6 preguntes). Totes dues tenen àudio, il·lustració, fitxa i solucionari. S015 de 5è i S023 de 6è tenen els guions, preguntes, respostes, pistes i imatges preparats; es poden revisar i maquetar al catàleg amb la marca «Àudio en preparació», sense reproductor ni QR fins a acabar els MP3. [Guions i registre de la primera tanda](docs/primera-tanda.md).
+La primera tanda afegeix **S002 · Preparem una capsa de records** (3r, instruccions accessibles, 53 segons i 6 preguntes) i **S008 · La foto que faltava** (4t, narració accessible, 1 minut i 28 segons i 6 preguntes). Totes dues tenen àudio, il·lustració, fitxa i solucionari. S015 de 5è i S023 de 6è tenen els guions, preguntes, respostes, pistes i imatges preparats; es poden revisar i maquetar al catàleg amb la marca «Àudio en preparació», sense reproductor ni QR fins a acabar els MP3. [Guions i registre de la primera tanda](docs/primera-tanda.md).
 
 La [revisió editorial dels cinc prototips](docs/revisio-editorial-prototips.md) concreta per què s’assigna cada curs i dificultat i què s’accepta a les 38 preguntes. Les respostes orientatives admeten paraules pròpies i diferencien la informació necessària dels detalls addicionals. Es mantenen els guions i els àudios; S008 necessita validar el ritme amb alumnat abans de donar-la per accessible de manera definitiva. Les etiquetes són orientatives i no equivalen a nivells oficials.
 
@@ -116,7 +126,7 @@ node tools/check-audio-plan.cjs
 
 Una activitat nova fa una petició pel fragment complet, amb tots els paràgrafs i torns de veu, i una per la presentació. Les preses antigues no s’eliminen: els màsters complets es conserven i una activitat parcial reutilitza el prefix disponible i agrupa la resta en una sola petició. Per a S015 i S023 queden quatre peticions previstes en total, si no calen reintents.
 
-Després del restabliment de quota, amb Gemini configurat i FFmpeg disponible:
+Només després de validar el guió, les veus i el muntatge complet i registrar-ne l’empremta aprovada, amb quota disponible, Gemini configurat i FFmpeg disponible:
 
 ```sh
 node tools/generate-prototypes.cjs --generate --only=S015
@@ -130,3 +140,5 @@ Els WAV, registres i màsters de treball es conserven a `../output/sentit-primer
 El guió ha de coincidir amb les empremtes de les preses reutilitzades. En acabar, s’actualitzen la durada, l’offset de presentació, l’estat i el manifest d’àudio; encara cal revisar el màster i els fulls abans de publicar. La [revisió dels quatre materials](docs/revisio-materials.md) documenta les comprovacions editorials, de filtres i de maquetació.
 
 Consulta els [crèdits](CREDITS.md) i la [llicència del codi](LICENSE).
+
+Les comprovacions del so són `node tools/check-sound.cjs` (regles, aprovació, ritme i temporitzadors), `node tools/check-master-audio.cjs` (integritat, marges i durades dels MP3) i `node tools/check-sound-ui.cjs` (reproducció nativa, QR, configuració persistent, V4V i PDF en navegador local). No fan peticions de síntesi. `node tools/remaster-audio.cjs` refà únicament els màsters des dels WAV locals conservats; no llegeix credencials ni fa peticions de xarxa.

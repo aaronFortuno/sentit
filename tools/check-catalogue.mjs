@@ -61,7 +61,9 @@ assert.deepEqual(matchesCast(['laia', 'biel'], 'all'), ['S001']);
 assert.deepEqual(matchesCast(['laia', 'nora'], 'all'), []);
 assert.deepEqual(matchesCast(['mireia'], 'any'), ['S002', 'S008']);
 assert.deepEqual(matchesCast(['invalid'], 'any'), []);
-assert(charactersForActivity(activities.find(entry => entry.code === 'S008')).some(character => character.id === 'ferran'), 'Narrated characters count as appearances');
+assert.deepEqual(charactersForActivity(activities.find(entry => entry.code === 'S008')).map(character => character.id), ['mireia'], 'S008 has one narrator voice, no voices for the narrated characters');
+assert.deepEqual(matchesCast(['ferran'], 'any'), []);
+assert.deepEqual(matchesCast(['aina'], 'any'), []);
 const draft = { audio: null, seconds: 0, fragment: { seconds: 0 }, durationEstimate: { min: 150, max: 180 } };
 for (const [seconds, tier] of [[1, 1], [60, 1], [60.1, 2], [120, 2], [120.1, 3], [180, 3], [180.1, 4], [600, 4]]) {
   assert.equal(durationTier({ audio: 'ready.mp3', seconds }), tier);

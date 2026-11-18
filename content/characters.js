@@ -99,6 +99,7 @@ export const characters = [
 const castByActivity = new Map();
 for (const character of characters) {
   for (const appearance of character.appearances) {
+    if (appearance.kind === 'narrated') continue;
     const cast = castByActivity.get(appearance.code) ?? [];
     if (!cast.includes(character)) cast.push(character);
     castByActivity.set(appearance.code, cast);

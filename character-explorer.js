@@ -77,7 +77,7 @@ export function mountCharacterExplorer(root, { activities, t, initialId, onSelec
       const p = make('p'); p.append(make('strong', label + '. '), document.createTextNode(text)); bio.append(p);
     }
     scroll.append(bio);
-    const stories = character.appearances.map(appearance => ({ appearance, entry: activities.find(entry => `${entry.language}-${entry.code}` === appearance.code) })).filter(item => item.entry);
+    const stories = character.appearances.filter(appearance => appearance.kind !== 'narrated').map(appearance => ({ appearance, entry: activities.find(entry => `${entry.language}-${entry.code}` === appearance.code) })).filter(item => item.entry);
     const listHeading = make('h4', t('characterStories')); scroll.append(listHeading);
     const list = make('ul', undefined, 'character-stories');
     for (const { entry, appearance } of stories) {
@@ -89,6 +89,7 @@ export function mountCharacterExplorer(root, { activities, t, initialId, onSelec
       item.append(button); list.append(item);
     }
     scroll.append(list);
+    if (!stories.length) scroll.append(make('p', t('noSpokenStories'), 'character-audio-status'));
     const actions = make('div', undefined, 'character-detail-actions');
     const browse = make('button', t('browseCharacterStories')(stories.length), 'button primary'); browse.type = 'button';
     browse.disabled = !stories.length;

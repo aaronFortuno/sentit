@@ -1,10 +1,15 @@
-export const defaultSession = { enabled: true, reading: 60, listens: 2, interval: 30, prepare: true, repeat: true };
+export const defaultSession = { enabled: true, reading: 60, listens: 2, interval: 30, prepare: true, repeat: true, rate: 1, jingle: true };
+export const jingleUrl = './assets/audio/sentit-jingle-v1.mp3';
+
+export function validRate(value) {
+  return Number.isFinite(value) && value >= .8 && value <= 1.2 && Math.abs(value * 20 - Math.round(value * 20)) < 1e-8;
+}
 
 const prompts = {
   ca: {
-    prepare: './assets/audio/ca-lectura-temps-variable.mp3',
-    prepareMinute: './assets/audio/ca-lectura-un-minut.mp3',
-    repeat: './assets/audio/ca-repassa-les-respostes.mp3',
+    prepare: './assets/audio/ca-lectura-temps-variable-v2.mp3',
+    prepareMinute: './assets/audio/ca-lectura-un-minut-v2.mp3',
+    repeat: './assets/audio/ca-repassa-les-respostes-v2.mp3',
   },
 };
 
@@ -32,5 +37,6 @@ export function decodeSession(code) {
 }
 
 export function clockTime(seconds) {
+  seconds = Math.max(0, Math.ceil(seconds));
   return `${Math.floor(seconds / 60)}:${String(seconds % 60).padStart(2, '0')}`;
 }

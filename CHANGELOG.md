@@ -1,5 +1,14 @@
 # Canvis
 
+## 0.1.23 · 18 de novembre de 2026
+
+- Recompte i filtres de participació limitats a les veus: Aina i Ferran no compten com a veus a S008; la narradora no té nom dins del relat.
+- Remasterització offline de S001, S002, S008 i les locucions des dels WAV originals, sense porta de soroll, amb marges de seguretat i pistes separades. Cap petició TTS nova. Es preserven els màsters anteriors.
+- Prova de base instrumental original amb atenuació sota la veu a S008. Proposta de programa de ràdio amb benvinguda i comiat preparada, sense sintetitzar.
+- Sintonia inicial original opcional i activa per defecte. Ritme de ×0,80 a ×1,20, passos de 0,05, conservant el to; opcions incorporades al QR i l’enllaç. Els temps de pausa no s’acceleren ni s’alenteixen.
+- V4V reorganitzat com Pentagrama: QR i explicació, autor, codi i recursos. Fonts sonores consultables per comprensió a la web i registre amb atribucions, llicències i escaletes al repositori.
+- Bloqueig de síntesi nova fins a validar amb el docent guió, veus i muntatge complet; qualsevol canvi invalida l’empremta aprovada.
+
 ## 0.1.22 · 18 de novembre de 2026
 
 - Quadre «Coneix els personatges» al header, amb vuit retrats naturals, presentacions escrites i accés a les comprensions de cadascú. Mateix component al quadre i a la pàgina de personatges; els model sheets queden com a referència editorial.

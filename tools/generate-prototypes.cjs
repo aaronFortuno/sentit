@@ -8,6 +8,8 @@ const { checkWave, ffmpeg, ffmpegBinary } = require('./audio-files.cjs');
 const { parseEnv } = require('node:util');
 const { request, buildPlan } = require('./audio-plan.cjs');
 const { assertQuota, reserveRequest, readJSON } = require('./audio-quota.cjs');
+const productionPlans = require('../content/production-plans.json');
+const { fingerprint, assertProductionApproved } = require('./production-approval.cjs');
 const outputDirectory = path.resolve(__dirname, '../../output/sentit-primera-tanda');
 async function geminiAudio(body) {
   const key = process.env.GEMINI_API_KEY?.trim() || parseEnv(await fs.readFile(path.resolve(__dirname, '../../.private/comprensio-oral/gemini.env'), 'utf8')).GEMINI_API_KEY?.trim();
@@ -71,7 +73,6 @@ async function main() {
   const generate = process.argv.includes('--generate');
   const selected = process.argv.find(arg => /^--only=/.test(arg))?.slice(7);
   const planOnly = process.argv.includes('--plan') || !generate;
-  if (!planOnly) assertQuota(await readJSON(path.join(outputDirectory,'last-api-error.json'), null));
   const binary = planOnly ? null : await ffmpegBinary();
   if (binary) ffmpeg(binary, ['-version']);
   const matches = specs.filter((item, i) => !selected || item.name === selected || ['S002','S008','S015','S023'][i].toLowerCase() === selected.toLowerCase());
@@ -96,9 +97,14 @@ async function main() {
       if (!audio) return false;
       checkWave(audio); return true;
     });
-    console.log(JSON.stringify({code:entry.code, mode:plan.mode, newRequests:plan.requests, pieces:plan.pieces.map(p=>({name:p.name,parts:p.parts,cached:p.cached})), introCached:plan.intro.cached}));
+    console.log(JSON.stringify({code:entry.code, mode:plan.mode, newRequests:plan.requests, validation:productionPlans[entry.code]?.status, fingerprint:fingerprint(entry,spec,productionPlans[entry.code]), pieces:plan.pieces.map(p=>({name:p.name,parts:p.parts,cached:p.cached})), introCached:plan.intro.cached}));
     if (planOnly) continue;
-    const previousReport = JSON.parse(await fs.readFile(path.join(folder,'report.json'),'utf8').catch(error=>{if(error.code==='ENOENT')return 'null';throw error;}));
+    if (plan.requests) {
+      assertProductionApproved(entry,spec,productionPlans[entry.code]);
+      assertQuota(await readJSON(path.join(outputDirectory,'last-api-error.json'), null));
+    }
+    const remasters = await readJSON(path.join(root,'assets/audio/remaster-v2-manifest.json'), { activities: [] });
+    const previousReport = remasters.activities.find(item => entry.audio?.endsWith('/'+item.file)) ?? JSON.parse(await fs.readFile(path.join(folder,'report.json'),'utf8').catch(error=>{if(error.code==='ENOENT')return 'null';throw error;}));
     if (!plan.requests && previousReport) {
       const published = await fs.readFile(path.join(root,'assets/audio',previousReport.file));
       if (createHash('sha256').update(published).digest('hex') !== previousReport.sha256) throw Error('El màster publicat no coincideix amb el registre.');
@@ -133,7 +139,7 @@ async function main() {
         await fs.writeFile(file.replace('.wav','.request.json'), JSON.stringify(body,null,2));
         await wait(3000);
       }
-      return encode(name + '-render', ['-i',file,'-af','aformat=channel_layouts=mono,silenceremove=start_periods=1:start_duration=0.03:start_threshold=-48dB,areverse,silenceremove=start_periods=1:start_duration=0.03:start_threshold=-48dB,areverse,loudnorm=I=-19:TP=-2.5:LRA=9,aresample=48000']);
+      return encode(name + '-render', ['-i',file,'-af','aformat=channel_layouts=mono,loudnorm=I=-19:TP=-2.5:LRA=9,aresample=48000,adelay=250:all=1,apad=pad_dur=0.3']);
     }
     const sceneFiles = [];
     for (const piece of plan.pieces) sceneFiles.push(await take(piece.name, piece.turns));

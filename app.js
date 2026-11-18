@@ -1,7 +1,8 @@
 import { activities, legacyActivities } from './catalogue.js';
 import { strings } from './locales.js';
 import { defaultFormat, imageOptions, maxLines, questionFormat, renderWorksheet } from './worksheet.js';
-import { clockTime, decodeSession, defaultSession, encodeSession, guidedPrompts } from './session.js';
+import { clockTime, decodeSession, defaultSession, encodeSession, guidedPrompts, validRate } from './session.js';
+import { renderAudioResources } from './audio-resources.js';
 import { initGuidedPlayer } from './guided-player.js';
 import { mountCatalog } from './catalog.js';
 import { listCollections, saveCollectionLayout } from './collections.js';
@@ -86,6 +87,9 @@ function listenUrl(entry, base = location.href) {
   const url = new URL(`?escolta=${encodeURIComponent(listenKey(entry))}`, base);
   const session = configuredSession(entry);
   if (session) url.searchParams.set('p', encodeSession(session));
+  const options = sessionSettings(entry);
+  if (options.rate !== 1) url.searchParams.set('ritme', options.rate.toFixed(2));
+  if (!options.jingle) url.searchParams.set('jingle', '0');
   return url.href;
 }
 
@@ -227,6 +231,10 @@ function renderSessionEditor() {
     byId('session-prepare').disabled = session.reading === 0;
     byId('session-repeat').checked = session.repeat;
     byId('session-repeat').disabled = session.listens === 1;
+    byId('audio-rate').value = session.rate.toFixed(2);
+    byId('audio-jingle').checked = session.jingle;
+    byId('teacher-audio').playbackRate = session.rate;
+    byId('teacher-audio').preservesPitch = true;
   }
   if (selected) byId('open-player').href = listenUrl(selected);
   byId('open-player').hidden = !selected?.audio;
@@ -260,6 +268,7 @@ function renderSelection() {
   byId('audio-empty').hidden = Boolean(selected?.audio);
   byId('audio-empty').textContent = selected ? t('audioPendingHint') : t('noAudio');
   renderSessionEditor();
+  renderAudioResources(byId('audio-resources'), selected, t);
 }
 
 function showActivity(entry, collectionId = '') {
@@ -323,12 +332,13 @@ function openCatalog() {
 }
 
 function player(entry) {
-  const audio = byId('student-audio');
   const play = byId('play');
   const sessionCode = query.get('p');
   const session = sessionCode === null ? null : decodeSession(sessionCode);
   const prompts = guidedPrompts(entry);
-  const invalidConfig = Boolean(entry?.audio) && sessionCode !== null && (!session || !prompts);
+  const rate = query.has('ritme') ? Number(query.get('ritme')) : 1;
+  const jingle = query.get('jingle') !== '0';
+  const invalidConfig = Boolean(entry?.audio) && ((sessionCode !== null && (!session || !prompts)) || !validRate(rate) || (query.has('jingle') && !['0', '1'].includes(query.get('jingle'))));
   const available = Boolean(entry?.audio) && !invalidConfig;
   byId('player-title').textContent = invalidConfig ? t('invalidSession') : entry?.title ?? t('invalid');
   byId('player-title').lang = entry?.language ?? language;
@@ -336,45 +346,24 @@ function player(entry) {
   byId('player-hint').textContent = entry && !entry.audio ? t('audioPendingHint') : t('invalidHint');
   play.hidden = !available;
   if (!available) return;
-  if (session) {
-    const statusNode = byId('play-status');
-    const timer = byId('session-countdown');
-    const label = byId('play-label');
-    statusNode.classList.remove('sr-only');
-    initGuidedPlayer(entry, session, prompts, play, ({ action, status, countdown, number, busy }) => {
-      if (label.textContent !== t(action)) {
-        label.textContent = t(action);
-        icon(play.querySelector('[data-icon]'), action === 'pause' ? 'pause' : 'play');
-      }
-      const message = status === 'sessionListening' ? t(status)(number, session.listens) : status ? t(status) : '';
-      if (statusNode.textContent !== message) statusNode.textContent = message;
-      const time = countdown === null ? '' : clockTime(countdown);
-      if (timer.textContent !== time) timer.textContent = time;
-      timer.hidden = countdown === null;
-      play.disabled = busy;
-    });
-    return;
-  }
-  if (!audio.hasAttribute('src')) audio.src = entry.audio;
-  function announce(error = Boolean(audio.error)) {
-    const status = byId('play-status');
-    const label = audio.ended ? 'repeat' : !audio.paused ? 'pause' : audio.currentTime ? 'resume' : 'listen';
-    byId('play-label').textContent = t(label);
-    status.classList.toggle('sr-only', !error);
-    status.textContent = error ? t('audioError') : audio.paused ? '' : t('playing');
-    icon(play.querySelector('[data-icon]'), audio.paused ? 'play' : 'pause');
-  }
-  if (!play.onclick) {
-    play.onclick = async () => {
-      if (!audio.paused) audio.pause();
-      else {
-        if (audio.ended) audio.currentTime = 0;
-        try { await audio.play(); } catch { announce(true); }
-      }
-    };
-    for (const event of ['play', 'pause', 'ended', 'error']) audio.addEventListener(event, () => announce());
-  }
-  announce();
+  if (play.dataset.initialised) return;
+  play.dataset.initialised = 'true';
+  const statusNode = byId('play-status');
+  const timer = byId('session-countdown');
+  const label = byId('play-label');
+  statusNode.classList.remove('sr-only');
+  initGuidedPlayer(entry, { ...(session ?? { enabled: false }), rate, jingle }, prompts, play, ({ action, status, countdown, number, busy }) => {
+    if (label.textContent !== t(action)) {
+      label.textContent = t(action);
+      icon(play.querySelector('[data-icon]'), action === 'pause' ? 'pause' : 'play');
+    }
+    const message = status === 'sessionListening' ? t(status)(number, session?.listens ?? 1) : status ? t(status) : '';
+    if (statusNode.textContent !== message) statusNode.textContent = message;
+    const time = countdown === null ? '' : clockTime(countdown);
+    if (timer.textContent !== time) timer.textContent = time;
+    timer.hidden = countdown === null;
+    play.disabled = busy;
+  });
 }
 
 function translate() {
@@ -433,6 +422,8 @@ function updateSession(event) {
       interval: byId('session-interval').valueAsNumber,
       prepare: byId('session-prepare').checked,
       repeat: byId('session-repeat').checked,
+      rate: Number(byId('audio-rate').value),
+      jingle: byId('audio-jingle').checked,
     };
     if (JSON.stringify(session) !== JSON.stringify(sessionSettings(selected))) {
       currentSettings.session = session;
