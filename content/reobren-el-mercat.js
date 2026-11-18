@@ -6,7 +6,7 @@ export const mercat = {
   status: 'awaiting-audio',
   durationEstimate: { min: 195, max: 240 },
   audio: null,
-  image: { src: './assets/images/reobren-el-mercat.webp', alt: 'Una periodista informa davant d’un mercat de barri.', width: 1536, height: 1024 },
+  image: { src: './assets/images/reobren-el-mercat-v2.webp', alt: 'La periodista Mar informa davant d’un mercat de barri.', width: 1536, height: 1024 },
   introduction: 'Comprensió oral. Reobren el mercat: què canvia i què falta decidir. Notícia de ficció.',
   fragment: { start: 0, seconds: 0 },
   transcript: [

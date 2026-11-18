@@ -4,12 +4,20 @@ Generades per a Sentit el 18 de novembre de 2026 amb l’eina integrada `image_g
 
 - [El senyal de la ràdio](el-senyal-de-la-radio.webp): dos joves conversen en una ràdio escolar.
 - [Canvi de plans](canvi-de-plans.webp): dos joves conversen en un passadís escolar.
-- [Preparem una capsa de records](preparem-una-capsa-de-records.webp): una mestra i una capsa tancada.
-- [La foto que faltava](la-foto-que-faltava.webp): una nena i el seu avi amb un àlbum tancat.
-- [Una restauradora ens explica el seu ofici](una-restauradora-ens-explica-el-seu-ofici.webp): un jove entrevista una professional al taller.
-- [Reobren el mercat](reobren-el-mercat.webp): una periodista davant d’un mercat de barri.
+- [Preparem una capsa de records](preparem-una-capsa-de-records-v2.webp): la Mireia i una capsa tancada.
+- [La foto que faltava](la-foto-que-faltava-v2.webp): l’Aina i el Ferran amb un àlbum tancat.
+- [Una restauradora ens explica el seu ofici](una-restauradora-ens-explica-el-seu-ofici-v2.webp): en Biel entrevista la Nora al taller.
+- [Reobren el mercat](reobren-el-mercat-v2.webp): la Mar davant d’un mercat de barri.
 
-Les imatges donen context sense representar les dades que es demanen a les preguntes. Les cinc darreres es van generar amb la primera com a referència d’estil.
+Les imatges donen context sense representar les dades que es demanen a les preguntes. Les cinc darreres originals es van generar amb la primera com a referència d’estil; aquella estratègia no va diferenciar prou algunes identitats.
+
+## Versions amb identitats recurrents · 0.1.21
+
+Les quatre imatges `-v2.webp` parteixen de l’escena original i de la [fitxa del personatge](../characters/README.md) com a referència d’identitat. Es conserven Laia i Biel a S001 i la cara del Ferran a S008. Aina, Mireia, Nora i Mar tenen ara trets propis. Les escenes originals continuen disponibles sense el sufix `-v2`.
+
+Les versions noves s’han generat amb l’eina integrada i s’han convertit a WebP amb FFmpeg, qualitat 88 i les mateixes dimensions, sense retallar ni remaquetar. [Prompts exactes i referències](characters-scenes-v2.json) · [Regles de continuïtat](../../docs/personatges.md).
+
+Els prompts següents documenten la primera versió, anterior a les fitxes de personatge.
 
 ## Prompt d’«El senyal de la ràdio»
 

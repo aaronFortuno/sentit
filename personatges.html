@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="El repartiment de Sentit: personatges, veus i fitxes gràfiques de referència.">
+  <meta name="theme-color" content="#f7f5ee">
+  <link rel="canonical" href="https://sentit.ortogra.fi/personatges.html">
+  <link rel="icon" href="./assets/sentit.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./characters.css">
+  <script type="module" src="./character-gallery.js"></script>
+  <title>Els personatges · Sentit</title>
+</head>
+<body>
+  <a class="skip" href="#characters">Ves als personatges</a>
+  <header class="top"><div class="top-inner">
+    <div class="identity"><a class="brand" href="./" aria-label="Sentit"><img src="./assets/sentit.svg" width="35" height="35" alt=""><span>sentit<span class="brand-dot">.</span></span></a><span class="header-motto">Veus que anem coneixent.</span></div>
+    <div class="top-actions"><a href="./" class="back-catalogue">Torna al catàleg</a><button id="theme" class="icon-button" type="button" aria-label="Canvia el tema"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"></svg></button></div>
+  </div></header>
+  <main id="characters" class="character-main" tabindex="-1">
+    <div class="character-intro"><h1>Els personatges de Sentit</h1><p>Un mateix nom, un aspecte recognoscible i una veu de referència. Històries independents amb personatges que podem retrobar.</p><p class="small">Les veus marcades com a proposta encara necessiten una prova d’audició en català. Les fitxes són la primera referència visual del repartiment.</p></div>
+    <nav id="character-index" class="character-index" aria-label="Ves a un personatge"></nav>
+    <div id="character-grid" class="character-grid"></div>
+    <noscript><p>Les fitxes també es poden consultar al <a href="https://github.com/aaronFortuno/sentit/blob/main/docs/personatges.md">document de personatges</a>.</p></noscript>
+  </main>
+  <footer class="bottom"><div class="bottom-inner"><span class="motto">Escolta. Entén. Respon.</span><a class="parent-brand" href="https://ortogra.fi/">Un projecte d’<img src="./assets/ortografi.svg" width="83" height="20" alt="ortogra.fi"></a><nav aria-label="Referències"><a href="./LICENSE">Llicència</a><a href="https://github.com/aaronFortuno/sentit/blob/main/docs/personatges.md">Criteris del repartiment</a></nav></div></footer>
+</body>
+</html>

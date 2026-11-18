@@ -1,0 +1,28 @@
+.character-main { min-height: 0; overflow: auto; padding: 28px max(18px, calc((100vw - 1400px) / 2)); scrollbar-gutter: stable; scrollbar-width: thin; scrollbar-color: var(--line) transparent; }
+.character-main:focus { outline: none; }
+.character-intro { max-width: 900px; display: grid; gap: 12px; }
+.character-intro h1 { font-size: clamp(1.75rem, 4vw, 2.3rem); }
+.character-intro p { color: var(--quiet); }
+.character-index { display: flex; gap: 8px 20px; flex-wrap: wrap; padding-block: 22px; }
+.character-index a { text-decoration: none; border-bottom: 1px solid transparent; transition: border-color var(--motion); }
+.character-index a:hover { border-color: currentColor; }
+.character-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+.character-card { min-width: 0; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; scroll-margin-block-start: 15px; transition: border-color var(--motion), box-shadow var(--motion); }
+.character-card:target { border-color: var(--green); }
+.character-heading { display: flex; align-items: start; justify-content: space-between; gap: 10px; padding: 20px 22px 14px; }
+.character-heading h2 { font-size: 1.65rem; margin-bottom: 5px; }
+.character-role { font-size: .85rem; color: var(--quiet); }
+.voice-badge { flex: none; display: grid; gap: 3px; padding: 6px 9px; border-radius: 6px; background: var(--soft); color: var(--green); font-size: .8rem; }
+.voice-badge small { font-size: .69rem; }
+.voice-badge.is-candidate { background: color-mix(in srgb, var(--accent) 9%, var(--panel)); color: var(--accent); }
+.character-sheet { display: block; background: white; }
+.character-sheet img { display: block; width: 100%; height: auto; }
+.character-copy { padding: 18px 22px 22px; display: grid; gap: 12px; font-size: .9rem; line-height: 1.5; }
+.character-copy strong { font-weight: 650; }
+.character-copy .small { overflow-wrap: anywhere; }
+.character-story-links { display: flex; flex-wrap: wrap; gap: 8px 12px; }
+.character-story-links a { font-size: .82rem; }
+.back-catalogue { font-size: .85rem; }
+@media (max-width: 800px) { .character-grid { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 600px) { .character-main { padding: 20px 14px; } .character-heading { padding: 16px 16px 12px; } .character-copy { padding: 14px 16px 18px; } .back-catalogue { font-size: .77rem; } .bottom-inner { grid-template-columns: 1fr auto; } .bottom .motto { display: none; } .bottom nav { gap: 8px; font-size: .7rem; } }
+@media print { html, body { height: auto; overflow: visible; display: block; } .top, .bottom, .character-index { display: none; } .character-main { overflow: visible; padding: 0; } .character-grid { display: block; } .character-card { break-inside: avoid; margin-top: 20px; } }

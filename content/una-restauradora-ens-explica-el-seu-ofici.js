@@ -1,12 +1,12 @@
 export const restauradora = {
   id: 'una-restauradora-ens-explica-el-seu-ofici', code: 'S015', language: 'ca',
   title: 'Una restauradora ens explica el seu ofici',
-  summary: 'Una entrevista de ficció sobre com observar, documentar i conservar una obra.',
+  summary: 'En Biel entrevista la Nora per descobrir com s’observa, es documenta i es conserva una obra.',
   grade: '5', level: 'middle', genre: 'interview', seconds: 0,
   status: 'awaiting-audio',
   durationEstimate: { min: 150, max: 180 },
   audio: null,
-  image: { src: './assets/images/una-restauradora-ens-explica-el-seu-ofici.webp', alt: 'Un jove entrevista una restauradora al seu taller.', width: 1536, height: 1024 },
+  image: { src: './assets/images/una-restauradora-ens-explica-el-seu-ofici-v2.webp', alt: 'En Biel entrevista la restauradora Nora al seu taller.', width: 1536, height: 1024 },
   introduction: 'Comprensió oral. Una restauradora ens explica el seu ofici.',
   fragment: { start: 0, seconds: 0 },
   transcript: [
