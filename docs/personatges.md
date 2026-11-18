@@ -2,7 +2,7 @@
 
 18 de novembre de 2026 · Primera proposta de continuïtat, v0.1.21.
 
-[Consulta les vuit fitxes al web](https://sentit.ortogra.fi/personatges.html). Cada fitxa inclou vistes de davant, perfil, darrere i tres quarts, i estudis de cara: és una **fitxa de personatge o model sheet**, amb el seu turnaround. Els PNG són referències per generar noves escenes, no imatges per incorporar senceres a les fitxes de comprensió.
+[Coneix els personatges al web](https://sentit.ortogra.fi/personatges.html), o des del botó del header. La vista pública utilitza retrats naturals i presentacions breus. Les [fitxes de referència editorial](../assets/characters/README.md) inclouen vistes de davant, perfil, darrere i tres quarts, i estudis de cara: són **model sheets**, amb el seu turnaround. Aquests PNG serveixen per generar escenes, no com a fotografia de presentació.
 
 ## Identitat, veu i nom
 
@@ -50,4 +50,6 @@ El registre separa sempre assignació editorial, veu real de cada presa i àudio
 
 ## Font dels perfils
 
-[content/characters.js](../content/characters.js) conserva identificadors estables, nom, aparença, manera de ser, interessos, interpretació vocal, estat de la veu i aparicions. La pàgina de personatges es genera a partir d’aquest registre. La personalitat és una guia per escriure; les fitxes de comprensió i les respostes es mantenen als seus guions.
+[content/characters.js](../content/characters.js) conserva identificadors estables, nom, aparença, manera de ser, interessos, interpretació vocal, estat de la veu, aparicions, retrat i presentació. El quadre i la pàgina de personatges comparteixen `character-explorer.js`, alimentat per aquest registre. La personalitat és una guia per escriure; les fitxes de comprensió i les respostes es mantenen als seus guions.
+
+Les presentacions escrites es locutaran quan hi hagi quota i s’hagi revisat la veu de cada personatge. Fins llavors `introduction.audio` és nul: el botó informa que està en preparació. No es presenten els àudios de les lectures com si fossin una autopresentació ni se sintetitza res en temps real.

@@ -1,5 +1,15 @@
 // Editorial identities. Candidate voices are NOT production replacements.
 // Keep the IDs stable when adding appearances or revising a voice after audition.
+const introductions = {
+  laia: 'Hola! Soc la Laia. M’agrada escoltar sons, explicar històries i descobrir com funcionen les coses. Em vols acompanyar?',
+  biel: 'Hola! Soc en Biel. M’agraden la música i els invents petits. Si tens una idea, la podem provar plegats!',
+  aina: 'Hola! Soc l’Aina. M’encanten les fotografies, els records i els petits misteris. Sempre hi ha alguna cosa per descobrir!',
+  mireia: 'Hola! Soc la Mireia. Soc mestra, i m’agrada fer preguntes, explicar històries i aprendre coses amb vosaltres.',
+  nora: 'Hola! Soc la Nora. Treballo restaurant obres d’art. Cada objecte té una història, i m’agrada descobrir-la abans de posar-m’hi.',
+  mar: 'Hola! Soc la Mar. Soc periodista. Surto al carrer, escolto persones i miro d’explicar amb claredat què passa al barri.',
+  pau: 'Hola! Soc en Pau. Tinc una parada de fruita al mercat. Aquí sempre hi ha algú amb qui parlar i alguna història per compartir.',
+  ferran: 'Hola! Soc en Ferran, l’avi de l’Aina. M’agrada passejar, arreglar coses i compartir records. I encara em queden moltes coses per aprendre!',
+};
 export const characters = [
   {
     id: 'laia', name: 'Laia', role: 'Jove · ràdio i descoberta', age: '12–14 anys, orientativament',
@@ -82,4 +92,26 @@ export const characters = [
 ].map(character => ({ ...character,
   modelSheet: `./assets/characters/${character.id}-model-sheet-v1.png`,
   previewSheet: `./assets/characters/${character.id}-model-sheet-v1.webp`,
+  portrait: `./assets/characters/${character.id}-portrait-v1.webp`,
+  introduction: { text: introductions[character.id], language: 'ca', audio: null },
 }));
+
+const castByActivity = new Map();
+for (const character of characters) {
+  for (const appearance of character.appearances) {
+    const cast = castByActivity.get(appearance.code) ?? [];
+    if (!cast.includes(character)) cast.push(character);
+    castByActivity.set(appearance.code, cast);
+  }
+}
+
+export function charactersForActivity(entry) {
+  return [...(castByActivity.get(`${entry.language}-${entry.code}`) ?? [])];
+}
+
+export function matchesCharacters(entry, selected, mode = 'any') {
+  const ids = [...selected];
+  if (!ids.length) return true;
+  const cast = new Set(charactersForActivity(entry).map(character => character.id));
+  return mode === 'all' ? ids.every(id => cast.has(id)) : ids.some(id => cast.has(id));
+}

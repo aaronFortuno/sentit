@@ -45,7 +45,13 @@ Les col·leccions es desen automàticament en el navegador i es recuperen en tor
 
 ## Personatges recurrents
 
-La [galeria de personatges](https://sentit.ortogra.fi/personatges.html), accessible des del catàleg i del quadre V4V, presenta Laia, Biel, Aina, Mireia, Nora, Mar, Pau i Ferran. Cada fitxa té referències visuals des de diversos angles, caràcter, interessos, manera de parlar i una veu Gemini associada. Laia–Leda, Biel–Puck i Mireia–Aoede parteixen de veus ja escoltades; les altres cinc assignacions són candidates pendents d’una prova en català.
+**Coneix els personatges**, al header, obre un quadre amb Laia, Biel, Aina, Mireia, Nora, Mar, Pau i Ferran. També es pot consultar la [pàgina de personatges](https://sentit.ortogra.fi/personatges.html), amb el mateix component. Cada fitxa mostra un retrat natural, una presentació, caràcter, interessos i les comprensions on apareix. Les fitxes gràfiques amb vistes des de diferents angles queden com a referència editorial. Laia–Leda, Biel–Puck i Mireia–Aoede parteixen de veus ja escoltades; les altres cinc assignacions són candidates pendents d’una prova en català.
+
+El filtre **Personatges** permet seleccionar-ne un o més: **Qualsevol dels triats** és la unió de les seves aparicions i **Tots junts**, la intersecció. Es combina amb la resta de filtres i amb la col·lecció activa. Inclou personatges amb diàleg, personatges narrats i la veu narradora, que s’identifica a la fitxa. **Veure les seves comprensions** mostra el catàleg complet d’aquell personatge, netejant els altres filtres i la selecció de col·lecció; no elimina cap col·lecció ni maquetació.
+
+Els filtres de personatge es poden compartir a la URL: `?personatge=biel`, o `?personatge=laia&personatge=biel&coincidencia=tots`. Es restauren en carregar l’adreça i s’actualitzen quan es modifiquen o netegen. La pàgina `personatges.html#nora` obre directament aquella fitxa.
+
+Les presentacions es defineixen a `character.introduction`, amb text, idioma i `audio: null` mentre falti la síntesi. El botó d’escolta està desactivat amb una explicació visible. En afegir-hi un MP3, s’habilitarà la reproducció manual; canviar de personatge, tancar el quadre o seguir un enllaç atura la presentació. No s’utilitza el TTS del navegador com a substitut.
 
 Els [criteris de continuïtat](docs/personatges.md) fixen noms, identitats i episodis independents, sense ordre obligatori ni coneixement previ per respondre. [content/characters.js](content/characters.js) és el registre editorial que alimenta la galeria; els [models i prompts](assets/characters/README.md) serveixen per generar escenes noves sense confondre personatges.
 
@@ -68,6 +74,8 @@ node tools/serve.cjs
 ```
 
 La comprovació del model de col·leccions s’executa amb `node tools/check-collections.mjs`: cobreix les còpies independents, l’ordre, la recuperació de maquetacions i els errors d’emmagatzematge. `node tools/check-catalog-gestures.cjs` prova els gestos i la persistència al navegador local (Playwright i Chrome). `catalog-gestures.js` adapta el controlador de Trama i utilitza SortableJS 1.15.7 local, sense dependència d’un CDN.
+
+`node tools/check-character-explorer.cjs` verifica el quadre, els filtres de personatge amb unió i intersecció, la recuperació de filtres des de la URL, la conservació de col·leccions, el canvi d’idioma i la vista mòbil. Una mostra de so creada localment comprova l’aturada en canviar de personatge o tancar el quadre; no fa peticions de síntesi.
 
 A les targetes, quatre segments horitzontals comparen la durada del fragment: un fins a 1 minut, dos fins a 2, tres fins a 3 i quatre per sobre de 3. El temps exacte es mostra al costat del rellotge. Per als materials pendents, l’indicador pren el límit superior de l’interval previst; no representa la durada de tota la sessió pautada.
 

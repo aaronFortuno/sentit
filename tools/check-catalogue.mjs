@@ -3,7 +3,7 @@ import { access } from 'node:fs/promises';
 import { activities, legacyActivities } from '../catalogue.js';
 import { durationBounds, durationText, durationTier, matchesDuration } from '../activity-meta.js';
 import { strings } from '../locales.js';
-import { characters } from '../content/characters.js';
+import { characters, charactersForActivity, matchesCharacters } from '../content/characters.js';
 
 const ids = new Set();
 const codes = new Set();
@@ -43,6 +43,9 @@ for (const character of characters) {
   assert(character.name && character.look && character.personality && character.interests && character.delivery);
   await access(new URL('../' + character.modelSheet, import.meta.url));
   await access(new URL('../' + character.previewSheet, import.meta.url));
+  await access(new URL('../' + character.portrait, import.meta.url));
+  assert(character.introduction.text.includes(character.name) && character.introduction.language === 'ca');
+  assert(character.introduction.audio === null || typeof character.introduction.audio === 'string');
   for (const appearance of character.appearances) {
     const activity = activities.find(entry => `${entry.language}-${entry.code}` === appearance.code);
     assert(activity, 'Every appearance points to an existing activity');
@@ -50,6 +53,15 @@ for (const character of characters) {
     if (character.voice.status === 'heard' && appearance.currentVoice) assert.equal(character.voice.id, appearance.currentVoice);
   }
 }
+const matchesCast = (ids, mode) => activities.filter(entry => matchesCharacters(entry, ids, mode)).map(entry => entry.code);
+assert.deepEqual(matchesCast([], 'all'), activities.map(entry => entry.code));
+assert.deepEqual(matchesCast(['biel'], 'any'), ['S001', 'S015']);
+assert.deepEqual(matchesCast(['laia', 'biel'], 'any'), ['S001', 'S015']);
+assert.deepEqual(matchesCast(['laia', 'biel'], 'all'), ['S001']);
+assert.deepEqual(matchesCast(['laia', 'nora'], 'all'), []);
+assert.deepEqual(matchesCast(['mireia'], 'any'), ['S002', 'S008']);
+assert.deepEqual(matchesCast(['invalid'], 'any'), []);
+assert(charactersForActivity(activities.find(entry => entry.code === 'S008')).some(character => character.id === 'ferran'), 'Narrated characters count as appearances');
 const draft = { audio: null, seconds: 0, fragment: { seconds: 0 }, durationEstimate: { min: 150, max: 180 } };
 for (const [seconds, tier] of [[1, 1], [60, 1], [60.1, 2], [120, 2], [120.1, 3], [180, 3], [180.1, 4], [600, 4]]) {
   assert.equal(durationTier({ audio: 'ready.mp3', seconds }), tier);

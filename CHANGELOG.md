@@ -1,5 +1,12 @@
 # Canvis
 
+## 0.1.22 · 18 de novembre de 2026
+
+- Quadre «Coneix els personatges» al header, amb vuit retrats naturals, presentacions escrites i accés a les comprensions de cadascú. Mateix component al quadre i a la pàgina de personatges; els model sheets queden com a referència editorial.
+- Filtre per un o més personatges, combinable amb curs, tipus, dificultat, idioma i col·leccions. Permet trobar qualsevol dels triats o només històries on apareguin tots junts.
+- El filtre es conserva a l’adreça amb `personatge` i, si cal, `coincidencia=tots`. Accedir des d’una fitxa mostra tot el catàleg del personatge, netejant els altres filtres.
+- Presentacions preparades amb text i camp d’àudio; el botó d’escolta informa que l’àudio està en preparació. Sense síntesi nova, reproducció automàtica ni veus de substitució.
+
 ## 0.1.21 · 18 de novembre de 2026
 
 - Repartiment de vuit personatges amb noms estables, perfil, interessos, interpretació i veu de referència: Laia, Biel, Aina, Mireia, Nora, Mar, Pau i Ferran.

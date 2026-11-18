@@ -6,7 +6,8 @@ import { initGuidedPlayer } from './guided-player.js';
 import { mountCatalog } from './catalog.js';
 import { listCollections, saveCollectionLayout } from './collections.js';
 import { durationText } from './activity-meta.js';
-import { animateRefresh, mountDetails, mountDialogs, openDialog, scrollToTarget, setDetailsOpen, setDisclosure } from './motion.js';
+import { animateRefresh, mountDetails, mountDialogs, openDialog, closeDialog, scrollToTarget, setDetailsOpen, setDisclosure } from './motion.js';
+import { mountCharacterExplorer } from './character-explorer.js';
 import { mountLanguageMenu } from './language-menu.js';
 import { mottos, nextMotto } from './mottos.js';
 
@@ -92,6 +93,7 @@ const icons = {
   sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.4 1.4m11.2 11.2L19 19m0-14-1.4 1.4M6.4 17.6 5 19"/>',
   moon: '<path d="M20.9 13.35A9 9 0 1 1 10.65 3.1a7 7 0 0 0 10.25 10.25Z"/>',
   languages: '<path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="M2 5h12"/><path d="M7 2h1"/><path d="m22 22-5-10-5 10"/><path d="M14 18h6"/>',
+  users: '<path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/><circle cx="9" cy="7" r="4"/>',
   'chevron-down': '<path d="m6 9 6 6 6-6"/>',
   close: '<path d="m18 6-12 12M6 6l12 12"/>',
   printer: '<path d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2M6 14h12v8H6zm12-2h.01"/>',
@@ -385,6 +387,7 @@ function translate() {
   }
   for (const element of document.querySelectorAll('[data-placeholder]')) element.placeholder = t(element.dataset.placeholder);
   byId('header-motto').textContent = mottos[language][mottoIndex];
+  characterExplorer?.render();
   if (listenId === null) {
     catalog.render();
     if (!byId('workspace').hidden) renderSelection();
@@ -402,6 +405,12 @@ const catalog = mountCatalog({
     else openCatalog();
   },
 });
+
+const characterExplorer = listenId === null ? mountCharacterExplorer(byId('dialog-character-explorer'), {
+  activities, t,
+  onBrowse(id) { closeDialog(byId('characters-dialog'), () => { catalog.showCharacter(id); openCatalog(); }); },
+  onOpen(entry) { closeDialog(byId('characters-dialog'), () => { catalog.setCollection(''); openActivity(entry); }); },
+}) : null;
 
 byId('language').value = language;
 mountLanguageMenu(byId('language-button'), byId('language-menu'), byId('language'));
@@ -632,7 +641,8 @@ function toggleSettings(open) {
   setDisclosure(byId('settings-scroll'), open);
 }
 toggleSettings(!mobileLayout.matches);
-setDetailsOpen(byId('filter-panel'), !compactCatalog.matches, { animated: false });
+setDetailsOpen(byId('filter-panel'), !compactCatalog.matches || catalog.hasCharacterFilter(), { animated: false });
+if (catalog.hasCharacterFilter()) setDetailsOpen(byId('character-filter'), true, { animated: false });
 byId('settings-toggle').addEventListener('click', () => toggleSettings(byId('settings-toggle').getAttribute('aria-expanded') !== 'true'));
 mobileLayout.addEventListener('change', event => { toggleSettings(!event.matches); });
 compactCatalog.addEventListener('change', event => { setDetailsOpen(byId('filter-panel'), !event.matches); });
