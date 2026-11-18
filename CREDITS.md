@@ -19,9 +19,19 @@ Guió original en català. Veus sintetitzades amb Gemini TTS (Aoede i Charon). E
 - Obertura de porta de dleverett, CC0. [Door Opening Creaking](https://freesound.org/people/dleverett/sounds/710510/)
 - Cant de merla de tinga, CC0. [Common blackbird singing denoised](https://commons.wikimedia.org/wiki/File:Common_blackbird_singing_denoised.flac)
 
+## Primera tanda: S002, S008, S015 i S023
+
+Guions, preguntes, respostes orientatives i transcripcions originals de Sentit. S002 i S008 fan servir Aoede de Gemini 3.8 Flash TTS per a la mestra, la narradora i les presentacions. La producció parcial de S015 combina Puck per a l’entrevistador jove i Aoede per a la restauradora Nora. S023 preveu Aoede per a la presentadora i Charon per al comerciant Pau; encara no té àudio publicat.
+
+El fregadís de paper de S008 és un so procedimental generat amb FFmpeg. Per a S023 s’ha preparat la recepta d’una sintonia procedimental. No s’hi han afegit enregistraments externs. Els efectes són decoratius i no cal reconèixer-los per respondre. La notícia S023 és fictícia, tal com s’indica al guió de presentació i a la descripció.
+
+L’entrevista fictícia S015 pren com a base els criteris de mínima intervenció, estudi i documentació del [Centre de Restauració de Béns Mobles de Catalunya](https://centrederestauracio.gencat.cat/ca/que_fem/que_restaurem/criteris/). La conservació preventiva es contrasta amb les explicacions del Museu Nacional sobre [llum i condicions de les sales](https://www.museunacional.cat/ca/que-hi-ha-poca-llum-i-fa-fred-en-algunes-sales-del-museu) i [conservació-restauració](https://www.museunacional.cat/ca/conservacio-restauracio-0). El guió és una adaptació original per a primària; no reprodueix una entrevista real.
+
+[Registre de producció i revisió](docs/primera-tanda.md).
+
 ## Web
 
-Les il·lustracions de context de les dues activitats s’han generat per a Sentit amb l’eina integrada de generació d’imatges i s’han convertit a WebP, sense canviar-ne la composició. [Fitxers i prompts](assets/images/README.md).
+Les sis il·lustracions de context s’han generat per a Sentit amb l’eina integrada de generació d’imatges i s’han convertit a WebP, sense canviar-ne la composició. [Fitxers i prompts](assets/images/README.md).
 
 - Generador de codis QR de Kazuhiko Arase. [Llicència MIT](assets/vendor/qrcode.LICENSE)
 - Icones derivades de Lucide. [Avisos ISC i MIT](assets/vendor/lucide.LICENSE)

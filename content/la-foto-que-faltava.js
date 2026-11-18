@@ -1,0 +1,26 @@
+export const foto = {
+  id: 'la-foto-que-faltava', code: 'S008', language: 'ca',
+  title: 'La foto que faltava',
+  summary: 'L’Aina busca una fotografia i descobreix per què no és al lloc de sempre.',
+  grade: '4', level: 'easy', genre: 'story', seconds: 90,
+  audio: './assets/audio/s008-la-foto-que-faltava-v1.mp3',
+  image: { src: './assets/images/la-foto-que-faltava.webp', alt: 'Una nena i el seu avi conversen al costat d’un àlbum tancat.', width: 1536, height: 1024 },
+  introduction: 'Comprensió oral. La foto que faltava.',
+  fragment: { start: 4.17423, seconds: 85 },
+  transcript: [
+    { id: 'album', speaker: 'Narradora', text: 'Dissabte al matí, l’Aina va obrir l’àlbum de fotos de l’avi per preparar un treball de l’escola. Volia explicar com havia canviat el poble. Recordava una fotografia de la plaça, amb un arbre enorme al mig i una font al costat.' },
+    { id: 'buit', speaker: 'Narradora', text: 'Va passar les pàgines fins a trobar el lloc. Però allà només hi havia quatre cantoneres de paper i un rectangle més clar. La foto no hi era. L’Aina va mirar a terra i sota la taula. Després va pensar que el seu germà petit l’havia agafada per jugar.' },
+    { id: 'pregunta', speaker: 'Narradora', text: 'Abans d’anar-lo a buscar, però, va preguntar a l’avi si sabia on era. Ell va somriure i li va assenyalar un sobre damunt de la prestatgeria. No s’havia perdut res. L’avi havia tret la fotografia de l’àlbum per portar-la a copiar. Volia donar-ne una còpia a la biblioteca.' },
+    { id: 'mirar', speaker: 'Narradora', text: 'L’Aina va obrir el sobre amb cura. A la fotografia, la plaça semblava més petita que ara. L’avi li va explicar que això era perquè el fotògraf l’havia retratada des d’un racó. La plaça no havia canviat de mida.' },
+    { id: 'diferencies', speaker: 'Narradora', text: 'En canvi, l’arbre sí que havia desaparegut. Una tempesta l’havia fet caure anys enrere. Ara, al seu lloc, hi havia un banc llarg. L’Aina va apuntar la diferència al quadern i va descartar el que havia pensat sobre la mida.' },
+    { id: 'tornada', speaker: 'Narradora', text: 'Quan va tornar a guardar la foto, va dir a l’avi que primer havia sospitat del seu germà. L’avi li va respondre que preguntar sovint estalvia una bona estona de buscar. L’Aina va tancar l’àlbum. Ja tenia una història per explicar, i també sabia que una primera impressió no sempre és la bona.' },
+  ],
+  questions: [
+    { id: 'treball', prompt: 'Per a què busca fotografies, l’Aina?', answer: 'Per preparar un treball de l’escola sobre com havia canviat el poble.', lines: 2, evidence: [{ part: 'album', quote: 'per preparar un treball de l’escola. Volia explicar com havia canviat el poble.' }] },
+    { id: 'sospita', prompt: 'De qui sospita al principi? Què fa abans d’anar-lo a buscar?', answer: 'Sospita del seu germà petit. Abans de buscar-lo, pregunta a l’avi si sap on és la fotografia.', lines: 2, evidence: [{ part: 'buit', quote: 'va pensar que el seu germà petit l’havia agafada per jugar.' }, { part: 'pregunta', quote: 'va preguntar a l’avi si sabia on era.' }] },
+    { id: 'sobre', prompt: 'On era la fotografia i per què l’avi l’havia tret de l’àlbum?', answer: 'En un sobre damunt de la prestatgeria. L’avi volia portar-la a copiar per donar-ne una còpia a la biblioteca.', lines: 3, evidence: [{ part: 'pregunta', quote: 'un sobre damunt de la prestatgeria.' }, { part: 'pregunta', quote: 'L’avi havia tret la fotografia de l’àlbum per portar-la a copiar. Volia donar-ne una còpia a la biblioteca.' }] },
+    { id: 'mida', prompt: 'La plaça havia canviat de mida? Per què ho semblava?', answer: 'No. Ho semblava perquè el fotògraf havia fet la foto des d’un racó.', lines: 2, evidence: [{ part: 'mirar', quote: 'el fotògraf l’havia retratada des d’un racó. La plaça no havia canviat de mida.' }] },
+    { id: 'canvi', prompt: 'Quin canvi de la plaça sí que era real?', answer: 'L’arbre havia caigut durant una tempesta i ara hi havia un banc llarg al seu lloc.', lines: 2, evidence: [{ part: 'diferencies', quote: 'Una tempesta l’havia fet caure anys enrere. Ara, al seu lloc, hi havia un banc llarg.' }] },
+    { id: 'ensenyament', prompt: 'Què ha après l’Aina sobre les primeres impressions? Explica-ho amb una cosa que li hagi passat.', answer: 'Que cal comprovar-les abans de donar-les per bones. Pot explicar que el germà no havia agafat la foto o que la plaça semblava més petita sense haver canviat de mida. Cal relacionar l’aprenentatge amb un exemple del relat.', lines: 3 },
+  ],
+};

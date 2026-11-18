@@ -1,0 +1,106 @@
+{
+  "created": "2026-11-18",
+  "state": "partially-produced-quota-paused",
+  "review": "teacher-listening-pending",
+  "activities": [
+    {
+      "code": "S002",
+      "activity": "ca-S002",
+      "file": "s002-preparem-una-capsa-de-records-v1.mp3",
+      "voices": {
+        "Mestra": "Aoede"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "bodyDuration": 50.09979166666667,
+      "offset": 4.881916666666666,
+      "fullDuration": 54.98170833333334,
+      "lufs": -19.5,
+      "peakDbTP": -3,
+      "wordCount": 130,
+      "timeline": [
+        {
+          "scene": 1,
+          "start": 0.25,
+          "end": 20.9669375,
+          "parts": [
+            "capsa",
+            "dibuix",
+            "foto"
+          ]
+        },
+        {
+          "scene": 2,
+          "start": 23.9669375,
+          "end": 49.74979166666667,
+          "parts": [
+            "missatge",
+            "nom",
+            "final"
+          ]
+        }
+      ],
+      "effects": [],
+      "sha256": "edb0b2a10f59bbc8fd65cf33c64f6f9816cfef4e8816397e1539c4570451d32c",
+      "state": "ready-for-teacher-review"
+    },
+    {
+      "code": "S008",
+      "activity": "ca-S008",
+      "file": "s008-la-foto-que-faltava-v1.mp3",
+      "voices": {
+        "Narradora": "Aoede"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "bodyDuration": 85.0479375,
+      "offset": 4.174229166666667,
+      "fullDuration": 89.22216666666667,
+      "lufs": -18.9,
+      "peakDbTP": -2.7,
+      "wordCount": 270,
+      "timeline": [
+        {
+          "scene": 1,
+          "start": 0.25,
+          "end": 42.407270833333335,
+          "parts": [
+            "album",
+            "buit",
+            "pregunta"
+          ]
+        },
+        {
+          "scene": 2,
+          "start": 42.75727083333334,
+          "end": 84.6979375,
+          "parts": [
+            "mirar",
+            "diferencies",
+            "tornada"
+          ]
+        }
+      ],
+      "effects": [
+        {
+          "effect": "paper",
+          "start": 42.63727083333334,
+          "end": 43.38727083333334,
+          "overlapsSpeech": true
+        }
+      ],
+      "sha256": "531be71d5128fddb26664b9c992a5351f8c35c801f06ba1eff9caa74e8169f19",
+      "state": "ready-for-teacher-review"
+    },
+    {
+      "code": "S015",
+      "activity": "ca-S015",
+      "state": "awaiting-audio",
+      "script": "content/una-restauradora-ens-explica-el-seu-ofici.js"
+    },
+    {
+      "code": "S023",
+      "activity": "ca-S023",
+      "state": "awaiting-audio",
+      "script": "content/reobren-el-mercat.js"
+    }
+  ]
+}

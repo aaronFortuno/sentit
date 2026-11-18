@@ -10,6 +10,8 @@ El projecte es manté a la sèrie **0.1.x** mentre es revisen les primeres activ
 
 «El senyal de la ràdio» és una activitat de nivell accessible per a 5è de primària, amb Leda per a la Laia i Puck per a en Biel. El fragment dura aproximadament 1 minut i 17 segons; amb la presentació, 1 minut i 22 segons. «Canvi de plans» conserva l’àudio i l’enllaç del pilot.
 
+La primera tanda afegeix **S002 · Preparem una capsa de records** (3r, instruccions accessibles, 50 segons i 6 preguntes) i **S008 · La foto que faltava** (4t, narració accessible, 1 minut i 25 segons i 6 preguntes). Totes dues tenen àudio, il·lustració, fitxa i solucionari. S015 de 5è i S023 de 6è tenen els guions, preguntes, respostes, pistes i imatges preparats; queden fora del catàleg fins a acabar els àudios, aturats pel límit de quota de Gemini. [Guions i registre de la primera tanda](docs/primera-tanda.md).
+
 - Catàleg amb targetes, cerca per títol o codi i filtres combinables de curs, dificultat, durada, tipus i idioma del text.
 - Ajustos de tipografia, mida, espaiat i interlineat, amb codi d’aula opcional.
 - Controls de línies de resposta i d’amagar preguntes al costat de cada enunciat, quan s’hi passa el ratolí o s’hi accedeix amb el teclat. En pantalla tàctil, el botó de tres punts obre aquests controls. A **Preguntes amagades** es poden recuperar les preguntes excloses.
@@ -38,7 +40,7 @@ La [revisió del prototip S001](content/el-senyal-de-la-radio-revisio.md) recull
 
 ## Proposta del fons inicial
 
-La [proposta de catàleg](docs/proposta-cataleg.md) planteja 24 activitats de 3r a 6è, amb sis tipologies i un repartiment equilibrat de dificultats. Inclou temes, durades objectiu, focus de comprensió i una primera tanda de guions per revisar. Les activitats proposades encara no s’incorporen al catàleg d’escolta ni comporten peticions de síntesi.
+La [proposta de catàleg](docs/proposta-cataleg.md) planteja 24 activitats de 3r a 6è, amb sis tipologies i un repartiment equilibrat de dificultats. La primera tanda de quatre prototips s’ha autoritzat: S002 i S008 ja es poden escoltar i preparar; S015 i S023 esperen completar la síntesi. La resta continua com a proposta editorial. La [previsió de cost](docs/cost-produccio.md) calcula escenaris de 100, 200 i 300 activitats, amb marge de repetició i tarifes de 2026 i 2027. No s’ha activat facturació.
 
 ## Desenvolupament
 
