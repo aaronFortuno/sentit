@@ -1,5 +1,12 @@
 # Canvis
 
+## 0.1.20 · 18 de novembre de 2026
+
+- Revisió editorial de S001, S002, S008, S015 i S023: demandes més precises, respostes mínimes i alternatives acceptables, sense exigir detalls accessoris.
+- Menys demandes dobles a 3r–4t; exemples i justificacions delimitats a 5è; distinció entre informació confirmada, preferències i rectificacions a 6è.
+- Pistes actualitzades per correspondre als criteris de resposta i fulls de revisió sincronitzats. Es conserven els guions parlats, els àudios existents i els identificadors.
+- Documentació del curs, la dificultat i els criteris per a les 38 preguntes. El ritme del relat S008 queda assenyalat per validar-lo amb alumnat; els àudios S015 i S023 continuen pendents.
+
 ## 0.1.19 · 18 de novembre de 2026
 
 - Gestió de col·leccions com a Trama: clic llarg o clic dret per afegir una comprensió a una col·lecció, crear-ne una o retirar-la de l’actual. Ordenació arrossegant les mateixes targetes, amb ratolí, pantalla tàctil o Alt + fletxes.

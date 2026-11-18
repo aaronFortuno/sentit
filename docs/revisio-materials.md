@@ -1,5 +1,7 @@
 # Revisió dels quatre prototips
 
+Registre de la revisió inicial 0.1.15. La [revisió editorial 0.1.20](revisio-editorial-prototips.md) inclou també S001 i actualitza els enunciats, els criteris d’acceptació i l’anàlisi de curs i dificultat.
+
 18 de novembre de 2026 · v0.1.15. Revisió editorial i tècnica local. La revisió d’audició del docent i la prova amb alumnat continuen pendents.
 
 ## Adequació de preguntes i solucionaris
