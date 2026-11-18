@@ -1,6 +1,6 @@
 # Primera tanda de prototips
 
-18 de novembre de 2026 · v0.1.14 · Pendent d’audició del docent i prova amb alumnat.
+18 de novembre de 2026 · v0.1.15 · Pendent d’audició del docent i prova amb alumnat.
 
 ## Estat
 
@@ -8,10 +8,10 @@
 | --- | --- | --- | --- | --- | --- | ---: | --- |
 | ca-S002 | 3r | Preparem una capsa de records | Instruccions | Accessible | 0:50 | 6 | Àudio complet, disponible al catàleg |
 | ca-S008 | 4t | La foto que faltava | Narració | Accessible | 1:25 | 6 | Àudio complet, disponible al catàleg |
-| ca-S015 | 5è | Una restauradora ens explica el seu ofici | Entrevista | Intermèdia | Objectiu 2:30–3:00 | 8 | Guió i fitxa preparats; àudio pendent |
-| ca-S023 | 6è | Reobren el mercat: què canvia i què falta decidir? | Notícia | Avançada | Objectiu 3:15–4:00 | 10 | Guió i fitxa preparats; àudio pendent |
+| ca-S015 | 5è | Una restauradora ens explica el seu ofici | Entrevista | Intermèdia | Objectiu 2:30–3:00 | 8 | Fitxa disponible; àudio pendent |
+| ca-S023 | 6è | Reobren el mercat: què canvia i què falta decidir? | Notícia | Avançada | Objectiu 3:15–4:00 | 10 | Fitxa disponible; àudio pendent |
 
-S002 i S008 tenen fitxa, solucionari, transcripció, ressalts opcionals i il·lustració. S015 conserva localment la primera presa de l’entrevista; falten les altres dues i la presentació. S023 encara no s’ha sintetitzat. Els esborranys sense àudio no es mostren al catàleg.
+S002 i S008 tenen fitxa, solucionari, transcripció, ressalts opcionals i il·lustració. S015 conserva localment la primera presa de l’entrevista; falten una presa amb tot el text restant i la presentació. S023 encara no s’ha sintetitzat. S015 i S023 es poden revisar i maquetar al catàleg amb l’estat «Àudio en preparació», sense QR ni reproductor mentre falti el MP3.
 
 La quota de Gemini ha retornat HTTP 429 amb una espera fins aproximadament al **19 de novembre de 2026 a les 09:00 CET**. No s’han programat reintents durant aquesta espera. S’ha acordat continuar de moment amb la quota gratuïta. [Estimació de cost de futurs lots](cost-produccio.md).
 
@@ -36,16 +36,26 @@ Les empremtes SHA-256 i les escenes són al [manifest d’àudio](../assets/audi
 
 ## Represa local
 
-Els materials de producció són a `output/sentit-primera-tanda`, a la carpeta de projectes Escola, fora del repositori. `production.cjs` reutilitza les preses completes amb la mateixa empremta de petició i guarda els errors sense credencials. Comprova `last-api-error.json` abans de fer cap petició: el generador respecta la data `retryNotBefore`.
+El generador publicat és `tools/generate-prototypes.cjs`. Les preses i els registres continuen a `../output/sentit-primera-tanda`, fora del repositori. L’antic `production.cjs` redirigeix al generador nou. No es duplica cap màster complet ni es refan les preses existents.
 
-Des de la carpeta Escola, després de recuperar quota:
+Des de la carpeta del repositori:
 
 ```sh
-node output/sentit-primera-tanda/production.cjs --generate --only=una-restauradora-ens-explica-el-seu-ofici
-node output/sentit-primera-tanda/production.cjs --generate --only=reobren-el-mercat
+node tools/generate-prototypes.cjs --plan
 ```
 
-En completar cada activitat: contrastar l’àudio amb el guió, verificar nivells i durada, incorporar-la a `catalogue.js`, actualitzar el manifest i aquest document, comprovar fitxa, solucionari i sessió, i publicar. No posar en servei cap URL de catàleg amb un MP3 absent. No regenerar S002 o S008 per reprendre les activitats pendents.
+El pla es pot consultar sense xarxa. S002 i S008 necessiten zero peticions. S015 conserva la primera escena i necessita una presa amb tot el text restant més la presentació. S023 necessita una presa pel text complet més la presentació. En total, quatre peticions previstes sense reintents. Per a noves activitats, l’estratègia per defecte és fragment sencer + presentació.
+
+Després de recuperar quota:
+
+```sh
+node tools/generate-prototypes.cjs --generate --only=S015
+node tools/generate-prototypes.cjs --generate --only=S023
+```
+
+La data `retryNotBefore` de `last-api-error.json` impedeix avançar peticions. El generador espaia els intents, conserva el registre i s’atura davant de la quota. No s’ha deixat cap procés de síntesi en espera ni s’ha activat facturació.
+
+En completar cada activitat: contrastar l’àudio amb el guió, verificar nivells i durada, comprovar el manifest i aquest document, revisar fitxa, solucionari i sessió, i publicar. Els accessos d’escolta s’habiliten quan l’activitat té un MP3 acabat. [Revisió editorial i tècnica](revisio-materials.md).
 
 ## Guions, preguntes i respostes de revisió
 
@@ -187,7 +197,7 @@ Presentació: «Comprensió oral. Una restauradora ens explica el seu ofici.»
 
 **1. Què fa la Nora abans de tocar una obra? Escriu dues accions.**
 
-Resposta orientativa: L’observa, mira com està feta i els problemes que té, fa fotografies i anota la informació. S’accepten dues d’aquestes accions.
+Resposta orientativa: Dues accions diferents entre observar com està feta i els problemes que té, fer fotografies i anotar la informació. No cal copiar les paraules exactes del guió.
 
 Pistes: «El primer és observar-la. Miro com està feta i quins problemes té. També faig fotografies i ho anoto tot.»
 

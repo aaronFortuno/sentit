@@ -1,5 +1,14 @@
 # Canvis
 
+## 0.1.15 · 18 de novembre de 2026
+
+- Generador publicat amb una petició per al fragment complet i una per a la presentació. Conserva els màsters i les preses anteriors; agrupa el que falta de l’entrevista en una sola presa.
+- Pla de peticions consultable sense xarxa, límit de ritme, registre local i aturada respectant la quota de Gemini.
+- S015 i S023 accessibles per revisar i maquetar, amb l’estat d’àudio pendent i durades previstes. No mostren accessos d’escolta ni QR fins que tinguin MP3.
+- Cerca per codi amb idioma, filtres de durada coherents amb els materials en preparació i comprovació de filtres combinats.
+- Paginació que evita una última pàgina amb una sola pregunta completa, mantenint l’espai de resposta.
+- Revisió editorial de preguntes, respostes i pistes, documentada amb les comprovacions locals.
+
 ## 0.1.14 · 18 de novembre de 2026
 
 - Dos prototips complets: S002 de 3r (instruccions) i S008 de 4t (narració).

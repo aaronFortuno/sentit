@@ -4,6 +4,7 @@ export const restauradora = {
   summary: 'Una entrevista de ficció sobre com observar, documentar i conservar una obra.',
   grade: '5', level: 'middle', genre: 'interview', seconds: 0,
   status: 'awaiting-audio',
+  durationEstimate: { min: 150, max: 180 },
   audio: null,
   image: { src: './assets/images/una-restauradora-ens-explica-el-seu-ofici.webp', alt: 'Un jove entrevista una restauradora al seu taller.', width: 1536, height: 1024 },
   introduction: 'Comprensió oral. Una restauradora ens explica el seu ofici.',
@@ -21,7 +22,7 @@ export const restauradora = {
     { id: 'tancament', speaker: 'Nora', text: 'Exacte. Cal donar a cada cas el temps que necessita. La pressa pot portar a prendre decisions sense prou informació. Per això, quan explico el meu ofici, dic que treballo amb les mans, però també amb els ulls, amb preguntes i amb molta paciència.' },
   ],
   questions: [
-    { id: 'primer', prompt: 'Què fa la Nora abans de tocar una obra? Escriu dues accions.', answer: 'L’observa, mira com està feta i els problemes que té, fa fotografies i anota la informació. S’accepten dues d’aquestes accions.', lines: 2, evidence: [{ part: 'observar', quote: 'El primer és observar-la. Miro com està feta i quins problemes té. També faig fotografies i ho anoto tot.' }] },
+    { id: 'primer', prompt: 'Què fa la Nora abans de tocar una obra? Escriu dues accions.', answer: 'Dues accions diferents entre observar com està feta i els problemes que té, fer fotografies i anotar la informació. No cal copiar les paraules exactes del guió.', lines: 2, evidence: [{ part: 'observar', quote: 'El primer és observar-la. Miro com està feta i quins problemes té. També faig fotografies i ho anoto tot.' }] },
     { id: 'idea', prompt: 'Quina idea equivocada sobre restaurar tenia l’entrevistador?', answer: 'Que calia repintar les parts que havien perdut el color i fer que l’obra semblés acabada de fer.', lines: 2, evidence: [{ part: 'repintar', quote: 'repintes les parts que han perdut el color? Suposo que l’objectiu és que torni a semblar acabada de fer.' }] },
     { id: 'inventar', prompt: 'Per què la Nora no s’inventa el dibuix que falta en aquesta pintura?', answer: 'Perquè no saben amb seguretat què hi havia. Inventar-lo afegiria informació sense proves i podria esborrar o alterar la història de l’obra.', lines: 3, evidence: [{ part: 'conservar', quote: 'no sabem amb seguretat què hi havia dibuixat. Si m’ho inventés perquè quedés bonic, estaria afegint una informació que no tenim.' }] },
     { id: 'neteja', prompt: 'Per què no es pot netejar qualsevol obra com es neteja una taula?', answer: 'Perquè les obres tenen materials diferents i una neteja inadequada les pot fer malbé. Cal estudiar els materials i fer proves controlades.', lines: 3, evidence: [{ part: 'proves', quote: 'Cada obra està feta amb materials diferents i una neteja inadequada la pot fer malbé. Primer cal estudiar els materials i fer proves molt controlades.' }] },

@@ -4,6 +4,7 @@ export const mercat = {
   summary: 'Notícia de ficció per distingir dades confirmades, opinions i decisions pendents.',
   grade: '6', level: 'advanced', genre: 'news', seconds: 0,
   status: 'awaiting-audio',
+  durationEstimate: { min: 195, max: 240 },
   audio: null,
   image: { src: './assets/images/reobren-el-mercat.webp', alt: 'Una periodista informa davant d’un mercat de barri.', width: 1536, height: 1024 },
   introduction: 'Comprensió oral. Reobren el mercat: què canvia i què falta decidir. Notícia de ficció.',

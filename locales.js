@@ -30,6 +30,8 @@ export const strings = {
     preview: 'Previsualització', document: 'Document per imprimir', worksheet: 'Fitxa', answers: 'Solucionari',
     chooseActivity: 'Tria una activitat per veure la fitxa.', activity: 'Activitat', audio: 'Àudio', openPlayer: 'Obre la vista d’escolta',
     audioAndPrint: 'Àudio i impressió', audioPreview: 'Escolta el fragment',
+    audioPending: 'Àudio en preparació', audioPendingHint: 'L’àudio encara s’està preparant. Ja pots revisar i maquetar la fitxa i el solucionari.',
+    durationPending: 'Durada pendent', estimatedDuration: (min, max) => `Prevista: ${min}–${max}`,
     guidedMode: 'Sessió pautada', readingTime: 'Lectura prèvia (s)', listens: 'Escoltes', intervalTime: 'Pausa (s)',
     preparePrompt: 'Locució inicial', repeatPrompt: 'Locució entre escoltes',
     paperPrompts: (prepare, repeat) => {
@@ -52,6 +54,7 @@ export const strings = {
     releaseImages: 'Adreces d’edició amb idioma i codi d’activitat. Il·lustracions de context opcionals als fulls, amb mida i posició ajustables i desades a cada fitxa i col·lecció.',
     releaseImageFlow: 'Imatge de 80 mm per defecte, alineada amb el títol. El text envolta la il·lustració i recupera tota l’amplada quan s’acaba. Proposta inicial de 24 comprensions de 3r a 6è.',
     releaseFirstBatch: 'Primers prototips de 3r i 4t: instruccions i narració, amb àudios, il·lustracions, preguntes i solucionaris. Guions i materials preparats per a l’entrevista de 5è i la notícia de 6è, pendents d’acabar els àudios.',
+    releaseReview: 'Fitxes de 5è i 6è disponibles per revisar mentre es preparen els àudios. Cerca i filtres revisats, millor repartiment de preguntes i generació amb menys peticions, conservant les preses fetes.',
     catalogueProposal: 'Consulta la proposta de catàleg',
     releaseUpdate: 'Vista d’escolta simplificada i selector amb icona de traducció.',
     releaseWorksheet: 'Maquetador A4 amb codi d’aula i QR d’escolta. «El senyal de la ràdio» estrena les activitats amb solucionari i transcripció.',
@@ -121,6 +124,8 @@ export const strings = {
     preview: 'Vista previa', document: 'Documento para imprimir', worksheet: 'Ficha', answers: 'Soluciones',
     chooseActivity: 'Elige una actividad para ver la ficha.', activity: 'Actividad', audio: 'Audio', openPlayer: 'Abrir la vista de escucha',
     audioAndPrint: 'Audio e impresión', audioPreview: 'Escuchar el fragmento',
+    audioPending: 'Audio en preparación', audioPendingHint: 'El audio todavía se está preparando. Ya puedes revisar y maquetar la ficha y las soluciones.',
+    durationPending: 'Duración pendiente', estimatedDuration: (min, max) => `Prevista: ${min}–${max}`,
     guidedMode: 'Sesión pautada', readingTime: 'Lectura previa (s)', listens: 'Escuchas', intervalTime: 'Pausa (s)',
     preparePrompt: 'Locución inicial', repeatPrompt: 'Locución entre escuchas',
     paperPrompts: (prepare, repeat) => {
@@ -143,6 +148,7 @@ export const strings = {
     releaseImages: 'Direcciones de edición con idioma y código de actividad. Ilustraciones de contexto opcionales en las fichas, con tamaño y posición ajustables y guardados en cada ficha y colección.',
     releaseImageFlow: 'Imagen de 80 mm por defecto, alineada con el título. El texto rodea la ilustración y recupera toda la anchura cuando termina. Propuesta inicial de 24 comprensiones de 3.º a 6.º.',
     releaseFirstBatch: 'Primeros prototipos de 3.º y 4.º: instrucciones y narración, con audios, ilustraciones, preguntas y soluciones. Guiones y materiales preparados para la entrevista de 5.º y la noticia de 6.º, pendientes de acabar los audios.',
+    releaseReview: 'Fichas de 5.º y 6.º disponibles para revisar mientras se preparan los audios. Búsqueda y filtros revisados, mejor distribución de preguntas y generación con menos peticiones, conservando las tomas realizadas.',
     catalogueProposal: 'Consultar la propuesta de catálogo',
     releaseUpdate: 'Vista de escucha simplificada y selector con icono de traducción.',
     releaseWorksheet: 'Maquetador A4 con código de aula y QR de escucha. «El senyal de la ràdio» inaugura las actividades con soluciones y transcripción.',

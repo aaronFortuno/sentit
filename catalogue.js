@@ -1,11 +1,15 @@
 import { radio } from './content/el-senyal-de-la-radio.js';
 import { capsa } from './content/preparem-una-capsa-de-records.js';
 import { foto } from './content/la-foto-que-faltava.js';
+import { restauradora } from './content/una-restauradora-ens-explica-el-seu-ofici.js';
+import { mercat } from './content/reobren-el-mercat.js';
 
 export const activities = [
   radio,
   capsa,
   foto,
+  restauradora,
+  mercat,
   {
     id: 'mostra',
     code: 'MOSTRA',

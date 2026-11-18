@@ -10,7 +10,7 @@ El projecte es manté a la sèrie **0.1.x** mentre es revisen les primeres activ
 
 «El senyal de la ràdio» és una activitat de nivell accessible per a 5è de primària, amb Leda per a la Laia i Puck per a en Biel. El fragment dura aproximadament 1 minut i 17 segons; amb la presentació, 1 minut i 22 segons. «Canvi de plans» conserva l’àudio i l’enllaç del pilot.
 
-La primera tanda afegeix **S002 · Preparem una capsa de records** (3r, instruccions accessibles, 50 segons i 6 preguntes) i **S008 · La foto que faltava** (4t, narració accessible, 1 minut i 25 segons i 6 preguntes). Totes dues tenen àudio, il·lustració, fitxa i solucionari. S015 de 5è i S023 de 6è tenen els guions, preguntes, respostes, pistes i imatges preparats; queden fora del catàleg fins a acabar els àudios, aturats pel límit de quota de Gemini. [Guions i registre de la primera tanda](docs/primera-tanda.md).
+La primera tanda afegeix **S002 · Preparem una capsa de records** (3r, instruccions accessibles, 50 segons i 6 preguntes) i **S008 · La foto que faltava** (4t, narració accessible, 1 minut i 25 segons i 6 preguntes). Totes dues tenen àudio, il·lustració, fitxa i solucionari. S015 de 5è i S023 de 6è tenen els guions, preguntes, respostes, pistes i imatges preparats; es poden revisar i maquetar al catàleg amb la marca «Àudio en preparació», sense reproductor ni QR fins a acabar els MP3. [Guions i registre de la primera tanda](docs/primera-tanda.md).
 
 - Catàleg amb targetes, cerca per títol o codi i filtres combinables de curs, dificultat, durada, tipus i idioma del text.
 - Ajustos de tipografia, mida, espaiat i interlineat, amb codi d’aula opcional.
@@ -40,7 +40,7 @@ La [revisió del prototip S001](content/el-senyal-de-la-radio-revisio.md) recull
 
 ## Proposta del fons inicial
 
-La [proposta de catàleg](docs/proposta-cataleg.md) planteja 24 activitats de 3r a 6è, amb sis tipologies i un repartiment equilibrat de dificultats. La primera tanda de quatre prototips s’ha autoritzat: S002 i S008 ja es poden escoltar i preparar; S015 i S023 esperen completar la síntesi. La resta continua com a proposta editorial. La [previsió de cost](docs/cost-produccio.md) calcula escenaris de 100, 200 i 300 activitats, amb marge de repetició i tarifes de 2026 i 2027. No s’ha activat facturació.
+La [proposta de catàleg](docs/proposta-cataleg.md) planteja 24 activitats de 3r a 6è, amb sis tipologies i un repartiment equilibrat de dificultats. La primera tanda de quatre prototips s’ha autoritzat: S002 i S008 ja es poden escoltar i preparar; S015 i S023 tenen les fitxes accessibles i esperen completar la síntesi. La resta continua com a proposta editorial. La [previsió de cost](docs/cost-produccio.md) calcula escenaris de 100, 200 i 300 activitats, amb marge de repetició i tarifes de 2026 i 2027. No s’ha activat facturació.
 
 ## Desenvolupament
 
@@ -52,6 +52,8 @@ node tools/serve.cjs
 
 La comprovació del model de col·leccions s’executa amb `node tools/check-collections.mjs`: cobreix les còpies independents, l’ordre, la recuperació de maquetacions i els errors d’emmagatzematge.
 
+`node tools/check-catalogue.mjs` comprova els identificadors, els fitxers, les preguntes i els límits dels filtres de durada. `node tools/check-audio-plan.cjs` comprova el pla de dues peticions, la recuperació de preses i les aturades de quota, sense xarxa.
+
 `node tools/check-evidence.mjs` comprova que totes les pistes declarades existeixin a la transcripció i valida la conservació del text, la numeració de les preguntes visibles, els solapaments i els talls entre pàgines.
 
 Obre `http://127.0.0.1:4231/`. Per provar l’àudio en local, prem **Obre la vista d’escolta**. El QR imprès i **Copia l’enllaç** fan servir l’adreça pública. L’enllaç d’escolta inclou l’idioma i el codi, com a `?escolta=ca-S001`. Cada parell d’idioma i codi identifica una única activitat.
@@ -62,7 +64,7 @@ Un quart valor opcional dins de `p` desa les locucions activades. `0` les desact
 
 Les fitxes viuen a `catalogue.js`. Cada activitat declara l’identificador, el codi, l’idioma, el curs, la dificultat, la durada en segons, el tipus, el fitxer d’àudio i les preguntes. Cada pregunta té un identificador estable, un enunciat, una resposta orientativa i un nombre inicial de línies.
 
-`catalog.js` gestiona els filtres, la cerca i les col·leccions. Mostra les targetes en blocs de 12 per evitar crear tot el catàleg al DOM. Els idiomes disponibles es deriven de les dades; cada activitat necessita un `id` únic al catàleg complet i un parell `language`/`code` inequívoc. La durada filtrada correspon al fragment escoltat, sense la locució inicial. `collections.js` desa els identificadors i les còpies de maquetació; `worksheet.js` i `worksheet.css` generen el full. L’adreça docent `#lectura=ca-S001` obre l’editor i distingeix l’idioma; `col` identifica una col·lecció d’aquest navegador. L’`id` intern continua identificant els ajustos i les col·leccions. Els enllaços i QR d’escolta fan servir el mateix parell d’idioma i codi a `escolta`, i `p` per als temps de la sessió.
+`catalog.js` gestiona els filtres, la cerca i les col·leccions. Mostra les targetes en blocs de 12 per evitar crear tot el catàleg al DOM. Els idiomes disponibles es deriven de les dades; cada activitat necessita un `id` únic al catàleg complet i un parell `language`/`code` inequívoc. La durada filtrada correspon al fragment escoltat, sense la locució inicial. Els materials en preparació declaren `durationEstimate: { min, max }`: s’hi mostra un interval previst i només entren en els filtres de durada compatibles amb aquest interval. En disposar d’àudio, preval sempre la durada real. `collections.js` desa els identificadors i les còpies de maquetació; `worksheet.js` i `worksheet.css` generen el full. L’adreça docent `#lectura=ca-S001` obre l’editor i distingeix l’idioma; `col` identifica una col·lecció d’aquest navegador. L’`id` intern continua identificant els ajustos i les col·leccions. Els enllaços i QR d’escolta fan servir el mateix parell d’idioma i codi a `escolta`, i `p` per als temps de la sessió.
 
 La il·lustració és opcional a les dades: `image` conté `src`, `alt`, `width` i `height` en píxels. Les dimensions permeten reservar l’espai abans que es descarregui el fitxer i mantenen la paginació estable. Els ajustos locals són `showImage`, `imageWidth` en mil·límetres i `imagePosition`. [Fitxers i prompts de les il·lustracions](assets/images/README.md).
 
@@ -75,5 +77,29 @@ Per vincular una resposta amb la transcripció, dona un `id` estable al bloc i d
 Per habilitar la sessió pautada d’una fitxa, `fragment.start` indica en segons on comença el fragment dins de l’MP3 i `fragment.seconds` n’indica la durada arrodonida per al resum de paper. Afegeix a `session.js` les locucions reutilitzables de cada idioma.
 
 Els enregistraments es generen i es mesclen fora del web. El repositori públic conté el fitxer acabat i els seus crèdits. La producció pot reutilitzar la configuració amb Gemini i FFmpeg provada al pilot.
+
+## Generació i represa dels àudios
+
+El generador és a `tools/generate-prototypes.cjs`. Sense `--generate`, només mostra el pla i no accedeix a la xarxa ni a les credencials:
+
+```sh
+node tools/generate-prototypes.cjs --plan
+node tools/check-audio-plan.cjs
+```
+
+Una activitat nova fa una petició pel fragment complet, amb tots els paràgrafs i torns de veu, i una per la presentació. Les preses antigues no s’eliminen: els màsters complets es conserven i una activitat parcial reutilitza el prefix disponible i agrupa la resta en una sola petició. Per a S015 i S023 queden quatre peticions previstes en total, si no calen reintents.
+
+Després del restabliment de quota, amb Gemini configurat i FFmpeg disponible:
+
+```sh
+node tools/generate-prototypes.cjs --generate --only=S015
+node tools/generate-prototypes.cjs --generate --only=S023
+```
+
+Els WAV, registres i màsters de treball es conserven a `../output/sentit-primera-tanda`, fora del repositori. El generador admet `GEMINI_API_KEY` a l’entorn o el fitxer privat de treball `../.private/comprensio-oral/gemini.env`; aquestes dades no s’envien al web. `FFMPEG_PATH` permet indicar el binari si no és al PATH ni a la instal·lació local coneguda. Cal Node amb `fetch` i `parseEnv`.
+
+`--generate` respecta l’aturada de quota abans de fer cap petició, deixa almenys 22 segons entre inicis i impedeix dues execucions simultànies amb un lock. Guarda un registre de cada intent. Un error 5xx admet un únic reintent; els errors de connexió, autenticació i quota aturen l’execució. El lock no es retira automàticament si queda orfe: cal comprovar-ne el procés abans de reprendre. No s’ha activat facturació.
+
+El guió ha de coincidir amb les empremtes de les preses reutilitzades. En acabar, s’actualitzen la durada, l’offset de presentació, l’estat i el manifest d’àudio; encara cal revisar el màster i els fulls abans de publicar. La [revisió dels quatre materials](docs/revisio-materials.md) documenta les comprovacions editorials, de filtres i de maquetació.
 
 Consulta els [crèdits](CREDITS.md) i la [llicència del codi](LICENSE).

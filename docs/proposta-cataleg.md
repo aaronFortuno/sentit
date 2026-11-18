@@ -101,7 +101,7 @@ S’ha aprovat desenvolupar **quatre prototips complets** que complementin S001:
 3. **S015 · Una restauradora ens explica el seu ofici**: 5è, entrevista intermèdia; introdueix una conversa més llarga i un registre diferent.
 4. **S023 · Reobren el mercat**: 6è, notícia avançada; prova una durada de més de tres minuts i la distinció entre fets i opinions.
 
-S002 i S008 ja tenen àudio complet, il·lustració, preguntes i solucionari, i apareixen al catàleg. S015 té una primera presa generada i S023 encara no s’ha sintetitzat; totes dues conserven el guió i els materials preparats. La quota de Gemini ha aturat la producció i s’ha acordat esperar que es restableixi. [Estat, guions i dades de revisió](primera-tanda.md). Les activitats sense àudio acabat no es mostren al catàleg públic. La resta del fons es produirà després de revisar aquests prototips.
+S002 i S008 ja tenen àudio complet, il·lustració, preguntes i solucionari, i apareixen al catàleg. S015 té una primera presa generada i S023 encara no s’ha sintetitzat; totes dues conserven el guió i els materials preparats. La quota de Gemini ha aturat la producció i s’ha acordat esperar que es restableixi. [Estat, guions i dades de revisió](primera-tanda.md). Les fitxes sense àudio acabat es poden revisar al catàleg amb l’estat «Àudio en preparació», sense accessos de reproducció ni QR fins que el MP3 estigui disponible. La resta del fons es produirà després de revisar aquests prototips.
 
 ## Ampliacions previstes
 
