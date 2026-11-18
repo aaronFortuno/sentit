@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.11 · 18 de novembre de 2026
+
+- Nou enregistrament complet d’«El senyal de la ràdio» amb Leda per a la Laia i Puck per a en Biel. Manté el guió, els senyals, les pauses i la sintonia del prototip.
+- Fragment d’1 min 17 s i àudio amb presentació d’1 min 22 s. El catàleg i el resum imprès incorporen la nova durada.
+- Fitxer d’àudio amb nom de versió propi perquè el navegador carregui la nova mescla. El codi S001 i els enllaços i QR existents obren l’actualització.
+
 ## 0.1.10 · 18 de novembre de 2026
 
 - Solucionari amb enunciats en negreta i respostes orientatives en un requadre diferenciat. La transcripció fa servir una lletra menor i un interlineat més compacte.

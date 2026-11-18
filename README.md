@@ -8,7 +8,7 @@ El projecte es manté a la sèrie **0.1.x** mentre es revisen les primeres activ
 
 ## Prepara una fitxa
 
-«El senyal de la ràdio» és una activitat de nivell accessible per a 5è de primària. «Canvi de plans» conserva l’àudio i l’enllaç del pilot.
+«El senyal de la ràdio» és una activitat de nivell accessible per a 5è de primària, amb Leda per a la Laia i Puck per a en Biel. El fragment dura aproximadament 1 minut i 17 segons; amb la presentació, 1 minut i 22 segons. «Canvi de plans» conserva l’àudio i l’enllaç del pilot.
 
 - Catàleg amb targetes, cerca per títol o codi i filtres combinables de curs, dificultat, durada, tipus i idioma del text.
 - Ajustos de tipografia, mida, espaiat i interlineat, amb codi d’aula opcional.
@@ -31,7 +31,9 @@ Cada comprensió conserva dins de cada col·lecció el format, el codi d’aula,
 
 Les col·leccions es desen automàticament en el navegador i es recuperen en tornar al web. El format es guarda amb la pertinença i l’ordre en una única escriptura a `sentit.collections.v1`. No hi ha compte ni sincronització entre dispositius. Si el navegador no permet desar-hi dades, es mostra un avís.
 
-La [prova de veus d’«El senyal de la ràdio»](proves/veus-s001.html) permet comparar les dues primeres intervencions amb Aoede–Charon i Leda–Puck. Aquests timbres sonen juvenils, especialment Puck, i cal ajustar-hi l’edat i el context dels personatges dels guions futurs.
+La [prova de veus d’«El senyal de la ràdio»](proves/veus-s001.html) permet comparar les dues primeres intervencions amb Aoede–Charon i Leda–Puck. La comprensió completa fa servir les veus juvenils. Cal ajustar-hi l’edat i el context dels personatges dels guions futurs.
+
+La [revisió del prototip S001](content/el-senyal-de-la-radio-revisio.md) recull la durada, els nivells de so, l’ordre dels senyals i la correspondència de cada pregunta amb el que s’escolta. La prova d’audició del docent i la prova amb alumnat completaran la validació.
 
 ## Desenvolupament
 
