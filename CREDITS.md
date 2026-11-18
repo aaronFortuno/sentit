@@ -35,6 +35,8 @@ Les sis il·lustracions de context s’han generat per a Sentit amb l’eina int
 
 El repartiment recurrent té vuit [fitxes de personatge](assets/characters/README.md), generades amb l’eina integrada a partir de les referències del projecte. Les escenes revisades utilitzen aquests models per preservar identitats. Els PNG originals, les previsualitzacions WebP i els prompts es conserven al repositori. [Galeria i perfils](https://sentit.ortogra.fi/personatges.html) · [Criteris de continuïtat i veus](docs/personatges.md).
 
+Els vuit retrats de presentació parteixen dels mateixos models i s’han generat amb l’eina integrada. [Prompts i fitxers](assets/characters/README.md#retrats-de-presentació--0122). Les presentacions de veu encara no s’han sintetitzat.
+
 - Generador de codis QR de Kazuhiko Arase. [Llicència MIT](assets/vendor/qrcode.LICENSE)
 - Icones derivades de Lucide. [Avisos ISC i MIT](assets/vendor/lucide.LICENSE)
 - Reordenació amb SortableJS 1.15.7, servit localment. [Llicència MIT](assets/vendor/sortable/LICENSE)

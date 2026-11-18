@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="./styles.css">
   <link rel="stylesheet" href="./worksheet.css">
   <link rel="stylesheet" href="./catalog.css">
+  <link rel="stylesheet" href="./characters.css">
   <title>Sentit · Comprensió oral</title>
   <script defer src="./assets/vendor/qrcode.js"></script>
   <script type="module" src="./app.js"></script>
@@ -26,6 +27,7 @@
         <button type="button" id="header-motto" class="header-motto" data-label="mottoAction">Escoltar és seguir el fil.</button>
       </div>
       <div class="top-actions">
+        <button type="button" id="meet-characters" class="header-characters" data-open="characters-dialog" data-label="meetCharacters"><span data-icon="users" aria-hidden="true"></span><span data-t="characters">Personatges</span></button>
         <div class="language-control">
           <button type="button" id="language-button" class="icon-button" aria-haspopup="menu" aria-expanded="false" aria-controls="language-menu" data-label="interfaceLanguage"><span data-icon="languages" aria-hidden="true"></span></button>
           <select id="language" hidden aria-hidden="true" tabindex="-1">
@@ -46,7 +48,7 @@
 
   <main id="catalog-view" class="catalog-view" tabindex="-1" hidden>
     <div class="catalog-heading">
-      <div><h1 data-t="catalogTitle">Comprensions orals</h1><div class="catalog-meta"><p id="catalog-count" class="small" role="status"></p><a href="./personatges.html" data-t="characters">Els personatges</a></div></div>
+      <div><h1 data-t="catalogTitle">Comprensions orals</h1><p id="catalog-count" class="small" role="status"></p></div>
       <label class="catalog-search"><span class="sr-only" data-t="catalogSearch">Cerca per títol o codi</span><input id="search" type="search" data-placeholder="catalogSearch" placeholder="Cerca per títol o codi" autocomplete="off"></label>
     </div>
     <div class="catalog-layout">
@@ -59,6 +61,11 @@
           <label><span data-t="level">Dificultat</span><select name="level" id="level"></select></label>
           <label><span data-t="duration">Durada</span><select name="duration" id="duration"></select></label>
           <label><span data-t="genre">Tipus</span><select name="genre" id="genre"></select></label>
+          <details id="character-filter" class="character-filter"><summary><span data-t="characters">Personatges</span><span id="character-filter-summary"></span></summary>
+            <div id="character-filter-options" class="character-filter-options" role="group" data-label="characters" aria-label="Personatges"></div>
+            <div id="character-filter-mode" class="character-filter-mode" hidden><label><span data-t="characterMatch">Han d’aparèixer</span><select id="character-match" name="character-match"><option value="any" data-t="characterMatchAny">Qualsevol dels triats</option><option value="all" data-t="characterMatchAll">Tots junts</option></select></label></div>
+            <button type="button" id="character-filter-clear" class="subtle" data-t="clearCharacters" hidden>Neteja els personatges</button>
+          </details>
           <button type="reset" class="subtle reset" data-t="reset">Neteja els filtres</button>
         </form>
       </details>
@@ -223,12 +230,15 @@
       <a class="parent-brand" href="https://ortogra.fi/"><span data-t="parent">Un projecte d’</span><img src="./assets/ortografi.svg" width="83" height="20" alt="ortogra.fi"></a>
       <nav aria-label="Projecte" data-label="project">
         <a href="./LICENSE" data-t="license">Llicència</a>
-        <button type="button" data-open="changes" data-label="changes">v0.1.21</button>
+        <button type="button" data-open="changes" data-label="changes">v0.1.22</button>
         <button type="button" data-open="v4v">V4V</button>
       </nav>
     </div>
   </footer>
 
+  <dialog id="characters-dialog" class="character-dialog" aria-labelledby="characters-title">
+    <div class="dialog-content"><div class="dialog-head"><h2 id="characters-title" data-t="meetCharacters">Coneix els personatges</h2><form method="dialog"><button type="submit" class="icon-button" data-label="close"><span data-icon="close" aria-hidden="true"></span></button></form></div><div id="dialog-character-explorer" class="character-explorer"></div></div>
+  </dialog>
   <dialog id="collection-dialog" aria-labelledby="collection-title">
     <div class="dialog-content">
       <div class="dialog-head"><h2 id="collection-title" data-t="saveCollection">Desa una col·lecció</h2><form method="dialog"><button type="submit" class="icon-button" data-label="close"><span data-icon="close" aria-hidden="true"></span></button></form></div>
@@ -261,6 +271,8 @@
       <div class="dialog-head"><h2 id="changes-title" data-t="changes">Canvis</h2>
         <form method="dialog"><button class="icon-button" type="submit" data-label="close"><span data-icon="close" aria-hidden="true"></span></button></form>
       </div>
+      <h3>0.1.22 <time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></h3>
+      <p data-t="releaseCharacterExplorer">Coneix els personatges des del header: retrats, presentacions i accés a les seves comprensions. Nou filtre per un o més personatges, amb coincidència de qualsevol o de tots junts. Presentacions amb veu preparades per afegir-hi els àudios.</p>
       <h3>0.1.21 <time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></h3>
       <p data-t="releaseCharacters">Vuit personatges recurrents amb fitxes gràfiques, personalitat, interessos i veus de referència. Noves il·lustracions amb identitats diferenciades i episodis independents. Les noves veus es marquen com a propostes pendents d’audició.</p>
       <a href="./personatges.html" data-t="characters">Els personatges</a>

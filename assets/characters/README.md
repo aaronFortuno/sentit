@@ -14,3 +14,11 @@ Les fitxes inclouen quatre vistes de cos i tres estudis de cara. Laia i Biel par
 - [Ferran · Algenib, proposta](ferran-model-sheet-v1.png)
 
 [Prompts exactes](prompts-v1.json) · [Perfils i criteris de continuïtat](../../docs/personatges.md) · [Galeria](https://sentit.ortogra.fi/personatges.html).
+
+## Retrats de presentació · 0.1.22
+
+Vuit retrats individuals, quadrats de 1254 × 1254 píxels, generats amb l’eina integrada a partir del model sheet corresponent. Postura distesa i mirada a l’espectador, sense text ni dades de les activitats. Convertits amb FFmpeg a WebP, qualitat 88, sense canviar-ne la mida ni la composició. El quadre i la pàgina pública utilitzen aquests retrats; els models anteriors es conserven per a la producció.
+
+Fitxers: `laia-portrait-v1.webp`, `biel-portrait-v1.webp`, `aina-portrait-v1.webp`, `mireia-portrait-v1.webp`, `nora-portrait-v1.webp`, `mar-portrait-v1.webp`, `pau-portrait-v1.webp` i `ferran-portrait-v1.webp`.
+
+[Prompts exactes dels retrats](portraits-v1.prompts.json). No s’ha fet cap petició de síntesi de veu.

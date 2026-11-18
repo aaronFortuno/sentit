@@ -1,7 +1,8 @@
 import { collectionsKey, listCollections, saveCollectionEntries, renameCollection, removeCollection, moveCollectionReading, removeCollectionReading } from './collections.js';
 import { durationText, durationTier, matchesDuration } from './activity-meta.js';
-import { animateRefresh, closeDialog, openDialog, setDisclosure } from './motion.js';
+import { animateRefresh, closeDialog, openDialog, setDetailsOpen, setDisclosure } from './motion.js';
 import { mountCatalogGestures } from './catalog-gestures.js';
+import { characters, matchesCharacters } from './content/characters.js';
 
 const normalise = value => value.toLocaleLowerCase().normalize('NFD').replace(/\p{M}/gu, '');
 const activeKey = 'sentit.collection.active.v1';
@@ -11,8 +12,12 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
   const index = new Map(activities.map(entry => [entry.id, entry]));
   const searchIndex = new Map(activities.map(entry => [entry.id, normalise(`${entry.language}-${entry.code} ${entry.title} ${entry.summary ?? ''}`)]));
   const fields = ['grade', 'level', 'duration', 'genre'];
+  const initialFilters = new URLSearchParams(location.search);
+  const selectedCharacters = new Set(initialFilters.getAll('personatge').filter(id => characters.some(character => character.id === id)));
+  byId('character-match').value = initialFilters.get('coincidencia') === 'tots' ? 'all' : 'any';
   let collectionId = '';
   try { collectionId = localStorage.getItem(activeKey) ?? ''; } catch { /* Start with the full catalogue. */ }
+  if (selectedCharacters.size) collectionId = '';
   let selecting = false;
   let selectedIds = new Set();
   let selectionSource = '';
@@ -56,7 +61,9 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
     selecting = false;
     selectedIds.clear();
     addingTo = '';
+    selectedCharacters.clear();
     for (const select of byId('filters').querySelectorAll('select')) select.value = '';
+    byId('character-match').value = 'any';
     byId('search').value = '';
     setDisclosure(byId('collection-rename'), false);
     byId('collection-rename-toggle').setAttribute('aria-expanded', 'false');
@@ -78,6 +85,26 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
     const saved = select.value;
     select.replaceChildren(new Option(t('all'), ''), ...[...new Set(activities.map(entry => entry.language))].map(code => new Option(languageName(code), code)));
     select.value = saved;
+    renderCharacterFilter();
+  }
+
+  function renderCharacterFilter() {
+    const choices = byId('character-filter-options');
+    choices.replaceChildren(...characters.map(character => {
+      const button = element('button', character.name, 'character-filter-chip'); button.type = 'button';
+      button.dataset.filterCharacter = character.id;
+      button.setAttribute('aria-pressed', String(selectedCharacters.has(character.id)));
+      return button;
+    }));
+    byId('character-filter-summary').textContent = selectedCharacters.size ? t('selectedCharacterCount')(selectedCharacters.size) : t('all');
+    byId('character-filter-clear').hidden = selectedCharacters.size === 0;
+    setDisclosure(byId('character-filter-mode'), selectedCharacters.size > 1);
+    const url = new URL(location.href);
+    url.searchParams.delete('personatge');
+    url.searchParams.delete('coincidencia');
+    for (const id of selectedCharacters) url.searchParams.append('personatge', id);
+    if (selectedCharacters.size > 1 && byId('character-match').value === 'all') url.searchParams.set('coincidencia', 'tots');
+    if (url.href !== location.href) history.replaceState(null, '', url);
   }
 
   function renderSelection() {
@@ -182,10 +209,12 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
     matches = sourceEntries().filter(entry => {
       return fields.every(field => field === 'duration' ? matchesDuration(entry, values[field]) : !values[field] || values[field] === entry[field])
         && (!values['content-language'] || entry.language === values['content-language'])
+        && matchesCharacters(entry, selectedCharacters, values['character-match'])
         && terms.every(term => searchIndex.get(entry.id).includes(term));
     });
     const scope = currentCollection();
-    byId('catalog-count').textContent = `${t('catalogCount')(matches.length)}${scope ? ` · ${scope.name}` : ''}`;
+    const names = characters.filter(character => selectedCharacters.has(character.id)).map(character => character.name);
+    byId('catalog-count').textContent = `${t('catalogCount')(matches.length)}${scope ? ` · ${scope.name}` : ''}${names.length ? ' · ' + names.join(', ') : ''}`;
     renderCards();
   }
 
@@ -312,9 +341,21 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
   byId('filters').addEventListener('reset', event => {
     event.preventDefault();
     for (const select of byId('filters').querySelectorAll('select')) select.value = '';
+    selectedCharacters.clear();
+    byId('character-match').value = 'any';
     byId('search').value = '';
     refresh();
   });
+  byId('character-filter-options').addEventListener('click', event => {
+    const button = event.target.closest('[data-filter-character]');
+    if (!button) return;
+    const id = button.dataset.filterCharacter;
+    if (selectedCharacters.has(id)) selectedCharacters.delete(id);
+    else selectedCharacters.add(id);
+    refresh();
+    byId('character-filter-options').querySelector(`[data-filter-character="${id}"]`)?.focus({ preventScroll: true });
+  });
+  byId('character-filter-clear').addEventListener('click', () => { selectedCharacters.clear(); byId('character-match').value = 'any'; refresh(); byId('character-filter').querySelector('summary').focus(); });
   byId('search').addEventListener('input', refresh);
   byId('catalog-more').addEventListener('click', () => { gestures.close(); limit += 12; renderCards(); });
   byId('collection-select').addEventListener('change', event => setCollection(event.target.value));
@@ -365,5 +406,14 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
     }
   });
 
-  return { render, entries: () => matches, collectionId: () => collectionId, setCollection };
+  function showCharacter(id) {
+    if (!characters.some(character => character.id === id)) return;
+    setCollection('');
+    selectedCharacters.add(id);
+    setDetailsOpen(byId('filter-panel'), true);
+    setDetailsOpen(byId('character-filter'), true);
+    refresh();
+  }
+
+  return { render, entries: () => matches, collectionId: () => collectionId, setCollection, showCharacter, hasCharacterFilter: () => selectedCharacters.size > 0 };
 }
