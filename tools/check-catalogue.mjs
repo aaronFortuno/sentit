@@ -1,12 +1,13 @@
 import assert from 'node:assert/strict';
 import { access } from 'node:fs/promises';
-import { activities } from '../catalogue.js';
+import { activities, legacyActivities } from '../catalogue.js';
 import { durationBounds, durationText, matchesDuration } from '../activity-meta.js';
 import { strings } from '../locales.js';
 
 const ids = new Set();
 const codes = new Set();
-for (const entry of activities) {
+assert(!activities.some(entry => entry.sample), 'Technical pilots do not belong to the public catalogue');
+for (const entry of [...activities, ...legacyActivities]) {
   assert(!ids.has(entry.id)); ids.add(entry.id);
   const code = `${entry.language}-${entry.code}`;
   assert(!codes.has(code)); codes.add(code);

@@ -1,5 +1,6 @@
 import { collectionsKey, listCollections, saveCollectionEntries, renameCollection, removeCollection, moveCollectionReading, removeCollectionReading } from './collections.js';
 import { durationText, matchesDuration } from './activity-meta.js';
+import { animateRefresh, closeDialog, openDialog, setDisclosure } from './motion.js';
 
 const normalise = value => value.toLocaleLowerCase().normalize('NFD').replace(/\p{M}/gu, '');
 const activeKey = 'sentit.collection.active.v1';
@@ -74,10 +75,10 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
   }
 
   function renderSelection() {
-    byId('catalog-selection').hidden = !selecting;
     byId('selection-count').textContent = t('selectionCount')(selectedIds.size);
     byId('selection-save').disabled = selectedIds.size === 0;
     byId('collection-save').setAttribute('aria-pressed', String(selecting));
+    setDisclosure(byId('catalog-selection'), selecting);
     for (const input of grid.querySelectorAll('[data-select-activity]')) {
       input.checked = selectedIds.has(input.dataset.selectActivity);
       input.closest('.activity-card').classList.toggle('is-selected', input.checked);
@@ -88,6 +89,16 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
     grid.replaceChildren();
     for (const entry of matches.slice(0, limit)) {
       const card = element(selecting ? 'label' : 'button', undefined, 'activity-card');
+      card.dataset.genre = entry.genre;
+      card.dataset.level = entry.level;
+      if (entry.image?.src) {
+        const art = element('span', undefined, 'activity-card-art');
+        art.setAttribute('aria-hidden', 'true');
+        const illustration = element('img');
+        Object.assign(illustration, { src: entry.image.src, alt: '', loading: 'lazy', decoding: 'async', width: entry.image.width, height: entry.image.height });
+        art.append(illustration);
+        card.append(art);
+      }
       if (selecting) {
         const select = element('input');
         select.type = 'checkbox';
@@ -99,23 +110,41 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
         card.dataset.openActivity = entry.id;
       }
       const code = element('span', `${entry.code} · ${languageName(entry.language)}`, 'activity-card-code');
+      const head = element('div', undefined, 'activity-card-head');
+      const type = element('span', undefined, 'activity-type');
+      const symbol = element('span');
+      icon(symbol, { story: 'book', interview: 'mic', news: 'news', instructions: 'checklist', dialogue: 'messages' }[entry.genre] ?? 'book');
+      type.append(symbol, element('span', t('genres')[entry.genre] ?? entry.genre));
+      head.append(type, code);
       const title = element('h2', entry.title);
       title.lang = entry.language;
-      card.append(code, title);
+      card.append(head, title);
       if (entry.summary) {
         const summary = element('p', entry.summary, 'activity-card-summary');
         summary.lang = entry.language;
         card.append(summary);
       }
-      card.append(element('p', `${t('grades')[entry.grade] ?? entry.grade} · ${t('levels')[entry.level] ?? entry.level}`, 'meta'));
-      if (!entry.audio) card.append(element('span', t('audioPending'), 'activity-card-status'));
-      const time = durationText(entry, t);
-      card.append(element('span', `${t('genres')[entry.genre] ?? entry.genre} · ${time}${entry.sample ? ` · ${t('sample')}` : ''}`, 'activity-card-bottom'));
+      const context = element('div', undefined, 'activity-card-context');
+      context.append(element('span', t('grades')[entry.grade] ?? entry.grade, 'meta'));
+      if (!entry.audio) context.append(element('span', t('audioPending'), 'activity-card-status'));
+      const footer = element('div', undefined, 'activity-card-bottom');
+      const duration = element('span', undefined, 'activity-duration');
+      const clock = element('span'); icon(clock, 'clock');
+      duration.append(clock, element('span', durationText(entry, t)));
+      const level = element('span', undefined, 'activity-difficulty');
+      const dots = element('span', undefined, 'difficulty-dots');
+      dots.setAttribute('aria-hidden', 'true');
+      const filled = { easy: 1, middle: 2, advanced: 3 }[entry.level] ?? 1;
+      for (let i = 0; i < 3; i++) dots.append(element('i', undefined, i < filled ? 'is-filled' : ''));
+      level.append(dots, element('span', t('levels')[entry.level] ?? entry.level));
+      footer.append(duration, level);
+      card.append(context, footer);
       grid.append(card);
     }
     byId('catalog-empty').hidden = matches.length > 0;
     byId('catalog-more').hidden = limit >= matches.length;
     renderSelection();
+    animateRefresh(grid);
   }
 
   function render() {
@@ -168,7 +197,7 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
     byId('collection-name').value = '';
     byId('collection-error').textContent = '';
     updateDestination();
-    dialog.showModal();
+    openDialog(dialog);
     byId(addingTo ? 'collection-submit' : 'collection-name').focus();
   }
 
@@ -225,7 +254,7 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
     libraryId = collectionId;
     byId('collection-library-status').textContent = '';
     renderLibrary();
-    library.showModal();
+    openDialog(library);
     byId('collection-library-title').focus();
   }
 
@@ -273,7 +302,7 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
       const readings = sourceEntries().filter(entry => selectedIds.has(entry.id));
       const layouts = Object.fromEntries(readings.map(entry => [entry.id, snapshot(entry, selectionSource)]));
       const collection = saveCollectionEntries(byId('collection-name').value, readings, layouts, byId('collection-target').value);
-      dialog.close();
+      closeDialog(dialog, () => byId('collection-manage').focus({ preventScroll: true }));
       setCollection(collection.id);
     } catch (error) { byId('collection-error').textContent = errorMessage(error); }
   });
@@ -282,11 +311,11 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
     event.preventDefault();
     commit(() => renameCollection(libraryId, byId('collection-rename-name').value));
   });
-  byId('collection-library-add').addEventListener('click', () => { library.close(); startSelection(libraryId); });
+  byId('collection-library-add').addEventListener('click', () => { closeDialog(library, () => startSelection(libraryId)); });
   byId('collection-library-delete').addEventListener('click', () => {
     const entry = listCollections().find(item => item.id === libraryId);
     if (!entry || !confirm(t('collectionDeleteConfirm')(entry.name))) return;
-    try { removeCollection(libraryId); library.close(); setCollection(''); }
+    try { removeCollection(libraryId); closeDialog(library); setCollection(''); }
     catch (error) { byId('collection-library-status').textContent = errorMessage(error); }
   });
   byId('collection-library-list').addEventListener('click', event => {
@@ -297,7 +326,7 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
     const position = collection?.readingIds.indexOf(id) ?? -1;
     if (position < 0) return;
     const action = button.dataset.action;
-    if (action === 'edit') { library.close(); onOpen(index.get(id), libraryId); }
+    if (action === 'edit') closeDialog(library, () => onOpen(index.get(id), libraryId));
     if (action === 'up' && position > 0) commit(() => moveCollectionReading(libraryId, id, collection.readingIds[position - 1]), id, action);
     if (action === 'down' && position < collection.readingIds.length - 1) commit(() => moveCollectionReading(libraryId, id, collection.readingIds[position + 2]), id, action);
     if (action === 'remove') commit(() => removeCollectionReading(libraryId, id));
@@ -330,7 +359,6 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
     commit(() => moveCollectionReading(libraryId, id, beforeId), id, 'drag');
   });
   list.addEventListener('dragend', clearDrag);
-  for (const panel of [dialog, library]) panel.addEventListener('click', event => { if (event.target === panel) panel.close(); });
   window.addEventListener('storage', event => {
     if (event.key === collectionsKey || event.key === null) {
       render();

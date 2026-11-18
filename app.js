@@ -1,4 +1,4 @@
-import { activities } from './catalogue.js';
+import { activities, legacyActivities } from './catalogue.js';
 import { strings } from './locales.js';
 import { defaultFormat, imageOptions, maxLines, questionFormat, renderWorksheet } from './worksheet.js';
 import { clockTime, decodeSession, defaultSession, encodeSession, guidedPrompts } from './session.js';
@@ -6,6 +6,9 @@ import { initGuidedPlayer } from './guided-player.js';
 import { mountCatalog } from './catalog.js';
 import { listCollections, saveCollectionLayout } from './collections.js';
 import { durationText } from './activity-meta.js';
+import { animateRefresh, mountDetails, mountDialogs, openDialog, scrollToTarget, setDetailsOpen, setDisclosure } from './motion.js';
+import { mountLanguageMenu } from './language-menu.js';
+import { mottos, nextMotto } from './mottos.js';
 
 const byId = id => document.getElementById(id);
 const preferences = {
@@ -14,6 +17,8 @@ const preferences = {
 };
 const mediaTheme = matchMedia('(prefers-color-scheme: dark)');
 let language = preferences.get('lang') === 'es' ? 'es' : 'ca';
+let mottoIndex = nextMotto();
+const linkedActivities = [...activities, ...legacyActivities];
 let selected = null;
 let activeCollectionId = '';
 let currentSettings = {};
@@ -24,7 +29,7 @@ const listenId = query.get('escolta');
 const listenKey = entry => `${entry.language}-${entry.code}`;
 const findActivity = reference => {
   const key = String(reference ?? '').trim().toLowerCase();
-  return activities.find(entry => listenKey(entry).toLowerCase() === key) ?? activities.find(entry => entry.id === key);
+  return linkedActivities.find(entry => listenKey(entry).toLowerCase() === key) ?? linkedActivities.find(entry => entry.id === key);
 };
 const publicListenUrl = entry => listenUrl(entry, 'https://sentit.ortogra.fi/');
 const printLocale = entry => strings[entry.language] ?? strings.ca;
@@ -97,6 +102,13 @@ const icons = {
   'arrow-up': '<path d="m5 12 7-7 7 7M12 5v14"/>',
   'arrow-down': '<path d="m5 12 7 7 7-7M12 5v14"/>',
   grip: '<circle cx="9" cy="5" r="1"/><circle cx="9" cy="12" r="1"/><circle cx="9" cy="19" r="1"/><circle cx="15" cy="5" r="1"/><circle cx="15" cy="12" r="1"/><circle cx="15" cy="19" r="1"/>',
+  check: '<path d="m5 12 4 4L19 6"/>',
+  book: '<path d="M12 7v14M3 3h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5v17h-5a4 4 0 0 0-4 1 4 4 0 0 0-4-1H3Z"/>',
+  mic: '<rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10v2a7 7 0 0 0 14 0v-2M12 19v3M8 22h8"/>',
+  news: '<path d="M4 5h16v15H4a2 2 0 0 1-2-2V8h2M4 5v13M8 9h8M8 13h3M8 16h3M14 13h2M14 16h2"/>',
+  checklist: '<path d="m3 6 1 1 2-3M10 6h11M3 12l1 1 2-3M10 12h11M3 18l1 1 2-3M10 18h11"/>',
+  messages: '<path d="M21 11V3H3v13l4-4h6M16 16h6v6l-3-3h-6v-7h9v4"/>',
+  clock: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
 };
 function icon(container, name) {
   container.innerHTML = `<svg viewBox="0 0 24 24" aria-hidden="true">${icons[name]}</svg>`;
@@ -138,6 +150,7 @@ function renderPaper() {
     session: configuredSession(selected),
   });
   scroller.scrollTop = scrollTop;
+  animateRefresh(paper);
 }
 
 function syncFormat() {
@@ -206,7 +219,7 @@ function renderSessionEditor() {
     byId('session-listens').value = session.listens;
     byId('session-interval').value = session.interval;
     byId('session-fields').disabled = !session.enabled;
-    byId('session-fields').hidden = !session.enabled;
+    setDisclosure(byId('session-fields'), session.enabled);
     byId('session-interval').disabled = session.listens === 1;
     byId('session-prepare').checked = session.prepare;
     byId('session-prepare').disabled = session.reading === 0;
@@ -263,6 +276,7 @@ function showActivity(entry, collectionId = '') {
   paper.parentElement.scrollTop = 0;
   renderSelection();
   byId('workspace').focus({ preventScroll: true });
+  animateRefresh(byId('workspace'));
 }
 
 function route() {
@@ -285,6 +299,7 @@ function route() {
     document.querySelector('.skip').href = '#catalog-view';
     catalog.render();
     byId('catalog-view').focus({ preventScroll: true });
+    animateRefresh(byId('catalog-view'));
   }
 }
 
@@ -369,6 +384,7 @@ function translate() {
     if (element.matches('button')) element.title = t(element.dataset.label);
   }
   for (const element of document.querySelectorAll('[data-placeholder]')) element.placeholder = t(element.dataset.placeholder);
+  byId('header-motto').textContent = mottos[language][mottoIndex];
   if (listenId === null) {
     catalog.render();
     if (!byId('workspace').hidden) renderSelection();
@@ -388,6 +404,12 @@ const catalog = mountCatalog({
 });
 
 byId('language').value = language;
+mountLanguageMenu(byId('language-button'), byId('language-menu'), byId('language'));
+byId('header-motto').addEventListener('click', () => {
+  mottoIndex = nextMotto(mottoIndex);
+  byId('header-motto').textContent = mottos[language][mottoIndex];
+  animateRefresh(byId('header-motto'));
+});
 syncFormat();
 new ResizeObserver(fitZoom).observe(paper);
 sessionEditor.addEventListener('submit', event => event.preventDefault());
@@ -480,7 +502,7 @@ paper.addEventListener('click', event => {
   if (cue) {
     event.preventDefault();
     const target = document.getElementById(cue.dataset.evidenceTarget);
-    target?.scrollIntoView({ block: 'center', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
+    scrollToTarget(target);
     target?.focus({ preventScroll: true });
     return;
   }
@@ -507,7 +529,7 @@ paper.addEventListener('click', event => {
   saveActivity();
   renderEditor();
   if (action === 'hide') {
-    byId('question-panel').open = true;
+    setDetailsOpen(byId('question-panel'), true);
     byId('question-panel').querySelector('summary').focus({ preventScroll: true });
   } else {
     const restored = [...paper.querySelectorAll('.paper-question-tools')].find(element => element.dataset.questionId === id);
@@ -588,8 +610,7 @@ byId('copy-lightning').addEventListener('click', async () => {
 });
 for (const button of document.querySelectorAll('[data-open]')) {
   const dialog = byId(button.dataset.open);
-  button.addEventListener('click', () => dialog.showModal());
-  dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
+  button.addEventListener('click', () => openDialog(dialog));
 }
 for (const element of document.querySelectorAll('[data-icon]')) {
   if (Object.hasOwn(icons, element.dataset.icon)) icon(element, element.dataset.icon);
@@ -603,16 +624,18 @@ if (listenId === null) {
   document.querySelector('.skip').href = '#player';
 }
 const mobileLayout = matchMedia('(max-width: 640px)');
+mountDetails();
+mountDialogs();
 const compactCatalog = matchMedia('(max-width: 640px)');
 function toggleSettings(open) {
   byId('settings-toggle').setAttribute('aria-expanded', String(open));
-  byId('settings-scroll').hidden = !open;
+  setDisclosure(byId('settings-scroll'), open);
 }
 toggleSettings(!mobileLayout.matches);
-byId('filter-panel').open = !compactCatalog.matches;
-byId('settings-toggle').addEventListener('click', () => toggleSettings(byId('settings-scroll').hidden));
+setDetailsOpen(byId('filter-panel'), !compactCatalog.matches, { animated: false });
+byId('settings-toggle').addEventListener('click', () => toggleSettings(byId('settings-toggle').getAttribute('aria-expanded') !== 'true'));
 mobileLayout.addEventListener('change', event => { toggleSettings(!event.matches); });
-compactCatalog.addEventListener('change', event => { byId('filter-panel').open = !event.matches; });
+compactCatalog.addEventListener('change', event => { setDetailsOpen(byId('filter-panel'), !event.matches); });
 theme();
 translate();
 route();
