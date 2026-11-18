@@ -154,6 +154,7 @@
               <label><span data-t="classroomCode">Codi d’aula</span><input type="text" id="classroom-code" maxlength="18" spellcheck="false"></label>
               <button type="reset" class="subtle format-reset" data-t="resetFormat">Restableix</button>
             <label class="instruction-option"><input type="checkbox" id="show-instructions" checked><span data-t="showInstructions">Mostra les instruccions</span></label>
+            <label class="instruction-option" id="evidence-option" hidden><input type="checkbox" id="show-evidence" checked><span data-t="showEvidence">Ressalta les pistes a la transcripció</span></label>
             </form>
           </details>
           <details id="question-panel" hidden>
@@ -194,7 +195,7 @@
       <a class="parent-brand" href="https://ortogra.fi/"><span data-t="parent">Un projecte d’</span><img src="./assets/ortografi.svg" width="83" height="20" alt="ortogra.fi"></a>
       <nav aria-label="Projecte" data-label="project">
         <a href="./LICENSE" data-t="license">Llicència</a>
-        <button type="button" data-open="changes" data-label="changes">v0.1.9</button>
+        <button type="button" data-open="changes" data-label="changes">v0.1.10</button>
         <button type="button" data-open="v4v">V4V</button>
       </nav>
     </div>
@@ -228,6 +229,8 @@
       <div class="dialog-head"><h2 id="changes-title" data-t="changes">Canvis</h2>
         <form method="dialog"><button class="icon-button" type="submit" data-label="close"><span data-icon="close" aria-hidden="true"></span></button></form>
       </div>
+      <h3>0.1.10 <time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></h3>
+      <p data-t="releaseEvidence">Solucionari amb respostes diferenciades i transcripció més compacta. Les pistes es ressalten amb el color i el número de cada pregunta. Els ressalts es poden desactivar i la preferència es desa amb la fitxa.</p>
       <h3>0.1.9 <time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></h3>
       <p data-t="releasePrintSpacing">Nom i data apilats al costat de la marca, amb el QR i les condicions d’escolta a la mateixa fila. Més aire als enunciats, a les línies de resposta i entre preguntes.</p>
       <h3>0.1.8 <time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></h3>

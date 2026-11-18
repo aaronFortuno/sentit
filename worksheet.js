@@ -1,4 +1,5 @@
 import { clockTime } from './session.js';
+import { buildEvidence, evidenceQuestions, evidenceSegments } from './evidence.js';
 
 export const defaultFormat = { font: 'serif', size: 12, spacing: 7, leading: 1.6 };
 
@@ -169,18 +170,61 @@ function questionTools(id, number, count, answerKey, labels) {
   return tools;
 }
 
-function transcriptBlock({ speaker, text }, heading) {
-  const block = element('div', 'paper-block');
+function appendTranscriptText(paragraph, text, ranges, offset) {
+  for (const segment of evidenceSegments(text, ranges, offset)) {
+    if (!segment.references.length) {
+      paragraph.append(segment.text);
+      continue;
+    }
+    const mark = element('mark', 'paper-evidence');
+    mark.dataset.evidenceQuestions = segment.references.map(ref => ref.number).join(' ');
+    const colors = segment.references.map(ref => ref.color);
+    const fill = colors.length === 1 ? colors[0] : `linear-gradient(to bottom, ${colors.map((color, index) => `${color} ${index * 100 / colors.length}% ${(index + 1) * 100 / colors.length}%`).join(', ')})`;
+    mark.style.setProperty('--evidence-fill', fill);
+    for (const reference of segment.badges) {
+      const number = element('sup', 'paper-evidence-number', reference.number);
+      number.style.setProperty('--evidence-fill', reference.color);
+      if (reference.target) {
+        number.id = reference.target;
+        number.tabIndex = -1;
+      }
+      mark.append(number);
+    }
+    mark.append(document.createTextNode(segment.text));
+    paragraph.append(mark);
+  }
+}
+
+function transcriptBlock({ speaker, text }, heading, ranges, offset = 0) {
+  const block = element('div', `paper-block paper-transcript-block${heading ? ' paper-transcript-start' : ''}`);
   if (heading) block.append(element('h4', 'paper-section-title', heading));
   const paragraph = element('p', 'paper-transcript');
   if (speaker) paragraph.append(element('strong', null, `${speaker} · `));
-  paragraph.append(text);
+  appendTranscriptText(paragraph, text, ranges, offset);
   block.append(paragraph);
   return block;
 }
 
+function answerBlock(text, labels, reference, first = true, last = true) {
+  const answer = element('div', 'paper-answer');
+  const header = element('div', 'paper-answer-header');
+  if (first) header.append(element('span', 'paper-answer-label', labels.suggestedAnswer));
+  if (reference && last) {
+    const cue = element('a', 'paper-evidence-cue', labels.seeTranscript);
+    cue.href = `#${reference.target}`;
+    cue.dataset.evidenceTarget = reference.target;
+    cue.style.setProperty('--evidence-fill', reference.color);
+    cue.setAttribute('aria-label', labels.seeTranscriptQuestion(reference.number));
+    header.append(cue);
+  }
+  if (header.childElementCount) answer.append(header);
+  answer.append(element('p', null, text));
+  return answer;
+}
+
 export function renderWorksheet(container, entry, format, settings, { answerKey, labels, toolLabels = labels, listenUrl, session }) {
   const footers = [];
+  const evidence = answerKey && (settings?.showEvidence ?? true) ? buildEvidence(entry, evidenceQuestions(entry, settings)) : { byPart: new Map(), byQuestion: new Map() };
   let content;
   container.replaceChildren();
   container.lang = entry.language;
@@ -191,6 +235,7 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
 
   function startPage() {
     const page = element('article', 'paper');
+    page.classList.toggle('paper-answer-key', answerKey);
     content = element('div', 'paper-content');
     const footer = element('footer', 'paper-footer');
     footers.push(footer);
@@ -218,6 +263,8 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
   // Split long individual prompts, answers and paragraphs at word boundaries.
   function placeText(text, makeBlock) {
     const words = text.match(/\S{1,80}\s*|\s+/gu) ?? [text];
+    const offsets = [0];
+    for (const word of words) offsets.push(offsets.at(-1) + word.length);
     let start = 0;
     while (start < words.length) {
       let low = start + 1;
@@ -225,7 +272,7 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
       let end = start;
       while (low <= high) {
         const middle = Math.floor((low + high) / 2);
-        const block = makeBlock(words.slice(start, middle).join(''), start === 0);
+        const block = makeBlock(words.slice(start, middle).join(''), start === 0, offsets[start], middle === words.length);
         if (tryBlock(block)) {
           block.remove();
           end = middle;
@@ -237,7 +284,7 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
         continue;
       }
       end = Math.max(start + 1, end);
-      content.append(makeBlock(words.slice(start, end).join(''), start === 0));
+      content.append(makeBlock(words.slice(start, end).join(''), start === 0, offsets[start], end === words.length));
       start = end;
       if (start < words.length) startPage();
     }
@@ -262,13 +309,13 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
       return wrap;
     };
     const response = answerKey
-      ? [element('p', 'paper-answer', question.answer ?? labels.noAnswer)]
+      ? [answerBlock(question.answer ?? labels.noAnswer, labels, evidence.byQuestion.get(id))]
       : Array.from({ length: lines }, () => element('div', 'write-line'));
     const block = questionBlock(position, heading, [makePrompt(question.prompt), ...response]);
     placeBlock(block, () => {
       placeText(question.prompt, (text, first) => questionBlock(first && position, first && heading, [makePrompt(text, first)]));
       if (answerKey) {
-        placeText(question.answer ?? labels.noAnswer, text => questionBlock(null, '', [element('p', 'paper-answer', text)]));
+        placeText(question.answer ?? labels.noAnswer, (text, first, offset, last) => questionBlock(null, '', [answerBlock(text, labels, evidence.byQuestion.get(id), first, last)]));
       } else {
         for (const line of response) placeBlock(questionBlock(null, '', [line]));
       }
@@ -282,8 +329,9 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
       : transcript;
     parts.forEach((part, index) => {
       const heading = index === 0 ? labels.transcript : '';
-      placeBlock(transcriptBlock(part, heading), () => {
-        placeText(part.text, (text, first) => transcriptBlock({ text, speaker: first && part.speaker }, first && heading));
+      const ranges = evidence.byPart.get(part.id);
+      placeBlock(transcriptBlock(part, heading, ranges), () => {
+        placeText(part.text, (text, first, offset) => transcriptBlock({ text, speaker: first && part.speaker }, first && heading, ranges, offset));
       });
     });
   }

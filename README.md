@@ -14,6 +14,7 @@ El projecte es manté a la sèrie **0.1.x** mentre es revisen les primeres activ
 - Ajustos de tipografia, mida, espaiat i interlineat, amb codi d’aula opcional.
 - Controls de línies de resposta i d’amagar preguntes al costat de cada enunciat, quan s’hi passa el ratolí o s’hi accedeix amb el teclat. En pantalla tàctil, el botó de tres punts obre aquests controls. A **Preguntes amagades** es poden recuperar les preguntes excloses.
 - Vista A4 de la fitxa amb QR i del solucionari amb respostes orientatives i transcripció de l’àudio. El diàleg d’impressió permet desar el document seleccionat com a PDF.
+- Al solucionari, els enunciats van en negreta i les respostes orientatives dins d’un requadre suau. La transcripció fa servir una mida menor i un interlineat més compacte. Les respostes localitzables porten **Veure la transcripció**, del mateix color que els passatges ressaltats i numerats. **Ressalta les pistes a la transcripció**, activat per defecte, permet obtenir un solucionari sense marques ni indicacions de color. Aquesta preferència es desa amb la fitxa i en cada col·lecció.
 - Reproductor docent i vista d’escolta directa. L’àudio comença quan es prem el botó.
 - Amb **Sessió pautada**, tria el temps per llegir les preguntes, el nombre d’escoltes i la pausa entre escoltes. Els valors inicials són 60 segons, dues escoltes i 30 segons de pausa. El QR, l’adreça i el resum imprès segueixen aquests ajustos. Amb el mode desactivat, l’enllaç obre el reproductor d’escolta lliure.
 - Les locucions inicial i entre escoltes es poden activar independentment. Amb 60 segons de lectura, la locució indica «un minut». Amb una altra durada, remet al compte enrere. Els temps programats s’apliquen també quan es desactiven les locucions.
@@ -42,6 +43,8 @@ node tools/serve.cjs
 
 La comprovació del model de col·leccions s’executa amb `node tools/check-collections.mjs`: cobreix les còpies independents, l’ordre, la recuperació de maquetacions i els errors d’emmagatzematge.
 
+`node tools/check-evidence.mjs` comprova que totes les pistes declarades existeixin a la transcripció i valida la conservació del text, la numeració de les preguntes visibles, els solapaments i els talls entre pàgines.
+
 Obre `http://127.0.0.1:4231/`. Per provar l’àudio en local, prem **Obre la vista d’escolta**. El QR imprès i **Copia l’enllaç** fan servir l’adreça pública. L’enllaç d’escolta inclou l’idioma i el codi, com a `?escolta=ca-S001`. Cada parell d’idioma i codi identifica una única activitat.
 
 Els enllaços que inclouen `p`, com `?escolta=ca-S001&p=60-2-30`, programen una sessió. Els tres valors són els segons de lectura (0–300), les escoltes (1–3) i els segons entre escoltes (0–300). Els enllaços sense `p` obren l’escolta lliure. A la sessió pautada, l’àudio i els temps d’espera comparteixen el mateix rellotge, de manera que el botó pot pausar o reprendre tota la seqüència.
@@ -55,6 +58,8 @@ Les fitxes viuen a `catalogue.js`. Cada activitat declara l’identificador, el 
 Per etiquetar la dificultat, valora conjuntament la densitat de la informació, el ritme de l’àudio i les relacions que l’alumnat ha de fer entre fragments per respondre. La durada té un filtre propi.
 
 La transcripció segueix l’ordre de l’àudio. `introduction` conté la locució inicial, si n’hi ha. Al diàleg o narració, cada bloc té text i, quan hi intervé una veu, pot portar el nom del personatge. Els senyals sonors rellevants per a l’activitat es poden indicar entre claudàtors. Conserva l’identificador i l’àudio associat dels fulls publicats. Una revisió editorial que canviï una resposta necessita un identificador i un codi nous.
+
+Per vincular una resposta amb la transcripció, dona un `id` estable al bloc i declara a la pregunta un camp `evidence`, per exemple `[{ part: 'cartell', quote: 'es faria a la biblioteca.' }]`. Es poden indicar diversos passatges per pregunta. La cita ha de coincidir exactament amb el text; si es repeteix dins del mateix bloc, `occurrence` selecciona l’aparició comptant des de zero. Les preguntes d’opinió o globals no necessiten aquest camp. Els colors es mantenen per pregunta i els números segueixen la selecció impresa. Si coincideixen pistes de preguntes diferents, el ressalt es divideix en bandes de color. `evidence.js` resol aquestes referències i `showEvidence`, dins dels ajustos de la fitxa, controla si es mostren.
 
 Per habilitar la sessió pautada d’una fitxa, `fragment.start` indica en segons on comença el fragment dins de l’MP3 i `fragment.seconds` n’indica la durada arrodonida per al resum de paper. Afegeix a `session.js` les locucions reutilitzables de cada idioma.
 

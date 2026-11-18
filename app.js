@@ -148,6 +148,9 @@ function renderEditor() {
   const settings = currentSettings;
   byId('classroom-code').value = settings?.code ?? '';
   byId('show-instructions').checked = settings.showInstructions ?? true;
+  byId('show-instructions').closest('label').hidden = documentMode === 'answers';
+  byId('evidence-option').hidden = documentMode !== 'answers';
+  byId('show-evidence').checked = settings.showEvidence ?? true;
   selected.questions.forEach((question, index) => {
     const { id, included } = questionFormat(question, index, settings);
     if (included) return;
@@ -420,12 +423,24 @@ byId('show-instructions').addEventListener('change', event => {
   currentSettings.showInstructions = event.target.checked;
   saveActivity();
 });
+byId('show-evidence').addEventListener('change', event => {
+  currentSettings.showEvidence = event.target.checked;
+  saveActivity();
+});
 byId('classroom-code').addEventListener('input', event => {
   if (!selected) return;
   currentSettings.code = event.target.value;
   saveActivity();
 });
 paper.addEventListener('click', event => {
+  const cue = event.target.closest('[data-evidence-target]');
+  if (cue) {
+    event.preventDefault();
+    const target = document.getElementById(cue.dataset.evidenceTarget);
+    target?.scrollIntoView({ block: 'center', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
+    target?.focus({ preventScroll: true });
+    return;
+  }
   const button = event.target.closest('[data-question-action]');
   if (!selected || !button) return;
   const tools = button.closest('[data-question-id]');
