@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.10 · 18 de novembre de 2026
+
+- Solucionari amb enunciats en negreta i respostes orientatives en un requadre diferenciat. La transcripció fa servir una lletra menor i un interlineat més compacte.
+- Les preguntes amb passatges identificables tenen una indicació «Veure la transcripció» i ressalts del mateix color, amb el número de pregunta al costat del text. Els números s’ajusten quan s’amaguen preguntes.
+- Ressalts activats per defecte, desactivables des del format del solucionari. La preferència es desa amb la fitxa i independentment en cada col·lecció.
+
 ## 0.1.9 · 18 de novembre de 2026
 
 - Nom i data apilats entre la marca i el bloc del QR. Les dades de l’alumne i les condicions d’escolta comparteixen una sola fila, amb el títol i el codi d’aula a sota.
