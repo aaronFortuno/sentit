@@ -1,5 +1,13 @@
 # Canvis
 
+## 0.1.16 · 18 de novembre de 2026
+
+- Menú d’idioma propi, sense fletxa, amb opció activa, navegació per teclat i tancament amb Escape o clic exterior. L’idioma del text passa al primer filtre.
+- Dotze frases de capçalera en català i castellà, triades aleatòriament en obrir el web. Clicar la frase en mostra una altra.
+- Targetes amb tipologia destacada, icones, colors suaus, il·lustració de fons i dificultat representada amb un, dos o tres punts, sempre amb etiqueta de text.
+- «Canvi de plans» es retira del catàleg; es conserven els accessos directes del pilot.
+- Transicions centralitzades a 220 ms per a menús, desplegables, finestres, selecció de col·leccions i canvis de vista. Es respecta la preferència de moviment reduït i la impressió queda al marge de les animacions.
+
 ## 0.1.15 · 18 de novembre de 2026
 
 - Generador publicat amb una petició per al fragment complet i una per a la presentació. Conserva els màsters i les preses anteriors; agrupa el que falta de l’entrevista en una sola presa.

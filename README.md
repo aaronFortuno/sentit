@@ -8,11 +8,11 @@ El projecte es manté a la sèrie **0.1.x** mentre es revisen les primeres activ
 
 ## Prepara una fitxa
 
-«El senyal de la ràdio» és una activitat de nivell accessible per a 5è de primària, amb Leda per a la Laia i Puck per a en Biel. El fragment dura aproximadament 1 minut i 17 segons; amb la presentació, 1 minut i 22 segons. «Canvi de plans» conserva l’àudio i l’enllaç del pilot.
+«El senyal de la ràdio» és una activitat de nivell accessible per a 5è de primària, amb Leda per a la Laia i Puck per a en Biel. El fragment dura aproximadament 1 minut i 17 segons; amb la presentació, 1 minut i 22 segons. «Canvi de plans» conserva l’àudio i l’enllaç del pilot, però no apareix al catàleg.
 
 La primera tanda afegeix **S002 · Preparem una capsa de records** (3r, instruccions accessibles, 50 segons i 6 preguntes) i **S008 · La foto que faltava** (4t, narració accessible, 1 minut i 25 segons i 6 preguntes). Totes dues tenen àudio, il·lustració, fitxa i solucionari. S015 de 5è i S023 de 6è tenen els guions, preguntes, respostes, pistes i imatges preparats; es poden revisar i maquetar al catàleg amb la marca «Àudio en preparació», sense reproductor ni QR fins a acabar els MP3. [Guions i registre de la primera tanda](docs/primera-tanda.md).
 
-- Catàleg amb targetes, cerca per títol o codi i filtres combinables de curs, dificultat, durada, tipus i idioma del text.
+- Catàleg amb cinc comprensions i targetes amb icona, color suau i il·lustració de context al fons. La dificultat té un punt verd (accessible), dos blaus (intermèdia) o tres rosats (avançada), sempre acompanyats del text. Cerca per títol o codi i filtres combinables, amb l’idioma del text en primer lloc.
 - Ajustos de tipografia, mida, espaiat i interlineat, amb codi d’aula opcional.
 - Controls de línies de resposta i d’amagar preguntes al costat de cada enunciat, quan s’hi passa el ratolí o s’hi accedeix amb el teclat. En pantalla tàctil, el botó de tres punts obre aquests controls. A **Preguntes amagades** es poden recuperar les preguntes excloses.
 - Vista A4 de la fitxa amb QR i del solucionari amb respostes orientatives i transcripció de l’àudio. El diàleg d’impressió permet desar el document seleccionat com a PDF.
@@ -23,6 +23,9 @@ La primera tanda afegeix **S002 · Preparem una capsa de records** (3r, instrucc
 - Les locucions inicial i entre escoltes es poden activar independentment. Amb 60 segons de lectura, la locució indica «un minut». Amb una altra durada, remet al compte enrere. Els temps programats s’apliquen també quan es desactiven les locucions.
 - El quadre gris d’instruccions al full es pot mostrar o amagar. El text es genera a partir del temps de lectura, el nombre d’escoltes i les pauses efectives; és independent de l’activació de les locucions. La capçalera té la marca i «comprensió oral», el nom i la data apilats i el bloc d’escolta en una mateixa fila; el títol i el codi d’aula van a sota. Els valors inicials de format són Georgia de 12 punts, 7 mm d’espaiat i interlineat d’1,6, amb línies de resposta de 9 mm.
 - Interfície en català i castellà. Cada fitxa conserva l’idioma propi de l’activitat.
+- Selector d’interfície amb menú propi i navegació per teclat. La capçalera tria una de dotze frases en obrir el web; es pot prémer per descobrir-ne una altra. El canvi d’idioma conserva la mateixa idea traduïda.
+
+`motion.js` centralitza el moviment dels panells, menús, finestres i canvis de vista amb el valor `--motion: 220ms`. El tancament també s’anima; els clics successius cancel·len la transició anterior. Es respecta la preferència de moviment reduït i les animacions no afecten la impressió. `mottos.js` conserva les frases aparellades en català i castellà; `language-menu.js` gestiona el selector.
 
 La preparació té dos passos. Primer es tria una comprensió al catàleg, amb els filtres i les col·leccions a l’esquerra. En obrir una targeta s’accedeix a l’editor, amb el full i el sidebar d’àudio i impressió. La fletxa de retorn conserva els filtres i permet tornar al catàleg. L’accés a la vista d’escolta i el botó per imprimir el document seleccionat queden visibles mentre es consulten els ajustos. En pantalles petites, **Àudio i impressió** desplega els ajustos.
 

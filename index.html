@@ -23,18 +23,20 @@
           <img src="./assets/sentit.svg" width="35" height="35" alt="">
           <span>sentit<span class="brand-dot">.</span></span>
         </a>
-        <p data-t="tagline">Dona sentit al que escoltes.</p>
+        <button type="button" id="header-motto" class="header-motto" data-label="mottoAction">Escoltar és seguir el fil.</button>
       </div>
       <div class="top-actions">
-        <label class="language icon-button">
-          <span class="sr-only" data-t="interfaceLanguage">Idioma de la interfície</span>
-          <span data-icon="languages" aria-hidden="true"></span>
-          <span class="language-chevron" data-icon="chevron-down" aria-hidden="true"></span>
-          <select id="language">
+        <div class="language-control">
+          <button type="button" id="language-button" class="icon-button" aria-haspopup="menu" aria-expanded="false" aria-controls="language-menu" data-label="interfaceLanguage"><span data-icon="languages" aria-hidden="true"></span></button>
+          <select id="language" hidden aria-hidden="true" tabindex="-1">
             <option value="ca" lang="ca">Català</option>
             <option value="es" lang="es">Español</option>
           </select>
-        </label>
+          <div id="language-menu" class="language-menu" role="menu" aria-labelledby="language-button" hidden inert>
+            <button type="button" role="menuitemradio" data-language="ca" lang="ca" aria-checked="true" tabindex="-1"><span>Català</span><span data-icon="check" aria-hidden="true"></span></button>
+            <button type="button" role="menuitemradio" data-language="es" lang="es" aria-checked="false" tabindex="-1"><span>Español</span><span data-icon="check" aria-hidden="true"></span></button>
+          </div>
+        </div>
         <button id="theme" class="icon-button" type="button" data-label="theme" aria-label="Canvia el tema">
           <span data-icon="theme" aria-hidden="true"></span>
         </button>
@@ -52,11 +54,11 @@
       <details id="filter-panel" open>
         <summary data-t="filters">Filtres</summary>
         <form id="filters">
+          <label><span data-t="contentLanguage">Idioma del text</span><select name="content-language" id="content-language"></select></label>
           <label><span data-t="grade">Curs</span><select name="grade" id="grade"></select></label>
           <label><span data-t="level">Dificultat</span><select name="level" id="level"></select></label>
           <label><span data-t="duration">Durada</span><select name="duration" id="duration"></select></label>
           <label><span data-t="genre">Tipus</span><select name="genre" id="genre"></select></label>
-          <label><span data-t="contentLanguage">Llengua</span><select name="content-language" id="content-language"></select></label>
           <button type="reset" class="subtle reset" data-t="reset">Neteja els filtres</button>
         </form>
       </details>
@@ -206,7 +208,7 @@
       <a class="parent-brand" href="https://ortogra.fi/"><span data-t="parent">Un projecte d’</span><img src="./assets/ortografi.svg" width="83" height="20" alt="ortogra.fi"></a>
       <nav aria-label="Projecte" data-label="project">
         <a href="./LICENSE" data-t="license">Llicència</a>
-        <button type="button" data-open="changes" data-label="changes">v0.1.15</button>
+        <button type="button" data-open="changes" data-label="changes">v0.1.16</button>
         <button type="button" data-open="v4v">V4V</button>
       </nav>
     </div>
@@ -240,6 +242,8 @@
       <div class="dialog-head"><h2 id="changes-title" data-t="changes">Canvis</h2>
         <form method="dialog"><button class="icon-button" type="submit" data-label="close"><span data-icon="close" aria-hidden="true"></span></button></form>
       </div>
+      <h3>0.1.16 <time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></h3>
+      <p data-t="releaseCatalogPolish">Menú d’idioma renovat, frases de capçalera variables i targetes amb icones, colors, il·lustracions i indicadors de dificultat. Idioma del text com a primer filtre i transicions uniformes de 220 ms.</p>
       <h3>0.1.15 <time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></h3>
       <p data-t="releaseReview">Fitxes de 5è i 6è disponibles per revisar mentre es preparen els àudios. Cerca i filtres revisats, millor repartiment de preguntes i generació amb menys peticions, conservant les preses fetes.</p>
       <h3>0.1.14 <time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></h3>

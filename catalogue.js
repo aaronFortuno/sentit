@@ -10,6 +10,10 @@ export const activities = [
   foto,
   restauradora,
   mercat,
+];
+
+// Keep the technical pilot reachable through its existing direct links.
+export const legacyActivities = [
   {
     id: 'mostra',
     code: 'MOSTRA',
