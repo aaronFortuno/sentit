@@ -11,6 +11,7 @@ export const radio = {
   audio: './assets/audio/el-senyal-de-la-radio-leda-puck-v1.mp3',
   introduction: 'Comprensió oral. El senyal de la ràdio.',
   fragment: { start: 5.1, seconds: 77 },
+  image: { src: './assets/images/el-senyal-de-la-radio.webp', alt: 'Dos joves conversen davant d’un micròfon a la ràdio escolar.', width: 1536, height: 1024 },
   transcript: [
     { id: 'avis-inicial', speaker: 'Laia', text: 'Prova de so. Divendres, a l’hora del pati, farem un intercanvi de còmics al porxo.' },
     { id: 'cartell', speaker: 'Biel', text: 'Para un moment, Laia. Ahir vam penjar un cartell que deia que es faria a la biblioteca.' },

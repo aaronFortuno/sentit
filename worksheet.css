@@ -183,6 +183,141 @@
   text-decoration: underline;
 }
 
+.paper-illustrated {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) var(--image-width);
+  align-items: center;
+  gap: 2mm 5mm;
+  margin-block: 3mm var(--sheet-spacing);
+}
+
+.paper-illustrated > .paper-section-title {
+  grid-column: 1 / -1;
+  margin: 0;
+}
+
+.paper-illustrated-copy {
+  min-width: 0;
+}
+
+.paper-illustrated-copy .paper-instructions {
+  margin: 0;
+}
+
+.paper-illustration {
+  margin: 0;
+  max-inline-size: 100%;
+}
+
+.paper-illustration img {
+  display: block;
+  inline-size: 100%;
+  block-size: auto;
+}
+
+.paper-illustrated.image-left {
+  grid-template-columns: var(--image-width) minmax(0, 1fr);
+}
+
+.paper-illustrated.image-left > .paper-illustration {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.paper-illustrated.image-left > .paper-illustrated-copy {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.paper-transcript-illustrated.image-left > :is(.paper-illustration, .paper-illustrated-copy) {
+  grid-row: 2;
+}
+
+.paper-illustrated.image-center {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.paper-illustrated.image-center > .paper-illustration {
+  grid-column: 1;
+  grid-row: 1;
+  justify-self: center;
+}
+
+.paper-illustrated.image-center > .paper-illustrated-copy {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.paper-transcript-illustrated.image-center > .paper-section-title {
+  grid-row: 1;
+}
+
+.paper-transcript-illustrated.image-center > .paper-illustration {
+  grid-row: 2;
+}
+
+.paper-transcript-illustrated.image-center > .paper-illustrated-copy {
+  grid-row: 3;
+}
+
+.paper-transcript-illustrated {
+  margin-block-end: 0;
+  font-size: max(9pt, calc(var(--sheet-size) * .83));
+  line-height: 1.3;
+}
+
+.paper-transcript-illustrated .paper-transcript-block + .paper-transcript-block,
+.paper-transcript-illustrated ~ .paper-transcript-block {
+  margin-block-start: 1.5mm;
+}
+
+#image-editor {
+  padding-block-start: 9px;
+  font-size: .8rem;
+}
+
+.image-toggle {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.image-toggle input {
+  margin: 0;
+  accent-color: var(--green);
+}
+
+#image-fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 9px;
+  margin: 9px 0 0;
+  padding: 0;
+  border: 0;
+  min-width: 0;
+}
+
+#image-fields label {
+  display: grid;
+  gap: 3px;
+  min-width: 0;
+  color: var(--quiet);
+}
+
+#image-fields :is(input, select) {
+  min-width: 0;
+  width: 100%;
+  min-height: 31px;
+  padding: 4px 6px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: var(--panel);
+}
+
+#image-fields:disabled {
+  opacity: .55;
+}
+
 @media print {
   .paper-evidence-number:focus {
     outline: none;
