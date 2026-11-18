@@ -1,0 +1,26 @@
+export const capsa = {
+  id: 'preparem-una-capsa-de-records', code: 'S002', language: 'ca',
+  title: 'Preparem una capsa de records',
+  summary: 'Una proposta senzilla per guardar records i retrobar-los a final de curs.',
+  grade: '3', level: 'easy', genre: 'instructions', seconds: 55,
+  audio: './assets/audio/s002-preparem-una-capsa-de-records-v1.mp3',
+  image: { src: './assets/images/preparem-una-capsa-de-records.webp', alt: 'Una mestra al costat d’una capsa de records tancada.', width: 1536, height: 1024 },
+  introduction: 'Comprensió oral. Preparem una capsa de records.',
+  fragment: { start: 4.88192, seconds: 50 },
+  transcript: [
+    { id: 'capsa', speaker: 'Mestra', text: 'Avui prepararem una capsa de records. Busqueu una capsa buida que es pugui tancar. No cal que sigui nova.' },
+    { id: 'dibuix', speaker: 'Mestra', text: 'Primer, poseu al fons un dibuix d’un dia que vulgueu recordar. Pot ser un dia que hàgiu passat amb algú que estimeu.' },
+    { id: 'foto', speaker: 'Mestra', text: 'Després, afegiu una còpia d’una fotografia. Guardarem l’original fora de la capsa perquè no es faci malbé.' },
+    { id: 'missatge', speaker: 'Mestra', text: 'Finalment, escriviu un missatge per al vostre jo del futur. Pot explicar una cosa que us agrada fer. Doblegueu-lo i poseu-lo al damunt de tot.' },
+    { id: 'nom', speaker: 'Mestra', text: 'Abans de tancar, escriviu el vostre nom a la tapa. Així sabrem de qui és la capsa sense remenar el contingut.' },
+    { id: 'final', speaker: 'Mestra', text: 'La guardarem a classe i l’obrirem a final de curs. Avui no cal portar cap record valuós. Un record petit també pot explicar una gran història.' },
+  ],
+  questions: [
+    { id: 'recipient', prompt: 'Què prepararem? Com ha de ser la capsa?', answer: 'Una capsa de records. Ha d’estar buida i s’ha de poder tancar; no cal que sigui nova.', lines: 2, evidence: [{ part: 'capsa', quote: 'prepararem una capsa de records. Busqueu una capsa buida que es pugui tancar.' }] },
+    { id: 'fons', prompt: 'Què hem de posar primer al fons?', answer: 'Un dibuix d’un dia que vulguem recordar.', lines: 1, evidence: [{ part: 'dibuix', quote: 'poseu al fons un dibuix d’un dia que vulgueu recordar.' }] },
+    { id: 'original', prompt: 'Hi posarem una fotografia original o una còpia? Per què?', answer: 'Una còpia, per evitar que l’original es faci malbé.', lines: 2, evidence: [{ part: 'foto', quote: 'afegiu una còpia d’una fotografia. Guardarem l’original fora de la capsa perquè no es faci malbé.' }] },
+    { id: 'damunt', prompt: 'On posarem el missatge, després de doblegar-lo?', answer: 'Al damunt de tot, dins de la capsa.', lines: 1, evidence: [{ part: 'missatge', quote: 'Doblegueu-lo i poseu-lo al damunt de tot.' }] },
+    { id: 'identificar', prompt: 'On escriurem el nom? Per a què servirà?', answer: 'A la tapa. Permetrà identificar la capsa sense remenar-ne el contingut.', lines: 2, evidence: [{ part: 'nom', quote: 'escriviu el vostre nom a la tapa. Així sabrem de qui és la capsa sense remenar el contingut.' }] },
+    { id: 'quan', prompt: 'Quan tornarem a obrir la capsa?', answer: 'A final de curs.', lines: 1, evidence: [{ part: 'final', quote: 'l’obrirem a final de curs.' }] },
+  ],
+};

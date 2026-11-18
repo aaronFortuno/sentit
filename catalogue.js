@@ -1,7 +1,11 @@
 import { radio } from './content/el-senyal-de-la-radio.js';
+import { capsa } from './content/preparem-una-capsa-de-records.js';
+import { foto } from './content/la-foto-que-faltava.js';
 
 export const activities = [
   radio,
+  capsa,
+  foto,
   {
     id: 'mostra',
     code: 'MOSTRA',

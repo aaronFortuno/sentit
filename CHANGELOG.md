@@ -1,5 +1,14 @@
 # Canvis
 
+## 0.1.14 · 18 de novembre de 2026
+
+- Dos prototips complets: S002 de 3r (instruccions) i S008 de 4t (narració).
+- Guions, preguntes, respostes, pistes i il·lustracions de S015 de 5è (entrevista) i S023 de 6è (notícia), pendents d’acabar els àudios per límit de quota de Gemini.
+- Àudios originals amb presentació, veus adequades als personatges i muntatges diferents segons la tipologia.
+- Il·lustracions de context, transcripcions completes, respostes orientatives i pistes opcionals al solucionari.
+- S002 i S008 incorporades al catàleg, als filtres, a les col·leccions i a les sessions pautades.
+- Registre de producció i revisió per comparar durades, veus i efectes abans d’ampliar el fons.
+
 ## 0.1.13 · 18 de novembre de 2026
 
 - Amplada inicial de la imatge de 80 mm. A la fitxa s’alinea amb el títol i les instruccions envolten la il·lustració. La transcripció del solucionari també aprofita l’espai del costat i recupera tota l’amplada sota la imatge.
