@@ -46,8 +46,8 @@ export function mountCharacterExplorer(root, { activities, t, initialId, onSelec
     detail.replaceChildren();
     const scroll = make('div', undefined, 'character-detail-scroll');
     const top = make('div', undefined, 'character-profile-top');
-    const image = make('img', undefined, 'character-portrait');
-    Object.assign(image, { src: character.portrait, alt: character.name, width: 1024, height: 1024, decoding: 'async' });
+    const image = character.portrait ? make('img', undefined, 'character-portrait') : make('div', t('characterPortraitPending'), 'character-portrait character-portrait-pending');
+    if (character.portrait) Object.assign(image, { src: character.portrait, alt: character.name, width: 1024, height: 1024, decoding: 'async' });
     const introduction = make('div', undefined, 'character-profile-intro');
     const name = make('h3', character.name); name.id = root.id + '-name';
     detail.setAttribute('aria-labelledby', name.id);
@@ -105,7 +105,9 @@ export function mountCharacterExplorer(root, { activities, t, initialId, onSelec
       const button = make('button', undefined, 'character-roster-button'); button.type = 'button';
       button.dataset.character = character.id;
       button.setAttribute('aria-controls', root.id + '-profile');
-      const portrait = make('img'); Object.assign(portrait, { src: character.portrait, alt: '', width: 54, height: 54, loading: 'lazy', decoding: 'async' });
+      const portrait = character.portrait ? make('img') : make('span', character.name[0], 'character-initial');
+      if (character.portrait) Object.assign(portrait, { src: character.portrait, alt: '', width: 54, height: 54, loading: 'lazy', decoding: 'async' });
+      else portrait.setAttribute('aria-hidden', 'true');
       button.append(portrait, make('span', character.name));
       button.addEventListener('click', () => select(character.id));
       roster.append(button);

@@ -1,6 +1,8 @@
 # Proposta inicial de catàleg de Sentit
 
-18 de novembre de 2026 · Proposta editorial aprovada com a base; primera tanda en producció.
+Pla inicial: 18 de novembre de 2026 · Guions completats: 20 de novembre de 2026.
+
+Els 24 codis base ja són consultables al web. Hi ha 19 propostes noves i S023 pendents de validar; els àudios existents conserven la seva fase de revisió. [Estat actual per fases](seguiment-produccio.md) · [Dossier del lot complet](lot-editorial-24.md). Les durades objectiu següents són les del pla inicial; el catàleg i la taula mostren les estimacions derivades dels guions o les durades reals quan existeix l’àudio.
 
 ## Abast i equilibri
 
@@ -14,7 +16,7 @@ Proposem un primer fons de **24 comprensions en català, de 3r a 6è de primàri
 | 6è | 2 | 2 | 2 | 6 | 1:50–4:15 |
 | **Total** | **8** | **8** | **8** | **24** | |
 
-Les sis tipologies són **diàleg, narració, entrevista, notícia, instruccions i explicació**. Cada curs en tindria una de cada. «Explicació» seria una etiqueta nova quan incorporem les primeres activitats d’aquesta tipologia. `ca-S001`, `ca-S002` i `ca-S008` corresponen a activitats disponibles. `ca-S015` i `ca-S023` tenen guions i materials preparats i els àudios pendents de completar. Els altres codis continuen reservats en aquesta proposta. Les durades exclouen la presentació, les instruccions de la sessió, les pauses de lectura i les repeticions.
+Les sis tipologies són **diàleg, narració, entrevista, notícia, instruccions i explicació**, ara disponibles al filtre. Cada curs té una peça de cada tipus. `ca-S001`, `ca-S002`, `ca-S008` i `ca-S015` tenen àudio, més la revisió `ca-S008R`; la resta tenen proposta completa per revisar. Les durades exclouen la presentació, les instruccions de la sessió, les pauses de lectura i les repeticions.
 
 ## Com definim la dificultat
 
@@ -101,7 +103,7 @@ S’ha aprovat desenvolupar **quatre prototips complets** que complementin S001:
 3. **S015 · Una restauradora ens explica el seu ofici**: 5è, entrevista intermèdia; introdueix una conversa més llarga i un registre diferent.
 4. **S023 · Reobren el mercat**: 6è, notícia avançada; prova una durada de més de tres minuts i la distinció entre fets i opinions.
 
-S002 i S008 ja tenen àudio complet, il·lustració, preguntes i solucionari, i apareixen al catàleg. S015 té una primera presa generada i S023 encara no s’ha sintetitzat; totes dues conserven el guió i els materials preparats. La quota de Gemini ha aturat la producció i s’ha acordat esperar que es restableixi. [Estat, guions i dades de revisió](primera-tanda.md). Les fitxes sense àudio acabat es poden revisar al catàleg amb l’estat «Àudio en preparació», sense accessos de reproducció ni QR fins que el MP3 estigui disponible. La resta del fons es produirà després de revisar aquests prototips.
+S002 i S008 tenen àudio, il·lustració, preguntes i solucionari. S015 i la revisió S008R ja tenen el guió validat i el muntatge complet, pendent d’audició. S023 i les 19 peces noves esperen validar guió, veus i escaleta abans de sintetitzar. Es poden revisar en qualsevol ordre al web, sense reproducció ni QR mentre no existeixi l’àudio. [Registre històric de la primera tanda](primera-tanda.md) · [Seguiment actual](seguiment-produccio.md).
 
 ## Ampliacions previstes
 

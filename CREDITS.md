@@ -33,6 +33,8 @@ S015 incorpora sintonies d’entrada i sortida, ambient de sala molt baix i un m
 
 ## Web
 
+Les 19 propostes noves que completen el catàleg de 24 tenen guions i preguntes originals de Sentit. Encara no s’hi han generat veus, sons ni il·lustracions. Les fonts utilitzades per contrastar conceptes, el repartiment candidat i els criteris consten al [dossier editorial](docs/lot-editorial-24.md).
+
 Les sis il·lustracions de context s’han generat per a Sentit amb l’eina integrada de generació d’imatges i s’han convertit a WebP, sense canviar-ne la composició. [Fitxers i prompts](assets/images/README.md).
 
 El repartiment recurrent té vuit [fitxes de personatge](assets/characters/README.md), generades amb l’eina integrada a partir de les referències del projecte. Les escenes revisades utilitzen aquests models per preservar identitats. Els PNG originals, les previsualitzacions WebP i els prompts es conserven al repositori. [Galeria i perfils](https://sentit.ortogra.fi/personatges.html) · [Criteris de continuïtat i veus](docs/personatges.md).

@@ -10,7 +10,7 @@ const base = 'http://127.0.0.1:4238/';
   const { activities } = await import('../catalogue.js');
   // Fixed fixture: three easy cards followed by a hidden middle/advanced tail.
   // Extra catalogue entries must not turn the filtered-tail drop into a middle drop.
-  const ids = activities.slice(0, 5).map(entry => entry.id);
+  const ids = ['S001','S002','S008','S015','S023'].map(code=>activities.find(entry=>entry.code===code).id);
   const layout = { format: { font: 'Georgia', size: 14, spacing: 8, leading: 1.7 }, settings: { code: '4.2.7' } };
   const seed = [{ id: 'gesture-main', name: 'Principal', readingIds: ids, layouts: { [ids[0]]: layout } },
     { id: 'gesture-other', name: 'Una altra', readingIds: [ids[4]], layouts: {} }];
@@ -131,12 +131,13 @@ const base = 'http://127.0.0.1:4238/';
     await card(ids[1]).press('Space');
     assert.equal(await card(ids[1]).getAttribute('aria-pressed'), 'false');
     await page.locator('#selection-all').click();
-    assert.equal(await page.locator('.activity-card.is-selected').count(), activities.length);
+    assert.equal(await page.locator('.activity-card.is-selected').count(), Math.min(12,activities.length));
     await page.locator('#selection-save').click();
     await page.locator('#collection-name').fill('Tanda');
     await page.locator('#collection-submit').click();
     assert.equal(await page.locator('#activity-grid .is-selected').count(), 0);
     assert.equal((await page.locator('#collection-select option:checked').textContent()), 'Tanda');
+    assert.equal(await page.evaluate(()=>JSON.parse(localStorage.getItem('sentit.collections.v1')).find(collection=>collection.name==='Tanda').readingIds.length),activities.length,'Select all includes catalogue entries beyond the visible page');
     await page.locator('#collection-rename-toggle').click();
     await page.locator('#collection-rename-name').fill('Tanda nova');
     await page.locator('#collection-rename button').click();

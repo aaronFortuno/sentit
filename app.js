@@ -99,6 +99,7 @@ function listenUrl(entry, base = location.href) {
 }
 
 const icons = {
+  lightbulb: '<path d="M9 18h6m-5 4h4m-5-7a6 6 0 1 1 6 0c-.6.5-1 1.3-1 3h-4c0-1.7-.4-2.5-1-3Z"/>',
   flag:'<path d="M4 22V3m0 0c4-4 8 4 12 0v12c-4 4-8-4-12 0"/>',
   sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.4 1.4m11.2 11.2L19 19m0-14-1.4 1.4M6.4 17.6 5 19"/>',
   moon: '<path d="M20.9 13.35A9 9 0 1 1 10.65 3.1a7 7 0 0 0 10.25 10.25Z"/>',

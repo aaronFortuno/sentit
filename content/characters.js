@@ -1,5 +1,6 @@
 // Editorial identities. Candidate voices are NOT production replacements.
 // Keep the IDs stable when adding appearances or revising a voice after audition.
+import { proposedActivities } from './propostes/index.js';
 const introductions = {
   laia: 'Hola! Soc la Laia. M’agrada escoltar sons, explicar històries i descobrir com funcionen les coses. Em vols acompanyar?',
   biel: 'Hola! Soc en Biel. M’agraden la música i els invents petits. Si tens una idea, la podem provar plegats!',
@@ -9,6 +10,9 @@ const introductions = {
   mar: 'Hola! Soc la Mar. Soc periodista. Surto al carrer, escolto persones i miro d’explicar amb claredat què passa al barri.',
   pau: 'Hola! Soc en Pau. Tinc una parada de fruita al mercat. Aquí sempre hi ha algú amb qui parlar i alguna història per compartir.',
   ferran: 'Hola! Soc en Ferran, l’avi de l’Aina. M’agrada passejar, arreglar coses i compartir records. I encara em queden moltes coses per aprendre!',
+  joana: 'Hola! Soc la Joana. Soc cartera. M’agrada conèixer els carrers i preparar bé el recorregut perquè cada missatge arribi al seu lloc.',
+  elies: 'Hola! Soc l’Elies. Soc lutier: construeixo i reparo instruments de corda. Abans de posar-m’hi, m’agrada escoltar què ens explica cada instrument.',
+  ona: 'Hola! Soc l’Ona. Soc cuinera. M’agrada organitzar els àpats i trobar bones idees per aprofitar el que tenim sense malbaratar aliments.',
 };
 export const characters = [
   {
@@ -90,10 +94,35 @@ export const characters = [
     delivery: 'Adulta i reposada, amb textura natural. Cal escoltar si el timbre és adequat; no es força una caricatura de veu envellida.',
     appearances: [{ code: 'ca-S008', kind: 'narrated' }],
   },
+  {
+    id: 'joana', name: 'Joana', role: 'Cartera · recorreguts i missatges', age: 'Adulta, entorn dels 40 anys', visualStatus: 'pending',
+    voice: { id: 'Vindemiatrix', status: 'candidate' },
+    look: 'Disseny visual pendent: retrat i fitxa propis, sense reutilitzar la identitat d’un altre personatge.',
+    personality: 'Metòdica i propera. Comprova les dades i sap adaptar-se als imprevistos.',
+    interests: 'La vida del barri, les cartes, els recorreguts i els petits detalls que ajuden a orientar-se.',
+    delivery: 'Adulta, clara i tranquil·la. Proposta pendent d’audició en català.', appearances: [],
+  },
+  {
+    id: 'elies', name: 'Elies', role: 'Lutier · instruments i escolta', age: 'Adult, entorn dels 45 anys', visualStatus: 'pending',
+    voice: { id: 'Algieba', status: 'candidate' },
+    look: 'Disseny visual pendent: persona adulta al taller; caldrà una fitxa pròpia abans de generar escenes.',
+    personality: 'Pacient i precís. Desconfia de les solucions ràpides abans d’entendre el problema.',
+    interests: 'La fusta, el so, els oficis i la construcció d’instruments.',
+    delivery: 'Adulta i propera, sense to solemne. Proposta pendent d’audició en català.', appearances: [],
+  },
+  {
+    id: 'ona', name: 'Ona', role: 'Cuinera · organització i aprofitament', age: 'Adulta, entorn dels 35 anys', visualStatus: 'pending',
+    voice: { id: 'Sulafat', status: 'candidate' },
+    look: 'Disseny visual pendent: cuinera adulta amb identitat pròpia; no s’hi assigna el retrat de la Nora ni el de la Mar.',
+    personality: 'Pràctica i acollidora. Explica les decisions amb exemples i admet que cal ajustar les previsions.',
+    interests: 'La cuina, la compra planificada i evitar el malbaratament.',
+    delivery: 'Adulta i càlida, sense fer una recepta cantada. Proposta pendent d’audició en català.', appearances: [],
+  },
 ].map(character => ({ ...character,
-  modelSheet: `./assets/characters/${character.id}-model-sheet-v1.png`,
-  previewSheet: `./assets/characters/${character.id}-model-sheet-v1.webp`,
-  portrait: `./assets/characters/${character.id}-portrait-v1.webp`,
+  appearances: [...character.appearances, ...proposedActivities.flatMap(entry => Object.entries(entry.production.voices).filter(([, voice]) => voice === character.voice.id).map(([speaker]) => ({ code: `ca-${entry.code}`, speaker, kind: speaker === 'Narradora' ? 'narrator' : 'direct', currentVoice: character.voice.id, note: 'Repartiment proposat; guió i àudio pendents de validar.' })))],
+  modelSheet: character.visualStatus === 'pending' ? null : `./assets/characters/${character.id}-model-sheet-v1.png`,
+  previewSheet: character.visualStatus === 'pending' ? null : `./assets/characters/${character.id}-model-sheet-v1.webp`,
+  portrait: character.visualStatus === 'pending' ? null : `./assets/characters/${character.id}-portrait-v1.webp`,
   introduction: { text: introductions[character.id], language: 'ca', audio: null },
 }));
 

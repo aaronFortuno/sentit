@@ -41,9 +41,10 @@ for (const character of characters) {
   assert(!castVoices.has(character.voice.id), 'Distinct characters have distinct reference voices'); castVoices.add(character.voice.id);
   assert(['heard', 'candidate'].includes(character.voice.status));
   assert(character.name && character.look && character.personality && character.interests && character.delivery);
-  await access(new URL('../' + character.modelSheet, import.meta.url));
-  await access(new URL('../' + character.previewSheet, import.meta.url));
-  await access(new URL('../' + character.portrait, import.meta.url));
+  for (const field of ['modelSheet','previewSheet','portrait']) {
+    if(character[field]) await access(new URL('../' + character[field], import.meta.url));
+    else assert.equal(character.visualStatus,'pending','Unprepared portraits are explicit, never broken images');
+  }
   assert(character.introduction.text.includes(character.name) && character.introduction.language === 'ca');
   assert(character.introduction.audio === null || typeof character.introduction.audio === 'string');
   for (const appearance of character.appearances) {
@@ -55,14 +56,17 @@ for (const character of characters) {
 }
 const matchesCast = (ids, mode) => activities.filter(entry => matchesCharacters(entry, ids, mode)).map(entry => entry.code);
 assert.deepEqual(matchesCast([], 'all'), activities.map(entry => entry.code));
-assert.deepEqual(matchesCast(['biel'], 'any'), ['S001', 'S015']);
-assert.deepEqual(matchesCast(['laia', 'biel'], 'any'), ['S001', 'S015']);
-assert.deepEqual(matchesCast(['laia', 'biel'], 'all'), ['S001']);
+assert.deepEqual(matchesCast(['biel'], 'any'), ['S001','S003','S005','S010','S012','S015','S024']);
+assert.deepEqual(matchesCast(['laia', 'biel'], 'any'), ['S001','S003','S005','S010','S012','S015','S019','S024']);
+assert.deepEqual(matchesCast(['laia', 'biel'], 'all'), ['S001','S003','S010','S024']);
 assert.deepEqual(matchesCast(['laia', 'nora'], 'all'), []);
-assert.deepEqual(matchesCast(['mireia'], 'any'), ['S002', 'S008', 'S008R']);
+assert.deepEqual(matchesCast(['mireia'], 'any'), ['S002','S004','S007','S008','S008R','S011','S013','S014','S017','S018','S020','S021']);
 assert.deepEqual(matchesCast(['invalid'], 'any'), []);
 assert.deepEqual(charactersForActivity(activities.find(entry => entry.code === 'S008')).map(character => character.id), ['mireia'], 'S008 has one narrator voice, no voices for the narrated characters');
-assert.deepEqual(matchesCast(['ferran'], 'any'), []);
+assert.deepEqual(matchesCast(['ferran'], 'any'), ['S022']);
+assert.deepEqual(matchesCast(['joana'], 'any'), ['S005']);
+assert.deepEqual(matchesCast(['elies'], 'any'), ['S012']);
+assert.deepEqual(matchesCast(['ona'], 'any'), ['S019']);
 assert.deepEqual(matchesCast(['aina'], 'any'), []);
 const draft = { audio: null, seconds: 0, fragment: { seconds: 0 }, durationEstimate: { min: 150, max: 180 } };
 for (const [seconds, tier] of [[1, 1], [60, 1], [60.1, 2], [120, 2], [120.1, 3], [180, 3], [180.1, 4], [600, 4]]) {

@@ -2,6 +2,8 @@
 
 Registre del que **realment se sent** en els màsters publicats. Les propostes encara no produïdes es distingeixen explícitament. Les fonts també són accessibles al desplegable «Fonts i crèdits sonors» de cada comprensió, fora del PDF.
 
+Les 19 propostes que completen el catàleg base i S023 no tenen àudio nou. Preveuen sons procedurals originals, sense enregistraments externs. El [dossier editorial](lot-editorial-24.md) recull el repartiment proposat i les fonts factuals; cada solucionari mostra l’escaleta concreta. No s’han de confondre aquests recursos previstos amb fonts ja utilitzades en un màster.
+
 ## Producció S008R validada
 
 El docent va validar el guió i el muntatge de la versió de ràdio el **19 de novembre de 2026**. El [programa S008R ja es pot escoltar](https://sentit.ortogra.fi/?escolta=ca-S008R): 99,77 segons de fragment i 104,88 amb la presentació. Una única petició a Gemini ha generat les 293 paraules de benvinguda, relat i comiat, amb Aoede. La presentació de S008 s’ha reutilitzat sense cap petició. Consum retornat pel proveïdor: **513 tokens d’entrada, 2.373 de sortida d’àudio, 2.886 en total**.

@@ -399,9 +399,9 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
     });
   });
 
-  // Keep a final worksheet page from containing just one complete question.
+  // Keep a final question page from containing just one complete question.
   // Move a whole block; never split the prompt from its writing space.
-  if (!answerKey) {
+  {
     const pages = [...container.querySelectorAll('.paper-content')];
     const last = pages.at(-1);
     const previous = pages.at(-2);
