@@ -8,7 +8,7 @@ const base='http://127.0.0.1:4246/';
 (async()=>{
   const server=fork(path.join(__dirname,'serve.cjs'),{env:{...process.env,SENTIT_PORT:'4246'},stdio:['ignore','pipe','inherit','ipc']});
   let browser;const errors=[],synthesis=[];
-  const output=path.resolve(__dirname,'../../tmp/sentit-qa/review-v0124');await fs.mkdir(output,{recursive:true});
+  const output=path.resolve(__dirname,'../../tmp/sentit-qa/review-v0126');await fs.mkdir(output,{recursive:true});
   try{
     await new Promise((resolve,reject)=>{server.once('error',reject);server.stdout.once('data',resolve);});
     browser=await chromium.launch({channel:'chrome',headless:true});
@@ -27,6 +27,10 @@ const base='http://127.0.0.1:4246/';
     await settle();await page.screenshot({path:path.join(output,'catalogue.png')});
     await card.click();await page.locator('#workspace').waitFor({state:'visible'});
     assert.match(page.url(),/lectura=ca-S015/);
+    assert.equal(await page.locator('#answers-mode').getAttribute('aria-pressed'),'true');
+    assert.equal(await page.locator('#paper .paper-block').first().evaluate(node=>node.classList.contains('paper-transcript-start')),true);
+    const initialText=await page.locator('#paper').innerText();
+    assert(initialText.indexOf('Guió i anotacions')<initialText.indexOf('Què fa la Nora abans de tocar una obra?'));
     assert.equal(await page.locator('#print').isDisabled(),true);
     assert.equal(await page.locator('#open-player').isHidden(),true);
     assert.equal(await page.locator('#paper .paper-qr').count(),0);
@@ -54,18 +58,24 @@ const base='http://127.0.0.1:4246/';
     await page.evaluate(()=>document.body.classList.add('reviewing-draft'));
     await page.emulateMedia({media:'screen'});
     await page.locator('#activity-select').selectOption('la-foto-que-faltava-radio');
+    assert.equal(await page.locator('#worksheet-mode').getAttribute('aria-pressed'),'true');
     assert.equal(await page.locator('#print').isEnabled(),true);
     assert.equal(await page.locator('.paper-review-watermark').count(),0);
     assert.equal(await page.locator('#generation-plan').isHidden(),true);
     assert.equal(await page.evaluate(()=>document.body.classList.contains('reviewing-draft')),false);
     await page.locator('#print').click();assert.equal(await page.evaluate(()=>window.printCalls),1);
     for(const id of ['una-restauradora-ens-explica-el-seu-ofici','reobren-el-mercat']){
-      await page.locator('#activity-select').selectOption(id);await page.locator('#answers-mode').click();
+      await page.locator('#activity-select').selectOption(id);
+      assert.equal(await page.locator('#answers-mode').getAttribute('aria-pressed'),'true');
+      assert.equal(await page.locator('#paper .paper-block').first().evaluate(node=>node.classList.contains('paper-transcript-start')),true);
       assert.equal(await page.locator('#print').isDisabled(),true);
       assert.match(await page.locator('#generation-plan .generation-summary').innerText(),id.includes('restauradora')?/1 petició nova/:/2 peticions noves/);
       assert(await noOverflow());
     }
     await page.goto(base+'#lectura=ca-S015');
+    assert.equal(await page.locator('#answers-mode').getAttribute('aria-pressed'),'true');
+    await page.locator('#worksheet-mode').click();
+    assert.equal(await page.locator('.paper-transcript-block').count(),0);
     await page.locator('#answers-mode').click();
     await page.locator('#sheet-size').fill('20');await page.locator('#sheet-size').dispatchEvent('change');
     assert(await noOverflow(),'Large type does not crop annotations');

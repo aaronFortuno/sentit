@@ -288,7 +288,7 @@ function showActivity(entry, collectionId = '') {
   currentSettings = saved.settings ?? {};
   track('obre_comprensio',{code:entry.code,colleccio:Boolean(activeCollectionId),maquetat:Boolean(activeCollectionId?collection?.layouts?.[entry.id]:activitySettings[entry.id])});
   applyFormat(saved.format);
-  documentMode = 'worksheet';
+  documentMode = isPendingReview(entry) ? 'answers' : 'worksheet';
   byId('catalog-view').hidden = true;
   byId('workspace').hidden = false;
   byId('layout-status').textContent = '';
