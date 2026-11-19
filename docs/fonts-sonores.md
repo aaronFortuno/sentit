@@ -43,6 +43,8 @@ La còpia de treball i les atribucions del pilot es conserven al [registre gener
 
 La proposta concreta de ràdio per a S008 i les escaletes dels altres prototips són a [production-plans.json](../content/production-plans.json). **Actualment continuen pendents de validació; aquesta iteració no ha consumit quota de síntesi.**
 
+La proposta es pot revisar com a material complet al [catàleg, amb el codi ca-S008R](https://sentit.ortogra.fi/#lectura=ca-S008R). El solucionari presenta el guió i les notes de muntatge, amb els límits de cada presa. Les notes «Talls per a Gemini», al costat del preview, distingeixen el títol conservat (0 peticions) del programa complet (1 petició nova prevista). Aquesta nova versió encara no s’ha sintetitzat ni té àudio assignat. El material conserva la marca d’aigua i la impressió bloquejada mentre està en revisió.
+
 ### Proposta de programa per a S008, pendent de validar
 
 Una única narradora adulta, amb la mateixa veu Aoede. Aina i Ferran continuen sent persones del relat, sense torns de veu propis. Es manté íntegre el text actual i, per tant, les preguntes i les respostes no canvien.

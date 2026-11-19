@@ -47,6 +47,9 @@
 }
 .activity-card:hover { border-color: var(--green); transform: translateY(-2px); box-shadow: 0 5px 16px #11291f0c; }
 .activity-card > :not(.activity-card-art) { position: relative; z-index: 1; }
+.activity-card > .activity-review-overlay { position: absolute; inset: 0; z-index: 2; display: grid; place-items: center; padding: 18px; background: color-mix(in srgb, var(--panel) 25%, transparent); pointer-events: none; }
+.activity-review-label { display: grid; gap: 4px; padding: 11px 20px; border: 1px solid var(--type-edge); border-radius: 8px; background: var(--panel); color: var(--ink); box-shadow: 0 4px 20px #192d2718; text-align: center; font-size: .95rem; font-weight: 650; transform: rotate(-6deg); }
+.activity-review-label small { font-size: .74rem; color: var(--quiet); font-weight: 400; }
 .activity-card-art { position: absolute; z-index: 0; inset: 32px -18px -14px 18%; opacity: .15; mix-blend-mode: multiply; pointer-events: none; mask-image: linear-gradient(90deg, transparent 0%, #000 65%), linear-gradient(180deg, transparent, #000 24%, #000 85%, transparent); mask-composite: intersect; transition: opacity var(--motion); }
 .activity-card-art img { width: 100%; height: 100%; display: block; object-fit: contain; object-position: right bottom; filter: grayscale(1); }
 .activity-card:hover .activity-card-art { opacity: .23; }

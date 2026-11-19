@@ -3,6 +3,7 @@ import { durationText, durationTier, matchesDuration } from './activity-meta.js'
 import { animateRefresh, closeDialog, openDialog, setDetailsOpen, setDisclosure } from './motion.js';
 import { mountCatalogGestures } from './catalog-gestures.js';
 import { characters, matchesCharacters } from './content/characters.js';
+import { isPendingReview } from './review.js';
 
 const normalise = value => value.toLocaleLowerCase().normalize('NFD').replace(/\p{M}/gu, '');
 const activeKey = 'sentit.collection.active.v1';
@@ -135,6 +136,7 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
       card.dataset.openActivity = entry.id;
       card.dataset.genre = entry.genre;
       card.dataset.level = entry.level;
+      card.classList.toggle('is-review-pending', isPendingReview(entry));
       if (entry.image?.src) {
         const art = element('span', undefined, 'activity-card-art');
         art.setAttribute('aria-hidden', 'true');
@@ -186,6 +188,13 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
       level.append(dots, element('span', t('levels')[entry.level] ?? entry.level));
       footer.append(duration, level);
       card.append(context, footer);
+      if (isPendingReview(entry)) {
+        const overlay = element('span', undefined, 'activity-review-overlay');
+        const label = element('span', t('reviewPending'), 'activity-review-label');
+        label.append(element('small', t('openReview')));
+        overlay.append(label);
+        card.append(overlay);
+      }
       grid.append(card);
     }
     byId('catalog-empty').hidden = matches.length > 0;

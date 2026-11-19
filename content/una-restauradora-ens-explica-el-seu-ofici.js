@@ -4,6 +4,20 @@ export const restauradora = {
   summary: 'En Biel entrevista la Nora per descobrir com s’observa, es documenta i es conserva una obra.',
   grade: '5', level: 'middle', genre: 'interview', seconds: 0,
   status: 'awaiting-audio',
+  reviewStatus: 'pending',
+  generationPlan: {
+    note: 'Dues peticions noves previstes. Es pot conservar la primera escena local si mantenim Puck i Aoede. Si la veu de la Nora canvia, l’alternativa és sintetitzar tot el cos en una sola petició, més una per al títol: també dues peticions noves, sense barrejar veus.',
+    takes: [
+      { id: 'S015-T01', label: 'Presentació', parts: ['introduction'], requests: 1, note: 'Títol complet, amb Aoede.' },
+      { id: 'S015-C01', label: 'Inici de l’entrevista', parts: ['presentacio', 'observar', 'repintar', 'conservar'], requests: 0, reuse: 'conditional-local', note: 'Presa local conservada, amb Puck i Aoede. La reutilització depèn de validar aquest repartiment i aquesta presa.' },
+      { id: 'S015-T02', label: 'Resta de l’entrevista', parts: ['exemple', 'proves', 'prevencio', 'llum', 'temps', 'tancament'], requests: 1, note: 'Tots els torns restants en una sola petició, amb les dues veus definitives.' },
+    ],
+  },
+  productionNotes: [
+    'Proposta d’entrevista en un taller de restauració. En Biel fa les preguntes i la Nora respon com a professional adulta. Cal validar el guió, les veus i el muntatge abans de completar l’àudio.',
+    'Entrada musical breu de programa, amb baixada abans de la primera pregunta. Ambient de taller molt discret només entre blocs; sota les explicacions precises preval la veu. No s’hi afegeixen sons que suggereixin procediments o respostes.',
+    'El guió conserva tots els torns i acaba amb un separador de sortida original. El repartiment de veus encara s’ha de resoldre: la presa parcial existent de la Nora és Aoede; Kore només és una proposta de personatge. No s’ha de barrejar una veu nova amb aquesta presa sense validar-ho.',
+  ],
   durationEstimate: { min: 150, max: 180 },
   audio: null,
   image: { src: './assets/images/una-restauradora-ens-explica-el-seu-ofici-v2.webp', alt: 'En Biel entrevista la restauradora Nora al seu taller.', width: 1536, height: 1024 },

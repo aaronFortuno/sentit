@@ -1,5 +1,6 @@
 import { clockTime } from './session.js';
 import { buildEvidence, evidenceQuestions, evidenceSegments } from './evidence.js';
+import { isPendingReview, reviewScript } from './review.js';
 
 export const defaultFormat = { font: 'serif', size: 12, spacing: 7, leading: 1.6 };
 
@@ -59,7 +60,8 @@ function makeHeader(entry, labels, code, answerKey, listenUrl, session) {
   if (answerKey) headerMain.append(element('p', 'paper-solution-label', labels.answers));
   headerMain.append(element('h3', null, entry.title));
   if (entry.sample) headerMain.append(element('p', 'paper-caption', labels.sample));
-  if (!entry.audio) headerMain.append(element('p', 'paper-caption', labels.audioPending));
+  if (isPendingReview(entry)) headerMain.append(element('p', 'paper-caption paper-review-label', labels.reviewNotice));
+  else if (!entry.audio) headerMain.append(element('p', 'paper-caption', labels.audioPending));
   head.append(top, titleRow);
   if (listenUrl) {
     head.classList.add('has-listening');
@@ -207,10 +209,15 @@ function appendTranscriptText(paragraph, text, ranges, offset) {
   }
 }
 
-function transcriptBlock({ speaker, text }, heading, ranges, offset = 0) {
+function transcriptBlock({ speaker, text, kind, takeId }, heading, ranges, offset = 0) {
   const block = element('div', `paper-block paper-transcript-block${heading ? ' paper-transcript-start' : ''}`);
   if (heading) block.append(element('h4', 'paper-section-title', heading));
   const paragraph = element('p', 'paper-transcript');
+  if (kind === 'direction') block.classList.add('paper-direction');
+  if (kind === 'take') {
+    block.classList.add('paper-take');
+    if (takeId && offset === 0) { block.dataset.takeId = takeId; block.tabIndex = -1; }
+  }
   if (speaker) paragraph.append(element('strong', null, `${speaker} · `));
   appendTranscriptText(paragraph, text, ranges, offset);
   block.append(paragraph);
@@ -251,6 +258,7 @@ function flowingIllustration(entry, options, transcript = false) {
 }
 
 export function renderWorksheet(container, entry, format, settings, { answerKey, labels, toolLabels = labels, listenUrl, session }) {
+  if (isPendingReview(entry)) labels = { ...labels, seeTranscript: labels.seeScript, seeTranscriptQuestion: labels.seeScriptQuestion };
   const footers = [];
   const image = imageOptions(entry, settings);
   const evidence = answerKey && (settings?.showEvidence ?? true) ? buildEvidence(entry, evidenceQuestions(entry, settings)) : { byPart: new Map(), byQuestion: new Map() };
@@ -265,10 +273,16 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
   function startPage() {
     const page = element('article', 'paper');
     page.classList.toggle('paper-answer-key', answerKey);
+    page.classList.toggle('paper-review-draft', isPendingReview(entry));
     content = element('div', 'paper-content');
     const footer = element('footer', 'paper-footer');
     footers.push(footer);
     page.append(content, footer);
+    if (isPendingReview(entry)) {
+      const watermark = element('span', 'paper-review-watermark', labels.reviewPending);
+      watermark.setAttribute('aria-hidden', 'true');
+      page.append(watermark);
+    }
     container.append(page);
   }
 
@@ -379,19 +393,16 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
   }
 
   if (answerKey) {
-    const transcript = entry.transcript ?? [];
-    const parts = entry.introduction
-      ? [{ speaker: labels.introduction, text: entry.introduction }, ...transcript]
-      : transcript;
+    const parts = reviewScript(entry, labels, session);
     const placePart = (part, heading) => {
       const ranges = evidence.byPart.get(part.id);
       placeBlock(transcriptBlock(part, heading, ranges), () => {
-        placeText(part.text, (text, first, offset) => transcriptBlock({ text, speaker: first && part.speaker }, first && heading, ranges, offset));
+        placeText(part.text, (text, first, offset) => transcriptBlock({ text, speaker: first && part.speaker, kind: part.kind, takeId: part.takeId }, first && heading, ranges, offset));
       });
     };
     if (image.visible && parts.length) placeBlock(flowingIllustration(entry, image, true));
     parts.forEach((part, index) => {
-      const heading = index === 0 ? labels.transcript : '';
+      const heading = index === 0 ? isPendingReview(entry) ? labels.productionScript : labels.transcript : '';
       placePart(part, heading);
     });
   }
