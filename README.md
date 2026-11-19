@@ -20,7 +20,7 @@ La següent proposta és [S015 · Una restauradora ens explica el seu ofici](htt
 
 La proposta de ràdio **ca-S008R · La foto que faltava · Històries amb sentit** ja es pot [obrir directament](https://sentit.ortogra.fi/#lectura=ca-S008R). Té fitxa, sis preguntes i solucionari amb el guió complet: benvinguda, relat, comiat i anotacions de música, efectes i pauses intercalades. El codi original ca-S008 conserva l’àudio i els enllaços existents.
 
-S015 i S023 mostren «Pendent de validar» sobre la targeta i a cada pàgina del preview. Es poden obrir, maquetar i revisar, però la impressió està desactivada. La impressió del navegador també mostra un avís en lloc del material. No es genera cap QR mentre no hi ha àudio.
+S015 i S023 mostren «Pendent de validar» sobre la targeta i a cada pàgina del preview. S’obren directament al solucionari, amb el guió i l’escaleta abans de les preguntes i respostes. Es poden obrir, maquetar i revisar, però la impressió està desactivada. La impressió del navegador també mostra un avís en lloc del material. No es genera cap QR mentre no hi ha àudio.
 
 Al costat del preview, **Talls per a Gemini** identifica cada presa, n’indica les frases inicial i final, les preses conservades i les peticions noves previstes. En prémer un tall s’obre el solucionari i se’n localitza la marca al guió. El mateix guió inclou els límits de les preses; les anotacions no són text per sintetitzar. S008R ja ha consumit **1** petició. La nova previsió pendent és S015: **1** per al títol i tot el diàleg; S023: **2**. No inclou possibles reintents o canvis demanats després de l’audició. S008R ja té àudio en revisió d’audició; S015 i S023 continuen bloquejats per a síntesi fins a validar-los.
 

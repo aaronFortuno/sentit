@@ -353,6 +353,23 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
     if (settings?.showInstructions ?? true) placeBlock(element('p', 'paper-instructions', worksheetInstructions(entry, session)));
   }
 
+  function placeTranscript() {
+    const parts = reviewScript(entry, labels, session);
+    const placePart = (part, heading) => {
+      const ranges = evidence.byPart.get(part.id);
+      placeBlock(transcriptBlock(part, heading, ranges), () => {
+        placeText(part.text, (text, first, offset) => transcriptBlock({ text, speaker: first && part.speaker, kind: part.kind, takeId: part.takeId }, first && heading, ranges, offset));
+      });
+    };
+    if (image.visible && parts.length) placeBlock(flowingIllustration(entry, image, true));
+    parts.forEach((part, index) => {
+      const heading = index === 0 ? isPendingReview(entry) ? labels.productionScript : labels.transcript : '';
+      placePart(part, heading);
+    });
+  }
+
+  if (answerKey && isPendingReview(entry)) placeTranscript();
+
   let number = 0;
   entry.questions.forEach((question, index) => {
     const { id, included, lines } = questionFormat(question, index, settings);
@@ -396,20 +413,7 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
     }
   }
 
-  if (answerKey) {
-    const parts = reviewScript(entry, labels, session);
-    const placePart = (part, heading) => {
-      const ranges = evidence.byPart.get(part.id);
-      placeBlock(transcriptBlock(part, heading, ranges), () => {
-        placeText(part.text, (text, first, offset) => transcriptBlock({ text, speaker: first && part.speaker, kind: part.kind, takeId: part.takeId }, first && heading, ranges, offset));
-      });
-    };
-    if (image.visible && parts.length) placeBlock(flowingIllustration(entry, image, true));
-    parts.forEach((part, index) => {
-      const heading = index === 0 ? isPendingReview(entry) ? labels.productionScript : labels.transcript : '';
-      placePart(part, heading);
-    });
-  }
+  if (answerKey && !isPendingReview(entry)) placeTranscript();
 
   footers.forEach((footer, index) => {
     const label = index === 0 ? 'sentit.ortogra.fi' : entry.title;

@@ -1,5 +1,9 @@
 # Canvis
 
+## 0.1.26 · 19 de novembre de 2026
+
+- Les propostes pendents de validar s’obren directament al solucionari. El guió i l’escaleta apareixen abans de les preguntes i respostes per facilitar la revisió.
+
 ## 0.1.25 · 19 de novembre de 2026
 
 - S008R: guió i muntatge validats explícitament pel docent. Àudio complet amb una única petició a Gemini (293 mots; 513 tokens d’entrada i 2.373 d’àudio), presentació reutilitzada, entrada musical, fons atenuat sota la veu, pàgina i comiat. Fragment de 99,77 s; fitxer amb títol de 104,88 s. En revisió d’audició.
