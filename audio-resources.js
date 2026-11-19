@@ -4,10 +4,11 @@ const original = { title: 'Sentit · síntesi i muntatge originals amb FFmpeg', 
 
 // Only resources actually heard in the published master. Future cue sheets live in docs/.
 export const audioResources = {
+  'ca-S015': { voices: 'Puck: Biel, entrevistador i presentació. Kore: Nora, restauradora. Una única petició per al títol i tot el diàleg, amb separació local dins un silenci comprovat. Guió i escaleta validats; àudio pendent d’audició docent.', sounds: 'Sintonia breu a l’entrada i a la sortida, ambient de sala molt baix al primer torn i un moviment discret de pàgina. Veu neta a les explicacions tècniques. Tots els sons són originals procedurals, sense gravacions externes.', recipe: 'tools/render-interview.cjs' },
   'ca-S008R': { voices: 'Aoede: una única narradora adulta, sense nom al relat. Presentació reutilitzada de S008. Una petició nova per a tot el programa; àudio pendent d’audició docent.', sounds: 'Separador de ràdio original de dos segons, base instrumental amb atenuació sota la veu, pas de pàgina i comiat musical. Síntesi i muntatge locals amb FFmpeg, sense gravacions externes.', recipe: 'tools/render-radio.cjs' },
   'ca-S001': { voices: 'Leda (Laia), Puck (Biel); Aoede (presentació).', sounds: 'Tocs de ràdio i sintonia final originals. Sintonia inicial opcional de Sentit.' },
   'ca-S002': { voices: 'Aoede (mestra i presentació).', sounds: 'Separacions entre passos i sintonia inicial opcional de Sentit.' },
-  'ca-S008': { voices: 'Aoede (una única narradora, sense nom en el relat; també la presentació). L’Aina i l’avi són personatges narrats, sense veu pròpia.', sounds: 'Base instrumental suau, transició de paper i sintonia inicial opcional originals de Sentit. La versió de programa de ràdio amb benvinguda i comiat encara és una proposta.' },
+  'ca-S008': { voices: 'Aoede (una única narradora, sense nom en el relat; també la presentació). L’Aina i l’avi són personatges narrats, sense veu pròpia. Àudio pendent d’audició docent.', sounds: 'Base instrumental suau, transició de paper i sintonia inicial opcional originals de Sentit. La versió de programa de ràdio amb benvinguda i comiat està disponible amb el codi ca-S008R, també pendent d’audició.' },
 };
 
 export function renderAudioResources(root, entry, t) {

@@ -93,10 +93,18 @@ async function main() {
     if(productionPlans[entry.code]?.strategy==='packed-title-dialogue-v1'){
       const {spec:packedSpec,packedInterviewRequest}=require('./interview-production.cjs');
       const payload=packedInterviewRequest(entry);
-      console.log(JSON.stringify({code:entry.code,mode:'packed-title-dialogue',newRequests:1,textItems:payload.input[0].content.length,localCuts:entry.generationPlan.localCuts.map(cut=>({id:cut.id,after:cut.after})),validation:productionPlans[entry.code].status,fingerprint:fingerprint(entry,packedSpec,productionPlans[entry.code])}));
+      console.log(JSON.stringify({code:entry.code,mode:'packed-title-dialogue',newRequests:entry.audio?0:1,textItems:payload.input[0].content.length,localCuts:entry.generationPlan.localCuts.map(cut=>({id:cut.id,after:cut.after})),validation:productionPlans[entry.code].status,fingerprint:fingerprint(entry,packedSpec,productionPlans[entry.code])}));
       if(planOnly)continue;
       assertProductionApproved(entry,packedSpec,productionPlans[entry.code]);
-      throw Error('Cal preparar el muntatge de la nova versió amb dues veus abans d’executar-la. Cap petició enviada.');
+      throw Error('Utilitza tools/produce-interview.cjs --synthesize i tools/render-interview.cjs. La presa completa es reutilitza sense cap petició nova.');
+    }
+    if(productionPlans[entry.code]?.strategy==='packed-title-news-v1'){
+      const {spec:packedSpec,packedNewsRequest}=require('./news-production.cjs');
+      const payload=packedNewsRequest(entry);
+      console.log(JSON.stringify({code:entry.code,mode:'packed-title-news',newRequests:1,textItems:payload.input[0].content.length,localCuts:entry.generationPlan.localCuts.map(cut=>({id:cut.id,after:cut.after})),validation:productionPlans[entry.code].status,fingerprint:fingerprint(entry,packedSpec,productionPlans[entry.code])}));
+      if(planOnly)continue;
+      assertProductionApproved(entry,packedSpec,productionPlans[entry.code]);
+      throw Error('Cal preparar el muntatge de la notícia validada abans d’executar-la. Cap petició enviada.');
     }
     const folder = path.join(outputDirectory, entry.code.toLowerCase());
     if (!planOnly) await fs.mkdir(folder, { recursive: true });

@@ -27,6 +27,9 @@
 .catalog-layout { min-height: 0; display: grid; grid-template-columns: 225px minmax(0, 1fr); gap: 22px; }
 .catalog-view .catalog { grid-area: auto; max-height: none; padding: 16px 19px 16px 16px; }
 .catalog-view #filters { grid-template-columns: minmax(0, 1fr); gap: 10px; padding-bottom: 0; }
+.filter-panel-wrap { position: relative; }
+#filter-panel > summary { min-height: 28px; padding-inline-end: 35px; }
+.filter-reset { position: absolute; inset-block-start: 0; inset-inline-end: 0; z-index: 1; width: 28px; height: 28px; padding: 5px; border-color: transparent; background: transparent; color: var(--quiet); }
 .catalog-collections { border-top: 1px solid var(--line); margin-top: 18px; padding-top: 15px; }
 .catalog-collections label { display: block; margin-top: 12px; }
 .catalog-collections .button { width: 100%; margin-top: 10px; }

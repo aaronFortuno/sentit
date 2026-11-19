@@ -2,9 +2,9 @@ export const restauradora = {
   id: 'una-restauradora-ens-explica-el-seu-ofici', code: 'S015', language: 'ca',
   title: 'Una restauradora ens explica el seu ofici',
   summary: 'En Biel entrevista la Nora per descobrir com s’observa, es documenta i es conserva una obra.',
-  grade: '5', level: 'middle', genre: 'interview', seconds: 0,
-  status: 'awaiting-audio',
-  reviewStatus: 'pending',
+  grade: '5', level: 'middle', genre: 'interview', seconds: 140,
+  status: 'ready-for-review',
+  reviewStatus: 'audio-review',
   generationPlan: {
     note: 'Una sola petició nova proposada: presentació i entrevista juntes, amb Puck per a en Biel i Kore per a la Nora. Després se separaran el títol i el cos en local. La presa antiga amb Aoede es conserva per comparar, però no es barrejarà amb aquesta versió. Les locucions generals i les pauses de sessió utilitzen pistes existents i temporitzadors.',
     takes: [
@@ -20,10 +20,17 @@ export const restauradora = {
     'Només hi haurà música a l’entrada i a la sortida. Durant les respostes tècniques es prioritzarà la veu neta. Els pocs sons de taller són detalls d’ambient originals i no han de donar cap resposta ni suggerir que s’està aplicant un tractament a una obra.',
   ],
   durationEstimate: { min: 150, max: 180 },
-  audio: null,
+  audio: './assets/audio/s015-restauradora-v1.mp3',
+  tracks: { introduction: './assets/audio/s015-restauradora-v1-intro.mp3', body: './assets/audio/s015-restauradora-v1-cos.mp3' },
+  recordingCues: [
+    { before: 'presentacio', text: '[Breu sintonia original i ambient molt baix de taller; la sintonia acaba abans de la pregunta.]' },
+    { before: 'observar', text: '[L’ambient desapareix. La Nora explica el procediment amb la veu neta.]' },
+    { before: 'exemple', text: '[Un moviment de pàgina discret coincideix breument amb les primeres paraules d’en Biel.]' },
+    { after: 'tancament', text: '[Després de la veu, marge breu, sintonia de sortida i silenci.]' },
+  ],
   image: { src: './assets/images/una-restauradora-ens-explica-el-seu-ofici-v2.webp', alt: 'En Biel entrevista la restauradora Nora al seu taller.', width: 1536, height: 1024 },
   introduction: 'Comprensió oral. Una restauradora ens explica el seu ofici.',
-  fragment: { start: 0, seconds: 0 },
+  fragment: { start: 5.17, seconds: 134 },
   transcript: [
     { kind: 'direction', text: 'Entrada de l’entrevista: breu sintonia original i ambient de sala tranquil·la. La sintonia acaba abans de la primera pregunta; l’ambient baixa i desapareix quan la Nora comença a explicar el procediment.' },
     { id: 'presentacio', speaker: 'Entrevistador', text: 'Avui visitem el taller de la Nora, que treballa restaurant obres d’art. A la taula hi té una pintura antiga. Jo m’imaginava que una restauradora començava de seguida amb els pinzells. Nora, què és el primer que fas quan t’arriba una obra?' },

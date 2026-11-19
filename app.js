@@ -3,7 +3,7 @@ import { strings } from './locales.js';
 import { defaultFormat, imageOptions, maxLines, questionFormat, renderWorksheet } from './worksheet.js';
 import { clockTime, decodeSession, defaultSession, encodeSession, guidedPrompts, validRate } from './session.js';
 import { renderAudioResources } from './audio-resources.js';
-import { isPendingReview } from './review.js';
+import { isPendingReview, needsReview } from './review.js';
 import { renderGenerationPlan } from './generation-plan.js';
 import { startAnalytics, track, countBucket, excluded, setExcluded, restriction } from './analytics.js';
 import { mountErrorReport } from './error-report.js';
@@ -288,7 +288,7 @@ function showActivity(entry, collectionId = '') {
   currentSettings = saved.settings ?? {};
   track('obre_comprensio',{code:entry.code,colleccio:Boolean(activeCollectionId),maquetat:Boolean(activeCollectionId?collection?.layouts?.[entry.id]:activitySettings[entry.id])});
   applyFormat(saved.format);
-  documentMode = isPendingReview(entry) ? 'answers' : 'worksheet';
+  documentMode = needsReview(entry) ? 'answers' : 'worksheet';
   byId('catalog-view').hidden = true;
   byId('workspace').hidden = false;
   byId('layout-status').textContent = '';

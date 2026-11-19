@@ -28,6 +28,7 @@ function wave() {
     const page=await context.newPage(); page.on('pageerror',error=>errors.push(error.message));
     const settle=()=>page.evaluate(()=>Promise.all(document.getAnimations().map(animation=>animation.finished.catch(()=>{}))));
     await page.goto(base+'#lectura=ca-S008');
+    await page.locator('#worksheet-mode').click();
     await page.locator('#audio-rate').waitFor();
     assert.equal(await page.locator('#audio-rate option').count(),9);
     await page.locator('#audio-rate').selectOption('0.85');

@@ -8,9 +8,13 @@ El projecte es manté a la sèrie **0.1.x** mentre es revisen les primeres activ
 
 ## Última producció i següent revisió
 
+[Taula de seguiment per fases](docs/seguiment-produccio.md): codi, títol, curs, dificultat, durada i cada pas de preparació, validació, síntesi i muntatge. La publicació definitiva requereix validar també l’àudio.
+
+[Escolta S015](https://sentit.ortogra.fi/?escolta=ca-S015): entrevista amb Puck per a en Biel i Kore per a la Nora, amb guió i escaleta validats. Títol i diàleg s’han sintetitzat en **una petició** (601 tokens d’entrada i 3.349 d’àudio). Tall local en un silenci comprovat amb 600 ms de marge a cada costat; es conserva tota la veu. Fragment de **134,49 s** i màster amb títol de **139,66 s**. Sintonia, ambient de sala i pàgina originals. [Manifest de producció](assets/audio/s015-production-manifest.json). L’àudio encara s’ha d’escoltar i validar.
+
 [Escolta S008R](https://sentit.ortogra.fi/?escolta=ca-S008R): programa de ràdio de «La foto que faltava», amb guió i muntatge validats pel docent. S’ha produït amb **una petició**, conservant la presentació existent: 513 tokens d’entrada i 2.373 d’àudio de sortida. El fragment dura **99,77 s** i el fitxer amb títol **104,88 s**. La narradora és Aoede. La música, la pàgina, els solapaments i els silencis són de muntatge local. [Manifest de producció](assets/audio/s008r-production-manifest.json).
 
-La següent proposta és [S015 · Una restauradora ens explica el seu ofici](https://sentit.ortogra.fi/#lectura=ca-S015), pendent de validar. Proposa Puck i Kore, amb el títol i l’entrevista en una única petició. Un tall local dins una pausa separaria després les dues pistes. L’escaleta intercalada i les notes de «Talls per a Gemini» mostren exactament què s’enviaria. S023 continua pendent, amb la seva previsió anterior de dues peticions.
+La següent proposta és [S023 · Reobren el mercat](https://sentit.ortogra.fi/#lectura=ca-S023), pendent de validar. Proposa Erinome per a la Mar i Charon per a en Pau, amb el títol i tota la notícia en una única petició. Un tall local dins una pausa separaria les pistes. L’escaleta intercalada i les notes de «Talls per a Gemini» mostren què s’enviaria, els sons originals previstos i els trams de veu neta. Encara no s’ha sintetitzat.
 
 `node tools/produce-radio.cjs --plan` calcula el pla i comprova la memòria cau sense xarxa. `--synthesize` només envia el bloc aprovat si falta, registra l’intent i té un topall d’una petició, sense reintents automàtics. `node tools/render-radio.cjs` munta la presa conservada i reutilitza la presentació, sense síntesi nova. Les marques de paraula s’obtenen amb el model Vosk de català ja instal·lat localment; `VOSK_ASSETS_PATH` permet indicar una altra carpeta amb `vosk.js` i `vosk-model-small-ca-0.4.tar.gz`. Cal Playwright/Chrome i FFmpeg per al muntatge i les comprovacions locals.
 
@@ -20,19 +24,19 @@ La següent proposta és [S015 · Una restauradora ens explica el seu ofici](htt
 
 La proposta de ràdio **ca-S008R · La foto que faltava · Històries amb sentit** ja es pot [obrir directament](https://sentit.ortogra.fi/#lectura=ca-S008R). Té fitxa, sis preguntes i solucionari amb el guió complet: benvinguda, relat, comiat i anotacions de música, efectes i pauses intercalades. El codi original ca-S008 conserva l’àudio i els enllaços existents.
 
-S015 i S023 mostren «Pendent de validar» sobre la targeta i a cada pàgina del preview. S’obren directament al solucionari, amb el guió i l’escaleta abans de les preguntes i respostes. Es poden obrir, maquetar i revisar, però la impressió està desactivada. La impressió del navegador també mostra un avís en lloc del material. No es genera cap QR mentre no hi ha àudio.
+S023 mostra «Pendent de validar» sobre la targeta i a cada pàgina del preview. S’obre directament al solucionari, amb el guió i l’escaleta abans de les preguntes i respostes. Es pot obrir, maquetar i revisar, però la impressió està desactivada. La impressió del navegador també mostra un avís en lloc del material. No es genera cap QR mentre no hi ha àudio. S008, S008R i S015 mostren «Àudio pendent de validar»: la comprensió està definida, es poden escoltar i imprimir per revisar i conserven l’avís d’esborrany al PDF. També s’obren al solucionari amb la transcripció primer.
 
-Al costat del preview, **Talls per a Gemini** identifica cada presa, n’indica les frases inicial i final, les preses conservades i les peticions noves previstes. En prémer un tall s’obre el solucionari i se’n localitza la marca al guió. El mateix guió inclou els límits de les preses; les anotacions no són text per sintetitzar. S008R ja ha consumit **1** petició. La nova previsió pendent és S015: **1** per al títol i tot el diàleg; S023: **2**. No inclou possibles reintents o canvis demanats després de l’audició. S008R ja té àudio en revisió d’audició; S015 i S023 continuen bloquejats per a síntesi fins a validar-los.
+Al costat del preview pendent, **Talls per a Gemini** identifica cada presa i els talls locals i n’indica les frases inicial i final. En prémer un tall se’n localitza la marca al guió. Les anotacions no són text per sintetitzar. S008R i S015 han consumit **1** petició cadascuna. S023 preveu **1** per al títol i tota la notícia, sense comptar possibles reintents o canvis després de l’audició. Només S023 continua pendent de validació de proposta i bloquejada per a síntesi.
 
 `node tools/check-review.mjs` comprova que els talls cobreixin exactament tot el text parlat, sense duplicacions ni anotacions sonores. `node tools/check-review-ui.cjs` comprova la navegació, els sobreimpresos, les marques d’aigua, els salts als talls, la paginació i el bloqueig d’impressió.
 
 ## Producció sonora i validació
 
-**Abans de qualsevol petició de síntesi cal validar amb el docent el guió complet, les veus i l’escaleta de muntatge, amb música, efectes, solapaments, pauses, presentació i comiat.** La quota gratuïta no s’utilitza per provar guions encara oberts. El generador comprova una empremta d’aquest conjunt: l’aprovació caduca si canvia qualsevol dels elements. Les propostes encara no validades no es reprenen automàticament en restablir-se la quota. S008R té la confirmació registrada i l’àudio produït.
+**Abans de qualsevol petició de síntesi cal validar amb el docent el guió complet, les veus i l’escaleta de muntatge, amb música, efectes, solapaments, pauses, presentació i comiat.** La quota gratuïta no s’utilitza per provar guions encara oberts. El generador comprova una empremta d’aquest conjunt: l’aprovació caduca si canvia qualsevol dels elements. Les propostes encara no validades no es reprenen automàticament en restablir-se la quota. S008R i S015 tenen la confirmació registrada i l’àudio produït, però encara no la validació perceptiva.
 
 [Fonts sonores, llicències, escaletes i procediment](docs/fonts-sonores.md). Les fonts també es poden consultar al desplegable de cada comprensió, sense afegir-les al PDF. V4V incorpora el mateix accés.
 
-La revisió 0.1.23 remunta les preses locals de S001, S002 i S008 i les instruccions sense retallar consonants ni consumir síntesi. Els màsters v1 es conserven. S008 té una prova de base instrumental suau; la proposta de programa de ràdio encara no té benvinguda ni comiat enregistrats. La narradora és una única veu no identificada pel relat: Aina i Ferran no compten com a veus participants. La referència de veu d’Aoede al perfil de Mireia no atribueix el nom de Mireia a aquesta narradora.
+La revisió 0.1.23 remunta les preses locals de S001, S002 i S008 i les instruccions sense retallar consonants ni consumir síntesi. Els màsters v1 es conserven. S008 té una prova de base instrumental suau; S008R afegeix la benvinguda i el comiat del programa de ràdio. La narradora és una única veu no identificada pel relat: Aina i Ferran no compten com a veus participants. La referència de veu d’Aoede al perfil de Mireia no atribueix el nom de Mireia a aquesta narradora.
 
 La sintonia inicial és opcional i activa per defecte. Es pot ajustar el ritme entre ×0,80 i ×1,20 en passos de 0,05, conservant el to. El QR i l’enllaç guarden `ritme` i `jingle`; les pauses i les locucions de preparació mantenen la seva durada. La sintonia només sona una vegada, abans de la presentació, i no a cada repetició. Els inicis i finals queden pendents d’audició docent: els marges no poden recuperar un fonema absent en la presa crua.
 
@@ -40,11 +44,11 @@ La sintonia inicial és opcional i activa per defecte. Es pot ajustar el ritme e
 
 «El senyal de la ràdio» és una activitat de nivell accessible per a 5è de primària, amb Leda per a la Laia i Puck per a en Biel. El fragment dura aproximadament 1 minut i 21 segons; amb la presentació, 1 minut i 27 segons. «Canvi de plans» conserva l’àudio i l’enllaç del pilot, però no apareix al catàleg.
 
-La primera tanda afegeix **S002 · Preparem una capsa de records** (3r, instruccions accessibles, 53 segons i 6 preguntes) i **S008 · La foto que faltava** (4t, narració accessible, 1 minut i 28 segons i 6 preguntes). Totes dues tenen àudio, il·lustració, fitxa i solucionari. S015 de 5è i S023 de 6è tenen els guions, preguntes, respostes, pistes i imatges preparats; es poden revisar i maquetar al catàleg amb la marca «Àudio en preparació», sense reproductor ni QR fins a acabar els MP3. [Guions i registre de la primera tanda](docs/primera-tanda.md).
+La primera tanda afegeix **S002 · Preparem una capsa de records** (3r, instruccions accessibles, 53 segons i 6 preguntes) i **S008 · La foto que faltava** (4t, narració accessible, 1 minut i 28 segons i 6 preguntes). Totes dues tenen àudio, il·lustració, fitxa i solucionari. S015 de 5è ja té el muntatge nou, pendent d’audició. S023 de 6è té el guió, les preguntes, les respostes, les pistes i la imatge preparats; es pot revisar i maquetar, sense reproductor ni QR fins a generar el MP3. [Registre històric de la primera tanda](docs/primera-tanda.md) · [Estat actual per fases](docs/seguiment-produccio.md).
 
 La [revisió editorial dels cinc prototips](docs/revisio-editorial-prototips.md) concreta per què s’assigna cada curs i dificultat i què s’accepta a les 38 preguntes. Les respostes orientatives admeten paraules pròpies i diferencien la informació necessària dels detalls addicionals. Es mantenen els guions i els àudios; S008 necessita validar el ritme amb alumnat abans de donar-la per accessible de manera definitiva. Les etiquetes són orientatives i no equivalen a nivells oficials.
 
-- Catàleg amb cinc comprensions i targetes amb icona, color suau i il·lustració de context al fons. La dificultat té un punt verd (accessible), dos blaus (intermèdia) o tres rosats (avançada), sempre acompanyats del text. Cerca per títol o codi i filtres combinables, amb l’idioma del text en primer lloc.
+- Catàleg amb cinc comprensions i la revisió S008R, amb icona, color suau i il·lustració de context al fons. La dificultat té un punt verd (accessible), dos blaus (intermèdia) o tres rosats (avançada), sempre acompanyats del text. Cerca per títol o codi i filtres combinables, amb l’idioma del text en primer lloc. La creu al costat de «Filtres» els neteja sense tancar el desplegable.
 - Ajustos de tipografia, mida, espaiat i interlineat, amb codi d’aula opcional.
 - Controls de línies de resposta i d’amagar preguntes al costat de cada enunciat, quan s’hi passa el ratolí o s’hi accedeix amb el teclat. En pantalla tàctil, el botó de tres punts obre aquests controls. A **Preguntes amagades** es poden recuperar les preguntes excloses.
 - Vista A4 de la fitxa amb QR i del solucionari amb respostes orientatives i transcripció de l’àudio. El diàleg d’impressió permet desar el document seleccionat com a PDF.
@@ -85,7 +89,7 @@ Les presentacions es defineixen a `character.introduction`, amb text, idioma i `
 
 Els [criteris de continuïtat](docs/personatges.md) fixen noms, identitats i episodis independents, sense ordre obligatori ni coneixement previ per respondre. [content/characters.js](content/characters.js) és el registre editorial que alimenta la galeria; els [models i prompts](assets/characters/README.md) serveixen per generar escenes noves sense confondre personatges.
 
-Les candidates no canvien la producció automàticament: la presa parcial de Nora encara és Aoede i el pla anterior de S023 preveu Aoede per a la presentadora. Abans de produir amb el repartiment nou cal provar les candidates i actualitzar les assignacions de síntesi i els crèdits. Els fitxers antics es conserven i no es barregen dues identitats vocals d’un personatge dins del mateix màster.
+Les candidates no canvien la producció automàticament: S015 ha passat a Kore després de validar explícitament el repartiment, i l’àudio continua pendent d’audició. La presa parcial antiga amb Aoede es conserva a l’arxiu. S023 proposa Erinome per a la Mar, encara sense síntesi. Cal actualitzar les assignacions i els crèdits en cada producció, i no barrejar dues identitats vocals d’un personatge dins del mateix màster.
 
 La [prova de veus d’«El senyal de la ràdio»](proves/veus-s001.html) permet comparar les dues primeres intervencions amb Aoede–Charon i Leda–Puck. La comprensió completa fa servir les veus juvenils. Cal ajustar-hi l’edat i el context dels personatges dels guions futurs.
 
@@ -93,7 +97,7 @@ La [revisió del prototip S001](content/el-senyal-de-la-radio-revisio.md) recull
 
 ## Proposta del fons inicial
 
-La [proposta de catàleg](docs/proposta-cataleg.md) planteja 24 activitats de 3r a 6è, amb sis tipologies i un repartiment equilibrat de dificultats. La primera tanda de quatre prototips s’ha autoritzat: S002 i S008 ja es poden escoltar i preparar; S015 i S023 tenen les fitxes accessibles i esperen completar la síntesi. La resta continua com a proposta editorial. La [previsió de cost](docs/cost-produccio.md) calcula escenaris de 100, 200 i 300 activitats, amb marge de repetició i tarifes de 2026 i 2027. No s’ha activat facturació.
+La [proposta de catàleg](docs/proposta-cataleg.md) planteja 24 activitats de 3r a 6è, amb sis tipologies i un repartiment equilibrat de dificultats. De la primera tanda, S002, S008, la revisió S008R i S015 ja es poden escoltar i preparar; S023 té la fitxa accessible i espera validar la proposta abans de sintetitzar. La resta continua com a proposta editorial. La [previsió de cost](docs/cost-produccio.md) calcula escenaris de 100, 200 i 300 activitats, amb marge de repetició i tarifes de 2026 i 2027. No s’ha activat facturació.
 
 ## Desenvolupament
 
@@ -144,14 +148,16 @@ node tools/generate-prototypes.cjs --plan
 node tools/check-audio-plan.cjs
 ```
 
-Una activitat nova fa una petició pel fragment complet, amb tots els paràgrafs i torns de veu, i una per la presentació. Les preses antigues no s’eliminen: els màsters complets es conserven i una activitat parcial reutilitza el prefix disponible i agrupa la resta en una sola petició. La nova proposta de S015 agrupa títol i entrevista en una petició, sense barrejar la Nora de Kore amb la presa antiga d’Aoede. S023 manté dues peticions previstes.
+Les activitats noves agrupen el títol i el fragment en una petició quan comparteixen un màxim de dues veus; després se separen dins una pausa comprovada. Els màsters i les preses antigues es conserven. S015 ja ho ha fet amb Puck i Kore, sense barrejar la presa antiga d’Aoede. S023 segueix la mateixa proposta d’agrupació, encara pendent de validar. El generador antic de dues peticions es conserva per als materials històrics.
 
 Només després de validar el guió, les veus i el muntatge complet i registrar-ne l’empremta aprovada, amb quota disponible, Gemini configurat i FFmpeg disponible:
 
 ```sh
-node tools/generate-prototypes.cjs --generate --only=S015
-node tools/generate-prototypes.cjs --generate --only=S023
+node tools/produce-interview.cjs --synthesize
+node tools/render-interview.cjs
 ```
+
+S015 ja té la presa completa en memòria cau: repetir la primera ordre no torna a enviar-la. `node tools/check-interview.cjs` comprova empremtes, durades, marges del tall, nivells i integritat dels MP3 sense xarxa. S023 només té un pla (`node tools/generate-prototypes.cjs --plan --only=S023`); el generador bloqueja la síntesi sense validació.
 
 Els WAV, registres i màsters de treball es conserven a `../output/sentit-primera-tanda`, fora del repositori. El generador admet `GEMINI_API_KEY` a l’entorn o el fitxer privat de treball `../.private/comprensio-oral/gemini.env`; aquestes dades no s’envien al web. `FFMPEG_PATH` permet indicar el binari si no és al PATH ni a la instal·lació local coneguda. Cal Node amb `fetch` i `parseEnv`.
 

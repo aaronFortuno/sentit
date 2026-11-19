@@ -15,7 +15,7 @@ const {packedRadioRequest,spec}=require('./radio-production.cjs');const {fingerp
   assert.deepEqual(interview.generation_config.speech_config.speakers,[{speaker:'Entrevistador',voice:'Puck'},{speaker:'Nora',voice:'Kore'}]);
   assert(interview.input[0].content[0].text.startsWith(restauradora.introduction+' <long pause>'));
   assert(!JSON.stringify(interview).includes('Entrada de l’entrevista:'));
-  assert.equal(restauradora.reviewStatus,'pending');
+  assert.equal(restauradora.reviewStatus,'audio-review');
   const hash=bytes=>createHash('sha256').update(bytes).digest('hex');
   assert.equal(hash(await fs.readFile(path.resolve(__dirname,'..',entry.tracks.introduction))),report.sourceIntroSha256);
   assert.equal(hash(await fs.readFile(path.resolve(__dirname,'..',entry.audio))),report.sha256);

@@ -8,6 +8,7 @@
 
 .paper-review-draft { position: relative; }
 .paper-review-watermark { position: absolute; z-index: 3; left: 50%; top: 47%; transform: translate(-50%, -50%) rotate(-28deg); color: #9b4935; opacity: .13; font: 700 38pt/1.1 "Segoe UI", sans-serif; white-space: nowrap; pointer-events: none; user-select: none; }
+.paper-audio-review .paper-review-watermark { color: #446c77; font-size: 31pt; opacity: .12; }
 .paper .paper-review-label { color: #8a4934; font: 600 9pt/1.35 "Segoe UI", sans-serif; }
 .paper-direction .paper-transcript { padding: 2mm 3mm; border-inline-start: 2px solid #bcc5bf; background: #f2f4f1; color: #526158; font-style: italic; }
 .paper-sound-cue .paper-transcript { color: #526158; font-style: italic; }

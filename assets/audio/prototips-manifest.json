@@ -1,6 +1,6 @@
 {
   "created": "2026-11-18",
-  "state": "partially-produced-awaiting-script-validation",
+  "state": "partially-produced-awaiting-validation",
   "review": "teacher-listening-pending",
   "activities": [
     {
@@ -123,13 +123,87 @@
     {
       "code": "S015",
       "activity": "ca-S015",
-      "state": "awaiting-audio",
-      "script": "content/una-restauradora-ens-explica-el-seu-ofici.js",
-      "durationEstimate": {
-        "min": 150,
-        "max": 180
+      "date": "2026-11-19T21:48:20.742Z",
+      "state": "awaiting-audio-validation",
+      "model": "gemini-3.8-flash-tts",
+      "voices": {
+        "Entrevistador": "Puck",
+        "Nora": "Kore"
       },
-      "plannedNewRequests": 2
+      "newSynthesisRequests": 1,
+      "approvalFingerprint": "0e3590fc25c569f7497a98047fb0fbe3ef9490e05592641d160b219c1d98ef95",
+      "requestHash": "9b17e4318a021e468dcb14fe30e845955d743679a56d151b88425c3836f228f3",
+      "rawSha256": "efe4f1268310712422877b86ecd8a5044b36799e2ad3e175c9b679cd2f9f1b8f",
+      "usage": {
+        "total_tokens": 3950,
+        "total_input_tokens": 601,
+        "input_tokens_by_modality": [
+          {
+            "modality": "text",
+            "tokens": 601
+          }
+        ],
+        "total_cached_tokens": 0,
+        "total_output_tokens": 3349,
+        "output_tokens_by_modality": [
+          {
+            "modality": "audio",
+            "tokens": 3349
+          }
+        ],
+        "total_tool_use_tokens": 0,
+        "total_thought_tokens": 0,
+        "initial_input_tokens": 601
+      },
+      "rawDuration": 133.96,
+      "cut": {
+        "at": 4.62,
+        "previousWordEnd": 4.02,
+        "nextWordStart": 5.22,
+        "peakDbFS": -50.4,
+        "rawSamplesPreserved": true
+      },
+      "file": "s015-restauradora-v1.mp3",
+      "introFile": "s015-restauradora-v1-intro.mp3",
+      "bodyFile": "s015-restauradora-v1-cos.mp3",
+      "offset": 5.17,
+      "bodyDuration": 134.49,
+      "fullDuration": 139.66,
+      "lufs": -18.6,
+      "peakDbTP": -2.9,
+      "voice": {
+        "bodyLead": 2.25,
+        "bodyRawDuration": 129.34,
+        "untrimmedApartFromSilenceSplit": true,
+        "retimed": false
+      },
+      "effects": [
+        {
+          "name": "workshop-opening",
+          "start": 0,
+          "end": 2,
+          "origin": "original-procedural"
+        },
+        {
+          "name": "quiet-workshop",
+          "start": 0,
+          "end": 15.54,
+          "origin": "original-procedural"
+        },
+        {
+          "name": "notebook-page",
+          "start": 55.99,
+          "end": 56.49,
+          "origin": "original-procedural"
+        },
+        {
+          "name": "workshop-ending",
+          "start": 131.89000000000001,
+          "end": 133.89000000000001,
+          "origin": "original-procedural"
+        }
+      ],
+      "sha256": "0dd659920cdbb3a9976a5badc046b5269b737d4d8c32e2ff8ca6b8f463d1186a"
     },
     {
       "code": "S023",

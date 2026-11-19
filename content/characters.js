@@ -61,7 +61,7 @@ export const characters = [
     personality: 'Pacient i precisa. Sap explicar per què pren una decisió i admet quan necessita investigar o consultar algú.',
     interests: 'Els materials, els objectes amb història, els oficis i la conservació del patrimoni.',
     delivery: 'Adulta i serena, precisa sense rigidesa. La fermesa del timbre no ha de convertir-la en una veu autoritària.',
-    appearances: [{ code: 'ca-S015', speaker: 'Nora', kind: 'direct', currentVoice: 'Aoede', note: 'La mostra actual de S015 encara utilitza Aoede. La proposta de veu Kore està pendent d’audició.' }],
+    appearances: [{ code: 'ca-S015', speaker: 'Nora', kind: 'direct', currentVoice: 'Kore', note: 'El nou muntatge de S015 utilitza Kore. Àudio pendent d’audició docent; la presa antiga amb Aoede es conserva només com a arxiu de producció.' }],
   },
   {
     id: 'mar', name: 'Mar', role: 'Periodista · informació i barri', age: 'Adulta, entorn dels 35 anys',
