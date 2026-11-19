@@ -1,0 +1,79 @@
+{
+  "code": "S008R",
+  "date": "2026-11-19T16:20:53.538Z",
+  "state": "ready-for-teacher-listening",
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "Narradora": "Aoede"
+  },
+  "newSynthesisRequests": 1,
+  "reusedIntroduction": "./assets/audio/s008-la-foto-que-faltava-v2-intro.mp3",
+  "sourceIntroSha256": "e1e9916f239eebf9909711c5fdec9e96114be5e7229a80832ea47edbe0dc98a9",
+  "rawSha256": "0b0abcdf5e0067dc5011a25ea4544c0cbb210949a0a6d45f64560411fd65e5c2",
+  "requestHash": "22c4be29fc47b44ac1efae507182b7950bf8bd490eb38d86a28f159c400a64b7",
+  "approvalFingerprint": "920b2ba1f9642cf0e88dbd39c8d7b378b5b0f75711a2f2037d6ca5e476736ba6",
+  "usage": {
+    "total_tokens": 2886,
+    "total_input_tokens": 513,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 513
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 2373,
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 2373
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 0,
+    "initial_input_tokens": 513
+  },
+  "file": "s008r-la-foto-que-faltava-radio-v1.mp3",
+  "bodyFile": "s008r-la-foto-que-faltava-radio-v1-cos.mp3",
+  "offset": 5.11,
+  "bodyDuration": 99.77,
+  "fullDuration": 104.88,
+  "lufs": -19.8,
+  "peakDbTP": -2.8,
+  "voice": {
+    "untrimmed": true,
+    "start": 2.25,
+    "duration": 94.92,
+    "end": 97.17
+  },
+  "effects": [
+    {
+      "name": "program-opening",
+      "start": 0,
+      "end": 2,
+      "origin": "original-procedural"
+    },
+    {
+      "name": "instrumental-bed",
+      "start": 0,
+      "end": 99.17,
+      "duckedUnderSpeech": true,
+      "origin": "original-procedural"
+    },
+    {
+      "name": "page-turn",
+      "start": 50.25,
+      "end": 50.75,
+      "overlapsSpeech": true,
+      "origin": "original-procedural"
+    }
+  ],
+  "alignment": {
+    "engine": "vosk-model-small-ca-0.4",
+    "words": 290,
+    "pageCue": 48.15,
+    "finalWord": "programa",
+    "finalWordEnd": 94.65
+  },
+  "sha256": "804487e0bfffdc6d64ed15050ae3f9885b1eeb1082dd27ed1c00946a67754837"
+}

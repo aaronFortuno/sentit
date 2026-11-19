@@ -4,6 +4,7 @@ import { animateRefresh, closeDialog, openDialog, setDetailsOpen, setDisclosure 
 import { mountCatalogGestures } from './catalog-gestures.js';
 import { characters, matchesCharacters } from './content/characters.js';
 import { isPendingReview } from './review.js';
+import { track, countBucket } from './analytics.js';
 
 const normalise = value => value.toLocaleLowerCase().normalize('NFD').replace(/\p{M}/gu, '');
 const activeKey = 'sentit.collection.active.v1';
@@ -168,6 +169,7 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
       }
       const context = element('div', undefined, 'activity-card-context');
       context.append(element('span', t('grades')[entry.grade] ?? entry.grade, 'meta'));
+      if(entry.reviewStatus==='audio-review')context.append(element('span',t('audioReview'),'activity-card-status'));
       if (!entry.audio) context.append(element('span', t('audioPending'), 'activity-card-status'));
       const footer = element('div', undefined, 'activity-card-bottom');
       const duration = element('span', undefined, 'activity-duration');
@@ -275,10 +277,11 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
     [...grid.children].find(card => card.dataset.id === id)?.focus({ preventScroll: true });
   }
 
-  function commit(change, focusId, message) {
+  function commit(change, focusId, message, action) {
     const scrollTop = scroller.scrollTop;
     try {
       change();
+      if(action)track('colleccio',{accio:action});
       render();
       byId('catalog-status').textContent = '';
       byId('catalog-card-status').textContent = message;
@@ -303,7 +306,7 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
       const previous = [...grid.children].findLast(card => card.dataset.id !== id);
       beforeId = afterReading(previous?.dataset.id, id);
     }
-    commit(() => moveCollectionReading(collectionId, id, beforeId), id, t('collectionReordered'));
+    commit(() => moveCollectionReading(collectionId, id, beforeId), id, t('collectionReordered'),'reordena');
   }
 
   gestures = mountCatalogGestures({
@@ -317,7 +320,7 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
       const neighbour = visible[position + step];
       if (!neighbour) return;
       const beforeId = step < 0 ? neighbour.id : afterReading(neighbour.id, id);
-      commit(() => moveCollectionReading(collectionId, id, beforeId), id, t('collectionReordered'));
+      commit(() => moveCollectionReading(collectionId, id, beforeId), id, t('collectionReordered'),'reordena');
     },
     onAdd(id, target, name) {
       try {
@@ -325,6 +328,7 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
         const collection = saveCollectionEntries(name, [entry], { [id]: snapshot(entry, collectionId) }, target);
         // Keep the menu's anchor alive while adding to more than one collection.
         updatePicker();
+        track('colleccio',{accio:target?'afegeix':'crea',quantitat:'1'});
         onCollectionsChange();
         return { ok: true, message: t('activityAdded')(collection.name) };
       } catch (error) { return { ok: false, message: errorMessage(error) }; }
@@ -332,7 +336,7 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
     onRemove(id) {
       const position = matches.findIndex(entry => entry.id === id);
       const next = matches[position + 1] ?? matches[position - 1];
-      commit(() => removeCollectionReading(collectionId, id), next?.id, t('activityRemoved'));
+      commit(() => removeCollectionReading(collectionId, id), next?.id, t('activityRemoved'),'retira');
     },
   });
 
@@ -367,7 +371,7 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
   byId('character-filter-clear').addEventListener('click', () => { selectedCharacters.clear(); byId('character-match').value = 'any'; refresh(); byId('character-filter').querySelector('summary').focus(); });
   byId('search').addEventListener('input', refresh);
   byId('catalog-more').addEventListener('click', () => { gestures.close(); limit += 12; renderCards(); });
-  byId('collection-select').addEventListener('change', event => setCollection(event.target.value));
+  byId('collection-select').addEventListener('change', event => {setCollection(event.target.value);track('colleccio',{accio:'selecciona',quantitat:countBucket(currentCollection()?.readingIds.length??0)});});
   byId('collection-save').addEventListener('click', () => startSelection());
   byId('collection-add').addEventListener('click', () => startSelection(collectionId));
   byId('selection-all').addEventListener('click', () => { for (const entry of matches) selectedIds.add(entry.id); renderSelection(); });
@@ -380,6 +384,7 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
       const readings = sourceEntries().filter(entry => selectedIds.has(entry.id));
       const layouts = Object.fromEntries(readings.map(entry => [entry.id, snapshot(entry, selectionSource)]));
       const collection = saveCollectionEntries(byId('collection-name').value, readings, layouts, byId('collection-target').value);
+      track('colleccio',{accio:byId('collection-target').value?'afegeix':'crea',quantitat:countBucket(readings.length)});
       setCollection(collection.id);
       closeDialog(dialog, () => byId('collection-add').focus({ preventScroll: true }));
       onCollectionsChange();
@@ -395,7 +400,7 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
   });
   byId('collection-rename').addEventListener('submit', event => {
     event.preventDefault();
-    commit(() => renameCollection(collectionId, byId('collection-rename-name').value), undefined, t('collectionRenamed'));
+    commit(() => renameCollection(collectionId, byId('collection-rename-name').value), undefined, t('collectionRenamed'),'canvia_nom');
     if (!byId('catalog-status').textContent) {
       setDisclosure(byId('collection-rename'), false);
       byId('collection-rename-toggle').setAttribute('aria-expanded', 'false');
@@ -405,7 +410,7 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
   byId('collection-delete').addEventListener('click', () => {
     const entry = currentCollection();
     if (!entry || !confirm(t('collectionDeleteConfirm')(entry.name))) return;
-    try { removeCollection(collectionId); setCollection(''); onCollectionsChange(); }
+    try { removeCollection(collectionId);track('colleccio',{accio:'elimina'}); setCollection(''); onCollectionsChange(); }
     catch (error) { byId('catalog-status').textContent = errorMessage(error); }
   });
   window.addEventListener('storage', event => {

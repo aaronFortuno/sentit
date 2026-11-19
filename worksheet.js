@@ -180,6 +180,9 @@ function questionTools(id, number, count, answerKey, labels) {
     actions.append(less, element('span', 'paper-question-units', count), more);
   }
   actions.append(button('hide', '×', labels.questionHide(number)));
+  const report=button('report','',labels.reportQuestion(number));
+  report.innerHTML='<svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M4 22V3m0 0c4-4 8 4 12 0v12c-4 4-8-4-12 0" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  actions.append(report);
   tools.append(toggle, actions);
   return tools;
 }
@@ -214,8 +217,9 @@ function transcriptBlock({ speaker, text, kind, takeId }, heading, ranges, offse
   if (heading) block.append(element('h4', 'paper-section-title', heading));
   const paragraph = element('p', 'paper-transcript');
   if (kind === 'direction') block.classList.add('paper-direction');
-  if (kind === 'take') {
-    block.classList.add('paper-take');
+  if (kind === 'sound') block.classList.add('paper-sound-cue');
+  if (kind === 'take' || kind === 'local-cut') {
+    block.classList.add(kind === 'take' ? 'paper-take' : 'paper-local-cut');
     if (takeId && offset === 0) { block.dataset.takeId = takeId; block.tabIndex = -1; }
   }
   if (speaker) paragraph.append(element('strong', null, `${speaker} · `));

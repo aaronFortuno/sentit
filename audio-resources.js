@@ -4,6 +4,7 @@ const original = { title: 'Sentit · síntesi i muntatge originals amb FFmpeg', 
 
 // Only resources actually heard in the published master. Future cue sheets live in docs/.
 export const audioResources = {
+  'ca-S008R': { voices: 'Aoede: una única narradora adulta, sense nom al relat. Presentació reutilitzada de S008. Una petició nova per a tot el programa; àudio pendent d’audició docent.', sounds: 'Separador de ràdio original de dos segons, base instrumental amb atenuació sota la veu, pas de pàgina i comiat musical. Síntesi i muntatge locals amb FFmpeg, sense gravacions externes.', recipe: 'tools/render-radio.cjs' },
   'ca-S001': { voices: 'Leda (Laia), Puck (Biel); Aoede (presentació).', sounds: 'Tocs de ràdio i sintonia final originals. Sintonia inicial opcional de Sentit.' },
   'ca-S002': { voices: 'Aoede (mestra i presentació).', sounds: 'Separacions entre passos i sintonia inicial opcional de Sentit.' },
   'ca-S008': { voices: 'Aoede (una única narradora, sense nom en el relat; també la presentació). L’Aina i l’avi són personatges narrats, sense veu pròpia.', sounds: 'Base instrumental suau, transició de paper i sintonia inicial opcional originals de Sentit. La versió de programa de ràdio amb benvinguda i comiat encara és una proposta.' },
@@ -21,7 +22,7 @@ export function renderAudioResources(root, entry, t) {
       add('h4', label);
       const p = add('p', text); p.lang = 'ca';
       const attribution = add('p', '');
-      link(attribution, source.title, source.url);
+      link(attribution, source.title, source===original&&record.recipe?repo+record.recipe:source.url);
       attribution.append(document.createTextNode(' · '));
       link(attribution, source.license, source.licenseUrl);
     }

@@ -59,7 +59,7 @@ assert.deepEqual(matchesCast(['biel'], 'any'), ['S001', 'S015']);
 assert.deepEqual(matchesCast(['laia', 'biel'], 'any'), ['S001', 'S015']);
 assert.deepEqual(matchesCast(['laia', 'biel'], 'all'), ['S001']);
 assert.deepEqual(matchesCast(['laia', 'nora'], 'all'), []);
-assert.deepEqual(matchesCast(['mireia'], 'any'), ['S002', 'S008']);
+assert.deepEqual(matchesCast(['mireia'], 'any'), ['S002', 'S008', 'S008R']);
 assert.deepEqual(matchesCast(['invalid'], 'any'), []);
 assert.deepEqual(charactersForActivity(activities.find(entry => entry.code === 'S008')).map(character => character.id), ['mireia'], 'S008 has one narrator voice, no voices for the narrated characters');
 assert.deepEqual(matchesCast(['ferran'], 'any'), []);

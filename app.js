@@ -5,6 +5,8 @@ import { clockTime, decodeSession, defaultSession, encodeSession, guidedPrompts,
 import { renderAudioResources } from './audio-resources.js';
 import { isPendingReview } from './review.js';
 import { renderGenerationPlan } from './generation-plan.js';
+import { startAnalytics, track, countBucket, excluded, setExcluded, restriction } from './analytics.js';
+import { mountErrorReport } from './error-report.js';
 import { initGuidedPlayer } from './guided-player.js';
 import { mountCatalog } from './catalog.js';
 import { listCollections, saveCollectionLayout } from './collections.js';
@@ -28,6 +30,7 @@ let activeCollectionId = '';
 let currentSettings = {};
 let documentMode = 'worksheet';
 const t = key => strings[language][key];
+const errorReporter=mountErrorReport(byId('error-report-dialog'),t);
 const query = new URL(location.href).searchParams;
 const listenId = query.get('escolta');
 const listenKey = entry => `${entry.language}-${entry.code}`;
@@ -96,6 +99,7 @@ function listenUrl(entry, base = location.href) {
 }
 
 const icons = {
+  flag:'<path d="M4 22V3m0 0c4-4 8 4 12 0v12c-4 4-8-4-12 0"/>',
   sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.4 1.4m11.2 11.2L19 19m0-14-1.4 1.4M6.4 17.6 5 19"/>',
   moon: '<path d="M20.9 13.35A9 9 0 1 1 10.65 3.1a7 7 0 0 0 10.25 10.25Z"/>',
   languages: '<path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="M2 5h12"/><path d="M7 2h1"/><path d="m22 22-5-10-5 10"/><path d="M14 18h6"/>',
@@ -282,6 +286,7 @@ function showActivity(entry, collectionId = '') {
   selected = entry;
   const saved = snapshot(entry, activeCollectionId);
   currentSettings = saved.settings ?? {};
+  track('obre_comprensio',{code:entry.code,colleccio:Boolean(activeCollectionId),maquetat:Boolean(activeCollectionId?collection?.layouts?.[entry.id]:activitySettings[entry.id])});
   applyFormat(saved.format);
   documentMode = 'worksheet';
   byId('catalog-view').hidden = true;
@@ -350,6 +355,7 @@ function player(entry) {
   byId('player-hint').hidden = available;
   byId('player-hint').textContent = entry && !entry.audio ? t('audioPendingHint') : t('invalidHint');
   play.hidden = !available;
+  byId('player-report').hidden=!available;
   if (!available) return;
   if (play.dataset.initialised) return;
   play.dataset.initialised = 'true';
@@ -368,7 +374,7 @@ function player(entry) {
     if (timer.textContent !== time) timer.textContent = time;
     timer.hidden = countdown === null;
     play.disabled = busy;
-  });
+  }, action=>track('escolta_audio',{code:entry.code,accio:action}));
 }
 
 function translate() {
@@ -381,6 +387,7 @@ function translate() {
   }
   for (const element of document.querySelectorAll('[data-placeholder]')) element.placeholder = t(element.dataset.placeholder);
   byId('header-motto').textContent = mottos[language][mottoIndex];
+  syncPrivacy();
   characterExplorer?.render();
   if (listenId === null) {
     catalog.render();
@@ -459,6 +466,7 @@ function updateFormat(event) {
 formatForm.addEventListener('input', updateFormat);
 formatForm.addEventListener('change', updateFormat);
 formatForm.addEventListener('reset', event => {
+  track('maqueta_fitxa',{code:selected?.code,bloc:'font',accio:'restableix'});
   event.preventDefault();
   Object.assign(format, defaultFormat);
   syncFormat();
@@ -516,6 +524,7 @@ paper.addEventListener('click', event => {
   const tools = button.closest('[data-question-id]');
   const { questionId: id } = tools.dataset;
   const action = button.dataset.questionAction;
+  if(action==='report'){errorReporter.open(selected,{part:documentMode==='answers'?'solution':'question',element:id,questions:reportQuestions()});return;}
   if (action === 'toggle') {
     const open = button.getAttribute('aria-expanded') !== 'true';
     button.setAttribute('aria-expanded', String(open));
@@ -525,6 +534,7 @@ paper.addEventListener('click', event => {
   const settings = currentSettings;
   const index = selected.questions.findIndex((question, i) => (question.id ?? String(i)) === id);
   if (index === -1) return;
+  track('maqueta_fitxa',{code:selected.code,bloc:'preguntes',accio:action==='hide'?'amaga':'linies'});
   const { lines } = questionFormat(selected.questions[index], index, settings);
   settings.questions ??= {};
   const override = settings.questions[id] ??= {};
@@ -550,6 +560,7 @@ byId('hidden-questions').addEventListener('click', event => {
   const button = event.target.closest('[data-restore-question]');
   if (!selected || !button) return;
   currentSettings.questions[button.dataset.restoreQuestion].included = true;
+  track('maqueta_fitxa',{code:selected.code,bloc:'preguntes',accio:'recupera'});
   saveActivity();
   renderEditor();
   if (!byId('question-panel').hidden) byId('question-panel').querySelector('summary').focus({ preventScroll: true });
@@ -565,10 +576,12 @@ byId('language').addEventListener('change', event => {
   language = event.target.value;
   preferences.set('lang', language);
   translate();
+  track('canvia_idioma',{idioma:language});
 });
 byId('theme').addEventListener('click', () => {
   preferences.set('theme', document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark');
   theme();
+  track('canvia_tema',{tema:document.documentElement.dataset.theme});
 });
 mediaTheme.addEventListener('change', theme);
 byId('activity-select').addEventListener('change', event => {
@@ -586,9 +599,29 @@ for (const [id, mode] of [['worksheet-mode', 'worksheet'], ['answers-mode', 'ans
   byId(id).addEventListener('click', () => {
     documentMode = mode;
     renderSelection();
+    track('canvia_vista',{code:selected?.code,vista:mode==='answers'?'solucionari':'fitxa'});
   });
 }
-byId('print').addEventListener('click', () => { if (selected && !isPendingReview(selected)) window.print(); });
+byId('print').addEventListener('click', () => { if (selected && !isPendingReview(selected)) { track('obre_impressio',{code:selected.code,contingut:documentMode==='answers'?'solucionari':'fitxa',colleccio:Boolean(activeCollectionId)});window.print(); } });
+function reportQuestions(){return selected.questions.filter((question,index)=>questionFormat(question,index,currentSettings).included);}
+byId('report-error').addEventListener('click',()=>{if(selected){byId('teacher-audio').pause();errorReporter.open(selected,{questions:reportQuestions()});}});
+byId('player-report').addEventListener('click',()=>{const entry=findActivity(listenId);if(entry){window.dispatchEvent(new Event('sentit-pause-playback'));errorReporter.open(entry,{audioOnly:true});}});
+function syncPrivacy(){byId('analytics-excluded').checked=excluded();const reason=restriction();byId('analytics-browser-notice').hidden=!['dnt','gpc'].includes(reason);}
+byId('analytics-excluded').addEventListener('change',event=>{setExcluded(event.target.checked);syncPrivacy();});
+window.addEventListener('sentit-analytics-change',syncPrivacy);
+byId('open-player').addEventListener('click',()=>track('obre_vista_escolta',{code:selected?.code}));
+byId('teacher-audio').addEventListener('play',()=>track('escolta_audio',{code:selected?.code,accio:'previsualitza'}));
+document.querySelector('#v4v a[href="https://aaronfortuno.github.io/portfolio/"]').addEventListener('click',()=>track('obre_portafoli'));
+byId('meet-characters').addEventListener('click',()=>track('obre_personatges'));
+document.querySelector('.audio-sources').addEventListener('toggle',event=>{if(event.currentTarget.open)track('consulta_fonts',{code:selected?.code});});
+byId('filters').addEventListener('change',event=>{if(event.target.id)track('aplica_filtre',{filtre:event.target.id,valor:event.target.value});});
+byId('filters').addEventListener('reset',()=>track('neteja_filtres'));
+byId('character-filter-options').addEventListener('click',event=>{const chip=event.target.closest('[data-filter-character]');if(chip)track('aplica_filtre',{filtre:'character',valor:chip.dataset.filterCharacter});});
+let searchTimer;
+byId('search').addEventListener('input',()=>{clearTimeout(searchTimer);searchTimer=setTimeout(()=>{const value=byId('search').value.trim();if(value)track('cerca_cataleg',{tipus:/^(?:ca-|es-)?s\d+[a-z]?$/i.test(value)?'codi':'text',resultats:countBucket(catalog.entries().length)});},600);});
+formatForm.addEventListener('change',event=>track('maqueta_fitxa',{code:selected?.code,bloc:event.target.name,accio:'ajusta',font:format.font}));
+for(const [id,bloc]of [['classroom-code','codi_aula'],['image-editor','imatge'],['show-instructions','instruccions'],['show-evidence','pistes']])byId(id).addEventListener('change',()=>track('maqueta_fitxa',{code:selected?.code,bloc,accio:'ajusta'}));
+sessionEditor.addEventListener('change',()=>{const config=sessionSettings(selected);track('configura_audio',{code:selected?.code,escoltes:String(config.listens),ritme:config.rate.toFixed(2),lectura:String(config.reading),pausa:String(config.interval),sintonia:config.jingle,pautada:config.enabled});});
 byId('generation-plan').addEventListener('click', event => {
   const take = event.target.closest('[data-take]');
   if (!take) return;
@@ -604,6 +637,7 @@ byId('copy-link').addEventListener('click', async () => {
   try {
     await navigator.clipboard.writeText(url);
     byId('copy-status').textContent = t('copied');
+    track('copia_enllac',{code:selected.code});
   } catch {
     const input = byId('copy-fallback');
     input.hidden = false;
@@ -617,6 +651,7 @@ byId('copy-lightning').addEventListener('click', async () => {
   try {
     await navigator.clipboard.writeText(address.textContent);
     byId('lightning-status').textContent = t('addressCopied');
+    track('copia_lightning');
   } catch {
     byId('lightning-status').textContent = t('copyHelp');
     getSelection()?.selectAllChildren(address);
@@ -624,7 +659,7 @@ byId('copy-lightning').addEventListener('click', async () => {
 });
 for (const button of document.querySelectorAll('[data-open]')) {
   const dialog = byId(button.dataset.open);
-  button.addEventListener('click', () => openDialog(dialog));
+  button.addEventListener('click', () => { openDialog(dialog);if(button.dataset.open==='v4v')track('obre_v4v');else if(button.dataset.open==='changes')track('consulta_canvis'); });
 }
 for (const element of document.querySelectorAll('[data-icon]')) {
   if (Object.hasOwn(icons, element.dataset.icon)) icon(element, element.dataset.icon);
@@ -651,6 +686,7 @@ if (catalog.hasCharacterFilter()) setDetailsOpen(byId('character-filter'), true,
 byId('settings-toggle').addEventListener('click', () => toggleSettings(byId('settings-toggle').getAttribute('aria-expanded') !== 'true'));
 mobileLayout.addEventListener('change', event => { toggleSettings(!event.matches); });
 compactCatalog.addEventListener('change', event => { setDetailsOpen(byId('filter-panel'), !event.matches); });
+startAnalytics();
 theme();
 translate();
 route();

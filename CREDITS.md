@@ -21,7 +21,7 @@ Guió original en català. Veus sintetitzades amb Gemini TTS (Aoede i Charon). E
 
 ## Primera tanda: S002, S008, S015 i S023
 
-Guions, preguntes, respostes orientatives i transcripcions originals de Sentit. S002 i S008 fan servir Aoede de Gemini 3.8 Flash TTS per a la mestra, la narradora i les presentacions. La producció parcial de S015 combina Puck per a l’entrevistador jove i Aoede per a la restauradora Nora. S023 preveu Aoede per a la presentadora i Charon per al comerciant Pau; encara no té àudio publicat.
+Guions, preguntes, respostes orientatives i transcripcions originals de Sentit. S002 i S008 fan servir Aoede de Gemini 3.8 Flash TTS per a la mestra, la narradora i les presentacions. La producció parcial conservada de S015 combina Puck per a l’entrevistador jove i Aoede per a la restauradora Nora; la nova proposta pendent de validació assigna Kore a Nora i Puck al títol, en una única petició, sense barrejar veus de Nora. S023 preveu Aoede per a la presentadora i Charon per al comerciant Pau; encara no té àudio publicat.
 
 El fregadís de paper de S008 és un so procedimental generat amb FFmpeg. Per a S023 s’ha preparat la recepta d’una sintonia procedimental. No s’hi han afegit enregistraments externs. Els efectes són decoratius i no cal reconèixer-los per respondre. La notícia S023 és fictícia, tal com s’indica al guió de presentació i a la descripció.
 
@@ -45,3 +45,9 @@ Els vuit retrats de presentació parteixen dels mateixos models i s’han genera
 ## Registre sonor per comprensió
 
 [Fonts, llicències, muntatges i procés de validació](docs/fonts-sonores.md). La revisió 0.1.23 conserva els WAV crus, elimina el retall automàtic i afegeix marges de seguretat; no s’han fet peticions TTS noves. La base instrumental de S008 i la sintonia inicial són originals procedurals de Sentit, sota la llicència MIT del projecte.
+
+## S008R · Històries amb sentit
+
+Guió i muntatge validats el 19 de novembre de 2026. Narradora Aoede, Gemini TTS, una petició per al programa complet; presentació reutilitzada de S008. Sintonia de programa, base instrumental i pas de pàgina originals procedurals, generats amb FFmpeg, sota la llicència MIT del projecte. [Recepta del muntatge](tools/render-radio.cjs) i [manifest amb consum, marques i empremtes](assets/audio/s008r-production-manifest.json). Comprovació de marques de paraula amb Vosk de català local, sense generar gravacions ni fer crides de revisió al núvol.
+
+El seguiment i els avisos utilitzen [Umami](https://github.com/umami-software/umami), allotjat en una instància pròpia. [Dades i controls de privadesa](docs/estadistiques.md).

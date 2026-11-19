@@ -2,7 +2,7 @@ import { jingleUrl } from './session.js';
 
 // Native media preserves pitch. Waits use real seconds, independently of speech rate.
 // Padded, separate tracks finish naturally instead of cutting speech with a timer.
-export function initGuidedPlayer(entry, session, prompts, button, render) {
+export function initGuidedPlayer(entry, session, prompts, button, render, onAction=()=>{}) {
   const audio = new Audio();
   audio.preload = 'auto';
   audio.preservesPitch = true;
@@ -41,7 +41,7 @@ export function initGuidedPlayer(entry, session, prompts, button, render) {
     const token = ++version;
     audio.pause(); index++;
     const step = current();
-    if (!step) { running = false; busy = false; paint(); return; }
+    if (!step) { running = false; busy = false; paint(); onAction('finalitza'); return; }
     remaining = step.seconds ?? 0; started = performance.now();
     if (!step.url) { busy = false; paint(); return; }
     busy = true; paint();
@@ -63,17 +63,18 @@ export function initGuidedPlayer(entry, session, prompts, button, render) {
   button.addEventListener('click', async () => {
     if (busy) return;
     if (index < 0 || index >= steps.length || failed) {
-      failed = false; index = -1; running = true; await advance();
+      const restart=index>=steps.length;failed = false; index = -1; running = true; await advance();if(!failed)onAction(restart?'reinicia':'inicia');
     } else if (running) {
       if (current()?.seconds) remaining = Math.max(0, left());
-      running = false; audio.pause(); paint();
+      running = false; audio.pause(); paint();onAction('pausa');
     } else {
       running = true; started = performance.now(); busy = true; paint();
       try { if (current()?.url) await audio.play(); }
       catch { failed = true; running = false; }
-      busy = false; paint();
+      busy = false; paint();if(!failed)onAction('repren');
     }
   });
+  window.addEventListener('sentit-pause-playback',()=>{if(!running)return;if(current()?.seconds)remaining=Math.max(0,left());running=false;audio.pause();paint();onAction('pausa');});
   window.addEventListener('pagehide', () => { version++; running = false; audio.pause(); cancelAnimationFrame(frame); });
   paint();
 }

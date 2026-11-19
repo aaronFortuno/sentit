@@ -8,7 +8,7 @@ import { takeParts } from '../generation-plan.js';
 const require = createRequire(import.meta.url);
 const { request } = require('./audio-plan.cjs');
 const pending = activities.filter(isPendingReview);
-assert.deepEqual(pending.map(entry => entry.code).sort(), ['S008R', 'S015', 'S023']);
+assert.deepEqual(pending.map(entry => entry.code).sort(), ['S015', 'S023']);
 for (const entry of pending) {
   assert.equal(entry.audio, null);
   const ids = ['introduction', ...entry.transcript.filter(part => part.speaker).map(part => part.id)];
@@ -28,8 +28,8 @@ for (const entry of pending) {
   assert(!altered.some(part => part.text === strings.ca.reviewSignature));
   assert(altered.some(part => part.text === strings.ca.reviewRepetition(1,0,true)));
 }
-assert.equal(pending.flatMap(entry=>entry.generationPlan.takes).reduce((sum,take)=>sum+take.requests,0),5);
-const radio = pending.find(entry=>entry.code==='S008R');
+assert.equal(pending.flatMap(entry=>entry.generationPlan.takes).reduce((sum,take)=>sum+take.requests,0),3);
+const radio = activities.find(entry=>entry.code==='S008R');
 const body = takeParts(radio,radio.generationPlan.takes[1]);
 const payload = request(body,{voices:{Narradora:'Aoede'},pace:'Test only. No request sent.'});
 assert.equal(body.length,8);
@@ -37,4 +37,4 @@ assert(payload.input[0].content[0].text.startsWith('Benvingudes'));
 assert(payload.input[0].content.at(-1).text.endsWith('pròxim programa.'));
 assert(!JSON.stringify(payload).includes('Entrada del programa:'));
 assert(activities.find(entry=>entry.code==='S008').audio,'Existing S008 stays available through the same code');
-console.log('PASS · Review scripts, five planned new calls, exact take boundaries, conserved recordings, complete narration, montage exclusion and existing S008 preserved. Zero synthesis.');
+console.log('PASS · Review scripts, three planned new calls, exact take boundaries, conserved recordings, complete narration, montage exclusion and existing S008 preserved. Zero synthesis.');
