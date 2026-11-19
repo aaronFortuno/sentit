@@ -1,6 +1,6 @@
 import { clockTime } from './session.js';
 import { buildEvidence, evidenceQuestions, evidenceSegments } from './evidence.js';
-import { isPendingReview, reviewScript } from './review.js';
+import { isPendingReview, isAudioReview, needsReview, reviewScript } from './review.js';
 
 export const defaultFormat = { font: 'serif', size: 12, spacing: 7, leading: 1.6 };
 
@@ -61,6 +61,7 @@ function makeHeader(entry, labels, code, answerKey, listenUrl, session) {
   headerMain.append(element('h3', null, entry.title));
   if (entry.sample) headerMain.append(element('p', 'paper-caption', labels.sample));
   if (isPendingReview(entry)) headerMain.append(element('p', 'paper-caption paper-review-label', labels.reviewNotice));
+  else if (isAudioReview(entry)) headerMain.append(element('p', 'paper-caption paper-review-label', labels.audioReviewNotice));
   else if (!entry.audio) headerMain.append(element('p', 'paper-caption', labels.audioPending));
   head.append(top, titleRow);
   if (listenUrl) {
@@ -277,13 +278,14 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
   function startPage() {
     const page = element('article', 'paper');
     page.classList.toggle('paper-answer-key', answerKey);
-    page.classList.toggle('paper-review-draft', isPendingReview(entry));
+    page.classList.toggle('paper-review-draft', needsReview(entry));
+    page.classList.toggle('paper-audio-review', isAudioReview(entry));
     content = element('div', 'paper-content');
     const footer = element('footer', 'paper-footer');
     footers.push(footer);
     page.append(content, footer);
-    if (isPendingReview(entry)) {
-      const watermark = element('span', 'paper-review-watermark', labels.reviewPending);
+    if (needsReview(entry)) {
+      const watermark = element('span', 'paper-review-watermark', isAudioReview(entry) ? labels.audioReview : labels.reviewPending);
       watermark.setAttribute('aria-hidden', 'true');
       page.append(watermark);
     }
@@ -368,7 +370,7 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
     });
   }
 
-  if (answerKey && isPendingReview(entry)) placeTranscript();
+  if (answerKey && needsReview(entry)) placeTranscript();
 
   let number = 0;
   entry.questions.forEach((question, index) => {
@@ -413,7 +415,7 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
     }
   }
 
-  if (answerKey && !isPendingReview(entry)) placeTranscript();
+  if (answerKey && !needsReview(entry)) placeTranscript();
 
   footers.forEach((footer, index) => {
     const label = index === 0 ? 'sentit.ortogra.fi' : entry.title;

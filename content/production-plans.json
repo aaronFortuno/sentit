@@ -29,9 +29,9 @@
     "reviewActivity": "ca-S008R"
   },
   "S015": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "0e3590fc25c569f7497a98047fb0fbe3ef9490e05592641d160b219c1d98ef95",
+    "reviewedAt": "2026-11-19T21:43:23.396Z",
     "format": "Entrevista enregistrada a una restauradora adulta, amb un entrevistador adolescent.",
     "cues": [
       "Entrada musical breu i ambient de sala, amb retirada abans de les explicacions tècniques.",
@@ -48,20 +48,29 @@
       "Nora": "Kore"
     },
     "strategy": "packed-title-dialogue-v1",
-    "reviewContent": "content/una-restauradora-ens-explica-el-seu-ofici.js"
+    "reviewContent": "content/una-restauradora-ens-explica-el-seu-ofici.js",
+    "approvalSource": "Confirmació explícita de l’usuari: «dono per vàlid l’escaleta i guió del S015, es pot enviar a Gemini»."
   },
   "S023": {
     "status": "awaiting-validation",
     "approvedFingerprint": null,
     "reviewedAt": null,
-    "format": "Notícia radiofònica amb presentadora i testimoni adult.",
+    "format": "Notícia radiofònica de ficció, amb Mar (Erinome) i Pau (Charon).",
     "cues": [
-      "Capçalera informativa original breu, sense copiar sintonies de mitjans.",
-      "Ambient de mercat a l’entrada del testimoni, amb reducció abans de les dades.",
-      "Les pauses han de separar fets confirmats, expectatives i propostes pendents.",
-      "Validar les veus definitives abans de consumir quota: Aoede i Charon són les assignacions del generador actual."
+      "Capçalera original de dos segons, marge de 250 ms i inici de la veu.",
+      "Veu neta als accessos, horaris, opinions i decisions pendents.",
+      "Ambient de sala, dos passos i paper molt discrets abans del testimoni; sense veus de clientela ni anuncis.",
+      "Una sola petició per al títol i tota la notícia, amb tall local dins una pausa llarga.",
+      "Veus proposades: Erinome per a la Mar i Charon per a en Pau, pendents de validar."
     ],
-    "ending": "Tancament informatiu definit al guió abans de sintetitzar."
+    "ending": "Torn final de la Mar, marge de 300 ms, separador de dos segons i 600 ms de silenci; sense comiat parlat afegit.",
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Presentadora": "Erinome",
+      "Pau": "Charon"
+    },
+    "strategy": "packed-title-news-v1",
+    "reviewContent": "content/reobren-el-mercat.js"
   },
   "S008R": {
     "status": "approved",

@@ -36,7 +36,8 @@ const publicBase='https://sentit.ortogra.fi';const receiver='https://maquestria.
     await page.goto(publicBase+'/?class_private=Joana#lectura=ca-S008R');await page.locator('#open-player').waitFor();
     await page.waitForFunction(()=>Boolean(window.umami));
     assert.equal(await page.locator('#print').isEnabled(),true);
-    assert.equal(await page.locator('.paper-review-watermark').count(),0);
+    assert.match(await page.locator('.paper-review-watermark').first().innerText(),/Àudio pendent de validar/);
+    await page.locator('#worksheet-mode').click();
     await page.locator('[data-open="v4v"]').click();await page.locator('#v4v').waitFor({state:'visible'});
     await page.locator('#analytics-excluded').check();
     const before=sent.length;await page.evaluate(()=>window.umami.track('obre_v4v'));await page.waitForTimeout(80);assert.equal(sent.length,before);

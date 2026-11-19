@@ -10,7 +10,15 @@ El muntatge inclou dos segons de separador original abans de la veu, una base in
 
 [Manifest amb aprovació, empremtes, consum i marques](../assets/audio/s008r-production-manifest.json) · [Síntesi amb topall d’una petició](../tools/produce-radio.cjs) · [Recepta de muntatge local](../tools/render-radio.cjs). El resultat continua en revisió d’audició docent. Les comprovacions tècniques no equivalen a una aprovació perceptiva de cada pronunciació.
 
-La següent proposta és [S015](https://sentit.ortogra.fi/#lectura=ca-S015): una petició amb Puck i Kore per al títol i tota l’entrevista, amb un tall local posterior. El guió, el repartiment i l’escaleta encara s’han de validar. La presa antiga d’Aoede es conserva, però no es barreja amb la nova proposta de Nora.
+## S015 · guió validat i àudio en revisió
+
+El docent ha validat el guió, les veus i l’escaleta el **19 de novembre de 2026**. [S015 ja es pot escoltar](https://sentit.ortogra.fi/?escolta=ca-S015): Puck per a en Biel i el títol, Kore per a la Nora. Una petició, amb 601 tokens d’entrada i 3.349 d’àudio de sortida. Presa crua de 133,96 s; fragment muntat de 134,49 s i màster amb títol de 139,66 s. La presa antiga amb Aoede es conserva localment i no forma part del nou àudio.
+
+El tall del títol és a 4,62 s, dins un silenci comprovat a −50,4 dBFS i amb 600 ms respecte als dos mots adjacents detectats. Es conserven totes dues parts de la veu, sense porta de soroll, esvaïment de la parla ni canvi de ritme. S’hi afegeixen marges exteriors. La sintonia inicial de l’entrevista acaba abans de la primera pregunta; l’ambient de sala desapareix abans de la resposta de la Nora. Només hi ha un paper breu al canvi de tema i una sintonia després de l’última frase. Cap música ni efecte sota llum, temperatura i humitat.
+
+Tots aquests sons són procedurals originals de Sentit, sota MIT, sense gravacions externes. [Recepta de muntatge](../tools/render-interview.cjs) · [manifest de producció](../assets/audio/s015-production-manifest.json). La validació de l’àudio encara està pendent: les comprovacions tècniques no la substitueixen. [Seguiment per fases](seguiment-produccio.md).
+
+La següent proposta és [S023](https://sentit.ortogra.fi/#lectura=ca-S023): Mar amb Erinome i Pau amb Charon, títol i notícia complets en una petició i tall local posterior. El guió i l’escaleta són visibles al solucionari. Encara no s’ha enviat a Gemini.
 
 ## Veus
 
@@ -22,8 +30,8 @@ Les veus són síntesi de [Gemini TTS, de Google](https://ai.google.dev/gemini-a
 | ca-S002 · Preparem una capsa de records | Una mestra: Aoede; presentació: Aoede. | Muntatge amb separació entre els blocs de passos. No hi ha enregistraments externs. |
 | ca-S008 · La foto que faltava | **Una única narradora: Aoede**, sense nom dins del relat. Aina i Ferran hi són esmentats, però no parlen amb veu pròpia. | Base instrumental original amb atenuació sota la veu, transició de paper procedural i marges de silenci. És una prova de remuntatge; encara no inclou una benvinguda o un comiat de programa. |
 | ca-S008R · La foto que faltava · Històries amb sentit | Una narradora: Aoede, també a la benvinguda i al comiat. Presentació reutilitzada de S008. | Separador original, base instrumental atenuada sota la veu, pas de pàgina i sortida musical. Produït; pendent d’audició docent. |
-| ca-S015 · Una restauradora ens explica el seu ofici | **Pendent.** Hi ha una presa parcial local amb Puck i Aoede, sense màster publicat. | Escaleta proposada, pendent de validació. |
-| ca-S023 · Reobren el mercat | **Pendent.** Aoede i Charon són la proposta del generador actual. | Escaleta proposada, pendent de validació. |
+| ca-S015 · Una restauradora ens explica el seu ofici | Puck: Biel i presentació. Kore: Nora. | Sintonia d’entrada i sortida, ambient molt baix i pàgina originals. Produït; àudio pendent de validar. |
+| ca-S023 · Reobren el mercat | **Pendent.** Erinome i Charon són les veus proposades. | Capçalera, ambient de sala i passos/paper discrets, sortida original. Proposta pendent de validar; encara no produïda. |
 
 La **sintonia inicial de Sentit**, opcional i activada per defecte, són quatre notes originals. Es reprodueix una sola vegada abans de la presentació, també en una sessió de diverses escoltes; no se superposa a la parla. No és la sintonia de sortida de S001. Les locucions de preparació i repàs són d’Aoede i s’han remasteritzat des de les preses ja conservades.
 
@@ -52,9 +60,9 @@ La còpia de treball i les atribucions del pilot es conserven al [registre gener
 6. Conservar sempre la presa crua. **No retallar automàticament amb una porta de soroll**: consonants sordes, atacs suaus i finals poden quedar per sota del llindar. En el remuntatge actual es conserva tot el WAV, s’afegeixen 250 ms abans i com a mínim 300 ms després, sense esvair la parla. Si el fonema ja falta en la presa crua, el silenci no el reconstrueix: cal anotar-ho i validar una nova presa.
 7. Revisar per escolta els inicis, finals, consonants, ritme i balanç música/veu; després fer la prova amb alumnat. Els controls tècnics de nivell i integritat no substitueixen aquesta audició.
 
-La proposta concreta de ràdio per a S008 i les escaletes dels altres prototips són a [production-plans.json](../content/production-plans.json). **S008R ja té validació de guió i muntatge, i s’ha produït amb una petició. S015 i S023 continuen pendents de validar.**
+Les escaletes i les aprovacions són a [production-plans.json](../content/production-plans.json). **S008R i S015 tenen la proposta validada i el muntatge produït amb una petició cadascuna. L’àudio continua pendent d’audició; S023 espera validar el guió i l’escaleta.**
 
-El material complet es pot revisar al [catàleg, amb el codi ca-S008R](https://sentit.ortogra.fi/#lectura=ca-S008R). El solucionari presenta tot el text parlat i les indicacions dels sons incorporats. La previsió i les preses originals queden conservades al registre de producció; el quadre «Talls per a Gemini» només es mostra als materials pendents, com S015 i S023. Aquests materials mantenen la marca d’aigua i la impressió bloquejada.
+El material complet es pot revisar al [catàleg, amb el codi ca-S008R](https://sentit.ortogra.fi/#lectura=ca-S008R). El solucionari presenta tot el text parlat i les indicacions dels sons incorporats. La previsió i les preses originals queden conservades al registre de producció; el quadre «Talls per a Gemini» només es mostra a S023, encara pendent de proposta. S008, S008R i S015 mantenen «Àudio pendent de validar» al PDF i es poden imprimir per revisar. La impressió de S023 continua bloquejada.
 
 ### Escaleta de ràdio de S008R, validada
 

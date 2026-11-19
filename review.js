@@ -1,4 +1,6 @@
 export const isPendingReview = entry => entry?.reviewStatus === 'pending';
+export const isAudioReview = entry => entry?.reviewStatus === 'audio-review';
+export const needsReview = entry => isPendingReview(entry) || isAudioReview(entry);
 
 // Editorial stage directions are part of the review script, never spoken text.
 export function reviewScript(entry, labels, session) {

@@ -3,12 +3,14 @@ const assert=require('node:assert/strict'),{fork}=require('node:child_process'),
 const {chromium}=require('C:/Users/afortun8/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
 (async()=>{
  const server=fork(path.join(__dirname,'serve.cjs'),{env:{...process.env,SENTIT_PORT:'4250'},stdio:['ignore','pipe','inherit','ipc']});let browser;
- const output=path.resolve(__dirname,'../../tmp/sentit-qa/radio-v0125');await fs.mkdir(output,{recursive:true});const errors=[];
+ const output=path.resolve(__dirname,'../../tmp/sentit-qa/radio-v0127');await fs.mkdir(output,{recursive:true});const errors=[];
  try{
   await new Promise(r=>server.stdout.once('data',r));browser=await chromium.launch({channel:'chrome',headless:true});const page=await browser.newPage({viewport:{width:1440,height:1000}});
   page.on('pageerror',error=>errors.push(error.message));await page.route('**/*',route=>new URL(route.request().url()).origin==='http://127.0.0.1:4250'?route.continue():route.abort());
   await page.goto('http://127.0.0.1:4250/#lectura=ca-S008R');await page.locator('#open-player').waitFor();
-  assert.equal(await page.locator('#print').isEnabled(),true);assert.equal(await page.locator('.paper-review-watermark').count(),0);
+  assert.equal(await page.locator('#print').isEnabled(),true);
+  assert.match(await page.locator('.paper-review-watermark').first().innerText(),/Àudio pendent de validar/);
+  await page.locator('#worksheet-mode').click();
   assert.equal(await page.locator('.paper-qr').count(),1);assert.equal(await page.locator('#generation-plan').isHidden(),true);
   assert.match(await page.locator('#activity-meta').innerText(),/1:40/);
   await page.evaluate(()=>Promise.all(document.getAnimations().map(a=>a.finished.catch(()=>{}))));
@@ -19,6 +21,21 @@ const {chromium}=require('C:/Users/afortun8/.cache/codex-runtimes/codex-primary-
   assert(!text.includes('S008R-T02'));assert(!text.includes('Presa existent amb Aoede'));
   await page.pdf({path:path.join(output,'solucionari.pdf'),preferCSSPageSize:true,printBackground:true});
   await page.goto('http://127.0.0.1:4250/?escolta=ca-S008R&jingle=0');await page.locator('#play').click();
+  await page.waitForFunction(()=>document.querySelector('#play-label').textContent==='Posa en pausa');await page.locator('#play').click();
+  await page.goto('http://127.0.0.1:4250/#lectura=ca-S015');await page.locator('#open-player').waitFor();
+  assert.equal(await page.locator('#answers-mode').getAttribute('aria-pressed'),'true');
+  assert.equal(await page.locator('.paper-answer-label').count(),8);
+  assert.equal(await page.locator('.paper-sound-cue').count(),4);
+  assert.equal(await page.locator('.paper-take').count(),0);
+  assert.match(await page.locator('.paper-review-label').innerText(),/Comprensió definida/);
+  assert.match(await page.locator('#activity-meta').innerText(),/2:14/);
+  const firstText=await page.locator('#paper').innerText();
+  assert(firstText.indexOf('Transcripció')<firstText.indexOf('Què fa la Nora abans de tocar una obra?'));
+  assert(!firstText.includes('pendent de validar aquest repartiment'));
+  await page.pdf({path:path.join(output,'s015-solucionari.pdf'),preferCSSPageSize:true,printBackground:true});
+  await page.locator('#worksheet-mode').click();assert.equal(await page.locator('.paper-qr').count(),1);
+  await page.pdf({path:path.join(output,'s015-fitxa.pdf'),preferCSSPageSize:true,printBackground:true});
+  await page.goto('http://127.0.0.1:4250/?escolta=ca-S015&jingle=0');await page.locator('#play').click();
   await page.waitForFunction(()=>document.querySelector('#play-label').textContent==='Posa en pausa');await page.locator('#play').click();
   assert.deepEqual(errors,[]);console.log('PASS · New radio audio, public QR, print-ready worksheet and key, complete transcript, recorded cues and direct listening. No remote check or TTS.');
  }finally{await browser?.close();server.kill();}

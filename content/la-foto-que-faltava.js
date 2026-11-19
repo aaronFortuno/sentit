@@ -3,6 +3,7 @@ export const foto = {
   title: 'La foto que faltava',
   summary: 'L’Aina busca una fotografia i descobreix per què no és al lloc de sempre.',
   grade: '4', level: 'easy', genre: 'story', seconds: 94,
+  reviewStatus: 'audio-review',
   audio: './assets/audio/s008-la-foto-que-faltava-v2.mp3',
   tracks: { introduction: './assets/audio/s008-la-foto-que-faltava-v2-intro.mp3', body: './assets/audio/s008-la-foto-que-faltava-v2-cos.mp3' },
   image: { src: './assets/images/la-foto-que-faltava-v2.webp', alt: 'L’Aina i el seu avi Ferran conversen al costat d’un àlbum tancat.', width: 1536, height: 1024 },

@@ -2,6 +2,8 @@
 
 18 de novembre de 2026 · v0.1.20 · Pendent d’audició del docent i prova amb alumnat.
 
+**Registre històric de la primera tanda.** Per veure l’estat actual, incloses S008R i la nova entrevista amb Kore, consulteu el [seguiment per fases](seguiment-produccio.md). Les durades i les previsions següents són les de la versió indicada.
+
 ## Estat
 
 | Codi | Curs | Títol | Tipus | Dificultat | Fragment | Preguntes | Producció |

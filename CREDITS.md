@@ -21,13 +21,15 @@ Guió original en català. Veus sintetitzades amb Gemini TTS (Aoede i Charon). E
 
 ## Primera tanda: S002, S008, S015 i S023
 
-Guions, preguntes, respostes orientatives i transcripcions originals de Sentit. S002 i S008 fan servir Aoede de Gemini 3.8 Flash TTS per a la mestra, la narradora i les presentacions. La producció parcial conservada de S015 combina Puck per a l’entrevistador jove i Aoede per a la restauradora Nora; la nova proposta pendent de validació assigna Kore a Nora i Puck al títol, en una única petició, sense barrejar veus de Nora. S023 preveu Aoede per a la presentadora i Charon per al comerciant Pau; encara no té àudio publicat.
+Guions, preguntes, respostes orientatives i transcripcions originals de Sentit. S002 i S008 fan servir Aoede de Gemini 3.8 Flash TTS per a la mestra, la narradora i les presentacions. El nou muntatge de S015 utilitza Puck per a en Biel i el títol i Kore per a la Nora, en una petició i amb separació local dins un silenci comprovat. La presa parcial antiga amb Aoede es conserva com a arxiu i no s’hi barreja. S023 preveu Erinome per a la Mar i Charon per al comerciant Pau; encara no s’ha sintetitzat.
 
 El fregadís de paper de S008 és un so procedimental generat amb FFmpeg. Per a S023 s’ha preparat la recepta d’una sintonia procedimental. No s’hi han afegit enregistraments externs. Els efectes són decoratius i no cal reconèixer-los per respondre. La notícia S023 és fictícia, tal com s’indica al guió de presentació i a la descripció.
 
 L’entrevista fictícia S015 pren com a base els criteris de mínima intervenció, estudi i documentació del [Centre de Restauració de Béns Mobles de Catalunya](https://centrederestauracio.gencat.cat/ca/que_fem/que_restaurem/criteris/). La conservació preventiva es contrasta amb les explicacions del Museu Nacional sobre [llum i condicions de les sales](https://www.museunacional.cat/ca/que-hi-ha-poca-llum-i-fa-fred-en-algunes-sales-del-museu) i [conservació-restauració](https://www.museunacional.cat/ca/conservacio-restauracio-0). El guió és una adaptació original per a primària; no reprodueix una entrevista real.
 
 [Registre de producció i revisió](docs/primera-tanda.md).
+
+S015 incorpora sintonies d’entrada i sortida, ambient de sala molt baix i un moviment de pàgina originals procedurals de Sentit, sota MIT, generats localment amb FFmpeg. No s’han emprat gravacions externes. [Recepta](tools/render-interview.cjs) · [manifest](assets/audio/s015-production-manifest.json) · [estat actual per fases](docs/seguiment-produccio.md). La proposta està validada; l’àudio muntat encara no.
 
 ## Web
 

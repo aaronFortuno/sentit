@@ -1,5 +1,13 @@
 # Canvis
 
+## 0.1.27 · 19 de novembre de 2026
+
+- S015: validació explícita del guió i l’escaleta. Una petició per al títol i tota l’entrevista (Puck i Kore; 601 tokens d’entrada i 3.349 d’àudio). Tall local dins un silenci comprovat; veu completa conservada, entrada i sortida originals, ambient de sala discret i pàgina breu. Fragment de 134,49 s; 139,66 s amb títol. Àudio pendent d’audició docent.
+- S008, S008R i S015 indiquen «Àudio pendent de validar» a la capçalera i a cada pàgina del PDF. S’obren al solucionari amb la transcripció primer. El material es pot escoltar i imprimir per revisar; no es dona per publicació definitiva.
+- S023 preparada per validar: Mar amb Erinome i Pau amb Charon, una petició per al títol i tota la notícia, tall local i escaleta completa amb fonts originals i veu neta a les dades. No s’ha sintetitzat.
+- Taula de fases a `docs/seguiment-produccio.md`, amb codi, títol, curs, dificultat, durada i aprovacions diferenciades. Instrucció de mantenir-la actualitzada en cada canvi de fase.
+- «Neteja filtres» passa a una creu al costat de «Filtres», accessible també amb teclat i sense tancar el desplegable.
+
 ## 0.1.26 · 19 de novembre de 2026
 
 - Les propostes pendents de validar s’obren directament al solucionari. El guió i l’escaleta apareixen abans de les preguntes i respostes per facilitar la revisió.
