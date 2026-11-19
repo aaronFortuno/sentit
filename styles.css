@@ -256,6 +256,40 @@ dialog.is-closing::backdrop { animation: backdrop-out var(--motion) ease both; }
 .generation-plan p { margin: 4px 0; }
 .generation-plan .take-excerpt, .generation-plan .generation-caveat { color: var(--quiet); font-size: .76rem; }
 .generation-plan .generation-caveat { margin-top: 10px; }
+.analytics-privacy { border-top: 1px solid var(--line); padding-top: 18px; font-size: .85rem; }
+.analytics-privacy h3 { margin: 0 0 9px; font-size: .95rem; }
+.analytics-privacy p { margin: 7px 0; color: var(--quiet); }
+.privacy-switch { display: flex; align-items: center; justify-content: space-between; gap: 18px; margin-top: 14px; cursor: pointer; }
+.analytics-privacy .privacy-switch input { flex: none; appearance: none; width: 34px; min-height: 20px; height: 20px; padding: 0; border: 1px solid var(--line); border-radius: 12px; background: var(--stage); position: relative; cursor: pointer; transition: background var(--motion); }
+.privacy-switch input::after { content: ''; position: absolute; left: 3px; top: 3px; width: 12px; height: 12px; border-radius: 50%; background: var(--quiet); transition: transform var(--motion), background var(--motion); }
+.privacy-switch input:checked { background: var(--green); }
+.privacy-switch input:checked::after { transform: translateX(14px); background: var(--on-green); }
+.report-fields { display: grid; gap: 12px; padding: 0; border: 0; }
+.report-fields > label { display: grid; gap: 4px; font-size: .88rem; }
+.report-reasons { display: flex; flex-wrap: wrap; gap: 7px; padding: 0; border: 0; }
+.report-reasons legend { padding: 0 0 7px; font-size: .88rem; }
+.report-fields .report-reasons label { display: flex; align-items: center; gap: 6px; padding: 7px 9px; border: 1px solid var(--line); border-radius: 7px; font-size: .83rem; transition: background var(--motion), border-color var(--motion); }
+.report-reasons input[type="radio"] { width: 14px; min-height: 14px; height: 14px; padding: 0; margin: 0; accent-color: var(--green); }
+.report-reasons label:has(:checked) { background: var(--soft); border-color: var(--green); }
+#error-report-form > p { margin: 12px 0; }
+#error-report-form > button[type="submit"] { width: 100%; }
+.report-warning { padding: 10px 12px; border-radius: 7px; background: var(--soft); }
+.student-report { position: fixed; right: 18px; bottom: 18px; opacity: .55; transition: opacity var(--motion); }
+.student-report:hover, .student-report:focus-visible { opacity: 1; }
+.report-fields { display: grid; gap: 13px; padding: 0; border: 0; }
+.report-fields > label { display: grid; gap: 5px; font-size: .87rem; }
+.report-fields select { width: 100%; padding: 8px; border: 1px solid var(--line); border-radius: 7px; background: var(--panel); color: var(--ink); font: inherit; }
+.report-reasons { display: flex; flex-wrap: wrap; gap: 7px; padding: 0; border: 0; }
+.report-reasons legend { margin-bottom: 6px; font-size: .85rem; }
+.report-reasons label { border: 1px solid var(--line); border-radius: 7px; padding: 7px 9px; display: flex; gap: 6px; align-items: center; cursor: pointer; font-size: .83rem; transition: background var(--motion), border-color var(--motion); }
+.report-reasons label:has(:checked) { background: var(--soft); border-color: var(--green); }
+.report-reasons input { margin: 0; accent-color: var(--green); }
+.report-warning { margin-bottom: 12px; padding: 9px 11px; border-radius: 7px; background: var(--soft); font-size: .83rem; }
+.report-warning button { margin-top: 7px; }
+#error-report-form > .small { margin: 13px 0; color: var(--quiet); }
+.student-report { position: fixed; bottom: 16px; right: 16px; opacity: .55; }
+.student-report:hover, .student-report:focus-visible { opacity: 1; }
+.paper-question-actions svg { display: block; }
 #v4v { width: min(calc(100% - 24px), 820px); }
 #v4v .dialog-content { gap: 20px; padding: 24px; }
 .v4v-intro { display: grid; grid-template-columns: 144px 1fr; align-items: start; gap: 24px; }

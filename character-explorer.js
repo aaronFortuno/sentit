@@ -82,7 +82,7 @@ export function mountCharacterExplorer(root, { activities, t, initialId, onSelec
     const list = make('ul', undefined, 'character-stories');
     for (const { entry, appearance } of stories) {
       const item = make('li');
-      const button = make('button', undefined, 'character-story'); button.type = 'button';
+      const button = make('button', undefined, 'character-story'); button.type = 'button'; button.dataset.activity=entry.code;
       button.append(make('span', entry.title), make('small', `${entry.code}${appearance.kind === 'narrator' ? ' · ' + t('narratorRole') : ''}`));
       button.lang = entry.language;
       button.addEventListener('click', () => { stop(); onOpen(entry); });

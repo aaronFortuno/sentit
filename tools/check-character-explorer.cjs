@@ -83,7 +83,7 @@ function waveFixture() {
     await page.locator('.activity-card').first().click(); await page.locator('#workspace').waitFor({ state: 'visible' });
     await open(); await roster('mireia').click();
     assert.match(await page.locator('#characters-dialog .character-stories').innerText(), /Narradora/);
-    await page.locator('#characters-dialog .character-story').last().click();
+    await page.locator('#characters-dialog .character-story[data-activity="S008"]').click();
     await page.locator('#characters-dialog').waitFor({ state: 'hidden' });
     assert.match(page.url(), /lectura=ca-S008/);
 

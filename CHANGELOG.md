@@ -1,5 +1,14 @@
 # Canvis
 
+## 0.1.25 · 19 de novembre de 2026
+
+- S008R: guió i muntatge validats explícitament pel docent. Àudio complet amb una única petició a Gemini (293 mots; 513 tokens d’entrada i 2.373 d’àudio), presentació reutilitzada, entrada musical, fons atenuat sota la veu, pàgina i comiat. Fragment de 99,77 s; fitxer amb títol de 104,88 s. En revisió d’audició.
+- Presa crua conservada, sense retallar ni alterar el ritme. Marques locals de paraula amb Vosk per situar l’efecte, sense peticions de verificació al núvol. Es publiquen les pistes i el manifest de producció.
+- Nova escaleta de S015, pendent de validar: Puck i Kore, títol i entrevista en una sola petició, pausa i tall local per obtenir les dues pistes. La presa anterior amb Aoede es conserva per comparar i no es barreja amb la nova proposta.
+- Umami propi configurat per Sentit. Esdeveniments de filtres, cerca sense text, maquetació, col·leccions, impressió de fitxa o solucionari, configuració i ús de l’àudio, V4V, portafoli i còpia Lightning. Ping manual confirmat.
+- Bandera d’errors general, per pregunta i a l’escolta. Categories predefinides, sense text lliure ni dades personals; confirmació de recepció, reintent i bloqueig de duplicats.
+- Informació i exclusió de les estadístiques a V4V, amb respecte a DNT/GPC i sense enviar paràmetres d’URL, codis d’aula, respostes o noms de col·leccions.
+
 ## 0.1.24 · 19 de novembre de 2026
 
 - Nova proposta ca-S008R per revisar el programa de ràdio de «La foto que faltava»: fitxa, preguntes, solucionari i guió complet amb benvinguda, relat, comiat i anotacions de muntatge. S008 conserva el seu àudio i els enllaços.

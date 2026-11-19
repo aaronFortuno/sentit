@@ -6,19 +6,29 @@ Banc de comprensió oral d’ortogra.fi. El docent busca una activitat, en previ
 
 El projecte es manté a la sèrie **0.1.x** mentre es revisen les primeres activitats i la interfície. El pas a **0.2** requereix una comprensió oral validada en tots els aspectes —àudio, fitxa i solucionari— i una interfície prou definida.
 
+## Última producció i següent revisió
+
+[Escolta S008R](https://sentit.ortogra.fi/?escolta=ca-S008R): programa de ràdio de «La foto que faltava», amb guió i muntatge validats pel docent. S’ha produït amb **una petició**, conservant la presentació existent: 513 tokens d’entrada i 2.373 d’àudio de sortida. El fragment dura **99,77 s** i el fitxer amb títol **104,88 s**. La narradora és Aoede. La música, la pàgina, els solapaments i els silencis són de muntatge local. [Manifest de producció](assets/audio/s008r-production-manifest.json).
+
+La següent proposta és [S015 · Una restauradora ens explica el seu ofici](https://sentit.ortogra.fi/#lectura=ca-S015), pendent de validar. Proposa Puck i Kore, amb el títol i l’entrevista en una única petició. Un tall local dins una pausa separaria després les dues pistes. L’escaleta intercalada i les notes de «Talls per a Gemini» mostren exactament què s’enviaria. S023 continua pendent, amb la seva previsió anterior de dues peticions.
+
+`node tools/produce-radio.cjs --plan` calcula el pla i comprova la memòria cau sense xarxa. `--synthesize` només envia el bloc aprovat si falta, registra l’intent i té un topall d’una petició, sense reintents automàtics. `node tools/render-radio.cjs` munta la presa conservada i reutilitza la presentació, sense síntesi nova. Les marques de paraula s’obtenen amb el model Vosk de català ja instal·lat localment; `VOSK_ASSETS_PATH` permet indicar una altra carpeta amb `vosk.js` i `vosk-model-small-ca-0.4.tar.gz`. Cal Playwright/Chrome i FFmpeg per al muntatge i les comprovacions locals.
+
+[Estadístiques i avisos d’error](docs/estadistiques.md): Umami propi, esdeveniments amb valors coneguts, bandera d’errors amb confirmació de recepció i exclusió del navegador a V4V. Les proves automatitzades utilitzen un receptor simulat.
+
 ## Revisar les propostes al web
 
 La proposta de ràdio **ca-S008R · La foto que faltava · Històries amb sentit** ja es pot [obrir directament](https://sentit.ortogra.fi/#lectura=ca-S008R). Té fitxa, sis preguntes i solucionari amb el guió complet: benvinguda, relat, comiat i anotacions de música, efectes i pauses intercalades. El codi original ca-S008 conserva l’àudio i els enllaços existents.
 
-S008R, S015 i S023 mostren «Pendent de validar» sobre la targeta i a cada pàgina del preview. Es poden obrir, maquetar i revisar, però la impressió està desactivada. La impressió del navegador també mostra un avís en lloc del material. No es genera cap QR mentre no hi ha àudio.
+S015 i S023 mostren «Pendent de validar» sobre la targeta i a cada pàgina del preview. Es poden obrir, maquetar i revisar, però la impressió està desactivada. La impressió del navegador també mostra un avís en lloc del material. No es genera cap QR mentre no hi ha àudio.
 
-Al costat del preview, **Talls per a Gemini** identifica cada presa, n’indica les frases inicial i final, les preses conservades i les peticions noves previstes. En prémer un tall s’obre el solucionari i se’n localitza la marca al guió. El mateix guió inclou els límits de les preses; les anotacions no són text per sintetitzar. La primera previsió és S008R: **1** petició nova aprofitant el títol; S015: **2** aprofitant l’inici d’entrevista si se’n validen les veus; S023: **2**. No inclou possibles reintents o canvis demanats després de l’audició. S008R és una proposta nova, encara per integrar al generador després de validar-ne el muntatge: no s’ha enviat cap petició.
+Al costat del preview, **Talls per a Gemini** identifica cada presa, n’indica les frases inicial i final, les preses conservades i les peticions noves previstes. En prémer un tall s’obre el solucionari i se’n localitza la marca al guió. El mateix guió inclou els límits de les preses; les anotacions no són text per sintetitzar. S008R ja ha consumit **1** petició. La nova previsió pendent és S015: **1** per al títol i tot el diàleg; S023: **2**. No inclou possibles reintents o canvis demanats després de l’audició. S008R ja té àudio en revisió d’audició; S015 i S023 continuen bloquejats per a síntesi fins a validar-los.
 
 `node tools/check-review.mjs` comprova que els talls cobreixin exactament tot el text parlat, sense duplicacions ni anotacions sonores. `node tools/check-review-ui.cjs` comprova la navegació, els sobreimpresos, les marques d’aigua, els salts als talls, la paginació i el bloqueig d’impressió.
 
 ## Producció sonora i validació
 
-**Abans de qualsevol petició de síntesi cal validar amb el docent el guió complet, les veus i l’escaleta de muntatge, amb música, efectes, solapaments, pauses, presentació i comiat.** La quota gratuïta no s’utilitza per provar guions encara oberts. El generador comprova una empremta d’aquest conjunt: l’aprovació caduca si canvia qualsevol dels elements. Les propostes actuals continuen pendents; no es reprenen automàticament en restablir-se la quota.
+**Abans de qualsevol petició de síntesi cal validar amb el docent el guió complet, les veus i l’escaleta de muntatge, amb música, efectes, solapaments, pauses, presentació i comiat.** La quota gratuïta no s’utilitza per provar guions encara oberts. El generador comprova una empremta d’aquest conjunt: l’aprovació caduca si canvia qualsevol dels elements. Les propostes encara no validades no es reprenen automàticament en restablir-se la quota. S008R té la confirmació registrada i l’àudio produït.
 
 [Fonts sonores, llicències, escaletes i procediment](docs/fonts-sonores.md). Les fonts també es poden consultar al desplegable de cada comprensió, sense afegir-les al PDF. V4V incorpora el mateix accés.
 
@@ -134,7 +144,7 @@ node tools/generate-prototypes.cjs --plan
 node tools/check-audio-plan.cjs
 ```
 
-Una activitat nova fa una petició pel fragment complet, amb tots els paràgrafs i torns de veu, i una per la presentació. Les preses antigues no s’eliminen: els màsters complets es conserven i una activitat parcial reutilitza el prefix disponible i agrupa la resta en una sola petició. Per a S015 i S023 queden quatre peticions previstes en total, si no calen reintents.
+Una activitat nova fa una petició pel fragment complet, amb tots els paràgrafs i torns de veu, i una per la presentació. Les preses antigues no s’eliminen: els màsters complets es conserven i una activitat parcial reutilitza el prefix disponible i agrupa la resta en una sola petició. La nova proposta de S015 agrupa títol i entrevista en una petició, sense barrejar la Nora de Kore amb la presa antiga d’Aoede. S023 manté dues peticions previstes.
 
 Només després de validar el guió, les veus i el muntatge complet i registrar-ne l’empremta aprovada, amb quota disponible, Gemini configurat i FFmpeg disponible:
 

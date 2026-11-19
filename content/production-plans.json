@@ -34,12 +34,21 @@
     "reviewedAt": null,
     "format": "Entrevista enregistrada a una restauradora adulta, amb un entrevistador adolescent.",
     "cues": [
-      "Entrada breu de programa, baixada abans de la primera pregunta.",
-      "Ambient de taller molt discret, sense sons que suggereixin procediments incorrectes.",
-      "Respectar tots els torns; cap música sota explicacions precises si en redueix la intel·ligibilitat.",
-      "Resoldre abans la continuïtat de veu de Nora: la presa parcial és Aoede; Kore només és una proposta de personatge."
+      "Entrada musical breu i ambient de sala, amb retirada abans de les explicacions tècniques.",
+      "Detalls de taller originals només entre blocs, sense suggerir respostes o tractaments.",
+      "Cap música ni efectes sota llum, temperatura i humitat.",
+      "Una única petició amb el títol i tota l’entrevista; el títol el llegeix en Biel amb Puck.",
+      "Nora amb Kore, pendent de validar. La presa antiga amb Aoede es conserva per comparar, però no es barreja amb la nova veu.",
+      "Tall local després del títol, dins una pausa llarga i amb marges a tots dos costats."
     ],
-    "ending": "Separador de sortida original i cua de silenci; guió i repartiment encara per validar."
+    "ending": "Separador de sortida original i cua de silenci; guió i repartiment encara per validar.",
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Entrevistador": "Puck",
+      "Nora": "Kore"
+    },
+    "strategy": "packed-title-dialogue-v1",
+    "reviewContent": "content/una-restauradora-ens-explica-el-seu-ofici.js"
   },
   "S023": {
     "status": "awaiting-validation",
@@ -55,9 +64,9 @@
     "ending": "Tancament informatiu definit al guió abans de sintetitzar."
   },
   "S008R": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "920b2ba1f9642cf0e88dbd39c8d7b378b5b0f75711a2f2037d6ca5e476736ba6",
+    "reviewedAt": "2026-11-19T16:15:16.226Z",
     "format": "Proposta: microprograma de ràdio de relats, amb una única narradora adulta sense identitat explícita.",
     "openingProposal": "Benvingudes i benvinguts a Històries amb sentit. Avui: La foto que faltava.",
     "cues": [
@@ -68,10 +77,10 @@
       "La base puja suaument només en els espais sense parla i es fon després del comiat."
     ],
     "endingProposal": "Gràcies per escoltar Històries amb sentit. Ens retrobem al pròxim programa.",
-    "publishedNow": "Remuntatge sense síntesi nova: relat actual, marges conservats i prova de base instrumental. La benvinguda i el comiat no s’han sintetitzat. Cal integrar-los al guió definitiu abans d’aprovar-ne l’empremta.",
     "reviewActivity": "ca-S008R",
     "reviewContent": "content/la-foto-que-faltava-radio.js",
     "plannedNewRequests": 1,
-    "integration": "Proposta consultable al web. Integrar els talls de generationPlan al generador i implementar el muntatge complet només després de validar-la; no executar el generador de S008 per produir aquesta versió."
+    "integration": "Producció amb tools/produce-radio.cjs i muntatge local. Un únic bloc de narració amb Aoede; presentació existent de S008 reutilitzada.",
+    "approvalSource": "Confirmació explícita de l’usuari: «Donem per validats el guió i el muntatge de S008R i generem l’àudio, reutilitzant la presentació que ja tenim.»"
   }
 }

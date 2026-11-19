@@ -6,10 +6,10 @@ export function takeParts(entry, take) {
 
 export function renderGenerationPlan(root, entry, t) {
   const plan = entry?.generationPlan;
-  root.hidden = !plan;
+  root.hidden = !plan || Boolean(entry.audio);
   const content = root.querySelector('.generation-plan-content');
   content.replaceChildren();
-  if (!plan) return;
+  if (!plan || entry.audio) return;
   const node = (tag, text, parent = content, className) => {
     const element = document.createElement(tag); element.textContent = text;
     if (className) element.className = className;
@@ -30,6 +30,12 @@ export function renderGenerationPlan(root, entry, t) {
     const last = speech.at(-1)?.text.split(/\s+/).slice(-7).join(' ');
     const excerpt = node('p', `«${first}…» → «…${last}»`, item, 'take-excerpt'); excerpt.lang = entry.language;
     const note = node('p', take.note, item); note.lang = entry.language;
+  }
+  for (const cut of plan.localCuts ?? []) {
+    const item=node('li','',list);
+    const button=node('button',`${cut.id} · ${cut.label}`,item);button.type='button';button.dataset.take=cut.id;
+    node('small',t('localCutNoRequest'),item,'reused-take');
+    const note=node('p',cut.note,item);note.lang=entry.language;
   }
   const note = node('p', plan.note, content, 'generation-caveat'); note.lang = entry.language;
   node('p', t('generationEstimate'), content, 'generation-caveat');

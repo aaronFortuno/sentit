@@ -1,0 +1,25 @@
+'use strict';
+const assert=require('node:assert/strict'),{fork}=require('node:child_process'),path=require('node:path'),fs=require('node:fs/promises');
+const {chromium}=require('C:/Users/afortun8/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+(async()=>{
+ const server=fork(path.join(__dirname,'serve.cjs'),{env:{...process.env,SENTIT_PORT:'4250'},stdio:['ignore','pipe','inherit','ipc']});let browser;
+ const output=path.resolve(__dirname,'../../tmp/sentit-qa/radio-v0125');await fs.mkdir(output,{recursive:true});const errors=[];
+ try{
+  await new Promise(r=>server.stdout.once('data',r));browser=await chromium.launch({channel:'chrome',headless:true});const page=await browser.newPage({viewport:{width:1440,height:1000}});
+  page.on('pageerror',error=>errors.push(error.message));await page.route('**/*',route=>new URL(route.request().url()).origin==='http://127.0.0.1:4250'?route.continue():route.abort());
+  await page.goto('http://127.0.0.1:4250/#lectura=ca-S008R');await page.locator('#open-player').waitFor();
+  assert.equal(await page.locator('#print').isEnabled(),true);assert.equal(await page.locator('.paper-review-watermark').count(),0);
+  assert.equal(await page.locator('.paper-qr').count(),1);assert.equal(await page.locator('#generation-plan').isHidden(),true);
+  assert.match(await page.locator('#activity-meta').innerText(),/1:40/);
+  await page.evaluate(()=>Promise.all(document.getAnimations().map(a=>a.finished.catch(()=>{}))));
+  await page.screenshot({path:path.join(output,'worksheet.png')});await page.pdf({path:path.join(output,'fitxa.pdf'),preferCSSPageSize:true,printBackground:true});
+  await page.locator('#answers-mode').click();assert.equal(await page.locator('.paper-answer-label').count(),6);
+  assert.equal(await page.locator('.paper-evidence-cue').count(),5);assert.equal(await page.locator('.paper-sound-cue').count(),4);
+  const text=await page.locator('#paper').innerText();assert(text.includes('Benvingudes i benvinguts'));assert(text.includes('Ens retrobem al pròxim programa.'));
+  assert(!text.includes('S008R-T02'));assert(!text.includes('Presa existent amb Aoede'));
+  await page.pdf({path:path.join(output,'solucionari.pdf'),preferCSSPageSize:true,printBackground:true});
+  await page.goto('http://127.0.0.1:4250/?escolta=ca-S008R&jingle=0');await page.locator('#play').click();
+  await page.waitForFunction(()=>document.querySelector('#play-label').textContent==='Posa en pausa');await page.locator('#play').click();
+  assert.deepEqual(errors,[]);console.log('PASS · New radio audio, public QR, print-ready worksheet and key, complete transcript, recorded cues and direct listening. No remote check or TTS.');
+ }finally{await browser?.close();server.kill();}
+})().catch(error=>{console.error(error);process.exitCode=1;});

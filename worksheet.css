@@ -10,8 +10,11 @@
 .paper-review-watermark { position: absolute; z-index: 3; left: 50%; top: 47%; transform: translate(-50%, -50%) rotate(-28deg); color: #9b4935; opacity: .13; font: 700 38pt/1.1 "Segoe UI", sans-serif; white-space: nowrap; pointer-events: none; user-select: none; }
 .paper .paper-review-label { color: #8a4934; font: 600 9pt/1.35 "Segoe UI", sans-serif; }
 .paper-direction .paper-transcript { padding: 2mm 3mm; border-inline-start: 2px solid #bcc5bf; background: #f2f4f1; color: #526158; font-style: italic; }
+.paper-sound-cue .paper-transcript { color: #526158; font-style: italic; }
 .paper-take .paper-transcript { padding: 2mm 3mm; border: 1px solid #b7ccbf; border-radius: 2mm; background: #edf4ee; color: #244e3f; font: 600 9pt/1.4 "Segoe UI", sans-serif; }
 .paper-take:focus { outline: 2px solid #779b83; outline-offset: 2mm; }
+.paper-local-cut .paper-transcript { padding: 2mm 3mm; border: 1px dashed #9eb8c7; background: #f0f5f8; color: #345569; font: 600 9pt/1.4 "Segoe UI", sans-serif; }
+.paper-local-cut:focus { outline: 2px solid #7897ab; outline-offset: 2mm; }
 .review-print-notice { display: none; }
 @media print {
   body.reviewing-draft > :not(.review-print-notice) { display: none !important; }

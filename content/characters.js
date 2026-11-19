@@ -51,6 +51,7 @@ export const characters = [
     appearances: [
       { code: 'ca-S002', speaker: 'Mestra', kind: 'direct', currentVoice: 'Aoede' },
       { code: 'ca-S008', speaker: 'Narradora', kind: 'narrator', currentVoice: 'Aoede' },
+      { code: 'ca-S008R', speaker: 'Narradora', kind: 'narrator', currentVoice: 'Aoede' },
     ],
   },
   {

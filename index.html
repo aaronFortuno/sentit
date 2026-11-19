@@ -2,6 +2,7 @@
 <html lang="ca">
 <head>
   <meta charset="utf-8">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="description" content="Comprensions orals en català amb àudio, fitxes imprimibles i solucionari.">
   <meta name="theme-color" content="#f7f5ee">
@@ -122,6 +123,7 @@
           <button id="worksheet-mode" type="button" aria-pressed="true" data-t="worksheet">Fitxa</button>
           <button id="answers-mode" type="button" aria-pressed="false" data-t="answers">Solucionari</button>
         </div>
+        <button id="report-error" class="icon-button" type="button" data-label="reportError"><span data-icon="flag" aria-hidden="true"></span></button>
       </div>
       <div class="paper-stage">
         <div class="paper-pages" id="paper" data-label="printKind"></div>
@@ -217,6 +219,7 @@
   </main>
 
   <main id="player" class="player" tabindex="-1" hidden>
+    <button id="player-report" class="icon-button student-report" type="button" data-label="reportError" hidden><span data-icon="flag" aria-hidden="true"></span></button>
     <section aria-labelledby="player-title">
       <img src="./assets/sentit.svg" width="34" height="34" alt="Sentit">
       <h1 id="player-title"></h1>
@@ -236,7 +239,7 @@
       <a class="parent-brand" href="https://ortogra.fi/"><span data-t="parent">Un projecte d’</span><img src="./assets/ortografi.svg" width="83" height="20" alt="ortogra.fi"></a>
       <nav aria-label="Projecte" data-label="project">
         <a href="./LICENSE" data-t="license">Llicència</a>
-        <button type="button" data-open="changes" data-label="changes">v0.1.24</button>
+        <button type="button" data-open="changes" data-label="changes">v0.1.25</button>
         <button type="button" data-open="v4v">V4V</button>
       </nav>
     </div>
@@ -277,6 +280,8 @@
       <div class="dialog-head"><h2 id="changes-title" data-t="changes">Canvis</h2>
         <form method="dialog"><button class="icon-button" type="submit" data-label="close"><span data-icon="close" aria-hidden="true"></span></button></form>
       </div>
+      <h3>0.1.25 <time datetime="2026-11-19" data-t="releaseDateReview">19 de novembre de 2026</time></h3>
+      <p data-t="releaseRadioAnalytics"></p>
       <h3>0.1.24 <time datetime="2026-11-19" data-t="releaseDateReview">19 de novembre de 2026</time></h3>
       <p data-t="releaseDraftReview"></p>
       <h3>0.1.23 <time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></h3>
@@ -348,8 +353,19 @@
         <section class="v4v-author"><h3><span data-t="aboutAuthor">Sobre l’autor</span> · Aarón Fortuño</h3><img src="./assets/aaron-fortuno.png" alt="Aarón Fortuño" width="400" height="400" loading="lazy"><p data-t="authorNote"></p><a href="https://aaronfortuno.github.io/portfolio/" target="_blank" rel="noopener noreferrer" data-t="portfolio">Portafoli</a></section>
         <section><h3 data-t="openCode">Codi obert</h3><p data-t="contributeHint"></p><p><a href="https://github.com/aaronFortuno/sentit" target="_blank" rel="noopener noreferrer">GitHub · Sentit</a> · <a href="https://github.com/aaronFortuno/sentit/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">MIT</a></p><h3 data-t="libraries">Llibreries i recursos</h3><p><a href="https://lucide.dev/">Lucide</a> · ISC / MIT</p><p><a href="https://github.com/kazuhikoarase/qrcode-generator">QR Code Generator</a> · MIT</p><p><a href="https://sortablejs.github.io/Sortable/">SortableJS</a> · MIT</p><p><a href="https://github.com/aaronFortuno/sentit/blob/main/docs/fonts-sonores.md" target="_blank" rel="noopener noreferrer" data-t="fullAudioCredits">Fonts, llicències i escaletes completes</a></p><p><a href="https://github.com/aaronFortuno/sentit/blob/main/CREDITS.md" data-t="credits">Crèdits de l’àudio i les biblioteques</a></p><p><a href="./personatges.html" data-t="characters">Els personatges</a></p></section>
       </div>
+      <section class="analytics-privacy"><h3 data-t="privacyTitle">Privadesa i estadístiques</h3><p data-t="privacyInfo"></p><p data-t="privacyReports"></p><label class="privacy-switch"><span data-t="privacyExclude">Exclou aquest navegador de les estadístiques</span><input id="analytics-excluded" type="checkbox" role="switch"></label><p id="analytics-browser-notice" class="small" data-t="privacyBrowser" hidden></p></section>
     </div>
   </dialog>
+  <dialog id="error-report-dialog" aria-labelledby="error-report-title" aria-describedby="error-report-context"><div class="dialog-content">
+    <div class="dialog-head"><h2 id="error-report-title" data-t="reportError">Notifica un error</h2><form method="dialog"><button class="icon-button" type="submit" data-label="close"><span data-icon="close" aria-hidden="true"></span></button></form></div>
+    <p id="error-report-context" class="small"></p>
+    <form id="error-report-form">
+      <p class="report-warning small" role="status" hidden></p><button type="button" class="subtle" data-report-enable data-t="reportAllow" hidden>Permet Umami en aquest navegador</button>
+      <fieldset class="report-fields"><label><span data-t="reportPart">Part afectada</span><select name="part" required></select></label><label><span data-t="reportElement">Element</span><select name="element"></select></label><fieldset class="report-reasons"></fieldset></fieldset>
+      <p class="small" data-t="reportDataNotice">Enviem només el codi, la part afectada i el motiu, sense dades personals ni text lliure.</p>
+      <p class="report-status inline-status" role="status"></p><button class="button primary" type="submit" data-t="reportSend" disabled>Envia l’avís</button>
+    </form>
+  </div></dialog>
   <section class="review-print-notice" data-t="reviewPrintNotice"></section>
 </body>
 </html>

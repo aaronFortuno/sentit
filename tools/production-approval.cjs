@@ -11,5 +11,7 @@ function assertProductionApproved(entry, spec, plan) {
   if (!plan || plan.status !== 'approved' || !plan.reviewedAt || plan.approvedFingerprint !== fingerprint(entry,spec,plan)) {
     throw Error(entry.code+': cal validar amb el docent el guió, les veus i l’escaleta completa abans de sintetitzar. Cap petició enviada.');
   }
+  if(plan.requiredVoices&&JSON.stringify(plan.requiredVoices)!==JSON.stringify(spec.voices))throw Error('El generador no correspon a les veus validades. Cap petició enviada.');
+  if(plan.strategy&&plan.strategy!==spec.strategy)throw Error('El generador no correspon a l’agrupació de peticions validada. Cap petició enviada.');
 }
 module.exports = { fingerprint, assertProductionApproved };

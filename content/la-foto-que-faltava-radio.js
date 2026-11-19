@@ -6,11 +6,19 @@ const direction = text => ({ kind: 'direction', text });
 export const fotoRadio = {
   id: 'la-foto-que-faltava-radio', code: 'S008R', language: 'ca',
   title: 'La foto que faltava · Històries amb sentit',
-  summary: 'Proposta de programa de ràdio: una narradora, un àlbum i una primera impressió que cal comprovar.',
-  grade: '4', level: 'easy', genre: 'story', seconds: 0,
-  status: 'awaiting-audio', reviewStatus: 'pending',
+  summary: 'Un programa de ràdio amb una narradora, un àlbum i una primera impressió que cal comprovar.',
+  grade: '4', level: 'easy', genre: 'story', seconds: 105,
+  status: 'ready-for-review', reviewStatus: 'audio-review',
   durationEstimate: { min: 110, max: 135 },
-  audio: null,
+  audio: './assets/audio/s008r-la-foto-que-faltava-radio-v1.mp3',
+  fragment: { start: 5.11, seconds: 100 },
+  tracks: { introduction: './assets/audio/s008-la-foto-que-faltava-v2-intro.mp3', body: './assets/audio/s008r-la-foto-que-faltava-radio-v1-cos.mp3' },
+  recordingCues: [
+    { before: 'benvinguda', text: '[Sona una breu sintonia del programa, que baixa abans de la veu.]' },
+    { before: 'album', text: '[La música acompanya el relat suaument, per sota de la narradora.]' },
+    { before: 'mirar', text: '[Se sent passar una pàgina, breument, sobre el fons musical.]' },
+    { after: 'comiat', text: '[La música puja quan acaba la veu, es fon i deixa silenci.]' },
+  ],
   image: { ...foto.image },
   introduction: 'Comprensió oral. La foto que faltava.',
   generationPlan: {
