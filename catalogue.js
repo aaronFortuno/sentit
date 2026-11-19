@@ -1,6 +1,7 @@
 import { radio } from './content/el-senyal-de-la-radio.js';
 import { capsa } from './content/preparem-una-capsa-de-records.js';
 import { foto } from './content/la-foto-que-faltava.js';
+import { fotoRadio } from './content/la-foto-que-faltava-radio.js';
 import { restauradora } from './content/una-restauradora-ens-explica-el-seu-ofici.js';
 import { mercat } from './content/reobren-el-mercat.js';
 
@@ -10,6 +11,7 @@ export const activities = [
   foto,
   restauradora,
   mercat,
+  fotoRadio,
 ];
 
 // Keep the technical pilot reachable through its existing direct links.

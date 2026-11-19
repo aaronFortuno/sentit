@@ -1,5 +1,13 @@
 # Canvis
 
+## 0.1.24 · 19 de novembre de 2026
+
+- Nova proposta ca-S008R per revisar el programa de ràdio de «La foto que faltava»: fitxa, preguntes, solucionari i guió complet amb benvinguda, relat, comiat i anotacions de muntatge. S008 conserva el seu àudio i els enllaços.
+- S008R, S015 i S023 es mostren com a pendents de validar: sobreimprès clicable al catàleg, marca d’aigua a cada pàgina, sense QR ni reproductor i amb impressió bloquejada. La impressió del navegador mostra un avís en lloc del material.
+- Notes de treball al costat del preview amb els talls previstos per a Gemini, frases inicial i final, peticions noves i preses conservades. Clic per saltar al límit del tall dins del guió. Previsió inicial de cinc peticions noves entre els tres prototips, subjecta a validar veus i preses.
+- Es conserven els ressaltats de les respostes, les opcions de maquetació i les col·leccions. S’han eliminat camps de pistes duplicats en remuntar repetidament els mateixos àudios.
+- Cap síntesi nova; guions i muntatges continuen pendents de validació.
+
 ## 0.1.23 · 18 de novembre de 2026
 
 - Recompte i filtres de participació limitats a les veus: Aina i Ferran no compten com a veus a S008; la narradora no té nom dins del relat.

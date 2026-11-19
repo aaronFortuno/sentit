@@ -68,7 +68,7 @@ function waveFixture() {
     await page.locator('#character-match').selectOption('any'); assert.deepEqual(await codes(), ['S001', 'S015']);
     await page.locator('#grade').selectOption('5'); assert.deepEqual(await codes(), ['S001', 'S015']);
     await page.locator('#genre').selectOption('interview'); assert.deepEqual(await codes(), ['S015']);
-    await page.locator('#filters [type="reset"]').click(); assert.equal((await codes()).length, 5);
+    await page.locator('#filters [type="reset"]').click(); assert.equal((await codes()).length, activities.length);
     assert.equal(new URL(page.url()).searchParams.has('personatge'), false);
     await page.locator('#collection-select').selectOption('character-test');
     await page.locator('#grade').selectOption('6'); await page.locator('#search').fill('mercat');

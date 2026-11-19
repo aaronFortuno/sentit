@@ -116,7 +116,7 @@ async function main() {
     let text = await fs.readFile(contentFile,'utf8');
     text = text.replace(/seconds: \d+,/,'seconds: '+Math.ceil(report.fullDuration)+',');
     text = text.replace(/  audio: '[^']+',/,`  audio: './assets/audio/${report.file}',`);
-    text = text.replace(/  tracks: \{[^\n]+\},\n/g,'');
+    text = text.replace(/  tracks: \{[^\r\n]+\},\r?\n/g,'');
     text = text.replace(/(  audio: '[^']+',)/,`$1\n  tracks: { introduction: './assets/audio/${name}-intro.mp3', body: './assets/audio/${name}-cos.mp3' },`);
     text = text.replace(/fragment: \{ start: [\d.]+, seconds: \d+ \}/,`fragment: { start: ${Number(offset.toFixed(5))}, seconds: ${Math.round(bodyDuration)} }`);
     await fs.writeFile(contentFile,text);

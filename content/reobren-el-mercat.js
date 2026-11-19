@@ -4,6 +4,19 @@ export const mercat = {
   summary: 'Notícia de ficció per distingir dades confirmades, opinions i decisions pendents.',
   grade: '6', level: 'advanced', genre: 'news', seconds: 0,
   status: 'awaiting-audio',
+  reviewStatus: 'pending',
+  generationPlan: {
+    note: 'Dues peticions noves previstes: una per al títol i una per a la notícia completa. Cap petició separada per frase, paràgraf, efecte o pausa.',
+    takes: [
+      { id: 'S023-T01', label: 'Presentació', parts: ['introduction'], requests: 1, note: 'Títol complet i avís que és una notícia de ficció, amb Aoede.' },
+      { id: 'S023-T02', label: 'Notícia completa', parts: ['obertura', 'accessos', 'horari', 'testimoni', 'opinio', 'dades', 'recipients', 'cartell', 'tancament'], requests: 1, note: 'Tots els torns de la presentadora i d’en Pau en una sola petició. Aoede i Charon són les veus proposades, pendents de validació.' },
+    ],
+  },
+  productionNotes: [
+    'Proposta de notícia radiofònica de ficció, amb una presentadora i el testimoni adult d’en Pau. Les veus Aoede i Charon són propostes encara per validar en aquests papers.',
+    'Capçalera informativa original breu, sense copiar sintonies de mitjans. Ambient de mercat a l’entrada del testimoni, amb baixada abans de les dades. No s’ha de mantenir el brogit sota els horaris, els accessos o les decisions pendents.',
+    'Les pauses separen fets confirmats, opinions i propostes. El tancament és l’últim torn de la presentadora, seguit d’un separador de sortida discret i d’una cua de silenci. Guió i escaleta s’han de validar abans de sintetitzar.',
+  ],
   durationEstimate: { min: 195, max: 240 },
   audio: null,
   image: { src: './assets/images/reobren-el-mercat-v2.webp', alt: 'La periodista Mar informa davant d’un mercat de barri.', width: 1536, height: 1024 },

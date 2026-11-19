@@ -3,6 +3,8 @@ import { strings } from './locales.js';
 import { defaultFormat, imageOptions, maxLines, questionFormat, renderWorksheet } from './worksheet.js';
 import { clockTime, decodeSession, defaultSession, encodeSession, guidedPrompts, validRate } from './session.js';
 import { renderAudioResources } from './audio-resources.js';
+import { isPendingReview } from './review.js';
+import { renderGenerationPlan } from './generation-plan.js';
 import { initGuidedPlayer } from './guided-player.js';
 import { mountCatalog } from './catalog.js';
 import { listCollections, saveCollectionLayout } from './collections.js';
@@ -78,7 +80,7 @@ function sessionSettings(entry) {
 }
 
 function configuredSession(entry) {
-  if (!guidedPrompts(entry)) return null;
+  if (!guidedPrompts(entry) && !isPendingReview(entry)) return null;
   const session = sessionSettings(entry);
   return session.enabled ? session : null;
 }
@@ -138,6 +140,7 @@ function fitZoom() {
 }
 
 function renderPaper() {
+  document.body.classList.toggle('reviewing-draft', Boolean(isPendingReview(selected) && !byId('workspace').hidden));
   paper.hidden = !selected;
   byId('paper-empty').hidden = Boolean(selected);
   if (!selected || byId('workspace').hidden) {
@@ -250,9 +253,9 @@ function renderSelection() {
   byId('activity-select').value = selected?.id ?? '';
   byId('worksheet-mode').setAttribute('aria-pressed', String(documentMode === 'worksheet'));
   byId('answers-mode').setAttribute('aria-pressed', String(documentMode === 'answers'));
-  byId('print').disabled = !selected;
-  byId('print-label').textContent = t(documentMode === 'answers' ? 'printAnswers' : 'printWorksheet');
-  byId('print-kind').textContent = selected ? t('printHint') : '';
+  byId('print').disabled = !selected || isPendingReview(selected);
+  byId('print-label').textContent = t(isPendingReview(selected) ? 'reviewPending' : documentMode === 'answers' ? 'printAnswers' : 'printWorksheet');
+  byId('print-kind').textContent = selected ? t(isPendingReview(selected) ? 'reviewPrintBlocked' : 'printHint') : '';
   const scope = listCollections().find(entry => entry.id === activeCollectionId);
   byId('activity-meta').textContent = selected ? `${t('grades')[selected.grade] ?? selected.grade} · ${t('genres')[selected.genre] ?? selected.genre} · ${durationText(selected, t)}${scope ? ` · ${scope.name}` : ''}` : '';
   renderPaper();
@@ -269,6 +272,7 @@ function renderSelection() {
   byId('audio-empty').textContent = selected ? t('audioPendingHint') : t('noAudio');
   renderSessionEditor();
   renderAudioResources(byId('audio-resources'), selected, t);
+  renderGenerationPlan(byId('generation-plan'), selected, t);
 }
 
 function showActivity(entry, collectionId = '') {
@@ -306,6 +310,7 @@ function route() {
   else {
     byId('teacher-audio').pause();
     byId('workspace').hidden = true;
+    document.body.classList.remove('reviewing-draft');
     byId('catalog-view').hidden = false;
     document.querySelector('.skip').href = '#catalog-view';
     catalog.render();
@@ -583,7 +588,16 @@ for (const [id, mode] of [['worksheet-mode', 'worksheet'], ['answers-mode', 'ans
     renderSelection();
   });
 }
-byId('print').addEventListener('click', () => window.print());
+byId('print').addEventListener('click', () => { if (selected && !isPendingReview(selected)) window.print(); });
+byId('generation-plan').addEventListener('click', event => {
+  const take = event.target.closest('[data-take]');
+  if (!take) return;
+  documentMode = 'answers';
+  renderSelection();
+  const target = [...paper.querySelectorAll('[data-take-id]')].find(node => node.dataset.takeId === take.dataset.take);
+  scrollToTarget(target);
+  target?.focus({ preventScroll: true });
+});
 byId('copy-link').addEventListener('click', async () => {
   if (!selected) return;
   const url = publicListenUrl(selected);

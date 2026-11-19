@@ -5,7 +5,6 @@ export const capsa = {
   grade: '3', level: 'easy', genre: 'instructions', seconds: 59,
   audio: './assets/audio/s002-preparem-una-capsa-de-records-v2.mp3',
   tracks: { introduction: './assets/audio/s002-preparem-una-capsa-de-records-v2-intro.mp3', body: './assets/audio/s002-preparem-una-capsa-de-records-v2-cos.mp3' },
-  tracks: { introduction: './assets/audio/s002-preparem-una-capsa-de-records-v2-intro.mp3', body: './assets/audio/s002-preparem-una-capsa-de-records-v2-cos.mp3' },
   image: { src: './assets/images/preparem-una-capsa-de-records-v2.webp', alt: 'La mestra Mireia al costat d’una capsa de records tancada.', width: 1536, height: 1024 },
   introduction: 'Comprensió oral. Preparem una capsa de records.',
   fragment: { start: 5.71, seconds: 53 },

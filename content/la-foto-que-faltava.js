@@ -5,7 +5,6 @@ export const foto = {
   grade: '4', level: 'easy', genre: 'story', seconds: 94,
   audio: './assets/audio/s008-la-foto-que-faltava-v2.mp3',
   tracks: { introduction: './assets/audio/s008-la-foto-que-faltava-v2-intro.mp3', body: './assets/audio/s008-la-foto-que-faltava-v2-cos.mp3' },
-  tracks: { introduction: './assets/audio/s008-la-foto-que-faltava-v2-intro.mp3', body: './assets/audio/s008-la-foto-que-faltava-v2-cos.mp3' },
   image: { src: './assets/images/la-foto-que-faltava-v2.webp', alt: 'L’Aina i el seu avi Ferran conversen al costat d’un àlbum tancat.', width: 1536, height: 1024 },
   introduction: 'Comprensió oral. La foto que faltava.',
   fragment: { start: 5.11, seconds: 88 },

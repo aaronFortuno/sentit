@@ -6,6 +6,16 @@ Banc de comprensió oral d’ortogra.fi. El docent busca una activitat, en previ
 
 El projecte es manté a la sèrie **0.1.x** mentre es revisen les primeres activitats i la interfície. El pas a **0.2** requereix una comprensió oral validada en tots els aspectes —àudio, fitxa i solucionari— i una interfície prou definida.
 
+## Revisar les propostes al web
+
+La proposta de ràdio **ca-S008R · La foto que faltava · Històries amb sentit** ja es pot [obrir directament](https://sentit.ortogra.fi/#lectura=ca-S008R). Té fitxa, sis preguntes i solucionari amb el guió complet: benvinguda, relat, comiat i anotacions de música, efectes i pauses intercalades. El codi original ca-S008 conserva l’àudio i els enllaços existents.
+
+S008R, S015 i S023 mostren «Pendent de validar» sobre la targeta i a cada pàgina del preview. Es poden obrir, maquetar i revisar, però la impressió està desactivada. La impressió del navegador també mostra un avís en lloc del material. No es genera cap QR mentre no hi ha àudio.
+
+Al costat del preview, **Talls per a Gemini** identifica cada presa, n’indica les frases inicial i final, les preses conservades i les peticions noves previstes. En prémer un tall s’obre el solucionari i se’n localitza la marca al guió. El mateix guió inclou els límits de les preses; les anotacions no són text per sintetitzar. La primera previsió és S008R: **1** petició nova aprofitant el títol; S015: **2** aprofitant l’inici d’entrevista si se’n validen les veus; S023: **2**. No inclou possibles reintents o canvis demanats després de l’audició. S008R és una proposta nova, encara per integrar al generador després de validar-ne el muntatge: no s’ha enviat cap petició.
+
+`node tools/check-review.mjs` comprova que els talls cobreixin exactament tot el text parlat, sense duplicacions ni anotacions sonores. `node tools/check-review-ui.cjs` comprova la navegació, els sobreimpresos, les marques d’aigua, els salts als talls, la paginació i el bloqueig d’impressió.
+
 ## Producció sonora i validació
 
 **Abans de qualsevol petició de síntesi cal validar amb el docent el guió complet, les veus i l’escaleta de muntatge, amb música, efectes, solapaments, pauses, presentació i comiat.** La quota gratuïta no s’utilitza per provar guions encara oberts. El generador comprova una empremta d’aquest conjunt: l’aprovació caduca si canvia qualsevol dels elements. Les propostes actuals continuen pendents; no es reprenen automàticament en restablir-se la quota.

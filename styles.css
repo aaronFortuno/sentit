@@ -244,6 +244,18 @@ dialog.is-closing::backdrop { animation: backdrop-out var(--motion) ease both; }
 .audio-sources summary { cursor: pointer; color: var(--ink); }
 .audio-sources h4 { margin: 12px 0 4px; font-size: .82rem; }
 .audio-sources p { margin: 5px 0; }
+.generation-plan { margin-top: 14px; border-top: 1px solid var(--line); padding-top: 12px; font-size: .8rem; }
+.generation-plan summary { cursor: pointer; font-weight: 650; }
+.generation-plan .generation-summary { margin: 8px 0; color: var(--green); font-weight: 650; }
+.generation-plan ol { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
+.generation-plan li { padding-inline-start: 9px; border-inline-start: 2px solid var(--line); }
+.generation-plan button { border: 0; padding: 0; background: none; color: var(--ink); font: inherit; font-weight: 650; text-align: start; }
+.generation-plan button:hover { text-decoration: underline; }
+.generation-plan small { display: block; margin: 3px 0; }
+.generation-plan .reused-take { color: var(--green); }
+.generation-plan p { margin: 4px 0; }
+.generation-plan .take-excerpt, .generation-plan .generation-caveat { color: var(--quiet); font-size: .76rem; }
+.generation-plan .generation-caveat { margin-top: 10px; }
 #v4v { width: min(calc(100% - 24px), 820px); }
 #v4v .dialog-content { gap: 20px; padding: 24px; }
 .v4v-intro { display: grid; grid-template-columns: 144px 1fr; align-items: start; gap: 24px; }

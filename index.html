@@ -166,6 +166,7 @@
           </div>
           <p id="audio-empty" class="empty" data-t="noAudio">Tria una activitat per escoltar-la.</p>
           <details class="audio-sources"><summary data-t="audioSources">Fonts i crèdits sonors</summary><div id="audio-resources"></div></details>
+          <details id="generation-plan" class="generation-plan" open hidden><summary data-t="generationTitle">Talls per a Gemini</summary><div class="generation-plan-content"></div></details>
         </section>
         <section class="format-section" id="worksheet-editor" hidden>
           <h2 data-t="print">Impressió</h2>
@@ -235,7 +236,7 @@
       <a class="parent-brand" href="https://ortogra.fi/"><span data-t="parent">Un projecte d’</span><img src="./assets/ortografi.svg" width="83" height="20" alt="ortogra.fi"></a>
       <nav aria-label="Projecte" data-label="project">
         <a href="./LICENSE" data-t="license">Llicència</a>
-        <button type="button" data-open="changes" data-label="changes">v0.1.23</button>
+        <button type="button" data-open="changes" data-label="changes">v0.1.24</button>
         <button type="button" data-open="v4v">V4V</button>
       </nav>
     </div>
@@ -276,6 +277,8 @@
       <div class="dialog-head"><h2 id="changes-title" data-t="changes">Canvis</h2>
         <form method="dialog"><button class="icon-button" type="submit" data-label="close"><span data-icon="close" aria-hidden="true"></span></button></form>
       </div>
+      <h3>0.1.24 <time datetime="2026-11-19" data-t="releaseDateReview">19 de novembre de 2026</time></h3>
+      <p data-t="releaseDraftReview"></p>
       <h3>0.1.23 <time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></h3>
       <p data-t="releaseSound"></p>
       <h3>0.1.22 <time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></h3>
@@ -347,5 +350,6 @@
       </div>
     </div>
   </dialog>
+  <section class="review-print-notice" data-t="reviewPrintNotice"></section>
 </body>
 </html>

@@ -8,7 +8,9 @@ const base = 'http://127.0.0.1:4238/';
 
 (async () => {
   const { activities } = await import('../catalogue.js');
-  const ids = activities.map(entry => entry.id);
+  // Fixed fixture: three easy cards followed by a hidden middle/advanced tail.
+  // Extra catalogue entries must not turn the filtered-tail drop into a middle drop.
+  const ids = activities.slice(0, 5).map(entry => entry.id);
   const layout = { format: { font: 'Georgia', size: 14, spacing: 8, leading: 1.7 }, settings: { code: '4.2.7' } };
   const seed = [{ id: 'gesture-main', name: 'Principal', readingIds: ids, layouts: { [ids[0]]: layout } },
     { id: 'gesture-other', name: 'Una altra', readingIds: [ids[4]], layouts: {} }];
@@ -59,7 +61,7 @@ const base = 'http://127.0.0.1:4238/';
     await page.locator('#back-catalog').click();
 
     await drag(ids[0], ids[2]);
-    assert.deepEqual(await order(), [ids[1], ids[2], ids[0], ids[3], ids[4]]);
+    assert.deepEqual(await order(), [ids[1], ids[2], ids[0], ...ids.slice(3)]);
     assert.deepEqual(await visible(), await order());
     assert.equal(await page.locator('#catalog-view').isVisible(), true);
     assert.deepEqual(await page.evaluate(() => JSON.parse(localStorage.getItem('sentit.collections.v1'))[0].layouts), seed[0].layouts);
@@ -67,10 +69,10 @@ const base = 'http://127.0.0.1:4238/';
     // Filtered tail stays after the last visible card on a drop.
     await page.locator('#level').selectOption('easy');
     await drag(ids[1], ids[0]);
-    assert.deepEqual(await order(), [ids[2], ids[0], ids[1], ids[3], ids[4]]);
+    assert.deepEqual(await order(), [ids[2], ids[0], ids[1], ...ids.slice(3)]);
     await card(ids[1]).focus();
     await page.keyboard.press('Alt+ArrowLeft');
-    assert.deepEqual(await order(), [ids[2], ids[1], ids[0], ids[3], ids[4]]);
+    assert.deepEqual(await order(), [ids[2], ids[1], ids[0], ...ids.slice(3)]);
     assert.equal(await page.evaluate(() => document.activeElement.dataset.id), ids[1]);
     await page.reload();
     await card(ids[2]).waitFor();
@@ -129,7 +131,7 @@ const base = 'http://127.0.0.1:4238/';
     await card(ids[1]).press('Space');
     assert.equal(await card(ids[1]).getAttribute('aria-pressed'), 'false');
     await page.locator('#selection-all').click();
-    assert.equal(await page.locator('.activity-card.is-selected').count(), 5);
+    assert.equal(await page.locator('.activity-card.is-selected').count(), activities.length);
     await page.locator('#selection-save').click();
     await page.locator('#collection-name').fill('Tanda');
     await page.locator('#collection-submit').click();
