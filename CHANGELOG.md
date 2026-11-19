@@ -1,5 +1,13 @@
 # Canvis
 
+## 0.1.28 · 20 de novembre de 2026
+
+- Catàleg base de 24 peces complet en fase de guió: 19 propostes noves, amb 138 preguntes i respostes orientatives, més S023 que ja estava preparada. Sis peces per curs, dues de cada dificultat i sis tipologies. S008R continua com a revisió addicional de S008.
+- Cada proposta inclou repartiment estable, guió complet, escaleta sonora, fonts factuals quan escau, una petició prevista amb títol i fragment i tall local. Estat pendent, solucionari amb guió primer, marques d’esborrany i impressió bloquejada. Cap síntesi nova.
+- Tipologia Explicació al catàleg, filtres, icona i estadístiques. Paginació de les targetes i cerca per codi per accedir a qualsevol proposta.
+- Participacions dels personatges actualitzades. Joana–Vindemiatrix, Elies–Algieba i Ona–Sulafat com a candidates; retrats i il·lustracions nous pendents, sense imatges atribuïdes incorrectament.
+- Seguiment de les 25 entrades i dossier editorial amb índex, criteris i fonts. La taula es pot regenerar des dels continguts i les aprovacions, sense deduir validacions d’àudio.
+
 ## 0.1.27 · 19 de novembre de 2026
 
 - S015: validació explícita del guió i l’escaleta. Una petició per al títol i tota l’entrevista (Puck i Kore; 601 tokens d’entrada i 3.349 d’àudio). Tall local dins un silenci comprovat; veu completa conservada, entrada i sortida originals, ambient de sala discret i pàgina breu. Fragment de 134,49 s; 139,66 s amb títol. Àudio pendent d’audició docent.

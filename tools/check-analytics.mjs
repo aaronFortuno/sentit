@@ -14,5 +14,6 @@ const cases=[
 ];
 for(const [name,data]of cases){const event=sanitizeEvent(name,data);assert(event);assert(!JSON.stringify(event).includes('Joana'));assert.deepEqual(sanitizeEvent(event.name,event.data),event,'Queued events sanitize idempotently');}
 const filter=sanitizeEvent('aplica_filtre',{filtre:'grade',valor:''});assert.deepEqual(sanitizeEvent(filter.name,filter.data),filter);
+assert.equal(sanitizeEvent('aplica_filtre',{filtre:'genre',valor:'explanation'}).data.valor,'explanation');
 assert.equal(countBucket(NaN),undefined);assert.equal(countBucket(-1),undefined);assert.equal(countBucket(20),'16+');
 console.log('PASS · Known event schema, public codes only, no user text, no classroom or collection names, bounded counts and idempotent queue.');

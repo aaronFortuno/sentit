@@ -156,7 +156,7 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
       const head = element('div', undefined, 'activity-card-head');
       const type = element('span', undefined, 'activity-type');
       const symbol = element('span');
-      icon(symbol, { story: 'book', interview: 'mic', news: 'news', instructions: 'checklist', dialogue: 'messages' }[entry.genre] ?? 'book');
+      icon(symbol, { story: 'book', interview: 'mic', news: 'news', instructions: 'checklist', dialogue: 'messages', explanation: 'lightbulb' }[entry.genre] ?? 'book');
       type.append(symbol, element('span', t('genres')[entry.genre] ?? entry.genre));
       head.append(type, code);
       const title = element('h2', entry.title);

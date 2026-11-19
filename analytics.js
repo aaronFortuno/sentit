@@ -6,7 +6,7 @@ const page={website:analyticsConfig.website,hostname:analyticsConfig.hostname,ti
 const entries=new Map([...activities,...legacyActivities].map(entry=>[entry.code,entry]));
 const filters={
   'content-language':['','ca','es'],grade:['','3','4','5','6'],level:['','easy','middle','advanced'],duration:['','short','medium','long'],
-  genre:['','story','dialogue','news','interview','instructions'],'character-match':['any','all'],character:characters.map(character=>character.id),
+  genre:['','story','dialogue','news','interview','instructions','explanation'],'character-match':['any','all'],character:characters.map(character=>character.id),
 };
 const buckets=['0','1','2-5','6-15','16+'];
 const times=Array.from({length:301},(_,index)=>String(index));

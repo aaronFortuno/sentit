@@ -91,5 +91,373 @@
     "plannedNewRequests": 1,
     "integration": "Producció amb tools/produce-radio.cjs i muntatge local. Un únic bloc de narració amb Aoede; presentació existent de S008 reutilitzada.",
     "approvalSource": "Confirmació explícita de l’usuari: «Donem per validats el guió i el muntatge de S008R i generem l’àudio, reutilitzant la presentació que ja tenim.»"
+  },
+  "S003": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S003",
+    "reviewContent": "content/propostes/tercer.js",
+    "format": "3r accessible: problema únic, dos objectes semblants i una solució explícita. Sis respostes molt breus; no cal memoritzar noms de persones absents.",
+    "cues": [
+      "Inici: dos segons de pluja suau sota un porxo. Baixa abans de la primera consonant i desapareix quan comencen a comparar els paraigües.",
+      "Un moviment discret de roba i paper en obrir la bossa; s’acaba abans de descriure el que hi troben.",
+      "La pluja reapareix mig segon després de l’última paraula, molt baixa. Dos segons de sortida i 600 ms de silenci. No hi ha música sota les dades."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Laia": "Leda",
+      "Biel": "Puck"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S004": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S004",
+    "reviewContent": "content/propostes/tercer.js",
+    "format": "3r intermèdia: reconstruir la recerca i separar una semblança d’una pista que connecta amb el que ha passat.",
+    "cues": [
+      "Separador musical de dos segons, marge de 250 ms i narradora. El relat s’explica amb una única veu.",
+      "Pausa curta per canviar d’espai. Un fregadís de roba molt baix; sense efecte de descoberta ni cap so que assenyali la resposta.",
+      "Deixar acabar la veu. Sortida de dos segons i 600 ms de silenci; no s’afegeix cap frase moralitzadora."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Narradora": "Aoede"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S005": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S005",
+    "reviewContent": "content/propostes/tercer.js",
+    "format": "3r intermèdia: distingir preparar el repartiment de repartir i entendre per què una dada incompleta no s’endevina.",
+    "cues": [
+      "Dos segons de sintonia i un moviment de sobres. El paper s’acaba abans que es digui cap adreça.",
+      "Canvi de tema amb un segon de passes suaus, sense tapar cap pregunta.",
+      "Marge de 300 ms, dues notes de sortida i silenci. No afegir respostes, música ni sons de bústia sota les explicacions."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Biel": "Puck",
+      "Joana": "Vindemiatrix"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S006": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S006",
+    "reviewContent": "content/propostes/tercer.js",
+    "format": "3r avançada: comparar abans i després i aplicar la informació al cas d’una persona. No es demana recordar una col·lecció d’hores o dates.",
+    "cues": [
+      "Capçalera breu, mig segon d’ambient de parc sense ocells identificables i entrada de la Mar. L’ambient desapareix abans de les dades.",
+      "Pausa de canvi de tema. Cap efecte de cinta, eines o treballs que ajudi a recordar la zona tancada.",
+      "La veu acaba completa. Un segon d’ambient i una sortida de dues notes; 600 ms finals de silenci."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mar": "Erinome"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S007": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S007",
+    "reviewContent": "content/propostes/tercer.js",
+    "format": "3r avançada: relacionar una observació amb dos processos i entendre que no veure una cosa no vol dir que hagi deixat d’existir.",
+    "cues": [
+      "Tres gotes separades i una pausa. No reproduir el so d’un desguàs ni vapor: la resposta s’ha d’entendre per la veu.",
+      "Pausa natural després de definir evaporació. Cap buf ni xiulet que pugui confondre vapor invisible amb un núvol visible.",
+      "Marge després de l’última frase, dues notes i 600 ms de silenci. No presentar la prova imaginada com si se n’hagués mesurat el resultat."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mireia": "Aoede"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S009": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S009",
+    "reviewContent": "content/propostes/quart.js",
+    "format": "4t accessible: informació explícita i útil, organitzada per blocs. Aplicar un horari al cas d’una visita concreta sense fer càlculs.",
+    "cues": [
+      "Dos segons de capçalera, soroll de paper molt breu i silenci abans de la Mar.",
+      "Pausa breu entre els serveis interiors i el retorn de llibres. No afegir un so de bústia que substitueixi l’explicació.",
+      "Marge de 300 ms i sortida de dues notes, sense cap anunci afegit."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mar": "Erinome"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S010": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S010",
+    "reviewContent": "content/propostes/quart.js",
+    "format": "4t intermèdia: actualitzar un pla, retenir fites rellevants i justificar una alternativa. No cal dibuixar un mapa exacte ni conèixer el barri.",
+    "cues": [
+      "Dos segons de passes, que continuen mig segon sota la primera frase i desapareixen. No incloure soroll de trànsit sota les indicacions.",
+      "Una passa aïllada i canvi de torn; les dues veus han de quedar en primer pla.",
+      "Dues passes que s’allunyen després de la veu i 600 ms de silenci. Sense música als girs."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Laia": "Leda",
+      "Biel": "Puck"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S011": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S011",
+    "reviewContent": "content/propostes/quart.js",
+    "format": "4t intermèdia: seqüència amb una condició i distinció entre maqueta i objecte d’ús real. El guió no és una recomanació d’alimentació de fauna.",
+    "cues": [
+      "Fregadís curt de cartró, pausa de 250 ms i veu. No simular una construcció a temps real durant tota l’activitat.",
+      "Un únic moviment de cartró entre fases; deixar silenci abans de la condició següent.",
+      "Després de la veu, dues notes de sortida i silenci. No s’hi afegeix cant d’ocells: la maqueta no s’ha provat amb animals."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mireia": "Aoede"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S012": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S012",
+    "reviewContent": "content/propostes/quart.js",
+    "format": "4t avançada: revisar una suposició i relacionar un procediment amb la seva finalitat. No cal coneixement musical previ ni reconèixer notes.",
+    "cues": [
+      "Dues notes de corda generades localment, deixades acabar abans de la primera frase. No s’avalua el timbre de l’instrument.",
+      "Pausa de canvi de tema i moviment de paper molt breu, sense eines o cops damunt de la guitarra.",
+      "Marge després del comiat, una nota breu i silenci. El so final no certifica que la guitarra de l’escola ja estigui reparada."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Biel": "Puck",
+      "Elies": "Algieba"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S013": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S013",
+    "reviewContent": "content/propostes/quart.js",
+    "format": "4t avançada: reconstruir un procés, relacionar cada informació amb una funció i distingir destinació de remitent. No es demanen dades postals memoritzades de fora del text.",
+    "cues": [
+      "Un sobre de paper es plega. Pausa i veu neta. Els sons del viatge no són necessaris per ordenar el procés.",
+      "Transició breu de paper entre fases. No simular una màquina que llegeix el contingut de la carta.",
+      "Dues notes originals després de la veu i cua de silenci. No afegir terminis d’entrega ni presentar aquest recorregut com l’única modalitat postal possible."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mireia": "Aoede"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S014": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S014",
+    "reviewContent": "content/propostes/cinque.js",
+    "format": "5è accessible: procés ordenat i relacions causals explícites, amb vocabulari definit. No cal saber botànica abans d’escoltar.",
+    "cues": [
+      "Moviment de llavors dins d’un recipient, dos segons com a màxim. Deixar acabar el so i començar la veu.",
+      "Pausa breu per separar la germinació del creixement amb fulles. No posar un efecte de descoberta sobre cap terme.",
+      "Dues notes després del resum i 600 ms de silenci. No s’hi afegeixen instruccions d’un experiment que no forma part del text."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mireia": "Aoede"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S016": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S016",
+    "reviewContent": "content/propostes/cinque.js",
+    "format": "5è intermèdia: separar observacions, hipòtesis i missatges no confirmats. Tota la notícia és de ficció; els procediments generals es contrasten.",
+    "cues": [
+      "Capçalera original de dos segons i ambient molt baix d’exterior. L’ambient es retira abans d’explicar la troballa.",
+      "Pausa i paper discret abans del canvi entre missatge informal i informació de l’equip. No posar un efecte metàl·lic al rumor de les monedes.",
+      "Sortida original de dos segons després de la veu. No afegir una datació, una confirmació del tipus d’aliment ni cap altre fet no escrit."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mar": "Erinome"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S017": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S017",
+    "reviewContent": "content/propostes/cinque.js",
+    "format": "5è avançada: integrar condicions de contingut, muntatge i transport. Les preguntes avaluen la lògica del pla, no la memorització de tota la llista.",
+    "cues": [
+      "Un cartró es deixa suaument a la taula. Pausa i començament de les instruccions. Veu sola a totes les condicions.",
+      "Moviment breu de paper entre la prova de muntatge i l’embalatge. No simular cops, eines ni manipular suports sota la veu.",
+      "Marge final, dues notes i 600 ms de silenci. Sense afegir instruccions de seguretat o transport que canviïn el pla escrit."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mireia": "Aoede"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S018": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S018",
+    "reviewContent": "content/propostes/cinque.js",
+    "format": "5è avançada: inferir una motivació a partir d’indicis i revisar una primera lectura dels fets. El desenllaç no converteix tots els enregistraments en material públic.",
+    "cues": [
+      "Separador de dos segons. Una clau sona molt breument abans de la narradora; no s’utilitza com a pista que resolgui el motiu del tancament.",
+      "Pausa breu i moviment de cartró molt discret; no fer música de suspens que presenti l’avi com una amenaça.",
+      "El paper s’acaba abans de l’última escena. Sortida musical després de la veu i cua completa de silenci. No s’afegeix una moral llegida a banda."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Narradora": "Aoede"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S019": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S019",
+    "reviewContent": "content/propostes/sise.js",
+    "format": "6è accessible: idees ordenades, exemples explícits i respostes concises. Distingir aprofitar aliments de consumir-ne que no siguin segurs.",
+    "cues": [
+      "Dos segons de petits sons de recipient i paper; tot queda en silenci abans de la pregunta inicial.",
+      "Un full de menú es gira entre torns. El so s’acaba abans de les condicions de servei.",
+      "Marge de 300 ms, sortida musical de dos segons i silenci. No afegir consells de conservació, temps o receptes que no figurin al guió."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Laia": "Leda",
+      "Ona": "Sulafat"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S020": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S020",
+    "reviewContent": "content/propostes/sise.js",
+    "format": "6è accessible: requisits explícits, finalitat de cada dada i aplicació d’una condició simple. No cal fer càlculs ni tenir experiència produint pòdcasts.",
+    "cues": [
+      "Dos segons de sintonia, marge i veu sola a les bases del concurs. El text descriu un concurs de ficció.",
+      "Clic breu abans del nou bloc i pausa. No fer sons d’ordinador sota les instruccions de comprovació.",
+      "Veu completa, dues notes originals i 600 ms de silenci. No afegir cap data real, plataforma externa o condició no escrita."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mireia": "Aoede"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S021": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S021",
+    "reviewContent": "content/propostes/sise.js",
+    "format": "6è intermèdia: integrar més d’una causa i entendre els límits d’una comparació. Distingir temperatura de superfície de temperatura de l’aire.",
+    "cues": [
+      "Dos segons d’ambient urbà neutre, retirat abans de descriure les places. No afegir sons de calor o ventiladors a una de les zones.",
+      "Pausa de canvi entre l’explicació general i la proposta de comparació. Veu sola als límits de la mesura.",
+      "Marge de 300 ms, sortida breu original i silenci. No afegir percentatges de refredament, riscos mèdics ni temperatures no escrites."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mireia": "Aoede"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S022": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S022",
+    "reviewContent": "content/propostes/sise.js",
+    "format": "6è intermèdia: distingir el record d’infant de la interpretació actual i relacionar una pista escrita amb el comportament del pare. Relat i línia de tramvia ficticis.",
+    "cues": [
+      "Dos segons de rumor mecànic original i un petit toc de rail. Baixa abans de la primera frase i desapareix durant les pistes del record.",
+      "El rumor mecànic queda lluny. Pausa i un full que es desplega per tornar al present del relat.",
+      "Sortida musical molt breu després de la veu i silenci. No llegir cap frase addicional de la nota ni donar per certa la interpretació que en Ferran presenta com a possibilitat."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Ferran": "Algenib"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S024": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S024",
+    "reviewContent": "content/propostes/sise.js",
+    "format": "6è avançada: comparar beneficis i contrapartides, identificar dades que falten i justificar una elecció sense resposta única. Pressupost i condicions són dades del cas fictici.",
+    "cues": [
+      "Dos segons d’ambient de pati sense paraules intel·ligibles. Desapareix abans de la primera proposta; no és un tercer personatge.",
+      "Moviment de full molt curt. No fer una música nova per a cada opció.",
+      "Pausa de canvi de nivell: de les propostes a com decidir-les. La conversa continua amb les dues veus netes.",
+      "Marge de 300 ms i dues notes de sortida. No afegir resultat de votació ni anunciar una obra: el diàleg acaba amb un acord sobre el procés."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Laia": "Leda",
+      "Biel": "Puck"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
   }
 }

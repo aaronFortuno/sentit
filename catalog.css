@@ -77,6 +77,7 @@
 .activity-card[data-level="advanced"] { --level-ink: #b15d65; }
 .activity-card[data-genre="story"] { --type-tint: #f6e4cc; --type-ink: #805020; --type-edge: #d4ad7c; }
 .activity-card[data-genre="interview"] { --type-tint: #d7e8fc; --type-ink: #2e5884; --type-edge: #8aaed2; }
+.activity-card[data-genre="explanation"] { --type-tint: #f8ebc6; --type-ink: #7a612a; --type-edge: #c6ac69; }
 .activity-card[data-genre="news"] { --type-tint: #e8dcf6; --type-ink: #634785; --type-edge: #b69bd0; }
 .activity-card[data-genre="dialogue"] { --type-tint: #d3ece7; --type-ink: #2d645d; --type-edge: #80b9ad; }
 [data-theme="dark"] .activity-card { --type-tint: #2b4430; --type-ink: #c5ddbd; --type-edge: #71926a; --level-ink: #a7d6b7; }
@@ -84,6 +85,7 @@
 [data-theme="dark"] .activity-card[data-level="advanced"] { --level-ink: #e6b2ba; }
 [data-theme="dark"] .activity-card[data-genre="story"] { --type-tint: #4b3c24; --type-ink: #f1d1ad; --type-edge: #a68a59; }
 [data-theme="dark"] .activity-card[data-genre="interview"] { --type-tint: #223d58; --type-ink: #c0d8ed; --type-edge: #648bb2; }
+[data-theme="dark"] .activity-card[data-genre="explanation"] { --type-tint: #4b4229; --type-ink: #f2dfaa; --type-edge: #ac975d; }
 [data-theme="dark"] .activity-card[data-genre="news"] { --type-tint: #3e2d51; --type-ink: #dac9ee; --type-edge: #987bb7; }
 [data-theme="dark"] .activity-card[data-genre="dialogue"] { --type-tint: #204b43; --type-ink: #bfe4da; --type-edge: #63a38e; }
 .activity-card-status { align-self: start; padding: 3px 8px; border-radius: 5px; background: var(--soft); color: var(--green); font-size: .75rem; }

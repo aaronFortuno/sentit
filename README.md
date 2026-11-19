@@ -6,6 +6,14 @@ Banc de comprensió oral d’ortogra.fi. El docent busca una activitat, en previ
 
 El projecte es manté a la sèrie **0.1.x** mentre es revisen les primeres activitats i la interfície. El pas a **0.2** requereix una comprensió oral validada en tots els aspectes —àudio, fitxa i solucionari— i una interfície prou definida.
 
+## Catàleg de guions complet per revisar
+
+Els **24 codis base, ca-S001–ca-S024**, ja tenen guió, preguntes i solucionari. S008R és una revisió addicional de S008. S’han preparat **19 peces noves**, amb 138 preguntes i escaletes completes, que se sumen a S023: hi ha **20 propostes pendents de validar**, consultables en qualsevol ordre. Cap síntesi nova en aquesta ampliació.
+
+Al web, cerca el codi i obre la proposta: el solucionari mostra el guió i l’escaleta primer. Es mantenen els sobreimpresos, les marques d’esborrany i el bloqueig d’impressió. Les il·lustracions noves es prepararan després de validar el contingut. [Dossier amb índex i fonts](docs/lot-editorial-24.md) · [Taula de fases de totes les peces](docs/seguiment-produccio.md).
+
+Sis peces per curs, dues de cada dificultat i una per tipologia: diàleg, narració, entrevista, notícia, instruccions i explicació. La cerca per codi abasta tot el catàleg, encara que les targetes es carreguin en grups de dotze. Cada escaleta proposa una petició amb un màxim de dues veus; no s’envia res sense confirmar-ne el guió i el muntatge.
+
 ## Última producció i següent revisió
 
 [Taula de seguiment per fases](docs/seguiment-produccio.md): codi, títol, curs, dificultat, durada i cada pas de preparació, validació, síntesi i muntatge. La publicació definitiva requereix validar també l’àudio.
@@ -24,9 +32,9 @@ La següent proposta és [S023 · Reobren el mercat](https://sentit.ortogra.fi/#
 
 La proposta de ràdio **ca-S008R · La foto que faltava · Històries amb sentit** ja es pot [obrir directament](https://sentit.ortogra.fi/#lectura=ca-S008R). Té fitxa, sis preguntes i solucionari amb el guió complet: benvinguda, relat, comiat i anotacions de música, efectes i pauses intercalades. El codi original ca-S008 conserva l’àudio i els enllaços existents.
 
-S023 mostra «Pendent de validar» sobre la targeta i a cada pàgina del preview. S’obre directament al solucionari, amb el guió i l’escaleta abans de les preguntes i respostes. Es pot obrir, maquetar i revisar, però la impressió està desactivada. La impressió del navegador també mostra un avís en lloc del material. No es genera cap QR mentre no hi ha àudio. S008, S008R i S015 mostren «Àudio pendent de validar»: la comprensió està definida, es poden escoltar i imprimir per revisar i conserven l’avís d’esborrany al PDF. També s’obren al solucionari amb la transcripció primer.
+S023 i les 19 propostes noves mostren «Pendent de validar» sobre la targeta i a cada pàgina del preview. S’obren directament al solucionari, amb el guió i l’escaleta abans de les preguntes i respostes. Es poden obrir, maquetar i revisar, però la impressió està desactivada. La impressió del navegador també mostra un avís en lloc del material. No es genera cap QR mentre no hi ha àudio. S008, S008R i S015 mostren «Àudio pendent de validar»: la comprensió està definida, es poden escoltar i imprimir per revisar i conserven l’avís d’esborrany al PDF. També s’obren al solucionari amb la transcripció primer.
 
-Al costat del preview pendent, **Talls per a Gemini** identifica cada presa i els talls locals i n’indica les frases inicial i final. En prémer un tall se’n localitza la marca al guió. Les anotacions no són text per sintetitzar. S008R i S015 han consumit **1** petició cadascuna. S023 preveu **1** per al títol i tota la notícia, sense comptar possibles reintents o canvis després de l’audició. Només S023 continua pendent de validació de proposta i bloquejada per a síntesi.
+Al costat del preview pendent, **Talls per a Gemini** identifica cada presa i els talls locals i n’indica les frases inicial i final. En prémer un tall se’n localitza la marca al guió. Les anotacions no són text per sintetitzar. S008R i S015 han consumit **1** petició cadascuna. S023 i cadascuna de les 19 noves propostes preveuen **1** petició, sense comptar possibles reintents o canvis després de l’audició. Totes 20 continuen pendents de validació de proposta i bloquejades per a síntesi.
 
 `node tools/check-review.mjs` comprova que els talls cobreixin exactament tot el text parlat, sense duplicacions ni anotacions sonores. `node tools/check-review-ui.cjs` comprova la navegació, els sobreimpresos, les marques d’aigua, els salts als talls, la paginació i el bloqueig d’impressió.
 
@@ -48,7 +56,7 @@ La primera tanda afegeix **S002 · Preparem una capsa de records** (3r, instrucc
 
 La [revisió editorial dels cinc prototips](docs/revisio-editorial-prototips.md) concreta per què s’assigna cada curs i dificultat i què s’accepta a les 38 preguntes. Les respostes orientatives admeten paraules pròpies i diferencien la informació necessària dels detalls addicionals. Es mantenen els guions i els àudios; S008 necessita validar el ritme amb alumnat abans de donar-la per accessible de manera definitiva. Les etiquetes són orientatives i no equivalen a nivells oficials.
 
-- Catàleg amb cinc comprensions i la revisió S008R, amb icona, color suau i il·lustració de context al fons. La dificultat té un punt verd (accessible), dos blaus (intermèdia) o tres rosats (avançada), sempre acompanyats del text. Cerca per títol o codi i filtres combinables, amb l’idioma del text en primer lloc. La creu al costat de «Filtres» els neteja sense tancar el desplegable.
+- Catàleg amb 24 comprensions i la revisió S008R, amb icona i color suau per tipologia. Les il·lustracions de les peces ja produïdes es veuen al fons; les noves estan pendents. La dificultat té un punt verd (accessible), dos blaus (intermèdia) o tres rosats (avançada), sempre acompanyats del text. Cerca per títol o codi i filtres combinables, amb l’idioma del text en primer lloc. La creu al costat de «Filtres» els neteja sense tancar el desplegable.
 - Ajustos de tipografia, mida, espaiat i interlineat, amb codi d’aula opcional.
 - Controls de línies de resposta i d’amagar preguntes al costat de cada enunciat, quan s’hi passa el ratolí o s’hi accedeix amb el teclat. En pantalla tàctil, el botó de tres punts obre aquests controls. A **Preguntes amagades** es poden recuperar les preguntes excloses.
 - Vista A4 de la fitxa amb QR i del solucionari amb respostes orientatives i transcripció de l’àudio. El diàleg d’impressió permet desar el document seleccionat com a PDF.
@@ -79,7 +87,7 @@ Les col·leccions es desen automàticament en el navegador i es recuperen en tor
 
 ## Personatges recurrents
 
-**Coneix els personatges**, al header, obre un quadre amb Laia, Biel, Aina, Mireia, Nora, Mar, Pau i Ferran. També es pot consultar la [pàgina de personatges](https://sentit.ortogra.fi/personatges.html), amb el mateix component. Cada fitxa mostra un retrat natural, una presentació, caràcter, interessos i les comprensions on apareix. Les fitxes gràfiques amb vistes des de diferents angles queden com a referència editorial. Laia–Leda, Biel–Puck i Mireia–Aoede parteixen de veus ja escoltades; les altres cinc assignacions són candidates pendents d’una prova en català.
+**Coneix els personatges**, al header, obre un quadre amb Laia, Biel, Aina, Mireia, Nora, Mar, Pau, Ferran i les noves candidates Joana, Elies i Ona. També es pot consultar la [pàgina de personatges](https://sentit.ortogra.fi/personatges.html), amb el mateix component. Cada fitxa mostra presentació, caràcter, interessos i les comprensions on parla. Els vuit perfils originals tenen retrat i fitxa gràfica; els tres nous indiquen que el retrat està pendent. Les veus no es donen per escoltades pel fet de figurar en una proposta.
 
 El filtre **Personatges** permet seleccionar-ne un o més: **Qualsevol dels triats** és la unió de les seves aparicions i **Tots junts**, la intersecció. Es combina amb la resta de filtres i amb la col·lecció activa. Inclou personatges amb diàleg, personatges narrats i la veu narradora, que s’identifica a la fitxa. **Veure les seves comprensions** mostra el catàleg complet d’aquell personatge, netejant els altres filtres i la selecció de col·lecció; no elimina cap col·lecció ni maquetació.
 
@@ -97,7 +105,7 @@ La [revisió del prototip S001](content/el-senyal-de-la-radio-revisio.md) recull
 
 ## Proposta del fons inicial
 
-La [proposta de catàleg](docs/proposta-cataleg.md) planteja 24 activitats de 3r a 6è, amb sis tipologies i un repartiment equilibrat de dificultats. De la primera tanda, S002, S008, la revisió S008R i S015 ja es poden escoltar i preparar; S023 té la fitxa accessible i espera validar la proposta abans de sintetitzar. La resta continua com a proposta editorial. La [previsió de cost](docs/cost-produccio.md) calcula escenaris de 100, 200 i 300 activitats, amb marge de repetició i tarifes de 2026 i 2027. No s’ha activat facturació.
+La [proposta de catàleg](docs/proposta-cataleg.md) defineix les 24 activitats de 3r a 6è, ara totes preparades com a guió i material de revisió. De la primera tanda, S002, S008, la revisió S008R i S015 ja es poden escoltar. S023 i les 19 noves peces esperen validar la proposta abans de sintetitzar. La [previsió de cost](docs/cost-produccio.md) calcula escenaris de 100, 200 i 300 activitats, amb marge de repetició i tarifes de 2026 i 2027. No s’ha activat facturació.
 
 ## Desenvolupament
 
