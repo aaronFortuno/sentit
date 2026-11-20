@@ -14,7 +14,6 @@
 .catalog-view:focus, .workspace:focus { outline: none; }
 .catalog-search { width: min(100%, 340px); }
 .header-catalog-search { flex: 0 1 340px; min-width: 180px; }
-.catalog-count { margin-inline-start: auto; line-height: 1.3; white-space: nowrap; }
 .catalog-search input, #collection-select, .dialog-content :is(input, select) {
   width: 100%; min-height: 36px; padding: 7px 10px;
   border: 1px solid var(--line); border-radius: 7px; background: var(--panel); color: var(--ink);
@@ -25,6 +24,12 @@
 .filter-panel-wrap { position: relative; }
 #filter-panel > summary { min-height: 28px; padding-inline-end: 35px; }
 .filter-reset { position: absolute; inset-block-start: 0; inset-inline-end: 0; z-index: 1; width: 28px; height: 28px; padding: 5px; border-color: transparent; background: transparent; color: var(--quiet); }
+.provisional-option { display: flex; align-items: center; gap: 8px; margin-top: 15px; color: var(--quiet); font-size: .78rem; cursor: pointer; }
+.provisional-option input { appearance: none; flex: none; width: 30px; height: 18px; margin: 0; border: 1px solid var(--line); border-radius: 999px; background: var(--stage); cursor: pointer; position: relative; transition: background-color var(--motion), border-color var(--motion); }
+.provisional-option input::before { content: ''; position: absolute; top: 2px; left: 2px; width: 12px; height: 12px; border-radius: 50%; background: var(--quiet); transition: transform var(--motion), background-color var(--motion); }
+.provisional-option input:checked { background: var(--green); border-color: var(--green); }
+.provisional-option input:checked::before { transform: translateX(12px); background: var(--on-green); }
+.activity-card-context .activity-universe { flex-basis: 100%; color: var(--quiet); font-size: .73rem; line-height: 1.3; }
 .catalog-collections { border-top: 1px solid var(--line); margin-top: 18px; padding-top: 15px; }
 .catalog-collections label { display: block; margin-top: 12px; }
 .catalog-collections .button { width: 100%; margin-top: 10px; }

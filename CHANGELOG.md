@@ -1,5 +1,12 @@
 # Canvis
 
+## 0.1.40 · 20 de novembre de 2026
+
+- Recompte global dels materials sense revisió pendent a la capçalera: «2 comprensions orals per a la teva aula». Retirat l’indicador al costat de netejar filtres.
+- Control «Mostra els provisionals», activat per defecte i persistent al navegador. Inclou guions i àudios pendents; netejar filtres no canvia la preferència ni s’eliminen peces de les col·leccions.
+- Quatre universos editorials definits, filtrables i indicats a les cards i la fitxa. Solapaments permesos, peces autònomes i opció per a futures peces independents.
+- Corregida l’atribució de les narradores anònimes a Mireia per compartir veu; es conserven les identitats explícites. Cap canvi de guió, pregunta, àudio o validació.
+
 ## 0.1.39 · 20 de novembre de 2026
 
 - Eliminada la franja del títol del catàleg. Cerca al header, recompte compacte al costat de Filtres amb descripció accessible i accés als personatges només amb icona.

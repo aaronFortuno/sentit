@@ -1,5 +1,6 @@
 import { activities, legacyActivities } from './catalogue.js';
 import { characters } from './content/characters.js';
+import { universes } from './content/universes.js';
 
 export const analyticsConfig={website:'6acf2cae-4b28-4d71-98dd-550d2d086dcc',hostname:'sentit.ortogra.fi',script:'https://maquestria.tail72bc84.ts.net:8443/script.js'};
 const page={website:analyticsConfig.website,hostname:analyticsConfig.hostname,title:'Sentit',url:'/'};
@@ -7,6 +8,7 @@ const entries=new Map([...activities,...legacyActivities].map(entry=>[entry.code
 const filters={
   'content-language':['','ca','es'],grade:['','3','4','5','6'],level:['','easy','middle','advanced'],duration:['','short','medium','long'],
   genre:['','story','dialogue','news','interview','instructions','explanation'],'character-match':['any','all'],character:characters.map(character=>character.id),
+  universe:['',...universes.map(universe=>universe.id),'independent'],
 };
 const buckets=['0','1','2-5','6-15','16+'];
 const times=Array.from({length:301},(_,index)=>String(index));
@@ -22,6 +24,7 @@ const rules={
   copia_enllac:{code:true},obre_vista_escolta:{code:true},
   obre_v4v:{},obre_personatges:{},consulta_canvis:{},consulta_fonts:{code:true},obre_portafoli:{},copia_lightning:{},
   canvia_tema:{tema:['light','dark']},canvia_idioma:{idioma:['ca','es']},
+  canvia_provisionals:{visible:'boolean'},
   prova_connexio:{origen:['configuracio_sentit']},
 };
 export const reportReasons={

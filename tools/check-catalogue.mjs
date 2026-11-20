@@ -4,6 +4,7 @@ import { activities, legacyActivities } from '../catalogue.js';
 import { durationBounds, durationText, durationTier, matchesDuration } from '../activity-meta.js';
 import { strings } from '../locales.js';
 import { characters, charactersForActivity, matchesCharacters } from '../content/characters.js';
+import { universes, universesForActivity, matchesUniverse } from '../content/universes.js';
 
 const ids = new Set();
 const codes = new Set();
@@ -60,9 +61,14 @@ assert.deepEqual(matchesCast(['biel'], 'any'), ['S001','S003','S005','S007','S01
 assert.deepEqual(matchesCast(['laia', 'biel'], 'any'), ['S001','S003','S005','S007','S010','S011','S012','S014','S015','S017','S019','S021','S024']);
 assert.deepEqual(matchesCast(['laia', 'biel'], 'all'), ['S001','S003','S007','S010','S011','S017','S024']);
 assert.deepEqual(matchesCast(['laia', 'nora'], 'all'), []);
-assert.deepEqual(matchesCast(['mireia'], 'any'), ['S002','S004','S007','S008','S008R','S011','S013','S014','S017','S018','S020','S021']);
+assert.deepEqual(matchesCast(['mireia'], 'any'), ['S002','S007','S011','S013','S014','S017','S020','S021']);
 assert.deepEqual(matchesCast(['invalid'], 'any'), []);
-assert.deepEqual(charactersForActivity(activities.find(entry => entry.code === 'S008')).map(character => character.id), ['mireia'], 'S008 has one narrator voice, no voices for the narrated characters');
+assert.deepEqual(charactersForActivity(activities.find(entry => entry.code === 'S008')), [], 'The anonymous narrator of S008 is not assigned Mireia’s identity from its voice alone');
+assert(universesForActivity(activities.find(entry=>entry.code==='S008')).some(universe=>universe.id==='aina-ferran'),'Narrated characters still link the narrative universe');
+assert.equal(new Set(universes.map(universe=>universe.id)).size,universes.length);
+for(const universe of universes){assert(universe.name.ca&&universe.name.es&&universe.description.ca);assert.equal(new Set(universe.activities).size,universe.activities.length);for(const id of universe.activities)assert(activities.some(entry=>`${entry.language}-${entry.code}`===id),'Universe reference: '+id);}
+assert(matchesUniverse({language:'en',code:'S001'},'independent'),'New unrelated languages are not assigned a Catalan universe by code alone');
+assert(matchesUniverse(activities.find(entry=>entry.code==='S002'),'amb-mireia'));
 assert.deepEqual(matchesCast(['ferran'], 'any'), ['S004D','S022']);
 assert.deepEqual(matchesCast(['joana'], 'any'), ['S005']);
 assert.deepEqual(matchesCast(['elies'], 'any'), ['S012']);

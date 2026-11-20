@@ -205,3 +205,10 @@ Les comprovacions del so són `node tools/check-sound.cjs` (regles, aprovació, 
 ### Dicció i efectes en revisió
 
 S010, S013 i S022 tenen feedback positiu amb errors concrets de pronunciació encara oberts. Les revisions v2 canvien només els efectes: passos reals CC0, retirada de la sintonia final de S013 i tramvia real CC0. Les veus no s’han retocat. [Incidències, tres proves curtes preparades i procediment de reparació](docs/pronunciacio-tts.md). Cap petició nova després de les deu registrades avui.
+
+
+### Universos i provisionals
+
+Quatre universos editorials amb filtre combinable i etiquetes a les cards i a la fitxa: Laia i Biel, l’Aina i l’avi Ferran, Amb la Mireia i les notícies de la Mar. Les peces són autònomes i poden tenir més d’un vincle. [Criteris i assignacions](docs/univers-editorial.md).
+
+El control «Mostra els provisionals» està activat inicialment i recorda la preferència del navegador; inclou guions i àudios pendents de validar. La capçalera compta només els materials sense revisió pendent. No s’alteren col·leccions ni enllaços directes.

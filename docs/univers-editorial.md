@@ -1,36 +1,36 @@
-# Com es relacionen les comprensions
+# Universos editorials de Sentit
 
-Sentit té **personatges recurrents dins d’un entorn compartit d’escola, família i barri**. Les activitats són episodis autònoms: cadascuna dona el context necessari i es pot treballar sense haver fet les altres. No hi ha una cronologia obligatòria. Vegeu les [regles de continuïtat](personatges.md).
+Les comprensions comparteixen personatges, entorns o una veu periodística identificada. Cada peça continua sent autònoma: no hi ha ordre obligatori ni informació imprescindible en altres episodis. Una activitat pot pertànyer a més d’un fil.
 
-## Vincles que ja apareixen als guions
+## Universos del catàleg
 
-| Fil compartit | Exemples | Connexió establerta |
+| Univers | Connexió | Comprensions |
 | --- | --- | --- |
-| Aina i l’avi Ferran | S004/S004D, S008/S008R, S018, S022 | Són els mateixos personatges. S022 comença buscant una fotografia per a l’Aina i acaba compartint el record amb ella; S018 els situa al centre cívic, preparant records del barri. |
-| Laia i Biel, escola i descoberta | S001, S003, S007, S010, S011, S017, S024 | Es retroben en situacions de l’escola, recorreguts, experiments i propostes. Mireia intervé com a mestra en les escenes d’aula. |
-| Veus adultes del barri | S005, S012, S015, S019, S023 | Entrevistes i notícia amb persones d’oficis diferents. Compartir entorn no implica que totes les peces siguin el mateix programa. |
+| Laia i Biel | Descobertes, entrevistes i projectes dels dos joves, junts o per separat. | [S001](https://sentit.ortogra.fi/#lectura=ca-S001), [S003](https://sentit.ortogra.fi/#lectura=ca-S003), [S005](https://sentit.ortogra.fi/#lectura=ca-S005), [S007](https://sentit.ortogra.fi/#lectura=ca-S007), [S010](https://sentit.ortogra.fi/#lectura=ca-S010), [S011](https://sentit.ortogra.fi/#lectura=ca-S011), [S012](https://sentit.ortogra.fi/#lectura=ca-S012), [S014](https://sentit.ortogra.fi/#lectura=ca-S014), [S015](https://sentit.ortogra.fi/#lectura=ca-S015), [S017](https://sentit.ortogra.fi/#lectura=ca-S017), [S019](https://sentit.ortogra.fi/#lectura=ca-S019), [S021](https://sentit.ortogra.fi/#lectura=ca-S021), [S024](https://sentit.ortogra.fi/#lectura=ca-S024) |
+| L’Aina i l’avi Ferran | Petits misteris, fotografies i records familiars de l’Aina i el seu avi. | [S004](https://sentit.ortogra.fi/#lectura=ca-S004), [S004D](https://sentit.ortogra.fi/#lectura=ca-S004D), [S008](https://sentit.ortogra.fi/#lectura=ca-S008), [S008R](https://sentit.ortogra.fi/#lectura=ca-S008R), [S018](https://sentit.ortogra.fi/#lectura=ca-S018), [S022](https://sentit.ortogra.fi/#lectura=ca-S022) |
+| Amb la Mireia | Explicacions, experiments i projectes guiats per la Mireia. | [S002](https://sentit.ortogra.fi/#lectura=ca-S002), [S007](https://sentit.ortogra.fi/#lectura=ca-S007), [S011](https://sentit.ortogra.fi/#lectura=ca-S011), [S013](https://sentit.ortogra.fi/#lectura=ca-S013), [S014](https://sentit.ortogra.fi/#lectura=ca-S014), [S017](https://sentit.ortogra.fi/#lectura=ca-S017), [S020](https://sentit.ortogra.fi/#lectura=ca-S020), [S021](https://sentit.ortogra.fi/#lectura=ca-S021) |
+| Les notícies de la Mar | Notícies de ficció del barri presentades per la Mar, amb dades, testimonis i qüestions obertes. | [S006](https://sentit.ortogra.fi/#lectura=ca-S006), [S009](https://sentit.ortogra.fi/#lectura=ca-S009), [S016](https://sentit.ortogra.fi/#lectura=ca-S016), [S023](https://sentit.ortogra.fi/#lectura=ca-S023) |
 
-S004D és una alternativa de narració i diàleg de S004; S008R és una versió radiofònica de la història de S008. No són aventures noves ni episodis que hagin de resoldre’s després de l’original.
+Les assignacions i els IDs estables consten a [content/universes.js](../content/universes.js), amb noms i descripcions en català i castellà. El selector **Univers** es combina amb curs, nivell, durada, idioma, tipus, personatges, cerca i col·lecció. Les cards i les dades de la fitxa n’indiquen els vincles.
 
-## Programes i sèries
+**Peces independents** permet trobar futures activitats sense cap univers assignat. Ara totes les peces tenen un vincle justificat; no se’n força cap a quedar independent per omplir aquesta opció. S002 forma part d’Amb la Mireia: el registre del personatge i la il·lustració ja identificaven la mestra.
 
-**Històries amb sentit** és un programa explícit dins de S008R: té benvinguda, relat i comiat que en diuen el nom. Aquest marc sonor ja forma part del guió. S018 i S022 estan connectades pel repartiment, però els seus guions actuals no les anuncien com a episodis d’aquell programa.
+## Personatges narrats i veus
 
-Les activitats de la Mireia encara no tenen un nom comú de programa establert als guions. Les quatre parelles de sintonies que es proposen ajudarà a identificar aquest tipus de peces quan s’hagi validat. Compartir la veu Aoede no basta per dir que totes les narracions anònimes les explica físicament la Mireia.
+S004/S004D, S008/S008R, S018 i S022 comparteixen el fil de l’Aina i l’avi Ferran encara que algunes peces només tinguin una narradora anònima. El filtre de personatges que parlen és diferent del filtre d’universos. S004D i S008R són versions de peces existents, no nous episodis en una cronologia.
 
-La notícia de S023 és una peça amb la periodista Mar i el comerciant Pau. No s’ha definit encara un nom de butlletí ni una relació formal amb el programa de relats.
+Compartir la veu Aoede no converteix totes les narradores en la Mireia. S004/S008/S008R/S018 no s’atribueixen a la mestra sense identificar-la al relat. La generació d’aparicions noves comprova el nom del speaker; els rols Entrevistador/Biel de S015 i Presentadora/Mar de S023 mantenen la correspondència explícita del registre. No s’han canviat guions, àudios ni preguntes per crear els universos.
 
-Per al creixement del catàleg es poden agrupar les peces en sèries editorials —per exemple, **Històries de l’Aina i l’avi Ferran**, **Laia i Biel: escola i barri** o un programa de la Mireia— sense imposar ordre ni afegir coneixements previs a les preguntes. Aquests noms són propostes d’organització, no títols ja locutats ni col·leccions oficials publicades.
+## Univers, programa i col·lecció
 
-## Col·leccions del docent
+Els noms d’univers són organitzadors editorials; no són necessàriament noms locutats de programa. **Històries amb sentit** sí que és el programa anunciat a S008R, dins del fil de l’Aina i l’avi Ferran. No es presenta S018 o S022 com a episodis d’aquell programa sense un muntatge que ho estableixi.
 
-Les col·leccions que ja es poden crear al web són biblioteques personals del docent, desades al navegador. Poden barrejar cursos, personatges o programes. Actualment no hi ha un filtre propi d’universos o sèries; el filtre de personatges permet trobar els vincles de repartiment.
+**Les notícies de la Mar** agrupa les notícies de la mateixa periodista; no afegeix un butlletí nou als àudios. La proposta sonora d’informatiu i magazín continua pendent de tria de noms i sintonies. S006 té les veus autoritzades i espera aquesta tria abans del muntatge. [Comparativa de sintonies](https://sentit.ortogra.fi/proves/sintonies-mireia.html).
 
-Una futura etiqueta de sèrie haurà d’indicar per què es relacionen les peces, distingir personatges que parlen dels que només hi són esmentats i mantenir la coherència de noms, veus, espais i relacions. Cada guió continuarà sent autosuficient. Les [bases musicals i sintonies](musiques.md) es registren separadament: una sintonia pot identificar un programa compartit, però una música semblant no crea per si sola un univers narratiu.
+Les col·leccions són biblioteques personals del docent, desades al navegador: poden barrejar universos i conservar l’ordre i la maquetació propis. Filtrar o amagar provisionals no elimina cap lectura de les col·leccions.
 
+## Visibilitat dels provisionals
 
-## Dues identitats radiofòniques en preparació
+El control **Mostra els provisionals** inclou o exclou tant els guions en revisió com els àudios pendents de validar. Per defecte està activat; cada navegador conserva la preferència a `sentit.catalogue.show-provisional.v1`. Es pot canviar el valor inicial a `defaultShowProvisional` de catalog.js quan el catàleg consolidat sigui més ampli. Netejar filtres no canvia aquesta preferència.
 
-El docent proposa diferenciar un **informatiu** de notícies i un **magazín** per a entrevistes d’estudi, converses, diàlegs i curiositats. Cadascun tindrà una parella pròpia d’obertura i tancament. Encara no hi ha noms ni locucions nous assignats, ni s’han incorporat les sintonies candidates a cap programa.
-
-S006 té les veus autoritzades i espera aquesta tria abans del muntatge. Els muntatges ja publicats continuen pendents d’audició; es podran adaptar localment quan s’acordi la identitat sonora. La [comparativa de sintonies](https://sentit.ortogra.fi/proves/sintonies-mireia.html) conserva l’original i tres alternatives. «Històries amb sentit» continua sent el marc explícit de S008R; no s’ha reanomenat ni s’ha fet servir per donar per establerta aquesta nova organització.
+La capçalera compta només els materials amb àudio i sense marca de revisió pendent: ara en són dos. La xifra és global i no es confon amb resultats seleccionats o amb el botó de netejar. No modifica retrospectivament el registre formal de validació dels prototips. Els enllaços directes continuen funcionant; aquest control és una preferència de descoberta, no una restricció d’accés.

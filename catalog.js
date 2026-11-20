@@ -3,7 +3,8 @@ import { durationText, durationTier, matchesDuration } from './activity-meta.js'
 import { animateRefresh, closeDialog, openDialog, setDetailsOpen, setDisclosure } from './motion.js';
 import { mountCatalogGestures } from './catalog-gestures.js';
 import { characters, matchesCharacters } from './content/characters.js';
-import { isPendingReview } from './review.js';
+import { isPendingReview, needsReview } from './review.js';
+import { universes, universeName, universesForActivity, matchesUniverse } from './content/universes.js';
 import { reviewCaption } from './editorial-review.js';
 import { track, countBucket } from './analytics.js';
 
@@ -11,6 +12,12 @@ const normalise = value => value.toLocaleLowerCase().normalize('NFD').replace(/\
 const activeKey = 'sentit.collection.active.v1';
 const initialLimit = 12;
 const pageSize = 8;
+const provisionalKey = 'sentit.catalogue.show-provisional.v1';
+const defaultShowProvisional = true;
+function provisionalPreference() {
+  try { const saved = localStorage.getItem(provisionalKey); return saved === 'true' ? true : saved === 'false' ? false : defaultShowProvisional; }
+  catch { return defaultShowProvisional; }
+}
 
 export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, onCollectionsChange }) {
   const byId = id => document.getElementById(id);
@@ -23,6 +30,8 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
   }
   const searchIndex = new Map(activities.map(entry => [entry.id, normalise(`${entry.language}-${entry.code} ${entry.title} ${entry.summary ?? ''}`)]));
   const fields = ['grade', 'level', 'duration', 'genre'];
+  let showProvisional = provisionalPreference();
+  byId('show-provisional').checked = showProvisional;
   const initialFilters = new URLSearchParams(location.search);
   const selectedCharacters = new Set(initialFilters.getAll('personatge').filter(id => characters.some(character => character.id === id)));
   byId('character-match').value = initialFilters.get('coincidencia') === 'tots' ? 'all' : 'any';
@@ -98,6 +107,9 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
     const saved = select.value;
     select.replaceChildren(new Option(t('all'), ''), ...[...new Set(activities.map(entry => entry.language))].map(code => new Option(languageName(code), code)));
     select.value = saved;
+    const universeSelect = byId('universe'), savedUniverse = universeSelect.value;
+    universeSelect.replaceChildren(new Option(t('all'), ''), ...universes.map(universe => new Option(universeName(universe, locale()), universe.id)), new Option(t('independentActivities'), 'independent'));
+    universeSelect.value = savedUniverse;
     renderCharacterFilter();
   }
 
@@ -184,6 +196,10 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
       const context = element('div', undefined, 'activity-card-context');
       context.append(element('span', t('grades')[entry.grade] ?? entry.grade, 'meta'));
       if (!entry.audio) context.append(element('span', t('audioPending'), 'activity-card-status'));
+      const linked = universesForActivity(entry);
+      const universeLabel = element('span', linked.length ? linked.map(universe => universeName(universe, locale())).join(' · ') : t('independentActivity'), 'activity-universe');
+      universeLabel.title = t('universe') + ': ' + universeLabel.textContent;
+      context.append(universeLabel);
       const footer = element('div', undefined, 'activity-card-bottom');
       const duration = element('span', undefined, 'activity-duration');
       const clock = element('span'); icon(clock, 'clock');
@@ -247,16 +263,18 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
     const values = Object.fromEntries(new FormData(byId('filters')));
     const terms = normalise(byId('search').value).trim().split(/\s+/u).filter(Boolean);
     matches = sourceEntries().filter(entry => {
-      return fields.every(field => field === 'duration' ? matchesDuration(entry, values[field]) : !values[field] || values[field] === entry[field])
+      return (showProvisional || !needsReview(entry))
+        && matchesUniverse(entry, values.universe)
+        && fields.every(field => field === 'duration' ? matchesDuration(entry, values[field]) : !values[field] || values[field] === entry[field])
         && (!values['content-language'] || entry.language === values['content-language'])
         && matchesCharacters(entry, selectedCharacters, values['character-match'])
         && terms.every(term => searchIndex.get(entry.id).includes(term));
     });
-    const scope = currentCollection();
-    const names = characters.filter(character => selectedCharacters.has(character.id)).map(character => character.name);
-    byId('catalog-count').textContent = matches.length;
-    byId('catalog-count').title = `${t('catalogCount')(matches.length)}${scope ? ` · ${scope.name}` : ''}${names.length ? ' · ' + names.join(', ') : ''}`;
-    byId('catalog-count').setAttribute('aria-label', byId('catalog-count').title);
+    const readyCount = activities.filter(entry => entry.audio && !needsReview(entry)).length;
+    const count = byId('catalog-count');
+    const readyText = t('catalogReadyCount')(readyCount) + ' ' + t('catalogReadySuffix');
+    if (count.textContent !== readyText) count.replaceChildren(document.createTextNode(t('catalogReadyCount')(readyCount)), element('span', ' ' + t('catalogReadySuffix'), 'catalog-ready-context'));
+    count.title = count.textContent;
     renderCards();
   }
 
@@ -401,6 +419,14 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
   });
   byId('character-filter-clear').addEventListener('click', () => { selectedCharacters.clear(); byId('character-match').value = 'any'; refresh(); byId('character-filter').querySelector('summary').focus(); });
   byId('search').addEventListener('input', refresh);
+  byId('show-provisional').addEventListener('change', event => {
+    showProvisional = event.target.checked;
+    try { localStorage.setItem(provisionalKey, String(showProvisional)); } catch { /* The choice still works for this visit. */ }
+    if (!showProvisional) for (const id of selectedIds) if (needsReview(index.get(id))) selectedIds.delete(id);
+    track('canvia_provisionals', { visible: showProvisional });
+    refresh();
+    animateRefresh(grid);
+  });
   scroller.addEventListener('scroll', scheduleMore, { passive: true });
   window.addEventListener('resize', scheduleMore);
   window.addEventListener('pointerup', scheduleMore);
@@ -448,6 +474,13 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
     catch (error) { byId('catalog-status').textContent = errorMessage(error); }
   });
   window.addEventListener('storage', event => {
+    if (event.key === provisionalKey || event.key === null) {
+      showProvisional = provisionalPreference();
+      byId('show-provisional').checked = showProvisional;
+      if (!showProvisional) for (const id of selectedIds) if (needsReview(index.get(id))) selectedIds.delete(id);
+      if (!showProvisional) for (const id of selectedIds) if (needsReview(index.get(id))) selectedIds.delete(id);
+      refresh();
+    }
     if (event.key === collectionsKey || event.key === null) {
       render();
       onCollectionsChange();
