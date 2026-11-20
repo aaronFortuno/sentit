@@ -14,7 +14,8 @@ function assertQuota(quota, now = Date.now()) {
   if (until > now) throw Error('Quota aturada fins a ' + quota.retryNotBefore + '. Cap petició enviada.');
 }
 
-async function reserveRequest(directory, metadata) {
+async function reserveRequest(directory, metadata, body) {
+  const utilization=require('./audio-batch-policy.cjs').assertSynthesisWindow(body);
   assertQuota(await readJSON(path.join(directory, 'last-api-error.json'), null));
   const file = path.join(directory, 'request-log.json');
   const log = await readJSON(file, []);
@@ -24,7 +25,7 @@ async function reserveRequest(directory, metadata) {
   if (remaining > 60000) throw Error('El rellotge no concorda amb el registre de peticions.');
   if (remaining > 0) await wait(remaining);
   assertQuota(await readJSON(path.join(directory, 'last-api-error.json'), null));
-  log.push({ at: new Date().toISOString(), ...metadata });
+  log.push({ at: new Date().toISOString(), ...metadata, estimatedSeconds:utilization.seconds });
   await fs.writeFile(file, JSON.stringify(log, null, 2) + '\n');
 }
 

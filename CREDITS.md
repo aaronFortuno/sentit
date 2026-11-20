@@ -95,7 +95,11 @@ Es conserven les còpies públiques HQ MP3 i el registre d’empremtes a [conten
 
 ## Il·lustracions de publicació
 
-Cinc escenes pròpies generades amb l’eina integrada image_gen per a S003, S004/S004D, S012, S018 i S019. Elies i Ona disposen de models gràfics propis; els retrats són retalls frontals d’aquests mateixos models. [Fitxers, prompts i referències](assets/images/README.md) · [Models](assets/characters/README.md). No s’ha utilitzat una veu nova ni síntesi de veu per crear-los.
+Cinc escenes pròpies generades amb l’eina integrada image_gen per a S003, S004/S004D, S012, S018 i S019. Elies i Ona disposen de models gràfics propis; els retrats inicials derivats se substitueixen per retrats v2 centrats fins a la cintura. Joana té model i retrat propis, generats amb la mateixa eina i estil. [Fitxers, prompts i referències](assets/images/README.md) · [Models i prompts dels retrats](assets/characters/README.md). No s’ha utilitzat una veu nova ni síntesi de veu per crear-los.
+
+## Selectors del catàleg
+
+El component de selector personalitzat s’adapta de [Trama](https://github.com/aaronFortuno/trama), sota MIT, integrat amb els colors, el moviment de 220 ms i les etiquetes accessibles de Sentit. No incorpora cap servei extern.
 
 ## S020 definitiva · 20/11/2026
 

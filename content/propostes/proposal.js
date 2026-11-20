@@ -8,6 +8,9 @@ export function proposal(data) {
   const { voices, delivery, soundPlan, soundCredits = 'Tots els sons seran originals procedurals de Sentit (MIT); no s’hi preveuen enregistraments externs.', editorialFocus, factualSources = [], illustrationBrief, performance, overlaps, generationPlan, strategy, ...content } = data;
   const ids = content.transcript.filter(part => part.speaker).map(part => part.id);
   const words = content.transcript.filter(part => part.speaker).map(part => part.text).join(' ').trim().split(/\s+/u).length;
+  // Keep the frozen first-batch wording intact; new plans must not claim that
+  // audio or edit boundaries have already been checked before synthesis.
+  const plannedCuts = /^S\d{3}$/.test(content.code) && Number(content.code.slice(1)) >= 25;
   const rates = { '3': [125, 145], '4': [135, 155], '5': [140, 160], '6': [145, 165] }[content.grade];
   const min = Math.max(30, Math.floor((words / rates[1] * 60 + 4) / 5) * 5);
   const max = Math.ceil((words / rates[0] * 60 + 10) / 5) * 5;
@@ -19,7 +22,7 @@ export function proposal(data) {
     generationPlan: generationPlan ?? {
       note: 'Una petició proposada per al títol i tot el fragment, amb un màxim de dues veus. Separació local dins una pausa llarga. Música, efectes i temporitzadors es munten després; les acotacions no s’envien com a parla. Cap síntesi fins a validar aquesta proposta.',
       takes: [{ id: `${content.code}-T01`, label: 'Títol i fragment complets', parts: ['introduction', ...ids], requests: 1, note: `Repartiment proposat: ${Object.entries(voices).map(([name, voice]) => `${name}: ${voice}`).join('; ')}. El primer personatge llegeix també el títol. Text complet, sense peticions per frase ni paràgraf.` }],
-      localCuts: [{ id: `${content.code}-L01`, after: 'introduction', label: 'Separar el títol del fragment', note: 'Tall dins el silenci després del títol, comprovat amb les mostres d’àudio i amb marges als dos costats. No s’elimina parla. Presentació una vegada; fragment complet a cada repetició.' }],
+      localCuts: [{ id: `${content.code}-L01`, after: 'introduction', label: 'Separar el títol del fragment', note: plannedCuts ? 'Tall previst dins la pausa després del títol. Quan arribi la presa, caldrà comprovar el silenci real i els marges abans de retallar. No s’elimina parla. Presentació una vegada; fragment complet a cada repetició.' : 'Tall dins el silenci després del títol, comprovat amb les mostres d’àudio i amb marges als dos costats. No s’elimina parla. Presentació una vegada; fragment complet a cada repetició.' }],
     },
     productionNotes: [
       `Proposta pendent de validar. ${editorialFocus}`,

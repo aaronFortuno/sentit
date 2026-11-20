@@ -26,6 +26,7 @@ async function main(){
   assertProductionApproved(entry,spec,plans.S008R);
   await fs.access(path.join(root,plan.reusedIntroduction));
   if(cached){console.log('Presa completa conservada: cap petició nova.');return;}
+  require('./audio-batch-policy.cjs').assertSynthesisWindow(body);
   assertQuota(await readJSON(path.join(work,'last-api-error.json'),null));
   await fs.mkdir(folder,{recursive:true});
   const attemptFile=path.join(folder,'attempt-'+hash.slice(0,12)+'.json');
@@ -35,7 +36,7 @@ async function main(){
   await handle.writeFile(JSON.stringify({pid:process.pid,code:entry.code,startedAt:new Date().toISOString()}));
   const attempt={code:entry.code,requestHash:hash,approval:plan.fingerprint,startedAt:new Date().toISOString(),state:'in-flight',maxRequests:1};
   try{
-    await reserveRequest(work,{code:entry.code,purpose:'whole-radio-program',hash,model:body.model});
+    await reserveRequest(work,{code:entry.code,purpose:'whole-radio-program',hash,model:body.model},body);
     await fs.writeFile(attemptFile,JSON.stringify(attempt,null,2));
     await fs.writeFile(raw.replace('.wav','.request.json'),JSON.stringify(body,null,2));
     const audio=await geminiAudio(body,path.join(folder,'provider-usage.json'));

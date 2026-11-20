@@ -16,6 +16,7 @@ import { universeName, universesForActivity } from './content/universes.js';
 import { animateRefresh, mountDetails, mountDialogs, openDialog, closeDialog, scrollToTarget, setDetailsOpen, setDisclosure } from './motion.js';
 import { mountCharacterExplorer } from './character-explorer.js';
 import { mountLanguageMenu } from './language-menu.js';
+import { mountSelectMenus } from './select-menu.js';
 import { mountWorkspacePanels } from './workspace-panels.js';
 import { mottos, nextMotto } from './mottos.js';
 
@@ -698,6 +699,7 @@ if (listenId === null) {
 }
 mountDetails();
 mountDialogs();
+mountSelectMenus();
 mountWorkspacePanels(byId('workspace'));
 const compactCatalog = matchMedia('(max-width: 640px)');
 setDetailsOpen(byId('filter-panel'), !compactCatalog.matches || catalog.hasCharacterFilter(), { animated: false });

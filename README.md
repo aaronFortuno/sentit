@@ -8,12 +8,12 @@ El projecte continua a la sèrie **0.1.x** mentre el docent valida el material i
 
 ## Estat actual · 20/11/2026
 
-Els 24 codis base, ca-S001–ca-S024, tenen guió, preguntes i solucionari. S004D i S008R són variants addicionals. S011 s’ha ajustat a 4t avançada; les dificultats són orientatives i es calibren amb el docent.
+Els 44 codis base, ca-S001–ca-S044, tenen guió, preguntes i solucionari. S004D i S008R són variants addicionals. S025–S044 són vint propostes noves, cinc per curs de 3r a 6è, amb 150 preguntes i revisió adversària final superada; esperen la validació docent. S011 s’ha ajustat a 4t avançada; les dificultats són orientatives i es calibren amb el docent.
 
 - **Publicació definitiva confirmada:** S003, S004, S004D, S008, S008R, S012, S018, S019 i S020. Aprovació vinculada al guió i al màster exactes; variants validades per separat. S008 incorpora la pujada musical, dos segons sostinguts i la fosa final autoritzades pel docent.
 - **S020 definitiva:** màster v1 validat amb Petita descoberta, il·lustració pròpia i transcripció neta. S019 v3 també és definitiva. S023 v2 incorpora Ona curta i mercat real, però espera l’esmena de suggeriments. Cap síntesi nova per a aquests muntatges.
 - **Síntesi pendent d’esmena:** S005, S010, S013, S015, S016, S022 i S023. Nou frases curtes agrupades en quatre peticions de com a màxim dues veus, encara sense enviar ni aplicar. [Incidències i reparacions](docs/pronunciacio-tts.md).
-- **Veus pendents amb guió validat:** S006, S007, S011, S021 i S024, set preses individuals previstes en total. El 20/11 ja consten deu peticions diàries; no se n’envien més abans del següent restabliment.
+- **Veus pendents amb guió validat:** S006, S007, S009, S011, S014, S017, S021 i S024, onze preses individuals previstes en total. El 20/11 ja consten deu peticions diàries; no se n’envien més abans del següent restabliment. Les preses s’agrupen en lots prou plens, no s’envien aïllades.
 
 La capçalera compta només activitats sense revisió pendent. «Només provisionals · experimental», al footer, alterna entre exclusivament guions i àudios en revisió (activat) i materials disponibles (desactivat), i recorda la preferència local. Les cards distingeixen guió, veus, muntatge pendent d’audició i síntesi pendent d’esmena. Quan s’apliquen totes les correccions de veu, tornen a «Àudio pendent de validar»; rebre una prova crua no completa aquest pas.
 
@@ -21,11 +21,15 @@ En la vista de provisionals, cada card mostra el número de fase i una barra de 
 
 ## Agrupar lectures i correccions
 
-[Pla de lots de síntesi](docs/lots-sintesi.md): agrupar material validat d’una o dues veus, preveure 6–8 minuts per petició i tallar després amb marges comprovats. La cua candidata combina set preses noves i nou frases de correcció en cinc peticions en lloc d’onze. Cal preparar el payload i el receptor per a la prova; cap lot s’ha enviat ni s’ha activat cap execució automàtica.
+[Pla de lots de síntesi](docs/lots-sintesi.md): agrupar material validat d’una o dues veus, preveure **6–8 minuts per petició** i tallar després amb marges comprovats. La cua candidata combina onze preses noves i nou frases de correcció en sis lots en lloc de quinze peticions. Només L01 i L02 arriben ara a la finestra: els altres quatre esperen més material, encara que no hi hagi altra feina. El generador rebutja lots massa curts o llargs abans de llegir claus o reservar quota. Cal preparar el payload i el receptor per a la prova; cap lot s’ha enviat ni s’ha activat cap execució automàtica.
 
 ## Catàleg, col·leccions i sintonies
 
 Filtres combinables per idioma, curs, dificultat, durada, tipologia, personatges i univers. Primer es mostren dotze cards i s’hi afegeixen vuit en arribar al final. L’ordre és aleatori per visita i estable mentre es filtra; les col·leccions conserven l’ordre del docent. La fitxa mostra també la dificultat sota el codi i el títol.
+
+Els filtres utilitzen selectors personalitzats amb teclat, etiquetes accessibles i moviment de 220 ms. En mode fosc, el paper del preview és crema (`#fff3e3`); la impressió i el PDF conserven el blanc.
+
+El repartiment recurrent es manté en **onze personatges**. Els convidats ocasionals poden tenir nom i veu en una peça sense fitxa ni entrada a «Coneix els personatges». Joana té model i retrat propis; Elies i Ona, retrats v2 centrats fins a la cintura. [Criteris de continuïtat](docs/personatges.md).
 
 Les quatre parelles de sintonies estan validades com a recursos: **Petita descoberta, Fil de veu, Pas a pas i Ona curta**. Les obertures es poden triar a la configuració d’àudio; Petita descoberta és la predeterminada. La tria viatja al QR com a identificador estable, mai com una URL externa. «Compara les sintonies» és al configurador d’àudio de la lectura: obre un popup compacte amb una parella d’obertura i tancament per proposta. Aquesta sintonia inicial sona una vegada; les músiques internes de les històries pertanyen als seus muntatges.
 

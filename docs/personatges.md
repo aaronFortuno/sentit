@@ -6,6 +6,10 @@
 
 ## Identitat, veu i nom
 
+**Criteri vigent · 20/11/2026:** mantenim els onze recurrents actuals: Laia, Biel, Aina, Mireia, Nora, Mar, Pau, Ferran, Joana, Elies i Ona. La galeria i les fitxes són una àncora de continuïtat, no un cens de totes les persones que parlen. Un convidat d’una entrevista pot tenir nom, veu i crèdit dins aquella peça, però no fitxa ni entrada al filtre de recurrents. No s’amplia el repartiment sense una decisió explícita del docent. Una veu reutilitzada no converteix un convidat en el recurrent que comparteix aquell timbre; tampoc ho fa la coincidència del nom de pila.
+
+Els onze poden retrobar-se en converses de barri, botiga, biblioteca, aula o oficina sense forçar cada rol a una única situació. Joana disposa ara de model i retrat propis; Elies i Ona utilitzen els retrats v2, centrats fins a la cintura. [Referències i prompts](../assets/characters/README.md).
+
 | Personatge | Veu de referència Gemini | Estat de la veu en aquest paper | Punt de partida |
 | --- | --- | --- | --- |
 | Laia | Leda | Escoltada en S001 | Curiosa i expressiva; sons, històries i descoberta. |

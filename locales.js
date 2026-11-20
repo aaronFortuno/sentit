@@ -1,6 +1,7 @@
 export const strings = {
   ca: {
     language: 'ca',
+    releaseUniversesAndDrafts: 'S009, S014 i S017 autoritzades per a veus. Vint guions nous revisats, pendents de validació docent. Universos més curts, selectors personalitzats i paper crema en mode fosc. Retrat i model de Joana; retrats fins a la cintura d’Elies i Ona. Onze recurrents, sense fitxes per als convidats ocasionals. Lots petits en espera fins a completar sis a vuit minuts. Cap síntesi nova.',
     releaseS020Published: 'S020 publicada definitivament amb el màster v1 validat, il·lustració de Mireia i solucionari net. S007 i S024 amb guió validat i preparades per a veus; pla de lots actualitzat, sense enviar peticions amb la quota diària esgotada.',
     compareJingles: "Compara les sintonies",
     previewSession: 'Prova la sessió completa', skipPreviewWaits: 'Salta les pauses d’espera', skipCurrentWait: 'Salta aquesta pausa',
@@ -34,8 +35,8 @@ export const strings = {
     releaseCatalogueUniverses: "Recompte de comprensions disponibles a la capçalera, opció persistent per mostrar els provisionals i quatre universos editorials amb filtre i etiquetes a cards i fitxes. Les peces continuen sent autònomes i no es modifiquen guions ni àudios.",
     showProvisional: "Només provisionals",
     universe: "Univers",
-    independentActivity: "Peça independent",
-    independentActivities: "Peces independents",
+    independentActivity: "Sense univers",
+    independentActivities: "[Sense univers]",
     catalogReadySuffix: "per a la teva aula",
     catalogReadyCount: n => `${n} ${n === 1 ? 'comprensió oral' : 'comprensions orals'}`,
     releaseAudioReviewCards: 'Cartell de revisió a totes les cards amb àudio pendent de validar, amb el mateix estil que les propostes. S016: artefacte a «Si l’estudi avança, l’equip» i jingles anotats per corregir; resta de la peça ben valorada. Sense síntesi nova.',
@@ -230,6 +231,7 @@ export const strings = {
   },
   es: {
     language: 'es',
+    releaseUniversesAndDrafts: 'S009, S014 y S017 autorizadas para voces. Veinte guiones nuevos revisados, pendientes de validación docente. Universos más breves, selectores personalizados y papel crema en modo oscuro. Retrato y modelo de Joana; retratos hasta la cintura de Elies y Ona. Once recurrentes, sin fichas para invitados ocasionales. Lotes pequeños en espera hasta completar seis a ocho minutos. Ninguna síntesis nueva.',
     releaseS020Published: 'S020 publicada definitivamente con el máster v1 validado, ilustración de Mireia y solucionario limpio. S007 y S024 con guion validado y listas para voces; plan de lotes actualizado, sin enviar peticiones con la cuota diaria agotada.',
     compareJingles: "Compara las sintonías",
     previewSession: 'Prueba la sesión completa', skipPreviewWaits: 'Salta las pausas de espera', skipCurrentWait: 'Salta esta pausa',
@@ -263,8 +265,8 @@ export const strings = {
     releaseCatalogueUniverses: "Recuento de comprensiones disponibles en la cabecera, opción persistente para mostrar los provisionales y cuatro universos editoriales con filtro y etiquetas en tarjetas y fichas. Las piezas siguen siendo autónomas y no se modifican guiones ni audios.",
     showProvisional: "Solo provisionales",
     universe: "Universo",
-    independentActivity: "Pieza independiente",
-    independentActivities: "Piezas independientes",
+    independentActivity: "Sin universo",
+    independentActivities: "[Sin universo]",
     catalogReadySuffix: "para tu aula",
     catalogReadyCount: n => `${n} ${n === 1 ? 'comprensión oral' : 'comprensiones orales'}`,
     releaseAudioReviewCards: 'Cartel de revisión en todas las tarjetas con audio pendiente de validar, con el mismo estilo que las propuestas. S016: artefacto en «Si l’estudi avança, l’equip» y sintonías anotados para corregir; resto de la pieza bien valorado. Sin nueva síntesis.',

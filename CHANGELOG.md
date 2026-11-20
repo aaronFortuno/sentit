@@ -1,5 +1,15 @@
 # Canvis
 
+## 0.1.53 · 20 de novembre de 2026
+
+- S009, S014 i S017: guions validats pel docent i autoritzacions de síntesi exactes registrades. Vuit comprensions noves i nou esmenes distribuïdes en sis lots candidats, en comptes de quinze peticions separades. Només dos arriben a la finestra de mida; els altres esperen material compatible. Cap petició enviada amb la quota esgotada.
+- Noms d’univers simplificats: Les notícies de la Mar, A classe amb la Mireia, Els records de l’avi Ferran i Les troballes de la Laia i en Biel. [Sense univers] és una opció especial del filtre. Afegits Ràdio de l’escola i Històries amb sentit per a nous episodis amb aquests marcs, sense forçar-los en àudios que no els tenen.
+- Incorporada la segona tanda de vint guions, de S025 a S044: cinc per curs de 3r a 6è, 150 preguntes i 165 cites exactes. Autor i revisor separats, esmenes comprovades en un segon retorn quan calia. Tots són provisionals pendents de validació docent, sense síntesi.
+- Plans de tall futurs descrits com a previstos i pendents de comprovació, mantenint intactes els textos i les aprovacions de la primera tanda. Controls de catàleg adaptats a ampliacions progressives.
+- Norma de quota documentada i controlada abans de claus o xarxa: només lots estimats de sis a vuit minuts durant el creixement. Un lot petit espera encara que no hi hagi altra feina; cal recordar-ne el poc aprofitament abans d’acceptar una excepció.
+- Filtres del catàleg amb desplegables personalitzats, accés per teclat i animació de 220 ms, adaptats de Trama. Paper crema al preview en mode fosc, blanc en impressió i PDF.
+- Joana amb model gràfic i retrat propis. Elies i Ona amb retrats v2 centrats fins a la cintura, conservant identitats i originals. El repartiment recurrent queda limitat als onze actuals; convidats ocasionals sense fitxa ni entrada a la galeria.
+
 ## 0.1.52 · 20 de novembre de 2026
 
 - S020 publicada definitivament després de la validació docent. Màster v1 i presentació conservats, amb aprovació vinculada a les empremtes exactes. Nova il·lustració de Mireia a la card, fitxa i transcripció; solucionari net sense escaleta. Comprovació independent de la imatge i les cites.

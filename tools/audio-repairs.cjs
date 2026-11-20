@@ -42,6 +42,7 @@ async function main(){
  if(!isEditoriallyReviewed(entry))throw Error('La revisió editorial actual no coincideix.');
  const {assertProductionApproved}=require('./production-approval.cjs');
  assertProductionApproved(entry,repairSpec(entry),(await readJSON(path.join(root,'content/production-plans.json'),{}))[code]);
+ require('./audio-batch-policy.cjs').assertSynthesisWindow(body);
  assertQuota(await readJSON(path.join(work,'last-api-error.json'),null));
  assertDailyRoom(await readJSON(path.join(work,'request-log.json'),[]));
  await fs.mkdir(folder,{recursive:true});const attemptFile=raw.replace('.wav','.attempt.json');
@@ -51,7 +52,7 @@ async function main(){
  try{
   await handle.writeFile(JSON.stringify({pid:process.pid,code,purpose:'pronunciation-repair',startedAt:attempt.startedAt}));
   assertDailyRoom(await readJSON(path.join(work,'request-log.json'),[]));
-  await reserveRequest(work,{code,purpose:'pronunciation-repair',hash:requestHash,model:body.model});
+  await reserveRequest(work,{code,purpose:'pronunciation-repair',hash:requestHash,model:body.model},body);
   await fs.writeFile(attemptFile,JSON.stringify(attempt,null,2));await fs.writeFile(raw.replace('.wav','.request.json'),JSON.stringify(body,null,2));
   const audio=await require('./generate-prototypes.cjs').geminiAudio(body,raw.replace('.wav','.usage.json'));
   checkWave(audio);await fs.writeFile(raw+'.part',audio);await fs.rename(raw+'.part',raw);

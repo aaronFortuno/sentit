@@ -391,5 +391,47 @@ export const productionProgress = {
       "dailyLimit": 10,
       "notBefore": "2026-11-21T08:00:00.000Z"
     }
+  },
+  "ca-S017": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-20T21:35:19.657Z",
+    "editorialFingerprint": "fe3ce6ee3d53da22272f4bf6e1dc47ea654ab5a57a6f87bcd3b768caa9e7fa46",
+    "plannedNewRequests": 2,
+    "confirmation": "S017 també validada per síntesi de veu.",
+    "reason": "Guió validat; intervencions de la Mireia i dels alumnes separades per agrupar-les amb les peces que comparteixen les mateixes veus. Cap nova petició fins al restabliment de quota.",
+    "quotaHold": {
+      "day": "2026-11-20",
+      "countedRequests": 10,
+      "dailyLimit": 10,
+      "notBefore": "2026-11-21T08:00:00.000Z"
+    }
+  },
+  "ca-S014": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-20T21:41:49.070Z",
+    "editorialFingerprint": "6aec80a53248aa7f3e9865841e69b4885c8019115d4fe2e45942a24b70933771",
+    "plannedNewRequests": 1,
+    "confirmation": "S014 validat, llest per pujar a síntesi de veus.",
+    "reason": "Guió validat; preparar un lot compatible de sis a vuit minuts. No enviar una petició curta aïllada.",
+    "quotaHold": {
+      "day": "2026-11-20",
+      "countedRequests": 10,
+      "dailyLimit": 10,
+      "notBefore": "2026-11-21T08:00:00.000Z"
+    }
+  },
+  "ca-S009": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-20T21:58:08.267Z",
+    "editorialFingerprint": "38014b8e7bff3ce697843ac062788c561d32a4ee41b342e19471419864974df7",
+    "plannedNewRequests": 1,
+    "confirmation": "S009 queda també validat per síntesi de veus.",
+    "reason": "Guió validat; agrupar amb material compatible d’Erinome fins a completar sis a vuit minuts. Cap petició curta aïllada.",
+    "quotaHold": {
+      "day": "2026-11-20",
+      "countedRequests": 10,
+      "dailyLimit": 10,
+      "notBefore": "2026-11-21T08:00:00.000Z"
+    }
   }
 };
