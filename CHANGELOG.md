@@ -1,5 +1,18 @@
 # Canvis
 
+## 0.1.49 · 20 de novembre de 2026
+
+- Il·lustracions amb identitats recurrents per a S003, S004/S004D, S012, S018 i S019, presents a les cards i activades per defecte a la fitxa i al solucionari. Models propis d’Elies i Ona i prompts conservats. Transcripcions definitives sense escaleta ni notes de producció; guions de treball intactes. Tancament de publicació documentat.
+- S019 v3 publicada amb la validació condicionada del docent: retirats els cinc primers segons de la mostra de cuina abans de repetir-la. Foses, veus i durada conservades. S023 v2 amb Ona curta i ambient de mercat real CC0 sota l’entrevista. Correcció de suggeriments preparada amb Erinome, sense síntesi nova ni falsa validació.
+- Compara les sintonies només al sidebar d’àudio: popup compacte, cada obertura i tancament junts. Prova de sessió completa amb el mateix reproductor de l’alumnat, ritme, presentació, locucions i repeticions; esperes saltables només durant la prova. Fragment sol conservat i QR intacte. Controls eliminats en tancar per evitar reproduccions duplicades.
+- Revisió independent de les metadades, comprovacions locals d’àudio, paginació, imatges, transcripció, evidències, pauses, disposició i mòbil. Nou frases d’esmena agrupades en quatre lots, dues veus reals com a màxim; normalització de les etiquetes Mar/Presentadora d’Erinome.
+
+## 0.1.48 · 20 de novembre de 2026
+
+- S008R publicada definitivament després de l’audició docent, amb el mateix màster v1 i la presentació reutilitzada. Aprovació vinculada al contingut i àudio exactes; variant validada per separat de S008. Nou activitats disponibles al catàleg.
+- Registre de revisió independent i seguiment actualitzats. El muntador de ràdio protegeix el màster definitiu contra un remuntatge accidental.
+- Documentada l’estratègia de lots amb diverses lectures i esmenes: límits actuals, pressupost de minuts i tokens, quatre agrupacions candidates i adaptacions necessàries abans del pilot. Sense peticions de síntesi noves ni generador de lots activat.
+
 ## 0.1.47 · 20 de novembre de 2026
 
 - Impressió agrupada en quatre seccions: tipografia i espaiats, capçalera i instruccions, imatge i preguntes. Tipografia/mida i espaiat/interlineat en files separades; restablir el format no altera el codi d’aula ni els altres continguts.

@@ -152,6 +152,12 @@
     "validatedBy": "docent",
     "confirmation": "S004 es pot publicar definitivament.",
     "audioSha256": "780e096640722d8623d809b0319b76d579c271f1cc12143643ef071b860b15ad",
-    "editorialFingerprint": "30cb0049ef5dbe7b690435324030990ff0eb9cd58036d4becae0c0952b4db18e"
+    "editorialFingerprint": "0980fa81ff2f22d92cd3eaedb50afd1be5ab28c3bf824f74c093aa2825002e76"
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/el-boto-de-la-jaqueta-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-20",
+    "audioChanged": false
   }
 }

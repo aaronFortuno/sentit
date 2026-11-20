@@ -20,9 +20,9 @@ const {productionSpec}=require('./proposal-plan.cjs'),{assertProductionApproved}
   assert.equal(record.editorialEdit?record.montageNewSynthesisRequests:record.newSynthesisRequests,entry.generationPlan.takes.reduce((n,take)=>n+take.requests,0));assert.equal(record.voice.retimed,false);
   assert(record.cut.peakDbFS<=-42);assert(record.cut.at>record.cut.previousWordEnd&&record.cut.at<record.cut.nextWordStart);
   assert(record.lufs>=-24&&record.lufs<=-15&&record.peakDbTP<=-1);
-  if(['S010','S013','S022','S012','S019'].includes(code)){
+  if(['S010','S013','S022','S012','S019','S023'].includes(code)){
    assert.equal(record.montageNewSynthesisRequests,0);
-   if(['S010','S013','S022'].includes(code))assert.equal(record.pronunciationRepair.applied,false);
+   if(['S010','S013','S022','S023'].includes(code))assert.equal(record.pronunciationRepair.applied,false);
    else {assert.equal(record.voiceValidation.approved,true);assert.equal(record.voiceValidation.rawSha256,record.rawSha256);}
    assert.notEqual(record.sha256,record.previousMaster.sha256);
    const priorFile=path.join(root,'assets/audio',record.previousMaster.file);
@@ -46,6 +46,15 @@ const {productionSpec}=require('./proposal-plan.cjs'),{assertProductionApproved}
    assert.equal(record.montageNewSynthesisRequests,0);assert.equal(record.editorialEdit.retainedText,'Gràcies, Elies.');
    assert(record.editorialEdit.silenceChecks.every(cut=>cut.peakDbFS<=-42));assert.equal(record.voice.untrimmedApartFromSilenceSplit,false);
    assert.equal(Math.round(record.editorialEdit.removedSeconds*100),822);
+  }
+  if(code==='S019'){
+   const bed=record.effects.find(effect=>effect.name==='real-kitchen-ambience');assert.equal(bed.sourceExcerpt.start,5);assert.equal(bed.trimmedBeforeLoop,true);assert.equal(record.file,'s019-cuinera-v3.mp3');
+   assert.equal(record.teacherValidation.condition.applied,true);
+  }
+  if(code==='S023'){
+   const bed=record.effects.find(effect=>effect.name==='real-market-interview');assert(bed);assert.equal(record.effects.length,3);assert.equal(bed.sourceId,'jmdh-covered-market-388315');assert.equal(bed.sourceExcerpt.start,12);assert(bed.speechWindowMarginDb>=20);assert(bed.speechWindowPeakDbFS<=-25);
+   assert(record.effects.some(e=>e.name==='ona-curta-obertura'));assert(record.effects.some(e=>e.name==='ona-curta-tancament'));
+   const {soundSourcesForActivity}=await import('../content/sound-sources.js'),source=soundSourcesForActivity(entry)[0];assert.equal(createHash('sha256').update(await fs.readFile(path.join(root,source.file))).digest('hex'),bed.sourceSha256);
   }
   if(code==='S019'){
    const bed=record.effects.find(effect=>effect.name==='real-kitchen-ambience');assert(bed);assert.equal(record.effects.length,1);assert.equal(bed.origin,'external-recording');assert(bed.speechWindowMarginDb>=22);assert(bed.speechWindowPeakDbFS<=-28);assert.equal(bed.passes,2);assert(bed.sourceDuration*2-bed.crossfadeSeconds>record.bodyDuration);assert(bed.envelope.holdAfterSpeech.end-bed.envelope.holdAfterSpeech.start>=2);assert(bed.envelope.riseAfterSpeech.start>record.voice.bodyLead+record.voice.bodyRawDuration);

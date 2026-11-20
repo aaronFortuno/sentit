@@ -1,5 +1,17 @@
 # Il·lustracions de context
 
+## Tancament de publicació · 20/11/2026
+
+Generades amb l’eina integrada `image_gen`, amb les fitxes dels personatges com a referències d’identitat. Escenes de 1536 × 1024, convertides a WebP qualitat 88, sense retall ni canvi de composició. [Prompts exactes i referències](publication-scenes-v1.prompts.json).
+
+- S003: [El paraigua intercanviat](el-paraigua-intercanviat-v1.webp), Laia i Biel al passadís; cap cinta ni mànec identificable.
+- S004 i S004D: [El botó de la jaqueta](el-boto-de-la-jaqueta-v1.webp), Aina i Ferran a casa; jaqueta plegada, sense pistes de la recerca.
+- S012: [Qui arregla els instruments?](qui-arregla-els-instruments-v1.webp), Biel i Elies al taller; guitarra en repòs sense avaria visible.
+- S018: [La clau de l’armari verd](la-clau-de-l-armari-verd-v1.webp), Aina i Ferran al costat de l’armari tancat; sense clau ni contingut privat.
+- S019: [Una cuinera que no vol llençar menjar](una-cuinera-que-no-vol-llencar-menjar-v1.webp), Laia i Ona conversant a la cuina; sense menús, quantitats ni solucions.
+
+Les imatges es comparteixen entre card, fitxa i solucionari. [Comprovació obligatòria de tancament](../../docs/tancament-publicacio.md).
+
 Generades per a Sentit el 18 de novembre de 2026 amb l’eina integrada `image_gen`, sense API ni claus addicionals. Fitxers WebP de 1536 × 1024 píxels, convertits dels PNG originals amb qualitat 88 i sense canviar-ne la composició ni la mida.
 
 - [El senyal de la ràdio](el-senyal-de-la-radio.webp): dos joves conversen en una ràdio escolar.

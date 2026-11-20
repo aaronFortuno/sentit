@@ -53,3 +53,7 @@ El registre separa sempre assignació editorial, veu real de cada presa i àudio
 [content/characters.js](../content/characters.js) conserva identificadors estables, nom, aparença, manera de ser, interessos, interpretació vocal, estat de la veu, aparicions, retrat i presentació. El quadre i la pàgina de personatges comparteixen `character-explorer.js`, alimentat per aquest registre. La personalitat és una guia per escriure; les fitxes de comprensió i les respostes es mantenen als seus guions.
 
 Les presentacions escrites es locutaran quan hi hagi quota i s’hagi revisat la veu de cada personatge. Fins llavors `introduction.audio` és nul: el botó informa que està en preparació. No es presenten els àudios de les lectures com si fossin una autopresentació ni se sintetitza res en temps real.
+
+## Ampliació visual i veus escoltades · 20/11/2026
+
+Elies (Algieba) i Ona (Sulafat) ja disposen de model sheet propi, retrat derivat i escena de context a S012 i S019. Les seves veus s’han escoltat i validat en aquests papers. Aina (Zephyr) i Ferran (Algenib) també s’han escoltat a S004D, publicada definitivament. Això actualitza l’estat de candidates de la taula històrica inicial. [Models i prompts](../assets/characters/README.md).

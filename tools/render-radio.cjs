@@ -19,6 +19,7 @@ function findPhrase(words,phrase){
 }
 async function main(){
   const {fotoRadio:entry}=await import(pathToFileURL(path.join(root,'content/la-foto-que-faltava-radio.js')));
+  if(entry.reviewStatus==='validated')throw Error('S008R està publicada definitivament. Cal reobrir-la explícitament abans de modificar el màster validat.');
   const plans=JSON.parse(await fs.readFile(path.join(root,'content/production-plans.json'),'utf8'));
   assertProductionApproved(entry,spec,plans.S008R);
   const requestHash=hash(JSON.stringify(packedRadioRequest(entry)));

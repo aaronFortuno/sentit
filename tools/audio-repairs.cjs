@@ -5,7 +5,7 @@ const {request}=require('./audio-plan.cjs'),{checkWave}=require('./audio-files.c
 const {readJSON,reserveRequest,assertQuota}=require('./audio-quota.cjs');
 const hash=data=>createHash('sha256').update(data).digest('hex');
 const root=path.resolve(__dirname,'..'),work=path.resolve(root,'../output/sentit-primera-tanda');
-function repairSpec(entry){return entry.code==='S015'?require('./interview-production.cjs').spec:require('./proposal-plan.cjs').productionSpec(entry);}
+function repairSpec(entry){return entry.code==='S015'?require('./interview-production.cjs').spec:entry.code==='S023'?require('./news-production.cjs').spec:require('./proposal-plan.cjs').productionSpec(entry);}
 function repairRequest(entry,plan){
  if(plan.activity!==`${entry.language}-${entry.code}`||plan.repairs.length<1)throw Error('Pla de correcció desconegut.');
  const turns=plan.repairs.map((repair,index)=>{

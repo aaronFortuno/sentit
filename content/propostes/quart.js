@@ -119,6 +119,7 @@ export const quart = [
     audio: './assets/audio/s012-instruments-v2.mp3', tracks: { introduction: './assets/audio/s012-instruments-v2-intro.mp3', body: './assets/audio/s012-instruments-v2-cos.mp3' },
     fragment: { start: 4.18, seconds: 119 },
     summary: 'En Biel visita l’Elies i descobreix per què reparar comença escoltant i comprovant.',
+    image: { src: './assets/images/qui-arregla-els-instruments-v1.webp', alt: "En Biel entrevista l’Elies al taller de lutier, amb una guitarra sobre la taula.", width: 1536, height: 1024 },
     voices: { Biel: 'Puck', Elies: 'Algieba' }, delivery: 'Biel, jove curiós; Elies, lutier adult, pacient i pràctic. La professió s’explica al guió. No accelerar els exemples ni imitar sons amb la boca.',
     editorialFocus: '4t avançada: revisar una suposició i relacionar un procediment amb la seva finalitat. No cal coneixement musical previ ni reconèixer notes.',
     soundPlan: 'Quatre proves irregulars de la guitarra real de khenshom, Freesound 537084, CC0, més audibles a l’obertura. Baixar-les abans de la primera paraula i deixar que l’última prova continuï molt fluixa sota la salutació d’en Biel. Veus netes a les explicacions; paper molt discret al canvi de tema. Després del comiat, tres proves de la mateixa corda amb petits canvis de to per suggerir un intent d’afinació, sense representar una reparació reeixida. Fosa i silenci final. Cap síntesi ni canvi de les veus.',

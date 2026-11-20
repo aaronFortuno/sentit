@@ -1,7 +1,7 @@
 {
   "code": "S008R",
   "date": "2026-11-19T16:20:53.538Z",
-  "state": "ready-for-teacher-listening",
+  "state": "published",
   "model": "gemini-3.8-flash-tts",
   "voices": {
     "Narradora": "Aoede"
@@ -75,5 +75,14 @@
     "finalWord": "programa",
     "finalWordEnd": 94.65
   },
-  "sha256": "804487e0bfffdc6d64ed15050ae3f9885b1eeb1082dd27ed1c00946a67754837"
+  "sha256": "804487e0bfffdc6d64ed15050ae3f9885b1eeb1082dd27ed1c00946a67754837",
+  "teacherValidation": {
+    "state": "published",
+    "validatedAt": "2026-11-20",
+    "validatedBy": "docent",
+    "confirmation": "S008R també validat per publicació definitiva.",
+    "audioSha256": "804487e0bfffdc6d64ed15050ae3f9885b1eeb1082dd27ed1c00946a67754837",
+    "editorialFingerprint": "a2792c44d38acdb0ccff3c9e4d6b2aeb9b94880c4256697a1f535d1fa66fac69",
+    "listeningApproval": true
+  }
 }

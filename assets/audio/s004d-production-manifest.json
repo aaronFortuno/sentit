@@ -153,6 +153,12 @@
     "validatedBy": "docent",
     "confirmation": "S004D es pot publicar definitivament; música i muntatge validats.",
     "audioSha256": "0678719861a6354cf569771a2be73f5ca561ae1d086907e40a65a317d2e008c4",
-    "editorialFingerprint": "d405d1a01e308ff2d2c1681d76bcae677b0d30ded76872863f780cdd821aa2bf"
+    "editorialFingerprint": "1be7f144c88e86d65f69b5609f5c606d35cff4f8e2d74f2e7c2e76006297da8f"
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/el-boto-de-la-jaqueta-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-20",
+    "audioChanged": false
   }
 }

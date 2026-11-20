@@ -47,12 +47,16 @@
       {
         "code": "S016",
         "part": "exposicio"
+      },
+      {
+        "code": "S023",
+        "part": "tancament"
       }
     ],
     "status": "approved-for-correction",
     "approvedAt": "2026-11-20",
     "approvalSource": "Agrupació de les esmenes de veu identificades pel docent; text canònic i veus conservats, pauses addicionals demanades per al muntatge local.",
-    "approvedRequestHash": "7719826b30078babd7c66b29dedb6c489e0ba4aaea53b8950661e61a1f961368"
+    "approvedRequestHash": "51a91da7b4b4c885dc1723c18685954f1016e57efe0bc47b4f4911472c128b78"
   },
   {
     "id": "R04",

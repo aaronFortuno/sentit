@@ -251,15 +251,15 @@
     {
       "code": "S023",
       "activity": "ca-S023",
-      "date": "2026-11-20T12:38:23.648Z",
-      "state": "awaiting-audio-validation",
+      "date": "2026-11-20T20:09:54.848Z",
+      "state": "awaiting-pronunciation-correction-and-audio-review",
       "model": "gemini-3.8-flash-tts",
       "voices": {
         "Presentadora": "Erinome",
         "Pau": "Charon"
       },
       "newSynthesisRequests": 1,
-      "approvalFingerprint": "16b101dcfda79db8892502c717dbab36548e03b477c7fdd9918ebdfedfdfc864",
+      "approvalFingerprint": "9b9450bf5f3f2f61ec009a99728fcf20788de66eead40f4e822079a60fdac521",
       "requestHash": "f7ee3c6c2597e5eb39bfb92198870b47cd4920be40893e18ec23944bf6ba7d3c",
       "rawSha256": "eac80f2575c694144fa2d8ddde29f7bfe58c036b619cb9c97dce39c92f3c0736",
       "usage": {
@@ -291,53 +291,82 @@
         "peakDbFS": -58.5,
         "rawSamplesPreserved": true
       },
-      "file": "s023-mercat-v1.mp3",
-      "introFile": "s023-mercat-v1-intro.mp3",
-      "bodyFile": "s023-mercat-v1-cos.mp3",
+      "file": "s023-mercat-v2.mp3",
+      "introFile": "s023-mercat-v2-intro.mp3",
+      "bodyFile": "s023-mercat-v2-cos.mp3",
       "offset": 6.805,
-      "bodyDuration": 192.605,
-      "fullDuration": 199.41,
-      "lufs": -19.9,
+      "bodyDuration": 196.305,
+      "fullDuration": 203.11,
+      "lufs": -19.8,
       "peakDbTP": -2.8,
       "voice": {
-        "bodyLead": 2.5,
+        "bodyLead": 4.6,
         "bodyRawDuration": 186.905,
         "untrimmedApartFromSilenceSplit": true,
         "retimed": false
       },
       "effects": [
         {
-          "name": "market-news-opening",
+          "name": "ona-curta-obertura",
           "start": 0,
-          "end": 2,
-          "origin": "original-procedural"
+          "end": 4,
+          "origin": "original-procedural",
+          "source": "assets/audio/mireia-ona-curta-v1-obertura.mp3",
+          "sourceSha256": "62016b7d191327628b1ca3b0be77e46e0c273a9732e04152ca2cde6efca33d7a",
+          "author": "Sentit",
+          "license": "MIT",
+          "retimed": false
         },
         {
-          "name": "market-hall-steps",
-          "start": 62.26499999999999,
-          "end": 62.824999999999996,
-          "origin": "original-procedural"
+          "name": "ona-curta-tancament",
+          "start": 191.855,
+          "end": 195.45499999999998,
+          "origin": "original-procedural",
+          "source": "assets/audio/mireia-ona-curta-v1-tancament.mp3",
+          "sourceSha256": "2ec44fc31e176c8ee86b57167eef042d66b3e38879ce5c092ab353971c5ff4cc",
+          "author": "Sentit",
+          "license": "MIT",
+          "retimed": false
         },
         {
-          "name": "market-hall-air",
-          "start": 62.26499999999999,
-          "end": 62.824999999999996,
-          "origin": "original-procedural"
-        },
-        {
-          "name": "market-paper",
-          "start": 62.80499999999999,
-          "end": 63.02499999999999,
-          "origin": "original-procedural"
-        },
-        {
-          "name": "market-news-ending",
-          "start": 189.705,
-          "end": 191.705,
-          "origin": "original-procedural"
+          "name": "real-market-interview",
+          "start": 64.35499999999999,
+          "end": 103.455,
+          "origin": "external-recording",
+          "source": "assets/audio/sources/jmdh-388315-covered-market.mp3",
+          "sourceId": "jmdh-covered-market-388315",
+          "sourceSha256": "491adb6958fbd12889734f9ccfbf488c9316d7addc0c1121630d1f315a136810",
+          "sourceUrl": "https://freesound.org/people/jmdh/sounds/388315/",
+          "author": "jmdh",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "sourceExcerpt": {
+            "start": 12,
+            "end": 51.10000000000001
+          },
+          "passes": 1,
+          "retimed": false,
+          "pitchShifted": false,
+          "speechWindowMeanDbFS": -39.6,
+          "speechWindowVoiceMeanDbFS": -19.4,
+          "speechWindowMarginDb": 20.200000000000003,
+          "speechWindowPeakDbFS": -26.9,
+          "fadeIn": 0.8,
+          "fadeOut": 0.45,
+          "listeningValidation": "pending"
         }
       ],
-      "sha256": "6dc57aac981867dea306d11442daa83d4834108a5c7aa7d1d10d85f78d5d15b5"
+      "sha256": "f9e9501db7bae7a2bdb85eef8ab50a10eee7bac97781498ecbe69366f1595b88",
+      "montageNewSynthesisRequests": 0,
+      "previousMaster": {
+        "file": "s023-mercat-v1.mp3",
+        "sha256": "6dc57aac981867dea306d11442daa83d4834108a5c7aa7d1d10d85f78d5d15b5"
+      },
+      "pronunciationRepair": {
+        "plan": "content/audio-repairs.json",
+        "status": "pending-quota-and-listening",
+        "applied": false
+      }
     },
     {
       "code": "S001",
@@ -556,7 +585,7 @@
     {
       "code": "S008R",
       "date": "2026-11-19T16:20:53.538Z",
-      "state": "ready-for-teacher-listening",
+      "state": "published",
       "model": "gemini-3.8-flash-tts",
       "voices": {
         "Narradora": "Aoede"
@@ -630,7 +659,16 @@
         "finalWord": "programa",
         "finalWordEnd": 94.65
       },
-      "sha256": "804487e0bfffdc6d64ed15050ae3f9885b1eeb1082dd27ed1c00946a67754837"
+      "sha256": "804487e0bfffdc6d64ed15050ae3f9885b1eeb1082dd27ed1c00946a67754837",
+      "teacherValidation": {
+        "state": "published",
+        "validatedAt": "2026-11-20",
+        "validatedBy": "docent",
+        "confirmation": "S008R també validat per publicació definitiva.",
+        "audioSha256": "804487e0bfffdc6d64ed15050ae3f9885b1eeb1082dd27ed1c00946a67754837",
+        "editorialFingerprint": "a2792c44d38acdb0ccff3c9e4d6b2aeb9b94880c4256697a1f535d1fa66fac69",
+        "listeningApproval": true
+      }
     },
     {
       "code": "S003",
@@ -723,7 +761,13 @@
         "validatedBy": "docent",
         "confirmation": "S003 queda validat i es pot publicar.",
         "audioSha256": "a0cadf740e032c69fd50d7fdd33f2fe59290c39dcf0d1e078e3f0145ece8367f",
-        "editorialFingerprint": "cbb297a7ce3af1c176b240e21a1750c9e0606d9ca8e8728434277f239ec05624"
+        "editorialFingerprint": "4cfc02620c695d97c424a2592a16b4837f1cd04f5038cb3e7e35ac97de4fc464"
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/el-paraigua-intercanviat-v1.webp",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-20",
+        "audioChanged": false
       }
     },
     {
@@ -975,8 +1019,14 @@
         "validatedBy": "docent",
         "confirmation": "S018 queda validat per publicació definitiva.",
         "audioSha256": "3e31510ff19626f43fd0b20cccf6a9b9b2ebb38ae4ae175ae399115d535bc2e7",
-        "editorialFingerprint": "7f77f3bb9a6389d482ed82fe5198e368a31ed8b17b3b69f8c91c4c927a538c9a",
+        "editorialFingerprint": "3600ec0b646cc218e3d5caf2e3bf7f2235b983ad106f100635bf9a4002bfe0a8",
         "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/la-clau-de-l-armari-verd-v1.webp",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-20",
+        "audioChanged": false
       }
     },
     {
@@ -1526,8 +1576,14 @@
         "validatedBy": "docent",
         "confirmation": "S012 validat per publicació definitiva.",
         "audioSha256": "00344e8635392d7cae9b1ab299521bc8544a091d569838d86ad06a7b20ba8b1c",
-        "editorialFingerprint": "0a0a32a1f21e43b0fe6856d19d8d1860cbc3e7b2dbdcecb478c321c6c24ce0d8",
+        "editorialFingerprint": "a9da00b02d5964289cc98025c52bb152aed5f6b8e474e2e3b8cbedb166dabc07",
         "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/qui-arregla-els-instruments-v1.webp",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-20",
+        "audioChanged": false
       }
     },
     {
@@ -1768,7 +1824,13 @@
         "validatedBy": "docent",
         "confirmation": "S004 es pot publicar definitivament.",
         "audioSha256": "780e096640722d8623d809b0319b76d579c271f1cc12143643ef071b860b15ad",
-        "editorialFingerprint": "30cb0049ef5dbe7b690435324030990ff0eb9cd58036d4becae0c0952b4db18e"
+        "editorialFingerprint": "0980fa81ff2f22d92cd3eaedb50afd1be5ab28c3bf824f74c093aa2825002e76"
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/el-boto-de-la-jaqueta-v1.webp",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-20",
+        "audioChanged": false
       }
     },
     {
@@ -1926,7 +1988,13 @@
         "validatedBy": "docent",
         "confirmation": "S004D es pot publicar definitivament; música i muntatge validats.",
         "audioSha256": "0678719861a6354cf569771a2be73f5ca561ae1d086907e40a65a317d2e008c4",
-        "editorialFingerprint": "d405d1a01e308ff2d2c1681d76bcae677b0d30ded76872863f780cdd821aa2bf"
+        "editorialFingerprint": "1be7f144c88e86d65f69b5609f5c606d35cff4f8e2d74f2e7c2e76006297da8f"
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/el-boto-de-la-jaqueta-v1.webp",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-20",
+        "audioChanged": false
       }
     },
     {
@@ -2017,15 +2085,15 @@
     {
       "code": "S019",
       "activity": "ca-S019",
-      "date": "2026-11-20T16:09:05.574Z",
-      "state": "awaiting-montage-validation",
+      "date": "2026-11-20T20:09:48.081Z",
+      "state": "published",
       "model": "gemini-3.8-flash-tts",
       "voices": {
         "Laia": "Leda",
         "Ona": "Sulafat"
       },
       "newSynthesisRequests": 1,
-      "approvalFingerprint": "11977fa5c579edaf15d859b80e5fa11df7afe22e103f4b00b3ffeee7c3812941",
+      "approvalFingerprint": "41873e799f9f4ca538cb42c03a784a37c4d40bea5f349752a9869b8be8a6ca42",
       "requestHash": "a8924128e778e3dde6202ed8682fc6ea0ffa41cc569060d635aadd677508ecf8",
       "rawSha256": "725ae2c9b9284506445838935bcedba9a9ce433f94adc2fa8e7f702d29c41e2e",
       "usage": {
@@ -2057,9 +2125,9 @@
         "peakDbFS": -51.9,
         "rawSamplesPreserved": true
       },
-      "file": "s019-cuinera-v2.mp3",
-      "introFile": "s019-cuinera-v2-intro.mp3",
-      "bodyFile": "s019-cuinera-v2-cos.mp3",
+      "file": "s019-cuinera-v3.mp3",
+      "introFile": "s019-cuinera-v3-intro.mp3",
+      "bodyFile": "s019-cuinera-v3-cos.mp3",
       "offset": 4.5,
       "bodyDuration": 112.89,
       "fullDuration": 117.39,
@@ -2097,14 +2165,19 @@
           "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
           "retimed": false,
           "pitchShifted": false,
-          "sourceDuration": 72.096,
+          "sourceExcerpt": {
+            "start": 5,
+            "end": 72.096
+          },
+          "trimmedBeforeLoop": true,
+          "sourceDuration": 67.096,
           "passes": 2,
           "crossfadeSeconds": 1,
           "sourceNormalization": "-25 LUFS target; -12 dBFS peak ceiling",
-          "speechWindowMeanDbFS": -48.4,
+          "speechWindowMeanDbFS": -47.6,
           "speechWindowPeakDbFS": -32,
           "speechWindowVoiceMeanDbFS": -19.3,
-          "speechWindowMarginDb": 29.099999999999998,
+          "speechWindowMarginDb": 28.3,
           "envelope": {
             "fadeIn": {
               "start": 0,
@@ -2132,11 +2205,11 @@
           "listeningValidation": "pending"
         }
       ],
-      "sha256": "47f572613bed9eac9d5fac6057b940eea3df39a322a9a5e4d35fd626702a0637",
+      "sha256": "a1942e18c8165e589e2a56ebad412bd8dd2a78da6c337bc3481e51ab37166018",
       "montageNewSynthesisRequests": 0,
       "previousMaster": {
-        "file": "s019-cuinera-v1.mp3",
-        "sha256": "20df9228b18a6df1807bf87ade49be30846cdd92be6342abba7d0c31e389a98b"
+        "file": "s019-cuinera-v2.mp3",
+        "sha256": "47f572613bed9eac9d5fac6057b940eea3df39a322a9a5e4d35fd626702a0637"
       },
       "voiceValidation": {
         "approved": true,
@@ -2144,6 +2217,25 @@
         "validatedBy": "docent",
         "rawSha256": "725ae2c9b9284506445838935bcedba9a9ce433f94adc2fa8e7f702d29c41e2e",
         "sourceRequestHash": "a8924128e778e3dde6202ed8682fc6ea0ffa41cc569060d635aadd677508ecf8"
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-20",
+        "validatedBy": "docent",
+        "confirmation": "Si pots modificar aquesta part del muntatge la resta és perfecta i ho validem com a publicació definitiva.",
+        "condition": {
+          "type": "remove-recording-slate-before-loop",
+          "trimSeconds": 5,
+          "applied": true
+        },
+        "audioSha256": "a1942e18c8165e589e2a56ebad412bd8dd2a78da6c337bc3481e51ab37166018",
+        "editorialFingerprint": "a0a3b10ae3307fd99971ac997f13c74d6a01596d2139b16e567f778b3d481b7f",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/una-cuinera-que-no-vol-llencar-menjar-v1.webp",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-20",
+        "audioChanged": "Only removal of recording slate before ambience looping; voice preserved"
       }
     },
     {

@@ -9,7 +9,8 @@ function level(binary,file,start,seconds){
 function attribution(recording){return {origin:'external-recording',source:recording.file,sourceId:recording.id,sourceSha256:recording.sha256,sourceUrl:recording.url,author:recording.author,license:recording.license,licenseUrl:recording.licenseUrl};}
 async function kitchenBed({root,binary,wav,recording,voice,lead,voiceEnd,tail}){
  const total=voiceEnd+tail,source=path.join(root,recording.file);
- const base=wav('kitchen-recording-normalized',['-i',source,'-af','highpass=f=80,lowpass=f=6800,loudnorm=I=-25:TP=-9:LRA=6,aresample=48000,alimiter=limit=0.25:level=false']);
+ const trimStart=recording.excerpt?.start??0;
+ const base=wav('kitchen-recording-normalized',['-i',source,'-af',`atrim=start=${trimStart},asetpts=PTS-STARTPTS,highpass=f=80,lowpass=f=6800,loudnorm=I=-25:TP=-9:LRA=6,aresample=48000,alimiter=limit=0.25:level=false`]);
  const sourceDuration=await duration(base),crossfade=1;
  if(sourceDuration*2-crossfade<total)throw Error('La gravació de cuina no cobreix el muntatge previst amb dues passades.');
  const loop=wav('kitchen-recording-loop',['-i',base,'-i',base,'-filter_complex',`[0:a][1:a]acrossfade=d=${crossfade}:c1=tri:c2=tri,atrim=duration=${total}[out]`,'-map','[out]']);
@@ -19,7 +20,16 @@ async function kitchenBed({root,binary,wav,recording,voice,lead,voiceEnd,tail}){
  const file=wav('real-kitchen-ambience',['-i',loop,'-af',`volume='${envelope}':eval=frame`]);
  const from=lead+3,seconds=voiceEnd-from-2,bedLevel=level(binary,file,from,seconds),voiceLevel=level(binary,voice,from,seconds),margin=voiceLevel.meanDbFS-bedLevel.meanDbFS;
  if(!(margin>=22&&bedLevel.peakDbFS<=-28))throw Error('L’ambient de cuina no deixa prou marge a les veus.');
- return {file,effect:{name:'real-kitchen-ambience',start:0,end:fadeEnd,...attribution(recording),retimed:false,pitchShifted:false,sourceDuration,passes:2,crossfadeSeconds:crossfade,sourceNormalization:'-25 LUFS target; -12 dBFS peak ceiling',speechWindowMeanDbFS:bedLevel.meanDbFS,speechWindowPeakDbFS:bedLevel.peakDbFS,speechWindowVoiceMeanDbFS:voiceLevel.meanDbFS,speechWindowMarginDb:margin,envelope:{fadeIn:{start:0,end:fadeIn},duckBeforeSpeech:{start:duckStart,end:duckEnd},speechGain:speech,riseAfterSpeech:{start:riseStart,end:riseEnd},holdAfterSpeech:{start:riseEnd,end:fadeStart},fadeOut:{start:fadeStart,end:fadeEnd},silentTail:.65},listeningValidation:'pending'}};
+ return {file,effect:{name:'real-kitchen-ambience',start:0,end:fadeEnd,...attribution(recording),retimed:false,pitchShifted:false,sourceExcerpt:{start:trimStart,end:trimStart+sourceDuration},trimmedBeforeLoop:true,sourceDuration,passes:2,crossfadeSeconds:crossfade,sourceNormalization:'-25 LUFS target; -12 dBFS peak ceiling',speechWindowMeanDbFS:bedLevel.meanDbFS,speechWindowPeakDbFS:bedLevel.peakDbFS,speechWindowVoiceMeanDbFS:voiceLevel.meanDbFS,speechWindowMarginDb:margin,envelope:{fadeIn:{start:0,end:fadeIn},duckBeforeSpeech:{start:duckStart,end:duckEnd},speechGain:speech,riseAfterSpeech:{start:riseStart,end:riseEnd},holdAfterSpeech:{start:riseEnd,end:fadeStart},fadeOut:{start:fadeStart,end:fadeEnd},silentTail:.65},listeningValidation:'pending'}};
+}
+async function marketInterviewBed({root,binary,wav,recording,voice,start,end}){
+ const seconds=end-start,from=recording.excerpt.start;
+ const base=wav('market-recording-normalized',['-i',path.join(root,recording.file),'-af',`atrim=start=${from}:duration=${seconds},asetpts=PTS-STARTPTS,highpass=f=80,lowpass=f=4200,loudnorm=I=-25:TP=-9:LRA=6,aresample=48000,alimiter=limit=0.25:level=false`]);
+ if(Math.abs(await duration(base)-seconds)>.002)throw Error('El fragment de mercat no cobreix l’entrevista.');
+ const file=wav('real-market-interview',['-i',base,'-af',`volume=0.18,afade=t=in:d=0.8,afade=t=out:st=${seconds-.45}:d=0.45`]);
+ const bed=level(binary,file,1,seconds-2),speech=level(binary,voice,start+1,seconds-2),margin=speech.meanDbFS-bed.meanDbFS;
+ if(!(margin>=20&&bed.peakDbFS<=-25))throw Error('L’ambient de mercat no deixa prou marge a la parla.');
+ return {file,effect:{name:'real-market-interview',start,end,...attribution(recording),sourceExcerpt:{start:from,end:from+seconds},passes:1,retimed:false,pitchShifted:false,speechWindowMeanDbFS:bed.meanDbFS,speechWindowVoiceMeanDbFS:speech.meanDbFS,speechWindowMarginDb:margin,speechWindowPeakDbFS:bed.peakDbFS,fadeIn:.8,fadeOut:.45,listeningValidation:'pending'}};
 }
 async function guitarSequence({root,binary,wav,recording,voice,lead,voiceEnd,tail,speechStart}){
  const source=path.join(root,recording.file),seconds=recording.excerpt.end-recording.excerpt.start,total=voiceEnd+tail;
@@ -41,4 +51,4 @@ async function guitarSequence({root,binary,wav,recording,voice,lead,voiceEnd,tai
  if(!(margin>=18&&guitarLevel.peakDbFS<=-26))throw Error('La guitarra tapa l’inici d’en Biel.');
  return {file,effect:{name:'real-loose-guitar-sequence',start:0,end:ending.at(-1).start+seconds,...attribution(recording),excerpt:recording.excerpt,gainBeforeLimiter:1.6,openingSourceTimeUnchanged:true,events:events.map(event=>({...event,end:event.start+seconds,pitchShifted:Boolean(event.semitones),durationPreserved:true})),voiceRetimed:false,speechStart,speechOverlapSeconds:overlapSeconds,speechWindowMeanDbFS:guitarLevel.meanDbFS,speechWindowPeakDbFS:guitarLevel.peakDbFS,speechWindowVoiceMeanDbFS:voiceLevel.meanDbFS,speechWindowMarginDb:margin,envelope:{duckBeforeSpeech:{start:duckStart,end:duckEnd},underVoiceGain:.045,silentTail:.6},tuningMethod:'Pitch changes only on the three recorded ending clips; asetrate plus compensating atempo, with original duration retained. No voice processing.',listeningValidation:'pending'}};
 }
-module.exports={kitchenBed,guitarSequence};
+module.exports={kitchenBed,guitarSequence,marketInterviewBed};

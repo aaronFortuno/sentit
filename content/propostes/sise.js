@@ -3,15 +3,16 @@ import { proposal, direction as d, spoken as s, question as q, evidence as e } f
 export const sise = [
   proposal({
     id: 'una-cuinera-contra-el-malbaratament', code: 'S019', title: 'Una cuinera contra el malbaratament', grade: '6', level: 'easy', genre: 'interview',
-    seconds: 118, status: 'ready-for-review', reviewStatus: 'audio-review',
-    audio: './assets/audio/s019-cuinera-v2.mp3', tracks: { introduction: './assets/audio/s019-cuinera-v2-intro.mp3', body: './assets/audio/s019-cuinera-v2-cos.mp3' },
+    seconds: 118, status: 'published', reviewStatus: 'validated',
+    audio: './assets/audio/s019-cuinera-v3.mp3', tracks: { introduction: './assets/audio/s019-cuinera-v3-intro.mp3', body: './assets/audio/s019-cuinera-v3-cos.mp3' },
     fragment: { start: 4.5, seconds: 113 },
     summary: 'La Laia pregunta a l’Ona per dos hàbits que ajuden a comprar i servir amb més criteri.',
+    image: { src: './assets/images/una-cuinera-que-no-vol-llencar-menjar-v1.webp', alt: "La Laia entrevista l’Ona en una cuina professional.", width: 1536, height: 1024 },
     voices: { Laia: 'Leda', Ona: 'Sulafat' }, delivery: 'Laia, entrevistadora jove i encuriosida; Ona, cuinera adulta, càlida i pràctica. Conversa àgil, amb confirmacions breus i naturals, sense remarcar-les ni frenar cada canvi de torn. Exemple quotidià, sense to de sermó ni recepta recitada.',
     overlaps: [{ reaction: 'confirmacio-compra', during: 'compra', after: 'No és una recepta màgica:' }],
     editorialFocus: '6è accessible: idees ordenades, exemples explícits i respostes concises. Distingir aprofitar aliments de consumir-ne que no siguin segurs.',
     soundCredits: "Ambient de cuina enregistrat per SoundtasticPro, CC0 1.0. Dues passades amb una fosa creuada d’un segon, filtratge lleuger i atenuació sota la parla; cap efecte procedural afegit.",
-    soundPlan: 'Ambient real de cuina de restaurant de SoundtasticPro, Freesound 484572, CC0. Fosa d’entrada i uns dos segons per situar-nos. Activitat natural de coberts, utensilis, talls i aparells al llarg de l’entrevista, molt baixa sota les veus i sense vincular els sons a les respostes. Després de l’última paraula, pujada de l’ambient durant dos o tres segons i fosa final. Sense sons de cuina sintetitzats ni sintonia de sortida. Conservar tota la presa de veu i el solapament existent.',
+    soundPlan: 'Ambient real de cuina, sense els cinc segons inicials d’identificació oral de la mostra, retallats abans de repetir-la. Ambient real de cuina de restaurant de SoundtasticPro, Freesound 484572, CC0. Fosa d’entrada i uns dos segons per situar-nos. Activitat natural de coberts, utensilis, talls i aparells al llarg de l’entrevista, molt baixa sota les veus i sense vincular els sons a les respostes. Després de l’última paraula, pujada de l’ambient durant dos o tres segons i fosa final. Sense sons de cuina sintetitzats ni sintonia de sortida. Conservar tota la presa de veu i el solapament existent.',
     factualSources: [{ label: 'Comissió Europea · planificar, revisar existències i ajustar racions', url: 'https://food.ec.europa.eu/system/files/2020-06/fw_lib_poster_reduce-food-waste-daily_en.pdf' }],
     illustrationBrief: 'Laia i Ona conversant en una cuina ordenada, sense aliments en mal estat, quantitats o menús llegibles.',
     transcript: [

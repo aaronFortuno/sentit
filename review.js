@@ -7,6 +7,9 @@ export const needsReview = entry => isPendingReview(entry) || isAudioReview(entr
 export function reviewScript(entry, labels, session) {
   const direction = text => ({ kind: 'direction', text });
   const opening = entry.introduction ? [{ speaker: labels.introduction, text: entry.introduction }] : [];
+  // Published materials contain speech only. Preserve the annotated source for
+  // production history and keep the full working script on provisional sheets.
+  if (!needsReview(entry)) return [...opening, ...(entry.transcript ?? []).filter(part => part.speaker && !part.kind)];
   if (!isPendingReview(entry)) {
     if (!entry.recordingCues) return [...opening, ...(entry.transcript ?? [])];
     const recorded=[];

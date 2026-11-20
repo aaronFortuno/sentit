@@ -89,6 +89,12 @@
     "validatedBy": "docent",
     "confirmation": "S003 queda validat i es pot publicar.",
     "audioSha256": "a0cadf740e032c69fd50d7fdd33f2fe59290c39dcf0d1e078e3f0145ece8367f",
-    "editorialFingerprint": "cbb297a7ce3af1c176b240e21a1750c9e0606d9ca8e8728434277f239ec05624"
+    "editorialFingerprint": "4cfc02620c695d97c424a2592a16b4837f1cd04f5038cb3e7e35ac97de4fc464"
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/el-paraigua-intercanviat-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-20",
+    "audioChanged": false
   }
 }

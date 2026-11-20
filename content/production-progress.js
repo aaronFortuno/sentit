@@ -1,4 +1,4 @@
-// Recorded production facts and exact teacher feedback; never implicit final approval.
+// Production stages are separate from editorial review and final listening approval.
 export const productionProgress = {
   "ca-S020": {
     "state": "montage-awaiting-listening",
@@ -150,8 +150,14 @@ export const productionProgress = {
     "validatedBy": "docent",
     "confirmation": "S004 es pot publicar definitivament.",
     "audioSha256": "780e096640722d8623d809b0319b76d579c271f1cc12143643ef071b860b15ad",
-    "editorialFingerprint": "30cb0049ef5dbe7b690435324030990ff0eb9cd58036d4becae0c0952b4db18e",
-    "listeningApproval": true
+    "editorialFingerprint": "0980fa81ff2f22d92cd3eaedb50afd1be5ab28c3bf824f74c093aa2825002e76",
+    "listeningApproval": true,
+    "publicationMaterials": {
+      "illustration": "./assets/images/el-boto-de-la-jaqueta-v1.webp",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-20",
+      "audioChanged": false
+    }
   },
   "ca-S004D": {
     "state": "published",
@@ -159,8 +165,14 @@ export const productionProgress = {
     "validatedBy": "docent",
     "confirmation": "S004D es pot publicar definitivament; música i muntatge validats.",
     "audioSha256": "0678719861a6354cf569771a2be73f5ca561ae1d086907e40a65a317d2e008c4",
-    "editorialFingerprint": "d405d1a01e308ff2d2c1681d76bcae677b0d30ded76872863f780cdd821aa2bf",
-    "listeningApproval": true
+    "editorialFingerprint": "1be7f144c88e86d65f69b5609f5c606d35cff4f8e2d74f2e7c2e76006297da8f",
+    "listeningApproval": true,
+    "publicationMaterials": {
+      "illustration": "./assets/images/el-boto-de-la-jaqueta-v1.webp",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-20",
+      "audioChanged": false
+    }
   },
   "ca-S012": {
     "state": "published",
@@ -201,10 +213,16 @@ export const productionProgress = {
     "validatedBy": "docent",
     "confirmation": "S012 validat per publicació definitiva.",
     "audioSha256": "00344e8635392d7cae9b1ab299521bc8544a091d569838d86ad06a7b20ba8b1c",
-    "editorialFingerprint": "0a0a32a1f21e43b0fe6856d19d8d1860cbc3e7b2dbdcecb478c321c6c24ce0d8"
+    "editorialFingerprint": "a9da00b02d5964289cc98025c52bb152aed5f6b8e474e2e3b8cbedb166dabc07",
+    "publicationMaterials": {
+      "illustration": "./assets/images/qui-arregla-els-instruments-v1.webp",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-20",
+      "audioChanged": false
+    }
   },
   "ca-S019": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "voiceValidation": {
       "approved": true,
       "validatedAt": "2026-11-20",
@@ -212,10 +230,26 @@ export const productionProgress = {
       "rawSha256": "725ae2c9b9284506445838935bcedba9a9ce433f94adc2fa8e7f702d29c41e2e",
       "sourceRequestHash": "a8924128e778e3dde6202ed8682fc6ea0ffa41cc569060d635aadd677508ecf8"
     },
-    "listeningApproval": false,
+    "listeningApproval": true,
     "montageRevision": "v2",
-    "teacherAssessment": "Veus validades; nou muntatge pendent d’audició.",
-    "newSynthesisRequests": 0
+    "teacherAssessment": "Muntatge validat amb la condició de retirar la identificació oral del fons. Cinc segons eliminats abans del bucle; resta de la peça i veus conservats.",
+    "newSynthesisRequests": 0,
+    "editorialFingerprint": "a0a3b10ae3307fd99971ac997f13c74d6a01596d2139b16e567f778b3d481b7f",
+    "validatedAt": "2026-11-20",
+    "validatedBy": "docent",
+    "confirmation": "Si pots modificar aquesta part del muntatge la resta és perfecta i ho validem com a publicació definitiva.",
+    "condition": {
+      "type": "remove-recording-slate-before-loop",
+      "trimSeconds": 5,
+      "applied": true
+    },
+    "audioSha256": "a1942e18c8165e589e2a56ebad412bd8dd2a78da6c337bc3481e51ab37166018",
+    "publicationMaterials": {
+      "illustration": "./assets/images/una-cuinera-que-no-vol-llencar-menjar-v1.webp",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-20",
+      "audioChanged": "Only removal of recording slate before ambience looping; voice preserved"
+    }
   },
   "ca-S003": {
     "state": "published",
@@ -223,8 +257,14 @@ export const productionProgress = {
     "validatedBy": "docent",
     "confirmation": "S003 queda validat i es pot publicar.",
     "audioSha256": "a0cadf740e032c69fd50d7fdd33f2fe59290c39dcf0d1e078e3f0145ece8367f",
-    "editorialFingerprint": "cbb297a7ce3af1c176b240e21a1750c9e0606d9ca8e8728434277f239ec05624",
-    "listeningApproval": true
+    "editorialFingerprint": "4cfc02620c695d97c424a2592a16b4837f1cd04f5038cb3e7e35ac97de4fc464",
+    "listeningApproval": true,
+    "publicationMaterials": {
+      "illustration": "./assets/images/el-paraigua-intercanviat-v1.webp",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-20",
+      "audioChanged": false
+    }
   },
   "ca-S005": {
     "state": "audio-corrections-pending",
@@ -277,7 +317,41 @@ export const productionProgress = {
     "validatedBy": "docent",
     "confirmation": "S018 queda validat per publicació definitiva.",
     "audioSha256": "3e31510ff19626f43fd0b20cccf6a9b9b2ebb38ae4ae175ae399115d535bc2e7",
-    "editorialFingerprint": "7f77f3bb9a6389d482ed82fe5198e368a31ed8b17b3b69f8c91c4c927a538c9a",
+    "editorialFingerprint": "3600ec0b646cc218e3d5caf2e3bf7f2235b983ad106f100635bf9a4002bfe0a8",
+    "listeningApproval": true,
+    "publicationMaterials": {
+      "illustration": "./assets/images/la-clau-de-l-armari-verd-v1.webp",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-20",
+      "audioChanged": false
+    }
+  },
+  "ca-S008R": {
+    "state": "published",
+    "validatedAt": "2026-11-20",
+    "validatedBy": "docent",
+    "confirmation": "S008R també validat per publicació definitiva.",
+    "audioSha256": "804487e0bfffdc6d64ed15050ae3f9885b1eeb1082dd27ed1c00946a67754837",
+    "editorialFingerprint": "a2792c44d38acdb0ccff3c9e4d6b2aeb9b94880c4256697a1f535d1fa66fac69",
     "listeningApproval": true
+  },
+  "ca-S023": {
+    "state": "audio-corrections-pending",
+    "feedbackAt": "2026-11-20",
+    "feedback": [
+      {
+        "part": "tancament",
+        "word": "suggeriments",
+        "heard": "suggerements o suggeraments",
+        "kind": "synthesis-artifact",
+        "status": "pending"
+      }
+    ],
+    "teacherAssessment": "La resta de la locució està ben valorada. Corregir suggeriments; nou muntatge amb Ona curta i mercat real baix sota l’entrevista. Pendent de validar després de l’esmena.",
+    "plannedNewRequests": 0,
+    "listeningApproval": false,
+    "repairPlan": "content/audio-repairs.json",
+    "jingleStatus": "approved-pair-remounted-pending-listening",
+    "editorialFingerprint": "ded73b9e363961f5bd81ba22686b8d31f05cd5806249aa91e2771005718be2a2"
   }
 };

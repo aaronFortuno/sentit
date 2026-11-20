@@ -73,7 +73,6 @@
         </form>
       </details>
       </div>
-      <a id="compare-jingles" class="catalog-review-link" href="./proves/sintonies-mireia.html" target="_blank" rel="noopener noreferrer" data-t="compareJingles">Compara les sintonies</a>
       <details id="collection-panel" class="catalog-collections" open>
         <summary data-t="collections">Col·leccions</summary>
         <p id="collection-help" class="collection-help"></p>
@@ -159,10 +158,11 @@
                   <label class="jingle-option"><input id="audio-jingle" type="checkbox" checked><span class="sr-only" data-t="jingle">Sintonia inicial</span></label>
                   <label class="jingle-choice"><span class="sr-only" data-t="jingleChoice">Tria la sintonia</span><select id="audio-jingle-choice"></select></label>
                 </div>
-                <a class="jingle-compare" href="./proves/sintonies-mireia.html" target="_blank" rel="noopener noreferrer" data-t="compareJingles">Compara les sintonies</a>
+                <button type="button" id="compare-jingles" class="jingle-compare text-button" data-t="compareJingles">Compara les sintonies</button>
               </section>
             </form>
             <details class="audio-preview"><summary data-t="audioPreview">Escolta el fragment</summary><audio id="teacher-audio" controls preload="none" data-label="audio"></audio></details>
+            <button type="button" id="preview-session" class="button session-preview-launch"><span data-icon="play" aria-hidden="true"></span><span data-t="previewSession">Prova la sessió completa</span></button>
           </div>
           <p id="audio-empty" class="empty" data-t="noAudio">Tria una activitat per escoltar-la.</p>
 
@@ -270,12 +270,25 @@
       <nav aria-label="Projecte" data-label="project">
         <label class="provisional-option footer-provisional" title="Funció experimental"><input id="show-provisional" type="checkbox" role="switch" checked><span data-t="showProvisionalExperimental">Provisionals · experimental</span></label>
         <a href="./LICENSE" data-t="license">Llicència</a>
-        <button type="button" data-open="changes" data-label="changes">v0.1.47</button>
+        <button type="button" data-open="changes" data-label="changes">v0.1.49</button>
         <button type="button" data-open="v4v">V4V</button>
       </nav>
     </div>
   </footer>
 
+  <dialog id="jingles-dialog" class="audio-dialog" aria-labelledby="jingles-title">
+    <div class="dialog-content"><div class="dialog-head"><h2 id="jingles-title" data-t="compareJingles">Compara les sintonies</h2><form method="dialog"><button type="submit" class="icon-button" data-label="close"><span data-icon="close" aria-hidden="true"></span></button></form></div><div id="jingles-list" class="dialog-scroll jingle-pairs"></div></div>
+  </dialog>
+  <dialog id="session-preview-dialog" class="audio-dialog session-preview-dialog" aria-labelledby="session-preview-title">
+    <div class="dialog-content"><div class="dialog-head"><h2 id="session-preview-title" data-t="previewSession">Prova la sessió completa</h2><form method="dialog"><button type="submit" class="icon-button" data-label="close"><span data-icon="close" aria-hidden="true"></span></button></form></div>
+      <p id="session-preview-context" class="small"></p>
+      <label class="preview-skip"><input id="preview-skip-pauses" type="checkbox" checked><span data-t="skipPreviewWaits">Salta les pauses d’espera</span></label>
+      <p class="small" data-t="previewWaitsHint">Només afecta aquesta prova; l’enllaç de l’alumnat conserva els temps que has triat.</p>
+      <button id="preview-session-play" class="button primary" type="button"><span data-icon="play" aria-hidden="true"></span><span id="preview-session-label"></span></button>
+      <p id="preview-session-status" role="status"></p><p id="preview-session-countdown" class="session-countdown" role="timer" hidden></p>
+      <button id="preview-session-skip" type="button" class="text-button" data-t="skipCurrentWait" hidden>Salta aquesta pausa</button>
+    </div>
+  </dialog>
   <dialog id="characters-dialog" class="character-dialog" aria-labelledby="characters-title">
     <div class="dialog-content"><div class="dialog-head"><h2 id="characters-title" data-t="meetCharacters">Coneix els personatges</h2><form method="dialog"><button type="submit" class="icon-button" data-label="close"><span data-icon="close" aria-hidden="true"></span></button></form></div><div id="dialog-character-explorer" class="character-explorer"></div></div>
   </dialog>
@@ -313,6 +326,10 @@
       </div>
       <a class="changelog-full" href="https://github.com/aaronFortuno/sentit/blob/main/CHANGELOG.md" target="_blank" rel="noopener noreferrer" data-t="fullChangelog">Changelog complet a GitHub</a>
       <div class="changelog-scroll dialog-scroll">
+      <h3>0.1.49 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
+      <p data-t="releasePublicationMaterials"></p>
+      <h3>0.1.48 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
+      <p data-t="releasePublishedRadio"></p>
       <h3>0.1.47 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
       <p data-t="releasePrintGroups"></p>
       <h3>0.1.46 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>

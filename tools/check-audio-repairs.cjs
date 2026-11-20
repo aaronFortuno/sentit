@@ -25,5 +25,7 @@ const {buildBatch}=require('./audio-repair-batches.cjs');
  assert.throws(()=>assertDailyRoom(ten,now),/deu/);assert.equal(assertDailyRoom(ten.slice(1),now),9);
  assert.equal(assertDailyRoom(ten,new Date('2026-11-21T08:00:01Z')),0);
  assert.equal(await fs.readFile(logFile,'utf8'),before,'Planning and guard checks never send or reserve a request');
- console.log('PASS · Eight exact repair fragments in four frozen batches of at most two voices, canonical text/raw identities, long pauses, mutation guards and daily quota boundary. No API calls.');
+ const count=Object.values(plans).reduce((n,p)=>n+p.repairs.length,0);assert.equal(count,9);
+ const r3=buildBatch(activities,plans,batches.find(b=>b.id==='R03'));assert.equal(Object.keys(r3.voices).length,2);assert.equal(r3.fragments.find(f=>f.code==='S023').sourceSpeaker,'Presentadora');assert.equal(r3.fragments.find(f=>f.code==='S023').speaker,r3.fragments.find(f=>f.code==='S016').speaker);
+ console.log('PASS · Nine exact repair fragments in four frozen batches of at most two voices, source speaker aliases, canonical text/raw identities, long pauses, mutation guards and daily quota boundary. No API calls.');
 })().catch(error=>{console.error(error);process.exitCode=1;});

@@ -1,15 +1,15 @@
 {
   "code": "S019",
   "activity": "ca-S019",
-  "date": "2026-11-20T16:09:05.574Z",
-  "state": "awaiting-montage-validation",
+  "date": "2026-11-20T20:09:48.081Z",
+  "state": "published",
   "model": "gemini-3.8-flash-tts",
   "voices": {
     "Laia": "Leda",
     "Ona": "Sulafat"
   },
   "newSynthesisRequests": 1,
-  "approvalFingerprint": "11977fa5c579edaf15d859b80e5fa11df7afe22e103f4b00b3ffeee7c3812941",
+  "approvalFingerprint": "41873e799f9f4ca538cb42c03a784a37c4d40bea5f349752a9869b8be8a6ca42",
   "requestHash": "a8924128e778e3dde6202ed8682fc6ea0ffa41cc569060d635aadd677508ecf8",
   "rawSha256": "725ae2c9b9284506445838935bcedba9a9ce433f94adc2fa8e7f702d29c41e2e",
   "usage": {
@@ -41,9 +41,9 @@
     "peakDbFS": -51.9,
     "rawSamplesPreserved": true
   },
-  "file": "s019-cuinera-v2.mp3",
-  "introFile": "s019-cuinera-v2-intro.mp3",
-  "bodyFile": "s019-cuinera-v2-cos.mp3",
+  "file": "s019-cuinera-v3.mp3",
+  "introFile": "s019-cuinera-v3-intro.mp3",
+  "bodyFile": "s019-cuinera-v3-cos.mp3",
   "offset": 4.5,
   "bodyDuration": 112.89,
   "fullDuration": 117.39,
@@ -81,14 +81,19 @@
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
       "retimed": false,
       "pitchShifted": false,
-      "sourceDuration": 72.096,
+      "sourceExcerpt": {
+        "start": 5,
+        "end": 72.096
+      },
+      "trimmedBeforeLoop": true,
+      "sourceDuration": 67.096,
       "passes": 2,
       "crossfadeSeconds": 1,
       "sourceNormalization": "-25 LUFS target; -12 dBFS peak ceiling",
-      "speechWindowMeanDbFS": -48.4,
+      "speechWindowMeanDbFS": -47.6,
       "speechWindowPeakDbFS": -32,
       "speechWindowVoiceMeanDbFS": -19.3,
-      "speechWindowMarginDb": 29.099999999999998,
+      "speechWindowMarginDb": 28.3,
       "envelope": {
         "fadeIn": {
           "start": 0,
@@ -116,11 +121,11 @@
       "listeningValidation": "pending"
     }
   ],
-  "sha256": "47f572613bed9eac9d5fac6057b940eea3df39a322a9a5e4d35fd626702a0637",
+  "sha256": "a1942e18c8165e589e2a56ebad412bd8dd2a78da6c337bc3481e51ab37166018",
   "montageNewSynthesisRequests": 0,
   "previousMaster": {
-    "file": "s019-cuinera-v1.mp3",
-    "sha256": "20df9228b18a6df1807bf87ade49be30846cdd92be6342abba7d0c31e389a98b"
+    "file": "s019-cuinera-v2.mp3",
+    "sha256": "47f572613bed9eac9d5fac6057b940eea3df39a322a9a5e4d35fd626702a0637"
   },
   "voiceValidation": {
     "approved": true,
@@ -128,5 +133,24 @@
     "validatedBy": "docent",
     "rawSha256": "725ae2c9b9284506445838935bcedba9a9ce433f94adc2fa8e7f702d29c41e2e",
     "sourceRequestHash": "a8924128e778e3dde6202ed8682fc6ea0ffa41cc569060d635aadd677508ecf8"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-20",
+    "validatedBy": "docent",
+    "confirmation": "Si pots modificar aquesta part del muntatge la resta és perfecta i ho validem com a publicació definitiva.",
+    "condition": {
+      "type": "remove-recording-slate-before-loop",
+      "trimSeconds": 5,
+      "applied": true
+    },
+    "audioSha256": "a1942e18c8165e589e2a56ebad412bd8dd2a78da6c337bc3481e51ab37166018",
+    "editorialFingerprint": "a0a3b10ae3307fd99971ac997f13c74d6a01596d2139b16e567f778b3d481b7f",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/una-cuinera-que-no-vol-llencar-menjar-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-20",
+    "audioChanged": "Only removal of recording slate before ambience looping; voice preserved"
   }
 }

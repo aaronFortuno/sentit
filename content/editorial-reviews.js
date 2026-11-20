@@ -3,20 +3,20 @@ export const editorialReviews = {
   "ca-S003": {
     "status": "passed",
     "reviewedAt": "2026-11-20",
-    "reviewer": "revisor-coherencia-independent",
-    "fingerprint": "cbb297a7ce3af1c176b240e21a1750c9e0606d9ca8e8728434277f239ec05624"
+    "reviewer": "revisor_coherencia",
+    "fingerprint": "4cfc02620c695d97c424a2592a16b4837f1cd04f5038cb3e7e35ac97de4fc464"
   },
   "ca-S004": {
     "status": "passed",
     "reviewedAt": "2026-11-20",
-    "reviewer": "revisor-coherencia-independent",
-    "fingerprint": "30cb0049ef5dbe7b690435324030990ff0eb9cd58036d4becae0c0952b4db18e"
+    "reviewer": "revisor_coherencia",
+    "fingerprint": "0980fa81ff2f22d92cd3eaedb50afd1be5ab28c3bf824f74c093aa2825002e76"
   },
   "ca-S004D": {
     "status": "passed",
     "reviewedAt": "2026-11-20",
-    "reviewer": "revisor-coherencia-independent",
-    "fingerprint": "d405d1a01e308ff2d2c1681d76bcae677b0d30ded76872863f780cdd821aa2bf"
+    "reviewer": "revisor_coherencia",
+    "fingerprint": "1be7f144c88e86d65f69b5609f5c606d35cff4f8e2d74f2e7c2e76006297da8f"
   },
   "ca-S005": {
     "status": "passed",
@@ -57,8 +57,8 @@ export const editorialReviews = {
   "ca-S012": {
     "status": "passed",
     "reviewedAt": "2026-11-20",
-    "reviewer": "revisor-coherencia-independent",
-    "fingerprint": "0a0a32a1f21e43b0fe6856d19d8d1860cbc3e7b2dbdcecb478c321c6c24ce0d8"
+    "reviewer": "revisor_coherencia",
+    "fingerprint": "a9da00b02d5964289cc98025c52bb152aed5f6b8e474e2e3b8cbedb166dabc07"
   },
   "ca-S013": {
     "status": "passed",
@@ -87,14 +87,14 @@ export const editorialReviews = {
   "ca-S018": {
     "status": "passed",
     "reviewedAt": "2026-11-20",
-    "reviewer": "revisor-coherencia-independent",
-    "fingerprint": "7f77f3bb9a6389d482ed82fe5198e368a31ed8b17b3b69f8c91c4c927a538c9a"
+    "reviewer": "revisor_coherencia",
+    "fingerprint": "3600ec0b646cc218e3d5caf2e3bf7f2235b983ad106f100635bf9a4002bfe0a8"
   },
   "ca-S019": {
     "status": "passed",
     "reviewedAt": "2026-11-20",
-    "reviewer": "revisor-coherencia-independent",
-    "fingerprint": "2e4cb0633f37f02ffe42590c1854b982b7499b19fcb24bfe1fbdb03f05a81b6c"
+    "reviewer": "revisor_coherencia",
+    "fingerprint": "a0a3b10ae3307fd99971ac997f13c74d6a01596d2139b16e567f778b3d481b7f"
   },
   "ca-S020": {
     "status": "passed",
@@ -117,8 +117,8 @@ export const editorialReviews = {
   "ca-S023": {
     "status": "passed",
     "reviewedAt": "2026-11-20",
-    "reviewer": "revisor-coherencia-independent",
-    "fingerprint": "5dc838ff88693e158c2bf6ceb51560440cfa6559172c5528fe1136c332f0a436"
+    "reviewer": "revisor_coherencia",
+    "fingerprint": "ded73b9e363961f5bd81ba22686b8d31f05cd5806249aa91e2771005718be2a2"
   },
   "ca-S024": {
     "status": "passed",
@@ -131,5 +131,11 @@ export const editorialReviews = {
     "reviewedAt": "2026-11-20",
     "reviewer": "revisor-coherencia-independent",
     "fingerprint": "3ce87617ce96e82c39655ecda0a2dc2361e7a54397b5dd12f82d9316a63432ef"
+  },
+  "ca-S008R": {
+    "status": "passed",
+    "reviewedAt": "2026-11-20",
+    "reviewer": "revisor-coherencia-independent",
+    "fingerprint": "a2792c44d38acdb0ccff3c9e4d6b2aeb9b94880c4256697a1f535d1fa66fac69"
   }
 };

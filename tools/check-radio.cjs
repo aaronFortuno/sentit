@@ -6,6 +6,9 @@ const {packedRadioRequest,spec}=require('./radio-production.cjs');const {fingerp
   const {fotoRadio:entry}=await import('../content/la-foto-que-faltava-radio.js');const {restauradora}=await import('../content/una-restauradora-ens-explica-el-seu-ofici.js');
   const {packedInterviewRequest}=require('./interview-production.cjs');
   const report=require('../assets/audio/s008r-production-manifest.json'),plans=require('../content/production-plans.json');
+  await import('../catalogue.js');
+  const {productionProgress}=await import('../content/production-progress.js'),{isEditoriallyReviewed,editorialFingerprint}=await import('../editorial-review.js');
+  assert.equal(entry.reviewStatus,'validated');assert.equal(entry.status,'published');assert.equal(report.state,'published');assert(isEditoriallyReviewed(entry));assert.equal(productionProgress['ca-S008R'].audioSha256,report.sha256);assert.equal(productionProgress['ca-S008R'].editorialFingerprint,await editorialFingerprint(entry));assert.equal(report.teacherValidation.listeningApproval,true);
   assert.equal(report.newSynthesisRequests,1);assert.equal(report.approvalFingerprint,fingerprint(entry,spec,plans.S008R));
   assert.equal(report.usage.total_input_tokens,513);assert.equal(report.usage.total_output_tokens,2373);
   const body=packedRadioRequest(entry);assert.equal(body.input[0].content.length,1);

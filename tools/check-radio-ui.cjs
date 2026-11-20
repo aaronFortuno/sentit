@@ -9,14 +9,14 @@ const {chromium}=require('C:/Users/afortun8/.cache/codex-runtimes/codex-primary-
   page.on('pageerror',error=>errors.push(error.message));await page.route('**/*',route=>new URL(route.request().url()).origin==='http://127.0.0.1:4250'?route.continue():route.abort());
   await page.goto('http://127.0.0.1:4250/#lectura=ca-S008R');await page.locator('#open-player').waitFor();
   assert.equal(await page.locator('#print').isEnabled(),true);
-  assert.match(await page.locator('.paper-review-watermark').first().innerText(),/Àudio pendent de validar/);
+  assert.equal(await page.locator('.paper-review-watermark').count(),0);assert.equal(await page.locator('#worksheet-mode').getAttribute('aria-pressed'),'true');
   await page.locator('#worksheet-mode').click();
   assert.equal(await page.locator('.paper-qr').count(),1);assert.equal(await page.locator('#generation-plan').isHidden(),true);
   assert.match(await page.locator('#activity-meta').innerText(),/1:40/);
   await page.evaluate(()=>Promise.all(document.getAnimations().map(a=>a.finished.catch(()=>{}))));
   await page.screenshot({path:path.join(output,'worksheet.png')});await page.pdf({path:path.join(output,'fitxa.pdf'),preferCSSPageSize:true,printBackground:true});
   await page.locator('#answers-mode').click();assert.equal(await page.locator('.paper-answer-label').count(),6);
-  assert.equal(await page.locator('.paper-evidence-cue').count(),5);assert.equal(await page.locator('.paper-sound-cue').count(),4);
+  assert.equal(await page.locator('.paper-evidence-cue').count(),5);assert.equal(await page.locator('.paper-sound-cue').count(),0);
   const text=await page.locator('#paper').innerText();assert(text.includes('Benvingudes i benvinguts'));assert(text.includes('Ens retrobem al pròxim programa.'));
   assert(!text.includes('S008R-T02'));assert(!text.includes('Presa existent amb Aoede'));
   await page.pdf({path:path.join(output,'solucionari.pdf'),preferCSSPageSize:true,printBackground:true});

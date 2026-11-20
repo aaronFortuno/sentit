@@ -220,7 +220,13 @@
     "validatedBy": "docent",
     "confirmation": "S012 validat per publicació definitiva.",
     "audioSha256": "00344e8635392d7cae9b1ab299521bc8544a091d569838d86ad06a7b20ba8b1c",
-    "editorialFingerprint": "0a0a32a1f21e43b0fe6856d19d8d1860cbc3e7b2dbdcecb478c321c6c24ce0d8",
+    "editorialFingerprint": "a9da00b02d5964289cc98025c52bb152aed5f6b8e474e2e3b8cbedb166dabc07",
     "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/qui-arregla-els-instruments-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-20",
+    "audioChanged": false
   }
 }

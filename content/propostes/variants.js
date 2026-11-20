@@ -7,6 +7,7 @@ export const proposedVariants = [
     audio: './assets/audio/s004d-boto-dialogat-v1.mp3', tracks: { introduction: './assets/audio/s004d-boto-dialogat-v1-intro.mp3', body: './assets/audio/s004d-boto-dialogat-v1-cos.mp3' },
     fragment: { start: 5.35, seconds: 88 },
     summary: 'L’Aina explica com va buscar el botó de la jaqueta amb l’avi Ferran, entre un primer engany i un record útil.',
+    image: { src: './assets/images/el-boto-de-la-jaqueta-v1.webp', alt: "L’Aina conversa amb l’avi Ferran a casa, amb una jaqueta al braç.", width: 1536, height: 1024 },
     voices: { Aina: 'Zephyr', Ferran: 'Algenib' },
     delivery: 'Aina narra en primera persona i també parla directament amb l’avi: veu clara i curiosa, sense imitar una nena petita. Ferran, adult gran afectuós i reposat, pregunta i acompanya sense resoldre la recerca; textura natural, sense caricatura de veu envellida. Distingir el record narrat de les intervencions directes amb una intenció lleu, no amb una veu nova. Frases entenedores per a 3r, conversa natural i pauses breus. Zephyr i Algenib són veus candidates pendents d’audició en català.',
     editorialFocus: 'Variant dialogada de S004 per comparar amb l’original narratiu, que es conserva. 3r intermèdia: reconstruir la recerca i separar una semblança d’una pista que connecta amb el que ha passat. Mateixes sis exigències de comprensió, amb narració en primera persona i dos referents auditius; cap tercera veu.',
