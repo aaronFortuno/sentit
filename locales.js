@@ -1,6 +1,7 @@
 export const strings = {
   ca: {
     language: 'ca',
+    releaseDescriptiveUniverses: "Els noms dels universos expliquen millor què hi trobarem: descobertes, records i misteris, explicacions i projectes, i notícies. Noms actualitzats als filtres, les cards i les fitxes.",
     releaseCompactCatalogue: "Catàleg sense la franja del títol: cerca al header, recompte compacte al costat de Filtres i accés als personatges només amb icona. Més espai vertical per a les cards i el sidebar, amb capçalera adaptada a mòbil.",
     releaseCatalogueUniverses: "Recompte de comprensions disponibles a la capçalera, opció persistent per mostrar els provisionals i quatre universos editorials amb filtre i etiquetes a cards i fitxes. Les peces continuen sent autònomes i no es modifiquen guions ni àudios.",
     showProvisional: "Mostra els provisionals",
@@ -201,6 +202,7 @@ export const strings = {
   },
   es: {
     language: 'es',
+    releaseDescriptiveUniverses: "Los nombres de los universos explican mejor qué encontraremos: descubrimientos, recuerdos y misterios, explicaciones y proyectos, y noticias. Nombres actualizados en filtros, tarjetas y fichas.",
     releaseCompactCatalogue: "Catálogo sin la franja del título: búsqueda en la cabecera, contador compacto junto a Filtros y acceso a personajes solo con icono. Más espacio vertical para las tarjetas y el panel, con cabecera adaptada a móvil.",
     releaseCatalogueUniverses: "Recuento de comprensiones disponibles en la cabecera, opción persistente para mostrar los provisionales y cuatro universos editoriales con filtro y etiquetas en tarjetas y fichas. Las piezas siguen siendo autónomas y no se modifican guiones ni audios.",
     showProvisional: "Muestra los provisionales",

@@ -1,5 +1,9 @@
 # Canvis
 
+## 0.1.41 · 20 de novembre de 2026
+
+- Universos amb noms més descriptius: «Les descobertes de la Laia i en Biel», «Els records i misteris de l’Aina i l’avi Ferran», «Les explicacions i els projectes de la Mireia» i «Les notícies de la Mar». Actualitzats en català i castellà, als filtres, les cards, la fitxa i la documentació.
+
 ## 0.1.40 · 20 de novembre de 2026
 
 - Recompte global dels materials sense revisió pendent a la capçalera: «2 comprensions orals per a la teva aula». Retirat l’indicador al costat de netejar filtres.

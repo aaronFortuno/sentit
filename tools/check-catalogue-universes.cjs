@@ -29,7 +29,7 @@ const base='http://127.0.0.1:4258/',key='sentit.catalogue.show-provisional.v1';
   const other=await context.newPage();await other.goto(base);await other.locator('.activity-card').first().waitFor();assert.equal(await other.locator('#show-provisional').isChecked(),false);
   await toggle.check();await other.waitForFunction(()=>document.querySelector('#show-provisional').checked);await page.locator('#reset-filters').click();assert.equal((await codes()).length,activities.length);
   await page.locator('#language').evaluate(n=>{n.value='es';n.dispatchEvent(new Event('change',{bubbles:true}));});assert.match(await page.locator('#catalog-count').innerText(),/2 comprensiones orales para tu aula/);
-  assert.match(await page.locator('#universe').innerText(),/Con Mireia/);assert.equal(await toggle.isChecked(),true);
+  assert.match(await page.locator('#universe').innerText(),/Las explicaciones y los proyectos de Mireia/);assert.equal(await toggle.isChecked(),true);
   await page.screenshot({path:path.join(out,'desktop.png')});
   for(const width of [900,640,320]){await page.setViewportSize({width,height:800});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);const count=await page.locator('#catalog-count').boundingBox(),brand=await page.locator('.brand').boundingBox(),actions=await page.locator('.top-actions').boundingBox();assert(count.x+count.width<=actions.x||count.y>=actions.y+actions.height);assert(count.y>=brand.y);}
   await page.screenshot({path:path.join(out,'mobile.png')});

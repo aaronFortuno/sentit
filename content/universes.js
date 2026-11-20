@@ -3,19 +3,19 @@
 export const universes = [
   {
     id: 'laia-biel',
-    name: { ca: 'Laia i Biel', es: 'Laia y Biel' },
+    name: { ca: 'Les descobertes de la Laia i en Biel', es: 'Los descubrimientos de Laia y Biel' },
     description: { ca: 'Descobertes, entrevistes i projectes dels dos joves, junts o per separat.', es: 'Descubrimientos, entrevistas y proyectos de los dos jóvenes, juntos o por separado.' },
     activities: ['ca-S001','ca-S003','ca-S005','ca-S007','ca-S010','ca-S011','ca-S012','ca-S014','ca-S015','ca-S017','ca-S019','ca-S021','ca-S024'],
   },
   {
     id: 'aina-ferran',
-    name: { ca: 'L’Aina i l’avi Ferran', es: 'Aina y el abuelo Ferran' },
+    name: { ca: 'Els records i misteris de l’Aina i l’avi Ferran', es: 'Los recuerdos y misterios de Aina y el abuelo Ferran' },
     description: { ca: 'Petits misteris, fotografies i records familiars de l’Aina i el seu avi.', es: 'Pequeños misterios, fotografías y recuerdos familiares de Aina y su abuelo.' },
     activities: ['ca-S004','ca-S004D','ca-S008','ca-S008R','ca-S018','ca-S022'],
   },
   {
     id: 'amb-mireia',
-    name: { ca: 'Amb la Mireia', es: 'Con Mireia' },
+    name: { ca: 'Les explicacions i els projectes de la Mireia', es: 'Las explicaciones y los proyectos de Mireia' },
     description: { ca: 'Explicacions, experiments i projectes guiats per la Mireia.', es: 'Explicaciones, experimentos y proyectos guiados por Mireia.' },
     activities: ['ca-S002','ca-S007','ca-S011','ca-S013','ca-S014','ca-S017','ca-S020','ca-S021'],
   },
