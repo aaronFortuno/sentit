@@ -93,7 +93,6 @@
 .activity-card:has(:focus-visible) { outline: 2px solid var(--focus); outline-offset: 3px; }
 .catalog-selection { display: flex; align-items: center; gap: 10px 18px; flex-wrap: wrap; padding: 12px 15px; margin-bottom: 12px; background: var(--soft); border-radius: 9px; font-size: .85rem; }
 .catalog-selection .button { margin-inline-start: auto; font-size: .85rem; }
-#catalog-more { margin: 20px auto 0; }
 #catalog-status:not(:empty), #layout-status:not(:empty) { margin-top: 10px; }
 .dialog-content form:not([method="dialog"]) { display: grid; gap: 14px; margin-top: 18px; }
 .dialog-content form label { display: grid; gap: 5px; font-size: .88rem; }

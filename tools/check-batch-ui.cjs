@@ -12,8 +12,9 @@ const {chromium}=require('C:/Users/afortun8/.cache/codex-runtimes/codex-primary-
   await page.route('**/*',route=>{if(new URL(route.request().url()).origin===new URL(base).origin)return route.continue();remote.push(route.request().url());return route.abort();});
   await page.goto(base);await page.locator('.activity-card').first().waitFor();
   assert.match(await page.locator('#catalog-count').innerText(),/25/);assert.equal(await page.locator('.activity-card').count(),12);
-  await page.locator('#catalog-more').click();assert.equal(await page.locator('.activity-card').count(),24);
-  await page.locator('#catalog-more').click();assert.equal(await page.locator('.activity-card').count(),25);
+  const bottom=()=>page.locator('.catalog-results-scroll').evaluate(node=>{node.scrollTop=node.scrollHeight;node.dispatchEvent(new Event('scroll'));});
+  await bottom();await page.waitForFunction(()=>document.querySelectorAll('.activity-card').length===20);
+  await bottom();await page.waitForFunction(()=>document.querySelectorAll('.activity-card').length===25);
   assert.equal(await page.locator('.activity-review-overlay').count(),20);
   for(const grade of ['3','4','5','6']){await page.locator('#grade').selectOption(grade);const count=grade==='4'?7:6;assert.equal(await page.locator('.activity-card').count(),count);}
   await page.locator('#reset-filters').click();await page.locator('#genre').selectOption('explanation');assert.equal(await page.locator('.activity-card').count(),4);

@@ -38,7 +38,7 @@ function waveFixture() {
     page.on('pageerror', error => errors.push(error.message));
     page.on('request', request => { if (/generativelanguage|texttospeech|tts\.speech/i.test(request.url())) synthesis.push(request.url()); });
     await page.route('**/*', route => new URL(route.request().url()).hostname === '127.0.0.1' ? route.continue() : route.abort());
-    const codes = () => page.locator('.activity-card-code').allTextContents().then(rows => rows.map(row => row.split(' · ')[0]));
+    const codes = () => page.locator('.activity-card-code').allTextContents().then(rows => rows.map(row => row.split(' · ')[0]).sort());
     const chip = id => page.locator(`[data-filter-character="${id}"]`);
     const roster = id => page.locator(`#dialog-character-explorer [data-character="${id}"]`);
     const open = async () => { await page.locator('#meet-characters').click(); await page.locator('#characters-dialog').waitFor({ state: 'visible' }); };
