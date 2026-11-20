@@ -1,0 +1,78 @@
+{
+  "code": "S013",
+  "activity": "ca-S013",
+  "date": "2026-11-20T07:39:08.438Z",
+  "state": "awaiting-audio-validation",
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "Mireia": "Aoede"
+  },
+  "newSynthesisRequests": 1,
+  "approvalFingerprint": "a4cb701f5791cdcdd5d9ba6f83acb3256d87f5c7d1b038a72e84564bfd35046c",
+  "requestHash": "429cc31cdf988e418c06565135b5476caa42030cd472be38afba5dec05aef6f8",
+  "rawSha256": "37fe6368197b31f9d3d6a8bafedc0c858426c23bd2dd4f6ef6f1278d7cbfb473",
+  "usage": {
+    "total_tokens": 4067,
+    "total_input_tokens": 595,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 595
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 3472,
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 3472
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 0,
+    "initial_input_tokens": 595
+  },
+  "rawDuration": 138.88,
+  "cut": {
+    "at": 4.11,
+    "previousWordEnd": 3.45,
+    "nextWordStart": 4.77,
+    "peakDbFS": -57.8,
+    "rawSamplesPreserved": true
+  },
+  "file": "s013-carta-v1.mp3",
+  "introFile": "s013-carta-v1-intro.mp3",
+  "bodyFile": "s013-carta-v1-cos.mp3",
+  "offset": 4.66,
+  "bodyDuration": 139.07,
+  "fullDuration": 143.73,
+  "lufs": -19.5,
+  "peakDbTP": -2.9,
+  "voice": {
+    "bodyLead": 1.1,
+    "bodyRawDuration": 134.76999999999998,
+    "untrimmedApartFromSilenceSplit": true,
+    "retimed": false
+  },
+  "effects": [
+    {
+      "name": "envelope-opening",
+      "start": 0,
+      "end": 0.65,
+      "origin": "original-procedural"
+    },
+    {
+      "name": "sorting-to-delivery",
+      "start": 82.14,
+      "end": 82.59,
+      "origin": "original-procedural"
+    },
+    {
+      "name": "two-note-ending",
+      "start": 136.26999999999998,
+      "end": 138.06999999999996,
+      "origin": "original-procedural"
+    }
+  ],
+  "sha256": "6d2e2f143b5dbacbe7c35695bb87e4ec4c93667736b50d79b0f91e59a1c5fdc5"
+}

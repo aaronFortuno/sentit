@@ -18,9 +18,9 @@ const {chromium}=require('C:/Users/afortun8/.cache/codex-runtimes/codex-primary-
   const first=await ids(),node=await page.locator('.activity-card').first().elementHandle();await node.focus();
   await bottom();await page.waitForFunction(()=>document.querySelectorAll('.activity-card').length===20);
   assert.deepEqual((await ids()).slice(0,12),first);assert.equal(await node.evaluate(el=>el.isConnected&&document.activeElement===el),true);
-  await bottom();await page.waitForFunction(()=>document.querySelectorAll('.activity-card').length===25);
+  await bottom();await page.waitForFunction(total=>document.querySelectorAll('.activity-card').length===total,all.length);
   const full=await ids();assert.equal(new Set(full).size,all.length);assert.deepEqual([...full].sort(),[...all].sort());
-  await bottom();await page.waitForTimeout(80);assert.equal((await ids()).length,25);
+  await bottom();await page.waitForTimeout(80);assert.equal((await ids()).length,all.length);
   const source=await page.evaluate(async()=>{const {activities}=await import('./catalogue.js');return activities.map(entry=>entry.id);});assert.deepEqual(source,all,'Display shuffle never mutates catalogue data');
   await page.locator('#grade').selectOption('3');assert.deepEqual(await ids(),full.filter(id=>activities.find(entry=>entry.id===id).grade==='3'));
   await page.locator('#reset-filters').click();assert.deepEqual(await ids(),first);
@@ -33,9 +33,9 @@ const {chromium}=require('C:/Users/afortun8/.cache/codex-runtimes/codex-primary-
   // Keyboard scrolling and filling a tall viewport use the same loader.
   await page.locator('.catalog-results-scroll').focus();await page.keyboard.press('End');await page.waitForFunction(()=>document.querySelectorAll('.activity-card').length===20);
   await page.locator('#collection-select').selectOption('');await page.setViewportSize({width:2000,height:4000});
-  await page.waitForFunction(()=>document.querySelectorAll('.activity-card').length===25);
+  await page.waitForFunction(total=>document.querySelectorAll('.activity-card').length===total,all.length);
   await page.setViewportSize({width:375,height:800});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
   assert.deepEqual(errors,[]);assert.deepEqual(remote,[]);
-  console.log('PASS · Automatic 12→20→25 loading, no duplicates/button, existing DOM and focus retained, stable random filter subsets, fresh visit order, curated collections unchanged, keyboard, tall viewport and mobile. No remote calls.');
+  console.log(`PASS · Automatic 12→20→${all.length} loading, no duplicates/button, existing DOM and focus retained, stable random filter subsets, fresh visit order, curated collections unchanged, keyboard, tall viewport and mobile. No remote calls.`);
  }finally{await browser?.close();server.kill();}
 })().catch(error=>{console.error(error);process.exitCode=1;});

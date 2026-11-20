@@ -2,7 +2,8 @@
 const assert=require('node:assert/strict'),{fork}=require('node:child_process'),fs=require('node:fs/promises'),path=require('node:path');
 const {chromium}=require('C:/Users/afortun8/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
 (async()=>{
- const {proposedActivities}=await import('../content/propostes/index.js');
+ const {activities}=await import('../catalogue.js');
+ const proposedActivities=activities.filter(entry=>entry.reviewStatus==='pending');
  const base='http://127.0.0.1:4252/';const server=fork(path.join(__dirname,'serve.cjs'),{env:{...process.env,SENTIT_PORT:'4252'},stdio:['ignore','pipe','inherit','ipc']});let browser;
  const output=path.resolve(__dirname,'../../tmp/sentit-qa/batch-v0128');await fs.mkdir(output,{recursive:true});const errors=[],remote=[],missing=[],pages=[];
  try{
@@ -11,12 +12,12 @@ const {chromium}=require('C:/Users/afortun8/.cache/codex-runtimes/codex-primary-
   page.on('pageerror',error=>errors.push(error.message));page.on('response',response=>{if(response.status()===404)missing.push(response.url());});
   await page.route('**/*',route=>{if(new URL(route.request().url()).origin===new URL(base).origin)return route.continue();remote.push(route.request().url());return route.abort();});
   await page.goto(base);await page.locator('.activity-card').first().waitFor();
-  assert.match(await page.locator('#catalog-count').innerText(),/25/);assert.equal(await page.locator('.activity-card').count(),12);
+  assert((await page.locator('#catalog-count').innerText()).includes(String(activities.length)));assert.equal(await page.locator('.activity-card').count(),12);
   const bottom=()=>page.locator('.catalog-results-scroll').evaluate(node=>{node.scrollTop=node.scrollHeight;node.dispatchEvent(new Event('scroll'));});
   await bottom();await page.waitForFunction(()=>document.querySelectorAll('.activity-card').length===20);
-  await bottom();await page.waitForFunction(()=>document.querySelectorAll('.activity-card').length===25);
-  assert.equal(await page.locator('.activity-review-overlay').count(),20);
-  for(const grade of ['3','4','5','6']){await page.locator('#grade').selectOption(grade);const count=grade==='4'?7:6;assert.equal(await page.locator('.activity-card').count(),count);}
+  await bottom();await page.waitForFunction(total=>document.querySelectorAll('.activity-card').length===total,activities.length);
+  assert.equal(await page.locator('.activity-review-overlay').count(),proposedActivities.length);
+  for(const grade of ['3','4','5','6']){await page.locator('#grade').selectOption(grade);assert.equal(await page.locator('.activity-card').count(),activities.filter(entry=>entry.grade===grade).length);}
   await page.locator('#reset-filters').click();await page.locator('#genre').selectOption('explanation');assert.equal(await page.locator('.activity-card').count(),4);
   assert.equal(await page.locator('.activity-type svg path').count(),4);
   await page.locator('#reset-filters').click();await page.locator('#search').fill('ca-S024');assert.equal(await page.locator('.activity-card').count(),1);
@@ -25,7 +26,7 @@ const {chromium}=require('C:/Users/afortun8/.cache/codex-runtimes/codex-primary-
    await page.goto(base+'#lectura=ca-'+entry.code);await page.locator('#workspace').waitFor({state:'visible'});
    assert.equal(await page.locator('#answers-mode').getAttribute('aria-pressed'),'true');
    assert.equal(await page.locator('#print').isDisabled(),true);assert.equal(await page.locator('#open-player').isHidden(),true);
-   assert.equal(await page.locator('.paper-take').count(),1);assert.equal(await page.locator('.paper-local-cut').count(),1);
+   assert.equal(await page.locator('.paper-take').count(),entry.generationPlan.takes.length);assert.equal(await page.locator('.paper-local-cut').count(),entry.generationPlan.localCuts.length);
    assert.equal(await page.locator('.paper-answer-label').count(),entry.questions.length);
    const sections=await page.locator('.paper-section-title').allTextContents();assert.match(sections[0],/Guió/);assert(sections.at(-1).includes('Preguntes'));
    const overflow=await page.locator('.paper-content').evaluateAll(nodes=>nodes.flatMap((node,i)=>[...node.children].filter(child=>child.getBoundingClientRect().bottom>node.getBoundingClientRect().bottom+2).map(()=>i+1)));
@@ -44,6 +45,6 @@ const {chromium}=require('C:/Users/afortun8/.cache/codex-runtimes/codex-primary-
   await page.setViewportSize({width:375,height:800});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
   assert.deepEqual(errors,[]);assert.deepEqual(missing,[]);assert.deepEqual(remote,[]);
   await fs.writeFile(path.join(output,'pages.json'),JSON.stringify(pages,null,2));
-  console.log('PASS · 25 cards, pagination, grade/type filters, code search, 19 default review scripts, 38 QA PDFs, draft guards, complete answers, A4 bounds, honest portrait placeholders and mobile. No external requests.');
+  console.log(`PASS · ${activities.length} cards, pagination, grade/type filters, code search, ${proposedActivities.length} default review scripts, ${pages.length*2} QA PDFs, draft guards, complete answers, A4 bounds, honest portrait placeholders and mobile. No external requests.`);
  }finally{await browser?.close();server.kill();}
 })().catch(error=>{console.error(error);process.exitCode=1;});

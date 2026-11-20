@@ -93,9 +93,9 @@
     "approvalSource": "Confirmació explícita de l’usuari: «Donem per validats el guió i el muntatge de S008R i generem l’àudio, reutilitzant la presentació que ja tenim.»"
   },
   "S003": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "c03b61e108b5c05cf4ecafcf041d97b819a274d4faedf37a2513ae5701a4ae87",
+    "reviewedAt": "2026-11-20T07:32:20.461Z",
     "reviewActivity": "ca-S003",
     "reviewContent": "content/propostes/tercer.js",
     "format": "3r accessible: problema únic, dos objectes semblants i una solució explícita. Sis respostes molt breus; no cal memoritzar noms de persones absents.",
@@ -111,7 +111,8 @@
       "Biel": "Puck"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalNote": "Confirmació explícita del docent el 20/11/2026: S003 es pot enviar a producció, amb rialles compartides al final si és possible."
   },
   "S004": {
     "status": "awaiting-validation",
@@ -177,17 +178,19 @@
     "reviewedAt": null,
     "reviewActivity": "ca-S007",
     "reviewContent": "content/propostes/tercer.js",
-    "format": "3r avançada: relacionar una observació amb dos processos i entendre que no veure una cosa no vol dir que hagi deixat d’existir.",
+    "format": "3r avançada: distingir l’entrada d’aigua líquida al sòl de l’evaporació i separar una proposta de prova d’un resultat observat. Cal escoltar tota l’aula: les condicions per preparar els dos plats les proposa una alumna, i una pregunta en demana el contingut i la utilitat.",
     "cues": [
-      "Tres gotes separades i una pausa. No reproduir el so d’un desguàs ni vapor: la resposta s’ha d’entendre per la veu.",
-      "Pausa natural després de definir evaporació. Cap buf ni xiulet que pugui confondre vapor invisible amb un núvol visible.",
-      "Marge després de l’última frase, dues notes i 600 ms de silenci. No presentar la prova imaginada com si se n’hagués mesurat el resultat."
+      "Una cadira i un full situen l’aula abans de la salutació. Les veus queden soles; no afegir converses de fons, gotes, desguàs ni sons que representin vapor.",
+      "Un moviment breu de paper abans de la proposta de la Laia, sense campaneta de descoberta. No allargar mecànicament totes les pauses entre torns.",
+      "Deixar acabar la veu, dues notes originals i 600 ms de silenci. No afegir resultats ni presentar la proposta com un experiment ja fet."
     ],
-    "plannedNewRequests": 1,
+    "plannedNewRequests": 2,
     "requiredVoices": {
-      "Mireia": "Aoede"
+      "Mireia": "Aoede",
+      "Laia": "Leda",
+      "Biel": "Puck"
     },
-    "strategy": "packed-title-program-v1",
+    "strategy": "grouped-voices-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
   },
   "S009": {
@@ -235,17 +238,19 @@
     "reviewedAt": null,
     "reviewActivity": "ca-S011",
     "reviewContent": "content/propostes/quart.js",
-    "format": "4t intermèdia: seqüència amb una condició i distinció entre maqueta i objecte d’ús real. El guió no és una recomanació d’alimentació de fauna.",
+    "format": "4t intermèdia: seguir una seqüència amb condicions, distingir maqueta i objecte real i escoltar les aportacions de tota l’aula. Una resposta depèn d’una proposta de la Laia; no n’hi ha prou d’escoltar només la mestra. El guió no és una recomanació d’alimentació de fauna.",
     "cues": [
-      "Fregadís curt de cartró, pausa de 250 ms i veu. No simular una construcció a temps real durant tota l’activitat.",
-      "Un únic moviment de cartró entre fases; deixar silenci abans de la condició següent.",
-      "Després de la veu, dues notes de sortida i silenci. No s’hi afegeix cant d’ocells: la maqueta no s’ha provat amb animals."
+      "Fregadís curt de cartró i una cadira molt discreta. La salutació fa callar l’aula; no mantenir xerrameca de fons. No simular la construcció a temps real.",
+      "Un únic moviment de cartró i una pausa curta abans d’explicar com fixar el sostre. No encobrir el canvi de torn amb soroll.",
+      "Després de la veu, dues notes de sortida i silenci. No afegir cant d’ocells: la maqueta no s’ha provat amb animals."
     ],
-    "plannedNewRequests": 1,
+    "plannedNewRequests": 2,
     "requiredVoices": {
-      "Mireia": "Aoede"
+      "Mireia": "Aoede",
+      "Biel": "Puck",
+      "Laia": "Leda"
     },
-    "strategy": "packed-title-program-v1",
+    "strategy": "grouped-voices-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
   },
   "S012": {
@@ -269,9 +274,9 @@
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
   },
   "S013": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "a4cb701f5791cdcdd5d9ba6f83acb3256d87f5c7d1b038a72e84564bfd35046c",
+    "reviewedAt": "2026-11-20T07:33:38.909Z",
     "reviewActivity": "ca-S013",
     "reviewContent": "content/propostes/quart.js",
     "format": "4t avançada: reconstruir un procés, relacionar cada informació amb una funció i distingir destinació de remitent. No es demanen dades postals memoritzades de fora del text.",
@@ -285,7 +290,8 @@
       "Mireia": "Aoede"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalNote": "Confirmació explícita del docent el 20/11/2026: S013 validada i autoritzada per producció."
   },
   "S014": {
     "status": "awaiting-validation",
@@ -372,6 +378,7 @@
     "format": "6è accessible: idees ordenades, exemples explícits i respostes concises. Distingir aprofitar aliments de consumir-ne que no siguin segurs.",
     "cues": [
       "Dos segons de petits sons de recipient i paper; tot queda en silenci abans de la pregunta inicial.",
+      "La confirmació següent de Laia pot entrar al final de «No és una recepta màgica», mentre l’Ona continua sense aturar-se. És una reacció discreta; no tapar l’exemple de les pastanagues ni la dada sobre quantes persones vindran. Preparar aquest possible solapament en el muntatge; l’acotació no es llegeix.",
       "Un full de menú es gira entre torns. El so s’acaba abans de les condicions de servei.",
       "Marge de 300 ms, sortida musical de dos segons i silenci. No afegir consells de conservació, temps o receptes que no figurin al guió."
     ],
@@ -384,9 +391,9 @@
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
   },
   "S020": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "06fef5a0b6b6b38cba1dbbac427169ab632ba0c2a0604a84cfa34b9217fa1aa0",
+    "reviewedAt": "2026-11-20T07:49:51.579Z",
     "reviewActivity": "ca-S020",
     "reviewContent": "content/propostes/sise.js",
     "format": "6è accessible: requisits explícits, finalitat de cada dada i aplicació d’una condició simple. No cal fer càlculs ni tenir experiència produint pòdcasts.",
@@ -400,7 +407,10 @@
       "Mireia": "Aoede"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvedScope": "voices-only",
+    "montageStatus": "awaiting-shared-jingle-validation",
+    "approvalNote": "Confirmació explícita del docent el 20/11/2026: S020 validada per enviar les veus a producció. La sintonia comuna d’obertura i tancament de Mireia es proposa i valida per separat abans d’incorporar-la al muntatge."
   },
   "S021": {
     "status": "awaiting-validation",
@@ -457,6 +467,30 @@
     "requiredVoices": {
       "Laia": "Leda",
       "Biel": "Puck"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S004D": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S004D",
+    "reviewContent": "content/propostes/variants.js",
+    "format": "Variant dialogada de S004 per comparar amb l’original narratiu, que es conserva. 3r intermèdia: reconstruir la recerca i separar una semblança d’una pista que connecta amb el que ha passat. Mateixes sis exigències de comprensió, amb narració en primera persona i dos referents auditius; cap tercera veu.",
+    "cues": [
+      "Separador càlid de dos segons i marge de 250 ms. Aina comença el record amb la seva veu habitual; les acotacions no es llegeixen.",
+      "Aina passa del record a la conversa d’aquell moment, amb sorpresa lleu.",
+      "Un fregadís de roba breu i acabat abans de la narració. No fer sonar l’objecte trobat.",
+      "Aina reprèn el record amb calma; veu sola a la marca de la jaqueta.",
+      "Pausa curta per passar al jardí. Cap so sota la recerca ni cap efecte que anticipi la troballa.",
+      "Aina tanca el record, sense to de lliçó.",
+      "Deixar acabar la darrera paraula. Sortida musical de dos segons i 600 ms de silenci, sense cap frase afegida."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Aina": "Zephyr",
+      "Ferran": "Algenib"
     },
     "strategy": "packed-title-program-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."

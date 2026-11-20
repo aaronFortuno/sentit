@@ -1,0 +1,87 @@
+{
+  "code": "S003",
+  "activity": "ca-S003",
+  "date": "2026-11-20T07:39:07.577Z",
+  "state": "awaiting-audio-validation",
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "Laia": "Leda",
+    "Biel": "Puck"
+  },
+  "newSynthesisRequests": 1,
+  "approvalFingerprint": "c03b61e108b5c05cf4ecafcf041d97b819a274d4faedf37a2513ae5701a4ae87",
+  "requestHash": "0f774bde8d36b89687389a0fff817799c6b5d9dffa3ea70920f6360f5fc4b23f",
+  "rawSha256": "c19304345c814536173d401229a58ba24409fd06b43c1eda911ac20b75323eb0",
+  "usage": {
+    "total_tokens": 2079,
+    "total_input_tokens": 357,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 357
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 1722,
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 1722
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 0,
+    "initial_input_tokens": 357
+  },
+  "rawDuration": 68.88,
+  "cut": {
+    "at": 4.455,
+    "previousWordEnd": 3.57,
+    "nextWordStart": 5.34,
+    "peakDbFS": -59.4,
+    "rawSamplesPreserved": true
+  },
+  "file": "s003-paraigua-v1.mp3",
+  "introFile": "s003-paraigua-v1-intro.mp3",
+  "bodyFile": "s003-paraigua-v1-cos.mp3",
+  "offset": 5.005,
+  "bodyDuration": 69.875,
+  "fullDuration": 74.88,
+  "lufs": -19.4,
+  "peakDbTP": -2.9,
+  "voice": {
+    "bodyLead": 2.25,
+    "bodyRawDuration": 64.425,
+    "untrimmedApartFromSilenceSplit": true,
+    "retimed": false
+  },
+  "vocalPerformance": {
+    "kind": "shared-chuckle",
+    "after": "final",
+    "speaker": "Laia",
+    "listener": "Biel",
+    "source": "Gemini TTS in the same take",
+    "listeningValidation": "pending"
+  },
+  "effects": [
+    {
+      "name": "corridor-steps",
+      "start": 0,
+      "end": 7.695,
+      "origin": "original-procedural"
+    },
+    {
+      "name": "bag-rustle",
+      "start": 42.475,
+      "end": 42.925000000000004,
+      "origin": "original-procedural"
+    },
+    {
+      "name": "leaving-steps",
+      "start": 67.075,
+      "end": 69.27499999999999,
+      "origin": "original-procedural"
+    }
+  ],
+  "sha256": "a0cadf740e032c69fd50d7fdd33f2fe59290c39dcf0d1e078e3f0145ece8367f"
+}

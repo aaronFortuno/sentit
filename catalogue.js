@@ -4,7 +4,7 @@ import { foto } from './content/la-foto-que-faltava.js';
 import { fotoRadio } from './content/la-foto-que-faltava-radio.js';
 import { restauradora } from './content/una-restauradora-ens-explica-el-seu-ofici.js';
 import { mercat } from './content/reobren-el-mercat.js';
-import { proposedActivities } from './content/propostes/index.js';
+import { proposedActivities, proposedVariants } from './content/propostes/index.js';
 import { registerEditorialReviews } from './editorial-review.js';
 
 export const activities = [
@@ -15,6 +15,7 @@ export const activities = [
   mercat,
   fotoRadio,
   ...proposedActivities,
+  ...proposedVariants,
 ].sort((a, b) => a.code.localeCompare(b.code, 'ca', { numeric: true }));
 
 // Only the exact independently reviewed content may be labelled provisional.

@@ -30,6 +30,8 @@ Les veus són síntesi de [Gemini TTS, de Google](https://ai.google.dev/gemini-a
 | --- | --- | --- |
 | ca-S001 · El senyal de la ràdio | Laia: Leda; Biel: Puck. Presentació: Aoede. | Tocs, silencis significatius i quatre notes de sortida originals, generats amb FFmpeg. |
 | ca-S002 · Preparem una capsa de records | Una mestra: Aoede; presentació: Aoede. | Muntatge amb separació entre els blocs de passos. No hi ha enregistraments externs. |
+| ca-S003 · El paraigua intercanviat | Laia i presentació: Leda; Biel: Puck. Una petició, amb rialles breus sol·licitades dins la mateixa presa. | Passos de passadís i sortida, fregadís de bossa originals procedurals. Guió validat; àudio pendent d’audició. |
+| ca-S013 · Com viatja una carta? | Mireia i presentació: Aoede. Una petició. | Paper inicial, transició de paper i dues notes de sortida originals procedurals. Guió validat; àudio pendent d’audició. |
 | ca-S008 · La foto que faltava | **Una única narradora: Aoede**, sense nom dins del relat. Aina i Ferran hi són esmentats, però no parlen amb veu pròpia. | Base instrumental original amb atenuació sota la veu, transició de paper procedural i marges de silenci. És una prova de remuntatge; encara no inclou una benvinguda o un comiat de programa. |
 | ca-S008R · La foto que faltava · Històries amb sentit | Una narradora: Aoede, també a la benvinguda i al comiat. Presentació reutilitzada de S008. | Separador original, base instrumental atenuada sota la veu, pas de pàgina i sortida musical. Produït; pendent d’audició docent. |
 | ca-S015 · Una restauradora ens explica el seu ofici | Puck: Biel i presentació. Kore: Nora. | Sintonia d’entrada i sortida, ambient molt baix i pàgina originals. Produït; àudio pendent de validar. |
@@ -53,6 +55,8 @@ No apareix al catàleg docent, però conserva el seu enllaç de prova i les atri
 La còpia de treball i les atribucions del pilot es conserven al [registre general de crèdits](../CREDITS.md). Aquestes gravacions **no** s’utilitzen a S001, S002 o S008.
 
 ## Procés abans de consumir quota
+
+L’esborrany passa primer la [revisió independent de coherència](revisio-coherencia.md), amb preguntes, solucionari i escaleta. La marca provisional no autoritza síntesi: després cal la validació docent següent.
 
 1. Preparar el guió complet, les preguntes i el solucionari. Identificar les veus que parlen, sense confondre-les amb personatges esmentats.
 2. Preparar l’escaleta completa: presentació, entrada, ambients, música, possibles solapaments, pauses i comiat. Anotar cada font, autor, llicència i referència. Evitar que un efecte reveli una resposta o emmascari la parla.
@@ -81,5 +85,21 @@ Una única narradora adulta, amb la mateixa veu Aoede. Aina i Ferran continuen s
 La benvinguda, el relat i el comiat s’han generat junts en una petició, i el títol s’ha reutilitzat. No s’han enviat frases soltes per anar provant ni s’ha allargat digitalment la veu per assolir un temps prefixat. El màster de S008R incorpora aquesta entrada i aquest comiat. El de S008 es conserva amb el seu codi i àudio anteriors.
 
 ## Reproducció i QR
+
+### Proposta de sintonia comuna de la Mireia
+
+[Escolta l’obertura i el tancament](https://sentit.ortogra.fi/proves/sintonies-mireia.html). «Petita descoberta» és una composició original de Sentit, sota MIT, amb percussió afinada càlida, piano suau i baix discret. Obertura de 3,8 s i tancament de 3,4 s; sense veus, mostres externes ni peticions d’API. [Recepta](../tools/propose-mireia-jingle.cjs) · [manifest amb nivells i empremtes](../assets/audio/mireia-jingle-proposta-v1.json).
+
+La parella és **pendent de validació separada** i encara no s’ha incorporat a cap programa. S020 té les veus autoritzades i rebudes, però espera aquesta elecció abans del muntatge. La recepció consta a [production-progress.js](../content/production-progress.js); no equival a validar-ne l’àudio final.
+
+### Escenes d’aula amb tres veus
+
+S007 i S011 proposen Mireia/Aoede, Laia/Leda i Biel/Puck. Cada peça preveu dues peticions, ja que [Gemini TTS admet dues veus per petició](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/text-to-speech/overview#multi-speaker-tts): una amb títol i torns de la mestra i una amb els dels alumnes, amb pauses llargues entre intervencions. El muntatge haurà d’intercalar les preses en l’ordre del guió dins silencis comprovats, sense retallar fonemes. El planificador permet inspeccionar els dos paquets; el productor d’una sola presa els rebutja expressament. Abans de produir-les cal la validació docent i preparar l’execució agrupada, sense fer crides per cada frase.
+
+### Produccions S003 i S013
+
+El docent n’ha autoritzat explícitament la producció el 20/11/2026. [Recepta de muntatge](../tools/render-proposal.cjs) i manifests [S003](../assets/audio/s003-production-manifest.json) / [S013](../assets/audio/s013-production-manifest.json). Veus de Gemini, sota les seves condicions; tots els ambients i efectes són originals procedurals amb FFmpeg, sota MIT. No s’utilitzen mostres externes. Preses crues conservades, tall del títol dins un silenci comprovat amb mostres, marges als extrems i cap canvi de velocitat.
+
+La rialla de S003 es demana amb dos `<chuckle>` i una reacció entre barres dins el mateix torn, segons la [guia oficial de Gemini TTS](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/text-to-speech/prompting-guide). No es llegeix «ha, ha» ni l’acotació; el resultat efectiu i la seva naturalitat requereixen l’audició docent. S019 proposa el mateix sistema de reacció simultània per a «Sí, sí», una sola vegada; no està autoritzada ni sintetitzada.
 
 El selector de ritme va de ×0,80 a ×1,20 en passos de 0,05, amb conservació del to mitjançant el reproductor natiu del navegador. Només afecta el títol i el fragment; la sintonia, les instruccions enregistrades i els temporitzadors conserven la durada pròpia. `ritme=0.85` i `jingle=0` permeten fixar aquestes opcions a l’enllaç i al QR. Sense aquests paràmetres s’aplica ×1,00 i sintonia activa. Les pistes separades de presentació i cos acaben naturalment, sense tallar-les amb un temporitzador.

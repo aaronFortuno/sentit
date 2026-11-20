@@ -1,12 +1,12 @@
 import assert from 'node:assert/strict';
 import { createRequire } from 'node:module';
 import { activities } from '../catalogue.js';
-import { proposedActivities } from '../content/propostes/index.js';
+import { proposedActivities, proposedVariants } from '../content/propostes/index.js';
 import { charactersForActivity } from '../content/characters.js';
 import { buildEvidence } from '../evidence.js';
 const require=createRequire(import.meta.url);
 const plans=require('../content/production-plans.json');
-const { productionSpec, packedProposalRequest }=require('./proposal-plan.cjs');
+const { productionSpec, packedProposalRequests }=require('./proposal-plan.cjs');
 const { assertProductionApproved }=require('./production-approval.cjs');
 const base=activities.filter(entry=>/^S\d{3}$/.test(entry.code));
 assert.equal(base.length,24);
@@ -18,9 +18,12 @@ for(const grade of ['3','4','5','6']){
 }
 assert.equal(proposedActivities.length,19);
 let questions=0;
-for(const entry of proposedActivities){
- assert.equal(entry.reviewStatus,'pending');assert.equal(entry.audio,null);
- assert.equal(plans[entry.code].status,'awaiting-validation');assert.equal(plans[entry.code].approvedFingerprint,null);
+for(const entry of [...proposedActivities,...proposedVariants]){
+ assert(['pending','audio-review'].includes(entry.reviewStatus));
+ if(entry.reviewStatus==='pending')assert.equal(entry.audio,null);
+ else assert(entry.audio&&entry.tracks?.body&&entry.tracks?.introduction);
+ const approved=plans[entry.code].status==='approved';
+ if(!approved){assert.equal(plans[entry.code].status,'awaiting-validation');assert.equal(plans[entry.code].approvedFingerprint,null);}
  assert.deepEqual(buildEvidence(entry).errors,[],entry.code+' evidence anchors');
  const body=entry.transcript.filter(part=>part.speaker),ids=body.map(part=>part.id);
  assert.equal(new Set(ids).size,ids.length);assert(entry.production.words>=150&&entry.production.words<=650,entry.code+' complete age-appropriate spoken length');
@@ -28,11 +31,24 @@ for(const entry of proposedActivities){
  assert(entry.questions.length>=6&&entry.questions.length<=10);questions+=entry.questions.length;
  const cast=charactersForActivity(entry);assert.equal(cast.length,Object.keys(entry.production.voices).length);
  for(const part of body)assert(cast.some(character=>character.appearances.some(appearance=>appearance.code==='ca-'+entry.code&&appearance.speaker===part.speaker)),entry.code+' speaker has a recurring identity');
- const spec=productionSpec(entry),payload=packedProposalRequest(entry);
- assert(Object.keys(spec.voices).length<=2);assert.equal(entry.generationPlan.takes.length,1);
+ const spec=productionSpec(entry),payloads=packedProposalRequests(entry),payload=payloads[0];
+ assert.equal(payloads.length,entry.generationPlan.takes.length);
+ for(const body of payloads)assert((body.generation_config.speech_config.speakers?.length??1)<=2);
  const expected=[entry.introduction,...body.map(part=>part.text)].join(' ');
- assert.equal(payload.input[0].content.map(item=>item.text).join(' ').replace('<long pause>','').replace(/\s+/g,' ').trim(),expected,entry.code+' complete speech, directions excluded');
+ let spoken=payloads.flatMap(payload=>payload.input[0].content.map(item=>item.text)).join(' ').replaceAll('<long pause>','');
+ if(entry.production.performance){
+  assert.equal((spoken.match(/<chuckle>/g)??[]).length,2);
+  assert(spoken.includes(entry.transcript.find(part=>part.id===entry.production.performance.after).text+' <chuckle> |<chuckle>| <short pause>'));
+  assert(!JSON.stringify(payload).includes('no nonverbal vocalizations'));
+  spoken=spoken.replace(' <chuckle> |<chuckle>| <short pause>','');
+ }
+ if(entry.production.overlaps||entry.production.strategy==='grouped-voices-v1'){
+  for(const overlap of entry.production.overlaps??[]){const reaction=body.find(part=>part.id===overlap.reaction);assert.equal(spoken.split('|'+reaction.text+'|').length,2,'La reacció sona una sola vegada');assert(spoken.includes(overlap.after+' |'+reaction.text+'|'));}
+  const tokens=text=>text.replaceAll('|','').trim().split(/\s+/u).sort();
+  assert.deepEqual(tokens(spoken),tokens(expected),entry.code+' all spoken words retained once, with planned overlap');
+ }else assert.equal(spoken.replace(/\s+/g,' ').trim(),expected,entry.code+' complete speech, directions excluded');
  assert.equal(entry.production.words,body.map(part=>part.text).join(' ').split(/\s+/u).length);
- assert.throws(()=>assertProductionApproved(entry,spec,plans[entry.code]),/validar/);
+ if(approved)assert.doesNotThrow(()=>assertProductionApproved(entry,spec,plans[entry.code]));
+ else assert.throws(()=>assertProductionApproved(entry,spec,plans[entry.code]),/validar/);
 }
-console.log(`PASS · 24 base codes, six per grade, balanced levels and genres; 19 new complete drafts, ${questions} questions, exact evidence, recurring cast and blocked one-request plans. Zero synthesis.`);
+console.log(`PASS · 24 base codes, six per grade, balanced levels and genres; ${proposedActivities.length} proposals and ${proposedVariants.length} comparison variant, ${questions} questions, exact evidence, recurring cast and gated request plans. Zero synthesis.`);
