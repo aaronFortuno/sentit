@@ -16,7 +16,7 @@ S004D és una alternativa de narració i diàleg de S004; S008R és una versió 
 
 **Històries amb sentit** és un programa explícit dins de S008R: té benvinguda, relat i comiat que en diuen el nom. Aquest marc sonor ja forma part del guió. S018 i S022 estan connectades pel repartiment, però els seus guions actuals no les anuncien com a episodis d’aquell programa.
 
-Les activitats de la Mireia encara no tenen un nom comú de programa establert als guions. La parella de sintonies que es proposa ajudarà a identificar aquest tipus de peces quan s’hagi validat. Compartir la veu Aoede no basta per dir que totes les narracions anònimes les explica físicament la Mireia.
+Les activitats de la Mireia encara no tenen un nom comú de programa establert als guions. Les quatre parelles de sintonies que es proposen ajudarà a identificar aquest tipus de peces quan s’hagi validat. Compartir la veu Aoede no basta per dir que totes les narracions anònimes les explica físicament la Mireia.
 
 La notícia de S023 és una peça amb la periodista Mar i el comerciant Pau. No s’ha definit encara un nom de butlletí ni una relació formal amb el programa de relats.
 
@@ -27,3 +27,10 @@ Per al creixement del catàleg es poden agrupar les peces en sèries editorials 
 Les col·leccions que ja es poden crear al web són biblioteques personals del docent, desades al navegador. Poden barrejar cursos, personatges o programes. Actualment no hi ha un filtre propi d’universos o sèries; el filtre de personatges permet trobar els vincles de repartiment.
 
 Una futura etiqueta de sèrie haurà d’indicar per què es relacionen les peces, distingir personatges que parlen dels que només hi són esmentats i mantenir la coherència de noms, veus, espais i relacions. Cada guió continuarà sent autosuficient. Les [bases musicals i sintonies](musiques.md) es registren separadament: una sintonia pot identificar un programa compartit, però una música semblant no crea per si sola un univers narratiu.
+
+
+## Dues identitats radiofòniques en preparació
+
+El docent proposa diferenciar un **informatiu** de notícies i un **magazín** per a entrevistes d’estudi, converses, diàlegs i curiositats. Cadascun tindrà una parella pròpia d’obertura i tancament. Encara no hi ha noms ni locucions nous assignats, ni s’han incorporat les sintonies candidates a cap programa.
+
+S006 té les veus autoritzades i espera aquesta tria abans del muntatge. Els muntatges ja publicats continuen pendents d’audició; es podran adaptar localment quan s’acordi la identitat sonora. La [comparativa de sintonies](https://sentit.ortogra.fi/proves/sintonies-mireia.html) conserva l’original i tres alternatives. «Històries amb sentit» continua sent el marc explícit de S008R; no s’ha reanomenat ni s’ha fet servir per donar per establerta aquesta nova organització.

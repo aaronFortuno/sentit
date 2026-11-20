@@ -1,0 +1,84 @@
+{
+  "S010": {
+    "activity": "ca-S010",
+    "status": "approved-for-correction",
+    "approvedAt": "2026-11-20",
+    "approvalSource": "El docent ha identificat aquests errors en l’àudio i ha demanat provar correccions locals, conservant la resta del muntatge. Cap canvi de paraules al guió.",
+    "sourceRequestHash": "ed7c152af8f0ad4e3aaf0f315a0e58870aaf4d304bc9aa3b20ff3f9eb4b50915",
+    "sourceRawSha256": "5ae1ca4fd12bac21243b7e519981c14bdb2e34319cc06bdc1fbc318f91833fe4",
+    "notBefore": "2026-11-21T08:00:00.000Z",
+    "voices": {
+      "Laia": "Leda",
+      "Biel": "Puck"
+    },
+    "direction": "Record short repair clips in the same youthful/adult character identity and natural Central Catalan pace as the existing cast. Read the supplied sentences verbatim. Pronunciation directions are not spoken. Keep complete consonant onsets and word endings. Leave a generous silence at the long-pause separator. No introduction, music, effects, repetition or added words.",
+    "repairs": [
+      {
+        "part": "pla",
+        "speaker": "Laia",
+        "text": "Després ja som a la porta. És el camí que vam fer l’any passat.",
+        "pronunciation": "Pronounce Després faithfully, with its final /s/ before ja, not Desprén. Keep the entire sentence fluent; do not spell it aloud."
+      },
+      {
+        "part": "alternativa",
+        "speaker": "Biel",
+        "text": "Des de la plaça anem pel carrer dels Til·lers fins a la farmàcia.",
+        "pronunciation": "Til·lers has two consecutive lateral L sounds (l·l), a gently lengthened L, never the palatal LL of lluna. Keep the stressed open E and fluent natural Central Catalan. Do not read the middle dot or say the explanation."
+      }
+    ],
+    "application": "Audition against the original first. Then locate phrase boundaries in both raw takes, check silent handles on both sides, match level, and splice without retiming or replacing the rest. ASR alone does not validate stress or l·l.",
+    "approvedRequestHash": "a8d86c221c91394f80126bb5b2503e6d16173c2e3000f1aff41edfdf79b71fc2"
+  },
+  "S013": {
+    "activity": "ca-S013",
+    "status": "approved-for-correction",
+    "approvedAt": "2026-11-20",
+    "approvalSource": "El docent ha identificat aquests errors en l’àudio i ha demanat provar correccions locals, conservant la resta del muntatge. Cap canvi de paraules al guió.",
+    "sourceRequestHash": "429cc31cdf988e418c06565135b5476caa42030cd472be38afba5dec05aef6f8",
+    "sourceRawSha256": "37fe6368197b31f9d3d6a8bafedc0c858426c23bd2dd4f6ef6f1278d7cbfb473",
+    "notBefore": "2026-11-21T08:00:00.000Z",
+    "voices": {
+      "Mireia": "Aoede"
+    },
+    "direction": "Record short repair clips in the same youthful/adult character identity and natural Central Catalan pace as the existing cast. Read the supplied sentences verbatim. Pronunciation directions are not spoken. Keep complete consonant onsets and word endings. Leave a generous silence at the long-pause separator. No introduction, music, effects, repetition or added words.",
+    "repairs": [
+      {
+        "part": "repartiment",
+        "speaker": "Mireia",
+        "text": "El codi postal ajuda a arribar a una zona, però no diu tot sol quina bústia concreta és la bona.",
+        "pronunciation": "Bústia is stressed on the first vowel Ú: BÚS-ti-a, never bus-TÍ-a. This spelling aid is an instruction, not spoken text. Read the sentence fluently and naturally."
+      },
+      {
+        "part": "error",
+        "speaker": "Mireia",
+        "text": "No és correcte endevinar una bústia només perquè el nom ens sona.",
+        "pronunciation": "Bústia is stressed on Ú in the first syllable, never on I. Respect the written accent without exaggerated pauses or spelling aloud."
+      }
+    ],
+    "application": "Audition against the original first. Then locate phrase boundaries in both raw takes, check silent handles on both sides, match level, and splice without retiming or replacing the rest. ASR alone does not validate stress or l·l.",
+    "approvedRequestHash": "562c765dc3c76a72be7873782f3ddecc573f1f10f4f8f0f55c20eb71956c640e"
+  },
+  "S022": {
+    "activity": "ca-S022",
+    "status": "approved-for-correction",
+    "approvedAt": "2026-11-20",
+    "approvalSource": "El docent demana provar una correcció local de rails sense alterar el relat ni la resta del muntatge.",
+    "sourceRequestHash": "73c878d684054e29be48d432b64b0ec0e852eac6f06e7565893168e4588cb2b9",
+    "sourceRawSha256": "7c44d2c01fff3768eb38f6ec5429d388dda661fe91e6580c8d596556e66b7566",
+    "notBefore": "2026-11-21T08:00:00.000Z",
+    "voices": {
+      "Ferran": "Algenib"
+    },
+    "direction": "Record one short repair clip as Ferran, an older adult narrating a personal memory, in natural Central Catalan. Read only the supplied sentence verbatim, in an unhurried but natural voice. Preserve consonant onsets and endings. No introduction, music, sound effects, added words or spelling aloud.",
+    "repairs": [
+      {
+        "part": "dema",
+        "speaker": "Ferran",
+        "text": "Hauria pogut passar el dia mirant els rails i saludant la gent de les parades.",
+        "pronunciation": "Rails means the two metal railway tracks. Use a clear Central Catalan pronunciation with separate ra-ÍLS, stress on I, with a final ordinary L followed by S; never a palatal LL as in ralls. This pronunciation guide is instruction only, never spoken. Keep the complete sentence fluent."
+      }
+    ],
+    "application": "Audition against the original. The spelling rails in the transcript is correct and is not changed to raïls. Locate silent handles, level-match and splice only after perceptual validation; ASR cannot certify pronunciation.",
+    "approvedRequestHash": "dc75acf7a5f1dae1c4d229ce80f07a0257da22db6d95d0f7235b45a125f75f1f"
+  }
+}

@@ -2,9 +2,9 @@ export const mercat = {
   id: 'reobren-el-mercat', code: 'S023', language: 'ca',
   title: 'Reobren el mercat: què canvia i què falta decidir?',
   summary: 'Notícia de ficció per distingir dades confirmades, opinions i decisions pendents.',
-  grade: '6', level: 'advanced', genre: 'news', seconds: 0,
-  status: 'awaiting-audio',
-  reviewStatus: 'pending',
+  grade: '6', level: 'advanced', genre: 'news', seconds: 200,
+  status: 'ready-for-review',
+  reviewStatus: 'audio-review',
   generationPlan: {
     note: 'Una sola petició nova proposada per al títol i tota la notícia: Mar amb Erinome i Pau amb Charon. La Mar també llegeix el títol; una pausa llarga permetrà separar-lo localment. Música i efectes originals, sense peticions de TTS addicionals. Guió, veus i muntatge pendents de validar.',
     takes: [
@@ -21,10 +21,10 @@ export const mercat = {
     'El text s’envia sencer en una petició, amb el títol i una pausa llarga. Les locucions de preparació i repàs i els temps de silenci són pistes i temporitzadors existents del web, no text addicional per a Gemini. Les anotacions següents descriuen el muntatge local complet.',
   ],
   durationEstimate: { min: 235, max: 270 },
-  audio: null,
+  audio: './assets/audio/s023-mercat-v1.mp3', tracks: { introduction: './assets/audio/s023-mercat-v1-intro.mp3', body: './assets/audio/s023-mercat-v1-cos.mp3' },
   image: { src: './assets/images/reobren-el-mercat-v2.webp', alt: 'La periodista Mar informa davant d’un mercat de barri.', width: 1536, height: 1024 },
   introduction: 'Comprensió oral. Reobren el mercat: què canvia i què falta decidir. Notícia de ficció.',
-  fragment: { start: 0, seconds: 0 },
+  fragment: { start: 6.805, seconds: 193 },
   transcript: [
     { kind: 'direction', text: 'Inici del fragment: capçalera informativa original de dos segons. Acaba i deixa un marge de 250 ms abans de «Bon dia». No és la sintonia general de Sentit, que només sona una vegada abans del títol.' },
     { id: 'obertura', speaker: 'Presentadora', text: 'Bon dia. El mercat del barri tornarà a obrir dilluns, després de quatre mesos d’obres. És la informació principal del comunicat que ha publicat avui l’ajuntament. Les parades que fins ara treballaven en una carpa al costat del poliesportiu tornaran a l’edifici habitual. Però la reobertura no vol dir que totes les decisions estiguin preses. Avui separem els canvis confirmats de les propostes que encara s’estan estudiant.' },

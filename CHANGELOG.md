@@ -1,5 +1,18 @@
 # Canvis
 
+## 0.1.37 · 20 de novembre de 2026
+
+- S014 reconvertida en conversa d’aula entre Mireia i Biel: preguntes d’anticipació, aclariments i reconduccions, amb set preguntes revisades. Pendent de validació docent.
+- S010/S013/S022: feedback de pronunciació registrat (Després, Til·lers, dues bústia i rails). Tres peticions curtes preparades per al següent dia de quota, sense generar-les ni donar els errors per resolts. Passos reals CC0 a S010; toc de rail substituït per tramvia real CC0 a S022; sintonia final descartada retirada de S013. Les veus íntegres i els màsters anteriors es conserven.
+
+- S017: conversa situada al grup de Laia/Biel amb altres projectes al fons, coordinació presentada al principi i entrevista de la setmana anterior explicada. Menys instruccions accessòries, dues caixes del mateix grup coherents, tancament docent literal i ambient d’aula baix previst. Pendent de validació, sense síntesi.
+- S024 reescrita amb lèxic quotidià i proposta final construïda en conversa. Deu preguntes conservades amb respostes i cites actualitzades; pendent del docent. Pauta general de revisió ampliada al registre dels joves i les moralines dins del text.
+- S009 incorpora els textos docents de la bústia i el tancament, elimina els aclariments indicats i afegeix «com sempre». Sis preguntes i ancoratges actualitzats; pendent de validar.
+- S011 validada i reclassificada a 4t avançada. S006 validada després de la supressió indicada, amb muntatge pendent de les sintonies d’informatiu. Nou guió de recerca S021 validat. Les tres peces mostren «Guió validat · Veus pendents» i queden preparades per al següent lot, sense peticions addicionals després de les deu registrades.
+- S019 i S023 validades, sintetitzades en una petició cadascuna i muntades. Fragments de 110,59 s i 192,605 s; àudios pendents d’audició docent.
+- Tres parelles de sintonies addicionals: «Fil de veu», «Pas a pas» i «Ona curta». L’original es conserva; quatre estils i vuit reproductors comparables, amb una sola reproducció simultània. Composicions locals MIT, cap petició d’API, encara sense incorporar-les als programes.
+- Preparada la distinció editorial entre informatiu i magazín, sense assignar noms, jingles o locucions nous als materials.
+
 ## 0.1.36 · 20 de novembre de 2026
 
 - S004 i S004D validades i produïdes en una petició cadascuna: Aoede narra l’original; Zephyr/Aina i Algenib/Ferran interpreten la variant dialogada. Es conserven les dues versions per comparar-les, amb fragments de 85,705 s i 88,26 s.

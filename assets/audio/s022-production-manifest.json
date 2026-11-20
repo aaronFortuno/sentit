@@ -1,14 +1,14 @@
 {
   "code": "S022",
   "activity": "ca-S022",
-  "date": "2026-11-20T08:57:19.561Z",
-  "state": "awaiting-audio-validation",
+  "date": "2026-11-20T13:16:25.889Z",
+  "state": "awaiting-pronunciation-correction-and-audio-review",
   "model": "gemini-3.8-flash-tts",
   "voices": {
     "Ferran": "Algenib"
   },
   "newSynthesisRequests": 1,
-  "approvalFingerprint": "80dce8554e41a16a6d0ddde17e251b1ba56ad559b6b77835f6dd049bbb2f8196",
+  "approvalFingerprint": "b2be16c9d9e88f1cb8121cedf7416015426a6cc7d1db086d5daff168bc6af96c",
   "requestHash": "73c878d684054e29be48d432b64b0ec0e852eac6f06e7565893168e4588cb2b9",
   "rawSha256": "7c44d2c01fff3768eb38f6ec5429d388dda661fe91e6580c8d596556e66b7566",
   "usage": {
@@ -40,9 +40,9 @@
     "peakDbFS": -53.7,
     "rawSamplesPreserved": true
   },
-  "file": "s022-tramvia-v1.mp3",
-  "introFile": "s022-tramvia-v1-intro.mp3",
-  "bodyFile": "s022-tramvia-v1-cos.mp3",
+  "file": "s022-tramvia-v2.mp3",
+  "introFile": "s022-tramvia-v2-intro.mp3",
+  "bodyFile": "s022-tramvia-v2-cos.mp3",
   "offset": 6.415,
   "bodyDuration": 176.195,
   "fullDuration": 182.60999999999999,
@@ -137,22 +137,40 @@
       "speechWindowMarginDb": 24.299999999999997
     },
     {
-      "name": "tram-opening-rumble",
+      "name": "real-tram-opening",
       "start": 0,
       "end": 2.2,
-      "origin": "original-procedural"
+      "origin": "external-recording",
+      "source": "assets/audio/sources/migweis-713419-tram.mp3",
+      "sourceSha256": "7b4f76280d81090d08e84abd89d2bf224ebf6bc3ed8c801535b3280cabc78452",
+      "sourceId": "migweis-tram-713419",
+      "author": "migweis",
+      "license": "CC0 1.0",
+      "url": "https://freesound.org/people/migweis/sounds/713419/",
+      "excerpt": {
+        "start": 0.6,
+        "end": 2.8000000000000003
+      },
+      "retimed": false,
+      "pitchShifted": false
     },
     {
-      "name": "rail-opening",
-      "start": 0.7,
-      "end": 0.79,
-      "origin": "original-procedural"
-    },
-    {
-      "name": "rail-memory-transition",
+      "name": "real-tram-memory-transition",
       "start": 81.805,
-      "end": 81.89500000000001,
-      "origin": "original-procedural"
+      "end": 82.605,
+      "origin": "external-recording",
+      "source": "assets/audio/sources/migweis-713419-tram.mp3",
+      "sourceSha256": "7b4f76280d81090d08e84abd89d2bf224ebf6bc3ed8c801535b3280cabc78452",
+      "sourceId": "migweis-tram-713419",
+      "author": "migweis",
+      "license": "CC0 1.0",
+      "url": "https://freesound.org/people/migweis/sounds/713419/",
+      "excerpt": {
+        "start": 2.7,
+        "end": 3.5
+      },
+      "retimed": false,
+      "pitchShifted": false
     },
     {
       "name": "note-paper",
@@ -161,7 +179,17 @@
       "origin": "original-procedural"
     }
   ],
-  "sha256": "6afd88bc2fff0adb4149a89fb1a4d071a1931963687e88bb7bd8e02f7c5d4b27",
+  "sha256": "377b14f0d555312476b7bb020e53256eb6c25ead40e610f7de37117d02a02189",
+  "montageNewSynthesisRequests": 0,
+  "previousMaster": {
+    "file": "s022-tramvia-v1.mp3",
+    "sha256": "6afd88bc2fff0adb4149a89fb1a4d071a1931963687e88bb7bd8e02f7c5d4b27"
+  },
+  "pronunciationRepair": {
+    "plan": "content/audio-repairs.json",
+    "status": "pending-quota-and-listening",
+    "applied": false
+  },
   "musicTrack": {
     "id": "sentit-tramvia-records-v1",
     "title": "Rails de memòria",

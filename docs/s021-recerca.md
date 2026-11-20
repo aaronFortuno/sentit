@@ -1,6 +1,6 @@
 # S021 · Recerca guiada a la plaça
 
-El docent ha validat els continguts de S021 el 20/11/2026 i ha proposat una entrevista o una experiència amb termòmetres per donar varietat a una explicació seguida. S’ha triat la recerca guiada. El nou guió ha superat la revisió independent i espera el vistiplau docent abans de síntesi.
+El docent ha validat els continguts de S021 el 20/11/2026 i ha proposat una entrevista o una experiència amb termòmetres per donar varietat a una explicació seguida. S’ha triat la recerca guiada. El nou guió ha superat la revisió independent i el docent l’ha validat expressament el 20/11/2026. Està preparat per al següent lot de veus dins del límit gratuït.
 
 [Obre la proposta, amb guió i solucionari primer](https://sentit.ortogra.fi/#lectura=ca-S021).
 
@@ -15,4 +15,4 @@ Es mantenen les vuit preguntes i els identificadors. L’enunciat sobre les cond
 
 Els conceptes es contrasten amb [US EPA · What Are Heat Islands?](https://www.epa.gov/heatislands/what-are-heat-islands), que diferencia temperatura de superfície i aire, absorció i alliberament de calor, vegetació, geometria urbana i fonts de calor. No s’hi afegeixen percentatges, temperatures concretes o conclusions sanitàries.
 
-La validació parcial del contingut consta a [production-plans.json](../content/production-plans.json); la [taula de seguiment](seguiment-produccio.md) diferencia el contingut validat del nou guió pendent. La síntesi continuarà bloquejada fins a validar aquesta versió.
+La validació parcial del contingut consta a [production-plans.json](../content/production-plans.json); la [taula de seguiment](seguiment-produccio.md) ja mostra el nou guió validat i les veus pendents. No se n’ha enviat cap petició perquè s’ha assolit el topall diari de treball del lot actual.

@@ -1,4 +1,4 @@
-// Recorded production facts; not a listening approval.
+// Recorded production facts and exact teacher feedback; never implicit final approval.
 export const productionProgress = {
   "ca-S020": {
     "state": "voices-received",
@@ -32,5 +32,91 @@ export const productionProgress = {
       "url": "./proves/sintonies-mireia.html"
     },
     "editorialFingerprint": "ecc4a9bf9db5b038841413cc4630cd5383e688a13b80a95eeccc8bb485d232c1"
+  },
+  "ca-S011": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-20T12:34:52.567Z",
+    "editorialFingerprint": "7c6c647baa9f796d82a24313a34e8a6387a5518f5878d4853b7a7397e1af34cb",
+    "plannedNewRequests": 2,
+    "reason": "Guió validat i reclassificat a 4t avançada; pendent de produir les dues preses agrupades."
+  },
+  "ca-S021": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-20T12:41:11.676Z",
+    "editorialFingerprint": "b74a57783cdc96f46edae1442d2c49a6142dfc2666b1645482beab8b21b81758",
+    "plannedNewRequests": 1,
+    "reason": "Guió de recerca validat; preparat per al següent lot dins del topall gratuït de peticions."
+  },
+  "ca-S006": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-20T12:48:05.488Z",
+    "editorialFingerprint": "629dbd8f7a80c495f8604b1c8831d2feecf09928c6aebc8e22f148bed95304fe",
+    "plannedNewRequests": 1,
+    "reason": "Veus validades, pendents del següent lot dins el límit gratuït. Muntatge pendent de sintonies d’informatiu.",
+    "sharedJingle": {
+      "status": "awaiting-validation",
+      "programme": "informatiu",
+      "url": "./proves/sintonies-mireia.html"
+    }
+  },
+  "ca-S010": {
+    "state": "audio-corrections-pending",
+    "feedbackAt": "2026-11-20",
+    "feedback": [
+      {
+        "part": "pla",
+        "word": "Després",
+        "heard": "Desprén",
+        "status": "pending"
+      },
+      {
+        "part": "alternativa",
+        "word": "Til·lers",
+        "heard": "Tillers",
+        "status": "pending"
+      }
+    ],
+    "teacherAssessment": "Muntatge validat; pronunciacions pendents. Passos reals nous pendents d’audició.",
+    "plannedNewRequests": 1,
+    "repairPlan": "content/audio-repairs.json",
+    "listeningApproval": false
+  },
+  "ca-S013": {
+    "state": "audio-corrections-pending",
+    "feedbackAt": "2026-11-20",
+    "feedback": [
+      {
+        "part": "repartiment",
+        "word": "bústia",
+        "heard": "bustía",
+        "status": "pending"
+      },
+      {
+        "part": "error",
+        "word": "bústia",
+        "heard": "bustía",
+        "status": "pending"
+      }
+    ],
+    "teacherAssessment": "Valoració positiva; bústia pendent de corregir. Sintonia rebutjada, retirada; alternativa pendent.",
+    "plannedNewRequests": 1,
+    "repairPlan": "content/audio-repairs.json",
+    "listeningApproval": false
+  },
+  "ca-S022": {
+    "state": "audio-corrections-pending",
+    "feedbackAt": "2026-11-20",
+    "feedback": [
+      {
+        "part": "dema",
+        "word": "rails",
+        "heard": "ráils/ralls",
+        "status": "pending"
+      }
+    ],
+    "teacherAssessment": "Bon muntatge; rails pendent de corregir. Efectes de tramvia revisats pendents d’audició.",
+    "plannedNewRequests": 1,
+    "repairPlan": "content/audio-repairs.json",
+    "listeningApproval": false
   }
 };

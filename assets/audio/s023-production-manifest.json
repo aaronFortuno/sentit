@@ -1,0 +1,91 @@
+{
+  "code": "S023",
+  "activity": "ca-S023",
+  "date": "2026-11-20T12:38:23.648Z",
+  "state": "awaiting-audio-validation",
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "Presentadora": "Erinome",
+    "Pau": "Charon"
+  },
+  "newSynthesisRequests": 1,
+  "approvalFingerprint": "16b101dcfda79db8892502c717dbab36548e03b477c7fdd9918ebdfedfdfc864",
+  "requestHash": "f7ee3c6c2597e5eb39bfb92198870b47cd4920be40893e18ec23944bf6ba7d3c",
+  "rawSha256": "eac80f2575c694144fa2d8ddde29f7bfe58c036b619cb9c97dce39c92f3c0736",
+  "usage": {
+    "total_tokens": 5853,
+    "total_input_tokens": 1024,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 1024
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 4829,
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 4829
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 0,
+    "initial_input_tokens": 1024
+  },
+  "rawDuration": 193.16,
+  "cut": {
+    "at": 6.255,
+    "previousWordEnd": 5.52,
+    "nextWordStart": 6.99,
+    "peakDbFS": -58.5,
+    "rawSamplesPreserved": true
+  },
+  "file": "s023-mercat-v1.mp3",
+  "introFile": "s023-mercat-v1-intro.mp3",
+  "bodyFile": "s023-mercat-v1-cos.mp3",
+  "offset": 6.805,
+  "bodyDuration": 192.605,
+  "fullDuration": 199.41,
+  "lufs": -19.9,
+  "peakDbTP": -2.8,
+  "voice": {
+    "bodyLead": 2.5,
+    "bodyRawDuration": 186.905,
+    "untrimmedApartFromSilenceSplit": true,
+    "retimed": false
+  },
+  "effects": [
+    {
+      "name": "market-news-opening",
+      "start": 0,
+      "end": 2,
+      "origin": "original-procedural"
+    },
+    {
+      "name": "market-hall-steps",
+      "start": 62.26499999999999,
+      "end": 62.824999999999996,
+      "origin": "original-procedural"
+    },
+    {
+      "name": "market-hall-air",
+      "start": 62.26499999999999,
+      "end": 62.824999999999996,
+      "origin": "original-procedural"
+    },
+    {
+      "name": "market-paper",
+      "start": 62.80499999999999,
+      "end": 63.02499999999999,
+      "origin": "original-procedural"
+    },
+    {
+      "name": "market-news-ending",
+      "start": 189.705,
+      "end": 191.705,
+      "origin": "original-procedural"
+    }
+  ],
+  "sha256": "6dc57aac981867dea306d11442daa83d4834108a5c7aa7d1d10d85f78d5d15b5"
+}

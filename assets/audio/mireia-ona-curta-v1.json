@@ -1,0 +1,111 @@
+{
+  "id": "mireia-ona-curta-v1",
+  "title": "Ona curta",
+  "style": "Electrònic i lluminós",
+  "description": "Un motiu de sintetitzador suau, arpegi estèreo i coixí harmònic. Un aire de programa de ràdio.",
+  "status": "proposal-pending-human-validation",
+  "approval": null,
+  "origin": {
+    "type": "original-procedural-composition",
+    "author": "Sentit",
+    "license": "MIT",
+    "source": "tools/propose-mireia-variants.cjs",
+    "externalSamples": false,
+    "speech": false,
+    "apiRequests": 0
+  },
+  "recipe": {
+    "tempoBpm": 124,
+    "key": "La major",
+    "instrument": "pulse",
+    "production": "Síntesi local determinista, reflexions curtes, filtres, normalització en dues passades a −18 LUFS, MP3 estèreo 48 kHz/128 kbit/s.",
+    "masterGuard": "80 ms inicials i 120 ms finals de silenci, amb fosa abans de la cua."
+  },
+  "scope": "Només comparació; no incorporada a cap programa ni màster.",
+  "files": [
+    {
+      "kind": "obertura",
+      "file": "assets/audio/mireia-ona-curta-v1-obertura.mp3",
+      "durationSeconds": 4,
+      "integratedLufs": -18.44,
+      "truePeakDbtp": -8.12,
+      "sampleRate": 48000,
+      "channels": 2,
+      "safetySilenceSeconds": {
+        "start": 0.120146,
+        "end": 0.159437
+      },
+      "sha256": "62016b7d191327628b1ca3b0be77e46e0c273a9732e04152ca2cde6efca33d7a",
+      "rawSha256": "6e5dab7d36b906fe90c37398c4d514d325f002371216e8bbdd16c65a827d4101",
+      "decodeVerified": true,
+      "melody": [
+        {
+          "beat": 0,
+          "midi": 69
+        },
+        {
+          "beat": 0.5,
+          "midi": 76
+        },
+        {
+          "beat": 1,
+          "midi": 73
+        },
+        {
+          "beat": 1.75,
+          "midi": 78
+        },
+        {
+          "beat": 2.5,
+          "midi": 76
+        },
+        {
+          "beat": 3.25,
+          "midi": 73
+        },
+        {
+          "beat": 4.5,
+          "midi": 69
+        }
+      ]
+    },
+    {
+      "kind": "tancament",
+      "file": "assets/audio/mireia-ona-curta-v1-tancament.mp3",
+      "durationSeconds": 3.6,
+      "integratedLufs": -18.45,
+      "truePeakDbtp": -8.5,
+      "sampleRate": 48000,
+      "channels": 2,
+      "safetySilenceSeconds": {
+        "start": 0.120125,
+        "end": 0.158146
+      },
+      "sha256": "2ec44fc31e176c8ee86b57167eef042d66b3e38879ce5c092ab353971c5ff4cc",
+      "rawSha256": "ff84fdc137f5107e3ce330cd3e35bd939348734453a3fc798e784764fe20e5ff",
+      "decodeVerified": true,
+      "melody": [
+        {
+          "beat": 0,
+          "midi": 76
+        },
+        {
+          "beat": 0.5,
+          "midi": 73
+        },
+        {
+          "beat": 1.25,
+          "midi": 71
+        },
+        {
+          "beat": 2.25,
+          "midi": 73
+        },
+        {
+          "beat": 3.5,
+          "midi": 69
+        }
+      ]
+    }
+  ]
+}

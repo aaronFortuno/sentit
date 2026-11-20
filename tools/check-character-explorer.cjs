@@ -38,7 +38,15 @@ function waveFixture() {
     page.on('pageerror', error => errors.push(error.message));
     page.on('request', request => { if (/generativelanguage|texttospeech|tts\.speech/i.test(request.url())) synthesis.push(request.url()); });
     await page.route('**/*', route => new URL(route.request().url()).hostname === '127.0.0.1' ? route.continue() : route.abort());
-    const codes = () => page.locator('.activity-card-code').allTextContents().then(rows => rows.map(row => row.split(' · ')[0]).sort());
+    const codes = async () => {
+      for (let i=0;i<4;i++) {
+        const before=await page.locator('.activity-card').count();
+        await page.locator('.catalog-results-scroll').evaluate(node=>{node.scrollTop=node.scrollHeight;node.dispatchEvent(new Event('scroll'));});
+        await page.evaluate(()=>new Promise(requestAnimationFrame));
+        if(await page.locator('.activity-card').count()===before)break;
+      }
+      return page.locator('.activity-card-code').allTextContents().then(rows=>rows.map(row=>row.split(' · ')[0]).sort());
+    };
     const chip = id => page.locator(`[data-filter-character="${id}"]`);
     const roster = id => page.locator(`#dialog-character-explorer [data-character="${id}"]`);
     const open = async () => { await page.locator('#meet-characters').click(); await page.locator('#characters-dialog').waitFor({ state: 'visible' }); };
@@ -49,15 +57,15 @@ function waveFixture() {
     assert.equal(await page.locator('#characters-dialog .character-introduction-play').isDisabled(), true);
     assert.match(await page.locator('#characters-dialog .character-greeting').innerText(), /Soc la Laia/);
     await roster('biel').click();
-    assert.equal(await page.locator('#characters-dialog .character-story').count(), 10);
+    assert.equal(await page.locator('#characters-dialog .character-story').count(), 11);
     assert.equal(await page.locator('#characters-dialog .character-profile-intro h3').innerText(), 'Biel');
     assert.equal(await page.locator('#characters-dialog .voice-badge, #characters-dialog .character-sheet').count(), 0);
     await close();
     assert.equal(await page.evaluate(() => document.activeElement.id), 'meet-characters');
 
     await page.locator('#character-filter summary').click();
-    await chip('biel').click(); assert.deepEqual(await codes(), ['S001','S003','S005','S007','S010','S011','S012','S015','S017','S024']);
-    await chip('laia').click(); assert.deepEqual(await codes(), ['S001','S003','S005','S007','S010','S011','S012','S015','S017','S019','S021','S024']);
+    await chip('biel').click(); assert.deepEqual(await codes(), ['S001','S003','S005','S007','S010','S011','S012','S014','S015','S017','S024']);
+    await chip('laia').click(); assert.deepEqual(await codes(), ['S001','S003','S005','S007','S010','S011','S012','S014','S015','S017','S019','S021','S024']);
     await page.locator('#character-match').selectOption('all'); assert.deepEqual(await codes(), ['S001','S003','S007','S010','S011','S017','S024']);
     assert.match(page.url(), /coincidencia=tots/);
     await page.reload(); await page.locator('.activity-card').first().waitFor();
@@ -65,17 +73,17 @@ function waveFixture() {
     assert.equal(await chip('biel').getAttribute('aria-pressed'), 'true');
     await chip('nora').click(); assert.deepEqual(await codes(), []);
     assert.equal(await page.locator('#catalog-empty').isVisible(), true);
-    await page.locator('#character-match').selectOption('any'); assert.deepEqual(await codes(), ['S001','S003','S005','S007','S010','S011','S012','S015','S017','S019','S021','S024']);
-    await page.locator('#grade').selectOption('5'); assert.deepEqual(await codes(), ['S001', 'S015', 'S017']);
+    await page.locator('#character-match').selectOption('any'); assert.deepEqual(await codes(), ['S001','S003','S005','S007','S010','S011','S012','S014','S015','S017','S019','S021','S024']);
+    await page.locator('#grade').selectOption('5'); assert.deepEqual(await codes(), ['S001', 'S014', 'S015', 'S017']);
     await page.locator('#genre').selectOption('interview'); assert.deepEqual(await codes(), ['S015']);
-    await page.locator('#reset-filters').click(); assert.equal((await codes()).length, Math.min(12,activities.length));
+    await page.locator('#reset-filters').click(); assert.equal((await codes()).length, activities.length);
     assert.equal(new URL(page.url()).searchParams.has('personatge'), false);
     await page.locator('#collection-select').selectOption('character-test');
     await page.locator('#grade').selectOption('6'); await page.locator('#search').fill('mercat');
     await open(); await roster('biel').click();
     await page.locator('#characters-dialog .character-detail-actions button').click();
     await page.locator('#characters-dialog').waitFor({ state: 'hidden' });
-    assert.deepEqual(await codes(), ['S001','S003','S005','S007','S010','S011','S012','S015','S017','S024']);
+    assert.deepEqual(await codes(), ['S001','S003','S005','S007','S010','S011','S012','S014','S015','S017','S024']);
     assert.equal(await page.locator('#collection-select').inputValue(), '');
     assert.equal(await page.locator('#grade').inputValue(), '');
     assert.equal(await page.locator('#search').inputValue(), '');

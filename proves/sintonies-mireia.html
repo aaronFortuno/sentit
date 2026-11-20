@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#f7f5ee">
-  <meta name="description" content="Proposta d’obertura i tancament musical per als programes de la Mireia, pendent de validació.">
+  <meta name="description" content="Quatre propostes de sintonies per comparar estils i triar l’obertura i el tancament dels programes de la Mireia.">
   <link rel="icon" href="../assets/sentit.svg" type="image/svg+xml">
   <title>Sentit · La sintonia de la Mireia</title>
   <style>
@@ -27,6 +27,12 @@
     h1 { max-width: 650px; margin: 0 0 1rem; font: 700 clamp(2.1rem, 5.5vw, 3.25rem)/1.08 Georgia, serif; letter-spacing: -.025em; }
     .lead { max-width: 650px; margin: 0 0 1rem; font-size: 1.08rem; }
     .status { display: inline-block; margin: 0; padding: .35rem .75rem; border: 1px solid #c9d5c6; border-radius: 999px; background: #e7eee5; color: #234d43; font-size: .83rem; font-weight: 600; }
+    .proposal { margin-top: 2.4rem; padding-top: 1.8rem; border-top: 1px solid #d5dace; }
+    .proposal-header { display: flex; align-items: baseline; gap: .7rem 1.2rem; flex-wrap: wrap; }
+    .proposal .style { color: #52645b; font-size: .86rem; }
+    .proposal > p { margin: .6rem 0; color: #52645b; }
+    h3 { margin: 0; font: 700 1.3rem/1.2 Georgia, serif; }
+    a { transition: color 220ms; }
     .players { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.2rem; margin-block: 2rem 1.2rem; }
     .piece { min-width: 0; padding: 1.5rem; border: 1px solid #d5dace; border-radius: 14px; background: #fffefa; }
     .piece-top { display: flex; justify-content: space-between; align-items: baseline; gap: .75rem; }
@@ -61,35 +67,96 @@
   </header>
   <main class="shell" id="audicio">
     <p class="eyebrow">Audició · Programes de la Mireia</p>
-    <h1>Una melodia per començar i acabar.</h1>
-    <p class="lead">Una parella de sintonies breus, càlides i instrumentals per donar la benvinguda i acomiadar els programes de la Mireia.</p>
-    <p class="status">Proposta pendent de validació</p>
+    <h1>Quatre estils per començar i acabar.</h1>
+    <p class="lead">Escolta l’obertura i el tancament de cada proposta. L’original es conserva i hi afegim tres estils diferents, tots instrumentals i amb un volum semblant.</p>
+    <p class="status">Totes les propostes, pendents de validació</p>
 
+    <section class="proposal" aria-labelledby="petita-title">
+      <div class="proposal-header"><h2 id="petita-title">1. Petita descoberta</h2><span class="style">Fusta afinada i piano · original</span></div>
     <div class="players">
       <section class="piece" aria-labelledby="opening-title">
-        <div class="piece-top"><h2 id="opening-title">Obertura</h2><span class="duration">3,8 segons</span></div>
+        <div class="piece-top"><h3 id="opening-title">Obertura</h3><span class="duration">3,8 segons</span></div>
         <p id="opening-description">Un petit motiu que puja amb curiositat, amb fusta afinada, piano suau i un final reposat.</p>
         <audio controls preload="metadata" aria-labelledby="opening-title" aria-describedby="opening-description"><source src="../assets/audio/mireia-jingle-proposta-v1-obertura.mp3" type="audio/mpeg">El navegador no pot reproduir aquest àudio. Pots descarregar-lo amb l’enllaç següent.</audio>
         <a class="download" href="../assets/audio/mireia-jingle-proposta-v1-obertura.mp3" download>Descarrega l’obertura</a>
       </section>
       <section class="piece" aria-labelledby="closing-title">
-        <div class="piece-top"><h2 id="closing-title">Tancament</h2><span class="duration">3,4 segons</span></div>
+        <div class="piece-top"><h3 id="closing-title">Tancament</h3><span class="duration">3,4 segons</span></div>
         <p id="closing-description">La mateixa família de notes torna cap a casa, amb una cadència suau que tanca el programa.</p>
         <audio controls preload="metadata" aria-labelledby="closing-title" aria-describedby="closing-description"><source src="../assets/audio/mireia-jingle-proposta-v1-tancament.mp3" type="audio/mpeg">El navegador no pot reproduir aquest àudio. Pots descarregar-lo amb l’enllaç següent.</audio>
         <a class="download" href="../assets/audio/mireia-jingle-proposta-v1-tancament.mp3" download>Descarrega el tancament</a>
       </section>
     </div>
-    <p class="note">Les peces es deixaran acabar abans de començar a parlar o després del comiat. Aquesta proposta s’escolta i es valida per separat; encara no s’ha incorporat als programes.</p>
+      <a class="download" href="../assets/audio/mireia-jingle-proposta-v1.json">Dades i origen de Petita descoberta</a>
+    </section>
+
+    <section class="proposal" aria-labelledby="mireia-fil-de-veu-v1-title">
+      <div class="proposal-header"><h2 id="mireia-fil-de-veu-v1-title">2. Fil de veu</h2><span class="style">Càlid i reposat</span></div>
+      <p>Piano elèctric sintetitzat, acords oberts i notes espaiades. Una entrada tranquil·la, sense percussió.</p>
+      <div class="players">
+        <section class="piece" aria-labelledby="mireia-fil-de-veu-v1-obertura-title">
+          <div class="piece-top"><h3 id="mireia-fil-de-veu-v1-obertura-title">Obertura</h3><span class="duration">4,2 segons</span></div>
+          <audio controls preload="metadata" aria-labelledby="mireia-fil-de-veu-v1-obertura-title"><source src="../assets/audio/mireia-fil-de-veu-v1-obertura.mp3" type="audio/mpeg">El navegador no pot reproduir aquest àudio.</audio>
+          <a class="download" href="../assets/audio/mireia-fil-de-veu-v1-obertura.mp3" download>Descarrega l’obertura</a>
+        </section>
+        <section class="piece" aria-labelledby="mireia-fil-de-veu-v1-tancament-title">
+          <div class="piece-top"><h3 id="mireia-fil-de-veu-v1-tancament-title">Tancament</h3><span class="duration">3,8 segons</span></div>
+          <audio controls preload="metadata" aria-labelledby="mireia-fil-de-veu-v1-tancament-title"><source src="../assets/audio/mireia-fil-de-veu-v1-tancament.mp3" type="audio/mpeg">El navegador no pot reproduir aquest àudio.</audio>
+          <a class="download" href="../assets/audio/mireia-fil-de-veu-v1-tancament.mp3" download>Descarrega el tancament</a>
+        </section>
+      </div>
+      <a class="download" href="../assets/audio/mireia-fil-de-veu-v1.json">Dades i origen de Fil de veu</a>
+    </section>
+
+    <section class="proposal" aria-labelledby="mireia-pas-a-pas-v1-title">
+      <div class="proposal-header"><h2 id="mireia-pas-a-pas-v1-title">3. Pas a pas</h2><span class="style">Rítmic i juganer</span></div>
+      <p>Percussió de fusta sintetitzada, petits contratemps i baix curt. Més moviment i un final sec.</p>
+      <div class="players">
+        <section class="piece" aria-labelledby="mireia-pas-a-pas-v1-obertura-title">
+          <div class="piece-top"><h3 id="mireia-pas-a-pas-v1-obertura-title">Obertura</h3><span class="duration">3,8 segons</span></div>
+          <audio controls preload="metadata" aria-labelledby="mireia-pas-a-pas-v1-obertura-title"><source src="../assets/audio/mireia-pas-a-pas-v1-obertura.mp3" type="audio/mpeg">El navegador no pot reproduir aquest àudio.</audio>
+          <a class="download" href="../assets/audio/mireia-pas-a-pas-v1-obertura.mp3" download>Descarrega l’obertura</a>
+        </section>
+        <section class="piece" aria-labelledby="mireia-pas-a-pas-v1-tancament-title">
+          <div class="piece-top"><h3 id="mireia-pas-a-pas-v1-tancament-title">Tancament</h3><span class="duration">3,4 segons</span></div>
+          <audio controls preload="metadata" aria-labelledby="mireia-pas-a-pas-v1-tancament-title"><source src="../assets/audio/mireia-pas-a-pas-v1-tancament.mp3" type="audio/mpeg">El navegador no pot reproduir aquest àudio.</audio>
+          <a class="download" href="../assets/audio/mireia-pas-a-pas-v1-tancament.mp3" download>Descarrega el tancament</a>
+        </section>
+      </div>
+      <a class="download" href="../assets/audio/mireia-pas-a-pas-v1.json">Dades i origen de Pas a pas</a>
+    </section>
+
+    <section class="proposal" aria-labelledby="mireia-ona-curta-v1-title">
+      <div class="proposal-header"><h2 id="mireia-ona-curta-v1-title">4. Ona curta</h2><span class="style">Electrònic i lluminós</span></div>
+      <p>Un motiu de sintetitzador suau, arpegi estèreo i coixí harmònic. Un aire de programa de ràdio.</p>
+      <div class="players">
+        <section class="piece" aria-labelledby="mireia-ona-curta-v1-obertura-title">
+          <div class="piece-top"><h3 id="mireia-ona-curta-v1-obertura-title">Obertura</h3><span class="duration">4 segons</span></div>
+          <audio controls preload="metadata" aria-labelledby="mireia-ona-curta-v1-obertura-title"><source src="../assets/audio/mireia-ona-curta-v1-obertura.mp3" type="audio/mpeg">El navegador no pot reproduir aquest àudio.</audio>
+          <a class="download" href="../assets/audio/mireia-ona-curta-v1-obertura.mp3" download>Descarrega l’obertura</a>
+        </section>
+        <section class="piece" aria-labelledby="mireia-ona-curta-v1-tancament-title">
+          <div class="piece-top"><h3 id="mireia-ona-curta-v1-tancament-title">Tancament</h3><span class="duration">3,6 segons</span></div>
+          <audio controls preload="metadata" aria-labelledby="mireia-ona-curta-v1-tancament-title"><source src="../assets/audio/mireia-ona-curta-v1-tancament.mp3" type="audio/mpeg">El navegador no pot reproduir aquest àudio.</audio>
+          <a class="download" href="../assets/audio/mireia-ona-curta-v1-tancament.mp3" download>Descarrega el tancament</a>
+        </section>
+      </div>
+      <a class="download" href="../assets/audio/mireia-ona-curta-v1.json">Dades i origen de Ona curta</a>
+    </section>
+
+    <p class="note">Les peces es deixaran acabar abans de començar a parlar o després del comiat. Estem estudiant dues identitats sonores: un informatiu i un magazín d’entrevistes, converses i curiositats. Les propostes encara no s’han assignat a cap d’aquests espais. Les quatre propostes es comparen per separat: encara no se n’ha incorporat cap als programes. En reproduir-ne una, s’atura l’anterior.</p>
 
     <section class="origin" aria-labelledby="origin-title">
       <h2 id="origin-title">Composició original de Sentit · MIT</h2>
-      <p>Música creada localment amb instruments sintetitzats, sense veus ni mostres externes. L’obertura i el tancament comparteixen motiu, instruments i tonalitat.</p>
+      <p>Música creada localment amb instruments sintetitzats, sense veus ni mostres externes. Dins de cada parella, l’obertura i el tancament comparteixen una identitat musical. Totes s’han normalitzat a un volum semblant per facilitar la comparació.</p>
       <div class="origin-links">
         <a href="../assets/audio/mireia-jingle-proposta-v1.json">Origen i dades dels àudios</a>
-        <a href="../tools/propose-mireia-jingle.cjs">Recepta de composició</a>
+        <a href="../tools/propose-mireia-jingle.cjs">Recepta de l’original</a>
+        <a href="../tools/propose-mireia-variants.cjs">Recepta de les tres alternatives</a>
       </div>
     </section>
   </main>
   <footer><div class="shell"><p>Sentit · Escoltar és seguir el fil.</p></div></footer>
+  <script>document.addEventListener("play",event=>{if(event.target.tagName==="AUDIO")document.querySelectorAll("audio").forEach(audio=>{if(audio!==event.target)audio.pause();});},true);</script>
 </body>
 </html>

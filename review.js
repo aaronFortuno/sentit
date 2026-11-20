@@ -1,3 +1,4 @@
+import { hasApprovedScript } from './editorial-review.js';
 export const isPendingReview = entry => entry?.reviewStatus === 'pending';
 export const isAudioReview = entry => entry?.reviewStatus === 'audio-review';
 export const needsReview = entry => isPendingReview(entry) || isAudioReview(entry);
@@ -30,7 +31,7 @@ export function reviewScript(entry, labels, session) {
     if (last) body.push(direction(labels.takeEnd(last.id)));
   }
   return [
-    ...(entry.productionNotes ?? []).map(direction),
+    ...(entry.productionNotes ?? []).map((text,index)=>direction(index===0&&hasApprovedScript(entry)?text.replace(/^Proposta pendent de validar\./,labels.reviewReadyNotice+'.'):text)),
     ...((plan.jingle ?? true) ? [direction(labels.reviewSignature)] : []),
     ...(introTake ? [marker(introTake)] : []),
     ...opening,

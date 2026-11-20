@@ -1,0 +1,25 @@
+{
+  "status": "all-proposals-pending-validation",
+  "existing": "assets/audio/mireia-jingle-proposta-v1.json",
+  "newProposals": [
+    {
+      "id": "mireia-fil-de-veu-v1",
+      "title": "Fil de veu",
+      "style": "Càlid i reposat",
+      "manifest": "assets/audio/mireia-fil-de-veu-v1.json"
+    },
+    {
+      "id": "mireia-pas-a-pas-v1",
+      "title": "Pas a pas",
+      "style": "Rítmic i juganer",
+      "manifest": "assets/audio/mireia-pas-a-pas-v1.json"
+    },
+    {
+      "id": "mireia-ona-curta-v1",
+      "title": "Ona curta",
+      "style": "Electrònic i lluminós",
+      "manifest": "assets/audio/mireia-ona-curta-v1.json"
+    }
+  ],
+  "newApiRequests": 0
+}

@@ -13,10 +13,11 @@ assert.equal(base.length,24);
 assert.deepEqual(base.map(entry=>entry.code),Array.from({length:24},(_,i)=>'S'+String(i+1).padStart(3,'0')));
 for(const grade of ['3','4','5','6']){
  const set=base.filter(entry=>entry.grade===grade);assert.equal(set.length,6);
- for(const level of ['easy','middle','advanced'])assert.equal(set.filter(entry=>entry.level===level).length,2);
+ for(const level of ['easy','middle','advanced'])assert(set.some(entry=>entry.level===level),grade+' has coverage of '+level);
  assert.equal(new Set(set.map(entry=>entry.genre)).size,6);
 }
 assert.equal(proposedActivities.length,19);
+assert.equal(activities.find(entry=>entry.code==='S011').level,'advanced','Teacher calibration: S011 is 4t avançada');
 let questions=0;
 for(const entry of [...proposedActivities,...proposedVariants]){
  assert(['pending','audio-review'].includes(entry.reviewStatus));
@@ -51,4 +52,4 @@ for(const entry of [...proposedActivities,...proposedVariants]){
  if(approved)assert.doesNotThrow(()=>assertProductionApproved(entry,spec,plans[entry.code]));
  else assert.throws(()=>assertProductionApproved(entry,spec,plans[entry.code]),/validar/);
 }
-console.log(`PASS · 24 base codes, six per grade, balanced levels and genres; ${proposedActivities.length} proposals and ${proposedVariants.length} comparison variant, ${questions} questions, exact evidence, recurring cast and gated request plans. Zero synthesis.`);
+console.log(`PASS · 24 base codes, six per grade, all levels and genres, teacher-calibrated difficulty; ${proposedActivities.length} proposals and ${proposedVariants.length} comparison variant, ${questions} questions, exact evidence, recurring cast and gated request plans. Zero synthesis.`);

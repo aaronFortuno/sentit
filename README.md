@@ -14,15 +14,21 @@ Els **24 codis base, ca-S001–ca-S024**, ja tenen guió, preguntes i solucionar
 
 **S004 i S004D es conserven per comparar** i tenen els guions validats i els àudios produïts: narradora Aoede a S004; Aina/Zephyr i avi Ferran/Algenib a la variant dialogada. Una petició per peça, amb fragments de **85,705 s** i **88,26 s**. Comparteixen intencionadament la composició original «Un fil per seguir», amb mescles pròpies molt suaus, foses i fregadís de roba. Tots dos àudios esperen audició docent.
 
-**S007, S011 i S017 són escenes d’aula**: Mireia, Laia i Biel pregunten, proposen i responen; cal escoltar també els companys. El pla preveu dues peticions, una amb els torns de la mestra i una amb els alumnes, i intercalació local dins les pauses comprovades. No s’han sintetitzat. **S020 ja té les veus rebudes**, amb una petició; el muntatge espera validar la [parella de sintonies originals de Mireia](https://sentit.ortogra.fi/proves/sintonies-mireia.html), que no s’ha incorporat a cap programa.
+**S007, S011 i S017 són escenes d’aula**: Mireia, Laia i Biel pregunten, proposen i responen; cal escoltar també els companys. El pla preveu dues peticions, una amb els torns de la mestra i una amb els alumnes, i intercalació local dins les pauses comprovades. No s’han sintetitzat. **S020 ja té les veus rebudes**, amb una petició; el muntatge espera validar la [comparativa de sintonies originals](https://sentit.ortogra.fi/proves/sintonies-mireia.html), encara sense cap opció incorporada als programes.
 
 Al web, cerca el codi i obre la proposta: el solucionari mostra el guió i l’escaleta primer. Es mantenen els sobreimpresos, les marques d’esborrany i el bloqueig d’impressió. Les il·lustracions noves es prepararan després de validar el contingut. [Dossier amb índex i fonts](docs/lot-editorial-24.md) · [Taula de fases de totes les peces](docs/seguiment-produccio.md).
 
-Sis peces per curs, dues de cada dificultat i una per tipologia: diàleg, narració, entrevista, notícia, instruccions i explicació. La cerca per codi abasta tot el catàleg. Primer es mostren dotze targetes i se n’afegeixen vuit automàticament en arribar al final; si la pantalla té més espai, es continua omplint. L’ordre del catàleg és aleatori en cada visita i estable mentre es filtra. Les col·leccions mantenen l’ordre desat del docent. Els plans agrupen el text en una petició per a una o dues veus; les escenes de tres veus en preveuen dues; no s’envia res sense confirmar-ne el guió i el muntatge.
+Sis peces per curs, amb dificultats orientatives ajustades amb el docent i una per tipologia: diàleg, narració, entrevista, notícia, instruccions i explicació. La cerca per codi abasta tot el catàleg. Primer es mostren dotze targetes i se n’afegeixen vuit automàticament en arribar al final; si la pantalla té més espai, es continua omplint. L’ordre del catàleg és aleatori en cada visita i estable mentre es filtra. Les col·leccions mantenen l’ordre desat del docent. Els plans agrupen el text en una petició per a una o dues veus; les escenes de tres veus en preveuen dues; no s’envia res sense confirmar-ne el guió i el muntatge.
 
 ## Última producció i següent revisió
 
-**S005 · La feina d’una cartera**: salutacions retornades i comiat mutu de Biel/Puck i Joana/Vindemiatrix. Una petició, fragment de **103,33 s** (107,45 s amb títol), sintonia, sobres i passes fora de les dades. Muntatge pendent d’audició. **S021 · Per què una ciutat guarda la calor?**: contingut validat i nova proposta de recerca guiada amb Mireia i Laia, 400 mots, 16 intervencions i vuit preguntes. [Guió dialogat pendent de validar](docs/s021-recerca.md), encara sense síntesi.
+**S019** ja té muntatge de Laia/Leda i Ona/Sulafat, una petició completa amb el «Sí, sí» solapat sol·licitat: fragment de **110,59 s**, 115,09 s amb títol. **S023** també està muntada, amb 192,605 s de fragment. Tots dos àudios esperen audició. **S006, S011 i S021** tenen guió validat i veus pendents per al següent lot gratuït; S011 passa a **4t avançada**. El 20/11/2026 s’han registrat deu peticions des del restabliment: no se n’han enviat més.
+
+**S009, S014, S017 i S024** tenen esmenes noves revisades independentment i esperen el docent: biblioteca i bústia amb el text proposat; germinació amb preguntes d’en Biel i reconduccions de la Mireia a S014; context del grup, coordinació i entrevista establerts a S017; llenguatge quotidià i acord construït entre Laia/Biel a S024. Cap síntesi d’aquestes versions.
+
+[Quatre parelles de sintonies per comparar](https://sentit.ortogra.fi/proves/sintonies-mireia.html): «Petita descoberta», «Fil de veu», «Pas a pas» i «Ona curta». Les tres noves són síntesi instrumental local, sense API; totes estan pendents de tria i no s’han incorporat als programes. Es preveuen identitats separades per a un informatiu i un magazín, encara sense noms ni locucions assignats.
+
+**S005 · La feina d’una cartera**: salutacions retornades i comiat mutu de Biel/Puck i Joana/Vindemiatrix. Una petició, fragment de **103,33 s** (107,45 s amb títol), sintonia, sobres i passes fora de les dades. Muntatge pendent d’audició. **S021 · Per què una ciutat guarda la calor?**: contingut validat i nova proposta de recerca guiada amb Mireia i Laia, 400 mots, 16 intervencions i vuit preguntes. [Guió dialogat validat](docs/s021-recerca.md), amb les veus pendents del següent lot gratuït.
 
 **S012 · Qui arregla els instruments?**: salutacions de Biel/Puck i Elies/Algieba, guitarra real de khenshom (CC0) abans de parlar i silenci al final. Una petició conservada; el comiat queda en «Gràcies, Elies.» amb un retall local comprovat, sense nova síntesi. Fragment de **112,39 s** (116,57 s amb títol). **S016 · Una troballa al jaciment**: Mar/Erinome, tancament pràctic confirmat pel docent, una petició i fragment de **135,23 s** (140,61 s amb títol). Tots dos muntatges esperen audició. [Revisió dels altres tancaments pendents](docs/revisio-tancaments.md).
 
@@ -36,7 +42,7 @@ Sis peces per curs, dues de cada dificultat i una per tipologia: diàleg, narrac
 
 [Escolta S008R](https://sentit.ortogra.fi/?escolta=ca-S008R): programa de ràdio de «La foto que faltava», amb guió i muntatge validats pel docent. S’ha produït amb **una petició**, conservant la presentació existent: 513 tokens d’entrada i 2.373 d’àudio de sortida. El fragment dura **99,77 s** i el fitxer amb títol **104,88 s**. La narradora és Aoede. La música, la pàgina, els solapaments i els silencis són de muntatge local. [Manifest de producció](assets/audio/s008r-production-manifest.json).
 
-La següent proposta és [S023 · Reobren el mercat](https://sentit.ortogra.fi/#lectura=ca-S023), pendent de validar. Proposa Erinome per a la Mar i Charon per a en Pau, amb el títol i tota la notícia en una única petició. Un tall local dins una pausa separaria les pistes. L’escaleta intercalada i les notes de «Talls per a Gemini» mostren què s’enviaria, els sons originals previstos i els trams de veu neta. Encara no s’ha sintetitzat.
+[S023 · Reobren el mercat](https://sentit.ortogra.fi/#lectura=ca-S023) ja té guió validat i muntatge amb Erinome/Mar i Charon/Pau: una petició, fragment de **192,605 s** i màster amb títol de **199,41 s**. Capçalera, transició al testimoni i sortida originals. Àudio pendent d’audició docent.
 
 `node tools/produce-radio.cjs --plan` calcula el pla i comprova la memòria cau sense xarxa. `--synthesize` només envia el bloc aprovat si falta, registra l’intent i té un topall d’una petició, sense reintents automàtics. `node tools/render-radio.cjs` munta la presa conservada i reutilitza la presentació, sense síntesi nova. Les marques de paraula s’obtenen amb el model Vosk de català ja instal·lat localment; `VOSK_ASSETS_PATH` permet indicar una altra carpeta amb `vosk.js` i `vosk-model-small-ca-0.4.tar.gz`. Cal Playwright/Chrome i FFmpeg per al muntatge i les comprovacions locals.
 
@@ -115,7 +121,7 @@ Les presentacions es defineixen a `character.introduction`, amb text, idioma i `
 
 Els [criteris de continuïtat](docs/personatges.md) fixen noms, identitats i episodis independents, sense ordre obligatori ni coneixement previ per respondre. [content/characters.js](content/characters.js) és el registre editorial que alimenta la galeria; els [models i prompts](assets/characters/README.md) serveixen per generar escenes noves sense confondre personatges.
 
-Les candidates no canvien la producció automàticament: S015 ha passat a Kore després de validar explícitament el repartiment, i l’àudio continua pendent d’audició. La presa parcial antiga amb Aoede es conserva a l’arxiu. S023 proposa Erinome per a la Mar, encara sense síntesi. Cal actualitzar les assignacions i els crèdits en cada producció, i no barrejar dues identitats vocals d’un personatge dins del mateix màster.
+Les candidates no canvien la producció automàticament: S015 ha passat a Kore després de validar explícitament el repartiment, i l’àudio continua pendent d’audició. La presa parcial antiga amb Aoede es conserva a l’arxiu. S023 utilitza Erinome per a la Mar, amb àudio pendent d’audició. Cal actualitzar les assignacions i els crèdits en cada producció, i no barrejar dues identitats vocals d’un personatge dins del mateix màster.
 
 La [prova de veus d’«El senyal de la ràdio»](proves/veus-s001.html) permet comparar les dues primeres intervencions amb Aoede–Charon i Leda–Puck. La comprensió completa fa servir les veus juvenils. Cal ajustar-hi l’edat i el context dels personatges dels guions futurs.
 
@@ -123,7 +129,7 @@ La [revisió del prototip S001](content/el-senyal-de-la-radio-revisio.md) recull
 
 ## Proposta del fons inicial
 
-La [proposta de catàleg](docs/proposta-cataleg.md) defineix les 24 activitats de 3r a 6è, ara totes preparades com a guió i material de revisió. De la primera tanda, S002, S008, la revisió S008R i S015 ja es poden escoltar. S023 i les 19 noves peces esperen validar la proposta abans de sintetitzar. La [previsió de cost](docs/cost-produccio.md) calcula escenaris de 100, 200 i 300 activitats, amb marge de repetició i tarifes de 2026 i 2027. No s’ha activat facturació.
+La [proposta de catàleg](docs/proposta-cataleg.md) defineix les 24 activitats de 3r a 6è, ara totes preparades com a guió i material de revisió. De la primera tanda, S002, S008, la revisió S008R i S015 ja es poden escoltar. La taula de fases identifica els guions encara pendents, els validats que esperen veus i els muntatges pendents d’audició. La [previsió de cost](docs/cost-produccio.md) calcula escenaris de 100, 200 i 300 activitats, amb marge de repetició i tarifes de 2026 i 2027. No s’ha activat facturació.
 
 ## Desenvolupament
 
@@ -174,7 +180,7 @@ node tools/generate-prototypes.cjs --plan
 node tools/check-audio-plan.cjs
 ```
 
-Les activitats noves agrupen el títol i el fragment en una petició quan comparteixen un màxim de dues veus; després se separen dins una pausa comprovada. Els màsters i les preses antigues es conserven. S015 ja ho ha fet amb Puck i Kore, sense barrejar la presa antiga d’Aoede. S023 segueix la mateixa proposta d’agrupació, encara pendent de validar. El generador antic de dues peticions es conserva per als materials històrics.
+Les activitats noves agrupen el títol i el fragment en una petició quan comparteixen un màxim de dues veus; després se separen dins una pausa comprovada. Els màsters i les preses antigues es conserven. S015 ja ho ha fet amb Puck i Kore, sense barrejar la presa antiga d’Aoede. S023 també s’ha produït així, amb Mar i Pau. El generador antic de dues peticions es conserva per als materials històrics.
 
 Només després de validar el guió, les veus i el muntatge complet i registrar-ne l’empremta aprovada, amb quota disponible, Gemini configurat i FFmpeg disponible:
 
@@ -183,7 +189,7 @@ node tools/produce-interview.cjs --synthesize
 node tools/render-interview.cjs
 ```
 
-S015 ja té la presa completa en memòria cau: repetir la primera ordre no torna a enviar-la. `node tools/check-interview.cjs` comprova empremtes, durades, marges del tall, nivells i integritat dels MP3 sense xarxa. S023 només té un pla (`node tools/generate-prototypes.cjs --plan --only=S023`); el generador bloqueja la síntesi sense validació.
+S015 ja té la presa completa en memòria cau: repetir la primera ordre no torna a enviar-la. `node tools/check-interview.cjs` comprova empremtes, durades, marges del tall, nivells i integritat dels MP3 sense xarxa. S023 utilitza `node tools/produce-proposal.cjs --only=S023 --synthesize` i `node tools/render-proposal.cjs --only=S023`; la presa completa en memòria cau evita repetir la petició.
 
 Els WAV, registres i màsters de treball es conserven a `../output/sentit-primera-tanda`, fora del repositori. El generador admet `GEMINI_API_KEY` a l’entorn o el fitxer privat de treball `../.private/comprensio-oral/gemini.env`; aquestes dades no s’envien al web. `FFMPEG_PATH` permet indicar el binari si no és al PATH ni a la instal·lació local coneguda. Cal Node amb `fetch` i `parseEnv`.
 
@@ -194,3 +200,8 @@ El guió ha de coincidir amb les empremtes de les preses reutilitzades. En acaba
 Consulta els [crèdits](CREDITS.md) i la [llicència del codi](LICENSE).
 
 Les comprovacions del so són `node tools/check-sound.cjs` (regles, aprovació, ritme i temporitzadors), `node tools/check-master-audio.cjs` (integritat, marges i durades dels MP3) i `node tools/check-sound-ui.cjs` (reproducció nativa, QR, configuració persistent, V4V i PDF en navegador local). No fan peticions de síntesi. `node tools/remaster-audio.cjs` refà únicament els màsters des dels WAV locals conservats; no llegeix credencials ni fa peticions de xarxa.
+
+
+### Dicció i efectes en revisió
+
+S010, S013 i S022 tenen feedback positiu amb errors concrets de pronunciació encara oberts. Les revisions v2 canvien només els efectes: passos reals CC0, retirada de la sintonia final de S013 i tramvia real CC0. Les veus no s’han retocat. [Incidències, tres proves curtes preparades i procediment de reparació](docs/pronunciacio-tts.md). Cap petició nova després de les deu registrades avui.

@@ -1,0 +1,99 @@
+{
+  "id": "mireia-fil-de-veu-v1",
+  "title": "Fil de veu",
+  "style": "Càlid i reposat",
+  "description": "Piano elèctric sintetitzat, acords oberts i notes espaiades. Una entrada tranquil·la, sense percussió.",
+  "status": "proposal-pending-human-validation",
+  "approval": null,
+  "origin": {
+    "type": "original-procedural-composition",
+    "author": "Sentit",
+    "license": "MIT",
+    "source": "tools/propose-mireia-variants.cjs",
+    "externalSamples": false,
+    "speech": false,
+    "apiRequests": 0
+  },
+  "recipe": {
+    "tempoBpm": 82,
+    "key": "Sol major",
+    "instrument": "keys",
+    "production": "Síntesi local determinista, reflexions curtes, filtres, normalització en dues passades a −18 LUFS, MP3 estèreo 48 kHz/128 kbit/s.",
+    "masterGuard": "80 ms inicials i 120 ms finals de silenci, amb fosa abans de la cua."
+  },
+  "scope": "Només comparació; no incorporada a cap programa ni màster.",
+  "files": [
+    {
+      "kind": "obertura",
+      "file": "assets/audio/mireia-fil-de-veu-v1-obertura.mp3",
+      "durationSeconds": 4.2,
+      "integratedLufs": -18.45,
+      "truePeakDbtp": -8.88,
+      "sampleRate": 48000,
+      "channels": 2,
+      "safetySilenceSeconds": {
+        "start": 0.120125,
+        "end": 0.127521
+      },
+      "sha256": "574530a151dd15430a5c5d6282cff306a4e84a916d102c13442aca1a6ba85ddb",
+      "rawSha256": "db325655f448da9715be269f8285c4ccd4d799af759c6a55dba83f373a733b27",
+      "decodeVerified": true,
+      "melody": [
+        {
+          "beat": 0,
+          "midi": 67
+        },
+        {
+          "beat": 1,
+          "midi": 71
+        },
+        {
+          "beat": 2,
+          "midi": 74
+        },
+        {
+          "beat": 3,
+          "midi": 69
+        },
+        {
+          "beat": 3.75,
+          "midi": 67
+        }
+      ]
+    },
+    {
+      "kind": "tancament",
+      "file": "assets/audio/mireia-fil-de-veu-v1-tancament.mp3",
+      "durationSeconds": 3.8,
+      "integratedLufs": -18.44,
+      "truePeakDbtp": -9.28,
+      "sampleRate": 48000,
+      "channels": 2,
+      "safetySilenceSeconds": {
+        "start": 0.120104,
+        "end": 0.179333
+      },
+      "sha256": "ba0f054907ebda21f5a7f7584c6a33f6437e9cc15295ac9cbae3bf0003322948",
+      "rawSha256": "c15ace6d01ce388380ccfa6dd29bd1f6311e00cbba8edbca5099bb4e37c38922",
+      "decodeVerified": true,
+      "melody": [
+        {
+          "beat": 0,
+          "midi": 74
+        },
+        {
+          "beat": 0.8,
+          "midi": 71
+        },
+        {
+          "beat": 1.6,
+          "midi": 69
+        },
+        {
+          "beat": 2.6,
+          "midi": 67
+        }
+      ]
+    }
+  ]
+}
