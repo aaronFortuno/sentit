@@ -90,7 +90,7 @@ svg { display: block; fill: none; stroke: currentColor; stroke-width: 1.7; strok
 .pane h1, .pane h2 { font-size: 1.12rem; }
 .catalog { grid-area: catalog; }
 .workspace-panel { padding: 0; display: grid; grid-template-rows: auto minmax(0, 1fr); overflow: hidden; }
-.audio-panel { grid-area: audio; }
+.audio-panel { grid-area: audio; grid-template-rows: auto minmax(0, 1fr) auto; }
 .print-panel { grid-area: print; grid-template-rows: auto minmax(0, 1fr) auto; }
 .panel-header, .panel-footer { padding: 13px 14px; background: var(--panel); }
 .panel-header { border-bottom: 1px solid var(--line); }
@@ -188,17 +188,25 @@ summary { color: var(--quiet); cursor: pointer; }
 .paper-footer span:first-child { overflow: hidden; text-overflow: ellipsis; }
 .paper-footer span:last-child { flex: none; }
 .paper-empty { text-align: center; padding: 36px 8px; }
-#session-editor { margin-block-end: 9px; }
-.session-mode { display: flex; align-items: center; gap: 5px; font-size: .87rem; font-weight: 650; }
+#session-editor { margin: 0; }
+.audio-settings-group { min-width: 0; }
+.audio-settings-group + .audio-settings-group { margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--line); }
+.audio-settings-group h3 { margin: 0; font: inherit; font-size: .85rem; font-weight: 650; line-height: 1.4; }
+.session-mode { display: flex; align-items: center; gap: 6px; font-size: .87rem; font-weight: 650; }
 .session-mode input { margin: 0; accent-color: var(--green); }
-#session-fields { display: grid; grid-template-columns: 1.3fr 1fr .8fr; align-items: end; gap: 7px; min-width: 0; margin: 7px 0 0; padding: 0; border: 0; }
-#session-fields label { display: grid; min-width: 0; gap: 3px; font-size: .8rem; color: var(--quiet); }
-#session-fields :is(select, input) { width: 100%; min-height: 31px; padding: 4px 5px; font-size: .87rem; }
+#session-fields { min-width: 0; margin: 10px 0 0; padding: 0; border: 0; }
+.session-phase { display: grid; gap: 6px; }
+.session-phase + .session-phase { margin-top: 12px; }
+#session-fields label { display: grid; min-width: 0; gap: 4px; font-size: .8rem; color: var(--quiet); }
+#session-fields :is(select,input) { width: 100%; min-height: 31px; padding: 4px 6px; font-size: .87rem; color: var(--ink); }
+#session-fields .session-reading-row { grid-template-columns: minmax(0,1fr) 66px; align-items: center; gap: 10px; }
+.session-repeat-fields { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 10px; }
+#session-fields .session-prompt { display: flex; align-items: center; gap: 6px; }
+#session-fields .session-prompt input { width: 14px; min-height: 14px; height: 14px; margin: 0; padding: 0; accent-color: var(--green); }
+#session-fields .session-prompt:has(input:disabled) { opacity: .55; }
 #session-fields input:disabled { opacity: .55; }
-#session-fields .session-prompts { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 5px 12px; margin-top: 2px; }
-#session-fields .session-prompts label { display: flex; align-items: center; gap: 4px; }
-#session-fields .session-prompts input { width: auto; min-height: 0; margin: 0; accent-color: var(--green); }
-#session-fields .session-prompts label:has(input:disabled) { opacity: .55; }
+.speech-rate-row { display: grid; grid-template-columns: minmax(0,1fr) 83px; align-items: center; gap: 10px; color: var(--quiet); font-size: .8rem; }
+#session-editor select { min-width: 0; min-height: 32px; padding: 5px 7px; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 7px; }
 #worksheet-editor summary { color: var(--ink); font-weight: 650; font-size: .87rem; }
 #worksheet-editor details + details { margin-block-start: 14px; }
 #worksheet-format { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: end; gap: 7px 9px; padding-top: 9px; }
@@ -249,15 +257,21 @@ dialog.is-closing::backdrop { animation: backdrop-out var(--motion) ease both; }
 .author img { border-radius: 50%; }
 .support { align-items: start; overflow-wrap: anywhere; }
 .support img { flex: none; background: #fff; }
-.audio-extras { display: grid; grid-template-columns: 1fr 1fr; align-items: end; gap: 10px; margin-top: 10px; }
-.audio-extras label { display: grid; gap: 4px; color: var(--quiet); font-size: .8rem; }
-.audio-extras select { padding: 5px 7px; min-height: 32px; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 7px; }
-.audio-extras .jingle-option { display: flex; align-items: center; min-height: 32px; }
-.jingle-option input { accent-color: var(--green); }
-.jingle-selection { grid-column: 1 / -1; min-width: 0; }
-.jingle-selection-row { display: flex; align-items: center; flex-wrap: wrap; gap: 7px 10px; margin-top: 4px; }
-.jingle-selection-row select { flex: 1; min-width: 140px; }
-.jingle-selection-row a { color: var(--quiet); font-size: .75rem; }
+.jingle-selection-row { display: flex; align-items: center; gap: 8px; margin-top: 8px; }
+.jingle-option { display: flex; align-items: center; flex: none; }
+.jingle-option input { width: 14px; height: 14px; margin: 0; accent-color: var(--green); }
+.jingle-choice { flex: 1; min-width: 0; }
+.jingle-choice select { width: 100%; }
+.jingle-choice select:disabled { opacity: .55; }
+.jingle-compare { display: inline-block; margin-top: 7px; font-size: .75rem; color: var(--quiet); }
+.audio-preview { border-top: 1px solid var(--line); margin-top: 14px; padding-top: 12px; }
+.audio-panel-footer { padding: 10px 14px; }
+.audio-panel-footer .audio-sources { margin: 0; }
+.audio-panel-footer .audio-sources > .details-panel { max-height: min(220px, 28dvh); overflow: auto; overscroll-behavior: contain; padding-inline-end: 8px; scrollbar-gutter: stable; scrollbar-width: thin; scrollbar-color: var(--line) transparent; }
+.audio-panel-footer .details-panel::-webkit-scrollbar { width: 7px; }
+.audio-panel-footer .details-panel::-webkit-scrollbar-track { background: transparent; }
+.audio-panel-footer .details-panel::-webkit-scrollbar-thumb { background: var(--line); border: 2px solid transparent; border-radius: 8px; background-clip: padding-box; }
+.audio-panel-footer .details-panel::-webkit-scrollbar-button { display: none; width: 0; height: 0; }
 .audio-sources { margin-top: 12px; font-size: .8rem; color: var(--quiet); }
 .audio-sources summary { cursor: pointer; color: var(--ink); }
 .audio-sources h4 { margin: 12px 0 4px; font-size: .82rem; }
