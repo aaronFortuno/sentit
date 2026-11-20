@@ -9,9 +9,9 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | Codi | Títol | Curs | Resultat | Data | Versió revisada · SHA-256 |
 | --- | --- | --- | --- | --- | --- |
 | [ca-S003](https://sentit.ortogra.fi/#lectura=ca-S003) | El paraigua intercanviat | 3r | Revisió superada · àudio pendent | 2026-11-20 | `cbb297a7ce3a…` |
-| [ca-S004](https://sentit.ortogra.fi/#lectura=ca-S004) | El botó de la jaqueta | 3r | Provisional · revisió superada | 2026-11-20 | `467189d57868…` |
-| [ca-S004D](https://sentit.ortogra.fi/#lectura=ca-S004D) | El botó de la jaqueta · versió dialogada | 3r | Provisional · revisió superada | 2026-11-20 | `c2d478075a55…` |
-| [ca-S005](https://sentit.ortogra.fi/#lectura=ca-S005) | La feina d’una cartera | 3r | Provisional · revisió superada | 2026-11-20 | `e82434fc65d8…` |
+| [ca-S004](https://sentit.ortogra.fi/#lectura=ca-S004) | El botó de la jaqueta | 3r | Revisió superada · àudio pendent | 2026-11-20 | `30cb0049ef5d…` |
+| [ca-S004D](https://sentit.ortogra.fi/#lectura=ca-S004D) | El botó de la jaqueta · versió dialogada | 3r | Revisió superada · àudio pendent | 2026-11-20 | `d405d1a01e30…` |
+| [ca-S005](https://sentit.ortogra.fi/#lectura=ca-S005) | La feina d’una cartera | 3r | Revisió superada · àudio pendent | 2026-11-20 | `96370e0e0c82…` |
 | [ca-S006](https://sentit.ortogra.fi/#lectura=ca-S006) | S’obre un nou camí al parc | 3r | Provisional · revisió superada | 2026-11-20 | `693a9ecac3b7…` |
 | [ca-S007](https://sentit.ortogra.fi/#lectura=ca-S007) | On va l’aigua del bassal? | 3r | Provisional · revisió superada | 2026-11-20 | `ff0df8ee1cb3…` |
 | [ca-S009](https://sentit.ortogra.fi/#lectura=ca-S009) | La biblioteca canvia d’horari | 4t | Provisional · revisió superada | 2026-11-20 | `decdaf2b40b1…` |
@@ -25,7 +25,7 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S018](https://sentit.ortogra.fi/#lectura=ca-S018) | La clau de l’armari verd | 5è | Revisió superada · àudio pendent | 2026-11-20 | `7f77f3bb9a63…` |
 | [ca-S019](https://sentit.ortogra.fi/#lectura=ca-S019) | Una cuinera contra el malbaratament | 6è | Provisional · revisió superada | 2026-11-20 | `40dc14e9da20…` |
 | [ca-S020](https://sentit.ortogra.fi/#lectura=ca-S020) | Com participar en el concurs de pòdcasts | 6è | Provisional · revisió superada | 2026-11-20 | `ecc4a9bf9db5…` |
-| [ca-S021](https://sentit.ortogra.fi/#lectura=ca-S021) | Per què una ciutat guarda la calor? | 6è | Provisional · revisió superada | 2026-11-20 | `b173aa4c44ad…` |
+| [ca-S021](https://sentit.ortogra.fi/#lectura=ca-S021) | Per què una ciutat guarda la calor? | 6è | Provisional · revisió superada | 2026-11-20 | `b74a57783cdc…` |
 | [ca-S022](https://sentit.ortogra.fi/#lectura=ca-S022) | L’últim trajecte del tramvia | 6è | Revisió superada · àudio pendent | 2026-11-20 | `821e4ccffd26…` |
 | [ca-S023](https://sentit.ortogra.fi/#lectura=ca-S023) | Reobren el mercat: què canvia i què falta decidir? | 6è | Provisional · revisió superada | 2026-11-20 | `5dc838ff8869…` |
 | [ca-S024](https://sentit.ortogra.fi/#lectura=ca-S024) | Tres maneres de transformar el pati | 6è | Provisional · revisió superada | 2026-11-20 | `8eeea9e604b9…` |

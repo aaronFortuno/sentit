@@ -1,5 +1,13 @@
 # Canvis
 
+## 0.1.36 · 20 de novembre de 2026
+
+- S004 i S004D validades i produïdes en una petició cadascuna: Aoede narra l’original; Zephyr/Aina i Algenib/Ferran interpreten la variant dialogada. Es conserven les dues versions per comparar-les, amb fragments de 85,705 s i 88,26 s.
+- Base original «Un fil per seguir», molt suau durant la parla i amb foses d’entrada i sortida. Compartida intencionadament entre les dues versions de la mateixa història, amb mescles pròpies; registres de música i crèdits actualitzats.
+- S005 incorpora salutacions retornades i comiat mutu de Biel i Joana. Resta del contingut i les sis preguntes intactes. Veus produïdes en una petició i muntatge amb fragment de 103,33 s. Els tres àudios continuen pendents d’audició docent.
+- S021: el contingut validat es reconverteix en una recerca guiada amb Mireia i Laia, 400 mots i 16 intervencions. Manté vuit preguntes, les mesures de superfície, les condicions de comparació i els límits de les conclusions. Nou guió revisat independentment, pendent de validació docent abans de síntesi.
+- Seguiment amb validació parcial de contingut diferenciada de la validació del nou guió. Filtres de personatges actualitzats per trobar S021 també a través de Laia.
+
 ## 0.1.35 · 20 de novembre de 2026
 
 - S012: salutacions naturals de Biel i Elies i gravació real de guitarra de khenshom (Freesound 537084, CC0) a l’obertura. Sense cordes sintetitzades ni nota final de reparació. Fonts i llicències diferenciades al web i al registre.

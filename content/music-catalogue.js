@@ -2,6 +2,14 @@
 // Register a new composition for each narration; never reuse a track silently.
 export const musicCatalogue = [
   {
+    id: 'sentit-fil-per-seguir-v1', title: 'Un fil per seguir', kind: 'narration-bed',
+    author: 'Sentit', license: 'MIT', licenseUrl: 'https://github.com/aaronFortuno/sentit/blob/main/LICENSE',
+    origin: 'original-procedural', externalSamples: false,
+    source: 'tools/s004-music.cjs', usedBy: ['ca-S004', 'ca-S004D'],
+    sharedReason: 'Composició compartida intencionadament entre la narració i la versió dialogada de la mateixa història, amb durades i mescles pròpies.',
+    description: 'Piano suau i làmines de fusta espaiades en Fa major, 68 pulsacions per minut; melodia i harmonia pròpies.',
+  },
+  {
     id: 'sentit-foto-arpegi-v1', title: 'Una foto per recordar', kind: 'narration-bed',
     author: 'Sentit', license: 'MIT', licenseUrl: 'https://github.com/aaronFortuno/sentit/blob/main/LICENSE',
     origin: 'original-procedural', externalSamples: false,

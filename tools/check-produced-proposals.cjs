@@ -25,7 +25,7 @@ const {productionSpec}=require('./proposal-plan.cjs'),{assertProductionApproved}
    assert(record.editorialEdit.silenceChecks.every(cut=>cut.peakDbFS<=-42));assert.equal(record.voice.untrimmedApartFromSilenceSplit,false);
    assert.equal(Math.round(record.editorialEdit.removedSeconds*100),822);
   }
-  if(['S018','S022'].includes(code)){
+  if(['S004','S004D','S018','S022'].includes(code)){
    const track=musicForActivity(entry),bed=record.effects.find(effect=>effect.name==='gentle-narration-bed'||effect.name==='gentle-tram-memory-bed');
    assert(track&&bed);assert.equal(record.musicTrack.id,track.id);assert.equal(bed.source,track.source);
    assert(bed.speechWindowMarginDb>=18);assert(bed.envelope.riseAfterSpeech.start>=record.voice.bodyLead+record.voice.bodyRawDuration);
@@ -45,5 +45,5 @@ const {productionSpec}=require('./proposal-plan.cjs'),{assertProductionApproved}
  assert.notEqual(musicForActivity(activities.find(e=>e.code==='S018')).id,musicForActivity(activities.find(e=>e.code==='S022')).id);
  const a=JSON.parse(await fs.readFile(path.join(root,'assets/audio/s018-production-manifest.json'),'utf8')),b=JSON.parse(await fs.readFile(path.join(root,'assets/audio/s022-production-manifest.json'),'utf8'));
  assert.notEqual(a.effects[0].rawSha256,b.effects[0].rawSha256,'The two narrations use genuinely different original compositions');
- console.log(`PASS · ${produced.length} productions, ${produced.length*3} MP3 decode, exact timings and hashes, silent tails, safe levels, two distinct registered music beds with speech margins and unretimed voices. Listening pending.`);
+ console.log(`PASS · ${produced.length} productions, ${produced.length*3} MP3 decode, exact timings and hashes, silent tails, safe levels, distinct registered music beds with speech margins and unretimed voices. Listening pending.`);
 })().catch(error=>{console.error(error);process.exitCode=1;});

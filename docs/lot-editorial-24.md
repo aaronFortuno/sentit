@@ -2,7 +2,7 @@
 
 20 de novembre de 2026 · 19 propostes base noves · 138 preguntes · variant dialogada S004D per comparar.
 
-S’hi afegeix S023, que ja estava preparada. S003, S010, S012, S013, S016, S018 i S022 ja tenen el guió validat i el muntatge pendent d’audició. S020 té autoritzades les veus; la sintonia comuna es valida per separat. Les altres propostes i S004D esperen validació docent. S001, S002, S008 i S015 conserven els seus materials; S008R és una revisió addicional de S008. [Seguiment de totes les fases](seguiment-produccio.md).
+S’hi afegeix S023, que ja estava preparada. Les peces produïdes, incloses S004/S004D i S005, tenen el muntatge pendent d’audició. S020 té autoritzades les veus; la sintonia comuna es valida per separat. Les propostes sense aprovació esperen validació docent; S021 té validat el contingut, però el nou guió de recerca necessita revisió del docent. S001, S002, S008 i S015 conserven els seus materials; S008R és una revisió addicional de S008. [Seguiment de totes les fases](seguiment-produccio.md).
 
 ## Revisió al web
 
@@ -32,7 +32,7 @@ Les durades són intervals orientatius derivats del nombre de mots, un ritme nat
 | --- | --- | ---: | ---: | --- |
 | [S003 · El paraigua intercanviat](https://sentit.ortogra.fi/#lectura=ca-S003) | Accessible | 197 | 6 | 1:25–1:45 |
 | [S004 · El botó de la jaqueta](https://sentit.ortogra.fi/#lectura=ca-S004) | Intermèdia | 253 | 6 | 1:45–2:15 |
-| [S005 · La feina d’una cartera](https://sentit.ortogra.fi/#lectura=ca-S005) | Intermèdia | 271 | 6 | 1:55–2:25 |
+| [S005 · La feina d’una cartera](https://sentit.ortogra.fi/#lectura=ca-S005) | Intermèdia | 290 | 6 | 2:00–2:30 |
 | [S006 · S’obre un nou camí al parc](https://sentit.ortogra.fi/#lectura=ca-S006) | Avançada | 266 | 6 | 1:50–2:20 |
 | [S007 · On va l’aigua del bassal?](https://sentit.ortogra.fi/#lectura=ca-S007) | Avançada | 302 | 6 | 2:05–2:35 |
 
@@ -61,13 +61,13 @@ Les durades són intervals orientatius derivats del nombre de mots, un ritme nat
 | --- | --- | ---: | ---: | --- |
 | [S019 · Una cuinera contra el malbaratament](https://sentit.ortogra.fi/#lectura=ca-S019) | Accessible | 332 | 8 | 2:00–2:30 |
 | [S020 · Com participar en el concurs de pòdcasts](https://sentit.ortogra.fi/#lectura=ca-S020) | Accessible | 361 | 8 | 2:15–2:40 |
-| [S021 · Per què una ciutat guarda la calor?](https://sentit.ortogra.fi/#lectura=ca-S021) | Intermèdia | 415 | 8 | 2:30–3:05 |
+| [S021 · Per què una ciutat guarda la calor?](https://sentit.ortogra.fi/#lectura=ca-S021) | Intermèdia | 400 | 8 | 2:25–3:00 |
 | [S022 · L’últim trajecte del tramvia](https://sentit.ortogra.fi/#lectura=ca-S022) | Intermèdia | 445 | 9 | 2:45–3:15 |
 | [S024 · Tres maneres de transformar el pati](https://sentit.ortogra.fi/#lectura=ca-S024) | Avançada | 488 | 10 | 3:00–3:35 |
 
 ## Criteris de contingut i correcció
 
-**Comparació S004/S004D.** L’original narratiu es conserva intacte. La [variant S004D](https://sentit.ortogra.fi/#lectura=ca-S004D) té 223 mots, sis preguntes i durada prevista d’1:35–2:00. L’Aina narra en primera persona i conversa amb l’avi Ferran, amb Zephyr i Algenib com a candidates. Cap síntesi fins a triar i validar la proposta.
+**Comparació S004/S004D.** L’original narratiu es conserva intacte. La [variant S004D](https://sentit.ortogra.fi/#lectura=ca-S004D) té 223 mots, sis preguntes i durada prevista d’1:35–2:00. L’Aina narra en primera persona i conversa amb l’avi Ferran, amb Zephyr i Algenib. Original i variant tenen guió validat i àudio muntat pendent d’audició; la mateixa música identifica les dues versions.
 
 - **3r:** sis preguntes, respostes breus. S003 recupera dades explícites; S004 i S005 relacionen una pista o una causa; S006 i S007 obliguen a distingir situacions i a aplicar el que s’ha explicat.
 - **4t:** sis o set preguntes. Horaris útils, rectificació d’un camí, instruccions condicionals, diagnòstic d’un problema i recorregut postal. Les explicacions dels termes necessaris són dins de l’àudio.
@@ -115,3 +115,6 @@ En arqueologia, la ficció no converteix una hipòtesi sobre l’ús d’un reci
 
 
 S012 incorpora guitarra real CC0 i salutacions; S016 acaba amb la informació de les inscripcions. Tots dos tenen muntatge pendent d’audició. Els tancaments de S005, S006, S021 i S024 s’han concretat i revalidat independentment, sense síntesi. [Resultat de la passada de tancaments](revisio-tancaments.md).
+
+
+S021 manté la tipologia d’explicació i els conceptes validats, ara dins una recerca dialogada amb Mireia i Laia. Nou guió de 400 mots, pendent de validació docent, amb una petició prevista i cap síntesi enviada. [Situació, veus i muntatge proposats](s021-recerca.md).
