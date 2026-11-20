@@ -3,8 +3,12 @@
   "title": "Pas a pas",
   "style": "Rítmic i juganer",
   "description": "Percussió de fusta sintetitzada, petits contratemps i baix curt. Més moviment i un final sec.",
-  "status": "proposal-pending-human-validation",
-  "approval": null,
+  "status": "approved",
+  "approval": {
+    "by": "docent",
+    "date": "2026-11-20",
+    "confirmation": "Els quatre jingles són bons. Es conserven com a opcions de catàleg."
+  },
   "origin": {
     "type": "original-procedural-composition",
     "author": "Sentit",
@@ -21,7 +25,7 @@
     "production": "Síntesi local determinista, reflexions curtes, filtres, normalització en dues passades a −18 LUFS, MP3 estèreo 48 kHz/128 kbit/s.",
     "masterGuard": "80 ms inicials i 120 ms finals de silenci, amb fosa abans de la cua."
   },
-  "scope": "Només comparació; no incorporada a cap programa ni màster.",
+  "scope": "Obertura disponible al selector de la sessió. Parella d’obertura i tancament aprovada com a recurs; això no valida cap muntatge de comprensió.",
   "files": [
     {
       "kind": "obertura",

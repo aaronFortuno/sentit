@@ -1,0 +1,110 @@
+{
+  "code": "S008",
+  "activity": "ca-S008",
+  "file": "s008-la-foto-que-faltava-v3.mp3",
+  "voices": {
+    "Narradora": "Aoede"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "bodyDuration": 92.57000000000002,
+  "offset": 5.11,
+  "fullDuration": 97.68000000000002,
+  "lufs": -18.9,
+  "peakDbTP": -2.8,
+  "wordCount": 270,
+  "timeline": [
+    {
+      "scene": 1,
+      "start": 0.35,
+      "end": 43.7
+    },
+    {
+      "scene": 2,
+      "start": 44.2,
+      "end": 87.27000000000001
+    }
+  ],
+  "effects": [
+    {
+      "effect": "original-instrumental-bed",
+      "start": 0,
+      "end": 91.92000000000002,
+      "duckedUnderSpeech": true,
+      "musicTrackId": "sentit-foto-arpegi-v1",
+      "envelope": {
+        "voiceEnd": 87.27000000000001,
+        "riseAfterSpeech": {
+          "start": 87.42000000000002,
+          "end": 87.92000000000002,
+          "gainFrom": 1,
+          "gainTo": 2.5
+        },
+        "holdAfterSpeech": {
+          "start": 87.92000000000002,
+          "end": 89.92000000000002
+        },
+        "fadeOut": {
+          "start": 89.92000000000002,
+          "end": 91.92000000000002
+        },
+        "silentTail": 0.65
+      }
+    },
+    {
+      "effect": "paper",
+      "start": 44.050000000000004,
+      "end": 44.800000000000004
+    }
+  ],
+  "sha256": "628116b679215e08f3957c3251e9c4b7657a505e36aa51982f72f02441570c16",
+  "state": "published",
+  "productionMode": "offline-tail-remount",
+  "newSynthesisRequests": 0,
+  "sources": [
+    {
+      "file": "sentit-primera-tanda/s008/intro-b95c1bb58fd7.wav",
+      "sha256": "712f58c359246d8634a539d2db399a482d337ecbbe1080425140cf7af0acd33c",
+      "seconds": 3.36
+    },
+    {
+      "file": "sentit-primera-tanda/s008/scene-1-ac19f53f1302.wav",
+      "sha256": "340edd9f7dc490dfc885da3bc54c421e392606abea9096e6e4bd7420b3b5b4d0",
+      "seconds": 42.8
+    },
+    {
+      "file": "sentit-primera-tanda/s008/scene-2-b0a580acecb3.wav",
+      "sha256": "7c1ff527d9bba5098974058fc1d6ebf2757f6e0007a558fc600749942483ce3d",
+      "seconds": 42.52
+    },
+    {
+      "file": "sentit-primera-tanda/s008/paper.wav",
+      "sha256": "b6d79fd49dad5cd995b25dcab746a78f3a3aab8f157c4c6279c085a7844733e8",
+      "seconds": 0.75
+    }
+  ],
+  "previousFile": "s008-la-foto-que-faltava-v1.mp3",
+  "date": "2026-11-20",
+  "introFile": "s008-la-foto-que-faltava-v3-intro.mp3",
+  "bodyFile": "s008-la-foto-que-faltava-v3-cos.mp3",
+  "previousMaster": {
+    "file": "s008-la-foto-que-faltava-v2.mp3",
+    "sha256": "82066f88273bac31005d414cc6b0b1543879e74f6a25186564b14ee8ee1ba7f6"
+  },
+  "montageNewSynthesisRequests": 0,
+  "voice": {
+    "retimed": false,
+    "rawSamplesPreserved": true,
+    "dryBodySha256": "8f6ed22c92851a7e73252df8b832ada52f652da46cdb06ddb1072ff05a5a6b8e",
+    "unchangedFromV2": true
+  },
+  "teacherValidation": {
+    "state": "published",
+    "validatedAt": "2026-11-20",
+    "validatedBy": "docent",
+    "confirmation": "Només falta la pujada musical d’un parell de segons abans de la fosa; resolt això, es pot donar per vàlida i publicar definitivament.",
+    "conditionalOnMusicalTail": true,
+    "audioSha256": "628116b679215e08f3957c3251e9c4b7657a505e36aa51982f72f02441570c16",
+    "editorialFingerprint": "3ce87617ce96e82c39655ecda0a2dc2361e7a54397b5dd12f82d9316a63432ef",
+    "listeningApproval": true
+  }
+}

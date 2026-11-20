@@ -1,0 +1,70 @@
+[
+  {
+    "id": "R01",
+    "fragments": [
+      {
+        "code": "S010",
+        "part": "pla"
+      },
+      {
+        "code": "S010",
+        "part": "alternativa"
+      }
+    ],
+    "status": "approved-for-correction",
+    "approvedAt": "2026-11-20",
+    "approvalSource": "Agrupació de les esmenes de veu identificades pel docent; text canònic i veus conservats, pauses addicionals demanades per al muntatge local.",
+    "approvedRequestHash": "581de40b542f3ef6e27b996123a9ba3ab812a1d857fd67fe629d4c822286e497"
+  },
+  {
+    "id": "R02",
+    "fragments": [
+      {
+        "code": "S013",
+        "part": "repartiment"
+      },
+      {
+        "code": "S013",
+        "part": "error"
+      },
+      {
+        "code": "S005",
+        "part": "comprovar"
+      }
+    ],
+    "status": "approved-for-correction",
+    "approvedAt": "2026-11-20",
+    "approvalSource": "Agrupació de les esmenes de veu identificades pel docent; text canònic i veus conservats, pauses addicionals demanades per al muntatge local.",
+    "approvedRequestHash": "d42033f654017b607df73278fffd47b840caddf04df4fdeb2542a05169d1e6bd"
+  },
+  {
+    "id": "R03",
+    "fragments": [
+      {
+        "code": "S022",
+        "part": "dema"
+      },
+      {
+        "code": "S016",
+        "part": "exposicio"
+      }
+    ],
+    "status": "approved-for-correction",
+    "approvedAt": "2026-11-20",
+    "approvalSource": "Agrupació de les esmenes de veu identificades pel docent; text canònic i veus conservats, pauses addicionals demanades per al muntatge local.",
+    "approvedRequestHash": "7719826b30078babd7c66b29dedb6c489e0ba4aaea53b8950661e61a1f961368"
+  },
+  {
+    "id": "R04",
+    "fragments": [
+      {
+        "code": "S015",
+        "part": "llum"
+      }
+    ],
+    "status": "approved-for-correction",
+    "approvedAt": "2026-11-20",
+    "approvalSource": "El docent identifica temperatura com a temperatira i demana la mateixa correcció local que les altres incidències; resta de la peça correcta, jingle pendent. Text editorial conservat.",
+    "approvedRequestHash": "c3235be8a890d921b3d598c728ca3d5d185a8851bf3eda95c0873eea53850f9d"
+  }
+]

@@ -3,7 +3,7 @@ import { proposal, direction as d, spoken as s, question as q, evidence as e } f
 export const tercer = [
   proposal({
     id: 'el-paraigua-intercanviat', code: 'S003', title: 'El paraigua intercanviat', grade: '3', level: 'easy', genre: 'dialogue',
-    seconds: 75, status: 'ready-for-review', reviewStatus: 'audio-review',
+    seconds: 75, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s003-paraigua-v1.mp3', tracks: { introduction: './assets/audio/s003-paraigua-v1-intro.mp3', body: './assets/audio/s003-paraigua-v1-cos.mp3' },
     fragment: { start: 5.005, seconds: 70 },
     summary: 'Durant el canvi de classe, la Laia i en Biel aclareixen un embolic amb els paraigües a la sortida de la biblioteca.',

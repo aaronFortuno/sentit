@@ -1,4 +1,4 @@
-import { jingleUrl } from './session.js';
+import { selectedJingleUrl } from './session.js';
 
 // Native media preserves pitch. Waits use real seconds, independently of speech rate.
 // Padded, separate tracks finish naturally instead of cutting speech with a timer.
@@ -10,7 +10,7 @@ export function initGuidedPlayer(entry, session, prompts, button, render, onActi
   const steps = [];
   const clip = (url, status, options = {}) => steps.push({ url, status, ...options });
   const wait = (seconds, status) => { if (seconds > 0) steps.push({ seconds, status }); };
-  if (session.jingle ?? true) clip(jingleUrl, 'sessionIntroduction');
+  if (session.jingle ?? true) clip(selectedJingleUrl(session.jingleId), 'sessionIntroduction');
   if (session.enabled === false) clip(entry.audio, 'sessionListening', { rate, number: 1 });
   else {
     const split = entry.tracks;

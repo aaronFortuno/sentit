@@ -1,6 +1,7 @@
 import { activities, legacyActivities } from './catalogue.js';
 import { characters } from './content/characters.js';
 import { universes } from './content/universes.js';
+import { sessionJingles } from './session.js';
 
 export const analyticsConfig={website:'6acf2cae-4b28-4d71-98dd-550d2d086dcc',hostname:'sentit.ortogra.fi',script:'https://maquestria.tail72bc84.ts.net:8443/script.js'};
 const page={website:analyticsConfig.website,hostname:analyticsConfig.hostname,title:'Sentit',url:'/'};
@@ -17,7 +18,7 @@ const rules={
   canvia_vista:{code:true,vista:['fitxa','solucionari']},
   obre_impressio:{code:true,contingut:['fitxa','solucionari'],colleccio:'boolean'},
   escolta_audio:{code:true,accio:['inicia','pausa','repren','finalitza','reinicia','previsualitza']},
-  configura_audio:{code:true,escoltes:['1','2','3'],ritme:['0.80','0.85','0.90','0.95','1.00','1.05','1.10','1.15','1.20'],lectura:times,pausa:times,sintonia:'boolean',pautada:'boolean'},
+  configura_audio:{code:true,escoltes:['1','2','3'],ritme:['0.80','0.85','0.90','0.95','1.00','1.05','1.10','1.15','1.20'],lectura:times,pausa:times,sintonia:['cap',...sessionJingles.map(jingle=>jingle.id)],pautada:'boolean'},
   maqueta_fitxa:{code:true,bloc:['font','size','spacing','leading','codi_aula','imatge','instruccions','pistes','preguntes'],accio:['ajusta','amaga','recupera','linies','restableix'],font:['serif','sans','verdana']},
   colleccio:{accio:['crea','afegeix','selecciona','reordena','retira','elimina','canvia_nom'],quantitat:buckets},
   cerca_cataleg:{tipus:['codi','text'],resultats:buckets},neteja_filtres:{},

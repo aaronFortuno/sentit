@@ -5,12 +5,13 @@ const {request}=require('./audio-plan.cjs'),{checkWave}=require('./audio-files.c
 const {readJSON,reserveRequest,assertQuota}=require('./audio-quota.cjs');
 const hash=data=>createHash('sha256').update(data).digest('hex');
 const root=path.resolve(__dirname,'..'),work=path.resolve(root,'../output/sentit-primera-tanda');
+function repairSpec(entry){return entry.code==='S015'?require('./interview-production.cjs').spec:require('./proposal-plan.cjs').productionSpec(entry);}
 function repairRequest(entry,plan){
  if(plan.activity!==`${entry.language}-${entry.code}`||plan.repairs.length<1)throw Error('Pla de correcció desconegut.');
  const turns=plan.repairs.map((repair,index)=>{
   const part=entry.transcript.find(part=>part.id===repair.part);
   if(!part||part.speaker!==repair.speaker||part.text.split(repair.text).length!==2)throw Error('El text de la correcció ha canviat: cal revisar-lo.');
-  if(plan.voices[part.speaker]!==entry.production.voices[part.speaker])throw Error('La veu de la correcció no coincideix.');
+  if(plan.voices[part.speaker]!==repairSpec(entry).voices[part.speaker])throw Error('La veu de la correcció no coincideix.');
   return {speaker:part.speaker,text:repair.text+(index<plan.repairs.length-1?' <long pause>':'')};
  });
  const body=request(turns,{voices:plan.voices,pace:plan.direction});
@@ -25,7 +26,7 @@ function assertDailyRoom(log,now=new Date()){
 }
 async function main(){
  const code=process.argv.find(arg=>arg.startsWith('--only='))?.slice(7).toUpperCase().replace(/^CA-/,'');
- const plans=await readJSON(path.join(root,'content/audio-repairs.json'),{}),plan=plans[code];if(!plan)throw Error('Indica --only=S010, --only=S013 o --only=S022.');
+ const plans=await readJSON(path.join(root,'content/audio-repairs.json'),{}),plan=plans[code];if(!plan)throw Error('Indica --only amb un codi de content/audio-repairs.json.');
  const {activities}=await import('../catalogue.js'),entry=activities.find(e=>e.code===code),body=repairRequest(entry,plan),requestHash=hash(JSON.stringify(body));
  const source=await readJSON(path.join(root,`assets/audio/${code.toLowerCase()}-production-manifest.json`),null);
  if(source.requestHash!==plan.sourceRequestHash||source.rawSha256!==plan.sourceRawSha256)throw Error('La presa d’origen ha canviat. Cal revisar el pla.');
@@ -39,8 +40,8 @@ async function main(){
  if(Date.now()<Date.parse(plan.notBefore))throw Error('Correcció preparada per al proper restabliment; cap petició enviada.');
  const {isEditoriallyReviewed}=await import('../editorial-review.js');
  if(!isEditoriallyReviewed(entry))throw Error('La revisió editorial actual no coincideix.');
- const {productionSpec}=require('./proposal-plan.cjs'),{assertProductionApproved}=require('./production-approval.cjs');
- assertProductionApproved(entry,productionSpec(entry),(await readJSON(path.join(root,'content/production-plans.json'),{}))[code]);
+ const {assertProductionApproved}=require('./production-approval.cjs');
+ assertProductionApproved(entry,repairSpec(entry),(await readJSON(path.join(root,'content/production-plans.json'),{}))[code]);
  assertQuota(await readJSON(path.join(work,'last-api-error.json'),null));
  assertDailyRoom(await readJSON(path.join(work,'request-log.json'),[]));
  await fs.mkdir(folder,{recursive:true});const attemptFile=raw.replace('.wav','.attempt.json');
@@ -59,4 +60,4 @@ async function main(){
  finally{await fs.writeFile(attemptFile,JSON.stringify(attempt,null,2));await handle.close();await fs.unlink(lock);}
 }
 if(require.main===module)main().catch(error=>{console.error(error.message);process.exitCode=1;});
-module.exports={repairRequest,assertDailyRoom};
+module.exports={repairRequest,repairSpec,assertDailyRoom};

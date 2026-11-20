@@ -129,7 +129,7 @@ export const cinque = [
   }),
   proposal({
     id: 'la-clau-de-larmari-verd', code: 'S018', title: 'La clau de l’armari verd', grade: '5', level: 'advanced', genre: 'story',
-    seconds: 183, status: 'ready-for-review', reviewStatus: 'audio-review',
+    seconds: 183, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s018-armari-verd-v1.mp3', tracks: { introduction: './assets/audio/s018-armari-verd-v1-intro.mp3', body: './assets/audio/s018-armari-verd-v1-cos.mp3' },
     fragment: { start: 5.35, seconds: 177 },
     summary: 'L’Aina interpreta una porta tancada com una exclusió, però descobreix què vol dir tenir cura d’uns records compartits.',

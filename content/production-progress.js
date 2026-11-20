@@ -1,7 +1,7 @@
 // Recorded production facts and exact teacher feedback; never implicit final approval.
 export const productionProgress = {
   "ca-S020": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "receivedAt": "2026-11-20T07:50:26.951Z",
     "rawSha256": "015b9300b6d93417c143a5acd87cb3bff35607ec2b02dd170214454a28ab14b9",
     "newSynthesisRequests": 1,
@@ -28,10 +28,16 @@ export const productionProgress = {
       "initial_input_tokens": 615
     },
     "sharedJingle": {
-      "status": "awaiting-validation",
-      "url": "./proves/sintonies-mireia.html"
+      "status": "catalogue-approved",
+      "url": "./proves/sintonies-mireia.html",
+      "approvedAt": "2026-11-20",
+      "note": "Les quatre parelles estan validades com a recursos. Muntatge de S020 encara pendent; sense aprovació del màster.",
+      "selected": "petita-descoberta"
     },
-    "editorialFingerprint": "ecc4a9bf9db5b038841413cc4630cd5383e688a13b80a95eeccc8bb485d232c1"
+    "editorialFingerprint": "eb9b36f96b1dbab39a7797825bf34672ac82590e30cfaa1b151abd686ac4b45a",
+    "montageNewSynthesisRequests": 0,
+    "listeningApproval": false,
+    "teacherAssessment": "Veus rebudes conservades, obertura i tancament Petita descoberta aprovats com a recurs; muntatge complet pendent d’audició docent."
   },
   "ca-S011": {
     "state": "ready-for-voices",
@@ -132,10 +138,11 @@ export const productionProgress = {
         "status": "pending"
       }
     ],
-    "teacherAssessment": "La resta de la peça està ben valorada. Artefacte en lloc de «Si» pendent de corregir; jingles inicial i final pendents de polir. Reparació local encara per preparar.",
+    "teacherAssessment": "La resta de la peça està ben valorada. Artefacte en lloc de «Si» pendent de corregir; reparació local preparada i jingles inicial i final pendents de polir.",
     "plannedNewRequests": 0,
     "listeningApproval": false,
-    "jingleStatus": "needs-refinement"
+    "jingleStatus": "needs-refinement",
+    "repairPlan": "content/audio-repairs.json"
   },
   "ca-S004": {
     "state": "published",
@@ -153,6 +160,119 @@ export const productionProgress = {
     "confirmation": "S004D es pot publicar definitivament; música i muntatge validats.",
     "audioSha256": "0678719861a6354cf569771a2be73f5ca561ae1d086907e40a65a317d2e008c4",
     "editorialFingerprint": "d405d1a01e308ff2d2c1681d76bcae677b0d30ded76872863f780cdd821aa2bf",
+    "listeningApproval": true
+  },
+  "ca-S012": {
+    "state": "montage-awaiting-listening",
+    "voiceValidation": {
+      "approved": true,
+      "validatedAt": "2026-11-20",
+      "validatedBy": "docent",
+      "rawSha256": "80087beb1559c05ba2ed8771b59b258fcf868f3ae8010d7d79bde246e733b7e4",
+      "sourceRequestHash": "29dee389b3a66507666baaca9a40d74a6124a3ed31827a57e281cce36ea7e6ff",
+      "editorialEdit": {
+        "type": "keep-final-suffix",
+        "part": "comiat",
+        "retainedText": "Gràcies, Elies.",
+        "removeStart": 110.355,
+        "removeEnd": 118.575,
+        "sourceRequestHash": "29dee389b3a66507666baaca9a40d74a6124a3ed31827a57e281cce36ea7e6ff",
+        "sourceApprovalFingerprint": "4ef0fb068da5d0e65fdf692b82f1893e8cedcd5e804b29be4db9b42548925c01",
+        "reason": "Revisió general de tancaments demanada pel docent: conservar només l’agraïment concret, sense una segona petició de síntesi.",
+        "originalText": "Doncs avui torno sense una guitarra nova, però amb una idea nova: primer entendre el problema, després decidir què s’ha de tocar. Gràcies, Elies.",
+        "removedSeconds": 8.219999999999999,
+        "silenceChecks": [
+          {
+            "at": 110.355,
+            "peakDbFS": -57.4
+          },
+          {
+            "at": 118.575,
+            "peakDbFS": -66.8
+          }
+        ]
+      }
+    },
+    "listeningApproval": false,
+    "montageRevision": "v2",
+    "teacherAssessment": "Veus validades; nou muntatge pendent d’audició.",
+    "newSynthesisRequests": 0
+  },
+  "ca-S019": {
+    "state": "montage-awaiting-listening",
+    "voiceValidation": {
+      "approved": true,
+      "validatedAt": "2026-11-20",
+      "validatedBy": "docent",
+      "rawSha256": "725ae2c9b9284506445838935bcedba9a9ce433f94adc2fa8e7f702d29c41e2e",
+      "sourceRequestHash": "a8924128e778e3dde6202ed8682fc6ea0ffa41cc569060d635aadd677508ecf8"
+    },
+    "listeningApproval": false,
+    "montageRevision": "v2",
+    "teacherAssessment": "Veus validades; nou muntatge pendent d’audició.",
+    "newSynthesisRequests": 0
+  },
+  "ca-S003": {
+    "state": "published",
+    "validatedAt": "2026-11-20",
+    "validatedBy": "docent",
+    "confirmation": "S003 queda validat i es pot publicar.",
+    "audioSha256": "a0cadf740e032c69fd50d7fdd33f2fe59290c39dcf0d1e078e3f0145ece8367f",
+    "editorialFingerprint": "cbb297a7ce3af1c176b240e21a1750c9e0606d9ca8e8728434277f239ec05624",
+    "listeningApproval": true
+  },
+  "ca-S005": {
+    "state": "audio-corrections-pending",
+    "feedbackAt": "2026-11-20",
+    "feedback": [
+      {
+        "part": "comprovar",
+        "word": "matí",
+        "heard": "matà",
+        "kind": "synthesis-artifact",
+        "status": "pending"
+      }
+    ],
+    "teacherAssessment": "La resta de l’entrevista és correcta. Corregir «Aquest matí, per exemple...» i millorar els jingles inicial/final abans de validar definitivament.",
+    "plannedNewRequests": 0,
+    "listeningApproval": false,
+    "jingleStatus": "needs-refinement"
+  },
+  "ca-S015": {
+    "state": "audio-corrections-pending",
+    "feedbackAt": "2026-11-20",
+    "feedback": [
+      {
+        "part": "llum",
+        "word": "temperatura",
+        "heard": "temperatira",
+        "kind": "synthesis-artifact",
+        "status": "pending"
+      }
+    ],
+    "teacherAssessment": "La resta de la peça és correcta. Temperatura pendent de corregir; jingle encara pendent de definir.",
+    "plannedNewRequests": 1,
+    "repairPlan": "content/audio-repairs.json",
+    "listeningApproval": false,
+    "jingleStatus": "awaiting-selection"
+  },
+  "ca-S008": {
+    "state": "published",
+    "validatedAt": "2026-11-20",
+    "validatedBy": "docent",
+    "confirmation": "Només falta la pujada musical d’un parell de segons abans de la fosa; resolt això, es pot donar per vàlida i publicar definitivament.",
+    "conditionalOnMusicalTail": true,
+    "audioSha256": "628116b679215e08f3957c3251e9c4b7657a505e36aa51982f72f02441570c16",
+    "editorialFingerprint": "3ce87617ce96e82c39655ecda0a2dc2361e7a54397b5dd12f82d9316a63432ef",
+    "listeningApproval": true
+  },
+  "ca-S018": {
+    "state": "published",
+    "validatedAt": "2026-11-20",
+    "validatedBy": "docent",
+    "confirmation": "S018 queda validat per publicació definitiva.",
+    "audioSha256": "3e31510ff19626f43fd0b20cccf6a9b9b2ebb38ae4ae175ae399115d535bc2e7",
+    "editorialFingerprint": "7f77f3bb9a6389d482ed82fe5198e368a31ed8b17b3b69f8c91c4c927a538c9a",
     "listeningApproval": true
   }
 };

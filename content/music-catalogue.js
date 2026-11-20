@@ -15,7 +15,7 @@ export const musicCatalogue = [
     origin: 'original-procedural', externalSamples: false,
     source: 'tools/render-radio.cjs', usedBy: ['ca-S008', 'ca-S008R'],
     sharedReason: 'Dos arranjaments de la mateixa composició per a les dues versions de la mateixa història.',
-    arrangements: [{activity:'ca-S008',source:'tools/remaster-audio.cjs'},{activity:'ca-S008R',source:'tools/render-radio.cjs'}],
+    arrangements: [{activity:'ca-S008',source:'tools/finish-s008-tail.cjs'},{activity:'ca-S008R',source:'tools/render-radio.cjs'}],
     description: 'Arpegi original en Do i baix suau. Mateix motiu a l’original i la revisió radiofònica, amb mescles i foses pròpies.',
   },
   {

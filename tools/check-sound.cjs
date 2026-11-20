@@ -34,7 +34,7 @@ const { specs } = require('./generate-prototypes.cjs');
     pause(){}
   }
   const source = (await fs.readFile(path.join(__dirname,'../guided-player.js'),'utf8')).replace(/^import[^\n]+\n/,'').replace('export function','function');
-  const init = vm.runInNewContext(source+'\ninitGuidedPlayer;', {Audio:FakeAudio,jingleUrl:'jingle',window:{addEventListener(){}},performance:{now:()=>now},requestAnimationFrame:cb=>{frame=cb;return 1;},cancelAnimationFrame(){}});
+  const init = vm.runInNewContext(source+'\ninitGuidedPlayer;', {Audio:FakeAudio,selectedJingleUrl:()=> 'jingle',window:{addEventListener(){}},performance:{now:()=>now},requestAnimationFrame:cb=>{frame=cb;return 1;},cancelAnimationFrame(){}});
   const button={addEventListener(event,cb){this.click=cb;}};
   init({audio:'full',tracks:{introduction:'intro',body:'body'}},{enabled:true,jingle:true,rate:.85,reading:60,interval:30,listens:2,prepare:true,repeat:true},{prepareMinute:'prepare',repeat:'repeat'},button,state=>painted.push(state));
   const ended = async()=>{ audio.events.ended(); await new Promise(resolve=>setImmediate(resolve)); };

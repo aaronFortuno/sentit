@@ -1,0 +1,97 @@
+{
+  "code": "S020",
+  "activity": "ca-S020",
+  "date": "2026-11-20T16:36:03.924Z",
+  "state": "awaiting-audio-validation",
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "Mireia": "Aoede"
+  },
+  "newSynthesisRequests": 1,
+  "approvalFingerprint": "56e0ce761f7ae0d28ad191b8017386645ac299c1da8d9ce8e63565ef06170246",
+  "requestHash": "726a552e8a34a3432c89738485077c81775171016ff758e07fba54f279199b9c",
+  "rawSha256": "015b9300b6d93417c143a5acd87cb3bff35607ec2b02dd170214454a28ab14b9",
+  "usage": {
+    "total_tokens": 3571,
+    "total_input_tokens": 615,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 615
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 2956,
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 2956
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 0,
+    "initial_input_tokens": 615
+  },
+  "rawDuration": 118.24,
+  "cut": {
+    "at": 4.01,
+    "previousWordEnd": 3.57,
+    "nextWordStart": 4.71,
+    "peakDbFS": -58.1,
+    "rawSamplesPreserved": true
+  },
+  "file": "s020-podcasts-v1.mp3",
+  "introFile": "s020-podcasts-v1-intro.mp3",
+  "bodyFile": "s020-podcasts-v1-cos.mp3",
+  "offset": 4.56,
+  "bodyDuration": 123.03,
+  "fullDuration": 127.59,
+  "lufs": -19.2,
+  "peakDbTP": -2.9,
+  "voice": {
+    "bodyLead": 4.3,
+    "bodyRawDuration": 114.22999999999999,
+    "untrimmedApartFromSilenceSplit": true,
+    "retimed": false
+  },
+  "effects": [
+    {
+      "name": "petita-descoberta-obertura",
+      "start": 0,
+      "end": 3.8,
+      "origin": "original-procedural-composition",
+      "source": "assets/audio/mireia-jingle-proposta-v1-obertura.mp3",
+      "sourceSha256": "d7ada24dca9162960a7a68f9786d79bf8262225a50f9f904b886814927f77edc",
+      "sourceId": "petita-descoberta",
+      "author": "Sentit",
+      "license": "MIT",
+      "retimed": false
+    },
+    {
+      "name": "petita-descoberta-tancament",
+      "start": 118.87999999999998,
+      "end": 122.27999999999999,
+      "origin": "original-procedural-composition",
+      "source": "assets/audio/mireia-jingle-proposta-v1-tancament.mp3",
+      "sourceSha256": "a3bbff7cdd4951d3c60f5e8d5bba43652a975d413af41f823a0653b60d426aec",
+      "sourceId": "petita-descoberta",
+      "author": "Sentit",
+      "license": "MIT",
+      "retimed": false
+    },
+    {
+      "name": "podcast-check-click",
+      "start": 73.87999999999998,
+      "end": 73.96999999999998,
+      "origin": "original-procedural"
+    }
+  ],
+  "sha256": "e31909e699b9eda3ebd68850ae928b65f8827183ee334803291ed8b05b1ad78b",
+  "montageNewSynthesisRequests": 0,
+  "sharedJingle": {
+    "id": "petita-descoberta",
+    "approvedAt": "2026-11-20",
+    "opening": "d7ada24dca9162960a7a68f9786d79bf8262225a50f9f904b886814927f77edc",
+    "closing": "a3bbff7cdd4951d3c60f5e8d5bba43652a975d413af41f823a0653b60d426aec"
+  }
+}

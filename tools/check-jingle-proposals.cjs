@@ -3,7 +3,7 @@ const assert=require('node:assert/strict'),fs=require('node:fs/promises'),path=r
 const {chromium}=require('C:/Users/afortun8/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
 (async()=>{
  const root=path.resolve(__dirname,'..'),files=['mireia-jingle-proposta-v1','mireia-fil-de-veu-v1','mireia-pas-a-pas-v1','mireia-ona-curta-v1'],durations=[],hashes=new Set();
- for(const name of files){const record=JSON.parse(await fs.readFile(path.join(root,'assets/audio',name+'.json'),'utf8'));assert.equal(record.approval,null);assert.equal(record.origin.apiRequests,0);assert.equal(record.origin.license,'MIT');assert.equal(record.origin.externalSamples,false);
+ for(const name of files){const record=JSON.parse(await fs.readFile(path.join(root,'assets/audio',name+'.json'),'utf8'));assert.equal(record.status,'approved');assert.equal(record.approval.by,'docent');assert.equal(record.origin.apiRequests,0);assert.equal(record.origin.license,'MIT');assert.equal(record.origin.externalSamples,false);
   assert.equal(record.files.length,2);for(const f of record.files){assert(f.decodeVerified);assert(f.integratedLufs>=-20&&f.integratedLufs<=-16&&f.truePeakDbtp<=-2);assert(f.safetySilenceSeconds.start>=.06&&f.safetySilenceSeconds.end>=.075);const hash=createHash('sha256').update(await fs.readFile(path.join(root,f.file))).digest('hex');assert.equal(hash,f.sha256);assert(!hashes.has(hash));hashes.add(hash);durations.push(f.durationSeconds);}
  }
  const production=await fs.readFile(path.join(root,'assets/audio/prototips-manifest.json'),'utf8');for(const name of files.slice(1))assert(!production.includes(name),'A proposal must not be incorporated into a production');

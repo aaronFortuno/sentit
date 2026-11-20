@@ -3,6 +3,7 @@ const assert=require('node:assert/strict'),{fork}=require('node:child_process'),
 const {chromium}=require('C:/Users/afortun8/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
 (async()=>{
  const {activities}=await import('../catalogue.js');
+ const {hasPendingSynthesisEdit}=await import('../editorial-review.js');
  const proposedActivities=activities.filter(entry=>entry.reviewStatus==='pending');
  const base='http://127.0.0.1:4252/';const server=fork(path.join(__dirname,'serve.cjs'),{env:{...process.env,SENTIT_PORT:'4252'},stdio:['ignore','pipe','inherit','ipc']});let browser;
  const output=path.resolve(__dirname,'../../tmp/sentit-qa/batch-v0128');await fs.mkdir(output,{recursive:true});const errors=[],remote=[],missing=[],pages=[];
@@ -21,7 +22,7 @@ const {chromium}=require('C:/Users/afortun8/.cache/codex-runtimes/codex-primary-
   for(const entry of activities){
    const card=page.locator(`[data-open-activity="${entry.id}"]`);
    if(entry.reviewStatus==='audio-review'){
-    assert.match(await card.locator('.activity-review-label').innerText(),/^Àudio pendent de validar/);
+    assert.match(await card.locator('.activity-review-label').innerText(),hasPendingSynthesisEdit(entry)?/^Síntesi pendent d’esmena/:/^Àudio pendent de validar/);
     assert.equal(await card.locator('.activity-review-overlay').evaluate(node=>getComputedStyle(node).pointerEvents),'none');
    }else if(entry.reviewStatus!=='pending')assert.equal(await card.locator('.activity-review-overlay').count(),0);
   }

@@ -2,7 +2,7 @@
   "code": "S018",
   "activity": "ca-S018",
   "date": "2026-11-20T08:44:27.693Z",
-  "state": "awaiting-audio-validation",
+  "state": "published",
   "model": "gemini-3.8-flash-tts",
   "voices": {
     "Narradora": "Aoede"
@@ -158,5 +158,14 @@
     "author": "Sentit",
     "license": "MIT",
     "source": "tools/s018-music.cjs"
+  },
+  "teacherValidation": {
+    "state": "published",
+    "validatedAt": "2026-11-20",
+    "validatedBy": "docent",
+    "confirmation": "S018 queda validat per publicació definitiva.",
+    "audioSha256": "3e31510ff19626f43fd0b20cccf6a9b9b2ebb38ae4ae175ae399115d535bc2e7",
+    "editorialFingerprint": "7f77f3bb9a6389d482ed82fe5198e368a31ed8b17b3b69f8c91c4c927a538c9a",
+    "listeningApproval": true
   }
 }

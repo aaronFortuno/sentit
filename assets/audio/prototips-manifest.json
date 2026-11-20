@@ -56,14 +56,14 @@
     {
       "code": "S008",
       "activity": "ca-S008",
-      "file": "s008-la-foto-que-faltava-v2.mp3",
+      "file": "s008-la-foto-que-faltava-v3.mp3",
       "voices": {
         "Narradora": "Aoede"
       },
       "model": "gemini-3.8-flash-tts",
-      "bodyDuration": 88.27,
+      "bodyDuration": 92.57000000000002,
       "offset": 5.11,
-      "fullDuration": 93.38,
+      "fullDuration": 97.68000000000002,
       "lufs": -18.9,
       "peakDbTP": -2.8,
       "wordCount": 270,
@@ -83,8 +83,27 @@
         {
           "effect": "original-instrumental-bed",
           "start": 0,
-          "end": 87.87,
-          "duckedUnderSpeech": true
+          "end": 91.92000000000002,
+          "duckedUnderSpeech": true,
+          "musicTrackId": "sentit-foto-arpegi-v1",
+          "envelope": {
+            "voiceEnd": 87.27000000000001,
+            "riseAfterSpeech": {
+              "start": 87.42000000000002,
+              "end": 87.92000000000002,
+              "gainFrom": 1,
+              "gainTo": 2.5
+            },
+            "holdAfterSpeech": {
+              "start": 87.92000000000002,
+              "end": 89.92000000000002
+            },
+            "fadeOut": {
+              "start": 89.92000000000002,
+              "end": 91.92000000000002
+            },
+            "silentTail": 0.65
+          }
         },
         {
           "effect": "paper",
@@ -92,9 +111,9 @@
           "end": 44.800000000000004
         }
       ],
-      "sha256": "82066f88273bac31005d414cc6b0b1543879e74f6a25186564b14ee8ee1ba7f6",
-      "state": "ready-for-teacher-review",
-      "productionMode": "offline-raw-remaster",
+      "sha256": "628116b679215e08f3957c3251e9c4b7657a505e36aa51982f72f02441570c16",
+      "state": "published",
+      "productionMode": "offline-tail-remount",
       "newSynthesisRequests": 0,
       "sources": [
         {
@@ -118,7 +137,31 @@
           "seconds": 0.75
         }
       ],
-      "previousFile": "s008-la-foto-que-faltava-v1.mp3"
+      "previousFile": "s008-la-foto-que-faltava-v1.mp3",
+      "date": "2026-11-20",
+      "introFile": "s008-la-foto-que-faltava-v3-intro.mp3",
+      "bodyFile": "s008-la-foto-que-faltava-v3-cos.mp3",
+      "previousMaster": {
+        "file": "s008-la-foto-que-faltava-v2.mp3",
+        "sha256": "82066f88273bac31005d414cc6b0b1543879e74f6a25186564b14ee8ee1ba7f6"
+      },
+      "montageNewSynthesisRequests": 0,
+      "voice": {
+        "retimed": false,
+        "rawSamplesPreserved": true,
+        "dryBodySha256": "8f6ed22c92851a7e73252df8b832ada52f652da46cdb06ddb1072ff05a5a6b8e",
+        "unchangedFromV2": true
+      },
+      "teacherValidation": {
+        "state": "published",
+        "validatedAt": "2026-11-20",
+        "validatedBy": "docent",
+        "confirmation": "Només falta la pujada musical d’un parell de segons abans de la fosa; resolt això, es pot donar per vàlida i publicar definitivament.",
+        "conditionalOnMusicalTail": true,
+        "audioSha256": "628116b679215e08f3957c3251e9c4b7657a505e36aa51982f72f02441570c16",
+        "editorialFingerprint": "3ce87617ce96e82c39655ecda0a2dc2361e7a54397b5dd12f82d9316a63432ef",
+        "listeningApproval": true
+      }
     },
     {
       "code": "S015",
@@ -593,7 +636,7 @@
       "code": "S003",
       "activity": "ca-S003",
       "date": "2026-11-20T07:39:07.577Z",
-      "state": "awaiting-audio-validation",
+      "state": "published",
       "model": "gemini-3.8-flash-tts",
       "voices": {
         "Laia": "Leda",
@@ -652,7 +695,7 @@
         "speaker": "Laia",
         "listener": "Biel",
         "source": "Gemini TTS in the same take",
-        "listeningValidation": "pending"
+        "listeningValidation": "approved"
       },
       "effects": [
         {
@@ -674,7 +717,14 @@
           "origin": "original-procedural"
         }
       ],
-      "sha256": "a0cadf740e032c69fd50d7fdd33f2fe59290c39dcf0d1e078e3f0145ece8367f"
+      "sha256": "a0cadf740e032c69fd50d7fdd33f2fe59290c39dcf0d1e078e3f0145ece8367f",
+      "teacherValidation": {
+        "validatedAt": "2026-11-20",
+        "validatedBy": "docent",
+        "confirmation": "S003 queda validat i es pot publicar.",
+        "audioSha256": "a0cadf740e032c69fd50d7fdd33f2fe59290c39dcf0d1e078e3f0145ece8367f",
+        "editorialFingerprint": "cbb297a7ce3af1c176b240e21a1750c9e0606d9ca8e8728434277f239ec05624"
+      }
     },
     {
       "code": "S013",
@@ -762,7 +812,7 @@
       "code": "S018",
       "activity": "ca-S018",
       "date": "2026-11-20T08:44:27.693Z",
-      "state": "awaiting-audio-validation",
+      "state": "published",
       "model": "gemini-3.8-flash-tts",
       "voices": {
         "Narradora": "Aoede"
@@ -918,6 +968,15 @@
         "author": "Sentit",
         "license": "MIT",
         "source": "tools/s018-music.cjs"
+      },
+      "teacherValidation": {
+        "state": "published",
+        "validatedAt": "2026-11-20",
+        "validatedBy": "docent",
+        "confirmation": "S018 queda validat per publicació definitiva.",
+        "audioSha256": "3e31510ff19626f43fd0b20cccf6a9b9b2ebb38ae4ae175ae399115d535bc2e7",
+        "editorialFingerprint": "7f77f3bb9a6389d482ed82fe5198e368a31ed8b17b3b69f8c91c4c927a538c9a",
+        "listeningApproval": true
       }
     },
     {
@@ -1248,15 +1307,15 @@
     {
       "code": "S012",
       "activity": "ca-S012",
-      "date": "2026-11-20T09:35:59.322Z",
-      "state": "awaiting-audio-validation",
+      "date": "2026-11-20T16:09:11.934Z",
+      "state": "awaiting-montage-validation",
       "model": "gemini-3.8-flash-tts",
       "voices": {
         "Biel": "Puck",
         "Elies": "Algieba"
       },
       "newSynthesisRequests": 1,
-      "approvalFingerprint": "a0c2ffc4f711b25afb1b69b62ec15d5e7b5961470b8c15d5a5828a7c717acf44",
+      "approvalFingerprint": "032f0c40b06cadba320cc91a0141aa96f4c93f325a6bfdd38623653e764ad6cb",
       "requestHash": "29dee389b3a66507666baaca9a40d74a6124a3ed31827a57e281cce36ea7e6ff",
       "rawSha256": "80087beb1559c05ba2ed8771b59b258fcf868f3ae8010d7d79bde246e733b7e4",
       "usage": {
@@ -1288,16 +1347,16 @@
         "peakDbFS": -65.7,
         "rawSamplesPreserved": true
       },
-      "file": "s012-instruments-v1.mp3",
-      "introFile": "s012-instruments-v1-intro.mp3",
-      "bodyFile": "s012-instruments-v1-cos.mp3",
+      "file": "s012-instruments-v2.mp3",
+      "introFile": "s012-instruments-v2-intro.mp3",
+      "bodyFile": "s012-instruments-v2-cos.mp3",
       "offset": 4.18,
-      "bodyDuration": 112.39,
-      "fullDuration": 116.57,
-      "lufs": -19.4,
+      "bodyDuration": 119.09,
+      "fullDuration": 123.27000000000001,
+      "lufs": -19.5,
       "peakDbTP": -2.8,
       "voice": {
-        "bodyLead": 3,
+        "bodyLead": 3.6,
         "bodyRawDuration": 108.19000000000001,
         "untrimmedApartFromSilenceSplit": false,
         "retimed": false
@@ -1327,33 +1386,140 @@
       "montageNewSynthesisRequests": 0,
       "effects": [
         {
-          "name": "real-loose-guitar",
+          "name": "real-loose-guitar-sequence",
           "start": 0,
-          "end": 2.7,
+          "end": 118.09,
           "origin": "external-recording",
           "source": "assets/audio/sources/khenshom-537084-guitar.mp3",
           "sourceId": "khenshom-guitar-537084",
+          "sourceSha256": "b27703e3f933ea2588d9b6384148fcf278097247800391b236291a359950f252",
           "sourceUrl": "https://freesound.org/people/khenshom/sounds/537084/",
           "author": "khenshom",
           "license": "CC0 1.0",
           "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-          "sourceSha256": "b27703e3f933ea2588d9b6384148fcf278097247800391b236291a359950f252",
           "excerpt": {
             "start": 2.7,
             "end": 5.4
           },
-          "gain": 0.85,
-          "retimed": false,
-          "pitchShifted": false
+          "gainBeforeLimiter": 1.6,
+          "openingSourceTimeUnchanged": true,
+          "events": [
+            {
+              "phase": "opening",
+              "start": 0,
+              "semitones": 0,
+              "end": 2.7,
+              "pitchShifted": false,
+              "durationPreserved": true
+            },
+            {
+              "phase": "opening",
+              "start": 0.85,
+              "semitones": 0,
+              "end": 3.5500000000000003,
+              "pitchShifted": false,
+              "durationPreserved": true
+            },
+            {
+              "phase": "opening",
+              "start": 2.05,
+              "semitones": 0,
+              "end": 4.75,
+              "pitchShifted": false,
+              "durationPreserved": true
+            },
+            {
+              "phase": "opening",
+              "start": 3.7,
+              "semitones": 0,
+              "end": 6.4,
+              "pitchShifted": false,
+              "durationPreserved": true
+            },
+            {
+              "start": 112.09,
+              "semitones": -1.2,
+              "phase": "ending",
+              "end": 114.79,
+              "pitchShifted": true,
+              "durationPreserved": true
+            },
+            {
+              "start": 113.34,
+              "semitones": -0.5,
+              "phase": "ending",
+              "end": 116.04,
+              "pitchShifted": true,
+              "durationPreserved": true
+            },
+            {
+              "start": 115.39,
+              "semitones": 0.1,
+              "phase": "ending",
+              "end": 118.09,
+              "pitchShifted": true,
+              "durationPreserved": true
+            }
+          ],
+          "voiceRetimed": false,
+          "speechStart": 4.05,
+          "speechOverlapSeconds": 2.3500000000000005,
+          "speechWindowMeanDbFS": -78,
+          "speechWindowPeakDbFS": -50.8,
+          "speechWindowVoiceMeanDbFS": -18.3,
+          "speechWindowMarginDb": 59.7,
+          "envelope": {
+            "duckBeforeSpeech": {
+              "start": 3.55,
+              "end": 3.9499999999999997
+            },
+            "underVoiceGain": 0.045,
+            "silentTail": 0.6
+          },
+          "tuningMethod": "Pitch changes only on the three recorded ending clips; asetrate plus compensating atempo, with original duration retained. No voice processing.",
+          "listeningValidation": "pending"
         },
         {
           "name": "workshop-paper",
-          "start": 70.27000000000001,
-          "end": 70.72000000000001,
+          "start": 70.87,
+          "end": 71.32000000000001,
           "origin": "original-procedural"
         }
       ],
-      "sha256": "923b9c34ccb60c109cefcf746386a6fd440d58c6a3751aa4fd2f70e719b002d1"
+      "sha256": "00344e8635392d7cae9b1ab299521bc8544a091d569838d86ad06a7b20ba8b1c",
+      "previousMaster": {
+        "file": "s012-instruments-v1.mp3",
+        "sha256": "923b9c34ccb60c109cefcf746386a6fd440d58c6a3751aa4fd2f70e719b002d1"
+      },
+      "voiceValidation": {
+        "approved": true,
+        "validatedAt": "2026-11-20",
+        "validatedBy": "docent",
+        "rawSha256": "80087beb1559c05ba2ed8771b59b258fcf868f3ae8010d7d79bde246e733b7e4",
+        "sourceRequestHash": "29dee389b3a66507666baaca9a40d74a6124a3ed31827a57e281cce36ea7e6ff",
+        "editorialEdit": {
+          "type": "keep-final-suffix",
+          "part": "comiat",
+          "retainedText": "Gràcies, Elies.",
+          "removeStart": 110.355,
+          "removeEnd": 118.575,
+          "sourceRequestHash": "29dee389b3a66507666baaca9a40d74a6124a3ed31827a57e281cce36ea7e6ff",
+          "sourceApprovalFingerprint": "4ef0fb068da5d0e65fdf692b82f1893e8cedcd5e804b29be4db9b42548925c01",
+          "reason": "Revisió general de tancaments demanada pel docent: conservar només l’agraïment concret, sense una segona petició de síntesi.",
+          "originalText": "Doncs avui torno sense una guitarra nova, però amb una idea nova: primer entendre el problema, després decidir què s’ha de tocar. Gràcies, Elies.",
+          "removedSeconds": 8.219999999999999,
+          "silenceChecks": [
+            {
+              "at": 110.355,
+              "peakDbFS": -57.4
+            },
+            {
+              "at": 118.575,
+              "peakDbFS": -66.8
+            }
+          ]
+        }
+      }
     },
     {
       "code": "S016",
@@ -1842,15 +2008,15 @@
     {
       "code": "S019",
       "activity": "ca-S019",
-      "date": "2026-11-20T12:43:33.752Z",
-      "state": "awaiting-audio-validation",
+      "date": "2026-11-20T16:09:05.574Z",
+      "state": "awaiting-montage-validation",
       "model": "gemini-3.8-flash-tts",
       "voices": {
         "Laia": "Leda",
         "Ona": "Sulafat"
       },
       "newSynthesisRequests": 1,
-      "approvalFingerprint": "cb7f067ca00bda0d89f0d19f80718b080a98d8e58fd6e8e17e30289fef958620",
+      "approvalFingerprint": "11977fa5c579edaf15d859b80e5fa11df7afe22e103f4b00b3ffeee7c3812941",
       "requestHash": "a8924128e778e3dde6202ed8682fc6ea0ffa41cc569060d635aadd677508ecf8",
       "rawSha256": "725ae2c9b9284506445838935bcedba9a9ce433f94adc2fa8e7f702d29c41e2e",
       "usage": {
@@ -1882,16 +2048,16 @@
         "peakDbFS": -51.9,
         "rawSamplesPreserved": true
       },
-      "file": "s019-cuinera-v1.mp3",
-      "introFile": "s019-cuinera-v1-intro.mp3",
-      "bodyFile": "s019-cuinera-v1-cos.mp3",
+      "file": "s019-cuinera-v2.mp3",
+      "introFile": "s019-cuinera-v2-intro.mp3",
+      "bodyFile": "s019-cuinera-v2-cos.mp3",
       "offset": 4.5,
-      "bodyDuration": 110.59,
-      "fullDuration": 115.09,
+      "bodyDuration": 112.89,
+      "fullDuration": 117.39,
       "lufs": -19.3,
-      "peakDbTP": -2.7,
+      "peakDbTP": -2.5,
       "voice": {
-        "bodyLead": 2.3,
+        "bodyLead": 2.8,
         "bodyRawDuration": 105.09,
         "untrimmedApartFromSilenceSplit": true,
         "retimed": false
@@ -1909,31 +2075,164 @@
       },
       "effects": [
         {
-          "name": "quiet-bowl-contact",
-          "start": 0.1,
-          "end": 0.6,
-          "origin": "original-procedural"
+          "name": "real-kitchen-ambience",
+          "start": 0,
+          "end": 112.24,
+          "origin": "external-recording",
+          "source": "assets/audio/sources/soundtasticpro-484572-kitchen.mp3",
+          "sourceId": "soundtasticpro-kitchen-484572",
+          "sourceSha256": "1bd886bb25614d7e0768e77cd4200ad84f4db55f51257a5e16c11f47737155ad",
+          "sourceUrl": "https://freesound.org/people/SoundtasticPro/sounds/484572/",
+          "author": "SoundtasticPro",
+          "license": "CC0 1.0",
+          "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+          "retimed": false,
+          "pitchShifted": false,
+          "sourceDuration": 72.096,
+          "passes": 2,
+          "crossfadeSeconds": 1,
+          "sourceNormalization": "-25 LUFS target; -12 dBFS peak ceiling",
+          "speechWindowMeanDbFS": -48.4,
+          "speechWindowPeakDbFS": -32,
+          "speechWindowVoiceMeanDbFS": -19.3,
+          "speechWindowMarginDb": 29.099999999999998,
+          "envelope": {
+            "fadeIn": {
+              "start": 0,
+              "end": 0.65
+            },
+            "duckBeforeSpeech": {
+              "start": 2,
+              "end": 3
+            },
+            "speechGain": 0.1,
+            "riseAfterSpeech": {
+              "start": 108.04,
+              "end": 108.54
+            },
+            "holdAfterSpeech": {
+              "start": 108.54,
+              "end": 110.64
+            },
+            "fadeOut": {
+              "start": 110.64,
+              "end": 112.24
+            },
+            "silentTail": 0.65
+          },
+          "listeningValidation": "pending"
+        }
+      ],
+      "sha256": "47f572613bed9eac9d5fac6057b940eea3df39a322a9a5e4d35fd626702a0637",
+      "montageNewSynthesisRequests": 0,
+      "previousMaster": {
+        "file": "s019-cuinera-v1.mp3",
+        "sha256": "20df9228b18a6df1807bf87ade49be30846cdd92be6342abba7d0c31e389a98b"
+      },
+      "voiceValidation": {
+        "approved": true,
+        "validatedAt": "2026-11-20",
+        "validatedBy": "docent",
+        "rawSha256": "725ae2c9b9284506445838935bcedba9a9ce433f94adc2fa8e7f702d29c41e2e",
+        "sourceRequestHash": "a8924128e778e3dde6202ed8682fc6ea0ffa41cc569060d635aadd677508ecf8"
+      }
+    },
+    {
+      "code": "S020",
+      "activity": "ca-S020",
+      "date": "2026-11-20T16:36:03.924Z",
+      "state": "awaiting-audio-validation",
+      "model": "gemini-3.8-flash-tts",
+      "voices": {
+        "Mireia": "Aoede"
+      },
+      "newSynthesisRequests": 1,
+      "approvalFingerprint": "56e0ce761f7ae0d28ad191b8017386645ac299c1da8d9ce8e63565ef06170246",
+      "requestHash": "726a552e8a34a3432c89738485077c81775171016ff758e07fba54f279199b9c",
+      "rawSha256": "015b9300b6d93417c143a5acd87cb3bff35607ec2b02dd170214454a28ab14b9",
+      "usage": {
+        "total_tokens": 3571,
+        "total_input_tokens": 615,
+        "input_tokens_by_modality": [
+          {
+            "modality": "text",
+            "tokens": 615
+          }
+        ],
+        "total_cached_tokens": 0,
+        "total_output_tokens": 2956,
+        "output_tokens_by_modality": [
+          {
+            "modality": "audio",
+            "tokens": 2956
+          }
+        ],
+        "total_tool_use_tokens": 0,
+        "total_thought_tokens": 0,
+        "initial_input_tokens": 615
+      },
+      "rawDuration": 118.24,
+      "cut": {
+        "at": 4.01,
+        "previousWordEnd": 3.57,
+        "nextWordStart": 4.71,
+        "peakDbFS": -58.1,
+        "rawSamplesPreserved": true
+      },
+      "file": "s020-podcasts-v1.mp3",
+      "introFile": "s020-podcasts-v1-intro.mp3",
+      "bodyFile": "s020-podcasts-v1-cos.mp3",
+      "offset": 4.56,
+      "bodyDuration": 123.03,
+      "fullDuration": 127.59,
+      "lufs": -19.2,
+      "peakDbTP": -2.9,
+      "voice": {
+        "bodyLead": 4.3,
+        "bodyRawDuration": 114.22999999999999,
+        "untrimmedApartFromSilenceSplit": true,
+        "retimed": false
+      },
+      "effects": [
+        {
+          "name": "petita-descoberta-obertura",
+          "start": 0,
+          "end": 3.8,
+          "origin": "original-procedural-composition",
+          "source": "assets/audio/mireia-jingle-proposta-v1-obertura.mp3",
+          "sourceSha256": "d7ada24dca9162960a7a68f9786d79bf8262225a50f9f904b886814927f77edc",
+          "sourceId": "petita-descoberta",
+          "author": "Sentit",
+          "license": "MIT",
+          "retimed": false
         },
         {
-          "name": "menu-opening",
-          "start": 0.9,
-          "end": 1.5,
-          "origin": "original-procedural"
+          "name": "petita-descoberta-tancament",
+          "start": 118.87999999999998,
+          "end": 122.27999999999999,
+          "origin": "original-procedural-composition",
+          "source": "assets/audio/mireia-jingle-proposta-v1-tancament.mp3",
+          "sourceSha256": "a3bbff7cdd4951d3c60f5e8d5bba43652a975d413af41f823a0653b60d426aec",
+          "sourceId": "petita-descoberta",
+          "author": "Sentit",
+          "license": "MIT",
+          "retimed": false
         },
         {
-          "name": "menu-turn",
-          "start": 49.99999999999999,
-          "end": 50.13999999999999,
-          "origin": "original-procedural"
-        },
-        {
-          "name": "kitchen-ending",
-          "start": 107.69,
-          "end": 109.69,
+          "name": "podcast-check-click",
+          "start": 73.87999999999998,
+          "end": 73.96999999999998,
           "origin": "original-procedural"
         }
       ],
-      "sha256": "20df9228b18a6df1807bf87ade49be30846cdd92be6342abba7d0c31e389a98b"
+      "sha256": "e31909e699b9eda3ebd68850ae928b65f8827183ee334803291ed8b05b1ad78b",
+      "montageNewSynthesisRequests": 0,
+      "sharedJingle": {
+        "id": "petita-descoberta",
+        "approvedAt": "2026-11-20",
+        "opening": "d7ada24dca9162960a7a68f9786d79bf8262225a50f9f904b886814927f77edc",
+        "closing": "a3bbff7cdd4951d3c60f5e8d5bba43652a975d413af41f823a0653b60d426aec"
+      }
     }
   ]
 }
