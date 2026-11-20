@@ -217,3 +217,6 @@ El control «Mostra els provisionals» està activat inicialment i recorda la pr
 ### Primera publicació definitiva
 
 **S004 · El botó de la jaqueta**: guió, material i àudio validats pel docent el 20/11/2026; publicada sense marques provisionals. L’aprovació es vincula al màster i al guió exactes. La variant S004D continua en revisió.
+
+
+S004D, la versió dialogada, també té confirmació expressa de publicació definitiva el 20/11/2026, incloent música i muntatge. S004 i S004D conserven aprovacions pròpies i els màsters escoltats.

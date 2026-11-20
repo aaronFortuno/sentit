@@ -10,7 +10,7 @@ Actualitzat: **20/11/2026**. Catàleg base de **24 peces**, més les variants **
 | [ca-S002](https://sentit.ortogra.fi/#lectura=ca-S002) | Preparem una capsa de records | 3r | Accessible · Instruccions | 0:53 | 6 | ✅ | ◐ | ◐ | ✅ | ✅ | ◐ | — |
 | [ca-S003](https://sentit.ortogra.fi/#lectura=ca-S003) | El paraigua intercanviat | 3r | Accessible · Diàleg | 1:10 | 6 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
 | [ca-S004](https://sentit.ortogra.fi/#lectura=ca-S004) | El botó de la jaqueta | 3r | Intermèdia · Narració | 1:26 | 6 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [ca-S004D](https://sentit.ortogra.fi/#lectura=ca-S004D) | El botó de la jaqueta · versió dialogada | 3r | Intermèdia · Narració | 1:28 | 6 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
+| [ca-S004D](https://sentit.ortogra.fi/#lectura=ca-S004D) | El botó de la jaqueta · versió dialogada | 3r | Intermèdia · Narració | 1:28 | 6 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [ca-S005](https://sentit.ortogra.fi/#lectura=ca-S005) | La feina d’una cartera | 3r | Intermèdia · Entrevista | 1:43 | 6 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
 | [ca-S006](https://sentit.ortogra.fi/#lectura=ca-S006) | S’obre un nou camí al parc | 3r | Avançada · Notícia | Prevista 1:45–2:15 | 6 | ✅ | ✅ | ✅ Veus · ⏳ Sintonia | — | — | — | — |
 | [ca-S007](https://sentit.ortogra.fi/#lectura=ca-S007) | On va l’aigua del bassal? | 3r | Avançada · Explicació | Prevista 2:15–2:45 | 6 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
@@ -36,7 +36,7 @@ Actualitzat: **20/11/2026**. Catàleg base de **24 peces**, més les variants **
 ## Com revisar-les
 
 - **9 propostes encara no tenen muntatge**: S006, S007, S009, S011, S014, S017, S020, S021, S024. Es poden revisar per codi, en qualsevol ordre. El solucionari s’obre amb el guió anotat primer i les preguntes i respostes després. Els plans agrupen el text en una petició per a una o dues veus; les escenes d’aula amb tres veus preveuen dues peticions i muntatge local. S020 ja té les veus rebudes i espera la sintonia comuna; la resta no s’ha enviat a Gemini.
-- **S003, S004D, S005, S008, S008R, S010, S012, S013, S015, S016, S018, S019, S022, S023 esperen audició**. El PDF diu «Àudio pendent de validar» i es pot imprimir per revisar. La confirmació del guió no valida automàticament el muntatge.
+- **S003, S005, S008, S008R, S010, S012, S013, S015, S016, S018, S019, S022, S023 esperen audició**. El PDF diu «Àudio pendent de validar» i es pot imprimir per revisar. La confirmació del guió no valida automàticament el muntatge.
 - **S001 i S002** són prototips anteriors al registre formal de validacions. No se’ls ha atribuït retrospectivament una aprovació definitiva.
 - **S008R** revisa la mateixa història de S008 com a programa de ràdio, amb benvinguda i comiat; no és una peça número 25 del catàleg base.
 
@@ -53,6 +53,6 @@ La taula es regenera amb `node tools/update-production-table.mjs --date=AAAA-MM-
 
 **Correccions identificades pel docent:** S010: Muntatge validat; pronunciacions pendents. Passos reals nous pendents d’audició · S013: Valoració positiva; bústia pendent de corregir. Sintonia rebutjada, retirada; alternativa pendent · S016: La resta de la peça està ben valorada. Artefacte en lloc de «Si» pendent de corregir; jingles inicial i final pendents de polir. Reparació local encara per preparar · S022: Bon muntatge; rails pendent de corregir. Efectes de tramvia revisats pendents d’audició. 3 peticions curtes preparades, encara sense enviar; 6 incidències anotades al [registre de producció](../content/production-progress.js). No hi ha aprovació definitiva mentre faltin aquestes correccions i l’audició dels nous efectes.
 
-**Publicades definitivament:** S004. La confirmació docent queda vinculada al màster i al guió exactes; les variants es validen per separat.
+**Publicades definitivament:** S004, S004D. La confirmació docent queda vinculada al màster i al guió exactes; les variants es validen per separat.
 
 **Provisional** vol dir que la revisió adversària independent està superada per al contingut exacte i que falta la validació docent. Un esborrany encara en revisió no porta aquesta marca. [Resultat final i versions revisades](revisio-coherencia.md) · [Pauta reutilitzable](../skills/revisio-coherencia-didactica/SKILL.md).

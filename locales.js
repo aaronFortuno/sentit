@@ -1,6 +1,7 @@
 export const strings = {
   ca: {
     language: 'ca',
+    releasePublishedVariant: "S004D publicada definitivament després de validar l’àudio, la música i el muntatge. Sense marques provisionals i disponible també amb els provisionals ocults.",
     releasePuddleAnalogy: "S004 publicada definitivament, sense marques provisionals; S004D continua pendent. S007: analogia del plat amb foradets presentada abans de la rèplica de la Laia, explicació sobre l’aigua invisible ampliada i tancament revisat. Solucionari i cites ajustats; pendent de validació docent, sense síntesi.",
     releaseDescriptiveUniverses: "Els noms dels universos expliquen millor què hi trobarem: descobertes, records i misteris, explicacions i projectes, i notícies. Noms actualitzats als filtres, les cards i les fitxes.",
     releaseCompactCatalogue: "Catàleg sense la franja del títol: cerca al header, recompte compacte al costat de Filtres i accés als personatges només amb icona. Més espai vertical per a les cards i el sidebar, amb capçalera adaptada a mòbil.",
@@ -203,6 +204,7 @@ export const strings = {
   },
   es: {
     language: 'es',
+    releasePublishedVariant: "S004D publicada definitivamente tras validar el audio, la música y el montaje. Sin marcas provisionales y disponible también con los provisionales ocultos.",
     releasePuddleAnalogy: "S004 publicada definitivamente, sin marcas provisionales; S004D sigue pendiente. S007: analogía del plato con agujeritos presentada antes de la réplica de Laia, explicación sobre el agua invisible ampliada y cierre revisado. Solucionario y citas ajustados; pendiente de validación docente, sin síntesis.",
     releaseDescriptiveUniverses: "Los nombres de los universos explican mejor qué encontraremos: descubrimientos, recuerdos y misterios, explicaciones y proyectos, y noticias. Nombres actualizados en filtros, tarjetas y fichas.",
     releaseCompactCatalogue: "Catálogo sin la franja del título: búsqueda en la cabecera, contador compacto junto a Filtros y acceso a personajes solo con icono. Más espacio vertical para las tarjetas y el panel, con cabecera adaptada a móvil.",

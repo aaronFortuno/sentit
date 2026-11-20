@@ -145,5 +145,14 @@ export const productionProgress = {
     "audioSha256": "780e096640722d8623d809b0319b76d579c271f1cc12143643ef071b860b15ad",
     "editorialFingerprint": "30cb0049ef5dbe7b690435324030990ff0eb9cd58036d4becae0c0952b4db18e",
     "listeningApproval": true
+  },
+  "ca-S004D": {
+    "state": "published",
+    "validatedAt": "2026-11-20",
+    "validatedBy": "docent",
+    "confirmation": "S004D es pot publicar definitivament; música i muntatge validats.",
+    "audioSha256": "0678719861a6354cf569771a2be73f5ca561ae1d086907e40a65a317d2e008c4",
+    "editorialFingerprint": "d405d1a01e308ff2d2c1681d76bcae677b0d30ded76872863f780cdd821aa2bf",
+    "listeningApproval": true
   }
 };

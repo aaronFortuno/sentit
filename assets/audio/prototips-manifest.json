@@ -1600,7 +1600,7 @@
       "code": "S004D",
       "activity": "ca-S004D",
       "date": "2026-11-20T10:21:02.932Z",
-      "state": "awaiting-audio-validation",
+      "state": "published",
       "model": "gemini-3.8-flash-tts",
       "voices": {
         "Aina": "Zephyr",
@@ -1745,6 +1745,13 @@
         "author": "Sentit",
         "license": "MIT",
         "source": "tools/s004-music.cjs"
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-20",
+        "validatedBy": "docent",
+        "confirmation": "S004D es pot publicar definitivament; música i muntatge validats.",
+        "audioSha256": "0678719861a6354cf569771a2be73f5ca561ae1d086907e40a65a317d2e008c4",
+        "editorialFingerprint": "d405d1a01e308ff2d2c1681d76bcae677b0d30ded76872863f780cdd821aa2bf"
       }
     },
     {
