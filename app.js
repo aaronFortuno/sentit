@@ -11,6 +11,7 @@ import { initGuidedPlayer } from './guided-player.js';
 import { mountCatalog } from './catalog.js';
 import { listCollections, saveCollectionLayout } from './collections.js';
 import { durationText } from './activity-meta.js';
+import { universeName, universesForActivity } from './content/universes.js';
 import { animateRefresh, mountDetails, mountDialogs, openDialog, closeDialog, scrollToTarget, setDetailsOpen, setDisclosure } from './motion.js';
 import { mountCharacterExplorer } from './character-explorer.js';
 import { mountLanguageMenu } from './language-menu.js';
@@ -263,6 +264,10 @@ function renderSelection() {
   byId('print-kind').textContent = selected ? t(isPendingReview(selected) ? 'reviewPrintBlocked' : 'printHint') : '';
   const scope = listCollections().find(entry => entry.id === activeCollectionId);
   byId('activity-meta').textContent = selected ? `${t('grades')[selected.grade] ?? selected.grade} · ${t('genres')[selected.genre] ?? selected.genre} · ${durationText(selected, t)}${scope ? ` · ${scope.name}` : ''}` : '';
+  if (selected) {
+    const linked = universesForActivity(selected);
+    byId('activity-meta').textContent += ' · ' + (linked.length ? linked.map(universe => universeName(universe, language)).join(' · ') : t('independentActivity'));
+  }
   renderPaper();
   renderEditor();
   const audio = byId('teacher-audio');

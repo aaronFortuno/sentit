@@ -4,6 +4,9 @@ assert.equal(analyticsConfig.website,'6acf2cae-4b28-4d71-98dd-550d2d086dcc');
 for(const name of ['__proto__','constructor','write_text'])assert.equal(sanitizeEvent(name,{name:'Joana'}),false);
 assert.equal(sanitizeEvent('aplica_filtre',{filtre:'__proto__',valor:'Anna'}),false);
 assert.equal(sanitizeEvent('aplica_filtre',{filtre:'grade',valor:'3r de la Carla'}),false);
+assert.equal(sanitizeEvent('aplica_filtre',{filtre:'universe',valor:'la classe de la Carla'}),false);
+assert.deepEqual(sanitizeEvent('aplica_filtre',{filtre:'universe',valor:'aina-ferran'}),{name:'aplica_filtre',data:{filtre:'universe',valor:'aina-ferran'}});
+assert.deepEqual(sanitizeEvent('canvia_provisionals',{visible:false,name:'Carla'}),{name:'canvia_provisionals',data:{visible:false}});
 assert.equal(sanitizeEvent('obre_comprensio',{code:'private-lesson'}),false);
 assert.equal(sanitizeEvent('colleccio',{accio:'La classe de la Martina'}),false);
 const cases=[
