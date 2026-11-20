@@ -1,8 +1,3 @@
-.workspace {
-  grid-template-columns: minmax(0, 1fr) 310px;
-  grid-template-rows: minmax(0, 1fr);
-  grid-template-areas: "paper actions";
-}
 .catalog-view {
   width: min(100%, 1680px);
   min-height: 0;
@@ -105,7 +100,6 @@
   .catalog-layout { grid-template-columns: 200px minmax(0, 1fr); gap: 16px; }
 }
 @media (max-width: 640px) {
-  .workspace { grid-template-columns: minmax(0, 1fr); grid-template-rows: minmax(0, 1fr) auto; grid-template-areas: "paper" "actions"; }
   .catalog-view { padding: 12px 12px 8px; }
   .top-inner { flex-wrap: wrap; padding-block: 8px; row-gap: 4px; }
   .top-actions { margin-inline-start: auto; }

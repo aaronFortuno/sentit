@@ -68,7 +68,7 @@ La [revisió editorial dels cinc prototips](docs/revisio-editorial-prototips.md)
 
 `motion.js` centralitza el moviment dels panells, menús, finestres i canvis de vista amb el valor `--motion: 220ms`. El tancament també s’anima; els clics successius cancel·len la transició anterior. Es respecta la preferència de moviment reduït i les animacions no afecten la impressió. `mottos.js` conserva les frases aparellades en català i castellà; `language-menu.js` gestiona el selector.
 
-La preparació té dos passos. Primer es tria una comprensió al catàleg, amb els filtres i les col·leccions a l’esquerra. En obrir una targeta s’accedeix a l’editor, amb el full i el sidebar d’àudio i impressió. La fletxa de retorn conserva els filtres i permet tornar al catàleg. L’accés a la vista d’escolta i el botó per imprimir el document seleccionat queden visibles mentre es consulten els ajustos. En pantalles petites, **Àudio i impressió** desplega els ajustos.
+La preparació té dos passos. Primer es tria una comprensió al catàleg, amb els filtres i les col·leccions a l’esquerra. En obrir una targeta s’accedeix a l’editor, amb Àudio a l’esquerra, el full al centre i Impressió a la dreta. Els dos panells tenen scroll independent. La fletxa de retorn conserva els filtres i permet tornar al catàleg. L’accés a la vista d’escolta i el botó per imprimir el document seleccionat queden visibles mentre es consulten els ajustos. Per sota de 1.200 px, els botons **Àudio** i **Impressió** obren un panell lateral sobre el preview; només un pot estar obert i es tanca amb la creu, clic fora o Escape. Les transicions duren 220 ms i el footer continua visible.
 
 ## Col·leccions del docent
 
@@ -188,3 +188,5 @@ El control «Mostra els provisionals» està activat inicialment i recorda la pr
 
 
 Les validacions definitives i les esmenes obertes consten a l’estat inicial d’aquest document i a la taula de fases. Els originals de les preses i els màsters anteriors es conserven.
+
+`workspace-panels.js` gestiona exclusivitat, accessibilitat i canvi entre panells fixos i desplegables. `node tools/check-workspace-panels.cjs` comprova scrolls independents, botons fixats, persistència dels ajustos, resize, teclat, mòbil, tema, idioma, PDF i bloqueig dels esborranys, només en local.
