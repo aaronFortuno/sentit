@@ -8,10 +8,18 @@ import { track, countBucket } from './analytics.js';
 
 const normalise = value => value.toLocaleLowerCase().normalize('NFD').replace(/\p{M}/gu, '');
 const activeKey = 'sentit.collection.active.v1';
+const initialLimit = 12;
+const pageSize = 8;
 
 export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, onCollectionsChange }) {
   const byId = id => document.getElementById(id);
   const index = new Map(activities.map(entry => [entry.id, entry]));
+  // One Fisher–Yates shuffle per visit; filtering keeps this discovery order.
+  const discoveryEntries = [...activities];
+  for (let i = discoveryEntries.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [discoveryEntries[i], discoveryEntries[j]] = [discoveryEntries[j], discoveryEntries[i]];
+  }
   const searchIndex = new Map(activities.map(entry => [entry.id, normalise(`${entry.language}-${entry.code} ${entry.title} ${entry.summary ?? ''}`)]));
   const fields = ['grade', 'level', 'duration', 'genre'];
   const initialFilters = new URLSearchParams(location.search);
@@ -25,7 +33,8 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
   let selectionSource = '';
   let addingTo = '';
   let matches = [];
-  let limit = 12;
+  let limit = initialLimit;
+  let loadFrame = 0;
   const grid = byId('activity-grid');
   const dialog = byId('collection-dialog');
   const scroller = byId('catalog-view').querySelector('.catalog-results-scroll');
@@ -49,7 +58,7 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
 
   function sourceEntries() {
     const collection = currentCollection();
-    return collection ? collection.readingIds.map(id => index.get(id)).filter(Boolean) : activities;
+    return collection ? collection.readingIds.map(id => index.get(id)).filter(Boolean) : discoveryEntries;
   }
 
   function errorMessage(error) {
@@ -69,8 +78,9 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
     byId('search').value = '';
     setDisclosure(byId('collection-rename'), false);
     byId('collection-rename-toggle').setAttribute('aria-expanded', 'false');
-    limit = 12;
+    limit = initialLimit;
     render();
+    scroller.scrollTop = 0;
   }
 
   function renderFilters() {
@@ -128,9 +138,11 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
     gestures?.sync();
   }
 
-  function renderCards() {
-    grid.replaceChildren();
-    for (const entry of matches.slice(0, limit)) {
+  function renderCards({ append = false } = {}) {
+    const start = append ? grid.childElementCount : 0;
+    if (!append) { grid.replaceChildren(); byId('catalog-card-status').textContent = ''; }
+    const added = [];
+    for (const entry of matches.slice(start, limit)) {
       const card = element('button', undefined, 'activity-card');
       card.type = 'button';
       card.dataset.id = entry.id;
@@ -198,11 +210,27 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
         card.append(overlay);
       }
       grid.append(card);
+      added.push(card);
     }
     byId('catalog-empty').hidden = matches.length > 0;
-    byId('catalog-more').hidden = limit >= matches.length;
     renderSelection();
-    animateRefresh(grid);
+    if (append) {
+      for (const card of added) animateRefresh(card);
+      byId('catalog-card-status').textContent = t('catalogLoaded')(grid.childElementCount, matches.length);
+    } else animateRefresh(grid);
+    scheduleMore();
+  }
+
+  function scheduleMore() {
+    if (loadFrame) return;
+    loadFrame = requestAnimationFrame(() => {
+      loadFrame = 0;
+      if (!scroller.clientHeight || limit >= matches.length || gestures?.dragging()) return;
+      const remaining = scroller.scrollHeight - scroller.scrollTop - scroller.clientHeight;
+      if (remaining > 8) return;
+      limit = Math.min(matches.length, limit + pageSize);
+      renderCards({ append: true });
+    });
   }
 
   function render() {
@@ -230,7 +258,7 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
   }
 
   function refresh() {
-    limit = 12;
+    limit = initialLimit;
     render();
     byId('catalog-view').querySelector('.catalog-results-scroll').scrollTop = 0;
   }
@@ -370,7 +398,10 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
   });
   byId('character-filter-clear').addEventListener('click', () => { selectedCharacters.clear(); byId('character-match').value = 'any'; refresh(); byId('character-filter').querySelector('summary').focus(); });
   byId('search').addEventListener('input', refresh);
-  byId('catalog-more').addEventListener('click', () => { gestures.close(); limit += 12; renderCards(); });
+  scroller.addEventListener('scroll', scheduleMore, { passive: true });
+  window.addEventListener('resize', scheduleMore);
+  window.addEventListener('pointerup', scheduleMore);
+  if (typeof ResizeObserver === 'function') new ResizeObserver(scheduleMore).observe(scroller);
   byId('collection-select').addEventListener('change', event => {setCollection(event.target.value);track('colleccio',{accio:'selecciona',quantitat:countBucket(currentCollection()?.readingIds.length??0)});});
   byId('collection-save').addEventListener('click', () => startSelection());
   byId('collection-add').addEventListener('click', () => startSelection(collectionId));

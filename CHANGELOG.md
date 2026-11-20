@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.29 · 20 de novembre de 2026
+
+- El catàleg afegeix automàticament vuit targetes més en arribar al final. S’elimina el botó de carregar-ne més; també s’omple l’espai disponible en pantalles altes.
+- Ordre de descoberta aleatori en cada visita, amb una barreja estable mentre es filtra, es cerca o es canvia l’idioma. Les dades originals i l’ordre desat de les col·leccions no es modifiquen.
+- Les targetes noves s’afegeixen amb les transicions de 220 ms, conservant els nodes, el focus i la selecció anteriors. Es respecten el teclat, el desplaçament tàctil i l’arrossegament de col·leccions.
+
 ## 0.1.28 · 20 de novembre de 2026
 
 - Catàleg base de 24 peces complet en fase de guió: 19 propostes noves, amb 138 preguntes i respostes orientatives, més S023 que ja estava preparada. Sis peces per curs, dues de cada dificultat i sis tipologies. S008R continua com a revisió addicional de S008.
