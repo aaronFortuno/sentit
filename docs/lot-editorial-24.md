@@ -14,6 +14,8 @@ Les propostes i S004D han superat la [revisió independent de coherència](revis
 
 S003 incorpora la trobada durant el canvi de classe, l’aclariment sobre el paraigua i el comiat amb rialla compartida sol·licitada. El docent n’ha validat el guió i s’ha produït en una petició, igual que S013. Els dos muntatges esperen audició.
 
+S023 incorpora una conversa directa entre la Mar i en Pau, amb salutació, pregunta, agraïment i comiat mutu abans de reprendre la síntesi informativa. Es mantenen les deu preguntes i la distinció entre dades confirmades, expectatives i propostes. El guió revisat té 585 mots i espera validació docent; no s’ha sintetitzat.
+
 ## Índex de les propostes noves
 
 Les durades són intervals orientatius derivats del nombre de mots, un ritme natural segons el curs i els marges sonors. No són durades d’àudios que ja existeixin ni inclouen les pauses de lectura de la sessió. Els objectius de durada del pla inicial no obliguen a allargar digitalment la veu.
