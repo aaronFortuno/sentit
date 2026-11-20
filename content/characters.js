@@ -1,6 +1,6 @@
 // Editorial identities. Candidate voices are NOT production replacements.
 // Keep the IDs stable when adding appearances or revising a voice after audition.
-import { proposedActivities } from './propostes/index.js';
+import { proposedActivities, proposedVariants } from './propostes/index.js';
 const introductions = {
   laia: 'Hola! Soc la Laia. M’agrada escoltar sons, explicar històries i descobrir com funcionen les coses. Em vols acompanyar?',
   biel: 'Hola! Soc en Biel. M’agraden la música i els invents petits. Si tens una idea, la podem provar plegats!',
@@ -119,7 +119,7 @@ export const characters = [
     delivery: 'Adulta i càlida, sense fer una recepta cantada. Proposta pendent d’audició en català.', appearances: [],
   },
 ].map(character => ({ ...character,
-  appearances: [...character.appearances, ...proposedActivities.flatMap(entry => Object.entries(entry.production.voices).filter(([, voice]) => voice === character.voice.id).map(([speaker]) => ({ code: `ca-${entry.code}`, speaker, kind: speaker === 'Narradora' ? 'narrator' : 'direct', currentVoice: character.voice.id, note: 'Repartiment proposat; guió i àudio pendents de validar.' })))],
+  appearances: [...character.appearances, ...[...proposedActivities,...proposedVariants].flatMap(entry => Object.entries(entry.production.voices).filter(([, voice]) => voice === character.voice.id).map(([speaker]) => ({ code: `ca-${entry.code}`, speaker, kind: speaker === 'Narradora' ? 'narrator' : 'direct', currentVoice: character.voice.id, note: entry.audio?'Guió validat; àudio pendent d’audició.':'Repartiment proposat; guió i àudio pendents de validar.' })))],
   modelSheet: character.visualStatus === 'pending' ? null : `./assets/characters/${character.id}-model-sheet-v1.png`,
   previewSheet: character.visualStatus === 'pending' ? null : `./assets/characters/${character.id}-model-sheet-v1.webp`,
   portrait: character.visualStatus === 'pending' ? null : `./assets/characters/${character.id}-portrait-v1.webp`,

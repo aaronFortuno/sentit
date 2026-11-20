@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f7f5ee">
+  <meta name="description" content="Proposta d’obertura i tancament musical per als programes de la Mireia, pendent de validació.">
+  <link rel="icon" href="../assets/sentit.svg" type="image/svg+xml">
+  <title>Sentit · La sintonia de la Mireia</title>
+  <style>
+    :root { color-scheme: light; font: 16px/1.55 "Segoe UI", system-ui, sans-serif; color: #192d27; background: #f7f5ee; }
+    *, *::before, *::after { box-sizing: border-box; }
+    body { margin: 0; }
+    a { color: #234d43; text-underline-offset: .22em; }
+    a:focus-visible, audio:focus-visible { outline: 3px solid #a44631; outline-offset: 5px; }
+    .skip { position: absolute; left: -9999px; }
+    .skip:focus { left: 1rem; top: 1rem; z-index: 2; padding: .6rem 1rem; background: #fffefa; }
+    .shell { width: min(100% - 2.5rem, 880px); margin-inline: auto; }
+    header { border-bottom: 1px solid #d5dace; background: #fffefa; }
+    .masthead { min-height: 78px; display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+    .brand { display: inline-flex; align-items: center; gap: .55rem; font: 700 2.1rem/1 Georgia, serif; letter-spacing: -.06em; text-decoration: none; }
+    .brand img { display: block; }
+    .brand-dot { color: #a44631; }
+    .return { font-size: .88rem; }
+    main { padding-block: clamp(2rem, 6vw, 4rem); }
+    .eyebrow { margin: 0 0 .6rem; font-size: .76rem; text-transform: uppercase; letter-spacing: .14em; color: #52645b; font-weight: 650; }
+    h1 { max-width: 650px; margin: 0 0 1rem; font: 700 clamp(2.1rem, 5.5vw, 3.25rem)/1.08 Georgia, serif; letter-spacing: -.025em; }
+    .lead { max-width: 650px; margin: 0 0 1rem; font-size: 1.08rem; }
+    .status { display: inline-block; margin: 0; padding: .35rem .75rem; border: 1px solid #c9d5c6; border-radius: 999px; background: #e7eee5; color: #234d43; font-size: .83rem; font-weight: 600; }
+    .players { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.2rem; margin-block: 2rem 1.2rem; }
+    .piece { min-width: 0; padding: 1.5rem; border: 1px solid #d5dace; border-radius: 14px; background: #fffefa; }
+    .piece-top { display: flex; justify-content: space-between; align-items: baseline; gap: .75rem; }
+    h2 { margin: 0; font: 700 1.5rem/1.2 Georgia, serif; }
+    .duration { color: #52645b; white-space: nowrap; font-size: .85rem; }
+    .piece p { margin: .7rem 0 1.25rem; color: #52645b; }
+    audio { display: block; width: 100%; height: 44px; margin-bottom: 1rem; }
+    .download { font-size: .85rem; }
+    .note { max-width: 650px; margin: 0; color: #52645b; font-size: .9rem; }
+    .origin { margin-top: 2rem; padding-top: 1.3rem; border-top: 1px solid #d5dace; font-size: .88rem; }
+    .origin h2 { font: 650 1rem/1.4 "Segoe UI", system-ui, sans-serif; }
+    .origin p { max-width: 690px; margin: .5rem 0; color: #52645b; }
+    .origin-links { display: flex; flex-wrap: wrap; gap: .6rem 1.25rem; margin-top: .8rem; }
+    footer { padding-block: 1.2rem; border-top: 1px solid #d5dace; color: #52645b; font-size: .82rem; }
+    footer p { margin: 0; }
+    @media (max-width: 600px) {
+      .shell { width: min(100% - 2rem, 880px); }
+      .masthead { min-height: 72px; }
+      .return { max-width: 150px; text-align: right; line-height: 1.4; }
+      .players { grid-template-columns: 1fr; }
+      .piece { padding: 1.25rem; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#audicio">Ves a l’audició</a>
+  <header>
+    <div class="shell masthead">
+      <a class="brand" href="../" aria-label="Sentit, inici"><img src="../assets/sentit.svg" width="36" height="36" alt=""><span>sentit<span class="brand-dot">.</span></span></a>
+      <a class="return" href="../#lectura=ca-S020">Torna a la comprensió S020</a>
+    </div>
+  </header>
+  <main class="shell" id="audicio">
+    <p class="eyebrow">Audició · Programes de la Mireia</p>
+    <h1>Una melodia per començar i acabar.</h1>
+    <p class="lead">Una parella de sintonies breus, càlides i instrumentals per donar la benvinguda i acomiadar els programes de la Mireia.</p>
+    <p class="status">Proposta pendent de validació</p>
+
+    <div class="players">
+      <section class="piece" aria-labelledby="opening-title">
+        <div class="piece-top"><h2 id="opening-title">Obertura</h2><span class="duration">3,8 segons</span></div>
+        <p id="opening-description">Un petit motiu que puja amb curiositat, amb fusta afinada, piano suau i un final reposat.</p>
+        <audio controls preload="metadata" aria-labelledby="opening-title" aria-describedby="opening-description"><source src="../assets/audio/mireia-jingle-proposta-v1-obertura.mp3" type="audio/mpeg">El navegador no pot reproduir aquest àudio. Pots descarregar-lo amb l’enllaç següent.</audio>
+        <a class="download" href="../assets/audio/mireia-jingle-proposta-v1-obertura.mp3" download>Descarrega l’obertura</a>
+      </section>
+      <section class="piece" aria-labelledby="closing-title">
+        <div class="piece-top"><h2 id="closing-title">Tancament</h2><span class="duration">3,4 segons</span></div>
+        <p id="closing-description">La mateixa família de notes torna cap a casa, amb una cadència suau que tanca el programa.</p>
+        <audio controls preload="metadata" aria-labelledby="closing-title" aria-describedby="closing-description"><source src="../assets/audio/mireia-jingle-proposta-v1-tancament.mp3" type="audio/mpeg">El navegador no pot reproduir aquest àudio. Pots descarregar-lo amb l’enllaç següent.</audio>
+        <a class="download" href="../assets/audio/mireia-jingle-proposta-v1-tancament.mp3" download>Descarrega el tancament</a>
+      </section>
+    </div>
+    <p class="note">Les peces es deixaran acabar abans de començar a parlar o després del comiat. Aquesta proposta s’escolta i es valida per separat; encara no s’ha incorporat als programes.</p>
+
+    <section class="origin" aria-labelledby="origin-title">
+      <h2 id="origin-title">Composició original de Sentit · MIT</h2>
+      <p>Música creada localment amb instruments sintetitzats, sense veus ni mostres externes. L’obertura i el tancament comparteixen motiu, instruments i tonalitat.</p>
+      <div class="origin-links">
+        <a href="../assets/audio/mireia-jingle-proposta-v1.json">Origen i dades dels àudios</a>
+        <a href="../tools/propose-mireia-jingle.cjs">Recepta de composició</a>
+      </div>
+    </section>
+  </main>
+  <footer><div class="shell"><p>Sentit · Escoltar és seguir el fil.</p></div></footer>
+</body>
+</html>

@@ -1,6 +1,6 @@
 # Revisió independent de coherència
 
-Actualitzat: **20/11/2026**. **20 de 20** propostes pendents tenen revisió independent superada per a la versió actual. Abast: 148 preguntes i 159 cites literals.
+Actualitzat: **20/11/2026**. **21 de 21** propostes de la tanda tenen revisió independent superada per a la versió actual. Abast: 154 preguntes i 177 cites literals.
 
 S’han revisat situacions, cronologia, circulació d’objectes, coneixement dels personatges, causes i desenllaços, acotacions sonores, preguntes, respostes i ancoratges. Les dades factuals sensibles s’han contrastat amb fonts primàries indicades al [dossier editorial](lot-editorial-24.md). La revisió del muntatge és sobre el guió; les veus i el resultat sonor requeriran audició.
 
@@ -8,21 +8,22 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 
 | Codi | Títol | Curs | Resultat | Data | Versió revisada · SHA-256 |
 | --- | --- | --- | --- | --- | --- |
-| [ca-S003](https://sentit.ortogra.fi/#lectura=ca-S003) | El paraigua intercanviat | 3r | Provisional · revisió superada | 2026-11-20 | `ac9d8da0895b…` |
+| [ca-S003](https://sentit.ortogra.fi/#lectura=ca-S003) | El paraigua intercanviat | 3r | Revisió superada · àudio pendent | 2026-11-20 | `cbb297a7ce3a…` |
 | [ca-S004](https://sentit.ortogra.fi/#lectura=ca-S004) | El botó de la jaqueta | 3r | Provisional · revisió superada | 2026-11-20 | `467189d57868…` |
+| [ca-S004D](https://sentit.ortogra.fi/#lectura=ca-S004D) | El botó de la jaqueta · versió dialogada | 3r | Provisional · revisió superada | 2026-11-20 | `c2d478075a55…` |
 | [ca-S005](https://sentit.ortogra.fi/#lectura=ca-S005) | La feina d’una cartera | 3r | Provisional · revisió superada | 2026-11-20 | `7a36fb3cce1c…` |
 | [ca-S006](https://sentit.ortogra.fi/#lectura=ca-S006) | S’obre un nou camí al parc | 3r | Provisional · revisió superada | 2026-11-20 | `74f4d828020f…` |
-| [ca-S007](https://sentit.ortogra.fi/#lectura=ca-S007) | On va l’aigua del bassal? | 3r | Provisional · revisió superada | 2026-11-20 | `91b75f113f57…` |
+| [ca-S007](https://sentit.ortogra.fi/#lectura=ca-S007) | On va l’aigua del bassal? | 3r | Provisional · revisió superada | 2026-11-20 | `ff0df8ee1cb3…` |
 | [ca-S009](https://sentit.ortogra.fi/#lectura=ca-S009) | La biblioteca canvia d’horari | 4t | Provisional · revisió superada | 2026-11-20 | `decdaf2b40b1…` |
 | [ca-S010](https://sentit.ortogra.fi/#lectura=ca-S010) | La ruta fins al pavelló | 4t | Provisional · revisió superada | 2026-11-20 | `60c0f29475d3…` |
-| [ca-S011](https://sentit.ortogra.fi/#lectura=ca-S011) | Una menjadora per als ocells | 4t | Provisional · revisió superada | 2026-11-20 | `e73dabf56dd8…` |
+| [ca-S011](https://sentit.ortogra.fi/#lectura=ca-S011) | Una menjadora per als ocells | 4t | Provisional · revisió superada | 2026-11-20 | `0bb937038f26…` |
 | [ca-S012](https://sentit.ortogra.fi/#lectura=ca-S012) | Qui arregla els instruments? | 4t | Provisional · revisió superada | 2026-11-20 | `7f0136d3c10c…` |
-| [ca-S013](https://sentit.ortogra.fi/#lectura=ca-S013) | Com viatja una carta? | 4t | Provisional · revisió superada | 2026-11-20 | `8f5083259cf9…` |
+| [ca-S013](https://sentit.ortogra.fi/#lectura=ca-S013) | Com viatja una carta? | 4t | Revisió superada · àudio pendent | 2026-11-20 | `8f5083259cf9…` |
 | [ca-S014](https://sentit.ortogra.fi/#lectura=ca-S014) | Què passa dins d’una llavor? | 5è | Provisional · revisió superada | 2026-11-20 | `72c743dcccb0…` |
 | [ca-S016](https://sentit.ortogra.fi/#lectura=ca-S016) | Una troballa al jaciment | 5è | Provisional · revisió superada | 2026-11-20 | `95cc926b8db3…` |
 | [ca-S017](https://sentit.ortogra.fi/#lectura=ca-S017) | Preparem una exposició itinerant | 5è | Provisional · revisió superada | 2026-11-20 | `2e64dea1126a…` |
 | [ca-S018](https://sentit.ortogra.fi/#lectura=ca-S018) | La clau de l’armari verd | 5è | Provisional · revisió superada | 2026-11-20 | `49306a09de79…` |
-| [ca-S019](https://sentit.ortogra.fi/#lectura=ca-S019) | Una cuinera contra el malbaratament | 6è | Provisional · revisió superada | 2026-11-20 | `9dca4336b36b…` |
+| [ca-S019](https://sentit.ortogra.fi/#lectura=ca-S019) | Una cuinera contra el malbaratament | 6è | Provisional · revisió superada | 2026-11-20 | `40dc14e9da20…` |
 | [ca-S020](https://sentit.ortogra.fi/#lectura=ca-S020) | Com participar en el concurs de pòdcasts | 6è | Provisional · revisió superada | 2026-11-20 | `ecc4a9bf9db5…` |
 | [ca-S021](https://sentit.ortogra.fi/#lectura=ca-S021) | Per què una ciutat guarda la calor? | 6è | Provisional · revisió superada | 2026-11-20 | `2a83a397e642…` |
 | [ca-S022](https://sentit.ortogra.fi/#lectura=ca-S022) | L’últim trajecte del tramvia | 6è | Provisional · revisió superada | 2026-11-20 | `fa108816e651…` |

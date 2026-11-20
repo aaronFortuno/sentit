@@ -56,18 +56,18 @@ for (const character of characters) {
 }
 const matchesCast = (ids, mode) => activities.filter(entry => matchesCharacters(entry, ids, mode)).map(entry => entry.code);
 assert.deepEqual(matchesCast([], 'all'), activities.map(entry => entry.code));
-assert.deepEqual(matchesCast(['biel'], 'any'), ['S001','S003','S005','S010','S012','S015','S024']);
-assert.deepEqual(matchesCast(['laia', 'biel'], 'any'), ['S001','S003','S005','S010','S012','S015','S019','S024']);
-assert.deepEqual(matchesCast(['laia', 'biel'], 'all'), ['S001','S003','S010','S024']);
+assert.deepEqual(matchesCast(['biel'], 'any'), ['S001','S003','S005','S007','S010','S011','S012','S015','S024']);
+assert.deepEqual(matchesCast(['laia', 'biel'], 'any'), ['S001','S003','S005','S007','S010','S011','S012','S015','S019','S024']);
+assert.deepEqual(matchesCast(['laia', 'biel'], 'all'), ['S001','S003','S007','S010','S011','S024']);
 assert.deepEqual(matchesCast(['laia', 'nora'], 'all'), []);
 assert.deepEqual(matchesCast(['mireia'], 'any'), ['S002','S004','S007','S008','S008R','S011','S013','S014','S017','S018','S020','S021']);
 assert.deepEqual(matchesCast(['invalid'], 'any'), []);
 assert.deepEqual(charactersForActivity(activities.find(entry => entry.code === 'S008')).map(character => character.id), ['mireia'], 'S008 has one narrator voice, no voices for the narrated characters');
-assert.deepEqual(matchesCast(['ferran'], 'any'), ['S022']);
+assert.deepEqual(matchesCast(['ferran'], 'any'), ['S004D','S022']);
 assert.deepEqual(matchesCast(['joana'], 'any'), ['S005']);
 assert.deepEqual(matchesCast(['elies'], 'any'), ['S012']);
 assert.deepEqual(matchesCast(['ona'], 'any'), ['S019']);
-assert.deepEqual(matchesCast(['aina'], 'any'), []);
+assert.deepEqual(matchesCast(['aina'], 'any'), ['S004D']);
 const draft = { audio: null, seconds: 0, fragment: { seconds: 0 }, durationEstimate: { min: 150, max: 180 } };
 for (const [seconds, tier] of [[1, 1], [60, 1], [60.1, 2], [120, 2], [120.1, 3], [180, 3], [180.1, 4], [600, 4]]) {
   assert.equal(durationTier({ audio: 'ready.mp3', seconds }), tier);

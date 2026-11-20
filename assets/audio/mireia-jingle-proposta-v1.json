@@ -1,0 +1,146 @@
+{
+  "id": "mireia-jingle-proposta-v1",
+  "title": "Petita descoberta · sintonia de Mireia",
+  "version": 1,
+  "status": "proposal-pending-human-validation",
+  "approval": null,
+  "scope": "Parella original d’obertura i tancament per als programes de Mireia. Proposta separada per a audició; no incorporada a màsters ni generadors de producció.",
+  "intendedUse": "Deixar acabar la peça abans de la parla; no és una base contínua sota el diàleg.",
+  "origin": {
+    "type": "original-procedural-composition",
+    "author": "Sentit",
+    "license": "MIT",
+    "source": "tools/propose-mireia-jingle.cjs",
+    "externalSamples": false,
+    "speech": false,
+    "apiRequests": 0
+  },
+  "recipe": {
+    "sampleRate": 48000,
+    "timeSignature": "3/4; dues frases breus",
+    "tempoBpm": 128,
+    "key": "Fa major",
+    "instruments": [
+      "Percussió afinada de fusta amb parcials amortits i atac suau",
+      "Acords arpegiats de piano suau per síntesi additiva",
+      "Baix sinusoidal amb harmònics discrets"
+    ],
+    "openingHarmony": [
+      "Fmaj7",
+      "Bb6",
+      "F6"
+    ],
+    "closingHarmony": [
+      "Bb6",
+      "C6",
+      "F6"
+    ],
+    "production": "Síntesi additiva determinista en JavaScript, sala curta amb cinc reflexions, filtre de 40 Hz a 10 kHz, normalització en dues passades a -18 LUFS amb sostre -2,8 dBTP i MP3 estèreo a 48 kHz / 128 kbit/s.",
+    "masterGuard": "80 ms inicials i 100 ms finals de silenci al WAV, amb cua esmorteïda abans del silenci. Els WAV crus es conserven.",
+    "reproduction": "node tools/propose-mireia-jingle.cjs"
+  },
+  "files": [
+    {
+      "kind": "obertura",
+      "file": "assets/audio/mireia-jingle-proposta-v1-obertura.mp3",
+      "raw": "../output/sentit-sintonies/mireia-jingle-proposta-v1-obertura-cru.wav",
+      "durationSeconds": 3.8,
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitrate": 128000,
+      "integratedLufs": -18.45,
+      "truePeakDbtp": -6.54,
+      "loudnessRangeLu": 1.9,
+      "safetySilenceSeconds": {
+        "start": 0.100083,
+        "end": 0.143792
+      },
+      "decodeVerified": true,
+      "sha256": "d7ada24dca9162960a7a68f9786d79bf8262225a50f9f904b886814927f77edc",
+      "rawSha256": "6477ebe815590fb2ef53d67617cd1792960b3ad74c2d4f76a1f65f158ec1e283",
+      "melody": [
+        {
+          "beat": 0,
+          "midi": 65
+        },
+        {
+          "beat": 0.5,
+          "midi": 69
+        },
+        {
+          "beat": 1,
+          "midi": 72
+        },
+        {
+          "beat": 1.75,
+          "midi": 74
+        },
+        {
+          "beat": 2.5,
+          "midi": 72
+        },
+        {
+          "beat": 3.25,
+          "midi": 67
+        },
+        {
+          "beat": 4,
+          "midi": 69
+        },
+        {
+          "beat": 4.75,
+          "midi": 65
+        }
+      ]
+    },
+    {
+      "kind": "tancament",
+      "file": "assets/audio/mireia-jingle-proposta-v1-tancament.mp3",
+      "raw": "../output/sentit-sintonies/mireia-jingle-proposta-v1-tancament-cru.wav",
+      "durationSeconds": 3.4,
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitrate": 128000,
+      "integratedLufs": -18.45,
+      "truePeakDbtp": -5.95,
+      "loudnessRangeLu": 0.9,
+      "safetySilenceSeconds": {
+        "start": 0.100083,
+        "end": 0.14025
+      },
+      "decodeVerified": true,
+      "sha256": "a3bbff7cdd4951d3c60f5e8d5bba43652a975d413af41f823a0653b60d426aec",
+      "rawSha256": "db33c6ffa9bab67495b89fe299af2bbf785b82f8ec2cd033caf3ef749d2ae87e",
+      "melody": [
+        {
+          "beat": 0,
+          "midi": 72
+        },
+        {
+          "beat": 0.5,
+          "midi": 74
+        },
+        {
+          "beat": 1,
+          "midi": 72
+        },
+        {
+          "beat": 1.75,
+          "midi": 69
+        },
+        {
+          "beat": 2.5,
+          "midi": 67
+        },
+        {
+          "beat": 3.25,
+          "midi": 69
+        },
+        {
+          "beat": 4,
+          "midi": 65
+        }
+      ]
+    }
+  ]
+}

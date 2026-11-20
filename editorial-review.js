@@ -1,4 +1,5 @@
 import { editorialReviews } from './content/editorial-reviews.js';
+import { productionProgress } from './content/production-progress.js';
 
 const passed = new WeakMap();
 
@@ -34,4 +35,8 @@ export async function registerEditorialReviews(entries, records = editorialRevie
 
 export const editorialReview = entry => passed.get(entry) ?? null;
 export const isEditoriallyReviewed = entry => Boolean(editorialReview(entry));
-export const reviewCaption = (entry, labels) => isEditoriallyReviewed(entry) ? labels.reviewProvisional : labels.reviewInProgress;
+export const hasPendingMontage = entry => {
+  const progress=productionProgress[`${entry?.language}-${entry?.code}`];
+  return !entry?.audio && progress?.state==='voices-received' && editorialReview(entry)?.fingerprint===progress.editorialFingerprint;
+};
+export const reviewCaption = (entry, labels) => hasPendingMontage(entry) ? labels.reviewVoicesReceived : isEditoriallyReviewed(entry) ? labels.reviewProvisional : labels.reviewInProgress;

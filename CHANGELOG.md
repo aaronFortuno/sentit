@@ -1,5 +1,15 @@
 # Canvis
 
+## 0.1.32 · 20 de novembre de 2026
+
+- S003 i S013: guions validats pel docent, veus sintetitzades en una petició cadascuna i muntatges complets. Fragments de 69,88 s i 139,07 s. Preses íntegres, tall dins un silenci comprovat, pistes de títol/cos i manifests. L’àudio continua pendent d’audició.
+- S003 sol·licita dues rialles breus compartides dins la mateixa presa de Leda/Puck. S013 incorpora el paper, la transició i la sortida originals previstos.
+- S019: diàleg més natural amb confirmacions breus i un «Sí, sí» solapat, una sola vegada. Revisió independent renovada; encara sense aprovació docent ni síntesi.
+- S004D: alternativa en primera persona de l’Aina amb diàleg de Ferran; 223 mots i sis preguntes. S004 original es conserva per comparar. La variant ha superat la revisió independent i espera el docent.
+- S020: aprovació explícita només per a les veus; la sintonia comuna de la Mireia es proposa i valida per separat abans d’incorporar-la al muntatge.
+- S007 i S011 convertides en escenes d’aula amb Mireia, Laia i Biel: salutació, hipòtesis, preguntes avançades, confirmacions i respostes entre companys. Cada activitat inclou una pregunta que exigeix escoltar un alumne. Dues peticions previstes per als tres personatges; cap síntesi autoritzada.
+- Proposta original «Petita descoberta»: obertura de 3,8 s i tancament de 3,4 s per a la Mireia, consultables a la pàgina d’audició, encara sense incorporar als muntatges. S020 ja té la presa de veu rebuda en una petició i espera aquesta validació.
+
 ## 0.1.31 · 20 de novembre de 2026
 
 - Pauta reutilitzable de revisió adversària: un agent independent comprova la lògica, la plausibilitat, el guió, les preguntes, el solucionari i l’escaleta abans de presentar una proposta al docent. Procés documentat també a Trama i skill instal·lat per reutilitzar-lo.

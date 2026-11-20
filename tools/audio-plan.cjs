@@ -6,9 +6,10 @@ function request(turns, spec, intro = false) {
   if (!turns.length || turns.some(turn => !turn?.speaker || !turn.text || (!intro && !spec.voices[turn.speaker]))) throw Error('Torn absent al guió o veu sense configurar.');
   const speakers = [...new Set(turns.map(turn => turn.speaker))];
   if (speakers.length > 2) throw Error('Una petició admet com a màxim dues veus.');
+  const recordingStyle = spec.allowVocalTags ? baseStyle.replace('no nonverbal vocalizations, ', '') : baseStyle;
   return {
     model: 'gemini-3.8-flash-tts',
-    input: [{ type: 'user_input', content: turns.map(turn => ({ type: 'text', text: turn.text, annotations: [{ type: 'speech_metadata', ...(speakers.length > 1 ? { speaker: turn.speaker } : {}), style: baseStyle + (intro ? 'Calm, clear exercise title, with a brief pause between the sentences.' : spec.pace) }] })) }],
+    input: [{ type: 'user_input', content: turns.map(turn => ({ type: 'text', text: turn.text, annotations: [{ type: 'speech_metadata', ...(speakers.length > 1 ? { speaker: turn.speaker } : {}), style: recordingStyle + (intro ? 'Calm, clear exercise title, with a brief pause between the sentences.' : spec.pace) }] })) }],
     response_format: { type: 'audio', mime_type: 'audio/wav', sample_rate: 24000 },
     generation_config: { speech_config: speakers.length === 1 ? [{ voice: intro ? 'Aoede' : spec.voices[speakers[0]] }] : { speakers: speakers.map(speaker => ({ speaker, voice: spec.voices[speaker] })) } },
   };

@@ -1,0 +1,72 @@
+'use strict';
+// Offline montage of an approved complete take; no synthesis or credentials.
+const fs=require('node:fs/promises'),path=require('node:path'),{createHash}=require('node:crypto'),{pathToFileURL}=require('node:url');
+const {ffmpegBinary,ffmpeg,checkWave}=require('./audio-files.cjs'),{duration}=require('./remaster-audio.cjs'),{recognize}=require('./local-align.cjs');
+const {productionSpec,packedProposalRequest}=require('./proposal-plan.cjs'),{assertProductionApproved,fingerprint}=require('./production-approval.cjs');
+const {findPhrase,normalize}=require('./render-radio.cjs');
+const root=path.resolve(__dirname,'..'),work=path.resolve(root,'../output/sentit-primera-tanda');
+const hash=data=>createHash('sha256').update(data).digest('hex');
+const recipes={S003:{file:'s003-paraigua-v1',source:'tercer',lead:2.25,tail:3.2},S013:{file:'s013-carta-v1',source:'quart',lead:1.1,tail:3.2}};
+async function main(){
+ const code=process.argv.find(arg=>arg.startsWith('--only='))?.slice(7).toUpperCase().replace(/^CA-/,'');
+ const recipe=recipes[code];if(!recipe)throw Error('No hi ha recepta de muntatge revisada per a aquest codi.');
+ const {activities}=await import(pathToFileURL(path.join(root,'catalogue.js'))),entry=activities.find(entry=>entry.code===code);
+ const spec=productionSpec(entry),plans=JSON.parse(await fs.readFile(path.join(root,'content/production-plans.json'),'utf8'));assertProductionApproved(entry,spec,plans[code]);
+ if(plans[code].approvedScope==='voices-only')throw Error('Les veus estan autoritzades, però el muntatge espera validar la sintonia comuna.');
+ const folder=path.join(work,code.toLowerCase()),requestHash=hash(JSON.stringify(packedProposalRequest(entry)));
+ const raw=path.join(folder,'titol-fragment-'+requestHash.slice(0,12)+'.wav'),bytes=await fs.readFile(raw);checkWave(bytes);
+ const attempt=JSON.parse(await fs.readFile(path.join(folder,'attempt-'+requestHash.slice(0,12)+'.json'),'utf8'));
+ if(attempt.state!=='complete'||attempt.audioSha256!==hash(bytes))throw Error('La presa no coincideix amb l’intent complet.');
+ const alignment=await recognize(raw,path.join(folder,'alignment-packed.json')),words=alignment.words;
+ const titleCount=entry.introduction.split(/\s+/u).length,lastTitle=words[titleCount-1],firstBody=words[titleCount];
+ if(normalize(lastTitle.word)!==normalize(entry.introduction.split(/\s+/u).at(-1))||firstBody.start-lastTitle.end<.8)throw Error('Cal revisar manualment la pausa després del títol.');
+ const cut=Math.round((lastTitle.end+firstBody.start)*500)/1000,binary=await ffmpegBinary();
+ const wav=(name,args)=>{const file=path.join(folder,name+'.wav');ffmpeg(binary,['-v','error','-y',...args,'-ar','48000','-ac','1','-c:a','pcm_s16le',file]);return file;};
+ const probe=wav('cut-silence-probe',['-i',raw,'-af',`atrim=start=${cut-.06}:end=${cut+.06},asetpts=PTS-STARTPTS`]);
+ const probeLog=ffmpeg(binary,['-i',probe,'-af','volumedetect','-f','null','-']),cutPeak=Number(/max_volume: ([^ ]+) dB/.exec(probeLog)?.[1]);
+ if(!(cutPeak<=-42))throw Error('El tall no cau dins un silenci comprovat.');
+ const normalized=wav('voice-normalized-complete',['-i',raw,'-af','loudnorm=I=-19:TP=-2.5:LRA=9,aresample=48000']);
+ const rawDuration=await duration(raw),lead=recipe.lead,tail=recipe.tail,voiceEnd=lead+rawDuration-cut;
+ const intro=wav('title-master',['-i',normalized,'-af',`atrim=end=${cut},asetpts=PTS-STARTPTS,adelay=250:all=1,apad=pad_dur=0.3`]);
+ const voice=wav('program-voice',['-i',normalized,'-af',`atrim=start=${cut},asetpts=PTS-STARTPTS,adelay=${Math.round(lead*1000)}:all=1,apad=pad_dur=${tail}`]);
+ const effects=[],sources=[];
+ const add=(file,name,start,end)=>{effects.push({name,start,end,origin:'original-procedural'});sources.push(file);};
+ const paper=(name,seconds,seed)=>wav(name,['-f','lavfi','-i',`anoisesrc=color=pink:amplitude=0.12:sample_rate=48000:duration=${seconds}:seed=${seed}`,'-af',`highpass=f=1100,lowpass=f=5800,volume=0.06,afade=t=in:d=0.025,afade=t=out:st=${Math.max(.03,seconds-.25)}:d=${Math.min(.25,seconds-.03)}`]);
+ function transition(phrase,name,seed){const index=findPhrase(words,phrase),gap=words[index].start-words[index-1].end,seconds=Math.min(.45,gap-.16);if(seconds<.12)throw Error('No hi ha prou marge per a la transició de paper.');const start=lead+words[index].start-cut-.08-seconds;add(paper(name,seconds,seed),name,start,start+seconds);}
+ if(code==='S003'){
+  const ambientEnd=lead+words[findPhrase(words,'hola biel')].start-cut-.18;
+  const footsteps=(name,seconds,seed,period)=>wav(name,['-f','lavfi','-i',`anoisesrc=color=brown:amplitude=0.12:sample_rate=48000:duration=${seconds}:seed=${seed}`,'-af',`highpass=f=65,lowpass=f=1250,volume='0.025+0.65*exp(-55*mod(t,${period}))':eval=frame,afade=t=in:d=0.04,afade=t=out:st=${Math.max(.1,seconds-.7)}:d=0.7`]);
+  add(footsteps('corridor-steps',ambientEnd,3003,.49),'corridor-steps',0,ambientEnd);
+  transition('aquí hi ha la cinta','bag-rustle',3004);
+  add(footsteps('leaving-steps',2.2,3005,.52),'leaving-steps',voiceEnd+.4,voiceEnd+2.6);
+ }else{
+  add(paper('envelope-opening',.65,13013),'envelope-opening',0,.65);
+  transition('quan la carta arriba','sorting-to-delivery',13014);
+  const sting=wav('two-note-ending',['-f','lavfi','-i',"aevalsrc='0.06*sin(2*PI*if(lt(t,0.65),329.63,440)*t)*exp(-5*mod(t,0.65))':s=48000:d=1.8",'-af','lowpass=f=2400,afade=t=in:d=0.025,afade=t=out:st=1:d=0.8']);
+  add(sting,'two-note-ending',voiceEnd+.4,voiceEnd+2.2);
+ }
+ const filter=effects.map((effect,i)=>`[${i+1}:a]adelay=${Math.round(effect.start*1000)}:all=1[e${i}]`).join(';')+`;[0:a]${effects.map((_,i)=>`[e${i}]`).join('')}amix=inputs=${effects.length+1}:duration=first:normalize=0[out]`;
+ const body=wav('program-master',['-i',voice,...sources.flatMap(file=>['-i',file]),'-filter_complex',filter,'-map','[out]']);
+ const offset=await duration(intro),bodyDuration=await duration(body);
+ if(Math.abs(bodyDuration-(lead+rawDuration-cut+tail))>.002)throw Error('La durada de la veu ha canviat.');
+ const full=wav('full-master',['-i',intro,'-i',body,'-filter_complex','[0:a][1:a]concat=n=2:v=0:a=1[out]','-map','[out]']);
+ const mp3=(file,suffix='')=>{const target=path.join(root,'assets/audio',recipe.file+suffix+'.mp3');ffmpeg(binary,['-v','error','-y','-i',file,'-map_metadata','-1','-c:a','libmp3lame','-b:a','128k',target]);return target;};
+ const introFile=mp3(intro,'-intro'),bodyFile=mp3(body,'-cos'),master=mp3(full);
+ const levels=ffmpeg(binary,['-xerror','-i',master,'-af','ebur128=peak=true','-f','null','-']);
+ const lufs=Number(/Integrated loudness:\s+I:\s+([^ ]+) LUFS/.exec(levels)?.[1]),peakDbTP=Number(/True peak:\s+Peak:\s+([^ ]+) dBFS/.exec(levels)?.[1]);
+ if(!(lufs>=-24&&lufs<=-15&&peakDbTP<=-1))throw Error('Nivells fora de marge.');
+ const provider=JSON.parse(await fs.readFile(path.join(folder,'provider-usage-packed.json'),'utf8'));
+ const report={code,activity:'ca-'+code,date:new Date().toISOString(),state:'awaiting-audio-validation',model:provider.model,voices:spec.voices,newSynthesisRequests:1,approvalFingerprint:fingerprint(entry,spec,plans[code]),requestHash,rawSha256:hash(bytes),usage:provider.usage,rawDuration,cut:{at:cut,previousWordEnd:lastTitle.end,nextWordStart:firstBody.start,peakDbFS:cutPeak,rawSamplesPreserved:true},file:path.basename(master),introFile:path.basename(introFile),bodyFile:path.basename(bodyFile),offset,bodyDuration,fullDuration:offset+bodyDuration,lufs,peakDbTP,voice:{bodyLead:lead,bodyRawDuration:rawDuration-cut,untrimmedApartFromSilenceSplit:true,retimed:false},...(spec.performance?{vocalPerformance:{...spec.performance,source:'Gemini TTS in the same take',listeningValidation:'pending'}}:{}),effects,sha256:hash(await fs.readFile(master))};
+ await fs.writeFile(path.join(root,`assets/audio/${code.toLowerCase()}-production-manifest.json`),JSON.stringify(report,null,2)+'\n');
+ const manifestFile=path.join(root,'assets/audio/prototips-manifest.json'),manifest=JSON.parse(await fs.readFile(manifestFile,'utf8')),index=manifest.activities.findIndex(item=>item.code===code);
+ if(index<0)manifest.activities.push(report);else manifest.activities[index]=report;manifest.state='partially-produced-awaiting-validation';await fs.writeFile(manifestFile,JSON.stringify(manifest,null,2)+'\n');
+ const contentFile=path.join(root,`content/propostes/${recipe.source}.js`);let content=await fs.readFile(contentFile,'utf8');
+ const marker=content.indexOf(`code: '${code}'`),lineEnd=content.indexOf('\n',marker);if(marker<0)throw Error('Codi absent al fitxer de contingut.');
+ if(!content.slice(lineEnd,lineEnd+400).includes(`./assets/audio/${recipe.file}.mp3`)){
+  const metadata=`\n    seconds: ${Math.ceil(report.fullDuration)}, status: 'ready-for-review', reviewStatus: 'audio-review',\n    audio: './assets/audio/${report.file}', tracks: { introduction: './assets/audio/${report.introFile}', body: './assets/audio/${report.bodyFile}' },\n    fragment: { start: ${offset}, seconds: ${Math.round(bodyDuration)} },`;
+  content=content.slice(0,lineEnd)+metadata+content.slice(lineEnd);await fs.writeFile(contentFile,content);
+ }
+ console.log(JSON.stringify({code,bodyDuration,fullDuration:report.fullDuration,cut:report.cut,lufs,peakDbTP,usage:provider.usage}));
+}
+if(require.main===module)main().catch(error=>{console.error(error.message);process.exitCode=1;});
+module.exports={main};

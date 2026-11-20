@@ -49,23 +49,23 @@ function waveFixture() {
     assert.equal(await page.locator('#characters-dialog .character-introduction-play').isDisabled(), true);
     assert.match(await page.locator('#characters-dialog .character-greeting').innerText(), /Soc la Laia/);
     await roster('biel').click();
-    assert.equal(await page.locator('#characters-dialog .character-story').count(), 7);
+    assert.equal(await page.locator('#characters-dialog .character-story').count(), 9);
     assert.equal(await page.locator('#characters-dialog .character-profile-intro h3').innerText(), 'Biel');
     assert.equal(await page.locator('#characters-dialog .voice-badge, #characters-dialog .character-sheet').count(), 0);
     await close();
     assert.equal(await page.evaluate(() => document.activeElement.id), 'meet-characters');
 
     await page.locator('#character-filter summary').click();
-    await chip('biel').click(); assert.deepEqual(await codes(), ['S001','S003','S005','S010','S012','S015','S024']);
-    await chip('laia').click(); assert.deepEqual(await codes(), ['S001','S003','S005','S010','S012','S015','S019','S024']);
-    await page.locator('#character-match').selectOption('all'); assert.deepEqual(await codes(), ['S001','S003','S010','S024']);
+    await chip('biel').click(); assert.deepEqual(await codes(), ['S001','S003','S005','S007','S010','S011','S012','S015','S024']);
+    await chip('laia').click(); assert.deepEqual(await codes(), ['S001','S003','S005','S007','S010','S011','S012','S015','S019','S024']);
+    await page.locator('#character-match').selectOption('all'); assert.deepEqual(await codes(), ['S001','S003','S007','S010','S011','S024']);
     assert.match(page.url(), /coincidencia=tots/);
     await page.reload(); await page.locator('.activity-card').first().waitFor();
-    assert.deepEqual(await codes(), ['S001','S003','S010','S024']);
+    assert.deepEqual(await codes(), ['S001','S003','S007','S010','S011','S024']);
     assert.equal(await chip('biel').getAttribute('aria-pressed'), 'true');
     await chip('nora').click(); assert.deepEqual(await codes(), []);
     assert.equal(await page.locator('#catalog-empty').isVisible(), true);
-    await page.locator('#character-match').selectOption('any'); assert.deepEqual(await codes(), ['S001','S003','S005','S010','S012','S015','S019','S024']);
+    await page.locator('#character-match').selectOption('any'); assert.deepEqual(await codes(), ['S001','S003','S005','S007','S010','S011','S012','S015','S019','S024']);
     await page.locator('#grade').selectOption('5'); assert.deepEqual(await codes(), ['S001', 'S015']);
     await page.locator('#genre').selectOption('interview'); assert.deepEqual(await codes(), ['S015']);
     await page.locator('#reset-filters').click(); assert.equal((await codes()).length, Math.min(12,activities.length));
@@ -75,7 +75,7 @@ function waveFixture() {
     await open(); await roster('biel').click();
     await page.locator('#characters-dialog .character-detail-actions button').click();
     await page.locator('#characters-dialog').waitFor({ state: 'hidden' });
-    assert.deepEqual(await codes(), ['S001','S003','S005','S010','S012','S015','S024']);
+    assert.deepEqual(await codes(), ['S001','S003','S005','S007','S010','S011','S012','S015','S024']);
     assert.equal(await page.locator('#collection-select').inputValue(), '');
     assert.equal(await page.locator('#grade').inputValue(), '');
     assert.equal(await page.locator('#search').inputValue(), '');
@@ -106,7 +106,7 @@ function waveFixture() {
     await page.locator('.character-profile-intro h3').waitFor();
     assert.equal(await page.locator('.character-profile-intro h3').innerText(), 'Ferran');
     assert.equal(await page.locator('.character-detail-actions button').isEnabled(), true);
-    assert.equal(await page.locator('.character-story').count(), 1);
+    assert.equal(await page.locator('.character-story').count(), 2);
     await page.goto(base);
     await page.locator('#language').evaluate(node => { node.value = 'es'; node.dispatchEvent(new Event('change', { bubbles: true })); });
     await open(); assert.equal(await page.locator('#characters-title').innerText(), 'Conoce a los personajes');

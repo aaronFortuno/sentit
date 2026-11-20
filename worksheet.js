@@ -1,7 +1,7 @@
 import { clockTime } from './session.js';
 import { buildEvidence, evidenceQuestions, evidenceSegments } from './evidence.js';
 import { isPendingReview, isAudioReview, needsReview, reviewScript } from './review.js';
-import { isEditoriallyReviewed, reviewCaption } from './editorial-review.js';
+import { isEditoriallyReviewed, reviewCaption, hasPendingMontage } from './editorial-review.js';
 
 export const defaultFormat = { font: 'serif', size: 12, spacing: 7, leading: 1.6 };
 
@@ -61,7 +61,7 @@ function makeHeader(entry, labels, code, answerKey, listenUrl, session) {
   if (answerKey) headerMain.append(element('p', 'paper-solution-label', labels.answers));
   headerMain.append(element('h3', null, entry.title));
   if (entry.sample) headerMain.append(element('p', 'paper-caption', labels.sample));
-  if (isPendingReview(entry)) headerMain.append(element('p', 'paper-caption paper-review-label', isEditoriallyReviewed(entry) ? labels.reviewProvisionalNotice : labels.reviewInProgressNotice));
+  if (isPendingReview(entry)) headerMain.append(element('p', 'paper-caption paper-review-label', hasPendingMontage(entry) ? labels.reviewVoicesNotice : isEditoriallyReviewed(entry) ? labels.reviewProvisionalNotice : labels.reviewInProgressNotice));
   else if (isAudioReview(entry)) headerMain.append(element('p', 'paper-caption paper-review-label', labels.audioReviewNotice));
   else if (!entry.audio) headerMain.append(element('p', 'paper-caption', labels.audioPending));
   head.append(top, titleRow);

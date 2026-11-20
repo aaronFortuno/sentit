@@ -1,18 +1,18 @@
 # Lot editorial: completar el catàleg base de 24
 
-20 de novembre de 2026 · 19 propostes noves · 138 preguntes · **cap síntesi nova**.
+20 de novembre de 2026 · 19 propostes base noves · 138 preguntes · variant dialogada S004D per comparar.
 
-S’hi afegeix S023, que ja estava preparada. En total hi ha **20 propostes pendents de validar**. S001, S002, S008 i S015 conserven els seus materials; S008R és una revisió addicional de S008, sense comptar-la com una història nova. [Seguiment de totes les fases](seguiment-produccio.md).
+S’hi afegeix S023, que ja estava preparada. S003 i S013 ja tenen el guió validat i el muntatge pendent d’audició. S020 té autoritzades les veus; la sintonia comuna es valida per separat. Les altres propostes i S004D esperen validació docent. S001, S002, S008 i S015 conserven els seus materials; S008R és una revisió addicional de S008. [Seguiment de totes les fases](seguiment-produccio.md).
 
 ## Revisió al web
 
-Es pot buscar qualsevol codi al catàleg, encara que la seva targeta no sigui al primer grup visible. En obrir una proposta apareix el solucionari amb el guió i l’escaleta primer, les marques de títol/fragment i, després, les preguntes amb resposta orientativa i passatges ressaltats. Tot continua marcat «Pendent de validar», sense àudio ni QR i amb impressió bloquejada.
+Es pot buscar qualsevol codi al catàleg, encara que la seva targeta no sigui al primer grup visible. En obrir una proposta apareix el solucionari amb el guió i l’escaleta primer i, després, les preguntes amb resposta orientativa i passatges ressaltats. Les propostes sense àudio tenen impressió bloquejada i cap QR. Les que tenen muntatge mostren «Àudio pendent de validar» i es poden escoltar i imprimir per revisar.
 
 La validació es pot comunicar per codi, en qualsevol ordre. Cada confirmació només aprova el guió, les veus i l’escaleta que s’han revisat; l’audició del muntatge és una fase posterior.
 
-Les 20 propostes pendents han superat la [revisió independent de coherència](revisio-coherencia.md). **Provisional** vol dir que aquesta passada està feta i que falta la validació docent. La marca està vinculada al contingut exacte; qualsevol canvi editorial requereix revalidar els elements afectats.
+Les propostes i S004D han superat la [revisió independent de coherència](revisio-coherencia.md). **Provisional** vol dir que aquesta passada està feta i que falta la validació docent. La marca està vinculada al contingut exacte; qualsevol canvi editorial requereix revalidar els elements afectats.
 
-S003 s’ha revisat amb el retorn del docent: trobada durant el canvi de classe, aclariment de per què la Laia havia agafat aquell paraigua i comiat que remet a la propera vegada, amb rialla compartida i retorn a l’aula. La pregunta final i l’escaleta segueixen aquest context. La versió revisada continua pendent de validar; no s’ha sintetitzat.
+S003 incorpora la trobada durant el canvi de classe, l’aclariment sobre el paraigua i el comiat amb rialla compartida sol·licitada. El docent n’ha validat el guió i s’ha produït en una petició, igual que S013. Els dos muntatges esperen audició.
 
 ## Índex de les propostes noves
 
@@ -26,7 +26,7 @@ Les durades són intervals orientatius derivats del nombre de mots, un ritme nat
 | [S004 · El botó de la jaqueta](https://sentit.ortogra.fi/#lectura=ca-S004) | Intermèdia | 253 | 6 | 1:45–2:15 |
 | [S005 · La feina d’una cartera](https://sentit.ortogra.fi/#lectura=ca-S005) | Intermèdia | 291 | 6 | 2:00–2:30 |
 | [S006 · S’obre un nou camí al parc](https://sentit.ortogra.fi/#lectura=ca-S006) | Avançada | 286 | 6 | 2:00–2:30 |
-| [S007 · On va l’aigua del bassal?](https://sentit.ortogra.fi/#lectura=ca-S007) | Avançada | 308 | 6 | 2:10–2:40 |
+| [S007 · On va l’aigua del bassal?](https://sentit.ortogra.fi/#lectura=ca-S007) | Avançada | 302 | 6 | 2:05–2:35 |
 
 ### 4t
 
@@ -34,7 +34,7 @@ Les durades són intervals orientatius derivats del nombre de mots, un ritme nat
 | --- | --- | ---: | ---: | --- |
 | [S009 · La biblioteca canvia d’horari](https://sentit.ortogra.fi/#lectura=ca-S009) | Accessible | 277 | 6 | 1:50–2:15 |
 | [S010 · La ruta fins al pavelló](https://sentit.ortogra.fi/#lectura=ca-S010) | Intermèdia | 320 | 7 | 2:05–2:35 |
-| [S011 · Una menjadora per als ocells](https://sentit.ortogra.fi/#lectura=ca-S011) | Intermèdia | 329 | 7 | 2:10–2:40 |
+| [S011 · Una menjadora per als ocells](https://sentit.ortogra.fi/#lectura=ca-S011) | Intermèdia | 318 | 7 | 2:05–2:35 |
 | [S012 · Qui arregla els instruments?](https://sentit.ortogra.fi/#lectura=ca-S012) | Avançada | 349 | 7 | 2:15–2:50 |
 | [S013 · Com viatja una carta?](https://sentit.ortogra.fi/#lectura=ca-S013) | Avançada | 380 | 7 | 2:30–3:00 |
 
@@ -51,13 +51,15 @@ Les durades són intervals orientatius derivats del nombre de mots, un ritme nat
 
 | Codi i títol | Dificultat | Mots | Preguntes | Durada prevista |
 | --- | --- | ---: | ---: | --- |
-| [S019 · Una cuinera contra el malbaratament](https://sentit.ortogra.fi/#lectura=ca-S019) | Accessible | 340 | 8 | 2:05–2:35 |
+| [S019 · Una cuinera contra el malbaratament](https://sentit.ortogra.fi/#lectura=ca-S019) | Accessible | 332 | 8 | 2:00–2:30 |
 | [S020 · Com participar en el concurs de pòdcasts](https://sentit.ortogra.fi/#lectura=ca-S020) | Accessible | 361 | 8 | 2:15–2:40 |
 | [S021 · Per què una ciutat guarda la calor?](https://sentit.ortogra.fi/#lectura=ca-S021) | Intermèdia | 437 | 8 | 2:40–3:15 |
 | [S022 · L’últim trajecte del tramvia](https://sentit.ortogra.fi/#lectura=ca-S022) | Intermèdia | 445 | 9 | 2:45–3:15 |
 | [S024 · Tres maneres de transformar el pati](https://sentit.ortogra.fi/#lectura=ca-S024) | Avançada | 496 | 10 | 3:00–3:40 |
 
 ## Criteris de contingut i correcció
+
+**Comparació S004/S004D.** L’original narratiu es conserva intacte. La [variant S004D](https://sentit.ortogra.fi/#lectura=ca-S004D) té 223 mots, sis preguntes i durada prevista d’1:35–2:00. L’Aina narra en primera persona i conversa amb l’avi Ferran, amb Zephyr i Algenib com a candidates. Cap síntesi fins a triar i validar la proposta.
 
 - **3r:** sis preguntes, respostes breus. S003 recupera dades explícites; S004 i S005 relacionen una pista o una causa; S006 i S007 obliguen a distingir situacions i a aplicar el que s’ha explicat.
 - **4t:** sis o set preguntes. Horaris útils, rectificació d’un camí, instruccions condicionals, diagnòstic d’un problema i recorregut postal. Les explicacions dels termes necessaris són dins de l’àudio.
@@ -77,7 +79,7 @@ Les il·lustracions de les 19 peces encara no s’han produït. Cada escaleta in
 
 ## Producció prevista
 
-Cada peça proposa **una petició** amb el títol i tot el fragment, una o dues veus, i una pausa llarga per separar després les pistes en local. El paquet es pot inspeccionar sense connexió amb `node tools/proposal-plan.cjs --only=S003`. El guió anotat i les instruccions de muntatge no s’envien com a parla.
+Les peces amb una o dues veus proposen **una petició** amb el títol i tot el fragment. S007 i S011, amb tres veus, proposen **dues peticions**: mestra/títol i alumnat, amb pauses llargues per separar i intercalar els torns localment. El pla es pot inspeccionar sense connexió amb `node tools/proposal-plan.cjs --only=S011`. El guió anotat i les instruccions de muntatge no s’envien com a parla. Les dues escenes d’aula esperen validació docent; no s’han sintetitzat.
 
 Els sons previstos són originals procedurals de Sentit (MIT). Cada escaleta fixa entrada, transicions, solapaments discrets quan són útils, trams de veu neta i sortida amb cua de silenci. No es preveuen gravacions externes ni peticions de TTS per efectes. Quan s’autoritzi una producció es prepararà i verificarà la recepta concreta sobre la presa conservada; mai no s’improvisa una síntesi per omplir quota.
 
