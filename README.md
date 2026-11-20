@@ -8,6 +8,8 @@ El projecte es manté a la sèrie **0.1.x** mentre es revisen les primeres activ
 
 ## Catàleg de guions complet per revisar
 
+Les propostes passen una **revisió adversària independent** abans de presentar-se com a **provisionals** al docent: lògica, plausibilitat, cronologia, preguntes, solucionari i escaleta. [Resultats per codi i versió](docs/revisio-coherencia.md) · [Skill reutilitzable per Sentit i Trama](skills/revisio-coherencia-didactica/SKILL.md). La marca es vincula al contingut exacte i caduca si canvia. Només el docent autoritza la síntesi i, després, valida l’àudio muntat.
+
 Els **24 codis base, ca-S001–ca-S024**, ja tenen guió, preguntes i solucionari. S008R és una revisió addicional de S008. S’han preparat **19 peces noves**, amb 138 preguntes i escaletes completes, que se sumen a S023: hi ha **20 propostes pendents de validar**, consultables en qualsevol ordre. Cap síntesi nova en aquesta ampliació.
 
 Al web, cerca el codi i obre la proposta: el solucionari mostra el guió i l’escaleta primer. Es mantenen els sobreimpresos, les marques d’esborrany i el bloqueig d’impressió. Les il·lustracions noves es prepararan després de validar el contingut. [Dossier amb índex i fonts](docs/lot-editorial-24.md) · [Taula de fases de totes les peces](docs/seguiment-produccio.md).
