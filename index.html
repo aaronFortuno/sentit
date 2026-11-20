@@ -197,24 +197,24 @@
       <div class="panel-header"><div class="panel-heading"><h2 id="print-panel-title" data-t="print">Impressió</h2><button class="icon-button panel-close" type="button" data-close-workspace-panel data-label="closePrintSettings"><span data-icon="close" aria-hidden="true"></span></button></div></div>
       <div class="panel-scroll" id="print-scroll"><section class="format-section" id="worksheet-editor" hidden>
 
-          <details id="format-panel" open>
-            <summary data-t="sheetFormat">Format del full</summary>
+          <details id="format-panel" class="print-settings-group" open>
+            <summary data-t="printTypography">Tipografia i espaiats</summary>
             <form id="worksheet-format" autocomplete="off">
-              <label><span data-t="sheetFont">Tipografia</span>
-                <select name="font" id="sheet-font">
-                  <option value="serif">Georgia</option><option value="sans">Arial</option><option value="verdana">Verdana</option>
-                </select>
-              </label>
+              <label><span data-t="sheetFont">Tipografia</span><select name="font" id="sheet-font"><option value="serif">Georgia</option><option value="sans">Arial</option><option value="verdana">Verdana</option></select></label>
               <label><span data-t="sheetSize">Mida (pt)</span><input type="number" name="size" id="sheet-size" min="10" max="20" step="1"></label>
-              <label><span data-t="sheetSpacing">Espaiat (mm)</span><input type="number" name="spacing" id="sheet-spacing" min="2" max="9" step="1"></label>
-              <label><span data-t="sheetLeading">Interlineat</span><input type="number" name="leading" id="sheet-leading" min="1" max="1.8" step="0.05"></label>
-              <label><span data-t="classroomCode">Codi d’aula</span><input type="text" id="classroom-code" maxlength="18" spellcheck="false"></label>
+              <label class="format-spacing-field"><span data-t="sheetSpacing">Espaiat (mm)</span><input type="number" name="spacing" id="sheet-spacing" min="2" max="9" step="1"></label>
+              <label class="format-spacing-field"><span data-t="sheetLeading">Interlineat</span><input type="number" name="leading" id="sheet-leading" min="1" max="1.8" step="0.05"></label>
               <button type="reset" class="subtle format-reset" data-t="resetFormat">Restableix</button>
-            <label class="instruction-option"><input type="checkbox" id="show-instructions" checked><span data-t="showInstructions">Mostra les instruccions</span></label>
-            <label class="instruction-option" id="evidence-option" hidden><input type="checkbox" id="show-evidence" checked><span data-t="showEvidence">Ressalta les pistes a la transcripció</span></label>
             </form>
           </details>
-          <details id="image-panel" hidden>
+          <details id="instructions-panel" class="print-settings-group" open>
+            <summary data-t="printInstructions">Capçalera i instruccions</summary>
+            <div class="print-content-options">
+              <label class="print-field"><span data-t="classroomCode">Codi d’aula</span><input type="text" id="classroom-code" maxlength="18" spellcheck="false"></label>
+              <label class="print-toggle"><input type="checkbox" id="show-instructions" checked><span data-t="showInstructions">Mostra les instruccions al full</span></label>
+            </div>
+          </details>
+          <details id="image-panel" class="print-settings-group" hidden>
             <summary data-t="contextImage">Imatge de context</summary>
             <form id="image-editor" autocomplete="off">
               <label class="image-toggle"><input type="checkbox" id="show-image" checked><span data-t="showImage">Mostra la imatge</span></label>
@@ -225,10 +225,17 @@
               </fieldset>
             </form>
           </details>
-          <details id="question-panel" hidden>
-            <summary><span data-t="hiddenQuestions">Preguntes amagades</span><span id="hidden-count" class="count"></span></summary>
-            <ul id="hidden-questions"></ul>
-            <button type="button" class="subtle" id="restore-all" data-t="restoreAll">Recupera-les totes</button>
+          <details id="question-panel" class="print-settings-group">
+            <summary><span data-t="printQuestions">Preguntes</span><span id="hidden-count" class="count" hidden></span></summary>
+            <div class="print-question-options">
+              <p class="print-help" data-t="printQuestionsHelp">Ajusta les línies o elimina preguntes directament al full.</p>
+              <label class="print-toggle" id="evidence-option" hidden><input type="checkbox" id="show-evidence" checked><span data-t="showEvidence">Ressalta les pistes a la transcripció</span></label>
+              <div id="hidden-questions-group" hidden>
+                <h3 class="print-subheading" data-t="hiddenQuestions">Preguntes amagades</h3>
+                <ul id="hidden-questions"></ul>
+                <button type="button" class="subtle" id="restore-all" data-t="restoreAll">Recupera-les totes</button>
+              </div>
+            </div>
           </details>
         </section></div>
       <div class="panel-footer">
@@ -263,7 +270,7 @@
       <nav aria-label="Projecte" data-label="project">
         <label class="provisional-option footer-provisional" title="Funció experimental"><input id="show-provisional" type="checkbox" role="switch" checked><span data-t="showProvisionalExperimental">Provisionals · experimental</span></label>
         <a href="./LICENSE" data-t="license">Llicència</a>
-        <button type="button" data-open="changes" data-label="changes">v0.1.46</button>
+        <button type="button" data-open="changes" data-label="changes">v0.1.47</button>
         <button type="button" data-open="v4v">V4V</button>
       </nav>
     </div>
@@ -306,6 +313,8 @@
       </div>
       <a class="changelog-full" href="https://github.com/aaronFortuno/sentit/blob/main/CHANGELOG.md" target="_blank" rel="noopener noreferrer" data-t="fullChangelog">Changelog complet a GitHub</a>
       <div class="changelog-scroll dialog-scroll">
+      <h3>0.1.47 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
+      <p data-t="releasePrintGroups"></p>
       <h3>0.1.46 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
       <p data-t="releaseAudioGroups"></p>
       <h3>0.1.45 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>

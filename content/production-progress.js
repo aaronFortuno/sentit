@@ -163,7 +163,7 @@ export const productionProgress = {
     "listeningApproval": true
   },
   "ca-S012": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "voiceValidation": {
       "approved": true,
       "validatedAt": "2026-11-20",
@@ -193,10 +193,15 @@ export const productionProgress = {
         ]
       }
     },
-    "listeningApproval": false,
+    "listeningApproval": true,
     "montageRevision": "v2",
-    "teacherAssessment": "Veus validades; nou muntatge pendent d’audició.",
-    "newSynthesisRequests": 0
+    "teacherAssessment": "Veus i muntatge de guitarra v2 validats pel docent; publicació definitiva.",
+    "newSynthesisRequests": 0,
+    "validatedAt": "2026-11-20",
+    "validatedBy": "docent",
+    "confirmation": "S012 validat per publicació definitiva.",
+    "audioSha256": "00344e8635392d7cae9b1ab299521bc8544a091d569838d86ad06a7b20ba8b1c",
+    "editorialFingerprint": "0a0a32a1f21e43b0fe6856d19d8d1860cbc3e7b2dbdcecb478c321c6c24ce0d8"
   },
   "ca-S019": {
     "state": "montage-awaiting-listening",

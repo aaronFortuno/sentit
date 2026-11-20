@@ -2,6 +2,8 @@ export const strings = {
   ca: {
     language: 'ca',
     compareJingles: "Compara les sintonies",
+    releasePrintGroups: "Impressió organitzada en tipografia/espaiats, capçalera/instruccions, imatge i preguntes. Recuperació de preguntes amagades i pistes del solucionari dins de Preguntes. S012 publicada definitivament amb el màster v2 validat, sense nova síntesi.",
+    printTypography: "Tipografia i espaiats", printInstructions: "Capçalera i instruccions", printQuestions: "Preguntes", printQuestionsHelp: "Ajusta les línies o elimina preguntes directament al full.",
     jingleChoice: "Tria la sintonia",
     releaseAudioGroups: "Ajustos d’àudio agrupats: preparació i repeticions amb les seves locucions, ritme independent i sintonia amb activació i selector junts. Fonts i crèdits plegats al peu del panell, amb alçada limitada i scroll propi en desplegar-los.",
     releaseWorkspacePanels: "Àudio a l’esquerra i impressió a la dreta, amb scroll independent i les accions principals fixades. En pantalles estretes s’obren com a panells laterals exclusius, amb transicions de 220 ms, sense desplaçar el full ni el footer.",
@@ -215,6 +217,8 @@ export const strings = {
   es: {
     language: 'es',
     compareJingles: "Compara las sintonías",
+    releasePrintGroups: "Impresión organizada en tipografía/espaciado, cabecera/instrucciones, imagen y preguntas. Recuperación de preguntas ocultas y pistas del solucionario dentro de Preguntas. S012 publicada definitivamente con el máster v2 validado, sin nueva síntesis.",
+    printTypography: "Tipografía y espaciado", printInstructions: "Cabecera e instrucciones", printQuestions: "Preguntas", printQuestionsHelp: "Ajusta las líneas o elimina preguntas directamente en la ficha.",
     jingleChoice: "Elige la sintonía",
     releaseAudioGroups: "Ajustes de audio agrupados: preparación y repeticiones con sus locuciones, ritmo independiente y sintonía con activación y selector juntos. Fuentes y créditos plegados al pie del panel, con altura limitada y scroll propio al desplegarlos.",
     releaseWorkspacePanels: "Audio a la izquierda e impresión a la derecha, con scroll independiente y acciones principales fijas. En pantallas estrechas se abren como paneles laterales exclusivos, con transiciones de 220 ms, sin desplazar la ficha ni el footer.",

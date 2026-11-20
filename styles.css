@@ -64,7 +64,7 @@ svg { display: block; fill: none; stroke: currentColor; stroke-width: 1.7; strok
 .brand { gap: 9px; flex: none; text-decoration: none; font: 700 2.05rem/1 var(--serif); letter-spacing: -.06em; }
 .brand-dot { color: var(--accent); }
 .top-actions { gap: 8px; flex: none; }
-.icon-button, #filters select, #copy-fallback, #worksheet-format :is(select, input), #session-fields :is(select, input) {
+.icon-button, #filters select, #copy-fallback, .print-field input, #worksheet-format :is(select, input), #session-fields :is(select, input) {
   border: 1px solid var(--line); border-radius: 7px; background: var(--panel);
 }
 .icon-button { display: inline-grid; place-items: center; width: 36px; min-height: 36px; padding-inline: 8px; }
@@ -208,11 +208,19 @@ summary { color: var(--quiet); cursor: pointer; }
 .speech-rate-row { display: grid; grid-template-columns: minmax(0,1fr) 83px; align-items: center; gap: 10px; color: var(--quiet); font-size: .8rem; }
 #session-editor select { min-width: 0; min-height: 32px; padding: 5px 7px; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 7px; }
 #worksheet-editor summary { color: var(--ink); font-weight: 650; font-size: .87rem; }
-#worksheet-editor details + details { margin-block-start: 14px; }
+#worksheet-editor .print-settings-group + .print-settings-group { margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--line); }
 #worksheet-format { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: end; gap: 7px 9px; padding-top: 9px; }
 #worksheet-format label { display: grid; gap: 3px; font-size: .8rem; color: var(--quiet); }
 #worksheet-format :is(select, input) { width: 100%; min-height: 31px; padding: 4px 6px; color: var(--ink); font-size: .87rem; }
-.format-reset { justify-self: end; }
+.format-reset { grid-column: 1 / -1; justify-self: end; font-size: .78rem; }
+#worksheet-format .format-spacing-field { padding-top: 7px; border-top: 1px solid var(--line); }
+.print-content-options, .print-question-options { display: grid; gap: 10px; padding-top: 10px; }
+.print-field { display: grid; gap: 5px; color: var(--quiet); font-size: .8rem; }
+.print-field input { width: 100%; min-height: 31px; padding: 4px 6px; font-size: .87rem; color: var(--ink); }
+.print-toggle { display: flex; align-items: center; gap: 7px; font-size: .8rem; color: var(--quiet); }
+.print-toggle input { flex: none; width: 14px; min-height: 14px; height: 14px; margin: 0; accent-color: var(--green); }
+.print-help { color: var(--quiet); font-size: .77rem; line-height: 1.5; }
+.print-subheading { font: inherit; font-size: .78rem; font-weight: 650; }
 #question-panel summary { display: flex; align-items: center; justify-content: space-between; gap: 8px; cursor: pointer; }
 #hidden-questions { max-height: 170px; overflow: auto; scrollbar-width: thin; scrollbar-color: var(--line) transparent; margin: 7px 0 0; padding: 0 7px 0 0; list-style: none; }
 #print-scroll #hidden-questions { max-height: none; overflow: visible; padding-inline-end: 0; }

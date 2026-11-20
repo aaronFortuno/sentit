@@ -63,7 +63,7 @@ Veus Puck (Biel i presentació) i Algieba (Elies), Gemini TTS, una petició cons
 
 ## S016 · Una troballa al jaciment
 
-Mar i presentació: Erinome, Gemini TTS, una petició amb el tancament confirmat pel docent. Capçalera, ambient, paper i sortida originals de Sentit, MIT, sense enregistraments externs. [Manifest](assets/audio/s016-production-manifest.json). S012 i S016 continuen pendents d’audició docent.
+Mar i presentació: Erinome, Gemini TTS, una petició amb el tancament confirmat pel docent. Capçalera, ambient, paper i sortida originals de Sentit, MIT, sense enregistraments externs. [Manifest](assets/audio/s016-production-manifest.json). S012 està publicada definitivament amb el muntatge v2 validat. S016 continua pendent de l’esmena de veu i dels jingles.
 
 
 ## S004, S004D i S005

@@ -81,10 +81,10 @@ function wave() {
     assert.equal(tracks.filter(item=>item.src.includes('-cos.mp3')).length,2);
     assert(tracks.filter(item=>!item.src.includes('jingle')).every(item=>item.rate===.85&&item.pitch));
     await page.locator('#play').click();await page.waitForFunction(()=>window.played.length===5);
-    for(const code of ['S003','S008','S018']){
+    for(const code of ['S003','S008','S012','S018']){
       await page.goto(base+'#lectura=ca-'+code);await page.locator('#workspace').waitFor({state:'visible'});assert.equal(await page.locator('#worksheet-mode').getAttribute('aria-pressed'),'true');assert.equal(await page.locator('.paper-review-watermark').count(),0);assert(!(await page.locator('#print').isDisabled()));
     }
-    for(const [code,file]of [['S012','s012-instruments-v2.mp3'],['S019','s019-cuinera-v2.mp3']]){
+    for(const [code,file]of [['S019','s019-cuinera-v2.mp3']]){
       await page.goto(base+'#lectura=ca-'+code);await page.locator('#workspace').waitFor({state:'visible'});assert((await page.locator('#teacher-audio').getAttribute('src')).endsWith(file));assert.match(await page.locator('.paper-review-label').innerText(),/àudio pendent de validar/i);
     }
     await page.goto(base);await page.locator('#search').fill('ca-S005');assert.match(await page.locator('.activity-review-label').innerText(),/Síntesi pendent d’esmena/);
