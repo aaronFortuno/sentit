@@ -33,6 +33,9 @@ export const cinque = [
   }),
   proposal({
     id: 'una-troballa-al-jaciment', code: 'S016', title: 'Una troballa al jaciment', grade: '5', level: 'middle', genre: 'news',
+    seconds: 141, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s016-jaciment-v1.mp3', tracks: { introduction: './assets/audio/s016-jaciment-v1-intro.mp3', body: './assets/audio/s016-jaciment-v1-cos.mp3' },
+    fragment: { start: 5.38, seconds: 135 },
     summary: 'La Mar diferencia una troballa observada, una explicació possible i un titular que s’ha avançat massa.',
     voices: { Mar: 'Erinome' }, delivery: 'Periodista adulta rigorosa i propera. Distingir la citació d’un rumor amb l’entonació, sense convertir-la en una altra veu ni exagerar les correccions.',
     editorialFocus: '5è intermèdia: separar observacions, hipòtesis i missatges no confirmats. Tota la notícia és de ficció; els procediments generals es contrasten.',
@@ -49,7 +52,7 @@ export const cinque = [
       s('capes', 'Mar', 'També hi ha hagut preguntes sobre l’edat dels fragments. De moment no s’ha comunicat una data concreta. La posició dins de les capes ajuda a relacionar elements, però cal estudiar com s’ha format aquell terreny. Per exemple, una terra moguda en una obra posterior pot barrejar materials que no es van utilitzar al mateix moment.'),
       s('visita', 'Mar', 'La visita de dissabte es farà des d’un espai senyalitzat al marge del jaciment. No s’hi podrà baixar a recollir records. L’objectiu és veure com es treballa i fer preguntes, no buscar peces pel nostre compte. Les persones que vulguin venir s’han d’inscriure al centre cívic perquè els grups siguin petits.'),
       s('exposicio', 'Mar', 'Si l’estudi avança, l’equip voldria preparar una mostra al centre cívic amb fotografies del procés i alguns resultats. Encara no n’ha fixat la data. Una mostra amb una etiqueta molt segura abans d’acabar l’estudi podria explicar una història que després s’hagués de corregir.'),
-      s('final', 'Mar', 'El que avui sabem és, doncs, que han aparegut fragments de ceràmica prop d’un mur i que se n’ha documentat el context. L’ús concret i l’antiguitat continuen en estudi. Una descoberta pot ser interessant sense que totes les preguntes tinguin resposta el mateix dia.'),
+      s('final', 'Mar', 'El que avui sabem és, doncs, que han aparegut fragments de ceràmica prop d’un mur i que se n’ha documentat el context. L’ús concret i l’antiguitat continuen en estudi. Les inscripcions per a la visita de dissabte es fan al centre cívic.'),
       d('Sortida original de dos segons després de la veu. No afegir una datació, una confirmació del tipus d’aliment ni cap altre fet no escrit.'),
     ],
     questions: [

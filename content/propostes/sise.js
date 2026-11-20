@@ -85,7 +85,7 @@ export const sise = [
       s('mesura', 'Mireia', 'Si volguéssim comparar les dues places, hauríem de decidir què mesurem. La temperatura d’una superfície exposada al sol no és el mateix que la temperatura de l’aire. Tampoc no seria una comparació gaire clara mesurar una plaça al migdia i l’altra quan ja s’ha fet fosc. Caldria utilitzar el mateix tipus de mesura, en condicions i moments comparables, i anotar-los.'),
       s('proposta', 'Mireia', 'Després podríem plantejar millores segons el lloc. Afegir ombra pot ser útil, però un arbre acabat de plantar no crea immediatament una capçada gran. També s’ha de pensar en l’espai per a les arrels i en la cura que necessitarà. Triar materials i deixar lloc a la vegetació són decisions que s’han de combinar amb els usos de la plaça.'),
       s('limit', 'Mireia', 'Una sola lectura del termòmetre no ens diria quina part de la diferència depèn de cada causa. Podria orientar-nos i donar peu a noves observacions. La comparació serveix per fer preguntes millors, no per convertir una mesura ràpida en una explicació de tot el barri.'),
-      s('final', 'Mireia', 'Quan al vespre una plaça encara desprèn escalfor, podem mirar què ha rebut sol, quina ombra hi ha i com és l’espai. La calor que notem té una història durant el dia. Entendre aquesta història ajuda a pensar com voldríem viure els espais compartits.'),
+      s('final', 'Mireia', 'Quan al vespre una plaça encara desprèn escalfor, podem mirar què ha rebut sol, quina ombra hi ha i com és l’espai.'),
       d('Marge de 300 ms, sortida breu original i silenci. No afegir percentatges de refredament, riscos mèdics ni temperatures no escrites.'),
     ],
     questions: [
@@ -155,7 +155,7 @@ export const sise = [
       s('enquesta', 'Biel', 'A la nostra classe van sortir molts vots pels jocs. Podríem dir que és la preferida de l’escola.'),
       s('mostra', 'Laia', 'De la nostra classe, sí. Però ens falten els altres cursos. I votar un nom sense explicar les condicions no és ben bé comparar propostes: potser algú imagina que els arbres ja fan molta ombra, o que el tendal no ocupa espai de pilota.'),
       s('pla', 'Biel', 'D’acord. Portem una taula amb què ofereix cada opció, què necessita i què deixa sense resoldre. Hi afegirem dues preguntes: com es mantindria el material dels jocs i quin pas queda lliure al costat dels bancs. També demanarem què en pensen els altres cursos.'),
-      s('final', 'Laia', 'I després podrem recomanar una opció amb una raó clara i assumint la seva contrapartida. Potser no tots triarem el mateix, però com a mínim no estarem votant tres coses diferents que cadascú s’ha imaginat.'),
+      s('final', 'Laia', 'Va, preparem la taula: què necessitem, què ens aporta cada opció i a què ens fa renunciar. Preguntem també als altres cursos i després decidim quina recomanem.'),
       d('Marge de 300 ms i dues notes de sortida. No afegir resultat de votació ni anunciar una obra: el diàleg acaba amb un acord sobre el procés.'),
     ],
     questions: [

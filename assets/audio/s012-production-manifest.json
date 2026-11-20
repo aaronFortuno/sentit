@@ -1,0 +1,110 @@
+{
+  "code": "S012",
+  "activity": "ca-S012",
+  "date": "2026-11-20T09:35:59.322Z",
+  "state": "awaiting-audio-validation",
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "Biel": "Puck",
+    "Elies": "Algieba"
+  },
+  "newSynthesisRequests": 1,
+  "approvalFingerprint": "a0c2ffc4f711b25afb1b69b62ec15d5e7b5961470b8c15d5a5828a7c717acf44",
+  "requestHash": "29dee389b3a66507666baaca9a40d74a6124a3ed31827a57e281cce36ea7e6ff",
+  "rawSha256": "80087beb1559c05ba2ed8771b59b258fcf868f3ae8010d7d79bde246e733b7e4",
+  "usage": {
+    "total_tokens": 3591,
+    "total_input_tokens": 590,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 590
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 3001,
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 3001
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 0,
+    "initial_input_tokens": 590
+  },
+  "rawDuration": 120.04,
+  "cut": {
+    "at": 3.63,
+    "previousWordEnd": 3.18,
+    "nextWordStart": 4.08,
+    "peakDbFS": -65.7,
+    "rawSamplesPreserved": true
+  },
+  "file": "s012-instruments-v1.mp3",
+  "introFile": "s012-instruments-v1-intro.mp3",
+  "bodyFile": "s012-instruments-v1-cos.mp3",
+  "offset": 4.18,
+  "bodyDuration": 112.39,
+  "fullDuration": 116.57,
+  "lufs": -19.4,
+  "peakDbTP": -2.8,
+  "voice": {
+    "bodyLead": 3,
+    "bodyRawDuration": 108.19000000000001,
+    "untrimmedApartFromSilenceSplit": false,
+    "retimed": false
+  },
+  "editorialEdit": {
+    "type": "keep-final-suffix",
+    "part": "comiat",
+    "retainedText": "Gràcies, Elies.",
+    "removeStart": 110.355,
+    "removeEnd": 118.575,
+    "sourceRequestHash": "29dee389b3a66507666baaca9a40d74a6124a3ed31827a57e281cce36ea7e6ff",
+    "sourceApprovalFingerprint": "4ef0fb068da5d0e65fdf692b82f1893e8cedcd5e804b29be4db9b42548925c01",
+    "reason": "Revisió general de tancaments demanada pel docent: conservar només l’agraïment concret, sense una segona petició de síntesi.",
+    "originalText": "Doncs avui torno sense una guitarra nova, però amb una idea nova: primer entendre el problema, després decidir què s’ha de tocar. Gràcies, Elies.",
+    "removedSeconds": 8.219999999999999,
+    "silenceChecks": [
+      {
+        "at": 110.355,
+        "peakDbFS": -57.4
+      },
+      {
+        "at": 118.575,
+        "peakDbFS": -66.8
+      }
+    ]
+  },
+  "montageNewSynthesisRequests": 0,
+  "effects": [
+    {
+      "name": "real-loose-guitar",
+      "start": 0,
+      "end": 2.7,
+      "origin": "external-recording",
+      "source": "assets/audio/sources/khenshom-537084-guitar.mp3",
+      "sourceId": "khenshom-guitar-537084",
+      "sourceUrl": "https://freesound.org/people/khenshom/sounds/537084/",
+      "author": "khenshom",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceSha256": "b27703e3f933ea2588d9b6384148fcf278097247800391b236291a359950f252",
+      "excerpt": {
+        "start": 2.7,
+        "end": 5.4
+      },
+      "gain": 0.85,
+      "retimed": false,
+      "pitchShifted": false
+    },
+    {
+      "name": "workshop-paper",
+      "start": 70.27000000000001,
+      "end": 70.72000000000001,
+      "origin": "original-procedural"
+    }
+  ],
+  "sha256": "923b9c34ccb60c109cefcf746386a6fd440d58c6a3751aa4fd2f70e719b002d1"
+}

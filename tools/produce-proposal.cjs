@@ -13,6 +13,13 @@ async function main(){
  const entry=activities.find(entry=>entry.code===code);if(!entry?.production)throw Error('Cal --only=SXXX corresponent a una proposta editorial.');
  const {isEditoriallyReviewed}=await import(pathToFileURL(path.join(root,'editorial-review.js')));
  const plans=await readJSON(path.join(root,'content/production-plans.json'),{}),spec=productionSpec(entry),body=packedProposalRequest(entry);
+ if(plans[code]?.voiceReuse){
+  assertProductionApproved(entry,spec,plans[code]);
+  if(!isEditoriallyReviewed(entry))throw Error('Cal renovar la revisió del guió abans del retall local.');
+  const reuse=await require('./reuse-final-suffix.cjs').reuseFinalSuffix(entry,spec,plans[code],path.join(work,code.toLowerCase()),data=>createHash('sha256').update(data).digest('hex'));
+  checkWave(await fs.readFile(path.join(work,code.toLowerCase(),'titol-fragment-'+reuse.sourceRequestHash.slice(0,12)+'.wav')));
+  console.log(JSON.stringify({code,newRequests:0,reusedRequestHash:reuse.sourceRequestHash,next:'render-proposal.cjs; retall local aprovat, cap síntesi nova'}));return;
+ }
  const hash=createHash('sha256').update(JSON.stringify(body)).digest('hex'),folder=path.join(work,code.toLowerCase());
  const raw=path.join(folder,'titol-fragment-'+hash.slice(0,12)+'.wav');
  const cached=await fs.readFile(raw).catch(error=>{if(error.code==='ENOENT')return null;throw error;});if(cached)checkWave(cached);

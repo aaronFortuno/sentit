@@ -2,7 +2,7 @@
 
 20 de novembre de 2026 · 19 propostes base noves · 138 preguntes · variant dialogada S004D per comparar.
 
-S’hi afegeix S023, que ja estava preparada. S003, S010, S013, S018 i S022 ja tenen el guió validat i el muntatge pendent d’audició. S020 té autoritzades les veus; la sintonia comuna es valida per separat. Les altres propostes i S004D esperen validació docent. S001, S002, S008 i S015 conserven els seus materials; S008R és una revisió addicional de S008. [Seguiment de totes les fases](seguiment-produccio.md).
+S’hi afegeix S023, que ja estava preparada. S003, S010, S012, S013, S016, S018 i S022 ja tenen el guió validat i el muntatge pendent d’audició. S020 té autoritzades les veus; la sintonia comuna es valida per separat. Les altres propostes i S004D esperen validació docent. S001, S002, S008 i S015 conserven els seus materials; S008R és una revisió addicional de S008. [Seguiment de totes les fases](seguiment-produccio.md).
 
 ## Revisió al web
 
@@ -32,8 +32,8 @@ Les durades són intervals orientatius derivats del nombre de mots, un ritme nat
 | --- | --- | ---: | ---: | --- |
 | [S003 · El paraigua intercanviat](https://sentit.ortogra.fi/#lectura=ca-S003) | Accessible | 197 | 6 | 1:25–1:45 |
 | [S004 · El botó de la jaqueta](https://sentit.ortogra.fi/#lectura=ca-S004) | Intermèdia | 253 | 6 | 1:45–2:15 |
-| [S005 · La feina d’una cartera](https://sentit.ortogra.fi/#lectura=ca-S005) | Intermèdia | 291 | 6 | 2:00–2:30 |
-| [S006 · S’obre un nou camí al parc](https://sentit.ortogra.fi/#lectura=ca-S006) | Avançada | 286 | 6 | 2:00–2:30 |
+| [S005 · La feina d’una cartera](https://sentit.ortogra.fi/#lectura=ca-S005) | Intermèdia | 271 | 6 | 1:55–2:25 |
+| [S006 · S’obre un nou camí al parc](https://sentit.ortogra.fi/#lectura=ca-S006) | Avançada | 266 | 6 | 1:50–2:20 |
 | [S007 · On va l’aigua del bassal?](https://sentit.ortogra.fi/#lectura=ca-S007) | Avançada | 302 | 6 | 2:05–2:35 |
 
 ### 4t
@@ -43,7 +43,7 @@ Les durades són intervals orientatius derivats del nombre de mots, un ritme nat
 | [S009 · La biblioteca canvia d’horari](https://sentit.ortogra.fi/#lectura=ca-S009) | Accessible | 277 | 6 | 1:50–2:15 |
 | [S010 · La ruta fins al pavelló](https://sentit.ortogra.fi/#lectura=ca-S010) | Intermèdia | 319 | 7 | 2:05–2:35 |
 | [S011 · Una menjadora per als ocells](https://sentit.ortogra.fi/#lectura=ca-S011) | Intermèdia | 318 | 7 | 2:05–2:35 |
-| [S012 · Qui arregla els instruments?](https://sentit.ortogra.fi/#lectura=ca-S012) | Avançada | 349 | 7 | 2:15–2:50 |
+| [S012 · Qui arregla els instruments?](https://sentit.ortogra.fi/#lectura=ca-S012) | Avançada | 335 | 7 | 2:10–2:40 |
 | [S013 · Com viatja una carta?](https://sentit.ortogra.fi/#lectura=ca-S013) | Avançada | 380 | 7 | 2:30–3:00 |
 
 ### 5è
@@ -51,7 +51,7 @@ Les durades són intervals orientatius derivats del nombre de mots, un ritme nat
 | Codi i títol | Dificultat | Mots | Preguntes | Durada prevista |
 | --- | --- | ---: | ---: | --- |
 | [S014 · Què passa dins d’una llavor?](https://sentit.ortogra.fi/#lectura=ca-S014) | Accessible | 374 | 7 | 2:20–2:55 |
-| [S016 · Una troballa al jaciment](https://sentit.ortogra.fi/#lectura=ca-S016) | Intermèdia | 396 | 8 | 2:30–3:00 |
+| [S016 · Una troballa al jaciment](https://sentit.ortogra.fi/#lectura=ca-S016) | Intermèdia | 394 | 8 | 2:30–3:00 |
 | [S017 · Preparem una exposició itinerant](https://sentit.ortogra.fi/#lectura=ca-S017) | Avançada | 423 | 8 | 2:40–3:15 |
 | [S018 · La clau de l’armari verd](https://sentit.ortogra.fi/#lectura=ca-S018) | Avançada | 502 | 8 | 3:10–3:50 |
 
@@ -61,9 +61,9 @@ Les durades són intervals orientatius derivats del nombre de mots, un ritme nat
 | --- | --- | ---: | ---: | --- |
 | [S019 · Una cuinera contra el malbaratament](https://sentit.ortogra.fi/#lectura=ca-S019) | Accessible | 332 | 8 | 2:00–2:30 |
 | [S020 · Com participar en el concurs de pòdcasts](https://sentit.ortogra.fi/#lectura=ca-S020) | Accessible | 361 | 8 | 2:15–2:40 |
-| [S021 · Per què una ciutat guarda la calor?](https://sentit.ortogra.fi/#lectura=ca-S021) | Intermèdia | 437 | 8 | 2:40–3:15 |
+| [S021 · Per què una ciutat guarda la calor?](https://sentit.ortogra.fi/#lectura=ca-S021) | Intermèdia | 415 | 8 | 2:30–3:05 |
 | [S022 · L’últim trajecte del tramvia](https://sentit.ortogra.fi/#lectura=ca-S022) | Intermèdia | 445 | 9 | 2:45–3:15 |
-| [S024 · Tres maneres de transformar el pati](https://sentit.ortogra.fi/#lectura=ca-S024) | Avançada | 496 | 10 | 3:00–3:40 |
+| [S024 · Tres maneres de transformar el pati](https://sentit.ortogra.fi/#lectura=ca-S024) | Avançada | 488 | 10 | 3:00–3:35 |
 
 ## Criteris de contingut i correcció
 
@@ -112,3 +112,6 @@ En arqueologia, la ficció no converteix una hipòtesi sobre l’ús d’un reci
 ## Comprovacions
 
 `node tools/check-proposal-batch.mjs` comprova els 24 codis base, l’equilibri de sis peces per curs i sis tipologies, dos nivells de cada dificultat, veus recurrents, text complet dels paquets i bloqueig per manca de validació. `node tools/check-evidence.mjs` verifica que cada pista existeix literalment al passatge indicat. `node tools/check-batch-ui.cjs` comprova catàleg, filtres, cerca per codi, guions per defecte, respostes i paginació A4 i genera els 38 PDF locals de control. Els PDF de control no s’ofereixen al públic com a materials validats.
+
+
+S012 incorpora guitarra real CC0 i salutacions; S016 acaba amb la informació de les inscripcions. Tots dos tenen muntatge pendent d’audició. Els tancaments de S005, S006, S021 i S024 s’han concretat i revalidat independentment, sense síntesi. [Resultat de la passada de tancaments](revisio-tancaments.md).

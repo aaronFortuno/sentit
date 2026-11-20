@@ -22,13 +22,13 @@ export const editorialReviews = {
     "status": "passed",
     "reviewedAt": "2026-11-20",
     "reviewer": "revisor-coherencia-independent",
-    "fingerprint": "7a36fb3cce1c682d8cc856cbe33ebdf7f95d2df5957d3f9208154a95227ed8ea"
+    "fingerprint": "e82434fc65d81b12bbabe1b3ca76e89a1ec5fd28e75164d128c1f49ccf8bdc72"
   },
   "ca-S006": {
     "status": "passed",
     "reviewedAt": "2026-11-20",
     "reviewer": "revisor-coherencia-independent",
-    "fingerprint": "74f4d828020f200d8599e0d2cd22829b4fb2edabb58e2b4a023ae49f20d88c30"
+    "fingerprint": "693a9ecac3b71dae98d1c155e92f67eea7289394f477739a206f613575b99895"
   },
   "ca-S007": {
     "status": "passed",
@@ -58,7 +58,7 @@ export const editorialReviews = {
     "status": "passed",
     "reviewedAt": "2026-11-20",
     "reviewer": "revisor-coherencia-independent",
-    "fingerprint": "7f0136d3c10cd1e8189eb2dba15ec873661ffd29f28e1064091e10fa9ef817b3"
+    "fingerprint": "d53a0cbc50e3f1044d923c7105c7bc771edfa322a346e3378614922465a17f49"
   },
   "ca-S013": {
     "status": "passed",
@@ -76,7 +76,7 @@ export const editorialReviews = {
     "status": "passed",
     "reviewedAt": "2026-11-20",
     "reviewer": "revisor-coherencia-independent",
-    "fingerprint": "95cc926b8db32f87535d04307cf0f0ab6a306329e2c6de7654c42cef22182d15"
+    "fingerprint": "b16e6dc971b2ef472e3437a27cbfb0d6f9ea0807ba45c298bc1fff21ef8f650a"
   },
   "ca-S017": {
     "status": "passed",
@@ -106,7 +106,7 @@ export const editorialReviews = {
     "status": "passed",
     "reviewedAt": "2026-11-20",
     "reviewer": "revisor-coherencia-independent",
-    "fingerprint": "2a83a397e6422589c3410aa304b6e4405e75c02499c07df3154b2968d6b48a19"
+    "fingerprint": "b173aa4c44ad8cd2a7894a75349479ed9c6d936962439690be950385bb574c82"
   },
   "ca-S022": {
     "status": "passed",
@@ -124,6 +124,6 @@ export const editorialReviews = {
     "status": "passed",
     "reviewedAt": "2026-11-20",
     "reviewer": "revisor-coherencia-independent",
-    "fingerprint": "ddf09b4a40e65bdbb5e644e4f065e4a5ce9d294676b401869796bfb46b4c5934"
+    "fingerprint": "8eeea9e604b9d90d02313f8d476098e5c7227ae520c75727225d26974be522d3"
   }
 };

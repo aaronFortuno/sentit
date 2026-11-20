@@ -31,6 +31,8 @@ Les veus són síntesi de [Gemini TTS, de Google](https://ai.google.dev/gemini-a
 | ca-S001 · El senyal de la ràdio | Laia: Leda; Biel: Puck. Presentació: Aoede. | Tocs, silencis significatius i quatre notes de sortida originals, generats amb FFmpeg. |
 | ca-S002 · Preparem una capsa de records | Una mestra: Aoede; presentació: Aoede. | Muntatge amb separació entre els blocs de passos. No hi ha enregistraments externs. |
 | ca-S003 · El paraigua intercanviat | Laia i presentació: Leda; Biel: Puck. Una petició, amb rialles breus sol·licitades dins la mateixa presa. | Passos de passadís i sortida, fregadís de bossa originals procedurals. Guió validat; àudio pendent d’audició. |
+| ca-S012 · Qui arregla els instruments? | Puck: Biel i presentació; Algieba: Elies. Una petició conservada. | Guitarra real de khenshom, Freesound 537084, CC0, a l’obertura. Paper original MIT al canvi de tema i silenci al comiat. Àudio pendent d’audició. |
+| ca-S016 · Una troballa al jaciment | Erinome: Mar i presentació. Una petició. | Capçalera, ambient inicial, paper i sortida originals de Sentit, MIT. Àudio pendent d’audició. |
 | ca-S010 · La ruta fins al pavelló | Leda: Laia i presentació; Puck: Biel. Una petició. | Passos originals a l’arribada, la pausa del carreró i el comiat. Guió validat amb el canvi docent; àudio pendent d’audició. |
 | ca-S018 · La clau de l’armari verd | Aoede: narradora adulta i presentació. Aina i Ferran són personatges narrats, sense veu pròpia. Una petició. | Base original «Records guardats», clau, cartró i paper. Fosa d’entrada, música molt baixa sota la veu i pujada amb fosa de sortida. Àudio pendent d’audició. |
 | ca-S022 · L’últim trajecte del tramvia | Algenib: Ferran i presentació. Aina i el pare són personatges del record, sense torn de veu. Una petició. | Base original «Rails de memòria», tramvia, rail i paper procedurals. Fosa d’entrada, música molt baixa sota la veu i pujada amb fosa de sortida. Àudio pendent d’audició. |
@@ -113,3 +115,17 @@ El selector de ritme va de ×0,80 a ×1,20 en passos de 0,05, amb conservació d
 Guions i escaletes validats pel docent el 20/11/2026. Una petició completa per peça, amb títol separat localment dins un silenci comprovat. Fragments de 99,48 s, 177,38 s i 176,195 s, respectivament. Preses crues conservades, sense retallar fonemes ni modificar el ritme. Manifests amb empremtes i nivells: [S010](../assets/audio/s010-production-manifest.json), [S018](../assets/audio/s018-production-manifest.json) i [S022](../assets/audio/s022-production-manifest.json). Els muntatges continuen pendents d’audició docent.
 
 Les bases de S018 i S022 són composicions originals diferents, sota MIT, sense mostres externes. El [registre de músiques](musiques.md) identifica títol, autor, llicència, recepta i usos; els manifests mesuren el balanç amb la veu i els marges de les foses. Les bases de narració no són les sintonies recurrents d’un programa. Les connexions entre històries i programes consten a [l’univers editorial](univers-editorial.md).
+
+
+### Guitarra real de S012
+
+Font seleccionada per substituir les notes sintètiques: **khenshom · Guitar string snap or breaks - various sounds**, [Freesound 537084](https://freesound.org/people/khenshom/sounds/537084/), [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). L’autor documenta una gravació amb micròfon Sennheiser MKE600 i Zoom H5. Es conserva la còpia pública HQ MP3, no el WAV original. [Registre de la font, empremta i transformacions](../content/sound-sources.js).
+
+Fragment seleccionat: 2,7–5,4 s. Guitarra real només a l’obertura, sense canvi de to o velocitat, deixant-la acabar abans de la parla. No es representa que una corda es trenqui ara ni es demana identificar-ne l’avaria. El tancament queda en silenci per no suggerir una reparació acabada. El paper és original de Sentit (MIT); la guitarra conserva CC0 i no es presenta com un so procedural propi. L’encaix i la naturalitat quedaran pendents d’audició docent del muntatge.
+
+
+### Muntatges S012 i S016
+
+S012 té un fragment de 112,39 s i un màster amb títol de 116,57 s. La presa completa de 120,04 s es conserva localment. Després de la revisió dels tancaments, s’elimina només la primera part abstracta del darrer torn: retall entre 110,355 i 118,575 s, dins dos silencis comprovats; es conserva «Gràcies, Elies.» íntegre. Cap segona petició, canvi de to ni canvi de velocitat. L’aprovació de la presa original, l’edició i els nivells dels silencis consten al [manifest S012](../assets/audio/s012-production-manifest.json). El pla de treball identifica 0 peticions noves i una presa conservada; el consum històric total és d’una petició.
+
+S016 té un fragment de 135,23 s i un màster amb títol de 140,61 s, amb el tancament concret mostrat i confirmat pel docent. Una petició; tall de títol en silenci comprovat, sense retallar parla, i paper ajustat a la pausa disponible. [Manifest S016](../assets/audio/s016-production-manifest.json). Tots dos muntatges continuen pendents d’audició docent.

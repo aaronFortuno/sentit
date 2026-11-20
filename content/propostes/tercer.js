@@ -84,7 +84,7 @@ export const tercer = [
       s('comprovar', 'Joana', 'No. Una carta no es deixa en una bústia només perquè sembla la bona. Si l’adreça no és clara, ho comunico i se segueix el procediment per comprovar-la. Aquest matí, per exemple, he apartat un sobre per revisar-lo abans de sortir. La resta del repartiment ha pogut continuar.'),
       s('pluja', 'Biel', 'I quan plou, com avui, canvies tota la ruta?'),
       s('organitzar', 'Joana', 'La pluja no fa canviar les adreces! Protegeixo les cartes perquè no es mullin i m’organitzo amb compte. Hi pot haver altres imprevistos, com un carrer tallat. En aquell cas busco un pas permès i després reprenc el recorregut. Preparar-se ajuda, però també cal saber adaptar-se.'),
-      s('comiat', 'Biel', 'Doncs ara miraré un sobre d’una altra manera: no només porta un nom, sinó pistes perquè arribi al lloc correcte. Gràcies per explicar-nos-ho, Joana.'),
+      s('comiat', 'Biel', 'Gràcies per explicar-nos-ho, Joana.'),
       d('Marge de 300 ms, dues notes de sortida i silenci. No afegir respostes, música ni sons de bústia sota les explicacions.'),
     ],
     questions: [
@@ -112,7 +112,7 @@ export const tercer = [
       d('Pausa de canvi de tema. Cap efecte de cinta, eines o treballs que ajudi a recordar la zona tancada.'),
       s('pendent', 'Mar', 'Hi ha, però, una part que encara no es podrà utilitzar: la petita zona de plantes que queda al costat del camí. S’hi acabarà de posar una tanca per protegir-les mentre arrelen. Dilluns el camí ja estarà obert, però aquesta zona continuarà tancada. No cal entrar entre les plantes per seguir el recorregut.'),
       s('visita', 'Mar', 'Per explicar el canvi, diumenge al matí es farà una passejada guiada. Caldrà trobar-se a l’entrada de la biblioteca. La passejada és una activitat especial d’aquell diumenge; no vol dir que cada dia s’hagi d’esperar una guia per entrar al parc. A partir de dilluns, el camí es podrà fer servir dins de l’horari habitual del parc.'),
-      s('resum', 'Mar', 'En resum: nou recorregut per arribar als gronxadors, les mateixes entrades i el sender antic encara disponible. Si passegeu pel barri, mireu el parc amb atenció: de vegades un canvi petit pot facilitar molt un trajecte quotidià.'),
+      s('resum', 'Mar', 'En resum: nou recorregut per arribar als gronxadors, les mateixes entrades i el sender antic encara disponible.'),
       d('La veu acaba completa. Un segon d’ambient i una sortida de dues notes; 600 ms finals de silenci.'),
     ],
     questions: [
