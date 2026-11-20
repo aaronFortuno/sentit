@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.46 · 20 de novembre de 2026
+
+- Àudio organitzat en tres blocs: sessió pautada, ritme de locució i sintonia inicial. La preparació agrupa temps de lectura i locució inicial; les repeticions, escoltes, pausa i locució de repàs. Activació i selector de sintonia a la mateixa fila.
+- Fonts i crèdits ancorats al peu del panell, plegats inicialment. En desplegar-los tenen alçada màxima de 220 px o el 28% de la pantalla, amb scroll propi i discret. Els ajustos conserven el seu scroll independent.
+- Valors, configuració del QR i comportament de reproducció conservats.
+
 ## 0.1.45 · 20 de novembre de 2026
 
 - Editor amb dos panells independents: Àudio a l’esquerra, Impressió a la dreta i preview al centre. Cada panell conserva el seu propi scroll discret; l’accés a escolta queda fix a dalt i el d’impressió, a baix.

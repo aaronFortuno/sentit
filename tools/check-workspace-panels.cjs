@@ -10,9 +10,18 @@ const {chromium}=require('C:/Users/afortun8/.cache/codex-runtimes/codex-primary-
   const settle=()=>page.evaluate(()=>Promise.all(document.getAnimations().map(a=>a.finished.catch(()=>{}))));
   const bounds=async()=>{assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);const footer=await page.locator('.bottom').boundingBox();assert(footer.y+footer.height<=(await page.viewportSize()).height+1);const preview=await page.locator('.preview').boundingBox();assert(preview.height>200);};
   await page.goto(base+'#lectura=ca-S008');await page.locator('#workspace').waitFor({state:'visible'});await settle();
+  assert.equal(await page.locator('.audio-sources').evaluate(n=>n.open),false);
+  assert.equal(await page.locator('#audio-panel .audio-settings-group').count(),3);
+  await page.locator('#guided-mode').uncheck();await settle();assert(await page.locator('#session-fields').isHidden());await page.locator('#guided-mode').check();await settle();
+  await page.locator('#session-reading').fill('0');assert(await page.locator('#session-prepare').isDisabled());await page.locator('#session-reading').fill('60');
+  await page.locator('#session-listens').selectOption('1');assert(await page.locator('#session-repeat').isDisabled());assert(await page.locator('#session-interval').isDisabled());await page.locator('#session-listens').selectOption('2');
+  await settle();await page.screenshot({path:path.join(output,'audio-groups.png')});
   const positions=await page.locator('#audio-panel,.preview,#print-panel').evaluateAll(nodes=>Object.fromEntries(nodes.map(n=>{const r=n.getBoundingClientRect();return [n.id||'preview',{x:r.x,right:r.right,y:r.y,bottom:r.bottom}];})));
   assert(positions['audio-panel'].right<=positions.preview.x);assert(positions.preview.right<=positions['print-panel'].x);assert.equal(positions['audio-panel'].y,positions['print-panel'].y);
   await page.locator('.audio-sources summary').click();await page.locator('#image-panel summary').click();await settle();await page.setViewportSize({width:1366,height:650});await bounds();
+  const credits=page.locator('.audio-sources > .details-panel');assert(await credits.evaluate(n=>n.clientHeight<=Math.min(220,innerHeight*.28)+1&&n.scrollHeight>n.clientHeight));
+  const audioBefore=await page.locator('#audio-scroll').evaluate(n=>n.scrollTop);await credits.evaluate(n=>n.scrollTop=n.scrollHeight);assert(await credits.evaluate(n=>n.scrollTop>0));assert.equal(await page.locator('#audio-scroll').evaluate(n=>n.scrollTop),audioBefore);await credits.evaluate(n=>n.scrollTop=0);
+  const footerBounds=await page.locator('.audio-panel-footer').boundingBox(),audioBounds=await page.locator('#audio-panel').boundingBox();assert(Math.abs(footerBounds.y+footerBounds.height-audioBounds.y-audioBounds.height)<2);
   const printTop=await page.locator('#print-scroll').evaluate(n=>n.scrollTop),paperTop=await page.locator('.paper-stage').evaluate(n=>n.scrollTop);
   await page.locator('#audio-scroll').evaluate(n=>n.scrollTop=n.scrollHeight);assert(await page.locator('#audio-scroll').evaluate(n=>n.scrollTop>0));assert.equal(await page.locator('#print-scroll').evaluate(n=>n.scrollTop),printTop);assert.equal(await page.locator('.paper-stage').evaluate(n=>n.scrollTop),paperTop);
   await page.locator('#print-scroll').evaluate(n=>n.scrollTop=n.scrollHeight);assert(await page.locator('#print-scroll').evaluate(n=>n.scrollTop>0));assert(await page.locator('#print').isVisible());assert(await page.locator('#open-player').isVisible());
