@@ -219,9 +219,9 @@
     "approvalSource": "Validació explícita del docent el 20/11/2026: «S007 es pot pujar a síntesi de veus, guió validat». Guió, veus i escaleta actuals autoritzats; dues preses agrupades per conservar Mireia/Aoede, Laia/Leda i Biel/Puck."
   },
   "S009": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "cf72b5e388bb92742ed2883dcdc6bf8daa7bbf8813286669dcbf1f2b9082b9ae",
+    "reviewedAt": "2026-11-20T21:58:08.267Z",
     "reviewActivity": "ca-S009",
     "reviewContent": "content/propostes/quart.js",
     "format": "4t accessible: informació explícita i útil, organitzada per blocs. Aplicar un horari al cas d’una visita concreta sense fer càlculs.",
@@ -236,7 +236,7 @@
     },
     "strategy": "packed-title-program-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
-    "approvalSource": "No validat. Esmenes demanades pel docent el 20/11/2026: eliminar aclariment i moralina, afegir «com sempre», substituir passatge de la bústia i tancament pel text proposat. Nova versió pendent de revisió docent, sense síntesi."
+    "approvalSource": "Validació explícita del docent el 20/11/2026: «S009 queda també validat per síntesi de veus». Guió actual, veu de la Mar i escaleta autoritzats, subjectes a lots de sis a vuit minuts i quota disponible."
   },
   "S010": {
     "status": "approved",
@@ -367,9 +367,9 @@
     "approvalSource": "El 20/11/2026 el docent valora positivament el contingut i el muntatge, excepte dues pronunciacions de «bústia» i la sintonia de dues notes, que es retira. Nova sintonia pendent de tria; correccions de veu pendents de quota i audició."
   },
   "S014": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "d6463265848c0b561b8388b8af426fbd05ddd2ea63299b0c232694e551fc5043",
+    "reviewedAt": "2026-11-20T21:41:49.066Z",
     "reviewActivity": "ca-S014",
     "reviewContent": "content/propostes/cinque.js",
     "format": "5è accessible: procés ordenat i relacions causals explícites, amb vocabulari definit. No cal saber botànica abans d’escoltar.",
@@ -385,7 +385,7 @@
     },
     "strategy": "packed-title-program-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
-    "approvalSource": "No validat. El docent demana convertir l’explicació en una escena d’aula amb preguntes, anticipacions i reconduccions. Nova conversa de Mireia i Biel pendent de revisar abans de síntesi."
+    "approvalSource": "Validació explícita del docent el 20/11/2026: «S014 validat, llest per pujar a síntesi de veus». Guió actual, veus i escaleta autoritzats. Subjecte a quota i a lots prou plens de sis a vuit minuts."
   },
   "S016": {
     "status": "approved",
@@ -408,9 +408,9 @@
     "approvalSource": "Confirmació explícita del docent el 20/11/2026: «Sí, sintetitza aquesta versió», després de mostrar el tancament complet amb les inscripcions al centre cívic. Resta del contingut validat en el missatge anterior."
   },
   "S017": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "8640db043362058b03a3a48251042b8d2628ad4ae58b2af1cecd73836a91b720",
+    "reviewedAt": "2026-11-20T21:35:19.653Z",
     "reviewActivity": "ca-S017",
     "reviewContent": "content/propostes/cinque.js",
     "format": "5è avançada: seguir un pla amb prioritats i excepcions dins d’una situació explícita. L’equip de coordinació es presenta abans que es demani comunicar-li incidències. Cal escoltar també les aportacions de Laia i Biel. Es redueixen instruccions accessòries de muntatge per facilitar retenir les decisions principals.",
@@ -427,7 +427,7 @@
     },
     "strategy": "grouped-voices-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
-    "approvalSource": "No validat. El docent demana el 20/11/2026 aclarir l’entrevista prèvia i la coordinació, reduir densitat, situar la conversa en un grup de l’aula i fer un tancament natural. Nova versió pendent de revisió docent; no sintetitzar."
+    "approvalSource": "Validació explícita del docent el 20/11/2026: «S017 també validada per síntesi de veu». Guió actual, veus i escaleta autoritzats; tres veus en dues preses agrupades."
   },
   "S018": {
     "status": "approved",
@@ -622,5 +622,399 @@
     "musicRecipe": "tools/s004-music.cjs",
     "musicTrackId": "sentit-fil-per-seguir-v1",
     "approvalSource": "Validació explícita del docent el 20/11/2026: «S004D validat, pot anar a producció de veus». Text parlat conservat literalment; base molt suau segons el criteri general de narracions, compartida intencionadament amb S004 perquè és la mateixa història. Revisió independent final superada."
+  },
+  "S025": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S025",
+    "reviewContent": "content/propostes/tanda2/tercer.js",
+    "format": "3r accessible: problema únic, comprovació immediata i causa explícita. Sis respostes breus; tot el funcionament necessari s’explica al diàleg.",
+    "cues": [
+      "Un clic real molt breu abans de les veus. L’aparell no reprodueix cap paraula addicional al muntatge.",
+      "Pausa curta de manipulació, sense un efecte que reveli si l’aparell funciona.",
+      "Deixar acabar la veu, moviment real de cadira molt breu i 600 ms de silenci."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Laia": "Leda",
+      "Biel": "Puck"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S026": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S026",
+    "reviewContent": "content/propostes/tanda2/tercer.js",
+    "format": "3r accessible: seguir una seqüència curta i distingir un joc preparat d’un joc que encara no es pot utilitzar. Sis preguntes literals o de causa explícita.",
+    "cues": [
+      "Ambient d’aula breu amb capses reals. Acabar-lo abans de la salutació.",
+      "Pausa de cerca curta, sense cap troballa sonora.",
+      "Tapa real que es tanca fora de la parla i 600 ms de silenci."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mireia": "Aoede",
+      "Biel": "Puck"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S027": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S027",
+    "reviewContent": "content/propostes/tanda2/tercer.js",
+    "format": "3r intermèdia: reconstruir l’ordre dels fets, entendre la causa del canvi i identificar què es va conservar del pla inicial.",
+    "cues": [
+      "Vent enregistrat molt breu i base «Tovalles al vent» proposada. La música baixa abans de la primera consonant.",
+      "Pausa curta de canvi d’espai, amb roba enregistrada molt baixa i acabada abans de continuar.",
+      "Després de la veu, pujar la base dos segons i fer una fosa de dos segons; 600 ms de silenci final."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Ferran": "Algenib"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S028": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S028",
+    "reviewContent": "content/propostes/tanda2/tercer.js",
+    "format": "3r intermèdia: relacionar una feina amb el seu motiu i distingir allò que fa abans d’obrir d’allò que deixa per al final.",
+    "cues": [
+      "Ambient real de mercat baix i una caixa abans de començar. Les dades només arriben per les veus principals.",
+      "Una pausa de conversa; no afegir cap so per indicar una fruita o un preu.",
+      "Pujar l’ambient dos segons després del comiat, fosa i cua completa de silenci."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Laia": "Leda",
+      "Pau": "Charon"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S029": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S029",
+    "reviewContent": "content/propostes/tanda2/tercer.js",
+    "format": "3r avançada: integrar una condició simple, distingir gratuïtat de reserva i separar el lloc previst de l’alternatiu. Sis preguntes, sense exigir recordar totes les dades de la notícia.",
+    "cues": [
+      "Capçalera informativa proposada i dos segons de plaça real. L’ambient es retira abans de les dades.",
+      "Pausa breu de canvi de bloc, sense cap efecte meteorològic.",
+      "Després de la veu, tancament informatiu i ambient de plaça amb fosa. Cua de 600 ms de silenci."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mar": "Erinome"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S030": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S030",
+    "reviewContent": "content/propostes/tanda2/quart.js",
+    "format": "4t accessible: causa i conseqüència explícites, contrast entre una prova de prop i una prova real. Set preguntes breus, sense terminologia de disseny.",
+    "cues": [
+      "Ambient breu de passadís i paper enregistrat; retirar abans de les veus.",
+      "Fregadís real en despenjar el paper després de proposar-ho. Sense esquinçar-lo ni tapar la resposta següent.",
+      "Conservar la darrera paraula; passes enregistrades curtes i cua de silenci."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Biel": "Puck",
+      "Laia": "Leda"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S031": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S031",
+    "reviewContent": "content/propostes/tanda2/quart.js",
+    "format": "4t accessible: informació explícita i una distinció central entre proposta i decisió. Set preguntes, sense recordar noms de càrrecs ni dates numèriques.",
+    "cues": [
+      "Capçalera informativa breu pendent de seleccionar. Ambient real que baixa abans de la parla.",
+      "Pausa de canvi de bloc, sense so de paper que faci comptar propostes.",
+      "Deixar acabar la veu i tancament informatiu fora de la parla, amb silenci final."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mar": "Erinome"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S032": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S032",
+    "reviewContent": "content/propostes/tanda2/quart.js",
+    "format": "4t intermèdia: entendre el destinatari d’unes instruccions, una prova amb condició i la diferència entre ajudar i revelar la solució. Set preguntes amb causes explícites.",
+    "cues": [
+      "Aula enregistrada molt breu i retirada abans de la salutació.",
+      "Un full real en la pausa, sense donar pistes sonores de cap moble.",
+      "Final íntegre, papers reals després de la veu i cua de silenci."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mireia": "Aoede",
+      "Laia": "Leda"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S033": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S033",
+    "reviewContent": "content/propostes/tanda2/quart.js",
+    "format": "4t intermèdia: relacionar tres decisions d’exposició amb els seus motius i entendre què aporta una còpia sense confondre-la amb l’original.",
+    "cues": [
+      "Taller real tranquil abans de les veus; no afegir una tercera veu ni eines treballant.",
+      "Pausa de canvi de tema amb paper real molt breu, sense fer sonar cap mecanisme de capsa.",
+      "Marge després del comiat i sintonia de sortida proposada amb cua completa."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Biel": "Puck",
+      "Nora": "Kore"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S034": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S034",
+    "reviewContent": "content/propostes/tanda2/quart.js",
+    "format": "4t avançada: distingir el que sap qui és dins d’un assaig del que interpreten els que arriben després; relacionar dues indicacions i reconstruir la confusió.",
+    "cues": [
+      "Entrada de «Entre dues cortines» proposada i sala real molt baixa; retirar l’ambient abans del relat.",
+      "Pausa breu, una cadira real fora de la veu; la base continua baixa i neutral.",
+      "Deixar completar el final; pujada musical de dos segons, fosa i 600 ms de silenci."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Ferran": "Algenib"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S035": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S035",
+    "reviewContent": "content/propostes/tanda2/cinque.js",
+    "format": "5è accessible: entendre per què es modifica una pregunta amb dues idees i seguir un procediment explícit de recollida, sense calcular percentatges ni conèixer estadística.",
+    "cues": [
+      "Aula enregistrada breu i retirada abans de la salutació. Cap veu addicional intel·ligible.",
+      "Pausa curta i full real. Cap senyal sonor associat a sí, no o no ho sé.",
+      "Veu completa i papers reals al final, amb 600 ms de silenci."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mireia": "Aoede",
+      "Laia": "Leda"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S036": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S036",
+    "reviewContent": "content/propostes/tanda2/cinque.js",
+    "format": "5è accessible: distingir observació, record familiar i identificació confirmada. Tots els termes i motius s’expliciten; vuit respostes sense coneixement històric extern.",
+    "cues": [
+      "Taller real baix, sense eines treballant. La peça no produeix cap so identificador.",
+      "Pausa curta de paper real, sense etiquetar acústicament una de les hipòtesis com a correcta.",
+      "Marge complet després del comiat; sintonia de sortida proposada i silenci final."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Biel": "Puck",
+      "Nora": "Kore"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S037": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S037",
+    "reviewContent": "content/propostes/tanda2/cinque.js",
+    "format": "5è intermèdia: contrastar dues fonts, comprendre una rectificació parcial i separar lloc, hora i destinatari. No cal recordar dates numèriques ni usar cap aplicació externa.",
+    "cues": [
+      "Passadís real baix i paper breu. Retirar l’ambient abans de llegir els avisos.",
+      "Pausa curta de comprovació del paper. No fer sonar una notificació amb informació afegida.",
+      "Passes reals després de la darrera paraula i cua de silenci. La resposta de la Mireia no es representa."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Laia": "Leda",
+      "Biel": "Puck"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S038": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S038",
+    "reviewContent": "content/propostes/tanda2/cinque.js",
+    "format": "5è intermèdia: reconstruir dues interpretacions del mateix lloc, relacionar una previsió amb el desenllaç i distingir el que el narrador sap al principi del que descobreix després.",
+    "cues": [
+      "Dos segons de plaça real i entrada suau de «Un lloc a l’ombra», pendent de produir. La base baixa abans de Ferran.",
+      "Pausa de canvi d’espai; plaça real molt baixa, sense aigua que avanci la resposta.",
+      "Marge després de l’última paraula; pujada musical de dos segons, fosa i silenci final."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Ferran": "Algenib"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S039": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S039",
+    "reviewContent": "content/propostes/tanda2/cinque.js",
+    "format": "5è avançada: interpretar un recompte explícit, distingir usos de persones i separar una prova temporal d’una decisió d’ampliació. Vuit preguntes sense càlcul numèric.",
+    "cues": [
+      "Capçalera proposada i ambient real de vestíbul que baixa abans de les dades. No afegir altres veus intel·ligibles.",
+      "L’ambient d’entrevista es fon abans del resum final de la periodista.",
+      "Final complet de la veu, marge i sintonia informativa amb fosa i cua de silenci."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mar": "Erinome",
+      "Pau": "Charon"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S040": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S040",
+    "reviewContent": "content/propostes/tanda2/sise.js",
+    "format": "6è accessible: procés explícit, distinció entre descriure i valorar i relació de cada prova amb la seva finalitat. No es pressuposa coneixement del museu ni de descripció sonora.",
+    "cues": [
+      "Sala real molt baixa i capçalera de programa proposada. Silenci abans de la salutació.",
+      "Pausa de canvi de tema, paper enregistrat molt breu i cap so de resposta correcta.",
+      "Deixar acabar el comiat; ambient de sala amb pujada breu i fosa, després silenci."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Laia": "Leda",
+      "Nora": "Kore"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S041": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S041",
+    "reviewContent": "content/propostes/tanda2/sise.js",
+    "format": "6è accessible: procediment explicitat, referents clars i distinció entre proposar, decidir i encarregar una tasca. Nou preguntes sense fer memoritzar una llista de càrrecs.",
+    "cues": [
+      "Cadira real i papers abans de la salutació, després silenci d’aula.",
+      "Clic real de bolígraf dins una pausa, sense tapar cap nom o condició.",
+      "Deixar acabar la veu; moviment real de papers i 600 ms de silenci final."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mireia": "Aoede",
+      "Biel": "Puck"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S042": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S042",
+    "reviewContent": "content/propostes/tanda2/sise.js",
+    "format": "6è intermèdia: entendre què resumeix una mitjana i què amaga, comparar regularitat i límits d’una prova curta. Tots els càlculs s’expliciten; no cal retenir cada valor per respondre les preguntes.",
+    "cues": [
+      "Aula real breu, retirada abans de parlar. Cap tic-tac ni efecte associat als números.",
+      "Pausa curta de paper real entre el resum dels càlculs i la interpretació.",
+      "Veu completa; cadira real breu i silenci final de 600 ms."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mireia": "Aoede",
+      "Biel": "Puck"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S043": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S043",
+    "reviewContent": "content/propostes/tanda2/sise.js",
+    "format": "6è intermèdia: separar projecte, obra i record; seguir el canvi d’hipòtesi amb proves de valor diferent. Nou preguntes que no exigeixen saber llegir plànols ni conèixer el barri.",
+    "cues": [
+      "Entrada de la base «Una línia a la façana» proposada, amb paper real breu abans de la narradora.",
+      "Ambient real de carrer en una pausa de canvi d’escena; cap so d’obres ni descoberta.",
+      "Després de la veu, pujada de la base dos segons, fosa i cua completa de silenci."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Narradora": "Aoede"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S044": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S044",
+    "reviewContent": "content/propostes/tanda2/sise.js",
+    "format": "6è avançada: interpretar una mesura definida al diàleg, distingir reproduccions de persones i un retorn limitat d’una opinió de tota l’escola. Nou preguntes; no exigeix conèixer cap plataforma ni calcular percentatges.",
+    "cues": [
+      "Estudi escolar real breu i clic de botó abans de les veus. Cap efecte de notificació de mètriques.",
+      "Pausa curta de paper real. No afegir música triomfal ni un so de resposta correcta.",
+      "Veu completa i moviment real de material després de l’última paraula, amb cua de silenci."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Laia": "Leda",
+      "Biel": "Puck"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
   }
 }

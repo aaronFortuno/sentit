@@ -1,5 +1,13 @@
 # Fitxes gràfiques de personatge
 
+## Retrats fins a la cintura · 20/11/2026
+
+El repartiment recurrent es manté en **onze personatges**. Les persones convidades d’una sola comprensió no tenen fitxa ni s’afegeixen a la galeria.
+
+La Joana ja té [fitxa visual pròpia](joana-model-sheet-v1.png) i [retrat](joana-portrait-v1.webp): cabells curts de color coure, jaqueta blau verdós i bossa ocre. Els nous retrats de l’[Elies](elies-portrait-v2.webp) i l’[Ona](ona-portrait-v2.webp) conserven els models existents i mostren cap, mans i cintura, centrats en una postura natural. Són il·lustracions noves, no ampliacions dels retalls anteriors; les versions antigues es conserven.
+
+Generació d’imatges integrada, tinta i aquarel·la sobre blanc. Originals PNG conservats i còpies WebP a qualitat 88, sense canviar la composició. [Prompts exactes i referències](portraits-v2.prompts.json). Cap petició de síntesi de veu.
+
 ## Elies i Ona · 20/11/2026
 
 Afegides les fitxes [Elies](elies-model-sheet-v1.png) i [Ona](ona-model-sheet-v1.png), amb previsualitzacions WebP i retrats derivats de l’estudi frontal del mateix full. Generació integrada `image_gen`; tinta i aquarel·la, 1536 × 1024. Els retrats són retalls tècnics del model, sense redibuix. [Prompts i referències d’estil](../images/publication-scenes-v1.prompts.json). Elies conserva Algieba i Ona, Sulafat; no s’ha modificat cap veu.

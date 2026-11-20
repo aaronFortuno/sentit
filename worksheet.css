@@ -301,3 +301,6 @@
     -webkit-print-color-adjust: exact;
   }
 }
+
+/* Viewing comfort only: printed and exported sheets retain white paper. */
+@media screen { [data-theme="dark"] .paper { background-color: #fff3e3; transition: background-color var(--motion); } }

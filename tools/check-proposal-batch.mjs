@@ -1,14 +1,15 @@
 import assert from 'node:assert/strict';
 import { createRequire } from 'node:module';
 import { activities } from '../catalogue.js';
-import { proposedActivities, proposedVariants } from '../content/propostes/index.js';
+import { proposedActivities, proposedVariants, firstBatchActivities, secondBatchActivities } from '../content/propostes/index.js';
+import { universes, universesForActivity } from '../content/universes.js';
 import { charactersForActivity } from '../content/characters.js';
 import { buildEvidence } from '../evidence.js';
 const require=createRequire(import.meta.url);
 const plans=require('../content/production-plans.json');
 const { productionSpec, packedProposalRequests }=require('./proposal-plan.cjs');
 const { assertProductionApproved }=require('./production-approval.cjs');
-const base=activities.filter(entry=>/^S\d{3}$/.test(entry.code));
+const base=activities.filter(entry=>/^S\d{3}$/.test(entry.code)&&Number(entry.code.slice(1))<=24);
 assert.equal(base.length,24);
 assert.deepEqual(base.map(entry=>entry.code),Array.from({length:24},(_,i)=>'S'+String(i+1).padStart(3,'0')));
 for(const grade of ['3','4','5','6']){
@@ -16,7 +17,10 @@ for(const grade of ['3','4','5','6']){
  for(const level of ['easy','middle','advanced'])assert(set.some(entry=>entry.level===level),grade+' has coverage of '+level);
  assert.equal(new Set(set.map(entry=>entry.genre)).size,6);
 }
-assert.equal(proposedActivities.length,19);
+assert.equal(firstBatchActivities.length,19);
+assert.equal(proposedActivities.length,19+secondBatchActivities.length);
+for(const grade of ['3','4','5','6']){const next=secondBatchActivities.filter(e=>e.grade===grade);assert([0,5].includes(next.length),'Publish complete reviewed groups');if(next.length)assert.deepEqual(['easy','middle','advanced'].map(level=>next.filter(e=>e.level===level).length),[2,2,1]);}
+for(const entry of secondBatchActivities){assert.equal(entry.reviewStatus,'pending');assert.equal(entry.audio,null);assert.equal(entry.questions.length,Number(entry.grade)+3);assert(entry.universeIds?.length);for(const id of entry.universeIds)assert(universes.some(u=>u.id===id));assert(universesForActivity(entry).length>0);assert(plans[entry.code]?.reviewContent?.startsWith('content/propostes/tanda2/'));}
 assert.equal(activities.find(entry=>entry.code==='S011').level,'advanced','Teacher calibration: S011 is 4t avançada');
 let questions=0;
 for(const entry of [...proposedActivities,...proposedVariants]){

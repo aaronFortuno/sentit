@@ -8,6 +8,7 @@ import { universes, universeName, universesForActivity, matchesUniverse } from '
 import { reviewCaption, hasPendingSynthesisEdit } from './editorial-review.js';
 import { track, countBucket } from './analytics.js';
 import { productionStage, productionStages, pendingProductionStages } from './production-stage.js';
+import { syncSelects } from './select-menu.js';
 
 const normalise = value => value.toLocaleLowerCase().normalize('NFD').replace(/\p{M}/gu, '');
 const activeKey = 'sentit.collection.active.v1';
@@ -115,6 +116,8 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
     universeSelect.replaceChildren(new Option(t('all'), ''), ...universes.map(universe => new Option(universeName(universe, locale()), universe.id)), new Option(t('independentActivities'), 'independent'));
     universeSelect.value = savedUniverse;
     renderCharacterFilter();
+    syncSelects(byId('filters'));
+    syncSelects(byId('collection-panel'));
   }
 
   function renderCharacterFilter() {

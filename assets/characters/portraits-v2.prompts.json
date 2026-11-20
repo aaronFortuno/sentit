@@ -1,0 +1,37 @@
+{
+  "generatedAt": "2026-11-20",
+  "method": "Built-in image generation; references preserve existing identities, centered natural waist-up portraits. No TTS requests.",
+  "jobs": [
+    {
+      "id": "elies-portrait-v2",
+      "refs": [
+        "C:/Users/afortun8/Desktop/Projects/Escola/sentit/assets/characters/elies-model-sheet-v1.webp",
+        "C:/Users/afortun8/Desktop/Projects/Escola/sentit/assets/characters/mireia-portrait-v1.webp"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE square 1:1 editorial portrait for Sentit. Image 1 is the IDENTITY reference for Elies: adult man around 45, warm medium brown skin, short tightly curly dark hair with grey temples, short dark beard, no glasses, slate blue-grey shirt with rolled sleeves and brown work apron. Preserve his exact recognizable face, age, hairstyle, skin and clothes. Image 2 is COMPOSITION AND ART STYLE ONLY, not the same person: match its centered, generous waist-up framing, fine ink and soft watercolor on white paper. Elies alone, standing naturally, looking directly at viewer with a gentle relaxed smile, shoulders relaxed, hands loosely resting together at his waist. Full head, both elbows, both hands, waist and top of hips clearly visible inside the square, small white margin below the waist; no body part cut by the sides. Head occupies about 25 percent of the image height, not a headshot. Symmetric centered placement, pure calm white background, no props, no tools, no setting, no labels, no text, no logo, no watermark. One single figure, not a model sheet."
+    },
+    {
+      "id": "ona-portrait-v2",
+      "refs": [
+        "C:/Users/afortun8/Desktop/Projects/Escola/sentit/assets/characters/ona-model-sheet-v1.webp",
+        "C:/Users/afortun8/Desktop/Projects/Escola/sentit/assets/characters/mireia-portrait-v1.webp"
+      ],
+      "prompt": "Use case: identity-preserve. Create ONE square 1:1 editorial portrait for Sentit. Image 1 is the IDENTITY reference for Ona: adult woman around 35, warm brown skin, black tightly curly hair tied in a low bun, no glasses, no freckles or earrings, cream double-breasted chef jacket with rolled sleeves, terracotta apron. Preserve her exact recognizable face, age, hairstyle, skin tone and clothes from image 1. Image 2 is COMPOSITION AND ART STYLE ONLY: match its centered generous waist-up framing, fine ink and soft watercolor on white paper; do not copy Mireia's face. Ona alone, standing naturally, directly meeting the viewer with a warm relaxed smile, shoulders at a subtle relaxed angle, arms relaxed and hands loosely together at her waist. Full head, both elbows, both hands, waist and top of hips clearly visible inside the square, with a small white margin below waist; no body cut at sides. Head about 25 percent of the image height, not a headshot. Centered balanced placement, calm white background, no props, no food, no setting, no labels, no text, no logo, no watermark. One single figure, not a model sheet."
+    },
+    {
+      "id": "joana-model-sheet-v1",
+      "refs": [
+        "C:/Users/afortun8/Desktop/Projects/Escola/sentit/assets/characters/mireia-portrait-v1.webp"
+      ],
+      "prompt": "Use case: illustration-story. Create the canonical character model sheet of a NEW DISTINCT recurring character in Sentit, JOANA, an approachable female postal worker aged about 40. Reference image gives ONLY the established fine ink and soft watercolor storybook style on white paper. Do NOT reuse that woman's face, hairstyle or clothing. Joana has fair warm skin, an oval face with a softly squared jaw, hazel eyes, short copper/auburn slightly wavy pixie-bob hair tucked behind ears, no glasses, no freckles, small plain stud earrings. She wears a muted teal-blue lightweight zip work jacket, a pale cream T-shirt, dark charcoal trousers, comfortable brown walking shoes, and a plain muted ochre crossbody postal satchel. No official postal logo or branding. Friendly, practical, calm, capable. Model sheet on landscape 3:2 white canvas: top row four evenly spaced full-body figures of THE SAME woman (front, side profile, back, relaxed three-quarter pose looking toward viewer with natural gentle smile); bottom row three clear head-and-shoulder facial views (front calm, profile, three-quarter friendly smile). All views must preserve exact face, build, hair and outfit consistently. Fine expressive linework, soft restrained watercolor textures matching reference, not photorealism. White background, no setting, no letters, no typography, no labels, no name, no watermark. Clear spaces between all figures; feet and hair must not be clipped."
+    },
+    {
+      "id": "joana-portrait-v1",
+      "refs": [
+        "C:/Users/afortun8/Desktop/Projects/Escola/sentit/assets/characters/joana-model-sheet-v1.png",
+        "C:/Users/afortun8/Desktop/Projects/Escola/sentit/assets/characters/mireia-portrait-v1.webp"
+      ],
+      "prompt": "Use case: identity-preserve. ONE square 1:1 editorial portrait of Joana for Sentit. Image 1 is the exact IDENTITY reference: preserve this adult female postal worker around 40, fair warm skin, hazel eyes, short copper/auburn wavy pixie-bob tucked behind ears, oval face and softly squared jaw, small stud earrings, muted teal-blue zip work jacket over cream shirt, charcoal trousers and plain ochre crossbody satchel. Image 2 gives only COMPOSITION and watercolor/ink STYLE, not identity: match its centered generous waist-up framing with waist and upper hips visible. Joana stands relaxed looking straight at viewer with a natural welcoming smile, head upright, shoulders relaxed, one hand resting lightly on satchel strap at waist level and the other relaxed near the waist. Full head, both elbows, both hands and the waist inside the square; little white space below waist, no side cropping. Her head is about 25 percent of canvas height, not a close-up. Match exact gentle ink lines, restrained watercolor paper texture, white background and balanced centered placement. One single woman, not multiple views, no setting, no text, no name, no logo, no official postal branding, no watermark. Do not copy Mireia's face or hair."
+    }
+  ]
+}

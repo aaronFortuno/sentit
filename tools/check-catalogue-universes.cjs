@@ -19,21 +19,22 @@ const base='http://127.0.0.1:4258/',key='sentit.catalogue.show-provisional.v1';
   assert.equal(await page.locator('.catalog #catalog-count').count(),0);
   const codes=async()=>{for(let i=0;i<4;i++){const before=await page.locator('.activity-card').count();await page.locator('.catalog-results-scroll').evaluate(n=>{n.scrollTop=n.scrollHeight;n.dispatchEvent(new Event('scroll'));});await page.evaluate(()=>new Promise(requestAnimationFrame));if(await page.locator('.activity-card').count()===before)break;}return (await page.locator('.activity-card-code').allTextContents()).map(s=>s.split(' · ')[0]).sort();};
   assert.deepEqual(await codes(),draftCodes);assert.equal(await page.locator('label:has(#genre) > span').innerText(),'Tipologia textual');
-  for(const u of universes){await page.locator('#universe').selectOption(u.id);assert.deepEqual(await codes(),drafts.filter(e=>matchesUniverse(e,u.id)).map(e=>e.code).sort());}
-  await page.locator('#universe').selectOption('aina-ferran');await page.locator('#search').fill('S022');
-  assert.match(await page.locator('.activity-universe').innerText(),/Aina/);await page.locator('.activity-card').click();await page.locator('#workspace').waitFor({state:'visible'});assert.match(await page.locator('#activity-meta').innerText(),/Aina/);await page.locator('#back-catalog').click();
+  for(const u of universes){await page.locator('#universe').selectOption(u.id, {force:true});assert.deepEqual(await codes(),drafts.filter(e=>matchesUniverse(e,u.id)).map(e=>e.code).sort());}
+  await page.locator('#universe').selectOption('aina-ferran', {force:true});await page.locator('#search').fill('S022');
+  assert.match(await page.locator('.activity-universe').innerText(),/Ferran/);await page.locator('.activity-card').click();await page.locator('#workspace').waitFor({state:'visible'});assert.match(await page.locator('#activity-meta').innerText(),/Ferran/);await page.locator('#back-catalog').click();
   await page.locator('#reset-filters').click();
   const saved=await page.evaluate(()=>{const saved=JSON.stringify([{id:'universe-qa',name:'Mostra',readingIds:['el-senyal-de-la-radio','el-paraigua-intercanviat'],layouts:{}}]);localStorage.setItem('sentit.collections.v1',saved);return saved;});
   await toggle.uncheck();assert.deepEqual(await codes(),readyCodes);assert.equal(await page.evaluate(key=>localStorage.getItem(key),key),'false');
   await page.locator('#reset-filters').click();assert.equal(await toggle.isChecked(),false);assert.deepEqual(await codes(),readyCodes);
   await page.reload();await page.locator('.activity-card').first().waitFor();assert.equal(await toggle.isChecked(),false);assert.deepEqual(await codes(),readyCodes);
   assert.equal(await page.evaluate(()=>localStorage.getItem('sentit.collections.v1')),saved);
-  await page.locator('#universe').selectOption('aina-ferran');const readyAina=ready.filter(e=>matchesUniverse(e,'aina-ferran')).map(e=>e.code).sort();assert.deepEqual(await codes(),readyAina);assert.equal(await page.locator('#catalog-empty').isVisible(),readyAina.length===0);
+  await page.locator('#universe').selectOption('aina-ferran', {force:true});const readyAina=ready.filter(e=>matchesUniverse(e,'aina-ferran')).map(e=>e.code).sort();assert.deepEqual(await codes(),readyAina);assert.equal(await page.locator('#catalog-empty').isVisible(),readyAina.length===0);
   const other=await context.newPage();await other.goto(base);await other.locator('.activity-card').first().waitFor();assert.equal(await other.locator('#show-provisional').isChecked(),false);
   await toggle.check();await other.waitForFunction(()=>document.querySelector('#show-provisional').checked);await page.locator('#reset-filters').click();assert.deepEqual(await codes(),draftCodes);
   await other.waitForFunction(()=>[...document.querySelectorAll('.activity-card')].every(n=>n.classList.contains('is-review-pending')));
   await page.locator('#language').evaluate(n=>{n.value='es';n.dispatchEvent(new Event('change',{bubbles:true}));});assert.match(await page.locator('#catalog-count').innerText(),new RegExp(ready.length+' comprensiones orales para tu aula'));
-  assert.match(await page.locator('#universe').innerText(),/Las explicaciones y los proyectos de Mireia/);assert.equal(await toggle.isChecked(),true);
+  assert.match(await page.locator('#universe').innerText(),/En clase con Mireia/);assert.equal(await toggle.isChecked(),true);
+  assert.equal(await page.locator('#universe option[value="independent"]').innerText(),'[Sin universo]');
   assert.equal(await page.locator('label:has(#genre) > span').innerText(),'Tipología textual');
   await page.screenshot({path:path.join(out,'desktop.png')});
   for(const width of [900,640,320]){await page.setViewportSize({width,height:800});assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);const count=await page.locator('#catalog-count').boundingBox(),brand=await page.locator('.brand').boundingBox(),actions=await page.locator('.top-actions').boundingBox();assert(count.x+count.width<=actions.x||count.y>=actions.y+actions.height);assert(count.y>=brand.y);}

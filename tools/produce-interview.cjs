@@ -21,7 +21,8 @@ async function main(){
   if(!process.argv.includes('--synthesize'))return;
   assertProductionApproved(entry,spec,plans.S015);
   if(cached){console.log('Presa completa conservada: cap petició nova.');return;}
-  assertQuota(await readJSON(path.join(work,'last-api-error.json'),null));
+  require('./audio-batch-policy.cjs').assertSynthesisWindow(body);
+ assertQuota(await readJSON(path.join(work,'last-api-error.json'),null));
   await fs.mkdir(folder,{recursive:true});
   const attemptFile=path.join(folder,'attempt-'+hash.slice(0,12)+'.json');
   if(await readJSON(attemptFile,null))throw Error('Intent previ sense WAV complet. Cal revisar-lo abans de repetir cap petició.');
@@ -30,7 +31,7 @@ async function main(){
   const attempt={code:entry.code,requestHash:hash,approval:plan.fingerprint,startedAt:new Date().toISOString(),state:'in-flight',maxRequests:1};
   try{
     await fs.writeFile(path.join(folder,'approved-input.json'),JSON.stringify({entry,spec,plan:plans.S015},null,2));
-    await reserveRequest(work,{code:entry.code,purpose:'title-and-whole-interview',hash,model:body.model});
+    await reserveRequest(work,{code:entry.code,purpose:'title-and-whole-interview',hash,model:body.model},body);
     await fs.writeFile(attemptFile,JSON.stringify(attempt,null,2));
     await fs.writeFile(raw.replace('.wav','.request.json'),JSON.stringify(body,null,2));
     const audio=await geminiAudio(body,path.join(folder,'provider-usage-packed.json'));

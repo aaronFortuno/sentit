@@ -33,12 +33,13 @@ async function main(){
  if(built.fragments.some(f=>Date.now()<Date.parse(f.notBefore)))throw Error('Esperar el restabliment; cap petició enviada.');
  const {isEditoriallyReviewed}=await import('../editorial-review.js'),{assertProductionApproved}=require('./production-approval.cjs'),production=await readJSON(path.join(root,'content/production-plans.json'),{});
  for(const code of new Set(built.fragments.map(f=>f.code))){const entry=activities.find(e=>e.code===code);if(!isEditoriallyReviewed(entry))throw Error('Revisió editorial caducada.');assertProductionApproved(entry,repairSpec(entry),production[code]);}
+ require('./audio-batch-policy.cjs').assertSynthesisWindow(built.body);
  assertQuota(await readJSON(path.join(work,'last-api-error.json'),null));assertDailyRoom(await readJSON(path.join(work,'request-log.json'),[]));
  await fs.mkdir(folder,{recursive:true});const attemptFile=raw.replace('.wav','.attempt.json');if(await readJSON(attemptFile,null))throw Error('Intent anterior incert; revisar abans de repetir.');
  const lock=path.join(work,'production.lock'),handle=await fs.open(lock,'wx'),attempt={batch:id,requestHash:built.requestHash,state:'in-flight',startedAt:new Date().toISOString()};
  try{
   await handle.writeFile(JSON.stringify({pid:process.pid,batch:id,purpose:'batched-pronunciation-repair'}));assertDailyRoom(await readJSON(path.join(work,'request-log.json'),[]));
-  await reserveRequest(work,{code:id,purpose:'batched-pronunciation-repair',hash:built.requestHash,model:built.body.model});
+  await reserveRequest(work,{code:id,purpose:'batched-pronunciation-repair',hash:built.requestHash,model:built.body.model},built.body);
   await fs.writeFile(attemptFile,JSON.stringify(attempt,null,2));await fs.writeFile(raw.replace('.wav','.request.json'),JSON.stringify(built.body,null,2));
   const audio=await require('./generate-prototypes.cjs').geminiAudio(built.body,raw.replace('.wav','.usage.json'));checkWave(audio);await fs.writeFile(raw+'.part',audio);await fs.rename(raw+'.part',raw);
   attempt.state='complete-awaiting-listening';attempt.rawSha256=hash(audio);attempt.completedAt=new Date().toISOString();

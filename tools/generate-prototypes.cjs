@@ -12,6 +12,7 @@ const productionPlans = require('../content/production-plans.json');
 const { fingerprint, assertProductionApproved } = require('./production-approval.cjs');
 const outputDirectory = path.resolve(__dirname, '../../output/sentit-primera-tanda');
 async function geminiAudio(body, summaryFile) {
+  require('./audio-batch-policy.cjs').assertSynthesisWindow(body);
   const key = process.env.GEMINI_API_KEY?.trim() || parseEnv(await fs.readFile(path.resolve(__dirname, '../../.private/comprensio-oral/gemini.env'), 'utf8')).GEMINI_API_KEY?.trim();
   if (!key) throw Error('Gemini: falta configuració privada.');
   let response;
@@ -140,7 +141,7 @@ async function main() {
         let audio;
         for (let attempt = 0; attempt < 2; attempt++) {
           try {
-            await reserveRequest(outputDirectory, {code:entry.code,purpose:name,hash,model:body.model});
+            await reserveRequest(outputDirectory, {code:entry.code,purpose:name,hash,model:body.model},body);
             audio = await geminiAudio(body); break;
           }
           catch (error) {

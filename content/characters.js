@@ -93,15 +93,15 @@ export const characters = [
     appearances: [{ code: 'ca-S008', kind: 'narrated' }],
   },
   {
-    id: 'joana', name: 'Joana', role: 'Cartera · recorreguts i missatges', age: 'Adulta, entorn dels 40 anys', visualStatus: 'pending',
+    id: 'joana', name: 'Joana', role: 'Cartera · recorreguts i missatges', age: 'Adulta, entorn dels 40 anys', visualStatus: 'ready',
     voice: { id: 'Vindemiatrix', status: 'candidate' },
-    look: 'Disseny visual pendent: retrat i fitxa propis, sense reutilitzar la identitat d’un altre personatge.',
+    look: 'Pell clara càlida, cabells curts ondulats de color coure, ulls avellana i arracades petites de botó. Jaqueta blau verdós sobre samarreta clara, pantalons foscos i bossa de cartera ocre en bandolera.',
     personality: 'Metòdica i propera. Comprova les dades i sap adaptar-se als imprevistos.',
     interests: 'La vida del barri, les cartes, els recorreguts i els petits detalls que ajuden a orientar-se.',
     delivery: 'Adulta, clara i tranquil·la. Proposta pendent d’audició en català.', appearances: [],
   },
   {
-    id: 'elies', name: 'Elies', role: 'Lutier · instruments i escolta', age: 'Adult, entorn dels 45 anys', visualStatus: 'ready',
+    id: 'elies', name: 'Elies', role: 'Lutier · instruments i escolta', age: 'Adult, entorn dels 45 anys', visualStatus: 'ready', portraitVersion: 2,
     voice: { id: 'Algieba', status: 'heard' },
     look: 'Pell de to mitjà càlid, cabells negres curts i arrissats amb alguns grisos a les temples, barba fosca curta i sense ulleres. Camisa blau grisós amb mànigues arromangades i davantal marró.',
     personality: 'Pacient i precís. Desconfia de les solucions ràpides abans d’entendre el problema.',
@@ -109,7 +109,7 @@ export const characters = [
     delivery: 'Adulta i propera, sense to solemne. Proposta pendent d’audició en català.', appearances: [],
   },
   {
-    id: 'ona', name: 'Ona', role: 'Cuinera · organització i aprofitament', age: 'Adulta, entorn dels 35 anys', visualStatus: 'ready',
+    id: 'ona', name: 'Ona', role: 'Cuinera · organització i aprofitament', age: 'Adulta, entorn dels 35 anys', visualStatus: 'ready', portraitVersion: 2,
     voice: { id: 'Sulafat', status: 'heard' },
     look: 'Pell fosca, cabells negres molt arrissats recollits en un monyo baix, sense ulleres ni pigues. Jaqueta de cuina clara i davantal terracota.',
     personality: 'Pràctica i acollidora. Explica les decisions amb exemples i admet que cal ajustar les previsions.',
@@ -120,7 +120,7 @@ export const characters = [
   appearances: [...character.appearances, ...[...proposedActivities,...proposedVariants].flatMap(entry => Object.entries(entry.production.voices).filter(([speaker]) => speaker === character.name).map(([speaker, voice]) => ({ code: `ca-${entry.code}`, speaker, kind: 'direct', currentVoice: voice, note: entry.reviewStatus==='validated'?'Guió i àudio validats; publicació definitiva.':entry.audio?'Guió validat; àudio pendent d’audició.':'Repartiment proposat; guió i àudio pendents de validar.' })))],
   modelSheet: character.visualStatus === 'pending' ? null : `./assets/characters/${character.id}-model-sheet-v1.png`,
   previewSheet: character.visualStatus === 'pending' ? null : `./assets/characters/${character.id}-model-sheet-v1.webp`,
-  portrait: character.visualStatus === 'pending' ? null : `./assets/characters/${character.id}-portrait-v1.webp`,
+  portrait: character.visualStatus === 'pending' ? null : `./assets/characters/${character.id}-portrait-v${character.portraitVersion ?? 1}.webp`,
   introduction: { text: introductions[character.id], language: 'ca', audio: null },
 }));
 
