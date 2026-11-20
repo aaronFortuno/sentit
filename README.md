@@ -15,7 +15,7 @@ Els 24 codis base, ca-S001–ca-S024, tenen guió, preguntes i solucionari. S004
 - **Síntesi pendent d’esmena:** S005, S010, S013, S015, S016, S022 i S023. Nou frases curtes agrupades en quatre peticions de com a màxim dues veus, encara sense enviar ni aplicar. [Incidències i reparacions](docs/pronunciacio-tts.md).
 - **Veus pendents amb guió validat:** S006, S011 i S021, quatre peticions previstes en total. El 20/11 ja consten deu peticions diàries; no se n’envien més abans del següent restabliment.
 
-La capçalera compta només activitats sense revisió pendent. «Provisionals · experimental», al footer, mostra o amaga guions i àudios en revisió i recorda la preferència local. Les cards distingeixen guió, veus, muntatge pendent d’audició i síntesi pendent d’esmena. Quan s’apliquen totes les correccions de veu, tornen a «Àudio pendent de validar»; rebre una prova crua no completa aquest pas.
+La capçalera compta només activitats sense revisió pendent. «Només provisionals · experimental», al footer, alterna entre exclusivament guions i àudios en revisió (activat) i materials disponibles (desactivat), i recorda la preferència local. Les cards distingeixen guió, veus, muntatge pendent d’audició i síntesi pendent d’esmena. Quan s’apliquen totes les correccions de veu, tornen a «Àudio pendent de validar»; rebre una prova crua no completa aquest pas.
 
 ## Agrupar lectures i correccions
 
@@ -193,7 +193,7 @@ Les comprovacions del so són `node tools/check-sound.cjs` (regles, aprovació, 
 
 Quatre universos editorials amb filtre combinable i etiquetes a les cards i a la fitxa: Les descobertes de la Laia i en Biel, Els records i misteris de l’Aina i l’avi Ferran, Les explicacions i els projectes de la Mireia i Les notícies de la Mar. Les peces són autònomes i poden tenir més d’un vincle. [Criteris i assignacions](docs/univers-editorial.md).
 
-El control «Mostra els provisionals» està activat inicialment i recorda la preferència del navegador; inclou guions i àudios pendents de validar. La capçalera compta només els materials sense revisió pendent. No s’alteren col·leccions ni enllaços directes.
+El control «Només provisionals» està activat inicialment i recorda la preferència del navegador: activat mostra només guions i àudios pendents de validar; desactivat mostra només materials disponibles. La capçalera compta només els materials sense revisió pendent. No s’alteren col·leccions ni enllaços directes.
 
 
 

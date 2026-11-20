@@ -31,6 +31,6 @@ Les col·leccions són biblioteques personals del docent, desades al navegador: 
 
 ## Visibilitat dels provisionals
 
-El control **Mostra els provisionals** inclou o exclou tant els guions en revisió com els àudios pendents de validar. Per defecte està activat; cada navegador conserva la preferència a `sentit.catalogue.show-provisional.v1`. Es pot canviar el valor inicial a `defaultShowProvisional` de catalog.js quan el catàleg consolidat sigui més ampli. Netejar filtres no canvia aquesta preferència.
+El control **Només provisionals**, activat, mostra exclusivament els guions en revisió i els àudios pendents de validar. Desactivat, mostra només els materials disponibles. Per defecte està activat; cada navegador conserva la preferència a `sentit.catalogue.show-provisional.v1`. Es pot canviar el valor inicial a `defaultShowProvisional` de catalog.js quan el catàleg consolidat sigui més ampli. Netejar filtres no canvia aquesta preferència.
 
 La capçalera compta només els materials amb àudio i sense marca de revisió pendent: ara en són dos. La xifra és global i no es confon amb resultats seleccionats o amb el botó de netejar. No modifica retrospectivament el registre formal de validació dels prototips. Els enllaços directes continuen funcionant; aquest control és una preferència de descoberta, no una restricció d’accés.
