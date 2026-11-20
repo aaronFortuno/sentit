@@ -1,0 +1,4 @@
+interface:
+  display_name: "Revisió de coherència didàctica"
+  short_description: "Lògica i plausibilitat de guions, lectures i preguntes"
+  default_prompt: "Aplica $revisio-coherencia-didactica per revisar independentment aquestes propostes abans de la validació docent."

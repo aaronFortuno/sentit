@@ -1,6 +1,7 @@
 import { clockTime } from './session.js';
 import { buildEvidence, evidenceQuestions, evidenceSegments } from './evidence.js';
 import { isPendingReview, isAudioReview, needsReview, reviewScript } from './review.js';
+import { isEditoriallyReviewed, reviewCaption } from './editorial-review.js';
 
 export const defaultFormat = { font: 'serif', size: 12, spacing: 7, leading: 1.6 };
 
@@ -60,7 +61,7 @@ function makeHeader(entry, labels, code, answerKey, listenUrl, session) {
   if (answerKey) headerMain.append(element('p', 'paper-solution-label', labels.answers));
   headerMain.append(element('h3', null, entry.title));
   if (entry.sample) headerMain.append(element('p', 'paper-caption', labels.sample));
-  if (isPendingReview(entry)) headerMain.append(element('p', 'paper-caption paper-review-label', labels.reviewNotice));
+  if (isPendingReview(entry)) headerMain.append(element('p', 'paper-caption paper-review-label', isEditoriallyReviewed(entry) ? labels.reviewProvisionalNotice : labels.reviewInProgressNotice));
   else if (isAudioReview(entry)) headerMain.append(element('p', 'paper-caption paper-review-label', labels.audioReviewNotice));
   else if (!entry.audio) headerMain.append(element('p', 'paper-caption', labels.audioPending));
   head.append(top, titleRow);
@@ -285,7 +286,7 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
     footers.push(footer);
     page.append(content, footer);
     if (needsReview(entry)) {
-      const watermark = element('span', 'paper-review-watermark', isAudioReview(entry) ? labels.audioReview : labels.reviewPending);
+      const watermark = element('span', 'paper-review-watermark', isAudioReview(entry) ? labels.audioReview : reviewCaption(entry, labels));
       watermark.setAttribute('aria-hidden', 'true');
       page.append(watermark);
     }

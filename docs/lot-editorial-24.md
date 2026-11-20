@@ -10,6 +10,8 @@ Es pot buscar qualsevol codi al catàleg, encara que la seva targeta no sigui al
 
 La validació es pot comunicar per codi, en qualsevol ordre. Cada confirmació només aprova el guió, les veus i l’escaleta que s’han revisat; l’audició del muntatge és una fase posterior.
 
+Les 20 propostes pendents han superat la [revisió independent de coherència](revisio-coherencia.md). **Provisional** vol dir que aquesta passada està feta i que falta la validació docent. La marca està vinculada al contingut exacte; qualsevol canvi editorial requereix revalidar els elements afectats.
+
 S003 s’ha revisat amb el retorn del docent: trobada durant el canvi de classe, aclariment de per què la Laia havia agafat aquell paraigua i comiat que remet a la propera vegada, amb rialla compartida i retorn a l’aula. La pregunta final i l’escaleta segueixen aquest context. La versió revisada continua pendent de validar; no s’ha sintetitzat.
 
 ## Índex de les propostes noves
@@ -32,7 +34,7 @@ Les durades són intervals orientatius derivats del nombre de mots, un ritme nat
 | --- | --- | ---: | ---: | --- |
 | [S009 · La biblioteca canvia d’horari](https://sentit.ortogra.fi/#lectura=ca-S009) | Accessible | 277 | 6 | 1:50–2:15 |
 | [S010 · La ruta fins al pavelló](https://sentit.ortogra.fi/#lectura=ca-S010) | Intermèdia | 320 | 7 | 2:05–2:35 |
-| [S011 · Una menjadora per als ocells](https://sentit.ortogra.fi/#lectura=ca-S011) | Intermèdia | 315 | 7 | 2:05–2:30 |
+| [S011 · Una menjadora per als ocells](https://sentit.ortogra.fi/#lectura=ca-S011) | Intermèdia | 329 | 7 | 2:10–2:40 |
 | [S012 · Qui arregla els instruments?](https://sentit.ortogra.fi/#lectura=ca-S012) | Avançada | 349 | 7 | 2:15–2:50 |
 | [S013 · Com viatja una carta?](https://sentit.ortogra.fi/#lectura=ca-S013) | Avançada | 380 | 7 | 2:30–3:00 |
 
@@ -50,7 +52,7 @@ Les durades són intervals orientatius derivats del nombre de mots, un ritme nat
 | Codi i títol | Dificultat | Mots | Preguntes | Durada prevista |
 | --- | --- | ---: | ---: | --- |
 | [S019 · Una cuinera contra el malbaratament](https://sentit.ortogra.fi/#lectura=ca-S019) | Accessible | 340 | 8 | 2:05–2:35 |
-| [S020 · Com participar en el concurs de pòdcasts](https://sentit.ortogra.fi/#lectura=ca-S020) | Accessible | 365 | 8 | 2:15–2:45 |
+| [S020 · Com participar en el concurs de pòdcasts](https://sentit.ortogra.fi/#lectura=ca-S020) | Accessible | 361 | 8 | 2:15–2:40 |
 | [S021 · Per què una ciutat guarda la calor?](https://sentit.ortogra.fi/#lectura=ca-S021) | Intermèdia | 437 | 8 | 2:40–3:15 |
 | [S022 · L’últim trajecte del tramvia](https://sentit.ortogra.fi/#lectura=ca-S022) | Intermèdia | 445 | 9 | 2:45–3:15 |
 | [S024 · Tres maneres de transformar el pati](https://sentit.ortogra.fi/#lectura=ca-S024) | Avançada | 496 | 10 | 3:00–3:40 |

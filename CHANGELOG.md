@@ -1,5 +1,12 @@
 # Canvis
 
+## 0.1.31 · 20 de novembre de 2026
+
+- Pauta reutilitzable de revisió adversària: un agent independent comprova la lògica, la plausibilitat, el guió, les preguntes, el solucionari i l’escaleta abans de presentar una proposta al docent. Procés documentat també a Trama i skill instal·lat per reutilitzar-lo.
+- Revisades les 20 propostes pendents, amb 148 preguntes i 159 cites. Corregits l’accés des de dalt a la maqueta de S011 i la comprovació completa de l’arxiu de S020; els dos textos finals s’han tornat a revisar independentment.
+- «Provisional» identifica només contingut amb revisió independent superada. Una empremta de cada versió invalida automàticament la marca si canvien guió, preguntes, respostes, pistes, repartiment o muntatge. Registre final per codi i nova columna al seguiment de producció.
+- La validació docent continua pendent. Cap aprovació de síntesi ni petició nova.
+
 ## 0.1.30 · 20 de novembre de 2026
 
 - S003, «El paraigua intercanviat»: trobada al passadís durant el canvi de classe, entrada d’en Biel i arribada atrafegada de la Laia. S’aclareix que havia agafat el paraigua pensant que era el seu.

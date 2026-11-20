@@ -4,6 +4,7 @@ import { animateRefresh, closeDialog, openDialog, setDetailsOpen, setDisclosure 
 import { mountCatalogGestures } from './catalog-gestures.js';
 import { characters, matchesCharacters } from './content/characters.js';
 import { isPendingReview } from './review.js';
+import { reviewCaption } from './editorial-review.js';
 import { track, countBucket } from './analytics.js';
 
 const normalise = value => value.toLocaleLowerCase().normalize('NFD').replace(/\p{M}/gu, '');
@@ -204,7 +205,7 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
       card.append(context, footer);
       if (isPendingReview(entry)) {
         const overlay = element('span', undefined, 'activity-review-overlay');
-        const label = element('span', t('reviewPending'), 'activity-review-label');
+        const label = element('span', reviewCaption(entry, {reviewProvisional:t('reviewProvisional'),reviewInProgress:t('reviewInProgress')}), 'activity-review-label');
         label.append(element('small', t('openReview')));
         overlay.append(label);
         card.append(overlay);
