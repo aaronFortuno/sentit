@@ -114,29 +114,14 @@
   </main>
 
   <main id="workspace" class="workspace" tabindex="-1" hidden>
-    <section class="preview" aria-labelledby="preview-title">
-      <div class="preview-bar">
-        <button type="button" class="icon-button" id="back-catalog" data-label="backCatalog"><span data-icon="arrow-left" aria-hidden="true"></span></button>
-        <h2 id="preview-title" class="sr-only" data-t="preview">Previsualització</h2>
-        <div class="activity-selection">
-          <label class="activity-selector"><span class="sr-only" data-t="activity">Activitat</span><select id="activity-select"></select></label>
-          <p id="activity-meta" class="meta"></p>
-        </div>
-        <div class="mode-switch" role="group" data-label="document">
-          <button id="worksheet-mode" type="button" aria-pressed="true" data-t="worksheet">Fitxa</button>
-          <button id="answers-mode" type="button" aria-pressed="false" data-t="answers">Solucionari</button>
-        </div>
-        <button id="report-error" class="icon-button" type="button" data-label="reportError"><span data-icon="flag" aria-hidden="true"></span></button>
-      </div>
-      <div class="paper-stage">
-        <div class="paper-pages" id="paper" data-label="printKind"></div>
-        <div class="empty paper-empty" id="paper-empty" hidden data-t="chooseActivity">Tria una activitat per veure la fitxa.</div>
-      </div>
-    </section>
-
-    <aside class="pane actions" aria-labelledby="actions-title">
-      <div class="actions-header">
-        <h2 id="actions-title" data-t="audio">Àudio</h2>
+    <div class="workspace-tools" role="group" data-label="workspaceSettings">
+      <button type="button" class="panel-launcher" data-workspace-panel="audio" aria-expanded="false" aria-controls="audio-panel"><span data-icon="mic" aria-hidden="true"></span><span data-t="audio">Àudio</span><span data-icon="chevron-down" aria-hidden="true"></span></button>
+      <button type="button" class="panel-launcher" data-workspace-panel="print" aria-expanded="false" aria-controls="print-panel"><span data-icon="printer" aria-hidden="true"></span><span data-t="print">Impressió</span><span data-icon="chevron-down" aria-hidden="true"></span></button>
+    </div>
+    <div class="workspace-shade" data-close-workspace-panel aria-hidden="true"></div>
+    <aside id="audio-panel" class="pane workspace-panel audio-panel" aria-labelledby="actions-title">
+      <div class="panel-header">
+        <div class="panel-heading"><h2 id="actions-title" data-t="audio">Àudio</h2><button class="icon-button panel-close" type="button" data-close-workspace-panel data-label="closeAudioSettings"><span data-icon="close" aria-hidden="true"></span></button></div>
         <div class="listening-actions">
           <a class="button" id="open-player" data-t="openPlayer" hidden>Obre la vista d’escolta</a>
           <button class="icon-button" id="copy-link" type="button" data-label="copyLink" hidden><span data-icon="copy" aria-hidden="true"></span></button>
@@ -144,10 +129,7 @@
         <input id="copy-fallback" type="text" readonly data-label="listeningLink" hidden>
         <p class="inline-status" id="copy-status" role="status"></p>
       </div>
-      <div class="actions-settings" id="actions-settings">
-        <button type="button" id="settings-toggle" aria-expanded="true" aria-controls="settings-scroll" data-t="audioAndPrint">Àudio i impressió</button>
-        <div class="actions-scroll" id="settings-scroll">
-        <section class="audio-section" aria-labelledby="audio-options-title">
+      <div class="panel-scroll" id="audio-scroll"><section class="audio-section" aria-labelledby="audio-options-title">
           <h3 id="audio-options-title" class="sr-only" data-t="audio">Àudio</h3>
           <div id="audio-actions" hidden>
             <form id="session-editor" autocomplete="off" hidden>
@@ -173,9 +155,33 @@
           <p id="audio-empty" class="empty" data-t="noAudio">Tria una activitat per escoltar-la.</p>
           <details class="audio-sources"><summary data-t="audioSources">Fonts i crèdits sonors</summary><div id="audio-resources"></div></details>
           <details id="generation-plan" class="generation-plan" open hidden><summary data-t="generationTitle">Talls per a Gemini</summary><div class="generation-plan-content"></div></details>
-        </section>
-        <section class="format-section" id="worksheet-editor" hidden>
-          <h2 data-t="print">Impressió</h2>
+        </section></div>
+    </aside>
+
+    <section class="preview" aria-labelledby="preview-title">
+      <div class="preview-bar">
+        <button type="button" class="icon-button" id="back-catalog" data-label="backCatalog"><span data-icon="arrow-left" aria-hidden="true"></span></button>
+        <h2 id="preview-title" class="sr-only" data-t="preview">Previsualització</h2>
+        <div class="activity-selection">
+          <label class="activity-selector"><span class="sr-only" data-t="activity">Activitat</span><select id="activity-select"></select></label>
+          <p id="activity-meta" class="meta"></p>
+        </div>
+        <div class="mode-switch" role="group" data-label="document">
+          <button id="worksheet-mode" type="button" aria-pressed="true" data-t="worksheet">Fitxa</button>
+          <button id="answers-mode" type="button" aria-pressed="false" data-t="answers">Solucionari</button>
+        </div>
+        <button id="report-error" class="icon-button" type="button" data-label="reportError"><span data-icon="flag" aria-hidden="true"></span></button>
+      </div>
+      <div class="paper-stage">
+        <div class="paper-pages" id="paper" data-label="printKind"></div>
+        <div class="empty paper-empty" id="paper-empty" hidden data-t="chooseActivity">Tria una activitat per veure la fitxa.</div>
+      </div>
+    </section>
+
+    <aside id="print-panel" class="pane workspace-panel print-panel" aria-labelledby="print-panel-title">
+      <div class="panel-header"><div class="panel-heading"><h2 id="print-panel-title" data-t="print">Impressió</h2><button class="icon-button panel-close" type="button" data-close-workspace-panel data-label="closePrintSettings"><span data-icon="close" aria-hidden="true"></span></button></div></div>
+      <div class="panel-scroll" id="print-scroll"><section class="format-section" id="worksheet-editor" hidden>
+
           <details id="format-panel" open>
             <summary data-t="sheetFormat">Format del full</summary>
             <form id="worksheet-format" autocomplete="off">
@@ -209,10 +215,8 @@
             <ul id="hidden-questions"></ul>
             <button type="button" class="subtle" id="restore-all" data-t="restoreAll">Recupera-les totes</button>
           </details>
-        </section>
-        </div>
-      </div>
-      <div class="actions-footer">
+        </section></div>
+      <div class="panel-footer">
         <button id="print" class="button primary" type="button" disabled>
           <span data-icon="printer" aria-hidden="true"></span><span id="print-label">Imprimeix la fitxa</span>
         </button>
@@ -244,7 +248,7 @@
       <nav aria-label="Projecte" data-label="project">
         <label class="provisional-option footer-provisional" title="Funció experimental"><input id="show-provisional" type="checkbox" role="switch" checked><span data-t="showProvisionalExperimental">Provisionals · experimental</span></label>
         <a href="./LICENSE" data-t="license">Llicència</a>
-        <button type="button" data-open="changes" data-label="changes">v0.1.44</button>
+        <button type="button" data-open="changes" data-label="changes">v0.1.45</button>
         <button type="button" data-open="v4v">V4V</button>
       </nav>
     </div>
@@ -287,6 +291,8 @@
       </div>
       <a class="changelog-full" href="https://github.com/aaronFortuno/sentit/blob/main/CHANGELOG.md" target="_blank" rel="noopener noreferrer" data-t="fullChangelog">Changelog complet a GitHub</a>
       <div class="changelog-scroll dialog-scroll">
+      <h3>0.1.45 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
+      <p data-t="releaseWorkspacePanels"></p>
       <h3>0.1.44 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
       <p data-t="releaseSoundReview"></p>
       <h3>0.1.43 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>

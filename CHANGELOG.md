@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.45 · 20 de novembre de 2026
+
+- Editor amb dos panells independents: Àudio a l’esquerra, Impressió a la dreta i preview al centre. Cada panell conserva el seu propi scroll discret; l’accés a escolta queda fix a dalt i el d’impressió, a baix.
+- Per sota de 1.200 px, controls Àudio/Impressió obren panells sobre el preview, exclusius i animats a 220 ms. Tancament amb la creu, clic fora o Escape, amb retorn del focus. Footer visible i cap apilament dels panells sota el full.
+- Eliminada l’antiga secció conjunta d’ajustos i els seus límits de scroll compartit. Configuracions d’àudio, QR, maquetació, imatges i preguntes conservades.
+
 ## 0.1.44 · 20 de novembre de 2026
 
 - V4V en quatre zones: suport, autor, privadesa i codi/recursos; més amplada i tipografia uniforme. Changelog ampliat i compacte, amb enllaç al document complet de GitHub. Scroll intern propi als dos quadres.

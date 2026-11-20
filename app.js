@@ -15,6 +15,7 @@ import { universeName, universesForActivity } from './content/universes.js';
 import { animateRefresh, mountDetails, mountDialogs, openDialog, closeDialog, scrollToTarget, setDetailsOpen, setDisclosure } from './motion.js';
 import { mountCharacterExplorer } from './character-explorer.js';
 import { mountLanguageMenu } from './language-menu.js';
+import { mountWorkspacePanels } from './workspace-panels.js';
 import { mottos, nextMotto } from './mottos.js';
 
 const byId = id => document.getElementById(id);
@@ -690,19 +691,12 @@ if (listenId === null) {
   byId('player').hidden = false;
   document.querySelector('.skip').href = '#player';
 }
-const mobileLayout = matchMedia('(max-width: 640px)');
 mountDetails();
 mountDialogs();
+mountWorkspacePanels(byId('workspace'));
 const compactCatalog = matchMedia('(max-width: 640px)');
-function toggleSettings(open) {
-  byId('settings-toggle').setAttribute('aria-expanded', String(open));
-  setDisclosure(byId('settings-scroll'), open);
-}
-toggleSettings(!mobileLayout.matches);
 setDetailsOpen(byId('filter-panel'), !compactCatalog.matches || catalog.hasCharacterFilter(), { animated: false });
 if (catalog.hasCharacterFilter()) setDetailsOpen(byId('character-filter'), true, { animated: false });
-byId('settings-toggle').addEventListener('click', () => toggleSettings(byId('settings-toggle').getAttribute('aria-expanded') !== 'true'));
-mobileLayout.addEventListener('change', event => { toggleSettings(!event.matches); });
 compactCatalog.addEventListener('change', event => { setDetailsOpen(byId('filter-panel'), !event.matches); });
 startAnalytics();
 theme();
