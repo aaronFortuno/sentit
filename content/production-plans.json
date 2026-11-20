@@ -116,28 +116,31 @@
     "approvalNote": "Confirmació explícita del docent el 20/11/2026: S003 es pot enviar a producció, amb rialles compartides al final si és possible."
   },
   "S004": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "98ede7687b624783da9619d89150cd9378b1762a1aa4997c04fa4de76c2ab816",
+    "reviewedAt": "2026-11-20T10:09:31.391Z",
     "reviewActivity": "ca-S004",
     "reviewContent": "content/propostes/tercer.js",
     "format": "3r intermèdia: reconstruir la recerca i separar una semblança d’una pista que connecta amb el que ha passat.",
     "cues": [
-      "Separador musical de dos segons, marge de 250 ms i narradora. El relat s’explica amb una única veu.",
+      "La base original entra amb una fosa suau i deixa dos segons de context. Baixa abans de la narradora i acompanya el relat a un nivell molt discret. No canvia per assenyalar pistes o jutjar les decisions de l’Aina. El relat s’explica amb una única veu.",
       "Pausa curta per canviar d’espai. Un fregadís de roba molt baix; sense efecte de descoberta ni cap so que assenyali la resposta.",
-      "Deixar acabar la veu. Sortida de dos segons i 600 ms de silenci; no s’afegeix cap frase moralitzadora."
+      "Deixar acabar la veu íntegrament, pujar la música suaument i fer-ne la fosa de tancament. Acabar amb 600 ms de silenci; no s’afegeix cap frase moralitzadora."
     ],
     "plannedNewRequests": 1,
     "requiredVoices": {
       "Narradora": "Aoede"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Validació explícita del docent el 20/11/2026: «S004 validat», afegint música molt suau de base i edició que trenqui la monotonia. Es conserva literalment tot el text parlat, preguntes i respostes; música i foses afegides segons aquesta instrucció.",
+    "musicRecipe": "tools/s004-music.cjs",
+    "musicTrackId": "sentit-fil-per-seguir-v1"
   },
   "S005": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "0c77c737c81a4b10ed6af8bd37974b4960544722bedb1c2abdb55ed9aaae57a2",
+    "reviewedAt": "2026-11-20T10:17:32.406Z",
     "reviewActivity": "ca-S005",
     "reviewContent": "content/propostes/tercer.js",
     "format": "3r intermèdia: distingir preparar el repartiment de repartir i entendre per què una dada incompleta no s’endevina.",
@@ -152,7 +155,8 @@
       "Joana": "Vindemiatrix"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Autorització explícita del docent el 20/11/2026: afegir bon dia retornat i comiat/agraïment de Joana, amb redacció similar a la proposada; «Per la resta, també validat i llest per producció». S’han afegit salutacions de Biel/Joana, desig de bon repartiment i retorn de gràcies/adéu de Joana. Resta del text, preguntes i respostes intactes; revisió independent superada."
   },
   "S006": {
     "status": "awaiting-validation",
@@ -451,16 +455,23 @@
     "reviewContent": "content/propostes/sise.js",
     "format": "6è intermèdia: integrar més d’una causa i entendre els límits d’una comparació. Distingir temperatura de superfície de temperatura de l’aire.",
     "cues": [
-      "Dos segons d’ambient urbà neutre, retirat abans de descriure les places. No afegir sons de calor o ventiladors a una de les zones.",
-      "Pausa de canvi entre l’explicació general i la proposta de comparació. Veu sola als límits de la mesura.",
-      "Marge de 300 ms, sortida breu original i silenci. No afegir percentatges de refredament, riscos mèdics ni temperatures no escrites."
+      "Dos segons d’ambient urbà neutre, retirat abans de la parla. La situació és una recerca fictícia, sense temperatures enregistrades o valors afegits al muntatge.",
+      "Passes breus després que la Laia proposi canviar de zona. S’acaben abans de la resposta de la Mireia; cap efecte sota les causes.",
+      "Moviment breu de full abans de l’acord final. No afegir xiulets, números ni sons que anunciïn una conclusió de la recerca.",
+      "Deixar acabar l’acord, marge de 300 ms, sortida breu original i silenci. No afegir resultats, riscos mèdics ni temperatures no escrites."
     ],
     "plannedNewRequests": 1,
     "requiredVoices": {
-      "Mireia": "Aoede"
+      "Mireia": "Aoede",
+      "Laia": "Leda"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "contentValidation": {
+      "validatedAt": "2026-11-20",
+      "source": "El docent valida el contingut, però demana donar varietat a una exposició monòtona. Proposa entrevista o experiència de recerca amb termòmetres.",
+      "scope": "Conceptes i nivell de la versió explicativa; nou guió de recerca dialogada pendent de validar abans de síntesi."
+    }
   },
   "S022": {
     "status": "approved",
@@ -506,20 +517,20 @@
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
   },
   "S004D": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "191096abf50fb34654abcc3d0d10701760f5a51d323d9f250a2ad12695705d74",
+    "reviewedAt": "2026-11-20T10:17:32.403Z",
     "reviewActivity": "ca-S004D",
     "reviewContent": "content/propostes/variants.js",
     "format": "Variant dialogada de S004 per comparar amb l’original narratiu, que es conserva. 3r intermèdia: reconstruir la recerca i separar una semblança d’una pista que connecta amb el que ha passat. Mateixes sis exigències de comprensió, amb narració en primera persona i dos referents auditius; cap tercera veu.",
     "cues": [
-      "Separador càlid de dos segons i marge de 250 ms. Aina comença el record amb la seva veu habitual; les acotacions no es llegeixen.",
+      "La base original «Un fil per seguir», compartida amb S004 com a versió de la mateixa història, entra suaument amb dos segons de context. Baixa abans de l’Aina i continua molt discreta sota les dues veus; les acotacions no es llegeixen.",
       "Aina passa del record a la conversa d’aquell moment, amb sorpresa lleu.",
       "Un fregadís de roba breu i acabat abans de la narració. No fer sonar l’objecte trobat.",
-      "Aina reprèn el record amb calma; veu sola a la marca de la jaqueta.",
-      "Pausa curta per passar al jardí. Cap so sota la recerca ni cap efecte que anticipi la troballa.",
+      "Aina reprèn el record amb calma; música molt baixa i cap efecte a la marca de la jaqueta.",
+      "Pausa curta per passar al jardí. La base continua molt baixa; cap efecte que anticipi la troballa.",
       "Aina tanca el record, sense to de lliçó.",
-      "Deixar acabar la darrera paraula. Sortida musical de dos segons i 600 ms de silenci, sense cap frase afegida."
+      "Deixar acabar la darrera paraula, pujar la música i fer-ne la fosa. Acabar amb 600 ms de silenci, sense cap frase afegida."
     ],
     "plannedNewRequests": 1,
     "requiredVoices": {
@@ -527,6 +538,9 @@
       "Ferran": "Algenib"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "musicRecipe": "tools/s004-music.cjs",
+    "musicTrackId": "sentit-fil-per-seguir-v1",
+    "approvalSource": "Validació explícita del docent el 20/11/2026: «S004D validat, pot anar a producció de veus». Text parlat conservat literalment; base molt suau segons el criteri general de narracions, compartida intencionadament amb S004 perquè és la mateixa història. Revisió independent final superada."
   }
 }

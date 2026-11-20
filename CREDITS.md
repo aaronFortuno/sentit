@@ -64,3 +64,8 @@ Veus Puck (Biel i presentació) i Algieba (Elies), Gemini TTS, una petició cons
 ## S016 · Una troballa al jaciment
 
 Mar i presentació: Erinome, Gemini TTS, una petició amb el tancament confirmat pel docent. Capçalera, ambient, paper i sortida originals de Sentit, MIT, sense enregistraments externs. [Manifest](assets/audio/s016-production-manifest.json). S012 i S016 continuen pendents d’audició docent.
+
+
+## S004, S004D i S005
+
+S004: narradora i presentació Aoede. S004D: Aina/Zephyr i avi Ferran/Algenib. S005: Biel/Puck i Joana/Vindemiatrix. Veus Gemini TTS, una petició completa per peça; preses conservades i muntatges pendents d’audició docent. La composició original **Un fil per seguir** de Sentit (MIT) és comuna a les dues versions de S004, amb mescles pròpies. Roba, sobres, passes i sintonies també són originals procedurals, MIT, sense gravacions externes. [Composició](tools/s004-music.cjs) · [Músiques i usos](docs/musiques.md) · [Fonts i manifests](docs/fonts-sonores.md).

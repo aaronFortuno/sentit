@@ -6,7 +6,7 @@ const {productionSpec,packedProposalRequest}=require('./proposal-plan.cjs'),{ass
 const {findPhrase,normalize}=require('./render-radio.cjs');
 const root=path.resolve(__dirname,'..'),work=path.resolve(root,'../output/sentit-primera-tanda');
 const hash=data=>createHash('sha256').update(data).digest('hex');
-const recipes={S003:{file:'s003-paraigua-v1',source:'tercer',lead:2.25,tail:3.2},S010:{file:'s010-pavello-v1',source:'quart',lead:2,tail:2},S012:{file:'s012-instruments-v1',source:'quart',titleWords:7,lead:3,tail:1.2},S013:{file:'s013-carta-v1',source:'quart',lead:1.1,tail:3.2},S016:{file:'s016-jaciment-v1',source:'cinque',titleMinGap:.5,lead:2.3,tail:2.8},S018:{file:'s018-armari-verd-v1',source:'cinque',lead:2.7,tail:6},S022:{file:'s022-tramvia-v1',source:'sise',lead:2.7,tail:6}};
+const recipes={S004D:{file:'s004d-boto-dialogat-v1',source:'variants',titleMinGap:.7,lead:2.7,tail:4},S005:{file:'s005-cartera-v1',source:'tercer',lead:2.5,tail:3.2},S004:{file:'s004-boto-v1',source:'tercer',lead:2.7,tail:4},S003:{file:'s003-paraigua-v1',source:'tercer',lead:2.25,tail:3.2},S010:{file:'s010-pavello-v1',source:'quart',lead:2,tail:2},S012:{file:'s012-instruments-v1',source:'quart',titleWords:7,lead:3,tail:1.2},S013:{file:'s013-carta-v1',source:'quart',lead:1.1,tail:3.2},S016:{file:'s016-jaciment-v1',source:'cinque',titleMinGap:.5,lead:2.3,tail:2.8},S018:{file:'s018-armari-verd-v1',source:'cinque',lead:2.7,tail:6},S022:{file:'s022-tramvia-v1',source:'sise',lead:2.7,tail:6}};
 async function main(){
  const code=process.argv.find(arg=>arg.startsWith('--only='))?.slice(7).toUpperCase().replace(/^CA-/,'');
  const recipe=recipes[code];if(!recipe)throw Error('No hi ha recepta de muntatge revisada per a aquest codi.');
@@ -20,7 +20,7 @@ async function main(){
  const attempt=JSON.parse(await fs.readFile(path.join(folder,'attempt-'+requestHash.slice(0,12)+'.json'),'utf8'));
  if(attempt.state!=='complete'||attempt.audioSha256!==hash(bytes))throw Error('La presa no coincideix amb l’intent complet.');
  const alignment=await recognize(raw,path.join(folder,'alignment-packed.json')),words=alignment.words;
- const titleCount=recipe.titleWords??entry.introduction.split(/\s+/u).length,lastTitle=words[titleCount-1],firstBody=words[titleCount];
+ const titleCount=recipe.titleWords??entry.introduction.split(/\s+/u).filter(word=>/[\p{L}\p{N}]/u.test(word)).length,lastTitle=words[titleCount-1],firstBody=words[titleCount];
  if(normalize(lastTitle.word)!==normalize(entry.introduction.split(/\s+/u).at(-1))||firstBody.start-lastTitle.end<(recipe.titleMinGap??.8))throw Error('Cal revisar manualment la pausa després del títol.');
  const cut=Math.round((lastTitle.end+firstBody.start)*500)/1000,binary=await ffmpegBinary();
  const wav=(name,args)=>{const file=path.join(folder,name+'.wav');ffmpeg(binary,['-v','error','-y',...args,'-ar','48000','-ac','1','-c:a','pcm_s16le',file]);return file;};
@@ -56,6 +56,18 @@ async function main(){
   add(footsteps('corridor-steps',ambientEnd,3003,.49),'corridor-steps',0,ambientEnd);
   transition('aquí hi ha la cinta','bag-rustle',3004);
   add(footsteps('leaving-steps',2.2,3005,.52),'leaving-steps',voiceEnd+.4,voiceEnd+2.6);
+ }else if(code==='S005'){
+  const sting=wav('postal-opening-sting',['-f','lavfi','-i',"aevalsrc='0.045*sin(2*PI*if(lt(t,0.5),349.23,523.25)*t)*exp(-5*mod(t,0.5))':s=48000:d=1.8",'-af','afade=t=in:d=0.025,afade=t=out:st=1:d=0.8']);
+  add(sting,'postal-opening-sting',0,1.8);
+  add(paper('envelopes-opening',.55,5005),'envelopes-opening',1.8,2.35);
+  // The local aligner splits ‘què passa si’ into three unreliable tokens; anchor on the following exact words.
+  const index=findPhrase(words,'el número del carrer')-3;
+  if(normalize(words[index]?.word??'')!=='que')throw Error('Cal revisar el principi de la pregunta del carrer.');
+  const gap=words[index].start-words[index-1].end,seconds=Math.min(.65,gap-.16);
+  if(seconds<.15)throw Error('No hi ha prou pausa per al canvi de recorregut.');
+  const start=lead+words[index].start-cut-.08-seconds;
+  add(footsteps('postal-route-steps',seconds,5006,.45),'postal-route-steps',start,start+seconds);
+  add(sting,'postal-ending-sting',voiceEnd+.4,voiceEnd+2.2);
  }else if(code==='S010'){
   const openingEnd=lead+firstBody.start-cut+.5;
   add(footsteps('route-opening-steps',openingEnd,10010,.49),'route-opening-steps',0,openingEnd);
@@ -87,15 +99,21 @@ async function main(){
   add(ambient,'quiet-worksite-opening',0,1.8);
   transition('també hi ha hagut preguntes','news-source-paper',16017);
   add(sting('news-ending',[523.25,440,329.63]),'news-ending',voiceEnd+.2,voiceEnd+2.2);
- }else if(code==='S018'||code==='S022'){
-  const {makeMusic}=require(code==='S018'?'./s018-music.cjs':'./s022-music.cjs');
+ }else if(['S004','S004D','S018','S022'].includes(code)){
+  const {makeMusic}=require('./'+(code==='S004D'?'s004':code.toLowerCase())+'-music.cjs');
   const music=await makeMusic({folder,voiceEnd,lead,tail,binary,wav});
   add(music.file,music.effect.name,music.effect.start,music.effect.end,music.effect);
   const measure=(file)=>{const log=ffmpeg(binary,['-ss',String(lead+3),'-i',file,'-t',String(Math.max(5,voiceEnd-lead-6)),'-af','ebur128=peak=true','-f','null','-']);return Number(/Integrated loudness:\s+I:\s+([^ ]+) LUFS/.exec(log)?.[1]);};
   const musicLufs=measure(music.file),voiceLufs=measure(voice);
   if(!Number.isFinite(musicLufs)||voiceLufs-musicLufs<18)throw Error('La música no queda prou per sota de la veu.');
   effects[0].speechWindowMusicLufs=musicLufs;effects[0].speechWindowVoiceLufs=voiceLufs;effects[0].speechWindowMarginDb=voiceLufs-musicLufs;
-  if(code==='S018'){
+  if(code==='S004'||code==='S004D'){
+   const index=findPhrase(words,code==='S004'?'van sortir plegats':'vaig mirar el menjador'),gap=words[index].start-words[index-1].end,seconds=Math.min(.45,gap-.16);
+   if(seconds<.12)throw Error('No hi ha prou pausa per al fregadís de roba.');
+   const start=lead+words[index].start-cut-.08-seconds;
+   const cloth=wav('jacket-cloth',['-f','lavfi','-i',`anoisesrc=color=pink:amplitude=0.1:sample_rate=48000:duration=${seconds}:seed=4004`,'-af',`highpass=f=250,lowpass=f=2600,volume=0.045,afade=t=in:d=0.025,afade=t=out:st=${Math.max(.03,seconds-.12)}:d=${Math.min(.12,seconds-.03)}`]);
+   add(cloth,'jacket-cloth',start,start+seconds);
+  }else if(code==='S018'){
    const key=wav('small-key',['-f','lavfi','-i',"aevalsrc='(0.035*sin(2*PI*1900*t)+0.019*sin(2*PI*3100*t)+0.012*sin(2*PI*4700*t))*exp(-18*t)':s=48000:d=0.32",'-af','afade=t=in:d=0.004,afade=t=out:st=0.17:d=0.15']);
    add(key,'small-key',1.7,2.02);
    transition('quan l’avi va tornar','cardboard-transition',18018);

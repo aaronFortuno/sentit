@@ -4,11 +4,11 @@
 
 | Codi | Tancament resultant | Estat |
 | --- | --- | --- |
-| S005 | «Gràcies per explicar-nos-ho, Joana.» | Revisió independent superada; pendent del docent. |
+| S005 | Agraïment de Biel i resposta de Joana: «Gràcies a vosaltres per preguntar! Adéu, Biel!» | Salutacions i comiat validats; muntatge pendent d’audició. |
 | S006 | Resum del nou recorregut, les mateixes entrades i el sender antic disponible. | Revisió independent superada; pendent del docent. |
 | S012 | «Gràcies, Elies.» | Aprofitat de la presa existent amb un retall local; muntatge pendent d’audició. |
 | S016 | Fets confirmats i recordatori de les inscripcions al centre cívic. | Redacció confirmada pel docent i muntatge produït; pendent d’audició. |
-| S021 | Observació de què ha rebut sol, quina ombra hi ha i com és l’espai. | Revisió independent superada; pendent del docent. |
+| S021 | Laia acorda anotar les condicions i repetir les mesures als dos llocs al vespre. | Contingut validat; nou guió de recerca pendent del docent. |
 | S024 | Preparar la taula, preguntar als altres cursos i després decidir què recomanar. | Revisió independent superada; pendent del docent. |
 
 Els canvis mantenen els identificadors, les preguntes, les respostes i els passatges de correcció. Les empremtes finals consten al [registre de revisions](../content/editorial-reviews.js); els guions que esperen el docent continuen provisionals i no s’han enviat a síntesi.

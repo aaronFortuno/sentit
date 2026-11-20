@@ -31,6 +31,9 @@ Les veus són síntesi de [Gemini TTS, de Google](https://ai.google.dev/gemini-a
 | ca-S001 · El senyal de la ràdio | Laia: Leda; Biel: Puck. Presentació: Aoede. | Tocs, silencis significatius i quatre notes de sortida originals, generats amb FFmpeg. |
 | ca-S002 · Preparem una capsa de records | Una mestra: Aoede; presentació: Aoede. | Muntatge amb separació entre els blocs de passos. No hi ha enregistraments externs. |
 | ca-S003 · El paraigua intercanviat | Laia i presentació: Leda; Biel: Puck. Una petició, amb rialles breus sol·licitades dins la mateixa presa. | Passos de passadís i sortida, fregadís de bossa originals procedurals. Guió validat; àudio pendent d’audició. |
+| ca-S004 · El botó de la jaqueta | Aoede: narradora i presentació. Aina/Ferran són personatges narrats. Una petició. | Base «Un fil per seguir» i fregadís de roba originals de Sentit, MIT. Foses i música molt baixa durant el relat. Pendent d’audició. |
+| ca-S004D · El botó de la jaqueta · versió dialogada | Zephyr: Aina i presentació; Algenib: Ferran. Una petició. | Mateixa composició de S004, amb mescla pròpia per a dues veus i fregadís de roba discret. Original MIT. Pendent d’audició. |
+| ca-S005 · La feina d’una cartera | Puck: Biel i presentació; Vindemiatrix: Joana. Una petició. | Sintonia, sobres i passes originals de Sentit, MIT. Salutacions i comiat mutu, sense afegir gravacions externes. Pendent d’audició. |
 | ca-S012 · Qui arregla els instruments? | Puck: Biel i presentació; Algieba: Elies. Una petició conservada. | Guitarra real de khenshom, Freesound 537084, CC0, a l’obertura. Paper original MIT al canvi de tema i silenci al comiat. Àudio pendent d’audició. |
 | ca-S016 · Una troballa al jaciment | Erinome: Mar i presentació. Una petició. | Capçalera, ambient inicial, paper i sortida originals de Sentit, MIT. Àudio pendent d’audició. |
 | ca-S010 · La ruta fins al pavelló | Leda: Laia i presentació; Puck: Biel. Una petició. | Passos originals a l’arribada, la pausa del carreró i el comiat. Guió validat amb el canvi docent; àudio pendent d’audició. |
@@ -129,3 +132,12 @@ Fragment seleccionat: 2,7–5,4 s. Guitarra real només a l’obertura, sense ca
 S012 té un fragment de 112,39 s i un màster amb títol de 116,57 s. La presa completa de 120,04 s es conserva localment. Després de la revisió dels tancaments, s’elimina només la primera part abstracta del darrer torn: retall entre 110,355 i 118,575 s, dins dos silencis comprovats; es conserva «Gràcies, Elies.» íntegre. Cap segona petició, canvi de to ni canvi de velocitat. L’aprovació de la presa original, l’edició i els nivells dels silencis consten al [manifest S012](../assets/audio/s012-production-manifest.json). El pla de treball identifica 0 peticions noves i una presa conservada; el consum històric total és d’una petició.
 
 S016 té un fragment de 135,23 s i un màster amb títol de 140,61 s, amb el tancament concret mostrat i confirmat pel docent. Una petició; tall de títol en silenci comprovat, sense retallar parla, i paper ajustat a la pausa disponible. [Manifest S016](../assets/audio/s016-production-manifest.json). Tots dos muntatges continuen pendents d’audició docent.
+
+
+### S004, S004D i S005
+
+Propostes validades pel docent el 20/11/2026 i produïdes en una petició completa per peça. Fragments de 85,705 s (S004), 88,26 s (S004D) i 103,33 s (S005); màsters amb títol de 90,17 s, 93,61 s i 107,45 s. Preses crues conservades, títols separats dins silencis comprovats i cap canvi de velocitat de les veus. Manifests: [S004](../assets/audio/s004-production-manifest.json), [S004D](../assets/audio/s004d-production-manifest.json), [S005](../assets/audio/s005-production-manifest.json).
+
+S004/S004D comparteixen intencionadament la composició original «Un fil per seguir», perquè són versions de la mateixa història. Cada màster té la durada i les foses pròpies; la música baixa abans de la veu i només puja després de la darrera paraula. [Recepta original MIT](../tools/s004-music.cjs) i [registre de músiques](musiques.md). Roba, sobres, passes i sintonies són també originals procedurals, sense mostres externes. Els tres muntatges esperen audició docent.
+
+S021 té validat el contingut, però la [nova experiència de recerca dialogada](s021-recerca.md) espera validació del guió i del muntatge abans de generar veus. No se n’ha fet cap petició.

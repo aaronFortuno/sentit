@@ -57,7 +57,7 @@ function waveFixture() {
 
     await page.locator('#character-filter summary').click();
     await chip('biel').click(); assert.deepEqual(await codes(), ['S001','S003','S005','S007','S010','S011','S012','S015','S017','S024']);
-    await chip('laia').click(); assert.deepEqual(await codes(), ['S001','S003','S005','S007','S010','S011','S012','S015','S017','S019','S024']);
+    await chip('laia').click(); assert.deepEqual(await codes(), ['S001','S003','S005','S007','S010','S011','S012','S015','S017','S019','S021','S024']);
     await page.locator('#character-match').selectOption('all'); assert.deepEqual(await codes(), ['S001','S003','S007','S010','S011','S017','S024']);
     assert.match(page.url(), /coincidencia=tots/);
     await page.reload(); await page.locator('.activity-card').first().waitFor();
@@ -65,7 +65,7 @@ function waveFixture() {
     assert.equal(await chip('biel').getAttribute('aria-pressed'), 'true');
     await chip('nora').click(); assert.deepEqual(await codes(), []);
     assert.equal(await page.locator('#catalog-empty').isVisible(), true);
-    await page.locator('#character-match').selectOption('any'); assert.deepEqual(await codes(), ['S001','S003','S005','S007','S010','S011','S012','S015','S017','S019','S024']);
+    await page.locator('#character-match').selectOption('any'); assert.deepEqual(await codes(), ['S001','S003','S005','S007','S010','S011','S012','S015','S017','S019','S021','S024']);
     await page.locator('#grade').selectOption('5'); assert.deepEqual(await codes(), ['S001', 'S015', 'S017']);
     await page.locator('#genre').selectOption('interview'); assert.deepEqual(await codes(), ['S015']);
     await page.locator('#reset-filters').click(); assert.equal((await codes()).length, Math.min(12,activities.length));

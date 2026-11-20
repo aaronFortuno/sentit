@@ -1,0 +1,150 @@
+{
+  "code": "S004",
+  "activity": "ca-S004",
+  "date": "2026-11-20T10:15:57.072Z",
+  "state": "awaiting-audio-validation",
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "Narradora": "Aoede"
+  },
+  "newSynthesisRequests": 1,
+  "approvalFingerprint": "98ede7687b624783da9619d89150cd9378b1762a1aa4997c04fa4de76c2ab816",
+  "requestHash": "dd1429acb3631d3bf967985bc8ac5c528dd4557b0c5418964191a89d004a42d2",
+  "rawSha256": "14571c2b405a4838b33ad8d83f8d77b18da9f6dd20ff48b94f4e8cb9864357bb",
+  "usage": {
+    "total_tokens": 2506,
+    "total_input_tokens": 433,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 433
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 2073,
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 2073
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 0,
+    "initial_input_tokens": 433
+  },
+  "rawDuration": 82.92,
+  "cut": {
+    "at": 3.915,
+    "previousWordEnd": 3.15,
+    "nextWordStart": 4.68,
+    "peakDbFS": -55,
+    "rawSamplesPreserved": true
+  },
+  "file": "s004-boto-v1.mp3",
+  "introFile": "s004-boto-v1-intro.mp3",
+  "bodyFile": "s004-boto-v1-cos.mp3",
+  "offset": 4.465,
+  "bodyDuration": 85.705,
+  "fullDuration": 90.17,
+  "lufs": -20.1,
+  "peakDbTP": -2.7,
+  "voice": {
+    "bodyLead": 2.7,
+    "bodyRawDuration": 79.005,
+    "untrimmedApartFromSilenceSplit": true,
+    "retimed": false
+  },
+  "effects": [
+    {
+      "name": "gentle-narration-bed",
+      "start": 0,
+      "end": 85.105,
+      "origin": "original-procedural",
+      "timelineDuration": 85.705,
+      "author": "Sentit",
+      "license": "MIT",
+      "source": "tools/s004-music.cjs",
+      "rawFile": "s004-music-original-cru.wav",
+      "normalizedFile": "s004-music-base-normalized.wav",
+      "renderedFile": "s004-music-envelope.wav",
+      "sampleRate": 48000,
+      "channels": 1,
+      "noSpeech": true,
+      "externalSamples": false,
+      "apiRequests": 0,
+      "normalizedBaseLufs": -27,
+      "renderedLufs": -39.4,
+      "truePeakDbtp": -16.21,
+      "envelope": {
+        "fadeIn": {
+          "start": 0,
+          "end": 0.8,
+          "targetGain": 0.7
+        },
+        "duckBeforeSpeech": {
+          "start": 1.87,
+          "end": 2.52,
+          "safetyBeforeLead": 0.18
+        },
+        "speech": {
+          "start": 2.52,
+          "end": 81.825,
+          "gain": 0.14,
+          "gainDb": -17.077439,
+          "nominalLufs": -44.077439
+        },
+        "riseAfterSpeech": {
+          "start": 81.825,
+          "end": 82.545,
+          "safetyAfterVoiceEnd": 0.12,
+          "targetGain": 0.7
+        },
+        "fadeOut": {
+          "start": 83.805,
+          "end": 85.105
+        },
+        "silentTail": 0.6,
+        "curve": "smoothstep"
+      },
+      "recipe": {
+        "key": "Fa major",
+        "tempoBpm": 68,
+        "chordSeconds": 7.058824,
+        "harmony": "Dotze disposicions dins de Fa major, amb acords oberts i transicions llargues. Sense gir dramàtic ni música de suspens.",
+        "instruments": [
+          "Piano suau espaiat",
+          "Pad harmònic molt discret",
+          "Làmines de fusta espaiades cada quatre canvis d’acord"
+        ],
+        "synthesis": "Taules sinusoidals harmòniques deterministes a 48 kHz mono; envolvents d’atac lent i decaïment, dues reflexions curtes, filtre 65–4200 Hz i normalització en dues passades.",
+        "variation": "Dotze frases amb espais i registres variats en cicles posteriors; cap bucle d’àudio ni motiu curt de quatre notes repetit.",
+        "cadence": "Arribada discreta a F6 després de la veu; cap canvi musical lligat a una pista, a la fitxa o a la descoberta del botó.",
+        "chords": 12,
+        "pianoNotes": 29,
+        "woodenNotes": 3
+      },
+      "sha256": "efe83126885e4bdb04da3a84c11fef637dc73a53a7be06fc643a577d819afa4a",
+      "rawSha256": "746300118260b2602ffc5298bb333da0e7c51507214036bb4c899b0b399b79b2",
+      "normalizedSha256": "eda3c3e06505f61fe444c9d6f8e3c807471fd9189a4a1594db0187514b704066",
+      "decodeVerified": true,
+      "listeningValidation": "pending",
+      "speechWindowMusicLufs": -44.1,
+      "speechWindowVoiceLufs": -19.5,
+      "speechWindowMarginDb": 24.6
+    },
+    {
+      "name": "jacket-cloth",
+      "start": 48.205000000000005,
+      "end": 48.65500000000001,
+      "origin": "original-procedural"
+    }
+  ],
+  "sha256": "780e096640722d8623d809b0319b76d579c271f1cc12143643ef071b860b15ad",
+  "musicTrack": {
+    "id": "sentit-fil-per-seguir-v1",
+    "title": "Un fil per seguir",
+    "author": "Sentit",
+    "license": "MIT",
+    "source": "tools/s004-music.cjs"
+  }
+}
