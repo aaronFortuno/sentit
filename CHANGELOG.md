@@ -1,5 +1,10 @@
 # Canvis
 
+## 0.1.38 · 20 de novembre de 2026
+
+- Cartell «Àudio pendent de validar» sobre totes les cards en fase de revisió d’àudio, amb el mateix estil que les marques de guió o veus pendents. La card continua obrint la fitxa i l’àudio es pot escoltar.
+- S016: registrada la valoració positiva de la resta de la peça, amb un artefacte que substitueix «Si» a «Si l’estudi avança, l’equip». Reparació local i jingles inicial/final pendents; cap canvi d’àudio ni síntesi nova.
+
 ## 0.1.37 · 20 de novembre de 2026
 
 - S014 reconvertida en conversa d’aula entre Mireia i Biel: preguntes d’anticipació, aclariments i reconduccions, amb set preguntes revisades. Pendent de validació docent.

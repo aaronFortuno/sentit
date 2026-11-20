@@ -11,8 +11,9 @@ El docent valida les veus escoltant-les. Una transcripció automàtica pot recon
 | S013 | Aoede / Mireia | repartiment · bústia concreta | Tònica desplaçada a la I | Prova amb tònica explícita a Ú |
 | S013 | Aoede / Mireia | error · endevinar una bústia | Mateixa incidència | Segona frase dins la mateixa petició |
 | S022 | Algenib / Ferran | dema · mirant els rails | ráils/ralls, mot poc identificable | Prova amb pronunciació ra-ÍLS, sense canviar la grafia |
+| S016 | Erinome / Mar | exposicio · Si l’estudi avança, l’equip | Soroll «ffff» en substitució de Si | Preparar reparació local; resta de la peça ben valorada |
 
-**Cap d'aquestes correccions s'ha sintetitzat o aplicat.** El registre local ja compta deu peticions des del restabliment del 20/11. Es preparen tres peticions petites per al següent lot: 27 mots de S010, 32 de S013 i 15 de S022. Les presentacions i la resta de les preses no es tornen a generar. [Plans exactes, autorització, fonts crues i empremtes](../content/audio-repairs.json).
+**Cap d'aquestes correccions s'ha sintetitzat o aplicat.** El registre local ja compta deu peticions des del restabliment del 20/11. Es preparen tres peticions petites per al següent lot: 27 mots de S010, 32 de S013 i 15 de S022. S016 queda de moment només anotada: l’artefacte de síntesi i els jingles inicial/final estan pendents de tractament, sense petició nova preparada ni enviada. Les presentacions i la resta de les preses no es tornen a generar. [Plans exactes, autorització, fonts crues i empremtes](../content/audio-repairs.json).
 
 ## Procediment
 
