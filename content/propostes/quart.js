@@ -115,7 +115,7 @@ export const quart = [
   }),
   proposal({
     id: 'qui-arregla-els-instruments', code: 'S012', title: 'Qui arregla els instruments?', grade: '4', level: 'advanced', genre: 'interview',
-    seconds: 124, status: 'ready-for-review', reviewStatus: 'audio-review',
+    seconds: 124, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s012-instruments-v2.mp3', tracks: { introduction: './assets/audio/s012-instruments-v2-intro.mp3', body: './assets/audio/s012-instruments-v2-cos.mp3' },
     fragment: { start: 4.18, seconds: 119 },
     summary: 'En Biel visita l’Elies i descobreix per què reparar comença escoltant i comprovant.',

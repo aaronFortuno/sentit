@@ -18,7 +18,7 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S009](https://sentit.ortogra.fi/#lectura=ca-S009) | La biblioteca canvia d’horari | 4t | Provisional · revisió superada | 2026-11-20 | `38014b8e7bff…` |
 | [ca-S010](https://sentit.ortogra.fi/#lectura=ca-S010) | La ruta fins al pavelló | 4t | Revisió superada · àudio pendent | 2026-11-20 | `11cbce998206…` |
 | [ca-S011](https://sentit.ortogra.fi/#lectura=ca-S011) | Una menjadora per als ocells | 4t | Revisió superada · guió validat | 2026-11-20 | `7c6c647baa9f…` |
-| [ca-S012](https://sentit.ortogra.fi/#lectura=ca-S012) | Qui arregla els instruments? | 4t | Revisió superada · àudio pendent | 2026-11-20 | `0a0a32a1f21e…` |
+| [ca-S012](https://sentit.ortogra.fi/#lectura=ca-S012) | Qui arregla els instruments? | 4t | Revisió superada · publicació definitiva | 2026-11-20 | `0a0a32a1f21e…` |
 | [ca-S013](https://sentit.ortogra.fi/#lectura=ca-S013) | Com viatja una carta? | 4t | Revisió superada · àudio pendent | 2026-11-20 | `0ec4ca5dcdb7…` |
 | [ca-S014](https://sentit.ortogra.fi/#lectura=ca-S014) | Què passa dins d’una llavor? | 5è | Provisional · revisió superada | 2026-11-20 | `6aec80a53248…` |
 | [ca-S016](https://sentit.ortogra.fi/#lectura=ca-S016) | Una troballa al jaciment | 5è | Revisió superada · àudio pendent | 2026-11-20 | `b16e6dc971b2…` |

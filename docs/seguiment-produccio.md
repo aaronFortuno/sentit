@@ -19,7 +19,7 @@ Actualitzat: **20/11/2026**. Catàleg base de **24 peces**, més les variants **
 | [ca-S009](https://sentit.ortogra.fi/#lectura=ca-S009) | La biblioteca canvia d’horari | 4t | Accessible · Notícia | Prevista 1:50–2:15 | 6 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S010](https://sentit.ortogra.fi/#lectura=ca-S010) | La ruta fins al pavelló | 4t | Intermèdia · Diàleg | 1:39 | 7 | ✅ | ✅ | ✅ | ✅ | ✅ | ◐ **Correccions** | — |
 | [ca-S011](https://sentit.ortogra.fi/#lectura=ca-S011) | Una menjadora per als ocells | 4t | Avançada · Instruccions | Prevista 2:05–2:35 | 7 | ✅ | ✅ | ✅ | — | — | — | — |
-| [ca-S012](https://sentit.ortogra.fi/#lectura=ca-S012) | Qui arregla els instruments? | 4t | Avançada · Entrevista | 1:59 | 7 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
+| [ca-S012](https://sentit.ortogra.fi/#lectura=ca-S012) | Qui arregla els instruments? | 4t | Avançada · Entrevista | 1:59 | 7 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [ca-S013](https://sentit.ortogra.fi/#lectura=ca-S013) | Com viatja una carta? | 4t | Avançada · Explicació | 2:19 | 7 | ✅ | ✅ | ✅ | ✅ | ✅ | ◐ **Correccions** | — |
 | [ca-S014](https://sentit.ortogra.fi/#lectura=ca-S014) | Què passa dins d’una llavor? | 5è | Accessible · Explicació | Prevista 2:15–2:45 | 7 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S015](https://sentit.ortogra.fi/#lectura=ca-S015) | Una restauradora ens explica el seu ofici | 5è | Intermèdia · Entrevista | 2:14 | 8 | ✅ | ◐ | ✅ | ✅ | ✅ | ◐ **Correccions** | — |
@@ -36,7 +36,7 @@ Actualitzat: **20/11/2026**. Catàleg base de **24 peces**, més les variants **
 ## Com revisar-les
 
 - **8 propostes encara no tenen muntatge**: S006, S007, S009, S011, S014, S017, S021, S024. Es poden revisar per codi, en qualsevol ordre. El solucionari s’obre amb el guió anotat primer i les preguntes i respostes després. Els plans agrupen el text en una petició per a una o dues veus; les escenes d’aula amb tres veus preveuen dues peticions i muntatge local. Els guions amb aprovació continuen a la cua de veus; els altres esperen el docent. S020 ja té muntatge amb Petita descoberta i espera audició.
-- **S005, S008R, S010, S012, S013, S015, S016, S019, S020, S022, S023 esperen audició**. El PDF diu «Àudio pendent de validar» i es pot imprimir per revisar. La confirmació del guió no valida automàticament el muntatge.
+- **S005, S008R, S010, S013, S015, S016, S019, S020, S022, S023 esperen audició**. El PDF diu «Àudio pendent de validar» i es pot imprimir per revisar. La confirmació del guió no valida automàticament el muntatge.
 - **S001 i S002** són prototips anteriors al registre formal de validacions. No se’ls ha atribuït retrospectivament una aprovació definitiva.
 - **S008R** revisa la mateixa història de S008 com a programa de ràdio, amb benvinguda i comiat; no és una peça número 25 del catàleg base.
 
@@ -53,6 +53,6 @@ La taula es regenera amb `node tools/update-production-table.mjs --date=AAAA-MM-
 
 **Correccions identificades pel docent:** S005: La resta de l’entrevista és correcta. Corregir «Aquest matí, per exemple...» i millorar els jingles inicial/final abans de validar definitivament · S010: Muntatge validat; pronunciacions pendents. Passos reals nous pendents d’audició · S013: Valoració positiva; bústia pendent de corregir. Sintonia rebutjada, retirada; alternativa pendent · S015: La resta de la peça és correcta. Temperatura pendent de corregir; jingle encara pendent de definir · S016: La resta de la peça està ben valorada. Artefacte en lloc de «Si» pendent de corregir; reparació local preparada i jingles inicial i final pendents de polir · S022: Bon muntatge; rails pendent de corregir. Efectes de tramvia revisats pendents d’audició. 4 peticions curtes agrupades preparades, encara sense enviar; 8 incidències anotades al [registre de producció](../content/production-progress.js). No hi ha aprovació definitiva mentre faltin aquestes correccions i l’audició dels nous efectes.
 
-**Publicades definitivament:** S003, S004, S004D, S008, S018. La confirmació docent queda vinculada al màster i al guió exactes; les variants es validen per separat.
+**Publicades definitivament:** S003, S004, S004D, S008, S012, S018. La confirmació docent queda vinculada al màster i al guió exactes; les variants es validen per separat.
 
 **Provisional** vol dir que la revisió adversària independent està superada per al contingut exacte i que falta la validació docent. Un esborrany encara en revisió no porta aquesta marca. [Resultat final i versions revisades](revisio-coherencia.md) · [Pauta reutilitzable](../skills/revisio-coherencia-didactica/SKILL.md).

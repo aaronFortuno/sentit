@@ -183,7 +183,8 @@ function renderEditor() {
   byId('worksheet-editor').hidden = !selected;
   const list = byId('hidden-questions');
   list.replaceChildren();
-  byId('question-panel').hidden = true;
+  byId('question-panel').hidden = !selected;
+  byId('hidden-questions-group').hidden = true;
   if (!selected) return;
   const settings = currentSettings;
   byId('classroom-code').value = settings?.code ?? '';
@@ -206,7 +207,9 @@ function renderEditor() {
     list.append(row);
   });
   byId('hidden-count').textContent = list.childElementCount;
-  byId('question-panel').hidden = list.childElementCount === 0;
+  byId('hidden-count').hidden = list.childElementCount === 0;
+  byId('hidden-count').title = t('hiddenQuestions');
+  byId('hidden-questions-group').hidden = list.childElementCount === 0;
 }
 
 function renderImageEditor() {

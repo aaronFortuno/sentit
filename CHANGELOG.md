@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.47 · 20 de novembre de 2026
+
+- Impressió agrupada en quatre seccions: tipografia i espaiats, capçalera i instruccions, imatge i preguntes. Tipografia/mida i espaiat/interlineat en files separades; restablir el format no altera el codi d’aula ni els altres continguts.
+- Preguntes té accés permanent: orientació per editar al preview, recuperació de les amagades quan n’hi ha i opció de ressaltats al solucionari. Sense llista redundant de totes les preguntes. Scroll independent i botó d’imprimir fix conservats.
+- S012 publicada definitivament després de l’aprovació docent del muntatge v2. Mateixos fitxers d’àudio, aprovació vinculada al màster i al contingut exactes; retirades les marques provisionals i seguiment actualitzat.
+
 ## 0.1.46 · 20 de novembre de 2026
 
 - Àudio organitzat en tres blocs: sessió pautada, ritme de locució i sintonia inicial. La preparació agrupa temps de lectura i locució inicial; les repeticions, escoltes, pausa i locució de repàs. Activació i selector de sintonia a la mateixa fila.
