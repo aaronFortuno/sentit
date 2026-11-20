@@ -209,6 +209,6 @@ S010, S013 i S022 tenen feedback positiu amb errors concrets de pronunciació en
 
 ### Universos i provisionals
 
-Quatre universos editorials amb filtre combinable i etiquetes a les cards i a la fitxa: Laia i Biel, l’Aina i l’avi Ferran, Amb la Mireia i les notícies de la Mar. Les peces són autònomes i poden tenir més d’un vincle. [Criteris i assignacions](docs/univers-editorial.md).
+Quatre universos editorials amb filtre combinable i etiquetes a les cards i a la fitxa: Les descobertes de la Laia i en Biel, Els records i misteris de l’Aina i l’avi Ferran, Les explicacions i els projectes de la Mireia i Les notícies de la Mar. Les peces són autònomes i poden tenir més d’un vincle. [Criteris i assignacions](docs/univers-editorial.md).
 
 El control «Mostra els provisionals» està activat inicialment i recorda la preferència del navegador; inclou guions i àudios pendents de validar. La capçalera compta només els materials sense revisió pendent. No s’alteren col·leccions ni enllaços directes.
