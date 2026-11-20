@@ -59,7 +59,7 @@ El seguiment i els avisos utilitzen [Umami](https://github.com/umami-software/um
 
 ## S012 · Qui arregla els instruments?
 
-Veus Puck (Biel i presentació) i Algieba (Elies), Gemini TTS, una petició conservada. El comiat breu es recupera de la mateixa presa, sense síntesi nova. Guitarra real: **Guitar string snap or breaks - various sounds**, de **khenshom**, [Freesound 537084](https://freesound.org/people/khenshom/sounds/537084/), [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Còpia pública HQ MP3; fragment 2,7–5,4 s, ajust de nivell i mono, sense canvi de to o velocitat. El paper és original de Sentit, MIT. La llicència del projecte no substitueix la de les fonts externes. [Font i empremta](content/sound-sources.js) · [Manifest](assets/audio/s012-production-manifest.json).
+Veus Puck (Biel i presentació) i Algieba (Elies), Gemini TTS, una petició conservada. El comiat breu es recupera de la mateixa presa, sense síntesi nova. Guitarra real: **Guitar string snap or breaks - various sounds**, de **khenshom**, [Freesound 537084](https://freesound.org/people/khenshom/sounds/537084/), [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Còpia pública HQ MP3; fragment 2,7–5,4 s, ajust de nivell i mono; quatre proves inicials i tres intents finals amb petites variacions de to i durada compensada. Cap canvi de to o ritme a les veus. El paper és original de Sentit, MIT. La llicència del projecte no substitueix la de les fonts externes. [Font i empremta](content/sound-sources.js) · [Manifest](assets/audio/s012-production-manifest.json).
 
 ## S016 · Una troballa al jaciment
 
@@ -68,14 +68,14 @@ Mar i presentació: Erinome, Gemini TTS, una petició amb el tancament confirmat
 
 ## S004, S004D i S005
 
-S004: narradora i presentació Aoede. S004D: Aina/Zephyr i avi Ferran/Algenib. S005: Biel/Puck i Joana/Vindemiatrix. Veus Gemini TTS, una petició completa per peça; preses conservades i muntatges pendents d’audició docent. La composició original **Un fil per seguir** de Sentit (MIT) és comuna a les dues versions de S004, amb mescles pròpies. Roba, sobres, passes i sintonies també són originals procedurals, MIT, sense gravacions externes. [Composició](tools/s004-music.cjs) · [Músiques i usos](docs/musiques.md) · [Fonts i manifests](docs/fonts-sonores.md).
+S004: narradora i presentació Aoede. S004D: Aina/Zephyr i avi Ferran/Algenib. S005: Biel/Puck i Joana/Vindemiatrix. Veus Gemini TTS, una petició completa per peça; preses conservades. S004 i S004D publicades definitivament; S005 té l’esmena de «matí» pendent. La composició original **Un fil per seguir** de Sentit (MIT) és comuna a les dues versions de S004, amb mescles pròpies. Roba, sobres, passes i sintonies també són originals procedurals, MIT, sense gravacions externes. [Composició](tools/s004-music.cjs) · [Músiques i usos](docs/musiques.md) · [Fonts i manifests](docs/fonts-sonores.md).
 
 
 ## S019, S023 i noves sintonies
 
-S019: Laia/Leda i Ona/Sulafat. S023: Mar/Erinome i Pau/Charon. Veus Gemini TTS, una petició completa per peça; àudios pendents d’audició. Paper, recipient, passos, ambients i sintonies originals procedurals de Sentit, MIT. [Fonts i manifests](docs/fonts-sonores.md).
+S019: Laia/Leda i Ona/Sulafat. S023: Mar/Erinome i Pau/Charon. Veus Gemini TTS, una petició completa per peça; àudios pendents d’audició. S019 v2 incorpora l’ambient de cuina real acreditat a continuació; S023 utilitza paper, passos, ambient i sintonies originals procedurals de Sentit, MIT. [Fonts i manifests](docs/fonts-sonores.md).
 
-«Fil de veu», «Pas a pas» i «Ona curta» són composicions instrumentals originals locals de Sentit, sota MIT, sense gravacions externes, veus ni crides d’API. Estan pendents de tria i encara no s’han incorporat als programes. [Recepta](tools/propose-mireia-variants.cjs) · [Índex dels manifests i empremtes](assets/audio/mireia-sintonies-comparacio.json) · [Comparativa](https://sentit.ortogra.fi/proves/sintonies-mireia.html).
+«Fil de veu», «Pas a pas» i «Ona curta» són composicions instrumentals originals locals de Sentit, sota MIT, sense gravacions externes, veus ni crides d’API. Les tres, junt amb «Petita descoberta», estan validades i les obertures són seleccionables com a inici de sessió. Petita descoberta també s’incorpora al muntatge de S020, pendent d’audició. [Recepta](tools/propose-mireia-variants.cjs) · [Índex dels manifests i empremtes](assets/audio/mireia-sintonies-comparacio.json) · [Comparativa](https://sentit.ortogra.fi/proves/sintonies-mireia.html).
 
 
 ## Gravacions reals dels remuntatges S010 i S022
@@ -84,3 +84,7 @@ S019: Laia/Leda i Ona/Sulafat. S023: Mar/Erinome i Pau/Charon. Veus Gemini TTS, 
 - «tram sound» · migweis · [Freesound 713419](https://freesound.org/people/migweis/sounds/713419/) · [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) · fragments amb foses a S022. Gravació moderna evocadora, no arxiu històric del relat.
 
 Es conserven les còpies públiques HQ MP3 i el registre d’empremtes a [content/sound-sources.js](content/sound-sources.js). Aquestes fonts conserven CC0; MIT no en substitueix la llicència.
+
+## Ambient real de cuina de S019 v2
+
+«Ambiente kitchen Cocina Spain España», de **SoundtasticPro**, [Freesound 484572](https://freesound.org/people/SoundtasticPro/sounds/484572/), [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Còpia pública HQ MP3, dues passades amb fosa d’enllaç, filtratge i nivells molt baixos sota la veu. Foses d’entrada i sortida. [Font, empremta i transformacions](content/sound-sources.js) · [Manifest S019](assets/audio/s019-production-manifest.json). CC0 es manté independent de MIT.

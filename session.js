@@ -1,5 +1,14 @@
-export const defaultSession = { enabled: true, reading: 60, listens: 2, interval: 30, prepare: true, repeat: true, rate: 1, jingle: true };
+export const defaultSession = { enabled: true, reading: 60, listens: 2, interval: 30, prepare: true, repeat: true, rate: 1, jingle: true, jingleId: 'petita-descoberta' };
+export const sessionJingles = [
+  { id: 'petita-descoberta', title: 'Petita descoberta', opening: './assets/audio/mireia-jingle-proposta-v1-obertura.mp3', closing: './assets/audio/mireia-jingle-proposta-v1-tancament.mp3' },
+  { id: 'fil-de-veu', title: 'Fil de veu', opening: './assets/audio/mireia-fil-de-veu-v1-obertura.mp3', closing: './assets/audio/mireia-fil-de-veu-v1-tancament.mp3' },
+  { id: 'pas-a-pas', title: 'Pas a pas', opening: './assets/audio/mireia-pas-a-pas-v1-obertura.mp3', closing: './assets/audio/mireia-pas-a-pas-v1-tancament.mp3' },
+  { id: 'ona-curta', title: 'Ona curta', opening: './assets/audio/mireia-ona-curta-v1-obertura.mp3', closing: './assets/audio/mireia-ona-curta-v1-tancament.mp3' },
+];
+// Printed links without a selection retain their original sound.
 export const jingleUrl = './assets/audio/sentit-jingle-v1.mp3';
+export const validJingle = id => id === 'sentit-v1' || sessionJingles.some(jingle => jingle.id === id);
+export const selectedJingleUrl = id => sessionJingles.find(jingle => jingle.id === id)?.opening ?? jingleUrl;
 
 export function validRate(value) {
   return Number.isFinite(value) && value >= .8 && value <= 1.2 && Math.abs(value * 20 - Math.round(value * 20)) < 1e-8;

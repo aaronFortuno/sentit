@@ -2,9 +2,13 @@
   "id": "mireia-jingle-proposta-v1",
   "title": "Petita descoberta · sintonia de Mireia",
   "version": 1,
-  "status": "proposal-pending-human-validation",
-  "approval": null,
-  "scope": "Parella original d’obertura i tancament per als programes de Mireia. Proposta separada per a audició; no incorporada a màsters ni generadors de producció.",
+  "status": "approved",
+  "approval": {
+    "by": "docent",
+    "date": "2026-11-20",
+    "confirmation": "Els quatre jingles són bons. Es conserven com a opcions de catàleg."
+  },
+  "scope": "Obertura disponible al selector de la sessió. Parella d’obertura i tancament aprovada com a recurs; això no valida cap muntatge de comprensió.",
   "intendedUse": "Deixar acabar la peça abans de la parla; no és una base contínua sota el diàleg.",
   "origin": {
     "type": "original-procedural-composition",

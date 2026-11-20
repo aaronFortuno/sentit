@@ -5,7 +5,7 @@ import { mountCatalogGestures } from './catalog-gestures.js';
 import { characters, matchesCharacters } from './content/characters.js';
 import { isPendingReview, needsReview } from './review.js';
 import { universes, universeName, universesForActivity, matchesUniverse } from './content/universes.js';
-import { reviewCaption } from './editorial-review.js';
+import { reviewCaption, hasPendingSynthesisEdit } from './editorial-review.js';
 import { track, countBucket } from './analytics.js';
 
 const normalise = value => value.toLocaleLowerCase().normalize('NFD').replace(/\p{M}/gu, '');
@@ -221,8 +221,8 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
       card.append(context, footer);
       if (awaitingValidation) {
         const overlay = element('span', undefined, 'activity-review-overlay');
-        const label = element('span', reviewCaption(entry, {audioReview:t('audioReview'),reviewProvisional:t('reviewProvisional'),reviewInProgress:t('reviewInProgress'),reviewVoicesReceived:t('reviewVoicesReceived'),reviewReadyForVoices:t('reviewReadyForVoices')}), 'activity-review-label');
-        label.append(element('small', t('openReview')));
+        const label = element('span', reviewCaption(entry, {reviewSynthesisEdit:t('reviewSynthesisEdit'),audioReview:t('audioReview'),reviewProvisional:t('reviewProvisional'),reviewInProgress:t('reviewInProgress'),reviewVoicesReceived:t('reviewVoicesReceived'),reviewReadyForVoices:t('reviewReadyForVoices')}), 'activity-review-label');
+        label.append(element('small', t(hasPendingSynthesisEdit(entry) ? 'reviewAlreadyListened' : 'openReview')));
         overlay.append(label);
         card.append(overlay);
       }

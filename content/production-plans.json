@@ -290,15 +290,15 @@
   },
   "S012": {
     "status": "approved",
-    "approvedFingerprint": "a0c2ffc4f711b25afb1b69b62ec15d5e7b5961470b8c15d5a5828a7c717acf44",
+    "approvedFingerprint": "032f0c40b06cadba320cc91a0141aa96f4c93f325a6bfdd38623653e764ad6cb",
     "reviewedAt": "2026-11-20T09:35:47.564Z",
     "reviewActivity": "ca-S012",
     "reviewContent": "content/propostes/quart.js",
     "format": "4t avançada: revisar una suposició i relacionar un procediment amb la seva finalitat. No cal coneixement musical previ ni reconèixer notes.",
     "cues": [
-      "Gravació real de guitarra amb cordes fluixes: fragment breu de khenshom, Freesound 537084, CC0. Deixar-lo acabar abans de la primera frase. No s’avalua el timbre ni es presenta com un trencament que passa ara.",
+      "Gravació real de guitarra amb cordes fluixes de khenshom, Freesound 537084, CC0. Quatre proves més audibles, irregularment espaiades. Les últimes continuen molt baixes sota la salutació d’en Biel; no tapar les paraules ni escenificar un trencament nou.",
       "Pausa de canvi de tema i moviment de paper molt breu, sense eines o cops damunt de la guitarra.",
-      "Marge després del comiat i silenci. No posar-hi una nota final que faci pensar que la guitarra de l’escola ja està reparada."
+      "Després del comiat tornen tres proves de la corda fluixa, amb petits canvis de to com un intent d’afinació. No acabar amb una nota neta que indiqui reparació reeixida. Fosa i silenci final."
     ],
     "plannedNewRequests": 0,
     "requiredVoices": {
@@ -311,14 +311,14 @@
       {
         "id": "khenshom-guitar-537084",
         "sha256": "b27703e3f933ea2588d9b6384148fcf278097247800391b236291a359950f252",
+        "license": "CC0 1.0",
         "excerpt": {
           "start": 2.7,
           "end": 5.4
-        },
-        "license": "CC0 1.0"
+        }
       }
     ],
-    "approvalSource": "Validació condicionada del docent: guitarra real, salutacions de Biel/Elies i resta del guió. La posterior revisió general dels tancaments demanada pel docent elimina només la conclusió abstracta i conserva «Gràcies, Elies.» de la presa aprovada. Retall local comprovat, sense cap nova petició externa; revisió independent final superada.",
+    "approvalSource": "El docent confirma les veus correctes i autoritza el remuntatge el 20/11/2026: guitarra gravada amplificada i repetida irregularment, més fluixa sota Biel i retorn amb petits canvis de to al comiat. No és aprovació final del muntatge nou.",
     "voiceReuse": {
       "type": "keep-final-suffix",
       "part": "comiat",
@@ -439,16 +439,16 @@
   },
   "S019": {
     "status": "approved",
-    "approvedFingerprint": "cb7f067ca00bda0d89f0d19f80718b080a98d8e58fd6e8e17e30289fef958620",
+    "approvedFingerprint": "11977fa5c579edaf15d859b80e5fa11df7afe22e103f4b00b3ffeee7c3812941",
     "reviewedAt": "2026-11-20T12:33:03.659Z",
     "reviewActivity": "ca-S019",
     "reviewContent": "content/propostes/sise.js",
     "format": "6è accessible: idees ordenades, exemples explícits i respostes concises. Distingir aprofitar aliments de consumir-ne que no siguin segurs.",
     "cues": [
-      "Dos segons de petits sons de recipient i paper; tot queda en silenci abans de la pregunta inicial.",
+      "Fosa d’entrada d’ambient enregistrat de cuina de restaurant. Uns dos segons més audibles per situar-nos; després baixa abans de la primera pregunta i es manté molt tènue sota el diàleg.",
       "La confirmació següent de Laia pot entrar al final de «No és una recepta màgica», mentre l’Ona continua sense aturar-se. És una reacció discreta; no tapar l’exemple de les pastanagues ni la dada sobre quantes persones vindran. Preparar aquest possible solapament en el muntatge; l’acotació no es llegeix.",
-      "Un full de menú es gira entre torns. El so s’acaba abans de les condicions de servei.",
-      "Marge de 300 ms, sortida musical de dos segons i silenci. No afegir consells de conservació, temps o receptes que no figurin al guió."
+      "L’ambient enregistrat continua molt baix i varia amb l’activitat natural de la cuina. No afegir sons puntuals que subratllin les dades o tapin les condicions de servei.",
+      "Després de l’última paraula, l’ambient de cuina puja, es deixa sentir dos o tres segons i es tanca amb una fosa i silenci. Sense sintonia musical ni informació parlada afegida."
     ],
     "plannedNewRequests": 1,
     "requiredVoices": {
@@ -457,19 +457,26 @@
     },
     "strategy": "packed-title-program-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
-    "approvalSource": "Validació explícita del docent el 20/11/2026: «S019 validat també, pot anar a producció». Guió, veus, confirmacions breus i solapament existent conservats, una petició completa."
+    "approvalSource": "El docent valida la síntesi de veus i demana un ambient enregistrat real de cuina, molt baix sota l’entrevista, amb entrada audible i pujada/fosa de tancament. Autorització de remuntatge del 20/11/2026, pendent d’audició.",
+    "externalRecordings": [
+      {
+        "id": "soundtasticpro-kitchen-484572",
+        "sha256": "1bd886bb25614d7e0768e77cd4200ad84f4db55f51257a5e16c11f47737155ad",
+        "license": "CC0 1.0"
+      }
+    ]
   },
   "S020": {
     "status": "approved",
-    "approvedFingerprint": "06fef5a0b6b6b38cba1dbbac427169ab632ba0c2a0604a84cfa34b9217fa1aa0",
+    "approvedFingerprint": "56e0ce761f7ae0d28ad191b8017386645ac299c1da8d9ce8e63565ef06170246",
     "reviewedAt": "2026-11-20T07:49:51.579Z",
     "reviewActivity": "ca-S020",
     "reviewContent": "content/propostes/sise.js",
     "format": "6è accessible: requisits explícits, finalitat de cada dada i aplicació d’una condició simple. No cal fer càlculs ni tenir experiència produint pòdcasts.",
     "cues": [
-      "Dos segons de sintonia, marge i veu sola a les bases del concurs. El text descriu un concurs de ficció.",
+      "Obertura de 3,8 segons de «Petita descoberta», marge i veu sola a les bases del concurs. El text descriu un concurs de ficció.",
       "Clic breu abans del nou bloc i pausa. No fer sons d’ordinador sota les instruccions de comprovació.",
-      "Veu completa, dues notes originals i 600 ms de silenci. No afegir cap data real, plataforma externa o condició no escrita."
+      "Veu completa, marge, tancament de 3,4 segons de «Petita descoberta» i silenci final. No afegir cap data real, plataforma externa o condició no escrita."
     ],
     "plannedNewRequests": 1,
     "requiredVoices": {
@@ -477,9 +484,14 @@
     },
     "strategy": "packed-title-program-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
-    "approvedScope": "voices-only",
-    "montageStatus": "awaiting-shared-jingle-validation",
-    "approvalNote": "Confirmació explícita del docent el 20/11/2026: S020 validada per enviar les veus a producció. La sintonia comuna d’obertura i tancament de Mireia es proposa i valida per separat abans d’incorporar-la al muntatge."
+    "approvedScope": "voices-and-montage",
+    "montageStatus": "approved-for-local-montage",
+    "approvalNote": "El docent valida les quatre sintonies i demana començar el muntatge de S020, conservant les veus rebudes. Petita descoberta a l’obertura i tancament; cap síntesi nova.",
+    "sharedJingle": {
+      "id": "petita-descoberta",
+      "obertura": "d7ada24dca9162960a7a68f9786d79bf8262225a50f9f904b886814927f77edc",
+      "tancament": "a3bbff7cdd4951d3c60f5e8d5bba43652a975d413af41f823a0653b60d426aec"
+    }
   },
   "S021": {
     "status": "approved",

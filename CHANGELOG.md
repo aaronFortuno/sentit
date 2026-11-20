@@ -1,5 +1,21 @@
 # Canvis
 
+## 0.1.44 · 20 de novembre de 2026
+
+- V4V en quatre zones: suport, autor, privadesa i codi/recursos; més amplada i tipografia uniforme. Changelog ampliat i compacte, amb enllaç al document complet de GitHub. Scroll intern propi als dos quadres.
+
+- S020 muntada des de les veus rebudes, amb Petita descoberta a l’entrada i sortida, clic breu dins una pausa comprovada i veu neta durant les instruccions. Fragment de 123,03 s; màster de 127,59 s. Pendent d’audició docent; cap síntesi nova.
+- Control de provisionals traslladat al footer com a funció experimental, amb la mateixa persistència local.
+
+- S018 publicada definitivament amb aprovació expressa, sense canviar el màster. Dificultat visible al subheader de la fitxa al costat del curs, tipus, durada i univers.
+- S003 publicada definitivament amb aprovació expressa. S008 publicada després de resoldre l’única condició docent: la música puja després de la veu, es manté dos segons i es fon durant dos segons. Veu seca i presentació idèntiques, màsters anteriors conservats i cap síntesi nova.
+- S012: quatre proves irregulars de guitarra real a l’entrada, atenuades abans de la veu, i tres intents d’afinació al final. S019: cuina real enregistrada CC0, entrada amb fosa, fons molt discret i pujada seguida de fosa al comiat. Veus validades conservades; els dos muntatges v2 esperen audició.
+- Cards «Síntesi pendent d’esmena» quan hi ha una correcció de veu oberta; retornen a «Àudio pendent de validar» quan totes les esmenes estan aplicades. Registrats matí/matà de S005 i temperatura/temperatira de S015.
+- Vuit frases preparades en quatre peticions de correcció, amb un màxim de dues veus per petició, pauses de tall i empremtes congelades. No s’han sintetitzat ni aplicat; es conserva el topall gratuït diari.
+- Les quatre parelles de sintonies validades es conserven com a catàleg. Selector de sintonia inicial al configurador, opció al QR i als enllaços, persistència en la configuració i reproducció una sola vegada. Els enllaços antics mantenen la seva pista; sense URLs externes ni exportació dinàmica a MP3.
+- «Compara les sintonies» accessible al catàleg i al costat del selector. Registres de validació, fonts, música i seguiment actualitzats.
+
+
 ## 0.1.43 · 20 de novembre de 2026
 
 - S004D publicada definitivament amb aprovació expressa de l’àudio, la música i el muntatge. Es conserva el mateix màster i es retiren les marques provisionals. Aprovació pròpia i vinculada a les empremtes del guió i de l’àudio.

@@ -25,6 +25,7 @@
 #filter-panel > summary { min-height: 28px; padding-inline-end: 35px; }
 .filter-reset { position: absolute; inset-block-start: 0; inset-inline-end: 0; z-index: 1; width: 28px; height: 28px; padding: 5px; border-color: transparent; background: transparent; color: var(--quiet); }
 .provisional-option { display: flex; align-items: center; gap: 8px; margin-top: 15px; color: var(--quiet); font-size: .78rem; cursor: pointer; }
+.catalog-review-link { display: inline-block; margin-top: 8px; font-size: .78rem; }
 .provisional-option input { appearance: none; flex: none; width: 30px; height: 18px; margin: 0; border: 1px solid var(--line); border-radius: 999px; background: var(--stage); cursor: pointer; position: relative; transition: background-color var(--motion), border-color var(--motion); }
 .provisional-option input::before { content: ''; position: absolute; top: 2px; left: 2px; width: 12px; height: 12px; border-radius: 50%; background: var(--quiet); transition: transform var(--motion), background-color var(--motion); }
 .provisional-option input:checked { background: var(--green); border-color: var(--green); }

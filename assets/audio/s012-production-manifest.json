@@ -1,15 +1,15 @@
 {
   "code": "S012",
   "activity": "ca-S012",
-  "date": "2026-11-20T09:35:59.322Z",
-  "state": "awaiting-audio-validation",
+  "date": "2026-11-20T16:09:11.934Z",
+  "state": "awaiting-montage-validation",
   "model": "gemini-3.8-flash-tts",
   "voices": {
     "Biel": "Puck",
     "Elies": "Algieba"
   },
   "newSynthesisRequests": 1,
-  "approvalFingerprint": "a0c2ffc4f711b25afb1b69b62ec15d5e7b5961470b8c15d5a5828a7c717acf44",
+  "approvalFingerprint": "032f0c40b06cadba320cc91a0141aa96f4c93f325a6bfdd38623653e764ad6cb",
   "requestHash": "29dee389b3a66507666baaca9a40d74a6124a3ed31827a57e281cce36ea7e6ff",
   "rawSha256": "80087beb1559c05ba2ed8771b59b258fcf868f3ae8010d7d79bde246e733b7e4",
   "usage": {
@@ -41,16 +41,16 @@
     "peakDbFS": -65.7,
     "rawSamplesPreserved": true
   },
-  "file": "s012-instruments-v1.mp3",
-  "introFile": "s012-instruments-v1-intro.mp3",
-  "bodyFile": "s012-instruments-v1-cos.mp3",
+  "file": "s012-instruments-v2.mp3",
+  "introFile": "s012-instruments-v2-intro.mp3",
+  "bodyFile": "s012-instruments-v2-cos.mp3",
   "offset": 4.18,
-  "bodyDuration": 112.39,
-  "fullDuration": 116.57,
-  "lufs": -19.4,
+  "bodyDuration": 119.09,
+  "fullDuration": 123.27000000000001,
+  "lufs": -19.5,
   "peakDbTP": -2.8,
   "voice": {
-    "bodyLead": 3,
+    "bodyLead": 3.6,
     "bodyRawDuration": 108.19000000000001,
     "untrimmedApartFromSilenceSplit": false,
     "retimed": false
@@ -80,31 +80,138 @@
   "montageNewSynthesisRequests": 0,
   "effects": [
     {
-      "name": "real-loose-guitar",
+      "name": "real-loose-guitar-sequence",
       "start": 0,
-      "end": 2.7,
+      "end": 118.09,
       "origin": "external-recording",
       "source": "assets/audio/sources/khenshom-537084-guitar.mp3",
       "sourceId": "khenshom-guitar-537084",
+      "sourceSha256": "b27703e3f933ea2588d9b6384148fcf278097247800391b236291a359950f252",
       "sourceUrl": "https://freesound.org/people/khenshom/sounds/537084/",
       "author": "khenshom",
       "license": "CC0 1.0",
       "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
-      "sourceSha256": "b27703e3f933ea2588d9b6384148fcf278097247800391b236291a359950f252",
       "excerpt": {
         "start": 2.7,
         "end": 5.4
       },
-      "gain": 0.85,
-      "retimed": false,
-      "pitchShifted": false
+      "gainBeforeLimiter": 1.6,
+      "openingSourceTimeUnchanged": true,
+      "events": [
+        {
+          "phase": "opening",
+          "start": 0,
+          "semitones": 0,
+          "end": 2.7,
+          "pitchShifted": false,
+          "durationPreserved": true
+        },
+        {
+          "phase": "opening",
+          "start": 0.85,
+          "semitones": 0,
+          "end": 3.5500000000000003,
+          "pitchShifted": false,
+          "durationPreserved": true
+        },
+        {
+          "phase": "opening",
+          "start": 2.05,
+          "semitones": 0,
+          "end": 4.75,
+          "pitchShifted": false,
+          "durationPreserved": true
+        },
+        {
+          "phase": "opening",
+          "start": 3.7,
+          "semitones": 0,
+          "end": 6.4,
+          "pitchShifted": false,
+          "durationPreserved": true
+        },
+        {
+          "start": 112.09,
+          "semitones": -1.2,
+          "phase": "ending",
+          "end": 114.79,
+          "pitchShifted": true,
+          "durationPreserved": true
+        },
+        {
+          "start": 113.34,
+          "semitones": -0.5,
+          "phase": "ending",
+          "end": 116.04,
+          "pitchShifted": true,
+          "durationPreserved": true
+        },
+        {
+          "start": 115.39,
+          "semitones": 0.1,
+          "phase": "ending",
+          "end": 118.09,
+          "pitchShifted": true,
+          "durationPreserved": true
+        }
+      ],
+      "voiceRetimed": false,
+      "speechStart": 4.05,
+      "speechOverlapSeconds": 2.3500000000000005,
+      "speechWindowMeanDbFS": -78,
+      "speechWindowPeakDbFS": -50.8,
+      "speechWindowVoiceMeanDbFS": -18.3,
+      "speechWindowMarginDb": 59.7,
+      "envelope": {
+        "duckBeforeSpeech": {
+          "start": 3.55,
+          "end": 3.9499999999999997
+        },
+        "underVoiceGain": 0.045,
+        "silentTail": 0.6
+      },
+      "tuningMethod": "Pitch changes only on the three recorded ending clips; asetrate plus compensating atempo, with original duration retained. No voice processing.",
+      "listeningValidation": "pending"
     },
     {
       "name": "workshop-paper",
-      "start": 70.27000000000001,
-      "end": 70.72000000000001,
+      "start": 70.87,
+      "end": 71.32000000000001,
       "origin": "original-procedural"
     }
   ],
-  "sha256": "923b9c34ccb60c109cefcf746386a6fd440d58c6a3751aa4fd2f70e719b002d1"
+  "sha256": "00344e8635392d7cae9b1ab299521bc8544a091d569838d86ad06a7b20ba8b1c",
+  "previousMaster": {
+    "file": "s012-instruments-v1.mp3",
+    "sha256": "923b9c34ccb60c109cefcf746386a6fd440d58c6a3751aa4fd2f70e719b002d1"
+  },
+  "voiceValidation": {
+    "approved": true,
+    "validatedAt": "2026-11-20",
+    "validatedBy": "docent",
+    "rawSha256": "80087beb1559c05ba2ed8771b59b258fcf868f3ae8010d7d79bde246e733b7e4",
+    "sourceRequestHash": "29dee389b3a66507666baaca9a40d74a6124a3ed31827a57e281cce36ea7e6ff",
+    "editorialEdit": {
+      "type": "keep-final-suffix",
+      "part": "comiat",
+      "retainedText": "Gràcies, Elies.",
+      "removeStart": 110.355,
+      "removeEnd": 118.575,
+      "sourceRequestHash": "29dee389b3a66507666baaca9a40d74a6124a3ed31827a57e281cce36ea7e6ff",
+      "sourceApprovalFingerprint": "4ef0fb068da5d0e65fdf692b82f1893e8cedcd5e804b29be4db9b42548925c01",
+      "reason": "Revisió general de tancaments demanada pel docent: conservar només l’agraïment concret, sense una segona petició de síntesi.",
+      "originalText": "Doncs avui torno sense una guitarra nova, però amb una idea nova: primer entendre el problema, després decidir què s’ha de tocar. Gràcies, Elies.",
+      "removedSeconds": 8.219999999999999,
+      "silenceChecks": [
+        {
+          "at": 110.355,
+          "peakDbFS": -57.4
+        },
+        {
+          "at": 118.575,
+          "peakDbFS": -66.8
+        }
+      ]
+    }
+  }
 }

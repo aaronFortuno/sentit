@@ -2,7 +2,7 @@
   "code": "S003",
   "activity": "ca-S003",
   "date": "2026-11-20T07:39:07.577Z",
-  "state": "awaiting-audio-validation",
+  "state": "published",
   "model": "gemini-3.8-flash-tts",
   "voices": {
     "Laia": "Leda",
@@ -61,7 +61,7 @@
     "speaker": "Laia",
     "listener": "Biel",
     "source": "Gemini TTS in the same take",
-    "listeningValidation": "pending"
+    "listeningValidation": "approved"
   },
   "effects": [
     {
@@ -83,5 +83,12 @@
       "origin": "original-procedural"
     }
   ],
-  "sha256": "a0cadf740e032c69fd50d7fdd33f2fe59290c39dcf0d1e078e3f0145ece8367f"
+  "sha256": "a0cadf740e032c69fd50d7fdd33f2fe59290c39dcf0d1e078e3f0145ece8367f",
+  "teacherValidation": {
+    "validatedAt": "2026-11-20",
+    "validatedBy": "docent",
+    "confirmation": "S003 queda validat i es pot publicar.",
+    "audioSha256": "a0cadf740e032c69fd50d7fdd33f2fe59290c39dcf0d1e078e3f0145ece8367f",
+    "editorialFingerprint": "cbb297a7ce3af1c176b240e21a1750c9e0606d9ca8e8728434277f239ec05624"
+  }
 }

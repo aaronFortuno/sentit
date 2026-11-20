@@ -15,7 +15,7 @@ export const soundSources = [{
   sha256: 'b27703e3f933ea2588d9b6384148fcf278097247800391b236291a359950f252',
   usedBy: ['ca-S012'],
   excerpt: { start: 2.7, end: 5.4 },
-  treatment: 'Fragment breu de context abans de la parla; ajust de nivell i conversió a mono. Sense canvi de to ni velocitat, sense síntesi i sense comparació abans/després.',
+  treatment: 'Quatre proves irregulars amplificades a l’obertura, que baixen de volum quan comença en Biel. Tres proves al comiat amb petits canvis de to només a la guitarra gravada, compensant-ne la durada per suggerir un intent d’afinació. No es presenta com una reparació reeixida; les veus es conserven.',
 }, {
   id: 'evsecrets-footsteps-334457',
   title: "Two people's footsteps walking on a wet cement sidewalk",
@@ -48,6 +48,20 @@ export const soundSources = [{
   usedBy: ['ca-S022'],
   excerpts: { opening: { start: .6, seconds: 2.2 }, transition: { start: 2.7, seconds: .8 } },
   treatment: 'Fragments amb foses abans de la narració i dins la pausa de retorn al present. Nivell baix, conversió a mono, sense alteració de velocitat ni de to. Substitueix els tocs de rail sintètics; la música original es conserva.',
+}, {
+  id: 'soundtasticpro-kitchen-484572',
+  title: 'Ambiente kitchen Cocina Spain España', author: 'SoundtasticPro',
+  url: 'https://freesound.org/people/SoundtasticPro/sounds/484572/',
+  license: 'CC0 1.0', licenseUrl: 'https://creativecommons.org/publicdomain/zero/1.0/',
+  origin: 'external-recording',
+  description: 'Ambient enregistrat en una cuina de restaurant a Espanya: coberts, aparells, tallar aliments i fregir, amb aire condicionat, segons la descripció de l’autor.',
+  file: 'assets/audio/sources/soundtasticpro-484572-kitchen.mp3',
+  rendition: 'Còpia pública HQ en MP3 de Freesound; no és el WAV original.',
+  downloadUrl: 'https://cdn.freesound.org/previews/484/484572_9244845-hq.mp3',
+  retrievedAt: '2026-11-20',
+  sha256: '1bd886bb25614d7e0768e77cd4200ad84f4db55f51257a5e16c11f47737155ad',
+  usedBy: ['ca-S019'],
+  treatment: 'Normalització, filtratge lleuger i dues passades amb una fosa creuada d’un segon. Entrada audible, nivell molt baix sota el diàleg, pujada al comiat i fosa final. Sense afegir efectes sintètics ni alterar les veus.',
 }];
 
 export function soundSourcesForActivity(entry) {

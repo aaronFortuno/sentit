@@ -6,7 +6,7 @@ const {productionSpec,packedProposalRequest}=require('./proposal-plan.cjs'),{ass
 const {findPhrase,normalize}=require('./render-radio.cjs');
 const root=path.resolve(__dirname,'..'),work=path.resolve(root,'../output/sentit-primera-tanda');
 const hash=data=>createHash('sha256').update(data).digest('hex');
-const recipes={S023:{file:'s023-mercat-v1',content:'content/reobren-el-mercat.js',lead:2.5,tail:3.2},S019:{file:'s019-cuinera-v1',source:'sise',titleCut:3.95,lead:2.3,tail:3.2},S004D:{file:'s004d-boto-dialogat-v1',source:'variants',titleMinGap:.7,lead:2.7,tail:4},S005:{file:'s005-cartera-v1',source:'tercer',lead:2.5,tail:3.2},S004:{file:'s004-boto-v1',source:'tercer',lead:2.7,tail:4},S003:{file:'s003-paraigua-v1',source:'tercer',lead:2.25,tail:3.2},S010:{file:'s010-pavello-v2',source:'quart',lead:2,tail:2},S012:{file:'s012-instruments-v1',source:'quart',titleWords:7,lead:3,tail:1.2},S013:{file:'s013-carta-v2',source:'quart',lead:1.1,tail:3.2},S016:{file:'s016-jaciment-v1',source:'cinque',titleMinGap:.5,lead:2.3,tail:2.8},S018:{file:'s018-armari-verd-v1',source:'cinque',lead:2.7,tail:6},S022:{file:'s022-tramvia-v2',source:'sise',lead:2.7,tail:6}};
+const recipes={S020:{file:'s020-podcasts-v1',source:'sise',titleWords:8,titleLastWord:'podcast',titleCut:4.01,lead:4.3,tail:4.5},S023:{file:'s023-mercat-v1',content:'content/reobren-el-mercat.js',lead:2.5,tail:3.2},S019:{file:'s019-cuinera-v2',source:'sise',titleCut:3.95,lead:2.8,tail:5},S004D:{file:'s004d-boto-dialogat-v1',source:'variants',titleMinGap:.7,lead:2.7,tail:4},S005:{file:'s005-cartera-v1',source:'tercer',lead:2.5,tail:3.2},S004:{file:'s004-boto-v1',source:'tercer',lead:2.7,tail:4},S003:{file:'s003-paraigua-v1',source:'tercer',lead:2.25,tail:3.2},S010:{file:'s010-pavello-v2',source:'quart',lead:2,tail:2},S012:{file:'s012-instruments-v2',source:'quart',titleWords:7,lead:3.6,tail:7.3},S013:{file:'s013-carta-v2',source:'quart',lead:1.1,tail:3.2},S016:{file:'s016-jaciment-v1',source:'cinque',titleMinGap:.5,lead:2.3,tail:2.8},S018:{file:'s018-armari-verd-v1',source:'cinque',lead:2.7,tail:6},S022:{file:'s022-tramvia-v2',source:'sise',lead:2.7,tail:6}};
 async function main(){
  const code=process.argv.find(arg=>arg.startsWith('--only='))?.slice(7).toUpperCase().replace(/^CA-/,'');
  const recipe=recipes[code];if(!recipe)throw Error('No hi ha recepta de muntatge revisada per a aquest codi.');
@@ -22,7 +22,7 @@ async function main(){
  if(attempt.state!=='complete'||attempt.audioSha256!==hash(bytes))throw Error('La presa no coincideix amb l’intent complet.');
  const alignment=await recognize(raw,path.join(folder,'alignment-packed.json')),words=alignment.words;
  const titleCount=recipe.titleWords??entry.introduction.split(/\s+/u).filter(word=>/[\p{L}\p{N}]/u.test(word)).length,lastTitle=words[titleCount-1],firstBody=words[titleCount];
- if(normalize(lastTitle.word)!==normalize(entry.introduction.split(/\s+/u).at(-1))||firstBody.start-lastTitle.end<(recipe.titleMinGap??.8))throw Error('Cal revisar manualment la pausa després del títol.');
+ if(normalize(lastTitle.word)!==normalize(recipe.titleLastWord??entry.introduction.split(/\s+/u).at(-1))||firstBody.start-lastTitle.end<(recipe.titleMinGap??.8))throw Error('Cal revisar manualment la pausa després del títol.');
  const cut=recipe.titleCut??Math.round((lastTitle.end+firstBody.start)*500)/1000,binary=await ffmpegBinary();
  if(cut<=lastTitle.end+.15||cut>=firstBody.start-.15)throw Error('El tall no deixa prou marge als mots del títol i del fragment.');
  const wav=(name,args)=>{const file=path.join(folder,name+'.wav');ffmpeg(binary,['-v','error','-y',...args,'-ar','48000','-ac','1','-c:a','pcm_s16le',file]);return file;};
@@ -95,21 +95,37 @@ async function main(){
   if(!recording||!approved||approved.sha256!==recording.sha256||JSON.stringify(approved.excerpt)!==JSON.stringify(recording.excerpt)||approved.license!==recording.license)throw Error('La gravació real no coincideix amb la font i el fragment aprovats.');
   const sourceFile=path.join(root,recording.file);
   if(hash(await fs.readFile(sourceFile))!==recording.sha256)throw Error('La gravació real de guitarra ha canviat.');
-  const seconds=recording.excerpt.end-recording.excerpt.start;
-  if(!(seconds>0&&seconds<lead-.15))throw Error('La guitarra ha d’acabar abans de la parla.');
-  const guitar=wav('real-loose-guitar',['-i',sourceFile,'-af',`atrim=start=${recording.excerpt.start}:end=${recording.excerpt.end},asetpts=PTS-STARTPTS,volume=0.85`]);
-  add(guitar,'real-loose-guitar',0,seconds,{origin:recording.origin,source:recording.file,sourceId:recording.id,sourceUrl:recording.url,author:recording.author,license:recording.license,licenseUrl:recording.licenseUrl,sourceSha256:recording.sha256,excerpt:recording.excerpt,gain:.85,retimed:false,pitchShifted:false});
+  const scene=await require('./recorded-scenes.cjs').guitarSequence({root,binary,wav,recording,voice,lead,voiceEnd,tail,speechStart:lead+firstBody.start-cut});
+  add(scene.file,scene.effect.name,scene.effect.start,scene.effect.end,scene.effect);
   transition('i perquè tens els instruments','workshop-paper',12012);
  }else if(code==='S013'){
   add(paper('envelope-opening',.65,13013),'envelope-opening',0,.65);
   transition('quan la carta arriba','sorting-to-delivery',13014);
   // The teacher rejected the two-note ending. Keep the complete voice and a silent tail.
  }else if(code==='S019'){
-  const bowl=wav('quiet-bowl-contact',['-f','lavfi','-i',"aevalsrc='(0.028*sin(2*PI*620*t)+0.012*sin(2*PI*1137*t))*exp(-13*t)':s=48000:d=0.5",'-af','afade=t=in:d=0.006,afade=t=out:st=0.3:d=0.2']);
-  add(bowl,'quiet-bowl-contact',.1,.6);add(paper('menu-opening',.6,19019),'menu-opening',.9,1.5);
-  transition('i quan el menjar','menu-turn',19020);
-  const sting=wav('kitchen-ending',['-f','lavfi','-i',"aevalsrc='0.04*sin(2*PI*if(lt(t,0.6),440,349.23)*t)*exp(-5*mod(t,0.6))':s=48000:d=2",'-af','afade=t=in:d=0.025,afade=t=out:st=1.2:d=0.8']);
-  add(sting,'kitchen-ending',voiceEnd+.3,voiceEnd+2.3);
+  const {soundSourcesForActivity}=await import(pathToFileURL(path.join(root,'content/sound-sources.js')));
+  const recording=soundSourcesForActivity(entry).find(source=>source.id==='soundtasticpro-kitchen-484572'),approved=plans[code].externalRecordings?.find(source=>source.id===recording?.id);
+  if(!recording||!approved||approved.sha256!==recording.sha256||approved.license!==recording.license)throw Error('L’ambient de cuina no coincideix amb la font aprovada.');
+  if(hash(await fs.readFile(path.join(root,recording.file)))!==recording.sha256)throw Error('La gravació de cuina ha canviat.');
+  const scene=await require('./recorded-scenes.cjs').kitchenBed({root,binary,wav,recording,voice,lead,voiceEnd,tail});
+  if(scene.effect.envelope.duckBeforeSpeech.end>lead+firstBody.start-cut-.15)throw Error('L’ambient no baixa prou abans de la primera paraula.');
+  add(scene.file,scene.effect.name,scene.effect.start,scene.effect.end,scene.effect);
+ }else if(code==='S020'){
+  const jingle=JSON.parse(await fs.readFile(path.join(root,'assets/audio/mireia-jingle-proposta-v1.json'),'utf8'));
+  const approved=plans[code].sharedJingle;
+  if(jingle.status!=='approved'||!jingle.approval||approved?.id!=='petita-descoberta')throw Error('La sintonia del programa necessita aprovació.');
+  for(const kind of ['obertura','tancament']){
+   const track=jingle.files.find(file=>file.kind===kind),file=path.join(root,track.file);
+   if(hash(await fs.readFile(file))!==track.sha256||approved[kind]!==track.sha256)throw Error('La sintonia aprovada ha canviat.');
+   const start=kind==='obertura'?0:voiceEnd+.35;
+   if((kind==='obertura'&&track.durationSeconds>lead-.3)||(kind==='tancament'&&start+track.durationSeconds>voiceEnd+tail-.6))throw Error('No hi ha prou marge fora de la veu per a la sintonia.');
+   add(file,'petita-descoberta-'+kind,start,start+track.durationSeconds,{origin:'original-procedural-composition',source:track.file,sourceSha256:track.sha256,sourceId:'petita-descoberta',author:'Sentit',license:'MIT',retimed:false});
+  }
+  const index=findPhrase(words,'quan l’arxiu estigui pujat'),gap=words[index].start-words[index-1].end,seconds=Math.min(.09,gap-.18);
+  if(seconds<.035)throw Error('Cal revisar la pausa de la comprovació abans de posar el clic.');
+  const start=lead+words[index].start-cut-.09-seconds;
+  const click=wav('podcast-check-click',['-f','lavfi','-i',`anoisesrc=color=pink:amplitude=0.05:sample_rate=48000:duration=${seconds}:seed=20020`,'-af',`highpass=f=650,lowpass=f=3200,volume=0.16,afade=t=in:d=0.003,afade=t=out:st=${Math.max(.005,seconds-.025)}:d=0.025`]);
+  add(click,'podcast-check-click',start,start+seconds);
  }else if(code==='S023'){
   const sting=wav('market-news-sting',['-f','lavfi','-i',"aevalsrc='0.045*sin(2*PI*if(lt(t,0.5),392,if(lt(t,1),493.88,587.33))*t)*(1-exp(-80*mod(t,0.5)))*exp(-5*mod(t,0.5))':s=48000:d=2",'-af','afade=t=in:d=0.025,afade=t=out:st=1.35:d=0.65']);
   add(sting,'market-news-opening',0,2);
@@ -178,15 +194,23 @@ async function main(){
  const provider=JSON.parse(await fs.readFile(path.join(folder,'provider-usage-packed.json'),'utf8'));
  const report={code,activity:'ca-'+code,date:new Date().toISOString(),state:'awaiting-audio-validation',model:provider.model,voices:spec.voices,newSynthesisRequests:1,approvalFingerprint:fingerprint(entry,spec,plans[code]),requestHash,rawSha256:hash(bytes),usage:provider.usage,rawDuration,cut:{at:cut,previousWordEnd:lastTitle.end,nextWordStart:firstBody.start,peakDbFS:cutPeak,rawSamplesPreserved:true},file:path.basename(master),introFile:path.basename(introFile),bodyFile:path.basename(bodyFile),offset,bodyDuration,fullDuration:offset+bodyDuration,lufs,peakDbTP,voice:{bodyLead:lead,bodyRawDuration,untrimmedApartFromSilenceSplit:!reuse,retimed:false},...(spec.performance?{vocalPerformance:{...spec.performance,source:'Gemini TTS in the same take',listeningValidation:'pending'}}:{}),...(spec.overlaps?{vocalOverlaps:{requested:spec.overlaps,source:'Gemini TTS in the same take',listeningValidation:'pending'}}:{}),...(reuse?{editorialEdit:reuse,montageNewSynthesisRequests:0}:{}),effects,sha256:hash(await fs.readFile(master))};
  const {musicForActivity}=await import(pathToFileURL(path.join(root,'content/music-catalogue.js'))),musicTrack=musicForActivity(entry);
- if(['S010','S013','S022'].includes(code)){
+ if(code==='S020'){report.montageNewSynthesisRequests=0;report.sharedJingle={id:'petita-descoberta',approvedAt:'2026-11-20',opening:effects[0].sourceSha256,closing:effects[1].sourceSha256};}
+ if(['S010','S013','S022','S012','S019'].includes(code)){
   const previousFile=path.join(folder,'before-remount-v2.json');
   if(!await fs.stat(previousFile).catch(error=>{if(error.code==='ENOENT')return null;throw error;}))await fs.copyFile(path.join(root,`assets/audio/${code.toLowerCase()}-production-manifest.json`),previousFile);
   const previous=JSON.parse(await fs.readFile(previousFile,'utf8'));
   if(previous.rawSha256!==report.rawSha256||previous.requestHash!==report.requestHash)throw Error('El remuntatge ha canviat la presa de veu.');
   report.montageNewSynthesisRequests=0;
   report.previousMaster={file:previous.file,sha256:previous.sha256};
-  report.state='awaiting-pronunciation-correction-and-audio-review';
-  report.pronunciationRepair={plan:'content/audio-repairs.json',status:'pending-quota-and-listening',applied:false};
+  if(['S012','S019'].includes(code)){
+   report.state='awaiting-montage-validation';
+   const {productionProgress}=await import(pathToFileURL(path.join(root,'content/production-progress.js')));
+   report.voiceValidation=productionProgress['ca-'+code].voiceValidation;
+   if(!report.voiceValidation?.approved||report.voiceValidation.rawSha256!==report.rawSha256)throw Error('La veu no coincideix amb la validada pel docent.');
+  }else{
+   report.state='awaiting-pronunciation-correction-and-audio-review';
+   report.pronunciationRepair={plan:'content/audio-repairs.json',status:'pending-quota-and-listening',applied:false};
+  }
  }
  if(effects.some(effect=>effect.name==='gentle-narration-bed'||effect.name==='gentle-tram-memory-bed')){
   if(!musicTrack)throw Error('La base musical necessita una entrada al catàleg de músiques.');

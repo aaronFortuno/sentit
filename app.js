@@ -1,7 +1,7 @@
 import { activities, legacyActivities } from './catalogue.js';
 import { strings } from './locales.js';
 import { defaultFormat, imageOptions, maxLines, questionFormat, renderWorksheet } from './worksheet.js';
-import { clockTime, decodeSession, defaultSession, encodeSession, guidedPrompts, validRate } from './session.js';
+import { clockTime, decodeSession, defaultSession, encodeSession, guidedPrompts, validRate, sessionJingles, validJingle } from './session.js';
 import { renderAudioResources } from './audio-resources.js';
 import { isPendingReview, needsReview } from './review.js';
 import { renderGenerationPlan } from './generation-plan.js';
@@ -43,6 +43,9 @@ const publicListenUrl = entry => listenUrl(entry, 'https://sentit.ortogra.fi/');
 const printLocale = entry => strings[entry.language] ?? strings.ca;
 const formatForm = byId('worksheet-format');
 const sessionEditor = byId('session-editor');
+byId('audio-jingle-choice').replaceChildren(...sessionJingles.map(jingle => {
+  const option = document.createElement('option'); option.value = jingle.id; option.textContent = jingle.title; return option;
+}));
 const paper = byId('paper');
 const format = { ...defaultFormat };
 let activitySettings = {};
@@ -80,7 +83,9 @@ function applyFormat(settings) {
 }
 
 function sessionSettings(entry) {
-  return { ...defaultSession, ...(entry === selected ? currentSettings.session : activitySettings[entry.id]?.session) };
+  const settings = { ...defaultSession, ...(entry === selected ? currentSettings.session : activitySettings[entry.id]?.session) };
+  if (!sessionJingles.some(jingle => jingle.id === settings.jingleId)) settings.jingleId = defaultSession.jingleId;
+  return settings;
 }
 
 function configuredSession(entry) {
@@ -96,6 +101,7 @@ function listenUrl(entry, base = location.href) {
   const options = sessionSettings(entry);
   if (options.rate !== 1) url.searchParams.set('ritme', options.rate.toFixed(2));
   if (!options.jingle) url.searchParams.set('jingle', '0');
+  else url.searchParams.set('sintonia', options.jingleId);
   return url.href;
 }
 
@@ -242,6 +248,8 @@ function renderSessionEditor() {
     byId('session-repeat').disabled = session.listens === 1;
     byId('audio-rate').value = session.rate.toFixed(2);
     byId('audio-jingle').checked = session.jingle;
+    byId('audio-jingle-choice').value = sessionJingles.some(jingle => jingle.id === session.jingleId) ? session.jingleId : defaultSession.jingleId;
+    byId('audio-jingle-choice').disabled = !session.jingle;
     byId('teacher-audio').playbackRate = session.rate;
     byId('teacher-audio').preservesPitch = true;
   }
@@ -263,7 +271,7 @@ function renderSelection() {
   byId('print-label').textContent = t(isPendingReview(selected) ? 'reviewPending' : documentMode === 'answers' ? 'printAnswers' : 'printWorksheet');
   byId('print-kind').textContent = selected ? t(isPendingReview(selected) ? 'reviewPrintBlocked' : 'printHint') : '';
   const scope = listCollections().find(entry => entry.id === activeCollectionId);
-  byId('activity-meta').textContent = selected ? `${t('grades')[selected.grade] ?? selected.grade} · ${t('genres')[selected.genre] ?? selected.genre} · ${durationText(selected, t)}${scope ? ` · ${scope.name}` : ''}` : '';
+  byId('activity-meta').textContent = selected ? `${t('grades')[selected.grade] ?? selected.grade} · ${t('genres')[selected.genre] ?? selected.genre} · ${t('level')}: ${t('levels')[selected.level] ?? selected.level} · ${durationText(selected, t)}${scope ? ` · ${scope.name}` : ''}` : '';
   if (selected) {
     const linked = universesForActivity(selected);
     byId('activity-meta').textContent += ' · ' + (linked.length ? linked.map(universe => universeName(universe, language)).join(' · ') : t('independentActivity'));
@@ -356,7 +364,8 @@ function player(entry) {
   const prompts = guidedPrompts(entry);
   const rate = query.has('ritme') ? Number(query.get('ritme')) : 1;
   const jingle = query.get('jingle') !== '0';
-  const invalidConfig = Boolean(entry?.audio) && ((sessionCode !== null && (!session || !prompts)) || !validRate(rate) || (query.has('jingle') && !['0', '1'].includes(query.get('jingle'))));
+  const jingleId = query.get('sintonia') ?? 'sentit-v1';
+  const invalidConfig = Boolean(entry?.audio) && ((sessionCode !== null && (!session || !prompts)) || !validRate(rate) || !validJingle(jingleId) || (query.has('jingle') && !['0', '1'].includes(query.get('jingle'))));
   const available = Boolean(entry?.audio) && !invalidConfig;
   byId('player-title').textContent = invalidConfig ? t('invalidSession') : entry?.title ?? t('invalid');
   byId('player-title').lang = entry?.language ?? language;
@@ -371,7 +380,7 @@ function player(entry) {
   const timer = byId('session-countdown');
   const label = byId('play-label');
   statusNode.classList.remove('sr-only');
-  initGuidedPlayer(entry, { ...(session ?? { enabled: false }), rate, jingle }, prompts, play, ({ action, status, countdown, number, busy }) => {
+  initGuidedPlayer(entry, { ...(session ?? { enabled: false }), rate, jingle, jingleId }, prompts, play, ({ action, status, countdown, number, busy }) => {
     if (label.textContent !== t(action)) {
       label.textContent = t(action);
       icon(play.querySelector('[data-icon]'), action === 'pause' ? 'pause' : 'play');
@@ -444,6 +453,7 @@ function updateSession(event) {
       repeat: byId('session-repeat').checked,
       rate: Number(byId('audio-rate').value),
       jingle: byId('audio-jingle').checked,
+      jingleId: byId('audio-jingle-choice').value,
     };
     if (JSON.stringify(session) !== JSON.stringify(sessionSettings(selected))) {
       currentSettings.session = session;
@@ -629,7 +639,7 @@ let searchTimer;
 byId('search').addEventListener('input',()=>{clearTimeout(searchTimer);searchTimer=setTimeout(()=>{const value=byId('search').value.trim();if(value)track('cerca_cataleg',{tipus:/^(?:ca-|es-)?s\d+[a-z]?$/i.test(value)?'codi':'text',resultats:countBucket(catalog.entries().length)});},600);});
 formatForm.addEventListener('change',event=>track('maqueta_fitxa',{code:selected?.code,bloc:event.target.name,accio:'ajusta',font:format.font}));
 for(const [id,bloc]of [['classroom-code','codi_aula'],['image-editor','imatge'],['show-instructions','instruccions'],['show-evidence','pistes']])byId(id).addEventListener('change',()=>track('maqueta_fitxa',{code:selected?.code,bloc,accio:'ajusta'}));
-sessionEditor.addEventListener('change',()=>{const config=sessionSettings(selected);track('configura_audio',{code:selected?.code,escoltes:String(config.listens),ritme:config.rate.toFixed(2),lectura:String(config.reading),pausa:String(config.interval),sintonia:config.jingle,pautada:config.enabled});});
+sessionEditor.addEventListener('change',()=>{const config=sessionSettings(selected);track('configura_audio',{code:selected?.code,escoltes:String(config.listens),ritme:config.rate.toFixed(2),lectura:String(config.reading),pausa:String(config.interval),sintonia:config.jingle?config.jingleId:'cap',pautada:config.enabled});});
 byId('generation-plan').addEventListener('click', event => {
   const take = event.target.closest('[data-take]');
   if (!take) return;

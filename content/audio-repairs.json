@@ -80,5 +80,75 @@
     ],
     "application": "Audition against the original. The spelling rails in the transcript is correct and is not changed to raïls. Locate silent handles, level-match and splice only after perceptual validation; ASR cannot certify pronunciation.",
     "approvedRequestHash": "dc75acf7a5f1dae1c4d229ce80f07a0257da22db6d95d0f7235b45a125f75f1f"
+  },
+  "S005": {
+    "activity": "ca-S005",
+    "status": "approved-for-correction",
+    "approvedAt": "2026-11-20",
+    "approvalSource": "Text del guió ja validat; esmena de síntesi identificada pel docent i inclosa al lot de correccions curtes demanat el 20/11/2026. Cap canvi de paraules.",
+    "sourceRequestHash": "14eb1eb064a0d7610ce9dae659f487e598d2f715b371a8d789a7c5900baa3e81",
+    "sourceRawSha256": "b7a7be7a9e47572ff3e84f54c772d61d8c50dacd306c8f777feda08b5c274a16",
+    "notBefore": "2026-11-21T08:00:00.000Z",
+    "voices": {
+      "Biel": "Puck",
+      "Joana": "Vindemiatrix"
+    },
+    "direction": "Read the supplied repair sentence verbatim in natural Central Catalan, with clear word onsets and endings. No title, effects, repetitions or added words. Pronunciation directions are never spoken.",
+    "repairs": [
+      {
+        "part": "comprovar",
+        "speaker": "Joana",
+        "text": "Aquest matí, per exemple, he apartat un sobre per revisar-lo abans de sortir.",
+        "pronunciation": "Matí is stressed on the last vowel Í: ma-TÍ, never ma-TÀ. Pronounce the complete word and sentence clearly; do not say the spelling guide."
+      }
+    ],
+    "application": "Local phrase replacement only after listening, preserving the rest of the raw recording and checking silent handles.",
+    "approvedRequestHash": "199df0ca13eadc5ebf99ceac4355e01698cb40f2051f92c6557160134a84459a"
+  },
+  "S016": {
+    "activity": "ca-S016",
+    "status": "approved-for-correction",
+    "approvedAt": "2026-11-20",
+    "approvalSource": "Text del guió ja validat; esmena de síntesi identificada pel docent i inclosa al lot de correccions curtes demanat el 20/11/2026. Cap canvi de paraules.",
+    "sourceRequestHash": "3a6958c71174a0d5affc3e915044570e88be424acd8cb48a00837e03e4ff0bf1",
+    "sourceRawSha256": "b91c85a798519ef2c0e7c8fced954bdb56892242aacf02f5cdc467fd95d23481",
+    "notBefore": "2026-11-21T08:00:00.000Z",
+    "voices": {
+      "Mar": "Erinome"
+    },
+    "direction": "Read the supplied repair sentence verbatim in natural Central Catalan, with clear word onsets and endings. No title, effects, repetitions or added words. Pronunciation directions are never spoken.",
+    "repairs": [
+      {
+        "part": "exposicio",
+        "speaker": "Mar",
+        "text": "Si l’estudi avança, l’equip voldria preparar una mostra al centre cívic amb fotografies del procés i alguns resultats.",
+        "pronunciation": "Start the sentence cleanly with the full word Si: brief /s/ followed by /i/. No breath noise, static, fricative held in place of the word, or added sounds."
+      }
+    ],
+    "application": "Local phrase replacement only after listening, preserving the rest of the raw recording and checking silent handles.",
+    "approvedRequestHash": "d43335d6ca50e24dfe0d17b43f31e2ad67f7040083b26a3628ebd936896b4df7"
+  },
+  "S015": {
+    "activity": "ca-S015",
+    "status": "approved-for-correction",
+    "approvedAt": "2026-11-20",
+    "approvalSource": "El docent identifica temperatura com a temperatira i demana la mateixa correcció local que les altres incidències; resta de la peça correcta, jingle pendent. Text editorial conservat.",
+    "sourceRequestHash": "9b17e4318a021e468dcb14fe30e845955d743679a56d151b88425c3836f228f3",
+    "sourceRawSha256": "efe4f1268310712422877b86ecd8a5044b36799e2ad3e175c9b679cd2f9f1b8f",
+    "notBefore": "2026-11-21T08:00:00.000Z",
+    "voices": {
+      "Nora": "Kore"
+    },
+    "direction": "Read the repair sentence verbatim as Nora, a calm adult art conservator, in natural Central Catalan. Keep the complete consonants and word endings. No title, music, effects, repetitions or added words. Pronunciation directions are not spoken.",
+    "repairs": [
+      {
+        "part": "llum",
+        "speaker": "Nora",
+        "text": "Per això es controla la il·luminació i també les condicions de temperatura i humitat.",
+        "pronunciation": "Say temperatura clearly, with the U in the stressed syllable TU, never temperatira. Respect il·luminació as a gently lengthened lateral L, never a palatal LL. Keep the phrase fluent; do not read this guidance aloud."
+      }
+    ],
+    "application": "Compare the repair against the original, then find silent handles, match level and splice only this sentence. No automatic replacement, retiming or final publication.",
+    "approvedRequestHash": "ed0588aeb64811b62fd7932e8f58d35dace263a9d77d283e393ed8f6f00fe91e"
   }
 }

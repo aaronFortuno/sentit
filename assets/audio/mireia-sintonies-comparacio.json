@@ -1,5 +1,5 @@
 {
-  "status": "all-proposals-pending-validation",
+  "status": "all-four-approved",
   "existing": "assets/audio/mireia-jingle-proposta-v1.json",
   "newProposals": [
     {
@@ -21,5 +21,9 @@
       "manifest": "assets/audio/mireia-ona-curta-v1.json"
     }
   ],
-  "newApiRequests": 0
+  "newApiRequests": 0,
+  "approval": {
+    "by": "docent",
+    "date": "2026-11-20"
+  }
 }

@@ -73,7 +73,7 @@
         </form>
       </details>
       </div>
-      <label class="provisional-option"><input id="show-provisional" type="checkbox" role="switch" checked><span data-t="showProvisional">Mostra els provisionals</span></label>
+      <a id="compare-jingles" class="catalog-review-link" href="./proves/sintonies-mireia.html" target="_blank" rel="noopener noreferrer" data-t="compareJingles">Compara les sintonies</a>
       <details id="collection-panel" class="catalog-collections" open>
         <summary data-t="collections">Col·leccions</summary>
         <p id="collection-help" class="collection-help"></p>
@@ -165,6 +165,7 @@
               <div class="audio-extras">
                 <label><span data-t="speechRate">Ritme de locució</span><select id="audio-rate"><option value="0.80">×0,80</option><option value="0.85">×0,85</option><option value="0.90">×0,90</option><option value="0.95">×0,95</option><option value="1.00" selected>×1,00</option><option value="1.05">×1,05</option><option value="1.10">×1,10</option><option value="1.15">×1,15</option><option value="1.20">×1,20</option></select></label>
                 <label class="jingle-option"><input id="audio-jingle" type="checkbox" checked><span data-t="jingle">Sintonia inicial</span></label>
+                <div class="jingle-selection"><label for="audio-jingle-choice" data-t="jingleChoice">Tria la sintonia</label><div class="jingle-selection-row"><select id="audio-jingle-choice"></select><a href="./proves/sintonies-mireia.html" target="_blank" rel="noopener noreferrer" data-t="compareJingles">Compara les sintonies</a></div></div>
               </div>
             </form>
             <details class="audio-preview"><summary data-t="audioPreview">Escolta el fragment</summary><audio id="teacher-audio" controls preload="none" data-label="audio"></audio></details>
@@ -241,8 +242,9 @@
       <span class="motto" data-t="motto">Escolta. Entén. Respon.</span>
       <a class="parent-brand" href="https://ortogra.fi/"><span data-t="parent">Un projecte d’</span><img src="./assets/ortografi.svg" width="83" height="20" alt="ortogra.fi"></a>
       <nav aria-label="Projecte" data-label="project">
+        <label class="provisional-option footer-provisional" title="Funció experimental"><input id="show-provisional" type="checkbox" role="switch" checked><span data-t="showProvisionalExperimental">Provisionals · experimental</span></label>
         <a href="./LICENSE" data-t="license">Llicència</a>
-        <button type="button" data-open="changes" data-label="changes">v0.1.43</button>
+        <button type="button" data-open="changes" data-label="changes">v0.1.44</button>
         <button type="button" data-open="v4v">V4V</button>
       </nav>
     </div>
@@ -283,6 +285,10 @@
       <div class="dialog-head"><h2 id="changes-title" data-t="changes">Canvis</h2>
         <form method="dialog"><button class="icon-button" type="submit" data-label="close"><span data-icon="close" aria-hidden="true"></span></button></form>
       </div>
+      <a class="changelog-full" href="https://github.com/aaronFortuno/sentit/blob/main/CHANGELOG.md" target="_blank" rel="noopener noreferrer" data-t="fullChangelog">Changelog complet a GitHub</a>
+      <div class="changelog-scroll dialog-scroll">
+      <h3>0.1.44 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
+      <p data-t="releaseSoundReview"></p>
       <h3>0.1.43 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
       <p data-t="releasePublishedVariant"></p>
       <h3>0.1.42 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
@@ -375,24 +381,23 @@
       <p data-t="releaseUpdate">Vista d’escolta simplificada i selector amb icona de traducció.</p>
       <h3>0.1.0 <time datetime="2026-11-17" data-t="releaseDate">17 de novembre de 2026</time></h3>
       <p data-t="release">Catàleg, reproductor d’escolta i vista d’impressió amb una fitxa de mostra.</p>
+      </div>
     </div>
   </dialog>
   <dialog id="v4v" aria-labelledby="v4v-title">
     <div class="dialog-content">
-      <div class="dialog-head"><h2 id="v4v-title">Value for Value</h2>
-        <form method="dialog"><button class="icon-button" type="submit" data-label="close"><span data-icon="close" aria-hidden="true"></span></button></form>
-      </div>
-      <div class="v4v-intro">
+      <form method="dialog" class="v4v-close"><button class="icon-button" type="submit" data-label="close"><span data-icon="close" aria-hidden="true"></span></button></form>
+      <div class="v4v-grid dialog-scroll">
+        <section class="v4v-value"><h2 id="v4v-title">Value for Value</h2><div class="v4v-intro">
         <a class="lightning-qr" href="lightning:LNURL1DP68GURN8GHJ7AMPD3KX2AR0VEEKZAR0WD5XJTNRDAKJ7TNHV4KXCTTTDEHHWM30D3H82UNVWQHKZUR5WDMKJMFEXQESLJTDDS" aria-label="Lightning"><img src="./assets/lightning.svg" alt="QR Lightning" width="144" height="144" loading="lazy"></a>
         <div><p data-t="v4vIntro">Sentit és una eina oberta per treballar la comprensió oral amb àudio i paper.</p><p data-t="support"></p>
           <div class="support"><div><small>Lightning Network</small><div class="lightning-address"><code>aptswim903@walletofsatoshi.com</code><button id="copy-lightning" class="icon-button" type="button" data-label="copyAddress"><span data-icon="copy" aria-hidden="true"></span></button></div><p class="inline-status" id="lightning-status" role="status"></p></div></div>
         </div>
-      </div>
-      <div class="v4v-grid">
+      </div></section>
         <section class="v4v-author"><h3><span data-t="aboutAuthor">Sobre l’autor</span> · Aarón Fortuño</h3><img src="./assets/aaron-fortuno.png" alt="Aarón Fortuño" width="400" height="400" loading="lazy"><p data-t="authorNote"></p><a href="https://aaronfortuno.github.io/portfolio/" target="_blank" rel="noopener noreferrer" data-t="portfolio">Portafoli</a></section>
-        <section><h3 data-t="openCode">Codi obert</h3><p data-t="contributeHint"></p><p><a href="https://github.com/aaronFortuno/sentit" target="_blank" rel="noopener noreferrer">GitHub · Sentit</a> · <a href="https://github.com/aaronFortuno/sentit/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">MIT</a></p><h3 data-t="libraries">Llibreries i recursos</h3><p><a href="https://lucide.dev/">Lucide</a> · ISC / MIT</p><p><a href="https://github.com/kazuhikoarase/qrcode-generator">QR Code Generator</a> · MIT</p><p><a href="https://sortablejs.github.io/Sortable/">SortableJS</a> · MIT</p><p><a href="https://github.com/aaronFortuno/sentit/blob/main/docs/fonts-sonores.md" target="_blank" rel="noopener noreferrer" data-t="fullAudioCredits">Fonts, llicències i escaletes completes</a></p><p><a href="https://github.com/aaronFortuno/sentit/blob/main/CREDITS.md" data-t="credits">Crèdits de l’àudio i les biblioteques</a></p><p><a href="./personatges.html" data-t="characters">Els personatges</a></p></section>
+        <section class="analytics-privacy"><h3 data-t="privacyTitle">Privadesa i estadístiques</h3><p data-t="privacyInfo"></p><p data-t="privacyReports"></p><label class="privacy-switch"><span data-t="privacyExclude">Exclou aquest navegador de les estadístiques</span><input id="analytics-excluded" type="checkbox" role="switch"></label><p id="analytics-browser-notice" class="small" data-t="privacyBrowser" hidden></p></section>
+        <section class="v4v-resources"><h3 data-t="openCode">Codi obert</h3><p data-t="contributeHint"></p><p><a href="https://github.com/aaronFortuno/sentit" target="_blank" rel="noopener noreferrer">GitHub · Sentit</a> · <a href="https://github.com/aaronFortuno/sentit/blob/main/LICENSE" target="_blank" rel="noopener noreferrer">MIT</a></p><h3 data-t="libraries">Llibreries i recursos</h3><p><a href="https://lucide.dev/">Lucide</a> · ISC / MIT</p><p><a href="https://github.com/kazuhikoarase/qrcode-generator">QR Code Generator</a> · MIT</p><p><a href="https://sortablejs.github.io/Sortable/">SortableJS</a> · MIT</p><p><a href="https://github.com/aaronFortuno/sentit/blob/main/docs/fonts-sonores.md" target="_blank" rel="noopener noreferrer" data-t="fullAudioCredits">Fonts, llicències i escaletes completes</a></p><p><a href="https://github.com/aaronFortuno/sentit/blob/main/CREDITS.md" data-t="credits">Crèdits de l’àudio i les biblioteques</a></p><p><a href="./personatges.html" data-t="characters">Els personatges</a></p></section>
       </div>
-      <section class="analytics-privacy"><h3 data-t="privacyTitle">Privadesa i estadístiques</h3><p data-t="privacyInfo"></p><p data-t="privacyReports"></p><label class="privacy-switch"><span data-t="privacyExclude">Exclou aquest navegador de les estadístiques</span><input id="analytics-excluded" type="checkbox" role="switch"></label><p id="analytics-browser-notice" class="small" data-t="privacyBrowser" hidden></p></section>
     </div>
   </dialog>
   <dialog id="error-report-dialog" aria-labelledby="error-report-title" aria-describedby="error-report-context"><div class="dialog-content">

@@ -115,14 +115,14 @@ export const quart = [
   }),
   proposal({
     id: 'qui-arregla-els-instruments', code: 'S012', title: 'Qui arregla els instruments?', grade: '4', level: 'advanced', genre: 'interview',
-    seconds: 117, status: 'ready-for-review', reviewStatus: 'audio-review',
-    audio: './assets/audio/s012-instruments-v1.mp3', tracks: { introduction: './assets/audio/s012-instruments-v1-intro.mp3', body: './assets/audio/s012-instruments-v1-cos.mp3' },
-    fragment: { start: 4.18, seconds: 112 },
+    seconds: 124, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s012-instruments-v2.mp3', tracks: { introduction: './assets/audio/s012-instruments-v2-intro.mp3', body: './assets/audio/s012-instruments-v2-cos.mp3' },
+    fragment: { start: 4.18, seconds: 119 },
     summary: 'En Biel visita l’Elies i descobreix per què reparar comença escoltant i comprovant.',
     voices: { Biel: 'Puck', Elies: 'Algieba' }, delivery: 'Biel, jove curiós; Elies, lutier adult, pacient i pràctic. La professió s’explica al guió. No accelerar els exemples ni imitar sons amb la boca.',
     editorialFocus: '4t avançada: revisar una suposició i relacionar un procediment amb la seva finalitat. No cal coneixement musical previ ni reconèixer notes.',
-    soundPlan: 'Fragment breu d’una gravació real de guitarra amb cordes fluixes, de khenshom a Freesound (537084, CC0), abans de la primera frase. No generar cordes amb síntesi ni imitar-les amb la veu. És context sonor: no es demana identificar l’avaria ni s’escenifica que la corda es trenqui durant l’entrevista. Cap comparació auditiva avaluada ni so de reparació sota les respostes. Paper original molt discret al canvi de tema i silenci després del comiat, sense una nota final que suggereixi una reparació acabada.',
-    soundCredits: 'Guitarra: gravació real de khenshom, Freesound 537084, CC0; no és síntesi ni una mostra sota la llicència MIT del projecte. Paper: so original procedural de Sentit, MIT. Origen i transformacions al registre de fonts sonores.',
+    soundPlan: 'Quatre proves irregulars de la guitarra real de khenshom, Freesound 537084, CC0, més audibles a l’obertura. Baixar-les abans de la primera paraula i deixar que l’última prova continuï molt fluixa sota la salutació d’en Biel. Veus netes a les explicacions; paper molt discret al canvi de tema. Després del comiat, tres proves de la mateixa corda amb petits canvis de to per suggerir un intent d’afinació, sense representar una reparació reeixida. Fosa i silenci final. Cap síntesi ni canvi de les veus.',
+    soundCredits: "Guitarra enregistrada per khenshom, CC0; paper original de Sentit, MIT. Els canvis de to s’apliquen només a les tres proves finals de guitarra, amb durada compensada.",
     generationPlan: {
       note: 'Presa completa ja rebuda amb Puck i Algieba: cap petició nova. Es conserva el títol i tota l’entrevista, excepte la conclusió abstracta del darrer torn. Un retall local dins dos silencis deixa només «Gràcies, Elies.»; no s’inventen ni se sintetitzen paraules noves. Guitarra real CC0 a l’obertura i paper original al canvi de tema, muntats localment.',
       takes: [{ id: 'S012-T01', label: 'Presa conservada · títol i entrevista', parts: ['introduction', 'presentacio', 'escoltar', 'exemple', 'vibracio', 'provar', 'comparar', 'guardar', 'fusta', 'decisio', 'temps', 'comiat'], requests: 0, reuse: 'approved-local', note: 'Presa aprovada de Puck i Algieba, ja sintetitzada en una petició. Totes les paraules de la versió actual hi són; només s’elimina la primera part del comiat anterior. Cap nova petició de veu.' }],
@@ -134,7 +134,7 @@ export const quart = [
     factualSources: [{ label: 'Yamaha · cura de les guitarres i influència de l’ambient', url: 'https://hub.yamaha.com/guitars/g-how-to/essential-guitar-maintenance/' }],
     illustrationBrief: 'Biel entrevista Elies al taller amb una guitarra en repòs, sense mostrar una avaria ni eines en ús.',
     transcript: [
-      d('Gravació real de guitarra amb cordes fluixes: fragment breu de khenshom, Freesound 537084, CC0. Deixar-lo acabar abans de la primera frase. No s’avalua el timbre ni es presenta com un trencament que passa ara.'),
+      d('Gravació real de guitarra amb cordes fluixes de khenshom, Freesound 537084, CC0. Quatre proves més audibles, irregularment espaiades. Les últimes continuen molt baixes sota la salutació d’en Biel; no tapar les paraules ni escenificar un trencament nou.'),
       s('presentacio', 'Biel', 'A l’escola una guitarra fa un soroll estrany i l’hem portada al taller de l’Elies. Ell és lutier: construeix i repara instruments de corda. Bon dia, Elies! Jo em pensava que posar una corda nova ho arreglaria tot. És així?'),
       s('escoltar', 'Elies', 'Bon dia, Biel! Doncs mira, de vegades cal canviar una corda, però no sempre. Primer pregunto quan apareix el soroll. Després escolto l’instrument i el reviso. Si canviés peces abans de saber què passa, podria fer molta feina sense resoldre el problema.'),
       s('exemple', 'Biel', 'Però si el soroll surt quan toques una corda, no vol dir que aquella corda està espatllada?'),
@@ -147,7 +147,7 @@ export const quart = [
       s('decisio', 'Biel', 'Entenc que escoltar una mica també forma part de reparar. Podem deixar-te la guitarra i venir-la a buscar aquesta mateixa tarda?'),
       s('temps', 'Elies', 'Abans us diré què hi he trobat i què proposo fer-hi. Si és un ajust senzill, pot ser ràpid. Si cal una reparació diferent, haurem de parlar del temps que necessita. No vull prometre una hora abans de revisar-la.'),
       s('comiat', 'Biel', 'Gràcies, Elies.'),
-      d('Marge després del comiat i silenci. No posar-hi una nota final que faci pensar que la guitarra de l’escola ja està reparada.'),
+      d('Després del comiat tornen tres proves de la corda fluixa, amb petits canvis de to com un intent d’afinació. No acabar amb una nota neta que indiqui reparació reeixida. Fosa i silenci final.'),
     ],
     questions: [
       q('ofici', 'Què fa un lutier, segons la presentació?', 'Construeix i repara instruments de corda.', 1, [e('presentacio', 'construeix i repara instruments de corda')]),

@@ -1,15 +1,15 @@
 {
   "code": "S019",
   "activity": "ca-S019",
-  "date": "2026-11-20T12:43:33.752Z",
-  "state": "awaiting-audio-validation",
+  "date": "2026-11-20T16:09:05.574Z",
+  "state": "awaiting-montage-validation",
   "model": "gemini-3.8-flash-tts",
   "voices": {
     "Laia": "Leda",
     "Ona": "Sulafat"
   },
   "newSynthesisRequests": 1,
-  "approvalFingerprint": "cb7f067ca00bda0d89f0d19f80718b080a98d8e58fd6e8e17e30289fef958620",
+  "approvalFingerprint": "11977fa5c579edaf15d859b80e5fa11df7afe22e103f4b00b3ffeee7c3812941",
   "requestHash": "a8924128e778e3dde6202ed8682fc6ea0ffa41cc569060d635aadd677508ecf8",
   "rawSha256": "725ae2c9b9284506445838935bcedba9a9ce433f94adc2fa8e7f702d29c41e2e",
   "usage": {
@@ -41,16 +41,16 @@
     "peakDbFS": -51.9,
     "rawSamplesPreserved": true
   },
-  "file": "s019-cuinera-v1.mp3",
-  "introFile": "s019-cuinera-v1-intro.mp3",
-  "bodyFile": "s019-cuinera-v1-cos.mp3",
+  "file": "s019-cuinera-v2.mp3",
+  "introFile": "s019-cuinera-v2-intro.mp3",
+  "bodyFile": "s019-cuinera-v2-cos.mp3",
   "offset": 4.5,
-  "bodyDuration": 110.59,
-  "fullDuration": 115.09,
+  "bodyDuration": 112.89,
+  "fullDuration": 117.39,
   "lufs": -19.3,
-  "peakDbTP": -2.7,
+  "peakDbTP": -2.5,
   "voice": {
-    "bodyLead": 2.3,
+    "bodyLead": 2.8,
     "bodyRawDuration": 105.09,
     "untrimmedApartFromSilenceSplit": true,
     "retimed": false
@@ -68,29 +68,65 @@
   },
   "effects": [
     {
-      "name": "quiet-bowl-contact",
-      "start": 0.1,
-      "end": 0.6,
-      "origin": "original-procedural"
-    },
-    {
-      "name": "menu-opening",
-      "start": 0.9,
-      "end": 1.5,
-      "origin": "original-procedural"
-    },
-    {
-      "name": "menu-turn",
-      "start": 49.99999999999999,
-      "end": 50.13999999999999,
-      "origin": "original-procedural"
-    },
-    {
-      "name": "kitchen-ending",
-      "start": 107.69,
-      "end": 109.69,
-      "origin": "original-procedural"
+      "name": "real-kitchen-ambience",
+      "start": 0,
+      "end": 112.24,
+      "origin": "external-recording",
+      "source": "assets/audio/sources/soundtasticpro-484572-kitchen.mp3",
+      "sourceId": "soundtasticpro-kitchen-484572",
+      "sourceSha256": "1bd886bb25614d7e0768e77cd4200ad84f4db55f51257a5e16c11f47737155ad",
+      "sourceUrl": "https://freesound.org/people/SoundtasticPro/sounds/484572/",
+      "author": "SoundtasticPro",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "retimed": false,
+      "pitchShifted": false,
+      "sourceDuration": 72.096,
+      "passes": 2,
+      "crossfadeSeconds": 1,
+      "sourceNormalization": "-25 LUFS target; -12 dBFS peak ceiling",
+      "speechWindowMeanDbFS": -48.4,
+      "speechWindowPeakDbFS": -32,
+      "speechWindowVoiceMeanDbFS": -19.3,
+      "speechWindowMarginDb": 29.099999999999998,
+      "envelope": {
+        "fadeIn": {
+          "start": 0,
+          "end": 0.65
+        },
+        "duckBeforeSpeech": {
+          "start": 2,
+          "end": 3
+        },
+        "speechGain": 0.1,
+        "riseAfterSpeech": {
+          "start": 108.04,
+          "end": 108.54
+        },
+        "holdAfterSpeech": {
+          "start": 108.54,
+          "end": 110.64
+        },
+        "fadeOut": {
+          "start": 110.64,
+          "end": 112.24
+        },
+        "silentTail": 0.65
+      },
+      "listeningValidation": "pending"
     }
   ],
-  "sha256": "20df9228b18a6df1807bf87ade49be30846cdd92be6342abba7d0c31e389a98b"
+  "sha256": "47f572613bed9eac9d5fac6057b940eea3df39a322a9a5e4d35fd626702a0637",
+  "montageNewSynthesisRequests": 0,
+  "previousMaster": {
+    "file": "s019-cuinera-v1.mp3",
+    "sha256": "20df9228b18a6df1807bf87ade49be30846cdd92be6342abba7d0c31e389a98b"
+  },
+  "voiceValidation": {
+    "approved": true,
+    "validatedAt": "2026-11-20",
+    "validatedBy": "docent",
+    "rawSha256": "725ae2c9b9284506445838935bcedba9a9ce433f94adc2fa8e7f702d29c41e2e",
+    "sourceRequestHash": "a8924128e778e3dde6202ed8682fc6ea0ffa41cc569060d635aadd677508ecf8"
+  }
 }

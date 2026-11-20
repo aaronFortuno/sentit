@@ -20,28 +20,41 @@ const {productionSpec}=require('./proposal-plan.cjs'),{assertProductionApproved}
   assert.equal(record.editorialEdit?record.montageNewSynthesisRequests:record.newSynthesisRequests,entry.generationPlan.takes.reduce((n,take)=>n+take.requests,0));assert.equal(record.voice.retimed,false);
   assert(record.cut.peakDbFS<=-42);assert(record.cut.at>record.cut.previousWordEnd&&record.cut.at<record.cut.nextWordStart);
   assert(record.lufs>=-24&&record.lufs<=-15&&record.peakDbTP<=-1);
-  if(['S010','S013','S022'].includes(code)){
-   assert.equal(record.montageNewSynthesisRequests,0);assert.equal(record.pronunciationRepair.applied,false);
+  if(['S010','S013','S022','S012','S019'].includes(code)){
+   assert.equal(record.montageNewSynthesisRequests,0);
+   if(['S010','S013','S022'].includes(code))assert.equal(record.pronunciationRepair.applied,false);
+   else {assert.equal(record.voiceValidation.approved,true);assert.equal(record.voiceValidation.rawSha256,record.rawSha256);}
    assert.notEqual(record.sha256,record.previousMaster.sha256);
    const priorFile=path.join(root,'assets/audio',record.previousMaster.file);
    assert.equal(createHash('sha256').update(await fs.readFile(priorFile)).digest('hex'),record.previousMaster.sha256);
    const raw=path.resolve(root,'../output/sentit-primera-tanda',code.toLowerCase(),'titol-fragment-'+record.requestHash.slice(0,12)+'.wav');
    assert.equal(createHash('sha256').update(await fs.readFile(raw)).digest('hex'),record.rawSha256);
    assert(!record.effects.some(effect=>['small-rail-tap','rail-opening','rail-memory-transition','two-note-ending'].includes(effect.name)));
-   if(code!=='S013'){
+   if(['S010','S022'].includes(code)){
     const {soundSourcesForActivity}=await import('../content/sound-sources.js'),source=soundSourcesForActivity(entry)[0];
     const real=record.effects.filter(effect=>effect.origin==='external-recording');assert.equal(real.length,code==='S010'?3:2);
     for(const effect of real){assert.equal(effect.sourceSha256,source.sha256);assert.equal(effect.license,'CC0 1.0');assert.equal(effect.retimed,false);assert.equal(effect.pitchShifted,false);}
    }
   }
   if(code==='S012'){
-   const {soundSourcesForActivity}=await import('../content/sound-sources.js'),source=soundSourcesForActivity(entry)[0],guitar=record.effects.find(effect=>effect.name==='real-loose-guitar');
+   const {soundSourcesForActivity}=await import('../content/sound-sources.js'),source=soundSourcesForActivity(entry)[0],guitar=record.effects.find(effect=>effect.name==='real-loose-guitar-sequence');
    assert(guitar);assert.equal(guitar.origin,'external-recording');assert.equal(guitar.author,source.author);assert.equal(guitar.license,'CC0 1.0');
    assert.equal(guitar.sourceSha256,createHash('sha256').update(await fs.readFile(path.join(root,source.file))).digest('hex'));
-   assert.deepEqual(guitar.excerpt,source.excerpt);assert(guitar.end<record.voice.bodyLead);assert.equal(guitar.retimed,false);assert.equal(guitar.pitchShifted,false);
+   assert.deepEqual(guitar.excerpt,source.excerpt);assert.equal(guitar.events.filter(e=>e.phase==='opening').length,4);assert.equal(guitar.events.filter(e=>e.phase==='ending').length,3);
+   assert(guitar.envelope.duckBeforeSpeech.end<guitar.speechStart);assert(guitar.speechOverlapSeconds>0);assert(guitar.speechWindowMarginDb>=18);
+   assert(guitar.events.filter(e=>e.phase==='ending').every(e=>e.pitchShifted&&e.start>record.voice.bodyLead+record.voice.bodyRawDuration));assert.equal(guitar.voiceRetimed,false);
    assert.equal(record.montageNewSynthesisRequests,0);assert.equal(record.editorialEdit.retainedText,'Gràcies, Elies.');
    assert(record.editorialEdit.silenceChecks.every(cut=>cut.peakDbFS<=-42));assert.equal(record.voice.untrimmedApartFromSilenceSplit,false);
    assert.equal(Math.round(record.editorialEdit.removedSeconds*100),822);
+  }
+  if(code==='S019'){
+   const bed=record.effects.find(effect=>effect.name==='real-kitchen-ambience');assert(bed);assert.equal(record.effects.length,1);assert.equal(bed.origin,'external-recording');assert(bed.speechWindowMarginDb>=22);assert(bed.speechWindowPeakDbFS<=-28);assert.equal(bed.passes,2);assert(bed.sourceDuration*2-bed.crossfadeSeconds>record.bodyDuration);assert(bed.envelope.holdAfterSpeech.end-bed.envelope.holdAfterSpeech.start>=2);assert(bed.envelope.riseAfterSpeech.start>record.voice.bodyLead+record.voice.bodyRawDuration);
+  }
+  if(code==='S020'){
+   assert.equal(record.montageNewSynthesisRequests,0);assert.equal(record.sharedJingle.id,'petita-descoberta');
+   const [opening,closing,click]=record.effects;assert.equal(opening.name,'petita-descoberta-obertura');assert.equal(closing.name,'petita-descoberta-tancament');
+   for(const effect of [opening,closing]){assert.equal(effect.license,'MIT');assert.equal(effect.sourceSha256,createHash('sha256').update(await fs.readFile(path.join(root,effect.source))).digest('hex'));}
+   assert(opening.end<record.voice.bodyLead);assert(closing.start>record.voice.bodyLead+record.voice.bodyRawDuration);assert(record.bodyDuration-closing.end>=.6);assert.equal(click.name,'podcast-check-click');
   }
   if(['S004','S004D','S018','S022'].includes(code)){
    const track=musicForActivity(entry),bed=record.effects.find(effect=>effect.name==='gentle-narration-bed'||effect.name==='gentle-tram-memory-bed');

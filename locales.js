@@ -1,6 +1,13 @@
 export const strings = {
   ca: {
     language: 'ca',
+    compareJingles: "Compara les sintonies",
+    jingleChoice: "Tria la sintonia",
+    fullChangelog: "Changelog complet a GitHub",
+    showProvisionalExperimental: "Provisionals · experimental",
+    releaseSoundReview: "S003, S008 i S018 definitives. Nous muntatges de S012/S019 i S020, pendents d’audició. Quatre sintonies aprovades i seleccionables, guardades al QR. Cards amb esmenes de veu pendents. Dificultat visible a la fitxa, provisionals al footer i V4V/changelog més amplis i compactes, amb scroll intern.",
+    reviewSynthesisEdit: "Síntesi pendent d’esmena",
+    reviewAlreadyListened: "Ja revisada · Correcció de veu pendent",
     releasePublishedVariant: "S004D publicada definitivament després de validar l’àudio, la música i el muntatge. Sense marques provisionals i disponible també amb els provisionals ocults.",
     releasePuddleAnalogy: "S004 publicada definitivament, sense marques provisionals; S004D continua pendent. S007: analogia del plat amb foradets presentada abans de la rèplica de la Laia, explicació sobre l’aigua invisible ampliada i tancament revisat. Solucionari i cites ajustats; pendent de validació docent, sense síntesi.",
     releaseDescriptiveUniverses: "Els noms dels universos expliquen millor què hi trobarem: descobertes, records i misteris, explicacions i projectes, i notícies. Noms actualitzats als filtres, les cards i les fitxes.",
@@ -204,6 +211,13 @@ export const strings = {
   },
   es: {
     language: 'es',
+    compareJingles: "Compara las sintonías",
+    jingleChoice: "Elige la sintonía",
+    fullChangelog: "Changelog completo en GitHub",
+    showProvisionalExperimental: "Provisionales · experimental",
+    releaseSoundReview: "S003, S008 y S018 definitivas. Nuevos montajes de S012/S019 y S020, pendientes de escucha. Cuatro sintonías aprobadas y seleccionables, guardadas en el QR. Cards con correcciones de voz pendientes. Dificultad visible en la ficha, provisionales en el footer y V4V/changelog más amplios y compactos, con scroll interno.",
+    reviewSynthesisEdit: "Síntesis pendiente de corregir",
+    reviewAlreadyListened: "Ya revisada · Corrección de voz pendiente",
     releasePublishedVariant: "S004D publicada definitivamente tras validar el audio, la música y el montaje. Sin marcas provisionales y disponible también con los provisionales ocultos.",
     releasePuddleAnalogy: "S004 publicada definitivamente, sin marcas provisionales; S004D sigue pendiente. S007: analogía del plato con agujeritos presentada antes de la réplica de Laia, explicación sobre el agua invisible ampliada y cierre revisado. Solucionario y citas ajustados; pendiente de validación docente, sin síntesis.",
     releaseDescriptiveUniverses: "Los nombres de los universos explican mejor qué encontraremos: descubrimientos, recuerdos y misterios, explicaciones y proyectos, y noticias. Nombres actualizados en filtros, tarjetas y fichas.",
