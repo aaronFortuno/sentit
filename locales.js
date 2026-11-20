@@ -1,6 +1,7 @@
 export const strings = {
   ca: {
     language: 'ca',
+    releaseAudioReviewCards: 'Cartell de revisió a totes les cards amb àudio pendent de validar, amb el mateix estil que les propostes. S016: artefacte a «Si l’estudi avança, l’equip» i jingles anotats per corregir; resta de la peça ben valorada. Sense síntesi nova.',
     releaseContextsAndJingles: 'S014 incorpora interacció d’aula. S010/S013/S022: efectes revisats i correccions de pronunciació preparades, sense síntesi nova. S017 situa millor el grup, la coordinació i l’entrevista prèvia. S024 amb llenguatge juvenil i acord construït entre tots dos. Tots dos guions pendents de validar. S011 passa a 4t avançada; S006 i S021 també validades i preparades per a veus. S019 i S023 muntades, pendents d’audició. Tres sintonies alternatives més per comparar amb l’original.',
     releaseButtonAndResearch: 'S004 i S004D produïdes per comparar narració i diàleg, amb la mateixa música molt suau i mescles pròpies. S005 incorpora salutació i comiat mutu i ja té àudio. Muntatges pendents d’audició. S021 passa a una recerca amb Mireia i Laia: contingut validat i nou guió dialogat pendent de revisar, sense síntesi.',
     releaseNaturalClosings: 'S012 amb salutacions, guitarra real CC0 i comiat breu aprofitant la presa existent. S016 amb tancament periodístic i àudio produït. Tots dos muntatges esperen audició. Revisats els altres finals pendents: S005, S006, S021 i S024 més naturals, amb preguntes i cites conservades. Fonts externes diferenciades dels sons originals.',
@@ -192,6 +193,7 @@ export const strings = {
   },
   es: {
     language: 'es',
+    releaseAudioReviewCards: 'Cartel de revisión en todas las tarjetas con audio pendiente de validar, con el mismo estilo que las propuestas. S016: artefacto en «Si l’estudi avança, l’equip» y sintonías anotados para corregir; resto de la pieza bien valorado. Sin nueva síntesis.',
     releaseContextsAndJingles: 'S014 incorpora interacción de aula. S010/S013/S022: efectos revisados y correcciones de pronunciación preparadas, sin nueva síntesis. S017 sitúa mejor al grupo, la coordinación y la entrevista previa. S024 con lenguaje juvenil y acuerdo construido entre ambos. Los dos guiones esperan validación. S011 pasa a 4.º avanzada; S006 y S021 también validadas y preparadas para voces. S019 y S023 montadas, pendientes de audición. Tres sintonías alternativas más para comparar con la original.',
     releaseButtonAndResearch: 'S004 y S004D producidas para comparar narración y diálogo, con la misma música muy suave y mezclas propias. S005 incorpora saludo y despedida mutua y ya tiene audio. Montajes pendientes de audición. S021 pasa a una investigación con Mireia y Laia: contenido validado y nuevo guion dialogado pendiente de revisar, sin síntesis.',
     releaseNaturalClosings: 'S012 con saludos, guitarra real CC0 y despedida breve aprovechando la toma existente. S016 con cierre periodístico y audio producido. Ambos montajes esperan audición. Revisados los demás finales pendientes: S005, S006, S021 y S024 más naturales, conservando preguntas y citas. Fuentes externas diferenciadas de los sonidos originales.',

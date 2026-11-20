@@ -150,7 +150,8 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
       card.dataset.openActivity = entry.id;
       card.dataset.genre = entry.genre;
       card.dataset.level = entry.level;
-      card.classList.toggle('is-review-pending', isPendingReview(entry));
+      const awaitingValidation = isPendingReview(entry) || entry.reviewStatus === 'audio-review';
+      card.classList.toggle('is-review-pending', awaitingValidation);
       if (entry.image?.src) {
         const art = element('span', undefined, 'activity-card-art');
         art.setAttribute('aria-hidden', 'true');
@@ -182,7 +183,6 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
       }
       const context = element('div', undefined, 'activity-card-context');
       context.append(element('span', t('grades')[entry.grade] ?? entry.grade, 'meta'));
-      if(entry.reviewStatus==='audio-review')context.append(element('span',t('audioReview'),'activity-card-status'));
       if (!entry.audio) context.append(element('span', t('audioPending'), 'activity-card-status'));
       const footer = element('div', undefined, 'activity-card-bottom');
       const duration = element('span', undefined, 'activity-duration');
@@ -203,9 +203,9 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
       level.append(dots, element('span', t('levels')[entry.level] ?? entry.level));
       footer.append(duration, level);
       card.append(context, footer);
-      if (isPendingReview(entry)) {
+      if (awaitingValidation) {
         const overlay = element('span', undefined, 'activity-review-overlay');
-        const label = element('span', reviewCaption(entry, {reviewProvisional:t('reviewProvisional'),reviewInProgress:t('reviewInProgress'),reviewVoicesReceived:t('reviewVoicesReceived'),reviewReadyForVoices:t('reviewReadyForVoices')}), 'activity-review-label');
+        const label = element('span', reviewCaption(entry, {audioReview:t('audioReview'),reviewProvisional:t('reviewProvisional'),reviewInProgress:t('reviewInProgress'),reviewVoicesReceived:t('reviewVoicesReceived'),reviewReadyForVoices:t('reviewReadyForVoices')}), 'activity-review-label');
         label.append(element('small', t('openReview')));
         overlay.append(label);
         card.append(overlay);

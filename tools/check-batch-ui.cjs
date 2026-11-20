@@ -16,7 +16,15 @@ const {chromium}=require('C:/Users/afortun8/.cache/codex-runtimes/codex-primary-
   const bottom=()=>page.locator('.catalog-results-scroll').evaluate(node=>{node.scrollTop=node.scrollHeight;node.dispatchEvent(new Event('scroll'));});
   await bottom();await page.waitForFunction(()=>document.querySelectorAll('.activity-card').length===20);
   await bottom();await page.waitForFunction(total=>document.querySelectorAll('.activity-card').length===total,activities.length);
-  assert.equal(await page.locator('.activity-review-overlay').count(),proposedActivities.length);
+  const audioReview=activities.filter(entry=>entry.reviewStatus==='audio-review');
+  assert.equal(await page.locator('.activity-review-overlay').count(),proposedActivities.length+audioReview.length);
+  for(const entry of activities){
+   const card=page.locator(`[data-open-activity="${entry.id}"]`);
+   if(entry.reviewStatus==='audio-review'){
+    assert.match(await card.locator('.activity-review-label').innerText(),/^Àudio pendent de validar/);
+    assert.equal(await card.locator('.activity-review-overlay').evaluate(node=>getComputedStyle(node).pointerEvents),'none');
+   }else if(entry.reviewStatus!=='pending')assert.equal(await card.locator('.activity-review-overlay').count(),0);
+  }
   for(const grade of ['3','4','5','6']){await page.locator('#grade').selectOption(grade);assert.equal(await page.locator('.activity-card').count(),activities.filter(entry=>entry.grade===grade).length);}
   await page.locator('#reset-filters').click();await page.locator('#genre').selectOption('explanation');assert.equal(await page.locator('.activity-card').count(),4);
   assert.equal(await page.locator('.activity-type svg path').count(),4);

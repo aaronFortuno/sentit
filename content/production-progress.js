@@ -118,5 +118,23 @@ export const productionProgress = {
     "plannedNewRequests": 1,
     "repairPlan": "content/audio-repairs.json",
     "listeningApproval": false
+  },
+  "ca-S016": {
+    "state": "audio-corrections-pending",
+    "feedbackAt": "2026-11-20",
+    "feedback": [
+      {
+        "part": "exposicio",
+        "word": "Si",
+        "phrase": "Si l’estudi avança, l’equip",
+        "heard": "ffff l’estudi avança, l’equip",
+        "kind": "synthesis-artifact",
+        "status": "pending"
+      }
+    ],
+    "teacherAssessment": "La resta de la peça està ben valorada. Artefacte en lloc de «Si» pendent de corregir; jingles inicial i final pendents de polir. Reparació local encara per preparar.",
+    "plannedNewRequests": 0,
+    "listeningApproval": false,
+    "jingleStatus": "needs-refinement"
   }
 };
