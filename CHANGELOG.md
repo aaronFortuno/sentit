@@ -1,5 +1,10 @@
 # Canvis
 
+## 0.1.50 · 20 de novembre de 2026
+
+- El switch del footer passa a «Només provisionals»: activat mostra exclusivament guions i àudios pendents de validar; desactivat mostra els materials disponibles. Es conserva la preferència del navegador i la sincronització entre pestanyes. Els filtres s’apliquen al grup visible i el recompte de la capçalera continua indicant els materials disponibles.
+- Selecció de col·leccions sense elements ocults en canviar de grup, mantenint intactes les col·leccions guardades. «Tipus» passa a «Tipologia textual», també en castellà.
+
 ## 0.1.49 · 20 de novembre de 2026
 
 - Il·lustracions amb identitats recurrents per a S003, S004/S004D, S012, S018 i S019, presents a les cards i activades per defecte a la fitxa i al solucionari. Models propis d’Elies i Ona i prompts conservats. Transcripcions definitives sense escaleta ni notes de producció; guions de treball intactes. Tancament de publicació documentat.

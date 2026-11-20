@@ -31,6 +31,7 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
   const searchIndex = new Map(activities.map(entry => [entry.id, normalise(`${entry.language}-${entry.code} ${entry.title} ${entry.summary ?? ''}`)]));
   const fields = ['grade', 'level', 'duration', 'genre'];
   let showProvisional = provisionalPreference();
+  const matchesReviewMode = entry => needsReview(entry) === showProvisional;
   byId('show-provisional').checked = showProvisional;
   const initialFilters = new URLSearchParams(location.search);
   const selectedCharacters = new Set(initialFilters.getAll('personatge').filter(id => characters.some(character => character.id === id)));
@@ -263,7 +264,7 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
     const values = Object.fromEntries(new FormData(byId('filters')));
     const terms = normalise(byId('search').value).trim().split(/\s+/u).filter(Boolean);
     matches = sourceEntries().filter(entry => {
-      return (showProvisional || !needsReview(entry))
+      return matchesReviewMode(entry)
         && matchesUniverse(entry, values.universe)
         && fields.every(field => field === 'duration' ? matchesDuration(entry, values[field]) : !values[field] || values[field] === entry[field])
         && (!values['content-language'] || entry.language === values['content-language'])
@@ -422,7 +423,7 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
   byId('show-provisional').addEventListener('change', event => {
     showProvisional = event.target.checked;
     try { localStorage.setItem(provisionalKey, String(showProvisional)); } catch { /* The choice still works for this visit. */ }
-    if (!showProvisional) for (const id of selectedIds) if (needsReview(index.get(id))) selectedIds.delete(id);
+    for (const id of selectedIds) if (!matchesReviewMode(index.get(id))) selectedIds.delete(id);
     track('canvia_provisionals', { visible: showProvisional });
     refresh();
     animateRefresh(grid);
@@ -477,8 +478,7 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
     if (event.key === provisionalKey || event.key === null) {
       showProvisional = provisionalPreference();
       byId('show-provisional').checked = showProvisional;
-      if (!showProvisional) for (const id of selectedIds) if (needsReview(index.get(id))) selectedIds.delete(id);
-      if (!showProvisional) for (const id of selectedIds) if (needsReview(index.get(id))) selectedIds.delete(id);
+      for (const id of selectedIds) if (!matchesReviewMode(index.get(id))) selectedIds.delete(id);
       refresh();
     }
     if (event.key === collectionsKey || event.key === null) {

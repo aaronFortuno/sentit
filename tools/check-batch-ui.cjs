@@ -5,6 +5,7 @@ const {chromium}=require('C:/Users/afortun8/.cache/codex-runtimes/codex-primary-
  const {activities}=await import('../catalogue.js');
  const {hasPendingSynthesisEdit}=await import('../editorial-review.js');
  const proposedActivities=activities.filter(entry=>entry.reviewStatus==='pending');
+ const visibleActivities=activities.filter(entry=>['pending','audio-review'].includes(entry.reviewStatus));
  const base='http://127.0.0.1:4252/';const server=fork(path.join(__dirname,'serve.cjs'),{env:{...process.env,SENTIT_PORT:'4252'},stdio:['ignore','pipe','inherit','ipc']});let browser;
  const output=path.resolve(__dirname,'../../tmp/sentit-qa/batch-v0128');await fs.mkdir(output,{recursive:true});const errors=[],remote=[],missing=[],pages=[];
  try{
@@ -15,18 +16,17 @@ const {chromium}=require('C:/Users/afortun8/.cache/codex-runtimes/codex-primary-
   await page.goto(base);await page.locator('.activity-card').first().waitFor();
   assert.match(await page.locator('#catalog-count').innerText(),new RegExp('^'+activities.filter(e=>e.audio&&!['pending','audio-review'].includes(e.reviewStatus)).length+' comprensions orals'));assert.equal(await page.locator('.activity-card').count(),12);
   const bottom=()=>page.locator('.catalog-results-scroll').evaluate(node=>{node.scrollTop=node.scrollHeight;node.dispatchEvent(new Event('scroll'));});
-  await bottom();await page.waitForFunction(()=>document.querySelectorAll('.activity-card').length===20);
-  await bottom();await page.waitForFunction(total=>document.querySelectorAll('.activity-card').length===total,activities.length);
+  await bottom();await page.waitForFunction(total=>document.querySelectorAll('.activity-card').length===total,visibleActivities.length);
   const audioReview=activities.filter(entry=>entry.reviewStatus==='audio-review');
   assert.equal(await page.locator('.activity-review-overlay').count(),proposedActivities.length+audioReview.length);
-  for(const entry of activities){
+  for(const entry of visibleActivities){
    const card=page.locator(`[data-open-activity="${entry.id}"]`);
    if(entry.reviewStatus==='audio-review'){
     assert.match(await card.locator('.activity-review-label').innerText(),hasPendingSynthesisEdit(entry)?/^Síntesi pendent d’esmena/:/^Àudio pendent de validar/);
     assert.equal(await card.locator('.activity-review-overlay').evaluate(node=>getComputedStyle(node).pointerEvents),'none');
    }else if(entry.reviewStatus!=='pending')assert.equal(await card.locator('.activity-review-overlay').count(),0);
   }
-  for(const grade of ['3','4','5','6']){await page.locator('#grade').selectOption(grade);assert.equal(await page.locator('.activity-card').count(),activities.filter(entry=>entry.grade===grade).length);}
+  for(const grade of ['3','4','5','6']){await page.locator('#grade').selectOption(grade);assert.equal(await page.locator('.activity-card').count(),visibleActivities.filter(entry=>entry.grade===grade).length);}
   await page.locator('#reset-filters').click();await page.locator('#genre').selectOption('explanation');assert.equal(await page.locator('.activity-card').count(),4);
   assert.equal(await page.locator('.activity-type svg path').count(),4);
   await page.locator('#reset-filters').click();await page.locator('#search').fill('ca-S024');assert.equal(await page.locator('.activity-card').count(),1);

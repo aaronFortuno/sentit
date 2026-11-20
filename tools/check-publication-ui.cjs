@@ -7,6 +7,7 @@ const {chromium}=require('C:/Users/afortun8/.cache/codex-runtimes/codex-primary-
  try{
   await new Promise(r=>server.stdout.once('data',r));browser=await chromium.launch({channel:'chrome',headless:true});const context=await browser.newContext({viewport:{width:1500,height:1000}});
   await context.route('**/*',r=>new URL(r.request().url()).origin===new URL(base).origin?r.continue():r.abort());const page=await context.newPage();page.on('pageerror',e=>errors.push(e.message));
+  await context.addInitScript(()=>localStorage.setItem('sentit.catalogue.show-provisional.v1','false'));
   const {activities}=await import('../catalogue.js'),{reviewScript}=await import('../review.js'),{imageOptions}=await import('../worksheet.js'),{strings}=await import('../locales.js');
   const codes=['S003','S004','S004D','S012','S018','S019'];
   for(const entry of activities.filter(e=>e.reviewStatus==='validated')){assert(entry.image?.src,entry.code+' publication illustration required');await fs.access(path.resolve(__dirname,'..',entry.image.src));assert(reviewScript(entry,strings.ca).every(p=>p.speaker&&!p.kind),entry.code+' speech-only final transcript');}
