@@ -8,7 +8,7 @@ Actualitzat: **20/11/2026**. Catàleg base de **24 peces**, més la revisió **S
 | --- | --- | --- | --- | --- | ---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | [ca-S001](https://sentit.ortogra.fi/#lectura=ca-S001) | El senyal de la ràdio | 5è | Accessible · Diàleg | 1:21 | 8 | ✅ | ◐ | ✅ | ✅ | ◐ | — |
 | [ca-S002](https://sentit.ortogra.fi/#lectura=ca-S002) | Preparem una capsa de records | 3r | Accessible · Instruccions | 0:53 | 6 | ✅ | ◐ | ✅ | ✅ | ◐ | — |
-| [ca-S003](https://sentit.ortogra.fi/#lectura=ca-S003) | El paraigua intercanviat | 3r | Accessible · Diàleg | Prevista 1:10–1:30 | 6 | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S003](https://sentit.ortogra.fi/#lectura=ca-S003) | El paraigua intercanviat | 3r | Accessible · Diàleg | Prevista 1:25–1:45 | 6 | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S004](https://sentit.ortogra.fi/#lectura=ca-S004) | El botó de la jaqueta | 3r | Intermèdia · Narració | Prevista 1:45–2:15 | 6 | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S005](https://sentit.ortogra.fi/#lectura=ca-S005) | La feina d’una cartera | 3r | Intermèdia · Entrevista | Prevista 2:00–2:30 | 6 | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S006](https://sentit.ortogra.fi/#lectura=ca-S006) | S’obre un nou camí al parc | 3r | Avançada · Notícia | Prevista 2:00–2:30 | 6 | ✅ | **⏳ Revisar** | — | — | — | — |

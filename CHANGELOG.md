@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.30 · 20 de novembre de 2026
+
+- S003, «El paraigua intercanviat»: trobada al passadís durant el canvi de classe, entrada d’en Biel i arribada atrafegada de la Laia. S’aclareix que havia agafat el paraigua pensant que era el seu.
+- Comiat coherent amb la descoberta: comprovació la propera vegada, agraïment, rialla compartida i retorn a classe. Escaleta i proposta d’il·lustració ajustades al context; última pregunta i passatges de correcció actualitzats.
+- Guió i muntatge continuen pendents de validació. Cap petició de síntesi nova.
+
 ## 0.1.29 · 20 de novembre de 2026
 
 - El catàleg afegeix automàticament vuit targetes més en arribar al final. S’elimina el botó de carregar-ne més; també s’omple l’espai disponible en pantalles altes.
