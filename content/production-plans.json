@@ -197,9 +197,9 @@
     "approvalSource": "Validació condicionada explícita del docent el 20/11/2026: eliminar la frase «El camí nou afegeix una possibilitat; no obliga tothom a anar pel mateix lloc.»; resta validada i llesta per producció. Supressió aplicada literalment i revisió independent superada. Muntatge pendent de triar les sintonies del programa informatiu."
   },
   "S007": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "3d58339b6418910bdb0fb9764eb4a3c8a496e9c779a0dcd9b12b936ef1f1d6fa",
+    "reviewedAt": "2026-11-20T21:20:16.424Z",
     "reviewActivity": "ca-S007",
     "reviewContent": "content/propostes/tercer.js",
     "format": "3r avançada: distingir l’entrada d’aigua líquida al sòl de l’evaporació i separar una proposta de prova d’un resultat observat. Cal escoltar tota l’aula: les condicions per preparar els dos plats les proposa una alumna, i una pregunta en demana el contingut i la utilitat.",
@@ -216,7 +216,7 @@
     },
     "strategy": "grouped-voices-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
-    "approvalSource": "Esmenes demanades pel docent el 20/11/2026: analogia explícita del plat amb foradets abans de la rèplica de la Laia, resposta sobre l’aigua invisible ampliada i tancament substituït pel text proposat. Nova versió pendent de revisió docent; no autoritza síntesi."
+    "approvalSource": "Validació explícita del docent el 20/11/2026: «S007 es pot pujar a síntesi de veus, guió validat». Guió, veus i escaleta actuals autoritzats; dues preses agrupades per conservar Mireia/Aoede, Laia/Leda i Biel/Puck."
   },
   "S009": {
     "status": "awaiting-validation",
@@ -575,9 +575,9 @@
     ]
   },
   "S024": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "544722319cfd136abe7117cf4d8321c244717c505db338f80f00c4fc15b5d1ab",
+    "reviewedAt": "2026-11-20T21:21:39.839Z",
     "reviewActivity": "ca-S024",
     "reviewContent": "content/propostes/sise.js",
     "format": "6è avançada: comparar què aporta i què deixa pendent cada proposta, detectar informació que falta i justificar una elecció sense resposta única. La dificultat és en les relacions entre idees, no en vocabulari tècnic posat en boca de Laia i Biel. Pressupost i condicions són dades del cas fictici.",
@@ -594,7 +594,7 @@
     },
     "strategy": "packed-title-program-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
-    "approvalSource": "No validat. Reescriptura profunda demanada pel docent: llenguatge quotidià dels joves i proposta final construïda entre Laia i Biel; nova versió pendent de revisió docent, sense síntesi."
+    "approvalSource": "Validació explícita del docent el 20/11/2026: «S024 pot pujar a síntesi de veu, guió validat». Guió actual, veus juvenils Laia/Leda i Biel/Puck i escaleta autoritzats."
   },
   "S004D": {
     "status": "approved",

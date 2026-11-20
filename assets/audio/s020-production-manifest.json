@@ -2,7 +2,7 @@
   "code": "S020",
   "activity": "ca-S020",
   "date": "2026-11-20T16:36:03.924Z",
-  "state": "awaiting-audio-validation",
+  "state": "published",
   "model": "gemini-3.8-flash-tts",
   "voices": {
     "Mireia": "Aoede"
@@ -93,5 +93,19 @@
     "approvedAt": "2026-11-20",
     "opening": "d7ada24dca9162960a7a68f9786d79bf8262225a50f9f904b886814927f77edc",
     "closing": "a3bbff7cdd4951d3c60f5e8d5bba43652a975d413af41f823a0653b60d426aec"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-20",
+    "validatedBy": "docent",
+    "confirmation": "S020 llest per publicació definitiva",
+    "audioSha256": "e31909e699b9eda3ebd68850ae928b65f8827183ee334803291ed8b05b1ad78b",
+    "editorialFingerprint": "faad25de0b3c3fd17d6e552ab5bb2194358c68019eb6348fc70b5af2ab7c6d3c",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/com-participar-en-el-concurs-de-podcasts-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-20",
+    "audioChanged": false
   }
 }

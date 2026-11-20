@@ -1,6 +1,7 @@
 export const strings = {
   ca: {
     language: 'ca',
+    releaseS020Published: 'S020 publicada definitivament amb el màster v1 validat, il·lustració de Mireia i solucionari net. S007 i S024 amb guió validat i preparades per a veus; pla de lots actualitzat, sense enviar peticions amb la quota diària esgotada.',
     compareJingles: "Compara les sintonies",
     previewSession: 'Prova la sessió completa', skipPreviewWaits: 'Salta les pauses d’espera', skipCurrentWait: 'Salta aquesta pausa',
     previewWaitsHint: 'Només afecta aquesta prova; l’enllaç de l’alumnat conserva els temps que has triat.',
@@ -229,6 +230,7 @@ export const strings = {
   },
   es: {
     language: 'es',
+    releaseS020Published: 'S020 publicada definitivamente con el máster v1 validado, ilustración de Mireia y solucionario limpio. S007 y S024 con guion validado y listas para voces; plan de lotes actualizado, sin enviar peticiones con la cuota diaria agotada.',
     compareJingles: "Compara las sintonías",
     previewSession: 'Prueba la sesión completa', skipPreviewWaits: 'Salta las pausas de espera', skipCurrentWait: 'Salta esta pausa',
     previewWaitsHint: 'Solo afecta a esta prueba; el enlace del alumnado conserva los tiempos que has elegido.',

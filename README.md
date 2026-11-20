@@ -10,10 +10,10 @@ El projecte continua a la sèrie **0.1.x** mentre el docent valida el material i
 
 Els 24 codis base, ca-S001–ca-S024, tenen guió, preguntes i solucionari. S004D i S008R són variants addicionals. S011 s’ha ajustat a 4t avançada; les dificultats són orientatives i es calibren amb el docent.
 
-- **Publicació definitiva confirmada:** S003, S004, S004D, S008, S008R, S012, S018 i S019. Aprovació vinculada al guió i al màster exactes; variants validades per separat. S008 incorpora la pujada musical, dos segons sostinguts i la fosa final autoritzades pel docent.
-- **Muntatges per escoltar:** S020 (Petita descoberta i clic discret, fragment de 123,03 s). S019 v3 ja és definitiva: s’ha eliminat la identificació oral de la mostra abans del bucle. S023 v2 incorpora Ona curta i mercat real, però espera l’esmena de suggeriments. Cap síntesi nova per a aquests muntatges.
+- **Publicació definitiva confirmada:** S003, S004, S004D, S008, S008R, S012, S018, S019 i S020. Aprovació vinculada al guió i al màster exactes; variants validades per separat. S008 incorpora la pujada musical, dos segons sostinguts i la fosa final autoritzades pel docent.
+- **S020 definitiva:** màster v1 validat amb Petita descoberta, il·lustració pròpia i transcripció neta. S019 v3 també és definitiva. S023 v2 incorpora Ona curta i mercat real, però espera l’esmena de suggeriments. Cap síntesi nova per a aquests muntatges.
 - **Síntesi pendent d’esmena:** S005, S010, S013, S015, S016, S022 i S023. Nou frases curtes agrupades en quatre peticions de com a màxim dues veus, encara sense enviar ni aplicar. [Incidències i reparacions](docs/pronunciacio-tts.md).
-- **Veus pendents amb guió validat:** S006, S011 i S021, quatre peticions previstes en total. El 20/11 ja consten deu peticions diàries; no se n’envien més abans del següent restabliment.
+- **Veus pendents amb guió validat:** S006, S007, S011, S021 i S024, set preses individuals previstes en total. El 20/11 ja consten deu peticions diàries; no se n’envien més abans del següent restabliment.
 
 La capçalera compta només activitats sense revisió pendent. «Només provisionals · experimental», al footer, alterna entre exclusivament guions i àudios en revisió (activat) i materials disponibles (desactivat), i recorda la preferència local. Les cards distingeixen guió, veus, muntatge pendent d’audició i síntesi pendent d’esmena. Quan s’apliquen totes les correccions de veu, tornen a «Àudio pendent de validar»; rebre una prova crua no completa aquest pas.
 
@@ -21,7 +21,7 @@ En la vista de provisionals, cada card mostra el número de fase i una barra de 
 
 ## Agrupar lectures i correccions
 
-[Pla de lots de síntesi](docs/lots-sintesi.md): agrupar material validat d’una o dues veus, preveure 6–8 minuts per petició i tallar després amb marges comprovats. La cua candidata combina quatre preses noves i nou frases de correcció en quatre peticions en lloc de vuit. Cal preparar el payload i el receptor per a la prova; cap lot s’ha enviat ni s’ha activat cap execució automàtica.
+[Pla de lots de síntesi](docs/lots-sintesi.md): agrupar material validat d’una o dues veus, preveure 6–8 minuts per petició i tallar després amb marges comprovats. La cua candidata combina set preses noves i nou frases de correcció en cinc peticions en lloc d’onze. Cal preparar el payload i el receptor per a la prova; cap lot s’ha enviat ni s’ha activat cap execució automàtica.
 
 ## Catàleg, col·leccions i sintonies
 
@@ -33,7 +33,7 @@ Les propostes passen una [revisió independent de coherència](docs/revisio-cohe
 
 ## Materials definitius i prova d’àudio
 
-S003, S004/S004D, S012, S018 i S019 tenen il·lustració de context a la card, la fitxa i el solucionari. Activada per defecte a 80 mm, a la dreta; configurable i sense pistes que responguin les preguntes. Les transcripcions definitives només contenen les veus. [Tancament obligatori de publicació](docs/tancament-publicacio.md) · [Imatges i prompts](assets/images/README.md).
+S003, S004/S004D, S012, S018, S019 i S020 tenen il·lustració de context a la card, la fitxa i el solucionari. Activada per defecte a 80 mm, a la dreta; configurable i sense pistes que responguin les preguntes. Les transcripcions definitives només contenen les veus. [Tancament obligatori de publicació](docs/tancament-publicacio.md) · [Imatges i prompts](assets/images/README.md).
 
 «Prova la sessió completa» permet revisar sintonia, títol, locucions, ritme i repeticions amb el mateix reproductor de l’alumnat. Es poden saltar les esperes només a la prova, sense modificar la configuració del QR. Es conserva el reproductor del fragment sol.
 

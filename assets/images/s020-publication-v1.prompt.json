@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-20",
+  "tool": "image_gen built-in",
+  "reference": "../characters/mireia-model-sheet-v1.webp",
+  "asset": "com-participar-en-el-concurs-de-podcasts-v1.webp",
+  "width": 1536,
+  "height": 1024,
+  "prompt": "Use case: illustration-story. A single new context illustration for the Sentit Catalan listening worksheet 'Com participar en el concurs de pòdcasts'. The supplied picture is a canonical CHARACTER IDENTITY reference only, not an edit target. Preserve Mireia's exact adult face, warm brown skin, short dark tightly curled hair, sage cardigan over plain cream top, charcoal trousers, and calm approachable teacher manner. She is about40, clearly an adult, not teenage Laia or Aina. Scene: Mireia in a modest school recording studio, sitting at a simple table with one quiet desktop microphone and a plain unmarked sheet of paper. She looks toward an off-frame listener, explaining something with one natural open-hand gesture. No other people. No evidence of recording in progress, no red light, no screen interface, no sound wave. Context only: do NOT show competition rules, numbers of team members, dates, clocks, durations, uploaded files, folder interface, authorizations, names, labels, symbols, posters or information that answers the exercise questions. Fine ink and soft watercolor editorial style matching the reference, warm white paper, very restrained sage green and charcoal palette, a little warm wood. Landscape3:2 medium shot, uncluttered backdrop fading into white edges, readable at80mm print width and in grayscale. No text, letters, numbers, speech bubbles, logo, title or watermark. Do not reproduce a model-sheet layout; one scene only."
+}

@@ -9,7 +9,7 @@ const {chromium}=require('C:/Users/afortun8/.cache/codex-runtimes/codex-primary-
   await context.route('**/*',r=>new URL(r.request().url()).origin===new URL(base).origin?r.continue():r.abort());const page=await context.newPage();page.on('pageerror',e=>errors.push(e.message));
   await context.addInitScript(()=>localStorage.setItem('sentit.catalogue.show-provisional.v1','false'));
   const {activities}=await import('../catalogue.js'),{reviewScript}=await import('../review.js'),{imageOptions}=await import('../worksheet.js'),{strings}=await import('../locales.js');
-  const codes=['S003','S004','S004D','S012','S018','S019'];
+  const codes=['S003','S004','S004D','S012','S018','S019','S020'];
   for(const entry of activities.filter(e=>e.reviewStatus==='validated')){assert(entry.image?.src,entry.code+' publication illustration required');await fs.access(path.resolve(__dirname,'..',entry.image.src));assert(reviewScript(entry,strings.ca).every(p=>p.speaker&&!p.kind),entry.code+' speech-only final transcript');}
   for(const code of codes){
    const entry=activities.find(e=>e.code===code);assert.equal(entry.reviewStatus,'validated');const image=imageOptions(entry);assert(image.visible);assert.equal(image.width,80);assert.equal(image.position,'right');
@@ -23,7 +23,7 @@ const {chromium}=require('C:/Users/afortun8/.cache/codex-runtimes/codex-primary-
    assert.equal(await page.locator('.paper-answer-label').count(),entry.questions.length);
    assert.equal(await page.locator('.paper-illustration img').count(),1);assert.equal(await page.locator('.paper-evidence').count()>0,true);
    const overflow=await page.locator('.paper-content').evaluateAll(nodes=>nodes.some(n=>[...n.children].some(c=>c.getBoundingClientRect().bottom>n.getBoundingClientRect().bottom+2)));assert.equal(overflow,false,code+' pagination');
-   if(['S004D','S018'].includes(code)){await page.screenshot({path:path.join(output,code+'-answers.png')});await page.pdf({path:path.join(output,code+'-answers.pdf'),preferCSSPageSize:true,printBackground:true});}
+   if(['S004D','S018','S020'].includes(code)){await page.screenshot({path:path.join(output,code+'-answers.png')});await page.pdf({path:path.join(output,code+'-answers.pdf'),preferCSSPageSize:true,printBackground:true});}
    await page.goto(base);await page.locator('#search').fill('ca-'+code);const card=page.locator('.activity-card').filter({has:page.locator(`.activity-card-code`,{hasText:code})}).first();assert.match(await card.locator('.activity-card-art img').getAttribute('src'),/assets\/images\//);
   }
   await page.goto(base+'#lectura=ca-S023');await page.locator('#workspace').waitFor({state:'visible'});assert(await page.locator('.paper-direction').count()>0);assert.match(await page.locator('.paper-review-label').first().innerText(),/àudio pendent de validar/);
@@ -42,6 +42,6 @@ const {chromium}=require('C:/Users/afortun8/.cache/codex-runtimes/codex-primary-
   await page.evaluate(()=>window.dispatchEvent(new PageTransitionEvent('pagehide',{persisted:true})));assert.equal(await page.locator('#preview-session-label').innerText(),'Continua');await page.locator('#preview-session-play').click();assert.equal(await page.locator('#preview-session-label').innerText(),'Posa en pausa');
   await page.keyboard.press('Escape');await page.locator('#session-preview-dialog').waitFor({state:'hidden'});const stopped=await page.evaluate(()=>window.previewPlays.length);await page.evaluate(()=>window.rehearsalAudio.dispatchEvent(new Event('ended')));assert.equal(await page.evaluate(()=>window.previewPlays.length),stopped);
   for(const width of [768,375]){await page.setViewportSize({width,height:800});await page.locator('[data-workspace-panel="audio"]').click();await page.locator('#compare-jingles').click();await page.locator('#jingles-dialog').waitFor({state:'visible'});assert.equal(await page.evaluate(()=>document.querySelector('#jingles-dialog').scrollWidth>document.querySelector('#jingles-dialog').clientWidth),false);await page.keyboard.press('Escape');await page.locator('#jingles-dialog').waitFor({state:'hidden'});await page.locator('#audio-panel .panel-close').click();}
-  assert.deepEqual(errors,[]);console.log('PASS · Six illustrated publications, speech-only complete transcripts, pagination and evidence, working drafts retained, compact jingle pairs, shared session preview/rate/prompts/repeats, real and skipped waits, disposal, unchanged QR and responsive dialogs.');
+  assert.deepEqual(errors,[]);console.log('PASS · Seven illustrated publications, speech-only complete transcripts, pagination and evidence, working drafts retained, compact jingle pairs, shared session preview/rate/prompts/repeats, real and skipped waits, disposal, unchanged QR and responsive dialogs.');
  }finally{await browser?.close();server.kill();}
 })().catch(e=>{console.error(e);process.exitCode=1;});

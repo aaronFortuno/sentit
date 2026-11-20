@@ -18,7 +18,7 @@ S004/S004D i S008/S008R reutilitzen expressament el mateix motiu perquè revisen
 Una base de narració i una sintonia de programa tenen funcions diferents. La primera varia entre narracions; la segona es pot repetir per identificar el mateix programa.
 
 - **Sintonia general de Sentit:** identificació opcional de l’activitat, una sola vegada per sessió.
-- **Petita descoberta:** [proposta d’obertura i tancament de la Mireia](https://sentit.ortogra.fi/proves/sintonies-mireia.html), validada com a recurs i incorporada a S020, amb el muntatge encara pendent d’audició.
+- **Petita descoberta:** [proposta d’obertura i tancament de la Mireia](https://sentit.ortogra.fi/proves/sintonies-mireia.html), validada com a recurs i incorporada a S020, amb el muntatge validat definitivament pel docent.
 - **Històries amb sentit:** S008R ja té entrada, base i sortida pròpies al seu manifest. No s’atribueix aquesta sintonia automàticament a la resta de relats.
 
 La música no ha de desvelar una resposta, suggerir un judici sobre un personatge ni tapar consonants. Els manifests de S018 i S022 conserven el nivell de la base sota la veu, la fosa inicial, la pujada posterior a la narració i la cua de silenci. L’audició docent és el pas final de validació.

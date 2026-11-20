@@ -75,7 +75,7 @@ S004: narradora i presentació Aoede. S004D: Aina/Zephyr i avi Ferran/Algenib. S
 
 S019: Laia/Leda i Ona/Sulafat. S023: Mar/Erinome i Pau/Charon. Veus Gemini TTS, una petició completa per peça; S019 v3 publicada després d’eliminar l’anunci de la mostra; S023 v2 espera l’esmena de suggeriments i l’audició del nou muntatge amb Ona curta i mercat CC0. [Fonts i manifests](docs/fonts-sonores.md).
 
-«Fil de veu», «Pas a pas» i «Ona curta» són composicions instrumentals originals locals de Sentit, sota MIT, sense gravacions externes, veus ni crides d’API. Les tres, junt amb «Petita descoberta», estan validades i les obertures són seleccionables com a inici de sessió. Petita descoberta també s’incorpora al muntatge de S020, pendent d’audició. [Recepta](tools/propose-mireia-variants.cjs) · [Índex dels manifests i empremtes](assets/audio/mireia-sintonies-comparacio.json) · [Comparativa](https://sentit.ortogra.fi/proves/sintonies-mireia.html).
+«Fil de veu», «Pas a pas» i «Ona curta» són composicions instrumentals originals locals de Sentit, sota MIT, sense gravacions externes, veus ni crides d’API. Les tres, junt amb «Petita descoberta», estan validades i les obertures són seleccionables com a inici de sessió. Petita descoberta també s’incorpora al muntatge de S020, validat definitivament pel docent. [Recepta](tools/propose-mireia-variants.cjs) · [Índex dels manifests i empremtes](assets/audio/mireia-sintonies-comparacio.json) · [Comparativa](https://sentit.ortogra.fi/proves/sintonies-mireia.html).
 
 
 ## Gravacions reals dels remuntatges S010 i S022
@@ -96,3 +96,7 @@ Es conserven les còpies públiques HQ MP3 i el registre d’empremtes a [conten
 ## Il·lustracions de publicació
 
 Cinc escenes pròpies generades amb l’eina integrada image_gen per a S003, S004/S004D, S012, S018 i S019. Elies i Ona disposen de models gràfics propis; els retrats són retalls frontals d’aquests mateixos models. [Fitxers, prompts i referències](assets/images/README.md) · [Models](assets/characters/README.md). No s’ha utilitzat una veu nova ni síntesi de veu per crear-los.
+
+## S020 definitiva · 20/11/2026
+
+Màster v1 d’Aoede/Mireia validat pel docent, amb Petita descoberta i clic local conservats; cap síntesi nova. Il·lustració de context amb generació integrada image_gen, basada en el model gràfic de Mireia, sense pistes de les preguntes. [Fitxer i prompt](assets/images/s020-publication-v1.prompt.json).

@@ -17,15 +17,16 @@ Exemples: quatre peces de dos minuts sumen vuit minuts abans d’afegir marges; 
 | Lot | Veus predefinides | Blocs | Mots parlats | Previsió amb marges | Tokens d’àudio estimats |
 | --- | --- | --- | ---: | ---: | ---: |
 | L01 | Aoede + Leda | S021-T01; S011-T01; S013 · repartiment; S013 · error; S010 · pla | 711 | 6:49 | 10225 |
-| L02 | Puck + Leda | S011-T02; S010 · alternativa | 82 | 1:07 | 1675 |
+| L02 | Puck + Leda | S011-T02; S010 · alternativa; S007-T02; S024-T01 | 580 | 5:45 | 8625 |
 | L03 | Erinome + Algenib | S006-T01; S016 · exposicio; S022 · dema; S023 · tancament | 308 | 2:53 | 4325 |
 | L04 | Vindemiatrix + Kore | S005 · comprovar; S015 · llum | 27 | 0:22 | 550 |
+| L05 | Aoede | S007-T01 | 232 | 2:24 | 3600 |
 
-La previsió utilitza 120 mots/minut, tres segons per cada marca de pausa llarga existent i quatre segons addicionals per bloc. És una estimació de planificació, amb tokens d’entrada encara pendents de mesurar. L01 és el candidat més llarg i serveix per calibrar el format; els altres tenen espai per afegir futurs guions validats amb les mateixes veus. No generar contingut de farciment ni deformar repartiments per omplir un lot.
+La previsió utilitza 120 mots/minut, tres segons per cada marca de pausa llarga existent i quatre segons addicionals per bloc. És una estimació de planificació, amb tokens d’entrada encara pendents de mesurar. L01 és el candidat més llarg i serveix per calibrar el format; els altres tenen espai per afegir futurs guions validats amb les mateixes veus. L05 conserva la Mireia de S007 a part per no portar L01 per sobre de l’objectiu inicial de vuit minuts. No generar contingut de farciment ni deformar repartiments per omplir un lot.
 
-L01 combina **S021 completa**, la presa de **Mireia de S011** i tres correccions. **L02 completa S011** amb Laia i Biel, i afegeix l’esmena dels Til·lers. L03 agrupa S006 amb les esmenes de Si, rails i suggeriments; L04, matí i temperatura. S011 continua necessitant intercalar les dues preses al muntatge: té tres veus i no es converteix en una lectura completa de dues veus.
+L01 combina **S021 completa**, la presa de **Mireia de S011** i tres correccions. **L02 completa S011** amb Laia i Biel, i afegeix l’esmena dels Til·lers. L02 també inclou S024 completa i els alumnes de S007; L05 conté la Mireia i el títol de S007. L03 agrupa S006 amb les esmenes de Si, rails i suggeriments; L04, matí i temperatura. S007 i S011 continuen necessitant intercalar dues preses al muntatge: tenen tres veus i no es converteixen en lectures completes de dues veus.
 
-En total: tres comprensions noves (quatre preses) i nou frases de correcció. Enviades com ara serien quatre peticions de lectures i quatre de correccions; aquesta proposta les agrupa en quatre. Els R01–R04 existents són una via alternativa: **no executar-los també si les seves esmenes ja s’han rebut en aquests lots**.
+En total: cinc comprensions noves (set preses) i nou frases de correcció. Enviades individualment serien set peticions de lectures i quatre de correccions; aquesta proposta les agrupa en cinc. Els R01–R04 existents són una via alternativa: **no executar-los també si les seves esmenes ja s’han rebut en aquests lots**.
 
 ## Preparació del pilot
 
@@ -57,6 +58,9 @@ Empremtes de les peticions individuals aprovades, abans d’afegir les fronteres
 | L01 | S010 | pla | `a8d86c221c91394f80126bb5b2503e6d16173c2e3000f1aff41edfdf79b71fc2` |
 | L02 | S011 | S011-T02 | `f10cd7920ff62cc59497e1fcea677477d93a5bbd5ae017cd9f3bc08e37bfce39` |
 | L02 | S010 | alternativa | `a8d86c221c91394f80126bb5b2503e6d16173c2e3000f1aff41edfdf79b71fc2` |
+| L02 | S007 | S007-T02 | `3cac570afbf056efc1591679d6c521985c5dfdf1323d6b58164414cf2f1711d7` |
+| L02 | S024 | S024-T01 | `5752318d7e7b57d76f9688b37c14a9b8ee096bc9984675df52fe45801ca66cac` |
+| L05 | S007 | S007-T01 | `dddc6efb4140928f576a414dda65bc08d99b312dda58f648336e16121dd8a77d` |
 | L03 | S006 | S006-T01 | `7e285d58bf7f8bb6dd2061ad42a14861f673202966a83b5935b9bfc1924a373a` |
 | L03 | S016 | exposicio | `d43335d6ca50e24dfe0d17b43f31e2ad67f7040083b26a3628ebd936896b4df7` |
 | L03 | S022 | dema | `dc75acf7a5f1dae1c4d229ce80f07a0257da22db6d95d0f7235b45a125f75f1f` |
