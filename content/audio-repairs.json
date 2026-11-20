@@ -150,5 +150,28 @@
     ],
     "application": "Compare the repair against the original, then find silent handles, match level and splice only this sentence. No automatic replacement, retiming or final publication.",
     "approvedRequestHash": "ed0588aeb64811b62fd7932e8f58d35dace263a9d77d283e393ed8f6f00fe91e"
+  },
+  "S023": {
+    "activity": "ca-S023",
+    "status": "approved-for-correction",
+    "approvedAt": "2026-11-20",
+    "approvalSource": "El docent demana corregir només l’artefacte de suggeriments al tancament; text canònic i veu preservats.",
+    "sourceRequestHash": "f7ee3c6c2597e5eb39bfb92198870b47cd4920be40893e18ec23944bf6ba7d3c",
+    "sourceRawSha256": "eac80f2575c694144fa2d8ddde29f7bfe58c036b619cb9c97dce39c92f3c0736",
+    "notBefore": "2026-11-21T08:00:00.000Z",
+    "voices": {
+      "Presentadora": "Erinome"
+    },
+    "direction": "Read the supplied repair sentence verbatim in natural Central Catalan, with clear word onsets and endings. No title, effects, repetitions or added words. Pronunciation directions are never spoken.",
+    "repairs": [
+      {
+        "part": "tancament",
+        "speaker": "Presentadora",
+        "text": "D’aquí a un mes, l’associació explicarà què s’ha recollit amb els suggeriments.",
+        "pronunciation": "Pronounce suggeriments faithfully, with the vowel I in the stressed sequence -RÍ-ments, never suggerements or suggeraments. Fluent natural Central Catalan; no spelling aloud, no added explanation."
+      }
+    ],
+    "application": "Local phrase replacement only after listening, preserving the rest of the raw recording and checking silent handles.",
+    "approvedRequestHash": "5381bc85a25a80e20c3d2a43e0df955e8f64a4dc7ea5256b52ccd90daf8feb9a"
   }
 }

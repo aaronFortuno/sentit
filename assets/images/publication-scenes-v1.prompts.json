@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-20",
+  "tool": "image_gen built-in",
+  "style": "Sentit ink and watercolor, white edges, character model sheets",
+  "jobs": [
+    {
+      "id": "s003",
+      "refs": [
+        "laia",
+        "biel"
+      ],
+      "prompt": "Use case: illustration-story. Sentit educational listening worksheets. Refined fine ink and soft watercolor on warm white paper, restrained sage green, charcoal and muted ochre, calm natural expressions, background fading into white, clear in grayscale. Landscape 3:2. No text, lettering, numbers, logos, speech bubbles or watermarks. The supplied images are canonical CHARACTER IDENTITY references, not pictures to edit. Keep Laia's curly brown messy bun, freckles, tiny hoop earrings and sage sweater; keep Biel's tousled short brown hair and open charcoal hoodie over light T-shirt, both about 12–14. A single new medium-wide scene: Laia and Biel chatting naturally in a quiet school-library corridor, with backpacks and two plain CLOSED umbrellas partly concealed by the bags. Generic context only. Do NOT show umbrella handles, yellow ribbons, a basket, library signs, clocks or any clue to which umbrella belongs to whom. No other prominent people. Keep central grouping readable on a small printed worksheet."
+    },
+    {
+      "id": "s004",
+      "refs": [
+        "aina",
+        "ferran"
+      ],
+      "prompt": "Use case: illustration-story. Sentit educational listening worksheets. Refined fine ink and soft watercolor on warm white paper, restrained sage green, charcoal and muted ochre, calm natural expressions, background fading into white, clear in grayscale. Landscape 3:2. No text, lettering, numbers, logos, speech bubbles or watermarks. The supplied images are canonical CHARACTER IDENTITY references, not pictures to edit. Aina: straight dark bob and short fringe, round thin glasses, ochre sweatshirt, age10–12. Ferran: her grandfather about70, wavy gray hair, short white beard, dark round glasses, gray cardigan over green checked shirt. A single new warm domestic scene: Aina stands beside seated Ferran in a quiet living room, a plain green jacket loosely draped over her forearm, speaking together attentively. Keep jacket front folded out of view. Context for a missing-button story, but show NO buttons, loose threads, mud, small round objects, sewing tools, garden, bench, ball, leaves or solution. Quiet medium shot, no written content."
+    },
+    {
+      "id": "elies-model",
+      "refs": [
+        "biel"
+      ],
+      "prompt": "Use case: illustration-story. Sentit educational listening worksheets. Refined fine ink and soft watercolor on warm white paper, restrained sage green, charcoal and muted ochre, calm natural expressions, background fading into white, clear in grayscale. Landscape 3:2. No text, lettering, numbers, logos, speech bubbles or watermarks. Create a NEW canonical CHARACTER MODEL SHEET for Elies, not Biel and not any existing character. Supplied Biel sheet is STYLE AND LAYOUT reference only, do not copy his face or clothes. Elies is an adult male luthier about45, warm medium-brown skin, closely cropped black curls with a little gray at temples, oval face, neat short dark beard, no glasses, muted blue-gray work shirt with rolled sleeves, plain warm brown apron, dark trousers and comfortable shoes. Calm approachable craftsman, clearly distinct from elderly white-haired Ferran and adolescent Biel. Upper row four full-body views: front, profile, back and relaxed three-quarter with hands naturally open. Lower row three face studies front, profile, smiling three-quarter. Same identity/proportions/clothes across all views. Plain white paper. No guitar or tools needed; no labels or title. This will anchor subsequent story illustrations."
+    },
+    {
+      "id": "ona-model",
+      "refs": [
+        "laia"
+      ],
+      "prompt": "Use case: illustration-story. Sentit educational listening worksheets. Refined fine ink and soft watercolor on warm white paper, restrained sage green, charcoal and muted ochre, calm natural expressions, background fading into white, clear in grayscale. Landscape 3:2. No text, lettering, numbers, logos, speech bubbles or watermarks. Create a NEW canonical CHARACTER MODEL SHEET for Ona, not Laia or any existing character. Supplied sheet is STYLE AND LAYOUT reference only. Ona is an adult cook about35, dark warm brown skin, black tightly coiled hair neatly gathered in a low bun, softly rounded face, dark brown eyes, no glasses, no freckles, no earrings, plain cream chef/work jacket with sleeves to elbow, muted terracotta apron, charcoal trousers and practical shoes. Warm practical confident manner, clearly adult and distinct from teenage curly-haired Laia. Upper row four full-body views front/profile/back/relaxed three-quarter. Lower row three face studies front/profile/smiling three-quarter. Preserve same face, age and outfit across all views. Plain white paper, no utensils or food, no lettering or title. This will anchor future kitchen scenes."
+    },
+    {
+      "id": "s018",
+      "refs": [
+        "aina",
+        "ferran"
+      ],
+      "prompt": "Use case: illustration-story. One context illustration for a printable Sentit listening-comprehension worksheet and catalogue card. Landscape3:2, fine ink and soft watercolor on warm white paper, restrained sage, charcoal, muted ochre, subtle colors, edges fade to white. Clear in grayscale and at80mm print width. No lettering, labels, numbers, logos, speech bubbles or watermark. All supplied images are canonical CHARACTER IDENTITY references: preserve faces, ages, hair, glasses, base clothing and proportions; do not reproduce the model-sheet layout. Aina, dark straight bob and fringe, round glasses, ochre sweatshirt, age10–12, and her grandfather Ferran, gray wavy hair, white short beard, round dark glasses, gray cardigan and green checked shirt. A single medium-wide scene inside a quiet community workshop. Aina and Ferran face one another thoughtfully beside a CLOSED simple green cupboard. Their hands are empty. Context only, show no key, lock close-up, paper, folder, list, labels, tapes, photographs, interview materials or cupboard contents. Aina looks curious rather than frightened; Ferran calm and approachable. Do not reveal the reason the cupboard is closed or imply a punishment."
+    },
+    {
+      "id": "s012",
+      "refs": [
+        "biel",
+        "elies"
+      ],
+      "prompt": "Use case: illustration-story. One context illustration for a printable Sentit listening-comprehension worksheet and catalogue card. Landscape3:2, fine ink and soft watercolor on warm white paper, restrained sage, charcoal, muted ochre, subtle colors, edges fade to white. Clear in grayscale and at80mm print width. No lettering, labels, numbers, logos, speech bubbles or watermark. All supplied images are canonical CHARACTER IDENTITY references: preserve faces, ages, hair, glasses, base clothing and proportions; do not reproduce the model-sheet layout. Biel, tousled brown hair/open charcoal hoodie/light T-shirt, age12–14, is interviewing Elies, male adult about45, medium-brown skin, closely cropped dark curls with gray at temples, short beard, no glasses, blue-gray shirt and brown apron. Quiet luthier workshop, small recording microphone on a table, one ordinary acoustic guitar resting intact on the bench, dimly suggested instrument silhouettes in background. Both look engaged in a friendly conversation. Show no repair action, tools in use, broken/loose part, replacement string, window, sunlight damage, humidity meter, labelled diagram, or cause/solution of the guitar's fault. Natural hands and attentive expressions."
+    },
+    {
+      "id": "s019",
+      "refs": [
+        "laia",
+        "ona"
+      ],
+      "prompt": "Use case: illustration-story. One context illustration for a printable Sentit listening-comprehension worksheet and catalogue card. Landscape3:2, fine ink and soft watercolor on warm white paper, restrained sage, charcoal, muted ochre, subtle colors, edges fade to white. Clear in grayscale and at80mm print width. No lettering, labels, numbers, logos, speech bubbles or watermark. All supplied images are canonical CHARACTER IDENTITY references: preserve faces, ages, hair, glasses, base clothing and proportions; do not reproduce the model-sheet layout. Laia, curly brown messy bun/freckles/small hoops/sage sweater, age12–14, interviewing Ona, an adult cook about35 with dark warm brown skin, coiled black hair in low bun, cream work jacket and muted terracotta apron. Calm generic professional kitchen, closed cupboards, simple work surface, one indistinct pot in distant background, small handheld microphone in Laia's hand. Two clearly different ages, warm practical conversation. Do not depict recipes, meal portions, food waste, storage boxes, labels, quantities, a menu or a planning chart, and no identifiable answer to the exercise. Quiet medium-wide scene, not a crowded kitchen."
+    }
+  ]
+}

@@ -21,9 +21,9 @@ Guió original en català. Veus sintetitzades amb Gemini TTS (Aoede i Charon). E
 
 ## Primera tanda: S002, S008, S015 i S023
 
-Guions, preguntes, respostes orientatives i transcripcions originals de Sentit. S002 i S008 fan servir Aoede de Gemini 3.8 Flash TTS per a la mestra, la narradora i les presentacions. El nou muntatge de S015 utilitza Puck per a en Biel i el títol i Kore per a la Nora, en una petició i amb separació local dins un silenci comprovat. La presa parcial antiga amb Aoede es conserva com a arxiu i no s’hi barreja. S023 preveu Erinome per a la Mar i Charon per al comerciant Pau; encara no s’ha sintetitzat.
+Guions, preguntes, respostes orientatives i transcripcions originals de Sentit. S002 i S008 fan servir Aoede de Gemini 3.8 Flash TTS per a la mestra, la narradora i les presentacions. El nou muntatge de S015 utilitza Puck per a en Biel i el títol i Kore per a la Nora, en una petició i amb separació local dins un silenci comprovat. La presa parcial antiga amb Aoede es conserva com a arxiu i no s’hi barreja. S023 utilitza Erinome per a la Mar i Charon per al comerciant Pau; àudio produït, amb esmena de pronunciació pendent.
 
-El fregadís de paper de S008 és un so procedimental generat amb FFmpeg. Per a S023 s’ha preparat la recepta d’una sintonia procedimental. No s’hi han afegit enregistraments externs. Els efectes són decoratius i no cal reconèixer-los per respondre. La notícia S023 és fictícia, tal com s’indica al guió de presentació i a la descripció.
+El fregadís de paper de S008 és un so procedimental generat amb FFmpeg. S023 v2 incorpora Ona curta (MIT) i el mercat enregistrat CC0 acreditat més avall. Els efectes són decoratius i no cal reconèixer-los per respondre. La notícia S023 és fictícia, tal com s’indica al guió de presentació i a la descripció.
 
 L’entrevista fictícia S015 pren com a base els criteris de mínima intervenció, estudi i documentació del [Centre de Restauració de Béns Mobles de Catalunya](https://centrederestauracio.gencat.cat/ca/que_fem/que_restaurem/criteris/). La conservació preventiva es contrasta amb les explicacions del Museu Nacional sobre [llum i condicions de les sales](https://www.museunacional.cat/ca/que-hi-ha-poca-llum-i-fa-fred-en-algunes-sales-del-museu) i [conservació-restauració](https://www.museunacional.cat/ca/conservacio-restauracio-0). El guió és una adaptació original per a primària; no reprodueix una entrevista real.
 
@@ -33,7 +33,7 @@ S015 incorpora sintonies d’entrada i sortida, ambient de sala molt baix i un m
 
 ## Web
 
-Les 19 propostes noves que completen el catàleg de 24 tenen guions i preguntes originals de Sentit. Les peces amb guió aprovat es produeixen progressivament; les fases actuals consten al [seguiment de producció](docs/seguiment-produccio.md). Les il·lustracions noves continuen pendents. Les fonts utilitzades per contrastar conceptes, el repartiment candidat i els criteris consten al [dossier editorial](docs/lot-editorial-24.md).
+Les 19 propostes noves que completen el catàleg de 24 tenen guions i preguntes originals de Sentit. Les peces amb guió aprovat es produeixen progressivament; les fases actuals consten al [seguiment de producció](docs/seguiment-produccio.md). Les il·lustracions es completen en passar cada peça a publicació definitiva; vegeu el registre d’imatges. Les fonts utilitzades per contrastar conceptes, el repartiment candidat i els criteris consten al [dossier editorial](docs/lot-editorial-24.md).
 
 Les sis il·lustracions de context s’han generat per a Sentit amb l’eina integrada de generació d’imatges i s’han convertit a WebP, sense canviar-ne la composició. [Fitxers i prompts](assets/images/README.md).
 
@@ -52,7 +52,7 @@ Els vuit retrats de presentació parteixen dels mateixos models i s’han genera
 
 ## S008R · Històries amb sentit
 
-Guió i muntatge validats el 19 de novembre de 2026. Narradora Aoede, Gemini TTS, una petició per al programa complet; presentació reutilitzada de S008. Sintonia de programa, base instrumental i pas de pàgina originals procedurals, generats amb FFmpeg, sota la llicència MIT del projecte. [Recepta del muntatge](tools/render-radio.cjs) i [manifest amb consum, marques i empremtes](assets/audio/s008r-production-manifest.json). Comprovació de marques de paraula amb Vosk de català local, sense generar gravacions ni fer crides de revisió al núvol.
+Guió i escaleta validats el 19 de novembre de 2026; màster escoltat i publicació definitiva confirmats el 20 de novembre. Narradora Aoede, Gemini TTS, una petició per al programa complet; presentació reutilitzada de S008. Sintonia de programa, base instrumental i pas de pàgina originals procedurals, generats amb FFmpeg, sota la llicència MIT del projecte. [Recepta del muntatge](tools/render-radio.cjs) i [manifest amb consum, marques i empremtes](assets/audio/s008r-production-manifest.json). Comprovació de marques de paraula amb Vosk de català local, sense generar gravacions ni fer crides de revisió al núvol.
 
 El seguiment i els avisos utilitzen [Umami](https://github.com/umami-software/umami), allotjat en una instància pròpia. [Dades i controls de privadesa](docs/estadistiques.md).
 
@@ -73,7 +73,7 @@ S004: narradora i presentació Aoede. S004D: Aina/Zephyr i avi Ferran/Algenib. S
 
 ## S019, S023 i noves sintonies
 
-S019: Laia/Leda i Ona/Sulafat. S023: Mar/Erinome i Pau/Charon. Veus Gemini TTS, una petició completa per peça; àudios pendents d’audició. S019 v2 incorpora l’ambient de cuina real acreditat a continuació; S023 utilitza paper, passos, ambient i sintonies originals procedurals de Sentit, MIT. [Fonts i manifests](docs/fonts-sonores.md).
+S019: Laia/Leda i Ona/Sulafat. S023: Mar/Erinome i Pau/Charon. Veus Gemini TTS, una petició completa per peça; S019 v3 publicada després d’eliminar l’anunci de la mostra; S023 v2 espera l’esmena de suggeriments i l’audició del nou muntatge amb Ona curta i mercat CC0. [Fonts i manifests](docs/fonts-sonores.md).
 
 «Fil de veu», «Pas a pas» i «Ona curta» són composicions instrumentals originals locals de Sentit, sota MIT, sense gravacions externes, veus ni crides d’API. Les tres, junt amb «Petita descoberta», estan validades i les obertures són seleccionables com a inici de sessió. Petita descoberta també s’incorpora al muntatge de S020, pendent d’audició. [Recepta](tools/propose-mireia-variants.cjs) · [Índex dels manifests i empremtes](assets/audio/mireia-sintonies-comparacio.json) · [Comparativa](https://sentit.ortogra.fi/proves/sintonies-mireia.html).
 
@@ -85,6 +85,14 @@ S019: Laia/Leda i Ona/Sulafat. S023: Mar/Erinome i Pau/Charon. Veus Gemini TTS, 
 
 Es conserven les còpies públiques HQ MP3 i el registre d’empremtes a [content/sound-sources.js](content/sound-sources.js). Aquestes fonts conserven CC0; MIT no en substitueix la llicència.
 
-## Ambient real de cuina de S019 v2
+## Ambient real de cuina de S019 v3
 
-«Ambiente kitchen Cocina Spain España», de **SoundtasticPro**, [Freesound 484572](https://freesound.org/people/SoundtasticPro/sounds/484572/), [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Còpia pública HQ MP3, dues passades amb fosa d’enllaç, filtratge i nivells molt baixos sota la veu. Foses d’entrada i sortida. [Font, empremta i transformacions](content/sound-sources.js) · [Manifest S019](assets/audio/s019-production-manifest.json). CC0 es manté independent de MIT.
+«Ambiente kitchen Cocina Spain España», de **SoundtasticPro**, [Freesound 484572](https://freesound.org/people/SoundtasticPro/sounds/484572/), [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Còpia pública HQ MP3: cinc segons inicials d’identificació oral eliminats abans de fer dues passades amb fosa d’enllaç, filtratge i nivells molt baixos sota la veu. Foses d’entrada i sortida. [Font, empremta i transformacions](content/sound-sources.js) · [Manifest S019](assets/audio/s019-production-manifest.json). CC0 es manté independent de MIT.
+
+## Mercat de S023 v2
+
+«Oxford covered market ambience», **jmdh**, [Freesound 388315](https://freesound.org/people/jmdh/sounds/388315/), [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Còpia pública HQ MP3, fragment 12–51,1 s, filtratge, nivell baix i foses sota l’entrevista amb en Pau. Ona curta: parella original de Sentit, MIT.
+
+## Il·lustracions de publicació
+
+Cinc escenes pròpies generades amb l’eina integrada image_gen per a S003, S004/S004D, S012, S018 i S019. Elies i Ona disposen de models gràfics propis; els retrats són retalls frontals d’aquests mateixos models. [Fitxers, prompts i referències](assets/images/README.md) · [Models](assets/characters/README.md). No s’ha utilitzat una veu nova ni síntesi de veu per crear-los.

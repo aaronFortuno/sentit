@@ -53,18 +53,18 @@
   },
   "S023": {
     "status": "approved",
-    "approvedFingerprint": "16b101dcfda79db8892502c717dbab36548e03b477c7fdd9918ebdfedfdfc864",
-    "reviewedAt": "2026-11-20T12:33:03.656Z",
+    "approvedFingerprint": "9b9450bf5f3f2f61ec009a99728fcf20788de66eead40f4e822079a60fdac521",
+    "reviewedAt": "2026-11-20",
     "format": "Notícia radiofònica de ficció, amb Mar (Erinome) i Pau (Charon).",
     "cues": [
-      "Capçalera original de dos segons, marge de 250 ms i inici de la veu.",
+      "Ona curta: quatre segons d’obertura, fora de la veu, amb marge abans de la locució.",
       "Veu neta als accessos, horaris, opinions i decisions pendents.",
-      "Ambient de sala, dos passos i paper molt discrets abans del testimoni; sense veus de clientela ni anuncis.",
+      "Ambient real enregistrat de mercat cobert, CC0 de jmdh, fragment des del segon 12; baix sota la presentació d’en Pau, el testimoni i el comiat mutu. Fosa abans de reprendre les dades. Sense passos ni paper sintetitzats.",
       "Mar presenta en Pau i li fa una pregunta directa. Pau confirma, saluda la Mar i respon. La periodista li dona les gràcies i s’acomiada abans de recuperar la síntesi; Pau li retorna el comiat.",
       "Una sola petició per al títol i tota la notícia, amb tall local dins una pausa llarga.",
       "Veus proposades: Erinome per a la Mar i Charon per a en Pau, pendents de validar."
     ],
-    "ending": "El comiat mutu amb en Pau queda dins del guió abans de la síntesi. Després del torn final de la Mar, marge de 300 ms, separador de dos segons i 600 ms de silenci; cap frase fora del guió.",
+    "ending": "Ona curta: tancament després de l’última paraula i marge, sense tapar la veu; 600 ms de silenci final.",
     "plannedNewRequests": 1,
     "requiredVoices": {
       "Presentadora": "Erinome",
@@ -73,7 +73,21 @@
     "strategy": "packed-title-news-v1",
     "reviewContent": "content/reobren-el-mercat.js",
     "reviewActivity": "ca-S023",
-    "approvalSource": "Validació explícita del docent el 20/11/2026: «S023 validat, pot anar a producció». Guió, veus i escaleta exactes conservats, amb títol i tota la notícia en una petició."
+    "approvalSource": "Validació explícita del docent el 20/11/2026: «S023 validat, pot anar a producció». Guió, veus i escaleta exactes conservats, amb títol i tota la notícia en una petició. Remuntatge autoritzat pel docent el 20/11: nova sintonia informativa i ambient enregistrat de mercat sota l’entrevista. Àudio i esmena de suggeriments pendents de validar.",
+    "sharedJingle": {
+      "id": "ona-curta",
+      "approval": "Els quatre jingles de sintonies-mireia són bons; substitució de la sintonia rebutjada demanada pel docent.",
+      "obertura": "62016b7d191327628b1ca3b0be77e46e0c273a9732e04152ca2cde6efca33d7a",
+      "tancament": "2ec44fc31e176c8ee86b57167eef042d66b3e38879ce5c092ab353971c5ff4cc"
+    },
+    "externalRecordings": [
+      {
+        "id": "jmdh-covered-market-388315",
+        "sha256": "491adb6958fbd12889734f9ccfbf488c9316d7addc0c1121630d1f315a136810",
+        "license": "CC0 1.0",
+        "trimStart": 12
+      }
+    ]
   },
   "S008R": {
     "status": "approved",
@@ -439,8 +453,8 @@
   },
   "S019": {
     "status": "approved",
-    "approvedFingerprint": "11977fa5c579edaf15d859b80e5fa11df7afe22e103f4b00b3ffeee7c3812941",
-    "reviewedAt": "2026-11-20T12:33:03.659Z",
+    "approvedFingerprint": "41873e799f9f4ca538cb42c03a784a37c4d40bea5f349752a9869b8be8a6ca42",
+    "reviewedAt": "2026-11-20",
     "reviewActivity": "ca-S019",
     "reviewContent": "content/propostes/sise.js",
     "format": "6è accessible: idees ordenades, exemples explícits i respostes concises. Distingir aprofitar aliments de consumir-ne que no siguin segurs.",
@@ -457,12 +471,13 @@
     },
     "strategy": "packed-title-program-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
-    "approvalSource": "El docent valida la síntesi de veus i demana un ambient enregistrat real de cuina, molt baix sota l’entrevista, amb entrada audible i pujada/fosa de tancament. Autorització de remuntatge del 20/11/2026, pendent d’audició.",
+    "approvalSource": "El docent valida la síntesi de veus i demana un ambient enregistrat real de cuina, molt baix sota l’entrevista, amb entrada audible i pujada/fosa de tancament. Autorització de remuntatge del 20/11/2026, pendent d’audició. El docent autoritza la publicació definitiva un cop eliminada la identificació oral de la mostra; es retallen cinc segons abans de fer el bucle.",
     "externalRecordings": [
       {
         "id": "soundtasticpro-kitchen-484572",
         "sha256": "1bd886bb25614d7e0768e77cd4200ad84f4db55f51257a5e16c11f47737155ad",
-        "license": "CC0 1.0"
+        "license": "CC0 1.0",
+        "trimStart": 5
       }
     ]
   },

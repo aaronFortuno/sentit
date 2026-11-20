@@ -1,5 +1,11 @@
 # Fitxes gràfiques de personatge
 
+## Elies i Ona · 20/11/2026
+
+Afegides les fitxes [Elies](elies-model-sheet-v1.png) i [Ona](ona-model-sheet-v1.png), amb previsualitzacions WebP i retrats derivats de l’estudi frontal del mateix full. Generació integrada `image_gen`; tinta i aquarel·la, 1536 × 1024. Els retrats són retalls tècnics del model, sense redibuix. [Prompts i referències d’estil](../images/publication-scenes-v1.prompts.json). Elies conserva Algieba i Ona, Sulafat; no s’ha modificat cap veu.
+
+Elies: pell de to mitjà, cabells curts arrissats, barba curta, camisa blau grisós i davantal marró. Ona: pell fosca, cabells arrissats en monyo baix, jaqueta clara i davantal terracota. Les primeres escenes pròpies són S012 i S019. No reutilitzen les cares de Ferran, Biel, Nora ni Mar.
+
 Primera versió generada el 18 de novembre de 2026 amb la generació d’imatges integrada, sense peticions a Gemini TTS. PNG originals de 1536 × 1024 píxels. Previsualitzacions WebP a qualitat 90, sense canviar la mida ni la composició, exportades amb FFmpeg; la galeria carrega aquestes còpies i enllaça als PNG.
 
 Les fitxes inclouen quatre vistes de cos i tres estudis de cara. Laia i Biel parteixen de la imatge de S001; Ferran conserva la identitat de l’avi de S008. Aina, Mireia, Nora, Mar i Pau tenen identitats diferenciades dins del mateix estil.

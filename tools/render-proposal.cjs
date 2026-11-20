@@ -6,7 +6,7 @@ const {productionSpec,packedProposalRequest}=require('./proposal-plan.cjs'),{ass
 const {findPhrase,normalize}=require('./render-radio.cjs');
 const root=path.resolve(__dirname,'..'),work=path.resolve(root,'../output/sentit-primera-tanda');
 const hash=data=>createHash('sha256').update(data).digest('hex');
-const recipes={S020:{file:'s020-podcasts-v1',source:'sise',titleWords:8,titleLastWord:'podcast',titleCut:4.01,lead:4.3,tail:4.5},S023:{file:'s023-mercat-v1',content:'content/reobren-el-mercat.js',lead:2.5,tail:3.2},S019:{file:'s019-cuinera-v2',source:'sise',titleCut:3.95,lead:2.8,tail:5},S004D:{file:'s004d-boto-dialogat-v1',source:'variants',titleMinGap:.7,lead:2.7,tail:4},S005:{file:'s005-cartera-v1',source:'tercer',lead:2.5,tail:3.2},S004:{file:'s004-boto-v1',source:'tercer',lead:2.7,tail:4},S003:{file:'s003-paraigua-v1',source:'tercer',lead:2.25,tail:3.2},S010:{file:'s010-pavello-v2',source:'quart',lead:2,tail:2},S012:{file:'s012-instruments-v2',source:'quart',titleWords:7,lead:3.6,tail:7.3},S013:{file:'s013-carta-v2',source:'quart',lead:1.1,tail:3.2},S016:{file:'s016-jaciment-v1',source:'cinque',titleMinGap:.5,lead:2.3,tail:2.8},S018:{file:'s018-armari-verd-v1',source:'cinque',lead:2.7,tail:6},S022:{file:'s022-tramvia-v2',source:'sise',lead:2.7,tail:6}};
+const recipes={S020:{file:'s020-podcasts-v1',source:'sise',titleWords:8,titleLastWord:'podcast',titleCut:4.01,lead:4.3,tail:4.5},S023:{file:'s023-mercat-v2',content:'content/reobren-el-mercat.js',lead:4.6,tail:4.8},S019:{file:'s019-cuinera-v3',source:'sise',titleCut:3.95,lead:2.8,tail:5},S004D:{file:'s004d-boto-dialogat-v1',source:'variants',titleMinGap:.7,lead:2.7,tail:4},S005:{file:'s005-cartera-v1',source:'tercer',lead:2.5,tail:3.2},S004:{file:'s004-boto-v1',source:'tercer',lead:2.7,tail:4},S003:{file:'s003-paraigua-v1',source:'tercer',lead:2.25,tail:3.2},S010:{file:'s010-pavello-v2',source:'quart',lead:2,tail:2},S012:{file:'s012-instruments-v2',source:'quart',titleWords:7,lead:3.6,tail:7.3},S013:{file:'s013-carta-v2',source:'quart',lead:1.1,tail:3.2},S016:{file:'s016-jaciment-v1',source:'cinque',titleMinGap:.5,lead:2.3,tail:2.8},S018:{file:'s018-armari-verd-v1',source:'cinque',lead:2.7,tail:6},S022:{file:'s022-tramvia-v2',source:'sise',lead:2.7,tail:6}};
 async function main(){
  const code=process.argv.find(arg=>arg.startsWith('--only='))?.slice(7).toUpperCase().replace(/^CA-/,'');
  const recipe=recipes[code];if(!recipe)throw Error('No hi ha recepta de muntatge revisada per a aquest codi.');
@@ -105,7 +105,7 @@ async function main(){
  }else if(code==='S019'){
   const {soundSourcesForActivity}=await import(pathToFileURL(path.join(root,'content/sound-sources.js')));
   const recording=soundSourcesForActivity(entry).find(source=>source.id==='soundtasticpro-kitchen-484572'),approved=plans[code].externalRecordings?.find(source=>source.id===recording?.id);
-  if(!recording||!approved||approved.sha256!==recording.sha256||approved.license!==recording.license)throw Error('L’ambient de cuina no coincideix amb la font aprovada.');
+  if(!recording||!approved||approved.sha256!==recording.sha256||approved.license!==recording.license||approved.trimStart!==recording.excerpt?.start)throw Error('L’ambient de cuina no coincideix amb la font aprovada.');
   if(hash(await fs.readFile(path.join(root,recording.file)))!==recording.sha256)throw Error('La gravació de cuina ha canviat.');
   const scene=await require('./recorded-scenes.cjs').kitchenBed({root,binary,wav,recording,voice,lead,voiceEnd,tail});
   if(scene.effect.envelope.duckBeforeSpeech.end>lead+firstBody.start-cut-.15)throw Error('L’ambient no baixa prou abans de la primera paraula.');
@@ -127,16 +127,20 @@ async function main(){
   const click=wav('podcast-check-click',['-f','lavfi','-i',`anoisesrc=color=pink:amplitude=0.05:sample_rate=48000:duration=${seconds}:seed=20020`,'-af',`highpass=f=650,lowpass=f=3200,volume=0.16,afade=t=in:d=0.003,afade=t=out:st=${Math.max(.005,seconds-.025)}:d=0.025`]);
   add(click,'podcast-check-click',start,start+seconds);
  }else if(code==='S023'){
-  const sting=wav('market-news-sting',['-f','lavfi','-i',"aevalsrc='0.045*sin(2*PI*if(lt(t,0.5),392,if(lt(t,1),493.88,587.33))*t)*(1-exp(-80*mod(t,0.5)))*exp(-5*mod(t,0.5))':s=48000:d=2",'-af','afade=t=in:d=0.025,afade=t=out:st=1.35:d=0.65']);
-  add(sting,'market-news-opening',0,2);
-  const index=findPhrase(words,'parlem amb en pau'),gap=words[index].start-words[index-1].end,seconds=Math.min(.8,gap-.16);
-  if(seconds<.2)throw Error('Cal revisar la pausa abans del testimoni del mercat.');
-  const start=lead+words[index].start-cut-.08-seconds;
-  add(footsteps('market-hall-steps',seconds,23023,.4),'market-hall-steps',start,start+seconds);
-  const hall=wav('market-hall-air',['-f','lavfi','-i',`anoisesrc=color=pink:amplitude=0.045:sample_rate=48000:duration=${seconds}:seed=23024`,'-af',`highpass=f=150,lowpass=f=1800,volume=0.05,afade=t=in:d=0.04,afade=t=out:st=${seconds-.12}:d=0.12`]);
-  add(hall,'market-hall-air',start,start+seconds);
-  add(paper('market-paper',.22,23025),'market-paper',lead+words[index].start-cut-.1,lead+words[index].start-cut+.12);
-  add(sting,'market-news-ending',voiceEnd+.3,voiceEnd+2.3);
+  const jingle=JSON.parse(await fs.readFile(path.join(root,'assets/audio/mireia-ona-curta-v1.json'),'utf8')),approvedJingle=plans[code].sharedJingle;
+  if(jingle.status!=='approved'||approvedJingle?.id!=='ona-curta')throw Error('La sintonia informativa necessita aprovació.');
+  for(const kind of ['obertura','tancament']){
+   const track=jingle.files.find(file=>file.kind===kind),file=path.join(root,track.file);
+   if(hash(await fs.readFile(file))!==track.sha256||approvedJingle[kind]!==track.sha256)throw Error('La sintonia informativa ha canviat.');
+   const at=kind==='obertura'?0:voiceEnd+.35;
+   if((kind==='obertura'&&track.durationSeconds>lead-.3)||(kind==='tancament'&&at+track.durationSeconds>voiceEnd+tail-.6))throw Error('No hi ha prou marge per a la sintonia informativa.');
+   add(file,'ona-curta-'+kind,at,at+track.durationSeconds,{source:track.file,sourceSha256:track.sha256,author:'Sentit',license:'MIT',retimed:false});
+  }
+  const {soundSourcesForActivity}=await import(pathToFileURL(path.join(root,'content/sound-sources.js'))),recording=soundSourcesForActivity(entry).find(s=>s.id==='jmdh-covered-market-388315'),approved=plans[code].externalRecordings?.find(s=>s.id===recording?.id);
+  if(!recording||approved?.sha256!==recording.sha256||approved.license!==recording.license||approved.trimStart!==recording.excerpt.start||hash(await fs.readFile(path.join(root,recording.file)))!==recording.sha256)throw Error('La gravació de mercat no coincideix amb la font aprovada.');
+  const first=findPhrase(words,'parlem amb en pau'),last=findPhrase(words,'per tant la possible'),at=lead+words[first].start-cut-.65,until=lead+words[last].start-cut-.1;
+  if(words[first].start-.65<words[first-1].end)throw Error('L’ambient comença abans d’acabar l’horari.');
+  const scene=await require('./recorded-scenes.cjs').marketInterviewBed({root,binary,wav,recording,voice,start:at,end:until});add(scene.file,scene.effect.name,at,until,scene.effect);
  }else if(code==='S016'){
   const sting=(name,frequencies)=>wav(name,['-f','lavfi','-i',`aevalsrc='0.045*sin(2*PI*if(lt(t,0.5),${frequencies[0]},if(lt(t,1),${frequencies[1]},${frequencies[2]}))*t)*(1-exp(-90*mod(t,0.5)))*exp(-5*mod(t,0.5))':s=48000:d=2`,'-af','afade=t=in:d=0.025,afade=t=out:st=1.35:d=0.65']);
   add(sting('news-opening',[329.63,440,523.25]),'news-opening',0,2);
@@ -195,8 +199,8 @@ async function main(){
  const report={code,activity:'ca-'+code,date:new Date().toISOString(),state:'awaiting-audio-validation',model:provider.model,voices:spec.voices,newSynthesisRequests:1,approvalFingerprint:fingerprint(entry,spec,plans[code]),requestHash,rawSha256:hash(bytes),usage:provider.usage,rawDuration,cut:{at:cut,previousWordEnd:lastTitle.end,nextWordStart:firstBody.start,peakDbFS:cutPeak,rawSamplesPreserved:true},file:path.basename(master),introFile:path.basename(introFile),bodyFile:path.basename(bodyFile),offset,bodyDuration,fullDuration:offset+bodyDuration,lufs,peakDbTP,voice:{bodyLead:lead,bodyRawDuration,untrimmedApartFromSilenceSplit:!reuse,retimed:false},...(spec.performance?{vocalPerformance:{...spec.performance,source:'Gemini TTS in the same take',listeningValidation:'pending'}}:{}),...(spec.overlaps?{vocalOverlaps:{requested:spec.overlaps,source:'Gemini TTS in the same take',listeningValidation:'pending'}}:{}),...(reuse?{editorialEdit:reuse,montageNewSynthesisRequests:0}:{}),effects,sha256:hash(await fs.readFile(master))};
  const {musicForActivity}=await import(pathToFileURL(path.join(root,'content/music-catalogue.js'))),musicTrack=musicForActivity(entry);
  if(code==='S020'){report.montageNewSynthesisRequests=0;report.sharedJingle={id:'petita-descoberta',approvedAt:'2026-11-20',opening:effects[0].sourceSha256,closing:effects[1].sourceSha256};}
- if(['S010','S013','S022','S012','S019'].includes(code)){
-  const previousFile=path.join(folder,'before-remount-v2.json');
+ if(['S010','S013','S022','S012','S019','S023'].includes(code)){
+  const previousFile=path.join(folder,code==='S019'?'before-remount-v3.json':'before-remount-v2.json');
   if(!await fs.stat(previousFile).catch(error=>{if(error.code==='ENOENT')return null;throw error;}))await fs.copyFile(path.join(root,`assets/audio/${code.toLowerCase()}-production-manifest.json`),previousFile);
   const previous=JSON.parse(await fs.readFile(previousFile,'utf8'));
   if(previous.rawSha256!==report.rawSha256||previous.requestHash!==report.requestHash)throw Error('El remuntatge ha canviat la presa de veu.');
@@ -224,6 +228,7 @@ async function main(){
  if(code==='S023'){
   content=content.replace(/genre: 'news', seconds: \d+/,`genre: 'news', seconds: ${Math.ceil(report.fullDuration)}`).replace(/status: '[^']+'/,"status: 'ready-for-review'").replace(/reviewStatus: '[^']+'/,"reviewStatus: 'audio-review'");
   content=content.replace(/audio: null,/,`audio: './assets/audio/${report.file}', tracks: { introduction: './assets/audio/${report.introFile}', body: './assets/audio/${report.bodyFile}' },`);
+  content=content.replace(/audio: '[^']+', tracks: \{[^\r\n]+\},/,()=>`audio: './assets/audio/${report.file}', tracks: { introduction: './assets/audio/${report.introFile}', body: './assets/audio/${report.bodyFile}' },`);
   content=content.replace(/fragment: \{ start: [\d.]+, seconds: [\d.]+ \}/,`fragment: { start: ${offset}, seconds: ${Math.round(bodyDuration)} }`);
   await fs.writeFile(contentFile,content);
  }else if(!content.slice(lineEnd,lineEnd+400).includes(`./assets/audio/${recipe.file}.mp3`)){

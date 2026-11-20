@@ -1,15 +1,15 @@
 {
   "code": "S023",
   "activity": "ca-S023",
-  "date": "2026-11-20T12:38:23.648Z",
-  "state": "awaiting-audio-validation",
+  "date": "2026-11-20T20:09:54.848Z",
+  "state": "awaiting-pronunciation-correction-and-audio-review",
   "model": "gemini-3.8-flash-tts",
   "voices": {
     "Presentadora": "Erinome",
     "Pau": "Charon"
   },
   "newSynthesisRequests": 1,
-  "approvalFingerprint": "16b101dcfda79db8892502c717dbab36548e03b477c7fdd9918ebdfedfdfc864",
+  "approvalFingerprint": "9b9450bf5f3f2f61ec009a99728fcf20788de66eead40f4e822079a60fdac521",
   "requestHash": "f7ee3c6c2597e5eb39bfb92198870b47cd4920be40893e18ec23944bf6ba7d3c",
   "rawSha256": "eac80f2575c694144fa2d8ddde29f7bfe58c036b619cb9c97dce39c92f3c0736",
   "usage": {
@@ -41,51 +41,80 @@
     "peakDbFS": -58.5,
     "rawSamplesPreserved": true
   },
-  "file": "s023-mercat-v1.mp3",
-  "introFile": "s023-mercat-v1-intro.mp3",
-  "bodyFile": "s023-mercat-v1-cos.mp3",
+  "file": "s023-mercat-v2.mp3",
+  "introFile": "s023-mercat-v2-intro.mp3",
+  "bodyFile": "s023-mercat-v2-cos.mp3",
   "offset": 6.805,
-  "bodyDuration": 192.605,
-  "fullDuration": 199.41,
-  "lufs": -19.9,
+  "bodyDuration": 196.305,
+  "fullDuration": 203.11,
+  "lufs": -19.8,
   "peakDbTP": -2.8,
   "voice": {
-    "bodyLead": 2.5,
+    "bodyLead": 4.6,
     "bodyRawDuration": 186.905,
     "untrimmedApartFromSilenceSplit": true,
     "retimed": false
   },
   "effects": [
     {
-      "name": "market-news-opening",
+      "name": "ona-curta-obertura",
       "start": 0,
-      "end": 2,
-      "origin": "original-procedural"
+      "end": 4,
+      "origin": "original-procedural",
+      "source": "assets/audio/mireia-ona-curta-v1-obertura.mp3",
+      "sourceSha256": "62016b7d191327628b1ca3b0be77e46e0c273a9732e04152ca2cde6efca33d7a",
+      "author": "Sentit",
+      "license": "MIT",
+      "retimed": false
     },
     {
-      "name": "market-hall-steps",
-      "start": 62.26499999999999,
-      "end": 62.824999999999996,
-      "origin": "original-procedural"
+      "name": "ona-curta-tancament",
+      "start": 191.855,
+      "end": 195.45499999999998,
+      "origin": "original-procedural",
+      "source": "assets/audio/mireia-ona-curta-v1-tancament.mp3",
+      "sourceSha256": "2ec44fc31e176c8ee86b57167eef042d66b3e38879ce5c092ab353971c5ff4cc",
+      "author": "Sentit",
+      "license": "MIT",
+      "retimed": false
     },
     {
-      "name": "market-hall-air",
-      "start": 62.26499999999999,
-      "end": 62.824999999999996,
-      "origin": "original-procedural"
-    },
-    {
-      "name": "market-paper",
-      "start": 62.80499999999999,
-      "end": 63.02499999999999,
-      "origin": "original-procedural"
-    },
-    {
-      "name": "market-news-ending",
-      "start": 189.705,
-      "end": 191.705,
-      "origin": "original-procedural"
+      "name": "real-market-interview",
+      "start": 64.35499999999999,
+      "end": 103.455,
+      "origin": "external-recording",
+      "source": "assets/audio/sources/jmdh-388315-covered-market.mp3",
+      "sourceId": "jmdh-covered-market-388315",
+      "sourceSha256": "491adb6958fbd12889734f9ccfbf488c9316d7addc0c1121630d1f315a136810",
+      "sourceUrl": "https://freesound.org/people/jmdh/sounds/388315/",
+      "author": "jmdh",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceExcerpt": {
+        "start": 12,
+        "end": 51.10000000000001
+      },
+      "passes": 1,
+      "retimed": false,
+      "pitchShifted": false,
+      "speechWindowMeanDbFS": -39.6,
+      "speechWindowVoiceMeanDbFS": -19.4,
+      "speechWindowMarginDb": 20.200000000000003,
+      "speechWindowPeakDbFS": -26.9,
+      "fadeIn": 0.8,
+      "fadeOut": 0.45,
+      "listeningValidation": "pending"
     }
   ],
-  "sha256": "6dc57aac981867dea306d11442daa83d4834108a5c7aa7d1d10d85f78d5d15b5"
+  "sha256": "f9e9501db7bae7a2bdb85eef8ab50a10eee7bac97781498ecbe69366f1595b88",
+  "montageNewSynthesisRequests": 0,
+  "previousMaster": {
+    "file": "s023-mercat-v1.mp3",
+    "sha256": "6dc57aac981867dea306d11442daa83d4834108a5c7aa7d1d10d85f78d5d15b5"
+  },
+  "pronunciationRepair": {
+    "plan": "content/audio-repairs.json",
+    "status": "pending-quota-and-listening",
+    "applied": false
+  }
 }

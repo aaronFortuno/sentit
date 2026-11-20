@@ -12,10 +12,11 @@ El docent valida les veus escoltant-les. Una transcripció automàtica pot recon
 | S013 | Aoede / Mireia | error · endevinar una bústia | Mateixa incidència | Segona frase dins la mateixa petició |
 | S022 | Algenib / Ferran | dema · mirant els rails | ráils/ralls, mot poc identificable | Prova amb pronunciació ra-ÍLS, sense canviar la grafia |
 | S005 | Vindemiatrix / Joana | comprovar · Aquest matí, per exemple | matà en lloc de matí | Frase curta amb accent a Í |
+| S023 | Erinome / Mar (Presentadora) | tancament · suggeriments | suggerements o suggeraments | Repetir la frase curta amb la i tònica correcta |
 | S015 | Kore / Nora | llum · condicions de temperatura i humitat | temperatira en lloc de temperatura | Frase curta amb dicció de temperatura i l·l clara |
 | S016 | Erinome / Mar | exposicio · Si l’estudi avança, l’equip | Soroll «ffff» en substitució de Si | Preparar reparació local; resta de la peça ben valorada |
 
-**Cap d’aquestes correccions s’ha sintetitzat o aplicat.** Vuit frases, sis activitats i set veus es reparteixen en **quatre peticions**: R01 (Leda/Puck), R02 (Aoede/Vindemiatrix), R03 (Algenib/Erinome) i R04 (Kore). El límit tècnic de dues veus predefinides per petició impedeix agrupar les set en un sol paquet. Les frases acaben amb dues marques de pausa llarga; es demanen tres segons de marge per tallar localment, però cal comprovar el silenci real retornat.
+**Cap d’aquestes correccions s’ha sintetitzat o aplicat.** Nou frases, set activitats i set veus es reparteixen en **quatre peticions**: R01 (Leda/Puck), R02 (Aoede/Vindemiatrix), R03 (Algenib/Erinome, incloent-hi S023) i R04 (Kore). El límit tècnic de dues veus predefinides per petició impedeix agrupar les set en un sol paquet. Les frases acaben amb dues marques de pausa llarga; es demanen tres segons de marge per tallar localment, però cal comprovar el silenci real retornat.
 
 El registre compta deu peticions del dia de quota 20/11; els quatre lots queden preparats a partir del **21/11/2026, 08:00 UTC**, sense programar-ne l’execució. [Plans per activitat](../content/audio-repairs.json) · [Quatre lots exactes](../content/audio-repair-batches.json).
 
@@ -57,3 +58,7 @@ L'eina exigeix coincidència de textos, veus, presa d'origen, aprovació i revis
 Les noves variants v2 mantenen disponibles els màsters v1. [Fonts i transformacions](../content/sound-sources.js). Els efectes nous necessiten audició; la veu original encara conté els defectes notificats.
 
 Les cards mostren «Síntesi pendent d’esmena» mentre algun feedback sigui pending. Rebre la prova no resol l’error: només després d’aplicar-la al màster, anotar applied i comprovar el nou muntatge tornen a «Àudio pendent de validar». La publicació definitiva continua requerint el docent.
+
+La [proposta de lots mixtos](lots-sintesi.md) redistribueix aquestes frases entre lectures compatibles. És una alternativa encara no implementada; si s’executa, cal consumir les mateixes incidències i evitar tornar a enviar R01–R04.
+
+S023 v2 ja té Ona curta i ambient real de mercat. La correcció de suggeriments al tancament continua pending; no es considera resolta pel canvi de muntatge. Mar i Presentadora són etiquetes de la mateixa veu Erinome: el lot les normalitza sense perdre el nom original de cada fragment.

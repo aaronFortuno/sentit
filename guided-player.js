@@ -2,7 +2,9 @@ import { selectedJingleUrl } from './session.js';
 
 // Native media preserves pitch. Waits use real seconds, independently of speech rate.
 // Padded, separate tracks finish naturally instead of cutting speech with a timer.
-export function initGuidedPlayer(entry, session, prompts, button, render, onAction=()=>{}) {
+export function initGuidedPlayer(entry, session, prompts, button, render, onAction=()=>{}, options={}) {
+  const listeners = new AbortController();
+  let disposed = false;
   const audio = new Audio();
   audio.preload = 'auto';
   audio.preservesPitch = true;
@@ -29,6 +31,7 @@ export function initGuidedPlayer(entry, session, prompts, button, render, onActi
   const current = () => steps[index];
   const left = () => remaining - (running ? (performance.now() - started) / 1000 : 0);
   function paint() {
+    if (disposed) return;
     cancelAnimationFrame(frame);
     if (running && current()?.seconds && left() <= 0) { advance(); return; }
     const done = index >= steps.length;
@@ -38,19 +41,23 @@ export function initGuidedPlayer(entry, session, prompts, button, render, onActi
     if (running) frame = requestAnimationFrame(paint);
   }
   async function advance() {
+    if (disposed) return;
     const token = ++version;
     audio.pause(); index++;
     const step = current();
     if (!step) { running = false; busy = false; paint(); onAction('finalitza'); return; }
     remaining = step.seconds ?? 0; started = performance.now();
+    if (step.seconds && options.skipWaits?.()) { await advance(); return; }
     if (!step.url) { busy = false; paint(); return; }
     busy = true; paint();
     audio.src = step.url; audio.playbackRate = step.rate ?? 1;
     try {
       if (step.offset) {
         await new Promise((resolve, reject) => { audio.onloadedmetadata = resolve; audio.onerror = reject; });
+        if (disposed || token !== version) return;
         audio.currentTime = step.offset;
       }
+      if (disposed || token !== version) return;
       await audio.play();
     } catch { if (token === version) { failed = true; running = false; } }
     if (token === version) { busy = false; paint(); }
@@ -73,8 +80,13 @@ export function initGuidedPlayer(entry, session, prompts, button, render, onActi
       catch { failed = true; running = false; }
       busy = false; paint();if(!failed)onAction('repren');
     }
-  });
-  window.addEventListener('sentit-pause-playback',()=>{if(!running)return;if(current()?.seconds)remaining=Math.max(0,left());running=false;audio.pause();paint();onAction('pausa');});
-  window.addEventListener('pagehide', () => { version++; running = false; audio.pause(); cancelAnimationFrame(frame); });
+  }, { signal: listeners.signal });
+  const pause = () => {if(!running)return;if(current()?.seconds)remaining=Math.max(0,left());running=false;audio.pause();paint();onAction('pausa');};
+  const dispose = () => {disposed=true;version++;running=false;audio.pause();audio.removeAttribute('src');audio.load();cancelAnimationFrame(frame);listeners.abort();};
+  window.addEventListener('sentit-pause-playback', pause, { signal: listeners.signal });
+  // A page restored from the browser's back/forward cache keeps its controls.
+  // Pause on navigation; dispose only when the owning preview is closed.
+  window.addEventListener('pagehide', () => { version++; pause(); busy=false; audio.pause(); cancelAnimationFrame(frame); paint(); }, { signal: listeners.signal });
   paint();
+  return { dispose, skipWait() { if (!disposed && current()?.seconds) { running=true; advance(); } } };
 }

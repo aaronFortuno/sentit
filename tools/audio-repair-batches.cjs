@@ -5,12 +5,15 @@ const {request}=require('./audio-plan.cjs'),{repairRequest,repairSpec,assertDail
 const {checkWave}=require('./audio-files.cjs'),{readJSON,reserveRequest,assertQuota}=require('./audio-quota.cjs');
 const root=path.resolve(__dirname,'..'),work=path.resolve(root,'../output/sentit-primera-tanda'),hash=data=>createHash('sha256').update(data).digest('hex');
 function buildBatch(entries,plans,batch){
- const voices={},fragments=[];
+ const voices={},fragments=[],sourceVoices={},labelsByVoice=new Map();
  for(const ref of batch.fragments){
   const plan=plans[ref.code],entry=entries.find(e=>e.code===ref.code),repair=plan?.repairs.find(r=>r.part===ref.part);
   if(!entry||!repair||plan.status!=='approved-for-correction'||hash(JSON.stringify(repairRequest(entry,plan)))!==plan.approvedRequestHash)throw Error('La correcció no coincideix amb la proposta autoritzada.');
-  const voice=plan.voices[repair.speaker];if(voices[repair.speaker]&&voices[repair.speaker]!==voice)throw Error('Identitat de veu inconsistent.');voices[repair.speaker]=voice;
-  fragments.push({...repair,code:ref.code,sourceRequestHash:plan.sourceRequestHash,sourceRawSha256:plan.sourceRawSha256,notBefore:plan.notBefore});
+  const voice=plan.voices[repair.speaker];if(sourceVoices[repair.speaker]&&sourceVoices[repair.speaker]!==voice)throw Error('Identitat de veu inconsistent.');sourceVoices[repair.speaker]=voice;
+  // Mar and Presentadora are the same recorded voice. Canonical source labels
+  // stay in the fragment metadata; the request uses one label per physical voice.
+  const speaker=labelsByVoice.get(voice)??repair.speaker;labelsByVoice.set(voice,speaker);voices[speaker]=voice;
+  fragments.push({...repair,sourceSpeaker:repair.speaker,speaker,code:ref.code,sourceRequestHash:plan.sourceRequestHash,sourceRawSha256:plan.sourceRawSha256,notBefore:plan.notBefore});
  }
  const body=request(fragments.map(f=>({speaker:f.speaker,text:f.text+' <long pause> <long pause>'})),{voices,pace:'Read each supplied repair sentence verbatim. At each pair of long-pause tags leave at least three seconds of silence for local editing. No spoken labels, numbers, introduction, added words, effects or music.'});
  body.input[0].content.forEach((item,i)=>{item.annotations[0].style+=' '+fragments[i].pronunciation;});

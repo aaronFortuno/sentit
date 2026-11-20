@@ -24,6 +24,7 @@ const rules={
   cerca_cataleg:{tipus:['codi','text'],resultats:buckets},neteja_filtres:{},
   copia_enllac:{code:true},obre_vista_escolta:{code:true},
   obre_v4v:{},obre_personatges:{},consulta_canvis:{},consulta_fonts:{code:true},obre_portafoli:{},copia_lightning:{},
+  compara_sintonies:{},prova_sessio:{code:true,accio:['inicia','pausa','repren','finalitza','reinicia']},
   canvia_tema:{tema:['light','dark']},canvia_idioma:{idioma:['ca','es']},
   canvia_provisionals:{visible:'boolean'},
   prova_connexio:{origen:['configuracio_sentit']},

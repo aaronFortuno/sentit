@@ -15,7 +15,7 @@ Actualitzat: **20/11/2026**. Catàleg base de **24 peces**, més les variants **
 | [ca-S006](https://sentit.ortogra.fi/#lectura=ca-S006) | S’obre un nou camí al parc | 3r | Avançada · Notícia | Prevista 1:45–2:15 | 6 | ✅ | ✅ | ✅ Veus · ⏳ Sintonia | — | — | — | — |
 | [ca-S007](https://sentit.ortogra.fi/#lectura=ca-S007) | On va l’aigua del bassal? | 3r | Avançada · Explicació | Prevista 2:15–2:45 | 6 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S008](https://sentit.ortogra.fi/#lectura=ca-S008) | La foto que faltava | 4t | Accessible · Narració | 1:33 | 6 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [ca-S008R](https://sentit.ortogra.fi/#lectura=ca-S008R) | La foto que faltava · Històries amb sentit | 4t | Accessible · Narració | 1:40 | 6 | ✅ | ◐ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
+| [ca-S008R](https://sentit.ortogra.fi/#lectura=ca-S008R) | La foto que faltava · Històries amb sentit | 4t | Accessible · Narració | 1:40 | 6 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [ca-S009](https://sentit.ortogra.fi/#lectura=ca-S009) | La biblioteca canvia d’horari | 4t | Accessible · Notícia | Prevista 1:50–2:15 | 6 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S010](https://sentit.ortogra.fi/#lectura=ca-S010) | La ruta fins al pavelló | 4t | Intermèdia · Diàleg | 1:39 | 7 | ✅ | ✅ | ✅ | ✅ | ✅ | ◐ **Correccions** | — |
 | [ca-S011](https://sentit.ortogra.fi/#lectura=ca-S011) | Una menjadora per als ocells | 4t | Avançada · Instruccions | Prevista 2:05–2:35 | 7 | ✅ | ✅ | ✅ | — | — | — | — |
@@ -26,17 +26,17 @@ Actualitzat: **20/11/2026**. Catàleg base de **24 peces**, més les variants **
 | [ca-S016](https://sentit.ortogra.fi/#lectura=ca-S016) | Una troballa al jaciment | 5è | Intermèdia · Notícia | 2:15 | 8 | ✅ | ✅ | ✅ | ✅ | ✅ | ◐ **Correccions** | — |
 | [ca-S017](https://sentit.ortogra.fi/#lectura=ca-S017) | Preparem una exposició itinerant | 5è | Avançada · Instruccions | Prevista 2:35–3:05 | 8 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S018](https://sentit.ortogra.fi/#lectura=ca-S018) | La clau de l’armari verd | 5è | Avançada · Narració | 2:57 | 8 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [ca-S019](https://sentit.ortogra.fi/#lectura=ca-S019) | Una cuinera contra el malbaratament | 6è | Accessible · Entrevista | 1:53 | 8 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
+| [ca-S019](https://sentit.ortogra.fi/#lectura=ca-S019) | Una cuinera contra el malbaratament | 6è | Accessible · Entrevista | 1:53 | 8 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [ca-S020](https://sentit.ortogra.fi/#lectura=ca-S020) | Com participar en el concurs de pòdcasts | 6è | Accessible · Instruccions | 2:03 | 8 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
 | [ca-S021](https://sentit.ortogra.fi/#lectura=ca-S021) | Per què una ciutat guarda la calor? | 6è | Intermèdia · Explicació | Prevista 2:25–3:00 | 8 | ✅ | ✅ | ✅ | — | — | — | — |
 | [ca-S022](https://sentit.ortogra.fi/#lectura=ca-S022) | L’últim trajecte del tramvia | 6è | Intermèdia · Narració | 2:56 | 9 | ✅ | ✅ | ✅ | ✅ | ✅ | ◐ **Correccions** | — |
-| [ca-S023](https://sentit.ortogra.fi/#lectura=ca-S023) | Reobren el mercat: què canvia i què falta decidir? | 6è | Avançada · Notícia | 3:13 | 10 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
+| [ca-S023](https://sentit.ortogra.fi/#lectura=ca-S023) | Reobren el mercat: què canvia i què falta decidir? | 6è | Avançada · Notícia | 3:16 | 10 | ✅ | ✅ | ✅ | ✅ | ✅ | ◐ **Correccions** | — |
 | [ca-S024](https://sentit.ortogra.fi/#lectura=ca-S024) | Tres maneres de transformar el pati | 6è | Avançada · Diàleg | Prevista 2:25–2:55 | 10 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 
 ## Com revisar-les
 
 - **8 propostes encara no tenen muntatge**: S006, S007, S009, S011, S014, S017, S021, S024. Es poden revisar per codi, en qualsevol ordre. El solucionari s’obre amb el guió anotat primer i les preguntes i respostes després. Els plans agrupen el text en una petició per a una o dues veus; les escenes d’aula amb tres veus preveuen dues peticions i muntatge local. Els guions amb aprovació continuen a la cua de veus; els altres esperen el docent. S020 ja té muntatge amb Petita descoberta i espera audició.
-- **S005, S008R, S010, S013, S015, S016, S019, S020, S022, S023 esperen audició**. El PDF diu «Àudio pendent de validar» i es pot imprimir per revisar. La confirmació del guió no valida automàticament el muntatge.
+- **S005, S010, S013, S015, S016, S020, S022, S023 esperen audició**. El PDF diu «Àudio pendent de validar» i es pot imprimir per revisar. La confirmació del guió no valida automàticament el muntatge.
 - **S001 i S002** són prototips anteriors al registre formal de validacions. No se’ls ha atribuït retrospectivament una aprovació definitiva.
 - **S008R** revisa la mateixa història de S008 com a programa de ràdio, amb benvinguda i comiat; no és una peça número 25 del catàleg base.
 
@@ -45,14 +45,15 @@ Actualitzat: **20/11/2026**. Catàleg base de **24 peces**, més les variants **
 - [Dossier de les propostes noves](lot-editorial-24.md): repartiment, continguts, fonts factuals i criteris de correcció. Les il·lustracions noves i els retrats de Joana, Elies i Ona estan pendents; no bloquegen revisar els guions.
 - [Aprovacions i empremtes](../content/production-plans.json). Només una confirmació del docent pot completar les columnes de validació.
 - [Fonts sonores](fonts-sonores.md). Cada producció té el seu manifest a assets/audio.
+- [Pla de lots de diverses lectures i esmenes](lots-sintesi.md), pendent de preparar el pilot; no implica peticions enviades.
 - Consum comprovat de les produccions recents: S015: 1 petició (601 + 3349 tokens); S023: 1 petició (1024 + 4829 tokens); S008R: 1 petició (513 + 2373 tokens); S003: 1 petició (357 + 1722 tokens); S013: 1 petició (595 + 3472 tokens); S018: 1 petició (843 + 4337 tokens); S022: 1 petició (746 + 4334 tokens); S010: 1 petició (538 + 2474 tokens); S012: 1 petició (590 + 3001 tokens); S016: 1 petició (675 + 3374 tokens); S004: 1 petició (433 + 2073 tokens); S004D: 1 petició (413 + 2159 tokens); S005: 1 petició (489 + 2530 tokens); S019: 1 petició (548 + 2726 tokens); S020: 1 petició (615 + 2956 tokens). Aquest registre no és una lectura de la quota restant.
 
 La taula es regenera amb `node tools/update-production-table.mjs --date=AAAA-MM-DD` després d’actualitzar els continguts o les aprovacions. No marca àudios ni publicacions com a definitivament validats per inferència.
 
 **Guions validats, veus pendents:** S006, S011, S021. Les peticions previstes continuen sense enviar-se; la cua i el nombre de preses consten al registre de producció.
 
-**Correccions identificades pel docent:** S005: La resta de l’entrevista és correcta. Corregir «Aquest matí, per exemple...» i millorar els jingles inicial/final abans de validar definitivament · S010: Muntatge validat; pronunciacions pendents. Passos reals nous pendents d’audició · S013: Valoració positiva; bústia pendent de corregir. Sintonia rebutjada, retirada; alternativa pendent · S015: La resta de la peça és correcta. Temperatura pendent de corregir; jingle encara pendent de definir · S016: La resta de la peça està ben valorada. Artefacte en lloc de «Si» pendent de corregir; reparació local preparada i jingles inicial i final pendents de polir · S022: Bon muntatge; rails pendent de corregir. Efectes de tramvia revisats pendents d’audició. 4 peticions curtes agrupades preparades, encara sense enviar; 8 incidències anotades al [registre de producció](../content/production-progress.js). No hi ha aprovació definitiva mentre faltin aquestes correccions i l’audició dels nous efectes.
+**Correccions identificades pel docent:** S005: La resta de l’entrevista és correcta. Corregir «Aquest matí, per exemple...» i millorar els jingles inicial/final abans de validar definitivament · S010: Muntatge validat; pronunciacions pendents. Passos reals nous pendents d’audició · S013: Valoració positiva; bústia pendent de corregir. Sintonia rebutjada, retirada; alternativa pendent · S015: La resta de la peça és correcta. Temperatura pendent de corregir; jingle encara pendent de definir · S016: La resta de la peça està ben valorada. Artefacte en lloc de «Si» pendent de corregir; reparació local preparada i jingles inicial i final pendents de polir · S022: Bon muntatge; rails pendent de corregir. Efectes de tramvia revisats pendents d’audició · S023: La resta de la locució està ben valorada. Corregir suggeriments; nou muntatge amb Ona curta i mercat real baix sota l’entrevista. Pendent de validar després de l’esmena. 4 peticions curtes agrupades preparades, encara sense enviar; 9 incidències anotades al [registre de producció](../content/production-progress.js). No hi ha aprovació definitiva mentre faltin aquestes correccions i l’audició dels nous efectes.
 
-**Publicades definitivament:** S003, S004, S004D, S008, S012, S018. La confirmació docent queda vinculada al màster i al guió exactes; les variants es validen per separat.
+**Publicades definitivament:** S003, S004, S004D, S008, S008R, S012, S018, S019. La confirmació docent queda vinculada al màster i al guió exactes; les variants es validen per separat.
 
 **Provisional** vol dir que la revisió adversària independent està superada per al contingut exacte i que falta la validació docent. Un esborrany encara en revisió no porta aquesta marca. [Resultat final i versions revisades](revisio-coherencia.md) · [Pauta reutilitzable](../skills/revisio-coherencia-didactica/SKILL.md).

@@ -8,7 +8,7 @@ export const fotoRadio = {
   title: 'La foto que faltava · Històries amb sentit',
   summary: 'Un programa de ràdio amb una narradora, un àlbum i una primera impressió que cal comprovar.',
   grade: '4', level: 'easy', genre: 'story', seconds: 105,
-  status: 'ready-for-review', reviewStatus: 'audio-review',
+  status: 'published', reviewStatus: 'validated',
   durationEstimate: { min: 110, max: 135 },
   audio: './assets/audio/s008r-la-foto-que-faltava-radio-v1.mp3',
   fragment: { start: 5.11, seconds: 100 },

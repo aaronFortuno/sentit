@@ -133,6 +133,7 @@ export const cinque = [
     audio: './assets/audio/s018-armari-verd-v1.mp3', tracks: { introduction: './assets/audio/s018-armari-verd-v1-intro.mp3', body: './assets/audio/s018-armari-verd-v1-cos.mp3' },
     fragment: { start: 5.35, seconds: 177 },
     summary: 'L’Aina interpreta una porta tancada com una exclusió, però descobreix què vol dir tenir cura d’uns records compartits.',
+    image: { src: './assets/images/la-clau-de-l-armari-verd-v1.webp', alt: "L’Aina i l’avi Ferran conversen al taller, al costat d’un armari verd tancat.", width: 1536, height: 1024 },
     voices: { Narradora: 'Aoede' }, delivery: 'Narradora adulta amb curiositat, dubte i canvi de perspectiva. Aina i Ferran són narrats, sense imitar veus infantils o envellides.',
     editorialFocus: '5è avançada: inferir una motivació a partir d’indicis i revisar una primera lectura dels fets. El desenllaç no converteix tots els enregistraments en material públic.',
     soundPlan: 'Base musical original molt suau i reposada durant la narració, amb fosa d’obertura i baixada abans de la veu. Ha de quedar clarament per sota de la narradora, sense suspens ni accents que jutgin l’avi. Una clau discreta abans de començar, cartró al canvi d’escena i un fregadís breu de paper a la pausa de la carpeta. Després de l’última paraula, la música puja suaument i es fon fins al silenci. No incorporar veus d’entrevistes de fons: el contingut privat només s’explica.',

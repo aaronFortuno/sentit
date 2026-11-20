@@ -10,24 +10,34 @@ El projecte continua a la sèrie **0.1.x** mentre el docent valida el material i
 
 Els 24 codis base, ca-S001–ca-S024, tenen guió, preguntes i solucionari. S004D i S008R són variants addicionals. S011 s’ha ajustat a 4t avançada; les dificultats són orientatives i es calibren amb el docent.
 
-- **Publicació definitiva confirmada:** S003, S004, S004D, S008, S012, S018. Aprovació vinculada al guió i al màster exactes; variants validades per separat. S008 incorpora la pujada musical, dos segons sostinguts i la fosa final autoritzades pel docent.
-- **Nous muntatges per escoltar:** S019 v2 (ambient real de cuina CC0 amb foses) i S020 (Petita descoberta i clic discret, fragment de 123,03 s). S019 manté les veus validades; S012 v2 ja està publicada definitivament. Cap síntesi nova per a aquests muntatges.
-- **Síntesi pendent d’esmena:** S005, S010, S013, S015, S016 i S022. Vuit frases curtes agrupades en quatre peticions de com a màxim dues veus, encara sense enviar ni aplicar. [Incidències i reparacions](docs/pronunciacio-tts.md).
+- **Publicació definitiva confirmada:** S003, S004, S004D, S008, S008R, S012, S018 i S019. Aprovació vinculada al guió i al màster exactes; variants validades per separat. S008 incorpora la pujada musical, dos segons sostinguts i la fosa final autoritzades pel docent.
+- **Muntatges per escoltar:** S020 (Petita descoberta i clic discret, fragment de 123,03 s). S019 v3 ja és definitiva: s’ha eliminat la identificació oral de la mostra abans del bucle. S023 v2 incorpora Ona curta i mercat real, però espera l’esmena de suggeriments. Cap síntesi nova per a aquests muntatges.
+- **Síntesi pendent d’esmena:** S005, S010, S013, S015, S016, S022 i S023. Nou frases curtes agrupades en quatre peticions de com a màxim dues veus, encara sense enviar ni aplicar. [Incidències i reparacions](docs/pronunciacio-tts.md).
 - **Veus pendents amb guió validat:** S006, S011 i S021, quatre peticions previstes en total. El 20/11 ja consten deu peticions diàries; no se n’envien més abans del següent restabliment.
 
 La capçalera compta només activitats sense revisió pendent. «Provisionals · experimental», al footer, mostra o amaga guions i àudios en revisió i recorda la preferència local. Les cards distingeixen guió, veus, muntatge pendent d’audició i síntesi pendent d’esmena. Quan s’apliquen totes les correccions de veu, tornen a «Àudio pendent de validar»; rebre una prova crua no completa aquest pas.
+
+## Agrupar lectures i correccions
+
+[Pla de lots de síntesi](docs/lots-sintesi.md): agrupar material validat d’una o dues veus, preveure 6–8 minuts per petició i tallar després amb marges comprovats. La cua candidata combina quatre preses noves i nou frases de correcció en quatre peticions en lloc de vuit. Cal preparar el payload i el receptor per a la prova; cap lot s’ha enviat ni s’ha activat cap execució automàtica.
 
 ## Catàleg, col·leccions i sintonies
 
 Filtres combinables per idioma, curs, dificultat, durada, tipologia, personatges i univers. Primer es mostren dotze cards i s’hi afegeixen vuit en arribar al final. L’ordre és aleatori per visita i estable mentre es filtra; les col·leccions conserven l’ordre del docent. La fitxa mostra també la dificultat sota el codi i el títol.
 
-Les quatre parelles de sintonies estan validades com a recursos: **Petita descoberta, Fil de veu, Pas a pas i Ona curta**. Les obertures es poden triar a la configuració d’àudio; Petita descoberta és la predeterminada. La tria viatja al QR com a identificador estable, mai com una URL externa. «Compara les sintonies» és accessible des del catàleg i el configurador. Aquesta sintonia inicial sona una vegada; les músiques internes de les històries pertanyen als seus muntatges.
+Les quatre parelles de sintonies estan validades com a recursos: **Petita descoberta, Fil de veu, Pas a pas i Ona curta**. Les obertures es poden triar a la configuració d’àudio; Petita descoberta és la predeterminada. La tria viatja al QR com a identificador estable, mai com una URL externa. «Compara les sintonies» és al configurador d’àudio de la lectura: obre un popup compacte amb una parella d’obertura i tancament per proposta. Aquesta sintonia inicial sona una vegada; les músiques internes de les històries pertanyen als seus muntatges.
 
 Les propostes passen una [revisió independent de coherència](docs/revisio-coherencia.md) abans de mostrar-se com a provisionals. El docent valida guió, veus i escaleta abans de sintetitzar, i després escolta el muntatge abans de publicar definitivament. [Pauta reutilitzable](skills/revisio-coherencia-didactica/SKILL.md) · [Fonts i llicències](docs/fonts-sonores.md) · [Dossier editorial](docs/lot-editorial-24.md).
 
+## Materials definitius i prova d’àudio
+
+S003, S004/S004D, S012, S018 i S019 tenen il·lustració de context a la card, la fitxa i el solucionari. Activada per defecte a 80 mm, a la dreta; configurable i sense pistes que responguin les preguntes. Les transcripcions definitives només contenen les veus. [Tancament obligatori de publicació](docs/tancament-publicacio.md) · [Imatges i prompts](assets/images/README.md).
+
+«Prova la sessió completa» permet revisar sintonia, títol, locucions, ritme i repeticions amb el mateix reproductor de l’alumnat. Es poden saltar les esperes només a la prova, sense modificar la configuració del QR. Es conserva el reproductor del fragment sol.
+
 ## Revisar les propostes al web
 
-La proposta de ràdio **ca-S008R · La foto que faltava · Històries amb sentit** ja es pot [obrir directament](https://sentit.ortogra.fi/#lectura=ca-S008R). Té fitxa, sis preguntes i solucionari amb el guió complet: benvinguda, relat, comiat i anotacions de música, efectes i pauses intercalades. El codi original ca-S008 conserva l’àudio i els enllaços existents.
+La proposta de ràdio **ca-S008R · La foto que faltava · Històries amb sentit** ja es pot [obrir directament](https://sentit.ortogra.fi/#lectura=ca-S008R). Té fitxa, sis preguntes i solucionari net amb tota la parla: presentació, benvinguda, relat i comiat. Les anotacions de música, efectes i pauses es conserven al guió font, fora del material definitiu. El codi original ca-S008 conserva l’àudio i els enllaços existents.
 
 Les propostes sense aprovació docent mostren «Provisional · Pendent de validar» sobre la targeta i a cada pàgina del preview si han superat la revisió independent. S’obren directament al solucionari, amb el guió i l’escaleta abans de les preguntes i respostes. Es poden obrir, maquetar i revisar, però la impressió està desactivada. La impressió del navegador també mostra un avís en lloc del material. No es genera cap QR mentre no hi ha àudio. Les peces amb muntatge mostren «Àudio pendent de validar»: es poden escoltar i imprimir per revisar i conserven l’avís d’esborrany al PDF. També s’obren al solucionari amb la transcripció primer.
 
@@ -37,7 +47,7 @@ Al costat del preview pendent, **Talls per a Gemini** identifica cada presa i el
 
 ## Producció sonora i validació
 
-**Abans de qualsevol petició de síntesi cal validar amb el docent el guió complet, les veus i l’escaleta de muntatge, amb música, efectes, solapaments, pauses, presentació i comiat.** La quota gratuïta no s’utilitza per provar guions encara oberts. El generador comprova una empremta d’aquest conjunt: l’aprovació caduca si canvia qualsevol dels elements. Les propostes encara no validades no es reprenen automàticament en restablir-se la quota. S008R i S015 tenen la confirmació registrada i l’àudio produït, però encara no la validació perceptiva.
+**Abans de qualsevol petició de síntesi cal validar amb el docent el guió complet, les veus i l’escaleta de muntatge, amb música, efectes, solapaments, pauses, presentació i comiat.** La quota gratuïta no s’utilitza per provar guions encara oberts. El generador comprova una empremta d’aquest conjunt: l’aprovació caduca si canvia qualsevol dels elements. Les propostes encara no validades no es reprenen automàticament en restablir-se la quota. S008R ja té publicació definitiva expressa; S015 continua pendent d’esmenes de pronunciació i jingle.
 
 [Fonts sonores, llicències, escaletes i procediment](docs/fonts-sonores.md). Les fonts també es poden consultar al desplegable de cada comprensió, sense afegir-les al PDF. V4V incorpora el mateix accés.
 

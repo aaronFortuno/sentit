@@ -8,6 +8,7 @@ import { renderGenerationPlan } from './generation-plan.js';
 import { startAnalytics, track, countBucket, excluded, setExcluded, restriction } from './analytics.js';
 import { mountErrorReport } from './error-report.js';
 import { initGuidedPlayer } from './guided-player.js';
+import { mountAudioPreview } from './audio-preview.js';
 import { mountCatalog } from './catalog.js';
 import { listCollections, saveCollectionLayout } from './collections.js';
 import { durationText } from './activity-meta.js';
@@ -633,6 +634,7 @@ byId('analytics-excluded').addEventListener('change',event=>{setExcluded(event.t
 window.addEventListener('sentit-analytics-change',syncPrivacy);
 byId('open-player').addEventListener('click',()=>track('obre_vista_escolta',{code:selected?.code}));
 byId('teacher-audio').addEventListener('play',()=>track('escolta_audio',{code:selected?.code,accio:'previsualitza'}));
+mountAudioPreview({ t, entry: () => selected, session: () => sessionSettings(selected), pauseFragment: () => byId('teacher-audio').pause(), icon, track });
 document.querySelector('#v4v a[href="https://aaronfortuno.github.io/portfolio/"]').addEventListener('click',()=>track('obre_portafoli'));
 byId('meet-characters').addEventListener('click',()=>track('obre_personatges'));
 document.querySelector('.audio-sources').addEventListener('toggle',event=>{if(event.currentTarget.open)track('consulta_fonts',{code:selected?.code});});
