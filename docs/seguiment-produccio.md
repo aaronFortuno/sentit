@@ -30,7 +30,7 @@ Actualitzat: **20/11/2026**. Catàleg base de **24 peces**, més les variants **
 | [ca-S020](https://sentit.ortogra.fi/#lectura=ca-S020) | Com participar en el concurs de pòdcasts | 6è | Accessible · Instruccions | Prevista 2:15–2:40 | 8 | ✅ | ✅ | ✅ Veus · ⏳ Sintonia | ✅ | **⏳ Sintonia** | — | — |
 | [ca-S021](https://sentit.ortogra.fi/#lectura=ca-S021) | Per què una ciutat guarda la calor? | 6è | Intermèdia · Explicació | Prevista 2:40–3:15 | 8 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S022](https://sentit.ortogra.fi/#lectura=ca-S022) | L’últim trajecte del tramvia | 6è | Intermèdia · Narració | Prevista 2:45–3:15 | 9 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
-| [ca-S023](https://sentit.ortogra.fi/#lectura=ca-S023) | Reobren el mercat: què canvia i què falta decidir? | 6è | Avançada · Notícia | Prevista 3:45–4:20 | 10 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S023](https://sentit.ortogra.fi/#lectura=ca-S023) | Reobren el mercat: què canvia i què falta decidir? | 6è | Avançada · Notícia | Prevista 3:55–4:30 | 10 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S024](https://sentit.ortogra.fi/#lectura=ca-S024) | Tres maneres de transformar el pati | 6è | Avançada · Diàleg | Prevista 3:00–3:40 | 10 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 
 ## Com revisar-les

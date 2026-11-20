@@ -1,5 +1,10 @@
 # Canvis
 
+## 0.1.33 · 20 de novembre de 2026
+
+- S023: la Mar presenta en Pau, el saluda i li pregunta directament per la tornada al mercat. En Pau confirma i retorna la salutació abans del testimoni; tots dos s’agraeixen la conversa i s’acomiaden abans de la síntesi informativa.
+- Escaleta, pla de la petició completa i previsió de durada actualitzats. Es conserven les deu preguntes i els seus passatges de correcció. Proposta pendent de validació docent, sense síntesi nova.
+
 ## 0.1.32 · 20 de novembre de 2026
 
 - S003 i S013: guions validats pel docent, veus sintetitzades en una petició cadascuna i muntatges complets. Fragments de 69,88 s i 139,07 s. Preses íntegres, tall dins un silenci comprovat, pistes de títol/cos i manifests. L’àudio continua pendent d’audició.

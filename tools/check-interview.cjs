@@ -26,7 +26,7 @@ const {spec,packedInterviewRequest}=require('./interview-production.cjs');
   const bytes=await fs.readFile(decoded),tail=bytes.subarray(bytes.length-4800*2);let peak=0;for(let i=0;i<tail.length;i+=2)peak=Math.max(peak,Math.abs(tail.readInt16LE(i)));assert(peak<20,'Silent ending preserved');
  }
  const {spec:newsSpec,packedNewsRequest}=require('./news-production.cjs');
- const news=packedNewsRequest(mercat);assert.equal(news.input[0].content.length,3);
+ const news=packedNewsRequest(mercat);assert.equal(news.input[0].content.length,5);
  assert.deepEqual(newsSpec.voices,{Presentadora:'Erinome',Pau:'Charon'});
  const expected=[mercat.introduction,...mercat.transcript.filter(p=>p.speaker).map(p=>p.text)].join(' ');
  assert.equal(news.input[0].content.map(item=>item.text).join(' ').replace('<long pause>','').replace(/\s+/g,' ').trim(),expected);

@@ -60,10 +60,11 @@
       "Capçalera original de dos segons, marge de 250 ms i inici de la veu.",
       "Veu neta als accessos, horaris, opinions i decisions pendents.",
       "Ambient de sala, dos passos i paper molt discrets abans del testimoni; sense veus de clientela ni anuncis.",
+      "Mar presenta en Pau i li fa una pregunta directa. Pau confirma, saluda la Mar i respon. La periodista li dona les gràcies i s’acomiada abans de recuperar la síntesi; Pau li retorna el comiat.",
       "Una sola petició per al títol i tota la notícia, amb tall local dins una pausa llarga.",
       "Veus proposades: Erinome per a la Mar i Charon per a en Pau, pendents de validar."
     ],
-    "ending": "Torn final de la Mar, marge de 300 ms, separador de dos segons i 600 ms de silenci; sense comiat parlat afegit.",
+    "ending": "El comiat mutu amb en Pau queda dins del guió abans de la síntesi. Després del torn final de la Mar, marge de 300 ms, separador de dos segons i 600 ms de silenci; cap frase fora del guió.",
     "plannedNewRequests": 1,
     "requiredVoices": {
       "Presentadora": "Erinome",

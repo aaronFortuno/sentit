@@ -27,7 +27,7 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S020](https://sentit.ortogra.fi/#lectura=ca-S020) | Com participar en el concurs de pòdcasts | 6è | Provisional · revisió superada | 2026-11-20 | `ecc4a9bf9db5…` |
 | [ca-S021](https://sentit.ortogra.fi/#lectura=ca-S021) | Per què una ciutat guarda la calor? | 6è | Provisional · revisió superada | 2026-11-20 | `2a83a397e642…` |
 | [ca-S022](https://sentit.ortogra.fi/#lectura=ca-S022) | L’últim trajecte del tramvia | 6è | Provisional · revisió superada | 2026-11-20 | `fa108816e651…` |
-| [ca-S023](https://sentit.ortogra.fi/#lectura=ca-S023) | Reobren el mercat: què canvia i què falta decidir? | 6è | Provisional · revisió superada | 2026-11-20 | `6934c7a2fe5b…` |
+| [ca-S023](https://sentit.ortogra.fi/#lectura=ca-S023) | Reobren el mercat: què canvia i què falta decidir? | 6è | Provisional · revisió superada | 2026-11-20 | `5dc838ff8869…` |
 | [ca-S024](https://sentit.ortogra.fi/#lectura=ca-S024) | Tres maneres de transformar el pati | 6è | Provisional · revisió superada | 2026-11-20 | `ddf09b4a40e6…` |
 
 Les empremtes completes i el revisor consten al [registre de revisions](../content/editorial-reviews.js). La marca provisional només apareix al web si l’empremta coincideix amb el contingut actual. Canviar el guió, les preguntes, les respostes, les pistes, el repartiment o l’escaleta invalida la revisió anterior. Les comprovacions detecten registres caducats abans de publicar.
