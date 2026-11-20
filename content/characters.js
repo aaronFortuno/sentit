@@ -117,7 +117,7 @@ export const characters = [
     delivery: 'Adulta i càlida, sense fer una recepta cantada. Proposta pendent d’audició en català.', appearances: [],
   },
 ].map(character => ({ ...character,
-  appearances: [...character.appearances, ...[...proposedActivities,...proposedVariants].flatMap(entry => Object.entries(entry.production.voices).filter(([speaker]) => speaker === character.name).map(([speaker, voice]) => ({ code: `ca-${entry.code}`, speaker, kind: 'direct', currentVoice: voice, note: entry.audio?'Guió validat; àudio pendent d’audició.':'Repartiment proposat; guió i àudio pendents de validar.' })))],
+  appearances: [...character.appearances, ...[...proposedActivities,...proposedVariants].flatMap(entry => Object.entries(entry.production.voices).filter(([speaker]) => speaker === character.name).map(([speaker, voice]) => ({ code: `ca-${entry.code}`, speaker, kind: 'direct', currentVoice: voice, note: entry.reviewStatus==='validated'?'Guió i àudio validats; publicació definitiva.':entry.audio?'Guió validat; àudio pendent d’audició.':'Repartiment proposat; guió i àudio pendents de validar.' })))],
   modelSheet: character.visualStatus === 'pending' ? null : `./assets/characters/${character.id}-model-sheet-v1.png`,
   previewSheet: character.visualStatus === 'pending' ? null : `./assets/characters/${character.id}-model-sheet-v1.webp`,
   portrait: character.visualStatus === 'pending' ? null : `./assets/characters/${character.id}-portrait-v1.webp`,

@@ -3,7 +3,7 @@ import { proposal, direction as d, spoken as s, question as q, evidence as e } f
 export const proposedVariants = [
   proposal({
     id: 'el-boto-de-la-jaqueta-dialogat', code: 'S004D', title: 'El botó de la jaqueta · versió dialogada', grade: '3', level: 'middle', genre: 'story',
-    seconds: 94, status: 'ready-for-review', reviewStatus: 'audio-review',
+    seconds: 94, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s004d-boto-dialogat-v1.mp3', tracks: { introduction: './assets/audio/s004d-boto-dialogat-v1-intro.mp3', body: './assets/audio/s004d-boto-dialogat-v1-cos.mp3' },
     fragment: { start: 5.35, seconds: 88 },
     summary: 'L’Aina explica com va buscar el botó de la jaqueta amb l’avi Ferran, entre un primer engany i un record útil.',

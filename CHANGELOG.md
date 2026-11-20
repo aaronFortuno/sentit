@@ -1,5 +1,9 @@
 # Canvis
 
+## 0.1.43 · 20 de novembre de 2026
+
+- S004D publicada definitivament amb aprovació expressa de l’àudio, la música i el muntatge. Es conserva el mateix màster i es retiren les marques provisionals. Aprovació pròpia i vinculada a les empremtes del guió i de l’àudio.
+
 ## 0.1.42 · 20 de novembre de 2026
 
 - S004 publicada definitivament després de la confirmació docent. Retirats el cartell i les marques provisionals; s’obre com a fitxa i passa al catàleg disponible. Aprovació vinculada al guió i màster exactes, sense generar ni canviar àudio. S004D continua pendent de validació.
