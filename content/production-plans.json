@@ -100,9 +100,10 @@
     "reviewContent": "content/propostes/tercer.js",
     "format": "3r accessible: problema únic, dos objectes semblants i una solució explícita. Sis respostes molt breus; no cal memoritzar noms de persones absents.",
     "cues": [
-      "Inici: dos segons de pluja suau sota un porxo. Baixa abans de la primera consonant i desapareix quan comencen a comparar els paraigües.",
+      "Canvi de classe al passadís de la biblioteca: dos segons de passos i moviment de bosses, sense paraules intel·ligibles. L’ambient continua molt baix mentre en Biel busca la Laia i s’esvaeix abans de comparar els paraigües. Conservar completa la primera consonant.",
       "Un moviment discret de roba i paper en obrir la bossa; s’acaba abans de descriure el que hi troben.",
-      "La pluja reapareix mig segon després de l’última paraula, molt baixa. Dos segons de sortida i 600 ms de silenci. No hi ha música sota les dades."
+      "La Laia riu breument i en Biel s’hi afegeix, amb un petit solapament natural. És una rialla compartida, no les paraules «ha, ha» llegides ni una pista de rialles de públic. Deixar acabar el gest abans de la frase següent; no afegir cap tercera veu.",
+      "Deixar acabar la darrera paraula. Mig segon després, passos que s’allunyen cap a l’aula durant dos segons i 600 ms de silenci final."
     ],
     "plannedNewRequests": 1,
     "requiredVoices": {

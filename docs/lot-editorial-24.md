@@ -10,6 +10,8 @@ Es pot buscar qualsevol codi al catàleg, encara que la seva targeta no sigui al
 
 La validació es pot comunicar per codi, en qualsevol ordre. Cada confirmació només aprova el guió, les veus i l’escaleta que s’han revisat; l’audició del muntatge és una fase posterior.
 
+S003 s’ha revisat amb el retorn del docent: trobada durant el canvi de classe, aclariment de per què la Laia havia agafat aquell paraigua i comiat que remet a la propera vegada, amb rialla compartida i retorn a l’aula. La pregunta final i l’escaleta segueixen aquest context. La versió revisada continua pendent de validar; no s’ha sintetitzat.
+
 ## Índex de les propostes noves
 
 Les durades són intervals orientatius derivats del nombre de mots, un ritme natural segons el curs i els marges sonors. No són durades d’àudios que ja existeixin ni inclouen les pauses de lectura de la sessió. Els objectius de durada del pla inicial no obliguen a allargar digitalment la veu.
@@ -18,7 +20,7 @@ Les durades són intervals orientatius derivats del nombre de mots, un ritme nat
 
 | Codi i títol | Dificultat | Mots | Preguntes | Durada prevista |
 | --- | --- | ---: | ---: | --- |
-| [S003 · El paraigua intercanviat](https://sentit.ortogra.fi/#lectura=ca-S003) | Accessible | 162 | 6 | 1:10–1:30 |
+| [S003 · El paraigua intercanviat](https://sentit.ortogra.fi/#lectura=ca-S003) | Accessible | 197 | 6 | 1:25–1:45 |
 | [S004 · El botó de la jaqueta](https://sentit.ortogra.fi/#lectura=ca-S004) | Intermèdia | 253 | 6 | 1:45–2:15 |
 | [S005 · La feina d’una cartera](https://sentit.ortogra.fi/#lectura=ca-S005) | Intermèdia | 291 | 6 | 2:00–2:30 |
 | [S006 · S’obre un nou camí al parc](https://sentit.ortogra.fi/#lectura=ca-S006) | Avançada | 286 | 6 | 2:00–2:30 |
