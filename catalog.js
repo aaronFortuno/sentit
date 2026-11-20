@@ -7,6 +7,7 @@ import { isPendingReview, needsReview } from './review.js';
 import { universes, universeName, universesForActivity, matchesUniverse } from './content/universes.js';
 import { reviewCaption, hasPendingSynthesisEdit } from './editorial-review.js';
 import { track, countBucket } from './analytics.js';
+import { productionStage, productionStages, pendingProductionStages } from './production-stage.js';
 
 const normalise = value => value.toLocaleLowerCase().normalize('NFD').replace(/\p{M}/gu, '');
 const activeKey = 'sentit.collection.active.v1';
@@ -32,6 +33,7 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
   const fields = ['grade', 'level', 'duration', 'genre'];
   let showProvisional = provisionalPreference();
   const matchesReviewMode = entry => needsReview(entry) === showProvisional;
+  let phaseFilter = '';
   byId('show-provisional').checked = showProvisional;
   const initialFilters = new URLSearchParams(location.search);
   const selectedCharacters = new Set(initialFilters.getAll('personatge').filter(id => characters.some(character => character.id === id)));
@@ -84,6 +86,7 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
     selectedIds.clear();
     addingTo = '';
     selectedCharacters.clear();
+    phaseFilter = '';
     for (const select of byId('filters').querySelectorAll('select')) select.value = '';
     byId('character-match').value = 'any';
     byId('search').value = '';
@@ -222,9 +225,22 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
       card.append(context, footer);
       if (awaitingValidation) {
         const overlay = element('span', undefined, 'activity-review-overlay');
+        const stack = element('span', undefined, 'activity-review-stack');
         const label = element('span', reviewCaption(entry, {reviewSynthesisEdit:t('reviewSynthesisEdit'),audioReview:t('audioReview'),reviewProvisional:t('reviewProvisional'),reviewInProgress:t('reviewInProgress'),reviewVoicesReceived:t('reviewVoicesReceived'),reviewReadyForVoices:t('reviewReadyForVoices')}), 'activity-review-label');
         label.append(element('small', t(hasPendingSynthesisEdit(entry) ? 'reviewAlreadyListened' : 'openReview')));
-        overlay.append(label);
+        const phase = productionStage(entry);
+        card.dataset.productionPhase = phase.id;
+        const progress = element('span', undefined, 'activity-progress production-phase');
+        progress.dataset.phase = phase.id;
+        const caption = t('productionStageNames')[phase.id];
+        progress.title = t('productionStep')(phase.number, productionStages.length, caption) + '. ' + t('productionScaleHint');
+        progress.append(element('span', `${phase.number}/${productionStages.length}`, 'production-step-number'), element('span', caption, 'production-step-label'));
+        const segments = element('span', undefined, 'production-segments');
+        segments.setAttribute('aria-hidden', 'true');
+        for (const step of productionStages) segments.append(element('i', undefined, step.number <= phase.number ? 'is-filled' : ''));
+        progress.append(segments);
+        stack.append(label, progress);
+        overlay.append(stack);
         card.append(overlay);
       }
       grid.append(card);
@@ -237,6 +253,29 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
       byId('catalog-card-status').textContent = t('catalogLoaded')(grid.childElementCount, matches.length);
     } else animateRefresh(grid);
     scheduleMore();
+  }
+
+  function renderProductionFilter(candidates) {
+    setDisclosure(byId('production-filter'), showProvisional);
+    byId('production-filter-title').title = t('productionScaleHint');
+    const counts = new Map(pendingProductionStages.map(stage => [stage.id, 0]));
+    if (showProvisional) for (const entry of candidates) {
+      const id = productionStage(entry).id;
+      counts.set(id, (counts.get(id) ?? 0) + 1);
+    }
+    byId('production-phase-options').replaceChildren(...[{ id: '', number: null }, ...pendingProductionStages].map(stage => {
+      const button = element('button', undefined, 'production-phase-chip production-phase');
+      button.type = 'button'; button.dataset.phase = stage.id;
+      button.setAttribute('aria-pressed', String(stage.id === phaseFilter));
+      button.setAttribute('aria-controls', 'activity-grid');
+      const caption = stage.id ? t('productionStageShortNames')[stage.id] : t('productionAllPhasesShort');
+      const count = stage.id ? counts.get(stage.id) : candidates.length;
+      if (stage.number) button.append(element('span', String(stage.number), 'production-chip-number'));
+      button.append(element('span', caption), element('span', String(count), 'production-chip-count'));
+      button.setAttribute('aria-label', t('productionPhaseCount')(stage.id ? t('productionStageNames')[stage.id] : t('productionAllPhases'), count));
+      button.title = stage.id ? t('productionStageNames')[stage.id] : t('productionAllPhases');
+      return button;
+    }));
   }
 
   function scheduleMore() {
@@ -263,7 +302,7 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
     renderFilters();
     const values = Object.fromEntries(new FormData(byId('filters')));
     const terms = normalise(byId('search').value).trim().split(/\s+/u).filter(Boolean);
-    matches = sourceEntries().filter(entry => {
+    const candidates = sourceEntries().filter(entry => {
       return matchesReviewMode(entry)
         && matchesUniverse(entry, values.universe)
         && fields.every(field => field === 'duration' ? matchesDuration(entry, values[field]) : !values[field] || values[field] === entry[field])
@@ -271,6 +310,8 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
         && matchesCharacters(entry, selectedCharacters, values['character-match'])
         && terms.every(term => searchIndex.get(entry.id).includes(term));
     });
+    matches = candidates.filter(entry => !showProvisional || !phaseFilter || productionStage(entry)?.id === phaseFilter);
+    renderProductionFilter(candidates);
     const readyCount = activities.filter(entry => entry.audio && !needsReview(entry)).length;
     const count = byId('catalog-count');
     const readyText = t('catalogReadyCount')(readyCount) + ' ' + t('catalogReadySuffix');
@@ -405,6 +446,7 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
     event.preventDefault();
     for (const select of byId('filters').querySelectorAll('select')) select.value = '';
     selectedCharacters.clear();
+    phaseFilter = '';
     byId('character-match').value = 'any';
     byId('search').value = '';
     refresh();
@@ -420,6 +462,14 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
   });
   byId('character-filter-clear').addEventListener('click', () => { selectedCharacters.clear(); byId('character-match').value = 'any'; refresh(); byId('character-filter').querySelector('summary').focus(); });
   byId('search').addEventListener('input', refresh);
+  byId('production-phase-options').addEventListener('click', event => {
+    const button = event.target.closest('[data-phase]');
+    if (!button) return;
+    phaseFilter = button.dataset.phase;
+    track('aplica_filtre', { filtre: 'production-phase', valor: phaseFilter });
+    refresh();
+    byId('production-phase-options').querySelector(`[data-phase="${phaseFilter}"]`)?.focus({ preventScroll: true });
+  });
   byId('show-provisional').addEventListener('change', event => {
     showProvisional = event.target.checked;
     try { localStorage.setItem(provisionalKey, String(showProvisional)); } catch { /* The choice still works for this visit. */ }

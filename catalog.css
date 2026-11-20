@@ -49,6 +49,34 @@
 .activity-card > .activity-review-overlay { position: absolute; inset: 0; z-index: 2; display: grid; place-items: center; padding: 18px; background: color-mix(in srgb, var(--panel) 25%, transparent); pointer-events: none; }
 .activity-review-label { display: grid; gap: 4px; padding: 11px 20px; border: 1px solid var(--type-edge); border-radius: 8px; background: var(--panel); color: var(--ink); box-shadow: 0 4px 20px #192d2718; text-align: center; font-size: .95rem; font-weight: 650; transform: rotate(-6deg); }
 .activity-review-label small { font-size: .74rem; color: var(--quiet); font-weight: 400; }
+.activity-review-stack { display: grid; justify-items: center; width: min(100%, 280px); gap: 14px; }
+.production-phase { --phase-color: var(--green); }
+.production-phase[data-phase="script"] { --phase-color: #a43f4c; }
+.production-phase[data-phase="synthesis"] { --phase-color: #a65b24; }
+.production-phase[data-phase="voices"] { --phase-color: #836512; }
+.production-phase[data-phase="corrections"] { --phase-color: #476e9b; }
+.production-phase[data-phase="montage"] { --phase-color: #357b68; }
+.production-phase[data-phase="published"] { --phase-color: #2e7049; }
+[data-theme="dark"] .production-phase[data-phase="script"] { --phase-color: #ec929d; }
+[data-theme="dark"] .production-phase[data-phase="synthesis"] { --phase-color: #e5ad77; }
+[data-theme="dark"] .production-phase[data-phase="voices"] { --phase-color: #e0c66d; }
+[data-theme="dark"] .production-phase[data-phase="corrections"] { --phase-color: #94bae8; }
+[data-theme="dark"] .production-phase[data-phase="montage"] { --phase-color: #87cbb4; }
+[data-theme="dark"] .production-phase[data-phase="published"] { --phase-color: #92d3a8; }
+.activity-progress { display: grid; grid-template-columns: auto minmax(0,1fr); gap: 6px 9px; align-items: center; width: min(100%, 250px); padding: 9px 11px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); font-size: .77rem; box-shadow: 0 2px 8px #192d270a; }
+.production-step-number { color: var(--phase-color); font-weight: 750; font-variant-numeric: tabular-nums; }
+.production-step-label { color: var(--ink); font-weight: 550; }
+.production-segments { display: grid; grid-template-columns: repeat(6,minmax(0,1fr)); gap: 4px; grid-column: 1/-1; }
+.production-segments i { display: block; height: 6px; border-radius: 2px; background: var(--line); transition: background-color var(--motion); }
+.production-segments .is-filled { background: var(--phase-color); }
+.production-filter { display: flex; flex-wrap: wrap; align-items: center; flex: none; gap: 7px 13px; padding: 10px 12px; margin: 0 12px 12px 3px; border: 1px solid var(--line); border-radius: 9px; background: var(--panel); }
+.production-filter-title { font-size: .76rem; font-weight: 650; color: var(--quiet); }
+.production-phase-options { display: flex; flex-wrap: wrap; gap: 6px; min-width: 0; }
+.production-phase-chip { display: inline-flex; align-items: center; gap: 5px; min-height: 30px; padding: 4px 7px; border: 1px solid var(--line); border-radius: 6px; color: var(--ink); background: var(--panel); font-size: .73rem; cursor: pointer; transition: background-color var(--motion), border-color var(--motion), box-shadow var(--motion); }
+.production-phase-chip:hover, .production-phase-chip[aria-pressed="true"] { border-color: var(--phase-color); background: color-mix(in srgb, var(--phase-color) 10%, var(--panel)); }
+.production-phase-chip[aria-pressed="true"] { box-shadow: inset 0 0 0 .5px var(--phase-color); }
+.production-chip-number { display: grid; place-items: center; width: 18px; height: 18px; border-radius: 50%; color: var(--phase-color); background: color-mix(in srgb, var(--phase-color) 13%, var(--panel)); font-size: .7rem; font-weight: 750; }
+.production-chip-count { padding: 0 4px; border-radius: 3px; background: var(--soft); color: var(--quiet); font-size: .68rem; font-variant-numeric: tabular-nums; }
 .activity-card-art { position: absolute; z-index: 0; inset: 32px -18px -14px 18%; opacity: .15; mix-blend-mode: multiply; pointer-events: none; mask-image: linear-gradient(90deg, transparent 0%, #000 65%), linear-gradient(180deg, transparent, #000 24%, #000 85%, transparent); mask-composite: intersect; transition: opacity var(--motion); }
 .activity-card-art img { width: 100%; height: 100%; display: block; object-fit: contain; object-position: right bottom; filter: grayscale(1); }
 .activity-card:hover .activity-card-art { opacity: .23; }
