@@ -1,6 +1,7 @@
 export const strings = {
   ca: {
     language: 'ca',
+    releaseContextsAndJingles: 'S014 incorpora interacció d’aula. S010/S013/S022: efectes revisats i correccions de pronunciació preparades, sense síntesi nova. S017 situa millor el grup, la coordinació i l’entrevista prèvia. S024 amb llenguatge juvenil i acord construït entre tots dos. Tots dos guions pendents de validar. S011 passa a 4t avançada; S006 i S021 també validades i preparades per a veus. S019 i S023 muntades, pendents d’audició. Tres sintonies alternatives més per comparar amb l’original.',
     releaseButtonAndResearch: 'S004 i S004D produïdes per comparar narració i diàleg, amb la mateixa música molt suau i mescles pròpies. S005 incorpora salutació i comiat mutu i ja té àudio. Muntatges pendents d’audició. S021 passa a una recerca amb Mireia i Laia: contingut validat i nou guió dialogat pendent de revisar, sense síntesi.',
     releaseNaturalClosings: 'S012 amb salutacions, guitarra real CC0 i comiat breu aprofitant la presa existent. S016 amb tancament periodístic i àudio produït. Tots dos muntatges esperen audició. Revisats els altres finals pendents: S005, S006, S021 i S024 més naturals, amb preguntes i cites conservades. Fonts externes diferenciades dels sons originals.',
     releaseNarrationMusic: 'S010 incorpora el comiat validat i ja té àudio. S018 i S022 produïdes amb dues bases originals diferents, molt suaus sota la veu, i efectes locals. Els tres muntatges esperen audició. S017 passa a una escena d’aula amb intervencions dels alumnes, pendent de validar. Nous registres de músiques i connexions entre històries.',
@@ -27,8 +28,10 @@ export const strings = {
     reviewPending: 'Pendent de validar', openReview: 'Obre la proposta',
     reviewProvisional: 'Provisional · Pendent de validar',
     reviewVoicesReceived: 'Veus rebudes · Muntatge pendent',
+    reviewReadyForVoices: 'Guió validat · Veus pendents',
+    reviewReadyNotice: 'Guió validat pel docent · pendent de producció de veus',
     reviewVoicesNotice: 'Guió i veus autoritzats · presa rebuda · sintonia i muntatge pendents de validar',
-    hearJingleProposal: 'Escolta la proposta de sintonia d’obertura i tancament',
+    hearJingleProposal: 'Compara les propostes de sintonia d’obertura i tancament',
     reviewInProgress: 'Esborrany en revisió · Pendent de validar',
     reviewProvisionalNotice: 'Provisional · revisió de coherència superada · pendent de validació docent',
     reviewInProgressNotice: 'Esborrany en revisió · pendent de revisar la coherència i de validació docent',
@@ -189,6 +192,7 @@ export const strings = {
   },
   es: {
     language: 'es',
+    releaseContextsAndJingles: 'S014 incorpora interacción de aula. S010/S013/S022: efectos revisados y correcciones de pronunciación preparadas, sin nueva síntesis. S017 sitúa mejor al grupo, la coordinación y la entrevista previa. S024 con lenguaje juvenil y acuerdo construido entre ambos. Los dos guiones esperan validación. S011 pasa a 4.º avanzada; S006 y S021 también validadas y preparadas para voces. S019 y S023 montadas, pendientes de audición. Tres sintonías alternativas más para comparar con la original.',
     releaseButtonAndResearch: 'S004 y S004D producidas para comparar narración y diálogo, con la misma música muy suave y mezclas propias. S005 incorpora saludo y despedida mutua y ya tiene audio. Montajes pendientes de audición. S021 pasa a una investigación con Mireia y Laia: contenido validado y nuevo guion dialogado pendiente de revisar, sin síntesis.',
     releaseNaturalClosings: 'S012 con saludos, guitarra real CC0 y despedida breve aprovechando la toma existente. S016 con cierre periodístico y audio producido. Ambos montajes esperan audición. Revisados los demás finales pendientes: S005, S006, S021 y S024 más naturales, conservando preguntas y citas. Fuentes externas diferenciadas de los sonidos originales.',
     releaseNarrationMusic: 'S010 incorpora la despedida validada y ya tiene audio. S018 y S022 producidas con dos bases originales diferentes, muy suaves bajo la voz, y efectos locales. Los tres montajes esperan audición. S017 pasa a una escena de aula con intervenciones del alumnado, pendiente de validar. Nuevos registros de músicas y conexiones entre historias.',
@@ -215,6 +219,8 @@ export const strings = {
     reviewPending: 'Pendiente de validar', openReview: 'Abre la propuesta',
     reviewProvisional: 'Provisional · Pendiente de validar',
     reviewVoicesReceived: 'Voces recibidas · Montaje pendiente',
+    reviewReadyForVoices: 'Guion validado · Voces pendientes',
+    reviewReadyNotice: 'Guion validado por el docente · pendiente de producción de voces',
     reviewVoicesNotice: 'Guion y voces autorizados · toma recibida · sintonía y montaje pendientes de validar',
     hearJingleProposal: 'Escucha la propuesta de sintonía de apertura y cierre',
     reviewInProgress: 'Borrador en revisión · Pendiente de validar',

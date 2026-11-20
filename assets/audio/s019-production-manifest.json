@@ -1,0 +1,96 @@
+{
+  "code": "S019",
+  "activity": "ca-S019",
+  "date": "2026-11-20T12:43:33.752Z",
+  "state": "awaiting-audio-validation",
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "Laia": "Leda",
+    "Ona": "Sulafat"
+  },
+  "newSynthesisRequests": 1,
+  "approvalFingerprint": "cb7f067ca00bda0d89f0d19f80718b080a98d8e58fd6e8e17e30289fef958620",
+  "requestHash": "a8924128e778e3dde6202ed8682fc6ea0ffa41cc569060d635aadd677508ecf8",
+  "rawSha256": "725ae2c9b9284506445838935bcedba9a9ce433f94adc2fa8e7f702d29c41e2e",
+  "usage": {
+    "total_tokens": 3274,
+    "total_input_tokens": 548,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 548
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 2726,
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 2726
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 0,
+    "initial_input_tokens": 548
+  },
+  "rawDuration": 109.04,
+  "cut": {
+    "at": 3.95,
+    "previousWordEnd": 3.51,
+    "nextWordStart": 4.68,
+    "peakDbFS": -51.9,
+    "rawSamplesPreserved": true
+  },
+  "file": "s019-cuinera-v1.mp3",
+  "introFile": "s019-cuinera-v1-intro.mp3",
+  "bodyFile": "s019-cuinera-v1-cos.mp3",
+  "offset": 4.5,
+  "bodyDuration": 110.59,
+  "fullDuration": 115.09,
+  "lufs": -19.3,
+  "peakDbTP": -2.7,
+  "voice": {
+    "bodyLead": 2.3,
+    "bodyRawDuration": 105.09,
+    "untrimmedApartFromSilenceSplit": true,
+    "retimed": false
+  },
+  "vocalOverlaps": {
+    "requested": [
+      {
+        "reaction": "confirmacio-compra",
+        "during": "compra",
+        "after": "No és una recepta màgica:"
+      }
+    ],
+    "source": "Gemini TTS in the same take",
+    "listeningValidation": "pending"
+  },
+  "effects": [
+    {
+      "name": "quiet-bowl-contact",
+      "start": 0.1,
+      "end": 0.6,
+      "origin": "original-procedural"
+    },
+    {
+      "name": "menu-opening",
+      "start": 0.9,
+      "end": 1.5,
+      "origin": "original-procedural"
+    },
+    {
+      "name": "menu-turn",
+      "start": 49.99999999999999,
+      "end": 50.13999999999999,
+      "origin": "original-procedural"
+    },
+    {
+      "name": "kitchen-ending",
+      "start": 107.69,
+      "end": 109.69,
+      "origin": "original-procedural"
+    }
+  ],
+  "sha256": "20df9228b18a6df1807bf87ade49be30846cdd92be6342abba7d0c31e389a98b"
+}

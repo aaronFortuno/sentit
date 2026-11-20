@@ -205,7 +205,7 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
       card.append(context, footer);
       if (isPendingReview(entry)) {
         const overlay = element('span', undefined, 'activity-review-overlay');
-        const label = element('span', reviewCaption(entry, {reviewProvisional:t('reviewProvisional'),reviewInProgress:t('reviewInProgress'),reviewVoicesReceived:t('reviewVoicesReceived')}), 'activity-review-label');
+        const label = element('span', reviewCaption(entry, {reviewProvisional:t('reviewProvisional'),reviewInProgress:t('reviewInProgress'),reviewVoicesReceived:t('reviewVoicesReceived'),reviewReadyForVoices:t('reviewReadyForVoices')}), 'activity-review-label');
         label.append(element('small', t('openReview')));
         overlay.append(label);
         card.append(overlay);

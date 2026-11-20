@@ -14,9 +14,9 @@ Les propostes i S004D han superat la [revisió independent de coherència](revis
 
 S003 incorpora la trobada durant el canvi de classe, l’aclariment sobre el paraigua i el comiat amb rialla compartida sol·licitada. El docent n’ha validat el guió i s’ha produït en una petició, igual que S013. Els dos muntatges esperen audició.
 
-S023 incorpora una conversa directa entre la Mar i en Pau, amb salutació, pregunta, agraïment i comiat mutu abans de reprendre la síntesi informativa. Es mantenen les deu preguntes i la distinció entre dades confirmades, expectatives i propostes. El guió revisat té 585 mots i espera validació docent; no s’ha sintetitzat.
+S023 incorpora una conversa directa entre la Mar i en Pau, amb salutació, pregunta, agraïment i comiat mutu abans de reprendre la síntesi informativa. Es mantenen les deu preguntes i la distinció entre dades confirmades, expectatives i propostes. El guió de 585 mots està validat i el muntatge està produït en una petició, pendent d’audició.
 
-S017 és ara una escena d’aula amb preguntes i aportacions de Laia i Biel. Manté vuit preguntes i exigeix escoltar també els companys. Preveu dues peticions per a les tres veus; revisió independent superada i validació docent pendent.
+S017 situa ara Mireia amb el grup de Laia i Biel, mentre altres grups treballen en altres projectes. Presenta la coordinació i l’entrevista prèvia abans de necessitar-les i redueix instruccions accessòries. Manté vuit preguntes i exigeix escoltar també els companys. Preveu dues peticions per a les tres veus; revisió independent superada i validació docent pendent.
 
 S010 incorpora el comiat proposat pel docent i validat en aplicar-lo. S018 i S022 mantenen els guions validats i tenen bases originals diferents, molt suaus sota la parla. [Músiques i llicències](musiques.md) · [Connexions entre històries](univers-editorial.md).
 
@@ -33,16 +33,16 @@ Les durades són intervals orientatius derivats del nombre de mots, un ritme nat
 | [S003 · El paraigua intercanviat](https://sentit.ortogra.fi/#lectura=ca-S003) | Accessible | 197 | 6 | 1:25–1:45 |
 | [S004 · El botó de la jaqueta](https://sentit.ortogra.fi/#lectura=ca-S004) | Intermèdia | 253 | 6 | 1:45–2:15 |
 | [S005 · La feina d’una cartera](https://sentit.ortogra.fi/#lectura=ca-S005) | Intermèdia | 290 | 6 | 2:00–2:30 |
-| [S006 · S’obre un nou camí al parc](https://sentit.ortogra.fi/#lectura=ca-S006) | Avançada | 266 | 6 | 1:50–2:20 |
+| [S006 · S’obre un nou camí al parc](https://sentit.ortogra.fi/#lectura=ca-S006) | Avançada | 252 | 6 | 1:45–2:15 |
 | [S007 · On va l’aigua del bassal?](https://sentit.ortogra.fi/#lectura=ca-S007) | Avançada | 302 | 6 | 2:05–2:35 |
 
 ### 4t
 
 | Codi i títol | Dificultat | Mots | Preguntes | Durada prevista |
 | --- | --- | ---: | ---: | --- |
-| [S009 · La biblioteca canvia d’horari](https://sentit.ortogra.fi/#lectura=ca-S009) | Accessible | 277 | 6 | 1:50–2:15 |
+| [S009 · La biblioteca canvia d’horari](https://sentit.ortogra.fi/#lectura=ca-S009) | Accessible | 279 | 6 | 1:50–2:15 |
 | [S010 · La ruta fins al pavelló](https://sentit.ortogra.fi/#lectura=ca-S010) | Intermèdia | 319 | 7 | 2:05–2:35 |
-| [S011 · Una menjadora per als ocells](https://sentit.ortogra.fi/#lectura=ca-S011) | Intermèdia | 318 | 7 | 2:05–2:35 |
+| [S011 · Una menjadora per als ocells](https://sentit.ortogra.fi/#lectura=ca-S011) | Avançada | 318 | 7 | 2:05–2:35 |
 | [S012 · Qui arregla els instruments?](https://sentit.ortogra.fi/#lectura=ca-S012) | Avançada | 335 | 7 | 2:10–2:40 |
 | [S013 · Com viatja una carta?](https://sentit.ortogra.fi/#lectura=ca-S013) | Avançada | 380 | 7 | 2:30–3:00 |
 
@@ -50,9 +50,9 @@ Les durades són intervals orientatius derivats del nombre de mots, un ritme nat
 
 | Codi i títol | Dificultat | Mots | Preguntes | Durada prevista |
 | --- | --- | ---: | ---: | --- |
-| [S014 · Què passa dins d’una llavor?](https://sentit.ortogra.fi/#lectura=ca-S014) | Accessible | 374 | 7 | 2:20–2:55 |
+| [S014 · Què passa dins d’una llavor?](https://sentit.ortogra.fi/#lectura=ca-S014) | Accessible | 358 | 7 | 2:15–2:45 |
 | [S016 · Una troballa al jaciment](https://sentit.ortogra.fi/#lectura=ca-S016) | Intermèdia | 394 | 8 | 2:30–3:00 |
-| [S017 · Preparem una exposició itinerant](https://sentit.ortogra.fi/#lectura=ca-S017) | Avançada | 423 | 8 | 2:40–3:15 |
+| [S017 · Preparem una exposició itinerant](https://sentit.ortogra.fi/#lectura=ca-S017) | Avançada | 405 | 8 | 2:35–3:05 |
 | [S018 · La clau de l’armari verd](https://sentit.ortogra.fi/#lectura=ca-S018) | Avançada | 502 | 8 | 3:10–3:50 |
 
 ### 6è
@@ -63,7 +63,7 @@ Les durades són intervals orientatius derivats del nombre de mots, un ritme nat
 | [S020 · Com participar en el concurs de pòdcasts](https://sentit.ortogra.fi/#lectura=ca-S020) | Accessible | 361 | 8 | 2:15–2:40 |
 | [S021 · Per què una ciutat guarda la calor?](https://sentit.ortogra.fi/#lectura=ca-S021) | Intermèdia | 400 | 8 | 2:25–3:00 |
 | [S022 · L’últim trajecte del tramvia](https://sentit.ortogra.fi/#lectura=ca-S022) | Intermèdia | 445 | 9 | 2:45–3:15 |
-| [S024 · Tres maneres de transformar el pati](https://sentit.ortogra.fi/#lectura=ca-S024) | Avançada | 488 | 10 | 3:00–3:35 |
+| [S024 · Tres maneres de transformar el pati](https://sentit.ortogra.fi/#lectura=ca-S024) | Avançada | 397 | 10 | 2:25–2:55 |
 
 ## Criteris de contingut i correcció
 
@@ -87,7 +87,7 @@ Les il·lustracions de les 19 peces encara no s’han produït. Cada escaleta in
 
 ## Producció prevista
 
-Les peces amb una o dues veus proposen **una petició** amb el títol i tot el fragment. S007 i S011, amb tres veus, proposen **dues peticions**: mestra/títol i alumnat, amb pauses llargues per separar i intercalar els torns localment. El pla es pot inspeccionar sense connexió amb `node tools/proposal-plan.cjs --only=S011`. El guió anotat i les instruccions de muntatge no s’envien com a parla. Les dues escenes d’aula esperen validació docent; no s’han sintetitzat.
+Les peces amb una o dues veus proposen **una petició** amb el títol i tot el fragment. S007 i S011, amb tres veus, proposen **dues peticions**: mestra/títol i alumnat, amb pauses llargues per separar i intercalar els torns localment. El pla es pot inspeccionar sense connexió amb `node tools/proposal-plan.cjs --only=S011`. El guió anotat i les instruccions de muntatge no s’envien com a parla. S007 espera validació docent; S011 està validada i espera quota per produir les veus. No s’han sintetitzat.
 
 Els sons previstos són originals procedurals de Sentit (MIT). Cada escaleta fixa entrada, transicions, solapaments discrets quan són útils, trams de veu neta i sortida amb cua de silenci. No es preveuen gravacions externes ni peticions de TTS per efectes. Quan s’autoritzi una producció es prepararà i verificarà la recepta concreta sobre la presa conservada; mai no s’improvisa una síntesi per omplir quota.
 
@@ -117,4 +117,11 @@ En arqueologia, la ficció no converteix una hipòtesi sobre l’ús d’un reci
 S012 incorpora guitarra real CC0 i salutacions; S016 acaba amb la informació de les inscripcions. Tots dos tenen muntatge pendent d’audició. Els tancaments de S005, S006, S021 i S024 s’han concretat i revalidat independentment, sense síntesi. [Resultat de la passada de tancaments](revisio-tancaments.md).
 
 
-S021 manté la tipologia d’explicació i els conceptes validats, ara dins una recerca dialogada amb Mireia i Laia. Nou guió de 400 mots, pendent de validació docent, amb una petició prevista i cap síntesi enviada. [Situació, veus i muntatge proposats](s021-recerca.md).
+S021 manté la tipologia d’explicació i els conceptes validats, ara dins una recerca dialogada amb Mireia i Laia. Nou guió de 400 mots validat pel docent, amb una petició prevista i cap síntesi enviada. [Situació, veus i muntatge proposats](s021-recerca.md).
+
+
+S006 té validat el guió després de suprimir la frase indicada; només veus aprovades, amb muntatge pendent de sintonies d’informatiu. S011 està validada i reclassificada a 4t avançada; S021 té validat el nou guió de recerca. Totes tres esperen el següent lot de veus. S009, S014, S017 i S024 continuen pendents de la revisió docent de les noves versions, sense síntesi.
+
+
+S014 és ara una escena d’aula de Mireia i Biel: preguntes, anticipacions sobre l’aigua i les fulles, i reconducció de la prova. 358 mots, 15 torns, set preguntes. Una petició prevista per a dues veus; nova versió pendent de validar, sense síntesi.
+S009 incorpora la redacció docent de la bústia i el tancament; S017 situa el grup, la coordinació i l’entrevista; S024 rebaixa el registre dels joves i construeix la proposta en conversa. Les quatre versions han passat revisió independent i esperen el docent.

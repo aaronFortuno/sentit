@@ -10,9 +10,9 @@ const root=path.resolve(__dirname,'..'),work=path.resolve(root,'../output/sentit
 async function main(){
  const code=process.argv.find(arg=>arg.startsWith('--only='))?.slice(7).toUpperCase().replace(/^CA-/,'');
  const {activities}=await import(pathToFileURL(path.join(root,'catalogue.js')));
- const entry=activities.find(entry=>entry.code===code);if(!entry?.production)throw Error('Cal --only=SXXX corresponent a una proposta editorial.');
+ const entry=activities.find(entry=>entry.code===code);if(!entry?.production&&entry?.code!=='S023')throw Error('Cal --only=SXXX corresponent a una proposta editorial.');
  const {isEditoriallyReviewed}=await import(pathToFileURL(path.join(root,'editorial-review.js')));
- const plans=await readJSON(path.join(root,'content/production-plans.json'),{}),spec=productionSpec(entry),body=packedProposalRequest(entry);
+ const plans=await readJSON(path.join(root,'content/production-plans.json'),{}),news=code==='S023'?require('./news-production.cjs'):null,spec=news?.spec??productionSpec(entry),body=news?news.packedNewsRequest(entry):packedProposalRequest(entry);
  if(plans[code]?.voiceReuse){
   assertProductionApproved(entry,spec,plans[code]);
   if(!isEditoriallyReviewed(entry))throw Error('Cal renovar la revisió del guió abans del retall local.');

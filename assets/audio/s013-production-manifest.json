@@ -1,14 +1,14 @@
 {
   "code": "S013",
   "activity": "ca-S013",
-  "date": "2026-11-20T07:39:08.438Z",
-  "state": "awaiting-audio-validation",
+  "date": "2026-11-20T13:16:10.810Z",
+  "state": "awaiting-pronunciation-correction-and-audio-review",
   "model": "gemini-3.8-flash-tts",
   "voices": {
     "Mireia": "Aoede"
   },
   "newSynthesisRequests": 1,
-  "approvalFingerprint": "a4cb701f5791cdcdd5d9ba6f83acb3256d87f5c7d1b038a72e84564bfd35046c",
+  "approvalFingerprint": "dbe8e8e5de90fec5bc81f929df3226d46dc08c91da49cd82c1dcab538e1e9a01",
   "requestHash": "429cc31cdf988e418c06565135b5476caa42030cd472be38afba5dec05aef6f8",
   "rawSha256": "37fe6368197b31f9d3d6a8bafedc0c858426c23bd2dd4f6ef6f1278d7cbfb473",
   "usage": {
@@ -40,9 +40,9 @@
     "peakDbFS": -57.8,
     "rawSamplesPreserved": true
   },
-  "file": "s013-carta-v1.mp3",
-  "introFile": "s013-carta-v1-intro.mp3",
-  "bodyFile": "s013-carta-v1-cos.mp3",
+  "file": "s013-carta-v2.mp3",
+  "introFile": "s013-carta-v2-intro.mp3",
+  "bodyFile": "s013-carta-v2-cos.mp3",
   "offset": 4.66,
   "bodyDuration": 139.07,
   "fullDuration": 143.73,
@@ -66,13 +66,17 @@
       "start": 82.14,
       "end": 82.59,
       "origin": "original-procedural"
-    },
-    {
-      "name": "two-note-ending",
-      "start": 136.26999999999998,
-      "end": 138.06999999999996,
-      "origin": "original-procedural"
     }
   ],
-  "sha256": "6d2e2f143b5dbacbe7c35695bb87e4ec4c93667736b50d79b0f91e59a1c5fdc5"
+  "sha256": "df3d61a6f053a0a9ec72111cfc1b1de37592eb5a8910cb02eb2af1d7523a374a",
+  "montageNewSynthesisRequests": 0,
+  "previousMaster": {
+    "file": "s013-carta-v1.mp3",
+    "sha256": "6d2e2f143b5dbacbe7c35695bb87e4ec4c93667736b50d79b0f91e59a1c5fdc5"
+  },
+  "pronunciationRepair": {
+    "plan": "content/audio-repairs.json",
+    "status": "pending-quota-and-listening",
+    "applied": false
+  }
 }

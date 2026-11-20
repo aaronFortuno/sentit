@@ -22,3 +22,16 @@ Una base de narració i una sintonia de programa tenen funcions diferents. La pr
 - **Històries amb sentit:** S008R ja té entrada, base i sortida pròpies al seu manifest. No s’atribueix aquesta sintonia automàticament a la resta de relats.
 
 La música no ha de desvelar una resposta, suggerir un judici sobre un personatge ni tapar consonants. Els manifests de S018 i S022 conserven el nivell de la base sota la veu, la fosa inicial, la pujada posterior a la narració i la cua de silenci. L’audició docent és el pas final de validació.
+
+
+## Comparativa de quatre sintonies
+
+[Escolta les quatre parelles](https://sentit.ortogra.fi/proves/sintonies-mireia.html). Totes continuen pendents de validació i no s’han incorporat a cap programa. Es conserva «Petita descoberta» i s’hi afegeixen:
+
+| Proposta | Estil sintetitzat | Obertura / tancament | Origen |
+| --- | --- | --- | --- |
+| Fil de veu | Piano elèctric càlid i notes espaiades | 4,2 s / 3,8 s | Sentit, MIT, síntesi local |
+| Pas a pas | Percussió de fusta, contratemps i baix curt | 3,8 s / 3,4 s | Sentit, MIT, síntesi local |
+| Ona curta | Sintetitzador lleuger i petit motiu radiofònic | 4,0 s / 3,6 s | Sentit, MIT, síntesi local |
+
+[Recepta de les tres alternatives](../tools/propose-mireia-variants.cjs) · [Índex de manifests](../assets/audio/mireia-sintonies-comparacio.json). Sense veus, mostres externes ni peticions d’API; els WAV crus es conserven localment. Mateix volum objectiu de comparació, marges de silenci i empremtes dels fitxers. La pàgina només deixa reproduir una peça cada vegada.

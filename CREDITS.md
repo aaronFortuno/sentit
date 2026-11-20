@@ -69,3 +69,18 @@ Mar i presentació: Erinome, Gemini TTS, una petició amb el tancament confirmat
 ## S004, S004D i S005
 
 S004: narradora i presentació Aoede. S004D: Aina/Zephyr i avi Ferran/Algenib. S005: Biel/Puck i Joana/Vindemiatrix. Veus Gemini TTS, una petició completa per peça; preses conservades i muntatges pendents d’audició docent. La composició original **Un fil per seguir** de Sentit (MIT) és comuna a les dues versions de S004, amb mescles pròpies. Roba, sobres, passes i sintonies també són originals procedurals, MIT, sense gravacions externes. [Composició](tools/s004-music.cjs) · [Músiques i usos](docs/musiques.md) · [Fonts i manifests](docs/fonts-sonores.md).
+
+
+## S019, S023 i noves sintonies
+
+S019: Laia/Leda i Ona/Sulafat. S023: Mar/Erinome i Pau/Charon. Veus Gemini TTS, una petició completa per peça; àudios pendents d’audició. Paper, recipient, passos, ambients i sintonies originals procedurals de Sentit, MIT. [Fonts i manifests](docs/fonts-sonores.md).
+
+«Fil de veu», «Pas a pas» i «Ona curta» són composicions instrumentals originals locals de Sentit, sota MIT, sense gravacions externes, veus ni crides d’API. Estan pendents de tria i encara no s’han incorporat als programes. [Recepta](tools/propose-mireia-variants.cjs) · [Índex dels manifests i empremtes](assets/audio/mireia-sintonies-comparacio.json) · [Comparativa](https://sentit.ortogra.fi/proves/sintonies-mireia.html).
+
+
+## Gravacions reals dels remuntatges S010 i S022
+
+- «Two people’s footsteps walking on a wet cement sidewalk» · evsecrets · [Freesound 334457](https://freesound.org/people/evsecrets/sounds/334457/) · [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) · fragments amb foses i ajust de nivell a S010.
+- «tram sound» · migweis · [Freesound 713419](https://freesound.org/people/migweis/sounds/713419/) · [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) · fragments amb foses a S022. Gravació moderna evocadora, no arxiu històric del relat.
+
+Es conserven les còpies públiques HQ MP3 i el registre d’empremtes a [content/sound-sources.js](content/sound-sources.js). Aquestes fonts conserven CC0; MIT no en substitueix la llicència.

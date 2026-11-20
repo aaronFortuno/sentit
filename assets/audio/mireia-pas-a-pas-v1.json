@@ -1,0 +1,103 @@
+{
+  "id": "mireia-pas-a-pas-v1",
+  "title": "Pas a pas",
+  "style": "Rítmic i juganer",
+  "description": "Percussió de fusta sintetitzada, petits contratemps i baix curt. Més moviment i un final sec.",
+  "status": "proposal-pending-human-validation",
+  "approval": null,
+  "origin": {
+    "type": "original-procedural-composition",
+    "author": "Sentit",
+    "license": "MIT",
+    "source": "tools/propose-mireia-variants.cjs",
+    "externalSamples": false,
+    "speech": false,
+    "apiRequests": 0
+  },
+  "recipe": {
+    "tempoBpm": 116,
+    "key": "Re major",
+    "instrument": "pluck",
+    "production": "Síntesi local determinista, reflexions curtes, filtres, normalització en dues passades a −18 LUFS, MP3 estèreo 48 kHz/128 kbit/s.",
+    "masterGuard": "80 ms inicials i 120 ms finals de silenci, amb fosa abans de la cua."
+  },
+  "scope": "Només comparació; no incorporada a cap programa ni màster.",
+  "files": [
+    {
+      "kind": "obertura",
+      "file": "assets/audio/mireia-pas-a-pas-v1-obertura.mp3",
+      "durationSeconds": 3.8,
+      "integratedLufs": -18.45,
+      "truePeakDbtp": -6.74,
+      "sampleRate": 48000,
+      "channels": 2,
+      "safetySilenceSeconds": {
+        "start": 0.120083,
+        "end": 0.714771
+      },
+      "sha256": "79e581be1060b391234d467318eb902c98dc79ad8df123619024158928a9212e",
+      "rawSha256": "9b3f45fd81e58bc973a5e217cd72396c47be7f4b389a1ce0215fa89dcbee4ef0",
+      "decodeVerified": true,
+      "melody": [
+        {
+          "beat": 0,
+          "midi": 50
+        },
+        {
+          "beat": 0.75,
+          "midi": 57
+        },
+        {
+          "beat": 1.5,
+          "midi": 62
+        },
+        {
+          "beat": 2.25,
+          "midi": 57
+        },
+        {
+          "beat": 3,
+          "midi": 66
+        },
+        {
+          "beat": 4,
+          "midi": 62
+        }
+      ]
+    },
+    {
+      "kind": "tancament",
+      "file": "assets/audio/mireia-pas-a-pas-v1-tancament.mp3",
+      "durationSeconds": 3.4,
+      "integratedLufs": -18.46,
+      "truePeakDbtp": -5.62,
+      "sampleRate": 48000,
+      "channels": 2,
+      "safetySilenceSeconds": {
+        "start": 0.120083,
+        "end": 0.821354
+      },
+      "sha256": "07994e955669728bf8a3dafca600e6f2878c4c843fd8a2993d6d8727ad9454be",
+      "rawSha256": "540323ed86d487fbcba5f7275f870570e9eba59813635d1fc77b026d3a567638",
+      "decodeVerified": true,
+      "melody": [
+        {
+          "beat": 0,
+          "midi": 62
+        },
+        {
+          "beat": 0.75,
+          "midi": 57
+        },
+        {
+          "beat": 1.5,
+          "midi": 54
+        },
+        {
+          "beat": 3,
+          "midi": 50
+        }
+      ]
+    }
+  ]
+}

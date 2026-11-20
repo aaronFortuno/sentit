@@ -9,13 +9,27 @@ const {productionSpec}=require('./proposal-plan.cjs'),{assertProductionApproved}
  for(const track of musicCatalogue){assert(track.author&&track.license&&track.licenseUrl);await fs.access(path.resolve(__dirname,'..',track.source));if(track.usedBy.length>1)assert(track.sharedReason,'A reused composition needs an explicit editorial reason');}
  const bin=await ffmpegBinary(),root=path.resolve(__dirname,'..'),out=path.resolve(root,'../tmp/sentit-qa/produced-proposals');await fs.mkdir(out,{recursive:true});
  const plans=JSON.parse(await fs.readFile(path.join(root,'content/production-plans.json'),'utf8'));
- const produced=activities.filter(entry=>entry.production&&entry.audio);
+ const produced=activities.filter(entry=>(entry.production||entry.code==='S023')&&entry.audio);
  for(const {code} of produced){
   const entry=activities.find(entry=>entry.code===code),record=JSON.parse(await fs.readFile(path.join(root,`assets/audio/${code.toLowerCase()}-production-manifest.json`),'utf8'));
-  assertProductionApproved(entry,productionSpec(entry),plans[code]);assert(isEditoriallyReviewed(entry));
-  assert.equal(entry.reviewStatus,'audio-review');assert.equal(record.montageNewSynthesisRequests??record.newSynthesisRequests,entry.generationPlan.takes.reduce((n,take)=>n+take.requests,0));assert.equal(record.voice.retimed,false);
+  assertProductionApproved(entry,code==='S023'?require('./news-production.cjs').spec:productionSpec(entry),plans[code]);assert(isEditoriallyReviewed(entry));
+  assert.equal(entry.reviewStatus,'audio-review');assert.equal(record.editorialEdit?record.montageNewSynthesisRequests:record.newSynthesisRequests,entry.generationPlan.takes.reduce((n,take)=>n+take.requests,0));assert.equal(record.voice.retimed,false);
   assert(record.cut.peakDbFS<=-42);assert(record.cut.at>record.cut.previousWordEnd&&record.cut.at<record.cut.nextWordStart);
   assert(record.lufs>=-24&&record.lufs<=-15&&record.peakDbTP<=-1);
+  if(['S010','S013','S022'].includes(code)){
+   assert.equal(record.montageNewSynthesisRequests,0);assert.equal(record.pronunciationRepair.applied,false);
+   assert.notEqual(record.sha256,record.previousMaster.sha256);
+   const priorFile=path.join(root,'assets/audio',record.previousMaster.file);
+   assert.equal(createHash('sha256').update(await fs.readFile(priorFile)).digest('hex'),record.previousMaster.sha256);
+   const raw=path.resolve(root,'../output/sentit-primera-tanda',code.toLowerCase(),'titol-fragment-'+record.requestHash.slice(0,12)+'.wav');
+   assert.equal(createHash('sha256').update(await fs.readFile(raw)).digest('hex'),record.rawSha256);
+   assert(!record.effects.some(effect=>['small-rail-tap','rail-opening','rail-memory-transition','two-note-ending'].includes(effect.name)));
+   if(code!=='S013'){
+    const {soundSourcesForActivity}=await import('../content/sound-sources.js'),source=soundSourcesForActivity(entry)[0];
+    const real=record.effects.filter(effect=>effect.origin==='external-recording');assert.equal(real.length,code==='S010'?3:2);
+    for(const effect of real){assert.equal(effect.sourceSha256,source.sha256);assert.equal(effect.license,'CC0 1.0');assert.equal(effect.retimed,false);assert.equal(effect.pitchShifted,false);}
+   }
+  }
   if(code==='S012'){
    const {soundSourcesForActivity}=await import('../content/sound-sources.js'),source=soundSourcesForActivity(entry)[0],guitar=record.effects.find(effect=>effect.name==='real-loose-guitar');
    assert(guitar);assert.equal(guitar.origin,'external-recording');assert.equal(guitar.author,source.author);assert.equal(guitar.license,'CC0 1.0');

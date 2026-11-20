@@ -52,9 +52,9 @@
     "approvalSource": "Confirmació explícita de l’usuari: «dono per vàlid l’escaleta i guió del S015, es pot enviar a Gemini»."
   },
   "S023": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "16b101dcfda79db8892502c717dbab36548e03b477c7fdd9918ebdfedfdfc864",
+    "reviewedAt": "2026-11-20T12:33:03.656Z",
     "format": "Notícia radiofònica de ficció, amb Mar (Erinome) i Pau (Charon).",
     "cues": [
       "Capçalera original de dos segons, marge de 250 ms i inici de la veu.",
@@ -71,7 +71,9 @@
       "Pau": "Charon"
     },
     "strategy": "packed-title-news-v1",
-    "reviewContent": "content/reobren-el-mercat.js"
+    "reviewContent": "content/reobren-el-mercat.js",
+    "reviewActivity": "ca-S023",
+    "approvalSource": "Validació explícita del docent el 20/11/2026: «S023 validat, pot anar a producció». Guió, veus i escaleta exactes conservats, amb títol i tota la notícia en una petició."
   },
   "S008R": {
     "status": "approved",
@@ -159,9 +161,9 @@
     "approvalSource": "Autorització explícita del docent el 20/11/2026: afegir bon dia retornat i comiat/agraïment de Joana, amb redacció similar a la proposada; «Per la resta, també validat i llest per producció». S’han afegit salutacions de Biel/Joana, desig de bon repartiment i retorn de gràcies/adéu de Joana. Resta del text, preguntes i respostes intactes; revisió independent superada."
   },
   "S006": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "f0ba2eca5b2470a2832a236cc214aaa2f6dd6657c47a40950b9379e46267097a",
+    "reviewedAt": "2026-11-20T12:48:05.488Z",
     "reviewActivity": "ca-S006",
     "reviewContent": "content/propostes/tercer.js",
     "format": "3r avançada: comparar abans i després i aplicar la informació al cas d’una persona. No es demana recordar una col·lecció d’hores o dates.",
@@ -175,7 +177,10 @@
       "Mar": "Erinome"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvedScope": "voices-only",
+    "montageStatus": "awaiting-programme-jingles",
+    "approvalSource": "Validació condicionada explícita del docent el 20/11/2026: eliminar la frase «El camí nou afegeix una possibilitat; no obliga tothom a anar pel mateix lloc.»; resta validada i llesta per producció. Supressió aplicada literalment i revisió independent superada. Muntatge pendent de triar les sintonies del programa informatiu."
   },
   "S007": {
     "status": "awaiting-validation",
@@ -215,11 +220,12 @@
       "Mar": "Erinome"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "No validat. Esmenes demanades pel docent el 20/11/2026: eliminar aclariment i moralina, afegir «com sempre», substituir passatge de la bústia i tancament pel text proposat. Nova versió pendent de revisió docent, sense síntesi."
   },
   "S010": {
     "status": "approved",
-    "approvedFingerprint": "2257a385ad96970cb65963833fe321e14938e2b36ff1bf89b6aca0c153bd4e77",
+    "approvedFingerprint": "d7f55c7bb6ba60ea364536e6b7fe9fce9148aa11a9311976ab726c4f51ea37c9",
     "reviewedAt": "2026-11-20T09:00:45.318Z",
     "reviewActivity": "ca-S010",
     "reviewContent": "content/propostes/quart.js",
@@ -236,15 +242,36 @@
     },
     "strategy": "packed-title-program-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
-    "approvalSource": "Validació expressa condicionada del docent el 20/11/2026: canviant el parlament final per la seva proposta, S010 queda validada. La frase s’ha aplicat literalment i la revisió independent s’ha superat."
+    "approvalSource": "Validació expressa condicionada del docent el 20/11/2026: canviant el parlament final per la seva proposta, S010 queda validada. La frase s’ha aplicat literalment i la revisió independent s’ha superat. El 20/11/2026 el docent valida el muntatge i autoritza corregir dues pronunciacions i millorar els passos amb gravacions reals. Aquest remuntatge canvia només els passos; les correccions de veu encara esperen quota i audició.",
+    "externalRecordings": [
+      {
+        "id": "evsecrets-footsteps-334457",
+        "sha256": "ce92c57177a81f925090b552b298fce87256e5d44c9ddbf0538b3d26e748abb1",
+        "excerpts": {
+          "opening": {
+            "start": 1.4,
+            "seconds": 3.19
+          },
+          "transition": {
+            "start": 9.41,
+            "seconds": 0.18
+          },
+          "leaving": {
+            "start": 8.8,
+            "seconds": 0.9
+          }
+        },
+        "license": "CC0 1.0"
+      }
+    ]
   },
   "S011": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "75a1ca6ed1e794734e234568de166c601ba6e57ef7a8fce04b2b511313d244f0",
+    "reviewedAt": "2026-11-20T12:34:52.567Z",
     "reviewActivity": "ca-S011",
     "reviewContent": "content/propostes/quart.js",
-    "format": "4t intermèdia: seguir una seqüència amb condicions, distingir maqueta i objecte real i escoltar les aportacions de tota l’aula. Una resposta depèn d’una proposta de la Laia; no n’hi ha prou d’escoltar només la mestra. El guió no és una recomanació d’alimentació de fauna.",
+    "format": "4t avançada: seguir una seqüència amb condicions, distingir maqueta i objecte real i escoltar les aportacions de tota l’aula. Una resposta depèn d’una proposta de la Laia; no n’hi ha prou d’escoltar només la mestra. El guió no és una recomanació d’alimentació de fauna. Classificació ajustada amb el criteri docent; no representa un nivell oficial.",
     "cues": [
       "Fregadís curt de cartró i una cadira molt discreta. La salutació fa callar l’aula; no mantenir xerrameca de fons. No simular la construcció a temps real.",
       "Un únic moviment de cartró i una pausa curta abans d’explicar com fixar el sostre. No encobrir el canvi de torn amb soroll.",
@@ -257,7 +284,8 @@
       "Laia": "Leda"
     },
     "strategy": "grouped-voices-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Validació explícita del docent el 20/11/2026: «S011 validat» i reclassificació a 4t avançada. Text parlat, preguntes, respostes i escaleta conservats literalment. Pla agrupat de dues preses per a les tres veus, pendent de producció."
   },
   "S012": {
     "status": "approved",
@@ -304,7 +332,7 @@
   },
   "S013": {
     "status": "approved",
-    "approvedFingerprint": "a4cb701f5791cdcdd5d9ba6f83acb3256d87f5c7d1b038a72e84564bfd35046c",
+    "approvedFingerprint": "dbe8e8e5de90fec5bc81f929df3226d46dc08c91da49cd82c1dcab538e1e9a01",
     "reviewedAt": "2026-11-20T07:33:38.909Z",
     "reviewActivity": "ca-S013",
     "reviewContent": "content/propostes/quart.js",
@@ -312,7 +340,7 @@
     "cues": [
       "Un sobre de paper es plega. Pausa i veu neta. Els sons del viatge no són necessaris per ordenar el procés.",
       "Transició breu de paper entre fases. No simular una màquina que llegeix el contingut de la carta.",
-      "Dues notes originals després de la veu i cua de silenci. No afegir terminis d’entrega ni presentar aquest recorregut com l’única modalitat postal possible."
+      "Cua de silenci després de la veu, sense la sintonia de dues notes descartada. No afegir terminis d’entrega ni presentar aquest recorregut com l’única modalitat postal possible."
     ],
     "plannedNewRequests": 1,
     "requiredVoices": {
@@ -320,7 +348,8 @@
     },
     "strategy": "packed-title-program-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
-    "approvalNote": "Confirmació explícita del docent el 20/11/2026: S013 validada i autoritzada per producció."
+    "approvalNote": "Confirmació explícita del docent el 20/11/2026: S013 validada i autoritzada per producció.",
+    "approvalSource": "El 20/11/2026 el docent valora positivament el contingut i el muntatge, excepte dues pronunciacions de «bústia» i la sintonia de dues notes, que es retira. Nova sintonia pendent de tria; correccions de veu pendents de quota i audició."
   },
   "S014": {
     "status": "awaiting-validation",
@@ -330,16 +359,18 @@
     "reviewContent": "content/propostes/cinque.js",
     "format": "5è accessible: procés ordenat i relacions causals explícites, amb vocabulari definit. No cal saber botànica abans d’escoltar.",
     "cues": [
-      "Moviment de llavors dins d’un recipient, dos segons com a màxim. Deixar acabar el so i començar la veu.",
-      "Pausa breu per separar la germinació del creixement amb fulles. No posar un efecte de descoberta sobre cap terme.",
-      "Dues notes després del resum i 600 ms de silenci. No s’hi afegeixen instruccions d’un experiment que no forma part del text."
+      "Petit moviment de llavors dins d’un recipient i una cadira, abans de la salutació. L’aula queda en silenci per escoltar Mireia i Biel.",
+      "Un full d’observació es deixa a la taula. Pausa breu abans de parlar de la comparació; cap efecte que representi una arrel o el creixement.",
+      "Deixar acabar la veu, dues notes i 600 ms de silenci. Sense gotes, sons de creixement ni resultats afegits al guió."
     ],
     "plannedNewRequests": 1,
     "requiredVoices": {
-      "Mireia": "Aoede"
+      "Mireia": "Aoede",
+      "Biel": "Puck"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "No validat. El docent demana convertir l’explicació en una escena d’aula amb preguntes, anticipacions i reconduccions. Nova conversa de Mireia i Biel pendent de revisar abans de síntesi."
   },
   "S016": {
     "status": "approved",
@@ -367,11 +398,11 @@
     "reviewedAt": null,
     "reviewActivity": "ca-S017",
     "reviewContent": "content/propostes/cinque.js",
-    "format": "5è avançada: integrar les condicions de contingut, autorització, muntatge, embalatge i transport, mantenint les prioritats malgrat preguntes anticipades. Cal escoltar tota l’aula: algunes solucions i justificacions les aporta l’alumnat, i la mestra les valida sense repetir-les senceres.",
+    "format": "5è avançada: seguir un pla amb prioritats i excepcions dins d’una situació explícita. L’equip de coordinació es presenta abans que es demani comunicar-li incidències. Cal escoltar també les aportacions de Laia i Biel. Es redueixen instruccions accessòries de muntatge per facilitar retenir les decisions principals.",
     "cues": [
-      "Un cartró es deixa suaument a taula i es mou una cadira abans de la salutació. L’aula queda en silenci sota les veus; cap conversa de fons ni manipulació contínua de materials.",
-      "Un moviment de full abans de reprendre l’ordre de feina. No afegir pluja ni música sota el pla alternatiu.",
-      "Deixar acabar la veu, dues notes i 600 ms de silenci. No afegir instruccions ni sons que modifiquin les condicions del transport."
+      "Aula treballant en grups: murmuri llunyà sense paraules entenedores. Una cadira es mou quan Mireia s’asseu amb Laia i Biel; l’ambient baixa abans de la salutació i es manté molt discret sota la conversa.",
+      "Un full al canvi de bloc. L’ambient d’altres grups continua molt baix; cap paraula intel·ligible, pluja o música sota les condicions.",
+      "Deixar acabar la veu i fondre l’ambient d’aula fins al silenci. No afegir instruccions de fons ni sons que modifiquin les condicions del transport."
     ],
     "plannedNewRequests": 2,
     "requiredVoices": {
@@ -380,7 +411,8 @@
       "Biel": "Puck"
     },
     "strategy": "grouped-voices-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "No validat. El docent demana el 20/11/2026 aclarir l’entrevista prèvia i la coordinació, reduir densitat, situar la conversa en un grup de l’aula i fer un tancament natural. Nova versió pendent de revisió docent; no sintetitzar."
   },
   "S018": {
     "status": "approved",
@@ -405,9 +437,9 @@
     "musicRecipe": "tools/s018-music.cjs"
   },
   "S019": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "cb7f067ca00bda0d89f0d19f80718b080a98d8e58fd6e8e17e30289fef958620",
+    "reviewedAt": "2026-11-20T12:33:03.659Z",
     "reviewActivity": "ca-S019",
     "reviewContent": "content/propostes/sise.js",
     "format": "6è accessible: idees ordenades, exemples explícits i respostes concises. Distingir aprofitar aliments de consumir-ne que no siguin segurs.",
@@ -423,7 +455,8 @@
       "Ona": "Sulafat"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Validació explícita del docent el 20/11/2026: «S019 validat també, pot anar a producció». Guió, veus, confirmacions breus i solapament existent conservats, una petició completa."
   },
   "S020": {
     "status": "approved",
@@ -448,9 +481,9 @@
     "approvalNote": "Confirmació explícita del docent el 20/11/2026: S020 validada per enviar les veus a producció. La sintonia comuna d’obertura i tancament de Mireia es proposa i valida per separat abans d’incorporar-la al muntatge."
   },
   "S021": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "4ed4fe392f17fe372e5de49bd95fba7399b58226528c6ea758acadc14673dd92",
+    "reviewedAt": "2026-11-20T12:41:11.676Z",
     "reviewActivity": "ca-S021",
     "reviewContent": "content/propostes/sise.js",
     "format": "6è intermèdia: integrar més d’una causa i entendre els límits d’una comparació. Distingir temperatura de superfície de temperatura de l’aire.",
@@ -471,18 +504,19 @@
       "validatedAt": "2026-11-20",
       "source": "El docent valida el contingut, però demana donar varietat a una exposició monòtona. Proposa entrevista o experiència de recerca amb termòmetres.",
       "scope": "Conceptes i nivell de la versió explicativa; nou guió de recerca dialogada pendent de validar abans de síntesi."
-    }
+    },
+    "approvalSource": "Validació explícita del docent el 20/11/2026 del nou guió de recerca dialogada: «S021 validat i pot anar a producció». Sense canvis al text ni a les dues veus revisades."
   },
   "S022": {
     "status": "approved",
-    "approvedFingerprint": "80dce8554e41a16a6d0ddde17e251b1ba56ad559b6b77835f6dd049bbb2f8196",
+    "approvedFingerprint": "b2be16c9d9e88f1cb8121cedf7416015426a6cc7d1db086d5daff168bc6af96c",
     "reviewedAt": "2026-11-20T08:52:57.359Z",
     "reviewActivity": "ca-S022",
     "reviewContent": "content/propostes/sise.js",
     "format": "6è intermèdia: distingir el record d’infant de la interpretació actual i relacionar una pista escrita amb el comportament del pare. Relat i línia de tramvia ficticis.",
     "cues": [
-      "La música entra amb una fosa suau durant l’obertura. Dos segons de rumor mecànic original i un petit toc de rail, molt baixos. El rumor desapareix abans de la primera frase; només queda la base musical molt suau sota la veu, sense competir amb les pistes del record.",
-      "A la pausa del canvi d’escena, un petit toc de rail evoca el trajecte i deixa pas a un full que es desplega per tornar al present. Els efectes s’acaben abans de la frase de la nota. La música continua baixa i neutral, sense anticipar el contingut de la bossa ni jutjar el pare.",
+      "La música entra amb una fosa suau durant l’obertura. Un fragment real de tramvia passa molt baix, amb fosa, sense toc de rail sintetitzat. El tramvia desapareix abans de la primera frase; només queda la base musical molt suau sota la veu, sense competir amb les pistes del record.",
+      "A la pausa del canvi d’escena, un breu pas de tramvia enregistrat evoca el trajecte i deixa pas a un full que es desplega per tornar al present. Els efectes s’acaben abans de la frase de la nota. La música continua baixa i neutral, sense anticipar el contingut de la bossa ni jutjar el pare.",
       "Després de l’última paraula, deixar un marge, pujar la música suaument i fer-ne la fosa de tancament fins al silenci. No llegir cap frase addicional de la nota ni donar per certa la interpretació que en Ferran presenta com a possibilitat."
     ],
     "plannedNewRequests": 1,
@@ -491,9 +525,26 @@
     },
     "strategy": "packed-title-program-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
-    "approvalSource": "Confirmació explícita del docent el 20/11/2026: S022 correcte i autoritzat, amb base musical pròpia diferent de les altres narracions i registrada amb origen i llicència.",
+    "approvalSource": "El docent valora positivament el muntatge S022 el 20/11/2026, però demana corregir la pronunciació de rails i substituir el toc de rail per una gravació de tramvia o una pausa natural. Aquest remuntatge conserva la música i tota la parla; correcció de veu pendent de quota.",
     "musicRecipe": "tools/s022-music.cjs",
-    "musicTrackId": "sentit-tramvia-records-v1"
+    "musicTrackId": "sentit-tramvia-records-v1",
+    "externalRecordings": [
+      {
+        "id": "migweis-tram-713419",
+        "sha256": "7b4f76280d81090d08e84abd89d2bf224ebf6bc3ed8c801535b3280cabc78452",
+        "excerpts": {
+          "opening": {
+            "start": 0.6,
+            "seconds": 2.2
+          },
+          "transition": {
+            "start": 2.7,
+            "seconds": 0.8
+          }
+        },
+        "license": "CC0 1.0"
+      }
+    ]
   },
   "S024": {
     "status": "awaiting-validation",
@@ -501,7 +552,7 @@
     "reviewedAt": null,
     "reviewActivity": "ca-S024",
     "reviewContent": "content/propostes/sise.js",
-    "format": "6è avançada: comparar beneficis i contrapartides, identificar dades que falten i justificar una elecció sense resposta única. Pressupost i condicions són dades del cas fictici.",
+    "format": "6è avançada: comparar què aporta i què deixa pendent cada proposta, detectar informació que falta i justificar una elecció sense resposta única. La dificultat és en les relacions entre idees, no en vocabulari tècnic posat en boca de Laia i Biel. Pressupost i condicions són dades del cas fictici.",
     "cues": [
       "Dos segons d’ambient de pati sense paraules intel·ligibles. Desapareix abans de la primera proposta; no és un tercer personatge.",
       "Moviment de full molt curt. No fer una música nova per a cada opció.",
@@ -514,7 +565,8 @@
       "Biel": "Puck"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "No validat. Reescriptura profunda demanada pel docent: llenguatge quotidià dels joves i proposta final construïda entre Laia i Biel; nova versió pendent de revisió docent, sense síntesi."
   },
   "S004D": {
     "status": "approved",

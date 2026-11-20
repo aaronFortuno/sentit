@@ -1,15 +1,15 @@
 {
   "code": "S010",
   "activity": "ca-S010",
-  "date": "2026-11-20T09:07:01.508Z",
-  "state": "awaiting-audio-validation",
+  "date": "2026-11-20T13:16:04.538Z",
+  "state": "awaiting-pronunciation-correction-and-audio-review",
   "model": "gemini-3.8-flash-tts",
   "voices": {
     "Laia": "Leda",
     "Biel": "Puck"
   },
   "newSynthesisRequests": 1,
-  "approvalFingerprint": "2257a385ad96970cb65963833fe321e14938e2b36ff1bf89b6aca0c153bd4e77",
+  "approvalFingerprint": "d7f55c7bb6ba60ea364536e6b7fe9fce9148aa11a9311976ab726c4f51ea37c9",
   "requestHash": "ed7c152af8f0ad4e3aaf0f315a0e58870aaf4d304bc9aa3b20ff3f9eb4b50915",
   "rawSha256": "5ae1ca4fd12bac21243b7e519981c14bdb2e34319cc06bdc1fbc318f91833fe4",
   "usage": {
@@ -41,9 +41,9 @@
     "peakDbFS": -59.9,
     "rawSamplesPreserved": true
   },
-  "file": "s010-pavello-v1.mp3",
-  "introFile": "s010-pavello-v1-intro.mp3",
-  "bodyFile": "s010-pavello-v1-cos.mp3",
+  "file": "s010-pavello-v2.mp3",
+  "introFile": "s010-pavello-v2-intro.mp3",
+  "bodyFile": "s010-pavello-v2-cos.mp3",
   "offset": 4.03,
   "bodyDuration": 99.48,
   "fullDuration": 103.51,
@@ -60,20 +60,66 @@
       "name": "route-opening-steps",
       "start": 0,
       "end": 3.19,
-      "origin": "original-procedural"
+      "origin": "external-recording",
+      "source": "assets/audio/sources/evsecrets-334457-footsteps.mp3",
+      "sourceSha256": "ce92c57177a81f925090b552b298fce87256e5d44c9ddbf0538b3d26e748abb1",
+      "sourceId": "evsecrets-footsteps-334457",
+      "author": "evsecrets",
+      "license": "CC0 1.0",
+      "url": "https://freesound.org/people/evsecrets/sounds/334457/",
+      "excerpt": {
+        "start": 1.4,
+        "end": 4.59
+      },
+      "retimed": false,
+      "pitchShifted": false
     },
     {
       "name": "route-single-step",
       "start": 62.82000000000001,
       "end": 63.00000000000001,
-      "origin": "original-procedural"
+      "origin": "external-recording",
+      "source": "assets/audio/sources/evsecrets-334457-footsteps.mp3",
+      "sourceSha256": "ce92c57177a81f925090b552b298fce87256e5d44c9ddbf0538b3d26e748abb1",
+      "sourceId": "evsecrets-footsteps-334457",
+      "author": "evsecrets",
+      "license": "CC0 1.0",
+      "url": "https://freesound.org/people/evsecrets/sounds/334457/",
+      "excerpt": {
+        "start": 9.41,
+        "end": 9.59
+      },
+      "retimed": false,
+      "pitchShifted": false
     },
     {
       "name": "route-leaving-steps",
       "start": 97.77999999999999,
       "end": 98.67999999999999,
-      "origin": "original-procedural"
+      "origin": "external-recording",
+      "source": "assets/audio/sources/evsecrets-334457-footsteps.mp3",
+      "sourceSha256": "ce92c57177a81f925090b552b298fce87256e5d44c9ddbf0538b3d26e748abb1",
+      "sourceId": "evsecrets-footsteps-334457",
+      "author": "evsecrets",
+      "license": "CC0 1.0",
+      "url": "https://freesound.org/people/evsecrets/sounds/334457/",
+      "excerpt": {
+        "start": 8.8,
+        "end": 9.700000000000001
+      },
+      "retimed": false,
+      "pitchShifted": false
     }
   ],
-  "sha256": "9a9a764e721376991a344de1a0a5c18e5c85f70f140fe2ea5f222cb83a080548"
+  "sha256": "ca3c69d4bccb64b6a20823a7417f27792454765df4954c3046d77e588bf0315e",
+  "montageNewSynthesisRequests": 0,
+  "previousMaster": {
+    "file": "s010-pavello-v1.mp3",
+    "sha256": "9a9a764e721376991a344de1a0a5c18e5c85f70f140fe2ea5f222cb83a080548"
+  },
+  "pronunciationRepair": {
+    "plan": "content/audio-repairs.json",
+    "status": "pending-quota-and-listening",
+    "applied": false
+  }
 }

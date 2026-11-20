@@ -140,4 +140,24 @@ Propostes validades pel docent el 20/11/2026 i produïdes en una petició comple
 
 S004/S004D comparteixen intencionadament la composició original «Un fil per seguir», perquè són versions de la mateixa història. Cada màster té la durada i les foses pròpies; la música baixa abans de la veu i només puja després de la darrera paraula. [Recepta original MIT](../tools/s004-music.cjs) i [registre de músiques](musiques.md). Roba, sobres, passes i sintonies són també originals procedurals, sense mostres externes. Els tres muntatges esperen audició docent.
 
-S021 té validat el contingut, però la [nova experiència de recerca dialogada](s021-recerca.md) espera validació del guió i del muntatge abans de generar veus. No se n’ha fet cap petició.
+S021 té validada la [nova experiència de recerca dialogada](s021-recerca.md); les veus esperen el següent lot de quota. No se n’ha fet cap petició.
+
+
+### Produccions S019 i S023
+
+Validades pel docent el 20/11/2026 i produïdes amb una petició completa cadascuna. S019: Leda/Laia i Sulafat/Ona, fragment de 110,59 s i màster de 115,09 s; s’hi sol·licita un «Sí, sí» de confirmació dins la mateixa presa. La seva interpretació efectiva i naturalitat requereixen audició. S023: Erinome/Mar i Charon/Pau, fragment de 192,605 s i màster de 199,41 s. [Manifest S019](../assets/audio/s019-production-manifest.json) · [Manifest S023](../assets/audio/s023-production-manifest.json). Preses íntegres, títols separats dins silencis comprovats i cap canvi de ritme.
+
+Recipient, paper, passos, ambient de sala i sintonies són originals procedurals de Sentit, MIT, sense gravacions externes. Les condicions de servei i les dades de la notícia tenen veu neta. Tots dos àudios continuen pendents de validació docent.
+
+### Escaletes noves i cues de producció
+
+S017 preveu un ambient baix d’aula treballant en grups, amb veus de fons no intel·ligibles. La gravació real i la seva llicència encara s’han de seleccionar i acreditar abans d’incorporar-les. No s’ha afegit cap fitxer d’ambient ni s’han generat aquestes veus amb TTS. S014 passa a una conversa d’aula de Mireia i Biel. S009/S014/S017/S024 esperen validació dels guions revisats, sense síntesi.
+
+S006/S011/S021 tenen els guions validats i veus pendents. El registre local compta deu peticions des del restabliment del 20/11/2026; no se n’han enviat més. El següent lot necessita una petició per a S006, dues per a S011 i una per a S021. El muntatge de S006 espera la tria de la identitat sonora de l’informatiu. Les [sintonies candidates](https://sentit.ortogra.fi/proves/sintonies-mireia.html) no s’han incorporat als programes.
+
+
+### Remuntatges S010, S013 i S022 · pronunciacions pendents
+
+El docent ha valorat positivament aquestes peces, identificant Després/Til·lers a S010, dues bústia a S013 i rails a S022. No s’ha donat cap error per resolt: [registre de pronunciació i procediment de reparació](pronunciacio-tts.md). Tres peticions curtes preparades, cap enviada després del topall diari.
+
+Els màsters v2 conserven les veus, les durades i les preses originals. S010 incorpora [passos reals d’evsecrets](https://freesound.org/people/evsecrets/sounds/334457/) i S022 [tramvia real de migweis](https://freesound.org/people/migweis/sounds/713419/), tots dos CC0. S013 retira les dues notes de sortida. Origen, llicència, còpia HQ, hashes i fragments consten a content/sound-sources.js i als manifests individuals; els v1 es conserven. Les correccions de veu encara no s’han aplicat.

@@ -208,13 +208,93 @@
     {
       "code": "S023",
       "activity": "ca-S023",
-      "state": "awaiting-audio",
-      "script": "content/reobren-el-mercat.js",
-      "durationEstimate": {
-        "min": 195,
-        "max": 240
+      "date": "2026-11-20T12:38:23.648Z",
+      "state": "awaiting-audio-validation",
+      "model": "gemini-3.8-flash-tts",
+      "voices": {
+        "Presentadora": "Erinome",
+        "Pau": "Charon"
       },
-      "plannedNewRequests": 2
+      "newSynthesisRequests": 1,
+      "approvalFingerprint": "16b101dcfda79db8892502c717dbab36548e03b477c7fdd9918ebdfedfdfc864",
+      "requestHash": "f7ee3c6c2597e5eb39bfb92198870b47cd4920be40893e18ec23944bf6ba7d3c",
+      "rawSha256": "eac80f2575c694144fa2d8ddde29f7bfe58c036b619cb9c97dce39c92f3c0736",
+      "usage": {
+        "total_tokens": 5853,
+        "total_input_tokens": 1024,
+        "input_tokens_by_modality": [
+          {
+            "modality": "text",
+            "tokens": 1024
+          }
+        ],
+        "total_cached_tokens": 0,
+        "total_output_tokens": 4829,
+        "output_tokens_by_modality": [
+          {
+            "modality": "audio",
+            "tokens": 4829
+          }
+        ],
+        "total_tool_use_tokens": 0,
+        "total_thought_tokens": 0,
+        "initial_input_tokens": 1024
+      },
+      "rawDuration": 193.16,
+      "cut": {
+        "at": 6.255,
+        "previousWordEnd": 5.52,
+        "nextWordStart": 6.99,
+        "peakDbFS": -58.5,
+        "rawSamplesPreserved": true
+      },
+      "file": "s023-mercat-v1.mp3",
+      "introFile": "s023-mercat-v1-intro.mp3",
+      "bodyFile": "s023-mercat-v1-cos.mp3",
+      "offset": 6.805,
+      "bodyDuration": 192.605,
+      "fullDuration": 199.41,
+      "lufs": -19.9,
+      "peakDbTP": -2.8,
+      "voice": {
+        "bodyLead": 2.5,
+        "bodyRawDuration": 186.905,
+        "untrimmedApartFromSilenceSplit": true,
+        "retimed": false
+      },
+      "effects": [
+        {
+          "name": "market-news-opening",
+          "start": 0,
+          "end": 2,
+          "origin": "original-procedural"
+        },
+        {
+          "name": "market-hall-steps",
+          "start": 62.26499999999999,
+          "end": 62.824999999999996,
+          "origin": "original-procedural"
+        },
+        {
+          "name": "market-hall-air",
+          "start": 62.26499999999999,
+          "end": 62.824999999999996,
+          "origin": "original-procedural"
+        },
+        {
+          "name": "market-paper",
+          "start": 62.80499999999999,
+          "end": 63.02499999999999,
+          "origin": "original-procedural"
+        },
+        {
+          "name": "market-news-ending",
+          "start": 189.705,
+          "end": 191.705,
+          "origin": "original-procedural"
+        }
+      ],
+      "sha256": "6dc57aac981867dea306d11442daa83d4834108a5c7aa7d1d10d85f78d5d15b5"
     },
     {
       "code": "S001",
@@ -599,14 +679,14 @@
     {
       "code": "S013",
       "activity": "ca-S013",
-      "date": "2026-11-20T07:39:08.438Z",
-      "state": "awaiting-audio-validation",
+      "date": "2026-11-20T13:16:10.810Z",
+      "state": "awaiting-pronunciation-correction-and-audio-review",
       "model": "gemini-3.8-flash-tts",
       "voices": {
         "Mireia": "Aoede"
       },
       "newSynthesisRequests": 1,
-      "approvalFingerprint": "a4cb701f5791cdcdd5d9ba6f83acb3256d87f5c7d1b038a72e84564bfd35046c",
+      "approvalFingerprint": "dbe8e8e5de90fec5bc81f929df3226d46dc08c91da49cd82c1dcab538e1e9a01",
       "requestHash": "429cc31cdf988e418c06565135b5476caa42030cd472be38afba5dec05aef6f8",
       "rawSha256": "37fe6368197b31f9d3d6a8bafedc0c858426c23bd2dd4f6ef6f1278d7cbfb473",
       "usage": {
@@ -638,9 +718,9 @@
         "peakDbFS": -57.8,
         "rawSamplesPreserved": true
       },
-      "file": "s013-carta-v1.mp3",
-      "introFile": "s013-carta-v1-intro.mp3",
-      "bodyFile": "s013-carta-v1-cos.mp3",
+      "file": "s013-carta-v2.mp3",
+      "introFile": "s013-carta-v2-intro.mp3",
+      "bodyFile": "s013-carta-v2-cos.mp3",
       "offset": 4.66,
       "bodyDuration": 139.07,
       "fullDuration": 143.73,
@@ -664,15 +744,19 @@
           "start": 82.14,
           "end": 82.59,
           "origin": "original-procedural"
-        },
-        {
-          "name": "two-note-ending",
-          "start": 136.26999999999998,
-          "end": 138.06999999999996,
-          "origin": "original-procedural"
         }
       ],
-      "sha256": "6d2e2f143b5dbacbe7c35695bb87e4ec4c93667736b50d79b0f91e59a1c5fdc5"
+      "sha256": "df3d61a6f053a0a9ec72111cfc1b1de37592eb5a8910cb02eb2af1d7523a374a",
+      "montageNewSynthesisRequests": 0,
+      "previousMaster": {
+        "file": "s013-carta-v1.mp3",
+        "sha256": "6d2e2f143b5dbacbe7c35695bb87e4ec4c93667736b50d79b0f91e59a1c5fdc5"
+      },
+      "pronunciationRepair": {
+        "plan": "content/audio-repairs.json",
+        "status": "pending-quota-and-listening",
+        "applied": false
+      }
     },
     {
       "code": "S018",
@@ -839,14 +923,14 @@
     {
       "code": "S022",
       "activity": "ca-S022",
-      "date": "2026-11-20T08:57:19.561Z",
-      "state": "awaiting-audio-validation",
+      "date": "2026-11-20T13:16:25.889Z",
+      "state": "awaiting-pronunciation-correction-and-audio-review",
       "model": "gemini-3.8-flash-tts",
       "voices": {
         "Ferran": "Algenib"
       },
       "newSynthesisRequests": 1,
-      "approvalFingerprint": "80dce8554e41a16a6d0ddde17e251b1ba56ad559b6b77835f6dd049bbb2f8196",
+      "approvalFingerprint": "b2be16c9d9e88f1cb8121cedf7416015426a6cc7d1db086d5daff168bc6af96c",
       "requestHash": "73c878d684054e29be48d432b64b0ec0e852eac6f06e7565893168e4588cb2b9",
       "rawSha256": "7c44d2c01fff3768eb38f6ec5429d388dda661fe91e6580c8d596556e66b7566",
       "usage": {
@@ -878,9 +962,9 @@
         "peakDbFS": -53.7,
         "rawSamplesPreserved": true
       },
-      "file": "s022-tramvia-v1.mp3",
-      "introFile": "s022-tramvia-v1-intro.mp3",
-      "bodyFile": "s022-tramvia-v1-cos.mp3",
+      "file": "s022-tramvia-v2.mp3",
+      "introFile": "s022-tramvia-v2-intro.mp3",
+      "bodyFile": "s022-tramvia-v2-cos.mp3",
       "offset": 6.415,
       "bodyDuration": 176.195,
       "fullDuration": 182.60999999999999,
@@ -975,22 +1059,40 @@
           "speechWindowMarginDb": 24.299999999999997
         },
         {
-          "name": "tram-opening-rumble",
+          "name": "real-tram-opening",
           "start": 0,
           "end": 2.2,
-          "origin": "original-procedural"
+          "origin": "external-recording",
+          "source": "assets/audio/sources/migweis-713419-tram.mp3",
+          "sourceSha256": "7b4f76280d81090d08e84abd89d2bf224ebf6bc3ed8c801535b3280cabc78452",
+          "sourceId": "migweis-tram-713419",
+          "author": "migweis",
+          "license": "CC0 1.0",
+          "url": "https://freesound.org/people/migweis/sounds/713419/",
+          "excerpt": {
+            "start": 0.6,
+            "end": 2.8000000000000003
+          },
+          "retimed": false,
+          "pitchShifted": false
         },
         {
-          "name": "rail-opening",
-          "start": 0.7,
-          "end": 0.79,
-          "origin": "original-procedural"
-        },
-        {
-          "name": "rail-memory-transition",
+          "name": "real-tram-memory-transition",
           "start": 81.805,
-          "end": 81.89500000000001,
-          "origin": "original-procedural"
+          "end": 82.605,
+          "origin": "external-recording",
+          "source": "assets/audio/sources/migweis-713419-tram.mp3",
+          "sourceSha256": "7b4f76280d81090d08e84abd89d2bf224ebf6bc3ed8c801535b3280cabc78452",
+          "sourceId": "migweis-tram-713419",
+          "author": "migweis",
+          "license": "CC0 1.0",
+          "url": "https://freesound.org/people/migweis/sounds/713419/",
+          "excerpt": {
+            "start": 2.7,
+            "end": 3.5
+          },
+          "retimed": false,
+          "pitchShifted": false
         },
         {
           "name": "note-paper",
@@ -999,7 +1101,17 @@
           "origin": "original-procedural"
         }
       ],
-      "sha256": "6afd88bc2fff0adb4149a89fb1a4d071a1931963687e88bb7bd8e02f7c5d4b27",
+      "sha256": "377b14f0d555312476b7bb020e53256eb6c25ead40e610f7de37117d02a02189",
+      "montageNewSynthesisRequests": 0,
+      "previousMaster": {
+        "file": "s022-tramvia-v1.mp3",
+        "sha256": "6afd88bc2fff0adb4149a89fb1a4d071a1931963687e88bb7bd8e02f7c5d4b27"
+      },
+      "pronunciationRepair": {
+        "plan": "content/audio-repairs.json",
+        "status": "pending-quota-and-listening",
+        "applied": false
+      },
       "musicTrack": {
         "id": "sentit-tramvia-records-v1",
         "title": "Rails de memòria",
@@ -1011,15 +1123,15 @@
     {
       "code": "S010",
       "activity": "ca-S010",
-      "date": "2026-11-20T09:07:01.508Z",
-      "state": "awaiting-audio-validation",
+      "date": "2026-11-20T13:16:04.538Z",
+      "state": "awaiting-pronunciation-correction-and-audio-review",
       "model": "gemini-3.8-flash-tts",
       "voices": {
         "Laia": "Leda",
         "Biel": "Puck"
       },
       "newSynthesisRequests": 1,
-      "approvalFingerprint": "2257a385ad96970cb65963833fe321e14938e2b36ff1bf89b6aca0c153bd4e77",
+      "approvalFingerprint": "d7f55c7bb6ba60ea364536e6b7fe9fce9148aa11a9311976ab726c4f51ea37c9",
       "requestHash": "ed7c152af8f0ad4e3aaf0f315a0e58870aaf4d304bc9aa3b20ff3f9eb4b50915",
       "rawSha256": "5ae1ca4fd12bac21243b7e519981c14bdb2e34319cc06bdc1fbc318f91833fe4",
       "usage": {
@@ -1051,9 +1163,9 @@
         "peakDbFS": -59.9,
         "rawSamplesPreserved": true
       },
-      "file": "s010-pavello-v1.mp3",
-      "introFile": "s010-pavello-v1-intro.mp3",
-      "bodyFile": "s010-pavello-v1-cos.mp3",
+      "file": "s010-pavello-v2.mp3",
+      "introFile": "s010-pavello-v2-intro.mp3",
+      "bodyFile": "s010-pavello-v2-cos.mp3",
       "offset": 4.03,
       "bodyDuration": 99.48,
       "fullDuration": 103.51,
@@ -1070,22 +1182,68 @@
           "name": "route-opening-steps",
           "start": 0,
           "end": 3.19,
-          "origin": "original-procedural"
+          "origin": "external-recording",
+          "source": "assets/audio/sources/evsecrets-334457-footsteps.mp3",
+          "sourceSha256": "ce92c57177a81f925090b552b298fce87256e5d44c9ddbf0538b3d26e748abb1",
+          "sourceId": "evsecrets-footsteps-334457",
+          "author": "evsecrets",
+          "license": "CC0 1.0",
+          "url": "https://freesound.org/people/evsecrets/sounds/334457/",
+          "excerpt": {
+            "start": 1.4,
+            "end": 4.59
+          },
+          "retimed": false,
+          "pitchShifted": false
         },
         {
           "name": "route-single-step",
           "start": 62.82000000000001,
           "end": 63.00000000000001,
-          "origin": "original-procedural"
+          "origin": "external-recording",
+          "source": "assets/audio/sources/evsecrets-334457-footsteps.mp3",
+          "sourceSha256": "ce92c57177a81f925090b552b298fce87256e5d44c9ddbf0538b3d26e748abb1",
+          "sourceId": "evsecrets-footsteps-334457",
+          "author": "evsecrets",
+          "license": "CC0 1.0",
+          "url": "https://freesound.org/people/evsecrets/sounds/334457/",
+          "excerpt": {
+            "start": 9.41,
+            "end": 9.59
+          },
+          "retimed": false,
+          "pitchShifted": false
         },
         {
           "name": "route-leaving-steps",
           "start": 97.77999999999999,
           "end": 98.67999999999999,
-          "origin": "original-procedural"
+          "origin": "external-recording",
+          "source": "assets/audio/sources/evsecrets-334457-footsteps.mp3",
+          "sourceSha256": "ce92c57177a81f925090b552b298fce87256e5d44c9ddbf0538b3d26e748abb1",
+          "sourceId": "evsecrets-footsteps-334457",
+          "author": "evsecrets",
+          "license": "CC0 1.0",
+          "url": "https://freesound.org/people/evsecrets/sounds/334457/",
+          "excerpt": {
+            "start": 8.8,
+            "end": 9.700000000000001
+          },
+          "retimed": false,
+          "pitchShifted": false
         }
       ],
-      "sha256": "9a9a764e721376991a344de1a0a5c18e5c85f70f140fe2ea5f222cb83a080548"
+      "sha256": "ca3c69d4bccb64b6a20823a7417f27792454765df4954c3046d77e588bf0315e",
+      "montageNewSynthesisRequests": 0,
+      "previousMaster": {
+        "file": "s010-pavello-v1.mp3",
+        "sha256": "9a9a764e721376991a344de1a0a5c18e5c85f70f140fe2ea5f222cb83a080548"
+      },
+      "pronunciationRepair": {
+        "plan": "content/audio-repairs.json",
+        "status": "pending-quota-and-listening",
+        "applied": false
+      }
     },
     {
       "code": "S012",
@@ -1666,6 +1824,102 @@
         }
       ],
       "sha256": "f05ea9882dd589c80a2bb78dba21b155eae21c948cd511d7e0c0e9a45997b89b"
+    },
+    {
+      "code": "S019",
+      "activity": "ca-S019",
+      "date": "2026-11-20T12:43:33.752Z",
+      "state": "awaiting-audio-validation",
+      "model": "gemini-3.8-flash-tts",
+      "voices": {
+        "Laia": "Leda",
+        "Ona": "Sulafat"
+      },
+      "newSynthesisRequests": 1,
+      "approvalFingerprint": "cb7f067ca00bda0d89f0d19f80718b080a98d8e58fd6e8e17e30289fef958620",
+      "requestHash": "a8924128e778e3dde6202ed8682fc6ea0ffa41cc569060d635aadd677508ecf8",
+      "rawSha256": "725ae2c9b9284506445838935bcedba9a9ce433f94adc2fa8e7f702d29c41e2e",
+      "usage": {
+        "total_tokens": 3274,
+        "total_input_tokens": 548,
+        "input_tokens_by_modality": [
+          {
+            "modality": "text",
+            "tokens": 548
+          }
+        ],
+        "total_cached_tokens": 0,
+        "total_output_tokens": 2726,
+        "output_tokens_by_modality": [
+          {
+            "modality": "audio",
+            "tokens": 2726
+          }
+        ],
+        "total_tool_use_tokens": 0,
+        "total_thought_tokens": 0,
+        "initial_input_tokens": 548
+      },
+      "rawDuration": 109.04,
+      "cut": {
+        "at": 3.95,
+        "previousWordEnd": 3.51,
+        "nextWordStart": 4.68,
+        "peakDbFS": -51.9,
+        "rawSamplesPreserved": true
+      },
+      "file": "s019-cuinera-v1.mp3",
+      "introFile": "s019-cuinera-v1-intro.mp3",
+      "bodyFile": "s019-cuinera-v1-cos.mp3",
+      "offset": 4.5,
+      "bodyDuration": 110.59,
+      "fullDuration": 115.09,
+      "lufs": -19.3,
+      "peakDbTP": -2.7,
+      "voice": {
+        "bodyLead": 2.3,
+        "bodyRawDuration": 105.09,
+        "untrimmedApartFromSilenceSplit": true,
+        "retimed": false
+      },
+      "vocalOverlaps": {
+        "requested": [
+          {
+            "reaction": "confirmacio-compra",
+            "during": "compra",
+            "after": "No és una recepta màgica:"
+          }
+        ],
+        "source": "Gemini TTS in the same take",
+        "listeningValidation": "pending"
+      },
+      "effects": [
+        {
+          "name": "quiet-bowl-contact",
+          "start": 0.1,
+          "end": 0.6,
+          "origin": "original-procedural"
+        },
+        {
+          "name": "menu-opening",
+          "start": 0.9,
+          "end": 1.5,
+          "origin": "original-procedural"
+        },
+        {
+          "name": "menu-turn",
+          "start": 49.99999999999999,
+          "end": 50.13999999999999,
+          "origin": "original-procedural"
+        },
+        {
+          "name": "kitchen-ending",
+          "start": 107.69,
+          "end": 109.69,
+          "origin": "original-procedural"
+        }
+      ],
+      "sha256": "20df9228b18a6df1807bf87ade49be30846cdd92be6342abba7d0c31e389a98b"
     }
   ]
 }

@@ -39,4 +39,8 @@ export const hasPendingMontage = entry => {
   const progress=productionProgress[`${entry?.language}-${entry?.code}`];
   return !entry?.audio && progress?.state==='voices-received' && editorialReview(entry)?.fingerprint===progress.editorialFingerprint;
 };
-export const reviewCaption = (entry, labels) => hasPendingMontage(entry) ? labels.reviewVoicesReceived : isEditoriallyReviewed(entry) ? labels.reviewProvisional : labels.reviewInProgress;
+export const hasApprovedScript = entry => {
+  const progress=productionProgress[`${entry?.language}-${entry?.code}`];
+  return !entry?.audio && progress?.state==='ready-for-voices' && editorialReview(entry)?.fingerprint===progress.editorialFingerprint;
+};
+export const reviewCaption = (entry, labels) => hasPendingMontage(entry) ? labels.reviewVoicesReceived : hasApprovedScript(entry) ? labels.reviewReadyForVoices : isEditoriallyReviewed(entry) ? labels.reviewProvisional : labels.reviewInProgress;
