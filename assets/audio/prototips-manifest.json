@@ -1443,7 +1443,7 @@
       "code": "S004",
       "activity": "ca-S004",
       "date": "2026-11-20T10:15:57.072Z",
-      "state": "awaiting-audio-validation",
+      "state": "published",
       "model": "gemini-3.8-flash-tts",
       "voices": {
         "Narradora": "Aoede"
@@ -1587,6 +1587,13 @@
         "author": "Sentit",
         "license": "MIT",
         "source": "tools/s004-music.cjs"
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-20",
+        "validatedBy": "docent",
+        "confirmation": "S004 es pot publicar definitivament.",
+        "audioSha256": "780e096640722d8623d809b0319b76d579c271f1cc12143643ef071b860b15ad",
+        "editorialFingerprint": "30cb0049ef5dbe7b690435324030990ff0eb9cd58036d4becae0c0952b4db18e"
       }
     },
     {

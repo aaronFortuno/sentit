@@ -136,5 +136,14 @@ export const productionProgress = {
     "plannedNewRequests": 0,
     "listeningApproval": false,
     "jingleStatus": "needs-refinement"
+  },
+  "ca-S004": {
+    "state": "published",
+    "validatedAt": "2026-11-20",
+    "validatedBy": "docent",
+    "confirmation": "S004 es pot publicar definitivament.",
+    "audioSha256": "780e096640722d8623d809b0319b76d579c271f1cc12143643ef071b860b15ad",
+    "editorialFingerprint": "30cb0049ef5dbe7b690435324030990ff0eb9cd58036d4becae0c0952b4db18e",
+    "listeningApproval": true
   }
 };

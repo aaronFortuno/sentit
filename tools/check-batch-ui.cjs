@@ -12,7 +12,7 @@ const {chromium}=require('C:/Users/afortun8/.cache/codex-runtimes/codex-primary-
   page.on('pageerror',error=>errors.push(error.message));page.on('response',response=>{if(response.status()===404)missing.push(response.url());});
   await page.route('**/*',route=>{if(new URL(route.request().url()).origin===new URL(base).origin)return route.continue();remote.push(route.request().url());return route.abort();});
   await page.goto(base);await page.locator('.activity-card').first().waitFor();
-  assert.match(await page.locator('#catalog-count').innerText(),/^2 comprensions orals/);assert.equal(await page.locator('.activity-card').count(),12);
+  assert.match(await page.locator('#catalog-count').innerText(),new RegExp('^'+activities.filter(e=>e.audio&&!['pending','audio-review'].includes(e.reviewStatus)).length+' comprensions orals'));assert.equal(await page.locator('.activity-card').count(),12);
   const bottom=()=>page.locator('.catalog-results-scroll').evaluate(node=>{node.scrollTop=node.scrollHeight;node.dispatchEvent(new Event('scroll'));});
   await bottom();await page.waitForFunction(()=>document.querySelectorAll('.activity-card').length===20);
   await bottom();await page.waitForFunction(total=>document.querySelectorAll('.activity-card').length===total,activities.length);

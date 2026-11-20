@@ -201,7 +201,8 @@
       "Biel": "Puck"
     },
     "strategy": "grouped-voices-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Esmenes demanades pel docent el 20/11/2026: analogia explícita del plat amb foradets abans de la rèplica de la Laia, resposta sobre l’aigua invisible ampliada i tancament substituït pel text proposat. Nova versió pendent de revisió docent; no autoritza síntesi."
   },
   "S009": {
     "status": "awaiting-validation",

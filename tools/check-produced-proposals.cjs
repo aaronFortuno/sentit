@@ -3,7 +3,8 @@ const assert=require('node:assert/strict'),fs=require('node:fs/promises'),path=r
 const {ffmpegBinary,ffmpeg,checkWave}=require('./audio-files.cjs'),{duration}=require('./remaster-audio.cjs');
 const {productionSpec}=require('./proposal-plan.cjs'),{assertProductionApproved}=require('./production-approval.cjs');
 (async()=>{
- const {activities}=await import('../catalogue.js'),{isEditoriallyReviewed}=await import('../editorial-review.js');
+ const {activities}=await import('../catalogue.js'),{isEditoriallyReviewed,editorialFingerprint}=await import('../editorial-review.js');
+ const {productionProgress}=await import('../content/production-progress.js');
  const {musicCatalogue,musicForActivity}=await import('../content/music-catalogue.js');
  assert.equal(new Set(musicCatalogue.map(track=>track.id)).size,musicCatalogue.length);
  for(const track of musicCatalogue){assert(track.author&&track.license&&track.licenseUrl);await fs.access(path.resolve(__dirname,'..',track.source));if(track.usedBy.length>1)assert(track.sharedReason,'A reused composition needs an explicit editorial reason');}
@@ -13,7 +14,10 @@ const {productionSpec}=require('./proposal-plan.cjs'),{assertProductionApproved}
  for(const {code} of produced){
   const entry=activities.find(entry=>entry.code===code),record=JSON.parse(await fs.readFile(path.join(root,`assets/audio/${code.toLowerCase()}-production-manifest.json`),'utf8'));
   assertProductionApproved(entry,code==='S023'?require('./news-production.cjs').spec:productionSpec(entry),plans[code]);assert(isEditoriallyReviewed(entry));
-  assert.equal(entry.reviewStatus,'audio-review');assert.equal(record.editorialEdit?record.montageNewSynthesisRequests:record.newSynthesisRequests,entry.generationPlan.takes.reduce((n,take)=>n+take.requests,0));assert.equal(record.voice.retimed,false);
+  if(entry.reviewStatus==='validated'){
+   const approval=productionProgress[`ca-${entry.code}`];assert.equal(entry.status,'published');assert.equal(approval.state,'published');assert.equal(approval.listeningApproval,true);assert.equal(approval.audioSha256,record.sha256);assert.equal(approval.editorialFingerprint,await editorialFingerprint(entry));assert.equal(record.state,'published');assert.equal(record.teacherValidation.audioSha256,record.sha256);
+  }else assert.equal(entry.reviewStatus,'audio-review');
+  assert.equal(record.editorialEdit?record.montageNewSynthesisRequests:record.newSynthesisRequests,entry.generationPlan.takes.reduce((n,take)=>n+take.requests,0));assert.equal(record.voice.retimed,false);
   assert(record.cut.peakDbFS<=-42);assert(record.cut.at>record.cut.previousWordEnd&&record.cut.at<record.cut.nextWordStart);
   assert(record.lufs>=-24&&record.lufs<=-15&&record.peakDbTP<=-1);
   if(['S010','S013','S022'].includes(code)){

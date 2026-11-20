@@ -10,7 +10,7 @@ El projecte es manté a la sèrie **0.1.x** mentre es revisen les primeres activ
 
 Les propostes passen una **revisió adversària independent** abans de presentar-se com a **provisionals** al docent: lògica, plausibilitat, cronologia, preguntes, solucionari i escaleta. [Resultats per codi i versió](docs/revisio-coherencia.md) · [Skill reutilitzable per Sentit i Trama](skills/revisio-coherencia-didactica/SKILL.md). La marca es vincula al contingut exacte i caduca si canvia. Només el docent autoritza la síntesi i, després, valida l’àudio muntat.
 
-Els **24 codis base, ca-S001–ca-S024**, ja tenen guió, preguntes i solucionari. S008R i S004D són variants addicionals. Les 21 propostes de la tanda ampliada han superat la revisió independent. Els muntatges es publiquen com a àudios pendents d’audició docent; la [taula de fases](docs/seguiment-produccio.md) distingeix cada aprovació, recepció i muntatge. S020 té les veus rebudes i espera validar la sintonia comuna.
+Els **24 codis base, ca-S001–ca-S024**, ja tenen guió, preguntes i solucionari. S008R i S004D són variants addicionals. Les 21 propostes de la tanda ampliada han superat la revisió independent. S004 ja està publicada definitivament; la resta de muntatges es publiquen com a àudios pendents d’audició docent; la [taula de fases](docs/seguiment-produccio.md) distingeix cada aprovació, recepció i muntatge. S020 té les veus rebudes i espera validar la sintonia comuna.
 
 **S004 i S004D es conserven per comparar** i tenen els guions validats i els àudios produïts: narradora Aoede a S004; Aina/Zephyr i avi Ferran/Algenib a la variant dialogada. Una petició per peça, amb fragments de **85,705 s** i **88,26 s**. Comparteixen intencionadament la composició original «Un fil per seguir», amb mescles pròpies molt suaus, foses i fregadís de roba. Tots dos àudios esperen audició docent.
 
@@ -212,3 +212,8 @@ S010, S013 i S022 tenen feedback positiu amb errors concrets de pronunciació en
 Quatre universos editorials amb filtre combinable i etiquetes a les cards i a la fitxa: Les descobertes de la Laia i en Biel, Els records i misteris de l’Aina i l’avi Ferran, Les explicacions i els projectes de la Mireia i Les notícies de la Mar. Les peces són autònomes i poden tenir més d’un vincle. [Criteris i assignacions](docs/univers-editorial.md).
 
 El control «Mostra els provisionals» està activat inicialment i recorda la preferència del navegador; inclou guions i àudios pendents de validar. La capçalera compta només els materials sense revisió pendent. No s’alteren col·leccions ni enllaços directes.
+
+
+### Primera publicació definitiva
+
+**S004 · El botó de la jaqueta**: guió, material i àudio validats pel docent el 20/11/2026; publicada sense marques provisionals. L’aprovació es vincula al màster i al guió exactes. La variant S004D continua en revisió.

@@ -161,3 +161,8 @@ S006/S011/S021 tenen els guions validats i veus pendents. El registre local comp
 El docent ha valorat positivament aquestes peces, identificant Després/Til·lers a S010, dues bústia a S013 i rails a S022. No s’ha donat cap error per resolt: [registre de pronunciació i procediment de reparació](pronunciacio-tts.md). Tres peticions curtes preparades, cap enviada després del topall diari.
 
 Els màsters v2 conserven les veus, les durades i les preses originals. S010 incorpora [passos reals d’evsecrets](https://freesound.org/people/evsecrets/sounds/334457/) i S022 [tramvia real de migweis](https://freesound.org/people/migweis/sounds/713419/), tots dos CC0. S013 retira les dues notes de sortida. Origen, llicència, còpia HQ, hashes i fragments consten a content/sound-sources.js i als manifests individuals; els v1 es conserven. Les correccions de veu encara no s’han aplicat.
+
+
+### S004 publicada definitivament · 20/11/2026
+
+Confirmació expressa del docent per a la versió original narrada. Es conserva el mateix màster, sense nova síntesi ni remuntatge; l’aprovació i les empremtes d’àudio/guió consten al manifest S004 i al registre de producció. La variant dialogada S004D continua pendent de validació pròpia.
