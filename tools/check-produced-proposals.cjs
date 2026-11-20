@@ -13,9 +13,18 @@ const {productionSpec}=require('./proposal-plan.cjs'),{assertProductionApproved}
  for(const {code} of produced){
   const entry=activities.find(entry=>entry.code===code),record=JSON.parse(await fs.readFile(path.join(root,`assets/audio/${code.toLowerCase()}-production-manifest.json`),'utf8'));
   assertProductionApproved(entry,productionSpec(entry),plans[code]);assert(isEditoriallyReviewed(entry));
-  assert.equal(entry.reviewStatus,'audio-review');assert.equal(record.newSynthesisRequests,entry.generationPlan.takes.reduce((n,take)=>n+take.requests,0));assert.equal(record.voice.retimed,false);
+  assert.equal(entry.reviewStatus,'audio-review');assert.equal(record.montageNewSynthesisRequests??record.newSynthesisRequests,entry.generationPlan.takes.reduce((n,take)=>n+take.requests,0));assert.equal(record.voice.retimed,false);
   assert(record.cut.peakDbFS<=-42);assert(record.cut.at>record.cut.previousWordEnd&&record.cut.at<record.cut.nextWordStart);
   assert(record.lufs>=-24&&record.lufs<=-15&&record.peakDbTP<=-1);
+  if(code==='S012'){
+   const {soundSourcesForActivity}=await import('../content/sound-sources.js'),source=soundSourcesForActivity(entry)[0],guitar=record.effects.find(effect=>effect.name==='real-loose-guitar');
+   assert(guitar);assert.equal(guitar.origin,'external-recording');assert.equal(guitar.author,source.author);assert.equal(guitar.license,'CC0 1.0');
+   assert.equal(guitar.sourceSha256,createHash('sha256').update(await fs.readFile(path.join(root,source.file))).digest('hex'));
+   assert.deepEqual(guitar.excerpt,source.excerpt);assert(guitar.end<record.voice.bodyLead);assert.equal(guitar.retimed,false);assert.equal(guitar.pitchShifted,false);
+   assert.equal(record.montageNewSynthesisRequests,0);assert.equal(record.editorialEdit.retainedText,'Gràcies, Elies.');
+   assert(record.editorialEdit.silenceChecks.every(cut=>cut.peakDbFS<=-42));assert.equal(record.voice.untrimmedApartFromSilenceSplit,false);
+   assert.equal(Math.round(record.editorialEdit.removedSeconds*100),822);
+  }
   if(['S018','S022'].includes(code)){
    const track=musicForActivity(entry),bed=record.effects.find(effect=>effect.name==='gentle-narration-bed'||effect.name==='gentle-tram-memory-bed');
    assert(track&&bed);assert.equal(record.musicTrack.id,track.id);assert.equal(bed.source,track.source);

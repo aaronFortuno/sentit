@@ -5,7 +5,7 @@ export const question = (id, prompt, answer, lines = 2, evidence = []) => ({ id,
 export const evidence = (part, quote) => ({ part, quote });
 
 export function proposal(data) {
-  const { voices, delivery, soundPlan, editorialFocus, factualSources = [], illustrationBrief, performance, overlaps, generationPlan, strategy, ...content } = data;
+  const { voices, delivery, soundPlan, soundCredits = 'Tots els sons seran originals procedurals de Sentit (MIT); no s’hi preveuen enregistraments externs.', editorialFocus, factualSources = [], illustrationBrief, performance, overlaps, generationPlan, strategy, ...content } = data;
   const ids = content.transcript.filter(part => part.speaker).map(part => part.id);
   const words = content.transcript.filter(part => part.speaker).map(part => part.text).join(' ').trim().split(/\s+/u).length;
   const rates = { '3': [125, 145], '4': [135, 155], '5': [140, 160], '6': [145, 165] }[content.grade];
@@ -24,7 +24,7 @@ export function proposal(data) {
     productionNotes: [
       `Proposta pendent de validar. ${editorialFocus}`,
       `Repartiment i direcció: ${delivery} Veus proposades: ${Object.entries(voices).map(([name, voice]) => `${name} — ${voice}`).join('; ')}.`,
-      `Muntatge previst: ${soundPlan} Tots els sons seran originals procedurals de Sentit (MIT); no s’hi preveuen enregistraments externs. Les veus seran de Gemini TTS, subjectes a les condicions del proveïdor.`,
+      `Muntatge previst: ${soundPlan} ${soundCredits} Les veus seran de Gemini TTS, subjectes a les condicions del proveïdor.`,
       `${words} mots parlats al fragment; durada orientativa de ${Math.floor(min / 60)}:${String(min % 60).padStart(2, '0')}–${Math.floor(max / 60)}:${String(max % 60).padStart(2, '0')}. Es prioritzarà el ritme natural, sense alentir digitalment per assolir una durada. Les instruccions de sessió s’afegeixen amb pistes existents i temporitzadors.`,
       ...(factualSources.length ? [`Contrast factual: ${factualSources.map(source => source.label).join('; ')}. Les fonts enllaçades són al registre editorial; el guió és original i no una lectura de la font.`] : ['Situació i dades de ficció originals; tota la informació necessària per respondre és dins del fragment.']),
       `Il·lustració pendent de produir després de validar el contingut: ${illustrationBrief} No mostrarà dades, rètols ni la resolució de les preguntes.`,

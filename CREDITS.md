@@ -33,7 +33,7 @@ S015 incorpora sintonies d’entrada i sortida, ambient de sala molt baix i un m
 
 ## Web
 
-Les 19 propostes noves que completen el catàleg de 24 tenen guions i preguntes originals de Sentit. Encara no s’hi han generat veus, sons ni il·lustracions. Les fonts utilitzades per contrastar conceptes, el repartiment candidat i els criteris consten al [dossier editorial](docs/lot-editorial-24.md).
+Les 19 propostes noves que completen el catàleg de 24 tenen guions i preguntes originals de Sentit. Les peces amb guió aprovat es produeixen progressivament; les fases actuals consten al [seguiment de producció](docs/seguiment-produccio.md). Les il·lustracions noves continuen pendents. Les fonts utilitzades per contrastar conceptes, el repartiment candidat i els criteris consten al [dossier editorial](docs/lot-editorial-24.md).
 
 Les sis il·lustracions de context s’han generat per a Sentit amb l’eina integrada de generació d’imatges i s’han convertit a WebP, sense canviar-ne la composició. [Fitxers i prompts](assets/images/README.md).
 
@@ -55,3 +55,12 @@ Els vuit retrats de presentació parteixen dels mateixos models i s’han genera
 Guió i muntatge validats el 19 de novembre de 2026. Narradora Aoede, Gemini TTS, una petició per al programa complet; presentació reutilitzada de S008. Sintonia de programa, base instrumental i pas de pàgina originals procedurals, generats amb FFmpeg, sota la llicència MIT del projecte. [Recepta del muntatge](tools/render-radio.cjs) i [manifest amb consum, marques i empremtes](assets/audio/s008r-production-manifest.json). Comprovació de marques de paraula amb Vosk de català local, sense generar gravacions ni fer crides de revisió al núvol.
 
 El seguiment i els avisos utilitzen [Umami](https://github.com/umami-software/umami), allotjat en una instància pròpia. [Dades i controls de privadesa](docs/estadistiques.md).
+
+
+## S012 · Qui arregla els instruments?
+
+Veus Puck (Biel i presentació) i Algieba (Elies), Gemini TTS, una petició conservada. El comiat breu es recupera de la mateixa presa, sense síntesi nova. Guitarra real: **Guitar string snap or breaks - various sounds**, de **khenshom**, [Freesound 537084](https://freesound.org/people/khenshom/sounds/537084/), [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Còpia pública HQ MP3; fragment 2,7–5,4 s, ajust de nivell i mono, sense canvi de to o velocitat. El paper és original de Sentit, MIT. La llicència del projecte no substitueix la de les fonts externes. [Font i empremta](content/sound-sources.js) · [Manifest](assets/audio/s012-production-manifest.json).
+
+## S016 · Una troballa al jaciment
+
+Mar i presentació: Erinome, Gemini TTS, una petició amb el tancament confirmat pel docent. Capçalera, ambient, paper i sortida originals de Sentit, MIT, sense enregistraments externs. [Manifest](assets/audio/s016-production-manifest.json). S012 i S016 continuen pendents d’audició docent.

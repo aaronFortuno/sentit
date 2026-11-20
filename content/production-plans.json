@@ -256,24 +256,47 @@
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
   },
   "S012": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "a0c2ffc4f711b25afb1b69b62ec15d5e7b5961470b8c15d5a5828a7c717acf44",
+    "reviewedAt": "2026-11-20T09:35:47.564Z",
     "reviewActivity": "ca-S012",
     "reviewContent": "content/propostes/quart.js",
     "format": "4t avançada: revisar una suposició i relacionar un procediment amb la seva finalitat. No cal coneixement musical previ ni reconèixer notes.",
     "cues": [
-      "Dues notes de corda generades localment, deixades acabar abans de la primera frase. No s’avalua el timbre de l’instrument.",
+      "Gravació real de guitarra amb cordes fluixes: fragment breu de khenshom, Freesound 537084, CC0. Deixar-lo acabar abans de la primera frase. No s’avalua el timbre ni es presenta com un trencament que passa ara.",
       "Pausa de canvi de tema i moviment de paper molt breu, sense eines o cops damunt de la guitarra.",
-      "Marge després del comiat, una nota breu i silenci. El so final no certifica que la guitarra de l’escola ja estigui reparada."
+      "Marge després del comiat i silenci. No posar-hi una nota final que faci pensar que la guitarra de l’escola ja està reparada."
     ],
-    "plannedNewRequests": 1,
+    "plannedNewRequests": 0,
     "requiredVoices": {
       "Biel": "Puck",
       "Elies": "Algieba"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "externalRecordings": [
+      {
+        "id": "khenshom-guitar-537084",
+        "sha256": "b27703e3f933ea2588d9b6384148fcf278097247800391b236291a359950f252",
+        "excerpt": {
+          "start": 2.7,
+          "end": 5.4
+        },
+        "license": "CC0 1.0"
+      }
+    ],
+    "approvalSource": "Validació condicionada del docent: guitarra real, salutacions de Biel/Elies i resta del guió. La posterior revisió general dels tancaments demanada pel docent elimina només la conclusió abstracta i conserva «Gràcies, Elies.» de la presa aprovada. Retall local comprovat, sense cap nova petició externa; revisió independent final superada.",
+    "voiceReuse": {
+      "type": "keep-final-suffix",
+      "part": "comiat",
+      "retainedText": "Gràcies, Elies.",
+      "removeStart": 110.355,
+      "removeEnd": 118.575,
+      "sourceRequestHash": "29dee389b3a66507666baaca9a40d74a6124a3ed31827a57e281cce36ea7e6ff",
+      "sourceApprovalFingerprint": "4ef0fb068da5d0e65fdf692b82f1893e8cedcd5e804b29be4db9b42548925c01",
+      "reason": "Revisió general de tancaments demanada pel docent: conservar només l’agraïment concret, sense una segona petició de síntesi."
+    },
+    "sourceNewSynthesisRequests": 1
   },
   "S013": {
     "status": "approved",
@@ -315,9 +338,9 @@
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
   },
   "S016": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "a6286789dcda768aa5eda9e0d043440c60f75090efc9445ef7c273fad0ade4f5",
+    "reviewedAt": "2026-11-20T09:34:01.284Z",
     "reviewActivity": "ca-S016",
     "reviewContent": "content/propostes/cinque.js",
     "format": "5è intermèdia: separar observacions, hipòtesis i missatges no confirmats. Tota la notícia és de ficció; els procediments generals es contrasten.",
@@ -331,7 +354,8 @@
       "Mar": "Erinome"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Confirmació explícita del docent el 20/11/2026: «Sí, sintetitza aquesta versió», després de mostrar el tancament complet amb les inscripcions al centre cívic. Resta del contingut validat en el missatge anterior."
   },
   "S017": {
     "status": "awaiting-validation",

@@ -1,5 +1,13 @@
 # Canvis
 
+## 0.1.35 · 20 de novembre de 2026
+
+- S012: salutacions naturals de Biel i Elies i gravació real de guitarra de khenshom (Freesound 537084, CC0) a l’obertura. Sense cordes sintetitzades ni nota final de reparació. Fonts i llicències diferenciades al web i al registre.
+- S012: una presa completa generada; el comiat escurçat conserva «Gràcies, Elies.» amb dos talls dins silencis comprovats, sense una segona petició. Fragment de 112,39 s; àudio pendent d’audició docent.
+- S016: substituïda la moralina final per la informació pràctica de les inscripcions. Text final confirmat pel docent, una petició i muntatge de notícia amb fragment de 135,23 s. Àudio pendent de validar.
+- Revisió dels tancaments pendents: S005 acaba amb un agraïment, S006 amb el resum factual, S021 amb una observació concreta i S024 amb un acord oral sobre la comparació i la consulta. Revisió independent renovada; preguntes, respostes i cites intactes. Cap síntesi d’aquests quatre guions.
+- Suport de crèdits externs per proposta i reutilització local segura d’una presa aprovada quan només s’escurça el seu darrer torn. Registre de fases i documentació actualitzats.
+
 ## 0.1.34 · 20 de novembre de 2026
 
 - S010: comiat de Biel substituït literalment per la proposta docent, revisió independent i validació condicionada registrada. Títol i diàleg produïts en una petició; passos locals i fragment de 99,48 s. Àudio pendent d’audició.
