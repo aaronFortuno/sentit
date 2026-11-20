@@ -1,6 +1,8 @@
 export const strings = {
   ca: {
     language: 'ca',
+    releaseCompactCatalogue: 'Catàleg sense la franja del títol: cerca al header, recompte compacte al costat de Filtres i accés als personatges només amb icona. Més espai vertical per a les cards i el sidebar, amb capçalera adaptada a mòbil.',
+    releaseCompactCatalogue: 'Catálogo sin la franja del título: búsqueda en la cabecera, contador compacto junto a Filtros y acceso a personajes solo con icono. Más espacio vertical para las tarjetas y el panel, con cabecera adaptada a móvil.',
     releaseAudioReviewCards: 'Cartell de revisió a totes les cards amb àudio pendent de validar, amb el mateix estil que les propostes. S016: artefacte a «Si l’estudi avança, l’equip» i jingles anotats per corregir; resta de la peça ben valorada. Sense síntesi nova.',
     releaseContextsAndJingles: 'S014 incorpora interacció d’aula. S010/S013/S022: efectes revisats i correccions de pronunciació preparades, sense síntesi nova. S017 situa millor el grup, la coordinació i l’entrevista prèvia. S024 amb llenguatge juvenil i acord construït entre tots dos. Tots dos guions pendents de validar. S011 passa a 4t avançada; S006 i S021 també validades i preparades per a veus. S019 i S023 muntades, pendents d’audició. Tres sintonies alternatives més per comparar amb l’original.',
     releaseButtonAndResearch: 'S004 i S004D produïdes per comparar narració i diàleg, amb la mateixa música molt suau i mescles pròpies. S005 incorpora salutació i comiat mutu i ja té àudio. Muntatges pendents d’audició. S021 passa a una recerca amb Mireia i Laia: contingut validat i nou guió dialogat pendent de revisar, sense síntesi.',

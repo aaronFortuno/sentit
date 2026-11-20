@@ -291,6 +291,7 @@ function showActivity(entry, collectionId = '') {
   applyFormat(saved.format);
   documentMode = needsReview(entry) ? 'answers' : 'worksheet';
   byId('catalog-view').hidden = true;
+  byId('catalog-search').hidden = true;
   byId('workspace').hidden = false;
   byId('layout-status').textContent = '';
   document.querySelector('.skip').href = '#workspace';
@@ -318,6 +319,7 @@ function route() {
     byId('workspace').hidden = true;
     document.body.classList.remove('reviewing-draft');
     byId('catalog-view').hidden = false;
+    byId('catalog-search').hidden = false;
     document.querySelector('.skip').href = '#catalog-view';
     catalog.render();
     byId('catalog-view').focus({ preventScroll: true });
