@@ -2,7 +2,7 @@
 
 20 de novembre de 2026 · 19 propostes base noves · 138 preguntes · variant dialogada S004D per comparar.
 
-S’hi afegeix S023, que ja estava preparada. Les peces produïdes, incloses S004/S004D i S005, tenen el muntatge pendent d’audició. S020 té autoritzades les veus; la sintonia comuna es valida per separat. Les propostes sense aprovació esperen validació docent; S021 té validat el contingut, però el nou guió de recerca necessita revisió del docent. S001, S002, S008 i S015 conserven els seus materials; S008R és una revisió addicional de S008. [Seguiment de totes les fases](seguiment-produccio.md).
+S’hi afegeix S023, que ja estava preparada. S004 està validada i publicada definitivament. Les altres peces produïdes, incloses S004D i S005, tenen el muntatge pendent d’audició. S020 té autoritzades les veus; la sintonia comuna es valida per separat. Les propostes sense aprovació esperen validació docent; S021 té validat el contingut, però el nou guió de recerca necessita revisió del docent. S001, S002, S008 i S015 conserven els seus materials; S008R és una revisió addicional de S008. [Seguiment de totes les fases](seguiment-produccio.md).
 
 ## Revisió al web
 
@@ -34,7 +34,7 @@ Les durades són intervals orientatius derivats del nombre de mots, un ritme nat
 | [S004 · El botó de la jaqueta](https://sentit.ortogra.fi/#lectura=ca-S004) | Intermèdia | 253 | 6 | 1:45–2:15 |
 | [S005 · La feina d’una cartera](https://sentit.ortogra.fi/#lectura=ca-S005) | Intermèdia | 290 | 6 | 2:00–2:30 |
 | [S006 · S’obre un nou camí al parc](https://sentit.ortogra.fi/#lectura=ca-S006) | Avançada | 252 | 6 | 1:45–2:15 |
-| [S007 · On va l’aigua del bassal?](https://sentit.ortogra.fi/#lectura=ca-S007) | Avançada | 302 | 6 | 2:05–2:35 |
+| [S007 · On va l’aigua del bassal?](https://sentit.ortogra.fi/#lectura=ca-S007) | Avançada | 318 | 6 | 2:15–2:45 |
 
 ### 4t
 
@@ -125,3 +125,11 @@ S006 té validat el guió després de suprimir la frase indicada; només veus ap
 
 S014 és ara una escena d’aula de Mireia i Biel: preguntes, anticipacions sobre l’aigua i les fulles, i reconducció de la prova. 358 mots, 15 torns, set preguntes. Una petició prevista per a dues veus; nova versió pendent de validar, sense síntesi.
 S009 incorpora la redacció docent de la bústia i el tancament; S017 situa el grup, la coordinació i l’entrevista; S024 rebaixa el registre dels joves i construeix la proposta en conversa. Les quatre versions han passat revisió independent i esperen el docent.
+
+
+### Revisió de S007 · 20/11/2026
+
+La Mireia introdueix explícitament l’analogia d’un plat amb foradets abans del contrapunt de la Laia. El solucionari i les cites de la pregunta del plat recullen la comparació. La confirmació sobre l’aigua invisible i el tancament s’han substituït pels textos proposats pel docent. Sis preguntes i quinze torns conservats; dues preses agrupades previstes, cap síntesi. Nova versió pendent de validació docent.
+
+
+S004 té confirmació expressa de publicació definitiva del docent el 20/11/2026. Es conserva el màster aprovat, amb registre d’empremta del guió i de l’àudio. La variant S004D continua pendent d’audició i validació pròpies.

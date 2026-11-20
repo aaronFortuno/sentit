@@ -11,6 +11,7 @@ async function main(){
  const code=process.argv.find(arg=>arg.startsWith('--only='))?.slice(7).toUpperCase().replace(/^CA-/,'');
  const recipe=recipes[code];if(!recipe)throw Error('No hi ha recepta de muntatge revisada per a aquest codi.');
  const {activities}=await import(pathToFileURL(path.join(root,'catalogue.js'))),entry=activities.find(entry=>entry.code===code);
+ if(entry.reviewStatus==='validated')throw Error('La peça està publicada definitivament. Cal obrir una revisió abans de modificar el màster validat.');
  const news=code==='S023'?require('./news-production.cjs'):null,spec=news?.spec??productionSpec(entry),plans=JSON.parse(await fs.readFile(path.join(root,'content/production-plans.json'),'utf8'));assertProductionApproved(entry,spec,plans[code]);
  if(plans[code].approvedScope==='voices-only')throw Error('Les veus estan autoritzades, però el muntatge espera validar la sintonia comuna.');
  const folder=path.join(work,code.toLowerCase());

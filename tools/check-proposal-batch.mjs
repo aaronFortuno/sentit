@@ -20,7 +20,7 @@ assert.equal(proposedActivities.length,19);
 assert.equal(activities.find(entry=>entry.code==='S011').level,'advanced','Teacher calibration: S011 is 4t avançada');
 let questions=0;
 for(const entry of [...proposedActivities,...proposedVariants]){
- assert(['pending','audio-review'].includes(entry.reviewStatus));
+ assert(['pending','audio-review','validated'].includes(entry.reviewStatus));
  if(entry.reviewStatus==='pending')assert.equal(entry.audio,null);
  else assert(entry.audio&&entry.tracks?.body&&entry.tracks?.introduction);
  const approved=plans[entry.code].status==='approved';
@@ -30,8 +30,12 @@ for(const entry of [...proposedActivities,...proposedVariants]){
  assert.equal(new Set(ids).size,ids.length);assert(entry.production.words>=150&&entry.production.words<=650,entry.code+' complete age-appropriate spoken length');
  assert(entry.transcript.filter(part=>part.kind==='direction').length>=3);
  assert(entry.questions.length>=6&&entry.questions.length<=10);questions+=entry.questions.length;
- const cast=charactersForActivity(entry);assert.equal(cast.length,Object.keys(entry.production.voices).length);
- for(const part of body)assert(cast.some(character=>character.appearances.some(appearance=>appearance.code==='ca-'+entry.code&&appearance.speaker===part.speaker)),entry.code+' speaker has a recurring identity');
+ const anonymous = speaker => ['Narradora','Narrador'].includes(speaker);
+ const cast=charactersForActivity(entry);assert.equal(cast.length,Object.keys(entry.production.voices).filter(speaker=>!anonymous(speaker)).length);
+ for(const part of body){
+  const identified=cast.some(character=>character.appearances.some(appearance=>appearance.code==='ca-'+entry.code&&appearance.speaker===part.speaker));
+  assert.equal(identified,!anonymous(part.speaker),entry.code+' named speakers have identities; anonymous narrators stay unnamed');
+ }
  const spec=productionSpec(entry),payloads=packedProposalRequests(entry),payload=payloads[0];
  assert.equal(payloads.length,entry.generationPlan.takes.length);
  for(const body of payloads)assert((body.generation_config.speech_config.speakers?.length??1)<=2);

@@ -1,6 +1,6 @@
 # Revisió independent de coherència
 
-Actualitzat: **20/11/2026**. **21 de 21** propostes de la tanda tenen revisió independent superada per a la versió actual. Abast: 154 preguntes i 186 cites literals.
+Actualitzat: **20/11/2026**. **21 de 21** propostes de la tanda tenen revisió independent superada per a la versió actual. Abast: 154 preguntes i 187 cites literals.
 
 S’han revisat situacions, cronologia, circulació d’objectes, coneixement dels personatges, causes i desenllaços, acotacions sonores, preguntes, respostes i ancoratges. Les dades factuals sensibles s’han contrastat amb fonts primàries indicades al [dossier editorial](lot-editorial-24.md). La revisió del muntatge és sobre el guió; les veus i el resultat sonor requeriran audició.
 
@@ -9,11 +9,11 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | Codi | Títol | Curs | Resultat | Data | Versió revisada · SHA-256 |
 | --- | --- | --- | --- | --- | --- |
 | [ca-S003](https://sentit.ortogra.fi/#lectura=ca-S003) | El paraigua intercanviat | 3r | Revisió superada · àudio pendent | 2026-11-20 | `cbb297a7ce3a…` |
-| [ca-S004](https://sentit.ortogra.fi/#lectura=ca-S004) | El botó de la jaqueta | 3r | Revisió superada · àudio pendent | 2026-11-20 | `30cb0049ef5d…` |
+| [ca-S004](https://sentit.ortogra.fi/#lectura=ca-S004) | El botó de la jaqueta | 3r | Revisió superada · publicació definitiva | 2026-11-20 | `30cb0049ef5d…` |
 | [ca-S004D](https://sentit.ortogra.fi/#lectura=ca-S004D) | El botó de la jaqueta · versió dialogada | 3r | Revisió superada · àudio pendent | 2026-11-20 | `d405d1a01e30…` |
 | [ca-S005](https://sentit.ortogra.fi/#lectura=ca-S005) | La feina d’una cartera | 3r | Revisió superada · àudio pendent | 2026-11-20 | `96370e0e0c82…` |
 | [ca-S006](https://sentit.ortogra.fi/#lectura=ca-S006) | S’obre un nou camí al parc | 3r | Revisió superada · guió validat | 2026-11-20 | `629dbd8f7a80…` |
-| [ca-S007](https://sentit.ortogra.fi/#lectura=ca-S007) | On va l’aigua del bassal? | 3r | Provisional · revisió superada | 2026-11-20 | `ff0df8ee1cb3…` |
+| [ca-S007](https://sentit.ortogra.fi/#lectura=ca-S007) | On va l’aigua del bassal? | 3r | Provisional · revisió superada | 2026-11-20 | `d5d256839f99…` |
 | [ca-S009](https://sentit.ortogra.fi/#lectura=ca-S009) | La biblioteca canvia d’horari | 4t | Provisional · revisió superada | 2026-11-20 | `38014b8e7bff…` |
 | [ca-S010](https://sentit.ortogra.fi/#lectura=ca-S010) | La ruta fins al pavelló | 4t | Revisió superada · àudio pendent | 2026-11-20 | `11cbce998206…` |
 | [ca-S011](https://sentit.ortogra.fi/#lectura=ca-S011) | Una menjadora per als ocells | 4t | Revisió superada · guió validat | 2026-11-20 | `7c6c647baa9f…` |

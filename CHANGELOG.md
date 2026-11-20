@@ -1,5 +1,12 @@
 # Canvis
 
+## 0.1.42 · 20 de novembre de 2026
+
+- S004 publicada definitivament després de la confirmació docent. Retirats el cartell i les marques provisionals; s’obre com a fitxa i passa al catàleg disponible. Aprovació vinculada al guió i màster exactes, sense generar ni canviar àudio. S004D continua pendent de validació.
+
+- S007 introdueix l’analogia del plat amb foradets abans de la intervenció de la Laia. Resposta sobre l’aigua invisible i tancament substituïts pels textos docents; resposta i cites de la pregunta del plat actualitzades.
+- Sis preguntes, identificadors i pla de dues preses conservats. Nova proposta pendent de validació, sense generar veus.
+
 ## 0.1.41 · 20 de novembre de 2026
 
 - Universos amb noms més descriptius: «Les descobertes de la Laia i en Biel», «Els records i misteris de l’Aina i l’avi Ferran», «Les explicacions i els projectes de la Mireia» i «Les notícies de la Mar». Actualitzats en català i castellà, als filtres, les cards, la fitxa i la documentació.
