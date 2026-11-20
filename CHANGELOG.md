@@ -1,5 +1,12 @@
 # Canvis
 
+## 0.1.51 · 20 de novembre de 2026
+
+- Cards provisionals amb un indicador de sis fases: revisió de guió/escaleta, síntesi de veus, revisió de veus, esmenes de veu, revisió del muntatge i publicació. Número, color i segments acumulats, del vermell inicial al verd final, mantenint els avisos de revisió existents.
+- Filtre superior de fase, només a la vista de provisionals, amb recomptes segons cerca, filtres i col·lecció. Fases buides accessibles, selecció visible i accés per teclat; la franja es manté fora de l’scroll de les cards. Netejar filtres o canviar de col·lecció torna a totes les fases.
+- Progrés derivat dels registres existents, sense duplicar ni atribuir aprovacions. Les esmenes són opcionals: en aplicar-les es torna a revisar el muntatge, sense donar-lo per validat. Escala de fases, no una estimació d’hores o percentatge de feina.
+- Comprovats el pas de veus rebudes, les aprovacions caducades, el retorn després de les esmenes, els filtres combinats, col·leccions, accessibilitat per teclat, mode fosc, castellà i pantalles de 320 px. Cap síntesi nova.
+
 ## 0.1.50 · 20 de novembre de 2026
 
 - El switch del footer passa a «Només provisionals»: activat mostra exclusivament guions i àudios pendents de validar; desactivat mostra els materials disponibles. Es conserva la preferència del navegador i la sincronització entre pestanyes. Els filtres s’apliquen al grup visible i el recompte de la capçalera continua indicant els materials disponibles.

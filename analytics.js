@@ -2,6 +2,7 @@ import { activities, legacyActivities } from './catalogue.js';
 import { characters } from './content/characters.js';
 import { universes } from './content/universes.js';
 import { sessionJingles } from './session.js';
+import { pendingProductionStages } from './production-stage.js';
 
 export const analyticsConfig={website:'6acf2cae-4b28-4d71-98dd-550d2d086dcc',hostname:'sentit.ortogra.fi',script:'https://maquestria.tail72bc84.ts.net:8443/script.js'};
 const page={website:analyticsConfig.website,hostname:analyticsConfig.hostname,title:'Sentit',url:'/'};
@@ -10,6 +11,7 @@ const filters={
   'content-language':['','ca','es'],grade:['','3','4','5','6'],level:['','easy','middle','advanced'],duration:['','short','medium','long'],
   genre:['','story','dialogue','news','interview','instructions','explanation'],'character-match':['any','all'],character:characters.map(character=>character.id),
   universe:['',...universes.map(universe=>universe.id),'independent'],
+  'production-phase':['',...pendingProductionStages.map(stage=>stage.id)],
 };
 const buckets=['0','1','2-5','6-15','16+'];
 const times=Array.from({length:301},(_,index)=>String(index));

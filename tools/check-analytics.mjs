@@ -7,6 +7,8 @@ assert.equal(sanitizeEvent('aplica_filtre',{filtre:'grade',valor:'3r de la Carla
 assert.equal(sanitizeEvent('aplica_filtre',{filtre:'universe',valor:'la classe de la Carla'}),false);
 assert.deepEqual(sanitizeEvent('aplica_filtre',{filtre:'universe',valor:'aina-ferran'}),{name:'aplica_filtre',data:{filtre:'universe',valor:'aina-ferran'}});
 assert.deepEqual(sanitizeEvent('canvia_provisionals',{visible:false,name:'Carla'}),{name:'canvia_provisionals',data:{visible:false}});
+assert.deepEqual(sanitizeEvent('aplica_filtre',{filtre:'production-phase',valor:'corrections'}),{name:'aplica_filtre',data:{filtre:'production-phase',valor:'corrections'}});
+assert.equal(sanitizeEvent('aplica_filtre',{filtre:'production-phase',valor:'La classe de la Carla'}),false);
 assert.equal(sanitizeEvent('obre_comprensio',{code:'private-lesson'}),false);
 assert.equal(sanitizeEvent('colleccio',{accio:'La classe de la Martina'}),false);
 const cases=[

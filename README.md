@@ -17,6 +17,8 @@ Els 24 codis base, ca-S001–ca-S024, tenen guió, preguntes i solucionari. S004
 
 La capçalera compta només activitats sense revisió pendent. «Només provisionals · experimental», al footer, alterna entre exclusivament guions i àudios en revisió (activat) i materials disponibles (desactivat), i recorda la preferència local. Les cards distingeixen guió, veus, muntatge pendent d’audició i síntesi pendent d’esmena. Quan s’apliquen totes les correccions de veu, tornen a «Àudio pendent de validar»; rebre una prova crua no completa aquest pas.
 
+En la vista de provisionals, cada card mostra el número de fase i una barra de sis segments: guió → síntesi → revisió de veus → esmenes si cal → revisió del muntatge → publicació. Una franja superior permet filtrar per fase i en mostra els recomptes combinats amb els altres filtres. La barra indica la fase actual, no el temps pendent. [Funcionament del seguiment visual](docs/univers-editorial.md#seguiment-visual-de-producció).
+
 ## Agrupar lectures i correccions
 
 [Pla de lots de síntesi](docs/lots-sintesi.md): agrupar material validat d’una o dues veus, preveure 6–8 minuts per petició i tallar després amb marges comprovats. La cua candidata combina quatre preses noves i nou frases de correcció en quatre peticions en lloc de vuit. Cal preparar el payload i el receptor per a la prova; cap lot s’ha enviat ni s’ha activat cap execució automàtica.

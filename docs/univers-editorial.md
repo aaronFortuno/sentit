@@ -33,4 +33,23 @@ Les col·leccions són biblioteques personals del docent, desades al navegador: 
 
 El control **Només provisionals**, activat, mostra exclusivament els guions en revisió i els àudios pendents de validar. Desactivat, mostra només els materials disponibles. Per defecte està activat; cada navegador conserva la preferència a `sentit.catalogue.show-provisional.v1`. Es pot canviar el valor inicial a `defaultShowProvisional` de catalog.js quan el catàleg consolidat sigui més ampli. Netejar filtres no canvia aquesta preferència.
 
+## Seguiment visual de producció
+
+La vista de provisionals incorpora una barra de sis segments i el número de fase, a més del cartell existent. La fase es deriva de [production-stage.js](../production-stage.js) i dels registres de revisió i producció, sense afegir una font manual paral·lela ni alterar aprovacions.
+
+| Fase | Què hi ha pendent | Evidència utilitzada |
+| --- | --- | --- |
+| 1 · Guió | Revisar o validar guió i escaleta | Proposta pendent, sense una aprovació vigent de producció |
+| 2 · Síntesi | Produir les veus | Guió aprovat per al contingut exacte, veus encara pendents |
+| 3 · Revisió de veus | Revisar les preses rebudes i preparar el muntatge | Veus rebudes i empremta editorial vigent, sense àudio muntat |
+| 4 · Esmenes | Corregir defectes detectats a les veus | Feedback de síntesi amb incidències pendents |
+| 5 · Muntatge | Escoltar i validar l’àudio complet | Muntatge disponible, sense esmenes de veu obertes |
+| 6 · Publicada | Procés completat | Validació definitiva i registre de publicació; ja no apareix entre els provisionals |
+
+Les esmenes són opcionals i poden repetir-se. Marcar-les aplicades retorna la peça a la revisió de muntatge; no la publica. La barra representa una posició dins del procés, **no un percentatge de temps o feina acabada**. Els prototips històrics sense aprovació formal no reben una fase de publicació retrospectiva.
+
+El filtre de fase està ancorat sobre la zona de cards. Els recomptes reflecteixen la cerca, el curs, la dificultat, la tipologia, la durada, els personatges, l’univers i la col·lecció actuals, abans d’aplicar la fase seleccionada. Així es poden comparar les altres fases sense haver d’esborrar-la. Una fase buida mostra zero i continua sent seleccionable.
+
+La fase seleccionada es conserva en obrir una lectura i tornar al catàleg, i en alternar temporalment amb els materials disponibles. Netejar filtres, prémer «Totes» o canviar de col·lecció la restableix. No es modifica l’ordre ni el contingut d’una col·lecció. En desactivar els provisionals, la franja i els indicadors desapareixen. Transicions de 220 ms; número i text permeten interpretar l’estat sense dependre només del color.
+
 La capçalera compta només els materials amb àudio i sense marca de revisió pendent: ara en són dos. La xifra és global i no es confon amb resultats seleccionats o amb el botó de netejar. No modifica retrospectivament el registre formal de validació dels prototips. Els enllaços directes continuen funcionant; aquest control és una preferència de descoberta, no una restricció d’accés.
