@@ -254,7 +254,9 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
     });
     const scope = currentCollection();
     const names = characters.filter(character => selectedCharacters.has(character.id)).map(character => character.name);
-    byId('catalog-count').textContent = `${t('catalogCount')(matches.length)}${scope ? ` · ${scope.name}` : ''}${names.length ? ' · ' + names.join(', ') : ''}`;
+    byId('catalog-count').textContent = matches.length;
+    byId('catalog-count').title = `${t('catalogCount')(matches.length)}${scope ? ` · ${scope.name}` : ''}${names.length ? ' · ' + names.join(', ') : ''}`;
+    byId('catalog-count').setAttribute('aria-label', byId('catalog-count').title);
     renderCards();
   }
 

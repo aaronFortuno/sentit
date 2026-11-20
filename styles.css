@@ -56,10 +56,10 @@ svg { display: block; fill: none; stroke: currentColor; stroke-width: 1.7; strok
 .top-inner, .bottom-inner { width: min(100%, 1680px); margin: auto; padding-inline: clamp(12px, 3vw, 38px); }
 .top-inner { min-height: 64px; display: flex; justify-content: space-between; align-items: center; gap: 12px; }
 .identity, .brand, .top-actions { display: flex; align-items: center; }
-.identity { gap: 18px; min-width: 0; }
+.identity { gap: 18px; min-width: 0; flex: 1; }
 .header-motto { color: var(--quiet); padding: 0 0 0 17px; border: 0; border-inline-start: 1px solid var(--line); background: transparent; text-align: start; font-size: .9rem; max-width: min(52vw, 520px); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .header-motto:hover { color: var(--green); }
-.brand { gap: 9px; text-decoration: none; font: 700 2.05rem/1 var(--serif); letter-spacing: -.06em; }
+.brand { gap: 9px; flex: none; text-decoration: none; font: 700 2.05rem/1 var(--serif); letter-spacing: -.06em; }
 .brand-dot { color: var(--accent); }
 .top-actions { gap: 8px; flex: none; }
 .icon-button, #filters select, #copy-fallback, #worksheet-format :is(select, input), #session-fields :is(select, input) {

@@ -1,5 +1,10 @@
 # Canvis
 
+## 0.1.39 · 20 de novembre de 2026
+
+- Eliminada la franja del títol del catàleg. Cerca al header, recompte compacte al costat de Filtres amb descripció accessible i accés als personatges només amb icona.
+- Cerca visible només al catàleg; la fitxa i la vista d’escolta mantenen la seva capçalera. En mòbil, el camp ocupa una segona fila del header.
+
 ## 0.1.38 · 20 de novembre de 2026
 
 - Cartell «Àudio pendent de validar» sobre totes les cards en fase de revisió d’àudio, amb el mateix estil que les marques de guió o veus pendents. La card continua obrint la fitxa i l’àudio es pot escoltar.

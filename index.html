@@ -27,8 +27,9 @@
         </a>
         <button type="button" id="header-motto" class="header-motto" data-label="mottoAction">Escoltar és seguir el fil.</button>
       </div>
+      <label id="catalog-search" class="catalog-search header-catalog-search" hidden><span class="sr-only" data-t="catalogSearch">Cerca per títol o codi</span><input id="search" type="search" data-placeholder="catalogSearch" placeholder="Cerca per títol o codi" autocomplete="off"></label>
       <div class="top-actions">
-        <button type="button" id="meet-characters" class="header-characters" data-open="characters-dialog" data-label="meetCharacters"><span data-icon="users" aria-hidden="true"></span><span data-t="characters">Personatges</span></button>
+        <button type="button" id="meet-characters" class="icon-button header-characters" data-open="characters-dialog" data-label="meetCharacters"><span data-icon="users" aria-hidden="true"></span></button>
         <div class="language-control">
           <button type="button" id="language-button" class="icon-button" aria-haspopup="menu" aria-expanded="false" aria-controls="language-menu" data-label="interfaceLanguage"><span data-icon="languages" aria-hidden="true"></span></button>
           <select id="language" hidden aria-hidden="true" tabindex="-1">
@@ -47,17 +48,13 @@
     </div>
   </header>
 
-  <main id="catalog-view" class="catalog-view" tabindex="-1" hidden>
-    <div class="catalog-heading">
-      <div><h1 data-t="catalogTitle">Comprensions orals</h1><p id="catalog-count" class="small" role="status"></p></div>
-      <label class="catalog-search"><span class="sr-only" data-t="catalogSearch">Cerca per títol o codi</span><input id="search" type="search" data-placeholder="catalogSearch" placeholder="Cerca per títol o codi" autocomplete="off"></label>
-    </div>
+  <main id="catalog-view" class="catalog-view" tabindex="-1" aria-label="Comprensions orals" data-label="catalogTitle" hidden>
     <div class="catalog-layout">
     <aside class="pane catalog" aria-label="Filtres i col·leccions" data-label="catalogOptions">
       <div class="filter-panel-wrap">
       <button type="reset" form="filters" id="reset-filters" class="icon-button filter-reset" data-label="reset"><span data-icon="close" aria-hidden="true"></span></button>
       <details id="filter-panel" open>
-        <summary data-t="filters">Filtres</summary>
+        <summary><span data-t="filters">Filtres</span><span id="catalog-count" class="count catalog-count" role="status"></span></summary>
         <form id="filters">
           <label><span data-t="contentLanguage">Idioma del text</span><select name="content-language" id="content-language"></select></label>
           <label><span data-t="grade">Curs</span><select name="grade" id="grade"></select></label>
@@ -240,7 +237,7 @@
       <a class="parent-brand" href="https://ortogra.fi/"><span data-t="parent">Un projecte d’</span><img src="./assets/ortografi.svg" width="83" height="20" alt="ortogra.fi"></a>
       <nav aria-label="Projecte" data-label="project">
         <a href="./LICENSE" data-t="license">Llicència</a>
-        <button type="button" data-open="changes" data-label="changes">v0.1.38</button>
+        <button type="button" data-open="changes" data-label="changes">v0.1.39</button>
         <button type="button" data-open="v4v">V4V</button>
       </nav>
     </div>
@@ -281,6 +278,8 @@
       <div class="dialog-head"><h2 id="changes-title" data-t="changes">Canvis</h2>
         <form method="dialog"><button class="icon-button" type="submit" data-label="close"><span data-icon="close" aria-hidden="true"></span></button></form>
       </div>
+      <h3>0.1.39 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
+      <p data-t="releaseCompactCatalogue"></p>
       <h3>0.1.38 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
       <p data-t="releaseAudioReviewCards"></p>
       <h3>0.1.37 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
