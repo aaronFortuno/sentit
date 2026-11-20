@@ -1,10 +1,14 @@
 const repo = 'https://github.com/aaronFortuno/sentit/blob/main/';
 import { productionProgress } from './content/production-progress.js';
+import { musicForActivity } from './content/music-catalogue.js';
 const gemini = { title: 'Gemini TTS · Google', url: 'https://ai.google.dev/gemini-api/docs/speech-generation', license: 'Condicions de Gemini API', licenseUrl: 'https://ai.google.dev/gemini-api/terms' };
 const original = { title: 'Sentit · síntesi i muntatge originals amb FFmpeg', url: repo + 'tools/remaster-audio.cjs', license: 'MIT · projecte Sentit', licenseUrl: repo + 'LICENSE' };
 
 // Only resources actually heard in the published master. Future cue sheets live in docs/.
 export const audioResources = {
+  'ca-S010': { voices: 'Leda: Laia i presentació. Puck: Biel. Diàleg complet i títol en una petició, amb el comiat validat pel docent. Àudio pendent d’audició.', sounds: 'Passos originals a l’arribada, a la pausa del carreró i al comiat. Sense base musical ni gravacions externes; les pistes del trajecte es mantenen amb veu neta.', recipe: 'tools/render-proposal.cjs' },
+  'ca-S022': { voices: 'Algenib: Ferran recorda en primera persona; també llegeix la presentació. Aina i el pare són personatges del record, sense veus pròpies. Una petició per al títol i tot el relat; àudio pendent d’audició docent.', sounds: 'Base original pròpia de corda polsada i piano sord, molt suau durant el relat. Fosa d’obertura i pujada seguida de fosa després de la veu. Rumor de tramvia original abans de començar, un toc de rail i paper a la pausa del retorn al present. Sense enregistraments històrics ni veus de passatgers.', recipe: 'tools/render-proposal.cjs' },
+  'ca-S018': { voices: 'Aoede: una narradora adulta i presentació. Aina i Ferran són personatges narrats, sense veus pròpies en aquest relat. Una petició per al títol i tota la narració; àudio pendent d’audició docent.', sounds: 'Base musical original molt suau, amb fosa d’entrada, nivell baix durant la narració i pujada seguida de fosa després de la veu. Clau, cartró i paper discrets dins les pauses, sense gravacions externes.', recipe: 'tools/render-proposal.cjs' },
   'ca-S003': { voices: 'Leda: Laia i presentació. Puck: Biel. Una petició per al títol i tot el diàleg; rialles breus sol·licitades a totes dues veus dins la mateixa presa. Àudio pendent d’audició docent.', sounds: 'Passos originals al passadís durant el canvi de classe, un fregadís de bossa abans de la descoberta i passos que s’allunyen al final. Ambient molt baix sota la crida inicial i veu neta a les pistes. Sense gravacions externes.', recipe: 'tools/render-proposal.cjs' },
   'ca-S013': { voices: 'Aoede: Mireia, narració i presentació. Una petició per al títol i tota l’explicació. Àudio pendent d’audició docent.', sounds: 'Paper d’un sobre a l’entrada, transició de paper entre classificació i repartiment i dues notes de sortida originals. Sense màquines ni efectes sota les dades del procés.', recipe: 'tools/render-proposal.cjs' },
   'ca-S015': { voices: 'Puck: Biel, entrevistador i presentació. Kore: Nora, restauradora. Una única petició per al títol i tot el diàleg, amb separació local dins un silenci comprovat. Guió i escaleta validats; àudio pendent d’audició docent.', sounds: 'Sintonia breu a l’entrada i a la sortida, ambient de sala molt baix al primer torn i un moviment discret de pàgina. Veu neta a les explicacions tècniques. Tots els sons són originals procedurals, sense gravacions externes.', recipe: 'tools/render-interview.cjs' },
@@ -34,6 +38,13 @@ export function renderAudioResources(root, entry, t) {
       link(attribution, source.title, source===original&&record.recipe?repo+record.recipe:source.url);
       attribution.append(document.createTextNode(' · '));
       link(attribution, source.license, source.licenseUrl);
+    }
+    const music=musicForActivity(entry);
+    if(music&&entry.audio){
+      add('h4',t('resourceMusic'));
+      add('p',`${music.title} · ${music.author} · ${music.license}`);
+      const source=add('p','');link(source,t('musicRecipe'),repo+music.source);
+      source.append(document.createTextNode(' · '));link(source,t('musicRegister'),repo+'docs/musiques.md');
     }
   }
   const p = add('p', '');

@@ -214,9 +214,9 @@
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
   },
   "S010": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "2257a385ad96970cb65963833fe321e14938e2b36ff1bf89b6aca0c153bd4e77",
+    "reviewedAt": "2026-11-20T09:00:45.318Z",
     "reviewActivity": "ca-S010",
     "reviewContent": "content/propostes/quart.js",
     "format": "4t intermèdia: actualitzar un pla, retenir fites rellevants i justificar una alternativa. No cal dibuixar un mapa exacte ni conèixer el barri.",
@@ -231,7 +231,8 @@
       "Biel": "Puck"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Validació expressa condicionada del docent el 20/11/2026: canviant el parlament final per la seva proposta, S010 queda validada. La frase s’ha aplicat literalment i la revisió independent s’ha superat."
   },
   "S011": {
     "status": "awaiting-validation",
@@ -338,37 +339,42 @@
     "reviewedAt": null,
     "reviewActivity": "ca-S017",
     "reviewContent": "content/propostes/cinque.js",
-    "format": "5è avançada: integrar condicions de contingut, muntatge i transport. Les preguntes avaluen la lògica del pla, no la memorització de tota la llista.",
+    "format": "5è avançada: integrar les condicions de contingut, autorització, muntatge, embalatge i transport, mantenint les prioritats malgrat preguntes anticipades. Cal escoltar tota l’aula: algunes solucions i justificacions les aporta l’alumnat, i la mestra les valida sense repetir-les senceres.",
     "cues": [
-      "Un cartró es deixa suaument a la taula. Pausa i començament de les instruccions. Veu sola a totes les condicions.",
-      "Moviment breu de paper entre la prova de muntatge i l’embalatge. No simular cops, eines ni manipular suports sota la veu.",
-      "Marge final, dues notes i 600 ms de silenci. Sense afegir instruccions de seguretat o transport que canviïn el pla escrit."
+      "Un cartró es deixa suaument a taula i es mou una cadira abans de la salutació. L’aula queda en silenci sota les veus; cap conversa de fons ni manipulació contínua de materials.",
+      "Un moviment de full abans de reprendre l’ordre de feina. No afegir pluja ni música sota el pla alternatiu.",
+      "Deixar acabar la veu, dues notes i 600 ms de silenci. No afegir instruccions ni sons que modifiquin les condicions del transport."
     ],
-    "plannedNewRequests": 1,
+    "plannedNewRequests": 2,
     "requiredVoices": {
-      "Mireia": "Aoede"
+      "Mireia": "Aoede",
+      "Laia": "Leda",
+      "Biel": "Puck"
     },
-    "strategy": "packed-title-program-v1",
+    "strategy": "grouped-voices-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
   },
   "S018": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "d976bbffffd1efd8c5d0563523d24a2a3015fe8578bfb38d6b1638843d49fa4f",
+    "reviewedAt": "2026-11-20T08:41:35.646Z",
     "reviewActivity": "ca-S018",
     "reviewContent": "content/propostes/cinque.js",
     "format": "5è avançada: inferir una motivació a partir d’indicis i revisar una primera lectura dels fets. El desenllaç no converteix tots els enregistraments en material públic.",
     "cues": [
-      "Separador de dos segons. Una clau sona molt breument abans de la narradora; no s’utilitza com a pista que resolgui el motiu del tancament.",
-      "Pausa breu i moviment de cartró molt discret; no fer música de suspens que presenti l’avi com una amenaça.",
-      "El paper s’acaba abans de l’última escena. Sortida musical després de la veu i cua completa de silenci. No s’afegeix una moral llegida a banda."
+      "La base musical entra amb una fosa suau i deixa dos segons de context. Una clau sona molt breument abans de la narradora. La música baixa abans de la primera consonant i continua molt suau sota el relat; cap accent de suspens ni pista que resolgui el motiu del tancament.",
+      "Pausa breu i moviment de cartró molt discret entre escenes. La base continua baixa i neutral: no presenta l’avi com una amenaça.",
+      "Un fregadís breu de paper dins la pausa abans d’explicar què conté la carpeta. S’acaba abans de la veu; no subratlla les confirmacions ni les condicions per compartir el material.",
+      "Cap efecte de paper a l’última escena. Després de l’última paraula, deixar un marge, pujar la música suaument i fer-ne la fosa de tancament fins a deixar una cua completa de silenci. No s’afegeix una moral llegida a banda."
     ],
     "plannedNewRequests": 1,
     "requiredVoices": {
       "Narradora": "Aoede"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Confirmació explícita del docent el 20/11/2026: S018 validat; música molt suau de fons durant la narració, fosa d’obertura, pujada i fosa de tancament i efectes pertinents.",
+    "musicRecipe": "tools/s018-music.cjs"
   },
   "S019": {
     "status": "awaiting-validation",
@@ -433,23 +439,26 @@
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
   },
   "S022": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "80dce8554e41a16a6d0ddde17e251b1ba56ad559b6b77835f6dd049bbb2f8196",
+    "reviewedAt": "2026-11-20T08:52:57.359Z",
     "reviewActivity": "ca-S022",
     "reviewContent": "content/propostes/sise.js",
     "format": "6è intermèdia: distingir el record d’infant de la interpretació actual i relacionar una pista escrita amb el comportament del pare. Relat i línia de tramvia ficticis.",
     "cues": [
-      "Dos segons de rumor mecànic original i un petit toc de rail. Baixa abans de la primera frase i desapareix durant les pistes del record.",
-      "El rumor mecànic queda lluny. Pausa i un full que es desplega per tornar al present del relat.",
-      "Sortida musical molt breu després de la veu i silenci. No llegir cap frase addicional de la nota ni donar per certa la interpretació que en Ferran presenta com a possibilitat."
+      "La música entra amb una fosa suau durant l’obertura. Dos segons de rumor mecànic original i un petit toc de rail, molt baixos. El rumor desapareix abans de la primera frase; només queda la base musical molt suau sota la veu, sense competir amb les pistes del record.",
+      "A la pausa del canvi d’escena, un petit toc de rail evoca el trajecte i deixa pas a un full que es desplega per tornar al present. Els efectes s’acaben abans de la frase de la nota. La música continua baixa i neutral, sense anticipar el contingut de la bossa ni jutjar el pare.",
+      "Després de l’última paraula, deixar un marge, pujar la música suaument i fer-ne la fosa de tancament fins al silenci. No llegir cap frase addicional de la nota ni donar per certa la interpretació que en Ferran presenta com a possibilitat."
     ],
     "plannedNewRequests": 1,
     "requiredVoices": {
       "Ferran": "Algenib"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Confirmació explícita del docent el 20/11/2026: S022 correcte i autoritzat, amb base musical pròpia diferent de les altres narracions i registrada amb origen i llicència.",
+    "musicRecipe": "tools/s022-music.cjs",
+    "musicTrackId": "sentit-tramvia-records-v1"
   },
   "S024": {
     "status": "awaiting-validation",

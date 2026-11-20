@@ -1,5 +1,13 @@
 # Canvis
 
+## 0.1.34 · 20 de novembre de 2026
+
+- S010: comiat de Biel substituït literalment per la proposta docent, revisió independent i validació condicionada registrada. Títol i diàleg produïts en una petició; passos locals i fragment de 99,48 s. Àudio pendent d’audició.
+- S018 i S022: guions validats, una petició completa cadascuna i muntatges amb les bases originals diferents «Records guardats» i «Rails de memòria». Música molt baixa sota la veu, fosa d’entrada i pujada amb fosa després del relat; efectes discrets a les pauses. Fragments de 177,38 s i 176,195 s. Muntatges pendents d’escolta docent.
+- Catàleg de músiques amb títol, autor, llicència MIT, recepta i activitats usuàries. Procedència visible a les fonts de cada activitat. Documentades les connexions entre històries, personatges i programes, sense imposar ordre de lectura.
+- S017: escena d’aula amb Mireia, Laia i Biel, preguntes avançades, propostes i respostes entre companys. Dues peticions previstes per a les tres veus. Revisió independent superada; falta validació docent, sense síntesi.
+- La pauta editorial incorpora la revisió dels tancaments moralitzants impropis de la veu i l’edat del personatge. Seguiment de fases i documentació actualitzats.
+
 ## 0.1.33 · 20 de novembre de 2026
 
 - S023: la Mar presenta en Pau, el saluda i li pregunta directament per la tornada al mercat. En Pau confirma i retorna la salutació abans del testimoni; tots dos s’agraeixen la conversa i s’acomiaden abans de la síntesi informativa.

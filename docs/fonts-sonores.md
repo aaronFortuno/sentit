@@ -31,6 +31,9 @@ Les veus són síntesi de [Gemini TTS, de Google](https://ai.google.dev/gemini-a
 | ca-S001 · El senyal de la ràdio | Laia: Leda; Biel: Puck. Presentació: Aoede. | Tocs, silencis significatius i quatre notes de sortida originals, generats amb FFmpeg. |
 | ca-S002 · Preparem una capsa de records | Una mestra: Aoede; presentació: Aoede. | Muntatge amb separació entre els blocs de passos. No hi ha enregistraments externs. |
 | ca-S003 · El paraigua intercanviat | Laia i presentació: Leda; Biel: Puck. Una petició, amb rialles breus sol·licitades dins la mateixa presa. | Passos de passadís i sortida, fregadís de bossa originals procedurals. Guió validat; àudio pendent d’audició. |
+| ca-S010 · La ruta fins al pavelló | Leda: Laia i presentació; Puck: Biel. Una petició. | Passos originals a l’arribada, la pausa del carreró i el comiat. Guió validat amb el canvi docent; àudio pendent d’audició. |
+| ca-S018 · La clau de l’armari verd | Aoede: narradora adulta i presentació. Aina i Ferran són personatges narrats, sense veu pròpia. Una petició. | Base original «Records guardats», clau, cartró i paper. Fosa d’entrada, música molt baixa sota la veu i pujada amb fosa de sortida. Àudio pendent d’audició. |
+| ca-S022 · L’últim trajecte del tramvia | Algenib: Ferran i presentació. Aina i el pare són personatges del record, sense torn de veu. Una petició. | Base original «Rails de memòria», tramvia, rail i paper procedurals. Fosa d’entrada, música molt baixa sota la veu i pujada amb fosa de sortida. Àudio pendent d’audició. |
 | ca-S013 · Com viatja una carta? | Mireia i presentació: Aoede. Una petició. | Paper inicial, transició de paper i dues notes de sortida originals procedurals. Guió validat; àudio pendent d’audició. |
 | ca-S008 · La foto que faltava | **Una única narradora: Aoede**, sense nom dins del relat. Aina i Ferran hi són esmentats, però no parlen amb veu pròpia. | Base instrumental original amb atenuació sota la veu, transició de paper procedural i marges de silenci. És una prova de remuntatge; encara no inclou una benvinguda o un comiat de programa. |
 | ca-S008R · La foto que faltava · Històries amb sentit | Una narradora: Aoede, també a la benvinguda i al comiat. Presentació reutilitzada de S008. | Separador original, base instrumental atenuada sota la veu, pas de pàgina i sortida musical. Produït; pendent d’audició docent. |
@@ -68,7 +71,7 @@ L’esborrany passa primer la [revisió independent de coherència](revisio-cohe
 
 Les escaletes i les aprovacions són a [production-plans.json](../content/production-plans.json). **S008R i S015 tenen la proposta validada i el muntatge produït amb una petició cadascuna. L’àudio continua pendent d’audició; S023 espera validar el guió i l’escaleta.**
 
-El material complet es pot revisar al [catàleg, amb el codi ca-S008R](https://sentit.ortogra.fi/#lectura=ca-S008R). El solucionari presenta tot el text parlat i les indicacions dels sons incorporats. La previsió i les preses originals queden conservades al registre de producció; el quadre «Talls per a Gemini» només es mostra a S023, encara pendent de proposta. S008, S008R i S015 mantenen «Àudio pendent de validar» al PDF i es poden imprimir per revisar. La impressió de S023 continua bloquejada.
+El material complet es pot revisar al [catàleg, amb el codi ca-S008R](https://sentit.ortogra.fi/#lectura=ca-S008R). El solucionari presenta tot el text parlat i les indicacions dels sons incorporats. La previsió i les preses originals queden conservades al registre de producció; el quadre «Talls per a Gemini» es mostra a les propostes encara pendents. Els muntatges produïts mantenen «Àudio pendent de validar» al PDF i es poden imprimir per revisar. La impressió de S023 continua bloquejada.
 
 ### Escaleta de ràdio de S008R, validada
 
@@ -94,7 +97,7 @@ La parella és **pendent de validació separada** i encara no s’ha incorporat 
 
 ### Escenes d’aula amb tres veus
 
-S007 i S011 proposen Mireia/Aoede, Laia/Leda i Biel/Puck. Cada peça preveu dues peticions, ja que [Gemini TTS admet dues veus per petició](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/text-to-speech/overview#multi-speaker-tts): una amb títol i torns de la mestra i una amb els dels alumnes, amb pauses llargues entre intervencions. El muntatge haurà d’intercalar les preses en l’ordre del guió dins silencis comprovats, sense retallar fonemes. El planificador permet inspeccionar els dos paquets; el productor d’una sola presa els rebutja expressament. Abans de produir-les cal la validació docent i preparar l’execució agrupada, sense fer crides per cada frase.
+S007, S011 i S017 proposen Mireia/Aoede, Laia/Leda i Biel/Puck. Cada peça preveu dues peticions, ja que [Gemini TTS admet dues veus per petició](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/text-to-speech/overview#multi-speaker-tts): una amb títol i torns de la mestra i una amb els dels alumnes, amb pauses llargues entre intervencions. El muntatge haurà d’intercalar les preses en l’ordre del guió dins silencis comprovats, sense retallar fonemes. El planificador permet inspeccionar els dos paquets; el productor d’una sola presa els rebutja expressament. Abans de produir-les cal la validació docent i preparar l’execució agrupada, sense fer crides per cada frase.
 
 ### Produccions S003 i S013
 
@@ -103,3 +106,10 @@ El docent n’ha autoritzat explícitament la producció el 20/11/2026. [Recepta
 La rialla de S003 es demana amb dos `<chuckle>` i una reacció entre barres dins el mateix torn, segons la [guia oficial de Gemini TTS](https://docs.cloud.google.com/gemini-enterprise-agent-platform/models/text-to-speech/prompting-guide). No es llegeix «ha, ha» ni l’acotació; el resultat efectiu i la seva naturalitat requereixen l’audició docent. S019 proposa el mateix sistema de reacció simultània per a «Sí, sí», una sola vegada; no està autoritzada ni sintetitzada.
 
 El selector de ritme va de ×0,80 a ×1,20 en passos de 0,05, amb conservació del to mitjançant el reproductor natiu del navegador. Només afecta el títol i el fragment; la sintonia, les instruccions enregistrades i els temporitzadors conserven la durada pròpia. `ritme=0.85` i `jingle=0` permeten fixar aquestes opcions a l’enllaç i al QR. Sense aquests paràmetres s’aplica ×1,00 i sintonia activa. Les pistes separades de presentació i cos acaben naturalment, sense tallar-les amb un temporitzador.
+
+
+### Produccions S010, S018 i S022
+
+Guions i escaletes validats pel docent el 20/11/2026. Una petició completa per peça, amb títol separat localment dins un silenci comprovat. Fragments de 99,48 s, 177,38 s i 176,195 s, respectivament. Preses crues conservades, sense retallar fonemes ni modificar el ritme. Manifests amb empremtes i nivells: [S010](../assets/audio/s010-production-manifest.json), [S018](../assets/audio/s018-production-manifest.json) i [S022](../assets/audio/s022-production-manifest.json). Els muntatges continuen pendents d’audició docent.
+
+Les bases de S018 i S022 són composicions originals diferents, sota MIT, sense mostres externes. El [registre de músiques](musiques.md) identifica títol, autor, llicència, recepta i usos; els manifests mesuren el balanç amb la veu i els marges de les foses. Les bases de narració no són les sintonies recurrents d’un programa. Les connexions entre històries i programes consten a [l’univers editorial](univers-editorial.md).

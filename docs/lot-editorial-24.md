@@ -2,7 +2,7 @@
 
 20 de novembre de 2026 · 19 propostes base noves · 138 preguntes · variant dialogada S004D per comparar.
 
-S’hi afegeix S023, que ja estava preparada. S003 i S013 ja tenen el guió validat i el muntatge pendent d’audició. S020 té autoritzades les veus; la sintonia comuna es valida per separat. Les altres propostes i S004D esperen validació docent. S001, S002, S008 i S015 conserven els seus materials; S008R és una revisió addicional de S008. [Seguiment de totes les fases](seguiment-produccio.md).
+S’hi afegeix S023, que ja estava preparada. S003, S010, S013, S018 i S022 ja tenen el guió validat i el muntatge pendent d’audició. S020 té autoritzades les veus; la sintonia comuna es valida per separat. Les altres propostes i S004D esperen validació docent. S001, S002, S008 i S015 conserven els seus materials; S008R és una revisió addicional de S008. [Seguiment de totes les fases](seguiment-produccio.md).
 
 ## Revisió al web
 
@@ -16,7 +16,13 @@ S003 incorpora la trobada durant el canvi de classe, l’aclariment sobre el par
 
 S023 incorpora una conversa directa entre la Mar i en Pau, amb salutació, pregunta, agraïment i comiat mutu abans de reprendre la síntesi informativa. Es mantenen les deu preguntes i la distinció entre dades confirmades, expectatives i propostes. El guió revisat té 585 mots i espera validació docent; no s’ha sintetitzat.
 
+S017 és ara una escena d’aula amb preguntes i aportacions de Laia i Biel. Manté vuit preguntes i exigeix escoltar també els companys. Preveu dues peticions per a les tres veus; revisió independent superada i validació docent pendent.
+
+S010 incorpora el comiat proposat pel docent i validat en aplicar-lo. S018 i S022 mantenen els guions validats i tenen bases originals diferents, molt suaus sota la parla. [Músiques i llicències](musiques.md) · [Connexions entre històries](univers-editorial.md).
+
 ## Índex de les propostes noves
+
+Les durades de l’índex són previsions editorials; les durades reals produïdes consten al [seguiment de fases](seguiment-produccio.md). S010 dura 99,48 s, S018 177,38 s i S022 176,195 s, sense la presentació. No s’ha alterat la velocitat per assolir les previsions.
 
 Les durades són intervals orientatius derivats del nombre de mots, un ritme natural segons el curs i els marges sonors. No són durades d’àudios que ja existeixin ni inclouen les pauses de lectura de la sessió. Els objectius de durada del pla inicial no obliguen a allargar digitalment la veu.
 
@@ -35,7 +41,7 @@ Les durades són intervals orientatius derivats del nombre de mots, un ritme nat
 | Codi i títol | Dificultat | Mots | Preguntes | Durada prevista |
 | --- | --- | ---: | ---: | --- |
 | [S009 · La biblioteca canvia d’horari](https://sentit.ortogra.fi/#lectura=ca-S009) | Accessible | 277 | 6 | 1:50–2:15 |
-| [S010 · La ruta fins al pavelló](https://sentit.ortogra.fi/#lectura=ca-S010) | Intermèdia | 320 | 7 | 2:05–2:35 |
+| [S010 · La ruta fins al pavelló](https://sentit.ortogra.fi/#lectura=ca-S010) | Intermèdia | 319 | 7 | 2:05–2:35 |
 | [S011 · Una menjadora per als ocells](https://sentit.ortogra.fi/#lectura=ca-S011) | Intermèdia | 318 | 7 | 2:05–2:35 |
 | [S012 · Qui arregla els instruments?](https://sentit.ortogra.fi/#lectura=ca-S012) | Avançada | 349 | 7 | 2:15–2:50 |
 | [S013 · Com viatja una carta?](https://sentit.ortogra.fi/#lectura=ca-S013) | Avançada | 380 | 7 | 2:30–3:00 |
@@ -46,7 +52,7 @@ Les durades són intervals orientatius derivats del nombre de mots, un ritme nat
 | --- | --- | ---: | ---: | --- |
 | [S014 · Què passa dins d’una llavor?](https://sentit.ortogra.fi/#lectura=ca-S014) | Accessible | 374 | 7 | 2:20–2:55 |
 | [S016 · Una troballa al jaciment](https://sentit.ortogra.fi/#lectura=ca-S016) | Intermèdia | 396 | 8 | 2:30–3:00 |
-| [S017 · Preparem una exposició itinerant](https://sentit.ortogra.fi/#lectura=ca-S017) | Avançada | 457 | 8 | 2:55–3:30 |
+| [S017 · Preparem una exposició itinerant](https://sentit.ortogra.fi/#lectura=ca-S017) | Avançada | 423 | 8 | 2:40–3:15 |
 | [S018 · La clau de l’armari verd](https://sentit.ortogra.fi/#lectura=ca-S018) | Avançada | 502 | 8 | 3:10–3:50 |
 
 ### 6è

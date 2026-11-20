@@ -1,6 +1,7 @@
 export const strings = {
   ca: {
     language: 'ca',
+    releaseNarrationMusic: 'S010 incorpora el comiat validat i ja té àudio. S018 i S022 produïdes amb dues bases originals diferents, molt suaus sota la veu, i efectes locals. Els tres muntatges esperen audició. S017 passa a una escena d’aula amb intervencions dels alumnes, pendent de validar. Nous registres de músiques i connexions entre històries.',
     releaseRadioAnalytics: 'Àudio del programa S008R produït amb una sola petició i presentació reutilitzada. Nova escaleta de S015 amb un únic paquet i tall local. Estadístiques amb Umami propi, bandera d’errors i controls de privadesa a V4V.',
     audioReview: 'Àudio pendent de validar',
     catalogLoaded: (shown, total) => `${shown} de ${total} comprensions carregades.`,
@@ -32,6 +33,7 @@ export const strings = {
     releaseReviewFirst: 'Les propostes pendents de validar s’obren al solucionari, amb el guió i l’escaleta abans de les preguntes.',
     releaseFullDraftCatalogue: 'Catàleg base de 24 peces complet en fase de guió, més la revisió S008R: 19 propostes noves amb escaleta, repartiment, preguntes i solucionari. Cap síntesi nova. Nova tipologia Explicació, filtres de personatges ampliats i seguiment per fases amb totes les peces.',
     releaseDateBatch: '20 de novembre de 2026',
+    resourceMusic: 'Base musical', musicRecipe: 'Composició i muntatge', musicRegister: 'Registre de músiques i usos',
     releaseS023Greeting: 'S023 incorpora salutació i pregunta directa de la Mar a en Pau, resposta amb salutació i comiat mutu abans de la síntesi. Les deu preguntes es conserven. Escaleta i petició completa ajustades; encara pendent de validació docent i sense síntesi nova.',
     releaseS003Revision: 'S003 revisada: trobada durant el canvi de classe, dubte sobre el paraigua aclarit i comiat amb agraïment i rialla compartida. Última pregunta i escaleta ajustades. Continua pendent de validar, sense síntesi nova.',
     releaseEditorialReview: 'Revisió adversària independent de les 20 propostes pendents, amb preguntes, solucionari i escaleta. S011 i S020 ajustades i revalidades. «Provisional» indica revisió superada per a la versió exacta i validació docent pendent. Pauta reutilitzable per Sentit i Trama. Cap síntesi nova.',
@@ -185,6 +187,7 @@ export const strings = {
   },
   es: {
     language: 'es',
+    releaseNarrationMusic: 'S010 incorpora la despedida validada y ya tiene audio. S018 y S022 producidas con dos bases originales diferentes, muy suaves bajo la voz, y efectos locales. Los tres montajes esperan audición. S017 pasa a una escena de aula con intervenciones del alumnado, pendiente de validar. Nuevos registros de músicas y conexiones entre historias.',
     releaseRadioAnalytics: 'Audio del programa S008R producido con una sola petición y presentación reutilizada. Nueva escaleta de S015 con un único paquete y corte local. Estadísticas con Umami propio, bandera de errores y controles de privacidad en V4V.',
     audioReview: 'Audio pendiente de validar',
     catalogLoaded: (shown, total) => `${shown} de ${total} comprensiones cargadas.`,
@@ -216,6 +219,7 @@ export const strings = {
     releaseReviewFirst: 'Las propuestas pendientes de validar se abren en el solucionario, con el guion y la escaleta antes de las preguntas.',
     releaseFullDraftCatalogue: 'Catálogo base de 24 piezas completo en fase de guion, más la revisión S008R: 19 propuestas nuevas con escaleta, reparto, preguntas y solucionario. Ninguna síntesis nueva. Nuevo tipo Explicación, filtros de personajes ampliados y seguimiento por fases de todas las piezas.',
     releaseDateBatch: '20 de noviembre de 2026',
+    resourceMusic: 'Base musical', musicRecipe: 'Composición y montaje', musicRegister: 'Registro de músicas y usos',
     releaseS023Greeting: 'S023 incorpora saludo y pregunta directa de Mar a Pau, respuesta con saludo y despedida mutua antes de la síntesis. Se conservan las diez preguntas. Escaleta y petición completa ajustadas; todavía pendiente de validación docente y sin nueva síntesis.',
     releaseS003Revision: 'S003 revisada: encuentro durante el cambio de clase, duda sobre el paraguas aclarada y despedida con agradecimiento y risa compartida. Última pregunta y escaleta ajustadas. Sigue pendiente de validar, sin síntesis nueva.',
     releaseEditorialReview: 'Revisión adversaria independiente de las 20 propuestas pendientes, con preguntas, solucionario y escaleta. S011 y S020 ajustadas y revalidadas. «Provisional» indica revisión superada para la versión exacta y validación docente pendiente. Pauta reutilizable para Sentit y Trama. Ninguna síntesis nueva.',

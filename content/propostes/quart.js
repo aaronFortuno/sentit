@@ -30,6 +30,9 @@ export const quart = [
   }),
   proposal({
     id: 'la-ruta-fins-al-pavello', code: 'S010', title: 'La ruta fins al pavelló', grade: '4', level: 'middle', genre: 'dialogue',
+    seconds: 104, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s010-pavello-v1.mp3', tracks: { introduction: './assets/audio/s010-pavello-v1-intro.mp3', body: './assets/audio/s010-pavello-v1-cos.mp3' },
+    fragment: { start: 4.03, seconds: 99 },
     summary: 'La Laia i en Biel rectifiquen un recorregut i separen un pas útil d’una drecera que no ho és.',
     voices: { Laia: 'Leda', Biel: 'Puck' }, delivery: 'Dos joves preparant un trajecte per a una activitat. Rectificacions naturals, sense recitar un mapa ni afegir veus de nens petits.',
     editorialFocus: '4t intermèdia: actualitzar un pla, retenir fites rellevants i justificar una alternativa. No cal dibuixar un mapa exacte ni conèixer el barri.',
@@ -47,7 +50,7 @@ export const quart = [
       s('drecera', 'Laia', 'He vist un carreró que surt just abans de la farmàcia. Al dibuix sembla més curt. I si hi passem?'),
       s('escales', 'Biel', 'Al final hi ha escales. Portarem un carretó amb els materials del taller i no hi podrà baixar bé. El recorregut del pas de vianants és una mica més llarg, però es pot fer tot sense esglaons.'),
       s('resum', 'Laia', 'Ara ho veig. Canviaré el full perquè ningú no segueixi el recorregut antic. Hi marcaré la farmàcia i la porta lateral, i avisaré que no hem d’agafar el carreró de les escales.'),
-      s('final', 'Biel', 'I sortirem una mica abans per anar tranquils. Conèixer un camí ajuda; comprovar que encara es pot fer, també.'),
+      s('final', 'Biel', 'Sí, i sortirem una mica abans per anar tranquils. Conèixer el camí ajuda, però comprovar-ho és encara millor!'),
       d('Dues passes que s’allunyen després de la veu i 600 ms de silenci. Sense música als girs.'),
     ],
     questions: [

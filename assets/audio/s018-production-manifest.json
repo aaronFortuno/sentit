@@ -1,0 +1,162 @@
+{
+  "code": "S018",
+  "activity": "ca-S018",
+  "date": "2026-11-20T08:44:27.693Z",
+  "state": "awaiting-audio-validation",
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "Narradora": "Aoede"
+  },
+  "newSynthesisRequests": 1,
+  "approvalFingerprint": "d976bbffffd1efd8c5d0563523d24a2a3015fe8578bfb38d6b1638843d49fa4f",
+  "requestHash": "8545301057732da3d580886a049a57c3d0b9d67a2687607c347ba098a834059f",
+  "rawSha256": "fa71126c861f74f4a63c6b5c8dcba118dab15d14160aec8a63a410ed7842d15c",
+  "usage": {
+    "total_tokens": 5180,
+    "total_input_tokens": 843,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 843
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 4337,
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 4337
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 0,
+    "initial_input_tokens": 843
+  },
+  "rawDuration": 173.48,
+  "cut": {
+    "at": 4.8,
+    "previousWordEnd": 3.96,
+    "nextWordStart": 5.64,
+    "peakDbFS": -62.7,
+    "rawSamplesPreserved": true
+  },
+  "file": "s018-armari-verd-v1.mp3",
+  "introFile": "s018-armari-verd-v1-intro.mp3",
+  "bodyFile": "s018-armari-verd-v1-cos.mp3",
+  "offset": 5.35,
+  "bodyDuration": 177.38,
+  "fullDuration": 182.73,
+  "lufs": -19.3,
+  "peakDbTP": -2.7,
+  "voice": {
+    "bodyLead": 2.7,
+    "bodyRawDuration": 168.67999999999998,
+    "untrimmedApartFromSilenceSplit": true,
+    "retimed": false
+  },
+  "effects": [
+    {
+      "name": "gentle-narration-bed",
+      "start": 0,
+      "end": 176.78,
+      "origin": "original-procedural",
+      "timelineDuration": 177.38,
+      "author": "Sentit",
+      "license": "MIT",
+      "source": "tools/s018-music.cjs",
+      "rawFile": "s018-music-original-cru.wav",
+      "normalizedFile": "s018-music-base-normalized.wav",
+      "renderedFile": "s018-music-envelope.wav",
+      "sampleRate": 48000,
+      "channels": 1,
+      "noSpeech": true,
+      "externalSamples": false,
+      "apiRequests": 0,
+      "normalizedBaseLufs": -27,
+      "renderedLufs": -41.02,
+      "truePeakDbtp": -14.72,
+      "envelope": {
+        "fadeIn": {
+          "start": 0,
+          "end": 0.8,
+          "targetGain": 0.7
+        },
+        "duckBeforeSpeech": {
+          "start": 1.87,
+          "end": 2.52,
+          "safetyBeforeLead": 0.18
+        },
+        "speech": {
+          "start": 2.52,
+          "end": 171.5,
+          "gain": 0.14,
+          "gainDb": -17.077439,
+          "nominalLufs": -44.077439
+        },
+        "riseAfterSpeech": {
+          "start": 171.5,
+          "end": 172.22,
+          "safetyAfterVoiceEnd": 0.12,
+          "targetGain": 0.7
+        },
+        "fadeOut": {
+          "start": 175.48,
+          "end": 176.78
+        },
+        "silentTail": 0.6,
+        "curve": "smoothstep"
+      },
+      "recipe": {
+        "key": "Do major",
+        "tempoBpm": 72,
+        "chordSeconds": 6.666667,
+        "harmony": "Dotze disposicions de C6/add9, F6/add9, C/E i G6/add9, amb transicions llargues. Sense gir dramàtic ni música de suspens.",
+        "instruments": [
+          "Piano suau espaiat",
+          "Pad harmònic molt discret",
+          "Un toc de percussió afinada de fusta cada tres canvis d’acord"
+        ],
+        "synthesis": "Taules sinusoidals harmòniques deterministes a 48 kHz mono; envolvents d’atac lent i decaïment, dues reflexions curtes, filtre 65–4200 Hz i normalització en dues passades.",
+        "variation": "Dotze frases amb espais i registres variats en cicles posteriors; cap bucle d’àudio ni motiu curt de quatre notes repetit.",
+        "cadence": "Arribada discreta a C6 després de la veu; cap canvi musical lligat a Aina, Ferran o una pista del relat.",
+        "chords": 26,
+        "pianoNotes": 65,
+        "woodenNotes": 8
+      },
+      "sha256": "24a79678d5a85938894b846e80063de42d58251a12495c14cc3e21c244391bfa",
+      "rawSha256": "8d13f9bf39b344fc241a75055fe00551e690d219b8df075dc0b97368d95c55e5",
+      "normalizedSha256": "3a2df36c2175ea48afd6273fd76ed7dbea6ed5576c4a32a3f25ac1d0a376eafe",
+      "decodeVerified": true,
+      "listeningValidation": "pending",
+      "speechWindowMusicLufs": -44.1,
+      "speechWindowVoiceLufs": -18.8,
+      "speechWindowMarginDb": 25.3
+    },
+    {
+      "name": "small-key",
+      "start": 1.7,
+      "end": 2.02,
+      "origin": "original-procedural"
+    },
+    {
+      "name": "cardboard-transition",
+      "start": 60.61,
+      "end": 61.06,
+      "origin": "original-procedural"
+    },
+    {
+      "name": "folder-paper",
+      "start": 83.62,
+      "end": 84.07000000000001,
+      "origin": "original-procedural"
+    }
+  ],
+  "sha256": "3e31510ff19626f43fd0b20cccf6a9b9b2ebb38ae4ae175ae399115d535bc2e7",
+  "musicTrack": {
+    "id": "sentit-records-guardats-v1",
+    "title": "Records guardats",
+    "author": "Sentit",
+    "license": "MIT",
+    "source": "tools/s018-music.cjs"
+  }
+}
