@@ -99,8 +99,8 @@ export const editorialReviews = {
   "ca-S020": {
     "status": "passed",
     "reviewedAt": "2026-11-20",
-    "reviewer": "revisor-coherencia-independent",
-    "fingerprint": "eb9b36f96b1dbab39a7797825bf34672ac82590e30cfaa1b151abd686ac4b45a"
+    "reviewer": "revisor_coherencia",
+    "fingerprint": "faad25de0b3c3fd17d6e552ab5bb2194358c68019eb6348fc70b5af2ab7c6d3c"
   },
   "ca-S021": {
     "status": "passed",

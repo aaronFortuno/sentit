@@ -13,7 +13,7 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S004D](https://sentit.ortogra.fi/#lectura=ca-S004D) | El botó de la jaqueta · versió dialogada | 3r | Revisió superada · publicació definitiva | 2026-11-20 | `1be7f144c88e…` |
 | [ca-S005](https://sentit.ortogra.fi/#lectura=ca-S005) | La feina d’una cartera | 3r | Revisió superada · àudio pendent | 2026-11-20 | `96370e0e0c82…` |
 | [ca-S006](https://sentit.ortogra.fi/#lectura=ca-S006) | S’obre un nou camí al parc | 3r | Revisió superada · guió validat | 2026-11-20 | `629dbd8f7a80…` |
-| [ca-S007](https://sentit.ortogra.fi/#lectura=ca-S007) | On va l’aigua del bassal? | 3r | Provisional · revisió superada | 2026-11-20 | `d5d256839f99…` |
+| [ca-S007](https://sentit.ortogra.fi/#lectura=ca-S007) | On va l’aigua del bassal? | 3r | Revisió superada · guió validat | 2026-11-20 | `d5d256839f99…` |
 | [ca-S008](https://sentit.ortogra.fi/#lectura=ca-S008) | La foto que faltava | 4t | Revisió superada · publicació definitiva | 2026-11-20 | `3ce87617ce96…` |
 | [ca-S008R](https://sentit.ortogra.fi/#lectura=ca-S008R) | La foto que faltava · Històries amb sentit | 4t | Revisió superada · publicació definitiva | 2026-11-20 | `a2792c44d38a…` |
 | [ca-S009](https://sentit.ortogra.fi/#lectura=ca-S009) | La biblioteca canvia d’horari | 4t | Provisional · revisió superada | 2026-11-20 | `38014b8e7bff…` |
@@ -26,11 +26,11 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S017](https://sentit.ortogra.fi/#lectura=ca-S017) | Preparem una exposició itinerant | 5è | Provisional · revisió superada | 2026-11-20 | `fe3ce6ee3d53…` |
 | [ca-S018](https://sentit.ortogra.fi/#lectura=ca-S018) | La clau de l’armari verd | 5è | Revisió superada · publicació definitiva | 2026-11-20 | `3600ec0b646c…` |
 | [ca-S019](https://sentit.ortogra.fi/#lectura=ca-S019) | Una cuinera contra el malbaratament | 6è | Revisió superada · publicació definitiva | 2026-11-20 | `a0a3b10ae330…` |
-| [ca-S020](https://sentit.ortogra.fi/#lectura=ca-S020) | Com participar en el concurs de pòdcasts | 6è | Revisió superada · àudio pendent | 2026-11-20 | `eb9b36f96b1d…` |
+| [ca-S020](https://sentit.ortogra.fi/#lectura=ca-S020) | Com participar en el concurs de pòdcasts | 6è | Revisió superada · publicació definitiva | 2026-11-20 | `faad25de0b3c…` |
 | [ca-S021](https://sentit.ortogra.fi/#lectura=ca-S021) | Per què una ciutat guarda la calor? | 6è | Revisió superada · guió validat | 2026-11-20 | `b74a57783cdc…` |
 | [ca-S022](https://sentit.ortogra.fi/#lectura=ca-S022) | L’últim trajecte del tramvia | 6è | Revisió superada · àudio pendent | 2026-11-20 | `906d139200b1…` |
 | [ca-S023](https://sentit.ortogra.fi/#lectura=ca-S023) | Reobren el mercat: què canvia i què falta decidir? | 6è | Revisió superada · àudio pendent | 2026-11-20 | `ded73b9e3639…` |
-| [ca-S024](https://sentit.ortogra.fi/#lectura=ca-S024) | Tres maneres de transformar el pati | 6è | Provisional · revisió superada | 2026-11-20 | `18db36638b5c…` |
+| [ca-S024](https://sentit.ortogra.fi/#lectura=ca-S024) | Tres maneres de transformar el pati | 6è | Revisió superada · guió validat | 2026-11-20 | `18db36638b5c…` |
 
 Les empremtes completes i el revisor consten al [registre de revisions](../content/editorial-reviews.js). La marca provisional només apareix al web si l’empremta coincideix amb el contingut actual. Canviar el guió, les preguntes, les respostes, les pistes, el repartiment o l’escaleta invalida la revisió anterior. Les comprovacions detecten registres caducats abans de publicar.
 

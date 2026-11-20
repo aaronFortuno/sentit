@@ -9,8 +9,8 @@ La validació de l’àudio és l’últim pas docent. Abans de donar una compre
 5. **Comprovació local.** Obrir card, fitxa i solucionari; comprovar càrrega d’imatges, paginació, lectura i ressaltats. Verificar els MP3 i les seves empremtes. Si canvien metadades editorials, revisar-les de manera independent i registrar l’empremta nova sense atribuir una nova validació d’àudio al docent.
 6. **Seguiment i publicació.** Actualitzar registre de fases, manifests, crèdits i changelog. Pujar a `main` després de les comprovacions locals; la comprovació del desplegament remot la fa l’usuari.
 
-`node tools/check-publication-ui.cjs` exigeix una imatge local i transcripció només parlada per a cada activitat definitiva. Comprova també les sis incorporacions il·lustrades d’aquesta tanda al navegador, les cites, la paginació i la prova de sessió. El docent continua validant el resultat pedagògic i perceptiu.
+`node tools/check-publication-ui.cjs` exigeix una imatge local i transcripció només parlada per a cada activitat definitiva. Comprova també les set incorporacions il·lustrades d’aquesta tanda al navegador, les cites, la paginació i la prova de sessió. El docent continua validant el resultat pedagògic i perceptiu.
 
-Aplicat el 20/11/2026 a S003, S004, S004D, S012 i S018; també a S019 en retirar la identificació oral de la mostra de cuina. Les dues versions de S004 comparteixen una imatge perquè són la mateixa història. No s’han tornat a sintetitzar les veus.
+Aplicat el 20/11/2026 a S003, S004, S004D, S012 i S018; també a S019 en retirar la identificació oral de la mostra de cuina, i a S020 amb la confirmació definitiva del docent. Les dues versions de S004 comparteixen una imatge perquè són la mateixa història. No s’han tornat a sintetitzar les veus.
 
 La prova de sessió del sidebar utilitza el mateix reproductor que l’alumnat. Permet escoltar sintonia, presentació, locucions, fragment al ritme triat i repeticions. Saltar les esperes només modifica la prova local; no altera la configuració del QR.

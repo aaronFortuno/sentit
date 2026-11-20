@@ -44,10 +44,11 @@ export const sise = [
   }),
   proposal({
     id: 'com-participar-en-el-concurs-de-podcasts', code: 'S020', title: 'Com participar en el concurs de pòdcasts', grade: '6', level: 'easy', genre: 'instructions',
-    seconds: 128, status: 'ready-for-review', reviewStatus: 'audio-review',
+    seconds: 128, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s020-podcasts-v1.mp3', tracks: { introduction: './assets/audio/s020-podcasts-v1-intro.mp3', body: './assets/audio/s020-podcasts-v1-cos.mp3' },
     fragment: { start: 4.56, seconds: 123 },
     summary: 'La Mireia presenta les bases d’un concurs fictici, amb un termini, una entrega i una comprovació final.',
+    image: { src: './assets/images/com-participar-en-el-concurs-de-podcasts-v1.webp', alt: 'La Mireia presenta una activitat en un petit estudi escolar, al costat d’un micròfon i un full sense text.', width: 1536, height: 1024 },
     voices: { Mireia: 'Aoede' }, delivery: 'Adulta que explica unes bases al grup, amb ordre clar i pauses. No utilitzar un to publicitari ni llegir llistes de números inexistents.',
     editorialFocus: '6è accessible: requisits explícits, finalitat de cada dada i aplicació d’una condició simple. No cal fer càlculs ni tenir experiència produint pòdcasts.',
     soundPlan: 'Sintonia «Petita descoberta», aprovada: obertura de 3,8 s i tancament de 3,4 s, separats de la veu. Un clic d’interruptor local abans de la comprovació tècnica, mai sobre el termini o les durades.',

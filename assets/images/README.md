@@ -10,6 +10,8 @@ Generades amb l’eina integrada `image_gen`, amb les fitxes dels personatges co
 - S018: [La clau de l’armari verd](la-clau-de-l-armari-verd-v1.webp), Aina i Ferran al costat de l’armari tancat; sense clau ni contingut privat.
 - S019: [Una cuinera que no vol llençar menjar](una-cuinera-que-no-vol-llencar-menjar-v1.webp), Laia i Ona conversant a la cuina; sense menús, quantitats ni solucions.
 
+- S020: [Com participar en el concurs de pòdcasts](com-participar-en-el-concurs-de-podcasts-v1.webp), Mireia a l’estudi escolar, sense bases ni dades de l’activitat visibles. [Prompt exacte i model](s020-publication-v1.prompt.json). Generació integrada image_gen, 1536 × 1024, WebP qualitat 88.
+
 Les imatges es comparteixen entre card, fitxa i solucionari. [Comprovació obligatòria de tancament](../../docs/tancament-publicacio.md).
 
 Generades per a Sentit el 18 de novembre de 2026 amb l’eina integrada `image_gen`, sense API ni claus addicionals. Fitxers WebP de 1536 × 1024 píxels, convertits dels PNG originals amb qualitat 88 i sense canviar-ne la composició ni la mida.

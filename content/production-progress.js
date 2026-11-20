@@ -1,7 +1,7 @@
 // Production stages are separate from editorial review and final listening approval.
 export const productionProgress = {
   "ca-S020": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "receivedAt": "2026-11-20T07:50:26.951Z",
     "rawSha256": "015b9300b6d93417c143a5acd87cb3bff35607ec2b02dd170214454a28ab14b9",
     "newSynthesisRequests": 1,
@@ -31,13 +31,23 @@ export const productionProgress = {
       "status": "catalogue-approved",
       "url": "./proves/sintonies-mireia.html",
       "approvedAt": "2026-11-20",
-      "note": "Les quatre parelles estan validades com a recursos. Muntatge de S020 encara pendent; sense aprovació del màster.",
+      "note": "Petita descoberta i muntatge complet de S020 validats pel docent el 20/11/2026.",
       "selected": "petita-descoberta"
     },
-    "editorialFingerprint": "eb9b36f96b1dbab39a7797825bf34672ac82590e30cfaa1b151abd686ac4b45a",
+    "editorialFingerprint": "faad25de0b3c3fd17d6e552ab5bb2194358c68019eb6348fc70b5af2ab7c6d3c",
     "montageNewSynthesisRequests": 0,
-    "listeningApproval": false,
-    "teacherAssessment": "Veus rebudes conservades, obertura i tancament Petita descoberta aprovats com a recurs; muntatge complet pendent d’audició docent."
+    "listeningApproval": true,
+    "teacherAssessment": "Guió, veus i muntatge validats pel docent. Màster v1 conservat amb Petita descoberta, sense nova síntesi.",
+    "validatedAt": "2026-11-20",
+    "validatedBy": "docent",
+    "confirmation": "S020 llest per publicació definitiva",
+    "audioSha256": "e31909e699b9eda3ebd68850ae928b65f8827183ee334803291ed8b05b1ad78b",
+    "publicationMaterials": {
+      "illustration": "./assets/images/com-participar-en-el-concurs-de-podcasts-v1.webp",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-20",
+      "audioChanged": false
+    }
   },
   "ca-S011": {
     "state": "ready-for-voices",
@@ -353,5 +363,33 @@ export const productionProgress = {
     "repairPlan": "content/audio-repairs.json",
     "jingleStatus": "approved-pair-remounted-pending-listening",
     "editorialFingerprint": "ded73b9e363961f5bd81ba22686b8d31f05cd5806249aa91e2771005718be2a2"
+  },
+  "ca-S007": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-20T21:20:16.430Z",
+    "editorialFingerprint": "d5d256839f998b098ac3c8f0f2ddac475bc6f47e8f6ccfebac8e6c04e5c3685f",
+    "plannedNewRequests": 2,
+    "confirmation": "S007 es pot pujar a síntesi de veus, guió validat.",
+    "reason": "Guió validat; dues preses agrupades, amb pauses per intercalar les tres veus en local. Cap síntesi nova el dia 20: deu peticions consumides.",
+    "quotaHold": {
+      "day": "2026-11-20",
+      "countedRequests": 10,
+      "dailyLimit": 10,
+      "notBefore": "2026-11-21T08:00:00.000Z"
+    }
+  },
+  "ca-S024": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-20T21:21:39.843Z",
+    "editorialFingerprint": "18db36638b5c5648682dd6910fa34234852d9d6ff13264f1cce035e3e0ae4678",
+    "plannedNewRequests": 1,
+    "confirmation": "S024 pot pujar a síntesi de veu, guió validat.",
+    "reason": "Guió validat; conversa de Laia i Biel preparada per agrupar amb les altres peces Puck/Leda. Cap síntesi nova el dia 20: deu peticions consumides.",
+    "quotaHold": {
+      "day": "2026-11-20",
+      "countedRequests": 10,
+      "dailyLimit": 10,
+      "notBefore": "2026-11-21T08:00:00.000Z"
+    }
   }
 };

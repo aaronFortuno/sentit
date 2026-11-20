@@ -1,5 +1,12 @@
 # Canvis
 
+## 0.1.52 · 20 de novembre de 2026
+
+- S020 publicada definitivament després de la validació docent. Màster v1 i presentació conservats, amb aprovació vinculada a les empremtes exactes. Nova il·lustració de Mireia a la card, fitxa i transcripció; solucionari net sense escaleta. Comprovació independent de la imatge i les cites.
+- S007 i S024: guions validats i autoritzats per produir veus. S007 conserva les tres veus en dues preses; S024 en necessita una. Aprovacions exactes registrades, amb aturada per les deu peticions consumides el 20/11 i sense nova síntesi.
+- Cua de lots actualitzada amb set preses noves i nou frases d’esmena en cinc peticions candidates, mantenint l’objectiu de sis a vuit minuts per lot. Payloads mixtos encara pendents d’implementar i congelar abans d’enviar; no s’ha programat cap execució.
+- Seguiment de producció, crèdits i comprovacions locals ajustats: S020 surt dels provisionals i S007/S024 passen a la fase de síntesi.
+
 ## 0.1.51 · 20 de novembre de 2026
 
 - Cards provisionals amb un indicador de sis fases: revisió de guió/escaleta, síntesi de veus, revisió de veus, esmenes de veu, revisió del muntatge i publicació. Número, color i segments acumulats, del vermell inicial al verd final, mantenint els avisos de revisió existents.
