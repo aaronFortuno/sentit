@@ -1,6 +1,6 @@
 # Revisió independent de coherència
 
-Actualitzat: **20/11/2026**. **21 de 21** propostes de la tanda tenen revisió independent superada per a la versió actual. Abast: 154 preguntes i 177 cites literals.
+Actualitzat: **20/11/2026**. **21 de 21** propostes de la tanda tenen revisió independent superada per a la versió actual. Abast: 154 preguntes i 184 cites literals.
 
 S’han revisat situacions, cronologia, circulació d’objectes, coneixement dels personatges, causes i desenllaços, acotacions sonores, preguntes, respostes i ancoratges. Les dades factuals sensibles s’han contrastat amb fonts primàries indicades al [dossier editorial](lot-editorial-24.md). La revisió del muntatge és sobre el guió; les veus i el resultat sonor requeriran audició.
 
@@ -15,18 +15,18 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S006](https://sentit.ortogra.fi/#lectura=ca-S006) | S’obre un nou camí al parc | 3r | Provisional · revisió superada | 2026-11-20 | `74f4d828020f…` |
 | [ca-S007](https://sentit.ortogra.fi/#lectura=ca-S007) | On va l’aigua del bassal? | 3r | Provisional · revisió superada | 2026-11-20 | `ff0df8ee1cb3…` |
 | [ca-S009](https://sentit.ortogra.fi/#lectura=ca-S009) | La biblioteca canvia d’horari | 4t | Provisional · revisió superada | 2026-11-20 | `decdaf2b40b1…` |
-| [ca-S010](https://sentit.ortogra.fi/#lectura=ca-S010) | La ruta fins al pavelló | 4t | Provisional · revisió superada | 2026-11-20 | `60c0f29475d3…` |
+| [ca-S010](https://sentit.ortogra.fi/#lectura=ca-S010) | La ruta fins al pavelló | 4t | Revisió superada · àudio pendent | 2026-11-20 | `6165a8097d6d…` |
 | [ca-S011](https://sentit.ortogra.fi/#lectura=ca-S011) | Una menjadora per als ocells | 4t | Provisional · revisió superada | 2026-11-20 | `0bb937038f26…` |
 | [ca-S012](https://sentit.ortogra.fi/#lectura=ca-S012) | Qui arregla els instruments? | 4t | Provisional · revisió superada | 2026-11-20 | `7f0136d3c10c…` |
 | [ca-S013](https://sentit.ortogra.fi/#lectura=ca-S013) | Com viatja una carta? | 4t | Revisió superada · àudio pendent | 2026-11-20 | `8f5083259cf9…` |
 | [ca-S014](https://sentit.ortogra.fi/#lectura=ca-S014) | Què passa dins d’una llavor? | 5è | Provisional · revisió superada | 2026-11-20 | `72c743dcccb0…` |
 | [ca-S016](https://sentit.ortogra.fi/#lectura=ca-S016) | Una troballa al jaciment | 5è | Provisional · revisió superada | 2026-11-20 | `95cc926b8db3…` |
-| [ca-S017](https://sentit.ortogra.fi/#lectura=ca-S017) | Preparem una exposició itinerant | 5è | Provisional · revisió superada | 2026-11-20 | `2e64dea1126a…` |
-| [ca-S018](https://sentit.ortogra.fi/#lectura=ca-S018) | La clau de l’armari verd | 5è | Provisional · revisió superada | 2026-11-20 | `49306a09de79…` |
+| [ca-S017](https://sentit.ortogra.fi/#lectura=ca-S017) | Preparem una exposició itinerant | 5è | Provisional · revisió superada | 2026-11-20 | `a4e6b935f265…` |
+| [ca-S018](https://sentit.ortogra.fi/#lectura=ca-S018) | La clau de l’armari verd | 5è | Revisió superada · àudio pendent | 2026-11-20 | `7f77f3bb9a63…` |
 | [ca-S019](https://sentit.ortogra.fi/#lectura=ca-S019) | Una cuinera contra el malbaratament | 6è | Provisional · revisió superada | 2026-11-20 | `40dc14e9da20…` |
 | [ca-S020](https://sentit.ortogra.fi/#lectura=ca-S020) | Com participar en el concurs de pòdcasts | 6è | Provisional · revisió superada | 2026-11-20 | `ecc4a9bf9db5…` |
 | [ca-S021](https://sentit.ortogra.fi/#lectura=ca-S021) | Per què una ciutat guarda la calor? | 6è | Provisional · revisió superada | 2026-11-20 | `2a83a397e642…` |
-| [ca-S022](https://sentit.ortogra.fi/#lectura=ca-S022) | L’últim trajecte del tramvia | 6è | Provisional · revisió superada | 2026-11-20 | `fa108816e651…` |
+| [ca-S022](https://sentit.ortogra.fi/#lectura=ca-S022) | L’últim trajecte del tramvia | 6è | Revisió superada · àudio pendent | 2026-11-20 | `821e4ccffd26…` |
 | [ca-S023](https://sentit.ortogra.fi/#lectura=ca-S023) | Reobren el mercat: què canvia i què falta decidir? | 6è | Provisional · revisió superada | 2026-11-20 | `5dc838ff8869…` |
 | [ca-S024](https://sentit.ortogra.fi/#lectura=ca-S024) | Tres maneres de transformar el pati | 6è | Provisional · revisió superada | 2026-11-20 | `ddf09b4a40e6…` |
 

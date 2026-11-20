@@ -6,7 +6,7 @@ const {productionSpec,packedProposalRequest}=require('./proposal-plan.cjs'),{ass
 const {findPhrase,normalize}=require('./render-radio.cjs');
 const root=path.resolve(__dirname,'..'),work=path.resolve(root,'../output/sentit-primera-tanda');
 const hash=data=>createHash('sha256').update(data).digest('hex');
-const recipes={S003:{file:'s003-paraigua-v1',source:'tercer',lead:2.25,tail:3.2},S013:{file:'s013-carta-v1',source:'quart',lead:1.1,tail:3.2}};
+const recipes={S003:{file:'s003-paraigua-v1',source:'tercer',lead:2.25,tail:3.2},S010:{file:'s010-pavello-v1',source:'quart',lead:2,tail:2},S013:{file:'s013-carta-v1',source:'quart',lead:1.1,tail:3.2},S018:{file:'s018-armari-verd-v1',source:'cinque',lead:2.7,tail:6},S022:{file:'s022-tramvia-v1',source:'sise',lead:2.7,tail:6}};
 async function main(){
  const code=process.argv.find(arg=>arg.startsWith('--only='))?.slice(7).toUpperCase().replace(/^CA-/,'');
  const recipe=recipes[code];if(!recipe)throw Error('No hi ha recepta de muntatge revisada per a aquest codi.');
@@ -30,20 +30,51 @@ async function main(){
  const intro=wav('title-master',['-i',normalized,'-af',`atrim=end=${cut},asetpts=PTS-STARTPTS,adelay=250:all=1,apad=pad_dur=0.3`]);
  const voice=wav('program-voice',['-i',normalized,'-af',`atrim=start=${cut},asetpts=PTS-STARTPTS,adelay=${Math.round(lead*1000)}:all=1,apad=pad_dur=${tail}`]);
  const effects=[],sources=[];
- const add=(file,name,start,end)=>{effects.push({name,start,end,origin:'original-procedural'});sources.push(file);};
+ const add=(file,name,start,end,details={})=>{effects.push({name,start,end,origin:'original-procedural',...details});sources.push(file);};
  const paper=(name,seconds,seed)=>wav(name,['-f','lavfi','-i',`anoisesrc=color=pink:amplitude=0.12:sample_rate=48000:duration=${seconds}:seed=${seed}`,'-af',`highpass=f=1100,lowpass=f=5800,volume=0.06,afade=t=in:d=0.025,afade=t=out:st=${Math.max(.03,seconds-.25)}:d=${Math.min(.25,seconds-.03)}`]);
  function transition(phrase,name,seed){const index=findPhrase(words,phrase),gap=words[index].start-words[index-1].end,seconds=Math.min(.45,gap-.16);if(seconds<.12)throw Error('No hi ha prou marge per a la transició de paper.');const start=lead+words[index].start-cut-.08-seconds;add(paper(name,seconds,seed),name,start,start+seconds);}
+ const footsteps=(name,seconds,seed,period)=>wav(name,['-f','lavfi','-i',`anoisesrc=color=brown:amplitude=0.12:sample_rate=48000:duration=${seconds}:seed=${seed}`,'-af',`highpass=f=65,lowpass=f=1250,volume='0.025+0.65*exp(-55*mod(t,${period}))':eval=frame,afade=t=in:d=0.04,afade=t=out:st=${Math.max(.04,seconds-.7)}:d=${Math.min(.7,seconds-.04)}`]);
  if(code==='S003'){
   const ambientEnd=lead+words[findPhrase(words,'hola biel')].start-cut-.18;
-  const footsteps=(name,seconds,seed,period)=>wav(name,['-f','lavfi','-i',`anoisesrc=color=brown:amplitude=0.12:sample_rate=48000:duration=${seconds}:seed=${seed}`,'-af',`highpass=f=65,lowpass=f=1250,volume='0.025+0.65*exp(-55*mod(t,${period}))':eval=frame,afade=t=in:d=0.04,afade=t=out:st=${Math.max(.1,seconds-.7)}:d=0.7`]);
   add(footsteps('corridor-steps',ambientEnd,3003,.49),'corridor-steps',0,ambientEnd);
   transition('aquí hi ha la cinta','bag-rustle',3004);
   add(footsteps('leaving-steps',2.2,3005,.52),'leaving-steps',voiceEnd+.4,voiceEnd+2.6);
- }else{
+ }else if(code==='S010'){
+  const openingEnd=lead+firstBody.start-cut+.5;
+  add(footsteps('route-opening-steps',openingEnd,10010,.49),'route-opening-steps',0,openingEnd);
+  const index=findPhrase(words,'he vist un carreró'),start=lead+words[index].start-cut-.26;
+  if(words[index].start-words[index-1].end<.34)throw Error('No hi ha prou pausa per a la passa del canvi de torn.');
+  add(footsteps('route-single-step',.18,10011,.5),'route-single-step',start,start+.18);
+  add(footsteps('route-leaving-steps',.9,10012,.5),'route-leaving-steps',voiceEnd+.3,voiceEnd+1.2);
+ }else if(code==='S013'){
   add(paper('envelope-opening',.65,13013),'envelope-opening',0,.65);
   transition('quan la carta arriba','sorting-to-delivery',13014);
   const sting=wav('two-note-ending',['-f','lavfi','-i',"aevalsrc='0.06*sin(2*PI*if(lt(t,0.65),329.63,440)*t)*exp(-5*mod(t,0.65))':s=48000:d=1.8",'-af','lowpass=f=2400,afade=t=in:d=0.025,afade=t=out:st=1:d=0.8']);
   add(sting,'two-note-ending',voiceEnd+.4,voiceEnd+2.2);
+ }else if(code==='S018'||code==='S022'){
+  const {makeMusic}=require(code==='S018'?'./s018-music.cjs':'./s022-music.cjs');
+  const music=await makeMusic({folder,voiceEnd,lead,tail,binary,wav});
+  add(music.file,music.effect.name,music.effect.start,music.effect.end,music.effect);
+  const measure=(file)=>{const log=ffmpeg(binary,['-ss',String(lead+3),'-i',file,'-t',String(Math.max(5,voiceEnd-lead-6)),'-af','ebur128=peak=true','-f','null','-']);return Number(/Integrated loudness:\s+I:\s+([^ ]+) LUFS/.exec(log)?.[1]);};
+  const musicLufs=measure(music.file),voiceLufs=measure(voice);
+  if(!Number.isFinite(musicLufs)||voiceLufs-musicLufs<18)throw Error('La música no queda prou per sota de la veu.');
+  effects[0].speechWindowMusicLufs=musicLufs;effects[0].speechWindowVoiceLufs=voiceLufs;effects[0].speechWindowMarginDb=voiceLufs-musicLufs;
+  if(code==='S018'){
+   const key=wav('small-key',['-f','lavfi','-i',"aevalsrc='(0.035*sin(2*PI*1900*t)+0.019*sin(2*PI*3100*t)+0.012*sin(2*PI*4700*t))*exp(-18*t)':s=48000:d=0.32",'-af','afade=t=in:d=0.004,afade=t=out:st=0.17:d=0.15']);
+   add(key,'small-key',1.7,2.02);
+   transition('quan l’avi va tornar','cardboard-transition',18018);
+   transition('la carpeta contenia','folder-paper',18019);
+  }else{
+   const tram=wav('tram-opening-rumble',['-f','lavfi','-i','anoisesrc=color=brown:amplitude=0.16:sample_rate=48000:duration=2.2:seed=22022','-af','highpass=f=55,lowpass=f=350,volume=0.14,afade=t=in:d=0.15,afade=t=out:st=1.35:d=0.85']);
+   add(tram,'tram-opening-rumble',0,2.2);
+   const rail=wav('small-rail-tap',['-f','lavfi','-i',"aevalsrc='(0.035*sin(2*PI*850*t)+0.02*sin(2*PI*2250*t))*exp(-40*t)':s=48000:d=0.09",'-af','afade=t=in:d=0.003,afade=t=out:st=0.055:d=0.035']);
+   add(rail,'rail-opening',.7,.79);
+   const index=findPhrase(words,'ahir vaig trobar'),gap=words[index].start-words[index-1].end,paperSeconds=Math.min(.4,gap-.3);
+   if(paperSeconds<.14)throw Error('No hi ha prou pausa per al retorn al present.');
+   const previousEnd=lead+words[index-1].end-cut,paperStart=lead+words[index].start-cut-.07-paperSeconds;
+   add(rail,'rail-memory-transition',previousEnd+.07,previousEnd+.16);
+   add(paper('note-paper',paperSeconds,22023),'note-paper',paperStart,paperStart+paperSeconds);
+  }
  }
  const filter=effects.map((effect,i)=>`[${i+1}:a]adelay=${Math.round(effect.start*1000)}:all=1[e${i}]`).join(';')+`;[0:a]${effects.map((_,i)=>`[e${i}]`).join('')}amix=inputs=${effects.length+1}:duration=first:normalize=0[out]`;
  const body=wav('program-master',['-i',voice,...sources.flatMap(file=>['-i',file]),'-filter_complex',filter,'-map','[out]']);
@@ -57,6 +88,11 @@ async function main(){
  if(!(lufs>=-24&&lufs<=-15&&peakDbTP<=-1))throw Error('Nivells fora de marge.');
  const provider=JSON.parse(await fs.readFile(path.join(folder,'provider-usage-packed.json'),'utf8'));
  const report={code,activity:'ca-'+code,date:new Date().toISOString(),state:'awaiting-audio-validation',model:provider.model,voices:spec.voices,newSynthesisRequests:1,approvalFingerprint:fingerprint(entry,spec,plans[code]),requestHash,rawSha256:hash(bytes),usage:provider.usage,rawDuration,cut:{at:cut,previousWordEnd:lastTitle.end,nextWordStart:firstBody.start,peakDbFS:cutPeak,rawSamplesPreserved:true},file:path.basename(master),introFile:path.basename(introFile),bodyFile:path.basename(bodyFile),offset,bodyDuration,fullDuration:offset+bodyDuration,lufs,peakDbTP,voice:{bodyLead:lead,bodyRawDuration:rawDuration-cut,untrimmedApartFromSilenceSplit:true,retimed:false},...(spec.performance?{vocalPerformance:{...spec.performance,source:'Gemini TTS in the same take',listeningValidation:'pending'}}:{}),effects,sha256:hash(await fs.readFile(master))};
+ const {musicForActivity}=await import(pathToFileURL(path.join(root,'content/music-catalogue.js'))),musicTrack=musicForActivity(entry);
+ if(effects.some(effect=>effect.name==='gentle-narration-bed'||effect.name==='gentle-tram-memory-bed')){
+  if(!musicTrack)throw Error('La base musical necessita una entrada al catàleg de músiques.');
+  report.musicTrack={id:musicTrack.id,title:musicTrack.title,author:musicTrack.author,license:musicTrack.license,source:musicTrack.source};
+ }
  await fs.writeFile(path.join(root,`assets/audio/${code.toLowerCase()}-production-manifest.json`),JSON.stringify(report,null,2)+'\n');
  const manifestFile=path.join(root,'assets/audio/prototips-manifest.json'),manifest=JSON.parse(await fs.readFile(manifestFile,'utf8')),index=manifest.activities.findIndex(item=>item.code===code);
  if(index<0)manifest.activities.push(report);else manifest.activities[index]=report;manifest.state='partially-produced-awaiting-validation';await fs.writeFile(manifestFile,JSON.stringify(manifest,null,2)+'\n');

@@ -56,9 +56,9 @@ for (const character of characters) {
 }
 const matchesCast = (ids, mode) => activities.filter(entry => matchesCharacters(entry, ids, mode)).map(entry => entry.code);
 assert.deepEqual(matchesCast([], 'all'), activities.map(entry => entry.code));
-assert.deepEqual(matchesCast(['biel'], 'any'), ['S001','S003','S005','S007','S010','S011','S012','S015','S024']);
-assert.deepEqual(matchesCast(['laia', 'biel'], 'any'), ['S001','S003','S005','S007','S010','S011','S012','S015','S019','S024']);
-assert.deepEqual(matchesCast(['laia', 'biel'], 'all'), ['S001','S003','S007','S010','S011','S024']);
+assert.deepEqual(matchesCast(['biel'], 'any'), ['S001','S003','S005','S007','S010','S011','S012','S015','S017','S024']);
+assert.deepEqual(matchesCast(['laia', 'biel'], 'any'), ['S001','S003','S005','S007','S010','S011','S012','S015','S017','S019','S024']);
+assert.deepEqual(matchesCast(['laia', 'biel'], 'all'), ['S001','S003','S007','S010','S011','S017','S024']);
 assert.deepEqual(matchesCast(['laia', 'nora'], 'all'), []);
 assert.deepEqual(matchesCast(['mireia'], 'any'), ['S002','S004','S007','S008','S008R','S011','S013','S014','S017','S018','S020','S021']);
 assert.deepEqual(matchesCast(['invalid'], 'any'), []);

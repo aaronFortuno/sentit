@@ -9,6 +9,20 @@ const { specs } = require('./generate-prototypes.cjs');
 (async () => {
   for (const spec of specs) {
     const entry = Object.values(await import(pathToFileURL(path.resolve(__dirname, '../content', spec.name + '.js'))))[0];
+    const ids = entry.transcript.filter(p => p.speaker).map(p => p.id);
+    const legacyIds = (spec.scenes ?? []).flat();
+    if (legacyIds.length && (legacyIds.length !== ids.length || legacyIds.some((id, i) => id !== ids[i]))) {
+      // A rewritten script must not inherit the old scene cache by position.
+      await assert.rejects(buildPlan(entry, spec, async () => false), /no coincideixen/);
+      const currentSpec = { ...spec, scenes: [] };
+      const current = await buildPlan(entry, currentSpec, async () => false);
+      assert.equal(current.requests, 2);
+      assert.deepEqual(current.pieces[0].parts, ids);
+      const cached = await buildPlan(entry, currentSpec, async name => ['fragment-complet', 'intro'].includes(name));
+      assert.equal(cached.requests, 0);
+      assert.equal(cached.mode, 'whole');
+      continue;
+    }
     const fresh = await buildPlan(entry, spec, async () => false);
     assert.equal(fresh.requests, 2, 'One whole fragment request plus one title request');
     assert.equal(fresh.pieces.length, 1);
