@@ -36,7 +36,7 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S027](https://sentit.ortogra.fi/#lectura=ca-S027) | El berenar del terrat | 3r | Provisional · revisió superada | 2026-11-21 | `1c5ec147c779…` |
 | [ca-S028](https://sentit.ortogra.fi/#lectura=ca-S028) | Una parada abans d’obrir | 3r | Provisional · revisió superada | 2026-11-21 | `b183bcc99d9f…` |
 | [ca-S029](https://sentit.ortogra.fi/#lectura=ca-S029) | El cinema surt a la plaça | 3r | Revisió superada · guió validat | 2026-11-21 | `1cb96a05b637…` |
-| [ca-S030](https://sentit.ortogra.fi/#lectura=ca-S030) | El cartell que no es llegia | 4t | Provisional · revisió superada | 2026-11-21 | `0882c20c5db8…` |
+| [ca-S030](https://sentit.ortogra.fi/#lectura=ca-S030) | El cartell que no es llegia | 4t | Revisió superada · guió validat | 2026-11-21 | `0882c20c5db8…` |
 | [ca-S031](https://sentit.ortogra.fi/#lectura=ca-S031) | Una bústia per a propostes | 4t | Provisional · revisió superada | 2026-11-21 | `ff754fc8c82f…` |
 | [ca-S032](https://sentit.ortogra.fi/#lectura=ca-S032) | Una ruta amb pistes | 4t | Provisional · revisió superada | 2026-11-21 | `a6a628640b23…` |
 | [ca-S033](https://sentit.ortogra.fi/#lectura=ca-S033) | Qui tria què es mostra? | 4t | Provisional · revisió superada | 2026-11-21 | `dab708a0277c…` |
@@ -46,7 +46,7 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S037](https://sentit.ortogra.fi/#lectura=ca-S037) | Quin avís és el bo? | 5è | Provisional · revisió superada | 2026-11-21 | `124ce39086cf…` |
 | [ca-S038](https://sentit.ortogra.fi/#lectura=ca-S038) | El banc que havien mogut | 5è | Provisional · revisió superada | 2026-11-21 | `17e99f0c9362…` |
 | [ca-S039](https://sentit.ortogra.fi/#lectura=ca-S039) | Una biblioteca d’objectes en prova | 5è | Provisional · revisió superada | 2026-11-21 | `1cc278ba9dc9…` |
-| [ca-S040](https://sentit.ortogra.fi/#lectura=ca-S040) | Una exposició que es pugui escoltar | 6è | Provisional · revisió superada | 2026-11-21 | `b911a99d5368…` |
+| [ca-S040](https://sentit.ortogra.fi/#lectura=ca-S040) | Una exposició que es pugui escoltar | 6è | Revisió superada · guió validat | 2026-11-21 | `b911a99d5368…` |
 | [ca-S041](https://sentit.ortogra.fi/#lectura=ca-S041) | Una reunió amb decisions clares | 6è | Provisional · revisió superada | 2026-11-21 | `b169bf619b79…` |
 | [ca-S042](https://sentit.ortogra.fi/#lectura=ca-S042) | Dos camins amb la mateixa mitjana | 6è | Provisional · revisió superada | 2026-11-21 | `36d170f98fd3…` |
 | [ca-S043](https://sentit.ortogra.fi/#lectura=ca-S043) | El balcó que només era al paper | 6è | Provisional · revisió superada | 2026-11-21 | `6f18d04076a5…` |

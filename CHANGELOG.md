@@ -1,5 +1,10 @@
 # Canvis
 
+## 0.1.61 · 21 de novembre de 2026
+
+- S040 i S030 amb guió validat pel docent per a síntesi. Autoritzacions vinculades al contingut revisat i repartiments conservats: Laia/Leda i Nora/Kore a S040; Biel/Puck i Laia/Leda a S030.
+- Seguiment i fases de les cards actualitzats. Nous candidats L07 i L08, d’uns 3:13 i 1:57 respectivament, pendents de material compatible fins a completar sis a vuit minuts. Cap petició nova enviada.
+
 ## 0.1.60 · 21 de novembre de 2026
 
 - Passada específica de naturalitat dels dotze guions indicats pel docent: S041, S036, S044, S035, S027, S034, S030, S037, S025, S043, S028 i S038. Diagnòstic independent, correcció i segona lectura dels textos finals, incloses preguntes, respostes, cites i muntatge. Es conserven les negacions i els dubtes que tenen una funció dins la situació.

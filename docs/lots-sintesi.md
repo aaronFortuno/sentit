@@ -8,7 +8,7 @@ Proposta de planificació · **21/11/2026**. **Cap petició nova enviada.** Els 
 - Per petició: màxim 8.192 tokens de text d’entrada i 16.384 tokens d’àudio de sortida. Els 10.000 tokens/minut del projecte no són una bossa acumulable per fer una petició més gran.
 - L’àudio es compta a 25 tokens/segon; el sostre de sortida equival aproximadament a 10:55 incloent-hi silencis.
 - Objectiu inicial: **6–8 minuts totals**, una o dues veus predefinides, amb diverses lectures i esmenes compatibles. Per exemple, tres lectures de dos minuts poden compartir una petició; cinc de tres minuts no hi caben.
-- La cua aprovada actual són deu comprensions i nou frases d’esmena: sis lots candidats en comptes de disset peticions separades. **L01, L02, L03 i L05 arriben ara a la finestra de mida. L04 i L06 esperen més material compatible.** No s’han enviat ni es poden executar automàticament des d’aquesta taula.
+- La cua aprovada actual són dotze comprensions i nou frases d’esmena: vuit lots candidats en comptes de dinou peticions separades. **L01, L02, L03 i L05 arriben ara a la finestra de mida. L04, L06, L07 i L08 esperen més material compatible.** No s’han enviat ni es poden executar automàticament des d’aquesta taula.
 
 ## Límits i criteri de mida
 
@@ -32,12 +32,14 @@ Exemples: quatre peces de dos minuts sumen vuit minuts abans d’afegir marges; 
 | L04 | Vindemiatrix + Kore | S005 · comprovar; S015 · llum | 27 | 0:22 | 550 | Espera més material |
 | L05 | Aoede + Puck | S007-T01; S017-T01; S026-T01 | 697 | 6:58 | 10450 | Finestra completa; payload pendent |
 | L06 | Aoede + Puck | S014-T01 | 365 | 3:10 | 4750 | Espera més material |
+| L07 | Leda + Kore | S040-T01 | 371 | 3:13 | 4825 | Espera més material |
+| L08 | Puck + Leda | S030-T01 | 219 | 1:57 | 2925 | Espera més material |
 
-La previsió utilitza 120 mots/minut, tres segons per cada marca de pausa llarga existent i quatre segons addicionals per bloc. És una estimació de planificació, amb tokens d’entrada encara pendents de mesurar. L03 és ara el candidat més llarg; L01 pot servir per calibrar el format. L04 i L06 **no s’envien** fins a completar la finestra amb futurs guions validats i veus compatibles. L05 conserva la Mireia de S007 i S017 a part per no portar L01 per sobre de vuit minuts i incorpora S026 completa amb Aoede/Puck. S014 no s’hi afegeix sencera perquè el superaria. No generar contingut de farciment ni deformar repartiments per omplir un lot.
+La previsió utilitza 120 mots/minut, tres segons per cada marca de pausa llarga existent i quatre segons addicionals per bloc. És una estimació de planificació, amb tokens d’entrada encara pendents de mesurar. L03 és ara el candidat més llarg; L01 pot servir per calibrar el format. L04, L06, L07 i L08 **no s’envien** fins a completar la finestra amb futurs guions validats i veus compatibles. L05 conserva la Mireia de S007 i S017 a part per no portar L01 per sobre de vuit minuts i incorpora S026 completa amb Aoede/Puck. S014 no s’hi afegeix sencera perquè el superaria. S040 necessita Leda/Kore i no s’afegeix a L04, que ja té dues veus diferents; S030 faria superar els vuit minuts a L02 i espera a L08. No generar contingut de farciment ni deformar repartiments per omplir un lot.
 
 L01 combina **S021 completa**, la presa de **Mireia de S011** i tres correccions. **L02 completa S011** amb Laia i Biel, i afegeix l’esmena dels Til·lers. L02 també inclou S024 completa i els alumnes de S007 i S017; L05 conté la Mireia i els títols de S007 i S017, més S026 completa. L03 agrupa S006, S009 i S029 amb les esmenes de Si, rails i suggeriments; L04, matí i temperatura. S007, S011 i S017 continuen necessitant intercalar dues preses al muntatge: tenen tres veus i no es converteixen en lectures completes de dues veus.
 
-En total: deu comprensions noves (tretze preses) i nou frases de correcció. Enviades individualment serien tretze peticions de lectures i quatre de correccions; aquesta proposta les distribueix en sis candidats, **dos encara incomplets**. S029, validada el 21/11 amb l’avís de les quatre de la tarda, completa L03. S026, validada amb ambient d’aula al muntatge, completa L05. S014 espera a L06. Els R01–R04 existents són una via alternativa: **no executar-los també si les seves esmenes ja s’han rebut en aquests lots**, i tampoc enviar-los curts durant aquesta fase de creixement.
+En total: dotze comprensions noves (quinze preses) i nou frases de correcció. Enviades individualment serien quinze peticions de lectures i quatre de correccions; aquesta proposta les distribueix en vuit candidats, **quatre encara incomplets**. S029, validada el 21/11 amb l’avís de les quatre de la tarda, completa L03. S026, validada amb ambient d’aula al muntatge, completa L05. S014 espera a L06. S040 i S030, amb guió validat el 21/11, esperen a L07 i L08 respectivament. Els R01–R04 existents són una via alternativa: **no executar-los també si les seves esmenes ja s’han rebut en aquests lots**, i tampoc enviar-los curts durant aquesta fase de creixement.
 
 ## Preparació del pilot
 
@@ -79,6 +81,8 @@ Empremtes de les peticions individuals aprovades, abans d’afegir les fronteres
 | L03 | S009 | S009-T01 | `c600345647bed0d1d09ca7b26cd5460240f4d266e72e69d5196230173c43fd74` |
 | L03 | S029 | S029-T01 | `236ae133fc4cee095f688b938ab791a42442874a19663173fd26301611e03ad0` |
 | L06 | S014 | S014-T01 | `2bcf21f0ba387c2047611627b76dd20a3d0ca658874913530cb453c22c35d5aa` |
+| L07 | S040 | S040-T01 | `2c272761f294618a282bd9a412a3608d22fdd29fe980d481438a77c3886208f8` |
+| L08 | S030 | S030-T01 | `45bb28cee99efe23b0263d0bc2a912f1eb1b6d1dca50e49c8c12f4c6d164d2ca` |
 | L03 | S016 | exposicio | `d43335d6ca50e24dfe0d17b43f31e2ad67f7040083b26a3628ebd936896b4df7` |
 | L03 | S022 | dema | `dc75acf7a5f1dae1c4d229ce80f07a0257da22db6d95d0f7235b45a125f75f1f` |
 | L03 | S023 | tancament | `5381bc85a25a80e20c3d2a43e0df955e8f64a4dc7ea5256b52ccd90daf8feb9a` |
