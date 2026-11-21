@@ -32,12 +32,12 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S023](https://sentit.ortogra.fi/#lectura=ca-S023) | Reobren el mercat: què canvia i què falta decidir? | 6è | Revisió superada · àudio pendent | 2026-11-20 | `ded73b9e3639…` |
 | [ca-S024](https://sentit.ortogra.fi/#lectura=ca-S024) | Tres maneres de transformar el pati | 6è | Revisió superada · guió validat | 2026-11-20 | `18db36638b5c…` |
 | [ca-S025](https://sentit.ortogra.fi/#lectura=ca-S025) | El so que faltava | 3r | Provisional · revisió superada | 2026-11-20 | `464d5002ad52…` |
-| [ca-S026](https://sentit.ortogra.fi/#lectura=ca-S026) | Preparem el racó dels jocs | 3r | Provisional · revisió superada | 2026-11-20 | `7be4842a4d05…` |
+| [ca-S026](https://sentit.ortogra.fi/#lectura=ca-S026) | Preparem el racó dels jocs | 3r | Revisió superada · guió validat | 2026-11-21 | `cf11d87e14bd…` |
 | [ca-S027](https://sentit.ortogra.fi/#lectura=ca-S027) | El berenar del terrat | 3r | Provisional · revisió superada | 2026-11-20 | `3c272bb86e0b…` |
 | [ca-S028](https://sentit.ortogra.fi/#lectura=ca-S028) | Una parada abans d’obrir | 3r | Provisional · revisió superada | 2026-11-20 | `b183bcc99d9f…` |
 | [ca-S029](https://sentit.ortogra.fi/#lectura=ca-S029) | El cinema surt a la plaça | 3r | Revisió superada · guió validat | 2026-11-21 | `1cb96a05b637…` |
 | [ca-S030](https://sentit.ortogra.fi/#lectura=ca-S030) | El cartell que no es llegia | 4t | Provisional · revisió superada | 2026-11-20 | `ab15e013f5a5…` |
-| [ca-S031](https://sentit.ortogra.fi/#lectura=ca-S031) | Una bústia per a propostes | 4t | Provisional · revisió superada | 2026-11-20 | `cc1776a230e1…` |
+| [ca-S031](https://sentit.ortogra.fi/#lectura=ca-S031) | Una bústia per a propostes | 4t | Provisional · revisió superada | 2026-11-21 | `ff754fc8c82f…` |
 | [ca-S032](https://sentit.ortogra.fi/#lectura=ca-S032) | Una ruta amb pistes | 4t | Provisional · revisió superada | 2026-11-21 | `a6a628640b23…` |
 | [ca-S033](https://sentit.ortogra.fi/#lectura=ca-S033) | Qui tria què es mostra? | 4t | Provisional · revisió superada | 2026-11-21 | `dab708a0277c…` |
 | [ca-S034](https://sentit.ortogra.fi/#lectura=ca-S034) | L’assaig que semblava una funció | 4t | Provisional · revisió superada | 2026-11-20 | `a3006b46d915…` |

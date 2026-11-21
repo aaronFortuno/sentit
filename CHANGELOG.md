@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.58 · 21 de novembre de 2026
+
+- S031: eliminades les frases redundants sobre la votació i les idees repetides. L’organització recorda un concert molt proposat l’any anterior que no es va poder pagar; la pregunta 6 demana justificar la resposta amb aquest precedent. Aclarits l’ajuda per descriure la proposta i el caràcter opcional de les dades personals. Proposta pendent de revalidació docent.
+- S026: guió validat pel docent per a veus. Escaleta amb ambient d’aula enregistrat, murmuri sense paraules entenedores molt baix sota el diàleg, foses d’entrada i sortida i cap efecte que faci comptar fitxes. Parla i preguntes conservades.
+- S026 s’incorpora al lot candidat L05, ara Aoede/Puck i uns 6:58 previstos. Quatre lots arriben a la finestra de mida; dues agrupacions encara esperen material. Cap petició de síntesi nova.
+
 ## 0.1.57 · 21 de novembre de 2026
 
 - S029: eliminat l’aclariment redundant sobre el pla alternatiu. L’avís de la ubicació definitiva es publicarà el mateix divendres a les quatre de la tarda, coherent al bloc de pluja, al tancament i al solucionari.

@@ -38,10 +38,10 @@ export const tercer = [
     voices: { Mireia: 'Aoede', Biel: 'Puck' },
     delivery: 'Mestra propera que organitza una activitat real. Biel intervé amb preguntes breus i una proposta espontània. No convertir les instruccions en una enumeració rígida.',
     editorialFocus: '3r accessible: seguir una seqüència curta i distingir un joc preparat d’un joc que encara no es pot utilitzar. Sis preguntes literals o de causa explícita.',
-    soundPlan: 'Dues capses reals col·locades suaument abans de la salutació. Sense música ni efectes sobre les instruccions. Una pausa natural per mirar la capsa; no fer caure peces ni crear un recompte sonor. Al final, una capsa que es tanca després de la veu i cua completa.', soundCredits,
+    soundPlan: 'Ambient d’aula treballant en grups a partir d’un enregistrament real: murmuri llunyà sense paraules entenedores i moviments suaus. Fosa d’entrada de dos segons amb dues capses reals col·locades suaument; abaixar el fons abans de la salutació i mantenir-lo molt discret sota tot el diàleg, sense tapar cap instrucció. Sense música ni efectes puntuals damunt de la parla. Pausa natural per mirar la capsa; no fer caure peces ni crear un recompte sonor. Al final, una capsa es tanca després de la veu; pujada suau de l’ambient durant dos segons, fosa i cua de silenci.', soundCredits,
     illustrationBrief: 'Mireia i Biel davant d’un prestatge baix amb capses tancades sense colors identificadors, etiquetes ni peces visibles.',
     transcript: [
-      d('Ambient d’aula breu amb capses reals. Acabar-lo abans de la salutació.'),
+      d('Ambient d’aula enregistrat, amb murmuri llunyà sense paraules entenedores i dues capses reals. Fosa d’entrada de dos segons; abaixar el fons abans de la salutació i mantenir-lo molt discret durant el diàleg.'),
       s('salutacio', 'Mireia', 'Bon dia, nois i noies. Avui deixarem a punt el racó dels jocs. Primer, cada parella triarà una capsa del prestatge baix i la portarà a la seva taula.'),
       s('peces', 'Biel', 'Nosaltres volem el joc dels animals. Podem començar a jugar de seguida?'),
       s('comprovar', 'Mireia', 'Encara no. Obriu la capsa i mireu la llista de peces que hi ha a dins de la tapa. Comproveu si hi és tot abans de repartir les peces.'),
@@ -50,7 +50,7 @@ export const tercer = [
       d('Pausa de cerca curta, sense cap troballa sonora.'),
       s('altre', 'Biel', 'No hi és. Doncs escric què falta. I per jugar avui podem triar una altra capsa?'),
       s('final', 'Mireia', 'Sí. Agafeu-ne una altra i comproveu-la també. Les que estiguin completes tornaran al prestatge amb la tapa ben tancada. Jo us espero aquí amb les que necessiten una revisió.'),
-      d('Tapa real que es tanca fora de la parla i 600 ms de silenci.'),
+      d('Tapa real que es tanca després de la darrera paraula. Pujar suaument l’ambient d’aula durant dos segons, fondre’l i deixar 600 ms de silenci.'),
     ],
     questions: [
       q('inici', 'D’on han d’agafar la primera capsa?', 'Del prestatge baix.', 1, [e('salutacio', 'triarà una capsa del prestatge baix')]),

@@ -644,16 +644,16 @@
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
   },
   "S026": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "7cfb4f0bd1707e8c6d8ab629e78b30286b26586cd371fcf74ddb453359650b0f",
+    "reviewedAt": "2026-11-21T08:26:58.368Z",
     "reviewActivity": "ca-S026",
     "reviewContent": "content/propostes/tanda2/tercer.js",
     "format": "3r accessible: seguir una seqüència curta i distingir un joc preparat d’un joc que encara no es pot utilitzar. Sis preguntes literals o de causa explícita.",
     "cues": [
-      "Ambient d’aula breu amb capses reals. Acabar-lo abans de la salutació.",
+      "Ambient d’aula enregistrat, amb murmuri llunyà sense paraules entenedores i dues capses reals. Fosa d’entrada de dos segons; abaixar el fons abans de la salutació i mantenir-lo molt discret durant el diàleg.",
       "Pausa de cerca curta, sense cap troballa sonora.",
-      "Tapa real que es tanca fora de la parla i 600 ms de silenci."
+      "Tapa real que es tanca després de la darrera paraula. Pujar suaument l’ambient d’aula durant dos segons, fondre’l i deixar 600 ms de silenci."
     ],
     "plannedNewRequests": 1,
     "requiredVoices": {
@@ -661,7 +661,8 @@
       "Biel": "Puck"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Validació explícita del docent el 21/11/2026: «S026 validat per producció de veus, incorpora sons d’aula de fons, perquè és clarament situació d’aula». Parla i preguntes conservades; escaleta amb ambient real baix sense paraules entenedores sota el diàleg i foses. Veus Mireia/Aoede i Biel/Puck autoritzades. Enviament només dins d’un lot compatible de sis a vuit minuts; les mostres d’aula es triaran i acreditaran abans del muntatge."
   },
   "S027": {
     "status": "awaiting-validation",
@@ -749,7 +750,7 @@
     "reviewedAt": null,
     "reviewActivity": "ca-S031",
     "reviewContent": "content/propostes/tanda2/quart.js",
-    "format": "4t accessible: informació explícita i una distinció central entre proposta i decisió. Set preguntes, sense recordar noms de càrrecs ni dates numèriques.",
+    "format": "4t accessible: informació explícita i una distinció entre proposta i decisió sustentada pel cas del concert de l’any passat. Set preguntes, sense exigir recordar el nom del grup musical.",
     "cues": [
       "Capçalera informativa breu pendent de seleccionar. Ambient real que baixa abans de la parla.",
       "Pausa de canvi de bloc, sense so de paper que faci comptar propostes.",
@@ -760,7 +761,8 @@
       "Mar": "Erinome"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Nova proposta del 21/11/2026 arran del retorn docent: eliminar aclariments redundants, concretar ajuda per descriure i dades de contacte opcionals, i sustentar la pregunta 6 en el precedent fictici del concert no realitzat per manca de diners. Pendent de revalidació docent; cap síntesi autoritzada."
   },
   "S032": {
     "status": "awaiting-validation",
