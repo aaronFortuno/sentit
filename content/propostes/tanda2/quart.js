@@ -127,9 +127,9 @@ export const quart = [
   }),
   proposal({
     id: 'lassaig-que-semblava-una-funcio', code: 'S034', title: 'L’assaig que semblava una funció', grade: '4', level: 'advanced', genre: 'story', universeIds: ['aina-ferran'],
-    summary: 'L’avi Ferran recorda per què uns veïns van aplaudir abans d’hora en un assaig de teatre.',
+    summary: 'L’avi Ferran recorda com va sortir a saludar tot sol en sentir uns aplaudiments durant un assaig.',
     voices: { Ferran: 'Algenib' }, delivery: 'Record explicat a l’Aina, amb humor sobre la confusió i una vergonya lleu de jove. Una sola veu narrativa, sense representar una nova veu per cada citació. No rematar amb una moral general.',
-    editorialFocus: '4t avançada: distingir el que sap qui és dins d’un assaig del que interpreten els que arriben després; relacionar dues indicacions i reconstruir la confusió.',
+    editorialFocus: '4t avançada: seguir què sap en Ferran, què no arriba a sentir i com interpreta l’aturada de l’assaig i els aplaudiments. Relacionar dues indicacions i reconstruir la seva confusió.',
     soundPlan: 'Base original proposada «Entre dues cortines», pendent de compondre i registrar. Entrada suau de dos segons, música molt baixa sota Ferran. Ambient real de sala sense parla intel·ligible; no afegir aplaudiments que responguin la pregunta abans del relat. Pausa amb cadira enregistrada a l’arribada dels veïns. Pujada de dos segons i fosa després de la veu.', soundCredits,
     illustrationBrief: 'Ferran i Aina miren una sala de teatre buida des de la porta; sense cartell amb data, públic aplaudint, guió escrit ni acció decisiva.',
     transcript: [

@@ -453,7 +453,7 @@ export const productionProgress = {
     "editorialFingerprint": "cf11d87e14bd9d3686135ec4f159d00ab2631ffe89687ef0c08729bc8cb51a03",
     "plannedNewRequests": 1,
     "confirmation": "S026 validat per producció de veus, incorpora sons d’aula de fons, perquè és clarament situació d’aula.",
-    "reason": "Guió validat i muntatge previst amb ambient real d’aula discret. Incorporar la presa Aoede/Puck al lot L05, sense petició curta aïllada."
+    "reason": "Guió validat; presa completa incorporada al lot candidat L06, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts."
   },
   "ca-S030": {
     "state": "ready-for-voices",
@@ -475,5 +475,77 @@ export const productionProgress = {
       "programme": "radio-escola",
       "note": "Capçalera de programa proposada, pendent de seleccionar abans del muntatge; les veus estan autoritzades."
     }
+  },
+  "ca-S028": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-21T09:30:54.245Z",
+    "editorialFingerprint": "b183bcc99d9f13ca71207052609411aa6e9a927a793906b58223587a3bb27a25",
+    "plannedNewRequests": 1,
+    "confirmation": "S028 validat per síntesi de veus",
+    "reason": "Guió validat; presa completa incorporada al lot candidat L09, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts."
+  },
+  "ca-S032": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-21T09:30:54.248Z",
+    "editorialFingerprint": "a6a628640b2345174d83d9f7b8a67498faf8c3a867ab41b6d11abbdda1aae9f0",
+    "plannedNewRequests": 1,
+    "confirmation": "S032 validat per síntesi de veus",
+    "reason": "Guió validat; presa completa incorporada al lot candidat L01, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts."
+  },
+  "ca-S034": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-21T09:30:54.248Z",
+    "editorialFingerprint": "0b665a370e7930190eea0b1ba4d827d50e020ac5eb8a3901b5b7b4eb5074a825",
+    "plannedNewRequests": 1,
+    "confirmation": "S034 validat per síntesi de veus",
+    "reason": "Guió validat; presa completa incorporada al lot candidat L10, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts."
+  },
+  "ca-S038": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-21T09:30:54.249Z",
+    "editorialFingerprint": "17e99f0c936202e01bb9d9f01acbd02d882f90994de423710d6f1b70b022571a",
+    "plannedNewRequests": 1,
+    "confirmation": "S038 validat per síntesi.",
+    "reason": "Guió validat; presa completa incorporada al lot candidat L10, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts."
+  },
+  "ca-S042": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-21T09:30:54.249Z",
+    "editorialFingerprint": "36d170f98fd35d2e96e62a2160f8beb530b41102b36346dd6d140fe22cca6566",
+    "plannedNewRequests": 1,
+    "confirmation": "S042 validat per pujar a síntesi de veus",
+    "reason": "Guió validat; presa completa incorporada al lot candidat L05, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts."
+  },
+  "ca-S035": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-21T09:34:44.906Z",
+    "editorialFingerprint": "b4fa4a104b6161791a96448431dd14a198f020ac8f3592272436cd804da7ac76",
+    "plannedNewRequests": 1,
+    "confirmation": "Rectifica aquesta frase i queda validat per pujar a síntesi de veus.",
+    "reason": "Guió validat; presa completa incorporada al lot candidat L11, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts."
+  },
+  "ca-S037": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-21T09:35:53.798Z",
+    "editorialFingerprint": "124ce39086cf4a52857e7e76743fc5a6a0d4885c635e8de27db2d05d28b097c6",
+    "plannedNewRequests": 1,
+    "confirmation": "S037 validat per síntesi de veus",
+    "reason": "Guió validat; presa completa incorporada al lot candidat L08, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts."
+  },
+  "ca-S025": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-21T09:36:38.025Z",
+    "editorialFingerprint": "464d5002ad52e9784973952ec6d86789ec3bc4951b006b2beabc6d7acc03aced",
+    "plannedNewRequests": 1,
+    "confirmation": "S025 validat per síntesi de veus",
+    "reason": "Guió validat; presa completa incorporada al lot candidat L08, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts."
+  },
+  "ca-S033": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-21T09:39:11.371Z",
+    "editorialFingerprint": "dab708a0277ce88435754b47786e9c49e4765cf4e4bda4708cd8e8476e43caf2",
+    "plannedNewRequests": 1,
+    "confirmation": "S033 validat per síntesi de veus",
+    "reason": "Guió validat; lot candidat L12 amb Biel/Puck i Nora/Kore, pendent de completar sis a vuit minuts amb material compatible."
   }
 };

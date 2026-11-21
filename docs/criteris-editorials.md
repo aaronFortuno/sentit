@@ -27,11 +27,19 @@ Conservar les negacions que informen d’un fet, les prohibicions necessàries d
 
 Els infants i joves fan propostes parcials, recorden un detall, dubten i ajusten el que havien pensat. La solució pot sorgir de dues o tres rèpliques. Evitar que improvisin un pla professional o que la mestra converteixi cada conversa en un protocol i un informe. Una anotació pot ser versemblant quan realment ajuda en aquella situació; no és un tancament obligatori.
 
+### Escenes d’aula: comprovar el registre del conjunt
+
+La mestra parla amb el grup mentre fan alguna cosa concreta. Pot donar instruccions clares i posar límits, però no ha de dirigir cada activitat com una reunió administrativa. Apartats de pendents, acords confirmats, responsables, còpies i lectures finals no són un procediment d’aula per defecte. Conservar una anotació o un repartiment de feines quan ajuda realment, sense desplegar tot un sistema de control per anticipar incidències inexistents.
+
+Reconstruir l’escena: què tenen a les mans, què intenten fer ara, qui s’avança i què fa reaccionar la mestra? Fer avançar una proposta amb preguntes curtes, intents i ajustos. El desordre ha de tenir conseqüències comprensibles; afegir «ah», una broma o un soroll a un protocol deixa el mateix protocol a sota. Si el diàleg es podria traslladar gairebé intacte a una comissió professional, refer l’escena, no només substituir-ne el vocabulari. La dificultat ha de venir de seguir les aportacions i relacionar informació.
+
+Comprovar també títols, sumaris i preguntes: han de situar una acció recognoscible. Biel i Laia poden dir «aquesta capseta», «allò de fusta» o «aquesta cosa». No han de dir «peça», «registre» o «identificació» com si fossin especialistes. Un adult pot introduir un terme propi de l’ofici quan calgui, amb l’objecte ja situat; les preguntes tampoc han d’exigir una categoria que l’alumne no ha sentit explicar.
+
 En les narracions, deixar que l’acció i les pistes permetin la inferència prevista. Retirar explicacions que interpreten per endavant el relat. Un dubte o una rectificació del personatge pot tenir una funció real i s’ha de valorar dins del seu context.
 
 ## Passada obligatòria abans de presentar una proposta
 
 1. L’autor llegeix el text en veu alta i localitza reserves preventives, llenguatge d’expert i repeticions explicatives. Executa `node tools/audit-editorial-language.mjs --codes=SXXX,SYYY` per trobar candidats i en valora el context. Comprova que cada rèplica té un motiu dins la situació; una cerca sense coincidències també requereix la lectura completa.
-2. El revisor independent fa una passada específica de naturalitat, a més de lògica i coherència. Revisa inicis, interiors, tancaments i preguntes, i demana la correcció dels aclariments sense motiu.
+2. El revisor independent fa una passada específica de naturalitat, a més de lògica i coherència. Revisa inicis, interiors, tancaments i preguntes, i demana la correcció dels aclariments sense motiu. A les aules reconstrueix l’escena sencera i comprova si el funcionament és escolar o un protocol professional disfressat; una conversa ordenada o sense patrons prohibits no és suficient per donar-la per bona.
 3. Després de corregir, es comproven de nou els passatges afectats, les respostes, les cites exactes i el pla sonor. La validació final correspon al contingut complet que es presenta, no a una versió anterior.
 4. Només aleshores es registra la revisió superada i es presenta al docent. El seu vistiplau i la posterior audició conserven les fases i autoritzacions pròpies.

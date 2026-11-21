@@ -1,5 +1,14 @@
 # Canvis
 
+## 0.1.62 · 21 de novembre de 2026
+
+- S041 refeta com una conversa d’aula sobre una proposta concreta de ràdio per portes obertes, amb temps limitat, soroll i preguntes sobre el lloc. Nou títol «Què farem per portes obertes?», sense actes ni apartats de pendents. S036 passa a «Una capseta misteriosa», amb llenguatge quotidià del Biel i objecte concret des de l’inici. Totes dues tornen a esperar el docent.
+- S035 centrada a reformular una pregunta amb la Laia, sense llistes de control ni arxiu. Esmena docent aplicada a la comissió de menjador del consell escolar, també al solucionari, i guió validat per a veus.
+- Registrades les validacions per a síntesi de S025, S028, S032, S033, S034, S035, S037, S038 i S042. S034 conserva la parla exacta, amb resum i focus corregits. Petits ajustos de context a S043 i de pregunta a S044, encara pendents del docent.
+- Nova variant S038D per comparar la narració amb una conversa entre Aina i Ferran. Vuit preguntes, revisió independent superada i validació docent pròpia pendent; S038 original conservada.
+- Criteri de registre global d’aula reforçat per a autoria i revisió, també a la pauta compartida. Guions, preguntes, respostes i cites revisats independentment abans del registre final.
+- Seguiment i filtres de fase actualitzats. La cua conté 21 comprensions i 24 preses, repartides en dotze lots candidats: set arriben a sis–vuit minuts i cinc esperen material. Cap petició nova de síntesi.
+
 ## 0.1.61 · 21 de novembre de 2026
 
 - S040 i S030 amb guió validat pel docent per a síntesi. Autoritzacions vinculades al contingut revisat i repartiments conservats: Laia/Leda i Nora/Kore a S040; Biel/Puck i Laia/Leda a S030.

@@ -624,9 +624,9 @@
     "approvalSource": "Validació explícita del docent el 20/11/2026: «S004D validat, pot anar a producció de veus». Text parlat conservat literalment; base molt suau segons el criteri general de narracions, compartida intencionadament amb S004 perquè és la mateixa història. Revisió independent final superada."
   },
   "S025": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "253d8d4a4245d8342ecd28a5f7eeb0380306116bf667174703294751453c127e",
+    "reviewedAt": "2026-11-21T09:36:38.025Z",
     "reviewActivity": "ca-S025",
     "reviewContent": "content/propostes/tanda2/tercer.js",
     "format": "3r accessible: problema únic, comprovació immediata i causa explícita. Sis respostes breus; tot el funcionament necessari s’explica al diàleg.",
@@ -642,7 +642,7 @@
     },
     "strategy": "packed-title-program-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
-    "approvalSource": "Passada específica de naturalitat i coherència del 21/11/2026 sol·licitada pel docent: diagnòstic independent, correcció quan cal i comprovació final del guió, preguntes, respostes, cites i muntatge. Pendent del vistiplau docent; cap síntesi autoritzada."
+    "approvalSource": "Validació explícita del docent el 21/11/2026: «S025 validat per síntesi de veus». Guió, veus i escaleta autoritzats; agrupar en un lot compatible de sis a vuit minuts."
   },
   "S026": {
     "status": "approved",
@@ -686,9 +686,9 @@
     "approvalSource": "Passada específica de naturalitat i coherència del 21/11/2026 sol·licitada pel docent: diagnòstic independent, correcció quan cal i comprovació final del guió, preguntes, respostes, cites i muntatge. Pendent del vistiplau docent; cap síntesi autoritzada."
   },
   "S028": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "7f78079dbc36c2fed4ca46afacd449a21cbccbb274be7fac725f22f42d042fb3",
+    "reviewedAt": "2026-11-21T09:30:54.245Z",
     "reviewActivity": "ca-S028",
     "reviewContent": "content/propostes/tanda2/tercer.js",
     "format": "3r intermèdia: relacionar una feina amb el seu motiu i distingir allò que fa abans d’obrir d’allò que deixa per al final.",
@@ -704,7 +704,7 @@
     },
     "strategy": "packed-title-program-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
-    "approvalSource": "Passada específica de naturalitat i coherència del 21/11/2026 sol·licitada pel docent: diagnòstic independent, correcció quan cal i comprovació final del guió, preguntes, respostes, cites i muntatge. Pendent del vistiplau docent; cap síntesi autoritzada."
+    "approvalSource": "Validació explícita del docent el 21/11/2026: «S028 validat per síntesi de veus». Guió, veus i escaleta autoritzats; producció en un lot compatible de sis a vuit minuts."
   },
   "S029": {
     "status": "approved",
@@ -769,9 +769,9 @@
     "approvalSource": "Nova proposta del 21/11/2026 arran del retorn docent: eliminar aclariments redundants, concretar ajuda per descriure i dades de contacte opcionals, i sustentar la pregunta 6 en el precedent fictici del concert no realitzat per manca de diners. Pendent de revalidació docent; cap síntesi autoritzada."
   },
   "S032": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "d859e3df7f497318818c97eed8a656ca4f51924f4e4870fce32d038c6a8ea4d6",
+    "reviewedAt": "2026-11-21T09:30:54.248Z",
     "reviewActivity": "ca-S032",
     "reviewContent": "content/propostes/tanda2/quart.js",
     "format": "4t intermèdia: entendre el destinatari d’unes instruccions, una prova amb condició i la diferència entre ajudar i revelar la solució. Set preguntes amb causes explícites.",
@@ -787,12 +787,12 @@
     },
     "strategy": "packed-title-program-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
-    "approvalSource": "Nova proposta del 21/11/2026: substituir «les coses de sempre» per una referència a un experiment conegut pel grup, seguida d’una descripció física accessible als de fora. Últim torn i pregunta actualitzats. Pendent de validació docent; cap síntesi autoritzada."
+    "approvalSource": "Validació explícita del docent el 21/11/2026: «S032 validat per síntesi de veus». Guió, veus i escaleta autoritzats; producció en un lot compatible de sis a vuit minuts."
   },
   "S033": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "af3f6c84bdffbfe36d955264f5269150b51b65359afdaf59dbad9de787c294e2",
+    "reviewedAt": "2026-11-21T09:39:11.371Z",
     "reviewActivity": "ca-S033",
     "reviewContent": "content/propostes/tanda2/quart.js",
     "format": "4t intermèdia: comprendre tres decisions sobre objectes antics coneguts, amb causes concretes. Situar l’exposició i explicar el vocabulari abans de fer-lo servir. Distingir una capseta antiga de la còpia nova que es podrà tocar, sense coneixements previs de museus.",
@@ -808,15 +808,15 @@
     },
     "strategy": "packed-title-program-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
-    "approvalSource": "Nova proposta del 21/11/2026 arran de la revisió docent: situar els objectes antics de casa, explicar el vocabulari i fer natural el llenguatge de Biel. Pendent de validació docent; cap síntesi autoritzada."
+    "approvalSource": "Validació explícita del docent el 21/11/2026: «S033 validat per síntesi de veus». Guió, veus i escaleta autoritzats; agrupar en un lot compatible de sis a vuit minuts."
   },
   "S034": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "469e9b6a38364a57432599dfc0cccb44dd5c6b7e2f59b4a638ddc35897da8098",
+    "reviewedAt": "2026-11-21T09:30:54.248Z",
     "reviewActivity": "ca-S034",
     "reviewContent": "content/propostes/tanda2/quart.js",
-    "format": "4t avançada: distingir el que sap qui és dins d’un assaig del que interpreten els que arriben després; relacionar dues indicacions i reconstruir la confusió.",
+    "format": "4t avançada: seguir què sap en Ferran, què no arriba a sentir i com interpreta l’aturada de l’assaig i els aplaudiments. Relacionar dues indicacions i reconstruir la seva confusió.",
     "cues": [
       "Entrada de «Entre dues cortines» proposada i sala real molt baixa; retirar l’ambient abans del relat.",
       "Pausa breu, una cadira real fora de la veu; la base continua baixa i neutral.",
@@ -828,19 +828,19 @@
     },
     "strategy": "packed-title-program-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
-    "approvalSource": "Passada específica de naturalitat i coherència del 21/11/2026 sol·licitada pel docent: diagnòstic independent, correcció quan cal i comprovació final del guió, preguntes, respostes, cites i muntatge. Pendent del vistiplau docent; cap síntesi autoritzada."
+    "approvalSource": "Validació explícita del docent el 21/11/2026: «S034 validat per síntesi de veus». Guió, veus i escaleta autoritzats; producció en un lot compatible de sis a vuit minuts. Resum i focus corregits per situar la confusió en Ferran; text parlat, introducció, preguntes, veus i muntatge conservats íntegres."
   },
   "S035": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "f645704c529030ffc6e88b58ff7615b234e94bfb7cc6bda3627ec818b93d384d",
+    "reviewedAt": "2026-11-21T09:34:44.906Z",
     "reviewActivity": "ca-S035",
     "reviewContent": "content/propostes/tanda2/cinque.js",
-    "format": "5è accessible: entendre per què es modifica una pregunta amb dues idees i seguir un procediment explícit de recollida, sense calcular percentatges ni conèixer estadística.",
+    "format": "5è accessible: descobrir dues preguntes barrejades, escoltar la reformulació de la Laia i entendre com provaran si el full s’entén. Vuit preguntes sobre el que passa, sense llistes de control ni arxiu de documents.",
     "cues": [
-      "Aula enregistrada breu i retirada abans de la salutació. Cap veu addicional intel·ligible.",
-      "Pausa curta i full real. Cap senyal sonor associat a sí, no o no ho sé.",
-      "Veu completa i papers reals al final, amb 600 ms de silenci."
+      "Ambient real d’aula abans de la salutació, després molt baix i sense paraules entenedores.",
+      "Pausa breu amb paper real, sense tapar cap paraula.",
+      "Veus completes; pujada breu de l’ambient d’aula i fosa amb cua de silenci."
     ],
     "plannedNewRequests": 1,
     "requiredVoices": {
@@ -849,7 +849,7 @@
     },
     "strategy": "packed-title-program-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
-    "approvalSource": "Passada específica de naturalitat i coherència del 21/11/2026 sol·licitada pel docent: diagnòstic independent, correcció quan cal i comprovació final del guió, preguntes, respostes, cites i muntatge. Pendent del vistiplau docent; cap síntesi autoritzada."
+    "approvalSource": "Validació condicionada explícita del docent el 21/11/2026: «Rectifica aquesta frase i queda validat per pujar a síntesi de veus». Aplicat a l’inici «les nostres idees a la comissió de menjador del consell escolar» i a la resposta/cita corresponents. Guió, dues veus i muntatge autoritzats; agrupar en un lot de sis a vuit minuts."
   },
   "S036": {
     "status": "awaiting-validation",
@@ -857,10 +857,10 @@
     "reviewedAt": null,
     "reviewActivity": "ca-S036",
     "reviewContent": "content/propostes/tanda2/cinque.js",
-    "format": "5è accessible: distingir observació, record familiar i identificació confirmada. Tots els termes i motius s’expliciten; vuit respostes sense coneixement històric extern.",
+    "format": "5è accessible: seguir dues explicacions sobre una capseta concreta, entendre per què la Nora busca una foto antiga i com explica el dubte als visitants. Vuit preguntes sense vocabulari de museu pressupòsit.",
     "cues": [
-      "Taller real baix, sense eines treballant. La peça no produeix cap so identificador.",
-      "Pausa curta de paper real, sense etiquetar acústicament una de les hipòtesis com a correcta.",
+      "Taller real baix, sense eines treballant. Cap so de l’objecte que n’insinuï l’ús.",
+      "Pausa curta de paper real fora de la veu, sense ressaltar cap resposta amb un efecte.",
       "Marge complet després del comiat; sintonia de sortida proposada i silenci final."
     ],
     "plannedNewRequests": 1,
@@ -870,12 +870,12 @@
     },
     "strategy": "packed-title-program-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
-    "approvalSource": "Passada específica de naturalitat i coherència del 21/11/2026 sol·licitada pel docent: diagnòstic independent, correcció quan cal i comprovació final del guió, preguntes, respostes, cites i muntatge. Pendent del vistiplau docent; cap síntesi autoritzada."
+    "approvalSource": "Nova proposta del 21/11/2026 després del retorn docent sobre registre i context: Una capseta misteriosa: capseta de fusta situada des de la salutació, preguntes quotidianes del Biel i llenguatge de museu retirat també de les preguntes. Revisió independent final superada; pendent del vistiplau docent, sense síntesi autoritzada."
   },
   "S037": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "644fb73d0e0b6c5a038e3ac7c225bbec76cf0a7dd1e04f3eca581902f345f078",
+    "reviewedAt": "2026-11-21T09:35:53.798Z",
     "reviewActivity": "ca-S037",
     "reviewContent": "content/propostes/tanda2/cinque.js",
     "format": "5è intermèdia: contrastar dues fonts, comprendre una rectificació parcial i separar lloc, hora i destinatari. No cal recordar dates numèriques ni usar cap aplicació externa.",
@@ -891,12 +891,12 @@
     },
     "strategy": "packed-title-program-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
-    "approvalSource": "Passada específica de naturalitat i coherència del 21/11/2026 sol·licitada pel docent: diagnòstic independent, correcció quan cal i comprovació final del guió, preguntes, respostes, cites i muntatge. Pendent del vistiplau docent; cap síntesi autoritzada."
+    "approvalSource": "Validació explícita del docent el 21/11/2026: «S037 validat per síntesi de veus». Guió, veus i escaleta autoritzats; agrupar en un lot compatible de sis a vuit minuts."
   },
   "S038": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "006605a2dc07cde2f790dec40ae942c5677c22b1bb06a6c1514f1456d0d7c507",
+    "reviewedAt": "2026-11-21T09:30:54.249Z",
     "reviewActivity": "ca-S038",
     "reviewContent": "content/propostes/tanda2/cinque.js",
     "format": "5è intermèdia: reconstruir dues interpretacions del mateix lloc, relacionar una previsió amb el desenllaç i distingir el que el narrador sap al principi del que descobreix després.",
@@ -911,7 +911,7 @@
     },
     "strategy": "packed-title-program-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
-    "approvalSource": "Passada específica de naturalitat i coherència del 21/11/2026 sol·licitada pel docent: diagnòstic independent, correcció quan cal i comprovació final del guió, preguntes, respostes, cites i muntatge. Pendent del vistiplau docent; cap síntesi autoritzada."
+    "approvalSource": "Validació explícita del docent el 21/11/2026: «S038 validat per síntesi.». Guió, veus i escaleta autoritzats; producció en un lot compatible de sis a vuit minuts. Es conserva íntegrament la narració. La nova versió S038D necessita revisió i validació pròpies abans de sintetitzar."
   },
   "S039": {
     "status": "awaiting-validation",
@@ -962,11 +962,11 @@
     "reviewedAt": null,
     "reviewActivity": "ca-S041",
     "reviewContent": "content/propostes/tanda2/sise.js",
-    "format": "6è accessible: procediment explicitat, referents clars i distinció entre proposar, decidir i encarregar una tasca. Nou preguntes sense fer memoritzar una llista de càrrecs.",
+    "format": "6è accessible: seguir com canvia una idea concreta en parlar del temps i el lloc disponibles. Relacionar els suggeriments del Biel amb les preguntes de la mestra, sense actes, apartats ni càrrecs a recordar.",
     "cues": [
-      "Cadira real i papers abans de la salutació, després silenci d’aula.",
-      "Clic real de bolígraf dins una pausa, sense tapar cap nom o condició.",
-      "Deixar acabar la veu; moviment real de papers i 600 ms de silenci final."
+      "Ambient real d’aula dos segons, fosa a un nivell molt baix abans de la salutació. Sense paraules de fons entenedores.",
+      "Moviment real de cadira, breu i sense tapar la pregunta del Biel.",
+      "Conservar l’última paraula; pujada breu de l’ambient d’aula, fosa i 600 ms de silenci."
     ],
     "plannedNewRequests": 1,
     "requiredVoices": {
@@ -975,12 +975,12 @@
     },
     "strategy": "packed-title-program-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
-    "approvalSource": "Passada específica de naturalitat i coherència del 21/11/2026 sol·licitada pel docent: diagnòstic independent, correcció quan cal i comprovació final del guió, preguntes, respostes, cites i muntatge. Pendent del vistiplau docent; cap síntesi autoritzada."
+    "approvalSource": "Nova proposta del 21/11/2026 després del retorn docent sobre registre i context: Què farem per portes obertes?: conversa d’aula sobre temps, soroll i lloc per a una proposta de ràdio; sense actes, categories de pendents ni lectura d’acords. Revisió independent final superada; pendent del vistiplau docent, sense síntesi autoritzada."
   },
   "S042": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "524ecd571d64ca6c090904d7880bbb3c1f8f19571fe52f5bf3e7dcfb354f79d0",
+    "reviewedAt": "2026-11-21T09:30:54.249Z",
     "reviewActivity": "ca-S042",
     "reviewContent": "content/propostes/tanda2/sise.js",
     "format": "6è intermèdia: comparar recorreguts amb la mateixa mitjana i relacionar els temps observats, l’espera pels cotxes i l’hora de la visita. Seguir la proposta d’una nova prova dins d’una conversa d’aula. Càlculs explícits i nou preguntes, sense exigir retenir cada valor.",
@@ -996,7 +996,7 @@
     },
     "strategy": "packed-title-program-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
-    "approvalSource": "Nova proposta del 21/11/2026: conservar l’inici i la comparació de temps, i reformular la segona part com una conversa d’aula natural sobre l’hora de la visita i una prova amb el cronòmetre. Preguntes i cites adaptades. Pendent de revalidació docent; cap síntesi autoritzada."
+    "approvalSource": "Validació explícita del docent el 21/11/2026: «S042 validat per pujar a síntesi de veus». Guió, veus i escaleta autoritzats; producció en un lot compatible de sis a vuit minuts."
   },
   "S043": {
     "status": "awaiting-validation",
@@ -1016,7 +1016,7 @@
     },
     "strategy": "packed-title-program-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
-    "approvalSource": "Passada específica de naturalitat i coherència del 21/11/2026 sol·licitada pel docent: diagnòstic independent, correcció quan cal i comprovació final del guió, preguntes, respostes, cites i muntatge. Pendent del vistiplau docent; cap síntesi autoritzada."
+    "approvalSource": "Nova proposta del 21/11/2026 després del retorn docent sobre registre i context: situada des de l’inici la feina d’escriure una explicació per dibuix; referència posterior coherent. Revisió independent final superada; pendent del vistiplau docent, sense síntesi autoritzada."
   },
   "S044": {
     "status": "awaiting-validation",
@@ -1037,6 +1037,27 @@
     },
     "strategy": "packed-title-program-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
-    "approvalSource": "Passada específica de naturalitat i coherència del 21/11/2026 sol·licitada pel docent: diagnòstic independent, correcció quan cal i comprovació final del guió, preguntes, respostes, cites i muntatge. Pendent del vistiplau docent; cap síntesi autoritzada."
+    "approvalSource": "Nova proposta del 21/11/2026 després del retorn docent sobre registre i context: la pregunta demana aspectes del programa que volen consultar, no millores ja decidides. Revisió independent final superada; pendent del vistiplau docent, sense síntesi autoritzada."
+  },
+  "S038D": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S038D",
+    "reviewContent": "content/propostes/s038-dialogada.js",
+    "format": "Variant dialogada de S038, que es conserva íntegra. 5è intermèdia: reconstruir dues interpretacions del mateix lloc, relacionar una previsió amb el desenllaç i distingir el que Ferran sabia al principi del que va descobrir després. Mateixes vuit exigències de comprensió; Aina intervé amb dubtes i reaccions motivats. Revisió independent superada; pendent de validació docent, sense síntesi autoritzada per a aquesta variant.",
+    "cues": [
+      "Dos segons d’ambient real d’una estança tranquil·la i entrada suau de la base proposada «Una tarda per explicar», pendent de produir. Baixar l’ambient abans de Ferran; música molt discreta sota les dues veus. Les acotacions no es llegeixen.",
+      "Pausa curta abans que Ferran reprengui el record. Mantenir la base molt baixa, sense aigua ni efectes que indiquin cap lloc.",
+      "Deixar acabar la darrera paraula i un marge de silenci. Pujar la música durant dos segons, fer-ne la fosa i acabar amb silenci, sense cap frase afegida."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Aina": "Zephyr",
+      "Ferran": "Algenib"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Música molt baixa sota la conversa, pujada de dos segons després de la darrera veu, fosa i silenci final.",
+    "approvalSource": "El docent ha demanat una versió dialogada de S038 el 21/11/2026. Proposta amb Aina i Ferran, pendent de validar explícitament. L’aprovació de S038 narrada no autoritza aquesta variant."
   }
 }
