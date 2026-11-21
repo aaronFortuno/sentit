@@ -1,5 +1,12 @@
 # Canvis
 
+## 0.1.67 · 21 de novembre de 2026
+
+- Muntades S006, S009, S029, S031 i S039 a partir de les veus rebudes, sense síntesi nova. Les cinc propostes passen a àudio pendent de validar. Autorització de muntatge local separada de les aprovacions de veu i de l’aprovació final del docent.
+- Parella Ona curta ja aprovada com a recurs, només fora de la parla; parc real CC0 i ambient interior discret acreditats. A S039 l’ambient d’entrevista apareix només sota els torns de Pau; el paper s’omet perquè no hi ha un tall segur.
+- Títols retallats dins de silencis al voltant de la locució canònica; retirat el text sobrer anterior al títol de S029. Pauses de farciment del cos escurçades sense tocar les mostres de parla; marge després de la darrera frase i tancament acotat.
+- Crèdits derivats dels manifests actuals i preses de veu anteriors preservades com a arxiu. Taula de fases, catàleg i recompte de filtres actualitzats. Comprovacions locals de fitxers, llicències, àudios i interfície.
+
 ## 0.1.66 · 21 de novembre de 2026
 
 - S027 publicada amb el màster validat, il·lustració contextual pròpia i solucionari net. Prova separada amb 1,15 s menys de pausa al títol, sense substituir el màster aprovat. S038 definitiva després de retirar l’ambient inicial de plaça amb les mateixes pistes de veu i música; il·lustració pròpia i revisió independent del tancament. S038D publicada també amb la mateixa retirada autoritzada i il·lustració compartida, mantenint la validació independent. S032 definitiva després de retirar dues locucions long pause i el farciment inicial, amb il·lustració pròpia i cos idèntic.

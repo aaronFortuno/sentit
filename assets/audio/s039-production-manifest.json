@@ -1,0 +1,154 @@
+{
+  "code": "S039",
+  "activity": "ca-S039",
+  "state": "awaiting-montage-validation",
+  "file": "s039-news-v1.mp3",
+  "introFile": "s039-news-v1-intro.mp3",
+  "bodyFile": "s039-news-v1-cos.mp3",
+  "offset": 6.099583333333333,
+  "bodyDuration": 130.76045833333333,
+  "fullDuration": 136.86004166666666,
+  "voices": {
+    "Mar": "Erinome",
+    "Pau": "Charon"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "2dd8d2f2332228b8d700d07edf4dace01afe1ee161060c0ac461952b04ec909f",
+  "sourceRequestHash": "8f4ee363b0f70da306d0bdd87e83992a65c58d05a8098e8a22d097a75298be36",
+  "batch": "L03",
+  "rawSha256": "c810d73f6b7fe1f4815ab13add00d533683bb3f3b3c40b15c1e9de4106ad2586",
+  "takeSha256": "6bce2235823c5836ba92a3110ffe24d8f89044ced47a204ebc3fd782dc1da9d0",
+  "coverage": 0.9484536082474226,
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "voiceRetimed": false,
+  "lufs": -18.78,
+  "peakDbTP": -2.5,
+  "effects": [
+    {
+      "name": "ona-curta-obertura",
+      "jingleId": "ona-curta",
+      "origin": "original-procedural-composition",
+      "author": "Sentit",
+      "license": "MIT",
+      "source": "assets/audio/mireia-ona-curta-v1-obertura.mp3",
+      "sourceSha256": "62016b7d191327628b1ca3b0be77e46e0c273a9732e04152ca2cde6efca33d7a",
+      "sourceUrl": "https://github.com/aaronFortuno/sentit/blob/main/tools/propose-mireia-variants.cjs",
+      "excerpt": {
+        "start": 0,
+        "seconds": 4
+      },
+      "start": 0,
+      "underSpeech": false
+    },
+    {
+      "name": "ona-curta-tancament",
+      "jingleId": "ona-curta",
+      "origin": "original-procedural-composition",
+      "author": "Sentit",
+      "license": "MIT",
+      "source": "assets/audio/mireia-ona-curta-v1-tancament.mp3",
+      "sourceSha256": "2ec44fc31e176c8ee86b57167eef042d66b3e38879ce5c092ab353971c5ff4cc",
+      "sourceUrl": "https://github.com/aaronFortuno/sentit/blob/main/tools/propose-mireia-variants.cjs",
+      "excerpt": {
+        "start": 0,
+        "seconds": 3.6
+      },
+      "start": 125.96045833333332,
+      "underSpeech": false
+    },
+    {
+      "name": "callmethefoo-744447",
+      "origin": "external-recording",
+      "author": "callmethefoo",
+      "license": "CC0 1.0",
+      "source": "assets/audio/sources/callmethefoo-744447.mp3",
+      "sourceSha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
+      "sourceUrl": "https://freesound.org/people/callmethefoo/sounds/744447/",
+      "excerpt": {
+        "start": 12,
+        "seconds": 2
+      },
+      "start": 4.35,
+      "underSpeech": false
+    },
+    {
+      "name": "callmethefoo-744447",
+      "origin": "external-recording",
+      "author": "callmethefoo",
+      "license": "CC0 1.0",
+      "source": "assets/audio/sources/callmethefoo-744447.mp3",
+      "sourceSha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
+      "sourceUrl": "https://freesound.org/people/callmethefoo/sounds/744447/",
+      "excerpt": {
+        "start": 12,
+        "seconds": 18.03
+      },
+      "start": 48.1704,
+      "underSpeech": true
+    },
+    {
+      "name": "callmethefoo-744447",
+      "origin": "external-recording",
+      "author": "callmethefoo",
+      "license": "CC0 1.0",
+      "source": "assets/audio/sources/callmethefoo-744447.mp3",
+      "sourceSha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
+      "sourceUrl": "https://freesound.org/people/callmethefoo/sounds/744447/",
+      "excerpt": {
+        "start": 12,
+        "seconds": 16.799999999999983
+      },
+      "start": 70.93044166666667,
+      "underSpeech": true
+    },
+    {
+      "name": "callmethefoo-744447",
+      "origin": "external-recording",
+      "author": "callmethefoo",
+      "license": "CC0 1.0",
+      "source": "assets/audio/sources/callmethefoo-744447.mp3",
+      "sourceSha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
+      "sourceUrl": "https://freesound.org/people/callmethefoo/sounds/744447/",
+      "excerpt": {
+        "start": 12,
+        "seconds": 4.409999999999968
+      },
+      "start": 91.8704416666667,
+      "underSpeech": true
+    }
+  ],
+  "sha256": "1cff791a486e7dc0e76e8761bf22f90d71b5111a349f81749f1093d4ca41e590",
+  "montageAuthorization": {
+    "status": "authorized-for-draft-montage",
+    "date": "2026-11-21",
+    "authorization": "El docent demana treballar en les peces amb veus rebudes i muntatge pendent. Es prepara una proposta per audició, sense validar-la definitivament ni sintetitzar res.",
+    "voiceApprovalFingerprint": "3b110b29e219a630fe6092554e69475b8a86713f1d690548ebabbca82eca8acb",
+    "jingle": "ona-curta",
+    "jingleAuthority": "Els quatre jingles van quedar aprovats com a recursos pel docent el 20/11. Ona curta ja identifica les notícies a S023.",
+    "finalTeacherApproval": false
+  },
+  "preparation": {
+    "canonicalTitleRange": {
+      "start": 0.0400000000000148,
+      "end": 4.789600000000007
+    },
+    "bodyQuietCuts": [
+      {
+        "first": 1426810,
+        "last": 1440009,
+        "start": 59.45041666666667,
+        "end": 60.000375,
+        "seconds": 0.5499583333333333,
+        "maximumDbFS": -52.692726853578534
+      }
+    ],
+    "omittedPaperCue": true,
+    "rawBodyRetainedUntil": 119.16039999999998,
+    "allRetainedSamplesIdentical": true
+  },
+  "voice": {
+    "bodyLead": 7
+  }
+}

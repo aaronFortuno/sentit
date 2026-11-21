@@ -1,0 +1,47 @@
+{
+  "S006": {
+    "status": "authorized-for-draft-montage",
+    "date": "2026-11-21",
+    "authorization": "El docent demana treballar en les peces amb veus rebudes i muntatge pendent. Es prepara una proposta per audició, sense validar-la definitivament ni sintetitzar res.",
+    "voiceApprovalFingerprint": "f0ba2eca5b2470a2832a236cc214aaa2f6dd6657c47a40950b9379e46267097a",
+    "jingle": "ona-curta",
+    "jingleAuthority": "Els quatre jingles van quedar aprovats com a recursos pel docent el 20/11. Ona curta ja identifica les notícies a S023.",
+    "finalTeacherApproval": false
+  },
+  "S009": {
+    "status": "authorized-for-draft-montage",
+    "date": "2026-11-21",
+    "authorization": "El docent demana treballar en les peces amb veus rebudes i muntatge pendent. Es prepara una proposta per audició, sense validar-la definitivament ni sintetitzar res.",
+    "voiceApprovalFingerprint": "cf72b5e388bb92742ed2883dcdc6bf8daa7bbf8813286669dcbf1f2b9082b9ae",
+    "jingle": "ona-curta",
+    "jingleAuthority": "Els quatre jingles van quedar aprovats com a recursos pel docent el 20/11. Ona curta ja identifica les notícies a S023.",
+    "finalTeacherApproval": false
+  },
+  "S029": {
+    "status": "authorized-for-draft-montage",
+    "date": "2026-11-21",
+    "authorization": "El docent demana treballar en les peces amb veus rebudes i muntatge pendent. Es prepara una proposta per audició, sense validar-la definitivament ni sintetitzar res.",
+    "voiceApprovalFingerprint": "7721097a821d76d0a15a5199bb93ea8046b88e2877353211fd49b8ce13f75e23",
+    "jingle": "ona-curta",
+    "jingleAuthority": "Els quatre jingles van quedar aprovats com a recursos pel docent el 20/11. Ona curta ja identifica les notícies a S023.",
+    "finalTeacherApproval": false
+  },
+  "S031": {
+    "status": "authorized-for-draft-montage",
+    "date": "2026-11-21",
+    "authorization": "El docent demana treballar en les peces amb veus rebudes i muntatge pendent. Es prepara una proposta per audició, sense validar-la definitivament ni sintetitzar res.",
+    "voiceApprovalFingerprint": "e11d3a2f216bb6d94dba193f40687f8ee108e384ae809a010a3e55aadabd2a7c",
+    "jingle": "ona-curta",
+    "jingleAuthority": "Els quatre jingles van quedar aprovats com a recursos pel docent el 20/11. Ona curta ja identifica les notícies a S023.",
+    "finalTeacherApproval": false
+  },
+  "S039": {
+    "status": "authorized-for-draft-montage",
+    "date": "2026-11-21",
+    "authorization": "El docent demana treballar en les peces amb veus rebudes i muntatge pendent. Es prepara una proposta per audició, sense validar-la definitivament ni sintetitzar res.",
+    "voiceApprovalFingerprint": "3b110b29e219a630fe6092554e69475b8a86713f1d690548ebabbca82eca8acb",
+    "jingle": "ona-curta",
+    "jingleAuthority": "Els quatre jingles van quedar aprovats com a recursos pel docent el 20/11. Ona curta ja identifica les notícies a S023.",
+    "finalTeacherApproval": false
+  }
+}

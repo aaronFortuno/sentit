@@ -259,15 +259,15 @@ export const productionProgress = {
     "montageNewSynthesisRequests": 0
   },
   "ca-S006": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-20T12:48:05.488Z",
     "editorialFingerprint": "629dbd8f7a80c495f8604b1c8831d2feecf09928c6aebc8e22f148bed95304fe",
     "plannedNewRequests": 1,
     "reason": "Veus validades, pendents del següent lot dins el límit gratuït. Muntatge pendent de sintonies d’informatiu.",
     "sharedJingle": {
-      "status": "awaiting-validation",
-      "programme": "informatiu",
-      "url": "./proves/sintonies-mireia.html"
+      "status": "catalogue-approved",
+      "selected": "ona-curta",
+      "note": "Recurs ja aprovat; aquest muntatge encara espera audició."
     },
     "uncertainTurns": [],
     "receivedTakes": {
@@ -281,7 +281,9 @@ export const productionProgress = {
     },
     "voicesReceivedAt": "2026-11-21T10:58:10.100Z",
     "listeningApproval": false,
-    "voicePreview": "./proves/veus-rebudes.html#S006"
+    "voicePreview": "./proves/veus-rebudes.html#S006",
+    "audioSha256": "7af032486d2870e247a9b82438284bc316856c1639755c2f6cfc4ab556355fe3",
+    "montageNewSynthesisRequests": 0
   },
   "ca-S010": {
     "state": "audio-corrections-pending",
@@ -793,7 +795,7 @@ export const productionProgress = {
     "montageNewSynthesisRequests": 0
   },
   "ca-S009": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-20T21:58:08.267Z",
     "editorialFingerprint": "38014b8e7bff3ce697843ac062788c561d32a4ee41b342e19471419864974df7",
     "plannedNewRequests": 1,
@@ -817,19 +819,26 @@ export const productionProgress = {
     },
     "voicesReceivedAt": "2026-11-21T10:58:10.100Z",
     "listeningApproval": false,
-    "voicePreview": "./proves/veus-rebudes.html#S009"
+    "voicePreview": "./proves/veus-rebudes.html#S009",
+    "audioSha256": "277d9786b3ecac52dd882bce81f9c4566fd8d8114f22d1e038f8112fb5544197",
+    "montageNewSynthesisRequests": 0,
+    "sharedJingle": {
+      "status": "catalogue-approved",
+      "selected": "ona-curta",
+      "note": "Recurs ja aprovat; aquest muntatge encara espera audició."
+    }
   },
   "ca-S029": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-21T08:12:38.478Z",
     "editorialFingerprint": "1cb96a05b63702faec6322ea9a5b4e6920c96d54a91d6e60582fffb8eba9ae1e",
     "plannedNewRequests": 1,
     "confirmation": "Fent aquests canvis que et dic el text quedaria validat per síntesi de veus.",
     "reason": "Guió validat amb l’avís de divendres a les quatre de la tarda. Incorporar la presa Mar/Erinome al lot L03; cap petició curta aïllada.",
     "sharedJingle": {
-      "status": "awaiting-selection",
-      "programme": "informatiu",
-      "note": "Sintonia informativa pendent de seleccionar abans del muntatge; les veus estan autoritzades."
+      "status": "catalogue-approved",
+      "selected": "ona-curta",
+      "note": "Recurs ja aprovat; aquest muntatge encara espera audició."
     },
     "receivedTakes": {
       "received": [
@@ -842,7 +851,9 @@ export const productionProgress = {
     },
     "voicesReceivedAt": "2026-11-21T10:33:32.469Z",
     "listeningApproval": false,
-    "voicePreview": "./proves/veus-rebudes.html#S029"
+    "voicePreview": "./proves/veus-rebudes.html#S029",
+    "audioSha256": "3e0e195ffb6ab56361684a965b9f7e7718a1462f7d3ffab7acabe680e67b674a",
+    "montageNewSynthesisRequests": 0
   },
   "ca-S026": {
     "state": "montage-awaiting-listening",
@@ -1439,7 +1450,7 @@ export const productionProgress = {
     "timingComparison": "./proves/pauses-s011-s027.html#S041"
   },
   "ca-S039": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-21T09:53:12.333Z",
     "editorialFingerprint": "1cc278ba9dc9cc985168c1ec36178fc1e24085217dad78ad685a69f20b4e9f8b",
     "plannedNewRequests": 1,
@@ -1457,10 +1468,17 @@ export const productionProgress = {
     },
     "voicesReceivedAt": "2026-11-21T10:58:10.100Z",
     "listeningApproval": false,
-    "voicePreview": "./proves/veus-rebudes.html#S039"
+    "voicePreview": "./proves/veus-rebudes.html#S039",
+    "audioSha256": "1cff791a486e7dc0e76e8761bf22f90d71b5111a349f81749f1093d4ca41e590",
+    "montageNewSynthesisRequests": 0,
+    "sharedJingle": {
+      "status": "catalogue-approved",
+      "selected": "ona-curta",
+      "note": "Recurs ja aprovat; aquest muntatge encara espera audició."
+    }
   },
   "ca-S031": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-21T09:53:12.333Z",
     "editorialFingerprint": "ff754fc8c82fadef113da738bd7e7027d06563a2a46934eeac6fce6a8b75920b",
     "plannedNewRequests": 1,
@@ -1477,7 +1495,14 @@ export const productionProgress = {
     },
     "voicesReceivedAt": "2026-11-21T10:33:32.469Z",
     "listeningApproval": false,
-    "voicePreview": "./proves/veus-rebudes.html#S031"
+    "voicePreview": "./proves/veus-rebudes.html#S031",
+    "audioSha256": "aee1d5829ff701a39de534de64a48555a0c0278e9eac0bae16dc2af1cf9a4716",
+    "montageNewSynthesisRequests": 0,
+    "sharedJingle": {
+      "status": "catalogue-approved",
+      "selected": "ona-curta",
+      "note": "Recurs ja aprovat; aquest muntatge encara espera audició."
+    }
   },
   "ca-S044": {
     "state": "montage-awaiting-listening",

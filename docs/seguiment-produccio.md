@@ -12,11 +12,11 @@ Actualitzat: **21/11/2026**. Catàleg de **44 peces**, més les variants **S004D
 | [ca-S004](https://sentit.ortogra.fi/#lectura=ca-S004) | El botó de la jaqueta | 3r | Intermèdia · Narració | 1:26 | 6 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [ca-S004D](https://sentit.ortogra.fi/#lectura=ca-S004D) | El botó de la jaqueta · versió dialogada | 3r | Intermèdia · Narració | 1:28 | 6 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [ca-S005](https://sentit.ortogra.fi/#lectura=ca-S005) | La feina d’una cartera | 3r | Intermèdia · Entrevista | 1:43 | 6 | ✅ | ✅ | ✅ | ✅ | ✅ | ◐ **Correccions** | — |
-| [ca-S006](https://sentit.ortogra.fi/#lectura=ca-S006) | S’obre un nou camí al parc | 3r | Avançada · Notícia | Prevista 1:45–2:15 | 6 | ✅ | ✅ | ✅ Veus · ⏳ Sintonia | ✅ | **⏳ Sintonia** | — | — |
+| [ca-S006](https://sentit.ortogra.fi/#lectura=ca-S006) | S’obre un nou camí al parc | 3r | Avançada · Notícia | 1:29 | 6 | ✅ | ✅ | ✅ Veus · ⏳ Sintonia | ✅ | ✅ | **⏳ Escoltar** | — |
 | [ca-S007](https://sentit.ortogra.fi/#lectura=ca-S007) | On va l’aigua del bassal? | 3r | Avançada · Explicació | 2:29 | 6 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
 | [ca-S008](https://sentit.ortogra.fi/#lectura=ca-S008) | La foto que faltava | 4t | Accessible · Narració | 1:33 | 6 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [ca-S008R](https://sentit.ortogra.fi/#lectura=ca-S008R) | La foto que faltava · Històries amb sentit | 4t | Accessible · Narració | 1:40 | 6 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [ca-S009](https://sentit.ortogra.fi/#lectura=ca-S009) | La biblioteca canvia d’horari | 4t | Accessible · Notícia | Prevista 1:50–2:15 | 6 | ✅ | ✅ | ✅ | ✅ | **⏳ Sintonia** | — | — |
+| [ca-S009](https://sentit.ortogra.fi/#lectura=ca-S009) | La biblioteca canvia d’horari | 4t | Accessible · Notícia | 1:35 | 6 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
 | [ca-S010](https://sentit.ortogra.fi/#lectura=ca-S010) | La ruta fins al pavelló | 4t | Intermèdia · Diàleg | 1:39 | 7 | ✅ | ✅ | ✅ | ✅ | ✅ | ◐ **Correccions** | — |
 | [ca-S011](https://sentit.ortogra.fi/#lectura=ca-S011) | Una menjadora per als ocells | 4t | Avançada · Instruccions | 2:07 | 7 | ✅ | ✅ | ✅ | ✅ | ✅ | ◐ **Correccions** | — |
 | [ca-S012](https://sentit.ortogra.fi/#lectura=ca-S012) | Qui arregla els instruments? | 4t | Avançada · Entrevista | 1:59 | 7 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
@@ -36,9 +36,9 @@ Actualitzat: **21/11/2026**. Catàleg de **44 peces**, més les variants **S004D
 | [ca-S026](https://sentit.ortogra.fi/#lectura=ca-S026) | Preparem el racó dels jocs | 3r | Accessible · Instruccions | 1:02 | 6 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
 | [ca-S027](https://sentit.ortogra.fi/#lectura=ca-S027) | El berenar del terrat | 3r | Intermèdia · Narració | 1:13 | 6 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [ca-S028](https://sentit.ortogra.fi/#lectura=ca-S028) | Una parada abans d’obrir | 3r | Intermèdia · Entrevista | Prevista 1:25–1:50 | 6 | ✅ | ✅ | ✅ | — | — | — | — |
-| [ca-S029](https://sentit.ortogra.fi/#lectura=ca-S029) | El cinema surt a la plaça | 3r | Avançada · Notícia | Prevista 1:40–2:05 | 6 | ✅ | ✅ | ✅ Veus · ⏳ Sintonia | ✅ | **⏳ Sintonia** | — | — |
+| [ca-S029](https://sentit.ortogra.fi/#lectura=ca-S029) | El cinema surt a la plaça | 3r | Avançada · Notícia | 1:20 | 6 | ✅ | ✅ | ✅ Veus · ⏳ Sintonia | ✅ | ✅ | **⏳ Escoltar** | — |
 | [ca-S030](https://sentit.ortogra.fi/#lectura=ca-S030) | El cartell que no es llegia | 4t | Accessible · Diàleg | 1:10 | 7 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
-| [ca-S031](https://sentit.ortogra.fi/#lectura=ca-S031) | Una bústia per a propostes | 4t | Accessible · Notícia | Prevista 1:35–2:00 | 7 | ✅ | ✅ | ✅ | ✅ | **⏳ Sintonia** | — | — |
+| [ca-S031](https://sentit.ortogra.fi/#lectura=ca-S031) | Una bústia per a propostes | 4t | Accessible · Notícia | 1:29 | 7 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
 | [ca-S032](https://sentit.ortogra.fi/#lectura=ca-S032) | Una ruta amb pistes | 4t | Intermèdia · Instruccions | 1:23 | 7 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [ca-S033](https://sentit.ortogra.fi/#lectura=ca-S033) | Qui tria què es mostra? | 4t | Intermèdia · Entrevista | Prevista 1:50–2:20 | 7 | ✅ | ✅ | ✅ | — | — | — | — |
 | [ca-S034](https://sentit.ortogra.fi/#lectura=ca-S034) | L’assaig que semblava una funció | 4t | Avançada · Narració | 1:47 | 7 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
@@ -47,7 +47,7 @@ Actualitzat: **21/11/2026**. Catàleg de **44 peces**, més les variants **S004D
 | [ca-S037](https://sentit.ortogra.fi/#lectura=ca-S037) | Quin avís és el bo? | 5è | Intermèdia · Diàleg | 1:37 | 8 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
 | [ca-S038](https://sentit.ortogra.fi/#lectura=ca-S038) | El banc que havien mogut | 5è | Intermèdia · Narració | 1:43 | 8 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [ca-S038D](https://sentit.ortogra.fi/#lectura=ca-S038D) | El banc que havien mogut · versió dialogada | 5è | Intermèdia · Narració | 2:17 | 8 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [ca-S039](https://sentit.ortogra.fi/#lectura=ca-S039) | Una biblioteca d’objectes en prova | 5è | Avançada · Notícia | Prevista 2:15–2:45 | 8 | ✅ | ✅ | ✅ | ✅ | **⏳ Sintonia** | — | — |
+| [ca-S039](https://sentit.ortogra.fi/#lectura=ca-S039) | Una biblioteca d’objectes en prova | 5è | Avançada · Notícia | 2:11 | 8 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
 | [ca-S040](https://sentit.ortogra.fi/#lectura=ca-S040) | Una exposició que es pugui escoltar | 6è | Accessible · Entrevista | Prevista 2:15–2:45 | 9 | ✅ | ✅ | ✅ Veus · ⏳ Sintonia | — | — | — | — |
 | [ca-S041](https://sentit.ortogra.fi/#lectura=ca-S041) | Què farem per portes obertes? | 6è | Accessible · Instruccions | 1:37 | 9 | ✅ | ✅ | ✅ | ✅ | ✅ | ◐ **Correccions** | — |
 | [ca-S042](https://sentit.ortogra.fi/#lectura=ca-S042) | Dos camins amb la mateixa mitjana | 6è | Intermèdia · Explicació | 1:41 | 9 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
@@ -56,8 +56,8 @@ Actualitzat: **21/11/2026**. Catàleg de **44 peces**, més les variants **S004D
 
 ## Com revisar-les
 
-- **9 propostes encara no tenen muntatge**: S006, S009, S028, S029, S031, S033, S036, S039, S040. Es poden revisar per codi, en qualsevol ordre. El solucionari s’obre amb el guió anotat primer i les preguntes i respostes després. Els plans agrupen el text en una petició per a una o dues veus; les escenes d’aula amb tres veus preveuen dues peticions i muntatge local. Els guions amb aprovació continuen a la cua de veus; els altres esperen el docent. S020 té muntatge amb Petita descoberta; la seva fase vigent consta a la taula.
-- **S005, S007, S010, S011, S013, S014, S015, S016, S017, S021, S022, S023, S024, S025, S026, S030, S034, S035, S037, S041, S042, S043, S044 esperen audició**. El PDF diu «Àudio pendent de validar» i es pot imprimir per revisar. La confirmació del guió no valida automàticament el muntatge.
+- **4 propostes encara no tenen muntatge**: S028, S033, S036, S040. Es poden revisar per codi, en qualsevol ordre. El solucionari s’obre amb el guió anotat primer i les preguntes i respostes després. Els plans agrupen el text en una petició per a una o dues veus; les escenes d’aula amb tres veus preveuen dues peticions i muntatge local. Els guions amb aprovació continuen a la cua de veus; els altres esperen el docent. S020 té muntatge amb Petita descoberta; la seva fase vigent consta a la taula.
+- **S005, S006, S007, S009, S010, S011, S013, S014, S015, S016, S017, S021, S022, S023, S024, S025, S026, S029, S030, S031, S034, S035, S037, S039, S041, S042, S043, S044 esperen audició**. El PDF diu «Àudio pendent de validar» i es pot imprimir per revisar. La confirmació del guió no valida automàticament el muntatge.
 - **S001 i S002** són prototips anteriors al registre formal de validacions. No se’ls ha atribuït retrospectivament una aprovació definitiva.
 - **S008R** revisa la mateixa història de S008 com a programa de ràdio, amb benvinguda i comiat; no és una peça número 25 del catàleg base.
 

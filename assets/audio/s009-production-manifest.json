@@ -1,0 +1,107 @@
+{
+  "code": "S009",
+  "activity": "ca-S009",
+  "state": "awaiting-montage-validation",
+  "file": "s009-news-v1.mp3",
+  "introFile": "s009-news-v1-intro.mp3",
+  "bodyFile": "s009-news-v1-cos.mp3",
+  "offset": 6.97,
+  "bodyDuration": 94.97,
+  "fullDuration": 101.94,
+  "voices": {
+    "Mar": "Erinome"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "2dd8d2f2332228b8d700d07edf4dace01afe1ee161060c0ac461952b04ec909f",
+  "sourceRequestHash": "c600345647bed0d1d09ca7b26cd5460240f4d266e72e69d5196230173c43fd74",
+  "batch": "L03",
+  "rawSha256": "c810d73f6b7fe1f4815ab13add00d533683bb3f3b3c40b15c1e9de4106ad2586",
+  "takeSha256": "ae1abbec31fb02cd9cc9a876fcb66c3afc1e5ac14ab4df0de98dfc1e3bd5fe58",
+  "coverage": 0.979933110367893,
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "voiceRetimed": false,
+  "lufs": -18.78,
+  "peakDbTP": -2.5,
+  "effects": [
+    {
+      "name": "ona-curta-obertura",
+      "jingleId": "ona-curta",
+      "origin": "original-procedural-composition",
+      "author": "Sentit",
+      "license": "MIT",
+      "source": "assets/audio/mireia-ona-curta-v1-obertura.mp3",
+      "sourceSha256": "62016b7d191327628b1ca3b0be77e46e0c273a9732e04152ca2cde6efca33d7a",
+      "sourceUrl": "https://github.com/aaronFortuno/sentit/blob/main/tools/propose-mireia-variants.cjs",
+      "excerpt": {
+        "start": 0,
+        "seconds": 4
+      },
+      "start": 0,
+      "underSpeech": false
+    },
+    {
+      "name": "ona-curta-tancament",
+      "jingleId": "ona-curta",
+      "origin": "original-procedural-composition",
+      "author": "Sentit",
+      "license": "MIT",
+      "source": "assets/audio/mireia-ona-curta-v1-tancament.mp3",
+      "sourceSha256": "2ec44fc31e176c8ee86b57167eef042d66b3e38879ce5c092ab353971c5ff4cc",
+      "sourceUrl": "https://github.com/aaronFortuno/sentit/blob/main/tools/propose-mireia-variants.cjs",
+      "excerpt": {
+        "start": 0,
+        "seconds": 3.6
+      },
+      "start": 90.16999999999999,
+      "underSpeech": false
+    },
+    {
+      "name": "beussa-749880",
+      "origin": "external-recording",
+      "author": "Beussa",
+      "license": "CC0 1.0",
+      "source": "assets/audio/sources/beussa-749880.mp3",
+      "sourceSha256": "4b38b5c58abb206d5b86b9d5b6a3acde8eea90c288ef194b4a67503fe659b4a9",
+      "sourceUrl": "https://freesound.org/people/Beussa/sounds/749880/",
+      "excerpt": {
+        "start": 0,
+        "seconds": 0.678
+      },
+      "start": 5.1,
+      "underSpeech": false
+    }
+  ],
+  "sha256": "277d9786b3ecac52dd882bce81f9c4566fd8d8114f22d1e038f8112fb5544197",
+  "montageAuthorization": {
+    "status": "authorized-for-draft-montage",
+    "date": "2026-11-21",
+    "authorization": "El docent demana treballar en les peces amb veus rebudes i muntatge pendent. Es prepara una proposta per audició, sense validar-la definitivament ni sintetitzar res.",
+    "voiceApprovalFingerprint": "cf72b5e388bb92742ed2883dcdc6bf8daa7bbf8813286669dcbf1f2b9082b9ae",
+    "jingle": "ona-curta",
+    "jingleAuthority": "Els quatre jingles van quedar aprovats com a recursos pel docent el 20/11. Ona curta ja identifica les notícies a S023.",
+    "finalTeacherApproval": false
+  },
+  "preparation": {
+    "canonicalTitleRange": {
+      "start": 0.05500000000000116,
+      "end": 5.674999999999988
+    },
+    "bodyQuietCuts": [
+      {
+        "first": 6000,
+        "last": 21720,
+        "start": 0.25,
+        "end": 0.905,
+        "seconds": 0.655,
+        "maximumDbFS": -42.455059634001046
+      }
+    ],
+    "rawBodyRetainedUntil": 83.475,
+    "allRetainedSamplesIdentical": true
+  },
+  "voice": {
+    "bodyLead": 7
+  }
+}
