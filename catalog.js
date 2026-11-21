@@ -1,14 +1,15 @@
 import { collectionsKey, listCollections, saveCollectionEntries, renameCollection, removeCollection, moveCollectionReading, removeCollectionReading } from './collections.js';
-import { durationText, durationTier, matchesDuration } from './activity-meta.js';
+import { durationText, durationTier } from './activity-meta.js';
 import { animateRefresh, closeDialog, openDialog, setDetailsOpen, setDisclosure } from './motion.js';
 import { mountCatalogGestures } from './catalog-gestures.js';
-import { characters, matchesCharacters } from './content/characters.js';
+import { characters } from './content/characters.js';
 import { isPendingReview, needsReview } from './review.js';
-import { universes, universeName, universesForActivity, matchesUniverse } from './content/universes.js';
+import { universes, universeName, universesForActivity } from './content/universes.js';
 import { reviewCaption, hasPendingSynthesisEdit } from './editorial-review.js';
 import { track, countBucket } from './analytics.js';
 import { productionStage, productionStages, pendingProductionStages } from './production-stage.js';
 import { syncSelects } from './select-menu.js';
+import { matchesCatalogFilters, catalogFacetCounts } from './catalog-filters.js';
 
 const normalise = value => value.toLocaleLowerCase().normalize('NFD').replace(/\p{M}/gu, '');
 const activeKey = 'sentit.collection.active.v1';
@@ -98,32 +99,43 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
     scroller.scrollTop = 0;
   }
 
-  function renderFilters() {
+  function renderFilters(entries, state) {
+    const countedOptions = (field, choices) => {
+      const counts = catalogFacetCounts(entries, state, field, choices.map(([value]) => value));
+      return choices.map(([value, label]) => {
+        const count = counts.get(value);
+        const option = new Option(`${label} (${count})`, value);
+        option.dataset.label = label;
+        option.dataset.count = String(count);
+        return option;
+      });
+    };
     const dictionaries = { grade: t('grades'), level: t('levels'), duration: t('durations'), genre: t('genres') };
     for (const field of fields) {
       const select = byId(field);
       const saved = select.value;
       const choices = { ...dictionaries[field] };
       if (field !== 'duration') for (const entry of activities) choices[entry[field]] ??= entry[field];
-      select.replaceChildren(new Option(t('all'), ''), ...Object.entries(choices).map(([value, text]) => new Option(text, value)));
+      select.replaceChildren(...countedOptions(field, [['', t('all')], ...Object.entries(choices)]));
       select.value = saved;
     }
     const select = byId('content-language');
     const saved = select.value;
-    select.replaceChildren(new Option(t('all'), ''), ...[...new Set(activities.map(entry => entry.language))].map(code => new Option(languageName(code), code)));
+    select.replaceChildren(...countedOptions('content-language', [['', t('all')], ...[...new Set(activities.map(entry => entry.language))].map(code => [code, languageName(code)])]));
     select.value = saved;
     const universeSelect = byId('universe'), savedUniverse = universeSelect.value;
-    universeSelect.replaceChildren(new Option(t('all'), ''), ...universes.map(universe => new Option(universeName(universe, locale()), universe.id)), new Option(t('independentActivities'), 'independent'));
+    universeSelect.replaceChildren(...countedOptions('universe', [['', t('all')], ...universes.map(universe => [universe.id, universeName(universe, locale())]), ['independent', t('independentActivities')]]));
     universeSelect.value = savedUniverse;
-    renderCharacterFilter();
+    renderCharacterFilter(catalogFacetCounts(entries, state, 'characters', characters.map(character => character.id)));
     syncSelects(byId('filters'));
     syncSelects(byId('collection-panel'));
   }
 
-  function renderCharacterFilter() {
+  function renderCharacterFilter(counts) {
     const choices = byId('character-filter-options');
     choices.replaceChildren(...characters.map(character => {
-      const button = element('button', character.name, 'character-filter-chip'); button.type = 'button';
+      const button = element('button', `${character.name} (${counts.get(character.id)})`, 'character-filter-chip'); button.type = 'button';
+      button.dataset.count = String(counts.get(character.id));
       button.dataset.filterCharacter = character.id;
       button.setAttribute('aria-pressed', String(selectedCharacters.has(character.id)));
       return button;
@@ -302,18 +314,13 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
     picker.value = collectionId;
     byId('collection-actions').hidden = !collectionId;
     byId('collection-help').textContent = t(collectionId ? 'collectionGestureHelp' : 'catalogGestureHelp');
-    renderFilters();
     const values = Object.fromEntries(new FormData(byId('filters')));
     const terms = normalise(byId('search').value).trim().split(/\s+/u).filter(Boolean);
-    const candidates = sourceEntries().filter(entry => {
-      return matchesReviewMode(entry)
-        && matchesUniverse(entry, values.universe)
-        && fields.every(field => field === 'duration' ? matchesDuration(entry, values[field]) : !values[field] || values[field] === entry[field])
-        && (!values['content-language'] || entry.language === values['content-language'])
-        && matchesCharacters(entry, selectedCharacters, values['character-match'])
-        && terms.every(term => searchIndex.get(entry.id).includes(term));
-    });
-    matches = candidates.filter(entry => !showProvisional || !phaseFilter || productionStage(entry)?.id === phaseFilter);
+    const entries = sourceEntries();
+    const state = { values, terms, selectedCharacters, searchIndex, showProvisional, phaseFilter };
+    renderFilters(entries, state);
+    const candidates = entries.filter(entry => matchesCatalogFilters(entry, state, 'phase'));
+    matches = candidates.filter(entry => matchesCatalogFilters(entry, state));
     renderProductionFilter(candidates);
     const readyCount = activities.filter(entry => entry.audio && !needsReview(entry)).length;
     const count = byId('catalog-count');
