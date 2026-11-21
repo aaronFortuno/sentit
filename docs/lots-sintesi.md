@@ -8,7 +8,7 @@ Proposta de planificació · **21/11/2026**. **Cap petició nova enviada.** Els 
 - Per petició: màxim 8.192 tokens de text d’entrada i 16.384 tokens d’àudio de sortida. Els 10.000 tokens/minut del projecte no són una bossa acumulable per fer una petició més gran.
 - L’àudio es compta a 25 tokens/segon; el sostre de sortida equival aproximadament a 10:55 incloent-hi silencis.
 - Objectiu inicial: **6–8 minuts totals**, una o dues veus predefinides, amb diverses lectures i esmenes compatibles. Per exemple, tres lectures de dos minuts poden compartir una petició; cinc de tres minuts no hi caben.
-- La cua aprovada actual són dotze comprensions i nou frases d’esmena: vuit lots candidats en comptes de dinou peticions separades. **L01, L02, L03 i L05 arriben ara a la finestra de mida. L04, L06, L07 i L08 esperen més material compatible.** No s’han enviat ni es poden executar automàticament des d’aquesta taula.
+- La cua aprovada actual són 21 comprensions i nou frases d’esmena: 12 lots candidats en comptes de 28 peticions separades. **L01, L02, L03, L05, L06, L08, L10 arriben ara a la finestra de mida. L04, L07, L09, L11, L12 esperen més material compatible.** No s’han enviat ni es poden executar automàticament des d’aquesta taula.
 
 ## Límits i criteri de mida
 
@@ -26,20 +26,26 @@ Exemples: quatre peces de dos minuts sumen vuit minuts abans d’afegir marges; 
 
 | Lot | Veus predefinides | Blocs | Mots parlats | Previsió amb marges | Tokens d’àudio estimats | Estat de mida |
 | --- | --- | --- | ---: | ---: | ---: | --- |
-| L01 | Aoede + Leda | S021-T01; S011-T01; S013 · repartiment; S013 · error; S010 · pla | 711 | 6:49 | 10225 | Finestra completa; payload pendent |
+| L01 | Aoede + Leda | S021-T01; S032-T01; S013 · repartiment; S013 · error; S010 · pla | 697 | 6:15 | 9375 | Finestra completa; payload pendent |
 | L02 | Puck + Leda | S011-T02; S010 · alternativa; S007-T02; S024-T01; S017-T02 | 700 | 7:16 | 10900 | Finestra completa; payload pendent |
-| L03 | Erinome + Algenib | S006-T01; S009-T01; S029-T01; S016 · exposicio; S022 · dema; S023 · tancament | 845 | 7:36 | 11400 | Finestra completa; payload pendent |
+| L03 | Erinome | S006-T01; S009-T01; S029-T01 | 800 | 7:01 | 10525 | Finestra completa; payload pendent |
 | L04 | Vindemiatrix + Kore | S005 · comprovar; S015 · llum | 27 | 0:22 | 550 | Espera més material |
-| L05 | Aoede + Puck | S007-T01; S017-T01; S026-T01 | 697 | 6:58 | 10450 | Finestra completa; payload pendent |
-| L06 | Aoede + Puck | S014-T01 | 365 | 3:10 | 4750 | Espera més material |
+| L05 | Aoede + Puck | S007-T01; S017-T01; S042-T01 | 777 | 7:38 | 11450 | Finestra completa; payload pendent |
+| L06 | Aoede + Puck | S014-T01; S011-T01; S026-T01 | 795 | 7:26 | 11150 | Finestra completa; payload pendent |
 | L07 | Leda + Kore | S040-T01 | 371 | 3:13 | 4825 | Espera més material |
-| L08 | Puck + Leda | S030-T01 | 219 | 1:57 | 2925 | Espera més material |
+| L08 | Puck + Leda | S030-T01; S037-T01; S025-T01 | 679 | 6:01 | 9025 | Finestra completa; payload pendent |
+| L09 | Leda + Charon | S028-T01 | 206 | 1:50 | 2750 | Espera més material |
+| L10 | Algenib + Erinome | S034-T01; S038-T01; S016 · exposicio; S022 · dema; S023 · tancament | 677 | 6:05 | 9125 | Finestra completa; payload pendent |
+| L11 | Aoede + Leda | S035-T01 | 263 | 2:19 | 3475 | Espera més material |
+| L12 | Puck + Kore | S033-T01 | 292 | 2:33 | 3825 | Espera més material |
 
-La previsió utilitza 120 mots/minut, tres segons per cada marca de pausa llarga existent i quatre segons addicionals per bloc. És una estimació de planificació, amb tokens d’entrada encara pendents de mesurar. L03 és ara el candidat més llarg; L01 pot servir per calibrar el format. L04, L06, L07 i L08 **no s’envien** fins a completar la finestra amb futurs guions validats i veus compatibles. L05 conserva la Mireia de S007 i S017 a part per no portar L01 per sobre de vuit minuts i incorpora S026 completa amb Aoede/Puck. S014 no s’hi afegeix sencera perquè el superaria. S040 necessita Leda/Kore i no s’afegeix a L04, que ja té dues veus diferents; S030 faria superar els vuit minuts a L02 i espera a L08. No generar contingut de farciment ni deformar repartiments per omplir un lot.
+La previsió utilitza 120 mots/minut, tres segons per cada marca de pausa llarga existent i quatre segons addicionals per bloc. És una estimació de planificació, amb tokens d’entrada encara pendents de mesurar. Els lots L04, L07, L09, L11, L12 **no s’envien** fins a completar la finestra amb futurs guions validats i veus compatibles. No generar farciment ni canviar repartiments per omplir un lot.
 
-L01 combina **S021 completa**, la presa de **Mireia de S011** i tres correccions. **L02 completa S011** amb Laia i Biel, i afegeix l’esmena dels Til·lers. L02 també inclou S024 completa i els alumnes de S007 i S017; L05 conté la Mireia i els títols de S007 i S017, més S026 completa. L03 agrupa S006, S009 i S029 amb les esmenes de Si, rails i suggeriments; L04, matí i temperatura. S007, S011 i S017 continuen necessitant intercalar dues preses al muntatge: tenen tres veus i no es converteixen en lectures completes de dues veus.
+Reorganització amb les validacions del 21/11: L01 combina S021 i S032 amb les correccions Aoede/Leda. S011-T01 passa a L06 amb S014 i S026. L05 conserva la Mireia de S007 i S017 i afegeix S042 completa. L02 conté els alumnes de S007, S011 i S017, S024 i la correcció dels Til·lers. Les tres escenes amb tres veus continuen requerint intercalar dues preses en local.
 
-En total: dotze comprensions noves (quinze preses) i nou frases de correcció. Enviades individualment serien quinze peticions de lectures i quatre de correccions; aquesta proposta les distribueix en vuit candidats, **quatre encara incomplets**. S029, validada el 21/11 amb l’avís de les quatre de la tarda, completa L03. S026, validada amb ambient d’aula al muntatge, completa L05. S014 espera a L06. S040 i S030, amb guió validat el 21/11, esperen a L07 i L08 respectivament. Els R01–R04 existents són una via alternativa: **no executar-los també si les seves esmenes ja s’han rebut en aquests lots**, i tampoc enviar-los curts durant aquesta fase de creixement.
+L03 agrupa les tres lectures d’Erinome: S006, S009 i S029. L10 combina les narracions S034 i S038, amb les esmenes de Si, rails i suggeriments; totes caben en Erinome/Algenib. L08 arriba a la finestra en combinar S030, S037 i S025 amb Puck/Leda. S028 espera a L09 amb Leda/Charon; S035, a L11 amb Aoede/Leda; S040, a L07 amb Leda/Kore. L04 conserva matí i temperatura. S033 espera a L12 amb Puck/Kore. S038D queda fora de la cua: és una proposta nova pendent de validació docent, independent de S038.
+
+En total: **21 comprensions noves (24 preses)** i nou frases de correcció. Enviades individualment serien 24 peticions de lectures i quatre de correccions; aquesta proposta les distribueix en **12 candidats, 7 amb mida completa i 5 encara incomplets**. Les empremtes d’origen es conserven en moure un bloc entre lots. Els R01–R04 són una via alternativa: **no executar-los també si les seves esmenes ja s’han rebut en aquests lots**, i tampoc enviar-los curts durant aquesta fase de creixement.
 
 ## Preparació del pilot
 
@@ -65,7 +71,7 @@ Empremtes de les peticions individuals aprovades, abans d’afegir les fronteres
 | Lot | Codi | Presa o fragment | SHA-256 de la petició d’origen |
 | --- | --- | --- | --- |
 | L01 | S021 | S021-T01 | `0e98dd5b9fcd4c84c51e5f4b99dc54f4e9a40a679f7ccb1b76dcb77a6faefa80` |
-| L01 | S011 | S011-T01 | `73e1ff5fdf235f1cd8e1880c1f74cbfe828cb379adde5be3b7f7cd37daf1f03a` |
+| L01 | S032 | S032-T01 | `b74fd871154ad94fa2dc3b3a54b32ccec03dbb4280f5a9e778b6993c64ada060` |
 | L01 | S013 | repartiment | `562c765dc3c76a72be7873782f3ddecc573f1f10f4f8f0f55c20eb71956c640e` |
 | L01 | S013 | error | `562c765dc3c76a72be7873782f3ddecc573f1f10f4f8f0f55c20eb71956c640e` |
 | L01 | S010 | pla | `a8d86c221c91394f80126bb5b2503e6d16173c2e3000f1aff41edfdf79b71fc2` |
@@ -74,20 +80,29 @@ Empremtes de les peticions individuals aprovades, abans d’afegir les fronteres
 | L02 | S007 | S007-T02 | `3cac570afbf056efc1591679d6c521985c5dfdf1323d6b58164414cf2f1711d7` |
 | L02 | S024 | S024-T01 | `5752318d7e7b57d76f9688b37c14a9b8ee096bc9984675df52fe45801ca66cac` |
 | L02 | S017 | S017-T02 | `70980d5f02ea87c3af8e0553fcce309c9bca67967da3f461ae13c9f323807840` |
-| L05 | S017 | S017-T01 | `135c400446473f483be82619fe8b0844864624712631f819299dd73a8c1700a6` |
-| L05 | S007 | S007-T01 | `dddc6efb4140928f576a414dda65bc08d99b312dda58f648336e16121dd8a77d` |
-| L05 | S026 | S026-T01 | `bb78180d8c2948808cfd5f0c8824f2177ec440e13e5dee3a51ff7b860b4a5204` |
 | L03 | S006 | S006-T01 | `7e285d58bf7f8bb6dd2061ad42a14861f673202966a83b5935b9bfc1924a373a` |
 | L03 | S009 | S009-T01 | `c600345647bed0d1d09ca7b26cd5460240f4d266e72e69d5196230173c43fd74` |
 | L03 | S029 | S029-T01 | `236ae133fc4cee095f688b938ab791a42442874a19663173fd26301611e03ad0` |
-| L06 | S014 | S014-T01 | `2bcf21f0ba387c2047611627b76dd20a3d0ca658874913530cb453c22c35d5aa` |
-| L07 | S040 | S040-T01 | `2c272761f294618a282bd9a412a3608d22fdd29fe980d481438a77c3886208f8` |
-| L08 | S030 | S030-T01 | `45bb28cee99efe23b0263d0bc2a912f1eb1b6d1dca50e49c8c12f4c6d164d2ca` |
-| L03 | S016 | exposicio | `d43335d6ca50e24dfe0d17b43f31e2ad67f7040083b26a3628ebd936896b4df7` |
-| L03 | S022 | dema | `dc75acf7a5f1dae1c4d229ce80f07a0257da22db6d95d0f7235b45a125f75f1f` |
-| L03 | S023 | tancament | `5381bc85a25a80e20c3d2a43e0df955e8f64a4dc7ea5256b52ccd90daf8feb9a` |
 | L04 | S005 | comprovar | `199df0ca13eadc5ebf99ceac4355e01698cb40f2051f92c6557160134a84459a` |
 | L04 | S015 | llum | `ed0588aeb64811b62fd7932e8f58d35dace263a9d77d283e393ed8f6f00fe91e` |
+| L05 | S007 | S007-T01 | `dddc6efb4140928f576a414dda65bc08d99b312dda58f648336e16121dd8a77d` |
+| L05 | S017 | S017-T01 | `135c400446473f483be82619fe8b0844864624712631f819299dd73a8c1700a6` |
+| L05 | S042 | S042-T01 | `707a1abd4099383f028eec9b0f81cd780694f57bc428f9c16dd98cdb303ac866` |
+| L06 | S014 | S014-T01 | `2bcf21f0ba387c2047611627b76dd20a3d0ca658874913530cb453c22c35d5aa` |
+| L06 | S011 | S011-T01 | `73e1ff5fdf235f1cd8e1880c1f74cbfe828cb379adde5be3b7f7cd37daf1f03a` |
+| L06 | S026 | S026-T01 | `bb78180d8c2948808cfd5f0c8824f2177ec440e13e5dee3a51ff7b860b4a5204` |
+| L07 | S040 | S040-T01 | `2c272761f294618a282bd9a412a3608d22fdd29fe980d481438a77c3886208f8` |
+| L08 | S030 | S030-T01 | `45bb28cee99efe23b0263d0bc2a912f1eb1b6d1dca50e49c8c12f4c6d164d2ca` |
+| L08 | S037 | S037-T01 | `71f36ff64975b96955626eee9c604f6a5de1b4fc8eb1ffba7fd559c20389b4d8` |
+| L08 | S025 | S025-T01 | `66b84a43c74e66237c4049b0453309d1724120d30fe4eabea97f38667d75e48b` |
+| L09 | S028 | S028-T01 | `abf704b22ce5bf7f23ee2702bf07ff76e633d948563944f47fe33388cba1cb99` |
+| L10 | S034 | S034-T01 | `6332c96b6359dc458160ecfe98b54e0dcc2ab5cc147847cfff06f571324d68ea` |
+| L10 | S038 | S038-T01 | `5edc1a4ddd2b4417f502e35c44b1724879b9a23aa699fe3e9d705aec3cda3085` |
+| L10 | S016 | exposicio | `d43335d6ca50e24dfe0d17b43f31e2ad67f7040083b26a3628ebd936896b4df7` |
+| L10 | S022 | dema | `dc75acf7a5f1dae1c4d229ce80f07a0257da22db6d95d0f7235b45a125f75f1f` |
+| L10 | S023 | tancament | `5381bc85a25a80e20c3d2a43e0df955e8f64a4dc7ea5256b52ccd90daf8feb9a` |
+| L11 | S035 | S035-T01 | `dd5c2f8d437d8badc54b86d04606388f9779377732870cfa0d185b86e19cc8ed` |
+| L12 | S033 | S033-T01 | `721c65640ec567a0a597ef0dd92ea3aa0bf5108bb484c8769b7e1dae14a6dcb5` |
 
 [Plans dels guions](../content/production-plans.json) · [Correccions exactes i aprovacions](../content/audio-repairs.json) · [Seguiment](seguiment-produccio.md).
 

@@ -1,0 +1,48 @@
+import { proposal, direction as d, spoken as s, question as q, evidence as e } from './proposal.js';
+
+// Variant revisada independentment, pendent del docent. S038 es conserva íntegra.
+export const s038Dialogada = proposal({
+  id: 'el-banc-que-havien-mogut-dialogat', code: 'S038D', title: 'El banc que havien mogut · versió dialogada', grade: '5', level: 'middle', genre: 'story', universeIds: ['aina-ferran'],
+  summary: 'L’Aina conversa amb l’avi Ferran mentre ell recorda una trobada que es va complicar perquè un lloc de referència havia canviat.',
+  voices: { Aina: 'Zephyr', Ferran: 'Algenib' },
+  delivery: 'Conversa entre Aina i el seu avi Ferran. Aina, de deu a dotze anys, escolta amb curiositat, s’imagina què hauria fet ella i pregunta quan el record la sorprèn; no fa d’entrevistadora ni d’experta. Veu clara i viva, sense infantilitzar-la. Ferran explica petits passatges del record, deixa lloc a les reaccions de la neta i respon amb afecte i humor tranquil. Impaciència i alleujament discrets al record; cap caricatura de veu envellida. L’amic esmentat no té veu pròpia. Repartiment proposat, pendent de validació docent i d’audició de la nova lectura.',
+  editorialFocus: 'Variant dialogada de S038, que es conserva íntegra. 5è intermèdia: reconstruir dues interpretacions del mateix lloc, relacionar una previsió amb el desenllaç i distingir el que Ferran sabia al principi del que va descobrir després. Mateixes vuit exigències de comprensió; Aina intervé amb dubtes i reaccions motivats. Revisió independent superada; pendent de validació docent, sense síntesi autoritzada per a aquesta variant.',
+  soundPlan: 'Base original proposada «Una tarda per explicar», diferent d’«Un lloc a l’ombra» de S038, pendent de composició i registre amb llicència MIT. Entrada suau de dos segons i volum molt baix sota les dues veus, sense accents de suspens o descoberta. Ambient real discret d’una estança tranquil·la només a l’obertura i en pauses, pendent de seleccionar i acreditar; el record no es representa amb canvis d’espai sonors. Cap aigua, rellotge, vehicle ni altre efecte que avanci una resposta. Pausa curta abans de la trobada, marge després del comiat, pujada musical de dos segons, fosa i silenci final.',
+  soundCredits: 'Música original proposada, pendent de composició i registre amb llicència MIT; encara no hi ha cap peça utilitzada. L’ambient real està pendent de seleccionar, escoltar, llicenciar i acreditar amb origen, autor i referència verificats. Cap enregistrament ni crèdit es presenta com a confirmat.',
+  illustrationBrief: 'Aina, amb cabells foscos, serrell i ulleres rodones, conversa amb l’avi Ferran, de cabells grisos i barba blanca curta, en una estança tranquil·la. No mostrar banc, font, rellotge, arbres identificadors, carta llegible ni recorregut dels personatges.',
+  transcript: [
+    d('Dos segons d’ambient real d’una estança tranquil·la i entrada suau de la base proposada «Una tarda per explicar», pendent de produir. Baixar l’ambient abans de Ferran; música molt discreta sota les dues veus. Les acotacions no es llegeixen.'),
+    s('carta', 'Ferran', 'Aina, abans de tenir telèfon a la butxaca, amb un amic ens citàvem per carta quan ell venia al poble. Un estiu vam quedar al banc de sota el plàtan, a la plaça.'),
+    s('tard', 'Aina', 'Per carta? I si un dels dos arribava molt tard?'),
+    s('alternatiu', 'Ferran', 'Teníem un altre punt: la font del costat del centre cívic. Si ens endarreríem molt, ens hi trobaríem. Ho havíem escrit tots dos per no acabar voltant sense trobar-nos. La carta havia arribat tres setmanes abans.'),
+    s('temps', 'Aina', 'Tres setmanes! Jo segur que hauria tornat a mirar la carta abans de sortir.'),
+    s('obres', 'Ferran', 'A mi també m’hauria anat bé. Durant aquelles setmanes, van fer unes obres petites a la plaça. Van canviar unes rajoles i van moure el banc a l’altra banda, sota l’ombra d’un arbre nou.'),
+    s('vist', 'Aina', 'I tu ja havies vist el banc a l’altra banda?'),
+    s('espera', 'Ferran', 'Sí, hi havia passat al costat, però no havia relacionat aquell canvi amb la nostra cita. El dia de la trobada vaig anar al banc, tal com el veia davant meu. Vaig seure i vaig esperar. El meu amic sempre era puntual, de manera que al cap d’una estona vaig començar a pensar que potser s’havia equivocat de dia. Em feia ràbia haver-me deixat el paper de la carta a casa.'),
+    s('on', 'Aina', 'Uf, i mentre tu esperaves allà, ell on era?'),
+    s('altre', 'Ferran', 'Ell, mentrestant, havia anat al plàtan de sempre. Després em va explicar que al lloc del banc hi havia una tanca d’obra i no s’hi podia quedar gaire còmode. No havia vist el banc nou perquè el tapava una furgoneta aparcada. Va esperar una estona a prop de la tanca i després va anar a la font.'),
+    d('Pausa curta abans que Ferran reprengui el record. Mantenir la base molt baixa, sense aigua ni efectes que indiquin cap lloc.'),
+    s('trobar', 'Ferran', 'Jo també hi vaig acabar anant, perquè aquell era el lloc alternatiu que teníem apuntat. Quan el vaig veure assegut al costat de la font, el primer que vaig fer va ser mirar el rellotge. Ell va fer el mateix. Tots dos ens pensàvem que era l’altre qui arribava tard.'),
+    s('enfadat', 'Aina', 'Ai, jo m’hauria enfadat! Li vas dir que feia estona que l’esperaves?'),
+    s('explicar', 'Ferran', 'Sí, i ell em va dir el mateix. Ens vam explicar on havíem estat i llavors ho vam entendre. Vam anar a buscar alguna cosa fresca i ell em va ensenyar la carta que havia portat plegada a la butxaca. No s’havia equivocat de dia.'),
+    s('carta-amiga', 'Aina', 'Mira, almenys un dels dos l’havia portada!'),
+    s('final', 'Ferran', 'Jo li vaig dir que l’endemà li tocava a ell triar on quedàvem. Em va assenyalar la font i es va posar a riure.'),
+    s('riure', 'Aina', 'La font! El teu amic ja ho tenia clar.'),
+    d('Deixar acabar la darrera paraula i un marge de silenci. Pujar la música durant dos segons, fer-ne la fosa i acabar amb silenci, sense cap frase afegida.'),
+  ],
+  questions: [
+    q('cita', 'Quin era el lloc acordat primer per trobar-se?', 'El banc de sota el plàtan, a la plaça.', 1, [e('carta', 'al banc de sota el plàtan, a la plaça')]),
+    q('alternatiu', 'Quin lloc alternatiu havien deixat apuntat?', 'La font del costat del centre cívic.', 1, [e('alternatiu', 'la font del costat del centre cívic')]),
+    q('canvi', 'Què havia canviat entre l’arribada de la carta i la trobada?', 'Havien fet obres i havien mogut el banc a l’altra banda de la plaça.', 2, [e('obres', 'van moure el banc a l’altra banda')]),
+    q('ferran', 'Quin punt de referència segueix en Ferran: el banc o el plàtan?', 'El banc, encara que l’hagin mogut.', 1, [e('espera', 'El dia de la trobada vaig anar al banc, tal com el veia davant meu.')]),
+    q('amic', 'Per què l’amic no havia vist el banc nou?', 'Perquè el tapava una furgoneta aparcada.', 1, [e('altre', 'el tapava una furgoneta aparcada')]),
+    q('rellotge', 'Per què tots dos miren el rellotge quan es troben?', 'Perquè cadascun pensa que és l’altre qui arriba tard.', 2, [e('trobar', 'Tots dos ens pensàvem que era l’altre qui arribava tard.')]),
+    q('ajuda', 'Quin acord previ els ajuda a trobar-se malgrat la confusió?', 'Haver previst un lloc alternatiu si s’endarrerien.', 2, [e('alternatiu', 'Si ens endarreríem molt, ens hi trobaríem.'), e('trobar', 'aquell era el lloc alternatiu que teníem apuntat')]),
+    q('interpretacio', 'S’havia equivocat de dia algun dels dos? Què havia passat realment?', 'No. Havien interpretat el lloc de dues maneres: en Ferran seguia el banc i l’amic, el plàtan.', 2, [e('espera', 'El dia de la trobada vaig anar al banc, tal com el veia davant meu.'), e('altre', 'Ell, mentrestant, havia anat al plàtan de sempre.'), e('explicar', 'No s’havia equivocat de dia.')]),
+  ],
+  generationPlan: {
+    note: 'Pla de petició proposat per a les dues veus, amb revisió independent superada i pendent de validació docent del guió, repartiment i muntatge. Música i ambient es munten després. Les acotacions no s’envien com a parla. Cap síntesi nova autoritzada.',
+    takes: [{ id: 'S038D-T01', label: 'Títol i fragment complets', parts: ['introduction', 'carta', 'tard', 'alternatiu', 'temps', 'obres', 'vist', 'espera', 'on', 'altre', 'trobar', 'enfadat', 'explicar', 'carta-amiga', 'final', 'riure'], requests: 1, note: 'Repartiment proposat: Aina, Zephyr; Ferran, Algenib. Aina llegiria també el títol. Text complet en una petició compatible, subjecta a la validació docent i a la política de lots del projecte.' }],
+    localCuts: [{ id: 'S038D-L01', after: 'introduction', label: 'Separar el títol del fragment', note: 'Tall previst dins la pausa després del títol. Quan arribi la presa, caldrà comprovar el silenci real i els marges abans de retallar. No s’elimina parla. Presentació una vegada; fragment complet a cada repetició.' }],
+  },
+});
