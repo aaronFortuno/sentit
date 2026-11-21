@@ -140,8 +140,8 @@ export const editorialReviews = {
   },
   "ca-S025": {
     "status": "passed",
-    "reviewedAt": "2026-11-20",
-    "reviewer": "revisor_coherencia",
+    "reviewedAt": "2026-11-21",
+    "reviewer": "independent-naturalness-and-coherence-b",
     "fingerprint": "464d5002ad52e9784973952ec6d86789ec3bc4951b006b2beabc6d7acc03aced"
   },
   "ca-S026": {
@@ -152,14 +152,14 @@ export const editorialReviews = {
   },
   "ca-S027": {
     "status": "passed",
-    "reviewedAt": "2026-11-20",
-    "reviewer": "revisor_coherencia",
-    "fingerprint": "3c272bb86e0bf17bca64537afe8efbed004225ddd9a3076cdfef06977a96a0c2"
+    "reviewedAt": "2026-11-21",
+    "reviewer": "independent-naturalness-and-coherence-a",
+    "fingerprint": "1c5ec147c7794764cd87928b259785a9f93201f164031b4acbb2d4a8edc48b4d"
   },
   "ca-S028": {
     "status": "passed",
-    "reviewedAt": "2026-11-20",
-    "reviewer": "revisor_coherencia",
+    "reviewedAt": "2026-11-21",
+    "reviewer": "independent-naturalness-and-coherence-b",
     "fingerprint": "b183bcc99d9f13ca71207052609411aa6e9a927a793906b58223587a3bb27a25"
   },
   "ca-S029": {
@@ -170,9 +170,9 @@ export const editorialReviews = {
   },
   "ca-S030": {
     "status": "passed",
-    "reviewedAt": "2026-11-20",
-    "reviewer": "revisor_coherencia",
-    "fingerprint": "ab15e013f5a55a9e313dfba336a947f03a95f42f0823a327c1dffceb6e606500"
+    "reviewedAt": "2026-11-21",
+    "reviewer": "independent-naturalness-and-coherence-b",
+    "fingerprint": "0882c20c5db8894c85747289df8c6572097a71f0ab8effc522b436b19ab3b100"
   },
   "ca-S031": {
     "status": "passed",
@@ -194,33 +194,33 @@ export const editorialReviews = {
   },
   "ca-S034": {
     "status": "passed",
-    "reviewedAt": "2026-11-20",
-    "reviewer": "revisor_coherencia",
-    "fingerprint": "a3006b46d915fe2c6e41d0f06aac990b994ba2c36b1083fd581296afd6460e9d"
+    "reviewedAt": "2026-11-21",
+    "reviewer": "independent-naturalness-and-coherence-a",
+    "fingerprint": "9930b8258de62ff8d2281d73d163d5848ad7b2208878ce1622616dab7343b93a"
   },
   "ca-S035": {
     "status": "passed",
-    "reviewedAt": "2026-11-20",
-    "reviewer": "independent-coherence-agent",
-    "fingerprint": "7ee728862c32570d6b96c679adda984606887839a9d75a66133355cb935fd481"
+    "reviewedAt": "2026-11-21",
+    "reviewer": "independent-naturalness-and-coherence-a",
+    "fingerprint": "86d70894265c14252d98cefa1987ac166e1bd43347e28e83792528069c9002d5"
   },
   "ca-S036": {
     "status": "passed",
-    "reviewedAt": "2026-11-20",
-    "reviewer": "independent-coherence-agent",
-    "fingerprint": "c061b6869b1a8260763921b9eeea67af0e8635ba9d7b58e5ea4e02895fa933f8"
+    "reviewedAt": "2026-11-21",
+    "reviewer": "independent-naturalness-and-coherence-a",
+    "fingerprint": "cf85d8d1318bc4f6532152800015a8ee5fc80267bc280df4e6d793f67ce6dc61"
   },
   "ca-S037": {
     "status": "passed",
-    "reviewedAt": "2026-11-20",
-    "reviewer": "independent-coherence-agent",
+    "reviewedAt": "2026-11-21",
+    "reviewer": "independent-naturalness-and-coherence-b",
     "fingerprint": "124ce39086cf4a52857e7e76743fc5a6a0d4885c635e8de27db2d05d28b097c6"
   },
   "ca-S038": {
     "status": "passed",
-    "reviewedAt": "2026-11-20",
-    "reviewer": "independent-coherence-agent",
-    "fingerprint": "2daae07c230e878c291b87d96f931405c72fd8a2b513c763f9070a7c0afc4e6c"
+    "reviewedAt": "2026-11-21",
+    "reviewer": "independent-naturalness-and-coherence-b",
+    "fingerprint": "17e99f0c936202e01bb9d9f01acbd02d882f90994de423710d6f1b70b022571a"
   },
   "ca-S039": {
     "status": "passed",
@@ -236,26 +236,26 @@ export const editorialReviews = {
   },
   "ca-S041": {
     "status": "passed",
-    "reviewedAt": "2026-11-20",
-    "reviewer": "independent-coherence-agent",
-    "fingerprint": "c88b819e91312381d6c33b5e470f0add8d074711b23dda5124763aac6e1d7f7e"
+    "reviewedAt": "2026-11-21",
+    "reviewer": "independent-naturalness-and-coherence-a",
+    "fingerprint": "b169bf619b79bc6cf552c473b7458c498ce0f8c94f6ae5005430e89401746412"
   },
   "ca-S042": {
     "status": "passed",
-    "reviewedAt": "2026-11-20",
-    "reviewer": "independent-coherence-agent",
-    "fingerprint": "d2ad3aede7f08647ff8b50e4bdd50989e60e4c7f3f9d33a091258079fcfe2b0b"
+    "reviewedAt": "2026-11-21",
+    "reviewer": "independent-naturalness-and-coherence-b",
+    "fingerprint": "36d170f98fd35d2e96e62a2160f8beb530b41102b36346dd6d140fe22cca6566"
   },
   "ca-S043": {
     "status": "passed",
-    "reviewedAt": "2026-11-20",
-    "reviewer": "independent-coherence-agent",
-    "fingerprint": "e6ba136e58d37490ffbcd6b2dd91cbcd909597e98afd1fb31a8e8f5a433d14e3"
+    "reviewedAt": "2026-11-21",
+    "reviewer": "independent-naturalness-and-coherence-b",
+    "fingerprint": "6f18d04076a5dce882ee60867c687465cf04adbe14f18ab8e0714bfdafa73b18"
   },
   "ca-S044": {
     "status": "passed",
-    "reviewedAt": "2026-11-20",
-    "reviewer": "independent-coherence-agent",
-    "fingerprint": "e8e52f56205708ea9679a7c31779074c455bc2825d3c49d3e1b908fa37ac9ed9"
+    "reviewedAt": "2026-11-21",
+    "reviewer": "independent-naturalness-and-coherence-a",
+    "fingerprint": "2c3318e2e72d97823f35529059b19c3cc9eefce6a58a5c4a26c332f3f5895e3d"
   }
 };

@@ -1,6 +1,6 @@
 # Revisió independent de coherència
 
-Actualitzat: **21/11/2026**. **43 de 43** propostes de la tanda tenen revisió independent superada per a la versió actual. Abast: 316 preguntes i 370 cites literals.
+Actualitzat: **21/11/2026**. **43 de 43** propostes de la tanda tenen revisió independent superada per a la versió actual. Abast: 316 preguntes i 380 cites literals.
 
 S’han revisat situacions, cronologia, circulació d’objectes, coneixement dels personatges, causes i desenllaços, acotacions sonores, preguntes, respostes i ancoratges. Les dades factuals sensibles s’han contrastat amb fonts primàries indicades al [dossier editorial](lot-editorial-24.md). La revisió del muntatge és sobre el guió; les veus i el resultat sonor requeriran audició.
 
@@ -31,26 +31,26 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S022](https://sentit.ortogra.fi/#lectura=ca-S022) | L’últim trajecte del tramvia | 6è | Revisió superada · àudio pendent | 2026-11-20 | `906d139200b1…` |
 | [ca-S023](https://sentit.ortogra.fi/#lectura=ca-S023) | Reobren el mercat: què canvia i què falta decidir? | 6è | Revisió superada · àudio pendent | 2026-11-20 | `ded73b9e3639…` |
 | [ca-S024](https://sentit.ortogra.fi/#lectura=ca-S024) | Tres maneres de transformar el pati | 6è | Revisió superada · guió validat | 2026-11-20 | `18db36638b5c…` |
-| [ca-S025](https://sentit.ortogra.fi/#lectura=ca-S025) | El so que faltava | 3r | Provisional · revisió superada | 2026-11-20 | `464d5002ad52…` |
+| [ca-S025](https://sentit.ortogra.fi/#lectura=ca-S025) | El so que faltava | 3r | Provisional · revisió superada | 2026-11-21 | `464d5002ad52…` |
 | [ca-S026](https://sentit.ortogra.fi/#lectura=ca-S026) | Preparem el racó dels jocs | 3r | Revisió superada · guió validat | 2026-11-21 | `cf11d87e14bd…` |
-| [ca-S027](https://sentit.ortogra.fi/#lectura=ca-S027) | El berenar del terrat | 3r | Provisional · revisió superada | 2026-11-20 | `3c272bb86e0b…` |
-| [ca-S028](https://sentit.ortogra.fi/#lectura=ca-S028) | Una parada abans d’obrir | 3r | Provisional · revisió superada | 2026-11-20 | `b183bcc99d9f…` |
+| [ca-S027](https://sentit.ortogra.fi/#lectura=ca-S027) | El berenar del terrat | 3r | Provisional · revisió superada | 2026-11-21 | `1c5ec147c779…` |
+| [ca-S028](https://sentit.ortogra.fi/#lectura=ca-S028) | Una parada abans d’obrir | 3r | Provisional · revisió superada | 2026-11-21 | `b183bcc99d9f…` |
 | [ca-S029](https://sentit.ortogra.fi/#lectura=ca-S029) | El cinema surt a la plaça | 3r | Revisió superada · guió validat | 2026-11-21 | `1cb96a05b637…` |
-| [ca-S030](https://sentit.ortogra.fi/#lectura=ca-S030) | El cartell que no es llegia | 4t | Provisional · revisió superada | 2026-11-20 | `ab15e013f5a5…` |
+| [ca-S030](https://sentit.ortogra.fi/#lectura=ca-S030) | El cartell que no es llegia | 4t | Provisional · revisió superada | 2026-11-21 | `0882c20c5db8…` |
 | [ca-S031](https://sentit.ortogra.fi/#lectura=ca-S031) | Una bústia per a propostes | 4t | Provisional · revisió superada | 2026-11-21 | `ff754fc8c82f…` |
 | [ca-S032](https://sentit.ortogra.fi/#lectura=ca-S032) | Una ruta amb pistes | 4t | Provisional · revisió superada | 2026-11-21 | `a6a628640b23…` |
 | [ca-S033](https://sentit.ortogra.fi/#lectura=ca-S033) | Qui tria què es mostra? | 4t | Provisional · revisió superada | 2026-11-21 | `dab708a0277c…` |
-| [ca-S034](https://sentit.ortogra.fi/#lectura=ca-S034) | L’assaig que semblava una funció | 4t | Provisional · revisió superada | 2026-11-20 | `a3006b46d915…` |
-| [ca-S035](https://sentit.ortogra.fi/#lectura=ca-S035) | Una pregunta per al menjador | 5è | Provisional · revisió superada | 2026-11-20 | `7ee728862c32…` |
-| [ca-S036](https://sentit.ortogra.fi/#lectura=ca-S036) | El nom de l’objecte | 5è | Provisional · revisió superada | 2026-11-20 | `c061b6869b1a…` |
-| [ca-S037](https://sentit.ortogra.fi/#lectura=ca-S037) | Quin avís és el bo? | 5è | Provisional · revisió superada | 2026-11-20 | `124ce39086cf…` |
-| [ca-S038](https://sentit.ortogra.fi/#lectura=ca-S038) | El banc que havien mogut | 5è | Provisional · revisió superada | 2026-11-20 | `2daae07c230e…` |
+| [ca-S034](https://sentit.ortogra.fi/#lectura=ca-S034) | L’assaig que semblava una funció | 4t | Provisional · revisió superada | 2026-11-21 | `9930b8258de6…` |
+| [ca-S035](https://sentit.ortogra.fi/#lectura=ca-S035) | Una pregunta per al menjador | 5è | Provisional · revisió superada | 2026-11-21 | `86d70894265c…` |
+| [ca-S036](https://sentit.ortogra.fi/#lectura=ca-S036) | El nom de l’objecte | 5è | Provisional · revisió superada | 2026-11-21 | `cf85d8d1318b…` |
+| [ca-S037](https://sentit.ortogra.fi/#lectura=ca-S037) | Quin avís és el bo? | 5è | Provisional · revisió superada | 2026-11-21 | `124ce39086cf…` |
+| [ca-S038](https://sentit.ortogra.fi/#lectura=ca-S038) | El banc que havien mogut | 5è | Provisional · revisió superada | 2026-11-21 | `17e99f0c9362…` |
 | [ca-S039](https://sentit.ortogra.fi/#lectura=ca-S039) | Una biblioteca d’objectes en prova | 5è | Provisional · revisió superada | 2026-11-21 | `1cc278ba9dc9…` |
 | [ca-S040](https://sentit.ortogra.fi/#lectura=ca-S040) | Una exposició que es pugui escoltar | 6è | Provisional · revisió superada | 2026-11-21 | `b911a99d5368…` |
-| [ca-S041](https://sentit.ortogra.fi/#lectura=ca-S041) | Una reunió amb decisions clares | 6è | Provisional · revisió superada | 2026-11-20 | `c88b819e9131…` |
-| [ca-S042](https://sentit.ortogra.fi/#lectura=ca-S042) | Dos camins amb la mateixa mitjana | 6è | Provisional · revisió superada | 2026-11-20 | `d2ad3aede7f0…` |
-| [ca-S043](https://sentit.ortogra.fi/#lectura=ca-S043) | El balcó que només era al paper | 6è | Provisional · revisió superada | 2026-11-20 | `e6ba136e58d3…` |
-| [ca-S044](https://sentit.ortogra.fi/#lectura=ca-S044) | El recompte del programa | 6è | Provisional · revisió superada | 2026-11-20 | `e8e52f562057…` |
+| [ca-S041](https://sentit.ortogra.fi/#lectura=ca-S041) | Una reunió amb decisions clares | 6è | Provisional · revisió superada | 2026-11-21 | `b169bf619b79…` |
+| [ca-S042](https://sentit.ortogra.fi/#lectura=ca-S042) | Dos camins amb la mateixa mitjana | 6è | Provisional · revisió superada | 2026-11-21 | `36d170f98fd3…` |
+| [ca-S043](https://sentit.ortogra.fi/#lectura=ca-S043) | El balcó que només era al paper | 6è | Provisional · revisió superada | 2026-11-21 | `6f18d04076a5…` |
+| [ca-S044](https://sentit.ortogra.fi/#lectura=ca-S044) | El recompte del programa | 6è | Provisional · revisió superada | 2026-11-21 | `2c3318e2e72d…` |
 
 Les empremtes completes i el revisor consten al [registre de revisions](../content/editorial-reviews.js). La marca provisional només apareix al web si l’empremta coincideix amb el contingut actual. Canviar el guió, les preguntes, les respostes, les pistes, el repartiment o l’escaleta invalida la revisió anterior. Les comprovacions detecten registres caducats abans de publicar.
 

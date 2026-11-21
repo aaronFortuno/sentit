@@ -14,6 +14,12 @@ Detecta els errors que una lectura superficial perd: un text pot ser gramaticalm
 - Només anomena **provisional** una versió que ha superat la revisió independent i les comprovacions de preguntes i respostes. Un text en revisió és un **esborrany en revisió**. Qualsevol canvi posterior que afecti la situació, el guió o les preguntes obliga a revisar de nou els elements afectats.
 - El docent té l'última paraula. Ni una revisió superada ni una quota restablerta autoritzen síntesi, despesa ni publicació definitiva. Conserva les aprovacions i les restriccions del projecte.
 
+## Passada d’estil i naturalitat
+
+Llegir també els criteris editorials del projecte quan n’hi hagi. Cada activitat ha d’aportar el context necessari, preferir paraules corrents i situar els termes especialitzats amb exemples. Conservar les paraules que fan entenedora una frase, encara que l’allarguin. Les xifres han de mantenir referents i unitats coherents entre guió i respostes. Aquests criteris adapten el [llibre d’estil del Diari d’IA Educativa](https://diarioiaeducativa.github.io/ca/estilo.html) al material de comprensió.
+
+Comprovar expressament els aclariments anticipats i el registre dels personatges, a més de la lògica. En diàlegs, admetre vacil·lacions, reaccions i propostes que es construeixen parlant; valorar si cada rèplica té un motiu dins de la situació. En narracions, comprovar si una explicació fa innecessària la inferència que l’activitat vol treballar. Les cerques de patrons només localitzen candidats: la decisió és editorial i contextual. La revisió superada inclou aquesta passada, no només la comprovació de cites.
+
 ## Com llegir el text
 
 Reconstrueix mentalment què passa, en lloc de completar els buits a favor de l'autor. Per a cada pas rellevant pregunta't:
