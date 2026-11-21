@@ -1,5 +1,14 @@
 # Canvis
 
+## 0.1.66 · 21 de novembre de 2026
+
+- S027 publicada amb el màster validat, il·lustració contextual pròpia i solucionari net. Prova separada amb 1,15 s menys de pausa al títol, sense substituir el màster aprovat. S038 definitiva després de retirar l’ambient inicial de plaça amb les mateixes pistes de veu i música; il·lustració pròpia i revisió independent del tancament. S038D publicada també amb la mateixa retirada autoritzada i il·lustració compartida, mantenint la validació independent. S032 definitiva després de retirar dues locucions long pause i el farciment inicial, amb il·lustració pròpia i cos idèntic.
+- S011: 1,42 s de farciment al títol i 10,96 s entre torns eliminats en intervals silenciosos verificats; mostres conservades idèntiques, sense canvi de timbre o ritme. Veus del Biel i la Laia amb incidències pendents identificades pel docent.
+- S041: retirades les dues locucions long pause que Gemini havia llegit al voltant del títol. Cos intacte; artefacte de «Quan hagis parlat» pendent d’esmena.
+- S030: retallats 8,84 s de silenci del títol, 4,05 s de pauses tècniques i 13,63 s de cua amb respiració i passos tardans. Versió de 1:15 aproximadament, conservant totes les frases i el ritme.
+- S025: clic i cadira retirats, pauses tècniques escurçades; es manté la frase sobre l’altaveu per decisió docent. Pronunciació de prémer pendent, sense síntesi nova.
+- Comparació de les revisions accessible des de Fonts i crèdits. Màsters originals preservats. Procediment futur orientat a lots amb el mateix repartiment i escenes completes; format de marques de pausa pendent de revisar abans de tornar a sintetitzar. Cap petició nova.
+
 ## 0.1.65 · 21 de novembre de 2026
 
 - Recomptes dependents als filtres del catàleg: curs, dificultat, durada, tipologia textual, univers, idioma i personatges. Cada opció compta les comprensions compatibles amb la resta de filtres; el seu propi menú permet comparar les alternatives.

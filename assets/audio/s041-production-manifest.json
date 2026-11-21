@@ -1,13 +1,13 @@
 {
   "code": "S041",
   "activity": "ca-S041",
-  "state": "awaiting-montage-validation",
-  "file": "s041-mixed-v1.mp3",
-  "introFile": "s041-mixed-v1-intro.mp3",
+  "state": "awaiting-audio-corrections",
+  "file": "s041-directives-v2.mp3",
+  "introFile": "s041-directives-v2-intro.mp3",
   "bodyFile": "s041-mixed-v1-cos.mp3",
-  "offset": 8.364416666666667,
+  "offset": 4.37,
   "bodyDuration": 96.64558333333333,
-  "fullDuration": 105.01,
+  "fullDuration": 101.01558333333334,
   "voices": {
     "Mireia": "Aoede",
     "Biel": "Puck"
@@ -35,7 +35,7 @@
   ],
   "newSynthesisRequests": 0,
   "sharedRequest": true,
-  "lufs": -19.4,
+  "lufs": -19.43,
   "peakDbTP": -2.5,
   "voiceRetimed": false,
   "effects": [
@@ -71,5 +71,32 @@
       "insertedPause": 1.5
     }
   ],
-  "sha256": "644ace07ff499b084ef2f1fdffa3e5ccee0c0c290ebc624d63ffe9c17317d942"
+  "sha256": "b277087c3deafb2966f82d624ee47ed02feecd68b756ea4e7ab68a28243b61e3",
+  "directiveRevision": {
+    "originalFile": "s041-mixed-v1.mp3",
+    "originalSha256": "644ace07ff499b084ef2f1fdffa3e5ccee0c0c290ebc624d63ffe9c17317d942",
+    "removed": [
+      "long pause",
+      "long pause"
+    ],
+    "recognizedAs": [
+      "l'ong",
+      "pous",
+      "l'ong",
+      "pous"
+    ],
+    "retainedTitleRange": {
+      "start": 2.109,
+      "end": 5.679
+    },
+    "canonicalTitleRange": {
+      "start": 2.484000000000009,
+      "end": 5.424000000000007
+    },
+    "retainedTitlePcmSha256": "af8c5722c009470b121d3947aca27f3649dba4cdb4e8eb311779755e8dcfb5a4",
+    "bodyPcmSha256": "51f4015c49ad3cd547ed88fd461a0da1f2047798a08d675c577ff5ad796f81bc",
+    "bodyUnchanged": true,
+    "voiceRetimed": false,
+    "newRequests": 0
+  }
 }

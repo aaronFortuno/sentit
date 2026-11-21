@@ -1,13 +1,13 @@
 {
   "code": "S025",
   "activity": "ca-S025",
-  "state": "awaiting-montage-validation",
-  "file": "s025-mixed-v1.mp3",
-  "introFile": "s025-mixed-v1-intro.mp3",
-  "bodyFile": "s025-mixed-v1-cos.mp3",
+  "state": "awaiting-audio-corrections",
+  "file": "s025-timing-v2.mp3",
+  "introFile": "s025-timing-v2-intro.mp3",
+  "bodyFile": "s025-timing-v2-cos.mp3",
   "offset": 4.261583333333333,
-  "bodyDuration": 62.500625,
-  "fullDuration": 66.76220833333333,
+  "bodyDuration": 49.452395833333334,
+  "fullDuration": 53.71397916666667,
   "voices": {
     "Laia": "Leda",
     "Biel": "Puck"
@@ -23,38 +23,57 @@
   "uncertainTurns": [],
   "newSynthesisRequests": 0,
   "sharedRequest": true,
-  "lufs": -19.38,
-  "peakDbTP": -2.5,
+  "lufs": -19.18,
+  "peakDbTP": -3.01,
   "voiceRetimed": false,
-  "effects": [
-    {
-      "name": "brnck-257357",
-      "start": 0.7,
-      "source": "assets/audio/sources/brnck-257357.mp3",
-      "sourceSha256": "06ac8e89305fae9cc977fbcf1a1a22062528195f031d650b90df1a154552da9a",
-      "sourceUrl": "https://freesound.org/people/brnck/sounds/257357/",
-      "author": "brnck",
-      "license": "CC0 1.0",
-      "excerpt": {
-        "start": 0,
-        "seconds": 0.257
-      },
-      "underSpeech": false
+  "effects": [],
+  "sha256": "3815d49a588ab076c04541100c4c8825d641c858c91b3a72c222dcf06c7d851b",
+  "timingRevision": {
+    "baseFile": "s025-mixed-v1.mp3",
+    "baseAudioSha256": "e5769997c7ce12116558b76240833a604be36474cd6f10c7df88b07a3d89751f",
+    "intro": {
+      "cuts": [],
+      "removedSeconds": 0,
+      "retainedPcmSha256": "e76556ef4dad3a845b407df52598477aa205a2b21e6f3b7d4f6f64461da23302"
     },
-    {
-      "name": "funkysandwich-871017",
-      "start": 59.300625,
-      "source": "assets/audio/sources/funkysandwich-871017.mp3",
-      "sourceSha256": "91f0758edb74981b079afe514c96645efe829b97c924cec132bb245cbf70c7a6",
-      "sourceUrl": "https://freesound.org/people/funkysandwich/sounds/871017/",
-      "author": "funkysandwich",
-      "license": "CC0 1.0",
-      "excerpt": {
-        "start": 0,
-        "seconds": 1.2
-      },
-      "underSpeech": false
-    }
-  ],
-  "sha256": "e5769997c7ce12116558b76240833a604be36474cd6f10c7df88b07a3d89751f"
+    "body": {
+      "cuts": [
+        {
+          "first": 12000,
+          "last": 123854,
+          "start": 0.25,
+          "end": 2.5802916666666667,
+          "seconds": 2.3302916666666667,
+          "maximumDbFS": -120
+        },
+        {
+          "first": 2368244,
+          "last": 2440192,
+          "start": 49.33841666666667,
+          "end": 50.83733333333333,
+          "seconds": 1.4989166666666667,
+          "maximumDbFS": -49.48114499602986
+        },
+        {
+          "first": 2545517,
+          "last": 2988030,
+          "start": 53.03160416666667,
+          "end": 62.250625,
+          "seconds": 9.219020833333333,
+          "maximumDbFS": -43.1122890523966
+        }
+      ],
+      "removedSeconds": 13.048229166666667,
+      "retainedPcmSha256": "54fc56600024e5f29aa1e1f499d3e904c635428ff4c9d7c68f23bb24d0e7cfc4"
+    },
+    "tailEdit": null,
+    "effectsRemoved": [
+      "brnck-257357",
+      "funkysandwich-871017"
+    ],
+    "quietThresholdDbFS": -42,
+    "allRetainedSamplesIdentical": true,
+    "newRequests": 0,
+    "originalPreserved": true
+  }
 }

@@ -1,0 +1,74 @@
+{
+  "code": "S032",
+  "activity": "ca-S032",
+  "state": "awaiting-montage-validation",
+  "file": "s032-mixed-v1.mp3",
+  "introFile": "s032-mixed-v1-intro.mp3",
+  "bodyFile": "s032-mixed-v1-cos.mp3",
+  "offset": 12.41,
+  "bodyDuration": 83.09129166666666,
+  "fullDuration": 95.50129166666666,
+  "voices": {
+    "Mireia": "Aoede",
+    "Laia": "Leda"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "0cd61066dabfeb8992968fa3e45c9f95dd07621aa58ca5a919a5e873cee48df7",
+  "sourceRequestHash": "b74fd871154ad94fa2dc3b3a54b32ccec03dbb4280f5a9e778b6993c64ada060",
+  "batch": "L01",
+  "rawSha256": "c87c539f48e9d022f6ef2ae8624cb1571d46f3fb313b5070ea62c560dccb2580",
+  "takeSha256": "f2f8e031301c789a39f5bca19d843520e65fd61fad15effd04a0d608bad52073",
+  "coverage": 0.8972332015810277,
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.77,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "elenalostale-648659",
+      "start": 0,
+      "source": "assets/audio/sources/elenalostale-648659.mp3",
+      "sourceSha256": "bdb5a2e1b40bdcec49cf7c3752c186e355e58499ec7d0578022da599d9291bf8",
+      "sourceUrl": "https://freesound.org/people/Elenalostale/sounds/648659/",
+      "author": "Elenalostale",
+      "license": "CC0 1.0",
+      "excerpt": {
+        "start": 20,
+        "seconds": 2
+      },
+      "underSpeech": false
+    },
+    {
+      "name": "beussa-749880",
+      "start": 45.39699999999998,
+      "source": "assets/audio/sources/beussa-749880.mp3",
+      "sourceSha256": "4b38b5c58abb206d5b86b9d5b6a3acde8eea90c288ef194b4a67503fe659b4a9",
+      "sourceUrl": "https://freesound.org/people/Beussa/sounds/749880/",
+      "author": "Beussa",
+      "license": "CC0 1.0",
+      "excerpt": {
+        "start": 0,
+        "seconds": 0.678
+      },
+      "underSpeech": false,
+      "insertedPause": 1.05
+    },
+    {
+      "name": "beussa-749880",
+      "start": 79.89129166666667,
+      "source": "assets/audio/sources/beussa-749880.mp3",
+      "sourceSha256": "4b38b5c58abb206d5b86b9d5b6a3acde8eea90c288ef194b4a67503fe659b4a9",
+      "sourceUrl": "https://freesound.org/people/Beussa/sounds/749880/",
+      "author": "Beussa",
+      "license": "CC0 1.0",
+      "excerpt": {
+        "start": 0,
+        "seconds": 0.678
+      },
+      "underSpeech": false
+    }
+  ],
+  "sha256": "d07403baa3519b44ed0a04f81021f042829a2382569d630dd63f2ccdd9b2cfd2"
+}

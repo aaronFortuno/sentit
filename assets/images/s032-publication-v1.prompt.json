@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-21",
+  "tool": "image_gen built-in",
+  "references": [
+    "../characters/mireia-model-sheet-v1.webp",
+    "../characters/laia-model-sheet-v1.webp"
+  ],
+  "asset": "una-ruta-amb-pistes-v1.webp",
+  "width": 1536,
+  "height": 1024,
+  "prompt": "Use case: illustration-story. One new context illustration for Sentit listening worksheet 'Una ruta amb pistes'. Input image1 is the canonical IDENTITY reference for Mireia, input image2 for Laia. Preserve them faithfully: Mireia is an adult woman with warm brown skin, short dark tight curls, sage cardigan over cream top and charcoal trousers; Laia is a younger teenage girl with fair warm skin and freckles, curly light brown hair loosely in a messy bun, sage sweater and beige trousers. A single natural classroom scene: Mireia and Laia stand beside a simple table with only a few completely blank sheets. Mireia gestures gently while they discuss how to write an activity, Laia attentive with a relaxed hand on the table. Neutral softly sketched classroom background, no special location to find. Context only. NO written clues, no text or numbers, maps, drawers, hidden objects, treasure, routes, arrows, labels, posters, tilting tables, destination or any detail revealing a question's answer. No additional people. Fine ink and soft watercolor matching the reference model sheets, muted sage/cream/charcoal with warm wood, fading white edges and uncluttered space. Landscape3:2, medium shot readable at80mm and in grayscale. No text, logo, watermark or model-sheet layout."
+}

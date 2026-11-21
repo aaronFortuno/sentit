@@ -2,6 +2,12 @@
 
 Execució seqüencial autoritzada · **21/11/2026**. **8 peticions completades, 45:49,6 d’àudio cru**, 13.113 tokens d’entrada. Cap reintent de síntesi. Queden dues peticions de marge segons el topall local de deu; no s’envien lots petits per omplir-les.
 
+## Ajust després de l’audició docent
+
+El pilot ha revelat canvis d’identitat/timbre a S011 i instruccions de pausa llegides a S041. La bona cobertura textual no els detectava. Per als lots següents es prioritzen **dues o tres comprensions completes del mateix repartiment**, sense alternar torns aïllats de moltes escenes. La finestra de sis a vuit minuts continua vigent. Les escenes de tres veus requereixen dues preses i més control d’audició; no es considera validada aquesta estratègia de producció.
+
+Abans d’enviar un lot nou cal preparar l’entrada sense marques de pausa llegibles i revisar el format acceptat. El generador actual i els candidats històrics no són una autorització per repetir el mateix format. Les dues peticions de marge es conserven mentre es preparen esmenes compatibles. Retalls locals, efectes retirats i canvis d’estat a [seguiment](seguiment-produccio.md) i [incidències](pronunciacio-tts.md).
+
 ## Tanda executada
 
 | Lot · rebut | Preses i esmenes | Durada real | Tokens d’entrada | Tokens d’àudio |

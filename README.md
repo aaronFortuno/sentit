@@ -12,10 +12,10 @@ Els 44 codis base, ca-S001–ca-S044, tenen guió, preguntes i solucionari. S004
 
 S036 i S041 s’han refet després del retorn docent sobre el registre: «Una capseta misteriosa» i «Què farem per portes obertes?». Totes dues ja han rebut el vistiplau per a veus. S035 també està validada amb l’esmena de la comissió de menjador del consell escolar.
 
-- **Publicació definitiva confirmada:** S003, S004, S004D, S008, S008R, S012, S018, S019 i S020. Aprovació vinculada al guió i al màster exactes; variants validades per separat. S008 incorpora la pujada musical, dos segons sostinguts i la fosa final autoritzades pel docent.
+- **Publicació definitiva confirmada:** S003, S004, S004D, S008, S008R, S012, S018, S019, S020, S027, S032, S038 i S038D. Aprovació vinculada al guió i al màster exactes; variants validades per separat. S008 incorpora la pujada musical, dos segons sostinguts i la fosa final autoritzades pel docent.
 - **S020 definitiva:** màster v1 validat amb Petita descoberta, il·lustració pròpia i transcripció neta. S019 v3 també és definitiva. S023 v2 incorpora Ona curta i mercat real, però espera l’esmena de suggeriments. Cap síntesi nova per a aquests muntatges.
 - **Set frases d’esmena rebudes**, amb comparacions d’original i prova: bústia (dues), Després, Til·lers, Si, suggeriments i rails. Encara no s’han aplicat als màsters. Matí (S005) i temperatura (S015) esperen material compatible. [Incidències i reparacions](docs/pronunciacio-tts.md).
-- **20 muntatges nous pendents d’audició:** S007, S011, S014, S017, S021, S024, S025, S026, S027, S030, S032, S034, S035, S037, S038, S038D, S041, S042, S043 i S044. Ambients i detalls de mostres reals CC0; cinc bases musicals originals diferents per a les narracions noves.
+- **20 muntatges nous produïts:** S027, S032, S038 i S038D ja són definitius amb les condicions docents aplicades. S011, S025 i S041 esperen esmenes de veu; la resta continua pendent d’audició. Ambients i detalls de mostres reals CC0; cinc bases musicals originals diferents per a les narracions noves.
 - **Cinc notícies amb veus rebudes:** S006, S009, S029, S031 i S039. [Escolta les preses](https://sentit.ortogra.fi/proves/veus-rebudes.html); muntatge i sintonia pendents, sense donar-los per validats.
 - **Quatre guions esperen lots prou plens:** S028, S033, S036 i S040. El repartiment aprovat es conserva; no s’envien peticions curtes ni es genera farciment.
 

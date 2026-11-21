@@ -9,12 +9,12 @@ const {chromium}=require('C:/Users/afortun8/.cache/codex-runtimes/codex-primary-
   await context.route('**/*',r=>new URL(r.request().url()).origin===new URL(base).origin?r.continue():r.abort());const page=await context.newPage();page.on('pageerror',e=>errors.push(e.message));
   await context.addInitScript(()=>localStorage.setItem('sentit.catalogue.show-provisional.v1','false'));
   const {activities}=await import('../catalogue.js'),{reviewScript}=await import('../review.js'),{imageOptions}=await import('../worksheet.js'),{strings}=await import('../locales.js');
-  const codes=['S003','S004','S004D','S012','S018','S019','S020'];
+  const codes=['S003','S004','S004D','S012','S018','S019','S020','S027','S038','S038D','S032'];
   for(const entry of activities.filter(e=>e.reviewStatus==='validated')){assert(entry.image?.src,entry.code+' publication illustration required');await fs.access(path.resolve(__dirname,'..',entry.image.src));assert(reviewScript(entry,strings.ca).every(p=>p.speaker&&!p.kind),entry.code+' speech-only final transcript');}
   for(const code of codes){
    const entry=activities.find(e=>e.code===code);assert.equal(entry.reviewStatus,'validated');const image=imageOptions(entry);assert(image.visible);assert.equal(image.width,80);assert.equal(image.position,'right');
    assert.deepEqual(reviewScript(entry,strings.ca).slice(1),entry.transcript.filter(p=>p.speaker&&!p.kind));
-   await page.goto(base+'#lectura=ca-'+code);await page.locator('#workspace').waitFor({state:'visible'});await page.locator('.paper-illustration img').first().waitFor();
+   await page.goto(base+'#lectura=ca-'+code);await page.waitForFunction(c=>document.querySelector('#activity-select')?.selectedOptions[0]?.textContent.startsWith(c),code);await page.locator('#workspace').waitFor({state:'visible'});await page.locator('.paper-illustration img').first().waitFor();
    await page.waitForFunction(()=>[...document.querySelectorAll('.paper-illustration img')].every(i=>i.complete&&i.naturalWidth===1536));
    assert.equal(await page.locator('.paper-review-watermark').count(),0);assert.equal(await page.locator('.paper-illustration').first().evaluate(n=>n.style.inlineSize),'80mm');
    assert(await page.locator('.paper-flow-image.image-right').count()>0);await page.locator('#answers-mode').click();
@@ -23,7 +23,7 @@ const {chromium}=require('C:/Users/afortun8/.cache/codex-runtimes/codex-primary-
    assert.equal(await page.locator('.paper-answer-label').count(),entry.questions.length);
    assert.equal(await page.locator('.paper-illustration img').count(),1);assert.equal(await page.locator('.paper-evidence').count()>0,true);
    const overflow=await page.locator('.paper-content').evaluateAll(nodes=>nodes.some(n=>[...n.children].some(c=>c.getBoundingClientRect().bottom>n.getBoundingClientRect().bottom+2)));assert.equal(overflow,false,code+' pagination');
-   if(['S004D','S018','S020'].includes(code)){await page.screenshot({path:path.join(output,code+'-answers.png')});await page.pdf({path:path.join(output,code+'-answers.pdf'),preferCSSPageSize:true,printBackground:true});}
+   if(['S004D','S018','S020','S027','S038','S038D','S032'].includes(code)){await page.screenshot({path:path.join(output,code+'-answers.png')});await page.pdf({path:path.join(output,code+'-answers.pdf'),preferCSSPageSize:true,printBackground:true});}
    await page.goto(base);await page.locator('#search').fill('ca-'+code);const card=page.locator('.activity-card').filter({has:page.locator(`.activity-card-code`,{hasText:code})}).first();assert.match(await card.locator('.activity-card-art img').getAttribute('src'),/assets\/images\//);
   }
   await page.goto(base+'#lectura=ca-S023');await page.locator('#workspace').waitFor({state:'visible'});assert(await page.locator('.paper-direction').count()>0);assert.match(await page.locator('.paper-review-label').first().innerText(),/àudio pendent de validar/);

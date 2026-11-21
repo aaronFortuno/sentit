@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-21",
+  "tool": "image_gen built-in",
+  "references": [
+    "../characters/ferran-model-sheet-v1.webp",
+    "la-clau-de-l-armari-verd-v1.webp"
+  ],
+  "asset": "el-berenar-del-terrat-v1.webp",
+  "width": 1536,
+  "height": 1024,
+  "prompt": "Use case: illustration-story. Generate one new context illustration for the Sentit educational listening story 'El berenar del terrat'. Input image 1 (Ferran model sheet) is an IDENTITY reference only. Input image 2 (Aina and Ferran by a cabinet) is an IDENTITY and watercolor/ink STYLE reference only; do not copy its cabinet, tools, poses or setting. Keep Ferran as the same warm older grandfather, wavy grey hair, short white beard, round dark glasses, charcoal cable-knit cardigan over muted green plaid shirt and beige trousers. Keep Aina as the same young girl, straight short brown bob and bangs, round glasses, mustard sweater, dark trousers. One quiet present-day domestic interior: Ferran and Aina sitting at a completely EMPTY plain wooden table, Ferran telling an anecdote with a relaxed open-hand gesture, Aina listening warmly. Simple neutral wall and gentle daylight, no distinctive location. Context only, NOT a reenactment of the story. Do NOT show a rooftop, food, drinks, cups, trays, tablecloth, pegs, wind, kites, chocolate, stairs, visitors, a dining-room doorway or any detail answering a question. Keep both faces clearly identifiable, natural anatomy and friendly expressions. Fine ink plus soft watercolor, warm paper, muted sage/ochre/charcoal, uncluttered composition fading into white at the edges, easy to read at 80mm print width and in greyscale. Single landscape 3:2 scene. No text, letters, numbers, logos, speech bubbles, titles, labels or watermark. This is a new scene, not a model sheet."
+}

@@ -40,7 +40,6 @@ export const soundSources = [
     "usedBy": [
       "ca-S010",
       "ca-S021",
-      "ca-S030",
       "ca-S037"
     ],
     "excerpts": {
@@ -147,13 +146,13 @@ export const soundSources = [
     "retrievedAt": "2026-11-21",
     "sha256": "4b38b5c58abb206d5b86b9d5b6a3acde8eea90c288ef194b4a67503fe659b4a9",
     "usedBy": [
-      "ca-S021",
-      "ca-S032",
       "ca-S007",
       "ca-S014",
       "ca-S017",
+      "ca-S021",
       "ca-S024",
       "ca-S030",
+      "ca-S032",
       "ca-S035",
       "ca-S037",
       "ca-S042",
@@ -177,11 +176,11 @@ export const soundSources = [
     "retrievedAt": "2026-11-21",
     "sha256": "bdb5a2e1b40bdcec49cf7c3752c186e355e58499ec7d0578022da599d9291bf8",
     "usedBy": [
-      "ca-S032",
       "ca-S007",
       "ca-S011",
       "ca-S014",
       "ca-S030",
+      "ca-S032",
       "ca-S037",
       "ca-S042"
     ],
@@ -223,10 +222,9 @@ export const soundSources = [
     "usedBy": [
       "ca-S007",
       "ca-S017",
-      "ca-S025",
+      "ca-S034",
       "ca-S041",
-      "ca-S042",
-      "ca-S034"
+      "ca-S042"
     ],
     "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
   },
@@ -325,7 +323,6 @@ export const soundSources = [
     "retrievedAt": "2026-11-21",
     "sha256": "06ac8e89305fae9cc977fbcf1a1a22062528195f031d650b90df1a154552da9a",
     "usedBy": [
-      "ca-S025",
       "ca-S044"
     ],
     "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
@@ -345,8 +342,7 @@ export const soundSources = [
     "retrievedAt": "2026-11-21",
     "sha256": "fa98866da0a33c02f48814d0734a62980801ea82edf154f32bc6e94331c12ef3",
     "usedBy": [
-      "ca-S043",
-      "ca-S038"
+      "ca-S043"
     ],
     "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
   },
@@ -403,8 +399,7 @@ export const soundSources = [
     "retrievedAt": "2026-11-21",
     "sha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
     "usedBy": [
-      "ca-S034",
-      "ca-S038D"
+      "ca-S034"
     ],
     "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
   }

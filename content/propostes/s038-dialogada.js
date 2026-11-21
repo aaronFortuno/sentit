@@ -3,8 +3,9 @@ import { proposal, direction as d, spoken as s, question as q, evidence as e } f
 // Variant revisada independentment, pendent del docent. S038 es conserva íntegra.
 export const s038Dialogada = proposal({
   id: 'el-banc-que-havien-mogut-dialogat', code: 'S038D', title: 'El banc que havien mogut · versió dialogada', grade: '5', level: 'middle', genre: 'story', universeIds: ['aina-ferran'],
-    seconds: 145, status: 'ready-for-review', reviewStatus: 'audio-review',
-    audio: './assets/audio/s038d-mixed-v1.mp3', tracks: { introduction: './assets/audio/s038d-mixed-v1-intro.mp3', body: './assets/audio/s038d-mixed-v1-cos.mp3' },
+    image: { src: './assets/images/el-banc-que-havien-mogut-v1.webp', alt: 'En Ferran explica un record a l’Aina en una plaça sense punts de referència concrets.', width: 1536, height: 1024 },
+    seconds: 145, status: 'published', reviewStatus: 'validated',
+    audio: './assets/audio/s038d-no-ambience-v2.mp3', tracks: { introduction: './assets/audio/s038d-mixed-v1-intro.mp3', body: './assets/audio/s038d-no-ambience-v2-cos.mp3' },
     fragment: { start: 6.666083333333333, seconds: 137 },
   summary: 'L’Aina conversa amb l’avi Ferran mentre ell recorda una trobada que es va complicar perquè un lloc de referència havia canviat.',
   voices: { Aina: 'Zephyr', Ferran: 'Algenib' },

@@ -1,13 +1,13 @@
 {
   "code": "S032",
   "activity": "ca-S032",
-  "state": "awaiting-montage-validation",
-  "file": "s032-mixed-v1.mp3",
-  "introFile": "s032-mixed-v1-intro.mp3",
+  "state": "published",
+  "file": "s032-directives-v2.mp3",
+  "introFile": "s032-directives-v2-intro.mp3",
   "bodyFile": "s032-mixed-v1-cos.mp3",
-  "offset": 12.41,
+  "offset": 5.05,
   "bodyDuration": 83.09129166666666,
-  "fullDuration": 95.50129166666666,
+  "fullDuration": 88.14129166666666,
   "voices": {
     "Mireia": "Aoede",
     "Laia": "Leda"
@@ -23,7 +23,7 @@
   "newSynthesisRequests": 0,
   "sharedRequest": true,
   "lufs": -18.77,
-  "peakDbTP": -2.5,
+  "peakDbTP": -2.31,
   "voiceRetimed": false,
   "effects": [
     {
@@ -70,5 +70,54 @@
       "underSpeech": false
     }
   ],
-  "sha256": "d07403baa3519b44ed0a04f81021f042829a2382569d630dd63f2ccdd9b2cfd2"
+  "sha256": "ecd895f83f19979fc3b422bd8abf20dab74dfac7c963c7daf8f0e82f370b60b6",
+  "directiveRevision": {
+    "originalFile": "s032-mixed-v1.mp3",
+    "originalSha256": "d07403baa3519b44ed0a04f81021f042829a2382569d630dd63f2ccdd9b2cfd2",
+    "removed": [
+      "long pause",
+      "long pause"
+    ],
+    "recognizedAs": [
+      "l'ong",
+      "pos",
+      "l'opus"
+    ],
+    "retainedTitleRange": {
+      "start": 6.63,
+      "end": 10.88
+    },
+    "canonicalTitleRange": {
+      "start": 6.8700000000000045,
+      "end": 10.530000000000001
+    },
+    "retainedTitlePcmSha256": "d456f9dfa31a6e03a4a20eb149aa14f7aa051d07640be94141a0fd74fd8355a9",
+    "bodyPcmSha256": "f2ff94238917caf4e40ac0cf8c794a178d9ea0280dc9a7aa218e86edaf802ccd",
+    "bodyUnchanged": true,
+    "decodedPublishedTracks": true,
+    "bodyTrackSha256": "11a30a1e803403893c605d8be74677b4648e80d2aa46125c1f58c8746af780af",
+    "voiceRetimed": false,
+    "newRequests": 0
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-21",
+    "validatedBy": "docent",
+    "confirmation": "S032 validada per publicació després de retirar els dos long pause i el silenci inicial.",
+    "audioSha256": "ecd895f83f19979fc3b422bd8abf20dab74dfac7c963c7daf8f0e82f370b60b6",
+    "editorialFingerprint": "f60ed5aafd6bb7bb00a4de7e5c96cbc3f08c2b3a7d9e31f457a41c24f863338b",
+    "listeningApproval": true,
+    "condition": {
+      "spokenDirectivesRemoved": 2,
+      "initialPaddingRemoved": true,
+      "bodyTrackUnchanged": true,
+      "sourceMasterSha256": "d07403baa3519b44ed0a04f81021f042829a2382569d630dd63f2ccdd9b2cfd2"
+    }
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/una-ruta-amb-pistes-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-21",
+    "audioChanged": true,
+    "change": "Retall inicial autoritzat, sense alterar la pista del cos."
+  }
 }

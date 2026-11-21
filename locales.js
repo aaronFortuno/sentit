@@ -1,7 +1,8 @@
 export const strings = {
   ca: {
     language: 'ca',
-    hearReceivedVoices: 'Escolta les veus rebudes', compareAudioCorrections: 'Compara les correccions de veu rebudes',
+    comparePauseRevision: 'Compara la revisió de pauses', hearReceivedVoices: 'Escolta les veus rebudes', compareAudioCorrections: 'Compara les correccions de veu rebudes',
+    releaseTimingAndPublications: 'S027, S032, S038 i S038D definitives amb il·lustració i transcripció neta. Retirat l’ambient inicial de S038, amb veus i música conservades. Pauses tècniques escurçades a S011 i S030; retirats respiració i passos finals de S030 i les dues instruccions long pause de S041. Incidències de veu marcades com a pendents; originals i comparacions conservats.',
     releaseFilterCounts: 'Recomptes al costat de cada curs, dificultat, durada, tipologia, univers, idioma i personatge. Cada opció té en compte la resta de filtres, la cerca, la col·lecció, el mode de provisionals i la fase seleccionada. Actualització immediata també als desplegables personalitzats.',
     releaseMixedMontages: 'Vuit lots rebuts sense reintents: 25 comprensions amb les veus completes, vint muntatges pendents d’audició i cinc notícies amb previsualització de veus. Set esmenes per comparar, sense substituir originals. Fonts reals CC0, cinc bases musicals originals noves, muntatge local de les tres escenes amb tres veus i avisos de revisió conservats.',
     releaseFirstMixedBatch: 'L01 rebuda en una sola petició: S021 i S032 muntades i pendents d’audició, més tres proves de correcció per comparar a S010 i S013. Originals conservats. Últimes validacions de guió registrades; tots els guions actuals autoritzats per a veus. Lots seqüencials i rebut de consum disponibles al repositori.',
@@ -245,7 +246,8 @@ export const strings = {
   },
   es: {
     language: 'es',
-    hearReceivedVoices: 'Escucha las voces recibidas', compareAudioCorrections: 'Compara las correcciones de voz recibidas',
+    comparePauseRevision: 'Compara la revisión de pausas', hearReceivedVoices: 'Escucha las voces recibidas', compareAudioCorrections: 'Compara las correcciones de voz recibidas',
+    releaseTimingAndPublications: 'S027, S032, S038 y S038D definitivas con ilustración y transcripción limpia. Retirado el ambiente inicial de S038, con voces y música conservadas. Pausas técnicas reducidas en S011 y S030; retirados respiración y pasos finales de S030 y las dos instrucciones long pause de S041. Incidencias de voz pendientes; originales y comparaciones conservados.',
     releaseFilterCounts: 'Recuentos junto a cada curso, dificultad, duración, tipología, universo, idioma y personaje. Cada opción tiene en cuenta los demás filtros, la búsqueda, la colección, el modo de provisionales y la fase seleccionada. Actualización inmediata también en los desplegables personalizados.',
     releaseMixedMontages: 'Ocho lotes recibidos sin reintentos: 25 comprensiones con voces completas, veinte montajes pendientes de audición y cinco noticias con previsualización de voces. Siete correcciones para comparar, sin sustituir originales. Fuentes reales CC0, cinco bases musicales originales nuevas, montaje local de las tres escenas con tres voces y avisos de revisión conservados.',
     releaseFirstMixedBatch: 'L01 recibida en una sola petición: S021 y S032 montadas y pendientes de audición, más tres pruebas de corrección para comparar en S010 y S013. Originales conservados. Últimas validaciones de guion registradas; todos los guiones actuales autorizados para voces. Lotes secuenciales y registro de consumo disponibles en el repositorio.',

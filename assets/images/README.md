@@ -76,3 +76,6 @@ Context: an adult woman art conservator giving a friendly interview to a teenage
 ```text
 Context: an adult female local radio journalist with a handheld microphone, standing outside a small generic neighborhood market building. A calm modest facade and barely suggested people in the distant background. No signs, dates, opening hours, maps, ramps, doors identified by colors, food containers, graphs or information boards. A general news-reporting scene without specific story clues.
 ```
+
+
+Publicacions del 21/11: S027, S032 i S038/S038D tenen il·lustracions contextuals pròpies amb models recurrents i revisió independent. S038 i S038D comparteixen escena perquè són dues versions de la mateixa història. Prompts i referències a s027-publication-v1.prompt.json, s032-publication-v1.prompt.json i s038-publication-v1.prompt.json. Imatges generades amb image_gen, sense dades que resolguin les preguntes.
