@@ -1,6 +1,7 @@
 export const strings = {
   ca: {
     language: 'ca',
+    releaseS040Context: 'S040: exposició d’objectes antics contextualitzada abans d’utilitzar «peça». Laia parla com a visitant i explica què li costa imaginar quan escolta les mides. Nora diferencia les proves sense música del muntatge final. Preguntes i ressaltats actualitzats; pendent del vistiplau docent, sense síntesi.',
     releaseS032Context: 'S032: pista inicial amb un record conegut només pel grup, substituït per una descripció física de la taula que també pot trobar l’altra classe. Revisats el torn final de Laia, la pregunta i els ressaltats. Pendent del vistiplau docent, sense síntesi.',
     releaseDateS033: '21 de novembre de 2026',
     releaseS033Context: 'S033 revisada: objectes antics de casa identificats des del principi, vocabulari explicat i intervencions més naturals de Biel. Preguntes, respostes i ressaltats coherents amb el guió nou. Revisió independent superada; pendent del vistiplau docent, sense síntesi.',
@@ -234,6 +235,7 @@ export const strings = {
   },
   es: {
     language: 'es',
+    releaseS040Context: 'S040: exposición de objetos antiguos contextualizada antes de utilizar «pieza». Laia habla como visitante y explica qué le cuesta imaginar cuando escucha las medidas. Nora distingue las pruebas sin música del montaje final. Preguntas y resaltados actualizados; pendiente del visto bueno docente, sin síntesis.',
     releaseS032Context: 'S032: pista inicial con un recuerdo conocido solo por el grupo, sustituido por una descripción física de la mesa que también puede encontrar la otra clase. Revisados el turno final de Laia, la pregunta y los resaltados. Pendiente del visto bueno docente, sin síntesis.',
     releaseDateS033: '21 de noviembre de 2026',
     releaseS033Context: 'S033 revisada: objetos antiguos de casa identificados desde el principio, vocabulario explicado e intervenciones más naturales de Biel. Preguntas, respuestas y resaltados coherentes con el guion nuevo. Revisión independiente superada; pendiente del visto bueno docente, sin síntesis.',
