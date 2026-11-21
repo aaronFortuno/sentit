@@ -62,6 +62,7 @@ function enhance(select) {
     const selected = select.selectedOptions[0];
     const disabled = select.matches(':disabled');
     value.textContent = selected?.dataset.label ?? selected?.label ?? '';
+    if (selected?.dataset.count !== undefined) value.append(` (${selected.dataset.count})`);
     trigger.setAttribute('aria-label', `${name}, ${value.textContent}`);
     menu.setAttribute('aria-label', name);
     trigger.setAttribute('aria-disabled', String(disabled));
@@ -109,6 +110,7 @@ function enhance(select) {
       if (option.disabled) node.setAttribute('aria-disabled', 'true');
       node.textContent = option.dataset.label ?? option.label;
       if (option.dataset.count !== undefined) {
+        node.setAttribute('aria-label', `${option.dataset.label ?? option.label} (${option.dataset.count})`);
         const count = document.createElement('span');
         count.className = 'select-option-count';
         count.textContent = option.dataset.count;

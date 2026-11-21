@@ -37,6 +37,8 @@ Queden dos enviaments de marge dins el topall de deu, però els lots actuals inc
 
 ## Catàleg, col·leccions i sintonies
 
+Els filtres mostren el nombre de comprensions de cada opció, mantenint la resta de filtres actius. També compten la cerca, la col·lecció, el mode de provisionals i la fase; les opcions de zero resultats continuen visibles. Els personatges mostren el recompte individual al costat del nom.
+
 Filtres combinables per idioma, curs, dificultat, durada, tipologia, personatges i univers. Primer es mostren dotze cards i s’hi afegeixen vuit en arribar al final. L’ordre és aleatori per visita i estable mentre es filtra; les col·leccions conserven l’ordre del docent. La fitxa mostra també la dificultat sota el codi i el títol.
 
 Els filtres utilitzen selectors personalitzats amb teclat, etiquetes accessibles i moviment de 220 ms. En mode fosc, el paper del preview és crema (`#fff3e3`); la impressió i el PDF conserven el blanc.

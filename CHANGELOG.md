@@ -1,5 +1,12 @@
 # Canvis
 
+## 0.1.65 · 21 de novembre de 2026
+
+- Recomptes dependents als filtres del catàleg: curs, dificultat, durada, tipologia textual, univers, idioma i personatges. Cada opció compta les comprensions compatibles amb la resta de filtres; el seu propi menú permet comparar les alternatives.
+- La cerca, la col·lecció activa, el mode de provisionals i la fase de producció també afecten les quantitats. Els personatges es compten individualment dins aquest context; els modes qualsevol/tots continuen filtrant els resultats i els altres menús.
+- Quantitats visibles en els desplegables personalitzats, al valor seleccionat i al costat de cada nom de personatge, amb opcions de zero resultats conservades. Llista i recomptes comparteixen el mateix criteri de filtratge.
+- Comprovacions locals dels recomptes, de les col·leccions i dels controls amb ratolí, teclat, pantalla estreta, canvi d’idioma i mode fosc.
+
 ## 0.1.64 · 21 de novembre de 2026
 
 - Tanda de vuit peticions completes: 25 comprensions amb totes les veus rebudes, 45:49,6 de material cru i set esmenes. Preses, respostes i peticions exactes conservades; cap reintent ni substitució automàtica dels originals.
