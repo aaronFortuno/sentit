@@ -164,9 +164,9 @@ export const editorialReviews = {
   },
   "ca-S029": {
     "status": "passed",
-    "reviewedAt": "2026-11-20",
-    "reviewer": "revisor_coherencia",
-    "fingerprint": "ac9665c6bf3a358d82d58fbfcda19231c1a36d2c4b9fa7bbace6a1ee036b6c68"
+    "reviewedAt": "2026-11-21",
+    "reviewer": "independent-coherence-agent",
+    "fingerprint": "1cb96a05b63702faec6322ea9a5b4e6920c96d54a91d6e60582fffb8eba9ae1e"
   },
   "ca-S030": {
     "status": "passed",

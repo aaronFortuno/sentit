@@ -433,5 +433,18 @@ export const productionProgress = {
       "dailyLimit": 10,
       "notBefore": "2026-11-21T08:00:00.000Z"
     }
+  },
+  "ca-S029": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-21T08:12:38.478Z",
+    "editorialFingerprint": "1cb96a05b63702faec6322ea9a5b4e6920c96d54a91d6e60582fffb8eba9ae1e",
+    "plannedNewRequests": 1,
+    "confirmation": "Fent aquests canvis que et dic el text quedaria validat per síntesi de veus.",
+    "reason": "Guió validat amb l’avís de divendres a les quatre de la tarda. Incorporar la presa Mar/Erinome al lot L03; cap petició curta aïllada.",
+    "sharedJingle": {
+      "status": "awaiting-selection",
+      "programme": "informatiu",
+      "note": "Sintonia informativa pendent de seleccionar abans del muntatge; les veus estan autoritzades."
+    }
   }
 };

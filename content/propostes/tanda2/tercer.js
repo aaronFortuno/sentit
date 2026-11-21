@@ -134,8 +134,8 @@ export const tercer = [
       s('acces', 'Mar', 'L’entrada serà gratuïta, però cal reservar lloc al centre cívic. La reserva permet saber quantes cadires s’han de preparar. Cada persona haurà de dir quantes places necessita per al seu grup. No caldrà pagar quan faci la reserva ni quan entri a la plaça.'),
       s('comoditat', 'Mar', 'Les cadires les posa l’organització. Qui vulgui podrà portar un coixí, però no cal que dugui una cadira de casa. També hi haurà un espai per deixar els cotxets sense ocupar els passadissos. L’accés a la plaça s’obrirà una estona abans de la pel·lícula perquè tothom es pugui situar amb calma.'),
       d('Pausa breu de canvi de bloc, sense cap efecte meteorològic.'),
-      s('pluja', 'Mar', 'Si plou, la sessió es traslladarà a la sala gran del centre cívic. Aquest és el pla alternatiu, no un canvi que ja s’hagi anunciat. La decisió es publicarà divendres al matí al cartell de l’entrada del centre. Les persones que hagin reservat no hauran de tornar a demanar plaça si finalment la pel·lícula es fa a dins.'),
-      s('final', 'Mar', 'L’organització demana que ningú es dirigeixi a la sala només perquè el cel estigui una mica tapat. Cal mirar l’avís del matí, on s’indicarà el lloc definitiu. Les reserves ja es poden fer al taulell del centre cívic.'),
+      s('pluja', 'Mar', 'Si plou, la sessió es traslladarà a la sala gran del centre cívic. La decisió sobre la ubicació definitiva es publicarà el mateix divendres a les quatre de la tarda al cartell de l’entrada del centre. Les persones que hagin reservat no hauran de tornar a demanar plaça si finalment la pel·lícula es fa a dins.'),
+      s('final', 'Mar', 'L’organització demana que ningú es dirigeixi a la sala només perquè el cel estigui una mica tapat. Cal mirar l’avís de les quatre de la tarda, on s’indicarà el lloc definitiu. Les reserves ja es poden fer al taulell del centre cívic.'),
       d('Després de la veu, tancament informatiu i ambient de plaça amb fosa. Cua de 600 ms de silenci.'),
     ],
     questions: [
@@ -143,8 +143,8 @@ export const tercer = [
       q('reserva', 'Si l’entrada és gratuïta, cal reservar igualment?', 'Sí, cal reservar lloc al centre cívic.', 1, [e('acces', 'L’entrada serà gratuïta, però cal reservar lloc al centre cívic.')]),
       q('cadires', 'Per a què serveix saber quantes places reserva cada grup?', 'Per saber quantes cadires s’han de preparar.', 1, [e('acces', 'La reserva permet saber quantes cadires s’han de preparar.')]),
       q('portar', 'Cal portar una cadira de casa? Què es pot portar si es vol?', 'No; les cadires les posa l’organització. Es pot portar un coixí.', 2, [e('comoditat', 'Les cadires les posa l’organització. Qui vulgui podrà portar un coixí')]),
-      q('condicio', 'En quin cas la pel·lícula es farà a la sala del centre cívic?', 'Si plou i s’anuncia el trasllat.', 1, [e('pluja', 'Si plou, la sessió es traslladarà a la sala gran del centre cívic.')]),
-      q('confirmar', 'On i quan podran comprovar el lloc definitiu?', 'Divendres al matí, al cartell de l’entrada del centre cívic.', 1, [e('pluja', 'La decisió es publicarà divendres al matí al cartell de l’entrada del centre.')]),
+      q('condicio', 'En quin cas la pel·lícula es farà a la sala del centre cívic?', 'Si plou.', 1, [e('pluja', 'Si plou, la sessió es traslladarà a la sala gran del centre cívic.')]),
+      q('confirmar', 'On i quan podran comprovar el lloc definitiu?', 'El mateix divendres, a les quatre de la tarda, al cartell de l’entrada del centre cívic.', 2, [e('pluja', 'La decisió sobre la ubicació definitiva es publicarà el mateix divendres a les quatre de la tarda al cartell de l’entrada del centre.')]),
     ],
   }),
 ];
