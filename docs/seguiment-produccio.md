@@ -39,7 +39,7 @@ Actualitzat: **21/11/2026**. Catàleg de **44 peces**, més les variants **S004D
 | [ca-S029](https://sentit.ortogra.fi/#lectura=ca-S029) | El cinema surt a la plaça | 3r | Avançada · Notícia | Prevista 1:40–2:05 | 6 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S030](https://sentit.ortogra.fi/#lectura=ca-S030) | El cartell que no es llegia | 4t | Accessible · Diàleg | Prevista 1:25–1:50 | 7 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S031](https://sentit.ortogra.fi/#lectura=ca-S031) | Una bústia per a propostes | 4t | Accessible · Notícia | Prevista 1:25–1:50 | 7 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
-| [ca-S032](https://sentit.ortogra.fi/#lectura=ca-S032) | Una ruta amb pistes | 4t | Intermèdia · Instruccions | Prevista 1:30–1:55 | 7 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S032](https://sentit.ortogra.fi/#lectura=ca-S032) | Una ruta amb pistes | 4t | Intermèdia · Instruccions | Prevista 1:35–1:55 | 7 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S033](https://sentit.ortogra.fi/#lectura=ca-S033) | Qui tria què es mostra? | 4t | Intermèdia · Entrevista | Prevista 1:50–2:20 | 7 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S034](https://sentit.ortogra.fi/#lectura=ca-S034) | L’assaig que semblava una funció | 4t | Avançada · Narració | Prevista 2:00–2:30 | 7 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S035](https://sentit.ortogra.fi/#lectura=ca-S035) | Una pregunta per al menjador | 5è | Accessible · Instruccions | Prevista 1:50–2:20 | 8 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |

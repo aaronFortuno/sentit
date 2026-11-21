@@ -1,6 +1,7 @@
 export const strings = {
   ca: {
     language: 'ca',
+    releaseS032Context: 'S032: pista inicial amb un record conegut només pel grup, substituït per una descripció física de la taula que també pot trobar l’altra classe. Revisats el torn final de Laia, la pregunta i els ressaltats. Pendent del vistiplau docent, sense síntesi.',
     releaseDateS033: '21 de novembre de 2026',
     releaseS033Context: 'S033 revisada: objectes antics de casa identificats des del principi, vocabulari explicat i intervencions més naturals de Biel. Preguntes, respostes i ressaltats coherents amb el guió nou. Revisió independent superada; pendent del vistiplau docent, sense síntesi.',
     releaseUniversesAndDrafts: 'S009, S014 i S017 autoritzades per a veus. Vint guions nous revisats, pendents de validació docent. Universos més curts, selectors personalitzats i paper crema en mode fosc. Retrat i model de Joana; retrats fins a la cintura d’Elies i Ona. Onze recurrents, sense fitxes per als convidats ocasionals. Lots petits en espera fins a completar sis a vuit minuts. Cap síntesi nova.',
@@ -233,6 +234,7 @@ export const strings = {
   },
   es: {
     language: 'es',
+    releaseS032Context: 'S032: pista inicial con un recuerdo conocido solo por el grupo, sustituido por una descripción física de la mesa que también puede encontrar la otra clase. Revisados el turno final de Laia, la pregunta y los resaltados. Pendiente del visto bueno docente, sin síntesis.',
     releaseDateS033: '21 de noviembre de 2026',
     releaseS033Context: 'S033 revisada: objetos antiguos de casa identificados desde el principio, vocabulario explicado e intervenciones más naturales de Biel. Preguntas, respuestas y resaltados coherentes con el guion nuevo. Revisión independiente superada; pendiente del visto bueno docente, sin síntesis.',
     releaseUniversesAndDrafts: 'S009, S014 y S017 autorizadas para voces. Veinte guiones nuevos revisados, pendientes de validación docente. Universos más breves, selectores personalizados y papel crema en modo oscuro. Retrato y modelo de Joana; retratos hasta la cintura de Elies y Ona. Once recurrentes, sin fichas para invitados ocasionales. Lotes pequeños en espera hasta completar seis a ocho minutos. Ninguna síntesis nueva.',
