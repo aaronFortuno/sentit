@@ -1,5 +1,10 @@
 # Canvis
 
+## 0.1.55 · 21 de novembre de 2026
+
+- S032: la pista inicial remet al calaix de la taula on el grup havia fet un experiment del volcà. La Mireia explicita que l’altra classe no hi era, i la Laia la substitueix per la taula del costat de la finestra. Recorregut situat dins l’aula i última intervenció coherent amb la nova referència.
+- Pregunta, resposta i cites afectades actualitzades. Es conserven les set preguntes i el nivell de 4t intermèdia; proposta pendent de nova validació docent, sense síntesi.
+
 ## 0.1.54 · 21 de novembre de 2026
 
 - S033 replantejada per a 4t intermèdia: exposició d’objectes antics de casa, identificats des del començament. La Nora explica «peces» i «còpia» amb exemples concrets; el moble amb una pota esquerdada substitueix el calaix poc contextualitzat. En Biel utilitza llenguatge quotidià i demana tornar a l’exposició, sense participar en una prova de cartells de la qual ja coneix les respostes.

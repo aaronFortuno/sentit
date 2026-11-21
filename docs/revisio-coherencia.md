@@ -1,6 +1,6 @@
 # Revisió independent de coherència
 
-Actualitzat: **21/11/2026**. **43 de 43** propostes de la tanda tenen revisió independent superada per a la versió actual. Abast: 316 preguntes i 366 cites literals.
+Actualitzat: **21/11/2026**. **43 de 43** propostes de la tanda tenen revisió independent superada per a la versió actual. Abast: 316 preguntes i 367 cites literals.
 
 S’han revisat situacions, cronologia, circulació d’objectes, coneixement dels personatges, causes i desenllaços, acotacions sonores, preguntes, respostes i ancoratges. Les dades factuals sensibles s’han contrastat amb fonts primàries indicades al [dossier editorial](lot-editorial-24.md). La revisió del muntatge és sobre el guió; les veus i el resultat sonor requeriran audició.
 
@@ -38,7 +38,7 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S029](https://sentit.ortogra.fi/#lectura=ca-S029) | El cinema surt a la plaça | 3r | Provisional · revisió superada | 2026-11-20 | `ac9665c6bf3a…` |
 | [ca-S030](https://sentit.ortogra.fi/#lectura=ca-S030) | El cartell que no es llegia | 4t | Provisional · revisió superada | 2026-11-20 | `ab15e013f5a5…` |
 | [ca-S031](https://sentit.ortogra.fi/#lectura=ca-S031) | Una bústia per a propostes | 4t | Provisional · revisió superada | 2026-11-20 | `cc1776a230e1…` |
-| [ca-S032](https://sentit.ortogra.fi/#lectura=ca-S032) | Una ruta amb pistes | 4t | Provisional · revisió superada | 2026-11-20 | `3620927b5a63…` |
+| [ca-S032](https://sentit.ortogra.fi/#lectura=ca-S032) | Una ruta amb pistes | 4t | Provisional · revisió superada | 2026-11-21 | `a6a628640b23…` |
 | [ca-S033](https://sentit.ortogra.fi/#lectura=ca-S033) | Qui tria què es mostra? | 4t | Provisional · revisió superada | 2026-11-21 | `dab708a0277c…` |
 | [ca-S034](https://sentit.ortogra.fi/#lectura=ca-S034) | L’assaig que semblava una funció | 4t | Provisional · revisió superada | 2026-11-20 | `a3006b46d915…` |
 | [ca-S035](https://sentit.ortogra.fi/#lectura=ca-S035) | Una pregunta per al menjador | 5è | Provisional · revisió superada | 2026-11-20 | `7ee728862c32…` |

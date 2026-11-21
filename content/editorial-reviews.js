@@ -182,9 +182,9 @@ export const editorialReviews = {
   },
   "ca-S032": {
     "status": "passed",
-    "reviewedAt": "2026-11-20",
-    "reviewer": "revisor_coherencia",
-    "fingerprint": "3620927b5a639d801b71524999bffc9a5c298e3167cee9f1545f1d1331448ed3"
+    "reviewedAt": "2026-11-21",
+    "reviewer": "independent-coherence-agent",
+    "fingerprint": "a6a628640b2345174d83d9f7b8a67498faf8c3a867ab41b6d11abbdda1aae9f0"
   },
   "ca-S033": {
     "status": "passed",
