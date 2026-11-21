@@ -63,6 +63,9 @@ export const quart = [
   }),
   proposal({
     id: 'una-ruta-amb-pistes', code: 'S032', title: 'Una ruta amb pistes', grade: '4', level: 'middle', genre: 'instructions', universeIds: ['amb-mireia'],
+    seconds: 96, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s032-mixed-v1.mp3', tracks: { introduction: './assets/audio/s032-mixed-v1-intro.mp3', body: './assets/audio/s032-mixed-v1-cos.mp3' },
+    fragment: { start: 12.41, seconds: 83 },
     summary: 'La Mireia prepara amb la Laia un recorregut de pistes per a una altra classe i han de pensar com el provaran.',
     voices: { Mireia: 'Aoede', Laia: 'Leda' }, delivery: 'Conversa de taller amb una alumna que s’anticipa i una mestra que concreta. No llegir una llista de prohibicions. Les rectificacions són pràctiques, sense renyar.',
     editorialFocus: '4t intermèdia: entendre el destinatari d’unes instruccions, una prova amb condició i la diferència entre ajudar i revelar la solució. Set preguntes amb causes explícites.',

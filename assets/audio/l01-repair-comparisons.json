@@ -1,0 +1,43 @@
+{
+  "batch": "L01",
+  "requestHash": "0cd61066dabfeb8992968fa3e45c9f95dd07621aa58ca5a919a5e873cee48df7",
+  "repairs": [
+    {
+      "code": "S013",
+      "part": "repartiment",
+      "text": "El codi postal ajuda a arribar a una zona, però no diu tot sol quina bústia concreta és la bona.",
+      "pronunciation": "Bústia is stressed on the first vowel Ú: BÚS-ti-a, never bus-TÍ-a. This spelling aid is an instruction, not spoken text. Read the sentence fluently and naturally.",
+      "status": "received-awaiting-listening",
+      "originalFile": "assets/audio/repairs/l01-s013-repartiment-original.mp3",
+      "candidateFile": "assets/audio/repairs/l01-s013-repartiment-prova.mp3",
+      "sourceRawSha256": "37fe6368197b31f9d3d6a8bafedc0c858426c23bd2dd4f6ef6f1278d7cbfb473",
+      "batchRequestHash": "0cd61066dabfeb8992968fa3e45c9f95dd07621aa58ca5a919a5e873cee48df7",
+      "applied": false
+    },
+    {
+      "code": "S013",
+      "part": "error",
+      "text": "No és correcte endevinar una bústia només perquè el nom ens sona.",
+      "pronunciation": "Bústia is stressed on Ú in the first syllable, never on I. Respect the written accent without exaggerated pauses or spelling aloud.",
+      "status": "received-awaiting-listening",
+      "originalFile": "assets/audio/repairs/l01-s013-error-original.mp3",
+      "candidateFile": "assets/audio/repairs/l01-s013-error-prova.mp3",
+      "sourceRawSha256": "37fe6368197b31f9d3d6a8bafedc0c858426c23bd2dd4f6ef6f1278d7cbfb473",
+      "batchRequestHash": "0cd61066dabfeb8992968fa3e45c9f95dd07621aa58ca5a919a5e873cee48df7",
+      "applied": false
+    },
+    {
+      "code": "S010",
+      "part": "pla",
+      "text": "Després ja som a la porta. És el camí que vam fer l’any passat.",
+      "pronunciation": "Pronounce Després faithfully, with its final /s/ before ja, not Desprén. Keep the entire sentence fluent; do not spell it aloud.",
+      "status": "received-awaiting-listening",
+      "originalFile": "assets/audio/repairs/l01-s010-pla-original.mp3",
+      "candidateFile": "assets/audio/repairs/l01-s010-pla-prova.mp3",
+      "sourceRawSha256": "5ae1ca4fd12bac21243b7e519981c14bdb2e34319cc06bdc1fbc318f91833fe4",
+      "batchRequestHash": "0cd61066dabfeb8992968fa3e45c9f95dd07621aa58ca5a919a5e873cee48df7",
+      "applied": false
+    }
+  ],
+  "masterChanged": false
+}

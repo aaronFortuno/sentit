@@ -11,13 +11,13 @@ const { assertQuota, reserveRequest, readJSON } = require('./audio-quota.cjs');
 const productionPlans = require('../content/production-plans.json');
 const { fingerprint, assertProductionApproved } = require('./production-approval.cjs');
 const outputDirectory = path.resolve(__dirname, '../../output/sentit-primera-tanda');
-async function geminiAudio(body, summaryFile) {
+async function geminiAudio(body, summaryFile, options = {}) {
   require('./audio-batch-policy.cjs').assertSynthesisWindow(body);
   const key = process.env.GEMINI_API_KEY?.trim() || parseEnv(await fs.readFile(path.resolve(__dirname, '../../.private/comprensio-oral/gemini.env'), 'utf8')).GEMINI_API_KEY?.trim();
   if (!key) throw Error('Gemini: falta configuració privada.');
   let response;
   try {
-    response = await fetch('https://generativelanguage.googleapis.com/v1beta/interactions', { method:'POST', headers:{'x-goog-api-key':key,'Content-Type':'application/json'}, body:JSON.stringify(body), redirect:'error', signal:AbortSignal.timeout(180000) });
+    response = await fetch('https://generativelanguage.googleapis.com/v1beta/interactions', { method:'POST', headers:{'x-goog-api-key':key,'Content-Type':'application/json'}, body:JSON.stringify(body), redirect:'error', signal:AbortSignal.timeout(options.timeoutMs ?? 180000) });
   } catch { throw Error('Gemini: connexió interrompuda.'); }
   if (!response.ok) {
     const result=await response.json().catch(()=>({}));
@@ -29,10 +29,9 @@ async function geminiAudio(body, summaryFile) {
     throw Error('Gemini: HTTP '+response.status+'.');
   }
   const result=await response.json();
-  if (summaryFile) await fs.writeFile(summaryFile, JSON.stringify({ id:result.id, model:result.model ?? body.model, usage:result.usage ?? result.usageMetadata ?? null },null,2)+'\n');
-  const clip=result.steps?.flatMap(s=>s.content??[]).findLast(c=>c.type==='audio'&&typeof c.data==='string');
-  if (!clip) throw Error('Gemini: resposta sense àudio.');
-  return Buffer.from(clip.data,'base64');
+  if(options.responseFile)await fs.writeFile(options.responseFile,JSON.stringify(result));
+  if (summaryFile) await fs.writeFile(summaryFile, JSON.stringify({ id:result.id, status:result.status ?? null, model:result.model ?? body.model, usage:result.usage ?? result.usageMetadata ?? null, audioBlocks:(result.steps??[]).flatMap(s=>s.content??[]).filter(c=>c.type==='audio').length },null,2)+'\n');
+  return require('./gemini-result.cjs').collectAudio(result).audio;
 }
 const root = path.resolve(__dirname, '..');
 const sr = 48000;

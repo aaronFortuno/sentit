@@ -1,6 +1,8 @@
 export const strings = {
   ca: {
     language: 'ca',
+    compareAudioCorrections: 'Compara les correccions de veu rebudes',
+    releaseFirstMixedBatch: 'L01 rebuda en una sola petició: S021 i S032 muntades i pendents d’audició, més tres proves de correcció per comparar a S010 i S013. Originals conservats. Últimes validacions de guió registrades; tots els guions actuals autoritzats per a veus. Lots seqüencials i rebut de consum disponibles al repositori.',
     releaseClassroomRegister: 'S041 i S036 refetes amb situacions concretes i registre quotidià; pendents del docent. S035 revisada i validada amb l’esmena de la comissió de menjador. Registrades també les validacions de S025, S028, S032, S033, S034, S037, S038 i S042. Nova S038D dialogada per comparar amb la narració, amb revisió independent i pendent de validació pròpia. Seguiment, filtres i lots actualitzats; cap síntesi nova.',
     releaseS030AndS040Approved: 'S040 i S030: guions validats pel docent per a síntesi, amb les veus i el contingut revisat conservats. Seguiment i fases actualitzats. Nous lots candidats L07 i L08, pendents de completar sis a vuit minuts amb material compatible; cap petició nova enviada.',
     releaseNaturalnessBatch: 'Passada de naturalitat dels dotze guions pendents indicats pel docent i reformulació de S042. Retirats aclariments sense motiu i explicacions que resolien inferències; preguntes i ressaltats revisats. Criteris d’autoria i revisió ampliats amb el llibre d’estil del Diari d’IA Educativa. Correcció i segona lectura independent; tots pendents de validació docent, sense síntesi.',
@@ -241,6 +243,8 @@ export const strings = {
   },
   es: {
     language: 'es',
+    compareAudioCorrections: 'Compara las correcciones de voz recibidas',
+    releaseFirstMixedBatch: 'L01 recibida en una sola petición: S021 y S032 montadas y pendientes de audición, más tres pruebas de corrección para comparar en S010 y S013. Originales conservados. Últimas validaciones de guion registradas; todos los guiones actuales autorizados para voces. Lotes secuenciales y registro de consumo disponibles en el repositorio.',
     releaseClassroomRegister: 'S041 y S036 rehechas con situaciones concretas y registro cotidiano; pendientes del docente. S035 revisada y validada con la corrección de la comisión de comedor. Registradas también las validaciones de S025, S028, S032, S033, S034, S037, S038 y S042. Nueva S038D dialogada para comparar con la narración, con revisión independiente y pendiente de validación propia. Seguimiento, filtros y lotes actualizados; ninguna síntesis nueva.',
     releaseS030AndS040Approved: 'S040 y S030: guiones validados por el docente para síntesis, conservando las voces y el contenido revisado. Seguimiento y fases actualizados. Nuevos lotes candidatos L07 y L08, pendientes de completar seis a ocho minutos con material compatible; ninguna petición nueva enviada.',
     releaseNaturalnessBatch: 'Revisión de naturalidad de los doce guiones pendientes indicados por el docente y reformulación de S042. Retiradas aclaraciones sin motivo y explicaciones que resolvían inferencias; preguntas y resaltados revisados. Criterios de autoría y revisión ampliados con el libro de estilo del Diario de IA Educativa. Corrección y segunda lectura independiente; todos pendientes de validación docente, sin síntesis.',

@@ -8,6 +8,8 @@ const original = { title: 'Sentit · síntesi i muntatge originals amb FFmpeg', 
 
 // Only resources actually heard in the published master. Future cue sheets live in docs/.
 export const audioResources = {
+  'ca-S021': { voices: 'Aoede: Mireia i títol. Leda: Laia. Veus rebudes dins del lot compartit L01, amb text i repartiment conservats. Muntatge pendent d’audició docent.', sounds: 'Ambient urbà real de soaress a l’obertura, passos reals d’evsecrets durant el desplaçament i un full real de Beussa dins pauses sense parla. Gravacions CC0; sense música sota les causes ni efectes que donin resultats.', recipe: 'tools/render-mixed-take.cjs' },
+  'ca-S032': { voices: 'Aoede: Mireia i títol. Leda: Laia. Veus rebudes dins del mateix lot L01, separades en silencis comprovats. Muntatge pendent d’audició docent.', sounds: 'Dos segons d’aula real d’Elenalostale abans de la salutació, retirats sota les instruccions. Un full enregistrat de Beussa abans de parlar de la prova i al comiat. Gravacions CC0; sense sons del lloc amagat.', recipe: 'tools/render-mixed-take.cjs' },
   'ca-S020': { voices: 'Aoede: Mireia i presentació. Presa completa ja rebuda, conservada sense canvis de ritme ni retalls de fonemes. Veus i muntatge validats pel docent; publicació definitiva de S020, amb el màster v1 conservat.', sounds: 'Petita descoberta, original de Sentit sota MIT: obertura de 3,8 s i tancament de 3,4 s, fora de la parla. Un clic molt curt dins la pausa anterior a la comprovació de l’arxiu; veu neta durant les bases, requisits i horaris. Cap enregistrament extern ni síntesi nova.', recipe: 'tools/render-proposal.cjs' },
   'ca-S019': { voices: 'Leda: Laia i presentació. Sulafat: Ona, cuinera. Una petició completa amb les confirmacions breus i el «Sí, sí» dins la mateixa presa. Veus i muntatge validats pel docent. S019 publicada després de retirar la identificació oral de la mostra de fons.', sounds: 'Ambient real de cuina de restaurant de SoundtasticPro, CC0, sense els primers cinc segons, eliminats abans del bucle: entrada amb fosa, molt baix sota el diàleg i pujada al final durant dos o tres segons abans de la fosa. Sense sons de cuina procedurals ni sintonia final.', recipe: 'tools/render-proposal.cjs' },
   'ca-S023': { voices: 'Erinome: Mar, periodista, i presentació. Charon: Pau, comerciant. Títol i notícia sencers en una sola petició; guió i escaleta validats. Esmena de suggeriments pendent; nou muntatge pendent d’audició.', sounds: 'Ona curta: obertura i tancament originals MIT. Ambient enregistrat de mercat cobert de jmdh, CC0, només sota l’entrevista i el comiat amb en Pau; no tapa accessos ni horaris. Sense els antics passos i paper procedurals.', recipe: 'tools/render-proposal.cjs' },
@@ -64,5 +66,7 @@ export function renderAudioResources(root, entry, t) {
     }
   }
   const p = add('p', '');
+  const comparison=productionProgress[`${entry.language}-${entry.code}`]?.repairComparison;
+  if(comparison){const preview=add('p','');link(preview,t('compareAudioCorrections'),comparison);}
   link(p, t('fullAudioCredits'), repo + 'docs/fonts-sonores.md');
 }

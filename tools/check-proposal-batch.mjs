@@ -20,7 +20,7 @@ for(const grade of ['3','4','5','6']){
 assert.equal(firstBatchActivities.length,19);
 assert.equal(proposedActivities.length,19+secondBatchActivities.length);
 for(const grade of ['3','4','5','6']){const next=secondBatchActivities.filter(e=>e.grade===grade);assert([0,5].includes(next.length),'Publish complete reviewed groups');if(next.length)assert.deepEqual(['easy','middle','advanced'].map(level=>next.filter(e=>e.level===level).length),[2,2,1]);}
-for(const entry of secondBatchActivities){assert.equal(entry.reviewStatus,'pending');assert.equal(entry.audio,null);assert.equal(entry.questions.length,Number(entry.grade)+3);assert(entry.universeIds?.length);for(const id of entry.universeIds)assert(universes.some(u=>u.id===id));assert(universesForActivity(entry).length>0);assert(plans[entry.code]?.reviewContent?.startsWith('content/propostes/tanda2/'));}
+for(const entry of secondBatchActivities){assert(['pending','audio-review','validated'].includes(entry.reviewStatus));assert.equal(Boolean(entry.audio),entry.reviewStatus!=='pending');assert.equal(entry.questions.length,Number(entry.grade)+3);assert(entry.universeIds?.length);for(const id of entry.universeIds)assert(universes.some(u=>u.id===id));assert(universesForActivity(entry).length>0);assert(plans[entry.code]?.reviewContent?.startsWith('content/propostes/tanda2/'));}
 assert.equal(activities.find(entry=>entry.code==='S011').level,'advanced','Teacher calibration: S011 is 4t avançada');
 let questions=0;
 for(const entry of [...proposedActivities,...proposedVariants]){
