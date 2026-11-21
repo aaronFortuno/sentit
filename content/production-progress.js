@@ -446,5 +446,13 @@ export const productionProgress = {
       "programme": "informatiu",
       "note": "Sintonia informativa pendent de seleccionar abans del muntatge; les veus estan autoritzades."
     }
+  },
+  "ca-S026": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-21T08:26:58.368Z",
+    "editorialFingerprint": "cf11d87e14bd9d3686135ec4f159d00ab2631ffe89687ef0c08729bc8cb51a03",
+    "plannedNewRequests": 1,
+    "confirmation": "S026 validat per producció de veus, incorpora sons d’aula de fons, perquè és clarament situació d’aula.",
+    "reason": "Guió validat i muntatge previst amb ambient real d’aula discret. Incorporar la presa Aoede/Puck al lot L05, sense petició curta aïllada."
   }
 };

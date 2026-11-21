@@ -146,9 +146,9 @@ export const editorialReviews = {
   },
   "ca-S026": {
     "status": "passed",
-    "reviewedAt": "2026-11-20",
-    "reviewer": "revisor_coherencia",
-    "fingerprint": "7be4842a4d05b035b030529f87b1c45c528fdd456ad86b904f76a932cb031395"
+    "reviewedAt": "2026-11-21",
+    "reviewer": "independent-coherence-agent",
+    "fingerprint": "cf11d87e14bd9d3686135ec4f159d00ab2631ffe89687ef0c08729bc8cb51a03"
   },
   "ca-S027": {
     "status": "passed",
@@ -176,9 +176,9 @@ export const editorialReviews = {
   },
   "ca-S031": {
     "status": "passed",
-    "reviewedAt": "2026-11-20",
-    "reviewer": "revisor_coherencia",
-    "fingerprint": "cc1776a230e1323b4e14b3136f29501b27e5b032f7875dcc92fdf6c7de27b9fa"
+    "reviewedAt": "2026-11-21",
+    "reviewer": "independent-coherence-agent",
+    "fingerprint": "ff754fc8c82fadef113da738bd7e7027d06563a2a46934eeac6fce6a8b75920b"
   },
   "ca-S032": {
     "status": "passed",
