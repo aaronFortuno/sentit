@@ -188,9 +188,9 @@ export const editorialReviews = {
   },
   "ca-S033": {
     "status": "passed",
-    "reviewedAt": "2026-11-20",
-    "reviewer": "revisor_coherencia",
-    "fingerprint": "6bc8cd3e0f8e78e59e35ecea4dd67393fa8a83457f970aa58d2136eb29178e85"
+    "reviewedAt": "2026-11-21",
+    "reviewer": "independent-coherence-agent",
+    "fingerprint": "dab708a0277ce88435754b47786e9c49e4765cf4e4bda4708cd8e8476e43caf2"
   },
   "ca-S034": {
     "status": "passed",
