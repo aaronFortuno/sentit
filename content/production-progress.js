@@ -50,7 +50,7 @@ export const productionProgress = {
     }
   },
   "ca-S011": {
-    "state": "montage-awaiting-listening",
+    "state": "audio-corrections-pending",
     "approvedAt": "2026-11-20T12:34:52.567Z",
     "editorialFingerprint": "7c6c647baa9f796d82a24313a34e8a6387a5518f5878d4853b7a7397e1af34cb",
     "plannedNewRequests": 2,
@@ -70,8 +70,180 @@ export const productionProgress = {
     "listeningApproval": false,
     "synthesisBatch": "L10+L02",
     "requestHash": "ef97c7456001de385258549f2a355d83acf7942502caa3b39f364da8be1b417f",
-    "audioSha256": "2b359a9bf561c04a550d4967ee08187d41e20209ca386a01da3b21e5749981e0",
-    "montageNewSynthesisRequests": 0
+    "audioSha256": "de8b13c261e68829a0fa555face36257a4311b79c202229efc6b257bf6e7e2dc",
+    "montageNewSynthesisRequests": 0,
+    "timingRevision": {
+      "baseFile": "s011-mixed-v1.mp3",
+      "baseAudioSha256": "2b359a9bf561c04a550d4967ee08187d41e20209ca386a01da3b21e5749981e0",
+      "intro": {
+        "cuts": [
+          {
+            "first": 12000,
+            "last": 45634,
+            "start": 0.25,
+            "end": 0.9507083333333334,
+            "seconds": 0.7007083333333334,
+            "maximumDbFS": -43.46054508275024
+          },
+          {
+            "first": 200858,
+            "last": 235436,
+            "start": 4.184541666666667,
+            "end": 4.904916666666667,
+            "seconds": 0.720375,
+            "maximumDbFS": -51.7206201849085
+          }
+        ],
+        "removedSeconds": 1.4210833333333333,
+        "retainedPcmSha256": "1e3407ad4f6661cc23361478e09852ea202340d9c179afcf06db03be092a2c8b"
+      },
+      "body": {
+        "cuts": [
+          {
+            "first": 119568,
+            "last": 149628,
+            "start": 2.491,
+            "end": 3.11725,
+            "seconds": 0.62625,
+            "maximumDbFS": -44.20197131026188
+          },
+          {
+            "first": 802590,
+            "last": 850533,
+            "start": 16.720625,
+            "end": 17.7194375,
+            "seconds": 0.9988125,
+            "maximumDbFS": -48.3015877968431
+          },
+          {
+            "first": 1945688,
+            "last": 1992248,
+            "start": 40.53516666666667,
+            "end": 41.50516666666667,
+            "seconds": 0.97,
+            "maximumDbFS": -49.80288139389895
+          },
+          {
+            "first": 2069529,
+            "last": 2100248,
+            "start": 43.1151875,
+            "end": 43.75516666666667,
+            "seconds": 0.6399791666666667,
+            "maximumDbFS": -55.823481307178575
+          },
+          {
+            "first": 2441049,
+            "last": 2475368,
+            "start": 50.8551875,
+            "end": 51.570166666666665,
+            "seconds": 0.7149791666666667,
+            "maximumDbFS": -55.50174490930949
+          },
+          {
+            "first": 2824811,
+            "last": 2850052,
+            "start": 58.850229166666665,
+            "end": 59.376083333333334,
+            "seconds": 0.5258541666666666,
+            "maximumDbFS": -51.7206201849085
+          },
+          {
+            "first": 3566690,
+            "last": 3599550,
+            "start": 74.30604166666667,
+            "end": 74.990625,
+            "seconds": 0.6845833333333333,
+            "maximumDbFS": -47.831965879852646
+          },
+          {
+            "first": 3702751,
+            "last": 3738012,
+            "start": 77.14064583333334,
+            "end": 77.87525,
+            "seconds": 0.7346041666666666,
+            "maximumDbFS": -56.32959861247399
+          },
+          {
+            "first": 4227133,
+            "last": 4272291,
+            "start": 88.06527083333333,
+            "end": 89.0060625,
+            "seconds": 0.9407916666666667,
+            "maximumDbFS": -54.891958466351475
+          },
+          {
+            "first": 4461151,
+            "last": 4490210,
+            "start": 92.94064583333333,
+            "end": 93.54604166666667,
+            "seconds": 0.6053958333333334,
+            "maximumDbFS": -55.50174490930949
+          },
+          {
+            "first": 5026408,
+            "last": 5061864,
+            "start": 104.71683333333333,
+            "end": 105.4555,
+            "seconds": 0.7386666666666667,
+            "maximumDbFS": -50.13699526395601
+          },
+          {
+            "first": 5602341,
+            "last": 5648180,
+            "start": 116.7154375,
+            "end": 117.67041666666667,
+            "seconds": 0.9549791666666667,
+            "maximumDbFS": -57.63962958760263
+          },
+          {
+            "first": 5947221,
+            "last": 5980436,
+            "start": 123.9004375,
+            "end": 124.59241666666667,
+            "seconds": 0.6919791666666667,
+            "maximumDbFS": -62.35019852575361
+          },
+          {
+            "first": 6076074,
+            "last": 6130248,
+            "start": 126.584875,
+            "end": 127.7135,
+            "seconds": 1.128625,
+            "maximumDbFS": -48.945281464271126
+          }
+        ],
+        "removedSeconds": 10.955499999999999,
+        "retainedPcmSha256": "83eaca837596211df9d481ed57fec43267635d4dc75ab3854d8485d5a6815740"
+      },
+      "quietThresholdDbFS": -42,
+      "allRetainedSamplesIdentical": true,
+      "newRequests": 0,
+      "originalPreserved": true
+    },
+    "feedback": [
+      {
+        "part": "problema",
+        "speaker": "Biel",
+        "status": "pending",
+        "type": "voice-identity",
+        "note": "El docent sent la frase «A nosaltres no ens hi entra la mà...» amb veu de Laia. A l’entrada de Gemini és Biel/Puck; els talls són correctes."
+      },
+      {
+        "part": "exposicio",
+        "speaker": "Laia",
+        "status": "pending",
+        "type": "voice-consistency",
+        "note": "«Doncs jo la deixaria...» sona molt més agut que la resta de torns de Laia."
+      },
+      {
+        "part": "whole",
+        "status": "pending",
+        "type": "voice-consistency",
+        "note": "El docent percep quatre o cinc timbres tot i haver-hi tres personatges. Revisar estabilitat de les veus abans de donar per bona la síntesi."
+      }
+    ],
+    "confirmation": "Retorn docent del 21/11: identitat i timbre de veus a revisar; pauses tècniques escurçades localment.",
+    "timingComparison": "./proves/pauses-s011-s027.html#S011"
   },
   "ca-S021": {
     "state": "montage-awaiting-listening",
@@ -717,8 +889,84 @@ export const productionProgress = {
     "listeningApproval": false,
     "synthesisBatch": "L08",
     "requestHash": "ac8a3b34fa098dc7a38e788b2cadc9c81d3039b44c7af229a4c9c104184e94cc",
-    "audioSha256": "5bd573e478044598f579fbbdc9693b5a7bd2404f0bb62949372b81833955d877",
-    "montageNewSynthesisRequests": 0
+    "audioSha256": "6801fbb8a0a507a6807d2664f1df2877457c44bc3c5747080c43ed600083c99b",
+    "montageNewSynthesisRequests": 0,
+    "timingRevision": {
+      "baseFile": "s030-mixed-v1.mp3",
+      "baseAudioSha256": "5bd573e478044598f579fbbdc9693b5a7bd2404f0bb62949372b81833955d877",
+      "intro": {
+        "cuts": [
+          {
+            "first": 12000,
+            "last": 321546,
+            "start": 0.25,
+            "end": 6.698875,
+            "seconds": 6.448875,
+            "maximumDbFS": -57.84401289123635
+          },
+          {
+            "first": 482848,
+            "last": 597734,
+            "start": 10.059333333333333,
+            "end": 12.452791666666666,
+            "seconds": 2.3934583333333332,
+            "maximumDbFS": -56.86704154048001
+          }
+        ],
+        "removedSeconds": 8.842333333333332,
+        "retainedPcmSha256": "065a60eb74591ed9ade66ab4894c15477b234ae0abb7a08ec9d5ebb922796154"
+      },
+      "body": {
+        "cuts": [
+          {
+            "first": 119568,
+            "last": 238319,
+            "start": 2.491,
+            "end": 4.964979166666667,
+            "seconds": 2.4739791666666666,
+            "maximumDbFS": -43.50011640239199
+          },
+          {
+            "first": 2224083,
+            "last": 2248559,
+            "start": 46.3350625,
+            "end": 46.84497916666667,
+            "seconds": 0.5099166666666667,
+            "maximumDbFS": -56.86704154048001
+          },
+          {
+            "first": 2627072,
+            "last": 2650320,
+            "start": 54.730666666666664,
+            "end": 55.215,
+            "seconds": 0.48433333333333334,
+            "maximumDbFS": -54.891958466351475
+          },
+          {
+            "first": 3300721,
+            "last": 3328560,
+            "start": 68.76502083333334,
+            "end": 69.345,
+            "seconds": 0.5799791666666667,
+            "maximumDbFS": -52.46710664538475
+          }
+        ],
+        "removedSeconds": 4.048208333333333,
+        "retainedPcmSha256": "8873bf27b50df7af09d7b1e388b88ab340350f90126b10cede727ad151ec9ebe"
+      },
+      "tailEdit": {
+        "start": 74.29502083333334,
+        "end": 87.92579166666667,
+        "canonicalLastWordEnd": 73.79500000000002,
+        "reason": "Unrequested post-speech breath, long padding and delayed closing footsteps",
+        "cutPeakDbFS": -58.053321564799646
+      },
+      "quietThresholdDbFS": -42,
+      "allRetainedSamplesIdentical": true,
+      "newRequests": 0,
+      "originalPreserved": true
+    },
+    "timingComparison": "./proves/pauses-s011-s027.html#S030"
   },
   "ca-S040": {
     "state": "ready-for-voices",
@@ -742,18 +990,70 @@ export const productionProgress = {
     "reason": "Guió validat; presa completa incorporada al lot candidat L09, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts."
   },
   "ca-S032": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-21T09:30:54.248Z",
-    "editorialFingerprint": "a6a628640b2345174d83d9f7b8a67498faf8c3a867ab41b6d11abbdda1aae9f0",
+    "editorialFingerprint": "f60ed5aafd6bb7bb00a4de7e5c96cbc3f08c2b3a7d9e31f457a41c24f863338b",
     "plannedNewRequests": 1,
-    "confirmation": "S032 validat per síntesi de veus",
+    "confirmation": "S032 validada per publicació després de retirar els dos long pause i el silenci inicial.",
     "reason": "Guió validat; presa completa incorporada al lot candidat L01, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts.",
     "voicesReceivedAt": "2026-11-21T10:05:32.024Z",
     "synthesisBatch": "L01",
     "requestHash": "0cd61066dabfeb8992968fa3e45c9f95dd07621aa58ca5a919a5e873cee48df7",
-    "audioSha256": "d07403baa3519b44ed0a04f81021f042829a2382569d630dd63f2ccdd9b2cfd2",
-    "listeningApproval": false,
-    "montageNewSynthesisRequests": 0
+    "audioSha256": "ecd895f83f19979fc3b422bd8abf20dab74dfac7c963c7daf8f0e82f370b60b6",
+    "listeningApproval": true,
+    "montageNewSynthesisRequests": 0,
+    "directiveRevision": {
+      "originalFile": "s032-mixed-v1.mp3",
+      "originalSha256": "d07403baa3519b44ed0a04f81021f042829a2382569d630dd63f2ccdd9b2cfd2",
+      "removed": [
+        "long pause",
+        "long pause"
+      ],
+      "recognizedAs": [
+        "l'ong",
+        "pos",
+        "l'opus"
+      ],
+      "retainedTitleRange": {
+        "start": 6.63,
+        "end": 10.88
+      },
+      "canonicalTitleRange": {
+        "start": 6.8700000000000045,
+        "end": 10.530000000000001
+      },
+      "retainedTitlePcmSha256": "d456f9dfa31a6e03a4a20eb149aa14f7aa051d07640be94141a0fd74fd8355a9",
+      "bodyPcmSha256": "f2ff94238917caf4e40ac0cf8c794a178d9ea0280dc9a7aa218e86edaf802ccd",
+      "bodyUnchanged": true,
+      "decodedPublishedTracks": true,
+      "bodyTrackSha256": "11a30a1e803403893c605d8be74677b4648e80d2aa46125c1f58c8746af780af",
+      "voiceRetimed": false,
+      "newRequests": 0
+    },
+    "teacherAssessment": "Dues instruccions long pause i farciment inicial retirats; resta de l’àudio validada pel docent.",
+    "feedback": [
+      {
+        "part": "introduction",
+        "status": "applied",
+        "type": "spoken-directive",
+        "note": "Dues locucions long pause no demanades retallades en silencis; títol canònic conservat."
+      }
+    ],
+    "validatedAt": "2026-11-21",
+    "validatedBy": "docent",
+    "condition": {
+      "spokenDirectivesRemoved": 2,
+      "initialPaddingRemoved": true,
+      "bodyTrackUnchanged": true,
+      "sourceMasterSha256": "d07403baa3519b44ed0a04f81021f042829a2382569d630dd63f2ccdd9b2cfd2"
+    },
+    "publicationMaterials": {
+      "illustration": "./assets/images/una-ruta-amb-pistes-v1.webp",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-21",
+      "audioChanged": true,
+      "change": "Retall inicial autoritzat, sense alterar la pista del cos."
+    }
   },
   "ca-S034": {
     "state": "montage-awaiting-listening",
@@ -780,11 +1080,11 @@ export const productionProgress = {
     "montageNewSynthesisRequests": 0
   },
   "ca-S038": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-21T09:30:54.249Z",
-    "editorialFingerprint": "17e99f0c936202e01bb9d9f01acbd02d882f90994de423710d6f1b70b022571a",
+    "editorialFingerprint": "85b48ca59c4fec6ee3244420edddf7c84d4057c81ea499d670b43e0f28c8d7fa",
     "plannedNewRequests": 1,
-    "confirmation": "S038 validat per síntesi.",
+    "confirmation": "S038 veus validades i publicació definitiva un cop retirat el so inicial de plaça.",
     "reason": "Guió validat; presa completa incorporada al lot candidat L10, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts.",
     "uncertainTurns": [],
     "receivedTakes": {
@@ -797,11 +1097,37 @@ export const productionProgress = {
       ]
     },
     "voicesReceivedAt": "2026-11-21T11:06:30.499Z",
-    "listeningApproval": false,
+    "listeningApproval": true,
     "synthesisBatch": "L13",
     "requestHash": "ab02e5a56a6807f106885dd5b8e4749ed77c2b2461e93dc71243142194efb2a3",
-    "audioSha256": "4b3df824ba8c8676e8d7cb9945af093c0956deb97e9e072c06ef67d8468b4e42",
-    "montageNewSynthesisRequests": 0
+    "audioSha256": "dd2ddd2d5536185f6cf5c046819f59ab3eb80d46b7675ffe0e7d4dde5481e13a",
+    "montageNewSynthesisRequests": 0,
+    "ambienceRevision": {
+      "originalFile": "s038-mixed-v1.mp3",
+      "originalSha256": "4b3df824ba8c8676e8d7cb9945af093c0956deb97e9e072c06ef67d8468b4e42",
+      "removedSource": "hz37-792502",
+      "voiceInputSha256": "12c0e10867920f7e25c7ccd2e666139dfebb7ff2ccab76d13a5e00e162e2612a",
+      "musicInputSha256": "2a4d87d7b3f2877d5cfdb2d767de41ad7955b377cfbbc0dfe71db9cab59a478c",
+      "sameVoiceAndMusicInputs": true,
+      "voiceRetimed": false,
+      "newRequests": 0,
+      "source": "tools/remove-s038-opening-ambience.cjs",
+      "authorization": "Docent: S038 veus validades; retirar el so inicial de plaça i publicar definitivament."
+    },
+    "validatedAt": "2026-11-21",
+    "validatedBy": "docent",
+    "condition": {
+      "openingAmbienceRemoved": true,
+      "sameVoiceAndMusicInputs": true,
+      "sourceMasterSha256": "4b3df824ba8c8676e8d7cb9945af093c0956deb97e9e072c06ef67d8468b4e42"
+    },
+    "publicationMaterials": {
+      "illustration": "./assets/images/el-banc-que-havien-mogut-v1.webp",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-21",
+      "audioChanged": true,
+      "change": "Retirada de l’ambient inicial autoritzada expressament pel docent."
+    }
   },
   "ca-S042": {
     "state": "montage-awaiting-listening",
@@ -875,7 +1201,7 @@ export const productionProgress = {
     "montageNewSynthesisRequests": 0
   },
   "ca-S025": {
-    "state": "montage-awaiting-listening",
+    "state": "audio-corrections-pending",
     "approvedAt": "2026-11-21T09:36:38.025Z",
     "editorialFingerprint": "464d5002ad52e9784973952ec6d86789ec3bc4951b006b2beabc6d7acc03aced",
     "plannedNewRequests": 1,
@@ -895,8 +1221,77 @@ export const productionProgress = {
     "listeningApproval": false,
     "synthesisBatch": "L08",
     "requestHash": "ac8a3b34fa098dc7a38e788b2cadc9c81d3039b44c7af229a4c9c104184e94cc",
-    "audioSha256": "e5769997c7ce12116558b76240833a604be36474cd6f10c7df88b07a3d89751f",
-    "montageNewSynthesisRequests": 0
+    "audioSha256": "3815d49a588ab076c04541100c4c8825d641c858c91b3a72c222dcf06c7d851b",
+    "montageNewSynthesisRequests": 0,
+    "timingRevision": {
+      "baseFile": "s025-mixed-v1.mp3",
+      "baseAudioSha256": "e5769997c7ce12116558b76240833a604be36474cd6f10c7df88b07a3d89751f",
+      "intro": {
+        "cuts": [],
+        "removedSeconds": 0,
+        "retainedPcmSha256": "e76556ef4dad3a845b407df52598477aa205a2b21e6f3b7d4f6f64461da23302"
+      },
+      "body": {
+        "cuts": [
+          {
+            "first": 12000,
+            "last": 123854,
+            "start": 0.25,
+            "end": 2.5802916666666667,
+            "seconds": 2.3302916666666667,
+            "maximumDbFS": -120
+          },
+          {
+            "first": 2368244,
+            "last": 2440192,
+            "start": 49.33841666666667,
+            "end": 50.83733333333333,
+            "seconds": 1.4989166666666667,
+            "maximumDbFS": -49.48114499602986
+          },
+          {
+            "first": 2545517,
+            "last": 2988030,
+            "start": 53.03160416666667,
+            "end": 62.250625,
+            "seconds": 9.219020833333333,
+            "maximumDbFS": -43.1122890523966
+          }
+        ],
+        "removedSeconds": 13.048229166666667,
+        "retainedPcmSha256": "54fc56600024e5f29aa1e1f499d3e904c635428ff4c9d7c68f23bb24d0e7cfc4"
+      },
+      "tailEdit": null,
+      "effectsRemoved": [
+        "brnck-257357",
+        "funkysandwich-871017"
+      ],
+      "quietThresholdDbFS": -42,
+      "allRetainedSamplesIdentical": true,
+      "newRequests": 0,
+      "originalPreserved": true
+    },
+    "teacherAssessment": "Clic i cadira retirats, pauses tècniques escurçades. El text tot sol es manté per decisió docent; prémer pendent d’esmena.",
+    "feedback": [
+      {
+        "part": "final",
+        "type": "pronunciation",
+        "status": "pending",
+        "note": "El docent sent premre en lloc de prémer. Cap petició nova enviada."
+      },
+      {
+        "part": "reaccio",
+        "type": "editorial-ambiguity",
+        "status": "deferred",
+        "note": "Tot sol es refereix a l’altaveu. El docent manté la frase sense regenerar i la tornarà a valorar en la pròxima audició."
+      },
+      {
+        "part": "effects",
+        "type": "montage",
+        "status": "applied",
+        "note": "Eliminats clic inicial i moviment final de cadira; silencis tècnics reduïts."
+      }
+    ]
   },
   "ca-S033": {
     "state": "ready-for-voices",
@@ -907,11 +1302,11 @@ export const productionProgress = {
     "reason": "Guió validat; lot candidat L12 amb Biel/Puck i Nora/Kore, pendent de completar sis a vuit minuts amb material compatible."
   },
   "ca-S038D": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-21T09:48:19.444Z",
-    "editorialFingerprint": "37a0b8c7e237370839d86c2fff61d87f6e09a9256317fe7f29e6914272c0ef0f",
+    "editorialFingerprint": "d51a4936f657bdd6a1542479be9c8313818d1aa01baab1d8d87ba499263f780d",
     "plannedNewRequests": 1,
-    "confirmation": "S038D també queda validat per síntesi de veus",
+    "confirmation": "S038D validada definitivament després de retirar l’ambient inicial.",
     "reason": "Variant dialogada validada per a veus; agrupar Zephyr/Algenib sense tornar a sintetitzar la narració S038.",
     "uncertainTurns": [],
     "receivedTakes": {
@@ -924,11 +1319,37 @@ export const productionProgress = {
       ]
     },
     "voicesReceivedAt": "2026-11-21T11:06:39.033Z",
-    "listeningApproval": false,
+    "listeningApproval": true,
     "synthesisBatch": "L13",
     "requestHash": "ab02e5a56a6807f106885dd5b8e4749ed77c2b2461e93dc71243142194efb2a3",
-    "audioSha256": "9ca83ba479f06c8af25b4181ca1c3417d1e829a76c40b5dfa4ad541df1f0ed6b",
-    "montageNewSynthesisRequests": 0
+    "audioSha256": "2d405791fdda6dee489fbb47c0a49b04423376b991fbbc7a0146c8e66c96bca7",
+    "montageNewSynthesisRequests": 0,
+    "ambienceRevision": {
+      "originalFile": "s038d-mixed-v1.mp3",
+      "originalSha256": "9ca83ba479f06c8af25b4181ca1c3417d1e829a76c40b5dfa4ad541df1f0ed6b",
+      "removedSource": "callmethefoo-744447",
+      "voiceInputSha256": "96a5301c44497f97a78546115e1afaaeef7f10a4a0afa0477608b21d8c9030c1",
+      "musicInputSha256": "7073ce0364135fee7824d3ca0ed0c5ac2efc0f5ea84ca70d0a6159e45e2e6270",
+      "sameVoiceAndMusicInputs": true,
+      "voiceRetimed": false,
+      "newRequests": 0,
+      "source": "tools/remove-s038-opening-ambience.cjs",
+      "authorization": "Docent: S038D validada; retirar l’ambient inicial i publicar definitivament."
+    },
+    "validatedAt": "2026-11-21",
+    "validatedBy": "docent",
+    "condition": {
+      "openingAmbienceRemoved": true,
+      "sameVoiceAndMusicInputs": true,
+      "sourceMasterSha256": "9ca83ba479f06c8af25b4181ca1c3417d1e829a76c40b5dfa4ad541df1f0ed6b"
+    },
+    "publicationMaterials": {
+      "illustration": "./assets/images/el-banc-que-havien-mogut-v1.webp",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-21",
+      "audioChanged": true,
+      "change": "Retirada autoritzada de l’ambient inicial."
+    }
   },
   "ca-S036": {
     "state": "ready-for-voices",
@@ -939,7 +1360,7 @@ export const productionProgress = {
     "reason": "Guió validat durant el processament seqüencial; incorporar a un lot compatible pendent, conservant les veus i el text exactes."
   },
   "ca-S041": {
-    "state": "montage-awaiting-listening",
+    "state": "audio-corrections-pending",
     "approvedAt": "2026-11-21T09:53:12.333Z",
     "editorialFingerprint": "c3cfa721b7651c654920ac4e13e3dc30d83555ddcfa4fa97d7a415d37621c84b",
     "plannedNewRequests": 1,
@@ -971,8 +1392,51 @@ export const productionProgress = {
     "listeningApproval": false,
     "synthesisBatch": "L06",
     "requestHash": "a0bcff78c1b77973ff7ddd60722557464823fa57c596f11b98c6ecc64a97223a",
-    "audioSha256": "644ace07ff499b084ef2f1fdffa3e5ccee0c0c290ebc624d63ffe9c17317d942",
-    "montageNewSynthesisRequests": 0
+    "audioSha256": "b277087c3deafb2966f82d624ee47ed02feecd68b756ea4e7ab68a28243b61e3",
+    "montageNewSynthesisRequests": 0,
+    "directiveRevision": {
+      "originalFile": "s041-mixed-v1.mp3",
+      "originalSha256": "644ace07ff499b084ef2f1fdffa3e5ccee0c0c290ebc624d63ffe9c17317d942",
+      "removed": [
+        "long pause",
+        "long pause"
+      ],
+      "recognizedAs": [
+        "l'ong",
+        "pous",
+        "l'ong",
+        "pous"
+      ],
+      "retainedTitleRange": {
+        "start": 2.109,
+        "end": 5.679
+      },
+      "canonicalTitleRange": {
+        "start": 2.484000000000009,
+        "end": 5.424000000000007
+      },
+      "retainedTitlePcmSha256": "af8c5722c009470b121d3947aca27f3649dba4cdb4e8eb311779755e8dcfb5a4",
+      "bodyPcmSha256": "51f4015c49ad3cd547ed88fd461a0da1f2047798a08d675c577ff5ad796f81bc",
+      "bodyUnchanged": true,
+      "voiceRetimed": false,
+      "newRequests": 0
+    },
+    "teacherAssessment": "Instruccions long pause llegides al títol eliminades localment. Artefacte de «Quan hagis parlat» pendent d’esmena.",
+    "feedback": [
+      {
+        "part": "introduction",
+        "status": "applied",
+        "type": "spoken-directive",
+        "note": "Dues locucions long pause no demanades retallades en silencis; títol canònic conservat."
+      },
+      {
+        "part": "finalreunio",
+        "status": "pending",
+        "type": "pronunciation",
+        "note": "El docent sent «Quan hagues/hagas parlat» en lloc de «Quan hagis parlat». Encara no s’ha sintetitzat cap correcció."
+      }
+    ],
+    "timingComparison": "./proves/pauses-s011-s027.html#S041"
   },
   "ca-S039": {
     "state": "voices-received",
@@ -1040,11 +1504,11 @@ export const productionProgress = {
     "montageNewSynthesisRequests": 0
   },
   "ca-S027": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-21T09:59:55.070Z",
-    "editorialFingerprint": "1c5ec147c7794764cd87928b259785a9f93201f164031b4acbb2d4a8edc48b4d",
+    "editorialFingerprint": "bd52c7909585864e4d85e29cf9416cea54e18e08a0b0e5333122bf02bc900aff",
     "plannedNewRequests": 1,
-    "confirmation": "S027 validat per síntesi de veus",
+    "confirmation": "S027 validat per publicació definitiva.",
     "reason": "Guió validat durant el processament seqüencial; incorporar a un lot compatible pendent, conservant les veus i el text exactes.",
     "uncertainTurns": [],
     "receivedTakes": {
@@ -1057,11 +1521,20 @@ export const productionProgress = {
       ]
     },
     "voicesReceivedAt": "2026-11-21T11:06:16.496Z",
-    "listeningApproval": false,
+    "listeningApproval": true,
     "synthesisBatch": "L13",
     "requestHash": "ab02e5a56a6807f106885dd5b8e4749ed77c2b2461e93dc71243142194efb2a3",
     "audioSha256": "8d75c63a177e6481e79b9027fb6857d1a0ea41ffe33c2a91573dd126e0ff8f59",
-    "montageNewSynthesisRequests": 0
+    "montageNewSynthesisRequests": 0,
+    "validatedAt": "2026-11-21",
+    "validatedBy": "docent",
+    "publicationMaterials": {
+      "illustration": "./assets/images/el-berenar-del-terrat-v1.webp",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-21",
+      "audioChanged": false
+    },
+    "timingComparison": "./proves/pauses-s011-s027.html#S027"
   },
   "ca-S043": {
     "state": "montage-awaiting-listening",

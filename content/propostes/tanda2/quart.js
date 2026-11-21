@@ -4,9 +4,9 @@ const soundCredits = 'Ambients i accions quotidianes amb enregistraments reals p
 export const quart = [
   proposal({
     id: 'el-cartell-que-no-es-llegia', code: 'S030', title: 'El cartell que no es llegia', grade: '4', level: 'easy', genre: 'dialogue', universeIds: ['laia-biel'],
-    seconds: 102, status: 'ready-for-review', reviewStatus: 'audio-review',
-    audio: './assets/audio/s030-mixed-v1.mp3', tracks: { introduction: './assets/audio/s030-mixed-v1-intro.mp3', body: './assets/audio/s030-mixed-v1-cos.mp3' },
-    fragment: { start: 13.502791666666667, seconds: 88 },
+    seconds: 75, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s030-timing-v2.mp3', tracks: { introduction: './assets/audio/s030-timing-v2-intro.mp3', body: './assets/audio/s030-timing-v2-cos.mp3' },
+    fragment: { start: 4.660458333333334, seconds: 70 },
     summary: 'En Biel i la Laia proven el cartell del seu programa al lloc on el veurà la gent, i hi fan alguns canvis.',
     voices: { Biel: 'Puck', Laia: 'Leda' }, delivery: 'Joves satisfets de la feina que descobreixen una dificultat concreta. Rèpliques quotidianes i proposta construïda entre tots dos; no fer-los parlar de disseny professional.',
     editorialFocus: '4t accessible: causa i conseqüència explícites, contrast entre una prova de prop i una prova real. Set preguntes breus, sense terminologia de disseny.',
@@ -66,9 +66,10 @@ export const quart = [
   }),
   proposal({
     id: 'una-ruta-amb-pistes', code: 'S032', title: 'Una ruta amb pistes', grade: '4', level: 'middle', genre: 'instructions', universeIds: ['amb-mireia'],
-    seconds: 96, status: 'ready-for-review', reviewStatus: 'audio-review',
-    audio: './assets/audio/s032-mixed-v1.mp3', tracks: { introduction: './assets/audio/s032-mixed-v1-intro.mp3', body: './assets/audio/s032-mixed-v1-cos.mp3' },
-    fragment: { start: 12.41, seconds: 83 },
+    image: { src: './assets/images/una-ruta-amb-pistes-v1.webp', alt: 'La Mireia i la Laia preparen una activitat amb fulls en blanc sobre una taula.', width: 1536, height: 1024 },
+    seconds: 89, status: 'published', reviewStatus: 'validated',
+    audio: './assets/audio/s032-directives-v2.mp3', tracks: { introduction: './assets/audio/s032-directives-v2-intro.mp3', body: './assets/audio/s032-mixed-v1-cos.mp3' },
+    fragment: { start: 5.05, seconds: 83 },
     summary: 'La Mireia prepara amb la Laia un recorregut de pistes per a una altra classe i han de pensar com el provaran.',
     voices: { Mireia: 'Aoede', Laia: 'Leda' }, delivery: 'Conversa de taller amb una alumna que s’anticipa i una mestra que concreta. No llegir una llista de prohibicions. Les rectificacions són pràctiques, sense renyar.',
     editorialFocus: '4t intermèdia: entendre el destinatari d’unes instruccions, una prova amb condició i la diferència entre ajudar i revelar la solució. Set preguntes amb causes explícites.',

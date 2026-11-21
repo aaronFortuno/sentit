@@ -1,0 +1,469 @@
+{
+  "code": "S011",
+  "activity": "ca-S011",
+  "state": "awaiting-audio-corrections",
+  "file": "s011-timing-v2.mp3",
+  "introFile": "s011-timing-v2-intro.mp3",
+  "bodyFile": "s011-timing-v2-cos.mp3",
+  "offset": 4.533833333333333,
+  "bodyDuration": 127.4995,
+  "fullDuration": 132.03333333333333,
+  "voices": {
+    "Mireia": "Aoede",
+    "Biel": "Puck",
+    "Laia": "Leda"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "assembled-grouped-voices",
+  "requestHash": "ef97c7456001de385258549f2a355d83acf7942502caa3b39f364da8be1b417f",
+  "sourceRequestHash": "f6bfaa4214abf43c93e68dc844b565f6f858f00e52f790ca47ddc2abfea52a58",
+  "batch": "L10+L02",
+  "sourceBatchRequests": [
+    {
+      "batch": "L10",
+      "requestHash": "066bad65be44eea99457fda5beb7d9cfa67741627bfc30c1021c64872ce57207",
+      "rawSha256": "490b279a9670c6bb48737b04668af2d9cf14d0fe56bc165f26dccc2e518beba4"
+    },
+    {
+      "batch": "L02",
+      "requestHash": "ef2b891a48e5c2823d4527ce9a4c0fc93ae1951ecaad5c7ce07a30ac584a1a66",
+      "rawSha256": "75f355dc0e16071957f1057590e050e668469cc3f22f85afd37fec35c67cee27"
+    }
+  ],
+  "assembly": [
+    {
+      "part": "objectiu",
+      "speaker": "Mireia",
+      "sourceTake": "S011-T01",
+      "sourceTakeSha256": "263acd4efd4fbfbe5d4b8b6cc64ab6dced93bddb6b6d06c0aa22df2c879593fb",
+      "sourceRange": {
+        "start": 4.604875,
+        "end": 16.3555
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "pati",
+      "speaker": "Biel",
+      "sourceTake": "S011-T02",
+      "sourceTakeSha256": "aea8f16dcc9da701b58fec44f33cf7b9d0cfe032c04d055f0930c8d1115787dd",
+      "sourceRange": {
+        "start": 0,
+        "end": 3.12
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "maqueta",
+      "speaker": "Mireia",
+      "sourceTake": "S011-T01",
+      "sourceTakeSha256": "263acd4efd4fbfbe5d4b8b6cc64ab6dced93bddb6b6d06c0aa22df2c879593fb",
+      "sourceRange": {
+        "start": 16.3555,
+        "end": 26.836625
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "material",
+      "speaker": "Mireia",
+      "sourceTake": "S011-T01",
+      "sourceTakeSha256": "263acd4efd4fbfbe5d4b8b6cc64ab6dced93bddb6b6d06c0aa22df2c879593fb",
+      "sourceRange": {
+        "start": 26.836583333333333,
+        "end": 39.54
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "pressa",
+      "speaker": "Biel",
+      "sourceTake": "S011-T02",
+      "sourceTakeSha256": "aea8f16dcc9da701b58fec44f33cf7b9d0cfe032c04d055f0930c8d1115787dd",
+      "sourceRange": {
+        "start": 3.12,
+        "end": 6
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "costats",
+      "speaker": "Mireia",
+      "sourceTake": "S011-T01",
+      "sourceTakeSha256": "263acd4efd4fbfbe5d4b8b6cc64ab6dced93bddb6b6d06c0aa22df2c879593fb",
+      "sourceRange": {
+        "start": 39.54,
+        "end": 47.055
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "cinta",
+      "speaker": "Biel",
+      "sourceTake": "S011-T02",
+      "sourceTakeSha256": "aea8f16dcc9da701b58fec44f33cf7b9d0cfe032c04d055f0930c8d1115787dd",
+      "sourceRange": {
+        "start": 6,
+        "end": 9.54
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "resposta-cinta",
+      "speaker": "Laia",
+      "sourceTake": "S011-T02",
+      "sourceTakeSha256": "aea8f16dcc9da701b58fec44f33cf7b9d0cfe032c04d055f0930c8d1115787dd",
+      "sourceRange": {
+        "start": 9.539958333333333,
+        "end": 14.07
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "confirmacio",
+      "speaker": "Mireia",
+      "sourceTake": "S011-T01",
+      "sourceTakeSha256": "263acd4efd4fbfbe5d4b8b6cc64ab6dced93bddb6b6d06c0aa22df2c879593fb",
+      "sourceRange": {
+        "start": 47.055,
+        "end": 53.85
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "sostre",
+      "speaker": "Mireia",
+      "sourceTake": "S011-T01",
+      "sourceTakeSha256": "263acd4efd4fbfbe5d4b8b6cc64ab6dced93bddb6b6d06c0aa22df2c879593fb",
+      "sourceRange": {
+        "start": 53.85,
+        "end": 61.40541666666667
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "dubte",
+      "speaker": "Laia",
+      "sourceTake": "S011-T02",
+      "sourceTakeSha256": "aea8f16dcc9da701b58fec44f33cf7b9d0cfe032c04d055f0930c8d1115787dd",
+      "sourceRange": {
+        "start": 14.07,
+        "end": 16.83
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "prova",
+      "speaker": "Mireia",
+      "sourceTake": "S011-T01",
+      "sourceTakeSha256": "263acd4efd4fbfbe5d4b8b6cc64ab6dced93bddb6b6d06c0aa22df2c879593fb",
+      "sourceRange": {
+        "start": 61.405375,
+        "end": 72.76533333333333
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "problema",
+      "speaker": "Biel",
+      "sourceTake": "S011-T02",
+      "sourceTakeSha256": "aea8f16dcc9da701b58fec44f33cf7b9d0cfe032c04d055f0930c8d1115787dd",
+      "sourceRange": {
+        "start": 16.829958333333334,
+        "end": 20.940041666666666
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "canvis",
+      "speaker": "Mireia",
+      "sourceTake": "S011-T01",
+      "sourceTakeSha256": "263acd4efd4fbfbe5d4b8b6cc64ab6dced93bddb6b6d06c0aa22df2c879593fb",
+      "sourceRange": {
+        "start": 72.76529166666667,
+        "end": 84.902625
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "registre",
+      "speaker": "Mireia",
+      "sourceTake": "S011-T01",
+      "sourceTakeSha256": "263acd4efd4fbfbe5d4b8b6cc64ab6dced93bddb6b6d06c0aa22df2c879593fb",
+      "sourceRange": {
+        "start": 84.90258333333334,
+        "end": 97.575
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "exposicio",
+      "speaker": "Laia",
+      "sourceTake": "S011-T02",
+      "sourceTakeSha256": "aea8f16dcc9da701b58fec44f33cf7b9d0cfe032c04d055f0930c8d1115787dd",
+      "sourceRange": {
+        "start": 20.94,
+        "end": 29.948083333333333
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "tancament",
+      "speaker": "Mireia",
+      "sourceTake": "S011-T01",
+      "sourceTakeSha256": "263acd4efd4fbfbe5d4b8b6cc64ab6dced93bddb6b6d06c0aa22df2c879593fb",
+      "sourceRange": {
+        "start": 97.575,
+        "end": 105.6615
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    }
+  ],
+  "requestHashIsCompositionChecksum": true,
+  "rawSha256": "0bdf5ba72a366522846592051aba95ad754b3bdf5ce1523406ddffa066e31f0f",
+  "takeSha256": "0bdf5ba72a366522846592051aba95ad754b3bdf5ce1523406ddffa066e31f0f",
+  "coverage": 0.9416058394160584,
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.7,
+  "peakDbTP": -2.49,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "elenalostale-648659",
+      "start": 0,
+      "source": "assets/audio/sources/elenalostale-648659.mp3",
+      "sourceSha256": "bdb5a2e1b40bdcec49cf7c3752c186e355e58499ec7d0578022da599d9291bf8",
+      "sourceUrl": "https://freesound.org/people/Elenalostale/sounds/648659/",
+      "author": "Elenalostale",
+      "license": "CC0 1.0",
+      "excerpt": {
+        "start": 20,
+        "seconds": 2
+      },
+      "underSpeech": false
+    },
+    {
+      "name": "breezy2000uk-578712",
+      "start": 0.35,
+      "source": "assets/audio/sources/breezy2000uk-578712.mp3",
+      "sourceSha256": "2a4a093fb09e418347b51d129508a04cb9a7b2a0c55cd2b84b3dc5e45cf0f371",
+      "sourceUrl": "https://freesound.org/people/Breezy2000uk/sounds/578712/",
+      "author": "Breezy2000uk",
+      "license": "CC0 1.0",
+      "excerpt": {
+        "start": 3,
+        "seconds": 0.8
+      },
+      "underSpeech": false
+    },
+    {
+      "name": "breezy2000uk-578712",
+      "start": 61.359308333333345,
+      "source": "assets/audio/sources/breezy2000uk-578712.mp3",
+      "sourceSha256": "2a4a093fb09e418347b51d129508a04cb9a7b2a0c55cd2b84b3dc5e45cf0f371",
+      "sourceUrl": "https://freesound.org/people/Breezy2000uk/sounds/578712/",
+      "author": "Breezy2000uk",
+      "license": "CC0 1.0",
+      "excerpt": {
+        "start": 3,
+        "seconds": 0.8
+      },
+      "underSpeech": false,
+      "insertedPause": 1.15
+    },
+    {
+      "name": "sentit-two-note-ending-v1",
+      "start": 124.49949999999998,
+      "source": "tools/render-mixed-take.cjs",
+      "sourceUrl": "https://github.com/aaronFortuno/sentit/blob/main/tools/render-mixed-take.cjs",
+      "author": "Sentit",
+      "license": "MIT",
+      "origin": "original-procedural-composition",
+      "underSpeech": false
+    }
+  ],
+  "sha256": "de8b13c261e68829a0fa555face36257a4311b79c202229efc6b257bf6e7e2dc",
+  "timingRevision": {
+    "baseFile": "s011-mixed-v1.mp3",
+    "baseAudioSha256": "2b359a9bf561c04a550d4967ee08187d41e20209ca386a01da3b21e5749981e0",
+    "intro": {
+      "cuts": [
+        {
+          "first": 12000,
+          "last": 45634,
+          "start": 0.25,
+          "end": 0.9507083333333334,
+          "seconds": 0.7007083333333334,
+          "maximumDbFS": -43.46054508275024
+        },
+        {
+          "first": 200858,
+          "last": 235436,
+          "start": 4.184541666666667,
+          "end": 4.904916666666667,
+          "seconds": 0.720375,
+          "maximumDbFS": -51.7206201849085
+        }
+      ],
+      "removedSeconds": 1.4210833333333333,
+      "retainedPcmSha256": "1e3407ad4f6661cc23361478e09852ea202340d9c179afcf06db03be092a2c8b"
+    },
+    "body": {
+      "cuts": [
+        {
+          "first": 119568,
+          "last": 149628,
+          "start": 2.491,
+          "end": 3.11725,
+          "seconds": 0.62625,
+          "maximumDbFS": -44.20197131026188
+        },
+        {
+          "first": 802590,
+          "last": 850533,
+          "start": 16.720625,
+          "end": 17.7194375,
+          "seconds": 0.9988125,
+          "maximumDbFS": -48.3015877968431
+        },
+        {
+          "first": 1945688,
+          "last": 1992248,
+          "start": 40.53516666666667,
+          "end": 41.50516666666667,
+          "seconds": 0.97,
+          "maximumDbFS": -49.80288139389895
+        },
+        {
+          "first": 2069529,
+          "last": 2100248,
+          "start": 43.1151875,
+          "end": 43.75516666666667,
+          "seconds": 0.6399791666666667,
+          "maximumDbFS": -55.823481307178575
+        },
+        {
+          "first": 2441049,
+          "last": 2475368,
+          "start": 50.8551875,
+          "end": 51.570166666666665,
+          "seconds": 0.7149791666666667,
+          "maximumDbFS": -55.50174490930949
+        },
+        {
+          "first": 2824811,
+          "last": 2850052,
+          "start": 58.850229166666665,
+          "end": 59.376083333333334,
+          "seconds": 0.5258541666666666,
+          "maximumDbFS": -51.7206201849085
+        },
+        {
+          "first": 3566690,
+          "last": 3599550,
+          "start": 74.30604166666667,
+          "end": 74.990625,
+          "seconds": 0.6845833333333333,
+          "maximumDbFS": -47.831965879852646
+        },
+        {
+          "first": 3702751,
+          "last": 3738012,
+          "start": 77.14064583333334,
+          "end": 77.87525,
+          "seconds": 0.7346041666666666,
+          "maximumDbFS": -56.32959861247399
+        },
+        {
+          "first": 4227133,
+          "last": 4272291,
+          "start": 88.06527083333333,
+          "end": 89.0060625,
+          "seconds": 0.9407916666666667,
+          "maximumDbFS": -54.891958466351475
+        },
+        {
+          "first": 4461151,
+          "last": 4490210,
+          "start": 92.94064583333333,
+          "end": 93.54604166666667,
+          "seconds": 0.6053958333333334,
+          "maximumDbFS": -55.50174490930949
+        },
+        {
+          "first": 5026408,
+          "last": 5061864,
+          "start": 104.71683333333333,
+          "end": 105.4555,
+          "seconds": 0.7386666666666667,
+          "maximumDbFS": -50.13699526395601
+        },
+        {
+          "first": 5602341,
+          "last": 5648180,
+          "start": 116.7154375,
+          "end": 117.67041666666667,
+          "seconds": 0.9549791666666667,
+          "maximumDbFS": -57.63962958760263
+        },
+        {
+          "first": 5947221,
+          "last": 5980436,
+          "start": 123.9004375,
+          "end": 124.59241666666667,
+          "seconds": 0.6919791666666667,
+          "maximumDbFS": -62.35019852575361
+        },
+        {
+          "first": 6076074,
+          "last": 6130248,
+          "start": 126.584875,
+          "end": 127.7135,
+          "seconds": 1.128625,
+          "maximumDbFS": -48.945281464271126
+        }
+      ],
+      "removedSeconds": 10.955499999999999,
+      "retainedPcmSha256": "83eaca837596211df9d481ed57fec43267635d4dc75ab3854d8485d5a6815740"
+    },
+    "quietThresholdDbFS": -42,
+    "allRetainedSamplesIdentical": true,
+    "newRequests": 0,
+    "originalPreserved": true
+  }
+}

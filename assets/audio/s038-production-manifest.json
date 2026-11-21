@@ -1,10 +1,10 @@
 {
   "code": "S038",
   "activity": "ca-S038",
-  "state": "awaiting-montage-validation",
-  "file": "s038-mixed-v1.mp3",
+  "state": "published",
+  "file": "s038-no-ambience-v2.mp3",
   "introFile": "s038-mixed-v1-intro.mp3",
-  "bodyFile": "s038-mixed-v1-cos.mp3",
+  "bodyFile": "s038-no-ambience-v2-cos.mp3",
   "offset": 4.455,
   "bodyDuration": 102.5,
   "fullDuration": 106.955,
@@ -22,24 +22,10 @@
   "uncertainTurns": [],
   "newSynthesisRequests": 0,
   "sharedRequest": true,
-  "lufs": -18.9,
+  "lufs": -18.98,
   "peakDbTP": -2.5,
   "voiceRetimed": false,
   "effects": [
-    {
-      "name": "hz37-792502",
-      "start": 0,
-      "source": "assets/audio/sources/hz37-792502.mp3",
-      "sourceSha256": "fa98866da0a33c02f48814d0734a62980801ea82edf154f32bc6e94331c12ef3",
-      "sourceUrl": "https://freesound.org/people/hz37/sounds/792502/",
-      "author": "hz37",
-      "license": "CC0 1.0",
-      "excerpt": {
-        "start": 8,
-        "seconds": 2
-      },
-      "underSpeech": false
-    },
     {
       "name": "gentle-narration-bed",
       "origin": "original-procedural-composition",
@@ -73,5 +59,37 @@
       "underSpeech": true
     }
   ],
-  "sha256": "4b3df824ba8c8676e8d7cb9945af093c0956deb97e9e072c06ef67d8468b4e42"
+  "sha256": "dd2ddd2d5536185f6cf5c046819f59ab3eb80d46b7675ffe0e7d4dde5481e13a",
+  "ambienceRevision": {
+    "originalFile": "s038-mixed-v1.mp3",
+    "originalSha256": "4b3df824ba8c8676e8d7cb9945af093c0956deb97e9e072c06ef67d8468b4e42",
+    "removedSource": "hz37-792502",
+    "voiceInputSha256": "12c0e10867920f7e25c7ccd2e666139dfebb7ff2ccab76d13a5e00e162e2612a",
+    "musicInputSha256": "2a4d87d7b3f2877d5cfdb2d767de41ad7955b377cfbbc0dfe71db9cab59a478c",
+    "sameVoiceAndMusicInputs": true,
+    "voiceRetimed": false,
+    "newRequests": 0,
+    "source": "tools/remove-s038-opening-ambience.cjs",
+    "authorization": "Docent: S038 veus validades; retirar el so inicial de plaça i publicar definitivament."
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-21",
+    "validatedBy": "docent",
+    "confirmation": "S038 veus validades i publicació definitiva un cop retirat el so inicial de plaça.",
+    "audioSha256": "dd2ddd2d5536185f6cf5c046819f59ab3eb80d46b7675ffe0e7d4dde5481e13a",
+    "editorialFingerprint": "85b48ca59c4fec6ee3244420edddf7c84d4057c81ea499d670b43e0f28c8d7fa",
+    "listeningApproval": true,
+    "condition": {
+      "openingAmbienceRemoved": true,
+      "sameVoiceAndMusicInputs": true,
+      "sourceMasterSha256": "4b3df824ba8c8676e8d7cb9945af093c0956deb97e9e072c06ef67d8468b4e42"
+    }
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/el-banc-que-havien-mogut-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-21",
+    "audioChanged": true,
+    "change": "Retirada de l’ambient inicial autoritzada expressament pel docent."
+  }
 }

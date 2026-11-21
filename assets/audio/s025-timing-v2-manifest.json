@@ -1,0 +1,79 @@
+{
+  "code": "S025",
+  "activity": "ca-S025",
+  "state": "awaiting-audio-corrections",
+  "file": "s025-timing-v2.mp3",
+  "introFile": "s025-timing-v2-intro.mp3",
+  "bodyFile": "s025-timing-v2-cos.mp3",
+  "offset": 4.261583333333333,
+  "bodyDuration": 49.452395833333334,
+  "fullDuration": 53.71397916666667,
+  "voices": {
+    "Laia": "Leda",
+    "Biel": "Puck"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "ac8a3b34fa098dc7a38e788b2cadc9c81d3039b44c7af229a4c9c104184e94cc",
+  "sourceRequestHash": "66b84a43c74e66237c4049b0453309d1724120d30fe4eabea97f38667d75e48b",
+  "batch": "L08",
+  "rawSha256": "56e38fc4c127a624b3e598d3dfb83d3e73a61ee7ab639a0f984c6a91f1b92c24",
+  "takeSha256": "96daab49592b1dcc9c0c965c97b39c9ade39b1ba56d2e44a738f15ebad3a61bc",
+  "coverage": 0.9447852760736196,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.18,
+  "peakDbTP": -3.01,
+  "voiceRetimed": false,
+  "effects": [],
+  "sha256": "3815d49a588ab076c04541100c4c8825d641c858c91b3a72c222dcf06c7d851b",
+  "timingRevision": {
+    "baseFile": "s025-mixed-v1.mp3",
+    "baseAudioSha256": "e5769997c7ce12116558b76240833a604be36474cd6f10c7df88b07a3d89751f",
+    "intro": {
+      "cuts": [],
+      "removedSeconds": 0,
+      "retainedPcmSha256": "e76556ef4dad3a845b407df52598477aa205a2b21e6f3b7d4f6f64461da23302"
+    },
+    "body": {
+      "cuts": [
+        {
+          "first": 12000,
+          "last": 123854,
+          "start": 0.25,
+          "end": 2.5802916666666667,
+          "seconds": 2.3302916666666667,
+          "maximumDbFS": -120
+        },
+        {
+          "first": 2368244,
+          "last": 2440192,
+          "start": 49.33841666666667,
+          "end": 50.83733333333333,
+          "seconds": 1.4989166666666667,
+          "maximumDbFS": -49.48114499602986
+        },
+        {
+          "first": 2545517,
+          "last": 2988030,
+          "start": 53.03160416666667,
+          "end": 62.250625,
+          "seconds": 9.219020833333333,
+          "maximumDbFS": -43.1122890523966
+        }
+      ],
+      "removedSeconds": 13.048229166666667,
+      "retainedPcmSha256": "54fc56600024e5f29aa1e1f499d3e904c635428ff4c9d7c68f23bb24d0e7cfc4"
+    },
+    "tailEdit": null,
+    "effectsRemoved": [
+      "brnck-257357",
+      "funkysandwich-871017"
+    ],
+    "quietThresholdDbFS": -42,
+    "allRetainedSamplesIdentical": true,
+    "newRequests": 0,
+    "originalPreserved": true
+  }
+}

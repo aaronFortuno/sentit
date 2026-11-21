@@ -113,8 +113,9 @@ export const cinque = [
   }),
   proposal({
     id: 'el-banc-que-havien-mogut', code: 'S038', title: 'El banc que havien mogut', grade: '5', level: 'middle', genre: 'story', universeIds: ['aina-ferran'],
-    seconds: 107, status: 'ready-for-review', reviewStatus: 'audio-review',
-    audio: './assets/audio/s038-mixed-v1.mp3', tracks: { introduction: './assets/audio/s038-mixed-v1-intro.mp3', body: './assets/audio/s038-mixed-v1-cos.mp3' },
+    image: { src: './assets/images/el-banc-que-havien-mogut-v1.webp', alt: 'En Ferran explica un record a l’Aina en una plaça sense punts de referència concrets.', width: 1536, height: 1024 },
+    seconds: 107, status: 'published', reviewStatus: 'validated',
+    audio: './assets/audio/s038-no-ambience-v2.mp3', tracks: { introduction: './assets/audio/s038-mixed-v1-intro.mp3', body: './assets/audio/s038-no-ambience-v2-cos.mp3' },
     fragment: { start: 4.455, seconds: 103 },
     summary: 'L’avi Ferran recorda una trobada que es va complicar perquè un lloc de referència havia canviat.',
     voices: { Ferran: 'Algenib' }, delivery: 'Ferran explica a Aina un record quotidià, amb impaciència i alleujament discrets. Els amics esmentats no tenen veu pròpia. Final d’acció amb humor, sense concloure amb una sentència.',

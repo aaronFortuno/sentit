@@ -8,7 +8,13 @@ const root=path.resolve(__dirname,'..'),sha=b=>createHash('sha256').update(b).di
   const manifest=await fs.readFile(path.join(root,`assets/audio/${entry.code.toLowerCase()}-production-manifest.json`),'utf8').then(JSON.parse).catch(e=>{if(e.code==='ENOENT')return null;throw e;});
   if(!manifest||!['shared-mixed-batch','assembled-grouped-voices'].includes(manifest.productionMode))continue;
   const key=entry.language+'-'+entry.code;
-  assert.equal(entry.audio,'./assets/audio/'+manifest.file);assert.equal(entry.reviewStatus,'audio-review');assert.equal(productionProgress[key].state,'montage-awaiting-listening');assert.equal(productionProgress[key].listeningApproval,false);assert(mixedAudioResources[key]);
+  assert.equal(entry.audio,'./assets/audio/'+manifest.file);assert(mixedAudioResources[key]);
+  if(entry.reviewStatus==='validated'){
+   assert.equal(productionProgress[key].state,'published');assert.equal(productionProgress[key].listeningApproval,true);assert.equal(manifest.teacherValidation.audioSha256,manifest.sha256);assert(entry.image?.src);assert.equal(manifest.state,'published');
+  }else{
+   assert.equal(entry.reviewStatus,'audio-review');assert(['montage-awaiting-listening','audio-corrections-pending'].includes(productionProgress[key].state));assert.equal(productionProgress[key].listeningApproval,false);
+   if(productionProgress[key].state==='audio-corrections-pending')assert(productionProgress[key].feedback.some(f=>f.status==='pending'));
+  }
   assert.equal(sha(await fs.readFile(path.join(root,'assets/audio',manifest.file))),manifest.sha256);assert(manifest.lufs>=-24&&manifest.lufs<=-15&&manifest.peakDbTP<=-1);assert.equal(manifest.voiceRetimed,false);
   for(const file of [manifest.file,manifest.introFile,manifest.bodyFile]){ffmpeg(binary,['-v','error','-xerror','-i',path.join(root,'assets/audio',file),'-f','null','-']);clips++;}
   const metadata=ffmpeg(binary,['-i',path.join(root,'assets/audio',manifest.file),'-f','null','-']),match=/Duration: (\d+):(\d+):([\d.]+)/.exec(metadata);assert(match);const seconds=Number(match[1])*3600+Number(match[2])*60+Number(match[3]);assert(Math.abs(seconds-manifest.fullDuration)<.2);

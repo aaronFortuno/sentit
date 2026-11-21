@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-21",
+  "tool": "image_gen built-in",
+  "references": [
+    "../characters/ferran-model-sheet-v1.webp",
+    "la-clau-de-l-armari-verd-v1.webp"
+  ],
+  "asset": "el-banc-que-havien-mogut-v1.webp",
+  "width": 1536,
+  "height": 1024,
+  "prompt": "Use case: illustration-story. Generate one new context illustration for Sentit, the Catalan listening story 'El banc que havien mogut'. The Ferran model sheet is an IDENTITY reference, and the existing Aina/Ferran workshop illustration is an IDENTITY and STYLE reference only. Preserve the same Ferran (older man about70, wavy grey hair, short white beard, round dark glasses, grey cable-knit cardigan, muted green checked shirt) and Aina (young girl with straight brown bob and bangs, round glasses, mustard sweater). A NEW single scene: the pair stand talking together in a generic quiet town square, waist-up/three-quarter framing. Ferran is telling a memory with an informal modest hand gesture, Aina listens naturally; both warm and relaxed. Behind them only very softly suggested pale facades and diffuse daylight, uncluttered, no distinctive landmarks. No bench, fountain, clocks, wristwatch, trees, letters, papers, roadworks, barriers, vehicles, maps, meeting point or depicted route: do not illustrate any answer or reenact the remembered events. Not the workshop and not a table scene. Fine ink lines and soft watercolor matching the reference, warm paper, restrained sage/ochre/charcoal, white fading edges, 3:2 landscape, readable at80mm and in grayscale. No text, numbers, labels, logo, speech bubble or watermark. One illustration only, not a character sheet.",
+  "usedBy": [
+    "ca-S038",
+    "ca-S038D"
+  ],
+  "sharedReason": "Dues versions de la mateixa història, amb els mateixos personatges i sense il·lustrar les respostes."
+}

@@ -1,0 +1,321 @@
+{
+  "code": "S011",
+  "activity": "ca-S011",
+  "state": "awaiting-montage-validation",
+  "file": "s011-mixed-v1.mp3",
+  "introFile": "s011-mixed-v1-intro.mp3",
+  "bodyFile": "s011-mixed-v1-cos.mp3",
+  "offset": 5.954916666666667,
+  "bodyDuration": 138.455,
+  "fullDuration": 144.40991666666667,
+  "voices": {
+    "Mireia": "Aoede",
+    "Biel": "Puck",
+    "Laia": "Leda"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "assembled-grouped-voices",
+  "requestHash": "ef97c7456001de385258549f2a355d83acf7942502caa3b39f364da8be1b417f",
+  "sourceRequestHash": "f6bfaa4214abf43c93e68dc844b565f6f858f00e52f790ca47ddc2abfea52a58",
+  "batch": "L10+L02",
+  "sourceBatchRequests": [
+    {
+      "batch": "L10",
+      "requestHash": "066bad65be44eea99457fda5beb7d9cfa67741627bfc30c1021c64872ce57207",
+      "rawSha256": "490b279a9670c6bb48737b04668af2d9cf14d0fe56bc165f26dccc2e518beba4"
+    },
+    {
+      "batch": "L02",
+      "requestHash": "ef2b891a48e5c2823d4527ce9a4c0fc93ae1951ecaad5c7ce07a30ac584a1a66",
+      "rawSha256": "75f355dc0e16071957f1057590e050e668469cc3f22f85afd37fec35c67cee27"
+    }
+  ],
+  "assembly": [
+    {
+      "part": "objectiu",
+      "speaker": "Mireia",
+      "sourceTake": "S011-T01",
+      "sourceTakeSha256": "263acd4efd4fbfbe5d4b8b6cc64ab6dced93bddb6b6d06c0aa22df2c879593fb",
+      "sourceRange": {
+        "start": 4.604875,
+        "end": 16.3555
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "pati",
+      "speaker": "Biel",
+      "sourceTake": "S011-T02",
+      "sourceTakeSha256": "aea8f16dcc9da701b58fec44f33cf7b9d0cfe032c04d055f0930c8d1115787dd",
+      "sourceRange": {
+        "start": 0,
+        "end": 3.12
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "maqueta",
+      "speaker": "Mireia",
+      "sourceTake": "S011-T01",
+      "sourceTakeSha256": "263acd4efd4fbfbe5d4b8b6cc64ab6dced93bddb6b6d06c0aa22df2c879593fb",
+      "sourceRange": {
+        "start": 16.3555,
+        "end": 26.836625
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "material",
+      "speaker": "Mireia",
+      "sourceTake": "S011-T01",
+      "sourceTakeSha256": "263acd4efd4fbfbe5d4b8b6cc64ab6dced93bddb6b6d06c0aa22df2c879593fb",
+      "sourceRange": {
+        "start": 26.836583333333333,
+        "end": 39.54
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "pressa",
+      "speaker": "Biel",
+      "sourceTake": "S011-T02",
+      "sourceTakeSha256": "aea8f16dcc9da701b58fec44f33cf7b9d0cfe032c04d055f0930c8d1115787dd",
+      "sourceRange": {
+        "start": 3.12,
+        "end": 6
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "costats",
+      "speaker": "Mireia",
+      "sourceTake": "S011-T01",
+      "sourceTakeSha256": "263acd4efd4fbfbe5d4b8b6cc64ab6dced93bddb6b6d06c0aa22df2c879593fb",
+      "sourceRange": {
+        "start": 39.54,
+        "end": 47.055
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "cinta",
+      "speaker": "Biel",
+      "sourceTake": "S011-T02",
+      "sourceTakeSha256": "aea8f16dcc9da701b58fec44f33cf7b9d0cfe032c04d055f0930c8d1115787dd",
+      "sourceRange": {
+        "start": 6,
+        "end": 9.54
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "resposta-cinta",
+      "speaker": "Laia",
+      "sourceTake": "S011-T02",
+      "sourceTakeSha256": "aea8f16dcc9da701b58fec44f33cf7b9d0cfe032c04d055f0930c8d1115787dd",
+      "sourceRange": {
+        "start": 9.539958333333333,
+        "end": 14.07
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "confirmacio",
+      "speaker": "Mireia",
+      "sourceTake": "S011-T01",
+      "sourceTakeSha256": "263acd4efd4fbfbe5d4b8b6cc64ab6dced93bddb6b6d06c0aa22df2c879593fb",
+      "sourceRange": {
+        "start": 47.055,
+        "end": 53.85
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "sostre",
+      "speaker": "Mireia",
+      "sourceTake": "S011-T01",
+      "sourceTakeSha256": "263acd4efd4fbfbe5d4b8b6cc64ab6dced93bddb6b6d06c0aa22df2c879593fb",
+      "sourceRange": {
+        "start": 53.85,
+        "end": 61.40541666666667
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "dubte",
+      "speaker": "Laia",
+      "sourceTake": "S011-T02",
+      "sourceTakeSha256": "aea8f16dcc9da701b58fec44f33cf7b9d0cfe032c04d055f0930c8d1115787dd",
+      "sourceRange": {
+        "start": 14.07,
+        "end": 16.83
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "prova",
+      "speaker": "Mireia",
+      "sourceTake": "S011-T01",
+      "sourceTakeSha256": "263acd4efd4fbfbe5d4b8b6cc64ab6dced93bddb6b6d06c0aa22df2c879593fb",
+      "sourceRange": {
+        "start": 61.405375,
+        "end": 72.76533333333333
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "problema",
+      "speaker": "Biel",
+      "sourceTake": "S011-T02",
+      "sourceTakeSha256": "aea8f16dcc9da701b58fec44f33cf7b9d0cfe032c04d055f0930c8d1115787dd",
+      "sourceRange": {
+        "start": 16.829958333333334,
+        "end": 20.940041666666666
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "canvis",
+      "speaker": "Mireia",
+      "sourceTake": "S011-T01",
+      "sourceTakeSha256": "263acd4efd4fbfbe5d4b8b6cc64ab6dced93bddb6b6d06c0aa22df2c879593fb",
+      "sourceRange": {
+        "start": 72.76529166666667,
+        "end": 84.902625
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "registre",
+      "speaker": "Mireia",
+      "sourceTake": "S011-T01",
+      "sourceTakeSha256": "263acd4efd4fbfbe5d4b8b6cc64ab6dced93bddb6b6d06c0aa22df2c879593fb",
+      "sourceRange": {
+        "start": 84.90258333333334,
+        "end": 97.575
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "exposicio",
+      "speaker": "Laia",
+      "sourceTake": "S011-T02",
+      "sourceTakeSha256": "aea8f16dcc9da701b58fec44f33cf7b9d0cfe032c04d055f0930c8d1115787dd",
+      "sourceRange": {
+        "start": 20.94,
+        "end": 29.948083333333333
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "tancament",
+      "speaker": "Mireia",
+      "sourceTake": "S011-T01",
+      "sourceTakeSha256": "263acd4efd4fbfbe5d4b8b6cc64ab6dced93bddb6b6d06c0aa22df2c879593fb",
+      "sourceRange": {
+        "start": 97.575,
+        "end": 105.6615
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    }
+  ],
+  "requestHashIsCompositionChecksum": true,
+  "rawSha256": "0bdf5ba72a366522846592051aba95ad754b3bdf5ce1523406ddffa066e31f0f",
+  "takeSha256": "0bdf5ba72a366522846592051aba95ad754b3bdf5ce1523406ddffa066e31f0f",
+  "coverage": 0.9416058394160584,
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.71,
+  "peakDbTP": -2.49,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "elenalostale-648659",
+      "start": 0,
+      "source": "assets/audio/sources/elenalostale-648659.mp3",
+      "sourceSha256": "bdb5a2e1b40bdcec49cf7c3752c186e355e58499ec7d0578022da599d9291bf8",
+      "sourceUrl": "https://freesound.org/people/Elenalostale/sounds/648659/",
+      "author": "Elenalostale",
+      "license": "CC0 1.0",
+      "excerpt": {
+        "start": 20,
+        "seconds": 2
+      },
+      "underSpeech": false
+    },
+    {
+      "name": "breezy2000uk-578712",
+      "start": 0.35,
+      "source": "assets/audio/sources/breezy2000uk-578712.mp3",
+      "sourceSha256": "2a4a093fb09e418347b51d129508a04cb9a7b2a0c55cd2b84b3dc5e45cf0f371",
+      "sourceUrl": "https://freesound.org/people/Breezy2000uk/sounds/578712/",
+      "author": "Breezy2000uk",
+      "license": "CC0 1.0",
+      "excerpt": {
+        "start": 3,
+        "seconds": 0.8
+      },
+      "underSpeech": false
+    },
+    {
+      "name": "breezy2000uk-578712",
+      "start": 65.83518333333335,
+      "source": "assets/audio/sources/breezy2000uk-578712.mp3",
+      "sourceSha256": "2a4a093fb09e418347b51d129508a04cb9a7b2a0c55cd2b84b3dc5e45cf0f371",
+      "sourceUrl": "https://freesound.org/people/Breezy2000uk/sounds/578712/",
+      "author": "Breezy2000uk",
+      "license": "CC0 1.0",
+      "excerpt": {
+        "start": 3,
+        "seconds": 0.8
+      },
+      "underSpeech": false,
+      "insertedPause": 1.15
+    },
+    {
+      "name": "sentit-two-note-ending-v1",
+      "start": 135.45499999999998,
+      "source": "tools/render-mixed-take.cjs",
+      "sourceUrl": "https://github.com/aaronFortuno/sentit/blob/main/tools/render-mixed-take.cjs",
+      "author": "Sentit",
+      "license": "MIT",
+      "origin": "original-procedural-composition",
+      "underSpeech": false
+    }
+  ],
+  "sha256": "2b359a9bf561c04a550d4967ee08187d41e20209ca386a01da3b21e5749981e0"
+}

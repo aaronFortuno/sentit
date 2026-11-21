@@ -1,7 +1,7 @@
 {
   "code": "S027",
   "activity": "ca-S027",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s027-mixed-v1.mp3",
   "introFile": "s027-mixed-v1-intro.mp3",
   "bodyFile": "s027-mixed-v1-cos.mp3",
@@ -88,5 +88,19 @@
       "insertedPause": 1.5
     }
   ],
-  "sha256": "8d75c63a177e6481e79b9027fb6857d1a0ea41ffe33c2a91573dd126e0ff8f59"
+  "sha256": "8d75c63a177e6481e79b9027fb6857d1a0ea41ffe33c2a91573dd126e0ff8f59",
+  "teacherValidation": {
+    "validatedAt": "2026-11-21",
+    "validatedBy": "docent",
+    "confirmation": "S027 validat per publicació definitiva.",
+    "audioSha256": "8d75c63a177e6481e79b9027fb6857d1a0ea41ffe33c2a91573dd126e0ff8f59",
+    "editorialFingerprint": "bd52c7909585864e4d85e29cf9416cea54e18e08a0b0e5333122bf02bc900aff",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/el-berenar-del-terrat-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-21",
+    "audioChanged": false
+  }
 }

@@ -62,3 +62,13 @@ Les cards mostren «Síntesi pendent d’esmena» mentre algun feedback sigui pe
 La [proposta de lots mixtos](lots-sintesi.md) redistribueix aquestes frases entre lectures compatibles. És una alternativa encara no implementada; si s’executa, cal consumir les mateixes incidències i evitar tornar a enviar R01–R04.
 
 S023 v2 ja té Ona curta i ambient real de mercat. La correcció de suggeriments al tancament continua pending; no es considera resolta pel canvi de muntatge. Mar i Presentadora són etiquetes de la mateixa veu Erinome: el lot les normalitza sense perdre el nom original de cada fragment.
+
+
+## Retorn de la tanda del 21/11
+
+- **S011:** el text de la petició i el muntatge assignen bé Biel/Puck i Laia/Leda, però el docent sent «A nosaltres no ens hi entra la mà» amb identitat equivocada i «Doncs jo la deixaria» massa agut. Tres personatges sonen com més timbres. Identitat i estabilitat pendents; no es resolen canviant el to digitalment. Pauses tècniques escurçades sense modificar mostres de parla.
+- **S041:** dues locucions long pause al voltant del títol, localitzades també com «l’ong pous» pel reconeixedor, retirades en silencis. Cos intacte. «Quan hagis parlat» sona «Quan hagues/hagas parlat»: esmena pendent.
+- **S025:** incidència de prémer al darrer torn i revisió de la frase «tot sol»/«tota sola» a concretar amb el docent abans de preparar el tram final. Clic i cadira retirats del nou pla sonor.
+- **S030:** retirats farciment inicial, pauses tècniques, respiració posterior a la parla i passos tardans. Cap canvi de velocitat ni paraula.
+
+Les esmenes de veu esperen un lot compatible prou ple. Prioritzar comprensions completes amb els mateixos personatges i continuïtat de context; no repetir l’estratègia de molts torns desconnectats. No enviar de nou marques de pausa com a text parlat sense comprovar el format del proveïdor. Les preses anteriors i els manifests continuen disponibles.

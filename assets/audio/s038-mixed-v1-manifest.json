@@ -1,0 +1,77 @@
+{
+  "code": "S038",
+  "activity": "ca-S038",
+  "state": "awaiting-montage-validation",
+  "file": "s038-mixed-v1.mp3",
+  "introFile": "s038-mixed-v1-intro.mp3",
+  "bodyFile": "s038-mixed-v1-cos.mp3",
+  "offset": 4.455,
+  "bodyDuration": 102.5,
+  "fullDuration": 106.955,
+  "voices": {
+    "Ferran": "Algenib"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "ab02e5a56a6807f106885dd5b8e4749ed77c2b2461e93dc71243142194efb2a3",
+  "sourceRequestHash": "5edc1a4ddd2b4417f502e35c44b1724879b9a23aa699fe3e9d705aec3cda3085",
+  "batch": "L13",
+  "rawSha256": "50a359687bbf10e905b5b5dfdb2497a47e098b918037e9dadb1a83a94f679608",
+  "takeSha256": "85bff9f6eea6426508db0ec67a84d33596caf541d4ff536864ce5263d89e707a",
+  "coverage": 0.9510086455331412,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.9,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "hz37-792502",
+      "start": 0,
+      "source": "assets/audio/sources/hz37-792502.mp3",
+      "sourceSha256": "fa98866da0a33c02f48814d0734a62980801ea82edf154f32bc6e94331c12ef3",
+      "sourceUrl": "https://freesound.org/people/hz37/sounds/792502/",
+      "author": "hz37",
+      "license": "CC0 1.0",
+      "excerpt": {
+        "start": 8,
+        "seconds": 2
+      },
+      "underSpeech": false
+    },
+    {
+      "name": "gentle-narration-bed",
+      "origin": "original-procedural-composition",
+      "author": "Sentit",
+      "license": "MIT",
+      "source": "tools/narration-bed.cjs",
+      "title": "Un lloc a l’ombra",
+      "compositionId": "sentit-s038-v1",
+      "tempoBpm": 64,
+      "rootMidi": 53,
+      "scoreSeed": 38,
+      "notes": 77,
+      "externalSamples": false,
+      "noSpeech": true,
+      "retimed": false,
+      "sha256": "2a4d87d7b3f2877d5cfdb2d767de41ad7955b377cfbbc0dfe71db9cab59a478c",
+      "envelope": {
+        "fadeInSeconds": 0.6,
+        "duckStart": 1.5,
+        "duckEnd": 2.25,
+        "speechGain": 0.26,
+        "nominalSpeechMusicLufs": -37.7,
+        "riseStart": 96.36499999999998,
+        "riseEnd": 97.16499999999999,
+        "holdSeconds": 2,
+        "fadeStart": 99.16499999999999,
+        "fadeEnd": 100.315
+      },
+      "listeningValidation": "pending",
+      "start": 0,
+      "underSpeech": true
+    }
+  ],
+  "sha256": "4b3df824ba8c8676e8d7cb9945af093c0956deb97e9e072c06ef67d8468b4e42"
+}

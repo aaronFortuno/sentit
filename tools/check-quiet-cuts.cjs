@@ -1,0 +1,10 @@
+'use strict';
+const assert=require('node:assert/strict'),{compact}=require('./compact-mixed-pauses.cjs');
+const format=Buffer.alloc(16),rate=16000;format.writeUInt16LE(1,0);format.writeUInt16LE(1,2);format.writeUInt32LE(rate,4);format.writeUInt32LE(rate*2,8);format.writeUInt16LE(2,12);format.writeUInt16LE(16,14);
+const pcm=Buffer.alloc(rate*4*2);for(const [a,b]of [[.7,1.1],[2.9,3.3]])for(let i=Math.round(a*rate);i<Math.round(b*rate);i++)pcm.writeInt16LE(Math.round(4000*Math.sin(i*.11)),i*2);
+const silence=[{start:1.1,end:2.9}],windows=[{start:1.1,end:2.9}],result=compact(format,pcm,silence,windows);
+assert.equal(result.cuts.length,1);assert.equal(result.removedSeconds,1.3);assert(result.pcm.includes(pcm.subarray(.7*rate*2,1.1*rate*2)));assert(result.pcm.includes(pcm.subarray(2.9*rate*2,3.3*rate*2)));assert.equal(result.allRetainedSamplesIdentical,true);
+assert.equal(compact(format,pcm,silence,windows,[{start:1.7,end:1.8}]).cuts.length,0);
+assert.equal(compact(format,pcm,[{start:.1,end:3.9}],[{start:.1,end:3.9}]).cuts.length,0,'Never remove an audible range even if ASR/silence metadata are wrong');
+assert.equal(compact(format,pcm,[{start:1.2,end:1.8}],windows).cuts.length,0,'Keep short natural pauses');
+console.log('PASS · Quiet padding only, protected effects, unchanged speech samples and short natural pauses.');

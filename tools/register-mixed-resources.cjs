@@ -5,6 +5,8 @@ const fs=require('node:fs/promises'),path=require('node:path'),{createHash}=requ
 const root=path.resolve(__dirname,'..'),work=path.resolve(root,'../output/sentit-primera-tanda'),sha=b=>createHash('sha256').update(b).digest('hex');
 async function main(){
  const {activities}=await import('../catalogue.js'),{soundSources}=await import('../content/sound-sources.js'),{musicCatalogue}=await import('../content/music-catalogue.js'),resources={};
+ const mixedKeys=new Set(activities.filter(e=>/-(?:mixed|timing|directives|no-ambience)-v\d+/.test(e.audio??'')).map(e=>e.language+'-'+e.code));
+ for(const recording of soundSources)recording.usedBy=recording.usedBy.filter(id=>!mixedKeys.has(id));
  for(const entry of activities){
   const report=await fs.readFile(path.join(root,`assets/audio/${entry.code.toLowerCase()}-production-manifest.json`),'utf8').then(JSON.parse).catch(e=>{if(e.code==='ENOENT')return null;throw e;});
   if(!report||!['shared-mixed-batch','assembled-grouped-voices'].includes(report.productionMode))continue;
@@ -22,7 +24,8 @@ async function main(){
    descriptions.push(`${record.title} · ${record.author} (${record.license})${effect.underSpeech?', molt baix sota la conversa':', fora de la parla'}.`);
   }
   const uncertain=(report.uncertainTurns??[]).map(u=>` Torn curt pendent de comprovar a l’oïda: «${u.text}»; el reconeixement local no el confirma.`).join('');
-  resources[key]={voices:labels+'. Preses conservades de lots mixtos; '+(report.productionMode==='assembled-grouped-voices'?'tres personatges intercalats a partir de dues preses compatibles. ':'')+'Muntatge pendent d’audició docent, sense canvis de ritme.'+uncertain,sounds:[...new Set(descriptions)].join(' '),recipe:'tools/render-mixed-take.cjs'};
+  const status=entry.reviewStatus==='validated'?'Guió, veus i muntatge validats pel docent; publicació definitiva.':report.state==='awaiting-audio-corrections'?(report.directiveRevision?'Instruccions llegides per error retirades; pronunciació de «Quan hagis parlat» pendent d’esmena.':'Pauses tècniques escurçades; identitat i estabilitat de les veus pendents d’esmena.'):'Muntatge pendent d’audició docent, sense canvis de ritme.';
+  resources[key]={voices:labels+'. Preses conservades de lots mixtos; '+(report.productionMode==='assembled-grouped-voices'?'tres personatges intercalats a partir de dues preses compatibles. ':'')+status+uncertain,sounds:[...new Set(descriptions)].join(' '),recipe:'tools/render-mixed-take.cjs'};
  }
  const previews=JSON.parse(await fs.readFile(path.join(root,'assets/audio/batch-voice-previews.json'),'utf8').catch(e=>{if(e.code==='ENOENT')return '[]';throw e;}));
  for(const preview of previews){const entry=activities.find(e=>e.code===preview.code);resources[entry.language+'-'+entry.code]={voices:Object.entries(entry.production.voices).map(([name,voice])=>`${name}: ${voice}`).join('; ')+`. Lot ${preview.batch}, veus rebudes i pendents d’audició.`,sounds:'Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.',recipe:'tools/prepare-batch-voice-previews.cjs'};}
