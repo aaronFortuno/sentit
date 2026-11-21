@@ -1,0 +1,271 @@
+{
+  "model": "gemini-3.8-flash-tts",
+  "input": [
+    {
+      "type": "user_input",
+      "content": [
+        {
+          "type": "text",
+          "text": "Comprensió oral. On va l’aigua del bassal? <long pause>",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Mireia, mestra adulta, saluda la classe i acull les hipòtesis sense convertir la conversa en un interrogatori. Biel s’entusiasma i s’avança amb alguna conclusió; Laia li respon, aporta un exemple i proposa com comparar. Curiositat quotidiana, confirmacions breus i pauses naturals; evitar veus infantils caricaturitzades, torns recitats i solapaments. Read only the supplied lines verbatim, separated by the explicit long pauses for local editing. Do not add missing characters, questions or answers. No added sounds, words or vocalizations. This is a separate recording in a batch. Read this block exactly once, without referring to any other block. The text fields contain all and only the words to speak; never speak labels or instructions. After this block leave the indicated long pauses.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Bon dia, nois i noies. Abans de seure, mireu el pati per la finestra. Ahir hi havia un bassal força gran. Com el veieu avui? <long pause>",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same Central Catalan voice and direction. Verbatim, with explicit pauses; no added sounds.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Si el terra deixa passar l’aigua, una part pot entrar entre els seus petits espais. Continua sent aigua líquida, però és dins del sòl. No tots els terres la deixen passar igual de pressa. Per imaginar-nos-ho, penseu en un plat amb foradets: l’aigua podria escolar-se pels forats. <long pause>",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same Central Catalan voice and direction. Verbatim, with explicit pauses; no added sounds.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí, Laia. Una part de l’aigua líquida es pot transformar en vapor d’aigua i passar a l’aire. El vapor és un gas invisible. Aquest canvi s’anomena evaporació. No cal que l’aigua bulli perquè una part es vagi evaporant. <long pause>",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same Central Catalan voice and direction. Verbatim, with explicit pauses; no added sounds.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Exacte. De fet, estem envoltats d’aigua, però no la podem veure. Que no la vegem no vol dir que no hi sigui o hagi deixat d’existir. <long pause>",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same Central Catalan voice and direction. Verbatim, with explicit pauses; no added sounds.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "La calor pot accelerar l’evaporació, i l’aire en moviment també hi pot ajudar. Per això la roba humida estesa es pot assecar sense deixar caure gotes. <long pause>",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same Central Catalan voice and direction. Verbatim, with explicit pauses; no added sounds.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Podria passar, però per comparar-ho bé ens cal una prova. Amb els bassals poden canviar moltes coses. <long pause>",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same Central Catalan voice and direction. Verbatim, with explicit pauses; no added sounds.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Encara no hem fet la prova, Biel. És una proposta per investigar. Els observaríem alhora, passat el mateix temps, per veure en quin ha baixat més l’aigua. <long pause>",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same Central Catalan voice and direction. Verbatim, with explicit pauses; no added sounds.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Al full apuntarem la pregunta i com faríem la prova. Els resultats només els podrem tenir quan la fem. <long pause> <long pause>",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same Central Catalan voice and direction. Verbatim, with explicit pauses; no added sounds.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. Una menjadora per als ocells. <long pause>",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Mireia, mestra adulta, parla a una classe que acaba de preparar el material. Biel pregunta amb curiositat i alguna vegada s’avança; Laia escolta i li respon amb naturalitat. Salutació propera, dubtes breus i confirmacions sense recitar un guió. No fer veus infantils caricaturitzades ni solapar les intervencions. Read only the supplied lines verbatim, separated by the explicit long pauses for local editing. Do not add missing characters, questions or answers. No added sounds, words or vocalizations. This is a separate recording in a batch. Read this block exactly once, without referring to any other block. The text fields contain all and only the words to speak; never speak labels or instructions. After this block leave the indicated long pauses.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Bon dia, nois i noies. Deixeu un moment el material. Avui farem una maqueta d’una menjadora per als ocells, un model de cartró per provar una idea. <long pause>",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same Central Catalan voice and direction. Verbatim, with explicit pauses; no added sounds.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Un moment, Biel, que encara no havia acabat. No la penjarem ni hi posarem menjar. Per fer-ne una de real, primer caldria revisar amb una persona experta com utilitzar-la i netejar-la. <long pause>",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same Central Catalan voice and direction. Verbatim, with explicit pauses; no added sounds.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Teniu una base, dos costats laterals, un sostre i cinta. Les peces ja estan retallades. Escriviu el nom del grup sota la base abans d’enganxar res; després costarà girar-la. <long pause>",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same Central Catalan voice and direction. Verbatim, with explicit pauses; no added sounds.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Encara no. Primer uniu els dos costats a la base amb cinta per dins. Deixeu-los anar i mireu si s’aguanten drets. <long pause>",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same Central Catalan voice and direction. Verbatim, with explicit pauses; no added sounds.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Exacte, Laia. Si cau, reforceu-ne la unió; si s’aguanta, ja està. Ara sí, poseu el sostre. <long pause>",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same Central Catalan voice and direction. Verbatim, with explicit pauses; no added sounds.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Enganxeu-lo només per una vora, com una tapa. L’hem de poder aixecar per accedir a l’interior des de dalt. <long pause>",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same Central Catalan voice and direction. Verbatim, with explicit pauses; no added sounds.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Per comprovar si podríem arribar a dins. Avui no rentarem el cartró. Aixequeu la tapa i fiqueu-hi una mà amb un tros de paper net des de dalt, sense forçar les parets. <long pause>",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same Central Catalan voice and direction. Verbatim, with explicit pauses; no added sounds.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Espera. Si no hi entra, anoteu què caldria canviar. No ho talleu a corre-cuita ni amagueu el problema amb cinta. La prova serveix per trobar coses a millorar. <long pause>",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same Central Catalan voice and direction. Verbatim, with explicit pauses; no added sounds.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Al full, dibuixeu la maqueta i escriviu una millora, encara que s’aguanti. Després la portarem a la taula d’exposició. Ens ha de servir per explicar què hem provat, més que per ensenyar la decoració. <long pause>",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same Central Catalan voice and direction. Verbatim, with explicit pauses; no added sounds.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "D’acord, Laia. Acabeu les anotacions i després compartirem què canviaria cada grup. <long pause> <long pause>",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same Central Catalan voice and direction. Verbatim, with explicit pauses; no added sounds.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. El cinema surt a la plaça. Notícia de ficció. <long pause>\n\nLa plaça del barri acollirà divendres una sessió de cinema a l’aire lliure. L’associació de veïns ha triat una pel·lícula d’aventures per a tots els públics. La projecció començarà quan es faci fosc; per això no tindrà el mateix horari que les activitats de tarda.\n\nL’entrada serà gratuïta, però cal reservar lloc al centre cívic. La reserva permet saber quantes cadires s’han de preparar. Cada persona haurà de dir quantes places necessita per al seu grup. No caldrà pagar quan faci la reserva ni quan entri a la plaça.\n\nLes cadires les posa l’organització. Qui vulgui podrà portar un coixí, però no cal que dugui una cadira de casa. També hi haurà un espai per deixar els cotxets sense ocupar els passadissos. L’accés a la plaça s’obrirà una estona abans de la pel·lícula perquè tothom es pugui situar amb calma.\n\nSi plou, la sessió es traslladarà a la sala gran del centre cívic. La decisió sobre la ubicació definitiva es publicarà el mateix divendres a les quatre de la tarda al cartell de l’entrada del centre. Les persones que hagin reservat no hauran de tornar a demanar plaça si finalment la pel·lícula es fa a dins.\n\nL’organització demana que ningú es dirigeixi a la sala només perquè el cel estigui una mica tapat. Cal mirar l’avís de les quatre de la tarda, on s’indicarà el lloc definitiu. Les reserves ja es poden fer al taulell del centre cívic. <long pause> <long pause>",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Notícia local de ficció, clara i àgil. Pauses per separar lloc, accés i alternativa de pluja. No emfatitzar les respostes ni acabar amb una reflexió general; tancament informatiu concret. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This is a separate recording in a batch. Read this block exactly once, without referring to any other block. The text fields contain all and only the words to speak; never speak labels or instructions. After this block leave the indicated long pauses.",
+              "speaker": "Voice2"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. Una bústia per a propostes. Notícia de ficció. <long pause>\n\nEl centre cívic ha instal·lat una bústia al vestíbul per recollir idees per a la festa del barri. És una primera recollida de propostes, perquè l’organització sàpiga què voldrien fer els veïns.\n\nAl costat de la bústia hi ha papers en blanc. Cal escriure-hi una activitat i explicar breument en què consistiria. No n’hi ha prou amb posar només el nom d’un joc o d’un espectacle. Si algú necessita ajuda per descriure la seva proposta, pot demanar-la al taulell del centre.\n\nNo és obligatori escriure el nom de qui fa la proposta. Ara bé, qui vulgui oferir-se per ajudar a preparar-la pot deixar un contacte al taulell, en un full separat. No cal que els veïns posin les seves dades al paper que entrarà a la bústia.\n\nLa setmana vinent, l’equip organitzador obrirà la bústia i agruparà les idees semblants. Abans de preparar el programa, comprovarà si hi ha prou diners, espai i persones per fer cada activitat. En el seu comunicat, l’organització ha recordat el cas de l’any passat: molta gent va proposar un concert del grup Canyella i Canya, però no es va poder fer perquè no hi havia prou diners per pagar-lo.\n\nQuan hi hagi una proposta de programa, es penjarà al plafó del vestíbul amb una explicació dels canvis. La bústia continuarà al centre fins divendres. Les idees també es poden explicar directament al taulell: una persona de l’equip les escriurà perquè es revisin amb les altres. <long pause> <long pause>",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Notícia de ficció, propera i clara. Distingir recollir propostes d’escollir el programa sense sonar com una lectura burocràtica. Respectar la tònica de bústia. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This is a separate recording in a batch. Read this block exactly once, without referring to any other block. The text fields contain all and only the words to speak; never speak labels or instructions. After this block leave the indicated long pauses.",
+              "speaker": "Voice2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "response_format": {
+    "type": "audio",
+    "mime_type": "audio/wav",
+    "sample_rate": 24000
+  },
+  "generation_config": {
+    "speech_config": {
+      "speakers": [
+        {
+          "speaker": "Voice1",
+          "voice": "Aoede"
+        },
+        {
+          "speaker": "Voice2",
+          "voice": "Erinome"
+        }
+      ]
+    }
+  }
+}

@@ -55,7 +55,7 @@ El QR guarda l’activitat inequívoca per idioma/codi, la pauta, el ritme i l�
 5. Conservar WAV crua i marges de consonants; tallar només en pauses comprovades, mai amb una porta de soroll. No alentir o canviar el to per dissimular errors de dicció.
 6. Mesurar nivells, durades, integritat i cues de silenci. Després, audició docent per validar pronunciació i muntatge abans de la publicació definitiva.
 
-S006/S011/S021 tenen guió validat i veus pendents. Les correccions curtes són vuit frases en quatre peticions; cap enviada després de les deu del dia. El registre local de peticions no és un comptador de quota restant del proveïdor. [Plans de reparació](../content/audio-repair-batches.json).
+Tanda del 21/11: 25 comprensions amb les veus rebudes, vint muntatges pendents d’audició i set frases d’esmena rebudes. Les dues esmenes petites restants i quatre comprensions esperen lots prou plens. El registre local de peticions no és un comptador de quota restant del proveïdor. [Plans de reparació](../content/audio-repair-batches.json).
 
 ## Pilot conservat: Canvi de plans
 
@@ -78,3 +78,27 @@ L01 produeix en una sola petició Gemini les veus de S021 i S032 i tres esmenes 
 - Passos d’evsecrets, Freesound 334457, CC0 1.0, ja documentats: fragment breu durant el desplaçament de S021.
 
 Fonts, còpies HQ, empremtes i tractament exactes a `content/sound-sources.js` i als manifests S021/S032. Cap imitació procedural dels efectes ni canvi de ritme de les veus.
+
+
+## Muntatges mixtos · 21/11/2026
+
+Vint muntatges pendents d’audició. Preses completes conservades, tres escenes de tres veus reconstruïdes localment i cap canvi de ritme. Cinc bases musicals originals noves sota MIT; la resta dels efectes nous són enregistraments reals amb llicència CC0 verificada. Les cinc notícies amb veus rebudes disposen d’una previsualització sense efectes ni sintonia; el muntatge queda pendent.
+
+| Font enregistrada | Autor · llicència | Activitats on realment s’utilitza |
+| --- | --- | --- |
+| [Two people's footsteps walking on a wet cement sidewalk ](https://freesound.org/people/evsecrets/sounds/334457/) | evsecrets · CC0 1.0 | ca-S010, ca-S021, ca-S030, ca-S037 |
+| [Page turned ](https://freesound.org/people/Beussa/sounds/749880/) | Beussa · CC0 1.0 | ca-S021, ca-S032, ca-S007, ca-S014, ca-S017, ca-S024, ca-S030, ca-S035, ca-S037, ca-S042, ca-S043, ca-S044 |
+| [SCHOOL CLASSROOM AMBIENCE ](https://freesound.org/people/Elenalostale/sounds/648659/) | Elenalostale · CC0 1.0 | ca-S032, ca-S007, ca-S011, ca-S014, ca-S030, ca-S037, ca-S042 |
+| [City Ambience Quiet Neighborhood ](https://freesound.org/people/soaress/sounds/546234/) | soaress · CC0 1.0 | ca-S021 |
+| [Dragging chair on concrete floor ](https://freesound.org/people/funkysandwich/sounds/871017/) | funkysandwich · CC0 1.0 | ca-S007, ca-S017, ca-S025, ca-S041, ca-S042, ca-S034 |
+| [Moving and Handling Cardboard ](https://freesound.org/people/Breezy2000uk/sounds/578712/) | Breezy2000uk · CC0 1.0 | ca-S011, ca-S026 |
+| [seeds (cristal jar)4.wav ](https://freesound.org/people/Godowan/sounds/235278/) | Godowan · CC0 1.0 | ca-S014 |
+| [Classroom Ambience ](https://freesound.org/people/Tallis0410/sounds/707510/) | Tallis0410 · CC0 1.0 | ca-S017, ca-S026, ca-S035, ca-S041 |
+| [German Schoolyard Ambience ](https://freesound.org/people/McConnell_Audioprojekte/sounds/731979/) | McConnell_Audioprojekte · CC0 1.0 | ca-S024 |
+| [Button click ](https://freesound.org/people/brnck/sounds/257357/) | brnck · CC0 1.0 | ca-S025, ca-S044 |
+| [Dutch night ambience in small city ](https://freesound.org/people/hz37/sounds/792502/) | hz37 · CC0 1.0 | ca-S043, ca-S038 |
+| [Gentle wind ](https://freesound.org/people/fthgurdy/sounds/528944/) | fthgurdy · CC0 1.0 | ca-S027 |
+| [Soft Fabric Rustle ](https://freesound.org/people/IENBA/sounds/850705/) | IENBA · CC0 1.0 | ca-S027 |
+| [Soft Room Tone ](https://freesound.org/people/callmethefoo/sounds/744447/) | callmethefoo · CC0 1.0 | ca-S034, ca-S038D |
+
+Fragments, dates, còpies, llicències i SHA-256 al [registre de fonts](../content/sound-sources.js); mescles i temps als manifests de cada codi a assets/audio. No s’atribueix l’enregistrament a la ubicació real de la història. Les sales es mesclen molt baix, sense diàlegs nous intel·ligibles que aportin respostes; els detalls puntuals van dins pauses. S043 evita sons d’obres i S038D no representa sonorament el record de Ferran. El torn curt de S041 «Hi vaig ara?» es conserva pendent d’audició perquè el reconeixedor no el confirma; cap rectificació de text forçada.

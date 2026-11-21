@@ -1,0 +1,94 @@
+{
+  "id": "L06",
+  "state": "received-and-split",
+  "requestHash": "a0bcff78c1b77973ff7ddd60722557464823fa57c596f11b98c6ecc64a97223a",
+  "rawSha256": "4bcdb6306e09bc40b58de637d9e4c3d8cb63477429a60ccf89bb8602cf05d809",
+  "startedAt": "2026-11-21T10:45:09.963Z",
+  "completedAt": "2026-11-21T10:45:58.384Z",
+  "rawSeconds": 391.24,
+  "usage": {
+    "total_tokens": 11615,
+    "total_input_tokens": 1834,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 1834
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 9781,
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 9781
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 0,
+    "initial_input_tokens": 1834
+  },
+  "returnedAudioBlocks": 1,
+  "newRequests": 1,
+  "coverageCheck": {
+    "engine": "vosk-model-small-ca-0.4",
+    "matchedFraction": 0.9137466307277629,
+    "pronunciationValidated": false,
+    "uncertainTurns": [
+      {
+        "start": 262.47999999999996,
+        "end": 263.17,
+        "heard": "i ivaj ara",
+        "status": "short-turn-awaiting-listening",
+        "originalPreserved": true,
+        "block": "S041-T01",
+        "part": "llegir",
+        "text": "Hi vaig ara?",
+        "coverage": 0.3333333333333333
+      }
+    ]
+  },
+  "parts": [
+    {
+      "id": "S014-T01",
+      "code": "S014",
+      "sourceRequestHash": "2bcf21f0ba387c2047611627b76dd20a3d0ca658874913530cb453c22c35d5aa",
+      "start": 0,
+      "end": 130.9511,
+      "clipSha256": "152c7620fef035b3af47692b8a92dbca967b41809171af38d1d70f9be0fa527e",
+      "coverage": 0.9329896907216495,
+      "status": "voices-received"
+    },
+    {
+      "id": "S026-T01",
+      "code": "S026",
+      "sourceRequestHash": "bb78180d8c2948808cfd5f0c8824f2177ec440e13e5dee3a51ff7b860b4a5204",
+      "start": 130.9511,
+      "end": 192.166,
+      "clipSha256": "8d095c83d3e23066d8c878db8516bc1acbb32ff31eec18dacb97de96cce26ace",
+      "coverage": 0.9285714285714286,
+      "status": "voices-received"
+    },
+    {
+      "id": "S041-T01",
+      "code": "S041",
+      "sourceRequestHash": "a69e46ffa002c31081a977e22d2b4140be4b1b3c969601fca2b8971bd190cb02",
+      "start": 192.166,
+      "end": 288.026,
+      "clipSha256": "67ea4df411eb27fa99e64ff706302a192277746961c0153c0ee7f72a5fc73e9e",
+      "coverage": 0.8932384341637011,
+      "status": "voices-received"
+    },
+    {
+      "id": "S042-T01",
+      "code": "S042",
+      "sourceRequestHash": "707a1abd4099383f028eec9b0f81cd780694f57bc428f9c16dd98cdb303ac866",
+      "start": 288.026,
+      "end": 391.24,
+      "clipSha256": "1e351aa9f0a07b13274fb1b1043c76e8c38abdc7b2a94a540afc4f294081055f",
+      "coverage": 0.8969465648854962,
+      "status": "voices-received"
+    }
+  ],
+  "preservesOriginals": true,
+  "voiceRetimed": false
+}

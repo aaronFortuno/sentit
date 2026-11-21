@@ -1,0 +1,92 @@
+{
+  "id": "L13",
+  "state": "received-and-split",
+  "requestHash": "ab02e5a56a6807f106885dd5b8e4749ed77c2b2461e93dc71243142194efb2a3",
+  "rawSha256": "50a359687bbf10e905b5b5dfdb2497a47e098b918037e9dadb1a83a94f679608",
+  "startedAt": "2026-11-21T11:02:16.510Z",
+  "completedAt": "2026-11-21T11:03:07.819Z",
+  "rawSeconds": 404.96,
+  "usage": {
+    "total_tokens": 12221,
+    "total_input_tokens": 2097,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 2097
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 10124,
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 10124
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 0,
+    "initial_input_tokens": 2097
+  },
+  "returnedAudioBlocks": 1,
+  "newRequests": 1,
+  "coverageCheck": {
+    "engine": "vosk-model-small-ca-0.4",
+    "matchedFraction": 0.9323308270676691,
+    "pronunciationValidated": false,
+    "uncertainTurns": []
+  },
+  "parts": [
+    {
+      "id": "S027-T01",
+      "code": "S027",
+      "sourceRequestHash": "fa6cf0a8fefa87d75586e3ea5828f1fed217289fcd511d39afcafd1d77c0a545",
+      "start": 0,
+      "end": 66.8613,
+      "clipSha256": "a3d71dd41c3610728e9da7cf2e739c687682d0faa64c4d557c151c8d03a312b9",
+      "coverage": 0.9425837320574163,
+      "status": "voices-received"
+    },
+    {
+      "id": "S034-T01",
+      "code": "S034",
+      "sourceRequestHash": "6332c96b6359dc458160ecfe98b54e0dcc2ab5cc147847cfff06f571324d68ea",
+      "start": 66.8613,
+      "end": 168.24,
+      "clipSha256": "69f30b5d565ae32b70c18c2995c25f63904d969a32899b75bbbb9c15eb9c3e72",
+      "coverage": 0.9647435897435898,
+      "status": "voices-received"
+    },
+    {
+      "id": "S038-T01",
+      "code": "S038",
+      "sourceRequestHash": "5edc1a4ddd2b4417f502e35c44b1724879b9a23aa699fe3e9d705aec3cda3085",
+      "start": 168.24,
+      "end": 265.245,
+      "clipSha256": "85bff9f6eea6426508db0ec67a84d33596caf541d4ff536864ce5263d89e707a",
+      "coverage": 0.9510086455331412,
+      "status": "voices-received"
+    },
+    {
+      "id": "S038D-T01",
+      "code": "S038D",
+      "sourceRequestHash": "cace8dbdf190d1a2dc286e542eafc9654107e66b5d8e0f233d59bede938916d7",
+      "start": 265.245,
+      "end": 399.42,
+      "clipSha256": "4598ce59eb9fefab0098b32a3b0677cb4609ffe5ae01531787a44a4c87c7dea0",
+      "coverage": 0.8926174496644296,
+      "status": "voices-received"
+    },
+    {
+      "id": "S022-dema",
+      "code": "S022",
+      "sourceRequestHash": "dc75acf7a5f1dae1c4d229ce80f07a0257da22db6d95d0f7235b45a125f75f1f",
+      "start": 399.42,
+      "end": 404.96,
+      "clipSha256": "08eb5f7048e9dc4736f822df0210d5ae9d7be22f7ee58bece9616dd5934aae1c",
+      "coverage": 0.8666666666666667,
+      "status": "correction-awaiting-listening"
+    }
+  ],
+  "preservesOriginals": true,
+  "voiceRetimed": false
+}

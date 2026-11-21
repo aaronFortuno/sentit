@@ -135,6 +135,9 @@ export const tercer = [
   }),
   proposal({
     id: 'on-va-laigua-del-bassal', code: 'S007', title: 'On va l’aigua del bassal?', grade: '3', level: 'advanced', genre: 'explanation',
+    seconds: 156, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s007-mixed-v1.mp3', tracks: { introduction: './assets/audio/s007-mixed-v1-intro.mp3', body: './assets/audio/s007-mixed-v1-cos.mp3' },
+    fragment: { start: 5.85, seconds: 149 },
     summary: 'Una conversa a classe sobre el bassal del pati ajuda a distingir dos camins de l’aigua i a proposar una comparació.',
     strategy: 'grouped-voices-v1',
     voices: { Mireia: 'Aoede', Laia: 'Leda', Biel: 'Puck' },

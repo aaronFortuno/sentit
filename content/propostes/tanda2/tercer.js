@@ -5,6 +5,9 @@ const soundCredits = 'Els ambients i efectes puntuals previstos seran enregistra
 export const tercer = [
   proposal({
     id: 'el-so-que-faltava', code: 'S025', title: 'El so que faltava', grade: '3', level: 'easy', genre: 'dialogue', universeIds: ['laia-biel'],
+    seconds: 67, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s025-mixed-v1.mp3', tracks: { introduction: './assets/audio/s025-mixed-v1-intro.mp3', body: './assets/audio/s025-mixed-v1-cos.mp3' },
+    fragment: { start: 4.261583333333333, seconds: 63 },
     summary: 'La Laia i en Biel proven una gravació abans de presentar-la al grup i descobreixen per què un dels dos no sent res.',
     voices: { Laia: 'Leda', Biel: 'Puck' },
     delivery: 'Dos joves en una prova de ràdio informal. Laia s’estranya sense posar-se nerviosa; Biel respon mentre comprova l’aparell. Petita sorpresa final, sense donar una lliçó ni fer veus infantils.',
@@ -34,6 +37,9 @@ export const tercer = [
   }),
   proposal({
     id: 'preparem-el-raco-dels-jocs', code: 'S026', title: 'Preparem el racó dels jocs', grade: '3', level: 'easy', genre: 'instructions', universeIds: ['amb-mireia'],
+    seconds: 69, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s026-mixed-v1.mp3', tracks: { introduction: './assets/audio/s026-mixed-v1-intro.mp3', body: './assets/audio/s026-mixed-v1-cos.mp3' },
+    fragment: { start: 7.186999999999999, seconds: 62 },
     summary: 'La Mireia i en Biel preparen un racó de jocs i aclareixen què cal fer quan una capsa és incompleta.',
     voices: { Mireia: 'Aoede', Biel: 'Puck' },
     delivery: 'Mestra propera que organitza una activitat real. Biel intervé amb preguntes breus i una proposta espontània. No convertir les instruccions en una enumeració rígida.',
@@ -63,6 +69,9 @@ export const tercer = [
   }),
   proposal({
     id: 'el-berenar-del-terrat', code: 'S027', title: 'El berenar del terrat', grade: '3', level: 'middle', genre: 'story', universeIds: ['aina-ferran'],
+    seconds: 79, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s027-mixed-v1.mp3', tracks: { introduction: './assets/audio/s027-mixed-v1-intro.mp3', body: './assets/audio/s027-mixed-v1-cos.mp3' },
+    fragment: { start: 5.234999999999999, seconds: 73 },
     summary: 'L’avi Ferran recorda un berenar que la família havia preparat a l’exterior i que va haver de canviar de lloc.',
     voices: { Ferran: 'Algenib' },
     delivery: 'Ferran explica un record a l’Aina, amb calidesa i humor discret. Una sola veu; les frases recordades no es representen amb veus noves. Final concret de família, sense convertir el record en una lliçó.',

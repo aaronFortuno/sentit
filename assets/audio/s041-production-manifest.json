@@ -1,0 +1,75 @@
+{
+  "code": "S041",
+  "activity": "ca-S041",
+  "state": "awaiting-montage-validation",
+  "file": "s041-mixed-v1.mp3",
+  "introFile": "s041-mixed-v1-intro.mp3",
+  "bodyFile": "s041-mixed-v1-cos.mp3",
+  "offset": 8.364416666666667,
+  "bodyDuration": 96.64558333333333,
+  "fullDuration": 105.01,
+  "voices": {
+    "Mireia": "Aoede",
+    "Biel": "Puck"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "a0bcff78c1b77973ff7ddd60722557464823fa57c596f11b98c6ecc64a97223a",
+  "sourceRequestHash": "a69e46ffa002c31081a977e22d2b4140be4b1b3c969601fca2b8971bd190cb02",
+  "batch": "L06",
+  "rawSha256": "4bcdb6306e09bc40b58de637d9e4c3d8cb63477429a60ccf89bb8602cf05d809",
+  "takeSha256": "67ea4df411eb27fa99e64ff706302a192277746961c0153c0ee7f72a5fc73e9e",
+  "coverage": 0.8932384341637011,
+  "uncertainTurns": [
+    {
+      "start": 262.47999999999996,
+      "end": 263.17,
+      "heard": "i ivaj ara",
+      "status": "short-turn-awaiting-listening",
+      "originalPreserved": true,
+      "block": "S041-T01",
+      "part": "llegir",
+      "text": "Hi vaig ara?",
+      "coverage": 0.3333333333333333
+    }
+  ],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.4,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "tallis0410-707510",
+      "start": 0,
+      "source": "assets/audio/sources/tallis0410-707510.mp3",
+      "sourceSha256": "1cceca74ca79bd56764a8482ce0721afa5d2a7612c15ef1160ce2c5b923a45ff",
+      "sourceUrl": "https://freesound.org/people/Tallis0410/sounds/707510/",
+      "author": "Tallis0410",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.2,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -42,
+      "lowPassHz": 1800,
+      "passes": 3,
+      "crossfadeSeconds": 1
+    },
+    {
+      "name": "funkysandwich-871017",
+      "start": 65.6096,
+      "source": "assets/audio/sources/funkysandwich-871017.mp3",
+      "sourceSha256": "91f0758edb74981b079afe514c96645efe829b97c924cec132bb245cbf70c7a6",
+      "sourceUrl": "https://freesound.org/people/funkysandwich/sounds/871017/",
+      "author": "funkysandwich",
+      "license": "CC0 1.0",
+      "excerpt": {
+        "start": 0,
+        "seconds": 1.2
+      },
+      "underSpeech": false,
+      "insertedPause": 1.5
+    }
+  ],
+  "sha256": "644ace07ff499b084ef2f1fdffa3e5ccee0c0c290ebc624d63ffe9c17317d942"
+}

@@ -1,4 +1,5 @@
 const repo = 'https://github.com/aaronFortuno/sentit/blob/main/';
+import { mixedAudioResources } from './content/mixed-audio-resources.js';
 import { productionProgress } from './content/production-progress.js';
 import { musicForActivity } from './content/music-catalogue.js';
 import { soundSourcesForActivity } from './content/sound-sources.js';
@@ -8,6 +9,7 @@ const original = { title: 'Sentit · síntesi i muntatge originals amb FFmpeg', 
 
 // Only resources actually heard in the published master. Future cue sheets live in docs/.
 export const audioResources = {
+  ...mixedAudioResources,
   'ca-S021': { voices: 'Aoede: Mireia i títol. Leda: Laia. Veus rebudes dins del lot compartit L01, amb text i repartiment conservats. Muntatge pendent d’audició docent.', sounds: 'Ambient urbà real de soaress a l’obertura, passos reals d’evsecrets durant el desplaçament i un full real de Beussa dins pauses sense parla. Gravacions CC0; sense música sota les causes ni efectes que donin resultats.', recipe: 'tools/render-mixed-take.cjs' },
   'ca-S032': { voices: 'Aoede: Mireia i títol. Leda: Laia. Veus rebudes dins del mateix lot L01, separades en silencis comprovats. Muntatge pendent d’audició docent.', sounds: 'Dos segons d’aula real d’Elenalostale abans de la salutació, retirats sota les instruccions. Un full enregistrat de Beussa abans de parlar de la prova i al comiat. Gravacions CC0; sense sons del lloc amagat.', recipe: 'tools/render-mixed-take.cjs' },
   'ca-S020': { voices: 'Aoede: Mireia i presentació. Presa completa ja rebuda, conservada sense canvis de ritme ni retalls de fonemes. Veus i muntatge validats pel docent; publicació definitiva de S020, amb el màster v1 conservat.', sounds: 'Petita descoberta, original de Sentit sota MIT: obertura de 3,8 s i tancament de 3,4 s, fora de la parla. Un clic molt curt dins la pausa anterior a la comprovació de l’arxiu; veu neta durant les bases, requisits i horaris. Cap enregistrament extern ni síntesi nova.', recipe: 'tools/render-proposal.cjs' },
@@ -66,6 +68,7 @@ export function renderAudioResources(root, entry, t) {
     }
   }
   const p = add('p', '');
+  if(progress.voicePreview){const preview=add('p','');link(preview,t('hearReceivedVoices'),new URL(progress.voicePreview,import.meta.url).href);}
   const comparison=productionProgress[`${entry.language}-${entry.code}`]?.repairComparison;
   if(comparison){const preview=add('p','');link(preview,t('compareAudioCorrections'),comparison);}
   link(p, t('fullAudioCredits'), repo + 'docs/fonts-sonores.md');

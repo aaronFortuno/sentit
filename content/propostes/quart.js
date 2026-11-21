@@ -66,6 +66,9 @@ export const quart = [
   }),
   proposal({
     id: 'una-menjadora-per-als-ocells', code: 'S011', title: 'Una menjadora per als ocells', grade: '4', level: 'advanced', genre: 'instructions',
+    seconds: 145, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s011-mixed-v1.mp3', tracks: { introduction: './assets/audio/s011-mixed-v1-intro.mp3', body: './assets/audio/s011-mixed-v1-cos.mp3' },
+    fragment: { start: 5.954916666666667, seconds: 138 },
     summary: 'La Mireia i la classe construeixen una maqueta: els dubtes i les propostes dels companys també ajuden a seguir la prova.',
     strategy: 'grouped-voices-v1',
     voices: { Mireia: 'Aoede', Biel: 'Puck', Laia: 'Leda' }, delivery: 'Mireia, mestra adulta, parla a una classe que acaba de preparar el material. Biel pregunta amb curiositat i alguna vegada s’avança; Laia escolta i li respon amb naturalitat. Salutació propera, dubtes breus i confirmacions sense recitar un guió. No fer veus infantils caricaturitzades ni solapar les intervencions.',

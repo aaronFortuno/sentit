@@ -1,5 +1,13 @@
 # Canvis
 
+## 0.1.64 · 21 de novembre de 2026
+
+- Tanda de vuit peticions completes: 25 comprensions amb totes les veus rebudes, 45:49,6 de material cru i set esmenes. Preses, respostes i peticions exactes conservades; cap reintent ni substitució automàtica dels originals.
+- Vint muntatges nous pendents d’audició, incloses les escenes de tres personatges S007, S011 i S017, reconstruïdes en l’ordre aprovat. Cinc notícies amb pàgina de veus rebudes mentre esperen el muntatge i la sintonia. Accés des de Fonts i crèdits.
+- Ambients i accions procedents de mostres reals CC0; cinc composicions de narració originals diferents sota MIT, amb música baixa sota la veu, pujada de dos segons i fosa final. Catàlegs i crèdits derivats dels manifests reals.
+- Comparacions de Til·lers (L02), Si i suggeriments (L03) i rails (L13), juntament amb les de L01. Cap esmena aplicada sense audició. Torn curt de S041 conservat i assenyalat perquè el reconeixement no el confirma.
+- Estimació de mida recalibrada amb els pilots, recepció sense duplicats, alineació i talls en silencis comprovats. Els quatre guions de lots incomplets i dues esmenes petites continuen en espera. Comprovacions locals de descodificació, empremtes, fonts i interfície.
+
 ## 0.1.63 · 21 de novembre de 2026
 
 - Registrades les validacions per a veus de S038D, S036, S041, S039, S031, S044, S027 i S043. Tots els guions actuals tenen el vistiplau docent; l’aprovació del muntatge continua sent independent.

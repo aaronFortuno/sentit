@@ -1,7 +1,10 @@
 'use strict';
 // During catalogue growth, scarce requests are reserved for useful full batches.
 // No automatic exception just because the queue is empty or quota has reset.
-const policy=Object.freeze({phase:'catalogue-growth',minimumSeconds:360,maximumSeconds:480,wordsPerMinute:120,longPauseSeconds:3,shortPauseSeconds:.35});
+// L01/L02 returned every block in 261.6/298.6 s. Rounded conservative planning
+// after these pilots: 170 spoken wpm and 2 s per long-pause tag. This is only a
+// forecast; the actual silence/coverage is checked and speech is never retimed.
+const policy=Object.freeze({phase:'catalogue-growth',minimumSeconds:360,maximumSeconds:480,wordsPerMinute:170,longPauseSeconds:2,shortPauseSeconds:.35});
 function estimateSynthesis(body){
  const text=(body?.input??[]).flatMap(turn=>turn.content??[]).filter(part=>part.type==='text').map(part=>part.text??'').join(' ');
  const words=text.replace(/<[^>]*>/g,' ').replaceAll('|',' ').trim().split(/\s+/u).filter(Boolean).length;

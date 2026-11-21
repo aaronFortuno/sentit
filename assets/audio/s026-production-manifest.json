@@ -1,0 +1,88 @@
+{
+  "code": "S026",
+  "activity": "ca-S026",
+  "state": "awaiting-montage-validation",
+  "file": "s026-mixed-v1.mp3",
+  "introFile": "s026-mixed-v1-intro.mp3",
+  "bodyFile": "s026-mixed-v1-cos.mp3",
+  "offset": 7.186999999999999,
+  "bodyDuration": 61.67791666666667,
+  "fullDuration": 68.86491666666667,
+  "voices": {
+    "Mireia": "Aoede",
+    "Biel": "Puck"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "a0bcff78c1b77973ff7ddd60722557464823fa57c596f11b98c6ecc64a97223a",
+  "sourceRequestHash": "bb78180d8c2948808cfd5f0c8824f2177ec440e13e5dee3a51ff7b860b4a5204",
+  "batch": "L06",
+  "rawSha256": "4bcdb6306e09bc40b58de637d9e4c3d8cb63477429a60ccf89bb8602cf05d809",
+  "takeSha256": "8d095c83d3e23066d8c878db8516bc1acbb32ff31eec18dacb97de96cce26ace",
+  "coverage": 0.9285714285714286,
+  "uncertainTurns": [
+    {
+      "start": 262.47999999999996,
+      "end": 263.17,
+      "heard": "i ivaj ara",
+      "status": "short-turn-awaiting-listening",
+      "originalPreserved": true,
+      "block": "S041-T01",
+      "part": "llegir",
+      "text": "Hi vaig ara?",
+      "coverage": 0.3333333333333333
+    }
+  ],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.61,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "tallis0410-707510",
+      "start": 0,
+      "source": "assets/audio/sources/tallis0410-707510.mp3",
+      "sourceSha256": "1cceca74ca79bd56764a8482ce0721afa5d2a7612c15ef1160ce2c5b923a45ff",
+      "sourceUrl": "https://freesound.org/people/Tallis0410/sounds/707510/",
+      "author": "Tallis0410",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.2,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -42,
+      "lowPassHz": 1800,
+      "passes": 3,
+      "crossfadeSeconds": 1
+    },
+    {
+      "name": "breezy2000uk-578712",
+      "start": 0.25,
+      "source": "assets/audio/sources/breezy2000uk-578712.mp3",
+      "sourceSha256": "2a4a093fb09e418347b51d129508a04cb9a7b2a0c55cd2b84b3dc5e45cf0f371",
+      "sourceUrl": "https://freesound.org/people/Breezy2000uk/sounds/578712/",
+      "author": "Breezy2000uk",
+      "license": "CC0 1.0",
+      "excerpt": {
+        "start": 3,
+        "seconds": 1.1
+      },
+      "underSpeech": false
+    },
+    {
+      "name": "breezy2000uk-578712",
+      "start": 58.477916666666665,
+      "source": "assets/audio/sources/breezy2000uk-578712.mp3",
+      "sourceSha256": "2a4a093fb09e418347b51d129508a04cb9a7b2a0c55cd2b84b3dc5e45cf0f371",
+      "sourceUrl": "https://freesound.org/people/Breezy2000uk/sounds/578712/",
+      "author": "Breezy2000uk",
+      "license": "CC0 1.0",
+      "excerpt": {
+        "start": 3,
+        "seconds": 1.1
+      },
+      "underSpeech": false
+    }
+  ],
+  "sha256": "49a6a9572fe7d6c07dc01ae6fe609508102eb6089b1f78491cb616470b75b1e2"
+}

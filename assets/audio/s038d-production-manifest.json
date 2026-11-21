@@ -1,0 +1,78 @@
+{
+  "code": "S038D",
+  "activity": "ca-S038D",
+  "state": "awaiting-montage-validation",
+  "file": "s038d-mixed-v1.mp3",
+  "introFile": "s038d-mixed-v1-intro.mp3",
+  "bodyFile": "s038d-mixed-v1-cos.mp3",
+  "offset": 6.666083333333333,
+  "bodyDuration": 137.45891666666665,
+  "fullDuration": 144.125,
+  "voices": {
+    "Aina": "Zephyr",
+    "Ferran": "Algenib"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "ab02e5a56a6807f106885dd5b8e4749ed77c2b2461e93dc71243142194efb2a3",
+  "sourceRequestHash": "cace8dbdf190d1a2dc286e542eafc9654107e66b5d8e0f233d59bede938916d7",
+  "batch": "L13",
+  "rawSha256": "50a359687bbf10e905b5b5dfdb2497a47e098b918037e9dadb1a83a94f679608",
+  "takeSha256": "4598ce59eb9fefab0098b32a3b0677cb4609ffe5ae01531787a44a4c87c7dea0",
+  "coverage": 0.8926174496644296,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.78,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "callmethefoo-744447",
+      "start": 0,
+      "source": "assets/audio/sources/callmethefoo-744447.mp3",
+      "sourceSha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
+      "sourceUrl": "https://freesound.org/people/callmethefoo/sounds/744447/",
+      "author": "callmethefoo",
+      "license": "CC0 1.0",
+      "excerpt": {
+        "start": 12,
+        "seconds": 2
+      },
+      "underSpeech": false
+    },
+    {
+      "name": "gentle-narration-bed",
+      "origin": "original-procedural-composition",
+      "author": "Sentit",
+      "license": "MIT",
+      "source": "tools/narration-bed.cjs",
+      "title": "Una tarda per explicar",
+      "compositionId": "sentit-s038d-v1",
+      "tempoBpm": 68,
+      "rootMidi": 58,
+      "scoreSeed": 138,
+      "notes": 112,
+      "externalSamples": false,
+      "noSpeech": true,
+      "retimed": false,
+      "sha256": "7073ce0364135fee7824d3ca0ed0c5ac2efc0f5ea84ca70d0a6159e45e2e6270",
+      "envelope": {
+        "fadeInSeconds": 0.6,
+        "duckStart": 1.5,
+        "duckEnd": 2.25,
+        "speechGain": 0.26,
+        "nominalSpeechMusicLufs": -37.7,
+        "riseStart": 131.1889,
+        "riseEnd": 131.9889,
+        "holdSeconds": 2,
+        "fadeStart": 133.9889,
+        "fadeEnd": 135.1389
+      },
+      "listeningValidation": "pending",
+      "start": 0,
+      "underSpeech": true
+    }
+  ],
+  "sha256": "9ca83ba479f06c8af25b4181ca1c3417d1e829a76c40b5dfa4ad541df1f0ed6b"
+}

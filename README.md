@@ -14,20 +14,26 @@ S036 i S041 s’han refet després del retorn docent sobre el registre: «Una ca
 
 - **Publicació definitiva confirmada:** S003, S004, S004D, S008, S008R, S012, S018, S019 i S020. Aprovació vinculada al guió i al màster exactes; variants validades per separat. S008 incorpora la pujada musical, dos segons sostinguts i la fosa final autoritzades pel docent.
 - **S020 definitiva:** màster v1 validat amb Petita descoberta, il·lustració pròpia i transcripció neta. S019 v3 també és definitiva. S023 v2 incorpora Ona curta i mercat real, però espera l’esmena de suggeriments. Cap síntesi nova per a aquests muntatges.
-- **Síntesi pendent d’esmena:** S005, S010, S013, S015, S016, S022 i S023. Nou frases curtes agrupades en quatre peticions de com a màxim dues veus, encara sense enviar ni aplicar. [Incidències i reparacions](docs/pronunciacio-tts.md).
-- **Veus pendents amb guió validat:** S006, S007, S009, S011, S014, S017, S024, S025, S026, S027, S028, S029, S030, S031, S033, S034, S035, S036, S037, S038, S038D, S039, S040, S041, S042, S043, S044. Els guions actuals tenen autorització docent; els lots s’envien seqüencialment, després de comprovar l’anterior.
+- **Set frases d’esmena rebudes**, amb comparacions d’original i prova: bústia (dues), Després, Til·lers, Si, suggeriments i rails. Encara no s’han aplicat als màsters. Matí (S005) i temperatura (S015) esperen material compatible. [Incidències i reparacions](docs/pronunciacio-tts.md).
+- **20 muntatges nous pendents d’audició:** S007, S011, S014, S017, S021, S024, S025, S026, S027, S030, S032, S034, S035, S037, S038, S038D, S041, S042, S043 i S044. Ambients i detalls de mostres reals CC0; cinc bases musicals originals diferents per a les narracions noves.
+- **Cinc notícies amb veus rebudes:** S006, S009, S029, S031 i S039. [Escolta les preses](https://sentit.ortogra.fi/proves/veus-rebudes.html); muntatge i sintonia pendents, sense donar-los per validats.
+- **Quatre guions esperen lots prou plens:** S028, S033, S036 i S040. El repartiment aprovat es conserva; no s’envien peticions curtes ni es genera farciment.
 
 La capçalera compta només activitats sense revisió pendent. «Només provisionals · experimental», al footer, alterna entre exclusivament guions i àudios en revisió (activat) i materials disponibles (desactivat), i recorda la preferència local. Les cards distingeixen guió, veus, muntatge pendent d’audició i síntesi pendent d’esmena. Quan s’apliquen totes les correccions de veu, tornen a «Àudio pendent de validar»; rebre una prova crua no completa aquest pas.
 
 En la vista de provisionals, cada card mostra el número de fase i una barra de sis segments: guió → síntesi → revisió de veus → esmenes si cal → revisió del muntatge → publicació. Una franja superior permet filtrar per fase i en mostra els recomptes combinats amb els altres filtres. La barra indica la fase actual, no el temps pendent. [Funcionament del seguiment visual](docs/univers-editorial.md#seguiment-visual-de-producció).
 
-## Primer lot rebut · L01
+## Tanda de lots mixtos · 21/11
 
-Una petició nova el 21/11: 4:21,6 d’àudio cru, 1.171 tokens d’entrada i 6.541 de sortida. S021 i S032 muntades, pendents d’audició. Les tres esmenes de S010/S013 es poden [comparar al web](https://sentit.ortogra.fi/proves/correccions-l01.html), sense substituir encara els originals. [Rebut i talls](assets/audio/synthesis-batches/l01.json) · [Petició exacta](assets/audio/synthesis-batches/l01-request.json).
+**8 peticions, 25 comprensions amb les veus completes i set frases d’esmena: 45:49,6 de material cru.** Cap reintent automàtic ni canvi de ritme de les preses. Les escenes de tres personatges S007, S011 i S017 s’han intercalat localment a partir de dues preses compatibles. Els màsters anteriors continuen intactes.
+
+[Comparacions L01](https://sentit.ortogra.fi/proves/correccions-l01.html) · [L02](https://sentit.ortogra.fi/proves/correccions-l02.html) · [L03](https://sentit.ortogra.fi/proves/correccions-l03.html) · [L13](https://sentit.ortogra.fi/proves/correccions-l13.html). Les proves esperen audició abans de substituir res. El breu «Hi vaig ara?» de S041 també queda assenyalat per escoltar-lo: el reconeixedor local no el confirma prou.
 
 ## Agrupar lectures i correccions
 
-[Pla de lots de síntesi](docs/lots-sintesi.md): agrupar material validat d’una o dues veus, preveure **6–8 minuts per petició** i tallar després amb marges comprovats. La cua candidata combina 24 preses noves i nou frases de correcció en 12 lots en lloc de 28 peticions. L01, L02, L03, L05, L06, L08, L10 arriben a la finestra; L04, L07, L09, L11, L12 esperen més material. El generador rebutja lots massa curts o llargs abans de llegir claus o reservar quota. Cal preparar el payload i el receptor per a la prova; L01 ja s’ha rebut i la resta es reagrupa amb les darreres validacions i la durada observada. No hi ha cap bucle automàtic d’enviaments.
+[Pla de lots de síntesi](docs/lots-sintesi.md): finestra de **6–8 minuts estimats**, una o dues veus, un sol enviament en curs i almenys 65 segons entre inicis. Previsió recalibrada amb els pilots a 170 mots/minut; no s’alenteix ni s’accelera la veu. Les aprovacions, l’espai en disc, els duplicats i la quota compartida es comproven abans de llegir claus o reservar quota. Peticions exactes i rebuts públics a [assets/audio/synthesis-batches](assets/audio/synthesis-batches); WAV crus, respostes completes i mapes de tall conservats localment.
+
+Queden dos enviaments de marge dins el topall de deu, però els lots actuals incomplets esperen. El control editorial històric de S015 també s’ha de conciliar abans de preparar-ne l’esmena; no s’ha modificat el control d’aprovació. No hi ha cap bucle automàtic de síntesi.
 
 ## Catàleg, col·leccions i sintonies
 

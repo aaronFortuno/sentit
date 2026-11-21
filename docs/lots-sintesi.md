@@ -1,14 +1,49 @@
-# Lots de síntesi per aprofitar les peticions
+# Lots de síntesi
 
-Execució seqüencial autoritzada · **21/11/2026**. **L01 rebuda en una petició.** S021 i S032 ja tenen muntatge pendent d’audició; tres esmenes noves esperen comparació. La resta dels candidats es reagrupa amb les validacions posteriors i la durada real del pilot.
+Execució seqüencial autoritzada · **21/11/2026**. **8 peticions completades, 45:49,6 d’àudio cru**, 13.113 tokens d’entrada. Cap reintent de síntesi. Queden dues peticions de marge segons el topall local de deu; no s’envien lots petits per omplir-les.
 
-## Estat del primer lot
+## Tanda executada
 
-L01: **4:21,6 reals**, 1.171 tokens d’entrada i 6.541 de sortida, un sol bloc WAV complet. La previsió inicial era de 6:29 amb els separadors finals; l’observació servirà per calibrar els candidats següents, mantenint la finestra de sis a vuit minuts. S’han conservat la petició exacta, la resposta, les preses i els silencis de tall. La comprovació local localitza tots cinc blocs; no certifica pronunciació. [Rebut públic](../assets/audio/synthesis-batches/l01.json) · [Comparacions](https://sentit.ortogra.fi/proves/correccions-l01.html).
+| Lot · rebut | Preses i esmenes | Durada real | Tokens d’entrada | Tokens d’àudio |
+| --- | --- | ---: | ---: | ---: |
+| [L01](../assets/audio/synthesis-batches/l01.json) | S021-T01, S032-T01, S013-repartiment, S013-error, S010-pla | 4:22 | 1171 | 6541 |
+| [L02](../assets/audio/synthesis-batches/l02.json) | S011-T02, S010-alternativa, S007-T02, S024-T01, S017-T02 | 4:59 | 1250 | 7466 |
+| [L10](../assets/audio/synthesis-batches/l10.json) | S007-T01, S011-T01, S029-T01, S031-T01 | 6:05 | 1818 | 9137 |
+| [L05](../assets/audio/synthesis-batches/l05.json) | S017-T01, S035-T01, S043-T01 | 5:59 | 1673 | 8963 |
+| [L06](../assets/audio/synthesis-batches/l06.json) | S014-T01, S026-T01, S041-T01, S042-T01 | 6:31 | 1834 | 9781 |
+| [L03](../assets/audio/synthesis-batches/l03.json) | S006-T01, S009-T01, S039-T01, S016-exposicio, S023-tancament | 5:11 | 1648 | 7777 |
+| [L08](../assets/audio/synthesis-batches/l08.json) | S025-T01, S030-T01, S037-T01, S044-T01 | 5:58 | 1622 | 8952 |
+| [L13](../assets/audio/synthesis-batches/l13.json) | S027-T01, S034-T01, S038-T01, S038D-T01, S022-dema | 6:45 | 2097 | 10124 |
 
-Tots els guions actuals ja tenen validació docent. **27 comprensions esperen veus; S021 i S032 esperen audició del muntatge.** La cua executable es congela individualment a [synthesis-batches.json](../content/synthesis-batches.json), sense enviar tots els candidats de cop.
+Les peticions exactes i les empremtes són públiques al costat de cada rebut. Respostes completes, WAV crus i reconeixements es conserven localment; les respostes grans es comprimeixen sense pèrdua després de comprovar-ne la integritat. Els màsters aprovats no es modifiquen.
 
-## Planificació anterior al pilot, per consultar-ne la traçabilitat
+### Resultat i revisió pendent
+
+- **25 comprensions noves amb totes les veus rebudes**, incloses les tres escenes d’aula reconstruïdes a partir de dues preses: S007, S011 i S017.
+- **20 muntatges en espera d’audició**, amb mostres reals i crèdits per activitat. Les cinc notícies S006, S009, S029, S031 i S039 tenen una [pàgina de veus rebudes](https://sentit.ortogra.fi/proves/veus-rebudes.html), sense donar la sintonia ni el muntatge per validats.
+- **Set frases d’esmena rebudes**: [L01 · bústia i Després](https://sentit.ortogra.fi/proves/correccions-l01.html), [L02 · Til·lers](https://sentit.ortogra.fi/proves/correccions-l02.html), [L03 · Si i suggeriments](https://sentit.ortogra.fi/proves/correccions-l03.html), [L13 · rails](https://sentit.ortogra.fi/proves/correccions-l13.html). Originals i proves per comparar; cap substitució aplicada automàticament.
+- El reconeixedor no confirma prou el torn de S041 «Hi vaig ara?». Una segona passada local sense vocabulari forçat sent «i ivaj ara». Es conserva íntegre i explícitament pendent d’audició, entre dos torns ben localitzats; no es compta com a pronunciació validada. L’avís consta al rebut L06, al manifest i a les fonts de la lectura. No s’accepten per aquesta via torns llargs, absents o fronteres entre peces.
+
+### Material que espera
+
+| Candidat | Material | Previsió actual | Motiu |
+| --- | --- | ---: | --- |
+| L07 | S040 | 2:21 | No arriba als sis minuts |
+| L09 | S028 | 1:23 | No arriba als sis minuts |
+| L12 | S033 i S036 | 3:37 | No arriba als sis minuts |
+| L04 | Esmenes de matí (S005) i temperatura (S015) | Molt curt | Espera material compatible; S015 també requereix resoldre la compatibilitat del registre editorial històric, sense afluixar les aprovacions |
+
+### Calibratge i ús dels límits
+
+La finestra de **6–8 minuts estimats** es manté. Després dels dos primers pilots s’estimen 170 mots/minut, dos segons per marca llarga i 0,35 per marca curta; són previsions, mai un canvi de velocitat sobre les preses. La realització de cada pausa la decideix el model. L01 havia previst 6:29 i va retornar 4:21,6; la calibració millora els lots posteriors, que retornen entre 5:11 i 6:45. L13 utilitza una marca llarga entre blocs, amb talls posteriors comprovats en silencis reals.
+
+Una petició admet com a màxim dues veus. El màxim de tokens per minut és un límit de ritme, no una bossa acumulable; s’han mantingut almenys 65 segons entre inicis i un únic enviament en curs. No s’han canviat guions ni repartiments per omplir un lot. El generador comprova pressupost, espai en disc, aprovació i duplicats abans de llegir la clau o reservar quota. El reconeixement guia els talls i detecta possibles omissions; l’audició docent decideix si la dicció i el muntatge són bons.
+
+## Històric anterior al primer pilot
+
+La planificació següent es conserva per traçabilitat; **els seus repartiments i durades no són la cua executable actual**. El manifest vigent és [synthesis-batches.json](../content/synthesis-batches.json).
+
+### Proposta inicial
 
 - El límit de peticions i el de tokens són independents: podem gastar deu peticions encara que hi enviem molt poc text.
 - Per petició: màxim 8.192 tokens de text d’entrada i 16.384 tokens d’àudio de sortida. Els 10.000 tokens/minut del projecte no són una bossa acumulable per fer una petició més gran.

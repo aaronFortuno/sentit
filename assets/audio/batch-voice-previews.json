@@ -1,0 +1,67 @@
+[
+  {
+    "code": "S006",
+    "title": "S’obre un nou camí al parc",
+    "batch": "L03",
+    "sourceTakeSha256": "23a9ec6941547247a39661b64a769d525f0d21442d5b00357470b4a02232c700",
+    "sourceRawSha256": "c810d73f6b7fe1f4815ab13add00d533683bb3f3b3c40b15c1e9de4106ad2586",
+    "file": "assets/audio/s006-voices-review-v1.mp3",
+    "sha256": "86be5f4199a101683e7d0d9595a968e70cbeb92a3a91964195f753d8e43077de",
+    "state": "voices-received-awaiting-montage",
+    "teacherAudioApproval": false,
+    "newRequests": 0,
+    "voiceRetimed": false
+  },
+  {
+    "code": "S009",
+    "title": "La biblioteca canvia d’horari",
+    "batch": "L03",
+    "sourceTakeSha256": "ae1abbec31fb02cd9cc9a876fcb66c3afc1e5ac14ab4df0de98dfc1e3bd5fe58",
+    "sourceRawSha256": "c810d73f6b7fe1f4815ab13add00d533683bb3f3b3c40b15c1e9de4106ad2586",
+    "file": "assets/audio/s009-voices-review-v1.mp3",
+    "sha256": "bf4a4392ee2f05604853d0ae062679d510b1489e4f7f25639fe3ce89be9d40d9",
+    "state": "voices-received-awaiting-montage",
+    "teacherAudioApproval": false,
+    "newRequests": 0,
+    "voiceRetimed": false
+  },
+  {
+    "code": "S029",
+    "title": "El cinema surt a la plaça",
+    "batch": "L10",
+    "sourceTakeSha256": "8965bab558d63722894ab08f1f5467a11a2e75d3366fc5539b9cb0e055144c2c",
+    "sourceRawSha256": "490b279a9670c6bb48737b04668af2d9cf14d0fe56bc165f26dccc2e518beba4",
+    "file": "assets/audio/s029-voices-review-v1.mp3",
+    "sha256": "7f8ecaa1b31b9bd841e4f80f8c639d860b5a95c456da5746b1e0feb124944ea1",
+    "state": "voices-received-awaiting-montage",
+    "teacherAudioApproval": false,
+    "newRequests": 0,
+    "voiceRetimed": false
+  },
+  {
+    "code": "S031",
+    "title": "Una bústia per a propostes",
+    "batch": "L10",
+    "sourceTakeSha256": "5fe7bab717c5c54e3409ddbaf501add12743b393227cf190cdec29ccd251648c",
+    "sourceRawSha256": "490b279a9670c6bb48737b04668af2d9cf14d0fe56bc165f26dccc2e518beba4",
+    "file": "assets/audio/s031-voices-review-v1.mp3",
+    "sha256": "06a67f054bcc77f0892a70213d7604605242d619f49f3f5bfa5cb092e635e720",
+    "state": "voices-received-awaiting-montage",
+    "teacherAudioApproval": false,
+    "newRequests": 0,
+    "voiceRetimed": false
+  },
+  {
+    "code": "S039",
+    "title": "Una biblioteca d’objectes en prova",
+    "batch": "L03",
+    "sourceTakeSha256": "6bce2235823c5836ba92a3110ffe24d8f89044ced47a204ebc3fd782dc1da9d0",
+    "sourceRawSha256": "c810d73f6b7fe1f4815ab13add00d533683bb3f3b3c40b15c1e9de4106ad2586",
+    "file": "assets/audio/s039-voices-review-v1.mp3",
+    "sha256": "3a7b4428a2a6a6f455e3623ecdd94bb9335a7b734780abc31fb28459868e289a",
+    "state": "voices-received-awaiting-montage",
+    "teacherAudioApproval": false,
+    "newRequests": 0,
+    "voiceRetimed": false
+  }
+]

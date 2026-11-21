@@ -40,6 +40,9 @@ export const sise = [
   }),
   proposal({
     id: 'una-reunio-amb-decisions-clares', code: 'S041', title: 'Què farem per portes obertes?', grade: '6', level: 'easy', genre: 'instructions', universeIds: ['amb-mireia'],
+    seconds: 106, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s041-mixed-v1.mp3', tracks: { introduction: './assets/audio/s041-mixed-v1-intro.mp3', body: './assets/audio/s041-mixed-v1-cos.mp3' },
+    fragment: { start: 8.364416666666667, seconds: 97 },
     summary: 'En Biel vol fer ràdio per portes obertes, però s’haurà d’espavilar amb el temps i trobar un lloc on se senti bé.',
     voices: { Mireia: 'Aoede', Biel: 'Puck' }, delivery: 'Conversa dins d’una aula, sense to de reunió. Biel s’entusiasma amb la ràdio i s’avança; Mireia li pregunta com ho vol fer i el fa tornar a escoltar els companys. Tornades curtes i reaccions al que s’acaba de dir, sense recitar llistes. L’humor surt de la pressa del Biel, no d’un acudit afegit.',
     editorialFocus: '6è accessible: seguir com canvia una idea concreta en parlar del temps i el lloc disponibles. Relacionar els suggeriments del Biel amb les preguntes de la mestra, sense actes, apartats ni càrrecs a recordar.',
@@ -80,6 +83,9 @@ export const sise = [
   }),
   proposal({
     id: 'dos-camins-amb-la-mateixa-mitjana', code: 'S042', title: 'Dos camins amb la mateixa mitjana', grade: '6', level: 'middle', genre: 'explanation', universeIds: ['amb-mireia'],
+    seconds: 112, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s042-mixed-v1.mp3', tracks: { introduction: './assets/audio/s042-mixed-v1-intro.mp3', body: './assets/audio/s042-mixed-v1-cos.mp3' },
+    fragment: { start: 10.729000000000001, seconds: 101 },
     summary: 'La Mireia i en Biel comparen dos camins amb la mateixa mitjana de temps i recorden què va passar el dia que van trobar molts cotxes.',
     voices: { Mireia: 'Aoede', Biel: 'Puck' }, delivery: 'Conversa d’aula amb càlculs breus i una experiència concreta d’espera pels cotxes. Mireia reacciona i fa preguntes curtes; Biel respon com un jove, lliga l’hora amb el record i s’ofereix a ajudar amb el cronòmetre. Petita vacil·lació final en recordar qui el té. Evitar informes, protocols i conclusions d’expert. Llegir les dades clarament, sense alentir cada número; tots els càlculs es diuen al guió.',
     editorialFocus: '6è intermèdia: comparar recorreguts amb la mateixa mitjana i relacionar els temps observats, l’espera pels cotxes i l’hora de la visita. Seguir la proposta d’una nova prova dins d’una conversa d’aula. Càlculs explícits i nou preguntes, sense exigir retenir cada valor.',
@@ -115,6 +121,9 @@ export const sise = [
   }),
   proposal({
     id: 'el-balco-que-nomes-era-al-paper', code: 'S043', title: 'El balcó que només era al paper', grade: '6', level: 'middle', genre: 'story', universeIds: ['histories-sentit'],
+    seconds: 147, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s043-mixed-v1.mp3', tracks: { introduction: './assets/audio/s043-mixed-v1-intro.mp3', body: './assets/audio/s043-mixed-v1-cos.mp3' },
+    fragment: { start: 9.292083333333334, seconds: 137 },
     summary: 'L’Aina troba un dibuix antic d’un edifici que coneix i intenta entendre per què hi apareix un balcó que no ha vist mai.',
     voices: { Narradora: 'Aoede' }, delivery: 'Narració propera i expressiva, amb curiositat sense suspense amenaçador. Aina i Ferran són personatges narrats, no veus participants. No imitar-ne les veus. Tancament amb una feina concreta i humor lleu, no amb un aforisme.',
     editorialFocus: '6è intermèdia: separar projecte, obra i record; seguir el canvi d’hipòtesi amb proves de valor diferent. Nou preguntes que no exigeixen saber llegir plànols ni conèixer el barri.',
@@ -147,6 +156,9 @@ export const sise = [
   }),
   proposal({
     id: 'el-recompte-del-programa', code: 'S044', title: 'El recompte del programa', grade: '6', level: 'advanced', genre: 'dialogue', universeIds: ['laia-biel'],
+    seconds: 111, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s044-mixed-v1.mp3', tracks: { introduction: './assets/audio/s044-mixed-v1-intro.mp3', body: './assets/audio/s044-mixed-v1-cos.mp3' },
+    fragment: { start: 6.765, seconds: 104 },
     summary: 'La Laia i en Biel preparen una presentació del seu programa, però abans revisen què poden afirmar a partir del recompte d’escoltes i dels comentaris rebuts.',
     voices: { Laia: 'Leda', Biel: 'Puck' }, delivery: 'Joves contents amb el programa, amb una primera exageració que revisen parlant. Biel aporta un exemple propi, no fa d’expert. Proposta final construïda entre tots dos, amb dubtes i alguna rectificació. Cap moralina ni sentència de verificació perfecta.',
     editorialFocus: '6è avançada: interpretar el recompte de reproduccions, aplicar-ne el significat a les escoltes completes i relacionar els comentaris rebuts amb una nova prova d’escolta. Nou preguntes; no exigeix conèixer cap plataforma ni calcular percentatges.',

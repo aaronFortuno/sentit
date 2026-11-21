@@ -1,0 +1,19 @@
+{
+  "batch": "L02",
+  "requestHash": "ef2b891a48e5c2823d4527ce9a4c0fc93ae1951ecaad5c7ce07a30ac584a1a66",
+  "repairs": [
+    {
+      "code": "S010",
+      "part": "alternativa",
+      "text": "Des de la plaça anem pel carrer dels Til·lers fins a la farmàcia.",
+      "pronunciation": "Til·lers has two consecutive lateral L sounds (l·l), a gently lengthened L, never the palatal LL of lluna. Keep the stressed open E and fluent natural Central Catalan. Do not read the middle dot or say the explanation.",
+      "status": "received-awaiting-listening",
+      "originalFile": "assets/audio/repairs/l02-s010-alternativa-original.mp3",
+      "candidateFile": "assets/audio/repairs/l02-s010-alternativa-prova.mp3",
+      "sourceRawSha256": "5ae1ca4fd12bac21243b7e519981c14bdb2e34319cc06bdc1fbc318f91833fe4",
+      "batchRequestHash": "ef2b891a48e5c2823d4527ce9a4c0fc93ae1951ecaad5c7ce07a30ac584a1a66",
+      "applied": false
+    }
+  ],
+  "masterChanged": false
+}
