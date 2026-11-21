@@ -46,7 +46,7 @@ Actualitzat: **21/11/2026**. Catàleg de **44 peces**, més les variants **S004D
 | [ca-S036](https://sentit.ortogra.fi/#lectura=ca-S036) | El nom de l’objecte | 5è | Accessible · Entrevista | Prevista 1:55–2:25 | 8 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S037](https://sentit.ortogra.fi/#lectura=ca-S037) | Quin avís és el bo? | 5è | Intermèdia · Diàleg | Prevista 1:55–2:20 | 8 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S038](https://sentit.ortogra.fi/#lectura=ca-S038) | El banc que havien mogut | 5è | Intermèdia · Narració | Prevista 2:20–2:50 | 8 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
-| [ca-S039](https://sentit.ortogra.fi/#lectura=ca-S039) | Una biblioteca d’objectes en prova | 5è | Avançada · Notícia | Prevista 2:10–2:40 | 8 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S039](https://sentit.ortogra.fi/#lectura=ca-S039) | Una biblioteca d’objectes en prova | 5è | Avançada · Notícia | Prevista 2:15–2:45 | 8 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S040](https://sentit.ortogra.fi/#lectura=ca-S040) | Una exposició que es pugui escoltar | 6è | Accessible · Entrevista | Prevista 2:15–2:45 | 9 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S041](https://sentit.ortogra.fi/#lectura=ca-S041) | Una reunió amb decisions clares | 6è | Accessible · Instruccions | Prevista 2:00–2:25 | 9 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S042](https://sentit.ortogra.fi/#lectura=ca-S042) | Dos camins amb la mateixa mitjana | 6è | Intermèdia · Explicació | Prevista 2:05–2:35 | 9 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
