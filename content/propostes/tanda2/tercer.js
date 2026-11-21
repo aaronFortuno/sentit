@@ -132,6 +132,9 @@ export const tercer = [
   }),
   proposal({
     id: 'el-cinema-surt-a-la-placa', code: 'S029', title: 'El cinema surt a la plaça', grade: '3', level: 'advanced', genre: 'news', universeIds: ['noticies-mar'],
+    seconds: 87, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s029-news-v1.mp3', tracks: { introduction: './assets/audio/s029-news-v1-intro.mp3', body: './assets/audio/s029-news-v1-cos.mp3' },
+    fragment: { start: 6.04, seconds: 80 },
     summary: 'La Mar explica una sessió de cinema fictícia i separa el pla previst de l’alternativa que només s’activarà si plou.',
     voices: { Mar: 'Erinome' },
     delivery: 'Notícia local de ficció, clara i àgil. Pauses per separar lloc, accés i alternativa de pluja. No emfatitzar les respostes ni acabar amb una reflexió general; tancament informatiu concret.',

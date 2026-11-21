@@ -3,6 +3,9 @@ import { proposal, direction as d, spoken as s, question as q, evidence as e } f
 export const quart = [
   proposal({
     id: 'la-biblioteca-canvia-dhorari', code: 'S009', title: 'La biblioteca canvia d’horari', grade: '4', level: 'easy', genre: 'news',
+    seconds: 102, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s009-news-v1.mp3', tracks: { introduction: './assets/audio/s009-news-v1-intro.mp3', body: './assets/audio/s009-news-v1-cos.mp3' },
+    fragment: { start: 6.97, seconds: 95 },
     summary: 'Un avís de la Mar permet preparar una visita i distingir l’obertura del servei de retorn.',
     voices: { Mar: 'Erinome' }, delivery: 'Periodista adulta, clara i propera. Separar els dies, el canvi i el servei que no depèn de l’horari sense remarcar artificialment les respostes.',
     editorialFocus: '4t accessible: informació explícita i útil, organitzada per blocs. Aplicar un horari al cas d’una visita concreta sense fer càlculs.',

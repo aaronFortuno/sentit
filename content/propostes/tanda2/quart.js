@@ -39,6 +39,9 @@ export const quart = [
   }),
   proposal({
     id: 'una-bustia-per-a-propostes', code: 'S031', title: 'Una bústia per a propostes', grade: '4', level: 'easy', genre: 'news', universeIds: ['noticies-mar'],
+    seconds: 96, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s031-news-v1.mp3', tracks: { introduction: './assets/audio/s031-news-v1-intro.mp3', body: './assets/audio/s031-news-v1-cos.mp3' },
+    fragment: { start: 6.37, seconds: 89 },
     summary: 'La Mar informa d’una recollida d’idees per a la festa del barri i explica què es farà amb els papers rebuts.',
     voices: { Mar: 'Erinome' }, delivery: 'Notícia de ficció, propera i clara. Distingir recollir propostes d’escollir el programa sense sonar com una lectura burocràtica. Respectar la tònica de bústia.',
     editorialFocus: '4t accessible: informació explícita i una distinció entre proposta i decisió sustentada pel cas del concert de l’any passat. Set preguntes, sense exigir recordar el nom del grup musical.',

@@ -102,3 +102,15 @@ Vint muntatges pendents d’audició. Preses completes conservades, tres escenes
 | [Soft Room Tone ](https://freesound.org/people/callmethefoo/sounds/744447/) | callmethefoo · CC0 1.0 | ca-S034, ca-S038D |
 
 Fragments, dates, còpies, llicències i SHA-256 al [registre de fonts](../content/sound-sources.js); mescles i temps als manifests de cada codi a assets/audio. No s’atribueix l’enregistrament a la ubicació real de la història. Les sales es mesclen molt baix, sense diàlegs nous intel·ligibles que aportin respostes; els detalls puntuals van dins pauses. S043 evita sons d’obres i S038D no representa sonorament el record de Ferran. El torn curt de S041 «Hi vaig ara?» es conserva pendent d’audició perquè el reconeixedor no el confirma; cap rectificació de text forçada.
+
+
+## Notícies amb muntatge · 21/11/2026
+
+S006, S009, S029, S031 i S039 utilitzen Ona curta (Sentit, MIT), recurs ja aprovat amb obertura i tancament fora de la parla. Tots cinc muntatges encara requereixen audició docent. No s’han sintetitzat veus noves.
+
+- S006 i S029: [Soft City Park Ambience](https://freesound.org/people/simgo/sounds/380687/) de simgo, CC0 1.0, dos segons d’ambient a l’obertura. Còpia HQ i empremta al registre de fonts.
+- S009: paper real de Beussa abans de la veu; sense efectes sota els horaris.
+- S031: ambient interior real de callmethefoo i paper en una pausa segura.
+- S039: ambient interior molt baix sota els torns de Pau, no sota les dades de Mar. S’omet el paper previst perquè no hi ha un interval segur per posar-lo; no es talla la parla per forçar un efecte.
+
+La recepta és tools/render-news-batch.cjs i l’autorització de proposta de muntatge és independent de la validació final. Es conserven les preses de veu anteriors. Titulars nets de parla sobrera i farciment, extrems retallats en silenci i pauses internes compactades només en zones silencioses entre blocs verificats.

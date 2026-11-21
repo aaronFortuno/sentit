@@ -19,9 +19,10 @@ const root=path.resolve(__dirname,'..'),sha=b=>createHash('sha256').update(b).di
   for(const file of [manifest.file,manifest.introFile,manifest.bodyFile]){ffmpeg(binary,['-v','error','-xerror','-i',path.join(root,'assets/audio',file),'-f','null','-']);clips++;}
   const metadata=ffmpeg(binary,['-i',path.join(root,'assets/audio',manifest.file),'-f','null','-']),match=/Duration: (\d+):(\d+):([\d.]+)/.exec(metadata);assert(match);const seconds=Number(match[1])*3600+Number(match[2])*60+Number(match[3]);assert(Math.abs(seconds-manifest.fullDuration)<.2);
   for(const effect of manifest.effects){
-   if(effect.origin==='original-procedural-composition'){assert.equal(effect.license,'MIT');if(effect.compositionId){assert(musicCatalogue.some(m=>m.id===effect.compositionId&&m.usedBy.includes(key)));assert.equal(effect.envelope.holdSeconds,2);assert(effect.envelope.fadeEnd<=manifest.bodyDuration);}}
+   if(effect.origin==='original-procedural-composition'){assert.equal(effect.license,'MIT');if(effect.jingleId)assert.equal(sha(await fs.readFile(path.join(root,effect.source))),effect.sourceSha256);if(effect.compositionId){assert(musicCatalogue.some(m=>m.id===effect.compositionId&&m.usedBy.includes(key)));assert.equal(effect.envelope.holdSeconds,2);assert(effect.envelope.fadeEnd<=manifest.bodyDuration);}}
    else{const source=soundSources.find(s=>s.id===effect.name);assert(source?.usedBy.includes(key));assert.equal(source.sha256,effect.sourceSha256);assert.equal(sha(await fs.readFile(path.join(root,source.file))),source.sha256);}
   }
+  if(manifest.preparation){assert.equal(manifest.preparation.allRetainedSamplesIdentical,true);assert(manifest.preparation.bodyQuietCuts.every(c=>c.maximumDbFS<=-42));assert.equal(manifest.montageAuthorization.finalTeacherApproval,false);}
   montages++;
  }
  const receipts=(await fs.readdir(path.join(root,'assets/audio/synthesis-batches'))).filter(f=>/^l\d+\.json$/.test(f));let seconds=0,requests=0;

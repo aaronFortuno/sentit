@@ -26,7 +26,7 @@ Les peticions exactes i les empremtes són públiques al costat de cada rebut. R
 ### Resultat i revisió pendent
 
 - **25 comprensions noves amb totes les veus rebudes**, incloses les tres escenes d’aula reconstruïdes a partir de dues preses: S007, S011 i S017.
-- **20 muntatges en espera d’audició**, amb mostres reals i crèdits per activitat. Les cinc notícies S006, S009, S029, S031 i S039 tenen una [pàgina de veus rebudes](https://sentit.ortogra.fi/proves/veus-rebudes.html), sense donar la sintonia ni el muntatge per validats.
+- **25 muntatges produïts**, amb fonts i crèdits per activitat; S027, S032, S038 i S038D ja són definitius amb les condicions aplicades. Les cinc notícies S006, S009, S029, S031 i S039 tenen muntatge amb Ona curta pendent d’audició. Les [preses originals](https://sentit.ortogra.fi/proves/veus-rebudes.html) es conserven com a arxiu. S011, S025 i S041 esperen esmenes de veu identificades pel docent.
 - **Set frases d’esmena rebudes**: [L01 · bústia i Després](https://sentit.ortogra.fi/proves/correccions-l01.html), [L02 · Til·lers](https://sentit.ortogra.fi/proves/correccions-l02.html), [L03 · Si i suggeriments](https://sentit.ortogra.fi/proves/correccions-l03.html), [L13 · rails](https://sentit.ortogra.fi/proves/correccions-l13.html). Originals i proves per comparar; cap substitució aplicada automàticament.
 - El reconeixedor no confirma prou el torn de S041 «Hi vaig ara?». Una segona passada local sense vocabulari forçat sent «i ivaj ara». Es conserva íntegre i explícitament pendent d’audició, entre dos torns ben localitzats; no es compta com a pronunciació validada. L’avís consta al rebut L06, al manifest i a les fonts de la lectura. No s’accepten per aquesta via torns llargs, absents o fronteres entre peces.
 
