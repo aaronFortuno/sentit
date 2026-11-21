@@ -35,3 +35,18 @@ La música no ha de desvelar una resposta, suggerir un judici sobre un personatg
 | Ona curta | Sintetitzador lleuger i petit motiu radiofònic | 4,0 s / 3,6 s | Sentit, MIT, síntesi local |
 
 [Recepta de les tres alternatives](../tools/propose-mireia-variants.cjs) · [Índex de manifests](../assets/audio/mireia-sintonies-comparacio.json). Sense veus, mostres externes ni peticions d’API; els WAV crus es conserven localment. Mateix volum objectiu de comparació, marges de silenci i empremtes dels fitxers. La pàgina només deixa reproduir una peça cada vegada.
+
+
+## Bases noves de la tanda del 21/11
+
+Cinc composicions originals distintes, encara pendents d’audició docent. Piano suau i coixí harmònic espaiat, a volum baix sota la narració. Fosa d’entrada, atenuació abans de la veu i pujada després de la darrera frase, dos segons sostinguts i fosa final. No utilitzen mostres externes ni melodies prestades.
+
+| ID · títol | Activitat | Origen i llicència |
+| --- | --- | --- |
+| sentit-s043-v1 · Una línia a la façana | ca-S043 | Sentit · MIT · [Partitura i recepta](../tools/narration-bed.cjs) |
+| sentit-s027-v1 · Tovalles al vent | ca-S027 | Sentit · MIT · [Partitura i recepta](../tools/narration-bed.cjs) |
+| sentit-s034-v1 · Entre dues cortines | ca-S034 | Sentit · MIT · [Partitura i recepta](../tools/narration-bed.cjs) |
+| sentit-s038-v1 · Un lloc a l’ombra | ca-S038 | Sentit · MIT · [Partitura i recepta](../tools/narration-bed.cjs) |
+| sentit-s038d-v1 · Una tarda per explicar | ca-S038D | Sentit · MIT · [Partitura i recepta](../tools/narration-bed.cjs) |
+
+Cada manifest conserva tempo, llavor de partitura, envolupant de volum i empremta del resultat. S038 i S038D utilitzen bases diferents; no es reutilitza una pista sense indicar-ho.

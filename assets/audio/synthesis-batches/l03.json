@@ -1,0 +1,92 @@
+{
+  "id": "L03",
+  "state": "received-and-split",
+  "requestHash": "2dd8d2f2332228b8d700d07edf4dace01afe1ee161060c0ac461952b04ec909f",
+  "rawSha256": "c810d73f6b7fe1f4815ab13add00d533683bb3f3b3c40b15c1e9de4106ad2586",
+  "startedAt": "2026-11-21T10:57:25.559Z",
+  "completedAt": "2026-11-21T10:58:10.100Z",
+  "rawSeconds": 311.08,
+  "usage": {
+    "total_tokens": 9425,
+    "total_input_tokens": 1648,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 1648
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 7777,
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 7777
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 0,
+    "initial_input_tokens": 1648
+  },
+  "returnedAudioBlocks": 1,
+  "newRequests": 1,
+  "coverageCheck": {
+    "engine": "vosk-model-small-ca-0.4",
+    "matchedFraction": 0.968,
+    "pronunciationValidated": false,
+    "uncertainTurns": []
+  },
+  "parts": [
+    {
+      "id": "S006-T01",
+      "code": "S006",
+      "sourceRequestHash": "7e285d58bf7f8bb6dd2061ad42a14861f673202966a83b5935b9bfc1924a373a",
+      "start": 0,
+      "end": 82.245,
+      "clipSha256": "23a9ec6941547247a39661b64a769d525f0d21442d5b00357470b4a02232c700",
+      "coverage": 0.9784172661870504,
+      "status": "voices-received"
+    },
+    {
+      "id": "S009-T01",
+      "code": "S009",
+      "sourceRequestHash": "c600345647bed0d1d09ca7b26cd5460240f4d266e72e69d5196230173c43fd74",
+      "start": 82.245,
+      "end": 172.2,
+      "clipSha256": "ae1abbec31fb02cd9cc9a876fcb66c3afc1e5ac14ab4df0de98dfc1e3bd5fe58",
+      "coverage": 0.979933110367893,
+      "status": "voices-received"
+    },
+    {
+      "id": "S039-T01",
+      "code": "S039",
+      "sourceRequestHash": "8f4ee363b0f70da306d0bdd87e83992a65c58d05a8098e8a22d097a75298be36",
+      "start": 172.2,
+      "end": 296.2147,
+      "clipSha256": "6bce2235823c5836ba92a3110ffe24d8f89044ced47a204ebc3fd782dc1da9d0",
+      "coverage": 0.9484536082474226,
+      "status": "voices-received"
+    },
+    {
+      "id": "S016-exposicio",
+      "code": "S016",
+      "sourceRequestHash": "d43335d6ca50e24dfe0d17b43f31e2ad67f7040083b26a3628ebd936896b4df7",
+      "start": 296.2147,
+      "end": 306.54,
+      "clipSha256": "1e19a5fc37a08b8d5be3c2c884918a46ad5997bb761910347d5c4c1c3d513536",
+      "coverage": 1,
+      "status": "correction-awaiting-listening"
+    },
+    {
+      "id": "S023-tancament",
+      "code": "S023",
+      "sourceRequestHash": "5381bc85a25a80e20c3d2a43e0df955e8f64a4dc7ea5256b52ccd90daf8feb9a",
+      "start": 306.54,
+      "end": 311.08,
+      "clipSha256": "e014d24127f4229141ef2ce8a93432c0ee2abc9affc6772715b8136e9dfa81de",
+      "coverage": 1,
+      "status": "correction-awaiting-listening"
+    }
+  ],
+  "preservesOriginals": true,
+  "voiceRetimed": false
+}

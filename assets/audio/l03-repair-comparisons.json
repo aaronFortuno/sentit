@@ -1,0 +1,31 @@
+{
+  "batch": "L03",
+  "requestHash": "2dd8d2f2332228b8d700d07edf4dace01afe1ee161060c0ac461952b04ec909f",
+  "repairs": [
+    {
+      "code": "S016",
+      "part": "exposicio",
+      "text": "Si l’estudi avança, l’equip voldria preparar una mostra al centre cívic amb fotografies del procés i alguns resultats.",
+      "pronunciation": "Start the sentence cleanly with the full word Si: brief /s/ followed by /i/. No breath noise, static, fricative held in place of the word, or added sounds.",
+      "status": "received-awaiting-listening",
+      "originalFile": "assets/audio/repairs/l03-s016-exposicio-original.mp3",
+      "candidateFile": "assets/audio/repairs/l03-s016-exposicio-prova.mp3",
+      "sourceRawSha256": "b91c85a798519ef2c0e7c8fced954bdb56892242aacf02f5cdc467fd95d23481",
+      "batchRequestHash": "2dd8d2f2332228b8d700d07edf4dace01afe1ee161060c0ac461952b04ec909f",
+      "applied": false
+    },
+    {
+      "code": "S023",
+      "part": "tancament",
+      "text": "D’aquí a un mes, l’associació explicarà què s’ha recollit amb els suggeriments.",
+      "pronunciation": "Pronounce suggeriments faithfully, with the vowel I in the stressed sequence -RÍ-ments, never suggerements or suggeraments. Fluent natural Central Catalan; no spelling aloud, no added explanation.",
+      "status": "received-awaiting-listening",
+      "originalFile": "assets/audio/repairs/l03-s023-tancament-original.mp3",
+      "candidateFile": "assets/audio/repairs/l03-s023-tancament-prova.mp3",
+      "sourceRawSha256": "eac80f2575c694144fa2d8ddde29f7bfe58c036b619cb9c97dce39c92f3c0736",
+      "batchRequestHash": "2dd8d2f2332228b8d700d07edf4dace01afe1ee161060c0ac461952b04ec909f",
+      "applied": false
+    }
+  ],
+  "masterChanged": false
+}

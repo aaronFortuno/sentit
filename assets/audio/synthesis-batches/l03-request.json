@@ -1,0 +1,150 @@
+{
+  "model": "gemini-3.8-flash-tts",
+  "input": [
+    {
+      "type": "user_input",
+      "content": [
+        {
+          "type": "text",
+          "text": "Comprensió oral. S’obre un nou camí al parc. Notícia de ficció. <long pause>\n\nBon dia. Dilluns s’obrirà un camí nou al parc del barri. Unirà l’entrada de la biblioteca amb la zona dels gronxadors. Fins ara, per anar d’un lloc a l’altre calia fer tota la volta a l’estany. El camí permetrà arribar-hi sense aquesta volta.\n\nLa novetat no és que hi hagi una entrada més al parc. Les entrades continuaran sent les mateixes. El que canvia és el recorregut que podrem fer a dins. El camí nou és ample i no té els esglaons del sender antic, de manera que també hi podran passar cotxets i cadires de rodes.\n\nEl sender antic, que passa per la vora dels arbres, no desapareixerà. Es podrà continuar fent servir. Per tant, qui vulgui passejar sense pressa tindrà les dues opcions.\n\nHi ha, però, una part que encara no es podrà utilitzar: la petita zona de plantes que queda al costat del camí. S’hi acabarà de posar una tanca per protegir-les mentre arrelen. Dilluns el camí ja estarà obert, però aquesta zona continuarà tancada. No cal entrar entre les plantes per seguir el recorregut.\n\nPer explicar el canvi, diumenge al matí es farà una passejada guiada. Caldrà trobar-se a l’entrada de la biblioteca. La passejada és una activitat especial d’aquell diumenge; no vol dir que cada dia s’hagi d’esperar una guia per entrar al parc. A partir de dilluns, el camí es podrà fer servir dins de l’horari habitual del parc.\n\nEn resum: nou recorregut per arribar als gronxadors, les mateixes entrades i el sender antic encara disponible. <long pause> <long pause>",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Periodista adulta propera, amb pauses entre la situació anterior, la novetat i allò que encara no està acabat. Notícia de ficció, sense solemnitat exagerada. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This is a separate recording in a batch. Read this block exactly once, without referring to any other block. The text fields contain all and only the words to speak; never speak labels or instructions. After this block leave the indicated long pauses.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. La biblioteca canvia d’horari. Notícia de ficció. <long pause>\n\nLa biblioteca del barri canviarà l’horari a partir de dilluns. El canvi durarà dues setmanes, mentre s’arregla una part de la instal·lació elèctrica. No es tanca tota la biblioteca: els treballs s’han organitzat per poder mantenir una part del servei.\n\nDe dilluns a divendres, la biblioteca obrirà només a la tarda, de quatre a set. Durant aquests dies no es podrà entrar al matí. Dissabte, en canvi, es manté l’horari habitual de deu a una del migdia.\n\nA dins, com sempre, es podran agafar llibres en préstec i utilitzar les taules de la planta baixa. La sala d’estudi del primer pis quedarà tancada mentre durin els treballs. Els clubs de lectura es trobaran a la sala petita de la planta baixa, amb els mateixos dies que tenien previstos.\n\nSi només heu de tornar algun llibre, també podeu fer servir la bústia de retorn que hi ha al costat de l’entrada. Encara que l’edifici estigui tancat o amb les obres, la bústia segueix operativa. Cal recordar, això sí, que aquí només hi podeu retornar llibres que tingueu en préstec, no llibres que vulgueu regalar o donar a la comunitat. Per fer donatius i també per fer qualsevol suggeriment ho haureu de fer en l’horari que la biblioteca estigui oberta.\n\nEl taller de contes de dimecres es farà igualment a les cinc de la tarda. La inscripció que ja teníeu continua sent vàlida; no cal tornar-la a fer. Si no hi podeu anar amb el nou horari, aviseu el personal perquè una altra persona pugui ocupar la plaça.\n\nEsperem que les obres es duguin a terme en el període previst i puguem gaudir de nou aviat del servei amb plena normalitat. <long pause> <long pause>",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Periodista adulta, clara i propera. Separar els dies, el canvi i el servei que no depèn de l’horari sense remarcar artificialment les respostes. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This is a separate recording in a batch. Read this block exactly once, without referring to any other block. The text fields contain all and only the words to speak; never speak labels or instructions. After this block leave the indicated long pauses.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. Una biblioteca d’objectes en prova. Notícia de ficció. <long pause>\n\nEl centre cívic ha fet una primera prova de préstec d’objectes. Durant tres setmanes, algunes famílies han pogut demanar jocs de taula i bosses de viatge per tornar-los després. La prova ha acabat, però encara no s’ha decidit si el servei continuarà cada setmana.\n\nAl registre hi consten vint préstecs de quinze famílies diferents, ja que una mateixa família podia, durant aquest període de prova, demanar un objecte, tornar-lo i agafar-ne un altre un altre dia. L’equip està revisant també quants objectes es van retornar a temps i en quin estat van arribar.\n\nEn Pau, paradista del mercat i voluntari en l’organització d’aquest projecte, ha ajudat a preparar les entregues. Bon dia, Pau. Què heu hagut de comprovar quan tornaven els objectes?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Notícia de ficció amb entrevista breu. Mar presenta Pau com a paradista i voluntari del projecte, el saluda i l’acomiada; Pau respon amb exemples quotidians. Exposar dades i accions concretes, amb pauses naturals, sense advertiments preventius ni fer-lo parlar com un portaveu expert. La prova ja ha acabat: els préstecs i la llista d’espera s’expliquen en passat. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This is a separate recording in a batch. Read this block exactly once, without referring to any other block. The text fields contain all and only the words to speak; never speak labels or instructions. After this block leave the indicated long pauses."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Bon dia, Mar. Doncs, sobretot, si hi era tot. Per exemple, un joc el poden retornar amb la capsa sencera, ben tancada i sense cops, però pot ser que hi falti alguna peça a dins. Per això hem deixat un llistat del material dins de cada capsa. Amb les bosses, comprovàvem també que es poguessin tancar i que les nanses estiguessin bé.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Notícia de ficció amb entrevista breu. Mar presenta Pau com a paradista i voluntari del projecte, el saluda i l’acomiada; Pau respon amb exemples quotidians. Exposar dades i accions concretes, amb pauses naturals, sense advertiments preventius ni fer-lo parlar com un portaveu expert. La prova ja ha acabat: els préstecs i la llista d’espera s’expliquen en passat. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "I ja sabeu quins objectes hauríeu de comprar si el servei continués?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Tenim algunes idees, però no ho hem decidit. Hi ha hagut dies que un joc no era a l’armari perquè ja estava prestat. També hem apuntat quan algú demanava un joc però finalment no se l’enduia. Quan el joc que volien ja estava en préstec, els apuntàvem a una llista d’espera per poder-los avisar quan el tornessin.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Gràcies, Pau, per explicar-nos com heu fet el seguiment.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Gràcies a vosaltres. Quan acabem la revisió, deixarem el resum al taulell del centre.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "La revisió servirà per preparar una proposta de continuïtat. Caldrà concretar qui atendria els préstecs i on es guardarien els objectes: l’armari que s’ha utilitzat durant la prova és compartit amb un altre taller que fan a la biblioteca del centre cívic, i encara s’ha de concretar la ubicació definitiva.\n\nEl resum de la prova presentarà els resultats i les dificultats que s’han trobat abans d’anunciar si el projecte finalment es farà permanent o només quedarà en l’experiència d’aquestes tres setmanes. <long pause> <long pause>",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Si l’estudi avança, l’equip voldria preparar una mostra al centre cívic amb fotografies del procés i alguns resultats. <long pause> <long pause>",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Read the supplied repair sentence verbatim in natural Central Catalan, with clear word onsets and endings. No title, effects, repetitions or added words. Pronunciation directions are never spoken. Start the sentence cleanly with the full word Si: brief /s/ followed by /i/. No breath noise, static, fricative held in place of the word, or added sounds. This is a separate recording in a batch. Read this block exactly once, without referring to any other block. The text fields contain all and only the words to speak; never speak labels or instructions. After this block leave the indicated long pauses.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "D’aquí a un mes, l’associació explicarà què s’ha recollit amb els suggeriments. <long pause> <long pause>",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Read the supplied repair sentence verbatim in natural Central Catalan, with clear word onsets and endings. No title, effects, repetitions or added words. Pronunciation directions are never spoken. Pronounce suggeriments faithfully, with the vowel I in the stressed sequence -RÍ-ments, never suggerements or suggeraments. Fluent natural Central Catalan; no spelling aloud, no added explanation. This is a separate recording in a batch. Read this block exactly once, without referring to any other block. The text fields contain all and only the words to speak; never speak labels or instructions. After this block leave the indicated long pauses.",
+              "speaker": "Voice1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "response_format": {
+    "type": "audio",
+    "mime_type": "audio/wav",
+    "sample_rate": 24000
+  },
+  "generation_config": {
+    "speech_config": {
+      "speakers": [
+        {
+          "speaker": "Voice1",
+          "voice": "Erinome"
+        },
+        {
+          "speaker": "Voice2",
+          "voice": "Charon"
+        }
+      ]
+    }
+  }
+}

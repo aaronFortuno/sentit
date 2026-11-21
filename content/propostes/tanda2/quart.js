@@ -4,6 +4,9 @@ const soundCredits = 'Ambients i accions quotidianes amb enregistraments reals p
 export const quart = [
   proposal({
     id: 'el-cartell-que-no-es-llegia', code: 'S030', title: 'El cartell que no es llegia', grade: '4', level: 'easy', genre: 'dialogue', universeIds: ['laia-biel'],
+    seconds: 102, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s030-mixed-v1.mp3', tracks: { introduction: './assets/audio/s030-mixed-v1-intro.mp3', body: './assets/audio/s030-mixed-v1-cos.mp3' },
+    fragment: { start: 13.502791666666667, seconds: 88 },
     summary: 'En Biel i la Laia proven el cartell del seu programa al lloc on el veurà la gent, i hi fan alguns canvis.',
     voices: { Biel: 'Puck', Laia: 'Leda' }, delivery: 'Joves satisfets de la feina que descobreixen una dificultat concreta. Rèpliques quotidianes i proposta construïda entre tots dos; no fer-los parlar de disseny professional.',
     editorialFocus: '4t accessible: causa i conseqüència explícites, contrast entre una prova de prop i una prova real. Set preguntes breus, sense terminologia de disseny.',
@@ -130,6 +133,9 @@ export const quart = [
   }),
   proposal({
     id: 'lassaig-que-semblava-una-funcio', code: 'S034', title: 'L’assaig que semblava una funció', grade: '4', level: 'advanced', genre: 'story', universeIds: ['aina-ferran'],
+    seconds: 113, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s034-mixed-v1.mp3', tracks: { introduction: './assets/audio/s034-mixed-v1-intro.mp3', body: './assets/audio/s034-mixed-v1-cos.mp3' },
+    fragment: { start: 5.547416666666667, seconds: 107 },
     summary: 'L’avi Ferran recorda com va sortir a saludar tot sol en sentir uns aplaudiments durant un assaig.',
     voices: { Ferran: 'Algenib' }, delivery: 'Record explicat a l’Aina, amb humor sobre la confusió i una vergonya lleu de jove. Una sola veu narrativa, sense representar una nova veu per cada citació. No rematar amb una moral general.',
     editorialFocus: '4t avançada: seguir què sap en Ferran, què no arriba a sentir i com interpreta l’aturada de l’assaig i els aplaudiments. Relacionar dues indicacions i reconstruir la seva confusió.',

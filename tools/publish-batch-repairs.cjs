@@ -7,7 +7,7 @@ async function main(){
  const id=process.argv.find(a=>a.startsWith('--only='))?.slice(7).toUpperCase(),catalog=JSON.parse(await fs.readFile(path.join(root,'content/synthesis-batches.json'),'utf8')),batch=catalog.batches.find(b=>b.id===id);if(!batch?.approvedRequestHash)throw Error('Lot absent.');
  const folder=path.join(work,'mixed-batches',id.toLowerCase()+'-'+batch.approvedRequestHash.slice(0,12)),split=JSON.parse(await fs.readFile(path.join(folder,'split.json'),'utf8')),plans=JSON.parse(await fs.readFile(path.join(root,'content/audio-repairs.json'),'utf8')),{activities}=await import('../catalogue.js'),binary=await ffmpegBinary(),records=[];
  await fs.mkdir(path.join(root,'assets/audio/repairs'),{recursive:true});
- for(const take of split.cuts.filter(c=>!c.intro)){
+ for(const take of split.cuts.filter(c=>!/-T\d+$/.test(c.id))){
   const plan=plans[take.code],repair=plan.repairs.find(r=>r.part===take.parts[0]),entry=activities.find(e=>e.code===take.code),legacy=path.join(work,take.code.toLowerCase()),files=await fs.readdir(legacy);
   const names=files.filter(n=>n.endsWith('.wav')&&n.includes(plan.sourceRequestHash.slice(0,12)));let raw;
   for(const name of names){const file=path.join(legacy,name);if(createHash('sha256').update(await fs.readFile(file)).digest('hex')===plan.sourceRawSha256){raw=file;break;}}

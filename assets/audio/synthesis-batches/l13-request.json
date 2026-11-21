@@ -1,0 +1,238 @@
+{
+  "model": "gemini-3.8-flash-tts",
+  "input": [
+    {
+      "type": "user_input",
+      "content": [
+        {
+          "type": "text",
+          "text": "Comprensió oral. El berenar del terrat. <long pause>\n\nAina, aquesta safata era de la meva mare. La fèiem servir per a un berenar que organitzàvem un cop l’any al terrat de casa. Hi venien els cosins i cadascú portava alguna cosa. Jo sempre ajudava a pujar les cadires.\n\nUn any, havíem deixat la taula preparada abans que arribés ningú. Feia sol, però es va aixecar un vent que aixecava les puntes de les estovalles. La mare hi va posar unes pinces. Durant una estona van aguantar.\n\nDesprés, un got buit va començar a rodolar. El vam atrapar abans que caigués a terra. Llavors la mare va dir que baixaríem al menjador.\n\nVam baixar les safates tapades i les cadires que faltaven al menjador. Quan van arribar els cosins, jo era al portal per avisar-los que aquell dia no calia pujar fins al terrat. La porta del menjador ja era oberta i des del carrer arribava l’olor de xocolata.\n\nVam fer el berenar igualment. Això sí: el meu cosí gran va portar un estel i es va quedar amb les ganes de fer-lo volar al terrat. Després de berenar, el pare ens va acompanyar a l’esplanada. Jo encara anava amb una taca de xocolata a la màniga! <long pause>",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Ferran explica un record a l’Aina, amb calidesa i humor discret. Una sola veu; les frases recordades no es representen amb veus noves. Final concret de família, sense convertir el record en una lliçó. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This is a separate recording in a batch. Read this block exactly once, without referring to any other block. The text fields contain all and only the words to speak; never speak labels or instructions. After this block leave the indicated long pauses.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. L’assaig que semblava una funció. <long pause>\n\nAina, la primera vegada que em van aplaudir en un teatre encara no havíem estrenat l’obra. Tenia una escena molt curta: havia d’entrar amb una capsa buida, deixar-la al costat d’una cadira i marxar. Durant l’assaig sempre em deixava la capsa darrere la porta.\n\nAquella tarda feia tanta calor que vam obrir la porta del vestíbul. A fora ja hi havia el cartell de l’obra, però l’estrena era l’endemà. Nosaltres ho sabíem i no ens vam fixar que la data havia quedat tapada amb una tira de paper que subjectava el cartell.\n\nDos veïns que passaven pel carrer van veure la porta oberta. Van entrar a preguntar si podien mirar una estona. La directora els va explicar que estàvem assajant i els va convidar a seure al fons. Ells van arribar quan jo era darrere l’escenari i no vaig sentir aquesta conversa.\n\nVa arribar el meu torn. Aquella vegada sí que vaig entrar amb la capsa. La vaig deixar i vaig fer mitja volta. Just llavors, la directora va aturar l’assaig per moure la cadira una mica més endins. Els dos veïns van picar de mans.\n\nJo vaig tornar a sortir per saludar, convençut que havia fet una actuació estupenda. La resta del grup no s’havia mogut. La directora em va cridar pel nom i em va demanar que guardés la salutació per a l’endemà. Quan em va explicar qui eren aquelles dues persones, em vaig posar vermell fins a les orelles.\n\nAbans de plegar, vam moure la tira que tapava la data del cartell. Els veïns van prometre que vindrien a l’estrena. I van venir! Quan vam sortir tots a saludar al final de l’obra, els vaig reconèixer de seguida: tornaven a aplaudir, drets al fons de la sala. <long pause>",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Record explicat a l’Aina, amb humor sobre la confusió i una vergonya lleu de jove. Una sola veu narrativa, sense representar una nova veu per cada citació. No rematar amb una moral general. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This is a separate recording in a batch. Read this block exactly once, without referring to any other block. The text fields contain all and only the words to speak; never speak labels or instructions. After this block leave the indicated long pauses.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. El banc que havien mogut. <long pause>\n\nAina, abans de tenir telèfon a la butxaca, amb un amic ens citàvem per carta quan ell venia al poble. Un estiu vam quedar al banc de sota el plàtan, a la plaça. Si ens endarreríem molt, teníem un altre punt: la font del costat del centre cívic. Ho havíem escrit tots dos per no acabar voltant sense trobar-nos.\n\nLa carta havia arribat tres setmanes abans. Durant aquells dies, van fer unes obres petites a la plaça. Van canviar unes rajoles i van moure el banc a l’altra banda, sota l’ombra d’un arbre nou. Jo hi havia passat al costat, però no havia relacionat aquell canvi amb la nostra cita.\n\nEl dia de la trobada vaig anar al banc, tal com el veia davant meu. Vaig seure i vaig esperar. El meu amic sempre era puntual, de manera que al cap d’una estona vaig començar a pensar que potser s’havia equivocat de dia. Em feia ràbia haver-me deixat el paper de la carta a casa.\n\nEll, mentrestant, havia anat al plàtan de sempre. Al lloc del banc hi havia una tanca d’obra i no s’hi podia quedar gaire còmode. No havia vist el banc nou perquè el tapava una furgoneta aparcada. Va esperar una estona a prop de la tanca i després va anar a la font.\n\nJo també hi vaig acabar anant, perquè aquell era el lloc alternatiu que teníem apuntat. Quan el vaig veure assegut al costat de la font, el primer que vaig fer va ser mirar el rellotge. Ell va fer el mateix. Tots dos ens pensàvem que era l’altre qui arribava tard.\n\nEns vam explicar on havíem estat i llavors ho vam entendre.\n\nVam anar a buscar alguna cosa fresca i ell em va ensenyar la carta que havia portat plegada a la butxaca. No s’havia equivocat de dia. Jo li vaig dir que l’endemà li tocava a ell triar on quedàvem. Em va assenyalar la font i es va posar a riure. <long pause>",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Ferran explica a Aina un record quotidià, amb impaciència i alleujament discrets. Els amics esmentats no tenen veu pròpia. Final d’acció amb humor, sense concloure amb una sentència. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This is a separate recording in a batch. Read this block exactly once, without referring to any other block. The text fields contain all and only the words to speak; never speak labels or instructions. After this block leave the indicated long pauses.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. El banc que havien mogut · versió dialogada. <long pause>",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Conversa entre Aina i el seu avi Ferran. Aina, de deu a dotze anys, escolta amb curiositat, s’imagina què hauria fet ella i pregunta quan el record la sorprèn; no fa d’entrevistadora ni d’experta. Veu clara i viva, sense infantilitzar-la. Ferran explica petits passatges del record, deixa lloc a les reaccions de la neta i respon amb afecte i humor tranquil. Impaciència i alleujament discrets al record; cap caricatura de veu envellida. L’amic esmentat no té veu pròpia. Repartiment proposat, pendent de validació docent i d’audició de la nova lectura. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This is a separate recording in a batch. Read this block exactly once, without referring to any other block. The text fields contain all and only the words to speak; never speak labels or instructions. After this block leave the indicated long pauses."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Aina, abans de tenir telèfon a la butxaca, amb un amic ens citàvem per carta quan ell venia al poble. Un estiu vam quedar al banc de sota el plàtan, a la plaça.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Conversa entre Aina i el seu avi Ferran. Aina, de deu a dotze anys, escolta amb curiositat, s’imagina què hauria fet ella i pregunta quan el record la sorprèn; no fa d’entrevistadora ni d’experta. Veu clara i viva, sense infantilitzar-la. Ferran explica petits passatges del record, deixa lloc a les reaccions de la neta i respon amb afecte i humor tranquil. Impaciència i alleujament discrets al record; cap caricatura de veu envellida. L’amic esmentat no té veu pròpia. Repartiment proposat, pendent de validació docent i d’audició de la nova lectura. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Per carta? I si un dels dos arribava molt tard?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Teníem un altre punt: la font del costat del centre cívic. Si ens endarreríem molt, ens hi trobaríem. Ho havíem escrit tots dos per no acabar voltant sense trobar-nos. La carta havia arribat tres setmanes abans.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Tres setmanes! Jo segur que hauria tornat a mirar la carta abans de sortir.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "A mi també m’hauria anat bé. Durant aquelles setmanes, van fer unes obres petites a la plaça. Van canviar unes rajoles i van moure el banc a l’altra banda, sota l’ombra d’un arbre nou.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "I tu ja havies vist el banc a l’altra banda?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí, hi havia passat al costat, però no havia relacionat aquell canvi amb la nostra cita. El dia de la trobada vaig anar al banc, tal com el veia davant meu. Vaig seure i vaig esperar. El meu amic sempre era puntual, de manera que al cap d’una estona vaig començar a pensar que potser s’havia equivocat de dia. Em feia ràbia haver-me deixat el paper de la carta a casa.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Uf, i mentre tu esperaves allà, ell on era?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ell, mentrestant, havia anat al plàtan de sempre. Després em va explicar que al lloc del banc hi havia una tanca d’obra i no s’hi podia quedar gaire còmode. No havia vist el banc nou perquè el tapava una furgoneta aparcada. Va esperar una estona a prop de la tanca i després va anar a la font.\n\nJo també hi vaig acabar anant, perquè aquell era el lloc alternatiu que teníem apuntat. Quan el vaig veure assegut al costat de la font, el primer que vaig fer va ser mirar el rellotge. Ell va fer el mateix. Tots dos ens pensàvem que era l’altre qui arribava tard.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ai, jo m’hauria enfadat! Li vas dir que feia estona que l’esperaves?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí, i ell em va dir el mateix. Ens vam explicar on havíem estat i llavors ho vam entendre. Vam anar a buscar alguna cosa fresca i ell em va ensenyar la carta que havia portat plegada a la butxaca. No s’havia equivocat de dia.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Mira, almenys un dels dos l’havia portada!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Jo li vaig dir que l’endemà li tocava a ell triar on quedàvem. Em va assenyalar la font i es va posar a riure.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "La font! El teu amic ja ho tenia clar. <long pause>",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Hauria pogut passar el dia mirant els rails i saludant la gent de les parades. <long pause>",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Record one short repair clip as Ferran, an older adult narrating a personal memory, in natural Central Catalan. Read only the supplied sentence verbatim, in an unhurried but natural voice. Preserve consonant onsets and endings. No introduction, music, sound effects, added words or spelling aloud. Rails means the two metal railway tracks. Use a clear Central Catalan pronunciation with separate ra-ÍLS, stress on I, with a final ordinary L followed by S; never a palatal LL as in ralls. This pronunciation guide is instruction only, never spoken. Keep the complete sentence fluent. This is a separate recording in a batch. Read this block exactly once, without referring to any other block. The text fields contain all and only the words to speak; never speak labels or instructions. After this block leave the indicated long pauses.",
+              "speaker": "Voice1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "response_format": {
+    "type": "audio",
+    "mime_type": "audio/wav",
+    "sample_rate": 24000
+  },
+  "generation_config": {
+    "speech_config": {
+      "speakers": [
+        {
+          "speaker": "Voice1",
+          "voice": "Algenib"
+        },
+        {
+          "speaker": "Voice2",
+          "voice": "Zephyr"
+        }
+      ]
+    }
+  }
+}

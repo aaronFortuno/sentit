@@ -6,11 +6,15 @@ const response=clips=>({status:'completed',steps:[{type:'model_output',content:c
  const a=wave(123),b=wave(456),one=collectAudio(response([a])),two=collectAudio(response([a,b]));assert(one.audio.equals(a));assert.equal(two.blocks,2);assert.equal(waveParts(two.audio).pcm.length,40);assert.equal(waveParts(two.audio).pcm.readInt16LE(20),456);assert.throws(()=>collectAudio(response([a,a])),/repetits/);assert.throws(()=>collectAudio({...response([a]),status:'incomplete'}),/no completada/);const truncated=Buffer.from(a);truncated.writeUInt32LE(1000,40);assert.throws(()=>collectAudio(response([truncated])),/truncat/);
  const {activities}=await import('../catalogue.js'),plans=require('../content/production-plans.json'),repairs=require('../content/audio-repairs.json'),catalog=require('../content/synthesis-batches.json');
  const log=require('node:fs').readFileSync(require('node:path').resolve(__dirname,'../../output/sentit-primera-tanda/request-log.json'),'utf8');
- const l01=catalog.batches.find(b=>b.id==='L02'),built=await buildBatch(activities,plans,repairs,l01);assert.equal(built.blocks.length,5);assert.equal(built.voices.length,2);assert(built.estimate.seconds>=360&&built.estimate.seconds<=480);assert(built.estimatedInputTokens<8192);
+ const l01=catalog.batches.find(b=>b.id==='L01');await assert.rejects(buildBatch(activities,plans,repairs,l01),/ja té àudio/);
+ // Reconstruct the frozen source as an in-memory fixture, without changing files.
+ const saved=activities.filter(e=>l01.blocks.some(b=>b.take&&b.code===e.code)).map(e=>({e,audio:e.audio}));for(const {e}of saved)e.audio=null;
+ const built=await buildBatch(activities,plans,repairs,l01);assert.equal(built.blocks.length,5);assert.equal(built.voices.length,2);assert(built.estimate.seconds<360);assert(built.estimatedInputTokens<8192);
  for(const block of built.blocks)for(const item of block.items)assert(built.body.input[0].content[item.requestIndex].text.startsWith(item.text));
  const bad=structuredClone(l01);bad.blocks[0].sourceRequestHash='wrong';await assert.rejects(buildBatch(activities,plans,repairs,bad),/empremta/);
  await assert.rejects(buildBatch(activities,plans,repairs,{blocks:[l01.blocks[0],l01.blocks[0]]}),/duplicats/);
  const three={blocks:[l01.blocks[0],catalog.batches.find(b=>b.id==='L12').blocks[0]]};await assert.rejects(buildBatch(activities,plans,repairs,three));
+ for(const {e,audio}of saved)e.audio=audio;
  assert.equal(require('node:fs').readFileSync(require('node:path').resolve(__dirname,'../../output/sentit-primera-tanda/request-log.json'),'utf8'),log);
  console.log('PASS · Mixed sources/approvals, canonical voices, no duplicate blocks, 6–8 minute pilot, PCM joining without repeated WAV headers, truncated/incomplete/duplicate output rejection. No API call or quota reservation.');
 })().catch(e=>{console.error(e);process.exitCode=1;});

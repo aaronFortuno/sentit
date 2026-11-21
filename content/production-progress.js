@@ -50,11 +50,28 @@ export const productionProgress = {
     }
   },
   "ca-S011": {
-    "state": "ready-for-voices",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-20T12:34:52.567Z",
     "editorialFingerprint": "7c6c647baa9f796d82a24313a34e8a6387a5518f5878d4853b7a7397e1af34cb",
     "plannedNewRequests": 2,
-    "reason": "Guió validat i reclassificat a 4t avançada; pendent de produir les dues preses agrupades."
+    "reason": "Guió validat i reclassificat a 4t avançada; pendent de produir les dues preses agrupades.",
+    "receivedTakes": {
+      "received": [
+        "S011-T01",
+        "S011-T02"
+      ],
+      "total": 2,
+      "batches": [
+        "L10",
+        "L02"
+      ]
+    },
+    "voicesReceivedAt": "2026-11-21T10:44:36.680Z",
+    "listeningApproval": false,
+    "synthesisBatch": "L10+L02",
+    "requestHash": "ef97c7456001de385258549f2a355d83acf7942502caa3b39f364da8be1b417f",
+    "audioSha256": "2b359a9bf561c04a550d4967ee08187d41e20209ca386a01da3b21e5749981e0",
+    "montageNewSynthesisRequests": 0
   },
   "ca-S021": {
     "state": "montage-awaiting-listening",
@@ -70,7 +87,7 @@ export const productionProgress = {
     "montageNewSynthesisRequests": 0
   },
   "ca-S006": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-20T12:48:05.488Z",
     "editorialFingerprint": "629dbd8f7a80c495f8604b1c8831d2feecf09928c6aebc8e22f148bed95304fe",
     "plannedNewRequests": 1,
@@ -79,7 +96,20 @@ export const productionProgress = {
       "status": "awaiting-validation",
       "programme": "informatiu",
       "url": "./proves/sintonies-mireia.html"
-    }
+    },
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S006-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L03"
+      ]
+    },
+    "voicesReceivedAt": "2026-11-21T10:58:10.100Z",
+    "listeningApproval": false,
+    "voicePreview": "./proves/veus-rebudes.html#S006"
   },
   "ca-S010": {
     "state": "audio-corrections-pending",
@@ -102,7 +132,7 @@ export const productionProgress = {
     "plannedNewRequests": 1,
     "repairPlan": "content/audio-repairs.json",
     "listeningApproval": false,
-    "repairComparison": "./proves/correccions-l01.html#S010-pla",
+    "repairComparison": "./proves/correccions-l02.html#S010-alternativa",
     "receivedRepairs": [
       {
         "code": "S010",
@@ -114,6 +144,18 @@ export const productionProgress = {
         "candidateFile": "assets/audio/repairs/l01-s010-pla-prova.mp3",
         "sourceRawSha256": "5ae1ca4fd12bac21243b7e519981c14bdb2e34319cc06bdc1fbc318f91833fe4",
         "batchRequestHash": "0cd61066dabfeb8992968fa3e45c9f95dd07621aa58ca5a919a5e873cee48df7",
+        "applied": false
+      },
+      {
+        "code": "S010",
+        "part": "alternativa",
+        "text": "Des de la plaça anem pel carrer dels Til·lers fins a la farmàcia.",
+        "pronunciation": "Til·lers has two consecutive lateral L sounds (l·l), a gently lengthened L, never the palatal LL of lluna. Keep the stressed open E and fluent natural Central Catalan. Do not read the middle dot or say the explanation.",
+        "status": "received-awaiting-listening",
+        "originalFile": "assets/audio/repairs/l02-s010-alternativa-original.mp3",
+        "candidateFile": "assets/audio/repairs/l02-s010-alternativa-prova.mp3",
+        "sourceRawSha256": "5ae1ca4fd12bac21243b7e519981c14bdb2e34319cc06bdc1fbc318f91833fe4",
+        "batchRequestHash": "ef2b891a48e5c2823d4527ce9a4c0fc93ae1951ecaad5c7ce07a30ac584a1a66",
         "applied": false
       }
     ]
@@ -181,7 +223,22 @@ export const productionProgress = {
     "teacherAssessment": "Bon muntatge; rails pendent de corregir. Efectes de tramvia revisats pendents d’audició.",
     "plannedNewRequests": 1,
     "repairPlan": "content/audio-repairs.json",
-    "listeningApproval": false
+    "listeningApproval": false,
+    "repairComparison": "./proves/correccions-l13.html#S022-dema",
+    "receivedRepairs": [
+      {
+        "code": "S022",
+        "part": "dema",
+        "text": "Hauria pogut passar el dia mirant els rails i saludant la gent de les parades.",
+        "pronunciation": "Rails means the two metal railway tracks. Use a clear Central Catalan pronunciation with separate ra-ÍLS, stress on I, with a final ordinary L followed by S; never a palatal LL as in ralls. This pronunciation guide is instruction only, never spoken. Keep the complete sentence fluent.",
+        "status": "received-awaiting-listening",
+        "originalFile": "assets/audio/repairs/l13-s022-dema-original.mp3",
+        "candidateFile": "assets/audio/repairs/l13-s022-dema-prova.mp3",
+        "sourceRawSha256": "7c44d2c01fff3768eb38f6ec5429d388dda661fe91e6580c8d596556e66b7566",
+        "batchRequestHash": "ab02e5a56a6807f106885dd5b8e4749ed77c2b2461e93dc71243142194efb2a3",
+        "applied": false
+      }
+    ]
   },
   "ca-S016": {
     "state": "audio-corrections-pending",
@@ -200,7 +257,22 @@ export const productionProgress = {
     "plannedNewRequests": 0,
     "listeningApproval": false,
     "jingleStatus": "needs-refinement",
-    "repairPlan": "content/audio-repairs.json"
+    "repairPlan": "content/audio-repairs.json",
+    "repairComparison": "./proves/correccions-l03.html#S016-exposicio",
+    "receivedRepairs": [
+      {
+        "code": "S016",
+        "part": "exposicio",
+        "text": "Si l’estudi avança, l’equip voldria preparar una mostra al centre cívic amb fotografies del procés i alguns resultats.",
+        "pronunciation": "Start the sentence cleanly with the full word Si: brief /s/ followed by /i/. No breath noise, static, fricative held in place of the word, or added sounds.",
+        "status": "received-awaiting-listening",
+        "originalFile": "assets/audio/repairs/l03-s016-exposicio-original.mp3",
+        "candidateFile": "assets/audio/repairs/l03-s016-exposicio-prova.mp3",
+        "sourceRawSha256": "b91c85a798519ef2c0e7c8fced954bdb56892242aacf02f5cdc467fd95d23481",
+        "batchRequestHash": "2dd8d2f2332228b8d700d07edf4dace01afe1ee161060c0ac461952b04ec909f",
+        "applied": false
+      }
+    ]
   },
   "ca-S004": {
     "state": "published",
@@ -410,10 +482,25 @@ export const productionProgress = {
     "listeningApproval": false,
     "repairPlan": "content/audio-repairs.json",
     "jingleStatus": "approved-pair-remounted-pending-listening",
-    "editorialFingerprint": "ded73b9e363961f5bd81ba22686b8d31f05cd5806249aa91e2771005718be2a2"
+    "editorialFingerprint": "ded73b9e363961f5bd81ba22686b8d31f05cd5806249aa91e2771005718be2a2",
+    "repairComparison": "./proves/correccions-l03.html#S023-tancament",
+    "receivedRepairs": [
+      {
+        "code": "S023",
+        "part": "tancament",
+        "text": "D’aquí a un mes, l’associació explicarà què s’ha recollit amb els suggeriments.",
+        "pronunciation": "Pronounce suggeriments faithfully, with the vowel I in the stressed sequence -RÍ-ments, never suggerements or suggeraments. Fluent natural Central Catalan; no spelling aloud, no added explanation.",
+        "status": "received-awaiting-listening",
+        "originalFile": "assets/audio/repairs/l03-s023-tancament-original.mp3",
+        "candidateFile": "assets/audio/repairs/l03-s023-tancament-prova.mp3",
+        "sourceRawSha256": "eac80f2575c694144fa2d8ddde29f7bfe58c036b619cb9c97dce39c92f3c0736",
+        "batchRequestHash": "2dd8d2f2332228b8d700d07edf4dace01afe1ee161060c0ac461952b04ec909f",
+        "applied": false
+      }
+    ]
   },
   "ca-S007": {
-    "state": "ready-for-voices",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-20T21:20:16.430Z",
     "editorialFingerprint": "d5d256839f998b098ac3c8f0f2ddac475bc6f47e8f6ccfebac8e6c04e5c3685f",
     "plannedNewRequests": 2,
@@ -424,10 +511,27 @@ export const productionProgress = {
       "countedRequests": 10,
       "dailyLimit": 10,
       "notBefore": "2026-11-21T08:00:00.000Z"
-    }
+    },
+    "receivedTakes": {
+      "received": [
+        "S007-T01",
+        "S007-T02"
+      ],
+      "total": 2,
+      "batches": [
+        "L10",
+        "L02"
+      ]
+    },
+    "voicesReceivedAt": "2026-11-21T10:44:29.283Z",
+    "listeningApproval": false,
+    "synthesisBatch": "L10+L02",
+    "requestHash": "ef97c7456001de385258549f2a355d83acf7942502caa3b39f364da8be1b417f",
+    "audioSha256": "da6303d8252044259508d70b30b70763c0b90a7f9c805a31df821a6a9c95366c",
+    "montageNewSynthesisRequests": 0
   },
   "ca-S024": {
-    "state": "ready-for-voices",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-20T21:21:39.843Z",
     "editorialFingerprint": "18db36638b5c5648682dd6910fa34234852d9d6ff13264f1cce035e3e0ae4678",
     "plannedNewRequests": 1,
@@ -438,10 +542,25 @@ export const productionProgress = {
       "countedRequests": 10,
       "dailyLimit": 10,
       "notBefore": "2026-11-21T08:00:00.000Z"
-    }
+    },
+    "receivedTakes": {
+      "received": [
+        "S024-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L02"
+      ]
+    },
+    "voicesReceivedAt": "2026-11-21T10:44:44.638Z",
+    "listeningApproval": false,
+    "synthesisBatch": "L02",
+    "requestHash": "ef2b891a48e5c2823d4527ce9a4c0fc93ae1951ecaad5c7ce07a30ac584a1a66",
+    "audioSha256": "7cd81f8b56643c5f8db7ced63525ad8039a0cb8be6614ebcd371bb530cfa4477",
+    "montageNewSynthesisRequests": 0
   },
   "ca-S017": {
-    "state": "ready-for-voices",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-20T21:35:19.657Z",
     "editorialFingerprint": "fe3ce6ee3d53da22272f4bf6e1dc47ea654ab5a57a6f87bcd3b768caa9e7fa46",
     "plannedNewRequests": 2,
@@ -452,10 +571,27 @@ export const productionProgress = {
       "countedRequests": 10,
       "dailyLimit": 10,
       "notBefore": "2026-11-21T08:00:00.000Z"
-    }
+    },
+    "receivedTakes": {
+      "received": [
+        "S017-T01",
+        "S017-T02"
+      ],
+      "total": 2,
+      "batches": [
+        "L05",
+        "L02"
+      ]
+    },
+    "voicesReceivedAt": "2026-11-21T10:51:02.684Z",
+    "listeningApproval": false,
+    "synthesisBatch": "L05+L02",
+    "requestHash": "0cd0e1f1a77c62a83d9585980c4d0cdff109eeb42a1712498eee160bb51d70c0",
+    "audioSha256": "ac80d03f3534c9e4483465b70adc4baf4e2a76af482f6abd6bf91c8967e6964f",
+    "montageNewSynthesisRequests": 0
   },
   "ca-S014": {
-    "state": "ready-for-voices",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-20T21:41:49.070Z",
     "editorialFingerprint": "6aec80a53248aa7f3e9865841e69b4885c8019115d4fe2e45942a24b70933771",
     "plannedNewRequests": 1,
@@ -466,10 +602,26 @@ export const productionProgress = {
       "countedRequests": 10,
       "dailyLimit": 10,
       "notBefore": "2026-11-21T08:00:00.000Z"
-    }
+    },
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S014-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L06"
+      ]
+    },
+    "voicesReceivedAt": "2026-11-21T11:00:39.660Z",
+    "listeningApproval": false,
+    "synthesisBatch": "L06",
+    "requestHash": "a0bcff78c1b77973ff7ddd60722557464823fa57c596f11b98c6ecc64a97223a",
+    "audioSha256": "a4a8fc91085cedfee08da9f79581ec98fe21070fc6f3f1da9d4936fb3a1445e0",
+    "montageNewSynthesisRequests": 0
   },
   "ca-S009": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-20T21:58:08.267Z",
     "editorialFingerprint": "38014b8e7bff3ce697843ac062788c561d32a4ee41b342e19471419864974df7",
     "plannedNewRequests": 1,
@@ -480,10 +632,23 @@ export const productionProgress = {
       "countedRequests": 10,
       "dailyLimit": 10,
       "notBefore": "2026-11-21T08:00:00.000Z"
-    }
+    },
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S009-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L03"
+      ]
+    },
+    "voicesReceivedAt": "2026-11-21T10:58:10.100Z",
+    "listeningApproval": false,
+    "voicePreview": "./proves/veus-rebudes.html#S009"
   },
   "ca-S029": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-21T08:12:38.478Z",
     "editorialFingerprint": "1cb96a05b63702faec6322ea9a5b4e6920c96d54a91d6e60582fffb8eba9ae1e",
     "plannedNewRequests": 1,
@@ -493,23 +658,67 @@ export const productionProgress = {
       "status": "awaiting-selection",
       "programme": "informatiu",
       "note": "Sintonia informativa pendent de seleccionar abans del muntatge; les veus estan autoritzades."
-    }
+    },
+    "receivedTakes": {
+      "received": [
+        "S029-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L10"
+      ]
+    },
+    "voicesReceivedAt": "2026-11-21T10:33:32.469Z",
+    "listeningApproval": false,
+    "voicePreview": "./proves/veus-rebudes.html#S029"
   },
   "ca-S026": {
-    "state": "ready-for-voices",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-21T08:26:58.368Z",
     "editorialFingerprint": "cf11d87e14bd9d3686135ec4f159d00ab2631ffe89687ef0c08729bc8cb51a03",
     "plannedNewRequests": 1,
     "confirmation": "S026 validat per producció de veus, incorpora sons d’aula de fons, perquè és clarament situació d’aula.",
-    "reason": "Guió validat; presa completa incorporada al lot candidat L06, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts."
+    "reason": "Guió validat; presa completa incorporada al lot candidat L06, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S026-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L06"
+      ]
+    },
+    "voicesReceivedAt": "2026-11-21T10:59:26.258Z",
+    "listeningApproval": false,
+    "synthesisBatch": "L06",
+    "requestHash": "a0bcff78c1b77973ff7ddd60722557464823fa57c596f11b98c6ecc64a97223a",
+    "audioSha256": "49a6a9572fe7d6c07dc01ae6fe609508102eb6089b1f78491cb616470b75b1e2",
+    "montageNewSynthesisRequests": 0
   },
   "ca-S030": {
-    "state": "ready-for-voices",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-21T09:14:33.051Z",
     "editorialFingerprint": "0882c20c5db8894c85747289df8c6572097a71f0ab8effc522b436b19ab3b100",
     "plannedNewRequests": 1,
     "confirmation": "S030 llest per síntesi de veus",
-    "reason": "Guió validat; presa Biel/Puck i Laia/Leda al lot candidat L08, pendent de material compatible fins a completar sis a vuit minuts."
+    "reason": "Guió validat; presa Biel/Puck i Laia/Leda al lot candidat L08, pendent de material compatible fins a completar sis a vuit minuts.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S030-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L08"
+      ]
+    },
+    "voicesReceivedAt": "2026-11-21T11:03:28.518Z",
+    "listeningApproval": false,
+    "synthesisBatch": "L08",
+    "requestHash": "ac8a3b34fa098dc7a38e788b2cadc9c81d3039b44c7af229a4c9c104184e94cc",
+    "audioSha256": "5bd573e478044598f579fbbdc9693b5a7bd2404f0bb62949372b81833955d877",
+    "montageNewSynthesisRequests": 0
   },
   "ca-S040": {
     "state": "ready-for-voices",
@@ -547,52 +756,147 @@ export const productionProgress = {
     "montageNewSynthesisRequests": 0
   },
   "ca-S034": {
-    "state": "ready-for-voices",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-21T09:30:54.248Z",
     "editorialFingerprint": "0b665a370e7930190eea0b1ba4d827d50e020ac5eb8a3901b5b7b4eb5074a825",
     "plannedNewRequests": 1,
     "confirmation": "S034 validat per síntesi de veus",
-    "reason": "Guió validat; presa completa incorporada al lot candidat L10, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts."
+    "reason": "Guió validat; presa completa incorporada al lot candidat L10, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S034-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L13"
+      ]
+    },
+    "voicesReceivedAt": "2026-11-21T11:06:23.837Z",
+    "listeningApproval": false,
+    "synthesisBatch": "L13",
+    "requestHash": "ab02e5a56a6807f106885dd5b8e4749ed77c2b2461e93dc71243142194efb2a3",
+    "audioSha256": "32bd2e3f3eb11643c03119096711059b01d172a1b01a4dcb9691ee713c569d81",
+    "montageNewSynthesisRequests": 0
   },
   "ca-S038": {
-    "state": "ready-for-voices",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-21T09:30:54.249Z",
     "editorialFingerprint": "17e99f0c936202e01bb9d9f01acbd02d882f90994de423710d6f1b70b022571a",
     "plannedNewRequests": 1,
     "confirmation": "S038 validat per síntesi.",
-    "reason": "Guió validat; presa completa incorporada al lot candidat L10, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts."
+    "reason": "Guió validat; presa completa incorporada al lot candidat L10, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S038-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L13"
+      ]
+    },
+    "voicesReceivedAt": "2026-11-21T11:06:30.499Z",
+    "listeningApproval": false,
+    "synthesisBatch": "L13",
+    "requestHash": "ab02e5a56a6807f106885dd5b8e4749ed77c2b2461e93dc71243142194efb2a3",
+    "audioSha256": "4b3df824ba8c8676e8d7cb9945af093c0956deb97e9e072c06ef67d8468b4e42",
+    "montageNewSynthesisRequests": 0
   },
   "ca-S042": {
-    "state": "ready-for-voices",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-21T09:30:54.249Z",
     "editorialFingerprint": "36d170f98fd35d2e96e62a2160f8beb530b41102b36346dd6d140fe22cca6566",
     "plannedNewRequests": 1,
     "confirmation": "S042 validat per pujar a síntesi de veus",
-    "reason": "Guió validat; presa completa incorporada al lot candidat L05, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts."
+    "reason": "Guió validat; presa completa incorporada al lot candidat L05, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S042-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L06"
+      ]
+    },
+    "voicesReceivedAt": "2026-11-21T10:59:41.341Z",
+    "listeningApproval": false,
+    "synthesisBatch": "L06",
+    "requestHash": "a0bcff78c1b77973ff7ddd60722557464823fa57c596f11b98c6ecc64a97223a",
+    "audioSha256": "5281338f5ab4c291877fa486c70ca9d4e9fd7a2bd3b858bdb34559414aa01c20",
+    "montageNewSynthesisRequests": 0
   },
   "ca-S035": {
-    "state": "ready-for-voices",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-21T09:34:44.906Z",
     "editorialFingerprint": "b4fa4a104b6161791a96448431dd14a198f020ac8f3592272436cd804da7ac76",
     "plannedNewRequests": 1,
     "confirmation": "Rectifica aquesta frase i queda validat per pujar a síntesi de veus.",
-    "reason": "Guió validat; presa completa incorporada al lot candidat L11, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts."
+    "reason": "Guió validat; presa completa incorporada al lot candidat L11, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts.",
+    "receivedTakes": {
+      "received": [
+        "S035-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L05"
+      ]
+    },
+    "voicesReceivedAt": "2026-11-21T10:51:10.846Z",
+    "listeningApproval": false,
+    "synthesisBatch": "L05",
+    "requestHash": "3a86ff8ea619d9fa32f7582a144656f791631478c642722f8e98ef6e5c8a5eb0",
+    "audioSha256": "86398c0938ba8be1cbdb7c4b3b769708f9ab3afd4dfdf251d48c20fa36c8cf49",
+    "montageNewSynthesisRequests": 0
   },
   "ca-S037": {
-    "state": "ready-for-voices",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-21T09:35:53.798Z",
     "editorialFingerprint": "124ce39086cf4a52857e7e76743fc5a6a0d4885c635e8de27db2d05d28b097c6",
     "plannedNewRequests": 1,
     "confirmation": "S037 validat per síntesi de veus",
-    "reason": "Guió validat; presa completa incorporada al lot candidat L08, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts."
+    "reason": "Guió validat; presa completa incorporada al lot candidat L08, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S037-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L08"
+      ]
+    },
+    "voicesReceivedAt": "2026-11-21T11:03:34.205Z",
+    "listeningApproval": false,
+    "synthesisBatch": "L08",
+    "requestHash": "ac8a3b34fa098dc7a38e788b2cadc9c81d3039b44c7af229a4c9c104184e94cc",
+    "audioSha256": "e0d4df64b7ec71545e1b135035c1c7f6445f26f4557dd8cd5081253368d7f326",
+    "montageNewSynthesisRequests": 0
   },
   "ca-S025": {
-    "state": "ready-for-voices",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-21T09:36:38.025Z",
     "editorialFingerprint": "464d5002ad52e9784973952ec6d86789ec3bc4951b006b2beabc6d7acc03aced",
     "plannedNewRequests": 1,
     "confirmation": "S025 validat per síntesi de veus",
-    "reason": "Guió validat; presa completa incorporada al lot candidat L08, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts."
+    "reason": "Guió validat; presa completa incorporada al lot candidat L08, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S025-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L08"
+      ]
+    },
+    "voicesReceivedAt": "2026-11-21T11:03:22.952Z",
+    "listeningApproval": false,
+    "synthesisBatch": "L08",
+    "requestHash": "ac8a3b34fa098dc7a38e788b2cadc9c81d3039b44c7af229a4c9c104184e94cc",
+    "audioSha256": "e5769997c7ce12116558b76240833a604be36474cd6f10c7df88b07a3d89751f",
+    "montageNewSynthesisRequests": 0
   },
   "ca-S033": {
     "state": "ready-for-voices",
@@ -603,12 +907,28 @@ export const productionProgress = {
     "reason": "Guió validat; lot candidat L12 amb Biel/Puck i Nora/Kore, pendent de completar sis a vuit minuts amb material compatible."
   },
   "ca-S038D": {
-    "state": "ready-for-voices",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-21T09:48:19.444Z",
     "editorialFingerprint": "37a0b8c7e237370839d86c2fff61d87f6e09a9256317fe7f29e6914272c0ef0f",
     "plannedNewRequests": 1,
     "confirmation": "S038D també queda validat per síntesi de veus",
-    "reason": "Variant dialogada validada per a veus; agrupar Zephyr/Algenib sense tornar a sintetitzar la narració S038."
+    "reason": "Variant dialogada validada per a veus; agrupar Zephyr/Algenib sense tornar a sintetitzar la narració S038.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S038D-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L13"
+      ]
+    },
+    "voicesReceivedAt": "2026-11-21T11:06:39.033Z",
+    "listeningApproval": false,
+    "synthesisBatch": "L13",
+    "requestHash": "ab02e5a56a6807f106885dd5b8e4749ed77c2b2461e93dc71243142194efb2a3",
+    "audioSha256": "9ca83ba479f06c8af25b4181ca1c3417d1e829a76c40b5dfa4ad541df1f0ed6b",
+    "montageNewSynthesisRequests": 0
   },
   "ca-S036": {
     "state": "ready-for-voices",
@@ -619,51 +939,151 @@ export const productionProgress = {
     "reason": "Guió validat durant el processament seqüencial; incorporar a un lot compatible pendent, conservant les veus i el text exactes."
   },
   "ca-S041": {
-    "state": "ready-for-voices",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-21T09:53:12.333Z",
     "editorialFingerprint": "c3cfa721b7651c654920ac4e13e3dc30d83555ddcfa4fa97d7a415d37621c84b",
     "plannedNewRequests": 1,
     "confirmation": "S041 validat per síntesi de veus",
-    "reason": "Guió validat durant el processament seqüencial; incorporar a un lot compatible pendent, conservant les veus i el text exactes."
+    "reason": "Guió validat durant el processament seqüencial; incorporar a un lot compatible pendent, conservant les veus i el text exactes.",
+    "uncertainTurns": [
+      {
+        "start": 262.47999999999996,
+        "end": 263.17,
+        "heard": "i ivaj ara",
+        "status": "short-turn-awaiting-listening",
+        "originalPreserved": true,
+        "block": "S041-T01",
+        "part": "llegir",
+        "text": "Hi vaig ara?",
+        "coverage": 0.3333333333333333
+      }
+    ],
+    "receivedTakes": {
+      "received": [
+        "S041-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L06"
+      ]
+    },
+    "voicesReceivedAt": "2026-11-21T10:59:35.018Z",
+    "listeningApproval": false,
+    "synthesisBatch": "L06",
+    "requestHash": "a0bcff78c1b77973ff7ddd60722557464823fa57c596f11b98c6ecc64a97223a",
+    "audioSha256": "644ace07ff499b084ef2f1fdffa3e5ccee0c0c290ebc624d63ffe9c17317d942",
+    "montageNewSynthesisRequests": 0
   },
   "ca-S039": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-21T09:53:12.333Z",
     "editorialFingerprint": "1cc278ba9dc9cc985168c1ec36178fc1e24085217dad78ad685a69f20b4e9f8b",
     "plannedNewRequests": 1,
     "confirmation": "S039 validat per síntesi de veus",
-    "reason": "Guió validat durant el processament seqüencial; incorporar a un lot compatible pendent, conservant les veus i el text exactes."
+    "reason": "Guió validat durant el processament seqüencial; incorporar a un lot compatible pendent, conservant les veus i el text exactes.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S039-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L03"
+      ]
+    },
+    "voicesReceivedAt": "2026-11-21T10:58:10.100Z",
+    "listeningApproval": false,
+    "voicePreview": "./proves/veus-rebudes.html#S039"
   },
   "ca-S031": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-21T09:53:12.333Z",
     "editorialFingerprint": "ff754fc8c82fadef113da738bd7e7027d06563a2a46934eeac6fce6a8b75920b",
     "plannedNewRequests": 1,
     "confirmation": "S031 validat per síntesi de veus",
-    "reason": "Guió validat durant el processament seqüencial; incorporar a un lot compatible pendent, conservant les veus i el text exactes."
+    "reason": "Guió validat durant el processament seqüencial; incorporar a un lot compatible pendent, conservant les veus i el text exactes.",
+    "receivedTakes": {
+      "received": [
+        "S031-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L10"
+      ]
+    },
+    "voicesReceivedAt": "2026-11-21T10:33:32.469Z",
+    "listeningApproval": false,
+    "voicePreview": "./proves/veus-rebudes.html#S031"
   },
   "ca-S044": {
-    "state": "ready-for-voices",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-21T09:59:55.068Z",
     "editorialFingerprint": "e904b4f74368e76dbeb57a2a31b8617917b0997e8898269951e1a95e921957ed",
     "plannedNewRequests": 1,
     "confirmation": "S044 validat per síntesi de veus",
-    "reason": "Guió validat durant el processament seqüencial; incorporar a un lot compatible pendent, conservant les veus i el text exactes."
+    "reason": "Guió validat durant el processament seqüencial; incorporar a un lot compatible pendent, conservant les veus i el text exactes.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S044-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L08"
+      ]
+    },
+    "voicesReceivedAt": "2026-11-21T11:03:39.998Z",
+    "listeningApproval": false,
+    "synthesisBatch": "L08",
+    "requestHash": "ac8a3b34fa098dc7a38e788b2cadc9c81d3039b44c7af229a4c9c104184e94cc",
+    "audioSha256": "6905344a9531d00e60819cf240e982c176e6a1c086ec1766af086218fe815979",
+    "montageNewSynthesisRequests": 0
   },
   "ca-S027": {
-    "state": "ready-for-voices",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-21T09:59:55.070Z",
     "editorialFingerprint": "1c5ec147c7794764cd87928b259785a9f93201f164031b4acbb2d4a8edc48b4d",
     "plannedNewRequests": 1,
     "confirmation": "S027 validat per síntesi de veus",
-    "reason": "Guió validat durant el processament seqüencial; incorporar a un lot compatible pendent, conservant les veus i el text exactes."
+    "reason": "Guió validat durant el processament seqüencial; incorporar a un lot compatible pendent, conservant les veus i el text exactes.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S027-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L13"
+      ]
+    },
+    "voicesReceivedAt": "2026-11-21T11:06:16.496Z",
+    "listeningApproval": false,
+    "synthesisBatch": "L13",
+    "requestHash": "ab02e5a56a6807f106885dd5b8e4749ed77c2b2461e93dc71243142194efb2a3",
+    "audioSha256": "8d75c63a177e6481e79b9027fb6857d1a0ea41ffe33c2a91573dd126e0ff8f59",
+    "montageNewSynthesisRequests": 0
   },
   "ca-S043": {
-    "state": "ready-for-voices",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-21T09:59:55.071Z",
     "editorialFingerprint": "b0a2b65180359b18dd9a1fdaf779f0ab79036daf7a4c293fd8b8814a4c1596b9",
     "plannedNewRequests": 1,
     "confirmation": "S043 validat per síntesi de veus",
-    "reason": "Guió validat durant el processament seqüencial; incorporar a un lot compatible pendent, conservant les veus i el text exactes."
+    "reason": "Guió validat durant el processament seqüencial; incorporar a un lot compatible pendent, conservant les veus i el text exactes.",
+    "receivedTakes": {
+      "received": [
+        "S043-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L05"
+      ]
+    },
+    "voicesReceivedAt": "2026-11-21T10:59:18.902Z",
+    "listeningApproval": false,
+    "synthesisBatch": "L05",
+    "requestHash": "3a86ff8ea619d9fa32f7582a144656f791631478c642722f8e98ef6e5c8a5eb0",
+    "audioSha256": "6a4ea0b52dcf932b3684b4e288642c007bec1d52a9588ffabba0dc030718023d",
+    "montageNewSynthesisRequests": 0
   }
 };

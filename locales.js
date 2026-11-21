@@ -1,7 +1,8 @@
 export const strings = {
   ca: {
     language: 'ca',
-    compareAudioCorrections: 'Compara les correccions de veu rebudes',
+    hearReceivedVoices: 'Escolta les veus rebudes', compareAudioCorrections: 'Compara les correccions de veu rebudes',
+    releaseMixedMontages: 'Vuit lots rebuts sense reintents: 25 comprensions amb les veus completes, vint muntatges pendents d’audició i cinc notícies amb previsualització de veus. Set esmenes per comparar, sense substituir originals. Fonts reals CC0, cinc bases musicals originals noves, muntatge local de les tres escenes amb tres veus i avisos de revisió conservats.',
     releaseFirstMixedBatch: 'L01 rebuda en una sola petició: S021 i S032 muntades i pendents d’audició, més tres proves de correcció per comparar a S010 i S013. Originals conservats. Últimes validacions de guió registrades; tots els guions actuals autoritzats per a veus. Lots seqüencials i rebut de consum disponibles al repositori.',
     releaseClassroomRegister: 'S041 i S036 refetes amb situacions concretes i registre quotidià; pendents del docent. S035 revisada i validada amb l’esmena de la comissió de menjador. Registrades també les validacions de S025, S028, S032, S033, S034, S037, S038 i S042. Nova S038D dialogada per comparar amb la narració, amb revisió independent i pendent de validació pròpia. Seguiment, filtres i lots actualitzats; cap síntesi nova.',
     releaseS030AndS040Approved: 'S040 i S030: guions validats pel docent per a síntesi, amb les veus i el contingut revisat conservats. Seguiment i fases actualitzats. Nous lots candidats L07 i L08, pendents de completar sis a vuit minuts amb material compatible; cap petició nova enviada.',
@@ -243,7 +244,8 @@ export const strings = {
   },
   es: {
     language: 'es',
-    compareAudioCorrections: 'Compara las correcciones de voz recibidas',
+    hearReceivedVoices: 'Escucha las voces recibidas', compareAudioCorrections: 'Compara las correcciones de voz recibidas',
+    releaseMixedMontages: 'Ocho lotes recibidos sin reintentos: 25 comprensiones con voces completas, veinte montajes pendientes de audición y cinco noticias con previsualización de voces. Siete correcciones para comparar, sin sustituir originales. Fuentes reales CC0, cinco bases musicales originales nuevas, montaje local de las tres escenas con tres voces y avisos de revisión conservados.',
     releaseFirstMixedBatch: 'L01 recibida en una sola petición: S021 y S032 montadas y pendientes de audición, más tres pruebas de corrección para comparar en S010 y S013. Originales conservados. Últimas validaciones de guion registradas; todos los guiones actuales autorizados para voces. Lotes secuenciales y registro de consumo disponibles en el repositorio.',
     releaseClassroomRegister: 'S041 y S036 rehechas con situaciones concretas y registro cotidiano; pendientes del docente. S035 revisada y validada con la corrección de la comisión de comedor. Registradas también las validaciones de S025, S028, S032, S033, S034, S037, S038 y S042. Nueva S038D dialogada para comparar con la narración, con revisión independiente y pendiente de validación propia. Seguimiento, filtros y lotes actualizados; ninguna síntesis nueva.',
     releaseS030AndS040Approved: 'S040 y S030: guiones validados por el docente para síntesis, conservando las voces y el contenido revisado. Seguimiento y fases actualizados. Nuevos lotes candidatos L07 y L08, pendientes de completar seis a ocho minutos con material compatible; ninguna petición nueva enviada.',

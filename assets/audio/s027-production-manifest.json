@@ -1,0 +1,92 @@
+{
+  "code": "S027",
+  "activity": "ca-S027",
+  "state": "awaiting-montage-validation",
+  "file": "s027-mixed-v1.mp3",
+  "introFile": "s027-mixed-v1-intro.mp3",
+  "bodyFile": "s027-mixed-v1-cos.mp3",
+  "offset": 5.234999999999999,
+  "bodyDuration": 73.07629166666666,
+  "fullDuration": 78.31129166666666,
+  "voices": {
+    "Ferran": "Algenib"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "ab02e5a56a6807f106885dd5b8e4749ed77c2b2461e93dc71243142194efb2a3",
+  "sourceRequestHash": "fa6cf0a8fefa87d75586e3ea5828f1fed217289fcd511d39afcafd1d77c0a545",
+  "batch": "L13",
+  "rawSha256": "50a359687bbf10e905b5b5dfdb2497a47e098b918037e9dadb1a83a94f679608",
+  "takeSha256": "a3d71dd41c3610728e9da7cf2e739c687682d0faa64c4d557c151c8d03a312b9",
+  "coverage": 0.9425837320574163,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.99,
+  "peakDbTP": -2.49,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "fthgurdy-528944",
+      "start": 0,
+      "source": "assets/audio/sources/fthgurdy-528944.mp3",
+      "sourceSha256": "4667388a7e4d0e080904fb072130495da659ed397466e74d6c52950e34c9730e",
+      "sourceUrl": "https://freesound.org/people/fthgurdy/sounds/528944/",
+      "author": "fthgurdy",
+      "license": "CC0 1.0",
+      "excerpt": {
+        "start": 1,
+        "seconds": 2
+      },
+      "underSpeech": false
+    },
+    {
+      "name": "gentle-narration-bed",
+      "origin": "original-procedural-composition",
+      "author": "Sentit",
+      "license": "MIT",
+      "source": "tools/narration-bed.cjs",
+      "title": "Tovalles al vent",
+      "compositionId": "sentit-s027-v1",
+      "tempoBpm": 66,
+      "rootMidi": 50,
+      "scoreSeed": 27,
+      "notes": 60,
+      "externalSamples": false,
+      "noSpeech": true,
+      "retimed": false,
+      "sha256": "99ae7bef8ef3b83553ac6510624eae00c1d9732382cdeb2b4f8449b05e02f0c5",
+      "envelope": {
+        "fadeInSeconds": 0.6,
+        "duckStart": 1.5,
+        "duckEnd": 2.25,
+        "speechGain": 0.26,
+        "nominalSpeechMusicLufs": -37.7,
+        "riseStart": 66.24499999999999,
+        "riseEnd": 67.045,
+        "holdSeconds": 2,
+        "fadeStart": 69.045,
+        "fadeEnd": 70.19500000000001
+      },
+      "listeningValidation": "pending",
+      "start": 0,
+      "underSpeech": true
+    },
+    {
+      "name": "ienba-850705",
+      "start": 37.6199,
+      "source": "assets/audio/sources/ienba-850705.mp3",
+      "sourceSha256": "0aa23388a869d45de3b7986d5306d9ce7930e598f2e0fc00b9121f955c48f772",
+      "sourceUrl": "https://freesound.org/people/IENBA/sounds/850705/",
+      "author": "IENBA",
+      "license": "CC0 1.0",
+      "excerpt": {
+        "start": 1,
+        "seconds": 1.2
+      },
+      "underSpeech": false,
+      "insertedPause": 1.5
+    }
+  ],
+  "sha256": "8d75c63a177e6481e79b9027fb6857d1a0ea41ffe33c2a91573dd126e0ff8f59"
+}

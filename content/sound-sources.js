@@ -1,4 +1,4 @@
-// External recordings retain their own licence; the project's MIT does not replace it.
+// Sources actually used, with verified licenses and file fingerprints.
 export const soundSources = [
   {
     "id": "khenshom-guitar-537084",
@@ -39,7 +39,9 @@ export const soundSources = [
     "sha256": "ce92c57177a81f925090b552b298fce87256e5d44c9ddbf0538b3d26e748abb1",
     "usedBy": [
       "ca-S010",
-      "ca-S021"
+      "ca-S021",
+      "ca-S030",
+      "ca-S037"
     ],
     "excerpts": {
       "opening": {
@@ -146,7 +148,17 @@ export const soundSources = [
     "sha256": "4b38b5c58abb206d5b86b9d5b6a3acde8eea90c288ef194b4a67503fe659b4a9",
     "usedBy": [
       "ca-S021",
-      "ca-S032"
+      "ca-S032",
+      "ca-S007",
+      "ca-S014",
+      "ca-S017",
+      "ca-S024",
+      "ca-S030",
+      "ca-S035",
+      "ca-S037",
+      "ca-S042",
+      "ca-S043",
+      "ca-S044"
     ],
     "treatment": "Fragment breu dins pauses afegides sense retallar la parla i al comiat. Foses curtes i nivell discret però audible; no hi ha imitació procedural."
   },
@@ -165,7 +177,13 @@ export const soundSources = [
     "retrievedAt": "2026-11-21",
     "sha256": "bdb5a2e1b40bdcec49cf7c3752c186e355e58499ec7d0578022da599d9291bf8",
     "usedBy": [
-      "ca-S032"
+      "ca-S032",
+      "ca-S007",
+      "ca-S011",
+      "ca-S014",
+      "ca-S030",
+      "ca-S037",
+      "ca-S042"
     ],
     "treatment": "Dos segons de l’enregistrament a partir del segon 20, amb foses; es retira abans de la salutació. No s’utilitzen el timbre ni converses com a pistes."
   },
@@ -187,6 +205,208 @@ export const soundSources = [
       "ca-S021"
     ],
     "treatment": "Dos segons a partir del segon 40 a l’obertura, amb foses i retirats abans de les veus. Context urbà de ficció, sense presentar-lo com la ubicació real de la història."
+  },
+  {
+    "id": "funkysandwich-871017",
+    "title": "Dragging chair on concrete floor",
+    "author": "funkysandwich",
+    "url": "https://freesound.org/people/funkysandwich/sounds/871017/",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "origin": "external-recording",
+    "description": "Enregistrament real utilitzat en els muntatges indicats.",
+    "file": "assets/audio/sources/funkysandwich-871017.mp3",
+    "rendition": "Còpia pública HQ en MP3 de Freesound; no és el WAV original.",
+    "downloadUrl": "https://cdn.freesound.org/previews/871/871017_7118171-hq.mp3",
+    "retrievedAt": "2026-11-21",
+    "sha256": "91f0758edb74981b079afe514c96645efe829b97c924cec132bb245cbf70c7a6",
+    "usedBy": [
+      "ca-S007",
+      "ca-S017",
+      "ca-S025",
+      "ca-S041",
+      "ca-S042",
+      "ca-S034"
+    ],
+    "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
+  },
+  {
+    "id": "breezy2000uk-578712",
+    "title": "Moving and Handling Cardboard",
+    "author": "Breezy2000uk",
+    "url": "https://freesound.org/people/Breezy2000uk/sounds/578712/",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "origin": "external-recording",
+    "description": "Enregistrament real utilitzat en els muntatges indicats.",
+    "file": "assets/audio/sources/breezy2000uk-578712.mp3",
+    "rendition": "Còpia pública HQ en MP3 de Freesound; no és el WAV original.",
+    "downloadUrl": "https://cdn.freesound.org/previews/578/578712_2626411-hq.mp3",
+    "retrievedAt": "2026-11-21",
+    "sha256": "2a4a093fb09e418347b51d129508a04cb9a7b2a0c55cd2b84b3dc5e45cf0f371",
+    "usedBy": [
+      "ca-S011",
+      "ca-S026"
+    ],
+    "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
+  },
+  {
+    "id": "godowan-235278",
+    "title": "seeds (cristal jar)4.wav",
+    "author": "Godowan",
+    "url": "https://freesound.org/people/Godowan/sounds/235278/",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "origin": "external-recording",
+    "description": "Enregistrament real utilitzat en els muntatges indicats.",
+    "file": "assets/audio/sources/godowan-235278.mp3",
+    "rendition": "Còpia pública HQ en MP3 de Freesound; no és el WAV original.",
+    "downloadUrl": "https://cdn.freesound.org/previews/235/235278_1662097-hq.mp3",
+    "retrievedAt": "2026-11-21",
+    "sha256": "9e8c44a28c3edbdab423c1ff915dbaa5c79974501b5b094626f4cb241815ac57",
+    "usedBy": [
+      "ca-S014"
+    ],
+    "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
+  },
+  {
+    "id": "tallis0410-707510",
+    "title": "Classroom Ambience",
+    "author": "Tallis0410",
+    "url": "https://freesound.org/people/Tallis0410/sounds/707510/",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "origin": "external-recording",
+    "description": "Enregistrament real utilitzat en els muntatges indicats.",
+    "file": "assets/audio/sources/tallis0410-707510.mp3",
+    "rendition": "Còpia pública HQ en MP3 de Freesound; no és el WAV original.",
+    "downloadUrl": "https://cdn.freesound.org/previews/707/707510_14785707-hq.mp3",
+    "retrievedAt": "2026-11-21",
+    "sha256": "1cceca74ca79bd56764a8482ce0721afa5d2a7612c15ef1160ce2c5b923a45ff",
+    "usedBy": [
+      "ca-S017",
+      "ca-S026",
+      "ca-S035",
+      "ca-S041"
+    ],
+    "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
+  },
+  {
+    "id": "mcconnell-731979",
+    "title": "German Schoolyard Ambience",
+    "author": "McConnell_Audioprojekte",
+    "url": "https://freesound.org/people/McConnell_Audioprojekte/sounds/731979/",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "origin": "external-recording",
+    "description": "Enregistrament real utilitzat en els muntatges indicats.",
+    "file": "assets/audio/sources/mcconnell-731979.mp3",
+    "rendition": "Còpia pública HQ en MP3 de Freesound; no és el WAV original.",
+    "downloadUrl": "https://cdn.freesound.org/previews/731/731979_14002744-hq.mp3",
+    "retrievedAt": "2026-11-21",
+    "sha256": "05a3c04683be95aaa12df1e59b8d92e4c31be85652c2681caac16889c4678355",
+    "usedBy": [
+      "ca-S024"
+    ],
+    "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
+  },
+  {
+    "id": "brnck-257357",
+    "title": "Button click",
+    "author": "brnck",
+    "url": "https://freesound.org/people/brnck/sounds/257357/",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "origin": "external-recording",
+    "description": "Enregistrament real utilitzat en els muntatges indicats.",
+    "file": "assets/audio/sources/brnck-257357.mp3",
+    "rendition": "Còpia pública HQ en MP3 de Freesound; no és el WAV original.",
+    "downloadUrl": "https://cdn.freesound.org/previews/257/257357_4781497-hq.mp3",
+    "retrievedAt": "2026-11-21",
+    "sha256": "06ac8e89305fae9cc977fbcf1a1a22062528195f031d650b90df1a154552da9a",
+    "usedBy": [
+      "ca-S025",
+      "ca-S044"
+    ],
+    "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
+  },
+  {
+    "id": "hz37-792502",
+    "title": "Dutch night ambience in small city",
+    "author": "hz37",
+    "url": "https://freesound.org/people/hz37/sounds/792502/",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "origin": "external-recording",
+    "description": "Enregistrament real utilitzat en els muntatges indicats.",
+    "file": "assets/audio/sources/hz37-792502.mp3",
+    "rendition": "Còpia pública HQ en MP3 de Freesound; no és el WAV original.",
+    "downloadUrl": "https://cdn.freesound.org/previews/792/792502_123355-hq.mp3",
+    "retrievedAt": "2026-11-21",
+    "sha256": "fa98866da0a33c02f48814d0734a62980801ea82edf154f32bc6e94331c12ef3",
+    "usedBy": [
+      "ca-S043",
+      "ca-S038"
+    ],
+    "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
+  },
+  {
+    "id": "fthgurdy-528944",
+    "title": "Gentle wind",
+    "author": "fthgurdy",
+    "url": "https://freesound.org/people/fthgurdy/sounds/528944/",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "origin": "external-recording",
+    "description": "Enregistrament real utilitzat en els muntatges indicats.",
+    "file": "assets/audio/sources/fthgurdy-528944.mp3",
+    "rendition": "Còpia pública HQ en MP3 de Freesound; no és el WAV original.",
+    "downloadUrl": "https://cdn.freesound.org/previews/528/528944_3302313-hq.mp3",
+    "retrievedAt": "2026-11-21",
+    "sha256": "4667388a7e4d0e080904fb072130495da659ed397466e74d6c52950e34c9730e",
+    "usedBy": [
+      "ca-S027"
+    ],
+    "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
+  },
+  {
+    "id": "ienba-850705",
+    "title": "Soft Fabric Rustle",
+    "author": "IENBA",
+    "url": "https://freesound.org/people/IENBA/sounds/850705/",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "origin": "external-recording",
+    "description": "Enregistrament real utilitzat en els muntatges indicats.",
+    "file": "assets/audio/sources/ienba-850705.mp3",
+    "rendition": "Còpia pública HQ en MP3 de Freesound; no és el WAV original.",
+    "downloadUrl": "https://cdn.freesound.org/previews/850/850705_9616576-hq.mp3",
+    "retrievedAt": "2026-11-21",
+    "sha256": "0aa23388a869d45de3b7986d5306d9ce7930e598f2e0fc00b9121f955c48f772",
+    "usedBy": [
+      "ca-S027"
+    ],
+    "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
+  },
+  {
+    "id": "callmethefoo-744447",
+    "title": "Soft Room Tone",
+    "author": "callmethefoo",
+    "url": "https://freesound.org/people/callmethefoo/sounds/744447/",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "origin": "external-recording",
+    "description": "Enregistrament real utilitzat en els muntatges indicats.",
+    "file": "assets/audio/sources/callmethefoo-744447.mp3",
+    "rendition": "Còpia pública HQ en MP3 de Freesound; no és el WAV original.",
+    "downloadUrl": "https://cdn.freesound.org/previews/744/744447_14793871-hq.mp3",
+    "retrievedAt": "2026-11-21",
+    "sha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
+    "usedBy": [
+      "ca-S034",
+      "ca-S038D"
+    ],
+    "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
   }
 ];
 

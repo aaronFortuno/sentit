@@ -1,0 +1,92 @@
+{
+  "code": "S043",
+  "activity": "ca-S043",
+  "state": "awaiting-montage-validation",
+  "file": "s043-mixed-v1.mp3",
+  "introFile": "s043-mixed-v1-intro.mp3",
+  "bodyFile": "s043-mixed-v1-cos.mp3",
+  "offset": 9.292083333333334,
+  "bodyDuration": 136.78791666666666,
+  "fullDuration": 146.08,
+  "voices": {
+    "Narradora": "Aoede"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "3a86ff8ea619d9fa32f7582a144656f791631478c642722f8e98ef6e5c8a5eb0",
+  "sourceRequestHash": "178a342c99cc0f6487e818fac41e77af3f8fc7da546aa25c2c0dfec5a1a83e59",
+  "batch": "L05",
+  "rawSha256": "b2ca0f5d981a00325ac67d2963f0c278018bf6ef431e1a87219d954159383482",
+  "takeSha256": "be3cde5d435dd341bea258f6f11f6add147eba59305e96b1e9b1b462c84d0bb5",
+  "coverage": 0.9454976303317536,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.55,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "hz37-792502",
+      "start": 0,
+      "source": "assets/audio/sources/hz37-792502.mp3",
+      "sourceSha256": "fa98866da0a33c02f48814d0734a62980801ea82edf154f32bc6e94331c12ef3",
+      "sourceUrl": "https://freesound.org/people/hz37/sounds/792502/",
+      "author": "hz37",
+      "license": "CC0 1.0",
+      "excerpt": {
+        "start": 8,
+        "seconds": 2
+      },
+      "underSpeech": false
+    },
+    {
+      "name": "gentle-narration-bed",
+      "origin": "original-procedural-composition",
+      "author": "Sentit",
+      "license": "MIT",
+      "source": "tools/narration-bed.cjs",
+      "title": "Una línia a la façana",
+      "compositionId": "sentit-s043-v1",
+      "tempoBpm": 60,
+      "rootMidi": 50,
+      "scoreSeed": 43,
+      "notes": 100,
+      "externalSamples": false,
+      "noSpeech": true,
+      "retimed": false,
+      "sha256": "b4aae6f7c497e1e9dc6dba38edafb312f5088e737dc4ccf4dd94b68a412f38e4",
+      "envelope": {
+        "fadeInSeconds": 0.6,
+        "duckStart": 1.5,
+        "duckEnd": 2.25,
+        "speechGain": 0.26,
+        "nominalSpeechMusicLufs": -37.7,
+        "riseStart": 130.7379,
+        "riseEnd": 131.5379,
+        "holdSeconds": 2,
+        "fadeStart": 133.5379,
+        "fadeEnd": 134.6879
+      },
+      "listeningValidation": "pending",
+      "start": 0,
+      "underSpeech": true
+    },
+    {
+      "name": "beussa-749880",
+      "start": 23.30819999999999,
+      "source": "assets/audio/sources/beussa-749880.mp3",
+      "sourceSha256": "4b38b5c58abb206d5b86b9d5b6a3acde8eea90c288ef194b4a67503fe659b4a9",
+      "sourceUrl": "https://freesound.org/people/Beussa/sounds/749880/",
+      "author": "Beussa",
+      "license": "CC0 1.0",
+      "excerpt": {
+        "start": 0,
+        "seconds": 0.678
+      },
+      "underSpeech": false,
+      "insertedPause": 1.05
+    }
+  ],
+  "sha256": "6a4ea0b52dcf932b3684b4e288642c007bec1d52a9588ffabba0dc030718023d"
+}

@@ -1,0 +1,70 @@
+{
+  "code": "S024",
+  "activity": "ca-S024",
+  "state": "awaiting-montage-validation",
+  "file": "s024-mixed-v1.mp3",
+  "introFile": "s024-mixed-v1-intro.mp3",
+  "bodyFile": "s024-mixed-v1-cos.mp3",
+  "offset": 16.212291666666665,
+  "bodyDuration": 140.811625,
+  "fullDuration": 157.02391666666668,
+  "voices": {
+    "Laia": "Leda",
+    "Biel": "Puck"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "ef2b891a48e5c2823d4527ce9a4c0fc93ae1951ecaad5c7ce07a30ac584a1a66",
+  "sourceRequestHash": "5752318d7e7b57d76f9688b37c14a9b8ee096bc9984675df52fe45801ca66cac",
+  "batch": "L02",
+  "rawSha256": "75f355dc0e16071957f1057590e050e668469cc3f22f85afd37fec35c67cee27",
+  "takeSha256": "1159530cc9e6884898ca2176f65034213df656a40b46ac8933eb6942df5694cf",
+  "coverage": 0.9473684210526315,
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.4,
+  "peakDbTP": -2.49,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "mcconnell-731979",
+      "start": 0,
+      "source": "assets/audio/sources/mcconnell-731979.mp3",
+      "sourceSha256": "05a3c04683be95aaa12df1e59b8d92e4c31be85652c2681caac16889c4678355",
+      "sourceUrl": "https://freesound.org/people/McConnell_Audioprojekte/sounds/731979/",
+      "author": "McConnell_Audioprojekte",
+      "license": "CC0 1.0",
+      "excerpt": {
+        "start": 20,
+        "seconds": 2
+      },
+      "underSpeech": false
+    },
+    {
+      "name": "beussa-749880",
+      "start": 61.15389999999999,
+      "source": "assets/audio/sources/beussa-749880.mp3",
+      "sourceSha256": "4b38b5c58abb206d5b86b9d5b6a3acde8eea90c288ef194b4a67503fe659b4a9",
+      "sourceUrl": "https://freesound.org/people/Beussa/sounds/749880/",
+      "author": "Beussa",
+      "license": "CC0 1.0",
+      "excerpt": {
+        "start": 0,
+        "seconds": 0.678
+      },
+      "underSpeech": false,
+      "insertedPause": 1.05
+    },
+    {
+      "name": "sentit-two-note-ending-v1",
+      "start": 137.811625,
+      "source": "tools/render-mixed-take.cjs",
+      "sourceUrl": "https://github.com/aaronFortuno/sentit/blob/main/tools/render-mixed-take.cjs",
+      "author": "Sentit",
+      "license": "MIT",
+      "origin": "original-procedural-composition",
+      "underSpeech": false
+    }
+  ],
+  "sha256": "7cd81f8b56643c5f8db7ced63525ad8039a0cb8be6614ebcd371bb530cfa4477"
+}

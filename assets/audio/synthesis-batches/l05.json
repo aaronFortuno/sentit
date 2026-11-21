@@ -1,0 +1,71 @@
+{
+  "id": "L05",
+  "state": "received-and-split",
+  "requestHash": "3a86ff8ea619d9fa32f7582a144656f791631478c642722f8e98ef6e5c8a5eb0",
+  "rawSha256": "b2ca0f5d981a00325ac67d2963f0c278018bf6ef431e1a87219d954159383482",
+  "startedAt": "2026-11-21T10:37:16.205Z",
+  "completedAt": "2026-11-21T10:38:11.296Z",
+  "rawSeconds": 358.52,
+  "usage": {
+    "total_tokens": 10636,
+    "total_input_tokens": 1673,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 1673
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 8963,
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 8963
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 0,
+    "initial_input_tokens": 1673
+  },
+  "returnedAudioBlocks": 1,
+  "newRequests": 1,
+  "coverageCheck": {
+    "engine": "vosk-model-small-ca-0.4",
+    "matchedFraction": 0.9331337325349301,
+    "pronunciationValidated": false
+  },
+  "parts": [
+    {
+      "id": "S017-T01",
+      "code": "S017",
+      "sourceRequestHash": "135c400446473f483be82619fe8b0844864624712631f819299dd73a8c1700a6",
+      "start": 0,
+      "end": 118.32,
+      "clipSha256": "042c2641600ef339ec2b25abd546acdb68bff155af377de6933c8aefb3c6a8ea",
+      "coverage": 0.9003215434083601,
+      "status": "voices-received"
+    },
+    {
+      "id": "S035-T01",
+      "code": "S035",
+      "sourceRequestHash": "dd5c2f8d437d8badc54b86d04606388f9779377732870cfa0d185b86e19cc8ed",
+      "start": 118.32,
+      "end": 223.44,
+      "clipSha256": "e9c5297736c2883b3d3c0e3da18d069a8498c356bb7d282308661df969b8e618",
+      "coverage": 0.9516728624535316,
+      "status": "voices-received"
+    },
+    {
+      "id": "S043-T01",
+      "code": "S043",
+      "sourceRequestHash": "178a342c99cc0f6487e818fac41e77af3f8fc7da546aa25c2c0dfec5a1a83e59",
+      "start": 223.44,
+      "end": 358.52,
+      "clipSha256": "be3cde5d435dd341bea258f6f11f6add147eba59305e96b1e9b1b462c84d0bb5",
+      "coverage": 0.9454976303317536,
+      "status": "voices-received"
+    }
+  ],
+  "preservesOriginals": true,
+  "voiceRetimed": false
+}

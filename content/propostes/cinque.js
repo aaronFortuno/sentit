@@ -3,6 +3,9 @@ import { proposal, direction as d, spoken as s, question as q, evidence as e } f
 export const cinque = [
   proposal({
     id: 'que-passa-dins-duna-llavor', code: 'S014', title: 'Què passa dins d’una llavor?', grade: '5', level: 'easy', genre: 'explanation',
+    seconds: 140, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s014-mixed-v1.mp3', tracks: { introduction: './assets/audio/s014-mixed-v1-intro.mp3', body: './assets/audio/s014-mixed-v1-cos.mp3' },
+    fragment: { start: 5.22, seconds: 134 },
     summary: 'La Mireia prepara una observació de llavors a classe i aprofita les preguntes d’en Biel per explicar l’aigua, les arrels i les reserves.',
     voices: { Mireia: 'Aoede', Biel: 'Puck' }, delivery: 'Mireia és una mestra que té mongetes seques i material d’observació a la taula. Biel, alumne curiós, fa preguntes amb lèxic quotidià, s’avança amb una idea sobre l’aigua i proposa una prova que cal ordenar. La mestra acull les preguntes i recondueix sense renyar ni repetir una lliçó de memòria. Dues veus principals; els altres alumnes són presents però no tenen torns parlats. Termes científics definits per l’adulta, pauses naturals i cap acceleració artificial.',
     editorialFocus: '5è accessible: procés ordenat i relacions causals explícites, amb vocabulari definit. No cal saber botànica abans d’escoltar.',
@@ -76,6 +79,9 @@ export const cinque = [
   }),
   proposal({
     id: 'preparem-una-exposicio-itinerant', code: 'S017', title: 'Preparem una exposició itinerant', grade: '5', level: 'advanced', genre: 'instructions',
+    seconds: 187, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s017-mixed-v1.mp3', tracks: { introduction: './assets/audio/s017-mixed-v1-intro.mp3', body: './assets/audio/s017-mixed-v1-cos.mp3' },
+    fragment: { start: 5.444999999999999, seconds: 181 },
     summary: 'La Mireia s’asseu amb el grup de la Laia i en Biel per ordenar una exposició que ha de viatjar, mentre la resta de la classe treballa en altres projectes.',
     strategy: 'grouped-voices-v1',
     voices: { Mireia: 'Aoede', Laia: 'Leda', Biel: 'Puck' }, delivery: 'Mireia s’asseu amb Laia i Biel, que formen un mateix grup de treball. Altres grups de classe continuen els seus projectes. Conversa propera a la taula, no una explicació a tota l’aula. Presentar des del començament l’equip de coordinació i recordar l’entrevista de la setmana passada abans de parlar de reescriure els textos. Laia s’avança amb la decoració; Biel proposa i pregunta. Rèpliques clares, pauses entre contingut, caixes i transport, sense accelerar la llista de condicions ni afegir altres interlocutors.',

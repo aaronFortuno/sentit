@@ -4,6 +4,9 @@ const soundCredits = 'Es preveuen enregistraments reals per a ambients i accions
 export const cinque = [
   proposal({
     id: 'una-pregunta-per-al-menjador', code: 'S035', title: 'Una pregunta per al menjador', grade: '5', level: 'easy', genre: 'instructions', universeIds: ['amb-mireia'],
+    seconds: 114, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s035-mixed-v1.mp3', tracks: { introduction: './assets/audio/s035-mixed-v1-intro.mp3', body: './assets/audio/s035-mixed-v1-cos.mp3' },
+    fragment: { start: 10.157291666666667, seconds: 104 },
     summary: 'La Laia llegeix una pregunta que han escrit per a la classe i s’adona que ha barrejat dues coses que volen demanar.',
     voices: { Mireia: 'Aoede', Laia: 'Leda' }, delivery: 'Mestra i alumna revisen un full que tenen al davant. Laia prova de llegir i arreglar la pregunta, amb una descoberta concreta i petits dubtes; Mireia l’ajuda sense dirigir un procediment de control. Parla quotidiana, sense to de presentació ni recitar llistes.',
     editorialFocus: '5è accessible: descobrir dues preguntes barrejades, escoltar la reformulació de la Laia i entendre com provaran si el full s’entén. Vuit preguntes sobre el que passa, sense llistes de control ni arxiu de documents.',
@@ -73,6 +76,9 @@ export const cinque = [
     ],
   }),  proposal({
     id: 'quin-avis-es-el-bo', code: 'S037', title: 'Quin avís és el bo?', grade: '5', level: 'middle', genre: 'dialogue', universeIds: ['laia-biel'],
+    seconds: 113, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s037-mixed-v1.mp3', tracks: { introduction: './assets/audio/s037-mixed-v1-intro.mp3', body: './assets/audio/s037-mixed-v1-cos.mp3' },
+    fragment: { start: 15.604208333333334, seconds: 97 },
     summary: 'La Laia i en Biel troben dos avisos diferents per al mateix assaig i han de comprovar quin canvi s’ha anunciat realment.',
     voices: { Laia: 'Leda', Biel: 'Puck' }, delivery: 'Dos joves que dubten amb motiu, comparen dades i acaben fent una comprovació concreta. Frases de conversa, petites vacil·lacions; no fer-los recitar una política de comunicació.',
     editorialFocus: '5è intermèdia: contrastar dues fonts, comprendre una rectificació parcial i separar lloc, hora i destinatari. No cal recordar dates numèriques ni usar cap aplicació externa.',
@@ -107,6 +113,9 @@ export const cinque = [
   }),
   proposal({
     id: 'el-banc-que-havien-mogut', code: 'S038', title: 'El banc que havien mogut', grade: '5', level: 'middle', genre: 'story', universeIds: ['aina-ferran'],
+    seconds: 107, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s038-mixed-v1.mp3', tracks: { introduction: './assets/audio/s038-mixed-v1-intro.mp3', body: './assets/audio/s038-mixed-v1-cos.mp3' },
+    fragment: { start: 4.455, seconds: 103 },
     summary: 'L’avi Ferran recorda una trobada que es va complicar perquè un lloc de referència havia canviat.',
     voices: { Ferran: 'Algenib' }, delivery: 'Ferran explica a Aina un record quotidià, amb impaciència i alleujament discrets. Els amics esmentats no tenen veu pròpia. Final d’acció amb humor, sense concloure amb una sentència.',
     editorialFocus: '5è intermèdia: reconstruir dues interpretacions del mateix lloc, relacionar una previsió amb el desenllaç i distingir el que el narrador sap al principi del que descobreix després.',

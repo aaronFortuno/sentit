@@ -1,0 +1,19 @@
+{
+  "batch": "L13",
+  "requestHash": "ab02e5a56a6807f106885dd5b8e4749ed77c2b2461e93dc71243142194efb2a3",
+  "repairs": [
+    {
+      "code": "S022",
+      "part": "dema",
+      "text": "Hauria pogut passar el dia mirant els rails i saludant la gent de les parades.",
+      "pronunciation": "Rails means the two metal railway tracks. Use a clear Central Catalan pronunciation with separate ra-ÍLS, stress on I, with a final ordinary L followed by S; never a palatal LL as in ralls. This pronunciation guide is instruction only, never spoken. Keep the complete sentence fluent.",
+      "status": "received-awaiting-listening",
+      "originalFile": "assets/audio/repairs/l13-s022-dema-original.mp3",
+      "candidateFile": "assets/audio/repairs/l13-s022-dema-prova.mp3",
+      "sourceRawSha256": "7c44d2c01fff3768eb38f6ec5429d388dda661fe91e6580c8d596556e66b7566",
+      "batchRequestHash": "ab02e5a56a6807f106885dd5b8e4749ed77c2b2461e93dc71243142194efb2a3",
+      "applied": false
+    }
+  ],
+  "masterChanged": false
+}

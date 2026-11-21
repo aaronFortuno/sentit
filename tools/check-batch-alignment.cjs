@@ -1,0 +1,16 @@
+'use strict';
+const assert=require('node:assert/strict');
+const {tokens,align,silenceCut,retainShortUncertainty}=require('./split-synthesis-batch.cjs');
+const expected=tokens('Bon dia Nora. Aquestes capses són a la sala del costat. Hi anirem després amb la Laia i en Biel.');
+const heard=[{word:'soroll',start:0,end:.1},...expected.map((word,i)=>({word,start:.2+i*.31,end:.4+i*.31})),{word:'soroll',start:9,end:9.2}];
+const aligned=align(expected,heard);assert.equal(aligned.map.filter(Boolean).length,expected.length);assert.equal(aligned.map[0].word,'bon');assert.equal(aligned.map.at(-1).word,'biel');
+// A safe small interval inside an actual >=180 ms silence is still usable.
+const cut=silenceCut(1,1.35,[{start:1.08,end:1.29}]);assert(cut>=1.12&&cut<=1.23);
+assert.throws(()=>silenceCut(1,1.15,[{start:1,end:1.2}]),/silenci segur/);
+const part={block:'S041-T01',part:'llegir',length:3,partIndex:5,partCount:9},before={end:10},after={start:12};
+const words=[{word:'i',start:10.5,end:10.6},{word:'ivaj',start:10.6,end:11},{word:'ara',start:11,end:11.3}];
+assert.equal(retainShortUncertainty(part,words,before,after,new Set()),null);
+const allowed=new Set(['S041-T01/llegir']),held=retainShortUncertainty(part,words,before,after,allowed);assert.equal(held.heard,'i ivaj ara');assert.equal(held.status,'short-turn-awaiting-listening');
+for(const changes of [{length:6},{partIndex:0},{partIndex:8}])assert.equal(retainShortUncertainty({...part,...changes},words,before,after,allowed),null);
+assert.equal(retainShortUncertainty(part,[],before,after,allowed),null);assert.equal(retainShortUncertainty(part,words,before,{start:16},allowed),null);
+console.log('PASS · Stable alignment trace, silence-only cuts, explicitly retained short uncertain turn; no forced recognition or API call.');

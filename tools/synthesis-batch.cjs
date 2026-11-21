@@ -11,6 +11,7 @@ const root=path.resolve(__dirname,'..'),work=path.resolve(root,'../output/sentit
 async function buildBatch(activities,plans,repairs,batch){
  const {isEditoriallyReviewed}=await import('../editorial-review.js');
  const content=[],blocks=[],labels=new Map(),voiceIdentities=new Map();
+ const separatorTags=batch.separatorTags??2;if(![1,2].includes(separatorTags))throw Error('Cal almenys una pausa llarga entre blocs.');
  if(new Set(batch.blocks.map(b=>b.code+':'+(b.take??b.part))).size!==batch.blocks.length)throw Error('Blocs duplicats al lot.');
  for(const ref of batch.blocks){
   const entry=activities.find(e=>e.code===ref.code),plan=plans[ref.code];if(!entry||!isEditoriallyReviewed(entry))throw Error(ref.code+': revisió editorial no vigent.');
@@ -40,14 +41,15 @@ async function buildBatch(activities,plans,repairs,batch){
    if(!labels.has(voice))labels.set(voice,'Voice'+(labels.size+1));
    const cloned=structuredClone(item);cloned.annotations[0].speaker=labels.get(voice);
    const styleKey=voice+'\0'+cloned.annotations[0].style;
-   if(styles.has(styleKey))cloned.annotations[0].style='Keep the same voice, character, natural Central Catalan direction and pace as the preceding turns in this block. Read verbatim and observe the explicit pauses. No added sounds.';
+   const repeatedStyle='Same Central Catalan voice and direction. Verbatim, with explicit pauses; no added sounds.';
+   if(styles.has(styleKey)&&cloned.annotations[0].style.length>repeatedStyle.length)cloned.annotations[0].style=repeatedStyle;
    styles.add(styleKey);
    // A selected repair must not carry separators belonging to its old bundle.
    if(!ref.take)cloned.text=cloned.text.replace(/(?:\s*<long pause>)+$/u,'');
    items.push({text:cloned.text,sourceSpeaker,voice,requestIndex:content.length});content.push(cloned);
   }
   content[start].annotations[0].style+=' This is a separate recording in a batch. Read this block exactly once, without referring to any other block. The text fields contain all and only the words to speak; never speak labels or instructions. After this block leave the indicated long pauses.';
-  content.at(-1).text+=' <long pause> <long pause>';
+  content.at(-1).text+=' <long pause>'.repeat(separatorTags);
   blocks.push({...ref,id:ref.take??`${ref.code}-${ref.part}`,parts,firstItem:start,lastItem:content.length-1,items,productionApproval:fingerprint(entry,spec,plan)});
  }
  if(labels.size>2)throw Error('El lot supera les dues veus.');
@@ -75,6 +77,7 @@ async function main(){
  if(!process.argv.includes('--max-requests=1'))throw Error('Cal limitar a una única petició.');
  if(batch.state!=='authorized'||batch.approvedRequestHash!==built.requestHash)throw Error('Cal congelar el lot exacte abans d’enviar.');
  assertSynthesisWindow(built.body);assertQuota(await readJSON(path.join(work,'last-api-error.json'),null));assertDailyRoom(await readJSON(path.join(work,'request-log.json'),[]));
+ const disk=await fs.statfs(work);if(disk.bavail*disk.bsize<512*1024*1024)throw Error('Menys de 512 MB lliures: alliberar espai abans de reservar quota o sintetitzar. Cap petició enviada.');
  await fs.mkdir(folder,{recursive:true});
  const raw=path.join(folder,'raw.wav'),attemptFile=path.join(folder,'attempt.json'),previous=await readJSON(attemptFile,null);
  if(previous){const bytes=await fs.readFile(raw).catch(()=>null);if(previous.state==='raw-received'&&bytes&&sha(bytes)===previous.rawSha256){checkWave(bytes);console.log('Presa conservada; zero peticions noves.');return;}throw Error('Intent previ incert o ja processat: revisar abans de repetir.');}
@@ -88,6 +91,7 @@ async function main(){
   attempt.state='in-flight';await fs.writeFile(attemptFile,JSON.stringify(attempt,null,2));
   const audio=await require('./generate-prototypes.cjs').geminiAudio(built.body,path.join(folder,'usage.json'),{timeoutMs:1200000,responseFile:path.join(folder,'response.json')});
   checkWave(audio);await fs.writeFile(raw+'.part',audio);await fs.rename(raw+'.part',raw);Object.assign(attempt,{state:'raw-received',completedAt:new Date().toISOString(),rawSha256:sha(audio)});
+  const response=await fs.readFile(path.join(folder,'response.json')),gzip=await require('node:util').promisify(require('node:zlib').gzip)(response);if(sha(await require('node:util').promisify(require('node:zlib').gunzip)(gzip))!==sha(response))throw Error('Còpia comprimida no íntegra.');await fs.writeFile(path.join(folder,'response.json.gz'),gzip);await fs.unlink(path.join(folder,'response.json'));attempt.responseSha256=sha(response);attempt.responseFile='response.json.gz';
   console.log(JSON.stringify({batch:id,state:attempt.state,bytes:audio.length,folder}));
  }catch(error){attempt.state='failed-or-uncertain';attempt.error=error.message;throw error;}
  finally{await fs.writeFile(attemptFile,JSON.stringify(attempt,null,2));await handle.close();await fs.unlink(lock);}
