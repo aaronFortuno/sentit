@@ -1,6 +1,6 @@
 # Revisió independent de coherència
 
-Actualitzat: **21/11/2026**. **43 de 43** propostes de la tanda tenen revisió independent superada per a la versió actual. Abast: 316 preguntes i 367 cites literals.
+Actualitzat: **21/11/2026**. **43 de 43** propostes de la tanda tenen revisió independent superada per a la versió actual. Abast: 316 preguntes i 368 cites literals.
 
 S’han revisat situacions, cronologia, circulació d’objectes, coneixement dels personatges, causes i desenllaços, acotacions sonores, preguntes, respostes i ancoratges. Les dades factuals sensibles s’han contrastat amb fonts primàries indicades al [dossier editorial](lot-editorial-24.md). La revisió del muntatge és sobre el guió; les veus i el resultat sonor requeriran audició.
 
@@ -46,7 +46,7 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S037](https://sentit.ortogra.fi/#lectura=ca-S037) | Quin avís és el bo? | 5è | Provisional · revisió superada | 2026-11-20 | `124ce39086cf…` |
 | [ca-S038](https://sentit.ortogra.fi/#lectura=ca-S038) | El banc que havien mogut | 5è | Provisional · revisió superada | 2026-11-20 | `2daae07c230e…` |
 | [ca-S039](https://sentit.ortogra.fi/#lectura=ca-S039) | Una biblioteca d’objectes en prova | 5è | Provisional · revisió superada | 2026-11-20 | `3dbe2d23731a…` |
-| [ca-S040](https://sentit.ortogra.fi/#lectura=ca-S040) | Una exposició que es pugui escoltar | 6è | Provisional · revisió superada | 2026-11-20 | `8f11356662af…` |
+| [ca-S040](https://sentit.ortogra.fi/#lectura=ca-S040) | Una exposició que es pugui escoltar | 6è | Provisional · revisió superada | 2026-11-21 | `b911a99d5368…` |
 | [ca-S041](https://sentit.ortogra.fi/#lectura=ca-S041) | Una reunió amb decisions clares | 6è | Provisional · revisió superada | 2026-11-20 | `c88b819e9131…` |
 | [ca-S042](https://sentit.ortogra.fi/#lectura=ca-S042) | Dos camins amb la mateixa mitjana | 6è | Provisional · revisió superada | 2026-11-20 | `d2ad3aede7f0…` |
 | [ca-S043](https://sentit.ortogra.fi/#lectura=ca-S043) | El balcó que només era al paper | 6è | Provisional · revisió superada | 2026-11-20 | `e6ba136e58d3…` |

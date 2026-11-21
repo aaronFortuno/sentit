@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.56 · 21 de novembre de 2026
+
+- S040: l’exposició queda identificada com a objectes antics de casa i es concreta una capseta de joies abans d’introduir «peça», sense afegir-ne una definició explícita.
+- Laia intervé com a visitant: expressa la dificultat d’imaginar una mida escoltada en centímetres i demana escoltar la visita acabada. La citació de l’exemple conserva la seva veu, sense una tercera locució.
+- Nora diferencia les proves sense música del muntatge musical posterior, quan les frases ja s’entenen. Preguntes, respostes i cites afectades actualitzades; nou preguntes i proposta pendent de validació docent, sense síntesi.
+
 ## 0.1.55 · 21 de novembre de 2026
 
 - S032: la pista inicial remet al calaix de la taula on el grup havia fet un experiment del volcà. La Mireia explicita que l’altra classe no hi era, i la Laia la substitueix per la taula del costat de la finestra. Recorregut situat dins l’aula i última intervenció coherent amb la nova referència.

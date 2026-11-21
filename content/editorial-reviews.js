@@ -230,9 +230,9 @@ export const editorialReviews = {
   },
   "ca-S040": {
     "status": "passed",
-    "reviewedAt": "2026-11-20",
+    "reviewedAt": "2026-11-21",
     "reviewer": "independent-coherence-agent",
-    "fingerprint": "8f11356662afa8c93508e8e7631b67fe78d8057b73999719a066edd3c3058c41"
+    "fingerprint": "b911a99d5368d730040877b6b5f6fe8b6afa29df524952cde9b52e1870da0f50"
   },
   "ca-S041": {
     "status": "passed",
