@@ -454,5 +454,26 @@ export const productionProgress = {
     "plannedNewRequests": 1,
     "confirmation": "S026 validat per producció de veus, incorpora sons d’aula de fons, perquè és clarament situació d’aula.",
     "reason": "Guió validat i muntatge previst amb ambient real d’aula discret. Incorporar la presa Aoede/Puck al lot L05, sense petició curta aïllada."
+  },
+  "ca-S030": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-21T09:14:33.051Z",
+    "editorialFingerprint": "0882c20c5db8894c85747289df8c6572097a71f0ab8effc522b436b19ab3b100",
+    "plannedNewRequests": 1,
+    "confirmation": "S030 llest per síntesi de veus",
+    "reason": "Guió validat; presa Biel/Puck i Laia/Leda al lot candidat L08, pendent de material compatible fins a completar sis a vuit minuts."
+  },
+  "ca-S040": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-21T09:14:33.054Z",
+    "editorialFingerprint": "b911a99d5368d730040877b6b5f6fe8b6afa29df524952cde9b52e1870da0f50",
+    "plannedNewRequests": 1,
+    "confirmation": "S040 llest per síntesi de veus",
+    "reason": "Guió validat; presa Laia/Leda i Nora/Kore al lot candidat L07, pendent de material compatible fins a completar sis a vuit minuts.",
+    "sharedJingle": {
+      "status": "awaiting-selection",
+      "programme": "radio-escola",
+      "note": "Capçalera de programa proposada, pendent de seleccionar abans del muntatge; les veus estan autoritzades."
+    }
   }
 };

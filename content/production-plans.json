@@ -728,9 +728,9 @@
     "approvalSource": "Validació explícita condicionada del docent el 21/11/2026: «Fent aquests canvis que et dic el text quedaria validat per síntesi de veus». Aplicats el bloc de pluja proposat, l’avís del mateix divendres a les quatre de la tarda i els canvis corresponents al tancament, al solucionari i a les cites. Text i Mar/Erinome autoritzats; sintonia informativa pendent de seleccionar abans del muntatge. Producció només en un lot compatible de sis a vuit minuts."
   },
   "S030": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "2403a4f0546c2a43d5b707704ee293eacd523520cb59992fd37c26d3a405779a",
+    "reviewedAt": "2026-11-21T09:14:33.051Z",
     "reviewActivity": "ca-S030",
     "reviewContent": "content/propostes/tanda2/quart.js",
     "format": "4t accessible: causa i conseqüència explícites, contrast entre una prova de prop i una prova real. Set preguntes breus, sense terminologia de disseny.",
@@ -746,7 +746,7 @@
     },
     "strategy": "packed-title-program-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
-    "approvalSource": "Passada específica de naturalitat i coherència del 21/11/2026 sol·licitada pel docent: diagnòstic independent, correcció quan cal i comprovació final del guió, preguntes, respostes, cites i muntatge. Pendent del vistiplau docent; cap síntesi autoritzada."
+    "approvalSource": "Validació explícita del docent el 21/11/2026: «S030 llest per síntesi de veus». Autorització per a les veus del guió i l’escaleta revisats, amb el repartiment conservat. Incorporar la presa a un lot compatible de sis a vuit minuts; cap petició curta aïllada."
   },
   "S031": {
     "status": "awaiting-validation",
@@ -935,9 +935,9 @@
     "approvalSource": "Nova proposta del 21/11/2026 arran del retorn docent: exposar vint préstecs de quinze famílies, presentar Pau com a paradista i voluntari, concretar controls i llista d’espera, eliminar aclariments anticipats d’obvietats i tancar amb el pilot ja acabat. Vuit preguntes i cites revisades. Pendent de validació docent; cap síntesi autoritzada."
   },
   "S040": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "dafea0952f7ced1e7dd8048767f625612e68207469b9338be482b19eae73f4f2",
+    "reviewedAt": "2026-11-21T09:14:33.054Z",
     "reviewActivity": "ca-S040",
     "reviewContent": "content/propostes/tanda2/sise.js",
     "format": "6è accessible: procés explícit, distinció entre descriure i valorar i relació de cada prova amb la seva finalitat. No es pressuposa coneixement del museu ni de descripció sonora.",
@@ -953,7 +953,8 @@
     },
     "strategy": "packed-title-program-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
-    "approvalSource": "Nova proposta del 21/11/2026: exposició d’objectes antics situada abans d’utilitzar «peça», Laia com a visitant, exemple de mida des del punt de vista de qui escolta i música afegida després de validar les descripcions. Preguntes i cites actualitzades. Pendent de validació docent; cap síntesi autoritzada."
+    "approvalSource": "Validació explícita del docent el 21/11/2026: «S040 llest per síntesi de veus». Autorització per a les veus del guió i l’escaleta revisats, amb el repartiment conservat. Incorporar la presa a un lot compatible de sis a vuit minuts; cap petició curta aïllada.",
+    "approvedScope": "voices-only"
   },
   "S041": {
     "status": "awaiting-validation",

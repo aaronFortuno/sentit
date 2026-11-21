@@ -37,7 +37,7 @@ Actualitzat: **21/11/2026**. Catàleg de **44 peces**, més les variants **S004D
 | [ca-S027](https://sentit.ortogra.fi/#lectura=ca-S027) | El berenar del terrat | 3r | Intermèdia · Narració | Prevista 1:25–1:50 | 6 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S028](https://sentit.ortogra.fi/#lectura=ca-S028) | Una parada abans d’obrir | 3r | Intermèdia · Entrevista | Prevista 1:25–1:50 | 6 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S029](https://sentit.ortogra.fi/#lectura=ca-S029) | El cinema surt a la plaça | 3r | Avançada · Notícia | Prevista 1:40–2:05 | 6 | ✅ | ✅ | ✅ Veus · ⏳ Sintonia | — | — | — | — |
-| [ca-S030](https://sentit.ortogra.fi/#lectura=ca-S030) | El cartell que no es llegia | 4t | Accessible · Diàleg | Prevista 1:25–1:45 | 7 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S030](https://sentit.ortogra.fi/#lectura=ca-S030) | El cartell que no es llegia | 4t | Accessible · Diàleg | Prevista 1:25–1:45 | 7 | ✅ | ✅ | ✅ | — | — | — | — |
 | [ca-S031](https://sentit.ortogra.fi/#lectura=ca-S031) | Una bústia per a propostes | 4t | Accessible · Notícia | Prevista 1:35–2:00 | 7 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S032](https://sentit.ortogra.fi/#lectura=ca-S032) | Una ruta amb pistes | 4t | Intermèdia · Instruccions | Prevista 1:35–1:55 | 7 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S033](https://sentit.ortogra.fi/#lectura=ca-S033) | Qui tria què es mostra? | 4t | Intermèdia · Entrevista | Prevista 1:50–2:20 | 7 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
@@ -47,7 +47,7 @@ Actualitzat: **21/11/2026**. Catàleg de **44 peces**, més les variants **S004D
 | [ca-S037](https://sentit.ortogra.fi/#lectura=ca-S037) | Quin avís és el bo? | 5è | Intermèdia · Diàleg | Prevista 1:55–2:20 | 8 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S038](https://sentit.ortogra.fi/#lectura=ca-S038) | El banc que havien mogut | 5è | Intermèdia · Narració | Prevista 2:05–2:35 | 8 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S039](https://sentit.ortogra.fi/#lectura=ca-S039) | Una biblioteca d’objectes en prova | 5è | Avançada · Notícia | Prevista 2:15–2:45 | 8 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
-| [ca-S040](https://sentit.ortogra.fi/#lectura=ca-S040) | Una exposició que es pugui escoltar | 6è | Accessible · Entrevista | Prevista 2:15–2:45 | 9 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S040](https://sentit.ortogra.fi/#lectura=ca-S040) | Una exposició que es pugui escoltar | 6è | Accessible · Entrevista | Prevista 2:15–2:45 | 9 | ✅ | ✅ | ✅ Veus · ⏳ Sintonia | — | — | — | — |
 | [ca-S041](https://sentit.ortogra.fi/#lectura=ca-S041) | Una reunió amb decisions clares | 6è | Accessible · Instruccions | Prevista 1:40–2:00 | 9 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S042](https://sentit.ortogra.fi/#lectura=ca-S042) | Dos camins amb la mateixa mitjana | 6è | Intermèdia · Explicació | Prevista 1:30–1:55 | 9 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S043](https://sentit.ortogra.fi/#lectura=ca-S043) | El balcó que només era al paper | 6è | Intermèdia · Narració | Prevista 2:20–2:50 | 9 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
@@ -70,7 +70,7 @@ Actualitzat: **21/11/2026**. Catàleg de **44 peces**, més les variants **S004D
 
 La taula es regenera amb `node tools/update-production-table.mjs --date=AAAA-MM-DD` després d’actualitzar els continguts o les aprovacions. No marca àudios ni publicacions com a definitivament validats per inferència.
 
-**Guions validats, veus pendents:** S006, S007, S009, S011, S014, S017, S021, S024, S026, S029. Les peticions previstes continuen sense enviar-se; la cua i el nombre de preses consten al registre de producció.
+**Guions validats, veus pendents:** S006, S007, S009, S011, S014, S017, S021, S024, S026, S029, S030, S040. Les peticions previstes continuen sense enviar-se; la cua i el nombre de preses consten al registre de producció.
 
 **Correccions identificades pel docent:** S005: La resta de l’entrevista és correcta. Corregir «Aquest matí, per exemple...» i millorar els jingles inicial/final abans de validar definitivament · S010: Muntatge validat; pronunciacions pendents. Passos reals nous pendents d’audició · S013: Valoració positiva; bústia pendent de corregir. Sintonia rebutjada, retirada; alternativa pendent · S015: La resta de la peça és correcta. Temperatura pendent de corregir; jingle encara pendent de definir · S016: La resta de la peça està ben valorada. Artefacte en lloc de «Si» pendent de corregir; reparació local preparada i jingles inicial i final pendents de polir · S022: Bon muntatge; rails pendent de corregir. Efectes de tramvia revisats pendents d’audició · S023: La resta de la locució està ben valorada. Corregir suggeriments; nou muntatge amb Ona curta i mercat real baix sota l’entrevista. Pendent de validar després de l’esmena. 4 peticions curtes agrupades preparades, encara sense enviar; 9 incidències anotades al [registre de producció](../content/production-progress.js). No hi ha aprovació definitiva mentre faltin aquestes correccions i l’audició dels nous efectes.
 
