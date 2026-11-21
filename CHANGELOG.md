@@ -1,5 +1,13 @@
 # Canvis
 
+## 0.1.60 · 21 de novembre de 2026
+
+- Passada específica de naturalitat dels dotze guions indicats pel docent: S041, S036, S044, S035, S027, S034, S030, S037, S025, S043, S028 i S038. Diagnòstic independent, correcció i segona lectura dels textos finals, incloses preguntes, respostes, cites i muntatge. Es conserven les negacions i els dubtes que tenen una funció dins la situació.
+- Nou guions corregits: S027, S030, S034, S035, S036, S038, S041, S043 i S044. S025, S028 i S037 conservats després de revisar-los sencers. Es mantenen curs, nivell, veus i les 91 preguntes; 109 cites exactes comprovades.
+- S042 refeta des de l’espera pels cotxes: pregunta sobre l’hora, preferència d’en Biel i una nova prova concreta amb el cronòmetre. Es mantenen l’inici i els càlculs; es retira el tancament de protocol i es revisen les preguntes afectades.
+- Criteris editorials obligatoris per a autoria i revisió, amb una adaptació del llibre d’estil del Diari d’IA Educativa: context autosuficient, llenguatge entenedor, dades coherents i lectura contextual. Pauta personal actualitzada i detector local de suport que només proposa candidats per revisar.
+- Tretze guions revisats, pendents del vistiplau docent. Cap aprovació de síntesi ni àudio alterada i cap petició nova enviada.
+
 ## 0.1.59 · 21 de novembre de 2026
 
 - Instruccions d’autoria i revisió reforçades per detectar aclariments preventius d’obvietats: exigir un dubte real o una incidència que els motivi, i preferir dades i accions directes. Es conserven les negacions factuals i les correccions justificades. Pauta personal de revisió actualitzada també per a futurs encàrrecs.

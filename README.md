@@ -37,6 +37,8 @@ Les quatre parelles de sintonies estan validades com a recursos: **Petita descob
 
 Les propostes passen una [revisió independent de coherència](docs/revisio-coherencia.md) abans de mostrar-se com a provisionals. El docent valida guió, veus i escaleta abans de sintetitzar, i després escolta el muntatge abans de publicar definitivament. [Pauta reutilitzable](skills/revisio-coherencia-didactica/SKILL.md) · [Fonts i llicències](docs/fonts-sonores.md) · [Dossier editorial](docs/lot-editorial-24.md).
 
+Els [criteris editorials d’autoria i revisió](docs/criteris-editorials.md) incorporen una passada obligatòria de naturalitat i una adaptació del llibre d’estil del Diari d’IA Educativa. El 21/11 s’han repassat els dotze guions pendents indicats pel docent i la nova S042, amb retorn independent sobre les correccions. `node tools/audit-editorial-language.mjs --codes=S041,S036,...` localitza formulacions candidates; el resultat requereix lectura contextual i no certifica cap revisió. La comprovació també inclou els aclariments que no coincideixen amb un patró literal.
+
 ## Materials definitius i prova d’àudio
 
 S003, S004/S004D, S012, S018, S019 i S020 tenen il·lustració de context a la card, la fitxa i el solucionari. Activada per defecte a 80 mm, a la dreta; configurable i sense pistes que responguin les preguntes. Les transcripcions definitives només contenen les veus. [Tancament obligatori de publicació](docs/tancament-publicacio.md) · [Imatges i prompts](assets/images/README.md).

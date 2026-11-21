@@ -104,3 +104,7 @@ El component de selector personalitzat s’adapta de [Trama](https://github.com/
 ## S020 definitiva · 20/11/2026
 
 Màster v1 d’Aoede/Mireia validat pel docent, amb Petita descoberta i clic local conservats; cap síntesi nova. Il·lustració de context amb generació integrada image_gen, basada en el model gràfic de Mireia, sense pistes de les preguntes. [Fitxer i prompt](assets/images/s020-publication-v1.prompt.json).
+
+## Referència editorial
+
+Els criteris de claredat, contextualització i comprovació editorial tenen com a referència el [llibre d’estil del Diari d’IA Educativa](https://diarioiaeducativa.github.io/ca/estilo.html), consultat el 21/11/2026. L’adaptació al diàleg educatiu i la passada específica d’aclariments anticipats incorporen els retorns del docent de Sentit. [Criteris aplicats](docs/criteris-editorials.md).

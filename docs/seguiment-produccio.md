@@ -34,24 +34,24 @@ Actualitzat: **21/11/2026**. Catàleg de **44 peces**, més les variants **S004D
 | [ca-S024](https://sentit.ortogra.fi/#lectura=ca-S024) | Tres maneres de transformar el pati | 6è | Avançada · Diàleg | Prevista 2:25–2:55 | 10 | ✅ | ✅ | ✅ | — | — | — | — |
 | [ca-S025](https://sentit.ortogra.fi/#lectura=ca-S025) | El so que faltava | 3r | Accessible · Diàleg | Prevista 1:05–1:25 | 6 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S026](https://sentit.ortogra.fi/#lectura=ca-S026) | Preparem el racó dels jocs | 3r | Accessible · Instruccions | Prevista 1:10–1:35 | 6 | ✅ | ✅ | ✅ | — | — | — | — |
-| [ca-S027](https://sentit.ortogra.fi/#lectura=ca-S027) | El berenar del terrat | 3r | Intermèdia · Narració | Prevista 1:30–2:00 | 6 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S027](https://sentit.ortogra.fi/#lectura=ca-S027) | El berenar del terrat | 3r | Intermèdia · Narració | Prevista 1:25–1:50 | 6 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S028](https://sentit.ortogra.fi/#lectura=ca-S028) | Una parada abans d’obrir | 3r | Intermèdia · Entrevista | Prevista 1:25–1:50 | 6 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S029](https://sentit.ortogra.fi/#lectura=ca-S029) | El cinema surt a la plaça | 3r | Avançada · Notícia | Prevista 1:40–2:05 | 6 | ✅ | ✅ | ✅ Veus · ⏳ Sintonia | — | — | — | — |
-| [ca-S030](https://sentit.ortogra.fi/#lectura=ca-S030) | El cartell que no es llegia | 4t | Accessible · Diàleg | Prevista 1:25–1:50 | 7 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S030](https://sentit.ortogra.fi/#lectura=ca-S030) | El cartell que no es llegia | 4t | Accessible · Diàleg | Prevista 1:25–1:45 | 7 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S031](https://sentit.ortogra.fi/#lectura=ca-S031) | Una bústia per a propostes | 4t | Accessible · Notícia | Prevista 1:35–2:00 | 7 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S032](https://sentit.ortogra.fi/#lectura=ca-S032) | Una ruta amb pistes | 4t | Intermèdia · Instruccions | Prevista 1:35–1:55 | 7 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S033](https://sentit.ortogra.fi/#lectura=ca-S033) | Qui tria què es mostra? | 4t | Intermèdia · Entrevista | Prevista 1:50–2:20 | 7 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
-| [ca-S034](https://sentit.ortogra.fi/#lectura=ca-S034) | L’assaig que semblava una funció | 4t | Avançada · Narració | Prevista 2:00–2:30 | 7 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
-| [ca-S035](https://sentit.ortogra.fi/#lectura=ca-S035) | Una pregunta per al menjador | 5è | Accessible · Instruccions | Prevista 1:50–2:20 | 8 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
-| [ca-S036](https://sentit.ortogra.fi/#lectura=ca-S036) | El nom de l’objecte | 5è | Accessible · Entrevista | Prevista 1:55–2:25 | 8 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S034](https://sentit.ortogra.fi/#lectura=ca-S034) | L’assaig que semblava una funció | 4t | Avançada · Narració | Prevista 1:55–2:20 | 7 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S035](https://sentit.ortogra.fi/#lectura=ca-S035) | Una pregunta per al menjador | 5è | Accessible · Instruccions | Prevista 1:40–2:05 | 8 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S036](https://sentit.ortogra.fi/#lectura=ca-S036) | El nom de l’objecte | 5è | Accessible · Entrevista | Prevista 1:50–2:15 | 8 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S037](https://sentit.ortogra.fi/#lectura=ca-S037) | Quin avís és el bo? | 5è | Intermèdia · Diàleg | Prevista 1:55–2:20 | 8 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
-| [ca-S038](https://sentit.ortogra.fi/#lectura=ca-S038) | El banc que havien mogut | 5è | Intermèdia · Narració | Prevista 2:20–2:50 | 8 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S038](https://sentit.ortogra.fi/#lectura=ca-S038) | El banc que havien mogut | 5è | Intermèdia · Narració | Prevista 2:05–2:35 | 8 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S039](https://sentit.ortogra.fi/#lectura=ca-S039) | Una biblioteca d’objectes en prova | 5è | Avançada · Notícia | Prevista 2:15–2:45 | 8 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S040](https://sentit.ortogra.fi/#lectura=ca-S040) | Una exposició que es pugui escoltar | 6è | Accessible · Entrevista | Prevista 2:15–2:45 | 9 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
-| [ca-S041](https://sentit.ortogra.fi/#lectura=ca-S041) | Una reunió amb decisions clares | 6è | Accessible · Instruccions | Prevista 2:00–2:25 | 9 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
-| [ca-S042](https://sentit.ortogra.fi/#lectura=ca-S042) | Dos camins amb la mateixa mitjana | 6è | Intermèdia · Explicació | Prevista 2:05–2:35 | 9 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
-| [ca-S043](https://sentit.ortogra.fi/#lectura=ca-S043) | El balcó que només era al paper | 6è | Intermèdia · Narració | Prevista 2:40–3:10 | 9 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
-| [ca-S044](https://sentit.ortogra.fi/#lectura=ca-S044) | El recompte del programa | 6è | Avançada · Diàleg | Prevista 2:20–2:50 | 9 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S041](https://sentit.ortogra.fi/#lectura=ca-S041) | Una reunió amb decisions clares | 6è | Accessible · Instruccions | Prevista 1:40–2:00 | 9 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S042](https://sentit.ortogra.fi/#lectura=ca-S042) | Dos camins amb la mateixa mitjana | 6è | Intermèdia · Explicació | Prevista 1:30–1:55 | 9 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S043](https://sentit.ortogra.fi/#lectura=ca-S043) | El balcó que només era al paper | 6è | Intermèdia · Narració | Prevista 2:20–2:50 | 9 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S044](https://sentit.ortogra.fi/#lectura=ca-S044) | El recompte del programa | 6è | Avançada · Diàleg | Prevista 1:45–2:10 | 9 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 
 ## Com revisar-les
 

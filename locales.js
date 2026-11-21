@@ -1,6 +1,7 @@
 export const strings = {
   ca: {
     language: 'ca',
+    releaseNaturalnessBatch: 'Passada de naturalitat dels dotze guions pendents indicats pel docent i reformulació de S042. Retirats aclariments sense motiu i explicacions que resolien inferències; preguntes i ressaltats revisats. Criteris d’autoria i revisió ampliats amb el llibre d’estil del Diari d’IA Educativa. Correcció i segona lectura independent; tots pendents de validació docent, sense síntesi.',
     releaseS039AndGuidance: 'S039 revisada amb quinze famílies, presentació d’en Pau, comprovació de capses, llista d’espera i tancament coherent amb el pilot acabat. Preguntes i ressaltats actualitzats; pendent del vistiplau docent. Autoria i revisió comproven expressament els aclariments preventius d’obvietats, mantenint les negacions informatives.',
     releaseS031AndS026: 'S031: precedent concret d’un concert que no es va poder pagar, pregunta 6 vinculada al cas i aclariments sobre descriure propostes i deixar dades de contacte. Pendent de revalidació docent. S026 validada per a veus, amb ambient d’aula enregistrat previst al muntatge, i incorporada al lot L05. Cap síntesi nova.',
     releaseS029Approved: 'S029: decisió de la ubicació del cinema anunciada divendres a les quatre de la tarda, amb tancament i solucionari coherents. Guió validat per a veus després dels canvis demanats i la revisió independent. Incorporada al lot L03, ara d’uns set minuts i mig previstos; cap síntesi enviada.',
@@ -238,6 +239,7 @@ export const strings = {
   },
   es: {
     language: 'es',
+    releaseNaturalnessBatch: 'Revisión de naturalidad de los doce guiones pendientes indicados por el docente y reformulación de S042. Retiradas aclaraciones sin motivo y explicaciones que resolvían inferencias; preguntas y resaltados revisados. Criterios de autoría y revisión ampliados con el libro de estilo del Diario de IA Educativa. Corrección y segunda lectura independiente; todos pendientes de validación docente, sin síntesis.',
     releaseS039AndGuidance: 'S039 revisada con quince familias, presentación de Pau, comprobación de cajas, lista de espera y cierre coherente con el piloto terminado. Preguntas y resaltados actualizados; pendiente del visto bueno docente. Autoría y revisión comprueban expresamente las aclaraciones preventivas de obviedades y conservan las negaciones informativas.',
     releaseS031AndS026: 'S031: precedente concreto de un concierto que no se pudo pagar, pregunta 6 vinculada al caso y aclaraciones sobre describir propuestas y dejar datos de contacto. Pendiente de revalidación docente. S026 validada para voces, con ambiente de aula grabado previsto en el montaje, e incorporada al lote L05. Ninguna síntesis nueva.',
     releaseS029Approved: 'S029: ubicación definitiva del cine anunciada el viernes a las cuatro de la tarde, con cierre y solucionario coherentes. Guion validado para voces tras los cambios solicitados y la revisión independiente. Incorporada al lote L03, ahora de unos siete minutos y medio previstos; ninguna síntesis enviada.',
