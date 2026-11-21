@@ -1,5 +1,13 @@
 # Canvis
 
+## 0.1.63 · 21 de novembre de 2026
+
+- Registrades les validacions per a veus de S038D, S036, S041, S039, S031, S044, S027 i S043. Tots els guions actuals tenen el vistiplau docent; l’aprovació del muntatge continua sent independent.
+- Primer lot mixt L01 enviat en una única petició: S021 i S032 completes, dues esmenes de «bústia» a S013 i una de «Després» a S010. Resposta completa conservada, 4:21,6, 1.171 tokens d’entrada i 6.541 de sortida. Talls locals dins de silencis comprovats; cap canvi de ritme.
+- S021 i S032 amb muntatges nous, títols íntegres i efectes enregistrats CC0, pendents d’audició. Fonts i transformacions disponibles al sidebar.
+- Tres comparacions d’esmenes, amb original i prova nova, accessibles des de les fonts de S010 i S013. No s’han substituït els originals ni donat per validada la pronunciació.
+- Generador seqüencial amb lots congelats, màxim d’una petició per invocació, límit diari compartit, pausa mínima de 65 segons, resposta completa conservada i protecció contra reintents incerts. Recepció d’àudio llarg i unió de PCM verificades amb proves locals.
+
 ## 0.1.62 · 21 de novembre de 2026
 
 - S041 refeta com una conversa d’aula sobre una proposta concreta de ràdio per portes obertes, amb temps limitat, soroll i preguntes sobre el lloc. Nou títol «Què farem per portes obertes?», sense actes ni apartats de pendents. S036 passa a «Una capseta misteriosa», amb llenguatge quotidià del Biel i objecte concret des de l’inici. Totes dues tornen a esperar el docent.

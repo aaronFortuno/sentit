@@ -28,36 +28,36 @@ Actualitzat: **21/11/2026**. Catàleg de **44 peces**, més les variants **S004D
 | [ca-S018](https://sentit.ortogra.fi/#lectura=ca-S018) | La clau de l’armari verd | 5è | Avançada · Narració | 2:57 | 8 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [ca-S019](https://sentit.ortogra.fi/#lectura=ca-S019) | Una cuinera contra el malbaratament | 6è | Accessible · Entrevista | 1:53 | 8 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | [ca-S020](https://sentit.ortogra.fi/#lectura=ca-S020) | Com participar en el concurs de pòdcasts | 6è | Accessible · Instruccions | 2:03 | 8 | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
-| [ca-S021](https://sentit.ortogra.fi/#lectura=ca-S021) | Per què una ciutat guarda la calor? | 6è | Intermèdia · Explicació | Prevista 2:25–3:00 | 8 | ✅ | ✅ | ✅ | — | — | — | — |
+| [ca-S021](https://sentit.ortogra.fi/#lectura=ca-S021) | Per què una ciutat guarda la calor? | 6è | Intermèdia · Explicació | 2:30 | 8 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
 | [ca-S022](https://sentit.ortogra.fi/#lectura=ca-S022) | L’últim trajecte del tramvia | 6è | Intermèdia · Narració | 2:56 | 9 | ✅ | ✅ | ✅ | ✅ | ✅ | ◐ **Correccions** | — |
 | [ca-S023](https://sentit.ortogra.fi/#lectura=ca-S023) | Reobren el mercat: què canvia i què falta decidir? | 6è | Avançada · Notícia | 3:16 | 10 | ✅ | ✅ | ✅ | ✅ | ✅ | ◐ **Correccions** | — |
 | [ca-S024](https://sentit.ortogra.fi/#lectura=ca-S024) | Tres maneres de transformar el pati | 6è | Avançada · Diàleg | Prevista 2:25–2:55 | 10 | ✅ | ✅ | ✅ | — | — | — | — |
 | [ca-S025](https://sentit.ortogra.fi/#lectura=ca-S025) | El so que faltava | 3r | Accessible · Diàleg | Prevista 1:05–1:25 | 6 | ✅ | ✅ | ✅ | — | — | — | — |
 | [ca-S026](https://sentit.ortogra.fi/#lectura=ca-S026) | Preparem el racó dels jocs | 3r | Accessible · Instruccions | Prevista 1:10–1:35 | 6 | ✅ | ✅ | ✅ | — | — | — | — |
-| [ca-S027](https://sentit.ortogra.fi/#lectura=ca-S027) | El berenar del terrat | 3r | Intermèdia · Narració | Prevista 1:25–1:50 | 6 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S027](https://sentit.ortogra.fi/#lectura=ca-S027) | El berenar del terrat | 3r | Intermèdia · Narració | Prevista 1:25–1:50 | 6 | ✅ | ✅ | ✅ | — | — | — | — |
 | [ca-S028](https://sentit.ortogra.fi/#lectura=ca-S028) | Una parada abans d’obrir | 3r | Intermèdia · Entrevista | Prevista 1:25–1:50 | 6 | ✅ | ✅ | ✅ | — | — | — | — |
 | [ca-S029](https://sentit.ortogra.fi/#lectura=ca-S029) | El cinema surt a la plaça | 3r | Avançada · Notícia | Prevista 1:40–2:05 | 6 | ✅ | ✅ | ✅ Veus · ⏳ Sintonia | — | — | — | — |
 | [ca-S030](https://sentit.ortogra.fi/#lectura=ca-S030) | El cartell que no es llegia | 4t | Accessible · Diàleg | Prevista 1:25–1:45 | 7 | ✅ | ✅ | ✅ | — | — | — | — |
-| [ca-S031](https://sentit.ortogra.fi/#lectura=ca-S031) | Una bústia per a propostes | 4t | Accessible · Notícia | Prevista 1:35–2:00 | 7 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
-| [ca-S032](https://sentit.ortogra.fi/#lectura=ca-S032) | Una ruta amb pistes | 4t | Intermèdia · Instruccions | Prevista 1:35–1:55 | 7 | ✅ | ✅ | ✅ | — | — | — | — |
+| [ca-S031](https://sentit.ortogra.fi/#lectura=ca-S031) | Una bústia per a propostes | 4t | Accessible · Notícia | Prevista 1:35–2:00 | 7 | ✅ | ✅ | ✅ | — | — | — | — |
+| [ca-S032](https://sentit.ortogra.fi/#lectura=ca-S032) | Una ruta amb pistes | 4t | Intermèdia · Instruccions | 1:23 | 7 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
 | [ca-S033](https://sentit.ortogra.fi/#lectura=ca-S033) | Qui tria què es mostra? | 4t | Intermèdia · Entrevista | Prevista 1:50–2:20 | 7 | ✅ | ✅ | ✅ | — | — | — | — |
 | [ca-S034](https://sentit.ortogra.fi/#lectura=ca-S034) | L’assaig que semblava una funció | 4t | Avançada · Narració | Prevista 1:55–2:20 | 7 | ✅ | ✅ | ✅ | — | — | — | — |
 | [ca-S035](https://sentit.ortogra.fi/#lectura=ca-S035) | Una pregunta per al menjador | 5è | Accessible · Instruccions | Prevista 1:40–2:00 | 8 | ✅ | ✅ | ✅ | — | — | — | — |
-| [ca-S036](https://sentit.ortogra.fi/#lectura=ca-S036) | Una capseta misteriosa | 5è | Accessible · Entrevista | Prevista 1:45–2:10 | 8 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S036](https://sentit.ortogra.fi/#lectura=ca-S036) | Una capseta misteriosa | 5è | Accessible · Entrevista | Prevista 1:45–2:10 | 8 | ✅ | ✅ | ✅ | — | — | — | — |
 | [ca-S037](https://sentit.ortogra.fi/#lectura=ca-S037) | Quin avís és el bo? | 5è | Intermèdia · Diàleg | Prevista 1:55–2:20 | 8 | ✅ | ✅ | ✅ | — | — | — | — |
 | [ca-S038](https://sentit.ortogra.fi/#lectura=ca-S038) | El banc que havien mogut | 5è | Intermèdia · Narració | Prevista 2:05–2:35 | 8 | ✅ | ✅ | ✅ | — | — | — | — |
-| [ca-S038D](https://sentit.ortogra.fi/#lectura=ca-S038D) | El banc que havien mogut · versió dialogada | 5è | Intermèdia · Narració | Prevista 2:40–3:15 | 8 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
-| [ca-S039](https://sentit.ortogra.fi/#lectura=ca-S039) | Una biblioteca d’objectes en prova | 5è | Avançada · Notícia | Prevista 2:15–2:45 | 8 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S038D](https://sentit.ortogra.fi/#lectura=ca-S038D) | El banc que havien mogut · versió dialogada | 5è | Intermèdia · Narració | Prevista 2:40–3:15 | 8 | ✅ | ✅ | ✅ | — | — | — | — |
+| [ca-S039](https://sentit.ortogra.fi/#lectura=ca-S039) | Una biblioteca d’objectes en prova | 5è | Avançada · Notícia | Prevista 2:15–2:45 | 8 | ✅ | ✅ | ✅ | — | — | — | — |
 | [ca-S040](https://sentit.ortogra.fi/#lectura=ca-S040) | Una exposició que es pugui escoltar | 6è | Accessible · Entrevista | Prevista 2:15–2:45 | 9 | ✅ | ✅ | ✅ Veus · ⏳ Sintonia | — | — | — | — |
-| [ca-S041](https://sentit.ortogra.fi/#lectura=ca-S041) | Què farem per portes obertes? | 6è | Accessible · Instruccions | Prevista 1:35–2:00 | 9 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S041](https://sentit.ortogra.fi/#lectura=ca-S041) | Què farem per portes obertes? | 6è | Accessible · Instruccions | Prevista 1:35–2:00 | 9 | ✅ | ✅ | ✅ | — | — | — | — |
 | [ca-S042](https://sentit.ortogra.fi/#lectura=ca-S042) | Dos camins amb la mateixa mitjana | 6è | Intermèdia · Explicació | Prevista 1:30–1:55 | 9 | ✅ | ✅ | ✅ | — | — | — | — |
-| [ca-S043](https://sentit.ortogra.fi/#lectura=ca-S043) | El balcó que només era al paper | 6è | Intermèdia · Narració | Prevista 2:25–2:55 | 9 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
-| [ca-S044](https://sentit.ortogra.fi/#lectura=ca-S044) | El recompte del programa | 6è | Avançada · Diàleg | Prevista 1:45–2:10 | 9 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S043](https://sentit.ortogra.fi/#lectura=ca-S043) | El balcó que només era al paper | 6è | Intermèdia · Narració | Prevista 2:25–2:55 | 9 | ✅ | ✅ | ✅ | — | — | — | — |
+| [ca-S044](https://sentit.ortogra.fi/#lectura=ca-S044) | El recompte del programa | 6è | Avançada · Diàleg | Prevista 1:45–2:10 | 9 | ✅ | ✅ | ✅ | — | — | — | — |
 
 ## Com revisar-les
 
-- **29 propostes encara no tenen muntatge**: S006, S007, S009, S011, S014, S017, S021, S024, S025, S026, S027, S028, S029, S030, S031, S032, S033, S034, S035, S036, S037, S038, S038D, S039, S040, S041, S042, S043, S044. Es poden revisar per codi, en qualsevol ordre. El solucionari s’obre amb el guió anotat primer i les preguntes i respostes després. Els plans agrupen el text en una petició per a una o dues veus; les escenes d’aula amb tres veus preveuen dues peticions i muntatge local. Els guions amb aprovació continuen a la cua de veus; els altres esperen el docent. S020 té muntatge amb Petita descoberta; la seva fase vigent consta a la taula.
-- **S005, S010, S013, S015, S016, S022, S023 esperen audició**. El PDF diu «Àudio pendent de validar» i es pot imprimir per revisar. La confirmació del guió no valida automàticament el muntatge.
+- **27 propostes encara no tenen muntatge**: S006, S007, S009, S011, S014, S017, S024, S025, S026, S027, S028, S029, S030, S031, S033, S034, S035, S036, S037, S038, S038D, S039, S040, S041, S042, S043, S044. Es poden revisar per codi, en qualsevol ordre. El solucionari s’obre amb el guió anotat primer i les preguntes i respostes després. Els plans agrupen el text en una petició per a una o dues veus; les escenes d’aula amb tres veus preveuen dues peticions i muntatge local. Els guions amb aprovació continuen a la cua de veus; els altres esperen el docent. S020 té muntatge amb Petita descoberta; la seva fase vigent consta a la taula.
+- **S005, S010, S013, S015, S016, S021, S022, S023, S032 esperen audició**. El PDF diu «Àudio pendent de validar» i es pot imprimir per revisar. La confirmació del guió no valida automàticament el muntatge.
 - **S001 i S002** són prototips anteriors al registre formal de validacions. No se’ls ha atribuït retrospectivament una aprovació definitiva.
 - **S008R** revisa la mateixa història de S008 com a programa de ràdio, amb benvinguda i comiat; no és una peça número 25 del catàleg base.
 
@@ -67,11 +67,11 @@ Actualitzat: **21/11/2026**. Catàleg de **44 peces**, més les variants **S004D
 - [Aprovacions i empremtes](../content/production-plans.json). Només una confirmació del docent pot completar les columnes de validació.
 - [Fonts sonores](fonts-sonores.md). Cada producció té el seu manifest a assets/audio.
 - [Pla de lots de diverses lectures i esmenes](lots-sintesi.md), pendent de preparar el pilot; no implica peticions enviades.
-- Consum comprovat de les produccions recents: S015: 1 petició (601 + 3349 tokens); S023: 1 petició (1024 + 4829 tokens); S008R: 1 petició (513 + 2373 tokens); S003: 1 petició (357 + 1722 tokens); S013: 1 petició (595 + 3472 tokens); S018: 1 petició (843 + 4337 tokens); S022: 1 petició (746 + 4334 tokens); S010: 1 petició (538 + 2474 tokens); S012: 1 petició (590 + 3001 tokens); S016: 1 petició (675 + 3374 tokens); S004: 1 petició (433 + 2073 tokens); S004D: 1 petició (413 + 2159 tokens); S005: 1 petició (489 + 2530 tokens); S019: 1 petició (548 + 2726 tokens); S020: 1 petició (615 + 2956 tokens). Aquest registre no és una lectura de la quota restant.
+- Consum comprovat de les produccions recents: S015: 1 petició (601 + 3349 tokens); S023: 1 petició (1024 + 4829 tokens); S008R: 1 petició (513 + 2373 tokens); S003: 1 petició (357 + 1722 tokens); S013: 1 petició (595 + 3472 tokens); S018: 1 petició (843 + 4337 tokens); S022: 1 petició (746 + 4334 tokens); S010: 1 petició (538 + 2474 tokens); S012: 1 petició (590 + 3001 tokens); S016: 1 petició (675 + 3374 tokens); S004: 1 petició (433 + 2073 tokens); S004D: 1 petició (413 + 2159 tokens); S005: 1 petició (489 + 2530 tokens); S019: 1 petició (548 + 2726 tokens); S020: 1 petició (615 + 2956 tokens); S021: 1 petició (1171 + 6541 tokens). Aquest registre no és una lectura de la quota restant.
 
 La taula es regenera amb `node tools/update-production-table.mjs --date=AAAA-MM-DD` després d’actualitzar els continguts o les aprovacions. No marca àudios ni publicacions com a definitivament validats per inferència.
 
-**Guions validats, veus pendents:** S006, S007, S009, S011, S014, S017, S021, S024, S025, S026, S028, S029, S030, S032, S033, S034, S035, S037, S038, S040, S042. Les peticions previstes continuen sense enviar-se; la cua i el nombre de preses consten al registre de producció.
+**Guions validats, veus pendents:** S006, S007, S009, S011, S014, S017, S024, S025, S026, S027, S028, S029, S030, S031, S033, S034, S035, S036, S037, S038, S038D, S039, S040, S041, S042, S043, S044. Les peticions previstes continuen sense enviar-se; la cua i el nombre de preses consten al registre de producció.
 
 **Correccions identificades pel docent:** S005: La resta de l’entrevista és correcta. Corregir «Aquest matí, per exemple...» i millorar els jingles inicial/final abans de validar definitivament · S010: Muntatge validat; pronunciacions pendents. Passos reals nous pendents d’audició · S013: Valoració positiva; bústia pendent de corregir. Sintonia rebutjada, retirada; alternativa pendent · S015: La resta de la peça és correcta. Temperatura pendent de corregir; jingle encara pendent de definir · S016: La resta de la peça està ben valorada. Artefacte en lloc de «Si» pendent de corregir; reparació local preparada i jingles inicial i final pendents de polir · S022: Bon muntatge; rails pendent de corregir. Efectes de tramvia revisats pendents d’audició · S023: La resta de la locució està ben valorada. Corregir suggeriments; nou muntatge amb Ona curta i mercat real baix sota l’entrevista. Pendent de validar després de l’esmena. 4 peticions curtes agrupades preparades, encara sense enviar; 9 incidències anotades al [registre de producció](../content/production-progress.js). No hi ha aprovació definitiva mentre faltin aquestes correccions i l’audició dels nous efectes.
 

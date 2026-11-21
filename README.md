@@ -8,22 +8,26 @@ El projecte continua a la sèrie **0.1.x** mentre el docent valida el material i
 
 ## Estat actual · 21/11/2026
 
-Els 44 codis base, ca-S001–ca-S044, tenen guió, preguntes i solucionari. S004D, S008R i S038D són variants addicionals. S038D proposa una conversa entre Aina i Ferran i espera validació pròpia; S038 narrada es conserva i té autoritzades les veus. S025–S044 són vint propostes noves, cinc per curs de 3r a 6è, amb 150 preguntes i revisió adversària final superada; S025, S026, S028, S029, S030, S032, S033, S034, S035, S037, S038, S040 i S042 ja tenen el guió validat per a veus i la resta espera el vistiplau docent. S011 s’ha ajustat a 4t avançada; les dificultats són orientatives i es calibren amb el docent.
+Els 44 codis base, ca-S001–ca-S044, tenen guió, preguntes i solucionari. S004D, S008R i S038D són variants addicionals. S038D és una conversa entre Aina i Ferran amb guió validat independentment; S038 narrada es conserva i també té autoritzades les veus. S025–S044 són vint propostes noves, cinc per curs de 3r a 6è, amb 150 preguntes i revisió adversària final superada; totes vint ja tenen el guió validat per a veus. S011 s’ha ajustat a 4t avançada; les dificultats són orientatives i es calibren amb el docent.
 
-S036 i S041 s’han refet després del retorn docent sobre el registre i tornen a esperar el seu vistiplau: «Una capseta misteriosa» i «Què farem per portes obertes?». S035 centra la conversa en la pregunta que intenta escriure la Laia; amb l’esmena de la comissió de menjador ja té el guió validat. Totes les revisions inclouen preguntes, respostes, cites i muntatge.
+S036 i S041 s’han refet després del retorn docent sobre el registre: «Una capseta misteriosa» i «Què farem per portes obertes?». Totes dues ja han rebut el vistiplau per a veus. S035 també està validada amb l’esmena de la comissió de menjador del consell escolar.
 
 - **Publicació definitiva confirmada:** S003, S004, S004D, S008, S008R, S012, S018, S019 i S020. Aprovació vinculada al guió i al màster exactes; variants validades per separat. S008 incorpora la pujada musical, dos segons sostinguts i la fosa final autoritzades pel docent.
 - **S020 definitiva:** màster v1 validat amb Petita descoberta, il·lustració pròpia i transcripció neta. S019 v3 també és definitiva. S023 v2 incorpora Ona curta i mercat real, però espera l’esmena de suggeriments. Cap síntesi nova per a aquests muntatges.
 - **Síntesi pendent d’esmena:** S005, S010, S013, S015, S016, S022 i S023. Nou frases curtes agrupades en quatre peticions de com a màxim dues veus, encara sense enviar ni aplicar. [Incidències i reparacions](docs/pronunciacio-tts.md).
-- **Veus pendents amb guió validat:** S006, S007, S009, S011, S014, S017, S021, S024, S025, S026, S028, S029, S030, S032, S033, S034, S035, S037, S038, S040, S042, 24 preses individuals previstes. La cua respecta veus, textos i muntatge validats; les narracions i les variants dialogades s’aproven separadament. S035 incorpora l’esmena de la comissió de menjador del consell escolar. Les preses s’agrupen en lots prou plens i no s’executen automàticament amb el restabliment de quota.
+- **Veus pendents amb guió validat:** S006, S007, S009, S011, S014, S017, S024, S025, S026, S027, S028, S029, S030, S031, S033, S034, S035, S036, S037, S038, S038D, S039, S040, S041, S042, S043, S044. Els guions actuals tenen autorització docent; els lots s’envien seqüencialment, després de comprovar l’anterior.
 
 La capçalera compta només activitats sense revisió pendent. «Només provisionals · experimental», al footer, alterna entre exclusivament guions i àudios en revisió (activat) i materials disponibles (desactivat), i recorda la preferència local. Les cards distingeixen guió, veus, muntatge pendent d’audició i síntesi pendent d’esmena. Quan s’apliquen totes les correccions de veu, tornen a «Àudio pendent de validar»; rebre una prova crua no completa aquest pas.
 
 En la vista de provisionals, cada card mostra el número de fase i una barra de sis segments: guió → síntesi → revisió de veus → esmenes si cal → revisió del muntatge → publicació. Una franja superior permet filtrar per fase i en mostra els recomptes combinats amb els altres filtres. La barra indica la fase actual, no el temps pendent. [Funcionament del seguiment visual](docs/univers-editorial.md#seguiment-visual-de-producció).
 
+## Primer lot rebut · L01
+
+Una petició nova el 21/11: 4:21,6 d’àudio cru, 1.171 tokens d’entrada i 6.541 de sortida. S021 i S032 muntades, pendents d’audició. Les tres esmenes de S010/S013 es poden [comparar al web](https://sentit.ortogra.fi/proves/correccions-l01.html), sense substituir encara els originals. [Rebut i talls](assets/audio/synthesis-batches/l01.json) · [Petició exacta](assets/audio/synthesis-batches/l01-request.json).
+
 ## Agrupar lectures i correccions
 
-[Pla de lots de síntesi](docs/lots-sintesi.md): agrupar material validat d’una o dues veus, preveure **6–8 minuts per petició** i tallar després amb marges comprovats. La cua candidata combina 24 preses noves i nou frases de correcció en 12 lots en lloc de 28 peticions. L01, L02, L03, L05, L06, L08, L10 arriben a la finestra; L04, L07, L09, L11, L12 esperen més material. El generador rebutja lots massa curts o llargs abans de llegir claus o reservar quota. Cal preparar el payload i el receptor per a la prova; cap lot s’ha enviat ni s’ha activat cap execució automàtica.
+[Pla de lots de síntesi](docs/lots-sintesi.md): agrupar material validat d’una o dues veus, preveure **6–8 minuts per petició** i tallar després amb marges comprovats. La cua candidata combina 24 preses noves i nou frases de correcció en 12 lots en lloc de 28 peticions. L01, L02, L03, L05, L06, L08, L10 arriben a la finestra; L04, L07, L09, L11, L12 esperen més material. El generador rebutja lots massa curts o llargs abans de llegir claus o reservar quota. Cal preparar el payload i el receptor per a la prova; L01 ja s’ha rebut i la resta es reagrupa amb les darreres validacions i la durada observada. No hi ha cap bucle automàtic d’enviaments.
 
 ## Catàleg, col·leccions i sintonies
 

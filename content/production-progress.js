@@ -57,11 +57,17 @@ export const productionProgress = {
     "reason": "Guió validat i reclassificat a 4t avançada; pendent de produir les dues preses agrupades."
   },
   "ca-S021": {
-    "state": "ready-for-voices",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-20T12:41:11.676Z",
     "editorialFingerprint": "b74a57783cdc96f46edae1442d2c49a6142dfc2666b1645482beab8b21b81758",
     "plannedNewRequests": 1,
-    "reason": "Guió de recerca validat; preparat per al següent lot dins del topall gratuït de peticions."
+    "reason": "Guió de recerca validat; preparat per al següent lot dins del topall gratuït de peticions.",
+    "voicesReceivedAt": "2026-11-21T10:04:43.360Z",
+    "synthesisBatch": "L01",
+    "requestHash": "0cd61066dabfeb8992968fa3e45c9f95dd07621aa58ca5a919a5e873cee48df7",
+    "audioSha256": "144f740a266b7a63efc718565886c2c6e099f10888ed884b6329a16598a42d45",
+    "listeningApproval": false,
+    "montageNewSynthesisRequests": 0
   },
   "ca-S006": {
     "state": "ready-for-voices",
@@ -95,7 +101,22 @@ export const productionProgress = {
     "teacherAssessment": "Muntatge validat; pronunciacions pendents. Passos reals nous pendents d’audició.",
     "plannedNewRequests": 1,
     "repairPlan": "content/audio-repairs.json",
-    "listeningApproval": false
+    "listeningApproval": false,
+    "repairComparison": "./proves/correccions-l01.html#S010-pla",
+    "receivedRepairs": [
+      {
+        "code": "S010",
+        "part": "pla",
+        "text": "Després ja som a la porta. És el camí que vam fer l’any passat.",
+        "pronunciation": "Pronounce Després faithfully, with its final /s/ before ja, not Desprén. Keep the entire sentence fluent; do not spell it aloud.",
+        "status": "received-awaiting-listening",
+        "originalFile": "assets/audio/repairs/l01-s010-pla-original.mp3",
+        "candidateFile": "assets/audio/repairs/l01-s010-pla-prova.mp3",
+        "sourceRawSha256": "5ae1ca4fd12bac21243b7e519981c14bdb2e34319cc06bdc1fbc318f91833fe4",
+        "batchRequestHash": "0cd61066dabfeb8992968fa3e45c9f95dd07621aa58ca5a919a5e873cee48df7",
+        "applied": false
+      }
+    ]
   },
   "ca-S013": {
     "state": "audio-corrections-pending",
@@ -117,7 +138,34 @@ export const productionProgress = {
     "teacherAssessment": "Valoració positiva; bústia pendent de corregir. Sintonia rebutjada, retirada; alternativa pendent.",
     "plannedNewRequests": 1,
     "repairPlan": "content/audio-repairs.json",
-    "listeningApproval": false
+    "listeningApproval": false,
+    "repairComparison": "./proves/correccions-l01.html#S013-error",
+    "receivedRepairs": [
+      {
+        "code": "S013",
+        "part": "repartiment",
+        "text": "El codi postal ajuda a arribar a una zona, però no diu tot sol quina bústia concreta és la bona.",
+        "pronunciation": "Bústia is stressed on the first vowel Ú: BÚS-ti-a, never bus-TÍ-a. This spelling aid is an instruction, not spoken text. Read the sentence fluently and naturally.",
+        "status": "received-awaiting-listening",
+        "originalFile": "assets/audio/repairs/l01-s013-repartiment-original.mp3",
+        "candidateFile": "assets/audio/repairs/l01-s013-repartiment-prova.mp3",
+        "sourceRawSha256": "37fe6368197b31f9d3d6a8bafedc0c858426c23bd2dd4f6ef6f1278d7cbfb473",
+        "batchRequestHash": "0cd61066dabfeb8992968fa3e45c9f95dd07621aa58ca5a919a5e873cee48df7",
+        "applied": false
+      },
+      {
+        "code": "S013",
+        "part": "error",
+        "text": "No és correcte endevinar una bústia només perquè el nom ens sona.",
+        "pronunciation": "Bústia is stressed on Ú in the first syllable, never on I. Respect the written accent without exaggerated pauses or spelling aloud.",
+        "status": "received-awaiting-listening",
+        "originalFile": "assets/audio/repairs/l01-s013-error-original.mp3",
+        "candidateFile": "assets/audio/repairs/l01-s013-error-prova.mp3",
+        "sourceRawSha256": "37fe6368197b31f9d3d6a8bafedc0c858426c23bd2dd4f6ef6f1278d7cbfb473",
+        "batchRequestHash": "0cd61066dabfeb8992968fa3e45c9f95dd07621aa58ca5a919a5e873cee48df7",
+        "applied": false
+      }
+    ]
   },
   "ca-S022": {
     "state": "audio-corrections-pending",
@@ -485,12 +533,18 @@ export const productionProgress = {
     "reason": "Guió validat; presa completa incorporada al lot candidat L09, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts."
   },
   "ca-S032": {
-    "state": "ready-for-voices",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-21T09:30:54.248Z",
     "editorialFingerprint": "a6a628640b2345174d83d9f7b8a67498faf8c3a867ab41b6d11abbdda1aae9f0",
     "plannedNewRequests": 1,
     "confirmation": "S032 validat per síntesi de veus",
-    "reason": "Guió validat; presa completa incorporada al lot candidat L01, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts."
+    "reason": "Guió validat; presa completa incorporada al lot candidat L01, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts.",
+    "voicesReceivedAt": "2026-11-21T10:05:32.024Z",
+    "synthesisBatch": "L01",
+    "requestHash": "0cd61066dabfeb8992968fa3e45c9f95dd07621aa58ca5a919a5e873cee48df7",
+    "audioSha256": "d07403baa3519b44ed0a04f81021f042829a2382569d630dd63f2ccdd9b2cfd2",
+    "listeningApproval": false,
+    "montageNewSynthesisRequests": 0
   },
   "ca-S034": {
     "state": "ready-for-voices",
@@ -547,5 +601,69 @@ export const productionProgress = {
     "plannedNewRequests": 1,
     "confirmation": "S033 validat per síntesi de veus",
     "reason": "Guió validat; lot candidat L12 amb Biel/Puck i Nora/Kore, pendent de completar sis a vuit minuts amb material compatible."
+  },
+  "ca-S038D": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-21T09:48:19.444Z",
+    "editorialFingerprint": "37a0b8c7e237370839d86c2fff61d87f6e09a9256317fe7f29e6914272c0ef0f",
+    "plannedNewRequests": 1,
+    "confirmation": "S038D també queda validat per síntesi de veus",
+    "reason": "Variant dialogada validada per a veus; agrupar Zephyr/Algenib sense tornar a sintetitzar la narració S038."
+  },
+  "ca-S036": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-21T09:53:12.331Z",
+    "editorialFingerprint": "58f26bfbd9f7e9dcdd1b730ee8da87af1b18a8f15f3ecd44d9979b3505a4f674",
+    "plannedNewRequests": 1,
+    "confirmation": "S036 validat per síntesi de veus",
+    "reason": "Guió validat durant el processament seqüencial; incorporar a un lot compatible pendent, conservant les veus i el text exactes."
+  },
+  "ca-S041": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-21T09:53:12.333Z",
+    "editorialFingerprint": "c3cfa721b7651c654920ac4e13e3dc30d83555ddcfa4fa97d7a415d37621c84b",
+    "plannedNewRequests": 1,
+    "confirmation": "S041 validat per síntesi de veus",
+    "reason": "Guió validat durant el processament seqüencial; incorporar a un lot compatible pendent, conservant les veus i el text exactes."
+  },
+  "ca-S039": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-21T09:53:12.333Z",
+    "editorialFingerprint": "1cc278ba9dc9cc985168c1ec36178fc1e24085217dad78ad685a69f20b4e9f8b",
+    "plannedNewRequests": 1,
+    "confirmation": "S039 validat per síntesi de veus",
+    "reason": "Guió validat durant el processament seqüencial; incorporar a un lot compatible pendent, conservant les veus i el text exactes."
+  },
+  "ca-S031": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-21T09:53:12.333Z",
+    "editorialFingerprint": "ff754fc8c82fadef113da738bd7e7027d06563a2a46934eeac6fce6a8b75920b",
+    "plannedNewRequests": 1,
+    "confirmation": "S031 validat per síntesi de veus",
+    "reason": "Guió validat durant el processament seqüencial; incorporar a un lot compatible pendent, conservant les veus i el text exactes."
+  },
+  "ca-S044": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-21T09:59:55.068Z",
+    "editorialFingerprint": "e904b4f74368e76dbeb57a2a31b8617917b0997e8898269951e1a95e921957ed",
+    "plannedNewRequests": 1,
+    "confirmation": "S044 validat per síntesi de veus",
+    "reason": "Guió validat durant el processament seqüencial; incorporar a un lot compatible pendent, conservant les veus i el text exactes."
+  },
+  "ca-S027": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-21T09:59:55.070Z",
+    "editorialFingerprint": "1c5ec147c7794764cd87928b259785a9f93201f164031b4acbb2d4a8edc48b4d",
+    "plannedNewRequests": 1,
+    "confirmation": "S027 validat per síntesi de veus",
+    "reason": "Guió validat durant el processament seqüencial; incorporar a un lot compatible pendent, conservant les veus i el text exactes."
+  },
+  "ca-S043": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-21T09:59:55.071Z",
+    "editorialFingerprint": "b0a2b65180359b18dd9a1fdaf779f0ab79036daf7a4c293fd8b8814a4c1596b9",
+    "plannedNewRequests": 1,
+    "confirmation": "S043 validat per síntesi de veus",
+    "reason": "Guió validat durant el processament seqüencial; incorporar a un lot compatible pendent, conservant les veus i el text exactes."
   }
 };

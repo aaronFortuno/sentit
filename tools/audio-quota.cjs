@@ -14,16 +14,19 @@ function assertQuota(quota, now = Date.now()) {
   if (until > now) throw Error('Quota aturada fins a ' + quota.retryNotBefore + '. Cap petició enviada.');
 }
 
-async function reserveRequest(directory, metadata, body) {
+async function reserveRequest(directory, metadata, body, options = {}) {
   const utilization=require('./audio-batch-policy.cjs').assertSynthesisWindow(body);
   assertQuota(await readJSON(path.join(directory, 'last-api-error.json'), null));
   const file = path.join(directory, 'request-log.json');
   const log = await readJSON(file, []);
   if (!Array.isArray(log)) throw Error('Registre de peticions no vàlid.');
+  const day=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Los_Angeles'}),today=day.format(new Date());
+  if(log.filter(item=>day.format(new Date(item.at))===today).length>=10)throw Error('Ja consten deu peticions en el dia de quota. Cap petició enviada.');
   const previous = log.length ? Date.parse(log.at(-1).at) : 0;
-  const remaining = previous + 22000 - Date.now();
-  if (remaining > 60000) throw Error('El rellotge no concorda amb el registre de peticions.');
-  if (remaining > 0) await wait(remaining);
+  const interval=options.minimumIntervalMs??22000;
+  let remaining = previous + interval - Date.now();
+  if (remaining > interval+1000) throw Error('El rellotge no concorda amb el registre de peticions.');
+  while(remaining>0){await wait(Math.min(remaining,55000));remaining=previous+interval-Date.now();}
   assertQuota(await readJSON(path.join(directory, 'last-api-error.json'), null));
   log.push({ at: new Date().toISOString(), ...metadata, estimatedSeconds:utilization.seconds });
   await fs.writeFile(file, JSON.stringify(log, null, 2) + '\n');

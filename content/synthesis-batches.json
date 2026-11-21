@@ -1,0 +1,250 @@
+{
+  "schema": 1,
+  "mode": "sequential-manual-review",
+  "batches": [
+    {
+      "id": "L01",
+      "state": "received",
+      "blocks": [
+        {
+          "code": "S021",
+          "take": "S021-T01",
+          "sourceRequestHash": "0e98dd5b9fcd4c84c51e5f4b99dc54f4e9a40a679f7ccb1b76dcb77a6faefa80"
+        },
+        {
+          "code": "S032",
+          "take": "S032-T01",
+          "sourceRequestHash": "b74fd871154ad94fa2dc3b3a54b32ccec03dbb4280f5a9e778b6993c64ada060"
+        },
+        {
+          "code": "S013",
+          "part": "repartiment",
+          "sourceRequestHash": "562c765dc3c76a72be7873782f3ddecc573f1f10f4f8f0f55c20eb71956c640e"
+        },
+        {
+          "code": "S013",
+          "part": "error",
+          "sourceRequestHash": "562c765dc3c76a72be7873782f3ddecc573f1f10f4f8f0f55c20eb71956c640e"
+        },
+        {
+          "code": "S010",
+          "part": "pla",
+          "sourceRequestHash": "a8d86c221c91394f80126bb5b2503e6d16173c2e3000f1aff41edfdf79b71fc2"
+        }
+      ],
+      "approvedAt": "2026-11-21T09:51:48.639Z",
+      "approvedRequestHash": "0cd61066dabfeb8992968fa3e45c9f95dd07621aa58ca5a919a5e873cee48df7",
+      "estimatedSeconds": 389,
+      "estimatedInputTokens": 5139,
+      "authorization": "El docent autoritza el 21/11/2026 processar els lots compatibles d’un en un, comprovant cada retorn i aprofitant els següents per a esmenes. Només guions i correccions ja validats.",
+      "receipt": "assets/audio/synthesis-batches/l01.json",
+      "completedAt": "2026-11-21T09:52:20.096Z"
+    },
+    {
+      "id": "L02",
+      "state": "planned",
+      "blocks": [
+        {
+          "code": "S011",
+          "take": "S011-T02",
+          "sourceRequestHash": "f10cd7920ff62cc59497e1fcea677477d93a5bbd5ae017cd9f3bc08e37bfce39"
+        },
+        {
+          "code": "S010",
+          "part": "alternativa",
+          "sourceRequestHash": "a8d86c221c91394f80126bb5b2503e6d16173c2e3000f1aff41edfdf79b71fc2"
+        },
+        {
+          "code": "S007",
+          "take": "S007-T02",
+          "sourceRequestHash": "3cac570afbf056efc1591679d6c521985c5dfdf1323d6b58164414cf2f1711d7"
+        },
+        {
+          "code": "S024",
+          "take": "S024-T01",
+          "sourceRequestHash": "5752318d7e7b57d76f9688b37c14a9b8ee096bc9984675df52fe45801ca66cac"
+        },
+        {
+          "code": "S017",
+          "take": "S017-T02",
+          "sourceRequestHash": "70980d5f02ea87c3af8e0553fcce309c9bca67967da3f461ae13c9f323807840"
+        }
+      ]
+    },
+    {
+      "id": "L03",
+      "state": "planned",
+      "blocks": [
+        {
+          "code": "S006",
+          "take": "S006-T01",
+          "sourceRequestHash": "7e285d58bf7f8bb6dd2061ad42a14861f673202966a83b5935b9bfc1924a373a"
+        },
+        {
+          "code": "S009",
+          "take": "S009-T01",
+          "sourceRequestHash": "c600345647bed0d1d09ca7b26cd5460240f4d266e72e69d5196230173c43fd74"
+        },
+        {
+          "code": "S029",
+          "take": "S029-T01",
+          "sourceRequestHash": "236ae133fc4cee095f688b938ab791a42442874a19663173fd26301611e03ad0"
+        }
+      ]
+    },
+    {
+      "id": "L04",
+      "state": "planned",
+      "blocks": [
+        {
+          "code": "S005",
+          "part": "comprovar",
+          "sourceRequestHash": "199df0ca13eadc5ebf99ceac4355e01698cb40f2051f92c6557160134a84459a"
+        },
+        {
+          "code": "S015",
+          "part": "llum",
+          "sourceRequestHash": "ed0588aeb64811b62fd7932e8f58d35dace263a9d77d283e393ed8f6f00fe91e"
+        }
+      ]
+    },
+    {
+      "id": "L05",
+      "state": "planned",
+      "blocks": [
+        {
+          "code": "S007",
+          "take": "S007-T01",
+          "sourceRequestHash": "dddc6efb4140928f576a414dda65bc08d99b312dda58f648336e16121dd8a77d"
+        },
+        {
+          "code": "S017",
+          "take": "S017-T01",
+          "sourceRequestHash": "135c400446473f483be82619fe8b0844864624712631f819299dd73a8c1700a6"
+        },
+        {
+          "code": "S042",
+          "take": "S042-T01",
+          "sourceRequestHash": "707a1abd4099383f028eec9b0f81cd780694f57bc428f9c16dd98cdb303ac866"
+        }
+      ]
+    },
+    {
+      "id": "L06",
+      "state": "planned",
+      "blocks": [
+        {
+          "code": "S014",
+          "take": "S014-T01",
+          "sourceRequestHash": "2bcf21f0ba387c2047611627b76dd20a3d0ca658874913530cb453c22c35d5aa"
+        },
+        {
+          "code": "S011",
+          "take": "S011-T01",
+          "sourceRequestHash": "73e1ff5fdf235f1cd8e1880c1f74cbfe828cb379adde5be3b7f7cd37daf1f03a"
+        },
+        {
+          "code": "S026",
+          "take": "S026-T01",
+          "sourceRequestHash": "bb78180d8c2948808cfd5f0c8824f2177ec440e13e5dee3a51ff7b860b4a5204"
+        }
+      ]
+    },
+    {
+      "id": "L07",
+      "state": "planned",
+      "blocks": [
+        {
+          "code": "S040",
+          "take": "S040-T01",
+          "sourceRequestHash": "2c272761f294618a282bd9a412a3608d22fdd29fe980d481438a77c3886208f8"
+        }
+      ]
+    },
+    {
+      "id": "L08",
+      "state": "planned",
+      "blocks": [
+        {
+          "code": "S030",
+          "take": "S030-T01",
+          "sourceRequestHash": "45bb28cee99efe23b0263d0bc2a912f1eb1b6d1dca50e49c8c12f4c6d164d2ca"
+        },
+        {
+          "code": "S037",
+          "take": "S037-T01",
+          "sourceRequestHash": "71f36ff64975b96955626eee9c604f6a5de1b4fc8eb1ffba7fd559c20389b4d8"
+        },
+        {
+          "code": "S025",
+          "take": "S025-T01",
+          "sourceRequestHash": "66b84a43c74e66237c4049b0453309d1724120d30fe4eabea97f38667d75e48b"
+        }
+      ]
+    },
+    {
+      "id": "L09",
+      "state": "planned",
+      "blocks": [
+        {
+          "code": "S028",
+          "take": "S028-T01",
+          "sourceRequestHash": "abf704b22ce5bf7f23ee2702bf07ff76e633d948563944f47fe33388cba1cb99"
+        }
+      ]
+    },
+    {
+      "id": "L10",
+      "state": "planned",
+      "blocks": [
+        {
+          "code": "S034",
+          "take": "S034-T01",
+          "sourceRequestHash": "6332c96b6359dc458160ecfe98b54e0dcc2ab5cc147847cfff06f571324d68ea"
+        },
+        {
+          "code": "S038",
+          "take": "S038-T01",
+          "sourceRequestHash": "5edc1a4ddd2b4417f502e35c44b1724879b9a23aa699fe3e9d705aec3cda3085"
+        },
+        {
+          "code": "S016",
+          "part": "exposicio",
+          "sourceRequestHash": "d43335d6ca50e24dfe0d17b43f31e2ad67f7040083b26a3628ebd936896b4df7"
+        },
+        {
+          "code": "S022",
+          "part": "dema",
+          "sourceRequestHash": "dc75acf7a5f1dae1c4d229ce80f07a0257da22db6d95d0f7235b45a125f75f1f"
+        },
+        {
+          "code": "S023",
+          "part": "tancament",
+          "sourceRequestHash": "5381bc85a25a80e20c3d2a43e0df955e8f64a4dc7ea5256b52ccd90daf8feb9a"
+        }
+      ]
+    },
+    {
+      "id": "L11",
+      "state": "planned",
+      "blocks": [
+        {
+          "code": "S035",
+          "take": "S035-T01",
+          "sourceRequestHash": "dd5c2f8d437d8badc54b86d04606388f9779377732870cfa0d185b86e19cc8ed"
+        }
+      ]
+    },
+    {
+      "id": "L12",
+      "state": "planned",
+      "blocks": [
+        {
+          "code": "S033",
+          "take": "S033-T01",
+          "sourceRequestHash": "721c65640ec567a0a597ef0dd92ea3aa0bf5108bb484c8769b7e1dae14a6dcb5"
+        }
+      ]
+    }
+  ]
+}

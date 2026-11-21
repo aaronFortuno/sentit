@@ -78,6 +78,9 @@ export const sise = [
   }),
   proposal({
     id: 'per-que-una-ciutat-guarda-la-calor', code: 'S021', title: 'Per què una ciutat guarda la calor?', grade: '6', level: 'middle', genre: 'explanation',
+    seconds: 155, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s021-mixed-v1.mp3', tracks: { introduction: './assets/audio/s021-mixed-v1-intro.mp3', body: './assets/audio/s021-mixed-v1-cos.mp3' },
+    fragment: { start: 4.968, seconds: 150 },
     summary: 'La Mireia i la Laia comparen mesures en una plaça i preparen una petita recerca sobre l’ombra, els materials i la calor del vespre.',
     voices: { Mireia: 'Aoede', Laia: 'Leda' }, delivery: 'Recerca guiada a peu de plaça. Mireia, mestra adulta, ajuda a comprovar les idees sense convertir cada torn en una lliçó. Laia, jove curiosa, descriu observacions, pregunta, anticipa alguna conclusió i decideix què anotar. Rèpliques àgils, petites confirmacions naturals i pauses per observar. Sense alarmisme ni imitar veus infantils petites.',
     editorialFocus: '6è intermèdia: integrar més d’una causa i entendre els límits d’una comparació. Distingir temperatura de superfície de temperatura de l’aire.',

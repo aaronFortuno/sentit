@@ -66,3 +66,15 @@ Fora del catàleg docent. Veus Aoede i Charon amb Gemini. Fonts: pluja de ジダ
 «Oxford covered market ambience», **jmdh**, [Freesound 388315](https://freesound.org/people/jmdh/sounds/388315/), [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). Còpia pública HQ MP3 de 92,513 s; enregistrament de mercat cobert amb persones i moviment, no una síntesi ni una garantia de sons HVAC concrets. Fragment 12–51,1 s sota la presentació d’en Pau, el testimoni i el comiat. Marge de 20,2 dB respecte de la veu; pic del fons −26,9 dBFS. Ona curta (MIT), 4 s d’obertura i 3,6 s de tancament fora de la veu, substitueix l’avís antic. Fragment 196,305 s, màster 203,11 s. Cap síntesi nova; esmena de suggeriments pendent.
 
 Als muntatges nous i revisions, paper, bolígraf, claus i passos han de ser enregistraments acreditats i tenir prou presència per sonar intencionats, sense tapar la parla. Comprovar que cap identificació oral del sample entri al muntatge o al bucle. [Tancament dels materials impresos](tancament-publicacio.md).
+
+
+## Primer lot mixt · 21/11/2026
+
+L01 produeix en una sola petició Gemini les veus de S021 i S032 i tres esmenes de S010/S013. Veus i originals conservats; muntatges i proves pendents d’audició. [Rebut](../assets/audio/synthesis-batches/l01.json) disponible al repositori. Els recursos externs retenen la seva llicència pròpia.
+
+- [Page turned](https://freesound.org/people/Beussa/sounds/749880/) · Beussa · CC0 1.0: paper a S021 i S032.
+- [School classroom ambience](https://freesound.org/people/Elenalostale/sounds/648659/) · Elenalostale · CC0 1.0: fragment des del segon 20, només abans de la parla de S032.
+- [City ambience quiet neighborhood](https://freesound.org/people/soaress/sounds/546234/) · soaress · CC0 1.0: fragment des del segon 40 a l’obertura de S021.
+- Passos d’evsecrets, Freesound 334457, CC0 1.0, ja documentats: fragment breu durant el desplaçament de S021.
+
+Fonts, còpies HQ, empremtes i tractament exactes a `content/sound-sources.js` i als manifests S021/S032. Cap imitació procedural dels efectes ni canvi de ritme de les veus.

@@ -108,3 +108,15 @@ Màster v1 d’Aoede/Mireia validat pel docent, amb Petita descoberta i clic loc
 ## Referència editorial
 
 Els criteris de claredat, contextualització i comprovació editorial tenen com a referència el [llibre d’estil del Diari d’IA Educativa](https://diarioiaeducativa.github.io/ca/estilo.html), consultat el 21/11/2026. L’adaptació al diàleg educatiu i la passada específica d’aclariments anticipats incorporen els retorns del docent de Sentit. [Criteris aplicats](docs/criteris-editorials.md).
+
+
+## Primer lot mixt · 21/11/2026
+
+L01 produeix en una sola petició Gemini les veus de S021 i S032 i tres esmenes de S010/S013. Veus i originals conservats; muntatges i proves pendents d’audició. [Rebut](assets/audio/synthesis-batches/l01.json) disponible al repositori. Els recursos externs retenen la seva llicència pròpia.
+
+- [Page turned](https://freesound.org/people/Beussa/sounds/749880/) · Beussa · CC0 1.0: paper a S021 i S032.
+- [School classroom ambience](https://freesound.org/people/Elenalostale/sounds/648659/) · Elenalostale · CC0 1.0: fragment des del segon 20, només abans de la parla de S032.
+- [City ambience quiet neighborhood](https://freesound.org/people/soaress/sounds/546234/) · soaress · CC0 1.0: fragment des del segon 40 a l’obertura de S021.
+- Passos d’evsecrets, Freesound 334457, CC0 1.0, ja documentats: fragment breu durant el desplaçament de S021.
+
+Fonts, còpies HQ, empremtes i tractament exactes a `content/sound-sources.js` i als manifests S021/S032. Cap imitació procedural dels efectes ni canvi de ritme de les veus.

@@ -1,14 +1,20 @@
 # Lots de síntesi per aprofitar les peticions
 
-Proposta de planificació · **21/11/2026**. **Cap petició nova enviada.** Els guions i les esmenes referenciats tenen aprovació; falta construir, verificar i congelar els payloads dels lots, adaptar-ne la recepció i preparar una primera prova. Aquesta taula no és un generador executable ni una aprovació retrospectiva de cap àudio.
+Execució seqüencial autoritzada · **21/11/2026**. **L01 rebuda en una petició.** S021 i S032 ja tenen muntatge pendent d’audició; tres esmenes noves esperen comparació. La resta dels candidats es reagrupa amb les validacions posteriors i la durada real del pilot.
 
-## Resum per consultar ràpidament
+## Estat del primer lot
+
+L01: **4:21,6 reals**, 1.171 tokens d’entrada i 6.541 de sortida, un sol bloc WAV complet. La previsió inicial era de 6:29 amb els separadors finals; l’observació servirà per calibrar els candidats següents, mantenint la finestra de sis a vuit minuts. S’han conservat la petició exacta, la resposta, les preses i els silencis de tall. La comprovació local localitza tots cinc blocs; no certifica pronunciació. [Rebut públic](../assets/audio/synthesis-batches/l01.json) · [Comparacions](https://sentit.ortogra.fi/proves/correccions-l01.html).
+
+Tots els guions actuals ja tenen validació docent. **27 comprensions esperen veus; S021 i S032 esperen audició del muntatge.** La cua executable es congela individualment a [synthesis-batches.json](../content/synthesis-batches.json), sense enviar tots els candidats de cop.
+
+## Planificació anterior al pilot, per consultar-ne la traçabilitat
 
 - El límit de peticions i el de tokens són independents: podem gastar deu peticions encara que hi enviem molt poc text.
 - Per petició: màxim 8.192 tokens de text d’entrada i 16.384 tokens d’àudio de sortida. Els 10.000 tokens/minut del projecte no són una bossa acumulable per fer una petició més gran.
 - L’àudio es compta a 25 tokens/segon; el sostre de sortida equival aproximadament a 10:55 incloent-hi silencis.
 - Objectiu inicial: **6–8 minuts totals**, una o dues veus predefinides, amb diverses lectures i esmenes compatibles. Per exemple, tres lectures de dos minuts poden compartir una petició; cinc de tres minuts no hi caben.
-- La cua aprovada actual són 21 comprensions i nou frases d’esmena: 12 lots candidats en comptes de 28 peticions separades. **L01, L02, L03, L05, L06, L08, L10 arriben ara a la finestra de mida. L04, L07, L09, L11, L12 esperen més material compatible.** No s’han enviat ni es poden executar automàticament des d’aquesta taula.
+- Abans de les últimes validacions, la cua aprovada eren 21 comprensions i nou frases d’esmena: 12 lots candidats en comptes de 28 peticions separades. **L01, L02, L03, L05, L06, L08, L10 arriben ara a la finestra de mida. L04, L07, L09, L11, L12 esperen més material compatible.** L01 s’ha executat; la taula no activa cap altre candidat automàticament.
 
 ## Límits i criteri de mida
 
@@ -26,7 +32,7 @@ Exemples: quatre peces de dos minuts sumen vuit minuts abans d’afegir marges; 
 
 | Lot | Veus predefinides | Blocs | Mots parlats | Previsió amb marges | Tokens d’àudio estimats | Estat de mida |
 | --- | --- | --- | ---: | ---: | ---: | --- |
-| L01 | Aoede + Leda | S021-T01; S032-T01; S013 · repartiment; S013 · error; S010 · pla | 697 | 6:15 | 9375 | Finestra completa; payload pendent |
+| L01 | Aoede + Leda | S021-T01; S032-T01; S013 · repartiment; S013 · error; S010 · pla | 697 | 6:15 | 9375 | Rebut: 4:21,6 reals |
 | L02 | Puck + Leda | S011-T02; S010 · alternativa; S007-T02; S024-T01; S017-T02 | 700 | 7:16 | 10900 | Finestra completa; payload pendent |
 | L03 | Erinome | S006-T01; S009-T01; S029-T01 | 800 | 7:01 | 10525 | Finestra completa; payload pendent |
 | L04 | Vindemiatrix + Kore | S005 · comprovar; S015 · llum | 27 | 0:22 | 550 | Espera més material |
@@ -53,7 +59,7 @@ En total: **21 comprensions noves (24 preses)** i nou frases de correcció. Envi
 2. Cada bloc necessita identificador local, codi/idioma, text exacte, veu, aprovació i empremta. Distingir presentació, lectura, torn separat i esmena. Els codis no es llegeixen: van al manifest local.
 3. Afegir pauses llargues entre blocs; comprovar després les pauses reals. Els títols i les fronteres dels textos serveixen d’ancoratge per al reconeixement local. No tallar a offsets calculats només per la durada esperada.
 4. Preparar el payload final i congelar-ne l’empremta, revisar cobertura sense duplicacions, mida d’entrada i previsió de sortida. Excloure preses en memòria cau i peces definitivament publicades. La validació del guió/escaleta continua sent obligatòria.
-5. Abans d’enviar, adaptar el receptor actual: ara té un timeout de 180 s i conserva l’últim bloc d’àudio retornat. Un lot llarg requereix timeout adequat, comprovació de l’estat final i conservació de tots els blocs retornats amb els seus formats. No concatenar capçaleres WAV com si fossin PCM. Cap canvi de receptor s’ha aplicat en aquesta planificació.
+5. Abans d’enviar, adaptar el receptor actual: ara té un timeout de 180 s i conserva l’últim bloc d’àudio retornat. Un lot llarg requereix timeout adequat, comprovació de l’estat final i conservació de tots els blocs retornats amb els seus formats. No concatenar capçaleres WAV com si fossin PCM. El receptor ja admet un marge de vint minuts, conserva la resposta sencera i comprova tots els contenidors WAV abans d’extreure’n el PCM.
 6. Fer una prova de lot abans d’omplir totes deu peticions. Desar resposta crua, ús real, finalització i mapa de blocs. Un fitxer WAV vàlid, per si sol, no prova que contingui tot el text.
 7. Verificar cobertura i marges amb alineació i ona; detectar respostes truncades. Conservar qualsevol fragment bo i tornar a la cua només el que falta. Igualar nivells i tallar en silencis; cap retall de consonants, canvi de to o alentiment per ocultar defectes.
 8. Muntar cada activitat amb les seves músiques i efectes i mantenir l’audició docent abans de publicar. El reconeixement pot reconstruir paraules mal pronunciades i no valida dicció.

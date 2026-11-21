@@ -38,7 +38,8 @@ export const soundSources = [
     "retrievedAt": "2026-11-20",
     "sha256": "ce92c57177a81f925090b552b298fce87256e5d44c9ddbf0538b3d26e748abb1",
     "usedBy": [
-      "ca-S010"
+      "ca-S010",
+      "ca-S021"
     ],
     "excerpts": {
       "opening": {
@@ -54,7 +55,7 @@ export const soundSources = [
         "seconds": 0.9
       }
     },
-    "treatment": "Fragments breus a l’arribada, a la pausa i al comiat, amb foses i nivell baix. Conversió a mono, sense canvi de velocitat ni de to. Les veus i les indicacions del trajecte es conserven."
+    "treatment": "Fragments breus a l’arribada, a la pausa i al comiat, amb foses i nivell baix. Conversió a mono, sense canvi de velocitat ni de to. Les veus i les indicacions del trajecte es conserven. S021: un fragment breu durant la pausa del desplaçament al banc, sense alterar les veus."
   },
   {
     "id": "migweis-tram-713419",
@@ -128,6 +129,64 @@ export const soundSources = [
       "start": 12
     },
     "treatment": "Un fragment continu sota la presentació, el testimoni i el comiat de Pau, amb fosa d’entrada de 0,8 s i de sortida de 0,45 s, atenuat sota la parla. Sense repeticions, canvi de to ni de velocitat."
+  },
+  {
+    "id": "beussa-749880",
+    "title": "Page turned",
+    "author": "Beussa",
+    "url": "https://freesound.org/people/Beussa/sounds/749880/",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "origin": "external-recording",
+    "description": "Un full real girat, enregistrat per a efectes de so.",
+    "file": "assets/audio/sources/beussa-749880.mp3",
+    "rendition": "Còpia pública HQ en MP3 de Freesound; no és el WAV original.",
+    "downloadUrl": "https://cdn.freesound.org/previews/749/749880_6525386-hq.mp3",
+    "retrievedAt": "2026-11-21",
+    "sha256": "4b38b5c58abb206d5b86b9d5b6a3acde8eea90c288ef194b4a67503fe659b4a9",
+    "usedBy": [
+      "ca-S021",
+      "ca-S032"
+    ],
+    "treatment": "Fragment breu dins pauses afegides sense retallar la parla i al comiat. Foses curtes i nivell discret però audible; no hi ha imitació procedural."
+  },
+  {
+    "id": "elenalostale-648659",
+    "title": "SCHOOL CLASSROOM AMBIENCE",
+    "author": "Elenalostale",
+    "url": "https://freesound.org/people/Elenalostale/sounds/648659/",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "origin": "external-recording",
+    "description": "Ambient real d’aula amb xiuxiuejos, material i moviment de cadires.",
+    "file": "assets/audio/sources/elenalostale-648659.mp3",
+    "rendition": "Còpia pública HQ en MP3 de Freesound; no és el WAV original.",
+    "downloadUrl": "https://cdn.freesound.org/previews/648/648659_10933546-hq.mp3",
+    "retrievedAt": "2026-11-21",
+    "sha256": "bdb5a2e1b40bdcec49cf7c3752c186e355e58499ec7d0578022da599d9291bf8",
+    "usedBy": [
+      "ca-S032"
+    ],
+    "treatment": "Dos segons de l’enregistrament a partir del segon 20, amb foses; es retira abans de la salutació. No s’utilitzen el timbre ni converses com a pistes."
+  },
+  {
+    "id": "soaress-546234",
+    "title": "City Ambience Quiet Neighborhood",
+    "author": "soaress",
+    "url": "https://freesound.org/people/soaress/sounds/546234/",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "origin": "external-recording",
+    "description": "Ambient urbà real i tranquil, enregistrat des d’un edifici a São Paulo.",
+    "file": "assets/audio/sources/soaress-546234.mp3",
+    "rendition": "Còpia pública HQ en MP3 de Freesound; no és el WAV original.",
+    "downloadUrl": "https://cdn.freesound.org/previews/546/546234_12135449-hq.mp3",
+    "retrievedAt": "2026-11-21",
+    "sha256": "1059086683943b6b8d679a9283eda0bf08a75c05cbc711b2ec6a14a276f5028c",
+    "usedBy": [
+      "ca-S021"
+    ],
+    "treatment": "Dos segons a partir del segon 40 a l’obertura, amb foses i retirats abans de les veus. Context urbà de ficció, sense presentar-lo com la ubicació real de la història."
   }
 ];
 
