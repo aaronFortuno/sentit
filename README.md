@@ -6,9 +6,11 @@ Banc de comprensió oral d’ortogra.fi. El docent tria una activitat, prepara l
 
 El projecte continua a la sèrie **0.1.x** mentre el docent valida el material i la interfície. El pas a 0.2 serà una decisió explícita.
 
-## Estat actual · 20/11/2026
+## Estat actual · 21/11/2026
 
 Els 44 codis base, ca-S001–ca-S044, tenen guió, preguntes i solucionari. S004D i S008R són variants addicionals. S025–S044 són vint propostes noves, cinc per curs de 3r a 6è, amb 150 preguntes i revisió adversària final superada; esperen la validació docent. S011 s’ha ajustat a 4t avançada; les dificultats són orientatives i es calibren amb el docent.
+
+S033 s’ha replantejat després del retorn docent: objectes antics de casa concrets, termes explicats i llenguatge quotidià de Biel. Conserva 4t intermèdia i set preguntes, amb solucionari i cites nous; ha superat una nova revisió independent i espera validació docent. No és a la cua autoritzada de síntesi.
 
 - **Publicació definitiva confirmada:** S003, S004, S004D, S008, S008R, S012, S018, S019 i S020. Aprovació vinculada al guió i al màster exactes; variants validades per separat. S008 incorpora la pujada musical, dos segons sostinguts i la fosa final autoritzades pel docent.
 - **S020 definitiva:** màster v1 validat amb Petita descoberta, il·lustració pròpia i transcripció neta. S019 v3 també és definitiva. S023 v2 incorpora Ona curta i mercat real, però espera l’esmena de suggeriments. Cap síntesi nova per a aquests muntatges.

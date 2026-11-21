@@ -786,7 +786,7 @@
     "reviewedAt": null,
     "reviewActivity": "ca-S033",
     "reviewContent": "content/propostes/tanda2/quart.js",
-    "format": "4t intermèdia: relacionar tres decisions d’exposició amb els seus motius i entendre què aporta una còpia sense confondre-la amb l’original.",
+    "format": "4t intermèdia: comprendre tres decisions sobre objectes antics coneguts, amb causes concretes. Situar l’exposició i explicar el vocabulari abans de fer-lo servir. Distingir una capseta antiga de la còpia nova que es podrà tocar, sense coneixements previs de museus.",
     "cues": [
       "Taller real tranquil abans de les veus; no afegir una tercera veu ni eines treballant.",
       "Pausa de canvi de tema amb paper real molt breu, sense fer sonar cap mecanisme de capsa.",
@@ -798,7 +798,8 @@
       "Nora": "Kore"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Nova proposta del 21/11/2026 arran de la revisió docent: situar els objectes antics de casa, explicar el vocabulari i fer natural el llenguatge de Biel. Pendent de validació docent; cap síntesi autoritzada."
   },
   "S034": {
     "status": "awaiting-validation",

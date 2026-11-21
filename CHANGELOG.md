@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.54 · 21 de novembre de 2026
+
+- S033 replantejada per a 4t intermèdia: exposició d’objectes antics de casa, identificats des del començament. La Nora explica «peces» i «còpia» amb exemples concrets; el moble amb una pota esquerdada substitueix el calaix poc contextualitzat. En Biel utilitza llenguatge quotidià i demana tornar a l’exposició, sense participar en una prova de cartells de la qual ja coneix les respostes.
+- Set preguntes, solucionari i vuit cites actualitzats. Nova revisió independent superada per al text exacte; proposta pendent de validació docent i sense autorització de síntesi.
+- Pauta de revisió reforçada: identificar els objectes abans de fer servir categories professionals o abstractes, especialment en àudio i als primers torns.
+
 ## 0.1.53 · 20 de novembre de 2026
 
 - S009, S014 i S017: guions validats pel docent i autoritzacions de síntesi exactes registrades. Vuit comprensions noves i nou esmenes distribuïdes en sis lots candidats, en comptes de quinze peticions separades. Només dos arriben a la finestra de mida; els altres esperen material compatible. Cap petició enviada amb la quota esgotada.
