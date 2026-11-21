@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.59 · 21 de novembre de 2026
+
+- Instruccions d’autoria i revisió reforçades per detectar aclariments preventius d’obvietats: exigir un dubte real o una incidència que els motivi, i preferir dades i accions directes. Es conserven les negacions factuals i les correccions justificades. Pauta personal de revisió actualitzada també per a futurs encàrrecs.
+- S039: vint préstecs de quinze famílies, presentació autosuficient d’en Pau com a paradista i voluntari, comprovació del contingut de les capses i explicació concreta de la llista d’espera. Tancament amb ubicació pendent i resultats d’un pilot ja acabat, sense préstecs encara actius ni advertiments sobre autoritzacions.
+- Vuit preguntes, solucionari i deu cites actualitzats. Nova proposta pendent de validació docent, sense síntesi.
+
 ## 0.1.58 · 21 de novembre de 2026
 
 - S031: eliminades les frases redundants sobre la votació i les idees repetides. L’organització recorda un concert molt proposat l’any anterior que no es va poder pagar; la pregunta 6 demana justificar la resposta amb aquest precedent. Aclarits l’ajuda per descriure la proposta i el caràcter opcional de les dades personals. Proposta pendent de revalidació docent.
