@@ -8,14 +8,14 @@ El projecte continua a la sèrie **0.1.x** mentre el docent valida el material i
 
 ## Estat actual · 21/11/2026
 
-Els 44 codis base, ca-S001–ca-S044, tenen guió, preguntes i solucionari. S004D i S008R són variants addicionals. S025–S044 són vint propostes noves, cinc per curs de 3r a 6è, amb 150 preguntes i revisió adversària final superada; esperen la validació docent. S011 s’ha ajustat a 4t avançada; les dificultats són orientatives i es calibren amb el docent.
+Els 44 codis base, ca-S001–ca-S044, tenen guió, preguntes i solucionari. S004D i S008R són variants addicionals. S025–S044 són vint propostes noves, cinc per curs de 3r a 6è, amb 150 preguntes i revisió adversària final superada; S029 ja té el guió validat per a veus i la resta espera el vistiplau docent. S011 s’ha ajustat a 4t avançada; les dificultats són orientatives i es calibren amb el docent.
 
 S033 s’ha replantejat després del retorn docent: objectes antics de casa concrets, termes explicats i llenguatge quotidià de Biel. Conserva 4t intermèdia i set preguntes, amb solucionari i cites nous; ha superat una nova revisió independent i espera validació docent. No és a la cua autoritzada de síntesi.
 
 - **Publicació definitiva confirmada:** S003, S004, S004D, S008, S008R, S012, S018, S019 i S020. Aprovació vinculada al guió i al màster exactes; variants validades per separat. S008 incorpora la pujada musical, dos segons sostinguts i la fosa final autoritzades pel docent.
 - **S020 definitiva:** màster v1 validat amb Petita descoberta, il·lustració pròpia i transcripció neta. S019 v3 també és definitiva. S023 v2 incorpora Ona curta i mercat real, però espera l’esmena de suggeriments. Cap síntesi nova per a aquests muntatges.
 - **Síntesi pendent d’esmena:** S005, S010, S013, S015, S016, S022 i S023. Nou frases curtes agrupades en quatre peticions de com a màxim dues veus, encara sense enviar ni aplicar. [Incidències i reparacions](docs/pronunciacio-tts.md).
-- **Veus pendents amb guió validat:** S006, S007, S009, S011, S014, S017, S021 i S024, onze preses individuals previstes en total. El 20/11 ja consten deu peticions diàries; no se n’envien més abans del següent restabliment. Les preses s’agrupen en lots prou plens, no s’envien aïllades.
+- **Veus pendents amb guió validat:** S006, S007, S009, S011, S014, S017, S021, S024 i S029, dotze preses individuals previstes en total. S029 incorpora l’avís de la ubicació del cinema divendres a les quatre de la tarda, també al solucionari. El 20/11 es van consumir les deu peticions del dia; les preses s’agrupen en lots prou plens, no s’envien aïllades ni s’executen automàticament amb el restabliment de quota.
 
 La capçalera compta només activitats sense revisió pendent. «Només provisionals · experimental», al footer, alterna entre exclusivament guions i àudios en revisió (activat) i materials disponibles (desactivat), i recorda la preferència local. Les cards distingeixen guió, veus, muntatge pendent d’audició i síntesi pendent d’esmena. Quan s’apliquen totes les correccions de veu, tornen a «Àudio pendent de validar»; rebre una prova crua no completa aquest pas.
 
@@ -23,7 +23,7 @@ En la vista de provisionals, cada card mostra el número de fase i una barra de 
 
 ## Agrupar lectures i correccions
 
-[Pla de lots de síntesi](docs/lots-sintesi.md): agrupar material validat d’una o dues veus, preveure **6–8 minuts per petició** i tallar després amb marges comprovats. La cua candidata combina onze preses noves i nou frases de correcció en sis lots en lloc de quinze peticions. Només L01 i L02 arriben ara a la finestra: els altres quatre esperen més material, encara que no hi hagi altra feina. El generador rebutja lots massa curts o llargs abans de llegir claus o reservar quota. Cal preparar el payload i el receptor per a la prova; cap lot s’ha enviat ni s’ha activat cap execució automàtica.
+[Pla de lots de síntesi](docs/lots-sintesi.md): agrupar material validat d’una o dues veus, preveure **6–8 minuts per petició** i tallar després amb marges comprovats. La cua candidata combina dotze preses noves i nou frases de correcció en sis lots en lloc de setze peticions. L01, L02 i L03 arriben ara a la finestra: els altres tres esperen més material, encara que no hi hagi altra feina. El generador rebutja lots massa curts o llargs abans de llegir claus o reservar quota. Cal preparar el payload i el receptor per a la prova; cap lot s’ha enviat ni s’ha activat cap execució automàtica.
 
 ## Catàleg, col·leccions i sintonies
 

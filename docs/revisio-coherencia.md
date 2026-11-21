@@ -35,7 +35,7 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S026](https://sentit.ortogra.fi/#lectura=ca-S026) | Preparem el racó dels jocs | 3r | Provisional · revisió superada | 2026-11-20 | `7be4842a4d05…` |
 | [ca-S027](https://sentit.ortogra.fi/#lectura=ca-S027) | El berenar del terrat | 3r | Provisional · revisió superada | 2026-11-20 | `3c272bb86e0b…` |
 | [ca-S028](https://sentit.ortogra.fi/#lectura=ca-S028) | Una parada abans d’obrir | 3r | Provisional · revisió superada | 2026-11-20 | `b183bcc99d9f…` |
-| [ca-S029](https://sentit.ortogra.fi/#lectura=ca-S029) | El cinema surt a la plaça | 3r | Provisional · revisió superada | 2026-11-20 | `ac9665c6bf3a…` |
+| [ca-S029](https://sentit.ortogra.fi/#lectura=ca-S029) | El cinema surt a la plaça | 3r | Revisió superada · guió validat | 2026-11-21 | `1cb96a05b637…` |
 | [ca-S030](https://sentit.ortogra.fi/#lectura=ca-S030) | El cartell que no es llegia | 4t | Provisional · revisió superada | 2026-11-20 | `ab15e013f5a5…` |
 | [ca-S031](https://sentit.ortogra.fi/#lectura=ca-S031) | Una bústia per a propostes | 4t | Provisional · revisió superada | 2026-11-20 | `cc1776a230e1…` |
 | [ca-S032](https://sentit.ortogra.fi/#lectura=ca-S032) | Una ruta amb pistes | 4t | Provisional · revisió superada | 2026-11-21 | `a6a628640b23…` |

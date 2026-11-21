@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.57 · 21 de novembre de 2026
+
+- S029: eliminat l’aclariment redundant sobre el pla alternatiu. L’avís de la ubicació definitiva es publicarà el mateix divendres a les quatre de la tarda, coherent al bloc de pluja, al tancament i al solucionari.
+- Sis preguntes i cites actualitzades; revisió independent renovada i autorització docent per a la síntesi de Mar/Erinome registrada per al text exacte. La sintonia informativa continua pendent de tria abans del muntatge.
+- Incorporada S029 al lot candidat L03, que passa a uns 7:36 previstos i completa la finestra de sis a vuit minuts. Pla de lots i seguiment actualitzats; cap petició nova enviada.
+
 ## 0.1.56 · 21 de novembre de 2026
 
 - S040: l’exposició queda identificada com a objectes antics de casa i es concreta una capseta de joies abans d’introduir «peça», sense afegir-ne una definició explícita.

@@ -1,6 +1,7 @@
 export const strings = {
   ca: {
     language: 'ca',
+    releaseS029Approved: 'S029: decisió de la ubicació del cinema anunciada divendres a les quatre de la tarda, amb tancament i solucionari coherents. Guió validat per a veus després dels canvis demanats i la revisió independent. Incorporada al lot L03, ara d’uns set minuts i mig previstos; cap síntesi enviada.',
     releaseS040Context: 'S040: exposició d’objectes antics contextualitzada abans d’utilitzar «peça». Laia parla com a visitant i explica què li costa imaginar quan escolta les mides. Nora diferencia les proves sense música del muntatge final. Preguntes i ressaltats actualitzats; pendent del vistiplau docent, sense síntesi.',
     releaseS032Context: 'S032: pista inicial amb un record conegut només pel grup, substituït per una descripció física de la taula que també pot trobar l’altra classe. Revisats el torn final de Laia, la pregunta i els ressaltats. Pendent del vistiplau docent, sense síntesi.',
     releaseDateS033: '21 de novembre de 2026',
@@ -235,6 +236,7 @@ export const strings = {
   },
   es: {
     language: 'es',
+    releaseS029Approved: 'S029: ubicación definitiva del cine anunciada el viernes a las cuatro de la tarde, con cierre y solucionario coherentes. Guion validado para voces tras los cambios solicitados y la revisión independiente. Incorporada al lote L03, ahora de unos siete minutos y medio previstos; ninguna síntesis enviada.',
     releaseS040Context: 'S040: exposición de objetos antiguos contextualizada antes de utilizar «pieza». Laia habla como visitante y explica qué le cuesta imaginar cuando escucha las medidas. Nora distingue las pruebas sin música del montaje final. Preguntas y resaltados actualizados; pendiente del visto bueno docente, sin síntesis.',
     releaseS032Context: 'S032: pista inicial con un recuerdo conocido solo por el grupo, sustituido por una descripción física de la mesa que también puede encontrar la otra clase. Revisados el turno final de Laia, la pregunta y los resaltados. Pendiente del visto bueno docente, sin síntesis.',
     releaseDateS033: '21 de noviembre de 2026',

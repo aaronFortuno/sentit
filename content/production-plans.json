@@ -703,9 +703,9 @@
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
   },
   "S029": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "7721097a821d76d0a15a5199bb93ea8046b88e2877353211fd49b8ce13f75e23",
+    "reviewedAt": "2026-11-21T08:12:38.478Z",
     "reviewActivity": "ca-S029",
     "reviewContent": "content/propostes/tanda2/tercer.js",
     "format": "3r avançada: integrar una condició simple, distingir gratuïtat de reserva i separar el lloc previst de l’alternatiu. Sis preguntes, sense exigir recordar totes les dades de la notícia.",
@@ -719,7 +719,9 @@
       "Mar": "Erinome"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvedScope": "voices-only",
+    "approvalSource": "Validació explícita condicionada del docent el 21/11/2026: «Fent aquests canvis que et dic el text quedaria validat per síntesi de veus». Aplicats el bloc de pluja proposat, l’avís del mateix divendres a les quatre de la tarda i els canvis corresponents al tancament, al solucionari i a les cites. Text i Mar/Erinome autoritzats; sintonia informativa pendent de seleccionar abans del muntatge. Producció només en un lot compatible de sis a vuit minuts."
   },
   "S030": {
     "status": "awaiting-validation",
