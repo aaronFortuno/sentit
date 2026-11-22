@@ -1601,5 +1601,41 @@ export const productionProgress = {
     "requestHash": "3a86ff8ea619d9fa32f7582a144656f791631478c642722f8e98ef6e5c8a5eb0",
     "audioSha256": "6a4ea0b52dcf932b3684b4e288642c007bec1d52a9588ffabba0dc030718023d",
     "montageNewSynthesisRequests": 0
+  },
+  "ca-S049": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-22T17:52:11.110Z",
+    "editorialFingerprint": "50db317831e7d6bbda48df59d3b674c5aa91de945c5f4a5c8d8b7ea66cd767f0",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "S049 validada per síntesi de veus",
+    "reason": "Guió, Laia/Leda i Pau/Charon i escaleta validats. Pendent de completar les validacions de P02 i preparar l’entrada del lot compatible de sis a vuit minuts; cap petició nova enviada."
+  },
+  "ca-S048": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-22T17:52:11.110Z",
+    "editorialFingerprint": "b4f97ed8c7150ae7e3b1c3686eaef4695b8aa9d7655cdd235cbac33e33b0fe6f",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "S048 validada per síntesi de veus",
+    "reason": "Guió, Laia/Leda i Pau/Charon i escaleta validats. Pendent de completar les validacions de P02 i preparar l’entrada del lot compatible de sis a vuit minuts; cap petició nova enviada."
+  },
+  "ca-S050": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-22T17:54:15.727Z",
+    "editorialFingerprint": "76312e8edcbb472f8045b7f8a0af2a644b0f0a52afb78be7a38b049c738c810e",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "S050 validada per síntesi de veus",
+    "reason": "Guió, Laia/Leda i Pau/Charon i escaleta validats. P02 completa les quatre validacions; preparar una única petició compatible amb entrada sense marques literals de pausa."
+  },
+  "ca-S052": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-22T17:55:43.315Z",
+    "editorialFingerprint": "6795a7f1e2c0d0371d878125ceff16c9c1fd8828d953e09d6722cef5e6748929",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "S052 validada per síntesi de veus",
+    "reason": "Guió, veus i escaleta validats; P03 encara espera la validació de S051 abans de preparar el lot amb S040."
   }
 };

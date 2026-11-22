@@ -1103,49 +1103,67 @@
     "ending": "Marges de consonants, pujada i fosa segons escaleta. Cap síntesi abans de validació docent; agrupar amb comprensions compatibles."
   },
   "S048": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "b826b94ad90b07e8adfd91e7289598be1bc7a2e1699bfd2ecf0c328cd71ac834",
+    "reviewedAt": "2026-11-22T17:52:11.110Z",
     "reviewActivity": "ca-S048",
     "reviewContent": "content/propostes/tanda3/mercat.js",
-    "format": "Proposta curta de 3r–4t amb repartiment constant, guió, preguntes, solucionari i escaleta per revisar al web.",
+    "format": "3r accessible: dos tipus d’objecte ben diferenciats i causes explícites. Sis preguntes sobre el destí de cada caixa, l’ordre de la feina i la decisió de deixar-ne una apartada.",
     "requiredVoices": {
       "Laia": "Leda",
       "Pau": "Charon"
     },
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
-    "ending": "Marges de consonants, pujada i fosa segons escaleta. Cap síntesi abans de validació docent; agrupar amb comprensions compatibles."
+    "ending": "Veu i muntatge segons l’escaleta validada; síntesi en un lot compatible de sis a vuit minuts. Audició i publicació definitiva pendents.",
+    "cues": [
+      "Mercat real durant dos segons. Baixar l’ambient abans de Laia i mantenir-lo molt discret; no afegir cap tercera veu intel·ligible.",
+      "Pausa curta amb cartró real que es plega. L’ambient continua baix; cap so de resposta correcta.",
+      "Després de la veu, pujar l’ambient dos segons, fer la fosa i conservar 600 ms de silenci. No afegir una nova acció que canviï el relat."
+    ],
+    "approvalSource": "Validació explícita del docent el 22/11/2026: «S048 també validada per síntesi de veus». Guió, veus i escaleta autoritzats; incorporar la presa completa al grup Laia/Leda i Pau/Charon, sense enviaments curts aïllats."
   },
   "S049": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "8692cb51ecdbed7b07d67114994ad7fbb7c23ab640324446dbfbe39e4885e27f",
+    "reviewedAt": "2026-11-22T17:52:11.110Z",
     "reviewActivity": "ca-S049",
     "reviewContent": "content/propostes/tanda3/mercat.js",
-    "format": "Proposta curta de 3r–4t amb repartiment constant, guió, preguntes, solucionari i escaleta per revisar al web.",
+    "format": "3r intermèdia: distingir ubicació habitual i temporal, entendre el motiu del trasllat i identificar dues maneres de trobar la parada. Sis preguntes sense exigir imaginar un mapa ni recordar números.",
     "requiredVoices": {
       "Laia": "Leda",
       "Pau": "Charon"
     },
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
-    "ending": "Marges de consonants, pujada i fosa segons escaleta. Cap síntesi abans de validació docent; agrupar amb comprensions compatibles."
+    "ending": "Veu i muntatge segons l’escaleta validada; síntesi en un lot compatible de sis a vuit minuts. Audició i publicació definitiva pendents.",
+    "cues": [
+      "Ambient real de mercat i una caixa recolzada abans de la salutació. Cap veu de treballador ni soroll d’obra que tapi les dades.",
+      "Pausa breu amb moviment real de caixa. Mantenir l’ambient continu, sense campaneta ni passos que resolguin la pregunta de lloc.",
+      "Deixar acabar la frase, pujar l’ambient dos segons i fer una fosa de dos segons. Conservar 600 ms finals."
+    ],
+    "approvalSource": "Validació explícita del docent el 22/11/2026: «S049 validat per síntesi de veus». Guió, veus i escaleta autoritzats; incorporar la presa completa al grup Laia/Leda i Pau/Charon, sense enviaments curts aïllats."
   },
   "S050": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "8c88cfeba9e671b9cb050236decd1d9e7d38dbf4d4da56511f89e629a28e6cd1",
+    "reviewedAt": "2026-11-22T17:54:15.727Z",
     "reviewActivity": "ca-S050",
     "reviewContent": "content/propostes/tanda3/mercat.js",
-    "format": "Proposta curta de 3r–4t amb repartiment constant, guió, preguntes, solucionari i escaleta per revisar al web.",
+    "format": "3r intermèdia: entendre una comprovació amb un objecte present i seguir-ne l’ordre. Sis preguntes de causa i seqüència; no es demanen restes, decimals, preus ni coneixements previs de balances.",
     "requiredVoices": {
       "Laia": "Leda",
       "Pau": "Charon"
     },
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
-    "ending": "Marges de consonants, pujada i fosa segons escaleta. Cap síntesi abans de validació docent; agrupar amb comprensions compatibles."
+    "ending": "Veu i muntatge segons l’escaleta validada; síntesi en un lot compatible de sis a vuit minuts. Audició i publicació definitiva pendents.",
+    "cues": [
+      "Ambient real de mercat durant dos segons; baixar-lo abans de la primera paraula. Sense números llegits per una màquina ni veus addicionals.",
+      "Pausa curta amb una safata real recolzada, sense un xiulet sintètic ni una lectura de pantalla.",
+      "Veu completa, pujada d’ambient de dos segons, fosa i 600 ms de silenci. No afegir un so d’error o d’encert."
+    ],
+    "approvalSource": "Validació explícita del docent el 22/11/2026: «S050 també validada per síntesi de veus». Guió, veus i escaleta autoritzats; incorporar la presa completa al grup Laia/Leda i Pau/Charon, sense enviaments curts aïllats."
   },
   "S051": {
     "status": "awaiting-validation",
@@ -1163,19 +1181,25 @@
     "ending": "Marges de consonants, pujada i fosa segons escaleta. Cap síntesi abans de validació docent; agrupar amb comprensions compatibles."
   },
   "S052": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "e365a051b8b7e094872c0540df7cfea749963ddfaae33bbb5392455d72d0740c",
+    "reviewedAt": "2026-11-22T17:55:43.315Z",
     "reviewActivity": "ca-S052",
     "reviewContent": "content/propostes/tanda3/nora.js",
-    "format": "Proposta curta de 3r–4t amb repartiment constant, guió, preguntes, solucionari i escaleta per revisar al web.",
+    "format": "4t intermèdia: revisar una primera interpretació a partir d’una observació i relacionar forma, ús i informació aportada per una família. Set preguntes, inclosa una comparació breu entre el que Laia pensa al principi i el que descobreix.",
     "requiredVoices": {
       "Laia": "Leda",
       "Nora": "Kore"
     },
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
-    "ending": "Marges de consonants, pujada i fosa segons escaleta. Cap síntesi abans de validació docent; agrupar amb comprensions compatibles."
+    "ending": "Veu i muntatge segons l’escaleta validada; síntesi en un lot compatible de sis a vuit minuts. Audició i publicació definitiva pendents.",
+    "cues": [
+      "Dos segons d’estança real. Fons discret sota totes dues veus; cap so d’obertura abans de presentar l’objecte.",
+      "Pausa breu de paper real, sense llegir una carta ni fer sentir el plomí escrivint. La capsa es manté oberta durant el diàleg.",
+      "Deixar la darrera frase sencera. Pujada d’ambient de dos segons, fosa i 600 ms finals; no afegir la segona gravació ni un nou comiat."
+    ],
+    "approvalSource": "Validació explícita del docent el 22/11/2026: «S052 validat també per síntesi de veus». Guió, Laia/Leda i Nora/Kore i escaleta autoritzats; agrupar la presa completa en un lot compatible."
   },
   "S053": {
     "status": "awaiting-validation",
