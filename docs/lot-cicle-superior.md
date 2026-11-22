@@ -4,7 +4,7 @@ Actualitzat: **22/11/2026**. **30 comprensions orals** en 6 blocs de repartiment
 
 | Bloc per revisar | Repartiment fix | Codis | Guions validats pel docent |
 | --- | --- | --- | ---: |
-| [Les notícies de la Mar](#mar) | Mar · Erinome | S053, S054, S055, S056, S057 | 0/5 |
+| [Les notícies de la Mar](#mar) | Mar · Erinome | S053, S054, S055, S056, S057 | 1/5 |
 | [Les troballes de la Laia i en Biel](#laia-biel) | Laia i Biel · Leda + Puck | S058, S059, S060, S061, S062 | 1/5 |
 | [A classe amb la Mireia · amb en Biel](#mireia-biel) | Mireia i Biel · Aoede + Puck | S063, S064, S065, S066, S067 | 0/5 |
 | [Els records de l’avi Ferran](#ferran) | Ferran · Algenib | S068, S069, S070, S071, S072 | 1/5 |
@@ -29,7 +29,7 @@ Mar · Erinome. Les lectures són independents; no cal haver-ne escoltat cap alt
 | [ca-S054](https://sentit.ortogra.fi/#lectura=ca-S054) | Una finestra per recollir els encàrrecs | 5è · Intermèdia | Notícia | Prevista 2:00–2:25 | 8 | Provisional · pendent del docent |
 | [ca-S055](https://sentit.ortogra.fi/#lectura=ca-S055) | Els cartells de cinema tornen al barri | 6è · Accessible | Notícia | Prevista 1:50–2:20 | 9 | Provisional · pendent del docent |
 | [ca-S056](https://sentit.ortogra.fi/#lectura=ca-S056) | El taller canvia de casa | 5è · Avançada | Notícia | Prevista 2:55–3:30 | 8 | Provisional · pendent del docent |
-| [ca-S057](https://sentit.ortogra.fi/#lectura=ca-S057) | La volta nova del bus de dissabte | 6è · Avançada | Notícia | Prevista 3:00–3:35 | 9 | Provisional · pendent del docent |
+| [ca-S057](https://sentit.ortogra.fi/#lectura=ca-S057) | La volta nova del bus de dissabte | 6è · Avançada | Notícia | Prevista 3:00–3:35 | 9 | Guió validat · dificultat per valorar després d’escoltar |
 
 [Filtra el catàleg per aquest repartiment](https://sentit.ortogra.fi/?personatge=mar) · [Guions i escaletes del bloc](../content/propostes/tanda4/noticies.js). El filtre també pot mostrar peces de tandes anteriors; activa «Només provisionals» per revisar feina oberta. Les acotacions descriuen recursos proposats, no gravacions ja produïdes.
 

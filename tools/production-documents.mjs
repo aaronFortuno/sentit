@@ -157,7 +157,7 @@ export async function productionDocuments(date) {
   for (const group of fourthBatchGroups) {
     cohort += `\n<a id="${group.id}"></a>\n\n## ${group.title}\n\n${group.cast}. Les lectures són independents; no cal haver-ne escoltat cap altra per entendre-les.\n\n| Codi | Títol | Curs · dificultat | Tipologia | Durada prevista | Preguntes | Estat |\n| --- | --- | --- | --- | --- | ---: | --- |\n`;
     for (const entry of group.entries) {
-      const state = (isPublished(entry) ? 'Definitiva' : entry.audio ? 'Àudio en revisió' : hasPendingMontage(entry) ? 'Veus rebudes' : hasApprovedScript(entry) ? 'Guió validat' : isEditoriallyReviewed(entry) ? 'Provisional · pendent del docent' : 'Esborrany en revisió') + (progress(entry)?.gradingReview?.status === 'pending-listening' ? (progress(entry).gradingReview.reviewDifficulty ? ' · curs i dificultat per valorar després d’escoltar' : ' · curs per valorar després d’escoltar') : '');
+      const state = (isPublished(entry) ? 'Definitiva' : entry.audio ? 'Àudio en revisió' : hasPendingMontage(entry) ? 'Veus rebudes' : hasApprovedScript(entry) ? 'Guió validat' : isEditoriallyReviewed(entry) ? 'Provisional · pendent del docent' : 'Esborrany en revisió') + (progress(entry)?.gradingReview?.status === 'pending-listening' ? (progress(entry).gradingReview.reviewDifficulty ? (progress(entry).gradingReview.reviewCourse === false ? ' · dificultat per valorar després d’escoltar' : ' · curs i dificultat per valorar després d’escoltar') : ' · curs per valorar després d’escoltar') : '');
       cohort += row([link(entry), entry.title, grade(entry) + ' · ' + levels[entry.level], genres[entry.genre], duration(entry), entry.questions.length, state]);
     }
     const castQuery = new URLSearchParams();

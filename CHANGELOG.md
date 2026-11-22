@@ -2,6 +2,8 @@
 
 ## 0.1.75 · 22 de novembre de 2026
 
+- S057 validada per síntesi; es conserven 6è avançada i les nou preguntes. La dificultat es confirmarà escoltant l’àudio muntat.
+- Anotada una línia futura d’activitats que combinin àudio amb mapes, plànols, horaris o cartells impresos, per explorar després del catàleg en producció. Encaix com a família de Sentit o projecte propi pendent de decidir.
 - S069 i S075 validades pel docent per a síntesi, mantenint cursos, dificultats i preguntes. Els lots continuen subjectes a sis a vuit minuts amb repartiments compatibles; cap síntesi nova en aquesta iteració.
 - S069D: versió dialogada de «La pissarra del partit» amb Aina/Zephyr i Ferran/Algenib. Conserva l’original narrat i les vuit exigències de comprensió; guió, solucionari, ancoratges i escaleta amb una presa completa, pendents de validació docent pròpia després de la revisió independent.
 - Context propi de S069D, amb registre independent actualitzat a 86 comprensions. La nova variant s’obre al solucionari amb el guió de treball, com els altres provisionals.

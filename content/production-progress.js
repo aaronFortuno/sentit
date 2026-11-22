@@ -1778,5 +1778,25 @@ export const productionProgress = {
       "Ambient continu real de sala de restaurant o bar, com una conversa de barra vinculada al servei. Xerrameca llunyana sense paraules entenedores, sense veus massa infantils, molt baixa sota Laia i Ona. Retorn docent posterior substitueix el fons genèric de cuina.",
       "Preparar ambient continu de sala/bar per a S075, sense pauses addicionals per papers o safates; qualsevol acció puntual conservada pot coincidir amb la conversa."
     ]
+  },
+  "ca-S057": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-22T19:41:58.762Z",
+    "editorialFingerprint": "03aef36d86408dd60a008261d91e64f1996e260e991def08a1f230f85cf4a129",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "S057 validada per síntesi de veus",
+    "reason": "Agrupar notícies completes validades de Mar/Erinome fins a sis a vuit minuts. Confirmar dificultat amb l’àudio muntat.",
+    "gradingReview": {
+      "status": "pending-listening",
+      "reviewAfter": "mounted-audio",
+      "currentGrade": "6",
+      "currentLevel": "advanced",
+      "reviewCourse": false,
+      "reviewDifficulty": true,
+      "candidateGrade": null,
+      "candidateGradeLabel": "Es manté 6è",
+      "note": "Confirmar la dificultat després d’escoltar l’àudio muntat. Es mantenen provisionalment 6è avançada i nou preguntes; cap canvi de curs proposat."
+    }
   }
 };

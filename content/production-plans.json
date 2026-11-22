@@ -1264,9 +1264,9 @@
     "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
   },
   "S057": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "c04848c09cb4c43b56f629446b1d64eb4ca886e086195ab9c53903002d0675bd",
+    "reviewedAt": "2026-11-22T19:41:58.762Z",
     "reviewActivity": "ca-S057",
     "reviewContent": "content/propostes/tanda4/noticies.js",
     "format": "6è avançada: diferenciar canvis de recorregut, canvis d’horari i resultats d’una primera prova; contrastar dos casos de passatgers i explicar una compensació concreta. Nou preguntes amb síntesi entre passatges. Servei i dades completament ficticis.",
@@ -1275,7 +1275,13 @@
     },
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
-    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+    "ending": "Veus i muntatge segons l’escaleta validada, amb identitat sonora de noticiari segons la pauta vigent. Síntesi dins un lot compatible de sis a vuit minuts; audició i publicació definitiva pendents.",
+    "cues": [
+      "Ona curta proposada i un segon d’autobús real, retirat abans de la veu. No s’afegeix cap avís de megafonia.",
+      "Pausa de respiració amb ambient real de parada molt baix i curt. Cap lectura de números ni veu de passatger afegida.",
+      "Deixar la darrera paraula completa, tancament Ona curta i cua de silenci. No afegir un altre autobús ni un so d’enllaç perdut."
+    ],
+    "approvalSource": "Validació explícita del docent el 22/11/2026: «S057 validat per síntesi de veu a l’espera de confirmar dificultat quan tinguem el muntatge». Guió, Mar/Erinome i escaleta autoritzats. Es mantenen 6è avançada i nou preguntes; revisar només la dificultat després de l’àudio muntat. La idea d’activitats híbrides queda anotada separadament per explorar més endavant."
   },
   "S058": {
     "status": "awaiting-validation",

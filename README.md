@@ -14,6 +14,8 @@ Les fitxes inclouen **Context amb Sentit**, un text breu abans de les instruccio
 
 [«Vida quotidiana»](docs/vida-quotidiana.md) queda reservada per a una futura tanda de cicle inicial i mitjà: converses més espontànies de botiga, parc, carrer i casa, amb els recurrents actuals. Encara no activa cap univers ni curs nou al catàleg.
 
+[Àudio i documents impresos](docs/activitats-hibrides.md) recull una altra línia futura: relacionar una locució amb mapes, plànols, horaris o cartells per resoldre activitats híbrides. Es valorarà després de tancar la tanda actual, amb l’encaix a Sentit o en un projecte propi encara obert.
+
 ## Estat actual · 21/11/2026
 
 Els 44 codis base, ca-S001–ca-S044, tenen guió, preguntes i solucionari. S004D, S008R i S038D són variants addicionals. S038D és una conversa entre Aina i Ferran amb guió validat independentment; S038 narrada es conserva i també té autoritzades les veus. S025–S044 són vint propostes noves, cinc per curs de 3r a 6è, amb 150 preguntes i revisió adversària final superada; totes vint ja tenen el guió validat per a veus. S011 s’ha ajustat a 4t avançada; les dificultats són orientatives i es calibren amb el docent.

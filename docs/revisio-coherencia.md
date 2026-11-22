@@ -64,7 +64,7 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S054](https://sentit.ortogra.fi/#lectura=ca-S054) | Una finestra per recollir els encàrrecs | 5è | Provisional · revisió superada | 2026-11-22 | `34e48649d1bc…` |
 | [ca-S055](https://sentit.ortogra.fi/#lectura=ca-S055) | Els cartells de cinema tornen al barri | 6è | Provisional · revisió superada | 2026-11-22 | `7ba953cb5e8e…` |
 | [ca-S056](https://sentit.ortogra.fi/#lectura=ca-S056) | El taller canvia de casa | 5è | Provisional · revisió superada | 2026-11-22 | `39766217bff3…` |
-| [ca-S057](https://sentit.ortogra.fi/#lectura=ca-S057) | La volta nova del bus de dissabte | 6è | Provisional · revisió superada | 2026-11-22 | `03aef36d8640…` |
+| [ca-S057](https://sentit.ortogra.fi/#lectura=ca-S057) | La volta nova del bus de dissabte | 6è | Revisió superada · guió validat | 2026-11-22 | `03aef36d8640…` |
 | [ca-S058](https://sentit.ortogra.fi/#lectura=ca-S058) | La pancarta que tapava la porta | 5è | Provisional · revisió superada | 2026-11-22 | `56df8abc8b9a…` |
 | [ca-S059](https://sentit.ortogra.fi/#lectura=ca-S059) | La partida que no cabia a la taula | 5è | Provisional · revisió superada | 2026-11-22 | `90553a1f4742…` |
 | [ca-S060](https://sentit.ortogra.fi/#lectura=ca-S060) | Un soroll darrere de les veus | 6è | Provisional · revisió superada | 2026-11-22 | `50ec61443b79…` |
