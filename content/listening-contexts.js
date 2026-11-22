@@ -73,6 +73,7 @@ export const listeningContexts = {
   'ca-S067': 'Dos grups han preguntat als companys pels llibres que llegeixen. Ara volen posar en comú les respostes que han recollit. Escolta la conversa d’en Biel amb la Mireia mentre es miren la feina dels grups.',
   'ca-S068': 'L’avi Ferran recorda un viatge amb el pare i la mare. Havien d’agafar un tren i duien una capsa amb ells. Escolta com explica aquell dia i els moments que li han quedat a la memòria.',
   'ca-S069': 'De jove, en Ferran va donar un cop de mà durant un partit del barri. Hi havia gent pendent del joc i ell tenia una feina per fer. Escolta el record que explica a l’Aina d’aquella tarda.',
+  'ca-S069D': 'L’Aina pregunta a l’avi Ferran pel futbol de quan era petit. Ell recorda una tarda en què va donar un cop de mà durant un partit del barri. Escolta la conversa i imagina’t al seu costat mentre ho explica.',
   'ca-S070': 'L’avi Ferran recorda un ball de festa i la música que hi sonava. La família hi era i la vetllada va prendre un camí inesperat. Escolta com explica aquell vespre i què recorda del seu pare.',
   'ca-S071': 'En Ferran arriba a un espectacle amb les entrades a la mà. A la porta s’atura a parlar amb qui les revisa. Escolta el relat i acompanya’l durant els moments abans de començar la funció.',
   'ca-S072': 'De petit, en Ferran ajudava una tieta a vendre coques els dissabtes. A la parada hi havia un quadern per apuntar-hi coses. Escolta el record que explica d’un matí de feina amb la tieta.',

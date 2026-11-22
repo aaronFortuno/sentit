@@ -1,5 +1,12 @@
 # Canvis
 
+## 0.1.75 · 22 de novembre de 2026
+
+- S069 i S075 validades pel docent per a síntesi, mantenint cursos, dificultats i preguntes. Els lots continuen subjectes a sis a vuit minuts amb repartiments compatibles; cap síntesi nova en aquesta iteració.
+- S069D: versió dialogada de «La pissarra del partit» amb Aina/Zephyr i Ferran/Algenib. Conserva l’original narrat i les vuit exigències de comprensió; guió, solucionari, ancoratges i escaleta amb una presa completa, pendents de validació docent pròpia després de la revisió independent.
+- Context propi de S069D, amb registre independent actualitzat a 86 comprensions. La nova variant s’obre al solucionari amb el guió de treball, com els altres provisionals.
+- Criteri de muntatge de l’Ona: ambient real continu de cuina per a fogons o de sala/bar per a barra i servei. S075 es prepara amb ambient de sala/bar, segons el retorn docent; no s’ha substituït encara cap màster.
+
 ## 0.1.74 · 22 de novembre de 2026
 
 - «Context amb Sentit al full» passa al capdamunt del sidebar dret d’impressió, conservant les preferències desades.

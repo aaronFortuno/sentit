@@ -6,6 +6,7 @@ Criteri docent del **22/11/2026** per als propers muntatges i revisions. Les veu
 
 - **Mercat:** ambient enregistrat continu de parades, botigues i activitat de fons. Mantenir-lo baix, sense converses secundàries entenedores.
 - **Aula:** a les escenes de petit grup de la Mireia, ambient continu de jovent treballant i conversant. Evitar grups de veus massa infantils. La situació concreta mana: una conversa de la Mireia a l’exterior necessita l’ambient que li correspon.
+- **Restaurant de l’Ona:** ambient continu real de cuina per a escenes de fogons; ambient de sala de restaurant o bar per a converses de barra i servei. A S075 es prepararà la segona opció, molt baixa sota Laia i Ona. Conservar la continuïtat del lloc sense sobrecarregar-lo de safates, papers ni accions puntuals.
 - **S062:** el docent confirma ambient continu de jovent, d’aula o espai semblant, sota Laia i Biel. Aquest retorn substitueix la indicació anterior de retirar el passadís abans de les veus. Curs i dificultat continuen pendents de confirmar després del muntatge.
 - Papers, safates, cadires i altres accions només quan s’entenguin i aportin alguna cosa. Valorar-les simultànies a una frase; no introduir silencis llargs per donar-los un torn propi. Si no ajuden, ometre-les.
 

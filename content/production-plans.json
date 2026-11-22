@@ -1453,9 +1453,9 @@
     "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
   },
   "S069": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "02601ed65ece3e2212b5d1fc46daa94fd0e468a31f17d0979cef9a83e4c8c07d",
+    "reviewedAt": "2026-11-22T19:33:51.066Z",
     "reviewActivity": "ca-S069",
     "reviewContent": "content/propostes/tanda4/records.js",
     "format": "5è intermèdia: relacionar un canvi d’orientació amb un error de referent, diferenciar els noms fixos dels equips del costat on juguen i reconstruir com corregeixen el marcador. Vuit preguntes, sense haver de sumar el resultat.",
@@ -1464,7 +1464,13 @@
     },
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
-    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+    "ending": "Veus i muntatge segons l’escaleta validada; síntesi en un lot compatible de sis a vuit minuts. Audició i publicació definitiva pendents.",
+    "cues": [
+      "Pista esportiva enregistrada durant dos segons i base «Dos noms a la pissarra» proposada. Retirar l’ambient abans de Ferran.",
+      "Pausa curta amb guix real; cap veu de jugador ni xiulet que interrompi el relat.",
+      "Veu completa; pujada de base de dos segons, fosa i silenci final, sense càmera ni terceres veus afegides."
+    ],
+    "approvalSource": "Validació explícita del docent el 22/11/2026: «S069 validat per síntesi de veus». Guió, repartiment i escaleta autoritzats. Qualificació actual conservada."
   },
   "S070": {
     "status": "awaiting-validation",
@@ -1545,9 +1551,9 @@
     "approvalSource": "Validació explícita del docent el 22/11/2026: «S074 tot correcte, validat per síntesi de veus també». Curs i dificultat pendents de confirmar després d’escoltar l’àudio; es mantenen 5è i intermèdia. Guió, Laia/Leda i Ona/Sulafat i escaleta autoritzats."
   },
   "S075": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "c981b10479e215bfe49170002a3f47fa1223aab794e83f86e30c8ec884112bc7",
+    "reviewedAt": "2026-11-22T19:33:51.066Z",
     "reviewActivity": "ca-S075",
     "reviewContent": "content/propostes/tanda4/cuina.js",
     "format": "6è accessible: comparar fotografia, prova anterior i servei previst. Nou preguntes amb una inferència sobre per què una imatge atractiva pot ser inadequada sense recórrer a coneixements publicitaris externs.",
@@ -1557,7 +1563,18 @@
     },
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
-    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+    "ending": "Veus i muntatge segons l’escaleta validada; síntesi en un lot compatible de sis a vuit minuts. Audició i publicació definitiva pendents.",
+    "cues": [
+      "Ambient continu real de sala de restaurant o bar, com una conversa de barra vinculada al servei. Xerrameca llunyana sense paraules entenedores, sense veus massa infantils, molt baixa sota Laia i Ona. Retorn docent posterior substitueix el fons genèric de cuina.",
+      "Pausa curta amb un plat real col·locat. Sense sons de càmera que indiquin que la foto ja està feta.",
+      "Pujada d’ambient de dos segons després de la veu, fosa i 600 ms finals. Cap tercera intervenció."
+    ],
+    "approvalSource": "Validació explícita del docent el 22/11/2026: «S075 validat per síntesi de veus». Guió, repartiment i escaleta autoritzats. Qualificació actual conservada.",
+    "montageFeedback": {
+      "date": "2026-11-22",
+      "source": "El docent situa les converses d’Ona al restaurant: cuina per fogons, sala/bar per barra. Per a S075 proposa barra i deixa la selecció final al criteri de muntatge.",
+      "override": "Preparar ambient continu de sala/bar per a S075, sense pauses addicionals per papers o safates; qualsevol acció puntual conservada pot coincidir amb la conversa."
+    }
   },
   "S076": {
     "status": "approved",
@@ -1669,5 +1686,25 @@
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
     "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+  },
+  "S069D": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S069D",
+    "reviewContent": "content/propostes/s069-dialogada.js",
+    "format": "Variant dialogada de S069, conservada íntegra. 5è intermèdia: relacionar el canvi de costat dels jugadors amb l’error de marcador, interpretar els senyals del cosí i reconstruir la correcció. Mateixes vuit exigències de comprensió, ara amb les preguntes i reaccions de l’Aina. Pendent de validació docent pròpia.",
+    "cues": [
+      "Dos segons de base musical molt suau. Les dues veus parlen en el present; els fets del partit només es recorden. Cap xiulet ni tercera veu.",
+      "Pausa breu i natural de conversa. La música continua molt baixa; no es representa el partit amb efectes.",
+      "Deixar acabar la darrera paraula. Pujar la base durant dos segons, fosa de dos segons i 600 ms de silenci. Sense càmera ni rialles afegides."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Aina": "Zephyr",
+      "Ferran": "Algenib"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Proposta independent de S069. Cap síntesi fins a la validació docent de la variant; després agrupar repartiments complets compatibles."
   }
 }

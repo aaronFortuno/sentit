@@ -7,8 +7,8 @@ Actualitzat: **22/11/2026**. **30 comprensions orals** en 6 blocs de repartiment
 | [Les notícies de la Mar](#mar) | Mar · Erinome | S053, S054, S055, S056, S057 | 0/5 |
 | [Les troballes de la Laia i en Biel](#laia-biel) | Laia i Biel · Leda + Puck | S058, S059, S060, S061, S062 | 1/5 |
 | [A classe amb la Mireia · amb en Biel](#mireia-biel) | Mireia i Biel · Aoede + Puck | S063, S064, S065, S066, S067 | 0/5 |
-| [Els records de l’avi Ferran](#ferran) | Ferran · Algenib | S068, S069, S070, S071, S072 | 0/5 |
-| [Converses de cuina · Laia i Ona](#laia-ona) | Laia i Ona · Leda + Sulafat | S073, S074, S075, S076, S077 | 2/5 |
+| [Els records de l’avi Ferran](#ferran) | Ferran · Algenib | S068, S069, S070, S071, S072 | 1/5 |
+| [Converses de cuina · Laia i Ona](#laia-ona) | Laia i Ona · Leda + Sulafat | S073, S074, S075, S076, S077 | 3/5 |
 | [Converses al taller · Biel i Elies](#biel-elies) | Biel i Elies · Puck + Algieba | S078, S079, S080, S081, S082 | 0/5 |
 
 ## Com validar els blocs
@@ -74,7 +74,7 @@ Ferran · Algenib. Les lectures són independents; no cal haver-ne escoltat cap 
 | Codi | Títol | Curs · dificultat | Tipologia | Durada prevista | Preguntes | Estat |
 | --- | --- | --- | --- | --- | ---: | --- |
 | [ca-S068](https://sentit.ortogra.fi/#lectura=ca-S068) | El dinar al banc de l’estació | 5è · Accessible | Narració | Prevista 2:00–2:30 | 8 | Provisional · pendent del docent |
-| [ca-S069](https://sentit.ortogra.fi/#lectura=ca-S069) | La pissarra del partit | 5è · Intermèdia | Narració | Prevista 2:15–2:45 | 8 | Provisional · pendent del docent |
+| [ca-S069](https://sentit.ortogra.fi/#lectura=ca-S069) | La pissarra del partit | 5è · Intermèdia | Narració | Prevista 2:15–2:45 | 8 | Guió validat |
 | [ca-S070](https://sentit.ortogra.fi/#lectura=ca-S070) | El dia que no va sonar el disc | 6è · Accessible | Narració | Prevista 1:55–2:20 | 9 | Provisional · pendent del docent |
 | [ca-S071](https://sentit.ortogra.fi/#lectura=ca-S071) | Les dues entrades blaves | 5è · Avançada | Narració | Prevista 3:10–3:50 | 8 | Provisional · pendent del docent |
 | [ca-S072](https://sentit.ortogra.fi/#lectura=ca-S072) | El quadern de la parada | 6è · Avançada | Narració | Prevista 3:10–3:45 | 9 | Provisional · pendent del docent |
@@ -91,7 +91,7 @@ Laia i Ona · Leda + Sulafat. Les lectures són independents; no cal haver-ne es
 | --- | --- | --- | --- | --- | ---: | --- |
 | [ca-S073](https://sentit.ortogra.fi/#lectura=ca-S073) | El dinar que surt en dues tandes | 5è · Accessible | Entrevista | Prevista 2:00–2:25 | 8 | Provisional · pendent del docent |
 | [ca-S074](https://sentit.ortogra.fi/#lectura=ca-S074) | Les dues llibretes del pastís | 5è · Intermèdia | Entrevista | Prevista 2:10–2:40 | 8 | Guió validat · curs i dificultat per valorar després d’escoltar |
-| [ca-S075](https://sentit.ortogra.fi/#lectura=ca-S075) | La foto del plat de demà | 6è · Accessible | Entrevista | Prevista 1:55–2:25 | 9 | Provisional · pendent del docent |
+| [ca-S075](https://sentit.ortogra.fi/#lectura=ca-S075) | La foto del plat de demà | 6è · Accessible | Entrevista | Prevista 1:55–2:25 | 9 | Guió validat |
 | [ca-S076](https://sentit.ortogra.fi/#lectura=ca-S076) | L’encàrrec que havia crescut | 5è · Avançada | Entrevista | Prevista 3:10–3:45 | 8 | Guió validat · curs i dificultat per valorar després d’escoltar |
 | [ca-S077](https://sentit.ortogra.fi/#lectura=ca-S077) | El sopar que havia de viatjar | 6è · Avançada | Entrevista | Prevista 3:00–3:35 | 9 | Provisional · pendent del docent |
 

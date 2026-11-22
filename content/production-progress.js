@@ -1756,5 +1756,27 @@ export const productionProgress = {
       "Ambient real continu de jovent conversant en una aula o espai semblant, sense veus massa infantils ni paraules de fons entenedores. Entrada breu i molt tènue sota totes les intervencions de Laia i Biel.",
       "Ometre el moviment puntual de paper si no aporta context. Qualsevol acció conservada pot solapar-se amb la parla sense tapar dades; no afegir-hi una espera exclusiva."
     ]
+  },
+  "ca-S069": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-22T19:33:51.066Z",
+    "editorialFingerprint": "98d513f391e4b49069dd87e6ec6e7ea9308a37147a327cd2f068e6a1e43783c1",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "S069 validada per síntesi de veus",
+    "reason": "Agrupar records complets validats de Ferran/Algenib fins a sis a vuit minuts. S069D té validació pròpia pendent."
+  },
+  "ca-S075": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-22T19:33:51.066Z",
+    "editorialFingerprint": "94294ae5942a54af2a877d673e5e56496328defcd68bdacb2b2114d65dd1bf92",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "S075 validada per síntesi de veus",
+    "reason": "Agrupar lectures completes validades de Laia/Leda i Ona/Sulafat fins a sis a vuit minuts.",
+    "mixingNotes": [
+      "Ambient continu real de sala de restaurant o bar, com una conversa de barra vinculada al servei. Xerrameca llunyana sense paraules entenedores, sense veus massa infantils, molt baixa sota Laia i Ona. Retorn docent posterior substitueix el fons genèric de cuina.",
+      "Preparar ambient continu de sala/bar per a S075, sense pauses addicionals per papers o safates; qualsevol acció puntual conservada pot coincidir amb la conversa."
+    ]
   }
 };

@@ -414,6 +414,12 @@ export const editorialReviews = {
     "reviewer": "autoria_tanda4_cuina_taller",
     "fingerprint": "98d513f391e4b49069dd87e6ec6e7ea9308a37147a327cd2f068e6a1e43783c1"
   },
+  "ca-S069D": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "revisio_contextos_previs",
+    "fingerprint": "c1df39c4a654e4ac511bc6aeeabb44f6d1048bbea6b3b8d09dd7feb2dd72dfa7"
+  },
   "ca-S070": {
     "status": "passed",
     "reviewedAt": "2026-11-22",

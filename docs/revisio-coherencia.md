@@ -1,6 +1,6 @@
 # Revisió independent de coherència
 
-Actualitzat: **22/11/2026**. **82 de 82** propostes de la tanda tenen revisió independent superada per a la versió actual. Abast: 629 preguntes i 777 cites literals.
+Actualitzat: **22/11/2026**. **83 de 83** propostes de la tanda tenen revisió independent superada per a la versió actual. Abast: 637 preguntes i 787 cites literals.
 
 S’han revisat situacions, cronologia, circulació d’objectes, coneixement dels personatges, causes i desenllaços, acotacions sonores, preguntes, respostes i ancoratges. Les dades factuals sensibles s’han contrastat amb fonts primàries indicades al [dossier editorial](lot-editorial-24.md). La revisió del muntatge és sobre el guió; les veus i el resultat sonor requeriran audició.
 
@@ -76,13 +76,14 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S066](https://sentit.ortogra.fi/#lectura=ca-S066) | El mapa de sons del passadís | 5è | Provisional · revisió superada | 2026-11-22 | `29f372cc83b8…` |
 | [ca-S067](https://sentit.ortogra.fi/#lectura=ca-S067) | La mateixa pregunta? | 6è | Provisional · revisió superada | 2026-11-22 | `f0001aa5839a…` |
 | [ca-S068](https://sentit.ortogra.fi/#lectura=ca-S068) | El dinar al banc de l’estació | 5è | Provisional · revisió superada | 2026-11-22 | `b70c9862fe18…` |
-| [ca-S069](https://sentit.ortogra.fi/#lectura=ca-S069) | La pissarra del partit | 5è | Provisional · revisió superada | 2026-11-22 | `98d513f391e4…` |
+| [ca-S069](https://sentit.ortogra.fi/#lectura=ca-S069) | La pissarra del partit | 5è | Revisió superada · guió validat | 2026-11-22 | `98d513f391e4…` |
+| [ca-S069D](https://sentit.ortogra.fi/#lectura=ca-S069D) | La pissarra del partit · versió dialogada | 5è | Provisional · revisió superada | 2026-11-22 | `c1df39c4a654…` |
 | [ca-S070](https://sentit.ortogra.fi/#lectura=ca-S070) | El dia que no va sonar el disc | 6è | Provisional · revisió superada | 2026-11-22 | `c329111785d5…` |
 | [ca-S071](https://sentit.ortogra.fi/#lectura=ca-S071) | Les dues entrades blaves | 5è | Provisional · revisió superada | 2026-11-22 | `63e0c902e8ff…` |
 | [ca-S072](https://sentit.ortogra.fi/#lectura=ca-S072) | El quadern de la parada | 6è | Provisional · revisió superada | 2026-11-22 | `b7efd9ded637…` |
 | [ca-S073](https://sentit.ortogra.fi/#lectura=ca-S073) | El dinar que surt en dues tandes | 5è | Provisional · revisió superada | 2026-11-22 | `072b5aceaffb…` |
 | [ca-S074](https://sentit.ortogra.fi/#lectura=ca-S074) | Les dues llibretes del pastís | 5è | Revisió superada · guió validat | 2026-11-22 | `a6a24886eb9e…` |
-| [ca-S075](https://sentit.ortogra.fi/#lectura=ca-S075) | La foto del plat de demà | 6è | Provisional · revisió superada | 2026-11-22 | `94294ae5942a…` |
+| [ca-S075](https://sentit.ortogra.fi/#lectura=ca-S075) | La foto del plat de demà | 6è | Revisió superada · guió validat | 2026-11-22 | `94294ae5942a…` |
 | [ca-S076](https://sentit.ortogra.fi/#lectura=ca-S076) | L’encàrrec que havia crescut | 5è | Revisió superada · guió validat | 2026-11-22 | `f2370f29f20a…` |
 | [ca-S077](https://sentit.ortogra.fi/#lectura=ca-S077) | El sopar que havia de viatjar | 6è | Provisional · revisió superada | 2026-11-22 | `f60abdad44b4…` |
 | [ca-S078](https://sentit.ortogra.fi/#lectura=ca-S078) | El soroll que seguia la cadira | 5è | Provisional · revisió superada | 2026-11-22 | `be8e59b618a1…` |
