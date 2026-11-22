@@ -11,6 +11,9 @@ const root=path.resolve(__dirname,'..'),work=path.resolve(root,'../output/sentit
 async function buildBatch(activities,plans,repairs,batch){
  const {isEditoriallyReviewed}=await import('../editorial-review.js');
  const content=[],blocks=[],labels=new Map(),voiceIdentities=new Map();
+ const plain=batch.speechTextFormat==='plain-v1';
+ if(batch.speechTextFormat&&!plain)throw Error('Format de parla desconegut.');
+ let cast;
  const separatorTags=batch.separatorTags??2;if(![1,2].includes(separatorTags))throw Error('Cal almenys una pausa llarga entre blocs.');
  if(new Set(batch.blocks.map(b=>b.code+':'+(b.take??b.part))).size!==batch.blocks.length)throw Error('Blocs duplicats al lot.');
  for(const ref of batch.blocks){
@@ -19,9 +22,15 @@ async function buildBatch(activities,plans,repairs,batch){
   if(ref.take){
    if(entry.audio)throw Error(ref.code+': ja té àudio; no repetir la síntesi.');
    spec=productionSpec(entry);assertProductionApproved(entry,spec,plan);
+   if(plain){
+    if(entry.generationPlan.takes.length!==1||spec.performance||spec.overlaps)throw Error('plain-v1 requereix lectures completes sense marques vocals ni solapaments.');
+    const identity=JSON.stringify(Object.entries(spec.voices).sort(([a],[b])=>a.localeCompare(b)));
+    if(cast&&cast!==identity)throw Error('plain-v1 requereix el mateix repartiment exacte a totes les lectures.');cast=identity;
+   }
    const index=entry.generationPlan.takes.findIndex(t=>t.id===ref.take);if(index<0)throw Error('Presa desconeguda.');
    original=packedProposalRequests(entry)[index];sourceItems=original.input[0].content;parts=entry.generationPlan.takes[index].parts;
   }else{
+   if(plain)throw Error('plain-v1 encara no admet frases de reparació aïllades.');
    const correction=repairs[ref.code],repair=correction?.repairs.find(r=>r.part===ref.part);spec=repairSpec(entry);assertProductionApproved(entry,spec,plan);
    if(!repair||correction.status!=='approved-for-correction')throw Error('Esmena no autoritzada.');
    original=repairRequest(entry,correction);if(sha(JSON.stringify(original))!==correction.approvedRequestHash)throw Error('Esmena canviada.');
@@ -40,16 +49,25 @@ async function buildBatch(activities,plans,repairs,batch){
    if(voiceIdentities.has(sourceSpeaker)&&voiceIdentities.get(sourceSpeaker)!==voice)throw Error('Identitat inconsistent dins del lot.');voiceIdentities.set(sourceSpeaker,voice);
    if(!labels.has(voice))labels.set(voice,'Voice'+(labels.size+1));
    const cloned=structuredClone(item);cloned.annotations[0].speaker=labels.get(voice);
+   if(plain){
+    cloned.text=cloned.text.replace(/<long pause>|<short pause>/gu,'').trim();
+    if(/[<>|]/u.test(cloned.text))throw Error('El text pla conté marques no admeses.');
+   }
    const styleKey=voice+'\0'+cloned.annotations[0].style;
-   const repeatedStyle='Same Central Catalan voice and direction. Verbatim, with explicit pauses; no added sounds.';
+   const repeatedStyle=plain?'Same natural Central Catalan voice, pace and character. Read the words verbatim, with conversational turn-taking. No added sounds.':'Same Central Catalan voice and direction. Verbatim, with explicit pauses; no added sounds.';
    if(styles.has(styleKey)&&cloned.annotations[0].style.length>repeatedStyle.length)cloned.annotations[0].style=repeatedStyle;
    styles.add(styleKey);
    // A selected repair must not carry separators belonging to its old bundle.
    if(!ref.take)cloned.text=cloned.text.replace(/(?:\s*<long pause>)+$/u,'');
    items.push({text:cloned.text,sourceSpeaker,voice,requestIndex:content.length});content.push(cloned);
   }
-  content[start].annotations[0].style+=' This is a separate recording in a batch. Read this block exactly once, without referring to any other block. The text fields contain all and only the words to speak; never speak labels or instructions. After this block leave the indicated long pauses.';
-  content.at(-1).text+=' <long pause>'.repeat(separatorTags);
+  if(plain){
+   content[start].annotations[0].style+=' This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the same two character voices throughout all recordings. Instructions are not spoken.';
+   content.at(-1).annotations[0].style+=' Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition.';
+  }else{
+   content[start].annotations[0].style+=' This is a separate recording in a batch. Read this block exactly once, without referring to any other block. The text fields contain all and only the words to speak; never speak labels or instructions. After this block leave the indicated long pauses.';
+   content.at(-1).text+=' <long pause>'.repeat(separatorTags);
+  }
   blocks.push({...ref,id:ref.take??`${ref.code}-${ref.part}`,parts,firstItem:start,lastItem:content.length-1,items,productionApproval:fingerprint(entry,spec,plan)});
  }
  if(labels.size>2)throw Error('El lot supera les dues veus.');
@@ -64,13 +82,14 @@ async function main(){
  const id=process.argv.find(a=>a.startsWith('--only='))?.slice(7).toUpperCase();
  const file=path.join(root,'content/synthesis-batches.json'),catalog=await readJSON(file,null),batch=catalog?.batches.find(b=>b.id===id);if(!batch)throw Error('Indica --only=LXX.');
  if(batch.state==='received'){console.log(JSON.stringify({batch:id,state:'received',receipt:batch.receipt,newRequests:0}));if(process.argv.includes('--generate'))throw Error('Lot ja rebut: no repetir.');return;}
+ if(process.argv.includes('--generate')&&batch.speechTextFormat!=='plain-v1')throw Error('Els nous enviaments requereixen text pla, sense marques literals de pausa. Cap petició enviada.');
  const {activities}=await import('../catalogue.js'),plans=await readJSON(path.join(root,'content/production-plans.json'),{}),repairs=await readJSON(path.join(root,'content/audio-repairs.json'),{});
  const built=await buildBatch(activities,plans,repairs,batch);
  const folder=path.join(work,'mixed-batches',id.toLowerCase()+'-'+built.requestHash.slice(0,12));
  console.log(JSON.stringify({batch:id,requestHash:built.requestHash,estimatedSeconds:built.estimate.seconds,estimatedInputTokens:built.estimatedInputTokens,voices:built.voices,blocks:built.blocks.map(b=>b.id),folder}));
  if(process.argv.includes('--freeze')){
   assertSynthesisWindow(built.body);if(batch.state&&batch.state!=='planned'&&batch.approvedRequestHash!==built.requestHash)throw Error('Lot ja congelat amb una altra empremta.');
-  Object.assign(batch,{state:'authorized',approvedAt:new Date().toISOString(),approvedRequestHash:built.requestHash,estimatedSeconds:built.estimate.seconds,estimatedInputTokens:built.estimatedInputTokens,authorization:'El docent autoritza el 21/11/2026 processar els lots compatibles d’un en un, comprovant cada retorn i aprofitant els següents per a esmenes. Només guions i correccions ja validats.'});
+  Object.assign(batch,{state:'authorized',approvedAt:new Date().toISOString(),approvedRequestHash:built.requestHash,estimatedSeconds:built.estimate.seconds,estimatedInputTokens:built.estimatedInputTokens,authorization:batch.authorization??'El docent autoritza processar els lots compatibles d’un en un, comprovant cada retorn. Només guions i correccions ja validats.'});
   await fs.writeFile(file,JSON.stringify(catalog,null,2)+'\n');
  }
  if(!process.argv.includes('--generate'))return;

@@ -124,5 +124,25 @@ export const mixedAudioResources = {
     "voices": "Laia: Leda; Biel: Puck. Preses conservades de lots mixtos; Muntatge pendent d’audició docent, sense canvis de ritme.",
     "sounds": "Button click · brnck (CC0 1.0), fora de la parla. Page turned · Beussa (CC0 1.0), fora de la parla.",
     "recipe": "tools/render-mixed-take.cjs"
+  },
+  "ca-S028": {
+    "voices": "Laia: Leda; Pau: Charon. Lot L14, veus rebudes i pendents d’audició.",
+    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
+    "recipe": "tools/prepare-batch-voice-previews.cjs"
+  },
+  "ca-S048": {
+    "voices": "Laia: Leda; Pau: Charon. Lot L14, veus rebudes i pendents d’audició.",
+    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
+    "recipe": "tools/prepare-batch-voice-previews.cjs"
+  },
+  "ca-S049": {
+    "voices": "Laia: Leda; Pau: Charon. Lot L14, veus rebudes i pendents d’audició.",
+    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
+    "recipe": "tools/prepare-batch-voice-previews.cjs"
+  },
+  "ca-S050": {
+    "voices": "Laia: Leda; Pau: Charon. Lot L14, veus rebudes i pendents d’audició.",
+    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
+    "recipe": "tools/prepare-batch-voice-previews.cjs"
   }
 };

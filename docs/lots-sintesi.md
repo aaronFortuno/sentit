@@ -7,9 +7,19 @@ Actualitzat: **22/11/2026**. Aquest document mostra només la feina pendent d’
 | Lot | Material pendent | Veus | Previsió orientativa | Què falta |
 | --- | --- | --- | ---: | --- |
 | L04 | S005: Aquest matí, per exemple, he apartat un sobre per revisar-lo abans de sortir.; S015: Per això es controla la il·luminació i també les condicions de temperatura i humitat. | Vindemiatrix + Kore | 0:22 | Completar amb material del mateix repartiment; S015: conciliar el registre editorial històric abans de preparar l’esmena |
-| L07 | S040 | Leda + Kore | 2:21 | Completar amb material del mateix repartiment |
-| L09 | S028 | Leda + Charon | 1:23 | Completar amb material del mateix repartiment |
 | L12 | S033; S036 | Puck + Kore | 3:37 | Completar amb material del mateix repartiment |
+| L15 | S040; S051; S052 | Leda + Kore | 6:00 | Entrada verificada · pendent d’enviament |
+
+## Veus rebudes · per escoltar abans del muntatge
+
+Les preses originals es conserven i la cobertura s’ha comprovat localment. La pronunciació i la identitat de les veus continuen pendents d’audició; encara no són muntatges finals.
+
+| Peça | Presa |
+| --- | --- |
+| [ca-S028](https://sentit.ortogra.fi/#lectura=ca-S028) | [Escolta les veus](../proves/veus-rebudes.html#S028) |
+| [ca-S048](https://sentit.ortogra.fi/#lectura=ca-S048) | [Escolta les veus](../proves/veus-rebudes.html#S048) |
+| [ca-S049](https://sentit.ortogra.fi/#lectura=ca-S049) | [Escolta les veus](../proves/veus-rebudes.html#S049) |
+| [ca-S050](https://sentit.ortogra.fi/#lectura=ca-S050) | [Escolta les veus](../proves/veus-rebudes.html#S050) |
 
 Les previsions provenen dels guions i del calibratge local; cal recalcular-les amb el format definitiu abans d’enviar. Una mateixa veu en dos guions no implica el mateix personatge. No es canvien repartiments ni s’allarguen guions per omplir un lot.
 
@@ -20,8 +30,6 @@ Aquests grups incorporen els guions nous pendents de validació docent. No ampli
 | Proposta | Repartiment | Comprensions | Previsió amb marges | Mida orientativa | Guions validats |
 | --- | --- | --- | ---: | --- | ---: |
 | P01 | Ferran · Algenib | [ca-S045](https://sentit.ortogra.fi/#lectura=ca-S045), [ca-S046](https://sentit.ortogra.fi/#lectura=ca-S046), [ca-S047](https://sentit.ortogra.fi/#lectura=ca-S047) | 6:10 | Dins la finestra prevista | 0/3 |
-| P02 | Laia i Pau · Leda + Charon | [ca-S028](https://sentit.ortogra.fi/#lectura=ca-S028), [ca-S048](https://sentit.ortogra.fi/#lectura=ca-S048), [ca-S049](https://sentit.ortogra.fi/#lectura=ca-S049), [ca-S050](https://sentit.ortogra.fi/#lectura=ca-S050) | 6:43 | Dins la finestra prevista | 4/4 |
-| P03 | Laia i Nora · Leda + Kore | [ca-S040](https://sentit.ortogra.fi/#lectura=ca-S040), [ca-S051](https://sentit.ortogra.fi/#lectura=ca-S051), [ca-S052](https://sentit.ortogra.fi/#lectura=ca-S052) | 6:23 | Dins la finestra prevista | 2/3 |
 | [P04](lot-cicle-superior.md#mar) | Mar · Erinome | [ca-S053](https://sentit.ortogra.fi/#lectura=ca-S053), [ca-S054](https://sentit.ortogra.fi/#lectura=ca-S054), [ca-S055](https://sentit.ortogra.fi/#lectura=ca-S055) | 6:06 | Dins la finestra prevista | 0/3 |
 | [P05](lot-cicle-superior.md#mar) | Mar · Erinome | [ca-S056](https://sentit.ortogra.fi/#lectura=ca-S056), [ca-S057](https://sentit.ortogra.fi/#lectura=ca-S057) | 6:00 | Dins la finestra prevista | 0/2 |
 | [P06](lot-cicle-superior.md#laia-biel) | Laia i Biel · Leda + Puck | [ca-S058](https://sentit.ortogra.fi/#lectura=ca-S058), [ca-S060](https://sentit.ortogra.fi/#lectura=ca-S060), [ca-S061](https://sentit.ortogra.fi/#lectura=ca-S061) | 6:33 | Dins la finestra prevista | 0/3 |
@@ -30,8 +38,8 @@ Aquests grups incorporen els guions nous pendents de validació docent. No ampli
 | [P09](lot-cicle-superior.md#mireia-biel) | Mireia i Biel · Aoede + Puck | [ca-S066](https://sentit.ortogra.fi/#lectura=ca-S066), [ca-S067](https://sentit.ortogra.fi/#lectura=ca-S067) | 6:24 | Dins la finestra prevista | 0/2 |
 | [P10](lot-cicle-superior.md#ferran) | Ferran · Algenib | [ca-S068](https://sentit.ortogra.fi/#lectura=ca-S068), [ca-S069](https://sentit.ortogra.fi/#lectura=ca-S069), [ca-S070](https://sentit.ortogra.fi/#lectura=ca-S070) | 6:27 | Dins la finestra prevista | 0/3 |
 | [P11](lot-cicle-superior.md#ferran) | Ferran · Algenib | [ca-S071](https://sentit.ortogra.fi/#lectura=ca-S071), [ca-S072](https://sentit.ortogra.fi/#lectura=ca-S072) | 6:23 | Dins la finestra prevista | 0/2 |
-| [P12](lot-cicle-superior.md#laia-ona) | Laia i Ona · Leda + Sulafat | [ca-S073](https://sentit.ortogra.fi/#lectura=ca-S073), [ca-S074](https://sentit.ortogra.fi/#lectura=ca-S074), [ca-S075](https://sentit.ortogra.fi/#lectura=ca-S075) | 6:19 | Dins la finestra prevista | 0/3 |
-| [P13](lot-cicle-superior.md#laia-ona) | Laia i Ona · Leda + Sulafat | [ca-S076](https://sentit.ortogra.fi/#lectura=ca-S076), [ca-S077](https://sentit.ortogra.fi/#lectura=ca-S077) | 6:11 | Dins la finestra prevista | 0/2 |
+| [P12](lot-cicle-superior.md#laia-ona) | Laia i Ona · Leda + Sulafat | [ca-S073](https://sentit.ortogra.fi/#lectura=ca-S073), [ca-S074](https://sentit.ortogra.fi/#lectura=ca-S074), [ca-S075](https://sentit.ortogra.fi/#lectura=ca-S075) | 6:19 | Dins la finestra prevista | 1/3 |
+| [P13](lot-cicle-superior.md#laia-ona) | Laia i Ona · Leda + Sulafat | [ca-S076](https://sentit.ortogra.fi/#lectura=ca-S076), [ca-S077](https://sentit.ortogra.fi/#lectura=ca-S077) | 6:11 | Dins la finestra prevista | 1/2 |
 | [P14](lot-cicle-superior.md#biel-elies) | Biel i Elies · Puck + Algieba | [ca-S078](https://sentit.ortogra.fi/#lectura=ca-S078), [ca-S079](https://sentit.ortogra.fi/#lectura=ca-S079), [ca-S080](https://sentit.ortogra.fi/#lectura=ca-S080) | 6:22 | Dins la finestra prevista | 0/3 |
 | [P15](lot-cicle-superior.md#biel-elies) | Biel i Elies · Puck + Algieba | [ca-S081](https://sentit.ortogra.fi/#lectura=ca-S081), [ca-S082](https://sentit.ortogra.fi/#lectura=ca-S082) | 6:20 | Dins la finestra prevista | 0/2 |
 
@@ -57,7 +65,7 @@ S011, S025 i S041 tenen retorns posteriors a aquests lots: cal preparar les esme
 
 1. Guió, veus i escaleta validats pel docent, amb aprovació i empremta vigents. Les propostes noves esperen aquesta confirmació encara que la quota s’hagi restablert.
 2. **6–8 minuts estimats**, com a màxim dues veus. Prioritzar dues o tres comprensions completes amb el mateix repartiment. Els lots petits esperen; una excepció requereix explicar-ne la mida al docent i acordar-la explícitament.
-3. Preparar una entrada sense instruccions literals de pausa dins del text parlat. El format antic va produir locucions «long pause» i s’ha de revisar abans del proper enviament. Conservar les paraules editorials i les identitats aprovades.
+3. Els nous lots de lectures completes utilitzen `plain-v1`: cap marca literal de pausa al text, guió i repartiment intactes, direcció no parlada a `speech_metadata.style`. L14 és la primera presa d’aquest format i continua pendent d’audició; la cobertura automàtica no certifica la dicció. El format segueix la [documentació oficial de Gemini TTS](https://aistudio.google.com/docs/speech-generation#controllable).
 4. Un únic enviament en curs, almenys 65 segons entre inicis. Comprovar aprovacions, duplicats, mida, espai en disc i límits abans de reservar quota o llegir claus. No repetir automàticament intents incerts.
 5. Conservar resposta i preses crues. Comprovar cobertura, identitats, inici, unions i final; retallar només farciment localitzat amb marges de consonants. El reconeixement automàtic no certifica pronunciació ni timbre.
 6. Muntar i escoltar abans de publicar definitivament. Actualitzar el seguiment després de cada canvi de fase.

@@ -198,14 +198,16 @@
     },
     {
       "id": "L07",
-      "state": "waiting-for-compatible-material",
+      "state": "superseded",
       "blocks": [
         {
           "code": "S040",
           "take": "S040-T01",
           "sourceRequestHash": "2c272761f294618a282bd9a412a3608d22fdd29fe980d481438a77c3886208f8"
         }
-      ]
+      ],
+      "supersededBy": "L15",
+      "reason": "S040 queda preparada amb S051 i S052 en el lot complet L15; no duplicar aquesta presa."
     },
     {
       "id": "L08",
@@ -243,14 +245,16 @@
     },
     {
       "id": "L09",
-      "state": "waiting-for-compatible-material",
+      "state": "superseded",
       "blocks": [
         {
           "code": "S028",
           "take": "S028-T01",
           "sourceRequestHash": "abf704b22ce5bf7f23ee2702bf07ff76e633d948563944f47fe33388cba1cb99"
         }
-      ]
+      ],
+      "supersededBy": "L14",
+      "reason": "S028 es produeix amb S048,S049,S050 en el lot complet L14; no duplicar aquesta presa."
     },
     {
       "id": "L10",
@@ -341,6 +345,69 @@
       "authorization": "El docent autoritza el 21/11/2026 processar els lots compatibles d’un en un, comprovant cada retorn i aprofitant els següents per a esmenes. Només guions i correccions ja validats.",
       "receipt": "assets/audio/synthesis-batches/l13.json",
       "completedAt": "2026-11-21T11:03:07.819Z"
+    },
+    {
+      "id": "L14",
+      "state": "received",
+      "speechTextFormat": "plain-v1",
+      "blocks": [
+        {
+          "code": "S028",
+          "take": "S028-T01",
+          "sourceRequestHash": "abf704b22ce5bf7f23ee2702bf07ff76e633d948563944f47fe33388cba1cb99"
+        },
+        {
+          "code": "S048",
+          "take": "S048-T01",
+          "sourceRequestHash": "2f73c0b266da567274fbee008c5874e6ab12352a532bdf9e1f250a9ae5155dfe"
+        },
+        {
+          "code": "S049",
+          "take": "S049-T01",
+          "sourceRequestHash": "bb654d31b96b29b95b28c65ecfb49ecb6c6c85ae16bbaa1804d777ccad108fc9"
+        },
+        {
+          "code": "S050",
+          "take": "S050-T01",
+          "sourceRequestHash": "b05f3706f9329b4c851a2753503593093f1579008239a18f1fd958d59bcf3783"
+        }
+      ],
+      "authorization": "Validacions docents explícites de S028 (21/11) i S048, S049 i S050 (22/11/2026). Enviar un únic lot complet Laia/Leda i Pau/Charon, conservar el retorn i comprovar-lo abans del següent.",
+      "approvedAt": "2026-11-22T17:58:30.778Z",
+      "approvedRequestHash": "3dc116c991de11e684329bf9e8f8214a417a540d0372103bba92af6fd28651bd",
+      "estimatedSeconds": 370,
+      "estimatedInputTokens": 6566,
+      "receipt": "assets/audio/synthesis-batches/l14.json",
+      "completedAt": "2026-11-22T17:59:05.187Z",
+      "sourceProposal": "P02"
+    },
+    {
+      "id": "L15",
+      "state": "authorized",
+      "speechTextFormat": "plain-v1",
+      "sourceProposal": "P03",
+      "blocks": [
+        {
+          "code": "S040",
+          "take": "S040-T01",
+          "sourceRequestHash": "2c272761f294618a282bd9a412a3608d22fdd29fe980d481438a77c3886208f8"
+        },
+        {
+          "code": "S051",
+          "take": "S051-T01",
+          "sourceRequestHash": "fb6e213e2c1b544204230fcd888d3b353adc95761c98723498aca79ab4333d87"
+        },
+        {
+          "code": "S052",
+          "take": "S052-T01",
+          "sourceRequestHash": "5395b329fe4e67858e8861921377e8630013c32c27673e25f90f5eaee7485d51"
+        }
+      ],
+      "authorization": "Validacions docents explícites de S040 (21/11) i S051,S052 (22/11/2026). Guions i repartiment Laia/Leda i Nora/Kore autoritzats. Preparar el lot complet; la generació serà seqüencial, sense incloure-la en l’enviament únic de L14.",
+      "approvedAt": "2026-11-22T18:04:00.022Z",
+      "approvedRequestHash": "5119dd94e84e317b305db25d468c68c5330eab652ae8a8fd665407b698db9491",
+      "estimatedSeconds": 360,
+      "estimatedInputTokens": 5625
     }
   ],
   "calibration": {

@@ -1,8 +1,8 @@
 # Històric de lots de síntesi
 
-Actualitzat: **22/11/2026**. Registre dels **8 lots ja rebuts**, amb 45:50 d’àudio cru i 13.113 tokens d’entrada. No és una cua executable ni un comptador de quota. [Tornar als pendents](lots-sintesi.md).
+Actualitzat: **22/11/2026**. Registre dels **9 lots ja rebuts**, amb 51:12 d’àudio cru i 14.798 tokens d’entrada. No és una cua executable ni un comptador de quota. [Tornar als pendents](lots-sintesi.md).
 
-Aquests enviaments van aportar veus per a **25 comprensions** i **7 frases d’esmena**. És l’abast d’aquests lots, no el nombre total de comprensions del catàleg ni el nombre de peces pendents avui. L’estat actual de cada activitat consta al [seguiment](seguiment-produccio.md).
+Aquests enviaments van aportar veus per a **29 comprensions** i **7 frases d’esmena**. És l’abast d’aquests lots, no el nombre total de comprensions del catàleg ni el nombre de peces pendents avui. L’estat actual de cada activitat consta al [seguiment](seguiment-produccio.md).
 
 | Lot | Data d’enviament · UTC | Preses i esmenes | Àudio cru | Tokens d’entrada | Tokens d’àudio |
 | --- | --- | --- | ---: | ---: | ---: |
@@ -14,6 +14,7 @@ Aquests enviaments van aportar veus per a **25 comprensions** i **7 frases d’e
 | [L03](../assets/audio/synthesis-batches/l03.json) | 2026-11-21 | S006-T01, S009-T01, S039-T01, S016-exposicio, S023-tancament | 5:11 | 1648 | 7777 |
 | [L08](../assets/audio/synthesis-batches/l08.json) | 2026-11-21 | S025-T01, S030-T01, S037-T01, S044-T01 | 5:58 | 1622 | 8952 |
 | [L13](../assets/audio/synthesis-batches/l13.json) | 2026-11-21 | S027-T01, S034-T01, S038-T01, S038D-T01, S022-dema | 6:45 | 2097 | 10124 |
+| [L14](../assets/audio/synthesis-batches/l14.json) | 2026-11-22 | S028-T01, S048-T01, S049-T01, S050-T01 | 5:22 | 1685 | 8050 |
 
 Cada rebut apunta a la petició exacta i a les empremtes d’origen; les respostes completes, les preses crues i els mapes de tall es conserven localment. No es repeteix una presa perquè encara falti revisar-la o muntar-la. Les planificacions anteriors, superades pels rebuts, es conserven a l’historial de Git.
 

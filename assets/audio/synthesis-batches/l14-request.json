@@ -1,0 +1,469 @@
+{
+  "model": "gemini-3.8-flash-tts",
+  "input": [
+    {
+      "type": "user_input",
+      "content": [
+        {
+          "type": "text",
+          "text": "Comprensió oral. Una parada abans d’obrir. \n\nBon dia, Pau! Som ben d’hora i encara no tens la fruita a lloc. Què fas primer quan arribes?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Entrevista de ràdio escolar propera, amb salutació i comiat mutu. Laia parla com una jove que veu una preparació per primer cop; Pau explica la seva rutina fictícia amb exemples concrets, sense representar tots els comerciants. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the same two character voices throughout all recordings. Instructions are not spoken."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Bon dia, Laia. Primer netejo el taulell. Si hi posés les caixes abans, després les hauria de tornar a moure per passar-hi el drap.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Entrevista de ràdio escolar propera, amb salutació i comiat mutu. Laia parla com una jove que veu una preparació per primer cop; Pau explica la seva rutina fictícia amb exemples concrets, sense representar tots els comerciants. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ara ho entenc. I aquestes caixes que has deixat a un costat, també les has de buidar?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí, però començo per les que porten fruita més delicada. Avui hi ha maduixes. Les deixo en un lloc on ningú hi hagi de passar amb altres caixes per sobre. Després col·loco les pomes i les taronges.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Em pensava que penjaries primer els cartells dels preus, perquè ja els tens escrits.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Els poso quan la fruita ja és al seu lloc. Així veig quin correspon a cada munt. Si en canviés una caixa de lloc i no mogués el cartell, la gent podria mirar un preu que no toca.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Et puc ajudar a portar una caixa?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Aquesta és molt lleugera, sí. Deixa-la aquí, sense tapar el pas. Quan comenci a arribar gent, hi hem de poder passar amb comoditat.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ja està. Gràcies per deixar-nos venir abans d’obrir!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Gràcies a vosaltres. Ara penjo els cartells i ja podem començar. Bon programa!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. Les caixes que tornen. \n\nBon dia, Pau! Avui vinc amb la gravadora de la ràdio. Et trobo amb un munt de caixes buides. Ja has acabat de posar tota la fruita?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Laia i Pau, sempre Leda i Charon. Conversa de ràdio escolar a la parada: salutació mútua, preguntes curtes perquè Laia acaba de veure una acció i comiat mutu. La jove diu caixa, fruita o bossa, sense vocabulari professional. Pau explica la seva manera de treballar amb un exemple del moment; no fa una conferència. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the same two character voices throughout all recordings. Instructions are not spoken."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Bon dia, Laia! Sí. Ara estic separant aquestes caixes blaves de plàstic de les de cartró marró. Les blaves les tornaré al repartidor quan passi amb la furgoneta. Les farà servir per portar més fruita.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Laia i Pau, sempre Leda i Charon. Conversa de ràdio escolar a la parada: salutació mútua, preguntes curtes perquè Laia acaba de veure una acció i comiat mutu. La jove diu caixa, fruita o bossa, sense vocabulari professional. Pau explica la seva manera de treballar amb un exemple del moment; no fa una conferència. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ah! Jo em pensava que eren totes per llençar. I per què les poses damunt d’aquest carretó?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Per tenir-les juntes i portar-les fins a la furgoneta. Si les deixo al costat del taulell, quan vingui gent a comprar em quedaran al mig del pas. El repartidor arribarà a mig matí, quan jo ja estigui atenent.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "I aquestes de cartró, les que tens obertes, també te les recollirà?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Aquestes les plegaré i les posaré al contenidor del cartró. Mira com queden de planes: així ocupen molt menys. Primer les buido del tot, perquè de vegades hi queda algun paper o una fruita petita al fons.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "En queda una de blava aquí sota. La pujo també al carretó? Té una cosa a la nansa que sembla una esquerda.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Deixa-la aquí, que la mirarem amb el repartidor. Si està trencada, quan hi posin pes es pot acabar d’obrir. Les altres ja estan preparades. Aquesta la deixo separada per recordar-me d’ensenyar-l’hi.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Doncs t’hem trobat feina fins i tot amb les caixes buides! Gràcies per explicar-nos-ho, Pau. Apago la gravadora i t’ajudo a plegar aquesta de cartró.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Gràcies a tu, Laia. Comencem per la més petita, que la gran encara té coses a dins.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. La parada es mou un matí. \n\nHola, Pau! T’he buscat al costat del forn i només hi he trobat una cinta que tancava el pas. Ja pensava que avui no havies vingut.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Laia i Pau, sempre Leda i Charon. Conversa de ràdio escolar a la parada: salutació mútua, preguntes curtes perquè Laia acaba de veure una acció i comiat mutu. La jove diu caixa, fruita o bossa, sense vocabulari professional. Pau explica la seva manera de treballar amb un exemple del moment; no fa una conferència. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the same two character voices throughout all recordings. Instructions are not spoken."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Bon dia, Laia! Avui som aquí, davant de la porta del pati. Estan arreglant unes rajoles que es movien al lloc de la nostra parada. Necessiten tenir aquell tros buit durant tot el matí.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Laia i Pau, sempre Leda i Charon. Conversa de ràdio escolar a la parada: salutació mútua, preguntes curtes perquè Laia acaba de veure una acció i comiat mutu. La jove diu caixa, fruita o bossa, sense vocabulari professional. Pau explica la seva manera de treballar amb un exemple del moment; no fa una conferència. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Llavors ara et quedaràs sempre aquí? Perquè des del forn no es veu gens aquesta taula.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Demà ja tornarem al lloc de sempre. Aquesta taula ens l’han deixada per avui. Ahir al vespre vam portar les caixes fins aquí, quan ja havia marxat la gent, i aquest matí he acabat de posar-hi la fruita.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Jo he vingut directa cap al forn i he girat cua. Com ho sabrà la gent que et ve a buscar?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Hem deixat un cartell al lloc habitual. Hi diu que avui som davant de la porta del pati, amb una fletxa cap aquí. I la gent del forn també ho sap. Fa una estona han acompanyat una senyora que em buscava.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ah, jo només he mirat la cinta! I has pogut portar tota la fruita? La taula sembla més petita que el teu taulell.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Al damunt n’hi he posat una mica de cada cosa. La resta és a les caixes de sota, i vaig omplint els espais quan es buiden. El primer cop he volgut posar-ho tot i gairebé no tenia lloc per a la balança.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ara miraré el cartell abans de marxar, que aquest matí l’he passat de llarg. Gràcies, Pau! Ja sabem on et trobarem avui.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Gràcies a tu! I si demà em busques aquí, em sentiràs cridar des del costat del forn!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. La balança marca massa. \n\nBon dia, Pau! He vingut a buscar les pomes que t’ha encarregat la mare. Porto la bossa de roba, però abans et volia fer una pregunta per a la ràdio.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Laia i Pau, sempre Leda i Charon. Conversa de ràdio escolar a la parada: salutació mútua, preguntes curtes perquè Laia acaba de veure una acció i comiat mutu. La jove diu caixa, fruita o bossa, sense vocabulari professional. Pau explica la seva manera de treballar amb un exemple del moment; no fa una conferència. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the same two character voices throughout all recordings. Instructions are not spoken."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Bon dia, Laia! Pregunta mentre les preparem. Poso aquesta safata buida a la balança perquè les pomes no rodolin. Després les passarem a la teva bossa.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Laia i Pau, sempre Leda i Charon. Conversa de ràdio escolar a la parada: salutació mútua, preguntes curtes perquè Laia acaba de veure una acció i comiat mutu. La jove diu caixa, fruita o bossa, sense vocabulari professional. Pau explica la seva manera de treballar amb un exemple del moment; no fa una conferència. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Espera, ja hi surt un número! I encara no hi has posat cap poma. Està espatllada?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "És el pes de la safata. Mira, la trec i la pantalla torna a zero. La safata també pesa, encara que sigui buida. Si hi posés les pomes directament, el número sumaria el pes de les pomes i el de la safata.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "I com ho fas perquè només compti les pomes? Les posem una per una damunt de la balança?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Podríem fer-ho, però avui faré això: torno a posar la safata buida i premo aquest botó. Ara la pantalla torna a zero amb la safata a sobre. Ja hi podem anar posant les pomes. El pes que hi llegirem serà el de la fruita.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ah! Primer la safata buida, després el botó i al final la fruita. Jo ja hi anava a abocar totes les pomes de cop.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ja les tenim pesades. Ara m’aguantes la bossa oberta i jo hi poso les pomes. La safata es queda aquí per a la pròxima compra.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Gràcies, Pau. Ja puc apagar la gravadora. La mare m’ha dit que torni abans que comenci a fer el dinar, i encara m’he entretingut amb la balança!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "De res, Laia. Agafa la bossa per les dues nanses, que aquesta vegada sí que pesa!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "response_format": {
+    "type": "audio",
+    "mime_type": "audio/wav",
+    "sample_rate": 24000
+  },
+  "generation_config": {
+    "speech_config": {
+      "speakers": [
+        {
+          "speaker": "Voice1",
+          "voice": "Leda"
+        },
+        {
+          "speaker": "Voice2",
+          "voice": "Charon"
+        }
+      ]
+    }
+  }
+}

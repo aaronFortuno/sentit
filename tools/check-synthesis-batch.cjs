@@ -15,6 +15,22 @@ const response=clips=>({status:'completed',steps:[{type:'model_output',content:c
  await assert.rejects(buildBatch(activities,plans,repairs,{blocks:[l01.blocks[0],l01.blocks[0]]}),/duplicats/);
  const three={blocks:[l01.blocks[0],catalog.batches.find(b=>b.id==='L12').blocks[0]]};await assert.rejects(buildBatch(activities,plans,repairs,three));
  for(const {e,audio}of saved)e.audio=audio;
+ const l14=catalog.batches.find(b=>b.id==='L14');
+ if(l14){
+  const entries=l14.blocks.map(b=>activities.find(e=>e.code===b.code)),audio=entries.map(e=>e.audio);
+  try{
+   entries.forEach(e=>e.audio=null);
+   const plain=await buildBatch(activities,plans,repairs,l14),texts=plain.body.input[0].content.map(item=>item.text);
+   const normalized=text=>text.replace(/\s+/gu,' ').trim();
+   const expected=entries.flatMap(e=>[e.introduction,...e.transcript.filter(p=>p.speaker).map(p=>p.text)]).join(' ');
+   assert.equal(normalized(texts.join(' ')),normalized(expected),'All and only approved spoken words survive the format change');
+   assert(texts.every(text=>!/[<>|]/u.test(text)),'No spoken tags or separators');
+   assert.equal(plain.voices.length,2);assert.deepEqual(plain.voices.map(v=>v.voice),['Leda','Charon']);
+   assert(plain.estimate.seconds>=360&&plain.estimate.seconds<=480);assert(plain.estimatedInputTokens<8192);
+   const mixed=structuredClone(l14);mixed.blocks.push(catalog.batches.find(b=>b.id==='L12').blocks[0]);
+   await assert.rejects(buildBatch(activities,plans,repairs,mixed),/mateix repartiment/);
+  }finally{entries.forEach((e,i)=>e.audio=audio[i]);}
+ }
  assert.equal(require('node:fs').readFileSync(require('node:path').resolve(__dirname,'../../output/sentit-primera-tanda/request-log.json'),'utf8'),log);
  console.log('PASS · Mixed sources/approvals, canonical voices, no duplicate blocks, 6–8 minute pilot, PCM joining without repeated WAV headers, truncated/incomplete/duplicate output rejection. No API call or quota reservation.');
 })().catch(e=>{console.error(e);process.exitCode=1;});

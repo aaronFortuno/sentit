@@ -63,5 +63,57 @@
     "teacherAudioApproval": false,
     "newRequests": 0,
     "voiceRetimed": false
+  },
+  {
+    "code": "S028",
+    "title": "Una parada abans d’obrir",
+    "batch": "L14",
+    "sourceTakeSha256": "f07de87cfb248b09c2936e6ed21bee71bef4799fa2c5b4bbaf4b0fd282bc08f5",
+    "sourceRawSha256": "bc519edcb788dbca53d1267237717f32cf3720550451af3a218f2124f11a8820",
+    "file": "assets/audio/s028-voices-review-v1.mp3",
+    "sha256": "006d35e1f2488e7daaf4ce40d21b38cfffddf19136c4949e6965cdccaa70c617",
+    "state": "voices-received-awaiting-montage",
+    "teacherAudioApproval": false,
+    "newRequests": 0,
+    "voiceRetimed": false
+  },
+  {
+    "code": "S048",
+    "title": "Les caixes que tornen",
+    "batch": "L14",
+    "sourceTakeSha256": "c17478028311d1f2d60031d47002e793f6a7c8164f6d8fd4f8d21d69ea34c228",
+    "sourceRawSha256": "bc519edcb788dbca53d1267237717f32cf3720550451af3a218f2124f11a8820",
+    "file": "assets/audio/s048-voices-review-v1.mp3",
+    "sha256": "1941dbfbd3cffe2ee20311571dd344859f41122a662903c119815e19ca7e20ff",
+    "state": "voices-received-awaiting-montage",
+    "teacherAudioApproval": false,
+    "newRequests": 0,
+    "voiceRetimed": false
+  },
+  {
+    "code": "S049",
+    "title": "La parada es mou un matí",
+    "batch": "L14",
+    "sourceTakeSha256": "fa33487137e02a8723393c4eb27b9a6782e321706b8342275524f521cee055ca",
+    "sourceRawSha256": "bc519edcb788dbca53d1267237717f32cf3720550451af3a218f2124f11a8820",
+    "file": "assets/audio/s049-voices-review-v1.mp3",
+    "sha256": "c631658f7a717a703ed13cda6c856cf460d5bd8bfed9b2390f668ee706d233b8",
+    "state": "voices-received-awaiting-montage",
+    "teacherAudioApproval": false,
+    "newRequests": 0,
+    "voiceRetimed": false
+  },
+  {
+    "code": "S050",
+    "title": "La balança marca massa",
+    "batch": "L14",
+    "sourceTakeSha256": "b15841c1fd7be80636fe1770c10a1bcc6643920a789505093ff9f4239604184a",
+    "sourceRawSha256": "bc519edcb788dbca53d1267237717f32cf3720550451af3a218f2124f11a8820",
+    "file": "assets/audio/s050-voices-review-v1.mp3",
+    "sha256": "bd4dcb881b0c129583cb9989f9a83a0d772cb7f38d50352899ad813c3eda7c00",
+    "state": "voices-received-awaiting-montage",
+    "teacherAudioApproval": false,
+    "newRequests": 0,
+    "voiceRetimed": false
   }
 ]

@@ -1001,12 +1001,25 @@ export const productionProgress = {
     }
   },
   "ca-S028": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-21T09:30:54.245Z",
     "editorialFingerprint": "b183bcc99d9f13ca71207052609411aa6e9a927a793906b58223587a3bb27a25",
     "plannedNewRequests": 1,
     "confirmation": "S028 validat per síntesi de veus",
-    "reason": "Guió validat; presa completa incorporada al lot candidat L09, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts."
+    "reason": "Guió validat; presa completa incorporada al lot candidat L09, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S028-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L14"
+      ]
+    },
+    "voicesReceivedAt": "2026-11-22T17:59:05.187Z",
+    "listeningApproval": false,
+    "voicePreview": "./proves/veus-rebudes.html#S028"
   },
   "ca-S032": {
     "state": "published",
@@ -1603,31 +1616,67 @@ export const productionProgress = {
     "montageNewSynthesisRequests": 0
   },
   "ca-S049": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-22T17:52:11.110Z",
     "editorialFingerprint": "50db317831e7d6bbda48df59d3b674c5aa91de945c5f4a5c8d8b7ea66cd767f0",
     "plannedNewRequests": 1,
     "listeningApproval": false,
     "confirmation": "S049 validada per síntesi de veus",
-    "reason": "Guió, Laia/Leda i Pau/Charon i escaleta validats. Pendent de completar les validacions de P02 i preparar l’entrada del lot compatible de sis a vuit minuts; cap petició nova enviada."
+    "reason": "Guió, Laia/Leda i Pau/Charon i escaleta validats. Pendent de completar les validacions de P02 i preparar l’entrada del lot compatible de sis a vuit minuts; cap petició nova enviada.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S049-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L14"
+      ]
+    },
+    "voicesReceivedAt": "2026-11-22T17:59:05.187Z",
+    "voicePreview": "./proves/veus-rebudes.html#S049"
   },
   "ca-S048": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-22T17:52:11.110Z",
     "editorialFingerprint": "b4f97ed8c7150ae7e3b1c3686eaef4695b8aa9d7655cdd235cbac33e33b0fe6f",
     "plannedNewRequests": 1,
     "listeningApproval": false,
     "confirmation": "S048 validada per síntesi de veus",
-    "reason": "Guió, Laia/Leda i Pau/Charon i escaleta validats. Pendent de completar les validacions de P02 i preparar l’entrada del lot compatible de sis a vuit minuts; cap petició nova enviada."
+    "reason": "Guió, Laia/Leda i Pau/Charon i escaleta validats. Pendent de completar les validacions de P02 i preparar l’entrada del lot compatible de sis a vuit minuts; cap petició nova enviada.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S048-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L14"
+      ]
+    },
+    "voicesReceivedAt": "2026-11-22T17:59:05.187Z",
+    "voicePreview": "./proves/veus-rebudes.html#S048"
   },
   "ca-S050": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-22T17:54:15.727Z",
     "editorialFingerprint": "76312e8edcbb472f8045b7f8a0af2a644b0f0a52afb78be7a38b049c738c810e",
     "plannedNewRequests": 1,
     "listeningApproval": false,
     "confirmation": "S050 validada per síntesi de veus",
-    "reason": "Guió, Laia/Leda i Pau/Charon i escaleta validats. P02 completa les quatre validacions; preparar una única petició compatible amb entrada sense marques literals de pausa."
+    "reason": "Guió, Laia/Leda i Pau/Charon i escaleta validats. P02 completa les quatre validacions; preparar una única petició compatible amb entrada sense marques literals de pausa.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S050-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L14"
+      ]
+    },
+    "voicesReceivedAt": "2026-11-22T17:59:05.187Z",
+    "voicePreview": "./proves/veus-rebudes.html#S050"
   },
   "ca-S052": {
     "state": "ready-for-voices",
@@ -1637,5 +1686,48 @@ export const productionProgress = {
     "listeningApproval": false,
     "confirmation": "S052 validada per síntesi de veus",
     "reason": "Guió, veus i escaleta validats; P03 encara espera la validació de S051 abans de preparar el lot amb S040."
+  },
+  "ca-S051": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-22T17:57:07.244Z",
+    "editorialFingerprint": "19d3a1cc1a536975b6d5a5d72236fb7854b86661b4ab040a057b5c61205fc0e5",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "S051 validada per síntesi de veus",
+    "reason": "P03 completa totes tres validacions. Preparar el lot Laia/Leda i Nora/Kore després de comprovar el primer retorn del format nou; cap petició curta aïllada."
+  },
+  "ca-S076": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-22T18:01:27.247Z",
+    "editorialFingerprint": "f2370f29f20a57c3644fe7e9852f213e6c97158b3afc5b93e3a4fa3178acc803",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "S076 validada per síntesi de veus",
+    "reason": "Pendent de completar validacions del lot Laia/Leda i Ona/Sulafat i verificar sis a vuit minuts abans d’enviar.",
+    "gradingReview": {
+      "status": "pending-listening",
+      "currentGrade": "5",
+      "candidateGrade": "6",
+      "note": "Confirmar la dificultat i valorar el possible pas de 5è a 6è després d’escoltar l’àudio. Ara es mantenen 5è i avançada, amb les mateixes preguntes.",
+      "currentLevel": "advanced",
+      "reviewDifficulty": true
+    }
+  },
+  "ca-S074": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-22T18:08:54.593Z",
+    "editorialFingerprint": "a6a24886eb9e42ad0e78c8e568172582ed50b3c2becf8531b55fb6fa670f864c",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "S074 validada per síntesi de veus",
+    "reason": "Pendent de completar les validacions del lot Laia/Leda i Ona/Sulafat.",
+    "gradingReview": {
+      "status": "pending-listening",
+      "currentGrade": "5",
+      "currentLevel": "middle",
+      "candidateGrade": null,
+      "reviewDifficulty": true,
+      "note": "Confirmar curs i dificultat després d’escoltar l’àudio. Ara es mantenen 5è i intermèdia; encara no hi ha una requalificació decidida."
+    }
   }
 };

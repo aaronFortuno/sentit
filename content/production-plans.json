@@ -1166,19 +1166,25 @@
     "approvalSource": "Validació explícita del docent el 22/11/2026: «S050 també validada per síntesi de veus». Guió, veus i escaleta autoritzats; incorporar la presa completa al grup Laia/Leda i Pau/Charon, sense enviaments curts aïllats."
   },
   "S051": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "98e1906d40350d84d3ce35f893c53d1c5d66bee896992a57f29476cd53bb125e",
+    "reviewedAt": "2026-11-22T17:57:07.244Z",
     "reviewActivity": "ca-S051",
     "reviewContent": "content/propostes/tanda3/nora.js",
-    "format": "Proposta curta de 3r–4t amb repartiment constant, guió, preguntes, solucionari i escaleta per revisar al web.",
+    "format": "4t accessible: comprendre una prova que es fa des del lloc del visitant, seguir dues correccions concretes i distingir el cartell general del nom d’un objecte. Set preguntes sustentades en el que es diu, sense dades que només apareguin en una imatge.",
     "requiredVoices": {
       "Laia": "Leda",
       "Nora": "Kore"
     },
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
-    "ending": "Marges de consonants, pujada i fosa segons escaleta. Cap síntesi abans de validació docent; agrupar amb comprensions compatibles."
+    "ending": "Veu i muntatge segons l’escaleta validada; síntesi en un lot compatible de sis a vuit minuts. Audició i publicació definitiva pendents.",
+    "cues": [
+      "Estança real durant dos segons. L’ambient baixa abans de la salutació; no s’escolta cap aparell antic.",
+      "Pausa curta amb paper real mogut suaument. Conservar l’ambient sense canvis de volum que assenyalin una resposta.",
+      "Final de veu íntegre; pujada de fons de dos segons, fosa de dos segons i 600 ms de silenci. Cap altra conversa."
+    ],
+    "approvalSource": "Validació explícita del docent el 22/11/2026: «S051 també validat per síntesi de veus». Guió, Laia/Leda i Nora/Kore i escaleta autoritzats; agrupar la presa completa en un lot compatible."
   },
   "S052": {
     "status": "approved",
@@ -1507,9 +1513,9 @@
     "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
   },
   "S074": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "9c0dc0d1fcf155c853eb541fadb466e18bf0be2d9741d8246d1bc437da92e1d0",
+    "reviewedAt": "2026-11-22T18:08:54.593Z",
     "reviewActivity": "ca-S074",
     "reviewContent": "content/propostes/tanda4/cuina.js",
     "format": "5è intermèdia: relacionar quantitats amb un recipient i identificar el motiu de dues anotacions diferents. Vuit preguntes sense càlcul de proporcions ni coneixements culinaris previs.",
@@ -1519,7 +1525,13 @@
     },
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
-    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+    "ending": "Veu i muntatge segons l’escaleta validada; síntesi en un lot compatible de sis a vuit minuts. Audició i publicació definitiva pendents.",
+    "cues": [
+      "Ambient real de cuina molt tènue. Dos segons inicials i retirada dels sorolls propers abans de les veus.",
+      "Passar de pàgina real dins una pausa curta. No afegir sons de forn ni cap resultat de cocció.",
+      "Final de veu complet; pujada suau del fons dos segons, fosa i 600 ms de silenci."
+    ],
+    "approvalSource": "Validació explícita del docent el 22/11/2026: «S074 tot correcte, validat per síntesi de veus també». Curs i dificultat pendents de confirmar després d’escoltar l’àudio; es mantenen 5è i intermèdia. Guió, Laia/Leda i Ona/Sulafat i escaleta autoritzats."
   },
   "S075": {
     "status": "awaiting-validation",
@@ -1537,9 +1549,9 @@
     "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
   },
   "S076": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "465b3b876d2b3fbc8c0c94eb7d9deb0bedfe7c49b309e4a58881f2fb1b3f772c",
+    "reviewedAt": "2026-11-22T18:01:27.247Z",
     "reviewActivity": "ca-S076",
     "reviewContent": "content/propostes/tanda4/cuina.js",
     "format": "5è avançada: reconstruir com es duplica una informació en circular per dos canals, relacionar documents amb moments diferents i entendre què han de confirmar abans de preparar més menjar. Vuit preguntes; cap suma necessària.",
@@ -1549,7 +1561,13 @@
     },
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
-    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+    "ending": "Veu i muntatge segons l’escaleta validada; síntesi en un lot compatible de sis a vuit minuts. Audició i publicació definitiva pendents.",
+    "cues": [
+      "Cuina enregistrada durant dos segons. Mantenir només un fons llunyà, sense veus entenedores, durant la conversa.",
+      "Un full real dins una pausa. El fons continua discret; no afegir notificacions de missatges ni llegir cap veu enregistrada.",
+      "Després de l’última veu, moviment real de safata i pujada de fons de dos segons. Fosa i 600 ms de silenci."
+    ],
+    "approvalSource": "Validació explícita del docent el 22/11/2026: «S076 queda validat per síntesi de veus». Es manté 5è per indicació expressa; el possible pas a 6è es valorarà després d’escoltar l’àudio. Guió, Laia/Leda i Ona/Sulafat i escaleta autoritzats."
   },
   "S077": {
     "status": "awaiting-validation",

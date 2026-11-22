@@ -1,5 +1,13 @@
 # Canvis
 
+## 0.1.72 · 22 de novembre de 2026
+
+- Validacions docents registrades per S048, S049, S050, S051, S052, S074 i S076. S074/S076 conserven 5è, les dificultats actuals i vuit preguntes; el curs i la dificultat es confirmaran després d’escoltar l’àudio. A S076 es valorarà el possible pas a 6è.
+- L14: S028/S048/S049/S050 rebudes en una sola petició, 5:22 de veu crua, 1.685 tokens d’entrada i 8.050 d’àudio. Cobertura local del 89,9%; pronunciació i identitats pendents d’audició. Quatre preses públiques, sense atribuir aprovació d’àudio ni muntatge.
+- Format `plain-v1` per als nous lots complets: mateix repartiment exacte, text editorial intacte i sense marques literals de pausa; direcció no parlada dins de les metadades. Guàrdies d’aprovació, mida, duplicats i quota conservades. No es permet reenviar el format antic des d’aquest generador.
+- L15 preparat i congelat amb S040/S051/S052, sis minuts estimats en text pla; encara sense enviament. Els candidats antics L07/L09 queden substituïts per evitar repetir S040/S028.
+- Seguiment i pla de lots mostren les preses rebudes, els lots realment preparats i les notes de possible requalificació. Les comparacions antigues de veu es conserven com a arxiu.
+
 ## 0.1.71 · 22 de novembre de 2026
 
 - S053–S082: trenta guions de 5è i 6è amb 252 preguntes, solucionari, ancoratges i escaleta. Sis blocs de cinc amb repartiments constants d’una o dues veus; cada peça preveu una presa completa.
