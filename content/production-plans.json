@@ -1338,9 +1338,9 @@
     "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
   },
   "S062": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "60445bcb4011ec6d2769f5c9066db2281bf378d9311401bbdfcf4d492676f358",
+    "reviewedAt": "2026-11-22T18:21:42.589Z",
     "reviewActivity": "ca-S062",
     "reviewContent": "content/propostes/tanda4/troballes.js",
     "format": "6è avançada: seguir una cadena de versions, atribuir el canvi a una causa i distingir missatge de confirmació i imatge antiga. Nou preguntes de relació entre dades i accions, sense coneixements de xarxes socials.",
@@ -1350,7 +1350,13 @@
     },
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
-    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+    "ending": "Veu i muntatge segons l’escaleta validada; síntesi en un lot compatible de sis a vuit minuts. Audició i publicació definitiva pendents.",
+    "cues": [
+      "Dos segons de passadís enregistrat sense paraules entenedores. Retirar el fons abans de parlar; cap notificació sonora.",
+      "Pausa breu amb paper real mogut. No afegir l’assaig de dansa ni música de concert al fons.",
+      "Acabar la veu sencera; ambient molt discret dos segons i fosa amb 600 ms de silenci. Cap fragment del concert afegit."
+    ],
+    "approvalSource": "Validació explícita del docent el 22/11/2026: «S062 validat per síntesi de veus». Guió, Laia/Leda i Biel/Puck i escaleta autoritzats. Es mantenen 6è avançada i nou preguntes; possible requalificació a 1r d’ESO intermèdia o avançada pendent de l’àudio muntat."
   },
   "S063": {
     "status": "awaiting-validation",

@@ -2,6 +2,7 @@
 
 ## 0.1.72 · 22 de novembre de 2026
 
+- S062 validada per síntesi; conserva 6è avançada i nou preguntes. Possible requalificació a 1r d’ESO, intermèdia o avançada, pendent de l’àudio muntat. Criteri sonor documentat: ambient continu real de mercat, efectes seleccionats i simultanis a la parla quan correspongui, sense pauses afegides per sistema.
 - Validacions docents registrades per S048, S049, S050, S051, S052, S074 i S076. S074/S076 conserven 5è, les dificultats actuals i vuit preguntes; el curs i la dificultat es confirmaran després d’escoltar l’àudio. A S076 es valorarà el possible pas a 6è.
 - L14: S028/S048/S049/S050 rebudes en una sola petició, 5:22 de veu crua, 1.685 tokens d’entrada i 8.050 d’àudio. Cobertura local del 89,9%; pronunciació i identitats pendents d’audició. Quatre preses públiques, sense atribuir aprovació d’àudio ni muntatge.
 - Format `plain-v1` per als nous lots complets: mateix repartiment exacte, text editorial intacte i sense marques literals de pausa; direcció no parlada dins de les metadades. Guàrdies d’aprovació, mida, duplicats i quota conservades. No es permet reenviar el format antic des d’aquest generador.

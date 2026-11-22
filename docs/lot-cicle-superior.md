@@ -5,7 +5,7 @@ Actualitzat: **22/11/2026**. **30 comprensions orals** en 6 blocs de repartiment
 | Bloc per revisar | Repartiment fix | Codis | Guions validats pel docent |
 | --- | --- | --- | ---: |
 | [Les notícies de la Mar](#mar) | Mar · Erinome | S053, S054, S055, S056, S057 | 0/5 |
-| [Les troballes de la Laia i en Biel](#laia-biel) | Laia i Biel · Leda + Puck | S058, S059, S060, S061, S062 | 0/5 |
+| [Les troballes de la Laia i en Biel](#laia-biel) | Laia i Biel · Leda + Puck | S058, S059, S060, S061, S062 | 1/5 |
 | [A classe amb la Mireia · amb en Biel](#mireia-biel) | Mireia i Biel · Aoede + Puck | S063, S064, S065, S066, S067 | 0/5 |
 | [Els records de l’avi Ferran](#ferran) | Ferran · Algenib | S068, S069, S070, S071, S072 | 0/5 |
 | [Converses de cuina · Laia i Ona](#laia-ona) | Laia i Ona · Leda + Sulafat | S073, S074, S075, S076, S077 | 2/5 |
@@ -45,7 +45,7 @@ Laia i Biel · Leda + Puck. Les lectures són independents; no cal haver-ne esco
 | [ca-S059](https://sentit.ortogra.fi/#lectura=ca-S059) | La partida que no cabia a la taula | 5è · Intermèdia | Diàleg | Prevista 1:55–2:25 | 8 | Provisional · pendent del docent |
 | [ca-S060](https://sentit.ortogra.fi/#lectura=ca-S060) | Un soroll darrere de les veus | 6è · Accessible | Diàleg | Prevista 1:45–2:10 | 9 | Provisional · pendent del docent |
 | [ca-S061](https://sentit.ortogra.fi/#lectura=ca-S061) | El curt que començava pel final | 5è · Avançada | Diàleg | Prevista 2:45–3:20 | 8 | Provisional · pendent del docent |
-| [ca-S062](https://sentit.ortogra.fi/#lectura=ca-S062) | Dos cartells per al mateix concert | 6è · Avançada | Diàleg | Prevista 2:45–3:20 | 9 | Provisional · pendent del docent |
+| [ca-S062](https://sentit.ortogra.fi/#lectura=ca-S062) | Dos cartells per al mateix concert | 6è · Avançada | Diàleg | Prevista 2:45–3:20 | 9 | Guió validat · curs i dificultat per valorar després d’escoltar |
 
 [Filtra el catàleg per aquest repartiment](https://sentit.ortogra.fi/?personatge=laia&personatge=biel&coincidencia=tots) · [Guions i escaletes del bloc](../content/propostes/tanda4/troballes.js). El filtre també pot mostrar peces de tandes anteriors; activa «Només provisionals» per revisar feina oberta. Les acotacions descriuen recursos proposats, no gravacions ja produïdes.
 

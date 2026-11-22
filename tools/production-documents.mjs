@@ -76,7 +76,7 @@ export async function productionDocuments(date) {
   const grading = pending.filter(entry => progress(entry)?.gradingReview?.status === 'pending-listening');
   if (grading.length) {
     let notes = '\n## Curs i dificultat pendents de valorar després de l’audició\n\n| Peça | Curs actual | Dificultat actual | Possible curs | Nota del docent |\n| --- | --- | --- | --- | --- |\n';
-    for (const entry of grading) notes += row([link(entry), grade(entry), levels[entry.level], progress(entry).gradingReview.candidateGrade ? grade({grade:progress(entry).gradingReview.candidateGrade}) : 'Per decidir', progress(entry).gradingReview.note]);
+    for (const entry of grading) notes += row([link(entry), grade(entry), levels[entry.level], progress(entry).gradingReview.candidateGradeLabel ?? (progress(entry).gradingReview.candidateGrade ? grade({grade:progress(entry).gradingReview.candidateGrade}) : 'Per decidir'), progress(entry).gradingReview.note]);
     tracking = tracking.replace('\n## Criteris i registres\n', notes + '\n## Criteris i registres\n');
   }
 

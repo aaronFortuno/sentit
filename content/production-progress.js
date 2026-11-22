@@ -1729,5 +1729,28 @@ export const productionProgress = {
       "reviewDifficulty": true,
       "note": "Confirmar curs i dificultat després d’escoltar l’àudio. Ara es mantenen 5è i intermèdia; encara no hi ha una requalificació decidida."
     }
+  },
+  "ca-S062": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-22T18:21:42.589Z",
+    "editorialFingerprint": "06c5723fb0f3f30013e47ef64df68badced5d0d585c4b691787449305163085d",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "S062 validada per síntesi de veus",
+    "reason": "Agrupar lectures completes validades amb el mateix repartiment Laia/Leda i Biel/Puck; comprovar sis a vuit minuts abans d’enviar.",
+    "gradingReview": {
+      "status": "pending-listening",
+      "reviewAfter": "mounted-audio",
+      "currentGrade": "6",
+      "currentLevel": "advanced",
+      "candidateGrade": null,
+      "candidateGradeLabel": "1r d’ESO",
+      "candidateLevels": [
+        "middle",
+        "advanced"
+      ],
+      "reviewDifficulty": true,
+      "note": "Valorar 1r d’ESO intermèdia o avançada després d’escoltar l’àudio muntat. Ara es mantenen 6è avançada i nou preguntes, sense cap canvi de qualificació."
+    }
   }
 };
