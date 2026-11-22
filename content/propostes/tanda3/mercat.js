@@ -68,6 +68,13 @@ export const mercat = [
   }),
   proposal({
     id: 'la-balanca-marca-massa', code: 'S050', title: 'La balança marca massa', grade: '3', level: 'middle', genre: 'interview', universeIds: ['radio-escola'],
+    recordingCues: [
+      { before: 'hola', text: 'Ambient real continu de mercat: entrada breu i volum molt baix sota tota la conversa. Sense papers, safates ni efectes afegits que interrompin les veus.' },
+      { after: 'final', text: 'La veu acaba completa. Pujada suau de l’ambient, dos segons de presència i fosa de dos segons, sense sintonia ni efectes de comiat.' },
+    ],
+    seconds: 95, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s050-mixed-v1.mp3', tracks: { introduction: './assets/audio/s050-mixed-v1-intro.mp3', body: './assets/audio/s050-mixed-v1-cos.mp3' },
+    fragment: { start: 4.5600000000000005, seconds: 90 },
     summary: 'La Laia ajuda en Pau a preparar una compra i es fixa en el número de la balança. Una safata buida també pesa, i en Pau li ensenya com ho té en compte.',
     voices, delivery, soundPlan, soundCredits,
     editorialFocus: '3r intermèdia: entendre una comprovació amb un objecte present i seguir-ne l’ordre. Sis preguntes de causa i seqüència; no es demanen restes, decimals, preus ni coneixements previs de balances.',

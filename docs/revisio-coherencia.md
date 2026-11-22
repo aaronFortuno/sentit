@@ -59,7 +59,7 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S047](https://sentit.ortogra.fi/#lectura=ca-S047) | La maleta que feia soroll | 4t | Provisional · revisió superada | 2026-11-22 | `982ea2797ea3…` |
 | [ca-S048](https://sentit.ortogra.fi/#lectura=ca-S048) | Les caixes que tornen | 3r | Provisional · revisió superada | 2026-11-22 | `b4f97ed8c715…` |
 | [ca-S049](https://sentit.ortogra.fi/#lectura=ca-S049) | La parada es mou un matí | 3r | Provisional · revisió superada | 2026-11-22 | `50db317831e7…` |
-| [ca-S050](https://sentit.ortogra.fi/#lectura=ca-S050) | La balança marca massa | 3r | Provisional · revisió superada | 2026-11-22 | `76312e8edcbb…` |
+| [ca-S050](https://sentit.ortogra.fi/#lectura=ca-S050) | La balança marca massa | 3r | Revisió superada · àudio pendent | 2026-11-22 | `cbf57c492b3f…` |
 | [ca-S051](https://sentit.ortogra.fi/#lectura=ca-S051) | El cartellet que quedava amagat | 4t | Revisió superada · guió validat | 2026-11-22 | `19d3a1cc1a53…` |
 | [ca-S052](https://sentit.ortogra.fi/#lectura=ca-S052) | La capsa que semblava un llibre | 4t | Revisió superada · guió validat | 2026-11-22 | `6795a7f1e2c0…` |
 | [ca-S053](https://sentit.ortogra.fi/#lectura=ca-S053) | La pista torna a obrir al vespre | 5è | Provisional · revisió superada | 2026-11-22 | `4e76769512a4…` |

@@ -5569,6 +5569,83 @@
         "teacherFinalApproval": false,
         "newRequests": 0
       }
+    },
+    {
+      "code": "S050",
+      "activity": "ca-S050",
+      "state": "awaiting-montage-validation",
+      "file": "s050-mixed-v1.mp3",
+      "introFile": "s050-mixed-v1-intro.mp3",
+      "bodyFile": "s050-mixed-v1-cos.mp3",
+      "offset": 4.5600000000000005,
+      "bodyDuration": 89.81,
+      "fullDuration": 94.37,
+      "voices": {
+        "Laia": "Leda",
+        "Pau": "Charon"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "3dc116c991de11e684329bf9e8f8214a417a540d0372103bba92af6fd28651bd",
+      "sourceRequestHash": "b05f3706f9329b4c851a2753503593093f1579008239a18f1fd958d59bcf3783",
+      "batch": "L14",
+      "rawSha256": "bc519edcb788dbca53d1267237717f32cf3720550451af3a218f2124f11a8820",
+      "takeSha256": "b15841c1fd7be80636fe1770c10a1bcc6643920a789505093ff9f4239604184a",
+      "coverage": 0.8781362007168458,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -18.61,
+      "peakDbTP": -2.5,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "jmdh-covered-market-388315",
+          "start": 0,
+          "source": "assets/audio/sources/jmdh-388315-covered-market.mp3",
+          "sourceSha256": "491adb6958fbd12889734f9ccfbf488c9316d7addc0c1121630d1f315a136810",
+          "sourceUrl": "https://freesound.org/people/jmdh/sounds/388315/",
+          "author": "jmdh",
+          "license": "CC0 1.0",
+          "underSpeech": true,
+          "speechGain": 0.2,
+          "sourceTargetLufs": -28,
+          "speechNominalLufs": -42,
+          "lowPassHz": 1800,
+          "passes": 3,
+          "crossfadeSeconds": 1,
+          "envelope": {
+            "riseStart": 83.80999999999999,
+            "riseEnd": 84.61,
+            "holdSeconds": 2,
+            "fadeStart": 86.61,
+            "fadeEnd": 88.61
+          }
+        }
+      ],
+      "sha256": "0abb932b70edb01f2fb9bcd2edac6a30de6e8b9d0312d552df2827c94dbbb6d2",
+      "voiceHandles": {
+        "body": {
+          "start": 0.205,
+          "end": 82.415,
+          "retainedPcmSha256": "dc0b39d5fe1cf1709fadc87bbc94de03e096399df8fd3ec9ce27bf8ee58954e7",
+          "sourceSha256": "245e71053e30dc4fc76c92329f4a6c19d033102fb6053f73656057b5c0b054a3",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0.085,
+          "end": 3.695,
+          "retainedPcmSha256": "3184c97d7147a4896d9abdf688023e7c82a2813f9d179996fe08f839c7fdb1a9",
+          "sourceSha256": "9872be6f23ea36c51ad80652f6719622a026fe98ef2e2939f9fb1ffe741d7a4d",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-22",
+        "sourceTakeSha256": "b15841c1fd7be80636fe1770c10a1bcc6643920a789505093ff9f4239604184a",
+        "confirmation": "S050 veus validades, podem passar a muntatge, amb fons continu de mercat de fons"
+      }
     }
   ]
 }

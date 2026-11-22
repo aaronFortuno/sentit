@@ -124,7 +124,8 @@ export const soundSources = [
     "retrievedAt": "2026-11-20",
     "sha256": "491adb6958fbd12889734f9ccfbf488c9316d7addc0c1121630d1f315a136810",
     "usedBy": [
-      "ca-S023"
+      "ca-S023",
+      "ca-S050"
     ],
     "excerpt": {
       "start": 12
@@ -432,8 +433,8 @@ export const soundSources = [
     "retrievedAt": "2026-11-22",
     "sha256": "ac07b275131c3517007369de9cd2e3d566e6d0de9fc9ae7c7e3ac0345cbcc5f7",
     "usedBy": [
-      "ca-S030",
-      "ca-S044"
+      "ca-S044",
+      "ca-S030"
     ],
     "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
   }

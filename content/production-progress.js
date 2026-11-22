@@ -1759,9 +1759,9 @@ export const productionProgress = {
     "voicePreviewFile": "./assets/audio/s048-voices-review-v1.mp3"
   },
   "ca-S050": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-22T17:54:15.727Z",
-    "editorialFingerprint": "76312e8edcbb472f8045b7f8a0af2a644b0f0a52afb78be7a38b049c738c810e",
+    "editorialFingerprint": "cbf57c492b3f830ab7bb51262823c84840c4703b8ef3eaa0947ef5db02adca47",
     "plannedNewRequests": 1,
     "listeningApproval": false,
     "confirmation": "S050 validada per síntesi de veus",
@@ -1778,7 +1778,26 @@ export const productionProgress = {
     },
     "voicesReceivedAt": "2026-11-22T17:59:05.187Z",
     "voicePreview": "./proves/veus-rebudes.html#S050",
-    "voicePreviewFile": "./assets/audio/s050-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s050-voices-review-v1.mp3",
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-22",
+      "sourceTakeSha256": "b15841c1fd7be80636fe1770c10a1bcc6643920a789505093ff9f4239604184a",
+      "confirmation": "S050 veus validades, podem passar a muntatge, amb fons continu de mercat de fons"
+    },
+    "synthesisBatch": "L14",
+    "requestHash": "3dc116c991de11e684329bf9e8f8214a417a540d0372103bba92af6fd28651bd",
+    "audioSha256": "0abb932b70edb01f2fb9bcd2edac6a30de6e8b9d0312d552df2827c94dbbb6d2",
+    "montageNewSynthesisRequests": 0,
+    "mountedAt": "2026-11-22T21:37:29.918Z",
+    "reviewUpdate": {
+      "audio": "./assets/audio/s050-mixed-v1.mp3",
+      "at": "2026-11-22",
+      "summary": {
+        "ca": "Veus validades pel docent; primer muntatge amb ambient real continu de mercat, molt discret. Pendent d’audició del muntatge.",
+        "es": "Voces validadas por el docente; primer montaje con ambiente real continuo de mercado, muy discreto. Pendiente de escucha del montaje."
+      }
+    }
   },
   "ca-S052": {
     "state": "ready-for-voices",

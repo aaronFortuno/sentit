@@ -11,7 +11,7 @@ export function renderVoicePreview(root, entry, t, icon) {
   root.querySelectorAll('audio').forEach(audio => audio.pause());
   root.replaceChildren();
   const progress = productionProgress[`${entry?.language}-${entry?.code}`];
-  root.hidden = !progress?.voicePreviewFile;
+  root.hidden = !progress?.voicePreviewFile || Boolean(entry.audio && progress.voiceApproval?.status === 'approved');
   if (root.hidden) return;
   document.getElementById('audio-empty').hidden = true;
   const title = document.createElement('h3'); title.textContent = t('hearReceivedVoices');

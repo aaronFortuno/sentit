@@ -24,7 +24,6 @@ Les preses originals es conserven i la cobertura s’ha comprovat localment. La 
 | [ca-S047](https://sentit.ortogra.fi/#lectura=ca-S047) | [Escolta les veus](../proves/veus-rebudes.html#S047) |
 | [ca-S048](https://sentit.ortogra.fi/#lectura=ca-S048) | [Escolta les veus](../proves/veus-rebudes.html#S048) |
 | [ca-S049](https://sentit.ortogra.fi/#lectura=ca-S049) | [Escolta les veus](../proves/veus-rebudes.html#S049) |
-| [ca-S050](https://sentit.ortogra.fi/#lectura=ca-S050) | [Escolta les veus](../proves/veus-rebudes.html#S050) |
 | [ca-S058](https://sentit.ortogra.fi/#lectura=ca-S058) | [Escolta les veus](../proves/veus-rebudes.html#S058) |
 | [ca-S061](https://sentit.ortogra.fi/#lectura=ca-S061) | [Escolta les veus](../proves/veus-rebudes.html#S061) |
 | [ca-S062](https://sentit.ortogra.fi/#lectura=ca-S062) | [Escolta les veus](../proves/veus-rebudes.html#S062) |

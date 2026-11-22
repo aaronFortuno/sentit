@@ -343,8 +343,11 @@ export const editorialReviews = {
   "ca-S050": {
     "status": "passed",
     "reviewedAt": "2026-11-22",
-    "reviewer": "revisio_tanda3_mercat",
-    "fingerprint": "76312e8edcbb472f8045b7f8a0af2a644b0f0a52afb78be7a38b049c738c810e"
+    "reviewer": "revisio_contextos_previs",
+    "fingerprint": "cbf57c492b3f830ab7bb51262823c84840c4703b8ef3eaa0947ef5db02adca47",
+    "metadataReview": {
+      "scope": "Muntatge amb ambient continu de mercat segons retorn docent; cos i sis preguntes intactes, pendent d’audició final."
+    }
   },
   "ca-S051": {
     "status": "passed",
