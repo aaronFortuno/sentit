@@ -172,44 +172,62 @@
     "code": "S058",
     "title": "La pancarta que tapava la porta",
     "batch": "L18",
-    "sourceTakeSha256": "42a56971ce0f129ecd891b5ad820cb9806de00160954219a913e8dc9824f6d86",
-    "sourceRawSha256": "de4323b4b47570c2f0ba4f84b9737e25ca467727538ba4840d164eedd8ccb601",
-    "file": "assets/audio/s058-voices-review-v1.mp3",
-    "sha256": "12fc497774d15e6a372cd0c353c27e63c4ff0a8e82575c291a5daa6fd633a5c7",
+    "revision": 2,
+    "sourceTakeSha256": "41b9054c90bc68390aade806e98599e2fe8038e9e5c790219c2d5ec465253b78",
+    "sourceRawSha256": "31d64681f63f83a2ea00ceaae4e856d2c22a5a1c3eaa089c652442b3ecebf497",
+    "file": "assets/audio/s058-voices-review-v2.mp3",
+    "sha256": "8f71fefda33b3c30f5b1adf3c7dce0b3e2235538d8f1fe428b68d256021ac116",
     "state": "voices-received-awaiting-listening",
     "missingParts": [],
     "teacherAudioApproval": false,
     "newRequests": 0,
-    "voiceRetimed": false
+    "voiceRetimed": false,
+    "replaces": {
+      "file": "assets/audio/s058-voices-review-v1.mp3",
+      "sha256": "12fc497774d15e6a372cd0c353c27e63c4ff0a8e82575c291a5daa6fd633a5c7",
+      "sourceTakeSha256": "42a56971ce0f129ecd891b5ad820cb9806de00160954219a913e8dc9824f6d86"
+    }
   },
   {
     "code": "S061",
     "title": "El curt que començava pel final",
     "batch": "L18",
-    "sourceTakeSha256": "d27187cf8ae9da5f80466122ceefdedb029015ebe486cf16b36e20d70c1640be",
-    "sourceRawSha256": "de4323b4b47570c2f0ba4f84b9737e25ca467727538ba4840d164eedd8ccb601",
-    "file": "assets/audio/s061-voices-review-v1.mp3",
-    "sha256": "1200d6c4fa84605e35e3adbff0788e6ea93083e709ad6508def91eb8873509f4",
+    "revision": 2,
+    "sourceTakeSha256": "f8c2abe90710bcd8f81d4437c03c30b36c5c1be4ac58f2c7a46e63e0aa60cd4b",
+    "sourceRawSha256": "31d64681f63f83a2ea00ceaae4e856d2c22a5a1c3eaa089c652442b3ecebf497",
+    "file": "assets/audio/s061-voices-review-v2.mp3",
+    "sha256": "6ce46e740bf242d55d6809664c0f5488a2873049f567a47fba19e312d9163603",
     "state": "voices-received-awaiting-listening",
     "missingParts": [
       "introduction"
     ],
     "teacherAudioApproval": false,
     "newRequests": 0,
-    "voiceRetimed": false
+    "voiceRetimed": false,
+    "replaces": {
+      "file": "assets/audio/s061-voices-review-v1.mp3",
+      "sha256": "1200d6c4fa84605e35e3adbff0788e6ea93083e709ad6508def91eb8873509f4",
+      "sourceTakeSha256": "d27187cf8ae9da5f80466122ceefdedb029015ebe486cf16b36e20d70c1640be"
+    }
   },
   {
     "code": "S062",
     "title": "Dos cartells per al mateix concert",
     "batch": "L18",
-    "sourceTakeSha256": "031262103284aefc7afa38de4c7db2e19e6437de1c4a64a75bdec374152d26b0",
-    "sourceRawSha256": "de4323b4b47570c2f0ba4f84b9737e25ca467727538ba4840d164eedd8ccb601",
-    "file": "assets/audio/s062-voices-review-v1.mp3",
-    "sha256": "ea2948fca14dda1a42af6d5cf64008a084bec9bd70bdaa512adaae7e3edd6d11",
+    "revision": 2,
+    "sourceTakeSha256": "676d4c4ceb31e8660214e30cc0a863bb1e3b496e2c7e8d4c57a6cd8b35f80441",
+    "sourceRawSha256": "31d64681f63f83a2ea00ceaae4e856d2c22a5a1c3eaa089c652442b3ecebf497",
+    "file": "assets/audio/s062-voices-review-v2.mp3",
+    "sha256": "ac074cd75e45c66f930e4117e3b6373b7a579b75d845f13930f2df21007a5887",
     "state": "voices-received-awaiting-listening",
     "missingParts": [],
     "teacherAudioApproval": false,
     "newRequests": 0,
-    "voiceRetimed": false
+    "voiceRetimed": false,
+    "replaces": {
+      "file": "assets/audio/s062-voices-review-v1.mp3",
+      "sha256": "ea2948fca14dda1a42af6d5cf64008a084bec9bd70bdaa512adaae7e3edd6d11",
+      "sourceTakeSha256": "031262103284aefc7afa38de4c7db2e19e6437de1c4a64a75bdec374152d26b0"
+    }
   }
 ]

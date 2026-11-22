@@ -43,5 +43,5 @@ export const hasApprovedScript = entry => {
   const progress=productionProgress[`${entry?.language}-${entry?.code}`];
   return !entry?.audio && progress?.state==='ready-for-voices' && editorialReview(entry)?.fingerprint===progress.editorialFingerprint;
 };
-export const hasPendingSynthesisEdit = entry => entry?.reviewStatus === 'audio-review' && productionProgress[`${entry.language}-${entry.code}`]?.state === 'audio-corrections-pending' && productionProgress[`${entry.language}-${entry.code}`].feedback?.some(item => item.status === 'pending');
+export const hasPendingSynthesisEdit = entry => ['pending','audio-review'].includes(entry?.reviewStatus) && productionProgress[`${entry.language}-${entry.code}`]?.state === 'audio-corrections-pending' && productionProgress[`${entry.language}-${entry.code}`].feedback?.some(item => item.status === 'pending');
 export const reviewCaption = (entry, labels) => hasPendingSynthesisEdit(entry) ? labels.reviewSynthesisEdit : entry?.reviewStatus === 'audio-review' ? labels.audioReview : hasPendingMontage(entry) ? labels.reviewVoicesReceived : hasApprovedScript(entry) ? labels.reviewReadyForVoices : isEditoriallyReviewed(entry) ? labels.reviewProvisional : labels.reviewInProgress;

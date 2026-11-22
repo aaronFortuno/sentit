@@ -61,7 +61,7 @@ export async function productionDocuments(date) {
   for (const entry of pending) {
     const plan = plans[entry.code], spec = entry.production ? productionSpec(entry) : specialSpecs[entry.code];
     const approved = plan?.status === 'approved' && spec && plan.approvedFingerprint === fingerprint(entry, spec, plan);
-    const reviewing = entry.reviewStatus === 'pending', audio = Boolean(entry.audio), received = audio || hasPendingMontage(entry);
+    const reviewing = entry.reviewStatus === 'pending', audio = Boolean(entry.audio), received = audio || hasPendingMontage(entry) || (progress(entry)?.receivedTakes?.total>0&&progress(entry).receivedTakes.received.length===progress(entry).receivedTakes.total);
     tracking += row([link(entry), entry.title, grade(entry), `${levels[entry.level]} · ${genres[entry.genre]}`, duration(entry), entry.questions.length,
       '✅', isEditoriallyReviewed(entry) ? '✅' : reviewing ? '**⏳ Revisar**' : '◐',
       approved ? (plan.approvedScope === 'voices-only' ? '✅ Veus' : '✅') : plan?.contentValidation ? '◐ Contingut · **⏳ Guió**' : reviewing ? '**⏳ Revisar**' : '◐',

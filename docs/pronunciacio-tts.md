@@ -72,3 +72,8 @@ S023 v2 ja té Ona curta i ambient real de mercat. La correcció de suggeriments
 - **S030:** retirats farciment inicial, pauses tècniques, respiració posterior a la parla i passos tardans. Cap canvi de velocitat ni paraula.
 
 Les esmenes de veu esperen un lot compatible prou ple. Prioritzar comprensions completes amb els mateixos personatges i continuïtat de context; no repetir l’estratègia de molts torns desconnectats. No enviar de nou marques de pausa com a text parlat sense comprovar el format del proveïdor. Les preses anteriors i els manifests continuen disponibles.
+
+## Retorns del 22/11
+
+- **S058:** al torn de Biel `avis`, «dos trossets de cinta» sona «dos torsets de cinta». El docent tornarà a escoltar la presa v2 després de retirar les metadades que produïen cruixits; si només queda aquest error, es prepararà una represa del torn, conservant la resta. No hi ha cap regeneració nova enviada.
+- **S069:** Ferran diu «Eina» en lloc d’«Aina» i «guix» amb final de tipus «ks». Regravar només el primer torn complet, `encarrec`, amb direcció específica per al diftong del nom Aina i el so final suau de guix, com el de peix. La grafia editorial es conserva. La resta de la presa ha estat validada expressament pel docent; el muntatge espera la correcció. Aplicar aquestes indicacions a aquests mots concrets, sense convertir-les en una regla general per a qualsevol grafia final «ix».

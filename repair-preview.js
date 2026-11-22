@@ -24,7 +24,7 @@ export function renderVoicePreview(root, entry, t, icon) {
   for(const event of ['play','pause','ended'])audio.addEventListener(event,paint);
   mountAudioSeek(seek,audio,t);paint();
   audio.addEventListener('play', () => { window.dispatchEvent(new Event('sentit-pause-playback')); document.querySelectorAll('audio').forEach(other => { if (other !== audio) other.pause(); }); });
-  const note = document.createElement('p'); note.className = 'small'; note.textContent = t(progress.missingVoiceParts?.length ? 'reviewMissingTitle' : 'voiceBeforeMontage');
+  const note = document.createElement('p'); note.className = 'small'; note.textContent = progress.voiceReviewUpdate?.summary?.[document.documentElement.lang] ?? progress.voiceReviewUpdate?.summary?.ca ?? t(progress.missingVoiceParts?.length ? 'reviewMissingTitle' : 'voiceBeforeMontage');
   root.append(title, button, seek, audio, note);
 }
 

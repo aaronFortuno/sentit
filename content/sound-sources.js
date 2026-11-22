@@ -125,6 +125,7 @@ export const soundSources = [
     "sha256": "491adb6958fbd12889734f9ccfbf488c9316d7addc0c1121630d1f315a136810",
     "usedBy": [
       "ca-S023",
+      "ca-S048",
       "ca-S050"
     ],
     "excerpt": {

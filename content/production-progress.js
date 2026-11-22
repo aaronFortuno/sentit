@@ -1737,9 +1737,9 @@ export const productionProgress = {
     "voicePreviewFile": "./assets/audio/s049-voices-review-v1.mp3"
   },
   "ca-S048": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-22T17:52:11.110Z",
-    "editorialFingerprint": "b4f97ed8c7150ae7e3b1c3686eaef4695b8aa9d7655cdd235cbac33e33b0fe6f",
+    "editorialFingerprint": "2b675b1e99ea423b75aee675f7104379ae8ca1deba3d641334b6ff56992cddd0",
     "plannedNewRequests": 1,
     "listeningApproval": false,
     "confirmation": "S048 validada per síntesi de veus",
@@ -1756,7 +1756,26 @@ export const productionProgress = {
     },
     "voicesReceivedAt": "2026-11-22T17:59:05.187Z",
     "voicePreview": "./proves/veus-rebudes.html#S048",
-    "voicePreviewFile": "./assets/audio/s048-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s048-voices-review-v1.mp3",
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-22",
+      "sourceTakeSha256": "c17478028311d1f2d60031d47002e793f6a7c8164f6d8fd4f8d21d69ea34c228",
+      "confirmation": "S048 validat per muntatge, tot molt bé, fons continu de mercat."
+    },
+    "mountedAt": "2026-11-22T21:45:56.560Z",
+    "synthesisBatch": "L14",
+    "requestHash": "3dc116c991de11e684329bf9e8f8214a417a540d0372103bba92af6fd28651bd",
+    "audioSha256": "1f48c06f07f83c7d3392c1a4bb84ac56e2ccee18acffed5b8cd3069264624444",
+    "montageNewSynthesisRequests": 0,
+    "reviewUpdate": {
+      "audio": "./assets/audio/s048-mixed-v1.mp3",
+      "at": "2026-11-22",
+      "summary": {
+        "ca": "Veus validades; primer muntatge amb ambient real continu de mercat, molt discret. Pendent d’audició del muntatge.",
+        "es": "Voces validadas; primer montaje con ambiente real continuo de mercado, muy discreto. Pendiente de escucha del montaje."
+      }
+    }
   },
   "ca-S050": {
     "state": "montage-awaiting-listening",
@@ -1891,10 +1910,19 @@ export const productionProgress = {
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-22T20:58:09.995Z",
     "voicePreview": "./proves/veus-rebudes.html#S062",
-    "voicePreviewFile": "./assets/audio/s062-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s062-voices-review-v2.mp3",
+    "voiceReviewUpdate": {
+      "file": "./assets/audio/s062-voices-review-v2.mp3",
+      "at": "2026-11-22",
+      "conversion": "removed-35-interleaved-c2pa-id3-tags",
+      "summary": {
+        "ca": "Metadades retirades; torna a escoltar la presa neta. Sense veus noves ni canvi de ritme.",
+        "es": "Metadatos retirados; vuelve a escuchar la toma limpia. Sin voces nuevas ni cambio de ritmo."
+      }
+    }
   },
   "ca-S069": {
-    "state": "voices-received",
+    "state": "audio-corrections-pending",
     "approvedAt": "2026-11-22T19:33:51.066Z",
     "editorialFingerprint": "98d513f391e4b49069dd87e6ec6e7ea9308a37147a327cd2f068e6a1e43783c1",
     "plannedNewRequests": 1,
@@ -1913,7 +1941,42 @@ export const productionProgress = {
     },
     "voicesReceivedAt": "2026-11-22T20:49:56.816Z",
     "voicePreview": "./proves/veus-rebudes.html#S069",
-    "voicePreviewFile": "./assets/audio/s069-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s069-voices-review-v1.mp3",
+    "feedbackAt": "2026-11-22",
+    "feedback": [
+      {
+        "part": "encarrec",
+        "word": "Aina · guix",
+        "heard": "Eina i guiks",
+        "status": "pending"
+      }
+    ],
+    "voiceApproval": {
+      "status": "partial",
+      "approvedAt": "2026-11-22",
+      "sourceTakeSha256": "633fd6af92165442628944cb8ad45e889218b2bbbf4d4ceca34f47f390421a14",
+      "approvedParts": [
+        "introduction",
+        "primer",
+        "canvi",
+        "error",
+        "parar",
+        "arreglar",
+        "final"
+      ],
+      "excludedParts": [
+        "encarrec"
+      ],
+      "confirmation": "Primera intervenció pendent de represa; la resta correcta i vàlida per muntatge."
+    },
+    "plannedRepair": {
+      "part": "encarrec",
+      "speaker": "Ferran",
+      "text": "Aina, una vegada em van deixar portar el marcador d’un partit del barri. Jo encara era petit per jugar amb els grans, però em van donar una pissarra i un guix. A dalt hi havia escrit el nom dels dos equips: carrer Nou a l’esquerra i carrer Major a la dreta.",
+      "sourceTakeSha256": "633fd6af92165442628944cb8ad45e889218b2bbbf4d4ceca34f47f390421a14",
+      "status": "approved-awaiting-compatible-batch",
+      "pronunciation": "Aina: keep the Catalan AI diphthong, not Eina. Guix ends with the soft SH consonant heard in Catalan peix, never a K or KS sound. Keep the I vowel. Read only the supplied sentence, not these instructions."
+    }
   },
   "ca-S075": {
     "state": "ready-for-voices",
@@ -2017,7 +2080,16 @@ export const productionProgress = {
     ],
     "voicesReceivedAt": "2026-11-22T20:58:09.995Z",
     "voicePreview": "./proves/veus-rebudes.html#S061",
-    "voicePreviewFile": "./assets/audio/s061-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s061-voices-review-v2.mp3",
+    "voiceReviewUpdate": {
+      "file": "./assets/audio/s061-voices-review-v2.mp3",
+      "at": "2026-11-22",
+      "conversion": "removed-35-interleaved-c2pa-id3-tags",
+      "summary": {
+        "ca": "Metadades retirades; torna a escoltar la presa neta. El títol locutat continua pendent.",
+        "es": "Metadatos retirados; vuelve a escuchar la toma limpia. El título locutado sigue pendiente."
+      }
+    }
   },
   "ca-S082": {
     "state": "ready-for-voices",
@@ -2109,7 +2181,7 @@ export const productionProgress = {
     "voicePreviewFile": "./assets/audio/s047-voices-review-v1.mp3"
   },
   "ca-S058": {
-    "state": "voices-received",
+    "state": "audio-corrections-pending",
     "approvedAt": "2026-11-22T20:16:52.042Z",
     "editorialFingerprint": "56df8abc8b9aef92135f8a89300a7c5fe779f8015e30a91c1f13aade6b97b869",
     "plannedNewRequests": 1,
@@ -2130,7 +2202,38 @@ export const productionProgress = {
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-22T20:58:09.995Z",
     "voicePreview": "./proves/veus-rebudes.html#S058",
-    "voicePreviewFile": "./assets/audio/s058-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s058-voices-review-v2.mp3",
+    "voiceReviewUpdate": {
+      "file": "./assets/audio/s058-voices-review-v2.mp3",
+      "at": "2026-11-22",
+      "conversion": "removed-35-interleaved-c2pa-id3-tags",
+      "summary": {
+        "ca": "Cruixits de metadades retirats. Torna a escoltar la presa neta; «trossets» continua pendent de comprovar i corregir.",
+        "es": "Crujidos de metadatos retirados. Vuelve a escuchar la toma limpia; «trossets» sigue pendiente de comprobar y corregir."
+      }
+    },
+    "feedbackAt": "2026-11-22",
+    "feedback": [
+      {
+        "part": "conversion",
+        "word": "Cruixits repetits",
+        "status": "applied",
+        "resolution": "35 etiquetes ID3/C2PA retirades del lot, mostres de veu conservades"
+      },
+      {
+        "part": "avis",
+        "word": "trossets",
+        "heard": "torsets",
+        "status": "pending"
+      }
+    ],
+    "plannedRepair": {
+      "part": "avis",
+      "text": "I el número el deixem al descobert. Mira, agafo dos trossets de cinta i ho provem abans d’enganxar-ho tot. Aguanta tu, que ara vull mirar-ho des de fora.",
+      "speaker": "Biel",
+      "sourceTakeSha256": "41b9054c90bc68390aade806e98599e2fe8038e9e5c790219c2d5ec465253b78",
+      "status": "awaiting-teacher-recheck-of-clean-audio"
+    }
   },
   "ca-S081": {
     "state": "ready-for-voices",

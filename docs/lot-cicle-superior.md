@@ -41,7 +41,7 @@ Laia i Biel · Leda + Puck. Les lectures són independents; no cal haver-ne esco
 
 | Codi | Títol | Curs · dificultat | Tipologia | Durada prevista | Preguntes | Estat |
 | --- | --- | --- | --- | --- | ---: | --- |
-| [ca-S058](https://sentit.ortogra.fi/#lectura=ca-S058) | La pancarta que tapava la porta | 5è · Accessible | Diàleg | Prevista 1:50–2:15 | 8 | Veus rebudes |
+| [ca-S058](https://sentit.ortogra.fi/#lectura=ca-S058) | La pancarta que tapava la porta | 5è · Accessible | Diàleg | Prevista 1:50–2:15 | 8 | Provisional · pendent del docent |
 | [ca-S059](https://sentit.ortogra.fi/#lectura=ca-S059) | La partida que no cabia a la taula | 5è · Intermèdia | Diàleg | Prevista 1:55–2:25 | 8 | Provisional · pendent del docent |
 | [ca-S060](https://sentit.ortogra.fi/#lectura=ca-S060) | Un soroll darrere de les veus | 6è · Accessible | Diàleg | Prevista 1:45–2:10 | 9 | Provisional · pendent del docent |
 | [ca-S061](https://sentit.ortogra.fi/#lectura=ca-S061) | El curt que començava pel final | 5è · Avançada | Diàleg | Prevista 2:45–3:20 | 8 | Veus rebudes · curs i dificultat per valorar després d’escoltar |
@@ -74,7 +74,7 @@ Ferran · Algenib. Les lectures són independents; no cal haver-ne escoltat cap 
 | Codi | Títol | Curs · dificultat | Tipologia | Durada prevista | Preguntes | Estat |
 | --- | --- | --- | --- | --- | ---: | --- |
 | [ca-S068](https://sentit.ortogra.fi/#lectura=ca-S068) | El dinar al banc de l’estació | 5è · Accessible | Narració | Prevista 2:00–2:30 | 8 | Provisional · pendent del docent |
-| [ca-S069](https://sentit.ortogra.fi/#lectura=ca-S069) | La pissarra del partit | 5è · Intermèdia | Narració | Prevista 2:15–2:45 | 8 | Veus rebudes |
+| [ca-S069](https://sentit.ortogra.fi/#lectura=ca-S069) | La pissarra del partit | 5è · Intermèdia | Narració | Prevista 2:15–2:45 | 8 | Provisional · pendent del docent |
 | [ca-S070](https://sentit.ortogra.fi/#lectura=ca-S070) | El dia que no va sonar el disc | 6è · Accessible | Narració | Prevista 1:55–2:20 | 9 | Provisional · pendent del docent |
 | [ca-S071](https://sentit.ortogra.fi/#lectura=ca-S071) | Les dues entrades blaves | 5è · Avançada | Narració | Prevista 3:10–3:50 | 8 | Provisional · pendent del docent |
 | [ca-S072](https://sentit.ortogra.fi/#lectura=ca-S072) | El quadern de la parada | 6è · Avançada | Narració | Prevista 3:10–3:45 | 9 | Provisional · pendent del docent |

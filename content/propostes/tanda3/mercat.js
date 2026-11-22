@@ -8,6 +8,10 @@ const soundPlan = 'Dos segons de mercat enregistrat, amb murmuri llunyà sense p
 export const mercat = [
   proposal({
     id: 'les-caixes-que-tornen', code: 'S048', title: 'Les caixes que tornen', grade: '3', level: 'easy', genre: 'interview', universeIds: ['radio-escola'],
+    recordingCues: [{"before":"hola","text":"Ambient real continu de mercat: entrada breu i volum molt baix sota tota la conversa. Sense efectes puntuals afegits."},{"after":"final","text":"La veu acaba completa. Pujada suau de l’ambient, dos segons de presència i fosa de dos segons, sense sintonia ni efectes de comiat."}],
+    seconds: 95, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s048-mixed-v1.mp3', tracks: { introduction: './assets/audio/s048-mixed-v1-intro.mp3', body: './assets/audio/s048-mixed-v1-cos.mp3' },
+    fragment: { start: 3.96, seconds: 91 },
     summary: 'La Laia troba en Pau separant unes caixes buides de la parada. Algunes esperen un altre viatge i d’altres ja es poden plegar.',
     voices, delivery, soundPlan, soundCredits,
     editorialFocus: '3r accessible: dos tipus d’objecte ben diferenciats i causes explícites. Sis preguntes sobre el destí de cada caixa, l’ordre de la feina i la decisió de deixar-ne una apartada.',

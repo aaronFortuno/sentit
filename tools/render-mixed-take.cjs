@@ -10,6 +10,7 @@ const root=path.resolve(__dirname,'..'),work=path.resolve(root,'../output/sentit
 const recipes={S021:{source:'content/propostes/sise.js',ambient:'soaress-546234',ambientFrom:40,events:[{before:'materials',after:'vespre',source:'evsecrets-footsteps-334457',from:1.4,seconds:1.1,gap:1.45},{before:'final',after:'limit',source:'beussa-749880',from:0,seconds:.678,gap:1.05}]},S032:{source:'content/propostes/tanda2/quart.js',ambient:'elenalostale-648659',ambientFrom:20,events:[{before:'prova',after:'ordre',source:'beussa-749880',from:0,seconds:.678,gap:1.05}]}};
 Object.assign(recipes,{
  S050:{ambient:'jmdh-covered-market-388315',ambientFrom:12,bed:true,events:[],ending:'ambient',lead:1.6,tail:5.4,titleGap:.4,cleanHandles:true,bedFadeSeconds:2},
+ S048:{ambient:'jmdh-covered-market-388315',ambientFrom:12,bed:true,events:[],ending:'ambient',lead:1.6,tail:5.4,titleGap:.4,cleanHandles:true,bedFadeSeconds:2},
  S043:{ambient:'hz37-792502',ambientFrom:8,music:true,events:[{before:'hipotesi',after:'troballa',source:'beussa-749880',from:0,seconds:.678,gap:1.05}],ending:'ambient'},
  S027:{ambient:'fthgurdy-528944',ambientFrom:1,music:true,events:[{before:'baixar',after:'canvi',source:'ienba-850705',from:1,seconds:1.2,gap:1.5}],ending:'ambient'},
  S034:{ambient:'callmethefoo-744447',ambientFrom:12,music:true,events:[{before:'veins',after:'calor',source:'funkysandwich-871017',from:0,seconds:1.2,gap:1.5}],ending:'ambient'},

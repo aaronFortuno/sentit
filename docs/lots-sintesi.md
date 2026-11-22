@@ -22,12 +22,9 @@ Les preses originals es conserven i la cobertura s’ha comprovat localment. La 
 | [ca-S045](https://sentit.ortogra.fi/#lectura=ca-S045) | [Escolta les veus](../proves/veus-rebudes.html#S045) |
 | [ca-S046](https://sentit.ortogra.fi/#lectura=ca-S046) | [Escolta les veus](../proves/veus-rebudes.html#S046) |
 | [ca-S047](https://sentit.ortogra.fi/#lectura=ca-S047) | [Escolta les veus](../proves/veus-rebudes.html#S047) |
-| [ca-S048](https://sentit.ortogra.fi/#lectura=ca-S048) | [Escolta les veus](../proves/veus-rebudes.html#S048) |
 | [ca-S049](https://sentit.ortogra.fi/#lectura=ca-S049) | [Escolta les veus](../proves/veus-rebudes.html#S049) |
-| [ca-S058](https://sentit.ortogra.fi/#lectura=ca-S058) | [Escolta les veus](../proves/veus-rebudes.html#S058) |
 | [ca-S061](https://sentit.ortogra.fi/#lectura=ca-S061) | [Escolta les veus](../proves/veus-rebudes.html#S061) |
 | [ca-S062](https://sentit.ortogra.fi/#lectura=ca-S062) | [Escolta les veus](../proves/veus-rebudes.html#S062) |
-| [ca-S069](https://sentit.ortogra.fi/#lectura=ca-S069) | [Escolta les veus](../proves/veus-rebudes.html#S069) |
 
 Les previsions provenen dels guions i del calibratge local; cal recalcular-les amb el format definitiu abans d’enviar. Una mateixa veu en dos guions no implica el mateix personatge. No es canvien repartiments ni s’allarguen guions per omplir un lot.
 

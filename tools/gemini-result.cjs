@@ -6,7 +6,9 @@ function waveParts(bytes) {
   let format;const data=[];
   for(let at=12;at+8<=bytes.length;){const size=bytes.readUInt32LE(at+4),end=at+8+size;if(end>bytes.length)throw Error('Gemini: WAV truncat.');const kind=bytes.toString('ascii',at,at+4);if(kind==='fmt ')format=bytes.subarray(at+8,end);if(kind==='data')data.push(bytes.subarray(at+8,end));at=end+size%2;}
   if(!format||format.length<16||format.readUInt16LE(0)!==1||format.readUInt16LE(14)!==16||!data.length)throw Error('Gemini: cal revisar el format PCM rebut.');
-  return {format,pcm:Buffer.concat(data)};
+  const pcm=Buffer.concat(data);
+  if(pcm.includes(Buffer.from('application/c2pa\0'))&&pcm.includes(Buffer.from('c2pa manifest store\0')))throw Error('Gemini: metadades intercalades al PCM; conservar la resposta i separar-les abans de publicar.');
+  return {format,pcm};
 }
 function collectAudio(result) {
   if(result.status&&result.status!=='completed')throw Error('Gemini: resposta no completada ('+result.status+'). Conservar i revisar abans de repetir.');

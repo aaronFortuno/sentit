@@ -57,7 +57,7 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S046](https://sentit.ortogra.fi/#lectura=ca-S046) | La clau del davantal | 4t | Provisional · revisió superada | 2026-11-22 | `6dec967b93b5…` |
 | [ca-S046D](https://sentit.ortogra.fi/#lectura=ca-S046D) | La clau del davantal · versió dialogada | 4t | Provisional · revisió superada | 2026-11-22 | `1db713701888…` |
 | [ca-S047](https://sentit.ortogra.fi/#lectura=ca-S047) | La maleta que feia soroll | 4t | Provisional · revisió superada | 2026-11-22 | `982ea2797ea3…` |
-| [ca-S048](https://sentit.ortogra.fi/#lectura=ca-S048) | Les caixes que tornen | 3r | Provisional · revisió superada | 2026-11-22 | `b4f97ed8c715…` |
+| [ca-S048](https://sentit.ortogra.fi/#lectura=ca-S048) | Les caixes que tornen | 3r | Revisió superada · àudio pendent | 2026-11-22 | `2b675b1e99ea…` |
 | [ca-S049](https://sentit.ortogra.fi/#lectura=ca-S049) | La parada es mou un matí | 3r | Provisional · revisió superada | 2026-11-22 | `50db317831e7…` |
 | [ca-S050](https://sentit.ortogra.fi/#lectura=ca-S050) | La balança marca massa | 3r | Revisió superada · àudio pendent | 2026-11-22 | `cbf57c492b3f…` |
 | [ca-S051](https://sentit.ortogra.fi/#lectura=ca-S051) | El cartellet que quedava amagat | 4t | Revisió superada · guió validat | 2026-11-22 | `19d3a1cc1a53…` |
