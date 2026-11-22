@@ -27,7 +27,7 @@ const { chromium } = require('C:/Users/afortun8/.cache/codex-runtimes/codex-prim
     assert(await page.locator('#show-context').isChecked());
     assert.equal(await page.locator('.paper-listening-context').count(), 1);
     assert.equal(await page.locator('.paper-listening-context h4').innerText(), 'Context amb Sentit');
-    assert.equal(await page.locator('#show-context').evaluate(node => node.closest('#audio-panel') !== null), true);
+    assert.equal(await page.locator('#show-context').evaluate(node => node.closest('#print-panel') !== null), true);
     await page.locator('#show-context').uncheck();
     assert.equal(await page.locator('.paper-listening-context').count(), 0);
     await page.reload();

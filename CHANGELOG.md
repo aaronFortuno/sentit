@@ -1,5 +1,10 @@
 # Canvis
 
+## 0.1.74 · 22 de novembre de 2026
+
+- «Context amb Sentit al full» passa al capdamunt del sidebar dret d’impressió, conservant les preferències desades.
+- Les cards amb àudio muntat pendent d’audició mostren «A punt per revisar». Separada la clau de text de la card de la funció que descriu les escoltes a l’escaleta, en català i castellà.
+
 ## 0.1.73 · 22 de novembre de 2026
 
 - «Context amb Sentit» a les 85 comprensions: text previ breu per situar participants i escena sense avançar respostes. Visible per defecte a la fitxa, amb un checkbox al començament del sidebar esquerre, independent de les instruccions de sessió. Preferència per comprensió i per col·lecció, conservada en local.

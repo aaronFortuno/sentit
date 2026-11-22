@@ -3,6 +3,17 @@ const assert = require('node:assert/strict'), { fork } = require('node:child_pro
 const { chromium } = require('C:/Users/afortun8/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
 (async () => {
   const { activities } = await import('../catalogue.js'), { cardReviewUpdate } = await import('../production-review.js'), { productionProgress } = await import('../content/production-progress.js');
+  const { strings } = await import('../locales.js');
+  for (const language of ['ca', 'es']) {
+    for (const activity of activities) {
+      const update = cardReviewUpdate(activity);
+      if (!update) continue;
+      assert.equal(typeof strings[language][update.title], 'string', activity.code + ': card title must be text');
+      assert.equal(typeof strings[language][update.help], 'string', activity.code + ': card help must be text');
+    }
+    assert.equal(typeof strings[language].reviewFirstListening, 'function', 'The script keeps its parameterized listening instruction');
+    assert(strings[language].reviewFirstListening(2).includes('2'));
+  }
   const entry = code => activities.find(item => item.code === code);
   assert.equal(cardReviewUpdate(entry('S005')).id, 'repair-pending');
   assert.equal(cardReviewUpdate(entry('S010')).id, 'repair-received');
@@ -29,12 +40,14 @@ const { chromium } = require('C:/Users/afortun8/.cache/codex-runtimes/codex-prim
     await context.route('**/*', route => new URL(route.request().url()).origin === new URL(base).origin ? route.continue() : route.abort());
     const page = await context.newPage(); page.on('pageerror', error => errors.push(error.message));
     await page.goto(base); await page.locator('.activity-card').first().waitFor();
-    for (const code of ['S005', 'S010', 'S011', 'S025', 'S030', 'S039', 'S041']) {
+    for (const code of ['S005', 'S010', 'S011', 'S025', 'S030', 'S039', 'S041', 'S006', 'S009', 'S029', 'S031']) {
       await page.locator('#search').fill(code);
       const card = page.locator('.activity-card').first();
       await page.waitForFunction(expected => document.querySelector('.activity-card')?.dataset.reviewUpdate === expected, cardReviewUpdate(entry(code)).id);
       assert.equal(await card.getAttribute('data-review-update'), cardReviewUpdate(entry(code)).id);
       const text = await card.locator('.activity-review-label').innerText();
+      assert(!text.includes('=>') && !text.includes('${'), code + ': no function source in card');
+      if (cardReviewUpdate(entry(code)).id === 'audio-review') assert(text.includes('A punt per revisar'));
       if (code === 'S010') assert(text.includes('Original sense substituir'));
       if (code === 'S039') assert(text.includes('Guió esmenat'));
       if (code === 'S025') assert(text.includes('prémer'));
@@ -42,6 +55,9 @@ const { chromium } = require('C:/Users/afortun8/.cache/codex-runtimes/codex-prim
       const label = await card.locator('.activity-review-label').boundingBox(), box = await card.boundingBox();
       assert(label.x >= box.x && label.x + label.width <= box.x + box.width, code + ': label fits card');
     }
+    await page.locator('#language').evaluate(node => { node.value = 'es'; node.dispatchEvent(new Event('change', { bubbles: true })); });
+    await page.waitForFunction(() => document.querySelector('.activity-review-label')?.textContent.includes('Listo para revisar'));
+    assert(!(await page.locator('.activity-review-label').innerText()).includes('=>'));
     await page.setViewportSize({ width: 820, height: 900 });
     await page.evaluate(() => document.documentElement.dataset.theme = 'dark');
     await page.screenshot({ path: path.resolve(__dirname, '../../tmp/sentit-qa/review-updates.png') });
