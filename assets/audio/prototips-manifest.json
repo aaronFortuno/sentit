@@ -252,7 +252,7 @@
       "code": "S023",
       "activity": "ca-S023",
       "date": "2026-11-20T20:09:54.848Z",
-      "state": "awaiting-pronunciation-correction-and-audio-review",
+      "state": "awaiting-montage-validation",
       "model": "gemini-3.8-flash-tts",
       "voices": {
         "Presentadora": "Erinome",
@@ -291,17 +291,17 @@
         "peakDbFS": -58.5,
         "rawSamplesPreserved": true
       },
-      "file": "s023-news-common-v2.mp3",
-      "introFile": "s023-news-common-v2-intro.mp3",
-      "bodyFile": "s023-news-common-v2-cos.mp3",
+      "file": "s023-news-repair-v3.mp3",
+      "introFile": "s023-news-repair-v3-intro.mp3",
+      "bodyFile": "s023-news-repair-v3-cos.mp3",
       "offset": 7.375,
-      "bodyDuration": 193.655,
-      "fullDuration": 201.03,
+      "bodyDuration": 194.016,
+      "fullDuration": 201.391,
       "lufs": -19.39,
       "peakDbTP": -2.48,
       "voice": {
-        "bodyLead": 4.6,
-        "bodyRawDuration": 186.905,
+        "bodyLead": 2.5,
+        "bodyRawDuration": 187.266,
         "untrimmedApartFromSilenceSplit": true,
         "retimed": false
       },
@@ -337,7 +337,7 @@
         {
           "name": "jmdh-covered-market-388315",
           "start": 62.25499999999999,
-          "end": 103.455,
+          "end": 101.35499999999999,
           "origin": "external-recording",
           "source": "assets/audio/sources/jmdh-388315-covered-market.mp3",
           "sourceId": "jmdh-covered-market-388315",
@@ -364,7 +364,7 @@
           "additionalGain": 0.6
         }
       ],
-      "sha256": "eda7f7391d88f04f0ad2c981dc246f1c1f5fd4c72142159a27d8e655f84b6960",
+      "sha256": "4bdd9de1339ac05a10e5919dabfb56d30267ce4e12a3882067264e90066190c3",
       "montageNewSynthesisRequests": 0,
       "previousMaster": {
         "file": "s023-mercat-v1.mp3",
@@ -377,16 +377,57 @@
       },
       "newsRevision": {
         "date": "2026-11-22",
-        "baseFile": "s023-mercat-v2.mp3",
-        "baseAudioSha256": "f9e9501db7bae7a2bdb85eef8ab50a10eee7bac97781498ecbe69366f1595b88",
+        "baseFile": "s023-news-common-v2.mp3",
+        "baseAudioSha256": "eda7f7391d88f04f0ad2c981dc246f1c1f5fd4c72142159a27d8e655f84b6960",
         "allOldEffectsRemoved": true,
         "voiceRetimed": false,
         "rawSplit": 6.255,
-        "bodyPcmSha256": "124c678d2da03fa006a3aa3d2fa7c61828fcfae08f83d390a5949c245787f516",
+        "bodyPcmSha256": "221383fd05f3ea28bf6763520d62b4f67f188b06fc0950a8564776c68a8bcdac",
         "teacherFinalApproval": false,
         "newRequests": 0
       },
-      "voiceRetimed": false
+      "voiceRetimed": false,
+      "synthesisRepair": {
+        "schema": 1,
+        "code": "S023",
+        "part": "tancament",
+        "text": "D’aquí a un mes, l’associació explicarà què s’ha recollit amb els suggeriments.",
+        "date": "2026-11-22",
+        "teacherApproval": {
+          "at": "2026-11-22",
+          "confirmation": "S023 passaria a definitiu amb la frase esmenada; vull sentir el muntatge perquè al principi sona més aguda.",
+          "candidateFile": "assets/audio/repairs/l03-s023-tancament-prova.mp3",
+          "candidateSha256": "8a69e2c30602f8abe56fdd54b9c33ffa59799224d358e6b0498affeab172e4cb"
+        },
+        "originalRawSha256": "eac80f2575c694144fa2d8ddde29f7bfe58c036b619cb9c97dce39c92f3c0736",
+        "candidateRawSha256": "e014d24127f4229141ef2ce8a93432c0ee2abc9affc6772715b8136e9dfa81de",
+        "candidateBatchRequestHash": "2dd8d2f2332228b8d700d07edf4dace01afe1ee161060c0ac461952b04ec909f",
+        "originalRange": {
+          "start": 184.547,
+          "end": 188.486,
+          "handles": [
+            -38.03216226167297,
+            -38.289540785459394
+          ]
+        },
+        "candidateRange": {
+          "start": 0.02,
+          "end": 4.32,
+          "handles": [
+            -63.0744419788425,
+            -68.03013165305762
+          ]
+        },
+        "gainDb": -1.9677009926254938,
+        "peakAfterGain": 21610,
+        "deltaSeconds": 0.361,
+        "bodySha256": "43fe1f68738c30474791abe39b8a6d7deed348813081a0aa89b46133647c629c",
+        "bodyPcmSha256": "221383fd05f3ea28bf6763520d62b4f67f188b06fc0950a8564776c68a8bcdac",
+        "allOtherVoiceSamplesIdentical": true,
+        "voiceRetimed": false,
+        "pitchShifted": false,
+        "newRequests": 0
+      }
     },
     {
       "code": "S001",
@@ -1610,7 +1651,7 @@
       "code": "S016",
       "activity": "ca-S016",
       "date": "2026-11-20T09:37:09.238Z",
-      "state": "awaiting-audio-validation",
+      "state": "awaiting-montage-validation",
       "model": "gemini-3.8-flash-tts",
       "voices": {
         "Mar": "Erinome"
@@ -1648,17 +1689,17 @@
         "peakDbFS": -62.7,
         "rawSamplesPreserved": true
       },
-      "file": "s016-news-common-v2.mp3",
-      "introFile": "s016-news-common-v2-intro.mp3",
-      "bodyFile": "s016-news-common-v2-cos.mp3",
+      "file": "s016-news-repair-v3.mp3",
+      "introFile": "s016-news-repair-v3-intro.mp3",
+      "bodyFile": "s016-news-repair-v3-cos.mp3",
       "offset": 5.95,
-      "bodyDuration": 136.88,
-      "fullDuration": 142.82999999999998,
-      "lufs": -18.55,
+      "bodyDuration": 137.129,
+      "fullDuration": 143.07899999999998,
+      "lufs": -18.54,
       "peakDbTP": -2.49,
       "voice": {
-        "bodyLead": 2.3,
-        "bodyRawDuration": 130.13,
+        "bodyLead": 2.5,
+        "bodyRawDuration": 130.379,
         "untrimmedApartFromSilenceSplit": true,
         "retimed": false
       },
@@ -1692,19 +1733,60 @@
           "closingSeconds": 4.5
         }
       ],
-      "sha256": "87060f14c36ebf13cd24fbcec97e738bd746fa1efd909ee32635ef04866ce420",
+      "sha256": "baf57c1d634be91d9d38759ad236eaec60ed7ef1e74ff8dd2fc425ec6778b508",
       "newsRevision": {
         "date": "2026-11-22",
-        "baseFile": "s016-jaciment-v1.mp3",
-        "baseAudioSha256": "150774e664bbfccbc0b149949535cd09a9e6913dba42ad7ae3abdaaf9ffeef97",
+        "baseFile": "s016-news-common-v2.mp3",
+        "baseAudioSha256": "87060f14c36ebf13cd24fbcec97e738bd746fa1efd909ee32635ef04866ce420",
         "allOldEffectsRemoved": true,
         "voiceRetimed": false,
         "rawSplit": 4.83,
-        "bodyPcmSha256": "c65575b0a7016f5e247aba40255fc790dcbf7dbdd1b899d495d5b16227bd9cd6",
+        "bodyPcmSha256": "ad3b1349d351c1ca58dfcec5b7964b0b9c0f2423f844a2a98624c6f9b325af97",
         "teacherFinalApproval": false,
         "newRequests": 0
       },
-      "voiceRetimed": false
+      "voiceRetimed": false,
+      "synthesisRepair": {
+        "schema": 1,
+        "code": "S016",
+        "part": "exposicio",
+        "text": "Si l’estudi avança, l’equip voldria preparar una mostra al centre cívic amb fotografies del procés i alguns resultats.",
+        "date": "2026-11-22",
+        "teacherApproval": {
+          "at": "2026-11-22",
+          "confirmation": "S016 quedaria validat amb la veu esmenada. Pots fer remuntatge i comprovem abans de pujar a definitiu",
+          "candidateFile": "assets/audio/repairs/l03-s016-exposicio-prova.mp3",
+          "candidateSha256": "a3cfa5ce4d264dda8154588cf346ca2b85ce2f71e04e527ec48c191185271a02"
+        },
+        "originalRawSha256": "b91c85a798519ef2c0e7c8fced954bdb56892242aacf02f5cdc467fd95d23481",
+        "candidateRawSha256": "1e19a5fc37a08b8d5be3c2c884918a46ad5997bb761910347d5c4c1c3d513536",
+        "candidateBatchRequestHash": "2dd8d2f2332228b8d700d07edf4dace01afe1ee161060c0ac461952b04ec909f",
+        "originalRange": {
+          "start": 107.04,
+          "end": 113.651,
+          "handles": [
+            -41.15136076451451,
+            -38.074532539047524
+          ]
+        },
+        "candidateRange": {
+          "start": 3.4352916666666666,
+          "end": 10.295291666666667,
+          "handles": [
+            -59.182948683848615,
+            -64.28839878591474
+          ]
+        },
+        "gainDb": 2.5666842467281366,
+        "peakAfterGain": 31935,
+        "deltaSeconds": 0.249,
+        "bodySha256": "c57acfbcec56146031b5fd40810627af5a907566249a4418aa39ef372770211e",
+        "bodyPcmSha256": "ad3b1349d351c1ca58dfcec5b7964b0b9c0f2423f844a2a98624c6f9b325af97",
+        "allOtherVoiceSamplesIdentical": true,
+        "voiceRetimed": false,
+        "pitchShifted": false,
+        "newRequests": 0
+      }
     },
     {
       "code": "S004",
@@ -3449,13 +3531,13 @@
     {
       "code": "S017",
       "activity": "ca-S017",
-      "state": "awaiting-montage-validation",
-      "file": "s017-mixed-v1.mp3",
-      "introFile": "s017-mixed-v1-intro.mp3",
-      "bodyFile": "s017-mixed-v1-cos.mp3",
+      "state": "awaiting-audio-corrections",
+      "file": "s017-breaths-v2.mp3",
+      "introFile": "s017-breaths-v2-intro.mp3",
+      "bodyFile": "s017-breaths-v2-cos.mp3",
       "offset": 5.444999999999999,
-      "bodyDuration": 180.63275,
-      "fullDuration": 186.07775,
+      "bodyDuration": 167.76774999999998,
+      "fullDuration": 173.21275,
       "voices": {
         "Mireia": "Aoede",
         "Laia": "Leda",
@@ -3746,7 +3828,7 @@
       "coverage": 0.9003215434083601,
       "newSynthesisRequests": 0,
       "sharedRequest": true,
-      "lufs": -18.86,
+      "lufs": -18.81,
       "peakDbTP": -2.5,
       "voiceRetimed": false,
       "effects": [
@@ -3796,7 +3878,28 @@
           "insertedPause": 1.05
         }
       ],
-      "sha256": "ac80d03f3534c9e4483465b70adc4baf4e2a76af482f6abd6bf91c8967e6964f"
+      "sha256": "d32fb1c42ae4db13e44d70696120459ce559545da29b69803f7fa7cb258376ec",
+      "nonverbalRevision": {
+        "date": "2026-11-22",
+        "baseFile": "s017-mixed-v1.mp3",
+        "baseSha256": "ac80d03f3534c9e4483465b70adc4baf4e2a76af482f6abd6bf91c8967e6964f",
+        "originalPreserved": true,
+        "sourceRawRange": {
+          "start": 143.78275,
+          "end": 156.62775
+        },
+        "fullMasterRange": {
+          "start": 148.03275,
+          "end": 160.87775
+        },
+        "removedSeconds": 12.864999999999998,
+        "crossfadeSeconds": 0.02,
+        "protectedPreviousSpeechEnd": 143.50275833333336,
+        "protectedNextSpeechStart": 156.90775,
+        "voiceRetimed": false,
+        "ambientLevelsUnchanged": true,
+        "newRequests": 0
+      }
     },
     {
       "code": "S035",
@@ -5722,6 +5825,236 @@
         "approvedAt": "2026-11-22",
         "sourceTakeSha256": "c17478028311d1f2d60031d47002e793f6a7c8164f6d8fd4f8d21d69ea34c228",
         "confirmation": "S048 validat per muntatge, tot molt bé, fons continu de mercat."
+      }
+    },
+    {
+      "code": "S047",
+      "activity": "ca-S047",
+      "state": "awaiting-montage-validation",
+      "file": "s047-mixed-v1.mp3",
+      "introFile": "s047-mixed-v1-intro.mp3",
+      "bodyFile": "s047-mixed-v1-cos.mp3",
+      "offset": 4.17,
+      "bodyDuration": 107.39508333333333,
+      "fullDuration": 111.56508333333333,
+      "voices": {
+        "Ferran": "Algenib"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "3614318c8fb54c97021a43d7a5ac29a9c5f2642f00894c7d7e5ae616d6adc099",
+      "sourceRequestHash": "594d6eb8757328da78fcccca27cce021f78f4da261813ce4b514b2d58590fc1d",
+      "batch": "L17",
+      "rawSha256": "43a2e90b48ca2359bb188118537c41567673d998ef51374d5170f00ca0c55937",
+      "takeSha256": "0a299ff99e309f1bea98b95ba32d268402c74c586195144b92aac4a456f18907",
+      "coverage": 0.9235127478753541,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -19.23,
+      "peakDbTP": -2.5,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "gentle-narration-bed",
+          "origin": "original-procedural-composition",
+          "author": "Sentit",
+          "license": "MIT",
+          "source": "tools/narration-bed.cjs",
+          "title": "Botons de tots colors",
+          "compositionId": "sentit-s047-v1",
+          "tempoBpm": 68,
+          "rootMidi": 55,
+          "scoreSeed": 47,
+          "notes": 89,
+          "externalSamples": false,
+          "noSpeech": true,
+          "retimed": false,
+          "sha256": "4af79b6b1a841c84fbeeb532f04c12944a0576950fc495ccea9980da5e9c4b84",
+          "envelope": {
+            "fadeInSeconds": 0.6,
+            "duckStart": 0.7000000000000001,
+            "duckEnd": 1.4500000000000002,
+            "speechGain": 0.14,
+            "nominalSpeechMusicLufs": -43.07743928643524,
+            "riseStart": 101.32998333333333,
+            "riseEnd": 102.12998333333334,
+            "holdSeconds": 2,
+            "fadeStart": 104.12998333333334,
+            "fadeEnd": 106.12998333333334
+          },
+          "listeningValidation": "pending",
+          "start": 0,
+          "underSpeech": true
+        },
+        {
+          "name": "throndronis-799526",
+          "start": 0,
+          "source": "assets/audio/sources/throndronis-799526-train.mp3",
+          "sourceSha256": "e2f2588783985920c7d42e3bb34f7e50f706edb5f3ae4e75a55061b24dde2362",
+          "sourceUrl": "https://freesound.org/people/Throndronis/sounds/799526/",
+          "author": "Throndronis",
+          "license": "CC0 1.0",
+          "excerpt": {
+            "start": 12,
+            "seconds": 1.4
+          },
+          "underSpeech": false
+        },
+        {
+          "name": "throndronis-799526",
+          "start": 33.109983333333346,
+          "source": "assets/audio/sources/throndronis-799526-train.mp3",
+          "sourceSha256": "e2f2588783985920c7d42e3bb34f7e50f706edb5f3ae4e75a55061b24dde2362",
+          "sourceUrl": "https://freesound.org/people/Throndronis/sounds/799526/",
+          "author": "Throndronis",
+          "license": "CC0 1.0",
+          "excerpt": {
+            "start": 16,
+            "seconds": 1
+          },
+          "underSpeech": true,
+          "insertedPause": 0,
+          "sourceTargetLufs": -41
+        }
+      ],
+      "sha256": "977e41ad44ec32e59664987d2e42a154414b01578a2a478c092ade9a502600e3",
+      "voiceHandles": {
+        "body": {
+          "start": 0.6304166666666666,
+          "end": 100.2255,
+          "retainedPcmSha256": "3cc3f38d4bfdeee33aa9f3d9c9f27789a704660779e4e0adc0ce451457d4382b",
+          "sourceSha256": "1c2d1d2bd84dccbc674154e10be080a3f5240573bab9d8d99c3bfa79413e3cc0",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0.025,
+          "end": 3.245,
+          "retainedPcmSha256": "be9c96043d7fc84a3cce0c6fc20ec4ce230ac72bda65d9300833b3949d6e8d99",
+          "sourceSha256": "82fb8f9992a4b55ea8e31665c9d1bb8c0a5ea3e44bf1d060f47b2b20b3311c13",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-22",
+        "sourceTakeSha256": "0a299ff99e309f1bea98b95ba32d268402c74c586195144b92aac4a456f18907",
+        "confirmation": "S047 validat per muntatge, molt bé les inflexions del personatge"
+      }
+    },
+    {
+      "code": "S045",
+      "activity": "ca-S045",
+      "state": "awaiting-montage-validation",
+      "file": "s045-mixed-v1.mp3",
+      "introFile": "s045-mixed-v1-intro.mp3",
+      "bodyFile": "s045-mixed-v1-cos.mp3",
+      "offset": 3.9699999999999998,
+      "bodyDuration": 95.675,
+      "fullDuration": 99.645,
+      "voices": {
+        "Ferran": "Algenib"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "3614318c8fb54c97021a43d7a5ac29a9c5f2642f00894c7d7e5ae616d6adc099",
+      "sourceRequestHash": "8a483c13f28bc5d5cd5524d361835d3b2fdaf5fbef9e37eb3aef142e8d452e78",
+      "batch": "L17",
+      "rawSha256": "43a2e90b48ca2359bb188118537c41567673d998ef51374d5170f00ca0c55937",
+      "takeSha256": "b719993201db3333152ee5743152082a1634adeac5dfa2bb578c117988fbf353",
+      "coverage": 0.8881987577639752,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -19.09,
+      "peakDbTP": -2.5,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "gentle-narration-bed",
+          "origin": "original-procedural-composition",
+          "author": "Sentit",
+          "license": "MIT",
+          "source": "tools/narration-bed.cjs",
+          "title": "Cadires sota les estrelles",
+          "compositionId": "sentit-s045-v1",
+          "tempoBpm": 66,
+          "rootMidi": 57,
+          "scoreSeed": 45,
+          "notes": 77,
+          "externalSamples": false,
+          "noSpeech": true,
+          "retimed": false,
+          "sha256": "27d0bd55f03e40a8e1a87c1689230beef77eeb1cd128a11d5a89b34ad907bb65",
+          "envelope": {
+            "fadeInSeconds": 0.6,
+            "duckStart": 0.7000000000000001,
+            "duckEnd": 1.4500000000000002,
+            "speechGain": 0.14,
+            "nominalSpeechMusicLufs": -43.07743928643524,
+            "riseStart": 89.62999166666665,
+            "riseEnd": 90.42999166666667,
+            "holdSeconds": 2,
+            "fadeStart": 92.42999166666667,
+            "fadeEnd": 94.42999166666667
+          },
+          "listeningValidation": "pending",
+          "start": 0,
+          "underSpeech": true
+        },
+        {
+          "name": "simgo-380687",
+          "start": 0,
+          "source": "assets/audio/sources/simgo-380687.mp3",
+          "sourceSha256": "134e8b4da1abd5849321f37d33192cf641b822d649803e1002b8568198fbfc91",
+          "sourceUrl": "https://freesound.org/people/simgo/sounds/380687/",
+          "author": "simgo",
+          "license": "CC0 1.0",
+          "excerpt": {
+            "start": 12,
+            "seconds": 1.4
+          },
+          "underSpeech": false
+        },
+        {
+          "name": "funkysandwich-871017",
+          "start": 60.859991666666666,
+          "source": "assets/audio/sources/funkysandwich-871017.mp3",
+          "sourceSha256": "91f0758edb74981b079afe514c96645efe829b97c924cec132bb245cbf70c7a6",
+          "sourceUrl": "https://freesound.org/people/funkysandwich/sounds/871017/",
+          "author": "funkysandwich",
+          "license": "CC0 1.0",
+          "excerpt": {
+            "start": 0,
+            "seconds": 0.6
+          },
+          "underSpeech": true,
+          "insertedPause": 0,
+          "sourceTargetLufs": -36
+        }
+      ],
+      "sha256": "3226874f0b1d60cda05edea234fd6c05716d3e49bf1a8e78f2879e282d7511fe",
+      "voiceHandles": {
+        "body": {
+          "start": 0.9122083333333333,
+          "end": 88.78720833333334,
+          "retainedPcmSha256": "75f37ebf7f89237282613f39494aff8b3d457ec920a9266d69436918a5aa24f7",
+          "sourceSha256": "656f92ba70b5559a15a5d0bc00c9e49019024adabc2058e10064efeb1ff4c2b9",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0,
+          "end": 3.02,
+          "retainedPcmSha256": "517a5552005e889c69ce05b99a3aa002403d4bd377412a33ed4302c2052f8f5b",
+          "sourceSha256": "26aec23cfc5f8673e4772509ab2c98af331a80f85455d258c397e0c49d8d25d4",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-22",
+        "sourceTakeSha256": "b719993201db3333152ee5743152082a1634adeac5dfa2bb578c117988fbf353",
+        "confirmation": "S045 també directe a muntatge, molt bé tot, fins i tot el moment natural en què empassa saliva."
       }
     }
   ]

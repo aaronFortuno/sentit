@@ -7,6 +7,10 @@ const delivery = 'Ferran explica un record a l’Aina amb una sola veu adulta, c
 export const ferran = [
   proposal({
     id: 'les-cadires-del-cinema', code: 'S045', title: 'Les cadires del cinema', grade: '4', level: 'easy', genre: 'story', universeIds: ['aina-ferran'],
+    recordingCues: [{"before":"cadira","text":"Base original «Cadires sota les estrelles», molt baixa sota Ferran. Ambient real breu de plaça abans de la veu, sense pel·lícula ni conversa intel·ligible."},{"after":"davant","text":"Moviment breu de cadira enregistrat, discret sota la transició, sense afegir una pausa tècnica."},{"after":"tornada","text":"Conservar el final complet de la presa i les inflexions naturals. Pujada suau de la música, dos segons de presència i fosa de dos segons."}],
+    seconds: 100, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s045-mixed-v1.mp3', tracks: { introduction: './assets/audio/s045-mixed-v1-intro.mp3', body: './assets/audio/s045-mixed-v1-cos.mp3' },
+    fragment: { start: 3.9699999999999998, seconds: 96 },
     summary: 'L’avi Ferran recorda la primera vegada que va portar una cadira al cinema de la plaça. El lloc que havia triat semblava perfecte fins que va començar la pel·lícula.',
     voices, delivery, soundCredits,
     editorialFocus: '4t accessible: seguir un record en ordre, identificar dos canvis de lloc amb causes explícites i relacionar una marca a la cadira amb el retorn a casa. Set preguntes breus; cap coneixement previ del cinema de carrer.',
@@ -63,6 +67,10 @@ export const ferran = [
   }),
   proposal({
     id: 'la-maleta-que-feia-soroll', code: 'S047', title: 'La maleta que feia soroll', grade: '4', level: 'middle', genre: 'story', universeIds: ['aina-ferran'],
+    recordingCues: [{"before":"viatge","text":"Base original «Botons de tots colors», molt baixa sota Ferran. Ambient real breu de tren abans de la veu, sense megafonia."},{"after":"tren","text":"Evocació molt breu del tren, atenuada sota la narració i sense pausa afegida. Cap so de capsa ni pista sobre el contingut."},{"after":"final","text":"Conservar el final complet de Ferran; pujada suau de la música, dos segons de presència i fosa de dos segons."}],
+    seconds: 112, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s047-mixed-v1.mp3', tracks: { introduction: './assets/audio/s047-mixed-v1-intro.mp3', body: './assets/audio/s047-mixed-v1-cos.mp3' },
+    fragment: { start: 4.17, seconds: 107 },
     summary: 'Una capsa que la mare havia posat dins la maleta feia soroll durant el viatge. En Ferran pensava que s’havia trencat alguna cosa.',
     voices, delivery, soundCredits,
     editorialFocus: '4t intermèdia: distingir allò que el narrador imaginava del que va passar, seguir els canvis de lloc d’una capsa i relacionar el regal amb la persona destinatària. Set preguntes; no cal conèixer transports ni oficis.',

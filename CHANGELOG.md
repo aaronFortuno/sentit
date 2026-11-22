@@ -2,6 +2,11 @@
 
 ## 0.1.78 · 22 de novembre de 2026
 
+- S045 i S047 muntades amb bases originals molt suaus i efectes enregistrats. S048 i S050 amb ambient continu de mercat. Veus aprovades; muntatges pendents d’audició.
+- S016 i S023 incorporen les frases esmenades validades i conserven la base comuna de notícies. S023 manté l’ambient de mercat; pendent de comprovar el timbre al tancament.
+- S017: retirats 12,9 segons de respiracions fora de text, sense modificar les frases ni el volum del fons. Dos darrers paràgrafs de Mireia en cua de represa conjunta.
+- Les proves rebutjades deixen d’aparèixer com a noves esmenes per escoltar. S010 conserva Després aprovat i Til·lers pendent amb Biel/Puck; S022 té preparades dues grafies auxiliars TTS, sense alterar la transcripció ni enviar peticions curtes.
+- L18: retirades 35 etiquetes ID3/C2PA que s’havien interpretat com a so; S058, S061 i S062 disposen de veus v2 netes, amb les preses anteriors conservades. S061 encara espera el títol locutat.
 - S044 remuntada: retirats els clics i efectes entre el títol i el diàleg; ambient real continu de passadís esmorteït, com darrere d’una porta. Veus conservades i muntatge pendent d’audició.
 - Anotacions del solucionari i seguiment actualitzats, amb revisió independent de metadades. Cap síntesi nova ni aprovació definitiva.
 - Comprovada la reproducció des de la fitxa de S028, S048, S049 i S050, amb controls visibles, comptador i barra llarga.

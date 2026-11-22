@@ -11,6 +11,8 @@ const recipes={S021:{source:'content/propostes/sise.js',ambient:'soaress-546234'
 Object.assign(recipes,{
  S050:{ambient:'jmdh-covered-market-388315',ambientFrom:12,bed:true,events:[],ending:'ambient',lead:1.6,tail:5.4,titleGap:.4,cleanHandles:true,bedFadeSeconds:2},
  S048:{ambient:'jmdh-covered-market-388315',ambientFrom:12,bed:true,events:[],ending:'ambient',lead:1.6,tail:5.4,titleGap:.4,cleanHandles:true,bedFadeSeconds:2},
+ S047:{music:true,events:[],ending:'ambient',lead:1.6,tail:5.6,titleGap:.4,cleanHandles:true,opening:[{source:'throndronis-799526',from:12,seconds:1.4,at:0}],overlays:[{after:'tren',source:'throndronis-799526',from:16,seconds:1,lufs:-41}]},
+ S045:{music:true,events:[],ending:'ambient',lead:1.6,tail:5.6,titleGap:.4,cleanHandles:true,preserveBodyEnd:true,opening:[{source:'simgo-380687',from:12,seconds:1.4,at:0}],overlays:[{after:'davant',source:'funkysandwich-871017',from:0,seconds:.6,lufs:-36}]},
  S043:{ambient:'hz37-792502',ambientFrom:8,music:true,events:[{before:'hipotesi',after:'troballa',source:'beussa-749880',from:0,seconds:.678,gap:1.05}],ending:'ambient'},
  S027:{ambient:'fthgurdy-528944',ambientFrom:1,music:true,events:[{before:'baixar',after:'canvi',source:'ienba-850705',from:1,seconds:1.2,gap:1.5}],ending:'ambient'},
  S034:{ambient:'callmethefoo-744447',ambientFrom:12,music:true,events:[{before:'veins',after:'calor',source:'funkysandwich-871017',from:0,seconds:1.2,gap:1.5}],ending:'ambient'},
@@ -47,7 +49,7 @@ async function main(){
    const first=safe(start,true),last=safe(end,false),pcm=decoded.pcm.subarray(first*frame,last*frame),file=path.join(output,name+'.wav');
    await fs.writeFile(file,encodeWave(decoded.format,pcm));return{file,start:first/rate,end:last/rate,retainedPcmSha256:sha(pcm),sourceSha256:sha(original),allRetainedSamplesIdentical:true};
   };
-  const body=await trim(take.body,'body-input',Math.max(0,take.spans[1].start-take.titleCut-.2),Math.min(take.body.seconds,take.spans.at(-1).end-take.titleCut+.35));
+  const body=await trim(take.body,'body-input',Math.max(0,take.spans[1].start-take.titleCut-.2),recipe.preserveBodyEnd?take.body.seconds:Math.min(take.body.seconds,take.spans.at(-1).end-take.titleCut+.35));
   const title=await trim(take.intro,'title-input',Math.max(0,take.spans[0].start-.2),Math.min(take.intro.seconds,take.spans[0].end+.2));
   bodyInput=body.file;titleInput=title.file;bodyTrimStart=body.start;
   const {file:bodyPath,...bodyRecord}=body,{file:titlePath,...titleRecord}=title;voiceHandles={body:bodyRecord,title:titleRecord};
@@ -70,6 +72,11 @@ async function main(){
   const end=total-.6,duckStart=lead-.9,duckEnd=lead-.15,riseStart=voiceEnd+.35,riseEnd=voiceEnd+1.15,fade=recipe.bedFadeSeconds??1.2,bed=wav('room-bed',['-i',roomLoop,'-af',`atrim=end=${end},volume='if(lt(t,${duckStart}),0.7,if(lt(t,${duckEnd}),0.7-0.5*(t-${duckStart})/(${duckEnd-duckStart}),if(lt(t,${riseStart}),0.2,if(lt(t,${riseEnd}),0.2+0.5*(t-${riseStart})/(${riseEnd-riseStart}),0.7))))':eval=frame,afade=t=in:d=0.4,afade=t=out:st=${end-fade}:d=${fade},apad=pad_dur=0.6`]);add(bed,0,ambient,{underSpeech:true,speechGain:.2,sourceTargetLufs:-28,speechNominalLufs:-42,lowPassHz:1800,passes:3,crossfadeSeconds:1,envelope:{riseStart,riseEnd,holdSeconds:Math.max(0,end-fade-riseEnd),fadeStart:end-fade,fadeEnd:end}});
  }
  for(const [i,event]of (recipe.opening??[]).entries()){const source=await recording(event.source),file=wav('opening-'+i,['-i',path.join(root,source.file),'-af',`atrim=start=${event.from}:end=${event.from+event.seconds},asetpts=PTS-STARTPTS,loudnorm=I=-29:TP=-9:LRA=5,afade=t=in:d=0.025,afade=t=out:st=${Math.max(.03,event.seconds-.08)}:d=0.08`]);add(file,event.at,source,{excerpt:{start:event.from,seconds:event.seconds},underSpeech:false});}
+ for(const [i,event]of (recipe.overlays??[]).entries()){
+  const span=take.spans.find(s=>s.part===event.after);if(!span)throw Error('Referència de simultaneïtat absent.');
+  const source=await recording(event.source),at=lead+span.end-take.titleCut-bodyTrimStart+.08,file=wav('overlay-'+i,['-i',path.join(root,source.file),'-af',`atrim=start=${event.from}:end=${event.from+event.seconds},asetpts=PTS-STARTPTS,lowpass=f=1800,loudnorm=I=${event.lufs}:TP=-9:LRA=5,afade=t=in:d=0.08,afade=t=out:st=${Math.max(.1,event.seconds-.2)}:d=0.2`]);
+  add(file,at,source,{excerpt:{start:event.from,seconds:event.seconds},underSpeech:true,insertedPause:0,sourceTargetLufs:event.lufs});
+ }
  let added=0;for(const [i,event]of events.entries()){const file=wav('event-'+i,['-i',path.join(root,event.recording.file),'-af',`atrim=start=${event.from}:end=${event.from+event.seconds},asetpts=PTS-STARTPTS,loudnorm=I=-27:TP=-9:LRA=5,afade=t=in:d=0.025,afade=t=out:st=${Math.max(.04,event.seconds-.1)}:d=0.1`]);add(file,lead+event.at+added+.12,event.recording,{excerpt:{start:event.from,seconds:event.seconds},underSpeech:false,insertedPause:event.gap});added+=event.gap;}
  if(recipe.ending==='tone'){
   const closing=wav('two-note-ending',['-f','lavfi','-i',"aevalsrc='0.035*sin(2*PI*if(lt(t,0.6),523.251,659.255)*t)*exp(-5*mod(t,0.6))*(1-exp(-60*mod(t,0.6)))':s=48000:d=1.2",'-af','afade=t=in:d=0.025,afade=t=out:st=0.85:d=0.35']);add(closing,total-2.4,{id:'sentit-two-note-ending-v1',file:'tools/render-mixed-take.cjs',url:'https://github.com/aaronFortuno/sentit/blob/main/tools/render-mixed-take.cjs',author:'Sentit',license:'MIT'},{origin:'original-procedural-composition',underSpeech:false});

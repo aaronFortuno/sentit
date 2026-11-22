@@ -23,7 +23,13 @@
         "part": "alternativa",
         "speaker": "Biel",
         "text": "Des de la plaça anem pel carrer dels Til·lers fins a la farmàcia.",
-        "pronunciation": "Til·lers has two consecutive lateral L sounds (l·l), a gently lengthened L, never the palatal LL of lluna. Keep the stressed open E and fluent natural Central Catalan. Do not read the middle dot or say the explanation."
+        "pronunciation": "Til·lers has two consecutive lateral L sounds (l·l), a gently lengthened L, never the palatal LL of lluna. Keep the stressed open E and fluent natural Central Catalan. Do not read the middle dot or say the explanation.",
+        "nextAttempt": {
+          "status": "awaiting-compatible-batch",
+          "voice": "Puck",
+          "speaker": "Biel",
+          "instruction": "Use the youthful male Biel/Puck voice throughout this sentence, never Laia/Leda. Keep Til·lers as the two lateral L sounds directed in the frozen plan."
+        }
       }
     ],
     "application": "Audition against the original first. Then locate phrase boundaries in both raw takes, check silent handles on both sides, match level, and splice without retiming or replacing the rest. ASR alone does not validate stress or l·l.",
@@ -79,7 +85,39 @@
       }
     ],
     "application": "Audition against the original. The spelling rails in the transcript is correct and is not changed to raïls. Locate silent handles, level-match and splice only after perceptual validation; ASR cannot certify pronunciation.",
-    "approvedRequestHash": "dc75acf7a5f1dae1c4d229ce80f07a0257da22db6d95d0f7235b45a125f75f1f"
+    "approvedRequestHash": "dc75acf7a5f1dae1c4d229ce80f07a0257da22db6d95d0f7235b45a125f75f1f",
+    "nextTrials": {
+      "status": "awaiting-compatible-batch",
+      "approvedAt": "2026-11-22",
+      "teacherConfirmed": true,
+      "source": "El docent demana una o dues proves més amb raíls o raïls, exclusivament com a grafies auxiliars de síntesi.",
+      "maxTrials": 2,
+      "canonicalText": "Hauria pogut passar el dia mirant els rails i saludant la gent de les parades.",
+      "speaker": "Ferran",
+      "voice": "Algenib",
+      "part": "dema",
+      "trials": [
+        {
+          "id": "S022-rails-accent",
+          "canonicalWord": "rails",
+          "ttsWord": "raíls",
+          "ttsText": "Hauria pogut passar el dia mirant els raíls i saludant la gent de les parades.",
+          "direction": "Preserve Ferran/Algenib, an older warm narrator. In the auxiliary spelling, pronounce two syllables ra-ÍLS, with stress on I, ordinary lateral L and final S. Read only the sentence, no spelling aloud or instructions."
+        },
+        {
+          "id": "S022-rails-dieresis",
+          "canonicalWord": "rails",
+          "ttsWord": "raïls",
+          "ttsText": "Hauria pogut passar el dia mirant els raïls i saludant la gent de les parades.",
+          "direction": "Preserve Ferran/Algenib, an older warm narrator. In the auxiliary spelling, pronounce two syllables ra-ÍLS, with stress on I, ordinary lateral L and final S. Read only the sentence, no spelling aloud or instructions."
+        }
+      ],
+      "fallback": {
+        "text": "les vies",
+        "status": "only-if-both-trials-fail"
+      },
+      "newRequests": 0
+    }
   },
   "S005": {
     "activity": "ca-S005",

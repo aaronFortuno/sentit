@@ -22,7 +22,7 @@ export const mercat = {
     'El text s’envia sencer en una petició, amb el títol i una pausa llarga. Les locucions de preparació i repàs i els temps de silenci són pistes i temporitzadors existents del web, no text addicional per a Gemini. Les anotacions següents descriuen el muntatge local complet.',
   ],
   durationEstimate: { min: 235, max: 270 },
-  audio: './assets/audio/s023-news-common-v2.mp3', tracks: { introduction: './assets/audio/s023-news-common-v2-intro.mp3', body: './assets/audio/s023-news-common-v2-cos.mp3' },
+  audio: './assets/audio/s023-news-repair-v3.mp3', tracks: { introduction: './assets/audio/s023-news-repair-v3-intro.mp3', body: './assets/audio/s023-news-repair-v3-cos.mp3' },
   image: { src: './assets/images/reobren-el-mercat-v2.webp', alt: 'La periodista Mar informa davant d’un mercat de barri.', width: 1536, height: 1024 },
   introduction: 'Comprensió oral. Reobren el mercat: què canvia i què falta decidir. Notícia de ficció.',
   fragment: { start: 7.375, seconds: 194 },

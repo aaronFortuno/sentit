@@ -149,9 +149,9 @@ export const soundSources = [
     "sha256": "4b38b5c58abb206d5b86b9d5b6a3acde8eea90c288ef194b4a67503fe659b4a9",
     "usedBy": [
       "ca-S044",
+      "ca-S017",
       "ca-S007",
       "ca-S014",
-      "ca-S017",
       "ca-S021",
       "ca-S030",
       "ca-S032",
@@ -221,11 +221,12 @@ export const soundSources = [
     "retrievedAt": "2026-11-21",
     "sha256": "91f0758edb74981b079afe514c96645efe829b97c924cec132bb245cbf70c7a6",
     "usedBy": [
-      "ca-S007",
       "ca-S017",
+      "ca-S007",
       "ca-S034",
       "ca-S041",
-      "ca-S042"
+      "ca-S042",
+      "ca-S045"
     ],
     "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
   },
@@ -416,7 +417,9 @@ export const soundSources = [
     "downloadUrl": "https://cdn.freesound.org/previews/380/380687_5734792-hq.mp3",
     "retrievedAt": "2026-11-21",
     "sha256": "134e8b4da1abd5849321f37d33192cf641b822d649803e1002b8568198fbfc91",
-    "usedBy": [],
+    "usedBy": [
+      "ca-S045"
+    ],
     "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
   },
   {
@@ -436,6 +439,25 @@ export const soundSources = [
     "usedBy": [
       "ca-S044",
       "ca-S030"
+    ],
+    "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
+  },
+  {
+    "id": "throndronis-799526",
+    "title": "Train interior",
+    "author": "Throndronis",
+    "url": "https://freesound.org/people/Throndronis/sounds/799526/",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "origin": "external-recording",
+    "description": "Enregistrament real utilitzat en els muntatges indicats.",
+    "file": "assets/audio/sources/throndronis-799526-train.mp3",
+    "rendition": "Còpia pública HQ en MP3 de Freesound; no és el WAV original.",
+    "downloadUrl": "https://cdn.freesound.org/previews/799/799526_14610131-hq.mp3",
+    "retrievedAt": "2026-11-22",
+    "sha256": "e2f2588783985920c7d42e3bb34f7e50f706edb5f3ae4e75a55061b24dde2362",
+    "usedBy": [
+      "ca-S047"
     ],
     "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
   }

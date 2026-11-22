@@ -1,13 +1,13 @@
 {
   "code": "S017",
   "activity": "ca-S017",
-  "state": "awaiting-montage-validation",
-  "file": "s017-mixed-v1.mp3",
-  "introFile": "s017-mixed-v1-intro.mp3",
-  "bodyFile": "s017-mixed-v1-cos.mp3",
+  "state": "awaiting-audio-corrections",
+  "file": "s017-breaths-v2.mp3",
+  "introFile": "s017-breaths-v2-intro.mp3",
+  "bodyFile": "s017-breaths-v2-cos.mp3",
   "offset": 5.444999999999999,
-  "bodyDuration": 180.63275,
-  "fullDuration": 186.07775,
+  "bodyDuration": 167.76774999999998,
+  "fullDuration": 173.21275,
   "voices": {
     "Mireia": "Aoede",
     "Laia": "Leda",
@@ -298,7 +298,7 @@
   "coverage": 0.9003215434083601,
   "newSynthesisRequests": 0,
   "sharedRequest": true,
-  "lufs": -18.86,
+  "lufs": -18.81,
   "peakDbTP": -2.5,
   "voiceRetimed": false,
   "effects": [
@@ -348,5 +348,26 @@
       "insertedPause": 1.05
     }
   ],
-  "sha256": "ac80d03f3534c9e4483465b70adc4baf4e2a76af482f6abd6bf91c8967e6964f"
+  "sha256": "d32fb1c42ae4db13e44d70696120459ce559545da29b69803f7fa7cb258376ec",
+  "nonverbalRevision": {
+    "date": "2026-11-22",
+    "baseFile": "s017-mixed-v1.mp3",
+    "baseSha256": "ac80d03f3534c9e4483465b70adc4baf4e2a76af482f6abd6bf91c8967e6964f",
+    "originalPreserved": true,
+    "sourceRawRange": {
+      "start": 143.78275,
+      "end": 156.62775
+    },
+    "fullMasterRange": {
+      "start": 148.03275,
+      "end": 160.87775
+    },
+    "removedSeconds": 12.864999999999998,
+    "crossfadeSeconds": 0.02,
+    "protectedPreviousSpeechEnd": 143.50275833333336,
+    "protectedNextSpeechStart": 156.90775,
+    "voiceRetimed": false,
+    "ambientLevelsUnchanged": true,
+    "newRequests": 0
+  }
 }

@@ -30,11 +30,11 @@ export const mixedAudioResources = {
   "ca-S016": {
     "voices": "Mar: Erinome. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
     "sounds": "Breaking News Background Music · Grand_Project (Pixabay Content License). Entrada, base contínua atenuada sota la parla i sortida; font completa conservada localment, no distribuïda sola.",
-    "currentRevision": "news-common-v2",
+    "currentRevision": "news-repair-v3",
     "recipe": "tools/remount-news-common.cjs"
   },
   "ca-S017": {
-    "voices": "Mireia: Aoede; Laia: Leda; Biel: Puck. Preses originals conservades; tres personatges intercalats a partir de dues preses compatibles. Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Mireia: Aoede; Laia: Leda; Biel: Puck. Preses originals conservades; tres personatges intercalats a partir de dues preses compatibles. Pauses tècniques escurçades; identitat i estabilitat de les veus pendents d’esmena.",
     "sounds": "Classroom Ambience · Tallis0410 (CC0 1.0), molt baix sota la conversa. Dragging chair on concrete floor · funkysandwich (CC0 1.0), fora de la parla. Page turned · Beussa (CC0 1.0), fora de la parla.",
     "recipe": "tools/render-mixed-take.cjs"
   },
@@ -46,7 +46,7 @@ export const mixedAudioResources = {
   "ca-S023": {
     "voices": "Presentadora: Erinome; Pau: Charon. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
     "sounds": "Breaking News Background Music · Grand_Project (Pixabay Content License). Entrada, base contínua atenuada sota la parla i sortida; font completa conservada localment, no distribuïda sola. Oxford covered market ambience · jmdh (CC0 1.0), molt baix sota la conversa.",
-    "currentRevision": "news-common-v2",
+    "currentRevision": "news-repair-v3",
     "recipe": "tools/remount-news-common.cjs"
   },
   "ca-S024": {
@@ -142,6 +142,16 @@ export const mixedAudioResources = {
     "sounds": "College Hallway ambience · Bexhillcollege (CC0 1.0), molt baix sota la conversa.",
     "recipe": "tools/render-mixed-take.cjs"
   },
+  "ca-S045": {
+    "voices": "Ferran: Algenib. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "sounds": "Base original «Cadires sota les estrelles» (MIT), molt baixa durant la narració, amb pujada i fosa final. Soft City Park Ambience · simgo (CC0 1.0), fora de la parla. Dragging chair on concrete floor · funkysandwich (CC0 1.0), molt baix sota la conversa.",
+    "recipe": "tools/render-mixed-take.cjs"
+  },
+  "ca-S047": {
+    "voices": "Ferran: Algenib. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "sounds": "Base original «Botons de tots colors» (MIT), molt baixa durant la narració, amb pujada i fosa final. Train interior · Throndronis (CC0 1.0), fora de la parla. Train interior · Throndronis (CC0 1.0), molt baix sota la conversa.",
+    "recipe": "tools/render-mixed-take.cjs"
+  },
   "ca-S048": {
     "voices": "Laia: Leda; Pau: Charon. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
     "sounds": "Oxford covered market ambience · jmdh (CC0 1.0), molt baix sota la conversa.",
@@ -162,17 +172,7 @@ export const mixedAudioResources = {
     "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
     "recipe": "tools/prepare-batch-voice-previews.cjs"
   },
-  "ca-S045": {
-    "voices": "Ferran: Algenib. Lot L17, veus rebudes i pendents d’audició.",
-    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
-    "recipe": "tools/prepare-batch-voice-previews.cjs"
-  },
   "ca-S046": {
-    "voices": "Ferran: Algenib. Lot L17, veus rebudes i pendents d’audició.",
-    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
-    "recipe": "tools/prepare-batch-voice-previews.cjs"
-  },
-  "ca-S047": {
     "voices": "Ferran: Algenib. Lot L17, veus rebudes i pendents d’audició.",
     "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
     "recipe": "tools/prepare-batch-voice-previews.cjs"

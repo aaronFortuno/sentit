@@ -169,6 +169,36 @@ export const musicCatalogue = [
       "ca-S031",
       "ca-S039"
     ]
+  },
+  {
+    "id": "sentit-s045-v1",
+    "title": "Cadires sota les estrelles",
+    "kind": "narration-bed",
+    "author": "Sentit",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/aaronFortuno/sentit/blob/main/LICENSE",
+    "origin": "original-procedural",
+    "externalSamples": false,
+    "source": "tools/narration-bed.cjs",
+    "usedBy": [
+      "ca-S045"
+    ],
+    "description": "Composició pròpia de piano suau i harmonia espaiada, 66 pulsacions per minut; partitura determinista 45, fosa d’entrada, música atenuada sota la veu i pujada de dos segons seguida de fosa al final."
+  },
+  {
+    "id": "sentit-s047-v1",
+    "title": "Botons de tots colors",
+    "kind": "narration-bed",
+    "author": "Sentit",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/aaronFortuno/sentit/blob/main/LICENSE",
+    "origin": "original-procedural",
+    "externalSamples": false,
+    "source": "tools/narration-bed.cjs",
+    "usedBy": [
+      "ca-S047"
+    ],
+    "description": "Composició pròpia de piano suau i harmonia espaiada, 68 pulsacions per minut; partitura determinista 47, fosa d’entrada, música atenuada sota la veu i pujada de dos segons seguida de fosa al final."
   }
 ];
 

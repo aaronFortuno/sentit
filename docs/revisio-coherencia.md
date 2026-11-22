@@ -52,11 +52,11 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S042](https://sentit.ortogra.fi/#lectura=ca-S042) | Dos camins amb la mateixa mitjana | 6è | Revisió superada · àudio pendent | 2026-11-21 | `36d170f98fd3…` |
 | [ca-S043](https://sentit.ortogra.fi/#lectura=ca-S043) | El balcó que només era al paper | 6è | Revisió superada · àudio pendent | 2026-11-21 | `b0a2b6518035…` |
 | [ca-S044](https://sentit.ortogra.fi/#lectura=ca-S044) | El recompte del programa | 6è | Revisió superada · àudio pendent | 2026-11-22 | `cc6b5ab7142a…` |
-| [ca-S045](https://sentit.ortogra.fi/#lectura=ca-S045) | Les cadires del cinema | 4t | Provisional · revisió superada | 2026-11-22 | `76ec33e0deeb…` |
+| [ca-S045](https://sentit.ortogra.fi/#lectura=ca-S045) | Les cadires del cinema | 4t | Revisió superada · àudio pendent | 2026-11-22 | `3d98db6a2f83…` |
 | [ca-S045D](https://sentit.ortogra.fi/#lectura=ca-S045D) | Les cadires del cinema · versió dialogada | 4t | Provisional · revisió superada | 2026-11-22 | `08c8056b6656…` |
 | [ca-S046](https://sentit.ortogra.fi/#lectura=ca-S046) | La clau del davantal | 4t | Provisional · revisió superada | 2026-11-22 | `6dec967b93b5…` |
 | [ca-S046D](https://sentit.ortogra.fi/#lectura=ca-S046D) | La clau del davantal · versió dialogada | 4t | Provisional · revisió superada | 2026-11-22 | `1db713701888…` |
-| [ca-S047](https://sentit.ortogra.fi/#lectura=ca-S047) | La maleta que feia soroll | 4t | Provisional · revisió superada | 2026-11-22 | `982ea2797ea3…` |
+| [ca-S047](https://sentit.ortogra.fi/#lectura=ca-S047) | La maleta que feia soroll | 4t | Revisió superada · àudio pendent | 2026-11-22 | `58218f31124c…` |
 | [ca-S048](https://sentit.ortogra.fi/#lectura=ca-S048) | Les caixes que tornen | 3r | Revisió superada · àudio pendent | 2026-11-22 | `2b675b1e99ea…` |
 | [ca-S049](https://sentit.ortogra.fi/#lectura=ca-S049) | La parada es mou un matí | 3r | Provisional · revisió superada | 2026-11-22 | `50db317831e7…` |
 | [ca-S050](https://sentit.ortogra.fi/#lectura=ca-S050) | La balança marca massa | 3r | Revisió superada · àudio pendent | 2026-11-22 | `cbf57c492b3f…` |

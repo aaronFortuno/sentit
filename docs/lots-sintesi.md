@@ -19,9 +19,7 @@ Les preses originals es conserven i la cobertura s’ha comprovat localment. La 
 | Peça | Presa |
 | --- | --- |
 | [ca-S028](https://sentit.ortogra.fi/#lectura=ca-S028) | [Escolta les veus](../proves/veus-rebudes.html#S028) |
-| [ca-S045](https://sentit.ortogra.fi/#lectura=ca-S045) | [Escolta les veus](../proves/veus-rebudes.html#S045) |
 | [ca-S046](https://sentit.ortogra.fi/#lectura=ca-S046) | [Escolta les veus](../proves/veus-rebudes.html#S046) |
-| [ca-S047](https://sentit.ortogra.fi/#lectura=ca-S047) | [Escolta les veus](../proves/veus-rebudes.html#S047) |
 | [ca-S049](https://sentit.ortogra.fi/#lectura=ca-S049) | [Escolta les veus](../proves/veus-rebudes.html#S049) |
 | [ca-S061](https://sentit.ortogra.fi/#lectura=ca-S061) | [Escolta les veus](../proves/veus-rebudes.html#S061) |
 | [ca-S062](https://sentit.ortogra.fi/#lectura=ca-S062) | [Escolta les veus](../proves/veus-rebudes.html#S062) |
@@ -60,15 +58,26 @@ P02 reuneix quatre lectures breus del mateix repartiment per conservar els guion
 
 ## Esmenes de veu
 
-| Peça | Prova rebuda | Comparació |
+| Peça | Prova rebuda | Estat actual | Comparació |
+| --- | --- | --- | --- |
+| S013 | El codi postal ajuda a arribar a una zona, però no diu tot sol quina bústia concreta és la bona. | Pendent d’audició | [L01](../proves/correccions-l01.html) |
+| S013 | No és correcte endevinar una bústia només perquè el nom ens sona. | Pendent d’audició | [L01](../proves/correccions-l01.html) |
+| S010 | Després ja som a la porta. És el camí que vam fer l’any passat. | Validada · pendent d’incorporar | [L01](../proves/correccions-l01.html) |
+| S010 | Des de la plaça anem pel carrer dels Til·lers fins a la farmàcia. | Rebutjada · cal una altra prova | [L02](../proves/correccions-l02.html) |
+| S016 | Si l’estudi avança, l’equip voldria preparar una mostra al centre cívic amb fotografies del procés i alguns resultats. | Incorporada · pendent d’audició del muntatge | [L03](../proves/correccions-l03.html) |
+| S023 | D’aquí a un mes, l’associació explicarà què s’ha recollit amb els suggeriments. | Incorporada · pendent d’audició del muntatge | [L03](../proves/correccions-l03.html) |
+| S022 | Hauria pogut passar el dia mirant els rails i saludant la gent de les parades. | Rebutjada · cal una altra prova | [L13](../proves/correccions-l13.html) |
+
+### Següents esmenes · encara sense petició
+
+| Peça | Veu | Fragment |
 | --- | --- | --- |
-| S013 | El codi postal ajuda a arribar a una zona, però no diu tot sol quina bústia concreta és la bona. | [L01](../proves/correccions-l01.html) |
-| S013 | No és correcte endevinar una bústia només perquè el nom ens sona. | [L01](../proves/correccions-l01.html) |
-| S010 | Després ja som a la porta. És el camí que vam fer l’any passat. | [L01](../proves/correccions-l01.html) |
-| S010 | Des de la plaça anem pel carrer dels Til·lers fins a la farmàcia. | [L02](../proves/correccions-l02.html) |
-| S016 | Si l’estudi avança, l’equip voldria preparar una mostra al centre cívic amb fotografies del procés i alguns resultats. | [L03](../proves/correccions-l03.html) |
-| S023 | D’aquí a un mes, l’associació explicarà què s’ha recollit amb els suggeriments. | [L03](../proves/correccions-l03.html) |
-| S022 | Hauria pogut passar el dia mirant els rails i saludant la gent de les parades. | [L13](../proves/correccions-l13.html) |
+| [ca-S010](https://sentit.ortogra.fi/#lectura=ca-S010) | Biel · Puck | alternativa |
+| [ca-S017](https://sentit.ortogra.fi/#lectura=ca-S017) | Mireia · Aoede | coordinacio + retorn |
+| [ca-S022](https://sentit.ortogra.fi/#lectura=ca-S022) | Ferran · Algenib | Dues proves TTS: «raíls» i «raïls»; text editorial intacte |
+| [ca-S024](https://sentit.ortogra.fi/#lectura=ca-S024) | Biel · undefined | dubtes |
+
+Esperen un lot compatible de sis a vuit minuts. Les proves auxiliars de S022 es poden comprovar localment amb `node tools/pronunciation-trials.cjs --only=S022`; aquest comandament no envia cap petició.
 
 Aquestes preses són proves per comparar amb l’original; el [registre de pendents](seguiment-produccio.md#esmenes-obertes) indica què continua obert. La recepció no n’autoritza l’aplicació ni valida el muntatge final.
 

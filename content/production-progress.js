@@ -296,7 +296,7 @@ export const productionProgress = {
   },
   "ca-S010": {
     "state": "audio-corrections-pending",
-    "feedbackAt": "2026-11-20",
+    "feedbackAt": "2026-11-22",
     "feedback": [
       {
         "part": "pla",
@@ -307,11 +307,11 @@ export const productionProgress = {
       {
         "part": "alternativa",
         "word": "Til·lers",
-        "heard": "Tillers",
+        "heard": "La represa té la veu de Laia; correspon a Biel/Puck",
         "status": "pending"
       }
     ],
-    "teacherAssessment": "Muntatge validat; pronunciacions pendents. Passos reals nous pendents d’audició.",
+    "teacherAssessment": "Després validat, pendent d’incorporar. Des de la plaça rebutjat per veu equivocada: refer només amb Biel/Puck. No tornar a validar la primera frase.",
     "plannedNewRequests": 1,
     "repairPlan": "content/audio-repairs.json",
     "listeningApproval": false,
@@ -322,24 +322,28 @@ export const productionProgress = {
         "part": "pla",
         "text": "Després ja som a la porta. És el camí que vam fer l’any passat.",
         "pronunciation": "Pronounce Després faithfully, with its final /s/ before ja, not Desprén. Keep the entire sentence fluent; do not spell it aloud.",
-        "status": "received-awaiting-listening",
+        "status": "approved-awaiting-application",
         "originalFile": "assets/audio/repairs/l01-s010-pla-original.mp3",
         "candidateFile": "assets/audio/repairs/l01-s010-pla-prova.mp3",
         "sourceRawSha256": "5ae1ca4fd12bac21243b7e519981c14bdb2e34319cc06bdc1fbc318f91833fe4",
         "batchRequestHash": "0cd61066dabfeb8992968fa3e45c9f95dd07621aa58ca5a919a5e873cee48df7",
-        "applied": false
+        "applied": false,
+        "approvedAt": "2026-11-22",
+        "confirmation": "El Després ja som a la porta és correcte."
       },
       {
         "code": "S010",
         "part": "alternativa",
         "text": "Des de la plaça anem pel carrer dels Til·lers fins a la farmàcia.",
         "pronunciation": "Til·lers has two consecutive lateral L sounds (l·l), a gently lengthened L, never the palatal LL of lluna. Keep the stressed open E and fluent natural Central Catalan. Do not read the middle dot or say the explanation.",
-        "status": "received-awaiting-listening",
+        "status": "rejected-wrong-voice",
         "originalFile": "assets/audio/repairs/l02-s010-alternativa-original.mp3",
         "candidateFile": "assets/audio/repairs/l02-s010-alternativa-prova.mp3",
         "sourceRawSha256": "5ae1ca4fd12bac21243b7e519981c14bdb2e34319cc06bdc1fbc318f91833fe4",
         "batchRequestHash": "ef2b891a48e5c2823d4527ce9a4c0fc93ae1951ecaad5c7ce07a30ac584a1a66",
-        "applied": false
+        "applied": false,
+        "reviewedAt": "2026-11-22",
+        "rejection": "El docent identifica la veu de Laia en una frase de Biel. Cal repetir amb Biel/Puck."
       }
     ],
     "gradingDecision": {
@@ -349,6 +353,17 @@ export const productionProgress = {
       "source": "Decisió explícita del docent: S010 validada per producció, pujant-la a 5è intermèdia.",
       "spokenTextChanged": false,
       "newSynthesisRequests": 0
+    },
+    "plannedRepair": {
+      "status": "awaiting-compatible-batch",
+      "speaker": "Biel",
+      "voice": "Puck",
+      "part": "alternativa",
+      "text": "Des de la plaça anem pel carrer dels Til·lers fins a la farmàcia.",
+      "direction": "Use the youthful male Biel/Puck voice throughout this sentence, never Laia/Leda. Keep Til·lers as the two lateral L sounds directed in the frozen plan.",
+      "reason": "La represa rebuda és de Laia; el docent demana repetir amb Biel/Puck. Després ja està validat.",
+      "confirmedAt": "2026-11-22",
+      "newRequests": 0
     }
   },
   "ca-S013": {
@@ -402,7 +417,7 @@ export const productionProgress = {
   },
   "ca-S022": {
     "state": "audio-corrections-pending",
-    "feedbackAt": "2026-11-20",
+    "feedbackAt": "2026-11-22",
     "feedback": [
       {
         "part": "dema",
@@ -411,7 +426,7 @@ export const productionProgress = {
         "status": "pending"
       }
     ],
-    "teacherAssessment": "Bon muntatge; rails pendent de corregir. Efectes de tramvia revisats pendents d’audició.",
+    "teacherAssessment": "Represa de rails rebutjada. Preparar dues proves amb grafies auxiliars raíls i raïls només al TTS; si cap funciona, el docent proposa substituir-ho per les vies. Text editorial encara intacte.",
     "plannedNewRequests": 1,
     "repairPlan": "content/audio-repairs.json",
     "listeningApproval": false,
@@ -422,17 +437,33 @@ export const productionProgress = {
         "part": "dema",
         "text": "Hauria pogut passar el dia mirant els rails i saludant la gent de les parades.",
         "pronunciation": "Rails means the two metal railway tracks. Use a clear Central Catalan pronunciation with separate ra-ÍLS, stress on I, with a final ordinary L followed by S; never a palatal LL as in ralls. This pronunciation guide is instruction only, never spoken. Keep the complete sentence fluent.",
-        "status": "received-awaiting-listening",
+        "status": "rejected-pronunciation",
         "originalFile": "assets/audio/repairs/l13-s022-dema-original.mp3",
         "candidateFile": "assets/audio/repairs/l13-s022-dema-prova.mp3",
         "sourceRawSha256": "7c44d2c01fff3768eb38f6ec5429d388dda661fe91e6580c8d596556e66b7566",
         "batchRequestHash": "ab02e5a56a6807f106885dd5b8e4749ed77c2b2461e93dc71243142194efb2a3",
-        "applied": false
+        "applied": false,
+        "reviewedAt": "2026-11-22",
+        "rejection": "El docent continua sentint ráils: la indicació de tonicitat no ha millorat la pronunciació."
       }
-    ]
+    ],
+    "plannedRepair": {
+      "status": "awaiting-compatible-batch",
+      "speaker": "Ferran",
+      "voice": "Algenib",
+      "part": "dema",
+      "trialIds": [
+        "S022-rails-accent",
+        "S022-rails-dieresis"
+      ],
+      "maxNewTrials": 2,
+      "source": "Retorn docent 22/11: una o dues oportunitats més abans de recórrer a les vies.",
+      "fallback": "les vies",
+      "canonicalTextChanged": false
+    }
   },
   "ca-S016": {
-    "state": "audio-corrections-pending",
+    "state": "montage-awaiting-listening",
     "feedbackAt": "2026-11-20",
     "feedback": [
       {
@@ -441,13 +472,14 @@ export const productionProgress = {
         "phrase": "Si l’estudi avança, l’equip",
         "heard": "ffff l’estudi avança, l’equip",
         "kind": "synthesis-artifact",
-        "status": "pending"
+        "status": "applied",
+        "appliedAt": "2026-11-22"
       }
     ],
-    "teacherAssessment": "La resta de la peça està ben valorada. Artefacte en lloc de «Si» pendent de corregir; reparació local preparada i jingles inicial i final pendents de polir.",
+    "teacherAssessment": "Inserida la frase validada «Si l’estudi avança», sense l’artefacte inicial. Base comuna de notícies; pendent d’última audició.",
     "plannedNewRequests": 0,
     "listeningApproval": false,
-    "jingleStatus": "needs-refinement",
+    "jingleStatus": "common-news-bed-pending-final-listening",
     "repairPlan": "content/audio-repairs.json",
     "repairComparison": "./proves/correccions-l03.html#S016-exposicio",
     "receivedRepairs": [
@@ -456,22 +488,27 @@ export const productionProgress = {
         "part": "exposicio",
         "text": "Si l’estudi avança, l’equip voldria preparar una mostra al centre cívic amb fotografies del procés i alguns resultats.",
         "pronunciation": "Start the sentence cleanly with the full word Si: brief /s/ followed by /i/. No breath noise, static, fricative held in place of the word, or added sounds.",
-        "status": "received-awaiting-listening",
+        "status": "applied-awaiting-montage-listening",
         "originalFile": "assets/audio/repairs/l03-s016-exposicio-original.mp3",
         "candidateFile": "assets/audio/repairs/l03-s016-exposicio-prova.mp3",
         "sourceRawSha256": "b91c85a798519ef2c0e7c8fced954bdb56892242aacf02f5cdc467fd95d23481",
         "batchRequestHash": "2dd8d2f2332228b8d700d07edf4dace01afe1ee161060c0ac461952b04ec909f",
-        "applied": false
+        "applied": true,
+        "approvedAt": "2026-11-22",
+        "confirmation": "S016 quedaria validat amb la veu esmenada. Pots fer remuntatge i comprovem abans de pujar a definitiu",
+        "candidateSha256": "a3cfa5ce4d264dda8154588cf346ca2b85ce2f71e04e527ec48c191185271a02",
+        "appliedAt": "2026-11-22",
+        "appliedAudio": "./assets/audio/s016-news-repair-v3.mp3"
       }
     ],
-    "audioSha256": "87060f14c36ebf13cd24fbcec97e738bd746fa1efd909ee32635ef04866ce420",
+    "audioSha256": "baf57c1d634be91d9d38759ad236eaec60ed7ef1e74ff8dd2fc425ec6778b508",
     "montageNewSynthesisRequests": 0,
     "reviewUpdate": {
-      "audio": "./assets/audio/s016-news-common-v2.mp3",
+      "audio": "./assets/audio/s016-news-repair-v3.mp3",
       "at": "2026-11-22",
       "summary": {
-        "ca": "Nova base comuna de notícies, amb entrada i sortida; retirats els papers i jingles anteriors. Pendent d’audició.",
-        "es": "Nueva base común de noticias, con entrada y salida; retirados los papeles y jingles anteriores. Pendiente de escucha."
+        "ca": "Inserida la frase validada «Si l’estudi avança», sense l’artefacte inicial. Base comuna de notícies; pendent d’última audició.",
+        "es": "Insertada la frase validada «Si l’estudi avança», sin el artefacto inicial. Base común de noticias; pendiente de última escucha."
       }
     },
     "editorialFingerprint": "d998b702f5638edf71b3bfe620930f9ee44abd02c59164b8242f75b105c46f4d"
@@ -668,7 +705,7 @@ export const productionProgress = {
     "listeningApproval": true
   },
   "ca-S023": {
-    "state": "audio-corrections-pending",
+    "state": "montage-awaiting-listening",
     "feedbackAt": "2026-11-20",
     "feedback": [
       {
@@ -676,14 +713,15 @@ export const productionProgress = {
         "word": "suggeriments",
         "heard": "suggerements o suggeraments",
         "kind": "synthesis-artifact",
-        "status": "pending"
+        "status": "applied",
+        "appliedAt": "2026-11-22"
       }
     ],
-    "teacherAssessment": "La resta de la locució està ben valorada. Corregir suggeriments; nou muntatge amb Ona curta i mercat real baix sota l’entrevista. Pendent de validar després de l’esmena.",
+    "teacherAssessment": "Inserida la frase de suggeriments validada, amb la base comuna de notícies i el mercat conservats. Comprovar la continuïtat del timbre al tancament.",
     "plannedNewRequests": 0,
     "listeningApproval": false,
     "repairPlan": "content/audio-repairs.json",
-    "jingleStatus": "approved-pair-remounted-pending-listening",
+    "jingleStatus": "common-news-bed-pending-final-listening",
     "editorialFingerprint": "22636665fc727f00d17b0e1349da5b9467ab27a12a049701d4bef3189511f0ad",
     "repairComparison": "./proves/correccions-l03.html#S023-tancament",
     "receivedRepairs": [
@@ -692,22 +730,27 @@ export const productionProgress = {
         "part": "tancament",
         "text": "D’aquí a un mes, l’associació explicarà què s’ha recollit amb els suggeriments.",
         "pronunciation": "Pronounce suggeriments faithfully, with the vowel I in the stressed sequence -RÍ-ments, never suggerements or suggeraments. Fluent natural Central Catalan; no spelling aloud, no added explanation.",
-        "status": "received-awaiting-listening",
+        "status": "applied-awaiting-montage-listening",
         "originalFile": "assets/audio/repairs/l03-s023-tancament-original.mp3",
         "candidateFile": "assets/audio/repairs/l03-s023-tancament-prova.mp3",
         "sourceRawSha256": "eac80f2575c694144fa2d8ddde29f7bfe58c036b619cb9c97dce39c92f3c0736",
         "batchRequestHash": "2dd8d2f2332228b8d700d07edf4dace01afe1ee161060c0ac461952b04ec909f",
-        "applied": false
+        "applied": true,
+        "approvedAt": "2026-11-22",
+        "confirmation": "S023 passaria a definitiu amb la frase esmenada; vull sentir el muntatge perquè al principi sona més aguda.",
+        "candidateSha256": "8a69e2c30602f8abe56fdd54b9c33ffa59799224d358e6b0498affeab172e4cb",
+        "appliedAt": "2026-11-22",
+        "appliedAudio": "./assets/audio/s023-news-repair-v3.mp3"
       }
     ],
-    "audioSha256": "eda7f7391d88f04f0ad2c981dc246f1c1f5fd4c72142159a27d8e655f84b6960",
+    "audioSha256": "4bdd9de1339ac05a10e5919dabfb56d30267ce4e12a3882067264e90066190c3",
     "montageNewSynthesisRequests": 0,
     "reviewUpdate": {
-      "audio": "./assets/audio/s023-news-common-v2.mp3",
+      "audio": "./assets/audio/s023-news-repair-v3.mp3",
       "at": "2026-11-22",
       "summary": {
-        "ca": "Nova base comuna de notícies, amb entrada i sortida; retirats els papers i jingles anteriors. Pendent d’audició.",
-        "es": "Nueva base común de noticias, con entrada y salida; retirados los papeles y jingles anteriores. Pendiente de escucha."
+        "ca": "Inserida la frase de suggeriments validada, amb la base comuna de notícies i el mercat conservats. Comprovar la continuïtat del timbre al tancament.",
+        "es": "Insertada la frase de sugerencias validada, con la base común de noticias y el mercado conservados. Comprobar la continuidad del timbre al cierre."
       }
     }
   },
@@ -796,7 +839,7 @@ export const productionProgress = {
     }
   },
   "ca-S017": {
-    "state": "montage-awaiting-listening",
+    "state": "audio-corrections-pending",
     "approvedAt": "2026-11-20T21:35:19.657Z",
     "editorialFingerprint": "fe3ce6ee3d53da22272f4bf6e1dc47ea654ab5a57a6f87bcd3b768caa9e7fa46",
     "plannedNewRequests": 2,
@@ -823,8 +866,47 @@ export const productionProgress = {
     "listeningApproval": false,
     "synthesisBatch": "L05+L02",
     "requestHash": "0cd0e1f1a77c62a83d9585980c4d0cdff109eeb42a1712498eee160bb51d70c0",
-    "audioSha256": "ac80d03f3534c9e4483465b70adc4baf4e2a76af482f6abd6bf91c8967e6964f",
-    "montageNewSynthesisRequests": 0
+    "audioSha256": "d32fb1c42ae4db13e44d70696120459ce559545da29b69803f7fa7cb258376ec",
+    "montageNewSynthesisRequests": 0,
+    "feedbackAt": "2026-11-22",
+    "teacherAssessment": "Resta de veus i balanç d’aula ben valorats. Retirat el tram de respiracions; dos últims paràgrafs de Mireia pendents de síntesi conjunta per canvi de timbre i crepitar.",
+    "feedback": [
+      {
+        "part": "sortida",
+        "word": "Respiracions entre 2:28 i 2:41",
+        "status": "applied",
+        "kind": "nonverbal-padding",
+        "removedSeconds": 12.864999999999998
+      },
+      {
+        "part": "coordinacio",
+        "word": "Dos últims paràgrafs de Mireia",
+        "status": "pending",
+        "kind": "voice-identity-and-quality",
+        "heard": "Canvi de veu, menys qualitat i crepitar al final."
+      }
+    ],
+    "plannedRepair": {
+      "status": "awaiting-compatible-batch",
+      "speaker": "Mireia",
+      "voice": "Aoede",
+      "parts": [
+        "coordinacio",
+        "retorn"
+      ],
+      "text": "Exacte. L’equip de coordinació confirmarà la sortida de tot el conjunt. Ningú no s’avançarà amb cap caixa.\n\nA cada parada anotaran si falta alguna peça o està malmesa. El registre viatjarà amb les caixes perquè a la parada següent ja coneguin les incidències. Vinga, comencem a escriure i, quan acabeu, Laia, ja podreu pintar, d’acord?",
+      "direction": "Record these two consecutive paragraphs as one continuous take, in the same warm adult teacher Mireia/Aoede identity throughout. Natural Central Catalan; clear dry voice, no added breaths, crackling or voice changes. Read only the canonical text.",
+      "confirmedAt": "2026-11-22",
+      "newRequests": 0
+    },
+    "reviewUpdate": {
+      "audio": "./assets/audio/s017-breaths-v2.mp3",
+      "at": "2026-11-22",
+      "summary": {
+        "ca": "Retirat el tram de respiracions entre 2:28 i 2:41; fons d’aula conservat. Els dos últims paràgrafs de la Mireia encara esperen una nova presa conjunta.",
+        "es": "Retirado el tramo de respiraciones entre 2:28 y 2:41; fondo de aula conservado. Los dos últimos párrafos de Mireia aún esperan una nueva toma conjunta."
+      }
+    }
   },
   "ca-S014": {
     "state": "montage-awaiting-listening",
@@ -2127,10 +2209,10 @@ export const productionProgress = {
     "reason": "Repartiment Laia/Leda i Ona/Sulafat complet: recalcular agrupacions amb text pla abans de congelar lots de sis a vuit minuts."
   },
   "ca-S045": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-22T20:05:09.021Z",
-    "editorialFingerprint": "76ec33e0deeb6feb6edff4cc4f7f5c4899bf28b8a77e07be4463e485653cdf54",
-    "plannedNewRequests": 1,
+    "editorialFingerprint": "3d98db6a2f8355d4a34b79c00c88d556fea012be6d4acbcc420877c0b16313b8",
+    "plannedNewRequests": 0,
     "listeningApproval": false,
     "confirmation": "S045 validada per síntesi de veus",
     "reason": "Agrupar records complets validats de Ferran/Algenib fins a sis a vuit minuts. S045D tindrà validació pròpia.",
@@ -2146,7 +2228,18 @@ export const productionProgress = {
     },
     "voicesReceivedAt": "2026-11-22T20:49:56.816Z",
     "voicePreview": "./proves/veus-rebudes.html#S045",
-    "voicePreviewFile": "./assets/audio/s045-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s045-voices-review-v1.mp3",
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-22",
+      "sourceTakeSha256": "b719993201db3333152ee5743152082a1634adeac5dfa2bb578c117988fbf353",
+      "confirmation": "S045 també directe a muntatge, molt bé tot, fins i tot el moment natural en què empassa saliva."
+    },
+    "mountedAt": "2026-11-22T21:59:06.491Z",
+    "synthesisBatch": "L17",
+    "requestHash": "3614318c8fb54c97021a43d7a5ac29a9c5f2642f00894c7d7e5ae616d6adc099",
+    "audioSha256": "3226874f0b1d60cda05edea234fd6c05716d3e49bf1a8e78f2879e282d7511fe",
+    "montageNewSynthesisRequests": 0
   },
   "ca-S078": {
     "state": "ready-for-voices",
@@ -2159,10 +2252,10 @@ export const productionProgress = {
     "reason": "Agrupar lectures completes validades de Biel/Puck i Elies/Algieba fins a sis a vuit minuts."
   },
   "ca-S047": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-22T20:16:52.042Z",
-    "editorialFingerprint": "982ea2797ea37ddab16df552696629462523a580d0b6dbb56cb2fabea4727b51",
-    "plannedNewRequests": 1,
+    "editorialFingerprint": "58218f31124c56a9a90d9543c3d215cd963f253a625a8958cb9195a5e3e6772e",
+    "plannedNewRequests": 0,
     "listeningApproval": false,
     "confirmation": "S047 validada per síntesi de veus",
     "reason": "P01 complet amb S045,S046,S047,S069; preparar un lot Ferran/Algenib de sis a vuit minuts.",
@@ -2178,7 +2271,18 @@ export const productionProgress = {
     },
     "voicesReceivedAt": "2026-11-22T20:49:56.816Z",
     "voicePreview": "./proves/veus-rebudes.html#S047",
-    "voicePreviewFile": "./assets/audio/s047-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s047-voices-review-v1.mp3",
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-22",
+      "sourceTakeSha256": "0a299ff99e309f1bea98b95ba32d268402c74c586195144b92aac4a456f18907",
+      "confirmation": "S047 validat per muntatge, molt bé les inflexions del personatge"
+    },
+    "mountedAt": "2026-11-22T21:58:59.637Z",
+    "synthesisBatch": "L17",
+    "requestHash": "3614318c8fb54c97021a43d7a5ac29a9c5f2642f00894c7d7e5ae616d6adc099",
+    "audioSha256": "977e41ad44ec32e59664987d2e42a154414b01578a2a478c092ade9a502600e3",
+    "montageNewSynthesisRequests": 0
   },
   "ca-S058": {
     "state": "audio-corrections-pending",

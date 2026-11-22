@@ -45,8 +45,8 @@ export const cinque = [
   proposal({
     id: 'una-troballa-al-jaciment', code: 'S016', title: 'Una troballa al jaciment', grade: '5', level: 'middle', genre: 'news',
     recordingCues: [{"before":"fet","text":"Entrada de Breaking News Background Music, de Grand_Project. Base contínua molt atenuada i comprimida sota les veus; sense els papers ni la sintonia anterior."},{"after":"final","text":"Pujada progressiva cap al tancament musical comú i fosa final. El muntatge continua pendent d’audició docent."}],
-    seconds: 143, status: 'ready-for-review', reviewStatus: 'audio-review',
-    audio: './assets/audio/s016-news-common-v2.mp3', tracks: { introduction: './assets/audio/s016-news-common-v2-intro.mp3', body: './assets/audio/s016-news-common-v2-cos.mp3' },
+    seconds: 144, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s016-news-repair-v3.mp3', tracks: { introduction: './assets/audio/s016-news-repair-v3-intro.mp3', body: './assets/audio/s016-news-repair-v3-cos.mp3' },
     fragment: { start: 5.95, seconds: 137 },
     summary: 'La Mar diferencia una troballa observada, una explicació possible i un titular que s’ha avançat massa.',
     voices: { Mar: 'Erinome' }, delivery: 'Periodista adulta rigorosa i propera. Distingir la citació d’un rumor amb l’entonació, sense convertir-la en una altra veu ni exagerar les correccions.',
@@ -80,9 +80,9 @@ export const cinque = [
   }),
   proposal({
     id: 'preparem-una-exposicio-itinerant', code: 'S017', title: 'Preparem una exposició itinerant', grade: '5', level: 'advanced', genre: 'instructions',
-    seconds: 187, status: 'ready-for-review', reviewStatus: 'audio-review',
-    audio: './assets/audio/s017-mixed-v1.mp3', tracks: { introduction: './assets/audio/s017-mixed-v1-intro.mp3', body: './assets/audio/s017-mixed-v1-cos.mp3' },
-    fragment: { start: 5.444999999999999, seconds: 181 },
+    seconds: 174, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s017-breaths-v2.mp3', tracks: { introduction: './assets/audio/s017-breaths-v2-intro.mp3', body: './assets/audio/s017-breaths-v2-cos.mp3' },
+    fragment: { start: 5.444999999999999, seconds: 168 },
     summary: 'La Mireia s’asseu amb el grup de la Laia i en Biel per ordenar una exposició que ha de viatjar, mentre la resta de la classe treballa en altres projectes.',
     strategy: 'grouped-voices-v1',
     voices: { Mireia: 'Aoede', Laia: 'Leda', Biel: 'Puck' }, delivery: 'Mireia s’asseu amb Laia i Biel, que formen un mateix grup de treball. Altres grups de classe continuen els seus projectes. Conversa propera a la taula, no una explicació a tota l’aula. Presentar des del començament l’equip de coordinació i recordar l’entrevista de la setmana passada abans de parlar de reescriure els textos. Laia s’avança amb la decoració; Biel proposa i pregunta. Rèpliques clares, pauses entre contingut, caixes i transport, sense accelerar la llista de condicions ni afegir altres interlocutors.',

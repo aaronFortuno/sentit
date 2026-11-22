@@ -1,4 +1,4 @@
-// Final independent reviews only. This is not teacher approval for production.
+// Only independent final reviews are recorded; no teacher or synthesis approval is implied.
 export const editorialReviews = {
   "ca-S003": {
     "status": "passed",
@@ -301,8 +301,8 @@ export const editorialReviews = {
   "ca-S045": {
     "status": "passed",
     "reviewedAt": "2026-11-22",
-    "reviewer": "revisio_tanda3_ferran",
-    "fingerprint": "76ec33e0deeb6feb6edff4cc4f7f5c4899bf28b8a77e07be4463e485653cdf54"
+    "reviewer": "revisio_contextos_previs",
+    "fingerprint": "3d98db6a2f8355d4a34b79c00c88d556fea012be6d4acbcc420877c0b16313b8"
   },
   "ca-S045D": {
     "status": "passed",
@@ -325,8 +325,8 @@ export const editorialReviews = {
   "ca-S047": {
     "status": "passed",
     "reviewedAt": "2026-11-22",
-    "reviewer": "revisio_tanda3_ferran",
-    "fingerprint": "982ea2797ea37ddab16df552696629462523a580d0b6dbb56cb2fabea4727b51"
+    "reviewer": "revisio_contextos_previs",
+    "fingerprint": "58218f31124c56a9a90d9543c3d215cd963f253a625a8958cb9195a5e3e6772e"
   },
   "ca-S048": {
     "status": "passed",

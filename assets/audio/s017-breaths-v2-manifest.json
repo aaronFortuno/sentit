@@ -1,0 +1,373 @@
+{
+  "code": "S017",
+  "activity": "ca-S017",
+  "state": "awaiting-audio-corrections",
+  "file": "s017-breaths-v2.mp3",
+  "introFile": "s017-breaths-v2-intro.mp3",
+  "bodyFile": "s017-breaths-v2-cos.mp3",
+  "offset": 5.444999999999999,
+  "bodyDuration": 167.76774999999998,
+  "fullDuration": 173.21275,
+  "voices": {
+    "Mireia": "Aoede",
+    "Laia": "Leda",
+    "Biel": "Puck"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "assembled-grouped-voices",
+  "requestHash": "0cd0e1f1a77c62a83d9585980c4d0cdff109eeb42a1712498eee160bb51d70c0",
+  "sourceRequestHash": "bdb8da73aeafd6ff39f40c4022248605f7de8a90391810e8ec5fc27e08ff879a",
+  "batch": "L05+L02",
+  "sourceBatchRequests": [
+    {
+      "batch": "L05",
+      "requestHash": "3a86ff8ea619d9fa32f7582a144656f791631478c642722f8e98ef6e5c8a5eb0",
+      "rawSha256": "b2ca0f5d981a00325ac67d2963f0c278018bf6ef431e1a87219d954159383482"
+    },
+    {
+      "batch": "L02",
+      "requestHash": "ef2b891a48e5c2823d4527ce9a4c0fc93ae1951ecaad5c7ce07a30ac584a1a66",
+      "rawSha256": "75f355dc0e16071957f1057590e050e668469cc3f22f85afd37fec35c67cee27"
+    }
+  ],
+  "assembly": [
+    {
+      "part": "projecte",
+      "speaker": "Mireia",
+      "sourceTake": "S017-T01",
+      "sourceTakeSha256": "042c2641600ef339ec2b25abd546acdb68bff155af377de6933c8aefb3c6a8ea",
+      "sourceRange": {
+        "start": 4.095,
+        "end": 26.304125
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "decorar",
+      "speaker": "Laia",
+      "sourceTake": "S017-T02",
+      "sourceTakeSha256": "edb0fe40df3baf6dee64ca3b1167da8152cbddb463ab4bfc40b7d5234f585943",
+      "sourceRange": {
+        "start": 0,
+        "end": 5.313916666666667
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "contingut",
+      "speaker": "Mireia",
+      "sourceTake": "S017-T01",
+      "sourceTakeSha256": "042c2641600ef339ec2b25abd546acdb68bff155af377de6933c8aefb3c6a8ea",
+      "sourceRange": {
+        "start": 26.304083333333335,
+        "end": 44.5765
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "foto",
+      "speaker": "Laia",
+      "sourceTake": "S017-T02",
+      "sourceTakeSha256": "edb0fe40df3baf6dee64ca3b1167da8152cbddb463ab4bfc40b7d5234f585943",
+      "sourceRange": {
+        "start": 5.313875,
+        "end": 11.167333333333334
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "provisional",
+      "speaker": "Biel",
+      "sourceTake": "S017-T02",
+      "sourceTakeSha256": "edb0fe40df3baf6dee64ca3b1167da8152cbddb463ab4bfc40b7d5234f585943",
+      "sourceRange": {
+        "start": 11.167291666666667,
+        "end": 16.6745
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "permis",
+      "speaker": "Mireia",
+      "sourceTake": "S017-T01",
+      "sourceTakeSha256": "042c2641600ef339ec2b25abd546acdb68bff155af377de6933c8aefb3c6a8ea",
+      "sourceRange": {
+        "start": 44.5765,
+        "end": 55.275
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "peces",
+      "speaker": "Mireia",
+      "sourceTake": "S017-T01",
+      "sourceTakeSha256": "042c2641600ef339ec2b25abd546acdb68bff155af377de6933c8aefb3c6a8ea",
+      "sourceRange": {
+        "start": 55.275,
+        "end": 63.78
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "pluja-anticipada",
+      "speaker": "Laia",
+      "sourceTake": "S017-T02",
+      "sourceTakeSha256": "edb0fe40df3baf6dee64ca3b1167da8152cbddb463ab4bfc40b7d5234f585943",
+      "sourceRange": {
+        "start": 16.674458333333334,
+        "end": 21.814416666666666
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "embalatge",
+      "speaker": "Mireia",
+      "sourceTake": "S017-T01",
+      "sourceTakeSha256": "042c2641600ef339ec2b25abd546acdb68bff155af377de6933c8aefb3c6a8ea",
+      "sourceRange": {
+        "start": 63.78,
+        "end": 70.25620833333333
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "color",
+      "speaker": "Biel",
+      "sourceTake": "S017-T02",
+      "sourceTakeSha256": "edb0fe40df3baf6dee64ca3b1167da8152cbddb463ab4bfc40b7d5234f585943",
+      "sourceRange": {
+        "start": 21.814375,
+        "end": 26.152333333333335
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "repetida",
+      "speaker": "Laia",
+      "sourceTake": "S017-T02",
+      "sourceTakeSha256": "edb0fe40df3baf6dee64ca3b1167da8152cbddb463ab4bfc40b7d5234f585943",
+      "sourceRange": {
+        "start": 26.152291666666667,
+        "end": 29.057708333333334
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "identificar",
+      "speaker": "Biel",
+      "sourceTake": "S017-T02",
+      "sourceTakeSha256": "edb0fe40df3baf6dee64ca3b1167da8152cbddb463ab4bfc40b7d5234f585943",
+      "sourceRange": {
+        "start": 29.057666666666666,
+        "end": 33.81733333333333
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "guardar",
+      "speaker": "Mireia",
+      "sourceTake": "S017-T01",
+      "sourceTakeSha256": "042c2641600ef339ec2b25abd546acdb68bff155af377de6933c8aefb3c6a8ea",
+      "sourceRange": {
+        "start": 70.25616666666667,
+        "end": 79.56
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "cola",
+      "speaker": "Biel",
+      "sourceTake": "S017-T02",
+      "sourceTakeSha256": "edb0fe40df3baf6dee64ca3b1167da8152cbddb463ab4bfc40b7d5234f585943",
+      "sourceRange": {
+        "start": 33.81729166666667,
+        "end": 37.26733333333333
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "prioritat",
+      "speaker": "Mireia",
+      "sourceTake": "S017-T01",
+      "sourceTakeSha256": "042c2641600ef339ec2b25abd546acdb68bff155af377de6933c8aefb3c6a8ea",
+      "sourceRange": {
+        "start": 79.56,
+        "end": 87.585
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "pluja",
+      "speaker": "Mireia",
+      "sourceTake": "S017-T01",
+      "sourceTakeSha256": "042c2641600ef339ec2b25abd546acdb68bff155af377de6933c8aefb3c6a8ea",
+      "sourceRange": {
+        "start": 87.585,
+        "end": 96.315
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "avancar",
+      "speaker": "Biel",
+      "sourceTake": "S017-T02",
+      "sourceTakeSha256": "edb0fe40df3baf6dee64ca3b1167da8152cbddb463ab4bfc40b7d5234f585943",
+      "sourceRange": {
+        "start": 37.267291666666665,
+        "end": 40.58233333333333
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "sortida",
+      "speaker": "Laia",
+      "sourceTake": "S017-T02",
+      "sourceTakeSha256": "edb0fe40df3baf6dee64ca3b1167da8152cbddb463ab4bfc40b7d5234f585943",
+      "sourceRange": {
+        "start": 40.58229166666667,
+        "end": 59.057291666666664
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "coordinacio",
+      "speaker": "Mireia",
+      "sourceTake": "S017-T01",
+      "sourceTakeSha256": "042c2641600ef339ec2b25abd546acdb68bff155af377de6933c8aefb3c6a8ea",
+      "sourceRange": {
+        "start": 96.315,
+        "end": 103.26
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    },
+    {
+      "part": "retorn",
+      "speaker": "Mireia",
+      "sourceTake": "S017-T01",
+      "sourceTakeSha256": "042c2641600ef339ec2b25abd546acdb68bff155af377de6933c8aefb3c6a8ea",
+      "sourceRange": {
+        "start": 103.26,
+        "end": 118.32
+      },
+      "removedOnlyBelowDbFS": -70,
+      "retainedLeadSeconds": 0.3,
+      "retainedTailSeconds": 0.35
+    }
+  ],
+  "requestHashIsCompositionChecksum": true,
+  "rawSha256": "0644ec3959358c889fd80a049963e0184853d340d0dd480075a1f62b7226c82d",
+  "takeSha256": "0644ec3959358c889fd80a049963e0184853d340d0dd480075a1f62b7226c82d",
+  "coverage": 0.9003215434083601,
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.81,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "tallis0410-707510",
+      "start": 0,
+      "source": "assets/audio/sources/tallis0410-707510.mp3",
+      "sourceSha256": "1cceca74ca79bd56764a8482ce0721afa5d2a7612c15ef1160ce2c5b923a45ff",
+      "sourceUrl": "https://freesound.org/people/Tallis0410/sounds/707510/",
+      "author": "Tallis0410",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.2,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -42,
+      "lowPassHz": 1800,
+      "passes": 3,
+      "crossfadeSeconds": 1
+    },
+    {
+      "name": "funkysandwich-871017",
+      "start": 0.35,
+      "source": "assets/audio/sources/funkysandwich-871017.mp3",
+      "sourceSha256": "91f0758edb74981b079afe514c96645efe829b97c924cec132bb245cbf70c7a6",
+      "sourceUrl": "https://freesound.org/people/funkysandwich/sounds/871017/",
+      "author": "funkysandwich",
+      "license": "CC0 1.0",
+      "excerpt": {
+        "start": 0,
+        "seconds": 1.2
+      },
+      "underSpeech": false
+    },
+    {
+      "name": "beussa-749880",
+      "start": 83.97310000000002,
+      "source": "assets/audio/sources/beussa-749880.mp3",
+      "sourceSha256": "4b38b5c58abb206d5b86b9d5b6a3acde8eea90c288ef194b4a67503fe659b4a9",
+      "sourceUrl": "https://freesound.org/people/Beussa/sounds/749880/",
+      "author": "Beussa",
+      "license": "CC0 1.0",
+      "excerpt": {
+        "start": 0,
+        "seconds": 0.678
+      },
+      "underSpeech": false,
+      "insertedPause": 1.05
+    }
+  ],
+  "sha256": "d32fb1c42ae4db13e44d70696120459ce559545da29b69803f7fa7cb258376ec",
+  "nonverbalRevision": {
+    "date": "2026-11-22",
+    "baseFile": "s017-mixed-v1.mp3",
+    "baseSha256": "ac80d03f3534c9e4483465b70adc4baf4e2a76af482f6abd6bf91c8967e6964f",
+    "originalPreserved": true,
+    "sourceRawRange": {
+      "start": 143.78275,
+      "end": 156.62775
+    },
+    "fullMasterRange": {
+      "start": 148.03275,
+      "end": 160.87775
+    },
+    "removedSeconds": 12.864999999999998,
+    "crossfadeSeconds": 0.02,
+    "protectedPreviousSpeechEnd": 143.50275833333336,
+    "protectedNextSpeechStart": 156.90775,
+    "voiceRetimed": false,
+    "ambientLevelsUnchanged": true,
+    "newRequests": 0
+  }
+}

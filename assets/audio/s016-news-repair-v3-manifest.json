@@ -1,0 +1,141 @@
+{
+  "code": "S016",
+  "activity": "ca-S016",
+  "date": "2026-11-20T09:37:09.238Z",
+  "state": "awaiting-montage-validation",
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "Mar": "Erinome"
+  },
+  "newSynthesisRequests": 0,
+  "approvalFingerprint": "a6286789dcda768aa5eda9e0d043440c60f75090efc9445ef7c273fad0ade4f5",
+  "requestHash": "3a6958c71174a0d5affc3e915044570e88be424acd8cb48a00837e03e4ff0bf1",
+  "rawSha256": "b91c85a798519ef2c0e7c8fced954bdb56892242aacf02f5cdc467fd95d23481",
+  "usage": {
+    "total_tokens": 4049,
+    "total_input_tokens": 675,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 675
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 3374,
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 3374
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 0,
+    "initial_input_tokens": 675
+  },
+  "rawDuration": 134.96,
+  "cut": {
+    "at": 4.83,
+    "previousWordEnd": 4.53,
+    "nextWordStart": 5.13,
+    "peakDbFS": -62.7,
+    "rawSamplesPreserved": true
+  },
+  "file": "s016-news-repair-v3.mp3",
+  "introFile": "s016-news-repair-v3-intro.mp3",
+  "bodyFile": "s016-news-repair-v3-cos.mp3",
+  "offset": 5.95,
+  "bodyDuration": 137.129,
+  "fullDuration": 143.07899999999998,
+  "lufs": -18.54,
+  "peakDbTP": -2.49,
+  "voice": {
+    "bodyLead": 2.5,
+    "bodyRawDuration": 130.379,
+    "untrimmedApartFromSilenceSplit": true,
+    "retimed": false
+  },
+  "effects": [
+    {
+      "name": "grand-project-breaking-news-505617",
+      "origin": "licensed-music-in-montage",
+      "start": 0,
+      "underSpeech": true,
+      "credit": {
+        "id": "grand-project-breaking-news-505617",
+        "title": "Breaking News Background Music",
+        "author": "Grand_Project",
+        "url": "https://pixabay.com/music/percussion-breaking-news-background-music-505617/",
+        "license": "Pixabay Content License",
+        "licenseUrl": "https://pixabay.com/service/license-summary/",
+        "source": "tools/remount-news-common.cjs",
+        "origin": "licensed-music",
+        "kind": "news-programme",
+        "sourceNotDistributedSeparately": true
+      },
+      "sourceSha256": "32e3e6c978ef1bc5c013c40880ac3ad9714957548f956c1355ad8852c94405ae",
+      "voiceMarginTargetDb": 25,
+      "sidechain": {
+        "threshold": 0.018,
+        "ratio": 6,
+        "attackMs": 12,
+        "releaseMs": 450
+      },
+      "openingSeconds": 3.5,
+      "closingSeconds": 4.5
+    }
+  ],
+  "sha256": "baf57c1d634be91d9d38759ad236eaec60ed7ef1e74ff8dd2fc425ec6778b508",
+  "newsRevision": {
+    "date": "2026-11-22",
+    "baseFile": "s016-news-common-v2.mp3",
+    "baseAudioSha256": "87060f14c36ebf13cd24fbcec97e738bd746fa1efd909ee32635ef04866ce420",
+    "allOldEffectsRemoved": true,
+    "voiceRetimed": false,
+    "rawSplit": 4.83,
+    "bodyPcmSha256": "ad3b1349d351c1ca58dfcec5b7964b0b9c0f2423f844a2a98624c6f9b325af97",
+    "teacherFinalApproval": false,
+    "newRequests": 0
+  },
+  "voiceRetimed": false,
+  "synthesisRepair": {
+    "schema": 1,
+    "code": "S016",
+    "part": "exposicio",
+    "text": "Si l’estudi avança, l’equip voldria preparar una mostra al centre cívic amb fotografies del procés i alguns resultats.",
+    "date": "2026-11-22",
+    "teacherApproval": {
+      "at": "2026-11-22",
+      "confirmation": "S016 quedaria validat amb la veu esmenada. Pots fer remuntatge i comprovem abans de pujar a definitiu",
+      "candidateFile": "assets/audio/repairs/l03-s016-exposicio-prova.mp3",
+      "candidateSha256": "a3cfa5ce4d264dda8154588cf346ca2b85ce2f71e04e527ec48c191185271a02"
+    },
+    "originalRawSha256": "b91c85a798519ef2c0e7c8fced954bdb56892242aacf02f5cdc467fd95d23481",
+    "candidateRawSha256": "1e19a5fc37a08b8d5be3c2c884918a46ad5997bb761910347d5c4c1c3d513536",
+    "candidateBatchRequestHash": "2dd8d2f2332228b8d700d07edf4dace01afe1ee161060c0ac461952b04ec909f",
+    "originalRange": {
+      "start": 107.04,
+      "end": 113.651,
+      "handles": [
+        -41.15136076451451,
+        -38.074532539047524
+      ]
+    },
+    "candidateRange": {
+      "start": 3.4352916666666666,
+      "end": 10.295291666666667,
+      "handles": [
+        -59.182948683848615,
+        -64.28839878591474
+      ]
+    },
+    "gainDb": 2.5666842467281366,
+    "peakAfterGain": 31935,
+    "deltaSeconds": 0.249,
+    "bodySha256": "c57acfbcec56146031b5fd40810627af5a907566249a4418aa39ef372770211e",
+    "bodyPcmSha256": "ad3b1349d351c1ca58dfcec5b7964b0b9c0f2423f844a2a98624c6f9b325af97",
+    "allOtherVoiceSamplesIdentical": true,
+    "voiceRetimed": false,
+    "pitchShifted": false,
+    "newRequests": 0
+  }
+}

@@ -4,6 +4,7 @@
 const fs=require('node:fs/promises'),path=require('node:path'),{createHash}=require('node:crypto');
 const {ffmpeg}=require('./audio-files.cjs');
 const settings={S027:{title:"Tovalles al vent",root:50,tempo:66,seed:27},S034:{title:"Entre dues cortines",root:55,tempo:72,seed:34},S038:{title:"Un lloc a l’ombra",root:53,tempo:64,seed:38},S038D:{title:"Una tarda per explicar",root:58,tempo:68,seed:138},S043:{title:"Una línia a la façana",root:50,tempo:60,seed:43}};
+Object.assign(settings,{S045:{title:'Cadires sota les estrelles',root:57,tempo:66,seed:45,speechGain:.14,fadeSeconds:2},S047:{title:'Botons de tots colors',root:55,tempo:68,seed:47,speechGain:.14,fadeSeconds:2}});
 const sha=b=>createHash('sha256').update(b).digest('hex'),RATE=24000;
 function makeWave(pcm){const b=Buffer.alloc(44+pcm.length);b.write('RIFF');b.writeUInt32LE(b.length-8,4);b.write('WAVEfmt ',8);b.writeUInt32LE(16,16);b.writeUInt16LE(1,20);b.writeUInt16LE(1,22);b.writeUInt32LE(RATE,24);b.writeUInt32LE(RATE*2,28);b.writeUInt16LE(2,32);b.writeUInt16LE(16,34);b.write('data',36);b.writeUInt32LE(pcm.length,40);pcm.copy(b,44);return b;}
 async function makeBed({code,title,folder,binary,duration,lead,voiceEnd}){
@@ -21,10 +22,10 @@ async function makeBed({code,title,folder,binary,duration,lead,voiceEnd}){
  const pcm=Buffer.alloc(samples.length*2);for(let i=0;i<samples.length;i++)pcm.writeInt16LE(Math.round(Math.max(-.98,Math.min(.98,samples[i]))*32767),i*2);
  const raw=path.join(folder,'music-original.wav'),normalized=path.join(folder,'music-base.wav'),file=path.join(folder,'music-bed.wav');await fs.writeFile(raw,makeWave(pcm));
  ffmpeg(binary,['-v','error','-y','-i',raw,'-af','highpass=f=65,lowpass=f=4200,loudnorm=I=-26:TP=-4:LRA=6,aresample=48000','-ac','1','-c:a','pcm_s16le',normalized]);
- const duckStart=Math.max(.3,lead-.9),duckEnd=lead-.15,riseStart=voiceEnd+.35,riseEnd=voiceEnd+1.15,fadeStart=riseEnd+2,fadeEnd=fadeStart+1.15;
+ const duckStart=Math.max(.3,lead-.9),duckEnd=lead-.15,riseStart=voiceEnd+.35,riseEnd=voiceEnd+1.15,fadeStart=riseEnd+2,fadeSeconds=config.fadeSeconds??1.15,fadeEnd=fadeStart+fadeSeconds,speechGain=config.speechGain??.26,drop=.7-speechGain;
  if(fadeEnd>duration-.2)throw Error('Cua insuficient per a la fosa musical.');
- const gain=`if(lt(t,${duckStart}),0.7,if(lt(t,${duckEnd}),0.7-0.44*(t-${duckStart})/(${duckEnd-duckStart}),if(lt(t,${riseStart}),0.26,if(lt(t,${riseEnd}),0.26+0.44*(t-${riseStart})/(${riseEnd-riseStart}),0.7))))`;
- ffmpeg(binary,['-v','error','-y','-i',normalized,'-af',`volume='${gain}':eval=frame,afade=t=in:d=0.6,afade=t=out:st=${fadeStart}:d=1.15`,'-ar','48000','-ac','1','-c:a','pcm_s16le',file]);
- return {file,effect:{name:'gentle-narration-bed',origin:'original-procedural-composition',author:'Sentit',license:'MIT',source:'tools/narration-bed.cjs',title:config.title??title,compositionId:'sentit-'+code.toLowerCase()+'-v1',tempoBpm:config.tempo,rootMidi:config.root,scoreSeed:config.seed,notes,externalSamples:false,noSpeech:true,retimed:false,sha256:sha(await fs.readFile(file)),envelope:{fadeInSeconds:.6,duckStart,duckEnd,speechGain:.26,nominalSpeechMusicLufs:-37.7,riseStart,riseEnd,holdSeconds:2,fadeStart,fadeEnd},listeningValidation:'pending'}};
+ const gain=`if(lt(t,${duckStart}),0.7,if(lt(t,${duckEnd}),0.7-${drop}*(t-${duckStart})/(${duckEnd-duckStart}),if(lt(t,${riseStart}),${speechGain},if(lt(t,${riseEnd}),${speechGain}+${drop}*(t-${riseStart})/(${riseEnd-riseStart}),0.7))))`;
+ ffmpeg(binary,['-v','error','-y','-i',normalized,'-af',`volume='${gain}':eval=frame,afade=t=in:d=0.6,afade=t=out:st=${fadeStart}:d=${fadeSeconds}`,'-ar','48000','-ac','1','-c:a','pcm_s16le',file]);
+ return {file,effect:{name:'gentle-narration-bed',origin:'original-procedural-composition',author:'Sentit',license:'MIT',source:'tools/narration-bed.cjs',title:config.title??title,compositionId:'sentit-'+code.toLowerCase()+'-v1',tempoBpm:config.tempo,rootMidi:config.root,scoreSeed:config.seed,notes,externalSamples:false,noSpeech:true,retimed:false,sha256:sha(await fs.readFile(file)),envelope:{fadeInSeconds:.6,duckStart,duckEnd,speechGain,nominalSpeechMusicLufs:-26+20*Math.log10(speechGain),riseStart,riseEnd,holdSeconds:2,fadeStart,fadeEnd},listeningValidation:'pending'}};
 }
 module.exports={makeBed};

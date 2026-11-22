@@ -3,7 +3,7 @@ import { openDialog, closeDialog } from './motion.js';
 import { mountAudioSeek } from './audio-seek.js';
 
 export function pendingRepairClips(entry) {
-  return productionProgress[`${entry?.language}-${entry?.code}`]?.receivedRepairs?.filter(repair => repair.applied === false && repair.status === 'received-awaiting-listening' && repair.candidateFile && repair.originalFile) ?? [];
+  return productionProgress[`${entry?.language}-${entry?.code}`]?.receivedRepairs?.filter(repair => repair.applied === false && ['received-awaiting-listening', 'approved-awaiting-application'].includes(repair.status) && repair.candidateFile && repair.originalFile) ?? [];
 }
 
 let mounted = false;
@@ -61,7 +61,7 @@ export function renderRepairPreview(root, entry, t) {
       const clips = document.createElement('div'); clips.className = 'repair-preview-clips';
       for (const [key, label] of [['originalFile', 'repairOriginal'], ['candidateFile', 'repairNewTake']]) {
         const wrapper = document.createElement('label'), caption = document.createElement('span'), audio = document.createElement('audio');
-        caption.textContent = t(label); audio.controls = true; audio.preload = 'none'; audio.src = repair[key];
+        caption.textContent = t(key === 'candidateFile' && repair.status === 'approved-awaiting-application' ? 'repairApprovedTake' : label); audio.controls = true; audio.preload = 'none'; audio.src = repair[key];
         audio.dataset.repairPart = repair.part; audio.dataset.repairVersion = key;
         audio.setAttribute('aria-label', `${t(label)} · ${repair.text}`);
         audio.addEventListener('play', () => { document.querySelectorAll('audio').forEach(other => { if (other !== audio) other.pause(); }); });

@@ -14,7 +14,7 @@ const { chromium } = require('C:/Users/afortun8/.cache/codex-runtimes/codex-prim
     const page = await browser.newPage({ viewport: { width: 1500, height: 1000 } }), errors = [];
     await page.route('**/*', route => new URL(route.request().url()).origin === new URL(base).origin ? route.continue() : route.abort());
     page.on('pageerror', error => errors.push(error.message));
-    for (const [code, count] of [['S010', 2], ['S022', 1]]) {
+    for (const [code, count] of [['S010', 1]]) {
       await page.goto(base + '#lectura=ca-' + code);
       await page.locator('#repair-previews button').click();
       const dialog = page.locator('#repair-preview-dialog');
@@ -26,6 +26,7 @@ const { chromium } = require('C:/Users/afortun8/.cache/codex-runtimes/codex-prim
       await page.waitForFunction(() => [...document.querySelectorAll('#repair-preview-dialog audio')].some(audio => !audio.paused));
       await dialog.locator('audio[data-repair-version="originalFile"]').first().evaluate(audio => audio.play());
       assert.equal(await dialog.locator('audio').evaluateAll(audios => audios.filter(audio => !audio.paused).length), 1);
+      assert((await dialog.locator('label').last().innerText()).includes('validada'));
       if (code === 'S010') await page.screenshot({ path: path.join(output, 's010-comparison.png') });
       await dialog.locator('button[type="submit"]').click();
       await page.waitForFunction(() => !document.getElementById('repair-preview-dialog').open);
@@ -37,12 +38,15 @@ const { chromium } = require('C:/Users/afortun8/.cache/codex-runtimes/codex-prim
     assert.equal(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth), false);
     await page.setViewportSize({ width: 390, height: 780 });
     assert.equal(await page.locator('#repair-preview-dialog').evaluate(dialog => dialog.scrollWidth > dialog.clientWidth), false);
-    await page.screenshot({ path: path.join(output, 's022-dark-mobile.png') });
+    await page.screenshot({ path: path.join(output, 's010-approved-dark-mobile.png') });
+    await page.goto(base + '#lectura=ca-S022');
+    await page.locator('#workspace').waitFor({ state: 'visible' });
+    assert(await page.locator('#repair-previews').isHidden(), 'Rejected trial is not offered as a new pending take');
     await page.goto(base + '#lectura=ca-S003');
     await page.locator('#workspace').waitFor({ state: 'visible' });
     assert(await page.locator('#repair-previews').isHidden());
     assert.deepEqual(errors, []);
     assert.equal(await fs.readFile(path.resolve(__dirname, '../content/production-progress.js'), 'utf8'), before, 'Listening never approves or applies a repair');
-    console.log('PASS · S010/S022 comparison clips, real playback, one audio at a time, close stops sound, mobile/dark, absent without repairs and unchanged approvals. Local only.');
+    console.log('PASS · S010 approved comparison / S022 rejected trial, real playback, one audio at a time, close stops sound, mobile/dark, absent without repairs and unchanged approvals. Local only.');
   } finally { await browser?.close(); server.kill(); }
 })().catch(error => { console.error(error); process.exitCode = 1; });

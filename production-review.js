@@ -10,11 +10,12 @@ export function cardReviewUpdate(entry) {
   if (hasPendingSynthesisEdit(entry)) {
     const pending = progress.feedback.filter(item => item.status === 'pending');
     const received = pending.filter(item => progress.receivedRepairs?.some(repair => repair.part === item.part && repair.applied === false && repair.status === 'received-awaiting-listening'));
-    const waiting = pending.filter(item => !received.includes(item));
+    const approved = pending.filter(item => progress.receivedRepairs?.some(repair => repair.part === item.part && repair.applied === false && repair.status === 'approved-awaiting-application'));
+    const waiting = pending.filter(item => !received.includes(item) && !approved.includes(item));
     return {
-      id: received.length === pending.length ? 'repair-received' : received.length ? 'repair-mixed' : 'repair-pending',
-      title: received.length === pending.length ? 'reviewRepairReceived' : received.length ? 'reviewRepairPartial' : 'reviewRepairPending',
-      help: received.length === pending.length ? 'reviewRepairOriginal' : 'reviewRepairWait',
+      id: approved.length === pending.length ? 'repair-approved' : received.length === pending.length ? 'repair-received' : received.length ? 'repair-mixed' : 'repair-pending',
+      title: approved.length === pending.length ? 'reviewRepairApproved' : received.length === pending.length ? 'reviewRepairReceived' : received.length ? 'reviewRepairPartial' : 'reviewRepairPending',
+      help: approved.length === pending.length ? 'reviewRepairApply' : received.length === pending.length ? 'reviewRepairOriginal' : 'reviewRepairWait',
       words: [...new Set((waiting.length ? waiting : pending).map(item => item.word).filter(Boolean))].join(' · '),
     };
   }

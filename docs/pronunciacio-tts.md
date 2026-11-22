@@ -28,7 +28,7 @@ El registre compta deu peticions del dia de quota 20/11; els quatre lots queden 
 4. Escoltar la prova i comparar-la amb l'original. Si la direcció no funciona, provar una representació fonètica o grafia auxiliar només a l'entrada de síntesi, amb correspondència explícita amb el text real, nova empremta i pressupost. No fer reintents automàtics ni donar per bona una aproximació sense audició.
 5. Només després de validar la dicció, identificar els límits de les frases a les dues preses, comprovar silencis i marges de consonants, igualar el nivell i substituir només aquells fragments. No alentir ni canviar el to per dissimular errors. Conservar originals, hashes, marques de tall i aprovació de l'àudio remuntat.
 
-La grafia normativa actual és **rail/rails**: el [dossier de l'IEC de canvis ortogràfics](https://criteria.iec.cat/wp-content/uploads/2017/02/9-4-7_Novetats-de-l-Ortografia-catalana-20170131_Dossier.pdf) recull el pas de raïl a rail. La guia ra-ÍLS orienta aquesta prova de veu i no modifica el catàleg.
+El text publicat conserva **rails**. El [DIEC actual](https://dlc.iec.cat/results.asp?operEntrada=0&txtEntrada=rail) recull «raïl [o rail]». Les dues entrades auxiliars autoritzades per a S022 són «raíls» i «raïls»: no es traslladen automàticament a la transcripció. La guia ra-ÍLS orienta la prova, pendent d’audició.
 
 ## Eina
 
@@ -77,3 +77,6 @@ Les esmenes de veu esperen un lot compatible prou ple. Prioritzar comprensions c
 
 - **S058:** al torn de Biel `avis`, «dos trossets de cinta» sona «dos torsets de cinta». El docent tornarà a escoltar la presa v2 després de retirar les metadades que produïen cruixits; si només queda aquest error, es prepararà una represa del torn, conservant la resta. No hi ha cap regeneració nova enviada.
 - **S069:** Ferran diu «Eina» en lloc d’«Aina» i «guix» amb final de tipus «ks». Regravar només el primer torn complet, `encarrec`, amb direcció específica per al diftong del nom Aina i el so final suau de guix, com el de peix. La grafia editorial es conserva. La resta de la presa ha estat validada expressament pel docent; el muntatge espera la correcció. Aplicar aquestes indicacions a aquests mots concrets, sense convertir-les en una regla general per a qualsevol grafia final «ix».
+
+- **S022, segona passada:** la represa L13 queda rebutjada perquè continua sonant «ráils». Dues proves màximes, amb `raíls` i `raïls` exclusivament a l’entrada TTS, mantenint Ferran/Algenib i la frase canònica. Pla verificable sense peticions: `node tools/pronunciation-trials.cjs --only=S022`. Esperen un lot compatible de sis a vuit minuts. Si fallen totes dues, el docent proposa «les vies»; encara no s’ha canviat el relat.
+- **S010:** «Després ja som a la porta» validat i pendent d’inserir. La represa de «Des de la plaça» queda rebutjada per identitat: parla Laia i ha de parlar Biel/Puck. Repetir només aquesta segona frase.

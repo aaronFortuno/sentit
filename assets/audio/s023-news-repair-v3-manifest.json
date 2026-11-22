@@ -1,0 +1,181 @@
+{
+  "code": "S023",
+  "activity": "ca-S023",
+  "date": "2026-11-20T20:09:54.848Z",
+  "state": "awaiting-montage-validation",
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "Presentadora": "Erinome",
+    "Pau": "Charon"
+  },
+  "newSynthesisRequests": 0,
+  "approvalFingerprint": "9b9450bf5f3f2f61ec009a99728fcf20788de66eead40f4e822079a60fdac521",
+  "requestHash": "f7ee3c6c2597e5eb39bfb92198870b47cd4920be40893e18ec23944bf6ba7d3c",
+  "rawSha256": "eac80f2575c694144fa2d8ddde29f7bfe58c036b619cb9c97dce39c92f3c0736",
+  "usage": {
+    "total_tokens": 5853,
+    "total_input_tokens": 1024,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 1024
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 4829,
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 4829
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 0,
+    "initial_input_tokens": 1024
+  },
+  "rawDuration": 193.16,
+  "cut": {
+    "at": 6.255,
+    "previousWordEnd": 5.52,
+    "nextWordStart": 6.99,
+    "peakDbFS": -58.5,
+    "rawSamplesPreserved": true
+  },
+  "file": "s023-news-repair-v3.mp3",
+  "introFile": "s023-news-repair-v3-intro.mp3",
+  "bodyFile": "s023-news-repair-v3-cos.mp3",
+  "offset": 7.375,
+  "bodyDuration": 194.016,
+  "fullDuration": 201.391,
+  "lufs": -19.39,
+  "peakDbTP": -2.48,
+  "voice": {
+    "bodyLead": 2.5,
+    "bodyRawDuration": 187.266,
+    "untrimmedApartFromSilenceSplit": true,
+    "retimed": false
+  },
+  "effects": [
+    {
+      "name": "grand-project-breaking-news-505617",
+      "origin": "licensed-music-in-montage",
+      "start": 0,
+      "underSpeech": true,
+      "credit": {
+        "id": "grand-project-breaking-news-505617",
+        "title": "Breaking News Background Music",
+        "author": "Grand_Project",
+        "url": "https://pixabay.com/music/percussion-breaking-news-background-music-505617/",
+        "license": "Pixabay Content License",
+        "licenseUrl": "https://pixabay.com/service/license-summary/",
+        "source": "tools/remount-news-common.cjs",
+        "origin": "licensed-music",
+        "kind": "news-programme",
+        "sourceNotDistributedSeparately": true
+      },
+      "sourceSha256": "32e3e6c978ef1bc5c013c40880ac3ad9714957548f956c1355ad8852c94405ae",
+      "voiceMarginTargetDb": 25,
+      "sidechain": {
+        "threshold": 0.018,
+        "ratio": 6,
+        "attackMs": 12,
+        "releaseMs": 450
+      },
+      "openingSeconds": 3.5,
+      "closingSeconds": 4.5
+    },
+    {
+      "name": "jmdh-covered-market-388315",
+      "start": 62.25499999999999,
+      "end": 101.35499999999999,
+      "origin": "external-recording",
+      "source": "assets/audio/sources/jmdh-388315-covered-market.mp3",
+      "sourceId": "jmdh-covered-market-388315",
+      "sourceSha256": "491adb6958fbd12889734f9ccfbf488c9316d7addc0c1121630d1f315a136810",
+      "sourceUrl": "https://freesound.org/people/jmdh/sounds/388315/",
+      "author": "jmdh",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceExcerpt": {
+        "start": 12,
+        "end": 51.10000000000001
+      },
+      "passes": 1,
+      "retimed": false,
+      "pitchShifted": false,
+      "speechWindowMeanDbFS": -39.6,
+      "speechWindowVoiceMeanDbFS": -19.4,
+      "speechWindowMarginDb": 20.200000000000003,
+      "speechWindowPeakDbFS": -26.9,
+      "fadeIn": 0.8,
+      "fadeOut": 0.45,
+      "listeningValidation": "pending",
+      "underSpeech": true,
+      "additionalGain": 0.6
+    }
+  ],
+  "sha256": "4bdd9de1339ac05a10e5919dabfb56d30267ce4e12a3882067264e90066190c3",
+  "montageNewSynthesisRequests": 0,
+  "previousMaster": {
+    "file": "s023-mercat-v1.mp3",
+    "sha256": "6dc57aac981867dea306d11442daa83d4834108a5c7aa7d1d10d85f78d5d15b5"
+  },
+  "pronunciationRepair": {
+    "plan": "content/audio-repairs.json",
+    "status": "pending-quota-and-listening",
+    "applied": false
+  },
+  "newsRevision": {
+    "date": "2026-11-22",
+    "baseFile": "s023-news-common-v2.mp3",
+    "baseAudioSha256": "eda7f7391d88f04f0ad2c981dc246f1c1f5fd4c72142159a27d8e655f84b6960",
+    "allOldEffectsRemoved": true,
+    "voiceRetimed": false,
+    "rawSplit": 6.255,
+    "bodyPcmSha256": "221383fd05f3ea28bf6763520d62b4f67f188b06fc0950a8564776c68a8bcdac",
+    "teacherFinalApproval": false,
+    "newRequests": 0
+  },
+  "voiceRetimed": false,
+  "synthesisRepair": {
+    "schema": 1,
+    "code": "S023",
+    "part": "tancament",
+    "text": "D’aquí a un mes, l’associació explicarà què s’ha recollit amb els suggeriments.",
+    "date": "2026-11-22",
+    "teacherApproval": {
+      "at": "2026-11-22",
+      "confirmation": "S023 passaria a definitiu amb la frase esmenada; vull sentir el muntatge perquè al principi sona més aguda.",
+      "candidateFile": "assets/audio/repairs/l03-s023-tancament-prova.mp3",
+      "candidateSha256": "8a69e2c30602f8abe56fdd54b9c33ffa59799224d358e6b0498affeab172e4cb"
+    },
+    "originalRawSha256": "eac80f2575c694144fa2d8ddde29f7bfe58c036b619cb9c97dce39c92f3c0736",
+    "candidateRawSha256": "e014d24127f4229141ef2ce8a93432c0ee2abc9affc6772715b8136e9dfa81de",
+    "candidateBatchRequestHash": "2dd8d2f2332228b8d700d07edf4dace01afe1ee161060c0ac461952b04ec909f",
+    "originalRange": {
+      "start": 184.547,
+      "end": 188.486,
+      "handles": [
+        -38.03216226167297,
+        -38.289540785459394
+      ]
+    },
+    "candidateRange": {
+      "start": 0.02,
+      "end": 4.32,
+      "handles": [
+        -63.0744419788425,
+        -68.03013165305762
+      ]
+    },
+    "gainDb": -1.9677009926254938,
+    "peakAfterGain": 21610,
+    "deltaSeconds": 0.361,
+    "bodySha256": "43fe1f68738c30474791abe39b8a6d7deed348813081a0aa89b46133647c629c",
+    "bodyPcmSha256": "221383fd05f3ea28bf6763520d62b4f67f188b06fc0950a8564776c68a8bcdac",
+    "allOtherVoiceSamplesIdentical": true,
+    "voiceRetimed": false,
+    "pitchShifted": false,
+    "newRequests": 0
+  }
+}
