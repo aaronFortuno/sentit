@@ -19,6 +19,7 @@ import { mountLanguageMenu } from './language-menu.js';
 import { mountSelectMenus } from './select-menu.js';
 import { mountWorkspacePanels } from './workspace-panels.js';
 import { mottos, nextMotto } from './mottos.js';
+import { listeningContext } from './content/listening-contexts.js';
 
 const byId = id => document.getElementById(id);
 const preferences = {
@@ -191,6 +192,8 @@ function renderEditor() {
   if (!selected) return;
   const settings = currentSettings;
   byId('classroom-code').value = settings?.code ?? '';
+  byId('show-context').checked = settings.showContext ?? true;
+  byId('context-option').hidden = documentMode === 'answers' || !listeningContext(selected);
   byId('show-instructions').checked = settings.showInstructions ?? true;
   byId('show-instructions').closest('label').hidden = documentMode === 'answers';
   byId('evidence-option').hidden = documentMode !== 'answers';
@@ -506,6 +509,10 @@ byId('show-instructions').addEventListener('change', event => {
   currentSettings.showInstructions = event.target.checked;
   saveActivity();
 });
+byId('show-context').addEventListener('change', event => {
+  currentSettings.showContext = event.target.checked;
+  saveActivity();
+});
 byId('show-evidence').addEventListener('change', event => {
   currentSettings.showEvidence = event.target.checked;
   saveActivity();
@@ -647,7 +654,7 @@ byId('character-filter-options').addEventListener('click',event=>{const chip=eve
 let searchTimer;
 byId('search').addEventListener('input',()=>{clearTimeout(searchTimer);searchTimer=setTimeout(()=>{const value=byId('search').value.trim();if(value)track('cerca_cataleg',{tipus:/^(?:ca-|es-)?s\d+[a-z]?$/i.test(value)?'codi':'text',resultats:countBucket(catalog.entries().length)});},600);});
 formatForm.addEventListener('change',event=>track('maqueta_fitxa',{code:selected?.code,bloc:event.target.name,accio:'ajusta',font:format.font}));
-for(const [id,bloc]of [['classroom-code','codi_aula'],['image-editor','imatge'],['show-instructions','instruccions'],['show-evidence','pistes']])byId(id).addEventListener('change',()=>track('maqueta_fitxa',{code:selected?.code,bloc,accio:'ajusta'}));
+for(const [id,bloc]of [['classroom-code','codi_aula'],['image-editor','imatge'],['show-context','context'],['show-instructions','instruccions'],['show-evidence','pistes']])byId(id).addEventListener('change',()=>track('maqueta_fitxa',{code:selected?.code,bloc,accio:'ajusta'}));
 sessionEditor.addEventListener('change',()=>{const config=sessionSettings(selected);track('configura_audio',{code:selected?.code,escoltes:String(config.listens),ritme:config.rate.toFixed(2),lectura:String(config.reading),pausa:String(config.interval),sintonia:config.jingle?config.jingleId:'cap',pautada:config.enabled});});
 byId('generation-plan').addEventListener('click', event => {
   const take = event.target.closest('[data-take]');

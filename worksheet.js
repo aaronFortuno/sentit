@@ -2,6 +2,7 @@ import { clockTime } from './session.js';
 import { buildEvidence, evidenceQuestions, evidenceSegments } from './evidence.js';
 import { isPendingReview, isAudioReview, needsReview, reviewScript } from './review.js';
 import { isEditoriallyReviewed, reviewCaption, hasPendingMontage, hasApprovedScript } from './editorial-review.js';
+import { listeningContext } from './content/listening-contexts.js';
 
 export const defaultFormat = { font: 'serif', size: 12, spacing: 7, leading: 1.6 };
 
@@ -353,6 +354,12 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
   } else content.append(header);
   if (!answerKey) {
     if (image.visible && !floatedImage) placeBlock(flowingIllustration(entry, image));
+    const context = listeningContext(entry);
+    if (context && (settings?.showContext ?? true)) {
+      const block = element('section', 'paper-listening-context');
+      block.append(element('h4', '', labels.listeningContextTitle), element('p', '', context));
+      placeBlock(block);
+    }
     if (settings?.showInstructions ?? true) placeBlock(element('p', 'paper-instructions', worksheetInstructions(entry, session)));
   }
 

@@ -1,5 +1,12 @@
 # Canvis
 
+## 0.1.73 · 22 de novembre de 2026
+
+- «Context amb Sentit» a les 85 comprensions: text previ breu per situar participants i escena sense avançar respostes. Visible per defecte a la fitxa, amb un checkbox al començament del sidebar esquerre, independent de les instruccions de sessió. Preferència per comprensió i per col·lecció, conservada en local.
+- Textos revisats independentment amb els guions i solucionaris; registre propi d’empremtes. Les transcripcions, preguntes, aprovacions i peticions de TTS es conserven.
+- Criteri sonor ampliat: ambient continu d’aula amb jovent per a converses de la Mireia, efectes simultanis quan correspongui i identitat de noticiari per a la Mar amb música enregistrada i atenuada sota la veu. Font proposada, estat d’incorporació i pauta de comparació documentats; cap remuntatge ni síntesi nova en aquesta iteració.
+- S062: retorn de muntatge registrat per mantenir ambient continu de jovent sota Laia i Biel. Continua validada per síntesi, amb 6è avançada pendent de confirmar amb l’àudio muntat.
+
 ## 0.1.72 · 22 de novembre de 2026
 
 - S062 validada per síntesi; conserva 6è avançada i nou preguntes. Possible requalificació a 1r d’ESO, intermèdia o avançada, pendent de l’àudio muntat. Criteri sonor documentat: ambient continu real de mercat, efectes seleccionats i simultanis a la parla quan correspongui, sense pauses afegides per sistema.

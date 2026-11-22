@@ -190,6 +190,7 @@ summary { color: var(--quiet); cursor: pointer; }
 .paper-empty { text-align: center; padding: 36px 8px; }
 #session-editor { margin: 0; }
 .audio-settings-group { min-width: 0; }
+.context-option { margin-block: 0 14px; padding-block-end: 14px; border-bottom: 1px solid var(--line); }
 .audio-settings-group + .audio-settings-group { margin-top: 14px; padding-top: 14px; border-top: 1px solid var(--line); }
 .audio-settings-group h3 { margin: 0; font: inherit; font-size: .85rem; font-weight: 650; line-height: 1.4; }
 .session-mode { display: flex; align-items: center; gap: 6px; font-size: .87rem; font-weight: 650; }

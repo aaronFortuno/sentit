@@ -6,6 +6,10 @@
   padding-block-end: 3mm;
 }
 
+.paper-listening-context { margin-block: 3mm 4mm; }
+.paper-listening-context h4 { margin: 0 0 1mm; color: var(--paper-green); font: 650 9pt/1.35 "Instrument Sans", "Segoe UI", sans-serif; }
+.paper-listening-context p { margin: 0; }
+
 .paper-review-draft { position: relative; }
 .paper-review-watermark { position: absolute; z-index: 3; left: 50%; top: 47%; transform: translate(-50%, -50%) rotate(-28deg); color: #9b4935; opacity: .13; font: 700 38pt/1.1 "Segoe UI", sans-serif; white-space: nowrap; pointer-events: none; user-select: none; }
 .paper-audio-review .paper-review-watermark { color: #446c77; font-size: 31pt; opacity: .12; }

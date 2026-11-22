@@ -4,6 +4,7 @@ Actualitzat: **20/11/2026**. Registre de les fonts realment utilitzades als fitx
 
 ## Criteri dels propers muntatges i revisions · 22/11/2026
 
+- [Pauta d’ambients d’aula, mercat i identitat musical de les notícies](ambient-i-noticiari.md): fons continu, atenuació sota la veu, simultaneïtat i comparació abans de substituir muntatges existents. Inclou el candidat de Pixabay i el seu estat real d’incorporació.
 - **Parades de mercat:** un enregistrament real continu de mercat, botigues i paradetes situa la conversa; mantenir-lo molt tènue sota les veus, amb entrada i sortida naturals. Registrar font, llicència i fragment utilitzat, i retirar qualsevol identificació oral de la mostra.
 - **Efectes puntuals:** seleccionar només els que ajudin a entendre l’acció. Papers, safates i petits cops que sonin artificials o afegeixin esperes innecessàries es poden ometre.
 - **Simultaneïtat:** valorar cada escena i superposar el so a una frase quan sigui natural, com caminar mentre es conversa al pilot del passadís. Un efecte no necessita sempre un torn propi de silenci; preservar les pauses de la situació i comprovar que les dades i les consonants continuen sent clares.
