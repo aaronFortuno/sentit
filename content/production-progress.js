@@ -1839,5 +1839,25 @@ export const productionProgress = {
       "reviewDifficulty": true,
       "note": "Valorar el pas a 6è intermèdia o avançada després d’escoltar l’àudio muntat. Ara es mantenen 5è avançada i vuit preguntes, sense requalificació aplicada."
     }
+  },
+  "ca-S082": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-22T19:59:16.594Z",
+    "editorialFingerprint": "b240a4b113ef94d395926ce05c3897d6c219c180c2f29a66fe202e5a857e4389",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "S082 validada per síntesi de veus",
+    "reason": "Agrupar lectures completes validades de Biel/Puck i Elies/Algieba fins a sis a vuit minuts. Valorar curs després de l’àudio muntat.",
+    "gradingReview": {
+      "status": "pending-listening",
+      "reviewAfter": "mounted-audio",
+      "currentGrade": "6",
+      "currentLevel": "advanced",
+      "candidateGrade": null,
+      "candidateGradeLabel": "1r d’ESO",
+      "reviewCourse": true,
+      "reviewDifficulty": false,
+      "note": "Valorar el possible pas a 1r d’ESO després d’escoltar l’àudio muntat. Ara es mantenen 6è avançada i nou preguntes. Encara no s’ha decidit una qualificació de dificultat per a l’ESO."
+    }
   }
 };

@@ -91,7 +91,7 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S079](https://sentit.ortogra.fi/#lectura=ca-S079) | Una funda que no tanca | 5è | Provisional · revisió superada | 2026-11-22 | `55239a53cc10…` |
 | [ca-S080](https://sentit.ortogra.fi/#lectura=ca-S080) | El segon assaig sona lluny | 6è | Provisional · revisió superada | 2026-11-22 | `66dc7eed8ea0…` |
 | [ca-S081](https://sentit.ortogra.fi/#lectura=ca-S081) | La guitarra del concert de divendres | 5è | Provisional · revisió superada | 2026-11-22 | `9f102688e9b3…` |
-| [ca-S082](https://sentit.ortogra.fi/#lectura=ca-S082) | El so que volíem gravar | 6è | Provisional · revisió superada | 2026-11-22 | `b240a4b113ef…` |
+| [ca-S082](https://sentit.ortogra.fi/#lectura=ca-S082) | El so que volíem gravar | 6è | Revisió superada · guió validat | 2026-11-22 | `b240a4b113ef…` |
 
 Les empremtes completes i el revisor consten al [registre de revisions](../content/editorial-reviews.js). La marca provisional només apareix al web si l’empremta coincideix amb el contingut actual. Canviar el guió, les preguntes, les respostes, les pistes, el repartiment o l’escaleta invalida la revisió anterior. Les comprovacions detecten registres caducats abans de publicar.
 

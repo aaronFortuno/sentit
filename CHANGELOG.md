@@ -2,6 +2,7 @@
 
 ## 0.1.76 · 22 de novembre de 2026
 
+- S082 validada per síntesi; conserva 6è avançada i nou preguntes. Possible pas a 1r d’ESO pendent de valorar després d’escoltar l’àudio muntat, sense requalificació aplicada.
 - S073 i S061 validades per síntesi. S061 conserva 5è avançada i vuit preguntes, amb possible requalificació a 6è intermèdia o avançada després d’escoltar el muntatge.
 - Criteri per als pròxims guions de Laia i Biel: menys càrrega de referents i salts temporals, situacions més senzilles i gradació prudent amb confirmació després de l’audició. Els guions actuals es conserven.
 - S046 narrada validada per síntesi, amb guió, 4t accessible, set preguntes i veu Ferran/Algenib conservats; sense cap petició nova.

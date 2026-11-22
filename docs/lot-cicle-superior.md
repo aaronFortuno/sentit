@@ -9,7 +9,7 @@ Actualitzat: **22/11/2026**. **30 comprensions orals** en 6 blocs de repartiment
 | [A classe amb la Mireia · amb en Biel](#mireia-biel) | Mireia i Biel · Aoede + Puck | S063, S064, S065, S066, S067 | 0/5 |
 | [Els records de l’avi Ferran](#ferran) | Ferran · Algenib | S068, S069, S070, S071, S072 | 1/5 |
 | [Converses de cuina · Laia i Ona](#laia-ona) | Laia i Ona · Leda + Sulafat | S073, S074, S075, S076, S077 | 4/5 |
-| [Converses al taller · Biel i Elies](#biel-elies) | Biel i Elies · Puck + Algieba | S078, S079, S080, S081, S082 | 0/5 |
+| [Converses al taller · Biel i Elies](#biel-elies) | Biel i Elies · Puck + Algieba | S078, S079, S080, S081, S082 | 1/5 |
 
 ## Com validar els blocs
 
@@ -109,7 +109,7 @@ Biel i Elies · Puck + Algieba. Les lectures són independents; no cal haver-ne 
 | [ca-S079](https://sentit.ortogra.fi/#lectura=ca-S079) | Una funda que no tanca | 5è · Intermèdia | Diàleg | Prevista 2:05–2:35 | 8 | Provisional · pendent del docent |
 | [ca-S080](https://sentit.ortogra.fi/#lectura=ca-S080) | El segon assaig sona lluny | 6è · Accessible | Diàleg | Prevista 2:05–2:35 | 9 | Provisional · pendent del docent |
 | [ca-S081](https://sentit.ortogra.fi/#lectura=ca-S081) | La guitarra del concert de divendres | 5è · Avançada | Diàleg | Prevista 3:00–3:40 | 8 | Provisional · pendent del docent |
-| [ca-S082](https://sentit.ortogra.fi/#lectura=ca-S082) | El so que volíem gravar | 6è · Avançada | Diàleg | Prevista 3:15–3:55 | 9 | Provisional · pendent del docent |
+| [ca-S082](https://sentit.ortogra.fi/#lectura=ca-S082) | El so que volíem gravar | 6è · Avançada | Diàleg | Prevista 3:15–3:55 | 9 | Guió validat · curs per valorar després d’escoltar |
 
 [Filtra el catàleg per aquest repartiment](https://sentit.ortogra.fi/?personatge=biel&personatge=elies&coincidencia=tots) · [Guions i escaletes del bloc](../content/propostes/tanda4/taller.js). El filtre també pot mostrar peces de tandes anteriors; activa «Només provisionals» per revisar feina oberta. Les acotacions descriuen recursos proposats, no gravacions ja produïdes.
 

@@ -1697,9 +1697,9 @@
     "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
   },
   "S082": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "f8f71faa12dcea056d3478fad3ea37f33333cf13df70ae0d4d883dadfc068bcd",
+    "reviewedAt": "2026-11-22T19:59:16.594Z",
     "reviewActivity": "ca-S082",
     "reviewContent": "content/propostes/tanda4/taller.js",
     "format": "6è avançada: distingir dues gravacions de moments diferents, entendre la funció d’una presentació i d’una prova i seguir una proposta que s’ajusta durant la conversa. Nou preguntes que relacionen fonts, ordre i intenció comunicativa.",
@@ -1709,7 +1709,13 @@
     },
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
-    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+    "ending": "Veus i muntatge segons l’escaleta validada. Síntesi dins un lot compatible de sis a vuit minuts; audició i publicació definitiva pendents.",
+    "cues": [
+      "Dos segons de taller real. No fer sentir encara la guitarra: les dues gravacions que es comparen s’introduiran verbalment.",
+      "Pausa amb eines reals desplaçades suaument, lluny de les cordes. Les mostres musicals futures seran enregistrades, amb origen i llicència, mai imitacions procedurals d’una avaria.",
+      "Conservar la veu sencera; pujada del fons dos segons, fosa i 600 ms finals. Cap prova de guitarra addicional després del comiat."
+    ],
+    "approvalSource": "Validació explícita del docent el 22/11/2026: «S082 també validat per síntesi de veu, pendent de potser pujar a 1rESO segons muntatge final». Guió, Biel/Puck i Elies/Algieba i escaleta autoritzats. Es mantenen 6è avançada i nou preguntes; el possible pas a 1r d’ESO queda pendent d’escoltar el muntatge, sense nivell d’ESO decidit."
   },
   "S069D": {
     "status": "awaiting-validation",
