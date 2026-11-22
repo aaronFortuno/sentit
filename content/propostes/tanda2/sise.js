@@ -156,9 +156,10 @@ export const sise = [
   }),
   proposal({
     id: 'el-recompte-del-programa', code: 'S044', title: 'El recompte del programa', grade: '6', level: 'advanced', genre: 'dialogue', universeIds: ['laia-biel'],
-    seconds: 111, status: 'ready-for-review', reviewStatus: 'audio-review',
-    audio: './assets/audio/s044-mixed-v1.mp3', tracks: { introduction: './assets/audio/s044-mixed-v1-intro.mp3', body: './assets/audio/s044-mixed-v1-cos.mp3' },
-    fragment: { start: 6.765, seconds: 104 },
+    recordingCues: [{"before":"celebrar","text":"Ambient continu de passadís darrere d’una porta: veus i passes llunyanes, esmorteïdes i molt baixes sota Laia i Biel. Sense clics ni moviment de papers previs."},{"after":"final","text":"Fosa curta de l’ambient llunyà; sense efectes de comiat afegits."}],
+    seconds: 95, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s044-hallway-v2.mp3', tracks: { introduction: './assets/audio/s044-hallway-v2-intro.mp3', body: './assets/audio/s044-hallway-v2-cos.mp3' },
+    fragment: { start: 4.46, seconds: 90 },
     summary: 'La Laia i en Biel preparen una presentació del seu programa, però abans revisen què poden afirmar a partir del recompte d’escoltes i dels comentaris rebuts.',
     voices: { Laia: 'Leda', Biel: 'Puck' }, delivery: 'Joves contents amb el programa, amb una primera exageració que revisen parlant. Biel aporta un exemple propi, no fa d’expert. Proposta final construïda entre tots dos, amb dubtes i alguna rectificació. Cap moralina ni sentència de verificació perfecta.',
     editorialFocus: '6è avançada: interpretar el recompte de reproduccions, aplicar-ne el significat a les escoltes completes i relacionar els comentaris rebuts amb una nova prova d’escolta. Nou preguntes; no exigeix conèixer cap plataforma ni calcular percentatges.',

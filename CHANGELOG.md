@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.78 · 22 de novembre de 2026
+
+- S044 remuntada: retirats els clics i efectes entre el títol i el diàleg; ambient real continu de passadís esmorteït, com darrere d’una porta. Veus conservades i muntatge pendent d’audició.
+- Anotacions del solucionari i seguiment actualitzats, amb revisió independent de metadades. Cap síntesi nova ni aprovació definitiva.
+- Comprovada la reproducció des de la fitxa de S028, S048, S049 i S050, amb controls visibles, comptador i barra llarga.
+
 ## 0.1.77 · 22 de novembre de 2026
 
 - Validacions de síntesi registrades per S045, S047, S058, S077 i S078. S078 conserva 5è accessible, considerat ben calibrat pel docent.

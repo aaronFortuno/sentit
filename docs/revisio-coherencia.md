@@ -51,7 +51,7 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S041](https://sentit.ortogra.fi/#lectura=ca-S041) | Què farem per portes obertes? | 6è | Revisió superada · àudio pendent | 2026-11-21 | `c3cfa721b765…` |
 | [ca-S042](https://sentit.ortogra.fi/#lectura=ca-S042) | Dos camins amb la mateixa mitjana | 6è | Revisió superada · àudio pendent | 2026-11-21 | `36d170f98fd3…` |
 | [ca-S043](https://sentit.ortogra.fi/#lectura=ca-S043) | El balcó que només era al paper | 6è | Revisió superada · àudio pendent | 2026-11-21 | `b0a2b6518035…` |
-| [ca-S044](https://sentit.ortogra.fi/#lectura=ca-S044) | El recompte del programa | 6è | Revisió superada · àudio pendent | 2026-11-21 | `e904b4f74368…` |
+| [ca-S044](https://sentit.ortogra.fi/#lectura=ca-S044) | El recompte del programa | 6è | Revisió superada · àudio pendent | 2026-11-22 | `cc6b5ab7142a…` |
 | [ca-S045](https://sentit.ortogra.fi/#lectura=ca-S045) | Les cadires del cinema | 4t | Provisional · revisió superada | 2026-11-22 | `76ec33e0deeb…` |
 | [ca-S045D](https://sentit.ortogra.fi/#lectura=ca-S045D) | Les cadires del cinema · versió dialogada | 4t | Provisional · revisió superada | 2026-11-22 | `08c8056b6656…` |
 | [ca-S046](https://sentit.ortogra.fi/#lectura=ca-S046) | La clau del davantal | 4t | Provisional · revisió superada | 2026-11-22 | `6dec967b93b5…` |

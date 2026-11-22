@@ -1629,7 +1629,7 @@ export const productionProgress = {
   "ca-S044": {
     "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-21T09:59:55.068Z",
-    "editorialFingerprint": "e904b4f74368e76dbeb57a2a31b8617917b0997e8898269951e1a95e921957ed",
+    "editorialFingerprint": "cc6b5ab7142aad507fe918c58e9cb6edfed125867cfd3498ab559d13266efe8c",
     "plannedNewRequests": 1,
     "confirmation": "S044 validat per síntesi de veus",
     "reason": "Guió validat durant el processament seqüencial; incorporar a un lot compatible pendent, conservant les veus i el text exactes.",
@@ -1647,8 +1647,16 @@ export const productionProgress = {
     "listeningApproval": false,
     "synthesisBatch": "L08",
     "requestHash": "ac8a3b34fa098dc7a38e788b2cadc9c81d3039b44c7af229a4c9c104184e94cc",
-    "audioSha256": "6905344a9531d00e60819cf240e982c176e6a1c086ec1766af086218fe815979",
-    "montageNewSynthesisRequests": 0
+    "audioSha256": "159f628041e9bdce9659c36bccb48a85150660cc4dd14fb8c8b1171844733b1a",
+    "montageNewSynthesisRequests": 0,
+    "reviewUpdate": {
+      "audio": "./assets/audio/s044-hallway-v2.mp3",
+      "at": "2026-11-22",
+      "summary": {
+        "ca": "Retirats els efectes entre títol i diàleg; ambient de passadís esmorteït darrere d’una porta, continu i molt baix. Pendent d’audició.",
+        "es": "Retirados los efectos entre título y diálogo; ambiente de pasillo amortiguado tras una puerta, continuo y muy bajo. Pendiente de escucha."
+      }
+    }
   },
   "ca-S027": {
     "state": "published",

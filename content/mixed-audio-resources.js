@@ -139,7 +139,7 @@ export const mixedAudioResources = {
   },
   "ca-S044": {
     "voices": "Laia: Leda; Biel: Puck. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
-    "sounds": "Button click · brnck (CC0 1.0), fora de la parla. Page turned · Beussa (CC0 1.0), fora de la parla.",
+    "sounds": "College Hallway ambience · Bexhillcollege (CC0 1.0), molt baix sota la conversa.",
     "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S028": {

@@ -11,11 +11,17 @@ const {chromium}=require('C:/Users/afortun8/.cache/codex-runtimes/codex-primary-
   await page.locator('#preview-fragment').click();await page.waitForFunction(()=>document.getElementById('teacher-audio').currentTime>30.1);await page.locator('#preview-fragment').click();
   assert((await page.locator('#fragment-seek').innerText()).includes('0:30'));const range=await slider.boundingBox(),container=await page.locator('.audio-preview-actions').boundingBox();assert(range.width>=container.width*.95);
   await page.screenshot({path:path.join(out,'s024-timeline.png')});
+  for(const code of ['S028','S048','S049','S050']){
+   await page.goto(base+'#lectura=ca-'+code);const box=page.locator('#received-voice-preview');await box.waitFor({state:'visible'});
+   await page.waitForFunction(()=>document.querySelector('#received-voice-preview audio')?.duration>0);
+   assert(await box.locator('button').isVisible(),code+': visible play button');assert(!(await box.locator('input[type="range"]').isDisabled()),code+': working seek slider');
+   await box.locator('button').click();await page.waitForFunction(()=>document.querySelector('#received-voice-preview audio').currentTime>.1);await box.locator('button').click();
+  }
   await page.goto(base+'#lectura=ca-S058');await page.waitForFunction(()=>document.querySelector('#received-voice-preview audio')?.duration>0);
   assert.equal(await page.locator('#received-voice-preview audio[controls]').count(),0,'No cramped native player in sidebar');
   const received=page.locator('#received-voice-preview input[type="range"]');await received.evaluate(s=>{s.value='15';s.dispatchEvent(new Event('input',{bubbles:true}));});assert(Math.abs(await page.locator('#received-voice-preview audio').evaluate(a=>a.currentTime)-15)<.1);
   await page.locator('#received-voice-preview button').click();await page.waitForFunction(()=>document.querySelector('#received-voice-preview audio').currentTime>15.1);await page.locator('#received-voice-preview button').click();
   await page.goto(base+'#lectura=ca-S061');await page.locator('#received-voice-preview').waitFor({state:'visible'});assert((await page.locator('#received-voice-preview').innerText()).includes('Falta el títol'));
-  assert.deepEqual(errors,[]);console.log('PASS · full-width custom seek bar, real playback clock, precise seeking, received-voice player, missing-title notice and no page errors. Local only.');
+  assert.deepEqual(errors,[]);console.log('PASS · full-width seek bar/clock, real playback, visible working controls for S028/S048/S049/S050, received voices, missing-title notice and no page errors. Local only.');
  }finally{await browser?.close();server.kill();}
 })().catch(e=>{console.error(e);process.exitCode=1;});

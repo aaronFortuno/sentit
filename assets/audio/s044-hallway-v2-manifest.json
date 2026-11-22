@@ -1,0 +1,64 @@
+{
+  "code": "S044",
+  "activity": "ca-S044",
+  "state": "awaiting-montage-validation",
+  "file": "s044-hallway-v2.mp3",
+  "introFile": "s044-hallway-v2-intro.mp3",
+  "bodyFile": "s044-hallway-v2-cos.mp3",
+  "offset": 4.46,
+  "bodyDuration": 89.89000000000001,
+  "fullDuration": 94.35000000000001,
+  "voices": {
+    "Laia": "Leda",
+    "Biel": "Puck"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "ac8a3b34fa098dc7a38e788b2cadc9c81d3039b44c7af229a4c9c104184e94cc",
+  "sourceRequestHash": "3a30f1a81616cfb6525878a23b0bdee033fb4c94671a0141c4a82b80006e4f01",
+  "batch": "L08",
+  "rawSha256": "56e38fc4c127a624b3e598d3dfb83d3e73a61ee7ab639a0f984c6a91f1b92c24",
+  "takeSha256": "baa14b679f281daac1cbd3b4a056ea9a574f7f2967c766213a1e8300333025de",
+  "coverage": 0.9395973154362416,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.84,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "bexhillcollege-274213",
+      "start": 0,
+      "source": "assets/audio/sources/bexhillcollege-274213-hallway.mp3",
+      "sourceSha256": "ac07b275131c3517007369de9cd2e3d566e6d0de9fc9ae7c7e3ac0345cbcc5f7",
+      "sourceUrl": "https://freesound.org/people/Bexhillcollege/sounds/274213/",
+      "author": "Bexhillcollege",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.14,
+      "sourceTargetLufs": -28,
+      "excerpt": {
+        "start": 3,
+        "seconds": 54
+      },
+      "passes": 3,
+      "crossfadeSeconds": 1
+    }
+  ],
+  "sha256": "159f628041e9bdce9659c36bccb48a85150660cc4dd14fb8c8b1171844733b1a",
+  "hallwayRevision": {
+    "date": "2026-11-22",
+    "baseFile": "s044-mixed-v1.mp3",
+    "baseAudioSha256": "6905344a9531d00e60819cf240e982c176e6a1c086ec1766af086218fe815979",
+    "titleRange": {
+      "start": 0.8649999999999978,
+      "end": 4.175000000000023
+    },
+    "removedInitialArtifactsSeconds": 0.8649999999999978,
+    "voiceRetimed": false,
+    "newRequests": 0,
+    "continuousHallway": true,
+    "removedClosingEffects": true
+  }
+}

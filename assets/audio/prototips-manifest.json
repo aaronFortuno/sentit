@@ -4635,12 +4635,12 @@
       "code": "S044",
       "activity": "ca-S044",
       "state": "awaiting-montage-validation",
-      "file": "s044-mixed-v1.mp3",
-      "introFile": "s044-mixed-v1-intro.mp3",
-      "bodyFile": "s044-mixed-v1-cos.mp3",
-      "offset": 6.765,
-      "bodyDuration": 103.56,
-      "fullDuration": 110.325,
+      "file": "s044-hallway-v2.mp3",
+      "introFile": "s044-hallway-v2-intro.mp3",
+      "bodyFile": "s044-hallway-v2-cos.mp3",
+      "offset": 4.46,
+      "bodyDuration": 89.89000000000001,
+      "fullDuration": 94.35000000000001,
       "voices": {
         "Laia": "Leda",
         "Biel": "Puck"
@@ -4656,55 +4656,44 @@
       "uncertainTurns": [],
       "newSynthesisRequests": 0,
       "sharedRequest": true,
-      "lufs": -18.64,
-      "peakDbTP": -2.43,
+      "lufs": -18.84,
+      "peakDbTP": -2.5,
       "voiceRetimed": false,
       "effects": [
         {
-          "name": "brnck-257357",
-          "start": 0.6,
-          "source": "assets/audio/sources/brnck-257357.mp3",
-          "sourceSha256": "06ac8e89305fae9cc977fbcf1a1a22062528195f031d650b90df1a154552da9a",
-          "sourceUrl": "https://freesound.org/people/brnck/sounds/257357/",
-          "author": "brnck",
+          "name": "bexhillcollege-274213",
+          "start": 0,
+          "source": "assets/audio/sources/bexhillcollege-274213-hallway.mp3",
+          "sourceSha256": "ac07b275131c3517007369de9cd2e3d566e6d0de9fc9ae7c7e3ac0345cbcc5f7",
+          "sourceUrl": "https://freesound.org/people/Bexhillcollege/sounds/274213/",
+          "author": "Bexhillcollege",
           "license": "CC0 1.0",
+          "underSpeech": true,
+          "speechGain": 0.14,
+          "sourceTargetLufs": -28,
           "excerpt": {
-            "start": 0,
-            "seconds": 0.257
+            "start": 3,
+            "seconds": 54
           },
-          "underSpeech": false
-        },
-        {
-          "name": "beussa-749880",
-          "start": 78.75000000000003,
-          "source": "assets/audio/sources/beussa-749880.mp3",
-          "sourceSha256": "4b38b5c58abb206d5b86b9d5b6a3acde8eea90c288ef194b4a67503fe659b4a9",
-          "sourceUrl": "https://freesound.org/people/Beussa/sounds/749880/",
-          "author": "Beussa",
-          "license": "CC0 1.0",
-          "excerpt": {
-            "start": 0,
-            "seconds": 0.678
-          },
-          "underSpeech": false,
-          "insertedPause": 1.05
-        },
-        {
-          "name": "beussa-749880",
-          "start": 100.36,
-          "source": "assets/audio/sources/beussa-749880.mp3",
-          "sourceSha256": "4b38b5c58abb206d5b86b9d5b6a3acde8eea90c288ef194b4a67503fe659b4a9",
-          "sourceUrl": "https://freesound.org/people/Beussa/sounds/749880/",
-          "author": "Beussa",
-          "license": "CC0 1.0",
-          "excerpt": {
-            "start": 0,
-            "seconds": 0.678
-          },
-          "underSpeech": false
+          "passes": 3,
+          "crossfadeSeconds": 1
         }
       ],
-      "sha256": "6905344a9531d00e60819cf240e982c176e6a1c086ec1766af086218fe815979"
+      "sha256": "159f628041e9bdce9659c36bccb48a85150660cc4dd14fb8c8b1171844733b1a",
+      "hallwayRevision": {
+        "date": "2026-11-22",
+        "baseFile": "s044-mixed-v1.mp3",
+        "baseAudioSha256": "6905344a9531d00e60819cf240e982c176e6a1c086ec1766af086218fe815979",
+        "titleRange": {
+          "start": 0.8649999999999978,
+          "end": 4.175000000000023
+        },
+        "removedInitialArtifactsSeconds": 0.8649999999999978,
+        "voiceRetimed": false,
+        "newRequests": 0,
+        "continuousHallway": true,
+        "removedClosingEffects": true
+      }
     },
     {
       "code": "S027",

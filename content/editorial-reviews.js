@@ -291,9 +291,12 @@ export const editorialReviews = {
   },
   "ca-S044": {
     "status": "passed",
-    "reviewedAt": "2026-11-21",
-    "reviewer": "independent-global-register-review",
-    "fingerprint": "e904b4f74368e76dbeb57a2a31b8617917b0997e8898269951e1a95e921957ed"
+    "reviewedAt": "2026-11-22",
+    "reviewer": "revisio_contextos_previs",
+    "fingerprint": "cc6b5ab7142aad507fe918c58e9cb6edfed125867cfd3498ab559d13266efe8c",
+    "metadataReview": {
+      "scope": "Indicacions de passadís esmorteït i retirada dels efectes; veus i preguntes intactes. Sense aprovació perceptiva."
+    }
   },
   "ca-S045": {
     "status": "passed",
