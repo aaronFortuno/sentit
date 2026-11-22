@@ -37,7 +37,7 @@ export function renderAudioResources(root, entry, t) {
   const record = audioResources[`${entry.language}-${entry.code}`];
   const add = (tag, text, parent = root) => { const node = document.createElement(tag); node.textContent = text; parent.append(node); return node; };
   const link = (parent, text, url) => { const a = add('a', text, parent); a.href = url; a.target = '_blank'; a.rel = 'noopener noreferrer'; };
-  const progress = productionProgress[`${entry.language}-${entry.code}`];
+  const progress = productionProgress[`${entry.language}-${entry.code}`] ?? {};
   if(hasPendingMontage(entry)||hasApprovedScript(entry)){
     add('p', t(hasPendingMontage(entry)?'reviewVoicesNotice':'reviewReadyNotice'));
     if(progress.sharedJingle?.status==='awaiting-validation')link(root,t('hearJingleProposal'),new URL(progress.sharedJingle.url,import.meta.url).href);

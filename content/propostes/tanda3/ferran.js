@@ -1,0 +1,92 @@
+import { proposal, direction as d, spoken as s, question as q, evidence as e } from '../proposal.js';
+
+const voices = { Ferran: 'Algenib' };
+const soundCredits = 'Ambients i detalls previstos d’enregistraments reals amb llicència lliure, encara pendents de seleccionar i acreditar. Les bases proposades són tres composicions originals diferents, pendents de produir i registrar sota MIT. Cap recurs nou utilitzat ni veu sintetitzada.';
+const delivery = 'Ferran explica un record a l’Aina amb una sola veu adulta, càlida i conversacional. Les intervencions recordades es narren, sense imitar altres timbres. Petites pauses naturals; final concret i divertit, sense moralina. No llegir acotacions ni inventar sons vocals.';
+
+export const ferran = [
+  proposal({
+    id: 'les-cadires-del-cinema', code: 'S045', title: 'Les cadires del cinema', grade: '4', level: 'easy', genre: 'story', universeIds: ['aina-ferran'],
+    summary: 'L’avi Ferran recorda la primera vegada que va portar una cadira al cinema de la plaça. El lloc que havia triat semblava perfecte fins que va començar la pel·lícula.',
+    voices, delivery, soundCredits,
+    editorialFocus: '4t accessible: seguir un record en ordre, identificar dos canvis de lloc amb causes explícites i relacionar una marca a la cadira amb el retorn a casa. Set preguntes breus; cap coneixement previ del cinema de carrer.',
+    soundPlan: 'Base original proposada «Cadires sota les estrelles»: dos segons d’entrada i volum molt baix sota Ferran. Ambient enregistrat de plaça amb gent asseguda, sense diàleg intel·ligible, abans de la veu. Un moviment real de cadira a la pausa central, sense soroll de caiguda. No afegir una pel·lícula audible. Pujada musical de dos segons després del final, fosa de dos segons i marge de silenci.',
+    illustrationBrief: 'Ferran conversa amb Aina al costat d’una cadira plegada, en una estança tranquil·la. Sense cinema, cinta identificadora, files de cadires ni lloc final.',
+    transcript: [
+      d('Base «Cadires sota les estrelles» proposada i ambient real de plaça durant dos segons. Retirar el murmuri abans de començar; música molt baixa sota tota la narració.'),
+      s('cadira', 'Ferran', 'Aina, aquesta cadira blava va venir amb mi al cinema moltes vegades. A l’estiu, quan jo era petit, alguns dissabtes posaven una pantalla a la plaça. Cadascú s’hi portava la cadira de casa. La primera vegada hi vaig anar amb el pare i la meva cosina. Jo em pensava que les cadires ja ens les trobaríem allà!'),
+      s('cinta', 'Ferran', 'Abans de sortir, el pare va lligar una cinta vermella al respatller de la meva. N’hi havia moltes de semblants i volia que després reconeguéssim la nostra. La cosina em va ajudar a portar-la: l’agafàvem un per cada costat i anàvem canviant de mà quan ens cansàvem.'),
+      s('primer', 'Ferran', 'Vam arribar d’hora. Jo vaig triar un lloc al costat de la paret perquè m’hi podia recolzar. Encara hi havia claror i el pare va anar a saludar un amic, dues passes més enllà. La cosina i jo ens vam quedar guardant les tres cadires.'),
+      s('davant', 'Ferran', 'Quan ja començaven la pel·lícula, es va asseure davant nostre un home molt alt. Jo veia un tros de pantalla a cada costat del seu cap. La cosina em va fer un copet al braç: a ella li passava el mateix. Ens anàvem inclinant, ara cap aquí, ara cap allà, sense trobar una postura bona.'),
+      d('Pausa curta amb una cadira real que es mou, separada de les consonants; la música no s’atura.'),
+      s('canvi', 'Ferran', 'El pare va tornar i ens va veure fent aquells moviments. Vam agafar les cadires i ens vam posar més al costat, en un espai que havia quedat buit. Des d’allà vèiem la pantalla sencera. La paret quedava lluny, però ens vam poder quedar quiets d’una vegada.'),
+      s('tornada', 'Ferran', 'En acabar, la plaça es va omplir de gent que plegava cadires. La meva cosina va plegar la meva mentre el pare agafava la seva. A la tornada va insistir a portar-la ella una estona. Deia que, després d’haver-me passat una bona estona movent el cap, jo ja havia fet prou exercici!'),
+      d('Després de la darrera paraula, pujar la base dos segons, fer una fosa de dos segons i conservar 600 ms de silenci. Cap rialla afegida.'),
+    ],
+    questions: [
+      q('lloc', 'On feien aquell cinema a l’estiu?', 'A la plaça.', 1, [e('cadira', 'posaven una pantalla a la plaça')]),
+      q('portar', 'Què havia de portar cadascú de casa?', 'La seva cadira.', 1, [e('cadira', 'Cadascú s’hi portava la cadira de casa.')]),
+      q('marca', 'Per què el pare va lligar una cinta a la cadira?', 'Per reconèixer-la entre les altres cadires semblants.', 2, [e('cinta', 'N’hi havia moltes de semblants i volia que després reconeguéssim la nostra.')]),
+      q('paret', 'Per què en Ferran va triar primer un lloc al costat de la paret?', 'Perquè s’hi podia recolzar.', 1, [e('primer', 'al costat de la paret perquè m’hi podia recolzar')]),
+      q('problema', 'Què els impedia veure bé la pel·lícula?', 'Un home molt alt que es va asseure davant seu.', 1, [e('davant', 'es va asseure davant nostre un home molt alt'), e('davant', 'Jo veia un tros de pantalla a cada costat del seu cap.')]),
+      q('solucio', 'Què van fer per poder veure la pantalla sencera?', 'Van moure les cadires cap a un costat, en un espai buit.', 2, [e('canvi', 'ens vam posar més al costat, en un espai que havia quedat buit. Des d’allà vèiem la pantalla sencera.')]),
+      q('tornada', 'Quina ajuda li va oferir la cosina a la tornada?', 'Portar-li la cadira una estona.', 1, [e('tornada', 'A la tornada va insistir a portar-la ella una estona.')]),
+    ],
+  }),
+  proposal({
+    id: 'la-clau-del-davantal', code: 'S046', title: 'La clau del davantal', grade: '4', level: 'easy', genre: 'story', universeIds: ['aina-ferran'],
+    summary: 'En Ferran volia treure una regadora del cobert, però la clau no era al ganxo. Recordar què havia fet l’àvia aquell matí els va ajudar a buscar-la.',
+    voices, delivery, soundCredits,
+    editorialFocus: '4t accessible: reconstruir el recorregut d’un objecte i distingir una primera suposició de la troballa. Set preguntes amb referents clars i una causa sustentada en dos passatges.',
+    soundPlan: 'Base original proposada «Una butxaca amb farina», càlida però sense tensió de misteri: entrada de dos segons i volum baix sota Ferran. Ambient real d’estança tranquil·la abans de la primera veu. Fregadís real de roba en la pausa de cerca, sense claus que revelin on és la troballa. Pujada musical de dos segons després de l’última frase i fosa; conservar el final de la veu.',
+    illustrationBrief: 'Ferran i Aina asseguts en una cuina amb una finestra al fons. Sense clau, ganxo, davantal ni cobert; no representar la solució.',
+    transcript: [
+      d('Ambient d’estança enregistrat i base «Una butxaca amb farina» proposada. Dos segons per situar-nos; baixar el fons abans de Ferran.'),
+      s('ganxo', 'Ferran', 'Aina, a casa de la meva àvia hi havia un cobert petit al costat de l’hort. Hi guardàvem les eines i una regadora verda que jo feia servir quan l’ajudava. La clau del cobert penjava d’un ganxo de la cuina, al costat del calendari. Sempre l’anàvem a buscar allà.'),
+      s('falta', 'Ferran', 'Un dissabte jo volia regar i el ganxo era buit. Vaig mirar sota la taula, per si la clau havia caigut. Després vaig buscar darrere del calendari. L’àvia em va preguntar què feia amb el cap tan arran de la paret. Li vaig dir que ens faltava la clau i que potser l’havíem perduda.'),
+      s('record', 'Ferran', 'Ella va recordar que aquell matí havia obert el cobert per treure una escombra. Mentre m’ho explicava, es va mirar les butxaques del vestit. Eren buides. També vam anar fins a la porta del cobert. Era tancada, i la clau tampoc no s’havia quedat al pany.'),
+      s('cuina', 'Ferran', 'Vam tornar a la cuina. Sobre la taula hi havia la massa d’unes coques que l’àvia havia preparat abans d’escombrar. Mentre apartava el bol de la farina, va recordar el davantal: se l’havia tret feia una estona i l’havia penjat darrere de la porta.'),
+      d('Pausa curta amb roba real manipulada suaument. Cap so de clau abans que el relat expliqui la troballa.'),
+      s('troballa', 'Ferran', 'Jo vaig agafar el davantal i el vaig acostar a la taula. L’àvia va posar la mà a la butxaca del davantal i va treure la clau. Se l’hi havia guardada després d’escombrar. Jo havia buscat per mitja cuina i aquell davantal havia estat penjat allà tota l’estona, ben quiet. L’àvia va tornar la clau al ganxo perquè jo sabés on deixar-la després.'),
+      s('final', 'Ferran', 'Vaig anar a buscar la regadora i vaig omplir-la només fins a la meitat, que plena del tot em pesava massa. Quan vaig tornar, l’àvia ja posava les coques al forn. Abans de seure vaig penjar la clau. Llavors em vaig adonar que jo també tenia farina a la màniga, de tant remenar el davantal!'),
+      d('Acabar la veu sencera; pujada de dos segons de la base, fosa de dos segons i 600 ms de silenci final.'),
+    ],
+    questions: [
+      q('regadora', 'Què volia treure en Ferran del cobert?', 'La regadora verda.', 1, [e('ganxo', 'una regadora verda que jo feia servir'), e('falta', 'jo volia regar')]),
+      q('habitual', 'On guardaven habitualment la clau?', 'En un ganxo de la cuina, al costat del calendari.', 1, [e('ganxo', 'penjava d’un ganxo de la cuina, al costat del calendari')]),
+      q('obrir', 'Per què havia obert el cobert l’àvia aquell matí?', 'Per treure una escombra.', 1, [e('record', 'havia obert el cobert per treure una escombra')]),
+      q('pany', 'Quan van mirar al cobert, la clau era al pany?', 'No, la porta era tancada i la clau no era al pany.', 1, [e('record', 'Era tancada, i la clau tampoc no s’havia quedat al pany.')]),
+      q('on', 'On van trobar finalment la clau?', 'A la butxaca del davantal que havien agafat de darrere de la porta.', 1, [e('cuina', 'l’havia penjat darrere de la porta'), e('troballa', 'va posar la mà a la butxaca del davantal i va treure la clau.')]),
+      q('buit', 'Per què les butxaques del vestit eren buides tot i que l’àvia s’havia guardat la clau?', 'Perquè se l’havia guardada al davantal, que després s’havia tret.', 2, [e('record', 'es va mirar les butxaques del vestit. Eren buides.'), e('cuina', 'el davantal: se l’havia tret feia una estona'), e('troballa', 'Se l’hi havia guardada després d’escombrar.')]),
+      q('pes', 'Per què en Ferran omple la regadora només fins a la meitat?', 'Perquè plena del tot li pesa massa.', 1, [e('final', 'vaig omplir-la només fins a la meitat, que plena del tot em pesava massa')]),
+    ],
+  }),
+  proposal({
+    id: 'la-maleta-que-feia-soroll', code: 'S047', title: 'La maleta que feia soroll', grade: '4', level: 'middle', genre: 'story', universeIds: ['aina-ferran'],
+    summary: 'Una capsa que la mare havia posat dins la maleta feia soroll durant el viatge. En Ferran pensava que s’havia trencat alguna cosa.',
+    voices, delivery, soundCredits,
+    editorialFocus: '4t intermèdia: distingir allò que el narrador imaginava del que va passar, seguir els canvis de lloc d’una capsa i relacionar el regal amb la persona destinatària. Set preguntes; no cal conèixer transports ni oficis.',
+    soundPlan: 'Base original proposada «Botons de tots colors», molt suau i sense senyals de resposta. Ambient real de tren discret abans del record i una breu represa entre paràgrafs, sense avisos de megafonia. No sintetitzar sacsejades ni deixar sentir el contingut de la capsa com a pista. Pujada musical de dos segons després del comiat, fosa i silenci.',
+    illustrationBrief: 'Aina escolta Ferran al costat d’una maleta tancada en una habitació. Sense capses obertes, botons, agulles, vestits ni contingut visible.',
+    transcript: [
+      d('Dos segons d’ambient real de tren i base «Botons de tots colors» proposada. L’ambient es retira abans de la veu; la música queda molt baixa.'),
+      s('viatge', 'Ferran', 'Aina, aquesta maleta petita me la deixava la mare quan anàvem a veure la tieta. Hi cabien el pijama, una muda i el meu llibre de contes. Un dia, abans de tancar-la, la mare hi va afegir una capsa rodona de llauna. Em va dir que era per a la tieta i que la deixés ben tapada.'),
+      s('tren', 'Ferran', 'Al tren, el pare va posar la maleta sota el nostre seient. Cada vegada que el tren es movia una mica més, jo sentia un sorollet a dins. Al principi vaig pensar que era la sivella de la maleta. Però vaig mirar-la: estava ben cordada i no es movia.'),
+      s('por', 'Ferran', 'Llavors vaig recordar la capsa. Em pensava que potser la mare hi havia posat galetes i que, amb els cops del viatge, s’havien trencat totes. Vaig voler obrir la maleta allà mateix. El pare em va ajudar a treure-la de sota el seient, però el passadís era ple de gent i vam preferir esperar a arribar a casa de la tieta.'),
+      d('Pausa breu amb ambient real de tren molt baix, acabat abans de reprendre. No afegir un objecte trencant-se ni una pista sonora de la capsa.'),
+      s('tieta', 'Ferran', 'A casa seva vaig deixar la maleta sobre una cadira. Abans de treure el pijama, vaig buscar la capsa i la vaig donar a la tieta. Li vaig explicar que em sabia greu, perquè allò de dins havia anat fent soroll tot el camí. Ella la va obrir damunt de la taula i es va posar a riure.'),
+      s('botons', 'Ferran', 'Eren botons! N’hi havia de petits, de grans i de colors diferents. Quan la capsa es movia, picaven contra la llauna. La tieta cosia roba per a nines i la mare li havia guardat aquells botons perquè els pogués aprofitar. Jo m’havia passat el viatge imaginant galetes fetes miques.'),
+      s('final', 'Ferran', 'La tieta em va deixar triar un botó per al vestit d’una nina que tenia a mig fer. Jo en vaig buscar un de vermell, però només en quedava un i el vestit en necessitava dos. Al final en vam triar dos de blaus, iguals. I les galetes? Les va treure d’un pot de la cuina quan vam berenar. Aquelles sí que estaven senceres!'),
+      d('Conservar la darrera consonant; pujar la base dos segons i fondre-la durant dos segons. Tancar amb 600 ms de silenci, sense veus afegides.'),
+    ],
+    questions: [
+      q('destinacio', 'A qui anaven a veure en Ferran i el seu pare?', 'La tieta.', 1, [e('viatge', 'quan anàvem a veure la tieta')]),
+      q('capsa', 'Qui havia posat la capsa dins de la maleta?', 'La mare d’en Ferran.', 1, [e('viatge', 'la mare hi va afegir una capsa rodona de llauna')]),
+      q('imagina', 'Què s’imaginava en Ferran que s’havia trencat dins de la capsa?', 'Galetes.', 1, [e('por', 'la mare hi havia posat galetes i que, amb els cops del viatge, s’havien trencat totes')]),
+      q('esperar', 'Per què esperen a casa de la tieta per obrir la maleta?', 'Perquè el passadís del tren era ple de gent.', 1, [e('por', 'el passadís era ple de gent i vam preferir esperar a arribar a casa de la tieta')]),
+      q('so', 'Què feia realment el soroll que sentia en Ferran?', 'Els botons que picaven contra la capsa de llauna quan es movia.', 2, [e('botons', 'Eren botons!'), e('botons', 'Quan la capsa es movia, picaven contra la llauna.')]),
+      q('ofici', 'Per què la mare havia guardat aquells botons per a la tieta?', 'Perquè cosia roba per a nines i els podia aprofitar.', 2, [e('botons', 'La tieta cosia roba per a nines i la mare li havia guardat aquells botons perquè els pogués aprofitar.')]),
+      q('blau', 'Per què trien dos botons blaus en lloc del vermell?', 'Perquè de vermell només en quedava un i el vestit en necessitava dos; en van trobar dos de blaus iguals.', 2, [e('final', 'només en quedava un i el vestit en necessitava dos. Al final en vam triar dos de blaus, iguals.')]),
+    ],
+  }),
+];

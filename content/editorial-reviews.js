@@ -263,5 +263,53 @@ export const editorialReviews = {
     "reviewedAt": "2026-11-21",
     "reviewer": "independent-global-register-review",
     "fingerprint": "e904b4f74368e76dbeb57a2a31b8617917b0997e8898269951e1a95e921957ed"
+  },
+  "ca-S045": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "revisio_tanda3_ferran",
+    "fingerprint": "76ec33e0deeb6feb6edff4cc4f7f5c4899bf28b8a77e07be4463e485653cdf54"
+  },
+  "ca-S046": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "revisio_tanda3_ferran",
+    "fingerprint": "6dec967b93b54be0c0e7d1b976141867e7689b79a650a12f85990f370e75bdc7"
+  },
+  "ca-S047": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "revisio_tanda3_ferran",
+    "fingerprint": "982ea2797ea37ddab16df552696629462523a580d0b6dbb56cb2fabea4727b51"
+  },
+  "ca-S048": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "revisio_tanda3_mercat",
+    "fingerprint": "b4f97ed8c7150ae7e3b1c3686eaef4695b8aa9d7655cdd235cbac33e33b0fe6f"
+  },
+  "ca-S049": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "revisio_tanda3_mercat",
+    "fingerprint": "50db317831e7d6bbda48df59d3b674c5aa91de945c5f4a5c8d8b7ea66cd767f0"
+  },
+  "ca-S050": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "revisio_tanda3_mercat",
+    "fingerprint": "76312e8edcbb472f8045b7f8a0af2a644b0f0a52afb78be7a38b049c738c810e"
+  },
+  "ca-S051": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "revisio_tanda3_ferran",
+    "fingerprint": "19d3a1cc1a536975b6d5a5d72236fb7854b86661b4ab040a057b5c61205fc0e5"
+  },
+  "ca-S052": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "revisio_tanda3_ferran",
+    "fingerprint": "6795a7f1e2c0d0371d878125ceff16c9c1fd8828d953e09d6722cef5e6748929"
   }
 };

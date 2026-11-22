@@ -1,6 +1,6 @@
 # Seguiment de les comprensions
 
-Actualitzat: **22/11/2026**. **34 pendents** de 47 comprensions orals; **13 finalitzades** al [registre de publicacions](publicades.md). Les variants es compten per separat.
+Actualitzat: **22/11/2026**. **42 pendents** de 55 comprensions orals; **13 finalitzades** al [registre de publicacions](publicades.md). Les variants es compten per separat.
 
 La taula conté només feina oberta. Una peça en surt quan té publicació definitiva registrada per al contingut exacte. Les noves propostes s’hi incorporen automàticament; quan no quedi feina, la taula quedarà buida.
 
@@ -12,7 +12,7 @@ La taula conté només feina oberta. Una peça en surt quan té publicació defi
 | Resoldre esmenes de veu i tornar a escoltar | 10 | [ca-S005](https://sentit.ortogra.fi/#lectura=ca-S005), [ca-S010](https://sentit.ortogra.fi/#lectura=ca-S010), [ca-S011](https://sentit.ortogra.fi/#lectura=ca-S011), [ca-S013](https://sentit.ortogra.fi/#lectura=ca-S013), [ca-S015](https://sentit.ortogra.fi/#lectura=ca-S015), [ca-S016](https://sentit.ortogra.fi/#lectura=ca-S016), [ca-S022](https://sentit.ortogra.fi/#lectura=ca-S022), [ca-S023](https://sentit.ortogra.fi/#lectura=ca-S023), [ca-S025](https://sentit.ortogra.fi/#lectura=ca-S025), [ca-S041](https://sentit.ortogra.fi/#lectura=ca-S041) |
 | Produir les veus, amb guió validat | 4 | [ca-S028](https://sentit.ortogra.fi/#lectura=ca-S028), [ca-S033](https://sentit.ortogra.fi/#lectura=ca-S033), [ca-S036](https://sentit.ortogra.fi/#lectura=ca-S036), [ca-S040](https://sentit.ortogra.fi/#lectura=ca-S040) |
 | Muntar les veus rebudes | 0 | Cap |
-| Revisió editorial o validació inicial pendent | 2 | [ca-S001](https://sentit.ortogra.fi/#lectura=ca-S001), [ca-S002](https://sentit.ortogra.fi/#lectura=ca-S002) |
+| Revisió editorial o validació inicial pendent | 10 | [ca-S001](https://sentit.ortogra.fi/#lectura=ca-S001), [ca-S002](https://sentit.ortogra.fi/#lectura=ca-S002), [ca-S045](https://sentit.ortogra.fi/#lectura=ca-S045), [ca-S046](https://sentit.ortogra.fi/#lectura=ca-S046), [ca-S047](https://sentit.ortogra.fi/#lectura=ca-S047), [ca-S048](https://sentit.ortogra.fi/#lectura=ca-S048), [ca-S049](https://sentit.ortogra.fi/#lectura=ca-S049), [ca-S050](https://sentit.ortogra.fi/#lectura=ca-S050), [ca-S051](https://sentit.ortogra.fi/#lectura=ca-S051), [ca-S052](https://sentit.ortogra.fi/#lectura=ca-S052) |
 
 ## Taula de pendents
 
@@ -54,6 +54,14 @@ La taula conté només feina oberta. Una peça en surt quan té publicació defi
 | [ca-S042](https://sentit.ortogra.fi/#lectura=ca-S042) | Dos camins amb la mateixa mitjana | 6è | Intermèdia · Explicació | 1:41 | 9 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
 | [ca-S043](https://sentit.ortogra.fi/#lectura=ca-S043) | El balcó que només era al paper | 6è | Intermèdia · Narració | 2:17 | 9 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
 | [ca-S044](https://sentit.ortogra.fi/#lectura=ca-S044) | El recompte del programa | 6è | Avançada · Diàleg | 1:44 | 9 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
+| [ca-S045](https://sentit.ortogra.fi/#lectura=ca-S045) | Les cadires del cinema | 4t | Accessible · Narració | Prevista 2:00–2:25 | 7 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S046](https://sentit.ortogra.fi/#lectura=ca-S046) | La clau del davantal | 4t | Accessible · Narració | Prevista 2:00–2:30 | 7 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S047](https://sentit.ortogra.fi/#lectura=ca-S047) | La maleta que feia soroll | 4t | Intermèdia · Narració | Prevista 2:10–2:45 | 7 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S048](https://sentit.ortogra.fi/#lectura=ca-S048) | Les caixes que tornen | 3r | Accessible · Entrevista | Prevista 1:50–2:20 | 6 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S049](https://sentit.ortogra.fi/#lectura=ca-S049) | La parada es mou un matí | 3r | Intermèdia · Entrevista | Prevista 1:55–2:25 | 6 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S050](https://sentit.ortogra.fi/#lectura=ca-S050) | La balança marca massa | 3r | Intermèdia · Entrevista | Prevista 1:50–2:20 | 6 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S051](https://sentit.ortogra.fi/#lectura=ca-S051) | El cartellet que quedava amagat | 4t | Accessible · Entrevista | Prevista 2:05–2:35 | 7 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S052](https://sentit.ortogra.fi/#lectura=ca-S052) | La capsa que semblava un llibre | 4t | Intermèdia · Entrevista | Prevista 2:00–2:25 | 7 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 
 ## Esmenes obertes
 

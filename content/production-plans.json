@@ -1059,5 +1059,122 @@
     "strategy": "packed-title-program-v1",
     "ending": "Música molt baixa sota la conversa, pujada de dos segons després de la darrera veu, fosa i silenci final.",
     "approvalSource": "Validació explícita del docent el 21/11/2026: «S038D també queda validat per síntesi de veus». Guió dialogat, Aina/Zephyr i Ferran/Algenib i escaleta autoritzats independentment de S038; incorporar a un lot compatible de sis a vuit minuts."
+  },
+  "S045": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S045",
+    "reviewContent": "content/propostes/tanda3/ferran.js",
+    "format": "Proposta curta de 3r–4t amb repartiment constant, guió, preguntes, solucionari i escaleta per revisar al web.",
+    "requiredVoices": {
+      "Ferran": "Algenib"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Marges de consonants, pujada i fosa segons escaleta. Cap síntesi abans de validació docent; agrupar amb comprensions compatibles."
+  },
+  "S046": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S046",
+    "reviewContent": "content/propostes/tanda3/ferran.js",
+    "format": "Proposta curta de 3r–4t amb repartiment constant, guió, preguntes, solucionari i escaleta per revisar al web.",
+    "requiredVoices": {
+      "Ferran": "Algenib"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Marges de consonants, pujada i fosa segons escaleta. Cap síntesi abans de validació docent; agrupar amb comprensions compatibles."
+  },
+  "S047": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S047",
+    "reviewContent": "content/propostes/tanda3/ferran.js",
+    "format": "Proposta curta de 3r–4t amb repartiment constant, guió, preguntes, solucionari i escaleta per revisar al web.",
+    "requiredVoices": {
+      "Ferran": "Algenib"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Marges de consonants, pujada i fosa segons escaleta. Cap síntesi abans de validació docent; agrupar amb comprensions compatibles."
+  },
+  "S048": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S048",
+    "reviewContent": "content/propostes/tanda3/mercat.js",
+    "format": "Proposta curta de 3r–4t amb repartiment constant, guió, preguntes, solucionari i escaleta per revisar al web.",
+    "requiredVoices": {
+      "Laia": "Leda",
+      "Pau": "Charon"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Marges de consonants, pujada i fosa segons escaleta. Cap síntesi abans de validació docent; agrupar amb comprensions compatibles."
+  },
+  "S049": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S049",
+    "reviewContent": "content/propostes/tanda3/mercat.js",
+    "format": "Proposta curta de 3r–4t amb repartiment constant, guió, preguntes, solucionari i escaleta per revisar al web.",
+    "requiredVoices": {
+      "Laia": "Leda",
+      "Pau": "Charon"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Marges de consonants, pujada i fosa segons escaleta. Cap síntesi abans de validació docent; agrupar amb comprensions compatibles."
+  },
+  "S050": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S050",
+    "reviewContent": "content/propostes/tanda3/mercat.js",
+    "format": "Proposta curta de 3r–4t amb repartiment constant, guió, preguntes, solucionari i escaleta per revisar al web.",
+    "requiredVoices": {
+      "Laia": "Leda",
+      "Pau": "Charon"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Marges de consonants, pujada i fosa segons escaleta. Cap síntesi abans de validació docent; agrupar amb comprensions compatibles."
+  },
+  "S051": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S051",
+    "reviewContent": "content/propostes/tanda3/nora.js",
+    "format": "Proposta curta de 3r–4t amb repartiment constant, guió, preguntes, solucionari i escaleta per revisar al web.",
+    "requiredVoices": {
+      "Laia": "Leda",
+      "Nora": "Kore"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Marges de consonants, pujada i fosa segons escaleta. Cap síntesi abans de validació docent; agrupar amb comprensions compatibles."
+  },
+  "S052": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S052",
+    "reviewContent": "content/propostes/tanda3/nora.js",
+    "format": "Proposta curta de 3r–4t amb repartiment constant, guió, preguntes, solucionari i escaleta per revisar al web.",
+    "requiredVoices": {
+      "Laia": "Leda",
+      "Nora": "Kore"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Marges de consonants, pujada i fosa segons escaleta. Cap síntesi abans de validació docent; agrupar amb comprensions compatibles."
   }
 }

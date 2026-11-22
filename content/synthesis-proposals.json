@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "status": "editorial-proposals-not-authorized",
+  "note": "Orientació de cua; no és una aprovació docent ni un lot executable. Recalcular l’entrada sense marques de pausa llegibles abans de congelar cap petició.",
+  "groups": [
+    { "id": "P01", "cast": "Ferran · Algenib", "codes": ["S045", "S046", "S047"], "note": "Tres records independents amb una sola veu; bases diferents per relat." },
+    { "id": "P02", "cast": "Laia i Pau · Leda + Charon", "codes": ["S028", "S048", "S049", "S050"], "note": "Quatre converses breus del mateix repartiment, inclosa S028 ja validada; es prioritza conservar la brevetat dels textos de 3r." },
+    { "id": "P03", "cast": "Laia i Nora · Leda + Kore", "codes": ["S040", "S051", "S052"], "note": "Dues converses de 4t completen el material compatible amb S040, de 6è i ja validada." }
+  ]
+}

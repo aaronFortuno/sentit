@@ -6,6 +6,8 @@ Banc de comprensió oral d’ortogra.fi. El docent tria una activitat, prepara l
 
 El projecte continua a la sèrie **0.1.x** mentre el docent valida el material i la interfície. El pas a 0.2 serà una decisió explícita.
 
+**Tanda nova de 3r i 4t · 22/11:** [S045–S052](docs/lot-cicle-mitja.md), vuit propostes revisades independentment, amb preguntes, solucionari i escaleta. Pendents de validació docent, sense síntesi. El [seguiment de feina oberta](docs/seguiment-produccio.md) i la [cua de síntesi](docs/lots-sintesi.md) contenen els recomptes vigents; les notes de tandes anteriors següents són històriques.
+
 ## Estat actual · 21/11/2026
 
 Els 44 codis base, ca-S001–ca-S044, tenen guió, preguntes i solucionari. S004D, S008R i S038D són variants addicionals. S038D és una conversa entre Aina i Ferran amb guió validat independentment; S038 narrada es conserva i també té autoritzades les veus. S025–S044 són vint propostes noves, cinc per curs de 3r a 6è, amb 150 preguntes i revisió adversària final superada; totes vint ja tenen el guió validat per a veus. S011 s’ha ajustat a 4t avançada; les dificultats són orientatives i es calibren amb el docent.

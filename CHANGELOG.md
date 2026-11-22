@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.69 · 22 de novembre de 2026
+
+- S045–S052: vuit guions de 3r i 4t, amb 53 preguntes, solucionari, ancoratges i escaleta. Tres relats de Ferran/Algenib, tres entrevistes Laia/Leda–Pau/Charon i dues Laia/Leda–Nora/Kore.
+- Revisió independent completa i comprovació posterior de les esmenes. Tots provisionals i pendents de validació docent; cap síntesi nova ni aprovació atribuïda.
+- Tres agrupacions orientatives separades de la cua autoritzada: Ferran, entrevistes de mercat amb S028 i entrevistes amb Nora amb S040. Previsions de mida i aprovacions actualitzables al pla de síntesi.
+
 ## 0.1.68 · 22 de novembre de 2026
 
 - Cards amb estats diferenciats: esmena pendent de síntesi, prova rebuda encara sense aplicar i muntatge actualitzat per tornar a escoltar. Les paraules afectades es mostren quan estan registrades; rebre una prova no marca la incidència com a resolta.

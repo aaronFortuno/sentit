@@ -1,6 +1,7 @@
 export const strings = {
   ca: {
     language: 'ca',
+    releaseCycleMiddle: 'Vuit guions nous de 3r i 4t: tres records de Ferran, tres converses de Laia i Pau i dues de Laia i Nora. Preguntes, solucionaris i escaletes amb revisió independent superada; pendents de validació docent, sense síntesi. Agrupacions proposades per completar lots amb repartiments constants i aprofitar S028 i S040.',
     reviewRepairPending: 'Esmena pendent de síntesi', reviewRepairWait: 'Ja revisada · Cal refer la veu',
     reviewRepairReceived: 'Prova d’esmena rebuda', reviewRepairOriginal: 'Cal comparar · Original sense substituir', reviewRepairPartial: 'Esmenes parcialment rebudes',
     reviewMontageUpdated: 'Muntatge actualitzat', reviewListenAgain: 'Esmena feta · Torna’l a escoltar', reviewMontageReady: 'Àudio muntat · Pendent d’audició', reviewFirstListening: 'A punt per revisar',
@@ -252,6 +253,7 @@ export const strings = {
   },
   es: {
     language: 'es',
+    releaseCycleMiddle: 'Ocho guiones nuevos de 3.º y 4.º: tres recuerdos de Ferran, tres conversaciones de Laia y Pau y dos de Laia y Nora. Preguntas, soluciones y escaletas con revisión independiente superada; pendientes de validación docente, sin síntesis. Agrupaciones propuestas para completar lotes con repartos constantes y aprovechar S028 y S040.',
     reviewRepairPending: 'Corrección pendiente de síntesis', reviewRepairWait: 'Ya revisada · Falta rehacer la voz',
     reviewRepairReceived: 'Prueba de corrección recibida', reviewRepairOriginal: 'Comparar · Original sin sustituir', reviewRepairPartial: 'Correcciones parcialmente recibidas',
     reviewMontageUpdated: 'Montaje actualizado', reviewListenAgain: 'Cambio aplicado · Vuelve a escucharlo', reviewMontageReady: 'Audio montado · Pendiente de escucha', reviewFirstListening: 'Listo para revisar',

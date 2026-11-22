@@ -107,7 +107,16 @@ export async function productionDocuments(date) {
     synthesis += row([batch.id, descriptions.join('; '), [...batchVoices].join(' + '), clock(seconds), blockers.join('; ') || 'Preparar i comprovar l’entrada definitiva']);
   }
   if (!waiting.length) synthesis += '\nNo queda cap lot pendent.\n';
-  synthesis += '\nLes previsions provenen dels guions i del calibratge local; cal recalcular-les amb el format definitiu abans d’enviar. Una mateixa veu en dos guions no implica el mateix personatge. No es canvien repartiments ni s’allarguen guions per omplir un lot.\n\n## Esmenes de veu\n\n| Peça | Prova rebuda | Comparació |\n| --- | --- | --- |\n';
+  synthesis += '\nLes previsions provenen dels guions i del calibratge local; cal recalcular-les amb el format definitiu abans d’enviar. Una mateixa veu en dos guions no implica el mateix personatge. No es canvien repartiments ni s’allarguen guions per omplir un lot.\n';
+  const proposals = await json('content/synthesis-proposals.json');
+  synthesis += '\n## Agrupacions proposades · encara sense autorització\n\nAquests grups incorporen els guions nous pendents de validació docent. No amplien la cua executable ni autoritzen cap enviament. Quan es validin, es reorganitzaran els candidats anteriors sense duplicar S028 o S040.\n\n| Proposta | Repartiment | Comprensions | Previsió amb marges | Guions validats |\n| --- | --- | --- | ---: | ---: |\n';
+  for (const group of proposals.groups) {
+    const entries = group.codes.map(code => activities.find(entry => entry.code === code));
+    if (entries.some(entry => !entry)) throw Error('Unknown activity in batch proposal: ' + group.id);
+    const forecasts = entries.map(entry => estimateSynthesis(packedProposalRequests(entry)[0]).seconds);
+    synthesis += row([group.id, group.cast, list(entries), clock(forecasts.reduce((sum, seconds) => sum + seconds, 0) + 4 * (entries.length - 1)), entries.filter(hasApprovedScript).length + '/' + entries.length]);
+  }
+  synthesis += '\nP02 reuneix quatre lectures breus del mateix repartiment per conservar els guions de 3r curts i senzills. Les previsions inclouen marges de muntatge i encara s’han de verificar amb l’entrada definitiva; la validació dels guions no garanteix que la mida final del lot sigui admissible. [Guions, escaletes i criteris de la tanda](lot-cicle-mitja.md) · [Composició proposada](../content/synthesis-proposals.json).\n\n## Esmenes de veu\n\n| Peça | Prova rebuda | Comparació |\n| --- | --- | --- |\n';
   const repairParts = receipts.flatMap(receipt => receipt.parts.filter(part => !/-T\d+$/u.test(part.id)).map(part => ({ ...part, batch: receipt.id })));
   for (const part of repairParts) {
     const code = part.code, name = part.id.slice(code.length + 1), repair = repairs[code]?.repairs.find(repair => repair.part === name);

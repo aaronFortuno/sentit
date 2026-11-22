@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { createRequire } from 'node:module';
 import { activities } from '../catalogue.js';
-import { proposedActivities, proposedVariants, firstBatchActivities, secondBatchActivities } from '../content/propostes/index.js';
+import { proposedActivities, proposedVariants, firstBatchActivities, secondBatchActivities, thirdBatchActivities } from '../content/propostes/index.js';
 import { universes, universesForActivity } from '../content/universes.js';
 import { charactersForActivity } from '../content/characters.js';
 import { buildEvidence } from '../evidence.js';
@@ -18,7 +18,7 @@ for(const grade of ['3','4','5','6']){
  assert.equal(new Set(set.map(entry=>entry.genre)).size,6);
 }
 assert.equal(firstBatchActivities.length,19);
-assert.equal(proposedActivities.length,19+secondBatchActivities.length);
+assert.equal(proposedActivities.length,19+secondBatchActivities.length+thirdBatchActivities.length);
 for(const grade of ['3','4','5','6']){const next=secondBatchActivities.filter(e=>e.grade===grade);assert([0,5].includes(next.length),'Publish complete reviewed groups');if(next.length)assert.deepEqual(['easy','middle','advanced'].map(level=>next.filter(e=>e.level===level).length),[2,2,1]);}
 for(const entry of secondBatchActivities){assert(['pending','audio-review','validated'].includes(entry.reviewStatus));assert.equal(Boolean(entry.audio),entry.reviewStatus!=='pending');assert.equal(entry.questions.length,Number(entry.grade)+3);assert(entry.universeIds?.length);for(const id of entry.universeIds)assert(universes.some(u=>u.id===id));assert(universesForActivity(entry).length>0);assert(plans[entry.code]?.reviewContent?.startsWith('content/propostes/tanda2/'));}
 assert.equal(activities.find(entry=>entry.code==='S011').level,'advanced','Teacher calibration: S011 is 4t avançada');

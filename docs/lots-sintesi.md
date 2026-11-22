@@ -13,6 +13,18 @@ Actualitzat: **22/11/2026**. Aquest document mostra només la feina pendent d’
 
 Les previsions provenen dels guions i del calibratge local; cal recalcular-les amb el format definitiu abans d’enviar. Una mateixa veu en dos guions no implica el mateix personatge. No es canvien repartiments ni s’allarguen guions per omplir un lot.
 
+## Agrupacions proposades · encara sense autorització
+
+Aquests grups incorporen els guions nous pendents de validació docent. No amplien la cua executable ni autoritzen cap enviament. Quan es validin, es reorganitzaran els candidats anteriors sense duplicar S028 o S040.
+
+| Proposta | Repartiment | Comprensions | Previsió amb marges | Guions validats |
+| --- | --- | --- | ---: | ---: |
+| P01 | Ferran · Algenib | [ca-S045](https://sentit.ortogra.fi/#lectura=ca-S045), [ca-S046](https://sentit.ortogra.fi/#lectura=ca-S046), [ca-S047](https://sentit.ortogra.fi/#lectura=ca-S047) | 6:10 | 0/3 |
+| P02 | Laia i Pau · Leda + Charon | [ca-S028](https://sentit.ortogra.fi/#lectura=ca-S028), [ca-S048](https://sentit.ortogra.fi/#lectura=ca-S048), [ca-S049](https://sentit.ortogra.fi/#lectura=ca-S049), [ca-S050](https://sentit.ortogra.fi/#lectura=ca-S050) | 6:43 | 1/4 |
+| P03 | Laia i Nora · Leda + Kore | [ca-S040](https://sentit.ortogra.fi/#lectura=ca-S040), [ca-S051](https://sentit.ortogra.fi/#lectura=ca-S051), [ca-S052](https://sentit.ortogra.fi/#lectura=ca-S052) | 6:23 | 1/3 |
+
+P02 reuneix quatre lectures breus del mateix repartiment per conservar els guions de 3r curts i senzills. Les previsions inclouen marges de muntatge i encara s’han de verificar amb l’entrada definitiva; la validació dels guions no garanteix que la mida final del lot sigui admissible. [Guions, escaletes i criteris de la tanda](lot-cicle-mitja.md) · [Composició proposada](../content/synthesis-proposals.json).
+
 ## Esmenes de veu
 
 | Peça | Prova rebuda | Comparació |
