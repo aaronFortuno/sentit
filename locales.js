@@ -1,6 +1,7 @@
 export const strings = {
   ca: {
     language: 'ca',
+    releaseUpperPrimaryScripts: 'Trenta guions nous de 5è i 6è, amb preguntes, solucionari i escaleta, en sis blocs de repartiment constant: Mar; Laia i Biel; Mireia i Biel; Ferran; Laia i Ona; Biel i Elies. Revisió independent i esmenes finals abans de mostrar-los com a provisionals. Índex de validació per blocs i previsions de lots; cap síntesi ni aprovació docent atribuïda. Vida quotidiana queda anotada per a una futura tanda d’inicial i mitjà.',
     listenComprehension: 'Escolta la comprensió', pauseComprehension: 'Pausa la comprensió',
     listenFullSession: 'Escolta el muntatge complet', pauseFullSession: 'Pausa el muntatge complet', resumeFullSession: 'Continua el muntatge complet',
     previewNoWaits: 'Prova la configuració actual sense les pauses d’espera. L’enllaç de l’alumnat conserva els temps triats.',
@@ -261,6 +262,7 @@ export const strings = {
   },
   es: {
     language: 'es',
+    releaseUpperPrimaryScripts: 'Treinta guiones nuevos de 5.º y 6.º, con preguntas, soluciones y escaleta, en seis bloques de reparto constante: Mar; Laia y Biel; Mireia y Biel; Ferran; Laia y Ona; Biel y Elies. Revisión independiente y correcciones finales antes de mostrarlos como provisionales. Índice de validación por bloques y previsiones de lotes; sin síntesis ni aprobación docente atribuida. Vida cotidiana queda anotada para una futura tanda de ciclo inicial y medio.',
     listenComprehension: 'Escucha la comprensión', pauseComprehension: 'Pausa la comprensión',
     listenFullSession: 'Escucha el montaje completo', pauseFullSession: 'Pausa el montaje completo', resumeFullSession: 'Continúa el montaje completo',
     previewNoWaits: 'Prueba la configuración actual sin las pausas de espera. El enlace del alumnado conserva los tiempos elegidos.',

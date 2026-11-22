@@ -1,5 +1,13 @@
 # Canvis
 
+## 0.1.71 · 22 de novembre de 2026
+
+- S053–S082: trenta guions de 5è i 6è amb 252 preguntes, solucionari, ancoratges i escaleta. Sis blocs de cinc amb repartiments constants d’una o dues veus; cada peça preveu una presa completa.
+- Cinc notícies de Mar/Erinome; cinc converses de Laia/Leda i Biel/Puck; cinc situacions d’aula amb Mireia/Aoede i Biel; cinc records de Ferran/Algenib; cinc converses de Laia i Ona/Sulafat; cinc de Biel i Elies/Algieba.
+- Revisió independent creuada entre autors, amb segona comprovació de les esmenes: referents, cronologia, llenguatge dels joves, preguntes, cites i muntatge previst. Tots continuen pendents de validació docent, sense síntesi nova.
+- Índex per revisar i validar per repartiment i agrupacions orientatives de dues o tres lectures completes. Mida dels candidats visible al pla; els romanents curts esperen material compatible. Les previsions no autoritzen enviaments.
+- «Vida quotidiana» anotada per a una futura tanda de cicle inicial i mitjà, amb converses de botiga, parc, carrer i família. No s’activen cursos ni universos buits.
+
 ## 0.1.70 · 22 de novembre de 2026
 
 - Dos botons equivalents, sempre visibles, per escoltar la comprensió i el muntatge complet. Sessió completa directa al sidebar amb el pas actual, pausa i continuació, sense un popup intermedi.

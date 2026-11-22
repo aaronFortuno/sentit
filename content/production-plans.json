@@ -1176,5 +1176,445 @@
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
     "ending": "Marges de consonants, pujada i fosa segons escaleta. Cap síntesi abans de validació docent; agrupar amb comprensions compatibles."
+  },
+  "S053": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S053",
+    "reviewContent": "content/propostes/tanda4/noticies.js",
+    "format": "5è accessible: seguir dues franges amb usos diferents, entendre una causa explícita i localitzar un servei. Vuit preguntes, amb una relació entre el problema anterior i el canvi actual; horaris ficticis d’aquest equipament.",
+    "requiredVoices": {
+      "Mar": "Erinome"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+  },
+  "S054": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S054",
+    "reviewContent": "content/propostes/tanda4/noticies.js",
+    "format": "5è intermèdia: relacionar una incidència amb una modificació concreta, distingir dues vies de compra i atribuir el resultat a una prova limitada. Vuit preguntes sense càlcul de preus ni coneixement comercial.",
+    "requiredVoices": {
+      "Mar": "Erinome"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+  },
+  "S055": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S055",
+    "reviewContent": "content/propostes/tanda4/noticies.js",
+    "format": "6è accessible: seguir el recorregut d’uns objectes, atribuir dues decisions a motius diferents i distingir consulta i donació. Nou preguntes sobre una notícia de ficció autosuficient.",
+    "requiredVoices": {
+      "Mar": "Erinome"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+  },
+  "S056": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S056",
+    "reviewContent": "content/propostes/tanda4/noticies.js",
+    "format": "5è avançada: reconstruir un trasllat, relacionar espai i decisions, distingir obertura parcial i serveis ja disponibles mitjançant fets concrets. Vuit preguntes de causa i síntesi, sense exigir coneixements de reparació.",
+    "requiredVoices": {
+      "Mar": "Erinome"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+  },
+  "S057": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S057",
+    "reviewContent": "content/propostes/tanda4/noticies.js",
+    "format": "6è avançada: diferenciar canvis de recorregut, canvis d’horari i resultats d’una primera prova; contrastar dos casos de passatgers i explicar una compensació concreta. Nou preguntes amb síntesi entre passatges. Servei i dades completament ficticis.",
+    "requiredVoices": {
+      "Mar": "Erinome"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+  },
+  "S058": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S058",
+    "reviewContent": "content/propostes/tanda4/troballes.js",
+    "format": "5è accessible: entendre un canvi de punt de vista, relacionar la funció d’un objecte amb la seva posició i seguir una solució feta entre tots dos. Vuit preguntes sense haver de veure la pancarta.",
+    "requiredVoices": {
+      "Laia": "Leda",
+      "Biel": "Puck"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+  },
+  "S059": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S059",
+    "reviewContent": "content/propostes/tanda4/troballes.js",
+    "format": "5è intermèdia: relacionar una prova real amb canvis successius i distingir entre material necessari i decoració. Vuit preguntes sobre decisions motivades; no cal conèixer regles de cap joc comercial.",
+    "requiredVoices": {
+      "Laia": "Leda",
+      "Biel": "Puck"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+  },
+  "S060": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S060",
+    "reviewContent": "content/propostes/tanda4/troballes.js",
+    "format": "6è accessible: reconstruir el context d’una gravació, relacionar un soroll amb una acció i distingir fragments aprofitables dels que cal repetir. Nou preguntes; els conceptes tècnics es descriuen amb accions quotidianes.",
+    "requiredVoices": {
+      "Laia": "Leda",
+      "Biel": "Puck"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+  },
+  "S061": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S061",
+    "reviewContent": "content/propostes/tanda4/troballes.js",
+    "format": "5è avançada: reconstruir una petita història dins del diàleg, relacionar ordre, informació i inferència de l’espectador. Vuit preguntes; no cal saber editar vídeo ni interpretar vocabulari cinematogràfic.",
+    "requiredVoices": {
+      "Laia": "Leda",
+      "Biel": "Puck"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+  },
+  "S062": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S062",
+    "reviewContent": "content/propostes/tanda4/troballes.js",
+    "format": "6è avançada: seguir una cadena de versions, atribuir el canvi a una causa i distingir missatge de confirmació i imatge antiga. Nou preguntes de relació entre dades i accions, sense coneixements de xarxes socials.",
+    "requiredVoices": {
+      "Laia": "Leda",
+      "Biel": "Puck"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+  },
+  "S063": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S063",
+    "reviewContent": "content/propostes/tanda4/aula.js",
+    "format": "5è accessible: comprendre què es manté i què canvia entre dues proves, identificar una observació i seguir l’ordre de les accions. Vuit preguntes sense exigir vocabulari científic ni calcular pesos.",
+    "requiredVoices": {
+      "Mireia": "Aoede",
+      "Biel": "Puck"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+  },
+  "S064": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S064",
+    "reviewContent": "content/propostes/tanda4/aula.js",
+    "format": "5è intermèdia: separar informació essencial i accessòria i relacionar les dificultats d’una primera escolta amb els canvis proposats. Vuit preguntes; el sentit de les pauses es treballa a través de reaccions reals.",
+    "requiredVoices": {
+      "Mireia": "Aoede",
+      "Biel": "Puck"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+  },
+  "S065": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S065",
+    "reviewContent": "content/propostes/tanda4/aula.js",
+    "format": "6è accessible: reconstruir una mesura explicada oralment, identificar dos canvis en la col·locació del regle i diferenciar repetir una acció de canviar l’objecte. Nou preguntes sense conversions d’unitats ni càlcul obligatori.",
+    "requiredVoices": {
+      "Mireia": "Aoede",
+      "Biel": "Puck"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+  },
+  "S066": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S066",
+    "reviewContent": "content/propostes/tanda4/aula.js",
+    "format": "5è avançada: seguir canvis de lloc i moment dins d’una gravació, distingir sons simultanis i successius i relacionar l’edició amb la finalitat de la proposta. Vuit preguntes; cap coneixement de programes d’edició.",
+    "requiredVoices": {
+      "Mireia": "Aoede",
+      "Biel": "Puck"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+  },
+  "S067": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S067",
+    "reviewContent": "content/propostes/tanda4/aula.js",
+    "format": "6è avançada: relacionar una resposta amb la pregunta que l’ha provocada, revisar una comparació i conservar informació sense barrejar-ne els referents. Nou preguntes amb cites exactes i inferències sobre el procediment concret.",
+    "requiredVoices": {
+      "Mireia": "Aoede",
+      "Biel": "Puck"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+  },
+  "S068": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S068",
+    "reviewContent": "content/propostes/tanda4/records.js",
+    "format": "5è accessible: reconstruir una seqüència de viatge, relacionar la preparació amb un canvi imprevist i distingir el destí de dos recipients. Vuit preguntes sense càlculs d’horaris ni informació externa.",
+    "requiredVoices": {
+      "Ferran": "Algenib"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+  },
+  "S069": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S069",
+    "reviewContent": "content/propostes/tanda4/records.js",
+    "format": "5è intermèdia: relacionar un canvi d’orientació amb un error de referent, diferenciar els noms fixos dels equips del costat on juguen i reconstruir com corregeixen el marcador. Vuit preguntes, sense haver de sumar el resultat.",
+    "requiredVoices": {
+      "Ferran": "Algenib"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+  },
+  "S070": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S070",
+    "reviewContent": "content/propostes/tanda4/records.js",
+    "format": "6è accessible: seguir dues maneres de continuar una activitat i relacionar una informació prèvia sobre el pare amb la solució posterior. Nou preguntes; cap coneixement de discos o instruments.",
+    "requiredVoices": {
+      "Ferran": "Algenib"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+  },
+  "S071": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S071",
+    "reviewContent": "content/propostes/tanda4/records.js",
+    "format": "5è avançada: seguir el recorregut de dos parells d’entrades semblants, distingir la data del color i reconstruir una equivocació sense atribuir als personatges informació que encara no tenen. Vuit preguntes amb causes i ordre temporal.",
+    "requiredVoices": {
+      "Ferran": "Algenib"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+  },
+  "S072": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S072",
+    "reviewContent": "content/propostes/tanda4/records.js",
+    "format": "6è avançada: reconstruir una operació comercial quotidiana amb dues anotacions del mateix encàrrec, distingir pendent i recollit i relacionar una deducció inicial amb la comprovació posterior. Nou preguntes sense càlculs de preus ni comptabilitat externa.",
+    "requiredVoices": {
+      "Ferran": "Algenib"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+  },
+  "S073": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S073",
+    "reviewContent": "content/propostes/tanda4/cuina.js",
+    "format": "5è accessible: seguir dues arribades i relacionar una preparació amb el grup corresponent. Vuit preguntes de lloc, causa, seqüència i una inferència sobre la taula que queda preparada.",
+    "requiredVoices": {
+      "Laia": "Leda",
+      "Ona": "Sulafat"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+  },
+  "S074": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S074",
+    "reviewContent": "content/propostes/tanda4/cuina.js",
+    "format": "5è intermèdia: relacionar quantitats amb un recipient i identificar el motiu de dues anotacions diferents. Vuit preguntes sense càlcul de proporcions ni coneixements culinaris previs.",
+    "requiredVoices": {
+      "Laia": "Leda",
+      "Ona": "Sulafat"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+  },
+  "S075": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S075",
+    "reviewContent": "content/propostes/tanda4/cuina.js",
+    "format": "6è accessible: comparar fotografia, prova anterior i servei previst. Nou preguntes amb una inferència sobre per què una imatge atractiva pot ser inadequada sense recórrer a coneixements publicitaris externs.",
+    "requiredVoices": {
+      "Laia": "Leda",
+      "Ona": "Sulafat"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+  },
+  "S076": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S076",
+    "reviewContent": "content/propostes/tanda4/cuina.js",
+    "format": "5è avançada: reconstruir com es duplica una informació en circular per dos canals, relacionar documents amb moments diferents i entendre què han de confirmar abans de preparar més menjar. Vuit preguntes; cap suma necessària.",
+    "requiredVoices": {
+      "Laia": "Leda",
+      "Ona": "Sulafat"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+  },
+  "S077": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S077",
+    "reviewContent": "content/propostes/tanda4/cuina.js",
+    "format": "6è avançada: relacionar les condicions de dos espais, distingir una primera proposta de l’acord final i entendre per què una dada del trajecte canvia l’organització. Nou preguntes sobre causes, seqüència i dependències.",
+    "requiredVoices": {
+      "Laia": "Leda",
+      "Ona": "Sulafat"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+  },
+  "S078": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S078",
+    "reviewContent": "content/propostes/tanda4/taller.js",
+    "format": "5è accessible: seguir dues comprovacions i relacionar el moviment d’una persona amb un soroll. Vuit preguntes de causa i seqüència, sense coneixements musicals previs ni necessitat de reconèixer el so.",
+    "requiredVoices": {
+      "Biel": "Puck",
+      "Elies": "Algieba"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+  },
+  "S079": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S079",
+    "reviewContent": "content/propostes/tanda4/taller.js",
+    "format": "5è intermèdia: comparar una primera elecció amb una prova real, distingir les dues fundes i relacionar un document amb el préstec. Vuit preguntes; no exigeix saber models ni mides d’instruments.",
+    "requiredVoices": {
+      "Biel": "Puck",
+      "Elies": "Algieba"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+  },
+  "S080": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S080",
+    "reviewContent": "content/propostes/tanda4/taller.js",
+    "format": "6è accessible: relacionar dues gravacions amb condicions diferents i reconstruir una comparació possible. Nou preguntes sense identificar notes musicals ni necessitar escoltar exemples externs.",
+    "requiredVoices": {
+      "Biel": "Puck",
+      "Elies": "Algieba"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+  },
+  "S081": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S081",
+    "reviewContent": "content/propostes/tanda4/taller.js",
+    "format": "5è avançada: distingir la reparació prevista d’un resultat confirmat, seguir dues possibilitats sense perdre el termini i entendre una decisió amb motius pràctics. Vuit preguntes, amb tots els condicionants explicitats en diàleg natural.",
+    "requiredVoices": {
+      "Biel": "Puck",
+      "Elies": "Algieba"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+  },
+  "S082": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S082",
+    "reviewContent": "content/propostes/tanda4/taller.js",
+    "format": "6è avançada: distingir dues gravacions de moments diferents, entendre la funció d’una presentació i d’una prova i seguir una proposta que s’ajusta durant la conversa. Nou preguntes que relacionen fonts, ordre i intenció comunicativa.",
+    "requiredVoices": {
+      "Biel": "Puck",
+      "Elies": "Algieba"
+    },
+    "plannedNewRequests": 1,
+    "strategy": "packed-title-program-v1",
+    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
   }
 }

@@ -3,8 +3,174 @@
   "status": "editorial-proposals-not-authorized",
   "note": "Orientació de cua; no és una aprovació docent ni un lot executable. Recalcular l’entrada sense marques de pausa llegibles abans de congelar cap petició.",
   "groups": [
-    { "id": "P01", "cast": "Ferran · Algenib", "codes": ["S045", "S046", "S047"], "note": "Tres records independents amb una sola veu; bases diferents per relat." },
-    { "id": "P02", "cast": "Laia i Pau · Leda + Charon", "codes": ["S028", "S048", "S049", "S050"], "note": "Quatre converses breus del mateix repartiment, inclosa S028 ja validada; es prioritza conservar la brevetat dels textos de 3r." },
-    { "id": "P03", "cast": "Laia i Nora · Leda + Kore", "codes": ["S040", "S051", "S052"], "note": "Dues converses de 4t completen el material compatible amb S040, de 6è i ja validada." }
+    {
+      "id": "P01",
+      "cast": "Ferran · Algenib",
+      "codes": [
+        "S045",
+        "S046",
+        "S047"
+      ],
+      "note": "Tres records independents amb una sola veu; bases diferents per relat."
+    },
+    {
+      "id": "P02",
+      "cast": "Laia i Pau · Leda + Charon",
+      "codes": [
+        "S028",
+        "S048",
+        "S049",
+        "S050"
+      ],
+      "note": "Quatre converses breus del mateix repartiment, inclosa S028 ja validada; es prioritza conservar la brevetat dels textos de 3r."
+    },
+    {
+      "id": "P03",
+      "cast": "Laia i Nora · Leda + Kore",
+      "codes": [
+        "S040",
+        "S051",
+        "S052"
+      ],
+      "note": "Dues converses de 4t completen el material compatible amb S040, de 6è i ja validada."
+    },
+    {
+      "id": "P04",
+      "cohort": "tanda4",
+      "anchor": "mar",
+      "cast": "Mar · Erinome",
+      "codes": [
+        "S053",
+        "S054",
+        "S055"
+      ],
+      "note": "Lectures completes del mateix repartiment. Proposta pendent de validació docent i de verificar l’entrada definitiva; els candidats fora de sis a vuit minuts esperen material compatible."
+    },
+    {
+      "id": "P05",
+      "cohort": "tanda4",
+      "anchor": "mar",
+      "cast": "Mar · Erinome",
+      "codes": [
+        "S056",
+        "S057"
+      ],
+      "note": "Lectures completes del mateix repartiment. Proposta pendent de validació docent i de verificar l’entrada definitiva; els candidats fora de sis a vuit minuts esperen material compatible."
+    },
+    {
+      "id": "P06",
+      "cohort": "tanda4",
+      "anchor": "laia-biel",
+      "cast": "Laia i Biel · Leda + Puck",
+      "codes": [
+        "S058",
+        "S060",
+        "S061"
+      ],
+      "note": "Lectures completes del mateix repartiment. Proposta pendent de validació docent i de verificar l’entrada definitiva; els candidats fora de sis a vuit minuts esperen material compatible."
+    },
+    {
+      "id": "P07",
+      "cohort": "tanda4",
+      "anchor": "laia-biel",
+      "cast": "Laia i Biel · Leda + Puck",
+      "codes": [
+        "S059",
+        "S062"
+      ],
+      "note": "Lectures completes del mateix repartiment. Proposta pendent de validació docent i de verificar l’entrada definitiva; els candidats fora de sis a vuit minuts esperen material compatible."
+    },
+    {
+      "id": "P08",
+      "cohort": "tanda4",
+      "anchor": "mireia-biel",
+      "cast": "Mireia i Biel · Aoede + Puck",
+      "codes": [
+        "S063",
+        "S064",
+        "S065"
+      ],
+      "note": "Lectures completes del mateix repartiment. Proposta pendent de validació docent i de verificar l’entrada definitiva; els candidats fora de sis a vuit minuts esperen material compatible."
+    },
+    {
+      "id": "P09",
+      "cohort": "tanda4",
+      "anchor": "mireia-biel",
+      "cast": "Mireia i Biel · Aoede + Puck",
+      "codes": [
+        "S066",
+        "S067"
+      ],
+      "note": "Lectures completes del mateix repartiment. Proposta pendent de validació docent i de verificar l’entrada definitiva; els candidats fora de sis a vuit minuts esperen material compatible."
+    },
+    {
+      "id": "P10",
+      "cohort": "tanda4",
+      "anchor": "ferran",
+      "cast": "Ferran · Algenib",
+      "codes": [
+        "S068",
+        "S069",
+        "S070"
+      ],
+      "note": "Lectures completes del mateix repartiment. Proposta pendent de validació docent i de verificar l’entrada definitiva; els candidats fora de sis a vuit minuts esperen material compatible."
+    },
+    {
+      "id": "P11",
+      "cohort": "tanda4",
+      "anchor": "ferran",
+      "cast": "Ferran · Algenib",
+      "codes": [
+        "S071",
+        "S072"
+      ],
+      "note": "Lectures completes del mateix repartiment. Proposta pendent de validació docent i de verificar l’entrada definitiva; els candidats fora de sis a vuit minuts esperen material compatible."
+    },
+    {
+      "id": "P12",
+      "cohort": "tanda4",
+      "anchor": "laia-ona",
+      "cast": "Laia i Ona · Leda + Sulafat",
+      "codes": [
+        "S073",
+        "S074",
+        "S075"
+      ],
+      "note": "Lectures completes del mateix repartiment. Proposta pendent de validació docent i de verificar l’entrada definitiva; els candidats fora de sis a vuit minuts esperen material compatible."
+    },
+    {
+      "id": "P13",
+      "cohort": "tanda4",
+      "anchor": "laia-ona",
+      "cast": "Laia i Ona · Leda + Sulafat",
+      "codes": [
+        "S076",
+        "S077"
+      ],
+      "note": "Lectures completes del mateix repartiment. Proposta pendent de validació docent i de verificar l’entrada definitiva; els candidats fora de sis a vuit minuts esperen material compatible."
+    },
+    {
+      "id": "P14",
+      "cohort": "tanda4",
+      "anchor": "biel-elies",
+      "cast": "Biel i Elies · Puck + Algieba",
+      "codes": [
+        "S078",
+        "S079",
+        "S080"
+      ],
+      "note": "Lectures completes del mateix repartiment. Proposta pendent de validació docent i de verificar l’entrada definitiva; els candidats fora de sis a vuit minuts esperen material compatible."
+    },
+    {
+      "id": "P15",
+      "cohort": "tanda4",
+      "anchor": "biel-elies",
+      "cast": "Biel i Elies · Puck + Algieba",
+      "codes": [
+        "S081",
+        "S082"
+      ],
+      "note": "Lectures completes del mateix repartiment. Proposta pendent de validació docent i de verificar l’entrada definitiva; els candidats fora de sis a vuit minuts esperen material compatible."
+    }
   ]
 }

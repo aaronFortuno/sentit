@@ -311,5 +311,185 @@ export const editorialReviews = {
     "reviewedAt": "2026-11-22",
     "reviewer": "revisio_tanda3_ferran",
     "fingerprint": "6795a7f1e2c0d0371d878125ceff16c9c1fd8828d953e09d6722cef5e6748929"
+  },
+  "ca-S053": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "autoria_tanda4_aula_records",
+    "fingerprint": "4e76769512a492463462f2a9cb05dd53f254364290e8e5ce6b0ff4c2f73acf82"
+  },
+  "ca-S054": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "autoria_tanda4_aula_records",
+    "fingerprint": "34e48649d1bc6c1322607a8b38f15cf3a8e925753b378a2836320e37b4b0dbe8"
+  },
+  "ca-S055": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "autoria_tanda4_aula_records",
+    "fingerprint": "7ba953cb5e8e224a14843def2f977ad3519ed4031a355c3b6d9a108eba7e27ed"
+  },
+  "ca-S056": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "autoria_tanda4_aula_records",
+    "fingerprint": "39766217bff33bd79a3463e0a5e3746bce91308c4561475d3eeab0d524e145eb"
+  },
+  "ca-S057": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "autoria_tanda4_aula_records",
+    "fingerprint": "03aef36d86408dd60a008261d91e64f1996e260e991def08a1f230f85cf4a129"
+  },
+  "ca-S058": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "autoria_tanda4_aula_records",
+    "fingerprint": "56df8abc8b9aef92135f8a89300a7c5fe779f8015e30a91c1f13aade6b97b869"
+  },
+  "ca-S059": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "autoria_tanda4_aula_records",
+    "fingerprint": "90553a1f4742942d52958320c3210f077f94a7d091ba4b3fdd6332d08d713d1e"
+  },
+  "ca-S060": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "autoria_tanda4_aula_records",
+    "fingerprint": "50ec61443b798592bcb0af1667f8039ff9aef3ea2f2cd3a9568a044de03c50c5"
+  },
+  "ca-S061": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "autoria_tanda4_aula_records",
+    "fingerprint": "ac40b599a24fbc8cd411d7fda81b5e0eff7085933ee751da5542974614ab6de2"
+  },
+  "ca-S062": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "autoria_tanda4_aula_records",
+    "fingerprint": "06c5723fb0f3f30013e47ef64df68badced5d0d585c4b691787449305163085d"
+  },
+  "ca-S063": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "autoria_tanda4_cuina_taller",
+    "fingerprint": "03499ba64c42e15d3b3fdee23e0858ea73e8eaac1b268547d9bae457edb049ca"
+  },
+  "ca-S064": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "autoria_tanda4_cuina_taller",
+    "fingerprint": "b5a8de32d7d20940deeb11c31963acdf12abe9b3fcd4059d8beb139b3b9bfc99"
+  },
+  "ca-S065": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "autoria_tanda4_cuina_taller",
+    "fingerprint": "da168a5787dd9e54db87879bc6a3ac0f349d2f4d841cb7e83e9cb1755e460d3c"
+  },
+  "ca-S066": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "autoria_tanda4_cuina_taller",
+    "fingerprint": "29f372cc83b842e8e6f0930c12dde870804a1b621b98081b4a01e42801796310"
+  },
+  "ca-S067": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "autoria_tanda4_cuina_taller",
+    "fingerprint": "f0001aa5839a01926b4d22b4e722a8b623bc41b32ac281be6ec9aa5112e38324"
+  },
+  "ca-S068": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "autoria_tanda4_cuina_taller",
+    "fingerprint": "b70c9862fe18e5098084992e795f3deb1e70b18d38756447e984996897665625"
+  },
+  "ca-S069": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "autoria_tanda4_cuina_taller",
+    "fingerprint": "98d513f391e4b49069dd87e6ec6e7ea9308a37147a327cd2f068e6a1e43783c1"
+  },
+  "ca-S070": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "autoria_tanda4_cuina_taller",
+    "fingerprint": "c329111785d5c98723a68257817238bd4792b6d1e4aa29db52169070f355f2dd"
+  },
+  "ca-S071": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "autoria_tanda4_cuina_taller",
+    "fingerprint": "63e0c902e8ff63f6421a4a62d95bc541eff9d7af6e10d05d7599790aaadb102f"
+  },
+  "ca-S072": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "autoria_tanda4_cuina_taller",
+    "fingerprint": "b7efd9ded637df90aa55d3793d959d447a76ec667d03cd13e19ad338560c60a6"
+  },
+  "ca-S073": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "autoria_tanda4_noticies_troballes",
+    "fingerprint": "072b5aceaffba4c101b890ece9f7bd1523f2bd168cedc2eaf8d9c435c2d2d406"
+  },
+  "ca-S074": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "autoria_tanda4_noticies_troballes",
+    "fingerprint": "a6a24886eb9e42ad0e78c8e568172582ed50b3c2becf8531b55fb6fa670f864c"
+  },
+  "ca-S075": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "autoria_tanda4_noticies_troballes",
+    "fingerprint": "94294ae5942a54af2a877d673e5e56496328defcd68bdacb2b2114d65dd1bf92"
+  },
+  "ca-S076": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "autoria_tanda4_noticies_troballes",
+    "fingerprint": "f2370f29f20a57c3644fe7e9852f213e6c97158b3afc5b93e3a4fa3178acc803"
+  },
+  "ca-S077": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "autoria_tanda4_noticies_troballes",
+    "fingerprint": "f60abdad44b48622c89a07da88c3d5e99885a217bffe0582a594143ee58a5986"
+  },
+  "ca-S078": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "autoria_tanda4_noticies_troballes",
+    "fingerprint": "be8e59b618a10c208d89b73a654ceceea69057bab0ed2d1b7a68b8012554d653"
+  },
+  "ca-S079": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "autoria_tanda4_noticies_troballes",
+    "fingerprint": "55239a53cc1049b2a14bad2439778f2233bb5e348ae256fbb3673758d1e856c8"
+  },
+  "ca-S080": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "autoria_tanda4_noticies_troballes",
+    "fingerprint": "66dc7eed8ea08cf18b2c0dc588fb5d23a7262b3d61197b54cd0e902d2548abf8"
+  },
+  "ca-S081": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "autoria_tanda4_noticies_troballes",
+    "fingerprint": "9f102688e9b36b869180825b38319691a3e56e71916dd6b2571e081b10895cb1"
+  },
+  "ca-S082": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "autoria_tanda4_noticies_troballes",
+    "fingerprint": "b240a4b113ef94d395926ce05c3897d6c219c180c2f29a66fe202e5a857e4389"
   }
 };

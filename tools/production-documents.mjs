@@ -5,6 +5,7 @@ import { activities } from '../catalogue.js';
 import { durationBounds } from '../activity-meta.js';
 import { editorialReview, isEditoriallyReviewed, hasPendingMontage, hasApprovedScript } from '../editorial-review.js';
 import { productionProgress } from '../content/production-progress.js';
+import { fourthBatchGroups } from '../content/propostes/tanda4/index.js';
 
 const require = createRequire(import.meta.url);
 const { fingerprint } = require('./production-approval.cjs');
@@ -51,6 +52,11 @@ export async function productionDocuments(date) {
   tracking += row(['Revisió editorial o validació inicial pendent', other.length, list(other)]);
   tracking += '\n## Taula de pendents\n\n**✅ Completat** · **⏳ Proper pas** · **◐ Parcial o històric sense validació completa registrada** · **— Encara no toca**\n\n| Codi | Títol | Curs | Dificultat · tipologia | Fragment | Preg. | 1. Guió/escaleta | 2. Revisió adversària | 3. Proposta validada | 4. Veus rebudes | 5. Muntatge fet | 6. Àudio validat | 7. Definitiva |\n| --- | --- | --- | --- | --- | ---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |\n';
   const specialSpecs = { S008R: require('./radio-production.cjs').spec, S015: require('./interview-production.cjs').spec, S023: require('./news-production.cjs').spec };
+  const teacherApproved = entry => {
+    if (isPublished(entry)) return true;
+    const plan = plans[entry.code], spec = entry.production ? productionSpec(entry) : specialSpecs[entry.code];
+    return plan?.status === 'approved' && Boolean(spec) && plan.approvedFingerprint === fingerprint(entry, spec, plan);
+  };
   for (const entry of pending) {
     const plan = plans[entry.code], spec = entry.production ? productionSpec(entry) : specialSpecs[entry.code];
     const approved = plan?.status === 'approved' && spec && plan.approvedFingerprint === fingerprint(entry, spec, plan);
@@ -109,14 +115,17 @@ export async function productionDocuments(date) {
   if (!waiting.length) synthesis += '\nNo queda cap lot pendent.\n';
   synthesis += '\nLes previsions provenen dels guions i del calibratge local; cal recalcular-les amb el format definitiu abans d’enviar. Una mateixa veu en dos guions no implica el mateix personatge. No es canvien repartiments ni s’allarguen guions per omplir un lot.\n';
   const proposals = await json('content/synthesis-proposals.json');
-  synthesis += '\n## Agrupacions proposades · encara sense autorització\n\nAquests grups incorporen els guions nous pendents de validació docent. No amplien la cua executable ni autoritzen cap enviament. Quan es validin, es reorganitzaran els candidats anteriors sense duplicar S028 o S040.\n\n| Proposta | Repartiment | Comprensions | Previsió amb marges | Guions validats |\n| --- | --- | --- | ---: | ---: |\n';
+  synthesis += '\n## Agrupacions proposades · encara sense autorització\n\nAquests grups incorporen els guions nous pendents de validació docent. No amplien la cua executable ni autoritzen cap enviament. Quan es validin, es reorganitzaran els candidats anteriors sense duplicar S028 o S040.\n\n| Proposta | Repartiment | Comprensions | Previsió amb marges | Mida orientativa | Guions validats |\n| --- | --- | --- | ---: | --- | ---: |\n';
   for (const group of proposals.groups) {
-    const entries = group.codes.map(code => activities.find(entry => entry.code === code));
-    if (entries.some(entry => !entry)) throw Error('Unknown activity in batch proposal: ' + group.id);
+    const proposed = group.codes.map(code => activities.find(entry => entry.code === code));
+    if (proposed.some(entry => !entry)) throw Error('Unknown activity in batch proposal: ' + group.id);
+    const entries = proposed.filter(entry => !entry.audio && !hasPendingMontage(entry) && !entry.generationPlan?.takes.some(take => receivedIds.has(take.id)));
+    if (!entries.length) continue;
     const forecasts = entries.map(entry => estimateSynthesis(packedProposalRequests(entry)[0]).seconds);
-    synthesis += row([group.id, group.cast, list(entries), clock(forecasts.reduce((sum, seconds) => sum + seconds, 0) + 4 * (entries.length - 1)), entries.filter(hasApprovedScript).length + '/' + entries.length]);
+    const seconds = forecasts.reduce((sum, seconds) => sum + seconds, 0) + 4 * (entries.length - 1);
+    synthesis += row([group.anchor ? `[${group.id}](lot-cicle-superior.md#${group.anchor})` : group.id, group.cast, list(entries), clock(seconds), seconds < policy.minimumSeconds ? 'Per completar' : seconds > policy.maximumSeconds ? 'Per dividir' : 'Dins la finestra prevista', entries.filter(teacherApproved).length + '/' + entries.length]);
   }
-  synthesis += '\nP02 reuneix quatre lectures breus del mateix repartiment per conservar els guions de 3r curts i senzills. Les previsions inclouen marges de muntatge i encara s’han de verificar amb l’entrada definitiva; la validació dels guions no garanteix que la mida final del lot sigui admissible. [Guions, escaletes i criteris de la tanda](lot-cicle-mitja.md) · [Composició proposada](../content/synthesis-proposals.json).\n\n## Esmenes de veu\n\n| Peça | Prova rebuda | Comparació |\n| --- | --- | --- |\n';
+  synthesis += '\nP02 reuneix quatre lectures breus del mateix repartiment per conservar els guions de 3r curts i senzills. Els grups nous de 5è–6è es poden validar per repartiments sencers i es proposen en lots de dues o tres comprensions completes. Les previsions inclouen marges de muntatge i encara s’han de verificar amb l’entrada definitiva; la validació dels guions no garanteix que la mida final del lot sigui admissible. Les preses ja rebudes s’exclouen d’aquesta taula. [Tanda de 3r–4t](lot-cicle-mitja.md) · [Tanda de 5è–6è per repartiment](lot-cicle-superior.md) · [Composició proposada](../content/synthesis-proposals.json).\n\n## Esmenes de veu\n\n| Peça | Prova rebuda | Comparació |\n| --- | --- | --- |\n';
   const repairParts = receipts.flatMap(receipt => receipt.parts.filter(part => !/-T\d+$/u.test(part.id)).map(part => ({ ...part, batch: receipt.id })));
   for (const part of repairParts) {
     const code = part.code, name = part.id.slice(code.length + 1), repair = repairs[code]?.repairs.find(repair => repair.part === name);
@@ -129,5 +138,21 @@ export async function productionDocuments(date) {
   let history = `# Històric de lots de síntesi\n\n${header} Registre dels **${receipts.length} lots ja rebuts**, amb ${clock(seconds)} d’àudio cru i ${receipts.reduce((n, receipt) => n + receipt.usage.total_input_tokens, 0).toLocaleString('ca-ES')} tokens d’entrada. No és una cua executable ni un comptador de quota. [Tornar als pendents](lots-sintesi.md).\n\nAquests enviaments van aportar veus per a **${voiceCodes.size} comprensions** i **${repairParts.length} frases d’esmena**. És l’abast d’aquests lots, no el nombre total de comprensions del catàleg ni el nombre de peces pendents avui. L’estat actual de cada activitat consta al [seguiment](seguiment-produccio.md).\n\n| Lot | Data d’enviament · UTC | Preses i esmenes | Àudio cru | Tokens d’entrada | Tokens d’àudio |\n| --- | --- | --- | ---: | ---: | ---: |\n`;
   for (const receipt of receipts) history += row([`[${receipt.id}](../assets/audio/synthesis-batches/${receipt.id.toLowerCase()}.json)`, receipt.startedAt.slice(0, 10), receipt.parts.map(part => part.id).join(', '), clock(receipt.rawSeconds), receipt.usage.total_input_tokens, receipt.usage.total_output_tokens]);
   history += '\nCada rebut apunta a la petició exacta i a les empremtes d’origen; les respostes completes, les preses crues i els mapes de tall es conserven localment. No es repeteix una presa perquè encara falti revisar-la o muntar-la. Les planificacions anteriors, superades pels rebuts, es conserven a l’historial de Git.\n\nLes escenes de tres veus S007, S011 i S017 es van construir a partir de dues preses. S011 va presentar inestabilitat de veus; S032 i S041 van incloure instruccions de pausa llegides. Aquests resultats motiven els [criteris del proper enviament](lots-sintesi.md#criteris-per-al-proper-enviament); la cobertura de text no equival a una validació perceptiva.\n\n' + refresh + '\n';
-  return { 'seguiment-produccio.md': tracking, 'publicades.md': finished, 'lots-sintesi.md': synthesis, 'historic-sintesi.md': history };
+  const cohortEntries = fourthBatchGroups.flatMap(group => group.entries);
+  let cohort = `# Propostes de 5è i 6è · validació per repartiments\n\n${header} **${cohortEntries.length} comprensions orals** en ${fourthBatchGroups.length} blocs de repartiment. Cada peça té guió, preguntes, solucionari i escaleta. La revisió independent i la validació docent són passos diferents; aquest índex no autoritza síntesi.\n\n| Bloc per revisar | Repartiment fix | Codis | Guions validats pel docent |\n| --- | --- | --- | ---: |\n`;
+  for (const group of fourthBatchGroups) cohort += row([`[${group.title}](#${group.id})`, group.cast, group.entries.map(entry => entry.code).join(', '), group.entries.filter(teacherApproved).length + '/' + group.entries.length]);
+  cohort += '\n## Com validar els blocs\n\nObre les lectures d’un mateix bloc i revisa el guió i l’escaleta al solucionari. Pots indicar els codis aprovats o validar el bloc sencer. Cada codi conserva una aprovació separada: aprovar un personatge, un text anterior o una síntesi no valida automàticament els altres.\n\nLes [agrupacions orientatives de síntesi](lots-sintesi.md#agrupacions-proposades--encara-sense-autorització) mantenen el mateix repartiment i dues o tres lectures completes per petició. Abans d’enviar-les cal comprovar l’aprovació exacta, preparar l’entrada sense marques de pausa llegibles i verificar la finestra de sis a vuit minuts.\n';
+  for (const group of fourthBatchGroups) {
+    cohort += `\n<a id="${group.id}"></a>\n\n## ${group.title}\n\n${group.cast}. Les lectures són independents; no cal haver-ne escoltat cap altra per entendre-les.\n\n| Codi | Títol | Curs · dificultat | Tipologia | Durada prevista | Preguntes | Estat |\n| --- | --- | --- | --- | --- | ---: | --- |\n`;
+    for (const entry of group.entries) {
+      const state = isPublished(entry) ? 'Definitiva' : entry.audio ? 'Àudio en revisió' : hasPendingMontage(entry) ? 'Veus rebudes' : hasApprovedScript(entry) ? 'Guió validat' : isEditoriallyReviewed(entry) ? 'Provisional · pendent del docent' : 'Esborrany en revisió';
+      cohort += row([link(entry), entry.title, grade(entry) + ' · ' + levels[entry.level], genres[entry.genre], duration(entry), entry.questions.length, state]);
+    }
+    const castQuery = new URLSearchParams();
+    for (const name of Object.keys(group.voices)) castQuery.append('personatge', name.toLocaleLowerCase('ca'));
+    if (Object.keys(group.voices).length > 1) castQuery.set('coincidencia', 'tots');
+    cohort += '\n[Filtra el catàleg per aquest repartiment](https://sentit.ortogra.fi/?' + castQuery + ') · [Guions i escaletes del bloc](../content/propostes/tanda4/' + group.source + '.js). El filtre també pot mostrar peces de tandes anteriors; activa «Només provisionals» per revisar feina oberta. Les acotacions descriuen recursos proposats, no gravacions ja produïdes.\n';
+  }
+  cohort += '\n## Criteris editorials de la tanda\n\n- Una o dues veus fixes per bloc, sense repartir una tercera veu entre preses separades.\n- Context autosuficient i vocabulari propi de cada persona. Laia i Biel parlen com a joves; els adults expliquen els termes concrets que calguin.\n- Dificultat en les causes, les relacions i les inferències; no en ambigüitats involuntàries o llistes de xifres accessòries.\n- Cap moralina o aclariment preventiu d’una obvietat. A les aules, activitat concreta i conversa humana, sense protocol administratiu.\n- Música molt baixa i diferent a les narracions; ambients i detalls d’enregistraments reals encara pendents d’acreditar. Els sons no han de resoldre preguntes que depenen de la parla.\n- Revisió independent de contingut, preguntes, cites i muntatge previst abans de mostrar una proposta com a provisional. Il·lustració i àudio es treballen després de validar el contingut.\n\n## Després d’aquesta tanda\n\n[«Vida quotidiana»](vida-quotidiana.md) queda anotada per iniciar una tanda pròpia de cicle inicial i mitjà: converses de botiga, parc, carrer o visita familiar més espontànies. Encara no s’activa cap univers ni curs nou.\n\n' + refresh + '\n';
+  return { 'seguiment-produccio.md': tracking, 'publicades.md': finished, 'lots-sintesi.md': synthesis, 'historic-sintesi.md': history, 'lot-cicle-superior.md': cohort };
 }

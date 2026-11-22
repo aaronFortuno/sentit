@@ -6,7 +6,9 @@ Banc de comprensió oral d’ortogra.fi. El docent tria una activitat, prepara l
 
 El projecte continua a la sèrie **0.1.x** mentre el docent valida el material i la interfície. El pas a 0.2 serà una decisió explícita.
 
-**Tanda nova de 3r i 4t · 22/11:** [S045–S052](docs/lot-cicle-mitja.md), vuit propostes revisades independentment, amb preguntes, solucionari i escaleta. Pendents de validació docent, sense síntesi. El [seguiment de feina oberta](docs/seguiment-produccio.md) i la [cua de síntesi](docs/lots-sintesi.md) contenen els recomptes vigents; les notes de tandes anteriors següents són històriques.
+**Tandes noves · 22/11:** [S053–S082 de 5è–6è](docs/lot-cicle-superior.md), trenta propostes amb índex de validació per repartiments; i [S045–S052 de 3r–4t](docs/lot-cicle-mitja.md), vuit propostes. Totes amb guió, preguntes, solucionari, escaleta i revisió independent. Pendents de validació docent, sense síntesi. El [seguiment de feina oberta](docs/seguiment-produccio.md) i la [cua de síntesi](docs/lots-sintesi.md) contenen els recomptes vigents; les notes de tandes anteriors següents són històriques.
+
+[«Vida quotidiana»](docs/vida-quotidiana.md) queda reservada per a una futura tanda de cicle inicial i mitjà: converses més espontànies de botiga, parc, carrer i casa, amb els recurrents actuals. Encara no activa cap univers ni curs nou al catàleg.
 
 ## Estat actual · 21/11/2026
 
