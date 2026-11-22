@@ -18,7 +18,7 @@ export function cardReviewUpdate(entry) {
       words: [...new Set((waiting.length ? waiting : pending).map(item => item.word).filter(Boolean))].join(' · '),
     };
   }
-  if(!entry.audio&&progress?.voiceReviewUpdate?.file===progress.voicePreviewFile)return{id:'voices-cleaned',title:'reviewRepairReceived',help:'reviewListenAgain',summary:progress.voiceReviewUpdate.summary};
+  if(!entry.audio&&progress?.voiceReviewUpdate&&progress.voiceReviewUpdate.file===progress.voicePreviewFile)return{id:'voices-cleaned',title:'reviewRepairReceived',help:'reviewListenAgain',summary:progress.voiceReviewUpdate.summary};
   const update = progress?.reviewUpdate;
   if (entry.reviewStatus === 'audio-review' && update?.audio === entry.audio) {
     return { id: 'montage-updated', title: 'reviewMontageUpdated', help: 'reviewListenAgain', summary: update.summary };
