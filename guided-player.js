@@ -37,7 +37,7 @@ export function initGuidedPlayer(entry, session, prompts, button, render, onActi
     const done = index >= steps.length;
     render({ action: done ? 'restartSession' : index < 0 ? 'startSession' : running ? 'pause' : 'resume',
       status: failed ? 'audioError' : busy ? 'loadingSession' : done ? 'sessionEnded' : current()?.status,
-      countdown: current()?.seconds ? Math.max(0, Math.ceil(left())) : null, number: current()?.number, busy });
+      countdown: current()?.seconds ? Math.max(0, Math.ceil(left())) : null, number: current()?.number, busy, running: running && !done });
     if (running) frame = requestAnimationFrame(paint);
   }
   async function advance() {
@@ -67,7 +67,7 @@ export function initGuidedPlayer(entry, session, prompts, button, render, onActi
     if (running && current()?.end && audio.currentTime >= current().end) advance();
   });
   audio.addEventListener('error', () => { failed = true; running = false; busy = false; paint(); });
-  button.addEventListener('click', async () => {
+  const toggle = async () => {
     if (busy) return;
     if (index < 0 || index >= steps.length || failed) {
       const restart=index>=steps.length;failed = false; index = -1; running = true; await advance();if(!failed)onAction(restart?'reinicia':'inicia');
@@ -80,7 +80,8 @@ export function initGuidedPlayer(entry, session, prompts, button, render, onActi
       catch { failed = true; running = false; }
       busy = false; paint();if(!failed)onAction('repren');
     }
-  }, { signal: listeners.signal });
+  };
+  if (options.bindButton !== false) button.addEventListener('click', toggle, { signal: listeners.signal });
   const pause = () => {if(!running)return;if(current()?.seconds)remaining=Math.max(0,left());running=false;audio.pause();paint();onAction('pausa');};
   const dispose = () => {disposed=true;version++;running=false;audio.pause();audio.removeAttribute('src');audio.load();cancelAnimationFrame(frame);listeners.abort();};
   window.addEventListener('sentit-pause-playback', pause, { signal: listeners.signal });
@@ -88,5 +89,5 @@ export function initGuidedPlayer(entry, session, prompts, button, render, onActi
   // Pause on navigation; dispose only when the owning preview is closed.
   window.addEventListener('pagehide', () => { version++; pause(); busy=false; audio.pause(); cancelAnimationFrame(frame); paint(); }, { signal: listeners.signal });
   paint();
-  return { dispose, skipWait() { if (!disposed && current()?.seconds) { running=true; advance(); } } };
+  return { dispose, toggle, skipWait() { if (!disposed && current()?.seconds) { running=true; advance(); } } };
 }

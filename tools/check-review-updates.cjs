@@ -14,6 +14,9 @@ const { chromium } = require('C:/Users/afortun8/.cache/codex-runtimes/codex-prim
     progress.receivedRepairs.pop(); assert.equal(cardReviewUpdate(entry('S010')).id, 'repair-mixed');
     progress.receivedRepairs = []; assert.equal(cardReviewUpdate(entry('S010')).id, 'repair-pending');
   } finally { progress.receivedRepairs = saved; }
+  const feedback = structuredClone(progress.feedback);
+  try { progress.feedback.forEach(item => item.status = 'applied'); assert.equal(cardReviewUpdate(entry('S010')).id, 'montage-updated'); }
+  finally { progress.feedback = feedback; }
   const updated = productionProgress['ca-S030'].reviewUpdate, audio = updated.audio;
   try { updated.audio = './superseded.mp3'; assert.equal(cardReviewUpdate(entry('S030')).id, 'audio-review'); } finally { updated.audio = audio; }
   const base = 'http://127.0.0.1:4273/';

@@ -271,7 +271,10 @@ dialog.is-closing::backdrop { animation: backdrop-out var(--motion) ease both; }
 .jingle-choice { flex: 1; min-width: 0; }
 .jingle-choice select { width: 100%; }
 .jingle-choice select:disabled { opacity: .55; }
-.jingle-compare { display: inline-block; margin-top: 7px; font-size: .75rem; color: var(--quiet); }
+.audio-group-heading { display: flex; align-items: center; gap: 6px; }
+.audio-group-heading .jingle-help { width: 25px; min-width: 25px; min-height: 25px; height: 25px; padding: 4px; border: 0; background: transparent; color: var(--quiet); }
+.audio-group-heading .jingle-help:hover { color: var(--green); background: var(--soft); }
+.audio-group-heading .jingle-help svg { width: 16px; height: 16px; }
 .audio-preview { border-top: 1px solid var(--line); margin-top: 14px; padding-top: 12px; }
 .audio-panel-footer { padding: 10px 14px; }
 .audio-panel-footer .audio-sources { margin: 0; }
@@ -310,17 +313,13 @@ dialog.is-closing::backdrop { animation: backdrop-out var(--motion) ease both; }
 .jingle-pairs { display: grid; gap: 12px; padding-inline-end: 8px; }
 .jingle-pair { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 6px 16px; padding: 12px; border: 1px solid var(--line); border-radius: 9px; background: var(--soft); }
 .jingle-pair h3 { grid-column: 1/-1; margin: 0; font-size: .9rem; }
+.jingle-pair .jingle-description { grid-column: 1/-1; margin: 0 0 4px; font-size: .8rem; color: var(--quiet); line-height: 1.45; }
+.jingle-explanation { margin: 0 0 14px; line-height: 1.5; }
 .jingle-pair label { display: grid; gap: 5px; min-width: 0; color: var(--quiet); font-size: .8rem; }
 .jingle-pair audio { width: 100%; height: 36px; }
-.session-preview-dialog { width: min(510px,calc(100% - 28px)); }
-.session-preview-dialog .dialog-content { overflow-y: auto; scrollbar-width: thin; scrollbar-color: var(--line) transparent; }
-.session-preview-dialog .primary { align-self: center; margin-top: 14px; }
-.session-preview-dialog :is(#preview-session-status,.session-countdown) { text-align: center; }
-.session-preview-dialog .preview-skip { display: flex; align-items: center; gap: 8px; font-size: .88rem; }
-#preview-skip-pauses { width: 16px; height: 16px; min-height: 0; padding: 0; margin: 0; flex: none; accent-color: var(--green); }
-#preview-session-skip { align-self: center; padding: 6px 8px; border: 0; border-radius: 5px; background: transparent; color: var(--green); cursor: pointer; font: inherit; font-size: .85rem; transition: background var(--motion); }
-#preview-session-skip:hover { background: var(--soft); }
-.session-preview-launch { width: 100%; margin-top: 12px; font-size: .82rem; }
+.audio-preview-actions { display: grid; gap: 8px; margin-top: 16px; }
+.audio-preview-actions .button { width: 100%; justify-content: flex-start; min-height: 38px; font-size: .82rem; }
+.audio-preview-status { margin: 8px 0 0; min-height: 1.4em; font-size: .77rem; line-height: 1.4; color: var(--quiet); }
 .jingle-settings .text-button { display: inline-flex; padding: 0; border: 0; background: transparent; color: var(--quiet); font: inherit; font-size: .78rem; cursor: pointer; transition: color var(--motion); }
 .jingle-settings .text-button:hover { color: var(--green); }
 @media(max-width:480px) { .jingle-pair { grid-template-columns: minmax(0,1fr); } .audio-dialog .dialog-content { padding: 16px; } }

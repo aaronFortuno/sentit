@@ -1,5 +1,12 @@
 # Canvis
 
+## 0.1.70 · 22 de novembre de 2026
+
+- Dos botons equivalents, sempre visibles, per escoltar la comprensió i el muntatge complet. Sessió completa directa al sidebar amb el pas actual, pausa i continuació, sense un popup intermedi.
+- La prova omet automàticament els temps d’espera; conserva les locucions, la sintonia, el ritme i les repeticions configurades. El QR i la sessió de l’alumnat conserven les pauses triades.
+- Interrogant al costat de Sintonia inicial amb explicació en passar-hi per sobre i accés al comparador. El popup descriu els quatre estils i manté una parella d’obertura/tancament per joc.
+- Reproduccions exclusives: iniciar un àudio atura l’altre; canviar de lectura o configuració atura la prova anterior.
+
 ## 0.1.69 · 22 de novembre de 2026
 
 - S045–S052: vuit guions de 3r i 4t, amb 53 preguntes, solucionari, ancoratges i escaleta. Tres relats de Ferran/Algenib, tres entrevistes Laia/Leda–Pau/Charon i dues Laia/Leda–Nora/Kore.

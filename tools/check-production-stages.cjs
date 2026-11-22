@@ -5,7 +5,7 @@ const {chromium}=require('C:/Users/afortun8/.cache/codex-runtimes/codex-primary-
  const {activities}=await import('../catalogue.js'),{productionStage,pendingProductionStages}=await import('../production-stage.js'),{productionProgress}=await import('../content/production-progress.js'),{needsReview}=await import('../review.js');
  const entry=code=>activities.find(e=>e.code===code),drafts=activities.filter(needsReview),expected=id=>drafts.filter(e=>!id||productionStage(e).id===id).map(e=>e.code).sort();
  assert.equal(productionStage(entry('S003')).id,'published');assert.equal(productionStage(entry('S001')),null,'No retrospective approval for old prototypes');
- const raw=productionProgress['ca-S006'],original=structuredClone(raw);try{raw.state='voices-received';assert.equal(productionStage(entry('S006')).id,'voices');raw.editorialFingerprint='stale';assert.equal(productionStage(entry('S006')).id,'script','Changed script cannot inherit approval');}finally{Object.assign(raw,original);}
+ const raw=productionProgress['ca-S028'],original=structuredClone(raw);try{raw.state='voices-received';assert.equal(productionStage(entry('S028')).id,'voices');raw.editorialFingerprint='stale';assert.equal(productionStage(entry('S028')).id,'script','Changed script cannot inherit approval');}finally{Object.assign(raw,original);}
  const feedback=productionProgress['ca-S010'].feedback,saved=structuredClone(feedback);try{assert.equal(productionStage(entry('S010')).id,'corrections');feedback.forEach(f=>f.status='applied');assert.equal(productionStage(entry('S010')).id,'montage');}finally{productionProgress['ca-S010'].feedback=saved;}
  const base='http://127.0.0.1:4270/',out=path.resolve(__dirname,'../../tmp/sentit-qa/production-stages');await fs.mkdir(out,{recursive:true});
  const server=fork(path.join(__dirname,'serve.cjs'),{env:{...process.env,SENTIT_PORT:'4270'},stdio:['ignore','pipe','inherit','ipc']});let browser;const errors=[];
@@ -14,7 +14,7 @@ const {chromium}=require('C:/Users/afortun8/.cache/codex-runtimes/codex-primary-
   await context.route('**/*',r=>new URL(r.request().url()).origin===new URL(base).origin?r.continue():r.abort());
   const page=await context.newPage();page.on('pageerror',e=>errors.push(e.message));await page.goto(base);await page.locator('.activity-card').first().waitFor();
   const settle=()=>page.evaluate(()=>Promise.all(document.getAnimations().map(a=>a.finished.catch(()=>{}))));
-  const codes=async()=>{for(let i=0;i<4;i++){await page.locator('.catalog-results-scroll').evaluate(n=>{n.scrollTop=n.scrollHeight;n.dispatchEvent(new Event('scroll'));});await page.evaluate(()=>new Promise(requestAnimationFrame));}return(await page.locator('.activity-card-code').allTextContents()).map(s=>s.split(' · ')[0]).sort();};
+  const codes=async()=>{for(let i=0;i<Math.ceil(activities.length/8)+2;i++){await page.locator('.catalog-results-scroll').evaluate(n=>{n.scrollTop=n.scrollHeight;n.dispatchEvent(new Event('scroll'));});await page.evaluate(()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(resolve))));}return(await page.locator('.activity-card-code').allTextContents()).map(s=>s.split(' · ')[0]).sort();};
   const phaseButton=id=>page.locator(`#production-phase-options [data-phase="${id}"]`);
   assert(await page.locator('#production-filter').isVisible());assert.equal(await page.locator('.production-phase-chip').count(),6);assert.deepEqual(await codes(),expected(''));
   for(const card of await page.locator('.activity-card').all()){

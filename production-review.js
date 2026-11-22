@@ -19,6 +19,9 @@ export function cardReviewUpdate(entry) {
   if (entry.reviewStatus === 'audio-review' && update?.audio === entry.audio) {
     return { id: 'montage-updated', title: 'reviewMontageUpdated', help: 'reviewListenAgain', summary: update.summary };
   }
+  if (entry.reviewStatus === 'audio-review' && entry.audio && progress?.feedback?.some(item => item.status === 'applied')) {
+    return { id: 'montage-updated', title: 'reviewMontageUpdated', help: 'reviewListenAgain', words: [...new Set(progress.feedback.filter(item => item.status === 'applied').map(item => item.word).filter(Boolean))].join(' · ') };
+  }
   if (entry.reviewStatus === 'audio-review' && entry.audio) return { id: 'audio-review', title: 'reviewMontageReady', help: 'reviewFirstListening' };
   return null;
 }

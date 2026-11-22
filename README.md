@@ -57,7 +57,7 @@ Els [criteris editorials d’autoria i revisió](docs/criteris-editorials.md) in
 
 S003, S004/S004D, S012, S018, S019 i S020 tenen il·lustració de context a la card, la fitxa i el solucionari. Activada per defecte a 80 mm, a la dreta; configurable i sense pistes que responguin les preguntes. Les transcripcions definitives només contenen les veus. [Tancament obligatori de publicació](docs/tancament-publicacio.md) · [Imatges i prompts](assets/images/README.md).
 
-«Prova la sessió completa» permet revisar sintonia, títol, locucions, ritme i repeticions amb el mateix reproductor de l’alumnat. Es poden saltar les esperes només a la prova, sense modificar la configuració del QR. Es conserva el reproductor del fragment sol.
+El sidebar mostra dos botons equivalents: «Escolta la comprensió» i «Escolta el muntatge complet». El segon arrenca directament la sintonia, el títol, les locucions i les repeticions al ritme triat, amb el pas actual indicat a sota. Omet les esperes només durant la prova; el QR conserva les pauses de l’alumnat. L’interrogant al costat de Sintonia inicial explica l’opció i obre el comparador dels quatre jocs, cadascun amb obertura, tancament i descripció.
 
 ## Revisar les propostes al web
 
