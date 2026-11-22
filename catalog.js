@@ -5,11 +5,12 @@ import { mountCatalogGestures } from './catalog-gestures.js';
 import { characters } from './content/characters.js';
 import { isPendingReview, needsReview } from './review.js';
 import { universes, universeName, universesForActivity } from './content/universes.js';
-import { reviewCaption, hasPendingSynthesisEdit } from './editorial-review.js';
+import { reviewCaption } from './editorial-review.js';
 import { track, countBucket } from './analytics.js';
 import { productionStage, productionStages, pendingProductionStages } from './production-stage.js';
 import { syncSelects } from './select-menu.js';
 import { matchesCatalogFilters, catalogFacetCounts } from './catalog-filters.js';
+import { cardReviewUpdate } from './production-review.js';
 
 const normalise = value => value.toLocaleLowerCase().normalize('NFD').replace(/\p{M}/gu, '');
 const activeKey = 'sentit.collection.active.v1';
@@ -241,8 +242,12 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
       if (awaitingValidation) {
         const overlay = element('span', undefined, 'activity-review-overlay');
         const stack = element('span', undefined, 'activity-review-stack');
-        const label = element('span', reviewCaption(entry, {reviewSynthesisEdit:t('reviewSynthesisEdit'),audioReview:t('audioReview'),reviewProvisional:t('reviewProvisional'),reviewInProgress:t('reviewInProgress'),reviewVoicesReceived:t('reviewVoicesReceived'),reviewReadyForVoices:t('reviewReadyForVoices')}), 'activity-review-label');
-        label.append(element('small', t(hasPendingSynthesisEdit(entry) ? 'reviewAlreadyListened' : 'openReview')));
+        const update = cardReviewUpdate(entry);
+        if (update) card.dataset.reviewUpdate = update.id;
+        const label = element('span', update ? t(update.title) : reviewCaption(entry, {reviewSynthesisEdit:t('reviewSynthesisEdit'),audioReview:t('audioReview'),reviewProvisional:t('reviewProvisional'),reviewInProgress:t('reviewInProgress'),reviewVoicesReceived:t('reviewVoicesReceived'),reviewReadyForVoices:t('reviewReadyForVoices')}), 'activity-review-label');
+        label.append(element('small', t(update?.help ?? 'openReview')));
+        const detail = update?.summary?.[locale()] ?? update?.summary?.ca ?? update?.words;
+        if (detail) label.append(element('small', detail, 'activity-review-detail'));
         const phase = productionStage(entry);
         card.dataset.productionPhase = phase.id;
         const progress = element('span', undefined, 'activity-progress production-phase');

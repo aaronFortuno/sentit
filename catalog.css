@@ -49,6 +49,10 @@
 .activity-card > .activity-review-overlay { position: absolute; inset: 0; z-index: 2; display: grid; place-items: center; padding: 18px; background: color-mix(in srgb, var(--panel) 25%, transparent); pointer-events: none; }
 .activity-review-label { display: grid; gap: 4px; padding: 11px 20px; border: 1px solid var(--type-edge); border-radius: 8px; background: var(--panel); color: var(--ink); box-shadow: 0 4px 20px #192d2718; text-align: center; font-size: .95rem; font-weight: 650; transform: rotate(-6deg); }
 .activity-review-label small { font-size: .74rem; color: var(--quiet); font-weight: 400; }
+.activity-review-label .activity-review-detail { color: var(--ink); line-height: 1.4; }
+.activity-card[data-review-update="repair-pending"] .activity-review-label { border-color: #a65b24; }
+.activity-card[data-review-update="repair-received"] .activity-review-label { border-color: #476e9b; }
+.activity-card[data-review-update="montage-updated"] .activity-review-label { border-color: var(--green); }
 .activity-review-stack { display: grid; justify-items: center; width: min(100%, 280px); gap: 14px; }
 .production-phase { --phase-color: var(--green); }
 .production-phase[data-phase="script"] { --phase-color: #a43f4c; }

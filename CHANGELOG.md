@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.68 · 22 de novembre de 2026
+
+- Cards amb estats diferenciats: esmena pendent de síntesi, prova rebuda encara sense aplicar i muntatge actualitzat per tornar a escoltar. Les paraules afectades es mostren quan estan registrades; rebre una prova no marca la incidència com a resolta.
+- S030 identifica el retall de pauses i cues; S039 identifica el guió esmenat i el muntatge nou. Els avisos continuen vinculats a la versió d’àudio corresponent, sense cap aprovació nova.
+- Seguiment amb només peces pendents; publicacions definitives i rebuts en documents separats. Regeneració conjunta de la cua, els recomptes i els enllaços a partir dels registres vigents.
+
 ## 0.1.67 · 21 de novembre de 2026
 
 - Muntades S006, S009, S029, S031 i S039 a partir de les veus rebudes, sense síntesi nova. Les cinc propostes passen a àudio pendent de validar. Autorització de muntatge local separada de les aprovacions de veu i de l’aprovació final del docent.

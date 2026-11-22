@@ -977,7 +977,15 @@ export const productionProgress = {
       "newRequests": 0,
       "originalPreserved": true
     },
-    "timingComparison": "./proves/pauses-s011-s027.html#S030"
+    "timingComparison": "./proves/pauses-s011-s027.html#S030",
+    "reviewUpdate": {
+      "audio": "./assets/audio/s030-timing-v2.mp3",
+      "at": "2026-11-22",
+      "summary": {
+        "ca": "Pauses i cua retallades; pendent de tornar a escoltar.",
+        "es": "Pausas y cola recortadas; pendiente de volver a escuchar."
+      }
+    }
   },
   "ca-S040": {
     "state": "ready-for-voices",
@@ -1288,7 +1296,8 @@ export const productionProgress = {
         "part": "final",
         "type": "pronunciation",
         "status": "pending",
-        "note": "El docent sent premre en lloc de prémer. Cap petició nova enviada."
+        "note": "El docent sent premre en lloc de prémer. Cap petició nova enviada.",
+        "word": "prémer"
       },
       {
         "part": "reaccio",
@@ -1444,7 +1453,8 @@ export const productionProgress = {
         "part": "finalreunio",
         "status": "pending",
         "type": "pronunciation",
-        "note": "El docent sent «Quan hagues/hagas parlat» en lloc de «Quan hagis parlat». Encara no s’ha sintetitzat cap correcció."
+        "note": "El docent sent «Quan hagues/hagas parlat» en lloc de «Quan hagis parlat». Encara no s’ha sintetitzat cap correcció.",
+        "word": "hagis"
       }
     ],
     "timingComparison": "./proves/pauses-s011-s027.html#S041"
@@ -1475,6 +1485,14 @@ export const productionProgress = {
       "status": "catalogue-approved",
       "selected": "ona-curta",
       "note": "Recurs ja aprovat; aquest muntatge encara espera audició."
+    },
+    "reviewUpdate": {
+      "audio": "./assets/audio/s039-news-v1.mp3",
+      "at": "2026-11-22",
+      "summary": {
+        "ca": "Guió esmenat i muntatge amb Ona curta; pendent d’audició.",
+        "es": "Guion corregido y montaje con Ona curta; pendiente de escucha."
+      }
     }
   },
   "ca-S031": {

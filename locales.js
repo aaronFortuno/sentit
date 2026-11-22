@@ -1,6 +1,11 @@
 export const strings = {
   ca: {
     language: 'ca',
+    reviewRepairPending: 'Esmena pendent de síntesi', reviewRepairWait: 'Ja revisada · Cal refer la veu',
+    reviewRepairReceived: 'Prova d’esmena rebuda', reviewRepairOriginal: 'Cal comparar · Original sense substituir', reviewRepairPartial: 'Esmenes parcialment rebudes',
+    reviewMontageUpdated: 'Muntatge actualitzat', reviewListenAgain: 'Esmena feta · Torna’l a escoltar', reviewMontageReady: 'Àudio muntat · Pendent d’audició', reviewFirstListening: 'A punt per revisar',
+    releaseDateReviewUpdates: '22 de novembre de 2026',
+    releaseReviewUpdates: 'Les cards diferencien esmenes de veu pendents, proves rebudes encara sense aplicar i muntatges actualitzats per tornar a escoltar. S030 identifica la revisió de pauses i S039 el guió esmenat amb muntatge nou. Documents de treball regenerats, amb pendents separats de publicacions i enviaments finalitzats.',
     comparePauseRevision: 'Compara la revisió de pauses', hearReceivedVoices: 'Escolta les veus rebudes', compareAudioCorrections: 'Compara les correccions de veu rebudes',
     releaseNewsMontages: 'S006, S009, S029, S031 i S039 ja tenen muntatge per escoltar, amb la sintonia Ona curta i ambients reals acreditats. Títols nets de farciment, pauses revisades i originals conservats. Les cinc notícies continuen pendents d’audició docent; cap petició nova de síntesi.',
     releaseTimingAndPublications: 'S027, S032, S038 i S038D definitives amb il·lustració i transcripció neta. Retirat l’ambient inicial de S038, amb veus i música conservades. Pauses tècniques escurçades a S011 i S030; retirats respiració i passos finals de S030 i les dues instruccions long pause de S041. Incidències de veu marcades com a pendents; originals i comparacions conservats.',
@@ -247,6 +252,11 @@ export const strings = {
   },
   es: {
     language: 'es',
+    reviewRepairPending: 'Corrección pendiente de síntesis', reviewRepairWait: 'Ya revisada · Falta rehacer la voz',
+    reviewRepairReceived: 'Prueba de corrección recibida', reviewRepairOriginal: 'Comparar · Original sin sustituir', reviewRepairPartial: 'Correcciones parcialmente recibidas',
+    reviewMontageUpdated: 'Montaje actualizado', reviewListenAgain: 'Cambio aplicado · Vuelve a escucharlo', reviewMontageReady: 'Audio montado · Pendiente de escucha', reviewFirstListening: 'Listo para revisar',
+    releaseDateReviewUpdates: '22 de noviembre de 2026',
+    releaseReviewUpdates: 'Las tarjetas diferencian correcciones de voz pendientes, pruebas recibidas todavía sin aplicar y montajes actualizados para volver a escuchar. S030 identifica la revisión de pausas y S039 el guion corregido con montaje nuevo. Documentos de trabajo regenerados, con pendientes separados de publicaciones y envíos finalizados.',
     comparePauseRevision: 'Compara la revisión de pausas', hearReceivedVoices: 'Escucha las voces recibidas', compareAudioCorrections: 'Compara las correcciones de voz recibidas',
     releaseNewsMontages: 'S006, S009, S029, S031 y S039 ya tienen montaje para escuchar, con la sintonía Ona curta y ambientes reales acreditados. Títulos sin relleno, pausas revisadas y originales conservados. Las cinco noticias siguen pendientes de audición docente; ninguna petición nueva de síntesis.',
     releaseTimingAndPublications: 'S027, S032, S038 y S038D definitivas con ilustración y transcripción limpia. Retirado el ambiente inicial de S038, con voces y música conservadas. Pausas técnicas reducidas en S011 y S030; retirados respiración y pasos finales de S030 y las dos instrucciones long pause de S041. Incidencias de voz pendientes; originales y comparaciones conservados.',
