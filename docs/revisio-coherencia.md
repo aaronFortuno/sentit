@@ -69,7 +69,7 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S058](https://sentit.ortogra.fi/#lectura=ca-S058) | La pancarta que tapava la porta | 5è | Provisional · revisió superada | 2026-11-22 | `56df8abc8b9a…` |
 | [ca-S059](https://sentit.ortogra.fi/#lectura=ca-S059) | La partida que no cabia a la taula | 5è | Provisional · revisió superada | 2026-11-22 | `90553a1f4742…` |
 | [ca-S060](https://sentit.ortogra.fi/#lectura=ca-S060) | Un soroll darrere de les veus | 6è | Provisional · revisió superada | 2026-11-22 | `50ec61443b79…` |
-| [ca-S061](https://sentit.ortogra.fi/#lectura=ca-S061) | El curt que començava pel final | 5è | Provisional · revisió superada | 2026-11-22 | `ac40b599a24f…` |
+| [ca-S061](https://sentit.ortogra.fi/#lectura=ca-S061) | El curt que començava pel final | 5è | Revisió superada · guió validat | 2026-11-22 | `ac40b599a24f…` |
 | [ca-S062](https://sentit.ortogra.fi/#lectura=ca-S062) | Dos cartells per al mateix concert | 6è | Revisió superada · guió validat | 2026-11-22 | `06c5723fb0f3…` |
 | [ca-S063](https://sentit.ortogra.fi/#lectura=ca-S063) | El pont de paper es doblega | 5è | Provisional · revisió superada | 2026-11-22 | `03499ba64c42…` |
 | [ca-S064](https://sentit.ortogra.fi/#lectura=ca-S064) | Un anunci que va massa de pressa | 5è | Provisional · revisió superada | 2026-11-22 | `b5a8de32d7d2…` |
@@ -82,7 +82,7 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S070](https://sentit.ortogra.fi/#lectura=ca-S070) | El dia que no va sonar el disc | 6è | Provisional · revisió superada | 2026-11-22 | `c329111785d5…` |
 | [ca-S071](https://sentit.ortogra.fi/#lectura=ca-S071) | Les dues entrades blaves | 5è | Provisional · revisió superada | 2026-11-22 | `63e0c902e8ff…` |
 | [ca-S072](https://sentit.ortogra.fi/#lectura=ca-S072) | El quadern de la parada | 6è | Provisional · revisió superada | 2026-11-22 | `b7efd9ded637…` |
-| [ca-S073](https://sentit.ortogra.fi/#lectura=ca-S073) | El dinar que surt en dues tandes | 5è | Provisional · revisió superada | 2026-11-22 | `072b5aceaffb…` |
+| [ca-S073](https://sentit.ortogra.fi/#lectura=ca-S073) | El dinar que surt en dues tandes | 5è | Revisió superada · guió validat | 2026-11-22 | `072b5aceaffb…` |
 | [ca-S074](https://sentit.ortogra.fi/#lectura=ca-S074) | Les dues llibretes del pastís | 5è | Revisió superada · guió validat | 2026-11-22 | `a6a24886eb9e…` |
 | [ca-S075](https://sentit.ortogra.fi/#lectura=ca-S075) | La foto del plat de demà | 6è | Revisió superada · guió validat | 2026-11-22 | `94294ae5942a…` |
 | [ca-S076](https://sentit.ortogra.fi/#lectura=ca-S076) | L’encàrrec que havia crescut | 5è | Revisió superada · guió validat | 2026-11-22 | `f2370f29f20a…` |

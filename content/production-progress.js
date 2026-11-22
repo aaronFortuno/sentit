@@ -1807,5 +1807,37 @@ export const productionProgress = {
     "listeningApproval": false,
     "confirmation": "S046 validada per síntesi de veus",
     "reason": "Agrupar records complets validats de Ferran/Algenib fins a sis a vuit minuts. La variant S046D queda pendent de validació pròpia."
+  },
+  "ca-S073": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-22T19:57:00.644Z",
+    "editorialFingerprint": "072b5aceaffba4c101b890ece9f7bd1523f2bd168cedc2eaf8d9c435c2d2d406",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "S073 validada per síntesi de veus",
+    "reason": "Agrupar lectures completes validades de Laia/Leda i Ona/Sulafat fins a sis a vuit minuts."
+  },
+  "ca-S061": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-22T19:57:00.644Z",
+    "editorialFingerprint": "ac40b599a24fbc8cd411d7fda81b5e0eff7085933ee751da5542974614ab6de2",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "S061 validada per síntesi de veus",
+    "reason": "Agrupar lectures completes validades de Laia/Leda i Biel/Puck fins a sis a vuit minuts. Confirmar curs i dificultat escoltant el muntatge.",
+    "gradingReview": {
+      "status": "pending-listening",
+      "reviewAfter": "mounted-audio",
+      "currentGrade": "5",
+      "currentLevel": "advanced",
+      "candidateGrade": "6",
+      "candidateLevels": [
+        "middle",
+        "advanced"
+      ],
+      "reviewCourse": true,
+      "reviewDifficulty": true,
+      "note": "Valorar el pas a 6è intermèdia o avançada després d’escoltar l’àudio muntat. Ara es mantenen 5è avançada i vuit preguntes, sense requalificació aplicada."
+    }
   }
 };

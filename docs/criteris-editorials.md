@@ -27,6 +27,14 @@ Conservar les negacions que informen d’un fet, les prohibicions necessàries d
 
 Els infants i joves fan propostes parcials, recorden un detall, dubten i ajusten el que havien pensat. La solució pot sorgir de dues o tres rèpliques. Evitar que improvisin un pla professional o que la mestra converteixi cada conversa en un protocol i un informe. Una anotació pot ser versemblant quan realment ajuda en aquella situació; no és un tancament obligatori.
 
+### Calibratge de les converses de Laia i Biel
+
+Retorn docent del 22/11/2026: aquest duet està generant propostes més exigents del que sovint suggeria el curs i la dificultat inicials. Per a les següents, baixar una mica la càrrega de comprensió des del guió: situar aviat una acció concreta i un problema principal, distribuir les dades en torns curts i reduir els salts temporals, les versions de missatges i les persones o objectes que cal relacionar simultàniament.
+
+Una conversa amb paraules senzilles pot exigir molt si s’hi explica una altra història, es comparen diverses versions o canvia repetidament qui sap cada cosa. Autor i revisor han de reconstruir el que es podrà seguir només escoltant, sense tenir el text davant per rellegir-lo. Conservar el registre juvenil i la naturalitat; alleugerir la situació en lloc d’afegir reserves o aclariments anticipats.
+
+Assignar el nivell amb prudència i confirmar-lo després de l’àudio muntat. S061 conserva 5è avançada mentre es valora la proposta docent de 6è intermèdia o avançada. Aquesta observació no requalifica automàticament altres peces validades.
+
 ### Escenes d’aula: comprovar el registre del conjunt
 
 La mestra parla amb el grup mentre fan alguna cosa concreta. Pot donar instruccions clares i posar límits, però no ha de dirigir cada activitat com una reunió administrativa. Apartats de pendents, acords confirmats, responsables, còpies i lectures finals no són un procediment d’aula per defecte. Conservar una anotació o un repartiment de feines quan ajuda realment, sense desplegar tot un sistema de control per anticipar incidències inexistents.
