@@ -1798,5 +1798,14 @@ export const productionProgress = {
       "candidateGradeLabel": "Es manté 6è",
       "note": "Confirmar la dificultat després d’escoltar l’àudio muntat. Es mantenen provisionalment 6è avançada i nou preguntes; cap canvi de curs proposat."
     }
+  },
+  "ca-S046": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-22T19:47:42.525Z",
+    "editorialFingerprint": "6dec967b93b54be0c0e7d1b976141867e7689b79a650a12f85990f370e75bdc7",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "S046 validada per síntesi de veus",
+    "reason": "Agrupar records complets validats de Ferran/Algenib fins a sis a vuit minuts. La variant S046D queda pendent de validació pròpia."
   }
 };

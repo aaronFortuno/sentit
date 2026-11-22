@@ -1,6 +1,6 @@
 # Revisió independent de coherència
 
-Actualitzat: **22/11/2026**. **83 de 83** propostes de la tanda tenen revisió independent superada per a la versió actual. Abast: 637 preguntes i 787 cites literals.
+Actualitzat: **22/11/2026**. **84 de 84** propostes de la tanda tenen revisió independent superada per a la versió actual. Abast: 644 preguntes i 798 cites literals.
 
 S’han revisat situacions, cronologia, circulació d’objectes, coneixement dels personatges, causes i desenllaços, acotacions sonores, preguntes, respostes i ancoratges. Les dades factuals sensibles s’han contrastat amb fonts primàries indicades al [dossier editorial](lot-editorial-24.md). La revisió del muntatge és sobre el guió; les veus i el resultat sonor requeriran audició.
 
@@ -53,7 +53,8 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S043](https://sentit.ortogra.fi/#lectura=ca-S043) | El balcó que només era al paper | 6è | Revisió superada · àudio pendent | 2026-11-21 | `b0a2b6518035…` |
 | [ca-S044](https://sentit.ortogra.fi/#lectura=ca-S044) | El recompte del programa | 6è | Revisió superada · àudio pendent | 2026-11-21 | `e904b4f74368…` |
 | [ca-S045](https://sentit.ortogra.fi/#lectura=ca-S045) | Les cadires del cinema | 4t | Provisional · revisió superada | 2026-11-22 | `76ec33e0deeb…` |
-| [ca-S046](https://sentit.ortogra.fi/#lectura=ca-S046) | La clau del davantal | 4t | Provisional · revisió superada | 2026-11-22 | `6dec967b93b5…` |
+| [ca-S046](https://sentit.ortogra.fi/#lectura=ca-S046) | La clau del davantal | 4t | Revisió superada · guió validat | 2026-11-22 | `6dec967b93b5…` |
+| [ca-S046D](https://sentit.ortogra.fi/#lectura=ca-S046D) | La clau del davantal · versió dialogada | 4t | Provisional · revisió superada | 2026-11-22 | `1db713701888…` |
 | [ca-S047](https://sentit.ortogra.fi/#lectura=ca-S047) | La maleta que feia soroll | 4t | Provisional · revisió superada | 2026-11-22 | `982ea2797ea3…` |
 | [ca-S048](https://sentit.ortogra.fi/#lectura=ca-S048) | Les caixes que tornen | 3r | Provisional · revisió superada | 2026-11-22 | `b4f97ed8c715…` |
 | [ca-S049](https://sentit.ortogra.fi/#lectura=ca-S049) | La parada es mou un matí | 3r | Provisional · revisió superada | 2026-11-22 | `50db317831e7…` |

@@ -29,7 +29,7 @@ Aquests grups incorporen els guions nous pendents de validació docent. No ampli
 
 | Proposta | Repartiment | Comprensions | Previsió amb marges | Mida orientativa | Guions validats |
 | --- | --- | --- | ---: | --- | ---: |
-| P01 | Ferran · Algenib | [ca-S045](https://sentit.ortogra.fi/#lectura=ca-S045), [ca-S046](https://sentit.ortogra.fi/#lectura=ca-S046), [ca-S047](https://sentit.ortogra.fi/#lectura=ca-S047) | 6:10 | Dins la finestra prevista | 0/3 |
+| P01 | Ferran · Algenib | [ca-S045](https://sentit.ortogra.fi/#lectura=ca-S045), [ca-S046](https://sentit.ortogra.fi/#lectura=ca-S046), [ca-S047](https://sentit.ortogra.fi/#lectura=ca-S047) | 6:10 | Dins la finestra prevista | 1/3 |
 | [P04](lot-cicle-superior.md#mar) | Mar · Erinome | [ca-S053](https://sentit.ortogra.fi/#lectura=ca-S053), [ca-S054](https://sentit.ortogra.fi/#lectura=ca-S054), [ca-S055](https://sentit.ortogra.fi/#lectura=ca-S055) | 6:06 | Dins la finestra prevista | 0/3 |
 | [P05](lot-cicle-superior.md#mar) | Mar · Erinome | [ca-S056](https://sentit.ortogra.fi/#lectura=ca-S056), [ca-S057](https://sentit.ortogra.fi/#lectura=ca-S057) | 6:00 | Dins la finestra prevista | 1/2 |
 | [P06](lot-cicle-superior.md#laia-biel) | Laia i Biel · Leda + Puck | [ca-S058](https://sentit.ortogra.fi/#lectura=ca-S058), [ca-S060](https://sentit.ortogra.fi/#lectura=ca-S060), [ca-S061](https://sentit.ortogra.fi/#lectura=ca-S061) | 6:33 | Dins la finestra prevista | 0/3 |

@@ -50,6 +50,7 @@ export const listeningContexts = {
   'ca-S044': 'La Laia i en Biel preparen una nova presentació del seu programa. Han mirat les escoltes i els comentaris que han rebut, i tenen ganes d’explicar com els ha anat. Escolta la conversa mentre ho preparen.',
   'ca-S045': 'L’avi Ferran recorda una sessió de cinema de quan era petit. Hi va anar amb moltes ganes de veure la pel·lícula i de trobar un bon lloc. Escolta com va viure aquell vespre.',
   'ca-S046': 'En Ferran necessitava entrar al cobert, però abans havia de trobar la clau. Avui ho recorda mentre parla amb l’Aina. Escolta la història i acompanya’l mentre pensa on pot haver quedat.',
+  'ca-S046D': 'L’Aina pregunta a l’avi Ferran pels dies que passava a casa de la seva àvia. Ell recorda un matí que van estar buscant una clau. Escolta la conversa i acompanya’ls mentre pensen on pot haver quedat.',
   'ca-S047': 'De petit, en Ferran va fer un viatge amb la família. Durant el trajecte sentia un soroll a dins de la maleta que el feia estar ben pendent. Escolta què recorda d’aquell viatge.',
   'ca-S048': 'La Laia torna a visitar la parada d’en Pau. Avui el troba amb caixes buides i s’atura a conversar amb ell. Escolta què li pregunta mentre ell continua preparant les coses del mercat.',
   'ca-S049': 'La Laia arriba al mercat i va cap a la parada d’en Pau, però no la veu al lloc de sempre. Quan el troba, s’atura a saludar-lo. Escolta què li explica d’aquell matí.',

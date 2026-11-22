@@ -1,5 +1,12 @@
 # Canvis
 
+## 0.1.76 · 22 de novembre de 2026
+
+- S046 narrada validada per síntesi, amb guió, 4t accessible, set preguntes i veu Ferran/Algenib conservats; sense cap petició nova.
+- S046D: variant dialogada d’«La clau del davantal» amb Aina/Zephyr i Ferran/Algenib. Set preguntes, solucionari, cites, context i escaleta propis amb una presa completa. Revisió independent superada; pendent de validació docent de la variant. L’original es conserva.
+- Registre de contextos ampliat a 87 peces, amb els 86 anteriors intactes. Criteri editorial de l’avi Ferran: tendresa, nostàlgia, humor i records concrets, sense moralines afegides.
+- Anotada una línia futura de variants de dificultat i suports sobre una mateixa història, orientada al DUA i pendent de pilot després de consolidar el catàleg. Encara sense canvis als filtres ni a l’organització en famílies.
+
 ## 0.1.75 · 22 de novembre de 2026
 
 - S057 validada per síntesi; es conserven 6è avançada i les nou preguntes. La dificultat es confirmarà escoltant l’àudio muntat.

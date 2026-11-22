@@ -10,6 +10,8 @@ Les fitxes inclouen **Context amb Sentit**, un text breu abans de les instruccio
 
 [S069D · La pissarra del partit, versió dialogada](https://sentit.ortogra.fi/#lectura=ca-S069D) conserva la història de S069 i hi incorpora la conversa entre l’Aina i l’avi Ferran. Guió, vuit preguntes, solucionari i escaleta pendents de validació docent pròpia; l’original narrat està validat per a síntesi.
 
+[S046D · La clau del davantal, versió dialogada](https://sentit.ortogra.fi/#lectura=ca-S046D) és una altra conversa de l’Aina i l’avi Ferran, amb set preguntes i validació docent pendent. S046 narrada es conserva i està validada per síntesi. La futura línia de [variants de dificultat i suports](docs/variants-i-suports.md), orientada al DUA, queda anotada per treballar-la després de consolidar el catàleg.
+
 **Tandes noves · 22/11:** [S053–S082 de 5è–6è](docs/lot-cicle-superior.md), trenta propostes amb índex de validació per repartiments; i [S045–S052 de 3r–4t](docs/lot-cicle-mitja.md), vuit propostes. Totes amb guió, preguntes, solucionari, escaleta i revisió independent. Validació docent en curs: el [seguiment de feina oberta](docs/seguiment-produccio.md) i la [cua de síntesi](docs/lots-sintesi.md) indiquen l’estat vigent de cada peça i els recomptes actuals. Les notes de tandes anteriors següents són històriques.
 
 [«Vida quotidiana»](docs/vida-quotidiana.md) queda reservada per a una futura tanda de cicle inicial i mitjà: converses més espontànies de botiga, parc, carrer i casa, amb els recurrents actuals. Encara no activa cap univers ni curs nou al catàleg.

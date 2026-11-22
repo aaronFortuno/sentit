@@ -23,15 +23,20 @@ const { chromium } = require('C:/Users/afortun8/.cache/codex-runtimes/codex-prim
       await page.evaluate(() => document.fonts.ready);
     };
     const settle = () => page.evaluate(() => Promise.all(document.getAnimations().map(animation => animation.finished.catch(() => {}))));
-    await page.goto(base + '#lectura=ca-S069D');
-    await page.locator('#workspace').waitFor({ state: 'visible' });
-    assert.equal(await page.locator('#answers-mode').getAttribute('aria-pressed'), 'true', 'New provisional opens on its script and answer key');
-    assert(await page.locator('#print').isDisabled(), 'Variant awaits teacher approval');
-    const scriptText = await page.locator('#paper').innerText();
-    assert(scriptText.includes('Avi, de petit ja t’agradava el futbol?'));
-    assert(scriptText.indexOf('Muntatge previst:') < scriptText.indexOf('Quina feina fa en Ferran'), 'Script before questions for validation');
-    await settle();
-    await page.screenshot({ path: path.join(out, 's069d-script.png') });
+    for (const [code, opening, firstQuestion] of [
+      ['S069D', 'Avi, de petit ja t’agradava el futbol?', 'Quina feina fa en Ferran'],
+      ['S046D', 'Avi, tu tenies un hort quan eres petit?', 'Què volia treure en Ferran'],
+    ]) {
+      await page.goto(base + '#lectura=ca-' + code);
+      await page.locator('#workspace').waitFor({ state: 'visible' });
+      assert.equal(await page.locator('#answers-mode').getAttribute('aria-pressed'), 'true', 'New provisional opens on its script and answer key');
+      assert(await page.locator('#print').isDisabled(), 'Variant awaits teacher approval');
+      const scriptText = await page.locator('#paper').innerText();
+      assert(scriptText.includes(opening));
+      assert(scriptText.indexOf('Muntatge previst:') < scriptText.indexOf(firstQuestion), 'Script before questions for validation');
+      await settle();
+      await page.screenshot({ path: path.join(out, code.toLowerCase() + '-script.png') });
+    }
     await open('S003');
     assert(await page.locator('#show-context').isChecked());
     assert.equal(await page.locator('.paper-listening-context').count(), 1);

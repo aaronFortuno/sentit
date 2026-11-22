@@ -276,6 +276,12 @@ export const editorialReviews = {
     "reviewer": "revisio_tanda3_ferran",
     "fingerprint": "6dec967b93b54be0c0e7d1b976141867e7689b79a650a12f85990f370e75bdc7"
   },
+  "ca-S046D": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "revisio_contextos_previs",
+    "fingerprint": "1db71370188819e187a585c6f068a4a47e12e739c4f87922065a6ac67897455f"
+  },
   "ca-S047": {
     "status": "passed",
     "reviewedAt": "2026-11-22",

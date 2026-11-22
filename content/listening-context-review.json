@@ -3,8 +3,8 @@
   "status": "passed",
   "reviewedAt": "2026-11-22",
   "reviewer": "revisio_contextos_previs",
-  "scope": "86 contextos impresos contrastats amb guions, preguntes i respostes. S069D revisada independentment, amb els 85 contextos previs intactes. Sense canvi d’aprovacions docents ni de veus.",
-  "fileSha256": "b81f10dd4b5672c16263a060525ed33e2d51c926ef6fdeef455615eec1fd96ae",
+  "scope": "87 contextos impresos contrastats amb guions, preguntes i respostes. S046D revisada independentment, amb els 86 contextos previs intactes. Sense canvi d’aprovacions docents ni de veus.",
+  "fileSha256": "fe556cb4077ed7ce2976a268ed0a9b2f2fee5706e3771f19efe991afb5a38844",
   "entries": {
     "ca-S001": {
       "contextSha256": "86a2e53e056b3476191785f60aeb95ceaeed57b5958b995a1c5ac832470bfedf",
@@ -349,6 +349,10 @@
     "ca-S069D": {
       "contextSha256": "8490d76aa0d1fe93c7492c20d9de9eca4a5baf4754e0738824346fd9e6433a14",
       "sourceSha256": "9a75ebb84b73b28318f2c55dde1c82ff9f4bce4409ce1dac434616ca2a9bceba"
+    },
+    "ca-S046D": {
+      "contextSha256": "338f6802754ef918c35ad9a165983f0756665c1e2234f1b069be00ef44f9993f",
+      "sourceSha256": "a7ee9ba5805c3da596c35891c3f855048deb60e28d207ca24ef5c206d3b4e9f4"
     }
   }
 }

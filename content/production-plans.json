@@ -1075,9 +1075,9 @@
     "ending": "Marges de consonants, pujada i fosa segons escaleta. Cap síntesi abans de validació docent; agrupar amb comprensions compatibles."
   },
   "S046": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "cee81c91d35cb9408dbf313672da03245bd6ad886fa4582d1970dadb06f0b2ca",
+    "reviewedAt": "2026-11-22T19:47:42.525Z",
     "reviewActivity": "ca-S046",
     "reviewContent": "content/propostes/tanda3/ferran.js",
     "format": "Proposta curta de 3r–4t amb repartiment constant, guió, preguntes, solucionari i escaleta per revisar al web.",
@@ -1086,7 +1086,13 @@
     },
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
-    "ending": "Marges de consonants, pujada i fosa segons escaleta. Cap síntesi abans de validació docent; agrupar amb comprensions compatibles."
+    "ending": "Veus i muntatge segons l’escaleta validada. Síntesi dins un lot compatible de sis a vuit minuts; audició i publicació definitiva pendents.",
+    "cues": [
+      "Ambient d’estança enregistrat i base «Una butxaca amb farina» proposada. Dos segons per situar-nos; baixar el fons abans de Ferran.",
+      "Pausa curta amb roba real manipulada suaument. Cap so de clau abans que el relat expliqui la troballa.",
+      "Acabar la veu sencera; pujada de dos segons de la base, fosa de dos segons i 600 ms de silenci final."
+    ],
+    "approvalSource": "Validació explícita del docent el 22/11/2026: «S046 validat per síntesi de veu». Guió narrat, Ferran/Algenib i escaleta autoritzats. Es mantenen 4t accessible i set preguntes. L’encàrrec de S046D és una proposta dialogada independent, amb validació docent pròpia pendent."
   },
   "S047": {
     "status": "awaiting-validation",
@@ -1712,5 +1718,25 @@
     },
     "strategy": "packed-title-program-v1",
     "ending": "Proposta independent de S069. Cap síntesi fins a la validació docent de la variant; després agrupar repartiments complets compatibles."
+  },
+  "S046D": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S046D",
+    "reviewContent": "content/propostes/s046-dialogada.js",
+    "format": "Variant dialogada de S046, que es conserva. 4t accessible: seguir el recorregut d’un objecte, relacionar els records del matí amb la cerca i explicar per què unes butxaques eren buides. Mateixes set exigències de comprensió, amb dos referents auditius i una conversa familiar. Pendent de validació docent pròpia.",
+    "cues": [
+      "Base musical càlida molt baixa, amb dos segons d’entrada. Aina i Ferran conversen en el present. Les acotacions i els records no afegeixen altres veus.",
+      "Pausa curta de conversa; la base continua molt tènue. Cap efecte de descoberta.",
+      "Acabar la veu sencera, pujar la base dos segons i fer una fosa de dos segons. Tancar amb 600 ms de silenci, sense altres veus ni sons de claus."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Aina": "Zephyr",
+      "Ferran": "Algenib"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Proposta independent de S046. Cap síntesi fins a la validació docent de la variant; després agrupar lectures completes del mateix repartiment en un lot compatible."
   }
 }
