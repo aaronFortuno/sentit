@@ -2,7 +2,7 @@
 
 Banc de comprensió oral d’ortogra.fi. El docent tria una activitat, prepara la fitxa i el solucionari i els imprimeix. L’alumnat respon al paper i escolta l’àudio des del QR o l’enllaç. Web estàtic, sense comptes ni servidor d’aplicació.
 
-[Obre Sentit](https://sentit.ortogra.fi/) · [Seguiment per fases](docs/seguiment-produccio.md) · [Sintonies](https://sentit.ortogra.fi/proves/sintonies-mireia.html)
+[Obre Sentit](https://sentit.ortogra.fi/) · [Feina pendent](docs/seguiment-produccio.md) · [Publicacions finalitzades](docs/publicades.md) · [Cua de síntesi](docs/lots-sintesi.md) · [Sintonies](https://sentit.ortogra.fi/proves/sintonies-mireia.html)
 
 El projecte continua a la sèrie **0.1.x** mentre el docent valida el material i la interfície. El pas a 0.2 serà una decisió explícita.
 
@@ -33,7 +33,7 @@ En la vista de provisionals, cada card mostra el número de fase i una barra de 
 
 [Pla de lots de síntesi](docs/lots-sintesi.md): finestra de **6–8 minuts estimats**, una o dues veus, un sol enviament en curs i almenys 65 segons entre inicis. Previsió recalibrada amb els pilots a 170 mots/minut; no s’alenteix ni s’accelera la veu. Les aprovacions, l’espai en disc, els duplicats i la quota compartida es comproven abans de llegir claus o reservar quota. Peticions exactes i rebuts públics a [assets/audio/synthesis-batches](assets/audio/synthesis-batches); WAV crus, respostes completes i mapes de tall conservats localment.
 
-Queden dos enviaments de marge dins el topall de deu, però els lots actuals incomplets esperen. El control editorial històric de S015 també s’ha de conciliar abans de preparar-ne l’esmena; no s’ha modificat el control d’aprovació. No hi ha cap bucle automàtic de síntesi.
+Els lots incomplets esperen material compatible. La [cua vigent](docs/lots-sintesi.md) es regenera amb els registres de producció; els enviaments rebuts tenen un [històric separat](docs/historic-sintesi.md). No hi ha cap bucle automàtic de síntesi ni un comptador de quota restant en aquests documents.
 
 ## Catàleg, col·leccions i sintonies
 
