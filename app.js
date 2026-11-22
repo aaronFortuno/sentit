@@ -1,6 +1,6 @@
 import { activities, legacyActivities } from './catalogue.js';
 import { renderRepairPreview, renderVoicePreview } from './repair-preview.js';
-import { strings } from './locales.js';
+import { strings } from './locales.js?v=0.1.78-changelog';
 import { defaultFormat, imageOptions, maxLines, questionFormat, renderWorksheet } from './worksheet.js';
 import { clockTime, decodeSession, defaultSession, encodeSession, guidedPrompts, validRate, sessionJingles, validJingle } from './session.js';
 import { renderAudioResources } from './audio-resources.js';
@@ -410,7 +410,10 @@ function player(entry) {
 function translate() {
   document.documentElement.lang = language;
   document.title = t('title');
-  for (const element of document.querySelectorAll('[data-t]')) element.textContent = t(element.dataset.t);
+  for (const element of document.querySelectorAll('[data-t]')) {
+    const text = t(element.dataset.t);
+    if (typeof text === 'string') element.textContent = text;
+  }
   for (const element of document.querySelectorAll('[data-label]')) {
     element.setAttribute('aria-label', t(element.dataset.label));
     if (element.matches('button')) element.title = t(element.dataset.label);
