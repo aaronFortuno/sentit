@@ -23,8 +23,10 @@ async function main(){
  const id=process.argv.find(a=>a.startsWith('--only='))?.slice(7).toUpperCase(),catalog=JSON.parse(await fs.readFile(path.join(root,'content/synthesis-batches.json'),'utf8')),batch=catalog.batches.find(b=>b.id===id);if(!batch?.approvedRequestHash)throw Error('Lot no congelat.');
  const folder=path.join(work,'mixed-batches',id.toLowerCase()+'-'+batch.approvedRequestHash.slice(0,12)),raw=path.join(folder,'raw.wav'),attempt=JSON.parse(await fs.readFile(path.join(folder,'attempt.json'),'utf8')),bytes=await fs.readFile(raw);if(attempt.state!=='raw-received'||attempt.rawSha256!==sha(bytes))throw Error('Presa rebuda no íntegra.');
  const blocks=JSON.parse(await fs.readFile(path.join(folder,'blocks.json'),'utf8')),{activities}=await import('../catalogue.js');
+ const missingTitles=new Set((process.argv.find(a=>a.startsWith('--missing-introduction='))?.split('=')[1]??'').split(',').filter(Boolean));
+ if([...missingTitles].some(id=>!blocks.some(b=>b.id===id&&b.take&&b.parts[0]==='introduction')))throw Error('Missing-title exception must name an existing whole take.');
  const expected=[],segments=[];
- for(const block of blocks){const entry=activities.find(e=>e.code===block.code);for(const [partIndex,part] of block.parts.entries()){const text=block.take?(part==='introduction'?entry.introduction:entry.transcript.find(p=>p.id===part)?.text):block.items[0].text;if(!text)throw Error('Text d’origen absent.');const words=tokens(text);segments.push({block:block.id,code:block.code,part,text,partIndex,partCount:block.parts.length,offset:expected.length,length:words.length});expected.push(...words);}}
+ for(const block of blocks){const entry=activities.find(e=>e.code===block.code);for(const [partIndex,part] of block.parts.entries()){if(part==='introduction'&&missingTitles.has(block.id))continue;const text=block.take?(part==='introduction'?entry.introduction:entry.transcript.find(p=>p.id===part)?.text):block.items[0].text;if(!text)throw Error('Text d’origen absent.');const words=tokens(text);segments.push({block:block.id,code:block.code,part,text,partIndex,partCount:block.parts.length,offset:expected.length,length:words.length});expected.push(...words);}}
  const alignmentFile=process.argv.find(a=>a.startsWith('--alignment='))?.slice(12);
  const recognition=alignmentFile?JSON.parse(await fs.readFile(path.resolve(alignmentFile),'utf8')):await recognize(raw,path.join(folder,'alignment.json'));
  if(recognition.sha256!==attempt.rawSha256)throw Error('Alineació d’una altra presa.');
@@ -51,6 +53,7 @@ async function main(){
    const cut=silenceCut(spans[0].end,spans[1].start,silences);info.titleCut=cut-start;
    for(const [name,from,to]of [['intro',start,cut],['body',cut,end]]){const file=path.join(folder,block.id.toLowerCase()+'-'+name+'.wav');ffmpeg(binary,['-v','error','-y','-i',raw,'-af',`atrim=start=${from}:end=${to},asetpts=PTS-STARTPTS`,'-c:a','pcm_s16le',file]);info[name]={file,sha256:sha(await fs.readFile(file)),seconds:to-from};}
   }
+  if(missingTitles.has(block.id)){info.missingParts=['introduction'];info.titleCut=0;info.body={file:blockFile,sha256:info.sha256,seconds:info.seconds};}
   cuts.push(info);
  }
  await fs.writeFile(path.join(folder,'split.json'),JSON.stringify({batch:id,requestHash:batch.approvedRequestHash,rawSha256:attempt.rawSha256,seconds:recognition.duration,expectedWords:expected.length,recognizedWords:recognition.words.length,coverage:map.filter(Boolean).length/map.length,silences,cuts,uncertainties,pronunciationValidation:'pending-listening'},null,2)+'\n');

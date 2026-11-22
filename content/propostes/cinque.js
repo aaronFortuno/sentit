@@ -44,9 +44,10 @@ export const cinque = [
   }),
   proposal({
     id: 'una-troballa-al-jaciment', code: 'S016', title: 'Una troballa al jaciment', grade: '5', level: 'middle', genre: 'news',
-    seconds: 141, status: 'ready-for-review', reviewStatus: 'audio-review',
-    audio: './assets/audio/s016-jaciment-v1.mp3', tracks: { introduction: './assets/audio/s016-jaciment-v1-intro.mp3', body: './assets/audio/s016-jaciment-v1-cos.mp3' },
-    fragment: { start: 5.38, seconds: 135 },
+    recordingCues: [{"before":"fet","text":"Entrada de Breaking News Background Music, de Grand_Project. Base contínua molt atenuada i comprimida sota les veus; sense els papers ni la sintonia anterior."},{"after":"final","text":"Pujada progressiva cap al tancament musical comú i fosa final. El muntatge continua pendent d’audició docent."}],
+    seconds: 143, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s016-news-common-v2.mp3', tracks: { introduction: './assets/audio/s016-news-common-v2-intro.mp3', body: './assets/audio/s016-news-common-v2-cos.mp3' },
+    fragment: { start: 5.95, seconds: 137 },
     summary: 'La Mar diferencia una troballa observada, una explicació possible i un titular que s’ha avançat massa.',
     voices: { Mar: 'Erinome' }, delivery: 'Periodista adulta rigorosa i propera. Distingir la citació d’un rumor amb l’entonació, sense convertir-la en una altra veu ni exagerar les correccions.',
     editorialFocus: '5è intermèdia: separar observacions, hipòtesis i missatges no confirmats. Tota la notícia és de ficció; els procediments generals es contrasten.',

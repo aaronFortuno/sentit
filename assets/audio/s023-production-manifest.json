@@ -8,7 +8,7 @@
     "Presentadora": "Erinome",
     "Pau": "Charon"
   },
-  "newSynthesisRequests": 1,
+  "newSynthesisRequests": 0,
   "approvalFingerprint": "9b9450bf5f3f2f61ec009a99728fcf20788de66eead40f4e822079a60fdac521",
   "requestHash": "f7ee3c6c2597e5eb39bfb92198870b47cd4920be40893e18ec23944bf6ba7d3c",
   "rawSha256": "eac80f2575c694144fa2d8ddde29f7bfe58c036b619cb9c97dce39c92f3c0736",
@@ -41,14 +41,14 @@
     "peakDbFS": -58.5,
     "rawSamplesPreserved": true
   },
-  "file": "s023-mercat-v2.mp3",
-  "introFile": "s023-mercat-v2-intro.mp3",
-  "bodyFile": "s023-mercat-v2-cos.mp3",
-  "offset": 6.805,
-  "bodyDuration": 196.305,
-  "fullDuration": 203.11,
-  "lufs": -19.8,
-  "peakDbTP": -2.8,
+  "file": "s023-news-common-v2.mp3",
+  "introFile": "s023-news-common-v2-intro.mp3",
+  "bodyFile": "s023-news-common-v2-cos.mp3",
+  "offset": 7.375,
+  "bodyDuration": 193.655,
+  "fullDuration": 201.03,
+  "lufs": -19.39,
+  "peakDbTP": -2.48,
   "voice": {
     "bodyLead": 4.6,
     "bodyRawDuration": 186.905,
@@ -57,30 +57,36 @@
   },
   "effects": [
     {
-      "name": "ona-curta-obertura",
+      "name": "grand-project-breaking-news-505617",
+      "origin": "licensed-music-in-montage",
       "start": 0,
-      "end": 4,
-      "origin": "original-procedural",
-      "source": "assets/audio/mireia-ona-curta-v1-obertura.mp3",
-      "sourceSha256": "62016b7d191327628b1ca3b0be77e46e0c273a9732e04152ca2cde6efca33d7a",
-      "author": "Sentit",
-      "license": "MIT",
-      "retimed": false
+      "underSpeech": true,
+      "credit": {
+        "id": "grand-project-breaking-news-505617",
+        "title": "Breaking News Background Music",
+        "author": "Grand_Project",
+        "url": "https://pixabay.com/music/percussion-breaking-news-background-music-505617/",
+        "license": "Pixabay Content License",
+        "licenseUrl": "https://pixabay.com/service/license-summary/",
+        "source": "tools/remount-news-common.cjs",
+        "origin": "licensed-music",
+        "kind": "news-programme",
+        "sourceNotDistributedSeparately": true
+      },
+      "sourceSha256": "32e3e6c978ef1bc5c013c40880ac3ad9714957548f956c1355ad8852c94405ae",
+      "voiceMarginTargetDb": 25,
+      "sidechain": {
+        "threshold": 0.018,
+        "ratio": 6,
+        "attackMs": 12,
+        "releaseMs": 450
+      },
+      "openingSeconds": 3.5,
+      "closingSeconds": 4.5
     },
     {
-      "name": "ona-curta-tancament",
-      "start": 191.855,
-      "end": 195.45499999999998,
-      "origin": "original-procedural",
-      "source": "assets/audio/mireia-ona-curta-v1-tancament.mp3",
-      "sourceSha256": "2ec44fc31e176c8ee86b57167eef042d66b3e38879ce5c092ab353971c5ff4cc",
-      "author": "Sentit",
-      "license": "MIT",
-      "retimed": false
-    },
-    {
-      "name": "real-market-interview",
-      "start": 64.35499999999999,
+      "name": "jmdh-covered-market-388315",
+      "start": 62.25499999999999,
       "end": 103.455,
       "origin": "external-recording",
       "source": "assets/audio/sources/jmdh-388315-covered-market.mp3",
@@ -103,10 +109,12 @@
       "speechWindowPeakDbFS": -26.9,
       "fadeIn": 0.8,
       "fadeOut": 0.45,
-      "listeningValidation": "pending"
+      "listeningValidation": "pending",
+      "underSpeech": true,
+      "additionalGain": 0.6
     }
   ],
-  "sha256": "f9e9501db7bae7a2bdb85eef8ab50a10eee7bac97781498ecbe69366f1595b88",
+  "sha256": "eda7f7391d88f04f0ad2c981dc246f1c1f5fd4c72142159a27d8e655f84b6960",
   "montageNewSynthesisRequests": 0,
   "previousMaster": {
     "file": "s023-mercat-v1.mp3",
@@ -116,5 +124,17 @@
     "plan": "content/audio-repairs.json",
     "status": "pending-quota-and-listening",
     "applied": false
-  }
+  },
+  "newsRevision": {
+    "date": "2026-11-22",
+    "baseFile": "s023-mercat-v2.mp3",
+    "baseAudioSha256": "f9e9501db7bae7a2bdb85eef8ab50a10eee7bac97781498ecbe69366f1595b88",
+    "allOldEffectsRemoved": true,
+    "voiceRetimed": false,
+    "rawSplit": 6.255,
+    "bodyPcmSha256": "124c678d2da03fa006a3aa3d2fa7c61828fcfae08f83d390a5949c245787f516",
+    "teacherFinalApproval": false,
+    "newRequests": 0
+  },
+  "voiceRetimed": false
 }

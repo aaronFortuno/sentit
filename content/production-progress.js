@@ -261,7 +261,7 @@ export const productionProgress = {
   "ca-S006": {
     "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-20T12:48:05.488Z",
-    "editorialFingerprint": "629dbd8f7a80c495f8604b1c8831d2feecf09928c6aebc8e22f148bed95304fe",
+    "editorialFingerprint": "f5d65ce7c8c1510f490953a72b09c81a74b597993b35700e2a798aae6f137ce2",
     "plannedNewRequests": 1,
     "reason": "Veus validades, pendents del següent lot dins el límit gratuït. Muntatge pendent de sintonies d’informatiu.",
     "sharedJingle": {
@@ -282,8 +282,17 @@ export const productionProgress = {
     "voicesReceivedAt": "2026-11-21T10:58:10.100Z",
     "listeningApproval": false,
     "voicePreview": "./proves/veus-rebudes.html#S006",
-    "audioSha256": "7af032486d2870e247a9b82438284bc316856c1639755c2f6cfc4ab556355fe3",
-    "montageNewSynthesisRequests": 0
+    "audioSha256": "3f55fe2548f4e8b1cc9effa4e34b75dfc3c8fc8fdf866eee35f49caa4ea1f853",
+    "montageNewSynthesisRequests": 0,
+    "voicePreviewFile": "./assets/audio/s006-voices-review-v1.mp3",
+    "reviewUpdate": {
+      "audio": "./assets/audio/s006-news-common-v2.mp3",
+      "at": "2026-11-22",
+      "summary": {
+        "ca": "Nova base comuna de notícies, amb entrada i sortida; retirats els papers i jingles anteriors. Pendent d’audició.",
+        "es": "Nueva base común de noticias, con entrada y salida; retirados los papeles y jingles anteriores. Pendiente de escucha."
+      }
+    }
   },
   "ca-S010": {
     "state": "audio-corrections-pending",
@@ -332,7 +341,15 @@ export const productionProgress = {
         "batchRequestHash": "ef2b891a48e5c2823d4527ce9a4c0fc93ae1951ecaad5c7ce07a30ac584a1a66",
         "applied": false
       }
-    ]
+    ],
+    "gradingDecision": {
+      "date": "2026-11-22",
+      "grade": "5",
+      "level": "middle",
+      "source": "Decisió explícita del docent: S010 validada per producció, pujant-la a 5è intermèdia.",
+      "spokenTextChanged": false,
+      "newSynthesisRequests": 0
+    }
   },
   "ca-S013": {
     "state": "audio-corrections-pending",
@@ -446,7 +463,18 @@ export const productionProgress = {
         "batchRequestHash": "2dd8d2f2332228b8d700d07edf4dace01afe1ee161060c0ac461952b04ec909f",
         "applied": false
       }
-    ]
+    ],
+    "audioSha256": "87060f14c36ebf13cd24fbcec97e738bd746fa1efd909ee32635ef04866ce420",
+    "montageNewSynthesisRequests": 0,
+    "reviewUpdate": {
+      "audio": "./assets/audio/s016-news-common-v2.mp3",
+      "at": "2026-11-22",
+      "summary": {
+        "ca": "Nova base comuna de notícies, amb entrada i sortida; retirats els papers i jingles anteriors. Pendent d’audició.",
+        "es": "Nueva base común de noticias, con entrada y salida; retirados los papeles y jingles anteriores. Pendiente de escucha."
+      }
+    },
+    "editorialFingerprint": "d998b702f5638edf71b3bfe620930f9ee44abd02c59164b8242f75b105c46f4d"
   },
   "ca-S004": {
     "state": "published",
@@ -656,7 +684,7 @@ export const productionProgress = {
     "listeningApproval": false,
     "repairPlan": "content/audio-repairs.json",
     "jingleStatus": "approved-pair-remounted-pending-listening",
-    "editorialFingerprint": "ded73b9e363961f5bd81ba22686b8d31f05cd5806249aa91e2771005718be2a2",
+    "editorialFingerprint": "22636665fc727f00d17b0e1349da5b9467ab27a12a049701d4bef3189511f0ad",
     "repairComparison": "./proves/correccions-l03.html#S023-tancament",
     "receivedRepairs": [
       {
@@ -671,7 +699,17 @@ export const productionProgress = {
         "batchRequestHash": "2dd8d2f2332228b8d700d07edf4dace01afe1ee161060c0ac461952b04ec909f",
         "applied": false
       }
-    ]
+    ],
+    "audioSha256": "eda7f7391d88f04f0ad2c981dc246f1c1f5fd4c72142159a27d8e655f84b6960",
+    "montageNewSynthesisRequests": 0,
+    "reviewUpdate": {
+      "audio": "./assets/audio/s023-news-common-v2.mp3",
+      "at": "2026-11-22",
+      "summary": {
+        "ca": "Nova base comuna de notícies, amb entrada i sortida; retirats els papers i jingles anteriors. Pendent d’audició.",
+        "es": "Nueva base común de noticias, con entrada y salida; retirados los papeles y jingles anteriores. Pendiente de escucha."
+      }
+    }
   },
   "ca-S007": {
     "state": "montage-awaiting-listening",
@@ -705,9 +743,9 @@ export const productionProgress = {
     "montageNewSynthesisRequests": 0
   },
   "ca-S024": {
-    "state": "montage-awaiting-listening",
+    "state": "audio-corrections-pending",
     "approvedAt": "2026-11-20T21:21:39.843Z",
-    "editorialFingerprint": "18db36638b5c5648682dd6910fa34234852d9d6ff13264f1cce035e3e0ae4678",
+    "editorialFingerprint": "ce9615248b452c5b07530de2d0f424174c4f313494bb1bbecf5c98aef2d81cf2",
     "plannedNewRequests": 1,
     "confirmation": "S024 pot pujar a síntesi de veu, guió validat.",
     "reason": "Guió validat; conversa de Laia i Biel preparada per agrupar amb les altres peces Puck/Leda. Cap síntesi nova el dia 20: deu peticions consumides.",
@@ -730,8 +768,32 @@ export const productionProgress = {
     "listeningApproval": false,
     "synthesisBatch": "L02",
     "requestHash": "ef2b891a48e5c2823d4527ce9a4c0fc93ae1951ecaad5c7ce07a30ac584a1a66",
-    "audioSha256": "7cd81f8b56643c5f8db7ced63525ad8039a0cb8be6614ebcd371bb530cfa4477",
-    "montageNewSynthesisRequests": 0
+    "audioSha256": "79c941202ad398a33e2681b6bc2183f23c82ce1084cdfd83013e335ea36b720a",
+    "montageNewSynthesisRequests": 0,
+    "feedbackAt": "2026-11-22",
+    "feedback": [
+      {
+        "part": "dubtes",
+        "word": "I el pas fins a la font",
+        "heard": "Veu de Biel excessivament aguda i antinatural al darrer torn",
+        "status": "pending"
+      }
+    ],
+    "plannedRepair": {
+      "part": "dubtes",
+      "speaker": "Biel",
+      "text": "I el pas fins a la font! Això ho podem preguntar a la mestra. Després portem el full als altres cursos?",
+      "sourceTakeSha256": "1159530cc9e6884898ca2176f65034213df656a40b46ac8933eb6942df5694cf",
+      "status": "awaiting-compatible-batch"
+    },
+    "reviewUpdate": {
+      "audio": "./assets/audio/s024-classroom-v2.mp3",
+      "at": "2026-11-22",
+      "summary": {
+        "ca": "Retirats els bufecs previs i les notes finals; ambient continu d’aula. Últim torn de Biel pendent d’esmena de veu.",
+        "es": "Retirados los soplidos iniciales y las notas finales; ambiente continuo de aula. Último turno de Biel pendiente de corrección de voz."
+      }
+    }
   },
   "ca-S017": {
     "state": "montage-awaiting-listening",
@@ -797,7 +859,7 @@ export const productionProgress = {
   "ca-S009": {
     "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-20T21:58:08.267Z",
-    "editorialFingerprint": "38014b8e7bff3ce697843ac062788c561d32a4ee41b342e19471419864974df7",
+    "editorialFingerprint": "63dc0ab59071bd124c63f9332575d4d756ba291f6e7e8e0265c3a5195f3e3043",
     "plannedNewRequests": 1,
     "confirmation": "S009 queda també validat per síntesi de veus.",
     "reason": "Guió validat; agrupar amb material compatible d’Erinome fins a completar sis a vuit minuts. Cap petició curta aïllada.",
@@ -820,18 +882,27 @@ export const productionProgress = {
     "voicesReceivedAt": "2026-11-21T10:58:10.100Z",
     "listeningApproval": false,
     "voicePreview": "./proves/veus-rebudes.html#S009",
-    "audioSha256": "277d9786b3ecac52dd882bce81f9c4566fd8d8114f22d1e038f8112fb5544197",
+    "audioSha256": "9b2c4875e89b8bd10d7281f61ce4228f95723a55baaa697cd03c5441f0b3eda5",
     "montageNewSynthesisRequests": 0,
     "sharedJingle": {
       "status": "catalogue-approved",
       "selected": "ona-curta",
       "note": "Recurs ja aprovat; aquest muntatge encara espera audició."
+    },
+    "voicePreviewFile": "./assets/audio/s009-voices-review-v1.mp3",
+    "reviewUpdate": {
+      "audio": "./assets/audio/s009-news-common-v2.mp3",
+      "at": "2026-11-22",
+      "summary": {
+        "ca": "Nova base comuna de notícies, amb entrada i sortida; retirats els papers i jingles anteriors. Pendent d’audició.",
+        "es": "Nueva base común de noticias, con entrada y salida; retirados los papeles y jingles anteriores. Pendiente de escucha."
+      }
     }
   },
   "ca-S029": {
     "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-21T08:12:38.478Z",
-    "editorialFingerprint": "1cb96a05b63702faec6322ea9a5b4e6920c96d54a91d6e60582fffb8eba9ae1e",
+    "editorialFingerprint": "eb65b562fb2c3b738b693fa41397b8a0dc6e8c4f8134d41ffc48f6434c8ac603",
     "plannedNewRequests": 1,
     "confirmation": "Fent aquests canvis que et dic el text quedaria validat per síntesi de veus.",
     "reason": "Guió validat amb l’avís de divendres a les quatre de la tarda. Incorporar la presa Mar/Erinome al lot L03; cap petició curta aïllada.",
@@ -852,8 +923,17 @@ export const productionProgress = {
     "voicesReceivedAt": "2026-11-21T10:33:32.469Z",
     "listeningApproval": false,
     "voicePreview": "./proves/veus-rebudes.html#S029",
-    "audioSha256": "3e0e195ffb6ab56361684a965b9f7e7718a1462f7d3ffab7acabe680e67b674a",
-    "montageNewSynthesisRequests": 0
+    "audioSha256": "bc4a146f94be2d3a5751c221ee9d10daf7080389ecf794f6605498157e0d1055",
+    "montageNewSynthesisRequests": 0,
+    "voicePreviewFile": "./assets/audio/s029-voices-review-v1.mp3",
+    "reviewUpdate": {
+      "audio": "./assets/audio/s029-news-common-v2.mp3",
+      "at": "2026-11-22",
+      "summary": {
+        "ca": "Nova base comuna de notícies, amb entrada i sortida; retirats els papers i jingles anteriors. Pendent d’audició.",
+        "es": "Nueva base común de noticias, con entrada y salida; retirados los papeles y jingles anteriores. Pendiente de escucha."
+      }
+    }
   },
   "ca-S026": {
     "state": "montage-awaiting-listening",
@@ -882,7 +962,7 @@ export const productionProgress = {
   "ca-S030": {
     "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-21T09:14:33.051Z",
-    "editorialFingerprint": "0882c20c5db8894c85747289df8c6572097a71f0ab8effc522b436b19ab3b100",
+    "editorialFingerprint": "e118368fb5bb4a2127071986eda7c6e3a9e1d27f7db6c6dc0fc33fcfae5d27de",
     "plannedNewRequests": 1,
     "confirmation": "S030 llest per síntesi de veus",
     "reason": "Guió validat; presa Biel/Puck i Laia/Leda al lot candidat L08, pendent de material compatible fins a completar sis a vuit minuts.",
@@ -900,7 +980,7 @@ export const productionProgress = {
     "listeningApproval": false,
     "synthesisBatch": "L08",
     "requestHash": "ac8a3b34fa098dc7a38e788b2cadc9c81d3039b44c7af229a4c9c104184e94cc",
-    "audioSha256": "6801fbb8a0a507a6807d2664f1df2877457c44bc3c5747080c43ed600083c99b",
+    "audioSha256": "e837429937d4e727b17233c010b2c3b91b2e03e3a50ae895069b318dce71894f",
     "montageNewSynthesisRequests": 0,
     "timingRevision": {
       "baseFile": "s030-mixed-v1.mp3",
@@ -979,11 +1059,11 @@ export const productionProgress = {
     },
     "timingComparison": "./proves/pauses-s011-s027.html#S030",
     "reviewUpdate": {
-      "audio": "./assets/audio/s030-timing-v2.mp3",
+      "audio": "./assets/audio/s030-corridor-v3.mp3",
       "at": "2026-11-22",
       "summary": {
-        "ca": "Pauses i cua retallades; pendent de tornar a escoltar.",
-        "es": "Pausas y cola recortadas; pendiente de volver a escuchar."
+        "ca": "Retirat el full inicial; ambient continu de passadís. Es conserva el so de despenjar-lo. Pendent d’última audició.",
+        "es": "Retirado el papel inicial; ambiente continuo de pasillo. Se conserva el sonido de descolgarlo. Pendiente de última escucha."
       }
     }
   },
@@ -1019,7 +1099,8 @@ export const productionProgress = {
     },
     "voicesReceivedAt": "2026-11-22T17:59:05.187Z",
     "listeningApproval": false,
-    "voicePreview": "./proves/veus-rebudes.html#S028"
+    "voicePreview": "./proves/veus-rebudes.html#S028",
+    "voicePreviewFile": "./assets/audio/s028-voices-review-v1.mp3"
   },
   "ca-S032": {
     "state": "published",
@@ -1475,7 +1556,7 @@ export const productionProgress = {
   "ca-S039": {
     "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-21T09:53:12.333Z",
-    "editorialFingerprint": "1cc278ba9dc9cc985168c1ec36178fc1e24085217dad78ad685a69f20b4e9f8b",
+    "editorialFingerprint": "3f247f2be02ee158c2446438e9584153850f77194661c33118452d9fd21739dc",
     "plannedNewRequests": 1,
     "confirmation": "S039 validat per síntesi de veus",
     "reason": "Guió validat durant el processament seqüencial; incorporar a un lot compatible pendent, conservant les veus i el text exactes.",
@@ -1492,7 +1573,7 @@ export const productionProgress = {
     "voicesReceivedAt": "2026-11-21T10:58:10.100Z",
     "listeningApproval": false,
     "voicePreview": "./proves/veus-rebudes.html#S039",
-    "audioSha256": "1cff791a486e7dc0e76e8761bf22f90d71b5111a349f81749f1093d4ca41e590",
+    "audioSha256": "02f34e895e50db60f4c41e7b5ede24a6facf91a49ece1ca0b575dfea38507865",
     "montageNewSynthesisRequests": 0,
     "sharedJingle": {
       "status": "catalogue-approved",
@@ -1500,18 +1581,19 @@ export const productionProgress = {
       "note": "Recurs ja aprovat; aquest muntatge encara espera audició."
     },
     "reviewUpdate": {
-      "audio": "./assets/audio/s039-news-v1.mp3",
+      "audio": "./assets/audio/s039-news-common-v2.mp3",
       "at": "2026-11-22",
       "summary": {
-        "ca": "Guió esmenat i muntatge amb Ona curta; pendent d’audició.",
-        "es": "Guion corregido y montaje con Ona curta; pendiente de escucha."
+        "ca": "Nova base comuna de notícies, amb entrada i sortida; retirats els papers i jingles anteriors. Pendent d’audició.",
+        "es": "Nueva base común de noticias, con entrada y salida; retirados los papeles y jingles anteriores. Pendiente de escucha."
       }
-    }
+    },
+    "voicePreviewFile": "./assets/audio/s039-voices-review-v1.mp3"
   },
   "ca-S031": {
     "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-21T09:53:12.333Z",
-    "editorialFingerprint": "ff754fc8c82fadef113da738bd7e7027d06563a2a46934eeac6fce6a8b75920b",
+    "editorialFingerprint": "b214470b2ac404b3500255f4cbdcaf204257782b19916141752c4d32a975f582",
     "plannedNewRequests": 1,
     "confirmation": "S031 validat per síntesi de veus",
     "reason": "Guió validat durant el processament seqüencial; incorporar a un lot compatible pendent, conservant les veus i el text exactes.",
@@ -1527,12 +1609,21 @@ export const productionProgress = {
     "voicesReceivedAt": "2026-11-21T10:33:32.469Z",
     "listeningApproval": false,
     "voicePreview": "./proves/veus-rebudes.html#S031",
-    "audioSha256": "aee1d5829ff701a39de534de64a48555a0c0278e9eac0bae16dc2af1cf9a4716",
+    "audioSha256": "34091eaf295be3000d035617889cc9512c6f361cd184a732b0731959cbac6c82",
     "montageNewSynthesisRequests": 0,
     "sharedJingle": {
       "status": "catalogue-approved",
       "selected": "ona-curta",
       "note": "Recurs ja aprovat; aquest muntatge encara espera audició."
+    },
+    "voicePreviewFile": "./assets/audio/s031-voices-review-v1.mp3",
+    "reviewUpdate": {
+      "audio": "./assets/audio/s031-news-common-v2.mp3",
+      "at": "2026-11-22",
+      "summary": {
+        "ca": "Nova base comuna de notícies, amb entrada i sortida; retirats els papers i jingles anteriors. Pendent d’audició.",
+        "es": "Nueva base común de noticias, con entrada y salida; retirados los papeles y jingles anteriores. Pendiente de escucha."
+      }
     }
   },
   "ca-S044": {
@@ -1634,7 +1725,8 @@ export const productionProgress = {
       ]
     },
     "voicesReceivedAt": "2026-11-22T17:59:05.187Z",
-    "voicePreview": "./proves/veus-rebudes.html#S049"
+    "voicePreview": "./proves/veus-rebudes.html#S049",
+    "voicePreviewFile": "./assets/audio/s049-voices-review-v1.mp3"
   },
   "ca-S048": {
     "state": "voices-received",
@@ -1655,7 +1747,8 @@ export const productionProgress = {
       ]
     },
     "voicesReceivedAt": "2026-11-22T17:59:05.187Z",
-    "voicePreview": "./proves/veus-rebudes.html#S048"
+    "voicePreview": "./proves/veus-rebudes.html#S048",
+    "voicePreviewFile": "./assets/audio/s048-voices-review-v1.mp3"
   },
   "ca-S050": {
     "state": "voices-received",
@@ -1676,7 +1769,8 @@ export const productionProgress = {
       ]
     },
     "voicesReceivedAt": "2026-11-22T17:59:05.187Z",
-    "voicePreview": "./proves/veus-rebudes.html#S050"
+    "voicePreview": "./proves/veus-rebudes.html#S050",
+    "voicePreviewFile": "./assets/audio/s050-voices-review-v1.mp3"
   },
   "ca-S052": {
     "state": "ready-for-voices",
@@ -1731,7 +1825,7 @@ export const productionProgress = {
     }
   },
   "ca-S062": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-22T18:21:42.589Z",
     "editorialFingerprint": "06c5723fb0f3f30013e47ef64df68badced5d0d585c4b691787449305163085d",
     "plannedNewRequests": 1,
@@ -1755,16 +1849,44 @@ export const productionProgress = {
     "mixingNotes": [
       "Ambient real continu de jovent conversant en una aula o espai semblant, sense veus massa infantils ni paraules de fons entenedores. Entrada breu i molt tènue sota totes les intervencions de Laia i Biel.",
       "Ometre el moviment puntual de paper si no aporta context. Qualsevol acció conservada pot solapar-se amb la parla sense tapar dades; no afegir-hi una espera exclusiva."
-    ]
+    ],
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S062-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L18"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-22T20:58:09.995Z",
+    "voicePreview": "./proves/veus-rebudes.html#S062",
+    "voicePreviewFile": "./assets/audio/s062-voices-review-v1.mp3"
   },
   "ca-S069": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-22T19:33:51.066Z",
     "editorialFingerprint": "98d513f391e4b49069dd87e6ec6e7ea9308a37147a327cd2f068e6a1e43783c1",
     "plannedNewRequests": 1,
     "listeningApproval": false,
     "confirmation": "S069 validada per síntesi de veus",
-    "reason": "Agrupar records complets validats de Ferran/Algenib fins a sis a vuit minuts. S069D té validació pròpia pendent."
+    "reason": "Agrupar records complets validats de Ferran/Algenib fins a sis a vuit minuts. S069D té validació pròpia pendent.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S069-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L17"
+      ]
+    },
+    "voicesReceivedAt": "2026-11-22T20:49:56.816Z",
+    "voicePreview": "./proves/veus-rebudes.html#S069",
+    "voicePreviewFile": "./assets/audio/s069-voices-review-v1.mp3"
   },
   "ca-S075": {
     "state": "ready-for-voices",
@@ -1800,13 +1922,26 @@ export const productionProgress = {
     }
   },
   "ca-S046": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-22T19:47:42.525Z",
     "editorialFingerprint": "6dec967b93b54be0c0e7d1b976141867e7689b79a650a12f85990f370e75bdc7",
     "plannedNewRequests": 1,
     "listeningApproval": false,
     "confirmation": "S046 validada per síntesi de veus",
-    "reason": "Agrupar records complets validats de Ferran/Algenib fins a sis a vuit minuts. La variant S046D queda pendent de validació pròpia."
+    "reason": "Agrupar records complets validats de Ferran/Algenib fins a sis a vuit minuts. La variant S046D queda pendent de validació pròpia.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S046-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L17"
+      ]
+    },
+    "voicesReceivedAt": "2026-11-22T20:49:56.816Z",
+    "voicePreview": "./proves/veus-rebudes.html#S046",
+    "voicePreviewFile": "./assets/audio/s046-voices-review-v1.mp3"
   },
   "ca-S073": {
     "state": "ready-for-voices",
@@ -1818,7 +1953,7 @@ export const productionProgress = {
     "reason": "Agrupar lectures completes validades de Laia/Leda i Ona/Sulafat fins a sis a vuit minuts."
   },
   "ca-S061": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-22T19:57:00.644Z",
     "editorialFingerprint": "ac40b599a24fbc8cd411d7fda81b5e0eff7085933ee751da5542974614ab6de2",
     "plannedNewRequests": 1,
@@ -1838,7 +1973,24 @@ export const productionProgress = {
       "reviewCourse": true,
       "reviewDifficulty": true,
       "note": "Valorar el pas a 6è intermèdia o avançada després d’escoltar l’àudio muntat. Ara es mantenen 5è avançada i vuit preguntes, sense requalificació aplicada."
-    }
+    },
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S061-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L18"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [
+      "introduction"
+    ],
+    "voicesReceivedAt": "2026-11-22T20:58:09.995Z",
+    "voicePreview": "./proves/veus-rebudes.html#S061",
+    "voicePreviewFile": "./assets/audio/s061-voices-review-v1.mp3"
   },
   "ca-S082": {
     "state": "ready-for-voices",
@@ -1858,6 +2010,141 @@ export const productionProgress = {
       "reviewCourse": true,
       "reviewDifficulty": false,
       "note": "Valorar el possible pas a 1r d’ESO després d’escoltar l’àudio muntat. Ara es mantenen 6è avançada i nou preguntes. Encara no s’ha decidit una qualificació de dificultat per a l’ESO."
+    },
+    "synthesisIssue": {
+      "batch": "L19",
+      "code": "INTERNAL",
+      "at": "2026-11-22",
+      "resubmitted": false
     }
+  },
+  "ca-S077": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-22T20:05:09.021Z",
+    "editorialFingerprint": "f60abdad44b48622c89a07da88c3d5e99885a217bffe0582a594143ee58a5986",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "S077 validada per síntesi de veus",
+    "reason": "Repartiment Laia/Leda i Ona/Sulafat complet: recalcular agrupacions amb text pla abans de congelar lots de sis a vuit minuts."
+  },
+  "ca-S045": {
+    "state": "voices-received",
+    "approvedAt": "2026-11-22T20:05:09.021Z",
+    "editorialFingerprint": "76ec33e0deeb6feb6edff4cc4f7f5c4899bf28b8a77e07be4463e485653cdf54",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "S045 validada per síntesi de veus",
+    "reason": "Agrupar records complets validats de Ferran/Algenib fins a sis a vuit minuts. S045D tindrà validació pròpia.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S045-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L17"
+      ]
+    },
+    "voicesReceivedAt": "2026-11-22T20:49:56.816Z",
+    "voicePreview": "./proves/veus-rebudes.html#S045",
+    "voicePreviewFile": "./assets/audio/s045-voices-review-v1.mp3"
+  },
+  "ca-S078": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-22T20:08:51.941Z",
+    "editorialFingerprint": "be8e59b618a10c208d89b73a654ceceea69057bab0ed2d1b7a68b8012554d653",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "S078 validada per síntesi de veus",
+    "gradingAssessment": "El docent considera ben calibrada la qualificació actual de 5è accessible.",
+    "reason": "Agrupar lectures completes validades de Biel/Puck i Elies/Algieba fins a sis a vuit minuts."
+  },
+  "ca-S047": {
+    "state": "voices-received",
+    "approvedAt": "2026-11-22T20:16:52.042Z",
+    "editorialFingerprint": "982ea2797ea37ddab16df552696629462523a580d0b6dbb56cb2fabea4727b51",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "S047 validada per síntesi de veus",
+    "reason": "P01 complet amb S045,S046,S047,S069; preparar un lot Ferran/Algenib de sis a vuit minuts.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S047-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L17"
+      ]
+    },
+    "voicesReceivedAt": "2026-11-22T20:49:56.816Z",
+    "voicePreview": "./proves/veus-rebudes.html#S047",
+    "voicePreviewFile": "./assets/audio/s047-voices-review-v1.mp3"
+  },
+  "ca-S058": {
+    "state": "voices-received",
+    "approvedAt": "2026-11-22T20:16:52.042Z",
+    "editorialFingerprint": "56df8abc8b9aef92135f8a89300a7c5fe779f8015e30a91c1f13aade6b97b869",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "S058 validada per síntesi de veus",
+    "reason": "P06 complet amb S058,S061,S062; preparar un lot Laia/Leda i Biel/Puck de sis a vuit minuts.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S058-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L18"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-22T20:58:09.995Z",
+    "voicePreview": "./proves/veus-rebudes.html#S058",
+    "voicePreviewFile": "./assets/audio/s058-voices-review-v1.mp3"
+  },
+  "ca-S081": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-22T20:22:58.661Z",
+    "editorialFingerprint": "2a784ecc42769c082794208ddcddb9a8c38dcaa50efa60baa1eee066bc814cf4",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "S081 validada per síntesi amb el tancament esmenat",
+    "reason": "P15 complet amb S081 i S082; preparar lot Biel/Puck i Elies/Algieba de sis a vuit minuts.",
+    "synthesisIssue": {
+      "batch": "L19",
+      "code": "INTERNAL",
+      "at": "2026-11-22",
+      "resubmitted": false
+    }
+  },
+  "ca-S079": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-22T20:27:37.701Z",
+    "editorialFingerprint": "e8fc2f46e2fdf6e472f9795de04c9fb32ad91cb0bd645540880ffb77f30805a9",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "S079 validada per síntesi amb comiat més natural",
+    "reason": "Completar el lot Biel/Puck i Elies/Algieba amb S078 i S080; falta validar S080."
+  },
+  "ca-S067": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-22T20:38:27.980Z",
+    "editorialFingerprint": "8132e24978437a26f3f22286de786329d6e717ed9c2c6cc7cca4541d91d65610",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "S067 validada per síntesi i requalificada a 1r d’ESO intermèdia",
+    "gradingDecision": {
+      "date": "2026-11-22",
+      "grade": "eso1",
+      "level": "middle",
+      "previousGrade": "6",
+      "previousLevel": "advanced",
+      "source": "Decisió explícita del docent: càrrega d’informació i discriminació més pertinent per a 1r d’ESO.",
+      "spokenTextChanged": false
+    },
+    "reason": "Completar el lot Mireia/Aoede i Biel/Puck amb S066, encara pendent de validar."
   }
 };

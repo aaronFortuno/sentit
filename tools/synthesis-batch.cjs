@@ -62,7 +62,9 @@ async function buildBatch(activities,plans,repairs,batch){
    items.push({text:cloned.text,sourceSpeaker,voice,requestIndex:content.length});content.push(cloned);
   }
   if(plain){
-   content[start].annotations[0].style+=' This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the same two character voices throughout all recordings. Instructions are not spoken.';
+   const continuity=Object.keys(spec.voices).length===1?'Keep this same single character voice throughout all recordings.':'Keep the same two character voices throughout all recordings.';
+   const passage=Object.keys(spec.voices).length===1?'story':'dialogue';
+   content[start].annotations[0].style+=' This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its '+passage+'. '+continuity+' Instructions are not spoken.';
    content.at(-1).annotations[0].style+=' Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition.';
   }else{
    content[start].annotations[0].style+=' This is a separate recording in a batch. Read this block exactly once, without referring to any other block. The text fields contain all and only the words to speak; never speak labels or instructions. After this block leave the indicated long pauses.';
@@ -73,6 +75,8 @@ async function buildBatch(activities,plans,repairs,batch){
  if(labels.size>2)throw Error('El lot supera les dues veus.');
  const speakers=[...labels].map(([voice,speaker])=>({speaker,voice}));
  const body={model:'gemini-3.8-flash-tts',input:[{type:'user_input',content}],response_format:{type:'audio',mime_type:'audio/wav',sample_rate:24000},generation_config:{speech_config:speakers.length===1?[{voice:speakers[0].voice}]:{speakers}}};
+ if(batch.execution&&batch.execution!=='background-v1')throw Error('Transport de síntesi desconegut.');
+ if(batch.execution==='background-v1')body.background=true;
  if(speakers.length===1)for(const item of content)delete item.annotations[0].speaker;
  const estimatedInputTokens=Math.ceil(JSON.stringify(body).length/3);
  if(estimatedInputTokens>8192)throw Error('Estimació conservadora d’entrada superior a 8.192 tokens; dividir el lot.');
@@ -93,20 +97,22 @@ async function main(){
   await fs.writeFile(file,JSON.stringify(catalog,null,2)+'\n');
  }
  if(!process.argv.includes('--generate'))return;
+ const resume=process.argv.includes('--resume-background');
  if(!process.argv.includes('--max-requests=1'))throw Error('Cal limitar a una única petició.');
  if(batch.state!=='authorized'||batch.approvedRequestHash!==built.requestHash)throw Error('Cal congelar el lot exacte abans d’enviar.');
- assertSynthesisWindow(built.body);assertQuota(await readJSON(path.join(work,'last-api-error.json'),null));assertDailyRoom(await readJSON(path.join(work,'request-log.json'),[]));
+ assertSynthesisWindow(built.body);if(!resume){assertQuota(await readJSON(path.join(work,'last-api-error.json'),null));assertDailyRoom(await readJSON(path.join(work,'request-log.json'),[]));}
  const disk=await fs.statfs(work);if(disk.bavail*disk.bsize<512*1024*1024)throw Error('Menys de 512 MB lliures: alliberar espai abans de reservar quota o sintetitzar. Cap petició enviada.');
  await fs.mkdir(folder,{recursive:true});
  const raw=path.join(folder,'raw.wav'),attemptFile=path.join(folder,'attempt.json'),previous=await readJSON(attemptFile,null);
- if(previous){const bytes=await fs.readFile(raw).catch(()=>null);if(previous.state==='raw-received'&&bytes&&sha(bytes)===previous.rawSha256){checkWave(bytes);console.log('Presa conservada; zero peticions noves.');return;}throw Error('Intent previ incert o ja processat: revisar abans de repetir.');}
+ if(resume){const server=await readJSON(path.join(folder,'interaction.json'),null);if(!previous||!built.body.background||!server?.id||server.requestHash!==built.requestHash)throw Error('No hi ha cap interacció identificada per recuperar sense repetir. Cap petició enviada.');}
+ if(previous){const bytes=await fs.readFile(raw).catch(()=>null);if(previous.state==='raw-received'&&bytes&&sha(bytes)===previous.rawSha256){checkWave(bytes);console.log('Presa conservada; zero peticions noves.');return;}if(!resume)throw Error('Intent previ incert o ja processat: revisar abans de repetir.');}
  const index=await readJSON(path.join(work,'mixed-batches','takes.json'),{});if(built.blocks.some(b=>index[b.id]))throw Error('El lot conté una presa ja rebuda; replanificar per no duplicar-la.');
- const lock=path.join(work,'production.lock'),handle=await fs.open(lock,'wx'),attempt={batch:id,requestHash:built.requestHash,state:'prepared',startedAt:new Date().toISOString(),maxRequests:1};
+ const lock=path.join(work,'production.lock'),handle=await fs.open(lock,'wx'),attempt=resume?{...previous,retrievedAt:new Date().toISOString(),retrievals:(previous.retrievals??0)+1}:{batch:id,requestHash:built.requestHash,state:'prepared',startedAt:new Date().toISOString(),maxRequests:1};
  try{
   await handle.writeFile(JSON.stringify({pid:process.pid,batch:id,startedAt:attempt.startedAt}));
   await fs.writeFile(path.join(folder,'request.json'),JSON.stringify(built.body,null,2));await fs.writeFile(path.join(folder,'blocks.json'),JSON.stringify(built.blocks,null,2));
   await fs.writeFile(attemptFile,JSON.stringify(attempt,null,2));
-  await reserveRequest(work,{code:id,purpose:'mixed-approved-batch',hash:built.requestHash,model:built.body.model},built.body,{minimumIntervalMs:65000});
+  if(!resume)await reserveRequest(work,{code:id,purpose:'mixed-approved-batch',hash:built.requestHash,model:built.body.model},built.body,{minimumIntervalMs:65000});
   attempt.state='in-flight';await fs.writeFile(attemptFile,JSON.stringify(attempt,null,2));
   const audio=await require('./generate-prototypes.cjs').geminiAudio(built.body,path.join(folder,'usage.json'),{timeoutMs:1200000,responseFile:path.join(folder,'response.json')});
   checkWave(audio);await fs.writeFile(raw+'.part',audio);await fs.rename(raw+'.part',raw);Object.assign(attempt,{state:'raw-received',completedAt:new Date().toISOString(),rawSha256:sha(audio)});

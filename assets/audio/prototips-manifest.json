@@ -258,7 +258,7 @@
         "Presentadora": "Erinome",
         "Pau": "Charon"
       },
-      "newSynthesisRequests": 1,
+      "newSynthesisRequests": 0,
       "approvalFingerprint": "9b9450bf5f3f2f61ec009a99728fcf20788de66eead40f4e822079a60fdac521",
       "requestHash": "f7ee3c6c2597e5eb39bfb92198870b47cd4920be40893e18ec23944bf6ba7d3c",
       "rawSha256": "eac80f2575c694144fa2d8ddde29f7bfe58c036b619cb9c97dce39c92f3c0736",
@@ -291,14 +291,14 @@
         "peakDbFS": -58.5,
         "rawSamplesPreserved": true
       },
-      "file": "s023-mercat-v2.mp3",
-      "introFile": "s023-mercat-v2-intro.mp3",
-      "bodyFile": "s023-mercat-v2-cos.mp3",
-      "offset": 6.805,
-      "bodyDuration": 196.305,
-      "fullDuration": 203.11,
-      "lufs": -19.8,
-      "peakDbTP": -2.8,
+      "file": "s023-news-common-v2.mp3",
+      "introFile": "s023-news-common-v2-intro.mp3",
+      "bodyFile": "s023-news-common-v2-cos.mp3",
+      "offset": 7.375,
+      "bodyDuration": 193.655,
+      "fullDuration": 201.03,
+      "lufs": -19.39,
+      "peakDbTP": -2.48,
       "voice": {
         "bodyLead": 4.6,
         "bodyRawDuration": 186.905,
@@ -307,30 +307,36 @@
       },
       "effects": [
         {
-          "name": "ona-curta-obertura",
+          "name": "grand-project-breaking-news-505617",
+          "origin": "licensed-music-in-montage",
           "start": 0,
-          "end": 4,
-          "origin": "original-procedural",
-          "source": "assets/audio/mireia-ona-curta-v1-obertura.mp3",
-          "sourceSha256": "62016b7d191327628b1ca3b0be77e46e0c273a9732e04152ca2cde6efca33d7a",
-          "author": "Sentit",
-          "license": "MIT",
-          "retimed": false
+          "underSpeech": true,
+          "credit": {
+            "id": "grand-project-breaking-news-505617",
+            "title": "Breaking News Background Music",
+            "author": "Grand_Project",
+            "url": "https://pixabay.com/music/percussion-breaking-news-background-music-505617/",
+            "license": "Pixabay Content License",
+            "licenseUrl": "https://pixabay.com/service/license-summary/",
+            "source": "tools/remount-news-common.cjs",
+            "origin": "licensed-music",
+            "kind": "news-programme",
+            "sourceNotDistributedSeparately": true
+          },
+          "sourceSha256": "32e3e6c978ef1bc5c013c40880ac3ad9714957548f956c1355ad8852c94405ae",
+          "voiceMarginTargetDb": 25,
+          "sidechain": {
+            "threshold": 0.018,
+            "ratio": 6,
+            "attackMs": 12,
+            "releaseMs": 450
+          },
+          "openingSeconds": 3.5,
+          "closingSeconds": 4.5
         },
         {
-          "name": "ona-curta-tancament",
-          "start": 191.855,
-          "end": 195.45499999999998,
-          "origin": "original-procedural",
-          "source": "assets/audio/mireia-ona-curta-v1-tancament.mp3",
-          "sourceSha256": "2ec44fc31e176c8ee86b57167eef042d66b3e38879ce5c092ab353971c5ff4cc",
-          "author": "Sentit",
-          "license": "MIT",
-          "retimed": false
-        },
-        {
-          "name": "real-market-interview",
-          "start": 64.35499999999999,
+          "name": "jmdh-covered-market-388315",
+          "start": 62.25499999999999,
           "end": 103.455,
           "origin": "external-recording",
           "source": "assets/audio/sources/jmdh-388315-covered-market.mp3",
@@ -353,10 +359,12 @@
           "speechWindowPeakDbFS": -26.9,
           "fadeIn": 0.8,
           "fadeOut": 0.45,
-          "listeningValidation": "pending"
+          "listeningValidation": "pending",
+          "underSpeech": true,
+          "additionalGain": 0.6
         }
       ],
-      "sha256": "f9e9501db7bae7a2bdb85eef8ab50a10eee7bac97781498ecbe69366f1595b88",
+      "sha256": "eda7f7391d88f04f0ad2c981dc246f1c1f5fd4c72142159a27d8e655f84b6960",
       "montageNewSynthesisRequests": 0,
       "previousMaster": {
         "file": "s023-mercat-v1.mp3",
@@ -366,7 +374,19 @@
         "plan": "content/audio-repairs.json",
         "status": "pending-quota-and-listening",
         "applied": false
-      }
+      },
+      "newsRevision": {
+        "date": "2026-11-22",
+        "baseFile": "s023-mercat-v2.mp3",
+        "baseAudioSha256": "f9e9501db7bae7a2bdb85eef8ab50a10eee7bac97781498ecbe69366f1595b88",
+        "allOldEffectsRemoved": true,
+        "voiceRetimed": false,
+        "rawSplit": 6.255,
+        "bodyPcmSha256": "124c678d2da03fa006a3aa3d2fa7c61828fcfae08f83d390a5949c245787f516",
+        "teacherFinalApproval": false,
+        "newRequests": 0
+      },
+      "voiceRetimed": false
     },
     {
       "code": "S001",
@@ -1595,7 +1615,7 @@
       "voices": {
         "Mar": "Erinome"
       },
-      "newSynthesisRequests": 1,
+      "newSynthesisRequests": 0,
       "approvalFingerprint": "a6286789dcda768aa5eda9e0d043440c60f75090efc9445ef7c273fad0ade4f5",
       "requestHash": "3a6958c71174a0d5affc3e915044570e88be424acd8cb48a00837e03e4ff0bf1",
       "rawSha256": "b91c85a798519ef2c0e7c8fced954bdb56892242aacf02f5cdc467fd95d23481",
@@ -1628,14 +1648,14 @@
         "peakDbFS": -62.7,
         "rawSamplesPreserved": true
       },
-      "file": "s016-jaciment-v1.mp3",
-      "introFile": "s016-jaciment-v1-intro.mp3",
-      "bodyFile": "s016-jaciment-v1-cos.mp3",
-      "offset": 5.38,
-      "bodyDuration": 135.23,
-      "fullDuration": 140.60999999999999,
-      "lufs": -18.9,
-      "peakDbTP": -2.8,
+      "file": "s016-news-common-v2.mp3",
+      "introFile": "s016-news-common-v2-intro.mp3",
+      "bodyFile": "s016-news-common-v2-cos.mp3",
+      "offset": 5.95,
+      "bodyDuration": 136.88,
+      "fullDuration": 142.82999999999998,
+      "lufs": -18.55,
+      "peakDbTP": -2.49,
       "voice": {
         "bodyLead": 2.3,
         "bodyRawDuration": 130.13,
@@ -1644,31 +1664,47 @@
       },
       "effects": [
         {
-          "name": "news-opening",
+          "name": "grand-project-breaking-news-505617",
+          "origin": "licensed-music-in-montage",
           "start": 0,
-          "end": 2,
-          "origin": "original-procedural"
-        },
-        {
-          "name": "quiet-worksite-opening",
-          "start": 0,
-          "end": 1.8,
-          "origin": "original-procedural"
-        },
-        {
-          "name": "news-source-paper",
-          "start": 69.17999999999999,
-          "end": 69.63,
-          "origin": "original-procedural"
-        },
-        {
-          "name": "news-ending",
-          "start": 132.63,
-          "end": 134.63,
-          "origin": "original-procedural"
+          "underSpeech": true,
+          "credit": {
+            "id": "grand-project-breaking-news-505617",
+            "title": "Breaking News Background Music",
+            "author": "Grand_Project",
+            "url": "https://pixabay.com/music/percussion-breaking-news-background-music-505617/",
+            "license": "Pixabay Content License",
+            "licenseUrl": "https://pixabay.com/service/license-summary/",
+            "source": "tools/remount-news-common.cjs",
+            "origin": "licensed-music",
+            "kind": "news-programme",
+            "sourceNotDistributedSeparately": true
+          },
+          "sourceSha256": "32e3e6c978ef1bc5c013c40880ac3ad9714957548f956c1355ad8852c94405ae",
+          "voiceMarginTargetDb": 25,
+          "sidechain": {
+            "threshold": 0.018,
+            "ratio": 6,
+            "attackMs": 12,
+            "releaseMs": 450
+          },
+          "openingSeconds": 3.5,
+          "closingSeconds": 4.5
         }
       ],
-      "sha256": "150774e664bbfccbc0b149949535cd09a9e6913dba42ad7ae3abdaaf9ffeef97"
+      "sha256": "87060f14c36ebf13cd24fbcec97e738bd746fa1efd909ee32635ef04866ce420",
+      "newsRevision": {
+        "date": "2026-11-22",
+        "baseFile": "s016-jaciment-v1.mp3",
+        "baseAudioSha256": "150774e664bbfccbc0b149949535cd09a9e6913dba42ad7ae3abdaaf9ffeef97",
+        "allOldEffectsRemoved": true,
+        "voiceRetimed": false,
+        "rawSplit": 4.83,
+        "bodyPcmSha256": "c65575b0a7016f5e247aba40255fc790dcbf7dbdd1b899d495d5b16227bd9cd6",
+        "teacherFinalApproval": false,
+        "newRequests": 0
+      },
+      "voiceRetimed": false
     },
     {
       "code": "S004",
@@ -3349,13 +3385,13 @@
     {
       "code": "S024",
       "activity": "ca-S024",
-      "state": "awaiting-montage-validation",
-      "file": "s024-mixed-v1.mp3",
-      "introFile": "s024-mixed-v1-intro.mp3",
-      "bodyFile": "s024-mixed-v1-cos.mp3",
-      "offset": 16.212291666666665,
-      "bodyDuration": 140.811625,
-      "fullDuration": 157.02391666666668,
+      "state": "awaiting-audio-corrections",
+      "file": "s024-classroom-v2.mp3",
+      "introFile": "s024-classroom-v2-intro.mp3",
+      "bodyFile": "s024-classroom-v2-cos.mp3",
+      "offset": 5.0600000000000005,
+      "bodyDuration": 135.22889999999998,
+      "fullDuration": 140.28889999999998,
       "voices": {
         "Laia": "Leda",
         "Biel": "Puck"
@@ -3370,51 +3406,45 @@
       "coverage": 0.9473684210526315,
       "newSynthesisRequests": 0,
       "sharedRequest": true,
-      "lufs": -18.4,
-      "peakDbTP": -2.49,
+      "lufs": -18.36,
+      "peakDbTP": -2.38,
       "voiceRetimed": false,
       "effects": [
         {
-          "name": "mcconnell-731979",
+          "name": "elenalostale-648659",
           "start": 0,
-          "source": "assets/audio/sources/mcconnell-731979.mp3",
-          "sourceSha256": "05a3c04683be95aaa12df1e59b8d92e4c31be85652c2681caac16889c4678355",
-          "sourceUrl": "https://freesound.org/people/McConnell_Audioprojekte/sounds/731979/",
-          "author": "McConnell_Audioprojekte",
+          "source": "assets/audio/sources/elenalostale-648659.mp3",
+          "sourceSha256": "bdb5a2e1b40bdcec49cf7c3752c186e355e58499ec7d0578022da599d9291bf8",
+          "sourceUrl": "https://freesound.org/people/Elenalostale/sounds/648659/",
+          "author": "Elenalostale",
           "license": "CC0 1.0",
+          "underSpeech": true,
+          "speechGain": 0.16,
+          "sourceTargetLufs": -28,
           "excerpt": {
             "start": 20,
-            "seconds": 2
+            "seconds": 60
           },
-          "underSpeech": false
-        },
-        {
-          "name": "beussa-749880",
-          "start": 61.15389999999999,
-          "source": "assets/audio/sources/beussa-749880.mp3",
-          "sourceSha256": "4b38b5c58abb206d5b86b9d5b6a3acde8eea90c288ef194b4a67503fe659b4a9",
-          "sourceUrl": "https://freesound.org/people/Beussa/sounds/749880/",
-          "author": "Beussa",
-          "license": "CC0 1.0",
-          "excerpt": {
-            "start": 0,
-            "seconds": 0.678
-          },
-          "underSpeech": false,
-          "insertedPause": 1.05
-        },
-        {
-          "name": "sentit-two-note-ending-v1",
-          "start": 137.811625,
-          "source": "tools/render-mixed-take.cjs",
-          "sourceUrl": "https://github.com/aaronFortuno/sentit/blob/main/tools/render-mixed-take.cjs",
-          "author": "Sentit",
-          "license": "MIT",
-          "origin": "original-procedural-composition",
-          "underSpeech": false
+          "passes": 3,
+          "crossfadeSeconds": 1
         }
       ],
-      "sha256": "7cd81f8b56643c5f8db7ced63525ad8039a0cb8be6614ebcd371bb530cfa4477"
+      "sha256": "79c941202ad398a33e2681b6bc2183f23c82ce1084cdfd83013e335ea36b720a",
+      "classroomRevision": {
+        "date": "2026-11-22",
+        "baseFile": "s024-mixed-v1.mp3",
+        "baseAudioSha256": "7cd81f8b56643c5f8db7ced63525ad8039a0cb8be6614ebcd371bb530cfa4477",
+        "titleRange": {
+          "start": 10.731200000000005,
+          "end": 14.641199999999994
+        },
+        "removedInitialArtifactsSeconds": 10.731200000000005,
+        "removedClosingTones": true,
+        "continuousClassroom": true,
+        "voiceRetimed": false,
+        "unresolvedVoicePart": "dubtes",
+        "newRequests": 0
+      }
     },
     {
       "code": "S017",
@@ -4379,9 +4409,9 @@
       "code": "S030",
       "activity": "ca-S030",
       "state": "awaiting-montage-validation",
-      "file": "s030-timing-v2.mp3",
-      "introFile": "s030-timing-v2-intro.mp3",
-      "bodyFile": "s030-timing-v2-cos.mp3",
+      "file": "s030-corridor-v3.mp3",
+      "introFile": "s030-corridor-v3-intro.mp3",
+      "bodyFile": "s030-corridor-v3-cos.mp3",
       "offset": 4.660458333333334,
       "bodyDuration": 70.2468125,
       "fullDuration": 74.90727083333334,
@@ -4400,37 +4430,27 @@
       "uncertainTurns": [],
       "newSynthesisRequests": 0,
       "sharedRequest": true,
-      "lufs": -19.17,
-      "peakDbTP": -2.49,
+      "lufs": -19.3,
+      "peakDbTP": -2.48,
       "voiceRetimed": false,
       "effects": [
         {
-          "name": "elenalostale-648659",
+          "name": "bexhillcollege-274213",
           "start": 0,
-          "source": "assets/audio/sources/elenalostale-648659.mp3",
-          "sourceSha256": "bdb5a2e1b40bdcec49cf7c3752c186e355e58499ec7d0578022da599d9291bf8",
-          "sourceUrl": "https://freesound.org/people/Elenalostale/sounds/648659/",
-          "author": "Elenalostale",
+          "source": "assets/audio/sources/bexhillcollege-274213-hallway.mp3",
+          "sourceSha256": "ac07b275131c3517007369de9cd2e3d566e6d0de9fc9ae7c7e3ac0345cbcc5f7",
+          "sourceUrl": "https://freesound.org/people/Bexhillcollege/sounds/274213/",
+          "author": "Bexhillcollege",
           "license": "CC0 1.0",
+          "underSpeech": true,
+          "sourceTargetLufs": -28,
+          "speechGain": 0.18,
+          "speechNominalLufs": -42.9,
           "excerpt": {
-            "start": 20,
-            "seconds": 2
+            "start": 3,
+            "seconds": 54
           },
-          "underSpeech": false
-        },
-        {
-          "name": "beussa-749880",
-          "start": 0.3,
-          "source": "assets/audio/sources/beussa-749880.mp3",
-          "sourceSha256": "4b38b5c58abb206d5b86b9d5b6a3acde8eea90c288ef194b4a67503fe659b4a9",
-          "sourceUrl": "https://freesound.org/people/Beussa/sounds/749880/",
-          "author": "Beussa",
-          "license": "CC0 1.0",
-          "excerpt": {
-            "start": 0,
-            "seconds": 0.678
-          },
-          "underSpeech": false
+          "crossfadeSeconds": 2
         },
         {
           "name": "beussa-749880",
@@ -4448,7 +4468,7 @@
           "insertedPause": 1.05
         }
       ],
-      "sha256": "6801fbb8a0a507a6807d2664f1df2877457c44bc3c5747080c43ed600083c99b",
+      "sha256": "e837429937d4e727b17233c010b2c3b91b2e03e3a50ae895069b318dce71894f",
       "timingRevision": {
         "baseFile": "s030-mixed-v1.mp3",
         "baseAudioSha256": "5bd573e478044598f579fbbdc9693b5a7bd2404f0bb62949372b81833955d877",
@@ -4523,6 +4543,18 @@
         "allRetainedSamplesIdentical": true,
         "newRequests": 0,
         "originalPreserved": true
+      },
+      "corridorRevision": {
+        "date": "2026-11-22",
+        "baseFile": "s030-timing-v2.mp3",
+        "baseAudioSha256": "6801fbb8a0a507a6807d2664f1df2877457c44bc3c5747080c43ed600083c99b",
+        "removedOpeningPaper": true,
+        "replacedOpeningClassroomWithContinuousCorridor": true,
+        "paperRemovalSampleSha256": "e32f5d6121d6e74bdcdf25f790f566eadd32704385869b60a22cd4e2d22309bf",
+        "paperRemovalTimingUnchanged": true,
+        "voiceTimingUnchanged": true,
+        "sourceDryTakePreserved": true,
+        "newRequests": 0
       }
     },
     {
@@ -5067,12 +5099,12 @@
       "code": "S006",
       "activity": "ca-S006",
       "state": "awaiting-montage-validation",
-      "file": "s006-news-v1.mp3",
-      "introFile": "s006-news-v1-intro.mp3",
-      "bodyFile": "s006-news-v1-cos.mp3",
-      "offset": 6.285,
-      "bodyDuration": 89.46,
-      "fullDuration": 95.74499999999999,
+      "file": "s006-news-common-v2.mp3",
+      "introFile": "s006-news-common-v2-intro.mp3",
+      "bodyFile": "s006-news-common-v2-cos.mp3",
+      "offset": 5.8500000000000005,
+      "bodyDuration": 84.06,
+      "fullDuration": 89.91,
       "voices": {
         "Mar": "Erinome"
       },
@@ -5087,58 +5119,39 @@
       "newSynthesisRequests": 0,
       "sharedRequest": true,
       "voiceRetimed": false,
-      "lufs": -19.06,
-      "peakDbTP": -2.5,
+      "lufs": -19.89,
+      "peakDbTP": -2.49,
       "effects": [
         {
-          "name": "ona-curta-obertura",
-          "jingleId": "ona-curta",
-          "origin": "original-procedural-composition",
-          "author": "Sentit",
-          "license": "MIT",
-          "source": "assets/audio/mireia-ona-curta-v1-obertura.mp3",
-          "sourceSha256": "62016b7d191327628b1ca3b0be77e46e0c273a9732e04152ca2cde6efca33d7a",
-          "sourceUrl": "https://github.com/aaronFortuno/sentit/blob/main/tools/propose-mireia-variants.cjs",
-          "excerpt": {
-            "start": 0,
-            "seconds": 4
-          },
+          "name": "grand-project-breaking-news-505617",
+          "origin": "licensed-music-in-montage",
           "start": 0,
-          "underSpeech": false
-        },
-        {
-          "name": "ona-curta-tancament",
-          "jingleId": "ona-curta",
-          "origin": "original-procedural-composition",
-          "author": "Sentit",
-          "license": "MIT",
-          "source": "assets/audio/mireia-ona-curta-v1-tancament.mp3",
-          "sourceSha256": "2ec44fc31e176c8ee86b57167eef042d66b3e38879ce5c092ab353971c5ff4cc",
-          "sourceUrl": "https://github.com/aaronFortuno/sentit/blob/main/tools/propose-mireia-variants.cjs",
-          "excerpt": {
-            "start": 0,
-            "seconds": 3.6
+          "underSpeech": true,
+          "credit": {
+            "id": "grand-project-breaking-news-505617",
+            "title": "Breaking News Background Music",
+            "author": "Grand_Project",
+            "url": "https://pixabay.com/music/percussion-breaking-news-background-music-505617/",
+            "license": "Pixabay Content License",
+            "licenseUrl": "https://pixabay.com/service/license-summary/",
+            "source": "tools/remount-news-common.cjs",
+            "origin": "licensed-music",
+            "kind": "news-programme",
+            "sourceNotDistributedSeparately": true
           },
-          "start": 84.66,
-          "underSpeech": false
-        },
-        {
-          "name": "simgo-380687",
-          "origin": "external-recording",
-          "author": "simgo",
-          "license": "CC0 1.0",
-          "source": "assets/audio/sources/simgo-380687.mp3",
-          "sourceSha256": "134e8b4da1abd5849321f37d33192cf641b822d649803e1002b8568198fbfc91",
-          "sourceUrl": "https://freesound.org/people/simgo/sounds/380687/",
-          "excerpt": {
-            "start": 12,
-            "seconds": 2
+          "sourceSha256": "32e3e6c978ef1bc5c013c40880ac3ad9714957548f956c1355ad8852c94405ae",
+          "voiceMarginTargetDb": 25,
+          "sidechain": {
+            "threshold": 0.018,
+            "ratio": 6,
+            "attackMs": 12,
+            "releaseMs": 450
           },
-          "start": 4.35,
-          "underSpeech": false
+          "openingSeconds": 3.5,
+          "closingSeconds": 4.5
         }
       ],
-      "sha256": "7af032486d2870e247a9b82438284bc316856c1639755c2f6cfc4ab556355fe3",
+      "sha256": "3f55fe2548f4e8b1cc9effa4e34b75dfc3c8fc8fdf866eee35f49caa4ea1f853",
       "montageAuthorization": {
         "status": "authorized-for-draft-montage",
         "date": "2026-11-21",
@@ -5159,18 +5172,32 @@
       },
       "voice": {
         "bodyLead": 7
+      },
+      "newsRevision": {
+        "date": "2026-11-22",
+        "baseFile": "s006-news-v1.mp3",
+        "baseAudioSha256": "7af032486d2870e247a9b82438284bc316856c1639755c2f6cfc4ab556355fe3",
+        "allOldEffectsRemoved": true,
+        "voiceRetimed": false,
+        "titleRange": {
+          "start": 0.1,
+          "end": 4.83
+        },
+        "bodyPcmSha256": "24390d26fbfd44ff33532ec55360da820dc14bb88a74502d4050c4268f336ad1",
+        "teacherFinalApproval": false,
+        "newRequests": 0
       }
     },
     {
       "code": "S009",
       "activity": "ca-S009",
       "state": "awaiting-montage-validation",
-      "file": "s009-news-v1.mp3",
-      "introFile": "s009-news-v1-intro.mp3",
-      "bodyFile": "s009-news-v1-cos.mp3",
-      "offset": 6.97,
-      "bodyDuration": 94.97,
-      "fullDuration": 101.94,
+      "file": "s009-news-common-v2.mp3",
+      "introFile": "s009-news-common-v2-intro.mp3",
+      "bodyFile": "s009-news-common-v2-cos.mp3",
+      "offset": 6.36,
+      "bodyDuration": 89.57,
+      "fullDuration": 95.92999999999999,
       "voices": {
         "Mar": "Erinome"
       },
@@ -5185,58 +5212,39 @@
       "newSynthesisRequests": 0,
       "sharedRequest": true,
       "voiceRetimed": false,
-      "lufs": -18.78,
-      "peakDbTP": -2.5,
+      "lufs": -19.18,
+      "peakDbTP": -2.49,
       "effects": [
         {
-          "name": "ona-curta-obertura",
-          "jingleId": "ona-curta",
-          "origin": "original-procedural-composition",
-          "author": "Sentit",
-          "license": "MIT",
-          "source": "assets/audio/mireia-ona-curta-v1-obertura.mp3",
-          "sourceSha256": "62016b7d191327628b1ca3b0be77e46e0c273a9732e04152ca2cde6efca33d7a",
-          "sourceUrl": "https://github.com/aaronFortuno/sentit/blob/main/tools/propose-mireia-variants.cjs",
-          "excerpt": {
-            "start": 0,
-            "seconds": 4
-          },
+          "name": "grand-project-breaking-news-505617",
+          "origin": "licensed-music-in-montage",
           "start": 0,
-          "underSpeech": false
-        },
-        {
-          "name": "ona-curta-tancament",
-          "jingleId": "ona-curta",
-          "origin": "original-procedural-composition",
-          "author": "Sentit",
-          "license": "MIT",
-          "source": "assets/audio/mireia-ona-curta-v1-tancament.mp3",
-          "sourceSha256": "2ec44fc31e176c8ee86b57167eef042d66b3e38879ce5c092ab353971c5ff4cc",
-          "sourceUrl": "https://github.com/aaronFortuno/sentit/blob/main/tools/propose-mireia-variants.cjs",
-          "excerpt": {
-            "start": 0,
-            "seconds": 3.6
+          "underSpeech": true,
+          "credit": {
+            "id": "grand-project-breaking-news-505617",
+            "title": "Breaking News Background Music",
+            "author": "Grand_Project",
+            "url": "https://pixabay.com/music/percussion-breaking-news-background-music-505617/",
+            "license": "Pixabay Content License",
+            "licenseUrl": "https://pixabay.com/service/license-summary/",
+            "source": "tools/remount-news-common.cjs",
+            "origin": "licensed-music",
+            "kind": "news-programme",
+            "sourceNotDistributedSeparately": true
           },
-          "start": 90.16999999999999,
-          "underSpeech": false
-        },
-        {
-          "name": "beussa-749880",
-          "origin": "external-recording",
-          "author": "Beussa",
-          "license": "CC0 1.0",
-          "source": "assets/audio/sources/beussa-749880.mp3",
-          "sourceSha256": "4b38b5c58abb206d5b86b9d5b6a3acde8eea90c288ef194b4a67503fe659b4a9",
-          "sourceUrl": "https://freesound.org/people/Beussa/sounds/749880/",
-          "excerpt": {
-            "start": 0,
-            "seconds": 0.678
+          "sourceSha256": "32e3e6c978ef1bc5c013c40880ac3ad9714957548f956c1355ad8852c94405ae",
+          "voiceMarginTargetDb": 25,
+          "sidechain": {
+            "threshold": 0.018,
+            "ratio": 6,
+            "attackMs": 12,
+            "releaseMs": 450
           },
-          "start": 5.1,
-          "underSpeech": false
+          "openingSeconds": 3.5,
+          "closingSeconds": 4.5
         }
       ],
-      "sha256": "277d9786b3ecac52dd882bce81f9c4566fd8d8114f22d1e038f8112fb5544197",
+      "sha256": "9b2c4875e89b8bd10d7281f61ce4228f95723a55baaa697cd03c5441f0b3eda5",
       "montageAuthorization": {
         "status": "authorized-for-draft-montage",
         "date": "2026-11-21",
@@ -5266,18 +5274,32 @@
       },
       "voice": {
         "bodyLead": 7
+      },
+      "newsRevision": {
+        "date": "2026-11-22",
+        "baseFile": "s009-news-v1.mp3",
+        "baseAudioSha256": "277d9786b3ecac52dd882bce81f9c4566fd8d8114f22d1e038f8112fb5544197",
+        "allOldEffectsRemoved": true,
+        "voiceRetimed": false,
+        "titleRange": {
+          "start": 0.265,
+          "end": 5.505
+        },
+        "bodyPcmSha256": "4fb3e7c721416cc87bd103d45a902750e2209c9aa32cfd5fe7e3df2f11f45e80",
+        "teacherFinalApproval": false,
+        "newRequests": 0
       }
     },
     {
       "code": "S029",
       "activity": "ca-S029",
       "state": "awaiting-montage-validation",
-      "file": "s029-news-v1.mp3",
-      "introFile": "s029-news-v1-intro.mp3",
-      "bodyFile": "s029-news-v1-cos.mp3",
-      "offset": 6.04,
-      "bodyDuration": 80.36583333333333,
-      "fullDuration": 86.40583333333333,
+      "file": "s029-news-common-v2.mp3",
+      "introFile": "s029-news-common-v2-intro.mp3",
+      "bodyFile": "s029-news-common-v2-cos.mp3",
+      "offset": 4.1265,
+      "bodyDuration": 74.96583333333334,
+      "fullDuration": 79.09233333333333,
       "voices": {
         "Mar": "Erinome"
       },
@@ -5292,58 +5314,39 @@
       "newSynthesisRequests": 0,
       "sharedRequest": true,
       "voiceRetimed": false,
-      "lufs": -18.89,
-      "peakDbTP": -2.5,
+      "lufs": -19.35,
+      "peakDbTP": -2.49,
       "effects": [
         {
-          "name": "ona-curta-obertura",
-          "jingleId": "ona-curta",
-          "origin": "original-procedural-composition",
-          "author": "Sentit",
-          "license": "MIT",
-          "source": "assets/audio/mireia-ona-curta-v1-obertura.mp3",
-          "sourceSha256": "62016b7d191327628b1ca3b0be77e46e0c273a9732e04152ca2cde6efca33d7a",
-          "sourceUrl": "https://github.com/aaronFortuno/sentit/blob/main/tools/propose-mireia-variants.cjs",
-          "excerpt": {
-            "start": 0,
-            "seconds": 4
-          },
+          "name": "grand-project-breaking-news-505617",
+          "origin": "licensed-music-in-montage",
           "start": 0,
-          "underSpeech": false
-        },
-        {
-          "name": "ona-curta-tancament",
-          "jingleId": "ona-curta",
-          "origin": "original-procedural-composition",
-          "author": "Sentit",
-          "license": "MIT",
-          "source": "assets/audio/mireia-ona-curta-v1-tancament.mp3",
-          "sourceSha256": "2ec44fc31e176c8ee86b57167eef042d66b3e38879ce5c092ab353971c5ff4cc",
-          "sourceUrl": "https://github.com/aaronFortuno/sentit/blob/main/tools/propose-mireia-variants.cjs",
-          "excerpt": {
-            "start": 0,
-            "seconds": 3.6
+          "underSpeech": true,
+          "credit": {
+            "id": "grand-project-breaking-news-505617",
+            "title": "Breaking News Background Music",
+            "author": "Grand_Project",
+            "url": "https://pixabay.com/music/percussion-breaking-news-background-music-505617/",
+            "license": "Pixabay Content License",
+            "licenseUrl": "https://pixabay.com/service/license-summary/",
+            "source": "tools/remount-news-common.cjs",
+            "origin": "licensed-music",
+            "kind": "news-programme",
+            "sourceNotDistributedSeparately": true
           },
-          "start": 75.56583333333333,
-          "underSpeech": false
-        },
-        {
-          "name": "simgo-380687",
-          "origin": "external-recording",
-          "author": "simgo",
-          "license": "CC0 1.0",
-          "source": "assets/audio/sources/simgo-380687.mp3",
-          "sourceSha256": "134e8b4da1abd5849321f37d33192cf641b822d649803e1002b8568198fbfc91",
-          "sourceUrl": "https://freesound.org/people/simgo/sounds/380687/",
-          "excerpt": {
-            "start": 34,
-            "seconds": 2
+          "sourceSha256": "32e3e6c978ef1bc5c013c40880ac3ad9714957548f956c1355ad8852c94405ae",
+          "voiceMarginTargetDb": 25,
+          "sidechain": {
+            "threshold": 0.018,
+            "ratio": 6,
+            "attackMs": 12,
+            "releaseMs": 450
           },
-          "start": 4.35,
-          "underSpeech": false
+          "openingSeconds": 3.5,
+          "closingSeconds": 4.5
         }
       ],
-      "sha256": "3e0e195ffb6ab56361684a965b9f7e7718a1462f7d3ffab7acabe680e67b674a",
+      "sha256": "bc4a146f94be2d3a5751c221ee9d10daf7080389ecf794f6605498157e0d1055",
       "montageAuthorization": {
         "status": "authorized-for-draft-montage",
         "date": "2026-11-21",
@@ -5364,18 +5367,32 @@
       },
       "voice": {
         "bodyLead": 7
+      },
+      "newsRevision": {
+        "date": "2026-11-22",
+        "baseFile": "s029-news-v1.mp3",
+        "baseAudioSha256": "3e0e195ffb6ab56361684a965b9f7e7718a1462f7d3ffab7acabe680e67b674a",
+        "allOldEffectsRemoved": true,
+        "voiceRetimed": false,
+        "titleRange": {
+          "start": 1.4185,
+          "end": 4.425
+        },
+        "bodyPcmSha256": "4f83d81d1f3ece8513b600136d35dfb936ed7a54b0fee73c35d162a2f66216f5",
+        "teacherFinalApproval": false,
+        "newRequests": 0
       }
     },
     {
       "code": "S031",
       "activity": "ca-S031",
       "state": "awaiting-montage-validation",
-      "file": "s031-news-v1.mp3",
-      "introFile": "s031-news-v1-intro.mp3",
-      "bodyFile": "s031-news-v1-cos.mp3",
-      "offset": 6.37,
-      "bodyDuration": 89.43641666666667,
-      "fullDuration": 95.80641666666668,
+      "file": "s031-news-common-v2.mp3",
+      "introFile": "s031-news-common-v2-intro.mp3",
+      "bodyFile": "s031-news-common-v2-cos.mp3",
+      "offset": 5.61,
+      "bodyDuration": 83.13641666666666,
+      "fullDuration": 88.74641666666666,
       "voices": {
         "Mar": "Erinome"
       },
@@ -5390,73 +5407,39 @@
       "newSynthesisRequests": 0,
       "sharedRequest": true,
       "voiceRetimed": false,
-      "lufs": -18.94,
+      "lufs": -19.35,
       "peakDbTP": -2.49,
       "effects": [
         {
-          "name": "ona-curta-obertura",
-          "jingleId": "ona-curta",
-          "origin": "original-procedural-composition",
-          "author": "Sentit",
-          "license": "MIT",
-          "source": "assets/audio/mireia-ona-curta-v1-obertura.mp3",
-          "sourceSha256": "62016b7d191327628b1ca3b0be77e46e0c273a9732e04152ca2cde6efca33d7a",
-          "sourceUrl": "https://github.com/aaronFortuno/sentit/blob/main/tools/propose-mireia-variants.cjs",
-          "excerpt": {
-            "start": 0,
-            "seconds": 4
-          },
+          "name": "grand-project-breaking-news-505617",
+          "origin": "licensed-music-in-montage",
           "start": 0,
-          "underSpeech": false
-        },
-        {
-          "name": "ona-curta-tancament",
-          "jingleId": "ona-curta",
-          "origin": "original-procedural-composition",
-          "author": "Sentit",
-          "license": "MIT",
-          "source": "assets/audio/mireia-ona-curta-v1-tancament.mp3",
-          "sourceSha256": "2ec44fc31e176c8ee86b57167eef042d66b3e38879ce5c092ab353971c5ff4cc",
-          "sourceUrl": "https://github.com/aaronFortuno/sentit/blob/main/tools/propose-mireia-variants.cjs",
-          "excerpt": {
-            "start": 0,
-            "seconds": 3.6
+          "underSpeech": true,
+          "credit": {
+            "id": "grand-project-breaking-news-505617",
+            "title": "Breaking News Background Music",
+            "author": "Grand_Project",
+            "url": "https://pixabay.com/music/percussion-breaking-news-background-music-505617/",
+            "license": "Pixabay Content License",
+            "licenseUrl": "https://pixabay.com/service/license-summary/",
+            "source": "tools/remount-news-common.cjs",
+            "origin": "licensed-music",
+            "kind": "news-programme",
+            "sourceNotDistributedSeparately": true
           },
-          "start": 84.63641666666666,
-          "underSpeech": false
-        },
-        {
-          "name": "callmethefoo-744447",
-          "origin": "external-recording",
-          "author": "callmethefoo",
-          "license": "CC0 1.0",
-          "source": "assets/audio/sources/callmethefoo-744447.mp3",
-          "sourceSha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
-          "sourceUrl": "https://freesound.org/people/callmethefoo/sounds/744447/",
-          "excerpt": {
-            "start": 12,
-            "seconds": 2
+          "sourceSha256": "32e3e6c978ef1bc5c013c40880ac3ad9714957548f956c1355ad8852c94405ae",
+          "voiceMarginTargetDb": 25,
+          "sidechain": {
+            "threshold": 0.018,
+            "ratio": 6,
+            "attackMs": 12,
+            "releaseMs": 450
           },
-          "start": 4.35,
-          "underSpeech": false
-        },
-        {
-          "name": "beussa-749880",
-          "origin": "external-recording",
-          "author": "Beussa",
-          "license": "CC0 1.0",
-          "source": "assets/audio/sources/beussa-749880.mp3",
-          "sourceSha256": "4b38b5c58abb206d5b86b9d5b6a3acde8eea90c288ef194b4a67503fe659b4a9",
-          "sourceUrl": "https://freesound.org/people/Beussa/sounds/749880/",
-          "excerpt": {
-            "start": 0,
-            "seconds": 0.678
-          },
-          "start": 46.356400000000015,
-          "underSpeech": false
+          "openingSeconds": 3.5,
+          "closingSeconds": 4.5
         }
       ],
-      "sha256": "aee1d5829ff701a39de534de64a48555a0c0278e9eac0bae16dc2af1cf9a4716",
+      "sha256": "34091eaf295be3000d035617889cc9512c6f361cd184a732b0731959cbac6c82",
       "montageAuthorization": {
         "status": "authorized-for-draft-montage",
         "date": "2026-11-21",
@@ -5477,18 +5460,33 @@
       },
       "voice": {
         "bodyLead": 7
+      },
+      "newsRevision": {
+        "date": "2026-11-22",
+        "baseFile": "s031-news-v1.mp3",
+        "baseAudioSha256": "aee1d5829ff701a39de534de64a48555a0c0278e9eac0bae16dc2af1cf9a4716",
+        "allOldEffectsRemoved": true,
+        "voiceRetimed": false,
+        "removedInsertedPaperSilence": 0.9,
+        "titleRange": {
+          "start": 6.775,
+          "end": 11.265
+        },
+        "bodyPcmSha256": "7cc634891909e2f39a9065bb758105f32a101aa5a24feb88a9357427474cf38d",
+        "teacherFinalApproval": false,
+        "newRequests": 0
       }
     },
     {
       "code": "S039",
       "activity": "ca-S039",
       "state": "awaiting-montage-validation",
-      "file": "s039-news-v1.mp3",
-      "introFile": "s039-news-v1-intro.mp3",
-      "bodyFile": "s039-news-v1-cos.mp3",
-      "offset": 6.099583333333333,
-      "bodyDuration": 130.76045833333333,
-      "fullDuration": 136.86004166666666,
+      "file": "s039-news-common-v2.mp3",
+      "introFile": "s039-news-common-v2-intro.mp3",
+      "bodyFile": "s039-news-common-v2-cos.mp3",
+      "offset": 5.5200000000000005,
+      "bodyDuration": 125.36045833333333,
+      "fullDuration": 130.88045833333334,
       "voices": {
         "Mar": "Erinome",
         "Pau": "Charon"
@@ -5504,103 +5502,39 @@
       "newSynthesisRequests": 0,
       "sharedRequest": true,
       "voiceRetimed": false,
-      "lufs": -18.78,
-      "peakDbTP": -2.5,
+      "lufs": -18.95,
+      "peakDbTP": -2.49,
       "effects": [
         {
-          "name": "ona-curta-obertura",
-          "jingleId": "ona-curta",
-          "origin": "original-procedural-composition",
-          "author": "Sentit",
-          "license": "MIT",
-          "source": "assets/audio/mireia-ona-curta-v1-obertura.mp3",
-          "sourceSha256": "62016b7d191327628b1ca3b0be77e46e0c273a9732e04152ca2cde6efca33d7a",
-          "sourceUrl": "https://github.com/aaronFortuno/sentit/blob/main/tools/propose-mireia-variants.cjs",
-          "excerpt": {
-            "start": 0,
-            "seconds": 4
-          },
+          "name": "grand-project-breaking-news-505617",
+          "origin": "licensed-music-in-montage",
           "start": 0,
-          "underSpeech": false
-        },
-        {
-          "name": "ona-curta-tancament",
-          "jingleId": "ona-curta",
-          "origin": "original-procedural-composition",
-          "author": "Sentit",
-          "license": "MIT",
-          "source": "assets/audio/mireia-ona-curta-v1-tancament.mp3",
-          "sourceSha256": "2ec44fc31e176c8ee86b57167eef042d66b3e38879ce5c092ab353971c5ff4cc",
-          "sourceUrl": "https://github.com/aaronFortuno/sentit/blob/main/tools/propose-mireia-variants.cjs",
-          "excerpt": {
-            "start": 0,
-            "seconds": 3.6
+          "underSpeech": true,
+          "credit": {
+            "id": "grand-project-breaking-news-505617",
+            "title": "Breaking News Background Music",
+            "author": "Grand_Project",
+            "url": "https://pixabay.com/music/percussion-breaking-news-background-music-505617/",
+            "license": "Pixabay Content License",
+            "licenseUrl": "https://pixabay.com/service/license-summary/",
+            "source": "tools/remount-news-common.cjs",
+            "origin": "licensed-music",
+            "kind": "news-programme",
+            "sourceNotDistributedSeparately": true
           },
-          "start": 125.96045833333332,
-          "underSpeech": false
-        },
-        {
-          "name": "callmethefoo-744447",
-          "origin": "external-recording",
-          "author": "callmethefoo",
-          "license": "CC0 1.0",
-          "source": "assets/audio/sources/callmethefoo-744447.mp3",
-          "sourceSha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
-          "sourceUrl": "https://freesound.org/people/callmethefoo/sounds/744447/",
-          "excerpt": {
-            "start": 12,
-            "seconds": 2
+          "sourceSha256": "32e3e6c978ef1bc5c013c40880ac3ad9714957548f956c1355ad8852c94405ae",
+          "voiceMarginTargetDb": 25,
+          "sidechain": {
+            "threshold": 0.018,
+            "ratio": 6,
+            "attackMs": 12,
+            "releaseMs": 450
           },
-          "start": 4.35,
-          "underSpeech": false
-        },
-        {
-          "name": "callmethefoo-744447",
-          "origin": "external-recording",
-          "author": "callmethefoo",
-          "license": "CC0 1.0",
-          "source": "assets/audio/sources/callmethefoo-744447.mp3",
-          "sourceSha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
-          "sourceUrl": "https://freesound.org/people/callmethefoo/sounds/744447/",
-          "excerpt": {
-            "start": 12,
-            "seconds": 18.03
-          },
-          "start": 48.1704,
-          "underSpeech": true
-        },
-        {
-          "name": "callmethefoo-744447",
-          "origin": "external-recording",
-          "author": "callmethefoo",
-          "license": "CC0 1.0",
-          "source": "assets/audio/sources/callmethefoo-744447.mp3",
-          "sourceSha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
-          "sourceUrl": "https://freesound.org/people/callmethefoo/sounds/744447/",
-          "excerpt": {
-            "start": 12,
-            "seconds": 16.799999999999983
-          },
-          "start": 70.93044166666667,
-          "underSpeech": true
-        },
-        {
-          "name": "callmethefoo-744447",
-          "origin": "external-recording",
-          "author": "callmethefoo",
-          "license": "CC0 1.0",
-          "source": "assets/audio/sources/callmethefoo-744447.mp3",
-          "sourceSha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
-          "sourceUrl": "https://freesound.org/people/callmethefoo/sounds/744447/",
-          "excerpt": {
-            "start": 12,
-            "seconds": 4.409999999999968
-          },
-          "start": 91.8704416666667,
-          "underSpeech": true
+          "openingSeconds": 3.5,
+          "closingSeconds": 4.5
         }
       ],
-      "sha256": "1cff791a486e7dc0e76e8761bf22f90d71b5111a349f81749f1093d4ca41e590",
+      "sha256": "02f34e895e50db60f4c41e7b5ede24a6facf91a49ece1ca0b575dfea38507865",
       "montageAuthorization": {
         "status": "authorized-for-draft-montage",
         "date": "2026-11-21",
@@ -5631,6 +5565,20 @@
       },
       "voice": {
         "bodyLead": 7
+      },
+      "newsRevision": {
+        "date": "2026-11-22",
+        "baseFile": "s039-news-v1.mp3",
+        "baseAudioSha256": "1cff791a486e7dc0e76e8761bf22f90d71b5111a349f81749f1093d4ca41e590",
+        "allOldEffectsRemoved": true,
+        "voiceRetimed": false,
+        "titleRange": {
+          "start": 0.25,
+          "end": 4.65
+        },
+        "bodyPcmSha256": "9735676d454beff260bd3b45c376919704ba570402da8bb4d94fa4faf05f250f",
+        "teacherFinalApproval": false,
+        "newRequests": 0
       }
     }
   ]

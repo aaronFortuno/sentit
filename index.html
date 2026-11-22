@@ -169,10 +169,13 @@
               <button type="button" id="preview-fragment" class="button" aria-pressed="false"><span data-icon="play" aria-hidden="true"></span><span id="preview-fragment-label" data-t="listenComprehension">Escolta la comprensió</span></button>
               <button type="button" id="preview-session" class="button" aria-pressed="false" data-title="previewNoWaits"><span data-icon="play" aria-hidden="true"></span><span id="preview-session-label" data-t="listenFullSession">Escolta el muntatge complet</span></button>
             </div>
-            <audio id="teacher-audio" preload="none" hidden data-label="audio"></audio>
+            <div id="fragment-seek"></div>
+            <audio id="teacher-audio" preload="metadata" hidden data-label="audio"></audio>
             <p id="audio-preview-status" class="audio-preview-status" role="status" aria-live="polite"></p>
+            <div id="repair-previews" class="repair-preview-actions" hidden></div>
           </div>
           <p id="audio-empty" class="empty" data-t="noAudio">Tria una activitat per escoltar-la.</p>
+          <div id="received-voice-preview" class="received-voice-preview" hidden></div>
 
           <details id="generation-plan" class="generation-plan" open hidden><summary data-t="generationTitle">Talls per a Gemini</summary><div class="generation-plan-content"></div></details>
         </section></div>
@@ -279,7 +282,7 @@
       <nav aria-label="Projecte" data-label="project">
         <label class="provisional-option footer-provisional" title="Funció experimental"><input id="show-provisional" type="checkbox" role="switch" checked><span data-t="showProvisionalExperimental">Només provisionals · experimental</span></label>
         <a href="./LICENSE" data-t="license">Llicència</a>
-        <button type="button" data-open="changes" data-label="changes">v0.1.76</button>
+        <button type="button" data-open="changes" data-label="changes">v0.1.77</button>
         <button type="button" data-open="v4v">V4V</button>
       </nav>
     </div>
@@ -325,6 +328,8 @@
       </div>
       <a class="changelog-full" href="https://github.com/aaronFortuno/sentit/blob/main/CHANGELOG.md" target="_blank" rel="noopener noreferrer" data-t="fullChangelog">Changelog complet a GitHub</a>
       <div class="changelog-scroll dialog-scroll">
+      <h3>0.1.77 <time datetime="2026-11-22" data-t="releaseDateReviewUpdates">22 de novembre de 2026</time></h3>
+      <p data-t="releaseBatchesAndCinema"></p>
       <h3>0.1.76 <time datetime="2026-11-22" data-t="releaseDateReviewUpdates">22 de novembre de 2026</time></h3>
       <p data-t="releaseS046Dialogue"></p>
       <h3>0.1.75 <time datetime="2026-11-22" data-t="releaseDateReviewUpdates">22 de novembre de 2026</time></h3>
@@ -502,6 +507,11 @@
       </div>
     </div>
   </dialog>
+  <dialog id="repair-preview-dialog" aria-labelledby="repair-preview-title" aria-describedby="repair-preview-notice"><div class="dialog-content">
+    <div class="dialog-head"><h2 id="repair-preview-title"></h2><form method="dialog"><button class="icon-button" type="submit" data-label="close"><span data-icon="close" aria-hidden="true"></span></button></form></div>
+    <p id="repair-preview-notice" class="small"></p>
+    <div id="repair-preview-list" class="dialog-scroll"></div>
+  </div></dialog>
   <dialog id="error-report-dialog" aria-labelledby="error-report-title" aria-describedby="error-report-context"><div class="dialog-content">
     <div class="dialog-head"><h2 id="error-report-title" data-t="reportError">Notifica un error</h2><form method="dialog"><button class="icon-button" type="submit" data-label="close"><span data-icon="close" aria-hidden="true"></span></button></form></div>
     <p id="error-report-context" class="small"></p>

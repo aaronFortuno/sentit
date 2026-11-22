@@ -115,5 +115,101 @@
     "teacherAudioApproval": false,
     "newRequests": 0,
     "voiceRetimed": false
+  },
+  {
+    "code": "S045",
+    "title": "Les cadires del cinema",
+    "batch": "L17",
+    "sourceTakeSha256": "b719993201db3333152ee5743152082a1634adeac5dfa2bb578c117988fbf353",
+    "sourceRawSha256": "43a2e90b48ca2359bb188118537c41567673d998ef51374d5170f00ca0c55937",
+    "file": "assets/audio/s045-voices-review-v1.mp3",
+    "sha256": "bb6d2b76bd933b559ccdb364446698725f78fa4eef94259c936fdf447b8325bb",
+    "state": "voices-received-awaiting-montage",
+    "teacherAudioApproval": false,
+    "newRequests": 0,
+    "voiceRetimed": false
+  },
+  {
+    "code": "S046",
+    "title": "La clau del davantal",
+    "batch": "L17",
+    "sourceTakeSha256": "fe1e0f15945813329b08f7e2bbe999316cfc4379195dabe8287c09e4bcb31fad",
+    "sourceRawSha256": "43a2e90b48ca2359bb188118537c41567673d998ef51374d5170f00ca0c55937",
+    "file": "assets/audio/s046-voices-review-v1.mp3",
+    "sha256": "72859222d1baa49b5a847c7b0a19ad4a0d390e740862e1d03f72d52dc77f3b83",
+    "state": "voices-received-awaiting-montage",
+    "teacherAudioApproval": false,
+    "newRequests": 0,
+    "voiceRetimed": false
+  },
+  {
+    "code": "S047",
+    "title": "La maleta que feia soroll",
+    "batch": "L17",
+    "sourceTakeSha256": "0a299ff99e309f1bea98b95ba32d268402c74c586195144b92aac4a456f18907",
+    "sourceRawSha256": "43a2e90b48ca2359bb188118537c41567673d998ef51374d5170f00ca0c55937",
+    "file": "assets/audio/s047-voices-review-v1.mp3",
+    "sha256": "a7c0573ede1ef96df7c18603857e969ad5291a2cdd1667f01945a5c791a453f8",
+    "state": "voices-received-awaiting-montage",
+    "teacherAudioApproval": false,
+    "newRequests": 0,
+    "voiceRetimed": false
+  },
+  {
+    "code": "S069",
+    "title": "La pissarra del partit",
+    "batch": "L17",
+    "sourceTakeSha256": "633fd6af92165442628944cb8ad45e889218b2bbbf4d4ceca34f47f390421a14",
+    "sourceRawSha256": "43a2e90b48ca2359bb188118537c41567673d998ef51374d5170f00ca0c55937",
+    "file": "assets/audio/s069-voices-review-v1.mp3",
+    "sha256": "387ee79562fd3ffa6c43e497edba4a97a5baee57d5469a42fede4f5534bf5485",
+    "state": "voices-received-awaiting-montage",
+    "teacherAudioApproval": false,
+    "newRequests": 0,
+    "voiceRetimed": false
+  },
+  {
+    "code": "S058",
+    "title": "La pancarta que tapava la porta",
+    "batch": "L18",
+    "sourceTakeSha256": "42a56971ce0f129ecd891b5ad820cb9806de00160954219a913e8dc9824f6d86",
+    "sourceRawSha256": "de4323b4b47570c2f0ba4f84b9737e25ca467727538ba4840d164eedd8ccb601",
+    "file": "assets/audio/s058-voices-review-v1.mp3",
+    "sha256": "12fc497774d15e6a372cd0c353c27e63c4ff0a8e82575c291a5daa6fd633a5c7",
+    "state": "voices-received-awaiting-listening",
+    "missingParts": [],
+    "teacherAudioApproval": false,
+    "newRequests": 0,
+    "voiceRetimed": false
+  },
+  {
+    "code": "S061",
+    "title": "El curt que començava pel final",
+    "batch": "L18",
+    "sourceTakeSha256": "d27187cf8ae9da5f80466122ceefdedb029015ebe486cf16b36e20d70c1640be",
+    "sourceRawSha256": "de4323b4b47570c2f0ba4f84b9737e25ca467727538ba4840d164eedd8ccb601",
+    "file": "assets/audio/s061-voices-review-v1.mp3",
+    "sha256": "1200d6c4fa84605e35e3adbff0788e6ea93083e709ad6508def91eb8873509f4",
+    "state": "voices-received-awaiting-listening",
+    "missingParts": [
+      "introduction"
+    ],
+    "teacherAudioApproval": false,
+    "newRequests": 0,
+    "voiceRetimed": false
+  },
+  {
+    "code": "S062",
+    "title": "Dos cartells per al mateix concert",
+    "batch": "L18",
+    "sourceTakeSha256": "031262103284aefc7afa38de4c7db2e19e6437de1c4a64a75bdec374152d26b0",
+    "sourceRawSha256": "de4323b4b47570c2f0ba4f84b9737e25ca467727538ba4840d164eedd8ccb601",
+    "file": "assets/audio/s062-voices-review-v1.mp3",
+    "sha256": "ea2948fca14dda1a42af6d5cf64008a084bec9bd70bdaa512adaae7e3edd6d11",
+    "state": "voices-received-awaiting-listening",
+    "missingParts": [],
+    "teacherAudioApproval": false,
+    "newRequests": 0,
+    "voiceRetimed": false
   }
 ]

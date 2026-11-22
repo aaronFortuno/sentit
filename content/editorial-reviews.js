@@ -26,9 +26,12 @@ export const editorialReviews = {
   },
   "ca-S006": {
     "status": "passed",
-    "reviewedAt": "2026-11-20",
-    "reviewer": "revisor-coherencia-independent",
-    "fingerprint": "629dbd8f7a80c495f8604b1c8831d2feecf09928c6aebc8e22f148bed95304fe"
+    "reviewedAt": "2026-11-22",
+    "reviewer": "revisio_contextos_previs",
+    "fingerprint": "f5d65ce7c8c1510f490953a72b09c81a74b597993b35700e2a798aae6f137ce2",
+    "metadataReview": {
+      "scope": "Anotacions de muntatge real substitueixen les acotacions antigues; text i preguntes intactes, sense aprovació perceptiva."
+    }
   },
   "ca-S007": {
     "status": "passed",
@@ -50,15 +53,22 @@ export const editorialReviews = {
   },
   "ca-S009": {
     "status": "passed",
-    "reviewedAt": "2026-11-20",
-    "reviewer": "revisor-coherencia-independent",
-    "fingerprint": "38014b8e7bff3ce697843ac062788c561d32a4ee41b342e19471419864974df7"
+    "reviewedAt": "2026-11-22",
+    "reviewer": "revisio_contextos_previs",
+    "fingerprint": "63dc0ab59071bd124c63f9332575d4d756ba291f6e7e8e0265c3a5195f3e3043",
+    "metadataReview": {
+      "scope": "Anotacions de muntatge real substitueixen les acotacions antigues; text i preguntes intactes, sense aprovació perceptiva."
+    }
   },
   "ca-S010": {
     "status": "passed",
-    "reviewedAt": "2026-11-20",
-    "reviewer": "revisor-coherencia-independent",
-    "fingerprint": "11cbce998206dc0d70f31061f2985021e86dabf46ba515b475b11a65832c78fe"
+    "reviewedAt": "2026-11-22",
+    "reviewer": "revisio_contextos_previs",
+    "fingerprint": "ee128f2d969d8b74300b6cde3467d6d46311c175bc42a98ec426c6ccfcca8d1c",
+    "metadataReview": {
+      "previousFingerprint": "11cbce998206dc0d70f31061f2985021e86dabf46ba515b475b11a65832c78fe",
+      "change": "Requalificació docent de 4t a 5è intermèdia. Mateix guió parlat, set preguntes, veus i màster; no resol les esmenes d’àudio obertes."
+    }
   },
   "ca-S011": {
     "status": "passed",
@@ -86,9 +96,12 @@ export const editorialReviews = {
   },
   "ca-S016": {
     "status": "passed",
-    "reviewedAt": "2026-11-20",
-    "reviewer": "revisor-coherencia-independent",
-    "fingerprint": "b16e6dc971b2ef472e3437a27cbfb0d6f9ea0807ba45c298bc1fff21ef8f650a"
+    "reviewedAt": "2026-11-22",
+    "reviewer": "revisio_contextos_previs",
+    "fingerprint": "d998b702f5638edf71b3bfe620930f9ee44abd02c59164b8242f75b105c46f4d",
+    "metadataReview": {
+      "scope": "Anotacions de muntatge real substitueixen les acotacions antigues; text i preguntes intactes, sense aprovació perceptiva."
+    }
   },
   "ca-S017": {
     "status": "passed",
@@ -128,15 +141,21 @@ export const editorialReviews = {
   },
   "ca-S023": {
     "status": "passed",
-    "reviewedAt": "2026-11-20",
-    "reviewer": "revisor_coherencia",
-    "fingerprint": "ded73b9e363961f5bd81ba22686b8d31f05cd5806249aa91e2771005718be2a2"
+    "reviewedAt": "2026-11-22",
+    "reviewer": "revisio_contextos_previs",
+    "fingerprint": "22636665fc727f00d17b0e1349da5b9467ab27a12a049701d4bef3189511f0ad",
+    "metadataReview": {
+      "scope": "Anotacions de muntatge real substitueixen les acotacions antigues; text i preguntes intactes, sense aprovació perceptiva."
+    }
   },
   "ca-S024": {
     "status": "passed",
-    "reviewedAt": "2026-11-20",
-    "reviewer": "revisor-coherencia-independent",
-    "fingerprint": "18db36638b5c5648682dd6910fa34234852d9d6ff13264f1cce035e3e0ae4678"
+    "reviewedAt": "2026-11-22",
+    "reviewer": "revisio_contextos_previs",
+    "fingerprint": "ce9615248b452c5b07530de2d0f424174c4f313494bb1bbecf5c98aef2d81cf2",
+    "metadataReview": {
+      "scope": "Anotacions de muntatge real substitueixen les acotacions antigues; text i preguntes intactes, sense aprovació perceptiva."
+    }
   },
   "ca-S025": {
     "status": "passed",
@@ -164,21 +183,30 @@ export const editorialReviews = {
   },
   "ca-S029": {
     "status": "passed",
-    "reviewedAt": "2026-11-21",
-    "reviewer": "independent-coherence-agent",
-    "fingerprint": "1cb96a05b63702faec6322ea9a5b4e6920c96d54a91d6e60582fffb8eba9ae1e"
+    "reviewedAt": "2026-11-22",
+    "reviewer": "revisio_contextos_previs",
+    "fingerprint": "eb65b562fb2c3b738b693fa41397b8a0dc6e8c4f8134d41ffc48f6434c8ac603",
+    "metadataReview": {
+      "scope": "Anotacions de muntatge real substitueixen les acotacions antigues; text i preguntes intactes, sense aprovació perceptiva."
+    }
   },
   "ca-S030": {
     "status": "passed",
-    "reviewedAt": "2026-11-21",
-    "reviewer": "independent-naturalness-and-coherence-b",
-    "fingerprint": "0882c20c5db8894c85747289df8c6572097a71f0ab8effc522b436b19ab3b100"
+    "reviewedAt": "2026-11-22",
+    "reviewer": "revisio_contextos_previs",
+    "fingerprint": "e118368fb5bb4a2127071986eda7c6e3a9e1d27f7db6c6dc0fc33fcfae5d27de",
+    "metadataReview": {
+      "scope": "Anotacions de muntatge real substitueixen les acotacions antigues; text i preguntes intactes, sense aprovació perceptiva."
+    }
   },
   "ca-S031": {
     "status": "passed",
-    "reviewedAt": "2026-11-21",
-    "reviewer": "independent-coherence-agent",
-    "fingerprint": "ff754fc8c82fadef113da738bd7e7027d06563a2a46934eeac6fce6a8b75920b"
+    "reviewedAt": "2026-11-22",
+    "reviewer": "revisio_contextos_previs",
+    "fingerprint": "b214470b2ac404b3500255f4cbdcaf204257782b19916141752c4d32a975f582",
+    "metadataReview": {
+      "scope": "Anotacions de muntatge real substitueixen les acotacions antigues; text i preguntes intactes, sense aprovació perceptiva."
+    }
   },
   "ca-S032": {
     "status": "passed",
@@ -230,9 +258,12 @@ export const editorialReviews = {
   },
   "ca-S039": {
     "status": "passed",
-    "reviewedAt": "2026-11-21",
-    "reviewer": "independent-coherence-agent",
-    "fingerprint": "1cc278ba9dc9cc985168c1ec36178fc1e24085217dad78ad685a69f20b4e9f8b"
+    "reviewedAt": "2026-11-22",
+    "reviewer": "revisio_contextos_previs",
+    "fingerprint": "3f247f2be02ee158c2446438e9584153850f77194661c33118452d9fd21739dc",
+    "metadataReview": {
+      "scope": "Anotacions de muntatge real substitueixen les acotacions antigues; text i preguntes intactes, sense aprovació perceptiva."
+    }
   },
   "ca-S040": {
     "status": "passed",
@@ -269,6 +300,12 @@ export const editorialReviews = {
     "reviewedAt": "2026-11-22",
     "reviewer": "revisio_tanda3_ferran",
     "fingerprint": "76ec33e0deeb6feb6edff4cc4f7f5c4899bf28b8a77e07be4463e485653cdf54"
+  },
+  "ca-S045D": {
+    "status": "passed",
+    "reviewedAt": "2026-11-22",
+    "reviewer": "revisio_contextos_previs",
+    "fingerprint": "08c8056b6656b039f67afe9a6b636715deeb06fb538762fd83b9518e18389a8a"
   },
   "ca-S046": {
     "status": "passed",
@@ -405,8 +442,8 @@ export const editorialReviews = {
   "ca-S067": {
     "status": "passed",
     "reviewedAt": "2026-11-22",
-    "reviewer": "autoria_tanda4_cuina_taller",
-    "fingerprint": "f0001aa5839a01926b4d22b4e722a8b623bc41b32ac281be6ec9aa5112e38324"
+    "reviewer": "revisio_contextos_previs",
+    "fingerprint": "8132e24978437a26f3f22286de786329d6e717ed9c2c6cc7cca4541d91d65610"
   },
   "ca-S068": {
     "status": "passed",
@@ -483,8 +520,8 @@ export const editorialReviews = {
   "ca-S079": {
     "status": "passed",
     "reviewedAt": "2026-11-22",
-    "reviewer": "autoria_tanda4_noticies_troballes",
-    "fingerprint": "55239a53cc1049b2a14bad2439778f2233bb5e348ae256fbb3673758d1e856c8"
+    "reviewer": "revisio_contextos_previs",
+    "fingerprint": "e8fc2f46e2fdf6e472f9795de04c9fb32ad91cb0bd645540880ffb77f30805a9"
   },
   "ca-S080": {
     "status": "passed",
@@ -495,8 +532,8 @@ export const editorialReviews = {
   "ca-S081": {
     "status": "passed",
     "reviewedAt": "2026-11-22",
-    "reviewer": "autoria_tanda4_noticies_troballes",
-    "fingerprint": "9f102688e9b36b869180825b38319691a3e56e71916dd6b2571e081b10895cb1"
+    "reviewer": "revisio_contextos_previs",
+    "fingerprint": "2a784ecc42769c082794208ddcddb9a8c38dcaa50efa60baa1eee066bc814cf4"
   },
   "ca-S082": {
     "status": "passed",

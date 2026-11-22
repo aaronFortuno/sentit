@@ -1,0 +1,64 @@
+{
+  "code": "S024",
+  "activity": "ca-S024",
+  "state": "awaiting-audio-corrections",
+  "file": "s024-classroom-v2.mp3",
+  "introFile": "s024-classroom-v2-intro.mp3",
+  "bodyFile": "s024-classroom-v2-cos.mp3",
+  "offset": 5.0600000000000005,
+  "bodyDuration": 135.22889999999998,
+  "fullDuration": 140.28889999999998,
+  "voices": {
+    "Laia": "Leda",
+    "Biel": "Puck"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "ef2b891a48e5c2823d4527ce9a4c0fc93ae1951ecaad5c7ce07a30ac584a1a66",
+  "sourceRequestHash": "5752318d7e7b57d76f9688b37c14a9b8ee096bc9984675df52fe45801ca66cac",
+  "batch": "L02",
+  "rawSha256": "75f355dc0e16071957f1057590e050e668469cc3f22f85afd37fec35c67cee27",
+  "takeSha256": "1159530cc9e6884898ca2176f65034213df656a40b46ac8933eb6942df5694cf",
+  "coverage": 0.9473684210526315,
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.36,
+  "peakDbTP": -2.38,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "elenalostale-648659",
+      "start": 0,
+      "source": "assets/audio/sources/elenalostale-648659.mp3",
+      "sourceSha256": "bdb5a2e1b40bdcec49cf7c3752c186e355e58499ec7d0578022da599d9291bf8",
+      "sourceUrl": "https://freesound.org/people/Elenalostale/sounds/648659/",
+      "author": "Elenalostale",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.16,
+      "sourceTargetLufs": -28,
+      "excerpt": {
+        "start": 20,
+        "seconds": 60
+      },
+      "passes": 3,
+      "crossfadeSeconds": 1
+    }
+  ],
+  "sha256": "79c941202ad398a33e2681b6bc2183f23c82ce1084cdfd83013e335ea36b720a",
+  "classroomRevision": {
+    "date": "2026-11-22",
+    "baseFile": "s024-mixed-v1.mp3",
+    "baseAudioSha256": "7cd81f8b56643c5f8db7ced63525ad8039a0cb8be6614ebcd371bb530cfa4477",
+    "titleRange": {
+      "start": 10.731200000000005,
+      "end": 14.641199999999994
+    },
+    "removedInitialArtifactsSeconds": 10.731200000000005,
+    "removedClosingTones": true,
+    "continuousClassroom": true,
+    "voiceRetimed": false,
+    "unresolvedVoicePart": "dubtes",
+    "newRequests": 0
+  }
+}

@@ -147,13 +147,10 @@ export const soundSources = [
     "sha256": "4b38b5c58abb206d5b86b9d5b6a3acde8eea90c288ef194b4a67503fe659b4a9",
     "usedBy": [
       "ca-S007",
-      "ca-S009",
       "ca-S014",
       "ca-S017",
       "ca-S021",
-      "ca-S024",
       "ca-S030",
-      "ca-S031",
       "ca-S032",
       "ca-S035",
       "ca-S037",
@@ -181,7 +178,7 @@ export const soundSources = [
       "ca-S007",
       "ca-S011",
       "ca-S014",
-      "ca-S030",
+      "ca-S024",
       "ca-S032",
       "ca-S037",
       "ca-S042"
@@ -305,9 +302,7 @@ export const soundSources = [
     "downloadUrl": "https://cdn.freesound.org/previews/731/731979_14002744-hq.mp3",
     "retrievedAt": "2026-11-21",
     "sha256": "05a3c04683be95aaa12df1e59b8d92e4c31be85652c2681caac16889c4678355",
-    "usedBy": [
-      "ca-S024"
-    ],
+    "usedBy": [],
     "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
   },
   {
@@ -401,9 +396,7 @@ export const soundSources = [
     "retrievedAt": "2026-11-21",
     "sha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
     "usedBy": [
-      "ca-S031",
-      "ca-S034",
-      "ca-S039"
+      "ca-S034"
     ],
     "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
   },
@@ -421,9 +414,25 @@ export const soundSources = [
     "downloadUrl": "https://cdn.freesound.org/previews/380/380687_5734792-hq.mp3",
     "retrievedAt": "2026-11-21",
     "sha256": "134e8b4da1abd5849321f37d33192cf641b822d649803e1002b8568198fbfc91",
+    "usedBy": [],
+    "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
+  },
+  {
+    "id": "bexhillcollege-274213",
+    "title": "College Hallway ambience",
+    "author": "Bexhillcollege",
+    "url": "https://freesound.org/people/Bexhillcollege/sounds/274213/",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "origin": "external-recording",
+    "description": "Enregistrament real utilitzat en els muntatges indicats.",
+    "file": "assets/audio/sources/bexhillcollege-274213-hallway.mp3",
+    "rendition": "Còpia pública HQ en MP3 de Freesound; no és el WAV original.",
+    "downloadUrl": "https://cdn.freesound.org/previews/274/274213_4683710-hq.mp3",
+    "retrievedAt": "2026-11-22",
+    "sha256": "ac07b275131c3517007369de9cd2e3d566e6d0de9fc9ae7c7e3ac0345cbcc5f7",
     "usedBy": [
-      "ca-S006",
-      "ca-S029"
+      "ca-S030"
     ],
     "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
   }

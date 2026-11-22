@@ -1,6 +1,6 @@
 # Propostes noves de 3r i 4t · S045–S052
 
-Preparades el **22/11/2026**. Vuit guions originals amb preguntes, solucionari, cites i escaleta, revisats per agents independents. **Pendent de validació docent: cap veu sintetitzada ni petició enviada.** Cada lectura es pot revisar directament al web, amb el solucionari i el guió anotat al davant.
+Preparades el **22/11/2026**. Vuit guions originals amb preguntes, solucionari, cites i escaleta, revisats per agents independents. La validació i la producció estan en curs: el [seguiment](seguiment-produccio.md) i el [pla de lots](lots-sintesi.md) indiquen l’estat vigent. Cada lectura es pot revisar al web amb el solucionari i el guió anotat al davant; les preses ja rebudes tenen l’enllaç de comparació al seguiment.
 
 | Codi | Títol | Curs · dificultat | Tipologia | Veus | Preguntes |
 | --- | --- | --- | --- | --- | ---: |

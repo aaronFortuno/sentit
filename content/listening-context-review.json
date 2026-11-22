@@ -3,8 +3,8 @@
   "status": "passed",
   "reviewedAt": "2026-11-22",
   "reviewer": "revisio_contextos_previs",
-  "scope": "87 contextos impresos contrastats amb guions, preguntes i respostes. S046D revisada independentment, amb els 86 contextos previs intactes. Sense canvi d’aprovacions docents ni de veus.",
-  "fileSha256": "fe556cb4077ed7ce2976a268ed0a9b2f2fee5706e3771f19efe991afb5a38844",
+  "scope": "88 contextos impresos revisats independentment. S045D incorporada i contextos S079/S081 revalidats després dels comiats demanats pel docent. Sense canvis d’aprovacions d’àudio.",
+  "fileSha256": "72f0622c1957b14c14f9e83a3af98df93882c22b0f92bcb723467e0ab5f6a49c",
   "entries": {
     "ca-S001": {
       "contextSha256": "86a2e53e056b3476191785f60aeb95ceaeed57b5958b995a1c5ac832470bfedf",
@@ -128,7 +128,7 @@
     },
     "ca-S029": {
       "contextSha256": "e93551ece47b33edc339d715e0174e9567b72889bfb22aee226567bd3a58b615",
-      "sourceSha256": "414017f1042d6d4e2fb0519d8aa7a74b6babdd28de402131642fb98d045ace24"
+      "sourceSha256": "e843299159d91f457aa209ba791d162a60706d107c064880aa608f40b2fcc489"
     },
     "ca-S030": {
       "contextSha256": "cdf827e257491eae20a81b444be38c128ad3926d9ec4eae3c7f9835d4b3a5778",
@@ -332,7 +332,7 @@
     },
     "ca-S079": {
       "contextSha256": "981b6294d4d563fd3b9b99a1f93749ff6d9a2359980159116f5f03d89ebb324f",
-      "sourceSha256": "ef4b38a6d33f9b3e950aefa0ecc17a9b76ade18dd85298a4abda81464350e229"
+      "sourceSha256": "21958efd780fd296d49a31145f42ee6012f4e71fba6b31fac967512153a467e4"
     },
     "ca-S080": {
       "contextSha256": "bd374d3ebc4dd74f99aa806ae7c8cbe2e77cab5c7c28793f3ef2ef8c2b96ef30",
@@ -340,7 +340,7 @@
     },
     "ca-S081": {
       "contextSha256": "77a70dc21ca0f9960dd22f80b75f9885e9bbeaaaad024bd5cce69ef08e271141",
-      "sourceSha256": "172ca4e2f3012f4fdc6a81c23045d0f5d9fd21fc0eb36ef54fe352c6bfc6d944"
+      "sourceSha256": "0ce4118348585318261da92bc61b20b25a0c89efc7c1e436c2f280c7670bdc0b"
     },
     "ca-S082": {
       "contextSha256": "a39a987ec7ccc4c0c7fc205ec746117d40af5e698a4d558ecb5f0e83e8cc84ec",
@@ -353,6 +353,10 @@
     "ca-S046D": {
       "contextSha256": "338f6802754ef918c35ad9a165983f0756665c1e2234f1b069be00ef44f9993f",
       "sourceSha256": "a7ee9ba5805c3da596c35891c3f855048deb60e28d207ca24ef5c206d3b4e9f4"
+    },
+    "ca-S045D": {
+      "contextSha256": "daecf5127f94bdba8a47f439365bfc7f15546e0f93a3a83aae4e653a95898fba",
+      "sourceSha256": "1b648e1f85f0190ea28859dba05883ebd70c6c93184c78c6b3bab7da134eb357"
     }
   }
 }

@@ -408,6 +408,136 @@
       "approvedRequestHash": "5119dd94e84e317b305db25d468c68c5330eab652ae8a8fd665407b698db9491",
       "estimatedSeconds": 360,
       "estimatedInputTokens": 5625
+    },
+    {
+      "id": "L16",
+      "state": "authorized",
+      "speechTextFormat": "plain-v1",
+      "sourceProposal": "P12",
+      "blocks": [
+        {
+          "code": "S073",
+          "take": "S073-T01",
+          "sourceRequestHash": "3d05e881e0eaa3f0ed32e96ea756c884cb3ec53827309e2b30cedb24bfd85781"
+        },
+        {
+          "code": "S075",
+          "take": "S075-T01",
+          "sourceRequestHash": "67770784574fc42a0c8fff15ae86101474e4be988056291fab4a4124a9f4e7bd"
+        },
+        {
+          "code": "S077",
+          "take": "S077-T01",
+          "sourceRequestHash": "42cc6f8dc2c91eb436b5c54616e769671e57cb7eca7f1e4c78bdd8ae924508c4"
+        }
+      ],
+      "authorization": "Validacions docents explícites de S073, S075 i S077 el 22/11/2026. Mateix repartiment Laia/Leda i Ona/Sulafat; preparar el lot compatible amb text pla per a enviament seqüencial. Preparació local, encara sense petició de síntesi.",
+      "approvedAt": "2026-11-22T20:10:11.614Z",
+      "approvedRequestHash": "40f19458de6417bbe4d9db384484f7e77c3013fc82b9defd995e8c619825630d",
+      "estimatedSeconds": 407,
+      "estimatedInputTokens": 5910
+    },
+    {
+      "id": "L17",
+      "state": "received",
+      "speechTextFormat": "plain-v1",
+      "sourceProposal": "P01",
+      "blocks": [
+        {
+          "code": "S045",
+          "take": "S045-T01",
+          "sourceRequestHash": "8a483c13f28bc5d5cd5524d361835d3b2fdaf5fbef9e37eb3aef142e8d452e78"
+        },
+        {
+          "code": "S046",
+          "take": "S046-T01",
+          "sourceRequestHash": "5fffa82f1023a703d97e1e35660b49d2c197444f9dfdc846b949f32e43aca13c"
+        },
+        {
+          "code": "S047",
+          "take": "S047-T01",
+          "sourceRequestHash": "594d6eb8757328da78fcccca27cce021f78f4da261813ce4b514b2d58590fc1d"
+        },
+        {
+          "code": "S069",
+          "take": "S069-T01",
+          "sourceRequestHash": "5ca83ce461f3e1ed8816a816f379448a9e01d83f8d15d9fbfaa9ce531e186cc8"
+        }
+      ],
+      "authorization": "Guions, repartiment i escaletes validats expressament pel docent. Completar i preparar aquest lot amb text pla per a enviament seqüencial, sense alterar les veus ni repetir preses rebudes. Preparació local; encara sense petició de síntesi.",
+      "approvedAt": "2026-11-22T20:17:56.771Z",
+      "approvedRequestHash": "3614318c8fb54c97021a43d7a5ac29a9c5f2642f00894c7d7e5ae616d6adc099",
+      "estimatedSeconds": 476,
+      "estimatedInputTokens": 4040,
+      "receipt": "assets/audio/synthesis-batches/l17.json",
+      "completedAt": "2026-11-22T20:49:56.816Z"
+    },
+    {
+      "id": "L18",
+      "state": "received",
+      "speechTextFormat": "plain-v1",
+      "sourceProposal": "P06",
+      "blocks": [
+        {
+          "code": "S058",
+          "take": "S058-T01",
+          "sourceRequestHash": "489632e31df32749e9ee505207f0db46a14f4147739d9f3e263ae0144da97e34"
+        },
+        {
+          "code": "S061",
+          "take": "S061-T01",
+          "sourceRequestHash": "3db42032dbf751ede0a3ca87a6272d856525381bf5ce2a73d3596522acc5a846"
+        },
+        {
+          "code": "S062",
+          "take": "S062-T01",
+          "sourceRequestHash": "f7b7978840883110f5deaa867fdbd3ad2c5457db0a8818093cbb267e8ce7550b"
+        }
+      ],
+      "authorization": "Guions, repartiment i escaletes validats expressament pel docent. Completar i preparar aquest lot amb text pla per a enviament seqüencial, sense alterar les veus ni repetir preses rebudes. Preparació local; encara sense petició de síntesi.",
+      "approvedAt": "2026-11-22T20:51:04.053Z",
+      "estimatedSeconds": 428,
+      "estimatedInputTokens": 6258,
+      "previousPreparation": {
+        "approvedRequestHash": "3455ceb7d867ca586df1cda67892bb70735a4578d2f8c6c3951d1af2bf7a0e2e",
+        "approvedAt": "2026-11-22T20:17:56.976Z",
+        "execution": "synchronous"
+      },
+      "execution": "background-v1",
+      "approvedRequestHash": "f1a68c184a8ed0118f14d57dc5a685880f5b7affe7562ae9d14cbc273639f768",
+      "receipt": "assets/audio/synthesis-batches/l18.json",
+      "completedAt": "2026-11-22T20:58:09.995Z"
+    },
+    {
+      "id": "L19",
+      "state": "provider-failed",
+      "speechTextFormat": "plain-v1",
+      "sourceProposal": "P15",
+      "blocks": [
+        {
+          "code": "S081",
+          "take": "S081-T01",
+          "sourceRequestHash": "1d9cf4d8eaae74a57fc5ae85952abc1c1348649af6c66e2556e3eee7defdff2b"
+        },
+        {
+          "code": "S082",
+          "take": "S082-T01",
+          "sourceRequestHash": "4e454f64de9f6e9214be4d8ab26525255f9bc2b94f4f5a45f443875d7e7706f9"
+        }
+      ],
+      "authorization": "S081 validada amb el tancament literal d’Elies demanat pel docent i S082 validada per síntesi. Mateix repartiment Biel/Puck i Elies/Algieba. Preparar i enviar seqüencialment aquest lot complet amb els altres dos lots que el docent ha demanat completar avui.",
+      "approvedAt": "2026-11-22T20:51:04.266Z",
+      "estimatedSeconds": 369,
+      "estimatedInputTokens": 5049,
+      "previousPreparation": {
+        "approvedRequestHash": "41c3bcdaca962bd7d795787a6b74133fca3b8e637e3576db77b2a5efe537b2fa",
+        "approvedAt": "2026-11-22T20:23:20.855Z",
+        "execution": "synchronous"
+      },
+      "execution": "background-v1",
+      "approvedRequestHash": "a07c5841452fb9f7fc87fa5889bc4cc31ab97780eeaeb6a8c2d38b1b655af0e0",
+      "failureSummary": "Gemini ha retornat INTERNAL, sense veus. Identificador conservat; no reenviat automàticament.",
+      "failureAt": "2026-11-22T21:12:02.658Z"
     }
   ],
   "calibration": {

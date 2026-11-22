@@ -240,11 +240,11 @@
   },
   "S010": {
     "status": "approved",
-    "approvedFingerprint": "d7f55c7bb6ba60ea364536e6b7fe9fce9148aa11a9311976ab726c4f51ea37c9",
-    "reviewedAt": "2026-11-20T09:00:45.318Z",
+    "approvedFingerprint": "27be3eee9e83886a21e26bd80ecbdd52807c81ed0b596b5b44a41ecccc6eb854",
+    "reviewedAt": "2026-11-22T20:16:52.042Z",
     "reviewActivity": "ca-S010",
     "reviewContent": "content/propostes/quart.js",
-    "format": "4t intermèdia: actualitzar un pla, retenir fites rellevants i justificar una alternativa. No cal dibuixar un mapa exacte ni conèixer el barri.",
+    "format": "5è intermèdia: actualitzar un pla, retenir fites rellevants i justificar una alternativa. No cal dibuixar un mapa exacte ni conèixer el barri.",
     "cues": [
       "Dos segons de passes, que continuen mig segon sota la primera frase i desapareixen. No incloure soroll de trànsit sota les indicacions.",
       "Una passa aïllada i canvi de torn; les dues veus han de quedar en primer pla.",
@@ -257,7 +257,7 @@
     },
     "strategy": "packed-title-program-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
-    "approvalSource": "Validació expressa condicionada del docent el 20/11/2026: canviant el parlament final per la seva proposta, S010 queda validada. La frase s’ha aplicat literalment i la revisió independent s’ha superat. El 20/11/2026 el docent valida el muntatge i autoritza corregir dues pronunciacions i millorar els passos amb gravacions reals. Aquest remuntatge canvia només els passos; les correccions de veu encara esperen quota i audició.",
+    "approvalSource": "Validació expressa condicionada del docent el 20/11/2026: canviant el parlament final per la seva proposta, S010 queda validada. La frase s’ha aplicat literalment i la revisió independent s’ha superat. El 20/11/2026 el docent valida el muntatge i autoritza corregir dues pronunciacions i millorar els passos amb gravacions reals. Aquest remuntatge canvia només els passos; les correccions de veu encara esperen quota i audició. El 22/11/2026 el docent valida S010 per producció i la requalifica expressament a 5è intermèdia. Guió parlat, veus i set preguntes conservats; les esmenes de pronunciació registrades continuen pendents d’aplicació i audició.",
     "externalRecordings": [
       {
         "id": "evsecrets-footsteps-334457",
@@ -708,7 +708,7 @@
   },
   "S029": {
     "status": "approved",
-    "approvedFingerprint": "7721097a821d76d0a15a5199bb93ea8046b88e2877353211fd49b8ce13f75e23",
+    "approvedFingerprint": "f6f3ed21e7f243f8cfb64c0d263fda784857491bf66ca4af110cad5c3b350fbc",
     "reviewedAt": "2026-11-21T08:12:38.478Z",
     "reviewActivity": "ca-S029",
     "reviewContent": "content/propostes/tanda2/tercer.js",
@@ -725,7 +725,11 @@
     "strategy": "packed-title-program-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
     "approvedScope": "voices-only",
-    "approvalSource": "Validació explícita condicionada del docent el 21/11/2026: «Fent aquests canvis que et dic el text quedaria validat per síntesi de veus». Aplicats el bloc de pluja proposat, l’avís del mateix divendres a les quatre de la tarda i els canvis corresponents al tancament, al solucionari i a les cites. Text i Mar/Erinome autoritzats; sintonia informativa pendent de seleccionar abans del muntatge. Producció només en un lot compatible de sis a vuit minuts."
+    "approvalSource": "Validació explícita condicionada del docent el 21/11/2026: «Fent aquests canvis que et dic el text quedaria validat per síntesi de veus». Aplicats el bloc de pluja proposat, l’avís del mateix divendres a les quatre de la tarda i els canvis corresponents al tancament, al solucionari i a les cites. Text i Mar/Erinome autoritzats; sintonia informativa pendent de seleccionar abans del muntatge. Producció només en un lot compatible de sis a vuit minuts.",
+    "previousApproval": {
+      "fingerprint": "7721097a821d76d0a15a5199bb93ea8046b88e2877353211fd49b8ce13f75e23",
+      "scope": "Presentació amb avís de ficció"
+    }
   },
   "S030": {
     "status": "approved",
@@ -1061,9 +1065,9 @@
     "approvalSource": "Validació explícita del docent el 21/11/2026: «S038D també queda validat per síntesi de veus». Guió dialogat, Aina/Zephyr i Ferran/Algenib i escaleta autoritzats independentment de S038; incorporar a un lot compatible de sis a vuit minuts."
   },
   "S045": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "dec62a5926e41669c1c7f48367e5476b539536249ba8d9f80fcaab20f54347da",
+    "reviewedAt": "2026-11-22T20:05:09.021Z",
     "reviewActivity": "ca-S045",
     "reviewContent": "content/propostes/tanda3/ferran.js",
     "format": "Proposta curta de 3r–4t amb repartiment constant, guió, preguntes, solucionari i escaleta per revisar al web.",
@@ -1072,7 +1076,13 @@
     },
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
-    "ending": "Marges de consonants, pujada i fosa segons escaleta. Cap síntesi abans de validació docent; agrupar amb comprensions compatibles."
+    "ending": "Veus i muntatge segons l’escaleta validada. Síntesi dins un lot compatible de sis a vuit minuts; audició i publicació definitiva pendents.",
+    "cues": [
+      "Base «Cadires sota les estrelles» proposada i ambient real de plaça durant dos segons. Retirar el murmuri abans de començar; música molt baixa sota tota la narració.",
+      "Pausa curta amb una cadira real que es mou, separada de les consonants; la música no s’atura.",
+      "Després de la darrera paraula, pujar la base dos segons, fer una fosa de dos segons i conservar 600 ms de silenci. Cap rialla afegida."
+    ],
+    "approvalSource": "Validació explícita del docent el 22/11/2026: «S045 validat per síntesi de veus». Guió, repartiment i escaleta autoritzats; curs, dificultat i preguntes conservats. La variant dialogada S045D encarregada és independent i requereix validació docent pròpia."
   },
   "S046": {
     "status": "approved",
@@ -1095,9 +1105,9 @@
     "approvalSource": "Validació explícita del docent el 22/11/2026: «S046 validat per síntesi de veu». Guió narrat, Ferran/Algenib i escaleta autoritzats. Es mantenen 4t accessible i set preguntes. L’encàrrec de S046D és una proposta dialogada independent, amb validació docent pròpia pendent."
   },
   "S047": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "e0a568a89b0d5870883be74486ba222a2b026bcc20b57ac2e5c88d5b5992cfec",
+    "reviewedAt": "2026-11-22T20:16:52.042Z",
     "reviewActivity": "ca-S047",
     "reviewContent": "content/propostes/tanda3/ferran.js",
     "format": "Proposta curta de 3r–4t amb repartiment constant, guió, preguntes, solucionari i escaleta per revisar al web.",
@@ -1106,7 +1116,13 @@
     },
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
-    "ending": "Marges de consonants, pujada i fosa segons escaleta. Cap síntesi abans de validació docent; agrupar amb comprensions compatibles."
+    "ending": "Veus i muntatge segons l’escaleta validada. Síntesi dins un lot compatible de sis a vuit minuts; audició i publicació definitiva pendents.",
+    "cues": [
+      "Dos segons d’ambient real de tren i base «Botons de tots colors» proposada. L’ambient es retira abans de la veu; la música queda molt baixa.",
+      "Pausa breu amb ambient real de tren molt baix, acabat abans de reprendre. No afegir un objecte trencant-se ni una pista sonora de la capsa.",
+      "Conservar la darrera consonant; pujar la base dos segons i fondre-la durant dos segons. Tancar amb 600 ms de silenci, sense veus afegides."
+    ],
+    "approvalSource": "Validació explícita del docent el 22/11/2026: «S047 validat per síntesi de veu». Guió, repartiment i escaleta autoritzats; qualificació i preguntes conservades."
   },
   "S048": {
     "status": "approved",
@@ -1290,9 +1306,9 @@
     "approvalSource": "Validació explícita del docent el 22/11/2026: «S057 validat per síntesi de veu a l’espera de confirmar dificultat quan tinguem el muntatge». Guió, Mar/Erinome i escaleta autoritzats. Es mantenen 6è avançada i nou preguntes; revisar només la dificultat després de l’àudio muntat. La idea d’activitats híbrides queda anotada separadament per explorar més endavant."
   },
   "S058": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "b61352eae1153005a60b94391e487638a4e0d72543f20581bde38fb289a207af",
+    "reviewedAt": "2026-11-22T20:16:52.042Z",
     "reviewActivity": "ca-S058",
     "reviewContent": "content/propostes/tanda4/troballes.js",
     "format": "5è accessible: entendre un canvi de punt de vista, relacionar la funció d’un objecte amb la seva posició i seguir una solució feta entre tots dos. Vuit preguntes sense haver de veure la pancarta.",
@@ -1302,7 +1318,13 @@
     },
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
-    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+    "ending": "Veus i muntatge segons l’escaleta validada. Síntesi dins un lot compatible de sis a vuit minuts; audició i publicació definitiva pendents.",
+    "cues": [
+      "Ambient real d’aula durant dos segons i paper que es desplega. Baixar el fons abans de les veus.",
+      "Pausa curta per tornar a deixar el paper a la taula. No fer sonar una porta com a prova de resposta.",
+      "Deixar acabar la veu, mantenir l’ambient dos segons i fer una fosa amb 600 ms finals de silenci."
+    ],
+    "approvalSource": "Validació explícita del docent el 22/11/2026: «S058 validat per pujar a síntesi de veu». Guió, repartiment i escaleta autoritzats; qualificació i preguntes conservades."
   },
   "S059": {
     "status": "awaiting-validation",
@@ -1442,19 +1464,25 @@
     "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
   },
   "S067": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "70434f86a806a9ddc4469913f23e03e89d66aa819af58c15750c9286fdd08171",
+    "reviewedAt": "2026-11-22T20:38:27.980Z",
     "reviewActivity": "ca-S067",
     "reviewContent": "content/propostes/tanda4/aula.js",
-    "format": "6è avançada: relacionar una resposta amb la pregunta que l’ha provocada, revisar una comparació i conservar informació sense barrejar-ne els referents. Nou preguntes amb cites exactes i inferències sobre el procediment concret.",
+    "format": "1r d’ESO intermèdia: relacionar una resposta amb la pregunta que l’ha provocada, revisar una comparació i conservar informació sense barrejar-ne els referents. Nou preguntes amb cites exactes i inferències sobre el procediment concret.",
     "requiredVoices": {
       "Mireia": "Aoede",
       "Biel": "Puck"
     },
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
-    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+    "ending": "Veus i muntatge segons l’escaleta validada. Síntesi dins un lot compatible de sis a vuit minuts; audició i publicació definitiva pendents.",
+    "cues": [
+      "Ambient real d’aula en grups, molt baix. Paper real al principi; cap lectura intel·ligible de resultats per altres alumnes.",
+      "Pausa curta de fulls reals. Cap veu de l’Arnau ni de l’altre grup; el dubte continua obert.",
+      "Conservar totes les paraules i retirar ambient amb pujada curta i fosa. Cap resposta nova dels altres alumnes ni del dubte de l’Arnau."
+    ],
+    "approvalSource": "Validació explícita del docent el 22/11/2026: «S067 validat per síntesi de veu però pugem a 1rESO-intermèdia». Requalificació aplicada amb nou preguntes, text parlat i veus Mireia/Aoede i Biel/Puck intactes; revisió independent de metadades superada."
   },
   "S068": {
     "status": "awaiting-validation",
@@ -1622,9 +1650,9 @@
     "approvalSource": "Validació explícita del docent el 22/11/2026: «S076 queda validat per síntesi de veus». Es manté 5è per indicació expressa; el possible pas a 6è es valorarà després d’escoltar l’àudio. Guió, Laia/Leda i Ona/Sulafat i escaleta autoritzats."
   },
   "S077": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "152fe519e1fb9619fa461314cb5d7c1e2efe9cb912a49a502d7a5a7f7355a05d",
+    "reviewedAt": "2026-11-22T20:05:09.021Z",
     "reviewActivity": "ca-S077",
     "reviewContent": "content/propostes/tanda4/cuina.js",
     "format": "6è avançada: relacionar les condicions de dos espais, distingir una primera proposta de l’acord final i entendre per què una dada del trajecte canvia l’organització. Nou preguntes sobre causes, seqüència i dependències.",
@@ -1634,12 +1662,18 @@
     },
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
-    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+    "ending": "Veus i muntatge segons l’escaleta validada. Síntesi dins un lot compatible de sis a vuit minuts; audició i publicació definitiva pendents.",
+    "cues": [
+      "Dos segons de cuina real. Fons baix i continu, sense terceres veus ni sorolls de transport mentre s’expliquen les condicions.",
+      "Pausa curta amb un carro real buit mogut lentament. Sense passos que representin haver fet ja el trajecte.",
+      "Deixar acabar la veu. Ambient de cuina una mica més present durant dos segons, fosa de dos segons i 600 ms finals."
+    ],
+    "approvalSource": "Validació explícita del docent el 22/11/2026: «S077 validat per síntesi». Guió, repartiment i escaleta autoritzats; curs, dificultat i preguntes conservats."
   },
   "S078": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "9b171a710fba95e7a588d19b362972d79a046b7364133fa0a62b9f2b3e62b768",
+    "reviewedAt": "2026-11-22T20:08:51.941Z",
     "reviewActivity": "ca-S078",
     "reviewContent": "content/propostes/tanda4/taller.js",
     "format": "5è accessible: seguir dues comprovacions i relacionar el moviment d’una persona amb un soroll. Vuit preguntes de causa i seqüència, sense coneixements musicals previs ni necessitat de reconèixer el so.",
@@ -1649,12 +1683,18 @@
     },
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
-    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+    "ending": "Veus i muntatge segons l’escaleta validada. Síntesi dins un lot compatible de sis a vuit minuts; audició i publicació definitiva pendents.",
+    "cues": [
+      "Estança real dos segons. Fons molt baix durant la conversa; no afegir un grinyol abans que els personatges hagin explicat el problema.",
+      "Moviment real de cadira dins la pausa. Un grinyol enregistrat, si se selecciona, només després de l’explicació de Biel; no imitar-lo amb síntesi.",
+      "Conservar l’última consonant. Pujada de fons de dos segons, fosa i 600 ms finals; no afegir la cançó ni una nova conclusió."
+    ],
+    "approvalSource": "Validació explícita del docent el 22/11/2026: «S078 el pugem a síntesi de veus»; considera ben calibrada la qualificació de 5è accessible. Guió, Biel/Puck i Elies/Algieba i escaleta autoritzats; vuit preguntes conservades."
   },
   "S079": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "693531d7b9da94adb1a152f29db9486f4e501f046e14fff8ed62069adc17fabb",
+    "reviewedAt": "2026-11-22T20:27:37.701Z",
     "reviewActivity": "ca-S079",
     "reviewContent": "content/propostes/tanda4/taller.js",
     "format": "5è intermèdia: comparar una primera elecció amb una prova real, distingir les dues fundes i relacionar un document amb el préstec. Vuit preguntes; no exigeix saber models ni mides d’instruments.",
@@ -1664,7 +1704,14 @@
     },
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
-    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+    "ending": "Veus i muntatge segons escaleta, amb comiat proper mentre Elies aguanta la porta i Biel s’ajusta la motxilla. Síntesi dins un lot compatible de sis a vuit minuts; audició i publicació definitiva pendents.",
+    "cues": [
+      "Estança real durant dos segons. Mantenir el fons baix; cap so de cremallera abans de presentar la prova.",
+      "Pausa amb una cremallera real tancada sense esforç. No afegir un senyal d’encert ni interpretar una tercera persona.",
+      "Elies aguanta la porta mentre en Biel s’ajusta la motxilla. Parla amb proximitat i deixa una pausa breu perquè acabi el gest; «Això... ara sí» confirma l’acció. Sense efecte ni pausa exclusiva.",
+      "Deixar el comiat sencer; pujar el fons dos segons, fondre’l dos segons i conservar 600 ms de silenci."
+    ],
+    "approvalSource": "Validació explícita del docent el 22/11/2026: «S079 també validat per síntesi de veu», amb revisió del comiat per eliminar «Jo», ajudar físicament en Biel mentre parlen i donar naturalitat amb petites pauses. Aplicat «De res, Biel. T’aguanto la porta... posa’t bé la motxilla. Això... ara sí. Fins aviat!», amb direcció no parlada i revisió independent renovada. Es mantenen 5è intermèdia i vuit preguntes."
   },
   "S080": {
     "status": "awaiting-validation",
@@ -1682,9 +1729,9 @@
     "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
   },
   "S081": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "d2a2cc23b07450871041f1b091622275b949f242a4a4738855da6faba0fde72d",
+    "reviewedAt": "2026-11-22T20:22:58.661Z",
     "reviewActivity": "ca-S081",
     "reviewContent": "content/propostes/tanda4/taller.js",
     "format": "5è avançada: distingir la reparació prevista d’un resultat confirmat, seguir dues possibilitats sense perdre el termini i entendre una decisió amb motius pràctics. Vuit preguntes, amb tots els condicionants explicitats en diàleg natural.",
@@ -1694,7 +1741,14 @@
     },
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
-    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+    "ending": "Veus i muntatge segons l’escaleta validada, amb el tancament literal demanat pel docent i interpretació propera. Síntesi dins un lot compatible de sis a vuit minuts; audició i publicació definitiva pendents.",
+    "cues": [
+      "Taller enregistrat durant dos segons. Fons molt baix; no afegir cap trucada ni paquet rebut que anticipi el resultat.",
+      "Pausa curta amb funda real oberta. Si es preveu un acord de guitarra, serà una mostra real després de la pregunta, sense una melodia que indiqui èxit.",
+      "Elies li aguanta la funda mentre en Biel hi posa el full. To proper i atent a «espera»; «així» lent, de confirmació. Acció simultània a la conversa, sense efecte ni pausa exclusiva.",
+      "Final de veu sencer, pujada de fons durant dos segons, fosa i 600 ms finals. No afegir la trucada de dijous."
+    ],
+    "approvalSource": "Validació explícita del docent el 22/11/2026: «S081 validat per síntesi», amb substitució literal del darrer torn d’Elies per la seva proposta. «Espera» atent i proper, ajudant amb la funda; «així» lent, confirmant que hi ha entrat el full. Canvi aplicat al text i a la direcció no parlada i revisat independentment. Es mantenen 5è avançada i vuit preguntes."
   },
   "S082": {
     "status": "approved",
@@ -1756,5 +1810,25 @@
     },
     "strategy": "packed-title-program-v1",
     "ending": "Proposta independent de S046. Cap síntesi fins a la validació docent de la variant; després agrupar lectures completes del mateix repartiment en un lot compatible."
+  },
+  "S045D": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S045D",
+    "reviewContent": "content/propostes/s045-dialogada.js",
+    "format": "Variant dialogada de S045, que es conserva. 4t accessible: seguir el record en ordre, relacionar els canvis de lloc amb les seves causes i identificar l’ajuda de la cosina. Mateixes set exigències de comprensió, amb les reaccions de l’Aina. Pendent de validació docent pròpia.",
+    "cues": [
+      "Base musical càlida durant dos segons. Aina i Ferran conversen en el present; cap so de pel·lícula ni gent del record.",
+      "Pausa natural entre torns. La música continua baixa; cap efecte de cadira ni pausa tècnica afegida.",
+      "Acabar la veu sencera. Pujar la música dos segons, fosa de dos segons i 600 ms de silenci final, sense altres veus."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Aina": "Zephyr",
+      "Ferran": "Algenib"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Variant independent de S045; cap síntesi fins a validació docent pròpia."
   }
 }

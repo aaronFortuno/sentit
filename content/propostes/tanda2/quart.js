@@ -4,8 +4,9 @@ const soundCredits = 'Ambients i accions quotidianes amb enregistraments reals p
 export const quart = [
   proposal({
     id: 'el-cartell-que-no-es-llegia', code: 'S030', title: 'El cartell que no es llegia', grade: '4', level: 'easy', genre: 'dialogue', universeIds: ['laia-biel'],
+    recordingCues: [{"before":"penjar","text":"Ambient enregistrat continu de passadís, molt baix sota la conversa. Sense so inicial de paper. Es conserva l’efecte de despenjar el cartell."},{"after":"final","text":"Fosa breu de l’ambient de passadís; sense esperes afegides."}],
     seconds: 75, status: 'ready-for-review', reviewStatus: 'audio-review',
-    audio: './assets/audio/s030-timing-v2.mp3', tracks: { introduction: './assets/audio/s030-timing-v2-intro.mp3', body: './assets/audio/s030-timing-v2-cos.mp3' },
+    audio: './assets/audio/s030-corridor-v3.mp3', tracks: { introduction: './assets/audio/s030-corridor-v3-intro.mp3', body: './assets/audio/s030-corridor-v3-cos.mp3' },
     fragment: { start: 4.660458333333334, seconds: 70 },
     summary: 'En Biel i la Laia proven el cartell del seu programa al lloc on el veurà la gent, i hi fan alguns canvis.',
     voices: { Biel: 'Puck', Laia: 'Leda' }, delivery: 'Joves satisfets de la feina que descobreixen una dificultat concreta. Rèpliques quotidianes i proposta construïda entre tots dos; no fer-los parlar de disseny professional.',
@@ -39,9 +40,10 @@ export const quart = [
   }),
   proposal({
     id: 'una-bustia-per-a-propostes', code: 'S031', title: 'Una bústia per a propostes', grade: '4', level: 'easy', genre: 'news', universeIds: ['noticies-mar'],
-    seconds: 96, status: 'ready-for-review', reviewStatus: 'audio-review',
-    audio: './assets/audio/s031-news-v1.mp3', tracks: { introduction: './assets/audio/s031-news-v1-intro.mp3', body: './assets/audio/s031-news-v1-cos.mp3' },
-    fragment: { start: 6.37, seconds: 89 },
+    recordingCues: [{"before":"inici","text":"Entrada de Breaking News Background Music, de Grand_Project. Base contínua molt atenuada i comprimida sota les veus; sense els papers ni la sintonia anterior."},{"after":"retorn","text":"Pujada progressiva cap al tancament musical comú i fosa final. El muntatge continua pendent d’audició docent."}],
+    seconds: 89, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s031-news-common-v2.mp3', tracks: { introduction: './assets/audio/s031-news-common-v2-intro.mp3', body: './assets/audio/s031-news-common-v2-cos.mp3' },
+    fragment: { start: 5.61, seconds: 83 },
     summary: 'La Mar informa d’una recollida d’idees per a la festa del barri i explica què es farà amb els papers rebuts.',
     voices: { Mar: 'Erinome' }, delivery: 'Notícia de ficció, propera i clara. Distingir recollir propostes d’escollir el programa sense sonar com una lectura burocràtica. Respectar la tònica de bústia.',
     editorialFocus: '4t accessible: informació explícita i una distinció entre proposta i decisió sustentada pel cas del concert de l’any passat. Set preguntes, sense exigir recordar el nom del grup musical.',

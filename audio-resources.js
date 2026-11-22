@@ -34,7 +34,8 @@ export const audioResources = {
 export function renderAudioResources(root, entry, t) {
   root.replaceChildren();
   if (!entry) return;
-  const record = audioResources[`${entry.language}-${entry.code}`];
+  const key = `${entry.language}-${entry.code}`;
+  const record = mixedAudioResources[key]?.currentRevision ? mixedAudioResources[key] : audioResources[key];
   const add = (tag, text, parent = root) => { const node = document.createElement(tag); node.textContent = text; parent.append(node); return node; };
   const link = (parent, text, url) => { const a = add('a', text, parent); a.href = url; a.target = '_blank'; a.rel = 'noopener noreferrer'; };
   const progress = productionProgress[`${entry.language}-${entry.code}`] ?? {};
@@ -58,6 +59,7 @@ export function renderAudioResources(root, entry, t) {
       add('p',`${music.title} · ${music.author} · ${music.license}`);
       const source=add('p','');link(source,t('musicRecipe'),repo+music.source);
       source.append(document.createTextNode(' · '));link(source,t('musicRegister'),repo+'docs/musiques.md');
+      if(music.url){const credit=add('p','');link(credit,`${music.title} · ${music.author}`,music.url);credit.append(document.createTextNode(' · '));link(credit,music.license,music.licenseUrl);}
     }
     for(const recording of soundSourcesForActivity(entry)){
       add('h4',t('resourceExternal'));

@@ -1,0 +1,114 @@
+{
+  "id": "L17",
+  "state": "received-and-split",
+  "requestHash": "3614318c8fb54c97021a43d7a5ac29a9c5f2642f00894c7d7e5ae616d6adc099",
+  "rawSha256": "43a2e90b48ca2359bb188118537c41567673d998ef51374d5170f00ca0c55937",
+  "startedAt": "2026-11-22T20:24:32.314Z",
+  "completedAt": "2026-11-22T20:49:56.816Z",
+  "rawSeconds": 403.08,
+  "usage": {
+    "total_tokens": 12273,
+    "total_input_tokens": 2196,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 2196
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 10077,
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 10077
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 0,
+    "initial_input_tokens": 2196
+  },
+  "returnedAudioBlocks": 1,
+  "newRequests": 1,
+  "coverageCheck": {
+    "engine": "vosk-model-small-ca-0.4",
+    "matchedFraction": 0.9130122214234364,
+    "pronunciationValidated": false,
+    "uncertainTurns": []
+  },
+  "parts": [
+    {
+      "id": "S045-T01",
+      "code": "S045",
+      "sourceRequestHash": "8a483c13f28bc5d5cd5524d361835d3b2fdaf5fbef9e37eb3aef142e8d452e78",
+      "start": 0,
+      "end": 92.115,
+      "clipSha256": "b719993201db3333152ee5743152082a1634adeac5dfa2bb578c117988fbf353",
+      "coverage": 0.8881987577639752,
+      "status": "voices-received"
+    },
+    {
+      "id": "S046-T01",
+      "code": "S046",
+      "sourceRequestHash": "5fffa82f1023a703d97e1e35660b49d2c197444f9dfdc846b949f32e43aca13c",
+      "start": 92.115,
+      "end": 197.295,
+      "clipSha256": "fe1e0f15945813329b08f7e2bbe999316cfc4379195dabe8287c09e4bcb31fad",
+      "coverage": 0.9437869822485208,
+      "status": "voices-received"
+    },
+    {
+      "id": "S047-T01",
+      "code": "S047",
+      "sourceRequestHash": "594d6eb8757328da78fcccca27cce021f78f4da261813ce4b514b2d58590fc1d",
+      "start": 197.295,
+      "end": 301.0251,
+      "clipSha256": "0a299ff99e309f1bea98b95ba32d268402c74c586195144b92aac4a456f18907",
+      "coverage": 0.9235127478753541,
+      "status": "voices-received"
+    },
+    {
+      "id": "S069-T01",
+      "code": "S069",
+      "sourceRequestHash": "5ca83ce461f3e1ed8816a816f379448a9e01d83f8d15d9fbfaa9ce531e186cc8",
+      "start": 301.0251,
+      "end": 403.08,
+      "clipSha256": "633fd6af92165442628944cb8ad45e889218b2bbbf4d4ceca34f47f390421a14",
+      "coverage": 0.8968253968253969,
+      "status": "voices-received"
+    }
+  ],
+  "preservesOriginals": true,
+  "voiceRetimed": false,
+  "recovery": {
+    "recoveredAt": "2026-11-22T20:49:56.816Z",
+    "providerId": "v1_ChdnVThEYTVlTUpPS1QzYm9QNGN6eHlROBIXZ1U4RGE1ZU1KT0tUM2JvUDRjenh5UTg",
+    "sourceExportSha256": "8402eb19a9b34f6bd793df36e8864f4eb9083dde0f4b12820755d8a4f880d7d7",
+    "matchedSequence": [
+      {
+        "id": "S045-T01",
+        "fraction": 0.8881987577639752,
+        "start": 0.18,
+        "end": 91.92
+      },
+      {
+        "id": "S046-T01",
+        "fraction": 0.9437869822485208,
+        "start": 92.31,
+        "end": 197.07
+      },
+      {
+        "id": "S047-T01",
+        "fraction": 0.9235127478753541,
+        "start": 197.52,
+        "end": 300.81
+      },
+      {
+        "id": "S069-T01",
+        "fraction": 0.8968253968253969,
+        "start": 301.2,
+        "end": 402.84
+      }
+    ],
+    "newRequests": 0
+  }
+}

@@ -11,7 +11,7 @@ export function proposal(data) {
   // Keep the frozen first-batch wording intact; new plans must not claim that
   // audio or edit boundaries have already been checked before synthesis.
   const plannedCuts = /^S\d{3}$/.test(content.code) && Number(content.code.slice(1)) >= 25;
-  const rates = { '3': [125, 145], '4': [135, 155], '5': [140, 160], '6': [145, 165] }[content.grade];
+  const rates = { '3': [125, 145], '4': [135, 155], '5': [140, 160], '6': [145, 165], eso1: [145, 165] }[content.grade];
   const min = Math.max(30, Math.floor((words / rates[1] * 60 + 4) / 5) * 5);
   const max = Math.ceil((words / rates[0] * 60 + 10) / 5) * 5;
   return {

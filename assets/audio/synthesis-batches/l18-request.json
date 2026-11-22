@@ -1,0 +1,448 @@
+{
+  "model": "gemini-3.8-flash-tts",
+  "input": [
+    {
+      "type": "user_input",
+      "content": [
+        {
+          "type": "text",
+          "text": "Comprensió oral. La pancarta que tapava la porta. \n\nBiel, aguanta aquest costat un moment. Si la pancarta queda damunt de la porta, la veurà tothom que vingui a mirar els treballs de classe.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Laia i Biel són dos joves, amb les identitats Leda i Puck constants. Vocabulari corrent, preguntes i rèpliques amb motiu. Petits dubtes i propostes parcials que l’altre ajuda a concretar; cap explicació de professional ni conclusió moralitzadora. No imitar les persones que mencionen. Pauses breus i naturals, sense vocalitzacions afegides. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the same two character voices throughout all recordings. Instructions are not spoken."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ja l’aguanto. Però des d’aquí només veig el darrere del paper. Tu digues si queda recta, que se m’està doblegant una punta.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Laia i Biel són dos joves, amb les identitats Leda i Puck constants. Vocabulari corrent, preguntes i rèpliques amb motiu. Petits dubtes i propostes parcials que l’altre ajuda a concretar; cap explicació de professional ni conclusió moralitzadora. No imitar les persones que mencionen. Pauses breus i naturals, sense vocalitzacions afegides. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Una mica més a la dreta... Ara. Espera, surto al passadís per mirar-la de lluny. Des de la taula m’agradava, però potser quan t’acostes queda massa alta.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Així? Jo em pensava que havies d’escriure la paraula ben grossa perquè es veiés des del final del passadís. Hi diu Mostra de cinquè, oi?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí, es llegeix bé. El que passa és que el paper tapa el número de l’aula. I la gent de les altres classes buscarà l’aula set, que és el que hem posat a la invitació.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "La baixem una mica? Si la posem a mitja porta, el número queda lliure. Així no se’ns veurà aquesta punta tan torta.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Però quan obrin la porta la pancarta marxarà amb ella. Si hi ha gent entrant, des del passadís potser només veurem el darrere del paper, com tu ara.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ah, és veritat. Doncs a la paret del costat? Aquesta part que hi ha abans de la porta és buida. Podem posar-hi també una fletxa petita.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Allà hi cabrà si retallem el tros que ens sobra de cada punta. Les lletres queden al mig. Acosta’m les tisores, però primer mesurem el paper amb la paret.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "I el número el deixem al descobert. Mira, agafo dos trossets de cinta i ho provem abans d’enganxar-ho tot. Aguanta tu, que ara vull mirar-ho des de fora.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Va. Però després tornem a penjar els dibuixos, que de tant mirar la porta encara tenim mitja mostra damunt de les taules!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. El curt que començava pel final.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Laia i Biel són dos joves, amb les identitats Leda i Puck constants. Vocabulari corrent, preguntes i rèpliques amb motiu. Petits dubtes i propostes parcials que l’altre ajuda a concretar; cap explicació de professional ni conclusió moralitzadora. No imitar les persones que mencionen. Pauses breus i naturals, sense vocalitzacions afegides. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the same two character voices throughout all recordings. Instructions are not spoken."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ja he posat tots els trossos del curt un darrere l’altre. Mira com comença: entres al menjador caminant de puntetes i deixes una sabata damunt del diari. A mi aquesta part em fa riure molt.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Laia i Biel són dos joves, amb les identitats Leda i Puck constants. Vocabulari corrent, preguntes i rèpliques amb motiu. Petits dubtes i propostes parcials que l’altre ajuda a concretar; cap explicació de professional ni conclusió moralitzadora. No imitar les persones que mencionen. Pauses breus i naturals, sense vocalitzacions afegides. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "A mi també, perquè me’n recordo de com em relliscava el mitjó. Però per què començo sense la sabata? Si ho veu algú de la classe que no hi era, potser es pensa que la porto trencada.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "El tros del bassal l’he posat després. Com que allà es veu que fiques el peu dins l’aigua, ja s’entendrà. Em semblava més divertit començar amb tu fent coses rares.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Potser sí, però llavors ha de quedar clar que estem mirant una cosa que ha passat abans. Ara surto del menjador i, tot seguit, torno a aparèixer al carrer amb les dues sabates posades.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Tens raó. Jo ja sé què vaig gravar i ni m’hi havia fixat. El principi m’agrada, però el salt queda estrany. I si primer posem el bassal i després la sabata al diari?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Així s’entendrà de seguida. Però falta el moment que em trec la sabata. Si només es veu el bassal, potser no es nota que m’ha entrat aigua a dins. Es veu la cara que faig?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí, però queda lluny. Jo era a l’altra banda del carrer. Després tinc un tros on t’atures al portal i aixeques el peu. La sabata et va deixant gotes, però aquell tros el vaig treure perquè se sentia una moto molt forta.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Les imatges les podem guardar? Jo no hi dic res. Es podria treure el soroll de la moto i deixar-hi el fons de carrer més baix que vas gravar al final.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ho provo. Llavors seria: primer camines cap al bassal, després hi fiques el peu, després m’ensenyes la sabata al portal i al final entres al menjador. I aquesta cara que fas al portal la deixo una mica més, que sembla que em vulguis llançar la sabata a sobre.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ja t’he entès. Podríem posar una frase al principi que digués que tornava de comprar. Però tampoc surt cap compra. Potser ho embolicaríem més.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "A mi amb veure el bassal ja em serveix. Deixem les quatre escenes en aquest ordre i l’hi ensenyem a algú que no l’hagi vist. Li podem preguntar per què entres amb una sola sabata.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí, i ens quedem callats mentre el mira, eh? Que l’altre dia m’anaves explicant el vídeo per damunt i no sabia què estava sentint.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "D’acord, em poso una cremallera a la boca. Però primer em deixes arreglar aquest tros, que ara mateix sembla que la sabata se t’assequi i se’t torni a mullar tota sola.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. Dos cartells per al mateix concert. \n\nBiel, a quina hora havíem de començar el concert de divendres? M’acaben de passar una foto del cartell i hi diu a les sis. Jo tenia apuntat dos quarts de set.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Laia i Biel són dos joves, amb les identitats Leda i Puck constants. Vocabulari corrent, preguntes i rèpliques amb motiu. Petits dubtes i propostes parcials que l’altre ajuda a concretar; cap explicació de professional ni conclusió moralitzadora. No imitar les persones que mencionen. Pauses breus i naturals, sense vocalitzacions afegides. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the same two character voices throughout all recordings. Instructions are not spoken."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Jo també, dos quarts de set. Ho vam canviar dimarts, quan ens van dir que la sala encara estaria ocupada per l’assaig del grup de dansa. El cartell que vam deixar acabat ja portava l’hora nova.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Laia i Biel són dos joves, amb les identitats Leda i Puck constants. Vocabulari corrent, preguntes i rèpliques amb motiu. Petits dubtes i propostes parcials que l’altre ajuda a concretar; cap explicació de professional ni conclusió moralitzadora. No imitar les persones que mencionen. Pauses breus i naturals, sense vocalitzacions afegides. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Doncs aquesta foto la va fer algú al passadís. Es veu la porta verda al darrere. Potser encara hi ha un cartell dels primers. Mira, la foto està una mica torta, però el sis es veu claríssim.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Tinc el cartell nou al mòbil. Aquí: divendres, concert a dos quarts de set. I a sota hi ha el nom del grup de dansa, que abans no hi era. Vam aprofitar que acabaven l’assaig per convidar-los a quedar-se.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "La persona que m’ho ha enviat diu que l’acaba de rebre. Jo li havia contestat que sí, que fos aquí a les sis. Encara sort que t’ho he preguntat abans de tornar-ho a passar.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Li podem enviar aquest d’ara, el que diu que el concert comença a dos quarts de set. Ah, i la Mireia ens va dir que les famílies podrien entrar a un quart de set, mentre nosaltres acabàvem de posar-nos a lloc.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ah, això al cartell no ho tenim. Si arriben totes a dos quarts, començarem amb tothom encara buscant cadira. Ho podríem posar a sota, en una línia.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí, però primer ho confirmem amb la Mireia quan surti de l’aula. Ho vam parlar de pressa i jo estava recollint els cables. L’hora del concert sí que la vaig sentir després quan la va tornar a dir.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Doncs fem una cosa: ara tornem pel passadís i mirem si hi ha el cartell vell de la foto. Si hi és, el canviem. Després li preguntem això d’obrir portes i escrivim el missatge amb les dues hores.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "El passadís de la porta verda és el de la biblioteca. Jo vaig penjar-ne un allà dilluns, abans del canvi. Se’m devia passar quan vam repartir els nous. Encara em queda una còpia bona a la carpeta.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "I a la persona que m’ha escrit li dic que l’hora bona del concert és dos quarts de set i li envio el cartell nou. També li demano que passi aquesta versió a qui li havia enviat la foto.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Molt bé. La foto vella es veu molt millor que aquesta captura que tinc aquí. Espera, t’envio el cartell sencer, que si l’ampliem massa quedaran les lletres borroses.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Va, envia-me’l i anem a buscar aquell paper de la porta verda. Si el deixem penjat, demà tornarem a tenir exactament la mateixa conversa!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "response_format": {
+    "type": "audio",
+    "mime_type": "audio/wav",
+    "sample_rate": 24000
+  },
+  "generation_config": {
+    "speech_config": {
+      "speakers": [
+        {
+          "speaker": "Voice1",
+          "voice": "Leda"
+        },
+        {
+          "speaker": "Voice2",
+          "voice": "Puck"
+        }
+      ]
+    }
+  },
+  "background": true
+}

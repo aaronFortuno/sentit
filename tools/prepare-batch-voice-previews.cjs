@@ -18,9 +18,10 @@ async function main(){
   if(old>=0&&rows[old].sourceTakeSha256!==take.sha256)throw Error('Previsualització anterior d’una altra presa: conservar-la abans de revisar.');
   const file=`assets/audio/${code.toLowerCase()}-voices-review-v1.mp3`;
   ffmpeg(binary,['-v','error','-y','-i',take.file,'-af','loudnorm=I=-19:TP=-2.5:LRA=9,aresample=48000,adelay=250:all=1,apad=pad_dur=0.35','-map_metadata','-1','-c:a','libmp3lame','-q:a','3',path.join(root,file)]);
-  const record={code,title:entry.title,batch:take.batch,sourceTakeSha256:take.sha256,sourceRawSha256:take.rawBatchSha256,file,sha256:sha(await fs.readFile(path.join(root,file))),state:'voices-received-awaiting-montage',teacherAudioApproval:false,newRequests:0,voiceRetimed:false};
+  const record={code,title:entry.title,batch:take.batch,sourceTakeSha256:take.sha256,sourceRawSha256:take.rawBatchSha256,file,sha256:sha(await fs.readFile(path.join(root,file))),state:'voices-received-awaiting-listening',missingParts:take.missingParts??[],teacherAudioApproval:false,newRequests:0,voiceRetimed:false};
   if(old>=0)rows[old]=record;else rows.push(record);
   productionProgress['ca-'+code].voicePreview='./proves/veus-rebudes.html#'+code;
+  productionProgress['ca-'+code].voicePreviewFile='./'+file;
  }
  const escape=s=>s.replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('"','&quot;');
  await fs.writeFile(path.join(root,'assets/audio/batch-voice-previews.json'),JSON.stringify(rows,null,2)+'\n');

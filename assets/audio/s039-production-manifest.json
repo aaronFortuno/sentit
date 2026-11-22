@@ -2,12 +2,12 @@
   "code": "S039",
   "activity": "ca-S039",
   "state": "awaiting-montage-validation",
-  "file": "s039-news-v1.mp3",
-  "introFile": "s039-news-v1-intro.mp3",
-  "bodyFile": "s039-news-v1-cos.mp3",
-  "offset": 6.099583333333333,
-  "bodyDuration": 130.76045833333333,
-  "fullDuration": 136.86004166666666,
+  "file": "s039-news-common-v2.mp3",
+  "introFile": "s039-news-common-v2-intro.mp3",
+  "bodyFile": "s039-news-common-v2-cos.mp3",
+  "offset": 5.5200000000000005,
+  "bodyDuration": 125.36045833333333,
+  "fullDuration": 130.88045833333334,
   "voices": {
     "Mar": "Erinome",
     "Pau": "Charon"
@@ -23,103 +23,39 @@
   "newSynthesisRequests": 0,
   "sharedRequest": true,
   "voiceRetimed": false,
-  "lufs": -18.78,
-  "peakDbTP": -2.5,
+  "lufs": -18.95,
+  "peakDbTP": -2.49,
   "effects": [
     {
-      "name": "ona-curta-obertura",
-      "jingleId": "ona-curta",
-      "origin": "original-procedural-composition",
-      "author": "Sentit",
-      "license": "MIT",
-      "source": "assets/audio/mireia-ona-curta-v1-obertura.mp3",
-      "sourceSha256": "62016b7d191327628b1ca3b0be77e46e0c273a9732e04152ca2cde6efca33d7a",
-      "sourceUrl": "https://github.com/aaronFortuno/sentit/blob/main/tools/propose-mireia-variants.cjs",
-      "excerpt": {
-        "start": 0,
-        "seconds": 4
-      },
+      "name": "grand-project-breaking-news-505617",
+      "origin": "licensed-music-in-montage",
       "start": 0,
-      "underSpeech": false
-    },
-    {
-      "name": "ona-curta-tancament",
-      "jingleId": "ona-curta",
-      "origin": "original-procedural-composition",
-      "author": "Sentit",
-      "license": "MIT",
-      "source": "assets/audio/mireia-ona-curta-v1-tancament.mp3",
-      "sourceSha256": "2ec44fc31e176c8ee86b57167eef042d66b3e38879ce5c092ab353971c5ff4cc",
-      "sourceUrl": "https://github.com/aaronFortuno/sentit/blob/main/tools/propose-mireia-variants.cjs",
-      "excerpt": {
-        "start": 0,
-        "seconds": 3.6
+      "underSpeech": true,
+      "credit": {
+        "id": "grand-project-breaking-news-505617",
+        "title": "Breaking News Background Music",
+        "author": "Grand_Project",
+        "url": "https://pixabay.com/music/percussion-breaking-news-background-music-505617/",
+        "license": "Pixabay Content License",
+        "licenseUrl": "https://pixabay.com/service/license-summary/",
+        "source": "tools/remount-news-common.cjs",
+        "origin": "licensed-music",
+        "kind": "news-programme",
+        "sourceNotDistributedSeparately": true
       },
-      "start": 125.96045833333332,
-      "underSpeech": false
-    },
-    {
-      "name": "callmethefoo-744447",
-      "origin": "external-recording",
-      "author": "callmethefoo",
-      "license": "CC0 1.0",
-      "source": "assets/audio/sources/callmethefoo-744447.mp3",
-      "sourceSha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
-      "sourceUrl": "https://freesound.org/people/callmethefoo/sounds/744447/",
-      "excerpt": {
-        "start": 12,
-        "seconds": 2
+      "sourceSha256": "32e3e6c978ef1bc5c013c40880ac3ad9714957548f956c1355ad8852c94405ae",
+      "voiceMarginTargetDb": 25,
+      "sidechain": {
+        "threshold": 0.018,
+        "ratio": 6,
+        "attackMs": 12,
+        "releaseMs": 450
       },
-      "start": 4.35,
-      "underSpeech": false
-    },
-    {
-      "name": "callmethefoo-744447",
-      "origin": "external-recording",
-      "author": "callmethefoo",
-      "license": "CC0 1.0",
-      "source": "assets/audio/sources/callmethefoo-744447.mp3",
-      "sourceSha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
-      "sourceUrl": "https://freesound.org/people/callmethefoo/sounds/744447/",
-      "excerpt": {
-        "start": 12,
-        "seconds": 18.03
-      },
-      "start": 48.1704,
-      "underSpeech": true
-    },
-    {
-      "name": "callmethefoo-744447",
-      "origin": "external-recording",
-      "author": "callmethefoo",
-      "license": "CC0 1.0",
-      "source": "assets/audio/sources/callmethefoo-744447.mp3",
-      "sourceSha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
-      "sourceUrl": "https://freesound.org/people/callmethefoo/sounds/744447/",
-      "excerpt": {
-        "start": 12,
-        "seconds": 16.799999999999983
-      },
-      "start": 70.93044166666667,
-      "underSpeech": true
-    },
-    {
-      "name": "callmethefoo-744447",
-      "origin": "external-recording",
-      "author": "callmethefoo",
-      "license": "CC0 1.0",
-      "source": "assets/audio/sources/callmethefoo-744447.mp3",
-      "sourceSha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
-      "sourceUrl": "https://freesound.org/people/callmethefoo/sounds/744447/",
-      "excerpt": {
-        "start": 12,
-        "seconds": 4.409999999999968
-      },
-      "start": 91.8704416666667,
-      "underSpeech": true
+      "openingSeconds": 3.5,
+      "closingSeconds": 4.5
     }
   ],
-  "sha256": "1cff791a486e7dc0e76e8761bf22f90d71b5111a349f81749f1093d4ca41e590",
+  "sha256": "02f34e895e50db60f4c41e7b5ede24a6facf91a49ece1ca0b575dfea38507865",
   "montageAuthorization": {
     "status": "authorized-for-draft-montage",
     "date": "2026-11-21",
@@ -150,5 +86,19 @@
   },
   "voice": {
     "bodyLead": 7
+  },
+  "newsRevision": {
+    "date": "2026-11-22",
+    "baseFile": "s039-news-v1.mp3",
+    "baseAudioSha256": "1cff791a486e7dc0e76e8761bf22f90d71b5111a349f81749f1093d4ca41e590",
+    "allOldEffectsRemoved": true,
+    "voiceRetimed": false,
+    "titleRange": {
+      "start": 0.25,
+      "end": 4.65
+    },
+    "bodyPcmSha256": "9735676d454beff260bd3b45c376919704ba570402da8bb4d94fa4faf05f250f",
+    "teacherFinalApproval": false,
+    "newRequests": 0
   }
 }

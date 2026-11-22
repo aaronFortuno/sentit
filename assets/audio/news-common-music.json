@@ -1,0 +1,23 @@
+{
+  "id": "grand-project-breaking-news-505617",
+  "title": "Breaking News Background Music",
+  "author": "Grand_Project",
+  "url": "https://pixabay.com/music/percussion-breaking-news-background-music-505617/",
+  "license": "Pixabay Content License",
+  "licenseUrl": "https://pixabay.com/service/license-summary/",
+  "source": "tools/remount-news-common.cjs",
+  "origin": "licensed-music",
+  "kind": "news-programme",
+  "sourceNotDistributedSeparately": true,
+  "sourceSha256": "32e3e6c978ef1bc5c013c40880ac3ad9714957548f956c1355ad8852c94405ae",
+  "usedBy": [
+    "ca-S006",
+    "ca-S009",
+    "ca-S016",
+    "ca-S023",
+    "ca-S029",
+    "ca-S031",
+    "ca-S039"
+  ],
+  "newSynthesisRequests": 0
+}

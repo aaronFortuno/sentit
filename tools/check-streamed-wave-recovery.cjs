@@ -1,0 +1,12 @@
+'use strict';
+const assert = require('node:assert/strict'), { recoverStreamedWave } = require('./streamed-wave-recovery.cjs'), { waveParts } = require('./gemini-result.cjs');
+const first = Buffer.alloc(1920, 17), rest = Buffer.alloc(4800, 29), signature = Buffer.from('C2PA-content-is-preserved-in-original');
+const end = 44 + first.length + 8 + signature.length + signature.length % 2, prefix = Buffer.alloc(end);
+prefix.write('RIFF'); prefix.writeUInt32LE(end - 8, 4); prefix.write('WAVEfmt ', 8); prefix.writeUInt32LE(16, 16); prefix.writeUInt16LE(1, 20); prefix.writeUInt16LE(1, 22); prefix.writeUInt32LE(24000, 24); prefix.writeUInt32LE(48000, 28); prefix.writeUInt16LE(2, 32); prefix.writeUInt16LE(16, 34); prefix.write('data', 36); prefix.writeUInt32LE(first.length, 40); first.copy(prefix, 44); prefix.write('C2PA', 44 + first.length); prefix.writeUInt32LE(signature.length, 48 + first.length); signature.copy(prefix, 52 + first.length);
+const raw = Buffer.concat([prefix, rest]), recovered = recoverStreamedWave(raw);
+assert(waveParts(recovered.audio).pcm.equals(Buffer.concat([first, rest])));
+assert.equal(recovered.report.seconds, (first.length + rest.length) / 48000);
+assert.throws(() => recoverStreamedWave(prefix), /No trailing/);
+assert.throws(() => recoverStreamedWave(Buffer.concat([raw, Buffer.from([1])])), /PCM format/);
+const unknown = Buffer.from(raw); unknown.write('JUNK', 44 + first.length); assert.throws(() => recoverStreamedWave(unknown), /Unknown prefix/);
+console.log('PASS · exact preservation of every PCM sample and strict rejection of unknown, odd-sized or complete containers. No network.');

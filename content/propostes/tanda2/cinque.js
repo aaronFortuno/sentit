@@ -147,9 +147,10 @@ export const cinque = [
   }),
   proposal({
     id: 'una-biblioteca-dobjectes-en-prova', code: 'S039', title: 'Una biblioteca d’objectes en prova', grade: '5', level: 'advanced', genre: 'news', universeIds: ['noticies-mar'],
-    seconds: 137, status: 'ready-for-review', reviewStatus: 'audio-review',
-    audio: './assets/audio/s039-news-v1.mp3', tracks: { introduction: './assets/audio/s039-news-v1-intro.mp3', body: './assets/audio/s039-news-v1-cos.mp3' },
-    fragment: { start: 6.099583333333333, seconds: 131 },
+    recordingCues: [{"before":"inici","text":"Entrada de Breaking News Background Music, de Grand_Project. Base contínua molt atenuada i comprimida sota les veus; sense els papers ni la sintonia anterior."},{"after":"final","text":"Pujada progressiva cap al tancament musical comú i fosa final. El muntatge continua pendent d’audició docent."}],
+    seconds: 131, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s039-news-common-v2.mp3', tracks: { introduction: './assets/audio/s039-news-common-v2-intro.mp3', body: './assets/audio/s039-news-common-v2-cos.mp3' },
+    fragment: { start: 5.5200000000000005, seconds: 125 },
     summary: 'La Mar i en Pau expliquen els resultats d’una prova de préstec d’objectes, les peticions que van quedar en espera i els passos per preparar-ne la continuïtat.',
     voices: { Mar: 'Erinome', Pau: 'Charon' }, delivery: 'Notícia de ficció amb entrevista breu. Mar presenta Pau com a paradista i voluntari del projecte, el saluda i l’acomiada; Pau respon amb exemples quotidians. Exposar dades i accions concretes, amb pauses naturals, sense advertiments preventius ni fer-lo parlar com un portaveu expert. La prova ja ha acabat: els préstecs i la llista d’espera s’expliquen en passat.',
     editorialFocus: '5è avançada: interpretar un recompte explícit, distingir usos de persones i separar una prova temporal d’una decisió d’ampliació. Vuit preguntes sense càlcul numèric.',

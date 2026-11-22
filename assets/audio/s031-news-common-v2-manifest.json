@@ -1,0 +1,94 @@
+{
+  "code": "S031",
+  "activity": "ca-S031",
+  "state": "awaiting-montage-validation",
+  "file": "s031-news-common-v2.mp3",
+  "introFile": "s031-news-common-v2-intro.mp3",
+  "bodyFile": "s031-news-common-v2-cos.mp3",
+  "offset": 5.61,
+  "bodyDuration": 83.13641666666666,
+  "fullDuration": 88.74641666666666,
+  "voices": {
+    "Mar": "Erinome"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "066bad65be44eea99457fda5beb7d9cfa67741627bfc30c1021c64872ce57207",
+  "sourceRequestHash": "61b0805ca66b1d6496fe17fd7e67381e495e3d1c1d90b0c3369b82f019d5f877",
+  "batch": "L10",
+  "rawSha256": "490b279a9670c6bb48737b04668af2d9cf14d0fe56bc165f26dccc2e518beba4",
+  "takeSha256": "5fe7bab717c5c54e3409ddbaf501add12743b393227cf190cdec29ccd251648c",
+  "coverage": 0.969811320754717,
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "voiceRetimed": false,
+  "lufs": -19.35,
+  "peakDbTP": -2.49,
+  "effects": [
+    {
+      "name": "grand-project-breaking-news-505617",
+      "origin": "licensed-music-in-montage",
+      "start": 0,
+      "underSpeech": true,
+      "credit": {
+        "id": "grand-project-breaking-news-505617",
+        "title": "Breaking News Background Music",
+        "author": "Grand_Project",
+        "url": "https://pixabay.com/music/percussion-breaking-news-background-music-505617/",
+        "license": "Pixabay Content License",
+        "licenseUrl": "https://pixabay.com/service/license-summary/",
+        "source": "tools/remount-news-common.cjs",
+        "origin": "licensed-music",
+        "kind": "news-programme",
+        "sourceNotDistributedSeparately": true
+      },
+      "sourceSha256": "32e3e6c978ef1bc5c013c40880ac3ad9714957548f956c1355ad8852c94405ae",
+      "voiceMarginTargetDb": 25,
+      "sidechain": {
+        "threshold": 0.018,
+        "ratio": 6,
+        "attackMs": 12,
+        "releaseMs": 450
+      },
+      "openingSeconds": 3.5,
+      "closingSeconds": 4.5
+    }
+  ],
+  "sha256": "34091eaf295be3000d035617889cc9512c6f361cd184a732b0731959cbac6c82",
+  "montageAuthorization": {
+    "status": "authorized-for-draft-montage",
+    "date": "2026-11-21",
+    "authorization": "El docent demana treballar en les peces amb veus rebudes i muntatge pendent. Es prepara una proposta per audició, sense validar-la definitivament ni sintetitzar res.",
+    "voiceApprovalFingerprint": "e11d3a2f216bb6d94dba193f40687f8ee108e384ae809a010a3e55aadabd2a7c",
+    "jingle": "ona-curta",
+    "jingleAuthority": "Els quatre jingles van quedar aprovats com a recursos pel docent el 20/11. Ona curta ja identifica les notícies a S023.",
+    "finalTeacherApproval": false
+  },
+  "preparation": {
+    "canonicalTitleRange": {
+      "start": 6.564999999999964,
+      "end": 11.58499999999998
+    },
+    "bodyQuietCuts": [],
+    "rawBodyRetainedUntil": 76.38641666666666,
+    "allRetainedSamplesIdentical": true
+  },
+  "voice": {
+    "bodyLead": 7
+  },
+  "newsRevision": {
+    "date": "2026-11-22",
+    "baseFile": "s031-news-v1.mp3",
+    "baseAudioSha256": "aee1d5829ff701a39de534de64a48555a0c0278e9eac0bae16dc2af1cf9a4716",
+    "allOldEffectsRemoved": true,
+    "voiceRetimed": false,
+    "removedInsertedPaperSilence": 0.9,
+    "titleRange": {
+      "start": 6.775,
+      "end": 11.265
+    },
+    "bodyPcmSha256": "7cc634891909e2f39a9065bb758105f32a101aa5a24feb88a9357427474cf38d",
+    "teacherFinalApproval": false,
+    "newRequests": 0
+  }
+}

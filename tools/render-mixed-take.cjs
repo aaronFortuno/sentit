@@ -31,6 +31,7 @@ async function main(){
  const {activities}=await import('../catalogue.js'),entry=activities.find(e=>e.code===code),plans=JSON.parse(await fs.readFile(path.join(root,'content/production-plans.json'),'utf8'));assertProductionApproved(entry,productionSpec(entry),plans[code]);if(entry.audio)throw Error('Ja hi ha un muntatge: conservar-lo i obrir-ne una revisió explícita.');
  const takes=JSON.parse(await fs.readFile(path.join(work,'mixed-batches/takes.json'),'utf8')),take=takes[entry.production.strategy==='grouped-voices-v1'?`${code}-ASSEMBLED`:`${code}-T01`];if(!take?.body)throw Error('Presa completa verificada encara absent.');
  if(sha(await fs.readFile(take.file))!==take.sha256)throw Error('Presa alterada.');
+ require('./voice-audition.cjs').assertVoiceAudition(entry,take,(await import('../content/production-progress.js')).productionProgress['ca-'+code]);
  const batchFolder=path.dirname(take.file),split=JSON.parse(await fs.readFile(path.join(batchFolder,'split.json'),'utf8')),provider=JSON.parse(await fs.readFile(path.join(batchFolder,'usage.json'),'utf8'));
  const output=path.join(work,code.toLowerCase(),'mixed-v1');await fs.mkdir(output,{recursive:true});const binary=await ffmpegBinary();
  const wav=(name,args)=>{const file=path.join(output,name+'.wav');ffmpeg(binary,['-v','error','-y',...args,'-ar','48000','-ac','1','-c:a','pcm_s16le',file]);return file;};

@@ -1,0 +1,113 @@
+{
+  "code": "S031",
+  "activity": "ca-S031",
+  "state": "awaiting-montage-validation",
+  "file": "s031-news-v1.mp3",
+  "introFile": "s031-news-v1-intro.mp3",
+  "bodyFile": "s031-news-v1-cos.mp3",
+  "offset": 6.37,
+  "bodyDuration": 89.43641666666667,
+  "fullDuration": 95.80641666666668,
+  "voices": {
+    "Mar": "Erinome"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "066bad65be44eea99457fda5beb7d9cfa67741627bfc30c1021c64872ce57207",
+  "sourceRequestHash": "61b0805ca66b1d6496fe17fd7e67381e495e3d1c1d90b0c3369b82f019d5f877",
+  "batch": "L10",
+  "rawSha256": "490b279a9670c6bb48737b04668af2d9cf14d0fe56bc165f26dccc2e518beba4",
+  "takeSha256": "5fe7bab717c5c54e3409ddbaf501add12743b393227cf190cdec29ccd251648c",
+  "coverage": 0.969811320754717,
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "voiceRetimed": false,
+  "lufs": -18.94,
+  "peakDbTP": -2.49,
+  "effects": [
+    {
+      "name": "ona-curta-obertura",
+      "jingleId": "ona-curta",
+      "origin": "original-procedural-composition",
+      "author": "Sentit",
+      "license": "MIT",
+      "source": "assets/audio/mireia-ona-curta-v1-obertura.mp3",
+      "sourceSha256": "62016b7d191327628b1ca3b0be77e46e0c273a9732e04152ca2cde6efca33d7a",
+      "sourceUrl": "https://github.com/aaronFortuno/sentit/blob/main/tools/propose-mireia-variants.cjs",
+      "excerpt": {
+        "start": 0,
+        "seconds": 4
+      },
+      "start": 0,
+      "underSpeech": false
+    },
+    {
+      "name": "ona-curta-tancament",
+      "jingleId": "ona-curta",
+      "origin": "original-procedural-composition",
+      "author": "Sentit",
+      "license": "MIT",
+      "source": "assets/audio/mireia-ona-curta-v1-tancament.mp3",
+      "sourceSha256": "2ec44fc31e176c8ee86b57167eef042d66b3e38879ce5c092ab353971c5ff4cc",
+      "sourceUrl": "https://github.com/aaronFortuno/sentit/blob/main/tools/propose-mireia-variants.cjs",
+      "excerpt": {
+        "start": 0,
+        "seconds": 3.6
+      },
+      "start": 84.63641666666666,
+      "underSpeech": false
+    },
+    {
+      "name": "callmethefoo-744447",
+      "origin": "external-recording",
+      "author": "callmethefoo",
+      "license": "CC0 1.0",
+      "source": "assets/audio/sources/callmethefoo-744447.mp3",
+      "sourceSha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
+      "sourceUrl": "https://freesound.org/people/callmethefoo/sounds/744447/",
+      "excerpt": {
+        "start": 12,
+        "seconds": 2
+      },
+      "start": 4.35,
+      "underSpeech": false
+    },
+    {
+      "name": "beussa-749880",
+      "origin": "external-recording",
+      "author": "Beussa",
+      "license": "CC0 1.0",
+      "source": "assets/audio/sources/beussa-749880.mp3",
+      "sourceSha256": "4b38b5c58abb206d5b86b9d5b6a3acde8eea90c288ef194b4a67503fe659b4a9",
+      "sourceUrl": "https://freesound.org/people/Beussa/sounds/749880/",
+      "excerpt": {
+        "start": 0,
+        "seconds": 0.678
+      },
+      "start": 46.356400000000015,
+      "underSpeech": false
+    }
+  ],
+  "sha256": "aee1d5829ff701a39de534de64a48555a0c0278e9eac0bae16dc2af1cf9a4716",
+  "montageAuthorization": {
+    "status": "authorized-for-draft-montage",
+    "date": "2026-11-21",
+    "authorization": "El docent demana treballar en les peces amb veus rebudes i muntatge pendent. Es prepara una proposta per audició, sense validar-la definitivament ni sintetitzar res.",
+    "voiceApprovalFingerprint": "e11d3a2f216bb6d94dba193f40687f8ee108e384ae809a010a3e55aadabd2a7c",
+    "jingle": "ona-curta",
+    "jingleAuthority": "Els quatre jingles van quedar aprovats com a recursos pel docent el 20/11. Ona curta ja identifica les notícies a S023.",
+    "finalTeacherApproval": false
+  },
+  "preparation": {
+    "canonicalTitleRange": {
+      "start": 6.564999999999964,
+      "end": 11.58499999999998
+    },
+    "bodyQuietCuts": [],
+    "rawBodyRetainedUntil": 76.38641666666666,
+    "allRetainedSamplesIdentical": true
+  },
+  "voice": {
+    "bodyLead": 7
+  }
+}

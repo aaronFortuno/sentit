@@ -139,10 +139,10 @@ export const aula = [
     ],
   }),
   proposal({
-    id: 'la-mateixa-pregunta', code: 'S067', title: 'La mateixa pregunta?', grade: '6', level: 'advanced', genre: 'explanation', universeIds: ['amb-mireia'],
+    id: 'la-mateixa-pregunta', code: 'S067', title: 'La mateixa pregunta?', grade: 'eso1', level: 'middle', genre: 'explanation', universeIds: ['amb-mireia'],
     summary: 'Dos grups de classe han preguntat pels llibres que llegeixen els companys i han obtingut respostes molt diferents. En Biel i la Mireia comparen què havia preguntat realment cadascú.',
     voices, delivery, soundCredits, soundPlan,
-    editorialFocus: '6è avançada: relacionar una resposta amb la pregunta que l’ha provocada, revisar una comparació i conservar informació sense barrejar-ne els referents. Nou preguntes amb cites exactes i inferències sobre el procediment concret.',
+    editorialFocus: '1r d’ESO intermèdia: relacionar una resposta amb la pregunta que l’ha provocada, revisar una comparació i conservar informació sense barrejar-ne els referents. Nou preguntes amb cites exactes i inferències sobre el procediment concret.',
     illustrationBrief: 'Biel i Mireia miren dos fulls en blanc al costat d’un prestatge amb llibres tancats sense títols. Cap gràfic, número, portada identificable o conclusió escrita.',
     transcript: [
       d('Ambient real d’aula en grups, molt baix. Paper real al principi; cap lectura intel·ligible de resultats per altres alumnes.'),

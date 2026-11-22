@@ -1,4 +1,5 @@
 import { activities, legacyActivities } from './catalogue.js';
+import { renderRepairPreview, renderVoicePreview } from './repair-preview.js';
 import { strings } from './locales.js';
 import { defaultFormat, imageOptions, maxLines, questionFormat, renderWorksheet } from './worksheet.js';
 import { clockTime, decodeSession, defaultSession, encodeSession, guidedPrompts, validRate, sessionJingles, validJingle } from './session.js';
@@ -300,6 +301,8 @@ function renderSelection() {
   byId('audio-empty').textContent = selected ? t('audioPendingHint') : t('noAudio');
   renderSessionEditor();
   renderAudioResources(byId('audio-resources'), selected, t);
+  renderRepairPreview(byId('repair-previews'), selected, t);
+  renderVoicePreview(byId('received-voice-preview'), selected, t, icon);
   renderGenerationPlan(byId('generation-plan'), selected, t);
 }
 

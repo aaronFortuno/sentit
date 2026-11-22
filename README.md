@@ -4,6 +4,8 @@ Banc de comprensió oral d’ortogra.fi. El docent tria una activitat, prepara l
 
 [Obre Sentit](https://sentit.ortogra.fi/) · [Feina pendent](docs/seguiment-produccio.md) · [Publicacions finalitzades](docs/publicades.md) · [Cua de síntesi](docs/lots-sintesi.md) · [Sintonies](https://sentit.ortogra.fi/proves/sintonies-mireia.html)
 
+[Flux de validació de l’àudio](docs/flux-produccio-audio.md): primer s’escolten i validen les veus; després es munta l’àudio i es fa una segona audició. Les represes de pronunciació es poden comparar directament a la fitxa amb «Escolta les esmenes».
+
 El projecte continua a la sèrie **0.1.x** mentre el docent valida el material i la interfície. El pas a 0.2 serà una decisió explícita.
 
 Les fitxes inclouen **Context amb Sentit**, un text breu abans de les instruccions per situar l’escena. Es pot ocultar al començament del sidebar dret d’impressió i la preferència queda desada amb el maquetat de cada comprensió o col·lecció. Els contextos tenen [registre de revisió independent](content/listening-context-review.json) i es mantenen separats del guió sintetitzat. [Criteris d’ambients i noticiari](docs/ambient-i-noticiari.md).
@@ -11,6 +13,8 @@ Les fitxes inclouen **Context amb Sentit**, un text breu abans de les instruccio
 [S069D · La pissarra del partit, versió dialogada](https://sentit.ortogra.fi/#lectura=ca-S069D) conserva la història de S069 i hi incorpora la conversa entre l’Aina i l’avi Ferran. Guió, vuit preguntes, solucionari i escaleta pendents de validació docent pròpia; l’original narrat està validat per a síntesi.
 
 [S046D · La clau del davantal, versió dialogada](https://sentit.ortogra.fi/#lectura=ca-S046D) és una altra conversa de l’Aina i l’avi Ferran, amb set preguntes i validació docent pendent. S046 narrada es conserva i està validada per síntesi. La futura línia de [variants de dificultat i suports](docs/variants-i-suports.md), orientada al DUA, queda anotada per treballar-la després de consolidar el catàleg.
+
+[S045D · Les cadires del cinema, versió dialogada](https://sentit.ortogra.fi/#lectura=ca-S045D) completa un candidat de tres converses Aina–Ferran amb S046D i S069D. Set preguntes, solucionari i escaleta propis; pendent de validació docent, mantenint l’original narrat.
 
 **Tandes noves · 22/11:** [S053–S082 de 5è–6è](docs/lot-cicle-superior.md), trenta propostes amb índex de validació per repartiments; i [S045–S052 de 3r–4t](docs/lot-cicle-mitja.md), vuit propostes. Totes amb guió, preguntes, solucionari, escaleta i revisió independent. Validació docent en curs: el [seguiment de feina oberta](docs/seguiment-produccio.md) i la [cua de síntesi](docs/lots-sintesi.md) indiquen l’estat vigent de cada peça i els recomptes actuals. Les notes de tandes anteriors següents són històriques.
 

@@ -4,6 +4,9 @@ import { hasPendingSynthesisEdit } from './editorial-review.js';
 // A received repair is a comparison take, not an applied or approved correction.
 export function cardReviewUpdate(entry) {
   const progress = productionProgress[`${entry.language}-${entry.code}`];
+  if (!entry.audio && progress?.synthesisIssue) return { id: 'synthesis-failed', title: 'reviewSynthesisFailed', help: 'reviewSynthesisNotRepeated' };
+  if (progress?.state === 'voices-awaiting-listening') return { id: 'voices-awaiting-listening', title: 'reviewVoicesReceived', help: 'openReview', summary: progress.voiceReviewNote };
+  if (!entry.audio && progress?.missingVoiceParts?.length) return { id: 'voices-incomplete', title: 'reviewVoicesIncomplete', help: 'reviewMissingTitle' };
   if (hasPendingSynthesisEdit(entry)) {
     const pending = progress.feedback.filter(item => item.status === 'pending');
     const received = pending.filter(item => progress.receivedRepairs?.some(repair => repair.part === item.part && repair.applied === false && repair.status === 'received-awaiting-listening'));

@@ -13,10 +13,13 @@ const base=activities.filter(entry=>/^S\d{3}$/.test(entry.code)&&Number(entry.co
 assert.equal(base.length,24);
 assert.deepEqual(base.map(entry=>entry.code),Array.from({length:24},(_,i)=>'S'+String(i+1).padStart(3,'0')));
 for(const grade of ['3','4','5','6']){
- const set=base.filter(entry=>entry.grade===grade);assert.equal(set.length,6);
+ // Preserve initial design coverage while honoring explicit teacher calibration.
+ const set=base.filter(entry=>(entry.code==='S010'?'4':entry.grade)===grade);assert.equal(set.length,6);
  for(const level of ['easy','middle','advanced'])assert(set.some(entry=>entry.level===level),grade+' has coverage of '+level);
  assert.equal(new Set(set.map(entry=>entry.genre)).size,6);
 }
+assert.equal(base.find(entry=>entry.code==='S010').grade,'5','Teacher calibration: S010 is 5th grade');
+assert.equal(base.find(entry=>entry.code==='S010').level,'middle');
 assert.equal(firstBatchActivities.length,19);
 assert.equal(proposedActivities.length,19+secondBatchActivities.length+thirdBatchActivities.length+fourthBatchActivities.length);
 assert.equal(fourthBatchActivities.length,30);
@@ -24,12 +27,15 @@ for(const group of fourthBatchGroups){
  assert.equal(group.entries.length,5);
  assert(Object.keys(group.voices).length<=2);
  for(const entry of group.entries){
-  assert(['5','6'].includes(entry.grade));
-  assert.equal(entry.questions.length,Number(entry.grade)+3);
+  const initialGrade = entry.code === 'S067' ? '6' : entry.grade;
+  assert(['5','6'].includes(initialGrade));
+  assert.equal(entry.questions.length,Number(initialGrade)+3);
   assert.deepEqual(entry.production.voices,group.voices,entry.code+' keeps the exact recurring cast for its block');
   assert.equal(entry.generationPlan.takes.length,1,entry.code+' is a complete recording, not split character turns');
  }
 }
+assert.equal(activities.find(entry=>entry.code==='S067').grade,'eso1','Teacher calibration: S067 is first ESO');
+assert.equal(activities.find(entry=>entry.code==='S067').level,'middle');
 for(const grade of ['3','4','5','6']){const next=secondBatchActivities.filter(e=>e.grade===grade);assert([0,5].includes(next.length),'Publish complete reviewed groups');if(next.length)assert.deepEqual(['easy','middle','advanced'].map(level=>next.filter(e=>e.level===level).length),[2,2,1]);}
 for(const entry of secondBatchActivities){assert(['pending','audio-review','validated'].includes(entry.reviewStatus));assert.equal(Boolean(entry.audio),entry.reviewStatus!=='pending');assert.equal(entry.questions.length,Number(entry.grade)+3);assert(entry.universeIds?.length);for(const id of entry.universeIds)assert(universes.some(u=>u.id===id));assert(universesForActivity(entry).length>0);assert(plans[entry.code]?.reviewContent?.startsWith('content/propostes/tanda2/'));}
 assert.equal(activities.find(entry=>entry.code==='S011').level,'advanced','Teacher calibration: S011 is 4t avançada');
@@ -71,4 +77,4 @@ for(const entry of [...proposedActivities,...proposedVariants]){
  if(approved)assert.doesNotThrow(()=>assertProductionApproved(entry,spec,plans[entry.code]));
  else assert.throws(()=>assertProductionApproved(entry,spec,plans[entry.code]),/validar/);
 }
-console.log(`PASS · 24 base codes, six per grade, all levels and genres, teacher-calibrated difficulty; ${proposedActivities.length} proposals and ${proposedVariants.length} comparison variant, ${questions} questions, exact evidence, recurring cast and gated request plans. Zero synthesis.`);
+console.log(`PASS · 24 base codes, initial design coverage, all levels and genres, teacher-calibrated difficulty; ${proposedActivities.length} proposals and ${proposedVariants.length} comparison variant, ${questions} questions, exact evidence, recurring cast and gated request plans. Zero synthesis.`);

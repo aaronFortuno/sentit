@@ -23,7 +23,12 @@ const { chromium } = require('C:/Users/afortun8/.cache/codex-runtimes/codex-prim
       await page.evaluate(() => document.fonts.ready);
     };
     const settle = () => page.evaluate(() => Promise.all(document.getAnimations().map(animation => animation.finished.catch(() => {}))));
+    await open('S067');
+    assert((await page.locator('#activity-meta').innerText()).includes('1r d’ESO'));
+    assert((await page.locator('#activity-meta').innerText()).includes('Intermèdia'));
+    assert.match(await page.locator('#grade option[value="eso1"]').innerText(), /^1r d’ESO \(1\)$/u);
     for (const [code, opening, firstQuestion] of [
+      ['S045D', 'Avi, aquesta cadira blava ja era teva quan eres petit?', 'On feien aquell cinema'],
       ['S069D', 'Avi, de petit ja t’agradava el futbol?', 'Quina feina fa en Ferran'],
       ['S046D', 'Avi, tu tenies un hort quan eres petit?', 'Què volia treure en Ferran'],
     ]) {

@@ -1,0 +1,152 @@
+{
+  "code": "S030",
+  "activity": "ca-S030",
+  "state": "awaiting-montage-validation",
+  "file": "s030-corridor-v3.mp3",
+  "introFile": "s030-corridor-v3-intro.mp3",
+  "bodyFile": "s030-corridor-v3-cos.mp3",
+  "offset": 4.660458333333334,
+  "bodyDuration": 70.2468125,
+  "fullDuration": 74.90727083333334,
+  "voices": {
+    "Biel": "Puck",
+    "Laia": "Leda"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "ac8a3b34fa098dc7a38e788b2cadc9c81d3039b44c7af229a4c9c104184e94cc",
+  "sourceRequestHash": "45bb28cee99efe23b0263d0bc2a912f1eb1b6d1dca50e49c8c12f4c6d164d2ca",
+  "batch": "L08",
+  "rawSha256": "56e38fc4c127a624b3e598d3dfb83d3e73a61ee7ab639a0f984c6a91f1b92c24",
+  "takeSha256": "912eab8bef298379da4ab9a212d84e7042d3c263ba771d63b7243f2f8716af50",
+  "coverage": 0.9254385964912281,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.3,
+  "peakDbTP": -2.48,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "bexhillcollege-274213",
+      "start": 0,
+      "source": "assets/audio/sources/bexhillcollege-274213-hallway.mp3",
+      "sourceSha256": "ac07b275131c3517007369de9cd2e3d566e6d0de9fc9ae7c7e3ac0345cbcc5f7",
+      "sourceUrl": "https://freesound.org/people/Bexhillcollege/sounds/274213/",
+      "author": "Bexhillcollege",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "sourceTargetLufs": -28,
+      "speechGain": 0.18,
+      "speechNominalLufs": -42.9,
+      "excerpt": {
+        "start": 3,
+        "seconds": 54
+      },
+      "crossfadeSeconds": 2
+    },
+    {
+      "name": "beussa-749880",
+      "start": 50.641104166666665,
+      "source": "assets/audio/sources/beussa-749880.mp3",
+      "sourceSha256": "4b38b5c58abb206d5b86b9d5b6a3acde8eea90c288ef194b4a67503fe659b4a9",
+      "sourceUrl": "https://freesound.org/people/Beussa/sounds/749880/",
+      "author": "Beussa",
+      "license": "CC0 1.0",
+      "excerpt": {
+        "start": 0,
+        "seconds": 0.678
+      },
+      "underSpeech": false,
+      "insertedPause": 1.05
+    }
+  ],
+  "sha256": "e837429937d4e727b17233c010b2c3b91b2e03e3a50ae895069b318dce71894f",
+  "timingRevision": {
+    "baseFile": "s030-mixed-v1.mp3",
+    "baseAudioSha256": "5bd573e478044598f579fbbdc9693b5a7bd2404f0bb62949372b81833955d877",
+    "intro": {
+      "cuts": [
+        {
+          "first": 12000,
+          "last": 321546,
+          "start": 0.25,
+          "end": 6.698875,
+          "seconds": 6.448875,
+          "maximumDbFS": -57.84401289123635
+        },
+        {
+          "first": 482848,
+          "last": 597734,
+          "start": 10.059333333333333,
+          "end": 12.452791666666666,
+          "seconds": 2.3934583333333332,
+          "maximumDbFS": -56.86704154048001
+        }
+      ],
+      "removedSeconds": 8.842333333333332,
+      "retainedPcmSha256": "065a60eb74591ed9ade66ab4894c15477b234ae0abb7a08ec9d5ebb922796154"
+    },
+    "body": {
+      "cuts": [
+        {
+          "first": 119568,
+          "last": 238319,
+          "start": 2.491,
+          "end": 4.964979166666667,
+          "seconds": 2.4739791666666666,
+          "maximumDbFS": -43.50011640239199
+        },
+        {
+          "first": 2224083,
+          "last": 2248559,
+          "start": 46.3350625,
+          "end": 46.84497916666667,
+          "seconds": 0.5099166666666667,
+          "maximumDbFS": -56.86704154048001
+        },
+        {
+          "first": 2627072,
+          "last": 2650320,
+          "start": 54.730666666666664,
+          "end": 55.215,
+          "seconds": 0.48433333333333334,
+          "maximumDbFS": -54.891958466351475
+        },
+        {
+          "first": 3300721,
+          "last": 3328560,
+          "start": 68.76502083333334,
+          "end": 69.345,
+          "seconds": 0.5799791666666667,
+          "maximumDbFS": -52.46710664538475
+        }
+      ],
+      "removedSeconds": 4.048208333333333,
+      "retainedPcmSha256": "8873bf27b50df7af09d7b1e388b88ab340350f90126b10cede727ad151ec9ebe"
+    },
+    "tailEdit": {
+      "start": 74.29502083333334,
+      "end": 87.92579166666667,
+      "canonicalLastWordEnd": 73.79500000000002,
+      "reason": "Unrequested post-speech breath, long padding and delayed closing footsteps",
+      "cutPeakDbFS": -58.053321564799646
+    },
+    "quietThresholdDbFS": -42,
+    "allRetainedSamplesIdentical": true,
+    "newRequests": 0,
+    "originalPreserved": true
+  },
+  "corridorRevision": {
+    "date": "2026-11-22",
+    "baseFile": "s030-timing-v2.mp3",
+    "baseAudioSha256": "6801fbb8a0a507a6807d2664f1df2877457c44bc3c5747080c43ed600083c99b",
+    "removedOpeningPaper": true,
+    "replacedOpeningClassroomWithContinuousCorridor": true,
+    "paperRemovalSampleSha256": "e32f5d6121d6e74bdcdf25f790f566eadd32704385869b60a22cd4e2d22309bf",
+    "paperRemovalTimingUnchanged": true,
+    "voiceTimingUnchanged": true,
+    "sourceDryTakePreserved": true,
+    "newRequests": 0
+  }
+}

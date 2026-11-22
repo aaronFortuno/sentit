@@ -2,6 +2,8 @@
 
 Les narracions s’acompanyen amb una base molt suau, que baixa abans de la veu i només puja quan acaba el relat. Cada composició té un ID propi i les activitats on s’ha utilitzat. El [catàleg de músiques](../content/music-catalogue.js) permet evitar repeticions involuntàries; els manifests documenten la mescla real.
 
+Les notícies de la Mar utilitzen **[Breaking News Background Music](https://pixabay.com/music/percussion-breaking-news-background-music-505617/)**, de **Grand_Project**, sota la [Pixabay Content License](https://pixabay.com/service/license-summary/). El docent n’ha facilitat la descàrrega. Font completa conservada localment, sense distribuir-la sola; al web es publiquen només els muntatges amb veus i els crèdits. Entrada i tancament compartits, base amb foses creuades i compressió controlada per la veu. Revisió del 22/11: S006, S009, S016, S023, S029, S031 i S039. La música mesurada abans de la compressió addicional queda entre 27 i 28 dB per sota de la veu durant els trams parlats.
+
 | ID i títol | Activitat assignada | Identitat musical | Origen i llicència | Recepta |
 | --- | --- | --- | --- | --- |
 | `sentit-fil-per-seguir-v1` · Un fil per seguir | S004 i S004D · El botó de la jaqueta | Piano suau i làmines de fusta, Fa major, 68 pulsacions/min | Composició original de Sentit, MIT; dues versions de la mateixa història amb mescles pròpies | [S004/S004D](../tools/s004-music.cjs) |

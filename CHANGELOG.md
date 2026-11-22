@@ -1,5 +1,23 @@
 # Canvis
 
+## 0.1.77 · 22 de novembre de 2026
+
+- Validacions de síntesi registrades per S045, S047, S058, S077 i S078. S078 conserva 5è accessible, considerat ben calibrat pel docent.
+- L17 rebut i recuperat de l’exportació d’AI Studio del docent, sense repetir la petició: S045/S046/S047/S069, 6:43 reals. L18 rebut: S058/S061/S062, 5:52 reals; S061 sense títol locutat, incidència explícita pendent. Veus separades i disponibles a la fitxa, sense muntar-les ni validar-les automàticament.
+- L19 (S081/S082) enviat una vegada: Gemini ha retornat un error intern sense àudio. Identificador conservat i sense reenviament automàtic. L15 i L16 continuen preparats.
+- S081 validada amb el tancament literal d’Elies: «Espera, que t’aguanto la funda… així…», amb interpretació propera anotada fora del text parlat. Revisió independent renovada. L19 preparat amb S081/S082, 6:09 estimats; cap pregunta ni altre guió del taller modificat.
+- S079 validada amb un comiat més proper d’Elies mentre aguanta la porta i en Biel s’ajusta la motxilla. Petites pauses d’acció anotades fora del text parlat; guió i context revalidats independentment. Per completar S078/S079/S080 queda la validació de S080.
+- Previsions dels candidats recalculades amb text pla i títols, sense pauses antigues ni marges artificials. Grups reorganitzats i prioritats de validació al pla viu. Els candidats per sota de sis minuts continuen esperant material compatible.
+- S045D, versió dialogada de les cadires del cinema amb Aina/Zephyr i Ferran/Algenib: revisió independent superada, set preguntes, context i escaleta, pendent de validació docent pròpia. Candidat de tres versions dialogades amb S046D i S069D, 6:50 estimats.
+- S010 requalificada explícitament a 5è intermèdia, conservant set preguntes, text parlat, veus i màster. Revisió independent de metadades renovada; les correccions de pronunciació obertes conserven el seu estat.
+- S067 validada per síntesi i requalificada a 1r d’ESO intermèdia, amb nou preguntes i guió intactes. Nou curs disponible als filtres, etiquetes i seguiment.
+- «Escolta les esmenes» a les fitxes amb represes: original i frase nova al mateix quadre, una sola reproducció alhora. Encara no s’apliquen als màsters. Reproductor de veus rebudes visible a la fitxa.
+- Flux de producció actualitzat: audició i validació docent de veus abans de muntar; després, una validació separada del muntatge.
+- S030 remuntada amb ambient real continu de passadís, sense el paper inicial i conservant l’efecte de despenjar. Pendent d’última audició.
+- Reproductors de revisió amb barra de desplaçament d’amplada completa i comptador de temps; sense el reproductor natiu comprimit al sidebar. També per a les veus rebudes.
+- S024: retirats els bufecs previs al títol i les dues notes finals, amb ambient continu d’aula. Darrer torn de Biel pendent de represa, anotat a la card i al solucionari; sense síntesi curta nova.
+- Les set notícies de la Mar ja muntades comparteixen la pista de Grand_Project facilitada pel docent: entrada, base contínua molt baixa i sortida. Retirats papers i jingles antics; conservat el mercat sota en Pau a S023. S029 sense clics previs ni l’avís de ficció locutat, amb revisió editorial renovada. Totes esperen audició; les esmenes de veu de S016/S023 continuen obertes.
+
 ## 0.1.76 · 22 de novembre de 2026
 
 - S082 validada per síntesi; conserva 6è avançada i nou preguntes. Possible pas a 1r d’ESO pendent de valorar després d’escoltar l’àudio muntat, sense requalificació aplicada.

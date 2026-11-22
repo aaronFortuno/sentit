@@ -7,7 +7,7 @@
   "voices": {
     "Mar": "Erinome"
   },
-  "newSynthesisRequests": 1,
+  "newSynthesisRequests": 0,
   "approvalFingerprint": "a6286789dcda768aa5eda9e0d043440c60f75090efc9445ef7c273fad0ade4f5",
   "requestHash": "3a6958c71174a0d5affc3e915044570e88be424acd8cb48a00837e03e4ff0bf1",
   "rawSha256": "b91c85a798519ef2c0e7c8fced954bdb56892242aacf02f5cdc467fd95d23481",
@@ -40,14 +40,14 @@
     "peakDbFS": -62.7,
     "rawSamplesPreserved": true
   },
-  "file": "s016-jaciment-v1.mp3",
-  "introFile": "s016-jaciment-v1-intro.mp3",
-  "bodyFile": "s016-jaciment-v1-cos.mp3",
-  "offset": 5.38,
-  "bodyDuration": 135.23,
-  "fullDuration": 140.60999999999999,
-  "lufs": -18.9,
-  "peakDbTP": -2.8,
+  "file": "s016-news-common-v2.mp3",
+  "introFile": "s016-news-common-v2-intro.mp3",
+  "bodyFile": "s016-news-common-v2-cos.mp3",
+  "offset": 5.95,
+  "bodyDuration": 136.88,
+  "fullDuration": 142.82999999999998,
+  "lufs": -18.55,
+  "peakDbTP": -2.49,
   "voice": {
     "bodyLead": 2.3,
     "bodyRawDuration": 130.13,
@@ -56,29 +56,45 @@
   },
   "effects": [
     {
-      "name": "news-opening",
+      "name": "grand-project-breaking-news-505617",
+      "origin": "licensed-music-in-montage",
       "start": 0,
-      "end": 2,
-      "origin": "original-procedural"
-    },
-    {
-      "name": "quiet-worksite-opening",
-      "start": 0,
-      "end": 1.8,
-      "origin": "original-procedural"
-    },
-    {
-      "name": "news-source-paper",
-      "start": 69.17999999999999,
-      "end": 69.63,
-      "origin": "original-procedural"
-    },
-    {
-      "name": "news-ending",
-      "start": 132.63,
-      "end": 134.63,
-      "origin": "original-procedural"
+      "underSpeech": true,
+      "credit": {
+        "id": "grand-project-breaking-news-505617",
+        "title": "Breaking News Background Music",
+        "author": "Grand_Project",
+        "url": "https://pixabay.com/music/percussion-breaking-news-background-music-505617/",
+        "license": "Pixabay Content License",
+        "licenseUrl": "https://pixabay.com/service/license-summary/",
+        "source": "tools/remount-news-common.cjs",
+        "origin": "licensed-music",
+        "kind": "news-programme",
+        "sourceNotDistributedSeparately": true
+      },
+      "sourceSha256": "32e3e6c978ef1bc5c013c40880ac3ad9714957548f956c1355ad8852c94405ae",
+      "voiceMarginTargetDb": 25,
+      "sidechain": {
+        "threshold": 0.018,
+        "ratio": 6,
+        "attackMs": 12,
+        "releaseMs": 450
+      },
+      "openingSeconds": 3.5,
+      "closingSeconds": 4.5
     }
   ],
-  "sha256": "150774e664bbfccbc0b149949535cd09a9e6913dba42ad7ae3abdaaf9ffeef97"
+  "sha256": "87060f14c36ebf13cd24fbcec97e738bd746fa1efd909ee32635ef04866ce420",
+  "newsRevision": {
+    "date": "2026-11-22",
+    "baseFile": "s016-jaciment-v1.mp3",
+    "baseAudioSha256": "150774e664bbfccbc0b149949535cd09a9e6913dba42ad7ae3abdaaf9ffeef97",
+    "allOldEffectsRemoved": true,
+    "voiceRetimed": false,
+    "rawSplit": 4.83,
+    "bodyPcmSha256": "c65575b0a7016f5e247aba40255fc790dcbf7dbdd1b899d495d5b16227bd9cd6",
+    "teacherFinalApproval": false,
+    "newRequests": 0
+  },
+  "voiceRetimed": false
 }

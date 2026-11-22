@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import { activities } from '../catalogue.js';
+import { strings } from '../locales.js';
 import { characters, matchesCharacters } from '../content/characters.js';
 import { universes, matchesUniverse } from '../content/universes.js';
 import { matchesDuration } from '../activity-meta.js';
@@ -8,7 +9,7 @@ import { productionStage } from '../production-stage.js';
 import { matchesCatalogFilters, catalogFacetCounts } from '../catalog-filters.js';
 
 const searchIndex = new Map(activities.map(e => [e.id, `${e.language}-${e.code} ${e.title} ${e.summary}`.toLocaleLowerCase().normalize('NFD').replace(/\p{M}/gu, '')]));
-const choices = { grade: ['','3','4','5','6'], level: ['','easy','middle','advanced'], duration: ['','short','medium','long'], genre: ['',...new Set(activities.map(e=>e.genre))], universe: ['',...universes.map(u=>u.id),'independent'], 'content-language': ['','ca'], characters: characters.map(c=>c.id) };
+const choices = { grade: ['',...Object.keys(strings.ca.grades)], level: ['','easy','middle','advanced'], duration: ['','short','medium','long'], genre: ['',...new Set(activities.map(e=>e.genre))], universe: ['',...universes.map(u=>u.id),'independent'], 'content-language': ['','ca'], characters: characters.map(c=>c.id) };
 let checked = 0;
 // Independently substitute each candidate into the full filter state. Counts
 // must agree with the list it would produce, even for empty results/collections.

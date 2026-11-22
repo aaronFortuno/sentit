@@ -2,12 +2,12 @@
   "code": "S009",
   "activity": "ca-S009",
   "state": "awaiting-montage-validation",
-  "file": "s009-news-v1.mp3",
-  "introFile": "s009-news-v1-intro.mp3",
-  "bodyFile": "s009-news-v1-cos.mp3",
-  "offset": 6.97,
-  "bodyDuration": 94.97,
-  "fullDuration": 101.94,
+  "file": "s009-news-common-v2.mp3",
+  "introFile": "s009-news-common-v2-intro.mp3",
+  "bodyFile": "s009-news-common-v2-cos.mp3",
+  "offset": 6.36,
+  "bodyDuration": 89.57,
+  "fullDuration": 95.92999999999999,
   "voices": {
     "Mar": "Erinome"
   },
@@ -22,58 +22,39 @@
   "newSynthesisRequests": 0,
   "sharedRequest": true,
   "voiceRetimed": false,
-  "lufs": -18.78,
-  "peakDbTP": -2.5,
+  "lufs": -19.18,
+  "peakDbTP": -2.49,
   "effects": [
     {
-      "name": "ona-curta-obertura",
-      "jingleId": "ona-curta",
-      "origin": "original-procedural-composition",
-      "author": "Sentit",
-      "license": "MIT",
-      "source": "assets/audio/mireia-ona-curta-v1-obertura.mp3",
-      "sourceSha256": "62016b7d191327628b1ca3b0be77e46e0c273a9732e04152ca2cde6efca33d7a",
-      "sourceUrl": "https://github.com/aaronFortuno/sentit/blob/main/tools/propose-mireia-variants.cjs",
-      "excerpt": {
-        "start": 0,
-        "seconds": 4
-      },
+      "name": "grand-project-breaking-news-505617",
+      "origin": "licensed-music-in-montage",
       "start": 0,
-      "underSpeech": false
-    },
-    {
-      "name": "ona-curta-tancament",
-      "jingleId": "ona-curta",
-      "origin": "original-procedural-composition",
-      "author": "Sentit",
-      "license": "MIT",
-      "source": "assets/audio/mireia-ona-curta-v1-tancament.mp3",
-      "sourceSha256": "2ec44fc31e176c8ee86b57167eef042d66b3e38879ce5c092ab353971c5ff4cc",
-      "sourceUrl": "https://github.com/aaronFortuno/sentit/blob/main/tools/propose-mireia-variants.cjs",
-      "excerpt": {
-        "start": 0,
-        "seconds": 3.6
+      "underSpeech": true,
+      "credit": {
+        "id": "grand-project-breaking-news-505617",
+        "title": "Breaking News Background Music",
+        "author": "Grand_Project",
+        "url": "https://pixabay.com/music/percussion-breaking-news-background-music-505617/",
+        "license": "Pixabay Content License",
+        "licenseUrl": "https://pixabay.com/service/license-summary/",
+        "source": "tools/remount-news-common.cjs",
+        "origin": "licensed-music",
+        "kind": "news-programme",
+        "sourceNotDistributedSeparately": true
       },
-      "start": 90.16999999999999,
-      "underSpeech": false
-    },
-    {
-      "name": "beussa-749880",
-      "origin": "external-recording",
-      "author": "Beussa",
-      "license": "CC0 1.0",
-      "source": "assets/audio/sources/beussa-749880.mp3",
-      "sourceSha256": "4b38b5c58abb206d5b86b9d5b6a3acde8eea90c288ef194b4a67503fe659b4a9",
-      "sourceUrl": "https://freesound.org/people/Beussa/sounds/749880/",
-      "excerpt": {
-        "start": 0,
-        "seconds": 0.678
+      "sourceSha256": "32e3e6c978ef1bc5c013c40880ac3ad9714957548f956c1355ad8852c94405ae",
+      "voiceMarginTargetDb": 25,
+      "sidechain": {
+        "threshold": 0.018,
+        "ratio": 6,
+        "attackMs": 12,
+        "releaseMs": 450
       },
-      "start": 5.1,
-      "underSpeech": false
+      "openingSeconds": 3.5,
+      "closingSeconds": 4.5
     }
   ],
-  "sha256": "277d9786b3ecac52dd882bce81f9c4566fd8d8114f22d1e038f8112fb5544197",
+  "sha256": "9b2c4875e89b8bd10d7281f61ce4228f95723a55baaa697cd03c5441f0b3eda5",
   "montageAuthorization": {
     "status": "authorized-for-draft-montage",
     "date": "2026-11-21",
@@ -103,5 +84,19 @@
   },
   "voice": {
     "bodyLead": 7
+  },
+  "newsRevision": {
+    "date": "2026-11-22",
+    "baseFile": "s009-news-v1.mp3",
+    "baseAudioSha256": "277d9786b3ecac52dd882bce81f9c4566fd8d8114f22d1e038f8112fb5544197",
+    "allOldEffectsRemoved": true,
+    "voiceRetimed": false,
+    "titleRange": {
+      "start": 0.265,
+      "end": 5.505
+    },
+    "bodyPcmSha256": "4fb3e7c721416cc87bd103d45a902750e2209c9aa32cfd5fe7e3df2f11f45e80",
+    "teacherFinalApproval": false,
+    "newRequests": 0
   }
 }

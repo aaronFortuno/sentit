@@ -35,6 +35,8 @@ Una conversa amb paraules senzilles pot exigir molt si s’hi explica una altra 
 
 Assignar el nivell amb prudència i confirmar-lo després de l’àudio muntat. S061 conserva 5è avançada mentre es valora la proposta docent de 6è intermèdia o avançada. Aquesta observació no requalifica automàticament altres peces validades.
 
+Referència de càrrega informativa: el docent requalifica explícitament S067 a **1r d’ESO intermèdia** (22/11/2026). La quantitat d’informació que cal processar i destriar la situa per sobre de 6è avançada. Fer servir aquest exemple per calibrar propostes futures; conservar les qualificacions de les altres peces fins a una decisió docent pròpia.
+
 ### Escenes d’aula: comprovar el registre del conjunt
 
 La mestra parla amb el grup mentre fan alguna cosa concreta. Pot donar instruccions clares i posar límits, però no ha de dirigir cada activitat com una reunió administrativa. Apartats de pendents, acords confirmats, responsables, còpies i lectures finals no són un procediment d’aula per defecte. Conservar una anotació o un repartiment de feines quan ajuda realment, sense desplegar tot un sistema de control per anticipar incidències inexistents.

@@ -1,0 +1,47 @@
+import { proposal, direction as d, spoken as s, question as q, evidence as e } from './proposal.js';
+
+// Variant pròpia per validar; S045 narrada es conserva íntegra.
+export const s045Dialogada = proposal({
+  id: 'les-cadires-del-cinema-dialogada', code: 'S045D', title: 'Les cadires del cinema · versió dialogada', grade: '4', level: 'easy', genre: 'story', universeIds: ['aina-ferran'],
+  summary: 'L’Aina es fixa en una cadira blava de l’avi Ferran. Ell recorda una sessió de cinema d’estiu i els esforços que va haver de fer per veure la pantalla.',
+  voices: { Aina: 'Zephyr', Ferran: 'Algenib' },
+  delivery: 'Aina i el seu avi Ferran conversen en el present. Aina, de deu a dotze anys, fa preguntes curtes, s’imagina què li passava al seu avi i reacciona amb humor, sense fer d’entrevistadora. Ferran recorda amb calidesa, nostàlgia discreta i comicitat sobre les seves pròpies ensopegades. Dues veus constants: Zephyr i Algenib, sense caricatura infantil o de persona gran. El pare, la cosina i el públic no tenen veus pròpies ni s’imiten. Somriure natural en el to final, sense tags vocals ni rialles afegides.',
+  editorialFocus: 'Variant dialogada de S045, que es conserva. 4t accessible: seguir el record en ordre, relacionar els canvis de lloc amb les seves causes i identificar l’ajuda de la cosina. Mateixes set exigències de comprensió, amb les reaccions de l’Aina. Pendent de validació docent pròpia.',
+  soundPlan: 'Compartir la base proposada «Cadires sota les estrelles» amb S045, perquè és una versió de la mateixa història. Mescla pròpia per a les dues veus: entrada suau de dos segons i música molt baixa sota la conversa. No representar la plaça del passat ni la pel·lícula; ometre moviments de cadira i pauses exclusives per a efectes. Deixar acabar la darrera paraula, pujar la base dos segons, fosa de dos segons i 600 ms de silenci.',
+  soundCredits: 'Composició original prevista de Sentit sota MIT, compartida amb la narració S045; pendent de producció i registre. Cap mostra externa ni veu sintetitzada utilitzada en aquesta proposta.',
+  illustrationBrief: 'Aina, amb serrell fosc i ulleres rodones, conversa amb l’avi Ferran, de cabells grisos i barba blanca curta, en una estança tranquil·la. Una cadira blava plegada a un costat. Sense cinta identificadora, cinema, files de públic o posicions respecte de la pantalla.',
+  transcript: [
+    d('Base musical càlida durant dos segons. Aina i Ferran conversen en el present; cap so de pel·lícula ni gent del record.'),
+    s('inici', 'Aina', 'Avi, aquesta cadira blava ja era teva quan eres petit?'),
+    s('cadira', 'Ferran', 'Sí! Va venir amb mi al cinema moltes vegades. A l’estiu, alguns dissabtes posaven una pantalla a la plaça. Cadascú s’hi portava la cadira de casa. La primera vegada hi vaig anar amb el pare i la meva cosina. Jo em pensava que les cadires ja ens les trobaríem allà!'),
+    s('feina', 'Aina', 'Tothom arribava amb la seva cadira? Quina feinada!'),
+    s('cinta', 'Ferran', 'El pare va lligar una cinta vermella al respatller de la meva. N’hi havia moltes de semblants i volia que després reconeguéssim la nostra. La cosina em va ajudar a portar-la: l’agafàvem un per cada costat i anàvem canviant de mà quan ens cansàvem.'),
+    s('lloc', 'Aina', 'I on us vau asseure?'),
+    s('primer', 'Ferran', 'Vam arribar d’hora. Jo vaig triar un lloc al costat de la paret perquè m’hi podia recolzar. Encara hi havia claror i el pare va anar a saludar un amic, dues passes més enllà. La cosina i jo ens vam quedar guardant les tres cadires.'),
+    s('davant', 'Ferran', 'Quan ja començaven la pel·lícula, es va asseure davant nostre un home molt alt. Jo veia un tros de pantalla a cada costat del seu cap.'),
+    s('cosina-pregunta', 'Aina', 'I la teva cosina sí que la veia?'),
+    s('moviments', 'Ferran', 'A ella li passava el mateix! Em va fer un copet al braç i vam començar a inclinar-nos, ara cap aquí, ara cap allà. Si jo em movia, ella es movia cap a l’altre costat. No trobàvem una postura bona.'),
+    s('cansament', 'Aina', 'Jo no hauria pogut estar tota la pel·lícula així!'),
+    d('Pausa natural entre torns. La música continua baixa; cap efecte de cadira ni pausa tècnica afegida.'),
+    s('canvi', 'Ferran', 'El pare va tornar i ens va veure fent aquells moviments. Vam agafar les cadires i ens vam posar més al costat, en un espai que havia quedat buit. Des d’allà vèiem la pantalla sencera. La paret quedava lluny, però ens vam poder quedar quiets d’una vegada.'),
+    s('tornada-pregunta', 'Aina', 'I després encara havíeu de carregar les cadires fins a casa!'),
+    s('tornada', 'Ferran', 'En acabar, la plaça es va omplir de gent que plegava cadires. La cosina va plegar la meva mentre el pare agafava la seva. A la tornada va insistir a portar-la ella una estona. Deia que, després d’haver-me passat una bona estona movent el cap, jo ja havia fet prou exercici!'),
+    s('broma', 'Aina', 'I ella també havia estat bellugant el cap!'),
+    s('final', 'Ferran', 'Sí, però encara li quedaven forces per fer bromes!'),
+    d('Acabar la veu sencera. Pujar la música dos segons, fosa de dos segons i 600 ms de silenci final, sense altres veus.'),
+  ],
+  questions: [
+    q('lloc', 'On feien aquell cinema a l’estiu?', 'A la plaça.', 1, [e('cadira', 'posaven una pantalla a la plaça')]),
+    q('portar', 'Què havia de portar cadascú de casa?', 'La seva cadira.', 1, [e('cadira', 'Cadascú s’hi portava la cadira de casa.')]),
+    q('marca', 'Per què el pare va lligar una cinta a la cadira?', 'Per reconèixer-la entre les altres cadires semblants.', 2, [e('cinta', 'N’hi havia moltes de semblants i volia que després reconeguéssim la nostra.')]),
+    q('paret', 'Per què en Ferran va triar primer un lloc al costat de la paret?', 'Perquè s’hi podia recolzar.', 1, [e('primer', 'al costat de la paret perquè m’hi podia recolzar')]),
+    q('problema', 'Què els impedia veure bé la pel·lícula?', 'Un home molt alt que es va asseure davant seu.', 1, [e('davant', 'es va asseure davant nostre un home molt alt'), e('davant', 'Jo veia un tros de pantalla a cada costat del seu cap.')]),
+    q('solucio', 'Què van fer per poder veure la pantalla sencera?', 'Van moure les cadires cap a un costat, en un espai buit.', 2, [e('canvi', 'ens vam posar més al costat, en un espai que havia quedat buit. Des d’allà vèiem la pantalla sencera.')]),
+    q('tornada', 'Quina ajuda li va oferir la cosina a la tornada?', 'Portar-li la cadira una estona.', 1, [e('tornada', 'A la tornada va insistir a portar-la ella una estona.')]),
+  ],
+  generationPlan: {
+    note: 'Una presa completa d’Aina i Ferran, pendent de validació docent pròpia. Agrupar-la amb altres lectures validades del mateix repartiment fins a sis a vuit minuts. S045 narrada té autorització pròpia; aquesta variant encara no autoritza cap síntesi. Música i temporitzadors es munten després.',
+    takes: [{ id: 'S045D-T01', label: 'Títol i fragment complets', parts: ['introduction', 'inici', 'cadira', 'feina', 'cinta', 'lloc', 'primer', 'davant', 'cosina-pregunta', 'moviments', 'cansament', 'canvi', 'tornada-pregunta', 'tornada', 'broma', 'final'], requests: 1, note: 'Aina: Zephyr; Ferran: Algenib. Aina llegeix també el títol. Una conversa íntegra, sense síntesi per frases o personatges separats.' }],
+    localCuts: [{ id: 'S045D-L01', after: 'introduction', label: 'Separar el títol del fragment', note: 'Tall previst en una pausa quieta després del títol. Comprovar silenci real i marges de consonants abans de retallar. Presentació una vegada; fragment complet a cada escolta.' }],
+  },
+});

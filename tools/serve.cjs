@@ -21,7 +21,16 @@ http.createServer(async (request, response) => {
       return;
     }
     const body = await fs.readFile(target);
-    response.writeHead(200, { 'Content-Type': types[path.extname(target)] || 'text/plain; charset=utf-8' }).end(body);
+    const headers = { 'Content-Type': types[path.extname(target)] || 'text/plain; charset=utf-8', 'Accept-Ranges': 'bytes' };
+    if (request.headers.range) {
+      const range = /^bytes=(\d*)-(\d*)$/.exec(request.headers.range);
+      if (!range || (!range[1] && !range[2])) { response.writeHead(416, { 'Content-Range': `bytes */${body.length}` }).end(); return; }
+      const start = range[1] ? Number(range[1]) : Math.max(0, body.length - Number(range[2]));
+      const end = range[1] && range[2] ? Math.min(body.length - 1, Number(range[2])) : body.length - 1;
+      if (start >= body.length || start > end) { response.writeHead(416, { 'Content-Range': `bytes */${body.length}` }).end(); return; }
+      response.writeHead(206, { ...headers, 'Content-Range': `bytes ${start}-${end}/${body.length}`, 'Content-Length': end - start + 1 }).end(request.method === 'HEAD' ? undefined : body.subarray(start, end + 1)); return;
+    }
+    response.writeHead(200, { ...headers, 'Content-Length': body.length }).end(request.method === 'HEAD' ? undefined : body);
   } catch {
     response.writeHead(404).end();
   }

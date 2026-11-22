@@ -148,6 +148,27 @@ export const musicCatalogue = [
       "ca-S038D"
     ],
     "description": "Composició pròpia de piano suau i harmonia espaiada, 68 pulsacions per minut; partitura determinista 138, fosa d’entrada, música atenuada sota la veu i pujada de dos segons seguida de fosa al final."
+  },
+  {
+    "id": "grand-project-breaking-news-505617",
+    "title": "Breaking News Background Music",
+    "author": "Grand_Project",
+    "url": "https://pixabay.com/music/percussion-breaking-news-background-music-505617/",
+    "license": "Pixabay Content License",
+    "licenseUrl": "https://pixabay.com/service/license-summary/",
+    "source": "tools/remount-news-common.cjs",
+    "origin": "licensed-music",
+    "kind": "news-programme",
+    "sourceNotDistributedSeparately": true,
+    "usedBy": [
+      "ca-S006",
+      "ca-S009",
+      "ca-S016",
+      "ca-S023",
+      "ca-S029",
+      "ca-S031",
+      "ca-S039"
+    ]
   }
 ];
 

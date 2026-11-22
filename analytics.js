@@ -8,7 +8,7 @@ export const analyticsConfig={website:'6acf2cae-4b28-4d71-98dd-550d2d086dcc',hos
 const page={website:analyticsConfig.website,hostname:analyticsConfig.hostname,title:'Sentit',url:'/'};
 const entries=new Map([...activities,...legacyActivities].map(entry=>[entry.code,entry]));
 const filters={
-  'content-language':['','ca','es'],grade:['','3','4','5','6'],level:['','easy','middle','advanced'],duration:['','short','medium','long'],
+  'content-language':['','ca','es'],grade:['','3','4','5','6','eso1'],level:['','easy','middle','advanced'],duration:['','short','medium','long'],
   genre:['','story','dialogue','news','interview','instructions','explanation'],'character-match':['any','all'],character:characters.map(character=>character.id),
   universe:['',...universes.map(universe=>universe.id),'independent'],
   'production-phase':['',...pendingProductionStages.map(stage=>stage.id)],

@@ -2,12 +2,12 @@
   "code": "S029",
   "activity": "ca-S029",
   "state": "awaiting-montage-validation",
-  "file": "s029-news-v1.mp3",
-  "introFile": "s029-news-v1-intro.mp3",
-  "bodyFile": "s029-news-v1-cos.mp3",
-  "offset": 6.04,
-  "bodyDuration": 80.36583333333333,
-  "fullDuration": 86.40583333333333,
+  "file": "s029-news-common-v2.mp3",
+  "introFile": "s029-news-common-v2-intro.mp3",
+  "bodyFile": "s029-news-common-v2-cos.mp3",
+  "offset": 4.1265,
+  "bodyDuration": 74.96583333333334,
+  "fullDuration": 79.09233333333333,
   "voices": {
     "Mar": "Erinome"
   },
@@ -22,58 +22,39 @@
   "newSynthesisRequests": 0,
   "sharedRequest": true,
   "voiceRetimed": false,
-  "lufs": -18.89,
-  "peakDbTP": -2.5,
+  "lufs": -19.35,
+  "peakDbTP": -2.49,
   "effects": [
     {
-      "name": "ona-curta-obertura",
-      "jingleId": "ona-curta",
-      "origin": "original-procedural-composition",
-      "author": "Sentit",
-      "license": "MIT",
-      "source": "assets/audio/mireia-ona-curta-v1-obertura.mp3",
-      "sourceSha256": "62016b7d191327628b1ca3b0be77e46e0c273a9732e04152ca2cde6efca33d7a",
-      "sourceUrl": "https://github.com/aaronFortuno/sentit/blob/main/tools/propose-mireia-variants.cjs",
-      "excerpt": {
-        "start": 0,
-        "seconds": 4
-      },
+      "name": "grand-project-breaking-news-505617",
+      "origin": "licensed-music-in-montage",
       "start": 0,
-      "underSpeech": false
-    },
-    {
-      "name": "ona-curta-tancament",
-      "jingleId": "ona-curta",
-      "origin": "original-procedural-composition",
-      "author": "Sentit",
-      "license": "MIT",
-      "source": "assets/audio/mireia-ona-curta-v1-tancament.mp3",
-      "sourceSha256": "2ec44fc31e176c8ee86b57167eef042d66b3e38879ce5c092ab353971c5ff4cc",
-      "sourceUrl": "https://github.com/aaronFortuno/sentit/blob/main/tools/propose-mireia-variants.cjs",
-      "excerpt": {
-        "start": 0,
-        "seconds": 3.6
+      "underSpeech": true,
+      "credit": {
+        "id": "grand-project-breaking-news-505617",
+        "title": "Breaking News Background Music",
+        "author": "Grand_Project",
+        "url": "https://pixabay.com/music/percussion-breaking-news-background-music-505617/",
+        "license": "Pixabay Content License",
+        "licenseUrl": "https://pixabay.com/service/license-summary/",
+        "source": "tools/remount-news-common.cjs",
+        "origin": "licensed-music",
+        "kind": "news-programme",
+        "sourceNotDistributedSeparately": true
       },
-      "start": 75.56583333333333,
-      "underSpeech": false
-    },
-    {
-      "name": "simgo-380687",
-      "origin": "external-recording",
-      "author": "simgo",
-      "license": "CC0 1.0",
-      "source": "assets/audio/sources/simgo-380687.mp3",
-      "sourceSha256": "134e8b4da1abd5849321f37d33192cf641b822d649803e1002b8568198fbfc91",
-      "sourceUrl": "https://freesound.org/people/simgo/sounds/380687/",
-      "excerpt": {
-        "start": 34,
-        "seconds": 2
+      "sourceSha256": "32e3e6c978ef1bc5c013c40880ac3ad9714957548f956c1355ad8852c94405ae",
+      "voiceMarginTargetDb": 25,
+      "sidechain": {
+        "threshold": 0.018,
+        "ratio": 6,
+        "attackMs": 12,
+        "releaseMs": 450
       },
-      "start": 4.35,
-      "underSpeech": false
+      "openingSeconds": 3.5,
+      "closingSeconds": 4.5
     }
   ],
-  "sha256": "3e0e195ffb6ab56361684a965b9f7e7718a1462f7d3ffab7acabe680e67b674a",
+  "sha256": "bc4a146f94be2d3a5751c221ee9d10daf7080389ecf794f6605498157e0d1055",
   "montageAuthorization": {
     "status": "authorized-for-draft-montage",
     "date": "2026-11-21",
@@ -94,5 +75,19 @@
   },
   "voice": {
     "bodyLead": 7
+  },
+  "newsRevision": {
+    "date": "2026-11-22",
+    "baseFile": "s029-news-v1.mp3",
+    "baseAudioSha256": "3e0e195ffb6ab56361684a965b9f7e7718a1462f7d3ffab7acabe680e67b674a",
+    "allOldEffectsRemoved": true,
+    "voiceRetimed": false,
+    "titleRange": {
+      "start": 1.4185,
+      "end": 4.425
+    },
+    "bodyPcmSha256": "4f83d81d1f3ece8513b600136d35dfb936ed7a54b0fee73c35d162a2f66216f5",
+    "teacherFinalApproval": false,
+    "newRequests": 0
   }
 }

@@ -14,6 +14,8 @@ Criteri docent del **22/11/2026** per als propers muntatges i revisions. Les veu
 
 Una mateixa composició enregistrada donarà coherència al programa: **entrada breu → base contínua → tancament**, amb els mateixos extrems a cada notícia.
 
+Retorn del 22/11: retirar els papers i les sintonies anteriors de totes les notícies de la Mar. Es conserva l’ambient real de mercat sota la connexió amb en Pau, quan correspongui. La pista de Grand_Project ja ha estat facilitada pel docent; la font completa es conserva localment i només es publiquen els muntatges amb veus. Cada revisió espera una nova audició.
+
 1. Conservar la veu, la presentació i les seves pauses naturals. Preparar la base al voltant de la locució, sense allargar-ne els silencis.
 2. Repetir o retallar el cos musical amb foses creuades en punts compatibles; conservar un tancament fix i acostar-lo al final real de la notícia. Fer els ajustos a la música, sense canviar ritme o to dels personatges.
 3. Situar la base com a punt de partida uns **24–30 dB per sota de la veu**, i aplicar-hi atenuació addicional controlada per la parla. Atac ràpid i recuperació progressiva; ajustar escoltant per evitar bombeig en cada pausa breu. Aquest marge és una referència de mescla, no una garantia automàtica d’intel·ligibilitat.

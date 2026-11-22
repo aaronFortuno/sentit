@@ -15,20 +15,30 @@ async function geminiAudio(body, summaryFile, options = {}) {
   require('./audio-batch-policy.cjs').assertSynthesisWindow(body);
   const key = process.env.GEMINI_API_KEY?.trim() || parseEnv(await fs.readFile(path.resolve(__dirname, '../../.private/comprensio-oral/gemini.env'), 'utf8')).GEMINI_API_KEY?.trim();
   if (!key) throw Error('Gemini: falta configuració privada.');
-  let response;
-  try {
-    response = await fetch('https://generativelanguage.googleapis.com/v1beta/interactions', { method:'POST', headers:{'x-goog-api-key':key,'Content-Type':'application/json'}, body:JSON.stringify(body), redirect:'error', signal:AbortSignal.timeout(options.timeoutMs ?? 180000) });
-  } catch { throw Error('Gemini: connexió interrompuda.'); }
-  if (!response.ok) {
+  const endpoint = 'https://generativelanguage.googleapis.com/v1beta/interactions';
+  async function jsonRequest(method, id) {
+    let response;
+    try {
+      response = await fetch(id ? endpoint+'/'+encodeURIComponent(id) : endpoint, { method, headers:{'x-goog-api-key':key,'Content-Type':'application/json'}, ...(method==='POST'?{body:JSON.stringify(body)}:{}), redirect:'error', signal:AbortSignal.timeout(body.background ? (method==='POST'?90000:300000) : options.timeoutMs ?? 180000) });
+    } catch { throw Error('Gemini: connexió interrompuda.'); }
+    if (!response.ok) {
     const result=await response.json().catch(()=>({}));
     const details=result.error?.details??[];
     const diagnostic={observedAt:new Date().toISOString(),http:response.status,status:result.error?.status,retryAfter:response.headers.get('retry-after'),retryDelay:details.find(d=>d.retryDelay)?.retryDelay,quota:details.flatMap(d=>(d.violations??[]).map(v=>({metric:v.quotaMetric,id:v.quotaId,value:v.quotaValue,model:v.quotaDimensions?.model}))),suggestedWait:/retry in ([^.\n]+)/i.exec(result.error?.message??'')?.[1]};
     if (response.status === 429 && Number(diagnostic.retryAfter) > 0) diagnostic.retryNotBefore = new Date(Date.now()+Number(diagnostic.retryAfter)*1000).toISOString();
     await fs.writeFile(path.join(outputDirectory,'last-api-error.json'),JSON.stringify(diagnostic,null,2));
     console.log(JSON.stringify(diagnostic));
-    throw Error('Gemini: HTTP '+response.status+'.');
+      throw Error('Gemini: HTTP '+response.status+'.');
+    }
+    try { return await response.json(); }
+    catch { throw Error('Gemini: resposta interrompuda o incompleta; conservar l’intent abans de repetir.'); }
   }
-  const result=await response.json();
+  const result=body.background ? await require('./gemini-background.cjs').backgroundInteraction(body, {
+    recordFile:path.join(path.dirname(summaryFile),'interaction.json'),
+    create:()=>jsonRequest('POST'), retrieve:id=>jsonRequest('GET',id),
+    maxWaitMs:options.timeoutMs ?? 1200000,
+    onProgress:status=>console.log(JSON.stringify({providerStatus:status.status,elapsedSeconds:status.elapsedSeconds})),
+  }) : await jsonRequest('POST');
   if(options.responseFile)await fs.writeFile(options.responseFile,JSON.stringify(result));
   if (summaryFile) await fs.writeFile(summaryFile, JSON.stringify({ id:result.id, status:result.status ?? null, model:result.model ?? body.model, usage:result.usage ?? result.usageMetadata ?? null, audioBlocks:(result.steps??[]).flatMap(s=>s.content??[]).filter(c=>c.type==='audio').length },null,2)+'\n');
   return require('./gemini-result.cjs').collectAudio(result).audio;

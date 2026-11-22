@@ -1,15 +1,15 @@
-# Propostes de 5è i 6è · validació per repartiments
+# Propostes de cicle superior i ESO · validació per repartiments
 
 Actualitzat: **22/11/2026**. **30 comprensions orals** en 6 blocs de repartiment. Cada peça té guió, preguntes, solucionari i escaleta. La revisió independent i la validació docent són passos diferents; aquest índex no autoritza síntesi.
 
 | Bloc per revisar | Repartiment fix | Codis | Guions validats pel docent |
 | --- | --- | --- | ---: |
 | [Les notícies de la Mar](#mar) | Mar · Erinome | S053, S054, S055, S056, S057 | 1/5 |
-| [Les troballes de la Laia i en Biel](#laia-biel) | Laia i Biel · Leda + Puck | S058, S059, S060, S061, S062 | 2/5 |
-| [A classe amb la Mireia · amb en Biel](#mireia-biel) | Mireia i Biel · Aoede + Puck | S063, S064, S065, S066, S067 | 0/5 |
+| [Les troballes de la Laia i en Biel](#laia-biel) | Laia i Biel · Leda + Puck | S058, S059, S060, S061, S062 | 3/5 |
+| [A classe amb la Mireia · amb en Biel](#mireia-biel) | Mireia i Biel · Aoede + Puck | S063, S064, S065, S066, S067 | 1/5 |
 | [Els records de l’avi Ferran](#ferran) | Ferran · Algenib | S068, S069, S070, S071, S072 | 1/5 |
-| [Converses de cuina · Laia i Ona](#laia-ona) | Laia i Ona · Leda + Sulafat | S073, S074, S075, S076, S077 | 4/5 |
-| [Converses al taller · Biel i Elies](#biel-elies) | Biel i Elies · Puck + Algieba | S078, S079, S080, S081, S082 | 1/5 |
+| [Converses de cuina · Laia i Ona](#laia-ona) | Laia i Ona · Leda + Sulafat | S073, S074, S075, S076, S077 | 5/5 |
+| [Converses al taller · Biel i Elies](#biel-elies) | Biel i Elies · Puck + Algieba | S078, S079, S080, S081, S082 | 4/5 |
 
 ## Com validar els blocs
 
@@ -41,11 +41,11 @@ Laia i Biel · Leda + Puck. Les lectures són independents; no cal haver-ne esco
 
 | Codi | Títol | Curs · dificultat | Tipologia | Durada prevista | Preguntes | Estat |
 | --- | --- | --- | --- | --- | ---: | --- |
-| [ca-S058](https://sentit.ortogra.fi/#lectura=ca-S058) | La pancarta que tapava la porta | 5è · Accessible | Diàleg | Prevista 1:50–2:15 | 8 | Provisional · pendent del docent |
+| [ca-S058](https://sentit.ortogra.fi/#lectura=ca-S058) | La pancarta que tapava la porta | 5è · Accessible | Diàleg | Prevista 1:50–2:15 | 8 | Veus rebudes |
 | [ca-S059](https://sentit.ortogra.fi/#lectura=ca-S059) | La partida que no cabia a la taula | 5è · Intermèdia | Diàleg | Prevista 1:55–2:25 | 8 | Provisional · pendent del docent |
 | [ca-S060](https://sentit.ortogra.fi/#lectura=ca-S060) | Un soroll darrere de les veus | 6è · Accessible | Diàleg | Prevista 1:45–2:10 | 9 | Provisional · pendent del docent |
-| [ca-S061](https://sentit.ortogra.fi/#lectura=ca-S061) | El curt que començava pel final | 5è · Avançada | Diàleg | Prevista 2:45–3:20 | 8 | Guió validat · curs i dificultat per valorar després d’escoltar |
-| [ca-S062](https://sentit.ortogra.fi/#lectura=ca-S062) | Dos cartells per al mateix concert | 6è · Avançada | Diàleg | Prevista 2:45–3:20 | 9 | Guió validat · curs i dificultat per valorar després d’escoltar |
+| [ca-S061](https://sentit.ortogra.fi/#lectura=ca-S061) | El curt que començava pel final | 5è · Avançada | Diàleg | Prevista 2:45–3:20 | 8 | Veus rebudes · curs i dificultat per valorar després d’escoltar |
+| [ca-S062](https://sentit.ortogra.fi/#lectura=ca-S062) | Dos cartells per al mateix concert | 6è · Avançada | Diàleg | Prevista 2:45–3:20 | 9 | Veus rebudes · curs i dificultat per valorar després d’escoltar |
 
 [Filtra el catàleg per aquest repartiment](https://sentit.ortogra.fi/?personatge=laia&personatge=biel&coincidencia=tots) · [Guions i escaletes del bloc](../content/propostes/tanda4/troballes.js). El filtre també pot mostrar peces de tandes anteriors; activa «Només provisionals» per revisar feina oberta. Les acotacions descriuen recursos proposats, no gravacions ja produïdes.
 
@@ -61,7 +61,7 @@ Mireia i Biel · Aoede + Puck. Les lectures són independents; no cal haver-ne e
 | [ca-S064](https://sentit.ortogra.fi/#lectura=ca-S064) | Un anunci que va massa de pressa | 5è · Intermèdia | Instruccions | Prevista 2:00–2:30 | 8 | Provisional · pendent del docent |
 | [ca-S065](https://sentit.ortogra.fi/#lectura=ca-S065) | La mesura que canviava de lloc | 6è · Accessible | Explicació | Prevista 2:05–2:30 | 9 | Provisional · pendent del docent |
 | [ca-S066](https://sentit.ortogra.fi/#lectura=ca-S066) | El mapa de sons del passadís | 5è · Avançada | Instruccions | Prevista 3:15–3:55 | 8 | Provisional · pendent del docent |
-| [ca-S067](https://sentit.ortogra.fi/#lectura=ca-S067) | La mateixa pregunta? | 6è · Avançada | Explicació | Prevista 3:10–3:45 | 9 | Provisional · pendent del docent |
+| [ca-S067](https://sentit.ortogra.fi/#lectura=ca-S067) | La mateixa pregunta? | 1r d’ESO · Intermèdia | Explicació | Prevista 3:10–3:45 | 9 | Guió validat |
 
 [Filtra el catàleg per aquest repartiment](https://sentit.ortogra.fi/?personatge=mireia&personatge=biel&coincidencia=tots) · [Guions i escaletes del bloc](../content/propostes/tanda4/aula.js). El filtre també pot mostrar peces de tandes anteriors; activa «Només provisionals» per revisar feina oberta. Les acotacions descriuen recursos proposats, no gravacions ja produïdes.
 
@@ -74,7 +74,7 @@ Ferran · Algenib. Les lectures són independents; no cal haver-ne escoltat cap 
 | Codi | Títol | Curs · dificultat | Tipologia | Durada prevista | Preguntes | Estat |
 | --- | --- | --- | --- | --- | ---: | --- |
 | [ca-S068](https://sentit.ortogra.fi/#lectura=ca-S068) | El dinar al banc de l’estació | 5è · Accessible | Narració | Prevista 2:00–2:30 | 8 | Provisional · pendent del docent |
-| [ca-S069](https://sentit.ortogra.fi/#lectura=ca-S069) | La pissarra del partit | 5è · Intermèdia | Narració | Prevista 2:15–2:45 | 8 | Guió validat |
+| [ca-S069](https://sentit.ortogra.fi/#lectura=ca-S069) | La pissarra del partit | 5è · Intermèdia | Narració | Prevista 2:15–2:45 | 8 | Veus rebudes |
 | [ca-S070](https://sentit.ortogra.fi/#lectura=ca-S070) | El dia que no va sonar el disc | 6è · Accessible | Narració | Prevista 1:55–2:20 | 9 | Provisional · pendent del docent |
 | [ca-S071](https://sentit.ortogra.fi/#lectura=ca-S071) | Les dues entrades blaves | 5è · Avançada | Narració | Prevista 3:10–3:50 | 8 | Provisional · pendent del docent |
 | [ca-S072](https://sentit.ortogra.fi/#lectura=ca-S072) | El quadern de la parada | 6è · Avançada | Narració | Prevista 3:10–3:45 | 9 | Provisional · pendent del docent |
@@ -93,7 +93,7 @@ Laia i Ona · Leda + Sulafat. Les lectures són independents; no cal haver-ne es
 | [ca-S074](https://sentit.ortogra.fi/#lectura=ca-S074) | Les dues llibretes del pastís | 5è · Intermèdia | Entrevista | Prevista 2:10–2:40 | 8 | Guió validat · curs i dificultat per valorar després d’escoltar |
 | [ca-S075](https://sentit.ortogra.fi/#lectura=ca-S075) | La foto del plat de demà | 6è · Accessible | Entrevista | Prevista 1:55–2:25 | 9 | Guió validat |
 | [ca-S076](https://sentit.ortogra.fi/#lectura=ca-S076) | L’encàrrec que havia crescut | 5è · Avançada | Entrevista | Prevista 3:10–3:45 | 8 | Guió validat · curs i dificultat per valorar després d’escoltar |
-| [ca-S077](https://sentit.ortogra.fi/#lectura=ca-S077) | El sopar que havia de viatjar | 6è · Avançada | Entrevista | Prevista 3:00–3:35 | 9 | Provisional · pendent del docent |
+| [ca-S077](https://sentit.ortogra.fi/#lectura=ca-S077) | El sopar que havia de viatjar | 6è · Avançada | Entrevista | Prevista 3:00–3:35 | 9 | Guió validat |
 
 [Filtra el catàleg per aquest repartiment](https://sentit.ortogra.fi/?personatge=laia&personatge=ona&coincidencia=tots) · [Guions i escaletes del bloc](../content/propostes/tanda4/cuina.js). El filtre també pot mostrar peces de tandes anteriors; activa «Només provisionals» per revisar feina oberta. Les acotacions descriuen recursos proposats, no gravacions ja produïdes.
 
@@ -105,10 +105,10 @@ Biel i Elies · Puck + Algieba. Les lectures són independents; no cal haver-ne 
 
 | Codi | Títol | Curs · dificultat | Tipologia | Durada prevista | Preguntes | Estat |
 | --- | --- | --- | --- | --- | ---: | --- |
-| [ca-S078](https://sentit.ortogra.fi/#lectura=ca-S078) | El soroll que seguia la cadira | 5è · Accessible | Diàleg | Prevista 2:00–2:25 | 8 | Provisional · pendent del docent |
-| [ca-S079](https://sentit.ortogra.fi/#lectura=ca-S079) | Una funda que no tanca | 5è · Intermèdia | Diàleg | Prevista 2:05–2:35 | 8 | Provisional · pendent del docent |
+| [ca-S078](https://sentit.ortogra.fi/#lectura=ca-S078) | El soroll que seguia la cadira | 5è · Accessible | Diàleg | Prevista 2:00–2:25 | 8 | Guió validat |
+| [ca-S079](https://sentit.ortogra.fi/#lectura=ca-S079) | Una funda que no tanca | 5è · Intermèdia | Diàleg | Prevista 2:05–2:30 | 8 | Guió validat |
 | [ca-S080](https://sentit.ortogra.fi/#lectura=ca-S080) | El segon assaig sona lluny | 6è · Accessible | Diàleg | Prevista 2:05–2:35 | 9 | Provisional · pendent del docent |
-| [ca-S081](https://sentit.ortogra.fi/#lectura=ca-S081) | La guitarra del concert de divendres | 5è · Avançada | Diàleg | Prevista 3:00–3:40 | 8 | Provisional · pendent del docent |
+| [ca-S081](https://sentit.ortogra.fi/#lectura=ca-S081) | La guitarra del concert de divendres | 5è · Avançada | Diàleg | Prevista 3:05–3:40 | 8 | Guió validat |
 | [ca-S082](https://sentit.ortogra.fi/#lectura=ca-S082) | El so que volíem gravar | 6è · Avançada | Diàleg | Prevista 3:15–3:55 | 9 | Guió validat · curs per valorar després d’escoltar |
 
 [Filtra el catàleg per aquest repartiment](https://sentit.ortogra.fi/?personatge=biel&personatge=elies&coincidencia=tots) · [Guions i escaletes del bloc](../content/propostes/tanda4/taller.js). El filtre també pot mostrar peces de tandes anteriors; activa «Només provisionals» per revisar feina oberta. Les acotacions descriuen recursos proposats, no gravacions ja produïdes.

@@ -21,6 +21,7 @@ export function productionStage(entry) {
     // Historical prototypes have no retrospective final approval.
     return entry.reviewStatus === 'validated' && progress?.state === 'published' ? productionStages[5] : null;
   }
+  if (productionProgress[`${entry.language}-${entry.code}`]?.state === 'voices-awaiting-listening') return productionStages[2];
   if (hasPendingSynthesisEdit(entry)) return productionStages[3];
   if (isAudioReview(entry) && entry.audio) return productionStages[4];
   if (hasPendingMontage(entry)) return productionStages[2];

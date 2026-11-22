@@ -1,5 +1,10 @@
 import { clockTime } from './session.js';
 
+export function gradeLabel(entry) {
+  if (entry.grade === 'eso1') return '1r d’ESO';
+  return entry.grade + (entry.grade === '3' ? 'r' : entry.grade === '4' ? 't' : 'è');
+}
+
 export function durationBounds(entry) {
   const seconds = entry.audio ? entry.fragment?.seconds ?? entry.seconds : null;
   if (Number.isFinite(seconds) && seconds > 0) return { min: seconds, max: seconds, estimated: false };

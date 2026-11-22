@@ -107,9 +107,10 @@ export const tercer = [
   }),
   proposal({
     id: 's-obre-un-nou-cami-al-parc', code: 'S006', title: 'S’obre un nou camí al parc', grade: '3', level: 'advanced', genre: 'news',
-    seconds: 96, status: 'ready-for-review', reviewStatus: 'audio-review',
-    audio: './assets/audio/s006-news-v1.mp3', tracks: { introduction: './assets/audio/s006-news-v1-intro.mp3', body: './assets/audio/s006-news-v1-cos.mp3' },
-    fragment: { start: 6.285, seconds: 89 },
+    recordingCues: [{"before":"anunci","text":"Entrada de Breaking News Background Music, de Grand_Project. Base contínua molt atenuada i comprimida sota les veus; sense els papers ni la sintonia anterior."},{"after":"resum","text":"Pujada progressiva cap al tancament musical comú i fosa final. El muntatge continua pendent d’audició docent."}],
+    seconds: 90, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s006-news-common-v2.mp3', tracks: { introduction: './assets/audio/s006-news-common-v2-intro.mp3', body: './assets/audio/s006-news-common-v2-cos.mp3' },
+    fragment: { start: 5.8500000000000005, seconds: 84 },
     summary: 'La Mar explica què canviarà dilluns al parc i què continuarà com fins ara.',
     voices: { Mar: 'Erinome' },
     delivery: 'Periodista adulta propera, amb pauses entre la situació anterior, la novetat i allò que encara no està acabat. Notícia de ficció, sense solemnitat exagerada.',

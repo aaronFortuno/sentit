@@ -1,8 +1,9 @@
 export const mercat = {
   id: 'reobren-el-mercat', code: 'S023', language: 'ca',
+    recordingCues: [{"before":"obertura","text":"Entrada de Breaking News Background Music, de Grand_Project. Base contínua molt atenuada i comprimida sota les veus; sense els papers ni la sintonia anterior."},{"before":"testimoni","text":"Ambient real de mercat molt baix sota la connexió amb en Pau."},{"after":"tancament","text":"Pujada progressiva cap al tancament musical comú i fosa final. El muntatge continua pendent d’audició docent."}],
   title: 'Reobren el mercat: què canvia i què falta decidir?',
   summary: 'Notícia de ficció per distingir dades confirmades, opinions i decisions pendents.',
-  grade: '6', level: 'advanced', genre: 'news', seconds: 204,
+  grade: '6', level: 'advanced', genre: 'news', seconds: 202,
   status: 'ready-for-review',
   reviewStatus: 'audio-review',
   generationPlan: {
@@ -21,10 +22,10 @@ export const mercat = {
     'El text s’envia sencer en una petició, amb el títol i una pausa llarga. Les locucions de preparació i repàs i els temps de silenci són pistes i temporitzadors existents del web, no text addicional per a Gemini. Les anotacions següents descriuen el muntatge local complet.',
   ],
   durationEstimate: { min: 235, max: 270 },
-  audio: './assets/audio/s023-mercat-v2.mp3', tracks: { introduction: './assets/audio/s023-mercat-v2-intro.mp3', body: './assets/audio/s023-mercat-v2-cos.mp3' },
+  audio: './assets/audio/s023-news-common-v2.mp3', tracks: { introduction: './assets/audio/s023-news-common-v2-intro.mp3', body: './assets/audio/s023-news-common-v2-cos.mp3' },
   image: { src: './assets/images/reobren-el-mercat-v2.webp', alt: 'La periodista Mar informa davant d’un mercat de barri.', width: 1536, height: 1024 },
   introduction: 'Comprensió oral. Reobren el mercat: què canvia i què falta decidir. Notícia de ficció.',
-  fragment: { start: 6.805, seconds: 196 },
+  fragment: { start: 7.375, seconds: 194 },
   transcript: [
     { kind: 'direction', text: 'Inici del fragment: obertura «Ona curta», de quatre segons. Acaba amb marge abans de «Bon dia». No és la sintonia general de Sentit, que només sona una vegada abans del títol.' },
     { id: 'obertura', speaker: 'Presentadora', text: 'Bon dia. El mercat del barri tornarà a obrir dilluns, després de quatre mesos d’obres. És la informació principal del comunicat que ha publicat avui l’ajuntament. Les parades que fins ara treballaven en una carpa al costat del poliesportiu tornaran a l’edifici habitual. Però la reobertura no vol dir que totes les decisions estiguin preses. Avui separem els canvis confirmats de les propostes que encara s’estan estudiant.' },

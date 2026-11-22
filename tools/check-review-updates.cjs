@@ -49,14 +49,14 @@ const { chromium } = require('C:/Users/afortun8/.cache/codex-runtimes/codex-prim
       assert(!text.includes('=>') && !text.includes('${'), code + ': no function source in card');
       if (cardReviewUpdate(entry(code)).id === 'audio-review') assert(text.includes('A punt per revisar'));
       if (code === 'S010') assert(text.includes('Original sense substituir'));
-      if (code === 'S039') assert(text.includes('Guió esmenat'));
+      if (code === 'S039') assert(text.includes('Nova base comuna de notícies'));
       if (code === 'S025') assert(text.includes('prémer'));
       await page.evaluate(() => Promise.all(document.getAnimations().map(animation => animation.finished.catch(() => {}))));
       const label = await card.locator('.activity-review-label').boundingBox(), box = await card.boundingBox();
       assert(label.x >= box.x && label.x + label.width <= box.x + box.width, code + ': label fits card');
     }
     await page.locator('#language').evaluate(node => { node.value = 'es'; node.dispatchEvent(new Event('change', { bubbles: true })); });
-    await page.waitForFunction(() => document.querySelector('.activity-review-label')?.textContent.includes('Listo para revisar'));
+    await page.waitForFunction(expected => document.querySelector('.activity-review-label')?.textContent.includes(expected), strings.es[cardReviewUpdate(entry('S031')).title]);
     assert(!(await page.locator('.activity-review-label').innerText()).includes('=>'));
     await page.setViewportSize({ width: 820, height: 900 });
     await page.evaluate(() => document.documentElement.dataset.theme = 'dark');
