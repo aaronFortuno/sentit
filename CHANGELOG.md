@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.79 · 23 de novembre de 2026
+
+- Bandera de notificació substituïda pel dibuix original de Lucide, més ample; els botons d’icona mantenen la mida en espais estrets. També s’unifica la bandera de les preguntes.
+- Els camps de notificació continuen accessibles amb GPC, DNT, exclusió local o servei no disponible. Només l’enviament queda desactivat; consultar opcions no carrega Umami ni envia dades.
+- Comprovació local de selecció de part, element i motiu amb GPC/DNT, sense cap petició real; comprovació de proporcions en escriptori i mòbil.
+
 ## 0.1.78 · 22 de novembre de 2026
 
 - S045 i S047 muntades amb bases originals molt suaus i efectes enregistrats. S048 i S050 amb ambient continu de mercat. Veus aprovades; muntatges pendents d’audició.

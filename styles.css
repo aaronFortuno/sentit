@@ -67,7 +67,7 @@ svg { display: block; fill: none; stroke: currentColor; stroke-width: 1.7; strok
 .icon-button, #filters select, #copy-fallback, .print-field input, #worksheet-format :is(select, input), #session-fields :is(select, input) {
   border: 1px solid var(--line); border-radius: 7px; background: var(--panel);
 }
-.icon-button { display: inline-grid; place-items: center; width: 36px; min-height: 36px; padding-inline: 8px; }
+.icon-button { display: inline-grid; place-items: center; flex-shrink: 0; width: 36px; min-height: 36px; padding-inline: 8px; }
 .icon-button:hover, select:hover { background: var(--soft); }
 .language-control { position: relative; }
 .language-menu { position: absolute; inset-inline-end: 0; top: calc(100% + 8px); width: 184px; max-width: calc(100vw - 24px); padding: 6px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); box-shadow: 0 12px 32px #11291f24; z-index: 40; transform-origin: top right; }

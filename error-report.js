@@ -9,11 +9,11 @@ export function mountErrorReport(dialog,t){
   const blocked=()=>reportAvailability();
   function availability(){
     const reason=blocked();warning.textContent=reason?t('reportBlocked')[reason]??t('reportFailed'):failed?t('reportFailed'):'';
-    warning.hidden=!warning.textContent;fields.disabled=busy||completed||Boolean(reason);
+    warning.hidden=!warning.textContent;fields.disabled=busy||completed;
     const retry=dialog.querySelector('[data-report-enable]');retry.hidden=!['disabled','script'].includes(reason);retry.textContent=t(reason==='disabled'?'reportAllow':'reportRetry');
     updateSubmit();
   }
-  function updateSubmit(){submit.disabled=busy||fields.disabled||!part.value||!options.querySelector(':checked')||(element.required&&!element.value);}
+  function updateSubmit(){submit.disabled=busy||fields.disabled||Boolean(blocked())||!part.value||!options.querySelector(':checked')||(element.required&&!element.value);}
   function updatePart(selected=''){
     let targets=[];
     if(['question','solution'].includes(part.value))targets=visibleQuestions.map((q,index)=>({id:q.id,label:t('reportQuestionLabel')(index+1)}));

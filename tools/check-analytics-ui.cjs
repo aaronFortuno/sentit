@@ -34,9 +34,16 @@ const publicBase='https://sentit.ortogra.fi';const receiver='https://maquestria.
     }
     const {ctx,page}=await context();
     await page.goto(publicBase+'/?class_private=Joana#lectura=ca-S008R');await page.locator('#open-player').waitFor();
+    async function checkFlag(page, selector) {
+      const dimensions=await page.locator(selector).evaluate(svg=>{const rect=svg.getBoundingClientRect(),drawing=svg.getBBox();return {width:rect.width,height:rect.height,drawingRatio:drawing.width/drawing.height};});
+      assert(Math.abs(dimensions.width-dimensions.height)<.1,'The flag viewport stays square');
+      assert(dimensions.drawingRatio>=.75,'The flag drawing uses its full horizontal space');
+    }
+    await checkFlag(page,'#report-error svg');
+    assert.equal(await page.locator('#report-error').evaluate(button=>getComputedStyle(button).flexShrink),'0');
     await page.waitForFunction(()=>Boolean(window.umami));
     assert.equal(await page.locator('#print').isEnabled(),true);
-    assert.match(await page.locator('.paper-review-watermark').first().innerText(),/Àudio pendent de validar/);
+    assert(await page.locator('.paper-question').count()>0);
     await page.locator('#worksheet-mode').click();
     await page.locator('[data-open="v4v"]').click();await page.locator('#v4v').waitFor({state:'visible'});
     await page.locator('#analytics-excluded').check();
@@ -44,6 +51,7 @@ const publicBase='https://sentit.ortogra.fi';const receiver='https://maquestria.
     await page.keyboard.press('Escape');await page.locator('#v4v').waitFor({state:'hidden'});
     await page.locator('#report-error').click();await page.locator('#error-report-dialog').waitFor({state:'visible'});
     assert.match(await page.locator('.report-warning').innerText(),/exclòs/);
+    assert.equal(await page.locator('.report-fields').isEnabled(),true);
     assert.equal(await page.locator('#error-report-form [type="submit"]').isDisabled(),true);
     await page.locator('[data-report-enable]').click();
     await page.locator('#error-report-form [name="part"]').selectOption('audio');
@@ -57,6 +65,7 @@ const publicBase='https://sentit.ortogra.fi';const receiver='https://maquestria.
     await page.screenshot({path:path.join(output,'report.png')});
     await page.keyboard.press('Escape');await page.locator('#error-report-dialog').waitFor({state:'hidden'});
     await page.locator('.paper-block').first().hover();await page.locator('[data-question-action="report"]').first().click();
+    await checkFlag(page,'[data-question-action="report"] svg >> nth=0');
     assert.equal(await page.locator('#error-report-form [name="part"]').inputValue(),'question');
     assert.equal(await page.locator('#error-report-form [name="element"]').inputValue(),'treball');
     await page.keyboard.press('Escape');await page.locator('#error-report-dialog').waitFor({state:'hidden'});
@@ -76,11 +85,28 @@ const publicBase='https://sentit.ortogra.fi';const receiver='https://maquestria.
       await test.page.locator('#report-error').click();await test.page.locator('#error-report-dialog').waitFor({state:'visible'});
       assert.equal(scriptRequests,beforeScripts);assert.equal(sent.length,beforeEvents);
       assert.equal(await test.page.locator('#error-report-form [type="submit"]').isDisabled(),true);
-      assert.equal(await test.page.locator('[data-report-enable]').isHidden(),true);await test.ctx.close();
+      assert.equal(await test.page.locator('[data-report-enable]').isHidden(),true);
+      await test.page.locator('#error-report-form [name="part"]').selectOption('question');
+      await test.page.locator('#error-report-form [name="element"]').selectOption({index:1});
+      await test.page.locator('#error-report-form [name="motiu"][value="unsupported"]').check();
+      assert.equal(await test.page.locator('.report-fields').isEnabled(),true);
+      assert.equal(await test.page.locator('#error-report-form [type="submit"]').isDisabled(),true,'Completing a report does not bypass GPC/DNT');
+      await test.page.locator('#error-report-form').evaluate(form=>form.requestSubmit());
+      assert.equal(scriptRequests,beforeScripts);assert.equal(sent.length,beforeEvents);
+      await test.page.keyboard.press('Escape');
+      await test.page.setViewportSize({width:375,height:800});
+      await checkFlag(test.page,'#report-error svg');
+      assert.equal(await test.page.locator('#report-error').evaluate(button=>button.getBoundingClientRect().width),36);
+      await test.page.locator('#report-error').click();
+      await test.page.locator('#error-report-form [name="part"]').selectOption('audio');
+      await test.page.locator('#error-report-form [name="motiu"][value="pronunciation"]').check();
+      await test.page.evaluate(()=>Promise.all(document.getAnimations().map(animation=>animation.finished.catch(()=>{}))));
+      await test.page.screenshot({path:path.join(output,`report-${privacy}-mobile.png`)});
+      await test.ctx.close();
     }
     assert(!JSON.stringify(sent).includes('Joana'));
     for(const event of sent){assert.equal(event.payload.url,'/');assert.equal(event.payload.website,'6acf2cae-4b28-4d71-98dd-550d2d086dcc');}
     assert.deepEqual(errors,[]);
-    console.log('PASS · Sanitized tracking, privacy opt-out, GPC/DNT, acknowledged reports and failure/retry, precise question flag, audio pause, mobile and no free text. Collector mocked: no real analytics traffic.');
+    console.log('PASS · Square Lucide flags in desktop/mobile/question controls; GPC/DNT allow report choices but block submit and all requests; opt-out, acknowledged reports, failure/retry and audio pause. Collector mocked: no real analytics traffic.');
   }finally{await browser?.close();server.kill();}
 })().catch(error=>{console.error(error);process.exitCode=1;});

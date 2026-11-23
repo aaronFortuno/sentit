@@ -1,13 +1,13 @@
 import { activities, legacyActivities } from './catalogue.js';
 import { renderRepairPreview, renderVoicePreview } from './repair-preview.js';
-import { strings } from './locales.js?v=0.1.78-changelog';
-import { defaultFormat, imageOptions, maxLines, questionFormat, renderWorksheet } from './worksheet.js';
+import { strings } from './locales.js?v=0.1.79';
+import { defaultFormat, imageOptions, maxLines, questionFormat, renderWorksheet } from './worksheet.js?v=0.1.79';
 import { clockTime, decodeSession, defaultSession, encodeSession, guidedPrompts, validRate, sessionJingles, validJingle } from './session.js';
 import { renderAudioResources } from './audio-resources.js';
 import { isPendingReview, needsReview } from './review.js';
 import { renderGenerationPlan } from './generation-plan.js';
 import { startAnalytics, track, countBucket, excluded, setExcluded, restriction } from './analytics.js';
-import { mountErrorReport } from './error-report.js';
+import { mountErrorReport } from './error-report.js?v=0.1.79';
 import { initGuidedPlayer } from './guided-player.js';
 import { mountAudioPreview } from './audio-preview.js';
 import { mountCatalog } from './catalog.js';
@@ -113,7 +113,7 @@ function listenUrl(entry, base = location.href) {
 const icons = {
   help: '<circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/>',
   lightbulb: '<path d="M9 18h6m-5 4h4m-5-7a6 6 0 1 1 6 0c-.6.5-1 1.3-1 3h-4c0-1.7-.4-2.5-1-3Z"/>',
-  flag:'<path d="M4 22V3m0 0c4-4 8 4 12 0v12c-4 4-8-4-12 0"/>',
+  flag:'<path d="M4 22V4a1 1 0 0 1 .4-.8A6 6 0 0 1 8 2c3 0 5 2 7.333 2q2 0 3.067-.8A1 1 0 0 1 20 4v10a1 1 0 0 1-.4.8A6 6 0 0 1 16 16c-3 0-5-2-8-2a6 6 0 0 0-4 1.528"/>',
   sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.4 1.4m11.2 11.2L19 19m0-14-1.4 1.4M6.4 17.6 5 19"/>',
   moon: '<path d="M20.9 13.35A9 9 0 1 1 10.65 3.1a7 7 0 0 0 10.25 10.25Z"/>',
   languages: '<path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="M2 5h12"/><path d="M7 2h1"/><path d="m22 22-5-10-5 10"/><path d="M14 18h6"/>',

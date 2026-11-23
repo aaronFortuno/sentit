@@ -184,7 +184,7 @@ function questionTools(id, number, count, answerKey, labels) {
   }
   actions.append(button('hide', '×', labels.questionHide(number)));
   const report=button('report','',labels.reportQuestion(number));
-  report.innerHTML='<svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M4 22V3m0 0c4-4 8 4 12 0v12c-4 4-8-4-12 0" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+  report.innerHTML='<svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M4 22V4a1 1 0 0 1 .4-.8A6 6 0 0 1 8 2c3 0 5 2 7.333 2q2 0 3.067-.8A1 1 0 0 1 20 4v10a1 1 0 0 1-.4.8A6 6 0 0 1 16 16c-3 0-5-2-8-2a6 6 0 0 0-4 1.528" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>';
   actions.append(report);
   tools.append(toggle, actions);
   return tools;
