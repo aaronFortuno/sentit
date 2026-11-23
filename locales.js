@@ -1,6 +1,7 @@
 export const strings = {
   ca: {
     language: 'ca',
+    releaseCinemaDialogueApproved: 'S045D validada per a síntesi. P16 ja té les tres variants dialogades de l’Aina i en Ferran validades, amb una previsió de 6:50. Seguiment i cua actualitzats, sense cap síntesi nova.',
     releaseMoreFerranDialogues: 'S054, S056, S059, S065, S068 i S071 validades per a síntesi. Noves S068D i S071D dialogades amb l’Aina i en Ferran, amb preguntes, solucionaris i escaletes per validar. Entrades de Ferran més variades i cua de lots actualitzada. Cap síntesi nova.',
     releaseFinalFourAndCleanBeds: 'S006, S034, S035 i S047 definitives, amb il·lustracions i solucionaris nets. S021 i S037 remuntades amb ambients continus i finals nets; pendents d’audició. S007 amb pauses netes i un altre fons d’aula; una frase del Biel pendent d’esmena de veu. Cap síntesi nova.',
     releasePublishingAndAmbience: 'Vuit publicacions definitives amb il·lustracions i solucionaris nets. S035, S043 i S047 amb muntatges revisats per tornar a escoltar. S029 amb presentació recuperada i primer paràgraf en cua; noves validacions de guions i qualificacions actualitzades.',
@@ -282,6 +283,7 @@ export const strings = {
   },
   es: {
     language: 'es',
+    releaseCinemaDialogueApproved: 'S045D validada para síntesis. P16 ya tiene las tres variantes dialogadas de Aina y Ferran validadas, con una previsión de 6:50. Seguimiento y cola actualizados, sin síntesis nueva.',
     releaseMoreFerranDialogues: 'S054, S056, S059, S065, S068 y S071 validadas para síntesis. Nuevas S068D y S071D dialogadas con Aina y Ferran, con preguntas, solucionarios y escaletas para validar. Entradas de Ferran más variadas y cola de lotes actualizada. Sin síntesis nueva.',
     releaseFinalFourAndCleanBeds: 'S006, S034, S035 y S047 definitivas, con ilustraciones y solucionarios limpios. S021 y S037 remontadas con ambientes continuos y finales limpios; pendientes de escucha. S007 con pausas limpias y otro fondo de aula; una frase de Biel pendiente de corrección de voz. Sin síntesis nueva.',
     releasePublishingAndAmbience: 'Ocho publicaciones definitivas con ilustraciones y solucionarios limpios. S035, S043 y S047 con montajes revisados para volver a escuchar. S029 con presentación recuperada y primer párrafo en cola; nuevas validaciones de guiones y niveles actualizados.',

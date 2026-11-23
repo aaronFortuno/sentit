@@ -40,7 +40,6 @@ Ordenades pel nombre de guions que falta validar. Són candidats de mida compati
 | Prioritat | Guions que falten | Lot complet resultant | Text pla estimat |
 | --- | --- | --- | ---: |
 | P04 | [ca-S053](https://sentit.ortogra.fi/#lectura=ca-S053) | [ca-S053](https://sentit.ortogra.fi/#lectura=ca-S053), [ca-S054](https://sentit.ortogra.fi/#lectura=ca-S054), [ca-S057](https://sentit.ortogra.fi/#lectura=ca-S057) | 6:47 |
-| P16 | [ca-S045D](https://sentit.ortogra.fi/#lectura=ca-S045D) | [ca-S045D](https://sentit.ortogra.fi/#lectura=ca-S045D), [ca-S046D](https://sentit.ortogra.fi/#lectura=ca-S046D), [ca-S069D](https://sentit.ortogra.fi/#lectura=ca-S069D) | 6:50 |
 
 ## Agrupacions candidates · validació i preparació pendents
 
@@ -56,7 +55,7 @@ La previsió utilitza el text pla real, amb els títols i sense marques literals
 | [P11](lot-cicle-superior.md#ferran) | Ferran · Algenib | [ca-S072](https://sentit.ortogra.fi/#lectura=ca-S072) | 3:09 | Per completar | 1/1 | Cap |
 | [P13](lot-cicle-superior.md#laia-ona) | Laia i Ona · Leda + Sulafat | [ca-S074](https://sentit.ortogra.fi/#lectura=ca-S074), [ca-S076](https://sentit.ortogra.fi/#lectura=ca-S076) | 5:08 | Per completar | 2/2 | Cap |
 | [P14](lot-cicle-superior.md#biel-elies) | Biel i Elies · Puck + Algieba | [ca-S078](https://sentit.ortogra.fi/#lectura=ca-S078), [ca-S079](https://sentit.ortogra.fi/#lectura=ca-S079), [ca-S080](https://sentit.ortogra.fi/#lectura=ca-S080) | 5:58 | Per completar | 2/3 | [ca-S080](https://sentit.ortogra.fi/#lectura=ca-S080) |
-| P16 | Aina i Ferran · Zephyr + Algenib | [ca-S045D](https://sentit.ortogra.fi/#lectura=ca-S045D), [ca-S046D](https://sentit.ortogra.fi/#lectura=ca-S046D), [ca-S069D](https://sentit.ortogra.fi/#lectura=ca-S069D) | 6:50 | Dins la finestra prevista | 2/3 | [ca-S045D](https://sentit.ortogra.fi/#lectura=ca-S045D) |
+| P16 | Aina i Ferran · Zephyr + Algenib | [ca-S045D](https://sentit.ortogra.fi/#lectura=ca-S045D), [ca-S046D](https://sentit.ortogra.fi/#lectura=ca-S046D), [ca-S069D](https://sentit.ortogra.fi/#lectura=ca-S069D) | 6:50 | Dins la finestra prevista | 3/3 | Cap |
 | P17 | Aina i Ferran · Zephyr + Algenib | [ca-S068D](https://sentit.ortogra.fi/#lectura=ca-S068D), [ca-S071D](https://sentit.ortogra.fi/#lectura=ca-S071D) | 5:47 | Per completar | 0/2 | [ca-S068D](https://sentit.ortogra.fi/#lectura=ca-S068D), [ca-S071D](https://sentit.ortogra.fi/#lectura=ca-S071D) |
 
 P02 reuneix quatre lectures breus del mateix repartiment per conservar els guions de 3r curts i senzills. Els grups nous de 5è–6è es poden validar per repartiments sencers i es proposen en lots de dues o tres comprensions completes. Les previsions utilitzen el text pla i encara s’han de verificar amb l’entrada definitiva; la validació dels guions no garanteix que la mida final del lot sigui admissible. Les preses ja rebudes s’exclouen d’aquesta taula. [Tanda de 3r–4t](lot-cicle-mitja.md) · [Tanda de 5è–6è per repartiment](lot-cicle-superior.md) · [Composició proposada](../content/synthesis-proposals.json).

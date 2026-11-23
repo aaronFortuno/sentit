@@ -1,5 +1,10 @@
 # Canvis
 
+## 0.1.85 · 23 de novembre de 2026
+
+- S045D validada pel docent per a síntesi amb Aina/Zephyr i Ferran/Algenib; guió i escaleta conservats i aprovació vinculada a l’empremta exacta.
+- P16 ja té les tres variants dialogades validades (S045D, S046D i S069D), amb una previsió conjunta de 6:50. Cua i seguiment actualitzats; cap petició de síntesi enviada.
+
 ## 0.1.84 · 23 de novembre de 2026
 
 - S054, S056, S059, S065, S068 i S071 amb guió, veus i escaleta validats pel docent per a síntesi; aprovacions i empremtes exactes registrades, sense enviar peticions noves.

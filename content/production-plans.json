@@ -1825,9 +1825,9 @@
     "approvalSource": "S046D validat per pujar a síntesi de veus"
   },
   "S045D": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "e8ce2051ab4a8c7c887037b1e9e77d64a0e54de8b19a07dd9dcd0ea37f0f28e7",
+    "reviewedAt": "2026-11-23",
     "reviewActivity": "ca-S045D",
     "reviewContent": "content/propostes/s045-dialogada.js",
     "format": "Variant dialogada de S045, que es conserva. 4t accessible: seguir el record en ordre, relacionar els canvis de lloc amb les seves causes i identificar l’ajuda de la cosina. Mateixes set exigències de comprensió, amb les reaccions de l’Aina. Pendent de validació docent pròpia.",
@@ -1842,7 +1842,8 @@
       "Ferran": "Algenib"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Variant independent de S045; cap síntesi fins a validació docent pròpia."
+    "ending": "Guió, veus i escaleta validats pel docent. Lectura completa per agrupar amb el mateix repartiment en un lot compatible; veus pendents de producció i audició.",
+    "approvalSource": "S045D validat per síntesi de veus"
   },
   "S068D": {
     "status": "awaiting-validation",
