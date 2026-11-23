@@ -3026,5 +3026,59 @@ export const productionProgress = {
       "candidateGradeLabel": "6è de primària · intermèdia",
       "note": "S’ha aplicat 6è intermèdia per retorn docent, amb qualificació per confirmar després d’escoltar el muntatge."
     }
+  },
+  "ca-S059": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-23",
+    "editorialFingerprint": "90553a1f4742942d52958320c3210f077f94a7d091ba4b3fdd6332d08d713d1e",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "S059 validat per síntesi de veus",
+    "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar."
+  },
+  "ca-S065": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-23",
+    "editorialFingerprint": "da168a5787dd9e54db87879bc6a3ac0f349d2f4d841cb7e83e9cb1755e460d3c",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "S065 validat per síntesi de veus",
+    "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar."
+  },
+  "ca-S068": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-23",
+    "editorialFingerprint": "51a80a25afe97eb4a4b0279089616d0921452d749c3cc81cecbedd6c994dfd18",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "S068 validat per síntesi de veus",
+    "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar."
+  },
+  "ca-S071": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-23",
+    "editorialFingerprint": "63e0c902e8ff63f6421a4a62d95bc541eff9d7af6e10d05d7599790aaadb102f",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "S071 validat per síntesi de veus",
+    "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar."
+  },
+  "ca-S054": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-23",
+    "editorialFingerprint": "34e48649d1bc6c1322607a8b38f15cf3a8e925753b378a2836320e37b4b0dbe8",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "S054 validat per síntesi de veus",
+    "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar."
+  },
+  "ca-S056": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-23",
+    "editorialFingerprint": "39766217bff33bd79a3463e0a5e3746bce91308c4561475d3eeab0d524e145eb",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "S056 validat per síntesi de veus",
+    "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar."
   }
 };

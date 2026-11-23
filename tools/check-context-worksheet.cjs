@@ -31,6 +31,8 @@ const { chromium } = require('C:/Users/afortun8/.cache/codex-runtimes/codex-prim
       ['S045D', 'Avi, aquesta cadira blava ja era teva quan eres petit?', 'On feien aquell cinema'],
       ['S069D', 'Avi, de petit ja t’agradava el futbol?', 'Quina feina fa en Ferran'],
       ['S046D', 'Avi, tu tenies un hort quan eres petit?', 'Què volia treure en Ferran'],
+      ['S068D', 'Mira, Aina, aquesta capsa de llauna va fer un viatge ben curiós.', 'A qui anaven a visitar?'],
+      ['S071D', 'Quatre entrades del mateix teatre.', 'Què tenien en comú les quatre entrades'],
     ]) {
       await page.goto(base + '#lectura=ca-' + code);
       await page.locator('#workspace').waitFor({ state: 'visible' });

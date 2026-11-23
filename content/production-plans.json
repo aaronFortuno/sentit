@@ -1244,9 +1244,9 @@
     "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
   },
   "S054": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "5f0f37cdcf6ad5fa4f481dc624d2fc2bb31fb0e97296e9ec7b2fc7b45f9feff3",
+    "reviewedAt": "2026-11-23",
     "reviewActivity": "ca-S054",
     "reviewContent": "content/propostes/tanda4/noticies.js",
     "format": "5è intermèdia: relacionar una incidència amb una modificació concreta, distingir dues vies de compra i atribuir el resultat a una prova limitada. Vuit preguntes sense càlcul de preus ni coneixement comercial.",
@@ -1255,7 +1255,8 @@
     },
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
-    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+    "ending": "Guió, veus i escaleta validats pel docent. Lectura completa per agrupar amb el mateix repartiment en un lot compatible; veus pendents de producció i audició.",
+    "approvalSource": "S054 validat per síntesi de veus"
   },
   "S055": {
     "status": "awaiting-validation",
@@ -1272,9 +1273,9 @@
     "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
   },
   "S056": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "7710e90348d8c0402ea2b485f53aed501cc751874fe746b4bd5237a140115247",
+    "reviewedAt": "2026-11-23",
     "reviewActivity": "ca-S056",
     "reviewContent": "content/propostes/tanda4/noticies.js",
     "format": "5è avançada: reconstruir un trasllat, relacionar espai i decisions, distingir obertura parcial i serveis ja disponibles mitjançant fets concrets. Vuit preguntes de causa i síntesi, sense exigir coneixements de reparació.",
@@ -1283,7 +1284,8 @@
     },
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
-    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+    "ending": "Guió, veus i escaleta validats pel docent. Lectura completa per agrupar amb el mateix repartiment en un lot compatible; veus pendents de producció i audició.",
+    "approvalSource": "S056 validat per síntesi de veus"
   },
   "S057": {
     "status": "approved",
@@ -1327,9 +1329,9 @@
     "approvalSource": "Validació explícita del docent el 22/11/2026: «S058 validat per pujar a síntesi de veu». Guió, repartiment i escaleta autoritzats; qualificació i preguntes conservades."
   },
   "S059": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "0f87506524bb42ac40370423f36499bcba45dae7b0af6b567feb8acf64ba8dfa",
+    "reviewedAt": "2026-11-23",
     "reviewActivity": "ca-S059",
     "reviewContent": "content/propostes/tanda4/troballes.js",
     "format": "5è intermèdia: relacionar una prova real amb canvis successius i distingir entre material necessari i decoració. Vuit preguntes sobre decisions motivades; no cal conèixer regles de cap joc comercial.",
@@ -1339,7 +1341,8 @@
     },
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
-    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+    "ending": "Guió, veus i escaleta validats pel docent. Lectura completa per agrupar amb el mateix repartiment en un lot compatible; veus pendents de producció i audició.",
+    "approvalSource": "S059 validat per síntesi de veus"
   },
   "S060": {
     "status": "approved",
@@ -1436,9 +1439,9 @@
     "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
   },
   "S065": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "650dbde30ba5c6520410d7988b528fc00c33a4e44414be37457fab13bf202cdc",
+    "reviewedAt": "2026-11-23",
     "reviewActivity": "ca-S065",
     "reviewContent": "content/propostes/tanda4/aula.js",
     "format": "6è accessible: reconstruir una mesura explicada oralment, identificar dos canvis en la col·locació del regle i diferenciar repetir una acció de canviar l’objecte. Nou preguntes sense conversions d’unitats ni càlcul obligatori.",
@@ -1448,7 +1451,8 @@
     },
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
-    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+    "ending": "Guió, veus i escaleta validats pel docent. Lectura completa per agrupar amb el mateix repartiment en un lot compatible; veus pendents de producció i audició.",
+    "approvalSource": "S065 validat per síntesi de veus"
   },
   "S066": {
     "status": "approved",
@@ -1488,9 +1492,9 @@
     "approvalSource": "Validació explícita del docent el 22/11/2026: «S067 validat per síntesi de veu però pugem a 1rESO-intermèdia». Requalificació aplicada amb nou preguntes, text parlat i veus Mireia/Aoede i Biel/Puck intactes; revisió independent de metadades superada."
   },
   "S068": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "5632d69f04b8483a7f2eb3a48daeb624af89bcfe15e95e048425cbe5e8b865a7",
+    "reviewedAt": "2026-11-23",
     "reviewActivity": "ca-S068",
     "reviewContent": "content/propostes/tanda4/records.js",
     "format": "5è accessible: reconstruir una seqüència de viatge, relacionar la preparació amb un canvi imprevist i distingir el destí de dos recipients. Vuit preguntes sense càlculs d’horaris ni informació externa.",
@@ -1499,7 +1503,8 @@
     },
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
-    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+    "ending": "Guió, veus i escaleta validats pel docent. Lectura completa per agrupar amb el mateix repartiment en un lot compatible; veus pendents de producció i audició.",
+    "approvalSource": "S068 validat per síntesi de veus. Entrada «Mira, Aina...» autoritzada també pel docent; accent de «curiós» corregit. Variant S068D amb validació pròpia pendent."
   },
   "S069": {
     "status": "approved",
@@ -1537,9 +1542,9 @@
     "approvalSource": "S070 validat per pujar a síntesi de veus"
   },
   "S071": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "749c49bf99e10050f60cb08ac21915f7d1f72ea2b42517a5a78dd3bd2f1698b7",
+    "reviewedAt": "2026-11-23",
     "reviewActivity": "ca-S071",
     "reviewContent": "content/propostes/tanda4/records.js",
     "format": "5è avançada: seguir el recorregut de dos parells d’entrades semblants, distingir la data del color i reconstruir una equivocació sense atribuir als personatges informació que encara no tenen. Vuit preguntes amb causes i ordre temporal.",
@@ -1548,7 +1553,8 @@
     },
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
-    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+    "ending": "Guió, veus i escaleta validats pel docent. Lectura completa per agrupar amb el mateix repartiment en un lot compatible; veus pendents de producció i audició.",
+    "approvalSource": "S071 validat per síntesi de veus. L’encàrrec de la variant dialogada S071D és independent i requereix validació docent pròpia."
   },
   "S072": {
     "status": "approved",
@@ -1837,5 +1843,45 @@
     },
     "strategy": "packed-title-program-v1",
     "ending": "Variant independent de S045; cap síntesi fins a validació docent pròpia."
+  },
+  "S068D": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S068D",
+    "reviewContent": "content/propostes/s068-dialogada.js",
+    "format": "Variant dialogada de S068, conservada. 5è accessible: seguir el viatge en ordre, entendre per què dinen a l’estació i distingir el destí dels entrepans i les galetes. Mateixes vuit exigències de comprensió, amb les preguntes i reaccions de l’Aina. Validació docent pròpia pendent.",
+    "cues": [
+      "Base musical molt suau durant dos segons. Ferran i Aina conversen en el present a casa; els fets del viatge es recorden, sense representar-los amb altres veus ni sons.",
+      "Pausa natural entre torns, sense afegir-hi cap efecte. La música continua baixa; no interpretar la mare ni el pare amb timbres diferents.",
+      "Últimes paraules completes; pujada de la base durant dos segons, fosa de dos segons i 600 ms de silenci. Sense efectes de cuina ni veus addicionals."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Aina": "Zephyr",
+      "Ferran": "Algenib"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Variant independent del relat narrat. Guió, veus i escaleta pendents de validació docent pròpia abans de sintetitzar."
+  },
+  "S071D": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S071D",
+    "reviewContent": "content/propostes/s071-dialogada.js",
+    "format": "Variant dialogada de S071, que es conserva. 5è avançada: seguir dos parells d’entrades semblants, distingir dies, llocs i espectacles i reconstruir la confusió. Mateixes vuit exigències de comprensió, amb les reaccions espontànies de l’Aina. Validació docent pròpia pendent.",
+    "cues": [
+      "Dos segons de base musical molt suau. Aina i Ferran conversen en el present; els fets del teatre només es recorden. Cap tercera veu ni efecte que resolgui les preguntes.",
+      "Pausa natural de conversa. La música continua molt baixa; no afegir papers, passes ni un canvi de veu per representar el tiet o el control d’entrada.",
+      "Conservar les últimes paraules i el somriure natural. Pujada de la base durant dos segons, fosa de dos segons i 600 ms de silenci. Sense rialles afegides, efectes ni tercera veu."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Aina": "Zephyr",
+      "Ferran": "Algenib"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Variant independent del relat narrat. Guió, veus i escaleta pendents de validació docent pròpia abans de sintetitzar."
   }
 }

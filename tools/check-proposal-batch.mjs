@@ -27,7 +27,8 @@ for(const group of fourthBatchGroups){
  assert.equal(group.entries.length,5);
  assert(Object.keys(group.voices).length<=2);
  for(const entry of group.entries){
-  const initialGrade = entry.code === 'S067' ? '6' : entry.grade;
+  // Teacher regrading preserves the original, approved question set.
+  const initialGrade = entry.code === 'S067' ? '6' : entry.code === 'S066' ? '5' : entry.grade;
   assert(['5','6'].includes(initialGrade));
   assert.equal(entry.questions.length,Number(initialGrade)+3);
   assert.deepEqual(entry.production.voices,group.voices,entry.code+' keeps the exact recurring cast for its block');

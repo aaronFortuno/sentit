@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "status": "passed",
-  "reviewedAt": "2026-11-22",
+  "reviewedAt": "2026-11-23",
   "reviewer": "revisio_contextos_previs",
-  "scope": "88 contextos impresos revisats independentment. S045D incorporada i contextos S079/S081 revalidats després dels comiats demanats pel docent. Sense canvis d’aprovacions d’àudio. S029 revalidada el 23/11 després de recuperar la presentació i retirar la ubicació del context previ.",
-  "fileSha256": "32d5b7fd836132b81edddc4f9cd5ac14773e2705a08f3707805f5be8b2566d65",
+  "scope": "90 contextos impresos revisats independentment. S045D incorporada i contextos S079/S081 revalidats després dels comiats demanats pel docent. Sense canvis d’aprovacions d’àudio. S029 revalidada el 23/11 després de recuperar la presentació i retirar la ubicació del context previ. S068D i S071D incorporades amb revisió independent el 23/11; correspondència de S068 revalidada després de variar-ne l’inici.",
+  "fileSha256": "d22e25bc2ac7b0c1fa5da407bfa700cd2c98a8f20b2672521ef05b09b02bd51b",
   "entries": {
     "ca-S001": {
       "contextSha256": "86a2e53e056b3476191785f60aeb95ceaeed57b5958b995a1c5ac832470bfedf",
@@ -290,7 +290,7 @@
     },
     "ca-S068": {
       "contextSha256": "e7abecbcd12cfa030d100e64203de038da5539aad7fd5a0b6f84e7ff074af1a8",
-      "sourceSha256": "01a86796c58dbdcb0ee0c88959c5cd4897b1aba0bc9247056d3ada7980fa7f86"
+      "sourceSha256": "1ca403f489cfde0cf29a6a57fceb490c0ae0c7e9820900804d7732aa7fdcd6ed"
     },
     "ca-S069": {
       "contextSha256": "91f3bc9e3fcffc6061bff8cb54072254e9169918f39102a770438e32ea9b561b",
@@ -359,6 +359,23 @@
     "ca-S045D": {
       "contextSha256": "daecf5127f94bdba8a47f439365bfc7f15546e0f93a3a83aae4e653a95898fba",
       "sourceSha256": "1b648e1f85f0190ea28859dba05883ebd70c6c93184c78c6b3bab7da134eb357"
+    },
+    "ca-S068D": {
+      "contextSha256": "d19fb7257244edc48ef2536e0b3f65afb15992edb60cbfa1e7f586b5124fe60e",
+      "sourceSha256": "73de85b27d6182ab6b8adf34a835cc5c16d83fa9c20e42df38f7f2811fb91397"
+    },
+    "ca-S071D": {
+      "contextSha256": "2ad6d2b370385f418525dba202b5c510849802a600324697479b564c1e2b8e2b",
+      "sourceSha256": "53d43b23ef2d739d1b071bea9346efd177c3e3f0fc06955e073ae6cc3022f9b4"
     }
+  },
+  "latestReview": {
+    "reviewer": "revisio_tancament_s042",
+    "reviewedAt": "2026-11-23",
+    "codes": [
+      "ca-S068",
+      "ca-S068D",
+      "ca-S071D"
+    ]
   }
 }

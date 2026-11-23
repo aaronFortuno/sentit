@@ -1,5 +1,12 @@
 # Canvis
 
+## 0.1.84 · 23 de novembre de 2026
+
+- S054, S056, S059, S065, S068 i S071 amb guió, veus i escaleta validats pel docent per a síntesi; aprovacions i empremtes exactes registrades, sense enviar peticions noves.
+- Noves S068D i S071D dialogades amb Aina/Zephyr i Ferran/Algenib, amb vuit preguntes cadascuna, solucionaris, cites, context previ i escaletes. Revisió independent superada i validació docent pròpia pendent; les versions narrades es conserven.
+- S068 comença amb «Mira, Aina...» i corregeix l’accent de «curiós». Criteri editorial nou per variar les entrades dels records de Ferran, amb gestos i reaccions propis de cada escena.
+- Candidat P17 amb les dues variants completes del mateix repartiment; cap autorització d’enviament. Seguiment, catàleg per blocs i cua de síntesi actualitzats.
+
 ## 0.1.83 · 23 de novembre de 2026
 
 - Publicació definitiva de S006, S034, S035 i S047 amb els màsters validats pel docent, sense canviar-ne les veus ni el muntatge. Il·lustracions pròpies coherents amb els models, visibles a la card, fitxa i transcripció; solucionaris nets i revisió independent de tancament.

@@ -1,4 +1,4 @@
-// Only independent final reviews are recorded; no teacher or synthesis approval is implied.
+// Final independent reviews only. This is not teacher approval for production.
 export const editorialReviews = {
   "ca-S003": {
     "status": "passed",
@@ -438,9 +438,15 @@ export const editorialReviews = {
   },
   "ca-S068": {
     "status": "passed",
-    "reviewedAt": "2026-11-22",
-    "reviewer": "autoria_tanda4_cuina_taller",
-    "fingerprint": "b70c9862fe18e5098084992e795f3deb1e70b18d38756447e984996897665625"
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "51a80a25afe97eb4a4b0279089616d0921452d749c3cc81cecbedd6c994dfd18"
+  },
+  "ca-S068D": {
+    "status": "passed",
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "6d08c90c36cdc0f629a93b108861c1d5d01948277de17215fd5405282a7ca4a4"
   },
   "ca-S069": {
     "status": "passed",
@@ -465,6 +471,12 @@ export const editorialReviews = {
     "reviewedAt": "2026-11-22",
     "reviewer": "autoria_tanda4_cuina_taller",
     "fingerprint": "63e0c902e8ff63f6421a4a62d95bc541eff9d7af6e10d05d7599790aaadb102f"
+  },
+  "ca-S071D": {
+    "status": "passed",
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "fa09daa8a2ff1fcebc13bf333a169fc83e75325463128ee3e86c31091c345642"
   },
   "ca-S072": {
     "status": "passed",
