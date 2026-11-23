@@ -31,3 +31,7 @@ La fitxa indica **Content ID Registered**. Conservar la fitxa, la llicència i e
 ### Aplicació als àudios ja muntats
 
 Preparar una comparació de noticiari amb una peça que ja tingui les veus revisades. Després de comprovar el balanç i validar el resultat, aplicar la mateixa recepta a les altres notícies, conservant les versions anteriors. Un canvi musical requereix nova audició del muntatge, no nova síntesi de veus. Les incidències de pronunciació que ja estaven obertes continuen obertes.
+
+## Selecció dels efectes breus · retorn 23/11/2026
+
+Prioritzar un ambient continu recognoscible quan situa millor l’escena. Retirar un efecte curt si no s’identifica amb claredat o si sembla una respiració, clic o artefacte: no conservar-lo per omplir una entrada o un final. Els efectes puntuals que sí que funcionen, com la cadira de S034, es poden mantenir. Comprovar-los dins del muntatge, sense pauses exclusives afegides per defecte.

@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "references": [
+    "../characters/mar-model-sheet-v1.webp",
+    "el-senyal-de-la-radio.webp"
+  ],
+  "asset": "una-bustia-per-a-propostes-v1.webp",
+  "width": 1536,
+  "height": 1024,
+  "prompt": "Use case: illustration-story. One new context illustration for the Sentit listening worksheet S031 'Una bústia per a propostes'. First input is the canonical IDENTITY reference for recurring journalist Mar: adult woman around 30, warm olive skin, dark brown eyes, long dark brown hair in a low ponytail, sage blazer over a cream shirt. Preserve her face, age, hair and clothing. Second input is a STYLE reference only, not characters or content. A single natural local radio news scene: Mar seated at a modest desk in a quiet radio studio, speaking warmly into a microphone, one relaxed hand slightly raised. A couple of completely blank sheets lie on the desk. Waist-up medium shot, natural expression, quietly professional. NO other characters. NO mailbox, civic-centre counter, poster board, event programme, lists, handwriting, numbers, coins, ballots or anything that reveals the story's questions or answers. Fine ink outlines and soft watercolor on warm white, muted sage/cream/charcoal and light wood; soft fading white edges and plenty of uncluttered space. Landscape 3:2, 1536x1024, legible at 80mm and in grayscale. No text, name, labels, logo, watermark or model-sheet panels."
+}

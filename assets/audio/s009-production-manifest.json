@@ -1,7 +1,7 @@
 {
   "code": "S009",
   "activity": "ca-S009",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s009-news-common-v2.mp3",
   "introFile": "s009-news-common-v2-intro.mp3",
   "bodyFile": "s009-news-common-v2-cos.mp3",
@@ -98,5 +98,19 @@
     "bodyPcmSha256": "4fb3e7c721416cc87bd103d45a902750e2209c9aa32cfd5fe7e3df2f11f45e80",
     "teacherFinalApproval": false,
     "newRequests": 0
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S009 validat per a publicació definitiva",
+    "audioSha256": "9b2c4875e89b8bd10d7281f61ce4228f95723a55baaa697cd03c5441f0b3eda5",
+    "editorialFingerprint": "0453fed8e5cac1cd63e79e4f017275ccd10b372292204dd46b8cd0dea6a61751",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/la-biblioteca-canvia-d-horari-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

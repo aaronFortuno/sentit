@@ -3,9 +3,10 @@ import { proposal, direction as d, spoken as s, question as q, evidence as e } f
 export const cinque = [
   proposal({
     id: 'que-passa-dins-duna-llavor', code: 'S014', title: 'Què passa dins d’una llavor?', grade: '5', level: 'easy', genre: 'explanation',
-    seconds: 140, status: 'ready-for-review', reviewStatus: 'audio-review',
-    audio: './assets/audio/s014-mixed-v1.mp3', tracks: { introduction: './assets/audio/s014-mixed-v1-intro.mp3', body: './assets/audio/s014-mixed-v1-cos.mp3' },
-    fragment: { start: 5.22, seconds: 134 },
+    recordingCues: [{"before":"pregunta","text":"Ambient enregistrat continu d’aula, suau sota tota la conversa. Sense els efectes inicials del recipient ni la cadira."},{"after":"observar","text":"Es conserva el full enregistrat en el canvi de torn, sense modificar les veus."},{"after":"final","text":"Darrera paraula completa, pujada suau i fosa de l’ambient. Sense respiracions afegides ni els dos tons antics."}],
+    seconds: 138, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s014-classroom-v2.mp3', tracks: { introduction: './assets/audio/s014-mixed-v1-intro.mp3', body: './assets/audio/s014-classroom-v2-cos.mp3' },
+    fragment: { start: 5.22, seconds: 132 },
     summary: 'La Mireia prepara una observació de llavors a classe i aprofita les preguntes d’en Biel per explicar l’aigua, les arrels i les reserves.',
     voices: { Mireia: 'Aoede', Biel: 'Puck' }, delivery: 'Mireia és una mestra que té mongetes seques i material d’observació a la taula. Biel, alumne curiós, fa preguntes amb lèxic quotidià, s’avança amb una idea sobre l’aigua i proposa una prova que cal ordenar. La mestra acull les preguntes i recondueix sense renyar ni repetir una lliçó de memòria. Dues veus principals; els altres alumnes són presents però no tenen torns parlats. Termes científics definits per l’adulta, pauses naturals i cap acceleració artificial.',
     editorialFocus: '5è accessible: procés ordenat i relacions causals explícites, amb vocabulari definit. No cal saber botànica abans d’escoltar.',

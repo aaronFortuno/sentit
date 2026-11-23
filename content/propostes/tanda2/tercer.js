@@ -37,9 +37,9 @@ export const tercer = [
   }),
   proposal({
     id: 'preparem-el-raco-dels-jocs', code: 'S026', title: 'Preparem el racó dels jocs', grade: '3', level: 'easy', genre: 'instructions', universeIds: ['amb-mireia'],
-    seconds: 69, status: 'ready-for-review', reviewStatus: 'audio-review',
-    audio: './assets/audio/s026-mixed-v1.mp3', tracks: { introduction: './assets/audio/s026-mixed-v1-intro.mp3', body: './assets/audio/s026-mixed-v1-cos.mp3' },
-    fragment: { start: 7.186999999999999, seconds: 62 },
+    seconds: 65, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s026-clean-v2.mp3', tracks: { introduction: './assets/audio/s026-clean-v2-intro.mp3', body: './assets/audio/s026-clean-v2-cos.mp3' },
+    fragment: { start: 4.738083333333333, seconds: 60 },
     summary: 'La Mireia i en Biel preparen un racó de jocs i aclareixen què cal fer quan una capsa és incompleta.',
     voices: { Mireia: 'Aoede', Biel: 'Puck' },
     delivery: 'Mestra propera que organitza una activitat real. Biel intervé amb preguntes breus i una proposta espontània. No convertir les instruccions en una enumeració rígida.',

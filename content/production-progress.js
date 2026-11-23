@@ -705,7 +705,7 @@ export const productionProgress = {
     "listeningApproval": true
   },
   "ca-S023": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "feedbackAt": "2026-11-20",
     "feedback": [
       {
@@ -717,9 +717,9 @@ export const productionProgress = {
         "appliedAt": "2026-11-22"
       }
     ],
-    "teacherAssessment": "Inserida la frase de suggeriments validada, amb la base comuna de notícies i el mercat conservats. Comprovar la continuïtat del timbre al tancament.",
+    "teacherAssessment": "S023 validat per publicació definitiva; s’accepta la variació de timbre al començament de la frase esmenada per poder avançar.",
     "plannedNewRequests": 0,
-    "listeningApproval": false,
+    "listeningApproval": true,
     "repairPlan": "content/audio-repairs.json",
     "jingleStatus": "common-news-bed-pending-final-listening",
     "editorialFingerprint": "22636665fc727f00d17b0e1349da5b9467ab27a12a049701d4bef3189511f0ad",
@@ -752,6 +752,23 @@ export const productionProgress = {
         "ca": "Inserida la frase de suggeriments validada, amb la base comuna de notícies i el mercat conservats. Comprovar la continuïtat del timbre al tancament.",
         "es": "Insertada la frase de sugerencias validada, con la base común de noticias y el mercado conservados. Comprobar la continuidad del timbre al cierre."
       }
+    },
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S023 validat per publicació definitiva; s’accepta la variació de timbre al començament de la frase esmenada per poder avançar.",
+    "acceptedLimitations": [
+      {
+        "part": "tancament",
+        "kind": "voice-continuity",
+        "acceptedAt": "2026-11-23",
+        "note": "A la frase D’aquí a un mes… suggeriments, l’inici de la represa sona amb un timbre diferent; el docent accepta explícitament el resultat. Candidata opcional a revisió futura amb models més estables, sense bloquejar la publicació."
+      }
+    ],
+    "publicationMaterials": {
+      "illustration": "./assets/images/reobren-el-mercat-v2.webp",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-23",
+      "audioChanged": false
     }
   },
   "ca-S007": {
@@ -911,7 +928,7 @@ export const productionProgress = {
   "ca-S014": {
     "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-20T21:41:49.070Z",
-    "editorialFingerprint": "6aec80a53248aa7f3e9865841e69b4885c8019115d4fe2e45942a24b70933771",
+    "editorialFingerprint": "647091c41551fa78785d89c14ecdf854fa9c135d85244613272ba1aee5487d37",
     "plannedNewRequests": 1,
     "confirmation": "S014 validat, llest per pujar a síntesi de veus.",
     "reason": "Guió validat; preparar un lot compatible de sis a vuit minuts. No enviar una petició curta aïllada.",
@@ -935,15 +952,36 @@ export const productionProgress = {
     "listeningApproval": false,
     "synthesisBatch": "L06",
     "requestHash": "a0bcff78c1b77973ff7ddd60722557464823fa57c596f11b98c6ecc64a97223a",
-    "audioSha256": "a4a8fc91085cedfee08da9f79581ec98fe21070fc6f3f1da9d4936fb3a1445e0",
-    "montageNewSynthesisRequests": 0
+    "audioSha256": "475e05a3be445086651a65e231e257bf6ed17ba662d775740b300a2e21de27c5",
+    "montageNewSynthesisRequests": 0,
+    "feedbackAt": "2026-11-23",
+    "feedback": [
+      {
+        "part": "final",
+        "word": "Respiracions i dos tons finals",
+        "status": "applied"
+      },
+      {
+        "part": "pregunta",
+        "word": "Efectes inicials i ambient",
+        "status": "applied"
+      }
+    ],
+    "reviewUpdate": {
+      "audio": "./assets/audio/s014-classroom-v2.mp3",
+      "at": "2026-11-23",
+      "summary": {
+        "ca": "S’han retirat les respiracions finals, els dos tons i els efectes inicials. Nou fons continu d’aula molt suau; veus i paper conservats. Pendent d’última escolta.",
+        "es": "Retiradas las respiraciones finales, los dos tonos y los efectos iniciales. Nuevo fondo continuo de aula muy suave; voces y papel conservados. Pendiente de última escucha."
+      }
+    }
   },
   "ca-S009": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-20T21:58:08.267Z",
-    "editorialFingerprint": "63dc0ab59071bd124c63f9332575d4d756ba291f6e7e8e0265c3a5195f3e3043",
-    "plannedNewRequests": 1,
-    "confirmation": "S009 queda també validat per síntesi de veus.",
+    "editorialFingerprint": "0453fed8e5cac1cd63e79e4f017275ccd10b372292204dd46b8cd0dea6a61751",
+    "plannedNewRequests": 0,
+    "confirmation": "S009 validat per a publicació definitiva",
     "reason": "Guió validat; agrupar amb material compatible d’Erinome fins a completar sis a vuit minuts. Cap petició curta aïllada.",
     "quotaHold": {
       "day": "2026-11-20",
@@ -962,7 +1000,7 @@ export const productionProgress = {
       ]
     },
     "voicesReceivedAt": "2026-11-21T10:58:10.100Z",
-    "listeningApproval": false,
+    "listeningApproval": true,
     "voicePreview": "./proves/veus-rebudes.html#S009",
     "audioSha256": "9b2c4875e89b8bd10d7281f61ce4228f95723a55baaa697cd03c5441f0b3eda5",
     "montageNewSynthesisRequests": 0,
@@ -979,6 +1017,14 @@ export const productionProgress = {
         "ca": "Nova base comuna de notícies, amb entrada i sortida; retirats els papers i jingles anteriors. Pendent d’audició.",
         "es": "Nueva base común de noticias, con entrada y salida; retirados los papeles y jingles anteriores. Pendiente de escucha."
       }
+    },
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "publicationMaterials": {
+      "illustration": "./assets/images/la-biblioteca-canvia-d-horari-v1.webp",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-23",
+      "audioChanged": false
     }
   },
   "ca-S029": {
@@ -1038,15 +1084,44 @@ export const productionProgress = {
     "listeningApproval": false,
     "synthesisBatch": "L06",
     "requestHash": "a0bcff78c1b77973ff7ddd60722557464823fa57c596f11b98c6ecc64a97223a",
-    "audioSha256": "49a6a9572fe7d6c07dc01ae6fe609508102eb6089b1f78491cb616470b75b1e2",
-    "montageNewSynthesisRequests": 0
+    "audioSha256": "781bcc5bcdec191eeac21566d1feded42b583b764dda9b012bbb4c957d03bc74",
+    "montageNewSynthesisRequests": 0,
+    "feedbackAt": "2026-11-23",
+    "feedback": [
+      {
+        "part": "introduction",
+        "kind": "nonverbal-padding",
+        "word": "Respiracions inicials",
+        "status": "applied"
+      },
+      {
+        "part": "final",
+        "kind": "spoken-directive",
+        "word": "long pause",
+        "status": "applied"
+      },
+      {
+        "part": "salutacio",
+        "kind": "ambience",
+        "word": "Volum inicial",
+        "status": "applied"
+      }
+    ],
+    "reviewUpdate": {
+      "audio": "./assets/audio/s026-clean-v2.mp3",
+      "at": "2026-11-23",
+      "summary": {
+        "ca": "Inici net sense respiracions, ambient d’entrada més suau i retirat el long pause final. La resta de la parla es conserva; pendent d’última escolta.",
+        "es": "Inicio limpio sin respiraciones, ambiente de entrada más suave y retirado el long pause final. El resto del habla se conserva; pendiente de última escucha."
+      }
+    }
   },
   "ca-S030": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-21T09:14:33.051Z",
-    "editorialFingerprint": "e118368fb5bb4a2127071986eda7c6e3a9e1d27f7db6c6dc0fc33fcfae5d27de",
-    "plannedNewRequests": 1,
-    "confirmation": "S030 llest per síntesi de veus",
+    "editorialFingerprint": "b24907fceb197acf6e01c59fd2a342ef93fb18282a968a8117ee2004347f244b",
+    "plannedNewRequests": 0,
+    "confirmation": "S030 validat per publicació definitiva",
     "reason": "Guió validat; presa Biel/Puck i Laia/Leda al lot candidat L08, pendent de material compatible fins a completar sis a vuit minuts.",
     "uncertainTurns": [],
     "receivedTakes": {
@@ -1059,7 +1134,7 @@ export const productionProgress = {
       ]
     },
     "voicesReceivedAt": "2026-11-21T11:03:28.518Z",
-    "listeningApproval": false,
+    "listeningApproval": true,
     "synthesisBatch": "L08",
     "requestHash": "ac8a3b34fa098dc7a38e788b2cadc9c81d3039b44c7af229a4c9c104184e94cc",
     "audioSha256": "e837429937d4e727b17233c010b2c3b91b2e03e3a50ae895069b318dce71894f",
@@ -1147,6 +1222,14 @@ export const productionProgress = {
         "ca": "Retirat el full inicial; ambient continu de passadís. Es conserva el so de despenjar-lo. Pendent d’última audició.",
         "es": "Retirado el papel inicial; ambiente continuo de pasillo. Se conserva el sonido de descolgarlo. Pendiente de última escucha."
       }
+    },
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "publicationMaterials": {
+      "illustration": "./assets/images/el-cartell-del-passadis-v1.webp",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-23",
+      "audioChanged": false
     }
   },
   "ca-S040": {
@@ -1253,7 +1336,7 @@ export const productionProgress = {
   "ca-S034": {
     "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-21T09:30:54.248Z",
-    "editorialFingerprint": "0b665a370e7930190eea0b1ba4d827d50e020ac5eb8a3901b5b7b4eb5074a825",
+    "editorialFingerprint": "87ed490107a025961b15ec3bb3e2be759b86870452e985fda4107ce622145558",
     "plannedNewRequests": 1,
     "confirmation": "S034 validat per síntesi de veus",
     "reason": "Guió validat; presa completa incorporada al lot candidat L10, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts.",
@@ -1271,8 +1354,40 @@ export const productionProgress = {
     "listeningApproval": false,
     "synthesisBatch": "L13",
     "requestHash": "ab02e5a56a6807f106885dd5b8e4749ed77c2b2461e93dc71243142194efb2a3",
-    "audioSha256": "32bd2e3f3eb11643c03119096711059b01d172a1b01a4dcb9691ee713c569d81",
-    "montageNewSynthesisRequests": 0
+    "audioSha256": "f08591a55b092201f4affc58953249a06d0413217aec26db1e067cce8d730f3c",
+    "montageNewSynthesisRequests": 0,
+    "ambienceRevision": {
+      "originalFile": "s034-mixed-v1.mp3",
+      "originalSha256": "32bd2e3f3eb11643c03119096711059b01d172a1b01a4dcb9691ee713c569d81",
+      "removedSource": "callmethefoo-744447",
+      "voiceInputSha256": "dfa2e571ac60a0cde06a49eb797a78a737a064f739e205436c85803d57557257",
+      "musicInputSha256": "4689a77ff452b7dfb0f7af8e7575c8028024989874cc171d5f052731c1da14f6",
+      "sameVoiceAndMusicInputs": true,
+      "voiceRetimed": false,
+      "newRequests": 0,
+      "source": "tools/remove-s038-opening-ambience.cjs",
+      "chairInputSha256": "3b35dcdd154fa0bf271e1be4224b11ba06b04ef3016f037e10ffa26d5a0299ab",
+      "chairTimingUnchanged": true,
+      "authorization": "Docent 23/11: retirar l’ambient inicial de cortines/sala; conservar la cadira i la resta del muntatge."
+    },
+    "feedbackAt": "2026-11-23",
+    "feedback": [
+      {
+        "part": "record",
+        "kind": "ambience",
+        "word": "Ambient inicial",
+        "status": "applied",
+        "note": "Retirat el so inicial de sala/cortines; cadira, música i veus conservades."
+      }
+    ],
+    "reviewUpdate": {
+      "audio": "./assets/audio/s034-no-ambience-v2.mp3",
+      "at": "2026-11-23",
+      "summary": {
+        "ca": "Retirat l’ambient inicial. Es conserven el so de la cadira, les veus, la música i la durada; pendent d’última escolta.",
+        "es": "Retirado el ambiente inicial. Se conservan la silla, las voces, la música y la duración; pendiente de última escucha."
+      }
+    }
   },
   "ca-S038": {
     "state": "published",
@@ -1327,7 +1442,7 @@ export const productionProgress = {
   "ca-S042": {
     "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-21T09:30:54.249Z",
-    "editorialFingerprint": "36d170f98fd35d2e96e62a2160f8beb530b41102b36346dd6d140fe22cca6566",
+    "editorialFingerprint": "0cc7f3ec119a0be1a626c1b287e2b60ca6ac41458188bd81a3c01ee81f8885e1",
     "plannedNewRequests": 1,
     "confirmation": "S042 validat per pujar a síntesi de veus",
     "reason": "Guió validat; presa completa incorporada al lot candidat L05, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts.",
@@ -1345,8 +1460,29 @@ export const productionProgress = {
     "listeningApproval": false,
     "synthesisBatch": "L06",
     "requestHash": "a0bcff78c1b77973ff7ddd60722557464823fa57c596f11b98c6ecc64a97223a",
-    "audioSha256": "5281338f5ab4c291877fa486c70ca9d4e9fd7a2bd3b858bdb34559414aa01c20",
-    "montageNewSynthesisRequests": 0
+    "audioSha256": "7fc840a4469df4e5d9881d3c482435255013f078ed94a331901c918c545e4f11",
+    "montageNewSynthesisRequests": 0,
+    "feedbackAt": "2026-11-23",
+    "feedback": [
+      {
+        "part": "introduction",
+        "word": "Respiracions i pauses inicials",
+        "status": "applied"
+      },
+      {
+        "part": "final",
+        "word": "long pause i espera final",
+        "status": "applied"
+      }
+    ],
+    "reviewUpdate": {
+      "audio": "./assets/audio/s042-timing-v2.mp3",
+      "at": "2026-11-23",
+      "summary": {
+        "ca": "Inici net i directe, retirats el long pause i l’espera final. Full conservat al mateix punt de la conversa; cadira acostada a l’última frase.",
+        "es": "Inicio limpio y directo, retirados el long pause y la espera final. Papel conservado en el mismo punto de la conversación; silla acercada a la última frase."
+      }
+    }
   },
   "ca-S035": {
     "state": "montage-awaiting-listening",
@@ -1368,8 +1504,25 @@ export const productionProgress = {
     "listeningApproval": false,
     "synthesisBatch": "L05",
     "requestHash": "3a86ff8ea619d9fa32f7582a144656f791631478c642722f8e98ef6e5c8a5eb0",
-    "audioSha256": "86398c0938ba8be1cbdb7c4b3b769708f9ab3afd4dfdf251d48c20fa36c8cf49",
-    "montageNewSynthesisRequests": 0
+    "audioSha256": "072519a3f408adb566362dea90e7c27d8afe1ebcd3d2e65e14a40c1b70aed894",
+    "montageNewSynthesisRequests": 0,
+    "feedbackAt": "2026-11-23",
+    "feedback": [
+      {
+        "part": "introduction",
+        "word": "Silenci inicial i long pause",
+        "kind": "spoken-directive-and-padding",
+        "status": "applied"
+      }
+    ],
+    "reviewUpdate": {
+      "audio": "./assets/audio/s035-directives-v2.mp3",
+      "at": "2026-11-23",
+      "summary": {
+        "ca": "Retirats el silenci inicial, el «long pause» i la pausa posterior al títol. Cos de la comprensió intacte; pendent d’audició.",
+        "es": "Retirados el silencio inicial, el «long pause» y la pausa posterior al título. Cuerpo de la comprensión intacto; pendiente de escucha."
+      }
+    }
   },
   "ca-S037": {
     "state": "montage-awaiting-listening",
@@ -1673,11 +1826,11 @@ export const productionProgress = {
     "voicePreviewFile": "./assets/audio/s039-voices-review-v1.mp3"
   },
   "ca-S031": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-21T09:53:12.333Z",
-    "editorialFingerprint": "b214470b2ac404b3500255f4cbdcaf204257782b19916141752c4d32a975f582",
-    "plannedNewRequests": 1,
-    "confirmation": "S031 validat per síntesi de veus",
+    "editorialFingerprint": "f234c178bd18546a243c1e7dcacc0d9ce7b57648cc9fec49dbb46daa1cfb5922",
+    "plannedNewRequests": 0,
+    "confirmation": "S031 validat també per definitiu amb el muntatge de breaking news nou",
     "reason": "Guió validat durant el processament seqüencial; incorporar a un lot compatible pendent, conservant les veus i el text exactes.",
     "receivedTakes": {
       "received": [
@@ -1689,7 +1842,7 @@ export const productionProgress = {
       ]
     },
     "voicesReceivedAt": "2026-11-21T10:33:32.469Z",
-    "listeningApproval": false,
+    "listeningApproval": true,
     "voicePreview": "./proves/veus-rebudes.html#S031",
     "audioSha256": "34091eaf295be3000d035617889cc9512c6f361cd184a732b0731959cbac6c82",
     "montageNewSynthesisRequests": 0,
@@ -1706,6 +1859,14 @@ export const productionProgress = {
         "ca": "Nova base comuna de notícies, amb entrada i sortida; retirats els papers i jingles anteriors. Pendent d’audició.",
         "es": "Nueva base común de noticias, con entrada y salida; retirados los papeles y jingles anteriores. Pendiente de escucha."
       }
+    },
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "publicationMaterials": {
+      "illustration": "./assets/images/una-bustia-per-a-propostes-v1.webp",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-23",
+      "audioChanged": false
     }
   },
   "ca-S044": {
@@ -1860,12 +2021,12 @@ export const productionProgress = {
     }
   },
   "ca-S050": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-22T17:54:15.727Z",
-    "editorialFingerprint": "cbf57c492b3f830ab7bb51262823c84840c4703b8ef3eaa0947ef5db02adca47",
-    "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "confirmation": "S050 validada per síntesi de veus",
+    "editorialFingerprint": "4f9689aac3f595ee436e2cdcd4af4fff59f793cdff48e5fbc4eb2b6784f1e67e",
+    "plannedNewRequests": 0,
+    "listeningApproval": true,
+    "confirmation": "S050 validat per a publicació definitiva",
     "reason": "Guió, Laia/Leda i Pau/Charon i escaleta validats. P02 completa les quatre validacions; preparar una única petició compatible amb entrada sense marques literals de pausa.",
     "uncertainTurns": [],
     "receivedTakes": {
@@ -1898,6 +2059,14 @@ export const productionProgress = {
         "ca": "Veus validades pel docent; primer muntatge amb ambient real continu de mercat, molt discret. Pendent d’audició del muntatge.",
         "es": "Voces validadas por el docente; primer montaje con ambiente real continuo de mercado, muy discreto. Pendiente de escucha del montaje."
       }
+    },
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "publicationMaterials": {
+      "illustration": "./assets/images/la-balanca-marca-massa-v1.webp",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-23",
+      "audioChanged": false
     }
   },
   "ca-S052": {
@@ -2254,7 +2423,7 @@ export const productionProgress = {
   "ca-S047": {
     "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-22T20:16:52.042Z",
-    "editorialFingerprint": "58218f31124c56a9a90d9543c3d215cd963f253a625a8958cb9195a5e3e6772e",
+    "editorialFingerprint": "50d8b32bb52c557c0997b89977cc1ab5b9b8540c5d5b71f28a3a81770cbaafab",
     "plannedNewRequests": 0,
     "listeningApproval": false,
     "confirmation": "S047 validada per síntesi de veus",
@@ -2281,8 +2450,27 @@ export const productionProgress = {
     "mountedAt": "2026-11-22T21:58:59.637Z",
     "synthesisBatch": "L17",
     "requestHash": "3614318c8fb54c97021a43d7a5ac29a9c5f2642f00894c7d7e5ae616d6adc099",
-    "audioSha256": "977e41ad44ec32e59664987d2e42a154414b01578a2a478c092ade9a502600e3",
-    "montageNewSynthesisRequests": 0
+    "audioSha256": "d67bb44c5315bd90667a16193e77c99fa5a08e65f3c18ee1acf3a1b4d65cb1d1",
+    "montageNewSynthesisRequests": 0,
+    "feedbackAt": "2026-11-23",
+    "teacherAssessment": "Veus, música i resta del muntatge ben valorades; nou tren continu pendent d’audició.",
+    "feedback": [
+      {
+        "part": "viatge",
+        "kind": "ambience",
+        "word": "Tren",
+        "status": "applied",
+        "note": "Substituït el tren breu per Inside Old Train, continu sota el trajecte i retirat abans de tieta."
+      }
+    ],
+    "reviewUpdate": {
+      "audio": "./assets/audio/s047-train-v2.mp3",
+      "at": "2026-11-23",
+      "summary": {
+        "ca": "Nou fons continu i rítmic de tren fins al final del viatge. Veus, música i durada conservades; pendent d’escoltar aquest canvi.",
+        "es": "Nuevo fondo continuo y rítmico de tren hasta el final del viaje. Voces, música y duración conservadas; pendiente de escuchar este cambio."
+      }
+    }
   },
   "ca-S058": {
     "state": "audio-corrections-pending",

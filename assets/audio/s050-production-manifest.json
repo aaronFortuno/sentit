@@ -1,7 +1,7 @@
 {
   "code": "S050",
   "activity": "ca-S050",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s050-mixed-v1.mp3",
   "introFile": "s050-mixed-v1-intro.mp3",
   "bodyFile": "s050-mixed-v1-cos.mp3",
@@ -73,5 +73,19 @@
     "approvedAt": "2026-11-22",
     "sourceTakeSha256": "b15841c1fd7be80636fe1770c10a1bcc6643920a789505093ff9f4239604184a",
     "confirmation": "S050 veus validades, podem passar a muntatge, amb fons continu de mercat de fons"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S050 validat per a publicació definitiva",
+    "audioSha256": "0abb932b70edb01f2fb9bcd2edac6a30de6e8b9d0312d552df2827c94dbbb6d2",
+    "editorialFingerprint": "4f9689aac3f595ee436e2cdcd4af4fff59f793cdff48e5fbc4eb2b6784f1e67e",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/la-balanca-marca-massa-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

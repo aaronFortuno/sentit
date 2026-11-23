@@ -1,7 +1,7 @@
 {
   "code": "S031",
   "activity": "ca-S031",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s031-news-common-v2.mp3",
   "introFile": "s031-news-common-v2-intro.mp3",
   "bodyFile": "s031-news-common-v2-cos.mp3",
@@ -90,5 +90,19 @@
     "bodyPcmSha256": "7cc634891909e2f39a9065bb758105f32a101aa5a24feb88a9357427474cf38d",
     "teacherFinalApproval": false,
     "newRequests": 0
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S031 validat també per definitiu amb el muntatge de breaking news nou",
+    "audioSha256": "34091eaf295be3000d035617889cc9512c6f361cd184a732b0731959cbac6c82",
+    "editorialFingerprint": "f234c178bd18546a243c1e7dcacc0d9ce7b57648cc9fec49dbb46daa1cfb5922",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/una-bustia-per-a-propostes-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

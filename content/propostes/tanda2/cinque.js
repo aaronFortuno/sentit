@@ -4,9 +4,9 @@ const soundCredits = 'Es preveuen enregistraments reals per a ambients i accions
 export const cinque = [
   proposal({
     id: 'una-pregunta-per-al-menjador', code: 'S035', title: 'Una pregunta per al menjador', grade: '5', level: 'easy', genre: 'instructions', universeIds: ['amb-mireia'],
-    seconds: 114, status: 'ready-for-review', reviewStatus: 'audio-review',
-    audio: './assets/audio/s035-mixed-v1.mp3', tracks: { introduction: './assets/audio/s035-mixed-v1-intro.mp3', body: './assets/audio/s035-mixed-v1-cos.mp3' },
-    fragment: { start: 10.157291666666667, seconds: 104 },
+    seconds: 109, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s035-directives-v2.mp3', tracks: { introduction: './assets/audio/s035-directives-v2-intro.mp3', body: './assets/audio/s035-mixed-v1-cos.mp3' },
+    fragment: { start: 4.44, seconds: 104 },
     summary: 'La Laia llegeix una pregunta que han escrit per a la classe i s’adona que ha barrejat dues coses que volen demanar.',
     voices: { Mireia: 'Aoede', Laia: 'Leda' }, delivery: 'Mestra i alumna revisen un full que tenen al davant. Laia prova de llegir i arreglar la pregunta, amb una descoberta concreta i petits dubtes; Mireia l’ajuda sense dirigir un procediment de control. Parla quotidiana, sense to de presentació ni recitar llistes.',
     editorialFocus: '5è accessible: descobrir dues preguntes barrejades, escoltar la reformulació de la Laia i entendre com provaran si el full s’entén. Vuit preguntes sobre el que passa, sense llistes de control ni arxiu de documents.',

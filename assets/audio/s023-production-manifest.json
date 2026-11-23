@@ -2,7 +2,7 @@
   "code": "S023",
   "activity": "ca-S023",
   "date": "2026-11-20T20:09:54.848Z",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "model": "gemini-3.8-flash-tts",
   "voices": {
     "Presentadora": "Erinome",
@@ -177,5 +177,27 @@
     "voiceRetimed": false,
     "pitchShifted": false,
     "newRequests": 0
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S023 validat per publicació definitiva; s’accepta la variació de timbre al començament de la frase esmenada per poder avançar.",
+    "audioSha256": "4bdd9de1339ac05a10e5919dabfb56d30267ce4e12a3882067264e90066190c3",
+    "editorialFingerprint": "22636665fc727f00d17b0e1349da5b9467ab27a12a049701d4bef3189511f0ad",
+    "listeningApproval": true,
+    "acceptedLimitations": [
+      {
+        "part": "tancament",
+        "kind": "voice-continuity",
+        "acceptedAt": "2026-11-23",
+        "note": "A la frase D’aquí a un mes… suggeriments, l’inici de la represa sona amb un timbre diferent; el docent accepta explícitament el resultat. Candidata opcional a revisió futura amb models més estables, sense bloquejar la publicació."
+      }
+    ]
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/reobren-el-mercat-v2.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

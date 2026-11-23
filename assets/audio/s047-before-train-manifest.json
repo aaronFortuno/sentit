@@ -1,0 +1,115 @@
+{
+  "code": "S047",
+  "activity": "ca-S047",
+  "state": "awaiting-montage-validation",
+  "file": "s047-mixed-v1.mp3",
+  "introFile": "s047-mixed-v1-intro.mp3",
+  "bodyFile": "s047-mixed-v1-cos.mp3",
+  "offset": 4.17,
+  "bodyDuration": 107.39508333333333,
+  "fullDuration": 111.56508333333333,
+  "voices": {
+    "Ferran": "Algenib"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "3614318c8fb54c97021a43d7a5ac29a9c5f2642f00894c7d7e5ae616d6adc099",
+  "sourceRequestHash": "594d6eb8757328da78fcccca27cce021f78f4da261813ce4b514b2d58590fc1d",
+  "batch": "L17",
+  "rawSha256": "43a2e90b48ca2359bb188118537c41567673d998ef51374d5170f00ca0c55937",
+  "takeSha256": "0a299ff99e309f1bea98b95ba32d268402c74c586195144b92aac4a456f18907",
+  "coverage": 0.9235127478753541,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.23,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "gentle-narration-bed",
+      "origin": "original-procedural-composition",
+      "author": "Sentit",
+      "license": "MIT",
+      "source": "tools/narration-bed.cjs",
+      "title": "Botons de tots colors",
+      "compositionId": "sentit-s047-v1",
+      "tempoBpm": 68,
+      "rootMidi": 55,
+      "scoreSeed": 47,
+      "notes": 89,
+      "externalSamples": false,
+      "noSpeech": true,
+      "retimed": false,
+      "sha256": "4af79b6b1a841c84fbeeb532f04c12944a0576950fc495ccea9980da5e9c4b84",
+      "envelope": {
+        "fadeInSeconds": 0.6,
+        "duckStart": 0.7000000000000001,
+        "duckEnd": 1.4500000000000002,
+        "speechGain": 0.14,
+        "nominalSpeechMusicLufs": -43.07743928643524,
+        "riseStart": 101.32998333333333,
+        "riseEnd": 102.12998333333334,
+        "holdSeconds": 2,
+        "fadeStart": 104.12998333333334,
+        "fadeEnd": 106.12998333333334
+      },
+      "listeningValidation": "pending",
+      "start": 0,
+      "underSpeech": true
+    },
+    {
+      "name": "throndronis-799526",
+      "start": 0,
+      "source": "assets/audio/sources/throndronis-799526-train.mp3",
+      "sourceSha256": "e2f2588783985920c7d42e3bb34f7e50f706edb5f3ae4e75a55061b24dde2362",
+      "sourceUrl": "https://freesound.org/people/Throndronis/sounds/799526/",
+      "author": "Throndronis",
+      "license": "CC0 1.0",
+      "excerpt": {
+        "start": 12,
+        "seconds": 1.4
+      },
+      "underSpeech": false
+    },
+    {
+      "name": "throndronis-799526",
+      "start": 33.109983333333346,
+      "source": "assets/audio/sources/throndronis-799526-train.mp3",
+      "sourceSha256": "e2f2588783985920c7d42e3bb34f7e50f706edb5f3ae4e75a55061b24dde2362",
+      "sourceUrl": "https://freesound.org/people/Throndronis/sounds/799526/",
+      "author": "Throndronis",
+      "license": "CC0 1.0",
+      "excerpt": {
+        "start": 16,
+        "seconds": 1
+      },
+      "underSpeech": true,
+      "insertedPause": 0,
+      "sourceTargetLufs": -41
+    }
+  ],
+  "sha256": "977e41ad44ec32e59664987d2e42a154414b01578a2a478c092ade9a502600e3",
+  "voiceHandles": {
+    "body": {
+      "start": 0.6304166666666666,
+      "end": 100.2255,
+      "retainedPcmSha256": "3cc3f38d4bfdeee33aa9f3d9c9f27789a704660779e4e0adc0ce451457d4382b",
+      "sourceSha256": "1c2d1d2bd84dccbc674154e10be080a3f5240573bab9d8d99c3bfa79413e3cc0",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.025,
+      "end": 3.245,
+      "retainedPcmSha256": "be9c96043d7fc84a3cce0c6fc20ec4ce230ac72bda65d9300833b3949d6e8d99",
+      "sourceSha256": "82fb8f9992a4b55ea8e31665c9d1bb8c0a5ea3e44bf1d060f47b2b20b3311c13",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-22",
+    "sourceTakeSha256": "0a299ff99e309f1bea98b95ba32d268402c74c586195144b92aac4a456f18907",
+    "confirmation": "S047 validat per muntatge, molt bé les inflexions del personatge"
+  }
+}

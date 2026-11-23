@@ -5,7 +5,7 @@ export const mercat = {
   summary: 'Notícia de ficció per distingir dades confirmades, opinions i decisions pendents.',
   grade: '6', level: 'advanced', genre: 'news', seconds: 202,
   status: 'ready-for-review',
-  reviewStatus: 'audio-review',
+  reviewStatus: 'validated',
   generationPlan: {
     note: 'Una sola petició nova proposada per al títol i tota la notícia: Mar amb Erinome i Pau amb Charon. La Mar també llegeix el títol; una pausa llarga permetrà separar-lo localment. Música i efectes originals, sense peticions de TTS addicionals. Guió, veus i muntatge pendents de validar.',
     takes: [

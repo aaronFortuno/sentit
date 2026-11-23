@@ -1,0 +1,97 @@
+{
+  "code": "S026",
+  "activity": "ca-S026",
+  "state": "awaiting-montage-validation",
+  "file": "s026-clean-v2.mp3",
+  "introFile": "s026-clean-v2-intro.mp3",
+  "bodyFile": "s026-clean-v2-cos.mp3",
+  "offset": 4.738083333333333,
+  "bodyDuration": 59.52191666666667,
+  "fullDuration": 64.26,
+  "voices": {
+    "Mireia": "Aoede",
+    "Biel": "Puck"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "a0bcff78c1b77973ff7ddd60722557464823fa57c596f11b98c6ecc64a97223a",
+  "sourceRequestHash": "bb78180d8c2948808cfd5f0c8824f2177ec440e13e5dee3a51ff7b860b4a5204",
+  "batch": "L06",
+  "rawSha256": "4bcdb6306e09bc40b58de637d9e4c3d8cb63477429a60ccf89bb8602cf05d809",
+  "takeSha256": "8d095c83d3e23066d8c878db8516bc1acbb32ff31eec18dacb97de96cce26ace",
+  "coverage": 0.9285714285714286,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.71,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "tallis0410-707510",
+      "start": 0,
+      "source": "assets/audio/sources/tallis0410-707510.mp3",
+      "sourceSha256": "1cceca74ca79bd56764a8482ce0721afa5d2a7612c15ef1160ce2c5b923a45ff",
+      "sourceUrl": "https://freesound.org/people/Tallis0410/sounds/707510/",
+      "author": "Tallis0410",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.2,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -42,
+      "lowPassHz": 1800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "initialGain": 0.35,
+      "previousInitialGain": 0.7
+    },
+    {
+      "name": "breezy2000uk-578712",
+      "start": 0.25,
+      "source": "assets/audio/sources/breezy2000uk-578712.mp3",
+      "sourceSha256": "2a4a093fb09e418347b51d129508a04cb9a7b2a0c55cd2b84b3dc5e45cf0f371",
+      "sourceUrl": "https://freesound.org/people/Breezy2000uk/sounds/578712/",
+      "author": "Breezy2000uk",
+      "license": "CC0 1.0",
+      "excerpt": {
+        "start": 3,
+        "seconds": 1.1
+      },
+      "underSpeech": false,
+      "additionalGain": 0.5
+    },
+    {
+      "name": "breezy2000uk-578712",
+      "start": 56.32191666666667,
+      "source": "assets/audio/sources/breezy2000uk-578712.mp3",
+      "sourceSha256": "2a4a093fb09e418347b51d129508a04cb9a7b2a0c55cd2b84b3dc5e45cf0f371",
+      "sourceUrl": "https://freesound.org/people/Breezy2000uk/sounds/578712/",
+      "author": "Breezy2000uk",
+      "license": "CC0 1.0",
+      "excerpt": {
+        "start": 3,
+        "seconds": 1.1
+      },
+      "underSpeech": false
+    }
+  ],
+  "sha256": "781bcc5bcdec191eeac21566d1feded42b583b764dda9b012bbb4c957d03bc74",
+  "cleanRevision": {
+    "date": "2026-11-23",
+    "baseFile": "s026-mixed-v1.mp3",
+    "baseSha256": "49a6a9572fe7d6c07dc01ae6fe609508102eb6089b1f78491cb616470b75b1e2",
+    "removedInitialSeconds": 2.448916666666667,
+    "retainedBodyEnd": 53.221916666666665,
+    "canonicalBodyLastWordEnd": 52.87190000000001,
+    "removedTrailingDirective": "long pause",
+    "titlePcmSha256": "5fa9bab61e2136618b391e82f9449bdc88d7977f0f850060e6383a6e2b0963dc",
+    "bodyPcmSha256": "1492018f6824f84277d9d5267f4c9548ee3513057dbf2b67f6939cd4a3ae1065",
+    "voiceSamplesPreserved": true,
+    "initialAmbienceGain": 0.35,
+    "previousInitialAmbienceGain": 0.7,
+    "underSpeechGainUnchanged": 0.2,
+    "openingEffectGain": 0.5,
+    "newRequests": 0,
+    "voiceRetimed": false
+  }
+}

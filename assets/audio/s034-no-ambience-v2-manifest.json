@@ -1,0 +1,92 @@
+{
+  "code": "S034",
+  "activity": "ca-S034",
+  "state": "awaiting-montage-validation",
+  "file": "s034-no-ambience-v2.mp3",
+  "introFile": "s034-mixed-v1-intro.mp3",
+  "bodyFile": "s034-no-ambience-v2-cos.mp3",
+  "offset": 5.547416666666667,
+  "bodyDuration": 107.28129166666666,
+  "fullDuration": 112.82870833333334,
+  "voices": {
+    "Ferran": "Algenib"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "ab02e5a56a6807f106885dd5b8e4749ed77c2b2461e93dc71243142194efb2a3",
+  "sourceRequestHash": "6332c96b6359dc458160ecfe98b54e0dcc2ab5cc147847cfff06f571324d68ea",
+  "batch": "L13",
+  "rawSha256": "50a359687bbf10e905b5b5dfdb2497a47e098b918037e9dadb1a83a94f679608",
+  "takeSha256": "69f30b5d565ae32b70c18c2995c25f63904d969a32899b75bbbb9c15eb9c3e72",
+  "coverage": 0.9647435897435898,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.92,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "gentle-narration-bed",
+      "origin": "original-procedural-composition",
+      "author": "Sentit",
+      "license": "MIT",
+      "source": "tools/narration-bed.cjs",
+      "title": "Entre dues cortines",
+      "compositionId": "sentit-s034-v1",
+      "tempoBpm": 72,
+      "rootMidi": 55,
+      "scoreSeed": 34,
+      "notes": 94,
+      "externalSamples": false,
+      "noSpeech": true,
+      "retimed": false,
+      "sha256": "4689a77ff452b7dfb0f7af8e7575c8028024989874cc171d5f052731c1da14f6",
+      "envelope": {
+        "fadeInSeconds": 0.6,
+        "duckStart": 1.5,
+        "duckEnd": 2.25,
+        "speechGain": 0.26,
+        "nominalSpeechMusicLufs": -37.7,
+        "riseStart": 101.1613,
+        "riseEnd": 101.96130000000001,
+        "holdSeconds": 2,
+        "fadeStart": 103.96130000000001,
+        "fadeEnd": 105.11130000000001
+      },
+      "listeningValidation": "pending",
+      "start": 0,
+      "underSpeech": true
+    },
+    {
+      "name": "funkysandwich-871017",
+      "start": 34.2654,
+      "source": "assets/audio/sources/funkysandwich-871017.mp3",
+      "sourceSha256": "91f0758edb74981b079afe514c96645efe829b97c924cec132bb245cbf70c7a6",
+      "sourceUrl": "https://freesound.org/people/funkysandwich/sounds/871017/",
+      "author": "funkysandwich",
+      "license": "CC0 1.0",
+      "excerpt": {
+        "start": 0,
+        "seconds": 1.2
+      },
+      "underSpeech": false,
+      "insertedPause": 1.5
+    }
+  ],
+  "sha256": "f08591a55b092201f4affc58953249a06d0413217aec26db1e067cce8d730f3c",
+  "ambienceRevision": {
+    "originalFile": "s034-mixed-v1.mp3",
+    "originalSha256": "32bd2e3f3eb11643c03119096711059b01d172a1b01a4dcb9691ee713c569d81",
+    "removedSource": "callmethefoo-744447",
+    "voiceInputSha256": "dfa2e571ac60a0cde06a49eb797a78a737a064f739e205436c85803d57557257",
+    "musicInputSha256": "4689a77ff452b7dfb0f7af8e7575c8028024989874cc171d5f052731c1da14f6",
+    "sameVoiceAndMusicInputs": true,
+    "voiceRetimed": false,
+    "newRequests": 0,
+    "source": "tools/remove-s038-opening-ambience.cjs",
+    "chairInputSha256": "3b35dcdd154fa0bf271e1be4224b11ba06b04ef3016f037e10ffa26d5a0299ab",
+    "chairTimingUnchanged": true,
+    "authorization": "Docent 23/11: retirar l’ambient inicial de cortines/sala; conservar la cadira i la resta del muntatge."
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "code": "S014",
+  "activity": "ca-S014",
+  "state": "awaiting-montage-validation",
+  "file": "s014-classroom-v2.mp3",
+  "introFile": "s014-mixed-v1-intro.mp3",
+  "bodyFile": "s014-classroom-v2-cos.mp3",
+  "offset": 5.22,
+  "bodyDuration": 132.49,
+  "fullDuration": 137.71,
+  "voices": {
+    "Mireia": "Aoede",
+    "Biel": "Puck"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "a0bcff78c1b77973ff7ddd60722557464823fa57c596f11b98c6ecc64a97223a",
+  "sourceRequestHash": "2bcf21f0ba387c2047611627b76dd20a3d0ca658874913530cb453c22c35d5aa",
+  "batch": "L06",
+  "rawSha256": "4bcdb6306e09bc40b58de637d9e4c3d8cb63477429a60ccf89bb8602cf05d809",
+  "takeSha256": "152c7620fef035b3af47692b8a92dbca967b41809171af38d1d70f9be0fa527e",
+  "coverage": 0.9329896907216495,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.62,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "tallis0410-707510",
+      "start": 0,
+      "source": "assets/audio/sources/tallis0410-707510.mp3",
+      "sourceSha256": "1cceca74ca79bd56764a8482ce0721afa5d2a7612c15ef1160ce2c5b923a45ff",
+      "sourceUrl": "https://freesound.org/people/Tallis0410/sounds/707510/",
+      "author": "Tallis0410",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "initialGain": 0.35,
+      "speechGain": 0.2,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -42,
+      "lowPassHz": 1800,
+      "passes": 2,
+      "crossfadeSeconds": 1,
+      "fadeOut": 1.5
+    },
+    {
+      "name": "beussa-749880",
+      "start": 114.135,
+      "source": "assets/audio/sources/beussa-749880.mp3",
+      "sourceSha256": "4b38b5c58abb206d5b86b9d5b6a3acde8eea90c288ef194b4a67503fe659b4a9",
+      "sourceUrl": "https://freesound.org/people/Beussa/sounds/749880/",
+      "author": "Beussa",
+      "license": "CC0 1.0",
+      "excerpt": {
+        "start": 0,
+        "seconds": 0.678
+      },
+      "underSpeech": false,
+      "insertedPause": 1.05
+    }
+  ],
+  "sha256": "475e05a3be445086651a65e231e257bf6ed17ba662d775740b300a2e21de27c5",
+  "classroomRevision": {
+    "date": "2026-11-23",
+    "baseFile": "s014-mixed-v1.mp3",
+    "baseSha256": "a4a8fc91085cedfee08da9f79581ec98fe21070fc6f3f1da9d4936fb3a1445e0",
+    "removedEffects": [
+      "elenalostale-648659",
+      "godowan-235278",
+      "sentit-two-note-ending-v1"
+    ],
+    "retainedVoiceEnd": 128.19,
+    "canonicalVoiceEnd": 127.89,
+    "retainedVoicePcmSha256": "d53353a2b3524a16016802f34225f294729e042f4e51bac06ac9d00af5bae7d9",
+    "allRetainedVoiceSamplesIdentical": true,
+    "postSpeechVocalizationsRemoved": true,
+    "paperTimingUnchanged": true,
+    "paperInputSha256": "e32f5d6121d6e74bdcdf25f790f566eadd32704385869b60a22cd4e2d22309bf",
+    "titleTrackUnchanged": true,
+    "voiceRetimed": false,
+    "newRequests": 0
+  }
+}

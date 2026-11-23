@@ -149,9 +149,9 @@ export const soundSources = [
     "sha256": "4b38b5c58abb206d5b86b9d5b6a3acde8eea90c288ef194b4a67503fe659b4a9",
     "usedBy": [
       "ca-S044",
-      "ca-S017",
       "ca-S007",
       "ca-S014",
+      "ca-S017",
       "ca-S021",
       "ca-S030",
       "ca-S032",
@@ -179,11 +179,9 @@ export const soundSources = [
     "usedBy": [
       "ca-S007",
       "ca-S011",
-      "ca-S014",
       "ca-S024",
       "ca-S032",
-      "ca-S037",
-      "ca-S042"
+      "ca-S037"
     ],
     "treatment": "Dos segons de l’enregistrament a partir del segon 20, amb foses; es retira abans de la salutació. No s’utilitzen el timbre ni converses com a pistes."
   },
@@ -221,8 +219,8 @@ export const soundSources = [
     "retrievedAt": "2026-11-21",
     "sha256": "91f0758edb74981b079afe514c96645efe829b97c924cec132bb245cbf70c7a6",
     "usedBy": [
-      "ca-S017",
       "ca-S007",
+      "ca-S017",
       "ca-S034",
       "ca-S041",
       "ca-S042",
@@ -264,9 +262,7 @@ export const soundSources = [
     "downloadUrl": "https://cdn.freesound.org/previews/235/235278_1662097-hq.mp3",
     "retrievedAt": "2026-11-21",
     "sha256": "9e8c44a28c3edbdab423c1ff915dbaa5c79974501b5b094626f4cb241815ac57",
-    "usedBy": [
-      "ca-S014"
-    ],
+    "usedBy": [],
     "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
   },
   {
@@ -284,6 +280,7 @@ export const soundSources = [
     "retrievedAt": "2026-11-21",
     "sha256": "1cceca74ca79bd56764a8482ce0721afa5d2a7612c15ef1160ce2c5b923a45ff",
     "usedBy": [
+      "ca-S014",
       "ca-S017",
       "ca-S026",
       "ca-S035",
@@ -398,9 +395,7 @@ export const soundSources = [
     "downloadUrl": "https://cdn.freesound.org/previews/744/744447_14793871-hq.mp3",
     "retrievedAt": "2026-11-21",
     "sha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
-    "usedBy": [
-      "ca-S034"
-    ],
+    "usedBy": [],
     "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
   },
   {
@@ -456,10 +451,25 @@ export const soundSources = [
     "downloadUrl": "https://cdn.freesound.org/previews/799/799526_14610131-hq.mp3",
     "retrievedAt": "2026-11-22",
     "sha256": "e2f2588783985920c7d42e3bb34f7e50f706edb5f3ae4e75a55061b24dde2362",
+    "usedBy": [],
+    "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
+  },
+  {
+    "id": "kokoreli777-inside-old-train-169418",
+    "title": "Inside Old Train",
+    "author": "kokoreli777",
+    "url": "https://pixabay.com/sound-effects/film-special-effects-inside-old-train-169418/",
+    "license": "Pixabay Content License",
+    "licenseUrl": "https://pixabay.com/service/license-summary/",
+    "origin": "external-recording",
+    "description": "Ambient rítmic d’interior de tren antic.",
+    "sourceNotDistributedSeparately": true,
+    "checkedAt": "2026-11-23",
+    "treatment": "Entrada curta i fons continu atenuat sota Ferran fins al final del viatge. Foses, filtre i normalització locals; sense bucle, canvi de velocitat ni to.",
+    "sha256": "0b18dfacb3a57527569d501a1aa357bfa18232cbe9bcc36ff7d1cf85d38ceb63",
     "usedBy": [
       "ca-S047"
-    ],
-    "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
+    ]
   }
 ];
 

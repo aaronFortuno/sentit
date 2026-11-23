@@ -1,5 +1,13 @@
 # Canvis
 
+## 0.1.80 · 23 de novembre de 2026
+
+- S009, S023, S030, S031 i S050 validades per publicació definitiva. S009/S030/S031/S050 amb il·lustracions noves basades en els personatges, sense pistes de les respostes; fitxes i transcripcions netes. S023 conserva la imatge i registra la variació de timbre de la represa com a limitació acceptada, sense tornar-la a posar en cua.
+- S047: Inside Old Train de kokoreli777 acompanya el trajecte de manera contínua, atenuat sota Ferran i amb fosa abans de casa de la tieta. Veu, música i durada conservades; font sota Pixabay Content License, distribuïda només dins del muntatge.
+- S034: retirat només l’ambient inicial; cadira, música, veus i durada conservades. S035: retirats 5,7 s de farciment i long pause al títol; pista del contingut intacta.
+- S026: respiracions inicials i long pause final retirats; ambient i efecte d’entrada més suaus. S042: inici net, retirats long pause i espera final; full al mateix punt i cadira acostada al final. S014: final sense vocalitzacions ni els dos tons, efectes inicials retirats i ambient enregistrat continu d’aula molt baix.
+- Màsters i preses anteriors conservats. Sis revisions pendents d’audició final, sense peticions noves de Gemini. Seguiment, fonts i crèdits actualitzats.
+
 ## 0.1.79 · 23 de novembre de 2026
 
 - Bandera de notificació substituïda pel dibuix original de Lucide, més ample; els botons d’icona mantenen la mida en espais estrets. També s’unifica la bandera de les preguntes.

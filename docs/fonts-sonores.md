@@ -121,3 +121,11 @@ S006, S009, S029, S031 i S039 utilitzen Ona curta (Sentit, MIT), recurs ja aprov
 - S039: ambient interior molt baix sota els torns de Pau, no sota les dades de Mar. S’omet el paper previst perquè no hi ha un interval segur per posar-lo; no es talla la parla per forçar un efecte.
 
 La recepta és tools/render-news-batch.cjs i l’autorització de proposta de muntatge és independent de la validació final. Es conserven les preses de veu anteriors. Titulars nets de parla sobrera i farciment, extrems retallats en silenci i pauses internes compactades només en zones silencioses entre blocs verificats.
+
+## Revisions del 23/11/2026
+
+S047 utilitza [Inside Old Train de kokoreli777](https://pixabay.com/sound-effects/film-special-effects-inside-old-train-169418/), sota [Pixabay Content License](https://pixabay.com/service/license-summary/). El fitxer original facilitat pel docent es conserva localment; només es publica integrat sota la veu i la música. Tren continu fins al final del viatge, fosa abans de casa de la tieta, sense bucle ni canvi de to o velocitat. La gravació anterior es conserva a la versió v1 i ja no figura entre les fonts del màster vigent.
+
+S014 i S026: fons enregistrat d’aula Tallis0410, CC0, molt baix sota la parla; retirades vocalitzacions fora de guió. S034 conserva la cadira i elimina l’ambient inicial. S035 conserva íntegra la pista del contingut. S042 conserva el full i acosta la cadira al final, retirant el farciment i la instrucció long pause. Les revisions continuen pendents d’audició.
+
+S023 es publica amb la variació inicial de timbre de la represa acceptada explícitament pel docent. Queda al registre de limitacions acceptades per a una possible revisió futura, sense bloquejar la publicació ni generar noves peticions.

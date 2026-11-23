@@ -2,9 +2,9 @@
   "code": "S047",
   "activity": "ca-S047",
   "state": "awaiting-montage-validation",
-  "file": "s047-mixed-v1.mp3",
+  "file": "s047-train-v2.mp3",
   "introFile": "s047-mixed-v1-intro.mp3",
-  "bodyFile": "s047-mixed-v1-cos.mp3",
+  "bodyFile": "s047-train-v2-cos.mp3",
   "offset": 4.17,
   "bodyDuration": 107.39508333333333,
   "fullDuration": 111.56508333333333,
@@ -59,37 +59,41 @@
       "underSpeech": true
     },
     {
-      "name": "throndronis-799526",
+      "name": "kokoreli777-inside-old-train-169418",
+      "origin": "licensed-recording-in-montage",
       "start": 0,
-      "source": "assets/audio/sources/throndronis-799526-train.mp3",
-      "sourceSha256": "e2f2588783985920c7d42e3bb34f7e50f706edb5f3ae4e75a55061b24dde2362",
-      "sourceUrl": "https://freesound.org/people/Throndronis/sounds/799526/",
-      "author": "Throndronis",
-      "license": "CC0 1.0",
-      "excerpt": {
-        "start": 12,
-        "seconds": 1.4
-      },
-      "underSpeech": false
-    },
-    {
-      "name": "throndronis-799526",
-      "start": 33.109983333333346,
-      "source": "assets/audio/sources/throndronis-799526-train.mp3",
-      "sourceSha256": "e2f2588783985920c7d42e3bb34f7e50f706edb5f3ae4e75a55061b24dde2362",
-      "sourceUrl": "https://freesound.org/people/Throndronis/sounds/799526/",
-      "author": "Throndronis",
-      "license": "CC0 1.0",
-      "excerpt": {
-        "start": 16,
-        "seconds": 1
-      },
+      "end": 50.79998333333333,
       "underSpeech": true,
-      "insertedPause": 0,
-      "sourceTargetLufs": -41
+      "credit": {
+        "id": "kokoreli777-inside-old-train-169418",
+        "title": "Inside Old Train",
+        "author": "kokoreli777",
+        "url": "https://pixabay.com/sound-effects/film-special-effects-inside-old-train-169418/",
+        "license": "Pixabay Content License",
+        "licenseUrl": "https://pixabay.com/service/license-summary/",
+        "origin": "external-recording",
+        "description": "Ambient rítmic d’interior de tren antic.",
+        "sourceNotDistributedSeparately": true,
+        "checkedAt": "2026-11-23",
+        "treatment": "Entrada curta i fons continu atenuat sota Ferran fins al final del viatge. Foses, filtre i normalització locals; sense bucle, canvi de velocitat ni to."
+      },
+      "sourceSha256": "0b18dfacb3a57527569d501a1aa357bfa18232cbe9bcc36ff7d1cf85d38ceb63",
+      "sourceExcerpt": {
+        "start": 5,
+        "seconds": 50.54998333333333
+      },
+      "sourceNotDistributedSeparately": true,
+      "sourceTargetLufs": -26,
+      "speechGain": 0.2,
+      "speechNominalLufs": -40,
+      "fadeIn": 0.3,
+      "fadeOut": 0.9,
+      "noLoop": true,
+      "retimed": false,
+      "pitchShifted": false
     }
   ],
-  "sha256": "977e41ad44ec32e59664987d2e42a154414b01578a2a478c092ade9a502600e3",
+  "sha256": "d67bb44c5315bd90667a16193e77c99fa5a08e65f3c18ee1acf3a1b4d65cb1d1",
   "voiceHandles": {
     "body": {
       "start": 0.6304166666666666,
@@ -111,5 +115,31 @@
     "approvedAt": "2026-11-22",
     "sourceTakeSha256": "0a299ff99e309f1bea98b95ba32d268402c74c586195144b92aac4a456f18907",
     "confirmation": "S047 validat per muntatge, molt bé les inflexions del personatge"
+  },
+  "ambienceRevision": {
+    "at": "2026-11-23",
+    "baseFile": "s047-mixed-v1.mp3",
+    "baseAudioSha256": "977e41ad44ec32e59664987d2e42a154414b01578a2a478c092ade9a502600e3",
+    "replacedSource": "throndronis-799526",
+    "voiceStemSha256": "6a9d8b384ce0e064b18bcc4ab7a55cfd883742f229dd7ea127667dba0a95f38e",
+    "musicStemSha256": "4af79b6b1a841c84fbeeb532f04c12944a0576950fc495ccea9980da5e9c4b84",
+    "voiceTakeUnchanged": true,
+    "musicStemUnchanged": true,
+    "timingUnchanged": true,
+    "trainEndsBeforePart": "tieta",
+    "newRequests": 0,
+    "teacherFinalApproval": false
+  },
+  "trainRevision": {
+    "date": "2026-11-23",
+    "baseFile": "s047-mixed-v1.mp3",
+    "baseSha256": "977e41ad44ec32e59664987d2e42a154414b01578a2a478c092ade9a502600e3",
+    "voiceInputSha256": "6a9d8b384ce0e064b18bcc4ab7a55cfd883742f229dd7ea127667dba0a95f38e",
+    "musicInputSha256": "4af79b6b1a841c84fbeeb532f04c12944a0576950fc495ccea9980da5e9c4b84",
+    "sameVoiceAndMusicInputs": true,
+    "sourceNotDistributedSeparately": true,
+    "houseSpeechStart": 51.939983333333345,
+    "voiceRetimed": false,
+    "newRequests": 0
   }
 }

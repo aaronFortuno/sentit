@@ -2,12 +2,12 @@
   "code": "S035",
   "activity": "ca-S035",
   "state": "awaiting-montage-validation",
-  "file": "s035-mixed-v1.mp3",
-  "introFile": "s035-mixed-v1-intro.mp3",
+  "file": "s035-directives-v2.mp3",
+  "introFile": "s035-directives-v2-intro.mp3",
   "bodyFile": "s035-mixed-v1-cos.mp3",
-  "offset": 10.157291666666667,
+  "offset": 4.44,
   "bodyDuration": 103.66270833333333,
-  "fullDuration": 113.82,
+  "fullDuration": 108.10270833333333,
   "voices": {
     "Mireia": "Aoede",
     "Laia": "Leda"
@@ -22,7 +22,7 @@
   "coverage": 0.9516728624535316,
   "newSynthesisRequests": 0,
   "sharedRequest": true,
-  "lufs": -19.23,
+  "lufs": -19.21,
   "peakDbTP": -2.5,
   "voiceRetimed": false,
   "effects": [
@@ -58,5 +58,34 @@
       "insertedPause": 1.05
     }
   ],
-  "sha256": "86398c0938ba8be1cbdb7c4b3b769708f9ab3afd4dfdf251d48c20fa36c8cf49"
+  "sha256": "072519a3f408adb566362dea90e7c27d8afe1ebcd3d2e65e14a40c1b70aed894",
+  "directiveRevision": {
+    "date": "2026-11-23",
+    "baseFile": "s035-mixed-v1.mp3",
+    "baseSha256": "86398c0938ba8be1cbdb7c4b3b769708f9ab3afd4dfdf251d48c20fa36c8cf49",
+    "removed": [
+      "long pause"
+    ],
+    "recognizedAs": [
+      "l'ong",
+      "bous"
+    ],
+    "retainedTitleRange": {
+      "start": 2.58,
+      "end": 6.22
+    },
+    "canonicalTitleRange": {
+      "start": 2.8000000000000114,
+      "end": 5.920000000000002
+    },
+    "initialRemovedSeconds": 2.58,
+    "tailRemovedSeconds": 3.137291666666667,
+    "retainedTitlePcmSha256": "9cf265505d43d68fc21387604fa02a96817f3d2e0b13b6c7e1a1fb1055d31f80",
+    "bodyUnchanged": true,
+    "bodyPcmSha256": "20f58667ec9b0cf72d501f392e64dbc455d404293b3f56922cbfbf0a0328782b",
+    "bodyTrackSha256": "f0f3eb74bb548c230f730f1e62684154f8b333e45f8eefe8e4acdcfd4db72117",
+    "voiceRetimed": false,
+    "newRequests": 0
+  },
+  "uncertainTurns": []
 }

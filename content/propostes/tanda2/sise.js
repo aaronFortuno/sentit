@@ -83,9 +83,10 @@ export const sise = [
   }),
   proposal({
     id: 'dos-camins-amb-la-mateixa-mitjana', code: 'S042', title: 'Dos camins amb la mateixa mitjana', grade: '6', level: 'middle', genre: 'explanation', universeIds: ['amb-mireia'],
-    seconds: 112, status: 'ready-for-review', reviewStatus: 'audio-review',
-    audio: './assets/audio/s042-mixed-v1.mp3', tracks: { introduction: './assets/audio/s042-mixed-v1-intro.mp3', body: './assets/audio/s042-mixed-v1-cos.mp3' },
-    fragment: { start: 10.729000000000001, seconds: 101 },
+    recordingCues: [{"before":"resultat","text":"Presentació neta i entrada directa de la conversa, sense respiracions ni ambient inicial afegit."},{"after":"primer","text":"Es conserva el full enregistrat al mateix punt del diàleg, sense modificar les frases."},{"after":"final","text":"Final de Biel íntegre. Cadira enregistrada poc després de l’última paraula i fosa breu, sense long pause ni espera afegida."}],
+    seconds: 89, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s042-timing-v2.mp3', tracks: { introduction: './assets/audio/s042-timing-v2-intro.mp3', body: './assets/audio/s042-timing-v2-cos.mp3' },
+    fragment: { start: 4.430000000000001, seconds: 84 },
     summary: 'La Mireia i en Biel comparen dos camins amb la mateixa mitjana de temps i recorden què va passar el dia que van trobar molts cotxes.',
     voices: { Mireia: 'Aoede', Biel: 'Puck' }, delivery: 'Conversa d’aula amb càlculs breus i una experiència concreta d’espera pels cotxes. Mireia reacciona i fa preguntes curtes; Biel respon com un jove, lliga l’hora amb el record i s’ofereix a ajudar amb el cronòmetre. Petita vacil·lació final en recordar qui el té. Evitar informes, protocols i conclusions d’expert. Llegir les dades clarament, sense alentir cada número; tots els càlculs es diuen al guió.',
     editorialFocus: '6è intermèdia: comparar recorreguts amb la mateixa mitjana i relacionar els temps observats, l’espera pels cotxes i l’hora de la visita. Seguir la proposta d’una nova prova dins d’una conversa d’aula. Càlculs explícits i nou preguntes, sense exigir retenir cada valor.',

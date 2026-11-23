@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "references": [
+    "../characters/laia-model-sheet-v1.webp",
+    "../characters/pau-model-sheet-v1.webp"
+  ],
+  "asset": "la-balanca-marca-massa-v1.webp",
+  "width": 1536,
+  "height": 1024,
+  "prompt": "Use case: illustration-story. A new context illustration for Sentit listening activity S050, 'La balança marca massa'. Reference1 is Laia's canonical identity, reference2 Pau's. Preserve Laia: young teenager, fair warm skin, freckles, curly light-brown hair in messy bun, sage sweater and beige trousers. Preserve Pau: middle-aged warm man with receding short dark hair and short beard, sage polo shirt, dark charcoal apron, beige trousers. One natural scene at a market stall: Laia talks with Pau across a plain wooden counter, with an engaged small hand gesture and a friendly attentive expression. Pau smiles and listens. Softly sketched neutral market interior/canopy in background. The counter is empty. Do not show bags or containers, fruit, apples, trays, weighing scales, screens, zeroes, buttons, money, labels, quantities or anything answering a comprehension question. No other people, no readable words or numbers. Fine ink and soft watercolor, warm white and muted sage/charcoal/cream, same style as the model sheets. Landscape3:2 1536x1024, natural waist-up medium shot, white fading edges, uncluttered, readable at80mm and in grayscale. No logo, text, watermark or model-sheet panels."
+}

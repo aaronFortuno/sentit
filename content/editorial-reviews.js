@@ -53,11 +53,11 @@ export const editorialReviews = {
   },
   "ca-S009": {
     "status": "passed",
-    "reviewedAt": "2026-11-22",
+    "reviewedAt": "2026-11-23",
     "reviewer": "revisio_contextos_previs",
-    "fingerprint": "63dc0ab59071bd124c63f9332575d4d756ba291f6e7e8e0265c3a5195f3e3043",
+    "fingerprint": "0453fed8e5cac1cd63e79e4f017275ccd10b372292204dd46b8cd0dea6a61751",
     "metadataReview": {
-      "scope": "Anotacions de muntatge real substitueixen les acotacions antigues; text i preguntes intactes, sense aprovació perceptiva."
+      "scope": "Tancament amb il·lustració sense pistes i transcripció només parlada. Àudio validat pel docent, sense alterar-lo."
     }
   },
   "ca-S010": {
@@ -90,9 +90,12 @@ export const editorialReviews = {
   },
   "ca-S014": {
     "status": "passed",
-    "reviewedAt": "2026-11-20",
-    "reviewer": "revisor-coherencia-independent",
-    "fingerprint": "6aec80a53248aa7f3e9865841e69b4885c8019115d4fe2e45942a24b70933771"
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_contextos_previs",
+    "fingerprint": "647091c41551fa78785d89c14ecdf854fa9c135d85244613272ba1aee5487d37",
+    "metadataReview": {
+      "scope": "Ambient continu d’aula; retirats efectes inicials, respiracions i tons finals. Full i veus conservats. Pendent audició."
+    }
   },
   "ca-S016": {
     "status": "passed",
@@ -192,20 +195,20 @@ export const editorialReviews = {
   },
   "ca-S030": {
     "status": "passed",
-    "reviewedAt": "2026-11-22",
+    "reviewedAt": "2026-11-23",
     "reviewer": "revisio_contextos_previs",
-    "fingerprint": "e118368fb5bb4a2127071986eda7c6e3a9e1d27f7db6c6dc0fc33fcfae5d27de",
+    "fingerprint": "b24907fceb197acf6e01c59fd2a342ef93fb18282a968a8117ee2004347f244b",
     "metadataReview": {
-      "scope": "Anotacions de muntatge real substitueixen les acotacions antigues; text i preguntes intactes, sense aprovació perceptiva."
+      "scope": "Tancament amb il·lustració coherent Laia/Biel, sense pistes i solucionari net. Àudio validat pel docent; cap canvi de veu."
     }
   },
   "ca-S031": {
     "status": "passed",
-    "reviewedAt": "2026-11-22",
+    "reviewedAt": "2026-11-23",
     "reviewer": "revisio_contextos_previs",
-    "fingerprint": "b214470b2ac404b3500255f4cbdcaf204257782b19916141752c4d32a975f582",
+    "fingerprint": "f234c178bd18546a243c1e7dcacc0d9ce7b57648cc9fec49dbb46daa1cfb5922",
     "metadataReview": {
-      "scope": "Anotacions de muntatge real substitueixen les acotacions antigues; text i preguntes intactes, sense aprovació perceptiva."
+      "scope": "Tancament amb imatge de Mar a la ràdio, sense pistes. Guió i preguntes intactes; muntatge Breaking News validat pel docent."
     }
   },
   "ca-S032": {
@@ -222,9 +225,12 @@ export const editorialReviews = {
   },
   "ca-S034": {
     "status": "passed",
-    "reviewedAt": "2026-11-21",
-    "reviewer": "independent-global-register-review",
-    "fingerprint": "0b665a370e7930190eea0b1ba4d827d50e020ac5eb8a3901b5b7b4eb5074a825"
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_contextos_previs",
+    "fingerprint": "87ed490107a025961b15ec3bb3e2be759b86870452e985fda4107ce622145558",
+    "metadataReview": {
+      "scope": "Retirat ambient inicial; cadira, veu i música conservades. Pendent audició."
+    }
   },
   "ca-S035": {
     "status": "passed",
@@ -279,9 +285,12 @@ export const editorialReviews = {
   },
   "ca-S042": {
     "status": "passed",
-    "reviewedAt": "2026-11-21",
-    "reviewer": "independent-naturalness-and-coherence-b",
-    "fingerprint": "36d170f98fd35d2e96e62a2160f8beb530b41102b36346dd6d140fe22cca6566"
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_contextos_previs",
+    "fingerprint": "0cc7f3ec119a0be1a626c1b287e2b60ca6ac41458188bd81a3c01ee81f8885e1",
+    "metadataReview": {
+      "scope": "Inici net, paper conservat i cadira al final sense espera, sense canviar paraules. Pendent audició."
+    }
   },
   "ca-S043": {
     "status": "passed",
@@ -324,9 +333,12 @@ export const editorialReviews = {
   },
   "ca-S047": {
     "status": "passed",
-    "reviewedAt": "2026-11-22",
+    "reviewedAt": "2026-11-23",
     "reviewer": "revisio_contextos_previs",
-    "fingerprint": "58218f31124c56a9a90d9543c3d215cd963f253a625a8958cb9195a5e3e6772e"
+    "fingerprint": "50d8b32bb52c557c0997b89977cc1ab5b9b8540c5d5b71f28a3a81770cbaafab",
+    "metadataReview": {
+      "scope": "Tren rítmic continu fins al final del trajecte i fosa abans de tieta; música, veu i preguntes conservades. Pendent audició."
+    }
   },
   "ca-S048": {
     "status": "passed",
@@ -345,11 +357,11 @@ export const editorialReviews = {
   },
   "ca-S050": {
     "status": "passed",
-    "reviewedAt": "2026-11-22",
+    "reviewedAt": "2026-11-23",
     "reviewer": "revisio_contextos_previs",
-    "fingerprint": "cbf57c492b3f830ab7bb51262823c84840c4703b8ef3eaa0947ef5db02adca47",
+    "fingerprint": "4f9689aac3f595ee436e2cdcd4af4fff59f793cdff48e5fbc4eb2b6784f1e67e",
     "metadataReview": {
-      "scope": "Muntatge amb ambient continu de mercat segons retorn docent; cos i sis preguntes intactes, pendent d’audició final."
+      "scope": "Tancament amb il·lustració sense pistes i transcripció només parlada. Àudio validat pel docent, sense alterar-lo."
     }
   },
   "ca-S051": {

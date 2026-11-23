@@ -1,0 +1,85 @@
+{
+  "code": "S042",
+  "activity": "ca-S042",
+  "state": "awaiting-montage-validation",
+  "file": "s042-timing-v2.mp3",
+  "introFile": "s042-timing-v2-intro.mp3",
+  "bodyFile": "s042-timing-v2-cos.mp3",
+  "offset": 4.430000000000001,
+  "bodyDuration": 84.49,
+  "fullDuration": 88.92,
+  "voices": {
+    "Mireia": "Aoede",
+    "Biel": "Puck"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "a0bcff78c1b77973ff7ddd60722557464823fa57c596f11b98c6ecc64a97223a",
+  "sourceRequestHash": "707a1abd4099383f028eec9b0f81cd780694f57bc428f9c16dd98cdb303ac866",
+  "batch": "L06",
+  "rawSha256": "4bcdb6306e09bc40b58de637d9e4c3d8cb63477429a60ccf89bb8602cf05d809",
+  "takeSha256": "1e351aa9f0a07b13274fb1b1043c76e8c38abdc7b2a94a540afc4f294081055f",
+  "coverage": 0.8969465648854962,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.83,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "beussa-749880",
+      "start": 25.810000000000056,
+      "source": "assets/audio/sources/beussa-749880.mp3",
+      "sourceSha256": "4b38b5c58abb206d5b86b9d5b6a3acde8eea90c288ef194b4a67503fe659b4a9",
+      "sourceUrl": "https://freesound.org/people/Beussa/sounds/749880/",
+      "author": "Beussa",
+      "license": "CC0 1.0",
+      "excerpt": {
+        "start": 0,
+        "seconds": 0.678
+      },
+      "underSpeech": false,
+      "insertedPause": 1.05
+    },
+    {
+      "name": "funkysandwich-871017",
+      "start": 82.19000000000004,
+      "source": "assets/audio/sources/funkysandwich-871017.mp3",
+      "sourceSha256": "91f0758edb74981b079afe514c96645efe829b97c924cec132bb245cbf70c7a6",
+      "sourceUrl": "https://freesound.org/people/funkysandwich/sounds/871017/",
+      "author": "funkysandwich",
+      "license": "CC0 1.0",
+      "excerpt": {
+        "start": 0,
+        "seconds": 1.2
+      },
+      "underSpeech": false
+    }
+  ],
+  "sha256": "7fc840a4469df4e5d9881d3c482435255013f078ed94a331901c918c545e4f11",
+  "bookendRevision": {
+    "date": "2026-11-23",
+    "baseFile": "s042-mixed-v1.mp3",
+    "baseSha256": "5281338f5ab4c291877fa486c70ca9d4e9fd7a2bd3b858bdb34559414aa01c20",
+    "retainedTitleRange": {
+      "start": 4.774,
+      "end": 8.804
+    },
+    "titlePcmSha256": "213a54dd0d4edd2f3885678096571c3d1f4d838750712f8052da8a1259bd9e37",
+    "retainedVoiceRange": {
+      "start": 3.275,
+      "end": 85.565
+    },
+    "voicePcmSha256": "942e7c42f1ba5e64c17fdbf25ad0566c09a10072c7742b80f90d0663ee4d0b9e",
+    "allRetainedSpeechSamplesIdentical": true,
+    "spokenDirectiveRemoved": "long pause",
+    "openingEffectRemoved": "elenalostale-648659",
+    "paperInputSha256": "e32f5d6121d6e74bdcdf25f790f566eadd32704385869b60a22cd4e2d22309bf",
+    "paperRelativeToSpeechUnchanged": true,
+    "chairInputSha256": "daf71a984d8075ce785e52e17cd85790661b9f77586774638b92fc9eab846f9d",
+    "chairAfterFinalWordSeconds": 0.25,
+    "voiceRetimed": false,
+    "newRequests": 0
+  }
+}

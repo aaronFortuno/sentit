@@ -1,6 +1,6 @@
 # Cua de síntesi
 
-Actualitzat: **22/11/2026**. Aquest document mostra només la feina pendent d’enviar o de revisar. Els lots ja rebuts consten a l’[històric de síntesi](historic-sintesi.md); no s’han de tornar a enviar.
+Actualitzat: **23/11/2026**. Aquest document mostra només la feina pendent d’enviar o de revisar. Els lots ja rebuts consten a l’[històric de síntesi](historic-sintesi.md); no s’han de tornar a enviar.
 
 ## Lots pendents
 

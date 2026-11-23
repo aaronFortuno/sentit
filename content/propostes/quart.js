@@ -4,9 +4,10 @@ export const quart = [
   proposal({
     id: 'la-biblioteca-canvia-dhorari', code: 'S009', title: 'La biblioteca canvia d’horari', grade: '4', level: 'easy', genre: 'news',
     recordingCues: [{"before":"inici","text":"Entrada de Breaking News Background Music, de Grand_Project. Base contínua molt atenuada i comprimida sota les veus; sense els papers ni la sintonia anterior."},{"after":"resum","text":"Pujada progressiva cap al tancament musical comú i fosa final. El muntatge continua pendent d’audició docent."}],
-    seconds: 96, status: 'ready-for-review', reviewStatus: 'audio-review',
+    seconds: 96, status: 'ready-for-review', reviewStatus: 'validated',
     audio: './assets/audio/s009-news-common-v2.mp3', tracks: { introduction: './assets/audio/s009-news-common-v2-intro.mp3', body: './assets/audio/s009-news-common-v2-cos.mp3' },
     fragment: { start: 6.36, seconds: 90 },
+    image: { src: './assets/images/la-biblioteca-canvia-d-horari-v1.webp', alt: 'Mar informa davant de l’entrada d’una biblioteca.', width: 1536, height: 1024 },
     summary: 'Un avís de la Mar permet preparar una visita i distingir l’obertura del servei de retorn.',
     voices: { Mar: 'Erinome' }, delivery: 'Periodista adulta, clara i propera. Separar els dies, el canvi i el servei que no depèn de l’horari sense remarcar artificialment les respostes.',
     editorialFocus: '4t accessible: informació explícita i útil, organitzada per blocs. Aplicar un horari al cas d’una visita concreta sense fer càlculs.',

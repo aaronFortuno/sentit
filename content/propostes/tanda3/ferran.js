@@ -67,9 +67,9 @@ export const ferran = [
   }),
   proposal({
     id: 'la-maleta-que-feia-soroll', code: 'S047', title: 'La maleta que feia soroll', grade: '4', level: 'middle', genre: 'story', universeIds: ['aina-ferran'],
-    recordingCues: [{"before":"viatge","text":"Base original «Botons de tots colors», molt baixa sota Ferran. Ambient real breu de tren abans de la veu, sense megafonia."},{"after":"tren","text":"Evocació molt breu del tren, atenuada sota la narració i sense pausa afegida. Cap so de capsa ni pista sobre el contingut."},{"after":"final","text":"Conservar el final complet de Ferran; pujada suau de la música, dos segons de presència i fosa de dos segons."}],
+    recordingCues: [{"before":"viatge","text":"Base original «Botons de tots colors», molt baixa sota Ferran. Ambient continu de tren rítmic de kokoreli777: entrada curta, atenuat sota la narració, sense megafonia."},{"after":"por","text":"Fosa del tren en acabar el viatge i abans d’arribar a casa de la tieta. Cap so de capsa ni pista sobre el contingut."},{"after":"final","text":"Conservar el final complet de Ferran; pujada suau de la música, dos segons de presència i fosa de dos segons."}],
     seconds: 112, status: 'ready-for-review', reviewStatus: 'audio-review',
-    audio: './assets/audio/s047-mixed-v1.mp3', tracks: { introduction: './assets/audio/s047-mixed-v1-intro.mp3', body: './assets/audio/s047-mixed-v1-cos.mp3' },
+    audio: './assets/audio/s047-train-v2.mp3', tracks: { introduction: './assets/audio/s047-mixed-v1-intro.mp3', body: './assets/audio/s047-train-v2-cos.mp3' },
     fragment: { start: 4.17, seconds: 107 },
     summary: 'Una capsa que la mare havia posat dins la maleta feia soroll durant el viatge. En Ferran pensava que s’havia trencat alguna cosa.',
     voices, delivery, soundCredits,

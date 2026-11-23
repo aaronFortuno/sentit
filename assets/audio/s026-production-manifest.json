@@ -2,12 +2,12 @@
   "code": "S026",
   "activity": "ca-S026",
   "state": "awaiting-montage-validation",
-  "file": "s026-mixed-v1.mp3",
-  "introFile": "s026-mixed-v1-intro.mp3",
-  "bodyFile": "s026-mixed-v1-cos.mp3",
-  "offset": 7.186999999999999,
-  "bodyDuration": 61.67791666666667,
-  "fullDuration": 68.86491666666667,
+  "file": "s026-clean-v2.mp3",
+  "introFile": "s026-clean-v2-intro.mp3",
+  "bodyFile": "s026-clean-v2-cos.mp3",
+  "offset": 4.738083333333333,
+  "bodyDuration": 59.52191666666667,
+  "fullDuration": 64.26,
   "voices": {
     "Mireia": "Aoede",
     "Biel": "Puck"
@@ -20,22 +20,10 @@
   "rawSha256": "4bcdb6306e09bc40b58de637d9e4c3d8cb63477429a60ccf89bb8602cf05d809",
   "takeSha256": "8d095c83d3e23066d8c878db8516bc1acbb32ff31eec18dacb97de96cce26ace",
   "coverage": 0.9285714285714286,
-  "uncertainTurns": [
-    {
-      "start": 262.47999999999996,
-      "end": 263.17,
-      "heard": "i ivaj ara",
-      "status": "short-turn-awaiting-listening",
-      "originalPreserved": true,
-      "block": "S041-T01",
-      "part": "llegir",
-      "text": "Hi vaig ara?",
-      "coverage": 0.3333333333333333
-    }
-  ],
+  "uncertainTurns": [],
   "newSynthesisRequests": 0,
   "sharedRequest": true,
-  "lufs": -19.61,
+  "lufs": -19.71,
   "peakDbTP": -2.5,
   "voiceRetimed": false,
   "effects": [
@@ -53,7 +41,9 @@
       "speechNominalLufs": -42,
       "lowPassHz": 1800,
       "passes": 3,
-      "crossfadeSeconds": 1
+      "crossfadeSeconds": 1,
+      "initialGain": 0.35,
+      "previousInitialGain": 0.7
     },
     {
       "name": "breezy2000uk-578712",
@@ -67,11 +57,12 @@
         "start": 3,
         "seconds": 1.1
       },
-      "underSpeech": false
+      "underSpeech": false,
+      "additionalGain": 0.5
     },
     {
       "name": "breezy2000uk-578712",
-      "start": 58.477916666666665,
+      "start": 56.32191666666667,
       "source": "assets/audio/sources/breezy2000uk-578712.mp3",
       "sourceSha256": "2a4a093fb09e418347b51d129508a04cb9a7b2a0c55cd2b84b3dc5e45cf0f371",
       "sourceUrl": "https://freesound.org/people/Breezy2000uk/sounds/578712/",
@@ -84,5 +75,23 @@
       "underSpeech": false
     }
   ],
-  "sha256": "49a6a9572fe7d6c07dc01ae6fe609508102eb6089b1f78491cb616470b75b1e2"
+  "sha256": "781bcc5bcdec191eeac21566d1feded42b583b764dda9b012bbb4c957d03bc74",
+  "cleanRevision": {
+    "date": "2026-11-23",
+    "baseFile": "s026-mixed-v1.mp3",
+    "baseSha256": "49a6a9572fe7d6c07dc01ae6fe609508102eb6089b1f78491cb616470b75b1e2",
+    "removedInitialSeconds": 2.448916666666667,
+    "retainedBodyEnd": 53.221916666666665,
+    "canonicalBodyLastWordEnd": 52.87190000000001,
+    "removedTrailingDirective": "long pause",
+    "titlePcmSha256": "5fa9bab61e2136618b391e82f9449bdc88d7977f0f850060e6383a6e2b0963dc",
+    "bodyPcmSha256": "1492018f6824f84277d9d5267f4c9548ee3513057dbf2b67f6939cd4a3ae1065",
+    "voiceSamplesPreserved": true,
+    "initialAmbienceGain": 0.35,
+    "previousInitialAmbienceGain": 0.7,
+    "underSpeechGainUnchanged": 0.2,
+    "openingEffectGain": 0.5,
+    "newRequests": 0,
+    "voiceRetimed": false
+  }
 }

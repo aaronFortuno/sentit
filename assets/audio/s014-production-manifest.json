@@ -2,12 +2,12 @@
   "code": "S014",
   "activity": "ca-S014",
   "state": "awaiting-montage-validation",
-  "file": "s014-mixed-v1.mp3",
+  "file": "s014-classroom-v2.mp3",
   "introFile": "s014-mixed-v1-intro.mp3",
-  "bodyFile": "s014-mixed-v1-cos.mp3",
+  "bodyFile": "s014-classroom-v2-cos.mp3",
   "offset": 5.22,
-  "bodyDuration": 134.43108333333333,
-  "fullDuration": 139.65108333333333,
+  "bodyDuration": 132.49,
+  "fullDuration": 137.71,
   "voices": {
     "Mireia": "Aoede",
     "Biel": "Puck"
@@ -20,52 +20,30 @@
   "rawSha256": "4bcdb6306e09bc40b58de637d9e4c3d8cb63477429a60ccf89bb8602cf05d809",
   "takeSha256": "152c7620fef035b3af47692b8a92dbca967b41809171af38d1d70f9be0fa527e",
   "coverage": 0.9329896907216495,
-  "uncertainTurns": [
-    {
-      "start": 262.47999999999996,
-      "end": 263.17,
-      "heard": "i ivaj ara",
-      "status": "short-turn-awaiting-listening",
-      "originalPreserved": true,
-      "block": "S041-T01",
-      "part": "llegir",
-      "text": "Hi vaig ara?",
-      "coverage": 0.3333333333333333
-    }
-  ],
+  "uncertainTurns": [],
   "newSynthesisRequests": 0,
   "sharedRequest": true,
-  "lufs": -18.58,
-  "peakDbTP": -2.49,
+  "lufs": -18.62,
+  "peakDbTP": -2.5,
   "voiceRetimed": false,
   "effects": [
     {
-      "name": "elenalostale-648659",
+      "name": "tallis0410-707510",
       "start": 0,
-      "source": "assets/audio/sources/elenalostale-648659.mp3",
-      "sourceSha256": "bdb5a2e1b40bdcec49cf7c3752c186e355e58499ec7d0578022da599d9291bf8",
-      "sourceUrl": "https://freesound.org/people/Elenalostale/sounds/648659/",
-      "author": "Elenalostale",
+      "source": "assets/audio/sources/tallis0410-707510.mp3",
+      "sourceSha256": "1cceca74ca79bd56764a8482ce0721afa5d2a7612c15ef1160ce2c5b923a45ff",
+      "sourceUrl": "https://freesound.org/people/Tallis0410/sounds/707510/",
+      "author": "Tallis0410",
       "license": "CC0 1.0",
-      "excerpt": {
-        "start": 20,
-        "seconds": 2
-      },
-      "underSpeech": false
-    },
-    {
-      "name": "godowan-235278",
-      "start": 0.3,
-      "source": "assets/audio/sources/godowan-235278.mp3",
-      "sourceSha256": "9e8c44a28c3edbdab423c1ff915dbaa5c79974501b5b094626f4cb241815ac57",
-      "sourceUrl": "https://freesound.org/people/Godowan/sounds/235278/",
-      "author": "Godowan",
-      "license": "CC0 1.0",
-      "excerpt": {
-        "start": 0,
-        "seconds": 1.35
-      },
-      "underSpeech": false
+      "underSpeech": true,
+      "initialGain": 0.35,
+      "speechGain": 0.2,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -42,
+      "lowPassHz": 1800,
+      "passes": 2,
+      "crossfadeSeconds": 1,
+      "fadeOut": 1.5
     },
     {
       "name": "beussa-749880",
@@ -81,17 +59,27 @@
       },
       "underSpeech": false,
       "insertedPause": 1.05
-    },
-    {
-      "name": "sentit-two-note-ending-v1",
-      "start": 131.43108333333333,
-      "source": "tools/render-mixed-take.cjs",
-      "sourceUrl": "https://github.com/aaronFortuno/sentit/blob/main/tools/render-mixed-take.cjs",
-      "author": "Sentit",
-      "license": "MIT",
-      "origin": "original-procedural-composition",
-      "underSpeech": false
     }
   ],
-  "sha256": "a4a8fc91085cedfee08da9f79581ec98fe21070fc6f3f1da9d4936fb3a1445e0"
+  "sha256": "475e05a3be445086651a65e231e257bf6ed17ba662d775740b300a2e21de27c5",
+  "classroomRevision": {
+    "date": "2026-11-23",
+    "baseFile": "s014-mixed-v1.mp3",
+    "baseSha256": "a4a8fc91085cedfee08da9f79581ec98fe21070fc6f3f1da9d4936fb3a1445e0",
+    "removedEffects": [
+      "elenalostale-648659",
+      "godowan-235278",
+      "sentit-two-note-ending-v1"
+    ],
+    "retainedVoiceEnd": 128.19,
+    "canonicalVoiceEnd": 127.89,
+    "retainedVoicePcmSha256": "d53353a2b3524a16016802f34225f294729e042f4e51bac06ac9d00af5bae7d9",
+    "allRetainedVoiceSamplesIdentical": true,
+    "postSpeechVocalizationsRemoved": true,
+    "paperTimingUnchanged": true,
+    "paperInputSha256": "e32f5d6121d6e74bdcdf25f790f566eadd32704385869b60a22cd4e2d22309bf",
+    "titleTrackUnchanged": true,
+    "voiceRetimed": false,
+    "newRequests": 0
+  }
 }

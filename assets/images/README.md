@@ -79,3 +79,12 @@ Context: an adult female local radio journalist with a handheld microphone, stan
 
 
 Publicacions del 21/11: S027, S032 i S038/S038D tenen il·lustracions contextuals pròpies amb models recurrents i revisió independent. S038 i S038D comparteixen escena perquè són dues versions de la mateixa història. Prompts i referències a s027-publication-v1.prompt.json, s032-publication-v1.prompt.json i s038-publication-v1.prompt.json. Imatges generades amb image_gen, sense dades que resolguin les preguntes.
+
+- S030: [El cartell que no es llegia](el-cartell-del-passadis-v1.webp), Laia i Biel al passadís amb un full en blanc, sense pistes de les preguntes. Generació integrada, models de personatge i estil de Sentit; 1536 × 1024, WebP qualitat 88, sense retall. [Prompt i referències](s030-publication-v1.prompt.json). Tancament 23/11/2026.
+
+- S031: [Una bústia per a propostes](una-bustia-per-a-propostes-v1.webp), Mar a l’estudi de ràdio amb fulls en blanc, sense dades de les respostes. Generació integrada, model de Mar; 1536 × 1024, WebP qualitat 88, sense retall. [Prompt i referències](s031-publication-v1.prompt.json). Tancament 23/11/2026.
+
+- S009: [La biblioteca canvia d’horari](la-biblioteca-canvia-d-horari-v1.webp), Mar davant de la biblioteca, sense horaris, bústia ni dades de les obres. [Prompt i referències](s009-publication-v1.prompt.json).
+- S050: [La balança marca massa](la-balanca-marca-massa-v1.webp), Laia i Pau al mercat, sense fruita, bossa, safata o balança. [Prompt i referències](s050-publication-v1.prompt.json).
+
+S009 i S050: generació integrada amb models de personatge; 1536 × 1024, WebP qualitat 88, sense retall. Tancament 23/11/2026.

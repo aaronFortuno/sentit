@@ -252,7 +252,7 @@
       "code": "S023",
       "activity": "ca-S023",
       "date": "2026-11-20T20:09:54.848Z",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "model": "gemini-3.8-flash-tts",
       "voices": {
         "Presentadora": "Erinome",
@@ -427,6 +427,28 @@
         "voiceRetimed": false,
         "pitchShifted": false,
         "newRequests": 0
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-23",
+        "validatedBy": "docent",
+        "confirmation": "S023 validat per publicació definitiva; s’accepta la variació de timbre al començament de la frase esmenada per poder avançar.",
+        "audioSha256": "4bdd9de1339ac05a10e5919dabfb56d30267ce4e12a3882067264e90066190c3",
+        "editorialFingerprint": "22636665fc727f00d17b0e1349da5b9467ab27a12a049701d4bef3189511f0ad",
+        "listeningApproval": true,
+        "acceptedLimitations": [
+          {
+            "part": "tancament",
+            "kind": "voice-continuity",
+            "acceptedAt": "2026-11-23",
+            "note": "A la frase D’aquí a un mes… suggeriments, l’inici de la represa sona amb un timbre diferent; el docent accepta explícitament el resultat. Candidata opcional a revisió futura amb models més estables, sense bloquejar la publicació."
+          }
+        ]
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/reobren-el-mercat-v2.webp",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-23",
+        "audioChanged": false
       }
     },
     {
@@ -3905,12 +3927,12 @@
       "code": "S035",
       "activity": "ca-S035",
       "state": "awaiting-montage-validation",
-      "file": "s035-mixed-v1.mp3",
-      "introFile": "s035-mixed-v1-intro.mp3",
+      "file": "s035-directives-v2.mp3",
+      "introFile": "s035-directives-v2-intro.mp3",
       "bodyFile": "s035-mixed-v1-cos.mp3",
-      "offset": 10.157291666666667,
+      "offset": 4.44,
       "bodyDuration": 103.66270833333333,
-      "fullDuration": 113.82,
+      "fullDuration": 108.10270833333333,
       "voices": {
         "Mireia": "Aoede",
         "Laia": "Leda"
@@ -3925,7 +3947,7 @@
       "coverage": 0.9516728624535316,
       "newSynthesisRequests": 0,
       "sharedRequest": true,
-      "lufs": -19.23,
+      "lufs": -19.21,
       "peakDbTP": -2.5,
       "voiceRetimed": false,
       "effects": [
@@ -3961,7 +3983,36 @@
           "insertedPause": 1.05
         }
       ],
-      "sha256": "86398c0938ba8be1cbdb7c4b3b769708f9ab3afd4dfdf251d48c20fa36c8cf49"
+      "sha256": "072519a3f408adb566362dea90e7c27d8afe1ebcd3d2e65e14a40c1b70aed894",
+      "directiveRevision": {
+        "date": "2026-11-23",
+        "baseFile": "s035-mixed-v1.mp3",
+        "baseSha256": "86398c0938ba8be1cbdb7c4b3b769708f9ab3afd4dfdf251d48c20fa36c8cf49",
+        "removed": [
+          "long pause"
+        ],
+        "recognizedAs": [
+          "l'ong",
+          "bous"
+        ],
+        "retainedTitleRange": {
+          "start": 2.58,
+          "end": 6.22
+        },
+        "canonicalTitleRange": {
+          "start": 2.8000000000000114,
+          "end": 5.920000000000002
+        },
+        "initialRemovedSeconds": 2.58,
+        "tailRemovedSeconds": 3.137291666666667,
+        "retainedTitlePcmSha256": "9cf265505d43d68fc21387604fa02a96817f3d2e0b13b6c7e1a1fb1055d31f80",
+        "bodyUnchanged": true,
+        "bodyPcmSha256": "20f58667ec9b0cf72d501f392e64dbc455d404293b3f56922cbfbf0a0328782b",
+        "bodyTrackSha256": "f0f3eb74bb548c230f730f1e62684154f8b333e45f8eefe8e4acdcfd4db72117",
+        "voiceRetimed": false,
+        "newRequests": 0
+      },
+      "uncertainTurns": []
     },
     {
       "code": "S043",
@@ -4059,12 +4110,12 @@
       "code": "S026",
       "activity": "ca-S026",
       "state": "awaiting-montage-validation",
-      "file": "s026-mixed-v1.mp3",
-      "introFile": "s026-mixed-v1-intro.mp3",
-      "bodyFile": "s026-mixed-v1-cos.mp3",
-      "offset": 7.186999999999999,
-      "bodyDuration": 61.67791666666667,
-      "fullDuration": 68.86491666666667,
+      "file": "s026-clean-v2.mp3",
+      "introFile": "s026-clean-v2-intro.mp3",
+      "bodyFile": "s026-clean-v2-cos.mp3",
+      "offset": 4.738083333333333,
+      "bodyDuration": 59.52191666666667,
+      "fullDuration": 64.26,
       "voices": {
         "Mireia": "Aoede",
         "Biel": "Puck"
@@ -4077,22 +4128,10 @@
       "rawSha256": "4bcdb6306e09bc40b58de637d9e4c3d8cb63477429a60ccf89bb8602cf05d809",
       "takeSha256": "8d095c83d3e23066d8c878db8516bc1acbb32ff31eec18dacb97de96cce26ace",
       "coverage": 0.9285714285714286,
-      "uncertainTurns": [
-        {
-          "start": 262.47999999999996,
-          "end": 263.17,
-          "heard": "i ivaj ara",
-          "status": "short-turn-awaiting-listening",
-          "originalPreserved": true,
-          "block": "S041-T01",
-          "part": "llegir",
-          "text": "Hi vaig ara?",
-          "coverage": 0.3333333333333333
-        }
-      ],
+      "uncertainTurns": [],
       "newSynthesisRequests": 0,
       "sharedRequest": true,
-      "lufs": -19.61,
+      "lufs": -19.71,
       "peakDbTP": -2.5,
       "voiceRetimed": false,
       "effects": [
@@ -4110,7 +4149,9 @@
           "speechNominalLufs": -42,
           "lowPassHz": 1800,
           "passes": 3,
-          "crossfadeSeconds": 1
+          "crossfadeSeconds": 1,
+          "initialGain": 0.35,
+          "previousInitialGain": 0.7
         },
         {
           "name": "breezy2000uk-578712",
@@ -4124,11 +4165,12 @@
             "start": 3,
             "seconds": 1.1
           },
-          "underSpeech": false
+          "underSpeech": false,
+          "additionalGain": 0.5
         },
         {
           "name": "breezy2000uk-578712",
-          "start": 58.477916666666665,
+          "start": 56.32191666666667,
           "source": "assets/audio/sources/breezy2000uk-578712.mp3",
           "sourceSha256": "2a4a093fb09e418347b51d129508a04cb9a7b2a0c55cd2b84b3dc5e45cf0f371",
           "sourceUrl": "https://freesound.org/people/Breezy2000uk/sounds/578712/",
@@ -4141,7 +4183,25 @@
           "underSpeech": false
         }
       ],
-      "sha256": "49a6a9572fe7d6c07dc01ae6fe609508102eb6089b1f78491cb616470b75b1e2"
+      "sha256": "781bcc5bcdec191eeac21566d1feded42b583b764dda9b012bbb4c957d03bc74",
+      "cleanRevision": {
+        "date": "2026-11-23",
+        "baseFile": "s026-mixed-v1.mp3",
+        "baseSha256": "49a6a9572fe7d6c07dc01ae6fe609508102eb6089b1f78491cb616470b75b1e2",
+        "removedInitialSeconds": 2.448916666666667,
+        "retainedBodyEnd": 53.221916666666665,
+        "canonicalBodyLastWordEnd": 52.87190000000001,
+        "removedTrailingDirective": "long pause",
+        "titlePcmSha256": "5fa9bab61e2136618b391e82f9449bdc88d7977f0f850060e6383a6e2b0963dc",
+        "bodyPcmSha256": "1492018f6824f84277d9d5267f4c9548ee3513057dbf2b67f6939cd4a3ae1065",
+        "voiceSamplesPreserved": true,
+        "initialAmbienceGain": 0.35,
+        "previousInitialAmbienceGain": 0.7,
+        "underSpeechGainUnchanged": 0.2,
+        "openingEffectGain": 0.5,
+        "newRequests": 0,
+        "voiceRetimed": false
+      }
     },
     {
       "code": "S041",
@@ -4249,12 +4309,12 @@
       "code": "S042",
       "activity": "ca-S042",
       "state": "awaiting-montage-validation",
-      "file": "s042-mixed-v1.mp3",
-      "introFile": "s042-mixed-v1-intro.mp3",
-      "bodyFile": "s042-mixed-v1-cos.mp3",
-      "offset": 10.729000000000001,
-      "bodyDuration": 101.185,
-      "fullDuration": 111.914,
+      "file": "s042-timing-v2.mp3",
+      "introFile": "s042-timing-v2-intro.mp3",
+      "bodyFile": "s042-timing-v2-cos.mp3",
+      "offset": 4.430000000000001,
+      "bodyDuration": 84.49,
+      "fullDuration": 88.92,
       "voices": {
         "Mireia": "Aoede",
         "Biel": "Puck"
@@ -4267,42 +4327,16 @@
       "rawSha256": "4bcdb6306e09bc40b58de637d9e4c3d8cb63477429a60ccf89bb8602cf05d809",
       "takeSha256": "1e351aa9f0a07b13274fb1b1043c76e8c38abdc7b2a94a540afc4f294081055f",
       "coverage": 0.8969465648854962,
-      "uncertainTurns": [
-        {
-          "start": 262.47999999999996,
-          "end": 263.17,
-          "heard": "i ivaj ara",
-          "status": "short-turn-awaiting-listening",
-          "originalPreserved": true,
-          "block": "S041-T01",
-          "part": "llegir",
-          "text": "Hi vaig ara?",
-          "coverage": 0.3333333333333333
-        }
-      ],
+      "uncertainTurns": [],
       "newSynthesisRequests": 0,
       "sharedRequest": true,
-      "lufs": -18.92,
+      "lufs": -18.83,
       "peakDbTP": -2.5,
       "voiceRetimed": false,
       "effects": [
         {
-          "name": "elenalostale-648659",
-          "start": 0,
-          "source": "assets/audio/sources/elenalostale-648659.mp3",
-          "sourceSha256": "bdb5a2e1b40bdcec49cf7c3752c186e355e58499ec7d0578022da599d9291bf8",
-          "sourceUrl": "https://freesound.org/people/Elenalostale/sounds/648659/",
-          "author": "Elenalostale",
-          "license": "CC0 1.0",
-          "excerpt": {
-            "start": 20,
-            "seconds": 2
-          },
-          "underSpeech": false
-        },
-        {
           "name": "beussa-749880",
-          "start": 29.085000000000054,
+          "start": 25.810000000000056,
           "source": "assets/audio/sources/beussa-749880.mp3",
           "sourceSha256": "4b38b5c58abb206d5b86b9d5b6a3acde8eea90c288ef194b4a67503fe659b4a9",
           "sourceUrl": "https://freesound.org/people/Beussa/sounds/749880/",
@@ -4317,7 +4351,7 @@
         },
         {
           "name": "funkysandwich-871017",
-          "start": 97.985,
+          "start": 82.19000000000004,
           "source": "assets/audio/sources/funkysandwich-871017.mp3",
           "sourceSha256": "91f0758edb74981b079afe514c96645efe829b97c924cec132bb245cbf70c7a6",
           "sourceUrl": "https://freesound.org/people/funkysandwich/sounds/871017/",
@@ -4330,18 +4364,42 @@
           "underSpeech": false
         }
       ],
-      "sha256": "5281338f5ab4c291877fa486c70ca9d4e9fd7a2bd3b858bdb34559414aa01c20"
+      "sha256": "7fc840a4469df4e5d9881d3c482435255013f078ed94a331901c918c545e4f11",
+      "bookendRevision": {
+        "date": "2026-11-23",
+        "baseFile": "s042-mixed-v1.mp3",
+        "baseSha256": "5281338f5ab4c291877fa486c70ca9d4e9fd7a2bd3b858bdb34559414aa01c20",
+        "retainedTitleRange": {
+          "start": 4.774,
+          "end": 8.804
+        },
+        "titlePcmSha256": "213a54dd0d4edd2f3885678096571c3d1f4d838750712f8052da8a1259bd9e37",
+        "retainedVoiceRange": {
+          "start": 3.275,
+          "end": 85.565
+        },
+        "voicePcmSha256": "942e7c42f1ba5e64c17fdbf25ad0566c09a10072c7742b80f90d0663ee4d0b9e",
+        "allRetainedSpeechSamplesIdentical": true,
+        "spokenDirectiveRemoved": "long pause",
+        "openingEffectRemoved": "elenalostale-648659",
+        "paperInputSha256": "e32f5d6121d6e74bdcdf25f790f566eadd32704385869b60a22cd4e2d22309bf",
+        "paperRelativeToSpeechUnchanged": true,
+        "chairInputSha256": "daf71a984d8075ce785e52e17cd85790661b9f77586774638b92fc9eab846f9d",
+        "chairAfterFinalWordSeconds": 0.25,
+        "voiceRetimed": false,
+        "newRequests": 0
+      }
     },
     {
       "code": "S014",
       "activity": "ca-S014",
       "state": "awaiting-montage-validation",
-      "file": "s014-mixed-v1.mp3",
+      "file": "s014-classroom-v2.mp3",
       "introFile": "s014-mixed-v1-intro.mp3",
-      "bodyFile": "s014-mixed-v1-cos.mp3",
+      "bodyFile": "s014-classroom-v2-cos.mp3",
       "offset": 5.22,
-      "bodyDuration": 134.43108333333333,
-      "fullDuration": 139.65108333333333,
+      "bodyDuration": 132.49,
+      "fullDuration": 137.71,
       "voices": {
         "Mireia": "Aoede",
         "Biel": "Puck"
@@ -4354,52 +4412,30 @@
       "rawSha256": "4bcdb6306e09bc40b58de637d9e4c3d8cb63477429a60ccf89bb8602cf05d809",
       "takeSha256": "152c7620fef035b3af47692b8a92dbca967b41809171af38d1d70f9be0fa527e",
       "coverage": 0.9329896907216495,
-      "uncertainTurns": [
-        {
-          "start": 262.47999999999996,
-          "end": 263.17,
-          "heard": "i ivaj ara",
-          "status": "short-turn-awaiting-listening",
-          "originalPreserved": true,
-          "block": "S041-T01",
-          "part": "llegir",
-          "text": "Hi vaig ara?",
-          "coverage": 0.3333333333333333
-        }
-      ],
+      "uncertainTurns": [],
       "newSynthesisRequests": 0,
       "sharedRequest": true,
-      "lufs": -18.58,
-      "peakDbTP": -2.49,
+      "lufs": -18.62,
+      "peakDbTP": -2.5,
       "voiceRetimed": false,
       "effects": [
         {
-          "name": "elenalostale-648659",
+          "name": "tallis0410-707510",
           "start": 0,
-          "source": "assets/audio/sources/elenalostale-648659.mp3",
-          "sourceSha256": "bdb5a2e1b40bdcec49cf7c3752c186e355e58499ec7d0578022da599d9291bf8",
-          "sourceUrl": "https://freesound.org/people/Elenalostale/sounds/648659/",
-          "author": "Elenalostale",
+          "source": "assets/audio/sources/tallis0410-707510.mp3",
+          "sourceSha256": "1cceca74ca79bd56764a8482ce0721afa5d2a7612c15ef1160ce2c5b923a45ff",
+          "sourceUrl": "https://freesound.org/people/Tallis0410/sounds/707510/",
+          "author": "Tallis0410",
           "license": "CC0 1.0",
-          "excerpt": {
-            "start": 20,
-            "seconds": 2
-          },
-          "underSpeech": false
-        },
-        {
-          "name": "godowan-235278",
-          "start": 0.3,
-          "source": "assets/audio/sources/godowan-235278.mp3",
-          "sourceSha256": "9e8c44a28c3edbdab423c1ff915dbaa5c79974501b5b094626f4cb241815ac57",
-          "sourceUrl": "https://freesound.org/people/Godowan/sounds/235278/",
-          "author": "Godowan",
-          "license": "CC0 1.0",
-          "excerpt": {
-            "start": 0,
-            "seconds": 1.35
-          },
-          "underSpeech": false
+          "underSpeech": true,
+          "initialGain": 0.35,
+          "speechGain": 0.2,
+          "sourceTargetLufs": -28,
+          "speechNominalLufs": -42,
+          "lowPassHz": 1800,
+          "passes": 2,
+          "crossfadeSeconds": 1,
+          "fadeOut": 1.5
         },
         {
           "name": "beussa-749880",
@@ -4415,19 +4451,29 @@
           },
           "underSpeech": false,
           "insertedPause": 1.05
-        },
-        {
-          "name": "sentit-two-note-ending-v1",
-          "start": 131.43108333333333,
-          "source": "tools/render-mixed-take.cjs",
-          "sourceUrl": "https://github.com/aaronFortuno/sentit/blob/main/tools/render-mixed-take.cjs",
-          "author": "Sentit",
-          "license": "MIT",
-          "origin": "original-procedural-composition",
-          "underSpeech": false
         }
       ],
-      "sha256": "a4a8fc91085cedfee08da9f79581ec98fe21070fc6f3f1da9d4936fb3a1445e0"
+      "sha256": "475e05a3be445086651a65e231e257bf6ed17ba662d775740b300a2e21de27c5",
+      "classroomRevision": {
+        "date": "2026-11-23",
+        "baseFile": "s014-mixed-v1.mp3",
+        "baseSha256": "a4a8fc91085cedfee08da9f79581ec98fe21070fc6f3f1da9d4936fb3a1445e0",
+        "removedEffects": [
+          "elenalostale-648659",
+          "godowan-235278",
+          "sentit-two-note-ending-v1"
+        ],
+        "retainedVoiceEnd": 128.19,
+        "canonicalVoiceEnd": 127.89,
+        "retainedVoicePcmSha256": "d53353a2b3524a16016802f34225f294729e042f4e51bac06ac9d00af5bae7d9",
+        "allRetainedVoiceSamplesIdentical": true,
+        "postSpeechVocalizationsRemoved": true,
+        "paperTimingUnchanged": true,
+        "paperInputSha256": "e32f5d6121d6e74bdcdf25f790f566eadd32704385869b60a22cd4e2d22309bf",
+        "titleTrackUnchanged": true,
+        "voiceRetimed": false,
+        "newRequests": 0
+      }
     },
     {
       "code": "S025",
@@ -4511,7 +4557,7 @@
     {
       "code": "S030",
       "activity": "ca-S030",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s030-corridor-v3.mp3",
       "introFile": "s030-corridor-v3-intro.mp3",
       "bodyFile": "s030-corridor-v3-cos.mp3",
@@ -4658,6 +4704,20 @@
         "voiceTimingUnchanged": true,
         "sourceDryTakePreserved": true,
         "newRequests": 0
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-23",
+        "validatedBy": "docent",
+        "confirmation": "S030 validat per publicació definitiva",
+        "audioSha256": "e837429937d4e727b17233c010b2c3b91b2e03e3a50ae895069b318dce71894f",
+        "editorialFingerprint": "b24907fceb197acf6e01c59fd2a342ef93fb18282a968a8117ee2004347f244b",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/el-cartell-del-passadis-v1.webp",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-23",
+        "audioChanged": false
       }
     },
     {
@@ -4908,9 +4968,9 @@
       "code": "S034",
       "activity": "ca-S034",
       "state": "awaiting-montage-validation",
-      "file": "s034-mixed-v1.mp3",
+      "file": "s034-no-ambience-v2.mp3",
       "introFile": "s034-mixed-v1-intro.mp3",
-      "bodyFile": "s034-mixed-v1-cos.mp3",
+      "bodyFile": "s034-no-ambience-v2-cos.mp3",
       "offset": 5.547416666666667,
       "bodyDuration": 107.28129166666666,
       "fullDuration": 112.82870833333334,
@@ -4928,24 +4988,10 @@
       "uncertainTurns": [],
       "newSynthesisRequests": 0,
       "sharedRequest": true,
-      "lufs": -18.91,
+      "lufs": -18.92,
       "peakDbTP": -2.5,
       "voiceRetimed": false,
       "effects": [
-        {
-          "name": "callmethefoo-744447",
-          "start": 0,
-          "source": "assets/audio/sources/callmethefoo-744447.mp3",
-          "sourceSha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
-          "sourceUrl": "https://freesound.org/people/callmethefoo/sounds/744447/",
-          "author": "callmethefoo",
-          "license": "CC0 1.0",
-          "excerpt": {
-            "start": 12,
-            "seconds": 2
-          },
-          "underSpeech": false
-        },
         {
           "name": "gentle-narration-bed",
           "origin": "original-procedural-composition",
@@ -4994,7 +5040,21 @@
           "insertedPause": 1.5
         }
       ],
-      "sha256": "32bd2e3f3eb11643c03119096711059b01d172a1b01a4dcb9691ee713c569d81"
+      "sha256": "f08591a55b092201f4affc58953249a06d0413217aec26db1e067cce8d730f3c",
+      "ambienceRevision": {
+        "originalFile": "s034-mixed-v1.mp3",
+        "originalSha256": "32bd2e3f3eb11643c03119096711059b01d172a1b01a4dcb9691ee713c569d81",
+        "removedSource": "callmethefoo-744447",
+        "voiceInputSha256": "dfa2e571ac60a0cde06a49eb797a78a737a064f739e205436c85803d57557257",
+        "musicInputSha256": "4689a77ff452b7dfb0f7af8e7575c8028024989874cc171d5f052731c1da14f6",
+        "sameVoiceAndMusicInputs": true,
+        "voiceRetimed": false,
+        "newRequests": 0,
+        "source": "tools/remove-s038-opening-ambience.cjs",
+        "chairInputSha256": "3b35dcdd154fa0bf271e1be4224b11ba06b04ef3016f037e10ffa26d5a0299ab",
+        "chairTimingUnchanged": true,
+        "authorization": "Docent 23/11: retirar l’ambient inicial de cortines/sala; conservar la cadira i la resta del muntatge."
+      }
     },
     {
       "code": "S038",
@@ -5283,7 +5343,7 @@
     {
       "code": "S009",
       "activity": "ca-S009",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s009-news-common-v2.mp3",
       "introFile": "s009-news-common-v2-intro.mp3",
       "bodyFile": "s009-news-common-v2-cos.mp3",
@@ -5380,6 +5440,20 @@
         "bodyPcmSha256": "4fb3e7c721416cc87bd103d45a902750e2209c9aa32cfd5fe7e3df2f11f45e80",
         "teacherFinalApproval": false,
         "newRequests": 0
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-23",
+        "validatedBy": "docent",
+        "confirmation": "S009 validat per a publicació definitiva",
+        "audioSha256": "9b2c4875e89b8bd10d7281f61ce4228f95723a55baaa697cd03c5441f0b3eda5",
+        "editorialFingerprint": "0453fed8e5cac1cd63e79e4f017275ccd10b372292204dd46b8cd0dea6a61751",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/la-biblioteca-canvia-d-horari-v1.webp",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-23",
+        "audioChanged": false
       }
     },
     {
@@ -5478,7 +5552,7 @@
     {
       "code": "S031",
       "activity": "ca-S031",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s031-news-common-v2.mp3",
       "introFile": "s031-news-common-v2-intro.mp3",
       "bodyFile": "s031-news-common-v2-cos.mp3",
@@ -5567,6 +5641,20 @@
         "bodyPcmSha256": "7cc634891909e2f39a9065bb758105f32a101aa5a24feb88a9357427474cf38d",
         "teacherFinalApproval": false,
         "newRequests": 0
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-23",
+        "validatedBy": "docent",
+        "confirmation": "S031 validat també per definitiu amb el muntatge de breaking news nou",
+        "audioSha256": "34091eaf295be3000d035617889cc9512c6f361cd184a732b0731959cbac6c82",
+        "editorialFingerprint": "f234c178bd18546a243c1e7dcacc0d9ce7b57648cc9fec49dbb46daa1cfb5922",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/una-bustia-per-a-propostes-v1.webp",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-23",
+        "audioChanged": false
       }
     },
     {
@@ -5676,7 +5764,7 @@
     {
       "code": "S050",
       "activity": "ca-S050",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s050-mixed-v1.mp3",
       "introFile": "s050-mixed-v1-intro.mp3",
       "bodyFile": "s050-mixed-v1-cos.mp3",
@@ -5748,6 +5836,20 @@
         "approvedAt": "2026-11-22",
         "sourceTakeSha256": "b15841c1fd7be80636fe1770c10a1bcc6643920a789505093ff9f4239604184a",
         "confirmation": "S050 veus validades, podem passar a muntatge, amb fons continu de mercat de fons"
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-23",
+        "validatedBy": "docent",
+        "confirmation": "S050 validat per a publicació definitiva",
+        "audioSha256": "0abb932b70edb01f2fb9bcd2edac6a30de6e8b9d0312d552df2827c94dbbb6d2",
+        "editorialFingerprint": "4f9689aac3f595ee436e2cdcd4af4fff59f793cdff48e5fbc4eb2b6784f1e67e",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/la-balanca-marca-massa-v1.webp",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-23",
+        "audioChanged": false
       }
     },
     {
@@ -5831,9 +5933,9 @@
       "code": "S047",
       "activity": "ca-S047",
       "state": "awaiting-montage-validation",
-      "file": "s047-mixed-v1.mp3",
+      "file": "s047-train-v2.mp3",
       "introFile": "s047-mixed-v1-intro.mp3",
-      "bodyFile": "s047-mixed-v1-cos.mp3",
+      "bodyFile": "s047-train-v2-cos.mp3",
       "offset": 4.17,
       "bodyDuration": 107.39508333333333,
       "fullDuration": 111.56508333333333,
@@ -5888,37 +5990,41 @@
           "underSpeech": true
         },
         {
-          "name": "throndronis-799526",
+          "name": "kokoreli777-inside-old-train-169418",
+          "origin": "licensed-recording-in-montage",
           "start": 0,
-          "source": "assets/audio/sources/throndronis-799526-train.mp3",
-          "sourceSha256": "e2f2588783985920c7d42e3bb34f7e50f706edb5f3ae4e75a55061b24dde2362",
-          "sourceUrl": "https://freesound.org/people/Throndronis/sounds/799526/",
-          "author": "Throndronis",
-          "license": "CC0 1.0",
-          "excerpt": {
-            "start": 12,
-            "seconds": 1.4
-          },
-          "underSpeech": false
-        },
-        {
-          "name": "throndronis-799526",
-          "start": 33.109983333333346,
-          "source": "assets/audio/sources/throndronis-799526-train.mp3",
-          "sourceSha256": "e2f2588783985920c7d42e3bb34f7e50f706edb5f3ae4e75a55061b24dde2362",
-          "sourceUrl": "https://freesound.org/people/Throndronis/sounds/799526/",
-          "author": "Throndronis",
-          "license": "CC0 1.0",
-          "excerpt": {
-            "start": 16,
-            "seconds": 1
-          },
+          "end": 50.79998333333333,
           "underSpeech": true,
-          "insertedPause": 0,
-          "sourceTargetLufs": -41
+          "credit": {
+            "id": "kokoreli777-inside-old-train-169418",
+            "title": "Inside Old Train",
+            "author": "kokoreli777",
+            "url": "https://pixabay.com/sound-effects/film-special-effects-inside-old-train-169418/",
+            "license": "Pixabay Content License",
+            "licenseUrl": "https://pixabay.com/service/license-summary/",
+            "origin": "external-recording",
+            "description": "Ambient rítmic d’interior de tren antic.",
+            "sourceNotDistributedSeparately": true,
+            "checkedAt": "2026-11-23",
+            "treatment": "Entrada curta i fons continu atenuat sota Ferran fins al final del viatge. Foses, filtre i normalització locals; sense bucle, canvi de velocitat ni to."
+          },
+          "sourceSha256": "0b18dfacb3a57527569d501a1aa357bfa18232cbe9bcc36ff7d1cf85d38ceb63",
+          "sourceExcerpt": {
+            "start": 5,
+            "seconds": 50.54998333333333
+          },
+          "sourceNotDistributedSeparately": true,
+          "sourceTargetLufs": -26,
+          "speechGain": 0.2,
+          "speechNominalLufs": -40,
+          "fadeIn": 0.3,
+          "fadeOut": 0.9,
+          "noLoop": true,
+          "retimed": false,
+          "pitchShifted": false
         }
       ],
-      "sha256": "977e41ad44ec32e59664987d2e42a154414b01578a2a478c092ade9a502600e3",
+      "sha256": "d67bb44c5315bd90667a16193e77c99fa5a08e65f3c18ee1acf3a1b4d65cb1d1",
       "voiceHandles": {
         "body": {
           "start": 0.6304166666666666,
@@ -5940,6 +6046,32 @@
         "approvedAt": "2026-11-22",
         "sourceTakeSha256": "0a299ff99e309f1bea98b95ba32d268402c74c586195144b92aac4a456f18907",
         "confirmation": "S047 validat per muntatge, molt bé les inflexions del personatge"
+      },
+      "ambienceRevision": {
+        "at": "2026-11-23",
+        "baseFile": "s047-mixed-v1.mp3",
+        "baseAudioSha256": "977e41ad44ec32e59664987d2e42a154414b01578a2a478c092ade9a502600e3",
+        "replacedSource": "throndronis-799526",
+        "voiceStemSha256": "6a9d8b384ce0e064b18bcc4ab7a55cfd883742f229dd7ea127667dba0a95f38e",
+        "musicStemSha256": "4af79b6b1a841c84fbeeb532f04c12944a0576950fc495ccea9980da5e9c4b84",
+        "voiceTakeUnchanged": true,
+        "musicStemUnchanged": true,
+        "timingUnchanged": true,
+        "trainEndsBeforePart": "tieta",
+        "newRequests": 0,
+        "teacherFinalApproval": false
+      },
+      "trainRevision": {
+        "date": "2026-11-23",
+        "baseFile": "s047-mixed-v1.mp3",
+        "baseSha256": "977e41ad44ec32e59664987d2e42a154414b01578a2a478c092ade9a502600e3",
+        "voiceInputSha256": "6a9d8b384ce0e064b18bcc4ab7a55cfd883742f229dd7ea127667dba0a95f38e",
+        "musicInputSha256": "4af79b6b1a841c84fbeeb532f04c12944a0576950fc495ccea9980da5e9c4b84",
+        "sameVoiceAndMusicInputs": true,
+        "sourceNotDistributedSeparately": true,
+        "houseSpeechStart": 51.939983333333345,
+        "voiceRetimed": false,
+        "newRequests": 0
       }
     },
     {

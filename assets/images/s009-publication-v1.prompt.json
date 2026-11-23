@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "references": [
+    "../characters/mar-model-sheet-v1.webp"
+  ],
+  "asset": "la-biblioteca-canvia-d-horari-v1.webp",
+  "width": 1536,
+  "height": 1024,
+  "prompt": "Use case: illustration-story. Context illustration for Sentit S009 'La biblioteca canvia d’horari'. Input reference is canonical recurring character Mar, adult journalist: brown hair in low ponytail, warm skin, sage blazer over cream top, charcoal trousers. Preserve her face and identity faithfully. Mar stands in a natural relaxed reporting posture outside a modest neighbourhood library, holding a simple unbranded handheld microphone. Behind her a neutral ground-level entrance and softly sketched bookshelves through a window give context. Warm friendly expression, natural waist-up medium-wide shot. Fine ink outlines and soft watercolor, muted sage/cream/charcoal and light wood, soft white fading edges, uncluttered composition matching the reference. No mailbox/book-return slot, clock, timetable, readable notice, signs, numbers, workmen, electrical wiring, staircase, study-room labels, floor plan, registration forms, event posters or anything answering the comprehension questions. No other people or brands. Landscape3:2, 1536x1024, works at80mm and in grayscale. No text, title, logo, watermark or model-sheet panels."
+}

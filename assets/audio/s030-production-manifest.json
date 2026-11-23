@@ -1,7 +1,7 @@
 {
   "code": "S030",
   "activity": "ca-S030",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s030-corridor-v3.mp3",
   "introFile": "s030-corridor-v3-intro.mp3",
   "bodyFile": "s030-corridor-v3-cos.mp3",
@@ -148,5 +148,19 @@
     "voiceTimingUnchanged": true,
     "sourceDryTakePreserved": true,
     "newRequests": 0
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S030 validat per publicació definitiva",
+    "audioSha256": "e837429937d4e727b17233c010b2c3b91b2e03e3a50ae895069b318dce71894f",
+    "editorialFingerprint": "b24907fceb197acf6e01c59fd2a342ef93fb18282a968a8117ee2004347f244b",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/el-cartell-del-passadis-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

@@ -1,0 +1,13 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "references": [
+    "../characters/laia-model-sheet-v1.webp",
+    "../characters/biel-model-sheet-v1.webp",
+    "el-senyal-de-la-radio.webp"
+  ],
+  "asset": "el-cartell-del-passadis-v1.webp",
+  "width": 1536,
+  "height": 1024,
+  "prompt": "Use case: illustration-story. Create ONE new context illustration for Sentit listening activity S030, 'El cartell que no es llegia'. The first two reference images are canonical IDENTITY references: Laia, a young teen with fair warm skin, freckles, brown curly hair in loose messy bun, sage green sweater and beige trousers; Biel, a young teen with tousled brown hair, charcoal open zip hoodie, cream T-shirt and beige trousers. Preserve these same characters faithfully. Third reference is STYLE only, not scene content. Scene: Laia and Biel standing naturally together in a softly suggested school corridor, discussing a completely blank sheet of paper Biel holds casually by his side. Gentle engaged expressions, relaxed gestures, no exaggerated posing. They are at the same eye level. No visible poster mounted on the wall, NO writing, letters, numbers, arrows, drawings, colours of lettering, measurements, marked distance, library or classroom signs, solutions or clues to any question. Just the two characters and quiet corridor context. Fine ink outlines and soft watercolor, muted sage/cream/charcoal, warm light, tasteful white fading edges and uncluttered composition, matching the reference sheets. Landscape 3:2, 1536x1024, medium-wide shot visible to hips; works at 80mm and in grayscale. No logo, title, watermark, text or model-sheet panels."
+}
