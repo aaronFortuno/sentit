@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "code": "S068D",
+  "prompt": "Create ONE landscape 3:2 illustration, 1536x1024, for Sentit Catalan listening worksheets. Use case: illustration-story. Input images are identity/style references only: image 1 Aina, image 2 Ferran. Preserve exact faces, ages, hairstyles, glasses and clothes; do not reproduce model-sheet panels or labels. Fine ink and soft watercolor, airy warm white paper, sage, ochre and charcoal, edges fading naturally to white. An affectionate natural home scene. Elderly Ferran sits in a comfortable chair showing Aina one small completely CLOSED plain vintage tin box, held at chest height, without any lettering or pictures. Aina, the young girl with dark straight bob, round glasses and ochre sweater, sits nearby leaning curiously forward, listening and smiling as her grandfather remembers a journey. Ferran smiles and gestures gently with his free hand. Recognizable domestic living room, softly blurred bookcase and a plant. Show natural hands and relaxed family interaction, composition readable at 80mm printed width. The tin must stay closed and plain; do not reveal contents. No food, biscuits, sandwiches, bags, water bottles, train, station, bench, clock, tickets, map, telephone, doors, travel montage, text, numbers, logos or watermark. Context of the present-day conversation, never illustrate the recalled events or answers.",
+  "references": [
+    "../characters/aina-model-sheet-v1.webp",
+    "../characters/ferran-model-sheet-v1.webp"
+  ]
+}

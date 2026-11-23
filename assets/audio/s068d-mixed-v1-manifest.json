@@ -1,0 +1,112 @@
+{
+  "code": "S068D",
+  "activity": "ca-S068D",
+  "state": "published",
+  "file": "s068d-mixed-v1.mp3",
+  "introFile": "s068d-mixed-v1-intro.mp3",
+  "bodyFile": "s068d-mixed-v1-cos.mp3",
+  "offset": 6.75,
+  "bodyDuration": 123.815,
+  "fullDuration": 130.565,
+  "voices": {
+    "Aina": "Zephyr",
+    "Ferran": "Algenib"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "17cd4683c769da2badcc720d67926da3398a2be69ff54c217a766273869991d4",
+  "sourceRequestHash": "679fadf8cc5cb1156e3baf0303f588b5cf804dfde9c7cde0a9232dc949ca43c3",
+  "batch": "L28",
+  "rawSha256": "6ae444363d31d1b2527929844ef87b1519dcc48660713cdf31da09c6fb4fb61d",
+  "takeSha256": "ea89c6739cb6262df17eb212f3e4a2b6edda5e979f419a020b36f0df2ab4c9bc",
+  "coverage": 0.8970588235294118,
+  "uncertainTurns": [
+    {
+      "start": 21.490000000000002,
+      "end": 23.26,
+      "heard": "la dui esto ser",
+      "status": "short-turn-awaiting-listening",
+      "originalPreserved": true,
+      "block": "S068D-T01",
+      "part": "portar",
+      "text": "La duies tu?",
+      "coverage": 0.3333333333333333
+    }
+  ],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.38,
+  "peakDbTP": -2.48,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "gentle-narration-bed",
+      "origin": "original-procedural-composition",
+      "author": "Sentit",
+      "license": "MIT",
+      "source": "tools/narration-bed.cjs",
+      "title": "Un dinar entre vies",
+      "compositionId": "sentit-s068-v1",
+      "tempoBpm": 64,
+      "rootMidi": 50,
+      "scoreSeed": 68,
+      "notes": 94,
+      "externalSamples": false,
+      "noSpeech": true,
+      "retimed": false,
+      "sha256": "86c9dca42f622dd53417338fef054af38dbe652097c876ae36601a4e60a996c1",
+      "envelope": {
+        "fadeInSeconds": 0.6,
+        "duckStart": 0.7000000000000001,
+        "duckEnd": 1.4500000000000002,
+        "speechGain": 0.14,
+        "nominalSpeechMusicLufs": -43.07743928643524,
+        "riseStart": 117.62,
+        "riseEnd": 118.42000000000002,
+        "holdSeconds": 2,
+        "fadeStart": 120.42000000000002,
+        "fadeEnd": 122.42000000000002
+      },
+      "listeningValidation": "pending",
+      "start": 0,
+      "underSpeech": true
+    }
+  ],
+  "sha256": "e5982c3d20dbe9ae142c0fd8435d858a136de67ec501451ae182e90ece88e93f",
+  "voiceHandles": {
+    "body": {
+      "start": 0.07,
+      "end": 116.085,
+      "retainedPcmSha256": "327fbbd0e2c1fb1b5c6f29c8492c40235146a36cbb8b881b31775171f9f98832",
+      "sourceSha256": "aaad7299cf4f361c334a1c03ef424a5cbcf71a6d41a731f058b76a5f551265a5",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.07,
+      "end": 5.87,
+      "retainedPcmSha256": "7909ca75ee32391482830510c80bee51cf0fccf034693b4ffe74c3230fc2f73b",
+      "sourceSha256": "b5bd09bb021926c43e9f6df5cee91faa2ccca7ad258c49bd141faca293796803",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-23",
+    "sourceTakeSha256": "ea89c6739cb6262df17eb212f3e4a2b6edda5e979f419a020b36f0df2ab4c9bc",
+    "confirmation": "S068D validat per muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S068D validat per publicació definitiva",
+    "audioSha256": "e5982c3d20dbe9ae142c0fd8435d858a136de67ec501451ae182e90ece88e93f",
+    "editorialFingerprint": "faf5b6b2ccb879a85be7550fff32847881b9821d73ae811f867b136ea6e6f5a7",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/el-dinar-al-banc-de-lestacio-dialogada-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
+  }
+}

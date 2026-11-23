@@ -1,0 +1,97 @@
+{
+  "code": "S064",
+  "activity": "ca-S064",
+  "state": "published",
+  "file": "s064-mixed-v1.mp3",
+  "introFile": "s064-mixed-v1-intro.mp3",
+  "bodyFile": "s064-mixed-v1-cos.mp3",
+  "offset": 4.470000000000001,
+  "bodyDuration": 100.39,
+  "fullDuration": 104.86,
+  "voices": {
+    "Mireia": "Aoede",
+    "Biel": "Puck"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "a8a1c31ecd69f92c20a41e6a739917e717f6da8007fba6592d62f5d5b553f9c0",
+  "sourceRequestHash": "8533ab25eb7bb8b1123e728c1f9e38ad7f5119cb07531e4ffb39060d0c86ad3c",
+  "batch": "L27",
+  "rawSha256": "113af488c48ded72fa2057440b9753e0eb695ff290ae1cee796d9ab143caaf38",
+  "takeSha256": "92f44632ac61d5a59a77d774e7b26e9e50ff718a9d7db92846d8cfb016d79f2b",
+  "coverage": 0.9057142857142857,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.69,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "kyles-450728",
+      "start": 0,
+      "source": "assets/audio/sources/kyles-450728.mp3",
+      "sourceSha256": "20f19e1eec5394003835bcc940e246b941b2dd733b062c2743dcef1443f7b0c1",
+      "sourceUrl": "https://freesound.org/people/kyles/sounds/450728/",
+      "author": "kyles",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.12,
+      "openingGain": 0.3,
+      "raisedGain": 0.4,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -46.416375079047505,
+      "lowPassHz": 1800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 5,
+        "seconds": 90
+      },
+      "envelope": {
+        "riseStart": 94.46999999999998,
+        "riseEnd": 95.27,
+        "holdSeconds": 1.920000000000016,
+        "fadeStart": 97.19000000000001,
+        "fadeEnd": 99.19000000000001
+      }
+    }
+  ],
+  "sha256": "fef04ecbf7c7ebec0089675053c5e609f591e73576d3f6b4390031b455f2e651",
+  "voiceHandles": {
+    "body": {
+      "start": 0.085,
+      "end": 92.475,
+      "retainedPcmSha256": "01e9007805b7a3ab1b6d58069c29b6fbbb5443a4ebce9414757e547220efc44f",
+      "sourceSha256": "ba62916ad15c5a2b2f992b82f8475dee561ce4f14358be9973c6fd27faee340b",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.2465,
+      "end": 3.7665,
+      "retainedPcmSha256": "f83214b53bed7c891222fea3136e4d2ca978011230ed968a4d099d284ec120e2",
+      "sourceSha256": "cd10dd7282f5e2e6fd3848d40def8ef6a307c492344f218985b0940738ae3da2",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-23",
+    "sourceTakeSha256": "92f44632ac61d5a59a77d774e7b26e9e50ff718a9d7db92846d8cfb016d79f2b",
+    "confirmation": "S064 validat per muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S064 validat per publicació definitiva",
+    "audioSha256": "fef04ecbf7c7ebec0089675053c5e609f591e73576d3f6b4390031b455f2e651",
+    "editorialFingerprint": "83857903e2087af52730c626c68c63cea15deeb79601b5b78f593b19904ee552",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/un-anunci-que-va-massa-de-pressa-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
+  }
+}

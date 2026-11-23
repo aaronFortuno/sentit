@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "code": "S007",
+  "prompt": "Create ONE landscape 3:2 illustration, 1536x1024, for Sentit Catalan listening worksheets. Use case: illustration-story. Input images: 1 Mireia, 2 Biel, 3 Laia, canonical identity/style references only, not edit targets or layout templates. Preserve their exact faces, ages, skin tones, hairstyles and clothes. Fine ink and soft watercolor on airy warm white paper, muted sage and ochre, outer edges fading to white. Natural contextual scene. In an ordinary school classroom on the morning after rain, teacher Mireia stands beside a large window with teenage students Laia and Biel. They look thoughtfully out toward a damp school playground; only a soft unmeasured patch of wet ground and ordinary foliage visible outside, no comparison of puddle sizes. Mireia's relaxed hand indicates the view, and the two young people lean slightly to see, engaged in conversation. Mireia has dark brown skin, short black curls and sage cardigan; Laia has loose curly brown bun, freckles and sage sweater; Biel has tousled brown hair and open charcoal hoodie. A few empty desks in the soft background. Clear and calm composition at 80mm printed width. No readable text, labels, numbers, diagrams, arrows, plates, glasses of water, containers, experiments, sun/shade comparisons, vapour symbols, boiling, washing line or answer clues. No logos or watermark.",
+  "references": [
+    "../characters/mireia-model-sheet-v1.webp",
+    "../characters/biel-model-sheet-v1.webp",
+    "../characters/laia-model-sheet-v1.webp"
+  ]
+}

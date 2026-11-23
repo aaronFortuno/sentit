@@ -1,7 +1,7 @@
 {
   "code": "S046D",
   "activity": "ca-S046D",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s046d-mixed-v1.mp3",
   "introFile": "s046d-mixed-v1-intro.mp3",
   "bodyFile": "s046d-mixed-v1-cos.mp3",
@@ -82,5 +82,19 @@
     "approvedAt": "2026-11-23",
     "sourceTakeSha256": "715d0f04f936e233fd808beef3a1b074820f3a8b52d1a27f26c8b8e6e9793771",
     "confirmation": "S046D validat per pujar a muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S046D validat per publicació definitiva",
+    "audioSha256": "62aadfc67667d04dfdeae0b3c7fa93b409a35b42aed6d7f87af0780284c98b41",
+    "editorialFingerprint": "ae547cddb1b01e9922676a15eb091070fe893f45069e85b2008f07c7d0cd5943",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/la-clau-del-davantal-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

@@ -1,0 +1,99 @@
+{
+  "code": "S068",
+  "activity": "ca-S068",
+  "state": "published",
+  "file": "s068-mixed-v1.mp3",
+  "introFile": "s068-mixed-v1-intro.mp3",
+  "bodyFile": "s068-mixed-v1-cos.mp3",
+  "offset": 4.15,
+  "bodyDuration": 99.29908333333333,
+  "fullDuration": 103.44908333333333,
+  "voices": {
+    "Ferran": "Algenib"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "4a2634e49163d602016cbc69c25809b31754d5e940e3283e0c938522deada250",
+  "sourceRequestHash": "8d05a389052be132452e8629b805e26c1ebe744d5d4ca688463cdcef9ef16185",
+  "batch": "L22",
+  "rawSha256": "f59f33398e753916473bd88dc78345ff02faeedc4f4bb046275f9d453bc4b561",
+  "takeSha256": "5bb0a7abe9cd21bde670d47ce5e9d6857dcefc3f702a8be17da6df68141d6440",
+  "coverage": 0.9205882352941176,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.01,
+  "peakDbTP": -2.49,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "gentle-narration-bed",
+      "origin": "original-procedural-composition",
+      "author": "Sentit",
+      "license": "MIT",
+      "source": "tools/narration-bed.cjs",
+      "title": "Un dinar entre vies",
+      "compositionId": "sentit-s068-v1",
+      "tempoBpm": 64,
+      "rootMidi": 50,
+      "scoreSeed": 68,
+      "notes": 77,
+      "externalSamples": false,
+      "noSpeech": true,
+      "retimed": false,
+      "sha256": "32ee86851ccf1186c1409af2822bf3a79553aadd013fdd6d78a6febcbd730db7",
+      "envelope": {
+        "fadeInSeconds": 0.6,
+        "duckStart": 0.7000000000000001,
+        "duckEnd": 1.4500000000000002,
+        "speechGain": 0.14,
+        "nominalSpeechMusicLufs": -43.07743928643524,
+        "riseStart": 92.92999999999999,
+        "riseEnd": 93.73,
+        "holdSeconds": 2,
+        "fadeStart": 95.73,
+        "fadeEnd": 97.73
+      },
+      "listeningValidation": "pending",
+      "start": 0,
+      "underSpeech": true
+    }
+  ],
+  "sha256": "225cc3e97118aab74e6bfcd95880ca77efd10382e88c461b17dc49580731ed4c",
+  "voiceHandles": {
+    "body": {
+      "start": 0.535,
+      "end": 92.03408333333333,
+      "retainedPcmSha256": "34d1fb7c2df7fea82ef1012b11dd7b8a26afe092e41e13eb5f88d0218f5441c5",
+      "sourceSha256": "a7e648450bb6b558905f348f972cb81d65c662e9b9cfd6ac9be58f55db0dfe42",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0,
+      "end": 3.2,
+      "retainedPcmSha256": "55b3c19ad77d49f3628dccde492f9a7afed4ce885ae4bb86440315bba5dd948a",
+      "sourceSha256": "cacb779dc5ca871f864900c70a5f4905b53009b6e18cb7b81f0aa8011a4cd1c4",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-23",
+    "sourceTakeSha256": "5bb0a7abe9cd21bde670d47ce5e9d6857dcefc3f702a8be17da6df68141d6440",
+    "confirmation": "S068 validat per muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S068 validat per publicació definitiva",
+    "audioSha256": "225cc3e97118aab74e6bfcd95880ca77efd10382e88c461b17dc49580731ed4c",
+    "editorialFingerprint": "f26e6a27baa43083cc7eaa4d048902a2ceaf68c6fcfa6c8336df871e4e3a7b0e",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/el-dinar-al-banc-de-lestacio-dialogada-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
+  }
+}

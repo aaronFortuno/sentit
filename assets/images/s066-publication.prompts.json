@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "code": "S066",
+  "prompt": "Create ONE landscape 3:2 illustration, 1536x1024, for Sentit Catalan listening worksheets. Use case: illustration-story. Input 1 Mireia, input 2 Biel are identity/style references only. Preserve exact faces, ages, dark skin and short curls for adult Mireia, sage cardigan, tousled brown hair and charcoal hoodie for young teenage Biel. No model-sheet panels or labels. Fine ink and soft watercolor on airy warm white paper, muted sage and ochre, outer edges fading to white, legible at 80mm printed width. Natural candid classroom interaction, not posed portraits. No readable writing, numbers, labels, logos or watermark. Mireia and Biel sit beside a classroom table and both listen attentively to one small neutral portable audio recorder resting on the table. Biel tilts his head slightly toward its sound; Mireia pauses with a gentle curious expression, leaning a little nearer. A closed notebook off to one side and softly blurred ordinary classroom shelves, present-time listening moment. Medium-wide diagonal view, natural hands. No maps, hallways, doors, low cupboards, staircases, bells, loudspeakers, people leaving a room, moving chairs, walking with the recorder, names of files, timelines, cuts, waveform or readable screens. No indication of where the recorder used to be or any sequence of sounds.",
+  "references": [
+    "../characters/mireia-model-sheet-v1.webp",
+    "../characters/biel-model-sheet-v1.webp"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "code": "S063",
+  "activity": "ca-S063",
+  "state": "published",
+  "file": "s063-mixed-v1.mp3",
+  "introFile": "s063-mixed-v1-intro.mp3",
+  "bodyFile": "s063-mixed-v1-cos.mp3",
+  "offset": 4.44,
+  "bodyDuration": 112.53,
+  "fullDuration": 116.97,
+  "voices": {
+    "Mireia": "Aoede",
+    "Biel": "Puck"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "a8a1c31ecd69f92c20a41e6a739917e717f6da8007fba6592d62f5d5b553f9c0",
+  "sourceRequestHash": "34162b9c5161e0d7e8b394f659d2e80021097bf8ebd295bd7bce7c9f0c66686f",
+  "batch": "L27",
+  "rawSha256": "113af488c48ded72fa2057440b9753e0eb695ff290ae1cee796d9ab143caaf38",
+  "takeSha256": "e66559d86d4e0bf1429ef79a52e0f853b75421c7f4857958c75fe5e81fc95a26",
+  "coverage": 0.8918128654970761,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.58,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "kyles-450728",
+      "start": 0,
+      "source": "assets/audio/sources/kyles-450728.mp3",
+      "sourceSha256": "20f19e1eec5394003835bcc940e246b941b2dd733b062c2743dcef1443f7b0c1",
+      "sourceUrl": "https://freesound.org/people/kyles/sounds/450728/",
+      "author": "kyles",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.12,
+      "openingGain": 0.3,
+      "raisedGain": 0.4,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -46.416375079047505,
+      "lowPassHz": 1800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 5,
+        "seconds": 90
+      },
+      "envelope": {
+        "riseStart": 106.52999999999999,
+        "riseEnd": 107.33,
+        "holdSeconds": 2.000000000000014,
+        "fadeStart": 109.33000000000001,
+        "fadeEnd": 111.33000000000001
+      }
+    }
+  ],
+  "sha256": "622468f337ece93d58b741fba78dc5d8ed0c8f742f4bcf1dade1d3c1787cd37b",
+  "voiceHandles": {
+    "body": {
+      "start": 0.28,
+      "end": 104.81,
+      "retainedPcmSha256": "1e36163773fc51830ef1ee5c41d6352c312dd2e42e449bf00f214135f324d908",
+      "sourceSha256": "ec18d12d630f7fb7621fb7c5cb25bfe44ea84c9591f564469b7d081a626a309c",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.04,
+      "end": 3.53,
+      "retainedPcmSha256": "47575f4d8c1e7a0700f61001fd73e16ec0d735dd43f957f95642a57efe8f5c54",
+      "sourceSha256": "09c71723611ce4d0b573a32ba876408c02712005df609eae40787573809993a5",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-23",
+    "sourceTakeSha256": "e66559d86d4e0bf1429ef79a52e0f853b75421c7f4857958c75fe5e81fc95a26",
+    "confirmation": "S063 validat per muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S063 validat per publicació definitiva",
+    "audioSha256": "622468f337ece93d58b741fba78dc5d8ed0c8f742f4bcf1dade1d3c1787cd37b",
+    "editorialFingerprint": "fb10bea15bb4237737a95f58165ee3e3b8a7604b279106cfad8690805e9e4b80",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/el-pont-de-paper-es-doblega-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
+  }
+}

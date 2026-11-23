@@ -1,0 +1,97 @@
+{
+  "code": "S065",
+  "activity": "ca-S065",
+  "state": "published",
+  "file": "s065-mixed-v1.mp3",
+  "introFile": "s065-mixed-v1-intro.mp3",
+  "bodyFile": "s065-mixed-v1-cos.mp3",
+  "offset": 4.5,
+  "bodyDuration": 110.304,
+  "fullDuration": 114.804,
+  "voices": {
+    "Mireia": "Aoede",
+    "Biel": "Puck"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "a8a1c31ecd69f92c20a41e6a739917e717f6da8007fba6592d62f5d5b553f9c0",
+  "sourceRequestHash": "2edd8a3b7161a22010654018d19f5a42bdc212f7520c991290b722cd27c0c2c4",
+  "batch": "L27",
+  "rawSha256": "113af488c48ded72fa2057440b9753e0eb695ff290ae1cee796d9ab143caaf38",
+  "takeSha256": "597ba92b862eef28fa7b8fcb582fad3b9f5f989d7608b408d9ee8278ee6409ae",
+  "coverage": 0.9025069637883009,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.29,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "kyles-450728",
+      "start": 0,
+      "source": "assets/audio/sources/kyles-450728.mp3",
+      "sourceSha256": "20f19e1eec5394003835bcc940e246b941b2dd733b062c2743dcef1443f7b0c1",
+      "sourceUrl": "https://freesound.org/people/kyles/sounds/450728/",
+      "author": "kyles",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.12,
+      "openingGain": 0.3,
+      "raisedGain": 0.4,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -46.416375079047505,
+      "lowPassHz": 1800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 5,
+        "seconds": 90
+      },
+      "envelope": {
+        "riseStart": 104.46,
+        "riseEnd": 105.26,
+        "holdSeconds": 1.843999999999994,
+        "fadeStart": 107.104,
+        "fadeEnd": 109.104
+      }
+    }
+  ],
+  "sha256": "d90252421be37066debedc75bb85b0ff122012542675e7335c4e4bbe75daf5d8",
+  "voiceHandles": {
+    "body": {
+      "start": 0.04,
+      "end": 102.344,
+      "retainedPcmSha256": "3f57887c6fd051dbc43ff429e16e9fea74c0d930e1bedfbf7648f242c2046388",
+      "sourceSha256": "ff829a6e179a82bea2e2192d9783568a839f7c925a66cc423a38b9bef54ef95f",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.07,
+      "end": 3.62,
+      "retainedPcmSha256": "567bc89615597e14109a6a370aa74ed684adf8bc52ea4dbf3e7f7f781cf6f520",
+      "sourceSha256": "072e4542751a4538c8f28626e9b903e2b351871cbee02e6344524d896ed20482",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-23",
+    "sourceTakeSha256": "597ba92b862eef28fa7b8fcb582fad3b9f5f989d7608b408d9ee8278ee6409ae",
+    "confirmation": "S065 validat per muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S065 validat per publicació definitiva",
+    "audioSha256": "d90252421be37066debedc75bb85b0ff122012542675e7335c4e4bbe75daf5d8",
+    "editorialFingerprint": "42a3739a93fc94cc5a62907995cc1ba721bebdfa282d98c7786735e11172ffeb",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/la-mesura-que-canviava-de-lloc-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
+  }
+}

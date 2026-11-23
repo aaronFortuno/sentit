@@ -1,5 +1,7 @@
 # Tancament dels materials abans de publicar
 
+El 23/11/2026, tanda 0.1.92: S007, S013, S024, S029, S045D, S046D, S057, S063, S064, S065, S066, S068, S068D, S069, S069D, S079 i S082 passen a definitives amb aprovació docent explícita. Tretze il·lustracions noves, amb prompts a `assets/images/sXXX-publication.prompts.json`; S045D/S045, S046D/S046, S068/S068D i S069/S069D comparteixen imatge per ser la mateixa història, conservant les aprovacions pròpies de cada àudio. Revisió independent de totes les imatges, alts, preguntes, cites i transcripcions només parlades. Els SHA dels disset MP3 coincideixen amb els aprovats; la prova de timbre de S024 queda validada sense canviar el muntatge.
+
 La validació de l’àudio és l’últim pas docent. Abans de donar una comprensió per definitiva, també s’ha d’acabar la seva presentació. Aquesta comprovació és obligatòria per a les publicacions futures.
 
 1. **Il·lustració pròpia de context.** Consultar els models dels personatges; crear primer la fitxa visual dels que encara no en tinguin. La imatge no pot mostrar dades o pistes que resolguin les preguntes. Registrar prompt, referències i fitxer al repositori.

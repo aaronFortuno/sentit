@@ -1,0 +1,97 @@
+{
+  "code": "S066",
+  "activity": "ca-S066",
+  "state": "published",
+  "file": "s066-mixed-v1.mp3",
+  "introFile": "s066-mixed-v1-intro.mp3",
+  "bodyFile": "s066-mixed-v1-cos.mp3",
+  "offset": 4.630000000000001,
+  "bodyDuration": 156.136,
+  "fullDuration": 160.766,
+  "voices": {
+    "Mireia": "Aoede",
+    "Biel": "Puck"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "a8c5196dba3b7699202dbef8681a9fefe519de2d560579efeb91b7f4d561197b",
+  "sourceRequestHash": "797f0ee5d962326fa5f80fbbaa229e8b185ea50a6c9cfbad1063e53e487052be",
+  "batch": "L21",
+  "rawSha256": "4f8ebe4fe17a269b3ffdd4748a6d40e0d99e037623a3e2159a0a04fe3142fb2e",
+  "takeSha256": "7da804a72aa091587124aba4e5065682b328de2bbe521f8805a3792c4753db11",
+  "coverage": 0.9125,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.6,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "kyles-450728",
+      "start": 0,
+      "source": "assets/audio/sources/kyles-450728.mp3",
+      "sourceSha256": "20f19e1eec5394003835bcc940e246b941b2dd733b062c2743dcef1443f7b0c1",
+      "sourceUrl": "https://freesound.org/people/kyles/sounds/450728/",
+      "author": "kyles",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.12,
+      "openingGain": 0.3,
+      "raisedGain": 0.4,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -46.416375079047505,
+      "lowPassHz": 1800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 5,
+        "seconds": 90
+      },
+      "envelope": {
+        "riseStart": 150.095991,
+        "riseEnd": 150.895991,
+        "holdSeconds": 2.0400089999999977,
+        "fadeStart": 152.936,
+        "fadeEnd": 154.936
+      }
+    }
+  ],
+  "sha256": "02da496143542ca2a1136c18b720e92785ec6866d52db86785dff05af164ecdb",
+  "voiceHandles": {
+    "body": {
+      "start": 0.475,
+      "end": 148.611,
+      "retainedPcmSha256": "27b4a8f88d9afb73549042ddddc2bdf3cf4068e8f0bb2926639b3203f047810c",
+      "sourceSha256": "d3381edcbaf4211521eaee0e392438105d98305ae6ababe790f986659f484fe2",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0,
+      "end": 3.68,
+      "retainedPcmSha256": "1ed26458e9fcd12ea2eef6d560913d7245ab0d0a3f0b1ad88be3864548c7f502",
+      "sourceSha256": "bf503c70d17fb3660730ed40090d461cd397934fa984715a2e091f837f1bb782",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-23",
+    "sourceTakeSha256": "7da804a72aa091587124aba4e5065682b328de2bbe521f8805a3792c4753db11",
+    "confirmation": "S066 validat per muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S066 validat per publicació definitiva",
+    "audioSha256": "02da496143542ca2a1136c18b720e92785ec6866d52db86785dff05af164ecdb",
+    "editorialFingerprint": "9faf67197254fd1dad8710cf27c885f88bd0a7f1bbe7b969f2090298fed209fe",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/el-mapa-de-sons-del-passadis-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
+  }
+}

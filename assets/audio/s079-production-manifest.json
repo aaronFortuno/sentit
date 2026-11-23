@@ -1,7 +1,7 @@
 {
   "code": "S079",
   "activity": "ca-S079",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s079-mixed-v1.mp3",
   "introFile": "s079-mixed-v1-intro.mp3",
   "bodyFile": "s079-mixed-v1-cos.mp3",
@@ -79,5 +79,19 @@
     "approvedAt": "2026-11-23",
     "sourceTakeSha256": "b605ca16933b2dddc6483ad87b1150209542ab742cee513769b516ac146bb146",
     "confirmation": "S079 validat per pujar a muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S079 validat per publicació definitiva",
+    "audioSha256": "1d33cac40b7aa5c4bee8c780f2498389901da26f4dad39ae9941a6ec55826958",
+    "editorialFingerprint": "ef791b386968c409f043f6b46df29808baade66f2441be1e976c727339ad66d5",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/una-funda-que-no-tanca-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

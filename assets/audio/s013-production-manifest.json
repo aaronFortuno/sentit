@@ -2,7 +2,7 @@
   "code": "S013",
   "activity": "ca-S013",
   "date": "2026-11-20T13:16:10.810Z",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "model": "gemini-3.8-flash-tts",
   "voices": {
     "Mireia": "Aoede"
@@ -208,5 +208,19 @@
     "file": "s013-carta-v2-intro.mp3",
     "sha256": "d1db8bb80f33a90b876155a0145da66e14a2854dd28a01d117707f1c7292282a"
   },
-  "productionMode": "repaired-existing-master"
+  "productionMode": "repaired-existing-master",
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S013 validat per publicació definitiva",
+    "audioSha256": "03807f97cb892ad29c76a0b4e49dfb7dce57e6ea939c9509fb40fc482c320f94",
+    "editorialFingerprint": "1ac1d32c5d386ffc07af13f947ecb529f131bb2fa61dc937f82880959f4a04c6",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/com-viatja-una-carta-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
+  }
 }

@@ -140,10 +140,11 @@ export const tercer = [
   }),
   proposal({
     id: 'on-va-laigua-del-bassal', code: 'S007', title: 'On va l’aigua del bassal?', grade: '3', level: 'advanced', genre: 'explanation',
-    seconds: 117, status: 'ready-for-review', reviewStatus: 'audio-review',
+    seconds: 117, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s007-repair-v3.mp3', tracks: { introduction: './assets/audio/s007-classroom-v2-intro.mp3', body: './assets/audio/s007-repair-v3-cos.mp3' },
     fragment: { start: 4.269999999999996, seconds: 112 },
     recordingCues: [{"before":"observar","text":"Torn «Llavors podem tenir aigua al voltant sense veure-la?» substituït per Biel. Resta de les veus i pauses netejades conservades; ambient real continu d’aula, sense cadira, paper ni tons finals."},{"after":"final","text":"La veu acaba completa. El muntatge amb les represes incorporades continua pendent d’audició docent."}],
+    image: {"src":"./assets/images/on-va-laigua-del-bassal-v1.webp","alt":"La Mireia, la Laia i en Biel observen el pati humit des de la finestra de l’aula.","width":1536,"height":1024},
     summary: 'Una conversa a classe sobre el bassal del pati ajuda a distingir dos camins de l’aigua i a proposar una comparació.',
     strategy: 'grouped-voices-v1',
     voices: { Mireia: 'Aoede', Laia: 'Leda', Biel: 'Puck' },

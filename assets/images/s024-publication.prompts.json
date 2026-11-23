@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "code": "S024",
+  "prompt": "Create ONE landscape 3:2 illustration, 1536x1024, for Sentit Catalan listening worksheets. Use case: illustration-story. Input images are canonical identity/style references only: preserve the exact faces, ages, skin tones, hairstyles and clothes; do not reproduce sheet panels or labels. Fine ink and soft watercolor on airy warm white paper, muted sage and ochre, outer edges fading to white. Natural contextual action, legible at 80mm printed width. No readable writing, numbers, labels, logos or watermark. Image 1 Laia, image 2 Biel. The two young teenagers compare three completely blank sheets, laid loosely on a small classroom table beside a window overlooking a very generic school yard. Laia with curly bun, freckles and sage sweater leans toward Biel and gestures with an open hand as they discuss possibilities. Biel with tousled brown hair and charcoal hoodie looks thoughtfully at the sheets, not presenting a finished plan. The three sheets are entirely blank: no drawings, results, ordered table or marks. The background yard is only a pale unmarked surface and a distant plain wall, softly blurred. No benches, awnings, new trees, ball games, painted floor games, cabinets, equipment lending, fountains, budget, votes, graphs, winners or visualized proposals.",
+  "references": [
+    "../characters/laia-model-sheet-v1.webp",
+    "../characters/biel-model-sheet-v1.webp"
+  ]
+}

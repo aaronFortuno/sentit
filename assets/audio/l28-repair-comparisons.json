@@ -7,7 +7,7 @@
       "part": "encarrec",
       "text": "Aina, una vegada em van deixar portar el marcador d’un partit del barri. Jo encara era petit per jugar amb els grans, però em van donar una pissarra i un guix. A dalt hi havia escrit el nom dels dos equips: carrer Nou a l’esquerra i carrer Major a la dreta.",
       "pronunciation": "Aina: keep the Catalan AI diphthong, not Eina. Guix ends with the soft SH consonant heard in Catalan peix, never a K or KS sound. Keep the I vowel. Read only the supplied sentence, not these instructions.",
-      "status": "applied-awaiting-montage-listening",
+      "status": "applied-validated",
       "originalFile": "assets/audio/repairs/l28-s069-encarrec-original.mp3",
       "candidateFile": "assets/audio/repairs/l28-s069-encarrec-prova.mp3",
       "sourceRawSha256": "43a2e90b48ca2359bb188118537c41567673d998ef51374d5170f00ca0c55937",
@@ -19,7 +19,9 @@
       "confirmation": "S069 esmenes validades pel docent per incorporar-les i passar a muntatge.",
       "candidateSha256": "a071b2641426c67697ca847b18b52bbae4cbe760e385df170e9aed40957cf1e8",
       "appliedAt": "2026-11-23",
-      "appliedAudio": "./assets/audio/s069-mixed-v1.mp3"
+      "appliedAudio": "./assets/audio/s069-mixed-v1.mp3",
+      "validatedAt": "2026-11-23",
+      "validatedAudioSha256": "6529adf8215c90b2d64ef3e9ae8bd0d100c56a7cd76f475622d5416240ce0319"
     }
   ],
   "masterChanged": true

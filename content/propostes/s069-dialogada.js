@@ -4,10 +4,11 @@ import { proposal, direction as d, spoken as s, question as q, evidence as e } f
 export const s069Dialogada = proposal({
   id: 'la-pissarra-del-partit-dialogada', code: 'S069D', title: 'La pissarra del partit · versió dialogada', grade: '5', level: 'middle', genre: 'story', universeIds: ['aina-ferran'],
     recordingCues: [{"before":"pregunta","text":"Base original «Dos noms a la pissarra», prevista també per a la versió narrada de la mateixa història, amb mescla pròpia per a Aina i Ferran. Molt baixa sota les veus; sense partit, guix, gols ni pauses afegides."},{"after":"final","text":"La veu acaba completa. Marge breu, pujada suau del fons, dos segons de sosteniment i fosa de dos segons; sense efecte de comiat."}],
-    seconds: 138, status: 'ready-for-review', reviewStatus: 'audio-review',
+    seconds: 138, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s069d-mixed-v1.mp3', tracks: { introduction: './assets/audio/s069d-mixed-v1-intro.mp3', body: './assets/audio/s069d-mixed-v1-cos.mp3' },
     fragment: { start: 5.365, seconds: 132 },
-  summary: 'L’Aina pregunta a l’avi Ferran pel futbol de quan era petit. Ell recorda el dia que li van deixar portar el marcador d’un partit i la pissarra el va fer anar de corcoll.',
+  image: {"src":"./assets/images/la-pissarra-del-partit-dialogada-v1.webp","alt":"L’Aina i l’avi Ferran riuen conversant a casa, amb una pissarra petita sense escrits al prestatge.","width":1536,"height":1024},
+    summary: 'L’Aina pregunta a l’avi Ferran pel futbol de quan era petit. Ell recorda el dia que li van deixar portar el marcador d’un partit i la pissarra el va fer anar de corcoll.',
   voices: { Aina: 'Zephyr', Ferran: 'Algenib' },
   delivery: 'Conversa familiar entre Aina, de deu a dotze anys, i el seu avi Ferran. Aina escolta, s’imagina l’escena i intervé amb reaccions i preguntes curtes motivades pel relat; no entrevista ni resumeix cada torn. Ferran recorda amb afecte i humor tranquil, sense convertir el record en una lliçó. Veus constants Zephyr i Algenib, sense caricatura infantil o de persona gran. El cosí i els jugadors només s’esmenten: no imitar-los. Al final, somriure audible en el to, sense instruccions de rialles dins del text parlat.',
   editorialFocus: 'Variant dialogada de S069, conservada íntegra. 5è intermèdia: relacionar el canvi de costat dels jugadors amb l’error de marcador, interpretar els senyals del cosí i reconstruir la correcció. Mateixes vuit exigències de comprensió, ara amb les preguntes i reaccions de l’Aina. Pendent de validació docent pròpia.',

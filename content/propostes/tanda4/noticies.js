@@ -136,9 +136,10 @@ export const noticies = [
   news({
     id: 'la-volta-nova-del-bus-de-dissabte', code: 'S057', title: 'La volta nova del bus de dissabte', grade: '6', level: 'advanced',
     recordingCues: [{"before":"inici","text":"Identitat comuna de les notícies de la Mar: «Breaking News Background Music», amb entrada, base contínua molt atenuada sota la veu i sortida completa. Sense papers ni altres efectes afegits."},{"after":"final","text":"La veu acaba completa. La sortida de la música comuna s’alinea amb el final de la notícia i es fon sense sons afegits."}],
-    seconds: 158, status: 'ready-for-review', reviewStatus: 'audio-review',
+    seconds: 158, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s057-mixed-v1.mp3', tracks: { introduction: './assets/audio/s057-mixed-v1-intro.mp3', body: './assets/audio/s057-mixed-v1-cos.mp3' },
     fragment: { start: 5.915, seconds: 151 },
+    image: {"src":"./assets/images/la-volta-nova-del-bus-de-dissabte-v1.webp","alt":"La Mar fa una crònica al costat d’una parada mentre passa un autobús al fons.","width":1536,"height":1024},
     summary: 'Un autobús canvia una part del recorregut dels dissabtes per acostar-se al mercat. La Mar recull què ha passat durant la primera prova i quins ajustos es faran al següent viatge.',
     editorialFocus: '6è avançada: diferenciar canvis de recorregut, canvis d’horari i resultats d’una primera prova; contrastar dos casos de passatgers i explicar una compensació concreta. Nou preguntes amb síntesi entre passatges. Servei i dades completament ficticis.',
     soundPlan: 'Ona curta abans i després de la locució. Dos segons d’autobús enregistrat a l’entrada i un ambient curt de parada en una pausa central, sense avisos orals ni sirenes. Veu neta durant els noms de lloc i les relacions temporals; no fer sonar un motor accelerat per suggerir pressa.',

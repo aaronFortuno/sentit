@@ -857,7 +857,7 @@
       "code": "S013",
       "activity": "ca-S013",
       "date": "2026-11-20T13:16:10.810Z",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "model": "gemini-3.8-flash-tts",
       "voices": {
         "Mireia": "Aoede"
@@ -1063,7 +1063,21 @@
         "file": "s013-carta-v2-intro.mp3",
         "sha256": "d1db8bb80f33a90b876155a0145da66e14a2854dd28a01d117707f1c7292282a"
       },
-      "productionMode": "repaired-existing-master"
+      "productionMode": "repaired-existing-master",
+      "teacherValidation": {
+        "validatedAt": "2026-11-23",
+        "validatedBy": "docent",
+        "confirmation": "S013 validat per publicació definitiva",
+        "audioSha256": "03807f97cb892ad29c76a0b4e49dfb7dce57e6ea939c9509fb40fc482c320f94",
+        "editorialFingerprint": "1ac1d32c5d386ffc07af13f947ecb529f131bb2fa61dc937f82880959f4a04c6",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/com-viatja-una-carta-v1.webp",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-23",
+        "audioChanged": false
+      }
     },
     {
       "code": "S018",
@@ -2901,7 +2915,7 @@
     {
       "code": "S007",
       "activity": "ca-S007",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s007-repair-v3.mp3",
       "introFile": "s007-classroom-v2-intro.mp3",
       "bodyFile": "s007-repair-v3-cos.mp3",
@@ -3347,7 +3361,7 @@
         "continuousAmbience": true,
         "voiceRetimed": false,
         "newRequests": 0,
-        "teacherFinalApproval": false,
+        "teacherFinalApproval": true,
         "unresolvedVoicePart": null,
         "routingAudit": "Each spoken part still comes from its labelled raw take; timbre identity requires a corrected synthesis, not local relabelling."
       },
@@ -3441,6 +3455,20 @@
         "untrimmedApartFromSilenceSplit": false,
         "retimed": false,
         "repairedWithoutRetiming": true
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-23",
+        "validatedBy": "docent",
+        "confirmation": "S007 validat per publicació definitiva",
+        "audioSha256": "4828e5d35d73dec71a4ceb7dbec15047590c2c7dc377cb2fea485624ac434440",
+        "editorialFingerprint": "f03a087e9d41146d4aa5412dcae0790d65b0c2e46125a3a0cafbe9014081c240",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/on-va-laigua-del-bassal-v1.webp",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-23",
+        "audioChanged": false
       }
     },
     {
@@ -3915,7 +3943,7 @@
     {
       "code": "S024",
       "activity": "ca-S024",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s024-timbre-trial-v3.mp3",
       "introFile": "s024-classroom-v2-intro.mp3",
       "bodyFile": "s024-timbre-trial-v3-cos.mp3",
@@ -4069,6 +4097,20 @@
         "untrimmedApartFromSilenceSplit": false,
         "retimed": false,
         "repairedWithoutRetiming": true
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-23",
+        "validatedBy": "docent",
+        "confirmation": "S024 validat per publicació definitiva",
+        "audioSha256": "dc6a3e1ba9b69ad6715addf156c61889067beb3d316898c3b7374d7b3d524a50",
+        "editorialFingerprint": "855d05ad6600cb54050b0e927ec7b5ae895132b19d4e590fc609aa6f3a6a1d52",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/tres-maneres-de-transformar-el-pati-v1.webp",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-23",
+        "audioChanged": false
       }
     },
     {
@@ -6178,7 +6220,7 @@
     {
       "code": "S029",
       "activity": "ca-S029",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s029-repair-v3.mp3",
       "introFile": "s029-title-v3-intro.mp3",
       "bodyFile": "s029-repair-v3-cos.mp3",
@@ -6240,7 +6282,7 @@
         "voiceApprovalFingerprint": "7721097a821d76d0a15a5199bb93ea8046b88e2877353211fd49b8ce13f75e23",
         "jingle": "ona-curta",
         "jingleAuthority": "Els quatre jingles van quedar aprovats com a recursos pel docent el 20/11. Ona curta ja identifica les notícies a S023.",
-        "finalTeacherApproval": false
+        "finalTeacherApproval": true
       },
       "preparation": {
         "canonicalTitleRange": {
@@ -6269,7 +6311,7 @@
           "end": 4.425
         },
         "bodyPcmSha256": "4f83d81d1f3ece8513b600136d35dfb936ed7a54b0fee73c35d162a2f66216f5",
-        "teacherFinalApproval": false,
+        "teacherFinalApproval": true,
         "newRequests": 0
       },
       "newsTitleRevision": {
@@ -6374,6 +6416,20 @@
       "titleTrackPreserved": {
         "file": "s029-title-v3-intro.mp3",
         "sha256": "3cbe28f12ee9bc900a210246011fc4df2b82b6d6611559754c75a23b5465877b"
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-23",
+        "validatedBy": "docent",
+        "confirmation": "S029 validat per publicació definitiva",
+        "audioSha256": "ba14a5724776db495a87fa23a7b738ea76bf2840d3f32728279dab4bcdd533d1",
+        "editorialFingerprint": "fa74fefaedb636f3748cf77db6196baedbbbda986f210230325f06878aa34e42",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/el-cinema-surt-a-la-placa-v1.webp",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-23",
+        "audioChanged": false
       }
     },
     {
@@ -8292,7 +8348,7 @@
     {
       "code": "S079",
       "activity": "ca-S079",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s079-mixed-v1.mp3",
       "introFile": "s079-mixed-v1-intro.mp3",
       "bodyFile": "s079-mixed-v1-cos.mp3",
@@ -8370,6 +8426,20 @@
         "approvedAt": "2026-11-23",
         "sourceTakeSha256": "b605ca16933b2dddc6483ad87b1150209542ab742cee513769b516ac146bb146",
         "confirmation": "S079 validat per pujar a muntatge"
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-23",
+        "validatedBy": "docent",
+        "confirmation": "S079 validat per publicació definitiva",
+        "audioSha256": "1d33cac40b7aa5c4bee8c780f2498389901da26f4dad39ae9941a6ec55826958",
+        "editorialFingerprint": "ef791b386968c409f043f6b46df29808baade66f2441be1e976c727339ad66d5",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/una-funda-que-no-tanca-v1.webp",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-23",
+        "audioChanged": false
       }
     },
     {
@@ -8569,7 +8639,7 @@
     {
       "code": "S046D",
       "activity": "ca-S046D",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s046d-mixed-v1.mp3",
       "introFile": "s046d-mixed-v1-intro.mp3",
       "bodyFile": "s046d-mixed-v1-cos.mp3",
@@ -8650,12 +8720,26 @@
         "approvedAt": "2026-11-23",
         "sourceTakeSha256": "715d0f04f936e233fd808beef3a1b074820f3a8b52d1a27f26c8b8e6e9793771",
         "confirmation": "S046D validat per pujar a muntatge"
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-23",
+        "validatedBy": "docent",
+        "confirmation": "S046D validat per publicació definitiva",
+        "audioSha256": "62aadfc67667d04dfdeae0b3c7fa93b409a35b42aed6d7f87af0780284c98b41",
+        "editorialFingerprint": "ae547cddb1b01e9922676a15eb091070fe893f45069e85b2008f07c7d0cd5943",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/la-clau-del-davantal-v1.webp",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-23",
+        "audioChanged": false
       }
     },
     {
       "code": "S057",
       "activity": "ca-S057",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s057-mixed-v1.mp3",
       "introFile": "s057-mixed-v1-intro.mp3",
       "bodyFile": "s057-mixed-v1-cos.mp3",
@@ -8732,12 +8816,26 @@
         "approvedAt": "2026-11-23",
         "sourceTakeSha256": "110b133e256a4a48a1d303d264c8651aeb6a21242ecc80d8b8034b83e6159b4a",
         "confirmation": "S057 validat per pujar a muntatge"
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-23",
+        "validatedBy": "docent",
+        "confirmation": "S057 validat per publicació definitiva",
+        "audioSha256": "9648e5bb8fe6591c4a4f1c3cf6c81d50168d255979b7610b7022d3c745b247be",
+        "editorialFingerprint": "ff4e450079ca2113d9f42ced961f1381ddf5ba0d41594acc0f8e29b0453867f9",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/la-volta-nova-del-bus-de-dissabte-v1.webp",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-23",
+        "audioChanged": false
       }
     },
     {
       "code": "S069D",
       "activity": "ca-S069D",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s069d-mixed-v1.mp3",
       "introFile": "s069d-mixed-v1-intro.mp3",
       "bodyFile": "s069d-mixed-v1-cos.mp3",
@@ -8818,12 +8916,26 @@
         "approvedAt": "2026-11-23",
         "sourceTakeSha256": "735afffe53cc9d8200db48b94f7db1e6fca4943cbb9759344545fdfcf7be0c80",
         "confirmation": "S069D validat per muntatge"
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-23",
+        "validatedBy": "docent",
+        "confirmation": "S069D validat per publicació definitiva",
+        "audioSha256": "2dd65c1de179927e768e4e45334e60a3955d4185e7a5a38f45a0f77072f31056",
+        "editorialFingerprint": "bf16fa6e87da8dba91bbeb76010c0a042f429ae954a8e48d29735a83065cee14",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/la-pissarra-del-partit-dialogada-v1.webp",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-23",
+        "audioChanged": false
       }
     },
     {
       "code": "S068",
       "activity": "ca-S068",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s068-mixed-v1.mp3",
       "introFile": "s068-mixed-v1-intro.mp3",
       "bodyFile": "s068-mixed-v1-cos.mp3",
@@ -8903,6 +9015,20 @@
         "approvedAt": "2026-11-23",
         "sourceTakeSha256": "5bb0a7abe9cd21bde670d47ce5e9d6857dcefc3f702a8be17da6df68141d6440",
         "confirmation": "S068 validat per muntatge"
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-23",
+        "validatedBy": "docent",
+        "confirmation": "S068 validat per publicació definitiva",
+        "audioSha256": "225cc3e97118aab74e6bfcd95880ca77efd10382e88c461b17dc49580731ed4c",
+        "editorialFingerprint": "f26e6a27baa43083cc7eaa4d048902a2ceaf68c6fcfa6c8336df871e4e3a7b0e",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/el-dinar-al-banc-de-lestacio-dialogada-v1.webp",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-23",
+        "audioChanged": false
       }
     },
     {
@@ -9005,7 +9131,7 @@
     {
       "code": "S066",
       "activity": "ca-S066",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s066-mixed-v1.mp3",
       "introFile": "s066-mixed-v1-intro.mp3",
       "bodyFile": "s066-mixed-v1-cos.mp3",
@@ -9083,6 +9209,20 @@
         "approvedAt": "2026-11-23",
         "sourceTakeSha256": "7da804a72aa091587124aba4e5065682b328de2bbe521f8805a3792c4753db11",
         "confirmation": "S066 validat per muntatge"
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-23",
+        "validatedBy": "docent",
+        "confirmation": "S066 validat per publicació definitiva",
+        "audioSha256": "02da496143542ca2a1136c18b720e92785ec6866d52db86785dff05af164ecdb",
+        "editorialFingerprint": "9faf67197254fd1dad8710cf27c885f88bd0a7f1bbe7b969f2090298fed209fe",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/el-mapa-de-sons-del-passadis-v1.webp",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-23",
+        "audioChanged": false
       }
     },
     {
@@ -9280,7 +9420,7 @@
     {
       "code": "S045D",
       "activity": "ca-S045D",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s045d-mixed-v1.mp3",
       "introFile": "s045d-mixed-v1-intro.mp3",
       "bodyFile": "s045d-mixed-v1-cos.mp3",
@@ -9361,12 +9501,26 @@
         "approvedAt": "2026-11-23",
         "sourceTakeSha256": "453e13fbf8dcee801cc2af4612356f842d0f6e230bed301427dcada4de6720be",
         "confirmation": "S045D validat per muntatge"
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-23",
+        "validatedBy": "docent",
+        "confirmation": "S045D validat per publicació definitiva",
+        "audioSha256": "5f420861750b09b1c557e2d263219ed1e0d1380fc950d77c1c126d1c61f2c177",
+        "editorialFingerprint": "8498c716a36a8cdd5ff68c8dec9bc7a376d9fb208f65664931242cd0572bb944",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/les-cadires-del-cinema-v1.webp",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-23",
+        "audioChanged": false
       }
     },
     {
       "code": "S064",
       "activity": "ca-S064",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s064-mixed-v1.mp3",
       "introFile": "s064-mixed-v1-intro.mp3",
       "bodyFile": "s064-mixed-v1-cos.mp3",
@@ -9444,12 +9598,26 @@
         "approvedAt": "2026-11-23",
         "sourceTakeSha256": "92f44632ac61d5a59a77d774e7b26e9e50ff718a9d7db92846d8cfb016d79f2b",
         "confirmation": "S064 validat per muntatge"
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-23",
+        "validatedBy": "docent",
+        "confirmation": "S064 validat per publicació definitiva",
+        "audioSha256": "fef04ecbf7c7ebec0089675053c5e609f591e73576d3f6b4390031b455f2e651",
+        "editorialFingerprint": "83857903e2087af52730c626c68c63cea15deeb79601b5b78f593b19904ee552",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/un-anunci-que-va-massa-de-pressa-v1.webp",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-23",
+        "audioChanged": false
       }
     },
     {
       "code": "S063",
       "activity": "ca-S063",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s063-mixed-v1.mp3",
       "introFile": "s063-mixed-v1-intro.mp3",
       "bodyFile": "s063-mixed-v1-cos.mp3",
@@ -9527,12 +9695,26 @@
         "approvedAt": "2026-11-23",
         "sourceTakeSha256": "e66559d86d4e0bf1429ef79a52e0f853b75421c7f4857958c75fe5e81fc95a26",
         "confirmation": "S063 validat per muntatge"
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-23",
+        "validatedBy": "docent",
+        "confirmation": "S063 validat per publicació definitiva",
+        "audioSha256": "622468f337ece93d58b741fba78dc5d8ed0c8f742f4bcf1dade1d3c1787cd37b",
+        "editorialFingerprint": "fb10bea15bb4237737a95f58165ee3e3b8a7604b279106cfad8690805e9e4b80",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/el-pont-de-paper-es-doblega-v1.webp",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-23",
+        "audioChanged": false
       }
     },
     {
       "code": "S065",
       "activity": "ca-S065",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s065-mixed-v1.mp3",
       "introFile": "s065-mixed-v1-intro.mp3",
       "bodyFile": "s065-mixed-v1-cos.mp3",
@@ -9610,12 +9792,26 @@
         "approvedAt": "2026-11-23",
         "sourceTakeSha256": "597ba92b862eef28fa7b8fcb582fad3b9f5f989d7608b408d9ee8278ee6409ae",
         "confirmation": "S065 validat per muntatge"
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-23",
+        "validatedBy": "docent",
+        "confirmation": "S065 validat per publicació definitiva",
+        "audioSha256": "d90252421be37066debedc75bb85b0ff122012542675e7335c4e4bbe75daf5d8",
+        "editorialFingerprint": "42a3739a93fc94cc5a62907995cc1ba721bebdfa282d98c7786735e11172ffeb",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/la-mesura-que-canviava-de-lloc-v1.webp",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-23",
+        "audioChanged": false
       }
     },
     {
       "code": "S068D",
       "activity": "ca-S068D",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s068d-mixed-v1.mp3",
       "introFile": "s068d-mixed-v1-intro.mp3",
       "bodyFile": "s068d-mixed-v1-cos.mp3",
@@ -9708,6 +9904,20 @@
         "approvedAt": "2026-11-23",
         "sourceTakeSha256": "ea89c6739cb6262df17eb212f3e4a2b6edda5e979f419a020b36f0df2ab4c9bc",
         "confirmation": "S068D validat per muntatge"
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-23",
+        "validatedBy": "docent",
+        "confirmation": "S068D validat per publicació definitiva",
+        "audioSha256": "e5982c3d20dbe9ae142c0fd8435d858a136de67ec501451ae182e90ece88e93f",
+        "editorialFingerprint": "faf5b6b2ccb879a85be7550fff32847881b9821d73ae811f867b136ea6e6f5a7",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/el-dinar-al-banc-de-lestacio-dialogada-v1.webp",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-23",
+        "audioChanged": false
       }
     },
     {
@@ -9813,7 +10023,7 @@
     {
       "code": "S069",
       "activity": "ca-S069",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s069-mixed-v1.mp3",
       "introFile": "s069-mixed-v1-intro.mp3",
       "bodyFile": "s069-mixed-v1-cos.mp3",
@@ -10033,12 +10243,26 @@
         "patchedFile": "patched-source.wav",
         "appliedTo": "s069-mixed-v1.mp3",
         "teacherMontageApproval": false
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-23",
+        "validatedBy": "docent",
+        "confirmation": "S069 validat per publicació definitiva",
+        "audioSha256": "6529adf8215c90b2d64ef3e9ae8bd0d100c56a7cd76f475622d5416240ce0319",
+        "editorialFingerprint": "a9e9e02ec48b699ca7ee23c940d58edbb48728df17aac159d1d440b1c80e4a20",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/la-pissarra-del-partit-dialogada-v1.webp",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-23",
+        "audioChanged": false
       }
     },
     {
       "code": "S082",
       "activity": "ca-S082",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s082-mixed-v1.mp3",
       "introFile": "s082-mixed-v1-intro.mp3",
       "bodyFile": "s082-mixed-v1-cos.mp3",
@@ -10256,6 +10480,20 @@
         "patchedFile": "patched-source.wav",
         "appliedTo": "s082-mixed-v1.mp3",
         "teacherMontageApproval": false
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-23",
+        "validatedBy": "docent",
+        "confirmation": "S082 validat per publicació definitiva",
+        "audioSha256": "d3a961182ed8891ca400effc42680313a82570533fa233ee0a1698988bd89559",
+        "editorialFingerprint": "2fcaeaff27e3c73f89db693b2efc4df6b29222017b9d72c7fd552647f650a3b6",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/el-so-que-voliem-gravar-v1.webp",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-23",
+        "audioChanged": false
       }
     }
   ]

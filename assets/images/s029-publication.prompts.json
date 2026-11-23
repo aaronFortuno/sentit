@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "code": "S029",
+  "prompt": "Create ONE landscape 3:2 illustration, 1536x1024, for Sentit Catalan listening worksheets. Use case: illustration-story. The supplied Mar model sheet is an identity/style reference only, not an edit target; preserve her exact face, age, olive skin, dark low ponytail, sage blazer and cream top. Do not reproduce model-sheet panels or labels. Fine ink and soft watercolor on warm white paper, muted sage and ochre, edges fading to white. Natural contextual action, no posed portrait. Clear at 80mm printed width. No readable writing, letters, numbers, logos or watermark. No objects or details that reveal comprehension answers. Mar is actively recording a community news report in an ordinary neighbourhood square. Medium-wide three-quarter composition: she checks her small handheld audio recorder with one hand and brings her microphone up with the other, focused on beginning a report, not looking at camera. A plain stone planter, warm generic façades and leafy trees softly set the square. Keep the setting neutral. NO cinema screen, projector, rows of chairs, cushions, reservation desk, civic centre entrance, readable poster, date, clock, rain, umbrella, sun symbol or alternative indoor venue.",
+  "references": [
+    "../characters/mar-model-sheet-v1.webp"
+  ]
+}

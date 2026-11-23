@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "code": "S079",
+  "prompt": "Create ONE landscape 3:2 illustration, 1536x1024, for Sentit Catalan listening worksheets. Use case: illustration-story. Input images: 1 Biel, 2 Elies, canonical identity/style references only. Preserve exact faces, ages, hair and clothes; no model-sheet panels or captions. Fine ink and soft watercolor on airy warm white paper, muted sage, ochre and charcoal, outer edges fading to white. A candid specific action in the instrument workshop: teenage Biel in his open charcoal hoodie is arriving with a fully CLOSED plain guitar carry case, carefully setting it upright by the side of the workbench. Adult Elies in grey shirt and brown work apron stands beside the bench, leaning slightly toward Biel to talk. One other fully CLOSED plain case rests separately near a shelf, both in similar neutral charcoal tones, neither selected or presented as the answer. Natural attentive expressions and hands, wide diagonal framing, clear at 80mm printed width. Show only a narrow side or plain back of each closed case: no front pockets or labels. No open cases, strained zipper, squeezing, measurement, photograph or phone screen, sheet music, folded paper, label, note, name, text, number, size comparison or visual indication of which case fits. No exposed guitar positioned for matching. No logos or watermark.",
+  "references": [
+    "../characters/biel-model-sheet-v1.webp",
+    "../characters/elies-model-sheet-v1.webp"
+  ]
+}

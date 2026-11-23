@@ -1,7 +1,7 @@
 {
   "code": "S007",
   "activity": "ca-S007",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s007-repair-v3.mp3",
   "introFile": "s007-classroom-v2-intro.mp3",
   "bodyFile": "s007-repair-v3-cos.mp3",
@@ -447,7 +447,7 @@
     "continuousAmbience": true,
     "voiceRetimed": false,
     "newRequests": 0,
-    "teacherFinalApproval": false,
+    "teacherFinalApproval": true,
     "unresolvedVoicePart": null,
     "routingAudit": "Each spoken part still comes from its labelled raw take; timbre identity requires a corrected synthesis, not local relabelling."
   },
@@ -541,5 +541,19 @@
     "untrimmedApartFromSilenceSplit": false,
     "retimed": false,
     "repairedWithoutRetiming": true
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S007 validat per publicació definitiva",
+    "audioSha256": "4828e5d35d73dec71a4ceb7dbec15047590c2c7dc377cb2fea485624ac434440",
+    "editorialFingerprint": "f03a087e9d41146d4aa5412dcae0790d65b0c2e46125a3a0cafbe9014081c240",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/on-va-laigua-del-bassal-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

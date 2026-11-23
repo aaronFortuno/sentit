@@ -171,9 +171,10 @@ export const quart = [
   proposal({
     id: 'com-viatja-una-carta', code: 'S013', title: 'Com viatja una carta?', grade: '4', level: 'advanced', genre: 'explanation',
     recordingCues: [{"before":"sobre","text":"Dues frases amb «bústia» substituïdes per les represes validades. Presentació i dos efectes breus del muntatge anterior conservats, sense recuperar la sintonia rebutjada."},{"after":"tornada","text":"La veu acaba completa. El muntatge amb les represes incorporades continua pendent d’audició docent."}],
-    seconds: 143, status: 'ready-for-review', reviewStatus: 'audio-review',
+    seconds: 143, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s013-repair-v3.mp3', tracks: { introduction: './assets/audio/s013-carta-v2-intro.mp3', body: './assets/audio/s013-repair-v3-cos.mp3' },
     fragment: { start: 4.660020833333334, seconds: 138 },
+    image: {"src":"./assets/images/com-viatja-una-carta-v1.webp","alt":"La Mireia mostra un sobre tancat i sense dades al costat d’una bústia al carrer.","width":1536,"height":1024},
     summary: 'La Mireia segueix un sobre fictici per entendre què aporta cada etapa del recorregut.',
     voices: { Mireia: 'Aoede' }, delivery: 'Mestra narradora adulta, clara i curiosa. Marcar els canvis de fase amb pauses naturals, sense llegir números de passos no escrits.',
     editorialFocus: '4t avançada: reconstruir un procés, relacionar cada informació amb una funció i distingir destinació de remitent. No es demanen dades postals memoritzades de fora del text.',

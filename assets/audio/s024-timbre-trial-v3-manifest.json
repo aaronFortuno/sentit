@@ -1,7 +1,7 @@
 {
   "code": "S024",
   "activity": "ca-S024",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s024-timbre-trial-v3.mp3",
   "introFile": "s024-classroom-v2-intro.mp3",
   "bodyFile": "s024-timbre-trial-v3-cos.mp3",
@@ -155,5 +155,19 @@
     "untrimmedApartFromSilenceSplit": false,
     "retimed": false,
     "repairedWithoutRetiming": true
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S024 validat per publicació definitiva",
+    "audioSha256": "dc6a3e1ba9b69ad6715addf156c61889067beb3d316898c3b7374d7b3d524a50",
+    "editorialFingerprint": "855d05ad6600cb54050b0e927ec7b5ae895132b19d4e590fc609aa6f3a6a1d52",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/tres-maneres-de-transformar-el-pati-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

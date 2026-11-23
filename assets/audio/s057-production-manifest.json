@@ -1,7 +1,7 @@
 {
   "code": "S057",
   "activity": "ca-S057",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s057-mixed-v1.mp3",
   "introFile": "s057-mixed-v1-intro.mp3",
   "bodyFile": "s057-mixed-v1-cos.mp3",
@@ -78,5 +78,19 @@
     "approvedAt": "2026-11-23",
     "sourceTakeSha256": "110b133e256a4a48a1d303d264c8651aeb6a21242ecc80d8b8034b83e6159b4a",
     "confirmation": "S057 validat per pujar a muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S057 validat per publicació definitiva",
+    "audioSha256": "9648e5bb8fe6591c4a4f1c3cf6c81d50168d255979b7610b7022d3c745b247be",
+    "editorialFingerprint": "ff4e450079ca2113d9f42ced961f1381ddf5ba0d41594acc0f8e29b0453867f9",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/la-volta-nova-del-bus-de-dissabte-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

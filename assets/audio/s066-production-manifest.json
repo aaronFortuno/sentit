@@ -1,7 +1,7 @@
 {
   "code": "S066",
   "activity": "ca-S066",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s066-mixed-v1.mp3",
   "introFile": "s066-mixed-v1-intro.mp3",
   "bodyFile": "s066-mixed-v1-cos.mp3",
@@ -79,5 +79,19 @@
     "approvedAt": "2026-11-23",
     "sourceTakeSha256": "7da804a72aa091587124aba4e5065682b328de2bbe521f8805a3792c4753db11",
     "confirmation": "S066 validat per muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S066 validat per publicació definitiva",
+    "audioSha256": "02da496143542ca2a1136c18b720e92785ec6866d52db86785dff05af164ecdb",
+    "editorialFingerprint": "9faf67197254fd1dad8710cf27c885f88bd0a7f1bbe7b969f2090298fed209fe",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/el-mapa-de-sons-del-passadis-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

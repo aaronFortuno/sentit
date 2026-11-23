@@ -1,7 +1,7 @@
 {
   "code": "S045D",
   "activity": "ca-S045D",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s045d-mixed-v1.mp3",
   "introFile": "s045d-mixed-v1-intro.mp3",
   "bodyFile": "s045d-mixed-v1-cos.mp3",
@@ -82,5 +82,19 @@
     "approvedAt": "2026-11-23",
     "sourceTakeSha256": "453e13fbf8dcee801cc2af4612356f842d0f6e230bed301427dcada4de6720be",
     "confirmation": "S045D validat per muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S045D validat per publicació definitiva",
+    "audioSha256": "5f420861750b09b1c557e2d263219ed1e0d1380fc950d77c1c126d1c61f2c177",
+    "editorialFingerprint": "8498c716a36a8cdd5ff68c8dec9bc7a376d9fb208f65664931242cd0572bb944",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/les-cadires-del-cinema-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

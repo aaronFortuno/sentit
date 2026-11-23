@@ -1,7 +1,7 @@
 {
   "code": "S082",
   "activity": "ca-S082",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s082-mixed-v1.mp3",
   "introFile": "s082-mixed-v1-intro.mp3",
   "bodyFile": "s082-mixed-v1-cos.mp3",
@@ -219,5 +219,19 @@
     "patchedFile": "patched-source.wav",
     "appliedTo": "s082-mixed-v1.mp3",
     "teacherMontageApproval": false
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S082 validat per publicació definitiva",
+    "audioSha256": "d3a961182ed8891ca400effc42680313a82570533fa233ee0a1698988bd89559",
+    "editorialFingerprint": "2fcaeaff27e3c73f89db693b2efc4df6b29222017b9d72c7fd552647f650a3b6",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/el-so-que-voliem-gravar-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

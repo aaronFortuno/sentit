@@ -1,7 +1,7 @@
 {
   "code": "S029",
   "activity": "ca-S029",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s029-repair-v3.mp3",
   "introFile": "s029-title-v3-intro.mp3",
   "bodyFile": "s029-repair-v3-cos.mp3",
@@ -63,7 +63,7 @@
     "voiceApprovalFingerprint": "7721097a821d76d0a15a5199bb93ea8046b88e2877353211fd49b8ce13f75e23",
     "jingle": "ona-curta",
     "jingleAuthority": "Els quatre jingles van quedar aprovats com a recursos pel docent el 20/11. Ona curta ja identifica les notícies a S023.",
-    "finalTeacherApproval": false
+    "finalTeacherApproval": true
   },
   "preparation": {
     "canonicalTitleRange": {
@@ -92,7 +92,7 @@
       "end": 4.425
     },
     "bodyPcmSha256": "4f83d81d1f3ece8513b600136d35dfb936ed7a54b0fee73c35d162a2f66216f5",
-    "teacherFinalApproval": false,
+    "teacherFinalApproval": true,
     "newRequests": 0
   },
   "newsTitleRevision": {
@@ -197,5 +197,19 @@
   "titleTrackPreserved": {
     "file": "s029-title-v3-intro.mp3",
     "sha256": "3cbe28f12ee9bc900a210246011fc4df2b82b6d6611559754c75a23b5465877b"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S029 validat per publicació definitiva",
+    "audioSha256": "ba14a5724776db495a87fa23a7b738ea76bf2840d3f32728279dab4bcdd533d1",
+    "editorialFingerprint": "fa74fefaedb636f3748cf77db6196baedbbbda986f210230325f06878aa34e42",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/el-cinema-surt-a-la-placa-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

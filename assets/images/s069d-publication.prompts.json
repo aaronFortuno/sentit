@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "code": "S069D",
+  "prompt": "Create ONE landscape 3:2 illustration, 1536x1024, for Sentit Catalan listening worksheets. Use case: illustration-story. Input images: image 1 Aina, image 2 Ferran, canonical identity and style references only. Preserve exact faces, ages, hairstyles, glasses and clothes; no model-sheet panels or labels. Fine ink and soft watercolor on airy warm white paper, muted sage and ochre, fading outer edges. Natural home conversation about a funny childhood football memory. Ferran, white hair and beard, glasses, charcoal knitted cardigan, sits beside Aina at a low table and tells his memory with an amused expression and a loose conversational hand gesture. Aina, dark bob and round glasses, ochre sweater, leans forward with an amused questioning expression, one hand lightly resting on the table. A small plain slate in a wooden frame rests at a narrow side angle beside the bookcase in the background; its surface is entirely empty, no visible front/back mishap and nobody points at it. Cozy domestic room, not a football pitch. Make the story-telling interaction lively and clear at 80mm printed width. No readable text, numbers, team names, scoreboard layout, arrows, goals, football players, glass of water, splashes, cousin waving, photograph, camera or gesture illustrating a mistake or correction. No logos or watermark.",
+  "references": [
+    "../characters/aina-model-sheet-v1.webp",
+    "../characters/ferran-model-sheet-v1.webp"
+  ]
+}

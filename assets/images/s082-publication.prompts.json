@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "code": "S082",
+  "prompt": "Create ONE landscape 3:2 illustration, 1536x1024, for Sentit Catalan listening worksheets. Use case: illustration-story. Input images: 1 Biel, 2 Elies, identity and style references only. Preserve their exact faces, ages, hairstyles and clothes; no model-sheet panels or labels. Fine ink and soft watercolor on warm white paper, muted sage, ochre, charcoal and wood brown, fading outer edges. Specific candid scene in a small guitar-maker's workshop. Young teenage Biel, tousled brown hair and open charcoal hoodie, holds a blank closed interview notebook tucked under one arm and a small portable audio recorder loosely in the other hand. He looks toward adult Elies with an interested conversational expression. Elies, short salt-and-pepper curls and beard, grey shirt and brown work apron, has paused at his workbench and answers with a relaxed open hand. A complete ordinary guitar hangs softly out of focus in the background, with no visible fault or repair details. Wide diagonal composition with distinct workbench and shelves, natural storytelling interaction, not posed portraits. No readable words, numbers, screens, phone on a stand, waveform, recordings list, guitar case, comparison samples, damaged guitar parts, pointing at wood inside the instrument, step order or other answer clues. No logos or watermark.",
+  "references": [
+    "../characters/biel-model-sheet-v1.webp",
+    "../characters/elies-model-sheet-v1.webp"
+  ]
+}

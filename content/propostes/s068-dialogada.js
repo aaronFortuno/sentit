@@ -4,10 +4,11 @@ import { proposal, direction as d, spoken as s, question as q, evidence as e } f
 export const s068Dialogada = proposal({
   id: 'el-dinar-al-banc-de-lestacio-dialogada', code: 'S068D', title: 'El dinar al banc de l’estació · versió dialogada', grade: '5', level: 'easy', genre: 'story', universeIds: ['aina-ferran'],
     recordingCues: [{"before":"capsa","text":"Base original «Un dinar entre vies», compartida amb S068, amb mescla pròpia molt suau sota Aina i Ferran. Conversen a casa en el present; sense estació, tren, papers ni altres efectes del record."},{"after":"final","text":"La veu acaba completa. Marge breu, pujada de la base, dos segons de sosteniment i fosa de dos segons; sense altres sons de comiat."}],
-    seconds: 131, status: 'ready-for-review', reviewStatus: 'audio-review',
+    seconds: 131, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s068d-mixed-v1.mp3', tracks: { introduction: './assets/audio/s068d-mixed-v1-intro.mp3', body: './assets/audio/s068d-mixed-v1-cos.mp3' },
     fragment: { start: 6.75, seconds: 124 },
-  summary: 'L’avi Ferran mostra una capsa a l’Aina i recorda un viatge amb els seus pares. Un retard els va fer canviar els plans de dinar i l’Aina vol saber com va acabar aquella visita.',
+  image: {"src":"./assets/images/el-dinar-al-banc-de-lestacio-dialogada-v1.webp","alt":"L’avi Ferran mostra una capsa de llauna tancada a l’Aina mentre li explica un record a casa.","width":1536,"height":1024},
+    summary: 'L’avi Ferran mostra una capsa a l’Aina i recorda un viatge amb els seus pares. Un retard els va fer canviar els plans de dinar i l’Aina vol saber com va acabar aquella visita.',
   voices: { Aina: 'Zephyr', Ferran: 'Algenib' },
   delivery: 'Ferran inicia una conversa familiar mostrant una capsa a Aina. To càlid, nostàlgic i divertit, amb les petites aturades de qui recorda; cap imitació de la mare, el pare o la tieta. Aina, de deu a dotze anys, pregunta i reacciona amb frases curtes quotidianes, sense fer d’entrevistadora ni resumir el relat després de cada torn. Veus estables Zephyr i Algenib, sense caricatures. Somriure en el to de les bromes, sense rialles afegides ni instruccions no parlades dins del text.',
   editorialFocus: 'Variant dialogada de S068, conservada. 5è accessible: seguir el viatge en ordre, entendre per què dinen a l’estació i distingir el destí dels entrepans i les galetes. Mateixes vuit exigències de comprensió, amb les preguntes i reaccions de l’Aina. Validació docent pròpia pendent.',

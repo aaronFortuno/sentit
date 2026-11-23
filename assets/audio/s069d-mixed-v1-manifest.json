@@ -1,0 +1,100 @@
+{
+  "code": "S069D",
+  "activity": "ca-S069D",
+  "state": "published",
+  "file": "s069d-mixed-v1.mp3",
+  "introFile": "s069d-mixed-v1-intro.mp3",
+  "bodyFile": "s069d-mixed-v1-cos.mp3",
+  "offset": 5.365,
+  "bodyDuration": 131.97,
+  "fullDuration": 137.335,
+  "voices": {
+    "Aina": "Zephyr",
+    "Ferran": "Algenib"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "756f855e4c2be092cf27a2e4508782dc064c45b5cef6d6697850ea86088fd55e",
+  "sourceRequestHash": "3460dfc1216ed4bc398ab8934c7fd02177313d243c3cb63899499171ce840e52",
+  "batch": "L23",
+  "rawSha256": "d1f0ee2c92c31199cba4d81632d3af15bbbf281bbdef6e67324578e28b02d3c3",
+  "takeSha256": "735afffe53cc9d8200db48b94f7db1e6fca4943cbb9759344545fdfcf7be0c80",
+  "coverage": 0.908675799086758,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.61,
+  "peakDbTP": -2.49,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "gentle-narration-bed",
+      "origin": "original-procedural-composition",
+      "author": "Sentit",
+      "license": "MIT",
+      "source": "tools/narration-bed.cjs",
+      "title": "Dos noms a la pissarra",
+      "compositionId": "sentit-s069-v1",
+      "tempoBpm": 66,
+      "rootMidi": 55,
+      "scoreSeed": 69,
+      "notes": 106,
+      "externalSamples": false,
+      "noSpeech": true,
+      "retimed": false,
+      "sha256": "98fbda985c94cec578df91ea2910f86ecbd2a841acd1afc4e4371aff82076ed8",
+      "envelope": {
+        "fadeInSeconds": 0.6,
+        "duckStart": 0.7000000000000001,
+        "duckEnd": 1.4500000000000002,
+        "speechGain": 0.14,
+        "nominalSpeechMusicLufs": -43.07743928643524,
+        "riseStart": 125.89999999999996,
+        "riseEnd": 126.69999999999997,
+        "holdSeconds": 2,
+        "fadeStart": 128.7,
+        "fadeEnd": 130.7
+      },
+      "listeningValidation": "pending",
+      "start": 0,
+      "underSpeech": true
+    }
+  ],
+  "sha256": "2dd65c1de179927e768e4e45334e60a3955d4185e7a5a38f45a0f77072f31056",
+  "voiceHandles": {
+    "body": {
+      "start": 0.265,
+      "end": 124.435,
+      "retainedPcmSha256": "2a4c2d9cd1286763b7061b9f286d0171b5ba850d70047bbe5204c63b7de6fb82",
+      "sourceSha256": "a756c53647af7afdc112e93c126fbf6c94be3d9ac3b4973068fafb3e7f4c96be",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0,
+      "end": 4.415,
+      "retainedPcmSha256": "d3181b15340dcbe70527655cdd774d2722579602459a24bb5e4661a217dca2e4",
+      "sourceSha256": "7750d3fa31723ccdd5d9fc9317b36148bef77ec77619fcb40d7b4e7a09f958e0",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-23",
+    "sourceTakeSha256": "735afffe53cc9d8200db48b94f7db1e6fca4943cbb9759344545fdfcf7be0c80",
+    "confirmation": "S069D validat per muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S069D validat per publicació definitiva",
+    "audioSha256": "2dd65c1de179927e768e4e45334e60a3955d4185e7a5a38f45a0f77072f31056",
+    "editorialFingerprint": "bf16fa6e87da8dba91bbeb76010c0a042f429ae954a8e48d29735a83065cee14",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/la-pissarra-del-partit-dialogada-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
+  }
+}

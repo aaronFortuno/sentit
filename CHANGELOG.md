@@ -1,5 +1,12 @@
 # Canvis
 
+## 0.1.92 · 23 de novembre de 2026
+
+- Publicació definitiva de S007, S013, S024, S029, S045D, S046D, S057, S063, S064, S065, S066, S068, S068D, S069, S069D, S079 i S082 després de les aprovacions docents explícites. Els disset màsters es conserven exactament, sense noves síntesis ni retocs de so.
+- Tretze il·lustracions contextuals noves amb models recurrents i revisió independent; quatre variants comparteixen imatge amb la mateixa història narrada o dialogada. Imatge opcional de 80 mm a la dreta, cards il·lustrades i solucionaris amb transcripció només parlada; escaletes conservades als fonts de treball.
+- S024: la segona veu del Biel queda validada dins del muntatge complet. Es tanca l’avís de prova de timbre; les represes aplicades de les peces publicades passen a validades en context.
+- Les publicacions definitives deixen de mostrar previsualitzacions antigues de veus. Seguiment, crèdits, manifests i taula de publicacions actualitzats; comprovacions locals de fitxa, solucionari, evidències, imatges, paginació i reproducció.
+
 ## 0.1.91 · 23 de novembre de 2026
 
 - Publicació definitiva de S053, S054, S067, S071D, S078 i S080 amb els màsters aprovats, sis il·lustracions contextuals i transcripcions netes; revisió independent de preguntes, cites, imatges i metadades.

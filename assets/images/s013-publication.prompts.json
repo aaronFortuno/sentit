@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "code": "S013",
+  "prompt": "Create ONE landscape 3:2 illustration, 1536x1024, for Sentit Catalan listening worksheets. Use case: illustration-story. Input Mireia model sheet is an identity/style reference only. Preserve her exact adult face, dark brown skin, short black curls, sage cardigan and cream blouse. Fine ink and soft watercolor on airy warm white paper, muted sage and ochre, fading white outer edges; no model-sheet labels or panels. Candid contextual scene: teacher Mireia stands beside an ordinary unbranded public letter box on a calm neighbourhood pavement, holding one completely blank closed sample envelope at chest level and looking at it with an interested gentle expression as she explains how letters travel. Show her three-quarter waist-up and enough of the generic letter box and street to establish the postal context, clear at 80mm printed width. The envelope has no address, sender, stamp, postcode, markings or layout diagram. The letter box has no readable brand, postal logo or writing. No sorting route, maps, arrows, postal sequence, recipient, send/return icons, letters being opened, delivery vehicle, payment coins or other answer clues. No readable text, numbers, logos or watermark.",
+  "references": [
+    "../characters/mireia-model-sheet-v1.webp"
+  ]
+}

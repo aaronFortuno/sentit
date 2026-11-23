@@ -1,7 +1,7 @@
 {
   "code": "S065",
   "activity": "ca-S065",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s065-mixed-v1.mp3",
   "introFile": "s065-mixed-v1-intro.mp3",
   "bodyFile": "s065-mixed-v1-cos.mp3",
@@ -79,5 +79,19 @@
     "approvedAt": "2026-11-23",
     "sourceTakeSha256": "597ba92b862eef28fa7b8fcb582fad3b9f5f989d7608b408d9ee8278ee6409ae",
     "confirmation": "S065 validat per muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S065 validat per publicació definitiva",
+    "audioSha256": "d90252421be37066debedc75bb85b0ff122012542675e7335c4e4bbe75daf5d8",
+    "editorialFingerprint": "42a3739a93fc94cc5a62907995cc1ba721bebdfa282d98c7786735e11172ffeb",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/la-mesura-que-canviava-de-lloc-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

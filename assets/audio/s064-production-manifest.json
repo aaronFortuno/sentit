@@ -1,7 +1,7 @@
 {
   "code": "S064",
   "activity": "ca-S064",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s064-mixed-v1.mp3",
   "introFile": "s064-mixed-v1-intro.mp3",
   "bodyFile": "s064-mixed-v1-cos.mp3",
@@ -79,5 +79,19 @@
     "approvedAt": "2026-11-23",
     "sourceTakeSha256": "92f44632ac61d5a59a77d774e7b26e9e50ff718a9d7db92846d8cfb016d79f2b",
     "confirmation": "S064 validat per muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S064 validat per publicació definitiva",
+    "audioSha256": "fef04ecbf7c7ebec0089675053c5e609f591e73576d3f6b4390031b455f2e651",
+    "editorialFingerprint": "83857903e2087af52730c626c68c63cea15deeb79601b5b78f593b19904ee552",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/un-anunci-que-va-massa-de-pressa-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

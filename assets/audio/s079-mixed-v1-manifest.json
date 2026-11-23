@@ -1,0 +1,97 @@
+{
+  "code": "S079",
+  "activity": "ca-S079",
+  "state": "published",
+  "file": "s079-mixed-v1.mp3",
+  "introFile": "s079-mixed-v1-intro.mp3",
+  "bodyFile": "s079-mixed-v1-cos.mp3",
+  "offset": 3.78,
+  "bodyDuration": 105.295,
+  "fullDuration": 109.075,
+  "voices": {
+    "Biel": "Puck",
+    "Elies": "Algieba"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "528f65283474a1f42bc1be0b2920865817daec53fc0f6634f693552abc5401f1",
+  "sourceRequestHash": "7584387982470c6e29598c4f89161463f8f04c26b6c53278cf967c40e20ea999",
+  "batch": "L26",
+  "rawSha256": "8768d4734048911ee076d023c1f2476bd848c14f9b9833bf9e8134bbef20ff4d",
+  "takeSha256": "b605ca16933b2dddc6483ad87b1150209542ab742cee513769b516ac146bb146",
+  "coverage": 0.8786127167630058,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.24,
+  "peakDbTP": -2.46,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "callmethefoo-744447",
+      "start": 0,
+      "source": "assets/audio/sources/callmethefoo-744447.mp3",
+      "sourceSha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
+      "sourceUrl": "https://freesound.org/people/callmethefoo/sounds/744447/",
+      "author": "callmethefoo",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.12,
+      "openingGain": 0.3,
+      "raisedGain": 0.4,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -46.416375079047505,
+      "lowPassHz": 1800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 12,
+        "seconds": 85.24
+      },
+      "envelope": {
+        "riseStart": 99.32999999999998,
+        "riseEnd": 100.13,
+        "holdSeconds": 1.9650000000000034,
+        "fadeStart": 102.095,
+        "fadeEnd": 104.095
+      }
+    }
+  ],
+  "sha256": "1d33cac40b7aa5c4bee8c780f2498389901da26f4dad39ae9941a6ec55826958",
+  "voiceHandles": {
+    "body": {
+      "start": 0.145,
+      "end": 97.44,
+      "retainedPcmSha256": "5a74274c0e1af1bcad0a69dd3ad407890a956c6db24af0b7b4eac891801d433e",
+      "sourceSha256": "3df660b29f272606f9fe9ef174fe2bb2a84bdc97ff10a514321f81ea9e140eac",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.055,
+      "end": 2.885,
+      "retainedPcmSha256": "56969b38aacace24feb1ee0db31450beeeebe3c4dbbdb41826ca86b10a79bf44",
+      "sourceSha256": "04ec525662b4d086ff8ea1c7f75a9a861adffbcebe2340324a5ad567547fc6a2",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-23",
+    "sourceTakeSha256": "b605ca16933b2dddc6483ad87b1150209542ab742cee513769b516ac146bb146",
+    "confirmation": "S079 validat per pujar a muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S079 validat per publicació definitiva",
+    "audioSha256": "1d33cac40b7aa5c4bee8c780f2498389901da26f4dad39ae9941a6ec55826958",
+    "editorialFingerprint": "ef791b386968c409f043f6b46df29808baade66f2441be1e976c727339ad66d5",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/una-funda-que-no-tanca-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
+  }
+}

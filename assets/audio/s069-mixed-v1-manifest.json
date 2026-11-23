@@ -1,7 +1,7 @@
 {
   "code": "S069",
   "activity": "ca-S069",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s069-mixed-v1.mp3",
   "introFile": "s069-mixed-v1-intro.mp3",
   "bodyFile": "s069-mixed-v1-cos.mp3",
@@ -221,5 +221,19 @@
     "patchedFile": "patched-source.wav",
     "appliedTo": "s069-mixed-v1.mp3",
     "teacherMontageApproval": false
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S069 validat per publicació definitiva",
+    "audioSha256": "6529adf8215c90b2d64ef3e9ae8bd0d100c56a7cd76f475622d5416240ce0319",
+    "editorialFingerprint": "a9e9e02ec48b699ca7ee23c940d58edbb48728df17aac159d1d440b1c80e4a20",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/la-pissarra-del-partit-dialogada-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

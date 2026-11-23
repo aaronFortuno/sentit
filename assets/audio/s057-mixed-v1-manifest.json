@@ -1,0 +1,96 @@
+{
+  "code": "S057",
+  "activity": "ca-S057",
+  "state": "published",
+  "file": "s057-mixed-v1.mp3",
+  "introFile": "s057-mixed-v1-intro.mp3",
+  "bodyFile": "s057-mixed-v1-cos.mp3",
+  "offset": 5.915,
+  "bodyDuration": 151.25,
+  "fullDuration": 157.165,
+  "voices": {
+    "Mar": "Erinome"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "4e3ed06c613d1750826947314242be6a728fc3ca9f7dbf20d554f3768035a399",
+  "sourceRequestHash": "b0fdc86b1a25a5605667a872f51621aeffa4a0156d22d6c0dbbfa316d668ef51",
+  "batch": "L25",
+  "rawSha256": "3de0a2d963f2445dd3122d7fcd004bfab98ae19bcf618b3206b07a1c90a67d32",
+  "takeSha256": "110b133e256a4a48a1d303d264c8651aeb6a21242ecc80d8b8034b83e6159b4a",
+  "coverage": 0.9699248120300752,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.09,
+  "peakDbTP": -2.49,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "grand-project-breaking-news-505617",
+      "origin": "licensed-music-in-montage",
+      "start": 0,
+      "underSpeech": true,
+      "credit": {
+        "id": "grand-project-breaking-news-505617",
+        "title": "Breaking News Background Music",
+        "author": "Grand_Project",
+        "url": "https://pixabay.com/music/percussion-breaking-news-background-music-505617/",
+        "license": "Pixabay Content License",
+        "licenseUrl": "https://pixabay.com/service/license-summary/",
+        "source": "tools/news-bed.cjs",
+        "origin": "licensed-music",
+        "kind": "news-programme",
+        "sourceNotDistributedSeparately": true,
+        "newSynthesisRequests": 0
+      },
+      "sourceSha256": "32e3e6c978ef1bc5c013c40880ac3ad9714957548f956c1355ad8852c94405ae",
+      "voiceMarginTargetDb": 25,
+      "sidechain": {
+        "threshold": 0.018,
+        "ratio": 6,
+        "attackMs": 12,
+        "releaseMs": 450
+      },
+      "openingSeconds": 3.5,
+      "closingSeconds": 4.5
+    }
+  ],
+  "sha256": "9648e5bb8fe6591c4a4f1c3cf6c81d50168d255979b7610b7022d3c745b247be",
+  "voiceHandles": {
+    "body": {
+      "start": 0.52,
+      "end": 144.42,
+      "retainedPcmSha256": "c425907e97ca14012073bd59f899bc82da274243e7b6a74ed4445d03576f708c",
+      "sourceSha256": "d8509b67f1027e0c7c11b5029b6f173fa829aa483d1fc70f01f64b8ed4f718bf",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0,
+      "end": 4.715,
+      "retainedPcmSha256": "34d04931fa09e3e31129ea45c6bd9b590aff957ca5c23e032f0db989f1a5e9a0",
+      "sourceSha256": "1a8a0aaec19075f6365570adf607066c5a796a9c88f4b0b6c5e1b6b2552a1dbb",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-23",
+    "sourceTakeSha256": "110b133e256a4a48a1d303d264c8651aeb6a21242ecc80d8b8034b83e6159b4a",
+    "confirmation": "S057 validat per pujar a muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S057 validat per publicació definitiva",
+    "audioSha256": "9648e5bb8fe6591c4a4f1c3cf6c81d50168d255979b7610b7022d3c745b247be",
+    "editorialFingerprint": "ff4e450079ca2113d9f42ced961f1381ddf5ba0d41594acc0f8e29b0453867f9",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/la-volta-nova-del-bus-de-dissabte-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
+  }
+}

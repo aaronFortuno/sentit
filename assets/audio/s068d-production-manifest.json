@@ -1,7 +1,7 @@
 {
   "code": "S068D",
   "activity": "ca-S068D",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s068d-mixed-v1.mp3",
   "introFile": "s068d-mixed-v1-intro.mp3",
   "bodyFile": "s068d-mixed-v1-cos.mp3",
@@ -94,5 +94,19 @@
     "approvedAt": "2026-11-23",
     "sourceTakeSha256": "ea89c6739cb6262df17eb212f3e4a2b6edda5e979f419a020b36f0df2ab4c9bc",
     "confirmation": "S068D validat per muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S068D validat per publicació definitiva",
+    "audioSha256": "e5982c3d20dbe9ae142c0fd8435d858a136de67ec501451ae182e90ece88e93f",
+    "editorialFingerprint": "faf5b6b2ccb879a85be7550fff32847881b9821d73ae811f867b136ea6e6f5a7",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/el-dinar-al-banc-de-lestacio-dialogada-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }
