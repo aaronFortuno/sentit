@@ -6,6 +6,7 @@
 - Pistes de veus i comparacions disponibles abans de muntar. Les dues proves de «rails» tenen fitxers i etiquetes pròpies; la presentació omesa de S061 mostra només la pista nova, sense inventar un original. Es conserven els intents anteriors i els màsters.
 - S088 conserva una primera intervenció amb possible omissió marcada per a audició; S090 no inclou el títol ni la crida inicial de Laia. Excepcions de revisió explícites, sense forçar el reconeixement ni inflar la cobertura. Avisos a cards i reproductors; cap veu aprovada automàticament.
 - S055, S083 i S084 amb aprovació docent de veus per muntar. S056 té la resta de la locució aprovada, pendent de reposar títol, «Notícia de ficció» i «Bon dia» inicial. Registre del dia: deu peticions; cap reenviament per recuperar els contenidors de transmissió.
+- Muntatges de S055/S083/S084 preparats per a audició: base comuna de notícies, carrer tranquil enregistrat i exterior esmorteït dins de la papereria. Veus sense canvis de velocitat o to; marges de consonants, nivells i fonts comprovats, sense síntesi addicional ni validació definitiva.
 
 ## 0.1.95 · 23 de novembre de 2026
 

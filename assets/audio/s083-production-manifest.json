@@ -1,0 +1,83 @@
+{
+  "code": "S083",
+  "activity": "ca-S083",
+  "state": "awaiting-montage-validation",
+  "file": "s083-mixed-v1.mp3",
+  "introFile": "s083-mixed-v1-intro.mp3",
+  "bodyFile": "s083-mixed-v1-cos.mp3",
+  "offset": 4.53,
+  "bodyDuration": 75.5,
+  "fullDuration": 80.03,
+  "voices": {
+    "Mar": "Erinome",
+    "Núria": "Callirrhoe"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "b0a730b180a626cc040f5673c2e59704c01d046548a2b4090c0538b629495e23",
+  "sourceRequestHash": "14b82597f9bb77d174cbce66cedd2991f3002d79a07f519897e2e6a477aad5c4",
+  "batch": "L29",
+  "rawSha256": "20d716f9a5513b380c1885e64229e4d4f31e4951d03b0c5e3e53b542a7913fcd",
+  "takeSha256": "03bf3de27f15b5aba9ff14a132aa8107e429f63fdf0fa74f925c2ee25ef44cc3",
+  "coverage": 0.9116465863453815,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.85,
+  "peakDbTP": -2.49,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "soaress-546234",
+      "start": 0,
+      "source": "assets/audio/sources/soaress-546234.mp3",
+      "sourceSha256": "1059086683943b6b8d679a9283eda0bf08a75c05cbc711b2ec6a14a276f5028c",
+      "sourceUrl": "https://freesound.org/people/soaress/sounds/546234/",
+      "author": "soaress",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.1,
+      "openingGain": 0.22,
+      "raisedGain": 0.28,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -48,
+      "lowPassHz": 3600,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 40,
+        "seconds": 90
+      },
+      "envelope": {
+        "riseStart": 71.26998333333331,
+        "riseEnd": 72.06998333333333,
+        "holdSeconds": 0.8300166666666797,
+        "fadeStart": 72.9,
+        "fadeEnd": 74.30000000000001
+      }
+    }
+  ],
+  "sha256": "2d1e3ce79bbfd9caf13b87302e69d1f782efc39233790e0d7943b3cd0c72cd56",
+  "voiceHandles": {
+    "body": {
+      "start": 0.24791666666666667,
+      "end": 70.04791666666667,
+      "retainedPcmSha256": "e320635511b081918df7a2d55e2ce34207bf363622a4d3758f771cbd756a652c",
+      "sourceSha256": "204a255fae5dad50e2812dc41e91a51e6dd4e67cef2ac6b9a3a7875a00db7db8",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.055,
+      "end": 3.635,
+      "retainedPcmSha256": "5a1ccd40fd07c0194b365cc746acee4198b76e94f543181aeb10bb63e614d423",
+      "sourceSha256": "3f77c51fc169f3d818ea18318d0e0c860272c3694df72ff75bbb182870d78b52",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-23",
+    "sourceTakeSha256": "03bf3de27f15b5aba9ff14a132aa8107e429f63fdf0fa74f925c2ee25ef44cc3",
+    "confirmation": "Docent: veus validades per pujar a muntatge."
+  }
+}

@@ -64,7 +64,7 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S052](https://sentit.ortogra.fi/#lectura=ca-S052) | La capsa que semblava un llibre | 4t | Revisió superada · publicació definitiva | 2026-11-23 | `5d6e18b1c552…` |
 | [ca-S053](https://sentit.ortogra.fi/#lectura=ca-S053) | La pista torna a obrir al vespre | 5è | Revisió superada · publicació definitiva | 2026-11-23 | `b50999be68a3…` |
 | [ca-S054](https://sentit.ortogra.fi/#lectura=ca-S054) | Una finestra per recollir els encàrrecs | 5è | Revisió superada · publicació definitiva | 2026-11-23 | `2fb1668473d2…` |
-| [ca-S055](https://sentit.ortogra.fi/#lectura=ca-S055) | Els cartells de cinema tornen al barri | 6è | Provisional · revisió superada | 2026-11-22 | `7ba953cb5e8e…` |
+| [ca-S055](https://sentit.ortogra.fi/#lectura=ca-S055) | Els cartells de cinema tornen al barri | 6è | Revisió superada · àudio pendent | 2026-11-22 | `7ba953cb5e8e…` |
 | [ca-S056](https://sentit.ortogra.fi/#lectura=ca-S056) | El taller canvia de casa | 5è | Provisional · revisió superada | 2026-11-22 | `39766217bff3…` |
 | [ca-S057](https://sentit.ortogra.fi/#lectura=ca-S057) | La volta nova del bus de dissabte | 6è | Revisió superada · publicació definitiva | 2026-11-23 | `ff4e450079ca…` |
 | [ca-S058](https://sentit.ortogra.fi/#lectura=ca-S058) | La pancarta que tapava la porta | 5è | Provisional · revisió superada | 2026-11-22 | `56df8abc8b9a…` |
@@ -95,8 +95,8 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S080](https://sentit.ortogra.fi/#lectura=ca-S080) | El segon assaig sona lluny | 6è | Revisió superada · publicació definitiva | 2026-11-23 | `82d69704ab04…` |
 | [ca-S081](https://sentit.ortogra.fi/#lectura=ca-S081) | La guitarra del concert de divendres | 5è | Provisional · revisió superada | 2026-11-22 | `2a784ecc4276…` |
 | [ca-S082](https://sentit.ortogra.fi/#lectura=ca-S082) | El so que volíem gravar | 6è | Revisió superada · publicació definitiva | 2026-11-23 | `2fcaeaff27e3…` |
-| [ca-S083](https://sentit.ortogra.fi/#lectura=ca-S083) | Quant de temps, Núria! | 4t | Provisional · revisió superada | 2026-11-23 | `05ae5519ccaa…` |
-| [ca-S084](https://sentit.ortogra.fi/#lectura=ca-S084) | Paper de regal | 3r | Provisional · revisió superada | 2026-11-23 | `99d3bfc103bc…` |
+| [ca-S083](https://sentit.ortogra.fi/#lectura=ca-S083) | Quant de temps, Núria! | 4t | Revisió superada · àudio pendent | 2026-11-23 | `05ae5519ccaa…` |
+| [ca-S084](https://sentit.ortogra.fi/#lectura=ca-S084) | Paper de regal | 3r | Revisió superada · àudio pendent | 2026-11-23 | `99d3bfc103bc…` |
 | [ca-S085](https://sentit.ortogra.fi/#lectura=ca-S085) | El carro davant de la porta | 3r | Revisió superada · guió validat | 2026-11-23 | `d8c9e51360ea…` |
 | [ca-S086](https://sentit.ortogra.fi/#lectura=ca-S086) | El pa per al sopar | 3r | Revisió superada · guió validat | 2026-11-23 | `6429d0540cb2…` |
 | [ca-S087](https://sentit.ortogra.fi/#lectura=ca-S087) | El pom del calaix | 3r | Provisional · revisió superada | 2026-11-23 | `06b28afd8f0c…` |

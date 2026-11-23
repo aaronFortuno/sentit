@@ -4477,7 +4477,7 @@ export const productionProgress = {
     }
   },
   "ca-S055": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-23",
     "editorialFingerprint": "7ba953cb5e8e224a14843def2f977ad3519ed4031a355c3b6d9a108eba7e27ed",
     "plannedNewRequests": 1,
@@ -4503,7 +4503,12 @@ export const productionProgress = {
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-23T19:47:41.102Z",
     "voicePreview": "./proves/veus-rebudes.html#S055",
-    "voicePreviewFile": "./assets/audio/s055-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s055-voices-review-v1.mp3",
+    "mountedAt": "2026-11-23T22:02:48.117Z",
+    "synthesisBatch": "L29",
+    "requestHash": "b0a730b180a626cc040f5673c2e59704c01d046548a2b4090c0538b629495e23",
+    "audioSha256": "b1795b65689244310e984442b898d8186a4fc2634d7941a6502c6b9d4ae3841a",
+    "montageNewSynthesisRequests": 0
   },
   "ca-S071D": {
     "state": "published",
@@ -4698,7 +4703,7 @@ export const productionProgress = {
     }
   },
   "ca-S083": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "editorialFingerprint": "05ae5519ccaa9957e1c90364fc0aa005168f5035aaaa46105b132c155678f08a",
     "plannedNewRequests": 1,
     "listeningApproval": false,
@@ -4724,10 +4729,15 @@ export const productionProgress = {
     "voicesReceivedAt": "2026-11-23T19:47:41.102Z",
     "voicePreview": "./proves/veus-rebudes.html#S083",
     "voicePreviewFile": "./assets/audio/s083-voices-review-v1.mp3",
-    "reason": "Veus aprovades pel docent; pendent de muntatge amb el fons adequat."
+    "reason": "Veus aprovades pel docent; pendent de muntatge amb el fons adequat.",
+    "mountedAt": "2026-11-23T22:02:55.046Z",
+    "synthesisBatch": "L29",
+    "requestHash": "b0a730b180a626cc040f5673c2e59704c01d046548a2b4090c0538b629495e23",
+    "audioSha256": "2d1e3ce79bbfd9caf13b87302e69d1f782efc39233790e0d7943b3cd0c72cd56",
+    "montageNewSynthesisRequests": 0
   },
   "ca-S084": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "editorialFingerprint": "99d3bfc103bcb45f91853e6cf8f8afd1f7cd4094911f4757db2b30bf1105de27",
     "plannedNewRequests": 1,
     "listeningApproval": false,
@@ -4753,7 +4763,12 @@ export const productionProgress = {
     "voicesReceivedAt": "2026-11-23T19:47:41.102Z",
     "voicePreview": "./proves/veus-rebudes.html#S084",
     "voicePreviewFile": "./assets/audio/s084-voices-review-v1.mp3",
-    "reason": "Veus aprovades pel docent; pendent de muntatge amb el fons adequat."
+    "reason": "Veus aprovades pel docent; pendent de muntatge amb el fons adequat.",
+    "mountedAt": "2026-11-23T22:03:00.761Z",
+    "synthesisBatch": "L29",
+    "requestHash": "b0a730b180a626cc040f5673c2e59704c01d046548a2b4090c0538b629495e23",
+    "audioSha256": "1aed42a43867c9d73ac9968da3670084d9941699f41d33acdfb95dc693de9426",
+    "montageNewSynthesisRequests": 0
   },
   "ca-S085": {
     "state": "ready-for-voices",

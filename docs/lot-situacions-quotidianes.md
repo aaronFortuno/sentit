@@ -70,4 +70,4 @@ L30/L31 han consumit exactament les dues peticions restants del dia. Els conteni
 - **S022:** dues proves amb «raíls» i «raïls» només a l’entrada de TTS. El text editorial continua amb «rails». Les dues comparacions són independents i encara no s’han aplicat.
 - **S010/S025/S061/S070/S071:** candidats per escoltar, sense substituir cap màster ni donar per corregida la dicció.
 
-El docent valida les veus de S055/S083/S084 per muntar. A S056 queda validada la resta, amb reposició pendent del títol, l’avís de ficció i el «Bon dia» inicial.
+El docent valida les veus de S055/S083/S084; els tres muntatges ja estan preparats i pendents d’audició. S055 conserva la base comuna de notícies; S083 té carrer tranquil enregistrat i S084 un altre fragment d’exterior esmorteït a 800 Hz per situar-nos dins la papereria. Sense efectes puntuals, música sintètica o alteracions de les veus. A S056 queda validada la resta, amb reposició pendent del títol, l’avís de ficció i el «Bon dia» inicial.

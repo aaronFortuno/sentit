@@ -16,13 +16,10 @@ Les preses originals es conserven i la cobertura s’ha comprovat localment. La 
 
 | Peça | Presa |
 | --- | --- |
-| [ca-S055](https://sentit.ortogra.fi/#lectura=ca-S055) | [Escolta les veus](../proves/veus-rebudes.html#S055) |
 | [ca-S056](https://sentit.ortogra.fi/#lectura=ca-S056) | [Escolta les veus](../proves/veus-rebudes.html#S056) |
 | [ca-S059](https://sentit.ortogra.fi/#lectura=ca-S059) | [Escolta les veus](../proves/veus-rebudes.html#S059) |
 | [ca-S060](https://sentit.ortogra.fi/#lectura=ca-S060) | [Escolta les veus](../proves/veus-rebudes.html#S060) |
 | [ca-S072](https://sentit.ortogra.fi/#lectura=ca-S072) | [Escolta les veus](../proves/veus-rebudes.html#S072) |
-| [ca-S083](https://sentit.ortogra.fi/#lectura=ca-S083) | [Escolta les veus](../proves/veus-rebudes.html#S083) |
-| [ca-S084](https://sentit.ortogra.fi/#lectura=ca-S084) | [Escolta les veus](../proves/veus-rebudes.html#S084) |
 | [ca-S087](https://sentit.ortogra.fi/#lectura=ca-S087) | [Escolta les veus](../proves/veus-rebudes.html#S087) |
 | [ca-S088](https://sentit.ortogra.fi/#lectura=ca-S088) | [Escolta les veus](../proves/veus-rebudes.html#S088) |
 | [ca-S090](https://sentit.ortogra.fi/#lectura=ca-S090) | [Escolta les veus](../proves/veus-rebudes.html#S090) |

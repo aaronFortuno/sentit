@@ -198,7 +198,9 @@ export const soundSources = [
     "retrievedAt": "2026-11-21",
     "sha256": "1059086683943b6b8d679a9283eda0bf08a75c05cbc711b2ec6a14a276f5028c",
     "usedBy": [
-      "ca-S021"
+      "ca-S021",
+      "ca-S083",
+      "ca-S084"
     ],
     "treatment": "Fragment del segon 40 al 100 repetit amb foses creuades i filtrat; ambient molt baix durant tota la conversa, entrada suau i pujada de dos segons seguida de fosa després de l’última paraula. Context urbà de ficció."
   },

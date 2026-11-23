@@ -8,6 +8,9 @@ const shop = 'Ambient enregistrat real de botiga tranquil·la, tènue sota tota 
 export const dailyMar = [
   dailyProposal({
     id: 'quant-de-temps-nuria', code: 'S083', title: 'Quant de temps, Núria!', grade: '4', level: 'easy', genre: 'dialogue',
+    seconds: 81, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s083-mixed-v1.mp3', tracks: { introduction: './assets/audio/s083-mixed-v1-intro.mp3', body: './assets/audio/s083-mixed-v1-cos.mp3' },
+    fragment: { start: 4.53, seconds: 76 },
     voices: { Mar: 'Erinome', Núria: 'Callirrhoe' }, guestSpeakers: [{ name: 'Núria', voice: 'Callirrhoe', role: 'Amiga de la Mar · ocasional' }], delivery,
     summary: 'La Mar es troba una amiga que fa mesos que no veu. S’aturen una estona al carrer i descobreixen que els seus horaris han canviat.',
     editorialFocus: '4t accessible: seguir una retrobada, relacionar un canvi de feina amb els horaris i entendre com concreten una trobada. Una sola conversa, sense coneixements previs dels personatges.',
@@ -39,6 +42,9 @@ export const dailyMar = [
   }),
   dailyProposal({
     id: 'el-paper-per-al-regal', code: 'S084', title: 'Paper de regal', grade: '3', level: 'easy', genre: 'dialogue',
+    seconds: 73, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s084-mixed-v1.mp3', tracks: { introduction: './assets/audio/s084-mixed-v1-intro.mp3', body: './assets/audio/s084-mixed-v1-cos.mp3' },
+    fragment: { start: 4.03, seconds: 68 },
     voices: { Mar: 'Erinome', Dependenta: 'Callirrhoe' }, guestSpeakers: [{ name: 'Dependenta', voice: 'Callirrhoe', role: 'Dependenta de papereria · ocasional' }], delivery,
     summary: 'La Mar entra en una papereria per embolicar un llibre. El paper que li agrada sembla que s’ha acabat, però la dependenta encara té una capsa per obrir.',
     editorialFocus: '3r accessible: comprendre una compra curta, distingir un full de mostra del material a la venda i identificar què s’acaba enduent. Sis preguntes amb resposta breu.',
