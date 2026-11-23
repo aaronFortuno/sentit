@@ -1,5 +1,12 @@
 # Canvis
 
+## 0.1.87 · 23 de novembre de 2026
+
+- Publicació definitiva de S021, S037 i S043, amb els muntatges que el docent ha validat, conservats sense canvis de veu ni de so.
+- Tres il·lustracions contextuals pròpies, coherents amb els models dels personatges i sense pistes que resolguin les preguntes. Imatge a la card, a la fitxa i al costat de la transcripció; configuració inicial de 80 mm a la dreta, desactivable.
+- Solucionaris amb transcripció només parlada, respostes i ressaltats opcionals. Escaletes i històric de producció conservats als registres, amb revisió independent final i comprovacions locals d’imatge, cites i paginació.
+- Seguiment, crèdits i registre de publicacions actualitzats; les tres peces surten de la cua de provisionals. Cap petició de síntesi nova.
+
 ## 0.1.86 · 23 de novembre de 2026
 
 - S068D validada per a síntesi: els 84 guions proposats ja tenen aprovació docent, amb variants independents.

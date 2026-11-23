@@ -86,7 +86,8 @@ export const cinque = [
     ],
   }),  proposal({
     id: 'quin-avis-es-el-bo', code: 'S037', title: 'Quin avís és el bo?', grade: '5', level: 'middle', genre: 'dialogue', universeIds: ['laia-biel'],
-    seconds: 94, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/quin-avis-es-el-bo-v1.webp","alt":"La Laia assenyala un avís en un passadís mentre en Biel sosté una nota i porta uns cables d’àudio.","width":1536,"height":1024},
+    seconds: 94, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s037-hallway-v2.mp3', tracks: { introduction: './assets/audio/s037-hallway-v2-intro.mp3', body: './assets/audio/s037-hallway-v2-cos.mp3' },
     fragment: { start: 3.88, seconds: 90 },
     recordingCues: [{"before":"dubte","text":"Presentació i inici nets, sense les esperes ni el full inicial. Ambient enregistrat de passadís atenuat durant tota la conversa."},{"after":"esperar","text":"Final complet, pujada breu de l’ambient i fosa. Sense tons ni efectes de comiat."}],

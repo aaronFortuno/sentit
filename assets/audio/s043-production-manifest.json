@@ -1,7 +1,7 @@
 {
   "code": "S043",
   "activity": "ca-S043",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s043-inline-paper-v2.mp3",
   "introFile": "s043-mixed-v1-intro.mp3",
   "bodyFile": "s043-inline-paper-v2-cos.mp3",
@@ -100,6 +100,20 @@
     "phraseEndBodySeconds": 23.177899999999987,
     "voiceRetimed": false,
     "newRequests": 0,
-    "teacherFinalApproval": false
+    "teacherFinalApproval": true
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S043 validat per publicació definitiva",
+    "audioSha256": "e82bf7c789539c90b85f8ba16b34b2145cc45421a6e735ad2032c8e4dd908d57",
+    "editorialFingerprint": "2cf5c51d07f098b92a0d0f55f394b41ca995659fab793adefabf22338ffb3d10",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/el-balco-que-nomes-era-al-paper-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

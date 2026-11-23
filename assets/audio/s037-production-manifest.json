@@ -1,7 +1,7 @@
 {
   "code": "S037",
   "activity": "ca-S037",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s037-hallway-v2.mp3",
   "introFile": "s037-hallway-v2-intro.mp3",
   "bodyFile": "s037-hallway-v2-cos.mp3",
@@ -95,7 +95,21 @@
     "continuousAmbience": true,
     "voiceRetimed": false,
     "newRequests": 0,
-    "teacherFinalApproval": false,
+    "teacherFinalApproval": true,
     "internalDialogueUnchanged": true
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S037 validat per publicació definitiva",
+    "audioSha256": "7d35cbadf7bcf7983c13c1bc62322a555e32f37585b0040ea50893b2dc79112f",
+    "editorialFingerprint": "bdefa531a970256f3dd5a8e5129c3df186dfa753301ebbadbfc33fe374f05d0e",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/quin-avis-es-el-bo-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

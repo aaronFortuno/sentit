@@ -127,12 +127,13 @@ export const sise = [
   }),
   proposal({
     id: 'el-balco-que-nomes-era-al-paper', code: 'S043', title: 'El balcó que només era al paper', grade: '6', level: 'middle', genre: 'story', universeIds: ['histories-sentit'],
+    image: { src: './assets/images/el-balco-que-nomes-era-al-paper-v1.webp', alt: 'L’Aina ordena una carpeta de papers en una sala d’arxiu amb l’avi Ferran, que s’hi acosta per mirar-los plegats.', width: 1536, height: 1024 },
     recordingCues: [
       { before: 'troballa', text: 'Entrada de la base original molt suau, sense fregament ni ambient inicial afegit.' },
       { after: 'troballa', text: 'El full enregistrat comença a girar sobre les últimes paraules del paràgraf anterior. Sense pausa afegida; la música continua molt baixa.' },
       { after: 'final', text: 'Veu completa, pujada de la base dos segons i fosa final conservades.' },
     ],
-    seconds: 146, status: 'ready-for-review', reviewStatus: 'audio-review',
+    seconds: 146, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s043-inline-paper-v2.mp3', tracks: { introduction: './assets/audio/s043-mixed-v1-intro.mp3', body: './assets/audio/s043-inline-paper-v2-cos.mp3' },
     fragment: { start: 9.292083333333334, seconds: 136 },
     summary: 'L’Aina troba un dibuix antic d’un edifici que coneix i intenta entendre per què hi apareix un balcó que no ha vist mai.',

@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "code": "S021",
+  "file": "per-que-una-ciutat-guarda-la-calor-v1.webp",
+  "references": [
+    "../characters/mireia-model-sheet-v1.webp",
+    "../characters/laia-model-sheet-v1.webp"
+  ],
+  "prompt": "Use case: illustration-story. One concrete context illustration for Sentit printable listening-comprehension worksheet and catalogue, landscape3:2,1536x1024. Fine ink and soft watercolor on airy warm white paper, sage green, ochre, charcoal, pale terracotta; soft edges fading into white. Supplied reference1 is Mireia's canonical identity sheet, reference2 is Laia's canonical identity sheet. They are identity/style references ONLY; do not reproduce sheet labels or multi-pose layout. Preserve Mireia as a warm adult teacher with medium-brown skin, short tightly curled dark hair, sage-green cardigan over a white top and dark gray trousers; preserve her exact reference face and clothing. Laia is a young teenager with freckles, brown curls in a loose high bun, small hoop earrings, sage sweatshirt and gray trousers. A present-day outdoor fieldwork moment in a modest Catalan urban public square: Laia stands looking attentively at Mireia while jotting a field note in a small notebook held in one hand, blank back toward the viewer. Mireia leans slightly toward her and gestures gently toward the wider square with one open hand, explaining something; a simple closed canvas equipment bag rests beside them. Show active observation and note-taking outdoors rather than two posed portraits. Medium-wide framing with plaza paving and softly suggested simple building fronts in the distance, clear facial interaction and natural hands. No other people. No readable notebook content or equipment displays. Do not show thermometers, probes, measurements, graphs, maps, numbers, comparisons between shaded and sunny ground, small or large trees, sun rays, heat waves, airflow arrows, fans or any scientific diagram. No labels, text, clocks, logos, lettering, watermark or speech bubbles. The image gives the context of a teacher and pupil investigating an urban square, without explaining the scientific causes or any question answer. Keep their expressions curious and engaged, consistent with the reference models, and the composition clean at80mm printed width."
+}

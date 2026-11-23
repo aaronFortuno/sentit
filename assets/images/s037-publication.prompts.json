@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "code": "S037",
+  "file": "quin-avis-es-el-bo-v1.webp",
+  "references": [
+    "../characters/laia-model-sheet-v1.webp",
+    "../characters/biel-model-sheet-v1.webp"
+  ],
+  "prompt": "Use case: illustration-story. Create one specific contextual illustration for Sentit listening-comprehension worksheet and catalogue. Landscape3:2,1536x1024. Fine ink lines and soft watercolor on warm white paper, muted sage, charcoal and ochre, airy edges fading to white. Reference1 is Laia's canonical character sheet; reference2 is Biel's canonical character sheet: use them for identity and style only, not as edit targets, never reproduce sheet layout or labels. Laia is a young teenager with brown curls in a loose high bun, freckles, small hoop earrings, sage green sweatshirt and gray trousers. Biel is a young teenager with tousled curly brown hair, charcoal zip hoodie over a white T-shirt and tan trousers. Preserve their recognizable faces and clothes. A concrete moment in a present-day school corridor: Laia has paused beside a simple noticeboard with ONE plain white notice pinned to it, pointing toward that paper while looking back at Biel with a questioning expression. Biel is standing beside her carrying a neatly coiled black audio cable over one forearm; in his other hand he holds a small note, blank reverse toward the viewer, and looks from Laia toward the pinned notice. A friendly natural discussion comparing information, rather than two neutral posed portraits. Show clear gestures and natural anatomically correct hands, three-quarter medium framing to around the knees, subtle corridor depth behind. The pinned notice remains attached and nobody removes it. No other people, no doors visible or identifiable rooms, no windows onto a courtyard, no library books, musical instruments, shutters, stage, clocks or calendars. Both papers must be completely blank to the viewer, no text, symbols, numbers, date, time, room name or arrows. Do not depict the resolution or a replacement notice. No speech bubbles, logos, labels, lettering or watermark. Let the corridor setting and the cable establish that the youths are on their way somewhere for an audio activity, without revealing any question answer."
+}

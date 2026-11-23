@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "code": "S043",
+  "file": "el-balco-que-nomes-era-al-paper-v1.webp",
+  "references": [
+    "../characters/aina-model-sheet-v1.webp",
+    "../characters/ferran-model-sheet-v1.webp"
+  ],
+  "prompt": "Use case: illustration-story. Create one new contextual illustration for Sentit listening-comprehension worksheet and catalogue. Landscape 3:2, 1536x1024. Delicate ink and soft watercolor on warm white paper, muted sage, ochre and charcoal, airy edges fading into white. Input reference1 is Aina's canonical character identity sheet; reference2 is Ferran's canonical character identity sheet. They are identity and style references ONLY, not edit targets. Do not reproduce their model-sheet layout or labels. Aina is 10–12, straight dark bob and fringe, thin round glasses, ochre sweatshirt. Grandfather Ferran is around70, wavy gray hair, short white beard, round dark glasses, charcoal knitted cardigan over green checked shirt. A specific present-day moment in a modest community centre archive room: Aina sits at a wide wooden table, carefully sorting the large loose papers of an open plain archival folder. Ferran has just pulled up a chair beside her, leaning attentively toward the papers; she gestures toward the folder with a pencil while looking at him with a curious expression. A second blank sheet lies beside the folder for her notes. Show natural hands and their practical shared action, with shelves of simple unlabeled archive boxes softly in the background. Their faces should be clear at a small printable size; not posed portraits, no extra people. View all pages only from the back or at a shallow angle so they are completely blank/unreadable. Do not show any building, facade, balcony, architectural plan, school, classroom, photograph, written note, folded corner, dates or clues about what happened in the story. Absolutely no text, numbers, letters, labels, logos, watermark or speech bubbles. Preserve the reference faces, ages, hair and clothes. The image establishes sorting old papers in a community room, without disclosing answers about the drawing, its hidden word, an unbuilt balcony or the grandfather's memories."
+}

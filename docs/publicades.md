@@ -1,6 +1,6 @@
 # Comprensions finalitzades
 
-Actualitzat: **23/11/2026**. **30 publicacions definitives**. Aquest registre conserva les peces que han sortit de la [taula de pendents](seguiment-produccio.md). Les variants es validen per separat.
+Actualitzat: **23/11/2026**. **33 publicacions definitives**. Aquest registre conserva les peces que han sortit de la [taula de pendents](seguiment-produccio.md). Les variants es validen per separat.
 
 | Codi | Títol | Curs | Dificultat · tipologia | Fragment | Validació definitiva |
 | --- | --- | --- | --- | --- | --- |
@@ -17,6 +17,7 @@ Actualitzat: **23/11/2026**. **30 publicacions definitives**. Aquest registre co
 | [ca-S018](https://sentit.ortogra.fi/#lectura=ca-S018) | La clau de l’armari verd | 5è | Avançada · Narració | 2:57 | 2026-11-20 |
 | [ca-S019](https://sentit.ortogra.fi/#lectura=ca-S019) | Una cuinera contra el malbaratament | 6è | Accessible · Entrevista | 1:53 | 2026-11-20 |
 | [ca-S020](https://sentit.ortogra.fi/#lectura=ca-S020) | Com participar en el concurs de pòdcasts | 6è | Accessible · Instruccions | 2:03 | 2026-11-20 |
+| [ca-S021](https://sentit.ortogra.fi/#lectura=ca-S021) | Per què una ciutat guarda la calor? | 6è | Intermèdia · Explicació | 2:26 | 2026-11-23 |
 | [ca-S023](https://sentit.ortogra.fi/#lectura=ca-S023) | Reobren el mercat: què canvia i què falta decidir? | 6è | Avançada · Notícia | 3:14 | 2026-11-23 |
 | [ca-S026](https://sentit.ortogra.fi/#lectura=ca-S026) | Preparem el racó dels jocs | 3r | Accessible · Instruccions | 1:00 | 2026-11-23 |
 | [ca-S027](https://sentit.ortogra.fi/#lectura=ca-S027) | El berenar del terrat | 3r | Intermèdia · Narració | 1:13 | 2026-11-21 |
@@ -25,10 +26,12 @@ Actualitzat: **23/11/2026**. **30 publicacions definitives**. Aquest registre co
 | [ca-S032](https://sentit.ortogra.fi/#lectura=ca-S032) | Una ruta amb pistes | 4t | Intermèdia · Instruccions | 1:23 | 2026-11-21 |
 | [ca-S034](https://sentit.ortogra.fi/#lectura=ca-S034) | L’assaig que semblava una funció | 4t | Avançada · Narració | 1:47 | 2026-11-23 |
 | [ca-S035](https://sentit.ortogra.fi/#lectura=ca-S035) | Una pregunta per al menjador | 5è | Accessible · Instruccions | 1:40 | 2026-11-23 |
+| [ca-S037](https://sentit.ortogra.fi/#lectura=ca-S037) | Quin avís és el bo? | 5è | Intermèdia · Diàleg | 1:30 | 2026-11-23 |
 | [ca-S038](https://sentit.ortogra.fi/#lectura=ca-S038) | El banc que havien mogut | 5è | Intermèdia · Narració | 1:43 | 2026-11-21 |
 | [ca-S038D](https://sentit.ortogra.fi/#lectura=ca-S038D) | El banc que havien mogut · versió dialogada | 5è | Intermèdia · Narració | 2:17 | 2026-11-21 |
 | [ca-S039](https://sentit.ortogra.fi/#lectura=ca-S039) | Una biblioteca d’objectes en prova | 5è | Avançada · Notícia | 2:05 | 2026-11-23 |
 | [ca-S042](https://sentit.ortogra.fi/#lectura=ca-S042) | Dos camins amb la mateixa mitjana | 6è | Intermèdia · Explicació | 1:24 | 2026-11-23 |
+| [ca-S043](https://sentit.ortogra.fi/#lectura=ca-S043) | El balcó que només era al paper | 6è | Intermèdia · Narració | 2:16 | 2026-11-23 |
 | [ca-S044](https://sentit.ortogra.fi/#lectura=ca-S044) | El recompte del programa | 6è | Avançada · Diàleg | 1:30 | 2026-11-23 |
 | [ca-S045](https://sentit.ortogra.fi/#lectura=ca-S045) | Les cadires del cinema | 4t | Accessible · Narració | 1:36 | 2026-11-23 |
 | [ca-S047](https://sentit.ortogra.fi/#lectura=ca-S047) | La maleta que feia soroll | 4t | Intermèdia · Narració | 1:49 | 2026-11-23 |

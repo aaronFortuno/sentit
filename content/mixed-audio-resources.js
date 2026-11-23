@@ -39,7 +39,7 @@ export const mixedAudioResources = {
     "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S021": {
-    "voices": "Mireia: Aoede; Laia: Leda. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Mireia: Aoede; Laia: Leda. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "City Ambience Quiet Neighborhood · soaress (CC0 1.0), molt baix sota la conversa. Two people's footsteps walking on a wet cement sidewalk · evsecrets (CC0 1.0), fora de la parla. Page turned · Beussa (CC0 1.0), fora de la parla.",
     "recipe": "tools/remount-s021-city-bed.cjs"
   },
@@ -117,7 +117,7 @@ export const mixedAudioResources = {
     "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S037": {
-    "voices": "Laia: Leda; Biel: Puck. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Laia: Leda; Biel: Puck. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "College Hallway ambience · Bexhillcollege (CC0 1.0), molt baix sota la conversa.",
     "recipe": "tools/remount-s007-s037.cjs"
   },
@@ -153,7 +153,7 @@ export const mixedAudioResources = {
     "recipe": "tools/clean-s042-bookends.cjs"
   },
   "ca-S043": {
-    "voices": "Narradora: Aoede. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Narradora: Aoede. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "Base original «Una línia a la façana» (MIT), molt baixa durant la narració, amb pujada i fosa final. Page turned · Beussa (CC0 1.0), molt baix sota la conversa.",
     "recipe": "tools/remount-s043-inline-paper.cjs"
   },

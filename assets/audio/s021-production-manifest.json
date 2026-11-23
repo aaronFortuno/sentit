@@ -1,7 +1,7 @@
 {
   "code": "S021",
   "activity": "ca-S021",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s021-city-bed-v2.mp3",
   "introFile": "s021-mixed-v1-intro.mp3",
   "bodyFile": "s021-city-bed-v2-cos.mp3",
@@ -123,6 +123,20 @@
     "midDialogueEffectsPreserved": true,
     "voiceRetimed": false,
     "newRequests": 0,
-    "teacherFinalApproval": false
+    "teacherFinalApproval": true
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S021 validat per publicació definitiva",
+    "audioSha256": "a54b1651b9761d9d4919157efcdb1bff413c2c86e4ddaaf7502e975553b3841a",
+    "editorialFingerprint": "1efafdcd8781b775133f97830ee35a54ecf2a982e90c08746e9b87fae3454a3a",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/per-que-una-ciutat-guarda-la-calor-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

@@ -2506,7 +2506,7 @@
     {
       "code": "S021",
       "activity": "ca-S021",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s021-city-bed-v2.mp3",
       "introFile": "s021-mixed-v1-intro.mp3",
       "bodyFile": "s021-city-bed-v2-cos.mp3",
@@ -2628,7 +2628,21 @@
         "midDialogueEffectsPreserved": true,
         "voiceRetimed": false,
         "newRequests": 0,
-        "teacherFinalApproval": false
+        "teacherFinalApproval": true
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-23",
+        "validatedBy": "docent",
+        "confirmation": "S021 validat per publicació definitiva",
+        "audioSha256": "a54b1651b9761d9d4919157efcdb1bff413c2c86e4ddaaf7502e975553b3841a",
+        "editorialFingerprint": "1efafdcd8781b775133f97830ee35a54ecf2a982e90c08746e9b87fae3454a3a",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/per-que-una-ciutat-guarda-la-calor-v1.webp",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-23",
+        "audioChanged": false
       }
     },
     {
@@ -4254,7 +4268,7 @@
     {
       "code": "S043",
       "activity": "ca-S043",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s043-inline-paper-v2.mp3",
       "introFile": "s043-mixed-v1-intro.mp3",
       "bodyFile": "s043-inline-paper-v2-cos.mp3",
@@ -4353,7 +4367,21 @@
         "phraseEndBodySeconds": 23.177899999999987,
         "voiceRetimed": false,
         "newRequests": 0,
-        "teacherFinalApproval": false
+        "teacherFinalApproval": true
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-23",
+        "validatedBy": "docent",
+        "confirmation": "S043 validat per publicació definitiva",
+        "audioSha256": "e82bf7c789539c90b85f8ba16b34b2145cc45421a6e735ad2032c8e4dd908d57",
+        "editorialFingerprint": "2cf5c51d07f098b92a0d0f55f394b41ca995659fab793adefabf22338ffb3d10",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/el-balco-que-nomes-era-al-paper-v1.webp",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-23",
+        "audioChanged": false
       }
     },
     {
@@ -5015,7 +5043,7 @@
     {
       "code": "S037",
       "activity": "ca-S037",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s037-hallway-v2.mp3",
       "introFile": "s037-hallway-v2-intro.mp3",
       "bodyFile": "s037-hallway-v2-cos.mp3",
@@ -5109,8 +5137,22 @@
         "continuousAmbience": true,
         "voiceRetimed": false,
         "newRequests": 0,
-        "teacherFinalApproval": false,
+        "teacherFinalApproval": true,
         "internalDialogueUnchanged": true
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-23",
+        "validatedBy": "docent",
+        "confirmation": "S037 validat per publicació definitiva",
+        "audioSha256": "7d35cbadf7bcf7983c13c1bc62322a555e32f37585b0040ea50893b2dc79112f",
+        "editorialFingerprint": "bdefa531a970256f3dd5a8e5129c3df186dfa753301ebbadbfc33fe374f05d0e",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/quin-avis-es-el-bo-v1.webp",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-23",
+        "audioChanged": false
       }
     },
     {

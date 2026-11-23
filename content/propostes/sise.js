@@ -78,7 +78,8 @@ export const sise = [
   }),
   proposal({
     id: 'per-que-una-ciutat-guarda-la-calor', code: 'S021', title: 'Per què una ciutat guarda la calor?', grade: '6', level: 'middle', genre: 'explanation',
-    seconds: 151, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/per-que-una-ciutat-guarda-la-calor-v1.webp","alt":"La Mireia explica una observació a la Laia, que pren notes en una plaça urbana al costat d’una bossa de material.","width":1536,"height":1024},
+    seconds: 151, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s021-city-bed-v2.mp3', tracks: { introduction: './assets/audio/s021-mixed-v1-intro.mp3', body: './assets/audio/s021-city-bed-v2-cos.mp3' },
     fragment: { start: 4.968, seconds: 146 },
     recordingCues: [{"before":"places","text":"Ambient urbà enregistrat amb entrada suau, continu i molt tènue sota tota la conversa."},{"after":"vespre","text":"Passes enregistrades conservades a la transició, sense tapar les paraules."},{"after":"limit","text":"Full enregistrat conservat abans de l’última intervenció."},{"after":"final","text":"Sense la respiració ni el full posteriors. Mig segon de marge, pujada suau de l’ambient, dos segons i fosa d’un segon."}],

@@ -246,16 +246,16 @@ export const productionProgress = {
     "timingComparison": "./proves/pauses-s011-s027.html#S011"
   },
   "ca-S021": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-20T12:41:11.676Z",
-    "editorialFingerprint": "68ee0f9c54ea02047ca7cbb9278344d50fce8a02d845d734724c52b0da726dc1",
-    "plannedNewRequests": 1,
+    "editorialFingerprint": "1efafdcd8781b775133f97830ee35a54ecf2a982e90c08746e9b87fae3454a3a",
+    "plannedNewRequests": 0,
     "reason": "Guió de recerca validat; preparat per al següent lot dins del topall gratuït de peticions.",
     "voicesReceivedAt": "2026-11-21T10:04:43.360Z",
     "synthesisBatch": "L01",
     "requestHash": "0cd61066dabfeb8992968fa3e45c9f95dd07621aa58ca5a919a5e873cee48df7",
     "audioSha256": "a54b1651b9761d9d4919157efcdb1bff413c2c86e4ddaaf7502e975553b3841a",
-    "listeningApproval": false,
+    "listeningApproval": true,
     "montageNewSynthesisRequests": 0,
     "feedbackAt": "2026-11-23",
     "feedback": [
@@ -272,13 +272,15 @@ export const productionProgress = {
         "status": "applied"
       }
     ],
-    "reviewUpdate": {
-      "audio": "./assets/audio/s021-city-bed-v2.mp3",
-      "at": "2026-11-23",
-      "summary": {
-        "ca": "Ambient urbà continu i molt baix; entrada més suau. Retirats la respiració i el full del final; pujada d’ambient de dos segons i fosa. Pendent d’última escolta.",
-        "es": "Ambiente urbano continuo y muy bajo; entrada más suave. Retirados la respiración y el papel finales; subida de ambiente de dos segundos y fundido. Pendiente de última escucha."
-      }
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S021 validat per publicació definitiva",
+    "teacherAssessment": "Veus i muntatge validats definitivament pel docent.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/per-que-una-ciutat-guarda-la-calor-v1.webp",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-23",
+      "audioChanged": false
     }
   },
   "ca-S006": {
@@ -1747,11 +1749,11 @@ export const productionProgress = {
     }
   },
   "ca-S037": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-21T09:35:53.798Z",
-    "editorialFingerprint": "19389d1d4685193a8ab96538ee385432e9d58983b9d2ad4fbbb33017fb20ab9b",
-    "plannedNewRequests": 1,
-    "confirmation": "S037 validat per síntesi de veus",
+    "editorialFingerprint": "bdefa531a970256f3dd5a8e5129c3df186dfa753301ebbadbfc33fe374f05d0e",
+    "plannedNewRequests": 0,
+    "confirmation": "S037 validat per publicació definitiva",
     "reason": "Guió validat; presa completa incorporada al lot candidat L08, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts.",
     "uncertainTurns": [],
     "receivedTakes": {
@@ -1764,20 +1766,12 @@ export const productionProgress = {
       ]
     },
     "voicesReceivedAt": "2026-11-21T11:03:34.205Z",
-    "listeningApproval": false,
+    "listeningApproval": true,
     "synthesisBatch": "L08",
     "requestHash": "ac8a3b34fa098dc7a38e788b2cadc9c81d3039b44c7af229a4c9c104184e94cc",
     "audioSha256": "7d35cbadf7bcf7983c13c1bc62322a555e32f37585b0040ea50893b2dc79112f",
     "montageNewSynthesisRequests": 0,
     "feedbackAt": "2026-11-23",
-    "reviewUpdate": {
-      "audio": "./assets/audio/s037-hallway-v2.mp3",
-      "at": "2026-11-23",
-      "summary": {
-        "ca": "Retirats els silencis inicials i els efectes; títol i conversa propers, amb ambient continu de passadís molt baix. Locució conservada; pendent d’última escolta.",
-        "es": "Retirados los silencios iniciales y los efectos; título y conversación próximos, con ambiente continuo de pasillo muy bajo. Locución conservada; pendiente de última escucha."
-      }
-    },
     "feedback": [
       {
         "part": "montage",
@@ -1785,7 +1779,16 @@ export const productionProgress = {
         "word": "Silencis i efectes sobrers",
         "status": "applied"
       }
-    ]
+    ],
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "teacherAssessment": "Veus i muntatge validats definitivament pel docent.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/quin-avis-es-el-bo-v1.webp",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-23",
+      "audioChanged": false
+    }
   },
   "ca-S025": {
     "state": "audio-corrections-pending",
@@ -2258,11 +2261,11 @@ export const productionProgress = {
     "timingComparison": "./proves/pauses-s011-s027.html#S027"
   },
   "ca-S043": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-21T09:59:55.071Z",
-    "editorialFingerprint": "9d3f1b23ad224d41565120b63f332e87a900a75e6670d47518529318675b63c3",
-    "plannedNewRequests": 1,
-    "confirmation": "S043 validat per síntesi de veus",
+    "editorialFingerprint": "2cf5c51d07f098b92a0d0f55f394b41ca995659fab793adefabf22338ffb3d10",
+    "plannedNewRequests": 0,
+    "confirmation": "S043 validat per publicació definitiva",
     "reason": "Guió validat durant el processament seqüencial; incorporar a un lot compatible pendent, conservant les veus i el text exactes.",
     "receivedTakes": {
       "received": [
@@ -2274,13 +2277,13 @@ export const productionProgress = {
       ]
     },
     "voicesReceivedAt": "2026-11-21T10:59:18.902Z",
-    "listeningApproval": false,
+    "listeningApproval": true,
     "synthesisBatch": "L05",
     "requestHash": "3a86ff8ea619d9fa32f7582a144656f791631478c642722f8e98ef6e5c8a5eb0",
     "audioSha256": "e82bf7c789539c90b85f8ba16b34b2145cc45421a6e735ad2032c8e4dd908d57",
     "montageNewSynthesisRequests": 0,
     "feedbackAt": "2026-11-23",
-    "teacherAssessment": "Veus i resta del muntatge correctes; retirada del fregament inicial i paper sobre el final de frase pendents d’última audició.",
+    "teacherAssessment": "Veus i muntatge validats definitivament pel docent.",
     "feedback": [
       {
         "part": "introduction",
@@ -2296,13 +2299,13 @@ export const productionProgress = {
         "note": "Comença 0,45 s abans del final de frase; retirat només el segon llarg inserit per a l’efecte."
       }
     ],
-    "reviewUpdate": {
-      "audio": "./assets/audio/s043-inline-paper-v2.mp3",
-      "at": "2026-11-23",
-      "summary": {
-        "ca": "Retirat el fregament inicial. El paper gira sobre el final de la primera intervenció, sense pausa afegida. Mateixa veu i base musical; pendent d’última escolta.",
-        "es": "Retirado el roce inicial. El papel pasa sobre el final de la primera intervención, sin pausa añadida. Misma voz y base musical; pendiente de última escucha."
-      }
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "publicationMaterials": {
+      "illustration": "./assets/images/el-balco-que-nomes-era-al-paper-v1.webp",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-23",
+      "audioChanged": false
     }
   },
   "ca-S049": {
