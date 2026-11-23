@@ -1,7 +1,7 @@
 {
   "code": "S044",
   "activity": "ca-S044",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s044-hallway-v2.mp3",
   "introFile": "s044-hallway-v2-intro.mp3",
   "bodyFile": "s044-hallway-v2-cos.mp3",
@@ -60,5 +60,19 @@
     "newRequests": 0,
     "continuousHallway": true,
     "removedClosingEffects": true
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S044 validat per publicació definitiva",
+    "audioSha256": "159f628041e9bdce9659c36bccb48a85150660cc4dd14fb8c8b1171844733b1a",
+    "editorialFingerprint": "75fa5af73c82c6d2644013f31e6f2372e79bcea57cbb6fdc5004a85248376ea4",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/el-recompte-del-programa-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

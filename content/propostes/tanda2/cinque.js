@@ -4,9 +4,14 @@ const soundCredits = 'Es preveuen enregistraments reals per a ambients i accions
 export const cinque = [
   proposal({
     id: 'una-pregunta-per-al-menjador', code: 'S035', title: 'Una pregunta per al menjador', grade: '5', level: 'easy', genre: 'instructions', universeIds: ['amb-mireia'],
-    seconds: 109, status: 'ready-for-review', reviewStatus: 'audio-review',
-    audio: './assets/audio/s035-directives-v2.mp3', tracks: { introduction: './assets/audio/s035-directives-v2-intro.mp3', body: './assets/audio/s035-mixed-v1-cos.mp3' },
-    fragment: { start: 4.44, seconds: 104 },
+    recordingCues: [
+      { before: 'hola', text: 'Ambient real continu d’aula, molt baix sota la conversa; presentació neta i sense instruccions de pausa llegides.' },
+      { after: 'dues', text: 'Es conserva el full enregistrat al mateix punt del diàleg, amb les frases completes.' },
+      { after: 'final', text: 'Mig segon després de «em deixes la goma?», pujada de l’ambient, dos segons sostinguts i fosa de tancament breu.' },
+    ],
+    seconds: 105, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s035-tail-v3.mp3', tracks: { introduction: './assets/audio/s035-directives-v2-intro.mp3', body: './assets/audio/s035-tail-v3-cos.mp3' },
+    fragment: { start: 4.44, seconds: 100 },
     summary: 'La Laia llegeix una pregunta que han escrit per a la classe i s’adona que ha barrejat dues coses que volen demanar.',
     voices: { Mireia: 'Aoede', Laia: 'Leda' }, delivery: 'Mestra i alumna revisen un full que tenen al davant. Laia prova de llegir i arreglar la pregunta, amb una descoberta concreta i petits dubtes; Mireia l’ajuda sense dirigir un procediment de control. Parla quotidiana, sense to de presentació ni recitar llistes.',
     editorialFocus: '5è accessible: descobrir dues preguntes barrejades, escoltar la reformulació de la Laia i entendre com provaran si el full s’entén. Vuit preguntes sobre el que passa, sense llistes de control ni arxiu de documents.',
@@ -148,7 +153,8 @@ export const cinque = [
   proposal({
     id: 'una-biblioteca-dobjectes-en-prova', code: 'S039', title: 'Una biblioteca d’objectes en prova', grade: '5', level: 'advanced', genre: 'news', universeIds: ['noticies-mar'],
     recordingCues: [{"before":"inici","text":"Entrada de Breaking News Background Music, de Grand_Project. Base contínua molt atenuada i comprimida sota les veus; sense els papers ni la sintonia anterior."},{"after":"final","text":"Pujada progressiva cap al tancament musical comú i fosa final. El muntatge continua pendent d’audició docent."}],
-    seconds: 131, status: 'ready-for-review', reviewStatus: 'audio-review',
+    seconds: 131, status: 'ready-for-review', reviewStatus: 'validated',
+    image: { src: './assets/images/una-biblioteca-dobjectes-en-prova-v1.webp', alt: 'La Mar entrevista en Pau al centre cívic mentre ell deixa una capsa tancada sobre el taulell.', width: 1536, height: 1024 },
     audio: './assets/audio/s039-news-common-v2.mp3', tracks: { introduction: './assets/audio/s039-news-common-v2-intro.mp3', body: './assets/audio/s039-news-common-v2-cos.mp3' },
     fragment: { start: 5.5200000000000005, seconds: 125 },
     summary: 'La Mar i en Pau expliquen els resultats d’una prova de préstec d’objectes, les peticions que van quedar en espera i els passos per preparar-ne la continuïtat.',

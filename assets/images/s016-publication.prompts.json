@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "code": "S016",
+  "file": "una-troballa-al-jaciment-v1.webp",
+  "references": [
+    "../characters/mar-model-sheet-v1.webp"
+  ],
+  "prompt": "Use case: illustration-story. One specific context illustration for Sentit printable listening worksheet and catalogue. Landscape3:2,1536x1024. Fine ink and soft watercolor on warm white paper; muted sage,charcoal,ochre, airy fading white edges; legible in grayscale at80mm. Supplied model sheet is exact CHARACTER IDENTITY reference, not an edit target. Mar is an adult journalist around35, olive skin, straight dark hair in low ponytail, long oval face, sage blazer over ivory blouse; preserve her reference face, hair and clothes. Medium-wide scene: Mar reporting outdoors with a plain handheld microphone, checking a blank CLOSED notebook held against her side; she faces slightly toward the viewer with an attentive natural expression. Behind her, an archaeologists' work area is suggested by a plain unmarked safety rope and a distant protective canvas canopy over indistinct earth; no excavated object is visible. Her reporting stance and location should establish that this is news from a fieldwork site, not a neutral portrait. Absolutely NO pottery, fragments, vessel, coins, wall, excavation layer diagrams, dates, signboards, written contents, artifacts, food, visitors collecting objects, logos, speech bubbles or watermarks. Do not show any answer or speculative conclusion about the discovery. One prominent person, no extra characters. Preserve Sentit character style, not model sheet layout."
+}

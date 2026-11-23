@@ -2,12 +2,12 @@
   "code": "S043",
   "activity": "ca-S043",
   "state": "awaiting-montage-validation",
-  "file": "s043-mixed-v1.mp3",
+  "file": "s043-inline-paper-v2.mp3",
   "introFile": "s043-mixed-v1-intro.mp3",
-  "bodyFile": "s043-mixed-v1-cos.mp3",
+  "bodyFile": "s043-inline-paper-v2-cos.mp3",
   "offset": 9.292083333333334,
-  "bodyDuration": 136.78791666666666,
-  "fullDuration": 146.08,
+  "bodyDuration": 135.73791666666668,
+  "fullDuration": 145.03,
   "voices": {
     "Narradora": "Aoede"
   },
@@ -22,24 +22,10 @@
   "uncertainTurns": [],
   "newSynthesisRequests": 0,
   "sharedRequest": true,
-  "lufs": -18.55,
+  "lufs": -18.59,
   "peakDbTP": -2.5,
   "voiceRetimed": false,
   "effects": [
-    {
-      "name": "hz37-792502",
-      "start": 0,
-      "source": "assets/audio/sources/hz37-792502.mp3",
-      "sourceSha256": "fa98866da0a33c02f48814d0734a62980801ea82edf154f32bc6e94331c12ef3",
-      "sourceUrl": "https://freesound.org/people/hz37/sounds/792502/",
-      "author": "hz37",
-      "license": "CC0 1.0",
-      "excerpt": {
-        "start": 8,
-        "seconds": 2
-      },
-      "underSpeech": false
-    },
     {
       "name": "gentle-narration-bed",
       "origin": "original-procedural-composition",
@@ -55,18 +41,18 @@
       "externalSamples": false,
       "noSpeech": true,
       "retimed": false,
-      "sha256": "b4aae6f7c497e1e9dc6dba38edafb312f5088e737dc4ccf4dd94b68a412f38e4",
+      "sha256": "e09b9afc5d2800534ecd2c4a304a86fc50e10c9961dbbc8929130e44369a4383",
       "envelope": {
         "fadeInSeconds": 0.6,
         "duckStart": 1.5,
         "duckEnd": 2.25,
         "speechGain": 0.26,
         "nominalSpeechMusicLufs": -37.7,
-        "riseStart": 130.7379,
-        "riseEnd": 131.5379,
+        "riseStart": 129.68789999999998,
+        "riseEnd": 130.4879,
         "holdSeconds": 2,
-        "fadeStart": 133.5379,
-        "fadeEnd": 134.6879
+        "fadeStart": 132.4879,
+        "fadeEnd": 133.6379
       },
       "listeningValidation": "pending",
       "start": 0,
@@ -74,7 +60,7 @@
     },
     {
       "name": "beussa-749880",
-      "start": 23.30819999999999,
+      "start": 22.477899999999988,
       "source": "assets/audio/sources/beussa-749880.mp3",
       "sourceSha256": "4b38b5c58abb206d5b86b9d5b6a3acde8eea90c288ef194b4a67503fe659b4a9",
       "sourceUrl": "https://freesound.org/people/Beussa/sounds/749880/",
@@ -84,9 +70,36 @@
         "start": 0,
         "seconds": 0.678
       },
-      "underSpeech": false,
-      "insertedPause": 1.05
+      "underSpeech": true,
+      "insertedPause": 0,
+      "gain": 0.75,
+      "overlapBeforePhraseEndSeconds": 0.45
     }
   ],
-  "sha256": "6a4ea0b52dcf932b3684b4e288642c007bec1d52a9588ffabba0dc030718023d"
+  "sha256": "e82bf7c789539c90b85f8ba16b34b2145cc45421a6e735ad2032c8e4dd908d57",
+  "inlinePaperRevision": {
+    "date": "2026-11-23",
+    "source": "tools/remount-s043-inline-paper.cjs",
+    "baseFile": "s043-mixed-v1.mp3",
+    "baseSha256": "6a4ea0b52dcf932b3684b4e288642c007bec1d52a9588ffabba0dc030718023d",
+    "openingRemoved": "hz37-792502",
+    "voiceInputSha256": "3f030c89736d8db12b475b7c8967769b9355fa50eca9686109a7c259a2ded5ed",
+    "retainedVoicePcmSha256": "13f3d1b83b087ddc73b5756cdc4976738fe5dbb7cefd856db0023463dcf1e23b",
+    "allRetainedSpeechSamplesIdentical": true,
+    "removedGap": {
+      "start": 23.188208333333332,
+      "end": 24.238208333333333,
+      "seconds": 1.05,
+      "maximumDbFS": -120
+    },
+    "musicInputSha256": "b4aae6f7c497e1e9dc6dba38edafb312f5088e737dc4ccf4dd94b68a412f38e4",
+    "musicCrossfadeSeconds": 0.06,
+    "paperInputSha256": "e32f5d6121d6e74bdcdf25f790f566eadd32704385869b60a22cd4e2d22309bf",
+    "phrase": "troballa",
+    "paperStartBodySeconds": 22.727899999999988,
+    "phraseEndBodySeconds": 23.177899999999987,
+    "voiceRetimed": false,
+    "newRequests": 0,
+    "teacherFinalApproval": false
+  }
 }

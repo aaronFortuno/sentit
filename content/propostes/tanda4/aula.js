@@ -104,10 +104,10 @@ export const aula = [
     ],
   }),
   proposal({
-    id: 'el-mapa-de-sons-del-passadis', code: 'S066', title: 'El mapa de sons del passadís', grade: '5', level: 'advanced', genre: 'instructions', universeIds: ['amb-mireia'],
+    id: 'el-mapa-de-sons-del-passadis', code: 'S066', title: 'El mapa de sons del passadís', grade: '6', level: 'middle', genre: 'instructions', universeIds: ['amb-mireia'],
     summary: 'La classe prepara un recorregut sonor per a la jornada de portes obertes. En Biel porta una gravació del passadís i, en escoltar-la amb la Mireia, s’adonen que hi passen coses en moments diferents.',
     voices, delivery, soundCredits, soundPlan,
-    editorialFocus: '5è avançada: seguir canvis de lloc i moment dins d’una gravació, distingir sons simultanis i successius i relacionar l’edició amb la finalitat de la proposta. Vuit preguntes; cap coneixement de programes d’edició.',
+    editorialFocus: '6è intermèdia: seguir canvis de lloc i moment dins d’una gravació, distingir sons simultanis i successius i relacionar l’edició amb la finalitat de la proposta. Vuit preguntes; cap coneixement de programes d’edició. Qualificació per confirmar amb l’audició del muntatge.',
     illustrationBrief: 'Mireia i Biel escolten una gravadora damunt d’una taula. Sense mapa de passadís, escales, campanes, altaveus o pantalles amb marques.',
     transcript: [
       d('Ambient real d’aula baix. Les gravacions descrites es comenten amb les veus, però no s’afegeix un tercer enregistrament amb parla o campanes que tapi la comprensió.'),

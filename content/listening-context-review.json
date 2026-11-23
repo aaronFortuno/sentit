@@ -3,8 +3,8 @@
   "status": "passed",
   "reviewedAt": "2026-11-22",
   "reviewer": "revisio_contextos_previs",
-  "scope": "88 contextos impresos revisats independentment. S045D incorporada i contextos S079/S081 revalidats després dels comiats demanats pel docent. Sense canvis d’aprovacions d’àudio.",
-  "fileSha256": "72f0622c1957b14c14f9e83a3af98df93882c22b0f92bcb723467e0ab5f6a49c",
+  "scope": "88 contextos impresos revisats independentment. S045D incorporada i contextos S079/S081 revalidats després dels comiats demanats pel docent. Sense canvis d’aprovacions d’àudio. S029 revalidada el 23/11 després de recuperar la presentació i retirar la ubicació del context previ.",
+  "fileSha256": "32d5b7fd836132b81edddc4f9cd5ac14773e2705a08f3707805f5be8b2566d65",
   "entries": {
     "ca-S001": {
       "contextSha256": "86a2e53e056b3476191785f60aeb95ceaeed57b5958b995a1c5ac832470bfedf",
@@ -127,8 +127,10 @@
       "sourceSha256": "47d4c51fbeb9fda79f53f20810423a3f15676fbb123b60b4c5f3377946425d3f"
     },
     "ca-S029": {
-      "contextSha256": "e93551ece47b33edc339d715e0174e9567b72889bfb22aee226567bd3a58b615",
-      "sourceSha256": "e843299159d91f457aa209ba791d162a60706d107c064880aa608f40b2fcc489"
+      "contextSha256": "5760e8472262186f791b03dd6ead96dad0617255fc1537b38fd07ebda119acb2",
+      "sourceSha256": "414017f1042d6d4e2fb0519d8aa7a74b6babdd28de402131642fb98d045ace24",
+      "reviewedAt": "2026-11-23",
+      "reviewer": "revisio_tancament_s042"
     },
     "ca-S030": {
       "contextSha256": "cdf827e257491eae20a81b444be38c128ad3926d9ec4eae3c7f9835d4b3a5778",

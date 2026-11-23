@@ -13,4 +13,6 @@ La validació de l’àudio és l’últim pas docent. Abans de donar una compre
 
 Aplicat el 20/11/2026 a S003, S004, S004D, S012 i S018; també a S019 en retirar la identificació oral de la mostra de cuina, i a S020 amb la confirmació definitiva del docent. Les dues versions de S004 comparteixen una imatge perquè són la mateixa història. No s’han tornat a sintetitzar les veus.
 
+Aplicat el 23/11/2026 a S014, S016, S026, S039, S042, S044, S045 i S048: il·lustracions de context amb prompts i referències a `assets/images/sXXX-publication.prompts.json`, revisió independent de metadades i comprovació de fitxa, solucionari i cites. Les transcripcions publicades només contenen la parla; el guió anotat es conserva. S045 publica directament després de retirar només l’efecte inicial, tal com autoritza el docent; la resta conserva l’àudio validat. Les imatges noves prioritzen accions i entorns recognoscibles sense mostrar respostes.
+
 La prova de sessió del sidebar utilitza el mateix reproductor que l’alumnat. Permet escoltar sintonia, presentació, locucions, fragment al ritme triat i repeticions. Saltar les esperes només modifica la prova local; no altera la configuració del QR.

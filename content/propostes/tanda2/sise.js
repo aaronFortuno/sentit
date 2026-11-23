@@ -84,7 +84,8 @@ export const sise = [
   proposal({
     id: 'dos-camins-amb-la-mateixa-mitjana', code: 'S042', title: 'Dos camins amb la mateixa mitjana', grade: '6', level: 'middle', genre: 'explanation', universeIds: ['amb-mireia'],
     recordingCues: [{"before":"resultat","text":"Presentació neta i entrada directa de la conversa, sense respiracions ni ambient inicial afegit."},{"after":"primer","text":"Es conserva el full enregistrat al mateix punt del diàleg, sense modificar les frases."},{"after":"final","text":"Final de Biel íntegre. Cadira enregistrada poc després de l’última paraula i fosa breu, sense long pause ni espera afegida."}],
-    seconds: 89, status: 'ready-for-review', reviewStatus: 'audio-review',
+    seconds: 89, status: 'ready-for-review', reviewStatus: 'validated',
+    image: { src: './assets/images/dos-camins-amb-la-mateixa-mitjana-v1.webp', alt: 'La Mireia i en Biel conversen a l’aula, al costat d’una taula amb una llibreta tancada.', width: 1536, height: 1024 },
     audio: './assets/audio/s042-timing-v2.mp3', tracks: { introduction: './assets/audio/s042-timing-v2-intro.mp3', body: './assets/audio/s042-timing-v2-cos.mp3' },
     fragment: { start: 4.430000000000001, seconds: 84 },
     summary: 'La Mireia i en Biel comparen dos camins amb la mateixa mitjana de temps i recorden què va passar el dia que van trobar molts cotxes.',
@@ -122,9 +123,14 @@ export const sise = [
   }),
   proposal({
     id: 'el-balco-que-nomes-era-al-paper', code: 'S043', title: 'El balcó que només era al paper', grade: '6', level: 'middle', genre: 'story', universeIds: ['histories-sentit'],
-    seconds: 147, status: 'ready-for-review', reviewStatus: 'audio-review',
-    audio: './assets/audio/s043-mixed-v1.mp3', tracks: { introduction: './assets/audio/s043-mixed-v1-intro.mp3', body: './assets/audio/s043-mixed-v1-cos.mp3' },
-    fragment: { start: 9.292083333333334, seconds: 137 },
+    recordingCues: [
+      { before: 'troballa', text: 'Entrada de la base original molt suau, sense fregament ni ambient inicial afegit.' },
+      { after: 'troballa', text: 'El full enregistrat comença a girar sobre les últimes paraules del paràgraf anterior. Sense pausa afegida; la música continua molt baixa.' },
+      { after: 'final', text: 'Veu completa, pujada de la base dos segons i fosa final conservades.' },
+    ],
+    seconds: 146, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s043-inline-paper-v2.mp3', tracks: { introduction: './assets/audio/s043-mixed-v1-intro.mp3', body: './assets/audio/s043-inline-paper-v2-cos.mp3' },
+    fragment: { start: 9.292083333333334, seconds: 136 },
     summary: 'L’Aina troba un dibuix antic d’un edifici que coneix i intenta entendre per què hi apareix un balcó que no ha vist mai.',
     voices: { Narradora: 'Aoede' }, delivery: 'Narració propera i expressiva, amb curiositat sense suspense amenaçador. Aina i Ferran són personatges narrats, no veus participants. No imitar-ne les veus. Tancament amb una feina concreta i humor lleu, no amb un aforisme.',
     editorialFocus: '6è intermèdia: separar projecte, obra i record; seguir el canvi d’hipòtesi amb proves de valor diferent. Nou preguntes que no exigeixen saber llegir plànols ni conèixer el barri.',
@@ -158,7 +164,8 @@ export const sise = [
   proposal({
     id: 'el-recompte-del-programa', code: 'S044', title: 'El recompte del programa', grade: '6', level: 'advanced', genre: 'dialogue', universeIds: ['laia-biel'],
     recordingCues: [{"before":"celebrar","text":"Ambient continu de passadís darrere d’una porta: veus i passes llunyanes, esmorteïdes i molt baixes sota Laia i Biel. Sense clics ni moviment de papers previs."},{"after":"final","text":"Fosa curta de l’ambient llunyà; sense efectes de comiat afegits."}],
-    seconds: 95, status: 'ready-for-review', reviewStatus: 'audio-review',
+    seconds: 95, status: 'ready-for-review', reviewStatus: 'validated',
+    image: { src: './assets/images/el-recompte-del-programa-v1.webp', alt: 'La Laia i en Biel conversen asseguts en una petita sala de ràdio escolar, amb un portàtil tancat sobre la taula.', width: 1536, height: 1024 },
     audio: './assets/audio/s044-hallway-v2.mp3', tracks: { introduction: './assets/audio/s044-hallway-v2-intro.mp3', body: './assets/audio/s044-hallway-v2-cos.mp3' },
     fragment: { start: 4.46, seconds: 90 },
     summary: 'La Laia i en Biel preparen una presentació del seu programa, però abans revisen què poden afirmar a partir del recompte d’escoltes i dels comentaris rebuts.',

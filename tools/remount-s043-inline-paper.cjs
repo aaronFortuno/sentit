@@ -1,0 +1,43 @@
+'use strict';
+// Local revision only. Keep the voice stem; remove the inserted silent gap,
+// move the recorded page turn under the last words and remove the opening rub.
+const fs=require('node:fs/promises'),path=require('node:path'),{createHash}=require('node:crypto');
+const {waveParts}=require('./gemini-result.cjs'),{wav}=require('./compact-mixed-pauses.cjs'),{ffmpeg,ffmpegBinary}=require('./audio-files.cjs');
+const root=path.resolve(__dirname,'..'),work=path.resolve(root,'../output/sentit-primera-tanda'),sha=b=>createHash('sha256').update(b).digest('hex');
+(async()=>{
+ const reportFile=path.join(root,'assets/audio/s043-production-manifest.json'),old=JSON.parse(await fs.readFile(reportFile));
+ if(old.file!=='s043-mixed-v1.mp3'||sha(await fs.readFile(path.join(root,'assets/audio',old.file)))!==old.sha256)throw Error('Unexpected master: preserve it before revising.');
+ const original=path.join(work,'s043/mixed-v1'),output=path.join(work,'s043/inline-paper-v2');await fs.mkdir(output,{recursive:true});
+ const read=name=>fs.readFile(path.join(original,name+'.wav')),voiceBytes=await read('voice-complete'),voice=waveParts(voiceBytes),before=waveParts(await read('voice-0')),gap=waveParts(await read('gap-0'));
+ const rate=voice.format.readUInt32LE(4),frame=voice.format.readUInt16LE(12),lead=2.4;
+ if(rate!==48000||frame!==2)throw Error('Unexpected voice format.');
+ const first=Math.round(lead*rate)*frame+before.pcm.length,last=first+gap.pcm.length,removed=voice.pcm.subarray(first,last);let maximum=0;
+ for(let i=0;i<removed.length;i+=2)maximum=Math.max(maximum,Math.abs(removed.readInt16LE(i)));
+ if(!removed.length||maximum>32768*10**(-42/20))throw Error('Inserted gap is not quiet: do not cut speech.');
+ const retained=Buffer.concat([voice.pcm.subarray(0,first),voice.pcm.subarray(last)]),voiceFile=path.join(output,'voice.wav');await fs.writeFile(voiceFile,wav(voice.format,retained));
+ const gapStart=first/frame/rate,gapEnd=last/frame/rate,gapSeconds=removed.length/frame/rate,binary=await ffmpegBinary();
+ const render=(name,args)=>{const file=path.join(output,name+'.wav');ffmpeg(binary,['-v','error','-y',...args,'-ar','48000','-ac','1','-c:a','pcm_s16le',file]);return file;};
+ const musicInput=path.join(original,'music-bed.wav'),music=render('music-bed',['-i',musicInput,'-filter_complex',`[0:a]asplit=2[a][b];[a]atrim=end=${gapStart+.03},asetpts=PTS-STARTPTS[left];[b]atrim=start=${gapEnd-.03},asetpts=PTS-STARTPTS[right];[left][right]acrossfade=d=0.06[out]`,'-map','[out]']);
+ const musicData=waveParts(await fs.readFile(music));if(Math.abs(musicData.pcm.length-retained.length)>frame)throw Error('Music and voice lengths differ after removing the gap.');
+ const take=JSON.parse(await fs.readFile(path.join(work,'mixed-batches/takes.json')))['S043-T01'],part=take.spans.find(s=>s.part==='troballa');
+ const phraseEnd=lead+part.end-take.titleCut,paperStart=phraseEnd-.45,paper=old.effects.find(e=>e.name==='beussa-749880'),composition=old.effects.find(e=>e.compositionId);
+ if(!paper||!composition)throw Error('Retained paper or music missing.');
+ const paperInput=path.join(original,'event-0.wav'),program=render('body-master',['-i',voiceFile,'-i',music,'-i',paperInput,'-filter_complex',`[2:a]volume=0.75,adelay=${Math.round(paperStart*1000)}:all=1[paper];[0:a][1:a][paper]amix=inputs=3:duration=first:normalize=0,loudnorm=I=-19:TP=-2.5:LRA=9,aresample=48000,adelay=250:all=1,apad=pad_dur=0.35[out]`,'-map','[out]']);
+ const title=path.join(original,'title-master.wav'),titleGap=path.join(original,'title-gap.wav'),master=render('master',['-i',title,'-i',titleGap,'-i',program,'-filter_complex','[0:a][1:a][2:a]concat=n=3:v=0:a=1[out]','-map','[out]']);
+ const bodyData=waveParts(await fs.readFile(program)),masterData=waveParts(await fs.readFile(master)),fullDuration=masterData.pcm.length/frame/rate,bodyDuration=bodyData.pcm.length/frame/rate;
+ if(Math.abs(old.fullDuration-fullDuration-gapSeconds)>.001)throw Error('Unexpected duration change.');
+ const log=ffmpeg(binary,['-i',master,'-af','loudnorm=I=-19:TP=-2.5:LRA=9:print_format=json','-f','null','-']),levels=JSON.parse(log.slice(log.lastIndexOf('{'),log.lastIndexOf('}')+1));
+ if(!(+levels.input_i>=-24&&+levels.input_i<=-15&&+levels.input_tp<=-1))throw Error('Output levels out of range.');
+ const stem='s043-inline-paper-v2',files={file:stem+'.mp3',introFile:old.introFile,bodyFile:stem+'-cos.mp3'};
+ for(const[input,key]of [[master,'file'],[program,'bodyFile']])ffmpeg(binary,['-v','error','-y','-i',input,'-map_metadata','-1','-c:a','libmp3lame','-q:a','3',path.join(root,'assets/audio',files[key])]);
+ const shiftedEnvelope=Object.fromEntries(Object.entries(composition.envelope).map(([key,value])=>[key,['riseStart','riseEnd','fadeStart','fadeEnd'].includes(key)?value-gapSeconds:value]));
+ const revision={...old,...files,fullDuration,bodyDuration,lufs:+levels.input_i,peakDbTP:+levels.input_tp,sha256:sha(await fs.readFile(path.join(root,'assets/audio',files.file))),effects:[{...composition,envelope:shiftedEnvelope,sha256:sha(await fs.readFile(music))},{...paper,start:paperStart,underSpeech:true,insertedPause:0,gain:.75,overlapBeforePhraseEndSeconds:.45}],inlinePaperRevision:{date:'2026-11-23',source:'tools/remount-s043-inline-paper.cjs',baseFile:old.file,baseSha256:old.sha256,openingRemoved:'hz37-792502',voiceInputSha256:sha(voiceBytes),retainedVoicePcmSha256:sha(retained),allRetainedSpeechSamplesIdentical:true,removedGap:{start:gapStart,end:gapEnd,seconds:gapSeconds,maximumDbFS:maximum?20*Math.log10(maximum/32768):-120},musicInputSha256:sha(await fs.readFile(musicInput)),musicCrossfadeSeconds:.06,paperInputSha256:sha(await fs.readFile(paperInput)),phrase:'troballa',paperStartBodySeconds:paperStart+.25,phraseEndBodySeconds:phraseEnd+.25,voiceRetimed:false,newRequests:0,teacherFinalApproval:false}};
+ await fs.writeFile(path.join(root,'assets/audio/s043-before-inline-paper-manifest.json'),JSON.stringify(old,null,2)+'\n');
+ await fs.writeFile(reportFile,JSON.stringify(revision,null,2)+'\n');await fs.writeFile(path.join(root,'assets/audio/'+stem+'-manifest.json'),JSON.stringify(revision,null,2)+'\n');
+ const allFile=path.join(root,'assets/audio/prototips-manifest.json'),all=JSON.parse(await fs.readFile(allFile));Object.assign(all.activities.find(e=>e.code==='S043'),revision);await fs.writeFile(allFile,JSON.stringify(all,null,2)+'\n');
+ const file=path.join(root,'content/propostes/tanda2/sise.js');let text=await fs.readFile(file,'utf8');for(const key of Object.keys(files))text=text.replaceAll(old[key],files[key]);
+ const at=text.indexOf("code: 'S043'"),until=text.indexOf('    summary:',at),header=text.slice(at,until).replace(/seconds: \d+, status:/,`seconds: ${Math.ceil(fullDuration)}, status:`).replace(/fragment: \{ start: [\d.]+, seconds: \d+ \}/,`fragment: { start: ${old.offset}, seconds: ${Math.round(bodyDuration)} }`);await fs.writeFile(file,text.slice(0,at)+header+text.slice(until));
+ const {productionProgress:p}=await import('../content/production-progress.js');Object.assign(p['ca-S043'],{state:'montage-awaiting-listening',audioSha256:revision.sha256,listeningApproval:false,feedbackAt:'2026-11-23',teacherAssessment:'Veus i resta del muntatge correctes; retirada del fregament inicial i paper sobre el final de frase pendents d’última audició.',feedback:[{part:'introduction',kind:'sound-effect',word:'Fregament inicial',status:'applied'},{part:'troballa',kind:'timing',word:'Gir de paper',status:'applied',note:'Comença 0,45 s abans del final de frase; retirat només el segon llarg inserit per a l’efecte.'}],reviewUpdate:{audio:'./assets/audio/'+files.file,at:'2026-11-23',summary:{ca:'Retirat el fregament inicial. El paper gira sobre el final de la primera intervenció, sense pausa afegida. Mateixa veu i base musical; pendent d’última escolta.',es:'Retirado el roce inicial. El papel pasa sobre el final de la primera intervención, sin pausa añadida. Misma voz y base musical; pendiente de última escucha.'}}});
+ await fs.writeFile(path.join(root,'content/production-progress.js'),'// Production stages are separate from editorial review and final listening approval.\nexport const productionProgress = '+JSON.stringify(p,null,2)+';\n');
+ console.log(JSON.stringify({file:files.file,seconds:fullDuration,removedSeconds:gapSeconds,paperStart:paperStart+.25,phraseEnd:phraseEnd+.25,lufs:revision.lufs,peak:revision.peakDbTP,allRetainedSpeechSamplesIdentical:true,newRequests:0}));
+})().catch(error=>{console.error(error.stack);process.exitCode=1;});

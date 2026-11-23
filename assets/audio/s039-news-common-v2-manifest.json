@@ -1,7 +1,7 @@
 {
   "code": "S039",
   "activity": "ca-S039",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s039-news-common-v2.mp3",
   "introFile": "s039-news-common-v2-intro.mp3",
   "bodyFile": "s039-news-common-v2-cos.mp3",
@@ -100,5 +100,19 @@
     "bodyPcmSha256": "9735676d454beff260bd3b45c376919704ba570402da8bb4d94fa4faf05f250f",
     "teacherFinalApproval": false,
     "newRequests": 0
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S039 validat per publicació definitiva",
+    "audioSha256": "02f34e895e50db60f4c41e7b5ede24a6facf91a49ece1ca0b575dfea38507865",
+    "editorialFingerprint": "3544383b47d621fdfac4c03a6406994def23680789d2e8dc8a4d6fdb75dd78b6",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/una-biblioteca-dobjectes-en-prova-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

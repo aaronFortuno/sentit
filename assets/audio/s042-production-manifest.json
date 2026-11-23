@@ -1,7 +1,7 @@
 {
   "code": "S042",
   "activity": "ca-S042",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s042-timing-v2.mp3",
   "introFile": "s042-timing-v2-intro.mp3",
   "bodyFile": "s042-timing-v2-cos.mp3",
@@ -81,5 +81,19 @@
     "chairAfterFinalWordSeconds": 0.25,
     "voiceRetimed": false,
     "newRequests": 0
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S042 validat per publicació definitiva",
+    "audioSha256": "7fc840a4469df4e5d9881d3c482435255013f078ed94a331901c918c545e4f11",
+    "editorialFingerprint": "bf27ec79e8071b72b5595898d97abfd912a1dd89a23f8659ee14b297da6a2696",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/dos-camins-amb-la-mateixa-mitjana-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

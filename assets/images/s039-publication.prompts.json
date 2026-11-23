@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "code": "S039",
+  "file": "una-biblioteca-dobjectes-en-prova-v1.webp",
+  "references": [
+    "../characters/mar-model-sheet-v1.webp",
+    "../characters/pau-model-sheet-v1.webp"
+  ],
+  "prompt": "Use case: illustration-story. Context illustration for Sentit educational listening worksheet and catalogue. Landscape3:2,1536x1024. Fine ink and soft watercolor on warm white paper, muted sage,charcoal,ochre, airy white fading edges, legible in grayscale at80mm. Supplied models are canonical CHARACTER IDENTITY references, not edit targets or layout templates. Mar: adult journalist35, olive skin, long oval face, straight dark hair in low ponytail, sage blazer and ivory blouse. Pau: adult45, short receding dark hair, short beard, sage polo and charcoal apron. Preserve faces, ages, hair and outfits. Concrete scene inside a community centre lending-service room: Mar interviews Pau with an unmarked handheld microphone while Pau slides one CLOSED plain cardboard box onto a simple counter. A closed plain cupboard in the background suggests storing shared materials; shelves and contents are out of sight. Both friendly, natural and busy with the moment. No other prominent characters. The activity is a news interview about borrowing objects, not a market scene. No board games, travel bags, open box, contents, incomplete puzzles, lists, waiting queue, tally marks, numbers, dates, signs, schedules, workshop tools, text, logos, speech bubbles or watermark. Do not reveal which objects were borrowed, how many loans, the time period, inventory or future decision. Nothing suggests a permanent service. Preserve subtle Sentit style and printable composition."
+}

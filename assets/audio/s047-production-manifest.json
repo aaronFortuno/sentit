@@ -2,12 +2,12 @@
   "code": "S047",
   "activity": "ca-S047",
   "state": "awaiting-montage-validation",
-  "file": "s047-train-v2.mp3",
+  "file": "s047-train-v3.mp3",
   "introFile": "s047-mixed-v1-intro.mp3",
-  "bodyFile": "s047-train-v2-cos.mp3",
+  "bodyFile": "s047-train-v3-cos.mp3",
   "offset": 4.17,
-  "bodyDuration": 107.39508333333333,
-  "fullDuration": 111.56508333333333,
+  "bodyDuration": 108.65508333333334,
+  "fullDuration": 112.82508333333334,
   "voices": {
     "Ferran": "Algenib"
   },
@@ -22,7 +22,7 @@
   "uncertainTurns": [],
   "newSynthesisRequests": 0,
   "sharedRequest": true,
-  "lufs": -19.23,
+  "lufs": -19.24,
   "peakDbTP": -2.5,
   "voiceRetimed": false,
   "effects": [
@@ -41,18 +41,18 @@
       "externalSamples": false,
       "noSpeech": true,
       "retimed": false,
-      "sha256": "4af79b6b1a841c84fbeeb532f04c12944a0576950fc495ccea9980da5e9c4b84",
+      "sha256": "bba6dd6d92bc35556c2947523094dbb29f24d774644279eada00d6584354e7b3",
       "envelope": {
         "fadeInSeconds": 0.6,
         "duckStart": 0.7000000000000001,
         "duckEnd": 1.4500000000000002,
         "speechGain": 0.14,
         "nominalSpeechMusicLufs": -43.07743928643524,
-        "riseStart": 101.32998333333333,
-        "riseEnd": 102.12998333333334,
+        "riseStart": 102.58998333333334,
+        "riseEnd": 103.38998333333335,
         "holdSeconds": 2,
-        "fadeStart": 104.12998333333334,
-        "fadeEnd": 106.12998333333334
+        "fadeStart": 105.38998333333335,
+        "fadeEnd": 107.38998333333335
       },
       "listeningValidation": "pending",
       "start": 0,
@@ -61,8 +61,8 @@
     {
       "name": "kokoreli777-inside-old-train-169418",
       "origin": "licensed-recording-in-montage",
-      "start": 0,
-      "end": 50.79998333333333,
+      "start": 17.649983333333324,
+      "end": 51.59998333333333,
       "underSpeech": true,
       "credit": {
         "id": "kokoreli777-inside-old-train-169418",
@@ -75,25 +75,56 @@
         "description": "Ambient rítmic d’interior de tren antic.",
         "sourceNotDistributedSeparately": true,
         "checkedAt": "2026-11-23",
-        "treatment": "Entrada curta i fons continu atenuat sota Ferran fins al final del viatge. Foses, filtre i normalització locals; sense bucle, canvi de velocitat ni to."
+        "treatment": "Entrada després del primer paràgraf, un segon amb presència i fosa a nivell molt baix sota el segon i tercer. Pujada en arribar i transició als frens; sense tren durant la presentació, el primer paràgraf ni l’escena de casa."
       },
       "sourceSha256": "0b18dfacb3a57527569d501a1aa357bfa18232cbe9bcc36ff7d1cf85d38ceb63",
       "sourceExcerpt": {
         "start": 5,
-        "seconds": 50.54998333333333
+        "seconds": 33.95
       },
       "sourceNotDistributedSeparately": true,
       "sourceTargetLufs": -26,
       "speechGain": 0.2,
       "speechNominalLufs": -40,
-      "fadeIn": 0.3,
-      "fadeOut": 0.9,
+      "fadeIn": 0.08,
+      "fadeOut": 0.55,
       "noLoop": true,
+      "retimed": false,
+      "pitchShifted": false
+    },
+    {
+      "name": "tururt-cubo-7-208790",
+      "origin": "licensed-recording-in-montage",
+      "start": 51.04998333333333,
+      "end": 52.94998333333333,
+      "underSpeech": false,
+      "credit": {
+        "id": "tururt-cubo-7-208790",
+        "title": "cubo 7",
+        "author": "Tururt",
+        "url": "https://pixabay.com/sound-effects/film-special-effects-cubo-7-208790/",
+        "license": "Pixabay Content License",
+        "licenseUrl": "https://pixabay.com/service/license-summary/",
+        "origin": "external-recording",
+        "description": "Enregistrament de frens de tren facilitat pel docent.",
+        "sourceNotDistributedSeparately": true,
+        "checkedAt": "2026-11-23",
+        "treatment": "Fragment 1,65–3,55 s, amb foses d’entrada i sortida, entre el trajecte i l’arribada a casa. La font completa queda local; només es distribueix dins del muntatge."
+      },
+      "sourceSha256": "7a5d3556bc20a3340fc2bd596a5aa50d2cea8c2f6bc14fd4d537a82e76993a4a",
+      "sourceExcerpt": {
+        "start": 1.65,
+        "seconds": 1.9
+      },
+      "sourceNotDistributedSeparately": true,
+      "sourceTargetLufs": -23,
+      "fadeIn": 0.12,
+      "fadeOut": 0.35,
       "retimed": false,
       "pitchShifted": false
     }
   ],
-  "sha256": "d67bb44c5315bd90667a16193e77c99fa5a08e65f3c18ee1acf3a1b4d65cb1d1",
+  "sha256": "344f1409128aeee01d9a3c18abee26dceb89fe4779044c210fb2e830fb2cc408",
   "voiceHandles": {
     "body": {
       "start": 0.6304166666666666,
@@ -118,19 +149,37 @@
   },
   "ambienceRevision": {
     "at": "2026-11-23",
-    "baseFile": "s047-mixed-v1.mp3",
-    "baseAudioSha256": "977e41ad44ec32e59664987d2e42a154414b01578a2a478c092ade9a502600e3",
-    "replacedSource": "throndronis-799526",
-    "voiceStemSha256": "6a9d8b384ce0e064b18bcc4ab7a55cfd883742f229dd7ea127667dba0a95f38e",
-    "musicStemSha256": "4af79b6b1a841c84fbeeb532f04c12944a0576950fc495ccea9980da5e9c4b84",
+    "source": "tools/remount-s047-arrival.cjs",
+    "baseFile": "s047-train-v2.mp3",
+    "baseAudioSha256": "d67bb44c5315bd90667a16193e77c99fa5a08e65f3c18ee1acf3a1b4d65cb1d1",
     "voiceTakeUnchanged": true,
-    "musicStemUnchanged": true,
-    "timingUnchanged": true,
+    "musicStemUnchanged": false,
+    "timingUnchanged": false,
     "trainEndsBeforePart": "tieta",
     "newRequests": 0,
     "teacherFinalApproval": false
   },
   "trainRevision": {
+    "date": "2026-11-23",
+    "source": "tools/remount-s047-arrival.cjs",
+    "baseFile": "s047-train-v2.mp3",
+    "baseSha256": "d67bb44c5315bd90667a16193e77c99fa5a08e65f3c18ee1acf3a1b4d65cb1d1",
+    "voiceInputSha256": "6a9d8b384ce0e064b18bcc4ab7a55cfd883742f229dd7ea127667dba0a95f38e",
+    "retainedVoicePcmSha256": "6802167932d6fb300b129948aaf2f8b0f6282e2df51a633e3fa974200269069f",
+    "allVoiceSamplesPreserved": true,
+    "silenceInsertedAt": 51.11997916666667,
+    "insertedSeconds": 1.26,
+    "arrivalPauseSeconds": 2.4,
+    "musicInputSha256": "4af79b6b1a841c84fbeeb532f04c12944a0576950fc495ccea9980da5e9c4b84",
+    "musicCrossfadeSeconds": 0.06,
+    "trainStartBodySeconds": 17.649983333333324,
+    "trainFullLevelSeconds": 1,
+    "brakesStartBodySeconds": 51.04998333333333,
+    "houseSpeechStartBodySeconds": 53.19998333333334,
+    "voiceRetimed": false,
+    "newRequests": 0
+  },
+  "previousTrainRevision": {
     "date": "2026-11-23",
     "baseFile": "s047-mixed-v1.mp3",
     "baseSha256": "977e41ad44ec32e59664987d2e42a154414b01578a2a478c092ade9a502600e3",

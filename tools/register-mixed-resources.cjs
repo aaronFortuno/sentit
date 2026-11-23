@@ -5,7 +5,7 @@ const fs=require('node:fs/promises'),path=require('node:path'),{createHash}=requ
 const root=path.resolve(__dirname,'..'),work=path.resolve(root,'../output/sentit-primera-tanda'),sha=b=>createHash('sha256').update(b).digest('hex');
 async function main(){
  const {activities}=await import('../catalogue.js'),{soundSources}=await import('../content/sound-sources.js'),{musicCatalogue}=await import('../content/music-catalogue.js'),resources={};
- const mixedKeys=new Set(activities.filter(e=>/-(?:mixed|timing|directives|no-ambience|news|corridor|classroom|train|breaths|clean)-v\d+|-news-(?:common|repair)-v\d+/.test(e.audio??'')).map(e=>e.language+'-'+e.code));
+ const mixedKeys=new Set(activities.filter(e=>/-(?:mixed|timing|directives|no-ambience|no-opening|title|news|corridor|classroom|train|breaths|clean|inline-paper|tail)-v\d+|-news-(?:common|repair)-v\d+/.test(e.audio??'')).map(e=>e.language+'-'+e.code));
  for(const recording of soundSources)recording.usedBy=recording.usedBy.filter(id=>!mixedKeys.has(id));
  for(const entry of activities){
   const report=await fs.readFile(path.join(root,`assets/audio/${entry.code.toLowerCase()}-production-manifest.json`),'utf8').then(JSON.parse).catch(e=>{if(e.code==='ENOENT')return null;throw e;});
@@ -15,8 +15,8 @@ async function main(){
   for(const effect of report.effects??[]){
    if(effect.origin==='licensed-recording-in-montage'){
     if(!effect.credit?.sourceNotDistributedSeparately||sha(await fs.readFile(path.join(work,'sources',effect.name+'.mp3')))!==effect.sourceSha256)throw Error('Licensed recording identity or distribution mismatch.');
-    let recording=soundSources.find(s=>s.id===effect.name);if(!recording){recording={...effect.credit,sha256:effect.sourceSha256,usedBy:[]};soundSources.push(recording);}if(!recording.usedBy.includes(key))recording.usedBy.push(key);
-    descriptions.push(`${recording.title} · ${recording.author} (${recording.license}), ambient continu molt baix sota el trajecte; font completa conservada localment, distribuïda només dins del muntatge.`);continue;
+    let recording=soundSources.find(s=>s.id===effect.name);if(!recording){recording={...effect.credit,sha256:effect.sourceSha256,usedBy:[]};soundSources.push(recording);}else Object.assign(recording,effect.credit,{sha256:effect.sourceSha256});if(!recording.usedBy.includes(key))recording.usedBy.push(key);
+    descriptions.push(`${recording.title} · ${recording.author} (${recording.license}). ${effect.credit.treatment??'Ambient molt baix sota el trajecte; font completa conservada localment i distribuïda només dins del muntatge.'}`);continue;
    }
    if(effect.origin==='licensed-music-in-montage'){
     let music=musicCatalogue.find(item=>item.id===effect.credit.id);if(!music){music={...effect.credit,usedBy:[]};musicCatalogue.push(music);}if(!music.usedBy.includes(key))music.usedBy.push(key);
@@ -39,7 +39,11 @@ async function main(){
   if(report.bookendRevision)resources[key].recipe='tools/clean-s042-bookends.cjs';
   if(report.classroomRevision)resources[key].recipe='tools/remount-s014-classroom.cjs';
   if(report.ambienceRevision)resources[key].recipe=report.ambienceRevision.source;
-  if(report.trainRevision)resources[key].recipe='tools/remount-s047-train.cjs';
+  if(report.trainRevision)resources[key].recipe=report.trainRevision.source??'tools/remount-s047-train.cjs';
+  if(report.inlinePaperRevision)resources[key].recipe=report.inlinePaperRevision.source;
+  if(report.tailRevision)resources[key].recipe='tools/finish-s035-tail.cjs';
+  if(report.openingRevision)resources[key].recipe=report.openingRevision.source;
+  if(report.newsTitleRevision){resources[key].recipe=report.newsTitleRevision.source;resources[key].voices+=' Presentació completa recuperada; primera frase pendent del proper lot de Mar, amb el paràgraf complet per comparar.';}
  }
  const previews=JSON.parse(await fs.readFile(path.join(root,'assets/audio/batch-voice-previews.json'),'utf8').catch(e=>{if(e.code==='ENOENT')return '[]';throw e;}));
  for(const preview of previews){const entry=activities.find(e=>e.code===preview.code);if(entry.audio)continue;resources[entry.language+'-'+entry.code]={voices:Object.entries(entry.production.voices).map(([name,voice])=>`${name}: ${voice}`).join('; ')+`. Lot ${preview.batch}, veus rebudes i pendents d’audició.`,sounds:'Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.',recipe:'tools/prepare-batch-voice-previews.cjs'};}

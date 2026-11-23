@@ -338,9 +338,7 @@ export const soundSources = [
     "downloadUrl": "https://cdn.freesound.org/previews/792/792502_123355-hq.mp3",
     "retrievedAt": "2026-11-21",
     "sha256": "fa98866da0a33c02f48814d0734a62980801ea82edf154f32bc6e94331c12ef3",
-    "usedBy": [
-      "ca-S043"
-    ],
+    "usedBy": [],
     "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
   },
   {
@@ -412,9 +410,7 @@ export const soundSources = [
     "downloadUrl": "https://cdn.freesound.org/previews/380/380687_5734792-hq.mp3",
     "retrievedAt": "2026-11-21",
     "sha256": "134e8b4da1abd5849321f37d33192cf641b822d649803e1002b8568198fbfc91",
-    "usedBy": [
-      "ca-S045"
-    ],
+    "usedBy": [],
     "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
   },
   {
@@ -465,8 +461,25 @@ export const soundSources = [
     "description": "Ambient rítmic d’interior de tren antic.",
     "sourceNotDistributedSeparately": true,
     "checkedAt": "2026-11-23",
-    "treatment": "Entrada curta i fons continu atenuat sota Ferran fins al final del viatge. Foses, filtre i normalització locals; sense bucle, canvi de velocitat ni to.",
+    "treatment": "Entrada després del primer paràgraf, un segon amb presència i fosa a nivell molt baix sota el segon i tercer. Pujada en arribar i transició als frens; sense tren durant la presentació, el primer paràgraf ni l’escena de casa.",
     "sha256": "0b18dfacb3a57527569d501a1aa357bfa18232cbe9bcc36ff7d1cf85d38ceb63",
+    "usedBy": [
+      "ca-S047"
+    ]
+  },
+  {
+    "id": "tururt-cubo-7-208790",
+    "title": "cubo 7",
+    "author": "Tururt",
+    "url": "https://pixabay.com/sound-effects/film-special-effects-cubo-7-208790/",
+    "license": "Pixabay Content License",
+    "licenseUrl": "https://pixabay.com/service/license-summary/",
+    "origin": "external-recording",
+    "description": "Enregistrament de frens de tren facilitat pel docent.",
+    "sourceNotDistributedSeparately": true,
+    "checkedAt": "2026-11-23",
+    "treatment": "Fragment 1,65–3,55 s, amb foses d’entrada i sortida, entre el trajecte i l’arribada a casa. La font completa queda local; només es distribueix dins del muntatge.",
+    "sha256": "7a5d3556bc20a3340fc2bd596a5aa50d2cea8c2f6bc14fd4d537a82e76993a4a",
     "usedBy": [
       "ca-S047"
     ]

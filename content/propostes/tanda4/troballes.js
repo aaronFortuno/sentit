@@ -75,13 +75,13 @@ export const troballes = [
     ],
   }),
   dialogue({
-    id: 'un-soroll-darrere-de-les-veus', code: 'S060', title: 'Un soroll darrere de les veus', grade: '6', level: 'easy',
+    id: 'un-soroll-darrere-de-les-veus', code: 'S060', title: 'Un soroll darrere de les veus', grade: '6', level: 'middle',
     summary: 'La Laia i en Biel escolten una entrevista que van enregistrar i detecten un soroll que no recordaven. Abans de repetir res, intenten saber en quines frases molesta.',
-    editorialFocus: '6è accessible: reconstruir el context d’una gravació, relacionar un soroll amb una acció i distingir fragments aprofitables dels que cal repetir. Nou preguntes; els conceptes tècnics es descriuen amb accions quotidianes.',
-    soundPlan: 'Estança enregistrada breu a l’entrada, sense reproduir cap entrevista ni terceres veus. En la pausa, un únic paper real allunyat del micròfon; cap demostració del soroll problemàtic que pugui tapar la comprensió. Fons molt discret; sortida de dos segons i fosa.',
+    editorialFocus: '6è intermèdia: reconstruir el context d’una gravació, relacionar un soroll amb una acció i distingir fragments aprofitables dels que cal repetir. Nou preguntes; els conceptes tècnics es descriuen amb accions quotidianes.',
+    soundPlan: 'Sala de muntatge de la ràdio amb ambient enregistrat continu de passadís, esmorteït com darrere d’una porta i molt baix sota tota la conversa. Sense reproduir cap entrevista ni terceres veus entenedores. En la pausa, un únic paper real allunyat del micròfon; cap demostració del soroll problemàtic que pugui tapar la comprensió. Sortida de dos segons i fosa.',
     illustrationBrief: 'Laia i Biel amb una gravadora i auriculars damunt d’una taula, sense pantalles llegibles, carpetes, papers manipulats ni espai que mostri la causa del soroll.',
     transcript: [
-      d('Un segon d’estança real abans de les veus. No es reprodueixen torns d’una entrevista anterior.'),
+      d('Ambient continu de passadís molt atenuat, com darrere de la porta de la sala de ràdio. Sense tornar a reproduir l’entrevista anterior ni introduir veus de fons entenedores.'),
       s('escolta', 'Laia', 'Biel, escolta aquesta part de l’entrevista d’ahir. Quan la senyora acaba d’explicar com era el carrer, hi ha un soroll que gairebé no deixa sentir l’última paraula.'),
       s('record', 'Biel', 'Ja ho sento. Quan érem allà no m’hi vaig fixar gens. Sembla com si algú passés una bossa molt a prop de la gravadora.'),
       s('taula', 'Laia', 'La gravadora era al mig de la taula, entre tots tres. Tu tenies els fulls amb les preguntes a la dreta. Quan n’acabaves una, què feies?'),

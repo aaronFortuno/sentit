@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "code": "S045",
+  "file": "les-cadires-del-cinema-v1.webp",
+  "references": [
+    "../characters/ferran-model-sheet-v1.webp",
+    "../characters/aina-model-sheet-v1.webp"
+  ],
+  "prompt": "Use case: illustration-story. Sentit educational listening worksheet context illustration, landscape3:2,1536x1024. Fine ink and soft watercolor on warm white paper, muted sage,charcoal,ochre, edges fading into white; readable at80mm and in grayscale. Supplied sheets are CHARACTER IDENTITY references, not edit targets or layouts. Preserve grandfather Ferran about70: wavy gray hair, short white beard, round dark glasses, gray cardigan over green checked shirt. Preserve Aina10–12: straight dark bob and fringe, round thin glasses, ochre sweatshirt. A single natural medium-wide scene at home: Ferran, seated on a sofa, animatedly recounts an old cinema memory to Aina leaning forward beside him. A small vintage portable film projector, UNLIT and with no picture being projected, rests on a sideboard in the softly blurred background, gently evoking cinema. Their gestures and expressions carry warm amusement; no text or labels. No chairs, folding chairs, blue chairs, ribbons, tall obstructing man, cinema square, outdoor screening, wall chosen as a seat, crowd, carrying action, screen contents or story solution. Do not show the events of the remembered story; depict the present moment of recounting it. No lettering, signs, numbers, logos, speech bubbles or watermark. Preserve model identities and restrained Sentit style; not a model sheet."
+}

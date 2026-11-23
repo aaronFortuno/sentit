@@ -4,6 +4,8 @@ Actualitzat: **23/11/2026**. Registre de les fonts realment utilitzades als fitx
 
 ## Quatre peticions del 23/11/2026 · audició de veus
 
+Les validacions i revisions posteriors d’aquest mateix dia consten al final d’aquest document; no han consumit peticions addicionals de síntesi.
+
 | Lot | Comprensions | Repartiment | Presa rebuda |
 | --- | --- | --- | ---: |
 | [L15](../assets/audio/synthesis-batches/l15.json) | S040, S051, S052 | Laia/Leda i Nora/Kore | 5:37 |
@@ -144,3 +146,13 @@ S047 utilitza [Inside Old Train de kokoreli777](https://pixabay.com/sound-effect
 S014 i S026: fons enregistrat d’aula Tallis0410, CC0, molt baix sota la parla; retirades vocalitzacions fora de guió. S034 conserva la cadira i elimina l’ambient inicial. S035 conserva íntegra la pista del contingut. S042 conserva el full i acosta la cadira al final, retirant el farciment i la instrucció long pause. Les revisions continuen pendents d’audició.
 
 S023 es publica amb la variació inicial de timbre de la represa acceptada explícitament pel docent. Queda al registre de limitacions acceptades per a una possible revisió futura, sense bloquejar la publicació ni generar noves peticions.
+
+## Validacions i revisions posteriors · 23/11/2026
+
+- **Definitives:** S014, S016, S026, S039, S042, S044, S045 i S048. Materials il·lustrats, revisats independentment i transcripcions netes. S045 retira només simgo-380687 de l’inici; la cadira intermèdia, veu, música i durada es conserven. La resta publica els màsters ja validats.
+- **S035 · 104,61 s:** final retallat 3,49 s. Mig segon després de Laia, pujada de 0,35 s, dos segons sostinguts i fosa de 0,9 s. Veu i ambient iguals fins al punt protegit; paper i introducció intactes. Pendent d’última audició.
+- **S043 · 145,03 s:** sense fregament inicial; paper original 0,45 s abans del final de troballa. Retirat només el silenci digital afegit d’1,05 s i enllaç musical amb fosa creuada de 60 ms. Cap mostra parlada eliminada. Pendent d’última audició.
+- **S047 · 112,83 s:** primer paràgraf sense tren. Inside Old Train entra entre el primer i el segon, amb un segon de presència i atenuació sota el trajecte. A l’arribada, pujada i [cubo 7, de Tururt](https://pixabay.com/sound-effects/film-special-effects-cubo-7-208790/), fragment 1,65–3,55 s sota [Pixabay Content License](https://pixabay.com/service/license-summary/). Pausa total de 2,4 s abans de casa; s’hi afegeixen 1,26 s de silenci, conservant tota la veu. La mostra completa de frens només es guarda localment; el repositori publica el muntatge. Pendent d’última audició.
+- **S029 · 80,39 s:** recuperada la presentació íntegra del cru entre 1,5 i 5,8 s, incloent Notícia de ficció; fora el farciment Molt bé xic… també de la còpia de revisió de veus v2. Cos PCM i MP3 conservats. La primera frase no va ser sintetitzada pel proveïdor; el docent autoritza el primer paràgraf complet per al proper lot de Mar. Primer caldrà comparar el timbre i decidir si s’incorpora tot o només la frase absent. No s’ha enviat cap petició curta ni aplicat una veu nova.
+
+S060, S063, S066, S070, S072, S046D i S069D tenen guió i escaleta validats per a futurs lots. S060 incorpora passadís atenuat; S066 passa a 6è intermèdia, per confirmar amb l’audició. L21 prepara S066/S067, sense enviar-lo. Les futures entrades d’aula seran més suaus i s’alternaran fonts verificades; S026 conserva el màster validat.

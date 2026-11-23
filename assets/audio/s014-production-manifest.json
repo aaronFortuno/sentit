@@ -1,7 +1,7 @@
 {
   "code": "S014",
   "activity": "ca-S014",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s014-classroom-v2.mp3",
   "introFile": "s014-mixed-v1-intro.mp3",
   "bodyFile": "s014-classroom-v2-cos.mp3",
@@ -81,5 +81,19 @@
     "titleTrackUnchanged": true,
     "voiceRetimed": false,
     "newRequests": 0
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S014 validat per publicació definitiva",
+    "audioSha256": "475e05a3be445086651a65e231e257bf6ed17ba662d775740b300a2e21de27c5",
+    "editorialFingerprint": "5577a01842e59c6384d69ec0c6e55d2f6b7bec8da1c617904b1790887d1af180",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/que-passa-dins-duna-llavor-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

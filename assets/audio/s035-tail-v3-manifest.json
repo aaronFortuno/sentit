@@ -1,0 +1,123 @@
+{
+  "code": "S035",
+  "activity": "ca-S035",
+  "state": "awaiting-montage-validation",
+  "file": "s035-tail-v3.mp3",
+  "introFile": "s035-directives-v2-intro.mp3",
+  "bodyFile": "s035-tail-v3-cos.mp3",
+  "offset": 4.44,
+  "bodyDuration": 100.17270833333333,
+  "fullDuration": 104.61270833333333,
+  "voices": {
+    "Mireia": "Aoede",
+    "Laia": "Leda"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "3a86ff8ea619d9fa32f7582a144656f791631478c642722f8e98ef6e5c8a5eb0",
+  "sourceRequestHash": "dd5c2f8d437d8badc54b86d04606388f9779377732870cfa0d185b86e19cc8ed",
+  "batch": "L05",
+  "rawSha256": "b2ca0f5d981a00325ac67d2963f0c278018bf6ef431e1a87219d954159383482",
+  "takeSha256": "e9c5297736c2883b3d3c0e3da18d069a8498c356bb7d282308661df969b8e618",
+  "coverage": 0.9516728624535316,
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.15,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "tallis0410-707510",
+      "start": 0,
+      "source": "assets/audio/sources/tallis0410-707510.mp3",
+      "sourceSha256": "1cceca74ca79bd56764a8482ce0721afa5d2a7612c15ef1160ce2c5b923a45ff",
+      "sourceUrl": "https://freesound.org/people/Tallis0410/sounds/707510/",
+      "author": "Tallis0410",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.2,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -42,
+      "lowPassHz": 1800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "envelope": {
+        "riseStart": 95.9727,
+        "riseEnd": 96.3227,
+        "holdSeconds": 2,
+        "fadeStart": 98.3227,
+        "fadeEnd": 99.2227
+      }
+    },
+    {
+      "name": "beussa-749880",
+      "start": 47.328599999999994,
+      "source": "assets/audio/sources/beussa-749880.mp3",
+      "sourceSha256": "4b38b5c58abb206d5b86b9d5b6a3acde8eea90c288ef194b4a67503fe659b4a9",
+      "sourceUrl": "https://freesound.org/people/Beussa/sounds/749880/",
+      "author": "Beussa",
+      "license": "CC0 1.0",
+      "excerpt": {
+        "start": 0,
+        "seconds": 0.678
+      },
+      "underSpeech": false,
+      "insertedPause": 1.05
+    }
+  ],
+  "sha256": "0ba711c71f5fa39b7c85eac84f1f1c5d8ca639f3087c8c3aa8ea285e6dc76699",
+  "directiveRevision": {
+    "date": "2026-11-23",
+    "baseFile": "s035-mixed-v1.mp3",
+    "baseSha256": "86398c0938ba8be1cbdb7c4b3b769708f9ab3afd4dfdf251d48c20fa36c8cf49",
+    "removed": [
+      "long pause"
+    ],
+    "recognizedAs": [
+      "l'ong",
+      "bous"
+    ],
+    "retainedTitleRange": {
+      "start": 2.58,
+      "end": 6.22
+    },
+    "canonicalTitleRange": {
+      "start": 2.8000000000000114,
+      "end": 5.920000000000002
+    },
+    "initialRemovedSeconds": 2.58,
+    "tailRemovedSeconds": 3.137291666666667,
+    "retainedTitlePcmSha256": "9cf265505d43d68fc21387604fa02a96817f3d2e0b13b6c7e1a1fb1055d31f80",
+    "bodyUnchanged": true,
+    "bodyPcmSha256": "20f58667ec9b0cf72d501f392e64dbc455d404293b3f56922cbfbf0a0328782b",
+    "bodyTrackSha256": "f0f3eb74bb548c230f730f1e62684154f8b333e45f8eefe8e4acdcfd4db72117",
+    "voiceRetimed": false,
+    "newRequests": 0
+  },
+  "uncertainTurns": [],
+  "tailRevision": {
+    "date": "2026-11-23",
+    "source": "tools/finish-s035-tail.cjs",
+    "baseFile": "s035-directives-v2.mp3",
+    "baseSha256": "072519a3f408adb566362dea90e7c27d8afe1ebcd3d2e65e14a40c1b70aed894",
+    "voiceInputSha256": "8918ec9c4b17c53aa524f6507b5da952a236db6a0e3d3421a39c848153c31759",
+    "retainedVoicePcmSha256": "c0611b95bd338fe63ded0434c65724e5c6b0d84eb8a8cb779f55862a1c711da9",
+    "retainedRoomPcmSha256": "0c4fcc3fef87a2ce26bcc52b15fff95f53e3012a2bf12fd952a349ae29884234",
+    "allSpeechSamplesPreserved": true,
+    "speechEndBodySeconds": 95.7227,
+    "waitAfterSpeechSeconds": 0.5,
+    "riseSeconds": 0.35,
+    "holdSeconds": 2,
+    "fadeSeconds": 0.9,
+    "roomGain": {
+      "before": 0.1999998923154624,
+      "raised": 0.6999996231041183
+    },
+    "removedTailMaximumDbFS": -52.35645687338553,
+    "paperInputSha256": "e32f5d6121d6e74bdcdf25f790f566eadd32704385869b60a22cd4e2d22309bf",
+    "paperTimingUnchanged": true,
+    "voiceRetimed": false,
+    "newRequests": 0,
+    "teacherFinalApproval": false
+  }
+}

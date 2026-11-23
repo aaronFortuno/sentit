@@ -1,7 +1,7 @@
 {
   "code": "S026",
   "activity": "ca-S026",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s026-clean-v2.mp3",
   "introFile": "s026-clean-v2-intro.mp3",
   "bodyFile": "s026-clean-v2-cos.mp3",
@@ -93,5 +93,19 @@
     "openingEffectGain": 0.5,
     "newRequests": 0,
     "voiceRetimed": false
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S026 validat per publicació definitiva",
+    "audioSha256": "781bcc5bcdec191eeac21566d1feded42b583b764dda9b012bbb4c957d03bc74",
+    "editorialFingerprint": "ce521dfe093a86a1b1b4c1f5e78a52a3b7ba0bb7546911cb5c1831df46cfab3b",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/revisem-les-caixes-de-jocs-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

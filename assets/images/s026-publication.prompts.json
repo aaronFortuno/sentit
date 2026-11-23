@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "code": "S026",
+  "file": "revisem-les-caixes-de-jocs-v1.webp",
+  "references": [
+    "../characters/mireia-model-sheet-v1.webp",
+    "../characters/biel-model-sheet-v1.webp"
+  ],
+  "prompt": "Use case: illustration-story. A concrete context scene for Sentit printable listening worksheet and catalogue. Landscape3:2,1536x1024. Refined fine ink and soft watercolor on warm white paper; muted sage,charcoal,ochre, airy edges fading to white; clear in grayscale at80mm. Supplied sheets are canonical CHARACTER IDENTITY references, not edit targets. Preserve Mireia, adult teacher around40, warm brown skin, short tightly curled black hair, sage cardigan and cream blouse. Preserve Biel, boy12–14, tousled short brown hair, open charcoal hoodie, cream T-shirt. One specific natural classroom activity: Biel holds a SINGLE CLOSED plain board-game box with both hands at waist height while approaching an empty shared worktable; Mireia beside him clears a small space on the table with a gentle gesture, preparing to work with him. They look at the box and each other, attentive and relaxed. Softly blurred ordinary classroom behind, NO shelves visible. Make the practical action explicit instead of two neutral portraits. The box has a tiny abstract decorative pattern only, absolutely no words, numbers, labels or recognizable game. No open box, contents, missing pieces, lists, notes, cards, spare parts, swapping pieces, lid underside or closing action. No solution to questions about where to get boxes, checking contents, what to do when a piece is missing or how to store them. No lettering, signs, speech bubbles, logo or watermark. Preserve reference identities and Sentit style, not model-sheet layout."
+}

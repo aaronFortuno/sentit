@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "code": "S042",
+  "file": "dos-camins-amb-la-mateixa-mitjana-v1.webp",
+  "references": [
+    "../characters/mireia-model-sheet-v1.webp",
+    "../characters/biel-model-sheet-v1.webp"
+  ],
+  "prompt": "Use case: illustration-story. A single new context illustration for Sentit educational oral-comprehension printable worksheets and catalogue card. Landscape 3:2, 1536 by 1024 pixels. Refined fine ink and soft watercolor on warm white paper; muted sage, charcoal and ochre, airy edges fading into white; legible in grayscale and at 80mm print width. Supplied images are canonical CHARACTER IDENTITY AND STYLE references, not edit targets. Keep Mireia an adult woman about40 with warm brown skin, short tightly curly black hair, sage cardigan over cream blouse and charcoal trousers. Keep Biel a young boy about12–14 with tousled short brown hair, open charcoal hoodie over cream T-shirt. Preserve reference faces, ages, hair and outfits; do not reproduce model sheet layout. Show ONE natural medium-wide classroom scene: Mireia seated beside a desk, Biel standing next to her talking casually, with one closed plain notebook on the desk. They look toward each other, relaxed and attentive; small ordinary gestures. Subtle classroom shelves blurred in the distant background. Only these two prominent people. This is generic classroom context, not a visual solution. Absolutely NO text, numbers, labels, writing, maps, paths, traffic, clocks, stopwatch, calculations, diagrams, boards containing information, speech bubbles, logos or watermark. No prominent chair action. Do not show anything suggesting which path is preferable or who has the stopwatch. An inviting quiet composition with natural proportions, all useful visual content centered."
+}

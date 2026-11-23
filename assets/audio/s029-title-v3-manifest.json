@@ -1,0 +1,112 @@
+{
+  "code": "S029",
+  "activity": "ca-S029",
+  "state": "awaiting-montage-validation",
+  "file": "s029-title-v3.mp3",
+  "introFile": "s029-title-v3-intro.mp3",
+  "bodyFile": "s029-news-common-v2-cos.mp3",
+  "offset": 5.420000000000002,
+  "bodyDuration": 74.96583333333334,
+  "fullDuration": 80.38583333333334,
+  "voices": {
+    "Mar": "Erinome"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "066bad65be44eea99457fda5beb7d9cfa67741627bfc30c1021c64872ce57207",
+  "sourceRequestHash": "236ae133fc4cee095f688b938ab791a42442874a19663173fd26301611e03ad0",
+  "batch": "L10",
+  "rawSha256": "490b279a9670c6bb48737b04668af2d9cf14d0fe56bc165f26dccc2e518beba4",
+  "takeSha256": "8965bab558d63722894ab08f1f5467a11a2e75d3366fc5539b9cb0e055144c2c",
+  "coverage": 0.9204545454545454,
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "voiceRetimed": false,
+  "lufs": -19.4,
+  "peakDbTP": -2.49,
+  "effects": [
+    {
+      "name": "grand-project-breaking-news-505617",
+      "origin": "licensed-music-in-montage",
+      "start": 0,
+      "underSpeech": true,
+      "credit": {
+        "id": "grand-project-breaking-news-505617",
+        "title": "Breaking News Background Music",
+        "author": "Grand_Project",
+        "url": "https://pixabay.com/music/percussion-breaking-news-background-music-505617/",
+        "license": "Pixabay Content License",
+        "licenseUrl": "https://pixabay.com/service/license-summary/",
+        "source": "tools/remount-news-common.cjs",
+        "origin": "licensed-music",
+        "kind": "news-programme",
+        "sourceNotDistributedSeparately": true
+      },
+      "sourceSha256": "32e3e6c978ef1bc5c013c40880ac3ad9714957548f956c1355ad8852c94405ae",
+      "voiceMarginTargetDb": 25,
+      "sidechain": {
+        "threshold": 0.018,
+        "ratio": 6,
+        "attackMs": 12,
+        "releaseMs": 450
+      },
+      "openingSeconds": 3.5,
+      "closingSeconds": 4.5
+    }
+  ],
+  "sha256": "cd63e012df6c143cac5f9e44185dbe2634156c67b353f8d98a1b36c7d52b5080",
+  "montageAuthorization": {
+    "status": "authorized-for-draft-montage",
+    "date": "2026-11-21",
+    "authorization": "El docent demana treballar en les peces amb veus rebudes i muntatge pendent. Es prepara una proposta per audició, sense validar-la definitivament ni sintetitzar res.",
+    "voiceApprovalFingerprint": "7721097a821d76d0a15a5199bb93ea8046b88e2877353211fd49b8ce13f75e23",
+    "jingle": "ona-curta",
+    "jingleAuthority": "Els quatre jingles van quedar aprovats com a recursos pel docent el 20/11. Ona curta ja identifica les notícies a S023.",
+    "finalTeacherApproval": false
+  },
+  "preparation": {
+    "canonicalTitleRange": {
+      "start": 1.2085000000000092,
+      "end": 5.89849999999999
+    },
+    "bodyQuietCuts": [],
+    "rawBodyRetainedUntil": 68.2158,
+    "allRetainedSamplesIdentical": true
+  },
+  "voice": {
+    "bodyLead": 7
+  },
+  "newsRevision": {
+    "date": "2026-11-22",
+    "baseFile": "s029-news-v1.mp3",
+    "baseAudioSha256": "3e0e195ffb6ab56361684a965b9f7e7718a1462f7d3ffab7acabe680e67b674a",
+    "allOldEffectsRemoved": true,
+    "voiceRetimed": false,
+    "titleRange": {
+      "start": 1.4185,
+      "end": 4.425
+    },
+    "bodyPcmSha256": "4f83d81d1f3ece8513b600136d35dfb936ed7a54b0fee73c35d162a2f66216f5",
+    "teacherFinalApproval": false,
+    "newRequests": 0
+  },
+  "newsTitleRevision": {
+    "date": "2026-11-23",
+    "source": "tools/restore-s029-title.cjs",
+    "baseFile": "s029-news-common-v2.mp3",
+    "baseSha256": "bc4a146f94be2d3a5751c221ee9d10daf7080389ecf794f6605498157e0d1055",
+    "retainedTitleRange": {
+      "start": 1.5,
+      "end": 5.8
+    },
+    "retainedTitlePcmSha256": "a65401cd2a14baa90d111de03d7be9c58a1bdf65c757070d662e300dd904bcf3",
+    "restored": "Notícia de ficció",
+    "fillerExcluded": "Molt bé xic…",
+    "bodyPcmSha256": "a39013591ba0a08aa71b9b908a9041172c07e338db4f8f9350281ca59ecdd759",
+    "bodyTrackSha256": "900119edac4e462ffb78065a14cb1155e7147db47e0a0828ae7d54f5fd76b0c9",
+    "bodyUnchanged": true,
+    "missingOpeningSentence": true,
+    "wholeFirstParagraphQueued": true,
+    "newRequests": 0
+  }
+}

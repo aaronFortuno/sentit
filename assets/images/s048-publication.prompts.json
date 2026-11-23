@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "code": "S048",
+  "file": "les-caixes-que-tornen-v1.webp",
+  "references": [
+    "../characters/laia-model-sheet-v1.webp",
+    "../characters/pau-model-sheet-v1.webp"
+  ],
+  "prompt": "Use case: illustration-story. One context illustration for Sentit printable listening-comprehension worksheet and catalogue. Landscape3:2,1536x1024. Fine ink and soft watercolor on warm white paper, restrained sage, charcoal and ochre, natural light, edges fading into white, clear in grayscale at80mm. Both supplied images are canonical CHARACTER IDENTITY AND STYLE references, not edit targets. Preserve Laia: teenage12–14, curly brown messy bun, freckles, tiny hoop earrings, sage sweater. Preserve Pau: adult market seller around45, short receding dark hair, short dark beard, sage polo, plain charcoal apron. Do NOT reproduce the model sheets or their headings. A single natural medium-wide scene in a covered market: Pau stands behind an uncluttered counter, Laia beside the customer side; they greet each other warmly with casual small gestures. A little indistinct fruit farther behind Pau establishes a fruit stall; softly blurred distant stalls and diffuse light. Their faces and upper bodies are the focus. Generic context only: NO boxes, crates, containers, bags, trolley, truck, cracks, packaging, waste bins, signs, labels, numbers, weighing scales, written content, speech bubbles, logos or watermarks. No piles of objects or pointing to a clue. Do not show actions illustrating what to do with a box. Keep the scene airy and inviting, with two characters and no other prominent person."
+}

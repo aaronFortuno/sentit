@@ -2,12 +2,12 @@
   "code": "S029",
   "activity": "ca-S029",
   "state": "awaiting-montage-validation",
-  "file": "s029-news-common-v2.mp3",
-  "introFile": "s029-news-common-v2-intro.mp3",
+  "file": "s029-title-v3.mp3",
+  "introFile": "s029-title-v3-intro.mp3",
   "bodyFile": "s029-news-common-v2-cos.mp3",
-  "offset": 4.1265,
+  "offset": 5.420000000000002,
   "bodyDuration": 74.96583333333334,
-  "fullDuration": 79.09233333333333,
+  "fullDuration": 80.38583333333334,
   "voices": {
     "Mar": "Erinome"
   },
@@ -22,7 +22,7 @@
   "newSynthesisRequests": 0,
   "sharedRequest": true,
   "voiceRetimed": false,
-  "lufs": -19.35,
+  "lufs": -19.4,
   "peakDbTP": -2.49,
   "effects": [
     {
@@ -54,7 +54,7 @@
       "closingSeconds": 4.5
     }
   ],
-  "sha256": "bc4a146f94be2d3a5751c221ee9d10daf7080389ecf794f6605498157e0d1055",
+  "sha256": "cd63e012df6c143cac5f9e44185dbe2634156c67b353f8d98a1b36c7d52b5080",
   "montageAuthorization": {
     "status": "authorized-for-draft-montage",
     "date": "2026-11-21",
@@ -88,6 +88,25 @@
     },
     "bodyPcmSha256": "4f83d81d1f3ece8513b600136d35dfb936ed7a54b0fee73c35d162a2f66216f5",
     "teacherFinalApproval": false,
+    "newRequests": 0
+  },
+  "newsTitleRevision": {
+    "date": "2026-11-23",
+    "source": "tools/restore-s029-title.cjs",
+    "baseFile": "s029-news-common-v2.mp3",
+    "baseSha256": "bc4a146f94be2d3a5751c221ee9d10daf7080389ecf794f6605498157e0d1055",
+    "retainedTitleRange": {
+      "start": 1.5,
+      "end": 5.8
+    },
+    "retainedTitlePcmSha256": "a65401cd2a14baa90d111de03d7be9c58a1bdf65c757070d662e300dd904bcf3",
+    "restored": "Notícia de ficció",
+    "fillerExcluded": "Molt bé xic…",
+    "bodyPcmSha256": "a39013591ba0a08aa71b9b908a9041172c07e338db4f8f9350281ca59ecdd759",
+    "bodyTrackSha256": "900119edac4e462ffb78065a14cb1155e7147db47e0a0828ae7d54f5fd76b0c9",
+    "bodyUnchanged": true,
+    "missingOpeningSentence": true,
+    "wholeFirstParagraphQueued": true,
     "newRequests": 0
   }
 }

@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "code": "S044",
+  "file": "el-recompte-del-programa-v1.webp",
+  "references": [
+    "../characters/laia-model-sheet-v1.webp",
+    "../characters/biel-model-sheet-v1.webp"
+  ],
+  "prompt": "Use case: illustration-story. A single context illustration for Sentit printable oral-comprehension worksheets and catalogue cards. Landscape 3:2, 1536x1024. Fine ink and soft watercolor, warm white paper, muted sage, charcoal and ochre; background fades naturally into white, readable at80mm and in grayscale. Input pictures are canonical CHARACTER IDENTITY references, not edit targets; do not reproduce their model sheet layout or labels. Keep Laia age12–14, curly brown messy bun, freckles, tiny hoop earrings, sage sweater. Keep Biel age12–14, tousled short brown hair, charcoal open hoodie over cream T-shirt. One medium-wide scene: Laia and Biel sitting together at a plain desk in their small school radio room, exchanging a friendly thoughtful glance. An unmarked closed laptop on the far edge of desk, only the blank outside of its lid visible; no screen. Light subtle radio-room background. Hands resting naturally. Context only, not story resolution: absolutely no visible microphone, recording controls, text, letters, numerals, charts, statistics, notes, comments, audience, headphones on heads, speech bubbles, logos or watermark. Do not show either person crossing out writing or reading a message; do not indicate whether anything has already been recorded. No third person. Preserve reference faces, ages, clothes and style exactly. Airy calm composition centered for cropping."
+}

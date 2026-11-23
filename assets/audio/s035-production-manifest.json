@@ -2,12 +2,12 @@
   "code": "S035",
   "activity": "ca-S035",
   "state": "awaiting-montage-validation",
-  "file": "s035-directives-v2.mp3",
+  "file": "s035-tail-v3.mp3",
   "introFile": "s035-directives-v2-intro.mp3",
-  "bodyFile": "s035-mixed-v1-cos.mp3",
+  "bodyFile": "s035-tail-v3-cos.mp3",
   "offset": 4.44,
-  "bodyDuration": 103.66270833333333,
-  "fullDuration": 108.10270833333333,
+  "bodyDuration": 100.17270833333333,
+  "fullDuration": 104.61270833333333,
   "voices": {
     "Mireia": "Aoede",
     "Laia": "Leda"
@@ -22,7 +22,7 @@
   "coverage": 0.9516728624535316,
   "newSynthesisRequests": 0,
   "sharedRequest": true,
-  "lufs": -19.21,
+  "lufs": -19.15,
   "peakDbTP": -2.5,
   "voiceRetimed": false,
   "effects": [
@@ -40,7 +40,14 @@
       "speechNominalLufs": -42,
       "lowPassHz": 1800,
       "passes": 3,
-      "crossfadeSeconds": 1
+      "crossfadeSeconds": 1,
+      "envelope": {
+        "riseStart": 95.9727,
+        "riseEnd": 96.3227,
+        "holdSeconds": 2,
+        "fadeStart": 98.3227,
+        "fadeEnd": 99.2227
+      }
     },
     {
       "name": "beussa-749880",
@@ -58,7 +65,7 @@
       "insertedPause": 1.05
     }
   ],
-  "sha256": "072519a3f408adb566362dea90e7c27d8afe1ebcd3d2e65e14a40c1b70aed894",
+  "sha256": "0ba711c71f5fa39b7c85eac84f1f1c5d8ca639f3087c8c3aa8ea285e6dc76699",
   "directiveRevision": {
     "date": "2026-11-23",
     "baseFile": "s035-mixed-v1.mp3",
@@ -87,5 +94,30 @@
     "voiceRetimed": false,
     "newRequests": 0
   },
-  "uncertainTurns": []
+  "uncertainTurns": [],
+  "tailRevision": {
+    "date": "2026-11-23",
+    "source": "tools/finish-s035-tail.cjs",
+    "baseFile": "s035-directives-v2.mp3",
+    "baseSha256": "072519a3f408adb566362dea90e7c27d8afe1ebcd3d2e65e14a40c1b70aed894",
+    "voiceInputSha256": "8918ec9c4b17c53aa524f6507b5da952a236db6a0e3d3421a39c848153c31759",
+    "retainedVoicePcmSha256": "c0611b95bd338fe63ded0434c65724e5c6b0d84eb8a8cb779f55862a1c711da9",
+    "retainedRoomPcmSha256": "0c4fcc3fef87a2ce26bcc52b15fff95f53e3012a2bf12fd952a349ae29884234",
+    "allSpeechSamplesPreserved": true,
+    "speechEndBodySeconds": 95.7227,
+    "waitAfterSpeechSeconds": 0.5,
+    "riseSeconds": 0.35,
+    "holdSeconds": 2,
+    "fadeSeconds": 0.9,
+    "roomGain": {
+      "before": 0.1999998923154624,
+      "raised": 0.6999996231041183
+    },
+    "removedTailMaximumDbFS": -52.35645687338553,
+    "paperInputSha256": "e32f5d6121d6e74bdcdf25f790f566eadd32704385869b60a22cd4e2d22309bf",
+    "paperTimingUnchanged": true,
+    "voiceRetimed": false,
+    "newRequests": 0,
+    "teacherFinalApproval": false
+  }
 }

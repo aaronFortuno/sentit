@@ -2,7 +2,7 @@
   "code": "S016",
   "activity": "ca-S016",
   "date": "2026-11-20T09:37:09.238Z",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "model": "gemini-3.8-flash-tts",
   "voices": {
     "Mar": "Erinome"
@@ -137,5 +137,19 @@
     "voiceRetimed": false,
     "pitchShifted": false,
     "newRequests": 0
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S016 validat per publicació definitiva",
+    "audioSha256": "baf57c1d634be91d9d38759ad236eaec60ed7ef1e74ff8dd2fc425ec6778b508",
+    "editorialFingerprint": "b6a8cf3a7a6eba437ecdcf784f532f4b389fd376079f228702658fb0bc005f29",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/una-troballa-al-jaciment-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

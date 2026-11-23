@@ -7,6 +7,7 @@ Actualitzat: **23/11/2026**. Aquest document mostra només la feina pendent d’
 | Lot | Material pendent | Veus | Previsió orientativa | Què falta |
 | --- | --- | --- | ---: | --- |
 | L04 | S005: Aquest matí, per exemple, he apartat un sobre per revisar-lo abans de sortir.; S015: Per això es controla la il·luminació i també les condicions de temperatura i humitat. | Vindemiatrix + Kore | 0:22 | Completar amb material del mateix repartiment; S015: conciliar el registre editorial històric abans de preparar l’esmena |
+| L21 | S066; S067 | Aoede + Puck | 6:12 | Entrada verificada · pendent d’enviament |
 
 ## Veus rebudes · per escoltar abans del muntatge
 
@@ -38,10 +39,9 @@ Ordenades pel nombre de guions que falta validar. Són candidats de mida compati
 
 | Prioritat | Guions que falten | Lot complet resultant | Text pla estimat |
 | --- | --- | --- | ---: |
-| P09 | [ca-S066](https://sentit.ortogra.fi/#lectura=ca-S066) | [ca-S066](https://sentit.ortogra.fi/#lectura=ca-S066), [ca-S067](https://sentit.ortogra.fi/#lectura=ca-S067) | 6:12 |
+| P16 | [ca-S045D](https://sentit.ortogra.fi/#lectura=ca-S045D) | [ca-S045D](https://sentit.ortogra.fi/#lectura=ca-S045D), [ca-S046D](https://sentit.ortogra.fi/#lectura=ca-S046D), [ca-S069D](https://sentit.ortogra.fi/#lectura=ca-S069D) | 6:50 |
 | P04 | [ca-S053](https://sentit.ortogra.fi/#lectura=ca-S053), [ca-S054](https://sentit.ortogra.fi/#lectura=ca-S054) | [ca-S053](https://sentit.ortogra.fi/#lectura=ca-S053), [ca-S054](https://sentit.ortogra.fi/#lectura=ca-S054), [ca-S057](https://sentit.ortogra.fi/#lectura=ca-S057) | 6:47 |
-| P10 | [ca-S068](https://sentit.ortogra.fi/#lectura=ca-S068), [ca-S070](https://sentit.ortogra.fi/#lectura=ca-S070), [ca-S071](https://sentit.ortogra.fi/#lectura=ca-S071) | [ca-S068](https://sentit.ortogra.fi/#lectura=ca-S068), [ca-S070](https://sentit.ortogra.fi/#lectura=ca-S070), [ca-S071](https://sentit.ortogra.fi/#lectura=ca-S071) | 6:56 |
-| P16 | [ca-S045D](https://sentit.ortogra.fi/#lectura=ca-S045D), [ca-S046D](https://sentit.ortogra.fi/#lectura=ca-S046D), [ca-S069D](https://sentit.ortogra.fi/#lectura=ca-S069D) | [ca-S045D](https://sentit.ortogra.fi/#lectura=ca-S045D), [ca-S046D](https://sentit.ortogra.fi/#lectura=ca-S046D), [ca-S069D](https://sentit.ortogra.fi/#lectura=ca-S069D) | 6:50 |
+| P10 | [ca-S068](https://sentit.ortogra.fi/#lectura=ca-S068), [ca-S071](https://sentit.ortogra.fi/#lectura=ca-S071) | [ca-S068](https://sentit.ortogra.fi/#lectura=ca-S068), [ca-S070](https://sentit.ortogra.fi/#lectura=ca-S070), [ca-S071](https://sentit.ortogra.fi/#lectura=ca-S071) | 6:56 |
 
 ## Agrupacions candidates · validació i preparació pendents
 
@@ -51,14 +51,13 @@ La previsió utilitza el text pla real, amb els títols i sense marques literals
 | --- | --- | --- | ---: | --- | ---: | --- |
 | [P04](lot-cicle-superior.md#mar) | Mar · Erinome | [ca-S053](https://sentit.ortogra.fi/#lectura=ca-S053), [ca-S054](https://sentit.ortogra.fi/#lectura=ca-S054), [ca-S057](https://sentit.ortogra.fi/#lectura=ca-S057) | 6:47 | Dins la finestra prevista | 1/3 | [ca-S053](https://sentit.ortogra.fi/#lectura=ca-S053), [ca-S054](https://sentit.ortogra.fi/#lectura=ca-S054) |
 | [P05](lot-cicle-superior.md#mar) | Mar · Erinome | [ca-S055](https://sentit.ortogra.fi/#lectura=ca-S055), [ca-S056](https://sentit.ortogra.fi/#lectura=ca-S056) | 4:43 | Per completar | 0/2 | [ca-S055](https://sentit.ortogra.fi/#lectura=ca-S055), [ca-S056](https://sentit.ortogra.fi/#lectura=ca-S056) |
-| [P07](lot-cicle-superior.md#laia-biel) | Laia i Biel · Leda + Puck | [ca-S059](https://sentit.ortogra.fi/#lectura=ca-S059), [ca-S060](https://sentit.ortogra.fi/#lectura=ca-S060) | 3:39 | Per completar | 0/2 | [ca-S059](https://sentit.ortogra.fi/#lectura=ca-S059), [ca-S060](https://sentit.ortogra.fi/#lectura=ca-S060) |
-| [P08](lot-cicle-superior.md#mireia-biel) | Mireia i Biel · Aoede + Puck | [ca-S063](https://sentit.ortogra.fi/#lectura=ca-S063), [ca-S064](https://sentit.ortogra.fi/#lectura=ca-S064), [ca-S065](https://sentit.ortogra.fi/#lectura=ca-S065) | 5:57 | Per completar | 0/3 | [ca-S063](https://sentit.ortogra.fi/#lectura=ca-S063), [ca-S064](https://sentit.ortogra.fi/#lectura=ca-S064), [ca-S065](https://sentit.ortogra.fi/#lectura=ca-S065) |
-| [P09](lot-cicle-superior.md#mireia-biel) | Mireia i Biel · Aoede + Puck | [ca-S066](https://sentit.ortogra.fi/#lectura=ca-S066), [ca-S067](https://sentit.ortogra.fi/#lectura=ca-S067) | 6:12 | Dins la finestra prevista | 1/2 | [ca-S066](https://sentit.ortogra.fi/#lectura=ca-S066) |
-| [P10](lot-cicle-superior.md#ferran) | Ferran · Algenib | [ca-S068](https://sentit.ortogra.fi/#lectura=ca-S068), [ca-S070](https://sentit.ortogra.fi/#lectura=ca-S070), [ca-S071](https://sentit.ortogra.fi/#lectura=ca-S071) | 6:56 | Dins la finestra prevista | 0/3 | [ca-S068](https://sentit.ortogra.fi/#lectura=ca-S068), [ca-S070](https://sentit.ortogra.fi/#lectura=ca-S070), [ca-S071](https://sentit.ortogra.fi/#lectura=ca-S071) |
-| [P11](lot-cicle-superior.md#ferran) | Ferran · Algenib | [ca-S072](https://sentit.ortogra.fi/#lectura=ca-S072) | 3:09 | Per completar | 0/1 | [ca-S072](https://sentit.ortogra.fi/#lectura=ca-S072) |
+| [P07](lot-cicle-superior.md#laia-biel) | Laia i Biel · Leda + Puck | [ca-S059](https://sentit.ortogra.fi/#lectura=ca-S059), [ca-S060](https://sentit.ortogra.fi/#lectura=ca-S060) | 3:39 | Per completar | 1/2 | [ca-S059](https://sentit.ortogra.fi/#lectura=ca-S059) |
+| [P08](lot-cicle-superior.md#mireia-biel) | Mireia i Biel · Aoede + Puck | [ca-S063](https://sentit.ortogra.fi/#lectura=ca-S063), [ca-S064](https://sentit.ortogra.fi/#lectura=ca-S064), [ca-S065](https://sentit.ortogra.fi/#lectura=ca-S065) | 5:57 | Per completar | 1/3 | [ca-S064](https://sentit.ortogra.fi/#lectura=ca-S064), [ca-S065](https://sentit.ortogra.fi/#lectura=ca-S065) |
+| [P10](lot-cicle-superior.md#ferran) | Ferran · Algenib | [ca-S068](https://sentit.ortogra.fi/#lectura=ca-S068), [ca-S070](https://sentit.ortogra.fi/#lectura=ca-S070), [ca-S071](https://sentit.ortogra.fi/#lectura=ca-S071) | 6:56 | Dins la finestra prevista | 1/3 | [ca-S068](https://sentit.ortogra.fi/#lectura=ca-S068), [ca-S071](https://sentit.ortogra.fi/#lectura=ca-S071) |
+| [P11](lot-cicle-superior.md#ferran) | Ferran · Algenib | [ca-S072](https://sentit.ortogra.fi/#lectura=ca-S072) | 3:09 | Per completar | 1/1 | Cap |
 | [P13](lot-cicle-superior.md#laia-ona) | Laia i Ona · Leda + Sulafat | [ca-S074](https://sentit.ortogra.fi/#lectura=ca-S074), [ca-S076](https://sentit.ortogra.fi/#lectura=ca-S076) | 5:08 | Per completar | 2/2 | Cap |
 | [P14](lot-cicle-superior.md#biel-elies) | Biel i Elies · Puck + Algieba | [ca-S078](https://sentit.ortogra.fi/#lectura=ca-S078), [ca-S079](https://sentit.ortogra.fi/#lectura=ca-S079), [ca-S080](https://sentit.ortogra.fi/#lectura=ca-S080) | 5:58 | Per completar | 2/3 | [ca-S080](https://sentit.ortogra.fi/#lectura=ca-S080) |
-| P16 | Aina i Ferran · Zephyr + Algenib | [ca-S045D](https://sentit.ortogra.fi/#lectura=ca-S045D), [ca-S046D](https://sentit.ortogra.fi/#lectura=ca-S046D), [ca-S069D](https://sentit.ortogra.fi/#lectura=ca-S069D) | 6:50 | Dins la finestra prevista | 0/3 | [ca-S045D](https://sentit.ortogra.fi/#lectura=ca-S045D), [ca-S046D](https://sentit.ortogra.fi/#lectura=ca-S046D), [ca-S069D](https://sentit.ortogra.fi/#lectura=ca-S069D) |
+| P16 | Aina i Ferran · Zephyr + Algenib | [ca-S045D](https://sentit.ortogra.fi/#lectura=ca-S045D), [ca-S046D](https://sentit.ortogra.fi/#lectura=ca-S046D), [ca-S069D](https://sentit.ortogra.fi/#lectura=ca-S069D) | 6:50 | Dins la finestra prevista | 2/3 | [ca-S045D](https://sentit.ortogra.fi/#lectura=ca-S045D) |
 
 P02 reuneix quatre lectures breus del mateix repartiment per conservar els guions de 3r curts i senzills. Els grups nous de 5è–6è es poden validar per repartiments sencers i es proposen en lots de dues o tres comprensions completes. Les previsions utilitzen el text pla i encara s’han de verificar amb l’entrada definitiva; la validació dels guions no garanteix que la mida final del lot sigui admissible. Les preses ja rebudes s’exclouen d’aquesta taula. [Tanda de 3r–4t](lot-cicle-mitja.md) · [Tanda de 5è–6è per repartiment](lot-cicle-superior.md) · [Composició proposada](../content/synthesis-proposals.json).
 
@@ -82,6 +81,7 @@ P02 reuneix quatre lectures breus del mateix repartiment per conservar els guion
 | [ca-S017](https://sentit.ortogra.fi/#lectura=ca-S017) | Mireia · Aoede | coordinacio + retorn |
 | [ca-S022](https://sentit.ortogra.fi/#lectura=ca-S022) | Ferran · Algenib | Dues proves TTS: «raíls» i «raïls»; text editorial intacte |
 | [ca-S024](https://sentit.ortogra.fi/#lectura=ca-S024) | Biel · undefined | dubtes |
+| [ca-S029](https://sentit.ortogra.fi/#lectura=ca-S029) | Mar · Erinome | Paràgraf anunci sencer; comparar el timbre abans de triar entre substituir la primera frase o el paràgraf complet |
 
 Esperen un lot compatible de sis a vuit minuts. Les proves auxiliars de S022 es poden comprovar localment amb `node tools/pronunciation-trials.cjs --only=S022`; aquest comandament no envia cap petició.
 

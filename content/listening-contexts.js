@@ -31,7 +31,7 @@ export const listeningContexts = {
   'ca-S026': 'Avui la classe de la Mireia prepara un racó de jocs. Hi ha capses al prestatge i cada parella n’ha de triar una. En Biel ja té ganes de començar: escolta què pregunta i què li respon la mestra.',
   'ca-S027': 'L’avi Ferran ensenya a l’Aina una safata que havia estat de la seva mare. Aquell objecte li fa venir al cap un berenar familiar al terrat. Escolta què recorda d’aquell dia i de la gent que hi va anar.',
   'ca-S028': 'La Laia arriba al mercat ben d’hora. En Pau encara està preparant la parada i té feina abans que comencin a arribar els clients. Escolta la conversa mentre l’acompanya durant aquests primers moments del matí.',
-  'ca-S029': 'La Mar anuncia una sessió de cinema al barri. Aquesta vegada la pantalla i les cadires han de sortir a la plaça. Imagina’t que t’agradaria anar-hi i escolta què explica sobre aquesta proposta.',
+  'ca-S029': 'La Mar explica una proposta per veure una pel·lícula al barri. Imagina’t que t’agradaria anar-hi i escolta quines indicacions dona per preparar la visita.',
   'ca-S030': 'En Biel i la Laia han acabat un cartell per anunciar el seu programa. Ara el pengen i el miren al lloc on passarà la gent. Escolta què es diuen mentre comproven com ha quedat.',
   'ca-S031': 'Al centre cívic hi ha una bústia nova. La Mar n’ha preparat un avís al seu espai de notícies. Imagina’t que hi passes sovint i escolta què explica sobre aquella novetat.',
   'ca-S032': 'La classe de la Mireia prepara un recorregut de pistes perquè el faci un altre grup. La Laia ja té una primera idea per escriure. Escolta la conversa i imagina’t que ets a l’aula mentre ho preparen.',

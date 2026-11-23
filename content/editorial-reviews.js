@@ -91,20 +91,14 @@ export const editorialReviews = {
   "ca-S014": {
     "status": "passed",
     "reviewedAt": "2026-11-23",
-    "reviewer": "revisio_contextos_previs",
-    "fingerprint": "647091c41551fa78785d89c14ecdf854fa9c135d85244613272ba1aee5487d37",
-    "metadataReview": {
-      "scope": "Ambient continu d’aula; retirats efectes inicials, respiracions i tons finals. Full i veus conservats. Pendent audició."
-    }
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "5577a01842e59c6384d69ec0c6e55d2f6b7bec8da1c617904b1790887d1af180"
   },
   "ca-S016": {
     "status": "passed",
-    "reviewedAt": "2026-11-22",
-    "reviewer": "revisio_contextos_previs",
-    "fingerprint": "d998b702f5638edf71b3bfe620930f9ee44abd02c59164b8242f75b105c46f4d",
-    "metadataReview": {
-      "scope": "Anotacions de muntatge real substitueixen les acotacions antigues; text i preguntes intactes, sense aprovació perceptiva."
-    }
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "b6a8cf3a7a6eba437ecdcf784f532f4b389fd376079f228702658fb0bc005f29"
   },
   "ca-S017": {
     "status": "passed",
@@ -168,9 +162,9 @@ export const editorialReviews = {
   },
   "ca-S026": {
     "status": "passed",
-    "reviewedAt": "2026-11-21",
-    "reviewer": "independent-coherence-agent",
-    "fingerprint": "cf11d87e14bd9d3686135ec4f159d00ab2631ffe89687ef0c08729bc8cb51a03"
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "ce521dfe093a86a1b1b4c1f5e78a52a3b7ba0bb7546911cb5c1831df46cfab3b"
   },
   "ca-S027": {
     "status": "passed",
@@ -186,12 +180,9 @@ export const editorialReviews = {
   },
   "ca-S029": {
     "status": "passed",
-    "reviewedAt": "2026-11-22",
-    "reviewer": "revisio_contextos_previs",
-    "fingerprint": "eb65b562fb2c3b738b693fa41397b8a0dc6e8c4f8134d41ffc48f6434c8ac603",
-    "metadataReview": {
-      "scope": "Anotacions de muntatge real substitueixen les acotacions antigues; text i preguntes intactes, sense aprovació perceptiva."
-    }
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "6f7493606dae6bf3216e733471825b45c28cb5573765963d09436e068faffd14"
   },
   "ca-S030": {
     "status": "passed",
@@ -234,9 +225,9 @@ export const editorialReviews = {
   },
   "ca-S035": {
     "status": "passed",
-    "reviewedAt": "2026-11-21",
-    "reviewer": "independent-classroom-register-review",
-    "fingerprint": "b4fa4a104b6161791a96448431dd14a198f020ac8f3592272436cd804da7ac76"
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "1283f883c3d9682a422a8f511a66a0c746f00b07f3c4be40495b91ce046efc28"
   },
   "ca-S036": {
     "status": "passed",
@@ -264,12 +255,9 @@ export const editorialReviews = {
   },
   "ca-S039": {
     "status": "passed",
-    "reviewedAt": "2026-11-22",
-    "reviewer": "revisio_contextos_previs",
-    "fingerprint": "3f247f2be02ee158c2446438e9584153850f77194661c33118452d9fd21739dc",
-    "metadataReview": {
-      "scope": "Anotacions de muntatge real substitueixen les acotacions antigues; text i preguntes intactes, sense aprovació perceptiva."
-    }
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "3544383b47d621fdfac4c03a6406994def23680789d2e8dc8a4d6fdb75dd78b6"
   },
   "ca-S040": {
     "status": "passed",
@@ -286,32 +274,26 @@ export const editorialReviews = {
   "ca-S042": {
     "status": "passed",
     "reviewedAt": "2026-11-23",
-    "reviewer": "revisio_contextos_previs",
-    "fingerprint": "0cc7f3ec119a0be1a626c1b287e2b60ca6ac41458188bd81a3c01ee81f8885e1",
-    "metadataReview": {
-      "scope": "Inici net, paper conservat i cadira al final sense espera, sense canviar paraules. Pendent audició."
-    }
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "bf27ec79e8071b72b5595898d97abfd912a1dd89a23f8659ee14b297da6a2696"
   },
   "ca-S043": {
     "status": "passed",
-    "reviewedAt": "2026-11-21",
-    "reviewer": "independent-global-register-review",
-    "fingerprint": "b0a2b65180359b18dd9a1fdaf779f0ab79036daf7a4c293fd8b8814a4c1596b9"
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "9d3f1b23ad224d41565120b63f332e87a900a75e6670d47518529318675b63c3"
   },
   "ca-S044": {
     "status": "passed",
-    "reviewedAt": "2026-11-22",
-    "reviewer": "revisio_contextos_previs",
-    "fingerprint": "cc6b5ab7142aad507fe918c58e9cb6edfed125867cfd3498ab559d13266efe8c",
-    "metadataReview": {
-      "scope": "Indicacions de passadís esmorteït i retirada dels efectes; veus i preguntes intactes. Sense aprovació perceptiva."
-    }
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "75fa5af73c82c6d2644013f31e6f2372e79bcea57cbb6fdc5004a85248376ea4"
   },
   "ca-S045": {
     "status": "passed",
-    "reviewedAt": "2026-11-22",
-    "reviewer": "revisio_contextos_previs",
-    "fingerprint": "3d98db6a2f8355d4a34b79c00c88d556fea012be6d4acbcc420877c0b16313b8"
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "9c2f38c179fcb9f624fd924f847ecd44c4dc18bc2cf934425d6a84062c7fa10e"
   },
   "ca-S045D": {
     "status": "passed",
@@ -334,20 +316,14 @@ export const editorialReviews = {
   "ca-S047": {
     "status": "passed",
     "reviewedAt": "2026-11-23",
-    "reviewer": "revisio_contextos_previs",
-    "fingerprint": "50d8b32bb52c557c0997b89977cc1ab5b9b8540c5d5b71f28a3a81770cbaafab",
-    "metadataReview": {
-      "scope": "Tren rítmic continu fins al final del trajecte i fosa abans de tieta; música, veu i preguntes conservades. Pendent audició."
-    }
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "d81ed707fb8aca95c85f6567748b4126a213c3063d261e8369e905c9560fd89b"
   },
   "ca-S048": {
     "status": "passed",
-    "reviewedAt": "2026-11-22",
-    "reviewer": "revisio_contextos_previs",
-    "fingerprint": "2b675b1e99ea423b75aee675f7104379ae8ca1deba3d641334b6ff56992cddd0",
-    "metadataReview": {
-      "scope": "Muntatge continu de mercat segons retorn docent; cos i sis preguntes intactes, pendent d’audició final."
-    }
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "9226852d79a6352b1ac4d193aa8836304e4bd64d67487754c8fabd7753b21eb2"
   },
   "ca-S049": {
     "status": "passed",
@@ -420,9 +396,9 @@ export const editorialReviews = {
   },
   "ca-S060": {
     "status": "passed",
-    "reviewedAt": "2026-11-22",
-    "reviewer": "autoria_tanda4_aula_records",
-    "fingerprint": "50ec61443b798592bcb0af1667f8039ff9aef3ea2f2cd3a9568a044de03c50c5"
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "93c4356933cf3407225b79f23a9b40ac40d78185ac177c5dd6a77c3c1c6bfccb"
   },
   "ca-S061": {
     "status": "passed",
@@ -456,9 +432,9 @@ export const editorialReviews = {
   },
   "ca-S066": {
     "status": "passed",
-    "reviewedAt": "2026-11-22",
-    "reviewer": "autoria_tanda4_cuina_taller",
-    "fingerprint": "29f372cc83b842e8e6f0930c12dde870804a1b621b98081b4a01e42801796310"
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "b340317d0536905532bacf8686825b0703b1b98785aee9ab5c28342c072eda34"
   },
   "ca-S067": {
     "status": "passed",

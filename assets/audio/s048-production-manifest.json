@@ -1,7 +1,7 @@
 {
   "code": "S048",
   "activity": "ca-S048",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s048-mixed-v1.mp3",
   "introFile": "s048-mixed-v1-intro.mp3",
   "bodyFile": "s048-mixed-v1-cos.mp3",
@@ -73,5 +73,19 @@
     "approvedAt": "2026-11-22",
     "sourceTakeSha256": "c17478028311d1f2d60031d47002e793f6a7c8164f6d8fd4f8d21d69ea34c228",
     "confirmation": "S048 validat per muntatge, tot molt bé, fons continu de mercat."
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S048 validat per publicació definitiva",
+    "audioSha256": "1f48c06f07f83c7d3392c1a4bb84ac56e2ccee18acffed5b8cd3069264624444",
+    "editorialFingerprint": "9226852d79a6352b1ac4d193aa8836304e4bd64d67487754c8fabd7753b21eb2",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/les-caixes-que-tornen-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

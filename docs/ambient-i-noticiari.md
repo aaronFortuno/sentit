@@ -9,6 +9,8 @@ Criteri docent del **22/11/2026** per als propers muntatges i revisions. Les veu
 - **Restaurant de l’Ona:** ambient continu real de cuina per a escenes de fogons; ambient de sala de restaurant o bar per a converses de barra i servei. A S075 es prepararà la segona opció, molt baixa sota Laia i Ona. Conservar la continuïtat del lloc sense sobrecarregar-lo de safates, papers ni accions puntuals.
 - **S062:** el docent confirma ambient continu de jovent, d’aula o espai semblant, sota Laia i Biel. Aquest retorn substitueix la indicació anterior de retirar el passadís abans de les veus. Curs i dificultat continuen pendents de confirmar després del muntatge.
 - Papers, safates, cadires i altres accions només quan s’entenguin i aportin alguna cosa. Valorar-les simultànies a una frase; no introduir silencis llargs per donar-los un torn propi. Si no ajuden, ometre-les.
+- **Retorn del 23/11 sobre S026:** als futurs muntatges d’aula, entrada d’ambient més suau i dos o tres enregistraments alternatius verificats per evitar repetir sempre el mateix fons. S026 es publica amb l’àudio validat; no es remunta per aquest criteri futur.
+- **Girs de paper en línia:** en narracions i notícies on el gest encaixi, fer-lo començar sobre les últimes paraules del paràgraf anterior, sense afegir una pausa exclusiva. Mantenir les consonants entenedores i conservar les pauses naturals. A les notícies de la Mar es manté l’acord de base comuna sense papers; no se n’hi afegeixen pel canvi de criteri. S043 és la revisió de referència.
 
 ## Les notícies de la Mar
 

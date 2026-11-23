@@ -1,10 +1,10 @@
 {
   "code": "S045",
   "activity": "ca-S045",
-  "state": "awaiting-montage-validation",
-  "file": "s045-mixed-v1.mp3",
+  "state": "published",
+  "file": "s045-no-opening-v2.mp3",
   "introFile": "s045-mixed-v1-intro.mp3",
-  "bodyFile": "s045-mixed-v1-cos.mp3",
+  "bodyFile": "s045-no-opening-v2-cos.mp3",
   "offset": 3.9699999999999998,
   "bodyDuration": 95.675,
   "fullDuration": 99.645,
@@ -22,7 +22,7 @@
   "uncertainTurns": [],
   "newSynthesisRequests": 0,
   "sharedRequest": true,
-  "lufs": -19.09,
+  "lufs": -19.17,
   "peakDbTP": -2.5,
   "voiceRetimed": false,
   "effects": [
@@ -59,20 +59,6 @@
       "underSpeech": true
     },
     {
-      "name": "simgo-380687",
-      "start": 0,
-      "source": "assets/audio/sources/simgo-380687.mp3",
-      "sourceSha256": "134e8b4da1abd5849321f37d33192cf641b822d649803e1002b8568198fbfc91",
-      "sourceUrl": "https://freesound.org/people/simgo/sounds/380687/",
-      "author": "simgo",
-      "license": "CC0 1.0",
-      "excerpt": {
-        "start": 12,
-        "seconds": 1.4
-      },
-      "underSpeech": false
-    },
-    {
       "name": "funkysandwich-871017",
       "start": 60.859991666666666,
       "source": "assets/audio/sources/funkysandwich-871017.mp3",
@@ -89,7 +75,7 @@
       "sourceTargetLufs": -36
     }
   ],
-  "sha256": "3226874f0b1d60cda05edea234fd6c05716d3e49bf1a8e78f2879e282d7511fe",
+  "sha256": "ba3411eafb7d242c7979eb87e06b7a44500ad160433fc81c685d2d458b95c4ec",
   "voiceHandles": {
     "body": {
       "start": 0.9122083333333333,
@@ -111,5 +97,35 @@
     "approvedAt": "2026-11-22",
     "sourceTakeSha256": "b719993201db3333152ee5743152082a1634adeac5dfa2bb578c117988fbf353",
     "confirmation": "S045 també directe a muntatge, molt bé tot, fins i tot el moment natural en què empassa saliva."
+  },
+  "openingRevision": {
+    "date": "2026-11-23",
+    "source": "tools/remove-s045-opening.cjs",
+    "baseFile": "s045-mixed-v1.mp3",
+    "baseSha256": "3226874f0b1d60cda05edea234fd6c05716d3e49bf1a8e78f2879e282d7511fe",
+    "removed": "simgo-380687",
+    "voiceInputSha256": "627ff3b6b4fa758db497d0a80fbc69c1e25e2ab11d39444d7d599ffed1e059d8",
+    "musicInputSha256": "27d0bd55f03e40a8e1a87c1689230beef77eeb1cd128a11d5a89b34ad907bb65",
+    "middleChairInputSha256": "ff9af2607f26b958903d2b72b9986bdc40f3b09b4d0e689066eb0922ebd5199b",
+    "sameVoiceAndMusicInputs": true,
+    "middleChairUnchanged": true,
+    "timingUnchanged": true,
+    "voiceRetimed": false,
+    "newRequests": 0,
+    "teacherPublicationAuthorized": true
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S045 resta del muntatge validada per publicació definitiva després de retirar només el so inicial, sense nova revisió docent",
+    "audioSha256": "ba3411eafb7d242c7979eb87e06b7a44500ad160433fc81c685d2d458b95c4ec",
+    "editorialFingerprint": "9c2f38c179fcb9f624fd924f847ecd44c4dc18bc2cf934425d6a84062c7fa10e",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/les-cadires-del-cinema-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": true
   }
 }

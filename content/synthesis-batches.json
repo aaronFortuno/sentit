@@ -609,6 +609,30 @@
       "approvedRequestHash": "a07c5841452fb9f7fc87fa5889bc4cc31ab97780eeaeb6a8c2d38b1b655af0e0",
       "receipt": "assets/audio/synthesis-batches/l20.json",
       "completedAt": "2026-11-23T07:57:54.800Z"
+    },
+    {
+      "id": "L21",
+      "state": "authorized",
+      "speechTextFormat": "plain-v1",
+      "execution": "background-v1",
+      "sourceProposal": "P09",
+      "blocks": [
+        {
+          "code": "S066",
+          "take": "S066-T01",
+          "sourceRequestHash": "797f0ee5d962326fa5f80fbbaa229e8b185ea50a6c9cfbad1063e53e487052be"
+        },
+        {
+          "code": "S067",
+          "take": "S067-T01",
+          "sourceRequestHash": "a53c3671b943c82dd4bdbc6816a4ee06d64ad09c4cd674c73d6af4c73288d9e0"
+        }
+      ],
+      "authorization": "Guions S066 i S067, repartiment Mireia/Aoede i Biel/Puck i escaletes validats explícitament pel docent. S066 requalificada a 6è intermèdia. Preparació local d’un lot complet de text pla; cap petició de síntesi en aquesta iteració.",
+      "approvedAt": "2026-11-23T09:55:00.855Z",
+      "approvedRequestHash": "a8c5196dba3b7699202dbef8681a9fefe519de2d560579efeb91b7f4d561197b",
+      "estimatedSeconds": 372,
+      "estimatedInputTokens": 4753
     }
   ],
   "calibration": {

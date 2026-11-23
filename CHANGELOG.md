@@ -1,5 +1,14 @@
 # Canvis
 
+## 0.1.82 · 23 de novembre de 2026
+
+- Publicació definitiva de S014, S016, S026, S039, S042, S044, S045 i S048, amb il·lustracions pròpies basades en els models, revisió independent i transcripcions netes. S045 retira només l’efecte inicial, amb publicació directa autoritzada; veu, música, cadira intermèdia i durada conservades.
+- S043: retirat el fregament inicial i avançat el full sobre les últimes paraules; eliminat només el silenci afegit d’1,05 s. S035: final més curt, amb mig segon d’espera, pujada d’ambient, dos segons sostinguts i fosa.
+- S047: primer paràgraf sense tren; entrada d’un segon amb presència abans del segon, fons baix durant el trajecte i arribada amb frens reals de Tururt. Pausa total de 2,4 s abans de casa, sense canviar la veu. Aquestes tres revisions continuen pendents d’última audició.
+- S029: recuperat «Notícia de ficció» de la presa existent i retirat el farciment «Molt bé xic…» del muntatge i de les veus de revisió. La primera frase no existeix al cru; el primer paràgraf complet queda autoritzat per al proper lot de Mar, amb comparació abans de decidir el fragment que s’incorpora. Cos musical i MP3 actual conservats. Context previ ajustat per no avançar la ubicació de la sessió.
+- S060, S063, S066, S070, S072, S046D i S069D validades per síntesi. S060 passa a intermèdia amb passadís atenuat; S066 passa a 6è intermèdia amb qualificació pendent de confirmar després de l’audició. No s’envien peticions de veu en aquesta iteració.
+- Criteris futurs: imatges amb accions i entorns més concrets, papers sobre la locució quan encaixin i entrades d’aula més suaus amb diferents enregistraments. Seguiment, fonts i llicències actualitzats; originals conservats.
+
 ## 0.1.81 · 23 de novembre de 2026
 
 - Quatre peticions seqüencials autoritzades: L15 (S040/S051/S052), L16 (S073/S075/S077), L12 (S033/S036) i L20 (S081/S082). L20 és el nou intent explícit després de l’error intern sense àudio de L19, que es conserva a l’històric.

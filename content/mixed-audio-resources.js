@@ -23,12 +23,12 @@ export const mixedAudioResources = {
     "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S014": {
-    "voices": "Mireia: Aoede; Biel: Puck. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Mireia: Aoede; Biel: Puck. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "Classroom Ambience · Tallis0410 (CC0 1.0), molt baix sota la conversa. Page turned · Beussa (CC0 1.0), fora de la parla.",
     "recipe": "tools/remount-s014-classroom.cjs"
   },
   "ca-S016": {
-    "voices": "Mar: Erinome. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Mar: Erinome. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "Breaking News Background Music · Grand_Project (Pixabay Content License). Entrada, base contínua atenuada sota la parla i sortida; font completa conservada localment, no distribuïda sola.",
     "currentRevision": "news-repair-v3",
     "recipe": "tools/remount-news-common.cjs"
@@ -60,7 +60,7 @@ export const mixedAudioResources = {
     "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S026": {
-    "voices": "Mireia: Aoede; Biel: Puck. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Mireia: Aoede; Biel: Puck. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "Classroom Ambience · Tallis0410 (CC0 1.0), molt baix sota la conversa. Moving and Handling Cardboard · Breezy2000uk (CC0 1.0), fora de la parla.",
     "recipe": "tools/clean-s026-bookends.cjs"
   },
@@ -70,10 +70,10 @@ export const mixedAudioResources = {
     "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S029": {
-    "voices": "Mar: Erinome. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Mar: Erinome. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme. Presentació completa recuperada; primera frase pendent del proper lot de Mar, amb el paràgraf complet per comparar.",
     "sounds": "Breaking News Background Music · Grand_Project (Pixabay Content License). Entrada, base contínua atenuada sota la parla i sortida; font completa conservada localment, no distribuïda sola.",
     "currentRevision": "news-common-v2",
-    "recipe": "tools/remount-news-common.cjs"
+    "recipe": "tools/restore-s029-title.cjs"
   },
   "ca-S030": {
     "voices": "Biel: Puck; Laia: Leda. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
@@ -99,7 +99,7 @@ export const mixedAudioResources = {
   "ca-S035": {
     "voices": "Mireia: Aoede; Laia: Leda. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
     "sounds": "Classroom Ambience · Tallis0410 (CC0 1.0), molt baix sota la conversa. Page turned · Beussa (CC0 1.0), fora de la parla.",
-    "recipe": "tools/render-mixed-take.cjs"
+    "recipe": "tools/finish-s035-tail.cjs"
   },
   "ca-S037": {
     "voices": "Laia: Leda; Biel: Puck. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
@@ -117,7 +117,7 @@ export const mixedAudioResources = {
     "recipe": "tools/remove-s038-opening-ambience.cjs"
   },
   "ca-S039": {
-    "voices": "Mar: Erinome; Pau: Charon. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Mar: Erinome; Pau: Charon. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "Breaking News Background Music · Grand_Project (Pixabay Content License). Entrada, base contínua atenuada sota la parla i sortida; font completa conservada localment, no distribuïda sola.",
     "currentRevision": "news-common-v2",
     "recipe": "tools/remount-news-common.cjs"
@@ -128,32 +128,32 @@ export const mixedAudioResources = {
     "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S042": {
-    "voices": "Mireia: Aoede; Biel: Puck. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Mireia: Aoede; Biel: Puck. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "Page turned · Beussa (CC0 1.0), fora de la parla. Dragging chair on concrete floor · funkysandwich (CC0 1.0), fora de la parla.",
     "recipe": "tools/clean-s042-bookends.cjs"
   },
   "ca-S043": {
     "voices": "Narradora: Aoede. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
-    "sounds": "Dutch night ambience in small city · hz37 (CC0 1.0), fora de la parla. Base original «Una línia a la façana» (MIT), molt baixa durant la narració, amb pujada i fosa final. Page turned · Beussa (CC0 1.0), fora de la parla.",
-    "recipe": "tools/render-mixed-take.cjs"
+    "sounds": "Base original «Una línia a la façana» (MIT), molt baixa durant la narració, amb pujada i fosa final. Page turned · Beussa (CC0 1.0), molt baix sota la conversa.",
+    "recipe": "tools/remount-s043-inline-paper.cjs"
   },
   "ca-S044": {
-    "voices": "Laia: Leda; Biel: Puck. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Laia: Leda; Biel: Puck. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "College Hallway ambience · Bexhillcollege (CC0 1.0), molt baix sota la conversa.",
     "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S045": {
-    "voices": "Ferran: Algenib. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
-    "sounds": "Base original «Cadires sota les estrelles» (MIT), molt baixa durant la narració, amb pujada i fosa final. Soft City Park Ambience · simgo (CC0 1.0), fora de la parla. Dragging chair on concrete floor · funkysandwich (CC0 1.0), molt baix sota la conversa.",
-    "recipe": "tools/render-mixed-take.cjs"
+    "voices": "Ferran: Algenib. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
+    "sounds": "Base original «Cadires sota les estrelles» (MIT), molt baixa durant la narració, amb pujada i fosa final. Dragging chair on concrete floor · funkysandwich (CC0 1.0), molt baix sota la conversa.",
+    "recipe": "tools/remove-s045-opening.cjs"
   },
   "ca-S047": {
     "voices": "Ferran: Algenib. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
-    "sounds": "Base original «Botons de tots colors» (MIT), molt baixa durant la narració, amb pujada i fosa final. Inside Old Train · kokoreli777 (Pixabay Content License), ambient continu molt baix sota el trajecte; font completa conservada localment, distribuïda només dins del muntatge.",
-    "recipe": "tools/remount-s047-train.cjs"
+    "sounds": "Base original «Botons de tots colors» (MIT), molt baixa durant la narració, amb pujada i fosa final. Inside Old Train · kokoreli777 (Pixabay Content License). Entrada després del primer paràgraf, un segon amb presència i fosa a nivell molt baix sota el segon i tercer. Pujada en arribar i transició als frens; sense tren durant la presentació, el primer paràgraf ni l’escena de casa. cubo 7 · Tururt (Pixabay Content License). Fragment 1,65–3,55 s, amb foses d’entrada i sortida, entre el trajecte i l’arribada a casa. La font completa queda local; només es distribueix dins del muntatge.",
+    "recipe": "tools/remount-s047-arrival.cjs"
   },
   "ca-S048": {
-    "voices": "Laia: Leda; Pau: Charon. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Laia: Leda; Pau: Charon. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "Oxford covered market ambience · jmdh (CC0 1.0), molt baix sota la conversa.",
     "recipe": "tools/render-mixed-take.cjs"
   },

@@ -708,8 +708,8 @@
   },
   "S029": {
     "status": "approved",
-    "approvedFingerprint": "f6f3ed21e7f243f8cfb64c0d263fda784857491bf66ca4af110cad5c3b350fbc",
-    "reviewedAt": "2026-11-21T08:12:38.478Z",
+    "approvedFingerprint": "8ca6df4ff76bc769b30c89460ffda83360b9907fb82b853db101c6eafffaf98d",
+    "reviewedAt": "2026-11-23",
     "reviewActivity": "ca-S029",
     "reviewContent": "content/propostes/tanda2/tercer.js",
     "format": "3r avançada: integrar una condició simple, distingir gratuïtat de reserva i separar el lloc previst de l’alternatiu. Sis preguntes, sense exigir recordar totes les dades de la notícia.",
@@ -725,7 +725,7 @@
     "strategy": "packed-title-program-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
     "approvedScope": "voices-only",
-    "approvalSource": "Validació explícita condicionada del docent el 21/11/2026: «Fent aquests canvis que et dic el text quedaria validat per síntesi de veus». Aplicats el bloc de pluja proposat, l’avís del mateix divendres a les quatre de la tarda i els canvis corresponents al tancament, al solucionari i a les cites. Text i Mar/Erinome autoritzats; sintonia informativa pendent de seleccionar abans del muntatge. Producció només en un lot compatible de sis a vuit minuts.",
+    "approvalSource": "Restauració docent de la presentació Notícia de ficció i primer paràgraf complet autoritzat per al proper lot de Mar; resta del guió intacta.",
     "previousApproval": {
       "fingerprint": "7721097a821d76d0a15a5199bb93ea8046b88e2877353211fd49b8ce13f75e23",
       "scope": "Presentació amb avís de ficció"
@@ -1342,19 +1342,20 @@
     "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
   },
   "S060": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "894cb87bd9b2e60f113f3334a9e7bae56a59c59727443d838f0773c53cde0fd3",
+    "reviewedAt": "2026-11-23",
     "reviewActivity": "ca-S060",
     "reviewContent": "content/propostes/tanda4/troballes.js",
-    "format": "6è accessible: reconstruir el context d’una gravació, relacionar un soroll amb una acció i distingir fragments aprofitables dels que cal repetir. Nou preguntes; els conceptes tècnics es descriuen amb accions quotidianes.",
+    "format": "6è intermèdia: reconstruir el context d’una gravació, relacionar un soroll amb una acció i distingir fragments aprofitables dels que cal repetir. Nou preguntes; els conceptes tècnics es descriuen amb accions quotidianes.",
     "requiredVoices": {
       "Laia": "Leda",
       "Biel": "Puck"
     },
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
-    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+    "ending": "Guió, veus i escaleta validats. Agrupar lectures completes del mateix repartiment abans d’enviar.",
+    "approvalSource": "Diàleg S060 validat per síntesi de veu, dificultat intermèdia i passadís atenuat de fons"
   },
   "S061": {
     "status": "approved",
@@ -1404,9 +1405,9 @@
     }
   },
   "S063": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "0b2a252ffbc0166199bd096f38fd1b72e980e8cd55a28465f9b31fbd0e2f8b81",
+    "reviewedAt": "2026-11-23",
     "reviewActivity": "ca-S063",
     "reviewContent": "content/propostes/tanda4/aula.js",
     "format": "5è accessible: comprendre què es manté i què canvia entre dues proves, identificar una observació i seguir l’ordre de les accions. Vuit preguntes sense exigir vocabulari científic ni calcular pesos.",
@@ -1416,7 +1417,8 @@
     },
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
-    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+    "ending": "Guió, veus i escaleta validats pel docent. Presa completa; agrupar amb el mateix repartiment en un lot compatible. Veus pendents de producció i audició.",
+    "approvalSource": "S063 validat per pujar a síntesi de veus"
   },
   "S064": {
     "status": "awaiting-validation",
@@ -1449,19 +1451,20 @@
     "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
   },
   "S066": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "741ccd1911f25d9c4ccef46f4cdd9ee44a76e634a6c47ff5d3118ca429f1e8b4",
+    "reviewedAt": "2026-11-23",
     "reviewActivity": "ca-S066",
     "reviewContent": "content/propostes/tanda4/aula.js",
-    "format": "5è avançada: seguir canvis de lloc i moment dins d’una gravació, distingir sons simultanis i successius i relacionar l’edició amb la finalitat de la proposta. Vuit preguntes; cap coneixement de programes d’edició.",
+    "format": "6è intermèdia: seguir canvis de lloc i moment dins d’una gravació, distingir sons simultanis i successius i relacionar l’edició amb la finalitat de la proposta. Vuit preguntes; cap coneixement de programes d’edició. Qualificació per confirmar amb l’audició del muntatge.",
     "requiredVoices": {
       "Mireia": "Aoede",
       "Biel": "Puck"
     },
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
-    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+    "ending": "Guió, veus i escaleta validats. Agrupar lectures completes del mateix repartiment abans d’enviar.",
+    "approvalSource": "S066 validat per síntesi de veu i requalificat a 6è intermèdia, per confirmar amb l’audició"
   },
   "S067": {
     "status": "approved",
@@ -1519,9 +1522,9 @@
     "approvalSource": "Validació explícita del docent el 22/11/2026: «S069 validat per síntesi de veus». Guió, repartiment i escaleta autoritzats. Qualificació actual conservada."
   },
   "S070": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "6577a099d5085b1f900e16786d355d78035628a71d9c42366f2e9d98a2475c0f",
+    "reviewedAt": "2026-11-23",
     "reviewActivity": "ca-S070",
     "reviewContent": "content/propostes/tanda4/records.js",
     "format": "6è accessible: seguir dues maneres de continuar una activitat i relacionar una informació prèvia sobre el pare amb la solució posterior. Nou preguntes; cap coneixement de discos o instruments.",
@@ -1530,7 +1533,8 @@
     },
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
-    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+    "ending": "Guió, veus i escaleta validats pel docent. Presa completa; agrupar amb el mateix repartiment en un lot compatible. Veus pendents de producció i audició.",
+    "approvalSource": "S070 validat per pujar a síntesi de veus"
   },
   "S071": {
     "status": "awaiting-validation",
@@ -1547,9 +1551,9 @@
     "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
   },
   "S072": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "a68274884408aa57d2fda28498b9309d1b3c98a2a1708356ca60557cd821569d",
+    "reviewedAt": "2026-11-23",
     "reviewActivity": "ca-S072",
     "reviewContent": "content/propostes/tanda4/records.js",
     "format": "6è avançada: reconstruir una operació comercial quotidiana amb dues anotacions del mateix encàrrec, distingir pendent i recollit i relacionar una deducció inicial amb la comprovació posterior. Nou preguntes sense càlculs de preus ni comptabilitat externa.",
@@ -1558,7 +1562,8 @@
     },
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
-    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+    "ending": "Guió, veus i escaleta validats pel docent. Presa completa; agrupar amb el mateix repartiment en un lot compatible. Veus pendents de producció i audició.",
+    "approvalSource": "S072 validat per pujar a síntesi de veus"
   },
   "S073": {
     "status": "approved",
@@ -1772,9 +1777,9 @@
     "approvalSource": "Validació explícita del docent el 22/11/2026: «S082 també validat per síntesi de veu, pendent de potser pujar a 1rESO segons muntatge final». Guió, Biel/Puck i Elies/Algieba i escaleta autoritzats. Es mantenen 6è avançada i nou preguntes; el possible pas a 1r d’ESO queda pendent d’escoltar el muntatge, sense nivell d’ESO decidit."
   },
   "S069D": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "9d26489caf8f60412995763c1df83336684d389ab69cdaa6961d5d278e953eab",
+    "reviewedAt": "2026-11-23",
     "reviewActivity": "ca-S069D",
     "reviewContent": "content/propostes/s069-dialogada.js",
     "format": "Variant dialogada de S069, conservada íntegra. 5è intermèdia: relacionar el canvi de costat dels jugadors amb l’error de marcador, interpretar els senyals del cosí i reconstruir la correcció. Mateixes vuit exigències de comprensió, ara amb les preguntes i reaccions de l’Aina. Pendent de validació docent pròpia.",
@@ -1789,12 +1794,13 @@
       "Ferran": "Algenib"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Proposta independent de S069. Cap síntesi fins a la validació docent de la variant; després agrupar repartiments complets compatibles."
+    "ending": "Guió, veus i escaleta validats pel docent. Presa completa; agrupar amb el mateix repartiment en un lot compatible. Veus pendents de producció i audició.",
+    "approvalSource": "S069D validat per pujar a síntesi de veus"
   },
   "S046D": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "811499485285f703682110a4c83a165d5b54df065d296763544d026eb83407ff",
+    "reviewedAt": "2026-11-23",
     "reviewActivity": "ca-S046D",
     "reviewContent": "content/propostes/s046-dialogada.js",
     "format": "Variant dialogada de S046, que es conserva. 4t accessible: seguir el recorregut d’un objecte, relacionar els records del matí amb la cerca i explicar per què unes butxaques eren buides. Mateixes set exigències de comprensió, amb dos referents auditius i una conversa familiar. Pendent de validació docent pròpia.",
@@ -1809,7 +1815,8 @@
       "Ferran": "Algenib"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Proposta independent de S046. Cap síntesi fins a la validació docent de la variant; després agrupar lectures completes del mateix repartiment en un lot compatible."
+    "ending": "Guió, veus i escaleta validats pel docent. Presa completa; agrupar amb el mateix repartiment en un lot compatible. Veus pendents de producció i audició.",
+    "approvalSource": "S046D validat per pujar a síntesi de veus"
   },
   "S045D": {
     "status": "awaiting-validation",

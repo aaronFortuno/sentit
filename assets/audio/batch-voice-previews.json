@@ -31,12 +31,19 @@
     "batch": "L10",
     "sourceTakeSha256": "8965bab558d63722894ab08f1f5467a11a2e75d3366fc5539b9cb0e055144c2c",
     "sourceRawSha256": "490b279a9670c6bb48737b04668af2d9cf14d0fe56bc165f26dccc2e518beba4",
-    "file": "assets/audio/s029-voices-review-v1.mp3",
-    "sha256": "7f8ecaa1b31b9bd841e4f80f8c639d860b5a95c456da5746b1e0feb124944ea1",
+    "file": "assets/audio/s029-voices-review-v2.mp3",
+    "sha256": "59bb7dca7d9acd8584a6b39604b0fe8f05a11a218f8c62a539c2f936cc3b98f6",
     "state": "voices-received-awaiting-montage",
     "teacherAudioApproval": false,
     "newRequests": 0,
-    "voiceRetimed": false
+    "voiceRetimed": false,
+    "revision": 2,
+    "missingOpeningSentence": true,
+    "trimmedStartSeconds": 1.5,
+    "replaces": {
+      "file": "assets/audio/s029-voices-review-v1.mp3",
+      "sourceTakeSha256": "8965bab558d63722894ab08f1f5467a11a2e75d3366fc5539b9cb0e055144c2c"
+    }
   },
   {
     "code": "S031",

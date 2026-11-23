@@ -4,7 +4,8 @@ export const cinque = [
   proposal({
     id: 'que-passa-dins-duna-llavor', code: 'S014', title: 'Què passa dins d’una llavor?', grade: '5', level: 'easy', genre: 'explanation',
     recordingCues: [{"before":"pregunta","text":"Ambient enregistrat continu d’aula, suau sota tota la conversa. Sense els efectes inicials del recipient ni la cadira."},{"after":"observar","text":"Es conserva el full enregistrat en el canvi de torn, sense modificar les veus."},{"after":"final","text":"Darrera paraula completa, pujada suau i fosa de l’ambient. Sense respiracions afegides ni els dos tons antics."}],
-    seconds: 138, status: 'ready-for-review', reviewStatus: 'audio-review',
+    seconds: 138, status: 'ready-for-review', reviewStatus: 'validated',
+    image: { src: './assets/images/que-passa-dins-duna-llavor-v1.webp', alt: 'La Mireia deixa unes mongetes seques sobre un plat mentre en Biel s’hi acosta per observar-les a classe.', width: 1536, height: 1024 },
     audio: './assets/audio/s014-classroom-v2.mp3', tracks: { introduction: './assets/audio/s014-mixed-v1-intro.mp3', body: './assets/audio/s014-classroom-v2-cos.mp3' },
     fragment: { start: 5.22, seconds: 132 },
     summary: 'La Mireia prepara una observació de llavors a classe i aprofita les preguntes d’en Biel per explicar l’aigua, les arrels i les reserves.',
@@ -46,7 +47,8 @@ export const cinque = [
   proposal({
     id: 'una-troballa-al-jaciment', code: 'S016', title: 'Una troballa al jaciment', grade: '5', level: 'middle', genre: 'news',
     recordingCues: [{"before":"fet","text":"Entrada de Breaking News Background Music, de Grand_Project. Base contínua molt atenuada i comprimida sota les veus; sense els papers ni la sintonia anterior."},{"after":"final","text":"Pujada progressiva cap al tancament musical comú i fosa final. El muntatge continua pendent d’audició docent."}],
-    seconds: 144, status: 'ready-for-review', reviewStatus: 'audio-review',
+    seconds: 144, status: 'ready-for-review', reviewStatus: 'validated',
+    image: { src: './assets/images/una-troballa-al-jaciment-v1.webp', alt: 'La Mar informa amb un micròfon davant d’una zona de treball arqueològic, separada amb una corda i una lona al fons.', width: 1536, height: 1024 },
     audio: './assets/audio/s016-news-repair-v3.mp3', tracks: { introduction: './assets/audio/s016-news-repair-v3-intro.mp3', body: './assets/audio/s016-news-repair-v3-cos.mp3' },
     fragment: { start: 5.95, seconds: 137 },
     summary: 'La Mar diferencia una troballa observada, una explicació possible i un titular que s’ha avançat massa.',
