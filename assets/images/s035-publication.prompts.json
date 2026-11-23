@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "code": "S035",
+  "file": "una-pregunta-per-al-menjador-v1.webp",
+  "references": [
+    "../characters/mireia-model-sheet-v1.webp",
+    "../characters/laia-model-sheet-v1.webp"
+  ],
+  "prompt": "Use case: illustration-story. New concrete context illustration for Sentit Catalan oral-comprehension printable and catalogue. Landscape 3:2, 1536x1024. Fine ink and soft watercolor on warm white paper, muted sage and ochre, airy naturally fading edges. The attached model sheets are reference images for CHARACTER IDENTITY only, not edit targets: no sheet layout or labels. Preserve Mireia adult teacher: short dark tight curls, brown skin, sage green cardigan over ivory top, charcoal trousers. Preserve Laia young teen: light brown curly hair in loose high ponytail, freckles, small hoop earrings, sage sweatshirt and taupe trousers. Show a practical classroom moment: Laia pauses with pencil just above a single sheet turned so its writing cannot be seen, looking toward Mireia who leans closer and listens with warm attention. Three-quarter view of their hands, faces and desk; a pencil case and a plain eraser on desk, blurred unidentifiable older pupils working at tables behind. No pupils besides Laia are foregrounded. This is a teacher listening to a pupil revise a question, without visual clues to the answer. No readable text, numbers, labels, board writing, speech bubbles, logo or watermark. No fruit, food, dining hall, clock, survey boxes, checkmarks, divided sheet, two questions, copying machine or named pupils. Do not depict the solution. Maintain model identities and age, composed at natural human distance with enough white space to remain readable at 80mm on a worksheet."
+}

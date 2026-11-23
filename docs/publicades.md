@@ -1,12 +1,13 @@
 # Comprensions finalitzades
 
-Actualitzat: **23/11/2026**. **26 publicacions definitives**. Aquest registre conserva les peces que han sortit de la [taula de pendents](seguiment-produccio.md). Les variants es validen per separat.
+Actualitzat: **23/11/2026**. **30 publicacions definitives**. Aquest registre conserva les peces que han sortit de la [taula de pendents](seguiment-produccio.md). Les variants es validen per separat.
 
 | Codi | Títol | Curs | Dificultat · tipologia | Fragment | Validació definitiva |
 | --- | --- | --- | --- | --- | --- |
 | [ca-S003](https://sentit.ortogra.fi/#lectura=ca-S003) | El paraigua intercanviat | 3r | Accessible · Diàleg | 1:10 | 2026-11-20 |
 | [ca-S004](https://sentit.ortogra.fi/#lectura=ca-S004) | El botó de la jaqueta | 3r | Intermèdia · Narració | 1:26 | 2026-11-20 |
 | [ca-S004D](https://sentit.ortogra.fi/#lectura=ca-S004D) | El botó de la jaqueta · versió dialogada | 3r | Intermèdia · Narració | 1:28 | 2026-11-20 |
+| [ca-S006](https://sentit.ortogra.fi/#lectura=ca-S006) | S’obre un nou camí al parc | 3r | Avançada · Notícia | 1:24 | 2026-11-23 |
 | [ca-S008](https://sentit.ortogra.fi/#lectura=ca-S008) | La foto que faltava | 4t | Accessible · Narració | 1:33 | 2026-11-20 |
 | [ca-S008R](https://sentit.ortogra.fi/#lectura=ca-S008R) | La foto que faltava · Històries amb sentit | 4t | Accessible · Narració | 1:40 | 2026-11-20 |
 | [ca-S009](https://sentit.ortogra.fi/#lectura=ca-S009) | La biblioteca canvia d’horari | 4t | Accessible · Notícia | 1:30 | 2026-11-23 |
@@ -22,12 +23,15 @@ Actualitzat: **23/11/2026**. **26 publicacions definitives**. Aquest registre co
 | [ca-S030](https://sentit.ortogra.fi/#lectura=ca-S030) | El cartell que no es llegia | 4t | Accessible · Diàleg | 1:10 | 2026-11-23 |
 | [ca-S031](https://sentit.ortogra.fi/#lectura=ca-S031) | Una bústia per a propostes | 4t | Accessible · Notícia | 1:23 | 2026-11-23 |
 | [ca-S032](https://sentit.ortogra.fi/#lectura=ca-S032) | Una ruta amb pistes | 4t | Intermèdia · Instruccions | 1:23 | 2026-11-21 |
+| [ca-S034](https://sentit.ortogra.fi/#lectura=ca-S034) | L’assaig que semblava una funció | 4t | Avançada · Narració | 1:47 | 2026-11-23 |
+| [ca-S035](https://sentit.ortogra.fi/#lectura=ca-S035) | Una pregunta per al menjador | 5è | Accessible · Instruccions | 1:40 | 2026-11-23 |
 | [ca-S038](https://sentit.ortogra.fi/#lectura=ca-S038) | El banc que havien mogut | 5è | Intermèdia · Narració | 1:43 | 2026-11-21 |
 | [ca-S038D](https://sentit.ortogra.fi/#lectura=ca-S038D) | El banc que havien mogut · versió dialogada | 5è | Intermèdia · Narració | 2:17 | 2026-11-21 |
 | [ca-S039](https://sentit.ortogra.fi/#lectura=ca-S039) | Una biblioteca d’objectes en prova | 5è | Avançada · Notícia | 2:05 | 2026-11-23 |
 | [ca-S042](https://sentit.ortogra.fi/#lectura=ca-S042) | Dos camins amb la mateixa mitjana | 6è | Intermèdia · Explicació | 1:24 | 2026-11-23 |
 | [ca-S044](https://sentit.ortogra.fi/#lectura=ca-S044) | El recompte del programa | 6è | Avançada · Diàleg | 1:30 | 2026-11-23 |
 | [ca-S045](https://sentit.ortogra.fi/#lectura=ca-S045) | Les cadires del cinema | 4t | Accessible · Narració | 1:36 | 2026-11-23 |
+| [ca-S047](https://sentit.ortogra.fi/#lectura=ca-S047) | La maleta que feia soroll | 4t | Intermèdia · Narració | 1:49 | 2026-11-23 |
 | [ca-S048](https://sentit.ortogra.fi/#lectura=ca-S048) | Les caixes que tornen | 3r | Accessible · Entrevista | 1:31 | 2026-11-23 |
 | [ca-S050](https://sentit.ortogra.fi/#lectura=ca-S050) | La balança marca massa | 3r | Intermèdia · Entrevista | 1:30 | 2026-11-23 |
 

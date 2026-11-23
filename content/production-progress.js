@@ -248,21 +248,44 @@ export const productionProgress = {
   "ca-S021": {
     "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-20T12:41:11.676Z",
-    "editorialFingerprint": "b74a57783cdc96f46edae1442d2c49a6142dfc2666b1645482beab8b21b81758",
+    "editorialFingerprint": "68ee0f9c54ea02047ca7cbb9278344d50fce8a02d845d734724c52b0da726dc1",
     "plannedNewRequests": 1,
     "reason": "Guió de recerca validat; preparat per al següent lot dins del topall gratuït de peticions.",
     "voicesReceivedAt": "2026-11-21T10:04:43.360Z",
     "synthesisBatch": "L01",
     "requestHash": "0cd61066dabfeb8992968fa3e45c9f95dd07621aa58ca5a919a5e873cee48df7",
-    "audioSha256": "144f740a266b7a63efc718565886c2c6e099f10888ed884b6329a16598a42d45",
+    "audioSha256": "a54b1651b9761d9d4919157efcdb1bff413c2c86e4ddaaf7502e975553b3841a",
     "listeningApproval": false,
-    "montageNewSynthesisRequests": 0
+    "montageNewSynthesisRequests": 0,
+    "feedbackAt": "2026-11-23",
+    "feedback": [
+      {
+        "part": "ambient",
+        "kind": "ambience",
+        "word": "Ambient urbà continu i entrada més suau",
+        "status": "applied"
+      },
+      {
+        "part": "final",
+        "kind": "tail",
+        "word": "Respiració i full després del final",
+        "status": "applied"
+      }
+    ],
+    "reviewUpdate": {
+      "audio": "./assets/audio/s021-city-bed-v2.mp3",
+      "at": "2026-11-23",
+      "summary": {
+        "ca": "Ambient urbà continu i molt baix; entrada més suau. Retirats la respiració i el full del final; pujada d’ambient de dos segons i fosa. Pendent d’última escolta.",
+        "es": "Ambiente urbano continuo y muy bajo; entrada más suave. Retirados la respiración y el papel finales; subida de ambiente de dos segundos y fundido. Pendiente de última escucha."
+      }
+    }
   },
   "ca-S006": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-20T12:48:05.488Z",
-    "editorialFingerprint": "f5d65ce7c8c1510f490953a72b09c81a74b597993b35700e2a798aae6f137ce2",
-    "plannedNewRequests": 1,
+    "editorialFingerprint": "2742d34bbd0e18fc24f139231c3367f93b883db1a78cf7b0bd3dea80b4ef96d7",
+    "plannedNewRequests": 0,
     "reason": "Veus validades, pendents del següent lot dins el límit gratuït. Muntatge pendent de sintonies d’informatiu.",
     "sharedJingle": {
       "status": "catalogue-approved",
@@ -280,7 +303,7 @@ export const productionProgress = {
       ]
     },
     "voicesReceivedAt": "2026-11-21T10:58:10.100Z",
-    "listeningApproval": false,
+    "listeningApproval": true,
     "voicePreview": "./proves/veus-rebudes.html#S006",
     "audioSha256": "3f55fe2548f4e8b1cc9effa4e34b75dfc3c8fc8fdf866eee35f49caa4ea1f853",
     "montageNewSynthesisRequests": 0,
@@ -292,6 +315,16 @@ export const productionProgress = {
         "ca": "Nova base comuna de notícies, amb entrada i sortida; retirats els papers i jingles anteriors. Pendent d’audició.",
         "es": "Nueva base común de noticias, con entrada y salida; retirados los papeles y jingles anteriores. Pendiente de escucha."
       }
+    },
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S006 validat per publicació definitiva amb el nou muntatge",
+    "teacherAssessment": "Veus i muntatge validats definitivament pel docent.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/sobre-un-nou-cami-al-parc-v1.webp",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-23",
+      "audioChanged": false
     }
   },
   "ca-S010": {
@@ -781,10 +814,10 @@ export const productionProgress = {
     }
   },
   "ca-S007": {
-    "state": "montage-awaiting-listening",
+    "state": "audio-corrections-pending",
     "approvedAt": "2026-11-20T21:20:16.430Z",
-    "editorialFingerprint": "d5d256839f998b098ac3c8f0f2ddac475bc6f47e8f6ccfebac8e6c04e5c3685f",
-    "plannedNewRequests": 2,
+    "editorialFingerprint": "6b976b8f8b4e3bdc8a31e978ac81e2383c7a0e6617b3448fbd00b9a0642e62f3",
+    "plannedNewRequests": 1,
     "confirmation": "S007 es pot pujar a síntesi de veus, guió validat.",
     "reason": "Guió validat; dues preses agrupades, amb pauses per intercalar les tres veus en local. Cap síntesi nova el dia 20: deu peticions consumides.",
     "quotaHold": {
@@ -808,8 +841,40 @@ export const productionProgress = {
     "listeningApproval": false,
     "synthesisBatch": "L10+L02",
     "requestHash": "ef97c7456001de385258549f2a355d83acf7942502caa3b39f364da8be1b417f",
-    "audioSha256": "da6303d8252044259508d70b30b70763c0b90a7f9c805a31df821a6a9c95366c",
-    "montageNewSynthesisRequests": 0
+    "audioSha256": "4edfea01a2b6d79b6a1d63b3affdcd832763e290000e05aea1434c859d35a04c",
+    "montageNewSynthesisRequests": 0,
+    "feedbackAt": "2026-11-23",
+    "reviewUpdate": {
+      "audio": "./assets/audio/s007-classroom-v2.mp3",
+      "at": "2026-11-23",
+      "summary": {
+        "ca": "Nou ambient suau d’aula; retirats cadira, paper i tons i escurçades les pauses entre torns. La frase «Llavors podem tenir aigua al voltant sense veure-la?» continua pendent de regenerar amb la veu del Biel.",
+        "es": "Nuevo ambiente suave de aula; retirados silla, papel y tonos y acortadas las pausas entre turnos. La frase de Biel sobre el agua invisible sigue pendiente de regenerar con su voz."
+      }
+    },
+    "feedback": [
+      {
+        "part": "montage",
+        "kind": "timing-and-effects",
+        "word": "Silencis i efectes sobrers",
+        "status": "applied"
+      },
+      {
+        "part": "invisible",
+        "kind": "voice-identity",
+        "word": "Llavors podem tenir aigua al voltant sense veure-la?",
+        "heard": "La frase del Biel sona amb la veu de la Laia",
+        "status": "pending"
+      }
+    ],
+    "voiceApproval": false,
+    "plannedRepair": {
+      "part": "invisible",
+      "speaker": "Biel",
+      "text": "Llavors podem tenir aigua al voltant sense veure-la?",
+      "status": "awaiting-compatible-batch",
+      "sourceTakeSha256": "9135a1b339df1a9f97f5d1701089fb5e62627f4bdb1e20df7534262082370453"
+    }
   },
   "ca-S024": {
     "state": "audio-corrections-pending",
@@ -1404,11 +1469,11 @@ export const productionProgress = {
     }
   },
   "ca-S034": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-21T09:30:54.248Z",
-    "editorialFingerprint": "87ed490107a025961b15ec3bb3e2be759b86870452e985fda4107ce622145558",
-    "plannedNewRequests": 1,
-    "confirmation": "S034 validat per síntesi de veus",
+    "editorialFingerprint": "51f471384e53ef49bb40a84025d12353ab727b0ef1ca2fdf9730630c68cf7041",
+    "plannedNewRequests": 0,
+    "confirmation": "S034 validat per publicació definitiva",
     "reason": "Guió validat; presa completa incorporada al lot candidat L10, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts.",
     "uncertainTurns": [],
     "receivedTakes": {
@@ -1421,7 +1486,7 @@ export const productionProgress = {
       ]
     },
     "voicesReceivedAt": "2026-11-21T11:06:23.837Z",
-    "listeningApproval": false,
+    "listeningApproval": true,
     "synthesisBatch": "L13",
     "requestHash": "ab02e5a56a6807f106885dd5b8e4749ed77c2b2461e93dc71243142194efb2a3",
     "audioSha256": "f08591a55b092201f4affc58953249a06d0413217aec26db1e067cce8d730f3c",
@@ -1457,6 +1522,15 @@ export const productionProgress = {
         "ca": "Retirat l’ambient inicial. Es conserven el so de la cadira, les veus, la música i la durada; pendent d’última escolta.",
         "es": "Retirado el ambiente inicial. Se conservan la silla, las voces, la música y la duración; pendiente de última escucha."
       }
+    },
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "teacherAssessment": "Veus i muntatge validats definitivament pel docent.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/lassaig-que-semblava-una-funcio-v1.webp",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-23",
+      "audioChanged": false
     }
   },
   "ca-S038": {
@@ -1563,11 +1637,11 @@ export const productionProgress = {
     }
   },
   "ca-S035": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-21T09:34:44.906Z",
-    "editorialFingerprint": "1283f883c3d9682a422a8f511a66a0c746f00b07f3c4be40495b91ce046efc28",
-    "plannedNewRequests": 1,
-    "confirmation": "Rectifica aquesta frase i queda validat per pujar a síntesi de veus.",
+    "editorialFingerprint": "2fa6ee5433fed66fed795ca61ad1dc6604b87c6756d6827d69dbd2fda2228b23",
+    "plannedNewRequests": 0,
+    "confirmation": "S035 validat per publicació definitiva",
     "reason": "Guió validat; presa completa incorporada al lot candidat L11, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts.",
     "receivedTakes": {
       "received": [
@@ -1579,7 +1653,7 @@ export const productionProgress = {
       ]
     },
     "voicesReceivedAt": "2026-11-21T10:51:10.846Z",
-    "listeningApproval": false,
+    "listeningApproval": true,
     "synthesisBatch": "L05",
     "requestHash": "3a86ff8ea619d9fa32f7582a144656f791631478c642722f8e98ef6e5c8a5eb0",
     "audioSha256": "0ba711c71f5fa39b7c85eac84f1f1c5d8ca639f3087c8c3aa8ea285e6dc76699",
@@ -1607,12 +1681,20 @@ export const productionProgress = {
         "es": "Final más corto: medio segundo tras la última frase, subida del ambiente, dos segundos sostenidos y fundido. Voces y papel conservados; pendiente de última escucha."
       }
     },
-    "teacherAssessment": "Veus i resta del muntatge correctes; final més curt amb pujada de l’ambient pendent d’última audició."
+    "teacherAssessment": "Veus i muntatge validats definitivament pel docent.",
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "publicationMaterials": {
+      "illustration": "./assets/images/una-pregunta-per-al-menjador-v1.webp",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-23",
+      "audioChanged": false
+    }
   },
   "ca-S037": {
     "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-21T09:35:53.798Z",
-    "editorialFingerprint": "124ce39086cf4a52857e7e76743fc5a6a0d4885c635e8de27db2d05d28b097c6",
+    "editorialFingerprint": "19389d1d4685193a8ab96538ee385432e9d58983b9d2ad4fbbb33017fb20ab9b",
     "plannedNewRequests": 1,
     "confirmation": "S037 validat per síntesi de veus",
     "reason": "Guió validat; presa completa incorporada al lot candidat L08, amb les veus i el text autoritzats. Enviament només després de preparar el payload i completar la finestra de sis a vuit minuts.",
@@ -1630,8 +1712,25 @@ export const productionProgress = {
     "listeningApproval": false,
     "synthesisBatch": "L08",
     "requestHash": "ac8a3b34fa098dc7a38e788b2cadc9c81d3039b44c7af229a4c9c104184e94cc",
-    "audioSha256": "e0d4df64b7ec71545e1b135035c1c7f6445f26f4557dd8cd5081253368d7f326",
-    "montageNewSynthesisRequests": 0
+    "audioSha256": "7d35cbadf7bcf7983c13c1bc62322a555e32f37585b0040ea50893b2dc79112f",
+    "montageNewSynthesisRequests": 0,
+    "feedbackAt": "2026-11-23",
+    "reviewUpdate": {
+      "audio": "./assets/audio/s037-hallway-v2.mp3",
+      "at": "2026-11-23",
+      "summary": {
+        "ca": "Retirats els silencis inicials i els efectes; títol i conversa propers, amb ambient continu de passadís molt baix. Locució conservada; pendent d’última escolta.",
+        "es": "Retirados los silencios iniciales y los efectos; título y conversación próximos, con ambiente continuo de pasillo muy bajo. Locución conservada; pendiente de última escucha."
+      }
+    },
+    "feedback": [
+      {
+        "part": "montage",
+        "kind": "timing-and-effects",
+        "word": "Silencis i efectes sobrers",
+        "status": "applied"
+      }
+    ]
   },
   "ca-S025": {
     "state": "audio-corrections-pending",
@@ -2687,12 +2786,12 @@ export const productionProgress = {
     "reason": "Agrupar lectures completes validades de Biel/Puck i Elies/Algieba fins a sis a vuit minuts."
   },
   "ca-S047": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-22T20:16:52.042Z",
-    "editorialFingerprint": "d81ed707fb8aca95c85f6567748b4126a213c3063d261e8369e905c9560fd89b",
+    "editorialFingerprint": "04a7b0b557036661dc4b8237e1af4c9f934b9b912bc14c80774142a57625c34f",
     "plannedNewRequests": 0,
-    "listeningApproval": false,
-    "confirmation": "S047 validada per síntesi de veus",
+    "listeningApproval": true,
+    "confirmation": "S047 validat per publicació definitiva",
     "reason": "P01 complet amb S045,S046,S047,S069; preparar un lot Ferran/Algenib de sis a vuit minuts.",
     "uncertainTurns": [],
     "receivedTakes": {
@@ -2719,7 +2818,7 @@ export const productionProgress = {
     "audioSha256": "344f1409128aeee01d9a3c18abee26dceb89fe4779044c210fb2e830fb2cc408",
     "montageNewSynthesisRequests": 0,
     "feedbackAt": "2026-11-23",
-    "teacherAssessment": "Veus i música correctes; entrada del tren i arribada amb frens reordenades per a una última audició.",
+    "teacherAssessment": "Veus i muntatge validats definitivament pel docent.",
     "feedback": [
       {
         "part": "tren",
@@ -2741,6 +2840,14 @@ export const productionProgress = {
         "ca": "Tren després del primer paràgraf: un segon amb presència i després molt baix sota el trajecte. Pujada i frens reals abans de casa, amb una pausa de 2,4 s. Veus conservades; pendent d’última escolta.",
         "es": "Tren tras el primer párrafo: un segundo con presencia y después muy bajo durante el viaje. Subida y frenos reales antes de casa, con una pausa de 2,4 s. Voces conservadas; pendiente de última escucha."
       }
+    },
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "publicationMaterials": {
+      "illustration": "./assets/images/la-maleta-que-feia-soroll-v1.webp",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-23",
+      "audioChanged": false
     }
   },
   "ca-S058": {

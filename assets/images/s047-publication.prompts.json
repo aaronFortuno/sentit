@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "code": "S047",
+  "file": "la-maleta-que-feia-soroll-v1.webp",
+  "references": [
+    "../characters/ferran-model-sheet-v1.webp",
+    "../characters/aina-model-sheet-v1.webp"
+  ],
+  "prompt": "Use case: illustration-story. One new concrete context illustration for Sentit printable listening-comprehension worksheet and catalogue. Landscape3:2,1536x1024. Refined fine ink and soft watercolor on warm white paper, muted sage,charcoal,ochre, edges fading naturally to white, clear in grayscale at80mm. Supplied images are canonical CHARACTER IDENTITY references, not edit targets; do not reproduce their sheet layout, labels or text. Preserve grandfather Ferran around70: wavy gray hair, short white beard, round dark glasses, gray cardigan over green checked shirt. Preserve Aina10–12: straight dark bob and fringe, round thin glasses, ochre sweatshirt. A specific present-day moment at home: Ferran carefully sets a small vintage CLOSED plain brown suitcase on a table while recounting an amusing childhood train journey; Aina leans in with curious attention and one hand near the case handle. Show their hands and the whole closed suitcase, natural weight-bearing pose. Warm domestic hallway with a simple coat hook and softly blurred room behind them. Their interaction and practical action should establish a story about an old suitcase, rather than two neutral portraits. No other characters. Do not show the childhood events themselves. Absolutely NO open suitcase, contents, tin box, round container, buttons, sewing supplies, dolls, clothing packed inside, cookies, biscuit tins, train passengers, crowded corridor, ticket, destination sign, numbers, text, lettering, speech bubbles, logos or watermark. Avoid a conspicuous buckle close-up. Nothing should reveal the reason for the suitcase sound, the imagined broken contents, the recipient or the ending. Preserve model faces, ages, hair and clothes exactly, with airy printable Sentit composition."
+}

@@ -1,5 +1,13 @@
 # Canvis
 
+## 0.1.83 · 23 de novembre de 2026
+
+- Publicació definitiva de S006, S034, S035 i S047 amb els màsters validats pel docent, sense canviar-ne les veus ni el muntatge. Il·lustracions pròpies coherents amb els models, visibles a la card, fitxa i transcripció; solucionaris nets i revisió independent de tancament.
+- S021: ambient urbà enregistrat continu i molt baix, entrada més suau i final sense respiració ni full sobrer. Pujada de dos segons i fosa després de la locució; pendent d’última audició.
+- S007: muntatge refet amb un altre enregistrament d’aula (kyles, CC0), sense cadira, paper ni tons; marges silenciosos comprovats per escurçar 39,30 s de farciment sense retallar la parla. El torn «Llavors podem tenir aigua al voltant sense veure-la?» continua pendent d’esmena amb la veu del Biel i la card ho indica.
+- S037: retirats els llargs silencis inicials i els efectes, amb ambient suau continu de passadís. Diàleg cap al segon 5 i conversa conservada; pendent d’última audició.
+- Manifests, fonts, cua de treball i seguiment actualitzats. Preses i màsters anteriors conservats; cap petició nova de síntesi.
+
 ## 0.1.82 · 23 de novembre de 2026
 
 - Publicació definitiva de S014, S016, S026, S039, S042, S044, S045 i S048, amb il·lustracions pròpies basades en els models, revisió independent i transcripcions netes. S045 retira només l’efecte inicial, amb publicació directa autoritzada; veu, música, cadira intermèdia i durada conservades.

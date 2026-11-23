@@ -1,15 +1,15 @@
 // Generated from actual montage manifests; listening approval remains separate.
 export const mixedAudioResources = {
   "ca-S006": {
-    "voices": "Mar: Erinome. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Mar: Erinome. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "Breaking News Background Music · Grand_Project (Pixabay Content License). Entrada, base contínua atenuada sota la parla i sortida; font completa conservada localment, no distribuïda sola.",
     "currentRevision": "news-common-v2",
     "recipe": "tools/remount-news-common.cjs"
   },
   "ca-S007": {
-    "voices": "Mireia: Aoede; Laia: Leda; Biel: Puck. Preses originals conservades; tres personatges intercalats a partir de dues preses compatibles. Muntatge pendent d’audició docent, sense canvis de ritme.",
-    "sounds": "SCHOOL CLASSROOM AMBIENCE · Elenalostale (CC0 1.0), fora de la parla. Dragging chair on concrete floor · funkysandwich (CC0 1.0), fora de la parla. Page turned · Beussa (CC0 1.0), fora de la parla. Dues notes originals de Sentit (MIT), fora de la parla.",
-    "recipe": "tools/render-mixed-take.cjs"
+    "voices": "Mireia: Aoede; Laia: Leda; Biel: Puck. Preses originals conservades; tres personatges intercalats a partir de dues preses compatibles. Pauses tècniques escurçades; identitat i estabilitat de les veus pendents d’esmena. Torn del Biel «Llavors podem tenir aigua al voltant sense veure-la?» pendent d’esmena de veu; pauses i ambient revisats.",
+    "sounds": "classroom students whispering +presence · kyles (CC0 1.0), molt baix sota la conversa.",
+    "recipe": "tools/remount-s007-s037.cjs"
   },
   "ca-S009": {
     "voices": "Mar: Erinome. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
@@ -40,8 +40,8 @@ export const mixedAudioResources = {
   },
   "ca-S021": {
     "voices": "Mireia: Aoede; Laia: Leda. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
-    "sounds": "City Ambience Quiet Neighborhood · soaress (CC0 1.0), fora de la parla. Two people's footsteps walking on a wet cement sidewalk · evsecrets (CC0 1.0), fora de la parla. Page turned · Beussa (CC0 1.0), fora de la parla.",
-    "recipe": "tools/render-mixed-take.cjs"
+    "sounds": "City Ambience Quiet Neighborhood · soaress (CC0 1.0), molt baix sota la conversa. Two people's footsteps walking on a wet cement sidewalk · evsecrets (CC0 1.0), fora de la parla. Page turned · Beussa (CC0 1.0), fora de la parla.",
+    "recipe": "tools/remount-s021-city-bed.cjs"
   },
   "ca-S023": {
     "voices": "Presentadora: Erinome; Pau: Charon. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
@@ -92,19 +92,19 @@ export const mixedAudioResources = {
     "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S034": {
-    "voices": "Ferran: Algenib. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Ferran: Algenib. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "Base original «Entre dues cortines» (MIT), molt baixa durant la narració, amb pujada i fosa final. Dragging chair on concrete floor · funkysandwich (CC0 1.0), fora de la parla.",
     "recipe": "tools/remove-s038-opening-ambience.cjs"
   },
   "ca-S035": {
-    "voices": "Mireia: Aoede; Laia: Leda. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Mireia: Aoede; Laia: Leda. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "Classroom Ambience · Tallis0410 (CC0 1.0), molt baix sota la conversa. Page turned · Beussa (CC0 1.0), fora de la parla.",
     "recipe": "tools/finish-s035-tail.cjs"
   },
   "ca-S037": {
     "voices": "Laia: Leda; Biel: Puck. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
-    "sounds": "SCHOOL CLASSROOM AMBIENCE · Elenalostale (CC0 1.0), fora de la parla. Page turned · Beussa (CC0 1.0), fora de la parla. Two people's footsteps walking on a wet cement sidewalk · evsecrets (CC0 1.0), fora de la parla.",
-    "recipe": "tools/render-mixed-take.cjs"
+    "sounds": "College Hallway ambience · Bexhillcollege (CC0 1.0), molt baix sota la conversa.",
+    "recipe": "tools/remount-s007-s037.cjs"
   },
   "ca-S038": {
     "voices": "Ferran: Algenib. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
@@ -148,7 +148,7 @@ export const mixedAudioResources = {
     "recipe": "tools/remove-s045-opening.cjs"
   },
   "ca-S047": {
-    "voices": "Ferran: Algenib. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Ferran: Algenib. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "Base original «Botons de tots colors» (MIT), molt baixa durant la narració, amb pujada i fosa final. Inside Old Train · kokoreli777 (Pixabay Content License). Entrada després del primer paràgraf, un segon amb presència i fosa a nivell molt baix sota el segon i tercer. Pujada en arribar i transició als frens; sense tren durant la presentació, el primer paràgraf ni l’escena de casa. cubo 7 · Tururt (Pixabay Content License). Fragment 1,65–3,55 s, amb foses d’entrada i sortida, entre el trajecte i l’arribada a casa. La font completa queda local; només es distribueix dins del muntatge.",
     "recipe": "tools/remount-s047-arrival.cjs"
   },

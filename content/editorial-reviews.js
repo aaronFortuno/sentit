@@ -26,18 +26,15 @@ export const editorialReviews = {
   },
   "ca-S006": {
     "status": "passed",
-    "reviewedAt": "2026-11-22",
-    "reviewer": "revisio_contextos_previs",
-    "fingerprint": "f5d65ce7c8c1510f490953a72b09c81a74b597993b35700e2a798aae6f137ce2",
-    "metadataReview": {
-      "scope": "Anotacions de muntatge real substitueixen les acotacions antigues; text i preguntes intactes, sense aprovació perceptiva."
-    }
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "2742d34bbd0e18fc24f139231c3367f93b883db1a78cf7b0bd3dea80b4ef96d7"
   },
   "ca-S007": {
     "status": "passed",
-    "reviewedAt": "2026-11-20",
-    "reviewer": "revisor-coherencia-independent",
-    "fingerprint": "d5d256839f998b098ac3c8f0f2ddac475bc6f47e8f6ccfebac8e6c04e5c3685f"
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "6b976b8f8b4e3bdc8a31e978ac81e2383c7a0e6617b3448fbd00b9a0642e62f3"
   },
   "ca-S008": {
     "status": "passed",
@@ -126,9 +123,9 @@ export const editorialReviews = {
   },
   "ca-S021": {
     "status": "passed",
-    "reviewedAt": "2026-11-20",
-    "reviewer": "revisor-coherencia-independent",
-    "fingerprint": "b74a57783cdc96f46edae1442d2c49a6142dfc2666b1645482beab8b21b81758"
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "68ee0f9c54ea02047ca7cbb9278344d50fce8a02d845d734724c52b0da726dc1"
   },
   "ca-S022": {
     "status": "passed",
@@ -217,17 +214,14 @@ export const editorialReviews = {
   "ca-S034": {
     "status": "passed",
     "reviewedAt": "2026-11-23",
-    "reviewer": "revisio_contextos_previs",
-    "fingerprint": "87ed490107a025961b15ec3bb3e2be759b86870452e985fda4107ce622145558",
-    "metadataReview": {
-      "scope": "Retirat ambient inicial; cadira, veu i música conservades. Pendent audició."
-    }
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "51f471384e53ef49bb40a84025d12353ab727b0ef1ca2fdf9730630c68cf7041"
   },
   "ca-S035": {
     "status": "passed",
     "reviewedAt": "2026-11-23",
     "reviewer": "revisio_tancament_s042",
-    "fingerprint": "1283f883c3d9682a422a8f511a66a0c746f00b07f3c4be40495b91ce046efc28"
+    "fingerprint": "2fa6ee5433fed66fed795ca61ad1dc6604b87c6756d6827d69dbd2fda2228b23"
   },
   "ca-S036": {
     "status": "passed",
@@ -237,9 +231,9 @@ export const editorialReviews = {
   },
   "ca-S037": {
     "status": "passed",
-    "reviewedAt": "2026-11-21",
-    "reviewer": "independent-naturalness-and-coherence-b",
-    "fingerprint": "124ce39086cf4a52857e7e76743fc5a6a0d4885c635e8de27db2d05d28b097c6"
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "19389d1d4685193a8ab96538ee385432e9d58983b9d2ad4fbbb33017fb20ab9b"
   },
   "ca-S038": {
     "status": "passed",
@@ -317,7 +311,7 @@ export const editorialReviews = {
     "status": "passed",
     "reviewedAt": "2026-11-23",
     "reviewer": "revisio_tancament_s042",
-    "fingerprint": "d81ed707fb8aca95c85f6567748b4126a213c3063d261e8369e905c9560fd89b"
+    "fingerprint": "04a7b0b557036661dc4b8237e1af4c9f934b9b912bc14c80774142a57625c34f"
   },
   "ca-S048": {
     "status": "passed",

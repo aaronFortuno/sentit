@@ -234,5 +234,26 @@
     ],
     "application": "Queue for the next compatible Mar batch. Audition the whole paragraph against the original. Teacher decides whether to replace only the missing sentence or the entire paragraph after comparing timbre; do not splice automatically.",
     "approvedRequestHash": "efd10b53595b2de17740e589b16b76c6acae908691a82ded2e0a3d760ac61020"
+  },
+  "S007": {
+    "activity": "ca-S007",
+    "status": "approved-for-correction",
+    "approvedAt": "2026-11-23",
+    "approvalSource": "El docent identifica exactament el torn del Biel amb veu de Laia i demana revisar-lo; només es prepara la cua, sense cap petició nova.",
+    "sourceRequestHash": "3cac570afbf056efc1591679d6c521985c5dfdf1323d6b58164414cf2f1711d7",
+    "sourceRawSha256": "75f355dc0e16071957f1057590e050e668469cc3f22f85afd37fec35c67cee27",
+    "voices": {
+      "Biel": "Puck"
+    },
+    "direction": "Central Catalan, youthful male Biel voice Puck, consistent with the existing character. Read only the exact spoken text. No extra words, breathing noises, stage directions or sound effects.",
+    "repairs": [
+      {
+        "part": "invisible",
+        "speaker": "Biel",
+        "text": "Llavors podem tenir aigua al voltant sense veure-la?",
+        "reason": "Teacher hears Laia instead of Biel in the current raw take."
+      }
+    ],
+    "sourceTakeSha256": "9135a1b339df1a9f97f5d1701089fb5e62627f4bdb1e20df7534262082370453"
   }
 }

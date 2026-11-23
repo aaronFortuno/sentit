@@ -1,0 +1,128 @@
+{
+  "code": "S021",
+  "activity": "ca-S021",
+  "state": "awaiting-montage-validation",
+  "file": "s021-city-bed-v2.mp3",
+  "introFile": "s021-mixed-v1-intro.mp3",
+  "bodyFile": "s021-city-bed-v2-cos.mp3",
+  "offset": 4.968,
+  "bodyDuration": 146.01200000000003,
+  "fullDuration": 150.98000000000002,
+  "voices": {
+    "Mireia": "Aoede",
+    "Laia": "Leda"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "0cd61066dabfeb8992968fa3e45c9f95dd07621aa58ca5a919a5e873cee48df7",
+  "sourceRequestHash": "0e98dd5b9fcd4c84c51e5f4b99dc54f4e9a40a679f7ccb1b76dcb77a6faefa80",
+  "batch": "L01",
+  "rawSha256": "c87c539f48e9d022f6ef2ae8624cb1571d46f3fb313b5070ea62c560dccb2580",
+  "takeSha256": "f56d3ae011e6cb6746fd6a69287ae0ad56750fa441d411ecad43337db269bba7",
+  "coverage": 0.9050925925925926,
+  "newSynthesisRequests": 1,
+  "sharedRequest": true,
+  "usage": {
+    "total_tokens": 7712,
+    "total_input_tokens": 1171,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 1171
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 6541,
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 6541
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 0,
+    "initial_input_tokens": 1171
+  },
+  "lufs": -18.69,
+  "peakDbTP": -2.48,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "soaress-546234",
+      "start": 0,
+      "source": "assets/audio/sources/soaress-546234.mp3",
+      "sourceSha256": "1059086683943b6b8d679a9283eda0bf08a75c05cbc711b2ec6a14a276f5028c",
+      "sourceUrl": "https://freesound.org/people/soaress/sounds/546234/",
+      "author": "soaress",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "excerpt": {
+        "start": 40,
+        "seconds": 60
+      },
+      "sourceTargetLufs": -28,
+      "speechGain": 0.18,
+      "openingGain": 0.35,
+      "raisedGain": 0.55,
+      "lowPassHz": 2600,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "envelope": {
+        "riseStart": 142.21200000000002,
+        "riseEnd": 142.71200000000002,
+        "holdSeconds": 2,
+        "fadeStart": 144.71200000000002,
+        "fadeEnd": 145.71200000000002
+      }
+    },
+    {
+      "name": "evsecrets-footsteps-334457",
+      "start": 53.03699999999999,
+      "source": "assets/audio/sources/evsecrets-334457-footsteps.mp3",
+      "sourceSha256": "ce92c57177a81f925090b552b298fce87256e5d44c9ddbf0538b3d26e748abb1",
+      "sourceUrl": "https://freesound.org/people/evsecrets/sounds/334457/",
+      "author": "evsecrets",
+      "license": "CC0 1.0",
+      "excerpt": {
+        "start": 1.4,
+        "seconds": 1.1
+      },
+      "underSpeech": false,
+      "insertedPause": 1.45
+    },
+    {
+      "name": "beussa-749880",
+      "start": 132.757,
+      "source": "assets/audio/sources/beussa-749880.mp3",
+      "sourceSha256": "4b38b5c58abb206d5b86b9d5b6a3acde8eea90c288ef194b4a67503fe659b4a9",
+      "sourceUrl": "https://freesound.org/people/Beussa/sounds/749880/",
+      "author": "Beussa",
+      "license": "CC0 1.0",
+      "excerpt": {
+        "start": 0,
+        "seconds": 0.678
+      },
+      "underSpeech": false,
+      "insertedPause": 1.05
+    }
+  ],
+  "sha256": "a54b1651b9761d9d4919157efcdb1bff413c2c86e4ddaaf7502e975553b3841a",
+  "cityBedRevision": {
+    "date": "2026-11-23",
+    "source": "tools/remount-s021-city-bed.cjs",
+    "baseFile": "s021-mixed-v1.mp3",
+    "baseSha256": "144f740a266b7a63efc718565886c2c6e099f10888ed884b6329a16598a42d45",
+    "sourceTakeSha256": "f56d3ae011e6cb6746fd6a69287ae0ad56750fa441d411ecad43337db269bba7",
+    "bodyInputSha256": "5767a5342fc8e3d9633c0440d34f97cf47ed70f64be47353556ad3f0deb3bb76",
+    "retainedPcmSha256": "a2eb9d69279554465c41d38ccf61e4eaec40288d62d80b88633a7daf3f1a5ee7",
+    "retainedUntilBodySeconds": 137.21200000000002,
+    "quietHandlePeakDbFS": -60.76657360480111,
+    "allRetainedSpeechSamplesIdentical": true,
+    "removedClosingBreath": true,
+    "removedClosingPaper": true,
+    "midDialogueEffectsPreserved": true,
+    "voiceRetimed": false,
+    "newRequests": 0,
+    "teacherFinalApproval": false
+  }
+}

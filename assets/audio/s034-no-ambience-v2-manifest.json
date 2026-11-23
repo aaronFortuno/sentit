@@ -1,7 +1,7 @@
 {
   "code": "S034",
   "activity": "ca-S034",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s034-no-ambience-v2.mp3",
   "introFile": "s034-mixed-v1-intro.mp3",
   "bodyFile": "s034-no-ambience-v2-cos.mp3",
@@ -88,5 +88,19 @@
     "chairInputSha256": "3b35dcdd154fa0bf271e1be4224b11ba06b04ef3016f037e10ffa26d5a0299ab",
     "chairTimingUnchanged": true,
     "authorization": "Docent 23/11: retirar l’ambient inicial de cortines/sala; conservar la cadira i la resta del muntatge."
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S034 validat per publicació definitiva",
+    "audioSha256": "f08591a55b092201f4affc58953249a06d0413217aec26db1e067cce8d730f3c",
+    "editorialFingerprint": "51f471384e53ef49bb40a84025d12353ab727b0ef1ca2fdf9730630c68cf7041",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/lassaig-que-semblava-una-funcio-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

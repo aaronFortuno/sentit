@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "code": "S034",
+  "file": "lassaig-que-semblava-una-funcio-v1.webp",
+  "references": [
+    "../characters/ferran-model-sheet-v1.webp",
+    "../characters/aina-model-sheet-v1.webp"
+  ],
+  "prompt": "Use case: illustration-story. Create one contextual illustration for Sentit worksheet and catalogue, landscape 3:2, 1536x1024. Delicate ink, soft watercolor, muted sage, dusty theatre red and ochre, airy warm white edges. References are canonical character identity sheets ONLY, not edit targets; no labels or sheet layout. Grandfather Ferran age70 with wavy gray hair, short white beard, round dark glasses, charcoal cardigan over green checked shirt. Aina age10–12, dark straight bob and fringe, thin round glasses, ochre sweatshirt. They stand in the side aisle of an empty small local theatre, present day. Ferran gently parts a dusty red curtain to show Aina the empty, unlit stage; she leans forward to look with an interested smile. Concrete exploratory action and clearly recognizable theatre interior, warm and natural, not posed portraits. Keep the stage completely empty with plain wooden floor: no box, no chair or props on stage. The seats are empty and secondary. No people besides these two, no audience, no applause, bows, standing ovation, posters, dates, tape, programme, letters, numbers, text, logos, watermark or speech bubbles. Do not illustrate the childhood misunderstanding or disclose any question answer. Keep faces, ages and clothes consistent with references, hands anatomically natural, enough open warm-paper space for a clean printable image at80mm."
+}

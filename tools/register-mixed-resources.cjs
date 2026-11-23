@@ -5,7 +5,7 @@ const fs=require('node:fs/promises'),path=require('node:path'),{createHash}=requ
 const root=path.resolve(__dirname,'..'),work=path.resolve(root,'../output/sentit-primera-tanda'),sha=b=>createHash('sha256').update(b).digest('hex');
 async function main(){
  const {activities}=await import('../catalogue.js'),{soundSources}=await import('../content/sound-sources.js'),{musicCatalogue}=await import('../content/music-catalogue.js'),resources={};
- const mixedKeys=new Set(activities.filter(e=>/-(?:mixed|timing|directives|no-ambience|no-opening|title|news|corridor|classroom|train|breaths|clean|inline-paper|tail)-v\d+|-news-(?:common|repair)-v\d+/.test(e.audio??'')).map(e=>e.language+'-'+e.code));
+ const mixedKeys=new Set(activities.filter(e=>/-(?:mixed|timing|directives|no-ambience|no-opening|title|news|corridor|hallway|classroom|city-bed|train|breaths|clean|inline-paper|tail)-v\d+|-news-(?:common|repair)-v\d+/.test(e.audio??'')).map(e=>e.language+'-'+e.code));
  for(const recording of soundSources)recording.usedBy=recording.usedBy.filter(id=>!mixedKeys.has(id));
  for(const entry of activities){
   const report=await fs.readFile(path.join(root,`assets/audio/${entry.code.toLowerCase()}-production-manifest.json`),'utf8').then(JSON.parse).catch(e=>{if(e.code==='ENOENT')return null;throw e;});
@@ -44,6 +44,8 @@ async function main(){
   if(report.tailRevision)resources[key].recipe='tools/finish-s035-tail.cjs';
   if(report.openingRevision)resources[key].recipe=report.openingRevision.source;
   if(report.newsTitleRevision){resources[key].recipe=report.newsTitleRevision.source;resources[key].voices+=' Presentació completa recuperada; primera frase pendent del proper lot de Mar, amb el paràgraf complet per comparar.';}
+  if(report.cityBedRevision)resources[key].recipe=report.cityBedRevision.source;
+  if(report.reviewMontageRevision){resources[key].recipe=report.reviewMontageRevision.source;if(report.reviewMontageRevision.unresolvedVoicePart)resources[key].voices+=' Torn del Biel «Llavors podem tenir aigua al voltant sense veure-la?» pendent d’esmena de veu; pauses i ambient revisats.';}
  }
  const previews=JSON.parse(await fs.readFile(path.join(root,'assets/audio/batch-voice-previews.json'),'utf8').catch(e=>{if(e.code==='ENOENT')return '[]';throw e;}));
  for(const preview of previews){const entry=activities.find(e=>e.code===preview.code);if(entry.audio)continue;resources[entry.language+'-'+entry.code]={voices:Object.entries(entry.production.voices).map(([name,voice])=>`${name}: ${voice}`).join('; ')+`. Lot ${preview.batch}, veus rebudes i pendents d’audició.`,sounds:'Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.',recipe:'tools/prepare-batch-voice-previews.cjs'};}

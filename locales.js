@@ -1,6 +1,7 @@
 export const strings = {
   ca: {
     language: 'ca',
+    releaseFinalFourAndCleanBeds: 'S006, S034, S035 i S047 definitives, amb il·lustracions i solucionaris nets. S021 i S037 remuntades amb ambients continus i finals nets; pendents d’audició. S007 amb pauses netes i un altre fons d’aula; una frase del Biel pendent d’esmena de veu. Cap síntesi nova.',
     releasePublishingAndAmbience: 'Vuit publicacions definitives amb il·lustracions i solucionaris nets. S035, S043 i S047 amb muntatges revisats per tornar a escoltar. S029 amb presentació recuperada i primer paràgraf en cua; noves validacions de guions i qualificacions actualitzades.',
     releaseFourVoiceBatches: 'Quatre lots rebuts amb veus per a deu comprensions, disponibles a les fitxes per escoltar-les abans de fer el muntatge. Originals conservats i metadades intercalades retirades en local. Seguiment de producció i cua actualitzats.',
     releasePlainVoiceBatch: 'S048, S049, S050, S051, S052, S074 i S076 validades per a veus. S028/S048/S049/S050 rebudes en una sola petició amb text sense marques literals de pausa; preses per escoltar, cobertura local comprovada i muntatge pendent. S040/S051/S052 preparades com a següent lot, encara sense enviar. S074 i S076 mantenen curs i dificultat; es confirmaran després d’escoltar-les. A S076 es valorarà passar-la a 6è.',
@@ -280,6 +281,7 @@ export const strings = {
   },
   es: {
     language: 'es',
+    releaseFinalFourAndCleanBeds: 'S006, S034, S035 y S047 definitivas, con ilustraciones y solucionarios limpios. S021 y S037 remontadas con ambientes continuos y finales limpios; pendientes de escucha. S007 con pausas limpias y otro fondo de aula; una frase de Biel pendiente de corrección de voz. Sin síntesis nueva.',
     releasePublishingAndAmbience: 'Ocho publicaciones definitivas con ilustraciones y solucionarios limpios. S035, S043 y S047 con montajes revisados para volver a escuchar. S029 con presentación recuperada y primer párrafo en cola; nuevas validaciones de guiones y niveles actualizados.',
     releaseFourVoiceBatches: 'Cuatro lotes recibidos con voces para diez comprensiones, disponibles en las fichas para escucharlas antes del montaje. Originales conservados y metadatos intercalados retirados en local. Seguimiento de producción y cola actualizados.',
     releasePlainVoiceBatch: 'S048, S049, S050, S051, S052, S074 y S076 validadas para voces. S028/S048/S049/S050 recibidas en una sola petición con texto sin marcas literales de pausa; tomas para escuchar, cobertura local comprobada y montaje pendiente. S040/S051/S052 preparadas como siguiente lote, todavía sin enviar. S074 y S076 mantienen curso y dificultad; se confirmarán tras escucharlas. En S076 se valorará pasarla a 6.º.',

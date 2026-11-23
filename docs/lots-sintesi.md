@@ -77,6 +77,7 @@ P02 reuneix quatre lectures breus del mateix repartiment per conservar els guion
 
 | Peça | Veu | Fragment |
 | --- | --- | --- |
+| [ca-S007](https://sentit.ortogra.fi/#lectura=ca-S007) | Biel · undefined | invisible |
 | [ca-S010](https://sentit.ortogra.fi/#lectura=ca-S010) | Biel · Puck | alternativa |
 | [ca-S017](https://sentit.ortogra.fi/#lectura=ca-S017) | Mireia · Aoede | coordinacio + retorn |
 | [ca-S022](https://sentit.ortogra.fi/#lectura=ca-S022) | Ferran · Algenib | Dues proves TTS: «raíls» i «raïls»; text editorial intacte |

@@ -2,12 +2,12 @@
   "code": "S021",
   "activity": "ca-S021",
   "state": "awaiting-montage-validation",
-  "file": "s021-mixed-v1.mp3",
+  "file": "s021-city-bed-v2.mp3",
   "introFile": "s021-mixed-v1-intro.mp3",
-  "bodyFile": "s021-mixed-v1-cos.mp3",
+  "bodyFile": "s021-city-bed-v2-cos.mp3",
   "offset": 4.968,
-  "bodyDuration": 149.642,
-  "fullDuration": 154.61,
+  "bodyDuration": 146.01200000000003,
+  "fullDuration": 150.98000000000002,
   "voices": {
     "Mireia": "Aoede",
     "Laia": "Leda"
@@ -43,8 +43,8 @@
     "total_thought_tokens": 0,
     "initial_input_tokens": 1171
   },
-  "lufs": -19.33,
-  "peakDbTP": -2.5,
+  "lufs": -18.69,
+  "peakDbTP": -2.48,
   "voiceRetimed": false,
   "effects": [
     {
@@ -55,11 +55,25 @@
       "sourceUrl": "https://freesound.org/people/soaress/sounds/546234/",
       "author": "soaress",
       "license": "CC0 1.0",
+      "underSpeech": true,
       "excerpt": {
         "start": 40,
-        "seconds": 2
+        "seconds": 60
       },
-      "underSpeech": false
+      "sourceTargetLufs": -28,
+      "speechGain": 0.18,
+      "openingGain": 0.35,
+      "raisedGain": 0.55,
+      "lowPassHz": 2600,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "envelope": {
+        "riseStart": 142.21200000000002,
+        "riseEnd": 142.71200000000002,
+        "holdSeconds": 2,
+        "fadeStart": 144.71200000000002,
+        "fadeEnd": 145.71200000000002
+      }
     },
     {
       "name": "evsecrets-footsteps-334457",
@@ -90,21 +104,25 @@
       },
       "underSpeech": false,
       "insertedPause": 1.05
-    },
-    {
-      "name": "beussa-749880",
-      "start": 146.442,
-      "source": "assets/audio/sources/beussa-749880.mp3",
-      "sourceSha256": "4b38b5c58abb206d5b86b9d5b6a3acde8eea90c288ef194b4a67503fe659b4a9",
-      "sourceUrl": "https://freesound.org/people/Beussa/sounds/749880/",
-      "author": "Beussa",
-      "license": "CC0 1.0",
-      "excerpt": {
-        "start": 0,
-        "seconds": 0.678
-      },
-      "underSpeech": false
     }
   ],
-  "sha256": "144f740a266b7a63efc718565886c2c6e099f10888ed884b6329a16598a42d45"
+  "sha256": "a54b1651b9761d9d4919157efcdb1bff413c2c86e4ddaaf7502e975553b3841a",
+  "cityBedRevision": {
+    "date": "2026-11-23",
+    "source": "tools/remount-s021-city-bed.cjs",
+    "baseFile": "s021-mixed-v1.mp3",
+    "baseSha256": "144f740a266b7a63efc718565886c2c6e099f10888ed884b6329a16598a42d45",
+    "sourceTakeSha256": "f56d3ae011e6cb6746fd6a69287ae0ad56750fa441d411ecad43337db269bba7",
+    "bodyInputSha256": "5767a5342fc8e3d9633c0440d34f97cf47ed70f64be47353556ad3f0deb3bb76",
+    "retainedPcmSha256": "a2eb9d69279554465c41d38ccf61e4eaec40288d62d80b88633a7daf3f1a5ee7",
+    "retainedUntilBodySeconds": 137.21200000000002,
+    "quietHandlePeakDbFS": -60.76657360480111,
+    "allRetainedSpeechSamplesIdentical": true,
+    "removedClosingBreath": true,
+    "removedClosingPaper": true,
+    "midDialogueEffectsPreserved": true,
+    "voiceRetimed": false,
+    "newRequests": 0,
+    "teacherFinalApproval": false
+  }
 }

@@ -142,9 +142,10 @@ export const quart = [
   proposal({
     id: 'lassaig-que-semblava-una-funcio', code: 'S034', title: 'L’assaig que semblava una funció', grade: '4', level: 'advanced', genre: 'story', universeIds: ['aina-ferran'],
     recordingCues: [{"before":"record","text":"Base original «Entre dues cortines», amb entrada suau i molt baixa sota Ferran. Sense l’ambient inicial de sala/cortines."},{"after":"calor","text":"Es conserva el moviment de cadira enregistrat, a la mateixa pausa del muntatge anterior."},{"after":"arreglar","text":"Final íntegre de Ferran, pujada musical de dos segons i fosa; sense efectes nous."}],
-    seconds: 113, status: 'ready-for-review', reviewStatus: 'audio-review',
+    seconds: 113, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s034-no-ambience-v2.mp3', tracks: { introduction: './assets/audio/s034-mixed-v1-intro.mp3', body: './assets/audio/s034-no-ambience-v2-cos.mp3' },
     fragment: { start: 5.547416666666667, seconds: 107 },
+    image: { src: './assets/images/lassaig-que-semblava-una-funcio-v1.webp', alt: "L’avi Ferran aparta una cortina per ensenyar a l’Aina l’escenari buit d’un petit teatre.", width: 1536, height: 1024 },
     summary: 'L’avi Ferran recorda com va sortir a saludar tot sol en sentir uns aplaudiments durant un assaig.',
     voices: { Ferran: 'Algenib' }, delivery: 'Record explicat a l’Aina, amb humor sobre la confusió i una vergonya lleu de jove. Una sola veu narrativa, sense representar una nova veu per cada citació. No rematar amb una moral general.',
     editorialFocus: '4t avançada: seguir què sap en Ferran, què no arriba a sentir i com interpreta l’aturada de l’assaig i els aplaudiments. Relacionar dues indicacions i reconstruir la seva confusió.',

@@ -1,0 +1,101 @@
+{
+  "code": "S037",
+  "activity": "ca-S037",
+  "state": "awaiting-montage-validation",
+  "file": "s037-hallway-v2.mp3",
+  "introFile": "s037-hallway-v2-intro.mp3",
+  "bodyFile": "s037-hallway-v2-cos.mp3",
+  "offset": 3.88,
+  "bodyDuration": 89.6,
+  "fullDuration": 93.47999999999999,
+  "voices": {
+    "Laia": "Leda",
+    "Biel": "Puck"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "ac8a3b34fa098dc7a38e788b2cadc9c81d3039b44c7af229a4c9c104184e94cc",
+  "sourceRequestHash": "71f36ff64975b96955626eee9c604f6a5de1b4fc8eb1ffba7fd559c20389b4d8",
+  "batch": "L08",
+  "rawSha256": "56e38fc4c127a624b3e598d3dfb83d3e73a61ee7ab639a0f984c6a91f1b92c24",
+  "takeSha256": "c46b90a92a3ba9905177377531de5c554465587bc0c0d16f4757ed04a983d4c8",
+  "coverage": 0.8829113924050633,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.05,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "bexhillcollege-274213",
+      "start": 0,
+      "source": "assets/audio/sources/bexhillcollege-274213-hallway.mp3",
+      "sourceSha256": "ac07b275131c3517007369de9cd2e3d566e6d0de9fc9ae7c7e3ac0345cbcc5f7",
+      "sourceUrl": "https://freesound.org/people/Bexhillcollege/sounds/274213/",
+      "author": "Bexhillcollege",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "excerpt": {
+        "start": 3,
+        "seconds": 54
+      },
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "sourceTargetLufs": -28,
+      "speechGain": 0.15,
+      "lowPassHz": 1200,
+      "envelope": {
+        "riseStart": 86.49999999999999,
+        "riseEnd": 86.89999999999999,
+        "holdSeconds": 1.5,
+        "fadeStart": 88.39999999999999,
+        "fadeEnd": 89.3
+      }
+    }
+  ],
+  "sha256": "7d35cbadf7bcf7983c13c1bc62322a555e32f37585b0040ea50893b2dc79112f",
+  "reviewMontageRevision": {
+    "date": "2026-11-23",
+    "source": "tools/remount-s007-s037.cjs",
+    "baseFile": "s037-mixed-v1.mp3",
+    "baseSha256": "e0d4df64b7ec71545e1b135035c1c7f6445f26f4557dd8cd5081253368d7f326",
+    "titleRange": {
+      "start": 6.979208333333333,
+      "end": 9.909208333333334
+    },
+    "speechRanges": [
+      {
+        "parts": [
+          "dubte",
+          "missatge",
+          "cartell",
+          "data",
+          "hora",
+          "llegir",
+          "avisar",
+          "comprovar",
+          "nou",
+          "final",
+          "esperar"
+        ],
+        "sourceTake": "S037-T01",
+        "sourceSha256": "c46b90a92a3ba9905177377531de5c554465587bc0c0d16f4757ed04a983d4c8",
+        "start": 18.549208333333333,
+        "end": 103.89920833333333,
+        "startPeakDbFS": -62.70477386496224,
+        "endPeakDbFS": -58.053321564799646,
+        "retainedPcmSha256": "41f8bf3ad1a259049c8600c7b9df45c7b7c50164342401349836e21a8aa335d8",
+        "internalDialogueUnchanged": true
+      }
+    ],
+    "retainedSpeechPcmSha256": "41f8bf3ad1a259049c8600c7b9df45c7b7c50164342401349836e21a8aa335d8",
+    "allRetainedSpeechSamplesIdentical": true,
+    "removedAllOldEffects": true,
+    "continuousAmbience": true,
+    "voiceRetimed": false,
+    "newRequests": 0,
+    "teacherFinalApproval": false,
+    "internalDialogueUnchanged": true
+  }
+}

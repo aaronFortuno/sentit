@@ -1,7 +1,7 @@
 {
   "code": "S006",
   "activity": "ca-S006",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s006-news-common-v2.mp3",
   "introFile": "s006-news-common-v2-intro.mp3",
   "bodyFile": "s006-news-common-v2-cos.mp3",
@@ -89,5 +89,19 @@
     "bodyPcmSha256": "24390d26fbfd44ff33532ec55360da820dc14bb88a74502d4050c4268f336ad1",
     "teacherFinalApproval": false,
     "newRequests": 0
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S006 validat per publicació definitiva amb el nou muntatge",
+    "audioSha256": "3f55fe2548f4e8b1cc9effa4e34b75dfc3c8fc8fdf866eee35f49caa4ea1f853",
+    "editorialFingerprint": "2742d34bbd0e18fc24f139231c3367f93b883db1a78cf7b0bd3dea80b4ef96d7",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/sobre-un-nou-cami-al-parc-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

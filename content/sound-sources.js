@@ -39,8 +39,7 @@ export const soundSources = [
     "sha256": "ce92c57177a81f925090b552b298fce87256e5d44c9ddbf0538b3d26e748abb1",
     "usedBy": [
       "ca-S010",
-      "ca-S021",
-      "ca-S037"
+      "ca-S021"
     ],
     "excerpts": {
       "opening": {
@@ -148,15 +147,12 @@ export const soundSources = [
     "retrievedAt": "2026-11-21",
     "sha256": "4b38b5c58abb206d5b86b9d5b6a3acde8eea90c288ef194b4a67503fe659b4a9",
     "usedBy": [
-      "ca-S044",
-      "ca-S007",
       "ca-S014",
       "ca-S017",
       "ca-S021",
       "ca-S030",
       "ca-S032",
       "ca-S035",
-      "ca-S037",
       "ca-S042",
       "ca-S043"
     ],
@@ -177,11 +173,9 @@ export const soundSources = [
     "retrievedAt": "2026-11-21",
     "sha256": "bdb5a2e1b40bdcec49cf7c3752c186e355e58499ec7d0578022da599d9291bf8",
     "usedBy": [
-      "ca-S007",
       "ca-S011",
       "ca-S024",
-      "ca-S032",
-      "ca-S037"
+      "ca-S032"
     ],
     "treatment": "Dos segons de l’enregistrament a partir del segon 20, amb foses; es retira abans de la salutació. No s’utilitzen el timbre ni converses com a pistes."
   },
@@ -202,7 +196,7 @@ export const soundSources = [
     "usedBy": [
       "ca-S021"
     ],
-    "treatment": "Dos segons a partir del segon 40 a l’obertura, amb foses i retirats abans de les veus. Context urbà de ficció, sense presentar-lo com la ubicació real de la història."
+    "treatment": "Fragment del segon 40 al 100 repetit amb foses creuades i filtrat; ambient molt baix durant tota la conversa, entrada suau i pujada de dos segons seguida de fosa després de l’última paraula. Context urbà de ficció."
   },
   {
     "id": "funkysandwich-871017",
@@ -219,7 +213,6 @@ export const soundSources = [
     "retrievedAt": "2026-11-21",
     "sha256": "91f0758edb74981b079afe514c96645efe829b97c924cec132bb245cbf70c7a6",
     "usedBy": [
-      "ca-S007",
       "ca-S017",
       "ca-S034",
       "ca-S041",
@@ -319,9 +312,7 @@ export const soundSources = [
     "downloadUrl": "https://cdn.freesound.org/previews/257/257357_4781497-hq.mp3",
     "retrievedAt": "2026-11-21",
     "sha256": "06ac8e89305fae9cc977fbcf1a1a22062528195f031d650b90df1a154552da9a",
-    "usedBy": [
-      "ca-S044"
-    ],
+    "usedBy": [],
     "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
   },
   {
@@ -428,8 +419,9 @@ export const soundSources = [
     "retrievedAt": "2026-11-22",
     "sha256": "ac07b275131c3517007369de9cd2e3d566e6d0de9fc9ae7c7e3ac0345cbcc5f7",
     "usedBy": [
-      "ca-S044",
-      "ca-S030"
+      "ca-S030",
+      "ca-S037",
+      "ca-S044"
     ],
     "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
   },
@@ -483,6 +475,25 @@ export const soundSources = [
     "usedBy": [
       "ca-S047"
     ]
+  },
+  {
+    "id": "kyles-450728",
+    "title": "classroom students whispering +presence",
+    "author": "kyles",
+    "url": "https://freesound.org/people/kyles/sounds/450728/",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "origin": "external-recording",
+    "description": "Ambient enregistrat d’alumnes d’institut parlant en veu baixa dins d’una aula.",
+    "file": "assets/audio/sources/kyles-450728.mp3",
+    "rendition": "Previsualització pública HQ en MP3 de Freesound; no és el FLAC original.",
+    "downloadUrl": "https://cdn.freesound.org/previews/450/450728_612689-hq.mp3",
+    "retrievedAt": "2026-11-23",
+    "sha256": "20f19e1eec5394003835bcc940e246b941b2dd733b062c2743dcef1443f7b0c1",
+    "usedBy": [
+      "ca-S007"
+    ],
+    "treatment": "Fragment del segon 5 al 95, amb foses creuades. Filtrat i molt atenuat sota les veus, entrada suau i pujada breu abans de la fosa final."
   }
 ];
 

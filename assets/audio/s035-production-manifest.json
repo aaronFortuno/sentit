@@ -1,7 +1,7 @@
 {
   "code": "S035",
   "activity": "ca-S035",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s035-tail-v3.mp3",
   "introFile": "s035-directives-v2-intro.mp3",
   "bodyFile": "s035-tail-v3-cos.mp3",
@@ -119,5 +119,19 @@
     "voiceRetimed": false,
     "newRequests": 0,
     "teacherFinalApproval": false
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S035 validat per publicació definitiva",
+    "audioSha256": "0ba711c71f5fa39b7c85eac84f1f1c5d8ca639f3087c8c3aa8ea285e6dc76699",
+    "editorialFingerprint": "2fa6ee5433fed66fed795ca61ad1dc6604b87c6756d6827d69dbd2fda2228b23",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/una-pregunta-per-al-menjador-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

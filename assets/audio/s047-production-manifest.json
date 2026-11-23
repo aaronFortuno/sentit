@@ -1,7 +1,7 @@
 {
   "code": "S047",
   "activity": "ca-S047",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s047-train-v3.mp3",
   "introFile": "s047-mixed-v1-intro.mp3",
   "bodyFile": "s047-train-v3-cos.mp3",
@@ -190,5 +190,19 @@
     "houseSpeechStart": 51.939983333333345,
     "voiceRetimed": false,
     "newRequests": 0
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S047 validat per publicació definitiva",
+    "audioSha256": "344f1409128aeee01d9a3c18abee26dceb89fe4779044c210fb2e830fb2cc408",
+    "editorialFingerprint": "04a7b0b557036661dc4b8237e1af4c9f934b9b912bc14c80774142a57625c34f",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/la-maleta-que-feia-soroll-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

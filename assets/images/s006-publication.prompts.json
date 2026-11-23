@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "code": "S006",
+  "file": "sobre-un-nou-cami-al-parc-v1.webp",
+  "references": [
+    "../characters/mar-model-sheet-v1.webp"
+  ],
+  "prompt": "Use case: illustration-story. One Sentit educational oral-comprehension context illustration, landscape3:2 1536x1024, fine ink and gentle watercolor on warm paper with airy fading edges. Supplied Mar model sheet is a canonical IDENTITY reference, not edit target; do not reproduce sheet or labels. Mar is an adult local-radio journalist, long dark brown hair tied low, olive/sage blazer, ivory top, charcoal trousers. Concrete scene: she is recording a short local news report at the edge of a leafy public park, holding a small plain handheld microphone close to her mouth and glancing at a small notebook with pages turned away, natural focused stance, three-quarter figure. Behind her only soft treetops, a plain low wall and vague greenery; warm daylight and muted sage/ochre. Make the act of reporting unmistakable without a studio or neutral portrait pose. NO park paths, map, entrance/gate, signs, library building, pond, swings, steps, wheelchair, pushchair, fence, flowers being planted, gardener, calendar, numbers or event groups; these would reveal listening questions. No other foreground people, no writing, text, logo, station label, watermark or speech bubbles. Preserve Mar's model face and clothing and readable anatomy. Natural illustration at80mm on paper; avoid photorealism."
+}
