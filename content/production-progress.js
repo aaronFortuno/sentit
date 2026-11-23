@@ -350,7 +350,7 @@ export const productionProgress = {
     "plannedNewRequests": 1,
     "repairPlan": "content/audio-repairs.json",
     "listeningApproval": false,
-    "repairComparison": "./proves/correccions-l02.html#S010-alternativa",
+    "repairComparison": "./proves/correccions-l31.html#S010-alternativa",
     "receivedRepairs": [
       {
         "code": "S010",
@@ -371,14 +371,12 @@ export const productionProgress = {
         "part": "alternativa",
         "text": "Des de la plaça anem pel carrer dels Til·lers fins a la farmàcia.",
         "pronunciation": "Til·lers has two consecutive lateral L sounds (l·l), a gently lengthened L, never the palatal LL of lluna. Keep the stressed open E and fluent natural Central Catalan. Do not read the middle dot or say the explanation.",
-        "status": "rejected-wrong-voice",
-        "originalFile": "assets/audio/repairs/l02-s010-alternativa-original.mp3",
-        "candidateFile": "assets/audio/repairs/l02-s010-alternativa-prova.mp3",
+        "status": "received-awaiting-listening",
+        "originalFile": "assets/audio/repairs/l31-s010-alternativa-original.mp3",
+        "candidateFile": "assets/audio/repairs/l31-s010-alternativa-prova.mp3",
         "sourceRawSha256": "5ae1ca4fd12bac21243b7e519981c14bdb2e34319cc06bdc1fbc318f91833fe4",
-        "batchRequestHash": "ef2b891a48e5c2823d4527ce9a4c0fc93ae1951ecaad5c7ce07a30ac584a1a66",
-        "applied": false,
-        "reviewedAt": "2026-11-22",
-        "rejection": "El docent identifica la veu de Laia en una frase de Biel. Cal repetir amb Biel/Puck."
+        "batchRequestHash": "a60fe358a66004eba2e6b742133d7f9780780baf5a8739a3a428828c3e6fa590",
+        "applied": false
       }
     ],
     "gradingDecision": {
@@ -390,7 +388,7 @@ export const productionProgress = {
       "newSynthesisRequests": 0
     },
     "plannedRepair": {
-      "status": "awaiting-compatible-batch",
+      "status": "received-awaiting-listening",
       "speaker": "Biel",
       "voice": "Puck",
       "part": "alternativa",
@@ -398,7 +396,8 @@ export const productionProgress = {
       "direction": "Use the youthful male Biel/Puck voice throughout this sentence, never Laia/Leda. Keep Til·lers as the two lateral L sounds directed in the frozen plan.",
       "reason": "La represa rebuda és de Laia; el docent demana repetir amb Biel/Puck. Després ja està validat.",
       "confirmedAt": "2026-11-22",
-      "newRequests": 0
+      "newRequests": 0,
+      "batch": "L31"
     }
   },
   "ca-S013": {
@@ -517,7 +516,7 @@ export const productionProgress = {
     "plannedNewRequests": 1,
     "repairPlan": "content/audio-repairs.json",
     "listeningApproval": false,
-    "repairComparison": "./proves/correccions-l13.html#S022-dema",
+    "repairComparison": "./proves/correccions-l30.html#S022-rails-dieresis",
     "receivedRepairs": [
       {
         "code": "S022",
@@ -532,10 +531,42 @@ export const productionProgress = {
         "applied": false,
         "reviewedAt": "2026-11-22",
         "rejection": "El docent continua sentint ráils: la indicació de tonicitat no ha millorat la pronunciació."
+      },
+      {
+        "code": "S022",
+        "part": "dema",
+        "text": "Hauria pogut passar el dia mirant els rails i saludant la gent de les parades.",
+        "pronunciation": "Preserve Ferran/Algenib, an older warm narrator. In the auxiliary spelling, pronounce two syllables ra-ÍLS, with stress on I, ordinary lateral L and final S. Read only the sentence, no spelling aloud or instructions.",
+        "trialId": "S022-rails-accent",
+        "ttsWord": "raíls",
+        "ttsText": "Hauria pogut passar el dia mirant els raíls i saludant la gent de les parades.",
+        "canonicalTextChanged": false,
+        "status": "received-awaiting-listening",
+        "originalFile": "assets/audio/repairs/l30-s022-S022-rails-accent-original.mp3",
+        "candidateFile": "assets/audio/repairs/l30-s022-S022-rails-accent-prova.mp3",
+        "sourceRawSha256": "7c44d2c01fff3768eb38f6ec5429d388dda661fe91e6580c8d596556e66b7566",
+        "batchRequestHash": "e976118d4059a3906fef68d10a896878017b880860e49a669844b0cafb799cb1",
+        "applied": false
+      },
+      {
+        "code": "S022",
+        "part": "dema",
+        "text": "Hauria pogut passar el dia mirant els rails i saludant la gent de les parades.",
+        "pronunciation": "Preserve Ferran/Algenib, an older warm narrator. In the auxiliary spelling, pronounce two syllables ra-ÍLS, with stress on I, ordinary lateral L and final S. Read only the sentence, no spelling aloud or instructions.",
+        "trialId": "S022-rails-dieresis",
+        "ttsWord": "raïls",
+        "ttsText": "Hauria pogut passar el dia mirant els raïls i saludant la gent de les parades.",
+        "canonicalTextChanged": false,
+        "status": "received-awaiting-listening",
+        "originalFile": "assets/audio/repairs/l30-s022-S022-rails-dieresis-original.mp3",
+        "candidateFile": "assets/audio/repairs/l30-s022-S022-rails-dieresis-prova.mp3",
+        "sourceRawSha256": "7c44d2c01fff3768eb38f6ec5429d388dda661fe91e6580c8d596556e66b7566",
+        "batchRequestHash": "e976118d4059a3906fef68d10a896878017b880860e49a669844b0cafb799cb1",
+        "applied": false
       }
     ],
     "plannedRepair": {
-      "status": "awaiting-compatible-batch",
+      "status": "received-awaiting-listening",
       "speaker": "Ferran",
       "voice": "Algenib",
       "part": "dema",
@@ -546,7 +577,8 @@ export const productionProgress = {
       "maxNewTrials": 2,
       "source": "Retorn docent 22/11: una o dues oportunitats més abans de recórrer a les vies.",
       "fallback": "les vies",
-      "canonicalTextChanged": false
+      "canonicalTextChanged": false,
+      "batch": "L30"
     }
   },
   "ca-S016": {
@@ -2058,6 +2090,23 @@ export const productionProgress = {
         "status": "applied",
         "note": "Eliminats clic inicial i moviment final de cadira; silencis tècnics reduïts."
       }
+    ],
+    "repairComparison": "./proves/correccions-l31.html#S025-final",
+    "receivedRepairs": [
+      {
+        "code": "S025",
+        "part": "final",
+        "text": "D’acord. I després la deixem preparada per al grup. Aquesta vegada em toca prémer el botó a mi!",
+        "pronunciation": "Keep Laia/Leda youthful and natural. Pronounce prémer fluently with its M before the final ER, never prémre. Read only the supplied complete turn.",
+        "status": "received-awaiting-listening",
+        "originalFile": "assets/audio/repairs/l31-s025-final-original.mp3",
+        "candidateFile": "assets/audio/repairs/l31-s025-final-prova.mp3",
+        "sourceRawSha256": "56e38fc4c127a624b3e598d3dfb83d3e73a61ee7ab639a0f984c6a91f1b92c24",
+        "sourceTakeId": "S025-T01",
+        "sourceTakeSha256": "96daab49592b1dcc9c0c965c97b39c9ade39b1ba56d2e44a738f15ebad3a61bc",
+        "batchRequestHash": "a60fe358a66004eba2e6b742133d7f9780780baf5a8739a3a428828c3e6fa590",
+        "applied": false
+      }
     ]
   },
   "ca-S033": {
@@ -3165,13 +3214,11 @@ export const productionProgress = {
     "voicePreviewFile": "./assets/audio/s061-voices-review-v2.mp3",
     "voiceReviewUpdate": {
       "file": "./assets/audio/s061-voices-review-v2.mp3",
-      "at": "2026-11-22",
-      "conversion": "removed-35-interleaved-c2pa-id3-tags",
+      "at": "2026-11-23",
       "summary": {
-        "ca": "Veus netes validades pel docent; només falta la locució inicial del títol.",
-        "es": "Voces limpias validadas por el docente; solo falta la locución inicial del título."
-      },
-      "reviewedAt": "2026-11-23"
+        "ca": "Cos de veus validat. La presentació nova ja és a «Escolta les esmenes», pendent de confirmar abans del muntatge.",
+        "es": "Cuerpo de voces validado. La presentación nueva está en «Escucha las correcciones», pendiente de confirmar antes del montaje."
+      }
     },
     "bodyVoiceApproval": {
       "status": "approved",
@@ -3197,11 +3244,29 @@ export const productionProgress = {
       "speaker": "Laia",
       "voice": "Leda",
       "text": "Comprensió oral. El curt que començava pel final.",
-      "status": "awaiting-compatible-batch",
+      "status": "received-awaiting-listening",
       "scope": "missing-title",
-      "sourceTakeSha256": "f8c2abe90710bcd8f81d4437c03c30b36c5c1be4ac58f2c7a46e63e0aa60cd4b"
+      "sourceTakeSha256": "f8c2abe90710bcd8f81d4437c03c30b36c5c1be4ac58f2c7a46e63e0aa60cd4b",
+      "batch": "L31"
     },
-    "teacherAssessment": "Veus del cos validades després de la neteja. Presentació inicial pendent; sense validació global ni muntatge encara."
+    "teacherAssessment": "Veus del cos validades després de la neteja. Presentació inicial pendent; sense validació global ni muntatge encara.",
+    "repairComparison": "./proves/correccions-l31.html#S061-introduction",
+    "receivedRepairs": [
+      {
+        "code": "S061",
+        "part": "introduction",
+        "text": "Comprensió oral. El curt que començava pel final.",
+        "pronunciation": "Read the exercise introduction and title exactly once in the same youthful Laia/Leda voice. Do not start the dialogue or add a third voice.",
+        "status": "received-awaiting-listening",
+        "missingOriginal": true,
+        "candidateFile": "assets/audio/repairs/l31-s061-introduction-prova.mp3",
+        "sourceRawSha256": "31d64681f63f83a2ea00ceaae4e856d2c22a5a1c3eaa089c652442b3ecebf497",
+        "sourceTakeId": "S061-T01",
+        "sourceTakeSha256": "f8c2abe90710bcd8f81d4437c03c30b36c5c1be4ac58f2c7a46e63e0aa60cd4b",
+        "batchRequestHash": "a60fe358a66004eba2e6b742133d7f9780780baf5a8739a3a428828c3e6fa590",
+        "applied": false
+      }
+    ]
   },
   "ca-S082": {
     "state": "published",
@@ -3819,18 +3884,51 @@ export const productionProgress = {
       "voice": "Algenib",
       "text": "Els grans anaven d’un costat a l’altre per saber què havia passat. Mentrestant, la gent s’asseia i els petits corríem entre les cadires. El pare va anar a buscar l’acordió, que havia deixat a casa d’aquell veí, a la planta baixa, perquè no li fes nosa.",
       "sourceTakeSha256": "760143315f68bf9b649e208ed3e37c6ad3e325488f8b73198d1a1b8099367da3",
-      "status": "awaiting-compatible-batch",
-      "pronunciation": "In s’asseia, place the stress on the E syllable: as-SE-ia, not on I. Keep the following i els petits as the separate conjunction and phrase, fluently linked without changing any words. Preserve the warm older male Ferran/Algenib character. Pronunciation directions are not spoken."
-    }
+      "status": "received-awaiting-listening",
+      "pronunciation": "In s’asseia, place the stress on the E syllable: as-SE-ia, not on I. Keep the following i els petits as the separate conjunction and phrase, fluently linked without changing any words. Preserve the warm older male Ferran/Algenib character. Pronunciation directions are not spoken.",
+      "batch": "L30"
+    },
+    "repairComparison": "./proves/correccions-l30.html#S070-esperar",
+    "receivedRepairs": [
+      {
+        "code": "S070",
+        "part": "esperar",
+        "text": "Els grans anaven d’un costat a l’altre per saber què havia passat. Mentrestant, la gent s’asseia i els petits corríem entre les cadires. El pare va anar a buscar l’acordió, que havia deixat a casa d’aquell veí, a la planta baixa, perquè no li fes nosa.",
+        "pronunciation": "In s’asseia, place the stress on the E syllable: as-SE-ia, not on I. Keep the following i els petits as the separate conjunction and phrase, fluently linked without changing any words. Preserve the warm older male Ferran/Algenib character. Pronunciation directions are not spoken.",
+        "status": "received-awaiting-listening",
+        "originalFile": "assets/audio/repairs/l30-s070-esperar-original.mp3",
+        "candidateFile": "assets/audio/repairs/l30-s070-esperar-prova.mp3",
+        "sourceRawSha256": "f59f33398e753916473bd88dc78345ff02faeedc4f4bb046275f9d453bc4b561",
+        "sourceTakeId": "S070-T01",
+        "sourceTakeSha256": "760143315f68bf9b649e208ed3e37c6ad3e325488f8b73198d1a1b8099367da3",
+        "batchRequestHash": "e976118d4059a3906fef68d10a896878017b880860e49a669844b0cafb799cb1",
+        "applied": false
+      }
+    ]
   },
   "ca-S072": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-23T09:49:01.707Z",
     "editorialFingerprint": "b7efd9ded637df90aa55d3793d959d447a76ec667d03cd13e19ad338560c60a6",
     "plannedNewRequests": 1,
     "listeningApproval": false,
     "confirmation": "S072 validat per pujar a síntesi de veus",
-    "reason": "Validació docent explícita del guió, veus i escaleta. Preparar en un lot compatible abans de qualsevol enviament."
+    "reason": "Validació docent explícita del guió, veus i escaleta. Preparar en un lot compatible abans de qualsevol enviament.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S072-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L30"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-23T21:49:32.020Z",
+    "voicePreview": "./proves/veus-rebudes.html#S072",
+    "voicePreviewFile": "./assets/audio/s072-voices-review-v1.mp3"
   },
   "ca-S069D": {
     "state": "published",
@@ -3920,12 +4018,27 @@ export const productionProgress = {
   },
   "ca-S060": {
     "editorialFingerprint": "93c4356933cf3407225b79f23a9b40ac40d78185ac177c5dd6a77c3c1c6bfccb",
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-23T09:53:37.288Z",
     "plannedNewRequests": 1,
     "listeningApproval": false,
     "confirmation": "Diàleg S060 validat per síntesi de veu, dificultat intermèdia i passadís atenuat de fons",
-    "reason": "Guió validat pel docent amb metadades i escaleta requalificades; pendent de lot compatible."
+    "reason": "Guió validat pel docent amb metadades i escaleta requalificades; pendent de lot compatible.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S060-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L31"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-23T21:51:41.247Z",
+    "voicePreview": "./proves/veus-rebudes.html#S060",
+    "voicePreviewFile": "./assets/audio/s060-voices-review-v1.mp3"
   },
   "ca-S066": {
     "editorialFingerprint": "9faf67197254fd1dad8710cf27c885f88bd0a7f1bbe7b969f2090298fed209fe",
@@ -3979,13 +4092,28 @@ export const productionProgress = {
     }
   },
   "ca-S059": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-23",
     "editorialFingerprint": "90553a1f4742942d52958320c3210f077f94a7d091ba4b3fdd6332d08d713d1e",
     "plannedNewRequests": 1,
     "listeningApproval": false,
     "confirmation": "S059 validat per síntesi de veus",
-    "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar."
+    "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S059-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L31"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-23T21:51:41.247Z",
+    "voicePreview": "./proves/veus-rebudes.html#S059",
+    "voicePreviewFile": "./assets/audio/s059-voices-review-v1.mp3"
   },
   "ca-S065": {
     "state": "published",
@@ -4133,9 +4261,27 @@ export const productionProgress = {
       "voice": "Algenib",
       "text": "Aina, en aquest sobre hi guardo quatre entrades. Són del mateix teatre i tenen el mateix color blau, però dues són d’un diumenge i dues, del dissabte següent. Si les mires de pressa semblen iguals. A mi em van fer passar una bona vergonya.",
       "sourceTakeSha256": "be81a7fabf103859d65f69972f783d0fa1b9777fd8c943f8c4676659fedd0ba3",
-      "status": "awaiting-compatible-batch",
-      "pronunciation": "Aina is the Catalan name /ˈaj.nə/: start clearly with an open A and the AI diphthong, as in the beginning of Catalan aire, never EI or Eina. Keep the warm older male Ferran/Algenib identity and a fluent natural sentence. Do not spell the name, add a lead-in, or read these directions."
-    }
+      "status": "received-awaiting-listening",
+      "pronunciation": "Aina is the Catalan name /ˈaj.nə/: start clearly with an open A and the AI diphthong, as in the beginning of Catalan aire, never EI or Eina. Keep the warm older male Ferran/Algenib identity and a fluent natural sentence. Do not spell the name, add a lead-in, or read these directions.",
+      "batch": "L30"
+    },
+    "repairComparison": "./proves/correccions-l30.html#S071-sobre",
+    "receivedRepairs": [
+      {
+        "code": "S071",
+        "part": "sobre",
+        "text": "Aina, en aquest sobre hi guardo quatre entrades. Són del mateix teatre i tenen el mateix color blau, però dues són d’un diumenge i dues, del dissabte següent. Si les mires de pressa semblen iguals. A mi em van fer passar una bona vergonya.",
+        "pronunciation": "Aina is the Catalan name /ˈaj.nə/: start clearly with an open A and the AI diphthong, as in the beginning of Catalan aire, never EI or Eina. Keep the warm older male Ferran/Algenib identity and a fluent natural sentence. Do not spell the name, add a lead-in, or read these directions.",
+        "status": "received-awaiting-listening",
+        "originalFile": "assets/audio/repairs/l30-s071-sobre-original.mp3",
+        "candidateFile": "assets/audio/repairs/l30-s071-sobre-prova.mp3",
+        "sourceRawSha256": "f59f33398e753916473bd88dc78345ff02faeedc4f4bb046275f9d453bc4b561",
+        "sourceTakeId": "S071-T01",
+        "sourceTakeSha256": "be81a7fabf103859d65f69972f783d0fa1b9777fd8c943f8c4676659fedd0ba3",
+        "batchRequestHash": "e976118d4059a3906fef68d10a896878017b880860e49a669844b0cafb799cb1",
+        "applied": false
+      }
+    ]
   },
   "ca-S054": {
     "state": "published",
@@ -4200,7 +4346,8 @@ export const productionProgress = {
     },
     "voiceApproval": false,
     "missingVoiceParts": [
-      "introduction"
+      "introduction",
+      "opening-greeting"
     ],
     "voicesReceivedAt": "2026-11-23T19:47:41.102Z",
     "voicePreview": "./proves/veus-rebudes.html#S056",
@@ -4209,19 +4356,38 @@ export const productionProgress = {
       "file": "./assets/audio/s056-voices-review-v1.mp3",
       "at": "2026-11-23",
       "summary": {
-        "ca": "Veus netes de metadades, sense muntatge. La presentació només diu «Comprensió oral»: falta «El taller canvia de casa. Notícia de ficció». Pots revisar tota la resta de les veus; el títol queda pendent de reposar.",
-        "es": "Voces limpias de metadatos, sin montaje. La presentación solo dice «Comprensió oral»: falta «El taller canvia de casa. Notícia de ficció». Puedes revisar el resto de las voces; el título queda pendiente."
+        "ca": "Resta de la locució validada. Cal reposar el títol, «Notícia de ficció» i el «Bon dia» inicial abans del muntatge.",
+        "es": "Resto de la locución validado. Hay que reponer el título, «Notícia de ficció» y el «Bon dia» inicial antes del montaje."
       }
     },
     "plannedRepair": {
       "status": "awaiting-compatible-batch",
-      "scope": "missing-title",
-      "part": "introduction",
+      "scope": "missing-opening",
       "speaker": "Mar",
       "voice": "Erinome",
-      "text": "Comprensió oral. El taller canvia de casa. Notícia de ficció.",
+      "part": "introduction-and-greeting",
+      "text": "Comprensió oral. El taller canvia de casa. Notícia de ficció. Bon dia.",
+      "parts": [
+        {
+          "part": "introduction",
+          "text": "Comprensió oral. El taller canvia de casa. Notícia de ficció."
+        },
+        {
+          "part": "opening-greeting",
+          "text": "Bon dia."
+        }
+      ],
       "sourceTakeId": "S056-T01",
-      "note": "Títol original ja validat, omès parcialment per Gemini a L29. Reposar dins d’un futur lot compatible; cap petició petita automàtica. El cos de veus continua pendent d’audició docent."
+      "note": "Docent confirma tres omissions: títol, Notícia de ficció i salutació inicial. La resta de veu està aprovada. Preparar la reposició exacta dins un lot compatible, comparar abans de muntar."
+    },
+    "bodyVoiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-23",
+      "sourceTakeSha256": "fafe5e399b5421f0e177d5a8602c74da49992434fe756e18fbe6ff13e1e31552",
+      "sourcePreviewFile": "./assets/audio/s056-voices-review-v1.mp3",
+      "sourcePreviewSha256": "08d7d2410e7ecd7bfa44b859cfb9559daf2903e4b2732c17a12e819dc4ccec2e",
+      "scope": "received-body-only; introduction-and-opening-greeting-missing",
+      "confirmation": "Docent confirma la resta de la locució, pendent de reposar títol, Notícia de ficció i el Bon dia inicial."
     }
   },
   "ca-S045D": {
@@ -4317,7 +4483,7 @@ export const productionProgress = {
     "plannedNewRequests": 1,
     "listeningApproval": false,
     "confirmation": "S055 validat per síntesi de veus",
-    "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar.",
+    "reason": "Veus aprovades pel docent; pendent de muntatge amb el fons adequat.",
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -4328,7 +4494,12 @@ export const productionProgress = {
         "L29"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-23",
+      "sourceTakeSha256": "57ba3ed3f69b95b77d0900be5900c6df512cfcabfcefb1b96b6a100c4de4b80a",
+      "confirmation": "Docent: veus validades per pujar a muntatge."
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-23T19:47:41.102Z",
     "voicePreview": "./proves/veus-rebudes.html#S055",
@@ -4533,7 +4704,12 @@ export const productionProgress = {
     "listeningApproval": false,
     "teacherAssessment": "Guió i escaleta validats pel docent; síntesi autoritzada dins d’un lot compatible.",
     "scriptApprovedAt": "2026-11-23",
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-23",
+      "sourceTakeSha256": "03bf3de27f15b5aba9ff14a132aa8107e429f63fdf0fa74f925c2ee25ef44cc3",
+      "confirmation": "Docent: veus validades per pujar a muntatge."
+    },
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -4547,7 +4723,8 @@ export const productionProgress = {
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-23T19:47:41.102Z",
     "voicePreview": "./proves/veus-rebudes.html#S083",
-    "voicePreviewFile": "./assets/audio/s083-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s083-voices-review-v1.mp3",
+    "reason": "Veus aprovades pel docent; pendent de muntatge amb el fons adequat."
   },
   "ca-S084": {
     "state": "voices-received",
@@ -4556,7 +4733,12 @@ export const productionProgress = {
     "listeningApproval": false,
     "teacherAssessment": "Guió i escaleta validats pel docent; síntesi autoritzada dins d’un lot compatible.",
     "scriptApprovedAt": "2026-11-23",
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-23",
+      "sourceTakeSha256": "5717df20f90207c5c7e6ed7ca7dc1725dc22a3b3fc8e2eb159b4a40b92654dd2",
+      "confirmation": "Docent: veus validades per pujar a muntatge."
+    },
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -4570,7 +4752,8 @@ export const productionProgress = {
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-23T19:47:41.102Z",
     "voicePreview": "./proves/veus-rebudes.html#S084",
-    "voicePreviewFile": "./assets/audio/s084-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s084-voices-review-v1.mp3",
+    "reason": "Veus aprovades pel docent; pendent de muntatge amb el fons adequat."
   },
   "ca-S085": {
     "state": "ready-for-voices",
@@ -4591,38 +4774,140 @@ export const productionProgress = {
     "voiceApproval": false
   },
   "ca-S087": {
-    "state": "script-awaiting-validation",
+    "state": "voices-received",
     "editorialFingerprint": "06b28afd8f0c5e4655382befad905102928beb606832c046f8729408eb6897e8",
     "plannedNewRequests": 1,
     "listeningApproval": false,
-    "teacherAssessment": "Guió, preguntes i escaleta revisats independentment; validació docent pendent."
+    "teacherAssessment": "Guió, preguntes i escaleta validats pel docent; preparar un lot compatible.",
+    "scriptApprovedAt": "2026-11-23",
+    "voiceApproval": false,
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S087-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L30"
+      ]
+    },
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-23T21:49:32.020Z",
+    "voicePreview": "./proves/veus-rebudes.html#S087",
+    "voicePreviewFile": "./assets/audio/s087-voices-review-v1.mp3"
   },
   "ca-S088": {
-    "state": "script-awaiting-validation",
+    "state": "voices-received",
     "editorialFingerprint": "d6d6b7eac6f6884693be38cad9f133073eef5c6a1a07befdbaec7984a964225e",
     "plannedNewRequests": 1,
     "listeningApproval": false,
-    "teacherAssessment": "Guió, preguntes i escaleta revisats independentment; validació docent pendent."
+    "teacherAssessment": "Guió, preguntes i escaleta validats pel docent; preparar un lot compatible.",
+    "scriptApprovedAt": "2026-11-23",
+    "voiceApproval": false,
+    "uncertainTurns": [
+      {
+        "start": 235.54,
+        "end": 240.19,
+        "heard": "bon dia a la novel la que em vaig endur em podrieu deixar uns dies mes",
+        "status": "incomplete-turn-awaiting-listening",
+        "originalPreserved": true,
+        "coverageApproved": false,
+        "block": "S088-T01",
+        "part": "hola",
+        "text": "Bon dia. Vinc a tornar la novel·la que em vaig endur. Em falta llegir l’últim capítol, però em sembla que l’havia de tornar avui. Em podríeu deixar uns dies més?",
+        "coverage": 0.48484848484848486
+      }
+    ],
+    "receivedTakes": {
+      "received": [
+        "S088-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L30"
+      ]
+    },
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-23T21:49:32.020Z",
+    "voicePreview": "./proves/veus-rebudes.html#S088",
+    "voicePreviewFile": "./assets/audio/s088-voices-review-v1.mp3",
+    "voiceReviewNote": {
+      "ca": "Possible omissió a la primera intervenció de Ferran: «Em falta llegir l’últim capítol, però em sembla que l’havia de tornar avui». Cal comprovar-ho escoltant; la presa es conserva i no està aprovada.",
+      "es": "Posible omisión en la primera intervención de Ferran, sobre el último capítulo y la fecha de devolución. Hay que comprobarlo escuchando; la toma se conserva y no está aprobada."
+    },
+    "voiceReviewUpdate": {
+      "file": "./assets/audio/s088-voices-review-v1.mp3",
+      "at": "2026-11-23",
+      "summary": {
+        "ca": "Possible omissió a la primera intervenció de Ferran: «Em falta llegir l’últim capítol, però em sembla que l’havia de tornar avui». Cal comprovar-ho escoltant; la presa es conserva i no està aprovada.",
+        "es": "Posible omisión en la primera intervención de Ferran, sobre el último capítulo y la fecha de devolución. Hay que comprobarlo escuchando; la toma se conserva y no está aprobada."
+      }
+    }
   },
   "ca-S089": {
-    "state": "script-awaiting-validation",
+    "state": "ready-for-voices",
     "editorialFingerprint": "f365596e0fcdd33364fffc24e8eefcc6620d443e2512722c12365b8d830eb97a",
     "plannedNewRequests": 1,
     "listeningApproval": false,
-    "teacherAssessment": "Guió, preguntes i escaleta revisats independentment; validació docent pendent."
+    "teacherAssessment": "Guió, preguntes i escaleta validats pel docent; preparar un lot compatible.",
+    "scriptApprovedAt": "2026-11-23",
+    "voiceApproval": false
   },
   "ca-S090": {
-    "state": "script-awaiting-validation",
+    "state": "voices-received",
     "editorialFingerprint": "3945774f4fa3767f1b6bb711464d0fc65da830b6ae0d1b9679ab3d0ef7ab95c7",
     "plannedNewRequests": 1,
     "listeningApproval": false,
-    "teacherAssessment": "Guió, preguntes i escaleta revisats independentment; validació docent pendent."
+    "teacherAssessment": "Guió, preguntes i escaleta validats pel docent; preparar un lot compatible.",
+    "scriptApprovedAt": "2026-11-23",
+    "voiceApproval": false,
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S090-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L31"
+      ]
+    },
+    "missingVoiceParts": [
+      "introduction",
+      "pilota"
+    ],
+    "voicesReceivedAt": "2026-11-23T21:51:41.247Z",
+    "voicePreview": "./proves/veus-rebudes.html#S090",
+    "voicePreviewFile": "./assets/audio/s090-voices-review-v1.mp3",
+    "voiceReviewUpdate": {
+      "file": "./assets/audio/s090-voices-review-v1.mp3",
+      "at": "2026-11-23",
+      "summary": {
+        "ca": "La revisió local no troba el títol ni el primer «Biel, la pilota! Agafa-la, que va cap al camí!». La presa comença amb la resposta del Biel. Pendent d’audició i esmena; no s’ha muntat.",
+        "es": "La revisión local no encuentra el título ni la primera llamada de Laia sobre la pelota. La toma empieza con la respuesta de Biel. Pendiente de audición y corrección; sin montaje."
+      }
+    }
   },
   "ca-S091": {
-    "state": "script-awaiting-validation",
+    "state": "voices-received",
     "editorialFingerprint": "2fabfd886680c27149b3928e8024e32062e652dec3a7714a2e17e6298a41c9db",
     "plannedNewRequests": 1,
     "listeningApproval": false,
-    "teacherAssessment": "Guió, preguntes i escaleta revisats independentment; validació docent pendent."
+    "teacherAssessment": "Guió, preguntes i escaleta validats pel docent; preparar un lot compatible.",
+    "scriptApprovedAt": "2026-11-23",
+    "voiceApproval": false,
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S091-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L31"
+      ]
+    },
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-23T21:51:41.247Z",
+    "voicePreview": "./proves/veus-rebudes.html#S091",
+    "voicePreviewFile": "./assets/audio/s091-voices-review-v1.mp3"
   }
 };

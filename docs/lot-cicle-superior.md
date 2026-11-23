@@ -42,8 +42,8 @@ Laia i Biel · Leda + Puck. Les lectures són independents; no cal haver-ne esco
 | Codi | Títol | Curs · dificultat | Tipologia | Durada prevista | Preguntes | Estat |
 | --- | --- | --- | --- | --- | ---: | --- |
 | [ca-S058](https://sentit.ortogra.fi/#lectura=ca-S058) | La pancarta que tapava la porta | 5è · Accessible | Diàleg | Prevista 1:50–2:15 | 8 | Provisional · pendent del docent |
-| [ca-S059](https://sentit.ortogra.fi/#lectura=ca-S059) | La partida que no cabia a la taula | 5è · Intermèdia | Diàleg | Prevista 1:55–2:25 | 8 | Guió validat |
-| [ca-S060](https://sentit.ortogra.fi/#lectura=ca-S060) | Un soroll darrere de les veus | 6è · Intermèdia | Diàleg | Prevista 1:45–2:10 | 9 | Guió validat |
+| [ca-S059](https://sentit.ortogra.fi/#lectura=ca-S059) | La partida que no cabia a la taula | 5è · Intermèdia | Diàleg | Prevista 1:55–2:25 | 8 | Veus rebudes |
+| [ca-S060](https://sentit.ortogra.fi/#lectura=ca-S060) | Un soroll darrere de les veus | 6è · Intermèdia | Diàleg | Prevista 1:45–2:10 | 9 | Veus rebudes |
 | [ca-S061](https://sentit.ortogra.fi/#lectura=ca-S061) | El curt que començava pel final | 6è · Intermèdia | Diàleg | Prevista 2:40–3:15 | 8 | Provisional · pendent del docent |
 | [ca-S062](https://sentit.ortogra.fi/#lectura=ca-S062) | Dos cartells per al mateix concert | 6è · Avançada | Diàleg | 2:14 | 9 | Definitiva · curs i dificultat per valorar després d’escoltar |
 
@@ -77,7 +77,7 @@ Ferran · Algenib. Les lectures són independents; no cal haver-ne escoltat cap 
 | [ca-S069](https://sentit.ortogra.fi/#lectura=ca-S069) | La pissarra del partit | 5è · Intermèdia | Narració | 1:47 | 8 | Definitiva |
 | [ca-S070](https://sentit.ortogra.fi/#lectura=ca-S070) | El dia que no va sonar el disc | 6è · Accessible | Narració | Prevista 1:55–2:20 | 9 | Provisional · pendent del docent |
 | [ca-S071](https://sentit.ortogra.fi/#lectura=ca-S071) | Les dues entrades blaves | 5è · Avançada | Narració | Prevista 3:10–3:50 | 8 | Provisional · pendent del docent |
-| [ca-S072](https://sentit.ortogra.fi/#lectura=ca-S072) | El quadern de la parada | 6è · Avançada | Narració | Prevista 3:10–3:45 | 9 | Guió validat |
+| [ca-S072](https://sentit.ortogra.fi/#lectura=ca-S072) | El quadern de la parada | 6è · Avançada | Narració | Prevista 3:10–3:45 | 9 | Veus rebudes |
 
 [Filtra el catàleg per aquest repartiment](https://sentit.ortogra.fi/?personatge=ferran) · [Guions i escaletes del bloc](../content/propostes/tanda4/records.js). El filtre també pot mostrar peces de tandes anteriors; activa «Només provisionals» per revisar feina oberta. Les acotacions descriuen recursos proposats, no gravacions ja produïdes.
 

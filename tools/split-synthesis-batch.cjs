@@ -27,18 +27,21 @@ async function main(){
  if([...missingTitles].some(id=>!blocks.some(b=>b.id===id&&b.take&&b.parts[0]==='introduction')))throw Error('Missing-title exception must name an existing whole take.');
  const partialTitles=new Set((process.argv.find(a=>a.startsWith('--partial-introduction='))?.split('=')[1]??'').split(',').filter(Boolean));
  if([...partialTitles].some(id=>missingTitles.has(id)||!blocks.some(b=>b.id===id&&b.take&&b.parts[0]==='introduction')))throw Error('Partial-title exception must name a separate existing whole take.');
+ const missingTurns=new Set((process.argv.find(a=>a.startsWith('--missing-turn='))?.split('=')[1]??'').split(',').filter(Boolean));
+ for(const key of missingTurns){const[id,part]=key.split('/'),block=blocks.find(b=>b.id===id&&b.take),entry=activities.find(e=>e.code===block?.code),index=block?.parts.indexOf(part),spoken=entry?.transcript.find(p=>p.id===part&&p.speaker);if(!block||!spoken||index<1||index>=block.parts.length-1||tokens(spoken.text).length>60)throw Error('Missing-turn exception must name a bounded internal spoken part.');}
  const expected=[],segments=[];
- for(const block of blocks){const entry=activities.find(e=>e.code===block.code);for(const [partIndex,part] of block.parts.entries()){if(part==='introduction'&&missingTitles.has(block.id))continue;const canonical=block.take?(part==='introduction'?entry.introduction:entry.transcript.find(p=>p.id===part)?.text):block.items[0].text;if(!canonical)throw Error('Text d’origen absent.');const partial=part==='introduction'&&partialTitles.has(block.id),text=partial?partialIntroduction(canonical):canonical;const words=tokens(text);segments.push({block:block.id,code:block.code,part,text,...(partial?{partialIntroduction:true,expectedFullText:canonical}:{}),partIndex,partCount:block.parts.length,offset:expected.length,length:words.length});expected.push(...words);}}
+ for(const block of blocks){const entry=activities.find(e=>e.code===block.code);for(const [partIndex,part] of block.parts.entries()){if(part==='introduction'&&missingTitles.has(block.id)||missingTurns.has(block.id+'/'+part))continue;const canonical=block.take?(part==='introduction'?entry.introduction:entry.transcript.find(p=>p.id===part)?.text):block.items[0].text;if(!canonical)throw Error('Text d’origen absent.');const partial=part==='introduction'&&partialTitles.has(block.id),text=partial?partialIntroduction(canonical):canonical;const words=tokens(text);segments.push({block:block.id,code:block.code,part,text,...(partial?{partialIntroduction:true,expectedFullText:canonical}:{}),partIndex,partCount:block.parts.length,offset:expected.length,length:words.length});expected.push(...words);}}
  const alignmentFile=process.argv.find(a=>a.startsWith('--alignment='))?.slice(12);
  const recognition=alignmentFile?JSON.parse(await fs.readFile(path.resolve(alignmentFile),'utf8')):await recognize(raw,path.join(folder,'alignment.json'));
  if(recognition.sha256!==attempt.rawSha256)throw Error('Alineació d’una altra presa.');
  const {map}=align(expected,recognition.words);
  const report=[],uncertainParts=new Set((process.argv.find(a=>a.startsWith('--retain-short-uncertainty='))?.split('=')[1]??'').split(',').filter(Boolean)),uncertainties=[];
+ const incompleteReview=new Set((process.argv.find(a=>a.startsWith('--review-incomplete-turn='))?.split('=')[1]??'').split(',').filter(Boolean));
  for(const segment of segments){const matches=map.slice(segment.offset,segment.offset+segment.length),good=matches.filter(Boolean),coverage=good.length/segment.length;if(!good.length||coverage<.5){const before=map.slice(0,segment.offset).reverse().find(Boolean),after=map.slice(segment.offset+segment.length).find(Boolean);await fs.writeFile(path.join(folder,'alignment-warning.json'),JSON.stringify({batch:id,requestHash:batch.approvedRequestHash,segment:segment.part,block:segment.block,text:segment.text,coverage,start:Math.max(0,(before?.end??0)-.35),end:Math.min(recognition.duration,(after?.start??recognition.duration)+.35)},null,2));
    // Explicitly retain a very short uncertain turn for listening, without claiming
    // that ASR confirmed its content. Never accept a missing/long turn or a block
    // boundary this way. Recognition stays verbatim and the raw take is untouched.
-   const retained=retainShortUncertainty(segment,recognition.words,before,after,uncertainParts);
+   const retained=retainShortUncertainty(segment,recognition.words,before,after,uncertainParts)??reviewIncompleteTurn(segment,good,before,after,incompleteReview);
    if(!retained)throw Error(segment.block+'/'+segment.part+': cobertura local insuficient ('+Math.round(coverage*100)+'%). Conservar presa per revisar.');
    uncertainties.push({...retained,block:segment.block,part:segment.part,text:segment.text,coverage});report.push({...segment,coverage,start:retained.start,end:retained.end,contentUnconfirmed:true});continue;
   }report.push({...segment,coverage,start:good[0].start,end:good.at(-1).end});}
@@ -57,6 +60,8 @@ async function main(){
   }
   if(missingTitles.has(block.id)){info.missingParts=['introduction'];info.titleCut=0;info.body={file:blockFile,sha256:info.sha256,seconds:info.seconds};}
   if(partialTitles.has(block.id)){info.missingParts=['introduction'];info.partialIntroduction={retainedText:partialIntroduction(activities.find(e=>e.code===block.code).introduction),expectedText:activities.find(e=>e.code===block.code).introduction};}
+  const absent=block.parts.filter(part=>missingTurns.has(block.id+'/'+part));if(absent.length){info.missingParts=[...(info.missingParts??[]),...absent];info.omittedSpeech=absent.map(part=>({part,canonicalText:activities.find(e=>e.code===block.code).transcript.find(p=>p.id===part).text,validation:'missing-in-local-review; requires-teacher-audition'}));}
+  info.incompleteParts=uncertainties.filter(u=>u.block===block.id&&u.status==='incomplete-turn-awaiting-listening').map(u=>u.part);
   cuts.push(info);
  }
  await fs.writeFile(path.join(folder,'split.json'),JSON.stringify({batch:id,requestHash:batch.approvedRequestHash,rawSha256:attempt.rawSha256,seconds:recognition.duration,expectedWords:expected.length,recognizedWords:recognition.words.length,coverage:map.filter(Boolean).length/map.length,silences,cuts,uncertainties,pronunciationValidation:'pending-listening'},null,2)+'\n');
@@ -71,4 +76,10 @@ function retainShortUncertainty(segment,words,before,after,allowed){
  return {start:inside[0].start,end:inside.at(-1).end,heard:inside.map(w=>w.word).join(' '),status:'short-turn-awaiting-listening',originalPreserved:true};
 }
 function partialIntroduction(canonical){if(!canonical.startsWith('Comprensió oral. '))throw Error('Unsupported partial introduction; retain and inspect the raw take.');return 'Comprensió oral.';}
-module.exports={tokens,align,silenceCut,retainShortUncertainty,partialIntroduction};
+function reviewIncompleteTurn(segment,good,before,after,allowed){
+ // An explicitly flagged review clip, never a coverage or voice approval.
+ // Keep the measured low coverage, original speech and incomplete-part marker.
+ if(!allowed.has(segment.block+'/'+segment.part)||segment.length<6||segment.length>80||segment.partIndex===0||segment.partIndex===segment.partCount-1||!before||!after||after.start-before.end>30||good.length<2||good.length/segment.length<.25)return null;
+ return{start:good[0].start,end:good.at(-1).end,heard:good.map(w=>w.word).join(' '),status:'incomplete-turn-awaiting-listening',originalPreserved:true,coverageApproved:false};
+}
+module.exports={tokens,align,silenceCut,retainShortUncertainty,partialIntroduction,reviewIncompleteTurn};

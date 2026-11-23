@@ -1,6 +1,6 @@
 import { activities, legacyActivities } from './catalogue.js';
-import { renderRepairPreview, renderVoicePreview } from './repair-preview.js';
-import { strings } from './locales.js?v=0.1.95';
+import { renderRepairPreview, renderVoicePreview } from './repair-preview.js?v=0.1.96';
+import { strings } from './locales.js?v=0.1.96';
 import { defaultFormat, imageOptions, maxLines, questionFormat, renderWorksheet } from './worksheet.js?v=0.1.79';
 import { clockTime, decodeSession, defaultSession, encodeSession, guidedPrompts, validRate, sessionJingles, validJingle } from './session.js';
 import { renderAudioResources } from './audio-resources.js';

@@ -19,7 +19,7 @@ async function buildBatch(activities,plans,repairs,batch){
  if(guestPolicy){if(!plain)throw Error('Els convidats requereixen text pla.');assertGuestPolicy(guestPolicy,characters);}
  let cast;
  const separatorTags=batch.separatorTags??2;if(![1,2].includes(separatorTags))throw Error('Cal almenys una pausa llarga entre blocs.');
- if(new Set(batch.blocks.map(b=>b.extra??b.code+':'+(b.take??b.part))).size!==batch.blocks.length)throw Error('Blocs duplicats al lot.');
+ if(new Set(batch.blocks.map(b=>b.extra??b.retry??b.trial??b.code+':'+(b.take??b.part))).size!==batch.blocks.length)throw Error('Blocs duplicats al lot.');
  for(const ref of batch.blocks){
   if(ref.extra){
    if(!guestPolicy||!cast||ref.code||ref.take||ref.part)throw Error('El tall extern necessita lectures completes compatibles abans.');
@@ -34,7 +34,7 @@ async function buildBatch(activities,plans,repairs,batch){
    continue;
   }
   const entry=activities.find(e=>e.code===ref.code),plan=plans[ref.code];if(!entry||!isEditoriallyReviewed(entry))throw Error(ref.code+': revisió editorial no vigent.');
-  let original,sourceItems,parts,spec,sourceRequestHash;
+  let original,sourceItems,parts,spec,sourceRequestHash,selected;
   if(ref.take){
    if(entry.audio)throw Error(ref.code+': ja té àudio; no repetir la síntesi.');
    spec=productionSpec(entry);assertProductionApproved(entry,spec,plan);
@@ -48,10 +48,11 @@ async function buildBatch(activities,plans,repairs,batch){
    const index=entry.generationPlan.takes.findIndex(t=>t.id===ref.take);if(index<0)throw Error('Presa desconeguda.');
    original=packedProposalRequests(entry)[index];sourceItems=original.input[0].content;parts=entry.generationPlan.takes[index].parts;
   }else{
-   if(guestPolicy)throw Error('Les esmenes requereixen un lot estricte separat dels papers ocasionals.');
-   const correction=repairs[ref.code],repair=correction?.repairs.find(r=>r.part===ref.part);spec=repairSpec(entry);assertProductionApproved(entry,spec,plan);
+   if(guestPolicy&&!guestPolicy.allowAnchorRepairs)throw Error('Les esmenes requereixen un lot estricte separat dels papers ocasionals.');
+   const correction=repairs[ref.code],trialPart=ref.trial?correction?.nextTrials?.part:null,repair=correction?.repairs.find(r=>r.part===(trialPart??ref.part));spec=repairSpec(entry);assertProductionApproved(entry,spec,plan);
    if(!repair||correction.status!=='approved-for-correction')throw Error('Esmena no autoritzada.');
-   original=repairRequest(entry,correction);if(sha(JSON.stringify(original))!==correction.approvedRequestHash)throw Error('Esmena canviada.');
+   const canonical=repairRequest(entry,correction);if(sha(JSON.stringify(canonical))!==correction.approvedRequestHash)throw Error('Esmena canviada.');
+   if(guestPolicy&&(repair.speaker!==guestPolicy.speaker||correction.voices[repair.speaker]!==guestPolicy.voice))throw Error('L’esmena ha de conservar el recurrent de referència.');
    if(correction.sourceTakeId){
     const index=await readJSON(path.join(work,'mixed-batches/takes.json'),{}),source=index[correction.sourceTakeId];
     if(!source||source.code!==ref.code||!source.parts?.includes(repair.part)||source.batchRequestHash!==correction.sourceRequestHash||source.rawBatchSha256!==correction.sourceRawSha256||source.sha256!==correction.sourceTakeSha256||sha(await fs.readFile(source.file))!==correction.sourceTakeSha256)throw Error('Presa de veu original de l’esmena canviada.');
@@ -60,14 +61,14 @@ async function buildBatch(activities,plans,repairs,batch){
     if(source?.requestHash!==correction.sourceRequestHash||source.rawSha256!==correction.sourceRawSha256)throw Error('Origen de l’esmena canviat.');
    }
    if(Date.now()<Date.parse(correction.notBefore))throw Error('Esmena encara bloquejada per quota.');
-   sourceItems=[original.input[0].content[correction.repairs.indexOf(repair)]];parts=[repair.part];
+   selected=require('./batch-repair-source.cjs').selectedRepair(entry,correction,ref,canonical);({original,sourceItems,parts}=selected);
   }
   sourceRequestHash=sha(JSON.stringify(original));
   if(ref.sourceRequestHash!==sourceRequestHash)throw Error(ref.code+': empremta d’origen diferent de la planificada.');
   const speech=original.generation_config.speech_config,voices=Array.isArray(speech)?speech:speech.speakers;
   const start=content.length,items=[],styles=new Set();
   for(const item of sourceItems){
-   const annotation=item.annotations.find(a=>a.type==='speech_metadata'),sourceSpeaker=annotation.speaker??(ref.take?spec.titleSpeaker:repairs[ref.code].repairs.find(r=>r.part===ref.part).speaker),voice=voices.find(v=>v.speaker===annotation.speaker)?.voice??(voices.length===1?voices[0].voice:null);
+   const annotation=item.annotations.find(a=>a.type==='speech_metadata'),sourceSpeaker=annotation.speaker??(ref.take?spec.titleSpeaker:repairs[ref.code].repairs.find(r=>r.part===parts[0]).speaker),voice=voices.find(v=>v.speaker===annotation.speaker)?.voice??(voices.length===1?voices[0].voice:null);
    if(!voice)throw Error('Veu sense correspondència.');
    if(voiceIdentities.has(sourceSpeaker)&&voiceIdentities.get(sourceSpeaker)!==voice)throw Error('Identitat inconsistent dins del lot.');voiceIdentities.set(sourceSpeaker,voice);
    if(!labels.has(voice))labels.set(voice,'Voice'+(labels.size+1));
@@ -95,7 +96,7 @@ async function buildBatch(activities,plans,repairs,batch){
    content[start].annotations[0].style+=' This is a separate recording in a batch. Read this block exactly once, without referring to any other block. The text fields contain all and only the words to speak; never speak labels or instructions. After this block leave the indicated long pauses.';
    content.at(-1).text+=' <long pause>'.repeat(separatorTags);
   }
-  blocks.push({...ref,id:ref.take??`${ref.code}-${ref.part}`,parts,firstItem:start,lastItem:content.length-1,items,productionApproval:fingerprint(entry,spec,plan)});
+  blocks.push({...ref,id:ref.take??selected?.id??`${ref.code}-${ref.part}`,...(selected?.trial?{trial:selected.trial,canonicalText:selected.canonicalText}:{}),parts,firstItem:start,lastItem:content.length-1,items,productionApproval:fingerprint(entry,spec,plan)});
  }
  if(plain){
   if(!cast)throw Error('El text pla d’esmenes requereix almenys una lectura completa del mateix repartiment.');

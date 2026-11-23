@@ -18,8 +18,15 @@ Les preses originals es conserven i la cobertura s’ha comprovat localment. La 
 | --- | --- |
 | [ca-S055](https://sentit.ortogra.fi/#lectura=ca-S055) | [Escolta les veus](../proves/veus-rebudes.html#S055) |
 | [ca-S056](https://sentit.ortogra.fi/#lectura=ca-S056) | [Escolta les veus](../proves/veus-rebudes.html#S056) |
+| [ca-S059](https://sentit.ortogra.fi/#lectura=ca-S059) | [Escolta les veus](../proves/veus-rebudes.html#S059) |
+| [ca-S060](https://sentit.ortogra.fi/#lectura=ca-S060) | [Escolta les veus](../proves/veus-rebudes.html#S060) |
+| [ca-S072](https://sentit.ortogra.fi/#lectura=ca-S072) | [Escolta les veus](../proves/veus-rebudes.html#S072) |
 | [ca-S083](https://sentit.ortogra.fi/#lectura=ca-S083) | [Escolta les veus](../proves/veus-rebudes.html#S083) |
 | [ca-S084](https://sentit.ortogra.fi/#lectura=ca-S084) | [Escolta les veus](../proves/veus-rebudes.html#S084) |
+| [ca-S087](https://sentit.ortogra.fi/#lectura=ca-S087) | [Escolta les veus](../proves/veus-rebudes.html#S087) |
+| [ca-S088](https://sentit.ortogra.fi/#lectura=ca-S088) | [Escolta les veus](../proves/veus-rebudes.html#S088) |
+| [ca-S090](https://sentit.ortogra.fi/#lectura=ca-S090) | [Escolta les veus](../proves/veus-rebudes.html#S090) |
+| [ca-S091](https://sentit.ortogra.fi/#lectura=ca-S091) | [Escolta les veus](../proves/veus-rebudes.html#S091) |
 
 Les previsions provenen dels guions i del calibratge local; cal recalcular-les amb el format definitiu abans d’enviar. Una mateixa veu en dos guions no implica el mateix personatge. No es canvien repartiments ni s’allarguen guions per omplir un lot.
 
@@ -29,13 +36,9 @@ La previsió utilitza el text pla real, amb els títols i sense marques literals
 
 | Proposta | Repartiment | Comprensions | Previsió en text pla | Mida orientativa | Guions validats | Validacions que falten |
 | --- | --- | --- | ---: | --- | ---: | --- |
-| [P07](lot-cicle-superior.md#laia-biel) | Laia i Biel · Leda + Puck | [ca-S059](https://sentit.ortogra.fi/#lectura=ca-S059), [ca-S060](https://sentit.ortogra.fi/#lectura=ca-S060) | 3:39 | Per completar | 2/2 | Cap |
-| [P11](lot-cicle-superior.md#ferran) | Ferran · Algenib | [ca-S072](https://sentit.ortogra.fi/#lectura=ca-S072) | 3:09 | Per completar | 1/1 | Cap |
 | [P13](lot-cicle-superior.md#laia-ona) | Laia i Ona · Leda + Sulafat | [ca-S074](https://sentit.ortogra.fi/#lectura=ca-S074), [ca-S076](https://sentit.ortogra.fi/#lectura=ca-S076) | 5:08 | Per completar | 2/2 | Cap |
 | P19 | Mar i convidats ocasionals · Erinome + Despina | [ca-S085](https://sentit.ortogra.fi/#lectura=ca-S085), [ca-S086](https://sentit.ortogra.fi/#lectura=ca-S086) | 2:40 | Per completar | 2/2 | Cap |
-| P20 | Ferran i convidats ocasionals · Algenib + Achird | [ca-S087](https://sentit.ortogra.fi/#lectura=ca-S087), [ca-S088](https://sentit.ortogra.fi/#lectura=ca-S088) | 2:42 | Per completar | 0/2 | [ca-S087](https://sentit.ortogra.fi/#lectura=ca-S087), [ca-S088](https://sentit.ortogra.fi/#lectura=ca-S088) |
-| P21 | Ferran i convidada ocasional · Algenib + Gacrux | [ca-S089](https://sentit.ortogra.fi/#lectura=ca-S089) | 1:21 | Per completar | 0/1 | [ca-S089](https://sentit.ortogra.fi/#lectura=ca-S089) |
-| P22 | Laia i Biel · Leda + Puck | [ca-S090](https://sentit.ortogra.fi/#lectura=ca-S090), [ca-S091](https://sentit.ortogra.fi/#lectura=ca-S091) | 2:17 | Per completar | 0/2 | [ca-S090](https://sentit.ortogra.fi/#lectura=ca-S090), [ca-S091](https://sentit.ortogra.fi/#lectura=ca-S091) |
+| P21 | Ferran i convidada ocasional · Algenib + Gacrux | [ca-S089](https://sentit.ortogra.fi/#lectura=ca-S089) | 1:21 | Per completar | 1/1 | Cap |
 
 P02 reuneix quatre lectures breus del mateix repartiment per conservar els guions de 3r curts i senzills. Els grups nous de 5è–6è es poden validar per repartiments sencers i es proposen en lots de dues o tres comprensions completes. Les previsions utilitzen el text pla i encara s’han de verificar amb l’entrada definitiva; la validació dels guions no garanteix que la mida final del lot sigui admissible. Les preses ja rebudes s’exclouen d’aquesta taula. [Tanda de 3r–4t](lot-cicle-mitja.md) · [Tanda de 5è–6è per repartiment](lot-cicle-superior.md) · [Composició proposada](../content/synthesis-proposals.json).
 
@@ -44,20 +47,22 @@ P02 reuneix quatre lectures breus del mateix repartiment per conservar els guion
 | Peça | Prova rebuda | Estat actual | Comparació |
 | --- | --- | --- | --- |
 | S010 | Després ja som a la porta. És el camí que vam fer l’any passat. | Validada · pendent d’incorporar | [L01](../proves/correccions-l01.html) |
-| S010 | Des de la plaça anem pel carrer dels Til·lers fins a la farmàcia. | Rebutjada · cal una altra prova | [L02](../proves/correccions-l02.html) |
+| S010 | Des de la plaça anem pel carrer dels Til·lers fins a la farmàcia. | Pendent d’audició | [L02](../proves/correccions-l02.html) |
 | S022 | Hauria pogut passar el dia mirant els rails i saludant la gent de les parades. | Rebutjada · cal una altra prova | [L13](../proves/correccions-l13.html) |
+| S070 | Els grans anaven d’un costat a l’altre per saber què havia passat. Mentrestant, la gent s’asseia i els petits corríem entre les cadires. El pare va anar a buscar l’acordió, que havia deixat a casa d’aquell veí, a la planta baixa, perquè no li fes nosa. | Pendent d’audició | [L30](../proves/correccions-l30.html) |
+| S071 | Aina, en aquest sobre hi guardo quatre entrades. Són del mateix teatre i tenen el mateix color blau, però dues són d’un diumenge i dues, del dissabte següent. Si les mires de pressa semblen iguals. A mi em van fer passar una bona vergonya. | Pendent d’audició | [L30](../proves/correccions-l30.html) |
+| S022 | Hauria pogut passar el dia mirant els rails i saludant la gent de les parades. · prova raíls | Pendent d’audició | [L30](../proves/correccions-l30.html) |
+| S022 | Hauria pogut passar el dia mirant els rails i saludant la gent de les parades. · prova raïls | Pendent d’audició | [L30](../proves/correccions-l30.html) |
+| S010 | Des de la plaça anem pel carrer dels Til·lers fins a la farmàcia. | Pendent d’audició | [L31](../proves/correccions-l31.html) |
+| S025 | D’acord. I després la deixem preparada per al grup. Aquesta vegada em toca prémer el botó a mi! | Pendent d’audició | [L31](../proves/correccions-l31.html) |
+| S061 | Comprensió oral. El curt que començava pel final. | Pendent d’audició | [L31](../proves/correccions-l31.html) |
 
 ### Següents esmenes · encara sense petició
 
 | Peça | Veu | Fragment |
 | --- | --- | --- |
-| [ca-S010](https://sentit.ortogra.fi/#lectura=ca-S010) | Biel · Puck | alternativa |
 | [ca-S017](https://sentit.ortogra.fi/#lectura=ca-S017) | Mireia · Aoede | coordinacio + retorn |
-| [ca-S022](https://sentit.ortogra.fi/#lectura=ca-S022) | Ferran · Algenib | Dues proves TTS: «raíls» i «raïls»; text editorial intacte |
-| [ca-S056](https://sentit.ortogra.fi/#lectura=ca-S056) | Mar · Erinome | Presentació incompleta o omesa: «Comprensió oral. El taller canvia de casa. Notícia de ficció.»; cos pendent d’audició |
-| [ca-S061](https://sentit.ortogra.fi/#lectura=ca-S061) | Laia · Leda | Presentació incompleta o omesa: «Comprensió oral. El curt que començava pel final.»; cos de veus validat |
-| [ca-S070](https://sentit.ortogra.fi/#lectura=ca-S070) | Ferran · Algenib | esperar |
-| [ca-S071](https://sentit.ortogra.fi/#lectura=ca-S071) | Ferran · Algenib | sobre |
+| [ca-S056](https://sentit.ortogra.fi/#lectura=ca-S056) | Mar · Erinome | Presentació incompleta o omesa: «Comprensió oral. El taller canvia de casa. Notícia de ficció. Bon dia.»; cos de veus validat |
 | [ca-S081](https://sentit.ortogra.fi/#lectura=ca-S081) | Elies · Algieba | telefon + final |
 
 Esperen un lot compatible de sis a vuit minuts. Les proves auxiliars de S022 es poden comprovar localment amb `node tools/pronunciation-trials.cjs --only=S022`; aquest comandament no envia cap petició.

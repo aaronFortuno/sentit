@@ -1,6 +1,6 @@
 'use strict';
 const assert=require('node:assert/strict');
-const {tokens,align,silenceCut,retainShortUncertainty,partialIntroduction}=require('./split-synthesis-batch.cjs');
+const {tokens,align,silenceCut,retainShortUncertainty,partialIntroduction,reviewIncompleteTurn}=require('./split-synthesis-batch.cjs');
 const expected=tokens('Bon dia Nora. Aquestes capses són a la sala del costat. Hi anirem després amb la Laia i en Biel.');
 const heard=[{word:'soroll',start:0,end:.1},...expected.map((word,i)=>({word,start:.2+i*.31,end:.4+i*.31})),{word:'soroll',start:9,end:9.2}];
 const aligned=align(expected,heard);assert.equal(aligned.map.filter(Boolean).length,expected.length);assert.equal(aligned.map[0].word,'bon');assert.equal(aligned.map.at(-1).word,'biel');
@@ -17,4 +17,8 @@ const fullIntro='Comprensió oral. El taller canvia de casa. Notícia de ficció
 assert.equal(prefix,'Comprensió oral.');assert(fullIntro.startsWith(prefix));assert.throws(()=>partialIntroduction('Un altre títol.'),/Unsupported/);
 const shortAlignment=align(tokens(prefix),[{word:'comprensió',start:104.85,end:105.39},{word:'oral',start:105.39,end:105.87}]);assert(shortAlignment.map.every(Boolean));
 assert(silenceCut(104.55,104.85,[{start:104.55,end:104.85}])<104.85,'The retained spoken prefix stays in its own recording, never the preceding take');
+const incomplete={...part,length:12},good=[{word:'bon',start:10.2,end:10.4},{word:'dia',start:10.4,end:10.6},{word:'gracies',start:11,end:11.3}];
+assert.equal(reviewIncompleteTurn(incomplete,good,before,after,new Set()),null);
+const review=reviewIncompleteTurn(incomplete,good,before,after,allowed);assert.equal(review.coverageApproved,false);assert.equal(review.status,'incomplete-turn-awaiting-listening');assert.equal(review.start,10.2);assert.equal(review.end,11.3);
+assert.equal(reviewIncompleteTurn({...incomplete,partIndex:0},good,before,after,allowed),null);
 console.log('PASS · Stable alignment trace, silence-only cuts, explicitly retained short uncertain turn and reported partial title; no forced recognition or API call.');

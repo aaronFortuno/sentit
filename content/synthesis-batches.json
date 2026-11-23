@@ -918,6 +918,114 @@
       "estimatedInputTokens": 6312,
       "receipt": "assets/audio/synthesis-batches/l29.json",
       "completedAt": "2026-11-23T19:47:41.102Z"
+    },
+    {
+      "id": "L30",
+      "state": "received",
+      "speechTextFormat": "plain-v1",
+      "execution": "background-v1",
+      "castPolicy": {
+        "kind": "anchor-with-guests-v1",
+        "speaker": "Ferran",
+        "voice": "Algenib",
+        "guestVoice": "Achird",
+        "allowAnchorRepairs": true
+      },
+      "blocks": [
+        {
+          "code": "S072",
+          "take": "S072-T01",
+          "sourceRequestHash": "bf481ad58a6af8516f49c6856e5684c55ab50af62cd3b2c1930e4f928bf82fdd"
+        },
+        {
+          "code": "S087",
+          "take": "S087-T01",
+          "sourceRequestHash": "75fc804cb23137e8f9764aaf61a0d01a29f1347435d42a4550222d75498b0a59"
+        },
+        {
+          "code": "S088",
+          "take": "S088-T01",
+          "sourceRequestHash": "ef1f07c24cbb5769cb10de71c6b015f6770ea9a403e47b84aed444e8b27db170"
+        },
+        {
+          "code": "S070",
+          "part": "esperar",
+          "sourceRequestHash": "e7204c142f62c7ca3e65f6a795d48df00515f44cdcfc9ab7aa638dd577d12fee"
+        },
+        {
+          "code": "S071",
+          "part": "sobre",
+          "sourceRequestHash": "7d1ce5cafedac513bab2e3fbc4fc8c7e66f871234fd438766dac2ad128f0a720"
+        },
+        {
+          "code": "S022",
+          "trial": "S022-rails-accent",
+          "sourceRequestHash": "bc8796afb4163cdaee16c72c0636626739b7fc029173591545b14e1f98e58e3a"
+        },
+        {
+          "code": "S022",
+          "trial": "S022-rails-dieresis",
+          "sourceRequestHash": "d46831be392216fe8f06b362eedc58438c721c31bb6fea9d41e1cdabd934b52c"
+        }
+      ],
+      "authorization": "Docent 23/11: valida íntegrament S087/S088/S089/S090/S091 i autoritza enviar els lots complets de Ferran i Laia/Biel amb les dues peticions gratuïtes restants. Només guions i esmenes ja demanats, una petició cada vegada; veus per revisar abans del muntatge.",
+      "approvedAt": "2026-11-23T21:46:50.161Z",
+      "approvedRequestHash": "e976118d4059a3906fef68d10a896878017b880860e49a669844b0cafb799cb1",
+      "estimatedSeconds": 388,
+      "estimatedInputTokens": 6256,
+      "receipt": "assets/audio/synthesis-batches/l30.json",
+      "completedAt": "2026-11-23T21:49:32.020Z"
+    },
+    {
+      "id": "L31",
+      "state": "received",
+      "speechTextFormat": "plain-v1",
+      "execution": "background-v1",
+      "blocks": [
+        {
+          "code": "S059",
+          "take": "S059-T01",
+          "sourceRequestHash": "80c52515b5877acf5a8cc9fa1a64aeee21b20bdb93dfb1a952bb64719dd7fbca"
+        },
+        {
+          "code": "S060",
+          "take": "S060-T01",
+          "sourceRequestHash": "26e97009fa8e642fae19356f0892ba178861540baf48cbaa7fca62e729920185"
+        },
+        {
+          "code": "S090",
+          "take": "S090-T01",
+          "sourceRequestHash": "40a82a02916946c359f537bbbe148477b2df8f63c56dc4dfdbaad9bbec849f75"
+        },
+        {
+          "code": "S091",
+          "take": "S091-T01",
+          "sourceRequestHash": "26982922039dd89c7300b59d0269628ec9f5098d29eb0270cb716812084c7e45"
+        },
+        {
+          "code": "S010",
+          "part": "alternativa",
+          "retry": "S010-alternativa-v2",
+          "sourceRequestHash": "0a2203769b55d7ab1265790c3fdb980493ef7ebb4f9118af2c76d301dfeae980"
+        },
+        {
+          "code": "S025",
+          "part": "final",
+          "sourceRequestHash": "6daa41bec69fe2d141dda7f1eee06d86d00efa1788c9eaf878a3125c26b59702"
+        },
+        {
+          "code": "S061",
+          "part": "introduction",
+          "sourceRequestHash": "fe1f649d786d5f5b2f58e1ab3307a2ecabcdcb48fc5ae4166c52f05298e09331"
+        }
+      ],
+      "authorization": "Docent 23/11: valida íntegrament S087/S088/S089/S090/S091 i autoritza enviar els lots complets de Ferran i Laia/Biel amb les dues peticions gratuïtes restants. Només guions i esmenes ja demanats, una petició cada vegada; veus per revisar abans del muntatge.",
+      "approvedAt": "2026-11-23T21:46:50.366Z",
+      "approvedRequestHash": "a60fe358a66004eba2e6b742133d7f9780780baf5a8739a3a428828c3e6fa590",
+      "estimatedSeconds": 365,
+      "estimatedInputTokens": 8047,
+      "receipt": "assets/audio/synthesis-batches/l31.json",
+      "completedAt": "2026-11-23T21:51:41.247Z"
     }
   ],
   "calibration": {

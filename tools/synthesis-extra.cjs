@@ -4,6 +4,7 @@ const fs=require('node:fs/promises'),path=require('node:path'),{createHash}=requ
 const root=path.resolve(__dirname,'..'),sha=value=>createHash('sha256').update(value).digest('hex');
 function assertGuestPolicy(policy,characters){
  if(!policy||policy.kind!=='anchor-with-guests-v1')throw Error('Política de convidats desconeguda.');
+ if(policy.allowAnchorRepairs!==undefined&&typeof policy.allowAnchorRepairs!=='boolean')throw Error('Permís d’esmenes no vàlid.');
  if(!characters.some(c=>c.name===policy.speaker&&c.voice.id===policy.voice))throw Error('Veu recurrent de referència desconeguda.');
  if(!policy.guestVoice||characters.some(c=>c.voice.id===policy.guestVoice))throw Error('La veu ocasional envaeix un timbre recurrent.');
 }

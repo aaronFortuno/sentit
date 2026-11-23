@@ -28,7 +28,8 @@
           "status": "awaiting-compatible-batch",
           "voice": "Puck",
           "speaker": "Biel",
-          "instruction": "Use the youthful male Biel/Puck voice throughout this sentence, never Laia/Leda. Keep Til·lers as the two lateral L sounds directed in the frozen plan."
+          "instruction": "Use the youthful male Biel/Puck voice throughout this sentence, never Laia/Leda. Keep Til·lers as the two lateral L sounds directed in the frozen plan.",
+          "id": "S010-alternativa-v2"
         }
       }
     ],
@@ -410,5 +411,55 @@
     ],
     "application": "Compare the complete corrected paragraph with the original before choosing a phrase or whole-turn splice. Preserve all other speech and the canonical spelling s’asseia. No montage or automatic voice approval; wait for a compatible full batch.",
     "approvedRequestHash": "e7204c142f62c7ca3e65f6a795d48df00515f44cdcfc9ab7aa638dd577d12fee"
+  },
+  "S025": {
+    "activity": "ca-S025",
+    "status": "approved-for-correction",
+    "approvedAt": "2026-11-23",
+    "approvalSource": "Docent: corregir l’artefacte de prémer a la darrera intervenció; conservar la frase anterior de tot sol sense regenerar.",
+    "scope": "spoken-turn",
+    "sourceTakeId": "S025-T01",
+    "sourceRequestHash": "ac8a3b34fa098dc7a38e788b2cadc9c81d3039b44c7af229a4c9c104184e94cc",
+    "sourceRawSha256": "56e38fc4c127a624b3e598d3dfb83d3e73a61ee7ab639a0f984c6a91f1b92c24",
+    "sourceTakeSha256": "96daab49592b1dcc9c0c965c97b39c9ade39b1ba56d2e44a738f15ebad3a61bc",
+    "voices": {
+      "Laia": "Leda"
+    },
+    "direction": "Natural Central Catalan, exact recurring youthful identity and clear conversational pace. Read the supplied complete text once, without extra words, stage directions, breaths, music or effects. Keep consonant onsets and final sounds. Instructions are not spoken.",
+    "repairs": [
+      {
+        "part": "final",
+        "speaker": "Laia",
+        "text": "D’acord. I després la deixem preparada per al grup. Aquesta vegada em toca prémer el botó a mi!",
+        "pronunciation": "Keep Laia/Leda youthful and natural. Pronounce prémer fluently with its M before the final ER, never prémre. Read only the supplied complete turn."
+      }
+    ],
+    "application": "Veu només per comparar. Cap substitució ni muntatge abans de validar-ne la dicció i la identitat.",
+    "approvedRequestHash": "6daa41bec69fe2d141dda7f1eee06d86d00efa1788c9eaf878a3125c26b59702"
+  },
+  "S061": {
+    "activity": "ca-S061",
+    "status": "approved-for-correction",
+    "approvedAt": "2026-11-23",
+    "approvalSource": "Docent: cos de S061 validat; falta reposar la locució inicial del títol original, també validat.",
+    "scope": "missing-title",
+    "sourceTakeId": "S061-T01",
+    "sourceRequestHash": "f1a68c184a8ed0118f14d57dc5a685880f5b7affe7562ae9d14cbc273639f768",
+    "sourceRawSha256": "31d64681f63f83a2ea00ceaae4e856d2c22a5a1c3eaa089c652442b3ecebf497",
+    "sourceTakeSha256": "f8c2abe90710bcd8f81d4437c03c30b36c5c1be4ac58f2c7a46e63e0aa60cd4b",
+    "voices": {
+      "Laia": "Leda"
+    },
+    "direction": "Natural Central Catalan, exact recurring youthful identity and clear conversational pace. Read the supplied complete text once, without extra words, stage directions, breaths, music or effects. Keep consonant onsets and final sounds. Instructions are not spoken.",
+    "repairs": [
+      {
+        "part": "introduction",
+        "speaker": "Laia",
+        "text": "Comprensió oral. El curt que començava pel final.",
+        "pronunciation": "Read the exercise introduction and title exactly once in the same youthful Laia/Leda voice. Do not start the dialogue or add a third voice."
+      }
+    ],
+    "application": "Veu només per comparar. Cap substitució ni muntatge abans de validar-ne la dicció i la identitat.",
+    "approvedRequestHash": "fe1f649d786d5f5b2f58e1ab3307a2ecabcdcb48fc5ae4166c52f05298e09331"
   }
 }

@@ -9,7 +9,7 @@ function repairSpec(entry){return entry.code==='S015'?require('./interview-produ
 function repairRequest(entry,plan){
  if(plan.activity!==`${entry.language}-${entry.code}`||plan.repairs.length<1)throw Error('Pla de correcció desconegut.');
  const turns=plan.repairs.map((repair,index)=>{
-  const part=entry.transcript.find(part=>part.id===repair.part);
+  const part=repair.part==='introduction'&&plan.scope==='missing-title'?{speaker:repairSpec(entry).titleSpeaker,text:entry.introduction}:entry.transcript.find(part=>part.id===repair.part);
   if(!part||part.speaker!==repair.speaker||part.text.split(repair.text).length!==2)throw Error('El text de la correcció ha canviat: cal revisar-lo.');
   if(plan.voices[part.speaker]!==repairSpec(entry).voices[part.speaker])throw Error('La veu de la correcció no coincideix.');
   return {speaker:part.speaker,text:repair.text+(index<plan.repairs.length-1?' <long pause>':'')};

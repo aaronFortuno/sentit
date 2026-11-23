@@ -1,0 +1,294 @@
+{
+  "model": "gemini-3.8-flash-tts",
+  "input": [
+    {
+      "type": "user_input",
+      "content": [
+        {
+          "type": "text",
+          "text": "Comprensió oral. El quadern de la parada. \n\nAina, durant un estiu vaig ajudar una tieta que venia coques al mercat dels dissabtes. Ella les feia al seu forn i jo ajudava a preparar les bosses. Algunes persones hi passaven sense haver demanat res, però d’altres ens encarregaven la coca abans perquè els en guardéssim una.\n\nEls encàrrecs els apuntàvem en un quadern de tapes verdes. A una banda del full hi havia el nom i què havien demanat. A l’altra, la tieta feia una marca quan ja s’ho havien endut. Aquell dissabte ella anava entrant i sortint del quartet del darrere, on tenia més safates, i jo em quedava al taulell.\n\nA mig matí vaig veure que encara teníem una coca gran de pinyons al prestatge. Al quadern sortia un encàrrec d’una senyora que es deia Rosa: una coca gran de pinyons. A l’espai de recollida jo no hi veia cap marca. Vaig agafar una bossa i hi vaig escriure el seu nom, per deixar-la preparada.\n\nAl cap d’una estona va tornar una senyora que la tieta coneixia. Va demanar dues pastes petites i, mentre les agafava, vaig sentir que la tieta li deia Rosa. Jo li vaig acostar la bossa de la coca gran. Ella em va mirar sorpresa: ja s’havia endut la seva a primera hora i fins i tot l’havia deixada a casa.\n\nVaig tornar a mirar el quadern. La línia amb el seu nom era allà i la coca del prestatge també. Per un moment vaig pensar que hi devia haver dues clientes que es deien igual. La tieta va venir al taulell i em va preguntar què havia passat. Jo li vaig ensenyar on havia mirat.\n\nA la vora del full hi havia enganxat un paperet amb la llista de coses que havíem de portar al mercat. En passar la pàgina, el paper s’havia girat i tapava just la banda de les marques. La tieta el va aixecar. Sota hi havia la marca de la Rosa i, al costat, una nota que deia que se l’havia enduta ben d’hora.\n\nLa coca gran que quedava al prestatge era una altra. Aquell matí havia vingut menys gent de la que la tieta esperava, i l’havia deixada allà amb les altres coques per vendre a qui en volgués. Jo havia lligat el que veia al prestatge amb el primer encàrrec que s’hi assemblava.\n\nVam treure el nom de la Rosa de la bossa. Ella es va endur les dues pastes petites i va continuar fent la compra. La tieta va subjectar el paperet de la llista a la tapa del quadern, perquè quan passéssim pàgina no tornés a tapar les marques. A mi em va deixar al taulell mentre ella acabava de treure una safata.\n\nPoc abans de plegar, va venir una família i es va endur aquella coca gran per al berenar. Jo encara tenia la bossa que havia preparat. En vaig girar la part on havia escrit el nom i hi vaig posar la coca. La tieta va plegar l’última safata i em va demanar que recollís les bosses buides. Me’n vaig trobar una a cada punta del taulell.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Ferran explica un record a l’Aina amb veu adulta càlida, ritme natural i petites reaccions pròpies de qui recorda una escena. Una sola veu: les persones del passat s’expliquen, no es representen amb altres timbres. Tancaments concrets de la història, sense consell universal afegit. No llegir anotacions ni afegir rialles o paraules. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its story. Keep the assigned physical voices unchanged. This recording has only the supplied cast; guest roles belong only to this scene. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. El pom del calaix. \n\nBon dia. A veure si em pots ajudar. He vingut a buscar un cargol... Un moment, que he portat això per ensenyar-t’ho. Aquí, a la butxaca. Mira, és el pom d’un calaix.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Ferran conserva Algenib, el to càlid, el punt de bon humor i les petites vacil·lacions pròpies. Conversa en el present, sense explicar un record ni fer una lliçó. La persona que li respon és una adulta ocasional, natural i diferenciada. Només dues veus, sense narrador, rialles afegides o acotacions llegides. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the assigned physical voices unchanged. This recording has only the supplied cast; guest roles belong only to this scene. Instructions are not spoken."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Bon dia! És de fusta, oi? El pom es veu sencer. Què li ha passat?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Ferran conserva Algenib, el to càlid, el punt de bon humor i les petites vacil·lacions pròpies. Conversa en el present, sense explicar un record ni fer una lliçó. La persona que li respon és una adulta ocasional, natural i diferenciada. Només dues veus, sense narrador, rialles afegides o acotacions llegides. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Quan he estirat per obrir el calaix, m’he quedat amb el pom a la mà. El cargol que l’aguantava ha desaparegut. He mirat dins del calaix i per terra amb una llanterna, però no l’he trobat.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Deixa-me’l un moment. Va bé que l’hagis portat, així podem provar quin cargol hi encaixa. Aquest és massa prim... Aquest altre sí. Mira com hi entra.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sort! Jo ja em veia comprant un pom nou, i aquest el va pintar la meva neta. Me’n poses dos, de cargols? Si se’m torna a escapar, almenys en tindré un altre.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Aquí els tens, dins d’aquesta bosseta. I el pom, al costat. Te’ls poso junts?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí, gràcies. Ara tot a la butxaca de la cremallera. A l’altra hi duc les monedes i els mocadors, i després no trobo mai res.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Té, ben tancada. Ja em diràs si el calaix torna a obrir bé.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "I tant. Ara cap a casa, que tinc els mitjons tots sobre el llit i em falta el calaix per guardar-los. Moltes gràcies i adeu!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. Un llibre que encara tinc a casa. \n\nBon dia. Vinc a tornar la novel·la que em vaig endur. Em falta llegir l’últim capítol, però em sembla que l’havia de tornar avui. Em podríeu deixar uns dies més?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Ferran conserva Algenib, el to càlid, el punt de bon humor i les petites vacil·lacions pròpies. Conversa en el present, sense explicar un record ni fer una lliçó. La persona que li respon és una adulta ocasional, natural i diferenciada. Només dues veus, sense narrador, rialles afegides o acotacions llegides. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the assigned physical voices unchanged. This recording has only the supplied cast; guest roles belong only to this scene. Instructions are not spoken."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Bon dia, Ferran. Mirem-ho. Treu-la de la bossa, si us plau... Aquesta? A la coberta hi diu “Sopes per a tot l’any”.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Ferran conserva Algenib, el to càlid, el punt de bon humor i les petites vacil·lacions pròpies. Conversa en el present, sense explicar un record ni fer una lliçó. La persona que li respon és una adulta ocasional, natural i diferenciada. Només dues veus, sense narrador, rialles afegides o acotacions llegides. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ai, caram! Aquest sí que me’l sé de memòria. És meu, el tinc a la cuina. He agafat el llibre que no era!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "I la novel·la, on és? Potser la tens a l’altra butxaca de la bossa?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "No, aquesta bossa només té aquest forat gros. La novel·la deu ser al costat de la butaca. Hi vaig deixar un punt de llibre vermell que es veu de lluny. Abans de sortir he passat per la cuina i he agafat aquest.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Recordes com es diu, la novel·la? Amb el títol i el carnet podem mirar fins quan la pots tenir.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "“La barca de la Teresa”. I aquí tens el carnet. Això sí que ho he portat bé!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Mira, encara la pots tenir fins divendres. Tens temps d’acabar-la. Avui és dimecres.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Doncs me’n vaig a llegir aquell capítol. I aquest llibre el torno a la cuina, que em farà més servei. Moltes gràcies!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "De res, Ferran. Fins un altre dia, i bona lectura!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Els grans anaven d’un costat a l’altre per saber què havia passat. Mentrestant, la gent s’asseia i els petits corríem entre les cadires. El pare va anar a buscar l’acordió, que havia deixat a casa d’aquell veí, a la planta baixa, perquè no li fes nosa.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan. Preserve the exact recurring warm older male Ferran/Algenib identity and conversational pace. Read the complete supplied turn once, without title, labels, stage directions, breathing noises, music or effects. Pronunciation directions are not spoken. In s’asseia, place the stress on the E syllable: as-SE-ia, not on I. Keep the following i els petits as the separate conjunction and phrase, fluently linked without changing any words. Preserve the warm older male Ferran/Algenib character. Pronunciation directions are not spoken. This is a separate repair paragraph with no title. Keep the same character voice as in the complete recordings. Read every supplied word once, including the first sentence. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Aina, en aquest sobre hi guardo quatre entrades. Són del mateix teatre i tenen el mateix color blau, però dues són d’un diumenge i dues, del dissabte següent. Si les mires de pressa semblen iguals. A mi em van fer passar una bona vergonya.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan. Preserve the exact recurring warm older male Ferran/Algenib identity and conversational pace. Read the complete supplied turn once, without title, labels, stage directions, breathing noises, music or effects. Pronunciation directions are not spoken. Aina is the Catalan name /ˈaj.nə/: start clearly with an open A and the AI diphthong, as in the beginning of Catalan aire, never EI or Eina. Keep the warm older male Ferran/Algenib identity and a fluent natural sentence. Do not spell the name, add a lead-in, or read these directions. This is a separate repair paragraph with no title. Keep the same character voice as in the complete recordings. Read every supplied word once, including the first sentence. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Hauria pogut passar el dia mirant els raíls i saludant la gent de les parades.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Preserve Ferran/Algenib, an older warm narrator. In the auxiliary spelling, pronounce two syllables ra-ÍLS, with stress on I, ordinary lateral L and final S. Read only the sentence, no spelling aloud or instructions. This is a separate repair paragraph with no title. Keep the same character voice as in the complete recordings. Read every supplied word once, including the first sentence. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Hauria pogut passar el dia mirant els raïls i saludant la gent de les parades.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Preserve Ferran/Algenib, an older warm narrator. In the auxiliary spelling, pronounce two syllables ra-ÍLS, with stress on I, ordinary lateral L and final S. Read only the sentence, no spelling aloud or instructions. This is a separate repair paragraph with no title. Keep the same character voice as in the complete recordings. Read every supplied word once, including the first sentence. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition.",
+              "speaker": "Voice1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "response_format": {
+    "type": "audio",
+    "mime_type": "audio/wav",
+    "sample_rate": 24000
+  },
+  "generation_config": {
+    "speech_config": {
+      "speakers": [
+        {
+          "speaker": "Voice1",
+          "voice": "Algenib"
+        },
+        {
+          "speaker": "Voice2",
+          "voice": "Achird"
+        }
+      ]
+    }
+  },
+  "background": true
+}

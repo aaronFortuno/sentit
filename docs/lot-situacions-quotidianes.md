@@ -1,6 +1,6 @@
 # Situacions quotidianes · guions per validar
 
-23 de novembre de 2026. Converses autònomes del dia a dia. Les fitxes i els solucionaris del web mostren el guió i l’escaleta. S083–S086 tenen validació docent de guió; S087–S091 continuen pendents. La recepció de veus i la seva audició són passos posteriors.
+23 de novembre de 2026. Converses autònomes del dia a dia. Les fitxes i els solucionaris del web mostren el guió i l’escaleta. S083–S091 tenen validació docent de guió; la recepció i l’audició de les veus mantenen les fases pròpies que s’indiquen més avall.
 
 ## Primer bloc · la Mar fora de la ràdio
 
@@ -51,14 +51,23 @@ Pilot separat: [MP3 de veu](../assets/audio/external/mm-pilot-001-voices-v1.mp3)
 
 Els tres diàlegs de Ferran passen en el present: una compra, una visita a la biblioteca i un passeig. Les dues escenes de Laia/Biel mantenen un sol problema concret, amb propostes curtes i humor quotidià. L’univers és «Situacions quotidianes», sense adscriure-les automàticament als records de l’avi o a les troballes dels joves. Achird i Gacrux tampoc estan reservades pels recurrents; són veus candidates, pendents d’audició. El ferreter, el bibliotecari i la Margarida són papers ocasionals.
 
-Aquest segon bloc també ha superat la revisió independent del guió, les 30 preguntes, les 35 cites, l’escaleta i els contextos. Aquestes cinc propostes continuen sense aprovació docent ni àudio.
+Aquest segon bloc també ha superat la revisió independent del guió, les 30 preguntes, les 35 cites, l’escaleta i els contextos. El docent valida les cinc propostes el 23/11. S087/S088/S090/S091 ja tenen veus rebudes; S089 espera material compatible amb Algenib/Gacrux.
 
-### Candidats que poden completar-se després de validar
+### Lots enviats i material en espera
 
-| Possible composició | Estimació parlada | Veus físiques | Condició pendent |
+| Composició | Estimació parlada | Veus físiques | Estat |
 | --- | ---: | --- | --- |
-| S072 + S087 + S088, amb esmenes de S070/S071 i dues proves de S022 | 6:28 | Algenib + Achird | Validar S087/S088; preparar el text i els canvis de paper, comprovar les esmenes exactes i la petició final |
-| S059 + S060 + S090 + S091, amb l’alternativa de S010, final de S025 i títol de S061 | 6:05 | Leda + Puck | Validar S090/S091; comprovar identitats i cada esmena exacta abans de congelar |
+| L30 · S072 + S087 + S088, amb esmenes de S070/S071 i dues proves de S022 | 6:28 | Algenib + Achird | Rebut · 5:37 crus; tres pistes i quatre comparacions per escoltar |
+| L31 · S059 + S060 + S090 + S091, amb l’alternativa de S010, final de S025 i títol de S061 | 6:05 | Leda + Puck | Rebut · 5:25 crus; quatre pistes i tres comparacions per escoltar |
 | S089 amb Gacrux | 1:21 aproximat | Algenib + Gacrux | Esperar més material compatible; no omplir amb una tercera veu |
 
-Són alternatives de planificació, no lots enviats ni aprovacions de correccions. La previsió segueix 170 mots/minut i marge de quatre segons; el muntatge real, les separacions i l’entrada definitiva poden fer-la variar. S087/S088 comparteixen una veu ocasional però són persones diferents: no s’han de presentar com un mateix personatge. La política de convidats preparada per a L29 admet lectures completes i el pilot, però encara manté les esmenes en lots de repartiment estricte; cal preparar i verificar aquella combinació abans de congelar el candidat de Ferran amb esmenes. No es modifica cap lot antic.
+La previsió segueix 170 mots/minut i marge de quatre segons; la durada real pot variar. S087/S088 comparteixen una veu ocasional però són persones diferents. La política de convidats admet ara explícitament esmenes del recurrent de referència amb les seves aprovacions i orígens verificats; els lots antics es mantenen estrictes.
+
+L30/L31 han consumit exactament les dues peticions restants del dia. Els contenidors s’han recuperat localment i s’han retirat 38/28 metadades intercalades, conservant totes les mostres de veu. No s’ha repetit cap petició. La cobertura orientativa és del 86,6%/88,2%, amb les excepcions següents documentades:
+
+- **S088:** cobertura baixa a la primera intervenció de Ferran. Possible omissió de la frase sobre l’últim capítol i el dia de retorn; la presa es publica per revisar, sense certificar-ne el contingut.
+- **S090:** la revisió local no troba la presentació ni «Biel, la pilota! Agafa-la, que va cap al camí!». Es conserva la resposta de Biel i tota la resta, amb l’avís visible.
+- **S022:** dues proves amb «raíls» i «raïls» només a l’entrada de TTS. El text editorial continua amb «rails». Les dues comparacions són independents i encara no s’han aplicat.
+- **S010/S025/S061/S070/S071:** candidats per escoltar, sense substituir cap màster ni donar per corregida la dicció.
+
+El docent valida les veus de S055/S083/S084 per muntar. A S056 queda validada la resta, amb reposició pendent del títol, l’avís de ficció i el «Bon dia» inicial.

@@ -3,7 +3,7 @@ import { openDialog, closeDialog } from './motion.js';
 import { mountAudioSeek } from './audio-seek.js';
 
 export function pendingRepairClips(entry) {
-  return productionProgress[`${entry?.language}-${entry?.code}`]?.receivedRepairs?.filter(repair => repair.applied === false && ['received-awaiting-listening', 'approved-awaiting-application'].includes(repair.status) && repair.candidateFile && repair.originalFile) ?? [];
+  return productionProgress[`${entry?.language}-${entry?.code}`]?.receivedRepairs?.filter(repair => repair.applied === false && ['received-awaiting-listening', 'approved-awaiting-application'].includes(repair.status) && repair.candidateFile && (repair.originalFile||repair.missingOriginal)) ?? [];
 }
 
 let mounted = false;
@@ -61,8 +61,10 @@ export function renderRepairPreview(root, entry, t) {
     for (const repair of repairs) {
       const section = document.createElement('section'); section.className = 'repair-preview-pair';
       const sentence = document.createElement('p'); sentence.textContent = repair.text; sentence.lang = entry.language;
+      const variant=repair.ttsWord?document.createElement('p'):null;if(variant){variant.className='small';variant.textContent=t('repairAuxiliarySpelling')+' «'+repair.ttsWord+'»';}
       const clips = document.createElement('div'); clips.className = 'repair-preview-clips';
       for (const [key, label] of [['originalFile', 'repairOriginal'], ['candidateFile', 'repairNewTake']]) {
+        if(!repair[key])continue;
         const wrapper = document.createElement('label'), caption = document.createElement('span'), audio = document.createElement('audio');
         caption.textContent = t(key === 'candidateFile' && repair.status === 'approved-awaiting-application' ? 'repairApprovedTake' : label); audio.controls = true; audio.preload = 'none'; audio.src = repair[key];
         audio.dataset.repairPart = repair.part; audio.dataset.repairVersion = key;
@@ -70,7 +72,7 @@ export function renderRepairPreview(root, entry, t) {
         audio.addEventListener('play', () => { document.querySelectorAll('audio').forEach(other => { if (other !== audio) other.pause(); }); });
         wrapper.append(caption, audio); clips.append(wrapper);
       }
-      section.append(sentence, clips); list.append(section);
+      section.append(sentence);if(variant)section.append(variant);section.append(clips);list.append(section);
     }
     openDialog(dialog);
   });

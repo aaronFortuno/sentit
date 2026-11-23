@@ -102,7 +102,7 @@ export async function productionDocuments(date) {
         weight+=estimateSynthesis({input:[{content:[extra.canonicalBlock]}]}).words*60/policy.wordsPerMinute;
         batchVoices.add(extra.voice);descriptions.push(extra.id+' · pilot multimodal final');continue;
       }
-      const id = ref.take ?? ref.code + '-' + ref.part;
+      const id = ref.take ?? ref.retry ?? ref.trial ?? ref.code + '-' + ref.part;
       if (receivedIds.has(id)) throw Error(`${batch.id}: received material still listed as pending: ${id}`);
       const entry = activities.find(entry => entry.code === ref.code);
       if (!entry) throw Error('Unknown pending activity: ' + ref.code);
@@ -116,11 +116,11 @@ export async function productionDocuments(date) {
         for (const speaker of Array.isArray(speech) ? speech : speech.speakers) batchVoices.add(speaker.voice);
         descriptions.push(ref.code);
       } else {
-        const plan = repairs[ref.code], repair = plan?.repairs.find(repair => repair.part === ref.part);
+        const plan = repairs[ref.code], trial=plan?.nextTrials?.trials.find(t=>t.id===ref.trial),repair = plan?.repairs.find(repair => repair.part === (trial?plan.nextTrials.part:ref.part));
         if (!repair) throw Error('Unknown pending repair: ' + id);
-        body = { input: [{ content: [{ type: 'text', text: repair.text }] }] };
+        body = { input: [{ content: [{ type: 'text', text: trial?.ttsText??repair.text }] }] };
         batchVoices.add(plan.voices[repair.speaker]);
-        descriptions.push(`${ref.code}: ${repair.text}`);
+        descriptions.push(`${ref.code}: ${trial?.ttsText??repair.text}`);
       }
       const estimate = estimateSynthesis(body);
       weight += estimate.words * 60 / policy.wordsPerMinute + (batch.speechTextFormat==='plain-v1' ? 0 : estimate.longPauses * policy.longPauseSeconds + estimate.shortPauses * policy.shortPauseSeconds + 2 * policy.longPauseSeconds);
@@ -161,16 +161,16 @@ export async function productionDocuments(date) {
   synthesis += '\nP02 reuneix quatre lectures breus del mateix repartiment per conservar els guions de 3r curts i senzills. Els grups nous de 5è–6è es poden validar per repartiments sencers i es proposen en lots de dues o tres comprensions completes. Les previsions utilitzen el text pla i encara s’han de verificar amb l’entrada definitiva; la validació dels guions no garanteix que la mida final del lot sigui admissible. Les preses ja rebudes s’exclouen d’aquesta taula. [Tanda de 3r–4t](lot-cicle-mitja.md) · [Tanda de 5è–6è per repartiment](lot-cicle-superior.md) · [Composició proposada](../content/synthesis-proposals.json).\n\n## Esmenes de veu\n\n| Peça | Prova rebuda | Estat actual | Comparació |\n| --- | --- | --- | --- |\n';
   const repairParts = receipts.flatMap(receipt => receipt.parts.filter(part => part.kind!=='external'&&!/-T\d+$/u.test(part.id)).map(part => ({ ...part, batch: receipt.id })));
   for (const part of repairParts) {
-    const code = part.code, name = part.id.slice(code.length + 1), repair = repairs[code]?.repairs.find(repair => repair.part === name);
+    const code = part.code, name = part.part??part.id.slice(code.length + 1), repair = repairs[code]?.repairs.find(repair => repair.part === name);
     if (isPublished(activities.find(entry => entry.code === code))) continue;
-    const current = progress(activities.find(entry => entry.code === code))?.receivedRepairs?.find(repair => repair.part === name);
+    const current = progress(activities.find(entry => entry.code === code))?.receivedRepairs?.find(repair => repair.part === name&&(!part.trialId||repair.trialId===part.trialId));
     const status = current?.applied ? 'Incorporada · pendent d’audició del muntatge' : current?.status === 'approved-awaiting-application' ? 'Validada · pendent d’incorporar' : current?.status?.startsWith('rejected-') ? 'Rebutjada · cal una altra prova' : 'Pendent d’audició';
-    synthesis += row([code, repair?.text ?? name, status, `[${part.batch}](../proves/correccions-${part.batch.toLowerCase()}.html)`]);
+    synthesis += row([code, part.trialId?`${repair?.text??name} · prova ${part.spokenText?.includes('raíls')?'raíls':'raïls'}`:repair?.text ?? name, status, `[${part.batch}](../proves/correccions-${part.batch.toLowerCase()}.html)`]);
   }
   const newRepairs = pending.filter(entry => progress(entry)?.plannedRepair?.status === 'awaiting-compatible-batch');
   if (newRepairs.length) {
     synthesis += '\n### Següents esmenes · encara sense petició\n\n| Peça | Veu | Fragment |\n| --- | --- | --- |\n';
-    for (const entry of newRepairs) { const repair = progress(entry).plannedRepair; synthesis += row([link(entry), `${repair.speaker} · ${repair.voice ?? entry.production?.voices?.[repair.speaker] ?? "Veu per concretar"}`, repair.trialIds ? 'Dues proves TTS: «raíls» i «raïls»; text editorial intacte' : repair.scope === 'missing-title' ? `Presentació incompleta o omesa: «${repair.text}»; ${progress(entry).bodyVoiceApproval?.status==='approved'?'cos de veus validat':'cos pendent d’audició'}` : repair.scope === 'whole-paragraph-for-comparison' ? `Paràgraf ${repair.part} sencer; comparar el timbre abans de triar entre substituir la primera frase o el paràgraf complet` : repair.parts?.join(' + ') ?? repair.part]); }
+    for (const entry of newRepairs) { const repair = progress(entry).plannedRepair; synthesis += row([link(entry), `${repair.speaker} · ${repair.voice ?? entry.production?.voices?.[repair.speaker] ?? "Veu per concretar"}`, repair.trialIds ? 'Dues proves TTS: «raíls» i «raïls»; text editorial intacte' : ['missing-title','missing-opening'].includes(repair.scope) ? `Presentació incompleta o omesa: «${repair.text}»; ${progress(entry).bodyVoiceApproval?.status==='approved'?'cos de veus validat':'cos pendent d’audició'}` : repair.scope === 'whole-paragraph-for-comparison' ? `Paràgraf ${repair.part} sencer; comparar el timbre abans de triar entre substituir la primera frase o el paràgraf complet` : repair.parts?.map(p=>typeof p==='string'?p:p.part).join(' + ') ?? repair.part]); }
     synthesis += '\nEsperen un lot compatible de sis a vuit minuts. Les proves auxiliars de S022 es poden comprovar localment amb `node tools/pronunciation-trials.cjs --only=S022`; aquest comandament no envia cap petició.\n';
   }
   synthesis += '\nAquestes preses són proves per comparar amb l’original; el [registre de pendents](seguiment-produccio.md#esmenes-obertes) indica què continua obert. La recepció no n’autoritza l’aplicació ni valida el muntatge final.\n\nS011, S025 i S041 tenen retorns posteriors a aquests lots: cal preparar les esmenes d’identitat o pronunciació que descriu el [registre de producció](../content/production-progress.js). Els antics R01–R04 són agrupacions alternatives, no peticions addicionals: part del seu material ja és als lots rebuts.\n\n## Criteris per al proper enviament\n\n1. Guió, veus i escaleta validats pel docent, amb aprovació i empremta vigents. Les propostes noves esperen aquesta confirmació encara que la quota s’hagi restablert.\n2. **6–8 minuts estimats**, com a màxim dues veus. Prioritzar dues o tres comprensions completes amb el mateix repartiment. Els lots petits esperen; una excepció requereix explicar-ne la mida al docent i acordar-la explícitament.\n3. Els nous lots de lectures completes utilitzen `plain-v1`: cap marca literal de pausa al text, guió i repartiment intactes, direcció no parlada a `speech_metadata.style`. L14 és la primera presa d’aquest format i continua pendent d’audició; la cobertura automàtica no certifica la dicció. El format segueix la [documentació oficial de Gemini TTS](https://aistudio.google.com/docs/speech-generation#controllable).\n4. Un únic enviament en curs, almenys 65 segons entre inicis. Comprovar aprovacions, duplicats, mida, espai en disc i límits abans de reservar quota o llegir claus. No repetir automàticament intents incerts.\n5. Conservar resposta i preses crues. Comprovar cobertura, identitats, inici, unions i final; retallar només farciment localitzat amb marges de consonants. El reconeixement automàtic no certifica pronunciació ni timbre.\n6. Muntar i escoltar abans de publicar definitivament. Actualitzar el seguiment després de cada canvi de fase.\n\n## Quota i fonts de dades\n\nAquest document no mostra crèdits ni peticions restants. El recompte vigent es consulta a AI Studio; el registre local ajuda a evitar duplicats i limita enviaments, però no és el comptador del proveïdor. No es conserva aquí una previsió de restabliment que quedi caducada.\n\n- [Manifest de lots](../content/synthesis-batches.json): composició i estat de cada lot.\n- [Aprovacions de guió](../content/production-plans.json) · [Plans exactes d’esmena](../content/audio-repairs.json).\n- [Rebuts d’enviaments](../assets/audio/synthesis-batches) · [Històric llegible](historic-sintesi.md) · [Feina pendent](seguiment-produccio.md).\n\n' + refresh + '\n';

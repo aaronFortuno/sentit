@@ -1,5 +1,12 @@
 # Canvis
 
+## 0.1.96 · 23 de novembre de 2026
+
+- S087–S091 validats pel docent. L30 rep S072/S087/S088, esmenes de S070/S071 i les dues grafies auxiliars de S022; L31 rep S059/S060/S090/S091, el reintent de Biel/Puck a S010, el final de S025 i la presentació de S061. Dues peticions noves: 5:37 i 5:25 crus. S089 queda aprovat en espera de material amb Algenib/Gacrux.
+- Pistes de veus i comparacions disponibles abans de muntar. Les dues proves de «rails» tenen fitxers i etiquetes pròpies; la presentació omesa de S061 mostra només la pista nova, sense inventar un original. Es conserven els intents anteriors i els màsters.
+- S088 conserva una primera intervenció amb possible omissió marcada per a audició; S090 no inclou el títol ni la crida inicial de Laia. Excepcions de revisió explícites, sense forçar el reconeixement ni inflar la cobertura. Avisos a cards i reproductors; cap veu aprovada automàticament.
+- S055, S083 i S084 amb aprovació docent de veus per muntar. S056 té la resta de la locució aprovada, pendent de reposar títol, «Notícia de ficció» i «Bon dia» inicial. Registre del dia: deu peticions; cap reenviament per recuperar els contenidors de transmissió.
+
 ## 0.1.95 · 23 de novembre de 2026
 
 - S083–S086 amb aprovació docent de guió. S084 passa a «Paper de regal» i S086 elimina l’aclariment innecessari de tallar la barra; revisió independent renovada, cites i contextos consistents. S085/S086 esperen un lot compatible.

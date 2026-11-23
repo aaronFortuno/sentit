@@ -1,5 +1,9 @@
 export const strings = {
   ca: {
+    releaseDailyCompleteBatches: 'Cinc guions quotidians validats i dos lots rebuts: set comprensions i set proves de veu. Comparacions diferenciades de «raíls» i «raïls» i presentació de S061 per escoltar. S088 i S090 tenen fragments assenyalats per revisar. S055, S083 i S084 passen a muntatge; S056 espera reposar l’inici.',
+    reviewVoicesUncertain: 'Inici per comprovar · possible omissió',
+    reviewIncompleteVoices: 'Revisa els fragments assenyalats abans del muntatge.',
+    repairAuxiliarySpelling: 'Grafia auxiliar només de síntesi; el text editorial no canvia:',
     releaseMarPilotVoices: 'Guions S083–S086 validats: S084 es diu «Paper de regal» i S086 simplifica la compra al forn. Veus de S055, S056, S083 i S084 rebudes amb el pilot multimodal al final de L29, separat per revisar. S056 té la presentació incompleta; cap muntatge ni audició aprovats.',
     releaseDailyFerranFriends: 'Cinc guions quotidians més: Ferran a la botiga, a la biblioteca i de passeig; Laia i Biel al parc. Preguntes, contextos i escaletes revisats independentment, pendents de validació docent. Pla de lots actualitzat i pilot multimodal prioritari conservat. Cap síntesi enviada.',
     releaseDailyMar: 'Situacions quotidianes: quatre guions de la Mar fora de la ràdio, amb convidats ocasionals i materials per validar. Nou univers filtrable, revisió independent i pla del pilot multimodal al final del proper lot compatible. Cap síntesi enviada.',
@@ -295,6 +299,10 @@ export const strings = {
     sessionEnded: 'Sessió acabada', remainingTime: 'Temps restant',
   },
   es: {
+    releaseDailyCompleteBatches: 'Cinco guiones cotidianos validados y dos lotes recibidos: siete comprensiones y siete pruebas de voz. Comparaciones diferenciadas de «raíls» y «raïls» y presentación de S061 para escuchar. S088 y S090 tienen fragmentos señalados para revisar. S055, S083 y S084 pasan a montaje; S056 espera reponer el inicio.',
+    reviewVoicesUncertain: 'Inicio por comprobar · posible omisión',
+    reviewIncompleteVoices: 'Revisa los fragmentos señalados antes del montaje.',
+    repairAuxiliarySpelling: 'Grafía auxiliar solo de síntesis; el texto editorial no cambia:',
     releaseMarPilotVoices: 'Guiones S083–S086 validados: S084 se titula «Paper de regal» y S086 simplifica la compra en la panadería. Voces de S055, S056, S083 y S084 recibidas con el piloto multimodal al final de L29, separado para revisar. S056 tiene la presentación incompleta; ningún montaje ni audición aprobados.',
     releaseDailyFerranFriends: 'Cinco guiones cotidianos más: Ferran en la tienda, en la biblioteca y de paseo; Laia y Biel en el parque. Preguntas, contextos y planes de montaje revisados de forma independiente, pendientes de validación docente. Plan de lotes actualizado y piloto multimodal prioritario conservado. Ninguna síntesis enviada.',
     releaseDailyMar: 'Situaciones cotidianas: cuatro guiones de Mar fuera de la radio, con invitados ocasionales y materiales para validar. Nuevo universo filtrable, revisión independiente y plan del piloto multimodal al final del próximo lote compatible. Sin síntesis enviada.',

@@ -1988,9 +1988,9 @@
     "approvalSource": "Docent 23/11: S083 i S085 validats; S084 validat amb títol «Paper de regal»; S086 validat eliminant l’aclariment de tallar la barra a llesques. Autoritza preparar i enviar un lot compatible, amb el pilot multimodal prioritari al final; els guions que no hi càpiguen esperen."
   },
   "S087": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "1c80d764ea9f07f4d4caa8c167768e3d40d6d0b9c73b15875c1d8122dd36c597",
+    "reviewedAt": "2026-11-23",
     "reviewActivity": "ca-S087",
     "reviewContent": "content/propostes/quotidianes/ferran.js",
     "format": "3r intermèdia: seguir una compra senzilla, identificar què s’ha perdut i entendre per què en Ferran porta el pom. Un únic espai i una acció en present.",
@@ -2005,12 +2005,13 @@
       "Ferreter": "Achird"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 23/11: S087, S088, S089, S090 i S091 validats íntegrament per síntesi de veus; autoritza els lots complets de Ferran i Laia/Biel amb les dues peticions gratuïtes restants."
   },
   "S088": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "96e79258645a74c99d6aecf176e79693166a61b0df98527c5d77868125f41d83",
+    "reviewedAt": "2026-11-23",
     "reviewActivity": "ca-S088",
     "reviewContent": "content/propostes/quotidianes/ferran.js",
     "format": "4t accessible: seguir una confusió concreta entre dos llibres, reconstruir què ha passat i distingir el que fa ara del que farà a continuació.",
@@ -2025,12 +2026,13 @@
       "Bibliotecari": "Achird"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 23/11: S087, S088, S089, S090 i S091 validats íntegrament per síntesi de veus; autoritza els lots complets de Ferran i Laia/Biel amb les dues peticions gratuïtes restants."
   },
   "S089": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "947978113e4073b7654693f76ca9b5190bc1d560604770432380a2c86698f08b",
+    "reviewedAt": "2026-11-23",
     "reviewActivity": "ca-S089",
     "reviewContent": "content/propostes/quotidianes/ferran.js",
     "format": "3r accessible: identificar de qui és la gossa, el favor que fa en Ferran i el petit canvi de ruta. Humor concret, sense coneixements previs ni veus d’animals.",
@@ -2045,12 +2047,13 @@
       "Margarida": "Gacrux"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 23/11: S087, S088, S089, S090 i S091 validats íntegrament per síntesi de veus; autoritza els lots complets de Ferran i Laia/Biel amb les dues peticions gratuïtes restants."
   },
   "S090": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "83b2b904ae67d60687817863da3b95ffb75e92fbb383c0cdb7ee68b1e4537619",
+    "reviewedAt": "2026-11-23",
     "reviewActivity": "ca-S090",
     "reviewContent": "content/propostes/quotidianes/laia-biel.js",
     "format": "4t accessible: un únic problema al parc, propostes curtes que s’ajusten entre tots dos i una decisió concreta. Situació present, sense plans professionals ni informació de fons per memoritzar.",
@@ -2065,12 +2068,13 @@
       "Biel": "Puck"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 23/11: S087, S088, S089, S090 i S091 validats íntegrament per síntesi de veus; autoritza els lots complets de Ferran i Laia/Biel amb les dues peticions gratuïtes restants."
   },
   "S091": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "ef4cb991e482896b6c751f1a1ece5685541bc0f9c1beb77cb9af5e2075762237",
+    "reviewedAt": "2026-11-23",
     "reviewActivity": "ca-S091",
     "reviewContent": "content/propostes/quotidianes/laia-biel.js",
     "format": "3r accessible: una escena breu i divertida, una causa concreta, un petit oferiment i el gest de recollir abans de continuar. Sense salts temporals llargs ni vocabulari tècnic.",
@@ -2085,6 +2089,7 @@
       "Biel": "Puck"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 23/11: S087, S088, S089, S090 i S091 validats íntegrament per síntesi de veus; autoritza els lots complets de Ferran i Laia/Biel amb les dues peticions gratuïtes restants."
   }
 }
