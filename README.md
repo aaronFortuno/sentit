@@ -6,6 +6,10 @@ Banc de comprensió oral d’ortogra.fi. El docent tria una activitat, prepara l
 
 [Flux de validació de l’àudio](docs/flux-produccio-audio.md): primer s’escolten i validen les veus; després es munta l’àudio i es fa una segona audició. Les represes de pronunciació es poden comparar directament a la fitxa amb «Escolta les esmenes».
 
+[Briefing de comprensions multimodals](docs/briefing-comprensions-multimodals.md): context pedagògic, infraestructura de Sentit i Trama, convencions d’ortogra.fi i proposta de pilot amb paper i àudio per traspassar aquesta línia a un altre agent. Encara no fixa nom, domini ni guió validat.
+
+L’estat vigent és als registres de feina pendent i publicacions finalitzades enllaçats a dalt. Les notes de tandes que segueixen documenten decisions i etapes anteriors; no substitueixen aquests registres. Les esmenes rebudes, les aplicades i la validació definitiva són passos diferents. Una prova de timbre pot comparar el muntatge anterior i el nou sense donar la veu per validada.
+
 El projecte continua a la sèrie **0.1.x** mentre el docent valida el material i la interfície. El pas a 0.2 serà una decisió explícita.
 
 Les fitxes inclouen **Context amb Sentit**, un text breu abans de les instruccions per situar l’escena. Es pot ocultar al començament del sidebar dret d’impressió i la preferència queda desada amb el maquetat de cada comprensió o col·lecció. Els contextos tenen [registre de revisió independent](content/listening-context-review.json) i es mantenen separats del guió sintetitzat. [Criteris d’ambients i noticiari](docs/ambient-i-noticiari.md).

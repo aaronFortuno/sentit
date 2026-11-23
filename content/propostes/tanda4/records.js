@@ -41,6 +41,10 @@ export const records = [
   }),
   proposal({
     id: 'la-pissarra-del-partit', code: 'S069', title: 'La pissarra del partit', grade: '5', level: 'middle', genre: 'story', universeIds: ['aina-ferran'],
+    recordingCues: [{"before":"encarrec","text":"Paràgraf inicial substituït per la represa de Ferran validada, amb «Aina» i «guix». Base «Dos noms a la pissarra» compartida amb S069D, molt baixa sota la veu, amb pujada i fosa final."},{"after":"final","text":"La veu acaba completa. El muntatge amb les represes incorporades continua pendent d’audició docent."}],
+    seconds: 111, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s069-mixed-v1.mp3', tracks: { introduction: './assets/audio/s069-mixed-v1-intro.mp3', body: './assets/audio/s069-mixed-v1-cos.mp3' },
+    fragment: { start: 3.874916666666664, seconds: 107 },
     summary: 'En Ferran ajuda a portar el marcador d’un partit del barri. Quan els equips canvien de costat, la pissarra comença a explicar una història diferent de la que veu la gent.',
     voices, delivery, soundCredits,
     editorialFocus: '5è intermèdia: relacionar un canvi d’orientació amb un error de referent, diferenciar els noms fixos dels equips del costat on juguen i reconstruir com corregeixen el marcador. Vuit preguntes, sense haver de sumar el resultat.',

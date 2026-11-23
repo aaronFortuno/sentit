@@ -1,0 +1,97 @@
+{
+  "code": "S080",
+  "activity": "ca-S080",
+  "state": "published",
+  "file": "s080-mixed-v1.mp3",
+  "introFile": "s080-mixed-v1-intro.mp3",
+  "bodyFile": "s080-mixed-v1-cos.mp3",
+  "offset": 4.41,
+  "bodyDuration": 110.04,
+  "fullDuration": 114.45,
+  "voices": {
+    "Biel": "Puck",
+    "Elies": "Algieba"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "528f65283474a1f42bc1be0b2920865817daec53fc0f6634f693552abc5401f1",
+  "sourceRequestHash": "fae49ea55456abeba5aaa1420c36bb1fb34e5d74b4d6d87f0e257cc970457e59",
+  "batch": "L26",
+  "rawSha256": "8768d4734048911ee076d023c1f2476bd848c14f9b9833bf9e8134bbef20ff4d",
+  "takeSha256": "abdef7724b67d273448f0047fc3d1f5dbeb1a060bfb742e6e260b661fbb9bd03",
+  "coverage": 0.9060773480662984,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.8,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "callmethefoo-744447",
+      "start": 0,
+      "source": "assets/audio/sources/callmethefoo-744447.mp3",
+      "sourceSha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
+      "sourceUrl": "https://freesound.org/people/callmethefoo/sounds/744447/",
+      "author": "callmethefoo",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.12,
+      "openingGain": 0.3,
+      "raisedGain": 0.4,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -46.416375079047505,
+      "lowPassHz": 1800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 12,
+        "seconds": 85.24
+      },
+      "envelope": {
+        "riseStart": 104.04000000000002,
+        "riseEnd": 104.84000000000003,
+        "holdSeconds": 1.9999999999999716,
+        "fadeStart": 106.84,
+        "fadeEnd": 108.84
+      }
+    }
+  ],
+  "sha256": "3bbceadf92036782c95a55fe72287b9380d83f2d6153ef26d9eb6e6fe1f1aa4f",
+  "voiceHandles": {
+    "body": {
+      "start": 0.512,
+      "end": 102.552,
+      "retainedPcmSha256": "2c98e74e208eec0531c51409d774abfd423939380ff028a7677116035fb6b090",
+      "sourceSha256": "1d51b471ec18ccf53497f1ca3b63556bc619be7635b837a2ef463ddb6b6407e9",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.115,
+      "end": 3.575,
+      "retainedPcmSha256": "e12404e7071aee5c9e1c8b1f2f2ddbc596e25a6763ee4cc4c0a4ab7357346878",
+      "sourceSha256": "7a35f5ea7ac8bdc7a91e7aaa992a5958b1085f1697c318d29d38b516731a699c",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-23",
+    "sourceTakeSha256": "abdef7724b67d273448f0047fc3d1f5dbeb1a060bfb742e6e260b661fbb9bd03",
+    "confirmation": "S080 validat per pujar a muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S080 validat per publicació definitiva",
+    "audioSha256": "3bbceadf92036782c95a55fe72287b9380d83f2d6153ef26d9eb6e6fe1f1aa4f",
+    "editorialFingerprint": "82d69704ab0459c064adaa728afeae727a307da3be219f7d02e228642e529e45",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/el-segon-assaig-sona-lluny-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
+  }
+}

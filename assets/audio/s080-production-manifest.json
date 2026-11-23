@@ -1,7 +1,7 @@
 {
   "code": "S080",
   "activity": "ca-S080",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s080-mixed-v1.mp3",
   "introFile": "s080-mixed-v1-intro.mp3",
   "bodyFile": "s080-mixed-v1-cos.mp3",
@@ -79,5 +79,19 @@
     "approvedAt": "2026-11-23",
     "sourceTakeSha256": "abdef7724b67d273448f0047fc3d1f5dbeb1a060bfb742e6e260b661fbb9bd03",
     "confirmation": "S080 validat per pujar a muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S080 validat per publicació definitiva",
+    "audioSha256": "3bbceadf92036782c95a55fe72287b9380d83f2d6153ef26d9eb6e6fe1f1aa4f",
+    "editorialFingerprint": "82d69704ab0459c064adaa728afeae727a307da3be219f7d02e228642e529e45",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/el-segon-assaig-sona-lluny-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

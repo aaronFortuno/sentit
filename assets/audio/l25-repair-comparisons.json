@@ -7,15 +7,20 @@
       "part": "anunci",
       "text": "La plaça del barri acollirà divendres una sessió de cinema a l’aire lliure. L’associació de veïns ha triat una pel·lícula d’aventures per a tots els públics. La projecció començarà quan es faci fosc; per això no tindrà el mateix horari que les activitats de tarda.",
       "pronunciation": "Preserve the first sentence starting La plaça del barri acollirà. Acollirà has final stressed À. Keep a natural continuous newsreader delivery across the whole paragraph.",
-      "status": "received-awaiting-listening",
+      "status": "applied-awaiting-montage-listening",
       "originalFile": "assets/audio/repairs/l25-s029-anunci-original.mp3",
       "candidateFile": "assets/audio/repairs/l25-s029-anunci-prova.mp3",
       "sourceRawSha256": "490b279a9670c6bb48737b04668af2d9cf14d0fe56bc165f26dccc2e518beba4",
       "sourceTakeId": "S029-T01",
       "sourceTakeSha256": "8965bab558d63722894ab08f1f5467a11a2e75d3366fc5539b9cb0e055144c2c",
       "batchRequestHash": "4e3ed06c613d1750826947314242be6a728fc3ca9f7dbf20d554f3768035a399",
-      "applied": false
+      "applied": true,
+      "approvedAt": "2026-11-23",
+      "confirmation": "S029 esmenes validades pel docent per incorporar-les i passar a muntatge.",
+      "candidateSha256": "be9559fb934a8c2076d782664354403ed2b7d920d68172d2f290a715bbe04e87",
+      "appliedAt": "2026-11-23",
+      "appliedAudio": "./assets/audio/s029-repair-v3.mp3"
     }
   ],
-  "masterChanged": false
+  "masterChanged": true
 }

@@ -25,8 +25,8 @@ Mar · Erinome. Les lectures són independents; no cal haver-ne escoltat cap alt
 
 | Codi | Títol | Curs · dificultat | Tipologia | Durada prevista | Preguntes | Estat |
 | --- | --- | --- | --- | --- | ---: | --- |
-| [ca-S053](https://sentit.ortogra.fi/#lectura=ca-S053) | La pista torna a obrir al vespre | 5è · Accessible | Notícia | 1:36 | 8 | Àudio en revisió |
-| [ca-S054](https://sentit.ortogra.fi/#lectura=ca-S054) | Una finestra per recollir els encàrrecs | 5è · Intermèdia | Notícia | 1:39 | 8 | Àudio en revisió |
+| [ca-S053](https://sentit.ortogra.fi/#lectura=ca-S053) | La pista torna a obrir al vespre | 5è · Accessible | Notícia | 1:36 | 8 | Definitiva |
+| [ca-S054](https://sentit.ortogra.fi/#lectura=ca-S054) | Una finestra per recollir els encàrrecs | 5è · Intermèdia | Notícia | 1:39 | 8 | Definitiva |
 | [ca-S055](https://sentit.ortogra.fi/#lectura=ca-S055) | Els cartells de cinema tornen al barri | 6è · Accessible | Notícia | Prevista 1:50–2:20 | 9 | Guió validat |
 | [ca-S056](https://sentit.ortogra.fi/#lectura=ca-S056) | El taller canvia de casa | 5è · Avançada | Notícia | Prevista 2:55–3:30 | 8 | Guió validat |
 | [ca-S057](https://sentit.ortogra.fi/#lectura=ca-S057) | La volta nova del bus de dissabte | 6è · Avançada | Notícia | 2:31 | 9 | Àudio en revisió · dificultat per valorar després d’escoltar |
@@ -61,7 +61,7 @@ Mireia i Biel · Aoede + Puck. Les lectures són independents; no cal haver-ne e
 | [ca-S064](https://sentit.ortogra.fi/#lectura=ca-S064) | Un anunci que va massa de pressa | 5è · Intermèdia | Instruccions | 1:40 | 8 | Àudio en revisió |
 | [ca-S065](https://sentit.ortogra.fi/#lectura=ca-S065) | La mesura que canviava de lloc | 6è · Accessible | Explicació | 1:50 | 9 | Àudio en revisió |
 | [ca-S066](https://sentit.ortogra.fi/#lectura=ca-S066) | El mapa de sons del passadís | 6è · Intermèdia | Instruccions | 2:36 | 8 | Àudio en revisió · curs i dificultat per valorar després d’escoltar |
-| [ca-S067](https://sentit.ortogra.fi/#lectura=ca-S067) | La mateixa pregunta? | 1r d’ESO · Intermèdia | Explicació | 2:39 | 9 | Àudio en revisió |
+| [ca-S067](https://sentit.ortogra.fi/#lectura=ca-S067) | La mateixa pregunta? | 1r d’ESO · Intermèdia | Explicació | 2:39 | 9 | Definitiva |
 
 [Filtra el catàleg per aquest repartiment](https://sentit.ortogra.fi/?personatge=mireia&personatge=biel&coincidencia=tots) · [Guions i escaletes del bloc](../content/propostes/tanda4/aula.js). El filtre també pot mostrar peces de tandes anteriors; activa «Només provisionals» per revisar feina oberta. Les acotacions descriuen recursos proposats, no gravacions ja produïdes.
 
@@ -74,7 +74,7 @@ Ferran · Algenib. Les lectures són independents; no cal haver-ne escoltat cap 
 | Codi | Títol | Curs · dificultat | Tipologia | Durada prevista | Preguntes | Estat |
 | --- | --- | --- | --- | --- | ---: | --- |
 | [ca-S068](https://sentit.ortogra.fi/#lectura=ca-S068) | El dinar al banc de l’estació | 5è · Accessible | Narració | 1:39 | 8 | Àudio en revisió |
-| [ca-S069](https://sentit.ortogra.fi/#lectura=ca-S069) | La pissarra del partit | 5è · Intermèdia | Narració | Prevista 2:15–2:45 | 8 | Provisional · pendent del docent |
+| [ca-S069](https://sentit.ortogra.fi/#lectura=ca-S069) | La pissarra del partit | 5è · Intermèdia | Narració | 1:47 | 8 | Àudio en revisió |
 | [ca-S070](https://sentit.ortogra.fi/#lectura=ca-S070) | El dia que no va sonar el disc | 6è · Accessible | Narració | Prevista 1:55–2:20 | 9 | Provisional · pendent del docent |
 | [ca-S071](https://sentit.ortogra.fi/#lectura=ca-S071) | Les dues entrades blaves | 5è · Avançada | Narració | Prevista 3:10–3:50 | 8 | Provisional · pendent del docent |
 | [ca-S072](https://sentit.ortogra.fi/#lectura=ca-S072) | El quadern de la parada | 6è · Avançada | Narració | Prevista 3:10–3:45 | 9 | Guió validat |
@@ -105,11 +105,11 @@ Biel i Elies · Puck + Algieba. Les lectures són independents; no cal haver-ne 
 
 | Codi | Títol | Curs · dificultat | Tipologia | Durada prevista | Preguntes | Estat |
 | --- | --- | --- | --- | --- | ---: | --- |
-| [ca-S078](https://sentit.ortogra.fi/#lectura=ca-S078) | El soroll que seguia la cadira | 5è · Accessible | Diàleg | 1:39 | 8 | Àudio en revisió |
+| [ca-S078](https://sentit.ortogra.fi/#lectura=ca-S078) | El soroll que seguia la cadira | 5è · Accessible | Diàleg | 1:39 | 8 | Definitiva |
 | [ca-S079](https://sentit.ortogra.fi/#lectura=ca-S079) | Una funda que no tanca | 5è · Intermèdia | Diàleg | 1:45 | 8 | Àudio en revisió |
-| [ca-S080](https://sentit.ortogra.fi/#lectura=ca-S080) | El segon assaig sona lluny | 6è · Accessible | Diàleg | 1:50 | 9 | Àudio en revisió |
+| [ca-S080](https://sentit.ortogra.fi/#lectura=ca-S080) | El segon assaig sona lluny | 6è · Accessible | Diàleg | 1:50 | 9 | Definitiva |
 | [ca-S081](https://sentit.ortogra.fi/#lectura=ca-S081) | La guitarra del concert de divendres | 5è · Avançada | Diàleg | Prevista 3:05–3:40 | 8 | Provisional · pendent del docent |
-| [ca-S082](https://sentit.ortogra.fi/#lectura=ca-S082) | El so que volíem gravar | 6è · Avançada | Diàleg | Prevista 3:15–3:55 | 9 | Provisional · pendent del docent · curs per valorar després d’escoltar |
+| [ca-S082](https://sentit.ortogra.fi/#lectura=ca-S082) | El so que volíem gravar | 6è · Avançada | Diàleg | 2:43 | 9 | Àudio en revisió · curs per valorar després d’escoltar |
 
 [Filtra el catàleg per aquest repartiment](https://sentit.ortogra.fi/?personatge=biel&personatge=elies&coincidencia=tots) · [Guions i escaletes del bloc](../content/propostes/tanda4/taller.js). El filtre també pot mostrar peces de tandes anteriors; activa «Només provisionals» per revisar feina oberta. Les acotacions descriuen recursos proposats, no gravacions ja produïdes.
 

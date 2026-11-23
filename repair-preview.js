@@ -11,7 +11,7 @@ export function renderVoicePreview(root, entry, t, icon) {
   root.querySelectorAll('audio').forEach(audio => audio.pause());
   root.replaceChildren();
   const progress = productionProgress[`${entry?.language}-${entry?.code}`];
-  root.hidden = !progress?.voicePreviewFile || Boolean(entry.audio && progress.voiceApproval?.status === 'approved');
+  root.hidden = !progress?.voicePreviewFile || Boolean(entry.audio && (progress.voiceApproval?.status === 'approved' || progress.state === 'montage-awaiting-listening'));
   if (root.hidden) return;
   document.getElementById('audio-empty').hidden = true;
   const title = document.createElement('h3'); title.textContent = t('hearReceivedVoices');
@@ -40,20 +40,22 @@ export function renderRepairPreview(root, entry, t) {
     mounted = true;
   }
   root.replaceChildren();
-  const repairs = pendingRepairClips(entry);
+  const trial = productionProgress[`${entry?.language}-${entry?.code}`]?.timbreReview;
+  const repairs = [...pendingRepairClips(entry)];
+  if (trial?.status === 'pending-listening') repairs.unshift({ part: 'full-montage-timbre', status: 'trial-montage', text: t('timbreTrialInContext'), originalFile: trial.previousAudio, candidateFile: trial.trialAudio });
   root.hidden = repairs.length === 0;
   if (!repairs.length) return;
-  const notice = t(entry.audio ? 'repairsNotApplied' : 'repairsBeforeMontage');
+  const notice = t(trial?.status === 'pending-listening' ? 'timbreTrialNotice' : entry.audio ? 'repairsNotApplied' : 'repairsBeforeMontage');
   const button = document.createElement('button');
   button.type = 'button'; button.className = 'button repair-preview-button';
-  button.textContent = t('listenRepairs');
+  button.textContent = t(trial?.status === 'pending-listening' ? 'compareTimbreMontages' : 'listenRepairs');
   button.setAttribute('aria-haspopup', 'dialog'); button.setAttribute('aria-controls', dialog.id);
   const note = document.createElement('p'); note.className = 'small'; note.textContent = notice;
   root.append(button, note);
   button.addEventListener('click', () => {
     window.dispatchEvent(new Event('sentit-pause-playback'));
     document.querySelectorAll('audio').forEach(audio => audio.pause());
-    document.getElementById('repair-preview-title').textContent = `${entry.code} · ${t('listenRepairs')}`;
+    document.getElementById('repair-preview-title').textContent = `${entry.code} · ${button.textContent}`;
     document.getElementById('repair-preview-notice').textContent = notice;
     const list = document.getElementById('repair-preview-list'); list.replaceChildren();
     for (const repair of repairs) {

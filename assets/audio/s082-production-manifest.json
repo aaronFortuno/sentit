@@ -1,0 +1,223 @@
+{
+  "code": "S082",
+  "activity": "ca-S082",
+  "state": "awaiting-montage-validation",
+  "file": "s082-mixed-v1.mp3",
+  "introFile": "s082-mixed-v1-intro.mp3",
+  "bodyFile": "s082-mixed-v1-cos.mp3",
+  "offset": 4.200000000000017,
+  "bodyDuration": 163.445,
+  "fullDuration": 167.645,
+  "voices": {
+    "Biel": "Puck",
+    "Elies": "Algieba"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "repaired-mixed-take",
+  "requestHash": "4f9884fd45df9fce2774bff1e4e6b8cfcd231dc72144dc1671285f141c9bcaca",
+  "sourceRequestHash": "4e454f64de9f6e9214be4d8ab26525255f9bc2b94f4f5a45f443875d7e7706f9",
+  "batch": "L20+L26",
+  "sourceBatchRequests": [
+    {
+      "batch": "L20",
+      "requestHash": "a07c5841452fb9f7fc87fa5889bc4cc31ab97780eeaeb6a8c2d38b1b655af0e0",
+      "rawSha256": "6b4382326bc34f447e016e085b7ff82937c642a245eeb59de1fc3cf7f531076a"
+    },
+    {
+      "batch": "L26",
+      "requestHash": "528f65283474a1f42bc1be0b2920865817daec53fc0f6634f693552abc5401f1",
+      "rawSha256": "8768d4734048911ee076d023c1f2476bd848c14f9b9833bf9e8134bbef20ff4d"
+    }
+  ],
+  "assembly": [
+    {
+      "part": "mòbil",
+      "text": "La gravació del meu mòbil! La vaig fer quan vaig portar-la el primer dia. Hi ha una estona que toco i, després, em poso a parlar de la funda. Potser podria agafar només el tros on sona aquell cop.",
+      "accepted": {
+        "part": "mòbil",
+        "text": "La gravació del meu mòbil! La vaig fer quan vaig portar-la el primer dia. Hi ha una estona que toco i, després, em poso a parlar de la funda. Potser podria agafar només el tros on sona aquell cop.",
+        "candidateFile": "assets/audio/repairs/l26-s082-mòbil-prova.mp3",
+        "candidateSha256": "aebc5e627e9c725b15cf5ff8e894c7d9b0d1120b8f55dd5d7ac854f5ee56afdb",
+        "batchRequestHash": "528f65283474a1f42bc1be0b2920865817daec53fc0f6634f693552abc5401f1",
+        "sourceTakeSha256": "dcc33675ef85560b46ae2c2d1a217a5b592101687316ff0907c07ebcb4776bf9"
+      },
+      "candidateRawFile": "C:\\Users\\afortun8\\Desktop\\Projects\\Escola\\output\\sentit-primera-tanda\\mixed-batches\\l26-528f65283474\\s082-mòbil.wav",
+      "candidateRawSha256": "57f470df1d13904520fae497623ef5f027d0bcb18841f627d3d31a765134f7ea",
+      "candidateBatch": "L26",
+      "candidateRawBatchSha256": "8768d4734048911ee076d023c1f2476bd848c14f9b9833bf9e8134bbef20ff4d",
+      "originalRange": {
+        "start": 28.905,
+        "end": 39.36,
+        "handles": [
+          -62.70477386496224,
+          -62.009531739778005
+        ]
+      },
+      "candidateRange": {
+        "start": 0.26,
+        "end": 12.19,
+        "handles": [
+          -120,
+          -72.24719895935549
+        ]
+      },
+      "spoken": {
+        "start": 0.22000000000001818,
+        "end": 11.650000000000025
+      },
+      "gainDb": -0.6809367756100722,
+      "peakAfterGain": 24349,
+      "deltaSeconds": 1.475,
+      "outputStart": 28.905
+    }
+  ],
+  "requestHashIsCompositionChecksum": true,
+  "rawSha256": "aeca6f6603e65effa772d82806b2925b44d78ce4e7419f51f8c1baea91bbc50d",
+  "takeSha256": "aeca6f6603e65effa772d82806b2925b44d78ce4e7419f51f8c1baea91bbc50d",
+  "coverage": 0.9125,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.63,
+  "peakDbTP": -2.49,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "callmethefoo-744447",
+      "start": 0,
+      "source": "assets/audio/sources/callmethefoo-744447.mp3",
+      "sourceSha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
+      "sourceUrl": "https://freesound.org/people/callmethefoo/sounds/744447/",
+      "author": "callmethefoo",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.12,
+      "openingGain": 0.3,
+      "raisedGain": 0.4,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -46.416375079047505,
+      "lowPassHz": 1800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 12,
+        "seconds": 85.24
+      },
+      "envelope": {
+        "riseStart": 157.445,
+        "riseEnd": 158.245,
+        "holdSeconds": 2,
+        "fadeStart": 160.245,
+        "fadeEnd": 162.245
+      }
+    }
+  ],
+  "sha256": "d3a961182ed8891ca400effc42680313a82570533fa233ee0a1698988bd89559",
+  "voiceHandles": {
+    "body": {
+      "start": 0.37,
+      "end": 155.815,
+      "retainedPcmSha256": "852cffab67d28a362d6012369d87016a89adb32981032d753ed4c139b3b2d972",
+      "sourceSha256": "afa585985dfac74ffd53d9b84c757676df1a0adc04e2e811610ef7ea15c692b6",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.28,
+      "end": 3.53,
+      "retainedPcmSha256": "d232d926b8c136825d0ad75fde752c360daf522a9585075484a9c03434b83526",
+      "sourceSha256": "065581d1d7d999d37dcd9823c612890a130173601f2ec2f55b0cfb10b005e573",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-23",
+    "sourceTakeSha256": "aeca6f6603e65effa772d82806b2925b44d78ce4e7419f51f8c1baea91bbc50d",
+    "baseTakeSha256": "dcc33675ef85560b46ae2c2d1a217a5b592101687316ff0907c07ebcb4776bf9",
+    "confirmation": "S082 esmenes validades pel docent per incorporar-les i passar a muntatge.",
+    "derivation": "Previously approved remaining speech plus the exact teacher-approved replacement; assembled playback still awaits montage audition.",
+    "repairs": [
+      {
+        "part": "mòbil",
+        "text": "La gravació del meu mòbil! La vaig fer quan vaig portar-la el primer dia. Hi ha una estona que toco i, després, em poso a parlar de la funda. Potser podria agafar només el tros on sona aquell cop.",
+        "candidateFile": "assets/audio/repairs/l26-s082-mòbil-prova.mp3",
+        "candidateSha256": "aebc5e627e9c725b15cf5ff8e894c7d9b0d1120b8f55dd5d7ac854f5ee56afdb",
+        "batchRequestHash": "528f65283474a1f42bc1be0b2920865817daec53fc0f6634f693552abc5401f1",
+        "sourceTakeSha256": "dcc33675ef85560b46ae2c2d1a217a5b592101687316ff0907c07ebcb4776bf9"
+      }
+    ]
+  },
+  "repairApplication": {
+    "code": "S082",
+    "date": "2026-11-23",
+    "scope": "approved-repair",
+    "originalRawSha256": "dcc33675ef85560b46ae2c2d1a217a5b592101687316ff0907c07ebcb4776bf9",
+    "patchedSha256": "aeca6f6603e65effa772d82806b2925b44d78ce4e7419f51f8c1baea91bbc50d",
+    "originalSeconds": 158.35,
+    "seconds": 159.825,
+    "edits": [
+      {
+        "part": "mòbil",
+        "text": "La gravació del meu mòbil! La vaig fer quan vaig portar-la el primer dia. Hi ha una estona que toco i, després, em poso a parlar de la funda. Potser podria agafar només el tros on sona aquell cop.",
+        "accepted": {
+          "part": "mòbil",
+          "text": "La gravació del meu mòbil! La vaig fer quan vaig portar-la el primer dia. Hi ha una estona que toco i, després, em poso a parlar de la funda. Potser podria agafar només el tros on sona aquell cop.",
+          "candidateFile": "assets/audio/repairs/l26-s082-mòbil-prova.mp3",
+          "candidateSha256": "aebc5e627e9c725b15cf5ff8e894c7d9b0d1120b8f55dd5d7ac854f5ee56afdb",
+          "batchRequestHash": "528f65283474a1f42bc1be0b2920865817daec53fc0f6634f693552abc5401f1",
+          "sourceTakeSha256": "dcc33675ef85560b46ae2c2d1a217a5b592101687316ff0907c07ebcb4776bf9"
+        },
+        "candidateRawSha256": "57f470df1d13904520fae497623ef5f027d0bcb18841f627d3d31a765134f7ea",
+        "candidateBatch": "L26",
+        "candidateRawBatchSha256": "8768d4734048911ee076d023c1f2476bd848c14f9b9833bf9e8134bbef20ff4d",
+        "originalRange": {
+          "start": 28.905,
+          "end": 39.36,
+          "handles": [
+            -62.70477386496224,
+            -62.009531739778005
+          ]
+        },
+        "candidateRange": {
+          "start": 0.26,
+          "end": 12.19,
+          "handles": [
+            -120,
+            -72.24719895935549
+          ]
+        },
+        "spoken": {
+          "start": 0.22000000000001818,
+          "end": 11.650000000000025
+        },
+        "gainDb": -0.6809367756100722,
+        "peakAfterGain": 24349,
+        "deltaSeconds": 1.475,
+        "outputStart": 28.905,
+        "candidateRawFile": "s082-mòbil.wav"
+      }
+    ],
+    "retainedRanges": [
+      {
+        "originalStart": 0,
+        "originalEnd": 28.905,
+        "outputStart": 0,
+        "sha256": "9e170fee32459348b2a02b4553c5d45a8c5fc10f0d966351790ed6860ab1c15a"
+      },
+      {
+        "originalStart": 39.36,
+        "originalEnd": 158.35,
+        "outputStart": 40.835,
+        "sha256": "aebc620bb4334ac2947a9af89a19326510f70bc69a15b1f06264b903532eebc7"
+      }
+    ],
+    "allOtherVoiceSamplesIdentical": true,
+    "voiceRetimed": false,
+    "pitchShifted": false,
+    "newRequests": 0,
+    "originalRawFile": "s082-t01.wav",
+    "patchedFile": "patched-source.wav",
+    "appliedTo": "s082-mixed-v1.mp3",
+    "teacherMontageApproval": false
+  }
+}

@@ -2,7 +2,7 @@
   "code": "S013",
   "activity": "ca-S013",
   "date": "2026-11-20T13:16:10.810Z",
-  "state": "awaiting-pronunciation-correction-and-audio-review",
+  "state": "awaiting-montage-validation",
   "model": "gemini-3.8-flash-tts",
   "voices": {
     "Mireia": "Aoede"
@@ -40,43 +40,173 @@
     "peakDbFS": -57.8,
     "rawSamplesPreserved": true
   },
-  "file": "s013-carta-v2.mp3",
+  "file": "s013-repair-v3.mp3",
   "introFile": "s013-carta-v2-intro.mp3",
-  "bodyFile": "s013-carta-v2-cos.mp3",
-  "offset": 4.66,
-  "bodyDuration": 139.07,
-  "fullDuration": 143.73,
-  "lufs": -19.5,
-  "peakDbTP": -2.9,
+  "bodyFile": "s013-repair-v3-cos.mp3",
+  "offset": 4.660020833333334,
+  "bodyDuration": 137.955,
+  "fullDuration": 142.61502083333335,
+  "lufs": -18.9,
+  "peakDbTP": -2.5,
   "voice": {
     "bodyLead": 1.1,
-    "bodyRawDuration": 134.76999999999998,
-    "untrimmedApartFromSilenceSplit": true,
-    "retimed": false
+    "bodyRawDuration": 133.65499999999997,
+    "untrimmedApartFromSilenceSplit": false,
+    "retimed": false,
+    "repairedWithoutRetiming": true
   },
   "effects": [
     {
       "name": "envelope-opening",
       "start": 0,
       "end": 0.65,
-      "origin": "original-procedural"
+      "origin": "original-procedural",
+      "inheritedFrom": "s013-carta-v2.mp3"
     },
     {
       "name": "sorting-to-delivery",
       "start": 82.14,
-      "end": 82.59,
-      "origin": "original-procedural"
+      "end": 82.59000000000002,
+      "origin": "original-procedural",
+      "inheritedFrom": "s013-carta-v2.mp3"
     }
   ],
-  "sha256": "df3d61a6f053a0a9ec72111cfc1b1de37592eb5a8910cb02eb2af1d7523a374a",
+  "sha256": "03807f97cb892ad29c76a0b4e49dfb7dce57e6ea939c9509fb40fc482c320f94",
   "montageNewSynthesisRequests": 0,
   "previousMaster": {
-    "file": "s013-carta-v1.mp3",
-    "sha256": "6d2e2f143b5dbacbe7c35695bb87e4ec4c93667736b50d79b0f91e59a1c5fdc5"
+    "file": "s013-carta-v2.mp3",
+    "sha256": "df3d61a6f053a0a9ec72111cfc1b1de37592eb5a8910cb02eb2af1d7523a374a"
   },
   "pronunciationRepair": {
     "plan": "content/audio-repairs.json",
-    "status": "pending-quota-and-listening",
-    "applied": false
-  }
+    "status": "applied-awaiting-montage-listening",
+    "applied": true
+  },
+  "repairApplication": {
+    "code": "S013",
+    "date": "2026-11-23",
+    "scope": "approved-repair",
+    "originalRawSha256": "37fe6368197b31f9d3d6a8bafedc0c858426c23bd2dd4f6ef6f1278d7cbfb473",
+    "patchedSha256": "3d550ff923eeb26b667960049b3c314c33b435bc4e7f241b7c4ec6e41fb9706b",
+    "originalSeconds": 138.88,
+    "seconds": 137.765,
+    "edits": [
+      {
+        "part": "repartiment",
+        "text": "El codi postal ajuda a arribar a una zona, però no diu tot sol quina bústia concreta és la bona.",
+        "accepted": {
+          "part": "repartiment",
+          "text": "El codi postal ajuda a arribar a una zona, però no diu tot sol quina bústia concreta és la bona.",
+          "candidateFile": "assets/audio/repairs/l01-s013-repartiment-prova.mp3",
+          "candidateSha256": "d530ead23bbf0ef891b0b068ba1dedf0a3988da35faba9d5e5458853b5cd269b",
+          "batchRequestHash": "0cd61066dabfeb8992968fa3e45c9f95dd07621aa58ca5a919a5e873cee48df7"
+        },
+        "candidateRawSha256": "34644bf7d55252a617fadf007de804b8607bb8a0088620eec55fa8858b066538",
+        "candidateBatch": "L01",
+        "candidateRawBatchSha256": "c87c539f48e9d022f6ef2ae8624cb1571d46f3fb313b5070ea62c560dccb2580",
+        "originalRange": {
+          "start": 96.84,
+          "end": 103.125,
+          "handles": [
+            -71.22414851040786,
+            -59.182948683848615
+          ]
+        },
+        "candidateRange": {
+          "start": 6.028708333333333,
+          "end": 11.748708333333333,
+          "handles": [
+            -62.35019852575361,
+            -63.0744419788425
+          ]
+        },
+        "spoken": {
+          "start": 0.21999166666665193,
+          "end": 5.439991666666651
+        },
+        "gainDb": -1.2109257766682349,
+        "requestedGainDb": -1.2109257766682349,
+        "peakLimitedByGain": false,
+        "peakAfterGain": 24255,
+        "deltaSeconds": -0.565,
+        "outputStart": 96.84,
+        "candidateRawFile": "s013-repartiment.wav"
+      },
+      {
+        "part": "error",
+        "text": "No és correcte endevinar una bústia només perquè el nom ens sona.",
+        "accepted": {
+          "part": "error",
+          "text": "No és correcte endevinar una bústia només perquè el nom ens sona.",
+          "candidateFile": "assets/audio/repairs/l01-s013-error-prova.mp3",
+          "candidateSha256": "b1366113dcca0020c72aece80ee0e122007a833168a5c8336a58644c45f4c21b",
+          "batchRequestHash": "0cd61066dabfeb8992968fa3e45c9f95dd07621aa58ca5a919a5e873cee48df7"
+        },
+        "candidateRawSha256": "9f43506348d1c7a548609fe272b7a9f67945e29115700c75ebc9a9ebc31d30e3",
+        "candidateBatch": "L01",
+        "candidateRawBatchSha256": "c87c539f48e9d022f6ef2ae8624cb1571d46f3fb313b5070ea62c560dccb2580",
+        "originalRange": {
+          "start": 109.365,
+          "end": 113.925,
+          "handles": [
+            -56.68417395168262,
+            -64.73392668013778
+          ]
+        },
+        "candidateRange": {
+          "start": 1.85,
+          "end": 5.86,
+          "handles": [
+            -59.42763781218885,
+            -55.823481307178575
+          ]
+        },
+        "spoken": {
+          "start": 0.2199999999999931,
+          "end": 3.73
+        },
+        "gainDb": -0.6674661664888986,
+        "requestedGainDb": -0.6674661664888986,
+        "peakLimitedByGain": false,
+        "peakAfterGain": 20999,
+        "deltaSeconds": -0.55,
+        "outputStart": 108.8,
+        "candidateRawFile": "s013-error.wav"
+      }
+    ],
+    "retainedRanges": [
+      {
+        "originalStart": 0,
+        "originalEnd": 96.84,
+        "outputStart": 0,
+        "sha256": "9f1319c10e14882f36dbf345065d7000dc16d6428288ed27133605d50dad2f94"
+      },
+      {
+        "originalStart": 103.125,
+        "originalEnd": 109.365,
+        "outputStart": 102.56,
+        "sha256": "9f395003951e09a762f442605c3e0a53d4b7b44cd83d2eb9a4ea1c47ef6ca5ab"
+      },
+      {
+        "originalStart": 113.925,
+        "originalEnd": 138.88,
+        "outputStart": 112.81,
+        "sha256": "523f0a99323843308a1edd1f04b6659ffad1ad0c818c2734f1f4d4d0fad63bd4"
+      }
+    ],
+    "allOtherVoiceSamplesIdentical": true,
+    "voiceRetimed": false,
+    "pitchShifted": false,
+    "newRequests": 0,
+    "originalRawFile": "titol-fragment-429cc31cdf98.wav",
+    "patchedFile": "patched-source.wav",
+    "appliedTo": "s013-repair-v3.mp3",
+    "teacherMontageApproval": false
+  },
+  "voiceRetimed": false,
+  "titleTrackPreserved": {
+    "file": "s013-carta-v2-intro.mp3",
+    "sha256": "d1db8bb80f33a90b876155a0145da66e14a2854dd28a01d117707f1c7292282a"
+  },
+  "productionMode": "repaired-existing-master"
 }

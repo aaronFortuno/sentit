@@ -250,9 +250,11 @@ export const musicCatalogue = [
     "externalSamples": false,
     "source": "tools/narration-bed.cjs",
     "usedBy": [
-      "ca-S069D"
+      "ca-S069D",
+      "ca-S069"
     ],
-    "description": "Composició pròpia de piano suau i harmonia espaiada, 66 pulsacions per minut; partitura determinista 69, fosa d’entrada, música atenuada sota la veu i pujada de dos segons seguida de fosa al final."
+    "description": "Composició pròpia de piano suau i harmonia espaiada, 66 pulsacions per minut; partitura determinista 69, fosa d’entrada, música atenuada sota la veu i pujada de dos segons seguida de fosa al final.",
+    "sharedReason": "Composició compartida intencionadament entre S069 narrada i S069D dialogada, amb mescles i durades pròpies."
   },
   {
     "id": "sentit-s071-v1",

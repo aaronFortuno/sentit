@@ -1,0 +1,96 @@
+{
+  "code": "S053",
+  "activity": "ca-S053",
+  "state": "published",
+  "file": "s053-mixed-v1.mp3",
+  "introFile": "s053-mixed-v1-intro.mp3",
+  "bodyFile": "s053-mixed-v1-cos.mp3",
+  "offset": 6.11,
+  "bodyDuration": 96.32,
+  "fullDuration": 102.43,
+  "voices": {
+    "Mar": "Erinome"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "4e3ed06c613d1750826947314242be6a728fc3ca9f7dbf20d554f3768035a399",
+  "sourceRequestHash": "d84cd85848f91246e6875c937e9ba8be3697a8b304a23b6ea81184861f754cd2",
+  "batch": "L25",
+  "rawSha256": "3de0a2d963f2445dd3122d7fcd004bfab98ae19bcf618b3206b07a1c90a67d32",
+  "takeSha256": "4328f5d160cbeb7f6cb2ef309e232bc8579e39f50505e366b5dbc6a5c8791107",
+  "coverage": 0.9442815249266863,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.84,
+  "peakDbTP": -2.49,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "grand-project-breaking-news-505617",
+      "origin": "licensed-music-in-montage",
+      "start": 0,
+      "underSpeech": true,
+      "credit": {
+        "id": "grand-project-breaking-news-505617",
+        "title": "Breaking News Background Music",
+        "author": "Grand_Project",
+        "url": "https://pixabay.com/music/percussion-breaking-news-background-music-505617/",
+        "license": "Pixabay Content License",
+        "licenseUrl": "https://pixabay.com/service/license-summary/",
+        "source": "tools/news-bed.cjs",
+        "origin": "licensed-music",
+        "kind": "news-programme",
+        "sourceNotDistributedSeparately": true,
+        "newSynthesisRequests": 0
+      },
+      "sourceSha256": "32e3e6c978ef1bc5c013c40880ac3ad9714957548f956c1355ad8852c94405ae",
+      "voiceMarginTargetDb": 25,
+      "sidechain": {
+        "threshold": 0.018,
+        "ratio": 6,
+        "attackMs": 12,
+        "releaseMs": 450
+      },
+      "openingSeconds": 3.5,
+      "closingSeconds": 4.5
+    }
+  ],
+  "sha256": "ebd4efd32f48bc676ef36bdee669f2a34a6f252f276a8dceee923e6235af6b82",
+  "voiceHandles": {
+    "body": {
+      "start": 0.325,
+      "end": 89.295,
+      "retainedPcmSha256": "9a1ae118a44054be4d155c8551a4364240d9133bd46326dc13ad0d182b1ba5d8",
+      "sourceSha256": "3db9ecba63844e0366507b173b90e5c18939a99c0d34ed05c04eec1d056dbfee",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0,
+      "end": 4.91,
+      "retainedPcmSha256": "5070d8146fbf22e2bdfc326166bebf57f8839ca7c42a2b84609627cfb259e438",
+      "sourceSha256": "562d4d93795022cc89f4c8f2a95e3e417f28e3b6a25babfb4c3e4c8024a24f55",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-23",
+    "sourceTakeSha256": "4328f5d160cbeb7f6cb2ef309e232bc8579e39f50505e366b5dbc6a5c8791107",
+    "confirmation": "S053 validat per muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S053 validat per publicació definitiva",
+    "audioSha256": "ebd4efd32f48bc676ef36bdee669f2a34a6f252f276a8dceee923e6235af6b82",
+    "editorialFingerprint": "b50999be68a31b08b9a829135e9832e5b243a0ba9d722001bd00671edea88fe3",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/la-pista-torna-a-obrir-al-vespre-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
+  }
+}

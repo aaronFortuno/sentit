@@ -1,7 +1,7 @@
 {
   "code": "S078",
   "activity": "ca-S078",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s078-mixed-v1.mp3",
   "introFile": "s078-mixed-v1-intro.mp3",
   "bodyFile": "s078-mixed-v1-cos.mp3",
@@ -79,5 +79,19 @@
     "approvedAt": "2026-11-23",
     "sourceTakeSha256": "178b468baa695209c42fb464826273ac8d803632034bfb708b40f25648de4d57",
     "confirmation": "S078 validat per pujar a muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S078 validat per publicació definitiva",
+    "audioSha256": "e7e612a81ca956d6cf5c9aa07290aa6d9b962aca8a630f06f7fc51b5396830bc",
+    "editorialFingerprint": "8c331ffda115e7eefa3f9d73dc20e8b7a1bda73500768455a469aa15886d35b7",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/el-soroll-que-seguia-la-cadira-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

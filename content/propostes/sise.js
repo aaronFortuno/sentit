@@ -160,10 +160,10 @@ export const sise = [
   }),
   proposal({
     id: 'tres-maneres-de-transformar-el-pati', code: 'S024', title: 'Tres maneres de transformar el pati', grade: '6', level: 'advanced', genre: 'dialogue',
-    recordingCues: [{"before":"inici","text":"Ambient enregistrat continu d’aula de joves, molt discret sota totes les veus. Retirats els bufecs previs al títol."},{"before":"dubtes","text":"Incidència oberta: darrer torn de Biel massa agut i antinatural. Represa pendent; la veu encara és l’original."},{"after":"final","text":"Fosa de l’ambient d’aula. Sense les dues notes de sortida ni efectes afegits."}],
+    recordingCues: [{"before":"inici","text":"Prova de timbre: últim torn de Biel substituït per la segona versió, més greu. Decisió sobre el timbre pendent d’escoltar-lo dins la conversa; ambient continu d’aula i presentació conservats."},{"after":"final","text":"La veu acaba completa. El muntatge amb les represes incorporades continua pendent d’audició docent."}],
     seconds: 141, status: 'ready-for-review', reviewStatus: 'audio-review',
-    audio: './assets/audio/s024-classroom-v2.mp3', tracks: { introduction: './assets/audio/s024-classroom-v2-intro.mp3', body: './assets/audio/s024-classroom-v2-cos.mp3' },
-    fragment: { start: 5.0600000000000005, seconds: 135 },
+    audio: './assets/audio/s024-timbre-trial-v3.mp3', tracks: { introduction: './assets/audio/s024-classroom-v2-intro.mp3', body: './assets/audio/s024-timbre-trial-v3-cos.mp3' },
+    fragment: { start: 5.060000000000002, seconds: 135 },
     summary: 'La Laia i en Biel comparen tres propostes i miren què cal saber abans de votar-les.',
     voices: { Laia: 'Leda', Biel: 'Puck' }, delivery: 'Dos joves parlant entre ells, amb vocabulari quotidià i frases curtes. Expressen gustos, dubtes i alguna primera conclusió precipitada; no presenten plans com experts adults. La proposta final es construeix entre tots dos, sense un discurs perfecte d’entrada. Confirmacions breus i naturals, sense afegir crosses a cada frase ni donar sempre la raó al mateix personatge.',
     editorialFocus: '6è avançada: comparar què aporta i què deixa pendent cada proposta, detectar informació que falta i justificar una elecció sense resposta única. La dificultat és en les relacions entre idees, no en vocabulari tècnic posat en boca de Laia i Biel. Pressupost i condicions són dades del cas fictici.',

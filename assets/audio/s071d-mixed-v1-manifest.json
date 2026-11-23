@@ -1,0 +1,100 @@
+{
+  "code": "S071D",
+  "activity": "ca-S071D",
+  "state": "published",
+  "file": "s071d-mixed-v1.mp3",
+  "introFile": "s071d-mixed-v1-intro.mp3",
+  "bodyFile": "s071d-mixed-v1-cos.mp3",
+  "offset": 5.94,
+  "bodyDuration": 181.265,
+  "fullDuration": 187.205,
+  "voices": {
+    "Aina": "Zephyr",
+    "Ferran": "Algenib"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "17cd4683c769da2badcc720d67926da3398a2be69ff54c217a766273869991d4",
+  "sourceRequestHash": "96d5ee06e20b3fc65d2e6b9cd70324f56fd10eb286ccb256f96d66957063ba29",
+  "batch": "L28",
+  "rawSha256": "6ae444363d31d1b2527929844ef87b1519dcc48660713cdf31da09c6fb4fb61d",
+  "takeSha256": "10473f9616263ae3be2d1295c367c42158a54e5cc59ab8278273789ec47c01f0",
+  "coverage": 0.9273648648648649,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.16,
+  "peakDbTP": -2.45,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "gentle-narration-bed",
+      "origin": "original-procedural-composition",
+      "author": "Sentit",
+      "license": "MIT",
+      "source": "tools/narration-bed.cjs",
+      "title": "Paper blau a la butxaca",
+      "compositionId": "sentit-s071-v1",
+      "tempoBpm": 62,
+      "rootMidi": 52,
+      "scoreSeed": 71,
+      "notes": 135,
+      "externalSamples": false,
+      "noSpeech": true,
+      "retimed": false,
+      "sha256": "c276160b67bd99de06b15a0a5a8b319a5088dccabb8f1aecd62583e596c502c3",
+      "envelope": {
+        "fadeInSeconds": 0.6,
+        "duckStart": 0.7000000000000001,
+        "duckEnd": 1.4500000000000002,
+        "speechGain": 0.14,
+        "nominalSpeechMusicLufs": -43.07743928643524,
+        "riseStart": 175.07,
+        "riseEnd": 175.87,
+        "holdSeconds": 2,
+        "fadeStart": 177.87,
+        "fadeEnd": 179.87
+      },
+      "listeningValidation": "pending",
+      "start": 0,
+      "underSpeech": true
+    }
+  ],
+  "sha256": "ea2ab416baf80c08ceca1e5041438ea1dc89c116f9e3db2ec55197eae2ead380",
+  "voiceHandles": {
+    "body": {
+      "start": 0.295,
+      "end": 173.76,
+      "retainedPcmSha256": "76e064c75bb23bf8295e749df64af3798b70722df1d1acfacfe612890d60942d",
+      "sourceSha256": "d03d38c370b14d6ab1b538a11acbcfc25ab7176596b97e69030881d191d302c1",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.145,
+      "end": 5.135,
+      "retainedPcmSha256": "f7bb88ae58202c7b71ffd3ab8b941881df4e7ca76283b21e245454d34ee47324",
+      "sourceSha256": "ea49950fd7d1b66a885f5689f1daa19aee922228ac6b1cb2b664ac57905a0a56",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-23",
+    "sourceTakeSha256": "10473f9616263ae3be2d1295c367c42158a54e5cc59ab8278273789ec47c01f0",
+    "confirmation": "S071D validat per muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S071D validat per publicació definitiva",
+    "audioSha256": "ea2ab416baf80c08ceca1e5041438ea1dc89c116f9e3db2ec55197eae2ead380",
+    "editorialFingerprint": "e5a78cab5c4aa827a277cfc5139353ef562f1a59f71b88da522d81397207372e",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/les-dues-entrades-blaves-dialogada-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
+  }
+}

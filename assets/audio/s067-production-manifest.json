@@ -1,7 +1,7 @@
 {
   "code": "S067",
   "activity": "ca-S067",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s067-mixed-v1.mp3",
   "introFile": "s067-mixed-v1-intro.mp3",
   "bodyFile": "s067-mixed-v1-cos.mp3",
@@ -79,5 +79,19 @@
     "approvedAt": "2026-11-23",
     "sourceTakeSha256": "3f8ecfc84ece935d9733e6ab08aef8f1b5f7d5ce0cf95c55c1512b331df416f8",
     "confirmation": "S067 validat per muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S067 validat per publicació definitiva",
+    "audioSha256": "7efc542bbd91286c086e017e683bb719299840fdca3b701569782746d7db399c",
+    "editorialFingerprint": "c231f7eedf8207fe7c6c325c14000eeb8100f19a8912543c49ec1828f23e2408",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/la-mateixa-pregunta-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

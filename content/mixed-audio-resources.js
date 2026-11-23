@@ -7,9 +7,10 @@ export const mixedAudioResources = {
     "recipe": "tools/remount-news-common.cjs"
   },
   "ca-S007": {
-    "voices": "Mireia: Aoede; Laia: Leda; Biel: Puck. Preses originals conservades; tres personatges intercalats a partir de dues preses compatibles. Pauses tècniques escurçades; identitat i estabilitat de les veus pendents d’esmena. Torn del Biel «Llavors podem tenir aigua al voltant sense veure-la?» pendent d’esmena de veu; pauses i ambient revisats.",
+    "voices": "Mireia: Aoede; Laia: Leda; Biel: Puck. Preses originals conservades; tres personatges intercalats a partir de dues preses compatibles. Muntatge pendent d’audició docent, sense canvis de ritme.",
     "sounds": "classroom students whispering +presence · kyles (CC0 1.0), molt baix sota la conversa.",
-    "recipe": "tools/remount-s007-s037.cjs"
+    "recipe": "tools/render-reviewed-revision.cjs",
+    "currentRevision": "s007-repair-v3"
   },
   "ca-S009": {
     "voices": "Mar: Erinome. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
@@ -21,6 +22,12 @@ export const mixedAudioResources = {
     "voices": "Mireia: Aoede; Biel: Puck; Laia: Leda. Preses originals conservades; tres personatges intercalats a partir de dues preses compatibles. Pauses tècniques escurçades; identitat i estabilitat de les veus pendents d’esmena.",
     "sounds": "SCHOOL CLASSROOM AMBIENCE · Elenalostale (CC0 1.0), fora de la parla. Moving and Handling Cardboard · Breezy2000uk (CC0 1.0), fora de la parla. Dues notes originals de Sentit (MIT), fora de la parla.",
     "recipe": "tools/render-mixed-take.cjs"
+  },
+  "ca-S013": {
+    "voices": "Mireia: Aoede. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "sounds": "Efecte breu del muntatge anterior conservat en la mateixa escena, sense generar cap so nou.",
+    "recipe": "tools/render-reviewed-revision.cjs",
+    "currentRevision": "s013-repair-v3"
   },
   "ca-S014": {
     "voices": "Mireia: Aoede; Biel: Puck. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
@@ -50,9 +57,10 @@ export const mixedAudioResources = {
     "recipe": "tools/remount-news-common.cjs"
   },
   "ca-S024": {
-    "voices": "Laia: Leda; Biel: Puck. Preses originals conservades; Pauses tècniques escurçades; identitat i estabilitat de les veus pendents d’esmena.",
+    "voices": "Laia: Leda; Biel: Puck. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
     "sounds": "SCHOOL CLASSROOM AMBIENCE · Elenalostale (CC0 1.0), molt baix sota la conversa.",
-    "recipe": "tools/remount-s014-classroom.cjs"
+    "recipe": "tools/render-reviewed-revision.cjs",
+    "currentRevision": "s024-timbre-trial-v3"
   },
   "ca-S025": {
     "voices": "Laia: Leda; Biel: Puck. Preses originals conservades; Pauses tècniques escurçades; identitat i estabilitat de les veus pendents d’esmena.",
@@ -75,10 +83,10 @@ export const mixedAudioResources = {
     "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S029": {
-    "voices": "Mar: Erinome. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme. Presentació completa recuperada; primera frase pendent del proper lot de Mar, amb el paràgraf complet per comparar.",
+    "voices": "Mar: Erinome. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
     "sounds": "Breaking News Background Music · Grand_Project (Pixabay Content License). Entrada, base contínua atenuada sota la parla i sortida; font completa conservada localment, no distribuïda sola.",
-    "currentRevision": "news-common-v2",
-    "recipe": "tools/restore-s029-title.cjs"
+    "currentRevision": "s029-repair-v3",
+    "recipe": "tools/render-reviewed-revision.cjs"
   },
   "ca-S030": {
     "voices": "Biel: Puck; Laia: Leda. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
@@ -213,12 +221,12 @@ export const mixedAudioResources = {
     "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S053": {
-    "voices": "Mar: Erinome. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Mar: Erinome. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "Breaking News Background Music · Grand_Project (Pixabay Content License). Entrada, base contínua atenuada sota la parla i sortida; font completa conservada localment, no distribuïda sola.",
     "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S054": {
-    "voices": "Mar: Erinome. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Mar: Erinome. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "Breaking News Background Music · Grand_Project (Pixabay Content License). Entrada, base contínua atenuada sota la parla i sortida; font completa conservada localment, no distribuïda sola.",
     "recipe": "tools/render-mixed-take.cjs"
   },
@@ -253,7 +261,7 @@ export const mixedAudioResources = {
     "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S067": {
-    "voices": "Mireia: Aoede; Biel: Puck. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Mireia: Aoede; Biel: Puck. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "classroom students whispering +presence · kyles (CC0 1.0), molt baix sota la conversa.",
     "recipe": "tools/render-mixed-take.cjs"
   },
@@ -267,13 +275,19 @@ export const mixedAudioResources = {
     "sounds": "Base original «Un dinar entre vies» (MIT), molt baixa durant la narració, amb pujada i fosa final.",
     "recipe": "tools/render-mixed-take.cjs"
   },
+  "ca-S069": {
+    "voices": "Ferran: Algenib. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "sounds": "Base original «Dos noms a la pissarra» (MIT), molt baixa durant la narració, amb pujada i fosa final.",
+    "recipe": "tools/render-mixed-take.cjs",
+    "currentRevision": "s069-mixed-v1"
+  },
   "ca-S069D": {
     "voices": "Aina: Zephyr; Ferran: Algenib. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
     "sounds": "Base original «Dos noms a la pissarra» (MIT), molt baixa durant la narració, amb pujada i fosa final.",
     "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S071D": {
-    "voices": "Aina: Zephyr; Ferran: Algenib. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Aina: Zephyr; Ferran: Algenib. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "Base original «Paper blau a la butxaca» (MIT), molt baixa durant la narració, amb pujada i fosa final.",
     "recipe": "tools/render-mixed-take.cjs"
   },
@@ -293,7 +307,7 @@ export const mixedAudioResources = {
     "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S078": {
-    "voices": "Biel: Puck; Elies: Algieba. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Biel: Puck; Elies: Algieba. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "Soft Room Tone · callmethefoo (CC0 1.0), molt baix sota la conversa.",
     "recipe": "tools/render-mixed-take.cjs"
   },
@@ -303,14 +317,15 @@ export const mixedAudioResources = {
     "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S080": {
-    "voices": "Biel: Puck; Elies: Algieba. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Biel: Puck; Elies: Algieba. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "Soft Room Tone · callmethefoo (CC0 1.0), molt baix sota la conversa.",
     "recipe": "tools/render-mixed-take.cjs"
   },
-  "ca-S069": {
-    "voices": "Ferran: Algenib. Lot L17, veus rebudes i pendents d’audició.",
-    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
-    "recipe": "tools/prepare-batch-voice-previews.cjs"
+  "ca-S082": {
+    "voices": "Biel: Puck; Elies: Algieba. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "sounds": "Soft Room Tone · callmethefoo (CC0 1.0), molt baix sota la conversa.",
+    "recipe": "tools/render-mixed-take.cjs",
+    "currentRevision": "s082-mixed-v1"
   },
   "ca-S058": {
     "voices": "Laia: Leda; Biel: Puck. Lot L18, veus rebudes i pendents d’audició.",
@@ -323,11 +338,6 @@ export const mixedAudioResources = {
     "recipe": "tools/prepare-batch-voice-previews.cjs"
   },
   "ca-S081": {
-    "voices": "Biel: Puck; Elies: Algieba. Lot L20, veus rebudes i pendents d’audició.",
-    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
-    "recipe": "tools/prepare-batch-voice-previews.cjs"
-  },
-  "ca-S082": {
     "voices": "Biel: Puck; Elies: Algieba. Lot L20, veus rebudes i pendents d’audició.",
     "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
     "recipe": "tools/prepare-batch-voice-previews.cjs"

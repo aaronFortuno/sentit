@@ -156,8 +156,9 @@ export const aula = [
   }),
   proposal({
     id: 'la-mateixa-pregunta', code: 'S067', title: 'La mateixa pregunta?', grade: 'eso1', level: 'middle', genre: 'explanation', universeIds: ['amb-mireia'],
+    image: {"src":"./assets/images/la-mateixa-pregunta-v1.webp","alt":"En Biel consulta un full amb la Mireia a l’aula, mentre altres grups treballen al fons.","width":1536,"height":1024},
     recordingCues: [{"before":"inici","text":"Ambient real continu d’aula amb jovent, molt discret sota les dues veus, amb entrada suau. Sense papers, cadires ni altres efectes puntuals afegits."},{"after":"final","text":"La veu acaba completa. Marge breu, pujada suau del fons, dos segons de sosteniment i fosa de dos segons; sense efecte de comiat."}],
-    seconds: 164, status: 'ready-for-review', reviewStatus: 'audio-review',
+    seconds: 164, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s067-mixed-v1.mp3', tracks: { introduction: './assets/audio/s067-mixed-v1-intro.mp3', body: './assets/audio/s067-mixed-v1-cos.mp3' },
     fragment: { start: 4.32, seconds: 159 },
     summary: 'Dos grups de classe han preguntat pels llibres que llegeixen els companys i han obtingut respostes molt diferents. En Biel i la Mireia comparen què havia preguntat realment cadascú.',

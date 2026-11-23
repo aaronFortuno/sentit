@@ -7,24 +7,34 @@
       "part": "repartiment",
       "text": "El codi postal ajuda a arribar a una zona, però no diu tot sol quina bústia concreta és la bona.",
       "pronunciation": "Bústia is stressed on the first vowel Ú: BÚS-ti-a, never bus-TÍ-a. This spelling aid is an instruction, not spoken text. Read the sentence fluently and naturally.",
-      "status": "received-awaiting-listening",
+      "status": "applied-awaiting-montage-listening",
       "originalFile": "assets/audio/repairs/l01-s013-repartiment-original.mp3",
       "candidateFile": "assets/audio/repairs/l01-s013-repartiment-prova.mp3",
       "sourceRawSha256": "37fe6368197b31f9d3d6a8bafedc0c858426c23bd2dd4f6ef6f1278d7cbfb473",
       "batchRequestHash": "0cd61066dabfeb8992968fa3e45c9f95dd07621aa58ca5a919a5e873cee48df7",
-      "applied": false
+      "applied": true,
+      "approvedAt": "2026-11-23",
+      "confirmation": "S013 esmenes validades pel docent per incorporar-les i passar a muntatge.",
+      "candidateSha256": "d530ead23bbf0ef891b0b068ba1dedf0a3988da35faba9d5e5458853b5cd269b",
+      "appliedAt": "2026-11-23",
+      "appliedAudio": "./assets/audio/s013-repair-v3.mp3"
     },
     {
       "code": "S013",
       "part": "error",
       "text": "No és correcte endevinar una bústia només perquè el nom ens sona.",
       "pronunciation": "Bústia is stressed on Ú in the first syllable, never on I. Respect the written accent without exaggerated pauses or spelling aloud.",
-      "status": "received-awaiting-listening",
+      "status": "applied-awaiting-montage-listening",
       "originalFile": "assets/audio/repairs/l01-s013-error-original.mp3",
       "candidateFile": "assets/audio/repairs/l01-s013-error-prova.mp3",
       "sourceRawSha256": "37fe6368197b31f9d3d6a8bafedc0c858426c23bd2dd4f6ef6f1278d7cbfb473",
       "batchRequestHash": "0cd61066dabfeb8992968fa3e45c9f95dd07621aa58ca5a919a5e873cee48df7",
-      "applied": false
+      "applied": true,
+      "approvedAt": "2026-11-23",
+      "confirmation": "S013 esmenes validades pel docent per incorporar-les i passar a muntatge.",
+      "candidateSha256": "b1366113dcca0020c72aece80ee0e122007a833168a5c8336a58644c45f4c21b",
+      "appliedAt": "2026-11-23",
+      "appliedAudio": "./assets/audio/s013-repair-v3.mp3"
     },
     {
       "code": "S010",
@@ -39,5 +49,5 @@
       "applied": false
     }
   ],
-  "masterChanged": false
+  "masterChanged": true
 }

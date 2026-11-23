@@ -1,0 +1,97 @@
+{
+  "code": "S067",
+  "activity": "ca-S067",
+  "state": "published",
+  "file": "s067-mixed-v1.mp3",
+  "introFile": "s067-mixed-v1-intro.mp3",
+  "bodyFile": "s067-mixed-v1-cos.mp3",
+  "offset": 4.32,
+  "bodyDuration": 158.73,
+  "fullDuration": 163.05,
+  "voices": {
+    "Mireia": "Aoede",
+    "Biel": "Puck"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "a8c5196dba3b7699202dbef8681a9fefe519de2d560579efeb91b7f4d561197b",
+  "sourceRequestHash": "a53c3671b943c82dd4bdbc6816a4ee06d64ad09c4cd674c73d6af4c73288d9e0",
+  "batch": "L21",
+  "rawSha256": "4f8ebe4fe17a269b3ffdd4748a6d40e0d99e037623a3e2159a0a04fe3142fb2e",
+  "takeSha256": "3f8ecfc84ece935d9733e6ab08aef8f1b5f7d5ce0cf95c55c1512b331df416f8",
+  "coverage": 0.9070631970260223,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.2,
+  "peakDbTP": -2.49,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "kyles-450728",
+      "start": 0,
+      "source": "assets/audio/sources/kyles-450728.mp3",
+      "sourceSha256": "20f19e1eec5394003835bcc940e246b941b2dd733b062c2743dcef1443f7b0c1",
+      "sourceUrl": "https://freesound.org/people/kyles/sounds/450728/",
+      "author": "kyles",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.12,
+      "openingGain": 0.3,
+      "raisedGain": 0.4,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -46.416375079047505,
+      "lowPassHz": 1800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 5,
+        "seconds": 90
+      },
+      "envelope": {
+        "riseStart": 152.85000000000002,
+        "riseEnd": 153.65000000000003,
+        "holdSeconds": 1.879999999999967,
+        "fadeStart": 155.53,
+        "fadeEnd": 157.53
+      }
+    }
+  ],
+  "sha256": "7efc542bbd91286c086e017e683bb719299840fdca3b701569782746d7db399c",
+  "voiceHandles": {
+    "body": {
+      "start": 0.01,
+      "end": 150.74,
+      "retainedPcmSha256": "c4cbb1cd2c8d4593ff41a638140250a6fe1d27b6c7dfbe17d8e39fe73e1ca503",
+      "sourceSha256": "81f0f75d49206435e6cde269237c03f959905b4d2a0e8925a7dcdc03f4a2f50c",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.2645,
+      "end": 3.6345,
+      "retainedPcmSha256": "a30534efb05765f94e47ef9976ed29e2da9ffe171c932ed27ff5403eef52f240",
+      "sourceSha256": "10262cc82db4be846e14b55e16315e52930a9df8888889145de96fd8728cc365",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-23",
+    "sourceTakeSha256": "3f8ecfc84ece935d9733e6ab08aef8f1b5f7d5ce0cf95c55c1512b331df416f8",
+    "confirmation": "S067 validat per muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S067 validat per publicació definitiva",
+    "audioSha256": "7efc542bbd91286c086e017e683bb719299840fdca3b701569782746d7db399c",
+    "editorialFingerprint": "c231f7eedf8207fe7c6c325c14000eeb8100f19a8912543c49ec1828f23e2408",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/la-mateixa-pregunta-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
+  }
+}

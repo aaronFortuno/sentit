@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "code": "S067",
+  "prompt": "Create ONE landscape 3:2 illustration, 1536x1024, for Sentit Catalan classroom listening worksheets. Fine ink and soft watercolor on airy warm white paper, muted sage, ochre and charcoal, fading naturally to white around the outer edges, consistent with the supplied canonical model sheets. The sheets are identity/style references only: preserve exact faces, ages, hairstyles, skin tones and clothes; do not reproduce sheet layouts or labels. Natural engaged poses and hands. No readable writing, letters, numbers, captions, logos, speech bubbles or watermark. Clear composition at 80mm printed width. Contextual scene, not a posed portrait. Do not depict the solutions to comprehension questions. Only clearly recognizable Mireia and Biel from the two references, exact identities. An ordinary secondary-school classroom small-group activity. Biel stands at the corner of his desk, holding one plain blank worksheet with a puzzled but engaged expression; Mireia, the adult teacher, leans slightly toward the desk and listens while he gestures with his free hand. A few softly indistinct teenage students work in distant background groups, no distinct new characters. Closed neutral notebooks and pencils, calm natural school setting. No readable text, graphs, lists, titles, open books, color coding, comic drawings or paired categories. Do not reveal what the two questions or decisions were.",
+  "references": [
+    "../characters/mireia-model-sheet-v1.webp",
+    "../characters/biel-model-sheet-v1.webp"
+  ]
+}

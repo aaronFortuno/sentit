@@ -402,24 +402,28 @@ export const productionProgress = {
     }
   },
   "ca-S013": {
-    "state": "audio-corrections-pending",
+    "state": "montage-awaiting-listening",
     "feedbackAt": "2026-11-20",
     "feedback": [
       {
         "part": "repartiment",
         "word": "bústia",
         "heard": "bustía",
-        "status": "pending"
+        "status": "applied",
+        "appliedAt": "2026-11-23",
+        "audio": "./assets/audio/s013-repair-v3.mp3"
       },
       {
         "part": "error",
         "word": "bústia",
         "heard": "bustía",
-        "status": "pending"
+        "status": "applied",
+        "appliedAt": "2026-11-23",
+        "audio": "./assets/audio/s013-repair-v3.mp3"
       }
     ],
     "teacherAssessment": "Valoració positiva; bústia pendent de corregir. Sintonia rebutjada, retirada; alternativa pendent.",
-    "plannedNewRequests": 1,
+    "plannedNewRequests": 0,
     "repairPlan": "content/audio-repairs.json",
     "listeningApproval": false,
     "repairComparison": "./proves/correccions-l01.html#S013-error",
@@ -429,26 +433,69 @@ export const productionProgress = {
         "part": "repartiment",
         "text": "El codi postal ajuda a arribar a una zona, però no diu tot sol quina bústia concreta és la bona.",
         "pronunciation": "Bústia is stressed on the first vowel Ú: BÚS-ti-a, never bus-TÍ-a. This spelling aid is an instruction, not spoken text. Read the sentence fluently and naturally.",
-        "status": "received-awaiting-listening",
+        "status": "applied-awaiting-montage-listening",
         "originalFile": "assets/audio/repairs/l01-s013-repartiment-original.mp3",
         "candidateFile": "assets/audio/repairs/l01-s013-repartiment-prova.mp3",
         "sourceRawSha256": "37fe6368197b31f9d3d6a8bafedc0c858426c23bd2dd4f6ef6f1278d7cbfb473",
         "batchRequestHash": "0cd61066dabfeb8992968fa3e45c9f95dd07621aa58ca5a919a5e873cee48df7",
-        "applied": false
+        "applied": true,
+        "approvedAt": "2026-11-23",
+        "confirmation": "S013 esmenes validades pel docent per incorporar-les i passar a muntatge.",
+        "candidateSha256": "d530ead23bbf0ef891b0b068ba1dedf0a3988da35faba9d5e5458853b5cd269b",
+        "appliedAt": "2026-11-23",
+        "appliedAudio": "./assets/audio/s013-repair-v3.mp3"
       },
       {
         "code": "S013",
         "part": "error",
         "text": "No és correcte endevinar una bústia només perquè el nom ens sona.",
         "pronunciation": "Bústia is stressed on Ú in the first syllable, never on I. Respect the written accent without exaggerated pauses or spelling aloud.",
-        "status": "received-awaiting-listening",
+        "status": "applied-awaiting-montage-listening",
         "originalFile": "assets/audio/repairs/l01-s013-error-original.mp3",
         "candidateFile": "assets/audio/repairs/l01-s013-error-prova.mp3",
         "sourceRawSha256": "37fe6368197b31f9d3d6a8bafedc0c858426c23bd2dd4f6ef6f1278d7cbfb473",
         "batchRequestHash": "0cd61066dabfeb8992968fa3e45c9f95dd07621aa58ca5a919a5e873cee48df7",
-        "applied": false
+        "applied": true,
+        "approvedAt": "2026-11-23",
+        "confirmation": "S013 esmenes validades pel docent per incorporar-les i passar a muntatge.",
+        "candidateSha256": "b1366113dcca0020c72aece80ee0e122007a833168a5c8336a58644c45f4c21b",
+        "appliedAt": "2026-11-23",
+        "appliedAudio": "./assets/audio/s013-repair-v3.mp3"
       }
-    ]
+    ],
+    "repairApplicationApproval": {
+      "at": "2026-11-23",
+      "scope": "approved-repair",
+      "confirmation": "S013 esmenes validades pel docent per incorporar-les i passar a muntatge.",
+      "clips": [
+        {
+          "part": "repartiment",
+          "text": "El codi postal ajuda a arribar a una zona, però no diu tot sol quina bústia concreta és la bona.",
+          "candidateFile": "assets/audio/repairs/l01-s013-repartiment-prova.mp3",
+          "candidateSha256": "d530ead23bbf0ef891b0b068ba1dedf0a3988da35faba9d5e5458853b5cd269b",
+          "batchRequestHash": "0cd61066dabfeb8992968fa3e45c9f95dd07621aa58ca5a919a5e873cee48df7"
+        },
+        {
+          "part": "error",
+          "text": "No és correcte endevinar una bústia només perquè el nom ens sona.",
+          "candidateFile": "assets/audio/repairs/l01-s013-error-prova.mp3",
+          "candidateSha256": "b1366113dcca0020c72aece80ee0e122007a833168a5c8336a58644c45f4c21b",
+          "batchRequestHash": "0cd61066dabfeb8992968fa3e45c9f95dd07621aa58ca5a919a5e873cee48df7"
+        }
+      ]
+    },
+    "audioSha256": "03807f97cb892ad29c76a0b4e49dfb7dce57e6ea939c9509fb40fc482c320f94",
+    "montageNewSynthesisRequests": 0,
+    "reason": "Dues frases amb «bústia» substituïdes per les represes validades. Presentació i dos efectes breus del muntatge anterior conservats, sense recuperar la sintonia rebutjada. Pendent d’audició del muntatge.",
+    "reviewUpdate": {
+      "audio": "./assets/audio/s013-repair-v3.mp3",
+      "at": "2026-11-23",
+      "summary": {
+        "ca": "Dues frases amb «bústia» substituïdes per les represes validades. Presentació i dos efectes breus del muntatge anterior conservats, sense recuperar la sintonia rebutjada. Pendent d’audició del muntatge.",
+        "es": "Correcciones de voz validadas e incorporadas al montaje completo. Pendiente de escucha final."
+      }
+    },
+    "editorialFingerprint": "ced07fdae0cf82ca60322c39549552371917bce95f1b78682d5cb491a585bdc2"
   },
   "ca-S022": {
     "state": "audio-corrections-pending",
@@ -816,12 +863,12 @@ export const productionProgress = {
     }
   },
   "ca-S007": {
-    "state": "audio-corrections-pending",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-20T21:20:16.430Z",
-    "editorialFingerprint": "6b976b8f8b4e3bdc8a31e978ac81e2383c7a0e6617b3448fbd00b9a0642e62f3",
-    "plannedNewRequests": 1,
+    "editorialFingerprint": "ae55a38bbe904e3145161e030fdea4d671bc90235a79b0e0369b4e2b61aad5aa",
+    "plannedNewRequests": 0,
     "confirmation": "S007 es pot pujar a síntesi de veus, guió validat.",
-    "reason": "Guió validat; dues preses agrupades, amb pauses per intercalar les tres veus en local. Cap síntesi nova el dia 20: deu peticions consumides.",
+    "reason": "Torn «Llavors podem tenir aigua al voltant sense veure-la?» substituït per Biel. Resta de les veus i pauses netejades conservades; ambient real continu d’aula, sense cadira, paper ni tons finals. Pendent d’audició del muntatge.",
     "quotaHold": {
       "day": "2026-11-20",
       "countedRequests": 10,
@@ -843,15 +890,15 @@ export const productionProgress = {
     "listeningApproval": false,
     "synthesisBatch": "L10+L02",
     "requestHash": "ef97c7456001de385258549f2a355d83acf7942502caa3b39f364da8be1b417f",
-    "audioSha256": "4edfea01a2b6d79b6a1d63b3affdcd832763e290000e05aea1434c859d35a04c",
+    "audioSha256": "4828e5d35d73dec71a4ceb7dbec15047590c2c7dc377cb2fea485624ac434440",
     "montageNewSynthesisRequests": 0,
     "feedbackAt": "2026-11-23",
     "reviewUpdate": {
-      "audio": "./assets/audio/s007-classroom-v2.mp3",
+      "audio": "./assets/audio/s007-repair-v3.mp3",
       "at": "2026-11-23",
       "summary": {
-        "ca": "Nou ambient suau d’aula; retirats cadira, paper i tons i escurçades les pauses entre torns. La frase «Llavors podem tenir aigua al voltant sense veure-la?» continua pendent de regenerar amb la veu del Biel.",
-        "es": "Nuevo ambiente suave de aula; retirados silla, papel y tonos y acortadas las pausas entre turnos. La frase de Biel sobre el agua invisible sigue pendiente de regenerar con su voz."
+        "ca": "Torn «Llavors podem tenir aigua al voltant sense veure-la?» substituït per Biel. Resta de les veus i pauses netejades conservades; ambient real continu d’aula, sense cadira, paper ni tons finals. Pendent d’audició del muntatge.",
+        "es": "Correcciones de voz validadas e incorporadas al montaje completo. Pendiente de escucha final."
       }
     },
     "feedback": [
@@ -866,7 +913,9 @@ export const productionProgress = {
         "kind": "voice-identity",
         "word": "Llavors podem tenir aigua al voltant sense veure-la?",
         "heard": "La frase del Biel sona amb la veu de la Laia",
-        "status": "pending"
+        "status": "applied",
+        "appliedAt": "2026-11-23",
+        "audio": "./assets/audio/s007-repair-v3.mp3"
       }
     ],
     "voiceApproval": false,
@@ -874,7 +923,7 @@ export const productionProgress = {
       "part": "invisible",
       "speaker": "Biel",
       "text": "Llavors podem tenir aigua al voltant sense veure-la?",
-      "status": "received-awaiting-listening",
+      "status": "applied-awaiting-montage-listening",
       "sourceTakeSha256": "9135a1b339df1a9f97f5d1701089fb5e62627f4bdb1e20df7534262082370453",
       "voice": "Puck",
       "batch": "L27"
@@ -886,24 +935,44 @@ export const productionProgress = {
         "part": "invisible",
         "text": "Llavors podem tenir aigua al voltant sense veure-la?",
         "pronunciation": "Use the same youthful male Biel/Puck identity as in the complete recordings, never the female Laia/Leda voice. Read the question naturally. No added breaths or other vocalizations.",
-        "status": "received-awaiting-listening",
+        "status": "applied-awaiting-montage-listening",
         "originalFile": "assets/audio/repairs/l27-s007-invisible-original.mp3",
         "candidateFile": "assets/audio/repairs/l27-s007-invisible-prova.mp3",
         "sourceRawSha256": "75f355dc0e16071957f1057590e050e668469cc3f22f85afd37fec35c67cee27",
         "sourceTakeId": "S007-T02",
         "sourceTakeSha256": "9135a1b339df1a9f97f5d1701089fb5e62627f4bdb1e20df7534262082370453",
         "batchRequestHash": "a8a1c31ecd69f92c20a41e6a739917e717f6da8007fba6592d62f5d5b553f9c0",
-        "applied": false
+        "applied": true,
+        "approvedAt": "2026-11-23",
+        "confirmation": "S007 esmenes validades pel docent per incorporar-les i passar a muntatge.",
+        "candidateSha256": "26c984c10d536368dadb580403ee8ff8299f341a92d5bf127b9e7b2cad6d6329",
+        "appliedAt": "2026-11-23",
+        "appliedAudio": "./assets/audio/s007-repair-v3.mp3"
       }
-    ]
+    ],
+    "repairApplicationApproval": {
+      "at": "2026-11-23",
+      "scope": "approved-repair",
+      "confirmation": "S007 esmenes validades pel docent per incorporar-les i passar a muntatge.",
+      "clips": [
+        {
+          "part": "invisible",
+          "text": "Llavors podem tenir aigua al voltant sense veure-la?",
+          "candidateFile": "assets/audio/repairs/l27-s007-invisible-prova.mp3",
+          "candidateSha256": "26c984c10d536368dadb580403ee8ff8299f341a92d5bf127b9e7b2cad6d6329",
+          "batchRequestHash": "a8a1c31ecd69f92c20a41e6a739917e717f6da8007fba6592d62f5d5b553f9c0",
+          "sourceTakeSha256": "9135a1b339df1a9f97f5d1701089fb5e62627f4bdb1e20df7534262082370453"
+        }
+      ]
+    }
   },
   "ca-S024": {
-    "state": "audio-corrections-pending",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-20T21:21:39.843Z",
-    "editorialFingerprint": "ce9615248b452c5b07530de2d0f424174c4f313494bb1bbecf5c98aef2d81cf2",
-    "plannedNewRequests": 1,
+    "editorialFingerprint": "8ad4c1ba4b7b959e4a5c1949356d033c1b5a069e83b71fcdaccae8ba0c2193e7",
+    "plannedNewRequests": 0,
     "confirmation": "S024 pot pujar a síntesi de veu, guió validat.",
-    "reason": "Guió validat; conversa de Laia i Biel preparada per agrupar amb les altres peces Puck/Leda. Cap síntesi nova el dia 20: deu peticions consumides.",
+    "reason": "Prova de timbre: últim torn de Biel substituït per la segona versió, més greu. Decisió sobre el timbre pendent d’escoltar-lo dins la conversa; ambient continu d’aula i presentació conservats. Pendent d’audició del muntatge.",
     "quotaHold": {
       "day": "2026-11-20",
       "countedRequests": 10,
@@ -923,7 +992,7 @@ export const productionProgress = {
     "listeningApproval": false,
     "synthesisBatch": "L02",
     "requestHash": "ef2b891a48e5c2823d4527ce9a4c0fc93ae1951ecaad5c7ce07a30ac584a1a66",
-    "audioSha256": "79c941202ad398a33e2681b6bc2183f23c82ce1084cdfd83013e335ea36b720a",
+    "audioSha256": "dc6a3e1ba9b69ad6715addf156c61889067beb3d316898c3b7374d7b3d524a50",
     "montageNewSynthesisRequests": 0,
     "feedbackAt": "2026-11-22",
     "feedback": [
@@ -931,7 +1000,9 @@ export const productionProgress = {
         "part": "dubtes",
         "word": "I el pas fins a la font",
         "heard": "Veu de Biel excessivament aguda i antinatural al darrer torn",
-        "status": "pending"
+        "status": "applied",
+        "appliedAt": "2026-11-23",
+        "audio": "./assets/audio/s024-timbre-trial-v3.mp3"
       }
     ],
     "plannedRepair": {
@@ -939,16 +1010,16 @@ export const productionProgress = {
       "speaker": "Biel",
       "text": "I el pas fins a la font! Això ho podem preguntar a la mestra. Després portem el full als altres cursos?",
       "sourceTakeSha256": "1159530cc9e6884898ca2176f65034213df656a40b46ac8933eb6942df5694cf",
-      "status": "received-awaiting-listening",
+      "status": "applied-awaiting-montage-listening",
       "voice": "Puck",
       "batch": "L27"
     },
     "reviewUpdate": {
-      "audio": "./assets/audio/s024-classroom-v2.mp3",
-      "at": "2026-11-22",
+      "audio": "./assets/audio/s024-timbre-trial-v3.mp3",
+      "at": "2026-11-23",
       "summary": {
-        "ca": "Retirats els bufecs previs i les notes finals; ambient continu d’aula. Últim torn de Biel pendent d’esmena de veu.",
-        "es": "Retirados los soplidos iniciales y las notas finales; ambiente continuo de aula. Último turno de Biel pendiente de corrección de voz."
+        "ca": "Prova de timbre: últim torn de Biel substituït per la segona versió, més greu. Decisió sobre el timbre pendent d’escoltar-lo dins la conversa; ambient continu d’aula i presentació conservats. Pendent d’audició del muntatge.",
+        "es": "Prueba con la segunda voz de Biel integrada en la conversación; decisión sobre el timbre pendiente."
       }
     },
     "repairComparison": "./proves/correccions-l27.html#S024-dubtes",
@@ -958,16 +1029,42 @@ export const productionProgress = {
         "part": "dubtes",
         "text": "I el pas fins a la font! Això ho podem preguntar a la mestra. Després portem el full als altres cursos?",
         "pronunciation": "Keep the same natural youthful male Biel/Puck voice throughout. No exaggerated high pitch on I el pas fins a la font. Keep the whole turn conversational, warm and clear.",
-        "status": "received-awaiting-listening",
+        "status": "trial-applied-awaiting-timbre-decision",
         "originalFile": "assets/audio/repairs/l27-s024-dubtes-original.mp3",
         "candidateFile": "assets/audio/repairs/l27-s024-dubtes-prova.mp3",
         "sourceRawSha256": "75f355dc0e16071957f1057590e050e668469cc3f22f85afd37fec35c67cee27",
         "sourceTakeId": "S024-T01",
         "sourceTakeSha256": "1159530cc9e6884898ca2176f65034213df656a40b46ac8933eb6942df5694cf",
         "batchRequestHash": "a8a1c31ecd69f92c20a41e6a739917e717f6da8007fba6592d62f5d5b553f9c0",
-        "applied": false
+        "applied": true,
+        "approvedAt": "2026-11-23",
+        "confirmation": "El docent prefereix provisionalment la segona versió i demana escoltar-la dins del muntatge complet abans de decidir sobre el timbre.",
+        "candidateSha256": "8756e51d4bb0a9a5c23315a6afb7312bcd17d87a14c148f028dbda94b21df9e7",
+        "appliedAt": "2026-11-23",
+        "appliedAudio": "./assets/audio/s024-timbre-trial-v3.mp3"
       }
-    ]
+    ],
+    "repairApplicationApproval": {
+      "at": "2026-11-23",
+      "scope": "provisional-timbre-trial",
+      "confirmation": "El docent prefereix provisionalment la segona versió i demana escoltar-la dins del muntatge complet abans de decidir sobre el timbre.",
+      "clips": [
+        {
+          "part": "dubtes",
+          "text": "I el pas fins a la font! Això ho podem preguntar a la mestra. Després portem el full als altres cursos?",
+          "candidateFile": "assets/audio/repairs/l27-s024-dubtes-prova.mp3",
+          "candidateSha256": "8756e51d4bb0a9a5c23315a6afb7312bcd17d87a14c148f028dbda94b21df9e7",
+          "batchRequestHash": "a8a1c31ecd69f92c20a41e6a739917e717f6da8007fba6592d62f5d5b553f9c0",
+          "sourceTakeSha256": "1159530cc9e6884898ca2176f65034213df656a40b46ac8933eb6942df5694cf"
+        }
+      ]
+    },
+    "timbreReview": {
+      "status": "pending-listening",
+      "trialAudio": "./assets/audio/s024-timbre-trial-v3.mp3",
+      "previousAudio": "./assets/audio/s024-classroom-v2.mp3",
+      "note": "La segona versió és més greu; el docent vol decidir després d’escoltar-la en context."
+    }
   },
   "ca-S017": {
     "state": "audio-corrections-pending",
@@ -1150,12 +1247,12 @@ export const productionProgress = {
     }
   },
   "ca-S029": {
-    "state": "audio-corrections-pending",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-21T08:12:38.478Z",
-    "editorialFingerprint": "6f7493606dae6bf3216e733471825b45c28cb5573765963d09436e068faffd14",
-    "plannedNewRequests": 1,
+    "editorialFingerprint": "a665998ade8ac831d5e347768e31d932aa670f758f877dbd1e8de9e60a3cd319",
+    "plannedNewRequests": 0,
     "confirmation": "Fent aquests canvis que et dic el text quedaria validat per síntesi de veus.",
-    "reason": "Guió validat amb l’avís de divendres a les quatre de la tarda. Incorporar la presa Mar/Erinome al lot L03; cap petició curta aïllada.",
+    "reason": "Primer paràgraf complet incorporat, inclosa la frase «La plaça del barri acollirà divendres una sessió de cinema a l’aire lliure». Locució inicial actual conservada. Música comuna de notícies molt baixa sota la veu, sense papers ni altres efectes. Pendent d’audició del muntatge.",
     "sharedJingle": {
       "status": "catalogue-approved",
       "selected": "ona-curta",
@@ -1173,15 +1270,15 @@ export const productionProgress = {
     "voicesReceivedAt": "2026-11-21T10:33:32.469Z",
     "listeningApproval": false,
     "voicePreview": "./proves/veus-rebudes.html#S029",
-    "audioSha256": "cd63e012df6c143cac5f9e44185dbe2634156c67b353f8d98a1b36c7d52b5080",
+    "audioSha256": "ba14a5724776db495a87fa23a7b738ea76bf2840d3f32728279dab4bcdd533d1",
     "montageNewSynthesisRequests": 0,
     "voicePreviewFile": "./assets/audio/s029-voices-review-v2.mp3",
     "reviewUpdate": {
-      "audio": "./assets/audio/s029-title-v3.mp3",
+      "audio": "./assets/audio/s029-repair-v3.mp3",
       "at": "2026-11-23",
       "summary": {
-        "ca": "Presentació recuperada amb «Notícia de ficció» i sense el tall sobrer. Resta del muntatge intacta. Primera frase pendent: es demanarà tot el primer paràgraf al proper lot de Mar.",
-        "es": "Presentación recuperada con «Notícia de ficció» y sin el corte sobrante. Resto del montaje intacto. Primera frase pendiente: se pedirá el primer párrafo completo en el próximo lote de Mar."
+        "ca": "Primer paràgraf complet incorporat, inclosa la frase «La plaça del barri acollirà divendres una sessió de cinema a l’aire lliure». Locució inicial actual conservada. Música comuna de notícies molt baixa sota la veu, sense papers ni altres efectes. Pendent d’audició del muntatge.",
+        "es": "Correcciones de voz validadas e incorporadas al montaje completo. Pendiente de escucha final."
       }
     },
     "feedbackAt": "2026-11-23",
@@ -1194,12 +1291,14 @@ export const productionProgress = {
       {
         "part": "anunci",
         "word": "Primera frase omesa pel proveïdor",
-        "status": "pending"
+        "status": "applied",
+        "appliedAt": "2026-11-23",
+        "audio": "./assets/audio/s029-repair-v3.mp3"
       }
     ],
     "teacherAssessment": "Presentació completa recuperada i inici de les veus netejat. La primera frase no existeix a la presa crua. El docent demana el primer paràgraf complet al proper lot de Mar, comparar el timbre i decidir després si s’incorpora tot o només la frase.",
     "plannedRepair": {
-      "status": "received-awaiting-listening",
+      "status": "applied-awaiting-montage-listening",
       "part": "anunci",
       "speaker": "Mar",
       "voice": "Erinome",
@@ -1221,16 +1320,36 @@ export const productionProgress = {
         "part": "anunci",
         "text": "La plaça del barri acollirà divendres una sessió de cinema a l’aire lliure. L’associació de veïns ha triat una pel·lícula d’aventures per a tots els públics. La projecció començarà quan es faci fosc; per això no tindrà el mateix horari que les activitats de tarda.",
         "pronunciation": "Preserve the first sentence starting La plaça del barri acollirà. Acollirà has final stressed À. Keep a natural continuous newsreader delivery across the whole paragraph.",
-        "status": "received-awaiting-listening",
+        "status": "applied-awaiting-montage-listening",
         "originalFile": "assets/audio/repairs/l25-s029-anunci-original.mp3",
         "candidateFile": "assets/audio/repairs/l25-s029-anunci-prova.mp3",
         "sourceRawSha256": "490b279a9670c6bb48737b04668af2d9cf14d0fe56bc165f26dccc2e518beba4",
         "sourceTakeId": "S029-T01",
         "sourceTakeSha256": "8965bab558d63722894ab08f1f5467a11a2e75d3366fc5539b9cb0e055144c2c",
         "batchRequestHash": "4e3ed06c613d1750826947314242be6a728fc3ca9f7dbf20d554f3768035a399",
-        "applied": false
+        "applied": true,
+        "approvedAt": "2026-11-23",
+        "confirmation": "S029 esmenes validades pel docent per incorporar-les i passar a muntatge.",
+        "candidateSha256": "be9559fb934a8c2076d782664354403ed2b7d920d68172d2f290a715bbe04e87",
+        "appliedAt": "2026-11-23",
+        "appliedAudio": "./assets/audio/s029-repair-v3.mp3"
       }
-    ]
+    ],
+    "repairApplicationApproval": {
+      "at": "2026-11-23",
+      "scope": "approved-repair",
+      "confirmation": "S029 esmenes validades pel docent per incorporar-les i passar a muntatge.",
+      "clips": [
+        {
+          "part": "anunci",
+          "text": "La plaça del barri acollirà divendres una sessió de cinema a l’aire lliure. L’associació de veïns ha triat una pel·lícula d’aventures per a tots els públics. La projecció començarà quan es faci fosc; per això no tindrà el mateix horari que les activitats de tarda.",
+          "candidateFile": "assets/audio/repairs/l25-s029-anunci-prova.mp3",
+          "candidateSha256": "be9559fb934a8c2076d782664354403ed2b7d920d68172d2f290a715bbe04e87",
+          "batchRequestHash": "4e3ed06c613d1750826947314242be6a728fc3ca9f7dbf20d554f3768035a399",
+          "sourceTakeSha256": "8965bab558d63722894ab08f1f5467a11a2e75d3366fc5539b9cb0e055144c2c"
+        }
+      ]
+    }
   },
   "ca-S026": {
     "state": "published",
@@ -2694,13 +2813,13 @@ export const productionProgress = {
     }
   },
   "ca-S069": {
-    "state": "audio-corrections-pending",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-22T19:33:51.066Z",
-    "editorialFingerprint": "98d513f391e4b49069dd87e6ec6e7ea9308a37147a327cd2f068e6a1e43783c1",
-    "plannedNewRequests": 1,
+    "editorialFingerprint": "bcae83ca2e51411b9e4ae67f41c886e19ce0c4029349572d9c841a4bd48c888e",
+    "plannedNewRequests": 0,
     "listeningApproval": false,
     "confirmation": "S069 validada per síntesi de veus",
-    "reason": "Agrupar records complets validats de Ferran/Algenib fins a sis a vuit minuts. S069D té validació pròpia pendent.",
+    "reason": "Paràgraf inicial substituït per la represa de Ferran validada, amb «Aina» i «guix». Base «Dos noms a la pissarra» compartida amb S069D, molt baixa sota la veu, amb pujada i fosa final. Pendent d’audició del muntatge.",
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -2720,33 +2839,35 @@ export const productionProgress = {
         "part": "encarrec",
         "word": "Aina · guix",
         "heard": "Eina i guiks",
-        "status": "pending"
+        "status": "applied",
+        "appliedAt": "2026-11-23",
+        "audio": "./assets/audio/s069-mixed-v1.mp3"
       }
     ],
     "voiceApproval": {
-      "status": "partial",
-      "approvedAt": "2026-11-22",
-      "sourceTakeSha256": "633fd6af92165442628944cb8ad45e889218b2bbbf4d4ceca34f47f390421a14",
-      "approvedParts": [
-        "introduction",
-        "primer",
-        "canvi",
-        "error",
-        "parar",
-        "arreglar",
-        "final"
-      ],
-      "excludedParts": [
-        "encarrec"
-      ],
-      "confirmation": "Primera intervenció pendent de represa; la resta correcta i vàlida per muntatge."
+      "status": "approved",
+      "approvedAt": "2026-11-23",
+      "sourceTakeSha256": "71b6d2ec59727bed87b85c19501f66b47e62d0c573646851bcee971f3a9485e7",
+      "baseTakeSha256": "633fd6af92165442628944cb8ad45e889218b2bbbf4d4ceca34f47f390421a14",
+      "confirmation": "S069 esmenes validades pel docent per incorporar-les i passar a muntatge.",
+      "derivation": "Previously approved remaining speech plus the exact teacher-approved replacement; assembled playback still awaits montage audition.",
+      "repairs": [
+        {
+          "part": "encarrec",
+          "text": "Aina, una vegada em van deixar portar el marcador d’un partit del barri. Jo encara era petit per jugar amb els grans, però em van donar una pissarra i un guix. A dalt hi havia escrit el nom dels dos equips: carrer Nou a l’esquerra i carrer Major a la dreta.",
+          "candidateFile": "assets/audio/repairs/l28-s069-encarrec-prova.mp3",
+          "candidateSha256": "a071b2641426c67697ca847b18b52bbae4cbe760e385df170e9aed40957cf1e8",
+          "batchRequestHash": "17cd4683c769da2badcc720d67926da3398a2be69ff54c217a766273869991d4",
+          "sourceTakeSha256": "633fd6af92165442628944cb8ad45e889218b2bbbf4d4ceca34f47f390421a14"
+        }
+      ]
     },
     "plannedRepair": {
       "part": "encarrec",
       "speaker": "Ferran",
       "text": "Aina, una vegada em van deixar portar el marcador d’un partit del barri. Jo encara era petit per jugar amb els grans, però em van donar una pissarra i un guix. A dalt hi havia escrit el nom dels dos equips: carrer Nou a l’esquerra i carrer Major a la dreta.",
       "sourceTakeSha256": "633fd6af92165442628944cb8ad45e889218b2bbbf4d4ceca34f47f390421a14",
-      "status": "received-awaiting-listening",
+      "status": "applied-awaiting-montage-listening",
       "pronunciation": "Aina: keep the Catalan AI diphthong, not Eina. Guix ends with the soft SH consonant heard in Catalan peix, never a K or KS sound. Keep the I vowel. Read only the supplied sentence, not these instructions.",
       "voice": "Algenib",
       "batch": "L28"
@@ -2758,16 +2879,49 @@ export const productionProgress = {
         "part": "encarrec",
         "text": "Aina, una vegada em van deixar portar el marcador d’un partit del barri. Jo encara era petit per jugar amb els grans, però em van donar una pissarra i un guix. A dalt hi havia escrit el nom dels dos equips: carrer Nou a l’esquerra i carrer Major a la dreta.",
         "pronunciation": "Aina: keep the Catalan AI diphthong, not Eina. Guix ends with the soft SH consonant heard in Catalan peix, never a K or KS sound. Keep the I vowel. Read only the supplied sentence, not these instructions.",
-        "status": "received-awaiting-listening",
+        "status": "applied-awaiting-montage-listening",
         "originalFile": "assets/audio/repairs/l28-s069-encarrec-original.mp3",
         "candidateFile": "assets/audio/repairs/l28-s069-encarrec-prova.mp3",
         "sourceRawSha256": "43a2e90b48ca2359bb188118537c41567673d998ef51374d5170f00ca0c55937",
         "sourceTakeId": "S069-T01",
         "sourceTakeSha256": "633fd6af92165442628944cb8ad45e889218b2bbbf4d4ceca34f47f390421a14",
         "batchRequestHash": "17cd4683c769da2badcc720d67926da3398a2be69ff54c217a766273869991d4",
-        "applied": false
+        "applied": true,
+        "approvedAt": "2026-11-23",
+        "confirmation": "S069 esmenes validades pel docent per incorporar-les i passar a muntatge.",
+        "candidateSha256": "a071b2641426c67697ca847b18b52bbae4cbe760e385df170e9aed40957cf1e8",
+        "appliedAt": "2026-11-23",
+        "appliedAudio": "./assets/audio/s069-mixed-v1.mp3"
       }
-    ]
+    ],
+    "repairApplicationApproval": {
+      "at": "2026-11-23",
+      "scope": "approved-repair",
+      "confirmation": "S069 esmenes validades pel docent per incorporar-les i passar a muntatge.",
+      "clips": [
+        {
+          "part": "encarrec",
+          "text": "Aina, una vegada em van deixar portar el marcador d’un partit del barri. Jo encara era petit per jugar amb els grans, però em van donar una pissarra i un guix. A dalt hi havia escrit el nom dels dos equips: carrer Nou a l’esquerra i carrer Major a la dreta.",
+          "candidateFile": "assets/audio/repairs/l28-s069-encarrec-prova.mp3",
+          "candidateSha256": "a071b2641426c67697ca847b18b52bbae4cbe760e385df170e9aed40957cf1e8",
+          "batchRequestHash": "17cd4683c769da2badcc720d67926da3398a2be69ff54c217a766273869991d4",
+          "sourceTakeSha256": "633fd6af92165442628944cb8ad45e889218b2bbbf4d4ceca34f47f390421a14"
+        }
+      ]
+    },
+    "mountedAt": "2026-11-23T16:40:45.618Z",
+    "synthesisBatch": "L17+L28",
+    "requestHash": "ec29b04e980b32a62d4837b44cdb978862d4e2a5517ea730a5d39def3bb1d4cf",
+    "audioSha256": "6529adf8215c90b2d64ef3e9ae8bd0d100c56a7cd76f475622d5416240ce0319",
+    "montageNewSynthesisRequests": 0,
+    "reviewUpdate": {
+      "audio": "./assets/audio/s069-mixed-v1.mp3",
+      "at": "2026-11-23",
+      "summary": {
+        "ca": "Paràgraf inicial substituït per la represa de Ferran validada, amb «Aina» i «guix». Base «Dos noms a la pissarra» compartida amb S069D, molt baixa sota la veu, amb pujada i fosa final. Pendent d’audició del muntatge.",
+        "es": "Correcciones de voz validadas e incorporadas al montaje completo. Pendiente de escucha final."
+      }
+    }
   },
   "ca-S075": {
     "state": "published",
@@ -2961,7 +3115,7 @@ export const productionProgress = {
     "plannedNewRequests": 1,
     "listeningApproval": false,
     "confirmation": "S061 validada per síntesi de veus",
-    "reason": "Agrupar lectures completes validades de Laia/Leda i Biel/Puck fins a sis a vuit minuts. Confirmar curs i dificultat escoltant el muntatge.",
+    "reason": "Cos de veus netes validat; cal reposar només el títol abans del muntatge.",
     "gradingReview": {
       "status": "confirmed-by-teacher",
       "confirmedAt": "2026-11-23",
@@ -2993,15 +3147,20 @@ export const productionProgress = {
       "at": "2026-11-22",
       "conversion": "removed-35-interleaved-c2pa-id3-tags",
       "summary": {
-        "ca": "Metadades retirades; torna a escoltar la presa neta. El títol locutat continua pendent.",
-        "es": "Metadatos retirados; vuelve a escuchar la toma limpia. El título locutado sigue pendiente."
-      }
+        "ca": "Veus netes validades pel docent; només falta la locució inicial del títol.",
+        "es": "Voces limpias validadas por el docente; solo falta la locución inicial del título."
+      },
+      "reviewedAt": "2026-11-23"
     },
     "bodyVoiceApproval": {
       "status": "approved",
       "approvedAt": "2026-11-23",
       "sourceTakeSha256": "f8c2abe90710bcd8f81d4437c03c30b36c5c1be4ac58f2c7a46e63e0aa60cd4b",
-      "confirmation": "Resta de les veus validada pel docent. Falta la presentació abans de passar a muntatge."
+      "confirmation": "S061: el docent valida expressament les veus després de la neteja de metadades; només falta la locució inicial del títol.",
+      "confirmedAfterMetadataCleanup": true,
+      "sourcePreviewFile": "./assets/audio/s061-voices-review-v2.mp3",
+      "sourcePreviewSha256": "6ce46e740bf242d55d6809664c0f5488a2873049f567a47fba19e312d9163603",
+      "previewRevision": 2
     },
     "feedbackAt": "2026-11-23",
     "feedback": [
@@ -3021,16 +3180,16 @@ export const productionProgress = {
       "scope": "missing-title",
       "sourceTakeSha256": "f8c2abe90710bcd8f81d4437c03c30b36c5c1be4ac58f2c7a46e63e0aa60cd4b"
     },
-    "teacherAssessment": "Veus del cos validades; cal reposar la presentació omesa abans de muntar. No sintetitzar una petició curta aïllada."
+    "teacherAssessment": "Veus del cos validades després de la neteja. Presentació inicial pendent; sense validació global ni muntatge encara."
   },
   "ca-S082": {
-    "state": "audio-corrections-pending",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-22T19:59:16.594Z",
-    "editorialFingerprint": "b240a4b113ef94d395926ce05c3897d6c219c180c2f29a66fe202e5a857e4389",
-    "plannedNewRequests": 1,
+    "editorialFingerprint": "211a7ed596bb89d7e04325f64db361d9dbabff727f878fc78309835db06d37ff",
+    "plannedNewRequests": 0,
     "listeningApproval": false,
     "confirmation": "S082 validada per síntesi de veus",
-    "reason": "Agrupar lectures completes validades de Biel/Puck i Elies/Algieba fins a sis a vuit minuts. Valorar curs després de l’àudio muntat.",
+    "reason": "Torn de Biel amb «funda» substituït per la represa validada. Ambient real continu d’estança tranquil·la, molt discret sota les veus; sense efectes puntuals afegits. Pendent d’audició del muntatge.",
     "gradingReview": {
       "status": "pending-listening",
       "reviewAfter": "mounted-audio",
@@ -3052,7 +3211,24 @@ export const productionProgress = {
         "L20"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-23",
+      "sourceTakeSha256": "aeca6f6603e65effa772d82806b2925b44d78ce4e7419f51f8c1baea91bbc50d",
+      "baseTakeSha256": "dcc33675ef85560b46ae2c2d1a217a5b592101687316ff0907c07ebcb4776bf9",
+      "confirmation": "S082 esmenes validades pel docent per incorporar-les i passar a muntatge.",
+      "derivation": "Previously approved remaining speech plus the exact teacher-approved replacement; assembled playback still awaits montage audition.",
+      "repairs": [
+        {
+          "part": "mòbil",
+          "text": "La gravació del meu mòbil! La vaig fer quan vaig portar-la el primer dia. Hi ha una estona que toco i, després, em poso a parlar de la funda. Potser podria agafar només el tros on sona aquell cop.",
+          "candidateFile": "assets/audio/repairs/l26-s082-mòbil-prova.mp3",
+          "candidateSha256": "aebc5e627e9c725b15cf5ff8e894c7d9b0d1120b8f55dd5d7ac854f5ee56afdb",
+          "batchRequestHash": "528f65283474a1f42bc1be0b2920865817daec53fc0f6634f693552abc5401f1",
+          "sourceTakeSha256": "dcc33675ef85560b46ae2c2d1a217a5b592101687316ff0907c07ebcb4776bf9"
+        }
+      ]
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-23T07:57:54.800Z",
     "voicePreview": "./proves/veus-rebudes.html#S082",
@@ -3066,7 +3242,9 @@ export const productionProgress = {
         "kind": "pronunciation",
         "word": "funda",
         "heard": "fona",
-        "status": "pending"
+        "status": "applied",
+        "appliedAt": "2026-11-23",
+        "audio": "./assets/audio/s082-mixed-v1.mp3"
       }
     ],
     "plannedRepair": {
@@ -3074,7 +3252,7 @@ export const productionProgress = {
       "speaker": "Biel",
       "text": "La gravació del meu mòbil! La vaig fer quan vaig portar-la el primer dia. Hi ha una estona que toco i, després, em poso a parlar de la funda. Potser podria agafar només el tros on sona aquell cop.",
       "sourceTakeSha256": "dcc33675ef85560b46ae2c2d1a217a5b592101687316ff0907c07ebcb4776bf9",
-      "status": "received-awaiting-listening",
+      "status": "applied-awaiting-montage-listening",
       "batch": "L26",
       "voice": "Puck"
     },
@@ -3085,16 +3263,49 @@ export const productionProgress = {
         "part": "mòbil",
         "text": "La gravació del meu mòbil! La vaig fer quan vaig portar-la el primer dia. Hi ha una estona que toco i, després, em poso a parlar de la funda. Potser podria agafar només el tros on sona aquell cop.",
         "pronunciation": "Pronounce funda accurately as FUN-da, Central Catalan /ˈfun.də/: stressed U, clear N followed by D. Never fona. Do not spell the word or read this pronunciation instruction.",
-        "status": "received-awaiting-listening",
+        "status": "applied-awaiting-montage-listening",
         "originalFile": "assets/audio/repairs/l26-s082-mòbil-original.mp3",
         "candidateFile": "assets/audio/repairs/l26-s082-mòbil-prova.mp3",
         "sourceRawSha256": "6b4382326bc34f447e016e085b7ff82937c642a245eeb59de1fc3cf7f531076a",
         "sourceTakeId": "S082-T01",
         "sourceTakeSha256": "dcc33675ef85560b46ae2c2d1a217a5b592101687316ff0907c07ebcb4776bf9",
         "batchRequestHash": "528f65283474a1f42bc1be0b2920865817daec53fc0f6634f693552abc5401f1",
-        "applied": false
+        "applied": true,
+        "approvedAt": "2026-11-23",
+        "confirmation": "S082 esmenes validades pel docent per incorporar-les i passar a muntatge.",
+        "candidateSha256": "aebc5e627e9c725b15cf5ff8e894c7d9b0d1120b8f55dd5d7ac854f5ee56afdb",
+        "appliedAt": "2026-11-23",
+        "appliedAudio": "./assets/audio/s082-mixed-v1.mp3"
       }
-    ]
+    ],
+    "repairApplicationApproval": {
+      "at": "2026-11-23",
+      "scope": "approved-repair",
+      "confirmation": "S082 esmenes validades pel docent per incorporar-les i passar a muntatge.",
+      "clips": [
+        {
+          "part": "mòbil",
+          "text": "La gravació del meu mòbil! La vaig fer quan vaig portar-la el primer dia. Hi ha una estona que toco i, després, em poso a parlar de la funda. Potser podria agafar només el tros on sona aquell cop.",
+          "candidateFile": "assets/audio/repairs/l26-s082-mòbil-prova.mp3",
+          "candidateSha256": "aebc5e627e9c725b15cf5ff8e894c7d9b0d1120b8f55dd5d7ac854f5ee56afdb",
+          "batchRequestHash": "528f65283474a1f42bc1be0b2920865817daec53fc0f6634f693552abc5401f1",
+          "sourceTakeSha256": "dcc33675ef85560b46ae2c2d1a217a5b592101687316ff0907c07ebcb4776bf9"
+        }
+      ]
+    },
+    "mountedAt": "2026-11-23T16:40:55.743Z",
+    "synthesisBatch": "L20+L26",
+    "requestHash": "4f9884fd45df9fce2774bff1e4e6b8cfcd231dc72144dc1671285f141c9bcaca",
+    "audioSha256": "d3a961182ed8891ca400effc42680313a82570533fa233ee0a1698988bd89559",
+    "montageNewSynthesisRequests": 0,
+    "reviewUpdate": {
+      "audio": "./assets/audio/s082-mixed-v1.mp3",
+      "at": "2026-11-23",
+      "summary": {
+        "ca": "Torn de Biel amb «funda» substituït per la represa validada. Ambient real continu d’estança tranquil·la, molt discret sota les veus; sense efectes puntuals afegits. Pendent d’audició del muntatge.",
+        "es": "Correcciones de voz validadas e incorporadas al montaje completo. Pendiente de escucha final."
+      }
+    }
   },
   "ca-S077": {
     "state": "published",
@@ -3189,12 +3400,12 @@ export const productionProgress = {
     }
   },
   "ca-S078": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-22T20:08:51.941Z",
-    "editorialFingerprint": "ae86dc2a484541e4c468c3071deb8880ea0b0e71268efb0a8ef60864d37aa98c",
+    "editorialFingerprint": "8c331ffda115e7eefa3f9d73dc20e8b7a1bda73500768455a469aa15886d35b7",
     "plannedNewRequests": 0,
-    "listeningApproval": false,
-    "confirmation": "S078 validada per síntesi de veus",
+    "listeningApproval": true,
+    "confirmation": "S078 validat per publicació definitiva",
     "gradingAssessment": "El docent considera ben calibrada la qualificació actual de 5è accessible.",
     "reason": "Veus aprovades pel docent i primer muntatge completat localment; pendent d’audició del muntatge.",
     "uncertainTurns": [],
@@ -3222,13 +3433,14 @@ export const productionProgress = {
     "requestHash": "528f65283474a1f42bc1be0b2920865817daec53fc0f6634f693552abc5401f1",
     "audioSha256": "e7e612a81ca956d6cf5c9aa07290aa6d9b962aca8a630f06f7fc51b5396830bc",
     "montageNewSynthesisRequests": 0,
-    "reviewUpdate": {
-      "audio": "./assets/audio/s078-mixed-v1.mp3",
-      "at": "2026-11-23",
-      "summary": {
-        "ca": "Primer muntatge: Ambient real continu d’estança tranquil·la, molt baix sota les veus. Entrada suau i pujada breu seguida de fosa al final; sense eines, funda ni papers afegits. Pendent d’audició.",
-        "es": "Primer montaje con las voces aprobadas, fondo continuo discreto y fundidos. Pendiente de escucha."
-      }
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "teacherAssessment": "Veus i muntatge validats definitivament pel docent.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/el-soroll-que-seguia-la-cadira-v1.webp",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-23",
+      "audioChanged": false
     }
   },
   "ca-S047": {
@@ -3448,12 +3660,12 @@ export const productionProgress = {
     }
   },
   "ca-S067": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-22T20:38:27.980Z",
-    "editorialFingerprint": "cacaf558a7aade3bd8b022e020bf4d7b6e86c499320ca228c69982839e14293f",
+    "editorialFingerprint": "c231f7eedf8207fe7c6c325c14000eeb8100f19a8912543c49ec1828f23e2408",
     "plannedNewRequests": 0,
-    "listeningApproval": false,
-    "confirmation": "S067 validada per síntesi i requalificada a 1r d’ESO intermèdia",
+    "listeningApproval": true,
+    "confirmation": "S067 validat per publicació definitiva",
     "gradingDecision": {
       "date": "2026-11-22",
       "grade": "eso1",
@@ -3489,13 +3701,14 @@ export const productionProgress = {
     "requestHash": "a8c5196dba3b7699202dbef8681a9fefe519de2d560579efeb91b7f4d561197b",
     "audioSha256": "7efc542bbd91286c086e017e683bb719299840fdca3b701569782746d7db399c",
     "montageNewSynthesisRequests": 0,
-    "reviewUpdate": {
-      "audio": "./assets/audio/s067-mixed-v1.mp3",
-      "at": "2026-11-23",
-      "summary": {
-        "ca": "Primer muntatge: Ambient real continu d’aula amb jovent, molt discret sota les dues veus, amb entrada suau. Sense papers, cadires ni altres efectes puntuals afegits. Pendent d’audició.",
-        "es": "Primer montaje con las voces aprobadas, fondo continuo discreto y fundidos. Pendiente de escucha."
-      }
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "teacherAssessment": "Veus i muntatge validats definitivament pel docent.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/la-mateixa-pregunta-v1.webp",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-23",
+      "audioChanged": false
     }
   },
   "ca-S063": {
@@ -3895,12 +4108,12 @@ export const productionProgress = {
     }
   },
   "ca-S054": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-23",
-    "editorialFingerprint": "63b170ea726bd9f07a7165331134112e515c3b11f06416582c0f99f57d89a458",
+    "editorialFingerprint": "2fb1668473d2f3b4c4f30d81e19cc0c9c520f28c61ebce6a9e5132362e9da01a",
     "plannedNewRequests": 0,
-    "listeningApproval": false,
-    "confirmation": "S054 validat per síntesi de veus",
+    "listeningApproval": true,
+    "confirmation": "S054 validat per publicació definitiva",
     "reason": "Veus aprovades pel docent i primer muntatge completat localment; pendent d’audició del muntatge.",
     "uncertainTurns": [],
     "receivedTakes": {
@@ -3927,13 +4140,14 @@ export const productionProgress = {
     "requestHash": "4e3ed06c613d1750826947314242be6a728fc3ca9f7dbf20d554f3768035a399",
     "audioSha256": "73ae9b27be296b0023ca96ee392c883584e9906896293df84af54b3e7cfb0425",
     "montageNewSynthesisRequests": 0,
-    "reviewUpdate": {
-      "audio": "./assets/audio/s054-mixed-v1.mp3",
-      "at": "2026-11-23",
-      "summary": {
-        "ca": "Primer muntatge: Identitat comuna de les notícies de la Mar: «Breaking News Background Music», amb entrada, base contínua molt atenuada sota la veu i sortida completa. Sense papers ni altres efectes afegits. Pendent d’audició.",
-        "es": "Primer montaje con las voces aprobadas, fondo continuo discreto y fundidos. Pendiente de escucha."
-      }
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "teacherAssessment": "Veus i muntatge validats definitivament pel docent.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/una-finestra-per-recollir-els-encarrecs-v1.webp",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-23",
+      "audioChanged": false
     }
   },
   "ca-S056": {
@@ -3988,12 +4202,12 @@ export const productionProgress = {
     }
   },
   "ca-S080": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-23",
-    "editorialFingerprint": "e20acb205ac339d6b200583e6f7765ce0bddd427070799e5430401ef15a65c77",
+    "editorialFingerprint": "82d69704ab0459c064adaa728afeae727a307da3be219f7d02e228642e529e45",
     "plannedNewRequests": 0,
-    "listeningApproval": false,
-    "confirmation": "S080 validat per síntesi de veus",
+    "listeningApproval": true,
+    "confirmation": "S080 validat per publicació definitiva",
     "reason": "Veus aprovades pel docent i primer muntatge completat localment; pendent d’audició del muntatge.",
     "uncertainTurns": [],
     "receivedTakes": {
@@ -4020,13 +4234,14 @@ export const productionProgress = {
     "requestHash": "528f65283474a1f42bc1be0b2920865817daec53fc0f6634f693552abc5401f1",
     "audioSha256": "3bbceadf92036782c95a55fe72287b9380d83f2d6153ef26d9eb6e6fe1f1aa4f",
     "montageNewSynthesisRequests": 0,
-    "reviewUpdate": {
-      "audio": "./assets/audio/s080-mixed-v1.mp3",
-      "at": "2026-11-23",
-      "summary": {
-        "ca": "Primer muntatge: Ambient real continu d’estança tranquil·la, molt baix sota les veus. Entrada suau i pujada breu seguida de fosa al final; sense eines, funda ni papers afegits. Pendent d’audició.",
-        "es": "Primer montaje con las voces aprobadas, fondo continuo discreto y fundidos. Pendiente de escucha."
-      }
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "teacherAssessment": "Veus i muntatge validats definitivament pel docent.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/el-segon-assaig-sona-lluny-v1.webp",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-23",
+      "audioChanged": false
     }
   },
   "ca-S055": {
@@ -4039,12 +4254,12 @@ export const productionProgress = {
     "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar."
   },
   "ca-S071D": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-23",
-    "editorialFingerprint": "7f0d7fa6a9511971519f7bd47cf99b2023bbc6fbf9ee76c756918aa88fee2444",
+    "editorialFingerprint": "e5a78cab5c4aa827a277cfc5139353ef562f1a59f71b88da522d81397207372e",
     "plannedNewRequests": 0,
-    "listeningApproval": false,
-    "confirmation": "S071D validat per síntesi de veus",
+    "listeningApproval": true,
+    "confirmation": "S071D validat per publicació definitiva",
     "reason": "Veus de la variant dialogada validades pel docent i primer muntatge pendent d’audició. S071 narrada conserva la seva esmena independent.",
     "uncertainTurns": [],
     "receivedTakes": {
@@ -4071,22 +4286,23 @@ export const productionProgress = {
     "requestHash": "17cd4683c769da2badcc720d67926da3398a2be69ff54c217a766273869991d4",
     "audioSha256": "ea2ab416baf80c08ceca1e5041438ea1dc89c116f9e3db2ec55197eae2ead380",
     "montageNewSynthesisRequests": 0,
-    "reviewUpdate": {
-      "audio": "./assets/audio/s071d-mixed-v1.mp3",
-      "at": "2026-11-23",
-      "summary": {
-        "ca": "Primer muntatge: Base original «Paper blau a la butxaca», prevista també per a S071, amb mescla pròpia molt suau sota Aina i Ferran. Conversen en el present; sense teatre, papers, passos ni altres efectes del record. Pendent d’audició.",
-        "es": "Primer montaje con la base original «Paper blau a la butxaca», muy suave durante las dos voces, con subida y fundido final. Sin efectos del recuerdo. Pendiente de escucha."
-      }
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "teacherAssessment": "Veus i muntatge validats definitivament pel docent.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/les-dues-entrades-blaves-dialogada-v1.webp",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-23",
+      "audioChanged": false
     }
   },
   "ca-S053": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-23",
-    "editorialFingerprint": "bacd542cc7693741fa4d0bc5e521ff0c149ca80054c34bd2a7e8551136c3e24b",
+    "editorialFingerprint": "b50999be68a31b08b9a829135e9832e5b243a0ba9d722001bd00671edea88fe3",
     "plannedNewRequests": 0,
-    "listeningApproval": false,
-    "confirmation": "S053 validat per síntesi de veus",
+    "listeningApproval": true,
+    "confirmation": "S053 validat per publicació definitiva",
     "reason": "Veus aprovades pel docent i primer muntatge completat localment; pendent d’audició del muntatge.",
     "uncertainTurns": [],
     "receivedTakes": {
@@ -4113,13 +4329,14 @@ export const productionProgress = {
     "requestHash": "4e3ed06c613d1750826947314242be6a728fc3ca9f7dbf20d554f3768035a399",
     "audioSha256": "ebd4efd32f48bc676ef36bdee669f2a34a6f252f276a8dceee923e6235af6b82",
     "montageNewSynthesisRequests": 0,
-    "reviewUpdate": {
-      "audio": "./assets/audio/s053-mixed-v1.mp3",
-      "at": "2026-11-23",
-      "summary": {
-        "ca": "Primer muntatge: Identitat comuna de les notícies de la Mar: «Breaking News Background Music», amb entrada, base contínua molt atenuada sota la veu i sortida completa. Sense papers ni altres efectes afegits. Pendent d’audició.",
-        "es": "Primer montaje con las voces aprobadas, fondo continuo discreto y fundidos. Pendiente de escucha."
-      }
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "teacherAssessment": "Veus i muntatge validats definitivament pel docent.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/la-pista-torna-a-obrir-al-vespre-v1.webp",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-23",
+      "audioChanged": false
     }
   },
   "ca-S064": {

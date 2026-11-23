@@ -1,9 +1,17 @@
 # Canvis
 
+## 0.1.91 · 23 de novembre de 2026
+
+- Publicació definitiva de S053, S054, S067, S071D, S078 i S080 amb els màsters aprovats, sis il·lustracions contextuals i transcripcions netes; revisió independent de preguntes, cites, imatges i metadades.
+- Represes aprovades incorporades a S007, S013, S029, S069 i S082. Originals conservats, substitucions amb punts silenciosos i ajust de volum sense canviar ritme o to. Els muntatges complets tornen a quedar pendents d’audició.
+- S024 incorpora provisionalment la segona veu del Biel, més greu. Comparació dels dos muntatges complets des del configurador; decisió de timbre i audició final pendents, sense aprovació global automàtica.
+- S061: confirmació docent expressa de la presa neta de metadades, vinculada a la previsualització v2. Cos validat; locució inicial encara pendent, sense muntar ni consumir una petició curta.
+- Eines locals per preparar i incorporar represes comprovant identitat, selecció exacta, mostres conservades, marges i saturació; manifests, crèdits, comparacions i seguiment actualitzats.
+- Briefing per a una nova línia de comprensions multimodals, amb context de Sentit/Trama, DUA, documents impresos i àudio, infraestructura estàtica i convencions comunes d’ortogra.fi.
+
 ## 0.1.90 · 23 de novembre de 2026
 
 - S070 pendent de reprendre el torn `esperar`: «s’asseia» sona amb tonicitat a la i. Es conserva la grafia editorial i no s’atorga una validació global de veus. S072 més les esmenes de S070 i S071 formen un candidat compatible de Ferran de 3:41 estimats; espera completar la finestra de sis a vuit minuts.
-- S070 pendent de represa del torn complet amb «s’asseia», per corregir la tonicitat desplaçada a la i. En cua per a un lot compatible, amb text i veu canònics preservats; sense síntesi aïllada ni aprovació global de veus.
 - S071 pendent d’esmena inicial d’«Aina», que sona «Eina» amb Ferran/Algenib. Resta de les veus validada, primera intervenció completa preparada per al pròxim lot compatible; card i cua actualitzades, sense regeneració ni muntatge anticipats.
 - S045D amb les veus d’Aina i Ferran validades pel docent i primer muntatge pendent d’audició. Base «Cadires sota les estrelles» compartida amb S045, amb mescla pròpia molt suau, pujada i fosa final, sense efectes de cadira ni plaça.
 - S068D muntada amb les dues veus validades i base «Un dinar entre vies» compartida amb S068, amb mescla pròpia i sense representar el viatge amb efectes. La incertesa històrica de reconeixement del torn curt es conserva com a dada tècnica; l’audició de veus té aprovació docent i el muntatge queda pendent de validar.

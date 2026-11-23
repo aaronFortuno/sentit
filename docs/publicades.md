@@ -1,6 +1,6 @@
 # Comprensions finalitzades
 
-Actualitzat: **23/11/2026**. **45 publicacions definitives**. Aquest registre conserva les peces que han sortit de la [taula de pendents](seguiment-produccio.md). Les variants es validen per separat.
+Actualitzat: **23/11/2026**. **51 publicacions definitives**. Aquest registre conserva les peces que han sortit de la [taula de pendents](seguiment-produccio.md). Les variants es validen per separat.
 
 | Codi | Títol | Curs | Dificultat · tipologia | Fragment | Validació definitiva |
 | --- | --- | --- | --- | --- | --- |
@@ -45,10 +45,16 @@ Actualitzat: **23/11/2026**. **45 publicacions definitives**. Aquest registre co
 | [ca-S050](https://sentit.ortogra.fi/#lectura=ca-S050) | La balança marca massa | 3r | Intermèdia · Entrevista | 1:30 | 2026-11-23 |
 | [ca-S051](https://sentit.ortogra.fi/#lectura=ca-S051) | El cartellet que quedava amagat | 4t | Avançada · Diàleg | 1:49 | 2026-11-23 |
 | [ca-S052](https://sentit.ortogra.fi/#lectura=ca-S052) | La capsa que semblava un llibre | 4t | Intermèdia · Entrevista | 1:47 | 2026-11-23 |
+| [ca-S053](https://sentit.ortogra.fi/#lectura=ca-S053) | La pista torna a obrir al vespre | 5è | Accessible · Notícia | 1:36 | 2026-11-23 |
+| [ca-S054](https://sentit.ortogra.fi/#lectura=ca-S054) | Una finestra per recollir els encàrrecs | 5è | Intermèdia · Notícia | 1:39 | 2026-11-23 |
 | [ca-S062](https://sentit.ortogra.fi/#lectura=ca-S062) | Dos cartells per al mateix concert | 6è | Avançada · Diàleg | 2:14 | 2026-11-23 |
+| [ca-S067](https://sentit.ortogra.fi/#lectura=ca-S067) | La mateixa pregunta? | 1r d’ESO | Intermèdia · Explicació | 2:39 | 2026-11-23 |
+| [ca-S071D](https://sentit.ortogra.fi/#lectura=ca-S071D) | Les dues entrades blaves · versió dialogada | 5è | Avançada · Narració | 3:01 | 2026-11-23 |
 | [ca-S073](https://sentit.ortogra.fi/#lectura=ca-S073) | El dinar que surt en dues tandes | 5è | Accessible · Diàleg | 1:44 | 2026-11-23 |
 | [ca-S075](https://sentit.ortogra.fi/#lectura=ca-S075) | La foto del plat de demà | 6è | Accessible · Entrevista | 1:42 | 2026-11-23 |
 | [ca-S077](https://sentit.ortogra.fi/#lectura=ca-S077) | El sopar que havia de viatjar | 6è | Avançada · Diàleg | 2:33 | 2026-11-23 |
+| [ca-S078](https://sentit.ortogra.fi/#lectura=ca-S078) | El soroll que seguia la cadira | 5è | Accessible · Diàleg | 1:39 | 2026-11-23 |
+| [ca-S080](https://sentit.ortogra.fi/#lectura=ca-S080) | El segon assaig sona lluny | 6è | Accessible · Diàleg | 1:50 | 2026-11-23 |
 
 Les aprovacions estan vinculades al guió i al màster exactes al [registre de producció](../content/production-progress.js). No es concedeix cap aprovació per regenerar aquest document.
 

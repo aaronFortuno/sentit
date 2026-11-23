@@ -1,0 +1,159 @@
+{
+  "code": "S024",
+  "activity": "ca-S024",
+  "state": "awaiting-montage-validation",
+  "file": "s024-timbre-trial-v3.mp3",
+  "introFile": "s024-classroom-v2-intro.mp3",
+  "bodyFile": "s024-timbre-trial-v3-cos.mp3",
+  "offset": 5.060000000000002,
+  "bodyDuration": 135.13391666666666,
+  "fullDuration": 140.19391666666667,
+  "voices": {
+    "Laia": "Leda",
+    "Biel": "Puck"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "ef2b891a48e5c2823d4527ce9a4c0fc93ae1951ecaad5c7ce07a30ac584a1a66",
+  "sourceRequestHash": "5752318d7e7b57d76f9688b37c14a9b8ee096bc9984675df52fe45801ca66cac",
+  "batch": "L02",
+  "rawSha256": "75f355dc0e16071957f1057590e050e668469cc3f22f85afd37fec35c67cee27",
+  "takeSha256": "1159530cc9e6884898ca2176f65034213df656a40b46ac8933eb6942df5694cf",
+  "coverage": 0.9473684210526315,
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.35,
+  "peakDbTP": -2.38,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "elenalostale-648659",
+      "start": 0,
+      "source": "assets/audio/sources/elenalostale-648659.mp3",
+      "sourceSha256": "bdb5a2e1b40bdcec49cf7c3752c186e355e58499ec7d0578022da599d9291bf8",
+      "sourceUrl": "https://freesound.org/people/Elenalostale/sounds/648659/",
+      "author": "Elenalostale",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.16,
+      "sourceTargetLufs": -28,
+      "excerpt": {
+        "start": 20,
+        "seconds": 60
+      },
+      "passes": 3,
+      "crossfadeSeconds": 1
+    }
+  ],
+  "sha256": "dc6a3e1ba9b69ad6715addf156c61889067beb3d316898c3b7374d7b3d524a50",
+  "classroomRevision": {
+    "date": "2026-11-22",
+    "baseFile": "s024-mixed-v1.mp3",
+    "baseAudioSha256": "7cd81f8b56643c5f8db7ced63525ad8039a0cb8be6614ebcd371bb530cfa4477",
+    "titleRange": {
+      "start": 10.731200000000005,
+      "end": 14.641199999999994
+    },
+    "removedInitialArtifactsSeconds": 10.731200000000005,
+    "removedClosingTones": true,
+    "continuousClassroom": true,
+    "voiceRetimed": false,
+    "unresolvedVoicePart": null,
+    "newRequests": 0
+  },
+  "previousMaster": {
+    "file": "s024-classroom-v2.mp3",
+    "sha256": "79c941202ad398a33e2681b6bc2183f23c82ce1084cdfd83013e335ea36b720a"
+  },
+  "repairApplication": {
+    "code": "S024",
+    "date": "2026-11-23",
+    "scope": "provisional-timbre-trial",
+    "originalRawSha256": "1159530cc9e6884898ca2176f65034213df656a40b46ac8933eb6942df5694cf",
+    "patchedSha256": "e108539dab43e331300267de63bdfbcaa05e3af34d6741db074252d1d7c7dfc0",
+    "originalSeconds": 148.32391666666666,
+    "seconds": 148.22891666666666,
+    "edits": [
+      {
+        "part": "dubtes",
+        "text": "I el pas fins a la font! Això ho podem preguntar a la mestra. Després portem el full als altres cursos?",
+        "accepted": {
+          "part": "dubtes",
+          "text": "I el pas fins a la font! Això ho podem preguntar a la mestra. Després portem el full als altres cursos?",
+          "candidateFile": "assets/audio/repairs/l27-s024-dubtes-prova.mp3",
+          "candidateSha256": "8756e51d4bb0a9a5c23315a6afb7312bcd17d87a14c148f028dbda94b21df9e7",
+          "batchRequestHash": "a8a1c31ecd69f92c20a41e6a739917e717f6da8007fba6592d62f5d5b553f9c0",
+          "sourceTakeSha256": "1159530cc9e6884898ca2176f65034213df656a40b46ac8933eb6942df5694cf"
+        },
+        "candidateRawSha256": "36b72b6954c58a21a4f6d9ac3329c964af58473c39e1881f0a1d4a0f5bf3fcac",
+        "candidateBatch": "L27",
+        "candidateRawBatchSha256": "113af488c48ded72fa2057440b9753e0eb695ff290ae1cee796d9ab143caaf38",
+        "originalRange": {
+          "start": 132.16120833333332,
+          "end": 138.71620833333333,
+          "handles": [
+            -63.46054508275024,
+            -66.78717351808073
+          ]
+        },
+        "candidateRange": {
+          "start": 0.035,
+          "end": 6.495,
+          "handles": [
+            -60.76657360480111,
+            -66.78717351808073
+          ]
+        },
+        "spoken": {
+          "start": 0.21999999999999545,
+          "end": 6.249999999999968
+        },
+        "gainDb": -2.4798828571419604,
+        "peakAfterGain": 23836,
+        "deltaSeconds": -0.095,
+        "outputStart": 132.16120833333332,
+        "candidateRawFile": "s024-dubtes.wav"
+      }
+    ],
+    "retainedRanges": [
+      {
+        "originalStart": 0,
+        "originalEnd": 132.16120833333332,
+        "outputStart": 0,
+        "sha256": "0fe5ffda55a66d6f6280dd2b6906a4495fd4c476714989ef73db225c91cad38c"
+      },
+      {
+        "originalStart": 138.71620833333333,
+        "originalEnd": 148.32391666666666,
+        "outputStart": 138.62120833333333,
+        "sha256": "86f9cb173a201a43b1ed1977e84da7f919498759984e6ec750305480a9247cb7"
+      }
+    ],
+    "allOtherVoiceSamplesIdentical": true,
+    "voiceRetimed": false,
+    "pitchShifted": false,
+    "newRequests": 0,
+    "originalRawFile": "s024-t01.wav",
+    "patchedFile": "patched-source.wav",
+    "appliedTo": "s024-timbre-trial-v3.mp3",
+    "teacherMontageApproval": false
+  },
+  "montageNewSynthesisRequests": 0,
+  "titleTrackPreserved": {
+    "file": "s024-classroom-v2-intro.mp3",
+    "sha256": "37b959f1b682f2ba9ba104b42f0ec1611c2f506d33ce9aa9d6130ea0805832be"
+  },
+  "timbreReview": {
+    "status": "pending-listening",
+    "trialAudio": "./assets/audio/s024-timbre-trial-v3.mp3",
+    "previousAudio": "./assets/audio/s024-classroom-v2.mp3",
+    "note": "La segona versió és més greu; el docent vol decidir després d’escoltar-la en context."
+  },
+  "voice": {
+    "bodyLead": 1.5,
+    "bodyRawDuration": 132.4339,
+    "untrimmedApartFromSilenceSplit": false,
+    "retimed": false,
+    "repairedWithoutRetiming": true
+  }
+}

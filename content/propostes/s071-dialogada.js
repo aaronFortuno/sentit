@@ -3,8 +3,9 @@ import { proposal, direction as d, spoken as s, question as q, evidence as e } f
 // Variant independent per validar; el relat narrat S071 es conserva intacte.
 export const s071Dialogada = proposal({
   id: 'les-dues-entrades-blaves-dialogada', code: 'S071D', title: 'Les dues entrades blaves · versió dialogada', grade: '5', level: 'advanced', genre: 'story', universeIds: ['aina-ferran'],
+    image: {"src":"./assets/images/les-dues-entrades-blaves-dialogada-v1.webp","alt":"L’Aina pregunta a l’avi Ferran per un sobre tancat que té a les mans, en una estança de casa.","width":1536,"height":1024},
     recordingCues: [{"before":"inici","text":"Base original «Paper blau a la butxaca», prevista també per a S071, amb mescla pròpia molt suau sota Aina i Ferran. Conversen en el present; sense teatre, papers, passos ni altres efectes del record."},{"after":"comiat","text":"La veu acaba completa. Marge breu, pujada de la base, dos segons de sosteniment i fosa de dos segons; sense altres sons de comiat."}],
-    seconds: 188, status: 'ready-for-review', reviewStatus: 'audio-review',
+    seconds: 188, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s071d-mixed-v1.mp3', tracks: { introduction: './assets/audio/s071d-mixed-v1-intro.mp3', body: './assets/audio/s071d-mixed-v1-cos.mp3' },
     fragment: { start: 5.94, seconds: 181 },
   summary: 'L’Aina s’interessa per un sobre de l’avi Ferran. A dins hi ha quatre entrades semblants i el record d’una tarda de teatre que va començar amb una confusió.',

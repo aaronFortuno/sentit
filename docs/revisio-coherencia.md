@@ -13,14 +13,14 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S004D](https://sentit.ortogra.fi/#lectura=ca-S004D) | El botó de la jaqueta · versió dialogada | 3r | Revisió superada · publicació definitiva | 2026-11-20 | `1be7f144c88e…` |
 | [ca-S005](https://sentit.ortogra.fi/#lectura=ca-S005) | La feina d’una cartera | 3r | Revisió superada · àudio pendent | 2026-11-20 | `96370e0e0c82…` |
 | [ca-S006](https://sentit.ortogra.fi/#lectura=ca-S006) | S’obre un nou camí al parc | 3r | Revisió superada · publicació definitiva | 2026-11-23 | `2742d34bbd0e…` |
-| [ca-S007](https://sentit.ortogra.fi/#lectura=ca-S007) | On va l’aigua del bassal? | 3r | Revisió superada · àudio pendent | 2026-11-23 | `6b976b8f8b4e…` |
+| [ca-S007](https://sentit.ortogra.fi/#lectura=ca-S007) | On va l’aigua del bassal? | 3r | Revisió superada · àudio pendent | 2026-11-23 | `ae55a38bbe90…` |
 | [ca-S008](https://sentit.ortogra.fi/#lectura=ca-S008) | La foto que faltava | 4t | Revisió superada · publicació definitiva | 2026-11-20 | `3ce87617ce96…` |
 | [ca-S008R](https://sentit.ortogra.fi/#lectura=ca-S008R) | La foto que faltava · Històries amb sentit | 4t | Revisió superada · publicació definitiva | 2026-11-20 | `a2792c44d38a…` |
 | [ca-S009](https://sentit.ortogra.fi/#lectura=ca-S009) | La biblioteca canvia d’horari | 4t | Revisió superada · publicació definitiva | 2026-11-23 | `0453fed8e5ca…` |
 | [ca-S010](https://sentit.ortogra.fi/#lectura=ca-S010) | La ruta fins al pavelló | 5è | Revisió superada · àudio pendent | 2026-11-22 | `ee128f2d969d…` |
 | [ca-S011](https://sentit.ortogra.fi/#lectura=ca-S011) | Una menjadora per als ocells | 4t | Revisió superada · àudio pendent | 2026-11-20 | `7c6c647baa9f…` |
 | [ca-S012](https://sentit.ortogra.fi/#lectura=ca-S012) | Qui arregla els instruments? | 4t | Revisió superada · publicació definitiva | 2026-11-20 | `a9da00b02d59…` |
-| [ca-S013](https://sentit.ortogra.fi/#lectura=ca-S013) | Com viatja una carta? | 4t | Revisió superada · àudio pendent | 2026-11-20 | `0ec4ca5dcdb7…` |
+| [ca-S013](https://sentit.ortogra.fi/#lectura=ca-S013) | Com viatja una carta? | 4t | Revisió superada · àudio pendent | 2026-11-23 | `ced07fdae0cf…` |
 | [ca-S014](https://sentit.ortogra.fi/#lectura=ca-S014) | Què passa dins d’una llavor? | 5è | Revisió superada · publicació definitiva | 2026-11-23 | `5577a01842e5…` |
 | [ca-S016](https://sentit.ortogra.fi/#lectura=ca-S016) | Una troballa al jaciment | 5è | Revisió superada · publicació definitiva | 2026-11-23 | `b6a8cf3a7a6e…` |
 | [ca-S017](https://sentit.ortogra.fi/#lectura=ca-S017) | Preparem una exposició itinerant | 5è | Revisió superada · àudio pendent | 2026-11-20 | `fe3ce6ee3d53…` |
@@ -30,12 +30,12 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S021](https://sentit.ortogra.fi/#lectura=ca-S021) | Per què una ciutat guarda la calor? | 6è | Revisió superada · publicació definitiva | 2026-11-23 | `1efafdcd8781…` |
 | [ca-S022](https://sentit.ortogra.fi/#lectura=ca-S022) | L’últim trajecte del tramvia | 6è | Revisió superada · àudio pendent | 2026-11-20 | `906d139200b1…` |
 | [ca-S023](https://sentit.ortogra.fi/#lectura=ca-S023) | Reobren el mercat: què canvia i què falta decidir? | 6è | Revisió superada · publicació definitiva | 2026-11-22 | `22636665fc72…` |
-| [ca-S024](https://sentit.ortogra.fi/#lectura=ca-S024) | Tres maneres de transformar el pati | 6è | Revisió superada · àudio pendent | 2026-11-22 | `ce9615248b45…` |
+| [ca-S024](https://sentit.ortogra.fi/#lectura=ca-S024) | Tres maneres de transformar el pati | 6è | Revisió superada · àudio pendent | 2026-11-23 | `8ad4c1ba4b7b…` |
 | [ca-S025](https://sentit.ortogra.fi/#lectura=ca-S025) | El so que faltava | 3r | Revisió superada · àudio pendent | 2026-11-21 | `464d5002ad52…` |
 | [ca-S026](https://sentit.ortogra.fi/#lectura=ca-S026) | Preparem el racó dels jocs | 3r | Revisió superada · publicació definitiva | 2026-11-23 | `ce521dfe093a…` |
 | [ca-S027](https://sentit.ortogra.fi/#lectura=ca-S027) | El berenar del terrat | 3r | Revisió superada · publicació definitiva | 2026-11-21 | `bd52c7909585…` |
 | [ca-S028](https://sentit.ortogra.fi/#lectura=ca-S028) | Una parada abans d’obrir | 3r | Revisió superada · publicació definitiva | 2026-11-23 | `60d237b4aca9…` |
-| [ca-S029](https://sentit.ortogra.fi/#lectura=ca-S029) | El cinema surt a la plaça | 3r | Revisió superada · àudio pendent | 2026-11-23 | `6f7493606dae…` |
+| [ca-S029](https://sentit.ortogra.fi/#lectura=ca-S029) | El cinema surt a la plaça | 3r | Revisió superada · àudio pendent | 2026-11-23 | `a665998ade8a…` |
 | [ca-S030](https://sentit.ortogra.fi/#lectura=ca-S030) | El cartell que no es llegia | 4t | Revisió superada · publicació definitiva | 2026-11-23 | `b24907fceb19…` |
 | [ca-S031](https://sentit.ortogra.fi/#lectura=ca-S031) | Una bústia per a propostes | 4t | Revisió superada · publicació definitiva | 2026-11-23 | `f234c178bd18…` |
 | [ca-S032](https://sentit.ortogra.fi/#lectura=ca-S032) | Una ruta amb pistes | 4t | Revisió superada · publicació definitiva | 2026-11-21 | `f60ed5aafd6b…` |
@@ -62,8 +62,8 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S050](https://sentit.ortogra.fi/#lectura=ca-S050) | La balança marca massa | 3r | Revisió superada · publicació definitiva | 2026-11-23 | `4f9689aac3f5…` |
 | [ca-S051](https://sentit.ortogra.fi/#lectura=ca-S051) | El cartellet que quedava amagat | 4t | Revisió superada · publicació definitiva | 2026-11-23 | `7573b3e7ce70…` |
 | [ca-S052](https://sentit.ortogra.fi/#lectura=ca-S052) | La capsa que semblava un llibre | 4t | Revisió superada · publicació definitiva | 2026-11-23 | `5d6e18b1c552…` |
-| [ca-S053](https://sentit.ortogra.fi/#lectura=ca-S053) | La pista torna a obrir al vespre | 5è | Revisió superada · àudio pendent | 2026-11-23 | `bacd542cc769…` |
-| [ca-S054](https://sentit.ortogra.fi/#lectura=ca-S054) | Una finestra per recollir els encàrrecs | 5è | Revisió superada · àudio pendent | 2026-11-23 | `63b170ea726b…` |
+| [ca-S053](https://sentit.ortogra.fi/#lectura=ca-S053) | La pista torna a obrir al vespre | 5è | Revisió superada · publicació definitiva | 2026-11-23 | `b50999be68a3…` |
+| [ca-S054](https://sentit.ortogra.fi/#lectura=ca-S054) | Una finestra per recollir els encàrrecs | 5è | Revisió superada · publicació definitiva | 2026-11-23 | `2fb1668473d2…` |
 | [ca-S055](https://sentit.ortogra.fi/#lectura=ca-S055) | Els cartells de cinema tornen al barri | 6è | Revisió superada · guió validat | 2026-11-22 | `7ba953cb5e8e…` |
 | [ca-S056](https://sentit.ortogra.fi/#lectura=ca-S056) | El taller canvia de casa | 5è | Revisió superada · guió validat | 2026-11-22 | `39766217bff3…` |
 | [ca-S057](https://sentit.ortogra.fi/#lectura=ca-S057) | La volta nova del bus de dissabte | 6è | Revisió superada · àudio pendent | 2026-11-23 | `db0f2ca6714e…` |
@@ -76,25 +76,25 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S064](https://sentit.ortogra.fi/#lectura=ca-S064) | Un anunci que va massa de pressa | 5è | Revisió superada · àudio pendent | 2026-11-23 | `50b721865bd7…` |
 | [ca-S065](https://sentit.ortogra.fi/#lectura=ca-S065) | La mesura que canviava de lloc | 6è | Revisió superada · àudio pendent | 2026-11-23 | `184ca0f6f7fb…` |
 | [ca-S066](https://sentit.ortogra.fi/#lectura=ca-S066) | El mapa de sons del passadís | 6è | Revisió superada · àudio pendent | 2026-11-23 | `d89ec7e85ddc…` |
-| [ca-S067](https://sentit.ortogra.fi/#lectura=ca-S067) | La mateixa pregunta? | 1r d’ESO | Revisió superada · àudio pendent | 2026-11-23 | `cacaf558a7aa…` |
+| [ca-S067](https://sentit.ortogra.fi/#lectura=ca-S067) | La mateixa pregunta? | 1r d’ESO | Revisió superada · publicació definitiva | 2026-11-23 | `c231f7eedf82…` |
 | [ca-S068](https://sentit.ortogra.fi/#lectura=ca-S068) | El dinar al banc de l’estació | 5è | Revisió superada · àudio pendent | 2026-11-23 | `90679cbf8db9…` |
 | [ca-S068D](https://sentit.ortogra.fi/#lectura=ca-S068D) | El dinar al banc de l’estació · versió dialogada | 5è | Revisió superada · àudio pendent | 2026-11-23 | `c64ed161061a…` |
-| [ca-S069](https://sentit.ortogra.fi/#lectura=ca-S069) | La pissarra del partit | 5è | Provisional · revisió superada | 2026-11-22 | `98d513f391e4…` |
+| [ca-S069](https://sentit.ortogra.fi/#lectura=ca-S069) | La pissarra del partit | 5è | Revisió superada · àudio pendent | 2026-11-23 | `bcae83ca2e51…` |
 | [ca-S069D](https://sentit.ortogra.fi/#lectura=ca-S069D) | La pissarra del partit · versió dialogada | 5è | Revisió superada · àudio pendent | 2026-11-23 | `8c39b22cb4a7…` |
 | [ca-S070](https://sentit.ortogra.fi/#lectura=ca-S070) | El dia que no va sonar el disc | 6è | Provisional · revisió superada | 2026-11-22 | `c329111785d5…` |
 | [ca-S071](https://sentit.ortogra.fi/#lectura=ca-S071) | Les dues entrades blaves | 5è | Provisional · revisió superada | 2026-11-22 | `63e0c902e8ff…` |
-| [ca-S071D](https://sentit.ortogra.fi/#lectura=ca-S071D) | Les dues entrades blaves · versió dialogada | 5è | Revisió superada · àudio pendent | 2026-11-23 | `7f0d7fa6a951…` |
+| [ca-S071D](https://sentit.ortogra.fi/#lectura=ca-S071D) | Les dues entrades blaves · versió dialogada | 5è | Revisió superada · publicació definitiva | 2026-11-23 | `e5a78cab5c4a…` |
 | [ca-S072](https://sentit.ortogra.fi/#lectura=ca-S072) | El quadern de la parada | 6è | Revisió superada · guió validat | 2026-11-22 | `b7efd9ded637…` |
 | [ca-S073](https://sentit.ortogra.fi/#lectura=ca-S073) | El dinar que surt en dues tandes | 5è | Revisió superada · publicació definitiva | 2026-11-23 | `4125af4fad1a…` |
 | [ca-S074](https://sentit.ortogra.fi/#lectura=ca-S074) | Les dues llibretes del pastís | 5è | Revisió superada · guió validat | 2026-11-22 | `a6a24886eb9e…` |
 | [ca-S075](https://sentit.ortogra.fi/#lectura=ca-S075) | La foto del plat de demà | 6è | Revisió superada · publicació definitiva | 2026-11-23 | `18a655dc02cd…` |
 | [ca-S076](https://sentit.ortogra.fi/#lectura=ca-S076) | L’encàrrec que havia crescut | 5è | Revisió superada · guió validat | 2026-11-22 | `f2370f29f20a…` |
 | [ca-S077](https://sentit.ortogra.fi/#lectura=ca-S077) | El sopar que havia de viatjar | 6è | Revisió superada · publicació definitiva | 2026-11-23 | `24723a7df5eb…` |
-| [ca-S078](https://sentit.ortogra.fi/#lectura=ca-S078) | El soroll que seguia la cadira | 5è | Revisió superada · àudio pendent | 2026-11-23 | `ae86dc2a4845…` |
+| [ca-S078](https://sentit.ortogra.fi/#lectura=ca-S078) | El soroll que seguia la cadira | 5è | Revisió superada · publicació definitiva | 2026-11-23 | `8c331ffda115…` |
 | [ca-S079](https://sentit.ortogra.fi/#lectura=ca-S079) | Una funda que no tanca | 5è | Revisió superada · àudio pendent | 2026-11-23 | `0d38222f7e24…` |
-| [ca-S080](https://sentit.ortogra.fi/#lectura=ca-S080) | El segon assaig sona lluny | 6è | Revisió superada · àudio pendent | 2026-11-23 | `e20acb205ac3…` |
+| [ca-S080](https://sentit.ortogra.fi/#lectura=ca-S080) | El segon assaig sona lluny | 6è | Revisió superada · publicació definitiva | 2026-11-23 | `82d69704ab04…` |
 | [ca-S081](https://sentit.ortogra.fi/#lectura=ca-S081) | La guitarra del concert de divendres | 5è | Provisional · revisió superada | 2026-11-22 | `2a784ecc4276…` |
-| [ca-S082](https://sentit.ortogra.fi/#lectura=ca-S082) | El so que volíem gravar | 6è | Provisional · revisió superada | 2026-11-22 | `b240a4b113ef…` |
+| [ca-S082](https://sentit.ortogra.fi/#lectura=ca-S082) | El so que volíem gravar | 6è | Revisió superada · àudio pendent | 2026-11-23 | `211a7ed596bb…` |
 
 Les empremtes completes i el revisor consten al [registre de revisions](../content/editorial-reviews.js). La marca provisional només apareix al web si l’empremta coincideix amb el contingut actual. Canviar el guió, les preguntes, les respostes, les pistes, el repartiment o l’escaleta invalida la revisió anterior. Les comprovacions detecten registres caducats abans de publicar.
 

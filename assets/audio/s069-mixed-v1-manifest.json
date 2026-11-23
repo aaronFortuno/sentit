@@ -1,0 +1,225 @@
+{
+  "code": "S069",
+  "activity": "ca-S069",
+  "state": "awaiting-montage-validation",
+  "file": "s069-mixed-v1.mp3",
+  "introFile": "s069-mixed-v1-intro.mp3",
+  "bodyFile": "s069-mixed-v1-cos.mp3",
+  "offset": 3.874916666666664,
+  "bodyDuration": 106.635,
+  "fullDuration": 110.50991666666667,
+  "voices": {
+    "Ferran": "Algenib"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "repaired-mixed-take",
+  "requestHash": "ec29b04e980b32a62d4837b44cdb978862d4e2a5517ea730a5d39def3bb1d4cf",
+  "sourceRequestHash": "5ca83ce461f3e1ed8816a816f379448a9e01d83f8d15d9fbfaa9ce531e186cc8",
+  "batch": "L17+L28",
+  "sourceBatchRequests": [
+    {
+      "batch": "L17",
+      "requestHash": "3614318c8fb54c97021a43d7a5ac29a9c5f2642f00894c7d7e5ae616d6adc099",
+      "rawSha256": "43a2e90b48ca2359bb188118537c41567673d998ef51374d5170f00ca0c55937"
+    },
+    {
+      "batch": "L28",
+      "requestHash": "17cd4683c769da2badcc720d67926da3398a2be69ff54c217a766273869991d4",
+      "rawSha256": "6ae444363d31d1b2527929844ef87b1519dcc48660713cdf31da09c6fb4fb61d"
+    }
+  ],
+  "assembly": [
+    {
+      "part": "encarrec",
+      "text": "Aina, una vegada em van deixar portar el marcador d’un partit del barri. Jo encara era petit per jugar amb els grans, però em van donar una pissarra i un guix. A dalt hi havia escrit el nom dels dos equips: carrer Nou a l’esquerra i carrer Major a la dreta.",
+      "accepted": {
+        "part": "encarrec",
+        "text": "Aina, una vegada em van deixar portar el marcador d’un partit del barri. Jo encara era petit per jugar amb els grans, però em van donar una pissarra i un guix. A dalt hi havia escrit el nom dels dos equips: carrer Nou a l’esquerra i carrer Major a la dreta.",
+        "candidateFile": "assets/audio/repairs/l28-s069-encarrec-prova.mp3",
+        "candidateSha256": "a071b2641426c67697ca847b18b52bbae4cbe760e385df170e9aed40957cf1e8",
+        "batchRequestHash": "17cd4683c769da2badcc720d67926da3398a2be69ff54c217a766273869991d4",
+        "sourceTakeSha256": "633fd6af92165442628944cb8ad45e889218b2bbbf4d4ceca34f47f390421a14"
+      },
+      "candidateRawFile": "C:\\Users\\afortun8\\Desktop\\Projects\\Escola\\output\\sentit-primera-tanda\\mixed-batches\\l28-17cd4683c769\\s069-encarrec.wav",
+      "candidateRawSha256": "0ce4f9af22c29286d8d23b3c2327aa6bebebd07a75235de101345c01e3d5ce38",
+      "candidateBatch": "L28",
+      "candidateRawBatchSha256": "6ae444363d31d1b2527929844ef87b1519dcc48660713cdf31da09c6fb4fb61d",
+      "originalRange": {
+        "start": 3.5349166666666667,
+        "end": 17.769916666666667,
+        "handles": [
+          -54.46116490922928,
+          -58.26779887263511
+        ]
+      },
+      "candidateRange": {
+        "start": 0.125,
+        "end": 14.695,
+        "handles": [
+          -62.009531739778005,
+          -66.78717351808073
+        ]
+      },
+      "spoken": {
+        "start": 0.22000000000002728,
+        "end": 14.29000000000002
+      },
+      "gainDb": -1.8625057298332357,
+      "peakAfterGain": 22831,
+      "deltaSeconds": 0.335,
+      "outputStart": 3.5349166666666667
+    }
+  ],
+  "requestHashIsCompositionChecksum": true,
+  "rawSha256": "71b6d2ec59727bed87b85c19501f66b47e62d0c573646851bcee971f3a9485e7",
+  "takeSha256": "71b6d2ec59727bed87b85c19501f66b47e62d0c573646851bcee971f3a9485e7",
+  "coverage": 0.8968253968253969,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.06,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "gentle-narration-bed",
+      "origin": "original-procedural-composition",
+      "author": "Sentit",
+      "license": "MIT",
+      "source": "tools/narration-bed.cjs",
+      "title": "Dos noms a la pissarra",
+      "compositionId": "sentit-s069-v1",
+      "tempoBpm": 66,
+      "rootMidi": 55,
+      "scoreSeed": 69,
+      "notes": 83,
+      "externalSamples": false,
+      "noSpeech": true,
+      "retimed": false,
+      "sha256": "d0fd91824622a93cfab7b604e6cdfbd6e4b6f7edc976f1ef76dc0c376691786a",
+      "envelope": {
+        "fadeInSeconds": 0.6,
+        "duckStart": 0.7000000000000001,
+        "duckEnd": 1.4500000000000002,
+        "speechGain": 0.14,
+        "nominalSpeechMusicLufs": -43.07743928643524,
+        "riseStart": 100.54498333333328,
+        "riseEnd": 101.34498333333329,
+        "holdSeconds": 2,
+        "fadeStart": 103.34498333333329,
+        "fadeEnd": 105.34498333333329
+      },
+      "listeningValidation": "pending",
+      "start": 0,
+      "underSpeech": true
+    }
+  ],
+  "sha256": "6529adf8215c90b2d64ef3e9ae8bd0d100c56a7cd76f475622d5416240ce0319",
+  "voiceHandles": {
+    "body": {
+      "start": 0.23041666666666666,
+      "end": 99.06541666666666,
+      "retainedPcmSha256": "5cdceb5921e64044b28b958734f61e8ec5328c53520a61348b1738ae4ebc34bb",
+      "sourceSha256": "4cf5e2a461f03b13f74fe2dc9742e0755dd62e2f644d43ecb94b9e87ea86f1bd",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0,
+      "end": 2.924916666666667,
+      "retainedPcmSha256": "3b6ddcbf0fdd86dfdfd1fb8f1082b0b673ed9540525447e580a0cd6429a6a17a",
+      "sourceSha256": "8b83134b603fee6c3bd425ab2008e5ee816db6d25fd82ab00b4fbb8f1ce02334",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-23",
+    "sourceTakeSha256": "71b6d2ec59727bed87b85c19501f66b47e62d0c573646851bcee971f3a9485e7",
+    "baseTakeSha256": "633fd6af92165442628944cb8ad45e889218b2bbbf4d4ceca34f47f390421a14",
+    "confirmation": "S069 esmenes validades pel docent per incorporar-les i passar a muntatge.",
+    "derivation": "Previously approved remaining speech plus the exact teacher-approved replacement; assembled playback still awaits montage audition.",
+    "repairs": [
+      {
+        "part": "encarrec",
+        "text": "Aina, una vegada em van deixar portar el marcador d’un partit del barri. Jo encara era petit per jugar amb els grans, però em van donar una pissarra i un guix. A dalt hi havia escrit el nom dels dos equips: carrer Nou a l’esquerra i carrer Major a la dreta.",
+        "candidateFile": "assets/audio/repairs/l28-s069-encarrec-prova.mp3",
+        "candidateSha256": "a071b2641426c67697ca847b18b52bbae4cbe760e385df170e9aed40957cf1e8",
+        "batchRequestHash": "17cd4683c769da2badcc720d67926da3398a2be69ff54c217a766273869991d4",
+        "sourceTakeSha256": "633fd6af92165442628944cb8ad45e889218b2bbbf4d4ceca34f47f390421a14"
+      }
+    ]
+  },
+  "repairApplication": {
+    "code": "S069",
+    "date": "2026-11-23",
+    "scope": "approved-repair",
+    "originalRawSha256": "633fd6af92165442628944cb8ad45e889218b2bbbf4d4ceca34f47f390421a14",
+    "patchedSha256": "71b6d2ec59727bed87b85c19501f66b47e62d0c573646851bcee971f3a9485e7",
+    "originalSeconds": 102.05491666666667,
+    "seconds": 102.38991666666666,
+    "edits": [
+      {
+        "part": "encarrec",
+        "text": "Aina, una vegada em van deixar portar el marcador d’un partit del barri. Jo encara era petit per jugar amb els grans, però em van donar una pissarra i un guix. A dalt hi havia escrit el nom dels dos equips: carrer Nou a l’esquerra i carrer Major a la dreta.",
+        "accepted": {
+          "part": "encarrec",
+          "text": "Aina, una vegada em van deixar portar el marcador d’un partit del barri. Jo encara era petit per jugar amb els grans, però em van donar una pissarra i un guix. A dalt hi havia escrit el nom dels dos equips: carrer Nou a l’esquerra i carrer Major a la dreta.",
+          "candidateFile": "assets/audio/repairs/l28-s069-encarrec-prova.mp3",
+          "candidateSha256": "a071b2641426c67697ca847b18b52bbae4cbe760e385df170e9aed40957cf1e8",
+          "batchRequestHash": "17cd4683c769da2badcc720d67926da3398a2be69ff54c217a766273869991d4",
+          "sourceTakeSha256": "633fd6af92165442628944cb8ad45e889218b2bbbf4d4ceca34f47f390421a14"
+        },
+        "candidateRawSha256": "0ce4f9af22c29286d8d23b3c2327aa6bebebd07a75235de101345c01e3d5ce38",
+        "candidateBatch": "L28",
+        "candidateRawBatchSha256": "6ae444363d31d1b2527929844ef87b1519dcc48660713cdf31da09c6fb4fb61d",
+        "originalRange": {
+          "start": 3.5349166666666667,
+          "end": 17.769916666666667,
+          "handles": [
+            -54.46116490922928,
+            -58.26779887263511
+          ]
+        },
+        "candidateRange": {
+          "start": 0.125,
+          "end": 14.695,
+          "handles": [
+            -62.009531739778005,
+            -66.78717351808073
+          ]
+        },
+        "spoken": {
+          "start": 0.22000000000002728,
+          "end": 14.29000000000002
+        },
+        "gainDb": -1.8625057298332357,
+        "peakAfterGain": 22831,
+        "deltaSeconds": 0.335,
+        "outputStart": 3.5349166666666667,
+        "candidateRawFile": "s069-encarrec.wav"
+      }
+    ],
+    "retainedRanges": [
+      {
+        "originalStart": 0,
+        "originalEnd": 3.5349166666666667,
+        "outputStart": 0,
+        "sha256": "74bc5656b00f49458aa8fb41933de5432e25eb2a74b1177b19fbb26eec6ab7ad"
+      },
+      {
+        "originalStart": 17.769916666666667,
+        "originalEnd": 102.05491666666667,
+        "outputStart": 18.104916666666668,
+        "sha256": "ff7126763b77e7bb04b48d788973c72525f7972181eb70e5b5dec128c525a9b3"
+      }
+    ],
+    "allOtherVoiceSamplesIdentical": true,
+    "voiceRetimed": false,
+    "pitchShifted": false,
+    "newRequests": 0,
+    "originalRawFile": "s069-t01.wav",
+    "patchedFile": "patched-source.wav",
+    "appliedTo": "s069-mixed-v1.mp3",
+    "teacherMontageApproval": false
+  }
+}

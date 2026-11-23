@@ -177,8 +177,8 @@ export const soundSources = [
     "retrievedAt": "2026-11-21",
     "sha256": "bdb5a2e1b40bdcec49cf7c3752c186e355e58499ec7d0578022da599d9291bf8",
     "usedBy": [
-      "ca-S011",
       "ca-S024",
+      "ca-S011",
       "ca-S032"
     ],
     "treatment": "Dos segons de l’enregistrament a partir del segon 20, amb foses; es retira abans de la salutació. No s’utilitzen el timbre ni converses com a pistes."
@@ -396,7 +396,8 @@ export const soundSources = [
       "ca-S052",
       "ca-S078",
       "ca-S079",
-      "ca-S080"
+      "ca-S080",
+      "ca-S082"
     ],
     "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
   },

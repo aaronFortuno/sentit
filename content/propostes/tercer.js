@@ -141,9 +141,9 @@ export const tercer = [
   proposal({
     id: 'on-va-laigua-del-bassal', code: 'S007', title: 'On va l’aigua del bassal?', grade: '3', level: 'advanced', genre: 'explanation',
     seconds: 117, status: 'ready-for-review', reviewStatus: 'audio-review',
-    audio: './assets/audio/s007-classroom-v2.mp3', tracks: { introduction: './assets/audio/s007-classroom-v2-intro.mp3', body: './assets/audio/s007-classroom-v2-cos.mp3' },
-    fragment: { start: 4.27, seconds: 112 },
-    recordingCues: [{"before":"observar","text":"Ambient nou d’aula enregistrat de kyles, continu, filtrat i molt baix. Sense cadira ni paper; marges i pauses entre torns escurçats."},{"before":"invisible","text":"INCIDÈNCIA PENDENT: aquest torn del Biel sona amb la veu de la Laia. Encara cal una esmena de síntesi, abans de validar les veus."},{"after":"final","text":"Final complet, pujada breu de l’ambient i fosa. Sense tons ni efectes de comiat."}],
+    audio: './assets/audio/s007-repair-v3.mp3', tracks: { introduction: './assets/audio/s007-classroom-v2-intro.mp3', body: './assets/audio/s007-repair-v3-cos.mp3' },
+    fragment: { start: 4.269999999999996, seconds: 112 },
+    recordingCues: [{"before":"observar","text":"Torn «Llavors podem tenir aigua al voltant sense veure-la?» substituït per Biel. Resta de les veus i pauses netejades conservades; ambient real continu d’aula, sense cadira, paper ni tons finals."},{"after":"final","text":"La veu acaba completa. El muntatge amb les represes incorporades continua pendent d’audició docent."}],
     summary: 'Una conversa a classe sobre el bassal del pati ajuda a distingir dos camins de l’aigua i a proposar una comparació.',
     strategy: 'grouped-voices-v1',
     voices: { Mireia: 'Aoede', Laia: 'Leda', Biel: 'Puck' },

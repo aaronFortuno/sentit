@@ -1,13 +1,13 @@
 {
   "code": "S007",
   "activity": "ca-S007",
-  "state": "awaiting-audio-corrections",
-  "file": "s007-classroom-v2.mp3",
+  "state": "awaiting-montage-validation",
+  "file": "s007-repair-v3.mp3",
   "introFile": "s007-classroom-v2-intro.mp3",
-  "bodyFile": "s007-classroom-v2-cos.mp3",
-  "offset": 4.27,
-  "bodyDuration": 111.78,
-  "fullDuration": 116.05,
+  "bodyFile": "s007-repair-v3-cos.mp3",
+  "offset": 4.269999999999996,
+  "bodyDuration": 111.925,
+  "fullDuration": 116.195,
   "voices": {
     "Mireia": "Aoede",
     "Laia": "Leda",
@@ -233,7 +233,7 @@
   "coverage": 0.8932038834951457,
   "newSynthesisRequests": 0,
   "sharedRequest": true,
-  "lufs": -18.57,
+  "lufs": -18.6,
   "peakDbTP": -2.47,
   "voiceRetimed": false,
   "effects": [
@@ -256,15 +256,15 @@
       "speechGain": 0.15,
       "lowPassHz": 1700,
       "envelope": {
-        "riseStart": 108.67999999999999,
-        "riseEnd": 109.08,
+        "riseStart": 108.82499999999999,
+        "riseEnd": 109.225,
         "holdSeconds": 1.5,
-        "fadeStart": 110.58,
-        "fadeEnd": 111.48
+        "fadeStart": 110.725,
+        "fadeEnd": 111.625
       }
     }
   ],
-  "sha256": "4edfea01a2b6d79b6a1d63b3affdcd832763e290000e05aea1434c859d35a04c",
+  "sha256": "4828e5d35d73dec71a4ceb7dbec15047590c2c7dc377cb2fea485624ac434440",
   "reviewMontageRevision": {
     "date": "2026-11-23",
     "source": "tools/remount-s007-s037.cjs",
@@ -448,7 +448,98 @@
     "voiceRetimed": false,
     "newRequests": 0,
     "teacherFinalApproval": false,
-    "unresolvedVoicePart": "invisible",
+    "unresolvedVoicePart": null,
     "routingAudit": "Each spoken part still comes from its labelled raw take; timbre identity requires a corrected synthesis, not local relabelling."
+  },
+  "previousMaster": {
+    "file": "s007-classroom-v2.mp3",
+    "sha256": "4edfea01a2b6d79b6a1d63b3affdcd832763e290000e05aea1434c859d35a04c"
+  },
+  "repairApplication": {
+    "code": "S007",
+    "date": "2026-11-23",
+    "scope": "approved-repair",
+    "originalRawSha256": "367cc9f4f4ac4d12e6d59c89a20a4c7e553581f95995b750fa88f1c651dc1294",
+    "patchedSha256": "a0586eff1bad19f47901af16bfda9d823484e38f356b6e63ee9bc57d7c874303",
+    "originalSeconds": 107.53,
+    "seconds": 107.675,
+    "edits": [
+      {
+        "part": "invisible",
+        "text": "Llavors podem tenir aigua al voltant sense veure-la?",
+        "accepted": {
+          "part": "invisible",
+          "text": "Llavors podem tenir aigua al voltant sense veure-la?",
+          "candidateFile": "assets/audio/repairs/l27-s007-invisible-prova.mp3",
+          "candidateSha256": "26c984c10d536368dadb580403ee8ff8299f341a92d5bf127b9e7b2cad6d6329",
+          "batchRequestHash": "a8a1c31ecd69f92c20a41e6a739917e717f6da8007fba6592d62f5d5b553f9c0",
+          "sourceTakeSha256": "9135a1b339df1a9f97f5d1701089fb5e62627f4bdb1e20df7534262082370453"
+        },
+        "candidateRawSha256": "c0a64c186c2f96d98fa0b5565fa181c4cbc93ec3c92bbb25a6a213addc00b868",
+        "candidateBatch": "L27",
+        "candidateRawBatchSha256": "113af488c48ded72fa2057440b9753e0eb695ff290ae1cee796d9ab143caaf38",
+        "originalRange": {
+          "start": 47.14,
+          "end": 50.53,
+          "handles": [
+            -64.73392668013778,
+            -59.67942035834926
+          ]
+        },
+        "candidateRange": {
+          "start": 0.126,
+          "end": 3.661,
+          "handles": [
+            -52.13929832162137,
+            -58.053321564799646
+          ]
+        },
+        "spoken": {
+          "start": 0.22000000000000364,
+          "end": 3.280000000000006
+        },
+        "gainDb": 0.9483482349418216,
+        "requestedGainDb": 3.1230928668465134,
+        "peakLimitedByGain": true,
+        "peakAfterGain": 30000,
+        "deltaSeconds": 0.145,
+        "outputStart": 47.14,
+        "candidateRawFile": "s007-invisible.wav"
+      }
+    ],
+    "retainedRanges": [
+      {
+        "originalStart": 0,
+        "originalEnd": 47.14,
+        "outputStart": 0,
+        "sha256": "d0cfa73fbea85c5f454223a3d1470a0dba8cb29307d819e551dfb1133d63be0f"
+      },
+      {
+        "originalStart": 50.53,
+        "originalEnd": 107.53,
+        "outputStart": 50.675,
+        "sha256": "826304f411dc08b213f8b824eb57cc4e23b402d7387c0e546a1f24e16bf9de65"
+      }
+    ],
+    "allOtherVoiceSamplesIdentical": true,
+    "voiceRetimed": false,
+    "pitchShifted": false,
+    "newRequests": 0,
+    "originalRawFile": "speech-input.wav",
+    "patchedFile": "patched-source.wav",
+    "appliedTo": "s007-repair-v3.mp3",
+    "teacherMontageApproval": false
+  },
+  "montageNewSynthesisRequests": 0,
+  "titleTrackPreserved": {
+    "file": "s007-classroom-v2-intro.mp3",
+    "sha256": "975141a9ed15d8f68540ce37b7e1146967185bfca7bfee3b5a3259cefd81fc5a"
+  },
+  "voice": {
+    "bodyLead": 0.8,
+    "bodyRawDuration": 107.675,
+    "untrimmedApartFromSilenceSplit": false,
+    "retimed": false,
+    "repairedWithoutRetiming": true
   }
 }

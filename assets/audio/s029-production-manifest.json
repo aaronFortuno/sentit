@@ -2,12 +2,12 @@
   "code": "S029",
   "activity": "ca-S029",
   "state": "awaiting-montage-validation",
-  "file": "s029-title-v3.mp3",
+  "file": "s029-repair-v3.mp3",
   "introFile": "s029-title-v3-intro.mp3",
-  "bodyFile": "s029-news-common-v2-cos.mp3",
+  "bodyFile": "s029-repair-v3-cos.mp3",
   "offset": 5.420000000000002,
-  "bodyDuration": 74.96583333333334,
-  "fullDuration": 80.38583333333334,
+  "bodyDuration": 79.616,
+  "fullDuration": 85.036,
   "voices": {
     "Mar": "Erinome"
   },
@@ -22,8 +22,8 @@
   "newSynthesisRequests": 0,
   "sharedRequest": true,
   "voiceRetimed": false,
-  "lufs": -19.4,
-  "peakDbTP": -2.49,
+  "lufs": -18.93,
+  "peakDbTP": -2.5,
   "effects": [
     {
       "name": "grand-project-breaking-news-505617",
@@ -37,10 +37,11 @@
         "url": "https://pixabay.com/music/percussion-breaking-news-background-music-505617/",
         "license": "Pixabay Content License",
         "licenseUrl": "https://pixabay.com/service/license-summary/",
-        "source": "tools/remount-news-common.cjs",
+        "source": "tools/news-bed.cjs",
         "origin": "licensed-music",
         "kind": "news-programme",
-        "sourceNotDistributedSeparately": true
+        "sourceNotDistributedSeparately": true,
+        "newSynthesisRequests": 0
       },
       "sourceSha256": "32e3e6c978ef1bc5c013c40880ac3ad9714957548f956c1355ad8852c94405ae",
       "voiceMarginTargetDb": 25,
@@ -54,7 +55,7 @@
       "closingSeconds": 4.5
     }
   ],
-  "sha256": "cd63e012df6c143cac5f9e44185dbe2634156c67b353f8d98a1b36c7d52b5080",
+  "sha256": "ba14a5724776db495a87fa23a7b738ea76bf2840d3f32728279dab4bcdd533d1",
   "montageAuthorization": {
     "status": "authorized-for-draft-montage",
     "date": "2026-11-21",
@@ -74,7 +75,11 @@
     "allRetainedSamplesIdentical": true
   },
   "voice": {
-    "bodyLead": 7
+    "bodyLead": 2.5,
+    "bodyRawDuration": 72.26599999999998,
+    "untrimmedApartFromSilenceSplit": false,
+    "retimed": false,
+    "repairedWithoutRetiming": true
   },
   "newsRevision": {
     "date": "2026-11-22",
@@ -108,5 +113,89 @@
     "missingOpeningSentence": true,
     "wholeFirstParagraphQueued": true,
     "newRequests": 0
+  },
+  "previousMaster": {
+    "file": "s029-title-v3.mp3",
+    "sha256": "cd63e012df6c143cac5f9e44185dbe2634156c67b353f8d98a1b36c7d52b5080"
+  },
+  "repairApplication": {
+    "code": "S029",
+    "date": "2026-11-23",
+    "scope": "approved-repair",
+    "originalRawSha256": "8965bab558d63722894ab08f1f5467a11a2e75d3366fc5539b9cb0e055144c2c",
+    "patchedSha256": "f282cea52f4ced77c9064c5f36aec5743dfdf426a71492c9a544cc4054b8c9fb",
+    "originalSeconds": 80.6535,
+    "seconds": 84.6945,
+    "edits": [
+      {
+        "part": "anunci",
+        "text": "La plaça del barri acollirà divendres una sessió de cinema a l’aire lliure. L’associació de veïns ha triat una pel·lícula d’aventures per a tots els públics. La projecció començarà quan es faci fosc; per això no tindrà el mateix horari que les activitats de tarda.",
+        "accepted": {
+          "part": "anunci",
+          "text": "La plaça del barri acollirà divendres una sessió de cinema a l’aire lliure. L’associació de veïns ha triat una pel·lícula d’aventures per a tots els públics. La projecció començarà quan es faci fosc; per això no tindrà el mateix horari que les activitats de tarda.",
+          "candidateFile": "assets/audio/repairs/l25-s029-anunci-prova.mp3",
+          "candidateSha256": "be9559fb934a8c2076d782664354403ed2b7d920d68172d2f290a715bbe04e87",
+          "batchRequestHash": "4e3ed06c613d1750826947314242be6a728fc3ca9f7dbf20d554f3768035a399",
+          "sourceTakeSha256": "8965bab558d63722894ab08f1f5467a11a2e75d3366fc5539b9cb0e055144c2c"
+        },
+        "candidateRawSha256": "c62e4edee4c8a6f57a8948c144757e131e545ef3304c04756baf7ae183f21417",
+        "candidateBatch": "L25",
+        "candidateRawBatchSha256": "3de0a2d963f2445dd3122d7fcd004bfab98ae19bcf618b3206b07a1c90a67d32",
+        "originalRange": {
+          "start": 5.8635,
+          "end": 15.9025,
+          "handles": [
+            -45.75126460692089,
+            -41.42810278083283
+          ]
+        },
+        "candidateRange": {
+          "start": 0,
+          "end": 14.08,
+          "handles": [
+            -43.57980402222377,
+            -65.70002027162887
+          ]
+        },
+        "spoken": {
+          "start": 0.21000000000003638,
+          "end": 13.889999999999986
+        },
+        "gainDb": -1.8915772441828482,
+        "requestedGainDb": -1.8915772441828482,
+        "peakLimitedByGain": false,
+        "peakAfterGain": 24003,
+        "deltaSeconds": 4.041,
+        "outputStart": 5.8635,
+        "candidateRawFile": "s029-anunci.wav"
+      }
+    ],
+    "retainedRanges": [
+      {
+        "originalStart": 0,
+        "originalEnd": 5.8635,
+        "outputStart": 0,
+        "sha256": "05845ebec09739676087eda104e759fa6acf42276128b5c2b5be224700ea363c"
+      },
+      {
+        "originalStart": 15.9025,
+        "originalEnd": 80.6535,
+        "outputStart": 19.9435,
+        "sha256": "dac1debb1a77eb5070a9fa2b9a9731a5ca50f55ff6114840cc672c809ac7b54b"
+      }
+    ],
+    "allOtherVoiceSamplesIdentical": true,
+    "voiceRetimed": false,
+    "pitchShifted": false,
+    "newRequests": 0,
+    "originalRawFile": "s029-t01.wav",
+    "patchedFile": "patched-source.wav",
+    "appliedTo": "s029-repair-v3.mp3",
+    "teacherMontageApproval": false
+  },
+  "montageNewSynthesisRequests": 0,
+  "titleTrackPreserved": {
+    "file": "s029-title-v3-intro.mp3",
+    "sha256": "3cbe28f12ee9bc900a210246011fc4df2b82b6d6611559754c75a23b5465877b"
   }
 }

@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "code": "S080",
+  "prompt": "Create ONE landscape 3:2 illustration, 1536x1024, for Sentit Catalan classroom listening worksheets. Fine ink and soft watercolor on airy warm white paper, muted sage, ochre and charcoal, fading naturally to white around the outer edges, consistent with the supplied canonical model sheets. The sheets are identity/style references only: preserve exact faces, ages, hairstyles, skin tones and clothes; do not reproduce sheet layouts or labels. Natural engaged poses and hands. No readable writing, letters, numbers, captions, logos, speech bubbles or watermark. Clear composition at 80mm printed width. Contextual scene, not a posed portrait. Do not depict the solutions to comprehension questions. Only Biel and Elies from the references, exact identities. Wide diagonal view into a small instrument-repair workshop. Biel stands near the end of the workbench holding a phone at chest height to play a recording; Elies has paused his work and leans slightly toward him with one hand cupped casually near his ear, attentively listening. Their expressions show a curious practical discussion. A pegboard with small hand tools, soft wood offcuts, and a tall window establish the workshop. Distinct active listening moment, not posed figures. Phone screen entirely unreadable. Do not show chairs, a dance group, bags, a rehearsing crowd, an audience, a music score, written labels or the phone placed anywhere. No pictorial explanation of the recording difference.",
+  "references": [
+    "../characters/biel-model-sheet-v1.webp",
+    "../characters/elies-model-sheet-v1.webp"
+  ]
+}

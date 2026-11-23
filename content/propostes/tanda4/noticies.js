@@ -10,8 +10,9 @@ const news = data => proposal({
 export const noticies = [
   news({
     id: 'la-pista-torna-a-obrir-al-vespre', code: 'S053', title: 'La pista torna a obrir al vespre', grade: '5', level: 'easy',
+    image: {"src":"./assets/images/la-pista-torna-a-obrir-al-vespre-v1.webp","alt":"La Mar prepara una notícia local en un estudi de ràdio, amb una imatge genèrica d’una pista esportiva al fons.","width":1536,"height":1024},
     recordingCues: [{"before":"obertura","text":"Identitat comuna de les notícies de la Mar: «Breaking News Background Music», amb entrada, base contínua molt atenuada sota la veu i sortida completa. Sense papers ni altres efectes afegits."},{"after":"final","text":"La veu acaba completa. La sortida de la música comuna s’alinea amb el final de la notícia i es fon sense sons afegits."}],
-    seconds: 103, status: 'ready-for-review', reviewStatus: 'audio-review',
+    seconds: 103, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s053-mixed-v1.mp3', tracks: { introduction: './assets/audio/s053-mixed-v1-intro.mp3', body: './assets/audio/s053-mixed-v1-cos.mp3' },
     fragment: { start: 6.11, seconds: 96 },
     summary: 'La Mar explica la reobertura d’una pista després d’arreglar-ne els llums i diferencia els horaris d’entrenament de les estones d’ús lliure.',
@@ -42,8 +43,9 @@ export const noticies = [
   }),
   news({
     id: 'una-finestra-per-recollir-els-encarrecs', code: 'S054', title: 'Una finestra per recollir els encàrrecs', grade: '5', level: 'middle',
+    image: {"src":"./assets/images/una-finestra-per-recollir-els-encarrecs-v1.webp","alt":"La Mar prepara una notícia davant d’un forn del barri, amb un micròfon i una llibreta.","width":1536,"height":1024},
     recordingCues: [{"before":"inici","text":"Identitat comuna de les notícies de la Mar: «Breaking News Background Music», amb entrada, base contínua molt atenuada sota la veu i sortida completa. Sense papers ni altres efectes afegits."},{"after":"final","text":"La veu acaba completa. La sortida de la música comuna s’alinea amb el final de la notícia i es fon sense sons afegits."}],
-    seconds: 106, status: 'ready-for-review', reviewStatus: 'audio-review',
+    seconds: 106, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s054-mixed-v1.mp3', tracks: { introduction: './assets/audio/s054-mixed-v1-intro.mp3', body: './assets/audio/s054-mixed-v1-cos.mp3' },
     fragment: { start: 6.25, seconds: 99 },
     summary: 'Un forn del barri prova una segona manera de recollir compres preparades. La Mar explica què ha canviat després del primer dissabte.',

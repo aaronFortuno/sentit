@@ -6,7 +6,7 @@ const root=path.resolve(__dirname,'..'),sha=b=>createHash('sha256').update(b).di
  const {activities}=await import('../catalogue.js'),{productionProgress}=await import('../content/production-progress.js'),{soundSources}=await import('../content/sound-sources.js'),{musicCatalogue}=await import('../content/music-catalogue.js'),{mixedAudioResources}=await import('../content/mixed-audio-resources.js'),binary=await ffmpegBinary();let montages=0,clips=0;
  for(const entry of activities){
   const manifest=await fs.readFile(path.join(root,`assets/audio/${entry.code.toLowerCase()}-production-manifest.json`),'utf8').then(JSON.parse).catch(e=>{if(e.code==='ENOENT')return null;throw e;});
-  if(!manifest||(!manifest.newsRevision&&!['shared-mixed-batch','assembled-grouped-voices'].includes(manifest.productionMode)))continue;
+  if(!manifest||(!manifest.newsRevision&&!['shared-mixed-batch','assembled-grouped-voices','repaired-mixed-take','repaired-existing-master'].includes(manifest.productionMode)))continue;
   const key=entry.language+'-'+entry.code;
   assert.equal(entry.audio,'./assets/audio/'+manifest.file);assert(mixedAudioResources[key]);
   if(entry.reviewStatus==='validated'){
@@ -19,6 +19,12 @@ const root=path.resolve(__dirname,'..'),sha=b=>createHash('sha256').update(b).di
   for(const file of [manifest.file,manifest.introFile,manifest.bodyFile]){ffmpeg(binary,['-v','error','-xerror','-i',path.join(root,'assets/audio',file),'-f','null','-']);clips++;}
   const metadata=ffmpeg(binary,['-i',path.join(root,'assets/audio',manifest.file),'-f','null','-']),match=/Duration: (\d+):(\d+):([\d.]+)/.exec(metadata);assert(match);const seconds=Number(match[1])*3600+Number(match[2])*60+Number(match[3]);assert(Math.abs(seconds-manifest.fullDuration)<.2);
   for(const effect of manifest.effects){
+   if(manifest.activity==='ca-S013'&&manifest.productionMode==='repaired-existing-master'&&effect.origin==='original-procedural'){
+    assert(['envelope-opening','sorting-to-delivery'].includes(effect.name));
+    assert.equal(effect.inheritedFrom,manifest.previousMaster.file);
+    assert.equal(sha(await fs.readFile(path.join(root,'assets/audio',effect.inheritedFrom))),manifest.previousMaster.sha256);
+    assert(effect.end>effect.start&&effect.start>=0&&effect.end<manifest.bodyDuration);continue;
+   }
    if(effect.origin==='licensed-recording-in-montage'){const recording=soundSources.find(s=>s.id===effect.name);assert.equal(recording.license,'Pixabay Content License');assert.equal(recording.sourceNotDistributedSeparately,true);assert(recording.usedBy.includes(key));assert.equal(recording.sha256,effect.sourceSha256);assert.equal(recording.file,undefined,'Standalone licensed source is not distributed');continue;}
    if(effect.origin==='licensed-music-in-montage'){assert.equal(effect.credit.license,'Pixabay Content License');assert.equal(effect.credit.sourceNotDistributedSeparately,true);assert(musicCatalogue.some(m=>m.id===effect.credit.id&&m.usedBy.includes(key)));assert.equal(effect.sidechain.ratio,6);continue;}
    if(effect.origin==='original-procedural-composition'){assert.equal(effect.license,'MIT');if(effect.jingleId)assert.equal(sha(await fs.readFile(path.join(root,effect.source))),effect.sourceSha256);if(effect.compositionId){assert(musicCatalogue.some(m=>m.id===effect.compositionId&&m.usedBy.includes(key)));assert.equal(effect.envelope.holdSeconds,2);assert(effect.envelope.fadeEnd<=manifest.bodyDuration);}}

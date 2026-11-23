@@ -1,7 +1,7 @@
 {
   "code": "S053",
   "activity": "ca-S053",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s053-mixed-v1.mp3",
   "introFile": "s053-mixed-v1-intro.mp3",
   "bodyFile": "s053-mixed-v1-cos.mp3",
@@ -78,5 +78,19 @@
     "approvedAt": "2026-11-23",
     "sourceTakeSha256": "4328f5d160cbeb7f6cb2ef309e232bc8579e39f50505e366b5dbc6a5c8791107",
     "confirmation": "S053 validat per muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S053 validat per publicació definitiva",
+    "audioSha256": "ebd4efd32f48bc676ef36bdee669f2a34a6f252f276a8dceee923e6235af6b82",
+    "editorialFingerprint": "b50999be68a31b08b9a829135e9832e5b243a0ba9d722001bd00671edea88fe3",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/la-pista-torna-a-obrir-al-vespre-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "code": "S071D",
+  "prompt": "Create ONE landscape 3:2 illustration, 1536x1024, for Sentit Catalan classroom listening worksheets. Fine ink and soft watercolor on airy warm white paper, muted sage, ochre and charcoal, fading naturally to white around the outer edges, consistent with the supplied canonical model sheets. The sheets are identity/style references only: preserve exact faces, ages, hairstyles, skin tones and clothes; do not reproduce sheet layouts or labels. Natural engaged poses and hands. No readable writing, letters, numbers, captions, logos, speech bubbles or watermark. Clear composition at 80mm printed width. Contextual scene, not a posed portrait. Do not depict the solutions to comprehension questions. Only Aina and her grandfather Ferran from the references, exact identities. Aina stands beside a low living-room table, leaning toward her grandfather with a curious smile. Ferran sits relaxed in an armchair, holding one ordinary CLOSED cream-colored envelope at chest height while telling a funny memory; his free hand makes a small storytelling gesture. Warm afternoon home interior, a plant and bookcase softly in the background. Natural family interaction, wide three-quarter composition. Keep the envelope entirely plain and closed. No visible tickets, blue papers, dates, theatre, stage, rabbit, biscuits, travel scene or other answer clues.",
+  "references": [
+    "../characters/aina-model-sheet-v1.webp",
+    "../characters/ferran-model-sheet-v1.webp"
+  ]
+}

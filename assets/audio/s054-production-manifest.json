@@ -1,7 +1,7 @@
 {
   "code": "S054",
   "activity": "ca-S054",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s054-mixed-v1.mp3",
   "introFile": "s054-mixed-v1-intro.mp3",
   "bodyFile": "s054-mixed-v1-cos.mp3",
@@ -78,5 +78,19 @@
     "approvedAt": "2026-11-23",
     "sourceTakeSha256": "29f1e3a82ed244d4c590bcc5bd7120f193652676e4239cd1ab60ac0eff4d0a37",
     "confirmation": "S054 validat per muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S054 validat per publicació definitiva",
+    "audioSha256": "73ae9b27be296b0023ca96ee392c883584e9906896293df84af54b3e7cfb0425",
+    "editorialFingerprint": "2fb1668473d2f3b4c4f30d81e19cc0c9c520f28c61ebce6a9e5132362e9da01a",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/una-finestra-per-recollir-els-encarrecs-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

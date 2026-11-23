@@ -9,10 +9,11 @@ async function main(){
  for(const recording of soundSources)recording.usedBy=recording.usedBy.filter(id=>!mixedKeys.has(id));
  for(const entry of activities){
   const report=await fs.readFile(path.join(root,`assets/audio/${entry.code.toLowerCase()}-production-manifest.json`),'utf8').then(JSON.parse).catch(e=>{if(e.code==='ENOENT')return null;throw e;});
-  if(!report||(!report.newsRevision&&!['shared-mixed-batch','assembled-grouped-voices'].includes(report.productionMode)))continue;
+  if(!report||(!report.newsRevision&&!['shared-mixed-batch','assembled-grouped-voices','repaired-mixed-take','repaired-existing-master'].includes(report.productionMode)))continue;
   const key=entry.language+'-'+entry.code,labels=Object.entries(entry.production?.voices??report.voices).map(([name,voice])=>`${name}: ${voice}`).join('; ');
   const descriptions=[];
   for(const effect of report.effects??[]){
+   if(report.productionMode==='repaired-existing-master'&&effect.origin==='original-procedural'&&['envelope-opening','sorting-to-delivery'].includes(effect.name)){descriptions.push('Efecte breu del muntatge anterior conservat en la mateixa escena, sense generar cap so nou.');continue;}
    if(effect.origin==='licensed-recording-in-montage'){
     if(!effect.credit?.sourceNotDistributedSeparately||sha(await fs.readFile(path.join(work,'sources',effect.name+'.mp3')))!==effect.sourceSha256)throw Error('Licensed recording identity or distribution mismatch.');
     let recording=soundSources.find(s=>s.id===effect.name);if(!recording){recording={...effect.credit,sha256:effect.sourceSha256,usedBy:[]};soundSources.push(recording);}else Object.assign(recording,effect.credit,{sha256:effect.sourceSha256});if(!recording.usedBy.includes(key))recording.usedBy.push(key);
@@ -24,7 +25,7 @@ async function main(){
    }
    if(effect.origin==='original-procedural-composition'){
     if(effect.compositionId&&!musicCatalogue.some(m=>m.id===effect.compositionId))musicCatalogue.push({id:effect.compositionId,title:effect.title,kind:'narration-bed',author:'Sentit',license:'MIT',licenseUrl:'https://github.com/aaronFortuno/sentit/blob/main/LICENSE',origin:'original-procedural',externalSamples:false,source:'tools/narration-bed.cjs',usedBy:[key],description:`Composició pròpia de piano suau i harmonia espaiada, ${effect.tempoBpm} pulsacions per minut; partitura determinista ${effect.scoreSeed}, fosa d’entrada, música atenuada sota la veu i pujada de dos segons seguida de fosa al final.`});
-    if(effect.compositionId){const composition=musicCatalogue.find(m=>m.id===effect.compositionId);if(!composition.usedBy.includes(key))composition.usedBy.push(key);for(const code of ['S045','S046','S068'])if(effect.compositionId==='sentit-'+code.toLowerCase()+'-v1'&&composition.usedBy.includes('ca-'+code+'D'))composition.sharedReason=`Composició compartida intencionadament entre ${code} narrada i ${code}D dialogada, amb mescles i durades pròpies.`;}
+    if(effect.compositionId){const composition=musicCatalogue.find(m=>m.id===effect.compositionId);if(!composition.usedBy.includes(key))composition.usedBy.push(key);for(const code of ['S045','S046','S068','S069'])if(effect.compositionId==='sentit-'+code.toLowerCase()+'-v1'&&composition.usedBy.includes('ca-'+code+'D'))composition.sharedReason=`Composició compartida intencionadament entre ${code} narrada i ${code}D dialogada, amb mescles i durades pròpies.`;}
     descriptions.push(effect.jingleId?'Sintonia de programa «Ona curta» (MIT), només fora de la parla.':effect.compositionId?`Base original «${effect.title}» (MIT), molt baixa durant la narració, amb pujada i fosa final.`:'Dues notes originals de Sentit (MIT), fora de la parla.');continue;
    }
    let record=soundSources.find(s=>s.id===effect.name);
@@ -44,9 +45,10 @@ async function main(){
   if(report.inlinePaperRevision)resources[key].recipe=report.inlinePaperRevision.source;
   if(report.tailRevision)resources[key].recipe='tools/finish-s035-tail.cjs';
   if(report.openingRevision)resources[key].recipe=report.openingRevision.source;
-  if(report.newsTitleRevision){resources[key].recipe=report.newsTitleRevision.source;resources[key].voices+=' Presentació completa recuperada; primera frase pendent del proper lot de Mar, amb el paràgraf complet per comparar.';}
+  if(report.newsTitleRevision&&!report.repairApplication){resources[key].recipe=report.newsTitleRevision.source;resources[key].voices+=' Presentació completa recuperada; primera frase pendent del proper lot de Mar, amb el paràgraf complet per comparar.';}
   if(report.cityBedRevision)resources[key].recipe=report.cityBedRevision.source;
   if(report.reviewMontageRevision){resources[key].recipe=report.reviewMontageRevision.source;if(report.reviewMontageRevision.unresolvedVoicePart)resources[key].voices+=' Torn del Biel «Llavors podem tenir aigua al voltant sense veure-la?» pendent d’esmena de veu; pauses i ambient revisats.';}
+  if(report.repairApplication){resources[key].recipe=report.productionMode==='repaired-mixed-take'?'tools/render-mixed-take.cjs':'tools/render-reviewed-revision.cjs';resources[key].currentRevision=report.file.replace(/\.mp3$/,'');}
  }
  const previews=JSON.parse(await fs.readFile(path.join(root,'assets/audio/batch-voice-previews.json'),'utf8').catch(e=>{if(e.code==='ENOENT')return '[]';throw e;}));
  for(const preview of previews){const entry=activities.find(e=>e.code===preview.code);if(entry.audio)continue;resources[entry.language+'-'+entry.code]={voices:Object.entries(entry.production.voices).map(([name,voice])=>`${name}: ${voice}`).join('; ')+`. Lot ${preview.batch}, veus rebudes i pendents d’audició.`,sounds:'Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.',recipe:'tools/prepare-batch-voice-previews.cjs'};}
