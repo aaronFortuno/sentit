@@ -233,7 +233,9 @@
       }
     ],
     "application": "Queue for the next compatible Mar batch. Audition the whole paragraph against the original. Teacher decides whether to replace only the missing sentence or the entire paragraph after comparing timbre; do not splice automatically.",
-    "approvedRequestHash": "efd10b53595b2de17740e589b16b76c6acae908691a82ded2e0a3d760ac61020"
+    "approvedRequestHash": "efd10b53595b2de17740e589b16b76c6acae908691a82ded2e0a3d760ac61020",
+    "sourceTakeId": "S029-T01",
+    "sourceTakeSha256": "8965bab558d63722894ab08f1f5467a11a2e75d3366fc5539b9cb0e055144c2c"
   },
   "S007": {
     "activity": "ca-S007",
@@ -255,5 +257,59 @@
       }
     ],
     "sourceTakeSha256": "9135a1b339df1a9f97f5d1701089fb5e62627f4bdb1e20df7534262082370453"
+  },
+  "S082": {
+    "activity": "ca-S082",
+    "status": "approved-for-correction",
+    "approvedAt": "2026-11-23",
+    "approvalSource": "El docent demana esmenar la intervenció del Biel que diu funda com fona; la resta de veus és correcta, però espera la reparació abans de validar-les i passar a muntatge.",
+    "sourceRequestHash": "a07c5841452fb9f7fc87fa5889bc4cc31ab97780eeaeb6a8c2d38b1b655af0e0",
+    "sourceRawSha256": "6b4382326bc34f447e016e085b7ff82937c642a245eeb59de1fc3cf7f531076a",
+    "sourceTakeId": "S082-T01",
+    "sourceTakeSha256": "dcc33675ef85560b46ae2c2d1a217a5b592101687316ff0907c07ebcb4776bf9",
+    "voices": {
+      "Biel": "Puck"
+    },
+    "direction": "Same youthful male Biel/Puck voice throughout. Central Catalan, conversational and naturally paced. Read the complete supplied intervention once, verbatim, without title, stage directions, music, effects or added words.",
+    "repairs": [
+      {
+        "part": "mòbil",
+        "speaker": "Biel",
+        "text": "La gravació del meu mòbil! La vaig fer quan vaig portar-la el primer dia. Hi ha una estona que toco i, després, em poso a parlar de la funda. Potser podria agafar només el tros on sona aquell cop.",
+        "pronunciation": "Pronounce funda accurately as FUN-da, Central Catalan /ˈfun.də/: stressed U, clear N followed by D. Never fona. Do not spell the word or read this pronunciation instruction."
+      }
+    ],
+    "application": "Compare the whole intervention with the original before changing any audio. Teacher voice approval remains pending; do not montage or splice automatically.",
+    "approvedRequestHash": "32b70aac112f1b8eff753cc1e146d67ef37825fa0b27304fc4ac1e596352f13b"
+  },
+  "S081": {
+    "activity": "ca-S081",
+    "status": "approved-for-correction",
+    "approvedAt": "2026-11-23",
+    "approvalSource": "El docent demana regenerar els dos últims torns de l’Elies: pronuncia funa en lloc de funda. Resta de veus correcta; muntatge pendent de l’audició de les esmenes.",
+    "sourceRequestHash": "a07c5841452fb9f7fc87fa5889bc4cc31ab97780eeaeb6a8c2d38b1b655af0e0",
+    "sourceRawSha256": "6b4382326bc34f447e016e085b7ff82937c642a245eeb59de1fc3cf7f531076a",
+    "sourceTakeId": "S081-T01",
+    "sourceTakeSha256": "abda1d2cdb2f1727886fb57d1c539a7df87595eeba6fae9f2d43c4885f9fa0bd",
+    "voices": {
+      "Elies": "Algieba"
+    },
+    "direction": "Same natural adult male Elies/Algieba voice. Warm and helpful, Central Catalan. Read the supplied turns verbatim; preserve each complete word. No title, music, sound effects or added words.",
+    "repairs": [
+      {
+        "part": "telefon",
+        "speaker": "Elies",
+        "text": "Sí, truca abans de venir. T’ho explicaré per telèfon. Aquest matí ja he comprovat la guitarra de préstec i només falta que la guardem a la funda.",
+        "pronunciation": "Pronounce funda /ˈfun.də/ with stressed U and audible N followed by D: FUN-da, never funa or fona. Keep the adult male Elies voice; do not read this instruction."
+      },
+      {
+        "part": "final",
+        "speaker": "Elies",
+        "text": "De res, Biel. Espera, que t’aguanto la funda mentre hi poses el full... així... Fins dijous, i ja m’explicaràs com va l’assaig.",
+        "pronunciation": "Pronounce funda /ˈfun.də/ with stressed U and audible N followed by D: FUN-da, never funa or fona. Keep the adult male Elies voice; do not read this instruction."
+      }
+    ],
+    "application": "Compare both complete interventions with the original. Keep the natural pauses in Espera... així...; no digital pitch correction or automatic master change.",
+    "approvedRequestHash": "2b64cf847a2a44ab09aac36118350147868cc8e881e9ea1e66abe7d8e5d58882"
   }
 }

@@ -43,17 +43,18 @@ export function renderRepairPreview(root, entry, t) {
   const repairs = pendingRepairClips(entry);
   root.hidden = repairs.length === 0;
   if (!repairs.length) return;
+  const notice = t(entry.audio ? 'repairsNotApplied' : 'repairsBeforeMontage');
   const button = document.createElement('button');
   button.type = 'button'; button.className = 'button repair-preview-button';
   button.textContent = t('listenRepairs');
   button.setAttribute('aria-haspopup', 'dialog'); button.setAttribute('aria-controls', dialog.id);
-  const note = document.createElement('p'); note.className = 'small'; note.textContent = t('repairsNotApplied');
+  const note = document.createElement('p'); note.className = 'small'; note.textContent = notice;
   root.append(button, note);
   button.addEventListener('click', () => {
     window.dispatchEvent(new Event('sentit-pause-playback'));
     document.querySelectorAll('audio').forEach(audio => audio.pause());
     document.getElementById('repair-preview-title').textContent = `${entry.code} · ${t('listenRepairs')}`;
-    document.getElementById('repair-preview-notice').textContent = t('repairsNotApplied');
+    document.getElementById('repair-preview-notice').textContent = notice;
     const list = document.getElementById('repair-preview-list'); list.replaceChildren();
     for (const repair of repairs) {
       const section = document.createElement('section'); section.className = 'repair-preview-pair';

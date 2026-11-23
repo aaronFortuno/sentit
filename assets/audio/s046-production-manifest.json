@@ -1,0 +1,85 @@
+{
+  "code": "S046",
+  "activity": "ca-S046",
+  "state": "awaiting-montage-validation",
+  "file": "s046-mixed-v1.mp3",
+  "introFile": "s046-mixed-v1-intro.mp3",
+  "bodyFile": "s046-mixed-v1-cos.mp3",
+  "offset": 4.165,
+  "bodyDuration": 107.655,
+  "fullDuration": 111.82,
+  "voices": {
+    "Ferran": "Algenib"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "3614318c8fb54c97021a43d7a5ac29a9c5f2642f00894c7d7e5ae616d6adc099",
+  "sourceRequestHash": "5fffa82f1023a703d97e1e35660b49d2c197444f9dfdc846b949f32e43aca13c",
+  "batch": "L17",
+  "rawSha256": "43a2e90b48ca2359bb188118537c41567673d998ef51374d5170f00ca0c55937",
+  "takeSha256": "fe1e0f15945813329b08f7e2bbe999316cfc4379195dabe8287c09e4bcb31fad",
+  "coverage": 0.9437869822485208,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.37,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "gentle-narration-bed",
+      "origin": "original-procedural-composition",
+      "author": "Sentit",
+      "license": "MIT",
+      "source": "tools/narration-bed.cjs",
+      "title": "Una butxaca amb farina",
+      "compositionId": "sentit-s046-v1",
+      "tempoBpm": 64,
+      "rootMidi": 53,
+      "scoreSeed": 46,
+      "notes": 83,
+      "externalSamples": false,
+      "noSpeech": true,
+      "retimed": false,
+      "sha256": "e5cd378aae0b2e886e07b8ec66c32a4ae18ee4248e0a3e13599213df07f14599",
+      "envelope": {
+        "fadeInSeconds": 0.6,
+        "duckStart": 0.7000000000000001,
+        "duckEnd": 1.4500000000000002,
+        "speechGain": 0.14,
+        "nominalSpeechMusicLufs": -43.07743928643524,
+        "riseStart": 101.57999166666664,
+        "riseEnd": 102.37999166666665,
+        "holdSeconds": 2,
+        "fadeStart": 104.37999166666665,
+        "fadeEnd": 106.37999166666665
+      },
+      "listeningValidation": "pending",
+      "start": 0,
+      "underSpeech": true
+    }
+  ],
+  "sha256": "e06ccebee39a0ac3bd9650e662463c42dfe09dacadcdb29cfe04a47dbfde855b",
+  "voiceHandles": {
+    "body": {
+      "start": 1.3072083333333333,
+      "end": 101.16220833333334,
+      "retainedPcmSha256": "998e54e20031adb3821d3470e5d37ee4a9ca87ad4d87b63a0d2f8a3ffdb0d81d",
+      "sourceSha256": "95d7e2c86ce343634334167df21425ea6b86aa1e90b6708045c9056e6c4ec772",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0,
+      "end": 3.215,
+      "retainedPcmSha256": "60a4fc98be2115a7590b4e00e1ea29a2d56fa8063700dd95dccc4b0c1835d1d9",
+      "sourceSha256": "d71add1b847e1838b98f2dad63c64380abe992a3b5097fcb9795c47dcd406f4a",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-23",
+    "sourceTakeSha256": "fe1e0f15945813329b08f7e2bbe999316cfc4379195dabe8287c09e4bcb31fad",
+    "confirmation": "S046 validat per muntatge"
+  }
+}

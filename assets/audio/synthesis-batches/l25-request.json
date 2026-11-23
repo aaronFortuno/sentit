@@ -1,0 +1,63 @@
+{
+  "model": "gemini-3.8-flash-tts",
+  "input": [
+    {
+      "type": "user_input",
+      "content": [
+        {
+          "type": "text",
+          "text": "Comprensió oral. La pista torna a obrir al vespre. Notícia de ficció. \n\nBon dia. La pista del parc de les Moreres tornarà a obrir al vespre a partir de dilluns. Durant les últimes dues setmanes només s’hi podia entrar mentre hi havia claror, perquè una avaria havia deixat sense llum una part del terreny. L’equip que hi ha treballat ja ha acabat la reparació i ahir va fer la prova amb els llums encesos.\n\nDe dilluns a divendres, de cinc a set, la pista continuarà reservada als entrenaments dels dos equips que ja la feien servir. A partir de les set i fins a les nou, s’obrirà per jugar-hi lliurement. Les reserves de la tarda es mantenen al plafó de l’entrada, al costat del calendari del mes.\n\nA l’estona d’ús lliure, si hi coincideixen dos grups que volen ocupar tota la pista, la persona encarregada els ajudarà a repartir-se el temps. Els grups petits també poden posar-se d’acord per jugar plegats. Al taulell de l’entrada es podran demanar dues pilotes, que s’hauran de tornar abans de marxar.\n\nLa porta que dona al parc serà l’accés habitual. La del carrer de baix es mantindrà tancada durant uns dies, perquè encara hi han d’acabar de subjectar un tros de tanca. Això ja s’indica amb un cartell a cada porta. Per entrar amb bicicleta caldrà baixar-ne i deixar-la als aparcaments que hi ha al costat de l’accés del parc.\n\nDissabte, l’obertura serà diferent: al matí hi haurà una trobada dels equips del barri. A partir de les quatre de la tarda quedarà lliure fins a les vuit. Les famílies que vulguin veure els partits del matí podran seure als bancs de fora del terreny de joc.\n\nLa persona encarregada atendrà dubtes avui a la tarda al mateix taulell. El nou horari complet també es pot consultar al plafó de l’entrada. La reobertura del vespre començarà dilluns, un cop acabats els entrenaments de la tarda.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Mar és l’única veu: periodista adulta, clara i propera, sense solemnitat ni veus imitades quan recull el que ha dit algú. Pauses naturals entre informacions, entonació de notícia local i tancament amb una dada concreta de servei. Llegir només els torns de Mar. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its story. Keep this same single character voice throughout all recordings. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. Una finestra per recollir els encàrrecs. Notícia de ficció. \n\nBon dia. El forn de la placeta obrirà aquest dissabte una finestra lateral per lliurar encàrrecs. La setmana passada ja ho va provar per primera vegada. La proposta va sorgir perquè, els dissabtes, les persones que només recollien una bossa preparada es trobaven fent cua amb les que encara havien de triar el pa o els pastissos.\n\nQui hagi encarregat la compra el dia abans podrà anar directament a la finestra. Haurà de dir el nom amb què s’ha fet l’encàrrec. Les bosses estaran preparades dins del forn i una treballadora les anirà lliurant. Les comandes es continuaran fent al taulell o per telèfon, durant l’horari habitual.\n\nEn la primera prova hi va haver un problema amb dues bosses que portaven el mateix nom. Eren de dues persones que es deien Teresa. La treballadora va haver de tornar a dins i comprovar què havia demanat cadascuna. A partir d’ara, quan apuntin els encàrrecs, també hi posaran el primer cognom.\n\nLes persones que vulguin mirar què hi ha o afegir alguna cosa a la compra entraran per la porta principal. Allà hi haurà el taulell de sempre. La finestra té un espai petit per deixar una bossa, i per això s’ha pensat per fer entregues ràpides de compres ja preparades.\n\nDissabte passat, la cua de dins es va fer més curta al començament del matí, segons expliquen al forn. Més tard va arribar un grup gran que sortia d’una activitat de la plaça i es va tornar a acumular gent. Per valorar com funciona el canvi, volen repetir-lo tres dissabtes més i mirar en quines estones hi ha més espera.\n\nLa finestra atendrà de nou a dotze del migdia. Els encàrrecs que quedin sense recollir a aquella hora es podran buscar al taulell fins al tancament. Les condicions de la prova són en un full al costat de la porta principal.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Mar és l’única veu: periodista adulta, clara i propera, sense solemnitat ni veus imitades quan recull el que ha dit algú. Pauses naturals entre informacions, entonació de notícia local i tancament amb una dada concreta de servei. Llegir només els torns de Mar. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its story. Keep this same single character voice throughout all recordings. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. La volta nova del bus de dissabte. Notícia de ficció. \n\nBon dia. L’autobús que uneix el barri de Dalt amb el centre va provar dissabte un recorregut nou al matí. Ara fa una volta pel mercat abans d’arribar a la plaça de l’Ajuntament. L’associació de veïns havia recollit peticions de persones que hi van a comprar i que, fins ara, havien de caminar del mercat fins a la plaça amb les bosses.\n\nLa nova parada és davant de l’entrada coberta del mercat. Per arribar-hi, l’autobús deixa el carrer Major, baixa pel carrer de la Riera i després torna a pujar cap a la plaça. El tram entre el barri de Dalt i aquest desviament es manté com abans. Els dies feiners continuarà passant directament pel carrer Major; la prova es fa només els dissabtes al matí.\n\nEn la primera jornada, al mercat hi van pujar vuit persones. Algunes portaven el carretó de la compra i d’altres, bosses a la mà. El conductor va esperar que tothom estigués ben col·locat abans de tancar les portes. L’aturada va durar més del que s’havia calculat, sobretot quan dues persones van haver de plegar els carretons per deixar lliure el pas.\n\nA conseqüència d’això, aquell viatge va arribar a la plaça cinc minuts més tard que l’horari antic. Per al dissabte vinent, la sortida del barri de Dalt s’avançarà cinc minuts. Es vol mantenir l’hora d’arribada a la plaça, on algunes persones baixen per agafar un altre autobús que va cap a l’estació. El cartell de la nova hora de sortida es col·locarà aquesta tarda a les parades.\n\nUna veïna que havia demanat el canvi explica que ara pot sortir del mercat i pujar a l’autobús sense haver d’arrossegar el carretó fins a la plaça. Un altre passatger, que només hi va per continuar cap a l’estació, va perdre l’enllaç dissabte. Ho va comunicar al punt d’informació i és un dels casos que ha servit per ajustar l’hora de sortida.\n\nEl desviament també fa que l’autobús passi més a prop de l’entrada del carrer de la Riera. Allà no s’ha creat cap parada: el lloc per pujar i baixar és al mercat, on hi ha espai preparat perquè el vehicle s’aturi. En el primer viatge, una persona va esperar al carrer de la Riera perquè havia vist el bus passar-hi el dia abans, durant una prova sense passatgers.\n\nPer explicar millor el canvi, el punt d’informació repartirà un full amb el dibuix del recorregut i la ubicació de la parada. També hi constaran els viatges dels dissabtes que fan la volta i els que surten quan el mercat ja és tancat i van directament a la plaça. Els conductors tindran aquests fulls durant les dues pròximes jornades.\n\nLa prova continuarà tres dissabtes més. Qui vulgui explicar una incidència podrà fer-ho al punt d’informació, dient quin viatge ha agafat. El nou horari es pot consultar a les parades a partir d’aquesta tarda; el primer dissabte amb la sortida avançada serà el vinent.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Mar és l’única veu: periodista adulta, clara i propera, sense solemnitat ni veus imitades quan recull el que ha dit algú. Pauses naturals entre informacions, entonació de notícia local i tancament amb una dada concreta de servei. Llegir només els torns de Mar. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its story. Keep this same single character voice throughout all recordings. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "La plaça del barri acollirà divendres una sessió de cinema a l’aire lliure. L’associació de veïns ha triat una pel·lícula d’aventures per a tots els públics. La projecció començarà quan es faci fosc; per això no tindrà el mateix horari que les activitats de tarda.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Same adult Mar/Erinome newsreader voice and natural Central Catalan pace. Read this entire first paragraph fluently and verbatim, including its first sentence. No title, labels, extra words, music, effects or spoken instructions. Keep complete consonant onsets and endings. Preserve the first sentence starting La plaça del barri acollirà. Acollirà has final stressed À. Keep a natural continuous newsreader delivery across the whole paragraph. This is a separate repair paragraph with no title. Keep the same character voice as in the complete recordings. Read every supplied word once, including the first sentence. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "response_format": {
+    "type": "audio",
+    "mime_type": "audio/wav",
+    "sample_rate": 24000
+  },
+  "generation_config": {
+    "speech_config": [
+      {
+        "voice": "Erinome"
+      }
+    ]
+  },
+  "background": true
+}

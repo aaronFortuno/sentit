@@ -109,9 +109,9 @@ export const troballes = [
     ],
   }),
   dialogue({
-    id: 'el-curt-que-comencava-pel-final', code: 'S061', title: 'El curt que començava pel final', grade: '5', level: 'advanced',
+    id: 'el-curt-que-comencava-pel-final', code: 'S061', title: 'El curt que començava pel final', grade: '6', level: 'middle',
     summary: 'Els dos joves revisen un curt que han gravat amb el mòbil. Una escena els fa riure perquè saben què va passar abans, però l’ordre de les imatges deixa l’espectador sense una pista important.',
-    editorialFocus: '5è avançada: reconstruir una petita història dins del diàleg, relacionar ordre, informació i inferència de l’espectador. Vuit preguntes; no cal saber editar vídeo ni interpretar vocabulari cinematogràfic.',
+    editorialFocus: '6è intermèdia: reconstruir una petita història dins del diàleg, relacionar ordre, informació i inferència de l’espectador. Vuit preguntes; no cal saber editar vídeo ni interpretar vocabulari cinematogràfic.',
     soundPlan: 'Estança de treball enregistrada durant dos segons. No reproduir àudio del curt ni veus de la Laia o el Biel duplicades. Paper real a la pausa de reordenació, sense clics sintètics. Fons baix i estable; al final, dos segons d’ambient i fosa amb marges.',
     illustrationBrief: 'Laia i Biel asseguts amb un mòbil recolzat i fulls en blanc, sense pantalla de vídeo visible, sabates, aigua ni seqüència d’imatges que resolgui l’argument.',
     transcript: [
@@ -145,6 +145,10 @@ export const troballes = [
   }),
   dialogue({
     id: 'dos-cartells-per-al-mateix-concert', code: 'S062', title: 'Dos cartells per al mateix concert', grade: '6', level: 'advanced',
+    recordingCues: [{"before":"missatge","text":"Ambient real continu d’aula amb jovent parlant en veu baixa, molt atenuat sota Laia i Biel. Entrada suau i cap paper, cadira o altre efecte puntual afegit."},{"after":"final","text":"La veu acaba completa. Marge breu, pujada del fons durant dos segons i fosa de dos segons, sense cap altra locució."}],
+    seconds: 139, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s062-mixed-v1.mp3', tracks: { introduction: './assets/audio/s062-mixed-v1-intro.mp3', body: './assets/audio/s062-mixed-v1-cos.mp3' },
+    fragment: { start: 4.615, seconds: 134 },
     summary: 'Un missatge fa dubtar la Laia sobre l’hora del concert. Amb en Biel compara dos cartells i descobreix que la fotografia que s’està compartint és d’una versió anterior.',
     editorialFocus: '6è avançada: seguir una cadena de versions, atribuir el canvi a una causa i distingir missatge de confirmació i imatge antiga. Nou preguntes de relació entre dades i accions, sense coneixements de xarxes socials.',
     soundPlan: 'Ambient real de passadís al començament, retirat abans de les dades. Paper real breu a la pausa central. No llegir missatges amb una tercera veu ni afegir notificacions que semblin artefactes. Fons molt baix; dos segons d’ambient al final i fosa.',

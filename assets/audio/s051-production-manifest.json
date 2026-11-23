@@ -1,0 +1,83 @@
+{
+  "code": "S051",
+  "activity": "ca-S051",
+  "state": "awaiting-montage-validation",
+  "file": "s051-mixed-v1.mp3",
+  "introFile": "s051-mixed-v1-intro.mp3",
+  "bodyFile": "s051-mixed-v1-cos.mp3",
+  "offset": 4.590000000000001,
+  "bodyDuration": 109.1,
+  "fullDuration": 113.69,
+  "voices": {
+    "Laia": "Leda",
+    "Nora": "Kore"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "4029137e3ef3992d6500ac463d9bda81a70330519489e94b9b732c48068f744e",
+  "sourceRequestHash": "fb6e213e2c1b544204230fcd888d3b353adc95761c98723498aca79ab4333d87",
+  "batch": "L15",
+  "rawSha256": "7b8e910f2884dbcda93a12fb898afa65755faefeec90b7a15a7eb273fd5fb5b3",
+  "takeSha256": "ecfe0c7c6a52d5d6eb0be9d65a2f83367d34306fb65997fd6e6e53acc729a617",
+  "coverage": 0.9279538904899135,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.73,
+  "peakDbTP": -3.06,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "callmethefoo-744447",
+      "start": 0,
+      "source": "assets/audio/sources/callmethefoo-744447.mp3",
+      "sourceSha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
+      "sourceUrl": "https://freesound.org/people/callmethefoo/sounds/744447/",
+      "author": "callmethefoo",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.12,
+      "openingGain": 0.3,
+      "raisedGain": 0.4,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -46.416375079047505,
+      "lowPassHz": 1800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 12,
+        "seconds": 85.24
+      },
+      "envelope": {
+        "riseStart": 103.09999166666665,
+        "riseEnd": 103.89999166666666,
+        "holdSeconds": 2.0000083333333407,
+        "fadeStart": 105.9,
+        "fadeEnd": 107.9
+      }
+    }
+  ],
+  "sha256": "2e52eca2ad087a0231fd5d4aeaa343ca41bda4ebabbdc83f897e878c6fd1b9dc",
+  "voiceHandles": {
+    "body": {
+      "start": 0.4347083333333333,
+      "end": 101.53470833333333,
+      "retainedPcmSha256": "09a0f1916cdb53eb293a6ed87f0df05751a4f9a8b14fea168eaccb93658ee97d",
+      "sourceSha256": "b2954405b7c8cc284e9cbfbcb14b6c7beb6c2d80bf12d359e1a9d81ccd63bcc8",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.025,
+      "end": 3.665,
+      "retainedPcmSha256": "78f46b2790ef89fa8a6c50791ec9f4dacce413789bf5e6e939db570e9a737a23",
+      "sourceSha256": "254d16d71824717be9cad5accfd2dc5883bac5105fd4149c0ea502e5c0fd14f8",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-23",
+    "sourceTakeSha256": "ecfe0c7c6a52d5d6eb0be9d65a2f83367d34306fb65997fd6e6e53acc729a617",
+    "confirmation": "S051 validat per muntatge; diàleg, dificultat superior."
+  }
+}

@@ -1,5 +1,15 @@
 # Canvis
 
+## 0.1.86 · 23 de novembre de 2026
+
+- S068D validada per a síntesi: els 84 guions proposats ja tenen aprovació docent, amb variants independents.
+- Cinc lots complets rebuts, enviats seqüencialment: L21, L22, L23, L25 i L26. Veus per a catorze comprensions i proves dels torns de S029 i S082, disponibles per escoltar abans d’aplicar-les. L24 substituït abans d’enviar-lo, sense consumir una petició.
+- Recuperació local dels WAV amb metadades intercalades, conservant totes les mostres de parla i els originals. Cap petició repetida per l’error de format.
+- Suport d’esmenes compatibles dins lots de text pla: mateix repartiment, aprovacions i origen verificats, lectura completa obligatòria i finestra de sis a vuit minuts. Comparacions accessibles també quan la comprensió encara no té muntatge.
+- Primers muntatges de S028, S033, S036, S040, S046, S049, S051, S052, S062, S073, S075 i S077 amb veus validades. Ambients reals continus de mercat, estança, cuina o cafeteria, o base original per a S046; marges silenciosos, entrada suau i fosa final. Tots pendents d’audició del muntatge.
+- S049, S051, S073 i S077 recatalogades com a diàlegs. S051 a 4t avançada, per acabar de confirmar amb l’audició; S061 a 6è intermèdia, amb cos de veus aprovat i presentació omesa en cua.
+- Dos torns d’Elies/Algieba de S081 en cua per corregir «funa» per «funda»; muntatge bloquejat fins a validar les esmenes. Seguiment, crèdits, pronunciacions i cua actualitzats.
+
 ## 0.1.85 · 23 de novembre de 2026
 
 - S045D validada pel docent per a síntesi amb Aina/Zephyr i Ferran/Algenib; guió i escaleta conservats i aprovació vinculada a l’empremta exacta.

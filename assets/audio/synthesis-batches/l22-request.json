@@ -1,0 +1,53 @@
+{
+  "model": "gemini-3.8-flash-tts",
+  "input": [
+    {
+      "type": "user_input",
+      "content": [
+        {
+          "type": "text",
+          "text": "Comprensió oral. El dinar al banc de l’estació. \n\nMira, Aina, aquesta capsa de llauna va fer un viatge ben curiós. La mare l’havia omplerta de galetes per portar a la tieta, que vivia en una altra ciutat. Hi anàvem un diumenge, amb el pare, i havíem de canviar de tren en una estació a mig camí.\n\nLa mare també havia preparat tres entrepans i una ampolla d’aigua, per si ens venia gana durant el trajecte. La capsa de galetes anava al fons de la bossa i els entrepans, embolicats amb paper, quedaven a sobre. Jo carregava la bossa fins que em cansava; després se la penjava el pare.\n\nEl primer tren va arribar bé. Però, quan vam baixar per fer el canvi, ens van dir que el següent sortiria amb força retard. Estaven acabant uns treballs a la via. El pare va anar al taulell a preguntar i la mare i jo vam esperar en un banc del vestíbul.\n\nS’acostava l’hora de dinar i a mi em sonaven els budells. La mare va treure els entrepans. Jo vaig preguntar si ens hauríem d’acabar també les galetes de la tieta, perquè segurament arribaríem tard. La mare va riure i va tornar a deixar la capsa al fons de la bossa. Aquelles encara ens havien d’acompanyar una mica més.\n\nQuan va tornar el pare, ens va confirmar que tindríem temps d’acabar de dinar. També havia pogut trucar a la tieta des del telèfon de l’estació per explicar-li el retard. Ella ens esperaria igualment i guardaria el menjar que ens havia preparat.\n\nVam arribar a mitja tarda. La tieta ens va obrir la porta i jo li vaig donar la capsa. Les galetes havien arribat senceres, molt millor que el paper del meu entrepà, que ja semblava una bola. Vam berenar a casa seva i ens vam emportar el menjar que havia guardat per al vespre. Aquell diumenge vaig dinar en un banc i vaig sopar a casa el dinar de la tieta!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Ferran explica un record a l’Aina amb veu adulta càlida, ritme natural i petites reaccions pròpies de qui recorda una escena. Una sola veu: les persones del passat s’expliquen, no es representen amb altres timbres. Tancaments concrets de la història, sense consell universal afegit. No llegir anotacions ni afegir rialles o paraules. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its story. Keep this same single character voice throughout all recordings. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. El dia que no va sonar el disc. \n\nAina, el meu pare tenia un acordió guardat a l’armari. El tocava alguns diumenges a casa, quan acabàvem de dinar. Un any el vam portar a la festa del carrer perquè un veí li havia demanat que toqués una cançó al final. La resta del ball el farien amb discos.\n\nLa plaça estava plena de taules i havien penjat unes bombetes damunt de la pista de ball. Jo ajudava a recollir els gots buits. Quan el veí anava a posar el primer disc, es van apagar les bombetes. També es va quedar sense llum la botiga del costat.\n\nEls grans anaven d’un costat a l’altre per saber què havia passat. Mentrestant, la gent s’asseia i els petits corríem entre les cadires. El pare va anar a buscar l’acordió, que havia deixat a casa d’aquell veí, a la planta baixa, perquè no li fes nosa.\n\nVa seure prop de la porta i va començar a tocar. Al principi només se li acostaven quatre persones. Després una parella es va posar a ballar, algú més els va seguir i la rotllana de cadires es va anar eixamplant. El pare em va demanar el got d’aigua que jo portava i el vaig deixar al seu costat.\n\nAl cap d’una estona van tornar les bombetes. El veí ja tenia la mà a punt per posar el disc, però va veure que el pare encara tocava i va esperar que acabés la cançó. La gent va aplaudir i el pare va plegar l’acordió sobre els genolls, tot vermell de galtes.\n\nLlavors van començar els discos i ell va baixar a ballar amb la mare. L’acordió va tornar al seu estoig i jo vaig continuar recollint gots. Això sí: quan passava pel seu costat, el pare m’anava dient que aquell era seu, que no l’hi prengués. Després de tanta estona tocant, encara no havia begut ni un glop.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Ferran explica un record a l’Aina amb veu adulta càlida, ritme natural i petites reaccions pròpies de qui recorda una escena. Una sola veu: les persones del passat s’expliquen, no es representen amb altres timbres. Tancaments concrets de la història, sense consell universal afegit. No llegir anotacions ni afegir rialles o paraules. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its story. Keep this same single character voice throughout all recordings. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. Les dues entrades blaves. \n\nAina, en aquest sobre hi guardo quatre entrades. Són del mateix teatre i tenen el mateix color blau, però dues són d’un diumenge i dues, del dissabte següent. Si les mires de pressa semblen iguals. A mi em van fer passar una bona vergonya.\n\nUn diumenge vaig anar a veure uns titelles amb el tiet. Quan vam tornar a casa seva, em vaig quedar les dues entrades de record. Les vaig deixar damunt de la tauleta del rebedor, al costat d’un programa de mà. Em quedava tota aquella setmana amb ell; la mare vindria a buscar-me el diumenge següent.\n\nDivendres, el tiet va comprar dues entrades per al teatre de dissabte. Les va deixar dins d’un sobre blanc damunt de la taula de la cuina. Aquell cop farien un espectacle de màgia. Jo n’havia vist el cartell a la plaça i em passava l’estona preguntant si el mag faria sortir un conill de la maleta.\n\nDissabte a la tarda, mentre el tiet buscava la jaqueta, vaig veure les entrades blaves al rebedor i me les vaig posar a la butxaca. Vaig donar per fet que eren les d’aquell dia. Quan vam sortir, li vaig dir que ja les portava jo. Ell es va guardar les claus i vam anar cap al teatre caminant.\n\nA la porta, el senyor que les comprovava va mirar la data i ens les va tornar. Eren les dels titelles del diumenge anterior. Jo vaig mirar el tiet, i ell em va preguntar d’on les havia agafades. Quan vaig dir que eren damunt de la tauleta del rebedor, va recordar el sobre de la cuina.\n\nEncara faltava una estona per començar. El tiet va explicar la confusió al senyor de la porta i vam tornar tots dos cap a casa. La casa era a dos carrers del teatre. Jo hi volia anar corrent, però el tiet caminava de pressa i m’anava demanant que l’esperés a les cantonades.\n\nEl sobre blanc era just on ell l’havia deixat. A dins hi havia dues entrades blaves més, amb el nom de l’espectacle de màgia i la data de dissabte. El tiet me les va donar i jo vaig voler tornar-li les altres. Em va dir que també les guardés, si les volia de record, però en un altre lloc. Les vaig deixar a la taula del rebedor abans de marxar.\n\nVam entrar quan la gent encara s’asseia. Aquella vegada vaig mirar el nom de l’espectacle mentre esperàvem que ens indiquessin els seients. A mi se m’havia passat la por d’arribar tard i ja tornava a pensar en el conill. El mag va començar amb unes cartes i una corda, i em vaig passar mitja funció vigilant la maleta.\n\nQuan vam tornar, vaig posar les quatre entrades dins d’aquest sobre. Ara hi són totes juntes perquè la història sencera me la recorden les quatre. Per cert, de la maleta no en va sortir cap conill. El tiet em va comprar una galeta amb forma de conill al forn del costat, i em vaig haver de conformar amb aquella.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Ferran explica un record a l’Aina amb veu adulta càlida, ritme natural i petites reaccions pròpies de qui recorda una escena. Una sola veu: les persones del passat s’expliquen, no es representen amb altres timbres. Tancaments concrets de la història, sense consell universal afegit. No llegir anotacions ni afegir rialles o paraules. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its story. Keep this same single character voice throughout all recordings. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "response_format": {
+    "type": "audio",
+    "mime_type": "audio/wav",
+    "sample_rate": 24000
+  },
+  "generation_config": {
+    "speech_config": [
+      {
+        "voice": "Algenib"
+      }
+    ]
+  },
+  "background": true
+}

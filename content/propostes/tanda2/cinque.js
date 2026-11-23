@@ -48,6 +48,10 @@ export const cinque = [
     ],
   }),  proposal({
     id: 'el-nom-de-lobjecte', code: 'S036', title: 'Una capseta misteriosa', grade: '5', level: 'easy', genre: 'interview', universeIds: ['radio-escola'],
+    recordingCues: [{"before":"salutacio","text":"Ambient real molt discret d’estança tranquil·la, sense eines ni sons de l’objecte. Entrada suau i fons molt baix durant la conversa."},{"after":"adeu","text":"La veu acaba completa. Marge breu, pujada del fons durant dos segons i fosa de dos segons; sense paper ni sintonia de comiat afegits."}],
+    seconds: 100, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s036-mixed-v1.mp3', tracks: { introduction: './assets/audio/s036-mixed-v1-intro.mp3', body: './assets/audio/s036-mixed-v1-cos.mp3' },
+    fragment: { start: 4.23, seconds: 95 },
     summary: 'En Biel troba una capseta de fusta al taller de la Nora. A la família recorden que servia per fer sabó, però un paper diu una altra cosa.',
     voices: { Biel: 'Puck', Nora: 'Kore' }, delivery: 'Biel veu una capseta i pregunta amb curiositat, sense saber com treballa un museu. Nora respon assenyalant coses concretes i explica un dubte familiar. Conversa propera, sense vocabulari de conservador en boca del jove ni to de lliçó professional. Les dues possibilitats han de sonar igualment obertes.',
     editorialFocus: '5è accessible: seguir dues explicacions sobre una capseta concreta, entendre per què la Nora busca una foto antiga i com explica el dubte als visitants. Vuit preguntes sense vocabulari de museu pressupòsit.',

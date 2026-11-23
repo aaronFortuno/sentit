@@ -1,0 +1,514 @@
+{
+  "model": "gemini-3.8-flash-tts",
+  "input": [
+    {
+      "type": "user_input",
+      "content": [
+        {
+          "type": "text",
+          "text": "Comprensió oral. Les cadires del cinema · versió dialogada. \n\nAvi, aquesta cadira blava ja era teva quan eres petit?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Aina i el seu avi Ferran conversen en el present. Aina, de deu a dotze anys, fa preguntes curtes, s’imagina què li passava al seu avi i reacciona amb humor, sense fer d’entrevistadora. Ferran recorda amb calidesa, nostàlgia discreta i comicitat sobre les seves pròpies ensopegades. Dues veus constants: Zephyr i Algenib, sense caricatura infantil o de persona gran. El pare, la cosina i el públic no tenen veus pròpies ni s’imiten. Somriure natural en el to final, sense tags vocals ni rialles afegides. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the same two character voices throughout all recordings. Instructions are not spoken."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí! Va venir amb mi al cinema moltes vegades. A l’estiu, alguns dissabtes posaven una pantalla a la plaça. Cadascú s’hi portava la cadira de casa. La primera vegada hi vaig anar amb el pare i la meva cosina. Jo em pensava que les cadires ja ens les trobaríem allà!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Aina i el seu avi Ferran conversen en el present. Aina, de deu a dotze anys, fa preguntes curtes, s’imagina què li passava al seu avi i reacciona amb humor, sense fer d’entrevistadora. Ferran recorda amb calidesa, nostàlgia discreta i comicitat sobre les seves pròpies ensopegades. Dues veus constants: Zephyr i Algenib, sense caricatura infantil o de persona gran. El pare, la cosina i el públic no tenen veus pròpies ni s’imiten. Somriure natural en el to final, sense tags vocals ni rialles afegides. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Tothom arribava amb la seva cadira? Quina feinada!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "El pare va lligar una cinta vermella al respatller de la meva. N’hi havia moltes de semblants i volia que després reconeguéssim la nostra. La cosina em va ajudar a portar-la: l’agafàvem un per cada costat i anàvem canviant de mà quan ens cansàvem.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "I on us vau asseure?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Vam arribar d’hora. Jo vaig triar un lloc al costat de la paret perquè m’hi podia recolzar. Encara hi havia claror i el pare va anar a saludar un amic, dues passes més enllà. La cosina i jo ens vam quedar guardant les tres cadires.\n\nQuan ja començaven la pel·lícula, es va asseure davant nostre un home molt alt. Jo veia un tros de pantalla a cada costat del seu cap.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "I la teva cosina sí que la veia?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "A ella li passava el mateix! Em va fer un copet al braç i vam començar a inclinar-nos, ara cap aquí, ara cap allà. Si jo em movia, ella es movia cap a l’altre costat. No trobàvem una postura bona.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Jo no hauria pogut estar tota la pel·lícula així!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "El pare va tornar i ens va veure fent aquells moviments. Vam agafar les cadires i ens vam posar més al costat, en un espai que havia quedat buit. Des d’allà vèiem la pantalla sencera. La paret quedava lluny, però ens vam poder quedar quiets d’una vegada.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "I després encara havíeu de carregar les cadires fins a casa!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "En acabar, la plaça es va omplir de gent que plegava cadires. La cosina va plegar la meva mentre el pare agafava la seva. A la tornada va insistir a portar-la ella una estona. Deia que, després d’haver-me passat una bona estona movent el cap, jo ja havia fet prou exercici!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "I ella també havia estat bellugant el cap!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí, però encara li quedaven forces per fer bromes!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. La clau del davantal · versió dialogada. \n\nAvi, tu tenies un hort quan eres petit?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Aina conversa amb el seu avi Ferran en el present. Té de deu a dotze anys; escolta amb curiositat, prova d’endevinar on mirarien i reacciona amb humor a allò que li explica. Preguntes curtes i vocabulari corrent, sense fer d’entrevistadora ni resumir la història. Ferran recorda amb tendresa, nostàlgia discreta i humor sobre les seves pròpies petites ensopegades. Veu càlida i natural Algenib, sense caricatura de persona gran. La seva àvia s’esmenta dins del record i no té veu pròpia. Somriure lleu al final, sense tags vocals ni rialles afegides. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the same two character voices throughout all recordings. Instructions are not spoken."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "L’hort era de la meva àvia. Al costat hi havia un cobert petit, on guardàvem les eines i una regadora verda que jo feia servir quan l’ajudava. La clau penjava d’un ganxo de la cuina, al costat del calendari.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Aina conversa amb el seu avi Ferran en el present. Té de deu a dotze anys; escolta amb curiositat, prova d’endevinar on mirarien i reacciona amb humor a allò que li explica. Preguntes curtes i vocabulari corrent, sense fer d’entrevistadora ni resumir la història. Ferran recorda amb tendresa, nostàlgia discreta i humor sobre les seves pròpies petites ensopegades. Veu càlida i natural Algenib, sense caricatura de persona gran. La seva àvia s’esmenta dins del record i no té veu pròpia. Somriure lleu al final, sense tags vocals ni rialles afegides. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "I ja et deixaven regar?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí! Un dissabte jo volia regar i el ganxo era buit. Vaig mirar sota la taula, per si la clau havia caigut. Després vaig buscar darrere del calendari.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Darrere del calendari? Com si fos un amagatall!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "L’àvia em va preguntar què feia amb el cap tan arran de la paret. Li vaig dir que ens faltava la clau. Ella va recordar que aquell matí havia obert el cobert per treure una escombra.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Potser se l’havia guardada a la butxaca.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Es va mirar les butxaques del vestit. Eren buides.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "I al pany? Jo a vegades em deixo les claus posades.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "També hi vam anar. La porta del cobert era tancada i la clau no era al pany. Vam tornar a la cuina. Sobre la taula hi havia la massa d’unes coques que l’àvia havia preparat abans d’escombrar.\n\nMentre apartava el bol de la farina, va recordar el davantal. Se l’havia tret feia una estona i l’havia penjat darrere de la porta.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Hi vau mirar?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Jo el vaig agafar i el vaig acostar a la taula. L’àvia va posar la mà a la butxaca del davantal i va treure la clau. Se l’hi havia guardada després d’escombrar. Jo buscant per mitja cuina i el davantal allà, ben quiet!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "I després de tanta feina, us vau menjar les coques?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Encara no eren al forn! Primer vaig anar a buscar la regadora. La vaig omplir només fins a la meitat, que plena del tot em pesava massa. Quan vaig tornar, l’àvia ja posava les coques al forn. Vaig penjar la clau al ganxo i em vaig veure farina a la màniga, de tant remenar el davantal!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Tu també havies quedat enfarinat!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "I les coques les havia fet totes ella!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. La pissarra del partit · versió dialogada. \n\nAvi, de petit ja t’agradava el futbol?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Conversa familiar entre Aina, de deu a dotze anys, i el seu avi Ferran. Aina escolta, s’imagina l’escena i intervé amb reaccions i preguntes curtes motivades pel relat; no entrevista ni resumeix cada torn. Ferran recorda amb afecte i humor tranquil, sense convertir el record en una lliçó. Veus constants Zephyr i Algenib, sense caricatura infantil o de persona gran. El cosí i els jugadors només s’esmenten: no imitar-los. Al final, somriure audible en el to, sense instruccions de rialles dins del text parlat. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the same two character voices throughout all recordings. Instructions are not spoken."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Molt! Una vegada em van deixar portar el marcador d’un partit del barri. Jo encara era petit per jugar amb els grans, però em van donar una pissarra i un guix.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Conversa familiar entre Aina, de deu a dotze anys, i el seu avi Ferran. Aina escolta, s’imagina l’escena i intervé amb reaccions i preguntes curtes motivades pel relat; no entrevista ni resumeix cada torn. Ferran recorda amb afecte i humor tranquil, sense convertir el record en una lliçó. Veus constants Zephyr i Algenib, sense caricatura infantil o de persona gran. El cosí i els jugadors només s’esmenten: no imitar-los. Al final, somriure audible en el to, sense instruccions de rialles dins del text parlat. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "I tu hi anaves apuntant els gols?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí. A dalt hi havia escrit el nom dels dos equips: carrer Nou a l’esquerra i carrer Major a la dreta. A sota de cada nom hi posava el seu número. El meu cosí jugava amb els del carrer Nou.\n\nAl començament em resultava fàcil. Els del carrer Nou corrien cap a la porteria que jo veia a l’esquerra. Si marcaven, jo esborrava el seu número i n’escrivia un de més gran. El cosí de tant en tant em mirava per comprovar si anava al dia.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Així et tenien ben vigilat!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "I sort d’això. A la mitja part vaig anar a buscar aigua. Quan vaig tornar, els jugadors ja havien canviat de costat. La pissarra seguia al mateix lloc, recolzada a la paret. Jo m’hi vaig asseure al costat amb el got a la mà.\n\nVan marcar els del carrer Nou, però ara ho van fer a la porteria de la dreta. Jo vaig anar directe cap al número de la dreta i el vaig canviar.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Espera... A la dreta hi deia carrer Major, oi?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Exacte! Però jo no m’hi vaig fixar. El cosí em va començar a fer senyals des del camp. Em pensava que em saludava i li vaig alçar el got.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ai, avi! Ell intentant avisar-te i tu saludant ben content!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "En la següent aturada, es va acostar i em va assenyalar els noms escrits a dalt. Jo havia estat mirant les porteries i m’havia oblidat de mirar-los. Havia afegit el gol a l’altre equip.\n\nVam desfer aquell canvi i vam posar el gol al número de sota del carrer Nou. Després, cada cop que marcaven, jo deia primer el nom de l’equip en veu baixa i buscava on era escrit. El got el vaig deixar lluny de la pissarra, que amb els nervis ja hi havia fet una esquitxada.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "I et van deixar sortir a la foto de l’equip?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Amb tots dos equips! Jo volia aguantar la pissarra, però el cosí em va posar al mig i me la va girar cap endavant. La tenia del revés! A la foto només s’hauria vist la fusta del darrere.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sort que el cosí també era a la foto!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Si no, tindríem una foto ben bona de la fusta!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "response_format": {
+    "type": "audio",
+    "mime_type": "audio/wav",
+    "sample_rate": 24000
+  },
+  "generation_config": {
+    "speech_config": {
+      "speakers": [
+        {
+          "speaker": "Voice1",
+          "voice": "Zephyr"
+        },
+        {
+          "speaker": "Voice2",
+          "voice": "Algenib"
+        }
+      ]
+    }
+  },
+  "background": true
+}

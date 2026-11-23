@@ -101,7 +101,9 @@ export const soundSources = [
     "retrievedAt": "2026-11-20",
     "sha256": "1bd886bb25614d7e0768e77cd4200ad84f4db55f51257a5e16c11f47737155ad",
     "usedBy": [
-      "ca-S019"
+      "ca-S019",
+      "ca-S073",
+      "ca-S077"
     ],
     "treatment": "S019 v3: descartar els primers cinc segons, amb la identificació oral de l’enregistrament, abans de normalitzar i repetir la mostra. Dues passades del fragment retallat amb fosa d’enllaç, nivell molt baix sota la parla i pujada amb fosa final. Presa original conservada.",
     "excerpt": {
@@ -124,7 +126,9 @@ export const soundSources = [
     "sha256": "491adb6958fbd12889734f9ccfbf488c9316d7addc0c1121630d1f315a136810",
     "usedBy": [
       "ca-S023",
+      "ca-S028",
       "ca-S048",
+      "ca-S049",
       "ca-S050"
     ],
     "excerpt": {
@@ -384,7 +388,13 @@ export const soundSources = [
     "downloadUrl": "https://cdn.freesound.org/previews/744/744447_14793871-hq.mp3",
     "retrievedAt": "2026-11-21",
     "sha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
-    "usedBy": [],
+    "usedBy": [
+      "ca-S033",
+      "ca-S036",
+      "ca-S040",
+      "ca-S051",
+      "ca-S052"
+    ],
     "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
   },
   {
@@ -491,9 +501,29 @@ export const soundSources = [
     "retrievedAt": "2026-11-23",
     "sha256": "20f19e1eec5394003835bcc940e246b941b2dd733b062c2743dcef1443f7b0c1",
     "usedBy": [
-      "ca-S007"
+      "ca-S007",
+      "ca-S062"
     ],
     "treatment": "Fragment del segon 5 al 95, amb foses creuades. Filtrat i molt atenuat sota les veus, entrada suau i pujada breu abans de la fosa final."
+  },
+  {
+    "id": "vecera999-cafe-706805",
+    "title": "Cafe Ambience",
+    "author": "Vecera_999",
+    "url": "https://freesound.org/people/Vecera_999/sounds/706805/",
+    "license": "CC0 1.0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/",
+    "origin": "external-recording",
+    "description": "Enregistrament real utilitzat en els muntatges indicats.",
+    "file": "assets/audio/sources/vecera999-cafe-706805.mp3",
+    "rendition": "Còpia pública HQ en MP3 de Freesound; no és el WAV original.",
+    "downloadUrl": "https://cdn.freesound.org/previews/706/706805_13871294-hq.mp3",
+    "retrievedAt": "2026-11-23",
+    "sha256": "a5faa173bbc886eb77ebb5035631e56f912ceff988b8c3d8a417d887bd6dccc6",
+    "usedBy": [
+      "ca-S075"
+    ],
+    "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
   }
 ];
 

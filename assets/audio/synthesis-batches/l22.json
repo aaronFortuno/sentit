@@ -1,0 +1,321 @@
+{
+  "id": "L22",
+  "state": "received-and-split",
+  "requestHash": "4a2634e49163d602016cbc69c25809b31754d5e940e3283e0c938522deada250",
+  "rawSha256": "f59f33398e753916473bd88dc78345ff02faeedc4f4bb046275f9d453bc4b561",
+  "startedAt": "2026-11-23T12:06:21.751Z",
+  "completedAt": "2026-11-23T12:09:15.400Z",
+  "rawSeconds": 352.96,
+  "usage": {
+    "total_tokens": 10673,
+    "total_input_tokens": 1849,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 1849
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 8824,
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 8824
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 0,
+    "initial_input_tokens": 1849
+  },
+  "returnedAudioBlocks": 1,
+  "newRequests": 1,
+  "coverageCheck": {
+    "engine": "vosk-model-small-ca-0.4",
+    "matchedFraction": 0.9369817578772802,
+    "pronunciationValidated": false,
+    "uncertainTurns": []
+  },
+  "parts": [
+    {
+      "id": "S068-T01",
+      "code": "S068",
+      "sourceRequestHash": "8d05a389052be132452e8629b805e26c1ebe744d5d4ca688463cdcef9ef16185",
+      "start": 0,
+      "end": 95.7691,
+      "clipSha256": "5bb0a7abe9cd21bde670d47ce5e9d6857dcefc3f702a8be17da6df68141d6440",
+      "coverage": 0.9205882352941176,
+      "status": "voices-received"
+    },
+    {
+      "id": "S070-T01",
+      "code": "S070",
+      "sourceRequestHash": "b36952e9705d1f889a1d77e970e183ca4b0068df82d7b96de57e7e0477a8131e",
+      "start": 95.7691,
+      "end": 194.64,
+      "clipSha256": "760143315f68bf9b649e208ed3e37c6ad3e325488f8b73198d1a1b8099367da3",
+      "coverage": 0.9520958083832335,
+      "status": "voices-received"
+    },
+    {
+      "id": "S071-T01",
+      "code": "S071",
+      "sourceRequestHash": "db3b6803c46b0a95f5895895743f85114c1e5d61fadded8b0ef30b4a4a811f79",
+      "start": 194.64,
+      "end": 352.96,
+      "clipSha256": "be81a7fabf103859d65f69972f783d0fa1b9777fd8c943f8c4676659fedd0ba3",
+      "coverage": 0.9379699248120301,
+      "status": "voices-received"
+    }
+  ],
+  "preservesOriginals": true,
+  "voiceRetimed": false,
+  "missingParts": [],
+  "waveRecovery": {
+    "mode": "riff-c2pa-prefix-plus-pcm-v2",
+    "providerWaveSha256": "804f79a9bcf45fef633c53bd003040a01dc09f4898769880fd09ab17b6dcf074",
+    "recoveredWaveSha256": "f59f33398e753916473bd88dc78345ff02faeedc4f4bb046275f9d453bc4b561",
+    "pcmSha256": "6fc1c45ef1382786765753cc7b73053cf4034219b977054751a17011ed2e61ab",
+    "prefixPcmBytes": 1920,
+    "trailingStreamBytes": 17295188,
+    "metadataBytes": 7655,
+    "interleavedMetadata": {
+      "count": 46,
+      "removedBytes": 355028,
+      "tags": [
+        {
+          "sourceOffset": 11548,
+          "bytes": 7718,
+          "sha256": "b9e74cdc55a5a19a03f61bbdc3185473d540f0958835ee9531ab13987ba1cdba"
+        },
+        {
+          "sourceOffset": 184386,
+          "bytes": 7718,
+          "sha256": "c61a8f748d909d5a87acedc24b3153b57593f253e09adf6aed5b5a1a36f0ef96"
+        },
+        {
+          "sourceOffset": 322664,
+          "bytes": 7718,
+          "sha256": "1a3c09a43e5c23c9f972f5f7a62ea7218739336d2780a7f1f43fd53b9d2e59e1"
+        },
+        {
+          "sourceOffset": 1357582,
+          "bytes": 7718,
+          "sha256": "b4578c9adc45716f36ffa263273e223c42d8bbe8eea6979fbfdccaedfcbb7322"
+        },
+        {
+          "sourceOffset": 1981620,
+          "bytes": 7718,
+          "sha256": "2edac1313847de78084fd370f7af449a67f2ad095d53d0295798081b5c2122f8"
+        },
+        {
+          "sourceOffset": 2004698,
+          "bytes": 7718,
+          "sha256": "4b6f4e615a330fcf729f94e2e06fb67dccceee1e7af14c3db1ac9df57e9ca663"
+        },
+        {
+          "sourceOffset": 2233216,
+          "bytes": 7718,
+          "sha256": "121775ac8634e32f262f185b1970e08ac657efe2e27625754f2c8e41caafe5f9"
+        },
+        {
+          "sourceOffset": 2774694,
+          "bytes": 7718,
+          "sha256": "a40c0c403d2444cd891055ea5839b9428a9fafc73ac8e8e24bc9fdfea8097bfe"
+        },
+        {
+          "sourceOffset": 3151052,
+          "bytes": 7718,
+          "sha256": "1960c6f63232f41e429f33bf456ca0048e546896303a34cef626acde537f53b0"
+        },
+        {
+          "sourceOffset": 3164530,
+          "bytes": 7718,
+          "sha256": "aff5a2c65e1051e62ad23bae553e98bedb6cdc29e4c649e58364ed751b1bd5b1"
+        },
+        {
+          "sourceOffset": 3266328,
+          "bytes": 7718,
+          "sha256": "3d976b7443cd3f8ea5e2d26dbc9393c77df8228c54f0aae7616f2a200273e052"
+        },
+        {
+          "sourceOffset": 3345086,
+          "bytes": 7718,
+          "sha256": "98d924ce7cc9d56e80ad766083c019fc6052274124e237e813223416718eb699"
+        },
+        {
+          "sourceOffset": 4118884,
+          "bytes": 7718,
+          "sha256": "a28d6100ec4b3608c3f754f881126bc01757ef2ea507606d7e6dae26ff65e560"
+        },
+        {
+          "sourceOffset": 4491402,
+          "bytes": 7718,
+          "sha256": "41e9e1039c55360e9f0cd2b3b9ceab3064c61a19b8a4444f07db2a2104893024"
+        },
+        {
+          "sourceOffset": 4510640,
+          "bytes": 7718,
+          "sha256": "bd6bf8ce2745e2515dbbc68b741237eea7b2aaf9ac9434d7c2948fff633b8541"
+        },
+        {
+          "sourceOffset": 4526038,
+          "bytes": 7718,
+          "sha256": "fdc38d21a717b6761a6abb51416f15f9fbc4e27d590cb2ca62c8c3e79d2c6a3b"
+        },
+        {
+          "sourceOffset": 4737276,
+          "bytes": 7718,
+          "sha256": "5ba86957434cd23a0a809822c6b2f46a113c9e2666c5179a1ae03dfdd3a974ff"
+        },
+        {
+          "sourceOffset": 5395874,
+          "bytes": 7718,
+          "sha256": "eef502726f86b8ebc676502dcd7981fb13afdd061aad13d28ef2a7e94e82286f"
+        },
+        {
+          "sourceOffset": 5712712,
+          "bytes": 7718,
+          "sha256": "0642cbb5f8de733c2fb8bf4f65caa35ea3423bca9d9bcc80c78ffcd3624622f2"
+        },
+        {
+          "sourceOffset": 6336750,
+          "bytes": 7718,
+          "sha256": "b8d8b25e3cfea9a99b6a0eeecb8d7f8fbd5894ca4482f92a29130965763f0e01"
+        },
+        {
+          "sourceOffset": 6448148,
+          "bytes": 7718,
+          "sha256": "06e312b8af8e0fe685f8b6729ff572fbeae6afe229c1b15886d1eec7aeee373b"
+        },
+        {
+          "sourceOffset": 7110586,
+          "bytes": 7718,
+          "sha256": "526e6c110d7366ac1e99d87ac6abbba05215b3701c3b1f07bb8fdd815d42b8c1"
+        },
+        {
+          "sourceOffset": 7129824,
+          "bytes": 7718,
+          "sha256": "4649712838526e270972b68b3458d869c8a8e52f13fa867a4b07973d929b76b1"
+        },
+        {
+          "sourceOffset": 7773062,
+          "bytes": 7718,
+          "sha256": "476b489bd547db22f36dad818086e809ee6bc792512d7292a368e025c9902949"
+        },
+        {
+          "sourceOffset": 8126380,
+          "bytes": 7718,
+          "sha256": "ba1a72a2b542e4c1ece5a4b01d44feb006f76c6e98f5710cb7adfd81d930e893"
+        },
+        {
+          "sourceOffset": 8700498,
+          "bytes": 7718,
+          "sha256": "659d8f84b3bd4a40e435dec2faf6437fd71c8f83b5d01532516b6a4fa1c3e646"
+        },
+        {
+          "sourceOffset": 9297656,
+          "bytes": 7718,
+          "sha256": "5692670248b23594354182fd215202350ef3d66ed7fb6ab61713f14c6999435b"
+        },
+        {
+          "sourceOffset": 9458974,
+          "bytes": 7718,
+          "sha256": "d94eea6b7837eab3f40341b9eb6601526eaac6a859e74f2a7cfafbfe97701bba"
+        },
+        {
+          "sourceOffset": 9823812,
+          "bytes": 7718,
+          "sha256": "3f50213e45cdc842a2bfda8093077866e5e30b572ca6462c0b6067207ad1f807"
+        },
+        {
+          "sourceOffset": 10125290,
+          "bytes": 7718,
+          "sha256": "eb6e541e333b9edd5b8490144f8bed4f9bac39039ee3583fe2dbf979d4152927"
+        },
+        {
+          "sourceOffset": 11407888,
+          "bytes": 7718,
+          "sha256": "cd0d131bfb21df019068c1ca8c6d451729169ff56d6dfbd0fb416e63b797d6b3"
+        },
+        {
+          "sourceOffset": 11596086,
+          "bytes": 7718,
+          "sha256": "8d1bdf0610969721084a6667d6aa234939b9da4a38938192a1b53a8fda711538"
+        },
+        {
+          "sourceOffset": 12717404,
+          "bytes": 7718,
+          "sha256": "480c5392e3a8c5aa263a085932dc66c8bbbd3121c364b3ee8a90c7d7f35151d5"
+        },
+        {
+          "sourceOffset": 12780802,
+          "bytes": 7718,
+          "sha256": "52e1f2e1e724f8ec05383e9414d49623187a27a4b7e1782c3ded6ab7556ceed9"
+        },
+        {
+          "sourceOffset": 13293480,
+          "bytes": 7718,
+          "sha256": "6cca37be12293ccd97ee9a91305b73a3b161cf853af62924c9b035bc61530eb9"
+        },
+        {
+          "sourceOffset": 13719758,
+          "bytes": 7718,
+          "sha256": "58c62b0eeca22ad092464c0fb3223b854e3b85d2b7e575bebbe993cd1909e70c"
+        },
+        {
+          "sourceOffset": 13821556,
+          "bytes": 7718,
+          "sha256": "4e340630e716ab909ad8d57ba548ea2792411b9c6ad75231acc0ff934adc5781"
+        },
+        {
+          "sourceOffset": 14641434,
+          "bytes": 7718,
+          "sha256": "66c502de1ea9dc7a3fbf45667046b5947255aeb71cf34a18acf282e79de7691d"
+        },
+        {
+          "sourceOffset": 15142592,
+          "bytes": 7718,
+          "sha256": "e2eedc374c88b93d607082ae22094eb06c7a28a40c03aea5f91c81e37a9b5dff"
+        },
+        {
+          "sourceOffset": 15213670,
+          "bytes": 7718,
+          "sha256": "4271fdbfb5fd49bba3a4c0113d25f495bb3610fbc68ecdd4923f23488621d40a"
+        },
+        {
+          "sourceOffset": 15265548,
+          "bytes": 7718,
+          "sha256": "c8e265525767dc1c45397d52d489b01e677f71df881b66a5ed854d1e97dce8dc"
+        },
+        {
+          "sourceOffset": 15628466,
+          "bytes": 7718,
+          "sha256": "f0e889b8f1c98349d61b1d6816159c68daffbeca32ca0da02e8436b5f812aaac"
+        },
+        {
+          "sourceOffset": 16594264,
+          "bytes": 7718,
+          "sha256": "c56491cd80291ba205e5b2cc51d07455ddf5d5aced9c214348ff3a3254a32257"
+        },
+        {
+          "sourceOffset": 16801662,
+          "bytes": 7718,
+          "sha256": "05802199793fd0e57549d2f62f7fa74f5caf152b1c725e2a543fa61ded355ff3"
+        },
+        {
+          "sourceOffset": 16845860,
+          "bytes": 7718,
+          "sha256": "d3a2241b07b44cd27f4df1ddf8201b51ec5dc0f72d9e16c14fbca4a17423b2b9"
+        },
+        {
+          "sourceOffset": 17293258,
+          "bytes": 7718,
+          "sha256": "3e6c71e3ed483c86b3f2b7ff822829a9a1eb52480d7c072fea356939c14f4b38"
+        }
+      ]
+    },
+    "seconds": 352.96,
+    "allPcmSamplesPreserved": true,
+    "voiceRetimed": false
+  }
+}

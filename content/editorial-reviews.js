@@ -1,4 +1,4 @@
-// Final independent reviews only. This is not teacher approval for production.
+// Only independent final reviews are recorded; no teacher or synthesis approval is implied.
 export const editorialReviews = {
   "ca-S003": {
     "status": "passed",
@@ -171,9 +171,9 @@ export const editorialReviews = {
   },
   "ca-S028": {
     "status": "passed",
-    "reviewedAt": "2026-11-21",
-    "reviewer": "independent-naturalness-and-coherence-b",
-    "fingerprint": "b183bcc99d9f13ca71207052609411aa6e9a927a793906b58223587a3bb27a25"
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "197a534a95f6467df589f8a2004d67d2b5edd58802b66bc2761b426091704650"
   },
   "ca-S029": {
     "status": "passed",
@@ -207,9 +207,9 @@ export const editorialReviews = {
   },
   "ca-S033": {
     "status": "passed",
-    "reviewedAt": "2026-11-21",
-    "reviewer": "independent-coherence-agent",
-    "fingerprint": "dab708a0277ce88435754b47786e9c49e4765cf4e4bda4708cd8e8476e43caf2"
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "5c10562bec57b4ac82899912f43feb31294bd2e776db42639dea8066e821127f"
   },
   "ca-S034": {
     "status": "passed",
@@ -225,9 +225,9 @@ export const editorialReviews = {
   },
   "ca-S036": {
     "status": "passed",
-    "reviewedAt": "2026-11-21",
-    "reviewer": "independent-classroom-register-review",
-    "fingerprint": "58f26bfbd9f7e9dcdd1b730ee8da87af1b18a8f15f3ecd44d9979b3505a4f674"
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "7a4e5544ad9b867c02d1d0805b81555ca6611359ed9f2a17501ee86fdc7e0569"
   },
   "ca-S037": {
     "status": "passed",
@@ -255,9 +255,9 @@ export const editorialReviews = {
   },
   "ca-S040": {
     "status": "passed",
-    "reviewedAt": "2026-11-21",
-    "reviewer": "independent-coherence-agent",
-    "fingerprint": "b911a99d5368d730040877b6b5f6fe8b6afa29df524952cde9b52e1870da0f50"
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "a3d694e61e2f66718fbc1809135ebd0b337774629c60a7999992dea660c32b79"
   },
   "ca-S041": {
     "status": "passed",
@@ -297,9 +297,9 @@ export const editorialReviews = {
   },
   "ca-S046": {
     "status": "passed",
-    "reviewedAt": "2026-11-22",
-    "reviewer": "revisio_tanda3_ferran",
-    "fingerprint": "6dec967b93b54be0c0e7d1b976141867e7689b79a650a12f85990f370e75bdc7"
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "ef1dadff87f45a177f579592add6cac4219c9545de4c68be18ae7a3b8da8e0b3"
   },
   "ca-S046D": {
     "status": "passed",
@@ -321,9 +321,9 @@ export const editorialReviews = {
   },
   "ca-S049": {
     "status": "passed",
-    "reviewedAt": "2026-11-22",
-    "reviewer": "revisio_tanda3_mercat",
-    "fingerprint": "50db317831e7d6bbda48df59d3b674c5aa91de945c5f4a5c8d8b7ea66cd767f0"
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "2ea99386c3638143334165adbf89fdcbb3823f327ad5a7f7895752f2d73c6c6a"
   },
   "ca-S050": {
     "status": "passed",
@@ -336,15 +336,15 @@ export const editorialReviews = {
   },
   "ca-S051": {
     "status": "passed",
-    "reviewedAt": "2026-11-22",
-    "reviewer": "revisio_tanda3_ferran",
-    "fingerprint": "19d3a1cc1a536975b6d5a5d72236fb7854b86661b4ab040a057b5c61205fc0e5"
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "0c827489c5b71347637213fa204b44afd51f7853eb0760e3a9a8bc1664c97746"
   },
   "ca-S052": {
     "status": "passed",
-    "reviewedAt": "2026-11-22",
-    "reviewer": "revisio_tanda3_ferran",
-    "fingerprint": "6795a7f1e2c0d0371d878125ceff16c9c1fd8828d953e09d6722cef5e6748929"
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "612fba09ba7c805f3549cd5708a6eaa1bd46b873ea4171de9480a349013213f2"
   },
   "ca-S053": {
     "status": "passed",
@@ -396,15 +396,15 @@ export const editorialReviews = {
   },
   "ca-S061": {
     "status": "passed",
-    "reviewedAt": "2026-11-22",
-    "reviewer": "autoria_tanda4_aula_records",
-    "fingerprint": "ac40b599a24fbc8cd411d7fda81b5e0eff7085933ee751da5542974614ab6de2"
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "e88eb349d6eff83efc20de15f643e8f34938f8b306f4f0523d386403ef403c88"
   },
   "ca-S062": {
     "status": "passed",
-    "reviewedAt": "2026-11-22",
-    "reviewer": "autoria_tanda4_aula_records",
-    "fingerprint": "06c5723fb0f3f30013e47ef64df68badced5d0d585c4b691787449305163085d"
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "26b6e79dc8866bb49006694f6a520cb52a5da4180ba9d37b35c15887bb26ff2f"
   },
   "ca-S063": {
     "status": "passed",
@@ -486,9 +486,9 @@ export const editorialReviews = {
   },
   "ca-S073": {
     "status": "passed",
-    "reviewedAt": "2026-11-22",
-    "reviewer": "autoria_tanda4_noticies_troballes",
-    "fingerprint": "072b5aceaffba4c101b890ece9f7bd1523f2bd168cedc2eaf8d9c435c2d2d406"
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "e1ff6dd63934db3e4564014b980c1424b48b3b4506fea7967a9232ef6e6380ea"
   },
   "ca-S074": {
     "status": "passed",
@@ -498,9 +498,9 @@ export const editorialReviews = {
   },
   "ca-S075": {
     "status": "passed",
-    "reviewedAt": "2026-11-22",
-    "reviewer": "autoria_tanda4_noticies_troballes",
-    "fingerprint": "94294ae5942a54af2a877d673e5e56496328defcd68bdacb2b2114d65dd1bf92"
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "014a4a6e953405a2043d458559b7109c9d57f12d68e711aa0bd83ab795e01828"
   },
   "ca-S076": {
     "status": "passed",
@@ -510,9 +510,9 @@ export const editorialReviews = {
   },
   "ca-S077": {
     "status": "passed",
-    "reviewedAt": "2026-11-22",
-    "reviewer": "autoria_tanda4_noticies_troballes",
-    "fingerprint": "f60abdad44b48622c89a07da88c3d5e99885a217bffe0582a594143ee58a5986"
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "989f34c007ff12aa8da722fcac2b4187e1e57f2ef7d210da97a3ea9048fc3d12"
   },
   "ca-S078": {
     "status": "passed",

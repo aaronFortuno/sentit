@@ -1,8 +1,8 @@
 # Històric de lots de síntesi
 
-Actualitzat: **23/11/2026**. Registre dels **15 lots ja rebuts**, amb 83:21 d’àudio cru i 25.105 tokens d’entrada. No és una cua executable ni un comptador de quota. [Tornar als pendents](lots-sintesi.md).
+Actualitzat: **23/11/2026**. Registre dels **20 lots ja rebuts**, amb 111:35 d’àudio cru i 34.145 tokens d’entrada. No és una cua executable ni un comptador de quota. [Tornar als pendents](lots-sintesi.md).
 
-Aquests enviaments van aportar veus per a **46 comprensions** i **7 frases d’esmena**. És l’abast d’aquests lots, no el nombre total de comprensions del catàleg ni el nombre de peces pendents avui. L’estat actual de cada activitat consta al [seguiment](seguiment-produccio.md).
+Aquests enviaments van aportar veus per a **60 comprensions** i **9 frases d’esmena**. És l’abast d’aquests lots, no el nombre total de comprensions del catàleg ni el nombre de peces pendents avui. L’estat actual de cada activitat consta al [seguiment](seguiment-produccio.md).
 
 | Lot | Data d’enviament · UTC | Preses i esmenes | Àudio cru | Tokens d’entrada | Tokens d’àudio |
 | --- | --- | --- | ---: | ---: | ---: |
@@ -21,6 +21,11 @@ Aquests enviaments van aportar veus per a **46 comprensions** i **7 frases d’e
 | [L16](../assets/audio/synthesis-batches/l16.json) | 2026-11-23 | S073-T01, S075-T01, S077-T01 | 5:50 | 1881 | 8748 |
 | [L12](../assets/audio/synthesis-batches/l12.json) | 2026-11-23 | S033-T01, S036-T01 | 3:14 | 976 | 4862 |
 | [L20](../assets/audio/synthesis-batches/l20.json) | 2026-11-23 | S081-T01, S082-T01 | 4:59 | 1629 | 7486 |
+| [L22](../assets/audio/synthesis-batches/l22.json) | 2026-11-23 | S068-T01, S070-T01, S071-T01 | 5:53 | 1849 | 8824 |
+| [L23](../assets/audio/synthesis-batches/l23.json) | 2026-11-23 | S045D-T01, S046D-T01, S069D-T01 | 6:03 | 1886 | 9073 |
+| [L21](../assets/audio/synthesis-batches/l21.json) | 2026-11-23 | S066-T01, S067-T01 | 5:08 | 1686 | 7688 |
+| [L25](../assets/audio/synthesis-batches/l25.json) | 2026-11-23 | S053-T01, S054-T01, S057-T01, S029-anunci | 5:56 | 1940 | 8896 |
+| [L26](../assets/audio/synthesis-batches/l26.json) | 2026-11-23 | S078-T01, S079-T01, S080-T01, S082-mòbil | 5:15 | 1679 | 7867 |
 
 Cada rebut apunta a la petició exacta i a les empremtes d’origen; les respostes completes, les preses crues i els mapes de tall es conserven localment. No es repeteix una presa perquè encara falti revisar-la o muntar-la. Les planificacions anteriors, superades pels rebuts, es conserven a l’historial de Git.
 

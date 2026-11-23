@@ -1,6 +1,7 @@
 export const strings = {
   ca: {
     language: 'ca',
+    releaseVoiceBatchesAndMontages: 'Cinc lots rebuts amb veus per a catorze comprensions i esmenes de S029 i S082 per comparar. Dotze muntatges nous pendents d’audició, diàlegs i nivells ajustats. S061 espera la presentació i S081, dues esmenes de veu. Seguiment i crèdits actualitzats.',
     releaseCinemaDialogueApproved: 'S045D, S053, S055, S064, S071D i S080 validades per a síntesi. P16 té les tres variants dialogades aprovades, amb una previsió de 6:50; els blocs de notícies, aula i taller tenen tots els guions validats. Seguiment i cua actualitzats, sense cap síntesi nova.',
     releaseMoreFerranDialogues: 'S054, S056, S059, S065, S068 i S071 validades per a síntesi. Noves S068D i S071D dialogades amb l’Aina i en Ferran, amb preguntes, solucionaris i escaletes per validar. Entrades de Ferran més variades i cua de lots actualitzada. Cap síntesi nova.',
     releaseFinalFourAndCleanBeds: 'S006, S034, S035 i S047 definitives, amb il·lustracions i solucionaris nets. S021 i S037 remuntades amb ambients continus i finals nets; pendents d’audició. S007 amb pauses netes i un altre fons d’aula; una frase del Biel pendent d’esmena de veu. Cap síntesi nova.',
@@ -19,7 +20,7 @@ export const strings = {
     releaseCycleMiddle: 'Vuit guions nous de 3r i 4t: tres records de Ferran, tres converses de Laia i Pau i dues de Laia i Nora. Preguntes, solucionaris i escaletes amb revisió independent superada; pendents de validació docent, sense síntesi. Agrupacions proposades per completar lots amb repartiments constants i aprofitar S028 i S040.',
     reviewRepairPending: 'Esmena pendent de síntesi', reviewRepairWait: 'Ja revisada · Cal refer la veu',
     reviewRepairReceived: 'Prova d’esmena rebuda', reviewRepairOriginal: 'Original sense substituir · Esmenes a la fitxa', reviewRepairPartial: 'Esmenes parcialment rebudes',
-    listenRepairs: 'Escolta les esmenes', repairsNotApplied: 'Són preses noves per comparar. El muntatge encara reprodueix la versió anterior.', repairOriginal: 'Original', repairNewTake: 'Represa nova · pendent de validar', repairApprovedTake: 'Represa validada · pendent d’incorporar', reviewRepairApproved: 'Veu esmenada validada', reviewRepairApply: 'Pendent d’incorporar al muntatge',
+    listenRepairs: 'Escolta les esmenes', repairsNotApplied: 'Són preses noves per comparar. El muntatge encara reprodueix la versió anterior.', repairsBeforeMontage: 'Compara la gravació original amb la represa nova. El muntatge esperarà la validació de les veus.', repairOriginal: 'Original', repairNewTake: 'Represa nova · pendent de validar', repairApprovedTake: 'Represa validada · pendent d’incorporar', reviewRepairApproved: 'Veu esmenada validada', reviewRepairApply: 'Pendent d’incorporar al muntatge',
     voiceBeforeMontage: 'Només veus, sense música ni efectes. Pendents de la teva audició abans del muntatge.',
     audioSeek: 'Posició de reproducció',
     releaseHallwayRevision: 'S044 amb ambient de passadís esmorteït, sense clics ni efectes previs al diàleg; pendent d’audició. Reproducció verificada a les fitxes de S028, S048, S049 i S050.',
@@ -283,6 +284,7 @@ export const strings = {
   },
   es: {
     language: 'es',
+    releaseVoiceBatchesAndMontages: 'Cinco lotes recibidos con voces para catorce comprensiones y correcciones de S029 y S082 para comparar. Doce montajes nuevos pendientes de escucha, diálogos y niveles ajustados. S061 espera la presentación y S081, dos correcciones de voz. Seguimiento y créditos actualizados.',
     releaseCinemaDialogueApproved: 'S045D, S053, S055, S064, S071D y S080 validadas para síntesis. P16 tiene las tres variantes dialogadas aprobadas, con una previsión de 6:50; los bloques de noticias, aula y taller tienen todos los guiones validados. Seguimiento y cola actualizados, sin síntesis nueva.',
     releaseMoreFerranDialogues: 'S054, S056, S059, S065, S068 y S071 validadas para síntesis. Nuevas S068D y S071D dialogadas con Aina y Ferran, con preguntas, solucionarios y escaletas para validar. Entradas de Ferran más variadas y cola de lotes actualizada. Sin síntesis nueva.',
     releaseFinalFourAndCleanBeds: 'S006, S034, S035 y S047 definitivas, con ilustraciones y solucionarios limpios. S021 y S037 remontadas con ambientes continuos y finales limpios; pendientes de escucha. S007 con pausas limpias y otro fondo de aula; una frase de Biel pendiente de corrección de voz. Sin síntesis nueva.',
@@ -301,7 +303,7 @@ export const strings = {
     releaseCycleMiddle: 'Ocho guiones nuevos de 3.º y 4.º: tres recuerdos de Ferran, tres conversaciones de Laia y Pau y dos de Laia y Nora. Preguntas, soluciones y escaletas con revisión independiente superada; pendientes de validación docente, sin síntesis. Agrupaciones propuestas para completar lotes con repartos constantes y aprovechar S028 y S040.',
     reviewRepairPending: 'Corrección pendiente de síntesis', reviewRepairWait: 'Ya revisada · Falta rehacer la voz',
     reviewRepairReceived: 'Prueba de corrección recibida', reviewRepairOriginal: 'Original sin sustituir · Correcciones en la ficha', reviewRepairPartial: 'Correcciones parcialmente recibidas',
-    listenRepairs: 'Escucha las correcciones', repairsNotApplied: 'Son tomas nuevas para comparar. El montaje aún reproduce la versión anterior.', repairOriginal: 'Original', repairNewTake: 'Toma nueva · pendiente de validar', repairApprovedTake: 'Toma validada · pendiente de incorporar', reviewRepairApproved: 'Voz corregida validada', reviewRepairApply: 'Pendiente de incorporar al montaje',
+    listenRepairs: 'Escucha las correcciones', repairsNotApplied: 'Son tomas nuevas para comparar. El montaje aún reproduce la versión anterior.', repairsBeforeMontage: 'Compara la grabación original con la toma nueva. El montaje esperará la validación de las voces.', repairOriginal: 'Original', repairNewTake: 'Toma nueva · pendiente de validar', repairApprovedTake: 'Toma validada · pendiente de incorporar', reviewRepairApproved: 'Voz corregida validada', reviewRepairApply: 'Pendiente de incorporar al montaje',
     voiceBeforeMontage: 'Solo voces, sin música ni efectos. Pendientes de tu escucha antes del montaje.',
     audioSeek: 'Posición de reproducción',
     releaseHallwayRevision: 'S044 con ambiente de pasillo amortiguado, sin clics ni efectos previos al diálogo; pendiente de escucha. Reproducción comprobada en las fichas de S028, S048, S049 y S050.',

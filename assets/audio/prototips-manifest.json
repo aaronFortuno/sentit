@@ -6675,6 +6675,1004 @@
         "checkedAt": "2026-11-23",
         "audioChanged": true
       }
+    },
+    {
+      "code": "S073",
+      "activity": "ca-S073",
+      "state": "awaiting-montage-validation",
+      "file": "s073-mixed-v1.mp3",
+      "introFile": "s073-mixed-v1-intro.mp3",
+      "bodyFile": "s073-mixed-v1-cos.mp3",
+      "offset": 4.590000000000001,
+      "bodyDuration": 104.1,
+      "fullDuration": 108.69,
+      "voices": {
+        "Laia": "Leda",
+        "Ona": "Sulafat"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "588839376334e915c4952fab7c33def098c4cfa5d066e7c5bbf7ef749940ae59",
+      "sourceRequestHash": "3d05e881e0eaa3f0ed32e96ea756c884cb3ec53827309e2b30cedb24bfd85781",
+      "batch": "L16",
+      "rawSha256": "6a803d106a394c265de79093cdb57c8eab002a5249778599c28a6170ede7ebca",
+      "takeSha256": "0dbec55d65fb899a2169616a5d5067a12d8d72ded47dd354f8abe374a0e303ff",
+      "coverage": 0.9461077844311377,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -18.6,
+      "peakDbTP": -2.47,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "soundtasticpro-kitchen-484572",
+          "start": 0,
+          "source": "assets/audio/sources/soundtasticpro-484572-kitchen.mp3",
+          "sourceSha256": "1bd886bb25614d7e0768e77cd4200ad84f4db55f51257a5e16c11f47737155ad",
+          "sourceUrl": "https://freesound.org/people/SoundtasticPro/sounds/484572/",
+          "author": "SoundtasticPro",
+          "license": "CC0 1.0",
+          "underSpeech": true,
+          "speechGain": 0.14,
+          "openingGain": 0.35,
+          "raisedGain": 0.45,
+          "sourceTargetLufs": -28,
+          "speechNominalLufs": -45.07743928643524,
+          "lowPassHz": 1800,
+          "passes": 3,
+          "crossfadeSeconds": 1,
+          "excerpt": {
+            "start": 5,
+            "seconds": 67.096
+          },
+          "envelope": {
+            "riseStart": 98.10001666666666,
+            "riseEnd": 98.90001666666667,
+            "holdSeconds": 1.9999833333333328,
+            "fadeStart": 100.9,
+            "fadeEnd": 102.9
+          }
+        }
+      ],
+      "sha256": "74c188f351a2947feba8194ea32c2e3800ed9795cfa2f366fe332232c568ea0f",
+      "voiceHandles": {
+        "body": {
+          "start": 0.12458333333333334,
+          "end": 96.22458333333333,
+          "retainedPcmSha256": "f426d8ce8b4fe4c1526e08c487bdbed6530f8774198db0ebb37b1a9877f0908c",
+          "sourceSha256": "173abce1874a16b53503aec39e8f0b0d7bc492a06798e45052190b4c78a61171",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0.07,
+          "end": 3.71,
+          "retainedPcmSha256": "d6d19d411c2cfe08060ce8583cd7dc7036712e24241701a157d1b5b8363413da",
+          "sourceSha256": "db176260e52fd028ecc81fbc5a5756cffcda58a6f21517e5905d90616dca3593",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-23",
+        "sourceTakeSha256": "0dbec55d65fb899a2169616a5d5067a12d8d72ded47dd354f8abe374a0e303ff",
+        "confirmation": "S073 validat per pujar a muntatge"
+      }
+    },
+    {
+      "code": "S077",
+      "activity": "ca-S077",
+      "state": "awaiting-montage-validation",
+      "file": "s077-mixed-v1.mp3",
+      "introFile": "s077-mixed-v1-intro.mp3",
+      "bodyFile": "s077-mixed-v1-cos.mp3",
+      "offset": 4.3500000000000005,
+      "bodyDuration": 153.46,
+      "fullDuration": 157.81,
+      "voices": {
+        "Laia": "Leda",
+        "Ona": "Sulafat"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "588839376334e915c4952fab7c33def098c4cfa5d066e7c5bbf7ef749940ae59",
+      "sourceRequestHash": "42cc6f8dc2c91eb436b5c54616e769671e57cb7eca7f1e4c78bdd8ae924508c4",
+      "batch": "L16",
+      "rawSha256": "6a803d106a394c265de79093cdb57c8eab002a5249778599c28a6170ede7ebca",
+      "takeSha256": "585f3e0362e18519b68b896adac013785cdaa6f0168bbb8ddab5675f8fdcbda6",
+      "coverage": 0.9485714285714286,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -19.25,
+      "peakDbTP": -2.66,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "soundtasticpro-kitchen-484572",
+          "start": 0,
+          "source": "assets/audio/sources/soundtasticpro-484572-kitchen.mp3",
+          "sourceSha256": "1bd886bb25614d7e0768e77cd4200ad84f4db55f51257a5e16c11f47737155ad",
+          "sourceUrl": "https://freesound.org/people/SoundtasticPro/sounds/484572/",
+          "author": "SoundtasticPro",
+          "license": "CC0 1.0",
+          "underSpeech": true,
+          "speechGain": 0.14,
+          "openingGain": 0.35,
+          "raisedGain": 0.45,
+          "sourceTargetLufs": -28,
+          "speechNominalLufs": -45.07743928643524,
+          "lowPassHz": 1800,
+          "passes": 3,
+          "crossfadeSeconds": 1,
+          "excerpt": {
+            "start": 5,
+            "seconds": 67.096
+          },
+          "envelope": {
+            "riseStart": 147.53999999999996,
+            "riseEnd": 148.33999999999997,
+            "holdSeconds": 1.9200000000000443,
+            "fadeStart": 150.26000000000002,
+            "fadeEnd": 152.26000000000002
+          }
+        }
+      ],
+      "sha256": "17dcc6ee55bcbc926846d2cd20fd30d940d7c62ff2a1c8ac1d712ec99de27d03",
+      "voiceHandles": {
+        "body": {
+          "start": 0.55,
+          "end": 146.01,
+          "retainedPcmSha256": "c9f55eeb39ebf50cefacd2b2aded7214c99615fcd2aa30b7fc8cdb9f6c068b23",
+          "sourceSha256": "42ec9870dc86717e2229ca3bb2bb659bc28b21ccef1db570826fb18ed43bff69",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0.34,
+          "end": 3.74,
+          "retainedPcmSha256": "86f14ccee66e9dbb9c51b502244e291a55ba717885df1ab97e4b971e3a542c1c",
+          "sourceSha256": "a6466a722a214146f35ab7187225082b190a028cf1e738d3d0c2a5222041b0cd",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-23",
+        "sourceTakeSha256": "585f3e0362e18519b68b896adac013785cdaa6f0168bbb8ddab5675f8fdcbda6",
+        "confirmation": "S077 validat per pujar a muntatge"
+      }
+    },
+    {
+      "code": "S028",
+      "activity": "ca-S028",
+      "state": "awaiting-montage-validation",
+      "file": "s028-mixed-v1.mp3",
+      "introFile": "s028-mixed-v1-intro.mp3",
+      "bodyFile": "s028-mixed-v1-cos.mp3",
+      "offset": 3.88,
+      "bodyDuration": 70.81,
+      "fullDuration": 74.69,
+      "voices": {
+        "Laia": "Leda",
+        "Pau": "Charon"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "3dc116c991de11e684329bf9e8f8214a417a540d0372103bba92af6fd28651bd",
+      "sourceRequestHash": "abf704b22ce5bf7f23ee2702bf07ff76e633d948563944f47fe33388cba1cb99",
+      "batch": "L14",
+      "rawSha256": "bc519edcb788dbca53d1267237717f32cf3720550451af3a218f2124f11a8820",
+      "takeSha256": "f07de87cfb248b09c2936e6ed21bee71bef4799fa2c5b4bbaf4b0fd282bc08f5",
+      "coverage": 0.9154929577464789,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -19.2,
+      "peakDbTP": -2.5,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "jmdh-covered-market-388315",
+          "start": 0,
+          "source": "assets/audio/sources/jmdh-388315-covered-market.mp3",
+          "sourceSha256": "491adb6958fbd12889734f9ccfbf488c9316d7addc0c1121630d1f315a136810",
+          "sourceUrl": "https://freesound.org/people/jmdh/sounds/388315/",
+          "author": "jmdh",
+          "license": "CC0 1.0",
+          "underSpeech": true,
+          "speechGain": 0.14,
+          "openingGain": 0.35,
+          "raisedGain": 0.45,
+          "sourceTargetLufs": -28,
+          "speechNominalLufs": -45.07743928643524,
+          "lowPassHz": 1800,
+          "passes": 3,
+          "crossfadeSeconds": 1,
+          "excerpt": {
+            "start": 12,
+            "seconds": 80.51389583333334
+          },
+          "envelope": {
+            "riseStart": 64.88999999999999,
+            "riseEnd": 65.69,
+            "holdSeconds": 1.9200000000000017,
+            "fadeStart": 67.61,
+            "fadeEnd": 69.61
+          }
+        }
+      ],
+      "sha256": "453ab40c3fc67177775ca0aaa22bce17df3a4be3757bcf809af3dbe81df10690",
+      "voiceHandles": {
+        "body": {
+          "start": 0.205,
+          "end": 63.015,
+          "retainedPcmSha256": "1d4a06063dc0c3e18224fbb42bd75f0576f941338d7ade98aefa99c275af8c5c",
+          "sourceSha256": "d1e8390b813d693b53ec216dd1e0c37d0d18cefaf214f3995b781b7a79dd8031",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0,
+          "end": 2.93,
+          "retainedPcmSha256": "0823374f6518e5247d7a15d2db597077660d357064761743c93a17284c7edfc4",
+          "sourceSha256": "3aa5af4fd3505c98e16f88d961cb89f9dc6c889c9853837d8568930155cf286f",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-23",
+        "sourceTakeSha256": "f07de87cfb248b09c2936e6ed21bee71bef4799fa2c5b4bbaf4b0fd282bc08f5",
+        "confirmation": "S028 validat per muntatge"
+      }
+    },
+    {
+      "code": "S040",
+      "activity": "ca-S040",
+      "state": "awaiting-montage-validation",
+      "file": "s040-mixed-v1.mp3",
+      "introFile": "s040-mixed-v1-intro.mp3",
+      "bodyFile": "s040-mixed-v1-cos.mp3",
+      "offset": 4.71,
+      "bodyDuration": 130.255,
+      "fullDuration": 134.965,
+      "voices": {
+        "Laia": "Leda",
+        "Nora": "Kore"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "4029137e3ef3992d6500ac463d9bda81a70330519489e94b9b732c48068f744e",
+      "sourceRequestHash": "2c272761f294618a282bd9a412a3608d22fdd29fe980d481438a77c3886208f8",
+      "batch": "L15",
+      "rawSha256": "7b8e910f2884dbcda93a12fb898afa65755faefeec90b7a15a7eb273fd5fb5b3",
+      "takeSha256": "4ee871db71b9d8181d98a0d29200e0d669c6485a60bb0c89fbcc8800613b78f6",
+      "coverage": 0.9312977099236641,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -18.99,
+      "peakDbTP": -2.52,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "callmethefoo-744447",
+          "start": 0,
+          "source": "assets/audio/sources/callmethefoo-744447.mp3",
+          "sourceSha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
+          "sourceUrl": "https://freesound.org/people/callmethefoo/sounds/744447/",
+          "author": "callmethefoo",
+          "license": "CC0 1.0",
+          "underSpeech": true,
+          "speechGain": 0.12,
+          "openingGain": 0.3,
+          "raisedGain": 0.4,
+          "sourceTargetLufs": -28,
+          "speechNominalLufs": -46.416375079047505,
+          "lowPassHz": 1800,
+          "passes": 3,
+          "crossfadeSeconds": 1,
+          "excerpt": {
+            "start": 12,
+            "seconds": 85.24
+          },
+          "envelope": {
+            "riseStart": 124.37999166666667,
+            "riseEnd": 125.17999166666668,
+            "holdSeconds": 1.8750083333333265,
+            "fadeStart": 127.055,
+            "fadeEnd": 129.055
+          }
+        }
+      ],
+      "sha256": "8037444961d61e4df209109e2b4c6cf24991a65b803a0e0ef6121712639a9662",
+      "voiceHandles": {
+        "body": {
+          "start": 0.9022083333333333,
+          "end": 123.15720833333333,
+          "retainedPcmSha256": "db5264df03635cb13ece43754fa82a684dd1b6c052020b4bd055cda7a7889a5d",
+          "sourceSha256": "9c6fdf16072ed5f815029821dce338c7d8187480a15d9fa8a41f5198148be046",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0.04,
+          "end": 3.8,
+          "retainedPcmSha256": "84401425a59f70f23f4933a398e9c12478d844f7e92e7409d9371e3607cad73f",
+          "sourceSha256": "9c4970097565d4509cee2601787ab2815b4936d05f407f0a9c3a04e42ef67ad6",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-23",
+        "sourceTakeSha256": "4ee871db71b9d8181d98a0d29200e0d669c6485a60bb0c89fbcc8800613b78f6",
+        "confirmation": "S040 validat per muntatge"
+      }
+    },
+    {
+      "code": "S049",
+      "activity": "ca-S049",
+      "state": "awaiting-montage-validation",
+      "file": "s049-mixed-v1.mp3",
+      "introFile": "s049-mixed-v1-intro.mp3",
+      "bodyFile": "s049-mixed-v1-cos.mp3",
+      "offset": 4.5600000000000005,
+      "bodyDuration": 86.155,
+      "fullDuration": 90.715,
+      "voices": {
+        "Laia": "Leda",
+        "Pau": "Charon"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "3dc116c991de11e684329bf9e8f8214a417a540d0372103bba92af6fd28651bd",
+      "sourceRequestHash": "bb654d31b96b29b95b28c65ecfb49ecb6c6c85ae16bbaa1804d777ccad108fc9",
+      "batch": "L14",
+      "rawSha256": "bc519edcb788dbca53d1267237717f32cf3720550451af3a218f2124f11a8820",
+      "takeSha256": "fa33487137e02a8723393c4eb27b9a6782e321706b8342275524f521cee055ca",
+      "coverage": 0.8979591836734694,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -18.9,
+      "peakDbTP": -2.5,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "jmdh-covered-market-388315",
+          "start": 0,
+          "source": "assets/audio/sources/jmdh-388315-covered-market.mp3",
+          "sourceSha256": "491adb6958fbd12889734f9ccfbf488c9316d7addc0c1121630d1f315a136810",
+          "sourceUrl": "https://freesound.org/people/jmdh/sounds/388315/",
+          "author": "jmdh",
+          "license": "CC0 1.0",
+          "underSpeech": true,
+          "speechGain": 0.14,
+          "openingGain": 0.35,
+          "raisedGain": 0.45,
+          "sourceTargetLufs": -28,
+          "speechNominalLufs": -45.07743928643524,
+          "lowPassHz": 1800,
+          "passes": 3,
+          "crossfadeSeconds": 1,
+          "excerpt": {
+            "start": 12,
+            "seconds": 80.51389583333334
+          },
+          "envelope": {
+            "riseStart": 80.21999999999998,
+            "riseEnd": 81.02,
+            "holdSeconds": 1.9350000000000165,
+            "fadeStart": 82.95500000000001,
+            "fadeEnd": 84.95500000000001
+          }
+        }
+      ],
+      "sha256": "22f060b6dda803350fe0cbed5ab030058f1a5a7c5e11613196dc854c9913f565",
+      "voiceHandles": {
+        "body": {
+          "start": 0.385,
+          "end": 78.54,
+          "retainedPcmSha256": "819ecb94520727a11d4fbfbe2d1fd2a75775570ec345d2ce4a3fe35f6224c81a",
+          "sourceSha256": "c03405b59039a212a9cfce00bfac0126ef85a97a1eb327d06ea5763ad915d56b",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0.1,
+          "end": 3.71,
+          "retainedPcmSha256": "d230e5df87be2de7e31f5404ffc9bd5c05fc1b7071a11d4e4f2d44227097bf25",
+          "sourceSha256": "0fe0b748cac5c8361163cda798195839820538dea893080512df3ac86ff1c7e3",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-23",
+        "sourceTakeSha256": "fa33487137e02a8723393c4eb27b9a6782e321706b8342275524f521cee055ca",
+        "confirmation": "S049 validat per muntatge i recatalogat com a diàleg"
+      }
+    },
+    {
+      "code": "S033",
+      "activity": "ca-S033",
+      "state": "awaiting-montage-validation",
+      "file": "s033-mixed-v1.mp3",
+      "introFile": "s033-mixed-v1-intro.mp3",
+      "bodyFile": "s033-mixed-v1-cos.mp3",
+      "offset": 4.12,
+      "bodyDuration": 107.55,
+      "fullDuration": 111.67,
+      "voices": {
+        "Biel": "Puck",
+        "Nora": "Kore"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "cf4fb54b372f5e1cb7545d9fa0b7d6a0309eedf94004593133ebe93bc0bb6bc6",
+      "sourceRequestHash": "721c65640ec567a0a597ef0dd92ea3aa0bf5108bb484c8769b7e1dae14a6dcb5",
+      "batch": "L12",
+      "rawSha256": "018ab27e50093bb9938127f237c4b799037ac993b0fdec931093da7621e73b36",
+      "takeSha256": "477f735a0181ccb0c1327bf79b885e5383daed5674b32c55b7114b9913adb7b1",
+      "coverage": 0.9465408805031447,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -18.96,
+      "peakDbTP": -2.5,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "callmethefoo-744447",
+          "start": 0,
+          "source": "assets/audio/sources/callmethefoo-744447.mp3",
+          "sourceSha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
+          "sourceUrl": "https://freesound.org/people/callmethefoo/sounds/744447/",
+          "author": "callmethefoo",
+          "license": "CC0 1.0",
+          "underSpeech": true,
+          "speechGain": 0.12,
+          "openingGain": 0.3,
+          "raisedGain": 0.4,
+          "sourceTargetLufs": -28,
+          "speechNominalLufs": -46.416375079047505,
+          "lowPassHz": 1800,
+          "passes": 3,
+          "crossfadeSeconds": 1,
+          "excerpt": {
+            "start": 12,
+            "seconds": 85.24
+          },
+          "envelope": {
+            "riseStart": 101.54999999999998,
+            "riseEnd": 102.35,
+            "holdSeconds": 2.000000000000014,
+            "fadeStart": 104.35000000000001,
+            "fadeEnd": 106.35000000000001
+          }
+        }
+      ],
+      "sha256": "1a6797ab4788ad9547dcf0cc93ecee3b446f59f04a6301a870eab3dd75df4505",
+      "voiceHandles": {
+        "body": {
+          "start": 0.355,
+          "end": 99.905,
+          "retainedPcmSha256": "4823f2b09fa765d5ce44374f660be2c8812c866cebe75c3e34b7ef1e301487d0",
+          "sourceSha256": "31cc69e5632a90cc1d44f6ecab5d07ff9d09808e46578408731fce7e90c484a2",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0,
+          "end": 3.17,
+          "retainedPcmSha256": "314ec54b4c960a435bc339dfd2a231bd3d7e3e5c7a150eb20e21608b9a65778d",
+          "sourceSha256": "9ec753b4e5bed36301ba376c87b7e855b270ef97159408fbdff3a0d22fd87c38",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-23",
+        "sourceTakeSha256": "477f735a0181ccb0c1327bf79b885e5383daed5674b32c55b7114b9913adb7b1",
+        "confirmation": "S033 validat per muntatge"
+      }
+    },
+    {
+      "code": "S046",
+      "activity": "ca-S046",
+      "state": "awaiting-montage-validation",
+      "file": "s046-mixed-v1.mp3",
+      "introFile": "s046-mixed-v1-intro.mp3",
+      "bodyFile": "s046-mixed-v1-cos.mp3",
+      "offset": 4.165,
+      "bodyDuration": 107.655,
+      "fullDuration": 111.82,
+      "voices": {
+        "Ferran": "Algenib"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "3614318c8fb54c97021a43d7a5ac29a9c5f2642f00894c7d7e5ae616d6adc099",
+      "sourceRequestHash": "5fffa82f1023a703d97e1e35660b49d2c197444f9dfdc846b949f32e43aca13c",
+      "batch": "L17",
+      "rawSha256": "43a2e90b48ca2359bb188118537c41567673d998ef51374d5170f00ca0c55937",
+      "takeSha256": "fe1e0f15945813329b08f7e2bbe999316cfc4379195dabe8287c09e4bcb31fad",
+      "coverage": 0.9437869822485208,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -19.37,
+      "peakDbTP": -2.5,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "gentle-narration-bed",
+          "origin": "original-procedural-composition",
+          "author": "Sentit",
+          "license": "MIT",
+          "source": "tools/narration-bed.cjs",
+          "title": "Una butxaca amb farina",
+          "compositionId": "sentit-s046-v1",
+          "tempoBpm": 64,
+          "rootMidi": 53,
+          "scoreSeed": 46,
+          "notes": 83,
+          "externalSamples": false,
+          "noSpeech": true,
+          "retimed": false,
+          "sha256": "e5cd378aae0b2e886e07b8ec66c32a4ae18ee4248e0a3e13599213df07f14599",
+          "envelope": {
+            "fadeInSeconds": 0.6,
+            "duckStart": 0.7000000000000001,
+            "duckEnd": 1.4500000000000002,
+            "speechGain": 0.14,
+            "nominalSpeechMusicLufs": -43.07743928643524,
+            "riseStart": 101.57999166666664,
+            "riseEnd": 102.37999166666665,
+            "holdSeconds": 2,
+            "fadeStart": 104.37999166666665,
+            "fadeEnd": 106.37999166666665
+          },
+          "listeningValidation": "pending",
+          "start": 0,
+          "underSpeech": true
+        }
+      ],
+      "sha256": "e06ccebee39a0ac3bd9650e662463c42dfe09dacadcdb29cfe04a47dbfde855b",
+      "voiceHandles": {
+        "body": {
+          "start": 1.3072083333333333,
+          "end": 101.16220833333334,
+          "retainedPcmSha256": "998e54e20031adb3821d3470e5d37ee4a9ca87ad4d87b63a0d2f8a3ffdb0d81d",
+          "sourceSha256": "95d7e2c86ce343634334167df21425ea6b86aa1e90b6708045c9056e6c4ec772",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0,
+          "end": 3.215,
+          "retainedPcmSha256": "60a4fc98be2115a7590b4e00e1ea29a2d56fa8063700dd95dccc4b0c1835d1d9",
+          "sourceSha256": "d71add1b847e1838b98f2dad63c64380abe992a3b5097fcb9795c47dcd406f4a",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-23",
+        "sourceTakeSha256": "fe1e0f15945813329b08f7e2bbe999316cfc4379195dabe8287c09e4bcb31fad",
+        "confirmation": "S046 validat per muntatge"
+      }
+    },
+    {
+      "code": "S052",
+      "activity": "ca-S052",
+      "state": "awaiting-montage-validation",
+      "file": "s052-mixed-v1.mp3",
+      "introFile": "s052-mixed-v1-intro.mp3",
+      "bodyFile": "s052-mixed-v1-cos.mp3",
+      "offset": 4.65,
+      "bodyDuration": 106.5,
+      "fullDuration": 111.15,
+      "voices": {
+        "Laia": "Leda",
+        "Nora": "Kore"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "4029137e3ef3992d6500ac463d9bda81a70330519489e94b9b732c48068f744e",
+      "sourceRequestHash": "5395b329fe4e67858e8861921377e8630013c32c27673e25f90f5eaee7485d51",
+      "batch": "L15",
+      "rawSha256": "7b8e910f2884dbcda93a12fb898afa65755faefeec90b7a15a7eb273fd5fb5b3",
+      "takeSha256": "5e8bdea99d9ce8ab1aec05e35da534948c5ee2a99bc728186d444fcaf1bf7464",
+      "coverage": 0.9294478527607362,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -18.96,
+      "peakDbTP": -2.97,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "callmethefoo-744447",
+          "start": 0,
+          "source": "assets/audio/sources/callmethefoo-744447.mp3",
+          "sourceSha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
+          "sourceUrl": "https://freesound.org/people/callmethefoo/sounds/744447/",
+          "author": "callmethefoo",
+          "license": "CC0 1.0",
+          "underSpeech": true,
+          "speechGain": 0.12,
+          "openingGain": 0.3,
+          "raisedGain": 0.4,
+          "sourceTargetLufs": -28,
+          "speechNominalLufs": -46.416375079047505,
+          "lowPassHz": 1800,
+          "passes": 3,
+          "crossfadeSeconds": 1,
+          "excerpt": {
+            "start": 12,
+            "seconds": 85.24
+          },
+          "envelope": {
+            "riseStart": 100.55999999999999,
+            "riseEnd": 101.36,
+            "holdSeconds": 1.940000000000012,
+            "fadeStart": 103.30000000000001,
+            "fadeEnd": 105.30000000000001
+          }
+        }
+      ],
+      "sha256": "1d0b54ea05ebe0a48cbe7df1071b67f211c4534992ddeed8e702e17b7870338c",
+      "voiceHandles": {
+        "body": {
+          "start": 0.7,
+          "end": 99.2,
+          "retainedPcmSha256": "3331b3a78f538d072fbf6b963b02aa3a388b9c83c9c9b7b8c28e1a02de64e56d",
+          "sourceSha256": "c171342d816d8fda715a6a9eb7820359ad8fd16f633793f8ade04ca46cae1c9b",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0.28,
+          "end": 3.98,
+          "retainedPcmSha256": "aa353870b36a04af0c10eede0a3c3f22e3cb8a0273418d0d3fa45de230aa63d7",
+          "sourceSha256": "50726f7249f70a7a2effca03b58960de84ec0bd1359e69bd13c56c56050c1f17",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-23",
+        "sourceTakeSha256": "5e8bdea99d9ce8ab1aec05e35da534948c5ee2a99bc728186d444fcaf1bf7464",
+        "confirmation": "S052 validat per pujar a muntatge"
+      }
+    },
+    {
+      "code": "S051",
+      "activity": "ca-S051",
+      "state": "awaiting-montage-validation",
+      "file": "s051-mixed-v1.mp3",
+      "introFile": "s051-mixed-v1-intro.mp3",
+      "bodyFile": "s051-mixed-v1-cos.mp3",
+      "offset": 4.590000000000001,
+      "bodyDuration": 109.1,
+      "fullDuration": 113.69,
+      "voices": {
+        "Laia": "Leda",
+        "Nora": "Kore"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "4029137e3ef3992d6500ac463d9bda81a70330519489e94b9b732c48068f744e",
+      "sourceRequestHash": "fb6e213e2c1b544204230fcd888d3b353adc95761c98723498aca79ab4333d87",
+      "batch": "L15",
+      "rawSha256": "7b8e910f2884dbcda93a12fb898afa65755faefeec90b7a15a7eb273fd5fb5b3",
+      "takeSha256": "ecfe0c7c6a52d5d6eb0be9d65a2f83367d34306fb65997fd6e6e53acc729a617",
+      "coverage": 0.9279538904899135,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -18.73,
+      "peakDbTP": -3.06,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "callmethefoo-744447",
+          "start": 0,
+          "source": "assets/audio/sources/callmethefoo-744447.mp3",
+          "sourceSha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
+          "sourceUrl": "https://freesound.org/people/callmethefoo/sounds/744447/",
+          "author": "callmethefoo",
+          "license": "CC0 1.0",
+          "underSpeech": true,
+          "speechGain": 0.12,
+          "openingGain": 0.3,
+          "raisedGain": 0.4,
+          "sourceTargetLufs": -28,
+          "speechNominalLufs": -46.416375079047505,
+          "lowPassHz": 1800,
+          "passes": 3,
+          "crossfadeSeconds": 1,
+          "excerpt": {
+            "start": 12,
+            "seconds": 85.24
+          },
+          "envelope": {
+            "riseStart": 103.09999166666665,
+            "riseEnd": 103.89999166666666,
+            "holdSeconds": 2.0000083333333407,
+            "fadeStart": 105.9,
+            "fadeEnd": 107.9
+          }
+        }
+      ],
+      "sha256": "2e52eca2ad087a0231fd5d4aeaa343ca41bda4ebabbdc83f897e878c6fd1b9dc",
+      "voiceHandles": {
+        "body": {
+          "start": 0.4347083333333333,
+          "end": 101.53470833333333,
+          "retainedPcmSha256": "09a0f1916cdb53eb293a6ed87f0df05751a4f9a8b14fea168eaccb93658ee97d",
+          "sourceSha256": "b2954405b7c8cc284e9cbfbcb14b6c7beb6c2d80bf12d359e1a9d81ccd63bcc8",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0.025,
+          "end": 3.665,
+          "retainedPcmSha256": "78f46b2790ef89fa8a6c50791ec9f4dacce413789bf5e6e939db570e9a737a23",
+          "sourceSha256": "254d16d71824717be9cad5accfd2dc5883bac5105fd4149c0ea502e5c0fd14f8",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-23",
+        "sourceTakeSha256": "ecfe0c7c6a52d5d6eb0be9d65a2f83367d34306fb65997fd6e6e53acc729a617",
+        "confirmation": "S051 validat per muntatge; diàleg, dificultat superior."
+      }
+    },
+    {
+      "code": "S075",
+      "activity": "ca-S075",
+      "state": "awaiting-montage-validation",
+      "file": "s075-mixed-v1.mp3",
+      "introFile": "s075-mixed-v1-intro.mp3",
+      "bodyFile": "s075-mixed-v1-cos.mp3",
+      "offset": 3.9299999999999997,
+      "bodyDuration": 102.45,
+      "fullDuration": 106.38,
+      "voices": {
+        "Laia": "Leda",
+        "Ona": "Sulafat"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "588839376334e915c4952fab7c33def098c4cfa5d066e7c5bbf7ef749940ae59",
+      "sourceRequestHash": "67770784574fc42a0c8fff15ae86101474e4be988056291fab4a4124a9f4e7bd",
+      "batch": "L16",
+      "rawSha256": "6a803d106a394c265de79093cdb57c8eab002a5249778599c28a6170ede7ebca",
+      "takeSha256": "2f8c6df7ca777752be1d310b2ea6c1309840af6d44fab593a7fc3cda9d68122d",
+      "coverage": 0.9464285714285714,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -18.91,
+      "peakDbTP": -2.5,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "vecera999-cafe-706805",
+          "start": 0,
+          "source": "assets/audio/sources/vecera999-cafe-706805.mp3",
+          "sourceSha256": "a5faa173bbc886eb77ebb5035631e56f912ceff988b8c3d8a417d887bd6dccc6",
+          "sourceUrl": "https://freesound.org/people/Vecera_999/sounds/706805/",
+          "author": "Vecera_999",
+          "license": "CC0 1.0",
+          "underSpeech": true,
+          "speechGain": 0.12,
+          "openingGain": 0.3,
+          "raisedGain": 0.4,
+          "sourceTargetLufs": -28,
+          "speechNominalLufs": -46.416375079047505,
+          "lowPassHz": 1800,
+          "passes": 3,
+          "crossfadeSeconds": 1,
+          "excerpt": {
+            "start": 12,
+            "seconds": 90
+          },
+          "envelope": {
+            "riseStart": 96.45,
+            "riseEnd": 97.25000000000001,
+            "holdSeconds": 1.9999999999999858,
+            "fadeStart": 99.25,
+            "fadeEnd": 101.25
+          }
+        }
+      ],
+      "sha256": "fa91b0edd1e7cfacd4932bfbe3ef6928508fad6e471b3d114e883860e7919ee9",
+      "voiceHandles": {
+        "body": {
+          "start": 0.355,
+          "end": 94.805,
+          "retainedPcmSha256": "daf616ff025f78ecf25d85d8f57e85c0e90b473d99d931a713ebe8088e8d02e6",
+          "sourceSha256": "c7ecdc0e18a3bb5d9fb3d1ada310ebe8ea6ba4dd2212167a65cfc94b62efa6fe",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0.265,
+          "end": 3.245,
+          "retainedPcmSha256": "dea29ecfebce63ec3660ed8ebcbf3c6dbdc15440e5a29bf8bd864afc1e7c6bea",
+          "sourceSha256": "d16a52adf35e9e7e7ee5543638965f3d5fc8fe33c6a105b2e0d87a68044cf4a0",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-23",
+        "sourceTakeSha256": "2f8c6df7ca777752be1d310b2ea6c1309840af6d44fab593a7fc3cda9d68122d",
+        "confirmation": "S075 validat per pujar a muntatge"
+      }
+    },
+    {
+      "code": "S036",
+      "activity": "ca-S036",
+      "state": "awaiting-montage-validation",
+      "file": "s036-mixed-v1.mp3",
+      "introFile": "s036-mixed-v1-intro.mp3",
+      "bodyFile": "s036-mixed-v1-cos.mp3",
+      "offset": 4.23,
+      "bodyDuration": 94.83,
+      "fullDuration": 99.06,
+      "voices": {
+        "Biel": "Puck",
+        "Nora": "Kore"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "cf4fb54b372f5e1cb7545d9fa0b7d6a0309eedf94004593133ebe93bc0bb6bc6",
+      "sourceRequestHash": "ac90d9bb64927035baa03fb4b00437fa772d7aaeb009333cbdd7ca8deba3b5d5",
+      "batch": "L12",
+      "rawSha256": "018ab27e50093bb9938127f237c4b799037ac993b0fdec931093da7621e73b36",
+      "takeSha256": "db16b468c88444e3e67f2d6b53b65dc8ff6d663a869bdb6afee999839a8be528",
+      "coverage": 0.9366197183098591,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -19.32,
+      "peakDbTP": -2.5,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "callmethefoo-744447",
+          "start": 0,
+          "source": "assets/audio/sources/callmethefoo-744447.mp3",
+          "sourceSha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
+          "sourceUrl": "https://freesound.org/people/callmethefoo/sounds/744447/",
+          "author": "callmethefoo",
+          "license": "CC0 1.0",
+          "underSpeech": true,
+          "speechGain": 0.12,
+          "openingGain": 0.3,
+          "raisedGain": 0.4,
+          "sourceTargetLufs": -28,
+          "speechNominalLufs": -46.416375079047505,
+          "lowPassHz": 1800,
+          "passes": 3,
+          "crossfadeSeconds": 1,
+          "excerpt": {
+            "start": 12,
+            "seconds": 85.24
+          },
+          "envelope": {
+            "riseStart": 88.97999999999999,
+            "riseEnd": 89.78,
+            "holdSeconds": 1.8500000000000085,
+            "fadeStart": 91.63000000000001,
+            "fadeEnd": 93.63000000000001
+          }
+        }
+      ],
+      "sha256": "18dfd2243b7ed9325cb7f96b596d37508d6c2bf1ad57fd322e1b91ef3461b2aa",
+      "voiceHandles": {
+        "body": {
+          "start": 0.355,
+          "end": 87.185,
+          "retainedPcmSha256": "541cc7f734a76f344c08faddf7e5715deec2167e8a8101c5d1ebd6e5f15aedac",
+          "sourceSha256": "da521eeb89ef8ec7ba6595e6aefe501b927cb6983bc8fabf05e9f21c198e17d0",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0.19,
+          "end": 3.47,
+          "retainedPcmSha256": "9d9c8d6d11bce926e2df57ccaa00714d5436310161f4ef33bbe5c8d769ae562b",
+          "sourceSha256": "7cea114793645af5cb717b77c503130e8bc77f4e15e282cc29184f02d6e621a3",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-23",
+        "sourceTakeSha256": "db16b468c88444e3e67f2d6b53b65dc8ff6d663a869bdb6afee999839a8be528",
+        "confirmation": "S036 validat per muntatge"
+      }
+    },
+    {
+      "code": "S062",
+      "activity": "ca-S062",
+      "state": "awaiting-montage-validation",
+      "file": "s062-mixed-v1.mp3",
+      "introFile": "s062-mixed-v1-intro.mp3",
+      "bodyFile": "s062-mixed-v1-cos.mp3",
+      "offset": 4.615,
+      "bodyDuration": 134.13,
+      "fullDuration": 138.745,
+      "voices": {
+        "Laia": "Leda",
+        "Biel": "Puck"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "f1a68c184a8ed0118f14d57dc5a685880f5b7affe7562ae9d14cbc273639f768",
+      "sourceRequestHash": "f7b7978840883110f5deaa867fdbd3ad2c5457db0a8818093cbb267e8ce7550b",
+      "batch": "L18",
+      "rawSha256": "31d64681f63f83a2ea00ceaae4e856d2c22a5a1c3eaa089c652442b3ecebf497",
+      "takeSha256": "676d4c4ceb31e8660214e30cc0a863bb1e3b496e2c7e8d4c57a6cd8b35f80441",
+      "coverage": 0.8979166666666667,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -18.67,
+      "peakDbTP": -2.36,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "kyles-450728",
+          "start": 0,
+          "source": "assets/audio/sources/kyles-450728.mp3",
+          "sourceSha256": "20f19e1eec5394003835bcc940e246b941b2dd733b062c2743dcef1443f7b0c1",
+          "sourceUrl": "https://freesound.org/people/kyles/sounds/450728/",
+          "author": "kyles",
+          "license": "CC0 1.0",
+          "underSpeech": true,
+          "speechGain": 0.12,
+          "openingGain": 0.3,
+          "raisedGain": 0.4,
+          "sourceTargetLufs": -28,
+          "speechNominalLufs": -46.416375079047505,
+          "lowPassHz": 1800,
+          "passes": 3,
+          "crossfadeSeconds": 1,
+          "excerpt": {
+            "start": 5,
+            "seconds": 90
+          },
+          "envelope": {
+            "riseStart": 128.25,
+            "riseEnd": 129.05,
+            "holdSeconds": 1.8799999999999955,
+            "fadeStart": 130.93,
+            "fadeEnd": 132.93
+          }
+        }
+      ],
+      "sha256": "54650118c8e8d32b9829f777b67ed447020f9ad267b3b3ee7c0e0080ad1cb249",
+      "voiceHandles": {
+        "body": {
+          "start": 0.3235,
+          "end": 126.4535,
+          "retainedPcmSha256": "0129fe035643e29f13301406891368d875e60be68fa6202c3e15b70555d44a86",
+          "sourceSha256": "9458987328c01b3ba22a5c438042686fa24ad25ccbebdf22f3c40c9c20e01e94",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0,
+          "end": 3.665,
+          "retainedPcmSha256": "d478887dd796d8bbec96b2321b39095e0cb4a489d9aff0cea90bb71209fda896",
+          "sourceSha256": "0360b43bddf59257dd01ab437b270bdbe0dd745db618543c682548f0809fb00c",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-23",
+        "sourceTakeSha256": "676d4c4ceb31e8660214e30cc0a863bb1e3b496e2c7e8d4c57a6cd8b35f80441",
+        "confirmation": "S062 validat per muntatge"
+      }
     }
   ]
 }

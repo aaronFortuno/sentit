@@ -109,6 +109,10 @@ export const quart = [
   }),
   proposal({
     id: 'qui-tria-que-es-mostra', code: 'S033', title: 'Qui tria què es mostra?', grade: '4', level: 'middle', genre: 'interview', universeIds: ['radio-escola'],
+    recordingCues: [{"before":"hola","text":"Ambient real molt discret d’estança tranquil·la durant la conversa, amb entrada suau, pujada i fosa final. Sense papers ni eines afegits."},{"after":"adeu","text":"La veu acaba completa. Marge breu, pujada del fons durant dos segons i fosa de dos segons; cap efecte de comiat afegit."}],
+    seconds: 112, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s033-mixed-v1.mp3', tracks: { introduction: './assets/audio/s033-mixed-v1-intro.mp3', body: './assets/audio/s033-mixed-v1-cos.mp3' },
+    fragment: { start: 4.12, seconds: 108 },
     summary: 'En Biel visita el taller de la Nora, on preparen una exposició d’objectes antics de casa: plats, mobles i una capseta per guardar joies.',
     voices: { Biel: 'Puck', Nora: 'Kore' }, delivery: 'Entrevista propera al taller, amb objectes de casa concrets des del començament. Nora explica «peces» i «còpia» sense pressuposar coneixements de museus. Biel pregunta amb curiositat i frases quotidianes de jove; no reformula com un especialista. Salutació i comiat mutu.',
     editorialFocus: '4t intermèdia: comprendre tres decisions sobre objectes antics coneguts, amb causes concretes. Situar l’exposició i explicar el vocabulari abans de fer-lo servir. Distingir una capseta antiga de la còpia nova que es podrà tocar, sense coneixements previs de museus.',

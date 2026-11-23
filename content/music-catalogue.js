@@ -199,6 +199,21 @@ export const musicCatalogue = [
       "ca-S047"
     ],
     "description": "Composició pròpia de piano suau i harmonia espaiada, 68 pulsacions per minut; partitura determinista 47, fosa d’entrada, música atenuada sota la veu i pujada de dos segons seguida de fosa al final."
+  },
+  {
+    "id": "sentit-s046-v1",
+    "title": "Una butxaca amb farina",
+    "kind": "narration-bed",
+    "author": "Sentit",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/aaronFortuno/sentit/blob/main/LICENSE",
+    "origin": "original-procedural",
+    "externalSamples": false,
+    "source": "tools/narration-bed.cjs",
+    "usedBy": [
+      "ca-S046"
+    ],
+    "description": "Composició pròpia de piano suau i harmonia espaiada, 64 pulsacions per minut; partitura determinista 46, fosa d’entrada, música atenuada sota la veu i pujada de dos segons seguida de fosa al final."
   }
 ];
 

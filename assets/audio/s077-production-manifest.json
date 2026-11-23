@@ -1,0 +1,83 @@
+{
+  "code": "S077",
+  "activity": "ca-S077",
+  "state": "awaiting-montage-validation",
+  "file": "s077-mixed-v1.mp3",
+  "introFile": "s077-mixed-v1-intro.mp3",
+  "bodyFile": "s077-mixed-v1-cos.mp3",
+  "offset": 4.3500000000000005,
+  "bodyDuration": 153.46,
+  "fullDuration": 157.81,
+  "voices": {
+    "Laia": "Leda",
+    "Ona": "Sulafat"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "588839376334e915c4952fab7c33def098c4cfa5d066e7c5bbf7ef749940ae59",
+  "sourceRequestHash": "42cc6f8dc2c91eb436b5c54616e769671e57cb7eca7f1e4c78bdd8ae924508c4",
+  "batch": "L16",
+  "rawSha256": "6a803d106a394c265de79093cdb57c8eab002a5249778599c28a6170ede7ebca",
+  "takeSha256": "585f3e0362e18519b68b896adac013785cdaa6f0168bbb8ddab5675f8fdcbda6",
+  "coverage": 0.9485714285714286,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.25,
+  "peakDbTP": -2.66,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "soundtasticpro-kitchen-484572",
+      "start": 0,
+      "source": "assets/audio/sources/soundtasticpro-484572-kitchen.mp3",
+      "sourceSha256": "1bd886bb25614d7e0768e77cd4200ad84f4db55f51257a5e16c11f47737155ad",
+      "sourceUrl": "https://freesound.org/people/SoundtasticPro/sounds/484572/",
+      "author": "SoundtasticPro",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.14,
+      "openingGain": 0.35,
+      "raisedGain": 0.45,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -45.07743928643524,
+      "lowPassHz": 1800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 5,
+        "seconds": 67.096
+      },
+      "envelope": {
+        "riseStart": 147.53999999999996,
+        "riseEnd": 148.33999999999997,
+        "holdSeconds": 1.9200000000000443,
+        "fadeStart": 150.26000000000002,
+        "fadeEnd": 152.26000000000002
+      }
+    }
+  ],
+  "sha256": "17dcc6ee55bcbc926846d2cd20fd30d940d7c62ff2a1c8ac1d712ec99de27d03",
+  "voiceHandles": {
+    "body": {
+      "start": 0.55,
+      "end": 146.01,
+      "retainedPcmSha256": "c9f55eeb39ebf50cefacd2b2aded7214c99615fcd2aa30b7fc8cdb9f6c068b23",
+      "sourceSha256": "42ec9870dc86717e2229ca3bb2bb659bc28b21ccef1db570826fb18ed43bff69",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.34,
+      "end": 3.74,
+      "retainedPcmSha256": "86f14ccee66e9dbb9c51b502244e291a55ba717885df1ab97e4b971e3a542c1c",
+      "sourceSha256": "a6466a722a214146f35ab7187225082b190a028cf1e738d3d0c2a5222041b0cd",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-23",
+    "sourceTakeSha256": "585f3e0362e18519b68b896adac013785cdaa6f0168bbb8ddab5675f8fdcbda6",
+    "confirmation": "S077 validat per pujar a muntatge"
+  }
+}

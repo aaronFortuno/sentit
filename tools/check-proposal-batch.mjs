@@ -28,7 +28,7 @@ for(const group of fourthBatchGroups){
  assert(Object.keys(group.voices).length<=2);
  for(const entry of group.entries){
   // Teacher regrading preserves the original, approved question set.
-  const initialGrade = entry.code === 'S067' ? '6' : entry.code === 'S066' ? '5' : entry.grade;
+  const initialGrade = entry.code === 'S067' ? '6' : ['S061','S066'].includes(entry.code) ? '5' : entry.grade;
   assert(['5','6'].includes(initialGrade));
   assert.equal(entry.questions.length,Number(initialGrade)+3);
   assert.deepEqual(entry.production.voices,group.voices,entry.code+' keeps the exact recurring cast for its block');
@@ -37,6 +37,8 @@ for(const group of fourthBatchGroups){
 }
 assert.equal(activities.find(entry=>entry.code==='S067').grade,'eso1','Teacher calibration: S067 is first ESO');
 assert.equal(activities.find(entry=>entry.code==='S067').level,'middle');
+assert.equal(activities.find(entry=>entry.code==='S061').grade,'6','Teacher calibration: S061 is 6th grade');
+assert.equal(activities.find(entry=>entry.code==='S061').level,'middle');
 for(const grade of ['3','4','5','6']){const next=secondBatchActivities.filter(e=>e.grade===grade);assert([0,5].includes(next.length),'Publish complete reviewed groups');if(next.length)assert.deepEqual(['easy','middle','advanced'].map(level=>next.filter(e=>e.level===level).length),[2,2,1]);}
 for(const entry of secondBatchActivities){assert(['pending','audio-review','validated'].includes(entry.reviewStatus));assert.equal(Boolean(entry.audio),entry.reviewStatus!=='pending');assert.equal(entry.questions.length,Number(entry.grade)+3);assert(entry.universeIds?.length);for(const id of entry.universeIds)assert(universes.some(u=>u.id===id));assert(universesForActivity(entry).length>0);assert(plans[entry.code]?.reviewContent?.startsWith('content/propostes/tanda2/'));}
 assert.equal(activities.find(entry=>entry.code==='S011').level,'advanced','Teacher calibration: S011 is 4t avançada');

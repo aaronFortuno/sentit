@@ -4,7 +4,7 @@
 const fs=require('node:fs/promises'),path=require('node:path'),{createHash}=require('node:crypto');
 const {ffmpeg}=require('./audio-files.cjs');
 const settings={S027:{title:"Tovalles al vent",root:50,tempo:66,seed:27},S034:{title:"Entre dues cortines",root:55,tempo:72,seed:34},S038:{title:"Un lloc a l’ombra",root:53,tempo:64,seed:38},S038D:{title:"Una tarda per explicar",root:58,tempo:68,seed:138},S043:{title:"Una línia a la façana",root:50,tempo:60,seed:43}};
-Object.assign(settings,{S045:{title:'Cadires sota les estrelles',root:57,tempo:66,seed:45,speechGain:.14,fadeSeconds:2},S047:{title:'Botons de tots colors',root:55,tempo:68,seed:47,speechGain:.14,fadeSeconds:2}});
+Object.assign(settings,{S045:{title:'Cadires sota les estrelles',root:57,tempo:66,seed:45,speechGain:.14,fadeSeconds:2},S046:{title:'Una butxaca amb farina',root:53,tempo:64,seed:46,speechGain:.14,fadeSeconds:2},S047:{title:'Botons de tots colors',root:55,tempo:68,seed:47,speechGain:.14,fadeSeconds:2}});
 const sha=b=>createHash('sha256').update(b).digest('hex'),RATE=24000;
 function makeWave(pcm){const b=Buffer.alloc(44+pcm.length);b.write('RIFF');b.writeUInt32LE(b.length-8,4);b.write('WAVEfmt ',8);b.writeUInt32LE(16,16);b.writeUInt16LE(1,20);b.writeUInt16LE(1,22);b.writeUInt32LE(RATE,24);b.writeUInt32LE(RATE*2,28);b.writeUInt16LE(2,32);b.writeUInt16LE(16,34);b.write('data',36);b.writeUInt32LE(pcm.length,40);pcm.copy(b,44);return b;}
 async function makeBed({code,title,folder,binary,duration,lead,voiceEnd}){

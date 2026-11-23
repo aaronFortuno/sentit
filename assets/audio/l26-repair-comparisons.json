@@ -1,0 +1,21 @@
+{
+  "batch": "L26",
+  "requestHash": "528f65283474a1f42bc1be0b2920865817daec53fc0f6634f693552abc5401f1",
+  "repairs": [
+    {
+      "code": "S082",
+      "part": "mòbil",
+      "text": "La gravació del meu mòbil! La vaig fer quan vaig portar-la el primer dia. Hi ha una estona que toco i, després, em poso a parlar de la funda. Potser podria agafar només el tros on sona aquell cop.",
+      "pronunciation": "Pronounce funda accurately as FUN-da, Central Catalan /ˈfun.də/: stressed U, clear N followed by D. Never fona. Do not spell the word or read this pronunciation instruction.",
+      "status": "received-awaiting-listening",
+      "originalFile": "assets/audio/repairs/l26-s082-mòbil-original.mp3",
+      "candidateFile": "assets/audio/repairs/l26-s082-mòbil-prova.mp3",
+      "sourceRawSha256": "6b4382326bc34f447e016e085b7ff82937c642a245eeb59de1fc3cf7f531076a",
+      "sourceTakeId": "S082-T01",
+      "sourceTakeSha256": "dcc33675ef85560b46ae2c2d1a217a5b592101687316ff0907c07ebcb4776bf9",
+      "batchRequestHash": "528f65283474a1f42bc1be0b2920865817daec53fc0f6634f693552abc5401f1",
+      "applied": false
+    }
+  ],
+  "masterChanged": false
+}

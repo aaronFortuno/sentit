@@ -1189,11 +1189,11 @@
   },
   "S051": {
     "status": "approved",
-    "approvedFingerprint": "98e1906d40350d84d3ce35f893c53d1c5d66bee896992a57f29476cd53bb125e",
+    "approvedFingerprint": "96a35af7a05591f4195a3c5de2ca187c4ed1a2a9ffdf295ac6d8006766968ed7",
     "reviewedAt": "2026-11-22T17:57:07.244Z",
     "reviewActivity": "ca-S051",
     "reviewContent": "content/propostes/tanda3/nora.js",
-    "format": "4t accessible: comprendre una prova que es fa des del lloc del visitant, seguir dues correccions concretes i distingir el cartell general del nom d’un objecte. Set preguntes sustentades en el que es diu, sense dades que només apareguin en una imatge.",
+    "format": "4t avançada: comprendre una prova que es fa des del lloc del visitant, seguir dues correccions concretes i distingir el cartell general del nom d’un objecte. Set preguntes sustentades en el que es diu, sense dades que només apareguin en una imatge.",
     "requiredVoices": {
       "Laia": "Leda",
       "Nora": "Kore"
@@ -1206,7 +1206,13 @@
       "Pausa curta amb paper real mogut suaument. Conservar l’ambient sense canvis de volum que assenyalin una resposta.",
       "Final de veu íntegre; pujada de fons de dos segons, fosa de dos segons i 600 ms de silenci. Cap altra conversa."
     ],
-    "approvalSource": "Validació explícita del docent el 22/11/2026: «S051 també validat per síntesi de veus». Guió, Laia/Leda i Nora/Kore i escaleta autoritzats; agrupar la presa completa en un lot compatible."
+    "approvalSource": "Validació explícita del docent el 22/11/2026: «S051 també validat per síntesi de veus». Guió, Laia/Leda i Nora/Kore i escaleta autoritzats; agrupar la presa completa en un lot compatible.",
+    "gradingRevision": {
+      "at": "2026-11-23",
+      "previousApprovalFingerprint": "98e1906d40350d84d3ce35f893c53d1c5d66bee896992a57f29476cd53bb125e",
+      "confirmation": "Docent: diàleg i augmentar a 4t avançada o 5è accessible. S’aplica 4t avançada per confirmar amb el muntatge.",
+      "spokenTextChanged": false
+    }
   },
   "S052": {
     "status": "approved",
@@ -1364,11 +1370,11 @@
   },
   "S061": {
     "status": "approved",
-    "approvedFingerprint": "478c81501150a712c3571dce7dd9372fe1f204a690dbf4843562785be2381a91",
+    "approvedFingerprint": "9ca22044c6f795cc4f662ab30af285288da1b92e850ca6d94b1ce47a0ba61f25",
     "reviewedAt": "2026-11-22T19:57:00.644Z",
     "reviewActivity": "ca-S061",
     "reviewContent": "content/propostes/tanda4/troballes.js",
-    "format": "5è avançada: reconstruir una petita història dins del diàleg, relacionar ordre, informació i inferència de l’espectador. Vuit preguntes; no cal saber editar vídeo ni interpretar vocabulari cinematogràfic.",
+    "format": "6è intermèdia: reconstruir una petita història dins del diàleg, relacionar ordre, informació i inferència de l’espectador. Vuit preguntes; no cal saber editar vídeo ni interpretar vocabulari cinematogràfic.",
     "requiredVoices": {
       "Laia": "Leda",
       "Biel": "Puck"
@@ -1381,7 +1387,13 @@
       "Pausa breu amb paper real; no fer sentir moto, bassal ni gotes, que el que es revisa s’explica amb les veus.",
       "Deixar la darrera paraula i les respiracions naturals. Dos segons de fons, fosa i cua de silenci, sense una rialla afegida."
     ],
-    "approvalSource": "Validació explícita del docent el 22/11/2026: «S061 també [validat per síntesi] però anota que potser la pugem a 6è intermig-avançat, quan escolti el muntatge». Guió, Laia/Leda i Biel/Puck i escaleta autoritzats. Es mantenen ara 5è avançada i vuit preguntes; curs i dificultat pendents de confirmar amb l’àudio muntat."
+    "approvalSource": "Validació explícita del docent el 22/11/2026: «S061 també [validat per síntesi] però anota que potser la pugem a 6è intermig-avançat, quan escolti el muntatge». Guió, Laia/Leda i Biel/Puck i escaleta autoritzats. Es mantenen ara 5è avançada i vuit preguntes; curs i dificultat pendents de confirmar amb l’àudio muntat.",
+    "gradingRevision": {
+      "at": "2026-11-23",
+      "previousApprovalFingerprint": "478c81501150a712c3571dce7dd9372fe1f204a690dbf4843562785be2381a91",
+      "confirmation": "Docent: requalificar a 6è intermèdia. Cos de veus aprovat, presentació omesa pendent.",
+      "spokenTextChanged": false
+    }
   },
   "S062": {
     "status": "approved",
@@ -1850,9 +1862,9 @@
     "approvalSource": "S045D validat per síntesi de veus"
   },
   "S068D": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "0bf9a3765aaf6e12be99a8a76b49c4bc9575aad35eb81a31bb312c8c05e66cf0",
+    "reviewedAt": "2026-11-23",
     "reviewActivity": "ca-S068D",
     "reviewContent": "content/propostes/s068-dialogada.js",
     "format": "Variant dialogada de S068, conservada. 5è accessible: seguir el viatge en ordre, entendre per què dinen a l’estació i distingir el destí dels entrepans i les galetes. Mateixes vuit exigències de comprensió, amb les preguntes i reaccions de l’Aina. Validació docent pròpia pendent.",
@@ -1867,7 +1879,8 @@
       "Ferran": "Algenib"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Variant independent del relat narrat. Guió, veus i escaleta pendents de validació docent pròpia abans de sintetitzar."
+    "ending": "Guió, veus i escaleta validats pel docent. Lectura completa per agrupar amb el mateix repartiment en un lot compatible; veus pendents de producció i audició.",
+    "approvalSource": "S068D validat per síntesi de veus"
   },
   "S071D": {
     "status": "approved",

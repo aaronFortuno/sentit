@@ -612,7 +612,7 @@
     },
     {
       "id": "L21",
-      "state": "authorized",
+      "state": "received",
       "speechTextFormat": "plain-v1",
       "execution": "background-v1",
       "sourceProposal": "P09",
@@ -632,7 +632,174 @@
       "approvedAt": "2026-11-23T09:55:00.855Z",
       "approvedRequestHash": "a8c5196dba3b7699202dbef8681a9fefe519de2d560579efeb91b7f4d561197b",
       "estimatedSeconds": 372,
-      "estimatedInputTokens": 4753
+      "estimatedInputTokens": 4753,
+      "receipt": "assets/audio/synthesis-batches/l21.json",
+      "completedAt": "2026-11-23T12:20:14.416Z"
+    },
+    {
+      "id": "L22",
+      "state": "received",
+      "speechTextFormat": "plain-v1",
+      "execution": "background-v1",
+      "sourceProposal": "P10",
+      "blocks": [
+        {
+          "code": "S068",
+          "take": "S068-T01",
+          "sourceRequestHash": "8d05a389052be132452e8629b805e26c1ebe744d5d4ca688463cdcef9ef16185"
+        },
+        {
+          "code": "S070",
+          "take": "S070-T01",
+          "sourceRequestHash": "b36952e9705d1f889a1d77e970e183ca4b0068df82d7b96de57e7e0477a8131e"
+        },
+        {
+          "code": "S071",
+          "take": "S071-T01",
+          "sourceRequestHash": "db3b6803c46b0a95f5895895743f85114c1e5d61fadded8b0ef30b4a4a811f79"
+        }
+      ],
+      "authorization": "El docent autoritza el 23/11 enviar els lots més complets, d’un en un, aprofitant la quota gratuïta. Només guions i escaletes validats, preses completes amb el mateix repartiment i finestra de sis a vuit minuts. Veus per audició abans del muntatge.",
+      "approvedAt": "2026-11-23T12:06:12.718Z",
+      "approvedRequestHash": "4a2634e49163d602016cbc69c25809b31754d5e940e3283e0c938522deada250",
+      "estimatedSeconds": 416,
+      "estimatedInputTokens": 3404,
+      "receipt": "assets/audio/synthesis-batches/l22.json",
+      "completedAt": "2026-11-23T12:09:15.400Z"
+    },
+    {
+      "id": "L23",
+      "state": "received",
+      "speechTextFormat": "plain-v1",
+      "execution": "background-v1",
+      "sourceProposal": "P16",
+      "blocks": [
+        {
+          "code": "S045D",
+          "take": "S045D-T01",
+          "sourceRequestHash": "0262d20d8142b019e7203adb88fa829cfc06b2eeb86850ce458bc730ff561525"
+        },
+        {
+          "code": "S046D",
+          "take": "S046D-T01",
+          "sourceRequestHash": "2c040c25f3c91f708201c6e79dde3b6d3e73c246f3a8b13b33c4e0819a109e63"
+        },
+        {
+          "code": "S069D",
+          "take": "S069D-T01",
+          "sourceRequestHash": "3460dfc1216ed4bc398ab8934c7fd02177313d243c3cb63899499171ce840e52"
+        }
+      ],
+      "authorization": "El docent autoritza el 23/11 enviar els lots més complets, d’un en un, aprofitant la quota gratuïta. Només guions i escaletes validats, preses completes amb el mateix repartiment i finestra de sis a vuit minuts. Veus per audició abans del muntatge.",
+      "approvedAt": "2026-11-23T12:06:12.905Z",
+      "approvedRequestHash": "756f855e4c2be092cf27a2e4508782dc064c45b5cef6d6697850ea86088fd55e",
+      "estimatedSeconds": 410,
+      "estimatedInputTokens": 6840,
+      "receipt": "assets/audio/synthesis-batches/l23.json",
+      "completedAt": "2026-11-23T12:14:25.276Z"
+    },
+    {
+      "id": "L24",
+      "state": "superseded-before-submission",
+      "speechTextFormat": "plain-v1",
+      "execution": "background-v1",
+      "sourceProposal": "P04",
+      "blocks": [
+        {
+          "code": "S053",
+          "take": "S053-T01",
+          "sourceRequestHash": "d84cd85848f91246e6875c937e9ba8be3697a8b304a23b6ea81184861f754cd2"
+        },
+        {
+          "code": "S054",
+          "take": "S054-T01",
+          "sourceRequestHash": "c8be4ae92bb083e4e42001b4c999aa2a84884929375061537f10989140f2b85a"
+        },
+        {
+          "code": "S057",
+          "take": "S057-T01",
+          "sourceRequestHash": "b0fdc86b1a25a5605667a872f51621aeffa4a0156d22d6c0dbbfa316d668ef51"
+        }
+      ],
+      "authorization": "El docent autoritza el 23/11 enviar els lots més complets, d’un en un, aprofitant la quota gratuïta. Només guions i escaletes validats, preses completes amb el mateix repartiment i finestra de sis a vuit minuts. Veus per audició abans del muntatge.",
+      "approvedAt": "2026-11-23T12:06:13.078Z",
+      "approvedRequestHash": "6e9b2119b6ebd84473ac3565ea253ead9b001881ae7ead31f232cbfa01ebba3d",
+      "estimatedSeconds": 407,
+      "estimatedInputTokens": 3429,
+      "supersededBy": "L25",
+      "reason": "Afegir el primer paràgraf complet de S029, ja autoritzat per al proper lot de Mar. Cap intent de L24 enviat."
+    },
+    {
+      "id": "L25",
+      "state": "received",
+      "speechTextFormat": "plain-v1",
+      "execution": "background-v1",
+      "sourceProposal": "P04",
+      "blocks": [
+        {
+          "code": "S053",
+          "take": "S053-T01",
+          "sourceRequestHash": "d84cd85848f91246e6875c937e9ba8be3697a8b304a23b6ea81184861f754cd2"
+        },
+        {
+          "code": "S054",
+          "take": "S054-T01",
+          "sourceRequestHash": "c8be4ae92bb083e4e42001b4c999aa2a84884929375061537f10989140f2b85a"
+        },
+        {
+          "code": "S057",
+          "take": "S057-T01",
+          "sourceRequestHash": "b0fdc86b1a25a5605667a872f51621aeffa4a0156d22d6c0dbbfa316d668ef51"
+        },
+        {
+          "code": "S029",
+          "part": "anunci",
+          "sourceRequestHash": "efd10b53595b2de17740e589b16b76c6acae908691a82ded2e0a3d760ac61020"
+        }
+      ],
+      "authorization": "Docent 23/11: enviar lots complets d’un en un. Es recupera també l’encàrrec explícit d’afegir el primer paràgraf complet de S029 al proper lot compatible de Mar, per comparar-lo abans d’aplicar-lo.",
+      "approvedAt": "2026-11-23T12:20:30.561Z",
+      "approvedRequestHash": "4e3ed06c613d1750826947314242be6a728fc3ca9f7dbf20d554f3768035a399",
+      "estimatedSeconds": 423,
+      "estimatedInputTokens": 3898,
+      "receipt": "assets/audio/synthesis-batches/l25.json",
+      "completedAt": "2026-11-23T12:23:58.849Z"
+    },
+    {
+      "id": "L26",
+      "state": "received",
+      "speechTextFormat": "plain-v1",
+      "execution": "background-v1",
+      "sourceProposal": "P14",
+      "blocks": [
+        {
+          "code": "S078",
+          "take": "S078-T01",
+          "sourceRequestHash": "057a02d1c8d0b79b3c89c4c97456fc0c16e43e7dde1910a27faf6b592ff00322"
+        },
+        {
+          "code": "S079",
+          "take": "S079-T01",
+          "sourceRequestHash": "7584387982470c6e29598c4f89161463f8f04c26b6c53278cf967c40e20ea999"
+        },
+        {
+          "code": "S080",
+          "take": "S080-T01",
+          "sourceRequestHash": "fae49ea55456abeba5aaa1420c36bb1fb34e5d74b4d6d87f0e257cc970457e59"
+        },
+        {
+          "code": "S082",
+          "part": "mòbil",
+          "sourceRequestHash": "32b70aac112f1b8eff753cc1e146d67ef37825fa0b27304fc4ac1e596352f13b"
+        }
+      ],
+      "authorization": "Docent 23/11: enviar els lots complets compatibles d’un en un. S078, S079 i S080 tenen guió i escaleta validats. Afegir la intervenció completa del Biel de S082 per esmenar funda/fona amb Puck; publicar-la per comparar, sense aplicar-la ni muntar S082 abans de l’audició docent.",
+      "approvedAt": "2026-11-23T12:28:34.349Z",
+      "approvedRequestHash": "528f65283474a1f42bc1be0b2920865817daec53fc0f6634f693552abc5401f1",
+      "estimatedSeconds": 372,
+      "estimatedInputTokens": 6127,
+      "receipt": "assets/audio/synthesis-batches/l26.json",
+      "completedAt": "2026-11-23T12:30:54.324Z"
     }
   ],
   "calibration": {

@@ -51,6 +51,10 @@ En la vista de provisionals, cada card mostra el número de fase i una barra de 
 
 Els lots incomplets esperen material compatible. La [cua vigent](docs/lots-sintesi.md) es regenera amb els registres de producció; els enviaments rebuts tenen un [històric separat](docs/historic-sintesi.md). No hi ha cap bucle automàtic de síntesi ni un comptador de quota restant en aquests documents.
 
+Els lots de text pla poden incorporar una esmena del mateix repartiment al costat de lectures completes: conserven totes les guardes d’aprovació, mida i procedència. Una correcció d’una peça encara sense muntatge es vincula a la presa original exacta, amb identificador i empremta propis. Les comparacions són accessibles des del configurador tant abans com després del primer muntatge; no s’apliquen automàticament.
+
+El 23/11 s’han rebut L21, L22, L23, L25 i L26: catorze comprensions i dues proves d’esmena, amb cinc peticions seqüencials. [Compara S029](https://sentit.ortogra.fi/proves/correccions-l25.html) · [Compara S082](https://sentit.ortogra.fi/proves/correccions-l26.html). Els WAV retornats amb metadades intercalades s’han recuperat localment sense repetir la síntesi ni canviar les mostres de parla.
+
 ## Catàleg, col·leccions i sintonies
 
 Els filtres mostren el nombre de comprensions de cada opció, mantenint la resta de filtres actius. També compten la cerca, la col·lecció, el mode de provisionals i la fase; les opcions de zero resultats continuen visibles. Els personatges mostren el recompte individual al costat del nom.

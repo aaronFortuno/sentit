@@ -101,6 +101,10 @@ export const tercer = [
   }),
   proposal({
     id: 'una-parada-abans-dobrir', code: 'S028', title: 'Una parada abans d’obrir', grade: '3', level: 'middle', genre: 'interview', universeIds: ['radio-escola'],
+    recordingCues: [{"before":"hola","text":"Ambient real continu de mercat, molt baix sota la conversa i amb entrada suau. Sense caixes, papers ni altres efectes afegits; pujada i fosa final."},{"after":"adeu","text":"La veu acaba completa. Marge breu, pujada del fons durant dos segons i fosa de dos segons; cap efecte de comiat afegit."}],
+    seconds: 75, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s028-mixed-v1.mp3', tracks: { introduction: './assets/audio/s028-mixed-v1-intro.mp3', body: './assets/audio/s028-mixed-v1-cos.mp3' },
+    fragment: { start: 3.88, seconds: 71 },
     summary: 'La Laia visita en Pau quan encara prepara la parada i pregunta per què fa les coses en un ordre concret.',
     voices: { Laia: 'Leda', Pau: 'Charon' },
     delivery: 'Entrevista de ràdio escolar propera, amb salutació i comiat mutu. Laia parla com una jove que veu una preparació per primer cop; Pau explica la seva rutina fictícia amb exemples concrets, sense representar tots els comerciants.',

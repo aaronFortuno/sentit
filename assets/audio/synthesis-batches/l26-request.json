@@ -1,0 +1,371 @@
+{
+  "model": "gemini-3.8-flash-tts",
+  "input": [
+    {
+      "type": "user_input",
+      "content": [
+        {
+          "type": "text",
+          "text": "Comprensió oral. El soroll que seguia la cadira. \n\nHola, Elies! T’he portat la gravació de la prova que vam fer ahir aquí al taller. A la cançó lenta surt un soroll que sembla un grinyol. Jo em pensava que venia de la guitarra, però només el sento de tant en tant.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Biel i Elies conversen al taller. Biel és un jove curiós: descriu el que veu o sent amb mots comuns, prova una idea i pregunta quan una cosa el sorprèn. Elies és un adult proper que explica la feina mentre la mostra, amb termes concrets i sense una lliçó final. Dues veus constants; salutació i comiat recíproc, sense altres personatges interpretats. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the same two character voices throughout all recordings. Instructions are not spoken."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Hola, Biel. Deixem la funda aquí i primer mirem quan passa. Tu vas escoltar la gravació amb la mateixa cadira on vas tocar?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Biel i Elies conversen al taller. Biel és un jove curiós: descriu el que veu o sent amb mots comuns, prova una idea i pregunta quan una cosa el sorprèn. Elies és un adult proper que explica la feina mentre la mostra, amb termes concrets i sense una lliçó final. Dues veus constants; salutació i comiat recíproc, sense altres personatges interpretats. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí. La del respatller baix. Quan escolto, també em moc una mica endavant i endarrere. Mira, ara faig aquest gest i torna a sonar una cosa semblant.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Seu-hi un moment amb les mans damunt de les cames. La guitarra la tenim encara dins de la funda. Ara fes el mateix moviment, a poc a poc, com quan et preparaves per començar.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ha sonat! I no he tocat cap corda. Em sembla que surt de sota meu. Quan em quedo quiet no passa res, però quan em tiro enrere grinyola.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Provem l’altra cadira, la que hi ha al costat de la taula. És un altre seient, de manera que podràs fer el mateix gest i escoltar si es repeteix. Després agafarem la guitarra.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Aquí em puc moure i no grinyola. Doncs ahir em vaig passar una estona mirant les cordes per trobar què feia aquell soroll. A la gravació se sentia just quan jo m’acostava a mirar el full.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Avui pots repetir un tros de la cançó en aquesta cadira. Col·locarem el mòbil al mateix lloc on el tenies ahir. Així sentiràs si, a més del grinyol de la cadira, hi havia alguna altra cosa.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Gràcies, Elies. Agafo el full abans de treure la guitarra. Aquesta cadira baixa la deixem apartada; si algú la torna a fer servir, es pensarà que ha entrat un grill al taller.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Gràcies per portar la gravació. Jo em miro la cadira després. Ara deixa el mòbil al prestatge i fem aquell tros amb calma.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. Una funda que no tanca. \n\nBon dia, Elies! Ja he triat la funda per portar la guitarra a l’escola. A la foto es veia igual que la teva, amb la butxaca grossa al davant. Me l’ha deixada el meu cosí.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Biel i Elies conversen al taller. Biel és un jove curiós: descriu el que veu o sent amb mots comuns, prova una idea i pregunta quan una cosa el sorprèn. Elies és un adult proper que explica la feina mentre la mostra, amb termes concrets i sense una lliçó final. Dues veus constants; salutació i comiat recíproc, sense altres personatges interpretats. Al comiat, Elies aguanta la porta mentre en Biel es col·loca la motxilla: ajuda propera, amb una petita pausa oberta després de «porta». «Això... ara sí» és una confirmació tranquil·la en veure que ja la porta ben posada; no una fórmula recitada. L’acció passa mentre parlen, sense esperes llargues. Les indicacions no es llegeixen. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the same two character voices throughout all recordings. Instructions are not spoken."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Bon dia. Deixa-la oberta damunt de la taula i hi posarem la guitarra amb compte. Agafa-la per aquí mentre jo aparto aquesta caixa. Ara ja tenim tot el lloc que ens cal.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Biel i Elies conversen al taller. Biel és un jove curiós: descriu el que veu o sent amb mots comuns, prova una idea i pregunta quan una cosa el sorprèn. Elies és un adult proper que explica la feina mentre la mostra, amb termes concrets i sense una lliçó final. Dues veus constants; salutació i comiat recíproc, sense altres personatges interpretats. Al comiat, Elies aguanta la porta mentre en Biel es col·loca la motxilla: ajuda propera, amb una petita pausa oberta després de «porta». «Això... ara sí» és una confirmació tranquil·la en veure que ja la porta ben posada; no una fórmula recitada. L’acció passa mentre parlen, sense esperes llargues. Les indicacions no es llegeixen. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Aquí entra bé, però la cremallera s’atura quan arriba a aquesta part tan ampla. Si estiro una mica més potser passarà. A la foto semblava que hi havia espai de sobres.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Espera, la traiem. La funda és més estreta en aquest costat i està prement la guitarra. A la foto la funda estava buida i no s’hi veia cap instrument per comparar-la. Anem a buscar la que tinc al prestatge de baix.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "La grisa? Té la butxaca més petita. Hi cabrà el full de la cançó o hauré de portar una carpeta també? Perquè amb la motxilla i la guitarra ja vaig prou carregat.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "El full hi cap plegat per la meitat. Primer comprovem la guitarra. Mira: la podem posar plana i la cremallera passa sense haver d’estirar la tela. La funda del teu cosí la plegarem i la guardaràs a la motxilla.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Aquesta funda grisa diu el teu nom. La podem deixar així? Si a l’escola veuen Elies a l’etiqueta, potser es pensaran que he agafat la guitarra equivocada.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Hi posarem una nota a la butxaca de fora: funda de l’Elies, deixada a en Biel. Quan em tornis la guitarra, torna’m també la funda. Així el teu cosí rebrà la seva tal com te la va deixar.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "D’acord. El full de la cançó, plegat; la nota, a fora; i la funda del cosí, a la motxilla. Gràcies, Elies. Ara sí que puc sortir sense anar fent equilibris amb la guitarra destapada.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "De res, Biel. T’aguanto la porta... posa’t bé la motxilla. Això... ara sí. Fins aviat!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. El segon assaig sona lluny. \n\nHola, Elies. T’he vingut a ensenyar dues gravacions. La cançó de dimarts sona força clara, però a la d’ahir semblo molt lluny. I jo ahir em vaig trobar més còmode tocant-la.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Biel i Elies conversen al taller. Biel és un jove curiós: descriu el que veu o sent amb mots comuns, prova una idea i pregunta quan una cosa el sorprèn. Elies és un adult proper que explica la feina mentre la mostra, amb termes concrets i sense una lliçó final. Dues veus constants; salutació i comiat recíproc, sense altres personatges interpretats. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the same two character voices throughout all recordings. Instructions are not spoken."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Hola, Biel. Les vau gravar amb el mateix mòbil? I qui el va posar a lloc cada dia?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Biel i Elies conversen al taller. Biel és un jove curiós: descriu el que veu o sent amb mots comuns, prova una idea i pregunta quan una cosa el sorprèn. Elies és un adult proper que explica la feina mentre la mostra, amb termes concrets i sense una lliçó final. Dues veus constants; salutació i comiat recíproc, sense altres personatges interpretats. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Dimarts el vaig deixar jo en una cadira al davant. Ahir havíem mogut les cadires per fer lloc al grup de dansa i el vaig posar al fons, al costat de la porta. Després ja em vaig asseure amb la guitarra i me’n vaig oblidar.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Per tant, avui ensenyen la mateixa cançó, però des de llocs diferents. A la d’ahir, el mòbil era molt més lluny de tu. També es veu al vídeo: les persones que entren passen a tocar de la càmera i tu quedes petit al fons.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí, i se sent quan entren els de dansa i deixen les bosses. Jo m’havia fixat tant que la guitarra sonava fluixa que ni havia pensat en la porta. A dimarts, en canvi, gairebé només se’m sent a mi.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Quan tornis avui a la sala d’assaig, pots repetir un tros amb el mòbil a la cadira del davant, com dimarts. Posaràs la cadira al mateix lloc i tocaràs la mateixa part de la cançó. Després l’escoltaràs al costat de la primera gravació.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "El començament? És el que ja sé més bé. Ahir, a la gravació, també vaig deixar una estona abans de tocar perquè encara buscava el full. La retallo abans d’ensenyar-la?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Pots fer una còpia curta per escoltar aquest tros, i deixar el vídeo sencer guardat. Al sencer es veu on era el mòbil i qui estava entrant. Ens ha servit per entendre com es va enregistrar.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "D’acord. Quan hi torni, primer poso la cadira al davant i després busco el full. Gràcies, Elies. Avui intentaré que el mòbil no acabi gravant millor les motxilles que la guitarra.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Gràcies per portar les dues versions. Emporta’t aquest suport petit per al mòbil i ja em diràs com ha anat quan tornis de l’assaig.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "La gravació del meu mòbil! La vaig fer quan vaig portar-la el primer dia. Hi ha una estona que toco i, després, em poso a parlar de la funda. Potser podria agafar només el tros on sona aquell cop.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Same youthful male Biel/Puck voice throughout. Central Catalan, conversational and naturally paced. Read the complete supplied intervention once, verbatim, without title, stage directions, music, effects or added words. Pronounce funda accurately as FUN-da, Central Catalan /ˈfun.də/: stressed U, clear N followed by D. Never fona. Do not spell the word or read this pronunciation instruction. This is a separate repair paragraph with no title. Keep the same character voice as in the complete recordings. Read every supplied word once, including the first sentence. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition.",
+              "speaker": "Voice1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "response_format": {
+    "type": "audio",
+    "mime_type": "audio/wav",
+    "sample_rate": 24000
+  },
+  "generation_config": {
+    "speech_config": {
+      "speakers": [
+        {
+          "speaker": "Voice1",
+          "voice": "Puck"
+        },
+        {
+          "speaker": "Voice2",
+          "voice": "Algieba"
+        }
+      ]
+    }
+  },
+  "background": true
+}

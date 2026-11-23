@@ -80,3 +80,11 @@ Les esmenes de veu esperen un lot compatible prou ple. Prioritzar comprensions c
 
 - **S022, segona passada:** la represa L13 queda rebutjada perquè continua sonant «ráils». Dues proves màximes, amb `raíls` i `raïls` exclusivament a l’entrada TTS, mantenint Ferran/Algenib i la frase canònica. Pla verificable sense peticions: `node tools/pronunciation-trials.cjs --only=S022`. Esperen un lot compatible de sis a vuit minuts. Si fallen totes dues, el docent proposa «les vies»; encara no s’ha canviat el relat.
 - **S010:** «Després ja som a la porta» validat i pendent d’inserir. La represa de «Des de la plaça» queda rebutjada per identitat: parla Laia i ha de parlar Biel/Puck. Repetir només aquesta segona frase.
+
+## Retorns del 23/11
+
+- **S082 / Biel–Puck:** «funda» sona «fona» al torn `mòbil`. El lot L26 ja conté la intervenció sencera per comparar; encara no s’ha aplicat ni validat. Mantenir U tònica i el grup N+D de /ˈfun.də/ en les indicacions no parlades.
+- **S081 / Elies–Algieba:** «funda» sona «funa» als torns `telefon` i `final`. Regenerar els dos torns complets amb la mateixa identitat adulta, conservant la naturalitat d’«Espera... així...». Esperen lot compatible; no s’envia una petició curta aïllada. El text editorial continua sent «funda».
+- **S061:** la síntesi va ometre la presentació «Comprensió oral. El curt que començava pel final.». Cos de veus validat; reposar el títol abans del muntatge. No repetir el diàleg complet ni atribuir el títol a la presa original.
+
+L’estat viu de cada prova i la seva audició consta al [seguiment de producció](seguiment-produccio.md) i a la [cua de síntesi](lots-sintesi.md).
