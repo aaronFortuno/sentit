@@ -62,7 +62,7 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S050](https://sentit.ortogra.fi/#lectura=ca-S050) | La balança marca massa | 3r | Revisió superada · publicació definitiva | 2026-11-23 | `4f9689aac3f5…` |
 | [ca-S051](https://sentit.ortogra.fi/#lectura=ca-S051) | El cartellet que quedava amagat | 4t | Provisional · revisió superada | 2026-11-22 | `19d3a1cc1a53…` |
 | [ca-S052](https://sentit.ortogra.fi/#lectura=ca-S052) | La capsa que semblava un llibre | 4t | Provisional · revisió superada | 2026-11-22 | `6795a7f1e2c0…` |
-| [ca-S053](https://sentit.ortogra.fi/#lectura=ca-S053) | La pista torna a obrir al vespre | 5è | Provisional · revisió superada | 2026-11-22 | `4e76769512a4…` |
+| [ca-S053](https://sentit.ortogra.fi/#lectura=ca-S053) | La pista torna a obrir al vespre | 5è | Revisió superada · guió validat | 2026-11-22 | `4e76769512a4…` |
 | [ca-S054](https://sentit.ortogra.fi/#lectura=ca-S054) | Una finestra per recollir els encàrrecs | 5è | Revisió superada · guió validat | 2026-11-22 | `34e48649d1bc…` |
 | [ca-S055](https://sentit.ortogra.fi/#lectura=ca-S055) | Els cartells de cinema tornen al barri | 6è | Revisió superada · guió validat | 2026-11-22 | `7ba953cb5e8e…` |
 | [ca-S056](https://sentit.ortogra.fi/#lectura=ca-S056) | El taller canvia de casa | 5è | Revisió superada · guió validat | 2026-11-22 | `39766217bff3…` |

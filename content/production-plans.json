@@ -1230,9 +1230,9 @@
     "approvalSource": "Validació explícita del docent el 22/11/2026: «S052 validat també per síntesi de veus». Guió, Laia/Leda i Nora/Kore i escaleta autoritzats; agrupar la presa completa en un lot compatible."
   },
   "S053": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "7c2c0bcc98e9608cc67f00eca43e5acf8d6be72dc151496144e1ac743aa06c42",
+    "reviewedAt": "2026-11-23",
     "reviewActivity": "ca-S053",
     "reviewContent": "content/propostes/tanda4/noticies.js",
     "format": "5è accessible: seguir dues franges amb usos diferents, entendre una causa explícita i localitzar un servei. Vuit preguntes, amb una relació entre el problema anterior i el canvi actual; horaris ficticis d’aquest equipament.",
@@ -1241,7 +1241,8 @@
     },
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
-    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+    "ending": "Guió, veus i escaleta validats pel docent. Lectura completa per agrupar amb el mateix repartiment en un lot compatible; veus pendents de producció i audició.",
+    "approvalSource": "S053 validat per síntesi de veus"
   },
   "S054": {
     "status": "approved",
