@@ -43,8 +43,9 @@ export const mercat = [
   }),
   proposal({
     id: 'la-parada-es-mou-un-mati', code: 'S049', title: 'La parada es mou un matí', grade: '3', level: 'middle', genre: 'dialogue', universeIds: ['radio-escola'],
+    image: {"src":"./assets/images/la-parada-es-mou-un-mati-v1.webp","alt":"La Laia retroba en Pau davant d’un taulell senzill del mercat.","width":1536,"height":1024},
     recordingCues: [{"before":"hola","text":"Ambient real continu de mercat, molt baix sota la conversa i amb entrada suau. Sense caixes, papers ni altres efectes afegits; pujada i fosa final."},{"after":"final","text":"La veu acaba completa. Marge breu, pujada del fons durant dos segons i fosa de dos segons; cap efecte de comiat afegit."}],
-    seconds: 91, status: 'ready-for-review', reviewStatus: 'audio-review',
+    seconds: 91, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s049-mixed-v1.mp3', tracks: { introduction: './assets/audio/s049-mixed-v1-intro.mp3', body: './assets/audio/s049-mixed-v1-cos.mp3' },
     fragment: { start: 4.5600000000000005, seconds: 86 },
     summary: 'La Laia busca la parada d’en Pau al lloc de sempre. Una feina al terra del mercat ha fet que aquell matí el trobi una mica més enllà.',

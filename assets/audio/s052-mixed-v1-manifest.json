@@ -1,0 +1,97 @@
+{
+  "code": "S052",
+  "activity": "ca-S052",
+  "state": "published",
+  "file": "s052-mixed-v1.mp3",
+  "introFile": "s052-mixed-v1-intro.mp3",
+  "bodyFile": "s052-mixed-v1-cos.mp3",
+  "offset": 4.65,
+  "bodyDuration": 106.5,
+  "fullDuration": 111.15,
+  "voices": {
+    "Laia": "Leda",
+    "Nora": "Kore"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "4029137e3ef3992d6500ac463d9bda81a70330519489e94b9b732c48068f744e",
+  "sourceRequestHash": "5395b329fe4e67858e8861921377e8630013c32c27673e25f90f5eaee7485d51",
+  "batch": "L15",
+  "rawSha256": "7b8e910f2884dbcda93a12fb898afa65755faefeec90b7a15a7eb273fd5fb5b3",
+  "takeSha256": "5e8bdea99d9ce8ab1aec05e35da534948c5ee2a99bc728186d444fcaf1bf7464",
+  "coverage": 0.9294478527607362,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.96,
+  "peakDbTP": -2.97,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "callmethefoo-744447",
+      "start": 0,
+      "source": "assets/audio/sources/callmethefoo-744447.mp3",
+      "sourceSha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
+      "sourceUrl": "https://freesound.org/people/callmethefoo/sounds/744447/",
+      "author": "callmethefoo",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.12,
+      "openingGain": 0.3,
+      "raisedGain": 0.4,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -46.416375079047505,
+      "lowPassHz": 1800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 12,
+        "seconds": 85.24
+      },
+      "envelope": {
+        "riseStart": 100.55999999999999,
+        "riseEnd": 101.36,
+        "holdSeconds": 1.940000000000012,
+        "fadeStart": 103.30000000000001,
+        "fadeEnd": 105.30000000000001
+      }
+    }
+  ],
+  "sha256": "1d0b54ea05ebe0a48cbe7df1071b67f211c4534992ddeed8e702e17b7870338c",
+  "voiceHandles": {
+    "body": {
+      "start": 0.7,
+      "end": 99.2,
+      "retainedPcmSha256": "3331b3a78f538d072fbf6b963b02aa3a388b9c83c9c9b7b8c28e1a02de64e56d",
+      "sourceSha256": "c171342d816d8fda715a6a9eb7820359ad8fd16f633793f8ade04ca46cae1c9b",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.28,
+      "end": 3.98,
+      "retainedPcmSha256": "aa353870b36a04af0c10eede0a3c3f22e3cb8a0273418d0d3fa45de230aa63d7",
+      "sourceSha256": "50726f7249f70a7a2effca03b58960de84ec0bd1359e69bd13c56c56050c1f17",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-23",
+    "sourceTakeSha256": "5e8bdea99d9ce8ab1aec05e35da534948c5ee2a99bc728186d444fcaf1bf7464",
+    "confirmation": "S052 validat per pujar a muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S052 validat per publicació definitiva",
+    "audioSha256": "1d0b54ea05ebe0a48cbe7df1071b67f211c4534992ddeed8e702e17b7870338c",
+    "editorialFingerprint": "5d6e18b1c55269962193e77148bf979b7480011d3d590ff9b395f1070d83747a",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/la-capsa-que-semblava-un-llibre-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
+  }
+}

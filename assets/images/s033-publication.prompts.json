@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "code": "S033",
+  "file": "qui-tria-que-es-mostra-v1.webp",
+  "references": [
+    "../characters/biel-model-sheet-v1.webp",
+    "../characters/nora-model-sheet-v1.webp"
+  ],
+  "prompt": "Use case: illustration-story. Create ONE new contextual image for Sentit printed listening-comprehension worksheet and catalogue, landscape3:2,1536x1024. Refined ink and soft watercolor on airy warm white paper, muted sage, charcoal, ochre and terracotta, edges fading naturally to white. Supplied canonical model sheets are IDENTITY AND STYLE references, not edit targets; preserve the exact faces, ages, skin tones, hairstyles and clothes. Never reproduce model-sheet layout or labels. Only the two specified characters, natural hands and practical engaged gestures, no posed portraits. No readable text, letters, numbers, logos, watermark or speech bubbles. Keep a clear small-size composition suitable at80mm printed width. Show context without providing any question answer. Reference order: image1=biel, image2=nora. Scene: Biel stands at the entrance to Nora’s busy-looking conservation workroom, holding a small audio recorder and raising his other hand to ask an interview question. Nora welcomes him with an open palm toward a broad workbench where all materials are completely draped under opaque loose cloths. Wider framing establishing workroom preparation for an exhibition, natural friendly engagement. Do not show recognizable household exhibits, plates, jewellery boxes, furniture drawers, cracked legs, repairs, photographs, display copies, labels, signs or a public exhibition layout."
+}

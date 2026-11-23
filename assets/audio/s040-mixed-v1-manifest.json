@@ -1,0 +1,97 @@
+{
+  "code": "S040",
+  "activity": "ca-S040",
+  "state": "published",
+  "file": "s040-mixed-v1.mp3",
+  "introFile": "s040-mixed-v1-intro.mp3",
+  "bodyFile": "s040-mixed-v1-cos.mp3",
+  "offset": 4.71,
+  "bodyDuration": 130.255,
+  "fullDuration": 134.965,
+  "voices": {
+    "Laia": "Leda",
+    "Nora": "Kore"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "4029137e3ef3992d6500ac463d9bda81a70330519489e94b9b732c48068f744e",
+  "sourceRequestHash": "2c272761f294618a282bd9a412a3608d22fdd29fe980d481438a77c3886208f8",
+  "batch": "L15",
+  "rawSha256": "7b8e910f2884dbcda93a12fb898afa65755faefeec90b7a15a7eb273fd5fb5b3",
+  "takeSha256": "4ee871db71b9d8181d98a0d29200e0d669c6485a60bb0c89fbcc8800613b78f6",
+  "coverage": 0.9312977099236641,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.99,
+  "peakDbTP": -2.52,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "callmethefoo-744447",
+      "start": 0,
+      "source": "assets/audio/sources/callmethefoo-744447.mp3",
+      "sourceSha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
+      "sourceUrl": "https://freesound.org/people/callmethefoo/sounds/744447/",
+      "author": "callmethefoo",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.12,
+      "openingGain": 0.3,
+      "raisedGain": 0.4,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -46.416375079047505,
+      "lowPassHz": 1800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 12,
+        "seconds": 85.24
+      },
+      "envelope": {
+        "riseStart": 124.37999166666667,
+        "riseEnd": 125.17999166666668,
+        "holdSeconds": 1.8750083333333265,
+        "fadeStart": 127.055,
+        "fadeEnd": 129.055
+      }
+    }
+  ],
+  "sha256": "8037444961d61e4df209109e2b4c6cf24991a65b803a0e0ef6121712639a9662",
+  "voiceHandles": {
+    "body": {
+      "start": 0.9022083333333333,
+      "end": 123.15720833333333,
+      "retainedPcmSha256": "db5264df03635cb13ece43754fa82a684dd1b6c052020b4bd055cda7a7889a5d",
+      "sourceSha256": "9c6fdf16072ed5f815029821dce338c7d8187480a15d9fa8a41f5198148be046",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.04,
+      "end": 3.8,
+      "retainedPcmSha256": "84401425a59f70f23f4933a398e9c12478d844f7e92e7409d9371e3607cad73f",
+      "sourceSha256": "9c4970097565d4509cee2601787ab2815b4936d05f407f0a9c3a04e42ef67ad6",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-23",
+    "sourceTakeSha256": "4ee871db71b9d8181d98a0d29200e0d669c6485a60bb0c89fbcc8800613b78f6",
+    "confirmation": "S040 validat per muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S040 validat per publicació definitiva",
+    "audioSha256": "8037444961d61e4df209109e2b4c6cf24991a65b803a0e0ef6121712639a9662",
+    "editorialFingerprint": "9b473e233db4c7f7f7b9196e420d424d957c6234b8fe9cad6d22cc003968e837",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/una-exposicio-que-es-pugui-escoltar-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
+  }
+}

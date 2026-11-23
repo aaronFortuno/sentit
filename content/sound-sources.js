@@ -393,7 +393,10 @@ export const soundSources = [
       "ca-S036",
       "ca-S040",
       "ca-S051",
-      "ca-S052"
+      "ca-S052",
+      "ca-S078",
+      "ca-S079",
+      "ca-S080"
     ],
     "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
   },
@@ -502,7 +505,9 @@ export const soundSources = [
     "sha256": "20f19e1eec5394003835bcc940e246b941b2dd733b062c2743dcef1443f7b0c1",
     "usedBy": [
       "ca-S007",
-      "ca-S062"
+      "ca-S062",
+      "ca-S066",
+      "ca-S067"
     ],
     "treatment": "Fragment del segon 5 al 95, amb foses creuades. Filtrat i molt atenuat sota les veus, entrada suau i pujada breu abans de la fosa final."
   },

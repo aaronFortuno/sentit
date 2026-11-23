@@ -8,8 +8,9 @@ const soundPlan = 'Entrada de dos segons d’estança enregistrada, sense conver
 export const nora = [
   proposal({
     id: 'el-cartellet-que-quedava-amagat', code: 'S051', title: 'El cartellet que quedava amagat', grade: '4', level: 'advanced', genre: 'dialogue', universeIds: ['radio-escola'],
+    image: {"src":"./assets/images/el-cartellet-que-quedava-amagat-v1.webp","alt":"La Laia grava la Nora mentre comproven la preparació d’una mostra en una taula de taller.","width":1536,"height":1024},
     recordingCues: [{"before":"hola","text":"Ambient real molt discret d’estança tranquil·la durant la conversa, amb entrada suau i molt baix sota les veus. Sense papers ni eines afegits."},{"after":"final","text":"La veu acaba completa. Marge breu, pujada del fons durant dos segons i fosa de dos segons; cap efecte de comiat afegit."}],
-    seconds: 114, status: 'ready-for-review', reviewStatus: 'audio-review',
+    seconds: 114, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s051-mixed-v1.mp3', tracks: { introduction: './assets/audio/s051-mixed-v1-intro.mp3', body: './assets/audio/s051-mixed-v1-cos.mp3' },
     fragment: { start: 4.590000000000001, seconds: 109 },
     summary: 'La Nora prepara una mostra d’objectes antics i demana a la Laia que provi de llegir-ne una explicació. Des de l’altra banda de la taula no es veu tan bé com semblava.',
@@ -43,8 +44,9 @@ export const nora = [
   }),
   proposal({
     id: 'la-capsa-que-semblava-un-llibre', code: 'S052', title: 'La capsa que semblava un llibre', grade: '4', level: 'middle', genre: 'interview', universeIds: ['radio-escola'],
+    image: {"src":"./assets/images/la-capsa-que-semblava-un-llibre-v1.webp","alt":"La Nora prepara una taula de taller amb paper de protecció mentre la Laia l’enregistra.","width":1536,"height":1024},
     recordingCues: [{"before":"hola","text":"Ambient real continu d’estança tranquil·la, molt discret sota les veus, amb entrada suau. Sense papers ni sons d’obertura afegits."},{"after":"final","text":"Deixar acabar tota la veu, pujar suaument el fons durant dos segons i fer una fosa de dos segons. Cap nova gravació ni efecte de comiat."}],
-    seconds: 112, status: 'ready-for-review', reviewStatus: 'audio-review',
+    seconds: 112, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s052-mixed-v1.mp3', tracks: { introduction: './assets/audio/s052-mixed-v1-intro.mp3', body: './assets/audio/s052-mixed-v1-cos.mp3' },
     fragment: { start: 4.65, seconds: 107 },
     summary: 'La Laia confon una capsa tancada amb un llibre antic. La Nora li mostra com s’obre i què n’ha explicat la família que l’ha portada.',

@@ -109,8 +109,9 @@ export const quart = [
   }),
   proposal({
     id: 'qui-tria-que-es-mostra', code: 'S033', title: 'Qui tria què es mostra?', grade: '4', level: 'middle', genre: 'interview', universeIds: ['radio-escola'],
+    image: {"src":"./assets/images/qui-tria-que-es-mostra-v1.webp","alt":"En Biel entrevista la Nora al taller on preparen material per a una exposició.","width":1536,"height":1024},
     recordingCues: [{"before":"hola","text":"Ambient real molt discret d’estança tranquil·la durant la conversa, amb entrada suau, pujada i fosa final. Sense papers ni eines afegits."},{"after":"adeu","text":"La veu acaba completa. Marge breu, pujada del fons durant dos segons i fosa de dos segons; cap efecte de comiat afegit."}],
-    seconds: 112, status: 'ready-for-review', reviewStatus: 'audio-review',
+    seconds: 112, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s033-mixed-v1.mp3', tracks: { introduction: './assets/audio/s033-mixed-v1-intro.mp3', body: './assets/audio/s033-mixed-v1-cos.mp3' },
     fragment: { start: 4.12, seconds: 108 },
     summary: 'En Biel visita el taller de la Nora, on preparen una exposició d’objectes antics de casa: plats, mobles i una capseta per guardar joies.',

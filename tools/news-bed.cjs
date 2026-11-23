@@ -1,0 +1,15 @@
+'use strict';
+// Same licensed programme identity as the validated news, for new voice-approved takes.
+const fs=require('node:fs/promises'),path=require('node:path'),{createHash}=require('node:crypto'),{ffmpeg}=require('./audio-files.cjs');
+async function makeNewsBed({folder,binary,total,voiceEnd,lead}){
+ if(![total,voiceEnd,lead].every(Number.isFinite)||lead<.8||voiceEnd<=lead||total<voiceEnd+4)throw Error('Invalid news bed timing or insufficient closing margin');
+ if(voiceEnd-lead+1.5>258.8)throw Error('News speech exceeds the crossfaded loop capacity');
+ const root=path.resolve(__dirname,'..'),credit=JSON.parse(await fs.readFile(path.join(root,'assets/audio/news-common-music.json'))),source=path.resolve(root,'../output/sentit-primera-tanda/sources/grand_project-breaking-news-background-music-505617.mp3'),bytes=await fs.readFile(source),hash=createHash('sha256').update(bytes).digest('hex');
+ if(hash!==credit.sourceSha256||credit.sourceNotDistributedSeparately!==true||credit.license!=='Pixabay Content License')throw Error('Unverified common news music');
+ const make=(name,args)=>{const file=path.join(folder,'news-'+name+'.wav');ffmpeg(binary,['-v','error','-y',...args,'-ar','48000','-ac','1','-c:a','pcm_s16le',file]);return file;},metadata=ffmpeg(binary,['-i',source,'-f','null','-']),match=/Duration: (\d+):(\d+):([\d.]+)/.exec(metadata);if(!match)throw Error('Music duration absent');const length=+match[1]*3600+(+match[2])*60+(+match[3]),speechSeconds=voiceEnd-lead;
+ const opening=make('opening',['-i',source,'-af','atrim=end=3.5,asetpts=PTS-STARTPTS,loudnorm=I=-22:TP=-5:LRA=7,afade=t=in:d=0.08,afade=t=out:st=2.7:d=0.8']),core=make('core',['-i',source,'-af','atrim=start=12:end=142,asetpts=PTS-STARTPTS,loudnorm=I=-22:TP=-5:LRA=7']),loop=make('loop',['-i',core,'-i',core,'-filter_complex','[0:a][1:a]acrossfade=d=1.2[out]','-map','[out]']);
+ const middle=make('middle',['-i',loop,'-af',`atrim=end=${speechSeconds+1.5},asetpts=PTS-STARTPTS,afade=t=in:d=0.8,afade=t=out:st=${speechSeconds+.5}:d=1,adelay=${Math.round((lead-.8)*1000)}:all=1`]),closing=make('closing',['-i',source,'-af',`atrim=start=${length-4.5},asetpts=PTS-STARTPTS,loudnorm=I=-22:TP=-5:LRA=7,afade=t=in:d=0.8,afade=t=out:st=3.5:d=1,adelay=${Math.round((voiceEnd-.5)*1000)}:all=1`]);
+ const file=make('bed',['-i',opening,'-i',middle,'-i',closing,'-filter_complex',`[0:a][1:a][2:a]amix=inputs=3:duration=longest:normalize=0,apad=pad_dur=${total},atrim=end=${total},volume='if(lt(t,${lead-.6}),0.6,if(lt(t,${lead}),0.6-0.52*(t-${lead-.6})/.6,if(lt(t,${voiceEnd}),.08,if(lt(t,${voiceEnd+.8}),.08+.52*(t-${voiceEnd})/.8,.6))))':eval=frame[out]`,'-map','[out]']);
+ const {usedBy,sourceSha256,...cleanCredit}=credit;return{file,effect:{name:credit.id,origin:'licensed-music-in-montage',start:0,underSpeech:true,credit:{...cleanCredit,source:'tools/news-bed.cjs'},sourceSha256:hash,voiceMarginTargetDb:25,sidechain:{threshold:.018,ratio:6,attackMs:12,releaseMs:450},openingSeconds:3.5,closingSeconds:4.5}};
+}
+module.exports={makeNewsBed};

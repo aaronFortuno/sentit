@@ -48,8 +48,9 @@ export const cinque = [
     ],
   }),  proposal({
     id: 'el-nom-de-lobjecte', code: 'S036', title: 'Una capseta misteriosa', grade: '5', level: 'easy', genre: 'interview', universeIds: ['radio-escola'],
+    image: {"src":"./assets/images/una-capseta-misteriosa-v1.webp","alt":"En Biel i la Nora examinen la informació d’un objecte que continua tapat amb una tela.","width":1536,"height":1024},
     recordingCues: [{"before":"salutacio","text":"Ambient real molt discret d’estança tranquil·la, sense eines ni sons de l’objecte. Entrada suau i fons molt baix durant la conversa."},{"after":"adeu","text":"La veu acaba completa. Marge breu, pujada del fons durant dos segons i fosa de dos segons; sense paper ni sintonia de comiat afegits."}],
-    seconds: 100, status: 'ready-for-review', reviewStatus: 'audio-review',
+    seconds: 100, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s036-mixed-v1.mp3', tracks: { introduction: './assets/audio/s036-mixed-v1-intro.mp3', body: './assets/audio/s036-mixed-v1-cos.mp3' },
     fragment: { start: 4.23, seconds: 95 },
     summary: 'En Biel troba una capseta de fusta al taller de la Nora. A la família recorden que servia per fer sabó, però un paper diu una altra cosa.',

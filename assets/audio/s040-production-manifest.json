@@ -1,7 +1,7 @@
 {
   "code": "S040",
   "activity": "ca-S040",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s040-mixed-v1.mp3",
   "introFile": "s040-mixed-v1-intro.mp3",
   "bodyFile": "s040-mixed-v1-cos.mp3",
@@ -79,5 +79,19 @@
     "approvedAt": "2026-11-23",
     "sourceTakeSha256": "4ee871db71b9d8181d98a0d29200e0d669c6485a60bb0c89fbcc8800613b78f6",
     "confirmation": "S040 validat per muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S040 validat per publicació definitiva",
+    "audioSha256": "8037444961d61e4df209109e2b4c6cf24991a65b803a0e0ef6121712639a9662",
+    "editorialFingerprint": "9b473e233db4c7f7f7b9196e420d424d957c6234b8fe9cad6d22cc003968e837",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/una-exposicio-que-es-pugui-escoltar-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

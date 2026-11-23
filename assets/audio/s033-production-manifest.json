@@ -1,7 +1,7 @@
 {
   "code": "S033",
   "activity": "ca-S033",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s033-mixed-v1.mp3",
   "introFile": "s033-mixed-v1-intro.mp3",
   "bodyFile": "s033-mixed-v1-cos.mp3",
@@ -79,5 +79,19 @@
     "approvedAt": "2026-11-23",
     "sourceTakeSha256": "477f735a0181ccb0c1327bf79b885e5383daed5674b32c55b7114b9913adb7b1",
     "confirmation": "S033 validat per muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S033 validat per publicació definitiva i recatalogat com a entrevista",
+    "audioSha256": "1a6797ab4788ad9547dcf0cc93ecee3b446f59f04a6301a870eab3dd75df4505",
+    "editorialFingerprint": "78057d818af76f754ac112a9dd21909917ebc33db3849f896953aac443ef1c68",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/qui-tria-que-es-mostra-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

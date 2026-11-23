@@ -1,6 +1,7 @@
 export const strings = {
   ca: {
     language: 'ca',
+    releaseTwelveFinalElevenMontages: 'Dotze comprensions definitives amb il·lustracions i transcripcions netes. Onze muntatges nous amb veus validades, pendents d’audició final; seguiment i crèdits actualitzats. S033 es manté com a entrevista. Cap síntesi nova.',
     releaseTwoMoreVoiceBatches: 'Veus rebudes de S063, S064, S065, S068D i S071D, més esmenes de S007, S024 i S069 per comparar. Dos lots complets addicionals; set peticions registrades, sense reintents. Tot pendent d’audició, sense substituir muntatges.',
     releaseThreeFinalPublications: 'S021, S037 i S043 definitives amb els àudios validats, il·lustracions de context i solucionaris nets. Seguiment i crèdits actualitzats; cap síntesi nova.',
     releaseVoiceBatchesAndMontages: 'Cinc lots rebuts amb veus per a catorze comprensions i esmenes de S029 i S082 per comparar. Dotze muntatges nous pendents d’audició, diàlegs i nivells ajustats. S061 espera la presentació i S081, dues esmenes de veu. Seguiment i crèdits actualitzats.',
@@ -286,6 +287,7 @@ export const strings = {
   },
   es: {
     language: 'es',
+    releaseTwelveFinalElevenMontages: 'Doce comprensiones definitivas con ilustraciones y transcripciones limpias. Once montajes nuevos con voces validadas, pendientes de escucha final; seguimiento y créditos actualizados. S033 se mantiene como entrevista. Sin síntesis nueva.',
     releaseTwoMoreVoiceBatches: 'Voces recibidas de S063, S064, S065, S068D y S071D, más correcciones de S007, S024 y S069 para comparar. Dos lotes completos adicionales; siete peticiones registradas, sin reintentos. Todo pendiente de escucha, sin sustituir montajes.',
     releaseThreeFinalPublications: 'S021, S037 y S043 definitivas con los audios validados, ilustraciones de contexto y solucionarios limpios. Seguimiento y créditos actualizados; sin síntesis nueva.',
     releaseVoiceBatchesAndMontages: 'Cinco lotes recibidos con voces para catorce comprensiones y correcciones de S029 y S082 para comparar. Doce montajes nuevos pendientes de escucha, diálogos y niveles ajustados. S061 espera la presentación y S081, dos correcciones de voz. Seguimiento y créditos actualizados.',

@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "code": "S046",
+  "file": "la-clau-del-davantal-v1.webp",
+  "references": [
+    "../characters/ferran-model-sheet-v1.webp",
+    "../characters/aina-model-sheet-v1.webp"
+  ],
+  "prompt": "Use case: illustration-story. Create ONE new contextual image for Sentit printed listening-comprehension worksheet and catalogue, landscape3:2,1536x1024. Refined ink and soft watercolor on airy warm white paper, muted sage, charcoal, ochre and terracotta, edges fading naturally to white. Supplied canonical model sheets are IDENTITY AND STYLE references, not edit targets; preserve the exact faces, ages, skin tones, hairstyles and clothes. Never reproduce model-sheet layout or labels. Only the two specified characters, natural hands and practical engaged gestures, no posed portraits. No readable text, letters, numbers, logos, watermark or speech bubbles. Keep a clear small-size composition suitable at80mm printed width. Show context without providing any question answer. Reference order: image1=ferran, image2=aina. Scene: Present-day warm home kitchen near a softly lit window. Ferran is seated telling Aina an amusing childhood memory, one hand near his temple as he tries to remember and the other open above the bare table. Aina leans on her elbows, absorbed and smiling in anticipation. A domestic storytelling moment, with a simple ceramic cup far to one side and a softly suggested window behind, intimate three-quarter composition. No flashback or extra people. Absolutely no key, hook, apron, calendar, broom, watering can, shed, flour, pockets or objects that reveal the search or hiding place."
+}

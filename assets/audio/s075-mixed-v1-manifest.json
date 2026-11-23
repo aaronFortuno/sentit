@@ -1,0 +1,97 @@
+{
+  "code": "S075",
+  "activity": "ca-S075",
+  "state": "published",
+  "file": "s075-mixed-v1.mp3",
+  "introFile": "s075-mixed-v1-intro.mp3",
+  "bodyFile": "s075-mixed-v1-cos.mp3",
+  "offset": 3.9299999999999997,
+  "bodyDuration": 102.45,
+  "fullDuration": 106.38,
+  "voices": {
+    "Laia": "Leda",
+    "Ona": "Sulafat"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "588839376334e915c4952fab7c33def098c4cfa5d066e7c5bbf7ef749940ae59",
+  "sourceRequestHash": "67770784574fc42a0c8fff15ae86101474e4be988056291fab4a4124a9f4e7bd",
+  "batch": "L16",
+  "rawSha256": "6a803d106a394c265de79093cdb57c8eab002a5249778599c28a6170ede7ebca",
+  "takeSha256": "2f8c6df7ca777752be1d310b2ea6c1309840af6d44fab593a7fc3cda9d68122d",
+  "coverage": 0.9464285714285714,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.91,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "vecera999-cafe-706805",
+      "start": 0,
+      "source": "assets/audio/sources/vecera999-cafe-706805.mp3",
+      "sourceSha256": "a5faa173bbc886eb77ebb5035631e56f912ceff988b8c3d8a417d887bd6dccc6",
+      "sourceUrl": "https://freesound.org/people/Vecera_999/sounds/706805/",
+      "author": "Vecera_999",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.12,
+      "openingGain": 0.3,
+      "raisedGain": 0.4,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -46.416375079047505,
+      "lowPassHz": 1800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 12,
+        "seconds": 90
+      },
+      "envelope": {
+        "riseStart": 96.45,
+        "riseEnd": 97.25000000000001,
+        "holdSeconds": 1.9999999999999858,
+        "fadeStart": 99.25,
+        "fadeEnd": 101.25
+      }
+    }
+  ],
+  "sha256": "fa91b0edd1e7cfacd4932bfbe3ef6928508fad6e471b3d114e883860e7919ee9",
+  "voiceHandles": {
+    "body": {
+      "start": 0.355,
+      "end": 94.805,
+      "retainedPcmSha256": "daf616ff025f78ecf25d85d8f57e85c0e90b473d99d931a713ebe8088e8d02e6",
+      "sourceSha256": "c7ecdc0e18a3bb5d9fb3d1ada310ebe8ea6ba4dd2212167a65cfc94b62efa6fe",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.265,
+      "end": 3.245,
+      "retainedPcmSha256": "dea29ecfebce63ec3660ed8ebcbf3c6dbdc15440e5a29bf8bd864afc1e7c6bea",
+      "sourceSha256": "d16a52adf35e9e7e7ee5543638965f3d5fc8fe33c6a105b2e0d87a68044cf4a0",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-23",
+    "sourceTakeSha256": "2f8c6df7ca777752be1d310b2ea6c1309840af6d44fab593a7fc3cda9d68122d",
+    "confirmation": "S075 validat per pujar a muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S075 validat per publicació definitiva",
+    "audioSha256": "fa91b0edd1e7cfacd4932bfbe3ef6928508fad6e471b3d114e883860e7919ee9",
+    "editorialFingerprint": "18a655dc02cd6d8756986fd69bd0b65575025ca4ea962add00a284a0a3ffb261",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/la-foto-del-plat-de-dema-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
+  }
+}

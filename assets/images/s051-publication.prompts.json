@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "code": "S051",
+  "file": "el-cartellet-que-quedava-amagat-v1.webp",
+  "references": [
+    "../characters/laia-model-sheet-v1.webp",
+    "../characters/nora-model-sheet-v1.webp"
+  ],
+  "prompt": "Use case: illustration-story. Create ONE new contextual image for Sentit printed listening-comprehension worksheet and catalogue, landscape3:2,1536x1024. Refined ink and soft watercolor on airy warm white paper, muted sage, charcoal, ochre and terracotta, edges fading naturally to white. Supplied canonical model sheets are IDENTITY AND STYLE references, not edit targets; preserve the exact faces, ages, skin tones, hairstyles and clothes. Never reproduce model-sheet layout or labels. Only the two specified characters, natural hands and practical engaged gestures, no posed portraits. No readable text, letters, numbers, logos, watermark or speech bubbles. Keep a clear small-size composition suitable at80mm printed width. Show context without providing any question answer. Reference order: image1=laia, image2=nora. Scene: Laia and Nora are testing the setup of a small display in a conservation workshop. Laia, carrying a small handheld audio recorder, has stepped back slightly from a wide worktable to look across it; Nora stands behind the table holding a single blank card near her own chest, explaining with a friendly gesture. View diagonally from the table end, with plain protective cloths and indistinct covered materials behind. Distinct active visitor-viewpoint check, not two people merely facing camera. Do NOT show a radio, any recognizable exhibit, a low cardboard stand, positioned caption cards, lettering, display-size comparisons or an item obscuring a caption. All papers blank."
+}

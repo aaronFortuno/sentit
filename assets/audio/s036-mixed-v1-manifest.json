@@ -1,0 +1,97 @@
+{
+  "code": "S036",
+  "activity": "ca-S036",
+  "state": "published",
+  "file": "s036-mixed-v1.mp3",
+  "introFile": "s036-mixed-v1-intro.mp3",
+  "bodyFile": "s036-mixed-v1-cos.mp3",
+  "offset": 4.23,
+  "bodyDuration": 94.83,
+  "fullDuration": 99.06,
+  "voices": {
+    "Biel": "Puck",
+    "Nora": "Kore"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "cf4fb54b372f5e1cb7545d9fa0b7d6a0309eedf94004593133ebe93bc0bb6bc6",
+  "sourceRequestHash": "ac90d9bb64927035baa03fb4b00437fa772d7aaeb009333cbdd7ca8deba3b5d5",
+  "batch": "L12",
+  "rawSha256": "018ab27e50093bb9938127f237c4b799037ac993b0fdec931093da7621e73b36",
+  "takeSha256": "db16b468c88444e3e67f2d6b53b65dc8ff6d663a869bdb6afee999839a8be528",
+  "coverage": 0.9366197183098591,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.32,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "callmethefoo-744447",
+      "start": 0,
+      "source": "assets/audio/sources/callmethefoo-744447.mp3",
+      "sourceSha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
+      "sourceUrl": "https://freesound.org/people/callmethefoo/sounds/744447/",
+      "author": "callmethefoo",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.12,
+      "openingGain": 0.3,
+      "raisedGain": 0.4,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -46.416375079047505,
+      "lowPassHz": 1800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 12,
+        "seconds": 85.24
+      },
+      "envelope": {
+        "riseStart": 88.97999999999999,
+        "riseEnd": 89.78,
+        "holdSeconds": 1.8500000000000085,
+        "fadeStart": 91.63000000000001,
+        "fadeEnd": 93.63000000000001
+      }
+    }
+  ],
+  "sha256": "18dfd2243b7ed9325cb7f96b596d37508d6c2bf1ad57fd322e1b91ef3461b2aa",
+  "voiceHandles": {
+    "body": {
+      "start": 0.355,
+      "end": 87.185,
+      "retainedPcmSha256": "541cc7f734a76f344c08faddf7e5715deec2167e8a8101c5d1ebd6e5f15aedac",
+      "sourceSha256": "da521eeb89ef8ec7ba6595e6aefe501b927cb6983bc8fabf05e9f21c198e17d0",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.19,
+      "end": 3.47,
+      "retainedPcmSha256": "9d9c8d6d11bce926e2df57ccaa00714d5436310161f4ef33bbe5c8d769ae562b",
+      "sourceSha256": "7cea114793645af5cb717b77c503130e8bc77f4e15e282cc29184f02d6e621a3",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-23",
+    "sourceTakeSha256": "db16b468c88444e3e67f2d6b53b65dc8ff6d663a869bdb6afee999839a8be528",
+    "confirmation": "S036 validat per muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S036 validat per publicació definitiva",
+    "audioSha256": "18dfd2243b7ed9325cb7f96b596d37508d6c2bf1ad57fd322e1b91ef3461b2aa",
+    "editorialFingerprint": "3cdbdb1c5feff302ecd4467e384319c46ff974e12e9b13e66a0cd6771f2aa27c",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/una-capseta-misteriosa-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
+  }
+}

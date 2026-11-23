@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "code": "S052",
+  "file": "la-capsa-que-semblava-un-llibre-v1.webp",
+  "references": [
+    "../characters/laia-model-sheet-v1.webp",
+    "../characters/nora-model-sheet-v1.webp"
+  ],
+  "prompt": "Use case: illustration-story. Create ONE new contextual image for Sentit printed listening-comprehension worksheet and catalogue, landscape3:2,1536x1024. Refined ink and soft watercolor on airy warm white paper, muted sage, charcoal, ochre and terracotta, edges fading naturally to white. Supplied canonical model sheets are IDENTITY AND STYLE references, not edit targets; preserve the exact faces, ages, skin tones, hairstyles and clothes. Never reproduce model-sheet layout or labels. Only the two specified characters, natural hands and practical engaged gestures, no posed portraits. No readable text, letters, numbers, logos, watermark or speech bubbles. Keep a clear small-size composition suitable at80mm printed width. Show context without providing any question answer. Reference order: image1=laia, image2=nora. Scene: Laia arrives for a small radio recording in Nora’s conservation workshop. Laia raises her handheld recorder while Nora unrolls a large blank protective paper mat across a bare workbench, looking up to answer her greeting. Side view with a simple metal storage rack of indistinct cloth-covered bundles behind. An active workshop-and-interview setup, distinct from handling exhibits. No box, book, letters, handwriting, pen nib, drawer, open interior, photographs, red or gold object or recognizable exhibit."
+}

@@ -145,8 +145,9 @@ export const troballes = [
   }),
   dialogue({
     id: 'dos-cartells-per-al-mateix-concert', code: 'S062', title: 'Dos cartells per al mateix concert', grade: '6', level: 'advanced',
+    image: {"src":"./assets/images/dos-cartells-per-al-mateix-concert-v1.webp","alt":"La Laia i en Biel comproven un missatge al mòbil, asseguts en un passadís.","width":1536,"height":1024},
     recordingCues: [{"before":"missatge","text":"Ambient real continu d’aula amb jovent parlant en veu baixa, molt atenuat sota Laia i Biel. Entrada suau i cap paper, cadira o altre efecte puntual afegit."},{"after":"final","text":"La veu acaba completa. Marge breu, pujada del fons durant dos segons i fosa de dos segons, sense cap altra locució."}],
-    seconds: 139, status: 'ready-for-review', reviewStatus: 'audio-review',
+    seconds: 139, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s062-mixed-v1.mp3', tracks: { introduction: './assets/audio/s062-mixed-v1-intro.mp3', body: './assets/audio/s062-mixed-v1-cos.mp3' },
     fragment: { start: 4.615, seconds: 134 },
     summary: 'Un missatge fa dubtar la Laia sobre l’hora del concert. Amb en Biel compara dos cartells i descobreix que la fotografia que s’està compartint és d’una versió anterior.',

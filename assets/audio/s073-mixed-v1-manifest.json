@@ -1,0 +1,97 @@
+{
+  "code": "S073",
+  "activity": "ca-S073",
+  "state": "published",
+  "file": "s073-mixed-v1.mp3",
+  "introFile": "s073-mixed-v1-intro.mp3",
+  "bodyFile": "s073-mixed-v1-cos.mp3",
+  "offset": 4.590000000000001,
+  "bodyDuration": 104.1,
+  "fullDuration": 108.69,
+  "voices": {
+    "Laia": "Leda",
+    "Ona": "Sulafat"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "588839376334e915c4952fab7c33def098c4cfa5d066e7c5bbf7ef749940ae59",
+  "sourceRequestHash": "3d05e881e0eaa3f0ed32e96ea756c884cb3ec53827309e2b30cedb24bfd85781",
+  "batch": "L16",
+  "rawSha256": "6a803d106a394c265de79093cdb57c8eab002a5249778599c28a6170ede7ebca",
+  "takeSha256": "0dbec55d65fb899a2169616a5d5067a12d8d72ded47dd354f8abe374a0e303ff",
+  "coverage": 0.9461077844311377,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.6,
+  "peakDbTP": -2.47,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "soundtasticpro-kitchen-484572",
+      "start": 0,
+      "source": "assets/audio/sources/soundtasticpro-484572-kitchen.mp3",
+      "sourceSha256": "1bd886bb25614d7e0768e77cd4200ad84f4db55f51257a5e16c11f47737155ad",
+      "sourceUrl": "https://freesound.org/people/SoundtasticPro/sounds/484572/",
+      "author": "SoundtasticPro",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.14,
+      "openingGain": 0.35,
+      "raisedGain": 0.45,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -45.07743928643524,
+      "lowPassHz": 1800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 5,
+        "seconds": 67.096
+      },
+      "envelope": {
+        "riseStart": 98.10001666666666,
+        "riseEnd": 98.90001666666667,
+        "holdSeconds": 1.9999833333333328,
+        "fadeStart": 100.9,
+        "fadeEnd": 102.9
+      }
+    }
+  ],
+  "sha256": "74c188f351a2947feba8194ea32c2e3800ed9795cfa2f366fe332232c568ea0f",
+  "voiceHandles": {
+    "body": {
+      "start": 0.12458333333333334,
+      "end": 96.22458333333333,
+      "retainedPcmSha256": "f426d8ce8b4fe4c1526e08c487bdbed6530f8774198db0ebb37b1a9877f0908c",
+      "sourceSha256": "173abce1874a16b53503aec39e8f0b0d7bc492a06798e45052190b4c78a61171",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.07,
+      "end": 3.71,
+      "retainedPcmSha256": "d6d19d411c2cfe08060ce8583cd7dc7036712e24241701a157d1b5b8363413da",
+      "sourceSha256": "db176260e52fd028ecc81fbc5a5756cffcda58a6f21517e5905d90616dca3593",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-23",
+    "sourceTakeSha256": "0dbec55d65fb899a2169616a5d5067a12d8d72ded47dd354f8abe374a0e303ff",
+    "confirmation": "S073 validat per pujar a muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S073 validat per publicació definitiva",
+    "audioSha256": "74c188f351a2947feba8194ea32c2e3800ed9795cfa2f366fe332232c568ea0f",
+    "editorialFingerprint": "4125af4fad1ad6ec2e874efe39f194d59a80d14c515852c7d36b2a47b3c211ba",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/el-dinar-que-surt-en-dues-tandes-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
+  }
+}

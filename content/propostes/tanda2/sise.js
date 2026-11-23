@@ -4,8 +4,9 @@ const soundCredits = 'Els ambients i els efectes puntuals s’obtindran d’enre
 export const sise = [
   proposal({
     id: 'una-exposicio-que-es-pugui-escoltar', code: 'S040', title: 'Una exposició que es pugui escoltar', grade: '6', level: 'easy', genre: 'interview', universeIds: ['radio-escola'],
+    image: {"src":"./assets/images/una-exposicio-que-es-pugui-escoltar-v1.webp","alt":"La Nora i la Laia preparen una gravació amb auriculars i un micròfon sobre una taula.","width":1536,"height":1024},
     recordingCues: [{"before":"hola","text":"Ambient real molt discret d’estança tranquil·la durant la conversa, amb entrada suau, pujada i fosa final. Sense papers ni eines afegits."},{"after":"adeu","text":"La veu acaba completa. Marge breu, pujada del fons durant dos segons i fosa de dos segons; cap efecte de comiat afegit."}],
-    seconds: 135, status: 'ready-for-review', reviewStatus: 'audio-review',
+    seconds: 135, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s040-mixed-v1.mp3', tracks: { introduction: './assets/audio/s040-mixed-v1-intro.mp3', body: './assets/audio/s040-mixed-v1-cos.mp3' },
     fragment: { start: 4.71, seconds: 130 },
     summary: 'La Laia visita una exposició d’objectes antics de casa i pregunta a la Nora com en preparen les descripcions per escoltar.',

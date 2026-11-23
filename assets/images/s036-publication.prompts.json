@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "code": "S036",
+  "file": "una-capseta-misteriosa-v1.webp",
+  "references": [
+    "../characters/biel-model-sheet-v1.webp",
+    "../characters/nora-model-sheet-v1.webp"
+  ],
+  "prompt": "Use case: illustration-story. Create ONE new contextual image for Sentit printed listening-comprehension worksheet and catalogue, landscape3:2,1536x1024. Refined ink and soft watercolor on airy warm white paper, muted sage, charcoal, ochre and terracotta, edges fading naturally to white. Supplied canonical model sheets are IDENTITY AND STYLE references, not edit targets; preserve the exact faces, ages, skin tones, hairstyles and clothes. Never reproduce model-sheet layout or labels. Only the two specified characters, natural hands and practical engaged gestures, no posed portraits. No readable text, letters, numbers, logos, watermark or speech bubbles. Keep a clear small-size composition suitable at80mm printed width. Show context without providing any question answer. Reference order: image1=biel, image2=nora. Scene: Biel leans forward curiously at Nora’s conservation workbench. Nora is examining a blank-backed information sheet while explaining, and a single indistinct object on the far side of the bench remains COMPLETELY hidden under a loose opaque protective cloth. Show neither its geometry nor its material. Close three-quarter framing, simple neutral workshop shelves, no tools in use. No visible box, mould, soap, cheese, book, photograph, label, title, date or indication of the object’s use; no revealing outline under the cloth."
+}

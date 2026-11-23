@@ -8,6 +8,10 @@ const soundPlan = (music, setting, detail) => `Base original proposada «${music
 export const records = [
   proposal({
     id: 'el-dinar-al-banc-de-lestacio', code: 'S068', title: 'El dinar al banc de l’estació', grade: '5', level: 'easy', genre: 'story', universeIds: ['aina-ferran'],
+    recordingCues: [{"before":"capsa","text":"Base original «Un dinar entre vies», molt suau sota Ferran. S’ometen els efectes puntuals d’estació i d’embolcall per mantenir el record seguit i sense pauses afegides."},{"after":"arribada","text":"La veu acaba completa. Marge breu, pujada suau del fons, dos segons de sosteniment i fosa de dos segons; sense efecte de comiat."}],
+    seconds: 104, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s068-mixed-v1.mp3', tracks: { introduction: './assets/audio/s068-mixed-v1-intro.mp3', body: './assets/audio/s068-mixed-v1-cos.mp3' },
+    fragment: { start: 4.15, seconds: 99 },
     summary: 'En Ferran recorda un viatge amb el pare i la mare. Un retard del tren va fer canviar el lloc del dinar, però una capsa de llauna va arribar igualment fins a casa de la tieta.',
     voices, delivery, soundCredits,
     editorialFocus: '5è accessible: reconstruir una seqüència de viatge, relacionar la preparació amb un canvi imprevist i distingir el destí de dos recipients. Vuit preguntes sense càlculs d’horaris ni informació externa.',

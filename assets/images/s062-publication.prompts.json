@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "code": "S062",
+  "file": "dos-cartells-per-al-mateix-concert-v1.webp",
+  "references": [
+    "../characters/laia-model-sheet-v1.webp",
+    "../characters/biel-model-sheet-v1.webp"
+  ],
+  "prompt": "Use case: illustration-story. Create ONE new contextual image for Sentit printed listening-comprehension worksheet and catalogue, landscape3:2,1536x1024. Refined ink and soft watercolor on airy warm white paper, muted sage, charcoal, ochre and terracotta, edges fading naturally to white. Supplied canonical model sheets are IDENTITY AND STYLE references, not edit targets; preserve the exact faces, ages, skin tones, hairstyles and clothes. Never reproduce model-sheet layout or labels. Only the two specified characters, natural hands and practical engaged gestures, no posed portraits. No readable text, letters, numbers, logos, watermark or speech bubbles. Keep a clear small-size composition suitable at80mm printed width. Show context without providing any question answer. Reference order: image1=laia, image2=biel. Scene: Laia and Biel pause on a low bench in an anonymous school corridor to check a phone message together. Laia extends her phone toward Biel, who leans in to look, one hand resting on a closed plain folder on his lap. The viewer sees ONLY the plain back of the phone, never its screen. Natural slightly puzzled expressions, a concrete checking-information action; medium-wide corridor setting. No posters, notices, clocks, numbers, doorways, green doors, dance costumes, library, readable notebook or symbols about a concert."
+}

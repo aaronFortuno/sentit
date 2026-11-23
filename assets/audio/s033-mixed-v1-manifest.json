@@ -1,0 +1,97 @@
+{
+  "code": "S033",
+  "activity": "ca-S033",
+  "state": "published",
+  "file": "s033-mixed-v1.mp3",
+  "introFile": "s033-mixed-v1-intro.mp3",
+  "bodyFile": "s033-mixed-v1-cos.mp3",
+  "offset": 4.12,
+  "bodyDuration": 107.55,
+  "fullDuration": 111.67,
+  "voices": {
+    "Biel": "Puck",
+    "Nora": "Kore"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "cf4fb54b372f5e1cb7545d9fa0b7d6a0309eedf94004593133ebe93bc0bb6bc6",
+  "sourceRequestHash": "721c65640ec567a0a597ef0dd92ea3aa0bf5108bb484c8769b7e1dae14a6dcb5",
+  "batch": "L12",
+  "rawSha256": "018ab27e50093bb9938127f237c4b799037ac993b0fdec931093da7621e73b36",
+  "takeSha256": "477f735a0181ccb0c1327bf79b885e5383daed5674b32c55b7114b9913adb7b1",
+  "coverage": 0.9465408805031447,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.96,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "callmethefoo-744447",
+      "start": 0,
+      "source": "assets/audio/sources/callmethefoo-744447.mp3",
+      "sourceSha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
+      "sourceUrl": "https://freesound.org/people/callmethefoo/sounds/744447/",
+      "author": "callmethefoo",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.12,
+      "openingGain": 0.3,
+      "raisedGain": 0.4,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -46.416375079047505,
+      "lowPassHz": 1800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 12,
+        "seconds": 85.24
+      },
+      "envelope": {
+        "riseStart": 101.54999999999998,
+        "riseEnd": 102.35,
+        "holdSeconds": 2.000000000000014,
+        "fadeStart": 104.35000000000001,
+        "fadeEnd": 106.35000000000001
+      }
+    }
+  ],
+  "sha256": "1a6797ab4788ad9547dcf0cc93ecee3b446f59f04a6301a870eab3dd75df4505",
+  "voiceHandles": {
+    "body": {
+      "start": 0.355,
+      "end": 99.905,
+      "retainedPcmSha256": "4823f2b09fa765d5ce44374f660be2c8812c866cebe75c3e34b7ef1e301487d0",
+      "sourceSha256": "31cc69e5632a90cc1d44f6ecab5d07ff9d09808e46578408731fce7e90c484a2",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0,
+      "end": 3.17,
+      "retainedPcmSha256": "314ec54b4c960a435bc339dfd2a231bd3d7e3e5c7a150eb20e21608b9a65778d",
+      "sourceSha256": "9ec753b4e5bed36301ba376c87b7e855b270ef97159408fbdff3a0d22fd87c38",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-23",
+    "sourceTakeSha256": "477f735a0181ccb0c1327bf79b885e5383daed5674b32c55b7114b9913adb7b1",
+    "confirmation": "S033 validat per muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S033 validat per publicació definitiva i recatalogat com a entrevista",
+    "audioSha256": "1a6797ab4788ad9547dcf0cc93ecee3b446f59f04a6301a870eab3dd75df4505",
+    "editorialFingerprint": "78057d818af76f754ac112a9dd21909917ebc33db3849f896953aac443ef1c68",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/qui-tria-que-es-mostra-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
+  }
+}

@@ -1,7 +1,7 @@
 {
   "code": "S077",
   "activity": "ca-S077",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s077-mixed-v1.mp3",
   "introFile": "s077-mixed-v1-intro.mp3",
   "bodyFile": "s077-mixed-v1-cos.mp3",
@@ -79,5 +79,19 @@
     "approvedAt": "2026-11-23",
     "sourceTakeSha256": "585f3e0362e18519b68b896adac013785cdaa6f0168bbb8ddab5675f8fdcbda6",
     "confirmation": "S077 validat per pujar a muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S077 validat per publicació definitiva",
+    "audioSha256": "17dcc6ee55bcbc926846d2cd20fd30d940d7c62ff2a1c8ac1d712ec99de27d03",
+    "editorialFingerprint": "24723a7df5eb73cc68bcc00a78a7d2e53e4660a4123c8225562461847c4184ae",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/el-sopar-que-havia-de-viatjar-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

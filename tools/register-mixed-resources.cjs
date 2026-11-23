@@ -24,6 +24,7 @@ async function main(){
    }
    if(effect.origin==='original-procedural-composition'){
     if(effect.compositionId&&!musicCatalogue.some(m=>m.id===effect.compositionId))musicCatalogue.push({id:effect.compositionId,title:effect.title,kind:'narration-bed',author:'Sentit',license:'MIT',licenseUrl:'https://github.com/aaronFortuno/sentit/blob/main/LICENSE',origin:'original-procedural',externalSamples:false,source:'tools/narration-bed.cjs',usedBy:[key],description:`Composició pròpia de piano suau i harmonia espaiada, ${effect.tempoBpm} pulsacions per minut; partitura determinista ${effect.scoreSeed}, fosa d’entrada, música atenuada sota la veu i pujada de dos segons seguida de fosa al final.`});
+    if(effect.compositionId){const composition=musicCatalogue.find(m=>m.id===effect.compositionId);if(!composition.usedBy.includes(key))composition.usedBy.push(key);if(effect.compositionId==='sentit-s046-v1'&&composition.usedBy.includes('ca-S046D'))composition.sharedReason='Composició compartida intencionadament entre S046 narrada i S046D dialogada, amb mescles i durades pròpies.';}
     descriptions.push(effect.jingleId?'Sintonia de programa «Ona curta» (MIT), només fora de la parla.':effect.compositionId?`Base original «${effect.title}» (MIT), molt baixa durant la narració, amb pujada i fosa final.`:'Dues notes originals de Sentit (MIT), fora de la parla.');continue;
    }
    let record=soundSources.find(s=>s.id===effect.name);

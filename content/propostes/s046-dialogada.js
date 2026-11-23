@@ -3,6 +3,10 @@ import { proposal, direction as d, spoken as s, question as q, evidence as e } f
 // Variant pròpia per validar; S046 narrada es conserva íntegra.
 export const s046Dialogada = proposal({
   id: 'la-clau-del-davantal-dialogada', code: 'S046D', title: 'La clau del davantal · versió dialogada', grade: '4', level: 'easy', genre: 'story', universeIds: ['aina-ferran'],
+    recordingCues: [{"before":"inici","text":"Base original «Una butxaca amb farina», compartida amb la versió narrada S046 i amb mescla pròpia. Molt suau sota Aina i Ferran, sense representar amb efectes les accions del record."},{"after":"comiat","text":"La veu acaba completa. Marge breu, pujada suau del fons, dos segons de sosteniment i fosa de dos segons; sense efecte de comiat."}],
+    seconds: 122, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s046d-mixed-v1.mp3', tracks: { introduction: './assets/audio/s046d-mixed-v1-intro.mp3', body: './assets/audio/s046d-mixed-v1-cos.mp3' },
+    fragment: { start: 5.430000000000001, seconds: 117 },
   summary: 'L’Aina pregunta a l’avi Ferran per l’hort de quan era petit. Ell recorda el matí que volia regar i va acabar buscant una clau per mitja cuina de la seva àvia.',
   voices: { Aina: 'Zephyr', Ferran: 'Algenib' },
   delivery: 'Aina conversa amb el seu avi Ferran en el present. Té de deu a dotze anys; escolta amb curiositat, prova d’endevinar on mirarien i reacciona amb humor a allò que li explica. Preguntes curtes i vocabulari corrent, sense fer d’entrevistadora ni resumir la història. Ferran recorda amb tendresa, nostàlgia discreta i humor sobre les seves pròpies petites ensopegades. Veu càlida i natural Algenib, sense caricatura de persona gran. La seva àvia s’esmenta dins del record i no té veu pròpia. Somriure lleu al final, sense tags vocals ni rialles afegides.',

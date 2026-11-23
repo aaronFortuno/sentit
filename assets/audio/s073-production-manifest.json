@@ -1,7 +1,7 @@
 {
   "code": "S073",
   "activity": "ca-S073",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s073-mixed-v1.mp3",
   "introFile": "s073-mixed-v1-intro.mp3",
   "bodyFile": "s073-mixed-v1-cos.mp3",
@@ -79,5 +79,19 @@
     "approvedAt": "2026-11-23",
     "sourceTakeSha256": "0dbec55d65fb899a2169616a5d5067a12d8d72ded47dd354f8abe374a0e303ff",
     "confirmation": "S073 validat per pujar a muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S073 validat per publicació definitiva",
+    "audioSha256": "74c188f351a2947feba8194ea32c2e3800ed9795cfa2f366fe332232c568ea0f",
+    "editorialFingerprint": "4125af4fad1ad6ec2e874efe39f194d59a80d14c515852c7d36b2a47b3c211ba",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/el-dinar-que-surt-en-dues-tandes-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

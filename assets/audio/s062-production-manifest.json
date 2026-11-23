@@ -1,7 +1,7 @@
 {
   "code": "S062",
   "activity": "ca-S062",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s062-mixed-v1.mp3",
   "introFile": "s062-mixed-v1-intro.mp3",
   "bodyFile": "s062-mixed-v1-cos.mp3",
@@ -79,5 +79,19 @@
     "approvedAt": "2026-11-23",
     "sourceTakeSha256": "676d4c4ceb31e8660214e30cc0a863bb1e3b496e2c7e8d4c57a6cd8b35f80441",
     "confirmation": "S062 validat per muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S062 validat per publicació definitiva",
+    "audioSha256": "54650118c8e8d32b9829f777b67ed447020f9ad267b3b3ee7c0e0080ad1cb249",
+    "editorialFingerprint": "55ae4db57e98fb7c67f2856ebaf38501ab46dda736b067b6b1c2515f23754038",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/dos-cartells-per-al-mateix-concert-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

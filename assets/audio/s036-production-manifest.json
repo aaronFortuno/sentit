@@ -1,7 +1,7 @@
 {
   "code": "S036",
   "activity": "ca-S036",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s036-mixed-v1.mp3",
   "introFile": "s036-mixed-v1-intro.mp3",
   "bodyFile": "s036-mixed-v1-cos.mp3",
@@ -79,5 +79,19 @@
     "approvedAt": "2026-11-23",
     "sourceTakeSha256": "db16b468c88444e3e67f2d6b53b65dc8ff6d663a869bdb6afee999839a8be528",
     "confirmation": "S036 validat per muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S036 validat per publicació definitiva",
+    "audioSha256": "18dfd2243b7ed9325cb7f96b596d37508d6c2bf1ad57fd322e1b91ef3461b2aa",
+    "editorialFingerprint": "3cdbdb1c5feff302ecd4467e384319c46ff974e12e9b13e66a0cd6771f2aa27c",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/una-capseta-misteriosa-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

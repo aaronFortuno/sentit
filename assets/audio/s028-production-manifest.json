@@ -1,7 +1,7 @@
 {
   "code": "S028",
   "activity": "ca-S028",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s028-mixed-v1.mp3",
   "introFile": "s028-mixed-v1-intro.mp3",
   "bodyFile": "s028-mixed-v1-cos.mp3",
@@ -79,5 +79,19 @@
     "approvedAt": "2026-11-23",
     "sourceTakeSha256": "f07de87cfb248b09c2936e6ed21bee71bef4799fa2c5b4bbaf4b0fd282bc08f5",
     "confirmation": "S028 validat per muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S028 validat per publicació definitiva",
+    "audioSha256": "453ab40c3fc67177775ca0aaa22bce17df3a4be3757bcf809af3dbe81df10690",
+    "editorialFingerprint": "60d237b4aca93b17fd9e1cc8de99be6b29477b994acb1e0d8c544e6d2f28a0ab",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/una-parada-abans-dobrir-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

@@ -1,0 +1,83 @@
+{
+  "code": "S078",
+  "activity": "ca-S078",
+  "state": "awaiting-montage-validation",
+  "file": "s078-mixed-v1.mp3",
+  "introFile": "s078-mixed-v1-intro.mp3",
+  "bodyFile": "s078-mixed-v1-cos.mp3",
+  "offset": 4.590000000000001,
+  "bodyDuration": 98.815,
+  "fullDuration": 103.405,
+  "voices": {
+    "Biel": "Puck",
+    "Elies": "Algieba"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "528f65283474a1f42bc1be0b2920865817daec53fc0f6634f693552abc5401f1",
+  "sourceRequestHash": "057a02d1c8d0b79b3c89c4c97456fc0c16e43e7dde1910a27faf6b592ff00322",
+  "batch": "L26",
+  "rawSha256": "8768d4734048911ee076d023c1f2476bd848c14f9b9833bf9e8134bbef20ff4d",
+  "takeSha256": "178b468baa695209c42fb464826273ac8d803632034bfb708b40f25648de4d57",
+  "coverage": 0.9298780487804879,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.95,
+  "peakDbTP": -2.44,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "callmethefoo-744447",
+      "start": 0,
+      "source": "assets/audio/sources/callmethefoo-744447.mp3",
+      "sourceSha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
+      "sourceUrl": "https://freesound.org/people/callmethefoo/sounds/744447/",
+      "author": "callmethefoo",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.12,
+      "openingGain": 0.3,
+      "raisedGain": 0.4,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -46.416375079047505,
+      "lowPassHz": 1800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 12,
+        "seconds": 85.24
+      },
+      "envelope": {
+        "riseStart": 92.91,
+        "riseEnd": 93.71000000000001,
+        "holdSeconds": 1.9050000000000011,
+        "fadeStart": 95.61500000000001,
+        "fadeEnd": 97.61500000000001
+      }
+    }
+  ],
+  "sha256": "e7e612a81ca956d6cf5c9aa07290aa6d9b962aca8a630f06f7fc51b5396830bc",
+  "voiceHandles": {
+    "body": {
+      "start": 0.415,
+      "end": 91.23,
+      "retainedPcmSha256": "4df64d0560a5bfa47a4cc16318be083e5e685dcce36060250a70d4d50d88abe8",
+      "sourceSha256": "a77f6e5bd47fb37b8c0a0eb237bc6e7e1bd0077e75d081640b4fccd9b9ecf136",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.01,
+      "end": 3.65,
+      "retainedPcmSha256": "dca3af3b250bc1ffc33dcd03093cc0b741ac0b1aa0d30454aeba5d7a74ee2945",
+      "sourceSha256": "c6267ce83a7b1b7d100fc32b6f1a28a54cd4b43d58a65afc6dc2addefa35fb1a",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-23",
+    "sourceTakeSha256": "178b468baa695209c42fb464826273ac8d803632034bfb708b40f25648de4d57",
+    "confirmation": "S078 validat per pujar a muntatge"
+  }
+}

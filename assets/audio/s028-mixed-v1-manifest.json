@@ -1,0 +1,97 @@
+{
+  "code": "S028",
+  "activity": "ca-S028",
+  "state": "published",
+  "file": "s028-mixed-v1.mp3",
+  "introFile": "s028-mixed-v1-intro.mp3",
+  "bodyFile": "s028-mixed-v1-cos.mp3",
+  "offset": 3.88,
+  "bodyDuration": 70.81,
+  "fullDuration": 74.69,
+  "voices": {
+    "Laia": "Leda",
+    "Pau": "Charon"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "3dc116c991de11e684329bf9e8f8214a417a540d0372103bba92af6fd28651bd",
+  "sourceRequestHash": "abf704b22ce5bf7f23ee2702bf07ff76e633d948563944f47fe33388cba1cb99",
+  "batch": "L14",
+  "rawSha256": "bc519edcb788dbca53d1267237717f32cf3720550451af3a218f2124f11a8820",
+  "takeSha256": "f07de87cfb248b09c2936e6ed21bee71bef4799fa2c5b4bbaf4b0fd282bc08f5",
+  "coverage": 0.9154929577464789,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.2,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "jmdh-covered-market-388315",
+      "start": 0,
+      "source": "assets/audio/sources/jmdh-388315-covered-market.mp3",
+      "sourceSha256": "491adb6958fbd12889734f9ccfbf488c9316d7addc0c1121630d1f315a136810",
+      "sourceUrl": "https://freesound.org/people/jmdh/sounds/388315/",
+      "author": "jmdh",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.14,
+      "openingGain": 0.35,
+      "raisedGain": 0.45,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -45.07743928643524,
+      "lowPassHz": 1800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 12,
+        "seconds": 80.51389583333334
+      },
+      "envelope": {
+        "riseStart": 64.88999999999999,
+        "riseEnd": 65.69,
+        "holdSeconds": 1.9200000000000017,
+        "fadeStart": 67.61,
+        "fadeEnd": 69.61
+      }
+    }
+  ],
+  "sha256": "453ab40c3fc67177775ca0aaa22bce17df3a4be3757bcf809af3dbe81df10690",
+  "voiceHandles": {
+    "body": {
+      "start": 0.205,
+      "end": 63.015,
+      "retainedPcmSha256": "1d4a06063dc0c3e18224fbb42bd75f0576f941338d7ade98aefa99c275af8c5c",
+      "sourceSha256": "d1e8390b813d693b53ec216dd1e0c37d0d18cefaf214f3995b781b7a79dd8031",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0,
+      "end": 2.93,
+      "retainedPcmSha256": "0823374f6518e5247d7a15d2db597077660d357064761743c93a17284c7edfc4",
+      "sourceSha256": "3aa5af4fd3505c98e16f88d961cb89f9dc6c889c9853837d8568930155cf286f",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-23",
+    "sourceTakeSha256": "f07de87cfb248b09c2936e6ed21bee71bef4799fa2c5b4bbaf4b0fd282bc08f5",
+    "confirmation": "S028 validat per muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S028 validat per publicació definitiva",
+    "audioSha256": "453ab40c3fc67177775ca0aaa22bce17df3a4be3757bcf809af3dbe81df10690",
+    "editorialFingerprint": "60d237b4aca93b17fd9e1cc8de99be6b29477b994acb1e0d8c544e6d2f28a0ab",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/una-parada-abans-dobrir-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
+  }
+}

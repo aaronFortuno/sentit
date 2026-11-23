@@ -10,6 +10,10 @@ const news = data => proposal({
 export const noticies = [
   news({
     id: 'la-pista-torna-a-obrir-al-vespre', code: 'S053', title: 'La pista torna a obrir al vespre', grade: '5', level: 'easy',
+    recordingCues: [{"before":"obertura","text":"Identitat comuna de les notícies de la Mar: «Breaking News Background Music», amb entrada, base contínua molt atenuada sota la veu i sortida completa. Sense papers ni altres efectes afegits."},{"after":"final","text":"La veu acaba completa. La sortida de la música comuna s’alinea amb el final de la notícia i es fon sense sons afegits."}],
+    seconds: 103, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s053-mixed-v1.mp3', tracks: { introduction: './assets/audio/s053-mixed-v1-intro.mp3', body: './assets/audio/s053-mixed-v1-cos.mp3' },
+    fragment: { start: 6.11, seconds: 96 },
     summary: 'La Mar explica la reobertura d’una pista després d’arreglar-ne els llums i diferencia els horaris d’entrenament de les estones d’ús lliure.',
     editorialFocus: '5è accessible: seguir dues franges amb usos diferents, entendre una causa explícita i localitzar un servei. Vuit preguntes, amb una relació entre el problema anterior i el canvi actual; horaris ficticis d’aquest equipament.',
     soundPlan: 'Ona curta a l’obertura i al tancament, fora de la veu. Ambient real de pista amb bots molt breus abans del primer torn, baixat del tot durant la informació. Pausa de respiració al canvi entre horaris i ús lliure. Després de la notícia, dos segons d’ambient discret i fosa de dos segons; cap xiulet ni veu d’entrenador.',
@@ -38,6 +42,10 @@ export const noticies = [
   }),
   news({
     id: 'una-finestra-per-recollir-els-encarrecs', code: 'S054', title: 'Una finestra per recollir els encàrrecs', grade: '5', level: 'middle',
+    recordingCues: [{"before":"inici","text":"Identitat comuna de les notícies de la Mar: «Breaking News Background Music», amb entrada, base contínua molt atenuada sota la veu i sortida completa. Sense papers ni altres efectes afegits."},{"after":"final","text":"La veu acaba completa. La sortida de la música comuna s’alinea amb el final de la notícia i es fon sense sons afegits."}],
+    seconds: 106, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s054-mixed-v1.mp3', tracks: { introduction: './assets/audio/s054-mixed-v1-intro.mp3', body: './assets/audio/s054-mixed-v1-cos.mp3' },
+    fragment: { start: 6.25, seconds: 99 },
     summary: 'Un forn del barri prova una segona manera de recollir compres preparades. La Mar explica què ha canviat després del primer dissabte.',
     editorialFocus: '5è intermèdia: relacionar una incidència amb una modificació concreta, distingir dues vies de compra i atribuir el resultat a una prova limitada. Vuit preguntes sense càlcul de preus ni coneixement comercial.',
     soundPlan: 'Ona curta a l’entrada i al tancament. Ambient real de botiga abans de la veu, sense paraules intel·ligibles, i bossa de paper real a la pausa central. Cap caixa registradora que tapi una dada ni timbre de torn inventat. Locució neta i foses curtes amb marges.',
@@ -125,6 +133,10 @@ export const noticies = [
   }),
   news({
     id: 'la-volta-nova-del-bus-de-dissabte', code: 'S057', title: 'La volta nova del bus de dissabte', grade: '6', level: 'advanced',
+    recordingCues: [{"before":"inici","text":"Identitat comuna de les notícies de la Mar: «Breaking News Background Music», amb entrada, base contínua molt atenuada sota la veu i sortida completa. Sense papers ni altres efectes afegits."},{"after":"final","text":"La veu acaba completa. La sortida de la música comuna s’alinea amb el final de la notícia i es fon sense sons afegits."}],
+    seconds: 158, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s057-mixed-v1.mp3', tracks: { introduction: './assets/audio/s057-mixed-v1-intro.mp3', body: './assets/audio/s057-mixed-v1-cos.mp3' },
+    fragment: { start: 5.915, seconds: 151 },
     summary: 'Un autobús canvia una part del recorregut dels dissabtes per acostar-se al mercat. La Mar recull què ha passat durant la primera prova i quins ajustos es faran al següent viatge.',
     editorialFocus: '6è avançada: diferenciar canvis de recorregut, canvis d’horari i resultats d’una primera prova; contrastar dos casos de passatgers i explicar una compensació concreta. Nou preguntes amb síntesi entre passatges. Servei i dades completament ficticis.',
     soundPlan: 'Ona curta abans i després de la locució. Dos segons d’autobús enregistrat a l’entrada i un ambient curt de parada en una pausa central, sense avisos orals ni sirenes. Veu neta durant els noms de lloc i les relacions temporals; no fer sonar un motor accelerat per suggerir pressa.',

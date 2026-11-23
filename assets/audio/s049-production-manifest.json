@@ -1,7 +1,7 @@
 {
   "code": "S049",
   "activity": "ca-S049",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s049-mixed-v1.mp3",
   "introFile": "s049-mixed-v1-intro.mp3",
   "bodyFile": "s049-mixed-v1-cos.mp3",
@@ -79,5 +79,19 @@
     "approvedAt": "2026-11-23",
     "sourceTakeSha256": "fa33487137e02a8723393c4eb27b9a6782e321706b8342275524f521cee055ca",
     "confirmation": "S049 validat per muntatge i recatalogat com a diàleg"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S049 validat per publicació definitiva",
+    "audioSha256": "22f060b6dda803350fe0cbed5ab030058f1a5a7c5e11613196dc854c9913f565",
+    "editorialFingerprint": "2d5fdedf58a87030150579d5c4d9a88b172fc0c1aa19af753f5a64c063c49889",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/la-parada-es-mou-un-mati-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

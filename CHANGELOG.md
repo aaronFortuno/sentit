@@ -1,5 +1,13 @@
 # Canvis
 
+## 0.1.89 · 23 de novembre de 2026
+
+- Publicació definitiva de S028, S033, S036, S040, S046, S049, S051, S052, S062, S073, S075 i S077, amb els màsters aprovats conservats. S033 queda classificada com a entrevista.
+- Dotze il·lustracions contextuals coherents amb els models i sense respostes exposades. Cards, fitxes i transcripcions netes amb imatge opcional, 80 mm a la dreta per defecte; escaletes conservades als registres de treball.
+- Primers muntatges de S046D, S053, S054, S057, S066, S067, S068, S069D, S078, S079 i S080 després de l’audició i aprovació docent de les seves veus. Fons continus discrets, composicions pròpies o música comuna del noticiari; tots pendents d’audició del muntatge.
+- S066 es manté a 6è intermèdia, amb qualificació pendent de confirmar; S067 conserva 1r d’ESO intermèdia. Cap síntesi nova ni esmena de veu aplicada sense validar-la.
+- Seguiment, publicacions finalitzades, crèdits i cues actualitzats, amb revisió independent i comprovacions locals dels materials i reproductors.
+
 ## 0.1.88 · 23 de novembre de 2026
 
 - Dos lots complets addicionals, L27 i L28, amb cinc comprensions per revisar les veus: S063, S064, S065, S068D i S071D. Previsions de 6:08 i 6:05 completades amb esmenes compatibles, sense allargar els guions ni afegir marques de pausa parlades.

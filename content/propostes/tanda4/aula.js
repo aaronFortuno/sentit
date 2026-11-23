@@ -105,6 +105,10 @@ export const aula = [
   }),
   proposal({
     id: 'el-mapa-de-sons-del-passadis', code: 'S066', title: 'El mapa de sons del passadís', grade: '6', level: 'middle', genre: 'instructions', universeIds: ['amb-mireia'],
+    recordingCues: [{"before":"inici","text":"Ambient real continu d’aula amb jovent, molt discret sota les dues veus, amb entrada suau. Sense papers, cadires ni altres efectes puntuals afegits."},{"after":"final","text":"La veu acaba completa. Marge breu, pujada suau del fons, dos segons de sosteniment i fosa de dos segons; sense efecte de comiat."}],
+    seconds: 161, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s066-mixed-v1.mp3', tracks: { introduction: './assets/audio/s066-mixed-v1-intro.mp3', body: './assets/audio/s066-mixed-v1-cos.mp3' },
+    fragment: { start: 4.630000000000001, seconds: 156 },
     summary: 'La classe prepara un recorregut sonor per a la jornada de portes obertes. En Biel porta una gravació del passadís i, en escoltar-la amb la Mireia, s’adonen que hi passen coses en moments diferents.',
     voices, delivery, soundCredits, soundPlan,
     editorialFocus: '6è intermèdia: seguir canvis de lloc i moment dins d’una gravació, distingir sons simultanis i successius i relacionar l’edició amb la finalitat de la proposta. Vuit preguntes; cap coneixement de programes d’edició. Qualificació per confirmar amb l’audició del muntatge.',
@@ -140,6 +144,10 @@ export const aula = [
   }),
   proposal({
     id: 'la-mateixa-pregunta', code: 'S067', title: 'La mateixa pregunta?', grade: 'eso1', level: 'middle', genre: 'explanation', universeIds: ['amb-mireia'],
+    recordingCues: [{"before":"inici","text":"Ambient real continu d’aula amb jovent, molt discret sota les dues veus, amb entrada suau. Sense papers, cadires ni altres efectes puntuals afegits."},{"after":"final","text":"La veu acaba completa. Marge breu, pujada suau del fons, dos segons de sosteniment i fosa de dos segons; sense efecte de comiat."}],
+    seconds: 164, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s067-mixed-v1.mp3', tracks: { introduction: './assets/audio/s067-mixed-v1-intro.mp3', body: './assets/audio/s067-mixed-v1-cos.mp3' },
+    fragment: { start: 4.32, seconds: 159 },
     summary: 'Dos grups de classe han preguntat pels llibres que llegeixen els companys i han obtingut respostes molt diferents. En Biel i la Mireia comparen què havia preguntat realment cadascú.',
     voices, delivery, soundCredits, soundPlan,
     editorialFocus: '1r d’ESO intermèdia: relacionar una resposta amb la pregunta que l’ha provocada, revisar una comparació i conservar informació sense barrejar-ne els referents. Nou preguntes amb cites exactes i inferències sobre el procediment concret.',

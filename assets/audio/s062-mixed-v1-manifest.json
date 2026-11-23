@@ -1,0 +1,97 @@
+{
+  "code": "S062",
+  "activity": "ca-S062",
+  "state": "published",
+  "file": "s062-mixed-v1.mp3",
+  "introFile": "s062-mixed-v1-intro.mp3",
+  "bodyFile": "s062-mixed-v1-cos.mp3",
+  "offset": 4.615,
+  "bodyDuration": 134.13,
+  "fullDuration": 138.745,
+  "voices": {
+    "Laia": "Leda",
+    "Biel": "Puck"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "f1a68c184a8ed0118f14d57dc5a685880f5b7affe7562ae9d14cbc273639f768",
+  "sourceRequestHash": "f7b7978840883110f5deaa867fdbd3ad2c5457db0a8818093cbb267e8ce7550b",
+  "batch": "L18",
+  "rawSha256": "31d64681f63f83a2ea00ceaae4e856d2c22a5a1c3eaa089c652442b3ecebf497",
+  "takeSha256": "676d4c4ceb31e8660214e30cc0a863bb1e3b496e2c7e8d4c57a6cd8b35f80441",
+  "coverage": 0.8979166666666667,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.67,
+  "peakDbTP": -2.36,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "kyles-450728",
+      "start": 0,
+      "source": "assets/audio/sources/kyles-450728.mp3",
+      "sourceSha256": "20f19e1eec5394003835bcc940e246b941b2dd733b062c2743dcef1443f7b0c1",
+      "sourceUrl": "https://freesound.org/people/kyles/sounds/450728/",
+      "author": "kyles",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.12,
+      "openingGain": 0.3,
+      "raisedGain": 0.4,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -46.416375079047505,
+      "lowPassHz": 1800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 5,
+        "seconds": 90
+      },
+      "envelope": {
+        "riseStart": 128.25,
+        "riseEnd": 129.05,
+        "holdSeconds": 1.8799999999999955,
+        "fadeStart": 130.93,
+        "fadeEnd": 132.93
+      }
+    }
+  ],
+  "sha256": "54650118c8e8d32b9829f777b67ed447020f9ad267b3b3ee7c0e0080ad1cb249",
+  "voiceHandles": {
+    "body": {
+      "start": 0.3235,
+      "end": 126.4535,
+      "retainedPcmSha256": "0129fe035643e29f13301406891368d875e60be68fa6202c3e15b70555d44a86",
+      "sourceSha256": "9458987328c01b3ba22a5c438042686fa24ad25ccbebdf22f3c40c9c20e01e94",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0,
+      "end": 3.665,
+      "retainedPcmSha256": "d478887dd796d8bbec96b2321b39095e0cb4a489d9aff0cea90bb71209fda896",
+      "sourceSha256": "0360b43bddf59257dd01ab437b270bdbe0dd745db618543c682548f0809fb00c",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-23",
+    "sourceTakeSha256": "676d4c4ceb31e8660214e30cc0a863bb1e3b496e2c7e8d4c57a6cd8b35f80441",
+    "confirmation": "S062 validat per muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S062 validat per publicació definitiva",
+    "audioSha256": "54650118c8e8d32b9829f777b67ed447020f9ad267b3b3ee7c0e0080ad1cb249",
+    "editorialFingerprint": "55ae4db57e98fb7c67f2856ebaf38501ab46dda736b067b6b1c2515f23754038",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/dos-cartells-per-al-mateix-concert-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
+  }
+}

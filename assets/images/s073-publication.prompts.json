@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "code": "S073",
+  "file": "el-dinar-que-surt-en-dues-tandes-v1.webp",
+  "references": [
+    "../characters/laia-model-sheet-v1.webp",
+    "../characters/ona-model-sheet-v1.webp"
+  ],
+  "prompt": "Use case: illustration-story. Create ONE new contextual image for Sentit printed listening-comprehension worksheet and catalogue, landscape3:2,1536x1024. Refined ink and soft watercolor on airy warm white paper, muted sage, charcoal, ochre and terracotta, edges fading naturally to white. Supplied canonical model sheets are IDENTITY AND STYLE references, not edit targets; preserve the exact faces, ages, skin tones, hairstyles and clothes. Never reproduce model-sheet layout or labels. Only the two specified characters, natural hands and practical engaged gestures, no posed portraits. No readable text, letters, numbers, logos, watermark or speech bubbles. Keep a clear small-size composition suitable at80mm printed width. Show context without providing any question answer. Reference order: image1=laia, image2=ona. Scene: Laia and chef Ona discuss organising a group meal in a quiet side corner of a professional kitchen. Ona has paused beside the service hatch with sleeves rolled, indicating the general dining area beyond; Laia holds a small audio recorder and listens with an interested half-raised hand. Bare stainless steel counter and a single indistinct EMPTY table in the distance. No served food, plates or piles of plates, clocks, windows identifying where groups sit, room doors, lists, groups of diners, seating plan or transport trays. Specific group-catering preparation context but none of its decisions illustrated."
+}

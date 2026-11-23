@@ -1,7 +1,7 @@
 {
   "code": "S052",
   "activity": "ca-S052",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s052-mixed-v1.mp3",
   "introFile": "s052-mixed-v1-intro.mp3",
   "bodyFile": "s052-mixed-v1-cos.mp3",
@@ -79,5 +79,19 @@
     "approvedAt": "2026-11-23",
     "sourceTakeSha256": "5e8bdea99d9ce8ab1aec05e35da534948c5ee2a99bc728186d444fcaf1bf7464",
     "confirmation": "S052 validat per pujar a muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S052 validat per publicació definitiva",
+    "audioSha256": "1d0b54ea05ebe0a48cbe7df1071b67f211c4534992ddeed8e702e17b7870338c",
+    "editorialFingerprint": "5d6e18b1c55269962193e77148bf979b7480011d3d590ff9b395f1070d83747a",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/la-capsa-que-semblava-un-llibre-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

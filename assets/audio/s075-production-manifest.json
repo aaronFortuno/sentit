@@ -1,7 +1,7 @@
 {
   "code": "S075",
   "activity": "ca-S075",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s075-mixed-v1.mp3",
   "introFile": "s075-mixed-v1-intro.mp3",
   "bodyFile": "s075-mixed-v1-cos.mp3",
@@ -79,5 +79,19 @@
     "approvedAt": "2026-11-23",
     "sourceTakeSha256": "2f8c6df7ca777752be1d310b2ea6c1309840af6d44fab593a7fc3cda9d68122d",
     "confirmation": "S075 validat per pujar a muntatge"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S075 validat per publicació definitiva",
+    "audioSha256": "fa91b0edd1e7cfacd4932bfbe3ef6928508fad6e471b3d114e883860e7919ee9",
+    "editorialFingerprint": "18a655dc02cd6d8756986fd69bd0b65575025ca4ea962add00a284a0a3ffb261",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/la-foto-del-plat-de-dema-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

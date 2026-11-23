@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-23",
+  "tool": "image_gen built-in",
+  "code": "S040",
+  "file": "una-exposicio-que-es-pugui-escoltar-v1.webp",
+  "references": [
+    "../characters/laia-model-sheet-v1.webp",
+    "../characters/nora-model-sheet-v1.webp"
+  ],
+  "prompt": "Use case: illustration-story. Create ONE new contextual image for Sentit printed listening-comprehension worksheet and catalogue, landscape3:2,1536x1024. Refined ink and soft watercolor on airy warm white paper, muted sage, charcoal, ochre and terracotta, edges fading naturally to white. Supplied canonical model sheets are IDENTITY AND STYLE references, not edit targets; preserve the exact faces, ages, skin tones, hairstyles and clothes. Never reproduce model-sheet layout or labels. Only the two specified characters, natural hands and practical engaged gestures, no posed portraits. No readable text, letters, numbers, logos, watermark or speech bubbles. Keep a clear small-size composition suitable at80mm printed width. Show context without providing any question answer. Reference order: image1=laia, image2=nora. Scene: Laia interviews Nora about making audio descriptions, at a quiet recording desk within a conservation workshop. Nora gently sets a pair of simple over-ear headphones on an otherwise clear table while Laia holds a small recorder toward her and asks a question. A modest desk microphone and plain sound-absorbing panel can establish the recording task, with no screens or written scripts. No jewellery box or recognizable exhibited object, colour coding, dimensional comparisons, audience, trial visitors, music symbols or text."
+}

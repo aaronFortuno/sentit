@@ -21,6 +21,17 @@ Object.assign(recipes,{
  S077:{ambient:'soundtasticpro-kitchen-484572',ambientFrom:5,bed:true,events:[],ending:'ambient',lead:2,tail:5.4,titleGap:.4,cleanHandles:true,bedFadeSeconds:2,bedOpeningGain:.35,bedSpeechGain:.14,bedRaisedGain:.45},
  S075:{ambient:'vecera999-cafe-706805',ambientFrom:12,bed:true,events:[],ending:'ambient',lead:2,tail:5.4,titleGap:.4,cleanHandles:true,bedFadeSeconds:2,bedOpeningGain:.3,bedSpeechGain:.12,bedRaisedGain:.4},
  S062:{ambient:'kyles-450728',ambientFrom:5,bed:true,events:[],ending:'ambient',lead:2,tail:5.4,titleGap:.4,cleanHandles:true,bedFadeSeconds:2,bedOpeningGain:.3,bedSpeechGain:.12,bedRaisedGain:.4},
+ S079:{ambient:'callmethefoo-744447',ambientFrom:12,bed:true,events:[],ending:'ambient',lead:2,tail:5.4,titleGap:.4,cleanHandles:true,bedFadeSeconds:2,bedOpeningGain:.3,bedSpeechGain:.12,bedRaisedGain:.4},
+ S078:{ambient:'callmethefoo-744447',ambientFrom:12,bed:true,events:[],ending:'ambient',lead:2,tail:5.4,titleGap:.4,cleanHandles:true,bedFadeSeconds:2,bedOpeningGain:.3,bedSpeechGain:.12,bedRaisedGain:.4},
+ S080:{ambient:'callmethefoo-744447',ambientFrom:12,bed:true,events:[],ending:'ambient',lead:2,tail:5.4,titleGap:.4,cleanHandles:true,bedFadeSeconds:2,bedOpeningGain:.3,bedSpeechGain:.12,bedRaisedGain:.4},
+ S046D:{music:true,events:[],ending:'ambient',lead:1.6,tail:5.6,titleGap:.4,cleanHandles:true,preserveBodyEnd:true},
+ S057:{newsMusic:true,events:[],ending:'ambient',lead:2.5,tail:4.25,titleGap:.65,cleanHandles:true},
+ S054:{newsMusic:true,events:[],ending:'ambient',lead:2.5,tail:4.25,titleGap:.65,cleanHandles:true},
+ S053:{newsMusic:true,events:[],ending:'ambient',lead:2.5,tail:4.25,titleGap:.65,cleanHandles:true},
+ S066:{ambient:'kyles-450728',ambientFrom:5,bed:true,events:[],ending:'ambient',lead:2,tail:5.4,titleGap:.4,cleanHandles:true,bedFadeSeconds:2,bedOpeningGain:.3,bedSpeechGain:.12,bedRaisedGain:.4},
+ S067:{ambient:'kyles-450728',ambientFrom:5,bed:true,events:[],ending:'ambient',lead:2,tail:5.4,titleGap:.4,cleanHandles:true,bedFadeSeconds:2,bedOpeningGain:.3,bedSpeechGain:.12,bedRaisedGain:.4},
+ S068:{music:true,events:[],ending:'ambient',lead:1.6,tail:5.6,titleGap:.4,cleanHandles:true,preserveBodyEnd:true},
+ S069D:{music:true,events:[],ending:'ambient',lead:1.6,tail:5.6,titleGap:.4,cleanHandles:true,preserveBodyEnd:true},
  S050:{ambient:'jmdh-covered-market-388315',ambientFrom:12,bed:true,events:[],ending:'ambient',lead:1.6,tail:5.4,titleGap:.4,cleanHandles:true,bedFadeSeconds:2},
  S048:{ambient:'jmdh-covered-market-388315',ambientFrom:12,bed:true,events:[],ending:'ambient',lead:1.6,tail:5.4,titleGap:.4,cleanHandles:true,bedFadeSeconds:2},
  S047:{music:true,events:[],ending:'ambient',lead:1.6,tail:5.6,titleGap:.4,cleanHandles:true,opening:[{source:'throndronis-799526',from:12,seconds:1.4,at:0}],overlays:[{after:'tren',source:'throndronis-799526',from:16,seconds:1,lufs:-41}]},
@@ -77,6 +88,7 @@ async function main(){
  const inputs=[voice],effects=[];function add(file,at,source,details={}){inputs.push(file);effects.push({name:source.id,start:at,source:source.file,sourceSha256:source.sha256,sourceUrl:source.url,author:source.author??source.id.split('-')[0],license:source.license,...details});}
  if(ambient&&!recipe.bed){const opening=wav('ambient-opening',['-i',path.join(root,ambient.file),'-af',`atrim=start=${recipe.ambientFrom}:end=${recipe.ambientFrom+2},asetpts=PTS-STARTPTS,loudnorm=I=-29:TP=-9:LRA=5,afade=t=in:d=0.2,afade=t=out:st=1.5:d=0.5`]);add(opening,0,ambient,{excerpt:{start:recipe.ambientFrom,seconds:2},underSpeech:false});}
  const voiceEnd=lead+take.spans.at(-1).end-take.titleCut-bodyTrimStart+events.reduce((n,e)=>n+e.gap,0);
+ if(recipe.newsMusic){const bed=await require('./news-bed.cjs').makeNewsBed({folder:output,binary,total,voiceEnd,lead});inputs.push(bed.file);effects.push(bed.effect);}
  if(recipe.music){const music=await makeBed({code,title:entry.title,folder:output,binary,duration:total,lead,voiceEnd});inputs.push(music.file);effects.push({...music.effect,start:0,underSpeech:true});}
  if(ambient&&recipe.bed){
   const room=wav('room-excerpt',['-i',path.join(root,ambient.file),'-af',`atrim=start=${recipe.ambientFrom}:end=${recipe.ambientFrom+90},asetpts=PTS-STARTPTS,highpass=f=100,lowpass=f=1800,loudnorm=I=-28:TP=-9:LRA=6,aresample=48000`]);
@@ -98,6 +110,7 @@ async function main(){
   const closing=wav('closing-recording',['-i',path.join(root,endSource.file),'-af',`atrim=start=${from}:end=${from+seconds},asetpts=PTS-STARTPTS,loudnorm=I=-29:TP=-9:LRA=5,afade=t=in:d=0.025,afade=t=out:st=${seconds-.15}:d=0.15`]);add(closing,total-2.6,endSource,{excerpt:{start:from,seconds},underSpeech:false});
  }
  const args=inputs.flatMap(file=>['-i',file]),filters=effects.map((e,i)=>`[${i+1}:a]adelay=${Math.round(e.start*1000)}:all=1[s${i}]`);filters.push(`[0:a]${effects.map((_,i)=>`[s${i}]`).join('')}amix=inputs=${inputs.length}:duration=first:normalize=0,loudnorm=I=-19:TP=-2.5:LRA=9,aresample=48000,adelay=250:all=1,apad=pad_dur=0.35[out]`);
+ if(recipe.newsMusic){if(inputs.length!==2||effects.length!==1)throw Error('News recipe must contain only voice and the common music');filters.splice(0,filters.length,'[0:a]asplit=2[spoken][control];[1:a][control]sidechaincompress=threshold=.018:ratio=6:attack=12:release=450:makeup=1[ducked];[spoken][ducked]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-19:TP=-2.5:LRA=9,aresample=48000,adelay=250:all=1,apad=pad_dur=0.35[out]');}
  const body=wav('body-master',[...args,'-filter_complex',filters.join(';'),'-map','[out]']),intro=wav('title-master',['-i',titleInput,'-af','loudnorm=I=-19:TP=-2.5:LRA=9,aresample=48000,adelay=250:all=1,apad=pad_dur=0.3']);
  const titleGap=recipe.titleGap??.8,introSeconds=await duration(intro),gap=wav('title-gap',['-f','lavfi','-i','anullsrc=r=48000:cl=mono','-t',String(titleGap)]);const masterList=path.join(output,'master.ffconcat');await fs.writeFile(masterList,'ffconcat version 1.0\n'+[intro,gap,body].map(f=>`file '${f.replaceAll('\\','/')}'`).join('\n')+'\n');const master=wav('master',['-f','concat','-safe','0','-i',masterList]);
  const stem=code.toLowerCase()+'-mixed-v1',mp3=async(file,suffix)=>{const name=stem+suffix+'.mp3',target=path.join(root,'assets/audio',name);ffmpeg(binary,['-v','error','-y','-i',file,'-map_metadata','-1','-c:a','libmp3lame','-q:a','3',target]);return name;};

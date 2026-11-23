@@ -40,8 +40,9 @@ export const ferran = [
   }),
   proposal({
     id: 'la-clau-del-davantal', code: 'S046', title: 'La clau del davantal', grade: '4', level: 'easy', genre: 'story', universeIds: ['aina-ferran'],
+    image: {"src":"./assets/images/la-clau-del-davantal-v1.webp","alt":"L’avi Ferran explica un record a l’Aina, asseguts a la cuina de casa.","width":1536,"height":1024},
     recordingCues: [{"before":"ganxo","text":"Base original «Una butxaca amb farina», molt suau sota la narració, amb entrada, pujada de dos segons i fosa final. Sense cadira, roba ni altres efectes puntuals."},{"after":"final","text":"La veu acaba completa. Marge breu, pujada del fons durant dos segons i fosa de dos segons; cap efecte de comiat afegit."}],
-    seconds: 112, status: 'ready-for-review', reviewStatus: 'audio-review',
+    seconds: 112, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s046-mixed-v1.mp3', tracks: { introduction: './assets/audio/s046-mixed-v1-intro.mp3', body: './assets/audio/s046-mixed-v1-cos.mp3' },
     fragment: { start: 4.165, seconds: 108 },
     summary: 'En Ferran volia treure una regadora del cobert, però la clau no era al ganxo. Recordar què havia fet l’àvia aquell matí els va ajudar a buscar-la.',

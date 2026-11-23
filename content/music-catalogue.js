@@ -167,7 +167,10 @@ export const musicCatalogue = [
       "ca-S023",
       "ca-S029",
       "ca-S031",
-      "ca-S039"
+      "ca-S039",
+      "ca-S053",
+      "ca-S054",
+      "ca-S057"
     ]
   },
   {
@@ -211,9 +214,41 @@ export const musicCatalogue = [
     "externalSamples": false,
     "source": "tools/narration-bed.cjs",
     "usedBy": [
-      "ca-S046"
+      "ca-S046",
+      "ca-S046D"
     ],
-    "description": "Composició pròpia de piano suau i harmonia espaiada, 64 pulsacions per minut; partitura determinista 46, fosa d’entrada, música atenuada sota la veu i pujada de dos segons seguida de fosa al final."
+    "description": "Composició pròpia de piano suau i harmonia espaiada, 64 pulsacions per minut; partitura determinista 46, fosa d’entrada, música atenuada sota la veu i pujada de dos segons seguida de fosa al final.",
+    "sharedReason": "Composició compartida intencionadament entre S046 narrada i S046D dialogada, amb mescles i durades pròpies."
+  },
+  {
+    "id": "sentit-s068-v1",
+    "title": "Un dinar entre vies",
+    "kind": "narration-bed",
+    "author": "Sentit",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/aaronFortuno/sentit/blob/main/LICENSE",
+    "origin": "original-procedural",
+    "externalSamples": false,
+    "source": "tools/narration-bed.cjs",
+    "usedBy": [
+      "ca-S068"
+    ],
+    "description": "Composició pròpia de piano suau i harmonia espaiada, 64 pulsacions per minut; partitura determinista 68, fosa d’entrada, música atenuada sota la veu i pujada de dos segons seguida de fosa al final."
+  },
+  {
+    "id": "sentit-s069-v1",
+    "title": "Dos noms a la pissarra",
+    "kind": "narration-bed",
+    "author": "Sentit",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/aaronFortuno/sentit/blob/main/LICENSE",
+    "origin": "original-procedural",
+    "externalSamples": false,
+    "source": "tools/narration-bed.cjs",
+    "usedBy": [
+      "ca-S069D"
+    ],
+    "description": "Composició pròpia de piano suau i harmonia espaiada, 66 pulsacions per minut; partitura determinista 69, fosa d’entrada, música atenuada sota la veu i pujada de dos segons seguida de fosa al final."
   }
 ];
 

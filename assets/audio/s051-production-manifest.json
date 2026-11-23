@@ -1,7 +1,7 @@
 {
   "code": "S051",
   "activity": "ca-S051",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s051-mixed-v1.mp3",
   "introFile": "s051-mixed-v1-intro.mp3",
   "bodyFile": "s051-mixed-v1-cos.mp3",
@@ -79,5 +79,19 @@
     "approvedAt": "2026-11-23",
     "sourceTakeSha256": "ecfe0c7c6a52d5d6eb0be9d65a2f83367d34306fb65997fd6e6e53acc729a617",
     "confirmation": "S051 validat per muntatge; diàleg, dificultat superior."
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S051 validat per publicació definitiva",
+    "audioSha256": "2e52eca2ad087a0231fd5d4aeaa343ca41bda4ebabbdc83f897e878c6fd1b9dc",
+    "editorialFingerprint": "7573b3e7ce7027f19e92af1451565dc4054c2c600a58acadf03406b003cd2466",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/el-cartellet-que-quedava-amagat-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
   }
 }

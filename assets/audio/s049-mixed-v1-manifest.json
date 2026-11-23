@@ -1,0 +1,97 @@
+{
+  "code": "S049",
+  "activity": "ca-S049",
+  "state": "published",
+  "file": "s049-mixed-v1.mp3",
+  "introFile": "s049-mixed-v1-intro.mp3",
+  "bodyFile": "s049-mixed-v1-cos.mp3",
+  "offset": 4.5600000000000005,
+  "bodyDuration": 86.155,
+  "fullDuration": 90.715,
+  "voices": {
+    "Laia": "Leda",
+    "Pau": "Charon"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "3dc116c991de11e684329bf9e8f8214a417a540d0372103bba92af6fd28651bd",
+  "sourceRequestHash": "bb654d31b96b29b95b28c65ecfb49ecb6c6c85ae16bbaa1804d777ccad108fc9",
+  "batch": "L14",
+  "rawSha256": "bc519edcb788dbca53d1267237717f32cf3720550451af3a218f2124f11a8820",
+  "takeSha256": "fa33487137e02a8723393c4eb27b9a6782e321706b8342275524f521cee055ca",
+  "coverage": 0.8979591836734694,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.9,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "jmdh-covered-market-388315",
+      "start": 0,
+      "source": "assets/audio/sources/jmdh-388315-covered-market.mp3",
+      "sourceSha256": "491adb6958fbd12889734f9ccfbf488c9316d7addc0c1121630d1f315a136810",
+      "sourceUrl": "https://freesound.org/people/jmdh/sounds/388315/",
+      "author": "jmdh",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.14,
+      "openingGain": 0.35,
+      "raisedGain": 0.45,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -45.07743928643524,
+      "lowPassHz": 1800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 12,
+        "seconds": 80.51389583333334
+      },
+      "envelope": {
+        "riseStart": 80.21999999999998,
+        "riseEnd": 81.02,
+        "holdSeconds": 1.9350000000000165,
+        "fadeStart": 82.95500000000001,
+        "fadeEnd": 84.95500000000001
+      }
+    }
+  ],
+  "sha256": "22f060b6dda803350fe0cbed5ab030058f1a5a7c5e11613196dc854c9913f565",
+  "voiceHandles": {
+    "body": {
+      "start": 0.385,
+      "end": 78.54,
+      "retainedPcmSha256": "819ecb94520727a11d4fbfbe2d1fd2a75775570ec345d2ce4a3fe35f6224c81a",
+      "sourceSha256": "c03405b59039a212a9cfce00bfac0126ef85a97a1eb327d06ea5763ad915d56b",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.1,
+      "end": 3.71,
+      "retainedPcmSha256": "d230e5df87be2de7e31f5404ffc9bd5c05fc1b7071a11d4e4f2d44227097bf25",
+      "sourceSha256": "0fe0b748cac5c8361163cda798195839820538dea893080512df3ac86ff1c7e3",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-23",
+    "sourceTakeSha256": "fa33487137e02a8723393c4eb27b9a6782e321706b8342275524f521cee055ca",
+    "confirmation": "S049 validat per muntatge i recatalogat com a diàleg"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-23",
+    "validatedBy": "docent",
+    "confirmation": "S049 validat per publicació definitiva",
+    "audioSha256": "22f060b6dda803350fe0cbed5ab030058f1a5a7c5e11613196dc854c9913f565",
+    "editorialFingerprint": "2d5fdedf58a87030150579d5c4d9a88b172fc0c1aa19af753f5a64c063c49889",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/la-parada-es-mou-un-mati-v1.webp",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-23",
+    "audioChanged": false
+  }
+}
