@@ -3,7 +3,7 @@ import { createRequire } from 'node:module';
 import { activities } from '../catalogue.js';
 import { proposedActivities, proposedVariants, firstBatchActivities, secondBatchActivities, thirdBatchActivities, fourthBatchActivities, fourthBatchGroups, dailyActivities } from '../content/propostes/index.js';
 import { universes, universesForActivity } from '../content/universes.js';
-import { charactersForActivity } from '../content/characters.js';
+import { characters, charactersForActivity } from '../content/characters.js';
 import { buildEvidence } from '../evidence.js';
 const require=createRequire(import.meta.url);
 const plans=require('../content/production-plans.json');
@@ -57,7 +57,7 @@ for(const entry of [...proposedActivities,...proposedVariants]){
  const anonymous = speaker => ['Narradora','Narrador'].includes(speaker);
  const cast=charactersForActivity(entry),guests=entry.guestSpeakers??[],guestNames=new Set(guests.map(guest=>guest.name));
  assert.equal(guestNames.size,guests.length,entry.code+' unique occasional guest roles');
- for(const guest of guests){assert.equal(entry.production.voices[guest.name],guest.voice);assert(!cast.some(character=>character.name===guest.name),'Guests do not impersonate recurring characters');assert(body.some(part=>part.speaker===guest.name));}
+ for(const guest of guests){assert.equal(entry.production.voices[guest.name],guest.voice);assert(!characters.some(character=>character.name===guest.name||character.voice.id===guest.voice),'Guests keep names and voices separate from recurring identities');assert(body.some(part=>part.speaker===guest.name));}
  assert.equal(cast.length,Object.keys(entry.production.voices).filter(speaker=>!anonymous(speaker)&&!guestNames.has(speaker)).length);
  for(const part of body){
   const identified=cast.some(character=>character.appearances.some(appearance=>appearance.code==='ca-'+entry.code&&appearance.speaker===part.speaker));

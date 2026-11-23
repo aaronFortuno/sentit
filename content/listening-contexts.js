@@ -1,6 +1,11 @@
 // Introduccions impreses: situen l'escena sense explicar-ne el desenllaç.
 // Separades dels guions de veu: no s'envien a síntesi ni alteren les preses.
 export const listeningContexts = {
+  'ca-S087': 'En Ferran entra en una botiga amb una cosa petita a la butxaca. Ha tingut un problema a casa i espera que el dependent el pugui ajudar. Escolta què li explica i com va la compra.',
+  'ca-S088': 'En Ferran va a la biblioteca i s’acosta al taulell amb la seva bossa. Vol parlar d’un llibre amb el bibliotecari. Escolta què passa quan comencen a mirar què porta.',
+  'ca-S089': 'La Margarida es troba en Ferran durant un passeig pel carrer. Hi ha alguna cosa que li crida l’atenció i s’atura a parlar amb ell. Escolta què s’expliquen abans de continuar el camí.',
+  'ca-S090': 'La Laia i en Biel han sortit al parc amb una pilota. Mentre juguen, han de mirar què passa al seu voltant. Escolta la conversa i fixa’t en els llocs de què parlen.',
+  'ca-S091': 'La Laia i en Biel s’asseuen en un banc del parc per berenar. Tots dos obren el que han portat de casa i es posen a parlar. Escolta què hi troben i què fan després.',
   'ca-S083': 'La Mar va pel carrer i, abans de continuar, s’atura per parlar amb la Núria. Escolta com comença la conversa i què s’expliquen durant aquesta trobada.',
   'ca-S084': 'La Mar entra en una papereria perquè vol preparar un regal. Mira el material que hi ha a la botiga i pregunta a la dependenta si la pot ajudar. Escolta la conversa.',
   'ca-S085': 'La Mar arriba al seu edifici després d’anar a comprar. A l’entrada coincideix amb una veïna que també té feina per fer. Escolta què es diuen abans de pujar a casa.',

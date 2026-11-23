@@ -1,5 +1,6 @@
 export const strings = {
   ca: {
+    releaseDailyFerranFriends: 'Cinc guions quotidians més: Ferran a la botiga, a la biblioteca i de passeig; Laia i Biel al parc. Preguntes, contextos i escaletes revisats independentment, pendents de validació docent. Pla de lots actualitzat i pilot multimodal prioritari conservat. Cap síntesi enviada.',
     releaseDailyMar: 'Situacions quotidianes: quatre guions de la Mar fora de la ràdio, amb convidats ocasionals i materials per validar. Nou univers filtrable, revisió independent i pla del pilot multimodal al final del proper lot compatible. Cap síntesi enviada.',
     releaseSeventeenFinal: 'Disset comprensions amb publicació definitiva i els àudios aprovats conservats. Il·lustracions contextuals, transcripcions netes i seguiment actualitzat. S024 tanca la prova de timbre; les peces publicades deixen de mostrar les antigues veus de revisió.',
     releaseReviewedVoiceSplices: 'Sis publicacions definitives il·lustrades i sis muntatges amb represes incorporades per revisar. S024 permet comparar el muntatge anterior i la prova de timbre. S061 conserva el cos de veus validat i espera el títol. Briefing de la línia multimodal disponible al repositori; cap síntesi nova.',
@@ -293,6 +294,7 @@ export const strings = {
     sessionEnded: 'Sessió acabada', remainingTime: 'Temps restant',
   },
   es: {
+    releaseDailyFerranFriends: 'Cinco guiones cotidianos más: Ferran en la tienda, en la biblioteca y de paseo; Laia y Biel en el parque. Preguntas, contextos y planes de montaje revisados de forma independiente, pendientes de validación docente. Plan de lotes actualizado y piloto multimodal prioritario conservado. Ninguna síntesis enviada.',
     releaseDailyMar: 'Situaciones cotidianas: cuatro guiones de Mar fuera de la radio, con invitados ocasionales y materiales para validar. Nuevo universo filtrable, revisión independiente y plan del piloto multimodal al final del próximo lote compatible. Sin síntesis enviada.',
     releaseSeventeenFinal: 'Diecisiete comprensiones con publicación definitiva y los audios aprobados conservados. Ilustraciones de contexto, transcripciones limpias y seguimiento actualizado. S024 cierra la prueba de timbre; las piezas publicadas dejan de mostrar las antiguas voces de revisión.',
     releaseReviewedVoiceSplices: 'Seis publicaciones definitivas ilustradas y seis montajes con correcciones de voz incorporadas para revisar. S024 permite comparar el montaje anterior y la prueba de timbre. S061 conserva el cuerpo de voces validado y espera el título. Briefing de la línea multimodal disponible en el repositorio; sin síntesis nueva.',

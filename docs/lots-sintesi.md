@@ -2,6 +2,8 @@
 
 Actualitzat: **23/11/2026**. Aquest document mostra només la feina pendent d’enviar o de revisar. Els lots ja rebuts consten a l’[històric de síntesi](historic-sintesi.md); no s’han de tornar a enviar.
 
+**Prioritat del proper lot de la Mar:** afegir el pilot multimodal MM-PILOT-001 com a últim tall, amb Erinome en to espontani i el text exacte del registre extern. El [pla de Situacions quotidianes](lot-situacions-quotidianes.md#proper-lot-de-la-mar--pilot-multimodal-prioritari) concreta les alternatives i les validacions que falten. Aquesta prioritat no autoritza enviar guions nous encara pendents de validació.
+
 ## Lots pendents
 
 | Lot | Material pendent | Veus | Previsió orientativa | Què falta |
@@ -22,6 +24,9 @@ La previsió utilitza el text pla real, amb els títols i sense marques literals
 | [P13](lot-cicle-superior.md#laia-ona) | Laia i Ona · Leda + Sulafat | [ca-S074](https://sentit.ortogra.fi/#lectura=ca-S074), [ca-S076](https://sentit.ortogra.fi/#lectura=ca-S076) | 5:08 | Per completar | 2/2 | Cap |
 | P18 | Mar i convidats ocasionals · Erinome + Callirrhoe | [ca-S083](https://sentit.ortogra.fi/#lectura=ca-S083), [ca-S084](https://sentit.ortogra.fi/#lectura=ca-S084) | 2:46 | Per completar | 0/2 | [ca-S083](https://sentit.ortogra.fi/#lectura=ca-S083), [ca-S084](https://sentit.ortogra.fi/#lectura=ca-S084) |
 | P19 | Mar i convidats ocasionals · Erinome + Despina | [ca-S085](https://sentit.ortogra.fi/#lectura=ca-S085), [ca-S086](https://sentit.ortogra.fi/#lectura=ca-S086) | 2:46 | Per completar | 0/2 | [ca-S085](https://sentit.ortogra.fi/#lectura=ca-S085), [ca-S086](https://sentit.ortogra.fi/#lectura=ca-S086) |
+| P20 | Ferran i convidats ocasionals · Algenib + Achird | [ca-S087](https://sentit.ortogra.fi/#lectura=ca-S087), [ca-S088](https://sentit.ortogra.fi/#lectura=ca-S088) | 2:42 | Per completar | 0/2 | [ca-S087](https://sentit.ortogra.fi/#lectura=ca-S087), [ca-S088](https://sentit.ortogra.fi/#lectura=ca-S088) |
+| P21 | Ferran i convidada ocasional · Algenib + Gacrux | [ca-S089](https://sentit.ortogra.fi/#lectura=ca-S089) | 1:21 | Per completar | 0/1 | [ca-S089](https://sentit.ortogra.fi/#lectura=ca-S089) |
+| P22 | Laia i Biel · Leda + Puck | [ca-S090](https://sentit.ortogra.fi/#lectura=ca-S090), [ca-S091](https://sentit.ortogra.fi/#lectura=ca-S091) | 2:17 | Per completar | 0/2 | [ca-S090](https://sentit.ortogra.fi/#lectura=ca-S090), [ca-S091](https://sentit.ortogra.fi/#lectura=ca-S091) |
 
 P02 reuneix quatre lectures breus del mateix repartiment per conservar els guions de 3r curts i senzills. Els grups nous de 5è–6è es poden validar per repartiments sencers i es proposen en lots de dues o tres comprensions completes. Les previsions utilitzen el text pla i encara s’han de verificar amb l’entrada definitiva; la validació dels guions no garanteix que la mida final del lot sigui admissible. Les preses ja rebudes s’exclouen d’aquesta taula. [Tanda de 3r–4t](lot-cicle-mitja.md) · [Tanda de 5è–6è per repartiment](lot-cicle-superior.md) · [Composició proposada](../content/synthesis-proposals.json).
 

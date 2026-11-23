@@ -1982,5 +1982,105 @@
     },
     "strategy": "packed-title-program-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S087": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S087",
+    "reviewContent": "content/propostes/quotidianes/ferran.js",
+    "format": "3r intermèdia: seguir una compra senzilla, identificar què s’ha perdut i entendre per què en Ferran porta el pom. Un únic espai i una acció en present.",
+    "cues": [
+      "Ferreteria tranquil·la amb ambient real molt baix. Cap so de trepant o d’eines afegit.",
+      "La comprovació manual coincideix amb la parla; no inserir sorolls metàl·lics ni una pausa de demostració.",
+      "Conservar el final de veu i fer una fosa breu de l’ambient. Sense tancament musical."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Ferran": "Algenib",
+      "Ferreter": "Achird"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S088": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S088",
+    "reviewContent": "content/propostes/quotidianes/ferran.js",
+    "format": "4t accessible: seguir una confusió concreta entre dos llibres, reconstruir què ha passat i distingir el que fa ara del que farà a continuació.",
+    "cues": [
+      "Biblioteca tranquil·la, fons real molt tènue. Cap efecte de full o teclat que obligui a parar la conversa.",
+      "La sorpresa és vocal. Sense canviar d’espai ni representar els records amb sons.",
+      "Comiat complet i fosa breu de biblioteca. Sense música ni sorolls de llibre afegits."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Ferran": "Algenib",
+      "Bibliotecari": "Achird"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S089": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S089",
+    "reviewContent": "content/propostes/quotidianes/ferran.js",
+    "format": "3r accessible: identificar de qui és la gossa, el favor que fa en Ferran i el petit canvi de ruta. Humor concret, sense coneixements previs ni veus d’animals.",
+    "cues": [
+      "Carrer tranquil enregistrat, molt baix. La gossa no té veu ni lladrucs afegits.",
+      "Petit somriure dins de la veu, sense rialla afegida ni salt a una altra escena.",
+      "Final complet i fosa curta de carrer. No afegir sons que resolguin la ruta o la compra."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Ferran": "Algenib",
+      "Margarida": "Gacrux"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S090": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S090",
+    "reviewContent": "content/propostes/quotidianes/laia-biel.js",
+    "format": "4t accessible: un únic problema al parc, propostes curtes que s’ajusten entre tots dos i una decisió concreta. Situació present, sense plans professionals ni informació de fons per memoritzar.",
+    "cues": [
+      "Parc tranquil enregistrat, molt baix. El moviment de la pilota s’explica amb les veus; sense impactes ni terceres veus.",
+      "Mantenir el mateix parc. Canvi de lloc suggerit amb la conversa, sense passos aïllats ni pausa llarga.",
+      "Última frase completa i fosa curta del parc. Sense cop de pilota ni notes musicals de sortida."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Laia": "Leda",
+      "Biel": "Puck"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S091": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S091",
+    "reviewContent": "content/propostes/quotidianes/laia-biel.js",
+    "format": "3r accessible: una escena breu i divertida, una causa concreta, un petit oferiment i el gest de recollir abans de continuar. Sense salts temporals llargs ni vocabulari tècnic.",
+    "cues": [
+      "Parc tranquil enregistrat, molt baix. Sense sorolls d’embolcall o mossegades afegits.",
+      "Somriure dins la veu, sense rialles llegides ni música còmica.",
+      "Acabar la frase i tancar amb una fosa curta del parc. Sense passos o gronxadors com a resposta sonora."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Laia": "Leda",
+      "Biel": "Puck"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
   }
 }

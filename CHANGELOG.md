@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.94 · 23 de novembre de 2026
+
+- Cinc propostes més de «Situacions quotidianes»: S087–S089 amb Ferran i convidats ocasionals; S090–S091 amb Laia i Biel. Converses de 3r–4t amb un problema principal, preguntes, cites exactes i ambient discret enregistrat proposat. Revisió independent superada de guions, 30 preguntes, 35 cites, contextos i escaletes; validació docent pendent.
+- Les veus de convidats continuen fora dels onze recurrents i es comprova que no en reutilitzin noms ni timbres reservats. No es creen fitxes noves.
+- Propostes de composició per completar futurs lots de Ferran i Laia/Biel amb esmenes obertes. Prioritat del pilot multimodal al final del proper lot de la Mar reflectida a la cua i a les instruccions; comprovació local del text exacte i de l’original disponible. Sense congelar lots, consumir quota ni enviar peticions.
+
 ## 0.1.93 · 23 de novembre de 2026
 
 - Nou univers «Situacions quotidianes» i quatre guions S083–S086, amb la Mar fora del registre radiofònic. Converses de 3r–4t amb preguntes, respostes, cites, escaleta i context imprès; revisió adversària independent superada, validació docent pendent.

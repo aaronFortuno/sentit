@@ -1,6 +1,6 @@
 # Revisió independent de coherència
 
-Actualitzat: **23/11/2026**. **91 de 91** propostes de la tanda tenen revisió independent superada per a la versió actual. Abast: 692 preguntes i 864 cites literals.
+Actualitzat: **23/11/2026**. **96 de 96** propostes de la tanda tenen revisió independent superada per a la versió actual. Abast: 722 preguntes i 899 cites literals.
 
 S’han revisat situacions, cronologia, circulació d’objectes, coneixement dels personatges, causes i desenllaços, acotacions sonores, preguntes, respostes i ancoratges. Les dades factuals sensibles s’han contrastat amb fonts primàries indicades al [dossier editorial](lot-editorial-24.md). La revisió del muntatge és sobre el guió; les veus i el resultat sonor requeriran audició.
 
@@ -99,6 +99,11 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S084](https://sentit.ortogra.fi/#lectura=ca-S084) | El paper per al regal | 3r | Provisional · revisió superada | 2026-11-23 | `59265f24f2fc…` |
 | [ca-S085](https://sentit.ortogra.fi/#lectura=ca-S085) | El carro davant de la porta | 3r | Provisional · revisió superada | 2026-11-23 | `d8c9e51360ea…` |
 | [ca-S086](https://sentit.ortogra.fi/#lectura=ca-S086) | El pa per al sopar | 3r | Provisional · revisió superada | 2026-11-23 | `608ca781fe14…` |
+| [ca-S087](https://sentit.ortogra.fi/#lectura=ca-S087) | El pom del calaix | 3r | Provisional · revisió superada | 2026-11-23 | `06b28afd8f0c…` |
+| [ca-S088](https://sentit.ortogra.fi/#lectura=ca-S088) | Un llibre que encara tinc a casa | 4t | Provisional · revisió superada | 2026-11-23 | `d6d6b7eac6f6…` |
+| [ca-S089](https://sentit.ortogra.fi/#lectura=ca-S089) | La gossa que passeja en Ferran | 3r | Provisional · revisió superada | 2026-11-23 | `f365596e0fcd…` |
+| [ca-S090](https://sentit.ortogra.fi/#lectura=ca-S090) | Ens falta espai per jugar | 4t | Provisional · revisió superada | 2026-11-23 | `3945774f4fa3…` |
+| [ca-S091](https://sentit.ortogra.fi/#lectura=ca-S091) | El berenar ben pla | 3r | Provisional · revisió superada | 2026-11-23 | `2fabfd886680…` |
 
 Les empremtes completes i el revisor consten al [registre de revisions](../content/editorial-reviews.js). La marca provisional només apareix al web si l’empremta coincideix amb el contingut actual. Canviar el guió, les preguntes, les respostes, les pistes, el repartiment o l’escaleta invalida la revisió anterior. Les comprovacions detecten registres caducats abans de publicar.
 

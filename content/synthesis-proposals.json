@@ -208,6 +208,32 @@
         "S086"
       ],
       "note": "Situacions quotidianes: guions pendents de validació docent. Convidats ocasionals, sense fitxa recurrent. Candidat orientatiu, sense reserva de quota ni autorització de síntesi."
+    },
+    {
+      "id": "P20",
+      "cast": "Ferran i convidats ocasionals · Algenib + Achird",
+      "codes": [
+        "S087",
+        "S088"
+      ],
+      "note": "Situacions quotidianes: pendent de validació docent i de preparació definitiva. Conservar les veus recurrents i una sola veu de convidat ocasional per petició. Candidat orientatiu; no reserva quota ni autoritza síntesi."
+    },
+    {
+      "id": "P21",
+      "cast": "Ferran i convidada ocasional · Algenib + Gacrux",
+      "codes": [
+        "S089"
+      ],
+      "note": "Situacions quotidianes: pendent de validació docent i de preparació definitiva. Conservar les veus recurrents i una sola veu de convidat ocasional per petició. Candidat orientatiu; no reserva quota ni autoritza síntesi."
+    },
+    {
+      "id": "P22",
+      "cast": "Laia i Biel · Leda + Puck",
+      "codes": [
+        "S090",
+        "S091"
+      ],
+      "note": "Situacions quotidianes: pendent de validació docent i de preparació definitiva. Conservar les veus recurrents i una sola veu de convidat ocasional per petició. Candidat orientatiu; no reserva quota ni autoritza síntesi."
     }
   ]
 }
