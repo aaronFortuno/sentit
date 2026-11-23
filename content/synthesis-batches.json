@@ -292,7 +292,7 @@
     },
     {
       "id": "L12",
-      "state": "waiting-for-compatible-material",
+      "state": "received",
       "blocks": [
         {
           "code": "S033",
@@ -304,7 +304,26 @@
           "take": "S036-T01",
           "sourceRequestHash": "ac90d9bb64927035baa03fb4b00437fa772d7aaeb009333cbdd7ca8deba3b5d5"
         }
-      ]
+      ],
+      "speechTextFormat": "plain-v1",
+      "execution": "background-v1",
+      "authorization": "El docent autoritza explícitament el 23/11/2026 enviar 3–4 peticions encara que siguin lots mig buits. Guions S033 i S036 ja validats; mateix repartiment Biel/Puck i Nora/Kore, sense afegir farciment.",
+      "windowException": {
+        "kind": "teacher-short-batch",
+        "approvedBy": "docent",
+        "batchId": "L12",
+        "approvedAt": "2026-11-23T07:51:12.714Z",
+        "expiresAt": "2026-11-23T13:51:12.714Z",
+        "requestHash": "cf4fb54b372f5e1cb7545d9fa0b7d6a0309eedf94004593133ebe93bc0bb6bc6",
+        "estimatedSeconds": 205,
+        "confirmation": "Envia 3-4 peticions a Gemini per aprofitar la quota disponible, encara que siguin lots mig buits"
+      },
+      "approvedAt": "2026-11-23T07:51:12.886Z",
+      "approvedRequestHash": "cf4fb54b372f5e1cb7545d9fa0b7d6a0309eedf94004593133ebe93bc0bb6bc6",
+      "estimatedSeconds": 205,
+      "estimatedInputTokens": 3575,
+      "receipt": "assets/audio/synthesis-batches/l12.json",
+      "completedAt": "2026-11-23T07:56:34.756Z"
     },
     {
       "id": "L13",
@@ -383,7 +402,7 @@
     },
     {
       "id": "L15",
-      "state": "authorized",
+      "state": "received",
       "speechTextFormat": "plain-v1",
       "sourceProposal": "P03",
       "blocks": [
@@ -403,15 +422,23 @@
           "sourceRequestHash": "5395b329fe4e67858e8861921377e8630013c32c27673e25f90f5eaee7485d51"
         }
       ],
-      "authorization": "Validacions docents explícites de S040 (21/11) i S051,S052 (22/11/2026). Guions i repartiment Laia/Leda i Nora/Kore autoritzats. Preparar el lot complet; la generació serà seqüencial, sense incloure-la en l’enviament únic de L14.",
-      "approvedAt": "2026-11-22T18:04:00.022Z",
-      "approvedRequestHash": "5119dd94e84e317b305db25d468c68c5330eab652ae8a8fd665407b698db9491",
+      "authorization": "Validacions docents explícites de S040 (21/11) i S051,S052 (22/11/2026). Guions i repartiment Laia/Leda i Nora/Kore autoritzats. Preparar el lot complet; la generació serà seqüencial, sense incloure-la en l’enviament únic de L14. Retorn del 23/11: enviar de tres a quatre peticions seqüencials, conservant la identificació de cada resultat; cap canvi de guió o repartiment.",
+      "approvedAt": "2026-11-23T07:50:02.731Z",
+      "approvedRequestHash": "4029137e3ef3992d6500ac463d9bda81a70330519489e94b9b732c48068f744e",
       "estimatedSeconds": 360,
-      "estimatedInputTokens": 5625
+      "estimatedInputTokens": 5631,
+      "previousPreparation": {
+        "approvedRequestHash": "5119dd94e84e317b305db25d468c68c5330eab652ae8a8fd665407b698db9491",
+        "approvedAt": "2026-11-22T18:04:00.022Z",
+        "execution": "synchronous"
+      },
+      "execution": "background-v1",
+      "receipt": "assets/audio/synthesis-batches/l15.json",
+      "completedAt": "2026-11-23T07:54:36.082Z"
     },
     {
       "id": "L16",
-      "state": "authorized",
+      "state": "received",
       "speechTextFormat": "plain-v1",
       "sourceProposal": "P12",
       "blocks": [
@@ -431,11 +458,19 @@
           "sourceRequestHash": "42cc6f8dc2c91eb436b5c54616e769671e57cb7eca7f1e4c78bdd8ae924508c4"
         }
       ],
-      "authorization": "Validacions docents explícites de S073, S075 i S077 el 22/11/2026. Mateix repartiment Laia/Leda i Ona/Sulafat; preparar el lot compatible amb text pla per a enviament seqüencial. Preparació local, encara sense petició de síntesi.",
-      "approvedAt": "2026-11-22T20:10:11.614Z",
-      "approvedRequestHash": "40f19458de6417bbe4d9db384484f7e77c3013fc82b9defd995e8c619825630d",
+      "authorization": "Validacions docents explícites de S073, S075 i S077 el 22/11/2026. Mateix repartiment Laia/Leda i Ona/Sulafat; preparar el lot compatible amb text pla per a enviament seqüencial. Preparació local, encara sense petició de síntesi. Retorn del 23/11: enviar de tres a quatre peticions seqüencials, conservant la identificació de cada resultat; cap canvi de guió o repartiment.",
+      "approvedAt": "2026-11-23T07:51:13.054Z",
+      "approvedRequestHash": "588839376334e915c4952fab7c33def098c4cfa5d066e7c5bbf7ef749940ae59",
       "estimatedSeconds": 407,
-      "estimatedInputTokens": 5910
+      "estimatedInputTokens": 5916,
+      "previousPreparation": {
+        "approvedRequestHash": "40f19458de6417bbe4d9db384484f7e77c3013fc82b9defd995e8c619825630d",
+        "approvedAt": "2026-11-22T20:10:11.614Z",
+        "execution": "synchronous"
+      },
+      "execution": "background-v1",
+      "receipt": "assets/audio/synthesis-batches/l16.json",
+      "completedAt": "2026-11-23T07:55:30.597Z"
     },
     {
       "id": "L17",
@@ -537,7 +572,43 @@
       "execution": "background-v1",
       "approvedRequestHash": "a07c5841452fb9f7fc87fa5889bc4cc31ab97780eeaeb6a8c2d38b1b655af0e0",
       "failureSummary": "Gemini ha retornat INTERNAL, sense veus. Identificador conservat; no reenviat automàticament.",
-      "failureAt": "2026-11-22T21:12:02.658Z"
+      "failureAt": "2026-11-22T21:12:02.658Z",
+      "supersededBy": "L20"
+    },
+    {
+      "id": "L20",
+      "state": "received",
+      "speechTextFormat": "plain-v1",
+      "sourceProposal": "P15",
+      "blocks": [
+        {
+          "code": "S081",
+          "take": "S081-T01",
+          "sourceRequestHash": "1d9cf4d8eaae74a57fc5ae85952abc1c1348649af6c66e2556e3eee7defdff2b"
+        },
+        {
+          "code": "S082",
+          "take": "S082-T01",
+          "sourceRequestHash": "4e454f64de9f6e9214be4d8ab26525255f9bc2b94f4f5a45f443875d7e7706f9"
+        }
+      ],
+      "authorization": "S081 validada amb el tancament literal d’Elies demanat pel docent i S082 validada per síntesi. Mateix repartiment Biel/Puck i Elies/Algieba. Preparar i enviar seqüencialment aquest lot complet amb els altres dos lots que el docent ha demanat completar avui. Nou intent únic autoritzat pel docent el 23/11 dins del topall de quatre peticions. No repetir-lo automàticament si falla.",
+      "estimatedSeconds": 369,
+      "estimatedInputTokens": 5049,
+      "execution": "background-v1",
+      "retryOf": {
+        "batch": "L19",
+        "requestHash": "a07c5841452fb9f7fc87fa5889bc4cc31ab97780eeaeb6a8c2d38b1b655af0e0",
+        "reviewedAt": "2026-11-23T07:50:02.559Z",
+        "terminalStatus": "failed",
+        "providerError": "INTERNAL",
+        "audioReceived": false,
+        "reason": "Nou intent únic dins de les 3–4 peticions autoritzades pel docent el 23/11. El resultat terminal anterior és fallit i no conté àudio; cap reenviament automàtic."
+      },
+      "approvedAt": "2026-11-23T07:51:13.223Z",
+      "approvedRequestHash": "a07c5841452fb9f7fc87fa5889bc4cc31ab97780eeaeb6a8c2d38b1b655af0e0",
+      "receipt": "assets/audio/synthesis-batches/l20.json",
+      "completedAt": "2026-11-23T07:57:54.800Z"
     }
   ],
   "calibration": {

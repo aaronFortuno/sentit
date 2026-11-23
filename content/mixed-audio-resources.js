@@ -196,5 +196,55 @@ export const mixedAudioResources = {
     "voices": "Laia: Leda; Biel: Puck. Lot L18, veus rebudes i pendents d’audició.",
     "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
     "recipe": "tools/prepare-batch-voice-previews.cjs"
+  },
+  "ca-S040": {
+    "voices": "Laia: Leda; Nora: Kore. Lot L15, veus rebudes i pendents d’audició.",
+    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
+    "recipe": "tools/prepare-batch-voice-previews.cjs"
+  },
+  "ca-S051": {
+    "voices": "Laia: Leda; Nora: Kore. Lot L15, veus rebudes i pendents d’audició.",
+    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
+    "recipe": "tools/prepare-batch-voice-previews.cjs"
+  },
+  "ca-S052": {
+    "voices": "Laia: Leda; Nora: Kore. Lot L15, veus rebudes i pendents d’audició.",
+    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
+    "recipe": "tools/prepare-batch-voice-previews.cjs"
+  },
+  "ca-S073": {
+    "voices": "Laia: Leda; Ona: Sulafat. Lot L16, veus rebudes i pendents d’audició.",
+    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
+    "recipe": "tools/prepare-batch-voice-previews.cjs"
+  },
+  "ca-S075": {
+    "voices": "Laia: Leda; Ona: Sulafat. Lot L16, veus rebudes i pendents d’audició.",
+    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
+    "recipe": "tools/prepare-batch-voice-previews.cjs"
+  },
+  "ca-S077": {
+    "voices": "Laia: Leda; Ona: Sulafat. Lot L16, veus rebudes i pendents d’audició.",
+    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
+    "recipe": "tools/prepare-batch-voice-previews.cjs"
+  },
+  "ca-S033": {
+    "voices": "Biel: Puck; Nora: Kore. Lot L12, veus rebudes i pendents d’audició.",
+    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
+    "recipe": "tools/prepare-batch-voice-previews.cjs"
+  },
+  "ca-S036": {
+    "voices": "Biel: Puck; Nora: Kore. Lot L12, veus rebudes i pendents d’audició.",
+    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
+    "recipe": "tools/prepare-batch-voice-previews.cjs"
+  },
+  "ca-S081": {
+    "voices": "Biel: Puck; Elies: Algieba. Lot L20, veus rebudes i pendents d’audició.",
+    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
+    "recipe": "tools/prepare-batch-voice-previews.cjs"
+  },
+  "ca-S082": {
+    "voices": "Biel: Puck; Elies: Algieba. Lot L20, veus rebudes i pendents d’audició.",
+    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
+    "recipe": "tools/prepare-batch-voice-previews.cjs"
   }
 };

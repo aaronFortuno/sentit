@@ -22,6 +22,7 @@ const grade = gradeLabel;
 export const clock = seconds => { const n = Math.round(seconds); return `${Math.floor(n / 60)}:${String(n % 60).padStart(2, '0')}`; };
 export const isPublished = entry => entry.reviewStatus === 'validated' && productionProgress[`${entry.language}-${entry.code}`]?.state === 'published' && productionProgress[`${entry.language}-${entry.code}`]?.editorialFingerprint === editorialReview(entry)?.fingerprint;
 const progress = entry => productionProgress[`${entry.language}-${entry.code}`];
+const hasVoiceApproval = entry => progress(entry)?.voiceApproval === true || progress(entry)?.voiceApproval?.status === 'approved';
 const list = entries => entries.map(link).join(', ') || 'Cap';
 
 export async function productionDocuments(date) {
@@ -38,8 +39,10 @@ export async function productionDocuments(date) {
   const published = activities.filter(isPublished), pending = activities.filter(entry => !isPublished(entry));
   const correcting = pending.filter(entry => progress(entry)?.state === 'audio-corrections-pending');
   const listening = pending.filter(entry => entry.audio && progress(entry)?.state === 'montage-awaiting-listening');
-  const voices = pending.filter(hasApprovedScript), montage = pending.filter(hasPendingMontage);
-  const accounted = new Set([...correcting, ...listening, ...voices, ...montage]);
+  const voices = pending.filter(hasApprovedScript), receivedVoices = pending.filter(hasPendingMontage);
+  const voiceListening = receivedVoices.filter(entry => !hasVoiceApproval(entry));
+  const montage = receivedVoices.filter(hasVoiceApproval);
+  const accounted = new Set([...correcting, ...listening, ...voices, ...voiceListening, ...montage]);
   const other = pending.filter(entry => !accounted.has(entry));
   const duration = entry => { const bounds = durationBounds(entry); return bounds.estimated ? `Prevista ${clock(bounds.min)}–${clock(bounds.max)}` : clock(bounds.min); };
   const header = `Actualitzat: **${displayDate}**.`;
@@ -49,6 +52,7 @@ export async function productionDocuments(date) {
   tracking += row(['Escoltar el muntatge', listening.length, list(listening)]);
   tracking += row(['Resoldre esmenes de veu i tornar a escoltar', correcting.length, list(correcting)]);
   tracking += row(['Produir les veus, amb guió validat', voices.length, list(voices)]);
+  tracking += row(['Escoltar i validar les veus abans de muntar', voiceListening.length, list(voiceListening)]);
   tracking += row(['Muntar les veus rebudes', montage.length, list(montage)]);
   tracking += row(['Revisió editorial o validació inicial pendent', other.length, list(other)]);
   tracking += '\n## Taula de pendents\n\n**✅ Completat** · **⏳ Proper pas** · **◐ Parcial o històric sense validació completa registrada** · **— Encara no toca**\n\n| Codi | Títol | Curs | Dificultat · tipologia | Fragment | Preg. | 1. Guió/escaleta | 2. Revisió adversària | 3. Proposta validada | 4. Veus rebudes | 5. Muntatge fet | 6. Àudio validat | 7. Definitiva |\n| --- | --- | --- | --- | --- | ---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |\n';
@@ -66,7 +70,7 @@ export async function productionDocuments(date) {
       '✅', isEditoriallyReviewed(entry) ? '✅' : reviewing ? '**⏳ Revisar**' : '◐',
       approved ? (plan.approvedScope === 'voices-only' ? '✅ Veus' : '✅') : plan?.contentValidation ? '◐ Contingut · **⏳ Guió**' : reviewing ? '**⏳ Revisar**' : '◐',
       received ? '✅' : hasApprovedScript(entry) ? '**⏳ Síntesi**' : '—',
-      audio ? '✅' : received ? '**⏳ Muntar**' : '—',
+      audio ? '✅' : received ? (hasVoiceApproval(entry) ? '**⏳ Muntar**' : '**⏳ Escoltar veus**') : '—',
       audio ? progress(entry)?.state === 'audio-corrections-pending' ? '◐ **Correccions**' : entry.reviewStatus === 'audio-review' ? '**⏳ Escoltar**' : '◐' : '—', '—']);
   }
   if (!pending.length) tracking += '\nNo queda cap comprensió pendent.\n';
@@ -86,7 +90,7 @@ export async function productionDocuments(date) {
   finished += '\nLes aprovacions estan vinculades al guió i al màster exactes al [registre de producció](../content/production-progress.js). No es concedeix cap aprovació per regenerar aquest document.\n\n' + refresh + '\n';
 
   let synthesis = `# Cua de síntesi\n\n${header} Aquest document mostra només la feina pendent d’enviar o de revisar. Els lots ja rebuts consten a l’[històric de síntesi](historic-sintesi.md); no s’han de tornar a enviar.\n\n## Lots pendents\n\n| Lot | Material pendent | Veus | Previsió orientativa | Què falta |\n| --- | --- | --- | ---: | --- |\n`;
-  const waiting = batchCatalogue.batches.filter(batch => ['planned','authorized','waiting-for-compatible-material','provider-failed'].includes(batch.state));
+  const waiting = batchCatalogue.batches.filter(batch => !batch.supersededBy&&['planned','authorized','waiting-for-compatible-material','provider-failed'].includes(batch.state));
   for (const batch of waiting) {
     let weight = 0; const batchVoices = new Set(), descriptions = [], blockers = [];
     for (const ref of batch.blocks) {
@@ -115,7 +119,7 @@ export async function productionDocuments(date) {
       if (!isEditoriallyReviewed(entry)) blockers.push(`${ref.code}: conciliar el registre editorial històric abans de preparar l’esmena`);
     }
     const seconds = Math.ceil(weight + 4);
-    if (seconds < policy.minimumSeconds) blockers.unshift('Completar amb material del mateix repartiment');
+    if (seconds < policy.minimumSeconds) blockers.unshift(batch.windowException?.expiresAt > new Date().toISOString() ? 'Excepció docent de mida per a aquest enviament' : 'Completar amb material del mateix repartiment');
     if (seconds > policy.maximumSeconds) blockers.unshift('Dividir el lot');
     synthesis += row([batch.id, descriptions.join('; '), [...batchVoices].join(' + '), clock(seconds), batch.state==='provider-failed' ? batch.failureSummary : blockers.join('; ') || (batch.state==='authorized'?'Entrada verificada · pendent d’enviament':'Preparar i comprovar l’entrada definitiva')]);
   }
@@ -128,7 +132,7 @@ export async function productionDocuments(date) {
   synthesis += '\nLes previsions provenen dels guions i del calibratge local; cal recalcular-les amb el format definitiu abans d’enviar. Una mateixa veu en dos guions no implica el mateix personatge. No es canvien repartiments ni s’allarguen guions per omplir un lot.\n';
   const proposals = await json('content/synthesis-proposals.json');
   const validationPriorities = [];
-  const plannedIds = new Set(batchCatalogue.batches.filter(batch=>['planned','authorized','provider-failed'].includes(batch.state)).flatMap(batch=>batch.blocks.map(ref=>ref.take??ref.code+'-'+ref.part)));
+  const plannedIds = new Set(batchCatalogue.batches.filter(batch=>!batch.supersededBy&&['planned','authorized','provider-failed'].includes(batch.state)).flatMap(batch=>batch.blocks.map(ref=>ref.take??ref.code+'-'+ref.part)));
   synthesis += '\n## Agrupacions candidates · validació i preparació pendents\n\nLa previsió utilitza el text pla real, amb els títols i sense marques literals de pausa ni marges afegits per omplir la petició. Un grup de guions validats encara necessita preparar i comprovar l’entrada definitiva abans d’enviar-lo. Els candidats petits continuen esperant material compatible.\n\n| Proposta | Repartiment | Comprensions | Previsió en text pla | Mida orientativa | Guions validats | Validacions que falten |\n| --- | --- | --- | ---: | --- | ---: | --- |\n';
   for (const group of proposals.groups) {
     const proposed = group.codes.map(code => activities.find(entry => entry.code === code));

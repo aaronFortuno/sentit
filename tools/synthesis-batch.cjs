@@ -92,7 +92,7 @@ async function main(){
  const folder=path.join(work,'mixed-batches',id.toLowerCase()+'-'+built.requestHash.slice(0,12));
  console.log(JSON.stringify({batch:id,requestHash:built.requestHash,estimatedSeconds:built.estimate.seconds,estimatedInputTokens:built.estimatedInputTokens,voices:built.voices,blocks:built.blocks.map(b=>b.id),folder}));
  if(process.argv.includes('--freeze')){
-  assertSynthesisWindow(built.body);if(batch.state&&batch.state!=='planned'&&batch.approvedRequestHash!==built.requestHash)throw Error('Lot ja congelat amb una altra empremta.');
+  assertSynthesisWindow(built.body,batch.windowException);if(batch.state&&batch.state!=='planned'&&batch.approvedRequestHash!==built.requestHash)throw Error('Lot ja congelat amb una altra empremta.');
   Object.assign(batch,{state:'authorized',approvedAt:new Date().toISOString(),approvedRequestHash:built.requestHash,estimatedSeconds:built.estimate.seconds,estimatedInputTokens:built.estimatedInputTokens,authorization:batch.authorization??'El docent autoritza processar els lots compatibles d’un en un, comprovant cada retorn. Només guions i correccions ja validats.'});
   await fs.writeFile(file,JSON.stringify(catalog,null,2)+'\n');
  }
@@ -100,7 +100,7 @@ async function main(){
  const resume=process.argv.includes('--resume-background');
  if(!process.argv.includes('--max-requests=1'))throw Error('Cal limitar a una única petició.');
  if(batch.state!=='authorized'||batch.approvedRequestHash!==built.requestHash)throw Error('Cal congelar el lot exacte abans d’enviar.');
- assertSynthesisWindow(built.body);if(!resume){assertQuota(await readJSON(path.join(work,'last-api-error.json'),null));assertDailyRoom(await readJSON(path.join(work,'request-log.json'),[]));}
+ assertSynthesisWindow(built.body,batch.windowException);if(!resume){assertQuota(await readJSON(path.join(work,'last-api-error.json'),null));assertDailyRoom(await readJSON(path.join(work,'request-log.json'),[]));}
  const disk=await fs.statfs(work);if(disk.bavail*disk.bsize<512*1024*1024)throw Error('Menys de 512 MB lliures: alliberar espai abans de reservar quota o sintetitzar. Cap petició enviada.');
  await fs.mkdir(folder,{recursive:true});
  const raw=path.join(folder,'raw.wav'),attemptFile=path.join(folder,'attempt.json'),previous=await readJSON(attemptFile,null);
@@ -112,9 +112,9 @@ async function main(){
   await handle.writeFile(JSON.stringify({pid:process.pid,batch:id,startedAt:attempt.startedAt}));
   await fs.writeFile(path.join(folder,'request.json'),JSON.stringify(built.body,null,2));await fs.writeFile(path.join(folder,'blocks.json'),JSON.stringify(built.blocks,null,2));
   await fs.writeFile(attemptFile,JSON.stringify(attempt,null,2));
-  if(!resume)await reserveRequest(work,{code:id,purpose:'mixed-approved-batch',hash:built.requestHash,model:built.body.model},built.body,{minimumIntervalMs:65000});
+  if(!resume)await reserveRequest(work,{code:id,purpose:'mixed-approved-batch',hash:built.requestHash,model:built.body.model},built.body,{minimumIntervalMs:65000,windowException:batch.windowException});
   attempt.state='in-flight';await fs.writeFile(attemptFile,JSON.stringify(attempt,null,2));
-  const audio=await require('./generate-prototypes.cjs').geminiAudio(built.body,path.join(folder,'usage.json'),{timeoutMs:1200000,responseFile:path.join(folder,'response.json')});
+  const audio=await require('./generate-prototypes.cjs').geminiAudio(built.body,path.join(folder,'usage.json'),{timeoutMs:1200000,responseFile:path.join(folder,'response.json'),windowException:batch.windowException});
   checkWave(audio);await fs.writeFile(raw+'.part',audio);await fs.rename(raw+'.part',raw);Object.assign(attempt,{state:'raw-received',completedAt:new Date().toISOString(),rawSha256:sha(audio)});
   const response=await fs.readFile(path.join(folder,'response.json')),gzip=await require('node:util').promisify(require('node:zlib').gzip)(response);if(sha(await require('node:util').promisify(require('node:zlib').gunzip)(gzip))!==sha(response))throw Error('Còpia comprimida no íntegra.');await fs.writeFile(path.join(folder,'response.json.gz'),gzip);await fs.unlink(path.join(folder,'response.json'));attempt.responseSha256=sha(response);attempt.responseFile='response.json.gz';
   console.log(JSON.stringify({batch:id,state:attempt.state,bytes:audio.length,folder}));

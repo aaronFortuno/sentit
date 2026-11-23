@@ -1,0 +1,338 @@
+{
+  "model": "gemini-3.8-flash-tts",
+  "input": [
+    {
+      "type": "user_input",
+      "content": [
+        {
+          "type": "text",
+          "text": "Comprensió oral. La guitarra del concert de divendres. \n\nBon dia, Elies. He vingut a veure com va la guitarra. Divendres tenim el concert de l’escola i avui ens han demanat amb quin instrument tocarà cadascú. Jo he dit que esperava poder portar la meva.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Biel i Elies conversen al taller. Biel és un jove curiós: descriu el que veu o sent amb mots comuns, prova una idea i pregunta quan una cosa el sorprèn. Elies és un adult proper que explica la feina mentre la mostra, amb termes concrets i sense una lliçó final. Dues veus constants; salutació i comiat recíproc, sense altres personatges interpretats. A l’últim torn, Elies ajuda amablement en Biel a posar el full dins de la funda: «espera» amb atenció propera, com qui s’ofereix a aguantar-la, i «així» més lent i suau, confirmant que el full ha entrat bé. Pauses curtes i naturals mentre l’ajuda, sense allargar l’espera ni afegir paraules. Les indicacions d’interpretació no es llegeixen. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the same two character voices throughout all recordings. Instructions are not spoken."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Bon dia, Biel. Em falta una peça que vaig encarregar ahir. M’han dit que la portaran dijous al matí. Quan arribi la podré posar i després tocaré una estona amb la guitarra per comprovar com ha quedat.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Biel i Elies conversen al taller. Biel és un jove curiós: descriu el que veu o sent amb mots comuns, prova una idea i pregunta quan una cosa el sorprèn. Elies és un adult proper que explica la feina mentre la mostra, amb termes concrets i sense una lliçó final. Dues veus constants; salutació i comiat recíproc, sense altres personatges interpretats. A l’últim torn, Elies ajuda amablement en Biel a posar el full dins de la funda: «espera» amb atenció propera, com qui s’ofereix a aguantar-la, i «així» més lent i suau, confirmant que el full ha entrat bé. Pauses curtes i naturals mentre l’ajuda, sense allargar l’espera ni afegir paraules. Les indicacions d’interpretació no es llegeixen. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Doncs passo dijous després de classe i ja me l’enduc? Em va bé perquè així encara podria assajar a casa abans de divendres. És que amb la de l’escola em costa arribar a alguns llocs.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Si la peça arriba al matí i tot encaixa bé, et trucaré perquè vinguis a la tarda. Avui el paquet encara és de camí. També pot passar que l’hagin de portar més tard. Per això t’he deixat preparada aquesta guitarra petita per provar-la mentrestant.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Aquesta és més semblant a la meva. La puc agafar ara? M’aniria bé tocar el tros del concert, perquè amb la de l’escola em vaig acostumar a fer una cosa una mica diferent amb la mà.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí. Seu aquí i prova el començament i aquell canvi que et costava. La funda és sota la taula. Si aquesta et va bé, te la pots endur avui i assajar amb ella. Dijous et diré com està la teva.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Aquesta em queda millor. Però si dijous ja tens la meva arreglada, què faig amb aquesta? La torno al moment o me la puc quedar fins després del concert?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "La pots tenir tot el cap de setmana. Així, si has estat assajant amb aquesta i divendres la prefereixes, la tindràs a mà. Porta’m la de préstec dilluns, i quan vinguis a buscar la teva també te l’ensenyaré amb calma.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "D’acord. A l’escola avui els puc dir que tocaré amb aquesta petita que m’has deixat. Si després canviés a la meva, els ho diria dijous. El que més els interessava era saber si necessitava la guitarra de l’escola.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Amb aquesta que t’endús ja tens un instrument per assajar i per al concert. La de l’escola la podran preparar per a un altre alumne. Quan et truqui dijous, em pots explicar com t’ha anat amb la petita.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Si no m’has trucat encara quan surti de classe, et truco jo? Surto de pressa perquè tenim assaig i no vull venir fins aquí per trobar-me la guitarra encara oberta damunt de la taula.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí, truca abans de venir. T’ho explicaré per telèfon. Aquest matí ja he comprovat la guitarra de préstec i només falta que la guardem a la funda.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Gràcies, Elies. Agafo el full de la cançó i me l’emporto amb aquesta. Dijous parlarem; de moment avui ja podré practicar el tros que em sortia tort.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "De res, Biel. Espera, que t’aguanto la funda mentre hi poses el full... així... Fins dijous, i ja m’explicaràs com va l’assaig.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. El so que volíem gravar. \n\nHola, Elies! Ja tinc les preguntes per al programa sobre la guitarra que has arreglat. Volia començar fent sentir aquell soroll tan lleig que feia i després escoltar com sona ara. Però acabo de tocar-la i avui no fa el soroll.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Biel i Elies conversen al taller. Biel és un jove curiós: descriu el que veu o sent amb mots comuns, prova una idea i pregunta quan una cosa el sorprèn. Elies és un adult proper que explica la feina mentre la mostra, amb termes concrets i sense una lliçó final. Dues veus constants; salutació i comiat recíproc, sense altres personatges interpretats. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the same two character voices throughout all recordings. Instructions are not spoken."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Hola, Biel. És la mateixa guitarra, però ja l’he reparada. Ahir vaig tornar a tocar el passatge on sonava aquell cop sec i ara ha desaparegut. Si vols explicar què li passava, haurem de recórrer al que vam guardar abans de començar.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Biel i Elies conversen al taller. Biel és un jove curiós: descriu el que veu o sent amb mots comuns, prova una idea i pregunta quan una cosa el sorprèn. Elies és un adult proper que explica la feina mentre la mostra, amb termes concrets i sense una lliçó final. Dues veus constants; salutació i comiat recíproc, sense altres personatges interpretats. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "La gravació del meu mòbil! La vaig fer quan vaig portar-la el primer dia. Hi ha una estona que toco i, després, em poso a parlar de la funda. Potser podria agafar només el tros on sona aquell cop.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí. Guarda també la gravació sencera, perquè hi tens l’ordre de tot el que vam fer. Per al programa en pots preparar una còpia curta. La podem escoltar junts i triar un fragment on el soroll es distingeixi sense haver d’apujar molt el volum.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "En recordo un de força clar. Em va sortir just abans d’aturar-me. Si després toco el mateix començament ara, tindrem dues versions semblants. La primera és més llarga perquè em vaig entrebancar una vegada.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Podem triar el tros de la primera on ja toques seguit i repetir avui aquell mateix tros. Posa el mòbil al suport on era el primer dia. Jo apartaré les eines, que avui tinc la taula molt més plena.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Quan ho munti, poso els dos trossos seguits? Si comença directament amb el soroll, potser qui escolti pensarà que té l’altaveu del mòbil espatllat. A mi em va passar una mica quan em van enviar el primer vídeo.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Pots dir primer que sentiran una gravació de la guitarra abans de la reparació. Després hi poses aquell fragment. A continuació expliques que el tornarem a tocar ara, amb la guitarra reparada, i fas sentir el segon.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "I l’entrevista va després? M’agradaria preguntar-te com vas trobar d’on venia el cop. Si primer ho expliques tot, quan arribi el segon tros ja sabran què se suposa que han de sentir.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Podem deixar les dues mostres al començament i parlar després de com ho vaig comprovar. A l’entrevista ensenyarem també aquella petita part de fusta que havia quedat fluixa. Com que la gent de la ràdio no la veurà, l’haurem de descriure amb calma.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Doncs jo et preguntaré on era i què feia quan tocava. Això sí que em va sorprendre: era tan petita que dins de la guitarra gairebé ni la trobava. No caldrà que memoritzi el nom aquell tan llarg que em vas dir, oi?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "La pots anomenar part de fusta de dins de la guitarra. Quan calgui concretar, jo explicaré on va i com estava enganxada. Per començar el programa només ens cal que se senti bé la diferència entre les dues preses.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Gràcies, Elies. Vaig a buscar el tros del primer dia i te l’ensenyo abans de gravar el d’avui. El tinc guardat amb el nom del meu gos, perquè era l’última cosa que havia gravat. Ara mateix ho canvio o no el trobarem mai!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Gràcies a tu. Deixo el suport del mòbil al lloc de l’altra vegada i t’espero aquí, amb la guitarra preparada.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "response_format": {
+    "type": "audio",
+    "mime_type": "audio/wav",
+    "sample_rate": 24000
+  },
+  "generation_config": {
+    "speech_config": {
+      "speakers": [
+        {
+          "speaker": "Voice1",
+          "voice": "Puck"
+        },
+        {
+          "speaker": "Voice2",
+          "voice": "Algieba"
+        }
+      ]
+    }
+  },
+  "background": true
+}

@@ -1,0 +1,186 @@
+{
+  "id": "L16",
+  "state": "received-and-split",
+  "requestHash": "588839376334e915c4952fab7c33def098c4cfa5d066e7c5bbf7ef749940ae59",
+  "rawSha256": "6a803d106a394c265de79093cdb57c8eab002a5249778599c28a6170ede7ebca",
+  "startedAt": "2026-11-23T07:53:34.791Z",
+  "completedAt": "2026-11-23T07:55:30.597Z",
+  "rawSeconds": 349.92,
+  "usage": {
+    "total_tokens": 10629,
+    "total_input_tokens": 1881,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 1881
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 8748,
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 8748
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 0,
+    "initial_input_tokens": 1881
+  },
+  "returnedAudioBlocks": 1,
+  "newRequests": 1,
+  "coverageCheck": {
+    "engine": "vosk-model-small-ca-0.4",
+    "matchedFraction": 0.9472803347280335,
+    "pronunciationValidated": false,
+    "uncertainTurns": []
+  },
+  "parts": [
+    {
+      "id": "S073-T01",
+      "code": "S073",
+      "sourceRequestHash": "3d05e881e0eaa3f0ed32e96ea756c884cb3ec53827309e2b30cedb24bfd85781",
+      "start": 0,
+      "end": 101.025,
+      "clipSha256": "0dbec55d65fb899a2169616a5d5067a12d8d72ded47dd354f8abe374a0e303ff",
+      "coverage": 0.9461077844311377,
+      "status": "voices-received"
+    },
+    {
+      "id": "S075-T01",
+      "code": "S075",
+      "sourceRequestHash": "67770784574fc42a0c8fff15ae86101474e4be988056291fab4a4124a9f4e7bd",
+      "start": 101.025,
+      "end": 199.62,
+      "clipSha256": "2f8c6df7ca777752be1d310b2ea6c1309840af6d44fab593a7fc3cda9d68122d",
+      "coverage": 0.9464285714285714,
+      "status": "voices-received"
+    },
+    {
+      "id": "S077-T01",
+      "code": "S077",
+      "sourceRequestHash": "42cc6f8dc2c91eb436b5c54616e769671e57cb7eca7f1e4c78bdd8ae924508c4",
+      "start": 199.62,
+      "end": 349.92,
+      "clipSha256": "585f3e0362e18519b68b896adac013785cdaa6f0168bbb8ddab5675f8fdcbda6",
+      "coverage": 0.9485714285714286,
+      "status": "voices-received"
+    }
+  ],
+  "preservesOriginals": true,
+  "voiceRetimed": false,
+  "missingParts": [],
+  "waveRecovery": {
+    "mode": "riff-c2pa-prefix-plus-pcm-v2",
+    "providerWaveSha256": "a852567d8afd17eb63c3d29b9a98a215dfc3b0c48f019dbf67e1afd9007e4045",
+    "recoveredWaveSha256": "6a803d106a394c265de79093cdb57c8eab002a5249778599c28a6170ede7ebca",
+    "pcmSha256": "1edfd2c2e3ffd3e20ddfbd4cfa39eadc96c42e26f848833af83ea031fa8f6adf",
+    "prefixPcmBytes": 1920,
+    "trailingStreamBytes": 16940882,
+    "metadataBytes": 7655,
+    "interleavedMetadata": {
+      "count": 19,
+      "removedBytes": 146642,
+      "tags": [
+        {
+          "sourceOffset": 704668,
+          "bytes": 7718,
+          "sha256": "ae036d890edabcfc435a1038985ca66461fc156914e1dbedc4b9315a77451982"
+        },
+        {
+          "sourceOffset": 754626,
+          "bytes": 7718,
+          "sha256": "bd8016b6b61d40a168d3367eaec5b8083729d5d4792cf0a169f18fa2a3b3583c"
+        },
+        {
+          "sourceOffset": 1975784,
+          "bytes": 7718,
+          "sha256": "be6bb0135481ff5e2398cb5c0a1ba22ed642a8148c05f831652dab8020322c99"
+        },
+        {
+          "sourceOffset": 2000782,
+          "bytes": 7718,
+          "sha256": "d2adaea40b172cea437b4a3e91d375a3d178a66c82c52b3799df2eb9ceeb6d35"
+        },
+        {
+          "sourceOffset": 2895540,
+          "bytes": 7718,
+          "sha256": "3ec3e89c7684a231b1804dbea0f5b9e1c8b5fd18df51faf9b48e701be29109a1"
+        },
+        {
+          "sourceOffset": 3533018,
+          "bytes": 7718,
+          "sha256": "6ed19f3b141af59ba7b3cd69ca5ce927716f09d0351b46f60a89f7baf89f9c45"
+        },
+        {
+          "sourceOffset": 5712256,
+          "bytes": 7718,
+          "sha256": "a828b605f7aa46c46a24a724fec9a931e8471bf857fdae3785fa8d1fe92db23d"
+        },
+        {
+          "sourceOffset": 7762854,
+          "bytes": 7718,
+          "sha256": "028a89b472ac9c5e2a8761c7e8831f9071864cf3d1137fca7eaa147543ea392e"
+        },
+        {
+          "sourceOffset": 8930252,
+          "bytes": 7718,
+          "sha256": "75e91a3a66b3cec85423a739f3f8caf6f3ee3956f9c44c417e834ef9e25f089f"
+        },
+        {
+          "sourceOffset": 9746290,
+          "bytes": 7718,
+          "sha256": "fd54ecefeebb0ef81582b4b08d83b87b542dc3641eda1e5f37234a78342767e2"
+        },
+        {
+          "sourceOffset": 9757848,
+          "bytes": 7718,
+          "sha256": "98271d4792589b036323d993b73942823896df42e878d0f5650ef1fabce394c9"
+        },
+        {
+          "sourceOffset": 10639166,
+          "bytes": 7718,
+          "sha256": "4002728a2abf5b8761536fd6810ffbef8b3fd227f2cd9997c8168f10e456b5c0"
+        },
+        {
+          "sourceOffset": 10737124,
+          "bytes": 7718,
+          "sha256": "8fcb00070f5f24bb8ad3de37b08251bbb9875f13b6a766e5c04d7ba19dedbbe6"
+        },
+        {
+          "sourceOffset": 11113482,
+          "bytes": 7718,
+          "sha256": "a5ce04526b4e5cb67bf7754dcb612af411ab9677606d14349a2adf9b062963a1"
+        },
+        {
+          "sourceOffset": 11580080,
+          "bytes": 7718,
+          "sha256": "2e92d47e5530b8bc39076b223673c99405c96e285b121093724e86c55e0751a7"
+        },
+        {
+          "sourceOffset": 14454358,
+          "bytes": 7718,
+          "sha256": "840ecbc9ad5aa1a93d2e240b9ca04cd424afb54ed60b04dc0d7970b31dec982d"
+        },
+        {
+          "sourceOffset": 14738556,
+          "bytes": 7718,
+          "sha256": "0797bebdff9dfb778c66fc1384d8a9dadffbccde6002c9753f9c4854f5616883"
+        },
+        {
+          "sourceOffset": 15888674,
+          "bytes": 7718,
+          "sha256": "4eac57902d39be162c6f55016a7981b9abaa59502ab2ce15008b438631b24b0c"
+        },
+        {
+          "sourceOffset": 16921672,
+          "bytes": 7718,
+          "sha256": "e4a21628b08a1dd0f53c319c7a293c97a6b3e3843b6566d1863b5a60ffcd4d8f"
+        }
+      ]
+    },
+    "seconds": 349.92,
+    "allPcmSamplesPreserved": true,
+    "voiceRetimed": false
+  }
+}

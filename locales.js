@@ -1,6 +1,7 @@
 export const strings = {
   ca: {
     language: 'ca',
+    releaseFourVoiceBatches: 'Quatre lots rebuts amb veus per a deu comprensions, disponibles a les fitxes per escoltar-les abans de fer el muntatge. Originals conservats i metadades intercalades retirades en local. Seguiment de producció i cua actualitzats.',
     releasePlainVoiceBatch: 'S048, S049, S050, S051, S052, S074 i S076 validades per a veus. S028/S048/S049/S050 rebudes en una sola petició amb text sense marques literals de pausa; preses per escoltar, cobertura local comprovada i muntatge pendent. S040/S051/S052 preparades com a següent lot, encara sense enviar. S074 i S076 mantenen curs i dificultat; es confirmaran després d’escoltar-les. A S076 es valorarà passar-la a 6è.',
     releaseUpperPrimaryScripts: 'Trenta guions nous de 5è i 6è, amb preguntes, solucionari i escaleta, en sis blocs de repartiment constant: Mar; Laia i Biel; Mireia i Biel; Ferran; Laia i Ona; Biel i Elies. Revisió independent i esmenes finals abans de mostrar-los com a provisionals. Índex de validació per blocs i previsions de lots; cap síntesi ni aprovació docent atribuïda. Vida quotidiana queda anotada per a una futura tanda d’inicial i mitjà.',
     listenComprehension: 'Escolta la comprensió', pauseComprehension: 'Pausa la comprensió',
@@ -278,6 +279,7 @@ export const strings = {
   },
   es: {
     language: 'es',
+    releaseFourVoiceBatches: 'Cuatro lotes recibidos con voces para diez comprensiones, disponibles en las fichas para escucharlas antes del montaje. Originales conservados y metadatos intercalados retirados en local. Seguimiento de producción y cola actualizados.',
     releasePlainVoiceBatch: 'S048, S049, S050, S051, S052, S074 y S076 validadas para voces. S028/S048/S049/S050 recibidas en una sola petición con texto sin marcas literales de pausa; tomas para escuchar, cobertura local comprobada y montaje pendiente. S040/S051/S052 preparadas como siguiente lote, todavía sin enviar. S074 y S076 mantienen curso y dificultad; se confirmarán tras escucharlas. En S076 se valorará pasarla a 6.º.',
     releaseUpperPrimaryScripts: 'Treinta guiones nuevos de 5.º y 6.º, con preguntas, soluciones y escaleta, en seis bloques de reparto constante: Mar; Laia y Biel; Mireia y Biel; Ferran; Laia y Ona; Biel y Elies. Revisión independiente y correcciones finales antes de mostrarlos como provisionales. Índice de validación por bloques y previsiones de lotes; sin síntesis ni aprobación docente atribuida. Vida cotidiana queda anotada para una futura tanda de ciclo inicial y medio.',
     listenComprehension: 'Escucha la comprensión', pauseComprehension: 'Pausa la comprensión',

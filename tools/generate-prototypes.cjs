@@ -12,7 +12,7 @@ const productionPlans = require('../content/production-plans.json');
 const { fingerprint, assertProductionApproved } = require('./production-approval.cjs');
 const outputDirectory = path.resolve(__dirname, '../../output/sentit-primera-tanda');
 async function geminiAudio(body, summaryFile, options = {}) {
-  require('./audio-batch-policy.cjs').assertSynthesisWindow(body);
+  require('./audio-batch-policy.cjs').assertSynthesisWindow(body,options.windowException);
   const key = process.env.GEMINI_API_KEY?.trim() || parseEnv(await fs.readFile(path.resolve(__dirname, '../../.private/comprensio-oral/gemini.env'), 'utf8')).GEMINI_API_KEY?.trim();
   if (!key) throw Error('Gemini: falta configuració privada.');
   const endpoint = 'https://generativelanguage.googleapis.com/v1beta/interactions';

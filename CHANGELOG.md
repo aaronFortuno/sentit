@@ -1,5 +1,12 @@
 # Canvis
 
+## 0.1.81 · 23 de novembre de 2026
+
+- Quatre peticions seqüencials autoritzades: L15 (S040/S051/S052), L16 (S073/S075/S077), L12 (S033/S036) i L20 (S081/S082). L20 és el nou intent explícit després de l’error intern sense àudio de L19, que es conserva a l’històric.
+- Veus rebudes per a deu comprensions, separades amb comprovació local de cobertura i talls en silencis. Reproductors a les fitxes i a «Veus rebudes»; cap muntatge ni aprovació perceptiva automàtica.
+- Originals íntegres conservats. Retirades les etiquetes ID3/C2PA intercalades a la sortida del proveïdor; recuperació compatible amb els dos marcs inicials de PCM observats, amb proves de preservació de totes les mostres.
+- Excepció docent de mida limitada a L12, vinculada a la petició exacta i amb caducitat. La norma general de sis a vuit minuts i els controls de quota es mantenen. Seguiment separat d’audició de veus i muntatge.
+
 ## 0.1.80 · 23 de novembre de 2026
 
 - S009, S023, S030, S031 i S050 validades per publicació definitiva. S009/S030/S031/S050 amb il·lustracions noves basades en els personatges, sense pistes de les respostes; fitxes i transcripcions netes. S023 conserva la imatge i registra la variació de timbre de la represa com a limitació acceptada, sense tornar-la a posar en cua.

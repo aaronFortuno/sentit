@@ -7,10 +7,6 @@ Actualitzat: **23/11/2026**. Aquest document mostra només la feina pendent d’
 | Lot | Material pendent | Veus | Previsió orientativa | Què falta |
 | --- | --- | --- | ---: | --- |
 | L04 | S005: Aquest matí, per exemple, he apartat un sobre per revisar-lo abans de sortir.; S015: Per això es controla la il·luminació i també les condicions de temperatura i humitat. | Vindemiatrix + Kore | 0:22 | Completar amb material del mateix repartiment; S015: conciliar el registre editorial històric abans de preparar l’esmena |
-| L12 | S033; S036 | Puck + Kore | 3:37 | Completar amb material del mateix repartiment |
-| L15 | S040; S051; S052 | Leda + Kore | 6:00 | Entrada verificada · pendent d’enviament |
-| L16 | S073; S075; S077 | Leda + Sulafat | 6:47 | Entrada verificada · pendent d’enviament |
-| L19 | S081; S082 | Puck + Algieba | 6:09 | Gemini ha retornat INTERNAL, sense veus. Identificador conservat; no reenviat automàticament. |
 
 ## Veus rebudes · per escoltar abans del muntatge
 
@@ -19,10 +15,20 @@ Les preses originals es conserven i la cobertura s’ha comprovat localment. La 
 | Peça | Presa |
 | --- | --- |
 | [ca-S028](https://sentit.ortogra.fi/#lectura=ca-S028) | [Escolta les veus](../proves/veus-rebudes.html#S028) |
+| [ca-S033](https://sentit.ortogra.fi/#lectura=ca-S033) | [Escolta les veus](../proves/veus-rebudes.html#S033) |
+| [ca-S036](https://sentit.ortogra.fi/#lectura=ca-S036) | [Escolta les veus](../proves/veus-rebudes.html#S036) |
+| [ca-S040](https://sentit.ortogra.fi/#lectura=ca-S040) | [Escolta les veus](../proves/veus-rebudes.html#S040) |
 | [ca-S046](https://sentit.ortogra.fi/#lectura=ca-S046) | [Escolta les veus](../proves/veus-rebudes.html#S046) |
 | [ca-S049](https://sentit.ortogra.fi/#lectura=ca-S049) | [Escolta les veus](../proves/veus-rebudes.html#S049) |
+| [ca-S051](https://sentit.ortogra.fi/#lectura=ca-S051) | [Escolta les veus](../proves/veus-rebudes.html#S051) |
+| [ca-S052](https://sentit.ortogra.fi/#lectura=ca-S052) | [Escolta les veus](../proves/veus-rebudes.html#S052) |
 | [ca-S061](https://sentit.ortogra.fi/#lectura=ca-S061) | [Escolta les veus](../proves/veus-rebudes.html#S061) |
 | [ca-S062](https://sentit.ortogra.fi/#lectura=ca-S062) | [Escolta les veus](../proves/veus-rebudes.html#S062) |
+| [ca-S073](https://sentit.ortogra.fi/#lectura=ca-S073) | [Escolta les veus](../proves/veus-rebudes.html#S073) |
+| [ca-S075](https://sentit.ortogra.fi/#lectura=ca-S075) | [Escolta les veus](../proves/veus-rebudes.html#S075) |
+| [ca-S077](https://sentit.ortogra.fi/#lectura=ca-S077) | [Escolta les veus](../proves/veus-rebudes.html#S077) |
+| [ca-S081](https://sentit.ortogra.fi/#lectura=ca-S081) | [Escolta les veus](../proves/veus-rebudes.html#S081) |
+| [ca-S082](https://sentit.ortogra.fi/#lectura=ca-S082) | [Escolta les veus](../proves/veus-rebudes.html#S082) |
 
 Les previsions provenen dels guions i del calibratge local; cal recalcular-les amb el format definitiu abans d’enviar. Una mateixa veu en dos guions no implica el mateix personatge. No es canvien repartiments ni s’allarguen guions per omplir un lot.
 

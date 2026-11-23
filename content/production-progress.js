@@ -1233,7 +1233,7 @@ export const productionProgress = {
     }
   },
   "ca-S040": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-21T09:14:33.054Z",
     "editorialFingerprint": "b911a99d5368d730040877b6b5f6fe8b6afa29df524952cde9b52e1870da0f50",
     "plannedNewRequests": 1,
@@ -1243,7 +1243,23 @@ export const productionProgress = {
       "status": "awaiting-selection",
       "programme": "radio-escola",
       "note": "Capçalera de programa proposada, pendent de seleccionar abans del muntatge; les veus estan autoritzades."
-    }
+    },
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S040-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L15"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-23T07:54:36.082Z",
+    "listeningApproval": false,
+    "voicePreview": "./proves/veus-rebudes.html#S040",
+    "voicePreviewFile": "./assets/audio/s040-voices-review-v1.mp3"
   },
   "ca-S028": {
     "state": "voices-received",
@@ -1643,12 +1659,28 @@ export const productionProgress = {
     ]
   },
   "ca-S033": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-21T09:39:11.371Z",
     "editorialFingerprint": "dab708a0277ce88435754b47786e9c49e4765cf4e4bda4708cd8e8476e43caf2",
     "plannedNewRequests": 1,
     "confirmation": "S033 validat per síntesi de veus",
-    "reason": "Guió validat; lot candidat L12 amb Biel/Puck i Nora/Kore, pendent de completar sis a vuit minuts amb material compatible."
+    "reason": "Guió validat; lot candidat L12 amb Biel/Puck i Nora/Kore, pendent de completar sis a vuit minuts amb material compatible.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S033-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L12"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-23T07:56:34.756Z",
+    "listeningApproval": false,
+    "voicePreview": "./proves/veus-rebudes.html#S033",
+    "voicePreviewFile": "./assets/audio/s033-voices-review-v1.mp3"
   },
   "ca-S038D": {
     "state": "published",
@@ -1701,12 +1733,28 @@ export const productionProgress = {
     }
   },
   "ca-S036": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-21T09:53:12.331Z",
     "editorialFingerprint": "58f26bfbd9f7e9dcdd1b730ee8da87af1b18a8f15f3ecd44d9979b3505a4f674",
     "plannedNewRequests": 1,
     "confirmation": "S036 validat per síntesi de veus",
-    "reason": "Guió validat durant el processament seqüencial; incorporar a un lot compatible pendent, conservant les veus i el text exactes."
+    "reason": "Guió validat durant el processament seqüencial; incorporar a un lot compatible pendent, conservant les veus i el text exactes.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S036-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L12"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-23T07:56:34.756Z",
+    "listeningApproval": false,
+    "voicePreview": "./proves/veus-rebudes.html#S036",
+    "voicePreviewFile": "./assets/audio/s036-voices-review-v1.mp3"
   },
   "ca-S041": {
     "state": "audio-corrections-pending",
@@ -2070,22 +2118,52 @@ export const productionProgress = {
     }
   },
   "ca-S052": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-22T17:55:43.315Z",
     "editorialFingerprint": "6795a7f1e2c0d0371d878125ceff16c9c1fd8828d953e09d6722cef5e6748929",
     "plannedNewRequests": 1,
     "listeningApproval": false,
     "confirmation": "S052 validada per síntesi de veus",
-    "reason": "Guió, veus i escaleta validats; P03 encara espera la validació de S051 abans de preparar el lot amb S040."
+    "reason": "Guió, veus i escaleta validats; P03 encara espera la validació de S051 abans de preparar el lot amb S040.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S052-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L15"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-23T07:54:36.082Z",
+    "voicePreview": "./proves/veus-rebudes.html#S052",
+    "voicePreviewFile": "./assets/audio/s052-voices-review-v1.mp3"
   },
   "ca-S051": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-22T17:57:07.244Z",
     "editorialFingerprint": "19d3a1cc1a536975b6d5a5d72236fb7854b86661b4ab040a057b5c61205fc0e5",
     "plannedNewRequests": 1,
     "listeningApproval": false,
     "confirmation": "S051 validada per síntesi de veus",
-    "reason": "P03 completa totes tres validacions. Preparar el lot Laia/Leda i Nora/Kore després de comprovar el primer retorn del format nou; cap petició curta aïllada."
+    "reason": "P03 completa totes tres validacions. Preparar el lot Laia/Leda i Nora/Kore després de comprovar el primer retorn del format nou; cap petició curta aïllada.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S051-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L15"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-23T07:54:36.082Z",
+    "voicePreview": "./proves/veus-rebudes.html#S051",
+    "voicePreviewFile": "./assets/audio/s051-voices-review-v1.mp3"
   },
   "ca-S076": {
     "state": "ready-for-voices",
@@ -2230,7 +2308,7 @@ export const productionProgress = {
     }
   },
   "ca-S075": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-22T19:33:51.066Z",
     "editorialFingerprint": "94294ae5942a54af2a877d673e5e56496328defcd68bdacb2b2114d65dd1bf92",
     "plannedNewRequests": 1,
@@ -2240,7 +2318,22 @@ export const productionProgress = {
     "mixingNotes": [
       "Ambient continu real de sala de restaurant o bar, com una conversa de barra vinculada al servei. Xerrameca llunyana sense paraules entenedores, sense veus massa infantils, molt baixa sota Laia i Ona. Retorn docent posterior substitueix el fons genèric de cuina.",
       "Preparar ambient continu de sala/bar per a S075, sense pauses addicionals per papers o safates; qualsevol acció puntual conservada pot coincidir amb la conversa."
-    ]
+    ],
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S075-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L16"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-23T07:55:30.597Z",
+    "voicePreview": "./proves/veus-rebudes.html#S075",
+    "voicePreviewFile": "./assets/audio/s075-voices-review-v1.mp3"
   },
   "ca-S057": {
     "state": "ready-for-voices",
@@ -2285,13 +2378,28 @@ export const productionProgress = {
     "voicePreviewFile": "./assets/audio/s046-voices-review-v1.mp3"
   },
   "ca-S073": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-22T19:57:00.644Z",
     "editorialFingerprint": "072b5aceaffba4c101b890ece9f7bd1523f2bd168cedc2eaf8d9c435c2d2d406",
     "plannedNewRequests": 1,
     "listeningApproval": false,
     "confirmation": "S073 validada per síntesi de veus",
-    "reason": "Agrupar lectures completes validades de Laia/Leda i Ona/Sulafat fins a sis a vuit minuts."
+    "reason": "Agrupar lectures completes validades de Laia/Leda i Ona/Sulafat fins a sis a vuit minuts.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S073-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L16"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-23T07:55:30.597Z",
+    "voicePreview": "./proves/veus-rebudes.html#S073",
+    "voicePreviewFile": "./assets/audio/s073-voices-review-v1.mp3"
   },
   "ca-S061": {
     "state": "voices-received",
@@ -2343,7 +2451,7 @@ export const productionProgress = {
     }
   },
   "ca-S082": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-22T19:59:16.594Z",
     "editorialFingerprint": "b240a4b113ef94d395926ce05c3897d6c219c180c2f29a66fe202e5a857e4389",
     "plannedNewRequests": 1,
@@ -2361,21 +2469,45 @@ export const productionProgress = {
       "reviewDifficulty": false,
       "note": "Valorar el possible pas a 1r d’ESO després d’escoltar l’àudio muntat. Ara es mantenen 6è avançada i nou preguntes. Encara no s’ha decidit una qualificació de dificultat per a l’ESO."
     },
-    "synthesisIssue": {
-      "batch": "L19",
-      "code": "INTERNAL",
-      "at": "2026-11-22",
-      "resubmitted": false
-    }
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S082-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L20"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-23T07:57:54.800Z",
+    "voicePreview": "./proves/veus-rebudes.html#S082",
+    "voicePreviewFile": "./assets/audio/s082-voices-review-v1.mp3"
   },
   "ca-S077": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-22T20:05:09.021Z",
     "editorialFingerprint": "f60abdad44b48622c89a07da88c3d5e99885a217bffe0582a594143ee58a5986",
     "plannedNewRequests": 1,
     "listeningApproval": false,
     "confirmation": "S077 validada per síntesi de veus",
-    "reason": "Repartiment Laia/Leda i Ona/Sulafat complet: recalcular agrupacions amb text pla abans de congelar lots de sis a vuit minuts."
+    "reason": "Repartiment Laia/Leda i Ona/Sulafat complet: recalcular agrupacions amb text pla abans de congelar lots de sis a vuit minuts.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S077-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L16"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-23T07:55:30.597Z",
+    "voicePreview": "./proves/veus-rebudes.html#S077",
+    "voicePreviewFile": "./assets/audio/s077-voices-review-v1.mp3"
   },
   "ca-S045": {
     "state": "montage-awaiting-listening",
@@ -2528,19 +2660,28 @@ export const productionProgress = {
     }
   },
   "ca-S081": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-22T20:22:58.661Z",
     "editorialFingerprint": "2a784ecc42769c082794208ddcddb9a8c38dcaa50efa60baa1eee066bc814cf4",
     "plannedNewRequests": 1,
     "listeningApproval": false,
     "confirmation": "S081 validada per síntesi amb el tancament esmenat",
     "reason": "P15 complet amb S081 i S082; preparar lot Biel/Puck i Elies/Algieba de sis a vuit minuts.",
-    "synthesisIssue": {
-      "batch": "L19",
-      "code": "INTERNAL",
-      "at": "2026-11-22",
-      "resubmitted": false
-    }
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S081-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L20"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-23T07:57:54.800Z",
+    "voicePreview": "./proves/veus-rebudes.html#S081",
+    "voicePreviewFile": "./assets/audio/s081-voices-review-v1.mp3"
   },
   "ca-S079": {
     "state": "ready-for-voices",

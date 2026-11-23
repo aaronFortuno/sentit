@@ -15,7 +15,8 @@ function assertQuota(quota, now = Date.now()) {
 }
 
 async function reserveRequest(directory, metadata, body, options = {}) {
-  const utilization=require('./audio-batch-policy.cjs').assertSynthesisWindow(body);
+  const utilization=require('./audio-batch-policy.cjs').assertSynthesisWindow(body,options.windowException);
+  if(options.windowException&&options.windowException.batchId!==metadata.code)throw Error('L’excepció de mida correspon a un altre lot. Cap petició enviada.');
   assertQuota(await readJSON(path.join(directory, 'last-api-error.json'), null));
   const file = path.join(directory, 'request-log.json');
   const log = await readJSON(file, []);
@@ -28,7 +29,7 @@ async function reserveRequest(directory, metadata, body, options = {}) {
   if (remaining > interval+1000) throw Error('El rellotge no concorda amb el registre de peticions.');
   while(remaining>0){await wait(Math.min(remaining,55000));remaining=previous+interval-Date.now();}
   assertQuota(await readJSON(path.join(directory, 'last-api-error.json'), null));
-  log.push({ at: new Date().toISOString(), ...metadata, estimatedSeconds:utilization.seconds });
+  log.push({ at: new Date().toISOString(), ...metadata, estimatedSeconds:utilization.seconds,...(options.windowException?{windowException:options.windowException}:{}) });
   await fs.writeFile(file, JSON.stringify(log, null, 2) + '\n');
 }
 

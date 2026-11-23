@@ -1,6 +1,21 @@
 # Fonts sonores i muntatges
 
-Actualitzat: **20/11/2026**. Registre de les fonts realment utilitzades als fitxers disponibles. Les fonts i els manifests es poden consultar també al desplegable «Fonts i crèdits sonors» de cada comprensió, fora del PDF. [Seguiment per fases](seguiment-produccio.md) · [Reparacions de pronunciació](pronunciacio-tts.md).
+Actualitzat: **23/11/2026**. Registre de les fonts realment utilitzades als fitxers disponibles. Les fonts i els manifests es poden consultar també al desplegable «Fonts i crèdits sonors» de cada comprensió, fora del PDF. [Seguiment per fases](seguiment-produccio.md) · [Reparacions de pronunciació](pronunciacio-tts.md).
+
+## Quatre peticions del 23/11/2026 · audició de veus
+
+| Lot | Comprensions | Repartiment | Presa rebuda |
+| --- | --- | --- | ---: |
+| [L15](../assets/audio/synthesis-batches/l15.json) | S040, S051, S052 | Laia/Leda i Nora/Kore | 5:37 |
+| [L16](../assets/audio/synthesis-batches/l16.json) | S073, S075, S077 | Laia/Leda i Ona/Sulafat | 5:50 |
+| [L12](../assets/audio/synthesis-batches/l12.json) | S033, S036 | Biel/Puck i Nora/Kore | 3:14 |
+| [L20](../assets/audio/synthesis-batches/l20.json) | S081, S082 | Biel/Puck i Elies/Algieba | 4:59 |
+
+Quatre peticions noves, seqüencials i separades almenys 65 segons, amb 19:41 de preses i 6.180 tokens d’entrada retornats pel proveïdor. L12 s’envia amb l’excepció explícita del docent per aprofitar la quota encara amb lots mig buits: queda vinculada a la petició exacta i caduca al cap de sis hores. La finestra general de sis a vuit minuts estimats continua activa. L20 és un únic intent nou després de comprovar l’error intern terminal de L19, que no havia retornat àudio; l’intent anterior es conserva.
+
+Els quatre resultats contenien una capçalera WAV seguida de PCM i metadades ID3/C2PA intercalades. S’han retirat només les 117 etiquetes verificades i s’han preservat totes les mostres de veu; resposta original, WAV del proveïdor, WAV recuperat i empremtes es conserven localment. La recuperació no ha consumit cap petició addicional.
+
+Cobertura local comprovada i separació entre comprensions dins de silencis. Els MP3 disponibles a les fitxes i a [Veus rebudes](../proves/veus-rebudes.html) són només per escoltar veus, sense música ni efectes. La cobertura no confirma pronunciació, timbre ni absència d’artefactes: falta l’audició docent abans de començar el muntatge. No s’ha canviat cap guió, pregunta, curs ni validació d’àudio.
 
 ## Criteri dels propers muntatges i revisions · 22/11/2026
 

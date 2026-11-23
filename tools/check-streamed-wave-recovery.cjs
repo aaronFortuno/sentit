@@ -4,6 +4,9 @@ const first = Buffer.alloc(1920, 17), rest = Buffer.alloc(4800, 29), signature =
 const end = 44 + first.length + 8 + signature.length + signature.length % 2, prefix = Buffer.alloc(end);
 prefix.write('RIFF'); prefix.writeUInt32LE(end - 8, 4); prefix.write('WAVEfmt ', 8); prefix.writeUInt32LE(16, 16); prefix.writeUInt16LE(1, 20); prefix.writeUInt16LE(1, 22); prefix.writeUInt32LE(24000, 24); prefix.writeUInt32LE(48000, 28); prefix.writeUInt16LE(2, 32); prefix.writeUInt16LE(16, 34); prefix.write('data', 36); prefix.writeUInt32LE(first.length, 40); first.copy(prefix, 44); prefix.write('C2PA', 44 + first.length); prefix.writeUInt32LE(signature.length, 48 + first.length); signature.copy(prefix, 52 + first.length);
 const raw = Buffer.concat([prefix, rest]), recovered = recoverStreamedWave(raw);
+const largerPrefix=Buffer.alloc(prefix.length+1920);
+prefix.subarray(0,44).copy(largerPrefix);largerPrefix.writeUInt32LE(largerPrefix.length-8,4);largerPrefix.writeUInt32LE(3840,40);Buffer.alloc(3840,17).copy(largerPrefix,44);prefix.subarray(44+1920).copy(largerPrefix,44+3840);
+assert(waveParts(recoverStreamedWave(Buffer.concat([largerPrefix,rest])).audio).pcm.equals(Buffer.concat([Buffer.alloc(3840,17),rest])),'80 ms initial frame preserves all PCM samples');
 assert(waveParts(recovered.audio).pcm.equals(Buffer.concat([first, rest])));
 assert.equal(recovered.report.seconds, (first.length + rest.length) / 48000);
 assert.throws(() => recoverStreamedWave(prefix), /No trailing/);
