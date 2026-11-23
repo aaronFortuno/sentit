@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "extras": [
+    {
+      "id": "MM-PILOT-001",
+      "title": "Arribem a la biblioteca",
+      "language": "ca",
+      "status": "teacher-selected-for-next-compatible-batch",
+      "selectedAt": "2026-11-23",
+      "sourceFile": "pilot-multimodal.json",
+      "sourceSha256": "9103c21819f2089fe647ca9d1e3e215f3859f6efb3f65c36b251164fc275b6b0",
+      "speechSha256": "0a45fc3d5fde5242e51ff9a0b659517ab6487a3dddf65e760fe0d5b29a41c3bf",
+      "voice": "Erinome",
+      "speakerRole": "Júlia",
+      "recurringCharacter": false,
+      "priority": "next-mar-batch",
+      "placement": "last",
+      "titleSpoken": false,
+      "canonicalBlock": {
+        "type": "text",
+        "text": "Ei, soc la Júlia! En Nil i jo ja som a l’Estació d’Autobusos. Ara són les deu i vint. L’altre cop vam agafar la circular interior i vam baixar a Rambla General Vives. Podem fer el mateix avui? Hem quedat amb la meva cosina a la parada de Cal Font. Ens espera allà i després anirem junts a la biblioteca. Mira a quina hora passa el primer bus d’aquesta línia que podem agafar i digue’ns per on anar quan baixem.",
+        "annotations": [
+          {
+            "type": "speech_metadata",
+            "style": "Read the supplied words exactly once in natural Central Catalan, as a young person leaving a quick voice note for someone they know. Use a close, clear, dry voice at a natural conversational pace. Start ‘Ei, soc la Júlia!’ with a light lift and settle immediately into ‘En Nil i jo’. Leave a little space around ‘les deu i vint’ and keep the time clear without stressing each word. Let the recollection flow naturally, then give ‘Podem fer el mateix avui?’ a genuine questioning lift. Reset gently after the question and say both words in ‘Cal Font’ clearly. Keep ‘Rambla General Vives’ together as a stop name, with normal Catalan pronunciation. Make the last request friendly and practical, with a settled cadence on ‘quan baixem’. Finish the final word fully, then leave a clear quiet gap for the next recording. Speak only the supplied words, with no title, scene labels, music, effects or added words."
+          }
+        ]
+      },
+      "direction": "For this independent final recording, reset the preceding newsreader delivery completely. Use the assigned Erinome voice with a spontaneous, close, natural voice-note tone. Júlia is the speaker role; do not introduce the presenter Mar. Preserve the exact canonical words, no title, music, effects or added words.",
+      "teacherInstruction": "A la propera petició de la Mar incorpora al lot com a prioritari el pilot-multimodal.json; al final, amb un to espontani i natural.",
+      "synthesisGate": "Només després de validar els guions que comparteixin lot i de comprovar la petició exacta. Aquest fitxer no envia ni reserva cap petició."
+    }
+  ]
+}

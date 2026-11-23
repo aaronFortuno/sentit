@@ -1,5 +1,12 @@
 # Canvis
 
+## 0.1.93 · 23 de novembre de 2026
+
+- Nou univers «Situacions quotidianes» i quatre guions S083–S086, amb la Mar fora del registre radiofònic. Converses de 3r–4t amb preguntes, respostes, cites, escaleta i context imprès; revisió adversària independent superada, validació docent pendent.
+- Convidats ocasionals identificats a cada guió amb veus candidates no reservades pels recurrents. No es creen fitxes ni nous personatges al selector; es mantenen els onze referents i els seus timbres. Comprovacions de les identitats i de la correspondència entre guió i TTS adaptades als convidats.
+- Pilot multimodal «Arribem a la biblioteca» prioritzat per al final del proper lot de Mar: text conservat en una instantània, veu Erinome amb direcció espontània i sense títol. Pla de dues notícies, un diàleg validat i el pilot, estimat en 6:27–6:36. Encara no es congela ni s’envia cap petició.
+- La cua d’esmenes deixa de llistar com a pendents les peces ja publicades. Registres, documentació i comprovacions locals actualitzats.
+
 ## 0.1.92 · 23 de novembre de 2026
 
 - Publicació definitiva de S007, S013, S024, S029, S045D, S046D, S057, S063, S064, S065, S066, S068, S068D, S069, S069D, S079 i S082 després de les aprovacions docents explícites. Els disset màsters es conserven exactament, sense noves síntesis ni retocs de so.

@@ -154,6 +154,7 @@ export async function productionDocuments(date) {
   const repairParts = receipts.flatMap(receipt => receipt.parts.filter(part => !/-T\d+$/u.test(part.id)).map(part => ({ ...part, batch: receipt.id })));
   for (const part of repairParts) {
     const code = part.code, name = part.id.slice(code.length + 1), repair = repairs[code]?.repairs.find(repair => repair.part === name);
+    if (isPublished(activities.find(entry => entry.code === code))) continue;
     const current = progress(activities.find(entry => entry.code === code))?.receivedRepairs?.find(repair => repair.part === name);
     const status = current?.applied ? 'Incorporada · pendent d’audició del muntatge' : current?.status === 'approved-awaiting-application' ? 'Validada · pendent d’incorporar' : current?.status?.startsWith('rejected-') ? 'Rebutjada · cal una altra prova' : 'Pendent d’audició';
     synthesis += row([code, repair?.text ?? name, status, `[${part.batch}](../proves/correccions-${part.batch.toLowerCase()}.html)`]);

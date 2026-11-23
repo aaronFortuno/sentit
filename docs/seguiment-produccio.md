@@ -1,6 +1,6 @@
 # Seguiment de les comprensions
 
-Actualitzat: **23/11/2026**. **22 pendents** de 90 comprensions orals; **68 finalitzades** al [registre de publicacions](publicades.md). Les variants es compten per separat.
+Actualitzat: **23/11/2026**. **26 pendents** de 94 comprensions orals; **68 finalitzades** al [registre de publicacions](publicades.md). Les variants es compten per separat.
 
 La taula conté només feina oberta. Una peça en surt quan té publicació definitiva registrada per al contingut exacte. Les noves propostes s’hi incorporen automàticament; quan no quedi feina, la taula quedarà buida.
 
@@ -13,7 +13,7 @@ La taula conté només feina oberta. Una peça en surt quan té publicació defi
 | Produir les veus, amb guió validat | 7 | [ca-S055](https://sentit.ortogra.fi/#lectura=ca-S055), [ca-S056](https://sentit.ortogra.fi/#lectura=ca-S056), [ca-S059](https://sentit.ortogra.fi/#lectura=ca-S059), [ca-S060](https://sentit.ortogra.fi/#lectura=ca-S060), [ca-S072](https://sentit.ortogra.fi/#lectura=ca-S072), [ca-S074](https://sentit.ortogra.fi/#lectura=ca-S074), [ca-S076](https://sentit.ortogra.fi/#lectura=ca-S076) |
 | Escoltar i validar les veus abans de muntar | 0 | Cap |
 | Muntar les veus rebudes | 0 | Cap |
-| Revisió editorial o validació inicial pendent | 2 | [ca-S001](https://sentit.ortogra.fi/#lectura=ca-S001), [ca-S002](https://sentit.ortogra.fi/#lectura=ca-S002) |
+| Revisió editorial o validació inicial pendent | 6 | [ca-S001](https://sentit.ortogra.fi/#lectura=ca-S001), [ca-S002](https://sentit.ortogra.fi/#lectura=ca-S002), [ca-S083](https://sentit.ortogra.fi/#lectura=ca-S083), [ca-S084](https://sentit.ortogra.fi/#lectura=ca-S084), [ca-S085](https://sentit.ortogra.fi/#lectura=ca-S085), [ca-S086](https://sentit.ortogra.fi/#lectura=ca-S086) |
 
 ## Taula de pendents
 
@@ -43,6 +43,10 @@ La taula conté només feina oberta. Una peça en surt quan té publicació defi
 | [ca-S074](https://sentit.ortogra.fi/#lectura=ca-S074) | Les dues llibretes del pastís | 5è | Intermèdia · Entrevista | Prevista 2:10–2:40 | 8 | ✅ | ✅ | ✅ | **⏳ Síntesi** | — | — | — |
 | [ca-S076](https://sentit.ortogra.fi/#lectura=ca-S076) | L’encàrrec que havia crescut | 5è | Avançada · Entrevista | Prevista 3:10–3:45 | 8 | ✅ | ✅ | ✅ | **⏳ Síntesi** | — | — | — |
 | [ca-S081](https://sentit.ortogra.fi/#lectura=ca-S081) | La guitarra del concert de divendres | 5è | Avançada · Diàleg | Prevista 3:05–3:40 | 8 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
+| [ca-S083](https://sentit.ortogra.fi/#lectura=ca-S083) | Quant de temps, Núria! | 4t | Accessible · Diàleg | Prevista 1:30–1:55 | 7 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S084](https://sentit.ortogra.fi/#lectura=ca-S084) | El paper per al regal | 3r | Accessible · Diàleg | Prevista 1:30–1:55 | 6 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S085](https://sentit.ortogra.fi/#lectura=ca-S085) | El carro davant de la porta | 3r | Intermèdia · Diàleg | Prevista 1:35–2:05 | 6 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S086](https://sentit.ortogra.fi/#lectura=ca-S086) | El pa per al sopar | 3r | Accessible · Diàleg | Prevista 1:30–1:55 | 6 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 
 ## Esmenes obertes
 

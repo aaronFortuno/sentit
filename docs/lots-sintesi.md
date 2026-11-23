@@ -20,6 +20,8 @@ La previsió utilitza el text pla real, amb els títols i sense marques literals
 | [P07](lot-cicle-superior.md#laia-biel) | Laia i Biel · Leda + Puck | [ca-S059](https://sentit.ortogra.fi/#lectura=ca-S059), [ca-S060](https://sentit.ortogra.fi/#lectura=ca-S060) | 3:39 | Per completar | 2/2 | Cap |
 | [P11](lot-cicle-superior.md#ferran) | Ferran · Algenib | [ca-S072](https://sentit.ortogra.fi/#lectura=ca-S072) | 3:09 | Per completar | 1/1 | Cap |
 | [P13](lot-cicle-superior.md#laia-ona) | Laia i Ona · Leda + Sulafat | [ca-S074](https://sentit.ortogra.fi/#lectura=ca-S074), [ca-S076](https://sentit.ortogra.fi/#lectura=ca-S076) | 5:08 | Per completar | 2/2 | Cap |
+| P18 | Mar i convidats ocasionals · Erinome + Callirrhoe | [ca-S083](https://sentit.ortogra.fi/#lectura=ca-S083), [ca-S084](https://sentit.ortogra.fi/#lectura=ca-S084) | 2:46 | Per completar | 0/2 | [ca-S083](https://sentit.ortogra.fi/#lectura=ca-S083), [ca-S084](https://sentit.ortogra.fi/#lectura=ca-S084) |
+| P19 | Mar i convidats ocasionals · Erinome + Despina | [ca-S085](https://sentit.ortogra.fi/#lectura=ca-S085), [ca-S086](https://sentit.ortogra.fi/#lectura=ca-S086) | 2:46 | Per completar | 0/2 | [ca-S085](https://sentit.ortogra.fi/#lectura=ca-S085), [ca-S086](https://sentit.ortogra.fi/#lectura=ca-S086) |
 
 P02 reuneix quatre lectures breus del mateix repartiment per conservar els guions de 3r curts i senzills. Els grups nous de 5è–6è es poden validar per repartiments sencers i es proposen en lots de dues o tres comprensions completes. Les previsions utilitzen el text pla i encara s’han de verificar amb l’entrada definitiva; la validació dels guions no garanteix que la mida final del lot sigui admissible. Les preses ja rebudes s’exclouen d’aquesta taula. [Tanda de 3r–4t](lot-cicle-mitja.md) · [Tanda de 5è–6è per repartiment](lot-cicle-superior.md) · [Composició proposada](../content/synthesis-proposals.json).
 
@@ -27,18 +29,9 @@ P02 reuneix quatre lectures breus del mateix repartiment per conservar els guion
 
 | Peça | Prova rebuda | Estat actual | Comparació |
 | --- | --- | --- | --- |
-| S013 | El codi postal ajuda a arribar a una zona, però no diu tot sol quina bústia concreta és la bona. | Incorporada · pendent d’audició del muntatge | [L01](../proves/correccions-l01.html) |
-| S013 | No és correcte endevinar una bústia només perquè el nom ens sona. | Incorporada · pendent d’audició del muntatge | [L01](../proves/correccions-l01.html) |
 | S010 | Després ja som a la porta. És el camí que vam fer l’any passat. | Validada · pendent d’incorporar | [L01](../proves/correccions-l01.html) |
 | S010 | Des de la plaça anem pel carrer dels Til·lers fins a la farmàcia. | Rebutjada · cal una altra prova | [L02](../proves/correccions-l02.html) |
-| S016 | Si l’estudi avança, l’equip voldria preparar una mostra al centre cívic amb fotografies del procés i alguns resultats. | Incorporada · pendent d’audició del muntatge | [L03](../proves/correccions-l03.html) |
-| S023 | D’aquí a un mes, l’associació explicarà què s’ha recollit amb els suggeriments. | Incorporada · pendent d’audició del muntatge | [L03](../proves/correccions-l03.html) |
 | S022 | Hauria pogut passar el dia mirant els rails i saludant la gent de les parades. | Rebutjada · cal una altra prova | [L13](../proves/correccions-l13.html) |
-| S029 | La plaça del barri acollirà divendres una sessió de cinema a l’aire lliure. L’associació de veïns ha triat una pel·lícula d’aventures per a tots els públics. La projecció començarà quan es faci fosc; per això no tindrà el mateix horari que les activitats de tarda. | Incorporada · pendent d’audició del muntatge | [L25](../proves/correccions-l25.html) |
-| S082 | La gravació del meu mòbil! La vaig fer quan vaig portar-la el primer dia. Hi ha una estona que toco i, després, em poso a parlar de la funda. Potser podria agafar només el tros on sona aquell cop. | Incorporada · pendent d’audició del muntatge | [L26](../proves/correccions-l26.html) |
-| S007 | Llavors podem tenir aigua al voltant sense veure-la? | Incorporada · pendent d’audició del muntatge | [L27](../proves/correccions-l27.html) |
-| S024 | I el pas fins a la font! Això ho podem preguntar a la mestra. Després portem el full als altres cursos? | Incorporada · pendent d’audició del muntatge | [L27](../proves/correccions-l27.html) |
-| S069 | Aina, una vegada em van deixar portar el marcador d’un partit del barri. Jo encara era petit per jugar amb els grans, però em van donar una pissarra i un guix. A dalt hi havia escrit el nom dels dos equips: carrer Nou a l’esquerra i carrer Major a la dreta. | Incorporada · pendent d’audició del muntatge | [L28](../proves/correccions-l28.html) |
 
 ### Següents esmenes · encara sense petició
 

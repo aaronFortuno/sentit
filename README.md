@@ -2,6 +2,8 @@
 
 Banc de comprensió oral d’ortogra.fi. El docent tria una activitat, prepara la fitxa i el solucionari i els imprimeix. L’alumnat respon al paper i escolta l’àudio des del QR o l’enllaç. Web estàtic, sense comptes ni servidor d’aplicació.
 
+[Situacions quotidianes](docs/lot-situacions-quotidianes.md): primera tanda de converses breus per validar, amb convidats ocasionals. El pla de la Mar inclou el pilot multimodal prioritari al final del proper lot compatible; encara no s’ha enviat.
+
 [Obre Sentit](https://sentit.ortogra.fi/) · [Feina pendent](docs/seguiment-produccio.md) · [Publicacions finalitzades](docs/publicades.md) · [Cua de síntesi](docs/lots-sintesi.md) · [Sintonies](https://sentit.ortogra.fi/proves/sintonies-mireia.html)
 
 [Flux de validació de l’àudio](docs/flux-produccio-audio.md): primer s’escolten i validen les veus; després es munta l’àudio i es fa una segona audició. Les represes de pronunciació es poden comparar directament a la fitxa amb «Escolta les esmenes».

@@ -1902,5 +1902,85 @@
     "strategy": "packed-title-program-v1",
     "ending": "Guió, veus i escaleta validats pel docent. Lectura completa per agrupar amb el mateix repartiment en un lot compatible; veus pendents de producció i audició.",
     "approvalSource": "S071D validat per síntesi de veus"
+  },
+  "S083": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S083",
+    "reviewContent": "content/propostes/quotidianes/mar.js",
+    "format": "4t accessible: seguir una retrobada, relacionar un canvi de feina amb els horaris i entendre com concreten una trobada. Una sola conversa, sense coneixements previs dels personatges.",
+    "cues": [
+      "Carrer tranquil enregistrat, molt baix. La trobada comença directament, sense presentador.",
+      "Continua el mateix fons baix; cap canvi d’escena ni representació de la feina.",
+      "Acabar el comiat complet. Pujada discreta del carrer i fosa, sense rialles afegides."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mar": "Erinome",
+      "Núria": "Callirrhoe"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S084": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S084",
+    "reviewContent": "content/propostes/quotidianes/mar.js",
+    "format": "3r accessible: comprendre una compra curta, distingir un full de mostra del material a la venda i identificar què s’acaba enduent. Sis preguntes amb resposta breu.",
+    "cues": [
+      "Papereria tranquil·la. Ambient real continu molt baix, sense timbre d’entrada afegit.",
+      "Un únic gest breu de paper enregistrat pot coincidir amb la resposta següent; no afegir una pausa exclusiva.",
+      "Conservar les últimes paraules. Fosa curta de botiga, sense caixa registradora ni música."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mar": "Erinome",
+      "Dependenta": "Callirrhoe"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S085": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S085",
+    "reviewContent": "content/propostes/quotidianes/mar.js",
+    "format": "3r intermèdia: entendre un obstacle quotidià i seguir com dues persones ajusten on deixen les coses. Una sola ubicació, sense normes d’edifici que calgui saber abans.",
+    "cues": [
+      "Carrer de barri tranquil, sense trànsit proper. Cap trucada o tercera veu.",
+      "Rodes reals breus, molt suaus i en línia amb l’acció; sense retardar la rèplica.",
+      "Fosa del carrer després del final complet. Cap so de furgoneta: encara no ha arribat."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mar": "Erinome",
+      "Veïna": "Despina"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S086": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S086",
+    "reviewContent": "content/propostes/quotidianes/mar.js",
+    "format": "3r accessible: comprendre una compra i un petit canvi d’encàrrec, amb dos productes i dues formes de preparar-los. Sis preguntes, sense comptes ni dades comercials externes.",
+    "cues": [
+      "Forn de barri amb ambient real molt baix. Sense la identificació oral d’una mostra sonora ni veus entenedores.",
+      "Un gest real de bossa pot coincidir amb la parla, sense soroll de talladora ni espera llarga.",
+      "Últim comiat complet i fosa curta del forn. Sense música ni anunci radiofònic."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mar": "Erinome",
+      "Fornera": "Despina"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
   }
 }

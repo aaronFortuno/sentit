@@ -2,6 +2,12 @@
 // A narrated character can link stories without being a participating voice.
 export const universes = [
   {
+    id: 'situacions-quotidianes',
+    name: { ca: 'Situacions quotidianes', es: 'Situaciones cotidianas' },
+    description: { ca: 'Trobades, compres i petites converses del dia a dia, amb persones conegudes o convidats ocasionals.', es: 'Encuentros, compras y pequeñas conversaciones del día a día, con personas conocidas o invitados ocasionales.' },
+    activities: [],
+  },
+  {
     id: 'laia-biel',
     name: { ca: 'Les troballes de la Laia i en Biel', es: 'Los hallazgos de Laia y Biel' },
     description: { ca: 'Descobertes, entrevistes i projectes dels dos joves, junts o per separat.', es: 'Descubrimientos, entrevistas y proyectos de los dos jóvenes, juntos o por separado.' },

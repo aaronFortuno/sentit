@@ -540,5 +540,29 @@ export const editorialReviews = {
     "reviewedAt": "2026-11-23",
     "reviewer": "revisio_tancament_s027",
     "fingerprint": "2fcaeaff27e3c73f89db693b2efc4df6b29222017b9d72c7fd552647f650a3b6"
+  },
+  "ca-S083": {
+    "status": "passed",
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s027",
+    "fingerprint": "05ae5519ccaa9957e1c90364fc0aa005168f5035aaaa46105b132c155678f08a"
+  },
+  "ca-S084": {
+    "status": "passed",
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s027",
+    "fingerprint": "59265f24f2fc6b4db384b9eb0215b967aa143449ab4cfb308a9cc249e711f5d0"
+  },
+  "ca-S085": {
+    "status": "passed",
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s027",
+    "fingerprint": "d8c9e51360ea23371b66173a88a30d738f8d474119ef3a14d6eadcb00de91ca5"
+  },
+  "ca-S086": {
+    "status": "passed",
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s027",
+    "fingerprint": "608ca781fe14782e40dc71dbf1f02870cffd93bfae954ef22a14e48fec4a7f5f"
   }
 };

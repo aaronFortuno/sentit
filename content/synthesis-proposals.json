@@ -190,6 +190,24 @@
         "S071D"
       ],
       "note": "Dues converses completes del mateix repartiment, pendents de validació docent pròpia. Les versions narrades S068 i S071 tenen aprovacions separades. Abans d’enviar, preparar text pla sense marques literals de pausa i comprovar la finestra de sis a vuit minuts; aquest candidat no autoritza síntesi."
+    },
+    {
+      "id": "P18",
+      "cast": "Mar i convidats ocasionals · Erinome + Callirrhoe",
+      "codes": [
+        "S083",
+        "S084"
+      ],
+      "note": "Situacions quotidianes: guions pendents de validació docent. Convidats ocasionals, sense fitxa recurrent. Candidat orientatiu, sense reserva de quota ni autorització de síntesi."
+    },
+    {
+      "id": "P19",
+      "cast": "Mar i convidats ocasionals · Erinome + Despina",
+      "codes": [
+        "S085",
+        "S086"
+      ],
+      "note": "Situacions quotidianes: guions pendents de validació docent. Convidats ocasionals, sense fitxa recurrent. Candidat orientatiu, sense reserva de quota ni autorització de síntesi."
     }
   ]
 }

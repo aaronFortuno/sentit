@@ -12,6 +12,7 @@ export function editorialSnapshot(entry) {
     production: entry.production, productionNotes: entry.productionNotes,
     generationPlan: entry.generationPlan, recordingCues: entry.recordingCues,
     image: entry.image,
+    guestSpeakers: entry.guestSpeakers,
   });
 }
 

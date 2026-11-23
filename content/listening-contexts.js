@@ -1,6 +1,10 @@
 // Introduccions impreses: situen l'escena sense explicar-ne el desenllaç.
 // Separades dels guions de veu: no s'envien a síntesi ni alteren les preses.
 export const listeningContexts = {
+  'ca-S083': 'La Mar va pel carrer i, abans de continuar, s’atura per parlar amb la Núria. Escolta com comença la conversa i què s’expliquen durant aquesta trobada.',
+  'ca-S084': 'La Mar entra en una papereria perquè vol preparar un regal. Mira el material que hi ha a la botiga i pregunta a la dependenta si la pot ajudar. Escolta la conversa.',
+  'ca-S085': 'La Mar arriba al seu edifici després d’anar a comprar. A l’entrada coincideix amb una veïna que també té feina per fer. Escolta què es diuen abans de pujar a casa.',
+  'ca-S086': 'La Mar passa pel forn abans de tornar a casa. La fornera ja la coneix i totes dues parlen mentre preparen la compra. Escolta què demana i com se l’endurà.',
   'ca-S001': 'La Laia i en Biel preparen un avís per a la ràdio de l’escola. Abans de gravar-lo, repassen què han d’explicar als companys. Acompanya’ls durant la prova de so i escolta com es posen d’acord.',
   'ca-S002': 'Hi ha moments del curs que ens agradaria recordar quan s’acabin les classes. Avui la mestra proposa preparar una capsa per guardar-ne alguns records. Escolta què explica abans de començar a preparar la teva.',
   'ca-S003': 'És un dia de pluja i toca canviar de classe. La Laia surt de la biblioteca amb un paraigua blau i es troba amb en Biel. Tenen una estona per parlar abans d’anar a l’aula.',
