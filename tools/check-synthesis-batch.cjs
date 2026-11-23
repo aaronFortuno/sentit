@@ -28,7 +28,8 @@ const response=clips=>({status:'completed',steps:[{type:'model_output',content:c
    assert.equal(plain.voices.length,2);assert.deepEqual(plain.voices.map(v=>v.voice),['Leda','Charon']);
    assert(plain.estimate.seconds>=360&&plain.estimate.seconds<=480);assert(plain.estimatedInputTokens<8192);
    const mixed=structuredClone(l14);mixed.blocks.push(catalog.batches.find(b=>b.id==='L12').blocks[0]);
-   await assert.rejects(buildBatch(activities,plans,repairs,mixed),/mateix repartiment/);
+   const other=activities.find(e=>e.code===mixed.blocks.at(-1).code),otherAudio=other.audio;
+   try{other.audio=null;await assert.rejects(buildBatch(activities,plans,repairs,mixed),/mateix repartiment/);}finally{other.audio=otherAudio;}
   }finally{entries.forEach((e,i)=>e.audio=audio[i]);}
  }
  assert.equal(require('node:fs').readFileSync(require('node:path').resolve(__dirname,'../../output/sentit-primera-tanda/request-log.json'),'utf8'),log);

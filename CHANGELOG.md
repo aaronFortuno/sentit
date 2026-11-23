@@ -1,5 +1,12 @@
 # Canvis
 
+## 0.1.95 · 23 de novembre de 2026
+
+- S083–S086 amb aprovació docent de guió. S084 passa a «Paper de regal» i S086 elimina l’aclariment innecessari de tallar la barra; revisió independent renovada, cites i contextos consistents. S085/S086 esperen un lot compatible.
+- L29 sintetitza S055/S056/S083/S084 i el pilot multimodal final amb Erinome en to espontani. Una petició: 2.176 tokens reals d’entrada, 10.432 d’àudio, 6:57 crus. Recuperació local del contenidor i retirada de 31 metadades intercalades conservant totes les mostres de veu; sense reintents ni síntesi addicional.
+- Quatre MP3 de veus per revisar abans de muntar, i pilot independent amb manifest per al projecte paral·lel. S056 conserva només «Comprensió oral» a la presentació: omissió documentada, prefix preservat i títol pendent de reposar en un futur lot compatible. Cap veu ni muntatge donats per validats.
+- El compilador incorpora una política explícita de recurrent amb convidats i tall extern final, sense canviar els lots estrictes anteriors. Comprovacions de dues veus, identitats, aprovacions, empremtes, text exacte i posició final del pilot; alineació de presentacions parcials documentada sense forçar reconeixement.
+
 ## 0.1.94 · 23 de novembre de 2026
 
 - Cinc propostes més de «Situacions quotidianes»: S087–S089 amb Ferran i convidats ocasionals; S090–S091 amb Laia i Biel. Converses de 3r–4t amb un problema principal, preguntes, cites exactes i ambient discret enregistrat proposat. Revisió independent superada de guions, 30 preguntes, 35 cites, contextos i escaletes; validació docent pendent.

@@ -38,7 +38,7 @@ export const dailyMar = [
     ],
   }),
   dailyProposal({
-    id: 'el-paper-per-al-regal', code: 'S084', title: 'El paper per al regal', grade: '3', level: 'easy', genre: 'dialogue',
+    id: 'el-paper-per-al-regal', code: 'S084', title: 'Paper de regal', grade: '3', level: 'easy', genre: 'dialogue',
     voices: { Mar: 'Erinome', Dependenta: 'Callirrhoe' }, guestSpeakers: [{ name: 'Dependenta', voice: 'Callirrhoe', role: 'Dependenta de papereria · ocasional' }], delivery,
     summary: 'La Mar entra en una papereria per embolicar un llibre. El paper que li agrada sembla que s’ha acabat, però la dependenta encara té una capsa per obrir.',
     editorialFocus: '3r accessible: comprendre una compra curta, distingir un full de mostra del material a la venda i identificar què s’acaba enduent. Sis preguntes amb resposta breu.',
@@ -100,7 +100,7 @@ export const dailyMar = [
     id: 'el-pa-per-al-sopar', code: 'S086', title: 'El pa per al sopar', grade: '3', level: 'easy', genre: 'dialogue',
     voices: { Mar: 'Erinome', Fornera: 'Despina' }, guestSpeakers: [{ name: 'Fornera', voice: 'Despina', role: 'Fornera del barri · ocasional' }], delivery,
     summary: 'La Mar compra pa abans de tornar a casa. Parlant amb la fornera, es recorda d’una part de l’encàrrec que havia oblidat.',
-    editorialFocus: '3r accessible: comprendre una compra i un petit canvi d’encàrrec, amb dos productes i dues formes de preparar-los. Sis preguntes, sense comptes ni dades comercials externes.',
+    editorialFocus: '3r accessible: comprendre una compra i un petit canvi d’encàrrec, amb dos productes i un pa rodó que es demana a llesques. Sis preguntes, sense comptes ni dades comercials externes.',
     soundPlan: shop, illustrationBrief: 'Mar amb una bossa buida a la mà i una fornera darrere del taulell. Pans genèrics al fons, sense mostrar què compra o com ho tallen.',
     transcript: [
       d('Forn de barri amb ambient real molt baix. Sense la identificació oral d’una mostra sonora ni veus entenedores.'),
@@ -108,7 +108,7 @@ export const dailyMar = [
       s('barra', 'Fornera', 'Bona tarda! De les llargues, com ahir? Les tinc aquí. Si la vols una mica menys torrada, aquella del darrere és més clara.'),
       s('tria', 'Mar', 'La més torrada ja m’agrada. Avui sopem entrepans a casa. Ai, espera, que la mare m’ha encarregat també mig pa rodó i gairebé me’n vaig sense demanar-lo.'),
       s('tallar', 'Fornera', 'Cap problema. El mig rodó, el vols tallat a llesques?'),
-      s('mare', 'Mar', 'Sí, que la mare el guarda al congelador i en va traient. La barra, en canvi, deixa-me-la sencera. Ja la tallarem a casa segons la gana que tingui cadascú.'),
+      s('mare', 'Mar', 'Sí, que la mare el guarda al congelador i en va traient.'),
       s('bosses', 'Fornera', 'Doncs et poso cada cosa en una bossa. Així podràs donar-li el mig rodó sense haver de treure el pa dels entrepans. Tens bossa de roba?'),
       d('Un gest real de bossa pot coincidir amb la parla, sense soroll de talladora ni espera llarga.'),
       s('record', 'Mar', 'Sí, aquí. Avui l’he portada! A vegades entro amb tanta pressa que me la deixo al cotxe i me’n recordo quan ja m’ho has embolicat tot.'),

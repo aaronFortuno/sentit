@@ -13,10 +13,26 @@ async function buildBatch(activities,plans,repairs,batch){
  const content=[],blocks=[],labels=new Map(),voiceIdentities=new Map();
  const plain=batch.speechTextFormat==='plain-v1';
  if(batch.speechTextFormat&&!plain)throw Error('Format de parla desconegut.');
+ const guestPolicy=batch.castPolicy;
+ const {characters}=guestPolicy?await import('../content/characters.js'):{characters:[]};
+ const {assertGuestPolicy,assertGuestCast,loadExtra}=require('./synthesis-extra.cjs');
+ if(guestPolicy){if(!plain)throw Error('Els convidats requereixen text pla.');assertGuestPolicy(guestPolicy,characters);}
  let cast;
  const separatorTags=batch.separatorTags??2;if(![1,2].includes(separatorTags))throw Error('Cal almenys una pausa llarga entre blocs.');
- if(new Set(batch.blocks.map(b=>b.code+':'+(b.take??b.part))).size!==batch.blocks.length)throw Error('Blocs duplicats al lot.');
+ if(new Set(batch.blocks.map(b=>b.extra??b.code+':'+(b.take??b.part))).size!==batch.blocks.length)throw Error('Blocs duplicats al lot.');
  for(const ref of batch.blocks){
+  if(ref.extra){
+   if(!guestPolicy||!cast||ref.code||ref.take||ref.part)throw Error('El tall extern necessita lectures completes compatibles abans.');
+   const extra=await loadExtra(ref,guestPolicy,batch.blocks.indexOf(ref),batch.blocks.length),voice=extra.voice;
+   if(!labels.has(voice))throw Error('El pilot no pot afegir una altra veu.');
+   const item=structuredClone(extra.canonicalBlock),start=content.length;
+   item.annotations[0].speaker=labels.get(voice);
+   item.annotations[0].style=extra.direction+' '+item.annotations[0].style;
+   item.annotations[0].style+=' This final recording is independent: no title, no newsreader cadence, no music or effects. Finish every word fully and leave quiet at the end.';
+   content.push(item);
+   blocks.push({...ref,id:extra.id,code:extra.id,external:true,parts:['speech'],firstItem:start,lastItem:start,items:[{text:item.text,sourceSpeaker:extra.speakerRole,voice,requestIndex:start}],sourceSha256:extra.sourceSha256,speechSha256:extra.speechSha256});
+   continue;
+  }
   const entry=activities.find(e=>e.code===ref.code),plan=plans[ref.code];if(!entry||!isEditoriallyReviewed(entry))throw Error(ref.code+': revisió editorial no vigent.');
   let original,sourceItems,parts,spec,sourceRequestHash;
   if(ref.take){
@@ -25,11 +41,14 @@ async function buildBatch(activities,plans,repairs,batch){
    if(plain){
     if(entry.generationPlan.takes.length!==1||spec.performance||spec.overlaps)throw Error('plain-v1 requereix lectures completes sense marques vocals ni solapaments.');
     const identity=JSON.stringify(Object.entries(spec.voices).sort(([a],[b])=>a.localeCompare(b)));
-    if(cast&&cast!==identity)throw Error('plain-v1 requereix el mateix repartiment exacte a totes les lectures.');cast=identity;
+    if(guestPolicy)assertGuestCast(entry,spec,guestPolicy,characters);
+    else if(cast&&cast!==identity)throw Error('plain-v1 requereix el mateix repartiment exacte a totes les lectures.');
+    cast=identity;
    }
    const index=entry.generationPlan.takes.findIndex(t=>t.id===ref.take);if(index<0)throw Error('Presa desconeguda.');
    original=packedProposalRequests(entry)[index];sourceItems=original.input[0].content;parts=entry.generationPlan.takes[index].parts;
   }else{
+   if(guestPolicy)throw Error('Les esmenes requereixen un lot estricte separat dels papers ocasionals.');
    const correction=repairs[ref.code],repair=correction?.repairs.find(r=>r.part===ref.part);spec=repairSpec(entry);assertProductionApproved(entry,spec,plan);
    if(!repair||correction.status!=='approved-for-correction')throw Error('Esmena no autoritzada.');
    original=repairRequest(entry,correction);if(sha(JSON.stringify(original))!==correction.approvedRequestHash)throw Error('Esmena canviada.');
@@ -67,7 +86,7 @@ async function buildBatch(activities,plans,repairs,batch){
   }
   if(plain){
    if(ref.take){
-    const continuity=Object.keys(spec.voices).length===1?'Keep this same single character voice throughout all recordings.':'Keep the same two character voices throughout all recordings.';
+   const continuity=guestPolicy?'Keep the assigned physical voices unchanged. This recording has only the supplied cast; guest roles belong only to this scene.':Object.keys(spec.voices).length===1?'Keep this same single character voice throughout all recordings.':'Keep the same two character voices throughout all recordings.';
     const passage=Object.keys(spec.voices).length===1?'story':'dialogue';
     content[start].annotations[0].style+=' This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its '+passage+'. '+continuity+' Instructions are not spoken.';
    }else content[start].annotations[0].style+=' This is a separate repair paragraph with no title. Keep the same character voice as in the complete recordings. Read every supplied word once, including the first sentence. Instructions are not spoken.';
@@ -80,8 +99,8 @@ async function buildBatch(activities,plans,repairs,batch){
  }
  if(plain){
   if(!cast)throw Error('El text pla d’esmenes requereix almenys una lectura completa del mateix repartiment.');
-  const expectedCast=new Map(JSON.parse(cast));
-  for(const[name,voice]of voiceIdentities)if(expectedCast.get(name)!==voice)throw Error('Les esmenes en text pla requereixen el mateix repartiment de les lectures completes.');
+  if(!guestPolicy){const expectedCast=new Map(JSON.parse(cast));
+   for(const[name,voice]of voiceIdentities)if(expectedCast.get(name)!==voice)throw Error('Les esmenes en text pla requereixen el mateix repartiment de les lectures completes.');}
  }
  if(labels.size>2)throw Error('El lot supera les dues veus.');
  const speakers=[...labels].map(([voice,speaker])=>({speaker,voice}));

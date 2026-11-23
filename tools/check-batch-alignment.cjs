@@ -1,6 +1,6 @@
 'use strict';
 const assert=require('node:assert/strict');
-const {tokens,align,silenceCut,retainShortUncertainty}=require('./split-synthesis-batch.cjs');
+const {tokens,align,silenceCut,retainShortUncertainty,partialIntroduction}=require('./split-synthesis-batch.cjs');
 const expected=tokens('Bon dia Nora. Aquestes capses són a la sala del costat. Hi anirem després amb la Laia i en Biel.');
 const heard=[{word:'soroll',start:0,end:.1},...expected.map((word,i)=>({word,start:.2+i*.31,end:.4+i*.31})),{word:'soroll',start:9,end:9.2}];
 const aligned=align(expected,heard);assert.equal(aligned.map.filter(Boolean).length,expected.length);assert.equal(aligned.map[0].word,'bon');assert.equal(aligned.map.at(-1).word,'biel');
@@ -13,4 +13,8 @@ assert.equal(retainShortUncertainty(part,words,before,after,new Set()),null);
 const allowed=new Set(['S041-T01/llegir']),held=retainShortUncertainty(part,words,before,after,allowed);assert.equal(held.heard,'i ivaj ara');assert.equal(held.status,'short-turn-awaiting-listening');
 for(const changes of [{length:6},{partIndex:0},{partIndex:8}])assert.equal(retainShortUncertainty({...part,...changes},words,before,after,allowed),null);
 assert.equal(retainShortUncertainty(part,[],before,after,allowed),null);assert.equal(retainShortUncertainty(part,words,before,{start:16},allowed),null);
-console.log('PASS · Stable alignment trace, silence-only cuts, explicitly retained short uncertain turn; no forced recognition or API call.');
+const fullIntro='Comprensió oral. El taller canvia de casa. Notícia de ficció.',prefix=partialIntroduction(fullIntro);
+assert.equal(prefix,'Comprensió oral.');assert(fullIntro.startsWith(prefix));assert.throws(()=>partialIntroduction('Un altre títol.'),/Unsupported/);
+const shortAlignment=align(tokens(prefix),[{word:'comprensió',start:104.85,end:105.39},{word:'oral',start:105.39,end:105.87}]);assert(shortAlignment.map.every(Boolean));
+assert(silenceCut(104.55,104.85,[{start:104.55,end:104.85}])<104.85,'The retained spoken prefix stays in its own recording, never the preceding take');
+console.log('PASS · Stable alignment trace, silence-only cuts, explicitly retained short uncertain turn and reported partial title; no forced recognition or API call.');

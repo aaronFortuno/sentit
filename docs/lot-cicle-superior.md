@@ -27,8 +27,8 @@ Mar · Erinome. Les lectures són independents; no cal haver-ne escoltat cap alt
 | --- | --- | --- | --- | --- | ---: | --- |
 | [ca-S053](https://sentit.ortogra.fi/#lectura=ca-S053) | La pista torna a obrir al vespre | 5è · Accessible | Notícia | 1:36 | 8 | Definitiva |
 | [ca-S054](https://sentit.ortogra.fi/#lectura=ca-S054) | Una finestra per recollir els encàrrecs | 5è · Intermèdia | Notícia | 1:39 | 8 | Definitiva |
-| [ca-S055](https://sentit.ortogra.fi/#lectura=ca-S055) | Els cartells de cinema tornen al barri | 6è · Accessible | Notícia | Prevista 1:50–2:20 | 9 | Guió validat |
-| [ca-S056](https://sentit.ortogra.fi/#lectura=ca-S056) | El taller canvia de casa | 5è · Avançada | Notícia | Prevista 2:55–3:30 | 8 | Guió validat |
+| [ca-S055](https://sentit.ortogra.fi/#lectura=ca-S055) | Els cartells de cinema tornen al barri | 6è · Accessible | Notícia | Prevista 1:50–2:20 | 9 | Veus rebudes |
+| [ca-S056](https://sentit.ortogra.fi/#lectura=ca-S056) | El taller canvia de casa | 5è · Avançada | Notícia | Prevista 2:55–3:30 | 8 | Veus rebudes |
 | [ca-S057](https://sentit.ortogra.fi/#lectura=ca-S057) | La volta nova del bus de dissabte | 6è · Avançada | Notícia | 2:31 | 9 | Definitiva · dificultat per valorar després d’escoltar |
 
 [Filtra el catàleg per aquest repartiment](https://sentit.ortogra.fi/?personatge=mar) · [Guions i escaletes del bloc](../content/propostes/tanda4/noticies.js). El filtre també pot mostrar peces de tandes anteriors; activa «Només provisionals» per revisar feina oberta. Les acotacions descriuen recursos proposats, no gravacions ja produïdes.

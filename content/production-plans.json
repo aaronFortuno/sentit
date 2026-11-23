@@ -1904,9 +1904,9 @@
     "approvalSource": "S071D validat per síntesi de veus"
   },
   "S083": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "7d83688061bb0b9e52a3927ccf8e42109a687982f85c28e6f140bee2b2cae630",
+    "reviewedAt": "2026-11-23",
     "reviewActivity": "ca-S083",
     "reviewContent": "content/propostes/quotidianes/mar.js",
     "format": "4t accessible: seguir una retrobada, relacionar un canvi de feina amb els horaris i entendre com concreten una trobada. Una sola conversa, sense coneixements previs dels personatges.",
@@ -1921,12 +1921,13 @@
       "Núria": "Callirrhoe"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 23/11: S083 i S085 validats; S084 validat amb títol «Paper de regal»; S086 validat eliminant l’aclariment de tallar la barra a llesques. Autoritza preparar i enviar un lot compatible, amb el pilot multimodal prioritari al final; els guions que no hi càpiguen esperen."
   },
   "S084": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "94e606135eb96a93c417b99ece8ec19d5ea3bfc90334e956b418dd81ea06eac1",
+    "reviewedAt": "2026-11-23",
     "reviewActivity": "ca-S084",
     "reviewContent": "content/propostes/quotidianes/mar.js",
     "format": "3r accessible: comprendre una compra curta, distingir un full de mostra del material a la venda i identificar què s’acaba enduent. Sis preguntes amb resposta breu.",
@@ -1941,12 +1942,13 @@
       "Dependenta": "Callirrhoe"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 23/11: S083 i S085 validats; S084 validat amb títol «Paper de regal»; S086 validat eliminant l’aclariment de tallar la barra a llesques. Autoritza preparar i enviar un lot compatible, amb el pilot multimodal prioritari al final; els guions que no hi càpiguen esperen."
   },
   "S085": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "0983cd831342c0c25ade10513d808cb471222bcee4c92536a5a1a2ba61e732af",
+    "reviewedAt": "2026-11-23",
     "reviewActivity": "ca-S085",
     "reviewContent": "content/propostes/quotidianes/mar.js",
     "format": "3r intermèdia: entendre un obstacle quotidià i seguir com dues persones ajusten on deixen les coses. Una sola ubicació, sense normes d’edifici que calgui saber abans.",
@@ -1961,15 +1963,16 @@
       "Veïna": "Despina"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 23/11: S083 i S085 validats; S084 validat amb títol «Paper de regal»; S086 validat eliminant l’aclariment de tallar la barra a llesques. Autoritza preparar i enviar un lot compatible, amb el pilot multimodal prioritari al final; els guions que no hi càpiguen esperen."
   },
   "S086": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "c7aa755b8b73a005572ce61eab50c8c75b9b2a42a2f537802d566e5d8e3250bb",
+    "reviewedAt": "2026-11-23",
     "reviewActivity": "ca-S086",
     "reviewContent": "content/propostes/quotidianes/mar.js",
-    "format": "3r accessible: comprendre una compra i un petit canvi d’encàrrec, amb dos productes i dues formes de preparar-los. Sis preguntes, sense comptes ni dades comercials externes.",
+    "format": "3r accessible: comprendre una compra i un petit canvi d’encàrrec, amb dos productes i un pa rodó que es demana a llesques. Sis preguntes, sense comptes ni dades comercials externes.",
     "cues": [
       "Forn de barri amb ambient real molt baix. Sense la identificació oral d’una mostra sonora ni veus entenedores.",
       "Un gest real de bossa pot coincidir amb la parla, sense soroll de talladora ni espera llarga.",
@@ -1981,7 +1984,8 @@
       "Fornera": "Despina"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 23/11: S083 i S085 validats; S084 validat amb títol «Paper de regal»; S086 validat eliminant l’aclariment de tallar la barra a llesques. Autoritza preparar i enviar un lot compatible, amb el pilot multimodal prioritari al final; els guions que no hi càpiguen esperen."
   },
   "S087": {
     "status": "awaiting-validation",

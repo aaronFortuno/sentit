@@ -1,8 +1,8 @@
 # Històric de lots de síntesi
 
-Actualitzat: **23/11/2026**. Registre dels **22 lots ja rebuts**, amb 122:13 d’àudio cru i 37.399 tokens d’entrada. No és una cua executable ni un comptador de quota. [Tornar als pendents](lots-sintesi.md).
+Actualitzat: **23/11/2026**. Registre dels **23 lots ja rebuts**, amb 129:10 d’àudio cru i 39.575 tokens d’entrada. No és una cua executable ni un comptador de quota. [Tornar als pendents](lots-sintesi.md).
 
-Aquests enviaments van aportar veus per a **65 comprensions** i **12 frases d’esmena**. És l’abast d’aquests lots, no el nombre total de comprensions del catàleg ni el nombre de peces pendents avui. L’estat actual de cada activitat consta al [seguiment](seguiment-produccio.md).
+Aquests enviaments van aportar veus per a **69 comprensions** i **12 frases d’esmena**. És l’abast d’aquests lots, no el nombre total de comprensions del catàleg ni el nombre de peces pendents avui. L’estat actual de cada activitat consta al [seguiment](seguiment-produccio.md).
 
 | Lot | Data d’enviament · UTC | Preses i esmenes | Àudio cru | Tokens d’entrada | Tokens d’àudio |
 | --- | --- | --- | ---: | ---: | ---: |
@@ -28,6 +28,7 @@ Aquests enviaments van aportar veus per a **65 comprensions** i **12 frases d’
 | [L26](../assets/audio/synthesis-batches/l26.json) | 2026-11-23 | S078-T01, S079-T01, S080-T01, S082-mòbil | 5:15 | 1679 | 7867 |
 | [L27](../assets/audio/synthesis-batches/l27.json) | 2026-11-23 | S063-T01, S064-T01, S065-T01, S007-invisible, S024-dubtes | 5:22 | 1652 | 8041 |
 | [L28](../assets/audio/synthesis-batches/l28.json) | 2026-11-23 | S068D-T01, S071D-T01, S069-encarrec | 5:16 | 1602 | 7899 |
+| [L29](../assets/audio/synthesis-batches/l29.json) | 2026-11-23 | S055-T01, S056-T01, S083-T01, S084-T01, MM-PILOT-001 | 6:57 | 2176 | 10432 |
 
 Cada rebut apunta a la petició exacta i a les empremtes d’origen; les respostes completes, les preses crues i els mapes de tall es conserven localment. No es repeteix una presa perquè encara falti revisar-la o muntar-la. Les planificacions anteriors, superades pels rebuts, es conserven a l’historial de Git.
 

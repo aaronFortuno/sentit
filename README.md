@@ -2,7 +2,7 @@
 
 Banc de comprensió oral d’ortogra.fi. El docent tria una activitat, prepara la fitxa i el solucionari i els imprimeix. L’alumnat respon al paper i escolta l’àudio des del QR o l’enllaç. Web estàtic, sense comptes ni servidor d’aplicació.
 
-[Situacions quotidianes](docs/lot-situacions-quotidianes.md): nou converses breus per validar —quatre de la Mar, tres de Ferran i dues de Laia/Biel—, amb convidats ocasionals i revisió independent. El pla de la Mar inclou el pilot multimodal prioritari al final del proper lot compatible; encara no s’ha enviat.
+[Situacions quotidianes](docs/lot-situacions-quotidianes.md): nou converses breus —quatre de la Mar, tres de Ferran i dues de Laia/Biel— amb revisió independent. Els quatre guions de la Mar estan validats; L29 inclou S055/S056/S083/S084 i el pilot multimodal al final. S085/S086 esperen material compatible; les altres cinc propostes esperen validació docent.
 
 [Obre Sentit](https://sentit.ortogra.fi/) · [Feina pendent](docs/seguiment-produccio.md) · [Publicacions finalitzades](docs/publicades.md) · [Cua de síntesi](docs/lots-sintesi.md) · [Sintonies](https://sentit.ortogra.fi/proves/sintonies-mireia.html)
 

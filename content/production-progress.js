@@ -4181,13 +4181,48 @@ export const productionProgress = {
     }
   },
   "ca-S056": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-23",
     "editorialFingerprint": "39766217bff33bd79a3463e0a5e3746bce91308c4561475d3eeab0d524e145eb",
     "plannedNewRequests": 1,
     "listeningApproval": false,
     "confirmation": "S056 validat per síntesi de veus",
-    "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar."
+    "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S056-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L29"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [
+      "introduction"
+    ],
+    "voicesReceivedAt": "2026-11-23T19:47:41.102Z",
+    "voicePreview": "./proves/veus-rebudes.html#S056",
+    "voicePreviewFile": "./assets/audio/s056-voices-review-v1.mp3",
+    "voiceReviewUpdate": {
+      "file": "./assets/audio/s056-voices-review-v1.mp3",
+      "at": "2026-11-23",
+      "summary": {
+        "ca": "Veus netes de metadades, sense muntatge. La presentació només diu «Comprensió oral»: falta «El taller canvia de casa. Notícia de ficció». Pots revisar tota la resta de les veus; el títol queda pendent de reposar.",
+        "es": "Voces limpias de metadatos, sin montaje. La presentación solo dice «Comprensió oral»: falta «El taller canvia de casa. Notícia de ficció». Puedes revisar el resto de las voces; el título queda pendiente."
+      }
+    },
+    "plannedRepair": {
+      "status": "awaiting-compatible-batch",
+      "scope": "missing-title",
+      "part": "introduction",
+      "speaker": "Mar",
+      "voice": "Erinome",
+      "text": "Comprensió oral. El taller canvia de casa. Notícia de ficció.",
+      "sourceTakeId": "S056-T01",
+      "note": "Títol original ja validat, omès parcialment per Gemini a L29. Reposar dins d’un futur lot compatible; cap petició petita automàtica. El cos de veus continua pendent d’audició docent."
+    }
   },
   "ca-S045D": {
     "state": "published",
@@ -4276,13 +4311,28 @@ export const productionProgress = {
     }
   },
   "ca-S055": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-23",
     "editorialFingerprint": "7ba953cb5e8e224a14843def2f977ad3519ed4031a355c3b6d9a108eba7e27ed",
     "plannedNewRequests": 1,
     "listeningApproval": false,
     "confirmation": "S055 validat per síntesi de veus",
-    "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar."
+    "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S055-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L29"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-23T19:47:41.102Z",
+    "voicePreview": "./proves/veus-rebudes.html#S055",
+    "voicePreviewFile": "./assets/audio/s055-voices-review-v1.mp3"
   },
   "ca-S071D": {
     "state": "published",
@@ -4477,32 +4527,68 @@ export const productionProgress = {
     }
   },
   "ca-S083": {
-    "state": "script-awaiting-validation",
+    "state": "voices-received",
     "editorialFingerprint": "05ae5519ccaa9957e1c90364fc0aa005168f5035aaaa46105b132c155678f08a",
     "plannedNewRequests": 1,
     "listeningApproval": false,
-    "teacherAssessment": "Guió, preguntes i escaleta revisats independentment; validació docent pendent."
+    "teacherAssessment": "Guió i escaleta validats pel docent; síntesi autoritzada dins d’un lot compatible.",
+    "scriptApprovedAt": "2026-11-23",
+    "voiceApproval": false,
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S083-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L29"
+      ]
+    },
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-23T19:47:41.102Z",
+    "voicePreview": "./proves/veus-rebudes.html#S083",
+    "voicePreviewFile": "./assets/audio/s083-voices-review-v1.mp3"
   },
   "ca-S084": {
-    "state": "script-awaiting-validation",
-    "editorialFingerprint": "59265f24f2fc6b4db384b9eb0215b967aa143449ab4cfb308a9cc249e711f5d0",
+    "state": "voices-received",
+    "editorialFingerprint": "99d3bfc103bcb45f91853e6cf8f8afd1f7cd4094911f4757db2b30bf1105de27",
     "plannedNewRequests": 1,
     "listeningApproval": false,
-    "teacherAssessment": "Guió, preguntes i escaleta revisats independentment; validació docent pendent."
+    "teacherAssessment": "Guió i escaleta validats pel docent; síntesi autoritzada dins d’un lot compatible.",
+    "scriptApprovedAt": "2026-11-23",
+    "voiceApproval": false,
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S084-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L29"
+      ]
+    },
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-23T19:47:41.102Z",
+    "voicePreview": "./proves/veus-rebudes.html#S084",
+    "voicePreviewFile": "./assets/audio/s084-voices-review-v1.mp3"
   },
   "ca-S085": {
-    "state": "script-awaiting-validation",
+    "state": "ready-for-voices",
     "editorialFingerprint": "d8c9e51360ea23371b66173a88a30d738f8d474119ef3a14d6eadcb00de91ca5",
     "plannedNewRequests": 1,
     "listeningApproval": false,
-    "teacherAssessment": "Guió, preguntes i escaleta revisats independentment; validació docent pendent."
+    "teacherAssessment": "Guió i escaleta validats pel docent; síntesi autoritzada dins d’un lot compatible.",
+    "scriptApprovedAt": "2026-11-23",
+    "voiceApproval": false
   },
   "ca-S086": {
-    "state": "script-awaiting-validation",
-    "editorialFingerprint": "608ca781fe14782e40dc71dbf1f02870cffd93bfae954ef22a14e48fec4a7f5f",
+    "state": "ready-for-voices",
+    "editorialFingerprint": "6429d0540cb2fcf37299676173406b20640f592d38d18c0c1a044b9d4453109c",
     "plannedNewRequests": 1,
     "listeningApproval": false,
-    "teacherAssessment": "Guió, preguntes i escaleta revisats independentment; validació docent pendent."
+    "teacherAssessment": "Guió i escaleta validats pel docent; síntesi autoritzada dins d’un lot compatible.",
+    "scriptApprovedAt": "2026-11-23",
+    "voiceApproval": false
   },
   "ca-S087": {
     "state": "script-awaiting-validation",

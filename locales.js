@@ -1,5 +1,6 @@
 export const strings = {
   ca: {
+    releaseMarPilotVoices: 'Guions S083–S086 validats: S084 es diu «Paper de regal» i S086 simplifica la compra al forn. Veus de S055, S056, S083 i S084 rebudes amb el pilot multimodal al final de L29, separat per revisar. S056 té la presentació incompleta; cap muntatge ni audició aprovats.',
     releaseDailyFerranFriends: 'Cinc guions quotidians més: Ferran a la botiga, a la biblioteca i de passeig; Laia i Biel al parc. Preguntes, contextos i escaletes revisats independentment, pendents de validació docent. Pla de lots actualitzat i pilot multimodal prioritari conservat. Cap síntesi enviada.',
     releaseDailyMar: 'Situacions quotidianes: quatre guions de la Mar fora de la ràdio, amb convidats ocasionals i materials per validar. Nou univers filtrable, revisió independent i pla del pilot multimodal al final del proper lot compatible. Cap síntesi enviada.',
     releaseSeventeenFinal: 'Disset comprensions amb publicació definitiva i els àudios aprovats conservats. Il·lustracions contextuals, transcripcions netes i seguiment actualitzat. S024 tanca la prova de timbre; les peces publicades deixen de mostrar les antigues veus de revisió.',
@@ -294,6 +295,7 @@ export const strings = {
     sessionEnded: 'Sessió acabada', remainingTime: 'Temps restant',
   },
   es: {
+    releaseMarPilotVoices: 'Guiones S083–S086 validados: S084 se titula «Paper de regal» y S086 simplifica la compra en la panadería. Voces de S055, S056, S083 y S084 recibidas con el piloto multimodal al final de L29, separado para revisar. S056 tiene la presentación incompleta; ningún montaje ni audición aprobados.',
     releaseDailyFerranFriends: 'Cinco guiones cotidianos más: Ferran en la tienda, en la biblioteca y de paseo; Laia y Biel en el parque. Preguntas, contextos y planes de montaje revisados de forma independiente, pendientes de validación docente. Plan de lotes actualizado y piloto multimodal prioritario conservado. Ninguna síntesis enviada.',
     releaseDailyMar: 'Situaciones cotidianas: cuatro guiones de Mar fuera de la radio, con invitados ocasionales y materiales para validar. Nuevo universo filtrable, revisión independiente y plan del piloto multimodal al final del próximo lote compatible. Sin síntesis enviada.',
     releaseSeventeenFinal: 'Diecisiete comprensiones con publicación definitiva y los audios aprobados conservados. Ilustraciones de contexto, transcripciones limpias y seguimiento actualizado. S024 cierra la prueba de timbre; las piezas publicadas dejan de mostrar las antiguas voces de revisión.',

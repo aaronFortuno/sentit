@@ -551,7 +551,7 @@ export const editorialReviews = {
     "status": "passed",
     "reviewedAt": "2026-11-23",
     "reviewer": "revisio_tancament_s027",
-    "fingerprint": "59265f24f2fc6b4db384b9eb0215b967aa143449ab4cfb308a9cc249e711f5d0"
+    "fingerprint": "99d3bfc103bcb45f91853e6cf8f8afd1f7cd4094911f4757db2b30bf1105de27"
   },
   "ca-S085": {
     "status": "passed",
@@ -563,7 +563,7 @@ export const editorialReviews = {
     "status": "passed",
     "reviewedAt": "2026-11-23",
     "reviewer": "revisio_tancament_s027",
-    "fingerprint": "608ca781fe14782e40dc71dbf1f02870cffd93bfae954ef22a14e48fec4a7f5f"
+    "fingerprint": "6429d0540cb2fcf37299676173406b20640f592d38d18c0c1a044b9d4453109c"
   },
   "ca-S087": {
     "status": "passed",

@@ -671,5 +671,67 @@
     "teacherAudioApproval": false,
     "newRequests": 0,
     "voiceRetimed": false
+  },
+  {
+    "code": "S055",
+    "title": "Els cartells de cinema tornen al barri",
+    "batch": "L29",
+    "revision": 1,
+    "sourceTakeSha256": "57ba3ed3f69b95b77d0900be5900c6df512cfcabfcefb1b96b6a100c4de4b80a",
+    "sourceRawSha256": "20d716f9a5513b380c1885e64229e4d4f31e4951d03b0c5e3e53b542a7913fcd",
+    "file": "assets/audio/s055-voices-review-v1.mp3",
+    "sha256": "2e6eb2521c8deb583b2e13239ae1d3a1a9c006c2d216f3eb76a7827e10cbea8d",
+    "state": "voices-received-awaiting-listening",
+    "missingParts": [],
+    "teacherAudioApproval": false,
+    "newRequests": 0,
+    "voiceRetimed": false
+  },
+  {
+    "code": "S056",
+    "title": "El taller canvia de casa",
+    "batch": "L29",
+    "revision": 1,
+    "sourceTakeSha256": "fafe5e399b5421f0e177d5a8602c74da49992434fe756e18fbe6ff13e1e31552",
+    "sourceRawSha256": "20d716f9a5513b380c1885e64229e4d4f31e4951d03b0c5e3e53b542a7913fcd",
+    "file": "assets/audio/s056-voices-review-v1.mp3",
+    "sha256": "08d7d2410e7ecd7bfa44b859cfb9559daf2903e4b2732c17a12e819dc4ccec2e",
+    "state": "voices-received-awaiting-listening",
+    "missingParts": [
+      "introduction"
+    ],
+    "teacherAudioApproval": false,
+    "newRequests": 0,
+    "voiceRetimed": false
+  },
+  {
+    "code": "S083",
+    "title": "Quant de temps, Núria!",
+    "batch": "L29",
+    "revision": 1,
+    "sourceTakeSha256": "03bf3de27f15b5aba9ff14a132aa8107e429f63fdf0fa74f925c2ee25ef44cc3",
+    "sourceRawSha256": "20d716f9a5513b380c1885e64229e4d4f31e4951d03b0c5e3e53b542a7913fcd",
+    "file": "assets/audio/s083-voices-review-v1.mp3",
+    "sha256": "9053e5f75aae4e5434e66e97412999ef64e131fc19bd3d0d4e99d1a11c35e808",
+    "state": "voices-received-awaiting-listening",
+    "missingParts": [],
+    "teacherAudioApproval": false,
+    "newRequests": 0,
+    "voiceRetimed": false
+  },
+  {
+    "code": "S084",
+    "title": "Paper de regal",
+    "batch": "L29",
+    "revision": 1,
+    "sourceTakeSha256": "5717df20f90207c5c7e6ed7ca7dc1725dc22a3b3fc8e2eb159b4a40b92654dd2",
+    "sourceRawSha256": "20d716f9a5513b380c1885e64229e4d4f31e4951d03b0c5e3e53b542a7913fcd",
+    "file": "assets/audio/s084-voices-review-v1.mp3",
+    "sha256": "39a4130533d8b8fe4e03db93c357c687036cd835d2be711c4d2850144d187685",
+    "state": "voices-received-awaiting-listening",
+    "missingParts": [],
+    "teacherAudioApproval": false,
+    "newRequests": 0,
+    "voiceRetimed": false
   }
 ]

@@ -872,6 +872,52 @@
       "estimatedInputTokens": 5434,
       "receipt": "assets/audio/synthesis-batches/l28.json",
       "completedAt": "2026-11-23T13:21:28.972Z"
+    },
+    {
+      "id": "L29",
+      "state": "received",
+      "sourceProposal": "P05 + P18 + MM-PILOT-001",
+      "speechTextFormat": "plain-v1",
+      "execution": "background-v1",
+      "castPolicy": {
+        "kind": "anchor-with-guests-v1",
+        "speaker": "Mar",
+        "voice": "Erinome",
+        "guestVoice": "Callirrhoe"
+      },
+      "blocks": [
+        {
+          "code": "S055",
+          "take": "S055-T01",
+          "sourceRequestHash": "60873a8e69e4a46d687ebebd2760db3b3c5fee3fbe7da3e7fe7ea035b70c0537"
+        },
+        {
+          "code": "S056",
+          "take": "S056-T01",
+          "sourceRequestHash": "af213bd420fb93c68cd0c01c0376f77c2998d5315d1453458f90fad08c405df5"
+        },
+        {
+          "code": "S083",
+          "take": "S083-T01",
+          "sourceRequestHash": "14b82597f9bb77d174cbce66cedd2991f3002d79a07f519897e2e6a477aad5c4"
+        },
+        {
+          "code": "S084",
+          "take": "S084-T01",
+          "sourceRequestHash": "e2ff69a74d0c360e20f8163757abd8c667efb2856831047907d2656265ad3294"
+        },
+        {
+          "extra": "MM-PILOT-001",
+          "sourceRequestHash": "0a8686c352f67909105f7ecb01d9cda7a7ac7ce77f312fe27e147bfc69f3ab03"
+        }
+      ],
+      "authorization": "Docent 23/11: S083–S086 validats amb S084 titulat Paper de regal i S086 sense l’aclariment sobre la barra. Autoritza preparar i enviar el proper lot de la Mar, amb el pilot multimodal prioritari al final en to espontani. S055 i S056 ja validats. Selecció L29: S055, S056, S083, S084 i MM-PILOT-001; S085/S086 esperen. Una petició, sense muntatge abans de validar veus.",
+      "approvedAt": "2026-11-23T19:44:33.596Z",
+      "approvedRequestHash": "b0a730b180a626cc040f5673c2e59704c01d046548a2b4090c0538b629495e23",
+      "estimatedSeconds": 472,
+      "estimatedInputTokens": 6312,
+      "receipt": "assets/audio/synthesis-batches/l29.json",
+      "completedAt": "2026-11-23T19:47:41.102Z"
     }
   ],
   "calibration": {

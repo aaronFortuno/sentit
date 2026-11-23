@@ -1,0 +1,21 @@
+{
+  "id": "MM-PILOT-001",
+  "title": "Arribem a la biblioteca",
+  "status": "voices-received-awaiting-listening",
+  "voice": "Erinome",
+  "speakerRole": "Júlia",
+  "text": "Ei, soc la Júlia! En Nil i jo ja som a l’Estació d’Autobusos. Ara són les deu i vint. L’altre cop vam agafar la circular interior i vam baixar a Rambla General Vives. Podem fer el mateix avui? Hem quedat amb la meva cosina a la parada de Cal Font. Ens espera allà i després anirem junts a la biblioteca. Mira a quina hora passa el primer bus d’aquesta línia que podem agafar i digue’ns per on anar quan baixem.",
+  "speechSha256": "0a45fc3d5fde5242e51ff9a0b659517ab6487a3dddf65e760fe0d5b29a41c3bf",
+  "sourceSha256": "9103c21819f2089fe647ca9d1e3e215f3859f6efb3f65c36b251164fc275b6b0",
+  "batch": "L29",
+  "requestHash": "b0a730b180a626cc040f5673c2e59704c01d046548a2b4090c0538b629495e23",
+  "sourceRawSha256": "20d716f9a5513b380c1885e64229e4d4f31e4951d03b0c5e3e53b542a7913fcd",
+  "sourceTakeSha256": "d857c10e79c2aae9dbf23edc8cbe19a948ccd499fd262aede5c5f6cece54620d",
+  "file": "assets/audio/external/mm-pilot-001-voices-v1.mp3",
+  "sha256": "f646da05c7f55f195507d39df71aee5cfb70e559d112397af0189d96b1c673d6",
+  "seconds": 24.661899999999946,
+  "coverage": 0.8823529411764706,
+  "teacherAudioApproval": false,
+  "voiceRetimed": false,
+  "notes": "Veu sola per revisar al projecte multimodal; sense títol, música ni efectes. Presa crua conservada i marges del tall verificat mantinguts. Normalització de volum i petits marges de silenci, sense canvi de to o velocitat."
+}

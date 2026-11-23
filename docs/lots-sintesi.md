@@ -2,13 +2,24 @@
 
 Actualitzat: **23/11/2026**. Aquest document mostra només la feina pendent d’enviar o de revisar. Els lots ja rebuts consten a l’[històric de síntesi](historic-sintesi.md); no s’han de tornar a enviar.
 
-**Prioritat del proper lot de la Mar:** afegir el pilot multimodal MM-PILOT-001 com a últim tall, amb Erinome en to espontani i el text exacte del registre extern. El [pla de Situacions quotidianes](lot-situacions-quotidianes.md#proper-lot-de-la-mar--pilot-multimodal-prioritari) concreta les alternatives i les validacions que falten. Aquesta prioritat no autoritza enviar guions nous encara pendents de validació.
+**Pilot multimodal rebut:** MM-PILOT-001 ja és al final de L29. [Escolta la pista independent](../assets/audio/external/mm-pilot-001-voices-v1.mp3) · [Manifest](../assets/audio/external/mm-pilot-001-voices-v1.json). Pendent d’audició al projecte paral·lel; no tornar a sintetitzar-lo per omplir lots.
 
 ## Lots pendents
 
 | Lot | Material pendent | Veus | Previsió orientativa | Què falta |
 | --- | --- | --- | ---: | --- |
 | L04 | S005: Aquest matí, per exemple, he apartat un sobre per revisar-lo abans de sortir.; S015: Per això es controla la il·luminació i també les condicions de temperatura i humitat. | Vindemiatrix + Kore | 0:22 | Completar amb material del mateix repartiment; S015: conciliar el registre editorial històric abans de preparar l’esmena |
+
+## Veus rebudes · per escoltar abans del muntatge
+
+Les preses originals es conserven i la cobertura s’ha comprovat localment. La pronunciació i la identitat de les veus continuen pendents d’audició; encara no són muntatges finals.
+
+| Peça | Presa |
+| --- | --- |
+| [ca-S055](https://sentit.ortogra.fi/#lectura=ca-S055) | [Escolta les veus](../proves/veus-rebudes.html#S055) |
+| [ca-S056](https://sentit.ortogra.fi/#lectura=ca-S056) | [Escolta les veus](../proves/veus-rebudes.html#S056) |
+| [ca-S083](https://sentit.ortogra.fi/#lectura=ca-S083) | [Escolta les veus](../proves/veus-rebudes.html#S083) |
+| [ca-S084](https://sentit.ortogra.fi/#lectura=ca-S084) | [Escolta les veus](../proves/veus-rebudes.html#S084) |
 
 Les previsions provenen dels guions i del calibratge local; cal recalcular-les amb el format definitiu abans d’enviar. Una mateixa veu en dos guions no implica el mateix personatge. No es canvien repartiments ni s’allarguen guions per omplir un lot.
 
@@ -18,12 +29,10 @@ La previsió utilitza el text pla real, amb els títols i sense marques literals
 
 | Proposta | Repartiment | Comprensions | Previsió en text pla | Mida orientativa | Guions validats | Validacions que falten |
 | --- | --- | --- | ---: | --- | ---: | --- |
-| [P05](lot-cicle-superior.md#mar) | Mar · Erinome | [ca-S055](https://sentit.ortogra.fi/#lectura=ca-S055), [ca-S056](https://sentit.ortogra.fi/#lectura=ca-S056) | 4:43 | Per completar | 2/2 | Cap |
 | [P07](lot-cicle-superior.md#laia-biel) | Laia i Biel · Leda + Puck | [ca-S059](https://sentit.ortogra.fi/#lectura=ca-S059), [ca-S060](https://sentit.ortogra.fi/#lectura=ca-S060) | 3:39 | Per completar | 2/2 | Cap |
 | [P11](lot-cicle-superior.md#ferran) | Ferran · Algenib | [ca-S072](https://sentit.ortogra.fi/#lectura=ca-S072) | 3:09 | Per completar | 1/1 | Cap |
 | [P13](lot-cicle-superior.md#laia-ona) | Laia i Ona · Leda + Sulafat | [ca-S074](https://sentit.ortogra.fi/#lectura=ca-S074), [ca-S076](https://sentit.ortogra.fi/#lectura=ca-S076) | 5:08 | Per completar | 2/2 | Cap |
-| P18 | Mar i convidats ocasionals · Erinome + Callirrhoe | [ca-S083](https://sentit.ortogra.fi/#lectura=ca-S083), [ca-S084](https://sentit.ortogra.fi/#lectura=ca-S084) | 2:46 | Per completar | 0/2 | [ca-S083](https://sentit.ortogra.fi/#lectura=ca-S083), [ca-S084](https://sentit.ortogra.fi/#lectura=ca-S084) |
-| P19 | Mar i convidats ocasionals · Erinome + Despina | [ca-S085](https://sentit.ortogra.fi/#lectura=ca-S085), [ca-S086](https://sentit.ortogra.fi/#lectura=ca-S086) | 2:46 | Per completar | 0/2 | [ca-S085](https://sentit.ortogra.fi/#lectura=ca-S085), [ca-S086](https://sentit.ortogra.fi/#lectura=ca-S086) |
+| P19 | Mar i convidats ocasionals · Erinome + Despina | [ca-S085](https://sentit.ortogra.fi/#lectura=ca-S085), [ca-S086](https://sentit.ortogra.fi/#lectura=ca-S086) | 2:40 | Per completar | 2/2 | Cap |
 | P20 | Ferran i convidats ocasionals · Algenib + Achird | [ca-S087](https://sentit.ortogra.fi/#lectura=ca-S087), [ca-S088](https://sentit.ortogra.fi/#lectura=ca-S088) | 2:42 | Per completar | 0/2 | [ca-S087](https://sentit.ortogra.fi/#lectura=ca-S087), [ca-S088](https://sentit.ortogra.fi/#lectura=ca-S088) |
 | P21 | Ferran i convidada ocasional · Algenib + Gacrux | [ca-S089](https://sentit.ortogra.fi/#lectura=ca-S089) | 1:21 | Per completar | 0/1 | [ca-S089](https://sentit.ortogra.fi/#lectura=ca-S089) |
 | P22 | Laia i Biel · Leda + Puck | [ca-S090](https://sentit.ortogra.fi/#lectura=ca-S090), [ca-S091](https://sentit.ortogra.fi/#lectura=ca-S091) | 2:17 | Per completar | 0/2 | [ca-S090](https://sentit.ortogra.fi/#lectura=ca-S090), [ca-S091](https://sentit.ortogra.fi/#lectura=ca-S091) |
@@ -45,7 +54,8 @@ P02 reuneix quatre lectures breus del mateix repartiment per conservar els guion
 | [ca-S010](https://sentit.ortogra.fi/#lectura=ca-S010) | Biel · Puck | alternativa |
 | [ca-S017](https://sentit.ortogra.fi/#lectura=ca-S017) | Mireia · Aoede | coordinacio + retorn |
 | [ca-S022](https://sentit.ortogra.fi/#lectura=ca-S022) | Ferran · Algenib | Dues proves TTS: «raíls» i «raïls»; text editorial intacte |
-| [ca-S061](https://sentit.ortogra.fi/#lectura=ca-S061) | Laia · Leda | Presentació omesa: «Comprensió oral. El curt que començava pel final.»; cos de veus validat |
+| [ca-S056](https://sentit.ortogra.fi/#lectura=ca-S056) | Mar · Erinome | Presentació incompleta o omesa: «Comprensió oral. El taller canvia de casa. Notícia de ficció.»; cos pendent d’audició |
+| [ca-S061](https://sentit.ortogra.fi/#lectura=ca-S061) | Laia · Leda | Presentació incompleta o omesa: «Comprensió oral. El curt que començava pel final.»; cos de veus validat |
 | [ca-S070](https://sentit.ortogra.fi/#lectura=ca-S070) | Ferran · Algenib | esperar |
 | [ca-S071](https://sentit.ortogra.fi/#lectura=ca-S071) | Ferran · Algenib | sobre |
 | [ca-S081](https://sentit.ortogra.fi/#lectura=ca-S081) | Elies · Algieba | telefon + final |

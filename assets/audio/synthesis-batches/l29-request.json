@@ -1,0 +1,272 @@
+{
+  "model": "gemini-3.8-flash-tts",
+  "input": [
+    {
+      "type": "user_input",
+      "content": [
+        {
+          "type": "text",
+          "text": "Comprensió oral. Els cartells de cinema tornen al barri. Notícia de ficció. \n\nBon dia. El centre cívic prepararà una mostra de cartells dels antics cinemes del barri. La iniciativa va començar quan una família va trobar un tub de cartró al damunt d’un armari. A dins hi havia anuncis de pel·lícules que l’avi havia guardat quan treballava en un dels cinemes. La família en va portar quatre al centre per ensenyar-los.\n\nDesprés es va fer una crida i van aparèixer més cartells en altres cases. Alguns havien quedat plegats dins de carpetes; d’altres eren emmarcats en menjadors. Ara l’equip està apuntant qui en deixa cadascun i de quin cinema procedeix. Quan acabi la mostra, els originals tornaran a les famílies que els han prestat.\n\nUna de les parets tindrà fotografies de cartells en lloc dels originals. Són els d’una col·lecció que continua penjada a casa d’un veí. El veí prefereix que es quedin allà, però ha deixat que els fotografiïn. Al costat de cada imatge s’hi indicarà que es tracta d’una còpia i qui ha facilitat la fotografia.\n\nTambé hi haurà una taula amb programes de mà, aquells fulls petits que anunciaven les pel·lícules de la setmana. Alguns porten la data i ajudaran a situar cartells on només apareix el títol. Els visitants podran mirar reproduccions d’aquests programes; els fulls originals es mostraran darrere d’un vidre.\n\nL’equip recull, a més, records de persones que havien anat a aquells cinemes. Poden explicar com era la sala o amb qui hi anaven. Si dues persones recorden de manera diferent un mateix detall, les escoltaran totes dues i buscaran alguna fotografia o un programa que ajudi a aclarir-lo.\n\nDissabte al matí hi haurà una sessió oberta per portar documents o explicar records al centre cívic. Qui vulgui participar pot demanar hora al taulell, perquè l’equip pugui escoltar cada persona amb calma. La mostra s’obrirà el mes que ve.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Mar és l’única veu: periodista adulta, clara i propera, sense solemnitat ni veus imitades quan recull el que ha dit algú. Pauses naturals entre informacions, entonació de notícia local i tancament amb una dada concreta de servei. Llegir només els torns de Mar. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its story. Keep the assigned physical voices unchanged. This recording has only the supplied cast; guest roles belong only to this scene. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. El taller canvia de casa. Notícia de ficció. \n\nBon dia. El taller del barri, on un grup de voluntaris ajuda a reparar petits objectes de casa, obrirà dissabte en un local nou. Fins ara es trobaven un cop al mes en una sala compartida del centre cívic. Quan acabaven, havien de tornar les taules al seu lloc i guardar les eines en un armari. El nou local permetrà deixar preparada una part de la feina per a la sessió següent.\n\nEl trasllat va començar ahir amb les caixes petites. Les taules més grosses es portaran divendres, perquè s’ha de deixar lliure l’entrada durant una entrega que té prevista la botiga del costat. Una de les taules tampoc no passava per la porta amb les potes muntades. Les han desmuntades i han guardat els cargols en una bossa lligada a la mateixa taula.\n\nDissabte es podrà participar en una primera trobada per revisar objectes petits: una joguina amb una roda fluixa, una motxilla amb una nansa descosida o una capsa que no tanca bé. Les persones que els portin s’asseuran amb un voluntari per explicar què ha passat i què ja han provat de fer. Aquesta conversa és la que ajuda a començar a mirar cada cas.\n\nPer exemple, hi ha una joguina que només deixa de funcionar després d’una estona de joc. La família l’haurà de descriure amb aquest detall, perquè quan la van provar un moment semblava que anava bé. Al taller volen escoltar aquesta mena d’informació abans de moure peces o desfer costures. Qui conservi una peça que s’ha desprès també la pot portar dins d’una bossa.\n\nHi haurà dues taules per fer les revisions. Per evitar que tothom arribi al mateix moment, es reservarà una franja al taulell del centre cívic. En apuntar-se, cal explicar breument quin objecte es vol portar. Si és molt gros, l’equip demanarà veure’n primer una fotografia per decidir com el poden atendre en aquest espai.\n\nAlgunes eines grans continuaran guardades al centre cívic. La cambra del fons del local nou encara té unes prestatgeries per acabar de muntar, i les caixes que les han d’omplir es deixaran tancades fins que hi hagi lloc per ordenar-les. Mentrestant, els voluntaris han triat les eines petites que necessiten per a la primera trobada.\n\nLa idea és obrir dues tardes al mes quan el trasllat estigui acabat. Per ara s’ha anunciat la sessió de dissabte. Després, l’equip haurà de mirar quantes persones poden atendre i quins voluntaris hi podran ser cada dia. Els horaris següents es penjaran al mateix local i al centre cívic, un cop estiguin preparats.\n\nLes inscripcions per dissabte s’obren aquesta tarda. El taulell del centre cívic atendrà de cinc a set. El nou taller és al carrer del Roure, al costat de la botiga de bicicletes; l’entrada quedarà senyalitzada abans de la trobada.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Mar és l’única veu: periodista adulta, clara i propera, sense solemnitat ni veus imitades quan recull el que ha dit algú. Pauses naturals entre informacions, entonació de notícia local i tancament amb una dada concreta de servei. Llegir només els torns de Mar. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its story. Keep the assigned physical voices unchanged. This recording has only the supplied cast; guest roles belong only to this scene. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. Quant de temps, Núria! \n\nNúria? Ei, Núria! Quant de temps! T’he reconegut per aquesta bossa de llibres. Encara arrossegues mitja biblioteca amunt i avall?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Mar conversa fora de la feina, amb veu Erinome propera i espontània: salutacions, petites sorpreses i rèpliques quotidianes, sense cadència de noticiari. La segona veu és una adulta ocasional, natural i diferenciada; no representa cap recurrent. Cap tercera veu, narrador o imitació. Les pauses neixen de la conversa, sense rialles ni instruccions llegides. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the assigned physical voices unchanged. This recording has only the supplied cast; guest roles belong only to this scene. Instructions are not spoken."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Mar! Ja veus que la bossa és la mateixa. Tu, en canvi, sempre m’agafes quan tinc pressa! Avui no, avui ja torno cap a casa.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Mar conversa fora de la feina, amb veu Erinome propera i espontània: salutacions, petites sorpreses i rèpliques quotidianes, sense cadència de noticiari. La segona veu és una adulta ocasional, natural i diferenciada; no representa cap recurrent. Cap tercera veu, narrador o imitació. Les pauses neixen de la conversa, sense rialles ni instruccions llegides. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Em pensava que anaves a la fleca. Fa setmanes que hi passo al matí i no t’hi trobo. Un dia vaig mirar per la porta del darrere i tot.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "És que ja no hi treballo. Ara soc a la biblioteca, a les tardes. Ajudo a tornar els llibres al seu lloc i preparo les bosses que recullen les escoles. Aquests d’aquí els he agafat per a mi.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ah, mira! Per això no coincidim. Jo hi passo abans d’entrar a treballar. I què tal, el canvi?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Molt bé. Sobretot perquè al matí puc estar una estona amb la mare. Abans començava tan d’hora que només la veia els diumenges. Ara anem a comprar plegades, sense córrer tant.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Doncs un dia podríem fer un cafè. Jo els dijous tinc el matí lliure. Encara tens el mateix telèfon?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí. Escriu-me dimecres i quedem per dijous. Millor després de comprar, que si no deixaré la mare esperant amb el carretó!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Fet. I seu de cara a la porta, que amb aquesta pila de llibres potser t’amagues darrere i torno a passar de llarg.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ja et faré senyals amb la bossa! Va, fins dijous, Mar.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. Paper de regal. \n\nBon dia. Busco paper per embolicar aquest llibre. És per regalar. M’agrada aquell de les estrelles verdes que teniu penjat allà.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Mar conversa fora de la feina, amb veu Erinome propera i espontània: salutacions, petites sorpreses i rèpliques quotidianes, sense cadència de noticiari. La segona veu és una adulta ocasional, natural i diferenciada; no representa cap recurrent. Cap tercera veu, narrador o imitació. Les pauses neixen de la conversa, sense rialles ni instruccions llegides. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the assigned physical voices unchanged. This recording has only the supplied cast; guest roles belong only to this scene. Instructions are not spoken."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Bon dia! El que hi ha penjat és la mostra. A veure si em queda cap full... Aquí al calaix no n’hi veig. Et podria ensenyar el de ratlles.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Mar conversa fora de la feina, amb veu Erinome propera i espontània: salutacions, petites sorpreses i rèpliques quotidianes, sense cadència de noticiari. La segona veu és una adulta ocasional, natural i diferenciada; no representa cap recurrent. Cap tercera veu, narrador o imitació. Les pauses neixen de la conversa, sense rialles ni instruccions llegides. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Aquest també és bonic, però al meu nebot li encanten les estrelles. Si en teniu un tros més petit, potser ja em serviria. El llibre no és gaire gros.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Espera un moment. Aquest matí han arribat dues capses i encara només n’he obert una. Mira, aquí hi ha el paquet de les estrelles!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Quina sort! Me’n quedo un full. I em dones una bossa? Porto el pa sota el braç i em falta una mà per a tot això.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Si vols, te l’embolico aquí mateix. Així ja t’enduràs el regal embolicat dins la bossa.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Em faries un favor. La dedicatòria ja és escrita, així que el pots tancar. El pa el deixaré aquí un moment, que ara sembla que també l’hagi de regalar.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "D’acord. T’hi poso aquesta bossa perquè el duguis bé. I el pa te’l torno abans que marxis!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Gràcies! Ja em veig arribant a casa només amb el regal i havent de tornar pel pa. Fins una altra.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ei, soc la Júlia! En Nil i jo ja som a l’Estació d’Autobusos. Ara són les deu i vint. L’altre cop vam agafar la circular interior i vam baixar a Rambla General Vives. Podem fer el mateix avui? Hem quedat amb la meva cosina a la parada de Cal Font. Ens espera allà i després anirem junts a la biblioteca. Mira a quina hora passa el primer bus d’aquesta línia que podem agafar i digue’ns per on anar quan baixem.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "For this independent final recording, reset the preceding newsreader delivery completely. Use the assigned Erinome voice with a spontaneous, close, natural voice-note tone. Júlia is the speaker role; do not introduce the presenter Mar. Preserve the exact canonical words, no title, music, effects or added words. Read the supplied words exactly once in natural Central Catalan, as a young person leaving a quick voice note for someone they know. Use a close, clear, dry voice at a natural conversational pace. Start ‘Ei, soc la Júlia!’ with a light lift and settle immediately into ‘En Nil i jo’. Leave a little space around ‘les deu i vint’ and keep the time clear without stressing each word. Let the recollection flow naturally, then give ‘Podem fer el mateix avui?’ a genuine questioning lift. Reset gently after the question and say both words in ‘Cal Font’ clearly. Keep ‘Rambla General Vives’ together as a stop name, with normal Catalan pronunciation. Make the last request friendly and practical, with a settled cadence on ‘quan baixem’. Finish the final word fully, then leave a clear quiet gap for the next recording. Speak only the supplied words, with no title, scene labels, music, effects or added words. This final recording is independent: no title, no newsreader cadence, no music or effects. Finish every word fully and leave quiet at the end.",
+              "speaker": "Voice1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "response_format": {
+    "type": "audio",
+    "mime_type": "audio/wav",
+    "sample_rate": 24000
+  },
+  "generation_config": {
+    "speech_config": {
+      "speakers": [
+        {
+          "speaker": "Voice1",
+          "voice": "Erinome"
+        },
+        {
+          "speaker": "Voice2",
+          "voice": "Callirrhoe"
+        }
+      ]
+    }
+  },
+  "background": true
+}
