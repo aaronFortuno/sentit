@@ -1,6 +1,6 @@
 # Revisió independent de coherència
 
-Actualitzat: **23/11/2026**. **96 de 96** propostes de la tanda tenen revisió independent superada per a la versió actual. Abast: 722 preguntes i 899 cites literals.
+Actualitzat: **23/11/2026**. **108 de 108** propostes de la tanda tenen revisió independent superada per a la versió actual. Abast: 813 preguntes i 1020 cites literals.
 
 S’han revisat situacions, cronologia, circulació d’objectes, coneixement dels personatges, causes i desenllaços, acotacions sonores, preguntes, respostes i ancoratges. Les dades factuals sensibles s’han contrastat amb fonts primàries indicades al [dossier editorial](lot-editorial-24.md). La revisió del muntatge és sobre el guió; les veus i el resultat sonor requeriran audició.
 
@@ -104,6 +104,18 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S089](https://sentit.ortogra.fi/#lectura=ca-S089) | La gossa que passeja en Ferran | 3r | Revisió superada · guió validat | 2026-11-23 | `f365596e0fcd…` |
 | [ca-S090](https://sentit.ortogra.fi/#lectura=ca-S090) | Ens falta espai per jugar | 4t | Provisional · revisió superada | 2026-11-23 | `3945774f4fa3…` |
 | [ca-S091](https://sentit.ortogra.fi/#lectura=ca-S091) | El berenar ben pla | 3r | Provisional · revisió superada | 2026-11-23 | `2fabfd886680…` |
+| [ca-S092](https://sentit.ortogra.fi/#lectura=ca-S092) | El carrer està tallat | 5è | Provisional · revisió superada | 2026-11-23 | `cb309163433c…` |
+| [ca-S093](https://sentit.ortogra.fi/#lectura=ca-S093) | El tren que arriba abans | 6è | Provisional · revisió superada | 2026-11-23 | `2cd8ee580d39…` |
+| [ca-S094](https://sentit.ortogra.fi/#lectura=ca-S094) | El paraigua no s’obre | 5è | Provisional · revisió superada | 2026-11-23 | `505aa3200d59…` |
+| [ca-S095](https://sentit.ortogra.fi/#lectura=ca-S095) | Un paquet massa llarg | 6è | Provisional · revisió superada | 2026-11-23 | `af43e7340ada…` |
+| [ca-S096](https://sentit.ortogra.fi/#lectura=ca-S096) | El banc de la placeta | 6è | Provisional · revisió superada | 2026-11-23 | `9cbd79ad4c19…` |
+| [ca-S097](https://sentit.ortogra.fi/#lectura=ca-S097) | Quina parada em queda més a prop? | 5è | Provisional · revisió superada | 2026-11-23 | `d67a4e8f5561…` |
+| [ca-S098](https://sentit.ortogra.fi/#lectura=ca-S098) | El tiquet d’una altra taula | 5è | Provisional · revisió superada | 2026-11-23 | `f2abb16bda23…` |
+| [ca-S099](https://sentit.ortogra.fi/#lectura=ca-S099) | Després de la fuita | 1r d’ESO | Provisional · revisió superada | 2026-11-23 | `ee151c50d2ff…` |
+| [ca-S100](https://sentit.ortogra.fi/#lectura=ca-S100) | Un paquet de bolis cobrat dos cops | 6è | Provisional · revisió superada | 2026-11-23 | `bc40756d2ec9…` |
+| [ca-S101](https://sentit.ortogra.fi/#lectura=ca-S101) | Arribarem quan la recepció sigui tancada | 6è | Provisional · revisió superada | 2026-11-23 | `e23899434e24…` |
+| [ca-S102](https://sentit.ortogra.fi/#lectura=ca-S102) | L’autobús que no es va aturar | 6è | Provisional · revisió superada | 2026-11-23 | `4dd156b4c265…` |
+| [ca-S103](https://sentit.ortogra.fi/#lectura=ca-S103) | Canvi a la reserva de dissabte | 5è | Provisional · revisió superada | 2026-11-23 | `133bb8951962…` |
 
 Les empremtes completes i el revisor consten al [registre de revisions](../content/editorial-reviews.js). La marca provisional només apareix al web si l’empremta coincideix amb el contingut actual. Canviar el guió, les preguntes, les respostes, les pistes, el repartiment o l’escaleta invalida la revisió anterior. Les comprovacions detecten registres caducats abans de publicar.
 

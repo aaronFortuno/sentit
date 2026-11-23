@@ -1,5 +1,7 @@
 # Situacions quotidianes · guions per validar
 
+[Nova tanda de serveis i gestions · S092–S103](lot-situacions-quotidianes-avancades.md): dotze guions de cicle superior i ESO, amb revisió independent i validació docent pendent. Completen candidats amb S085/S086/S089 i S074/S076.
+
 23 de novembre de 2026. Converses autònomes del dia a dia. Les fitxes i els solucionaris del web mostren el guió i l’escaleta. S083–S091 tenen validació docent de guió; la recepció i l’audició de les veus mantenen les fases pròpies que s’indiquen més avall.
 
 ## Primer bloc · la Mar fora de la ràdio

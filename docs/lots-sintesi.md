@@ -27,15 +27,27 @@ Les preses originals es conserven i la cobertura s’ha comprovat localment. La 
 
 Les previsions provenen dels guions i del calibratge local; cal recalcular-les amb el format definitiu abans d’enviar. Una mateixa veu en dos guions no implica el mateix personatge. No es canvien repartiments ni s’allarguen guions per omplir un lot.
 
+## Validacions que completen un lot
+
+Ordenades pel nombre de guions que falta validar. Són candidats de mida compatible; després cal preparar l’entrada definitiva.
+
+| Prioritat | Guions que falten | Lot complet resultant | Text pla estimat |
+| --- | --- | --- | ---: |
+| P13 | [ca-S098](https://sentit.ortogra.fi/#lectura=ca-S098), [ca-S103](https://sentit.ortogra.fi/#lectura=ca-S103) | [ca-S074](https://sentit.ortogra.fi/#lectura=ca-S074), [ca-S076](https://sentit.ortogra.fi/#lectura=ca-S076), [ca-S098](https://sentit.ortogra.fi/#lectura=ca-S098), [ca-S103](https://sentit.ortogra.fi/#lectura=ca-S103) | 7:50 |
+| P19 | [ca-S092](https://sentit.ortogra.fi/#lectura=ca-S092), [ca-S093](https://sentit.ortogra.fi/#lectura=ca-S093), [ca-S094](https://sentit.ortogra.fi/#lectura=ca-S094) | [ca-S085](https://sentit.ortogra.fi/#lectura=ca-S085), [ca-S086](https://sentit.ortogra.fi/#lectura=ca-S086), [ca-S092](https://sentit.ortogra.fi/#lectura=ca-S092), [ca-S093](https://sentit.ortogra.fi/#lectura=ca-S093), [ca-S094](https://sentit.ortogra.fi/#lectura=ca-S094) | 7:04 |
+| P21 | [ca-S095](https://sentit.ortogra.fi/#lectura=ca-S095), [ca-S096](https://sentit.ortogra.fi/#lectura=ca-S096), [ca-S097](https://sentit.ortogra.fi/#lectura=ca-S097) | [ca-S089](https://sentit.ortogra.fi/#lectura=ca-S089), [ca-S095](https://sentit.ortogra.fi/#lectura=ca-S095), [ca-S096](https://sentit.ortogra.fi/#lectura=ca-S096), [ca-S097](https://sentit.ortogra.fi/#lectura=ca-S097) | 6:39 |
+| P23 | [ca-S099](https://sentit.ortogra.fi/#lectura=ca-S099), [ca-S100](https://sentit.ortogra.fi/#lectura=ca-S100), [ca-S101](https://sentit.ortogra.fi/#lectura=ca-S101), [ca-S102](https://sentit.ortogra.fi/#lectura=ca-S102) | [ca-S099](https://sentit.ortogra.fi/#lectura=ca-S099), [ca-S100](https://sentit.ortogra.fi/#lectura=ca-S100), [ca-S101](https://sentit.ortogra.fi/#lectura=ca-S101), [ca-S102](https://sentit.ortogra.fi/#lectura=ca-S102) | 6:57 |
+
 ## Agrupacions candidates · validació i preparació pendents
 
 La previsió utilitza el text pla real, amb els títols i sense marques literals de pausa ni marges afegits per omplir la petició. Un grup de guions validats encara necessita preparar i comprovar l’entrada definitiva abans d’enviar-lo. Els candidats petits continuen esperant material compatible.
 
 | Proposta | Repartiment | Comprensions | Previsió en text pla | Mida orientativa | Guions validats | Validacions que falten |
 | --- | --- | --- | ---: | --- | ---: | --- |
-| [P13](lot-cicle-superior.md#laia-ona) | Laia i Ona · Leda + Sulafat | [ca-S074](https://sentit.ortogra.fi/#lectura=ca-S074), [ca-S076](https://sentit.ortogra.fi/#lectura=ca-S076) | 5:08 | Per completar | 2/2 | Cap |
-| P19 | Mar i convidats ocasionals · Erinome + Despina | [ca-S085](https://sentit.ortogra.fi/#lectura=ca-S085), [ca-S086](https://sentit.ortogra.fi/#lectura=ca-S086) | 2:40 | Per completar | 2/2 | Cap |
-| P21 | Ferran i convidada ocasional · Algenib + Gacrux | [ca-S089](https://sentit.ortogra.fi/#lectura=ca-S089) | 1:21 | Per completar | 1/1 | Cap |
+| [P13](lot-cicle-superior.md#laia-ona) | Laia i Ona · Leda + Sulafat | [ca-S074](https://sentit.ortogra.fi/#lectura=ca-S074), [ca-S076](https://sentit.ortogra.fi/#lectura=ca-S076), [ca-S098](https://sentit.ortogra.fi/#lectura=ca-S098), [ca-S103](https://sentit.ortogra.fi/#lectura=ca-S103) | 7:50 | Dins la finestra prevista | 2/4 | [ca-S098](https://sentit.ortogra.fi/#lectura=ca-S098), [ca-S103](https://sentit.ortogra.fi/#lectura=ca-S103) |
+| P19 | Mar i convidats ocasionals · Erinome + Despina | [ca-S085](https://sentit.ortogra.fi/#lectura=ca-S085), [ca-S086](https://sentit.ortogra.fi/#lectura=ca-S086), [ca-S092](https://sentit.ortogra.fi/#lectura=ca-S092), [ca-S093](https://sentit.ortogra.fi/#lectura=ca-S093), [ca-S094](https://sentit.ortogra.fi/#lectura=ca-S094) | 7:04 | Dins la finestra prevista | 2/5 | [ca-S092](https://sentit.ortogra.fi/#lectura=ca-S092), [ca-S093](https://sentit.ortogra.fi/#lectura=ca-S093), [ca-S094](https://sentit.ortogra.fi/#lectura=ca-S094) |
+| P21 | Ferran i convidada ocasional · Algenib + Gacrux | [ca-S089](https://sentit.ortogra.fi/#lectura=ca-S089), [ca-S095](https://sentit.ortogra.fi/#lectura=ca-S095), [ca-S096](https://sentit.ortogra.fi/#lectura=ca-S096), [ca-S097](https://sentit.ortogra.fi/#lectura=ca-S097) | 6:39 | Dins la finestra prevista | 1/4 | [ca-S095](https://sentit.ortogra.fi/#lectura=ca-S095), [ca-S096](https://sentit.ortogra.fi/#lectura=ca-S096), [ca-S097](https://sentit.ortogra.fi/#lectura=ca-S097) |
+| P23 | Mar i convidades ocasionals · Erinome + Callirrhoe | [ca-S099](https://sentit.ortogra.fi/#lectura=ca-S099), [ca-S100](https://sentit.ortogra.fi/#lectura=ca-S100), [ca-S101](https://sentit.ortogra.fi/#lectura=ca-S101), [ca-S102](https://sentit.ortogra.fi/#lectura=ca-S102) | 6:57 | Dins la finestra prevista | 0/4 | [ca-S099](https://sentit.ortogra.fi/#lectura=ca-S099), [ca-S100](https://sentit.ortogra.fi/#lectura=ca-S100), [ca-S101](https://sentit.ortogra.fi/#lectura=ca-S101), [ca-S102](https://sentit.ortogra.fi/#lectura=ca-S102) |
 
 P02 reuneix quatre lectures breus del mateix repartiment per conservar els guions de 3r curts i senzills. Els grups nous de 5è–6è es poden validar per repartiments sencers i es proposen en lots de dues o tres comprensions completes. Les previsions utilitzen el text pla i encara s’han de verificar amb l’entrada definitiva; la validació dels guions no garanteix que la mida final del lot sigui admissible. Les preses ja rebudes s’exclouen d’aquesta taula. [Tanda de 3r–4t](lot-cicle-mitja.md) · [Tanda de 5è–6è per repartiment](lot-cicle-superior.md) · [Composició proposada](../content/synthesis-proposals.json).
 

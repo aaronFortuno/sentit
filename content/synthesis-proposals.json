@@ -145,9 +145,11 @@
       "cast": "Laia i Ona · Leda + Sulafat",
       "codes": [
         "S074",
-        "S076"
+        "S076",
+        "S098",
+        "S103"
       ],
-      "note": "Reagrupació del 22/11 segons text pla i validacions vigents; conservar lectures completes i repartiment exacte. Els romanents curts esperen més material compatible."
+      "note": "Candidat ampliat amb Situacions quotidianes de cicle superior; només els guions nous esperen validació docent. Recalcular també el límit d’entrada del proveïdor abans de congelar; conservar les veus i les escenes completes, sense allargar el text per omplir."
     },
     {
       "id": "P14",
@@ -205,9 +207,12 @@
       "cast": "Mar i convidats ocasionals · Erinome + Despina",
       "codes": [
         "S085",
-        "S086"
+        "S086",
+        "S092",
+        "S093",
+        "S094"
       ],
-      "note": "Situacions quotidianes: guions pendents de validació docent. Convidats ocasionals, sense fitxa recurrent. Candidat orientatiu, sense reserva de quota ni autorització de síntesi."
+      "note": "Candidat ampliat amb Situacions quotidianes de cicle superior; només els guions nous esperen validació docent. Recalcular també el límit d’entrada del proveïdor abans de congelar; conservar les veus i les escenes completes, sense allargar el text per omplir."
     },
     {
       "id": "P20",
@@ -222,9 +227,12 @@
       "id": "P21",
       "cast": "Ferran i convidada ocasional · Algenib + Gacrux",
       "codes": [
-        "S089"
+        "S089",
+        "S095",
+        "S096",
+        "S097"
       ],
-      "note": "Situacions quotidianes: pendent de validació docent i de preparació definitiva. Conservar les veus recurrents i una sola veu de convidat ocasional per petició. Candidat orientatiu; no reserva quota ni autoritza síntesi."
+      "note": "Candidat ampliat amb Situacions quotidianes de cicle superior; només els guions nous esperen validació docent. Recalcular també el límit d’entrada del proveïdor abans de congelar; conservar les veus i les escenes completes, sense allargar el text per omplir."
     },
     {
       "id": "P22",
@@ -234,6 +242,17 @@
         "S091"
       ],
       "note": "Situacions quotidianes: pendent de validació docent i de preparació definitiva. Conservar les veus recurrents i una sola veu de convidat ocasional per petició. Candidat orientatiu; no reserva quota ni autoritza síntesi."
+    },
+    {
+      "id": "P23",
+      "cast": "Mar i convidades ocasionals · Erinome + Callirrhoe",
+      "codes": [
+        "S099",
+        "S100",
+        "S101",
+        "S102"
+      ],
+      "note": "Quatre consultes completes. Guions pendents de validació docent. Pot compartir lot amb la reposició exacta de la presentació i salutació de S056 després de preparar-ne el pla; sense reserva de quota ni síntesi."
     }
   ]
 }

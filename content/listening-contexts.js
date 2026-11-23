@@ -1,6 +1,18 @@
 // Introduccions impreses: situen l'escena sense explicar-ne el desenllaç.
 // Separades dels guions de veu: no s'envien a síntesi ni alteren les preses.
 export const listeningContexts = {
+  'ca-S092': 'La Mar camina per un carrer amb moviment de gent. Quan arriba a una cantonada, veu que el pas no és com esperava i s’atura per preguntar. Escolta com explica on vol anar i què li proposen.',
+  'ca-S093': 'La Mar és en una estació de tren que coneix poc. Abans de comprar el bitllet, s’acosta al taulell per demanar informació. Escolta quines opcions li expliquen i com va decidint què li convé.',
+  'ca-S094': 'La Mar torna a una botiga on va fer una compra fa uns dies. Porta l’objecte i un paper a la bossa. Escolta què explica a la dependenta i com resolen la situació al taulell.',
+  'ca-S095': 'En Ferran ha preparat un paquet per a un familiar i el porta a un punt d’enviaments. Parla amb l’empleada per saber com el pot enviar. Escolta què comproven i què han de preparar per fer l’enviament.',
+  'ca-S096': 'En Ferran entra en una oficina d’atenció ciutadana. Porta una explicació escrita i espera poder fer una gestió amb l’ajuda de la informadora. Escolta les preguntes que li fan i com va concretant el que vol comunicar.',
+  'ca-S097': 'En Ferran és en una estació d’autobusos de fora i vol continuar el viatge. S’acosta a la taquilla amb la bossa i una adreça apuntada. Escolta la conversa amb la taquillera abans que compri el bitllet.',
+  'ca-S098': 'La Laia s’acosta a la barra del restaurant per parlar amb l’Ona. Totes dues miren un paper i intenten aclarir una cosa de l’estona que hi ha passat amb en Biel. Escolta què recorda cadascuna.',
+  'ca-S099': 'La Mar rep una visita a casa seva. Conversa amb una professional mentre li ensenya un racó de l’habitatge i els documents que té preparats. Escolta què pregunta cadascuna i quina informació els fa falta.',
+  'ca-S100': 'La Mar s’acosta al taulell d’una papereria amb una bossa i un tiquet. Voldria revisar una cosa de la compra amb la dependenta. Escolta com expliquen què ha passat i què fan amb els papers.',
+  'ca-S101': 'La Mar truca a l’allotjament on té previst passar la nit. Hi ha una cosa del viatge que ha canviat i vol comprovar com s’ha d’organitzar. Escolta què pregunta i quines indicacions li dona la recepcionista.',
+  'ca-S102': 'La Mar vol parlar amb el servei d’atenció d’una companyia de transport. Porta una incidència per explicar i la informadora li demana alguns detalls. Escolta com reconstrueixen el que va passar i què deixen anotat.',
+  'ca-S103': 'La Laia truca a l’Ona per parlar d’un pla que tenen en família. Porta algunes coses apuntades per recordar què ha de preguntar. Escolta com comproven entre totes dues les dades de la reserva.',
   'ca-S087': 'En Ferran entra en una botiga amb una cosa petita a la butxaca. Ha tingut un problema a casa i espera que el dependent el pugui ajudar. Escolta què li explica i com va la compra.',
   'ca-S088': 'En Ferran va a la biblioteca i s’acosta al taulell amb la seva bossa. Vol parlar d’un llibre amb el bibliotecari. Escolta què passa quan comencen a mirar què porta.',
   'ca-S089': 'La Margarida es troba en Ferran durant un passeig pel carrer. Hi ha alguna cosa que li crida l’atenció i s’atura a parlar amb ell. Escolta què s’expliquen abans de continuar el camí.',

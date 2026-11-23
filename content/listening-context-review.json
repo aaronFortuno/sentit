@@ -3,8 +3,8 @@
   "status": "passed",
   "reviewedAt": "2026-11-23",
   "reviewer": "revisio_contextos_previs",
-  "scope": "90 contextos impresos revisats independentment. S045D incorporada i contextos S079/S081 revalidats després dels comiats demanats pel docent. Sense canvis d’aprovacions d’àudio. S029 revalidada el 23/11 després de recuperar la presentació i retirar la ubicació del context previ. S068D i S071D incorporades amb revisió independent el 23/11; correspondència de S068 revalidada després de variar-ne l’inici. Ampliació independent: ca-S083, ca-S084, ca-S085, ca-S086 (revisio_tancament_s027). Ampliació independent: ca-S087, ca-S088, ca-S089, ca-S090, ca-S091 (revisio_tancament_s027). Ampliació independent: ca-S084, ca-S086 (revisio_tancament_s027).",
-  "fileSha256": "080cd2dae7dcc0a9b1f28b781bd80e98d2ff7956108f460d371b8efd8086c91e",
+  "scope": "90 contextos impresos revisats independentment. S045D incorporada i contextos S079/S081 revalidats després dels comiats demanats pel docent. Sense canvis d’aprovacions d’àudio. S029 revalidada el 23/11 després de recuperar la presentació i retirar la ubicació del context previ. S068D i S071D incorporades amb revisió independent el 23/11; correspondència de S068 revalidada després de variar-ne l’inici. Ampliació independent: ca-S083, ca-S084, ca-S085, ca-S086 (revisio_tancament_s027). Ampliació independent: ca-S087, ca-S088, ca-S089, ca-S090, ca-S091 (revisio_tancament_s027). Ampliació independent: ca-S084, ca-S086 (revisio_tancament_s027). Ampliació independent: ca-S092, ca-S093, ca-S094, ca-S095, ca-S096, ca-S097 (revisio_tancament_s027). Ampliació independent: ca-S098, ca-S099, ca-S100, ca-S101, ca-S102, ca-S103 (auditoria_registre_pendents).",
+  "fileSha256": "6c57689bb286870f199fdb89c39175f4505b881ef118f72f4055d7a8f0ffd098",
   "entries": {
     "ca-S001": {
       "contextSha256": "86a2e53e056b3476191785f60aeb95ceaeed57b5958b995a1c5ac832470bfedf",
@@ -421,6 +421,78 @@
       "sourceSha256": "3a94b816ad3b810c72fe6712e9fdcdc144a2080548899180454bc9b12716fb66",
       "reviewer": "revisio_tancament_s027",
       "reviewedAt": "2026-11-23"
+    },
+    "ca-S092": {
+      "contextSha256": "a2b9d6f5e644ab94654c36f9d54876fe4fc8231d4a7b4df72b694e1d587bc995",
+      "sourceSha256": "d48e1d29c55d72da1576943225c722cf02cdcdfefa142794c904c1a501ea5884",
+      "reviewer": "revisio_tancament_s027",
+      "reviewedAt": "2026-11-23"
+    },
+    "ca-S093": {
+      "contextSha256": "7f4368433a5d5747548e285abc5334c5392172d266ee36a62f040f21c682ed1e",
+      "sourceSha256": "471cb7d3e6e63a9d9f720d54aab7340051ec3ca7f0155ae2565488b612b41cc0",
+      "reviewer": "revisio_tancament_s027",
+      "reviewedAt": "2026-11-23"
+    },
+    "ca-S094": {
+      "contextSha256": "b355855e03b28fcf35d7db6a2652a1e3e3bfd6b34a1e3a0c4be46cda4cb56be4",
+      "sourceSha256": "29f54264b5e09d382fdddd3d18f207b6e49b1e9e5fa35970529e21b44c3492b8",
+      "reviewer": "revisio_tancament_s027",
+      "reviewedAt": "2026-11-23"
+    },
+    "ca-S095": {
+      "contextSha256": "10162f1a51ad525b2b684b72bc7c74f9c6725a823becccc69721304d738716e3",
+      "sourceSha256": "79b2e2b93b8d42f1971c8e064057edc511523dbc924c8c98b1754781687b2285",
+      "reviewer": "revisio_tancament_s027",
+      "reviewedAt": "2026-11-23"
+    },
+    "ca-S096": {
+      "contextSha256": "8ddb290968288f391e0f03f5b6989d1ffc182dd056ff7213181275de4b7e33ca",
+      "sourceSha256": "e29230d8b68e597e3500e757687c060454ceace21239e97078731fa96a6abee9",
+      "reviewer": "revisio_tancament_s027",
+      "reviewedAt": "2026-11-23"
+    },
+    "ca-S097": {
+      "contextSha256": "0956106113cc242664243534d4a1cc8332e7672a3cf8cb6d975f8735e3461131",
+      "sourceSha256": "a7b0a047e0573abbfd74cc60d0b0d3eec44bd76ba911e087ae36baea05f77905",
+      "reviewer": "revisio_tancament_s027",
+      "reviewedAt": "2026-11-23"
+    },
+    "ca-S098": {
+      "contextSha256": "82733ab5e6a580c85887ddb130ceb5304e71f16ccc5e9103edcbda3944e0be71",
+      "sourceSha256": "023bcf52954f468f454baac95729932b3c62e02e59f1b34ba96c825a877c1949",
+      "reviewer": "auditoria_registre_pendents",
+      "reviewedAt": "2026-11-23"
+    },
+    "ca-S099": {
+      "contextSha256": "6dfea8f183c610b1d8f39c12dbde9846ffe932d77c7b2a7371c3d0eea456acdc",
+      "sourceSha256": "aaec21346dca54f5bc6142451e4b9de09145f0d4b97ecc77ed1179e0c624b90e",
+      "reviewer": "auditoria_registre_pendents",
+      "reviewedAt": "2026-11-23"
+    },
+    "ca-S100": {
+      "contextSha256": "b8fcc23cd3b950d33b6b9e0af43133a0616c48795f8a21e3e657a4b4c3dceffc",
+      "sourceSha256": "f1baa82042192ea8e9507addd15e89d353f8f09a9124c7f580f7e827bda5b9f4",
+      "reviewer": "auditoria_registre_pendents",
+      "reviewedAt": "2026-11-23"
+    },
+    "ca-S101": {
+      "contextSha256": "2ebd75c7453fa0092aed2a57a1de7ee168c81f777294bd6009609abc6802049e",
+      "sourceSha256": "a60c89bebd7effe807b48e833a7f118ac2f22ea748d617fba070c7f97380ea9e",
+      "reviewer": "auditoria_registre_pendents",
+      "reviewedAt": "2026-11-23"
+    },
+    "ca-S102": {
+      "contextSha256": "8af561f460bf8ea954e53f576e767f233a1872f514bd6cd1ff68417f0a6f2d79",
+      "sourceSha256": "7fe06985c631ad338af7505db6d3e50bf0719ccf12c4cb76c1441cf11e65b39f",
+      "reviewer": "auditoria_registre_pendents",
+      "reviewedAt": "2026-11-23"
+    },
+    "ca-S103": {
+      "contextSha256": "2f0548e1e4adb4f8e95422d3266eafe75792fb30572c02478497064d0315c656",
+      "sourceSha256": "5d0da8adbe4bac08bb6ebb9fc6b44365de1618561d01840f80c6714742ecdc78",
+      "reviewer": "auditoria_registre_pendents",
+      "reviewedAt": "2026-11-23"
     }
   },
   "latestReview": {
@@ -464,6 +536,32 @@
       "reviewer": "revisio_tancament_s027",
       "reviewedAt": "2026-11-23",
       "fileSha256": "080cd2dae7dcc0a9b1f28b781bd80e98d2ff7956108f460d371b8efd8086c91e"
+    },
+    {
+      "codes": [
+        "ca-S092",
+        "ca-S093",
+        "ca-S094",
+        "ca-S095",
+        "ca-S096",
+        "ca-S097"
+      ],
+      "reviewer": "revisio_tancament_s027",
+      "reviewedAt": "2026-11-23",
+      "fileSha256": "6c57689bb286870f199fdb89c39175f4505b881ef118f72f4055d7a8f0ffd098"
+    },
+    {
+      "codes": [
+        "ca-S098",
+        "ca-S099",
+        "ca-S100",
+        "ca-S101",
+        "ca-S102",
+        "ca-S103"
+      ],
+      "reviewer": "auditoria_registre_pendents",
+      "reviewedAt": "2026-11-23",
+      "fileSha256": "6c57689bb286870f199fdb89c39175f4505b881ef118f72f4055d7a8f0ffd098"
     }
   ]
 }

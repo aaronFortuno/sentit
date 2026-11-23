@@ -4,6 +4,8 @@ Banc de comprensió oral d’ortogra.fi. El docent tria una activitat, prepara l
 
 [Situacions quotidianes](docs/lot-situacions-quotidianes.md): nou converses breus amb revisió independent i guions validats. L29 inclou la Mar i el pilot multimodal; L30/L31 aporten Ferran i Laia/Biel amb esmenes per comparar. S085/S086/S089 esperen material compatible. S088/S090 tenen omissions o dubtes visibles, pendents d’audició; cap presa nova es dona per bona automàticament.
 
+[Serveis i gestions quotidianes](docs/lot-situacions-quotidianes-avancades.md): dotze propostes S092–S103 per a 5è, 6è i 1r d’ESO, revisades independentment i pendents de validació docent. Quatre agrupacions candidates permeten completar lots amb els guions ja aprovats, mantenint les veus recurrents i els convidats ocasionals.
+
 [Obre Sentit](https://sentit.ortogra.fi/) · [Feina pendent](docs/seguiment-produccio.md) · [Publicacions finalitzades](docs/publicades.md) · [Cua de síntesi](docs/lots-sintesi.md) · [Sintonies](https://sentit.ortogra.fi/proves/sintonies-mireia.html)
 
 [Flux de validació de l’àudio](docs/flux-produccio-audio.md): primer s’escolten i validen les veus; després es munta l’àudio i es fa una segona audició. Les represes de pronunciació es poden comparar directament a la fitxa amb «Escolta les esmenes».

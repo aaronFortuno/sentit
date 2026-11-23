@@ -2091,5 +2091,245 @@
     "strategy": "packed-title-program-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
     "approvalSource": "Docent 23/11: S087, S088, S089, S090 i S091 validats íntegrament per síntesi de veus; autoritza els lots complets de Ferran i Laia/Biel amb les dues peticions gratuïtes restants."
+  },
+  "S092": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S092",
+    "reviewContent": "content/propostes/quotidianes/mar-serveis.js",
+    "format": "5è intermèdia: seguir dues opcions d’accés, distingir el pas de vehicles del de vianants i relacionar l’elecció amb una dificultat concreta. Carrers i regulació inventats per a aquesta escena.",
+    "cues": [
+      "Carrer amb trànsit llunyà i gent molt tènue, enregistrats. Sense sirenes, xiulets o cursa representada.",
+      "La conversa continua al mateix punt; no posar passos ni veus de la tieta.",
+      "Comiat complet i fosa curta. Cap so que representi haver arribat al portal."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mar": "Erinome",
+      "Policia": "Despina"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S093": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S093",
+    "reviewContent": "content/propostes/quotidianes/mar-serveis.js",
+    "format": "6è avançada: comparar dues sortides i dues arribades, entendre el motiu del canvi de tren i confirmar el trajecte escollit. Horaris, estació i condicions d’aquests bitllets són de ficció.",
+    "cues": [
+      "Estació enregistrada molt tènue. No afegir anuncis entenedors, xiulets ni un tren que marqui la resposta.",
+      "Mateix taulell i ambient. Sense pausa de compra, impressió de bitllet ni veu de l’amiga.",
+      "Fosa breu d’estació. Sense sortida de tren ni música."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mar": "Erinome",
+      "Informadora": "Despina"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S094": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S094",
+    "reviewContent": "content/propostes/quotidianes/mar-serveis.js",
+    "format": "5è intermèdia: explicar una incidència, distingir les opcions de la botiga i justificar una tria per la necessitat immediata. Condicions d’aquest canvi fictícies, sense afirmar normes generals de consum.",
+    "cues": [
+      "Botiga tranquil·la enregistrada, exterior esmorteït. Sense timbre, caixa registradora ni música.",
+      "El gest de comprovar el recanvi pot solapar-se amb la parla. Cap clic sintetitzat ni espera llarga.",
+      "Final complet i fosa breu. Sense canvi sonor al carrer ni pluja afegida que tapi el comiat."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mar": "Erinome",
+      "Dependenta": "Despina"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S095": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S095",
+    "reviewContent": "content/propostes/quotidianes/ferran-gestions.js",
+    "format": "6è intermèdia: relacionar les mides amb un servei, comparar recollida i lliurament al local i preparar les dades necessàries. Límits, modalitats i horaris inventats per a aquest punt d’enviaments.",
+    "cues": [
+      "Punt d’enviaments amb ambient interior real molt baix. Sense sons de cinta adhesiva o balances afegits.",
+      "La gestió continua al taulell. Cap trucada representada ni veu del transportista.",
+      "Fosa curta després del comiat. Sense simular una recollida que encara no ha passat."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Ferran": "Algenib",
+      "Empleada": "Gacrux"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S096": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S096",
+    "reviewContent": "content/propostes/quotidianes/ferran-gestions.js",
+    "format": "6è intermèdia: entendre per a què serveix una instància, concretar una ubicació i distingir la presentació del seguiment. Formulari i canals d’avís ficticis d’aquesta oficina, no normes generals.",
+    "cues": [
+      "Oficina municipal amb ambient real molt tènue. Sense veus entenedores d’altres taules ni avisos de torn.",
+      "La consulta del telèfon coincideix amb la parla. Sense clics, càmera o impressora afegits.",
+      "Final complet i fosa curta. Sense anunciar reparacions ni terminis que no s’han donat."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Ferran": "Algenib",
+      "Informadora": "Gacrux"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S097": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S097",
+    "reviewContent": "content/propostes/quotidianes/ferran-gestions.js",
+    "format": "5è avançada: triar un servei segons la parada i no només la sortida, relacionar un equipatge amb el recorregut final i confirmar lloc d’embarcament. Línies i horaris són inventats.",
+    "cues": [
+      "Estació d’autobusos amb ambient interior real molt baix. Cap missatge de megafonia entenedor.",
+      "Mateixa taquilla. Sense conductor representat ni canvi sonor al destí.",
+      "Fosa curta d’estació. No posar motors, arribada al destí o sons que revelin parades."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Ferran": "Algenib",
+      "Taquillera": "Gacrux"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S099": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S099",
+    "reviewContent": "content/propostes/quotidianes/mar-consultes.js",
+    "format": "1r d’ESO intermèdia: reconstruir una incidència, distingir l’avaria reparada dels desperfectes i entendre la funció de fotografies, factura i informe. Cas de ficció, sense establir cobertures d’assegurança universals.",
+    "cues": [
+      "Habitatge tranquil amb carrer esmorteït enregistrat. Sense degoteig: l’avaria ja està reparada.",
+      "Fotografies i consulta de papers suggerides amb la parla, sense efectes afegits ni una tercera veu.",
+      "Fosa curta d’interior; no afegir resposta de la companyia ni conclusió sobre cobertura."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mar": "Erinome",
+      "Pèrita": "Callirrhoe"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S100": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S100",
+    "reviewContent": "content/propostes/quotidianes/mar-consultes.js",
+    "format": "6è accessible: expressar una reclamació, relacionar quantitat i import i seguir una devolució concreta. Imports i procediment són de la botiga fictícia del relat, sense generalitzar drets o terminis.",
+    "cues": [
+      "Papereria amb ambient real tènue, sense música ni caixa registradora afegida.",
+      "La gestió pot avançar mentre parlen. Sense clics o espera de terminal.",
+      "Fosa curta després del comiat. No afegir missatges bancaris ni confirmacions alienes."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mar": "Erinome",
+      "Dependenta": "Callirrhoe"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S101": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S101",
+    "reviewContent": "content/propostes/quotidianes/mar-consultes.js",
+    "format": "6è intermèdia: seguir unes instruccions d’arribada, diferenciar la clau del codi per recollir-la i comprovar el canal de contacte. Reserva i funcionament d’aquest allotjament són ficticis.",
+    "cues": [
+      "Trucada sense timbre ni distorsió. Interior enregistrat molt tènue i veus netes.",
+      "La comprovació de dades no afegeix dígits, missatges rebuts o una tercera veu.",
+      "Fosa breu. No representar l’arribada ni revelar cap codi numèric."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mar": "Erinome",
+      "Recepcionista": "Callirrhoe"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S102": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S102",
+    "reviewContent": "content/propostes/quotidianes/mar-consultes.js",
+    "format": "6è intermèdia: explicar una incidència, identificar dades útils i seguir com es tramita una queixa concreta. Línia, parades i procediment ficticis, sense atribuir obligacions generals a empreses reals.",
+    "cues": [
+      "Oficina d’atenció amb ambient interior real molt baix. Sense motors propers ni megafonia.",
+      "La repetició confirma dades d’una incidència real dins l’escena. Sense teclat afegit ni pausa de tràmit.",
+      "Final complet i fosa breu. Sense resposta inventada sobre la causa de la incidència."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mar": "Erinome",
+      "Informadora": "Callirrhoe"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S098": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S098",
+    "reviewContent": "content/propostes/quotidianes/laia-ona-gestions.js",
+    "format": "5è intermèdia: comparar una consumició amb un tiquet, seguir un canvi de taula i explicar una confusió amb una altra comanda. Una escena concreta amb dues veus; el Biel només es menciona.",
+    "cues": [
+      "Sala de restaurant enregistrada molt baixa, sense converses entenedores ni una veu de Biel.",
+      "La consulta del compte coincideix amb la parla. Sense teclat, caixa o espera de pagament.",
+      "Fosa curta del restaurant després de l’última frase. Sense veu de Biel ni efectes que avancin la resposta."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Laia": "Leda",
+      "Ona": "Sulafat"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S103": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S103",
+    "reviewContent": "content/propostes/quotidianes/laia-ona-gestions.js",
+    "format": "5è intermèdia: comunicar dos canvis, comprovar les dades actualitzades i relacionar les persones amb l’encàrrec de menjar. Laia parla com una jove que ajuda en una gestió familiar.",
+    "cues": [
+      "Trucada clara sense timbre. Fons real tènue de restaurant sota Ona, sense terceres veus entenedores.",
+      "Somriure natural dins la veu, sense rialla afegida ni so d’escriure.",
+      "Final complet i fosa breu. Sense representar el dinar o el partit."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Laia": "Leda",
+      "Ona": "Sulafat"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
   }
 }

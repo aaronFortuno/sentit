@@ -1,0 +1,69 @@
+import { dailyProposal } from './proposal.js';
+import { direction as d, spoken as s, question as q, evidence as e } from '../proposal.js';
+
+const delivery = 'Laia/Leda conserva la veu juvenil i parla amb vocabulari corrent: pregunta, concreta i comprova, sense convertir-se en una gestora professional. Ona/Sulafat és una cuinera adulta propera que coneix la Laia. Dues veus estables, conversa fluida, sense narrador, etiquetes llegides ni rialles afegides.';
+const room = 'Ambient real continu de sala de restaurant o barra, molt tènue sota les veus, sense paraules entenedores ni cops de plats aïllats. Foses curtes. En la trucada, veus netes sense filtres telefònics; no afegir timbre ni música sintetitzada.';
+
+export const dailyLaiaOnaErrands = [
+  dailyProposal({
+    id: 'el-tiquet-duna-altra-taula', code: 'S098', title: 'El tiquet d’una altra taula', grade: '5', level: 'middle', genre: 'dialogue',
+    voices: { Laia: 'Leda', Ona: 'Sulafat' }, delivery,
+    summary: 'Abans de pagar el berenar, la Laia veu una cosa estranya al tiquet. Amb l’Ona recorden on s’havien assegut i miren què ha passat.',
+    editorialFocus: '5è intermèdia: comparar una consumició amb un tiquet, seguir un canvi de taula i explicar una confusió amb una altra comanda. Una escena concreta amb dues veus; el Biel només es menciona.',
+    soundPlan: room, illustrationBrief: 'Laia mostra un tiquet a Ona al taulell del restaurant. Taules borroses al fons, sense números, vasos o imports que resolguin la confusió.',
+    transcript: [
+      d('Sala de restaurant enregistrada molt baixa, sense converses entenedores ni una veu de Biel.'),
+      s('hola', 'Laia', 'Ona, perdona. Abans de pagar, podem mirar això? Al tiquet hi surten dos sucs, i nosaltres hem pres un suc i una aigua. Potser ens hem explicat malament quan ho hem demanat.'),
+      s('taula', 'Ona', 'Hola, Laia. Deixa’m veure... Aquest és el de la taula quatre. Vosaltres éreu allà al principi, oi?'),
+      s('canvi', 'Laia', 'Sí, però després ens hem canviat a la cinc, la del costat de la finestra. Al Biel li tocava el sol a la cara i no hi estava gaire bé.'),
+      s('altres', 'Ona', 'Ah, és veritat! A la quatre després hi ha segut una altra parella. Ells sí que han demanat dos sucs. Quan m’has vingut a pagar, encara us he situat a la primera taula.'),
+      s('demanat', 'Laia', 'Doncs deu ser això. El suc era meu, de préssec, i en Biel ha demanat una aigua. Els dos ens hem acabat el berenar a la taula de la finestra.'),
+      d('La consulta del compte coincideix amb la parla. Sense teclat, caixa o espera de pagament.'),
+      s('correcte', 'Ona', 'Mira, aquí tinc el vostre: taula cinc, un suc de préssec, una aigua i dos entrepans petits. És això?'),
+      s('confirmar', 'Laia', 'Sí, els dos entrepans també. Aquest ja em quadra. El paper dels dos sucs te’l deixo aquí?'),
+      s('guardar', 'Ona', 'Sí, gràcies. L’he de guardar per als clients de la quatre. Ara et cobro el vostre i et dono el tiquet correcte.'),
+      s('final', 'Laia', 'Perfecte. Jo ja em pensava que en Biel s’havia demanat un altre suc i jo no me n’havia adonat. Va, ara li porto el tiquet bo!'),
+      d('Fosa curta del restaurant després de l’última frase. Sense veu de Biel ni efectes que avancin la resposta.'),
+    ],
+    questions: [
+      q('diferencia', 'Quina diferència veu la Laia entre el tiquet i el que han begut?', 'El tiquet diu dos sucs, però han pres un suc i una aigua.', 1, [e('hola', 'dos sucs, i nosaltres hem pres un suc i una aigua')]),
+      q('moment', 'Ja havien pagat quan la Laia pregunta?', 'Encara no; ho pregunta abans de pagar.', 1, [e('hola', 'Abans de pagar')]),
+      q('taules', 'De quina taula a quina altra s’havien canviat?', 'De la quatre a la cinc.', 1, [e('taula', 'taula quatre'), e('canvi', 'ens hem canviat a la cinc')]),
+      q('sol', 'Per què havien canviat de lloc?', 'Perquè al Biel li tocava el sol a la cara.', 1, [e('canvi', 'Al Biel li tocava el sol a la cara')]),
+      q('parella', 'De qui era el compte dels dos sucs?', 'D’una altra parella que havia segut a la taula quatre.', 1, [e('altres', 'A la quatre després hi ha segut una altra parella. Ells sí que han demanat dos sucs.')]),
+      q('berenar', 'Què havien menjat, a més de les begudes?', 'Dos entrepans petits.', 1, [e('correcte', 'dos entrepans petits'), e('confirmar', 'els dos entrepans també')]),
+      q('confusio', 'Què havia fet confondre l’Ona quan els ha donat el tiquet?', 'Encara els havia situat a la taula on s’havien assegut primer.', 2, [e('altres', 'encara us he situat a la primera taula')]),
+    ],
+  }),
+  dailyProposal({
+    id: 'canvi-a-la-reserva-de-dissabte', code: 'S103', title: 'Canvi a la reserva de dissabte', grade: '5', level: 'middle', genre: 'dialogue',
+    voices: { Laia: 'Leda', Ona: 'Sulafat' }, delivery,
+    summary: 'La Laia truca de part de la mare per canviar una reserva. Han variat el nombre de persones i l’hora a què podran arribar.',
+    editorialFocus: '5è intermèdia: comunicar dos canvis, comprovar les dades actualitzades i relacionar les persones amb l’encàrrec de menjar. Laia parla com una jove que ajuda en una gestió familiar.',
+    soundPlan: room, illustrationBrief: 'Laia consulta una nota sense text llegible mentre parla per telèfon. Un racó domèstic natural; sense mostrar nombres de persones, rellotges o el menú final.',
+    transcript: [
+      d('Trucada clara sense timbre. Fons real tènue de restaurant sota Ona, sense terceres veus entenedores.'),
+      s('hola', 'Laia', 'Hola, Ona, soc la Laia. La mare m’ha dit que et truqui per la reserva de dissabte. Al final serem vuit, perquè els avis no poden venir. Ens tenies apuntats deu, oi?'),
+      s('reserva', 'Ona', 'Hola, Laia. Sí, deu persones a les dues, per dinar. Ho canvio a vuit. Seguiu volent l’arròs que havíeu encarregat?'),
+      s('arros', 'Laia', 'Sí, això igual. Però la mare també em deia si podríem venir mitja hora més tard. El meu germà té partit al matí i anirem una mica justos.'),
+      s('hora', 'Ona', 'A dos quarts de tres encara us puc posar l’arròs. Després ja ens costaria més perquè tindrem altres taules. Vols que et deixi l’arròs preparat per a aquesta hora?'),
+      s('confirmar', 'Laia', 'Sí, sí. La mare m’ha dit dos quarts de tres. M’ho he apuntat perquè quan truco sempre em deixo la meitat de les coses.'),
+      d('Somriure natural dins la veu, sense rialla afegida ni so d’escriure.'),
+      s('plats', 'Ona', 'Doncs ho tenim: dissabte, vuit persones a dos quarts de tres, amb arròs per a vuit. La reserva continua a nom de la teva mare.'),
+      s('dubte', 'Laia', 'Perfecte. Els avis havien de menjar el mateix que nosaltres, així que també calien dues racions menys. Això ja ho has canviat, oi?'),
+      s('comprovar', 'Ona', 'Sí, he canviat les persones i les racions. Ara ho tens tot per a vuit.'),
+      s('final', 'Laia', 'Molt bé, doncs ara li dic que ja està. Gràcies, Ona. Fins dissabte!'),
+      s('comiat', 'Ona', 'Fins dissabte, Laia. Que vagi molt bé el partit!'),
+      d('Final complet i fosa breu. Sense representar el dinar o el partit.'),
+    ],
+    questions: [
+      q('persones', 'Quantes persones hi havia apuntades i quantes hi aniran finalment?', 'Hi havia deu persones apuntades i finalment en seran vuit.', 1, [e('hola', 'serem vuit'), e('hola', 'Ens tenies apuntats deu'), e('reserva', 'Ho canvio a vuit.')]),
+      q('avis', 'Per què són menys persones?', 'Perquè els avis no poden venir.', 1, [e('hola', 'els avis no poden venir')]),
+      q('hora', 'A quina hora arribaran, després del canvi?', 'A dos quarts de tres.', 1, [e('confirmar', 'La mare m’ha dit dos quarts de tres.')]),
+      q('partit', 'Quin motiu donen per arribar més tard?', 'El germà de la Laia té partit al matí i van justos.', 1, [e('arros', 'El meu germà té partit al matí i anirem una mica justos.')]),
+      q('menu', 'Quin menjar havien encarregat i mantenen?', 'Arròs.', 1, [e('reserva', 'l’arròs que havíeu encarregat'), e('arros', 'Sí, això igual.')]),
+      q('racions', 'Què ha ajustat l’Ona, a més del nombre de persones?', 'Les racions d’arròs, que també queden per a vuit.', 1, [e('comprovar', 'he canviat les persones i les racions. Ara ho tens tot per a vuit.')]),
+      q('nom', 'A nom de qui continua la reserva?', 'A nom de la mare de la Laia.', 1, [e('plats', 'La reserva continua a nom de la teva mare.')]),
+    ],
+  }),
+];

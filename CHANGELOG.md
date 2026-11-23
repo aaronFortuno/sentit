@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.97 · 23 de novembre de 2026
+
+- Dotze guions S092–S103 de «Situacions quotidianes» per a 5è, 6è i 1r d’ESO: policia i accessos, tren i autobús, retorns i cobraments, paquet especial, instància municipal, pèrita, allotjament i reserves. Escenes autònomes amb condicions de servei de ficció, sense presentar normes o cobertures universals.
+- Revisió independent superada dels guions, 91 preguntes amb cites, contextos i escaletes. Laia conserva el registre juvenil i els adults el de la gestió. Veus agrupades en quatre candidats; cap perfil recurrent nou, aprovació docent ni petició de síntesi.
+- Document de treball amb tots els enllaços, cursos i previsions, integració als filtres i seguiment de producció. Títol i conversa sencers per presa, ambients enregistrats proposats i il·lustracions pendents de la validació.
+
 ## 0.1.96 · 23 de novembre de 2026
 
 - S087–S091 validats pel docent. L30 rep S072/S087/S088, esmenes de S070/S071 i les dues grafies auxiliars de S022; L31 rep S059/S060/S090/S091, el reintent de Biel/Puck a S010, el final de S025 i la presentació de S061. Dues peticions noves: 5:37 i 5:25 crus. S089 queda aprovat en espera de material amb Algenib/Gacrux.
