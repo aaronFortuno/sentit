@@ -1,6 +1,7 @@
 export const strings = {
   ca: {
     language: 'ca',
+    releaseTwoMoreVoiceBatches: 'Veus rebudes de S063, S064, S065, S068D i S071D, més esmenes de S007, S024 i S069 per comparar. Dos lots complets addicionals; set peticions registrades, sense reintents. Tot pendent d’audició, sense substituir muntatges.',
     releaseThreeFinalPublications: 'S021, S037 i S043 definitives amb els àudios validats, il·lustracions de context i solucionaris nets. Seguiment i crèdits actualitzats; cap síntesi nova.',
     releaseVoiceBatchesAndMontages: 'Cinc lots rebuts amb veus per a catorze comprensions i esmenes de S029 i S082 per comparar. Dotze muntatges nous pendents d’audició, diàlegs i nivells ajustats. S061 espera la presentació i S081, dues esmenes de veu. Seguiment i crèdits actualitzats.',
     releaseCinemaDialogueApproved: 'S045D, S053, S055, S064, S071D i S080 validades per a síntesi. P16 té les tres variants dialogades aprovades, amb una previsió de 6:50; els blocs de notícies, aula i taller tenen tots els guions validats. Seguiment i cua actualitzats, sense cap síntesi nova.',
@@ -285,6 +286,7 @@ export const strings = {
   },
   es: {
     language: 'es',
+    releaseTwoMoreVoiceBatches: 'Voces recibidas de S063, S064, S065, S068D y S071D, más correcciones de S007, S024 y S069 para comparar. Dos lotes completos adicionales; siete peticiones registradas, sin reintentos. Todo pendiente de escucha, sin sustituir montajes.',
     releaseThreeFinalPublications: 'S021, S037 y S043 definitivas con los audios validados, ilustraciones de contexto y solucionarios limpios. Seguimiento y créditos actualizados; sin síntesis nueva.',
     releaseVoiceBatchesAndMontages: 'Cinco lotes recibidos con voces para catorce comprensiones y correcciones de S029 y S082 para comparar. Doce montajes nuevos pendientes de escucha, diálogos y niveles ajustados. S061 espera la presentación y S081, dos correcciones de voz. Seguimiento y créditos actualizados.',
     releaseCinemaDialogueApproved: 'S045D, S053, S055, S064, S071D y S080 validadas para síntesis. P16 tiene las tres variantes dialogadas aprobadas, con una previsión de 6:50; los bloques de noticias, aula y taller tienen todos los guiones validados. Seguimiento y cola actualizados, sin síntesis nueva.',

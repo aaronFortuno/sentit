@@ -800,6 +800,78 @@
       "estimatedInputTokens": 6127,
       "receipt": "assets/audio/synthesis-batches/l26.json",
       "completedAt": "2026-11-23T12:30:54.324Z"
+    },
+    {
+      "id": "L27",
+      "state": "received",
+      "sourceProposal": "P08",
+      "speechTextFormat": "plain-v1",
+      "execution": "background-v1",
+      "blocks": [
+        {
+          "code": "S063",
+          "take": "S063-T01",
+          "sourceRequestHash": "34162b9c5161e0d7e8b394f659d2e80021097bf8ebd295bd7bce7c9f0c66686f"
+        },
+        {
+          "code": "S064",
+          "take": "S064-T01",
+          "sourceRequestHash": "8533ab25eb7bb8b1123e728c1f9e38ad7f5119cb07531e4ffb39060d0c86ad3c"
+        },
+        {
+          "code": "S065",
+          "take": "S065-T01",
+          "sourceRequestHash": "2edd8a3b7161a22010654018d19f5a42bdc212f7520c991290b722cd27c0c2c4"
+        },
+        {
+          "code": "S007",
+          "part": "invisible",
+          "sourceRequestHash": "a761f1d06eb9457e022032130da4cb163f53160442b8ed85131d5a955cbedb8f"
+        },
+        {
+          "code": "S024",
+          "part": "dubtes",
+          "sourceRequestHash": "0662cbac4cea7a30b8fcfe2831bb814b5af100e3298ede18eb241e58194b40e9"
+        }
+      ],
+      "authorization": "Docent 23/11: comprovar les cinc peticions fetes i enviar un o dos lots complets més. Guions, veus i escaletes ja validats; només esmenes explícitament demanades del mateix repartiment. Un enviament cada vegada, sense repetir intents incerts; publicar veus i comparacions abans del muntatge.",
+      "approvedAt": "2026-11-23T13:16:56.227Z",
+      "approvedRequestHash": "a8a1c31ecd69f92c20a41e6a739917e717f6da8007fba6592d62f5d5b553f9c0",
+      "estimatedSeconds": 368,
+      "estimatedInputTokens": 6289,
+      "receipt": "assets/audio/synthesis-batches/l27.json",
+      "completedAt": "2026-11-23T13:19:33.550Z"
+    },
+    {
+      "id": "L28",
+      "state": "received",
+      "sourceProposal": "P17",
+      "speechTextFormat": "plain-v1",
+      "execution": "background-v1",
+      "blocks": [
+        {
+          "code": "S068D",
+          "take": "S068D-T01",
+          "sourceRequestHash": "679fadf8cc5cb1156e3baf0303f588b5cf804dfde9c7cde0a9232dc949ca43c3"
+        },
+        {
+          "code": "S071D",
+          "take": "S071D-T01",
+          "sourceRequestHash": "96d5ee06e20b3fc65d2e6b9cd70324f56fd10eb286ccb256f96d66957063ba29"
+        },
+        {
+          "code": "S069",
+          "part": "encarrec",
+          "sourceRequestHash": "980645b0e2d69b96b55ba4471db5af343e7fc1589307eb202f8ae93278f57be6"
+        }
+      ],
+      "authorization": "Docent 23/11: comprovar les cinc peticions fetes i enviar un o dos lots complets més. Guions, veus i escaletes ja validats; només esmenes explícitament demanades del mateix repartiment. Un enviament cada vegada, sense repetir intents incerts; publicar veus i comparacions abans del muntatge.",
+      "approvedAt": "2026-11-23T13:16:56.498Z",
+      "approvedRequestHash": "17cd4683c769da2badcc720d67926da3398a2be69ff54c217a766273869991d4",
+      "estimatedSeconds": 365,
+      "estimatedInputTokens": 5434,
+      "receipt": "assets/audio/synthesis-batches/l28.json",
+      "completedAt": "2026-11-23T13:21:28.972Z"
     }
   ],
   "calibration": {

@@ -55,6 +55,8 @@ Els lots de text pla poden incorporar una esmena del mateix repartiment al costa
 
 El 23/11 s’han rebut L21, L22, L23, L25 i L26: catorze comprensions i dues proves d’esmena, amb cinc peticions seqüencials. [Compara S029](https://sentit.ortogra.fi/proves/correccions-l25.html) · [Compara S082](https://sentit.ortogra.fi/proves/correccions-l26.html). Els WAV retornats amb metadades intercalades s’han recuperat localment sense repetir la síntesi ni canviar les mostres de parla.
 
+La segona tanda del mateix dia afegeix L27 i L28: S063, S064, S065, S068D i S071D, més proves de S007, S024 i S069; set peticions registrades en total. [Comparacions de Biel](https://sentit.ortogra.fi/proves/correccions-l27.html) · [Comparació de Ferran](https://sentit.ortogra.fi/proves/correccions-l28.html). El torn curt «La duies tu?» de S068D es conserva amb un avís de reconeixement incert per revisar a l’oïda; no s’ha corregit el text del reconeixedor ni validat la pronunciació automàticament.
+
 ## Catàleg, col·leccions i sintonies
 
 Els filtres mostren el nombre de comprensions de cada opció, mantenint la resta de filtres actius. També compten la cerca, la col·lecció, el mode de provisionals i la fase; les opcions de zero resultats continuen visibles. Els personatges mostren el recompte individual al costat del nom.

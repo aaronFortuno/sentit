@@ -1,0 +1,35 @@
+{
+  "batch": "L27",
+  "requestHash": "a8a1c31ecd69f92c20a41e6a739917e717f6da8007fba6592d62f5d5b553f9c0",
+  "repairs": [
+    {
+      "code": "S007",
+      "part": "invisible",
+      "text": "Llavors podem tenir aigua al voltant sense veure-la?",
+      "pronunciation": "Use the same youthful male Biel/Puck identity as in the complete recordings, never the female Laia/Leda voice. Read the question naturally. No added breaths or other vocalizations.",
+      "status": "received-awaiting-listening",
+      "originalFile": "assets/audio/repairs/l27-s007-invisible-original.mp3",
+      "candidateFile": "assets/audio/repairs/l27-s007-invisible-prova.mp3",
+      "sourceRawSha256": "75f355dc0e16071957f1057590e050e668469cc3f22f85afd37fec35c67cee27",
+      "sourceTakeId": "S007-T02",
+      "sourceTakeSha256": "9135a1b339df1a9f97f5d1701089fb5e62627f4bdb1e20df7534262082370453",
+      "batchRequestHash": "a8a1c31ecd69f92c20a41e6a739917e717f6da8007fba6592d62f5d5b553f9c0",
+      "applied": false
+    },
+    {
+      "code": "S024",
+      "part": "dubtes",
+      "text": "I el pas fins a la font! Això ho podem preguntar a la mestra. Després portem el full als altres cursos?",
+      "pronunciation": "Keep the same natural youthful male Biel/Puck voice throughout. No exaggerated high pitch on I el pas fins a la font. Keep the whole turn conversational, warm and clear.",
+      "status": "received-awaiting-listening",
+      "originalFile": "assets/audio/repairs/l27-s024-dubtes-original.mp3",
+      "candidateFile": "assets/audio/repairs/l27-s024-dubtes-prova.mp3",
+      "sourceRawSha256": "75f355dc0e16071957f1057590e050e668469cc3f22f85afd37fec35c67cee27",
+      "sourceTakeId": "S024-T01",
+      "sourceTakeSha256": "1159530cc9e6884898ca2176f65034213df656a40b46ac8933eb6942df5694cf",
+      "batchRequestHash": "a8a1c31ecd69f92c20a41e6a739917e717f6da8007fba6592d62f5d5b553f9c0",
+      "applied": false
+    }
+  ],
+  "masterChanged": false
+}

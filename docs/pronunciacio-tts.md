@@ -88,3 +88,5 @@ Les esmenes de veu esperen un lot compatible prou ple. Prioritzar comprensions c
 - **S061:** la síntesi va ometre la presentació «Comprensió oral. El curt que començava pel final.». Cos de veus validat; reposar el títol abans del muntatge. No repetir el diàleg complet ni atribuir el títol a la presa original.
 
 L’estat viu de cada prova i la seva audició consta al [seguiment de producció](seguiment-produccio.md) i a la [cua de síntesi](lots-sintesi.md).
+
+**Segona tanda del 23/11:** L27 aporta les represes de Biel/Puck de S007 (`invisible`) i S024 (`dubtes`); L28 aporta el torn inicial de Ferran/Algenib de S069 (`encarrec`). S’han mantingut les grafies canòniques «Aina» i «guix», amb les indicacions de dicció fora del text parlat. Les tres proves esperen audició i no s’han incorporat als muntatges. «La duies tu?» de S068D queda assenyalat com a torn molt breu que el reconeixement local no ha pogut confirmar; l’àudio es conserva per comprovar-lo a l’oïda.

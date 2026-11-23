@@ -316,5 +316,30 @@ export const mixedAudioResources = {
     "voices": "Biel: Puck; Elies: Algieba. Lot L26, veus rebudes i pendents d’audició.",
     "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
     "recipe": "tools/prepare-batch-voice-previews.cjs"
+  },
+  "ca-S063": {
+    "voices": "Mireia: Aoede; Biel: Puck. Lot L27, veus rebudes i pendents d’audició.",
+    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
+    "recipe": "tools/prepare-batch-voice-previews.cjs"
+  },
+  "ca-S064": {
+    "voices": "Mireia: Aoede; Biel: Puck. Lot L27, veus rebudes i pendents d’audició.",
+    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
+    "recipe": "tools/prepare-batch-voice-previews.cjs"
+  },
+  "ca-S065": {
+    "voices": "Mireia: Aoede; Biel: Puck. Lot L27, veus rebudes i pendents d’audició.",
+    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
+    "recipe": "tools/prepare-batch-voice-previews.cjs"
+  },
+  "ca-S068D": {
+    "voices": "Aina: Zephyr; Ferran: Algenib. Lot L28, veus rebudes i pendents d’audició.",
+    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
+    "recipe": "tools/prepare-batch-voice-previews.cjs"
+  },
+  "ca-S071D": {
+    "voices": "Aina: Zephyr; Ferran: Algenib. Lot L28, veus rebudes i pendents d’audició.",
+    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
+    "recipe": "tools/prepare-batch-voice-previews.cjs"
   }
 };

@@ -1,0 +1,253 @@
+{
+  "id": "L28",
+  "state": "received-and-split",
+  "requestHash": "17cd4683c769da2badcc720d67926da3398a2be69ff54c217a766273869991d4",
+  "rawSha256": "6ae444363d31d1b2527929844ef87b1519dcc48660713cdf31da09c6fb4fb61d",
+  "startedAt": "2026-11-23T13:19:38.502Z",
+  "completedAt": "2026-11-23T13:21:28.972Z",
+  "rawSeconds": 315.96,
+  "usage": {
+    "total_tokens": 9501,
+    "total_input_tokens": 1602,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 1602
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 7899,
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 7899
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 0,
+    "initial_input_tokens": 1602
+  },
+  "returnedAudioBlocks": 1,
+  "newRequests": 1,
+  "coverageCheck": {
+    "engine": "vosk-model-small-ca-0.4",
+    "matchedFraction": 0.9192782526115859,
+    "pronunciationValidated": false,
+    "uncertainTurns": [
+      {
+        "start": 21.490000000000002,
+        "end": 23.26,
+        "heard": "la dui esto ser",
+        "status": "short-turn-awaiting-listening",
+        "originalPreserved": true,
+        "block": "S068D-T01",
+        "part": "portar",
+        "text": "La duies tu?",
+        "coverage": 0.3333333333333333
+      }
+    ]
+  },
+  "parts": [
+    {
+      "id": "S068D-T01",
+      "code": "S068D",
+      "sourceRequestHash": "679fadf8cc5cb1156e3baf0303f588b5cf804dfde9c7cde0a9232dc949ca43c3",
+      "start": 0,
+      "end": 122.025,
+      "clipSha256": "ea89c6739cb6262df17eb212f3e4a2b6edda5e979f419a020b36f0df2ab4c9bc",
+      "coverage": 0.8970588235294118,
+      "status": "voices-received"
+    },
+    {
+      "id": "S071D-T01",
+      "code": "S071D",
+      "sourceRequestHash": "96d5ee06e20b3fc65d2e6b9cd70324f56fd10eb286ccb256f96d66957063ba29",
+      "start": 122.025,
+      "end": 301.215,
+      "clipSha256": "10473f9616263ae3be2d1295c367c42158a54e5cc59ab8278273789ec47c01f0",
+      "coverage": 0.9273648648648649,
+      "status": "voices-received"
+    },
+    {
+      "id": "S069-encarrec",
+      "code": "S069",
+      "sourceRequestHash": "980645b0e2d69b96b55ba4471db5af343e7fc1589307eb202f8ae93278f57be6",
+      "start": 301.215,
+      "end": 315.96,
+      "clipSha256": "0ce4f9af22c29286d8d23b3c2327aa6bebebd07a75235de101345c01e3d5ce38",
+      "coverage": 1,
+      "status": "correction-awaiting-listening"
+    }
+  ],
+  "preservesOriginals": true,
+  "voiceRetimed": false,
+  "missingParts": [],
+  "waveRecovery": {
+    "mode": "riff-c2pa-prefix-plus-pcm-v2",
+    "providerWaveSha256": "9d24c27a9672b1e17c6aea39446d39f03d237cc2ddd8ea03da32f5498edd1115",
+    "recoveredWaveSha256": "6ae444363d31d1b2527929844ef87b1519dcc48660713cdf31da09c6fb4fb61d",
+    "pcmSha256": "c4f16afeee9e733a5f261faa52a6b888a846d0f0c5f87d10d65940b296598e5c",
+    "prefixPcmBytes": 1920,
+    "trailingStreamBytes": 15395700,
+    "metadataBytes": 7655,
+    "interleavedMetadata": {
+      "count": 30,
+      "removedBytes": 231540,
+      "tags": [
+        {
+          "sourceOffset": 199708,
+          "bytes": 7718,
+          "sha256": "b3601af9518e498379a766c3b90a51e79d4f474604c56b1c179252507412cb02"
+        },
+        {
+          "sourceOffset": 852546,
+          "bytes": 7718,
+          "sha256": "acf76f0ce026a3218dc07235fc388f67b67d6cb848cd5cb65217490e2703da6c"
+        },
+        {
+          "sourceOffset": 3196904,
+          "bytes": 7718,
+          "sha256": "71ec15596d605ed47d10a3c917f6892cfc74c457080de27fc930655dc5f30d89"
+        },
+        {
+          "sourceOffset": 4041742,
+          "bytes": 7718,
+          "sha256": "69af8c4fe62f2947ee24778322f0e3816ae5acafb161fca6bbfa3d04b345eaaa"
+        },
+        {
+          "sourceOffset": 4556340,
+          "bytes": 7718,
+          "sha256": "48bb383af32630cf416e2b4f071d3adfd5d0087e1fada0e21be730fd3175add5"
+        },
+        {
+          "sourceOffset": 4569818,
+          "bytes": 7718,
+          "sha256": "5ffe1bacca5f757a6d2d48ddcdcc6b5a9ea2b9a04c15421d5ddf83010ff03934"
+        },
+        {
+          "sourceOffset": 4685056,
+          "bytes": 7718,
+          "sha256": "b1a8fd9dc11883240d7f27ab11c8d8b56235fe10db491e764c466f428e73ae70"
+        },
+        {
+          "sourceOffset": 5161254,
+          "bytes": 7718,
+          "sha256": "10cb0efe1dc373ffef69dadfe70f25d4c41e8e7a5bbb344b0214ec0dbebebc63"
+        },
+        {
+          "sourceOffset": 5190092,
+          "bytes": 7718,
+          "sha256": "d4c5c6510460699a821e92e773fba40f983dfb32bcccf202120243d88f7a4de1"
+        },
+        {
+          "sourceOffset": 5746930,
+          "bytes": 7718,
+          "sha256": "ca790f62fd2b83fd10bda051e2bc60c6fb1b6ab2dc3e184c5fc0a9ce798ebbee"
+        },
+        {
+          "sourceOffset": 5925528,
+          "bytes": 7718,
+          "sha256": "05fe72a7beaabf847175c2986830f6aeefb2974899ba881ed39155c6de9f1d4f"
+        },
+        {
+          "sourceOffset": 5944766,
+          "bytes": 7718,
+          "sha256": "36458d3079aadac7b460bc97720c13c8dab5bcf2d5a5f152ebce3613b247ea1b"
+        },
+        {
+          "sourceOffset": 6148324,
+          "bytes": 7718,
+          "sha256": "31b2b0cfdfb895dfe86b4a747a62c2e09767bbab67ce79aceab54d428dae432f"
+        },
+        {
+          "sourceOffset": 6250122,
+          "bytes": 7718,
+          "sha256": "05150a3480f3ba4fabee9c02a752988850e15529a36dc298a7fe94ca1efbda54"
+        },
+        {
+          "sourceOffset": 7283120,
+          "bytes": 7718,
+          "sha256": "20b58a693d00298fc2b1efd2261f00020fb34fff6f5f28b9019c2cccf4c0972e"
+        },
+        {
+          "sourceOffset": 8026198,
+          "bytes": 7718,
+          "sha256": "c9fcb8cfe80d4aa0a74702820b853de3303981758a0429a90bc0cb9b6f143c35"
+        },
+        {
+          "sourceOffset": 8035836,
+          "bytes": 7718,
+          "sha256": "cce8e94e54eb4b8bd515b26672423e532a9d86da43dc66cf33985b0ec4b0a1dc"
+        },
+        {
+          "sourceOffset": 8705954,
+          "bytes": 7718,
+          "sha256": "e72b13ed756ba614bd5026154950f718a688592da49b21187137220b52586354"
+        },
+        {
+          "sourceOffset": 8727112,
+          "bytes": 7718,
+          "sha256": "2739018373aea50ca66f7aff750909a1da239f2cc3a8ba9f7edfa5cb5111b085"
+        },
+        {
+          "sourceOffset": 10766190,
+          "bytes": 7718,
+          "sha256": "daca95d898ab887e5b8b867e158be5317cb043b25183a255a83a57c5689b22bb"
+        },
+        {
+          "sourceOffset": 10789268,
+          "bytes": 7718,
+          "sha256": "fd17908c7a7e33595defae78874e2f641442d0b01b9531606f1ddd229e7c910e"
+        },
+        {
+          "sourceOffset": 11568826,
+          "bytes": 7718,
+          "sha256": "e65ae17b3ce9a977bbc779fe319e38a1eaf4453e8c7daf57dc5aed8ddbe600ca"
+        },
+        {
+          "sourceOffset": 12173664,
+          "bytes": 7718,
+          "sha256": "d52ab4e5433d0fe850c267c37d4af41a852895b015d42b306f8e753b91b57cdc"
+        },
+        {
+          "sourceOffset": 13396742,
+          "bytes": 7718,
+          "sha256": "7a2ca47ab91a015536c625eed6fe4b0b152d465dbebae12ae815d0bfc7e67d4a"
+        },
+        {
+          "sourceOffset": 14525740,
+          "bytes": 7718,
+          "sha256": "8bddcb028e75349697fd4b41c4563977131b69869d871ae54d23de19719b8be5"
+        },
+        {
+          "sourceOffset": 14673618,
+          "bytes": 7718,
+          "sha256": "d3d208657161b7a6702df23eef2fc89638b3f4655b2cd2c5bff6400fd6aa92ed"
+        },
+        {
+          "sourceOffset": 14708216,
+          "bytes": 7718,
+          "sha256": "5fdb4b9621ee76e66cb86b343e976ecaf4589e701f8221f7dfcec2c3ba31e8ca"
+        },
+        {
+          "sourceOffset": 14994334,
+          "bytes": 7718,
+          "sha256": "cc3282bdc30d1f6ca0e6c7cfe3cce831d673f3dab5068bfc18c62795441a9c92"
+        },
+        {
+          "sourceOffset": 15050052,
+          "bytes": 7718,
+          "sha256": "e032b08f62ebf82804484994ccd2bb3dee9ec7a7b333d63783f80a6491b692b9"
+        },
+        {
+          "sourceOffset": 15259370,
+          "bytes": 7718,
+          "sha256": "c72c47df40261616f5c0df2222621cc986d6b6cfd00fe63a0b0b92de1be0ff02"
+        }
+      ]
+    },
+    "seconds": 315.96,
+    "allPcmSamplesPreserved": true,
+    "voiceRetimed": false
+  }
+}

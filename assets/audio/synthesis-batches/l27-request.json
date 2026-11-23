@@ -1,0 +1,393 @@
+{
+  "model": "gemini-3.8-flash-tts",
+  "input": [
+    {
+      "type": "user_input",
+      "content": [
+        {
+          "type": "text",
+          "text": "Comprensió oral. El pont de paper es doblega. \n\nBon dia, Biel. Com va el pont de paper? Des de l’altra taula he vist que recollíeu monedes de terra. Ja heu fet una primera prova?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Mireia acompanya una activitat d’aula amb to proper, mentre Biel observa, prova, s’avança o es corregeix amb llenguatge quotidià. Pauses breus de feina i torns àgils; cap tercera veu entenedora. La dificultat és seguir les relacions entre les aportacions, no un registre administratiu. No llegir acotacions ni afegir morals. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the same two character voices throughout all recordings. Instructions are not spoken."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí. Hem posat el full entre aquests dos llibres i hi hem deixat monedes al mig. Amb les dues primeres aguantava. Quan hi hem posat la tercera, el paper s’ha enfonsat i han caigut totes. Aquesta se’ns ha ficat sota la cadira.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Mireia acompanya una activitat d’aula amb to proper, mentre Biel observa, prova, s’avança o es corregeix amb llenguatge quotidià. Pauses breus de feina i torns àgils; cap tercera veu entenedora. La dificultat és seguir les relacions entre les aportacions, no un registre administratiu. No llegir acotacions ni afegir morals. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ara ja la tens. Tornem a posar el full entre els llibres, a veure com queda. Ah, els heu separat més per poder passar-hi la mà per sota. A la primera prova eren tan lluny?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "No, eren una mica més junts. Els he mogut quan buscava la moneda. Espera, al full de sota hi hem dibuixat on començava cada llibre. Els torno a posar damunt de les ratlles.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Això ens servirà. Ara podem provar una idea amb un altre full igual: el pleguem com un acordió, amb plecs que vagin d’un llibre a l’altre. Deixarem els llibres on eren i farem servir les mateixes monedes.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "El paper plegat queda més estret. L’hem de posar al mig, oi? Vaig deixant-hi les monedes... Una, dues, tres. Aquest cop encara aguanta! Hi poso les altres de cop?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Posa-les d’una en una, al mateix lloc. Així veurem en quin moment comença a baixar. Jo miro de costat mentre tu les deixes. Quan baixi molt, parem abans que rodolin fins a l’altra taula.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Amb la quarta encara es queda amunt, però amb la cinquena ja baixa una mica. Para, que se’m mou! Trec aquesta última. Ara torna a quedar dret.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Deixa aquestes quatre a sobre un moment. Cridem l’altra parella perquè vegi com l’heu plegat. Després els tocarà fer la prova al seu pont, que encara el tenen llis.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Els crido jo. Abans deixo la moneda que tinc a la mà en aquest plat. Com torni a rodolar sota la cadira, em passaré tot el matí ajupit!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. Un anunci que va massa de pressa. \n\nBon dia, Biel. L’anunci del taller ja el teniu escrit? El penjarem al web de l’escola perquè les famílies sàpiguen quan poden venir. Vols provar de llegir-lo abans de gravar?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Mireia acompanya una activitat d’aula amb to proper, mentre Biel observa, prova, s’avança o es corregeix amb llenguatge quotidià. Pauses breus de feina i torns àgils; cap tercera veu entenedora. La dificultat és seguir les relacions entre les aportacions, no un registre administratiu. No llegir acotacions ni afegir morals. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the same two character voices throughout all recordings. Instructions are not spoken."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí. Dissabte a les onze farem un taller de titelles a la sala gran, cal portar un mitjó vell, un tros de roba i ganes de passar-ho bé, entrareu pel carrer de darrere perquè el pati estarà ocupat... Uf, m’he quedat sense aire.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Mireia acompanya una activitat d’aula amb to proper, mentre Biel observa, prova, s’avança o es corregeix amb llenguatge quotidià. Pauses breus de feina i torns àgils; cap tercera veu entenedora. La dificultat és seguir les relacions entre les aportacions, no un registre administratiu. No llegir acotacions ni afegir morals. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Jo he retingut això del mitjó. Quina hora has dit? Estava escoltant sense mirar el paper i se m’ha barrejat amb la resta.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "A les onze. Aquí ho tinc tot en una frase. Vaig afegir l’entrada pel darrere al final, perquè ens ho han dit avui. Potser ho puc separar. Primer dic el dia, l’hora i el lloc.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "L’entrada també ens interessa que es recordi. Si una família va cap al pati, haurà de tornar a sortir i fer la volta. Podríem explicar per on s’entra després de dir on és el taller.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "I les coses que han de portar les deixo per al final. El mitjó i la roba. Això de les ganes no cal apuntar-s’ho! Però la frase queda més curta si ho trec.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Prova-la una altra vegada. Jo tornaré a deixar el paper de cara avall. Fes una pausa petita quan passis del lloc als materials, que em doni temps de quedar-me amb cada cosa.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Aquest dissabte, a les onze, farem un taller de titelles a la sala gran de l’escola. Entreu per la porta del carrer de darrere: el pati estarà ocupat. Porteu un mitjó vell i un tros de roba.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ara em quedo amb dissabte a les onze, la sala gran i la porta del darrere. I tinc temps de pensar què he de buscar a casa. El gravem així?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí. Però espera que tregui el full d’aquí davant del micro, que l’estic fregant tota l’estona. Te’l deixo al costat i torno a començar.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. La mesura que canviava de lloc.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Mireia acompanya una activitat d’aula amb to proper, mentre Biel observa, prova, s’avança o es corregeix amb llenguatge quotidià. Pauses breus de feina i torns àgils; cap tercera veu entenedora. La dificultat és seguir les relacions entre les aportacions, no un registre administratiu. No llegir acotacions ni afegir morals. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the same two character voices throughout all recordings. Instructions are not spoken."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Mireia, pots venir un moment? Estem mesurant aquesta taula per fer-ne un dibuix, però cada vegada ens surt una cosa. El primer cop era més llarga que ara. I la taula no s’ha mogut!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Mireia acompanya una activitat d’aula amb to proper, mentre Biel observa, prova, s’avança o es corregeix amb llenguatge quotidià. Pauses breus de feina i torns àgils; cap tercera veu entenedora. La dificultat és seguir les relacions entre les aportacions, no un registre administratiu. No llegir acotacions ni afegir morals. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Vinc. En lloc de tornar-m’ho a dir amb números, posa-hi el regle com ho heu fet. Comenceu per aquest extrem de la taula?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí, enganxo la punta del regle aquí i vaig fent. Quan s’acaba, poso el dit al costat, moc el regle i continuo. Ho he fet tres vegades, però sempre se m’escapa una mica el dit. Abans un company m’aguantava l’altre extrem. Ara està fent el dibuix a la llibreta i, quan he continuat tot sol, el regle m’ha relliscat dues vegades.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Mira on hi ha el zero del regle. Entre el zero i la punta encara queda un tros de plàstic. Alineem el zero amb la vora de la taula; jo t’aguanto el quadern perquè no ens molesti.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ah, jo hi posava la punta sencera! Aquest tros també l’estava comptant com si fos del regle. I després, quan el canviava de lloc, ho tornava a fer.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Per continuar, posa una tira petita de cinta de paper al costat de l’última ratlla. Així pots treure la mà i moure el regle amb calma. Després fas coincidir el zero amb aquella marca.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "La cinta la poso damunt del regle? Si l’hi enganxo, quan el mogui me l’enduré!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "A la taula, al costat. La ratlla petita que hi dibuixis s’hi quedarà mentre mous el regle. Fem aquesta primera amb les dues mans lliures, i després et deixo continuar.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ara veig per què ens sortia diferent. El zero començava més endins i, a sobre, el dit es movia. Tornaré a mesurar el mateix costat. El dibuix el deixo aquí, que si començo a esborrar-lo ara em tornaré a perdre.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Jo aguanto aquest extrem i tu poses la primera marca. Quan l’hagis feta, ja pots treure el dit. Vigila el got dels llapis, que és just on vols acostar el regle.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Llavors podem tenir aigua al voltant sense veure-la?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan. Preserve the exact recurring character identity and natural conversational pace. Read the complete supplied turn once, without title, labels, stage directions, breathing noises, music or effects. Pronunciation directions are not spoken. Use the same youthful male Biel/Puck identity as in the complete recordings, never the female Laia/Leda voice. Read the question naturally. No added breaths or other vocalizations. This is a separate repair paragraph with no title. Keep the same character voice as in the complete recordings. Read every supplied word once, including the first sentence. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition.",
+              "speaker": "Voice2"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "I el pas fins a la font! Això ho podem preguntar a la mestra. Després portem el full als altres cursos?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan. Preserve the exact recurring character identity and natural conversational pace. Read the complete supplied turn once, without title, labels, stage directions, breathing noises, music or effects. Pronunciation directions are not spoken. Keep the same natural youthful male Biel/Puck voice throughout. No exaggerated high pitch on I el pas fins a la font. Keep the whole turn conversational, warm and clear. This is a separate repair paragraph with no title. Keep the same character voice as in the complete recordings. Read every supplied word once, including the first sentence. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition.",
+              "speaker": "Voice2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "response_format": {
+    "type": "audio",
+    "mime_type": "audio/wav",
+    "sample_rate": 24000
+  },
+  "generation_config": {
+    "speech_config": {
+      "speakers": [
+        {
+          "speaker": "Voice1",
+          "voice": "Aoede"
+        },
+        {
+          "speaker": "Voice2",
+          "voice": "Puck"
+        }
+      ]
+    }
+  },
+  "background": true
+}

@@ -57,9 +57,9 @@ Mireia i Biel · Aoede + Puck. Les lectures són independents; no cal haver-ne e
 
 | Codi | Títol | Curs · dificultat | Tipologia | Durada prevista | Preguntes | Estat |
 | --- | --- | --- | --- | --- | ---: | --- |
-| [ca-S063](https://sentit.ortogra.fi/#lectura=ca-S063) | El pont de paper es doblega | 5è · Accessible | Explicació | Prevista 2:00–2:30 | 8 | Guió validat |
-| [ca-S064](https://sentit.ortogra.fi/#lectura=ca-S064) | Un anunci que va massa de pressa | 5è · Intermèdia | Instruccions | Prevista 2:00–2:30 | 8 | Guió validat |
-| [ca-S065](https://sentit.ortogra.fi/#lectura=ca-S065) | La mesura que canviava de lloc | 6è · Accessible | Explicació | Prevista 2:05–2:30 | 9 | Guió validat |
+| [ca-S063](https://sentit.ortogra.fi/#lectura=ca-S063) | El pont de paper es doblega | 5è · Accessible | Explicació | Prevista 2:00–2:30 | 8 | Veus rebudes |
+| [ca-S064](https://sentit.ortogra.fi/#lectura=ca-S064) | Un anunci que va massa de pressa | 5è · Intermèdia | Instruccions | Prevista 2:00–2:30 | 8 | Veus rebudes |
+| [ca-S065](https://sentit.ortogra.fi/#lectura=ca-S065) | La mesura que canviava de lloc | 6è · Accessible | Explicació | Prevista 2:05–2:30 | 9 | Veus rebudes |
 | [ca-S066](https://sentit.ortogra.fi/#lectura=ca-S066) | El mapa de sons del passadís | 6è · Intermèdia | Instruccions | Prevista 3:10–3:45 | 8 | Veus rebudes · curs i dificultat per valorar després d’escoltar |
 | [ca-S067](https://sentit.ortogra.fi/#lectura=ca-S067) | La mateixa pregunta? | 1r d’ESO · Intermèdia | Explicació | Prevista 3:10–3:45 | 9 | Veus rebudes |
 

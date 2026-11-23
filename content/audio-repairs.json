@@ -241,22 +241,25 @@
     "activity": "ca-S007",
     "status": "approved-for-correction",
     "approvedAt": "2026-11-23",
-    "approvalSource": "El docent identifica exactament el torn del Biel amb veu de Laia i demana revisar-lo; només es prepara la cua, sense cap petició nova.",
-    "sourceRequestHash": "3cac570afbf056efc1591679d6c521985c5dfdf1323d6b58164414cf2f1711d7",
+    "approvalSource": "Docent: el torn Llavors podem tenir... sona amb veu de Laia; demana esmenar-lo amb Biel.",
+    "sourceRequestHash": "ef2b891a48e5c2823d4527ce9a4c0fc93ae1951ecaad5c7ce07a30ac584a1a66",
     "sourceRawSha256": "75f355dc0e16071957f1057590e050e668469cc3f22f85afd37fec35c67cee27",
+    "sourceTakeId": "S007-T02",
+    "sourceTakeSha256": "9135a1b339df1a9f97f5d1701089fb5e62627f4bdb1e20df7534262082370453",
     "voices": {
       "Biel": "Puck"
     },
-    "direction": "Central Catalan, youthful male Biel voice Puck, consistent with the existing character. Read only the exact spoken text. No extra words, breathing noises, stage directions or sound effects.",
+    "direction": "Natural Central Catalan. Preserve the exact recurring character identity and natural conversational pace. Read the complete supplied turn once, without title, labels, stage directions, breathing noises, music or effects. Pronunciation directions are not spoken.",
     "repairs": [
       {
         "part": "invisible",
         "speaker": "Biel",
         "text": "Llavors podem tenir aigua al voltant sense veure-la?",
-        "reason": "Teacher hears Laia instead of Biel in the current raw take."
+        "pronunciation": "Use the same youthful male Biel/Puck identity as in the complete recordings, never the female Laia/Leda voice. Read the question naturally. No added breaths or other vocalizations."
       }
     ],
-    "sourceTakeSha256": "9135a1b339df1a9f97f5d1701089fb5e62627f4bdb1e20df7534262082370453"
+    "application": "Teacher compares the whole new turn with the original before any splice or montage. No automatic approval, pitch change or master replacement.",
+    "approvedRequestHash": "a761f1d06eb9457e022032130da4cb163f53160442b8ed85131d5a955cbedb8f"
   },
   "S082": {
     "activity": "ca-S082",
@@ -311,5 +314,53 @@
     ],
     "application": "Compare both complete interventions with the original. Keep the natural pauses in Espera... així...; no digital pitch correction or automatic master change.",
     "approvedRequestHash": "2b64cf847a2a44ab09aac36118350147868cc8e881e9ea1e66abe7d8e5d58882"
+  },
+  "S024": {
+    "activity": "ca-S024",
+    "status": "approved-for-correction",
+    "approvedAt": "2026-11-23",
+    "approvalSource": "Docent: el darrer torn de Biel és extremadament agut i antinatural; demana refer la seva última intervenció sencera.",
+    "sourceRequestHash": "ef2b891a48e5c2823d4527ce9a4c0fc93ae1951ecaad5c7ce07a30ac584a1a66",
+    "sourceRawSha256": "75f355dc0e16071957f1057590e050e668469cc3f22f85afd37fec35c67cee27",
+    "sourceTakeId": "S024-T01",
+    "sourceTakeSha256": "1159530cc9e6884898ca2176f65034213df656a40b46ac8933eb6942df5694cf",
+    "voices": {
+      "Biel": "Puck"
+    },
+    "direction": "Natural Central Catalan. Preserve the exact recurring character identity and natural conversational pace. Read the complete supplied turn once, without title, labels, stage directions, breathing noises, music or effects. Pronunciation directions are not spoken.",
+    "repairs": [
+      {
+        "part": "dubtes",
+        "speaker": "Biel",
+        "text": "I el pas fins a la font! Això ho podem preguntar a la mestra. Després portem el full als altres cursos?",
+        "pronunciation": "Keep the same natural youthful male Biel/Puck voice throughout. No exaggerated high pitch on I el pas fins a la font. Keep the whole turn conversational, warm and clear."
+      }
+    ],
+    "application": "Teacher compares the whole new turn with the original before any splice or montage. No automatic approval, pitch change or master replacement.",
+    "approvedRequestHash": "0662cbac4cea7a30b8fcfe2831bb814b5af100e3298ede18eb241e58194b40e9"
+  },
+  "S069": {
+    "activity": "ca-S069",
+    "status": "approved-for-correction",
+    "approvedAt": "2026-11-23",
+    "approvalSource": "Docent: regenerar la primera intervenció de Ferran per corregir Eina/Aina i guiks/guix; resta de les veus correcta.",
+    "sourceRequestHash": "3614318c8fb54c97021a43d7a5ac29a9c5f2642f00894c7d7e5ae616d6adc099",
+    "sourceRawSha256": "43a2e90b48ca2359bb188118537c41567673d998ef51374d5170f00ca0c55937",
+    "sourceTakeId": "S069-T01",
+    "sourceTakeSha256": "633fd6af92165442628944cb8ad45e889218b2bbbf4d4ceca34f47f390421a14",
+    "voices": {
+      "Ferran": "Algenib"
+    },
+    "direction": "Natural Central Catalan. Preserve the exact recurring character identity and natural conversational pace. Read the complete supplied turn once, without title, labels, stage directions, breathing noises, music or effects. Pronunciation directions are not spoken.",
+    "repairs": [
+      {
+        "part": "encarrec",
+        "speaker": "Ferran",
+        "text": "Aina, una vegada em van deixar portar el marcador d’un partit del barri. Jo encara era petit per jugar amb els grans, però em van donar una pissarra i un guix. A dalt hi havia escrit el nom dels dos equips: carrer Nou a l’esquerra i carrer Major a la dreta.",
+        "pronunciation": "Aina: keep the Catalan AI diphthong, not Eina. Guix ends with the soft SH consonant heard in Catalan peix, never a K or KS sound. Keep the I vowel. Read only the supplied sentence, not these instructions."
+      }
+    ],
+    "application": "Teacher compares the whole new turn with the original before any splice or montage. No automatic approval, pitch change or master replacement.",
+    "approvedRequestHash": "980645b0e2d69b96b55ba4471db5af343e7fc1589307eb202f8ae93278f57be6"
   }
 }

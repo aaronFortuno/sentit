@@ -874,9 +874,28 @@ export const productionProgress = {
       "part": "invisible",
       "speaker": "Biel",
       "text": "Llavors podem tenir aigua al voltant sense veure-la?",
-      "status": "awaiting-compatible-batch",
-      "sourceTakeSha256": "9135a1b339df1a9f97f5d1701089fb5e62627f4bdb1e20df7534262082370453"
-    }
+      "status": "received-awaiting-listening",
+      "sourceTakeSha256": "9135a1b339df1a9f97f5d1701089fb5e62627f4bdb1e20df7534262082370453",
+      "voice": "Puck",
+      "batch": "L27"
+    },
+    "repairComparison": "./proves/correccions-l27.html#S007-invisible",
+    "receivedRepairs": [
+      {
+        "code": "S007",
+        "part": "invisible",
+        "text": "Llavors podem tenir aigua al voltant sense veure-la?",
+        "pronunciation": "Use the same youthful male Biel/Puck identity as in the complete recordings, never the female Laia/Leda voice. Read the question naturally. No added breaths or other vocalizations.",
+        "status": "received-awaiting-listening",
+        "originalFile": "assets/audio/repairs/l27-s007-invisible-original.mp3",
+        "candidateFile": "assets/audio/repairs/l27-s007-invisible-prova.mp3",
+        "sourceRawSha256": "75f355dc0e16071957f1057590e050e668469cc3f22f85afd37fec35c67cee27",
+        "sourceTakeId": "S007-T02",
+        "sourceTakeSha256": "9135a1b339df1a9f97f5d1701089fb5e62627f4bdb1e20df7534262082370453",
+        "batchRequestHash": "a8a1c31ecd69f92c20a41e6a739917e717f6da8007fba6592d62f5d5b553f9c0",
+        "applied": false
+      }
+    ]
   },
   "ca-S024": {
     "state": "audio-corrections-pending",
@@ -920,7 +939,9 @@ export const productionProgress = {
       "speaker": "Biel",
       "text": "I el pas fins a la font! Això ho podem preguntar a la mestra. Després portem el full als altres cursos?",
       "sourceTakeSha256": "1159530cc9e6884898ca2176f65034213df656a40b46ac8933eb6942df5694cf",
-      "status": "awaiting-compatible-batch"
+      "status": "received-awaiting-listening",
+      "voice": "Puck",
+      "batch": "L27"
     },
     "reviewUpdate": {
       "audio": "./assets/audio/s024-classroom-v2.mp3",
@@ -929,7 +950,24 @@ export const productionProgress = {
         "ca": "Retirats els bufecs previs i les notes finals; ambient continu d’aula. Últim torn de Biel pendent d’esmena de veu.",
         "es": "Retirados los soplidos iniciales y las notas finales; ambiente continuo de aula. Último turno de Biel pendiente de corrección de voz."
       }
-    }
+    },
+    "repairComparison": "./proves/correccions-l27.html#S024-dubtes",
+    "receivedRepairs": [
+      {
+        "code": "S024",
+        "part": "dubtes",
+        "text": "I el pas fins a la font! Això ho podem preguntar a la mestra. Després portem el full als altres cursos?",
+        "pronunciation": "Keep the same natural youthful male Biel/Puck voice throughout. No exaggerated high pitch on I el pas fins a la font. Keep the whole turn conversational, warm and clear.",
+        "status": "received-awaiting-listening",
+        "originalFile": "assets/audio/repairs/l27-s024-dubtes-original.mp3",
+        "candidateFile": "assets/audio/repairs/l27-s024-dubtes-prova.mp3",
+        "sourceRawSha256": "75f355dc0e16071957f1057590e050e668469cc3f22f85afd37fec35c67cee27",
+        "sourceTakeId": "S024-T01",
+        "sourceTakeSha256": "1159530cc9e6884898ca2176f65034213df656a40b46ac8933eb6942df5694cf",
+        "batchRequestHash": "a8a1c31ecd69f92c20a41e6a739917e717f6da8007fba6592d62f5d5b553f9c0",
+        "applied": false
+      }
+    ]
   },
   "ca-S017": {
     "state": "audio-corrections-pending",
@@ -2700,9 +2738,28 @@ export const productionProgress = {
       "speaker": "Ferran",
       "text": "Aina, una vegada em van deixar portar el marcador d’un partit del barri. Jo encara era petit per jugar amb els grans, però em van donar una pissarra i un guix. A dalt hi havia escrit el nom dels dos equips: carrer Nou a l’esquerra i carrer Major a la dreta.",
       "sourceTakeSha256": "633fd6af92165442628944cb8ad45e889218b2bbbf4d4ceca34f47f390421a14",
-      "status": "approved-awaiting-compatible-batch",
-      "pronunciation": "Aina: keep the Catalan AI diphthong, not Eina. Guix ends with the soft SH consonant heard in Catalan peix, never a K or KS sound. Keep the I vowel. Read only the supplied sentence, not these instructions."
-    }
+      "status": "received-awaiting-listening",
+      "pronunciation": "Aina: keep the Catalan AI diphthong, not Eina. Guix ends with the soft SH consonant heard in Catalan peix, never a K or KS sound. Keep the I vowel. Read only the supplied sentence, not these instructions.",
+      "voice": "Algenib",
+      "batch": "L28"
+    },
+    "repairComparison": "./proves/correccions-l28.html#S069-encarrec",
+    "receivedRepairs": [
+      {
+        "code": "S069",
+        "part": "encarrec",
+        "text": "Aina, una vegada em van deixar portar el marcador d’un partit del barri. Jo encara era petit per jugar amb els grans, però em van donar una pissarra i un guix. A dalt hi havia escrit el nom dels dos equips: carrer Nou a l’esquerra i carrer Major a la dreta.",
+        "pronunciation": "Aina: keep the Catalan AI diphthong, not Eina. Guix ends with the soft SH consonant heard in Catalan peix, never a K or KS sound. Keep the I vowel. Read only the supplied sentence, not these instructions.",
+        "status": "received-awaiting-listening",
+        "originalFile": "assets/audio/repairs/l28-s069-encarrec-original.mp3",
+        "candidateFile": "assets/audio/repairs/l28-s069-encarrec-prova.mp3",
+        "sourceRawSha256": "43a2e90b48ca2359bb188118537c41567673d998ef51374d5170f00ca0c55937",
+        "sourceTakeId": "S069-T01",
+        "sourceTakeSha256": "633fd6af92165442628944cb8ad45e889218b2bbbf4d4ceca34f47f390421a14",
+        "batchRequestHash": "17cd4683c769da2badcc720d67926da3398a2be69ff54c217a766273869991d4",
+        "applied": false
+      }
+    ]
   },
   "ca-S075": {
     "state": "montage-awaiting-listening",
@@ -3358,13 +3415,28 @@ export const productionProgress = {
     "voicePreviewFile": "./assets/audio/s067-voices-review-v1.mp3"
   },
   "ca-S063": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-23T09:49:01.701Z",
     "editorialFingerprint": "03499ba64c42e15d3b3fdee23e0858ea73e8eaac1b268547d9bae457edb049ca",
     "plannedNewRequests": 1,
     "listeningApproval": false,
     "confirmation": "S063 validat per pujar a síntesi de veus",
-    "reason": "Validació docent explícita del guió, veus i escaleta. Preparar en un lot compatible abans de qualsevol enviament."
+    "reason": "Validació docent explícita del guió, veus i escaleta. Preparar en un lot compatible abans de qualsevol enviament.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S063-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L27"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-23T13:19:33.550Z",
+    "voicePreview": "./proves/veus-rebudes.html#S063",
+    "voicePreviewFile": "./assets/audio/s063-voices-review-v1.mp3"
   },
   "ca-S070": {
     "state": "voices-received",
@@ -3498,13 +3570,28 @@ export const productionProgress = {
     "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar."
   },
   "ca-S065": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-23",
     "editorialFingerprint": "da168a5787dd9e54db87879bc6a3ac0f349d2f4d841cb7e83e9cb1755e460d3c",
     "plannedNewRequests": 1,
     "listeningApproval": false,
     "confirmation": "S065 validat per síntesi de veus",
-    "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar."
+    "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S065-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L27"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-23T13:19:33.550Z",
+    "voicePreview": "./proves/veus-rebudes.html#S065",
+    "voicePreviewFile": "./assets/audio/s065-voices-review-v1.mp3"
   },
   "ca-S068": {
     "state": "voices-received",
@@ -3645,13 +3732,28 @@ export const productionProgress = {
     "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar."
   },
   "ca-S071D": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-23",
     "editorialFingerprint": "fa09daa8a2ff1fcebc13bf333a169fc83e75325463128ee3e86c31091c345642",
     "plannedNewRequests": 1,
     "listeningApproval": false,
     "confirmation": "S071D validat per síntesi de veus",
-    "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar."
+    "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S071D-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L28"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-23T13:21:28.972Z",
+    "voicePreview": "./proves/veus-rebudes.html#S071D",
+    "voicePreviewFile": "./assets/audio/s071d-voices-review-v1.mp3"
   },
   "ca-S053": {
     "state": "voices-received",
@@ -3678,21 +3780,71 @@ export const productionProgress = {
     "voicePreviewFile": "./assets/audio/s053-voices-review-v1.mp3"
   },
   "ca-S064": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-23",
     "editorialFingerprint": "b5a8de32d7d20940deeb11c31963acdf12abe9b3fcd4059d8beb139b3b9bfc99",
     "plannedNewRequests": 1,
     "listeningApproval": false,
     "confirmation": "S064 validat per síntesi de veus",
-    "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar."
+    "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S064-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L27"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-23T13:19:33.550Z",
+    "voicePreview": "./proves/veus-rebudes.html#S064",
+    "voicePreviewFile": "./assets/audio/s064-voices-review-v1.mp3"
   },
   "ca-S068D": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-23",
     "editorialFingerprint": "6d08c90c36cdc0f629a93b108861c1d5d01948277de17215fd5405282a7ca4a4",
     "plannedNewRequests": 1,
     "listeningApproval": false,
     "confirmation": "S068D validat per síntesi de veus",
-    "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar."
+    "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar.",
+    "uncertainTurns": [
+      {
+        "start": 21.490000000000002,
+        "end": 23.26,
+        "heard": "la dui esto ser",
+        "status": "short-turn-awaiting-listening",
+        "originalPreserved": true,
+        "block": "S068D-T01",
+        "part": "portar",
+        "text": "La duies tu?",
+        "coverage": 0.3333333333333333
+      }
+    ],
+    "receivedTakes": {
+      "received": [
+        "S068D-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L28"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-23T13:21:28.972Z",
+    "voicePreview": "./proves/veus-rebudes.html#S068D",
+    "voicePreviewFile": "./assets/audio/s068d-voices-review-v1.mp3",
+    "voiceReviewUpdate": {
+      "file": "./assets/audio/s068d-voices-review-v1.mp3",
+      "at": "2026-11-23",
+      "summary": {
+        "ca": "Veus noves per revisar. Comprova especialment «La duies tu?», cap al segon 21: és un torn curt conservat que el reconeixement local no ha pogut confirmar. Encara no hi ha muntatge.",
+        "es": "Voces nuevas para revisar. Comprueba especialmente «La duies tu?», hacia el segundo 21: es un turno breve conservado que el reconocimiento local no ha podido confirmar. Todavía no hay montaje."
+      }
+    }
   }
 };

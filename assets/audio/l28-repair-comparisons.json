@@ -1,0 +1,21 @@
+{
+  "batch": "L28",
+  "requestHash": "17cd4683c769da2badcc720d67926da3398a2be69ff54c217a766273869991d4",
+  "repairs": [
+    {
+      "code": "S069",
+      "part": "encarrec",
+      "text": "Aina, una vegada em van deixar portar el marcador d’un partit del barri. Jo encara era petit per jugar amb els grans, però em van donar una pissarra i un guix. A dalt hi havia escrit el nom dels dos equips: carrer Nou a l’esquerra i carrer Major a la dreta.",
+      "pronunciation": "Aina: keep the Catalan AI diphthong, not Eina. Guix ends with the soft SH consonant heard in Catalan peix, never a K or KS sound. Keep the I vowel. Read only the supplied sentence, not these instructions.",
+      "status": "received-awaiting-listening",
+      "originalFile": "assets/audio/repairs/l28-s069-encarrec-original.mp3",
+      "candidateFile": "assets/audio/repairs/l28-s069-encarrec-prova.mp3",
+      "sourceRawSha256": "43a2e90b48ca2359bb188118537c41567673d998ef51374d5170f00ca0c55937",
+      "sourceTakeId": "S069-T01",
+      "sourceTakeSha256": "633fd6af92165442628944cb8ad45e889218b2bbbf4d4ceca34f47f390421a14",
+      "batchRequestHash": "17cd4683c769da2badcc720d67926da3398a2be69ff54c217a766273869991d4",
+      "applied": false
+    }
+  ],
+  "masterChanged": false
+}

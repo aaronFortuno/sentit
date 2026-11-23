@@ -1,5 +1,12 @@
 # Canvis
 
+## 0.1.88 · 23 de novembre de 2026
+
+- Dos lots complets addicionals, L27 i L28, amb cinc comprensions per revisar les veus: S063, S064, S065, S068D i S071D. Previsions de 6:08 i 6:05 completades amb esmenes compatibles, sense allargar els guions ni afegir marques de pausa parlades.
+- Proves noves de S007 i S024 amb Biel/Puck i de la primera intervenció de S069 amb Ferran/Algenib per corregir «Aina» i «guix». Comparacions amb les preses originals; cap esmena aplicada ni muntatge nou sense audició docent.
+- Set peticions registrades en el dia de quota, sense reintents de síntesi. Respostes i PCM originals conservats; metadades intercalades retirades localment sense perdre mostres de parla.
+- Seguiment, cua, rebuts i crèdits actualitzats. Les cinc veus queden disponibles des de les seves fitxes i les esmenes, al botó «Escolta les esmenes».
+
 ## 0.1.87 · 23 de novembre de 2026
 
 - Publicació definitiva de S021, S037 i S043, amb els muntatges que el docent ha validat, conservats sense canvis de veu ni de so.
