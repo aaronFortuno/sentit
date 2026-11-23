@@ -167,6 +167,11 @@ export const mixedAudioResources = {
     "sounds": "Base original «Cadires sota les estrelles» (MIT), molt baixa durant la narració, amb pujada i fosa final. Dragging chair on concrete floor · funkysandwich (CC0 1.0), molt baix sota la conversa.",
     "recipe": "tools/remove-s045-opening.cjs"
   },
+  "ca-S045D": {
+    "voices": "Aina: Zephyr; Ferran: Algenib. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "sounds": "Base original «Cadires sota les estrelles» (MIT), molt baixa durant la narració, amb pujada i fosa final.",
+    "recipe": "tools/render-mixed-take.cjs"
+  },
   "ca-S046": {
     "voices": "Ferran: Algenib. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "Base original «Una butxaca amb farina» (MIT), molt baixa durant la narració, amb pujada i fosa final.",
@@ -227,6 +232,21 @@ export const mixedAudioResources = {
     "sounds": "classroom students whispering +presence · kyles (CC0 1.0), molt baix sota la conversa.",
     "recipe": "tools/render-mixed-take.cjs"
   },
+  "ca-S063": {
+    "voices": "Mireia: Aoede; Biel: Puck. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "sounds": "classroom students whispering +presence · kyles (CC0 1.0), molt baix sota la conversa.",
+    "recipe": "tools/render-mixed-take.cjs"
+  },
+  "ca-S064": {
+    "voices": "Mireia: Aoede; Biel: Puck. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "sounds": "classroom students whispering +presence · kyles (CC0 1.0), molt baix sota la conversa.",
+    "recipe": "tools/render-mixed-take.cjs"
+  },
+  "ca-S065": {
+    "voices": "Mireia: Aoede; Biel: Puck. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "sounds": "classroom students whispering +presence · kyles (CC0 1.0), molt baix sota la conversa.",
+    "recipe": "tools/render-mixed-take.cjs"
+  },
   "ca-S066": {
     "voices": "Mireia: Aoede; Biel: Puck. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
     "sounds": "classroom students whispering +presence · kyles (CC0 1.0), molt baix sota la conversa.",
@@ -242,9 +262,19 @@ export const mixedAudioResources = {
     "sounds": "Base original «Un dinar entre vies» (MIT), molt baixa durant la narració, amb pujada i fosa final.",
     "recipe": "tools/render-mixed-take.cjs"
   },
+  "ca-S068D": {
+    "voices": "Aina: Zephyr; Ferran: Algenib. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme. Torn curt «La duies tu?» no confirmat pel reconeixement local; la presa completa té validació de veus del docent.",
+    "sounds": "Base original «Un dinar entre vies» (MIT), molt baixa durant la narració, amb pujada i fosa final.",
+    "recipe": "tools/render-mixed-take.cjs"
+  },
   "ca-S069D": {
     "voices": "Aina: Zephyr; Ferran: Algenib. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
     "sounds": "Base original «Dos noms a la pissarra» (MIT), molt baixa durant la narració, amb pujada i fosa final.",
+    "recipe": "tools/render-mixed-take.cjs"
+  },
+  "ca-S071D": {
+    "voices": "Aina: Zephyr; Ferran: Algenib. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "sounds": "Base original «Paper blau a la butxaca» (MIT), molt baixa durant la narració, amb pujada i fosa final.",
     "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S073": {
@@ -309,36 +339,6 @@ export const mixedAudioResources = {
   },
   "ca-S071": {
     "voices": "Ferran: Algenib. Lot L22, veus rebudes i pendents d’audició.",
-    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
-    "recipe": "tools/prepare-batch-voice-previews.cjs"
-  },
-  "ca-S045D": {
-    "voices": "Aina: Zephyr; Ferran: Algenib. Lot L23, veus rebudes i pendents d’audició.",
-    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
-    "recipe": "tools/prepare-batch-voice-previews.cjs"
-  },
-  "ca-S063": {
-    "voices": "Mireia: Aoede; Biel: Puck. Lot L27, veus rebudes i pendents d’audició.",
-    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
-    "recipe": "tools/prepare-batch-voice-previews.cjs"
-  },
-  "ca-S064": {
-    "voices": "Mireia: Aoede; Biel: Puck. Lot L27, veus rebudes i pendents d’audició.",
-    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
-    "recipe": "tools/prepare-batch-voice-previews.cjs"
-  },
-  "ca-S065": {
-    "voices": "Mireia: Aoede; Biel: Puck. Lot L27, veus rebudes i pendents d’audició.",
-    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
-    "recipe": "tools/prepare-batch-voice-previews.cjs"
-  },
-  "ca-S068D": {
-    "voices": "Aina: Zephyr; Ferran: Algenib. Lot L28, veus rebudes i pendents d’audició.",
-    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
-    "recipe": "tools/prepare-batch-voice-previews.cjs"
-  },
-  "ca-S071D": {
-    "voices": "Aina: Zephyr; Ferran: Algenib. Lot L28, veus rebudes i pendents d’audició.",
     "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
     "recipe": "tools/prepare-batch-voice-previews.cjs"
   }

@@ -57,9 +57,9 @@ Mireia i Biel · Aoede + Puck. Les lectures són independents; no cal haver-ne e
 
 | Codi | Títol | Curs · dificultat | Tipologia | Durada prevista | Preguntes | Estat |
 | --- | --- | --- | --- | --- | ---: | --- |
-| [ca-S063](https://sentit.ortogra.fi/#lectura=ca-S063) | El pont de paper es doblega | 5è · Accessible | Explicació | Prevista 2:00–2:30 | 8 | Veus rebudes |
-| [ca-S064](https://sentit.ortogra.fi/#lectura=ca-S064) | Un anunci que va massa de pressa | 5è · Intermèdia | Instruccions | Prevista 2:00–2:30 | 8 | Veus rebudes |
-| [ca-S065](https://sentit.ortogra.fi/#lectura=ca-S065) | La mesura que canviava de lloc | 6è · Accessible | Explicació | Prevista 2:05–2:30 | 9 | Veus rebudes |
+| [ca-S063](https://sentit.ortogra.fi/#lectura=ca-S063) | El pont de paper es doblega | 5è · Accessible | Explicació | 1:53 | 8 | Àudio en revisió |
+| [ca-S064](https://sentit.ortogra.fi/#lectura=ca-S064) | Un anunci que va massa de pressa | 5è · Intermèdia | Instruccions | 1:40 | 8 | Àudio en revisió |
+| [ca-S065](https://sentit.ortogra.fi/#lectura=ca-S065) | La mesura que canviava de lloc | 6è · Accessible | Explicació | 1:50 | 9 | Àudio en revisió |
 | [ca-S066](https://sentit.ortogra.fi/#lectura=ca-S066) | El mapa de sons del passadís | 6è · Intermèdia | Instruccions | 2:36 | 8 | Àudio en revisió · curs i dificultat per valorar després d’escoltar |
 | [ca-S067](https://sentit.ortogra.fi/#lectura=ca-S067) | La mateixa pregunta? | 1r d’ESO · Intermèdia | Explicació | 2:39 | 9 | Àudio en revisió |
 
@@ -75,8 +75,8 @@ Ferran · Algenib. Les lectures són independents; no cal haver-ne escoltat cap 
 | --- | --- | --- | --- | --- | ---: | --- |
 | [ca-S068](https://sentit.ortogra.fi/#lectura=ca-S068) | El dinar al banc de l’estació | 5è · Accessible | Narració | 1:39 | 8 | Àudio en revisió |
 | [ca-S069](https://sentit.ortogra.fi/#lectura=ca-S069) | La pissarra del partit | 5è · Intermèdia | Narració | Prevista 2:15–2:45 | 8 | Provisional · pendent del docent |
-| [ca-S070](https://sentit.ortogra.fi/#lectura=ca-S070) | El dia que no va sonar el disc | 6è · Accessible | Narració | Prevista 1:55–2:20 | 9 | Veus rebudes |
-| [ca-S071](https://sentit.ortogra.fi/#lectura=ca-S071) | Les dues entrades blaves | 5è · Avançada | Narració | Prevista 3:10–3:50 | 8 | Veus rebudes |
+| [ca-S070](https://sentit.ortogra.fi/#lectura=ca-S070) | El dia que no va sonar el disc | 6è · Accessible | Narració | Prevista 1:55–2:20 | 9 | Provisional · pendent del docent |
+| [ca-S071](https://sentit.ortogra.fi/#lectura=ca-S071) | Les dues entrades blaves | 5è · Avançada | Narració | Prevista 3:10–3:50 | 8 | Provisional · pendent del docent |
 | [ca-S072](https://sentit.ortogra.fi/#lectura=ca-S072) | El quadern de la parada | 6è · Avançada | Narració | Prevista 3:10–3:45 | 9 | Guió validat |
 
 [Filtra el catàleg per aquest repartiment](https://sentit.ortogra.fi/?personatge=ferran) · [Guions i escaletes del bloc](../content/propostes/tanda4/records.js). El filtre també pot mostrar peces de tandes anteriors; activa «Només provisionals» per revisar feina oberta. Les acotacions descriuen recursos proposats, no gravacions ja produïdes.

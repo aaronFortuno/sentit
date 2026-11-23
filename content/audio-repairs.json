@@ -362,5 +362,53 @@
     ],
     "application": "Teacher compares the whole new turn with the original before any splice or montage. No automatic approval, pitch change or master replacement.",
     "approvedRequestHash": "980645b0e2d69b96b55ba4471db5af343e7fc1589307eb202f8ae93278f57be6"
+  },
+  "S071": {
+    "activity": "ca-S071",
+    "status": "approved-for-correction",
+    "approvedAt": "2026-11-23",
+    "approvalSource": "El docent identifica Eina en lloc d’Aina a l’inici i demana resoldre-ho; la resta de les veus queda validada.",
+    "sourceRequestHash": "4a2634e49163d602016cbc69c25809b31754d5e940e3283e0c938522deada250",
+    "sourceRawSha256": "f59f33398e753916473bd88dc78345ff02faeedc4f4bb046275f9d453bc4b561",
+    "sourceTakeId": "S071-T01",
+    "sourceTakeSha256": "be81a7fabf103859d65f69972f783d0fa1b9777fd8c943f8c4676659fedd0ba3",
+    "voices": {
+      "Ferran": "Algenib"
+    },
+    "direction": "Natural Central Catalan. Preserve the exact recurring warm older male Ferran/Algenib identity and conversational pace. Read the complete supplied turn once, without title, labels, stage directions, breathing noises, music or effects. Pronunciation directions are not spoken.",
+    "repairs": [
+      {
+        "part": "sobre",
+        "speaker": "Ferran",
+        "text": "Aina, en aquest sobre hi guardo quatre entrades. Són del mateix teatre i tenen el mateix color blau, però dues són d’un diumenge i dues, del dissabte següent. Si les mires de pressa semblen iguals. A mi em van fer passar una bona vergonya.",
+        "pronunciation": "Aina is the Catalan name /ˈaj.nə/: start clearly with an open A and the AI diphthong, as in the beginning of Catalan aire, never EI or Eina. Keep the warm older male Ferran/Algenib identity and a fluent natural sentence. Do not spell the name, add a lead-in, or read these directions."
+      }
+    ],
+    "application": "Compare the complete new opening turn against the original before any splice or montage. Preserve all other approved speech and the canonical spelling Aina. No automatic pronunciation approval, retiming, pitch change or master replacement.",
+    "approvedRequestHash": "7d1ce5cafedac513bab2e3fbc4fc8c7e66f871234fd438766dac2ad128f0a720"
+  },
+  "S070": {
+    "activity": "ca-S070",
+    "status": "approved-for-correction",
+    "approvedAt": "2026-11-23",
+    "approvalSource": "El docent detecta s’asseia amb tonicitat desplaçada a la i i demana reprendre la frase o el paràgraf complet dins un lot compatible de Ferran o d’Aina i Ferran.",
+    "sourceRequestHash": "4a2634e49163d602016cbc69c25809b31754d5e940e3283e0c938522deada250",
+    "sourceRawSha256": "f59f33398e753916473bd88dc78345ff02faeedc4f4bb046275f9d453bc4b561",
+    "sourceTakeId": "S070-T01",
+    "sourceTakeSha256": "760143315f68bf9b649e208ed3e37c6ad3e325488f8b73198d1a1b8099367da3",
+    "voices": {
+      "Ferran": "Algenib"
+    },
+    "direction": "Natural Central Catalan. Preserve the exact recurring warm older male Ferran/Algenib identity and conversational pace. Read the complete supplied turn once, without title, labels, stage directions, breathing noises, music or effects. Pronunciation directions are not spoken.",
+    "repairs": [
+      {
+        "part": "esperar",
+        "speaker": "Ferran",
+        "text": "Els grans anaven d’un costat a l’altre per saber què havia passat. Mentrestant, la gent s’asseia i els petits corríem entre les cadires. El pare va anar a buscar l’acordió, que havia deixat a casa d’aquell veí, a la planta baixa, perquè no li fes nosa.",
+        "pronunciation": "In s’asseia, place the stress on the E syllable: as-SE-ia, not on I. Keep the following i els petits as the separate conjunction and phrase, fluently linked without changing any words. Preserve the warm older male Ferran/Algenib character. Pronunciation directions are not spoken."
+      }
+    ],
+    "application": "Compare the complete corrected paragraph with the original before choosing a phrase or whole-turn splice. Preserve all other speech and the canonical spelling s’asseia. No montage or automatic voice approval; wait for a compatible full batch.",
+    "approvedRequestHash": "e7204c142f62c7ca3e65f6a795d48df00515f44cdcfc9ab7aa638dd577d12fee"
   }
 }

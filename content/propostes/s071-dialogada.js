@@ -3,6 +3,10 @@ import { proposal, direction as d, spoken as s, question as q, evidence as e } f
 // Variant independent per validar; el relat narrat S071 es conserva intacte.
 export const s071Dialogada = proposal({
   id: 'les-dues-entrades-blaves-dialogada', code: 'S071D', title: 'Les dues entrades blaves · versió dialogada', grade: '5', level: 'advanced', genre: 'story', universeIds: ['aina-ferran'],
+    recordingCues: [{"before":"inici","text":"Base original «Paper blau a la butxaca», prevista també per a S071, amb mescla pròpia molt suau sota Aina i Ferran. Conversen en el present; sense teatre, papers, passos ni altres efectes del record."},{"after":"comiat","text":"La veu acaba completa. Marge breu, pujada de la base, dos segons de sosteniment i fosa de dos segons; sense altres sons de comiat."}],
+    seconds: 188, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s071d-mixed-v1.mp3', tracks: { introduction: './assets/audio/s071d-mixed-v1-intro.mp3', body: './assets/audio/s071d-mixed-v1-cos.mp3' },
+    fragment: { start: 5.94, seconds: 181 },
   summary: 'L’Aina s’interessa per un sobre de l’avi Ferran. A dins hi ha quatre entrades semblants i el record d’una tarda de teatre que va començar amb una confusió.',
   voices: { Aina: 'Zephyr', Ferran: 'Algenib' },
   delivery: 'Conversa familiar en el present entre Aina, de deu a dotze anys, i l’avi Ferran. Aina escolta amb curiositat, fa unes quantes preguntes i una broma; no entrevista ni resumeix totes les dades. Ferran conserva el to afectuós, nostàlgic i divertit del relat narrat. Ritme espontani i veus constants Zephyr i Algenib, sense caricatures. El tiet i el senyor de la porta només s’esmenten: no imitar-ne les veus. Somriure natural al final, sense instruccions vocals ni rialles escrites dins del text parlat.',

@@ -1,5 +1,16 @@
 # Canvis
 
+## 0.1.90 · 23 de novembre de 2026
+
+- S070 pendent de reprendre el torn `esperar`: «s’asseia» sona amb tonicitat a la i. Es conserva la grafia editorial i no s’atorga una validació global de veus. S072 més les esmenes de S070 i S071 formen un candidat compatible de Ferran de 3:41 estimats; espera completar la finestra de sis a vuit minuts.
+- S070 pendent de represa del torn complet amb «s’asseia», per corregir la tonicitat desplaçada a la i. En cua per a un lot compatible, amb text i veu canònics preservats; sense síntesi aïllada ni aprovació global de veus.
+- S071 pendent d’esmena inicial d’«Aina», que sona «Eina» amb Ferran/Algenib. Resta de les veus validada, primera intervenció completa preparada per al pròxim lot compatible; card i cua actualitzades, sense regeneració ni muntatge anticipats.
+- S045D amb les veus d’Aina i Ferran validades pel docent i primer muntatge pendent d’audició. Base «Cadires sota les estrelles» compartida amb S045, amb mescla pròpia molt suau, pujada i fosa final, sense efectes de cadira ni plaça.
+- S068D muntada amb les dues veus validades i base «Un dinar entre vies» compartida amb S068, amb mescla pròpia i sense representar el viatge amb efectes. La incertesa històrica de reconeixement del torn curt es conserva com a dada tècnica; l’audició de veus té aprovació docent i el muntatge queda pendent de validar.
+- S071D amb primer muntatge pendent d’audició i base original «Paper blau a la butxaca», prevista també per a la narració, sense efectes del teatre. Aprovació de veus pròpia de la variant; l’esmena inicial de S071 continua oberta i independent.
+- S063, S064 i S065 amb veus validades i muntatges pendents d’audició: ambient enregistrat continu d’aula, molt discret sota Mireia i Biel, amb entrada suau i fosa final. Sense papers, cadires ni altres efectes puntuals.
+- Preses originals conservades, crèdits i seguiment actualitzats; cap petició nova de síntesi ni canvi als màsters publicats. Guions i preguntes conservats, amb revisió independent de les noves anotacions de muntatge.
+
 ## 0.1.89 · 23 de novembre de 2026
 
 - Publicació definitiva de S028, S033, S036, S040, S046, S049, S051, S052, S062, S073, S075 i S077, amb els màsters aprovats conservats. S033 queda classificada com a entrevista.

@@ -3499,13 +3499,13 @@ export const productionProgress = {
     }
   },
   "ca-S063": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-23T09:49:01.701Z",
-    "editorialFingerprint": "03499ba64c42e15d3b3fdee23e0858ea73e8eaac1b268547d9bae457edb049ca",
-    "plannedNewRequests": 1,
+    "editorialFingerprint": "94c0a4b2ad03f708674a1467b24f8ffb3d359e1a7592623fc8d4698342801edd",
+    "plannedNewRequests": 0,
     "listeningApproval": false,
     "confirmation": "S063 validat per pujar a síntesi de veus",
-    "reason": "Validació docent explícita del guió, veus i escaleta. Preparar en un lot compatible abans de qualsevol enviament.",
+    "reason": "Veus aprovades pel docent i primer muntatge completat localment; pendent d’audició del muntatge.",
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -3516,20 +3516,38 @@ export const productionProgress = {
         "L27"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-23",
+      "sourceTakeSha256": "e66559d86d4e0bf1429ef79a52e0f853b75421c7f4857958c75fe5e81fc95a26",
+      "confirmation": "S063 validat per muntatge"
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-23T13:19:33.550Z",
     "voicePreview": "./proves/veus-rebudes.html#S063",
-    "voicePreviewFile": "./assets/audio/s063-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s063-voices-review-v1.mp3",
+    "mountedAt": "2026-11-23T16:12:15.380Z",
+    "synthesisBatch": "L27",
+    "requestHash": "a8a1c31ecd69f92c20a41e6a739917e717f6da8007fba6592d62f5d5b553f9c0",
+    "audioSha256": "622468f337ece93d58b741fba78dc5d8ed0c8f742f4bcf1dade1d3c1787cd37b",
+    "montageNewSynthesisRequests": 0,
+    "reviewUpdate": {
+      "audio": "./assets/audio/s063-mixed-v1.mp3",
+      "at": "2026-11-23",
+      "summary": {
+        "ca": "Primer muntatge: Ambient real continu d’aula amb jovent, molt discret sota Mireia i Biel, amb entrada suau. Sense papers, cadires ni altres efectes puntuals afegits. Pendent d’audició.",
+        "es": "Primer montaje con ambiente real continuo de aula, muy discreto durante las dos voces, entrada suave, subida y fundido final. Sin efectos puntuales añadidos. Pendiente de escucha."
+      }
+    }
   },
   "ca-S070": {
-    "state": "voices-received",
+    "state": "audio-corrections-pending",
     "approvedAt": "2026-11-23T09:49:01.707Z",
     "editorialFingerprint": "c329111785d5c98723a68257817238bd4792b6d1e4aa29db52169070f355f2dd",
     "plannedNewRequests": 1,
     "listeningApproval": false,
     "confirmation": "S070 validat per pujar a síntesi de veus",
-    "reason": "Validació docent explícita del guió, veus i escaleta. Preparar en un lot compatible abans de qualsevol enviament.",
+    "reason": "S’asseia sona amb accent a la i. Esmena del torn esperar en cua per a un lot compatible; muntatge pendent de validació de veus.",
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -3544,7 +3562,28 @@ export const productionProgress = {
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-23T12:09:15.400Z",
     "voicePreview": "./proves/veus-rebudes.html#S070",
-    "voicePreviewFile": "./assets/audio/s070-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s070-voices-review-v1.mp3",
+    "feedbackAt": "2026-11-23",
+    "teacherAssessment": "El docent demana esmenar la tonicitat de s’asseia si es pot agrupar amb material compatible; no s’ha donat aprovació global de veus ni de muntatge.",
+    "feedback": [
+      {
+        "part": "esperar",
+        "speaker": "Ferran",
+        "kind": "pronunciation",
+        "word": "s’asseia",
+        "heard": "s’assaía, amb tonicitat a la i",
+        "status": "pending"
+      }
+    ],
+    "plannedRepair": {
+      "part": "esperar",
+      "speaker": "Ferran",
+      "voice": "Algenib",
+      "text": "Els grans anaven d’un costat a l’altre per saber què havia passat. Mentrestant, la gent s’asseia i els petits corríem entre les cadires. El pare va anar a buscar l’acordió, que havia deixat a casa d’aquell veí, a la planta baixa, perquè no li fes nosa.",
+      "sourceTakeSha256": "760143315f68bf9b649e208ed3e37c6ad3e325488f8b73198d1a1b8099367da3",
+      "status": "awaiting-compatible-batch",
+      "pronunciation": "In s’asseia, place the stress on the E syllable: as-SE-ia, not on I. Keep the following i els petits as the separate conjunction and phrase, fluently linked without changing any words. Preserve the warm older male Ferran/Algenib character. Pronunciation directions are not spoken."
+    }
   },
   "ca-S072": {
     "state": "ready-for-voices",
@@ -3708,13 +3747,13 @@ export const productionProgress = {
     "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar."
   },
   "ca-S065": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-23",
-    "editorialFingerprint": "da168a5787dd9e54db87879bc6a3ac0f349d2f4d841cb7e83e9cb1755e460d3c",
-    "plannedNewRequests": 1,
+    "editorialFingerprint": "184ca0f6f7fb80c23c09bef185079669bab1be329a8d2420c3d533c10ff6e6de",
+    "plannedNewRequests": 0,
     "listeningApproval": false,
     "confirmation": "S065 validat per síntesi de veus",
-    "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar.",
+    "reason": "Veus aprovades pel docent i primer muntatge completat localment; pendent d’audició del muntatge.",
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -3725,11 +3764,29 @@ export const productionProgress = {
         "L27"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-23",
+      "sourceTakeSha256": "597ba92b862eef28fa7b8fcb582fad3b9f5f989d7608b408d9ee8278ee6409ae",
+      "confirmation": "S065 validat per muntatge"
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-23T13:19:33.550Z",
     "voicePreview": "./proves/veus-rebudes.html#S065",
-    "voicePreviewFile": "./assets/audio/s065-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s065-voices-review-v1.mp3",
+    "mountedAt": "2026-11-23T16:14:41.246Z",
+    "synthesisBatch": "L27",
+    "requestHash": "a8a1c31ecd69f92c20a41e6a739917e717f6da8007fba6592d62f5d5b553f9c0",
+    "audioSha256": "d90252421be37066debedc75bb85b0ff122012542675e7335c4e4bbe75daf5d8",
+    "montageNewSynthesisRequests": 0,
+    "reviewUpdate": {
+      "audio": "./assets/audio/s065-mixed-v1.mp3",
+      "at": "2026-11-23",
+      "summary": {
+        "ca": "Primer muntatge: Ambient real continu d’aula amb jovent, molt discret sota Mireia i Biel, amb entrada suau. Sense papers, cadires ni altres efectes puntuals afegits. Pendent d’audició.",
+        "es": "Primer montaje con ambiente real continuo de aula, muy discreto durante las dos voces, entrada suave, subida y fundido final. Sin efectos puntuales añadidos. Pendiente de escucha."
+      }
+    }
   },
   "ca-S068": {
     "state": "montage-awaiting-listening",
@@ -3774,13 +3831,13 @@ export const productionProgress = {
     }
   },
   "ca-S071": {
-    "state": "voices-received",
+    "state": "audio-corrections-pending",
     "approvedAt": "2026-11-23",
     "editorialFingerprint": "63e0c902e8ff63f6421a4a62d95bc541eff9d7af6e10d05d7599790aaadb102f",
     "plannedNewRequests": 1,
     "listeningApproval": false,
     "confirmation": "S071 validat per síntesi de veus",
-    "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar.",
+    "reason": "Aina sona Eina a l’inici. Resta de les veus validada; esmena en espera de lot compatible de Ferran/Algenib abans de muntar.",
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -3791,11 +3848,51 @@ export const productionProgress = {
         "L22"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "partial",
+      "approvedAt": "2026-11-23",
+      "sourceTakeSha256": "be81a7fabf103859d65f69972f783d0fa1b9777fd8c943f8c4676659fedd0ba3",
+      "approvedParts": [
+        "introduction",
+        "primer",
+        "noves",
+        "sortir",
+        "porta",
+        "tornar",
+        "cuina",
+        "arribar",
+        "final"
+      ],
+      "excludedParts": [
+        "sobre"
+      ],
+      "confirmation": "El docent valida la resta de les veus; primera intervenció pendent d’esmena d’Aina."
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-23T12:09:15.400Z",
     "voicePreview": "./proves/veus-rebudes.html#S071",
-    "voicePreviewFile": "./assets/audio/s071-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s071-voices-review-v1.mp3",
+    "feedbackAt": "2026-11-23",
+    "teacherAssessment": "Resta de les veus impecable segons el docent. Regenerar la primera intervenció perquè digui clarament Aina, escoltar la represa i després muntar.",
+    "feedback": [
+      {
+        "part": "sobre",
+        "speaker": "Ferran",
+        "kind": "pronunciation",
+        "word": "Aina",
+        "heard": "Eina",
+        "status": "pending"
+      }
+    ],
+    "plannedRepair": {
+      "part": "sobre",
+      "speaker": "Ferran",
+      "voice": "Algenib",
+      "text": "Aina, en aquest sobre hi guardo quatre entrades. Són del mateix teatre i tenen el mateix color blau, però dues són d’un diumenge i dues, del dissabte següent. Si les mires de pressa semblen iguals. A mi em van fer passar una bona vergonya.",
+      "sourceTakeSha256": "be81a7fabf103859d65f69972f783d0fa1b9777fd8c943f8c4676659fedd0ba3",
+      "status": "awaiting-compatible-batch",
+      "pronunciation": "Aina is the Catalan name /ˈaj.nə/: start clearly with an open A and the AI diphthong, as in the beginning of Catalan aire, never EI or Eina. Keep the warm older male Ferran/Algenib identity and a fluent natural sentence. Do not spell the name, add a lead-in, or read these directions."
+    }
   },
   "ca-S054": {
     "state": "montage-awaiting-listening",
@@ -3849,13 +3946,13 @@ export const productionProgress = {
     "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar."
   },
   "ca-S045D": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-23",
-    "editorialFingerprint": "08c8056b6656b039f67afe9a6b636715deeb06fb538762fd83b9518e18389a8a",
-    "plannedNewRequests": 1,
+    "editorialFingerprint": "a10d9b11d1c046f68f91f7bf5cf08fec8f863b52b482fadc3fba942172df8358",
+    "plannedNewRequests": 0,
     "listeningApproval": false,
     "confirmation": "S045D validat per síntesi de veus",
-    "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar.",
+    "reason": "Veus aprovades pel docent i primer muntatge completat localment; pendent d’audició del muntatge.",
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -3866,11 +3963,29 @@ export const productionProgress = {
         "L23"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-23",
+      "sourceTakeSha256": "453e13fbf8dcee801cc2af4612356f842d0f6e230bed301427dcada4de6720be",
+      "confirmation": "S045D validat per muntatge"
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-23T12:14:25.276Z",
     "voicePreview": "./proves/veus-rebudes.html#S045D",
-    "voicePreviewFile": "./assets/audio/s045d-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s045d-voices-review-v1.mp3",
+    "mountedAt": "2026-11-23T16:05:33.134Z",
+    "synthesisBatch": "L23",
+    "requestHash": "756f855e4c2be092cf27a2e4508782dc064c45b5cef6d6697850ea86088fd55e",
+    "audioSha256": "5f420861750b09b1c557e2d263219ed1e0d1380fc950d77c1c126d1c61f2c177",
+    "montageNewSynthesisRequests": 0,
+    "reviewUpdate": {
+      "audio": "./assets/audio/s045d-mixed-v1.mp3",
+      "at": "2026-11-23",
+      "summary": {
+        "ca": "Primer muntatge: Base original «Cadires sota les estrelles», compartida amb la narració S045, amb mescla pròpia molt suau sota Aina i Ferran. Sense plaça, pel·lícula, cadires ni pauses afegides per a efectes. Pendent d’audició.",
+        "es": "Primer montaje con la base original «Cadires sota les estrelles», compartida con S045 y mezclada muy suave durante las dos voces, con subida y fundido final. Sin efectos añadidos. Pendiente de escucha."
+      }
+    }
   },
   "ca-S080": {
     "state": "montage-awaiting-listening",
@@ -3924,13 +4039,13 @@ export const productionProgress = {
     "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar."
   },
   "ca-S071D": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-23",
-    "editorialFingerprint": "fa09daa8a2ff1fcebc13bf333a169fc83e75325463128ee3e86c31091c345642",
-    "plannedNewRequests": 1,
+    "editorialFingerprint": "7f0d7fa6a9511971519f7bd47cf99b2023bbc6fbf9ee76c756918aa88fee2444",
+    "plannedNewRequests": 0,
     "listeningApproval": false,
     "confirmation": "S071D validat per síntesi de veus",
-    "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar.",
+    "reason": "Veus de la variant dialogada validades pel docent i primer muntatge pendent d’audició. S071 narrada conserva la seva esmena independent.",
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -3941,11 +4056,29 @@ export const productionProgress = {
         "L28"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-23",
+      "sourceTakeSha256": "10473f9616263ae3be2d1295c367c42158a54e5cc59ab8278273789ec47c01f0",
+      "confirmation": "S071D validat per muntatge"
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-23T13:21:28.972Z",
     "voicePreview": "./proves/veus-rebudes.html#S071D",
-    "voicePreviewFile": "./assets/audio/s071d-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s071d-voices-review-v1.mp3",
+    "mountedAt": "2026-11-23T16:23:06.698Z",
+    "synthesisBatch": "L28",
+    "requestHash": "17cd4683c769da2badcc720d67926da3398a2be69ff54c217a766273869991d4",
+    "audioSha256": "ea2ab416baf80c08ceca1e5041438ea1dc89c116f9e3db2ec55197eae2ead380",
+    "montageNewSynthesisRequests": 0,
+    "reviewUpdate": {
+      "audio": "./assets/audio/s071d-mixed-v1.mp3",
+      "at": "2026-11-23",
+      "summary": {
+        "ca": "Primer muntatge: Base original «Paper blau a la butxaca», prevista també per a S071, amb mescla pròpia molt suau sota Aina i Ferran. Conversen en el present; sense teatre, papers, passos ni altres efectes del record. Pendent d’audició.",
+        "es": "Primer montaje con la base original «Paper blau a la butxaca», muy suave durante las dos voces, con subida y fundido final. Sin efectos del recuerdo. Pendiente de escucha."
+      }
+    }
   },
   "ca-S053": {
     "state": "montage-awaiting-listening",
@@ -3990,13 +4123,13 @@ export const productionProgress = {
     }
   },
   "ca-S064": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-23",
-    "editorialFingerprint": "b5a8de32d7d20940deeb11c31963acdf12abe9b3fcd4059d8beb139b3b9bfc99",
-    "plannedNewRequests": 1,
+    "editorialFingerprint": "50b721865bd7865ed18420348e604efde67cd871b9e5764992744e8ae87826d3",
+    "plannedNewRequests": 0,
     "listeningApproval": false,
     "confirmation": "S064 validat per síntesi de veus",
-    "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar.",
+    "reason": "Veus aprovades pel docent i primer muntatge completat localment; pendent d’audició del muntatge.",
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -4007,20 +4140,38 @@ export const productionProgress = {
         "L27"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-23",
+      "sourceTakeSha256": "92f44632ac61d5a59a77d774e7b26e9e50ff718a9d7db92846d8cfb016d79f2b",
+      "confirmation": "S064 validat per muntatge"
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-23T13:19:33.550Z",
     "voicePreview": "./proves/veus-rebudes.html#S064",
-    "voicePreviewFile": "./assets/audio/s064-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s064-voices-review-v1.mp3",
+    "mountedAt": "2026-11-23T16:07:23.082Z",
+    "synthesisBatch": "L27",
+    "requestHash": "a8a1c31ecd69f92c20a41e6a739917e717f6da8007fba6592d62f5d5b553f9c0",
+    "audioSha256": "fef04ecbf7c7ebec0089675053c5e609f591e73576d3f6b4390031b455f2e651",
+    "montageNewSynthesisRequests": 0,
+    "reviewUpdate": {
+      "audio": "./assets/audio/s064-mixed-v1.mp3",
+      "at": "2026-11-23",
+      "summary": {
+        "ca": "Primer muntatge: Ambient real continu d’aula amb jovent, molt discret sota Mireia i Biel, amb entrada suau. Sense papers, cadires ni altres efectes puntuals afegits. Pendent d’audició.",
+        "es": "Primer montaje con ambiente real continuo de aula, muy discreto durante las dos voces, entrada suave, subida y fundido final. Sin efectos puntuales añadidos. Pendiente de escucha."
+      }
+    }
   },
   "ca-S068D": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-23",
-    "editorialFingerprint": "6d08c90c36cdc0f629a93b108861c1d5d01948277de17215fd5405282a7ca4a4",
-    "plannedNewRequests": 1,
+    "editorialFingerprint": "c64ed161061a9e7c35c0f3ea11dd829829f982ce7f10539ee33b5dfde5d7ea06",
+    "plannedNewRequests": 0,
     "listeningApproval": false,
     "confirmation": "S068D validat per síntesi de veus",
-    "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar.",
+    "reason": "Presa completa de veus validada pel docent, incloent el torn curt conservat que el reconeixement local no havia confirmat; primer muntatge pendent d’audició.",
     "uncertainTurns": [
       {
         "start": 21.490000000000002,
@@ -4043,7 +4194,12 @@ export const productionProgress = {
         "L28"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-23",
+      "sourceTakeSha256": "ea89c6739cb6262df17eb212f3e4a2b6edda5e979f419a020b36f0df2ab4c9bc",
+      "confirmation": "S068D validat per muntatge"
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-23T13:21:28.972Z",
     "voicePreview": "./proves/veus-rebudes.html#S068D",
@@ -4054,6 +4210,19 @@ export const productionProgress = {
       "summary": {
         "ca": "Veus noves per revisar. Comprova especialment «La duies tu?», cap al segon 21: és un torn curt conservat que el reconeixement local no ha pogut confirmar. Encara no hi ha muntatge.",
         "es": "Voces nuevas para revisar. Comprueba especialmente «La duies tu?», hacia el segundo 21: es un turno breve conservado que el reconocimiento local no ha podido confirmar. Todavía no hay montaje."
+      }
+    },
+    "mountedAt": "2026-11-23T16:17:28.792Z",
+    "synthesisBatch": "L28",
+    "requestHash": "17cd4683c769da2badcc720d67926da3398a2be69ff54c217a766273869991d4",
+    "audioSha256": "e5982c3d20dbe9ae142c0fd8435d858a136de67ec501451ae182e90ece88e93f",
+    "montageNewSynthesisRequests": 0,
+    "reviewUpdate": {
+      "audio": "./assets/audio/s068d-mixed-v1.mp3",
+      "at": "2026-11-23",
+      "summary": {
+        "ca": "Primer muntatge: Base original «Un dinar entre vies», compartida amb S068, amb mescla pròpia molt suau sota Aina i Ferran. Conversen a casa en el present; sense estació, tren, papers ni altres efectes del record. Pendent d’audició.",
+        "es": "Primer montaje con la base original «Un dinar entre vies», compartida con S068 y mezclada muy suave durante las dos voces, con subida y fundido final. Sin efectos del recuerdo. Pendiente de escucha."
       }
     }
   }

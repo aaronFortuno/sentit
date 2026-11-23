@@ -8,21 +8,6 @@ Actualitzat: **23/11/2026**. Aquest document mostra només la feina pendent d’
 | --- | --- | --- | ---: | --- |
 | L04 | S005: Aquest matí, per exemple, he apartat un sobre per revisar-lo abans de sortir.; S015: Per això es controla la il·luminació i també les condicions de temperatura i humitat. | Vindemiatrix + Kore | 0:22 | Completar amb material del mateix repartiment; S015: conciliar el registre editorial històric abans de preparar l’esmena |
 
-## Veus rebudes · per escoltar abans del muntatge
-
-Les preses originals es conserven i la cobertura s’ha comprovat localment. La pronunciació i la identitat de les veus continuen pendents d’audició; encara no són muntatges finals.
-
-| Peça | Presa |
-| --- | --- |
-| [ca-S045D](https://sentit.ortogra.fi/#lectura=ca-S045D) | [Escolta les veus](../proves/veus-rebudes.html#S045D) |
-| [ca-S063](https://sentit.ortogra.fi/#lectura=ca-S063) | [Escolta les veus](../proves/veus-rebudes.html#S063) |
-| [ca-S064](https://sentit.ortogra.fi/#lectura=ca-S064) | [Escolta les veus](../proves/veus-rebudes.html#S064) |
-| [ca-S065](https://sentit.ortogra.fi/#lectura=ca-S065) | [Escolta les veus](../proves/veus-rebudes.html#S065) |
-| [ca-S068D](https://sentit.ortogra.fi/#lectura=ca-S068D) | [Escolta les veus](../proves/veus-rebudes.html#S068D) |
-| [ca-S070](https://sentit.ortogra.fi/#lectura=ca-S070) | [Escolta les veus](../proves/veus-rebudes.html#S070) |
-| [ca-S071](https://sentit.ortogra.fi/#lectura=ca-S071) | [Escolta les veus](../proves/veus-rebudes.html#S071) |
-| [ca-S071D](https://sentit.ortogra.fi/#lectura=ca-S071D) | [Escolta les veus](../proves/veus-rebudes.html#S071D) |
-
 Les previsions provenen dels guions i del calibratge local; cal recalcular-les amb el format definitiu abans d’enviar. Una mateixa veu en dos guions no implica el mateix personatge. No es canvien repartiments ni s’allarguen guions per omplir un lot.
 
 ## Agrupacions candidates · validació i preparació pendents
@@ -63,6 +48,8 @@ P02 reuneix quatre lectures breus del mateix repartiment per conservar els guion
 | [ca-S017](https://sentit.ortogra.fi/#lectura=ca-S017) | Mireia · Aoede | coordinacio + retorn |
 | [ca-S022](https://sentit.ortogra.fi/#lectura=ca-S022) | Ferran · Algenib | Dues proves TTS: «raíls» i «raïls»; text editorial intacte |
 | [ca-S061](https://sentit.ortogra.fi/#lectura=ca-S061) | Laia · Leda | Presentació omesa: «Comprensió oral. El curt que començava pel final.»; cos de veus validat |
+| [ca-S070](https://sentit.ortogra.fi/#lectura=ca-S070) | Ferran · Algenib | esperar |
+| [ca-S071](https://sentit.ortogra.fi/#lectura=ca-S071) | Ferran · Algenib | sobre |
 | [ca-S081](https://sentit.ortogra.fi/#lectura=ca-S081) | Elies · Algieba | telefon + final |
 
 Esperen un lot compatible de sis a vuit minuts. Les proves auxiliars de S022 es poden comprovar localment amb `node tools/pronunciation-trials.cjs --only=S022`; aquest comandament no envia cap petició.

@@ -8801,6 +8801,525 @@
         "sourceTakeSha256": "4328f5d160cbeb7f6cb2ef309e232bc8579e39f50505e366b5dbc6a5c8791107",
         "confirmation": "S053 validat per muntatge"
       }
+    },
+    {
+      "code": "S045D",
+      "activity": "ca-S045D",
+      "state": "awaiting-montage-validation",
+      "file": "s045d-mixed-v1.mp3",
+      "introFile": "s045d-mixed-v1-intro.mp3",
+      "bodyFile": "s045d-mixed-v1-cos.mp3",
+      "offset": 5.2,
+      "bodyDuration": 122.27,
+      "fullDuration": 127.47,
+      "voices": {
+        "Aina": "Zephyr",
+        "Ferran": "Algenib"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "756f855e4c2be092cf27a2e4508782dc064c45b5cef6d6697850ea86088fd55e",
+      "sourceRequestHash": "0262d20d8142b019e7203adb88fa829cfc06b2eeb86850ce458bc730ff561525",
+      "batch": "L23",
+      "rawSha256": "d1f0ee2c92c31199cba4d81632d3af15bbbf281bbdef6e67324578e28b02d3c3",
+      "takeSha256": "453e13fbf8dcee801cc2af4612356f842d0f6e230bed301427dcada4de6720be",
+      "coverage": 0.8987341772151899,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -18.79,
+      "peakDbTP": -2.5,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "gentle-narration-bed",
+          "origin": "original-procedural-composition",
+          "author": "Sentit",
+          "license": "MIT",
+          "source": "tools/narration-bed.cjs",
+          "title": "Cadires sota les estrelles",
+          "compositionId": "sentit-s045-v1",
+          "tempoBpm": 66,
+          "rootMidi": 57,
+          "scoreSeed": 45,
+          "notes": 94,
+          "externalSamples": false,
+          "noSpeech": true,
+          "retimed": false,
+          "sha256": "872f08bae52c686214643919e1cf8433a183db9720aa0bfc1252071b78d7cb05",
+          "envelope": {
+            "fadeInSeconds": 0.6,
+            "duckStart": 0.7000000000000001,
+            "duckEnd": 1.4500000000000002,
+            "speechGain": 0.14,
+            "nominalSpeechMusicLufs": -43.07743928643524,
+            "riseStart": 116.17999999999999,
+            "riseEnd": 116.98,
+            "holdSeconds": 2,
+            "fadeStart": 118.98,
+            "fadeEnd": 120.98
+          },
+          "listeningValidation": "pending",
+          "start": 0,
+          "underSpeech": true
+        }
+      ],
+      "sha256": "5f420861750b09b1c557e2d263219ed1e0d1380fc950d77c1c126d1c61f2c177",
+      "voiceHandles": {
+        "body": {
+          "start": 0.16,
+          "end": 114.63,
+          "retainedPcmSha256": "16ff8131d27dfc8fc8764501d26a0751cbde970a1f108ee7e151cd548834b06e",
+          "sourceSha256": "58ebd05b7c6ace360e48004f9d76d1dc06f634335a68cdad78b1a8c889daf5b6",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0,
+          "end": 4.25,
+          "retainedPcmSha256": "82605d6482a390ca9b75753459cbfd3866c5ce6288ab1d1fe446df5d688c3323",
+          "sourceSha256": "6bd99265e099d0a870ab6869e9a8536cb984b2cd571fb1874938af1542c1d0f4",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-23",
+        "sourceTakeSha256": "453e13fbf8dcee801cc2af4612356f842d0f6e230bed301427dcada4de6720be",
+        "confirmation": "S045D validat per muntatge"
+      }
+    },
+    {
+      "code": "S064",
+      "activity": "ca-S064",
+      "state": "awaiting-montage-validation",
+      "file": "s064-mixed-v1.mp3",
+      "introFile": "s064-mixed-v1-intro.mp3",
+      "bodyFile": "s064-mixed-v1-cos.mp3",
+      "offset": 4.470000000000001,
+      "bodyDuration": 100.39,
+      "fullDuration": 104.86,
+      "voices": {
+        "Mireia": "Aoede",
+        "Biel": "Puck"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "a8a1c31ecd69f92c20a41e6a739917e717f6da8007fba6592d62f5d5b553f9c0",
+      "sourceRequestHash": "8533ab25eb7bb8b1123e728c1f9e38ad7f5119cb07531e4ffb39060d0c86ad3c",
+      "batch": "L27",
+      "rawSha256": "113af488c48ded72fa2057440b9753e0eb695ff290ae1cee796d9ab143caaf38",
+      "takeSha256": "92f44632ac61d5a59a77d774e7b26e9e50ff718a9d7db92846d8cfb016d79f2b",
+      "coverage": 0.9057142857142857,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -19.69,
+      "peakDbTP": -2.5,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "kyles-450728",
+          "start": 0,
+          "source": "assets/audio/sources/kyles-450728.mp3",
+          "sourceSha256": "20f19e1eec5394003835bcc940e246b941b2dd733b062c2743dcef1443f7b0c1",
+          "sourceUrl": "https://freesound.org/people/kyles/sounds/450728/",
+          "author": "kyles",
+          "license": "CC0 1.0",
+          "underSpeech": true,
+          "speechGain": 0.12,
+          "openingGain": 0.3,
+          "raisedGain": 0.4,
+          "sourceTargetLufs": -28,
+          "speechNominalLufs": -46.416375079047505,
+          "lowPassHz": 1800,
+          "passes": 3,
+          "crossfadeSeconds": 1,
+          "excerpt": {
+            "start": 5,
+            "seconds": 90
+          },
+          "envelope": {
+            "riseStart": 94.46999999999998,
+            "riseEnd": 95.27,
+            "holdSeconds": 1.920000000000016,
+            "fadeStart": 97.19000000000001,
+            "fadeEnd": 99.19000000000001
+          }
+        }
+      ],
+      "sha256": "fef04ecbf7c7ebec0089675053c5e609f591e73576d3f6b4390031b455f2e651",
+      "voiceHandles": {
+        "body": {
+          "start": 0.085,
+          "end": 92.475,
+          "retainedPcmSha256": "01e9007805b7a3ab1b6d58069c29b6fbbb5443a4ebce9414757e547220efc44f",
+          "sourceSha256": "ba62916ad15c5a2b2f992b82f8475dee561ce4f14358be9973c6fd27faee340b",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0.2465,
+          "end": 3.7665,
+          "retainedPcmSha256": "f83214b53bed7c891222fea3136e4d2ca978011230ed968a4d099d284ec120e2",
+          "sourceSha256": "cd10dd7282f5e2e6fd3848d40def8ef6a307c492344f218985b0940738ae3da2",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-23",
+        "sourceTakeSha256": "92f44632ac61d5a59a77d774e7b26e9e50ff718a9d7db92846d8cfb016d79f2b",
+        "confirmation": "S064 validat per muntatge"
+      }
+    },
+    {
+      "code": "S063",
+      "activity": "ca-S063",
+      "state": "awaiting-montage-validation",
+      "file": "s063-mixed-v1.mp3",
+      "introFile": "s063-mixed-v1-intro.mp3",
+      "bodyFile": "s063-mixed-v1-cos.mp3",
+      "offset": 4.44,
+      "bodyDuration": 112.53,
+      "fullDuration": 116.97,
+      "voices": {
+        "Mireia": "Aoede",
+        "Biel": "Puck"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "a8a1c31ecd69f92c20a41e6a739917e717f6da8007fba6592d62f5d5b553f9c0",
+      "sourceRequestHash": "34162b9c5161e0d7e8b394f659d2e80021097bf8ebd295bd7bce7c9f0c66686f",
+      "batch": "L27",
+      "rawSha256": "113af488c48ded72fa2057440b9753e0eb695ff290ae1cee796d9ab143caaf38",
+      "takeSha256": "e66559d86d4e0bf1429ef79a52e0f853b75421c7f4857958c75fe5e81fc95a26",
+      "coverage": 0.8918128654970761,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -18.58,
+      "peakDbTP": -2.5,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "kyles-450728",
+          "start": 0,
+          "source": "assets/audio/sources/kyles-450728.mp3",
+          "sourceSha256": "20f19e1eec5394003835bcc940e246b941b2dd733b062c2743dcef1443f7b0c1",
+          "sourceUrl": "https://freesound.org/people/kyles/sounds/450728/",
+          "author": "kyles",
+          "license": "CC0 1.0",
+          "underSpeech": true,
+          "speechGain": 0.12,
+          "openingGain": 0.3,
+          "raisedGain": 0.4,
+          "sourceTargetLufs": -28,
+          "speechNominalLufs": -46.416375079047505,
+          "lowPassHz": 1800,
+          "passes": 3,
+          "crossfadeSeconds": 1,
+          "excerpt": {
+            "start": 5,
+            "seconds": 90
+          },
+          "envelope": {
+            "riseStart": 106.52999999999999,
+            "riseEnd": 107.33,
+            "holdSeconds": 2.000000000000014,
+            "fadeStart": 109.33000000000001,
+            "fadeEnd": 111.33000000000001
+          }
+        }
+      ],
+      "sha256": "622468f337ece93d58b741fba78dc5d8ed0c8f742f4bcf1dade1d3c1787cd37b",
+      "voiceHandles": {
+        "body": {
+          "start": 0.28,
+          "end": 104.81,
+          "retainedPcmSha256": "1e36163773fc51830ef1ee5c41d6352c312dd2e42e449bf00f214135f324d908",
+          "sourceSha256": "ec18d12d630f7fb7621fb7c5cb25bfe44ea84c9591f564469b7d081a626a309c",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0.04,
+          "end": 3.53,
+          "retainedPcmSha256": "47575f4d8c1e7a0700f61001fd73e16ec0d735dd43f957f95642a57efe8f5c54",
+          "sourceSha256": "09c71723611ce4d0b573a32ba876408c02712005df609eae40787573809993a5",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-23",
+        "sourceTakeSha256": "e66559d86d4e0bf1429ef79a52e0f853b75421c7f4857958c75fe5e81fc95a26",
+        "confirmation": "S063 validat per muntatge"
+      }
+    },
+    {
+      "code": "S065",
+      "activity": "ca-S065",
+      "state": "awaiting-montage-validation",
+      "file": "s065-mixed-v1.mp3",
+      "introFile": "s065-mixed-v1-intro.mp3",
+      "bodyFile": "s065-mixed-v1-cos.mp3",
+      "offset": 4.5,
+      "bodyDuration": 110.304,
+      "fullDuration": 114.804,
+      "voices": {
+        "Mireia": "Aoede",
+        "Biel": "Puck"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "a8a1c31ecd69f92c20a41e6a739917e717f6da8007fba6592d62f5d5b553f9c0",
+      "sourceRequestHash": "2edd8a3b7161a22010654018d19f5a42bdc212f7520c991290b722cd27c0c2c4",
+      "batch": "L27",
+      "rawSha256": "113af488c48ded72fa2057440b9753e0eb695ff290ae1cee796d9ab143caaf38",
+      "takeSha256": "597ba92b862eef28fa7b8fcb582fad3b9f5f989d7608b408d9ee8278ee6409ae",
+      "coverage": 0.9025069637883009,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -18.29,
+      "peakDbTP": -2.5,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "kyles-450728",
+          "start": 0,
+          "source": "assets/audio/sources/kyles-450728.mp3",
+          "sourceSha256": "20f19e1eec5394003835bcc940e246b941b2dd733b062c2743dcef1443f7b0c1",
+          "sourceUrl": "https://freesound.org/people/kyles/sounds/450728/",
+          "author": "kyles",
+          "license": "CC0 1.0",
+          "underSpeech": true,
+          "speechGain": 0.12,
+          "openingGain": 0.3,
+          "raisedGain": 0.4,
+          "sourceTargetLufs": -28,
+          "speechNominalLufs": -46.416375079047505,
+          "lowPassHz": 1800,
+          "passes": 3,
+          "crossfadeSeconds": 1,
+          "excerpt": {
+            "start": 5,
+            "seconds": 90
+          },
+          "envelope": {
+            "riseStart": 104.46,
+            "riseEnd": 105.26,
+            "holdSeconds": 1.843999999999994,
+            "fadeStart": 107.104,
+            "fadeEnd": 109.104
+          }
+        }
+      ],
+      "sha256": "d90252421be37066debedc75bb85b0ff122012542675e7335c4e4bbe75daf5d8",
+      "voiceHandles": {
+        "body": {
+          "start": 0.04,
+          "end": 102.344,
+          "retainedPcmSha256": "3f57887c6fd051dbc43ff429e16e9fea74c0d930e1bedfbf7648f242c2046388",
+          "sourceSha256": "ff829a6e179a82bea2e2192d9783568a839f7c925a66cc423a38b9bef54ef95f",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0.07,
+          "end": 3.62,
+          "retainedPcmSha256": "567bc89615597e14109a6a370aa74ed684adf8bc52ea4dbf3e7f7f781cf6f520",
+          "sourceSha256": "072e4542751a4538c8f28626e9b903e2b351871cbee02e6344524d896ed20482",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-23",
+        "sourceTakeSha256": "597ba92b862eef28fa7b8fcb582fad3b9f5f989d7608b408d9ee8278ee6409ae",
+        "confirmation": "S065 validat per muntatge"
+      }
+    },
+    {
+      "code": "S068D",
+      "activity": "ca-S068D",
+      "state": "awaiting-montage-validation",
+      "file": "s068d-mixed-v1.mp3",
+      "introFile": "s068d-mixed-v1-intro.mp3",
+      "bodyFile": "s068d-mixed-v1-cos.mp3",
+      "offset": 6.75,
+      "bodyDuration": 123.815,
+      "fullDuration": 130.565,
+      "voices": {
+        "Aina": "Zephyr",
+        "Ferran": "Algenib"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "17cd4683c769da2badcc720d67926da3398a2be69ff54c217a766273869991d4",
+      "sourceRequestHash": "679fadf8cc5cb1156e3baf0303f588b5cf804dfde9c7cde0a9232dc949ca43c3",
+      "batch": "L28",
+      "rawSha256": "6ae444363d31d1b2527929844ef87b1519dcc48660713cdf31da09c6fb4fb61d",
+      "takeSha256": "ea89c6739cb6262df17eb212f3e4a2b6edda5e979f419a020b36f0df2ab4c9bc",
+      "coverage": 0.8970588235294118,
+      "uncertainTurns": [
+        {
+          "start": 21.490000000000002,
+          "end": 23.26,
+          "heard": "la dui esto ser",
+          "status": "short-turn-awaiting-listening",
+          "originalPreserved": true,
+          "block": "S068D-T01",
+          "part": "portar",
+          "text": "La duies tu?",
+          "coverage": 0.3333333333333333
+        }
+      ],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -19.38,
+      "peakDbTP": -2.48,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "gentle-narration-bed",
+          "origin": "original-procedural-composition",
+          "author": "Sentit",
+          "license": "MIT",
+          "source": "tools/narration-bed.cjs",
+          "title": "Un dinar entre vies",
+          "compositionId": "sentit-s068-v1",
+          "tempoBpm": 64,
+          "rootMidi": 50,
+          "scoreSeed": 68,
+          "notes": 94,
+          "externalSamples": false,
+          "noSpeech": true,
+          "retimed": false,
+          "sha256": "86c9dca42f622dd53417338fef054af38dbe652097c876ae36601a4e60a996c1",
+          "envelope": {
+            "fadeInSeconds": 0.6,
+            "duckStart": 0.7000000000000001,
+            "duckEnd": 1.4500000000000002,
+            "speechGain": 0.14,
+            "nominalSpeechMusicLufs": -43.07743928643524,
+            "riseStart": 117.62,
+            "riseEnd": 118.42000000000002,
+            "holdSeconds": 2,
+            "fadeStart": 120.42000000000002,
+            "fadeEnd": 122.42000000000002
+          },
+          "listeningValidation": "pending",
+          "start": 0,
+          "underSpeech": true
+        }
+      ],
+      "sha256": "e5982c3d20dbe9ae142c0fd8435d858a136de67ec501451ae182e90ece88e93f",
+      "voiceHandles": {
+        "body": {
+          "start": 0.07,
+          "end": 116.085,
+          "retainedPcmSha256": "327fbbd0e2c1fb1b5c6f29c8492c40235146a36cbb8b881b31775171f9f98832",
+          "sourceSha256": "aaad7299cf4f361c334a1c03ef424a5cbcf71a6d41a731f058b76a5f551265a5",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0.07,
+          "end": 5.87,
+          "retainedPcmSha256": "7909ca75ee32391482830510c80bee51cf0fccf034693b4ffe74c3230fc2f73b",
+          "sourceSha256": "b5bd09bb021926c43e9f6df5cee91faa2ccca7ad258c49bd141faca293796803",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-23",
+        "sourceTakeSha256": "ea89c6739cb6262df17eb212f3e4a2b6edda5e979f419a020b36f0df2ab4c9bc",
+        "confirmation": "S068D validat per muntatge"
+      }
+    },
+    {
+      "code": "S071D",
+      "activity": "ca-S071D",
+      "state": "awaiting-montage-validation",
+      "file": "s071d-mixed-v1.mp3",
+      "introFile": "s071d-mixed-v1-intro.mp3",
+      "bodyFile": "s071d-mixed-v1-cos.mp3",
+      "offset": 5.94,
+      "bodyDuration": 181.265,
+      "fullDuration": 187.205,
+      "voices": {
+        "Aina": "Zephyr",
+        "Ferran": "Algenib"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "17cd4683c769da2badcc720d67926da3398a2be69ff54c217a766273869991d4",
+      "sourceRequestHash": "96d5ee06e20b3fc65d2e6b9cd70324f56fd10eb286ccb256f96d66957063ba29",
+      "batch": "L28",
+      "rawSha256": "6ae444363d31d1b2527929844ef87b1519dcc48660713cdf31da09c6fb4fb61d",
+      "takeSha256": "10473f9616263ae3be2d1295c367c42158a54e5cc59ab8278273789ec47c01f0",
+      "coverage": 0.9273648648648649,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -19.16,
+      "peakDbTP": -2.45,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "gentle-narration-bed",
+          "origin": "original-procedural-composition",
+          "author": "Sentit",
+          "license": "MIT",
+          "source": "tools/narration-bed.cjs",
+          "title": "Paper blau a la butxaca",
+          "compositionId": "sentit-s071-v1",
+          "tempoBpm": 62,
+          "rootMidi": 52,
+          "scoreSeed": 71,
+          "notes": 135,
+          "externalSamples": false,
+          "noSpeech": true,
+          "retimed": false,
+          "sha256": "c276160b67bd99de06b15a0a5a8b319a5088dccabb8f1aecd62583e596c502c3",
+          "envelope": {
+            "fadeInSeconds": 0.6,
+            "duckStart": 0.7000000000000001,
+            "duckEnd": 1.4500000000000002,
+            "speechGain": 0.14,
+            "nominalSpeechMusicLufs": -43.07743928643524,
+            "riseStart": 175.07,
+            "riseEnd": 175.87,
+            "holdSeconds": 2,
+            "fadeStart": 177.87,
+            "fadeEnd": 179.87
+          },
+          "listeningValidation": "pending",
+          "start": 0,
+          "underSpeech": true
+        }
+      ],
+      "sha256": "ea2ab416baf80c08ceca1e5041438ea1dc89c116f9e3db2ec55197eae2ead380",
+      "voiceHandles": {
+        "body": {
+          "start": 0.295,
+          "end": 173.76,
+          "retainedPcmSha256": "76e064c75bb23bf8295e749df64af3798b70722df1d1acfacfe612890d60942d",
+          "sourceSha256": "d03d38c370b14d6ab1b538a11acbcfc25ab7176596b97e69030881d191d302c1",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0.145,
+          "end": 5.135,
+          "retainedPcmSha256": "f7bb88ae58202c7b71ffd3ab8b941881df4e7ca76283b21e245454d34ee47324",
+          "sourceSha256": "ea49950fd7d1b66a885f5689f1daa19aee922228ac6b1cb2b664ac57905a0a56",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-23",
+        "sourceTakeSha256": "10473f9616263ae3be2d1295c367c42158a54e5cc59ab8278273789ec47c01f0",
+        "confirmation": "S071D validat per muntatge"
+      }
     }
   ]
 }

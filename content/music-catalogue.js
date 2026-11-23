@@ -184,9 +184,11 @@ export const musicCatalogue = [
     "externalSamples": false,
     "source": "tools/narration-bed.cjs",
     "usedBy": [
-      "ca-S045"
+      "ca-S045",
+      "ca-S045D"
     ],
-    "description": "Composició pròpia de piano suau i harmonia espaiada, 66 pulsacions per minut; partitura determinista 45, fosa d’entrada, música atenuada sota la veu i pujada de dos segons seguida de fosa al final."
+    "description": "Composició pròpia de piano suau i harmonia espaiada, 66 pulsacions per minut; partitura determinista 45, fosa d’entrada, música atenuada sota la veu i pujada de dos segons seguida de fosa al final.",
+    "sharedReason": "Composició compartida intencionadament entre S045 narrada i S045D dialogada, amb mescles i durades pròpies."
   },
   {
     "id": "sentit-s047-v1",
@@ -231,9 +233,11 @@ export const musicCatalogue = [
     "externalSamples": false,
     "source": "tools/narration-bed.cjs",
     "usedBy": [
-      "ca-S068"
+      "ca-S068",
+      "ca-S068D"
     ],
-    "description": "Composició pròpia de piano suau i harmonia espaiada, 64 pulsacions per minut; partitura determinista 68, fosa d’entrada, música atenuada sota la veu i pujada de dos segons seguida de fosa al final."
+    "description": "Composició pròpia de piano suau i harmonia espaiada, 64 pulsacions per minut; partitura determinista 68, fosa d’entrada, música atenuada sota la veu i pujada de dos segons seguida de fosa al final.",
+    "sharedReason": "Composició compartida intencionadament entre S068 narrada i S068D dialogada, amb mescles i durades pròpies."
   },
   {
     "id": "sentit-s069-v1",
@@ -249,6 +253,21 @@ export const musicCatalogue = [
       "ca-S069D"
     ],
     "description": "Composició pròpia de piano suau i harmonia espaiada, 66 pulsacions per minut; partitura determinista 69, fosa d’entrada, música atenuada sota la veu i pujada de dos segons seguida de fosa al final."
+  },
+  {
+    "id": "sentit-s071-v1",
+    "title": "Paper blau a la butxaca",
+    "kind": "narration-bed",
+    "author": "Sentit",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/aaronFortuno/sentit/blob/main/LICENSE",
+    "origin": "original-procedural",
+    "externalSamples": false,
+    "source": "tools/narration-bed.cjs",
+    "usedBy": [
+      "ca-S071D"
+    ],
+    "description": "Composició pròpia de piano suau i harmonia espaiada, 62 pulsacions per minut; partitura determinista 71, fosa d’entrada, música atenuada sota la veu i pujada de dos segons seguida de fosa al final."
   }
 ];
 

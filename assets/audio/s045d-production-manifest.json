@@ -1,0 +1,86 @@
+{
+  "code": "S045D",
+  "activity": "ca-S045D",
+  "state": "awaiting-montage-validation",
+  "file": "s045d-mixed-v1.mp3",
+  "introFile": "s045d-mixed-v1-intro.mp3",
+  "bodyFile": "s045d-mixed-v1-cos.mp3",
+  "offset": 5.2,
+  "bodyDuration": 122.27,
+  "fullDuration": 127.47,
+  "voices": {
+    "Aina": "Zephyr",
+    "Ferran": "Algenib"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "756f855e4c2be092cf27a2e4508782dc064c45b5cef6d6697850ea86088fd55e",
+  "sourceRequestHash": "0262d20d8142b019e7203adb88fa829cfc06b2eeb86850ce458bc730ff561525",
+  "batch": "L23",
+  "rawSha256": "d1f0ee2c92c31199cba4d81632d3af15bbbf281bbdef6e67324578e28b02d3c3",
+  "takeSha256": "453e13fbf8dcee801cc2af4612356f842d0f6e230bed301427dcada4de6720be",
+  "coverage": 0.8987341772151899,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.79,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "gentle-narration-bed",
+      "origin": "original-procedural-composition",
+      "author": "Sentit",
+      "license": "MIT",
+      "source": "tools/narration-bed.cjs",
+      "title": "Cadires sota les estrelles",
+      "compositionId": "sentit-s045-v1",
+      "tempoBpm": 66,
+      "rootMidi": 57,
+      "scoreSeed": 45,
+      "notes": 94,
+      "externalSamples": false,
+      "noSpeech": true,
+      "retimed": false,
+      "sha256": "872f08bae52c686214643919e1cf8433a183db9720aa0bfc1252071b78d7cb05",
+      "envelope": {
+        "fadeInSeconds": 0.6,
+        "duckStart": 0.7000000000000001,
+        "duckEnd": 1.4500000000000002,
+        "speechGain": 0.14,
+        "nominalSpeechMusicLufs": -43.07743928643524,
+        "riseStart": 116.17999999999999,
+        "riseEnd": 116.98,
+        "holdSeconds": 2,
+        "fadeStart": 118.98,
+        "fadeEnd": 120.98
+      },
+      "listeningValidation": "pending",
+      "start": 0,
+      "underSpeech": true
+    }
+  ],
+  "sha256": "5f420861750b09b1c557e2d263219ed1e0d1380fc950d77c1c126d1c61f2c177",
+  "voiceHandles": {
+    "body": {
+      "start": 0.16,
+      "end": 114.63,
+      "retainedPcmSha256": "16ff8131d27dfc8fc8764501d26a0751cbde970a1f108ee7e151cd548834b06e",
+      "sourceSha256": "58ebd05b7c6ace360e48004f9d76d1dc06f634335a68cdad78b1a8c889daf5b6",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0,
+      "end": 4.25,
+      "retainedPcmSha256": "82605d6482a390ca9b75753459cbfd3866c5ce6288ab1d1fe446df5d688c3323",
+      "sourceSha256": "6bd99265e099d0a870ab6869e9a8536cb984b2cd571fb1874938af1542c1d0f4",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-23",
+    "sourceTakeSha256": "453e13fbf8dcee801cc2af4612356f842d0f6e230bed301427dcada4de6720be",
+    "confirmation": "S045D validat per muntatge"
+  }
+}

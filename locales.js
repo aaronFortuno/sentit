@@ -1,6 +1,7 @@
 export const strings = {
   ca: {
     language: 'ca',
+    releaseCinemaClassroomMontages: 'S045D, S063, S064, S065, S068D i S071D amb veus validades i muntatges preparats per escoltar, amb música compartida amb les versions narrades o ambient continu d’aula. Esmenes de S070 (s’asseia) i S071 (Aina/Eina) en cua. Cap síntesi nova.',
     releaseTwelveFinalElevenMontages: 'Dotze comprensions definitives amb il·lustracions i transcripcions netes. Onze muntatges nous amb veus validades, pendents d’audició final; seguiment i crèdits actualitzats. S033 es manté com a entrevista. Cap síntesi nova.',
     releaseTwoMoreVoiceBatches: 'Veus rebudes de S063, S064, S065, S068D i S071D, més esmenes de S007, S024 i S069 per comparar. Dos lots complets addicionals; set peticions registrades, sense reintents. Tot pendent d’audició, sense substituir muntatges.',
     releaseThreeFinalPublications: 'S021, S037 i S043 definitives amb els àudios validats, il·lustracions de context i solucionaris nets. Seguiment i crèdits actualitzats; cap síntesi nova.',
@@ -287,6 +288,7 @@ export const strings = {
   },
   es: {
     language: 'es',
+    releaseCinemaClassroomMontages: 'S045D, S063, S064, S065, S068D y S071D con voces validadas y montajes preparados para escuchar, con música compartida con las versiones narradas o ambiente continuo de aula. Correcciones de S070 (s’asseia) y S071 (Aina/Eina) en cola. Sin síntesis nueva.',
     releaseTwelveFinalElevenMontages: 'Doce comprensiones definitivas con ilustraciones y transcripciones limpias. Once montajes nuevos con voces validadas, pendientes de escucha final; seguimiento y créditos actualizados. S033 se mantiene como entrevista. Sin síntesis nueva.',
     releaseTwoMoreVoiceBatches: 'Voces recibidas de S063, S064, S065, S068D y S071D, más correcciones de S007, S024 y S069 para comparar. Dos lotes completos adicionales; siete peticiones registradas, sin reintentos. Todo pendiente de escucha, sin sustituir montajes.',
     releaseThreeFinalPublications: 'S021, S037 y S043 definitivas con los audios validados, ilustraciones de contexto y solucionarios limpios. Seguimiento y créditos actualizados; sin síntesis nueva.',

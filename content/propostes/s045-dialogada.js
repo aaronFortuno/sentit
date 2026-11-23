@@ -3,6 +3,10 @@ import { proposal, direction as d, spoken as s, question as q, evidence as e } f
 // Variant pròpia per validar; S045 narrada es conserva íntegra.
 export const s045Dialogada = proposal({
   id: 'les-cadires-del-cinema-dialogada', code: 'S045D', title: 'Les cadires del cinema · versió dialogada', grade: '4', level: 'easy', genre: 'story', universeIds: ['aina-ferran'],
+    recordingCues: [{"before":"inici","text":"Base original «Cadires sota les estrelles», compartida amb la narració S045, amb mescla pròpia molt suau sota Aina i Ferran. Sense plaça, pel·lícula, cadires ni pauses afegides per a efectes."},{"after":"final","text":"La veu acaba completa. Marge breu, pujada de la base, dos segons de sosteniment i fosa de dos segons; sense altres sons de comiat."}],
+    seconds: 128, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s045d-mixed-v1.mp3', tracks: { introduction: './assets/audio/s045d-mixed-v1-intro.mp3', body: './assets/audio/s045d-mixed-v1-cos.mp3' },
+    fragment: { start: 5.2, seconds: 122 },
   summary: 'L’Aina es fixa en una cadira blava de l’avi Ferran. Ell recorda una sessió de cinema d’estiu i els esforços que va haver de fer per veure la pantalla.',
   voices: { Aina: 'Zephyr', Ferran: 'Algenib' },
   delivery: 'Aina i el seu avi Ferran conversen en el present. Aina, de deu a dotze anys, fa preguntes curtes, s’imagina què li passava al seu avi i reacciona amb humor, sense fer d’entrevistadora. Ferran recorda amb calidesa, nostàlgia discreta i comicitat sobre les seves pròpies ensopegades. Dues veus constants: Zephyr i Algenib, sense caricatura infantil o de persona gran. El pare, la cosina i el públic no tenen veus pròpies ni s’imiten. Somriure natural en el to final, sense tags vocals ni rialles afegides.',

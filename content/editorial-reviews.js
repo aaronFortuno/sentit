@@ -291,9 +291,9 @@ export const editorialReviews = {
   },
   "ca-S045D": {
     "status": "passed",
-    "reviewedAt": "2026-11-22",
-    "reviewer": "revisio_contextos_previs",
-    "fingerprint": "08c8056b6656b039f67afe9a6b636715deeb06fb538762fd83b9518e18389a8a"
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "a10d9b11d1c046f68f91f7bf5cf08fec8f863b52b482fadc3fba942172df8358"
   },
   "ca-S046": {
     "status": "passed",
@@ -408,21 +408,21 @@ export const editorialReviews = {
   },
   "ca-S063": {
     "status": "passed",
-    "reviewedAt": "2026-11-22",
-    "reviewer": "autoria_tanda4_cuina_taller",
-    "fingerprint": "03499ba64c42e15d3b3fdee23e0858ea73e8eaac1b268547d9bae457edb049ca"
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "94c0a4b2ad03f708674a1467b24f8ffb3d359e1a7592623fc8d4698342801edd"
   },
   "ca-S064": {
     "status": "passed",
-    "reviewedAt": "2026-11-22",
-    "reviewer": "autoria_tanda4_cuina_taller",
-    "fingerprint": "b5a8de32d7d20940deeb11c31963acdf12abe9b3fcd4059d8beb139b3b9bfc99"
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "50b721865bd7865ed18420348e604efde67cd871b9e5764992744e8ae87826d3"
   },
   "ca-S065": {
     "status": "passed",
-    "reviewedAt": "2026-11-22",
-    "reviewer": "autoria_tanda4_cuina_taller",
-    "fingerprint": "da168a5787dd9e54db87879bc6a3ac0f349d2f4d841cb7e83e9cb1755e460d3c"
+    "reviewedAt": "2026-11-23",
+    "reviewer": "revisio_tancament_s042",
+    "fingerprint": "184ca0f6f7fb80c23c09bef185079669bab1be329a8d2420c3d533c10ff6e6de"
   },
   "ca-S066": {
     "status": "passed",
@@ -446,7 +446,7 @@ export const editorialReviews = {
     "status": "passed",
     "reviewedAt": "2026-11-23",
     "reviewer": "revisio_tancament_s042",
-    "fingerprint": "6d08c90c36cdc0f629a93b108861c1d5d01948277de17215fd5405282a7ca4a4"
+    "fingerprint": "c64ed161061a9e7c35c0f3ea11dd829829f982ce7f10539ee33b5dfde5d7ea06"
   },
   "ca-S069": {
     "status": "passed",
@@ -476,7 +476,7 @@ export const editorialReviews = {
     "status": "passed",
     "reviewedAt": "2026-11-23",
     "reviewer": "revisio_tancament_s042",
-    "fingerprint": "fa09daa8a2ff1fcebc13bf333a169fc83e75325463128ee3e86c31091c345642"
+    "fingerprint": "7f0d7fa6a9511971519f7bd47cf99b2023bbc6fbf9ee76c756918aa88fee2444"
   },
   "ca-S072": {
     "status": "passed",

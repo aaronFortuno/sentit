@@ -8,6 +8,10 @@ const soundPlan = 'Ambient real d’aula treballant en grups: dos segons de fosa
 export const aula = [
   proposal({
     id: 'el-pont-de-paper-es-doblega', code: 'S063', title: 'El pont de paper es doblega', grade: '5', level: 'easy', genre: 'explanation', universeIds: ['amb-mireia'],
+    recordingCues: [{"before":"inici","text":"Ambient real continu d’aula amb jovent, molt discret sota Mireia i Biel, amb entrada suau. Sense papers, cadires ni altres efectes puntuals afegits."},{"after":"cadira","text":"La veu acaba completa. Marge breu, pujada suau de l’ambient, dos segons de sosteniment i fosa de dos segons; sense efecte de comiat."}],
+    seconds: 117, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s063-mixed-v1.mp3', tracks: { introduction: './assets/audio/s063-mixed-v1-intro.mp3', body: './assets/audio/s063-mixed-v1-cos.mp3' },
+    fragment: { start: 4.44, seconds: 113 },
     summary: 'En Biel prova un pont de paper entre dos llibres. La Mireia s’hi acosta quan el paper cedeix, i preparen una segona prova amb les mateixes monedes.',
     voices, delivery, soundCredits, soundPlan,
     editorialFocus: '5è accessible: comprendre què es manté i què canvia entre dues proves, identificar una observació i seguir l’ordre de les accions. Vuit preguntes sense exigir vocabulari científic ni calcular pesos.',
@@ -40,6 +44,10 @@ export const aula = [
   }),
   proposal({
     id: 'un-anunci-que-va-massa-de-pressa', code: 'S064', title: 'Un anunci que va massa de pressa', grade: '5', level: 'middle', genre: 'instructions', universeIds: ['amb-mireia'],
+    recordingCues: [{"before":"inici","text":"Ambient real continu d’aula amb jovent, molt discret sota Mireia i Biel, amb entrada suau. Sense papers, cadires ni altres efectes puntuals afegits."},{"after":"final","text":"La veu acaba completa. Marge breu, pujada suau de l’ambient, dos segons de sosteniment i fosa de dos segons; sense efecte de comiat."}],
+    seconds: 105, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s064-mixed-v1.mp3', tracks: { introduction: './assets/audio/s064-mixed-v1-intro.mp3', body: './assets/audio/s064-mixed-v1-cos.mp3' },
+    fragment: { start: 4.470000000000001, seconds: 100 },
     summary: 'La classe prepara un anunci per explicar un taller a les famílies. En Biel el llegeix de pressa i la Mireia prova què se n’entén sense mirar el paper.',
     voices, delivery, soundCredits, soundPlan,
     editorialFocus: '5è intermèdia: separar informació essencial i accessòria i relacionar les dificultats d’una primera escolta amb els canvis proposats. Vuit preguntes; el sentit de les pauses es treballa a través de reaccions reals.',
@@ -72,6 +80,10 @@ export const aula = [
   }),
   proposal({
     id: 'la-mesura-que-canviava-de-lloc', code: 'S065', title: 'La mesura que canviava de lloc', grade: '6', level: 'easy', genre: 'explanation', universeIds: ['amb-mireia'],
+    recordingCues: [{"before":"inici","text":"Ambient real continu d’aula amb jovent, molt discret sota Mireia i Biel, amb entrada suau. Sense papers, cadires ni altres efectes puntuals afegits."},{"after":"tancar","text":"La veu acaba completa. Marge breu, pujada suau de l’ambient, dos segons de sosteniment i fosa de dos segons; sense efecte de comiat."}],
+    seconds: 115, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s065-mixed-v1.mp3', tracks: { introduction: './assets/audio/s065-mixed-v1-intro.mp3', body: './assets/audio/s065-mixed-v1-cos.mp3' },
+    fragment: { start: 4.5, seconds: 110 },
     summary: 'En Biel i el seu grup han obtingut dues llargades diferents de la mateixa taula. La Mireia li demana que li mostri com han posat el regle.',
     voices, delivery, soundCredits, soundPlan,
     editorialFocus: '6è accessible: reconstruir una mesura explicada oralment, identificar dos canvis en la col·locació del regle i diferenciar repetir una acció de canviar l’objecte. Nou preguntes sense conversions d’unitats ni càlcul obligatori.',
