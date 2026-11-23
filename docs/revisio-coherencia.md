@@ -92,7 +92,7 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S077](https://sentit.ortogra.fi/#lectura=ca-S077) | El sopar que havia de viatjar | 6è | Provisional · revisió superada | 2026-11-22 | `f60abdad44b4…` |
 | [ca-S078](https://sentit.ortogra.fi/#lectura=ca-S078) | El soroll que seguia la cadira | 5è | Revisió superada · guió validat | 2026-11-22 | `be8e59b618a1…` |
 | [ca-S079](https://sentit.ortogra.fi/#lectura=ca-S079) | Una funda que no tanca | 5è | Revisió superada · guió validat | 2026-11-22 | `e8fc2f46e2fd…` |
-| [ca-S080](https://sentit.ortogra.fi/#lectura=ca-S080) | El segon assaig sona lluny | 6è | Provisional · revisió superada | 2026-11-22 | `66dc7eed8ea0…` |
+| [ca-S080](https://sentit.ortogra.fi/#lectura=ca-S080) | El segon assaig sona lluny | 6è | Revisió superada · guió validat | 2026-11-22 | `66dc7eed8ea0…` |
 | [ca-S081](https://sentit.ortogra.fi/#lectura=ca-S081) | La guitarra del concert de divendres | 5è | Provisional · revisió superada | 2026-11-22 | `2a784ecc4276…` |
 | [ca-S082](https://sentit.ortogra.fi/#lectura=ca-S082) | El so que volíem gravar | 6è | Provisional · revisió superada | 2026-11-22 | `b240a4b113ef…` |
 

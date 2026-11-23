@@ -1725,9 +1725,9 @@
     "approvalSource": "Validació explícita del docent el 22/11/2026: «S079 també validat per síntesi de veu», amb revisió del comiat per eliminar «Jo», ajudar físicament en Biel mentre parlen i donar naturalitat amb petites pauses. Aplicat «De res, Biel. T’aguanto la porta... posa’t bé la motxilla. Això... ara sí. Fins aviat!», amb direcció no parlada i revisió independent renovada. Es mantenen 5è intermèdia i vuit preguntes."
   },
   "S080": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "3dea7681454b97b73c32c895c9ca254eae4e42197ad5660ad8d14aff29f2a652",
+    "reviewedAt": "2026-11-23",
     "reviewActivity": "ca-S080",
     "reviewContent": "content/propostes/tanda4/taller.js",
     "format": "6è accessible: relacionar dues gravacions amb condicions diferents i reconstruir una comparació possible. Nou preguntes sense identificar notes musicals ni necessitar escoltar exemples externs.",
@@ -1737,7 +1737,8 @@
     },
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
-    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+    "ending": "Guió, veus i escaleta validats pel docent. Lectura completa per agrupar amb el mateix repartiment en un lot compatible; veus pendents de producció i audició.",
+    "approvalSource": "S080 validat per síntesi de veus"
   },
   "S081": {
     "status": "approved",

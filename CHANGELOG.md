@@ -3,6 +3,7 @@
 ## 0.1.85 · 23 de novembre de 2026
 
 - S045D validada pel docent per a síntesi amb Aina/Zephyr i Ferran/Algenib; guió i escaleta conservats i aprovació vinculada a l’empremta exacta.
+- S080 també validada per a síntesi amb Biel/Puck i Elies/Algieba. El bloc de converses al taller ja té els cinc guions aprovats.
 - P16 ja té les tres variants dialogades validades (S045D, S046D i S069D), amb una previsió conjunta de 6:50. Cua i seguiment actualitzats; cap petició de síntesi enviada.
 
 ## 0.1.84 · 23 de novembre de 2026
