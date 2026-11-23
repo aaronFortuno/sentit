@@ -1426,9 +1426,9 @@
     "approvalSource": "S063 validat per pujar a síntesi de veus"
   },
   "S064": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "8416dec53471002d71ffc78093b87f2c2a9d256d08ae0d5ed944368ab4e7ff7f",
+    "reviewedAt": "2026-11-23",
     "reviewActivity": "ca-S064",
     "reviewContent": "content/propostes/tanda4/aula.js",
     "format": "5è intermèdia: separar informació essencial i accessòria i relacionar les dificultats d’una primera escolta amb els canvis proposats. Vuit preguntes; el sentit de les pauses es treballa a través de reaccions reals.",
@@ -1438,7 +1438,8 @@
     },
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
-    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+    "ending": "Guió, veus i escaleta validats pel docent. Lectura completa per agrupar amb el mateix repartiment en un lot compatible; veus pendents de producció i audició.",
+    "approvalSource": "S064 validat per síntesi de veus"
   },
   "S065": {
     "status": "approved",

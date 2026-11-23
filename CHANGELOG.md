@@ -4,6 +4,7 @@
 
 - S045D validada pel docent per a síntesi amb Aina/Zephyr i Ferran/Algenib; guió i escaleta conservats i aprovació vinculada a l’empremta exacta.
 - S080 també validada per a síntesi amb Biel/Puck i Elies/Algieba. El bloc de converses al taller ja té els cinc guions aprovats.
+- S064 validada per a síntesi amb Mireia/Aoede i Biel/Puck; el bloc d’aula ja té els cinc guions aprovats. Text, veus i escaleta conservats.
 - S053 i S055 validades per a síntesi amb Mar/Erinome; el bloc de notícies ja té els cinc guions aprovats. S071D també rep validació docent pròpia amb Aina/Zephyr i Ferran/Algenib; no s’hi traspassa l’aprovació de la narració original.
 - P16 ja té les tres variants dialogades validades (S045D, S046D i S069D), amb una previsió conjunta de 6:50. Cua i seguiment actualitzats; cap petició de síntesi enviada.
 

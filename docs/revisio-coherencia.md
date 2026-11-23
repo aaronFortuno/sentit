@@ -73,7 +73,7 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S061](https://sentit.ortogra.fi/#lectura=ca-S061) | El curt que començava pel final | 5è | Provisional · revisió superada | 2026-11-22 | `ac40b599a24f…` |
 | [ca-S062](https://sentit.ortogra.fi/#lectura=ca-S062) | Dos cartells per al mateix concert | 6è | Provisional · revisió superada | 2026-11-22 | `06c5723fb0f3…` |
 | [ca-S063](https://sentit.ortogra.fi/#lectura=ca-S063) | El pont de paper es doblega | 5è | Revisió superada · guió validat | 2026-11-22 | `03499ba64c42…` |
-| [ca-S064](https://sentit.ortogra.fi/#lectura=ca-S064) | Un anunci que va massa de pressa | 5è | Provisional · revisió superada | 2026-11-22 | `b5a8de32d7d2…` |
+| [ca-S064](https://sentit.ortogra.fi/#lectura=ca-S064) | Un anunci que va massa de pressa | 5è | Revisió superada · guió validat | 2026-11-22 | `b5a8de32d7d2…` |
 | [ca-S065](https://sentit.ortogra.fi/#lectura=ca-S065) | La mesura que canviava de lloc | 6è | Revisió superada · guió validat | 2026-11-22 | `da168a5787dd…` |
 | [ca-S066](https://sentit.ortogra.fi/#lectura=ca-S066) | El mapa de sons del passadís | 6è | Revisió superada · guió validat | 2026-11-23 | `b340317d0536…` |
 | [ca-S067](https://sentit.ortogra.fi/#lectura=ca-S067) | La mateixa pregunta? | 1r d’ESO | Revisió superada · guió validat | 2026-11-22 | `8132e2497843…` |

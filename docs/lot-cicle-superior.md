@@ -6,7 +6,7 @@ Actualitzat: **23/11/2026**. **30 comprensions orals** en 6 blocs de repartiment
 | --- | --- | --- | ---: |
 | [Les notícies de la Mar](#mar) | Mar · Erinome | S053, S054, S055, S056, S057 | 5/5 |
 | [Les troballes de la Laia i en Biel](#laia-biel) | Laia i Biel · Leda + Puck | S058, S059, S060, S061, S062 | 5/5 |
-| [A classe amb la Mireia · amb en Biel](#mireia-biel) | Mireia i Biel · Aoede + Puck | S063, S064, S065, S066, S067 | 4/5 |
+| [A classe amb la Mireia · amb en Biel](#mireia-biel) | Mireia i Biel · Aoede + Puck | S063, S064, S065, S066, S067 | 5/5 |
 | [Els records de l’avi Ferran](#ferran) | Ferran · Algenib | S068, S069, S070, S071, S072 | 5/5 |
 | [Converses de cuina · Laia i Ona](#laia-ona) | Laia i Ona · Leda + Sulafat | S073, S074, S075, S076, S077 | 5/5 |
 | [Converses al taller · Biel i Elies](#biel-elies) | Biel i Elies · Puck + Algieba | S078, S079, S080, S081, S082 | 5/5 |
@@ -58,7 +58,7 @@ Mireia i Biel · Aoede + Puck. Les lectures són independents; no cal haver-ne e
 | Codi | Títol | Curs · dificultat | Tipologia | Durada prevista | Preguntes | Estat |
 | --- | --- | --- | --- | --- | ---: | --- |
 | [ca-S063](https://sentit.ortogra.fi/#lectura=ca-S063) | El pont de paper es doblega | 5è · Accessible | Explicació | Prevista 2:00–2:30 | 8 | Guió validat |
-| [ca-S064](https://sentit.ortogra.fi/#lectura=ca-S064) | Un anunci que va massa de pressa | 5è · Intermèdia | Instruccions | Prevista 2:00–2:30 | 8 | Provisional · pendent del docent |
+| [ca-S064](https://sentit.ortogra.fi/#lectura=ca-S064) | Un anunci que va massa de pressa | 5è · Intermèdia | Instruccions | Prevista 2:00–2:30 | 8 | Guió validat |
 | [ca-S065](https://sentit.ortogra.fi/#lectura=ca-S065) | La mesura que canviava de lloc | 6è · Accessible | Explicació | Prevista 2:05–2:30 | 9 | Guió validat |
 | [ca-S066](https://sentit.ortogra.fi/#lectura=ca-S066) | El mapa de sons del passadís | 6è · Intermèdia | Instruccions | Prevista 3:10–3:45 | 8 | Guió validat · curs i dificultat per valorar després d’escoltar |
 | [ca-S067](https://sentit.ortogra.fi/#lectura=ca-S067) | La mateixa pregunta? | 1r d’ESO · Intermèdia | Explicació | Prevista 3:10–3:45 | 9 | Guió validat |
