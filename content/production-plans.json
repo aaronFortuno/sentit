@@ -1259,9 +1259,9 @@
     "approvalSource": "S054 validat per síntesi de veus"
   },
   "S055": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "18dbc0ffe274d9ab9a4d687fd995a333167ab4c4dd12c77264c9e5c13a987168",
+    "reviewedAt": "2026-11-23",
     "reviewActivity": "ca-S055",
     "reviewContent": "content/propostes/tanda4/noticies.js",
     "format": "6è accessible: seguir el recorregut d’uns objectes, atribuir dues decisions a motius diferents i distingir consulta i donació. Nou preguntes sobre una notícia de ficció autosuficient.",
@@ -1270,7 +1270,8 @@
     },
     "plannedNewRequests": 1,
     "strategy": "packed-title-program-v1",
-    "ending": "Veus completes, marges i muntatge segons escaleta. Pendent de validació docent; agrupar lectures senceres del mateix repartiment en una petició compatible."
+    "ending": "Guió, veus i escaleta validats pel docent. Lectura completa per agrupar amb el mateix repartiment en un lot compatible; veus pendents de producció i audició.",
+    "approvalSource": "S055 validat per síntesi de veus"
   },
   "S056": {
     "status": "approved",
@@ -1867,9 +1868,9 @@
     "ending": "Variant independent del relat narrat. Guió, veus i escaleta pendents de validació docent pròpia abans de sintetitzar."
   },
   "S071D": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "21efb6bebf98311c4d70b0e2e3d76dedaf6dc344240eef4bd1c612877432cb18",
+    "reviewedAt": "2026-11-23",
     "reviewActivity": "ca-S071D",
     "reviewContent": "content/propostes/s071-dialogada.js",
     "format": "Variant dialogada de S071, que es conserva. 5è avançada: seguir dos parells d’entrades semblants, distingir dies, llocs i espectacles i reconstruir la confusió. Mateixes vuit exigències de comprensió, amb les reaccions espontànies de l’Aina. Validació docent pròpia pendent.",
@@ -1884,6 +1885,7 @@
       "Ferran": "Algenib"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Variant independent del relat narrat. Guió, veus i escaleta pendents de validació docent pròpia abans de sintetitzar."
+    "ending": "Guió, veus i escaleta validats pel docent. Lectura completa per agrupar amb el mateix repartiment en un lot compatible; veus pendents de producció i audició.",
+    "approvalSource": "S071D validat per síntesi de veus"
   }
 }

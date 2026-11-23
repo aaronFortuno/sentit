@@ -64,7 +64,7 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S052](https://sentit.ortogra.fi/#lectura=ca-S052) | La capsa que semblava un llibre | 4t | Provisional · revisió superada | 2026-11-22 | `6795a7f1e2c0…` |
 | [ca-S053](https://sentit.ortogra.fi/#lectura=ca-S053) | La pista torna a obrir al vespre | 5è | Provisional · revisió superada | 2026-11-22 | `4e76769512a4…` |
 | [ca-S054](https://sentit.ortogra.fi/#lectura=ca-S054) | Una finestra per recollir els encàrrecs | 5è | Revisió superada · guió validat | 2026-11-22 | `34e48649d1bc…` |
-| [ca-S055](https://sentit.ortogra.fi/#lectura=ca-S055) | Els cartells de cinema tornen al barri | 6è | Provisional · revisió superada | 2026-11-22 | `7ba953cb5e8e…` |
+| [ca-S055](https://sentit.ortogra.fi/#lectura=ca-S055) | Els cartells de cinema tornen al barri | 6è | Revisió superada · guió validat | 2026-11-22 | `7ba953cb5e8e…` |
 | [ca-S056](https://sentit.ortogra.fi/#lectura=ca-S056) | El taller canvia de casa | 5è | Revisió superada · guió validat | 2026-11-22 | `39766217bff3…` |
 | [ca-S057](https://sentit.ortogra.fi/#lectura=ca-S057) | La volta nova del bus de dissabte | 6è | Revisió superada · guió validat | 2026-11-22 | `03aef36d8640…` |
 | [ca-S058](https://sentit.ortogra.fi/#lectura=ca-S058) | La pancarta que tapava la porta | 5è | Provisional · revisió superada | 2026-11-22 | `56df8abc8b9a…` |
@@ -83,7 +83,7 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S069D](https://sentit.ortogra.fi/#lectura=ca-S069D) | La pissarra del partit · versió dialogada | 5è | Revisió superada · guió validat | 2026-11-22 | `c1df39c4a654…` |
 | [ca-S070](https://sentit.ortogra.fi/#lectura=ca-S070) | El dia que no va sonar el disc | 6è | Revisió superada · guió validat | 2026-11-22 | `c329111785d5…` |
 | [ca-S071](https://sentit.ortogra.fi/#lectura=ca-S071) | Les dues entrades blaves | 5è | Revisió superada · guió validat | 2026-11-22 | `63e0c902e8ff…` |
-| [ca-S071D](https://sentit.ortogra.fi/#lectura=ca-S071D) | Les dues entrades blaves · versió dialogada | 5è | Provisional · revisió superada | 2026-11-23 | `fa09daa8a2ff…` |
+| [ca-S071D](https://sentit.ortogra.fi/#lectura=ca-S071D) | Les dues entrades blaves · versió dialogada | 5è | Revisió superada · guió validat | 2026-11-23 | `fa09daa8a2ff…` |
 | [ca-S072](https://sentit.ortogra.fi/#lectura=ca-S072) | El quadern de la parada | 6è | Revisió superada · guió validat | 2026-11-22 | `b7efd9ded637…` |
 | [ca-S073](https://sentit.ortogra.fi/#lectura=ca-S073) | El dinar que surt en dues tandes | 5è | Provisional · revisió superada | 2026-11-22 | `072b5aceaffb…` |
 | [ca-S074](https://sentit.ortogra.fi/#lectura=ca-S074) | Les dues llibretes del pastís | 5è | Revisió superada · guió validat | 2026-11-22 | `a6a24886eb9e…` |

@@ -3098,5 +3098,23 @@ export const productionProgress = {
     "listeningApproval": false,
     "confirmation": "S080 validat per síntesi de veus",
     "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar."
+  },
+  "ca-S055": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-23",
+    "editorialFingerprint": "7ba953cb5e8e224a14843def2f977ad3519ed4031a355c3b6d9a108eba7e27ed",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "S055 validat per síntesi de veus",
+    "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar."
+  },
+  "ca-S071D": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-23",
+    "editorialFingerprint": "fa09daa8a2ff1fcebc13bf333a169fc83e75325463128ee3e86c31091c345642",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "S071D validat per síntesi de veus",
+    "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar."
   }
 };
