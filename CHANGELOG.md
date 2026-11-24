@@ -2,6 +2,7 @@
 
 ## 0.1.98 · 24 de novembre de 2026
 
+- S096, S099, S100, S102, S104, S105, S108 i S109 amb guió, veus proposades i escaleta validats pel docent. Passen a «Pendent de síntesi» amb aprovació vinculada al contingut exacte; seguiment i recomptes de lots al dia. Cap veu produïda ni petició enviada en aquest pas.
 - Nous universos filtrables «Mans a l’obra» i «A peu de camí»: quatre guions cadascun, S104–S111, de 3r accessible a 6è avançada. Projectes i ajustos al taller amb Biel/Elies; passejades i imprevistos amb Aina/Ferran. Es mantenen els onze recurrents i les seves veus.
 - Seixanta preguntes amb respostes i cites, contextos impresos, guions i escaletes revisats independentment. La informació necessària s’escolta al diàleg; cap mapa, il·lustració, reconeixement de sons o muntatge manual és requisit per resoldre-les.
 - Document de treball i agrupacions per repartiment, encara per completar i validar. Plans de producció vinculats als fitxers nous; seguiment actualitzat, sense aprovacions atribuïdes, veu nova ni despesa de quota.

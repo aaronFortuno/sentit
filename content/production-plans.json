@@ -2173,9 +2173,9 @@
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
   },
   "S096": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "bec18ec74b32dbe33192822c4d237346dc05d11528f498cb9a0a7c2a15bcf14b",
+    "reviewedAt": "2026-11-24",
     "reviewActivity": "ca-S096",
     "reviewContent": "content/propostes/quotidianes/ferran-gestions.js",
     "format": "6è intermèdia: entendre per a què serveix una instància, concretar una ubicació i distingir la presentació del seguiment. Formulari i canals d’avís ficticis d’aquesta oficina, no normes generals.",
@@ -2190,7 +2190,8 @@
       "Informadora": "Gacrux"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 24/11: S099, S096 validats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
   },
   "S097": {
     "status": "awaiting-validation",
@@ -2213,9 +2214,9 @@
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
   },
   "S099": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "36f66ad9d551795f1a8b0b64de65c4ceb930fe157a9490d69384fe5ea4b5b4c5",
+    "reviewedAt": "2026-11-24",
     "reviewActivity": "ca-S099",
     "reviewContent": "content/propostes/quotidianes/mar-consultes.js",
     "format": "1r d’ESO intermèdia: reconstruir una incidència, distingir l’avaria reparada dels desperfectes i entendre la funció de fotografies, factura i informe. Cas de ficció, sense establir cobertures d’assegurança universals.",
@@ -2230,12 +2231,13 @@
       "Pèrita": "Callirrhoe"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 24/11: S099, S096 validats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
   },
   "S100": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "b99266a97013bfc21811abd0268d4d6a73e183c4268e214dba13b6b75eb1e833",
+    "reviewedAt": "2026-11-24",
     "reviewActivity": "ca-S100",
     "reviewContent": "content/propostes/quotidianes/mar-consultes.js",
     "format": "6è accessible: expressar una reclamació, relacionar quantitat i import i seguir una devolució concreta. Imports i procediment són de la botiga fictícia del relat, sense generalitzar drets o terminis.",
@@ -2250,7 +2252,8 @@
       "Dependenta": "Callirrhoe"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 24/11: S104, S100 i S108 validats per síntesi de veus; S109, S102 i S105 també preparats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
   },
   "S101": {
     "status": "awaiting-validation",
@@ -2273,9 +2276,9 @@
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
   },
   "S102": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "e65e0083cf18d4e0f38caee2d20b7387d7547891efa05e7dffa7ad5fd7c84832",
+    "reviewedAt": "2026-11-24",
     "reviewActivity": "ca-S102",
     "reviewContent": "content/propostes/quotidianes/mar-consultes.js",
     "format": "6è intermèdia: explicar una incidència, identificar dades útils i seguir com es tramita una queixa concreta. Línia, parades i procediment ficticis, sense atribuir obligacions generals a empreses reals.",
@@ -2290,7 +2293,8 @@
       "Informadora": "Callirrhoe"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 24/11: S104, S100 i S108 validats per síntesi de veus; S109, S102 i S105 també preparats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
   },
   "S098": {
     "status": "awaiting-validation",
@@ -2333,9 +2337,9 @@
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
   },
   "S104": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "b9240344c6699c6d426ce336d1d20cc804c47ab8e4599fb9dbd51dcc7f13f205",
+    "reviewedAt": "2026-11-24",
     "reviewActivity": "ca-S104",
     "reviewContent": "content/propostes/universos/mans-a-lobra.js",
     "format": "3r accessible: un objecte, un problema i una solució feta entre dos. Seguir què proven i per què canvien de material. Totes les accions necessàries s’expliquen oralment; no cal veure el cartell.",
@@ -2350,12 +2354,13 @@
       "Elies": "Algieba"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 24/11: S104, S100 i S108 validats per síntesi de veus; S109, S102 i S105 també preparats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
   },
   "S105": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "e5daea99d0660bb35cb25ae0c123b122391578e5a73b9a7bb1538a0f86ae9547",
+    "reviewedAt": "2026-11-24",
     "reviewActivity": "ca-S105",
     "reviewContent": "content/propostes/universos/mans-a-lobra.js",
     "format": "4t intermèdia: distingir una primera sospita del resultat de dues comprovacions. El terme faristol queda definit a la primera intervenció i la disposició del terra s’explica en veu alta.",
@@ -2370,7 +2375,8 @@
       "Elies": "Algieba"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 24/11: S104, S100 i S108 validats per síntesi de veus; S109, S102 i S105 també preparats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
   },
   "S106": {
     "status": "awaiting-validation",
@@ -2413,9 +2419,9 @@
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
   },
   "S108": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "e834435f536b2acf2a53473b5b2d25e0d0f09c3b1a6e43cc743858ad69e28541",
+    "reviewedAt": "2026-11-24",
     "reviewActivity": "ca-S108",
     "reviewContent": "content/propostes/universos/a-peu-de-cami.js",
     "format": "3r accessible: situar dos llocs descrits en veu alta, recordar què porta cadascú i seguir una decisió senzilla. L’escena s’entén sense cap imatge o plànol; les preguntes no depenen d’identificar sons.",
@@ -2430,12 +2436,13 @@
       "Ferran": "Algenib"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 24/11: S104, S100 i S108 validats per síntesi de veus; S109, S102 i S105 també preparats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
   },
   "S109": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "a30847d549ee364f8cba8ba1665aa6997979e7d35885b8168630a1825639d381",
+    "reviewedAt": "2026-11-24",
     "reviewActivity": "ca-S109",
     "reviewContent": "content/propostes/universos/a-peu-de-cami.js",
     "format": "4t intermèdia: relacionar l’estat de dos camins, el calçat i el temps disponible. Un problema principal i alternatives descrites oralment; no hi ha girs, orientació cartogràfica ni coneixements de muntanya necessaris.",
@@ -2450,7 +2457,8 @@
       "Ferran": "Algenib"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 24/11: S104, S100 i S108 validats per síntesi de veus; S109, S102 i S105 també preparats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
   },
   "S110": {
     "status": "awaiting-validation",

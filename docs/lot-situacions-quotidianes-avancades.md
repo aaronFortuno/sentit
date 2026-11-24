@@ -1,6 +1,6 @@
 # Situacions quotidianes · serveis i gestions
 
-Tanda del 23 de novembre de 2026. **Dotze guions nous, revisats independentment i pendents de validació docent.** Cada enllaç obre directament el solucionari amb el guió anotat, les preguntes i l’escaleta. No hi ha veus sintetitzades ni aprovacions atribuïdes a aquestes propostes.
+Tanda del 23 de novembre de 2026, actualitzada el 24/11. **Dotze guions amb revisió independent superada; S096, S099, S100 i S102 ja validats pel docent per a síntesi, els altres vuit pendents del seu vistiplau.** Cada enllaç obre directament el solucionari amb el guió anotat, les preguntes i l’escaleta. Encara no hi ha veus sintetitzades per a aquestes propostes.
 
 ## Guions per revisar
 
@@ -28,9 +28,9 @@ Horaris, límits de paqueteria, condicions de botiga i canals de tràmit pertany
 | Proposta | Guions del lot | Nous per validar | Previsió en text pla | Veus físiques |
 | --- | --- | --- | ---: | --- |
 | P19 | S085, S086, S092, S093, S094 | S092–S094 | 7:04 | Erinome + Despina |
-| P21 | S089, S095, S096, S097 | S095–S097 | 6:39 | Algenib + Gacrux |
+| P21 | S089, S095, S096, S097 | S095, S097 | 6:39 | Algenib + Gacrux |
 | P13 | S074, S076, S098, S103 | S098, S103 | 7:50 | Leda + Sulafat |
-| P23 | S099, S100, S101, S102 | S099–S102 | 6:57 | Erinome + Callirrhoe |
+| P23 | S099, S100, S101, S102 | S101 | 6:57 | Erinome + Callirrhoe |
 
 P23 pot reservar espai per reposar l’inici de S056, ja demanat i amb la resta de les veus aprovada; primer cal preparar el pla exacte de títol, avís de ficció i salutació. Les altres esmenes rebudes de L30/L31 s’escolten abans de decidir si cal cap reintent.
 

@@ -4954,11 +4954,14 @@ export const productionProgress = {
     "teacherAssessment": "Guió, preguntes i escaleta revisats independentment; validació docent pendent."
   },
   "ca-S096": {
-    "state": "script-awaiting-validation",
+    "state": "ready-for-voices",
     "editorialFingerprint": "9cbd79ad4c19b402774c2ca1e069c6768691e98aefc4646b3e38284fb618c1fa",
     "plannedNewRequests": 1,
     "listeningApproval": false,
-    "teacherAssessment": "Guió, preguntes i escaleta revisats independentment; validació docent pendent."
+    "teacherAssessment": "Guió, veus i escaleta validats pel docent; preparar un lot compatible de síntesi.",
+    "scriptApprovedAt": "2026-11-24",
+    "voiceApproval": false,
+    "scriptApprovalSource": "Docent 24/11: S099, S096 validats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
   },
   "ca-S097": {
     "state": "script-awaiting-validation",
@@ -4975,18 +4978,24 @@ export const productionProgress = {
     "teacherAssessment": "Guió, preguntes i escaleta revisats independentment; validació docent pendent."
   },
   "ca-S099": {
-    "state": "script-awaiting-validation",
+    "state": "ready-for-voices",
     "editorialFingerprint": "ee151c50d2ff78ec12d0b1cd56c9bd7ab0659d99964270a906abd49445f2f1c7",
     "plannedNewRequests": 1,
     "listeningApproval": false,
-    "teacherAssessment": "Guió, preguntes i escaleta revisats independentment; validació docent pendent."
+    "teacherAssessment": "Guió, veus i escaleta validats pel docent; preparar un lot compatible de síntesi.",
+    "scriptApprovedAt": "2026-11-24",
+    "voiceApproval": false,
+    "scriptApprovalSource": "Docent 24/11: S099, S096 validats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
   },
   "ca-S100": {
-    "state": "script-awaiting-validation",
+    "state": "ready-for-voices",
     "editorialFingerprint": "bc40756d2ec9521e61cde3e2f10ef4c8103ecb0e02f32a8b29fc3d36c3d01e4c",
     "plannedNewRequests": 1,
     "listeningApproval": false,
-    "teacherAssessment": "Guió, preguntes i escaleta revisats independentment; validació docent pendent."
+    "teacherAssessment": "Guió, veus i escaleta validats pel docent; preparar un lot compatible de síntesi.",
+    "scriptApprovedAt": "2026-11-24",
+    "voiceApproval": false,
+    "scriptApprovalSource": "Docent 24/11: S104, S100 i S108 validats per síntesi de veus; S109, S102 i S105 també preparats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
   },
   "ca-S101": {
     "state": "script-awaiting-validation",
@@ -4996,11 +5005,14 @@ export const productionProgress = {
     "teacherAssessment": "Guió, preguntes i escaleta revisats independentment; validació docent pendent."
   },
   "ca-S102": {
-    "state": "script-awaiting-validation",
+    "state": "ready-for-voices",
     "editorialFingerprint": "4dd156b4c265063cd61702d5277774bec616590d1650d41831cc1e51e36696b7",
     "plannedNewRequests": 1,
     "listeningApproval": false,
-    "teacherAssessment": "Guió, preguntes i escaleta revisats independentment; validació docent pendent."
+    "teacherAssessment": "Guió, veus i escaleta validats pel docent; preparar un lot compatible de síntesi.",
+    "scriptApprovedAt": "2026-11-24",
+    "voiceApproval": false,
+    "scriptApprovalSource": "Docent 24/11: S104, S100 i S108 validats per síntesi de veus; S109, S102 i S105 també preparats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
   },
   "ca-S103": {
     "state": "script-awaiting-validation",
@@ -5010,18 +5022,24 @@ export const productionProgress = {
     "teacherAssessment": "Guió, preguntes i escaleta revisats independentment; validació docent pendent."
   },
   "ca-S104": {
-    "state": "script-awaiting-validation",
+    "state": "ready-for-voices",
     "editorialFingerprint": "a232dd05ea42467b650734e3f5618c38f6c7f096f4aeef87c47eabd082679a7a",
     "plannedNewRequests": 1,
     "listeningApproval": false,
-    "teacherAssessment": "Guió, preguntes i escaleta revisats independentment; validació docent pendent."
+    "teacherAssessment": "Guió, veus i escaleta validats pel docent; preparar un lot compatible de síntesi.",
+    "scriptApprovedAt": "2026-11-24",
+    "voiceApproval": false,
+    "scriptApprovalSource": "Docent 24/11: S104, S100 i S108 validats per síntesi de veus; S109, S102 i S105 també preparats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
   },
   "ca-S105": {
-    "state": "script-awaiting-validation",
+    "state": "ready-for-voices",
     "editorialFingerprint": "3cb9bf954dcd95248a165d289e6249c328faecf945c2a589a8e36fed0ad33b60",
     "plannedNewRequests": 1,
     "listeningApproval": false,
-    "teacherAssessment": "Guió, preguntes i escaleta revisats independentment; validació docent pendent."
+    "teacherAssessment": "Guió, veus i escaleta validats pel docent; preparar un lot compatible de síntesi.",
+    "scriptApprovedAt": "2026-11-24",
+    "voiceApproval": false,
+    "scriptApprovalSource": "Docent 24/11: S104, S100 i S108 validats per síntesi de veus; S109, S102 i S105 també preparats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
   },
   "ca-S106": {
     "state": "script-awaiting-validation",
@@ -5038,18 +5056,24 @@ export const productionProgress = {
     "teacherAssessment": "Guió, preguntes i escaleta revisats independentment; validació docent pendent."
   },
   "ca-S108": {
-    "state": "script-awaiting-validation",
+    "state": "ready-for-voices",
     "editorialFingerprint": "a42a9fc07182fd8ad17c79c0a5f7cb1c3b61e9cadfcd815ee2ba1c74c58104df",
     "plannedNewRequests": 1,
     "listeningApproval": false,
-    "teacherAssessment": "Guió, preguntes i escaleta revisats independentment; validació docent pendent."
+    "teacherAssessment": "Guió, veus i escaleta validats pel docent; preparar un lot compatible de síntesi.",
+    "scriptApprovedAt": "2026-11-24",
+    "voiceApproval": false,
+    "scriptApprovalSource": "Docent 24/11: S104, S100 i S108 validats per síntesi de veus; S109, S102 i S105 també preparats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
   },
   "ca-S109": {
-    "state": "script-awaiting-validation",
+    "state": "ready-for-voices",
     "editorialFingerprint": "49f5f4af5c5bed3c90b0ea7350c5bb1af5d3e73e71b4815a470036fdb9293689",
     "plannedNewRequests": 1,
     "listeningApproval": false,
-    "teacherAssessment": "Guió, preguntes i escaleta revisats independentment; validació docent pendent."
+    "teacherAssessment": "Guió, veus i escaleta validats pel docent; preparar un lot compatible de síntesi.",
+    "scriptApprovedAt": "2026-11-24",
+    "voiceApproval": false,
+    "scriptApprovalSource": "Docent 24/11: S104, S100 i S108 validats per síntesi de veus; S109, S102 i S105 també preparats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
   },
   "ca-S110": {
     "state": "script-awaiting-validation",

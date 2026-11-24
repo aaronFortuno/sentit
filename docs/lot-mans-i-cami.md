@@ -1,6 +1,6 @@
 # Mans a l’obra i A peu de camí · primera tanda
 
-24 de novembre de 2026. **Vuit guions de 3r a 6è amb revisió independent superada, pendents del vistiplau docent.** Les peces es poden resoldre sense haver-ne escoltat d’altres. Els enllaços obren el solucionari amb guió i escaleta en primer lloc. No hi ha àudio generat.
+24 de novembre de 2026. **Vuit guions de 3r a 6è amb revisió independent superada.** S104, S105, S108 i S109 tenen el guió i l’escaleta validats pel docent; S106, S107, S110 i S111 esperen el seu vistiplau. Les peces es poden resoldre sense haver-ne escoltat d’altres. Els enllaços obren el solucionari amb guió i escaleta en primer lloc. No hi ha àudio generat.
 
 ## Mans a l’obra
 

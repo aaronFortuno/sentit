@@ -2,11 +2,11 @@
 
 Banc de comprensió oral d’ortogra.fi. El docent tria una activitat, prepara la fitxa i el solucionari i els imprimeix. L’alumnat respon al paper i escolta l’àudio des del QR o l’enllaç. Web estàtic, sense comptes ni servidor d’aplicació.
 
-[Mans a l’obra i A peu de camí](docs/lot-mans-i-cami.md): vuit guions S104–S111 per a 3r–6è, amb preguntes, solucionari, context i escaleta. Projectes de taller amb Biel/Elies i passejades amb Aina/Ferran, comprensibles sense imatges ni mapes. Revisió independent superada; validació docent i àudio pendents.
+[Mans a l’obra i A peu de camí](docs/lot-mans-i-cami.md): vuit guions S104–S111 per a 3r–6è, amb preguntes, solucionari, context i escaleta. Projectes de taller amb Biel/Elies i passejades amb Aina/Ferran, comprensibles sense imatges ni mapes. Revisió independent superada; guions S104/S105/S108/S109 validats pel docent, resta en revisió i àudio pendent.
 
 [Situacions quotidianes](docs/lot-situacions-quotidianes.md): nou converses breus amb revisió independent i guions validats. L29 inclou la Mar i el pilot multimodal; L30/L31 aporten Ferran i Laia/Biel amb esmenes per comparar. S085/S086/S089 esperen material compatible. S088/S090 tenen omissions o dubtes visibles, pendents d’audició; cap presa nova es dona per bona automàticament.
 
-[Serveis i gestions quotidianes](docs/lot-situacions-quotidianes-avancades.md): dotze propostes S092–S103 per a 5è, 6è i 1r d’ESO, revisades independentment i pendents de validació docent. Quatre agrupacions candidates permeten completar lots amb els guions ja aprovats, mantenint les veus recurrents i els convidats ocasionals.
+[Serveis i gestions quotidianes](docs/lot-situacions-quotidianes-avancades.md): dotze propostes S092–S103 per a 5è, 6è i 1r d’ESO, revisades independentment, amb S096/S099/S100/S102 ja validats pel docent i les altres en revisió. Quatre agrupacions candidates permeten completar lots amb els guions ja aprovats, mantenint les veus recurrents i els convidats ocasionals.
 
 [Obre Sentit](https://sentit.ortogra.fi/) · [Feina pendent](docs/seguiment-produccio.md) · [Publicacions finalitzades](docs/publicades.md) · [Cua de síntesi](docs/lots-sintesi.md) · [Sintonies](https://sentit.ortogra.fi/proves/sintonies-mireia.html)
 
