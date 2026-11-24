@@ -1,5 +1,7 @@
 export const strings = {
   ca: {
+    releaseDateNewUniverses: '24 de novembre de 2026',
+    releaseHandsAndWalks: 'Mans a l’obra i A peu de camí: quatre guions de cada univers per a 3r–6è, amb preguntes, contextos i escaletes revisats independentment. Taller amb Biel i Elies, passejades amb Aina i Ferran. Totes les pistes són escoltables, sense mapa ni imatge necessaris. Pendents de validació docent; cap síntesi nova.',
     releaseEverydayServices: 'Dotze guions nous de serveis i gestions per a cicle superior i ESO: transports, compres, reclamacions, tràmits i una visita de la pèrita. Preguntes, contextos i escaletes revisats independentment, pendents del docent. Quatre agrupacions candidates per completar lots, sense síntesi nova.',
     releaseDailyCompleteBatches: 'Cinc guions quotidians validats i dos lots rebuts: set comprensions i set proves de veu. Comparacions diferenciades de «raíls» i «raïls» i presentació de S061 per escoltar. S088 i S090 tenen fragments assenyalats per revisar. S055, S083 i S084 passen a muntatge; S056 espera reposar l’inici.',
     reviewVoicesUncertain: 'Inici per comprovar · possible omissió',
@@ -300,6 +302,8 @@ export const strings = {
     sessionEnded: 'Sessió acabada', remainingTime: 'Temps restant',
   },
   es: {
+    releaseDateNewUniverses: '24 de noviembre de 2026',
+    releaseHandsAndWalks: 'Manos a la obra y A pie de camino: cuatro guiones de cada universo para 3.º–6.º, con preguntas, contextos y planes revisados de forma independiente. Taller con Biel y Elies, paseos con Aina y Ferran. Todas las pistas se escuchan, sin necesitar mapas ni imágenes. Pendientes de validación docente; sin síntesis nueva.',
     releaseEverydayServices: 'Doce guiones nuevos de servicios y gestiones para ciclo superior y ESO: transportes, compras, reclamaciones, trámites y una visita de la perita. Preguntas, contextos y planes revisados de forma independiente, pendientes del docente. Cuatro agrupaciones candidatas para completar lotes, sin síntesis nueva.',
     releaseDailyCompleteBatches: 'Cinco guiones cotidianos validados y dos lotes recibidos: siete comprensiones y siete pruebas de voz. Comparaciones diferenciadas de «raíls» y «raïls» y presentación de S061 para escuchar. S088 y S090 tienen fragmentos señalados para revisar. S055, S083 y S084 pasan a montaje; S056 espera reponer el inicio.',
     reviewVoicesUncertain: 'Inicio por comprobar · posible omisión',

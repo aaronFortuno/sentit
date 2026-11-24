@@ -1,6 +1,14 @@
 // Introduccions impreses: situen l'escena sense explicar-ne el desenllaç.
 // Separades dels guions de veu: no s'envien a síntesi ni alteren les preses.
 export const listeningContexts = {
+  'ca-S104': 'En Biel porta un treball fet de casa al taller de l’Elies. El vol tenir a punt i demana ajuda per acabar-lo. Escolta què proven amb les coses que tenen al taller.',
+  'ca-S105': 'En Biel prepara les coses que farà servir per tocar. Hi ha una cosa del taller que es mou més del compte, i l’Elies s’acosta a mirar-la amb ell. Escolta què comproven i què decideixen fer.',
+  'ca-S106': 'En Biel vol enregistrar una cançó al taller de l’Elies. Abans de tocar, ha de trobar com deixar la gravadora. Escolta les idees que van provant mentre preparen el lloc de gravació.',
+  'ca-S107': 'En Biel i l’Elies han estat fent feina per transportar les coses del taller. Ara volen provar el que han preparat abans d’endur-s’ho. Escolta la conversa mentre ho revisen entre tots dos.',
+  'ca-S108': 'L’Aina i l’avi Ferran han sortit a passejar plegats. Porten una bossa i comencen a tenir gana. Escolta què es diuen quan s’aturen al parc i busquen on passar una estona.',
+  'ca-S109': 'L’Aina i en Ferran surten a caminar després d’un dinar familiar. Voldrien arribar a un lloc que ja coneixen, però avui el passeig té algun detall diferent. Escolta quines opcions es plantegen abans de continuar.',
+  'ca-S110': 'L’Aina i en Ferran tornen a casa per un camí amb arbres. Hi ha alguna cosa que els fa aturar i escoltar. Acompanya’ls durant la conversa i fixa’t en el que van dient mentre ho investiguen.',
+  'ca-S111': 'L’Aina i l’avi Ferran estan acabant una passejada fora del poble. Comptaven tornar per un camí que ell coneixia i han quedat que els vindran a buscar. Escolta què passa i com s’organitzen per tornar.',
   'ca-S092': 'La Mar camina per un carrer amb moviment de gent. Quan arriba a una cantonada, veu que el pas no és com esperava i s’atura per preguntar. Escolta com explica on vol anar i què li proposen.',
   'ca-S093': 'La Mar és en una estació de tren que coneix poc. Abans de comprar el bitllet, s’acosta al taulell per demanar informació. Escolta quines opcions li expliquen i com va decidint què li convé.',
   'ca-S094': 'La Mar torna a una botiga on va fer una compra fa uns dies. Porta l’objecte i un paper a la bossa. Escolta què explica a la dependenta i com resolen la situació al taulell.',

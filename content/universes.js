@@ -2,6 +2,18 @@
 // A narrated character can link stories without being a participating voice.
 export const universes = [
   {
+    id: 'mans-a-lobra',
+    name: { ca: 'Mans a l’obra', es: 'Manos a la obra' },
+    description: { ca: 'Projectes petits, reparacions i proves compartides: les idees van prenent forma mentre els personatges treballen.', es: 'Pequeños proyectos, reparaciones y pruebas compartidas: las ideas toman forma mientras los personajes trabajan.' },
+    activities: [],
+  },
+  {
+    id: 'a-peu-de-cami',
+    name: { ca: 'A peu de camí', es: 'A pie de camino' },
+    description: { ca: 'Passejades, descobertes i imprevistos a l’exterior. Situacions que s’entenen escoltant, sense necessitar mapes ni imatges.', es: 'Paseos, descubrimientos e imprevistos al aire libre. Situaciones que se entienden escuchando, sin necesitar mapas ni imágenes.' },
+    activities: [],
+  },
+  {
     id: 'situacions-quotidianes',
     name: { ca: 'Situacions quotidianes', es: 'Situaciones cotidianas' },
     description: { ca: 'Trobades, compres i petites converses del dia a dia, amb persones conegudes o convidats ocasionals.', es: 'Encuentros, compras y pequeñas conversaciones del día a día, con personas conocidas o invitados ocasionales.' },

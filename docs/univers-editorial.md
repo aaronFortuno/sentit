@@ -6,6 +6,9 @@ Les comprensions comparteixen personatges, entorns o una veu periodística ident
 
 | Univers | Connexió | Comprensions |
 | --- | --- | --- |
+| Mans a l’obra | Petits projectes i reparacions amb proves i ajustos mentre treballen. | [S104–S107: primera tanda](lot-mans-i-cami.md) |
+| A peu de camí | Passejades i imprevistos que s’entenen només escoltant, sense mapa. | [S108–S111: primera tanda](lot-mans-i-cami.md) |
+| Situacions quotidianes | Trobades i gestions en serveis, carrer, botigues o casa. | [Primera tanda](lot-situacions-quotidianes.md) · [Serveis i gestions](lot-situacions-quotidianes-avancades.md) |
 | Les troballes de la Laia i en Biel | Descobertes, entrevistes i projectes dels dos joves, junts o per separat. | [S001](https://sentit.ortogra.fi/#lectura=ca-S001), [S003](https://sentit.ortogra.fi/#lectura=ca-S003), [S005](https://sentit.ortogra.fi/#lectura=ca-S005), [S007](https://sentit.ortogra.fi/#lectura=ca-S007), [S010](https://sentit.ortogra.fi/#lectura=ca-S010), [S011](https://sentit.ortogra.fi/#lectura=ca-S011), [S012](https://sentit.ortogra.fi/#lectura=ca-S012), [S014](https://sentit.ortogra.fi/#lectura=ca-S014), [S015](https://sentit.ortogra.fi/#lectura=ca-S015), [S017](https://sentit.ortogra.fi/#lectura=ca-S017), [S019](https://sentit.ortogra.fi/#lectura=ca-S019), [S021](https://sentit.ortogra.fi/#lectura=ca-S021), [S024](https://sentit.ortogra.fi/#lectura=ca-S024) |
 | Els records de l’avi Ferran | Petits misteris, fotografies i records familiars de l’Aina i el seu avi. | [S004](https://sentit.ortogra.fi/#lectura=ca-S004), [S004D](https://sentit.ortogra.fi/#lectura=ca-S004D), [S008](https://sentit.ortogra.fi/#lectura=ca-S008), [S008R](https://sentit.ortogra.fi/#lectura=ca-S008R), [S018](https://sentit.ortogra.fi/#lectura=ca-S018), [S022](https://sentit.ortogra.fi/#lectura=ca-S022) |
 | A classe amb la Mireia | Explicacions, experiments i projectes guiats per la Mireia. | [S002](https://sentit.ortogra.fi/#lectura=ca-S002), [S007](https://sentit.ortogra.fi/#lectura=ca-S007), [S011](https://sentit.ortogra.fi/#lectura=ca-S011), [S013](https://sentit.ortogra.fi/#lectura=ca-S013), [S014](https://sentit.ortogra.fi/#lectura=ca-S014), [S017](https://sentit.ortogra.fi/#lectura=ca-S017), [S020](https://sentit.ortogra.fi/#lectura=ca-S020), [S021](https://sentit.ortogra.fi/#lectura=ca-S021) |
@@ -21,6 +24,8 @@ Les assignacions i els IDs estables consten a [content/universes.js](../content/
 - **Històries amb sentit:** el programa narratiu ja anunciat a S008R, amb nous relats independents. No es reetiqueten com a programa les versions antigues sense benvinguda i comiat.
 
 No cal forçar tots els textos futurs dins d’un fil. Els actuals ja tenen almenys una connexió justificada; cada peça nova pot indicar un univers principal i, només si aporta valor, un segon. El registre `universeIds` de les noves propostes evita haver de mantenir una segona llista manual de codis.
+
+**Mans a l’obra** i **A peu de camí** comencen amb quatre propostes cadascun, de 3r a 6è. Les passejades són situacions de conversa, descoberta i decisió: totes les pistes necessàries es diuen en veu alta. Els projectes que exigeixin interpretar mapes o altres documents visuals es treballaran a Mirada. En Biel i l’Elies comparteixen les escenes de taller; l’Aina i en Ferran, les passejades. No s’hi afegeixen recurrents ni es modifica l’univers de peces publicades.
 
 ## Personatges narrats i veus
 

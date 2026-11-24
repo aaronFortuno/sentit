@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.98 · 24 de novembre de 2026
+
+- Nous universos filtrables «Mans a l’obra» i «A peu de camí»: quatre guions cadascun, S104–S111, de 3r accessible a 6è avançada. Projectes i ajustos al taller amb Biel/Elies; passejades i imprevistos amb Aina/Ferran. Es mantenen els onze recurrents i les seves veus.
+- Seixanta preguntes amb respostes i cites, contextos impresos, guions i escaletes revisats independentment. La informació necessària s’escolta al diàleg; cap mapa, il·lustració, reconeixement de sons o muntatge manual és requisit per resoldre-les.
+- Document de treball i agrupacions per repartiment, encara per completar i validar. Plans de producció vinculats als fitxers nous; seguiment actualitzat, sense aprovacions atribuïdes, veu nova ni despesa de quota.
+
 ## 0.1.97 · 23 de novembre de 2026
 
 - Dotze guions S092–S103 de «Situacions quotidianes» per a 5è, 6è i 1r d’ESO: policia i accessos, tren i autobús, retorns i cobraments, paquet especial, instància municipal, pèrita, allotjament i reserves. Escenes autònomes amb condicions de servei de ficció, sense presentar normes o cobertures universals.

@@ -1,6 +1,6 @@
 # Propostes de cicle superior i ESO · validació per repartiments
 
-Actualitzat: **23/11/2026**. **30 comprensions orals** en 6 blocs de repartiment. Cada peça té guió, preguntes, solucionari i escaleta. La revisió independent i la validació docent són passos diferents; aquest índex no autoritza síntesi.
+Actualitzat: **24/11/2026**. **30 comprensions orals** en 6 blocs de repartiment. Cada peça té guió, preguntes, solucionari i escaleta. La revisió independent i la validació docent són passos diferents; aquest índex no autoritza síntesi.
 
 | Bloc per revisar | Repartiment fix | Codis | Guions validats pel docent |
 | --- | --- | --- | ---: |

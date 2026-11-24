@@ -53,6 +53,12 @@ En les narracions, deixar que l’acció i les pistes permetin la inferència pr
 
 ## Passada obligatòria abans de presentar una proposta
 
+### Situacions escoltables sense suport visual
+
+Als universos **Mans a l’obra** i **A peu de camí**, reconstruir l’escena només amb les veus. Una descoberta, un camí alternatiu o un objecte del taller poden ser part del relat si els personatges en diuen els detalls necessaris. No demanar a l’alumne que vegi com s’ha fet una manipulació, interpreti un mapa absent o identifiqui una espècie pel cant. Les il·lustracions i els ambients donen context, sense sostenir la resposta. Una proposta que necessita combinar paper visual i àudio correspon a l’exploració multimodal de Mirada. Les primeres vuit peces tenen dues veus recurrents per facilitar la continuïtat i la síntesi en lots.
+
+### Comprovació final
+
 1. L’autor llegeix el text en veu alta i localitza reserves preventives, llenguatge d’expert i repeticions explicatives. Executa `node tools/audit-editorial-language.mjs --codes=SXXX,SYYY` per trobar candidats i en valora el context. Comprova que cada rèplica té un motiu dins la situació; una cerca sense coincidències també requereix la lectura completa.
 2. El revisor independent fa una passada específica de naturalitat, a més de lògica i coherència. Revisa inicis, interiors, tancaments i preguntes, i demana la correcció dels aclariments sense motiu. A les aules reconstrueix l’escena sencera i comprova si el funcionament és escolar o un protocol professional disfressat; una conversa ordenada o sense patrons prohibits no és suficient per donar-la per bona.
 3. Després de corregir, es comproven de nou els passatges afectats, les respostes, les cites exactes i el pla sonor. La validació final correspon al contingut complet que es presenta, no a una versió anterior.

@@ -5008,5 +5008,61 @@ export const productionProgress = {
     "plannedNewRequests": 1,
     "listeningApproval": false,
     "teacherAssessment": "Guió, preguntes i escaleta revisats independentment; validació docent pendent."
+  },
+  "ca-S104": {
+    "state": "script-awaiting-validation",
+    "editorialFingerprint": "a232dd05ea42467b650734e3f5618c38f6c7f096f4aeef87c47eabd082679a7a",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "teacherAssessment": "Guió, preguntes i escaleta revisats independentment; validació docent pendent."
+  },
+  "ca-S105": {
+    "state": "script-awaiting-validation",
+    "editorialFingerprint": "3cb9bf954dcd95248a165d289e6249c328faecf945c2a589a8e36fed0ad33b60",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "teacherAssessment": "Guió, preguntes i escaleta revisats independentment; validació docent pendent."
+  },
+  "ca-S106": {
+    "state": "script-awaiting-validation",
+    "editorialFingerprint": "a3adbcb1c929a31182f49854e5b1889a7d91307d7ddccbc6409eb68b32bfc27d",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "teacherAssessment": "Guió, preguntes i escaleta revisats independentment; validació docent pendent."
+  },
+  "ca-S107": {
+    "state": "script-awaiting-validation",
+    "editorialFingerprint": "f53c7d88670bbcf0b1fda9c16010078ab99a255af85b66ffa864c5fcb89994c0",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "teacherAssessment": "Guió, preguntes i escaleta revisats independentment; validació docent pendent."
+  },
+  "ca-S108": {
+    "state": "script-awaiting-validation",
+    "editorialFingerprint": "a42a9fc07182fd8ad17c79c0a5f7cb1c3b61e9cadfcd815ee2ba1c74c58104df",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "teacherAssessment": "Guió, preguntes i escaleta revisats independentment; validació docent pendent."
+  },
+  "ca-S109": {
+    "state": "script-awaiting-validation",
+    "editorialFingerprint": "49f5f4af5c5bed3c90b0ea7350c5bb1af5d3e73e71b4815a470036fdb9293689",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "teacherAssessment": "Guió, preguntes i escaleta revisats independentment; validació docent pendent."
+  },
+  "ca-S110": {
+    "state": "script-awaiting-validation",
+    "editorialFingerprint": "cbce144985ac4c1db5f8f83124fc5e3217cf5295049fd9c1c203675bbb243071",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "teacherAssessment": "Guió, preguntes i escaleta revisats independentment; validació docent pendent."
+  },
+  "ca-S111": {
+    "state": "script-awaiting-validation",
+    "editorialFingerprint": "522e9ccf998cdc300083d6365cfae42680cf62d58549d1ad099c13f00de395ea",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "teacherAssessment": "Guió, preguntes i escaleta revisats independentment; validació docent pendent."
   }
 };

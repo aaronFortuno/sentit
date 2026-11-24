@@ -253,6 +253,28 @@
         "S102"
       ],
       "note": "Quatre consultes completes. Guions pendents de validació docent. Pot compartir lot amb la reposició exacta de la presentació i salutació de S056 després de preparar-ne el pla; sense reserva de quota ni síntesi."
+    },
+    {
+      "id": "P24",
+      "cast": "Biel i Elies · Puck + Algieba",
+      "codes": [
+        "S104",
+        "S105",
+        "S106",
+        "S107"
+      ],
+      "note": "Primera tanda d’univers, guions pendents de validació docent. Repartiment fix i converses senceres. Previsió de text pla encara inferior a sis minuts: esperar material o esmenes compatibles, sense allargar guions ni afegir silencis. Sense reserva de quota ni autorització de síntesi."
+    },
+    {
+      "id": "P25",
+      "cast": "Aina i Ferran · Zephyr + Algenib",
+      "codes": [
+        "S108",
+        "S109",
+        "S110",
+        "S111"
+      ],
+      "note": "Primera tanda d’univers, guions pendents de validació docent. Repartiment fix i converses senceres. Previsió de text pla encara inferior a sis minuts: esperar material o esmenes compatibles, sense allargar guions ni afegir silencis. Sense reserva de quota ni autorització de síntesi."
     }
   ]
 }

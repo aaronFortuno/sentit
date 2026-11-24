@@ -1,6 +1,6 @@
 # Revisió independent de coherència
 
-Actualitzat: **23/11/2026**. **108 de 108** propostes de la tanda tenen revisió independent superada per a la versió actual. Abast: 813 preguntes i 1020 cites literals.
+Actualitzat: **24/11/2026**. **116 de 116** propostes de la tanda tenen revisió independent superada per a la versió actual. Abast: 873 preguntes i 1092 cites literals.
 
 S’han revisat situacions, cronologia, circulació d’objectes, coneixement dels personatges, causes i desenllaços, acotacions sonores, preguntes, respostes i ancoratges. Les dades factuals sensibles s’han contrastat amb fonts primàries indicades al [dossier editorial](lot-editorial-24.md). La revisió del muntatge és sobre el guió; les veus i el resultat sonor requeriran audició.
 
@@ -116,6 +116,14 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S101](https://sentit.ortogra.fi/#lectura=ca-S101) | Arribarem quan la recepció sigui tancada | 6è | Provisional · revisió superada | 2026-11-23 | `e23899434e24…` |
 | [ca-S102](https://sentit.ortogra.fi/#lectura=ca-S102) | L’autobús que no es va aturar | 6è | Provisional · revisió superada | 2026-11-23 | `4dd156b4c265…` |
 | [ca-S103](https://sentit.ortogra.fi/#lectura=ca-S103) | Canvi a la reserva de dissabte | 5è | Provisional · revisió superada | 2026-11-23 | `133bb8951962…` |
+| [ca-S104](https://sentit.ortogra.fi/#lectura=ca-S104) | El cartell que es doblegava | 3r | Provisional · revisió superada | 2026-11-24 | `a232dd05ea42…` |
+| [ca-S105](https://sentit.ortogra.fi/#lectura=ca-S105) | El faristol que ballava | 4t | Provisional · revisió superada | 2026-11-24 | `3cb9bf954dcd…` |
+| [ca-S106](https://sentit.ortogra.fi/#lectura=ca-S106) | Un suport per a la gravadora | 5è | Provisional · revisió superada | 2026-11-24 | `a3adbcb1c929…` |
+| [ca-S107](https://sentit.ortogra.fi/#lectura=ca-S107) | El carro que s’encallava | 6è | Provisional · revisió superada | 2026-11-24 | `f53c7d88670b…` |
+| [ca-S108](https://sentit.ortogra.fi/#lectura=ca-S108) | Un lloc per berenar | 3r | Provisional · revisió superada | 2026-11-24 | `a42a9fc07182…` |
+| [ca-S109](https://sentit.ortogra.fi/#lectura=ca-S109) | Les sabates del diumenge | 4t | Provisional · revisió superada | 2026-11-24 | `49f5f4af5c5b…` |
+| [ca-S110](https://sentit.ortogra.fi/#lectura=ca-S110) | Un so darrere els arbres | 5è | Provisional · revisió superada | 2026-11-24 | `cbce144985ac…` |
+| [ca-S111](https://sentit.ortogra.fi/#lectura=ca-S111) | La porta del camí vell | 6è | Provisional · revisió superada | 2026-11-24 | `522e9ccf998c…` |
 
 Les empremtes completes i el revisor consten al [registre de revisions](../content/editorial-reviews.js). La marca provisional només apareix al web si l’empremta coincideix amb el contingut actual. Canviar el guió, les preguntes, les respostes, les pistes, el repartiment o l’escaleta invalida la revisió anterior. Les comprovacions detecten registres caducats abans de publicar.
 

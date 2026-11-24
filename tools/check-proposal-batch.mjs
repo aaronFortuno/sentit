@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { createRequire } from 'node:module';
 import { activities } from '../catalogue.js';
-import { proposedActivities, proposedVariants, firstBatchActivities, secondBatchActivities, thirdBatchActivities, fourthBatchActivities, fourthBatchGroups, dailyActivities } from '../content/propostes/index.js';
+import { proposedActivities, proposedVariants, firstBatchActivities, secondBatchActivities, thirdBatchActivities, fourthBatchActivities, fourthBatchGroups, dailyActivities, newUniverseActivities } from '../content/propostes/index.js';
 import { universes, universesForActivity } from '../content/universes.js';
 import { characters, charactersForActivity } from '../content/characters.js';
 import { buildEvidence } from '../evidence.js';
@@ -21,7 +21,7 @@ for(const grade of ['3','4','5','6']){
 assert.equal(base.find(entry=>entry.code==='S010').grade,'5','Teacher calibration: S010 is 5th grade');
 assert.equal(base.find(entry=>entry.code==='S010').level,'middle');
 assert.equal(firstBatchActivities.length,19);
-assert.equal(proposedActivities.length,19+secondBatchActivities.length+thirdBatchActivities.length+fourthBatchActivities.length+dailyActivities.length);
+assert.equal(proposedActivities.length,19+secondBatchActivities.length+thirdBatchActivities.length+fourthBatchActivities.length+dailyActivities.length+newUniverseActivities.length);
 assert.equal(fourthBatchActivities.length,30);
 for(const group of fourthBatchGroups){
  assert.equal(group.entries.length,5);

@@ -2331,5 +2331,166 @@
     },
     "strategy": "packed-title-program-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S104": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S104",
+    "reviewContent": "content/propostes/universos/mans-a-lobra.js",
+    "format": "3r accessible: un objecte, un problema i una solució feta entre dos. Seguir què proven i per què canvien de material. Totes les accions necessàries s’expliquen oralment; no cal veure el cartell.",
+    "cues": [
+      "Taller amb exterior esmorteït, enregistrat i molt baix. El cartell es pot moure mentre parlen; cap pausa exclusiva per a l’efecte.",
+      "Retall i col·locació entre rèpliques, sense tisores sota cap paraula important ni silenci afegit llarg.",
+      "Fosa breu després de l’última frase. Cap aplaudiment, concert o so de cartell ja penjat."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Biel": "Puck",
+      "Elies": "Algieba"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S105": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S105",
+    "reviewContent": "content/propostes/universos/mans-a-lobra.js",
+    "format": "4t intermèdia: distingir una primera sospita del resultat de dues comprovacions. El terme faristol queda definit a la primera intervenció i la disposició del terra s’explica en veu alta.",
+    "cues": [
+      "Ambient real de taller molt tènue. No afegir un grinyol que suggereixi una avaria inexistent.",
+      "Poden moure el faristol durant la rèplica següent, amb un so real discret. Cap tall d’escena ni pausa llarga.",
+      "Conservar la rèplica final sencera i fosa curta. No avançar el concert ni afegir dues notes de tancament."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Biel": "Puck",
+      "Elies": "Algieba"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S106": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S106",
+    "reviewContent": "content/propostes/universos/mans-a-lobra.js",
+    "format": "5è intermèdia: seguir un prototip, una limitació que apareix en provar-lo i una revisió motivada. Situació concreta, sense teoria acústica ni dibuix necessari per entendre els canvis.",
+    "cues": [
+      "Taller real baix i continu. No reproduir una cançó ni una gravació defectuosa: les dades les dona la conversa.",
+      "El cable es pot moure al mateix temps que es parla, sense espetec elèctric ni efecte afegit.",
+      "Final abans de la cançó. No convertir el suport de cartró en una guia general per a aparells calents ni tapar botons o micròfons en la futura imatge."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Biel": "Puck",
+      "Elies": "Algieba"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S107": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S107",
+    "reviewContent": "content/propostes/universos/mans-a-lobra.js",
+    "format": "6è avançada: reconstruir què es va mesurar, què s’hi ha afegit després i com ho comproven. Les mides i els objectes es descriuen oralment; no es demana interpretar un plànol ni fer càlculs de construcció.",
+    "cues": [
+      "Taller real molt tènue. Rodes enregistrades només si s’entenen; sense xoc fort, eines elèctriques o pauses d’efecte.",
+      "Desmuntatge breu entre rèpliques, sense allargar la presa. L’Elies fa la feina d’eines.",
+      "Fosa breu després del final. Sense convertir l’escena en instruccions de càrrega o disseny de carros; no afegir furgoneta en marxa."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Biel": "Puck",
+      "Elies": "Algieba"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S108": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S108",
+    "reviewContent": "content/propostes/universos/a-peu-de-cami.js",
+    "format": "3r accessible: situar dos llocs descrits en veu alta, recordar què porta cadascú i seguir una decisió senzilla. L’escena s’entén sense cap imatge o plànol; les preguntes no depenen d’identificar sons.",
+    "cues": [
+      "Parc enregistrat, ocells i vent molt tènues. No posar pluja perquè ja ha parat; no demanar a l’alumne que identifiqui cap ocell.",
+      "Trajecte breu sense canvi llarg d’escena. Totes les dades sobre el lloc les diuen els personatges.",
+      "Conservar el comiat còmic sense riures afegits de tercera veu. Fosa breu i baixa després de l’última frase."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Aina": "Zephyr",
+      "Ferran": "Algenib"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S109": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S109",
+    "reviewContent": "content/propostes/universos/a-peu-de-cami.js",
+    "format": "4t intermèdia: relacionar l’estat de dos camins, el calçat i el temps disponible. Un problema principal i alternatives descrites oralment; no hi ha girs, orientació cartogràfica ni coneixements de muntanya necessaris.",
+    "cues": [
+      "Exterior de parc real i suau, sense aigua corrent, rellotges o avisos sonors que afegeixin informació.",
+      "La conversa es manté al mateix punt mentre decideixen. Cap seqüència de salts o relliscades inventada.",
+      "Passos reals molt tènues poden començar sota l’última rèplica. Fosa breu, sense avançar l’arribada a l’estany."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Aina": "Zephyr",
+      "Ferran": "Algenib"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S110": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S110",
+    "reviewContent": "content/propostes/universos/a-peu-de-cami.js",
+    "format": "5è intermèdia: seguir dues hipòtesis i distingir-les del que acaben comprovant. Els personatges descriuen les pistes i el resultat en veu alta. L’alumne no ha d’identificar el so real ni cap objecte per una imatge.",
+    "cues": [
+      "Camí real amb aire i ocells molt baixos. Reservar el dring identificable de tubs per a després de la descoberta que l’Aina explica en veu alta.",
+      "Canvi curt de posició, amb passos reals baixos que poden coincidir amb el final de la frase. No inserir un trajecte llarg.",
+      "Només després d’aquesta explicació es pot sentir un dring breu de tubs de vent reals, sense tapar les paraules ni afegir una pausa exclusiva.",
+      "Fosa breu de l’exterior. No afegir una mare parlant ni una campana o bicicleta que contradiguin la descoberta."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Aina": "Zephyr",
+      "Ferran": "Algenib"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S111": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S111",
+    "reviewContent": "content/propostes/universos/a-peu-de-cami.js",
+    "format": "6è avançada: distingir el record d’una ruta de la informació d’aquell dia, relacionar temps d’anada i recollida i confirmar una decisió. Tota la informació del cartell i del missatge es diu en veu alta; no cal mapa, telèfon ni càlcul exacte per respondre.",
+    "cues": [
+      "Exterior rural enregistrat i discret. Sense tempesta, sorolls d’obra o vehicles que facin suposar perill o una recollida ja arribada.",
+      "Es pot sentir un toc real molt baix, sense veu de tercera persona, to de trucada llarg ni missatge llegit pel telèfon.",
+      "Passos suaus sota la darrera frase si hi ha una mostra adequada; fosa breu sense representar l’arribada del cotxe."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Aina": "Zephyr",
+      "Ferran": "Algenib"
+    },
+    "strategy": "packed-title-program-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
   }
 }
