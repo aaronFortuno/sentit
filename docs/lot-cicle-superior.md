@@ -90,9 +90,9 @@ Laia i Ona · Leda + Sulafat. Les lectures són independents; no cal haver-ne es
 | Codi | Títol | Curs · dificultat | Tipologia | Durada prevista | Preguntes | Estat |
 | --- | --- | --- | --- | --- | ---: | --- |
 | [ca-S073](https://sentit.ortogra.fi/#lectura=ca-S073) | El dinar que surt en dues tandes | 5è · Accessible | Diàleg | 1:44 | 8 | Definitiva |
-| [ca-S074](https://sentit.ortogra.fi/#lectura=ca-S074) | Les dues llibretes del pastís | 5è · Intermèdia | Entrevista | Prevista 2:10–2:40 | 8 | Guió validat · curs i dificultat per valorar després d’escoltar |
+| [ca-S074](https://sentit.ortogra.fi/#lectura=ca-S074) | Les dues llibretes del pastís | 5è · Intermèdia | Entrevista | Prevista 2:10–2:40 | 8 | Veus rebudes · curs i dificultat per valorar després d’escoltar |
 | [ca-S075](https://sentit.ortogra.fi/#lectura=ca-S075) | La foto del plat de demà | 6è · Accessible | Entrevista | 1:42 | 9 | Definitiva |
-| [ca-S076](https://sentit.ortogra.fi/#lectura=ca-S076) | L’encàrrec que havia crescut | 5è · Avançada | Entrevista | Prevista 3:10–3:45 | 8 | Guió validat · curs i dificultat per valorar després d’escoltar |
+| [ca-S076](https://sentit.ortogra.fi/#lectura=ca-S076) | L’encàrrec que havia crescut | 5è · Avançada | Entrevista | Prevista 3:10–3:45 | 8 | Veus rebudes · curs i dificultat per valorar després d’escoltar |
 | [ca-S077](https://sentit.ortogra.fi/#lectura=ca-S077) | El sopar que havia de viatjar | 6è · Avançada | Diàleg | 2:33 | 9 | Definitiva |
 
 [Filtra el catàleg per aquest repartiment](https://sentit.ortogra.fi/?personatge=laia&personatge=ona&coincidencia=tots) · [Guions i escaletes del bloc](../content/propostes/tanda4/cuina.js). El filtre també pot mostrar peces de tandes anteriors; activa «Només provisionals» per revisar feina oberta. Les acotacions descriuen recursos proposats, no gravacions ja produïdes.

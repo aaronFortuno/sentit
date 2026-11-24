@@ -1,0 +1,547 @@
+{
+  "model": "gemini-3.8-flash-tts",
+  "input": [
+    {
+      "type": "user_input",
+      "content": [
+        {
+          "type": "text",
+          "text": "Comprensió oral. Després de la fuita. \n\nBon dia. Vostè és la pèrita de l’assegurança, oi? Passi. La fuita era aquí, sota l’aigüera. El lampista ja va canviar la junta ahir, però el moble ha quedat inflat i el terra del passadís encara té aquesta taca.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Mar/Erinome conversa com una adulta fora de la feina: propera, amb dubtes i reaccions naturals. La segona veu/Callirrhoe és una professional ocasional que l’atén, sense cadència de noticiari. Només dues veus, ritme clar i fluid; sense veu narradora ni instruccions llegides. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the assigned physical voices unchanged. This recording has only the supplied cast; guest roles belong only to this scene. Instructions are not spoken."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Bon dia. Sí, vinc a mirar què ha quedat malmès i a preparar l’informe per a la companyia. Quan us en vau adonar?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Mar/Erinome conversa com una adulta fora de la feina: propera, amb dubtes i reaccions naturals. La segona veu/Callirrhoe és una professional ocasional que l’atén, sense cadència de noticiari. Només dues veus, ritme clar i fluid; sense veu narradora ni instruccions llegides. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Dilluns al vespre. Vaig veure aigua al passadís i, quan vaig obrir la porta del moble, tot el que hi tenia a dins estava moll. Vaig fer unes fotos abans de treure les coses.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ens aniran bé. Ara jo també fotografiaré el moble i el terra, però a les teves potser es veu millor fins on arribava l’aigua. Les pots enviar amb el número de l’expedient que tens al missatge.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "També tinc la factura del lampista. Hi surt un import per la visita i un altre pel material. Això us ho envio junt? Voldria saber quina part em cobrirà l’assegurança.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Envia la factura sencera, amb el detall de la feina. A l’informe hi explicaré l’origen de la fuita i els desperfectes que veiem. Després, l’equip que porta el teu expedient ho revisarà amb les condicions del teu contracte i et comunicarà què cobreix en aquest cas.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "D’acord. Jo havia pensat canviar el moble aquesta setmana perquè fa nosa, però abans li volia ensenyar com havia quedat.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ara en prendré les mides i deixaré constància de l’estat. Si et passen un pressupost per substituir-lo, envia’l també al mateix expedient.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Perfecte. Tinc les fotos al telèfon i la factura en paper. Aquesta tarda l’escanejo i ho envio tot amb aquell número.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Molt bé. Comencem per aquest lateral del moble, que és on es veu més inflat. Em deixes passar una mica més cap aquí?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí, ara aparto la cadira. Així podrà mirar també la part de sota.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. Un paquet de bolis cobrat dos cops. \n\nHola. Fa una estona he comprat unes coses i, quan he arribat a casa, he mirat el tiquet. Em sembla que el paquet de bolis me l’heu cobrat dues vegades. Porto la bossa i el tiquet perquè ho puguem mirar.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Mar/Erinome conversa com una adulta fora de la feina: propera, amb dubtes i reaccions naturals. La segona veu/Callirrhoe és una professional ocasional que l’atén, sense cadència de noticiari. Només dues veus, ritme clar i fluid; sense veu narradora ni instruccions llegides. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the assigned physical voices unchanged. This recording has only the supplied cast; guest roles belong only to this scene. Instructions are not spoken."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Hola. A veure... Aquí hi ha la llibreta, la carpeta i els bolis. Sí, a la línia dels bolis hi posa dues unitats. En portaves un paquet o dos?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Mar/Erinome conversa com una adulta fora de la feina: propera, amb dubtes i reaccions naturals. La segona veu/Callirrhoe és una professional ocasional que l’atén, sense cadència de noticiari. Només dues veus, ritme clar i fluid; sense veu narradora ni instruccions llegides. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Un de sol, aquest. Els altres que hi ha a casa són d’una altra marca. Quan m’has dit el total, no m’ha semblat estrany perquè també duia la carpeta i la llibreta.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "D’acord. El paquet val quatre euros i aquí se n’han cobrat vuit. Ho rectifico i et torno els quatre euros de diferència. Ho havies pagat amb targeta?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí, amb aquesta. La tinc aquí. Em dones també algun paper que digui que s’ha corregit? El material és per a la feina i després he de passar els comptes.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí. Et faig el justificant de la devolució i l’enganxem al tiquet original. Hi constaran el paquet que s’havia repetit i els quatre euros que abonem a la targeta.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Molt bé. Els bolis els puc deixar ja a la bossa? Els he tret perquè els poguessis comparar, però me’ls quedo.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "I tant, te’ls quedes. Aquí tens els dos papers junts. Revisa que hi surti bé l’import abans de guardar-los.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Quatre euros, sí. Ara ho veig clar. M’anirà bé tenir el paper petit enganxat, que si no segur que en perdo un pel camí.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ho sento pel viatge que t’hem fet fer. Gràcies per tornar i explicar-m’ho.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "No pateixis, havia de passar per aquí igualment. Gràcies a tu per mirar-ho. Adeu!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. Arribarem quan la recepció sigui tancada. \n\nBona tarda. Soc la Mar, tinc una reserva per aquesta nit. El tren porta retard i arribarem cap a dos quarts de deu. Al correu hi diu que la recepció tanca a les nou. Com ho podem fer?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Mar/Erinome conversa com una adulta fora de la feina: propera, amb dubtes i reaccions naturals. La segona veu/Callirrhoe és una professional ocasional que l’atén, sense cadència de noticiari. Només dues veus, ritme clar i fluid; sense veu narradora ni instruccions llegides. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the assigned physical voices unchanged. This recording has only the supplied cast; guest roles belong only to this scene. Instructions are not spoken."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Bona tarda, Mar. Un moment, que miro la reserva... Sí, una habitació per a dues persones. Et podem deixar la clau a la caixeta que hi ha al costat de l’entrada.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Mar/Erinome conversa com una adulta fora de la feina: propera, amb dubtes i reaccions naturals. La segona veu/Callirrhoe és una professional ocasional que l’atén, sense cadència de noticiari. Només dues veus, ritme clar i fluid; sense veu narradora ni instruccions llegides. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "A fora, al carrer? No haurem d’esperar que algú ens obri la porta per arribar-hi?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "La caixeta és a la paret de la dreta de la porta principal, accessible des del carrer. T’enviarem el codi al mòbil. L’obres, treus el sobre amb el teu nom i hi trobaràs la clau.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "D’acord. El codi és per obrir la caixeta, doncs. I amb la clau del sobre ja podrem entrar a l’hostal?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Exacte. A dins del sobre també hi haurà un paper amb el número d’habitació i com arribar-hi. El teu mòbil és el que vas posar a la reserva?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí, el mateix. Aquest vespre el tindré encès. Si en arribar no aconseguim obrir la caixeta, a quin telèfon hem de trucar?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Al número d’assistència que trobaràs al mateix missatge del codi. Quan el rebis, guarda’l; l’atenció del número de recepció s’acaba a les nou.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Molt bé. I l’esmorzar de demà, a quina hora comença? Com que arribarem tard, potser baixarem una mica més tard del que pensàvem.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "És de vuit a deu. Quan baixeu, passeu primer pel taulell i acabarem la fitxa d’entrada que ens falta.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Perfecte. Doncs estaré pendent del missatge. Moltes gràcies per preparar-nos la clau.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "De res, Mar. Bon viatge i fins demà al matí!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. L’autobús que no es va aturar. \n\nBon dia. Voldria deixar una queixa. Ahir un autobús va passar de llarg per la parada on esperàvem tres persones. Vaig fer senyal amb la mà, però va continuar i vam haver d’esperar el següent.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Mar/Erinome conversa com una adulta fora de la feina: propera, amb dubtes i reaccions naturals. La segona veu/Callirrhoe és una professional ocasional que l’atén, sense cadència de noticiari. Només dues veus, ritme clar i fluid; sense veu narradora ni instruccions llegides. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the assigned physical voices unchanged. This recording has only the supplied cast; guest roles belong only to this scene. Instructions are not spoken."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Bon dia. Em sap greu. Ho podem fer constar. Em dius quina línia era i en quina parada esperàveu?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Mar/Erinome conversa com una adulta fora de la feina: propera, amb dubtes i reaccions naturals. La segona veu/Callirrhoe és una professional ocasional que l’atén, sense cadència de noticiari. Només dues veus, ritme clar i fluid; sense veu narradora ni instruccions llegides. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "La sis, a la parada de la plaça dels Til·lers. Era el que anava cap al centre. L’havia agafat altres dies i sempre s’hi havia aturat.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Recordes aproximadament l’hora? Així podrem mirar quin vehicle feia aquell servei i traslladar-li la incidència a l’equip que revisa els recorreguts.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Cap a les cinc i vint. Ho recordo perquè jo havia d’arribar a una visita a les sis i vaig mirar l’hora quan el vaig veure passar. El següent va trigar força.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Plaça dels Til·lers, línia sis, cap al centre, ahir a les cinc i vint. T’ho repeteixo perquè a l’altra banda de la plaça hi ha la parada del sentit contrari.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí, la banda del centre. Érem davant de la farmàcia. Jo voldria que ho miressin perquè hi ha gent que depèn d’aquest autobús per anar a treballar.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ho deixaré escrit amb aquests detalls. Si ens dones un correu o un telèfon, et farem arribar la resposta quan hagin revisat el servei.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Hi posaré el correu. Em puc endur una còpia del que hem apuntat? Així, si he de tornar a consultar-ho, tindré les dades juntes.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí. Aquí hi tens el resum de la queixa i el número de seguiment. Mira sobretot si he escrit bé la parada i la direcció.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí, està bé: plaça dels Til·lers, cap al centre. Gràcies per atendre’m. Adeu.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. El taller canvia de casa. Notícia de ficció.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, exact adult Mar/Erinome identity. Clear calm news introduction and greeting, distinct from the conversational scenes. Read every supplied word exactly once. No breathing performance, music, sound effects, instructions or extra words. Say the complete exercise introduction, title and Notícia de ficció. Do not omit any sentence. Keep initial and final consonants. This is a separate repair paragraph with no title. Keep the same character voice as in the complete recordings. Read every supplied word once, including the first sentence. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Bon dia.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, exact adult Mar/Erinome identity. Clear calm news introduction and greeting, distinct from the conversational scenes. Read every supplied word exactly once. No breathing performance, music, sound effects, instructions or extra words. Say the complete greeting Bon dia, once, in the same adult Mar/Erinome voice. Both words are missing from the original; this is an insertion for audition, without an original greeting clip. This is a separate repair paragraph with no title. Keep the same character voice as in the complete recordings. Read every supplied word once, including the first sentence. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition.",
+              "speaker": "Voice1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "response_format": {
+    "type": "audio",
+    "mime_type": "audio/wav",
+    "sample_rate": 24000
+  },
+  "generation_config": {
+    "speech_config": {
+      "speakers": [
+        {
+          "speaker": "Voice1",
+          "voice": "Erinome"
+        },
+        {
+          "speaker": "Voice2",
+          "voice": "Callirrhoe"
+        }
+      ]
+    }
+  },
+  "background": true
+}

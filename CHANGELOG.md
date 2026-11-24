@@ -1,5 +1,12 @@
 # Canvis
 
+## 0.1.99 · 24 de novembre de 2026
+
+- P23/P13/P21/P19 produïts seqüencialment com L32–L35: quatre peticions, 25:26,44 crus, 17 preses per audició i reposició de l’inici de S056. Totes les veus es publiquen abans del muntatge, sense aprovació automàtica.
+- S097 conserva la presa amb el títol i el primer torn omesos, assenyalats a card i reproductor. S056 permet sentir només els fragments nous que faltaven, amb la resta de veu aprovada intacta. Originals, rebuts i empremtes conservats; recuperació local de metadades sense repetir síntesi.
+- S092/S093 es tracten de vostè; S095 tanca amb un comiat neutre. Cites, contextos i revisió independent renovats abans d’enviar. Validacions docents i seguiment al dia.
+- Direccions idèntiques compactades explícitament a L35 per respectar el límit conservador d’entrada sense retirar paraules, veus o separacions. Peticions històriques congelades idèntiques i comprovacions locals de regressió.
+
 ## 0.1.98 · 24 de novembre de 2026
 
 - S096, S099, S100, S102, S104, S105, S108 i S109 amb guió, veus proposades i escaleta validats pel docent. Passen a «Pendent de síntesi» amb aprovació vinculada al contingut exacte; seguiment i recomptes de lots al dia. Cap veu produïda ni petició enviada en aquest pas.

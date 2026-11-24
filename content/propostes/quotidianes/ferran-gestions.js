@@ -24,7 +24,7 @@ export const dailyFerranErrands = [
       s('telefon', 'Empleada', 'El seu codi postal i un telèfon de contacte. També apuntarem la teva adreça i el teu telèfon per a la recollida. Després et donaré una etiqueta per enganxar al tub.'),
       s('etiqueta', 'Ferran', 'La puc enganxar aquí, abans de marxar? El tub és tan rodó que sempre se m’escapa de sobre la taula.'),
       s('comiat', 'Empleada', 'I tant. Deixa’l en aquest suport, que te l’aguanto. Quan estigui etiquetat, te l’endús i demà el recullen a casa.'),
-      s('final', 'Ferran', 'Perfecte. I aquest paper me’l guardo a la butxaca, que avui ja he vingut amb tots els braços ocupats. Moltes gràcies!'),
+      s('final', 'Ferran', 'Perfecte. Doncs m’enduc el tub i demà a la tarda seré a casa. Moltes gràcies per ajudar-me. Adeu!'),
       d('Fosa curta després del comiat. Sense simular una recollida que encara no ha passat.'),
     ],
     questions: [

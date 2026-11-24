@@ -2093,9 +2093,9 @@
     "approvalSource": "Docent 23/11: S087, S088, S089, S090 i S091 validats íntegrament per síntesi de veus; autoritza els lots complets de Ferran i Laia/Biel amb les dues peticions gratuïtes restants."
   },
   "S092": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "3dd2f19d957fff51a370ddbdb14a6d7f8d5b0de73ce520764e50b4dd0b7cb7a4",
+    "reviewedAt": "2026-11-24",
     "reviewActivity": "ca-S092",
     "reviewContent": "content/propostes/quotidianes/mar-serveis.js",
     "format": "5è intermèdia: seguir dues opcions d’accés, distingir el pas de vehicles del de vianants i relacionar l’elecció amb una dificultat concreta. Carrers i regulació inventats per a aquesta escena.",
@@ -2110,12 +2110,13 @@
       "Policia": "Despina"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 24/11: S092, S093, S095 validats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
   },
   "S093": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "75449ab5c10ffe380c54c23e9ad0e515097196ddb48c1de2c612c8ce293a6efb",
+    "reviewedAt": "2026-11-24",
     "reviewActivity": "ca-S093",
     "reviewContent": "content/propostes/quotidianes/mar-serveis.js",
     "format": "6è avançada: comparar dues sortides i dues arribades, entendre el motiu del canvi de tren i confirmar el trajecte escollit. Horaris, estació i condicions d’aquests bitllets són de ficció.",
@@ -2130,12 +2131,13 @@
       "Informadora": "Despina"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 24/11: S092, S093, S095 validats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
   },
   "S094": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "db1ebacd0ff019ee06b305ccd090c6638f3e0a15e4c6ecedf6c1b16922dc02d6",
+    "reviewedAt": "2026-11-24",
     "reviewActivity": "ca-S094",
     "reviewContent": "content/propostes/quotidianes/mar-serveis.js",
     "format": "5è intermèdia: explicar una incidència, distingir les opcions de la botiga i justificar una tria per la necessitat immediata. Condicions d’aquest canvi fictícies, sense afirmar normes generals de consum.",
@@ -2150,12 +2152,13 @@
       "Dependenta": "Despina"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 24/11: S094, S098, S103, S097 validats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
   },
   "S095": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "e080cf840f6dc71975d4bc512484a176a794e20c516af985a2fd811a75f34ff3",
+    "reviewedAt": "2026-11-24",
     "reviewActivity": "ca-S095",
     "reviewContent": "content/propostes/quotidianes/ferran-gestions.js",
     "format": "6è intermèdia: relacionar les mides amb un servei, comparar recollida i lliurament al local i preparar les dades necessàries. Límits, modalitats i horaris inventats per a aquest punt d’enviaments.",
@@ -2170,7 +2173,8 @@
       "Empleada": "Gacrux"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 24/11: S092, S093, S095 validats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
   },
   "S096": {
     "status": "approved",
@@ -2194,9 +2198,9 @@
     "approvalSource": "Docent 24/11: S099, S096 validats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
   },
   "S097": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "6535def20a9deb2844ce742d1831323cc9e7f531c9fd439e89c21d8b3831a3df",
+    "reviewedAt": "2026-11-24",
     "reviewActivity": "ca-S097",
     "reviewContent": "content/propostes/quotidianes/ferran-gestions.js",
     "format": "5è avançada: triar un servei segons la parada i no només la sortida, relacionar un equipatge amb el recorregut final i confirmar lloc d’embarcament. Línies i horaris són inventats.",
@@ -2211,7 +2215,8 @@
       "Taquillera": "Gacrux"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 24/11: S094, S098, S103, S097 validats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
   },
   "S099": {
     "status": "approved",
@@ -2256,9 +2261,9 @@
     "approvalSource": "Docent 24/11: S104, S100 i S108 validats per síntesi de veus; S109, S102 i S105 també preparats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
   },
   "S101": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "f7f29f198bceb53f7bae6369567eace6eb47c5466ae90404501f23263ad6345a",
+    "reviewedAt": "2026-11-24",
     "reviewActivity": "ca-S101",
     "reviewContent": "content/propostes/quotidianes/mar-consultes.js",
     "format": "6è intermèdia: seguir unes instruccions d’arribada, diferenciar la clau del codi per recollir-la i comprovar el canal de contacte. Reserva i funcionament d’aquest allotjament són ficticis.",
@@ -2273,7 +2278,8 @@
       "Recepcionista": "Callirrhoe"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 24/11: S101, S094 validats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
   },
   "S102": {
     "status": "approved",
@@ -2297,9 +2303,9 @@
     "approvalSource": "Docent 24/11: S104, S100 i S108 validats per síntesi de veus; S109, S102 i S105 també preparats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
   },
   "S098": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "0546cfb06296dcf0de8c370b9458cb214d34197d973f4c4b764fc0f0faea8e1a",
+    "reviewedAt": "2026-11-24",
     "reviewActivity": "ca-S098",
     "reviewContent": "content/propostes/quotidianes/laia-ona-gestions.js",
     "format": "5è intermèdia: comparar una consumició amb un tiquet, seguir un canvi de taula i explicar una confusió amb una altra comanda. Una escena concreta amb dues veus; el Biel només es menciona.",
@@ -2314,12 +2320,13 @@
       "Ona": "Sulafat"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 24/11: S094, S098, S103, S097 validats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
   },
   "S103": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "3ae9dd8a330fa0201d33c1b0bd755b59dbe3fc688a372d64a562291a28115f7c",
+    "reviewedAt": "2026-11-24",
     "reviewActivity": "ca-S103",
     "reviewContent": "content/propostes/quotidianes/laia-ona-gestions.js",
     "format": "5è intermèdia: comunicar dos canvis, comprovar les dades actualitzades i relacionar les persones amb l’encàrrec de menjar. Laia parla com una jove que ajuda en una gestió familiar.",
@@ -2334,7 +2341,8 @@
       "Ona": "Sulafat"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 24/11: S094, S098, S103, S097 validats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
   },
   "S104": {
     "status": "approved",

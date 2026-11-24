@@ -461,5 +461,38 @@
     ],
     "application": "Veu només per comparar. Cap substitució ni muntatge abans de validar-ne la dicció i la identitat.",
     "approvedRequestHash": "fe1f649d786d5f5b2f58e1ab3307a2ecabcdcb48fc5ae4166c52f05298e09331"
+  },
+  "S056": {
+    "activity": "ca-S056",
+    "status": "approved-for-correction",
+    "approvedAt": "2026-11-24",
+    "approvalSource": "Docent 23/11: resta de S056 correcta, cal sintetitzar el títol, Notícia de ficció i Bon dia inicial que falten; següent lot compatible de Mar autoritzat el 24/11.",
+    "scope": "missing-title",
+    "sourceTakeId": "S056-T01",
+    "sourceRequestHash": "b0a730b180a626cc040f5673c2e59704c01d046548a2b4090c0538b629495e23",
+    "sourceRawSha256": "20d716f9a5513b380c1885e64229e4d4f31e4951d03b0c5e3e53b542a7913fcd",
+    "sourceTakeSha256": "fafe5e399b5421f0e177d5a8602c74da49992434fe756e18fbe6ff13e1e31552",
+    "voices": {
+      "Mar": "Erinome"
+    },
+    "direction": "Natural Central Catalan, exact adult Mar/Erinome identity. Clear calm news introduction and greeting, distinct from the conversational scenes. Read every supplied word exactly once. No breathing performance, music, sound effects, instructions or extra words.",
+    "repairs": [
+      {
+        "part": "introduction",
+        "speaker": "Mar",
+        "text": "Comprensió oral. El taller canvia de casa. Notícia de ficció.",
+        "pronunciation": "Say the complete exercise introduction, title and Notícia de ficció. Do not omit any sentence. Keep initial and final consonants."
+      },
+      {
+        "part": "trasllat",
+        "speaker": "Mar",
+        "text": "Bon dia.",
+        "pronunciation": "Say the complete greeting Bon dia, once, in the same adult Mar/Erinome voice. Both words are missing from the original; this is an insertion for audition, without an original greeting clip.",
+        "missingOriginal": true,
+        "missingPart": "opening-greeting"
+      }
+    ],
+    "application": "Només reposició dels fragments omesos per escoltar abans de muntar. La resta de la locució aprovada i la presa crua es conserven; cap substitució automàtica.",
+    "approvedRequestHash": "9443ce573ba6e4ec1c863557b368548aa9344a8bc7816bb1f709cd3bbca97dd4"
   }
 }

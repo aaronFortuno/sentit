@@ -1,0 +1,591 @@
+{
+  "model": "gemini-3.8-flash-tts",
+  "input": [
+    {
+      "type": "user_input",
+      "content": [
+        {
+          "type": "text",
+          "text": "Comprensió oral. El carro davant de la porta. \n\nUi, a veure com passo ara... Hola! Aquest carro és seu? Tinc les claus a la mà, però no puc arribar al pany.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Mar conversa fora de la feina, amb veu Erinome propera i espontània: salutacions, petites sorpreses i rèpliques quotidianes, sense cadència de noticiari. La segona veu és una adulta ocasional, natural i diferenciada; no representa cap recurrent. Cap tercera veu, narrador o imitació. Les pauses neixen de la conversa, sense rialles ni instruccions llegides. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the assigned physical voices unchanged. This recording has only the supplied cast; guest roles belong only to this scene. Instructions are not spoken."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ai, sí, perdona. Soc del segon. Estic baixant unes caixes i l’he deixat aquí un moment. Just ara anava a buscar la que em falta.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Mar conversa fora de la feina, amb veu Erinome propera i espontània: salutacions, petites sorpreses i rèpliques quotidianes, sense cadència de noticiari. La segona veu és una adulta ocasional, natural i diferenciada; no representa cap recurrent. Cap tercera veu, narrador o imitació. Les pauses neixen de la conversa, sense rialles ni instruccions llegides. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "És que vinc amb dues bosses i, si em giro, les enganxo al carro. Em sembla que amb un pam més ja passaria.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Espera, que l’agafo pel mànec. El volia deixar al costat del fanal, però allà la vorera és tan estreta que tampoc hi passaria ningú.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "I si l’entrem una mica? Al costat de l’escala hi ha aquell racó buit. Jo et puc aguantar la porta mentre l’empenys.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí, millor. El meu germà vindrà amb la furgoneta a recollir les caixes, però encara trigarà una estona. Així no les hauré de tenir al carrer tota l’estona.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Va, passa tu primer. Aguanto la porta amb el peu... Ara. Jo deixo primer les bosses a casa i després t’ajudo amb la caixa que falta.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Gràcies. Aquesta última és buida, només fa nosa perquè és grossa. Amb el carro ja ho tindré tot a punt.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Doncs pugem juntes. Entro un moment les bosses i et vinc a ajudar. Els tomàquets ja han viatjat prou per avui.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "I el carro, al racó. Si el torno a deixar a la porta, em renyes amb tota la raó!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. El pa per al sopar. \n\nBona tarda. Em poses una barra, si us plau? La que em vas donar ahir ens va durar ben poc. Quan vaig arribar a la cuina ja en faltava una punta.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice, pace and character. Read the words verbatim, with conversational turn-taking. No added sounds. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the assigned physical voices unchanged. This recording has only the supplied cast; guest roles belong only to this scene. Instructions are not spoken."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Bona tarda! De les llargues, com ahir? Les tinc aquí. Si la vols una mica menys torrada, aquella del darrere és més clara.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice, pace and character. Read the words verbatim, with conversational turn-taking. No added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "La més torrada ja m’agrada. Avui sopem entrepans a casa. Ai, espera, que la mare m’ha encarregat també mig pa rodó i gairebé me’n vaig sense demanar-lo.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Cap problema. El mig rodó, el vols tallat a llesques?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí, que la mare el guarda al congelador i en va traient.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Doncs et poso cada cosa en una bossa. Així podràs donar-li el mig rodó sense haver de treure el pa dels entrepans. Tens bossa de roba?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí, aquí. Avui l’he portada! A vegades entro amb tanta pressa que me la deixo al cotxe i me’n recordo quan ja m’ho has embolicat tot.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Aquí ho tens: aquesta és la barra i aquesta, el mig rodó a llesques. Que vagi bé el sopar.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Gràcies! La bossa de la mare, a dalt de tot, que si no em tocarà buscar-la entre les patates. Fins demà.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. El carrer està tallat. \n\nBon dia, agent. He d’anar al carrer del Roure, al número vuit. Hi viu la meva tieta i li porto aquesta capsa. Per aquí sempre hi passo, però avui hi ha tanques.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Mar/Erinome fora de la feina, adulta propera que pregunta, dubta i reacciona amb naturalitat. La interlocutora ocasional/Despina respon amb amabilitat i claredat, sense parlar com una locutora. Només aquestes dues veus. Pauses de conversa, cap instrucció llegida ni vocalització afegida. Tractament mutu de vostè, cordial i espontani, sense solemnitat. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the assigned physical voices unchanged. This recording has only the supplied cast; guest roles belong only to this scene. Instructions are not spoken."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Bon dia. Estan acabant una cursa i tenim aquest tram tallat als vehicles. A peu pot arribar a les cases, però ara mateix els corredors passen just per aquesta cantonada.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Mar/Erinome fora de la feina, adulta propera que pregunta, dubta i reacciona amb naturalitat. La interlocutora ocasional/Despina respon amb amabilitat i claredat, sense parlar com una locutora. Només aquestes dues veus. Pauses de conversa, cap instrucció llegida ni vocalització afegida. Tractament mutu de vostè, cordial i espontani, sense solemnitat. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ah, entesos. M’he d’esperar aquí, doncs? La tieta m’està esperant per dinar i em trucarà tan bon punt vegi que faig tard.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Si vol passar per aquesta cantonada, calculi un quart d’hora. També pot anar pel mercat: giri al següent carrer i travessi el passatge cobert. A l’altra banda ja surt al carrer del Roure.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "És gaire volta? La capsa pesa una mica. A dins hi ha plats, i prefereixo no anar-la canviant de braç tota l’estona.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Caminant tranquil·la, uns tres minuts. El passatge és pla i té ombra. Quan en surti, el número vuit li quedarà a mà dreta. Hi ha una farmàcia just davant.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Doncs aniré per allà. Havia pensat tornar al cotxe i acostar-m’hi, però l’he deixat dues cantonades més avall.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Avui li sortirà més a compte caminar aquest tros. Amb el cotxe hauria de donar tota la volta al parc i després buscar on deixar-lo.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí, sí, deixem el cotxe on és. Vaig a avisar la tieta que arribo pel mercat. Moltes gràcies.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "De res. El passatge és aquella entrada de l’esquerra. Que vagi bé!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. El tren que arriba abans. \n\nBon dia. És la primera vegada que agafo el tren aquí. He d’anar a Roca Nova i voldria arribar abans de les onze, que he quedat amb una amiga a l’estació.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice, pace and character. Read the words verbatim, with conversational turn-taking. No added sounds. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the assigned physical voices unchanged. This recording has only the supplied cast; guest roles belong only to this scene. Instructions are not spoken."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Bon dia. Té dues opcions. El primer surt a les deu i deu, però ha de canviar de tren a mig camí. L’altre surt a les deu i vint-i-cinc i és directe.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice, pace and character. Read the words verbatim, with conversational turn-taking. No added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Doncs agafaria el primer, per anar més tranquil·la. Si surt un quart d’hora abans, em sembla que ja em va bé.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Esperi, mirem també l’arribada. Amb el primer, el tren que ha d’agafar després triga a passar: arribaria a les onze i cinc. El directe arriba a les deu i cinquanta.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ah! Doncs el directe, el de les deu i vint-i-cinc. Jo m’havia fixat només en l’hora de sortir. La meva amiga ja ve expressament a buscar-me i no la vull fer esperar.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "D’acord. Vol anada i tornada o només anada?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Només anada. Em quedaré a dormir a casa seva i demà encara no sé a quina hora tornaré. Em pot fer el bitllet aquí mateix?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí. Li preparo el bitllet del directe. Surt de la via dos, la que té a l’altra banda del pas soterrat. Miri la pantalla abans de baixar a l’andana, per si hi hagués algun canvi.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "La via dos, a l’altra banda. Vaig bé per aquestes escales?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí, i després segueixi el número dos. Aquí té el bitllet. Bon viatge!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Gràcies. Ara li escric que arribaré a les deu i cinquanta. Adeu!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. El paraigua no s’obre. \n\nHola. Dissabte vaig comprar aquest paraigua i avui l’he fet servir per primera vegada. Quan he volgut obrir-lo, el botó s’ha quedat encallat. Porto el tiquet, mira.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Mar/Erinome fora de la feina, adulta propera que pregunta, dubta i reacciona amb naturalitat. La interlocutora ocasional/Despina respon amb amabilitat i claredat, sense parlar com una locutora. Només aquestes dues veus. Pauses de conversa, cap instrucció llegida ni vocalització afegida. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the assigned physical voices unchanged. This recording has only the supplied cast; guest roles belong only to this scene. Instructions are not spoken."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Hola. Me’l deixes? Sí... El botó baixa, però el paraigua queda tancat. No el forçarem. Te’l puc canviar per un altre del mateix model.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Mar/Erinome fora de la feina, adulta propera que pregunta, dubta i reacciona amb naturalitat. La interlocutora ocasional/Despina respon amb amabilitat i claredat, sense parlar com una locutora. Només aquestes dues veus. Pauses de conversa, cap instrucció llegida ni vocalització afegida. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Perfecte. En tens de verds, com aquest? El vaig triar perquè el pugui trobar de seguida entre totes les coses de la bossa.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ara mateix només en tinc de negres. Els verds ens arribaran divendres. Si el vols verd, te’l puc guardar i vens a buscar-lo quan hagi arribat.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "És que el necessito avui. D’aquí a una estona he de caminar fins a l’estació i segueix plovent. El negre és de la mateixa mida?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí. La mida i el mànec són iguals. Mira, en trec un perquè el puguis provar aquí mateix.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Aquest sí que s’obre bé. Doncs em quedo el negre. Ja hi posaré una cinta de color, que després els paraigües tots em semblen iguals.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "D’acord. Em quedo el que falla i et faig el paper del canvi. Guarda’l amb el tiquet que has portat.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "La funda del verd també te la deixo? L’he posada dins de la bossa perquè no la perdés.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí, deixa-la amb el paraigua que tornes. Aquest altre ja porta la seva. Aquí ho tens tot.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Moltes gràcies. Ara sí que podré sortir sense quedar xopa abans d’arribar a la cantonada. Adeu!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "response_format": {
+    "type": "audio",
+    "mime_type": "audio/wav",
+    "sample_rate": 24000
+  },
+  "generation_config": {
+    "speech_config": {
+      "speakers": [
+        {
+          "speaker": "Voice1",
+          "voice": "Erinome"
+        },
+        {
+          "speaker": "Voice2",
+          "voice": "Despina"
+        }
+      ]
+    }
+  },
+  "background": true
+}

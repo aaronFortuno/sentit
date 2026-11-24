@@ -1026,6 +1026,185 @@
       "estimatedInputTokens": 8047,
       "receipt": "assets/audio/synthesis-batches/l31.json",
       "completedAt": "2026-11-23T21:51:41.247Z"
+    },
+    {
+      "id": "L32",
+      "state": "received",
+      "sourceProposal": "P23 + S056 opening",
+      "speechTextFormat": "plain-v1",
+      "execution": "background-v1",
+      "castPolicy": {
+        "kind": "anchor-with-guests-v1",
+        "speaker": "Mar",
+        "voice": "Erinome",
+        "guestVoice": "Callirrhoe",
+        "allowAnchorRepairs": true
+      },
+      "blocks": [
+        {
+          "code": "S099",
+          "take": "S099-T01",
+          "sourceRequestHash": "f076aeddb73e632e785a997f5084e7173217584f41e5e157decb26b886f39d85"
+        },
+        {
+          "code": "S100",
+          "take": "S100-T01",
+          "sourceRequestHash": "39f81b4da22628b75947cf9b0fc89d94398d51118570506d9bd81d5a21f20b3e"
+        },
+        {
+          "code": "S101",
+          "take": "S101-T01",
+          "sourceRequestHash": "852f55c5221f1185164e220475f97c110cdd0a9f1c9a39f1417681217a803e3a"
+        },
+        {
+          "code": "S102",
+          "take": "S102-T01",
+          "sourceRequestHash": "a17b5ea661a1ce23a14ad4c889488e88025d538fab8f4a654c1ca57718d895d7"
+        },
+        {
+          "code": "S056",
+          "part": "introduction",
+          "sourceRequestHash": "9443ce573ba6e4ec1c863557b368548aa9344a8bc7816bb1f709cd3bbca97dd4"
+        },
+        {
+          "code": "S056",
+          "part": "trasllat",
+          "sourceRequestHash": "9443ce573ba6e4ec1c863557b368548aa9344a8bc7816bb1f709cd3bbca97dd4"
+        }
+      ],
+      "authorization": "Docent 24/11: S101 validat i demana enviar ara el lot de Mar. S099/S100/S102 ja validats. Incloure la reposició exacta de l’inici omès de S056, explícitament demanada; una sola petició completa, preses per audició abans del muntatge.",
+      "approvedAt": "2026-11-24T13:44:35.528Z",
+      "approvedRequestHash": "a38715e579b55a270d1e2b0f493b471ebe0f7ed700681aceec1aadfd202a5f75",
+      "estimatedSeconds": 421,
+      "estimatedInputTokens": 7962,
+      "receipt": "assets/audio/synthesis-batches/l32.json",
+      "completedAt": "2026-11-24T13:47:08.519Z"
+    },
+    {
+      "id": "L33",
+      "state": "received",
+      "sourceProposal": "P13",
+      "speechTextFormat": "plain-v1",
+      "execution": "background-v1",
+      "blocks": [
+        {
+          "code": "S074",
+          "take": "S074-T01",
+          "sourceRequestHash": "9f82a886a2be0d3c9f39df21c6a39e9768a2eebaedc936b899afd0f611f2b6d7"
+        },
+        {
+          "code": "S076",
+          "take": "S076-T01",
+          "sourceRequestHash": "36700c905be55f8dac875c6c259472d0487fc2c3cdec3046574ce18cc8952aeb"
+        },
+        {
+          "code": "S098",
+          "take": "S098-T01",
+          "sourceRequestHash": "f39179722053f43a5fa62fbdc976387f943b71e84e7fa034a15c2a705fcdf38f"
+        },
+        {
+          "code": "S103",
+          "take": "S103-T01",
+          "sourceRequestHash": "7e02990645fd6fec34f080528b43d0c13bc5785e2e4ed373a32e278db224dc5c"
+        }
+      ],
+      "authorization": "Docent 24/11 valida S098 i S103 per a síntesi i sol·licita enviar el lot de Laia i Ona. S074 i S076 ja aprovats. Una petició completa després de L32, sense repetir intents incerts; veus per escoltar abans del muntatge.",
+      "approvedAt": "2026-11-24T13:51:15.476Z",
+      "approvedRequestHash": "c8516a1b636a26a9ed64fa2c7c6106cf90afe153ae62018e472a7fbda49e8c1a",
+      "estimatedSeconds": 470,
+      "estimatedInputTokens": 7305,
+      "receipt": "assets/audio/synthesis-batches/l33.json",
+      "completedAt": "2026-11-24T13:54:18.603Z"
+    },
+    {
+      "id": "L34",
+      "state": "received",
+      "sourceProposal": "P21",
+      "speechTextFormat": "plain-v1",
+      "execution": "background-v1",
+      "castPolicy": {
+        "kind": "anchor-with-guests-v1",
+        "speaker": "Ferran",
+        "voice": "Algenib",
+        "guestVoice": "Gacrux"
+      },
+      "blocks": [
+        {
+          "code": "S089",
+          "take": "S089-T01",
+          "sourceRequestHash": "14d1fc9932f5a52a17a7c542dd8956b9ce713a97eedfaa08054e399ee0d037d6"
+        },
+        {
+          "code": "S095",
+          "take": "S095-T01",
+          "sourceRequestHash": "34a5580fb1f227c695880eedf777de9b6834e4e67406fc5e629f6902f4a40e21"
+        },
+        {
+          "code": "S096",
+          "take": "S096-T01",
+          "sourceRequestHash": "0c34f317fec688d13e6d7a2f1ef1e948293c66088f75a725c2e615c460aa02d7"
+        },
+        {
+          "code": "S097",
+          "take": "S097-T01",
+          "sourceRequestHash": "1c11c010f9586efdf7c3a3ec02da159ac54f2d48c743353e789802ac22300ab5"
+        }
+      ],
+      "authorization": "Docent 24/11: autoritza explícitament P13, P21 i P19 en síntesi seqüencial a mesura que acabin. Tots els guions, veus i escaletes validats. S095 amb comiat neutre, S092/S093 amb vostè i revisió independent final superada. Només veus per escoltar abans del muntatge.",
+      "approvedAt": "2026-11-24T13:56:50.805Z",
+      "approvedRequestHash": "aef37a3e56d6a4126206a0905030aad2bc53160804678de652431febf809e7e6",
+      "estimatedSeconds": 398,
+      "estimatedInputTokens": 6941,
+      "receipt": "assets/audio/synthesis-batches/l34.json",
+      "completedAt": "2026-11-24T13:59:03.085Z"
+    },
+    {
+      "id": "L35",
+      "state": "received",
+      "sourceProposal": "P19",
+      "speechTextFormat": "plain-v1",
+      "execution": "background-v1",
+      "styleFormat": "compact-v1",
+      "castPolicy": {
+        "kind": "anchor-with-guests-v1",
+        "speaker": "Mar",
+        "voice": "Erinome",
+        "guestVoice": "Despina"
+      },
+      "blocks": [
+        {
+          "code": "S085",
+          "take": "S085-T01",
+          "sourceRequestHash": "118c27f2d99810abd12238e1e33fd0bbda9457078524973721f3a6da47b69fa0"
+        },
+        {
+          "code": "S086",
+          "take": "S086-T01",
+          "sourceRequestHash": "3a4919fd74f14b0977fe62af6d40f0487711208dabdf5dac16b3d2c8ee89e234"
+        },
+        {
+          "code": "S092",
+          "take": "S092-T01",
+          "sourceRequestHash": "ae6ecfeacaefa92a81d1436477aeead97e4a50077b774d2b5584088dd1478ad9"
+        },
+        {
+          "code": "S093",
+          "take": "S093-T01",
+          "sourceRequestHash": "b44a3a4409937ea89c28b305650fcb169fdccbb963e2a44a8f4c0e1d18b3dc42"
+        },
+        {
+          "code": "S094",
+          "take": "S094-T01",
+          "sourceRequestHash": "4e8567f3d4832e5b8379bfbef7dc1848ea09267824b0cc5567397ebae790d114"
+        }
+      ],
+      "authorization": "Docent 24/11: autoritza explícitament P13, P21 i P19 en síntesi seqüencial a mesura que acabin. Tots els guions, veus i escaletes validats. S095 amb comiat neutre, S092/S093 amb vostè i revisió independent final superada. Només veus per escoltar abans del muntatge.",
+      "approvedAt": "2026-11-24T13:59:17.932Z",
+      "approvedRequestHash": "2e429c977e701ef1f63c2570d8f4ce02143fc47e4241bb11ee74e0760f029f2e",
+      "estimatedSeconds": 424,
+      "estimatedInputTokens": 7354,
+      "receipt": "assets/audio/synthesis-batches/l35.json",
+      "completedAt": "2026-11-24T14:01:08.329Z"
     }
   ],
   "calibration": {

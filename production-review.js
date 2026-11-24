@@ -6,7 +6,7 @@ export function cardReviewUpdate(entry) {
   const progress = productionProgress[`${entry.language}-${entry.code}`];
   if (!entry.audio && progress?.synthesisIssue) return { id: 'synthesis-failed', title: 'reviewSynthesisFailed', help: 'reviewSynthesisNotRepeated' };
   if (progress?.state === 'voices-awaiting-listening') return { id: 'voices-awaiting-listening', title: 'reviewVoicesReceived', help: 'openReview', summary: progress.voiceReviewNote };
-  if (!entry.audio && progress?.missingVoiceParts?.some(part=>!progress.receivedRepairs?.some(r=>r.part===part&&r.applied===false&&r.status==='received-awaiting-listening'))) return { id: 'voices-incomplete', title: 'reviewVoicesIncomplete', help: progress.missingVoiceParts.some(part=>part!=='introduction')?'reviewIncompleteVoices':'reviewMissingTitle',summary:progress.voiceReviewUpdate?.summary };
+  if (!entry.audio && progress?.missingVoiceParts?.some(part=>!progress.receivedRepairs?.some(r=>(r.part===part||r.missingPart===part)&&r.applied===false&&r.status==='received-awaiting-listening'))) return { id: 'voices-incomplete', title: 'reviewVoicesIncomplete', help: progress.missingVoiceParts.some(part=>part!=='introduction')?'reviewIncompleteVoices':'reviewMissingTitle',summary:progress.voiceReviewUpdate?.summary };
   if (!entry.audio && progress?.uncertainTurns?.some(turn=>turn.status==='incomplete-turn-awaiting-listening')) return {id:'voices-uncertain',title:'reviewVoicesUncertain',help:'reviewIncompleteVoices',summary:progress.voiceReviewNote};
   if (hasPendingSynthesisEdit(entry)) {
     const pending = progress.feedback.filter(item => item.status === 'pending');

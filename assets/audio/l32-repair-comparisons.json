@@ -1,0 +1,36 @@
+{
+  "batch": "L32",
+  "requestHash": "a38715e579b55a270d1e2b0f493b471ebe0f7ed700681aceec1aadfd202a5f75",
+  "repairs": [
+    {
+      "code": "S056",
+      "part": "introduction",
+      "text": "Comprensió oral. El taller canvia de casa. Notícia de ficció.",
+      "pronunciation": "Say the complete exercise introduction, title and Notícia de ficció. Do not omit any sentence. Keep initial and final consonants.",
+      "status": "received-awaiting-listening",
+      "missingOriginal": true,
+      "candidateFile": "assets/audio/repairs/l32-s056-introduction-prova.mp3",
+      "sourceRawSha256": "20d716f9a5513b380c1885e64229e4d4f31e4951d03b0c5e3e53b542a7913fcd",
+      "sourceTakeId": "S056-T01",
+      "sourceTakeSha256": "fafe5e399b5421f0e177d5a8602c74da49992434fe756e18fbe6ff13e1e31552",
+      "batchRequestHash": "a38715e579b55a270d1e2b0f493b471ebe0f7ed700681aceec1aadfd202a5f75",
+      "applied": false
+    },
+    {
+      "code": "S056",
+      "part": "trasllat",
+      "missingPart": "opening-greeting",
+      "text": "Bon dia.",
+      "pronunciation": "Say the complete greeting Bon dia, once, in the same adult Mar/Erinome voice. Both words are missing from the original; this is an insertion for audition, without an original greeting clip.",
+      "status": "received-awaiting-listening",
+      "missingOriginal": true,
+      "candidateFile": "assets/audio/repairs/l32-s056-trasllat-prova.mp3",
+      "sourceRawSha256": "20d716f9a5513b380c1885e64229e4d4f31e4951d03b0c5e3e53b542a7913fcd",
+      "sourceTakeId": "S056-T01",
+      "sourceTakeSha256": "fafe5e399b5421f0e177d5a8602c74da49992434fe756e18fbe6ff13e1e31552",
+      "batchRequestHash": "a38715e579b55a270d1e2b0f493b471ebe0f7ed700681aceec1aadfd202a5f75",
+      "applied": false
+    }
+  ],
+  "masterChanged": false
+}

@@ -13,6 +13,9 @@ async function buildBatch(activities,plans,repairs,batch){
  const content=[],blocks=[],labels=new Map(),voiceIdentities=new Map();
  const plain=batch.speechTextFormat==='plain-v1';
  if(batch.speechTextFormat&&!plain)throw Error('Format de parla desconegut.');
+ const compact=batch.styleFormat==='compact-v1',sharedStyles=new Set();
+ if(batch.styleFormat&&!compact)throw Error('Format de direcció desconegut.');
+ if(compact&&!plain)throw Error('La direcció compacta requereix text pla.');
  const guestPolicy=batch.castPolicy;
  const {characters}=guestPolicy?await import('../content/characters.js'):{characters:[]};
  const {assertGuestPolicy,assertGuestCast,loadExtra}=require('./synthesis-extra.cjs');
@@ -66,7 +69,9 @@ async function buildBatch(activities,plans,repairs,batch){
   sourceRequestHash=sha(JSON.stringify(original));
   if(ref.sourceRequestHash!==sourceRequestHash)throw Error(ref.code+': empremta d’origen diferent de la planificada.');
   const speech=original.generation_config.speech_config,voices=Array.isArray(speech)?speech:speech.speakers;
-  const start=content.length,items=[],styles=new Set();
+  // Optional, explicit format: identical direction strings need only be stated
+  // once per physical voice. Historical frozen requests keep their old format.
+  const start=content.length,items=[],styles=compact?sharedStyles:new Set();
   for(const item of sourceItems){
    const annotation=item.annotations.find(a=>a.type==='speech_metadata'),sourceSpeaker=annotation.speaker??(ref.take?spec.titleSpeaker:repairs[ref.code].repairs.find(r=>r.part===parts[0]).speaker),voice=voices.find(v=>v.speaker===annotation.speaker)?.voice??(voices.length===1?voices[0].voice:null);
    if(!voice)throw Error('Veu sense correspondència.');

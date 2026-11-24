@@ -1,8 +1,8 @@
 # Situacions quotidianes · serveis i gestions
 
-Tanda del 23 de novembre de 2026, actualitzada el 24/11. **Dotze guions amb revisió independent superada; S096, S099, S100 i S102 ja validats pel docent per a síntesi, els altres vuit pendents del seu vistiplau.** Cada enllaç obre directament el solucionari amb el guió anotat, les preguntes i l’escaleta. Encara no hi ha veus sintetitzades per a aquestes propostes.
+Tanda del 23 de novembre de 2026, actualitzada el 24/11. **Dotze guions validats pel docent, amb veus rebudes i pendents d’audició.** S097 conserva una presa incompleta: falta el títol i el primer torn de Ferran. Cada enllaç obre la fitxa amb guió, preguntes i controls de veus. [Resultat dels lots L32–L35](lots-2026-11-24.md).
 
-## Guions per revisar
+## Guions i veus per consultar
 
 | Codi | Títol | Curs · dificultat | Preg. | Veus proposades |
 | --- | --- | --- | ---: | --- |
@@ -23,24 +23,24 @@ La dificultat prové de comparar opcions, concretar dades i seguir una gestió. 
 
 Horaris, límits de paqueteria, condicions de botiga i canals de tràmit pertanyen als casos de ficció. S099 fa seguir la visita, la documentació i la revisió d’un contracte concret, sense afirmar cobertures universals. Els guions no són instruccions per tramitar casos reals.
 
-## Agrupacions candidates després de validar
+## Agrupacions enviades després de validar
 
-| Proposta | Guions del lot | Nous per validar | Previsió en text pla | Veus físiques |
+| Proposta | Guions del lot | Lot rebut | Previsió en text pla | Veus físiques |
 | --- | --- | --- | ---: | --- |
-| P19 | S085, S086, S092, S093, S094 | S092–S094 | 7:04 | Erinome + Despina |
-| P21 | S089, S095, S096, S097 | S095, S097 | 6:39 | Algenib + Gacrux |
-| P13 | S074, S076, S098, S103 | S098, S103 | 7:50 | Leda + Sulafat |
-| P23 | S099, S100, S101, S102 | S101 | 6:57 | Erinome + Callirrhoe |
+| P19 | S085, S086, S092, S093, S094 | L35 | 7:04 | Erinome + Despina |
+| P21 | S089, S095, S096, S097 | L34 · S097 incompleta | 6:38 | Algenib + Gacrux |
+| P13 | S074, S076, S098, S103 | L33 | 7:50 | Leda + Sulafat |
+| P23 | S099, S100, S101, S102 | L32 | 6:57 | Erinome + Callirrhoe |
 
-P23 pot reservar espai per reposar l’inici de S056, ja demanat i amb la resta de les veus aprovada; primer cal preparar el pla exacte de títol, avís de ficció i salutació. Les altres esmenes rebudes de L30/L31 s’escolten abans de decidir si cal cap reintent.
+L32 també inclou la reposició del títol, avís de ficció i salutació de S056. Les esmenes rebudes s’escolten abans d’incorporar-les o decidir si cal cap reintent. La resta de les veus de S056 conserva l’aprovació docent anterior.
 
-Les previsions utilitzen 170 mots/minut i quatre segons de marge, sense afegir silencis per omplir. Són candidats, no peticions congelades: després de validar s’ha de comprovar el text exacte, les dues veus i el límit d’entrada. Si P13 excedís aquell límit, S103 pot esperar i les altres tres ja formarien un lot útil. Cap guió s’allarga per assolir la finestra de sis a vuit minuts.
+Les previsions utilitzen 170 mots/minut i quatre segons de marge, sense afegir silencis per omplir. Els quatre lots han superat la comprovació del text exacte, de les dues veus i del límit d’entrada abans d’enviar. Cap guió s’ha allargat per assolir la finestra de sis a vuit minuts.
 
 ## Producció i revisió
 
 - Títol i escena sencers, sense enviar cada frase en una petició independent. Les acotacions no es llegeixen.
 - Ambients reals neutres de carrer, estació, botiga, habitatge o restaurant segons el cas. Exterior esmorteït als interiors; cap música sintetitzada ni efectes puntuals que introdueixin esperes. Un fil musical mostrejat seria opcional i exigiria font i llicència verificades abans de muntar.
 - Revisió independent de les dotze peces, les **91 preguntes**, les cites, els contextos i les escaletes superada. Les revisions finals i les empremtes consten al registre editorial; no substitueixen la validació docent.
-- Després del vistiplau: preparar el lot exacte, sintetitzar quan hi hagi quota, publicar veus per escoltar, corregir si cal i muntar només després de validar-les. Aquesta tanda no ha consumit cap petició.
+- Guions validats i síntesi rebuda; ara toca escoltar les veus i resoldre les incidències abans de muntar. Aquesta tanda comparteix els quatre lots del 24/11 amb els guions que ja esperaven material compatible.
 
 [Seguiment de producció](seguiment-produccio.md) · [Cua de síntesi](lots-sintesi.md) · [Primera tanda quotidiana](lot-situacions-quotidianes.md).

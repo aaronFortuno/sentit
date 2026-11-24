@@ -1,5 +1,6 @@
 export const strings = {
   ca: {
+    releaseFourCompleteBatches: 'Quatre lots rebuts: disset preses per escoltar i l’inici que faltava de S056, abans de muntar. S097 té un avís perquè falta el títol i la primera intervenció. S092 i S093 es tracten de vostè, i S095 tanca amb un comiat neutre. Validacions i seguiment actualitzats.',
     releaseDateNewUniverses: '24 de novembre de 2026',
     releaseHandsAndWalks: 'Mans a l’obra i A peu de camí: quatre guions de cada univers per a 3r–6è, amb preguntes, contextos i escaletes revisats independentment. Taller amb Biel i Elies, passejades amb Aina i Ferran. Totes les pistes són escoltables, sense mapa ni imatge necessaris. Pendents de validació docent; cap síntesi nova.',
     releaseEverydayServices: 'Dotze guions nous de serveis i gestions per a cicle superior i ESO: transports, compres, reclamacions, tràmits i una visita de la pèrita. Preguntes, contextos i escaletes revisats independentment, pendents del docent. Quatre agrupacions candidates per completar lots, sense síntesi nova.',
@@ -302,6 +303,7 @@ export const strings = {
     sessionEnded: 'Sessió acabada', remainingTime: 'Temps restant',
   },
   es: {
+    releaseFourCompleteBatches: 'Cuatro lotes recibidos: diecisiete tomas para escuchar y el inicio que faltaba de S056, antes de montar. S097 avisa de la omisión del título y la primera intervención. S092 y S093 se tratan de usted, y S095 termina con una despedida neutra. Validaciones y seguimiento actualizados.',
     releaseDateNewUniverses: '24 de noviembre de 2026',
     releaseHandsAndWalks: 'Manos a la obra y A pie de camino: cuatro guiones de cada universo para 3.º–6.º, con preguntas, contextos y planes revisados de forma independiente. Taller con Biel y Elies, paseos con Aina y Ferran. Todas las pistas se escuchan, sin necesitar mapas ni imágenes. Pendientes de validación docente; sin síntesis nueva.',
     releaseEverydayServices: 'Doce guiones nuevos de servicios y gestiones para ciclo superior y ESO: transportes, compras, reclamaciones, trámites y una visita de la perita. Preguntas, contextos y planes revisados de forma independiente, pendientes del docente. Cuatro agrupaciones candidatas para completar lotes, sin síntesis nueva.',
