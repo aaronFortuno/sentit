@@ -1,5 +1,12 @@
 # Canvis
 
+## 0.1.105 · 25 de novembre de 2026
+
+- S099, S111, S094, S072 i S089 amb veus validades i muntatges per escoltar. Interiors discrets per a S099/S094, vent natural per al camí rural de S111 i exterior tranquil per a S089. Preses originals i timbres conservats, sense síntesi nova de veu.
+- S072, narració de Ferran, incorpora la base original «Una ratlla sota el paper», mercat enregistrat a l’entrada i paper real sense pausa afegida. Música molt baixa sota la veu, amb pujada i fosa final. Els enregistraments curts, com el vent de S111, es repeteixen amb foses fins a cobrir tota la conversa.
+- Omissions de S088 i S090 confirmades pel docent: primer torn de Ferran incomplet a S088, presentació i primera crida de Laia absents a S090. Fragments exactes en cua per als propers lots compatibles, amb la card marcada com a síntesi pendent d’esmena.
+- Crèdits, registres i seguiment actualitzats. Màsters, mostres de veu conservades i reproductors amb desplaçament per la pista comprovats localment; muntatges pendents d’audició final.
+
 ## 0.1.104 · 25 de novembre de 2026
 
 - Publicació definitiva de S104, S106, S087, S110, S074, S100, S108, S056 i S097 amb la validació explícita del docent. Es conserven exactament els nou màsters aprovats; les esmenes incorporades de S056 i S097 queden validades i tancades.

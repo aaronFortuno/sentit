@@ -110,6 +110,9 @@ export const walkingActivities = [
   }),
   make({
     id: 'la-porta-del-cami-vell', code: 'S111', title: 'La porta del camí vell', grade: '6', level: 'advanced', genre: 'dialogue',
+    seconds: 107, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s111-mixed-v1.mp3', tracks: { introduction: './assets/audio/s111-mixed-v1-intro.mp3', body: './assets/audio/s111-mixed-v1-cos.mp3' },
+    fragment: { start: 4.98, seconds: 102 },
     summary: 'L’Aina i en Ferran volen acabar una passejada pel camí que ell recorda. Una porta tancada els obliga a repensar la tornada.',
     editorialFocus: '6è avançada: distingir el record d’una ruta de la informació d’aquell dia, relacionar temps d’anada i recollida i confirmar una decisió. Tota la informació del cartell i del missatge es diu en veu alta; no cal mapa, telèfon ni càlcul exacte per respondre.',
     illustrationBrief: 'Aina i Ferran conversen al costat d’una porta de camí tancada, en un entorn rural tranquil. Rètol sense text llegible i telèfon sense pantalla visible. No dibuixar recorreguts o persones que resolguin la situació.',

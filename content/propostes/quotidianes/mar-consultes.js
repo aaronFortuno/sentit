@@ -7,6 +7,9 @@ const room = 'Ambient enregistrat real d’interior tranquil, molt baix i contin
 export const dailyMarEnquiries = [
   dailyProposal({
     id: 'despres-de-la-fuita', code: 'S099', title: 'Després de la fuita', grade: 'eso1', level: 'middle', genre: 'dialogue',
+    seconds: 109, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s099-mixed-v1.mp3', tracks: { introduction: './assets/audio/s099-mixed-v1-intro.mp3', body: './assets/audio/s099-mixed-v1-cos.mp3' },
+    fragment: { start: 4.24, seconds: 104 },
     voices: { Mar: 'Erinome', Pèrita: 'Callirrhoe' }, guestSpeakers: [{ name: 'Pèrita', voice: 'Callirrhoe', role: 'Pèrita que visita un habitatge · ocasional' }], delivery,
     summary: 'Després d’una fuita d’aigua, la Mar rep la visita d’una pèrita. Miren els desperfectes i concreten quina informació haurà d’enviar.',
     editorialFocus: '1r d’ESO intermèdia: reconstruir una incidència, distingir l’avaria reparada dels desperfectes i entendre la funció de fotografies, factura i informe. Cas de ficció, sense establir cobertures d’assegurança universals.',

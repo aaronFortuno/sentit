@@ -139,6 +139,9 @@ export const records = [
   }),
   proposal({
     id: 'el-quadern-de-la-parada', code: 'S072', title: 'El quadern de la parada', grade: '6', level: 'advanced', genre: 'story', universeIds: ['aina-ferran'],
+    seconds: 158, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s072-mixed-v1.mp3', tracks: { introduction: './assets/audio/s072-mixed-v1-intro.mp3', body: './assets/audio/s072-mixed-v1-cos.mp3' },
+    fragment: { start: 3.88, seconds: 153 },
     summary: 'En Ferran ajudava una tieta a vendre coques els dissabtes. Una línia del quadern semblava un encàrrec encara pendent, però un paperet que tapava una marca i una conversa van canviar la manera d’entendre-la.',
     voices, delivery, soundCredits,
     editorialFocus: '6è avançada: reconstruir una operació comercial quotidiana amb dues anotacions del mateix encàrrec, distingir pendent i recollit i relacionar una deducció inicial amb la comprovació posterior. Nou preguntes sense càlculs de preus ni comptabilitat externa.',

@@ -1,6 +1,6 @@
 # Nou comprensions definitives · 25 de novembre de 2026
 
-S104, S106, S087, S110, S074, S100, S108, S056 i S097 passen a publicació definitiva amb la validació explícita del docent. Aquesta segona tanda completa les tretze publicacions anteriors del mateix dia. No queda cap muntatge pendent d’audició final; continuen obertes les esmenes i les audicions de veus d’altres peces.
+S104, S106, S087, S110, S074, S100, S108, S056 i S097 passen a publicació definitiva amb la validació explícita del docent. Aquesta segona tanda completa les tretze publicacions anteriors del mateix dia. Aquesta validació va tancar els muntatges que hi havia aleshores en revisió; continuen obertes les esmenes i les audicions de veus d’altres peces.
 
 ## Materials i procedència de les imatges
 

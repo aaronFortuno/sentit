@@ -307,6 +307,11 @@ export const mixedAudioResources = {
     "sounds": "Base original «Paper blau a la butxaca» (MIT), molt baixa durant la narració, amb pujada i fosa final.",
     "recipe": "tools/render-mixed-take.cjs"
   },
+  "ca-S072": {
+    "voices": "Ferran: Algenib. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "sounds": "Oxford covered market ambience · jmdh (CC0 1.0), fora de la parla. Base original «Una ratlla sota el paper» (MIT), molt baixa durant la narració, amb pujada i fosa final. Page turned · Beussa (CC0 1.0), molt baix sota la conversa.",
+    "recipe": "tools/render-mixed-take.cjs"
+  },
   "ca-S073": {
     "voices": "Laia: Leda; Ona: Sulafat. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "Ambiente kitchen Cocina Spain España · SoundtasticPro (CC0 1.0), molt baix sota la conversa.",
@@ -373,6 +378,11 @@ export const mixedAudioResources = {
     "sounds": "City Ambience Quiet Neighborhood · soaress (CC0 1.0), molt baix sota la conversa.",
     "recipe": "tools/render-mixed-take.cjs"
   },
+  "ca-S089": {
+    "voices": "Ferran: Algenib; Margarida: Gacrux. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "sounds": "City Ambience Quiet Neighborhood · soaress (CC0 1.0), molt baix sota la conversa.",
+    "recipe": "tools/render-mixed-take.cjs"
+  },
   "ca-S091": {
     "voices": "Laia: Leda; Biel: Puck. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "City Ambience Quiet Neighborhood · soaress (CC0 1.0), molt baix sota la conversa.",
@@ -380,6 +390,11 @@ export const mixedAudioResources = {
   },
   "ca-S092": {
     "voices": "Mar: Erinome; Policia: Despina. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
+    "sounds": "City Ambience Quiet Neighborhood · soaress (CC0 1.0), molt baix sota la conversa.",
+    "recipe": "tools/render-mixed-take.cjs"
+  },
+  "ca-S094": {
+    "voices": "Mar: Erinome; Dependenta: Despina. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
     "sounds": "City Ambience Quiet Neighborhood · soaress (CC0 1.0), molt baix sota la conversa.",
     "recipe": "tools/render-mixed-take.cjs"
   },
@@ -397,6 +412,11 @@ export const mixedAudioResources = {
   "ca-S098": {
     "voices": "Laia: Leda; Ona: Sulafat. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "Cafe Ambience · Vecera_999 (CC0 1.0), molt baix sota la conversa.",
+    "recipe": "tools/render-mixed-take.cjs"
+  },
+  "ca-S099": {
+    "voices": "Mar: Erinome; Pèrita: Callirrhoe. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "sounds": "City Ambience Quiet Neighborhood · soaress (CC0 1.0), molt baix sota la conversa.",
     "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S100": {
@@ -439,6 +459,11 @@ export const mixedAudioResources = {
     "sounds": "City Ambience Quiet Neighborhood · soaress (CC0 1.0), molt baix sota la conversa.",
     "recipe": "tools/render-mixed-take.cjs"
   },
+  "ca-S111": {
+    "voices": "Aina: Zephyr; Ferran: Algenib. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "sounds": "Gentle wind · fthgurdy (CC0 1.0), molt baix sota la conversa.",
+    "recipe": "tools/render-mixed-take.cjs"
+  },
   "ca-S058": {
     "voices": "Laia: Leda; Biel: Puck. Lot L18, veus rebudes i pendents d’audició.",
     "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
@@ -464,11 +489,6 @@ export const mixedAudioResources = {
     "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
     "recipe": "tools/prepare-batch-voice-previews.cjs"
   },
-  "ca-S072": {
-    "voices": "Ferran: Algenib. Lot L30, veus rebudes i pendents d’audició.",
-    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
-    "recipe": "tools/prepare-batch-voice-previews.cjs"
-  },
   "ca-S088": {
     "voices": "Ferran: Algenib; Bibliotecari: Achird. Lot L30, veus rebudes i pendents d’audició.",
     "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
@@ -484,18 +504,8 @@ export const mixedAudioResources = {
     "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
     "recipe": "tools/prepare-batch-voice-previews.cjs"
   },
-  "ca-S099": {
-    "voices": "Mar: Erinome; Pèrita: Callirrhoe. Lot L32, veus rebudes i pendents d’audició.",
-    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
-    "recipe": "tools/prepare-batch-voice-previews.cjs"
-  },
   "ca-S102": {
     "voices": "Mar: Erinome; Informadora: Callirrhoe. Lot L32, veus rebudes i pendents d’audició.",
-    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
-    "recipe": "tools/prepare-batch-voice-previews.cjs"
-  },
-  "ca-S089": {
-    "voices": "Ferran: Algenib; Margarida: Gacrux. Lot L34, veus rebudes i pendents d’audició.",
     "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
     "recipe": "tools/prepare-batch-voice-previews.cjs"
   },
@@ -514,22 +524,12 @@ export const mixedAudioResources = {
     "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
     "recipe": "tools/prepare-batch-voice-previews.cjs"
   },
-  "ca-S094": {
-    "voices": "Mar: Erinome; Dependenta: Despina. Lot L35, veus rebudes i pendents d’audició.",
-    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
-    "recipe": "tools/prepare-batch-voice-previews.cjs"
-  },
   "ca-S107": {
     "voices": "Biel: Puck; Elies: Algieba. Lot L36, veus rebudes i pendents d’audició.",
     "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
     "recipe": "tools/prepare-batch-voice-previews.cjs"
   },
   "ca-S109": {
-    "voices": "Aina: Zephyr; Ferran: Algenib. Lot L37, veus rebudes i pendents d’audició.",
-    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
-    "recipe": "tools/prepare-batch-voice-previews.cjs"
-  },
-  "ca-S111": {
     "voices": "Aina: Zephyr; Ferran: Algenib. Lot L37, veus rebudes i pendents d’audició.",
     "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
     "recipe": "tools/prepare-batch-voice-previews.cjs"

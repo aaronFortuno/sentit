@@ -13,6 +13,7 @@ settings.S069D={...settings.S069,compositionId:'sentit-s069-v1'};
 settings.S068D={...settings.S068,compositionId:'sentit-s068-v1'};
 settings.S071={title:'Paper blau a la butxaca',root:52,tempo:62,seed:71,speechGain:.14,fadeSeconds:2};
 settings.S071D={...settings.S071,compositionId:'sentit-s071-v1'};
+settings.S072={title:'Una ratlla sota el paper',root:55,tempo:64,seed:72,speechGain:.14,fadeSeconds:2};
 function makeWave(pcm){const b=Buffer.alloc(44+pcm.length);b.write('RIFF');b.writeUInt32LE(b.length-8,4);b.write('WAVEfmt ',8);b.writeUInt32LE(16,16);b.writeUInt16LE(1,20);b.writeUInt16LE(1,22);b.writeUInt32LE(RATE,24);b.writeUInt32LE(RATE*2,28);b.writeUInt16LE(2,32);b.writeUInt16LE(16,34);b.write('data',36);b.writeUInt32LE(pcm.length,40);pcm.copy(b,44);return b;}
 async function makeBed({code,title,folder,binary,duration,lead,voiceEnd}){
  const config=settings[code];if(!config)throw Error('Composició pendent per a '+code);const samples=new Float32Array(Math.ceil(duration*RATE)),scale=[0,2,4,5,7,9,11],progression=[0,3,5,4,0,1,3,4,5,3,4,0];let state=config.seed,notes=0;

@@ -70,6 +70,9 @@ export const dailyFerran = [
   }),
   dailyProposal({
     id: 'la-gossa-que-passeja-en-ferran', code: 'S089', title: 'La gossa que passeja en Ferran', grade: '3', level: 'easy', genre: 'dialogue',
+    seconds: 74, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s089-mixed-v1.mp3', tracks: { introduction: './assets/audio/s089-mixed-v1-intro.mp3', body: './assets/audio/s089-mixed-v1-cos.mp3' },
+    fragment: { start: 4.2700000000000005, seconds: 70 },
     voices: { Ferran: 'Algenib', Margarida: 'Gacrux' }, guestSpeakers: [{ name: 'Margarida', voice: 'Gacrux', role: 'Coneguda d’en Ferran · ocasional' }], delivery,
     summary: 'La Margarida troba en Ferran amb una gossa que no havia vist mai. S’aturen a parlar, però la gossa sembla que ja té decidit per on vol continuar.',
     editorialFocus: '3r accessible: identificar de qui és la gossa, el favor que fa en Ferran i el petit canvi de ruta. Humor concret, sense coneixements previs ni veus d’animals.',

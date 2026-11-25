@@ -1,6 +1,6 @@
 # Situacions quotidianes · serveis i gestions
 
-Tanda del 23 de novembre de 2026, actualitzada el 25/11. **Dotze guions validats pel docent i amb veus rebudes.** S092/S096/S097/S098/S100/S101/S103 ja són definitives. S093/S095/S102 esperen correccions de veu. S097 ja incorpora el títol i el primer torn de Ferran després de validar els dos fragments de L37 i la resta de la conversa; la presa original incompleta es conserva. Cada enllaç obre la fitxa amb els controls corresponents a la seva fase. [Lots i muntatges del 25/11](lots-2026-11-25.md) · [Recepció original L32–L35](lots-2026-11-24.md).
+Tanda del 23 de novembre de 2026, actualitzada el 25/11. **Dotze guions validats pel docent i amb veus rebudes.** S092/S096/S097/S098/S100/S101/S103 ja són definitives; S094/S099 tenen veus validades i muntatges pendents d’audició final. S093/S095/S102 esperen correccions de veu. S097 ja incorpora el títol i el primer torn de Ferran després de validar els dos fragments de L37 i la resta de la conversa; la presa original incompleta es conserva. Cada enllaç obre la fitxa amb els controls corresponents a la seva fase. [Lots i muntatges del 25/11](lots-2026-11-25.md) · [Recepció original L32–L35](lots-2026-11-24.md).
 
 ## Guions i veus per consultar
 

@@ -131,7 +131,8 @@ export const soundSources = [
       "ca-S028",
       "ca-S048",
       "ca-S049",
-      "ca-S050"
+      "ca-S050",
+      "ca-S072"
     ],
     "excerpt": {
       "start": 12
@@ -160,7 +161,8 @@ export const soundSources = [
       "ca-S032",
       "ca-S035",
       "ca-S042",
-      "ca-S043"
+      "ca-S043",
+      "ca-S072"
     ],
     "treatment": "Fragment breu dins pauses afegides sense retallar la parla i al comiat. Foses curtes i nivell discret però audible; no hi ha imitació procedural."
   },
@@ -205,10 +207,13 @@ export const soundSources = [
       "ca-S084",
       "ca-S086",
       "ca-S087",
+      "ca-S089",
       "ca-S091",
       "ca-S092",
+      "ca-S094",
       "ca-S096",
       "ca-S097",
+      "ca-S099",
       "ca-S100",
       "ca-S104",
       "ca-S105",
@@ -367,7 +372,8 @@ export const soundSources = [
     "retrievedAt": "2026-11-21",
     "sha256": "4667388a7e4d0e080904fb072130495da659ed397466e74d6c52950e34c9730e",
     "usedBy": [
-      "ca-S027"
+      "ca-S027",
+      "ca-S111"
     ],
     "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
   },

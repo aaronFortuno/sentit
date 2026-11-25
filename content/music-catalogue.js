@@ -272,6 +272,21 @@ export const musicCatalogue = [
       "ca-S071D"
     ],
     "description": "Composició pròpia de piano suau i harmonia espaiada, 62 pulsacions per minut; partitura determinista 71, fosa d’entrada, música atenuada sota la veu i pujada de dos segons seguida de fosa al final."
+  },
+  {
+    "id": "sentit-s072-v1",
+    "title": "Una ratlla sota el paper",
+    "kind": "narration-bed",
+    "author": "Sentit",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/aaronFortuno/sentit/blob/main/LICENSE",
+    "origin": "original-procedural",
+    "externalSamples": false,
+    "source": "tools/narration-bed.cjs",
+    "usedBy": [
+      "ca-S072"
+    ],
+    "description": "Composició pròpia de piano suau i harmonia espaiada, 64 pulsacions per minut; partitura determinista 72, fosa d’entrada, música atenuada sota la veu i pujada de dos segons seguida de fosa al final."
   }
 ];
 

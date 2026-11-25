@@ -76,6 +76,9 @@ export const dailyMarServices = [
   }),
   dailyProposal({
     id: 'el-paraigua-no-sobre', code: 'S094', title: 'El paraigua no s’obre', grade: '5', level: 'middle', genre: 'dialogue',
+    seconds: 92, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s094-mixed-v1.mp3', tracks: { introduction: './assets/audio/s094-mixed-v1-intro.mp3', body: './assets/audio/s094-mixed-v1-cos.mp3' },
+    fragment: { start: 4.05, seconds: 87 },
     voices: { Mar: 'Erinome', Dependenta: 'Despina' }, guestSpeakers: [{ name: 'Dependenta', voice: 'Despina', role: 'Dependenta de complements · ocasional' }], delivery,
     summary: 'La Mar torna a una botiga amb un paraigua que falla. La dependenta el comprova i li ofereix dues opcions, però la Mar en necessita un per a aquell mateix dia.',
     editorialFocus: '5è intermèdia: explicar una incidència, distingir les opcions de la botiga i justificar una tria per la necessitat immediata. Condicions d’aquest canvi fictícies, sense afirmar normes generals de consum.',

@@ -721,5 +721,63 @@
     ],
     "application": "Comparar el torn complet amb l’original abans de substituir-lo. Conservar intacta la resta de la presa i el text editorial. Cap muntatge ni aprovació automàtica de veus fins a la validació docent.",
     "approvedRequestHash": "70d6ab30ccd06ed07a8123801b7de4fbe39f043c3b0d78ec45f3591cb47b4c8d"
+  },
+  "S088": {
+    "activity": "ca-S088",
+    "status": "approved-for-correction",
+    "approvedAt": "2026-11-25",
+    "approvalSource": "Docent 25/11: confirmades les omissions de text detectades a S088 i S090; s’hauran de generar en properes peticions.",
+    "scope": "spoken-turn",
+    "sourceTakeId": "S088-T01",
+    "sourceRequestHash": "e976118d4059a3906fef68d10a896878017b880860e49a669844b0cafb799cb1",
+    "sourceRawSha256": "04afb60c95adf853ada0d0585d59cf29947e8f0ea242907727c74bdce86491cf",
+    "sourceTakeSha256": "bc242d90a2e17f16242d9bd8f2d3af8281b2d18548f4172539851e7fa4bd7888",
+    "voices": {
+      "Ferran": "Algenib"
+    },
+    "direction": "Natural Central Catalan, exact assigned character identity and natural pace. Read every supplied word completely, without labels, spoken instructions, music, effects or added narration.",
+    "repairs": [
+      {
+        "part": "hola",
+        "speaker": "Ferran",
+        "text": "Bon dia. Vinc a tornar la novel·la que em vaig endur. Em falta llegir l’últim capítol, però em sembla que l’havia de tornar avui. Em podríeu deixar uns dies més?",
+        "pronunciation": "Read the complete first Ferran turn, including Em falta llegir l’últim capítol, però em sembla que l’havia de tornar avui. Keep warm older male Ferran/Algenib throughout. Do not skip any sentence or read this direction."
+      }
+    ],
+    "application": "Regenerar el primer torn complet i comparar-lo abans de substituir la versió incompleta. Conservar la resta de la presa; cap muntatge ni aprovació automàtica.",
+    "approvedRequestHash": "e2075224c586efb6ff249dbcf23b3a286eff4556a72ee4599c38d09d8e4c8977"
+  },
+  "S090": {
+    "activity": "ca-S090",
+    "status": "approved-for-correction",
+    "approvedAt": "2026-11-25",
+    "approvalSource": "Docent 25/11: confirmades les omissions de text detectades a S088 i S090; s’hauran de generar en properes peticions.",
+    "scope": "missing-title",
+    "sourceTakeId": "S090-T01",
+    "sourceRequestHash": "a60fe358a66004eba2e6b742133d7f9780780baf5a8739a3a428828c3e6fa590",
+    "sourceRawSha256": "bd17485cca82d19a097a226a1f1287a035db454d787194c9e781fa088a9d8555",
+    "sourceTakeSha256": "8f7f465eadc453b44bfc28b97cd2e956afd4c4950741c66cd88576c076e234b5",
+    "voices": {
+      "Laia": "Leda"
+    },
+    "direction": "Natural Central Catalan, exact assigned character identity and natural pace. Read every supplied word completely, without labels, spoken instructions, music, effects or added narration.",
+    "repairs": [
+      {
+        "part": "introduction",
+        "speaker": "Laia",
+        "text": "Comprensió oral. Ens falta espai per jugar.",
+        "pronunciation": "Read the complete exercise introduction and title once, with the same youthful female Laia/Leda identity; no omitted beginning or added words.",
+        "missingOriginal": true
+      },
+      {
+        "part": "pilota",
+        "speaker": "Laia",
+        "text": "Biel, la pilota! Agafa-la, que va cap al camí!",
+        "pronunciation": "Read the entire brief Laia line clearly in a youthful female Laia/Leda voice, alert but not shrieking. Both sentences were omitted; do not skip either. Do not read this direction.",
+        "missingOriginal": true
+      }
+    ],
+    "application": "Reposar la presentació i el primer torn omesos, escoltar-los abans d’incorporar-los. Conservar la resta de la presa; cap muntatge ni aprovació automàtica.",
+    "approvedRequestHash": "ec493323fe29d5e206c967e4db3450dee7af041004ff0e86e6b79455d893b902"
   }
 }

@@ -10,20 +10,6 @@ Actualitzat: **25/11/2026**. Aquest document mostra només la feina pendent d’
 | --- | --- | --- | ---: | --- |
 | L04 | S005: Aquest matí, per exemple, he apartat un sobre per revisar-lo abans de sortir.; S015: Per això es controla la il·luminació i també les condicions de temperatura i humitat. | Vindemiatrix + Kore | 0:22 | Completar amb material del mateix repartiment; S015: conciliar el registre editorial històric abans de preparar l’esmena |
 
-## Veus rebudes · per escoltar abans del muntatge
-
-Les preses originals es conserven i la cobertura s’ha comprovat localment. La pronunciació i la identitat de les veus continuen pendents d’audició; encara no són muntatges finals.
-
-| Peça | Presa |
-| --- | --- |
-| [ca-S072](https://sentit.ortogra.fi/#lectura=ca-S072) | [Escolta les veus](../proves/veus-rebudes.html#S072) |
-| [ca-S088](https://sentit.ortogra.fi/#lectura=ca-S088) | [Escolta les veus](../proves/veus-rebudes.html#S088) |
-| [ca-S089](https://sentit.ortogra.fi/#lectura=ca-S089) | [Escolta les veus](../proves/veus-rebudes.html#S089) |
-| [ca-S090](https://sentit.ortogra.fi/#lectura=ca-S090) | [Escolta les veus](../proves/veus-rebudes.html#S090) |
-| [ca-S094](https://sentit.ortogra.fi/#lectura=ca-S094) | [Escolta les veus](../proves/veus-rebudes.html#S094) |
-| [ca-S099](https://sentit.ortogra.fi/#lectura=ca-S099) | [Escolta les veus](../proves/veus-rebudes.html#S099) |
-| [ca-S111](https://sentit.ortogra.fi/#lectura=ca-S111) | [Escolta les veus](../proves/veus-rebudes.html#S111) |
-
 Les previsions provenen dels guions i del calibratge local; cal recalcular-les amb el format definitiu abans d’enviar. Una mateixa veu en dos guions no implica el mateix personatge. No es canvien repartiments ni s’allarguen guions per omplir un lot.
 
 ## Agrupacions candidates · validació i preparació pendents
@@ -61,9 +47,11 @@ P02 reuneix quatre lectures breus del mateix repartiment per conservar els guion
 | [ca-S059](https://sentit.ortogra.fi/#lectura=ca-S059) | Biel · Puck | arbre |
 | [ca-S081](https://sentit.ortogra.fi/#lectura=ca-S081) | Elies · Algieba | telefon + final |
 | [ca-S085](https://sentit.ortogra.fi/#lectura=ca-S085) | Mar · Erinome | comiat |
+| [ca-S088](https://sentit.ortogra.fi/#lectura=ca-S088) | Ferran · Algenib | hola |
+| [ca-S090](https://sentit.ortogra.fi/#lectura=ca-S090) | Laia · Leda | introduction + pilota |
 | [ca-S093](https://sentit.ortogra.fi/#lectura=ca-S093) | Mar · Erinome | confirmar |
 | [ca-S095](https://sentit.ortogra.fi/#lectura=ca-S095) | Empleada · Gacrux | mida + recollida |
-| [ca-S102](https://sentit.ortogra.fi/#lectura=ca-S102) | undefined · Veu per concretar | sentit + final |
+| [ca-S102](https://sentit.ortogra.fi/#lectura=ca-S102) | Mar · Erinome; Informadora · Callirrhoe | sentit + final |
 | [ca-S107](https://sentit.ortogra.fi/#lectura=ca-S107) | Elies · Algieba | sortida |
 | [ca-S109](https://sentit.ortogra.fi/#lectura=ca-S109) | Ferran · Algenib | temps + final |
 
