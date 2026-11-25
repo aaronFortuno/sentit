@@ -1,0 +1,98 @@
+{
+  "code": "S094",
+  "activity": "ca-S094",
+  "state": "published",
+  "file": "s094-mixed-v1.mp3",
+  "introFile": "s094-mixed-v1-intro.mp3",
+  "bodyFile": "s094-mixed-v1-cos.mp3",
+  "offset": 4.05,
+  "bodyDuration": 87.02,
+  "fullDuration": 91.07,
+  "voices": {
+    "Mar": "Erinome",
+    "Dependenta": "Despina"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "2e429c977e701ef1f63c2570d8f4ce02143fc47e4241bb11ee74e0760f029f2e",
+  "sourceRequestHash": "4e8567f3d4832e5b8379bfbef7dc1848ea09267824b0cc5567397ebae790d114",
+  "batch": "L35",
+  "rawSha256": "d57bbc3b3b2098192643be92fb576b7712479884661730de76a9bd6452161333",
+  "takeSha256": "abe8fec0666c5e05c074ddb4e5bdb4ed9728931294a290c1d93f8f89a3a3b24c",
+  "coverage": 0.8850574712643678,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.9,
+  "peakDbTP": -3.43,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "soaress-546234",
+      "start": 0,
+      "source": "assets/audio/sources/soaress-546234.mp3",
+      "sourceSha256": "1059086683943b6b8d679a9283eda0bf08a75c05cbc711b2ec6a14a276f5028c",
+      "sourceUrl": "https://freesound.org/people/soaress/sounds/546234/",
+      "author": "soaress",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.08,
+      "openingGain": 0.16,
+      "raisedGain": 0.23,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -49.938200260161125,
+      "lowPassHz": 800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 140,
+        "seconds": 49.6085625
+      },
+      "envelope": {
+        "riseStart": 82.61999999999999,
+        "riseEnd": 83.42,
+        "holdSeconds": 1,
+        "fadeStart": 84.42,
+        "fadeEnd": 85.82000000000001
+      }
+    }
+  ],
+  "sha256": "95aabaae7e23079442e072e5328db8578536791f5918d1f93d670ca8026b1144",
+  "voiceHandles": {
+    "body": {
+      "start": 0.385,
+      "end": 81.905,
+      "retainedPcmSha256": "452a4e03b297b7752c201e16fbf55031b1b631d86297b5d3c9f277c53f557266",
+      "sourceSha256": "9a19ec2c15d1b0180d8a8b2038100edc1e43da9d57c045564db652a2616aff9f",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.205,
+      "end": 3.305,
+      "retainedPcmSha256": "9a6d27f4181a28527f70b43b92152bfb90fa529462a8d1507bd6e9403d265056",
+      "sourceSha256": "9b65c8f72e6b746e449cff20fd7c2e3abe19dbebe42a778c6fad91aab627bb76",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-25",
+    "sourceTakeSha256": "abe8fec0666c5e05c074ddb4e5bdb4ed9728931294a290c1d93f8f89a3a3b24c",
+    "confirmation": "Docent 25/11: S094 validat per muntatge."
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "confirmation": "Docent 25/11: S094, S111, S099, S072 i S089 validats per publicació definitiva.",
+    "audioSha256": "95aabaae7e23079442e072e5328db8578536791f5918d1f93d670ca8026b1144",
+    "editorialFingerprint": "2b23227c9a7c4600b9ef3cdb1c9352b174c59ee703f7aeda63790fefa50a6ef9",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/s094-publicacio-v1.webp",
+    "illustrationSha256": "544c9b2a7d2c500dd4635850f1fbc4b044335b4a896d1b5a9507d55cd52620d1",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-25",
+    "audioChanged": false
+  }
+}

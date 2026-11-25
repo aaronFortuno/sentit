@@ -1,0 +1,98 @@
+{
+  "code": "S111",
+  "activity": "ca-S111",
+  "state": "published",
+  "file": "s111-mixed-v1.mp3",
+  "introFile": "s111-mixed-v1-intro.mp3",
+  "bodyFile": "s111-mixed-v1-cos.mp3",
+  "offset": 4.98,
+  "bodyDuration": 101.81,
+  "fullDuration": 106.79,
+  "voices": {
+    "Aina": "Zephyr",
+    "Ferran": "Algenib"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "f8f95587af9933a81a7732a732045a0094ec864fc0d9d79fb70e2daac13764d9",
+  "sourceRequestHash": "217ce90a5fb6c8a9577c559964c10856d15135240bdcc76b27372b8be0967357",
+  "batch": "L37",
+  "rawSha256": "b99990632ae375e147c0dbf518405868ce02ecf1fe1f18a401a94d3353feb027",
+  "takeSha256": "9f5231d3a27f0a01d3d1bb43cc008847f0d9c1f8b53ca45747740f4435a6e556",
+  "coverage": 0.9176829268292683,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.95,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "fthgurdy-528944",
+      "start": 0,
+      "source": "assets/audio/sources/fthgurdy-528944.mp3",
+      "sourceSha256": "4667388a7e4d0e080904fb072130495da659ed397466e74d6c52950e34c9730e",
+      "sourceUrl": "https://freesound.org/people/fthgurdy/sounds/528944/",
+      "author": "fthgurdy",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.1,
+      "openingGain": 0.22,
+      "raisedGain": 0.28,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -48,
+      "lowPassHz": 3600,
+      "passes": 12,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 0,
+        "seconds": 9.531958333333334
+      },
+      "envelope": {
+        "riseStart": 97.51999999999998,
+        "riseEnd": 98.32,
+        "holdSeconds": 0.8900000000000006,
+        "fadeStart": 99.21,
+        "fadeEnd": 100.61
+      }
+    }
+  ],
+  "sha256": "e28964a1d9a44ffe028ac204dac5bf61ef982718b68bad1727fae4a37b8b1e14",
+  "voiceHandles": {
+    "body": {
+      "start": 0.385,
+      "end": 96.495,
+      "retainedPcmSha256": "efd25365edfba7f0a92dc1099025da73c62a6c38bbf0396fa6c4d0b74cccf02d",
+      "sourceSha256": "bc04d46597c72324073ae6eaaad520a690efced4821c8211b510711e8291bfe9",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.22,
+      "end": 4.25,
+      "retainedPcmSha256": "8a103618ac4a37e46bfaec34f6540192410225117b235905d2536d0cf957cf2e",
+      "sourceSha256": "478fcb715e1c18e6952f0c3aace589a31219acef62adee44c6ac71703d541b1c",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-25",
+    "sourceTakeSha256": "9f5231d3a27f0a01d3d1bb43cc008847f0d9c1f8b53ca45747740f4435a6e556",
+    "confirmation": "Docent 25/11: S111 validat per muntatge."
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "confirmation": "Docent 25/11: S094, S111, S099, S072 i S089 validats per publicació definitiva.",
+    "audioSha256": "e28964a1d9a44ffe028ac204dac5bf61ef982718b68bad1727fae4a37b8b1e14",
+    "editorialFingerprint": "7a80ff9ded56c7571a4dbdbbf4429b2603181a0b30b985f6e67451a2a68153a5",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/s111-publicacio-v1.webp",
+    "illustrationSha256": "1764f641c5c28aeb2265336ff0321b6fa443016bfd2ed7b6f196ffb0235a86ac",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-25",
+    "audioChanged": false
+  }
+}
