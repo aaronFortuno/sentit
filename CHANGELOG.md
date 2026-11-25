@@ -2,7 +2,8 @@
 
 ## 0.1.102 · 25 de novembre de 2026
 
-- S108 amb veus validades i muntatge preparat per escoltar: ambient exterior enregistrat continu, molt tènue sota la conversa, amb entrada curta i fosa final. Preses i timbres conservats, sense síntesi addicional.
+- S087, S100, S104, S106, S108 i S110 amb veus validades i muntatges preparats per escoltar. Ambients enregistrats continus i molt tènues de botiga, taller o exterior segons l’escena, amb entrada curta i fosa final. Preses i timbres conservats, sense síntesi addicional.
+- Esmenes de S056 i S097 validades i incorporades: presentacions completes, «Bon dia» de S056 i primer torn de Ferran a S097. Cos original conservat mostra per mostra i obertures vinculades a les preses exactes aprovades. S056 incorpora la base comuna de notícies; S097, ambient interior discret. Muntatges pendents d’audició final.
 - S107 amb esmena pendent al darrer torn de l’Elies («funda», que sona «funa»). Torn complet en cua per a la mateixa veu Algieba, vinculat a l’original i sense modificar el text del solucionari. Card i seguiment actualitzats.
 
 ## 0.1.101 · 25 de novembre de 2026

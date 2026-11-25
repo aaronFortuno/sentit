@@ -9,6 +9,9 @@ const make = data => universeProposal({ ...data, voices, delivery, soundPlan, un
 export const handsOnActivities = [
   make({
     id: 'el-cartell-que-es-doblegava', code: 'S104', title: 'El cartell que es doblegava', grade: '3', level: 'easy', genre: 'dialogue',
+    seconds: 63, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s104-mixed-v1.mp3', tracks: { introduction: './assets/audio/s104-mixed-v1-intro.mp3', body: './assets/audio/s104-mixed-v1-cos.mp3' },
+    fragment: { start: 4.0600000000000005, seconds: 58 },
     summary: 'En Biel porta un cartell al taller de l’Elies. El volen penjar per a un concert, però costa que es quedi ben posat.',
     editorialFocus: '3r accessible: un objecte, un problema i una solució feta entre dos. Seguir què proven i per què canvien de material. Totes les accions necessàries s’expliquen oralment; no cal veure el cartell.',
     illustrationBrief: 'Biel i Elies sostenen un cartell encara sense penjar en un taller d’instruments. Mostrar la feina amb les mans i un full doblegat, sense text llegible ni la solució acabada.',
@@ -71,6 +74,9 @@ export const handsOnActivities = [
   }),
   make({
     id: 'un-suport-per-a-la-gravadora', code: 'S106', title: 'Un suport per a la gravadora', grade: '5', level: 'middle', genre: 'dialogue',
+    seconds: 91, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s106-mixed-v1.mp3', tracks: { introduction: './assets/audio/s106-mixed-v1-intro.mp3', body: './assets/audio/s106-mixed-v1-cos.mp3' },
+    fragment: { start: 3.9899999999999998, seconds: 87 },
     summary: 'En Biel vol enregistrar una cançó sense aguantar la gravadora amb la mà. Al taller proven una idea amb el que tenen a prop.',
     editorialFocus: '5è intermèdia: seguir un prototip, una limitació que apareix en provar-lo i una revisió motivada. Situació concreta, sense teoria acústica ni dibuix necessari per entendre els canvis.',
     illustrationBrief: 'Biel i Elies proven una gravadora sobre la taula del taller, amb un llibre, cartró i una capsa buida a prop. Mostrar mans en acció sense ensenyar el suport definitiu ni un esquema de muntatge.',

@@ -1,6 +1,6 @@
 export const strings = {
   ca: {
-    releasePicnicMontage: 'S108 amb veus validades i muntatge per escoltar, amb ambient exterior molt tènue. S107 té en cua l’esmena de «funda» a l’últim torn de l’Elies. Originals conservats, sense síntesi nova.',
+    releasePicnicMontage: 'S087, S100, S104, S106, S108 i S110 amb muntatges per escoltar. Esmenes validades de S056 i S097 incorporades, amb la resta de les veus intacta. S107 espera corregir «funda» de l’Elies. Sense síntesi nova.',
     releaseLecternMontage: 'S105 amb veus validades i muntatge per escoltar, amb ambient de taller molt tènue. S109 té dues esmenes de Ferran en cua: «passeig» i «bassals». Originals conservats, sense síntesi nova.',
     releaseDateWorkshopVoices: '25 de novembre de 2026',
     releaseWorkshopVoices: 'Vuit comprensions noves amb veus per revisar i cinc fragments d’esmena rebuts. Deu muntatges preparats després de validar les veus, amb ambients enregistrats molt tènues. S085, S093, S095 i S102 tenen correccions en cua; seguiment i documentació al dia.',
@@ -307,7 +307,7 @@ export const strings = {
     sessionEnded: 'Sessió acabada', remainingTime: 'Temps restant',
   },
   es: {
-    releasePicnicMontage: 'S108 con voces validadas y montaje para escuchar, con ambiente exterior muy tenue. S107 tiene en cola la corrección de «funda» en el último turno de Elies. Originales conservados, sin síntesis nueva.',
+    releasePicnicMontage: 'S087, S100, S104, S106, S108 y S110 con montajes para escuchar. Correcciones validadas de S056 y S097 incorporadas, con el resto de las voces intacto. S107 espera corregir «funda» de Elies. Sin síntesis nueva.',
     releaseLecternMontage: 'S105 con voces validadas y montaje para escuchar, con ambiente de taller muy tenue. S109 tiene dos correcciones de Ferran en cola: «passeig» y «bassals». Originales conservados, sin síntesis nueva.',
     releaseDateWorkshopVoices: '25 de noviembre de 2026',
     releaseWorkshopVoices: 'Ocho comprensiones nuevas con voces para revisar y cinco fragmentos de corrección recibidos. Diez montajes preparados tras validar las voces, con ambientes grabados muy tenues. S085, S093, S095 y S102 tienen correcciones en cola; seguimiento y documentación al día.',

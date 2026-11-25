@@ -108,6 +108,9 @@ export const noticies = [
   }),
   news({
     id: 'el-taller-canvia-de-casa', code: 'S056', title: 'El taller canvia de casa', grade: '5', level: 'advanced',
+    seconds: 161, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s056-mixed-v1.mp3', tracks: { introduction: './assets/audio/s056-mixed-v1-intro.mp3', body: './assets/audio/s056-mixed-v1-cos.mp3' },
+    fragment: { start: 5.675000000000001, seconds: 155 },
     summary: 'El taller de reparació del barri s’instal·la en un local nou. La Mar explica què s’hi podrà fer des del primer dia i per què una part del material encara es quedarà guardada.',
     editorialFocus: '5è avançada: reconstruir un trasllat, relacionar espai i decisions, distingir obertura parcial i serveis ja disponibles mitjançant fets concrets. Vuit preguntes de causa i síntesi, sense exigir coneixements de reparació.',
     soundPlan: 'Ona curta a l’obertura i al tancament. Ambient de taller real breu a l’entrada; moviment real de caixa en la pausa del trasllat, fora de la parla. Sense màquines en funcionament sota les explicacions. Tancar amb dos segons d’ambient baix, fosa i marge de silenci.',

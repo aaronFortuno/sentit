@@ -7,6 +7,9 @@ const shop = 'Ambient enregistrat real de botiga o biblioteca segons l’escena,
 export const dailyFerran = [
   dailyProposal({
     id: 'el-pom-del-calaix', code: 'S087', title: 'El pom del calaix', grade: '3', level: 'middle', genre: 'dialogue',
+    seconds: 85, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s087-mixed-v1.mp3', tracks: { introduction: './assets/audio/s087-mixed-v1-intro.mp3', body: './assets/audio/s087-mixed-v1-cos.mp3' },
+    fragment: { start: 3.835, seconds: 80 },
     voices: { Ferran: 'Algenib', Ferreter: 'Achird' }, guestSpeakers: [{ name: 'Ferreter', voice: 'Achird', role: 'Dependent de ferreteria · ocasional' }], delivery,
     summary: 'En Ferran porta el pom d’un calaix a la ferreteria. Necessita una cosa ben petita, però abans s’hauran de mirar bé què ha dut a la butxaca.',
     editorialFocus: '3r intermèdia: seguir una compra senzilla, identificar què s’ha perdut i entendre per què en Ferran porta el pom. Un únic espai i una acció en present.',

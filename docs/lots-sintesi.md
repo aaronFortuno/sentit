@@ -16,19 +16,12 @@ Les preses originals es conserven i la cobertura s’ha comprovat localment. La 
 
 | Peça | Presa |
 | --- | --- |
-| [ca-S056](https://sentit.ortogra.fi/#lectura=ca-S056) | [Escolta les veus](../proves/veus-rebudes.html#S056) |
 | [ca-S072](https://sentit.ortogra.fi/#lectura=ca-S072) | [Escolta les veus](../proves/veus-rebudes.html#S072) |
-| [ca-S087](https://sentit.ortogra.fi/#lectura=ca-S087) | [Escolta les veus](../proves/veus-rebudes.html#S087) |
 | [ca-S088](https://sentit.ortogra.fi/#lectura=ca-S088) | [Escolta les veus](../proves/veus-rebudes.html#S088) |
 | [ca-S089](https://sentit.ortogra.fi/#lectura=ca-S089) | [Escolta les veus](../proves/veus-rebudes.html#S089) |
 | [ca-S090](https://sentit.ortogra.fi/#lectura=ca-S090) | [Escolta les veus](../proves/veus-rebudes.html#S090) |
 | [ca-S094](https://sentit.ortogra.fi/#lectura=ca-S094) | [Escolta les veus](../proves/veus-rebudes.html#S094) |
-| [ca-S097](https://sentit.ortogra.fi/#lectura=ca-S097) | [Escolta les veus](../proves/veus-rebudes.html#S097) |
 | [ca-S099](https://sentit.ortogra.fi/#lectura=ca-S099) | [Escolta les veus](../proves/veus-rebudes.html#S099) |
-| [ca-S100](https://sentit.ortogra.fi/#lectura=ca-S100) | [Escolta les veus](../proves/veus-rebudes.html#S100) |
-| [ca-S104](https://sentit.ortogra.fi/#lectura=ca-S104) | [Escolta les veus](../proves/veus-rebudes.html#S104) |
-| [ca-S106](https://sentit.ortogra.fi/#lectura=ca-S106) | [Escolta les veus](../proves/veus-rebudes.html#S106) |
-| [ca-S110](https://sentit.ortogra.fi/#lectura=ca-S110) | [Escolta les veus](../proves/veus-rebudes.html#S110) |
 | [ca-S111](https://sentit.ortogra.fi/#lectura=ca-S111) | [Escolta les veus](../proves/veus-rebudes.html#S111) |
 
 Les previsions provenen dels guions i del calibratge local; cal recalcular-les amb el format definitiu abans d’enviar. Una mateixa veu en dos guions no implica el mateix personatge. No es canvien repartiments ni s’allarguen guions per omplir un lot.
@@ -56,13 +49,13 @@ P02 reuneix quatre lectures breus del mateix repartiment per conservar els guion
 | S010 | Des de la plaça anem pel carrer dels Til·lers fins a la farmàcia. | Pendent d’audició | [L31](../proves/correccions-l31.html) |
 | S025 | D’acord. I després la deixem preparada per al grup. Aquesta vegada em toca prémer el botó a mi! | Pendent d’audició | [L31](../proves/correccions-l31.html) |
 | S061 | Comprensió oral. El curt que començava pel final. | Pendent d’audició | [L31](../proves/correccions-l31.html) |
-| S056 | Comprensió oral. El taller canvia de casa. Notícia de ficció. | Pendent d’audició | [L32](../proves/correccions-l32.html) |
-| S056 | Bon dia. | Pendent d’audició | [L32](../proves/correccions-l32.html) |
+| S056 | Comprensió oral. El taller canvia de casa. Notícia de ficció. | Incorporada · pendent d’audició del muntatge | [L32](../proves/correccions-l32.html) |
+| S056 | Bon dia. | Incorporada · pendent d’audició del muntatge | [L32](../proves/correccions-l32.html) |
 | S081 | Sí, truca abans de venir. T’ho explicaré per telèfon. Aquest matí ja he comprovat la guitarra de préstec i només falta que la guardem a la funda. | Pendent d’audició | [L36](../proves/correccions-l36.html) |
 | S081 | De res, Biel. Espera, que t’aguanto la funda mentre hi poses el full... així... Fins dijous, i ja m’explicaràs com va l’assaig. | Pendent d’audició | [L36](../proves/correccions-l36.html) |
 | S059 | A aquesta sí. A les del final... Ai, he fet caure l’arbre de cartró! Sempre em queda al mig. És bonic, però el podríem posar dret al costat de la capsa, a la cadira. | Pendent d’audició | [L36](../proves/correccions-l36.html) |
-| S097 | Comprensió oral. Quina parada em queda més a prop? | Pendent d’audició | [L37](../proves/correccions-l37.html) |
-| S097 | Bon dia. Voldria un bitllet per anar a Portell de Mar aquesta tarda. M’han deixat una habitació prop del passeig de la Marina, però aquí no em conec gens les parades. | Pendent d’audició | [L37](../proves/correccions-l37.html) |
+| S097 | Comprensió oral. Quina parada em queda més a prop? | Incorporada · pendent d’audició del muntatge | [L37](../proves/correccions-l37.html) |
+| S097 | Bon dia. Voldria un bitllet per anar a Portell de Mar aquesta tarda. M’han deixat una habitació prop del passeig de la Marina, però aquí no em conec gens les parades. | Incorporada · pendent d’audició del muntatge | [L37](../proves/correccions-l37.html) |
 
 ### Següents esmenes · encara sense petició
 

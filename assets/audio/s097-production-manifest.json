@@ -1,0 +1,188 @@
+{
+  "code": "S097",
+  "activity": "ca-S097",
+  "state": "awaiting-montage-validation",
+  "file": "s097-mixed-v1.mp3",
+  "introFile": "s097-mixed-v1-intro.mp3",
+  "bodyFile": "s097-mixed-v1-cos.mp3",
+  "offset": 4.74,
+  "bodyDuration": 93.73,
+  "fullDuration": 98.47,
+  "voices": {
+    "Ferran": "Algenib",
+    "Taquillera": "Gacrux"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "repaired-mixed-take",
+  "requestHash": "364cfefbc968c52d0192d4ab1ea090e6d3d1bbb2b92848f53d2301657702f783",
+  "sourceRequestHash": "1c11c010f9586efdf7c3a3ec02da159ac54f2d48c743353e789802ac22300ab5",
+  "batch": "L34+L37",
+  "sourceBatchRequests": [
+    {
+      "batch": "L34",
+      "requestHash": "aef37a3e56d6a4126206a0905030aad2bc53160804678de652431febf809e7e6",
+      "rawSha256": "e745dbb235852711298ebf545af5ec836adc9e26531e6290cf3c4e457a4ecadd"
+    },
+    {
+      "batch": "L37",
+      "requestHash": "f8f95587af9933a81a7732a732045a0094ec864fc0d9d79fb70e2daac13764d9",
+      "rawSha256": "b99990632ae375e147c0dbf518405868ce02ecf1fe1f18a401a94d3353feb027"
+    }
+  ],
+  "requestHashIsCompositionChecksum": true,
+  "rawSha256": "d202e044a4ceb9d8249262beb25599aadf20a0c65f84c0cf5e7f57f51e3911a8",
+  "takeSha256": "d202e044a4ceb9d8249262beb25599aadf20a0c65f84c0cf5e7f57f51e3911a8",
+  "coverage": 0.8929889298892989,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.41,
+  "peakDbTP": -2.46,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "soaress-546234",
+      "start": 0,
+      "source": "assets/audio/sources/soaress-546234.mp3",
+      "sourceSha256": "1059086683943b6b8d679a9283eda0bf08a75c05cbc711b2ec6a14a276f5028c",
+      "sourceUrl": "https://freesound.org/people/soaress/sounds/546234/",
+      "author": "soaress",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.08,
+      "openingGain": 0.16,
+      "raisedGain": 0.23,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -49.938200260161125,
+      "lowPassHz": 800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 140,
+        "seconds": 49.6085625
+      },
+      "envelope": {
+        "riseStart": 89.32999999999997,
+        "riseEnd": 90.12999999999998,
+        "holdSeconds": 1.0000000000000142,
+        "fadeStart": 91.13,
+        "fadeEnd": 92.53
+      }
+    }
+  ],
+  "sha256": "8bda965862ac582419d8b518cd91f1677ddf2e0071f955327570e888a5b0fec2",
+  "voiceHandles": {
+    "body": {
+      "start": 0.13,
+      "end": 88.36,
+      "retainedPcmSha256": "5f41759e90003182e176a2b8935273aff06ed20d6aa41ad7120a00b5daacab98",
+      "sourceSha256": "d18a946349c19d518abc007e566cd62ab1c5f068ad2e3f80193e5754e04fedab",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.04,
+      "end": 3.83,
+      "retainedPcmSha256": "6f0c33f68105436d2976bb167a3246ff063204060a75b40c0fb65620a208e428",
+      "sourceSha256": "cccb5f789ab5478e75ce6c5160533d83ba304946c744aec03aa6ca1b04544593",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-25",
+    "sourceTakeSha256": "d202e044a4ceb9d8249262beb25599aadf20a0c65f84c0cf5e7f57f51e3911a8",
+    "baseTakeSha256": "bc2141f6960d93c4870fda81394c97c9c72c05446b6cf414342f08ba78b4b2f3",
+    "confirmation": "Docent 25/11: S097 queda validat amb les dues esmenes que havíem demanat; passar a muntatge.",
+    "derivation": "Previously approved complete body, plus the two exact teacher-approved opening clips. Full montage still awaits listening.",
+    "repairs": [
+      {
+        "part": "introduction",
+        "text": "Comprensió oral. Quina parada em queda més a prop?",
+        "candidateFile": "assets/audio/repairs/l37-s097-introduction-prova.mp3",
+        "candidateSha256": "28283524604e44dde198d9b4fd9e1e7b0011d20604ed3ccc0acf013bafe26918",
+        "batchRequestHash": "f8f95587af9933a81a7732a732045a0094ec864fc0d9d79fb70e2daac13764d9"
+      },
+      {
+        "part": "hola",
+        "text": "Bon dia. Voldria un bitllet per anar a Portell de Mar aquesta tarda. M’han deixat una habitació prop del passeig de la Marina, però aquí no em conec gens les parades.",
+        "candidateFile": "assets/audio/repairs/l37-s097-hola-prova.mp3",
+        "candidateSha256": "713a61be5f56283635dbcec1cec7a0ecd2d04a8b7488fcadefed577a82684f36",
+        "batchRequestHash": "f8f95587af9933a81a7732a732045a0094ec864fc0d9d79fb70e2daac13764d9"
+      }
+    ]
+  },
+  "repairApplication": {
+    "code": "S097",
+    "date": "2026-11-25",
+    "scope": "approved-repair",
+    "originalRawSha256": "bc2141f6960d93c4870fda81394c97c9c72c05446b6cf414342f08ba78b4b2f3",
+    "originalBodySha256": "bc2141f6960d93c4870fda81394c97c9c72c05446b6cf414342f08ba78b4b2f3",
+    "patchedSha256": "d202e044a4ceb9d8249262beb25599aadf20a0c65f84c0cf5e7f57f51e3911a8",
+    "seconds": 92.42,
+    "edits": [
+      {
+        "part": "introduction",
+        "text": "Comprensió oral. Quina parada em queda més a prop?",
+        "accepted": {
+          "part": "introduction",
+          "text": "Comprensió oral. Quina parada em queda més a prop?",
+          "candidateFile": "assets/audio/repairs/l37-s097-introduction-prova.mp3",
+          "candidateSha256": "28283524604e44dde198d9b4fd9e1e7b0011d20604ed3ccc0acf013bafe26918",
+          "batchRequestHash": "f8f95587af9933a81a7732a732045a0094ec864fc0d9d79fb70e2daac13764d9"
+        },
+        "candidateRawSha256": "3e6bc8ccd4d0424662e4e18b9b06dc3f39f43594a52d0d99c267f4fb1bc1c536",
+        "candidateBatch": "L37",
+        "candidateRawBatchSha256": "b99990632ae375e147c0dbf518405868ce02ecf1fe1f18a401a94d3353feb027",
+        "candidateRange": {
+          "start": 0,
+          "end": 3.96
+        },
+        "outputStart": 0,
+        "operation": "insert-omitted-introduction",
+        "gainDb": 0,
+        "candidateRawFile": "s097-introduction.wav"
+      },
+      {
+        "part": "hola",
+        "text": "Bon dia. Voldria un bitllet per anar a Portell de Mar aquesta tarda. M’han deixat una habitació prop del passeig de la Marina, però aquí no em conec gens les parades.",
+        "accepted": {
+          "part": "hola",
+          "text": "Bon dia. Voldria un bitllet per anar a Portell de Mar aquesta tarda. M’han deixat una habitació prop del passeig de la Marina, però aquí no em conec gens les parades.",
+          "candidateFile": "assets/audio/repairs/l37-s097-hola-prova.mp3",
+          "candidateSha256": "713a61be5f56283635dbcec1cec7a0ecd2d04a8b7488fcadefed577a82684f36",
+          "batchRequestHash": "f8f95587af9933a81a7732a732045a0094ec864fc0d9d79fb70e2daac13764d9"
+        },
+        "candidateRawSha256": "83ef451f5e0e922c1d530a016983458690b926d727847d1d7c2e65781a3286b0",
+        "candidateBatch": "L37",
+        "candidateRawBatchSha256": "b99990632ae375e147c0dbf518405868ce02ecf1fe1f18a401a94d3353feb027",
+        "candidateRange": {
+          "start": 0,
+          "end": 9.83
+        },
+        "outputStart": 3.96,
+        "operation": "insert-omitted-opening-turn",
+        "gainDb": 0,
+        "candidateRawFile": "s097-hola.wav"
+      }
+    ],
+    "insertedSilenceSeconds": 0.15,
+    "allOtherVoiceSamplesIdentical": true,
+    "voiceRetimed": false,
+    "pitchShifted": false,
+    "newRequests": 0,
+    "retainedRanges": [
+      {
+        "originalStart": 0,
+        "originalEnd": 78.48,
+        "outputStart": 13.940000000000001,
+        "sha256": "633b1987e89a8d972158bae8248a29293e108720adc360f0709420fee6d66659",
+        "originalFile": "s097-t01.wav"
+      }
+    ],
+    "originalBodyFile": "s097-t01.wav",
+    "originalRawFile": "s097-t01.wav",
+    "patchedFile": "patched-source.wav",
+    "appliedTo": "s097-mixed-v1.mp3",
+    "teacherMontageApproval": false
+  }
+}

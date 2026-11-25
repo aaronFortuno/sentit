@@ -1,0 +1,187 @@
+{
+  "code": "S056",
+  "activity": "ca-S056",
+  "state": "awaiting-montage-validation",
+  "file": "s056-mixed-v1.mp3",
+  "introFile": "s056-mixed-v1-intro.mp3",
+  "bodyFile": "s056-mixed-v1-cos.mp3",
+  "offset": 5.675000000000001,
+  "bodyDuration": 154.52,
+  "fullDuration": 160.195,
+  "voices": {
+    "Mar": "Erinome"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "repaired-mixed-take",
+  "requestHash": "883e30ffbd8bad78e67e2f6932b1dece73f71005b7c72e0be6b9504ab50ab761",
+  "sourceRequestHash": "af213bd420fb93c68cd0c01c0376f77c2998d5315d1453458f90fad08c405df5",
+  "batch": "L29+L32",
+  "sourceBatchRequests": [
+    {
+      "batch": "L29",
+      "requestHash": "b0a730b180a626cc040f5673c2e59704c01d046548a2b4090c0538b629495e23",
+      "rawSha256": "20d716f9a5513b380c1885e64229e4d4f31e4951d03b0c5e3e53b542a7913fcd"
+    },
+    {
+      "batch": "L32",
+      "requestHash": "a38715e579b55a270d1e2b0f493b471ebe0f7ed700681aceec1aadfd202a5f75",
+      "rawSha256": "dbfe51e338dfe13edbea6f589e2b50227add83c034010620624ca265411144bf"
+    }
+  ],
+  "requestHashIsCompositionChecksum": true,
+  "rawSha256": "198a1652fc0ff39a8d539cb03fa137c8c1a60235c05b664e75f0e2d13bd51ac3",
+  "takeSha256": "198a1652fc0ff39a8d539cb03fa137c8c1a60235c05b664e75f0e2d13bd51ac3",
+  "coverage": 0.9647302904564315,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.77,
+  "peakDbTP": -2.48,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "grand-project-breaking-news-505617",
+      "origin": "licensed-music-in-montage",
+      "start": 0,
+      "underSpeech": true,
+      "credit": {
+        "id": "grand-project-breaking-news-505617",
+        "title": "Breaking News Background Music",
+        "author": "Grand_Project",
+        "url": "https://pixabay.com/music/percussion-breaking-news-background-music-505617/",
+        "license": "Pixabay Content License",
+        "licenseUrl": "https://pixabay.com/service/license-summary/",
+        "source": "tools/news-bed.cjs",
+        "origin": "licensed-music",
+        "kind": "news-programme",
+        "sourceNotDistributedSeparately": true,
+        "newSynthesisRequests": 0
+      },
+      "sourceSha256": "32e3e6c978ef1bc5c013c40880ac3ad9714957548f956c1355ad8852c94405ae",
+      "voiceMarginTargetDb": 25,
+      "sidechain": {
+        "threshold": 0.018,
+        "ratio": 6,
+        "attackMs": 12,
+        "releaseMs": 450
+      },
+      "openingSeconds": 3.5,
+      "closingSeconds": 4.5
+    }
+  ],
+  "sha256": "e5d616bfc5b37c2b88aa397d8afbd9f96120f9ae3ad2d014a295859f718c7914",
+  "voiceHandles": {
+    "body": {
+      "start": 0,
+      "end": 147.17,
+      "retainedPcmSha256": "672839d22c1ac6a0e0779207ef5feff73cb6b5a65aae810464264474ab641425",
+      "sourceSha256": "f4fe40fbb21ae28b146a73c1d2ab35c29cd8b476dfc6707eae140b33206974d6",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.145,
+      "end": 4.62,
+      "retainedPcmSha256": "e81b06b2f21ad3923ad96777a4a5b5a158aa2da9638e374aecc7fda0be565156",
+      "sourceSha256": "fd3fe531f82653a9af2cea1572cb8a8948f074c02dd7b02d2501e96cf49a986c",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-25",
+    "sourceTakeSha256": "198a1652fc0ff39a8d539cb03fa137c8c1a60235c05b664e75f0e2d13bd51ac3",
+    "baseTakeSha256": "fafe5e399b5421f0e177d5a8602c74da49992434fe756e18fbe6ff13e1e31552",
+    "confirmation": "Docent 25/11: les esmenes de S056 passen validació i pot anar a muntatge.",
+    "derivation": "Previously approved complete body, plus the two exact teacher-approved opening clips. Full montage still awaits listening.",
+    "repairs": [
+      {
+        "part": "introduction",
+        "text": "Comprensió oral. El taller canvia de casa. Notícia de ficció.",
+        "candidateFile": "assets/audio/repairs/l32-s056-introduction-prova.mp3",
+        "candidateSha256": "5584221a0607f9f304cf2d81f8bff93e7a7f4b3bf6c50d3f7137c845f35574f0",
+        "batchRequestHash": "a38715e579b55a270d1e2b0f493b471ebe0f7ed700681aceec1aadfd202a5f75"
+      },
+      {
+        "part": "trasllat",
+        "text": "Bon dia.",
+        "candidateFile": "assets/audio/repairs/l32-s056-trasllat-prova.mp3",
+        "candidateSha256": "d5d8e89087cfc5f8666a11404b45ed76dd65c4630962d472f1d81f28906d9149",
+        "batchRequestHash": "a38715e579b55a270d1e2b0f493b471ebe0f7ed700681aceec1aadfd202a5f75"
+      }
+    ]
+  },
+  "repairApplication": {
+    "code": "S056",
+    "date": "2026-11-25",
+    "scope": "approved-repair",
+    "originalRawSha256": "fafe5e399b5421f0e177d5a8602c74da49992434fe756e18fbe6ff13e1e31552",
+    "originalBodyFile": "s056-t01-body.wav",
+    "originalBodySha256": "23d43c12c08999f5c519efa680a9842e9317393fbe09f3f60794e6efab5aec7b",
+    "patchedSha256": "198a1652fc0ff39a8d539cb03fa137c8c1a60235c05b664e75f0e2d13bd51ac3",
+    "seconds": 151.79,
+    "edits": [
+      {
+        "part": "introduction",
+        "text": "Comprensió oral. El taller canvia de casa. Notícia de ficció.",
+        "accepted": {
+          "part": "introduction",
+          "text": "Comprensió oral. El taller canvia de casa. Notícia de ficció.",
+          "candidateFile": "assets/audio/repairs/l32-s056-introduction-prova.mp3",
+          "candidateSha256": "5584221a0607f9f304cf2d81f8bff93e7a7f4b3bf6c50d3f7137c845f35574f0",
+          "batchRequestHash": "a38715e579b55a270d1e2b0f493b471ebe0f7ed700681aceec1aadfd202a5f75"
+        },
+        "candidateRawSha256": "689e7a53b9d7d6f2ff3bbf353643f01e320f105c9a3cbdf7ba1a88e986451d5a",
+        "candidateBatch": "L32",
+        "candidateRawBatchSha256": "dbfe51e338dfe13edbea6f589e2b50227add83c034010620624ca265411144bf",
+        "candidateRange": {
+          "start": 0,
+          "end": 4.62
+        },
+        "outputStart": 0,
+        "operation": "replace-partial-introduction",
+        "gainDb": 0,
+        "candidateRawFile": "s056-introduction.wav"
+      },
+      {
+        "part": "trasllat",
+        "text": "Bon dia.",
+        "accepted": {
+          "part": "trasllat",
+          "text": "Bon dia.",
+          "candidateFile": "assets/audio/repairs/l32-s056-trasllat-prova.mp3",
+          "candidateSha256": "d5d8e89087cfc5f8666a11404b45ed76dd65c4630962d472f1d81f28906d9149",
+          "batchRequestHash": "a38715e579b55a270d1e2b0f493b471ebe0f7ed700681aceec1aadfd202a5f75"
+        },
+        "candidateRawSha256": "2c0a1d23c596b83e38c04ae9194f1dd2ad15ed2a308d5461bcaafe1f92328c7c",
+        "candidateBatch": "L32",
+        "candidateRawBatchSha256": "dbfe51e338dfe13edbea6f589e2b50227add83c034010620624ca265411144bf",
+        "candidateRange": {
+          "start": 0,
+          "end": 0.875
+        },
+        "outputStart": 4.62,
+        "operation": "insert-omitted-greeting",
+        "gainDb": 0,
+        "candidateRawFile": "s056-trasllat.wav"
+      }
+    ],
+    "retainedRanges": [
+      {
+        "originalFile": "s056-t01-body.wav",
+        "originalStart": 0,
+        "originalEnd": 146.145,
+        "outputStart": 5.645,
+        "sha256": "c6bcf56408e38e159bd247f86691b32928aa3c519a9b9454cab0473d55663fca"
+      }
+    ],
+    "insertedSilenceSeconds": 0.15,
+    "allOtherVoiceSamplesIdentical": true,
+    "voiceRetimed": false,
+    "pitchShifted": false,
+    "newRequests": 0,
+    "originalRawFile": "s056-t01.wav",
+    "patchedFile": "patched-source.wav",
+    "appliedTo": "s056-mixed-v1.mp3",
+    "teacherMontageApproval": false
+  }
+}

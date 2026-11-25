@@ -204,11 +204,17 @@ export const soundSources = [
       "ca-S083",
       "ca-S084",
       "ca-S086",
+      "ca-S087",
       "ca-S091",
       "ca-S092",
       "ca-S096",
+      "ca-S097",
+      "ca-S100",
+      "ca-S104",
       "ca-S105",
-      "ca-S108"
+      "ca-S106",
+      "ca-S108",
+      "ca-S110"
     ],
     "treatment": "Fragment del segon 40 al 100 repetit amb foses creuades i filtrat; ambient molt baix durant tota la conversa, entrada suau i pujada de dos segons seguida de fosa després de l’última paraula. Context urbà de ficció."
   },

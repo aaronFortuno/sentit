@@ -1,0 +1,83 @@
+{
+  "code": "S100",
+  "activity": "ca-S100",
+  "state": "awaiting-montage-validation",
+  "file": "s100-mixed-v1.mp3",
+  "introFile": "s100-mixed-v1-intro.mp3",
+  "bodyFile": "s100-mixed-v1-cos.mp3",
+  "offset": 4.705,
+  "bodyDuration": 92.96,
+  "fullDuration": 97.665,
+  "voices": {
+    "Mar": "Erinome",
+    "Dependenta": "Callirrhoe"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "a38715e579b55a270d1e2b0f493b471ebe0f7ed700681aceec1aadfd202a5f75",
+  "sourceRequestHash": "39f81b4da22628b75947cf9b0fc89d94398d51118570506d9bd81d5a21f20b3e",
+  "batch": "L32",
+  "rawSha256": "dbfe51e338dfe13edbea6f589e2b50227add83c034010620624ca265411144bf",
+  "takeSha256": "975d588a565c7533b27058efecdbaeccd43c77629312b27d87b32b61ea2a2aec",
+  "coverage": 0.9016393442622951,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.1,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "soaress-546234",
+      "start": 0,
+      "source": "assets/audio/sources/soaress-546234.mp3",
+      "sourceSha256": "1059086683943b6b8d679a9283eda0bf08a75c05cbc711b2ec6a14a276f5028c",
+      "sourceUrl": "https://freesound.org/people/soaress/sounds/546234/",
+      "author": "soaress",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.08,
+      "openingGain": 0.16,
+      "raisedGain": 0.23,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -49.938200260161125,
+      "lowPassHz": 800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 140,
+        "seconds": 49.6085625
+      },
+      "envelope": {
+        "riseStart": 88.56,
+        "riseEnd": 89.36000000000001,
+        "holdSeconds": 0.9999999999999858,
+        "fadeStart": 90.36,
+        "fadeEnd": 91.76
+      }
+    }
+  ],
+  "sha256": "a5a7d7d3a07c60f48896ddbd44d42b5c4511c58402536f39b0b7a71afe571683",
+  "voiceHandles": {
+    "body": {
+      "start": 0.475,
+      "end": 87.935,
+      "retainedPcmSha256": "5df2e6718f6a343d92f8e1518b24858465537d3906e38dc48fe19490bd0b71cb",
+      "sourceSha256": "6e1c4100e90337895444a8828f434cd205c1a9446aed31b25f3b92f47f0655ae",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0,
+      "end": 3.755,
+      "retainedPcmSha256": "0171df1635a554a3727ae8532d6b8ba44664dab67d109df33ca513c702ef7683",
+      "sourceSha256": "45219726131233a3db487a6fcb303b92d6ada1508da91a24c2206c998fb523a7",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-25",
+    "sourceTakeSha256": "975d588a565c7533b27058efecdbaeccd43c77629312b27d87b32b61ea2a2aec",
+    "confirmation": "Docent 25/11: S100 validat per muntatge."
+  }
+}

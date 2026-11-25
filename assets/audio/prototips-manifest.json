@@ -11739,6 +11739,796 @@
         "sourceTakeSha256": "42c92651d7b9595cfc520249c9d9a818f1d6519e2f696555ec73f7ca427e7cfc",
         "confirmation": "Docent 25/11: S108 validat per muntatge."
       }
+    },
+    {
+      "code": "S104",
+      "activity": "ca-S104",
+      "state": "awaiting-montage-validation",
+      "file": "s104-mixed-v1.mp3",
+      "introFile": "s104-mixed-v1-intro.mp3",
+      "bodyFile": "s104-mixed-v1-cos.mp3",
+      "offset": 4.0600000000000005,
+      "bodyDuration": 58.28,
+      "fullDuration": 62.34,
+      "voices": {
+        "Biel": "Puck",
+        "Elies": "Algieba"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "8176fbf46265f9e3a131fc1725426c5d108483d7613cc38bbddfc69c9e425901",
+      "sourceRequestHash": "7f660cd602fea3acb25062ce2fbd806ca2c2bdf572f68550f4728835e61c252a",
+      "batch": "L36",
+      "rawSha256": "815d6171203b9b51d2d614e8bc5127851f4857c64e348631ae75cc09bd47d65f",
+      "takeSha256": "79873a1aa0366bce3ef3609304451fd79c3d42d046abac0d9d3a446701103445",
+      "coverage": 0.8287292817679558,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -18.92,
+      "peakDbTP": -2.5,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "soaress-546234",
+          "start": 0,
+          "source": "assets/audio/sources/soaress-546234.mp3",
+          "sourceSha256": "1059086683943b6b8d679a9283eda0bf08a75c05cbc711b2ec6a14a276f5028c",
+          "sourceUrl": "https://freesound.org/people/soaress/sounds/546234/",
+          "author": "soaress",
+          "license": "CC0 1.0",
+          "underSpeech": true,
+          "speechGain": 0.08,
+          "openingGain": 0.16,
+          "raisedGain": 0.23,
+          "sourceTargetLufs": -28,
+          "speechNominalLufs": -49.938200260161125,
+          "lowPassHz": 800,
+          "passes": 3,
+          "crossfadeSeconds": 1,
+          "excerpt": {
+            "start": 140,
+            "seconds": 49.6085625
+          },
+          "envelope": {
+            "riseStart": 53.88000000000001,
+            "riseEnd": 54.68000000000001,
+            "holdSeconds": 0.9999999999999929,
+            "fadeStart": 55.68,
+            "fadeEnd": 57.08
+          }
+        }
+      ],
+      "sha256": "0b06376cb48f7356a97eb9056bd787e6f021250f13056f263572030d221e5146",
+      "voiceHandles": {
+        "body": {
+          "start": 0.775,
+          "end": 53.555,
+          "retainedPcmSha256": "4a6af74b09145e043d85652ca90cc728dd5e59a6b732f130fcfc273ef4751dc2",
+          "sourceSha256": "bc3a264f2b728f74ebdcedc00661a61f708f81f4912821c501518b907a27567d",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0,
+          "end": 3.11,
+          "retainedPcmSha256": "199720480ef342d956347f45f09cacf69dbf62f8aad34338371c11fa48984c81",
+          "sourceSha256": "e8954674766be23ab7d68f6dcb5b83fb83434471a2f091c21a74687963e8a003",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-25",
+        "sourceTakeSha256": "79873a1aa0366bce3ef3609304451fd79c3d42d046abac0d9d3a446701103445",
+        "confirmation": "Docent 25/11: S104 validat per muntatge."
+      }
+    },
+    {
+      "code": "S110",
+      "activity": "ca-S110",
+      "state": "awaiting-montage-validation",
+      "file": "s110-mixed-v1.mp3",
+      "introFile": "s110-mixed-v1-intro.mp3",
+      "bodyFile": "s110-mixed-v1-cos.mp3",
+      "offset": 4.33,
+      "bodyDuration": 86.65,
+      "fullDuration": 90.98,
+      "voices": {
+        "Aina": "Zephyr",
+        "Ferran": "Algenib"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "f8f95587af9933a81a7732a732045a0094ec864fc0d9d79fb70e2daac13764d9",
+      "sourceRequestHash": "2cc6a84ab04c2896a099de6b7f5f1c6b161a6b0d281cd87ea7a5d67c0d6ea733",
+      "batch": "L37",
+      "rawSha256": "b99990632ae375e147c0dbf518405868ce02ecf1fe1f18a401a94d3353feb027",
+      "takeSha256": "0dad195ecd8aa696db0863e3a7f25a34ab78b7634e2c9cded1b55dbc2d61b800",
+      "coverage": 0.9169960474308301,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -18.82,
+      "peakDbTP": -2.5,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "soaress-546234",
+          "start": 0,
+          "source": "assets/audio/sources/soaress-546234.mp3",
+          "sourceSha256": "1059086683943b6b8d679a9283eda0bf08a75c05cbc711b2ec6a14a276f5028c",
+          "sourceUrl": "https://freesound.org/people/soaress/sounds/546234/",
+          "author": "soaress",
+          "license": "CC0 1.0",
+          "underSpeech": true,
+          "speechGain": 0.1,
+          "openingGain": 0.22,
+          "raisedGain": 0.28,
+          "sourceTargetLufs": -28,
+          "speechNominalLufs": -48,
+          "lowPassHz": 3600,
+          "passes": 3,
+          "crossfadeSeconds": 1,
+          "excerpt": {
+            "start": 40,
+            "seconds": 90
+          },
+          "envelope": {
+            "riseStart": 82.25,
+            "riseEnd": 83.05000000000001,
+            "holdSeconds": 0.9999999999999858,
+            "fadeStart": 84.05,
+            "fadeEnd": 85.45
+          }
+        }
+      ],
+      "sha256": "344ee8235ac97149500ee811cee084ea800a5639d140259c9b42de577fd36622",
+      "voiceHandles": {
+        "body": {
+          "start": 0.385,
+          "end": 81.335,
+          "retainedPcmSha256": "4319275f0554b91d7616dd024e724bb8f5da4d2685ce857430379f6b67de93d5",
+          "sourceSha256": "aa99ced1908ba04794684d74a6bc7687eb0fcf6d524e299e99ed9bd57fdc05c1",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0,
+          "end": 3.38,
+          "retainedPcmSha256": "4ca3b60ee190197383f60bea3c8d453d52b1612a38c4112b6094fabcc0040043",
+          "sourceSha256": "d294b58aa34f5a70751f07da4dc3f5663add0eeebd7efc8285108df1d651b59a",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-25",
+        "sourceTakeSha256": "0dad195ecd8aa696db0863e3a7f25a34ab78b7634e2c9cded1b55dbc2d61b800",
+        "confirmation": "Docent 25/11: S110 validat per muntatge."
+      }
+    },
+    {
+      "code": "S106",
+      "activity": "ca-S106",
+      "state": "awaiting-montage-validation",
+      "file": "s106-mixed-v1.mp3",
+      "introFile": "s106-mixed-v1-intro.mp3",
+      "bodyFile": "s106-mixed-v1-cos.mp3",
+      "offset": 3.9899999999999998,
+      "bodyDuration": 86.745,
+      "fullDuration": 90.735,
+      "voices": {
+        "Biel": "Puck",
+        "Elies": "Algieba"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "8176fbf46265f9e3a131fc1725426c5d108483d7613cc38bbddfc69c9e425901",
+      "sourceRequestHash": "054e9a334f1b15434aec44869f77361d7c2729e9c3573d46435ed5f43f43adb1",
+      "batch": "L36",
+      "rawSha256": "815d6171203b9b51d2d614e8bc5127851f4857c64e348631ae75cc09bd47d65f",
+      "takeSha256": "edc558bb6c6820bf08d44f3a70acbcb25ec59f5b278f973233a8c6efafed3475",
+      "coverage": 0.8801498127340824,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -19.36,
+      "peakDbTP": -2.62,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "soaress-546234",
+          "start": 0,
+          "source": "assets/audio/sources/soaress-546234.mp3",
+          "sourceSha256": "1059086683943b6b8d679a9283eda0bf08a75c05cbc711b2ec6a14a276f5028c",
+          "sourceUrl": "https://freesound.org/people/soaress/sounds/546234/",
+          "author": "soaress",
+          "license": "CC0 1.0",
+          "underSpeech": true,
+          "speechGain": 0.08,
+          "openingGain": 0.16,
+          "raisedGain": 0.23,
+          "sourceTargetLufs": -28,
+          "speechNominalLufs": -49.938200260161125,
+          "lowPassHz": 800,
+          "passes": 3,
+          "crossfadeSeconds": 1,
+          "excerpt": {
+            "start": 140,
+            "seconds": 49.6085625
+          },
+          "envelope": {
+            "riseStart": 82.40999999999998,
+            "riseEnd": 83.21,
+            "holdSeconds": 0.9350000000000023,
+            "fadeStart": 84.145,
+            "fadeEnd": 85.545
+          }
+        }
+      ],
+      "sha256": "9807c1125d809e97f0675b73f25f5524edf68a32bea7b86b52bb92d33ddc1059",
+      "voiceHandles": {
+        "body": {
+          "start": 0.235,
+          "end": 81.48,
+          "retainedPcmSha256": "2bb1b3cef5f24ff25e62f5e8dda3f682d5ed2b48ceae88109446946238ed9641",
+          "sourceSha256": "72f1e32900d4b25076b91b127bc2526821a68ad94ea36a23403076aa7ac7879e",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0.31,
+          "end": 3.35,
+          "retainedPcmSha256": "f09d54f88a152fe0517e8ed3d6ed5facad791313b7a31539f7f65cfad54e3bbc",
+          "sourceSha256": "bf4d0ea82a5494c8ffa50abfc55d8298f015294aa8fce21b90e8efcad8263484",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-25",
+        "sourceTakeSha256": "edc558bb6c6820bf08d44f3a70acbcb25ec59f5b278f973233a8c6efafed3475",
+        "confirmation": "Docent 25/11: S106 validat per muntatge."
+      }
+    },
+    {
+      "code": "S056",
+      "activity": "ca-S056",
+      "state": "awaiting-montage-validation",
+      "file": "s056-mixed-v1.mp3",
+      "introFile": "s056-mixed-v1-intro.mp3",
+      "bodyFile": "s056-mixed-v1-cos.mp3",
+      "offset": 5.675000000000001,
+      "bodyDuration": 154.52,
+      "fullDuration": 160.195,
+      "voices": {
+        "Mar": "Erinome"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "repaired-mixed-take",
+      "requestHash": "883e30ffbd8bad78e67e2f6932b1dece73f71005b7c72e0be6b9504ab50ab761",
+      "sourceRequestHash": "af213bd420fb93c68cd0c01c0376f77c2998d5315d1453458f90fad08c405df5",
+      "batch": "L29+L32",
+      "sourceBatchRequests": [
+        {
+          "batch": "L29",
+          "requestHash": "b0a730b180a626cc040f5673c2e59704c01d046548a2b4090c0538b629495e23",
+          "rawSha256": "20d716f9a5513b380c1885e64229e4d4f31e4951d03b0c5e3e53b542a7913fcd"
+        },
+        {
+          "batch": "L32",
+          "requestHash": "a38715e579b55a270d1e2b0f493b471ebe0f7ed700681aceec1aadfd202a5f75",
+          "rawSha256": "dbfe51e338dfe13edbea6f589e2b50227add83c034010620624ca265411144bf"
+        }
+      ],
+      "requestHashIsCompositionChecksum": true,
+      "rawSha256": "198a1652fc0ff39a8d539cb03fa137c8c1a60235c05b664e75f0e2d13bd51ac3",
+      "takeSha256": "198a1652fc0ff39a8d539cb03fa137c8c1a60235c05b664e75f0e2d13bd51ac3",
+      "coverage": 0.9647302904564315,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -18.77,
+      "peakDbTP": -2.48,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "grand-project-breaking-news-505617",
+          "origin": "licensed-music-in-montage",
+          "start": 0,
+          "underSpeech": true,
+          "credit": {
+            "id": "grand-project-breaking-news-505617",
+            "title": "Breaking News Background Music",
+            "author": "Grand_Project",
+            "url": "https://pixabay.com/music/percussion-breaking-news-background-music-505617/",
+            "license": "Pixabay Content License",
+            "licenseUrl": "https://pixabay.com/service/license-summary/",
+            "source": "tools/news-bed.cjs",
+            "origin": "licensed-music",
+            "kind": "news-programme",
+            "sourceNotDistributedSeparately": true,
+            "newSynthesisRequests": 0
+          },
+          "sourceSha256": "32e3e6c978ef1bc5c013c40880ac3ad9714957548f956c1355ad8852c94405ae",
+          "voiceMarginTargetDb": 25,
+          "sidechain": {
+            "threshold": 0.018,
+            "ratio": 6,
+            "attackMs": 12,
+            "releaseMs": 450
+          },
+          "openingSeconds": 3.5,
+          "closingSeconds": 4.5
+        }
+      ],
+      "sha256": "e5d616bfc5b37c2b88aa397d8afbd9f96120f9ae3ad2d014a295859f718c7914",
+      "voiceHandles": {
+        "body": {
+          "start": 0,
+          "end": 147.17,
+          "retainedPcmSha256": "672839d22c1ac6a0e0779207ef5feff73cb6b5a65aae810464264474ab641425",
+          "sourceSha256": "f4fe40fbb21ae28b146a73c1d2ab35c29cd8b476dfc6707eae140b33206974d6",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0.145,
+          "end": 4.62,
+          "retainedPcmSha256": "e81b06b2f21ad3923ad96777a4a5b5a158aa2da9638e374aecc7fda0be565156",
+          "sourceSha256": "fd3fe531f82653a9af2cea1572cb8a8948f074c02dd7b02d2501e96cf49a986c",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-25",
+        "sourceTakeSha256": "198a1652fc0ff39a8d539cb03fa137c8c1a60235c05b664e75f0e2d13bd51ac3",
+        "baseTakeSha256": "fafe5e399b5421f0e177d5a8602c74da49992434fe756e18fbe6ff13e1e31552",
+        "confirmation": "Docent 25/11: les esmenes de S056 passen validació i pot anar a muntatge.",
+        "derivation": "Previously approved complete body, plus the two exact teacher-approved opening clips. Full montage still awaits listening.",
+        "repairs": [
+          {
+            "part": "introduction",
+            "text": "Comprensió oral. El taller canvia de casa. Notícia de ficció.",
+            "candidateFile": "assets/audio/repairs/l32-s056-introduction-prova.mp3",
+            "candidateSha256": "5584221a0607f9f304cf2d81f8bff93e7a7f4b3bf6c50d3f7137c845f35574f0",
+            "batchRequestHash": "a38715e579b55a270d1e2b0f493b471ebe0f7ed700681aceec1aadfd202a5f75"
+          },
+          {
+            "part": "trasllat",
+            "text": "Bon dia.",
+            "candidateFile": "assets/audio/repairs/l32-s056-trasllat-prova.mp3",
+            "candidateSha256": "d5d8e89087cfc5f8666a11404b45ed76dd65c4630962d472f1d81f28906d9149",
+            "batchRequestHash": "a38715e579b55a270d1e2b0f493b471ebe0f7ed700681aceec1aadfd202a5f75"
+          }
+        ]
+      },
+      "repairApplication": {
+        "code": "S056",
+        "date": "2026-11-25",
+        "scope": "approved-repair",
+        "originalRawSha256": "fafe5e399b5421f0e177d5a8602c74da49992434fe756e18fbe6ff13e1e31552",
+        "originalBodyFile": "s056-t01-body.wav",
+        "originalBodySha256": "23d43c12c08999f5c519efa680a9842e9317393fbe09f3f60794e6efab5aec7b",
+        "patchedSha256": "198a1652fc0ff39a8d539cb03fa137c8c1a60235c05b664e75f0e2d13bd51ac3",
+        "seconds": 151.79,
+        "edits": [
+          {
+            "part": "introduction",
+            "text": "Comprensió oral. El taller canvia de casa. Notícia de ficció.",
+            "accepted": {
+              "part": "introduction",
+              "text": "Comprensió oral. El taller canvia de casa. Notícia de ficció.",
+              "candidateFile": "assets/audio/repairs/l32-s056-introduction-prova.mp3",
+              "candidateSha256": "5584221a0607f9f304cf2d81f8bff93e7a7f4b3bf6c50d3f7137c845f35574f0",
+              "batchRequestHash": "a38715e579b55a270d1e2b0f493b471ebe0f7ed700681aceec1aadfd202a5f75"
+            },
+            "candidateRawSha256": "689e7a53b9d7d6f2ff3bbf353643f01e320f105c9a3cbdf7ba1a88e986451d5a",
+            "candidateBatch": "L32",
+            "candidateRawBatchSha256": "dbfe51e338dfe13edbea6f589e2b50227add83c034010620624ca265411144bf",
+            "candidateRange": {
+              "start": 0,
+              "end": 4.62
+            },
+            "outputStart": 0,
+            "operation": "replace-partial-introduction",
+            "gainDb": 0,
+            "candidateRawFile": "s056-introduction.wav"
+          },
+          {
+            "part": "trasllat",
+            "text": "Bon dia.",
+            "accepted": {
+              "part": "trasllat",
+              "text": "Bon dia.",
+              "candidateFile": "assets/audio/repairs/l32-s056-trasllat-prova.mp3",
+              "candidateSha256": "d5d8e89087cfc5f8666a11404b45ed76dd65c4630962d472f1d81f28906d9149",
+              "batchRequestHash": "a38715e579b55a270d1e2b0f493b471ebe0f7ed700681aceec1aadfd202a5f75"
+            },
+            "candidateRawSha256": "2c0a1d23c596b83e38c04ae9194f1dd2ad15ed2a308d5461bcaafe1f92328c7c",
+            "candidateBatch": "L32",
+            "candidateRawBatchSha256": "dbfe51e338dfe13edbea6f589e2b50227add83c034010620624ca265411144bf",
+            "candidateRange": {
+              "start": 0,
+              "end": 0.875
+            },
+            "outputStart": 4.62,
+            "operation": "insert-omitted-greeting",
+            "gainDb": 0,
+            "candidateRawFile": "s056-trasllat.wav"
+          }
+        ],
+        "retainedRanges": [
+          {
+            "originalFile": "s056-t01-body.wav",
+            "originalStart": 0,
+            "originalEnd": 146.145,
+            "outputStart": 5.645,
+            "sha256": "c6bcf56408e38e159bd247f86691b32928aa3c519a9b9454cab0473d55663fca"
+          }
+        ],
+        "insertedSilenceSeconds": 0.15,
+        "allOtherVoiceSamplesIdentical": true,
+        "voiceRetimed": false,
+        "pitchShifted": false,
+        "newRequests": 0,
+        "originalRawFile": "s056-t01.wav",
+        "patchedFile": "patched-source.wav",
+        "appliedTo": "s056-mixed-v1.mp3",
+        "teacherMontageApproval": false
+      }
+    },
+    {
+      "code": "S100",
+      "activity": "ca-S100",
+      "state": "awaiting-montage-validation",
+      "file": "s100-mixed-v1.mp3",
+      "introFile": "s100-mixed-v1-intro.mp3",
+      "bodyFile": "s100-mixed-v1-cos.mp3",
+      "offset": 4.705,
+      "bodyDuration": 92.96,
+      "fullDuration": 97.665,
+      "voices": {
+        "Mar": "Erinome",
+        "Dependenta": "Callirrhoe"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "a38715e579b55a270d1e2b0f493b471ebe0f7ed700681aceec1aadfd202a5f75",
+      "sourceRequestHash": "39f81b4da22628b75947cf9b0fc89d94398d51118570506d9bd81d5a21f20b3e",
+      "batch": "L32",
+      "rawSha256": "dbfe51e338dfe13edbea6f589e2b50227add83c034010620624ca265411144bf",
+      "takeSha256": "975d588a565c7533b27058efecdbaeccd43c77629312b27d87b32b61ea2a2aec",
+      "coverage": 0.9016393442622951,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -19.1,
+      "peakDbTP": -2.5,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "soaress-546234",
+          "start": 0,
+          "source": "assets/audio/sources/soaress-546234.mp3",
+          "sourceSha256": "1059086683943b6b8d679a9283eda0bf08a75c05cbc711b2ec6a14a276f5028c",
+          "sourceUrl": "https://freesound.org/people/soaress/sounds/546234/",
+          "author": "soaress",
+          "license": "CC0 1.0",
+          "underSpeech": true,
+          "speechGain": 0.08,
+          "openingGain": 0.16,
+          "raisedGain": 0.23,
+          "sourceTargetLufs": -28,
+          "speechNominalLufs": -49.938200260161125,
+          "lowPassHz": 800,
+          "passes": 3,
+          "crossfadeSeconds": 1,
+          "excerpt": {
+            "start": 140,
+            "seconds": 49.6085625
+          },
+          "envelope": {
+            "riseStart": 88.56,
+            "riseEnd": 89.36000000000001,
+            "holdSeconds": 0.9999999999999858,
+            "fadeStart": 90.36,
+            "fadeEnd": 91.76
+          }
+        }
+      ],
+      "sha256": "a5a7d7d3a07c60f48896ddbd44d42b5c4511c58402536f39b0b7a71afe571683",
+      "voiceHandles": {
+        "body": {
+          "start": 0.475,
+          "end": 87.935,
+          "retainedPcmSha256": "5df2e6718f6a343d92f8e1518b24858465537d3906e38dc48fe19490bd0b71cb",
+          "sourceSha256": "6e1c4100e90337895444a8828f434cd205c1a9446aed31b25f3b92f47f0655ae",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0,
+          "end": 3.755,
+          "retainedPcmSha256": "0171df1635a554a3727ae8532d6b8ba44664dab67d109df33ca513c702ef7683",
+          "sourceSha256": "45219726131233a3db487a6fcb303b92d6ada1508da91a24c2206c998fb523a7",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-25",
+        "sourceTakeSha256": "975d588a565c7533b27058efecdbaeccd43c77629312b27d87b32b61ea2a2aec",
+        "confirmation": "Docent 25/11: S100 validat per muntatge."
+      }
+    },
+    {
+      "code": "S087",
+      "activity": "ca-S087",
+      "state": "awaiting-montage-validation",
+      "file": "s087-mixed-v1.mp3",
+      "introFile": "s087-mixed-v1-intro.mp3",
+      "bodyFile": "s087-mixed-v1-cos.mp3",
+      "offset": 3.835,
+      "bodyDuration": 80.315,
+      "fullDuration": 84.15,
+      "voices": {
+        "Ferran": "Algenib",
+        "Ferreter": "Achird"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "e976118d4059a3906fef68d10a896878017b880860e49a669844b0cafb799cb1",
+      "sourceRequestHash": "75fc804cb23137e8f9764aaf61a0d01a29f1347435d42a4550222d75498b0a59",
+      "batch": "L30",
+      "rawSha256": "04afb60c95adf853ada0d0585d59cf29947e8f0ea242907727c74bdce86491cf",
+      "takeSha256": "9f22c47a377b87242dc674ad418811437b3fab4a9df86d9b42c78e6951aec8b2",
+      "coverage": 0.8242677824267782,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -18.82,
+      "peakDbTP": -2.5,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "soaress-546234",
+          "start": 0,
+          "source": "assets/audio/sources/soaress-546234.mp3",
+          "sourceSha256": "1059086683943b6b8d679a9283eda0bf08a75c05cbc711b2ec6a14a276f5028c",
+          "sourceUrl": "https://freesound.org/people/soaress/sounds/546234/",
+          "author": "soaress",
+          "license": "CC0 1.0",
+          "underSpeech": true,
+          "speechGain": 0.08,
+          "openingGain": 0.16,
+          "raisedGain": 0.23,
+          "sourceTargetLufs": -28,
+          "speechNominalLufs": -49.938200260161125,
+          "lowPassHz": 800,
+          "passes": 3,
+          "crossfadeSeconds": 1,
+          "excerpt": {
+            "start": 140,
+            "seconds": 49.6085625
+          },
+          "envelope": {
+            "riseStart": 76.04001666666667,
+            "riseEnd": 76.84001666666668,
+            "holdSeconds": 0.8749833333333186,
+            "fadeStart": 77.715,
+            "fadeEnd": 79.11500000000001
+          }
+        }
+      ],
+      "sha256": "d6c4e7d9558af223cf99f2b7f279cd5bb56d5e11324158b7ac18364943e8c47a",
+      "voiceHandles": {
+        "body": {
+          "start": 1.1845833333333333,
+          "end": 75.99958333333333,
+          "retainedPcmSha256": "b58935e792ec64e970bb2e5b420b8580590174caa88e9008656e5bd963608575",
+          "sourceSha256": "05db721417c0f3ac269beed0f3c67bdb494ff2ad48d3411f6cbd5bf91c80b37d",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0,
+          "end": 2.885,
+          "retainedPcmSha256": "9059e5e31cecfd0a67317c0ac6edf71c00b5e8848dddd054c020d9dfcf4e1af0",
+          "sourceSha256": "83d0da98487d5dde679fa6a399a2864ce81d530a4cf6f256bc11bd9fdb3ee4c1",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-25",
+        "sourceTakeSha256": "9f22c47a377b87242dc674ad418811437b3fab4a9df86d9b42c78e6951aec8b2",
+        "confirmation": "Docent 25/11: S087 validat per muntatge."
+      }
+    },
+    {
+      "code": "S097",
+      "activity": "ca-S097",
+      "state": "awaiting-montage-validation",
+      "file": "s097-mixed-v1.mp3",
+      "introFile": "s097-mixed-v1-intro.mp3",
+      "bodyFile": "s097-mixed-v1-cos.mp3",
+      "offset": 4.74,
+      "bodyDuration": 93.73,
+      "fullDuration": 98.47,
+      "voices": {
+        "Ferran": "Algenib",
+        "Taquillera": "Gacrux"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "repaired-mixed-take",
+      "requestHash": "364cfefbc968c52d0192d4ab1ea090e6d3d1bbb2b92848f53d2301657702f783",
+      "sourceRequestHash": "1c11c010f9586efdf7c3a3ec02da159ac54f2d48c743353e789802ac22300ab5",
+      "batch": "L34+L37",
+      "sourceBatchRequests": [
+        {
+          "batch": "L34",
+          "requestHash": "aef37a3e56d6a4126206a0905030aad2bc53160804678de652431febf809e7e6",
+          "rawSha256": "e745dbb235852711298ebf545af5ec836adc9e26531e6290cf3c4e457a4ecadd"
+        },
+        {
+          "batch": "L37",
+          "requestHash": "f8f95587af9933a81a7732a732045a0094ec864fc0d9d79fb70e2daac13764d9",
+          "rawSha256": "b99990632ae375e147c0dbf518405868ce02ecf1fe1f18a401a94d3353feb027"
+        }
+      ],
+      "requestHashIsCompositionChecksum": true,
+      "rawSha256": "d202e044a4ceb9d8249262beb25599aadf20a0c65f84c0cf5e7f57f51e3911a8",
+      "takeSha256": "d202e044a4ceb9d8249262beb25599aadf20a0c65f84c0cf5e7f57f51e3911a8",
+      "coverage": 0.8929889298892989,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -19.41,
+      "peakDbTP": -2.46,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "soaress-546234",
+          "start": 0,
+          "source": "assets/audio/sources/soaress-546234.mp3",
+          "sourceSha256": "1059086683943b6b8d679a9283eda0bf08a75c05cbc711b2ec6a14a276f5028c",
+          "sourceUrl": "https://freesound.org/people/soaress/sounds/546234/",
+          "author": "soaress",
+          "license": "CC0 1.0",
+          "underSpeech": true,
+          "speechGain": 0.08,
+          "openingGain": 0.16,
+          "raisedGain": 0.23,
+          "sourceTargetLufs": -28,
+          "speechNominalLufs": -49.938200260161125,
+          "lowPassHz": 800,
+          "passes": 3,
+          "crossfadeSeconds": 1,
+          "excerpt": {
+            "start": 140,
+            "seconds": 49.6085625
+          },
+          "envelope": {
+            "riseStart": 89.32999999999997,
+            "riseEnd": 90.12999999999998,
+            "holdSeconds": 1.0000000000000142,
+            "fadeStart": 91.13,
+            "fadeEnd": 92.53
+          }
+        }
+      ],
+      "sha256": "8bda965862ac582419d8b518cd91f1677ddf2e0071f955327570e888a5b0fec2",
+      "voiceHandles": {
+        "body": {
+          "start": 0.13,
+          "end": 88.36,
+          "retainedPcmSha256": "5f41759e90003182e176a2b8935273aff06ed20d6aa41ad7120a00b5daacab98",
+          "sourceSha256": "d18a946349c19d518abc007e566cd62ab1c5f068ad2e3f80193e5754e04fedab",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0.04,
+          "end": 3.83,
+          "retainedPcmSha256": "6f0c33f68105436d2976bb167a3246ff063204060a75b40c0fb65620a208e428",
+          "sourceSha256": "cccb5f789ab5478e75ce6c5160533d83ba304946c744aec03aa6ca1b04544593",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-25",
+        "sourceTakeSha256": "d202e044a4ceb9d8249262beb25599aadf20a0c65f84c0cf5e7f57f51e3911a8",
+        "baseTakeSha256": "bc2141f6960d93c4870fda81394c97c9c72c05446b6cf414342f08ba78b4b2f3",
+        "confirmation": "Docent 25/11: S097 queda validat amb les dues esmenes que havíem demanat; passar a muntatge.",
+        "derivation": "Previously approved complete body, plus the two exact teacher-approved opening clips. Full montage still awaits listening.",
+        "repairs": [
+          {
+            "part": "introduction",
+            "text": "Comprensió oral. Quina parada em queda més a prop?",
+            "candidateFile": "assets/audio/repairs/l37-s097-introduction-prova.mp3",
+            "candidateSha256": "28283524604e44dde198d9b4fd9e1e7b0011d20604ed3ccc0acf013bafe26918",
+            "batchRequestHash": "f8f95587af9933a81a7732a732045a0094ec864fc0d9d79fb70e2daac13764d9"
+          },
+          {
+            "part": "hola",
+            "text": "Bon dia. Voldria un bitllet per anar a Portell de Mar aquesta tarda. M’han deixat una habitació prop del passeig de la Marina, però aquí no em conec gens les parades.",
+            "candidateFile": "assets/audio/repairs/l37-s097-hola-prova.mp3",
+            "candidateSha256": "713a61be5f56283635dbcec1cec7a0ecd2d04a8b7488fcadefed577a82684f36",
+            "batchRequestHash": "f8f95587af9933a81a7732a732045a0094ec864fc0d9d79fb70e2daac13764d9"
+          }
+        ]
+      },
+      "repairApplication": {
+        "code": "S097",
+        "date": "2026-11-25",
+        "scope": "approved-repair",
+        "originalRawSha256": "bc2141f6960d93c4870fda81394c97c9c72c05446b6cf414342f08ba78b4b2f3",
+        "originalBodySha256": "bc2141f6960d93c4870fda81394c97c9c72c05446b6cf414342f08ba78b4b2f3",
+        "patchedSha256": "d202e044a4ceb9d8249262beb25599aadf20a0c65f84c0cf5e7f57f51e3911a8",
+        "seconds": 92.42,
+        "edits": [
+          {
+            "part": "introduction",
+            "text": "Comprensió oral. Quina parada em queda més a prop?",
+            "accepted": {
+              "part": "introduction",
+              "text": "Comprensió oral. Quina parada em queda més a prop?",
+              "candidateFile": "assets/audio/repairs/l37-s097-introduction-prova.mp3",
+              "candidateSha256": "28283524604e44dde198d9b4fd9e1e7b0011d20604ed3ccc0acf013bafe26918",
+              "batchRequestHash": "f8f95587af9933a81a7732a732045a0094ec864fc0d9d79fb70e2daac13764d9"
+            },
+            "candidateRawSha256": "3e6bc8ccd4d0424662e4e18b9b06dc3f39f43594a52d0d99c267f4fb1bc1c536",
+            "candidateBatch": "L37",
+            "candidateRawBatchSha256": "b99990632ae375e147c0dbf518405868ce02ecf1fe1f18a401a94d3353feb027",
+            "candidateRange": {
+              "start": 0,
+              "end": 3.96
+            },
+            "outputStart": 0,
+            "operation": "insert-omitted-introduction",
+            "gainDb": 0,
+            "candidateRawFile": "s097-introduction.wav"
+          },
+          {
+            "part": "hola",
+            "text": "Bon dia. Voldria un bitllet per anar a Portell de Mar aquesta tarda. M’han deixat una habitació prop del passeig de la Marina, però aquí no em conec gens les parades.",
+            "accepted": {
+              "part": "hola",
+              "text": "Bon dia. Voldria un bitllet per anar a Portell de Mar aquesta tarda. M’han deixat una habitació prop del passeig de la Marina, però aquí no em conec gens les parades.",
+              "candidateFile": "assets/audio/repairs/l37-s097-hola-prova.mp3",
+              "candidateSha256": "713a61be5f56283635dbcec1cec7a0ecd2d04a8b7488fcadefed577a82684f36",
+              "batchRequestHash": "f8f95587af9933a81a7732a732045a0094ec864fc0d9d79fb70e2daac13764d9"
+            },
+            "candidateRawSha256": "83ef451f5e0e922c1d530a016983458690b926d727847d1d7c2e65781a3286b0",
+            "candidateBatch": "L37",
+            "candidateRawBatchSha256": "b99990632ae375e147c0dbf518405868ce02ecf1fe1f18a401a94d3353feb027",
+            "candidateRange": {
+              "start": 0,
+              "end": 9.83
+            },
+            "outputStart": 3.96,
+            "operation": "insert-omitted-opening-turn",
+            "gainDb": 0,
+            "candidateRawFile": "s097-hola.wav"
+          }
+        ],
+        "insertedSilenceSeconds": 0.15,
+        "allOtherVoiceSamplesIdentical": true,
+        "voiceRetimed": false,
+        "pitchShifted": false,
+        "newRequests": 0,
+        "retainedRanges": [
+          {
+            "originalStart": 0,
+            "originalEnd": 78.48,
+            "outputStart": 13.940000000000001,
+            "sha256": "633b1987e89a8d972158bae8248a29293e108720adc360f0709420fee6d66659",
+            "originalFile": "s097-t01.wav"
+          }
+        ],
+        "originalBodyFile": "s097-t01.wav",
+        "originalRawFile": "s097-t01.wav",
+        "patchedFile": "patched-source.wav",
+        "appliedTo": "s097-mixed-v1.mp3",
+        "teacherMontageApproval": false
+      }
     }
   ]
 }

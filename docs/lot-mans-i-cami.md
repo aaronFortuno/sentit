@@ -1,6 +1,6 @@
 # Mans a l’obra i A peu de camí · primera tanda
 
-Actualitzat el 25 de novembre de 2026. **Vuit guions de 3r a 6è amb revisió independent superada, validats pel docent i amb veus rebudes.** S104–S107 han arribat a L36 i S108–S111 a L37. S105/S108 ja tenen les veus validades i el muntatge per escoltar; S107 espera esmenar «funda» de l’Elies i S109, «passeig» i «bassals» de Ferran. La resta continua en audició de veus abans de muntar. Les peces es poden resoldre sense haver-ne escoltat d’altres. [Pistes i resultat dels lots](lots-2026-11-25.md).
+Actualitzat el 25 de novembre de 2026. **Vuit guions de 3r a 6è amb revisió independent superada, validats pel docent i amb veus rebudes.** S104–S107 han arribat a L36 i S108–S111 a L37. S104/S105/S106/S108/S110 tenen les veus validades i el muntatge per escoltar; S107 espera esmenar «funda» de l’Elies i S109, «passeig» i «bassals» de Ferran. S111 continua en audició de veus abans de muntar. Les peces es poden resoldre sense haver-ne escoltat d’altres. [Pistes i resultat dels lots](lots-2026-11-25.md).
 
 ## Mans a l’obra
 

@@ -76,6 +76,9 @@ export const dailyFerranErrands = [
   }),
   dailyProposal({
     id: 'quina-parada-em-queda-mes-a-prop', code: 'S097', title: 'Quina parada em queda més a prop?', grade: '5', level: 'advanced', genre: 'dialogue',
+    seconds: 99, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s097-mixed-v1.mp3', tracks: { introduction: './assets/audio/s097-mixed-v1-intro.mp3', body: './assets/audio/s097-mixed-v1-cos.mp3' },
+    fragment: { start: 4.74, seconds: 94 },
     voices: { Ferran: 'Algenib', Taquillera: 'Gacrux' }, guestSpeakers: [{ name: 'Taquillera', voice: 'Gacrux', role: 'Empleada d’una estació d’autobusos · ocasional' }], delivery,
     summary: 'En una estació de fora, en Ferran demana un bitllet. Sap on vol arribar, però ha de comparar les parades de dos autobusos.',
     editorialFocus: '5è avançada: triar un servei segons la parada i no només la sortida, relacionar un equipatge amb el recorregut final i confirmar lloc d’embarcament. Línies i horaris són inventats.',

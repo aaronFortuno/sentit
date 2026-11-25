@@ -71,6 +71,9 @@ export const walkingActivities = [
   }),
   make({
     id: 'un-so-darrere-els-arbres', code: 'S110', title: 'Un so darrere els arbres', grade: '5', level: 'middle', genre: 'dialogue',
+    seconds: 91, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s110-mixed-v1.mp3', tracks: { introduction: './assets/audio/s110-mixed-v1-intro.mp3', body: './assets/audio/s110-mixed-v1-cos.mp3' },
+    fragment: { start: 4.33, seconds: 87 },
     summary: 'Durant una passejada, l’Aina i en Ferran senten un dring que els fa aturar. Cadascú s’imagina d’on pot venir.',
     editorialFocus: '5è intermèdia: seguir dues hipòtesis i distingir-les del que acaben comprovant. Els personatges descriuen les pistes i el resultat en veu alta. L’alumne no ha d’identificar el so real ni cap objecte per una imatge.',
     illustrationBrief: 'Aina i Ferran s’aturen en un camí vorejat d’arbres i escolten amb curiositat. Una casa parcialment tapada al fons; no mostrar tubs penjats, campanar ni objectes que revelin l’origen del so.',

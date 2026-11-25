@@ -40,6 +40,9 @@ export const dailyMarEnquiries = [
   }),
   dailyProposal({
     id: 'un-paquet-de-bolis-cobrat-dos-cops', code: 'S100', title: 'Un paquet de bolis cobrat dos cops', grade: '6', level: 'easy', genre: 'dialogue',
+    seconds: 98, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s100-mixed-v1.mp3', tracks: { introduction: './assets/audio/s100-mixed-v1-intro.mp3', body: './assets/audio/s100-mixed-v1-cos.mp3' },
+    fragment: { start: 4.705, seconds: 93 },
     voices: { Mar: 'Erinome', Dependenta: 'Callirrhoe' }, guestSpeakers: [{ name: 'Dependenta', voice: 'Callirrhoe', role: 'Dependenta d’una papereria · ocasional' }], delivery,
     summary: 'La Mar torna a una papereria perquè el tiquet li sembla massa alt. Amb la dependenta miren la quantitat cobrada i com fer la devolució.',
     editorialFocus: '6è accessible: expressar una reclamació, relacionar quantitat i import i seguir una devolució concreta. Imports i procediment són de la botiga fictícia del relat, sense generalitzar drets o terminis.',
