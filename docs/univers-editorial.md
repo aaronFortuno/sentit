@@ -29,7 +29,7 @@ No cal forçar tots els textos futurs dins d’un fil. Els actuals ja tenen alme
 
 ## Proposta d’ampliació: faules, llegendes i mites · 25/11/2026
 
-Nova línia proposada pel docent per ampliar el bagatge cultural a través de l’escolta. Tres universos diferenciats permeten reconèixer el tipus de relat i trobar adaptacions adequades per a edats diferents. Ja tenen un pilot cadascun: [S128, S129 i S130](pilots-tradicio.md), amb revisió independent superada i validació docent pendent. Els universos s’activen amb aquestes peces als filtres; no hi ha encara àudios nous.
+Nova línia proposada pel docent per ampliar el bagatge cultural a través de l’escolta. Tres universos diferenciats permeten reconèixer el tipus de relat i trobar adaptacions adequades per a edats diferents. Ja tenen un pilot cadascun: [S128, S129 i S130](pilots-tradicio.md), amb revisió independent superada i guions validats pel docent. Esperen completar un lot narrat abans de sintetitzar. Els universos s’activen amb aquestes peces als filtres; no hi ha encara àudios nous.
 
 | Univers proposat | Què hi trobaríem | Primera orientació de cursos | Objectius d’escolta |
 | --- | --- | --- | --- |

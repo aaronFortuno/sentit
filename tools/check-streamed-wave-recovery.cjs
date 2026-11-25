@@ -10,6 +10,9 @@ assert(waveParts(recoverStreamedWave(Buffer.concat([largerPrefix,rest])).audio).
 const shortPrefix=Buffer.alloc(prefix.length-1440);
 prefix.subarray(0,44).copy(shortPrefix);shortPrefix.writeUInt32LE(shortPrefix.length-8,4);shortPrefix.writeUInt32LE(480,40);first.subarray(0,480).copy(shortPrefix,44);prefix.subarray(44+1920).copy(shortPrefix,44+480);
 assert(waveParts(recoverStreamedWave(Buffer.concat([shortPrefix,rest])).audio).pcm.equals(Buffer.concat([first.subarray(0,480),rest])),'10 ms initial frame observed in L38 preserves every PCM sample');
+const thirtyPrefix=Buffer.alloc(prefix.length-480);
+prefix.subarray(0,44).copy(thirtyPrefix);thirtyPrefix.writeUInt32LE(thirtyPrefix.length-8,4);thirtyPrefix.writeUInt32LE(1440,40);first.subarray(0,1440).copy(thirtyPrefix,44);prefix.subarray(44+1920).copy(thirtyPrefix,44+1440);
+assert(waveParts(recoverStreamedWave(Buffer.concat([thirtyPrefix,rest])).audio).pcm.equals(Buffer.concat([first.subarray(0,1440),rest])),'30 ms initial frame observed in L40 preserves every PCM sample');
 assert(waveParts(recovered.audio).pcm.equals(Buffer.concat([first, rest])));
 assert.equal(recovered.report.seconds, (first.length + rest.length) / 48000);
 assert.throws(() => recoverStreamedWave(prefix), /No trailing/);

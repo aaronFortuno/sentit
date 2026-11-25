@@ -1,0 +1,10 @@
+'use strict';
+const assert=require('node:assert/strict'),{verifiedQuietCut}=require('./verified-quiet-cut.cjs'),{silenceCut}=require('./split-synthesis-batch.cjs');
+const b=Buffer.alloc(48044);b.write('RIFF');b.writeUInt32LE(b.length-8,4);b.write('WAVEfmt ',8);b.writeUInt32LE(16,16);b.writeUInt16LE(1,20);b.writeUInt16LE(1,22);b.writeUInt32LE(24000,24);b.writeUInt32LE(48000,28);b.writeUInt16LE(2,32);b.writeUInt16LE(16,34);b.write('data',36);b.writeUInt32LE(48000,40);
+const record={at:.4,windowStart:.35,windowEnd:.45,reason:'Measured quiet window between two aligned words'};
+assert.equal(verifiedQuietCut(b,record,.3,.5).at,.4);assert.equal(verifiedQuietCut(b,record,.3,.5).voiceSamplesRemoved,0);
+const audible=Buffer.from(b);audible.writeInt16LE(1000,44+Math.round(.4*24000)*2);assert.throws(()=>verifiedQuietCut(audible,record,.3,.5),/audible/);
+assert.throws(()=>verifiedQuietCut(b,record,.37,.5),/margins/);assert.throws(()=>verifiedQuietCut(b,{...record,windowEnd:.41},.3,.5),/margins/);assert.throws(()=>verifiedQuietCut(b,{...record,at:NaN},.3,.5),/margins/);
+const stereo=Buffer.from(b);stereo.writeUInt16LE(2,22);assert.throws(()=>verifiedQuietCut(stereo,record,.3,.5),/PCM/);
+assert.throws(()=>silenceCut(.3,.48,[{start:.34,end:.47}]),/silenci segur/,'Default margins remain strict; only an explicit measured exception can partition a short silence');
+console.log('PASS · Explicit quiet cuts require inaudible PCM and protected word margins; audible samples, short windows, invalid formats and default-margin bypass rejected.');

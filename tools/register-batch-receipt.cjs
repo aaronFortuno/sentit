@@ -12,6 +12,8 @@ async function main(){
  receipt.partialIntroductions=split.cuts.filter(c=>c.partialIntroduction).map(c=>({take:c.id,...c.partialIntroduction}));
  receipt.omittedSpeech=split.cuts.filter(c=>c.omittedSpeech?.length).map(c=>({take:c.id,parts:c.omittedSpeech}));
  if(attempt.waveRecovery)receipt.waveRecovery=attempt.waveRecovery;
+ if(split.verifiedQuietCuts?.length)receipt.coverageCheck.verifiedQuietCuts=split.verifiedQuietCuts;
+ if(split.verifiedQuietCuts?.length)receipt.verifiedQuietCuts=split.verifiedQuietCuts;
  if(attempt.recovery){const recovered=JSON.parse(await fs.readFile(path.join(folder,attempt.recovery),'utf8'));receipt.recovery={recoveredAt:recovered.recoveredAt,providerId:recovered.providerId,sourceExportSha256:recovered.sourceExportSha256,matchedSequence:recovered.matchedSequence,newRequests:0};}
  await fs.mkdir(path.join(root,'assets/audio/synthesis-batches'),{recursive:true});await fs.writeFile(path.join(root,`assets/audio/synthesis-batches/${id.toLowerCase()}.json`),JSON.stringify(receipt,null,2)+'\n');await fs.copyFile(path.join(folder,'request.json'),path.join(root,`assets/audio/synthesis-batches/${id.toLowerCase()}-request.json`));Object.assign(batch,{state:'received',receipt:`assets/audio/synthesis-batches/${id.toLowerCase()}.json`,completedAt:attempt.completedAt});await fs.writeFile(file,JSON.stringify(catalog,null,2)+'\n');
  const {activities}=await import('../catalogue.js'),{editorialFingerprint}=await import('../editorial-review.js'),{productionProgress}=await import('../content/production-progress.js'),index=JSON.parse(await fs.readFile(path.join(work,'mixed-batches/takes.json'),'utf8'));

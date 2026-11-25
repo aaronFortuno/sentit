@@ -117,7 +117,7 @@
     {
       "id": "P27",
       "title": "Explicacions amb Mireia i Laia",
-      "state": "awaiting-remaining-teacher-validation",
+      "state": "voices-received-in-L40",
       "speechTextFormat": "plain-v1",
       "styleFormat": "compact-v1",
       "codes": [
@@ -163,20 +163,20 @@
         "seconds": 373,
         "assumption": "170 spoken words/minute; title and body plus repairs, no artificial pauses. Final payload and actual duration may differ."
       },
-      "note": "Candidat editorial complet, sense autorització de síntesi. Validació docent de guions, veus i escaleta pendent. Congelar plans d’esmena i empremta exacta abans d’enviar. Un sol lot en curs, respectant els límits.",
+      "note": "Guions i esmenes rebuts a L40. Veus i comparacions disponibles, pendents d’audició docent. Cap muntatge automàtic.",
       "approvedScripts": [
         "S120",
+        "S121",
+        "S122",
         "S123"
       ],
-      "pendingScripts": [
-        "S121",
-        "S122"
-      ]
+      "pendingScripts": [],
+      "scheduledBatch": "L40"
     },
     {
       "id": "P28",
       "title": "Instruccions i entrevistes amb Biel i Elies",
-      "state": "awaiting-remaining-teacher-validation",
+      "state": "voices-received-in-L39",
       "speechTextFormat": "plain-v1",
       "styleFormat": "compact-v1",
       "codes": [
@@ -222,15 +222,15 @@
         "seconds": 412,
         "assumption": "170 spoken words/minute; title and body plus repairs, no artificial pauses. Final payload and actual duration may differ."
       },
-      "note": "Candidat editorial complet, sense autorització de síntesi. Validació docent de guions, veus i escaleta pendent. Congelar plans d’esmena i empremta exacta abans d’enviar. Un sol lot en curs, respectant els límits.",
+      "note": "Guions i esmenes rebuts a L39. Veus i comparacions disponibles, pendents d’audició docent. Cap muntatge automàtic.",
       "approvedScripts": [
+        "S124",
         "S125",
+        "S126",
         "S127"
       ],
-      "pendingScripts": [
-        "S124",
-        "S126"
-      ]
+      "pendingScripts": [],
+      "scheduledBatch": "L39"
     }
   ]
 }

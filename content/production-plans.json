@@ -2695,9 +2695,9 @@
     "approvalSource": "Docent 25/11: S115, S120 i S116 validats per síntesi."
   },
   "S121": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "361ab6c93e565ccf47ea2f6fd2b9325815b69dc6c763a01457c00ee2b81f0611",
+    "reviewedAt": "2026-11-25",
     "reviewActivity": "ca-S121",
     "reviewContent": "content/propostes/equilibri/explicacions.js",
     "format": "3r intermèdia. Seguir el mateix objecte en dos moments i relacionar la posició aparent del Sol amb la direcció de la llum. Sis preguntes sense plànol ni orientacions cardinals.",
@@ -2712,12 +2712,13 @@
       "Laia": "Leda"
     },
     "strategy": "plain-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 25/11: tots els guions validats; preparar i enviar els lots compatibles seqüencialment."
   },
   "S122": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "9461d809d65aa13522bd70ad70d0e059d0f6a0106904f5fa0ce42ab320d69d89",
+    "reviewedAt": "2026-11-25",
     "reviewActivity": "ca-S122",
     "reviewContent": "content/propostes/equilibri/explicacions.js",
     "format": "4t intermèdia. Relació entre aïllament i transferència de calor, sense exigir saber el mot tècnic. Sis preguntes amb condició inicial i control d’una comparació.",
@@ -2732,7 +2733,8 @@
       "Laia": "Leda"
     },
     "strategy": "plain-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 25/11: tots els guions validats; preparar i enviar els lots compatibles seqüencialment."
   },
   "S123": {
     "status": "approved",
@@ -2756,9 +2758,9 @@
     "approvalSource": "Docent 25/11: S123 també puja a síntesi."
   },
   "S124": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "0650b9840424ca28f5c801c4d2b44a34cd027cd3f580eda1173076a650482ed2",
+    "reviewedAt": "2026-11-25",
     "reviewActivity": "ca-S124",
     "reviewContent": "content/propostes/equilibri/taller.js",
     "format": "3r avançada. Instruccions amb ordre i una condició: identificar l’estoig correcte abans de posar-hi la targeta. Sis preguntes amb referents concrets i sense haver de veure els objectes.",
@@ -2773,7 +2775,8 @@
       "Elies": "Algieba"
     },
     "strategy": "plain-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 25/11: tots els guions validats; preparar i enviar els lots compatibles seqüencialment."
   },
   "S125": {
     "status": "approved",
@@ -2797,9 +2800,9 @@
     "approvalSource": "Docent 25/11: S125 queda validat amb «Per tocar» i «Gastades» com a rètols literals. Ajust aplicat i revalidat independentment."
   },
   "S126": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "16e3969d6b48b60ad9c1db41ca45518070fe8cfeef3b37f7e952e07e588fb6fe",
+    "reviewedAt": "2026-11-25",
     "reviewActivity": "ca-S126",
     "reviewContent": "content/propostes/equilibri/taller.js",
     "format": "5è accessible. Entrevista clara de preguntes i respostes, amb un sol cas de guitarra i tres moments: informació inicial, prova al taller i comprovació amb qui la toca. Sis preguntes sense tècnica instrumental prèvia.",
@@ -2814,7 +2817,8 @@
       "Elies": "Algieba"
     },
     "strategy": "plain-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 25/11: tots els guions validats; preparar i enviar els lots compatibles seqüencialment."
   },
   "S127": {
     "status": "approved",
@@ -2838,9 +2842,9 @@
     "approvalSource": "Docent 25/11: S116 i S127 també pugen a síntesi de veus."
   },
   "S128": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "d016336fca320cde430f5b1308139bc740f10dd32c0ca16ea7d871b23382ad6f",
+    "reviewedAt": "2026-11-25",
     "reviewActivity": "ca-S128",
     "reviewContent": "content/propostes/tradicio/index.js",
     "format": "Pilot Faules del món. 3r accessible: dos personatges, una sola veu i dos moments ben marcats. Cinc preguntes obertes/ABCD sobre accions, causes i canvi de situació. La moral es deixa inferir, sense afegir una sentència final.",
@@ -2854,12 +2858,18 @@
       "Narrador": "Algenib"
     },
     "strategy": "plain-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 25/11: tots els guions validats; preparar i enviar els lots compatibles seqüencialment.",
+    "voiceSelection": {
+      "speaker": "Narrador",
+      "voice": "Algenib",
+      "reason": "Candidat de treball dins la flexibilitat autoritzada pel docent; complement de Ferran, sense canviar la identitat del narrador anònim."
+    }
   },
   "S129": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "2cce28b2ba4cf6c77487b0b30694c33b3b6eba6b34de50a89291557227b27aaa",
+    "reviewedAt": "2026-11-25",
     "reviewActivity": "ca-S129",
     "reviewContent": "content/propostes/tradicio/index.js",
     "format": "Pilot Llegendes d’aquí i d’arreu. 4t intermèdia: causalitat, sorteig i transformació meravellosa. Sis preguntes duals resolubles només escoltant aquesta versió. Violència breu, sense descripció gràfica.",
@@ -2873,12 +2883,18 @@
       "Narrador": "Algenib"
     },
     "strategy": "plain-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 25/11: tots els guions validats; preparar i enviar els lots compatibles seqüencialment.",
+    "voiceSelection": {
+      "speaker": "Narrador",
+      "voice": "Algenib",
+      "reason": "Candidat de treball dins la flexibilitat autoritzada pel docent; complement de Ferran, sense canviar la identitat del narrador anònim."
+    }
   },
   "S130": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "455d1dc57f7c9243e431a295653b1f16ee1e9f1f74a5a9d5a2f248d51cd6ab0a",
+    "reviewedAt": "2026-11-25",
     "reviewActivity": "ca-S130",
     "reviewContent": "content/propostes/tradicio/index.js",
     "format": "Pilot Mites de l’antiguitat. 5è intermèdia, pendent de calibratge oral: tres protagonistes centrals i una seqüència de preparació, entrada i retorn. Set preguntes duals sobre objectiu, procediment i contribució dels personatges. Sense coneixement previ del mite.",
@@ -2892,6 +2908,12 @@
       "Narrador": "Algenib"
     },
     "strategy": "plain-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 25/11: tots els guions validats; preparar i enviar els lots compatibles seqüencialment.",
+    "voiceSelection": {
+      "speaker": "Narrador",
+      "voice": "Algenib",
+      "reason": "Candidat de treball dins la flexibilitat autoritzada pel docent; complement de Ferran, sense canviar la identitat del narrador anònim."
+    }
   }
 }

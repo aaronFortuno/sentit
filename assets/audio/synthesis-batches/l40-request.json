@@ -1,0 +1,492 @@
+{
+  "model": "gemini-3.8-flash-tts",
+  "input": [
+    {
+      "type": "user_input",
+      "content": [
+        {
+          "type": "text",
+          "text": "Comprensió oral. Com s’enganxa el velcro?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants. Mireia adulta propera, Aoede estable; Laia jove, Leda estable. Conversa de petit grup amb preguntes reals, dubtes i reaccions breus. L’explicació causal és el centre; cap tercera veu, moralina ni llenguatge de reunió. Dicció natural i clara, sense llegir les acotacions. Read the title and complete programme verbatim. Leave a brief quiet boundary after the title, without speaking any stage directions or pause instructions. No added sounds, music, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the same two character voices throughout all recordings. Instructions are not spoken."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Mireia, mira aquesta tira de la bossa. La premo i queda tancada. Quan l’estiro fa aquell soroll... Com s’enganxa, si no hi he posat cola?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants. Mireia adulta propera, Aoede estable; Laia jove, Leda estable. Conversa de petit grup amb preguntes reals, dubtes i reaccions breus. L’explicació causal és el centre; cap tercera veu, moralina ni llenguatge de reunió. Dicció natural i clara, sense llegir les acotacions. Read the title and complete programme verbatim. Leave a brief quiet boundary after the title, without speaking any stage directions or pause instructions. No added sounds, music, words or vocalizations."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Acosta’m aquesta mostra que tenim a la taula. Toca’n les dues cares amb el dit. Una és aspra i l’altra és més suau, com si tingués una pila de fils petits.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí, aquesta rasca. I l’altra sembla una roba molt peluda. A simple vista gairebé no distingeixo què hi ha a la que rasca.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Hi té uns ganxets molt petits. A la cara suau, els fils formen uns bucles, unes voltetes. Quan premem una cara contra l’altra, els ganxets agafen aquests bucles.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ah! Com quan una branca petita se m’enganxa al jersei. Si ajunto dues cares de la part suau també es tancarà?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Prova-ho amb aquestes dues mostres. La unió que volem necessita la cara dels ganxets i la dels bucles. En prémer-les, molts ganxets troben fils on quedar agafats alhora.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "I per obrir-la només he d’anar estirant una tira de l’altra, així?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí. En separar-les, els ganxets es van desagafant dels bucles. Per això la pots tornar a tancar després. Els fils continuen a la seva tira.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ara ho entenc. Vaig a tancar la bossa, que abans l’he deixada mig oberta i ja em surt el mocador per un costat.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. L’ombra s’ha mogut.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice, pace and character. Read the words verbatim, with conversational turn-taking. No added sounds. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the same two character voices throughout all recordings. Instructions are not spoken."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Mireia, abans de sortir a esmorzar he fet una marca on s’acabava l’ombra d’aquest pal. Ara l’ombra queda al costat. Algú ha mogut el pal?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice, pace and character. Read the words verbatim, with conversational turn-taking. No added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "És al mateix lloc. Està ben fixat a terra. Mira: fa una estona la llum li arribava des d’una direcció i ara li arriba des d’una altra. Per això l’ombra ha canviat de lloc.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Però el Sol encara és al cel. Jo des d’aquí no noto que ens movem.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "La Terra va girant sobre si mateixa i nosaltres girem amb ella. Al llarg del dia veiem el Sol en posicions diferents. Això canvia des d’on ens arriba la seva llum, encara que el pal continuï quiet.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Com quan movem una llanterna al voltant d’una joguina? L’ombra de la joguina també canvia de banda.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Aquesta comparació ens ajuda. Amb la llanterna movem nosaltres la llum. Al pati, el canvi que veiem durant el dia té a veure amb el gir de la Terra. L’ombra es forma a la banda on el pal tapa la llum.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "I sempre serà igual de llarga? La primera marca em queda força lluny.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "També pot canviar de llargada. Quan el Sol és baix, aquest pal fa una ombra més llarga. Amb el Sol més alt, la fa més curta. Després de dinar podem mirar on acaba.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Faré la marca nova amb una altra forma. Si les faig totes iguals, després em costarà recordar quina he fet primer.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. Com conserva el fred una bossa tèrmica?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice, pace and character. Read the words verbatim, with conversational turn-taking. No added sounds. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the same two character voices throughout all recordings. Instructions are not spoken."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Mireia, aquestes dues ampolles eren fredes quan les hem tret de la nevera. La que ha quedat a la taula ja és més tèbia. La de dins de la bossa encara és fresca.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice, pace and character. Read the words verbatim, with conversational turn-taking. No added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Aquesta és una bossa tèrmica. Té una capa de material que dificulta el pas de la calor. Com que a fora fa més calor que a dins, aquesta capa fa que l’ampolla s’escalfi més a poc a poc.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Però no té cap endoll. Si hi poso una ampolla que ha estat a l’habitació, es tornarà freda com a la nevera?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "La bossa tota sola no produeix fred. L’ampolla que hi has deixat ja era freda quan l’hi has posada. La bossa retarda el canvi de temperatura. Si hi afegim un acumulador congelat, també hi posem una cosa freda que ajuda a mantenir fresc l’interior.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ah, per això per a la sortida hi posem aquella peça blava del congelador. I si vaig obrint la bossa tota l’estona?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Cada vegada que l’obres, es barreja l’aire de dins amb el de fora. Mantenir-la tancada ajuda a conservar-ne la temperatura. Amb el temps, el que hi ha a dins també es va escalfant.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Demà podem deixar una ampolla a cada lloc i mirar què passa al cap d’una estona?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí. Posem la mateixa quantitat d’aigua en dues ampolles iguals, igual de fredes al començament. Una dins de la bossa i l’altra a fora, al costat, totes dues a l’ombra. Així compararem l’efecte de la bossa.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "D’acord. Ara tanco aquesta, que l’he deixada oberta mentre en parlàvem.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. Per què ressona una sala buida?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice, pace and character. Read the words verbatim, with conversational turn-taking. No added sounds. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the same two character voices throughout all recordings. Instructions are not spoken."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Mireia, has sentit com ha sonat el meu hola? Ja he callat i encara semblava que la veu quedés una mica per aquí dins.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice, pace and character. Read the words verbatim, with conversational turn-taking. No added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Aquesta sala encara és molt buida. El so arriba a les parets i al sostre, i una part rebota i ens torna. Ens arriba per camins diferents, molt seguits, i sentim aquesta cua.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Per això sento la veu com més llarga? Jo al principi pensava que algú m’havia contestat des del passadís.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí. Aquesta prolongació del so es diu reverberació. En una sala buida, amb moltes superfícies dures, pot ser més evident. El so va perdent força mentre es reflecteix i els materials n’absorbeixen una part.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "I quan hi posin les cortines grosses que tenen enrotllades allà, es notarà menys?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Pot ajudar. Els teixits gruixuts absorbeixen una part del so i en torna menys cap a nosaltres. També hi influeixen la mida de la sala i els altres materials que hi ha. Ho haurem d’escoltar quan estigui preparada.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Quan ens asseiem tots al voltant del micro per gravar, també sona menys buida l’aula. La roba que portem hi ajuda?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí, les persones i la roba també absorbeixen una part del so. Aquí podem enregistrar una frase avui i repetir-la quan hi hagi les cortines. Per comparar-la, mantindrem una veu i una posició semblants.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Va, la gravo ara. Em posaré en aquesta rajola del costat de la porta, així després trobaré el mateix lloc.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Exacte. L’equip de coordinació confirmarà la sortida de tot el conjunt. Ningú no s’avançarà amb cap caixa.\n\nA cada parada anotaran si falta alguna peça o està malmesa. El registre viatjarà amb les caixes perquè a la parada següent ja coneguin les incidències. Vinga, comencem a escriure i, quan acabeu, Laia, ja podreu pintar, d’acord?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan. Keep the same warm adult teacher Mireia/Aoede voice throughout, dry clear close speech. Read every supplied word once. No added sounds, breaths, crackle, stage directions or title. These two consecutive paragraphs belong to one continuous intervention. Maintain exactly the same mature female voice, natural pitch, clarity and recording quality through both paragraphs. No pause label, breath sounds or change of speaker between them. This is a separate repair paragraph with no title. Keep the same character voice as in the complete recordings. Read every supplied word once, including the first sentence. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Quan hagis parlat amb ella, ens expliques què t’ha dit. Va, ara escoltem el grup de les endevinalles.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan. Keep the same warm adult teacher Mireia/Aoede voice throughout, dry clear close speech. Read every supplied word once. No added sounds, breaths, crackle, stage directions or title. Clearly pronounce the canonical Catalan word hagis in Quan hagis parlat, never hagues or hagas. Keep the same adult female Mireia voice and natural rhythm. Read the full turn and do not read these instructions. This is a separate repair paragraph with no title. Keep the same character voice as in the complete recordings. Read every supplied word once, including the first sentence. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition.",
+              "speaker": "Voice1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "response_format": {
+    "type": "audio",
+    "mime_type": "audio/wav",
+    "sample_rate": 24000
+  },
+  "generation_config": {
+    "speech_config": {
+      "speakers": [
+        {
+          "speaker": "Voice1",
+          "voice": "Aoede"
+        },
+        {
+          "speaker": "Voice2",
+          "voice": "Leda"
+        }
+      ]
+    }
+  },
+  "background": true
+}

@@ -1,5 +1,6 @@
 export const strings = {
   ca: {
+    releaseL39L40Voices: "Guions pendents validats. L39 i L40 rebuts: veus de S120–S127 i cinc comparacions d’esmena de S081, S107, S017 i S041. Dos paràgrafs de S017 en una sola presa contínua. Sense muntatge ni substitució automàtica; pilots S128–S130 esperen un lot més complet.",
     releaseL38Voices: "Veus rebudes de S112–S119 en un únic lot amb Erinome, més les esmenes S085/comiat, S093/confirmar i S102/final. Reproductors i comparacions disponibles; tot pendent d’audició, sense muntatge automàtic. Recuperació local del contenidor i metadades, sense repetir la petició ni alterar el ritme.",
     releaseMoreScriptApprovals: "Guions S112–S120, S123, S125 i S127 validats per a síntesi. S116 conserva la validació anterior. Seguiment dels lots amb esmenes pendents incloses, durada disponible i validacions que falten. L38 preparat amb vuit notícies i tres esmenes de la Mar, una sola veu i uns 6:08 estimats.",
     releaseTraditionPilots: "Tres pilots de faules, llegendes i mites: S128–S130, amb fonts, escaleta, context i 18 preguntes obertes/ABCD revisades independentment. Narrador flexible per completar lots. Set guions de la tanda anterior validats per a síntesi; encara sense peticions noves.",
@@ -335,6 +336,7 @@ export const strings = {
     sessionEnded: 'Sessió acabada', remainingTime: 'Temps restant',
   },
   es: {
+    releaseL39L40Voices: "Guiones pendientes validados. L39 y L40 recibidos: voces de S120–S127 y cinco comparaciones de correcciones de S081, S107, S017 y S041. Dos párrafos de S017 en una sola toma continua. Sin montaje ni sustitución automática; los pilotos S128–S130 esperan un lote más completo.",
     releaseL38Voices: "Voces recibidas de S112–S119 en un único lote con Erinome, más las correcciones S085/comiat, S093/confirmar y S102/final. Reproductores y comparaciones disponibles; todo pendiente de audición, sin montaje automático. Recuperación local del contenedor y metadatos, sin repetir la petición ni alterar el ritmo.",
     releaseMoreScriptApprovals: "Guiones S112–S120, S123, S125 y S127 validados para síntesis. S116 conserva la validación anterior. Seguimiento de lotes con correcciones pendientes, duración disponible y validaciones que faltan. L38 preparado con ocho noticias y tres correcciones de Mar, una sola voz y unos 6:08 estimados.",
     releaseTraditionPilots: "Tres pilotos de fábulas, leyendas y mitos: S128–S130, con fuentes, escaleta, contexto y 18 preguntas abiertas/ABCD revisadas de forma independiente. Narrador flexible para completar lotes. Siete guiones de la tanda anterior validados para síntesis; todavía sin peticiones nuevas.",

@@ -10,10 +10,10 @@ La taula conté només feina oberta. Una peça en surt quan té publicació defi
 | --- | ---: | --- |
 | Escoltar el muntatge | 0 | Cap |
 | Resoldre esmenes de veu i tornar a escoltar | 16 | [ca-S005](https://sentit.ortogra.fi/#lectura=ca-S005), [ca-S010](https://sentit.ortogra.fi/#lectura=ca-S010), [ca-S011](https://sentit.ortogra.fi/#lectura=ca-S011), [ca-S015](https://sentit.ortogra.fi/#lectura=ca-S015), [ca-S017](https://sentit.ortogra.fi/#lectura=ca-S017), [ca-S041](https://sentit.ortogra.fi/#lectura=ca-S041), [ca-S070](https://sentit.ortogra.fi/#lectura=ca-S070), [ca-S081](https://sentit.ortogra.fi/#lectura=ca-S081), [ca-S085](https://sentit.ortogra.fi/#lectura=ca-S085), [ca-S088](https://sentit.ortogra.fi/#lectura=ca-S088), [ca-S090](https://sentit.ortogra.fi/#lectura=ca-S090), [ca-S093](https://sentit.ortogra.fi/#lectura=ca-S093), [ca-S095](https://sentit.ortogra.fi/#lectura=ca-S095), [ca-S102](https://sentit.ortogra.fi/#lectura=ca-S102), [ca-S107](https://sentit.ortogra.fi/#lectura=ca-S107), [ca-S109](https://sentit.ortogra.fi/#lectura=ca-S109) |
-| Produir les veus, amb guió validat | 4 | [ca-S120](https://sentit.ortogra.fi/#lectura=ca-S120), [ca-S123](https://sentit.ortogra.fi/#lectura=ca-S123), [ca-S125](https://sentit.ortogra.fi/#lectura=ca-S125), [ca-S127](https://sentit.ortogra.fi/#lectura=ca-S127) |
-| Escoltar i validar les veus abans de muntar | 8 | [ca-S112](https://sentit.ortogra.fi/#lectura=ca-S112), [ca-S113](https://sentit.ortogra.fi/#lectura=ca-S113), [ca-S114](https://sentit.ortogra.fi/#lectura=ca-S114), [ca-S115](https://sentit.ortogra.fi/#lectura=ca-S115), [ca-S116](https://sentit.ortogra.fi/#lectura=ca-S116), [ca-S117](https://sentit.ortogra.fi/#lectura=ca-S117), [ca-S118](https://sentit.ortogra.fi/#lectura=ca-S118), [ca-S119](https://sentit.ortogra.fi/#lectura=ca-S119) |
+| Produir les veus, amb guió validat | 3 | [ca-S128](https://sentit.ortogra.fi/#lectura=ca-S128), [ca-S129](https://sentit.ortogra.fi/#lectura=ca-S129), [ca-S130](https://sentit.ortogra.fi/#lectura=ca-S130) |
+| Escoltar i validar les veus abans de muntar | 16 | [ca-S112](https://sentit.ortogra.fi/#lectura=ca-S112), [ca-S113](https://sentit.ortogra.fi/#lectura=ca-S113), [ca-S114](https://sentit.ortogra.fi/#lectura=ca-S114), [ca-S115](https://sentit.ortogra.fi/#lectura=ca-S115), [ca-S116](https://sentit.ortogra.fi/#lectura=ca-S116), [ca-S117](https://sentit.ortogra.fi/#lectura=ca-S117), [ca-S118](https://sentit.ortogra.fi/#lectura=ca-S118), [ca-S119](https://sentit.ortogra.fi/#lectura=ca-S119), [ca-S120](https://sentit.ortogra.fi/#lectura=ca-S120), [ca-S121](https://sentit.ortogra.fi/#lectura=ca-S121), [ca-S122](https://sentit.ortogra.fi/#lectura=ca-S122), [ca-S123](https://sentit.ortogra.fi/#lectura=ca-S123), [ca-S124](https://sentit.ortogra.fi/#lectura=ca-S124), [ca-S125](https://sentit.ortogra.fi/#lectura=ca-S125), [ca-S126](https://sentit.ortogra.fi/#lectura=ca-S126), [ca-S127](https://sentit.ortogra.fi/#lectura=ca-S127) |
 | Muntar les veus rebudes | 0 | Cap |
-| Revisió editorial o validació inicial pendent | 9 | [ca-S001](https://sentit.ortogra.fi/#lectura=ca-S001), [ca-S002](https://sentit.ortogra.fi/#lectura=ca-S002), [ca-S121](https://sentit.ortogra.fi/#lectura=ca-S121), [ca-S122](https://sentit.ortogra.fi/#lectura=ca-S122), [ca-S124](https://sentit.ortogra.fi/#lectura=ca-S124), [ca-S126](https://sentit.ortogra.fi/#lectura=ca-S126), [ca-S128](https://sentit.ortogra.fi/#lectura=ca-S128), [ca-S129](https://sentit.ortogra.fi/#lectura=ca-S129), [ca-S130](https://sentit.ortogra.fi/#lectura=ca-S130) |
+| Revisió editorial o validació inicial pendent | 2 | [ca-S001](https://sentit.ortogra.fi/#lectura=ca-S001), [ca-S002](https://sentit.ortogra.fi/#lectura=ca-S002) |
 
 ## Taula de pendents
 
@@ -47,17 +47,17 @@ La taula conté només feina oberta. Una peça en surt quan té publicació defi
 | [ca-S117](https://sentit.ortogra.fi/#lectura=ca-S117) | Els patinets estrenen aparcament | 4t | Intermèdia · Notícia | Prevista 0:45–1:00 | 5 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
 | [ca-S118](https://sentit.ortogra.fi/#lectura=ca-S118) | La capsa de fotografies arriba a l’arxiu | 4t | Intermèdia · Notícia | Prevista 0:45–1:05 | 5 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
 | [ca-S119](https://sentit.ortogra.fi/#lectura=ca-S119) | El concert busca un altre espai | 4t | Avançada · Notícia | Prevista 0:45–1:00 | 5 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
-| [ca-S120](https://sentit.ortogra.fi/#lectura=ca-S120) | Com s’enganxa el velcro? | 3r | Accessible · Explicació | Prevista 1:30–1:55 | 6 | ✅ | ✅ | ✅ | **⏳ Síntesi** | — | — | — |
-| [ca-S121](https://sentit.ortogra.fi/#lectura=ca-S121) | L’ombra s’ha mogut | 3r | Intermèdia · Explicació | Prevista 1:40–2:05 | 6 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
-| [ca-S122](https://sentit.ortogra.fi/#lectura=ca-S122) | Com conserva el fred una bossa tèrmica? | 4t | Intermèdia · Explicació | Prevista 1:40–2:05 | 6 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
-| [ca-S123](https://sentit.ortogra.fi/#lectura=ca-S123) | Per què ressona una sala buida? | 4t | Avançada · Explicació | Prevista 1:35–2:00 | 6 | ✅ | ✅ | ✅ | **⏳ Síntesi** | — | — | — |
-| [ca-S124](https://sentit.ortogra.fi/#lectura=ca-S124) | Posem nom als estoigs | 3r | Avançada · Instruccions | Prevista 1:20–1:45 | 6 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
-| [ca-S125](https://sentit.ortogra.fi/#lectura=ca-S125) | Una capseta per a les pues | 4t | Intermèdia · Instruccions | Prevista 1:25–1:50 | 6 | ✅ | ✅ | ✅ | **⏳ Síntesi** | — | — | — |
-| [ca-S126](https://sentit.ortogra.fi/#lectura=ca-S126) | Com es prova un instrument reparat? | 5è | Accessible · Entrevista | Prevista 1:55–2:20 | 6 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
-| [ca-S127](https://sentit.ortogra.fi/#lectura=ca-S127) | Quan val la pena reparar un instrument? | 5è | Intermèdia · Entrevista | Prevista 2:10–2:35 | 6 | ✅ | ✅ | ✅ | **⏳ Síntesi** | — | — | — |
-| [ca-S128](https://sentit.ortogra.fi/#lectura=ca-S128) | El lleó i el ratolí | 3r | Accessible · Narració | Prevista 1:20–1:40 | 5 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
-| [ca-S129](https://sentit.ortogra.fi/#lectura=ca-S129) | Sant Jordi i la rosa | 4t | Intermèdia · Narració | Prevista 1:35–2:00 | 6 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
-| [ca-S130](https://sentit.ortogra.fi/#lectura=ca-S130) | El fil d’Ariadna | 5è | Intermèdia · Narració | Prevista 1:55–2:20 | 7 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S120](https://sentit.ortogra.fi/#lectura=ca-S120) | Com s’enganxa el velcro? | 3r | Accessible · Explicació | Prevista 1:30–1:55 | 6 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
+| [ca-S121](https://sentit.ortogra.fi/#lectura=ca-S121) | L’ombra s’ha mogut | 3r | Intermèdia · Explicació | Prevista 1:40–2:05 | 6 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
+| [ca-S122](https://sentit.ortogra.fi/#lectura=ca-S122) | Com conserva el fred una bossa tèrmica? | 4t | Intermèdia · Explicació | Prevista 1:40–2:05 | 6 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
+| [ca-S123](https://sentit.ortogra.fi/#lectura=ca-S123) | Per què ressona una sala buida? | 4t | Avançada · Explicació | Prevista 1:35–2:00 | 6 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
+| [ca-S124](https://sentit.ortogra.fi/#lectura=ca-S124) | Posem nom als estoigs | 3r | Avançada · Instruccions | Prevista 1:20–1:45 | 6 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
+| [ca-S125](https://sentit.ortogra.fi/#lectura=ca-S125) | Una capseta per a les pues | 4t | Intermèdia · Instruccions | Prevista 1:25–1:50 | 6 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
+| [ca-S126](https://sentit.ortogra.fi/#lectura=ca-S126) | Com es prova un instrument reparat? | 5è | Accessible · Entrevista | Prevista 1:55–2:20 | 6 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
+| [ca-S127](https://sentit.ortogra.fi/#lectura=ca-S127) | Quan val la pena reparar un instrument? | 5è | Intermèdia · Entrevista | Prevista 2:10–2:35 | 6 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
+| [ca-S128](https://sentit.ortogra.fi/#lectura=ca-S128) | El lleó i el ratolí | 3r | Accessible · Narració | Prevista 1:20–1:40 | 5 | ✅ | ✅ | ✅ | **⏳ Síntesi** | — | — | — |
+| [ca-S129](https://sentit.ortogra.fi/#lectura=ca-S129) | Sant Jordi i la rosa | 4t | Intermèdia · Narració | Prevista 1:35–2:00 | 6 | ✅ | ✅ | ✅ | **⏳ Síntesi** | — | — | — |
+| [ca-S130](https://sentit.ortogra.fi/#lectura=ca-S130) | El fil d’Ariadna | 5è | Intermèdia · Narració | Prevista 1:55–2:20 | 7 | ✅ | ✅ | ✅ | **⏳ Síntesi** | — | — | — |
 
 ## Esmenes obertes
 

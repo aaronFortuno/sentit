@@ -9,7 +9,15 @@ function repairSpec(entry){return entry.code==='S015'?require('./interview-produ
 function repairRequest(entry,plan){
  if(plan.activity!==`${entry.language}-${entry.code}`||plan.repairs.length<1)throw Error('Pla de correcció desconegut.');
  const turns=plan.repairs.map((repair,index)=>{
-  const part=repair.part==='introduction'&&plan.scope==='missing-title'?{speaker:repairSpec(entry).titleSpeaker,text:entry.introduction}:entry.transcript.find(part=>part.id===repair.part);
+  let part=repair.part==='introduction'&&plan.scope==='missing-title'?{speaker:repairSpec(entry).titleSpeaker,text:entry.introduction}:entry.transcript.find(part=>part.id===repair.part);
+  if(repair.sourceParts){
+   const ids=repair.sourceParts,spoken=entry.transcript.filter(part=>part.speaker),start=spoken.findIndex(part=>part.id===ids[0]);
+   if(!Array.isArray(ids)||ids.length<2||new Set(ids).size!==ids.length||repair.part!==ids[0]||start<0)throw Error('Grup de correcció no vàlid.');
+   const consecutive=spoken.slice(start,start+ids.length);
+   if(consecutive.length!==ids.length||consecutive.some((part,i)=>part.id!==ids[i]||part.speaker!==repair.speaker))throw Error('La correcció agrupada requereix torns consecutius de la mateixa veu.');
+   part={speaker:repair.speaker,text:consecutive.map(part=>part.text).join('\n\n')};
+   if(part.text!==repair.text)throw Error('El text complet de la correcció agrupada ha canviat.');
+  }
   if(!part||part.speaker!==repair.speaker||part.text.split(repair.text).length!==2)throw Error('El text de la correcció ha canviat: cal revisar-lo.');
   if(plan.voices[part.speaker]!==repairSpec(entry).voices[part.speaker])throw Error('La veu de la correcció no coincideix.');
   return {speaker:part.speaker,text:repair.text+(index<plan.repairs.length-1?' <long pause>':'')};

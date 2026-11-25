@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.116 · 25 de novembre de 2026
+
+- Guions S121, S122, S124, S126 i pilots S128–S130 validats pel docent. Els pilots conserven el narrador anònim i la flexibilitat de timbre autoritzada; esperen una agrupació útil de sis a vuit minuts.
+- L39: S124–S127 i tres esmenes d’Elies (S081/telefon, S081/final i S107/sortida). L40: S120–S123, els dos paràgrafs finals de S017 junts i S041/finalreunio. Una petició per lot; vuit reproductors i cinc comparacions pendents d’audició. Cap muntatge o substitució automàtica.
+- Correccions consecutives només si són torns adjacents de la mateixa veu, amb text i origen exactes. Recuperació del prefix PCM de 30 ms observat a L40; mostres de veu conservades i metadades apartades. Una frontera curta de L39 documentada sobre una finestra PCM de 100 ms per sota de −60 dBFS, sense retallar parla.
+
 ## 0.1.115 · 25 de novembre de 2026
 
 - Veus rebudes de S112–S119 en un únic lot amb Erinome, més les esmenes S085/comiat, S093/confirmar i S102/final. Reproductors i comparacions disponibles; tot pendent d’audició, sense muntatge automàtic. Recuperació local del contenidor i metadades, sense repetir la petició ni alterar el ritme.

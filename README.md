@@ -4,9 +4,9 @@ Banc de comprensió oral d’ortogra.fi. El docent tria una activitat, prepara l
 
 **Doble format a tot el catàleg:** 138 peces, 1.001 preguntes: 997 alternatives ABCD i 4 obertes justificades. El format general i les excepcions es desen entre sessions i col·leccions. [Cobertura](docs/preguntes-abcd-seguiment.md) · [Criteris](docs/preguntes-abcd.md). El pilot conserva l’aprovació docent; la resta d’alternatives continua pendent del seu vistiplau.
 
-**Nova tanda per validar:** [S112–S127](docs/pla-equilibri-2026-11-25.md), setze guions per reforçar notícies curtes de 3r–4t, explicacions, instruccions i entrevistes. Inclouen 88 preguntes duals, context i escaleta amb revisió independent. Tres candidats compatibles amb esmenes; L38 rebut: les vuit notícies S112–S119 i tres esmenes de la Mar ja es poden escoltar. Pendents d’audició, sense muntatge automàtic.
+**Tanda d’equilibri:** [S112–S127](docs/pla-equilibri-2026-11-25.md), setze guions per reforçar notícies curtes de 3r–4t, explicacions, instruccions i entrevistes. Inclouen 88 preguntes duals, context i escaleta amb revisió independent. Tots tenen el guió validat i les veus rebudes a L38–L40. Reproductors i comparacions d’esmena disponibles, pendents d’audició abans de muntar. [Detall de L39 i L40](docs/lots-l39-l40.md).
 
-**Pilots de tradició per validar:** [S128–S130](docs/pilots-tradicio.md), una faula de 3r, una llegenda de 4t i un mite grec de 5è. Fonts i decisions d’adaptació explícites, 18 preguntes duals i revisió adversària superada. Narrador amb timbre flexible per completar lots. S112, S113, S114, S115, S116, S117, S118, S119, S120, S123, S125 i S127 ja tenen el guió validat per a síntesi.
+**Pilots de tradició amb guió validat:** [S128–S130](docs/pilots-tradicio.md), una faula de 3r, una llegenda de 4t i un mite grec de 5è. Fonts i decisions d’adaptació explícites, 18 preguntes duals i revisió adversària superada. Narrador amb timbre flexible; esperen completar un lot útil de sis a vuit minuts amb les esmenes pendents.
 
 [Pla actual d’esmenes de veu](docs/pla-esmenes-veu.md): preses pendents, fragments ja rebuts i blocs per completar amb guions compatibles. S022/S025/S059/S061/S071 i S058 ja són definitives.
 

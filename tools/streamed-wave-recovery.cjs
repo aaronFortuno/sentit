@@ -16,9 +16,9 @@ function recoverStreamedWave(bytes) {
   if (chunks.map(chunk => chunk.tag).join(',') !== 'fmt ,data,C2PA') throw Error('Unknown prefix layout: no automatic recovery');
   const [fmt, first] = chunks.map(chunk => chunk.data), rest = bytes.subarray(end);
   if (fmt.length !== 16 || fmt.readUInt16LE(0) !== 1 || fmt.readUInt16LE(2) !== 1 || fmt.readUInt16LE(14) !== 16 || fmt.readUInt16LE(12) !== 2 || fmt.readUInt32LE(4) !== 24000 || fmt.readUInt32LE(8) !== 48000 || first.length % 2 || rest.length % 2) throw Error('Unsupported PCM format');
-  // Observed provider prefixes: 10 ms (L38), 40 ms or 80 ms of initial PCM.
+  // Observed provider prefixes: 10 ms (L38), 30 ms (L40), 40 ms or 80 ms of initial PCM.
   // Accept only those observed layouts; all other format checks stay strict.
-  if (![480,1920,3840].includes(first.length)) throw Error('Unexpected first streaming frame');
+  if (![480,1440,1920,3840].includes(first.length)) throw Error('Unexpected first streaming frame');
   const pieces=[first],tags=[];let cursor=end,scan=end;
   while((scan=bytes.indexOf('ID3',scan))!==-1){
     const at=scan;scan+=3;

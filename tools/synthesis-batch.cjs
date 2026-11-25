@@ -58,7 +58,7 @@ async function buildBatch(activities,plans,repairs,batch){
    if(guestPolicy&&(repair.speaker!==guestPolicy.speaker||correction.voices[repair.speaker]!==guestPolicy.voice))throw Error('L’esmena ha de conservar el recurrent de referència.');
    if(correction.sourceTakeId){
     const index=await readJSON(path.join(work,'mixed-batches/takes.json'),{}),source=index[correction.sourceTakeId];
-    if(!source||source.code!==ref.code||!source.parts?.includes(repair.part)||source.batchRequestHash!==correction.sourceRequestHash||source.rawBatchSha256!==correction.sourceRawSha256||source.sha256!==correction.sourceTakeSha256||sha(await fs.readFile(source.file))!==correction.sourceTakeSha256)throw Error('Presa de veu original de l’esmena canviada.');
+    if(!source||source.code!==ref.code||!(repair.sourceParts??[repair.part]).every(part=>source.parts?.includes(part))||source.batchRequestHash!==correction.sourceRequestHash||source.rawBatchSha256!==correction.sourceRawSha256||source.sha256!==correction.sourceTakeSha256||sha(await fs.readFile(source.file))!==correction.sourceTakeSha256)throw Error('Presa de veu original de l’esmena canviada.');
    }else{
     const source=await readJSON(path.join(root,`assets/audio/${ref.code.toLowerCase()}-production-manifest.json`),null);
     if(source?.requestHash!==correction.sourceRequestHash||source.rawSha256!==correction.sourceRawSha256)throw Error('Origen de l’esmena canviat.');

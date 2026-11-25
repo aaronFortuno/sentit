@@ -1,6 +1,6 @@
 # Pilots de faules, llegendes i mites · 25/11/2026
 
-Tres propostes amb revisió adversària superada, pendents de validació docent. Al web, activar **Només provisionals**: el solucionari s’obre amb el guió i l’escaleta abans de les preguntes. No tenen àudio encara.
+Tres propostes amb revisió adversària superada i guions validats pel docent el 25/11. Al web, activar **Només provisionals**: el solucionari s’obre amb el guió i l’escaleta abans de les preguntes. No tenen àudio encara.
 
 | Codi i accés | Univers | Curs i dificultat | Durada de veu orientativa | Preguntes obertes/ABCD |
 | --- | --- | --- | --- | ---: |
@@ -26,8 +26,8 @@ Cada comprensió es grava sencera amb una sola veu estable. La tria de timbre i 
 
 Escaleta comuna: títol i cos en una presa, límit títol/cos retallat localment només després de comprovar el silenci real; cap marca de pausa al text parlat. Narració expressiva, diàlegs citats sense fer imitacions estridents. Base musical molt baixa i diferent per peça, pendent de selecció i acreditació. Entrada discreta i pujada breu amb fosa final. Primer audició docent de les veus; després muntatge i segona validació.
 
-## Validacions rebudes de la tanda anterior
+## Estat de validació
 
-**S112, S113, S114, S115, S116, S117, S118, S119, S120, S123, S125 i S127** tenen guió i escaleta validats per a síntesi. S125 incorpora «Per tocar» i «Gastades» com a rètols literals a guió, resposta i ABCD; el canvi ha passat revisió independent. Les altres peces conserven el seu text. La Mar ja té validades les vuit notícies: L38 rebut amb tres esmenes, pendent d’audició docent de les veus. P27 i P28 encara esperen les validacions restants. Els pilots de tradició continuen sense sintetitzar.
+**S112–S127:** guions validats i veus rebudes a L38–L40, pendents d’audició docent abans del muntatge. S125 incorpora «Per tocar» i «Gastades» com a rètols literals. **S128–S130:** guions validats, sense sintetitzar encara, pendents de completar un lot narrat compatible.
 
-[Pla S112–S127](pla-equilibri-2026-11-25.md) · [Feina pendent](seguiment-produccio.md) · [Cua de síntesi](lots-sintesi.md).
+[Veus i esmenes de L39/L40](lots-l39-l40.md) · [Feina pendent](seguiment-produccio.md) · [Cua de síntesi](lots-sintesi.md).

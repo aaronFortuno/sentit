@@ -48,14 +48,17 @@ async function main(){
  const binary=await ffmpegBinary(),log=ffmpeg(binary,['-i',raw,'-af','silencedetect=noise=-42dB:d=0.18','-f','null','-']),silences=[];let silenceStart;
  for(const line of log.split('\n')){const start=/silence_start: ([\d.]+)/.exec(line),end=/silence_end: ([\d.]+)/.exec(line);if(start)silenceStart=Number(start[1]);if(end&&silenceStart!==undefined){silences.push({start:silenceStart,end:Number(end[1])});silenceStart=undefined;}}
  if(silenceStart!==undefined)silences.push({start:silenceStart,end:recognition.duration});
- const boundaries=[0];for(let i=1;i<blocks.length;i++){const previous=report.filter(r=>r.block===blocks[i-1].id).at(-1),next=report.find(r=>r.block===blocks[i].id);boundaries.push(silenceCut(previous.end,next.start,silences));}boundaries.push(recognition.duration);
+ const verifiedFile=process.argv.find(a=>a.startsWith('--verified-cuts='))?.slice(16),verifiedReport=verifiedFile?JSON.parse(await fs.readFile(path.resolve(verifiedFile),'utf8')):null,verifiedQuietCuts=[],usedVerified=new Set();
+ if(verifiedReport&&(verifiedReport.batch!==id||verifiedReport.rawSha256!==attempt.rawSha256||verifiedReport.requestHash!==batch.approvedRequestHash))throw Error('Verified cuts belong to another source');
+ const chooseCut=(key,before,after)=>{const record=verifiedReport?.cuts?.[key];if(!record)return silenceCut(before,after,silences);const checked=require('./verified-quiet-cut.cjs').verifiedQuietCut(bytes,record,before,after);verifiedQuietCuts.push({key,...checked});usedVerified.add(key);return checked.at;};
+ const boundaries=[0];for(let i=1;i<blocks.length;i++){const previous=report.filter(r=>r.block===blocks[i-1].id).at(-1),next=report.find(r=>r.block===blocks[i].id);boundaries.push(chooseCut(blocks[i-1].id+'/'+blocks[i].id,previous.end,next.start));}boundaries.push(recognition.duration);
  const cuts=[];
  for(const [i,block]of blocks.entries()){
   const spans=report.filter(r=>r.block===block.id),start=boundaries[i],end=boundaries[i+1],coverage=spans.reduce((n,s)=>n+s.coverage*s.length,0)/spans.reduce((n,s)=>n+s.length,0);if(coverage<.7)throw Error(block.id+': cobertura total insuficient.');
   const blockFile=path.join(folder,block.id.toLowerCase()+'.wav');ffmpeg(binary,['-v','error','-y','-i',raw,'-af',`atrim=start=${start}:end=${end},asetpts=PTS-STARTPTS`,'-c:a','pcm_s16le',blockFile]);
   const info={id:block.id,code:block.code,parts:block.parts,sourceRequestHash:block.sourceRequestHash,batch:id,batchRequestHash:batch.approvedRequestHash,rawBatchSha256:attempt.rawSha256,file:blockFile,sha256:sha(await fs.readFile(blockFile)),start,end,seconds:end-start,coverage,spans:spans.map(s=>({...s,start:s.start-start,end:s.end-start}))};
   if(block.take&&spans[0].part==='introduction'){
-   const cut=silenceCut(spans[0].end,spans[1].start,silences);info.titleCut=cut-start;
+   const cut=chooseCut(block.id+'/title',spans[0].end,spans[1].start);info.titleCut=cut-start;
    for(const [name,from,to]of [['intro',start,cut],['body',cut,end]]){const file=path.join(folder,block.id.toLowerCase()+'-'+name+'.wav');ffmpeg(binary,['-v','error','-y','-i',raw,'-af',`atrim=start=${from}:end=${to},asetpts=PTS-STARTPTS`,'-c:a','pcm_s16le',file]);info[name]={file,sha256:sha(await fs.readFile(file)),seconds:to-from};}
   }
   if(missingTitles.has(block.id)){info.missingParts=['introduction'];info.titleCut=0;info.body={file:blockFile,sha256:info.sha256,seconds:info.seconds};}
@@ -64,7 +67,8 @@ async function main(){
   info.incompleteParts=uncertainties.filter(u=>u.block===block.id&&u.status==='incomplete-turn-awaiting-listening').map(u=>u.part);
   cuts.push(info);
  }
- await fs.writeFile(path.join(folder,'split.json'),JSON.stringify({batch:id,requestHash:batch.approvedRequestHash,rawSha256:attempt.rawSha256,seconds:recognition.duration,expectedWords:expected.length,recognizedWords:recognition.words.length,coverage:map.filter(Boolean).length/map.length,silences,cuts,uncertainties,pronunciationValidation:'pending-listening'},null,2)+'\n');
+ if(verifiedReport&&Object.keys(verifiedReport.cuts??{}).some(key=>!usedVerified.has(key)))throw Error('Unused verified cut; review the requested boundary');
+ await fs.writeFile(path.join(folder,'split.json'),JSON.stringify({batch:id,requestHash:batch.approvedRequestHash,rawSha256:attempt.rawSha256,seconds:recognition.duration,expectedWords:expected.length,recognizedWords:recognition.words.length,coverage:map.filter(Boolean).length/map.length,silences,cuts,uncertainties,...(verifiedQuietCuts.length?{verifiedQuietCuts}:{}),pronunciationValidation:'pending-listening'},null,2)+'\n');
  const indexFile=path.join(work,'mixed-batches','takes.json'),index=JSON.parse(await fs.readFile(indexFile,'utf8').catch(e=>{if(e.code==='ENOENT')return '{}';throw e;}));for(const cut of cuts){if(index[cut.id]&&index[cut.id].batchRequestHash!==cut.batchRequestHash)throw Error('Presa ja conservada amb altre origen.');index[cut.id]=cut;}await fs.writeFile(indexFile,JSON.stringify(index,null,2)+'\n');
  console.log(JSON.stringify({batch:id,seconds:recognition.duration,coverage:map.filter(Boolean).length/map.length,cuts:cuts.map(c=>({id:c.id,seconds:Number(c.seconds.toFixed(2)),coverage:Number(c.coverage.toFixed(3))})),pronunciation:'pendent d’audició'}));
 }

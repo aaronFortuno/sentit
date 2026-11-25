@@ -26,17 +26,16 @@ Les preses originals es conserven i la cobertura s’ha comprovat localment. La 
 | [ca-S117](https://sentit.ortogra.fi/#lectura=ca-S117) | [Escolta les veus](../proves/veus-rebudes.html#S117) |
 | [ca-S118](https://sentit.ortogra.fi/#lectura=ca-S118) | [Escolta les veus](../proves/veus-rebudes.html#S118) |
 | [ca-S119](https://sentit.ortogra.fi/#lectura=ca-S119) | [Escolta les veus](../proves/veus-rebudes.html#S119) |
+| [ca-S120](https://sentit.ortogra.fi/#lectura=ca-S120) | [Escolta les veus](../proves/veus-rebudes.html#S120) |
+| [ca-S121](https://sentit.ortogra.fi/#lectura=ca-S121) | [Escolta les veus](../proves/veus-rebudes.html#S121) |
+| [ca-S122](https://sentit.ortogra.fi/#lectura=ca-S122) | [Escolta les veus](../proves/veus-rebudes.html#S122) |
+| [ca-S123](https://sentit.ortogra.fi/#lectura=ca-S123) | [Escolta les veus](../proves/veus-rebudes.html#S123) |
+| [ca-S124](https://sentit.ortogra.fi/#lectura=ca-S124) | [Escolta les veus](../proves/veus-rebudes.html#S124) |
+| [ca-S125](https://sentit.ortogra.fi/#lectura=ca-S125) | [Escolta les veus](../proves/veus-rebudes.html#S125) |
+| [ca-S126](https://sentit.ortogra.fi/#lectura=ca-S126) | [Escolta les veus](../proves/veus-rebudes.html#S126) |
+| [ca-S127](https://sentit.ortogra.fi/#lectura=ca-S127) | [Escolta les veus](../proves/veus-rebudes.html#S127) |
 
 Les previsions provenen dels guions i del calibratge local; cal recalcular-les amb el format definitiu abans d’enviar. Una mateixa veu en dos guions no implica el mateix personatge. No es canvien repartiments ni s’allarguen guions per omplir un lot.
-
-## Validacions que completen un lot
-
-Ordenades pel nombre de guions que falta validar. Són candidats de mida compatible; després cal preparar l’entrada definitiva.
-
-| Prioritat | Guions que falten | Lot complet resultant | Text pla estimat |
-| --- | --- | --- | ---: |
-| P27 | [ca-S121](https://sentit.ortogra.fi/#lectura=ca-S121), [ca-S122](https://sentit.ortogra.fi/#lectura=ca-S122) | [ca-S120](https://sentit.ortogra.fi/#lectura=ca-S120), [ca-S121](https://sentit.ortogra.fi/#lectura=ca-S121), [ca-S122](https://sentit.ortogra.fi/#lectura=ca-S122), [ca-S123](https://sentit.ortogra.fi/#lectura=ca-S123); esmenes S017, S041 | 6:13 |
-| P28 | [ca-S124](https://sentit.ortogra.fi/#lectura=ca-S124), [ca-S126](https://sentit.ortogra.fi/#lectura=ca-S126) | [ca-S124](https://sentit.ortogra.fi/#lectura=ca-S124), [ca-S125](https://sentit.ortogra.fi/#lectura=ca-S125), [ca-S126](https://sentit.ortogra.fi/#lectura=ca-S126), [ca-S127](https://sentit.ortogra.fi/#lectura=ca-S127); esmenes S081, S107 | 6:52 |
 
 ## Agrupacions candidates · validació i preparació pendents
 
@@ -44,8 +43,6 @@ La previsió utilitza el text pla real, amb els títols i sense marques literals
 
 | Proposta | Repartiment | Comprensions | Previsió completa | Disponible ara | Mida orientativa | Guions validats | Validacions que falten |
 | --- | --- | --- | ---: | ---: | --- | ---: | --- |
-| P27 | Mireia · Aoede; Laia · Leda | [ca-S120](https://sentit.ortogra.fi/#lectura=ca-S120), [ca-S121](https://sentit.ortogra.fi/#lectura=ca-S121), [ca-S122](https://sentit.ortogra.fi/#lectura=ca-S122), [ca-S123](https://sentit.ortogra.fi/#lectura=ca-S123) | 6:13 amb 3 fragments d’esmena | 3:15 | Dins la finestra prevista | 2/4 | [ca-S121](https://sentit.ortogra.fi/#lectura=ca-S121), [ca-S122](https://sentit.ortogra.fi/#lectura=ca-S122) |
-| P28 | Biel · Puck; Elies · Algieba | [ca-S124](https://sentit.ortogra.fi/#lectura=ca-S124), [ca-S125](https://sentit.ortogra.fi/#lectura=ca-S125), [ca-S126](https://sentit.ortogra.fi/#lectura=ca-S126), [ca-S127](https://sentit.ortogra.fi/#lectura=ca-S127) | 6:52 amb 3 fragments d’esmena | 3:53 | Dins la finestra prevista | 2/4 | [ca-S124](https://sentit.ortogra.fi/#lectura=ca-S124), [ca-S126](https://sentit.ortogra.fi/#lectura=ca-S126) |
 
 Les previsions «amb esmenes» sumen només els fragments que encara són a la cua, no les proves ja rebudes. La composició de P26–P28 és al [pla d’equilibri](pla-equilibri-2026-11-25.md). S017/S041 encara requereixen formalitzar la presa exacta; P26 ha de resoldre també l’encaix de l’esmena d’informadora, que no parla a les notícies noves. Cap d’aquestes previsions equival a una entrada congelada i preparada per enviar.
 
@@ -58,25 +55,25 @@ P02 reuneix quatre lectures breus del mateix repartiment per conservar els guion
 | S010 | Després ja som a la porta. És el camí que vam fer l’any passat. | Validada · pendent d’incorporar | [L01](../proves/correccions-l01.html) |
 | S070 | Els grans anaven d’un costat a l’altre per saber què havia passat. Mentrestant, la gent s’asseia i els petits corríem entre les cadires. El pare va anar a buscar l’acordió, que havia deixat a casa d’aquell veí, a la planta baixa, perquè no li fes nosa. | Pendent d’audició | [L30](../proves/correccions-l30.html) |
 | S010 | Des de la plaça anem pel carrer dels Til·lers fins a la farmàcia. | Pendent d’audició | [L31](../proves/correccions-l31.html) |
-| S081 | Sí, truca abans de venir. T’ho explicaré per telèfon. Aquest matí ja he comprovat la guitarra de préstec i només falta que la guardem a la funda. | Rebutjada · cal una altra prova | [L36](../proves/correccions-l36.html) |
-| S081 | De res, Biel. Espera, que t’aguanto la funda mentre hi poses el full... així... Fins dijous, i ja m’explicaràs com va l’assaig. | Rebutjada · cal una altra prova | [L36](../proves/correccions-l36.html) |
 | S085 | Doncs pugem juntes. Entro un moment les bosses i et vinc a ajudar. Els tomàquets ja han viatjat prou per avui. | Pendent d’audició | [L38](../proves/correccions-l38.html) |
 | S093 | Ah! Doncs el directe, el de les deu i vint-i-cinc. Jo m’havia fixat només en l’hora de sortir. La meva amiga ja ve expressament a buscar-me i no la vull fer esperar. | Pendent d’audició | [L38](../proves/correccions-l38.html) |
 | S102 | Sí, està bé: plaça dels Til·lers, cap al centre. Gràcies per atendre’m. Adeu. | Pendent d’audició | [L38](../proves/correccions-l38.html) |
+| S081 | Sí, truca abans de venir. T’ho explicaré per telèfon. Aquest matí ja he comprovat la guitarra de préstec i només falta que la guardem a la funda. | Pendent d’audició | [L39](../proves/correccions-l39.html) |
+| S081 | De res, Biel. Espera, que t’aguanto la funda mentre hi poses el full... així... Fins dijous, i ja m’explicaràs com va l’assaig. | Pendent d’audició | [L39](../proves/correccions-l39.html) |
+| S107 | Aquí tens el carro, amb una nansa a cada extrem. La bossa ja és dins d’aquesta funda. Obro la porta: prova’l. | Pendent d’audició | [L39](../proves/correccions-l39.html) |
+| S017 | Exacte. L’equip de coordinació confirmarà la sortida de tot el conjunt. Ningú no s’avançarà amb cap caixa. A cada parada anotaran si falta alguna peça o està malmesa. El registre viatjarà amb les caixes perquè a la parada següent ja coneguin les incidències. Vinga, comencem a escriure i, quan acabeu, Laia, ja podreu pintar, d’acord? | Pendent d’audició | [L40](../proves/correccions-l40.html) |
+| S041 | Quan hagis parlat amb ella, ens expliques què t’ha dit. Va, ara escoltem el grup de les endevinalles. | Pendent d’audició | [L40](../proves/correccions-l40.html) |
 
 ### Següents esmenes · encara sense petició
 
 | Peça | Veu | Fragment |
 | --- | --- | --- |
-| [ca-S017](https://sentit.ortogra.fi/#lectura=ca-S017) | Mireia · Aoede | coordinacio + retorn |
-| [ca-S081](https://sentit.ortogra.fi/#lectura=ca-S081) | Elies · Algieba | telefon + final |
 | [ca-S085](https://sentit.ortogra.fi/#lectura=ca-S085) | Mar · Erinome | comiat |
 | [ca-S088](https://sentit.ortogra.fi/#lectura=ca-S088) | Ferran · Algenib | hola |
 | [ca-S090](https://sentit.ortogra.fi/#lectura=ca-S090) | Laia · Leda | introduction + pilota |
 | [ca-S093](https://sentit.ortogra.fi/#lectura=ca-S093) | Mar · Erinome | confirmar |
 | [ca-S095](https://sentit.ortogra.fi/#lectura=ca-S095) | Empleada · Gacrux | mida + recollida |
 | [ca-S102](https://sentit.ortogra.fi/#lectura=ca-S102) | Mar · Erinome; Informadora · Callirrhoe | sentit + final |
-| [ca-S107](https://sentit.ortogra.fi/#lectura=ca-S107) | Elies · Algieba | sortida |
 | [ca-S109](https://sentit.ortogra.fi/#lectura=ca-S109) | Ferran · Algenib | temps + final |
 
 Esperen un lot compatible de sis a vuit minuts. Les proves antigues i les descartades es conserven a l’històric; el pla actual exclou les esmenes ja aplicades.

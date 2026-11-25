@@ -304,13 +304,27 @@
         "part": "telefon",
         "speaker": "Elies",
         "text": "Sí, truca abans de venir. T’ho explicaré per telèfon. Aquest matí ja he comprovat la guitarra de préstec i només falta que la guardem a la funda.",
-        "pronunciation": "Pronounce funda /ˈfun.də/ with stressed U and audible N followed by D: FUN-da, never funa or fona. Keep the adult male Elies voice; do not read this instruction. Prior renderings omitted D or changed U to O. Give the N-D transition enough articulation to hear both consonants, without adding a vowel or spelling letters aloud."
+        "pronunciation": "Pronounce funda /ˈfun.də/ with stressed U and audible N followed by D: FUN-da, never funa or fona. Keep the adult male Elies voice; do not read this instruction. Prior renderings omitted D or changed U to O. Give the N-D transition enough articulation to hear both consonants, without adding a vowel or spelling letters aloud.",
+        "nextAttempt": {
+          "id": "S081-telefon-r3",
+          "status": "awaiting-compatible-batch",
+          "speaker": "Elies",
+          "voice": "Algieba",
+          "instruction": "New corrective take after the previous attempts failed. Keep the exact adult male Elies/Algieba identity and U vowel. Articulate the N followed by D in funda clearly, with no pitch shift, extra vowel or spoken pronunciation instruction."
+        }
       },
       {
         "part": "final",
         "speaker": "Elies",
         "text": "De res, Biel. Espera, que t’aguanto la funda mentre hi poses el full... així... Fins dijous, i ja m’explicaràs com va l’assaig.",
-        "pronunciation": "Pronounce funda /ˈfun.də/ with stressed U and audible N followed by D: FUN-da, never funa or fona. Keep the adult male Elies voice; do not read this instruction. Prior renderings omitted D or changed U to O. Give the N-D transition enough articulation to hear both consonants, without adding a vowel or spelling letters aloud."
+        "pronunciation": "Pronounce funda /ˈfun.də/ with stressed U and audible N followed by D: FUN-da, never funa or fona. Keep the adult male Elies voice; do not read this instruction. Prior renderings omitted D or changed U to O. Give the N-D transition enough articulation to hear both consonants, without adding a vowel or spelling letters aloud.",
+        "nextAttempt": {
+          "id": "S081-final-r3",
+          "status": "awaiting-compatible-batch",
+          "speaker": "Elies",
+          "voice": "Algieba",
+          "instruction": "New corrective take after the previous attempts failed. Keep the exact adult male Elies/Algieba identity and U vowel. Articulate the N followed by D in funda clearly, with no pitch shift, extra vowel or spoken pronunciation instruction."
+        }
       }
     ],
     "application": "Compare both complete interventions with the original. Keep the natural pauses in Espera... així...; no digital pitch correction or automatic master change.",
@@ -779,5 +793,59 @@
     ],
     "application": "Reposar la presentació i el primer torn omesos, escoltar-los abans d’incorporar-los. Conservar la resta de la presa; cap muntatge ni aprovació automàtica.",
     "approvedRequestHash": "ec493323fe29d5e206c967e4db3450dee7af041004ff0e86e6b79455d893b902"
+  },
+  "S017": {
+    "activity": "ca-S017",
+    "status": "approved-for-correction",
+    "approvedAt": "2026-11-25",
+    "approvalSource": "Docent 22/11: tornar a sintetitzar els dos paràgrafs finals de Mireia, junts i sense canvi de timbre ni crepitar.",
+    "scope": "consecutive-spoken-turns",
+    "sourceTakeId": "S017-T01",
+    "sourceRequestHash": "3a86ff8ea619d9fa32f7582a144656f791631478c642722f8e98ef6e5c8a5eb0",
+    "sourceRawSha256": "b2ca0f5d981a00325ac67d2963f0c278018bf6ef431e1a87219d954159383482",
+    "sourceTakeSha256": "042c2641600ef339ec2b25abd546acdb68bff155af377de6933c8aefb3c6a8ea",
+    "voices": {
+      "Mireia": "Aoede"
+    },
+    "direction": "Natural Central Catalan. Keep the same warm adult teacher Mireia/Aoede voice throughout, dry clear close speech. Read every supplied word once. No added sounds, breaths, crackle, stage directions or title.",
+    "repairs": [
+      {
+        "part": "coordinacio",
+        "sourceParts": [
+          "coordinacio",
+          "retorn"
+        ],
+        "speaker": "Mireia",
+        "text": "Exacte. L’equip de coordinació confirmarà la sortida de tot el conjunt. Ningú no s’avançarà amb cap caixa.\n\nA cada parada anotaran si falta alguna peça o està malmesa. El registre viatjarà amb les caixes perquè a la parada següent ja coneguin les incidències. Vinga, comencem a escriure i, quan acabeu, Laia, ja podreu pintar, d’acord?",
+        "pronunciation": "These two consecutive paragraphs belong to one continuous intervention. Maintain exactly the same mature female voice, natural pitch, clarity and recording quality through both paragraphs. No pause label, breath sounds or change of speaker between them."
+      }
+    ],
+    "application": "Comparació d’original i esmena per audició docent. No aplicada al màster; originals preservats.",
+    "approvedRequestHash": "b70c268921d9e219ec20f3a6fe6d0ca35f19b72006933e3d8216f83b04605c4f"
+  },
+  "S041": {
+    "activity": "ca-S041",
+    "status": "approved-for-correction",
+    "approvedAt": "2026-11-25",
+    "approvalSource": "Docent 21/11: esmenar Quan hagis parlat, que sona hagues/hagas. Resta conservada.",
+    "scope": "spoken-turn",
+    "sourceTakeId": "S041-T01",
+    "sourceRequestHash": "a0bcff78c1b77973ff7ddd60722557464823fa57c596f11b98c6ecc64a97223a",
+    "sourceRawSha256": "4bcdb6306e09bc40b58de637d9e4c3d8cb63477429a60ccf89bb8602cf05d809",
+    "sourceTakeSha256": "67ea4df411eb27fa99e64ff706302a192277746961c0153c0ee7f72a5fc73e9e",
+    "voices": {
+      "Mireia": "Aoede"
+    },
+    "direction": "Natural Central Catalan. Keep the same warm adult teacher Mireia/Aoede voice throughout, dry clear close speech. Read every supplied word once. No added sounds, breaths, crackle, stage directions or title.",
+    "repairs": [
+      {
+        "part": "finalreunio",
+        "speaker": "Mireia",
+        "text": "Quan hagis parlat amb ella, ens expliques què t’ha dit. Va, ara escoltem el grup de les endevinalles.",
+        "pronunciation": "Clearly pronounce the canonical Catalan word hagis in Quan hagis parlat, never hagues or hagas. Keep the same adult female Mireia voice and natural rhythm. Read the full turn and do not read these instructions."
+      }
+    ],
+    "application": "Comparació d’original i esmena per audició docent. No aplicada al màster; originals preservats.",
+    "approvedRequestHash": "3d25f087898f538ca6605b0b0393ce7c158881a7dafb013a5d918565aa47b994"
   }
 }

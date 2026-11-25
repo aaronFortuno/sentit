@@ -1,0 +1,39 @@
+{
+  "batch": "L40",
+  "requestHash": "5808ddd12485a1772a021a21db2f16fa5be9cd4a42ed90c894aaf948ed7a38be",
+  "repairs": [
+    {
+      "code": "S017",
+      "part": "coordinacio",
+      "sourceParts": [
+        "coordinacio",
+        "retorn"
+      ],
+      "text": "Exacte. L’equip de coordinació confirmarà la sortida de tot el conjunt. Ningú no s’avançarà amb cap caixa.\n\nA cada parada anotaran si falta alguna peça o està malmesa. El registre viatjarà amb les caixes perquè a la parada següent ja coneguin les incidències. Vinga, comencem a escriure i, quan acabeu, Laia, ja podreu pintar, d’acord?",
+      "pronunciation": "These two consecutive paragraphs belong to one continuous intervention. Maintain exactly the same mature female voice, natural pitch, clarity and recording quality through both paragraphs. No pause label, breath sounds or change of speaker between them.",
+      "status": "received-awaiting-listening",
+      "originalFile": "assets/audio/repairs/l40-s017-coordinacio-original.mp3",
+      "candidateFile": "assets/audio/repairs/l40-s017-coordinacio-prova.mp3",
+      "sourceRawSha256": "b2ca0f5d981a00325ac67d2963f0c278018bf6ef431e1a87219d954159383482",
+      "sourceTakeId": "S017-T01",
+      "sourceTakeSha256": "042c2641600ef339ec2b25abd546acdb68bff155af377de6933c8aefb3c6a8ea",
+      "batchRequestHash": "5808ddd12485a1772a021a21db2f16fa5be9cd4a42ed90c894aaf948ed7a38be",
+      "applied": false
+    },
+    {
+      "code": "S041",
+      "part": "finalreunio",
+      "text": "Quan hagis parlat amb ella, ens expliques què t’ha dit. Va, ara escoltem el grup de les endevinalles.",
+      "pronunciation": "Clearly pronounce the canonical Catalan word hagis in Quan hagis parlat, never hagues or hagas. Keep the same adult female Mireia voice and natural rhythm. Read the full turn and do not read these instructions.",
+      "status": "received-awaiting-listening",
+      "originalFile": "assets/audio/repairs/l40-s041-finalreunio-original.mp3",
+      "candidateFile": "assets/audio/repairs/l40-s041-finalreunio-prova.mp3",
+      "sourceRawSha256": "4bcdb6306e09bc40b58de637d9e4c3d8cb63477429a60ccf89bb8602cf05d809",
+      "sourceTakeId": "S041-T01",
+      "sourceTakeSha256": "67ea4df411eb27fa99e64ff706302a192277746961c0153c0ee7f72a5fc73e9e",
+      "batchRequestHash": "5808ddd12485a1772a021a21db2f16fa5be9cd4a42ed90c894aaf948ed7a38be",
+      "applied": false
+    }
+  ],
+  "masterChanged": false
+}

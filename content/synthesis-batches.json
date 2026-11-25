@@ -1386,6 +1386,109 @@
       "estimatedInputTokens": 4931,
       "receipt": "assets/audio/synthesis-batches/l38.json",
       "completedAt": "2026-11-25T20:03:33.548Z"
+    },
+    {
+      "id": "L39",
+      "state": "received",
+      "speechTextFormat": "plain-v1",
+      "styleFormat": "compact-v1",
+      "execution": "background-v1",
+      "createdAt": "2026-11-25T20:17:47.526Z",
+      "authorization": "Docent 25/11: tots els guions validats i autorització d’enviar els lots compatibles seqüencialment. Esmenes S081 i S107 ja autoritzades; no muntar abans d’audició.",
+      "note": "S124–S127 complets amb Biel/Puck i Elies/Algieba. Dues represes de funda de S081 amb IDs nous per conservar els intents rebutjats, i sortida de S107.",
+      "blocks": [
+        {
+          "code": "S124",
+          "take": "S124-T01",
+          "sourceRequestHash": "f04b75344bf6a89dbee24936975bbcb7785c6782141d832715e5cc06911de77a"
+        },
+        {
+          "code": "S125",
+          "take": "S125-T01",
+          "sourceRequestHash": "365491d8485d571c5e24aed0ba49a189b3bd907c53ad24d70082369d29eadc18"
+        },
+        {
+          "code": "S126",
+          "take": "S126-T01",
+          "sourceRequestHash": "5aeea49978dde640b68fc0bacbfb2997bb7452d14eb82adbf3a72bfff031f3ec"
+        },
+        {
+          "code": "S127",
+          "take": "S127-T01",
+          "sourceRequestHash": "88ee8a17a9d14c5c6f1d8e2d570942282ef7085f882397c90e9294e7e92cd919"
+        },
+        {
+          "code": "S081",
+          "part": "telefon",
+          "retry": "S081-telefon-r3",
+          "sourceRequestHash": "f3e56f7df16200e33d65e2806d7d8abbdedca38e9f5b17af7bc5e3579cc5621a"
+        },
+        {
+          "code": "S081",
+          "part": "final",
+          "retry": "S081-final-r3",
+          "sourceRequestHash": "c1d529147ec08ed6102616dd6038da35d2f8fdedd0fde0d9b4ae3491a88bcb30"
+        },
+        {
+          "code": "S107",
+          "part": "sortida",
+          "sourceRequestHash": "70d6ab30ccd06ed07a8123801b7de4fbe39f043c3b0d78ec45f3591cb47b4c8d"
+        }
+      ],
+      "approvedAt": "2026-11-25T20:17:57.326Z",
+      "approvedRequestHash": "507a423d7bc8bf6247c3ff6b5ca198711696b71edabb32edb9158ce33eb4eb40",
+      "estimatedSeconds": 412,
+      "estimatedInputTokens": 6662,
+      "receipt": "assets/audio/synthesis-batches/l39.json",
+      "completedAt": "2026-11-25T20:20:56.138Z"
+    },
+    {
+      "id": "L40",
+      "state": "received",
+      "speechTextFormat": "plain-v1",
+      "styleFormat": "compact-v1",
+      "execution": "background-v1",
+      "createdAt": "2026-11-25T20:20:44.779Z",
+      "authorization": "Docent 25/11: tots els guions validats; enviar els lots complets seqüencialment. Inclou correccions prèviament demanades de Mireia S017 i S041.",
+      "note": "Quatre explicacions Mireia/Aoede i Laia/Leda; els dos últims paràgrafs de S017 es graven en una sola intervenció contínua. Esmena hagis de S041 al final. Cap tercer personatge, muntatge automàtic o veu validada sense audició.",
+      "blocks": [
+        {
+          "code": "S120",
+          "take": "S120-T01",
+          "sourceRequestHash": "45556fe1c28562d1defc4c15a2e051f7f2b592d1032afc4c993492f37ff50fbd"
+        },
+        {
+          "code": "S121",
+          "take": "S121-T01",
+          "sourceRequestHash": "a53da9b845b05fc3e61eba97708617dadf2630087ec053a209d9bef75cb0e245"
+        },
+        {
+          "code": "S122",
+          "take": "S122-T01",
+          "sourceRequestHash": "55d64517694984f1f96e3c99adfcc9ed8d4a8d02947d0c5da5b58ba797ce3191"
+        },
+        {
+          "code": "S123",
+          "take": "S123-T01",
+          "sourceRequestHash": "5f98606b70b46eb25ff71deb43a0bd98cd05894d659810188f27802ff4af48a4"
+        },
+        {
+          "code": "S017",
+          "part": "coordinacio",
+          "sourceRequestHash": "b70c268921d9e219ec20f3a6fe6d0ca35f19b72006933e3d8216f83b04605c4f"
+        },
+        {
+          "code": "S041",
+          "part": "finalreunio",
+          "sourceRequestHash": "3d25f087898f538ca6605b0b0393ce7c158881a7dafb013a5d918565aa47b994"
+        }
+      ],
+      "approvedAt": "2026-11-25T20:24:15.469Z",
+      "approvedRequestHash": "5808ddd12485a1772a021a21db2f16fa5be9cd4a42ed90c894aaf948ed7a38be",
+      "estimatedSeconds": 373,
+      "estimatedInputTokens": 6087,
+      "receipt": "assets/audio/synthesis-batches/l40.json",
+      "completedAt": "2026-11-25T20:26:15.166Z"
     }
   ],
   "calibration": {
