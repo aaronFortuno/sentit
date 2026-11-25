@@ -139,7 +139,8 @@ export const records = [
   }),
   proposal({
     id: 'el-quadern-de-la-parada', code: 'S072', title: 'El quadern de la parada', grade: '6', level: 'advanced', genre: 'story', universeIds: ['aina-ferran'],
-    seconds: 158, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s072-publicacio-v1.webp","alt":"L’avi Ferran explica un record a l’Aina amb un quadern tancat a la taula.","width":1536,"height":1024},
+    seconds: 158, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s072-mixed-v1.mp3', tracks: { introduction: './assets/audio/s072-mixed-v1-intro.mp3', body: './assets/audio/s072-mixed-v1-cos.mp3' },
     fragment: { start: 3.88, seconds: 153 },
     summary: 'En Ferran ajudava una tieta a vendre coques els dissabtes. Una línia del quadern semblava un encàrrec encara pendent, però un paperet que tapava una marca i una conversa van canviar la manera d’entendre-la.',

@@ -29,22 +29,21 @@ P02 reuneix quatre lectures breus del mateix repartiment per conservar els guion
 | S010 | Des de la plaça anem pel carrer dels Til·lers fins a la farmàcia. | Pendent d’audició | [L02](../proves/correccions-l02.html) |
 | S022 | Hauria pogut passar el dia mirant els rails i saludant la gent de les parades. | Rebutjada · cal una altra prova | [L13](../proves/correccions-l13.html) |
 | S070 | Els grans anaven d’un costat a l’altre per saber què havia passat. Mentrestant, la gent s’asseia i els petits corríem entre les cadires. El pare va anar a buscar l’acordió, que havia deixat a casa d’aquell veí, a la planta baixa, perquè no li fes nosa. | Pendent d’audició | [L30](../proves/correccions-l30.html) |
-| S071 | Aina, en aquest sobre hi guardo quatre entrades. Són del mateix teatre i tenen el mateix color blau, però dues són d’un diumenge i dues, del dissabte següent. Si les mires de pressa semblen iguals. A mi em van fer passar una bona vergonya. | Pendent d’audició | [L30](../proves/correccions-l30.html) |
+| S071 | Aina, en aquest sobre hi guardo quatre entrades. Són del mateix teatre i tenen el mateix color blau, però dues són d’un diumenge i dues, del dissabte següent. Si les mires de pressa semblen iguals. A mi em van fer passar una bona vergonya. | Validada · pendent d’incorporar | [L30](../proves/correccions-l30.html) |
 | S022 | Hauria pogut passar el dia mirant els rails i saludant la gent de les parades. · prova raíls | Pendent d’audició | [L30](../proves/correccions-l30.html) |
-| S022 | Hauria pogut passar el dia mirant els rails i saludant la gent de les parades. · prova raïls | Pendent d’audició | [L30](../proves/correccions-l30.html) |
+| S022 | Hauria pogut passar el dia mirant els rails i saludant la gent de les parades. · prova raïls | Validada · pendent d’incorporar | [L30](../proves/correccions-l30.html) |
 | S010 | Des de la plaça anem pel carrer dels Til·lers fins a la farmàcia. | Pendent d’audició | [L31](../proves/correccions-l31.html) |
-| S025 | D’acord. I després la deixem preparada per al grup. Aquesta vegada em toca prémer el botó a mi! | Pendent d’audició | [L31](../proves/correccions-l31.html) |
-| S061 | Comprensió oral. El curt que començava pel final. | Pendent d’audició | [L31](../proves/correccions-l31.html) |
-| S081 | Sí, truca abans de venir. T’ho explicaré per telèfon. Aquest matí ja he comprovat la guitarra de préstec i només falta que la guardem a la funda. | Pendent d’audició | [L36](../proves/correccions-l36.html) |
-| S081 | De res, Biel. Espera, que t’aguanto la funda mentre hi poses el full... així... Fins dijous, i ja m’explicaràs com va l’assaig. | Pendent d’audició | [L36](../proves/correccions-l36.html) |
-| S059 | A aquesta sí. A les del final... Ai, he fet caure l’arbre de cartró! Sempre em queda al mig. És bonic, però el podríem posar dret al costat de la capsa, a la cadira. | Pendent d’audició | [L36](../proves/correccions-l36.html) |
+| S025 | D’acord. I després la deixem preparada per al grup. Aquesta vegada em toca prémer el botó a mi! | Validada · pendent d’incorporar | [L31](../proves/correccions-l31.html) |
+| S061 | Comprensió oral. El curt que començava pel final. | Validada · pendent d’incorporar | [L31](../proves/correccions-l31.html) |
+| S081 | Sí, truca abans de venir. T’ho explicaré per telèfon. Aquest matí ja he comprovat la guitarra de préstec i només falta que la guardem a la funda. | Rebutjada · cal una altra prova | [L36](../proves/correccions-l36.html) |
+| S081 | De res, Biel. Espera, que t’aguanto la funda mentre hi poses el full... així... Fins dijous, i ja m’explicaràs com va l’assaig. | Rebutjada · cal una altra prova | [L36](../proves/correccions-l36.html) |
+| S059 | A aquesta sí. A les del final... Ai, he fet caure l’arbre de cartró! Sempre em queda al mig. És bonic, però el podríem posar dret al costat de la capsa, a la cadira. | Validada · pendent d’incorporar | [L36](../proves/correccions-l36.html) |
 
 ### Següents esmenes · encara sense petició
 
 | Peça | Veu | Fragment |
 | --- | --- | --- |
 | [ca-S017](https://sentit.ortogra.fi/#lectura=ca-S017) | Mireia · Aoede | coordinacio + retorn |
-| [ca-S059](https://sentit.ortogra.fi/#lectura=ca-S059) | Biel · Puck | arbre |
 | [ca-S081](https://sentit.ortogra.fi/#lectura=ca-S081) | Elies · Algieba | telefon + final |
 | [ca-S085](https://sentit.ortogra.fi/#lectura=ca-S085) | Mar · Erinome | comiat |
 | [ca-S088](https://sentit.ortogra.fi/#lectura=ca-S088) | Ferran · Algenib | hola |

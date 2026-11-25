@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-25",
+  "tool": "image_gen built-in",
+  "code": "S089",
+  "file": "s089-publicacio-v1.webp",
+  "alt": "En Ferran conversa amb una coneguda mentre sosté la corretja d’una gossa al carrer.",
+  "width": 1536,
+  "height": 1024,
+  "references": [
+    "../characters/ferran-model-sheet-v1.webp"
+  ],
+  "models": [
+    "../characters/ferran-model-sheet-v1.webp"
+  ],
+  "sourceImage": "exec-b3e12b0b-43cf-4c15-ae92-9001f269b358.png",
+  "sourceImageSha256": "36da3f1ee7b924ea880bd20a65de614d41eb386399a3ca65f31dc3d636022d58",
+  "prompt": "Use case: illustration-story. One individual landscape 3:2 image, ideally 1536x1024, for a Catalan listening-comprehension worksheet and catalogue card, printed about 80 mm wide. The supplied images are references ONLY for character identities and existing style, not edit targets. Match their exact faces, ages, hair and clothing. Ferran: elderly man, silver wavy hair, short white beard, round dark glasses, charcoal cable-knit cardigan and sage checked shirt. Aina: young girl, chestnut bob and bangs, round glasses, mustard sweater and grey trousers. Mar: adult woman, brown hair in low ponytail, olive blazer over cream top. Only include characters named in the scene. Fine naturalistic ink and restrained softly textured watercolor, warm earth tones and gentle light, white paper with a generous pure white soft-fading margin on all four edges. No frame, panels, model-sheet poses, lettering, numerals, logos, labels or watermark. Natural anatomy and hands, clearly readable specific action at small print size. On a quiet pedestrian neighborhood street Ferran has paused while walking a small-to-medium calm dog on a leash. He converses with Margarida, an occasional elderly woman with short brown-and-silver hair and a blue coat, without glasses. The relaxed dog stands beside them; no pulling or pointing in any direction. Natural friendly encounter, not a portrait. Do not show the owner, a house destination, street signs, a chosen route, a crossroad or any conclusion.",
+  "editPrompt": "Remove ONLY the young girl with glasses and mustard sweater at the left. Fill that area with the stone wall, foliage and quiet street, keeping the elderly man with the leash, the elderly woman in a blue coat and the dog exactly as they are. Exactly two people and one dog. Preserve the established watercolor/ink style, soft white margins and landscape composition. No new people, street names, routes or destinations.",
+  "editSourceImage": "exec-4115706f-26fc-4b7b-976b-fe5b0885b32d.png",
+  "encoding": "WebP quality 90; composition and dimensions retained."
+}

@@ -76,7 +76,8 @@ export const dailyMarServices = [
   }),
   dailyProposal({
     id: 'el-paraigua-no-sobre', code: 'S094', title: 'El paraigua no s’obre', grade: '5', level: 'middle', genre: 'dialogue',
-    seconds: 92, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s094-publicacio-v1.webp","alt":"La Mar conversa amb una dependenta al taulell d’una botiga d’accessoris.","width":1536,"height":1024},
+    seconds: 92, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s094-mixed-v1.mp3', tracks: { introduction: './assets/audio/s094-mixed-v1-intro.mp3', body: './assets/audio/s094-mixed-v1-cos.mp3' },
     fragment: { start: 4.05, seconds: 87 },
     voices: { Mar: 'Erinome', Dependenta: 'Despina' }, guestSpeakers: [{ name: 'Dependenta', voice: 'Despina', role: 'Dependenta de complements · ocasional' }], delivery,

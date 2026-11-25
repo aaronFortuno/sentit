@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-25",
+  "tool": "image_gen built-in",
+  "code": "S111",
+  "file": "s111-publicacio-v1.webp",
+  "alt": "L’Aina i l’avi Ferran s’aturen a parlar al costat d’una porta en un camí rural.",
+  "width": 1536,
+  "height": 1024,
+  "references": [
+    "../characters/aina-model-sheet-v1.webp",
+    "../characters/ferran-model-sheet-v1.webp"
+  ],
+  "models": [
+    "../characters/aina-model-sheet-v1.webp",
+    "../characters/ferran-model-sheet-v1.webp"
+  ],
+  "sourceImage": "exec-8413f58b-1843-4511-9275-ac02b467dcca.png",
+  "sourceImageSha256": "26d561779cce7dffbfcbde935147400ec7a784222fccc2733cbbfb953944505d",
+  "prompt": "Use case: illustration-story. One individual landscape 3:2 image, ideally 1536x1024, for a Catalan listening-comprehension worksheet and catalogue card, printed about 80 mm wide. The supplied images are references ONLY for character identities and existing style, not edit targets. Match their exact faces, ages, hair and clothing. Ferran: elderly man, silver wavy hair, short white beard, round dark glasses, charcoal cable-knit cardigan and sage checked shirt. Aina: young girl, chestnut bob and bangs, round glasses, mustard sweater and grey trousers. Mar: adult woman, brown hair in low ponytail, olive blazer over cream top. Only include characters named in the scene. Fine naturalistic ink and restrained softly textured watercolor, warm earth tones and gentle light, white paper with a generous pure white soft-fading margin on all four edges. No frame, panels, model-sheet poses, lettering, numerals, logos, labels or watermark. Natural anatomy and hands, clearly readable specific action at small print size. On a quiet rural walk Aina and Ferran have paused beside a closed wooden farm gate. They discuss what to do, with attentive expressions and open relaxed hands. A modest sign is seen only from behind or at an angle with no lettering. A soft leafy path setting, no visible route choices. No phone screens, destination signs, alternative route, map, arrows, pedestrians behind the gate or image that answers whether or how they continue.",
+  "editPrompt": "Remove the brown-ponytailed adult woman with olive jacket at the right. Fill her area with quiet rural background. Exactly two people remain, the elderly man with charcoal cardigan and glasses (Ferran), and the girl with mustard sweater and glasses (Aina). Also remove the padlock and any chain from the gate, leaving an ordinary closed wooden gate without visible locking details. Preserve their identities, natural conversation, watercolor/ink, generous soft white margins and 3:2 landscape format. No new people, maps, signs with text, routes or clues that answer the listening questions.",
+  "editSourceImage": "exec-32eb7994-ceeb-4465-b249-8cf451d5dcbc.png",
+  "encoding": "WebP quality 90; composition and dimensions retained."
+}

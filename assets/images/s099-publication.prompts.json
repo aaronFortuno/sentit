@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-25",
+  "tool": "image_gen built-in",
+  "code": "S099",
+  "file": "s099-publicacio-v1.webp",
+  "alt": "La Mar conversa amb una pèrita que porta una carpeta dins d’una cuina.",
+  "width": 1536,
+  "height": 1024,
+  "references": [
+    "../characters/mar-model-sheet-v1.webp"
+  ],
+  "models": [
+    "../characters/mar-model-sheet-v1.webp"
+  ],
+  "sourceImage": "exec-538e2c67-cfc6-4fdf-9807-0dddb0e9fe16.png",
+  "sourceImageSha256": "d57c478c2412b8353ce5da0a7127a49370c1e4b138b9808fe2d89d270c783eaf",
+  "prompt": "Use case: illustration-story. One individual landscape 3:2 image, ideally 1536x1024, for a Catalan listening-comprehension worksheet and catalogue card, printed about 80 mm wide. The supplied images are references ONLY for character identities and existing style, not edit targets. Match their exact faces, ages, hair and clothing. Ferran: elderly man, silver wavy hair, short white beard, round dark glasses, charcoal cable-knit cardigan and sage checked shirt. Aina: young girl, chestnut bob and bangs, round glasses, mustard sweater and grey trousers. Mar: adult woman, brown hair in low ponytail, olive blazer over cream top. Only include characters named in the scene. Fine naturalistic ink and restrained softly textured watercolor, warm earth tones and gentle light, white paper with a generous pure white soft-fading margin on all four edges. No frame, panels, model-sheet poses, lettering, numerals, logos, labels or watermark. Natural anatomy and hands, clearly readable specific action at small print size. Inside a modest home kitchen Mar speaks to an occasional female insurance assessor with a straight dark bob, a muted blue blazer and a folder held open with its pages angled completely away. Both are standing near a generic kitchen cabinet, with a partial doorway to a hallway in the background. Mar makes a small explanatory hand gesture; assessor listens attentively. Do not show damage, dampness, pipes, leaking water, stains, repair tools, photographs, numbers or readable documents. Keep the question of origin and extent of the leak unresolved visually.",
+  "encoding": "WebP quality 90; composition and dimensions retained."
+}

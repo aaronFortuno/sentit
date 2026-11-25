@@ -477,9 +477,9 @@ export const editorialReviews = {
   },
   "ca-S072": {
     "status": "passed",
-    "reviewedAt": "2026-11-22",
-    "reviewer": "autoria_tanda4_cuina_taller",
-    "fingerprint": "b7efd9ded637df90aa55d3793d959d447a76ec667d03cd13e19ad338560c60a6"
+    "reviewedAt": "2026-11-25",
+    "reviewer": "/root/review_final_five_20261125",
+    "fingerprint": "050e3758c3de2cfb00935b59cc206fca0e8a77c848c86aca3c8c216f3572c801"
   },
   "ca-S073": {
     "status": "passed",
@@ -579,9 +579,9 @@ export const editorialReviews = {
   },
   "ca-S089": {
     "status": "passed",
-    "reviewedAt": "2026-11-23",
-    "reviewer": "revisio_tancament_s027",
-    "fingerprint": "f365596e0fcdd33364fffc24e8eefcc6620d443e2512722c12365b8d830eb97a"
+    "reviewedAt": "2026-11-25",
+    "reviewer": "/root/review_final_five_20261125",
+    "fingerprint": "11a1464e406a74a9317bfaf5dab94dc03cffddacf88cdc2e8ff2ad54df312db6"
   },
   "ca-S090": {
     "status": "passed",
@@ -609,9 +609,9 @@ export const editorialReviews = {
   },
   "ca-S094": {
     "status": "passed",
-    "reviewedAt": "2026-11-23",
-    "reviewer": "revisio_tancament_s027",
-    "fingerprint": "505aa3200d59f1633efe6727d62aac4da7cb0c6373cc99d2d833b6a2e72e0f14"
+    "reviewedAt": "2026-11-25",
+    "reviewer": "/root/review_final_five_20261125",
+    "fingerprint": "2b23227c9a7c4600b9ef3cdb1c9352b174c59ee703f7aeda63790fefa50a6ef9"
   },
   "ca-S095": {
     "status": "passed",
@@ -639,9 +639,9 @@ export const editorialReviews = {
   },
   "ca-S099": {
     "status": "passed",
-    "reviewedAt": "2026-11-23",
-    "reviewer": "auditoria_registre_pendents",
-    "fingerprint": "ee151c50d2ff78ec12d0b1cd56c9bd7ab0659d99964270a906abd49445f2f1c7"
+    "reviewedAt": "2026-11-25",
+    "reviewer": "/root/review_final_five_20261125",
+    "fingerprint": "7d523b30ba49a0f3b46a59280055bd8481b983af011319dfda5ec94c51102c65"
   },
   "ca-S100": {
     "status": "passed",
@@ -711,8 +711,8 @@ export const editorialReviews = {
   },
   "ca-S111": {
     "status": "passed",
-    "reviewedAt": "2026-11-24",
-    "reviewer": "auditoria_registre_pendents",
-    "fingerprint": "522e9ccf998cdc300083d6365cfae42680cf62d58549d1ad099c13f00de395ea"
+    "reviewedAt": "2026-11-25",
+    "reviewer": "/root/review_final_five_20261125",
+    "fingerprint": "7a80ff9ded56c7571a4dbdbbf4429b2603181a0b30b985f6e67451a2a68153a5"
   }
 };

@@ -7,7 +7,8 @@ const room = 'Ambient enregistrat real d’interior tranquil, molt baix i contin
 export const dailyMarEnquiries = [
   dailyProposal({
     id: 'despres-de-la-fuita', code: 'S099', title: 'Després de la fuita', grade: 'eso1', level: 'middle', genre: 'dialogue',
-    seconds: 109, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s099-publicacio-v1.webp","alt":"La Mar conversa amb una pèrita que porta una carpeta dins d’una cuina.","width":1536,"height":1024},
+    seconds: 109, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s099-mixed-v1.mp3', tracks: { introduction: './assets/audio/s099-mixed-v1-intro.mp3', body: './assets/audio/s099-mixed-v1-cos.mp3' },
     fragment: { start: 4.24, seconds: 104 },
     voices: { Mar: 'Erinome', Pèrita: 'Callirrhoe' }, guestSpeakers: [{ name: 'Pèrita', voice: 'Callirrhoe', role: 'Pèrita que visita un habitatge · ocasional' }], delivery,

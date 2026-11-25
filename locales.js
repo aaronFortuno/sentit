@@ -1,5 +1,6 @@
 export const strings = {
   ca: {
+    releaseFiveFinalPublications: 'S094, S111, S099, S072 i S089 publicades definitivament, amb il·lustracions pròpies revisades, fitxes i solucionaris nets. Els cinc àudios aprovats es conserven intactes. Retorns de veu i cua d’esmenes actualitzats, sense síntesi nova.',
     releaseQuestionChoices: 'Pilot de resposta oberta o ABCD a S001–S005 i S004D: 37 alternatives amb revisió independent i una pregunta oberta justificada. Tria general i individual, maquetats conservats, solucionari amb lletra i evidències. Alternatives provisionals, pendents de validació docent.',
     responseFormat: 'Format de les preguntes', responseOpen: 'Resposta oberta', responseChoice: 'ABCD',
     responseCount: (choices, open) => `${choices} ABCD · ${open} obertes`,
@@ -316,6 +317,7 @@ export const strings = {
     sessionEnded: 'Sessió acabada', remainingTime: 'Temps restant',
   },
   es: {
+    releaseFiveFinalPublications: 'S094, S111, S099, S072 y S089 publicadas definitivamente, con ilustraciones propias revisadas, fichas y solucionarios limpios. Los cinco audios aprobados se conservan intactos. Revisiones de voz y cola de correcciones actualizadas, sin síntesis nueva.',
     releaseQuestionChoices: 'Piloto de respuesta abierta o ABCD en S001–S005 y S004D: 37 alternativas con revisión independiente y una pregunta abierta justificada. Elección general e individual, maquetaciones conservadas, solucionario con letra y evidencias. Alternativas provisionales, pendientes de validación docente.',
     responseFormat: 'Formato de las preguntas', responseOpen: 'Respuesta abierta', responseChoice: 'ABCD',
     responseCount: (choices, open) => `${choices} ABCD · ${open} abiertas`,

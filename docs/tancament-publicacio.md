@@ -32,3 +32,6 @@ Aplicat el 25/11/2026 a S055, S060, S076, S083, S084, S086, S091, S092, S096, S0
 
 
 Tancament del 25/11/2026, segona tanda: S104, S106, S087, S110, S074, S100, S108, S056 i S097, totes amb validació definitiva explícita del docent. Nou il·lustracions individuals generades amb el generador integrat i models canònics; WebP de 1536 × 1024, prompts i referències a `assets/images/sXXX-publication.prompts.json`. Revisió independent de les imatges, 65 preguntes i 77 cites; S074 és diàleg i la coberta negra s’ha ajustat a l’àudio. Màsters intactes, esmenes de S056/S097 validades en context i comparacions tancades. Fitxes, solucionaris nets, ressaltats i paginació comprovats en local. Detall i fitxers a [la segona publicació del 25/11](publicacio-2026-11-25-segona-tanda.md).
+
+
+Tancament del 25/11/2026, tercera tanda: S094, S111, S099, S072 i S089, amb validació definitiva explícita del docent. Cinc il·lustracions creades amb el generador integrat i models canònics, amb prompts i edicions a `assets/images/sXXX-publication.prompts.json`. Revisió independent d’imatges, alts i 39 preguntes amb cites; S094 evita suggerir el color del paraigua de recanvi. Màsters intactes, fitxes i solucionaris només parlats comprovats en local. Detall a [la tercera publicació del 25/11](publicacio-2026-11-25-tercera-tanda.md).

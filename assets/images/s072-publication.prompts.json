@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-25",
+  "tool": "image_gen built-in",
+  "code": "S072",
+  "file": "s072-publicacio-v1.webp",
+  "alt": "L’avi Ferran explica un record a l’Aina amb un quadern tancat a la taula.",
+  "width": 1536,
+  "height": 1024,
+  "references": [
+    "../characters/ferran-model-sheet-v1.webp",
+    "../characters/aina-model-sheet-v1.webp"
+  ],
+  "models": [
+    "../characters/ferran-model-sheet-v1.webp",
+    "../characters/aina-model-sheet-v1.webp"
+  ],
+  "sourceImage": "exec-499e566d-0585-4c35-935f-e1ac7ed3dc8f.png",
+  "sourceImageSha256": "55f4526856b777abb2abfaaf7bdfbe4e4790d234e0acbdc60dab3f95ecbec11d",
+  "prompt": "Use case: illustration-story. One individual landscape 3:2 image, ideally 1536x1024, for a Catalan listening-comprehension worksheet and catalogue card, printed about 80 mm wide. The supplied images are references ONLY for character identities and existing style, not edit targets. Match their exact faces, ages, hair and clothing. Ferran: elderly man, silver wavy hair, short white beard, round dark glasses, charcoal cable-knit cardigan and sage checked shirt. Aina: young girl, chestnut bob and bangs, round glasses, mustard sweater and grey trousers. Mar: adult woman, brown hair in low ponytail, olive blazer over cream top. Only include characters named in the scene. Fine naturalistic ink and restrained softly textured watercolor, warm earth tones and gentle light, white paper with a generous pure white soft-fading margin on all four edges. No frame, panels, model-sheet poses, lettering, numerals, logos, labels or watermark. Natural anatomy and hands, clearly readable specific action at small print size. At a small kitchen table Ferran tells a warm memory to Aina. He rests an open hand beside a closed, plain notebook and a pencil; Aina leans in listening with an amused attentive expression. Specific natural gesture and domestic setting. Do not show cakes, a market, receipts, numbers, ledger entries, names, marks, open pages, or any answer to the story.",
+  "editPrompt": "Edit this image only to remove the adult woman seated in the middle. Exactly two people must remain: the young girl with glasses and mustard sweater on the left (Aina) and the elderly man with glasses and charcoal cardigan on the right (Ferran). Fill her former area with natural kitchen background. Preserve both remaining character identities and the closed notebook, pencil, table, restrained ink/watercolor style, generous soft white margins and 3:2 composition. Do not add people, lettering or new story details.",
+  "editSourceImage": "exec-2edf9739-2c2b-4196-91d1-c5f998d27264.png",
+  "encoding": "WebP quality 90; composition and dimensions retained."
+}

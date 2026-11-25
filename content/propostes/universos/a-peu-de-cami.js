@@ -110,7 +110,8 @@ export const walkingActivities = [
   }),
   make({
     id: 'la-porta-del-cami-vell', code: 'S111', title: 'La porta del camí vell', grade: '6', level: 'advanced', genre: 'dialogue',
-    seconds: 107, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s111-publicacio-v1.webp","alt":"L’Aina i l’avi Ferran s’aturen a parlar al costat d’una porta en un camí rural.","width":1536,"height":1024},
+    seconds: 107, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s111-mixed-v1.mp3', tracks: { introduction: './assets/audio/s111-mixed-v1-intro.mp3', body: './assets/audio/s111-mixed-v1-cos.mp3' },
     fragment: { start: 4.98, seconds: 102 },
     summary: 'L’Aina i en Ferran volen acabar una passejada pel camí que ell recorda. Una porta tancada els obliga a repensar la tornada.',

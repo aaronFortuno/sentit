@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-25",
+  "tool": "image_gen built-in",
+  "code": "S094",
+  "file": "s094-publicacio-v1.webp",
+  "alt": "La Mar conversa amb una dependenta al taulell d’una botiga d’accessoris.",
+  "width": 1536,
+  "height": 1024,
+  "references": [
+    "../characters/mar-model-sheet-v1.webp"
+  ],
+  "models": [
+    "../characters/mar-model-sheet-v1.webp"
+  ],
+  "sourceImage": "exec-b34ddd6c-b65c-4c49-90cc-ba930845a99b.png",
+  "sourceImageSha256": "4e82dfe2db8fd831bbbaf56944d2952fb77dfceae7c5c28a6cc960a28a7bc5d2",
+  "prompt": "Use case: illustration-story. One individual landscape 3:2 image, ideally 1536x1024, for a Catalan listening-comprehension worksheet and catalogue card, printed about 80 mm wide. The supplied images are references ONLY for character identities and existing style, not edit targets. Match their exact faces, ages, hair and clothing. Ferran: elderly man, silver wavy hair, short white beard, round dark glasses, charcoal cable-knit cardigan and sage checked shirt. Aina: young girl, chestnut bob and bangs, round glasses, mustard sweater and grey trousers. Mar: adult woman, brown hair in low ponytail, olive blazer over cream top. Only include characters named in the scene. Fine naturalistic ink and restrained softly textured watercolor, warm earth tones and gentle light, white paper with a generous pure white soft-fading margin on all four edges. No frame, panels, model-sheet poses, lettering, numerals, logos, labels or watermark. Natural anatomy and hands, clearly readable specific action at small print size. Inside a small accessories shop Mar has placed one closed neutral dark-grey umbrella on the counter and gestures gently towards it while explaining a problem to an occasional female assistant with short auburn hair and a navy blouse. The assistant listens, hands resting naturally on the counter. Suggest a few scarves and bags in the softly drawn background. Do not show an open umbrella, the defect, prices, a visible replacement color, a receipt, cash, returns or a final transaction.",
+  "encoding": "WebP quality 90; composition and dimensions retained.",
+  "editHistory": [
+    {
+      "sourceImage": "exec-7c594da0-4f79-40ca-ae79-755e5798f3eb.png",
+      "prompt": "Remove the elderly man with silver hair and glasses at the left AND the girl with glasses and mustard sweater at the lower left. Keep only the brown-ponytailed adult woman in the olive jacket (Mar) and the auburn-haired shop assistant in navy. Fill the deleted areas with the shop/counter background. Keep the closed dark umbrella on the counter, the two women's expressions, the accessories shop context, fine ink/watercolor and soft white margins. Exactly two people; no children, no older man, no lettering, no receipt, no final transaction."
+    },
+    {
+      "sourceImage": "exec-8f38a81b-b0de-4838-afc8-6eab0327bf3d.png",
+      "prompt": "Precise object edit. Remove only the large closed dark umbrella lying across the foreground wooden counter. Reconstruct that area as an empty wooden counter with the same grain and lighting. Preserve the two adult women exactly, their faces, hair, outfits, hands and natural conversational poses, the whole shop background, accessories, watercolor/ink rendering, generous white fading margins, framing and 3:2 aspect ratio. Do not add people, props, writing or any replacement umbrella on the counter."
+    }
+  ]
+}

@@ -84,7 +84,7 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S070](https://sentit.ortogra.fi/#lectura=ca-S070) | El dia que no va sonar el disc | 6è | Provisional · revisió superada | 2026-11-22 | `c329111785d5…` |
 | [ca-S071](https://sentit.ortogra.fi/#lectura=ca-S071) | Les dues entrades blaves | 5è | Provisional · revisió superada | 2026-11-22 | `63e0c902e8ff…` |
 | [ca-S071D](https://sentit.ortogra.fi/#lectura=ca-S071D) | Les dues entrades blaves · versió dialogada | 5è | Revisió superada · publicació definitiva | 2026-11-23 | `e5a78cab5c4a…` |
-| [ca-S072](https://sentit.ortogra.fi/#lectura=ca-S072) | El quadern de la parada | 6è | Revisió superada · àudio pendent | 2026-11-22 | `b7efd9ded637…` |
+| [ca-S072](https://sentit.ortogra.fi/#lectura=ca-S072) | El quadern de la parada | 6è | Revisió superada · publicació definitiva | 2026-11-25 | `050e3758c3de…` |
 | [ca-S073](https://sentit.ortogra.fi/#lectura=ca-S073) | El dinar que surt en dues tandes | 5è | Revisió superada · publicació definitiva | 2026-11-23 | `4125af4fad1a…` |
 | [ca-S074](https://sentit.ortogra.fi/#lectura=ca-S074) | Les dues llibretes del pastís | 5è | Revisió superada · publicació definitiva | 2026-11-25 | `455121f7226b…` |
 | [ca-S075](https://sentit.ortogra.fi/#lectura=ca-S075) | La foto del plat de demà | 6è | Revisió superada · publicació definitiva | 2026-11-23 | `18a655dc02cd…` |
@@ -101,17 +101,17 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S086](https://sentit.ortogra.fi/#lectura=ca-S086) | El pa per al sopar | 3r | Revisió superada · publicació definitiva | 2026-11-25 | `79f17c46e76b…` |
 | [ca-S087](https://sentit.ortogra.fi/#lectura=ca-S087) | El pom del calaix | 3r | Revisió superada · publicació definitiva | 2026-11-25 | `71d4fad64c76…` |
 | [ca-S088](https://sentit.ortogra.fi/#lectura=ca-S088) | Un llibre que encara tinc a casa | 4t | Provisional · revisió superada | 2026-11-23 | `d6d6b7eac6f6…` |
-| [ca-S089](https://sentit.ortogra.fi/#lectura=ca-S089) | La gossa que passeja en Ferran | 3r | Revisió superada · àudio pendent | 2026-11-23 | `f365596e0fcd…` |
+| [ca-S089](https://sentit.ortogra.fi/#lectura=ca-S089) | La gossa que passeja en Ferran | 3r | Revisió superada · publicació definitiva | 2026-11-25 | `11a1464e406a…` |
 | [ca-S090](https://sentit.ortogra.fi/#lectura=ca-S090) | Ens falta espai per jugar | 4t | Provisional · revisió superada | 2026-11-23 | `3945774f4fa3…` |
 | [ca-S091](https://sentit.ortogra.fi/#lectura=ca-S091) | El berenar ben pla | 3r | Revisió superada · publicació definitiva | 2026-11-25 | `ca43f9ee5ce0…` |
 | [ca-S092](https://sentit.ortogra.fi/#lectura=ca-S092) | El carrer està tallat | 5è | Revisió superada · publicació definitiva | 2026-11-25 | `84d6f3b9df03…` |
 | [ca-S093](https://sentit.ortogra.fi/#lectura=ca-S093) | El tren que arriba abans | 6è | Provisional · revisió superada | 2026-11-24 | `eaf0239e622c…` |
-| [ca-S094](https://sentit.ortogra.fi/#lectura=ca-S094) | El paraigua no s’obre | 5è | Revisió superada · àudio pendent | 2026-11-23 | `505aa3200d59…` |
+| [ca-S094](https://sentit.ortogra.fi/#lectura=ca-S094) | El paraigua no s’obre | 5è | Revisió superada · publicació definitiva | 2026-11-25 | `2b23227c9a7c…` |
 | [ca-S095](https://sentit.ortogra.fi/#lectura=ca-S095) | Un paquet massa llarg | 6è | Provisional · revisió superada | 2026-11-24 | `7ed0378eef4a…` |
 | [ca-S096](https://sentit.ortogra.fi/#lectura=ca-S096) | El banc de la placeta | 6è | Revisió superada · publicació definitiva | 2026-11-25 | `aff0cd6efcce…` |
 | [ca-S097](https://sentit.ortogra.fi/#lectura=ca-S097) | Quina parada em queda més a prop? | 5è | Revisió superada · publicació definitiva | 2026-11-25 | `e6fbfc105080…` |
 | [ca-S098](https://sentit.ortogra.fi/#lectura=ca-S098) | El tiquet d’una altra taula | 5è | Revisió superada · publicació definitiva | 2026-11-25 | `ced056785242…` |
-| [ca-S099](https://sentit.ortogra.fi/#lectura=ca-S099) | Després de la fuita | 1r d’ESO | Revisió superada · àudio pendent | 2026-11-23 | `ee151c50d2ff…` |
+| [ca-S099](https://sentit.ortogra.fi/#lectura=ca-S099) | Després de la fuita | 1r d’ESO | Revisió superada · publicació definitiva | 2026-11-25 | `7d523b30ba49…` |
 | [ca-S100](https://sentit.ortogra.fi/#lectura=ca-S100) | Un paquet de bolis cobrat dos cops | 6è | Revisió superada · publicació definitiva | 2026-11-25 | `4dff90bac370…` |
 | [ca-S101](https://sentit.ortogra.fi/#lectura=ca-S101) | Arribarem quan la recepció sigui tancada | 6è | Revisió superada · publicació definitiva | 2026-11-25 | `cdf204ed1c01…` |
 | [ca-S102](https://sentit.ortogra.fi/#lectura=ca-S102) | L’autobús que no es va aturar | 6è | Provisional · revisió superada | 2026-11-23 | `4dd156b4c265…` |
@@ -123,7 +123,7 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S108](https://sentit.ortogra.fi/#lectura=ca-S108) | Un lloc per berenar | 3r | Revisió superada · publicació definitiva | 2026-11-25 | `393f58bd9fb7…` |
 | [ca-S109](https://sentit.ortogra.fi/#lectura=ca-S109) | Les sabates del diumenge | 4t | Provisional · revisió superada | 2026-11-24 | `49f5f4af5c5b…` |
 | [ca-S110](https://sentit.ortogra.fi/#lectura=ca-S110) | Un so darrere els arbres | 5è | Revisió superada · publicació definitiva | 2026-11-25 | `3b377041184c…` |
-| [ca-S111](https://sentit.ortogra.fi/#lectura=ca-S111) | La porta del camí vell | 6è | Revisió superada · àudio pendent | 2026-11-24 | `522e9ccf998c…` |
+| [ca-S111](https://sentit.ortogra.fi/#lectura=ca-S111) | La porta del camí vell | 6è | Revisió superada · publicació definitiva | 2026-11-25 | `7a80ff9ded56…` |
 
 Les empremtes completes i el revisor consten al [registre de revisions](../content/editorial-reviews.js). La marca provisional només apareix al web si l’empremta coincideix amb el contingut actual. Canviar el guió, les preguntes, les respostes, les pistes, el repartiment o l’escaleta invalida la revisió anterior. Les comprovacions detecten registres caducats abans de publicar.
 

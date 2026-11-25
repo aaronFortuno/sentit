@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.107 · 25 de novembre de 2026
+
+- Publicació definitiva de S094, S111, S099, S072 i S089 amb aprovació docent. Cinc il·lustracions contextuals, amb models i prompts conservats, revisades independentment al costat de les 39 preguntes i cites.
+- Fitxes i solucionaris nets, imatge opcional de 80 mm i paginació comprovades localment. Els cinc màsters aprovats es mantenen intactes.
+- Retorns de veu registrats: S025, S071, S022 (segona prova amb raïls), S059 i S061 tenen les esmenes validades per aplicar. S070 conserva pendent una comparació parcial; S081 necessita tornar a sintetitzar els dos torns amb funda. Cap petició nova de síntesi.
+
 ## 0.1.106 · 25 de novembre de 2026
 
 - Pilot seqüencial S001–S005 i S004D amb doble format obert/ABCD. 37 alternatives i una pregunta oberta justificada amb revisió independent exacta; validació docent pendent. Distractors graduats i evidències pròpies, amb transcripcions, preguntes originals i àudios conservats.

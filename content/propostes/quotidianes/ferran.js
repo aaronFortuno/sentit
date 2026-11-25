@@ -70,7 +70,8 @@ export const dailyFerran = [
   }),
   dailyProposal({
     id: 'la-gossa-que-passeja-en-ferran', code: 'S089', title: 'La gossa que passeja en Ferran', grade: '3', level: 'easy', genre: 'dialogue',
-    seconds: 74, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s089-publicacio-v1.webp","alt":"En Ferran conversa amb una coneguda mentre sosté la corretja d’una gossa al carrer.","width":1536,"height":1024},
+    seconds: 74, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s089-mixed-v1.mp3', tracks: { introduction: './assets/audio/s089-mixed-v1-intro.mp3', body: './assets/audio/s089-mixed-v1-cos.mp3' },
     fragment: { start: 4.2700000000000005, seconds: 70 },
     voices: { Ferran: 'Algenib', Margarida: 'Gacrux' }, guestSpeakers: [{ name: 'Margarida', voice: 'Gacrux', role: 'Coneguda d’en Ferran · ocasional' }], delivery,
