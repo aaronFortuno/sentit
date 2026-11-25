@@ -27,6 +27,45 @@ No cal forçar tots els textos futurs dins d’un fil. Els actuals ja tenen alme
 
 **Mans a l’obra** i **A peu de camí** comencen amb quatre propostes cadascun, de 3r a 6è. Les passejades són situacions de conversa, descoberta i decisió: totes les pistes necessàries es diuen en veu alta. Els projectes que exigeixin interpretar mapes o altres documents visuals es treballaran a Mirada. En Biel i l’Elies comparteixen les escenes de taller; l’Aina i en Ferran, les passejades. No s’hi afegeixen recurrents ni es modifica l’univers de peces publicades.
 
+## Proposta d’ampliació: faules, llegendes i mites · 25/11/2026
+
+Nova línia proposada pel docent per ampliar el bagatge cultural a través de l’escolta. Tres universos diferenciats permeten reconèixer el tipus de relat i trobar adaptacions adequades per a edats diferents. Són una proposta editorial: encara no s’han creat guions, assignat codis ni afegit opcions buides als filtres.
+
+| Univers proposat | Què hi trobaríem | Primera orientació de cursos | Objectius d’escolta |
+| --- | --- | --- | --- |
+| **Faules del món** | Faules tradicionals i adaptacions d’Isop, La Fontaine i altres tradicions documentades. | 1r–4t, amb versions més exigents possibles | Accions, ordre dels fets, intencions, enganys i conseqüències. |
+| **Llegendes d’aquí i d’arreu** | Relats tradicionals vinculats a llocs, personatges o costums, amb procedència identificada. | 3r–6è, ampliable a ESO | Relació entre lloc i relat, motivacions, elements meravellosos i versions de la tradició. |
+| **Mites de l’antiguitat** | Episodis de les tradicions grega i romana, amb cada tradició i versió ben situades. | 4t–6è i ESO, segons la càrrega del relat | Relacions causals, decisions, proves i interpretació de símbols amb suport en el text. |
+
+Les franges són una hipòtesi de treball, no qualificacions ja validades. La dificultat dependrà dels referents que cal retenir, els noms propis, els salts temporals, les inferències i les preguntes, a més de la durada. L’entrada a 1r–2n necessita els pilots i l’adaptació de fitxa previstos al [pla de prioritats](prioritats-cataleg.md).
+
+### Selecció inicial per preparar més endavant
+
+- **Faules:** *El lleó i el ratolí*, *La llebre i la tortuga* i *El corb i la guineu*. Candidats a una primera tanda breu i accessible; ampliar després amb tradicions d’altres procedències perquè el nom «del món» es tradueixi en diversitat real.
+- **Llegendes:** una versió documentada de *Sant Jordi i el drac*, una llegenda local vinculada a un lloc concret i una d’una altra tradició. Primer s’escull i identifica la font; després es determina què s’adapta.
+- **Mites:** *Ariadna i el fil del laberint*, *Dèdal i Ícar* i *Demèter i Persèfone*. Són candidats, no un encàrrec de síntesi: cal triar un episodi comprensible per si sol i validar-ne l’adaptació a l’edat.
+
+Començar amb un pilot per univers, en lloc d’obrir de cop una altra tanda extensa mentre es validen S112–S127. Les peces continuaran sent autònomes, encara que després permetin comparar versions o treballar-les en una col·lecció docent.
+
+### Adaptació i revisió
+
+1. **Font i versió identificades.** Registrar títol, autor o atribució tradicional, procedència, edició o testimoni consultat, enllaç i canvis principals de l’adaptació. Comprovar les condicions de reutilització de la versió concreta; redactar una adaptació pròpia a partir de fonts que ho permetin. «Tradicional» no descriu automàticament les condicions d’una traducció o adaptació moderna.
+2. **Bagatge cultural sense coneixements previs obligatoris.** Introduir lloc, protagonistes i relacions dins l’àudio. Limitar els noms nous i repetir els importants de manera natural. Totes les respostes s’han de poder obtenir escoltant aquesta peça; l’alumne no necessita conèixer abans el mite ni consultar la il·lustració.
+3. **Tradició explícita.** Situar el relat amb una entrada breu pròpia del gènere («Una llegenda explica…», «Segons aquest mite grec…»). Distingir el relat tradicional d’una explicació històrica o científica. Mantenir coherents els noms i les relacions de la versió grega o romana escollida; explicar els contrastos entre versions només quan siguin l’objectiu de l’activitat.
+4. **Moral pròpia del gènere.** Les faules poden contenir una moral documentada de la versió adaptada. Decidir expressament si es locuta o es deixa inferir i registrar-ho a l’escaleta. El criteri habitual contra les moralines afegides es manté: no inventar una lliçó final aliena al relat. Una reflexió personal continua oberta; un ítem ABCD sobre una inferència ha de tenir una sola resposta defensable amb el text.
+5. **Adequació i fidelitat.** Seleccionar i adaptar violència, por, tractament dels personatges i finals d’acord amb l’edat. Fer constar les simplificacions rellevants, conservar la lògica del relat i respectar les diferències entre tradicions. No presentar totes les variants com una única versió autèntica.
+6. **Dos formats i revisió independent des de l’esborrany.** Preguntes obertes i ABCD allà on sigui adequat, amb evidències, clau i distractors graduats. El revisor comprova també la font, la coherència de l’adaptació, la càrrega de memòria oral i que el context imprès o la imatge no anticipin respostes. El docent valida guió i muntatge previst abans d’enviar cap veu a sintetitzar.
+
+La [BnF descriu les fonts antigues de les faules de La Fontaine](https://gallica.bnf.fr/accueil/fr/html/les-sources-antiques-des-fables-de-la-fontaine): convé distingir el relat tradicional de la reelaboració concreta que ens serveix de base. És una referència inicial de selecció, no la fitxa de font de totes les futures adaptacions.
+
+### Veus, muntatge i encaix amb les esmenes
+
+Una veu narradora estable per tanda, amb una segona veu només quan aporti valor. Els protagonistes de faules i mites són personatges de la peça, no noves fitxes recurrents de «Coneix els personatges». Compartir la veu Algenib no converteix automàticament el narrador en l’avi Ferran. Si Ferran explica una faula a l’Aina, el guió ho situa com un relat que explica, amb un marc breu i natural.
+
+Una tanda narrada amb Algenib podria ajudar a completar les esmenes delimitades de Ferran, si la direcció i el repartiment són compatibles. Les faules molt curtes poden requerir més peces per arribar als sis a vuit minuts: calcular el lot amb els textos validats, sense afegir farciment. Preservar les identitats i separar clarament cada relat; no parlar en vers si la dificultat lingüística no ho justifica.
+
+Preveure una base musical molt discreta i efectes puntuals amb funció narrativa, mantenint totes les dades comprensibles només amb les veus. Fonts i llicències sonores registrades com a la resta del catàleg. La prioritat immediata continua sent validar la tanda existent i tancar esmenes; aquests universos guien la pròxima selecció.
+
 ## Personatges narrats i veus
 
 S004/S004D, S008/S008R, S018 i S022 comparteixen el fil de l’Aina i l’avi Ferran encara que algunes peces només tinguin una narradora anònima. El filtre de personatges que parlen és diferent del filtre d’universos. S004D i S008R són versions de peces existents, no nous episodis en una cronologia.
