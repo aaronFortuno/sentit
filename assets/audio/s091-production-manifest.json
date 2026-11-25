@@ -1,0 +1,83 @@
+{
+  "code": "S091",
+  "activity": "ca-S091",
+  "state": "awaiting-montage-validation",
+  "file": "s091-mixed-v1.mp3",
+  "introFile": "s091-mixed-v1-intro.mp3",
+  "bodyFile": "s091-mixed-v1-cos.mp3",
+  "offset": 4.0200000000000005,
+  "bodyDuration": 70.15,
+  "fullDuration": 74.17,
+  "voices": {
+    "Laia": "Leda",
+    "Biel": "Puck"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "a60fe358a66004eba2e6b742133d7f9780780baf5a8739a3a428828c3e6fa590",
+  "sourceRequestHash": "26982922039dd89c7300b59d0269628ec9f5098d29eb0270cb716812084c7e45",
+  "batch": "L31",
+  "rawSha256": "bd17485cca82d19a097a226a1f1287a035db454d787194c9e781fa088a9d8555",
+  "takeSha256": "4f95c91b9540fdadcb9d2a17c3f24677040ccce2070f42ac66075bfa4ccfd04f",
+  "coverage": 0.8663366336633663,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.24,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "soaress-546234",
+      "start": 0,
+      "source": "assets/audio/sources/soaress-546234.mp3",
+      "sourceSha256": "1059086683943b6b8d679a9283eda0bf08a75c05cbc711b2ec6a14a276f5028c",
+      "sourceUrl": "https://freesound.org/people/soaress/sounds/546234/",
+      "author": "soaress",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.1,
+      "openingGain": 0.22,
+      "raisedGain": 0.28,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -48,
+      "lowPassHz": 3600,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 40,
+        "seconds": 90
+      },
+      "envelope": {
+        "riseStart": 65.74999999999997,
+        "riseEnd": 66.54999999999998,
+        "holdSeconds": 1.0000000000000142,
+        "fadeStart": 67.55,
+        "fadeEnd": 68.95
+      }
+    }
+  ],
+  "sha256": "8b3c96aaa58f393482a14a2824d21d6f31aaed049d8c031d1ff63e34ae92df87",
+  "voiceHandles": {
+    "body": {
+      "start": 0.175,
+      "end": 64.625,
+      "retainedPcmSha256": "6a338139f8e9268348bfd3f33264ad82bf8e68055f7c527700b7f7cccfb7bc24",
+      "sourceSha256": "c5204ecf172fcb7ffa5a3d60280bfe97cf5ef6dd56cd94f63e7e77c15067b7bc",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.01,
+      "end": 3.08,
+      "retainedPcmSha256": "3e679a03e1414ecc8e9de6a678bb68efa137c38963c5d09ba7c874a24b9d87a9",
+      "sourceSha256": "2de0ae1340ead13f31ca06c0f8efa16cfad2ff483eed0eadb318594319f69f51",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-25",
+    "sourceTakeSha256": "4f95c91b9540fdadcb9d2a17c3f24677040ccce2070f42ac66075bfa4ccfd04f",
+    "confirmation": "Docent 25/11: S091 validat per muntatge."
+  }
+}

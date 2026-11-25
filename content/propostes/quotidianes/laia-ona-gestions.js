@@ -7,6 +7,9 @@ const room = 'Ambient real continu de sala de restaurant o barra, molt tènue so
 export const dailyLaiaOnaErrands = [
   dailyProposal({
     id: 'el-tiquet-duna-altra-taula', code: 'S098', title: 'El tiquet d’una altra taula', grade: '5', level: 'middle', genre: 'dialogue',
+    seconds: 75, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s098-mixed-v1.mp3', tracks: { introduction: './assets/audio/s098-mixed-v1-intro.mp3', body: './assets/audio/s098-mixed-v1-cos.mp3' },
+    fragment: { start: 3.96, seconds: 71 },
     voices: { Laia: 'Leda', Ona: 'Sulafat' }, delivery,
     summary: 'Abans de pagar el berenar, la Laia veu una cosa estranya al tiquet. Amb l’Ona recorden on s’havien assegut i miren què ha passat.',
     editorialFocus: '5è intermèdia: comparar una consumició amb un tiquet, seguir un canvi de taula i explicar una confusió amb una altra comanda. Una escena concreta amb dues veus; el Biel només es menciona.',
@@ -37,6 +40,9 @@ export const dailyLaiaOnaErrands = [
   }),
   dailyProposal({
     id: 'canvi-a-la-reserva-de-dissabte', code: 'S103', title: 'Canvi a la reserva de dissabte', grade: '5', level: 'middle', genre: 'dialogue',
+    seconds: 80, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s103-mixed-v1.mp3', tracks: { introduction: './assets/audio/s103-mixed-v1-intro.mp3', body: './assets/audio/s103-mixed-v1-cos.mp3' },
+    fragment: { start: 4.255, seconds: 75 },
     voices: { Laia: 'Leda', Ona: 'Sulafat' }, delivery,
     summary: 'La Laia truca de part de la mare per canviar una reserva. Han variat el nombre de persones i l’hora a què podran arribar.',
     editorialFocus: '5è intermèdia: comunicar dos canvis, comprovar les dades actualitzades i relacionar les persones amb l’encàrrec de menjar. Laia parla com una jove que ajuda en una gestió familiar.',

@@ -1,6 +1,6 @@
 # Seguiment de les comprensions
 
-Actualitzat: **24/11/2026**. **51 pendents** de 119 comprensions orals; **68 finalitzades** al [registre de publicacions](publicades.md). Les variants es compten per separat.
+Actualitzat: **25/11/2026**. **51 pendents** de 119 comprensions orals; **68 finalitzades** al [registre de publicacions](publicades.md). Les variants es compten per separat.
 
 La taula conté només feina oberta. Una peça en surt quan té publicació definitiva registrada per al contingut exacte. Les noves propostes s’hi incorporen automàticament; quan no quedi feina, la taula quedarà buida.
 
@@ -8,12 +8,12 @@ La taula conté només feina oberta. Una peça en surt quan té publicació defi
 
 | Feina | Peces | Codis |
 | --- | ---: | --- |
-| Escoltar el muntatge | 3 | [ca-S055](https://sentit.ortogra.fi/#lectura=ca-S055), [ca-S083](https://sentit.ortogra.fi/#lectura=ca-S083), [ca-S084](https://sentit.ortogra.fi/#lectura=ca-S084) |
-| Resoldre esmenes de veu i tornar a escoltar | 13 | [ca-S005](https://sentit.ortogra.fi/#lectura=ca-S005), [ca-S010](https://sentit.ortogra.fi/#lectura=ca-S010), [ca-S011](https://sentit.ortogra.fi/#lectura=ca-S011), [ca-S015](https://sentit.ortogra.fi/#lectura=ca-S015), [ca-S017](https://sentit.ortogra.fi/#lectura=ca-S017), [ca-S022](https://sentit.ortogra.fi/#lectura=ca-S022), [ca-S025](https://sentit.ortogra.fi/#lectura=ca-S025), [ca-S041](https://sentit.ortogra.fi/#lectura=ca-S041), [ca-S058](https://sentit.ortogra.fi/#lectura=ca-S058), [ca-S061](https://sentit.ortogra.fi/#lectura=ca-S061), [ca-S070](https://sentit.ortogra.fi/#lectura=ca-S070), [ca-S071](https://sentit.ortogra.fi/#lectura=ca-S071), [ca-S081](https://sentit.ortogra.fi/#lectura=ca-S081) |
-| Produir les veus, amb guió validat | 4 | [ca-S104](https://sentit.ortogra.fi/#lectura=ca-S104), [ca-S105](https://sentit.ortogra.fi/#lectura=ca-S105), [ca-S108](https://sentit.ortogra.fi/#lectura=ca-S108), [ca-S109](https://sentit.ortogra.fi/#lectura=ca-S109) |
-| Escoltar i validar les veus abans de muntar | 25 | [ca-S056](https://sentit.ortogra.fi/#lectura=ca-S056), [ca-S059](https://sentit.ortogra.fi/#lectura=ca-S059), [ca-S060](https://sentit.ortogra.fi/#lectura=ca-S060), [ca-S072](https://sentit.ortogra.fi/#lectura=ca-S072), [ca-S074](https://sentit.ortogra.fi/#lectura=ca-S074), [ca-S076](https://sentit.ortogra.fi/#lectura=ca-S076), [ca-S085](https://sentit.ortogra.fi/#lectura=ca-S085), [ca-S086](https://sentit.ortogra.fi/#lectura=ca-S086), [ca-S087](https://sentit.ortogra.fi/#lectura=ca-S087), [ca-S088](https://sentit.ortogra.fi/#lectura=ca-S088), [ca-S089](https://sentit.ortogra.fi/#lectura=ca-S089), [ca-S090](https://sentit.ortogra.fi/#lectura=ca-S090), [ca-S091](https://sentit.ortogra.fi/#lectura=ca-S091), [ca-S092](https://sentit.ortogra.fi/#lectura=ca-S092), [ca-S093](https://sentit.ortogra.fi/#lectura=ca-S093), [ca-S094](https://sentit.ortogra.fi/#lectura=ca-S094), [ca-S095](https://sentit.ortogra.fi/#lectura=ca-S095), [ca-S096](https://sentit.ortogra.fi/#lectura=ca-S096), [ca-S097](https://sentit.ortogra.fi/#lectura=ca-S097), [ca-S098](https://sentit.ortogra.fi/#lectura=ca-S098), [ca-S099](https://sentit.ortogra.fi/#lectura=ca-S099), [ca-S100](https://sentit.ortogra.fi/#lectura=ca-S100), [ca-S101](https://sentit.ortogra.fi/#lectura=ca-S101), [ca-S102](https://sentit.ortogra.fi/#lectura=ca-S102), [ca-S103](https://sentit.ortogra.fi/#lectura=ca-S103) |
+| Escoltar el muntatge | 13 | [ca-S055](https://sentit.ortogra.fi/#lectura=ca-S055), [ca-S060](https://sentit.ortogra.fi/#lectura=ca-S060), [ca-S074](https://sentit.ortogra.fi/#lectura=ca-S074), [ca-S076](https://sentit.ortogra.fi/#lectura=ca-S076), [ca-S083](https://sentit.ortogra.fi/#lectura=ca-S083), [ca-S084](https://sentit.ortogra.fi/#lectura=ca-S084), [ca-S086](https://sentit.ortogra.fi/#lectura=ca-S086), [ca-S091](https://sentit.ortogra.fi/#lectura=ca-S091), [ca-S092](https://sentit.ortogra.fi/#lectura=ca-S092), [ca-S096](https://sentit.ortogra.fi/#lectura=ca-S096), [ca-S098](https://sentit.ortogra.fi/#lectura=ca-S098), [ca-S101](https://sentit.ortogra.fi/#lectura=ca-S101), [ca-S103](https://sentit.ortogra.fi/#lectura=ca-S103) |
+| Resoldre esmenes de veu i tornar a escoltar | 18 | [ca-S005](https://sentit.ortogra.fi/#lectura=ca-S005), [ca-S010](https://sentit.ortogra.fi/#lectura=ca-S010), [ca-S011](https://sentit.ortogra.fi/#lectura=ca-S011), [ca-S015](https://sentit.ortogra.fi/#lectura=ca-S015), [ca-S017](https://sentit.ortogra.fi/#lectura=ca-S017), [ca-S022](https://sentit.ortogra.fi/#lectura=ca-S022), [ca-S025](https://sentit.ortogra.fi/#lectura=ca-S025), [ca-S041](https://sentit.ortogra.fi/#lectura=ca-S041), [ca-S058](https://sentit.ortogra.fi/#lectura=ca-S058), [ca-S059](https://sentit.ortogra.fi/#lectura=ca-S059), [ca-S061](https://sentit.ortogra.fi/#lectura=ca-S061), [ca-S070](https://sentit.ortogra.fi/#lectura=ca-S070), [ca-S071](https://sentit.ortogra.fi/#lectura=ca-S071), [ca-S081](https://sentit.ortogra.fi/#lectura=ca-S081), [ca-S085](https://sentit.ortogra.fi/#lectura=ca-S085), [ca-S093](https://sentit.ortogra.fi/#lectura=ca-S093), [ca-S095](https://sentit.ortogra.fi/#lectura=ca-S095), [ca-S102](https://sentit.ortogra.fi/#lectura=ca-S102) |
+| Produir les veus, amb guió validat | 0 | Cap |
+| Escoltar i validar les veus abans de muntar | 18 | [ca-S056](https://sentit.ortogra.fi/#lectura=ca-S056), [ca-S072](https://sentit.ortogra.fi/#lectura=ca-S072), [ca-S087](https://sentit.ortogra.fi/#lectura=ca-S087), [ca-S088](https://sentit.ortogra.fi/#lectura=ca-S088), [ca-S089](https://sentit.ortogra.fi/#lectura=ca-S089), [ca-S090](https://sentit.ortogra.fi/#lectura=ca-S090), [ca-S094](https://sentit.ortogra.fi/#lectura=ca-S094), [ca-S097](https://sentit.ortogra.fi/#lectura=ca-S097), [ca-S099](https://sentit.ortogra.fi/#lectura=ca-S099), [ca-S100](https://sentit.ortogra.fi/#lectura=ca-S100), [ca-S104](https://sentit.ortogra.fi/#lectura=ca-S104), [ca-S105](https://sentit.ortogra.fi/#lectura=ca-S105), [ca-S106](https://sentit.ortogra.fi/#lectura=ca-S106), [ca-S107](https://sentit.ortogra.fi/#lectura=ca-S107), [ca-S108](https://sentit.ortogra.fi/#lectura=ca-S108), [ca-S109](https://sentit.ortogra.fi/#lectura=ca-S109), [ca-S110](https://sentit.ortogra.fi/#lectura=ca-S110), [ca-S111](https://sentit.ortogra.fi/#lectura=ca-S111) |
 | Muntar les veus rebudes | 0 | Cap |
-| Revisió editorial o validació inicial pendent | 6 | [ca-S001](https://sentit.ortogra.fi/#lectura=ca-S001), [ca-S002](https://sentit.ortogra.fi/#lectura=ca-S002), [ca-S106](https://sentit.ortogra.fi/#lectura=ca-S106), [ca-S107](https://sentit.ortogra.fi/#lectura=ca-S107), [ca-S110](https://sentit.ortogra.fi/#lectura=ca-S110), [ca-S111](https://sentit.ortogra.fi/#lectura=ca-S111) |
+| Revisió editorial o validació inicial pendent | 2 | [ca-S001](https://sentit.ortogra.fi/#lectura=ca-S001), [ca-S002](https://sentit.ortogra.fi/#lectura=ca-S002) |
 
 ## Taula de pendents
 
@@ -35,43 +35,43 @@ La taula conté només feina oberta. Una peça en surt quan té publicació defi
 | [ca-S056](https://sentit.ortogra.fi/#lectura=ca-S056) | El taller canvia de casa | 5è | Avançada · Notícia | Prevista 2:55–3:30 | 8 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
 | [ca-S058](https://sentit.ortogra.fi/#lectura=ca-S058) | La pancarta que tapava la porta | 5è | Accessible · Diàleg | Prevista 1:50–2:15 | 8 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
 | [ca-S059](https://sentit.ortogra.fi/#lectura=ca-S059) | La partida que no cabia a la taula | 5è | Intermèdia · Diàleg | Prevista 1:55–2:25 | 8 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
-| [ca-S060](https://sentit.ortogra.fi/#lectura=ca-S060) | Un soroll darrere de les veus | 6è | Intermèdia · Diàleg | Prevista 1:45–2:10 | 9 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
+| [ca-S060](https://sentit.ortogra.fi/#lectura=ca-S060) | Un soroll darrere de les veus | 6è | Intermèdia · Diàleg | 1:36 | 9 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
 | [ca-S061](https://sentit.ortogra.fi/#lectura=ca-S061) | El curt que començava pel final | 6è | Intermèdia · Diàleg | Prevista 2:40–3:15 | 8 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
 | [ca-S070](https://sentit.ortogra.fi/#lectura=ca-S070) | El dia que no va sonar el disc | 6è | Accessible · Narració | Prevista 1:55–2:20 | 9 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
 | [ca-S071](https://sentit.ortogra.fi/#lectura=ca-S071) | Les dues entrades blaves | 5è | Avançada · Narració | Prevista 3:10–3:50 | 8 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
 | [ca-S072](https://sentit.ortogra.fi/#lectura=ca-S072) | El quadern de la parada | 6è | Avançada · Narració | Prevista 3:10–3:45 | 9 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
-| [ca-S074](https://sentit.ortogra.fi/#lectura=ca-S074) | Les dues llibretes del pastís | 5è | Intermèdia · Entrevista | Prevista 2:10–2:40 | 8 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
-| [ca-S076](https://sentit.ortogra.fi/#lectura=ca-S076) | L’encàrrec que havia crescut | 5è | Avançada · Entrevista | Prevista 3:10–3:45 | 8 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
+| [ca-S074](https://sentit.ortogra.fi/#lectura=ca-S074) | Les dues llibretes del pastís | 5è | Intermèdia · Entrevista | 1:49 | 8 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
+| [ca-S076](https://sentit.ortogra.fi/#lectura=ca-S076) | L’encàrrec que havia crescut | 5è | Avançada · Entrevista | 2:39 | 8 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
 | [ca-S081](https://sentit.ortogra.fi/#lectura=ca-S081) | La guitarra del concert de divendres | 5è | Avançada · Diàleg | Prevista 3:05–3:40 | 8 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
 | [ca-S083](https://sentit.ortogra.fi/#lectura=ca-S083) | Quant de temps, Núria! | 4t | Accessible · Diàleg | 1:16 | 7 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
 | [ca-S084](https://sentit.ortogra.fi/#lectura=ca-S084) | Paper de regal | 3r | Accessible · Diàleg | 1:08 | 6 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
 | [ca-S085](https://sentit.ortogra.fi/#lectura=ca-S085) | El carro davant de la porta | 3r | Intermèdia · Diàleg | Prevista 1:35–2:05 | 6 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
-| [ca-S086](https://sentit.ortogra.fi/#lectura=ca-S086) | El pa per al sopar | 3r | Accessible · Diàleg | Prevista 1:20–1:45 | 6 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
+| [ca-S086](https://sentit.ortogra.fi/#lectura=ca-S086) | El pa per al sopar | 3r | Accessible · Diàleg | 1:06 | 6 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
 | [ca-S087](https://sentit.ortogra.fi/#lectura=ca-S087) | El pom del calaix | 3r | Intermèdia · Diàleg | Prevista 1:30–1:55 | 6 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
 | [ca-S088](https://sentit.ortogra.fi/#lectura=ca-S088) | Un llibre que encara tinc a casa | 4t | Accessible · Diàleg | Prevista 1:25–1:45 | 6 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
 | [ca-S089](https://sentit.ortogra.fi/#lectura=ca-S089) | La gossa que passeja en Ferran | 3r | Accessible · Diàleg | Prevista 1:30–1:55 | 6 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
 | [ca-S090](https://sentit.ortogra.fi/#lectura=ca-S090) | Ens falta espai per jugar | 4t | Accessible · Diàleg | Prevista 1:10–1:30 | 6 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
-| [ca-S091](https://sentit.ortogra.fi/#lectura=ca-S091) | El berenar ben pla | 3r | Accessible · Diàleg | Prevista 1:20–1:40 | 6 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
-| [ca-S092](https://sentit.ortogra.fi/#lectura=ca-S092) | El carrer està tallat | 5è | Intermèdia · Diàleg | Prevista 1:30–1:55 | 7 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
+| [ca-S091](https://sentit.ortogra.fi/#lectura=ca-S091) | El berenar ben pla | 3r | Accessible · Diàleg | 1:10 | 6 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
+| [ca-S092](https://sentit.ortogra.fi/#lectura=ca-S092) | El carrer està tallat | 5è | Intermèdia · Diàleg | 1:19 | 7 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
 | [ca-S093](https://sentit.ortogra.fi/#lectura=ca-S093) | El tren que arriba abans | 6è | Avançada · Diàleg | Prevista 1:30–1:55 | 8 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
 | [ca-S094](https://sentit.ortogra.fi/#lectura=ca-S094) | El paraigua no s’obre | 5è | Intermèdia · Diàleg | Prevista 1:30–1:55 | 7 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
 | [ca-S095](https://sentit.ortogra.fi/#lectura=ca-S095) | Un paquet massa llarg | 6è | Intermèdia · Diàleg | Prevista 1:45–2:15 | 8 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
-| [ca-S096](https://sentit.ortogra.fi/#lectura=ca-S096) | El banc de la placeta | 6è | Intermèdia · Diàleg | Prevista 1:50–2:15 | 8 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
+| [ca-S096](https://sentit.ortogra.fi/#lectura=ca-S096) | El banc de la placeta | 6è | Intermèdia · Diàleg | 1:40 | 8 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
 | [ca-S097](https://sentit.ortogra.fi/#lectura=ca-S097) | Quina parada em queda més a prop? | 5è | Avançada · Diàleg | Prevista 1:50–2:15 | 7 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
-| [ca-S098](https://sentit.ortogra.fi/#lectura=ca-S098) | El tiquet d’una altra taula | 5è | Intermèdia · Diàleg | Prevista 1:25–1:50 | 7 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
+| [ca-S098](https://sentit.ortogra.fi/#lectura=ca-S098) | El tiquet d’una altra taula | 5è | Intermèdia · Diàleg | 1:11 | 7 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
 | [ca-S099](https://sentit.ortogra.fi/#lectura=ca-S099) | Després de la fuita | 1r d’ESO | Intermèdia · Diàleg | Prevista 1:55–2:20 | 8 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
 | [ca-S100](https://sentit.ortogra.fi/#lectura=ca-S100) | Un paquet de bolis cobrat dos cops | 6è | Accessible · Diàleg | Prevista 1:45–2:10 | 8 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
-| [ca-S101](https://sentit.ortogra.fi/#lectura=ca-S101) | Arribarem quan la recepció sigui tancada | 6è | Intermèdia · Diàleg | Prevista 1:40–2:05 | 8 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
+| [ca-S101](https://sentit.ortogra.fi/#lectura=ca-S101) | Arribarem quan la recepció sigui tancada | 6è | Intermèdia · Diàleg | 1:33 | 8 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
 | [ca-S102](https://sentit.ortogra.fi/#lectura=ca-S102) | L’autobús que no es va aturar | 6è | Intermèdia · Diàleg | Prevista 1:40–2:05 | 8 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
-| [ca-S103](https://sentit.ortogra.fi/#lectura=ca-S103) | Canvi a la reserva de dissabte | 5è | Intermèdia · Diàleg | Prevista 1:25–1:45 | 7 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
-| [ca-S104](https://sentit.ortogra.fi/#lectura=ca-S104) | El cartell que es doblegava | 3r | Accessible · Diàleg | Prevista 1:10–1:30 | 6 | ✅ | ✅ | ✅ | **⏳ Síntesi** | — | — | — |
-| [ca-S105](https://sentit.ortogra.fi/#lectura=ca-S105) | El faristol que ballava | 4t | Intermèdia · Diàleg | Prevista 1:25–1:50 | 7 | ✅ | ✅ | ✅ | **⏳ Síntesi** | — | — | — |
-| [ca-S106](https://sentit.ortogra.fi/#lectura=ca-S106) | Un suport per a la gravadora | 5è | Intermèdia · Diàleg | Prevista 1:35–2:00 | 8 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
-| [ca-S107](https://sentit.ortogra.fi/#lectura=ca-S107) | El carro que s’encallava | 6è | Avançada · Diàleg | Prevista 1:50–2:15 | 9 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
-| [ca-S108](https://sentit.ortogra.fi/#lectura=ca-S108) | Un lloc per berenar | 3r | Accessible · Diàleg | Prevista 1:10–1:30 | 6 | ✅ | ✅ | ✅ | **⏳ Síntesi** | — | — | — |
-| [ca-S109](https://sentit.ortogra.fi/#lectura=ca-S109) | Les sabates del diumenge | 4t | Intermèdia · Diàleg | Prevista 1:30–1:50 | 7 | ✅ | ✅ | ✅ | **⏳ Síntesi** | — | — | — |
-| [ca-S110](https://sentit.ortogra.fi/#lectura=ca-S110) | Un so darrere els arbres | 5è | Intermèdia · Diàleg | Prevista 1:30–1:55 | 8 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
-| [ca-S111](https://sentit.ortogra.fi/#lectura=ca-S111) | La porta del camí vell | 6è | Avançada · Diàleg | Prevista 1:55–2:20 | 9 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S103](https://sentit.ortogra.fi/#lectura=ca-S103) | Canvi a la reserva de dissabte | 5è | Intermèdia · Diàleg | 1:15 | 7 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
+| [ca-S104](https://sentit.ortogra.fi/#lectura=ca-S104) | El cartell que es doblegava | 3r | Accessible · Diàleg | Prevista 1:10–1:30 | 6 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
+| [ca-S105](https://sentit.ortogra.fi/#lectura=ca-S105) | El faristol que ballava | 4t | Intermèdia · Diàleg | Prevista 1:25–1:50 | 7 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
+| [ca-S106](https://sentit.ortogra.fi/#lectura=ca-S106) | Un suport per a la gravadora | 5è | Intermèdia · Diàleg | Prevista 1:35–2:00 | 8 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
+| [ca-S107](https://sentit.ortogra.fi/#lectura=ca-S107) | El carro que s’encallava | 6è | Avançada · Diàleg | Prevista 1:50–2:15 | 9 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
+| [ca-S108](https://sentit.ortogra.fi/#lectura=ca-S108) | Un lloc per berenar | 3r | Accessible · Diàleg | Prevista 1:10–1:30 | 6 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
+| [ca-S109](https://sentit.ortogra.fi/#lectura=ca-S109) | Les sabates del diumenge | 4t | Intermèdia · Diàleg | Prevista 1:30–1:50 | 7 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
+| [ca-S110](https://sentit.ortogra.fi/#lectura=ca-S110) | Un so darrere els arbres | 5è | Intermèdia · Diàleg | Prevista 1:30–1:55 | 8 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
+| [ca-S111](https://sentit.ortogra.fi/#lectura=ca-S111) | La porta del camí vell | 6è | Avançada · Diàleg | Prevista 1:55–2:20 | 9 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
 
 ## Esmenes obertes
 
@@ -86,10 +86,15 @@ La taula conté només feina oberta. Una peça en surt quan té publicació defi
 | [ca-S025](https://sentit.ortogra.fi/#lectura=ca-S025) | Clic i cadira retirats, pauses tècniques escurçades. El text tot sol es manté per decisió docent; prémer pendent d’esmena. |
 | [ca-S041](https://sentit.ortogra.fi/#lectura=ca-S041) | Instruccions long pause llegides al títol eliminades localment. Artefacte de «Quan hagis parlat» pendent d’esmena. |
 | [ca-S058](https://sentit.ortogra.fi/#lectura=ca-S058) | S058 validada per síntesi de veus |
+| [ca-S059](https://sentit.ortogra.fi/#lectura=ca-S059) | S059 validat per síntesi de veus |
 | [ca-S061](https://sentit.ortogra.fi/#lectura=ca-S061) | Veus del cos validades després de la neteja. Presentació inicial pendent; sense validació global ni muntatge encara. |
 | [ca-S070](https://sentit.ortogra.fi/#lectura=ca-S070) | El docent demana esmenar la tonicitat de s’asseia si es pot agrupar amb material compatible; no s’ha donat aprovació global de veus ni de muntatge. |
 | [ca-S071](https://sentit.ortogra.fi/#lectura=ca-S071) | Resta de les veus impecable segons el docent. Regenerar la primera intervenció perquè digui clarament Aina, escoltar la represa i després muntar. |
 | [ca-S081](https://sentit.ortogra.fi/#lectura=ca-S081) | Resta de les veus correcta. «Funda» sona «funa» als dos últims torns d’Elies; regenerar-los complets amb Algieba i validar-los abans del muntatge. |
+| [ca-S085](https://sentit.ortogra.fi/#lectura=ca-S085) | Guió i escaleta validats pel docent; síntesi autoritzada dins d’un lot compatible. |
+| [ca-S093](https://sentit.ortogra.fi/#lectura=ca-S093) | Guió, veus i escaleta validats pel docent; preparar un lot compatible de síntesi. |
+| [ca-S095](https://sentit.ortogra.fi/#lectura=ca-S095) | Guió, veus i escaleta validats pel docent; preparar un lot compatible de síntesi. |
+| [ca-S102](https://sentit.ortogra.fi/#lectura=ca-S102) | Guió, veus i escaleta validats pel docent; preparar un lot compatible de síntesi. |
 
 Les proves rebudes encara poden estar pendents d’audició i aplicació. Consulteu [la cua de síntesi i les comparacions](lots-sintesi.md). Rebre una presa no resol automàticament una incidència.
 

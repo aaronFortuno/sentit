@@ -40,6 +40,9 @@ export const dailyFerranErrands = [
   }),
   dailyProposal({
     id: 'el-banc-de-la-placeta', code: 'S096', title: 'El banc de la placeta', grade: '6', level: 'middle', genre: 'dialogue',
+    seconds: 105, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s096-mixed-v1.mp3', tracks: { introduction: './assets/audio/s096-mixed-v1-intro.mp3', body: './assets/audio/s096-mixed-v1-cos.mp3' },
+    fragment: { start: 4.08, seconds: 100 },
     voices: { Ferran: 'Algenib', Informadora: 'Gacrux' }, guestSpeakers: [{ name: 'Informadora', voice: 'Gacrux', role: 'Informadora d’atenció ciutadana · ocasional' }], delivery,
     summary: 'En Ferran vol avisar que un banc d’una placeta està trencat. A l’oficina d’atenció ciutadana l’ajuden a explicar el lloc i a presentar la petició.',
     editorialFocus: '6è intermèdia: entendre per a què serveix una instància, concretar una ubicació i distingir la presentació del seguiment. Formulari i canals d’avís ficticis d’aquesta oficina, no normes generals.',

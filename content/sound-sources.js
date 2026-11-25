@@ -103,6 +103,8 @@ export const soundSources = [
     "usedBy": [
       "ca-S019",
       "ca-S073",
+      "ca-S074",
+      "ca-S076",
       "ca-S077"
     ],
     "treatment": "S019 v3: descartar els primers cinc segons, amb la identificació oral de l’enregistrament, abans de normalitzar i repetir la mostra. Dues passades del fragment retallat amb fosa d’enllaç, nivell molt baix sota la parla i pujada amb fosa final. Presa original conservada.",
@@ -200,7 +202,11 @@ export const soundSources = [
     "usedBy": [
       "ca-S021",
       "ca-S083",
-      "ca-S084"
+      "ca-S084",
+      "ca-S086",
+      "ca-S091",
+      "ca-S092",
+      "ca-S096"
     ],
     "treatment": "Fragment del segon 40 al 100 repetit amb foses creuades i filtrat; ambient molt baix durant tota la conversa, entrada suau i pujada de dos segons seguida de fosa després de l’última paraula. Context urbà de ficció."
   },
@@ -399,7 +405,8 @@ export const soundSources = [
       "ca-S078",
       "ca-S079",
       "ca-S080",
-      "ca-S082"
+      "ca-S082",
+      "ca-S101"
     ],
     "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
   },
@@ -437,7 +444,8 @@ export const soundSources = [
     "usedBy": [
       "ca-S030",
       "ca-S037",
-      "ca-S044"
+      "ca-S044",
+      "ca-S060"
     ],
     "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
   },
@@ -532,7 +540,9 @@ export const soundSources = [
     "retrievedAt": "2026-11-23",
     "sha256": "a5faa173bbc886eb77ebb5035631e56f912ceff988b8c3d8a417d887bd6dccc6",
     "usedBy": [
-      "ca-S075"
+      "ca-S075",
+      "ca-S098",
+      "ca-S103"
     ],
     "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
   }

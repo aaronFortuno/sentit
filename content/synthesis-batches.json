@@ -1205,6 +1205,114 @@
       "estimatedInputTokens": 7354,
       "receipt": "assets/audio/synthesis-batches/l35.json",
       "completedAt": "2026-11-24T14:01:08.329Z"
+    },
+    {
+      "id": "L36",
+      "state": "received",
+      "sourceProposal": "P24",
+      "speechTextFormat": "plain-v1",
+      "styleFormat": "compact-v1",
+      "execution": "background-v1",
+      "blocks": [
+        {
+          "code": "S104",
+          "take": "S104-T01",
+          "sourceRequestHash": "7f660cd602fea3acb25062ce2fbd806ca2c2bdf572f68550f4728835e61c252a"
+        },
+        {
+          "code": "S105",
+          "take": "S105-T01",
+          "sourceRequestHash": "6f6eca385214ff741f7ae31bd892357de352cc7416b2c285e482bdd8d4fee233"
+        },
+        {
+          "code": "S106",
+          "take": "S106-T01",
+          "sourceRequestHash": "054e9a334f1b15434aec44869f77361d7c2729e9c3573d46435ed5f43f43adb1"
+        },
+        {
+          "code": "S107",
+          "take": "S107-T01",
+          "sourceRequestHash": "dc561757d33952e7e02719b1003f56a89307ad8b86990459d782dea52e32ade2"
+        },
+        {
+          "code": "S081",
+          "part": "telefon",
+          "sourceRequestHash": "2b64cf847a2a44ab09aac36118350147868cc8e881e9ea1e66abe7d8e5d58882"
+        },
+        {
+          "code": "S081",
+          "part": "final",
+          "sourceRequestHash": "2b64cf847a2a44ab09aac36118350147868cc8e881e9ea1e66abe7d8e5d58882"
+        },
+        {
+          "code": "S059",
+          "part": "arbre",
+          "sourceRequestHash": "31d97f8fe95632f984b4598f790f145fb1ff0f88a7a7a9a6b51ba9ae297c83cf"
+        }
+      ],
+      "authorization": "Docent 25/11 valida S106/S107/S110/S111 i demana aprofitar la quota disponible per enviar els lots. Guions, veus i escaletes validades; només esmenes demanades o obertures omeses del mateix repartiment. Una petició cada vegada, audició de veus abans de muntar.",
+      "approvedAt": "2026-11-25T07:20:59.874Z",
+      "approvedRequestHash": "8176fbf46265f9e3a131fc1725426c5d108483d7613cc38bbddfc69c9e425901",
+      "estimatedSeconds": 370,
+      "estimatedInputTokens": 6490,
+      "receipt": "assets/audio/synthesis-batches/l36.json",
+      "completedAt": "2026-11-25T07:23:59.464Z"
+    },
+    {
+      "id": "L37",
+      "state": "received",
+      "sourceProposal": "P25",
+      "speechTextFormat": "plain-v1",
+      "styleFormat": "compact-v1",
+      "execution": "background-v1",
+      "blocks": [
+        {
+          "code": "S108",
+          "take": "S108-T01",
+          "sourceRequestHash": "81b73e9e418a3263d165002dc3594e58381ddc60c9f72115d297f91d5c11434b"
+        },
+        {
+          "code": "S109",
+          "take": "S109-T01",
+          "sourceRequestHash": "8fb8198d0661d5b2fc68e3fda6f12d1b180d52e1e7a983f83666d89c03f330e4"
+        },
+        {
+          "code": "S110",
+          "take": "S110-T01",
+          "sourceRequestHash": "2cc6a84ab04c2896a099de6b7f5f1c6b161a6b0d281cd87ea7a5d67c0d6ea733"
+        },
+        {
+          "code": "S111",
+          "take": "S111-T01",
+          "sourceRequestHash": "217ce90a5fb6c8a9577c559964c10856d15135240bdcc76b27372b8be0967357"
+        },
+        {
+          "code": "S097",
+          "part": "introduction",
+          "sourceRequestHash": "cebbf2e72c25546e6ece11b6265bb6efaa7c6480ae59e5b92c34e7cdbfa905e8"
+        },
+        {
+          "code": "S097",
+          "part": "hola",
+          "sourceRequestHash": "cebbf2e72c25546e6ece11b6265bb6efaa7c6480ae59e5b92c34e7cdbfa905e8"
+        }
+      ],
+      "authorization": "Docent 25/11 valida S106/S107/S110/S111 i demana aprofitar la quota disponible per enviar els lots. Guions, veus i escaletes validades; només esmenes demanades o obertures omeses del mateix repartiment. Una petició cada vegada, audició de veus abans de muntar.",
+      "windowException": {
+        "kind": "teacher-short-batch",
+        "batchId": "L37",
+        "requestHash": "f8f95587af9933a81a7732a732045a0094ec864fc0d9d79fb70e2daac13764d9",
+        "approvedBy": "docent",
+        "approvedAt": "2026-11-25T07:23:22.474Z",
+        "expiresAt": "2026-11-25T09:23:22.474Z",
+        "confirmation": "Docent 25/11 confirma explícitament «Envia’l així (5:55)» després de conèixer la diferència de cinc segons respecte del mínim acordat de sis minuts."
+      },
+      "approvedAt": "2026-11-25T07:23:45.083Z",
+      "approvedRequestHash": "f8f95587af9933a81a7732a732045a0094ec864fc0d9d79fb70e2daac13764d9",
+      "estimatedSeconds": 355,
+      "estimatedInputTokens": 6178,
+      "receipt": "assets/audio/synthesis-batches/l37.json",
+      "completedAt": "2026-11-25T07:27:33.506Z"
     }
   ],
   "calibration": {

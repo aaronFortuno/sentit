@@ -8,6 +8,9 @@ const inside = 'Ambient real interior discret, amb moviment llunyà i exterior e
 export const dailyMarServices = [
   dailyProposal({
     id: 'el-carrer-esta-tallat', code: 'S092', title: 'El carrer està tallat', grade: '5', level: 'middle', genre: 'dialogue',
+    seconds: 83, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s092-mixed-v1.mp3', tracks: { introduction: './assets/audio/s092-mixed-v1-intro.mp3', body: './assets/audio/s092-mixed-v1-cos.mp3' },
+    fragment: { start: 3.9899999999999998, seconds: 79 },
     voices: { Mar: 'Erinome', Policia: 'Despina' }, guestSpeakers: [{ name: 'Policia', voice: 'Despina', role: 'Agent de policia que regula un accés · ocasional' }], delivery: delivery + ' Tractament mutu de vostè, cordial i espontani, sense solemnitat.',
     summary: 'La Mar s’atura davant d’un carrer tallat. Una agent li explica com pot arribar a una casa i totes dues busquen una opció pràctica per al que porta.',
     editorialFocus: '5è intermèdia: seguir dues opcions d’accés, distingir el pas de vehicles del de vianants i relacionar l’elecció amb una dificultat concreta. Carrers i regulació inventats per a aquesta escena.',

@@ -1,6 +1,6 @@
 # Situacions quotidianes · serveis i gestions
 
-Tanda del 23 de novembre de 2026, actualitzada el 24/11. **Dotze guions validats pel docent, amb veus rebudes i pendents d’audició.** S097 conserva una presa incompleta: falta el títol i el primer torn de Ferran. Cada enllaç obre la fitxa amb guió, preguntes i controls de veus. [Resultat dels lots L32–L35](lots-2026-11-24.md).
+Tanda del 23 de novembre de 2026, actualitzada el 25/11. **Dotze guions validats pel docent i amb veus rebudes.** S092/S096/S098/S101/S103 tenen muntatge pendent d’audició. S093/S095/S102 esperen correccions de veu. S097 conserva la presa incompleta i ofereix, per separat, el títol i el primer torn recuperats a L37; aquests fragments i la resta de la conversa esperen validació. Cada enllaç obre la fitxa amb els controls corresponents a la seva fase. [Lots i muntatges del 25/11](lots-2026-11-25.md) · [Recepció original L32–L35](lots-2026-11-24.md).
 
 ## Guions i veus per consultar
 

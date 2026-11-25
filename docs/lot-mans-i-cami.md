@@ -1,6 +1,6 @@
 # Mans a l’obra i A peu de camí · primera tanda
 
-24 de novembre de 2026. **Vuit guions de 3r a 6è amb revisió independent superada.** S104, S105, S108 i S109 tenen el guió i l’escaleta validats pel docent; S106, S107, S110 i S111 esperen el seu vistiplau. Les peces es poden resoldre sense haver-ne escoltat d’altres. Els enllaços obren el solucionari amb guió i escaleta en primer lloc. No hi ha àudio generat.
+Actualitzat el 25 de novembre de 2026. **Vuit guions de 3r a 6è amb revisió independent superada, validats pel docent i amb veus rebudes.** S104–S107 han arribat a L36 i S108–S111 a L37. Ara cal escoltar les veus abans de muntar. Les peces es poden resoldre sense haver-ne escoltat d’altres. [Pistes i resultat dels lots](lots-2026-11-25.md).
 
 ## Mans a l’obra
 
@@ -36,11 +36,11 @@ Les vuit peces són diàlegs, amb 60 preguntes i cites textuals, contextos impre
 
 | Candidat | Peces | Text pla estimat | Proper pas |
 | --- | --- | ---: | --- |
-| P24 · Biel i Elies · Puck + Algieba | S104, S105, S106, S107 | 5:40 | Validar i completar amb material compatible |
-| P25 · Aina i Ferran · Zephyr + Algenib | S108, S109, S110, S111 | 5:41 | Validar i completar amb material compatible |
+| P24 → L36 · Biel i Elies · Puck + Algieba | S104, S105, S106, S107 + esmenes S081/S059 | 6:10 | Veus rebudes; audició docent |
+| P25 → L37 · Aina i Ferran · Zephyr + Algenib | S108, S109, S110, S111 + inici S097 | 5:55 | Veus rebudes; audició docent |
 
-Són agrupacions candidates, encara per sota de la finestra de 6–8 minuts a 170 mots/minut. No s’allarguen els guions ni s’omplen amb silencis; es poden completar amb una altra escena o esmenes del mateix repartiment després de validar-les. Abans de congelar un lot cal comprovar el text i el límit d’entrada exactes.
+Els lots s’han completat amb esmenes compatibles i s’han enviat una vegada cadascun. L37 té una excepció docent explícita per la previsió de 5:55. Rebuts crus de 5:46,60 i 5:35,36, respectivament; no s’han allargat els guions ni farcit de silencis. Peticions, respostes i preses conservades.
 
-Títol i conversa sencers per presa; cap petició per frase ni etiqueta literal de pausa. Ambients reals de taller o exterior molt baixos, amb accions simultànies quan ajudin i fonts verificades abans del muntatge. Il·lustracions pendents de validar el contingut, contextuals i sense respostes. Primer validació docent del guió i l’escaleta, després síntesi, audició de veus, muntatge i segona validació. Aquesta tanda no ha consumit quota.
+Títol i conversa sencers per presa; cap petició per frase ni etiqueta literal de pausa. Ambients reals de taller o exterior molt baixos, amb accions simultànies quan ajudin i fonts verificades abans del muntatge. Il·lustracions pendents del tancament, contextuals i sense respostes. Primer validació docent del guió i l’escaleta, després síntesi, audició de veus, muntatge i segona validació. Aquesta tanda ha utilitzat dues peticions.
 
 [Seguiment](seguiment-produccio.md) · [Cua de síntesi](lots-sintesi.md) · [Universos](univers-editorial.md).

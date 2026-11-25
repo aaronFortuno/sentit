@@ -104,6 +104,9 @@ export const dailyMar = [
   }),
   dailyProposal({
     id: 'el-pa-per-al-sopar', code: 'S086', title: 'El pa per al sopar', grade: '3', level: 'easy', genre: 'dialogue',
+    seconds: 71, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s086-mixed-v1.mp3', tracks: { introduction: './assets/audio/s086-mixed-v1-intro.mp3', body: './assets/audio/s086-mixed-v1-cos.mp3' },
+    fragment: { start: 3.96, seconds: 66 },
     voices: { Mar: 'Erinome', Fornera: 'Despina' }, guestSpeakers: [{ name: 'Fornera', voice: 'Despina', role: 'Fornera del barri · ocasional' }], delivery,
     summary: 'La Mar compra pa abans de tornar a casa. Parlant amb la fornera, es recorda d’una part de l’encàrrec que havia oblidat.',
     editorialFocus: '3r accessible: comprendre una compra i un petit canvi d’encàrrec, amb dos productes i un pa rodó que es demana a llesques. Sis preguntes, sense comptes ni dades comercials externes.',

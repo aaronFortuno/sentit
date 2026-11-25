@@ -1,0 +1,83 @@
+{
+  "code": "S060",
+  "activity": "ca-S060",
+  "state": "awaiting-montage-validation",
+  "file": "s060-mixed-v1.mp3",
+  "introFile": "s060-mixed-v1-intro.mp3",
+  "bodyFile": "s060-mixed-v1-cos.mp3",
+  "offset": 4.7700000000000005,
+  "bodyDuration": 95.64,
+  "fullDuration": 100.41,
+  "voices": {
+    "Laia": "Leda",
+    "Biel": "Puck"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "a60fe358a66004eba2e6b742133d7f9780780baf5a8739a3a428828c3e6fa590",
+  "sourceRequestHash": "26e97009fa8e642fae19356f0892ba178861540baf48cbaa7fca62e729920185",
+  "batch": "L31",
+  "rawSha256": "bd17485cca82d19a097a226a1f1287a035db454d787194c9e781fa088a9d8555",
+  "takeSha256": "b2bacd58b13e5bb9d8283c5add76857fc72cbe15d000eec603858f05d0462229",
+  "coverage": 0.9123376623376623,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.71,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "bexhillcollege-274213",
+      "start": 0,
+      "source": "assets/audio/sources/bexhillcollege-274213-hallway.mp3",
+      "sourceSha256": "ac07b275131c3517007369de9cd2e3d566e6d0de9fc9ae7c7e3ac0345cbcc5f7",
+      "sourceUrl": "https://freesound.org/people/Bexhillcollege/sounds/274213/",
+      "author": "Bexhillcollege",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.07,
+      "openingGain": 0.16,
+      "raisedGain": 0.24,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -51.09803919971486,
+      "lowPassHz": 800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 6,
+        "seconds": 55.35733333333334
+      },
+      "envelope": {
+        "riseStart": 91.28,
+        "riseEnd": 92.08000000000001,
+        "holdSeconds": 0.9599999999999937,
+        "fadeStart": 93.04,
+        "fadeEnd": 94.44000000000001
+      }
+    }
+  ],
+  "sha256": "dde3cd998bb713db155613d7d24c664c1601c2d71ce4a9230b52f4a72f0b3185",
+  "voiceHandles": {
+    "body": {
+      "start": 0.565,
+      "end": 90.505,
+      "retainedPcmSha256": "0c16a7bfce1edd6012584cdac4f5b9c780b72af556516c7703291d93bddf4218",
+      "sourceSha256": "18a353c88b5f5c31fcea4af4c48ad07680d69d7bbaf4c15932238124588ddcbf",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.055,
+      "end": 3.875,
+      "retainedPcmSha256": "fd27ee94fd1465bcee38276ec4a7ada0cd2b8a30e267bcd46c4c3d4f3935894e",
+      "sourceSha256": "142ffcd2684ba9c6a00dbae3527aba9bf784406f9fb0ee71b489bd1e8d3687b8",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-25",
+    "sourceTakeSha256": "b2bacd58b13e5bb9d8283c5add76857fc72cbe15d000eec603858f05d0462229",
+    "confirmation": "Docent 25/11: S060 validat per muntatge."
+  }
+}

@@ -76,6 +76,9 @@ export const troballes = [
   }),
   dialogue({
     id: 'un-soroll-darrere-de-les-veus', code: 'S060', title: 'Un soroll darrere de les veus', grade: '6', level: 'middle',
+    seconds: 101, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s060-mixed-v1.mp3', tracks: { introduction: './assets/audio/s060-mixed-v1-intro.mp3', body: './assets/audio/s060-mixed-v1-cos.mp3' },
+    fragment: { start: 4.7700000000000005, seconds: 96 },
     summary: 'La Laia i en Biel escolten una entrevista que van enregistrar i detecten un soroll que no recordaven. Abans de repetir res, intenten saber en quines frases molesta.',
     editorialFocus: '6è intermèdia: reconstruir el context d’una gravació, relacionar un soroll amb una acció i distingir fragments aprofitables dels que cal repetir. Nou preguntes; els conceptes tècnics es descriuen amb accions quotidianes.',
     soundPlan: 'Sala de muntatge de la ràdio amb ambient enregistrat continu de passadís, esmorteït com darrere d’una porta i molt baix sota tota la conversa. Sense reproduir cap entrevista ni terceres veus entenedores. En la pausa, un únic paper real allunyat del micròfon; cap demostració del soroll problemàtic que pugui tapar la comprensió. Sortida de dos segons i fosa.',

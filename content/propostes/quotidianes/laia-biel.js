@@ -37,6 +37,9 @@ export const dailyLaiaBiel = [
   }),
   dailyProposal({
     id: 'el-berenar-ben-pla', code: 'S091', title: 'El berenar ben pla', grade: '3', level: 'easy', genre: 'dialogue',
+    seconds: 75, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s091-mixed-v1.mp3', tracks: { introduction: './assets/audio/s091-mixed-v1-intro.mp3', body: './assets/audio/s091-mixed-v1-cos.mp3' },
+    fragment: { start: 4.0200000000000005, seconds: 70 },
     voices: { Laia: 'Leda', Biel: 'Puck' }, delivery,
     summary: 'En un banc del parc, en Biel obre la motxilla per berenar. L’entrepà hi és, però té un aspecte ben diferent del que recordava.',
     editorialFocus: '3r accessible: una escena breu i divertida, una causa concreta, un petit oferiment i el gest de recollir abans de continuar. Sense salts temporals llargs ni vocabulari tècnic.',

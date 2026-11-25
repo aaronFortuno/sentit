@@ -1,6 +1,6 @@
 # Cua de síntesi
 
-Actualitzat: **24/11/2026**. Aquest document mostra només la feina pendent d’enviar o de revisar. Els lots ja rebuts consten a l’[històric de síntesi](historic-sintesi.md); no s’han de tornar a enviar.
+Actualitzat: **25/11/2026**. Aquest document mostra només la feina pendent d’enviar o de revisar. Els lots ja rebuts consten a l’[històric de síntesi](historic-sintesi.md); no s’han de tornar a enviar.
 
 **Pilot multimodal rebut:** MM-PILOT-001 ja és al final de L29. [Escolta la pista independent](../assets/audio/external/mm-pilot-001-voices-v1.mp3) · [Manifest](../assets/audio/external/mm-pilot-001-voices-v1.json). Pendent d’audició al projecte paral·lel; no tornar a sintetitzar-lo per omplir lots.
 
@@ -17,30 +17,23 @@ Les preses originals es conserven i la cobertura s’ha comprovat localment. La 
 | Peça | Presa |
 | --- | --- |
 | [ca-S056](https://sentit.ortogra.fi/#lectura=ca-S056) | [Escolta les veus](../proves/veus-rebudes.html#S056) |
-| [ca-S059](https://sentit.ortogra.fi/#lectura=ca-S059) | [Escolta les veus](../proves/veus-rebudes.html#S059) |
-| [ca-S060](https://sentit.ortogra.fi/#lectura=ca-S060) | [Escolta les veus](../proves/veus-rebudes.html#S060) |
 | [ca-S072](https://sentit.ortogra.fi/#lectura=ca-S072) | [Escolta les veus](../proves/veus-rebudes.html#S072) |
-| [ca-S074](https://sentit.ortogra.fi/#lectura=ca-S074) | [Escolta les veus](../proves/veus-rebudes.html#S074) |
-| [ca-S076](https://sentit.ortogra.fi/#lectura=ca-S076) | [Escolta les veus](../proves/veus-rebudes.html#S076) |
-| [ca-S085](https://sentit.ortogra.fi/#lectura=ca-S085) | [Escolta les veus](../proves/veus-rebudes.html#S085) |
-| [ca-S086](https://sentit.ortogra.fi/#lectura=ca-S086) | [Escolta les veus](../proves/veus-rebudes.html#S086) |
 | [ca-S087](https://sentit.ortogra.fi/#lectura=ca-S087) | [Escolta les veus](../proves/veus-rebudes.html#S087) |
 | [ca-S088](https://sentit.ortogra.fi/#lectura=ca-S088) | [Escolta les veus](../proves/veus-rebudes.html#S088) |
 | [ca-S089](https://sentit.ortogra.fi/#lectura=ca-S089) | [Escolta les veus](../proves/veus-rebudes.html#S089) |
 | [ca-S090](https://sentit.ortogra.fi/#lectura=ca-S090) | [Escolta les veus](../proves/veus-rebudes.html#S090) |
-| [ca-S091](https://sentit.ortogra.fi/#lectura=ca-S091) | [Escolta les veus](../proves/veus-rebudes.html#S091) |
-| [ca-S092](https://sentit.ortogra.fi/#lectura=ca-S092) | [Escolta les veus](../proves/veus-rebudes.html#S092) |
-| [ca-S093](https://sentit.ortogra.fi/#lectura=ca-S093) | [Escolta les veus](../proves/veus-rebudes.html#S093) |
 | [ca-S094](https://sentit.ortogra.fi/#lectura=ca-S094) | [Escolta les veus](../proves/veus-rebudes.html#S094) |
-| [ca-S095](https://sentit.ortogra.fi/#lectura=ca-S095) | [Escolta les veus](../proves/veus-rebudes.html#S095) |
-| [ca-S096](https://sentit.ortogra.fi/#lectura=ca-S096) | [Escolta les veus](../proves/veus-rebudes.html#S096) |
 | [ca-S097](https://sentit.ortogra.fi/#lectura=ca-S097) | [Escolta les veus](../proves/veus-rebudes.html#S097) |
-| [ca-S098](https://sentit.ortogra.fi/#lectura=ca-S098) | [Escolta les veus](../proves/veus-rebudes.html#S098) |
 | [ca-S099](https://sentit.ortogra.fi/#lectura=ca-S099) | [Escolta les veus](../proves/veus-rebudes.html#S099) |
 | [ca-S100](https://sentit.ortogra.fi/#lectura=ca-S100) | [Escolta les veus](../proves/veus-rebudes.html#S100) |
-| [ca-S101](https://sentit.ortogra.fi/#lectura=ca-S101) | [Escolta les veus](../proves/veus-rebudes.html#S101) |
-| [ca-S102](https://sentit.ortogra.fi/#lectura=ca-S102) | [Escolta les veus](../proves/veus-rebudes.html#S102) |
-| [ca-S103](https://sentit.ortogra.fi/#lectura=ca-S103) | [Escolta les veus](../proves/veus-rebudes.html#S103) |
+| [ca-S104](https://sentit.ortogra.fi/#lectura=ca-S104) | [Escolta les veus](../proves/veus-rebudes.html#S104) |
+| [ca-S105](https://sentit.ortogra.fi/#lectura=ca-S105) | [Escolta les veus](../proves/veus-rebudes.html#S105) |
+| [ca-S106](https://sentit.ortogra.fi/#lectura=ca-S106) | [Escolta les veus](../proves/veus-rebudes.html#S106) |
+| [ca-S107](https://sentit.ortogra.fi/#lectura=ca-S107) | [Escolta les veus](../proves/veus-rebudes.html#S107) |
+| [ca-S108](https://sentit.ortogra.fi/#lectura=ca-S108) | [Escolta les veus](../proves/veus-rebudes.html#S108) |
+| [ca-S109](https://sentit.ortogra.fi/#lectura=ca-S109) | [Escolta les veus](../proves/veus-rebudes.html#S109) |
+| [ca-S110](https://sentit.ortogra.fi/#lectura=ca-S110) | [Escolta les veus](../proves/veus-rebudes.html#S110) |
+| [ca-S111](https://sentit.ortogra.fi/#lectura=ca-S111) | [Escolta les veus](../proves/veus-rebudes.html#S111) |
 
 Les previsions provenen dels guions i del calibratge local; cal recalcular-les amb el format definitiu abans d’enviar. Una mateixa veu en dos guions no implica el mateix personatge. No es canvien repartiments ni s’allarguen guions per omplir un lot.
 
@@ -50,8 +43,6 @@ La previsió utilitza el text pla real, amb els títols i sense marques literals
 
 | Proposta | Repartiment | Comprensions | Previsió en text pla | Mida orientativa | Guions validats | Validacions que falten |
 | --- | --- | --- | ---: | --- | ---: | --- |
-| P24 | Biel i Elies · Puck + Algieba | [ca-S104](https://sentit.ortogra.fi/#lectura=ca-S104), [ca-S105](https://sentit.ortogra.fi/#lectura=ca-S105), [ca-S106](https://sentit.ortogra.fi/#lectura=ca-S106), [ca-S107](https://sentit.ortogra.fi/#lectura=ca-S107) | 5:40 | Per completar | 2/4 | [ca-S106](https://sentit.ortogra.fi/#lectura=ca-S106), [ca-S107](https://sentit.ortogra.fi/#lectura=ca-S107) |
-| P25 | Aina i Ferran · Zephyr + Algenib | [ca-S108](https://sentit.ortogra.fi/#lectura=ca-S108), [ca-S109](https://sentit.ortogra.fi/#lectura=ca-S109), [ca-S110](https://sentit.ortogra.fi/#lectura=ca-S110), [ca-S111](https://sentit.ortogra.fi/#lectura=ca-S111) | 5:41 | Per completar | 2/4 | [ca-S110](https://sentit.ortogra.fi/#lectura=ca-S110), [ca-S111](https://sentit.ortogra.fi/#lectura=ca-S111) |
 
 P02 reuneix quatre lectures breus del mateix repartiment per conservar els guions de 3r curts i senzills. Els grups nous de 5è–6è es poden validar per repartiments sencers i es proposen en lots de dues o tres comprensions completes. Les previsions utilitzen el text pla i encara s’han de verificar amb l’entrada definitiva; la validació dels guions no garanteix que la mida final del lot sigui admissible. Les preses ja rebudes s’exclouen d’aquesta taula. [Tanda de 3r–4t](lot-cicle-mitja.md) · [Tanda de 5è–6è per repartiment](lot-cicle-superior.md) · [Composició proposada](../content/synthesis-proposals.json).
 
@@ -71,13 +62,23 @@ P02 reuneix quatre lectures breus del mateix repartiment per conservar els guion
 | S061 | Comprensió oral. El curt que començava pel final. | Pendent d’audició | [L31](../proves/correccions-l31.html) |
 | S056 | Comprensió oral. El taller canvia de casa. Notícia de ficció. | Pendent d’audició | [L32](../proves/correccions-l32.html) |
 | S056 | Bon dia. | Pendent d’audició | [L32](../proves/correccions-l32.html) |
+| S081 | Sí, truca abans de venir. T’ho explicaré per telèfon. Aquest matí ja he comprovat la guitarra de préstec i només falta que la guardem a la funda. | Pendent d’audició | [L36](../proves/correccions-l36.html) |
+| S081 | De res, Biel. Espera, que t’aguanto la funda mentre hi poses el full... així... Fins dijous, i ja m’explicaràs com va l’assaig. | Pendent d’audició | [L36](../proves/correccions-l36.html) |
+| S059 | A aquesta sí. A les del final... Ai, he fet caure l’arbre de cartró! Sempre em queda al mig. És bonic, però el podríem posar dret al costat de la capsa, a la cadira. | Pendent d’audició | [L36](../proves/correccions-l36.html) |
+| S097 | Comprensió oral. Quina parada em queda més a prop? | Pendent d’audició | [L37](../proves/correccions-l37.html) |
+| S097 | Bon dia. Voldria un bitllet per anar a Portell de Mar aquesta tarda. M’han deixat una habitació prop del passeig de la Marina, però aquí no em conec gens les parades. | Pendent d’audició | [L37](../proves/correccions-l37.html) |
 
 ### Següents esmenes · encara sense petició
 
 | Peça | Veu | Fragment |
 | --- | --- | --- |
 | [ca-S017](https://sentit.ortogra.fi/#lectura=ca-S017) | Mireia · Aoede | coordinacio + retorn |
+| [ca-S059](https://sentit.ortogra.fi/#lectura=ca-S059) | Biel · Puck | arbre |
 | [ca-S081](https://sentit.ortogra.fi/#lectura=ca-S081) | Elies · Algieba | telefon + final |
+| [ca-S085](https://sentit.ortogra.fi/#lectura=ca-S085) | Mar · Erinome | comiat |
+| [ca-S093](https://sentit.ortogra.fi/#lectura=ca-S093) | Mar · Erinome | confirmar |
+| [ca-S095](https://sentit.ortogra.fi/#lectura=ca-S095) | Empleada · Gacrux | mida + recollida |
+| [ca-S102](https://sentit.ortogra.fi/#lectura=ca-S102) | undefined · Veu per concretar | sentit + final |
 
 Esperen un lot compatible de sis a vuit minuts. Les proves auxiliars de S022 es poden comprovar localment amb `node tools/pronunciation-trials.cjs --only=S022`; aquest comandament no envia cap petició.
 

@@ -2387,9 +2387,9 @@
     "approvalSource": "Docent 24/11: S104, S100 i S108 validats per síntesi de veus; S109, S102 i S105 també preparats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
   },
   "S106": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "95b8304d84f5f8d3c6f3155385280655cfbe6ae512d3ba636c709dee1b93dba1",
+    "reviewedAt": "2026-11-25",
     "reviewActivity": "ca-S106",
     "reviewContent": "content/propostes/universos/mans-a-lobra.js",
     "format": "5è intermèdia: seguir un prototip, una limitació que apareix en provar-lo i una revisió motivada. Situació concreta, sense teoria acústica ni dibuix necessari per entendre els canvis.",
@@ -2404,12 +2404,13 @@
       "Elies": "Algieba"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 25/11: S106, S111, S107, S110 validats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
   },
   "S107": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "5045de18c140f2c3aa65a6a6c1e3c575f76e328beff33015268b8938494584f4",
+    "reviewedAt": "2026-11-25",
     "reviewActivity": "ca-S107",
     "reviewContent": "content/propostes/universos/mans-a-lobra.js",
     "format": "6è avançada: reconstruir què es va mesurar, què s’hi ha afegit després i com ho comproven. Les mides i els objectes es descriuen oralment; no es demana interpretar un plànol ni fer càlculs de construcció.",
@@ -2424,7 +2425,8 @@
       "Elies": "Algieba"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 25/11: S106, S111, S107, S110 validats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
   },
   "S108": {
     "status": "approved",
@@ -2469,9 +2471,9 @@
     "approvalSource": "Docent 24/11: S104, S100 i S108 validats per síntesi de veus; S109, S102 i S105 també preparats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
   },
   "S110": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "eda2903ee40d893250b299e43855e7743718e632cdbd6c9074cf9bee7b278f5d",
+    "reviewedAt": "2026-11-25",
     "reviewActivity": "ca-S110",
     "reviewContent": "content/propostes/universos/a-peu-de-cami.js",
     "format": "5è intermèdia: seguir dues hipòtesis i distingir-les del que acaben comprovant. Els personatges descriuen les pistes i el resultat en veu alta. L’alumne no ha d’identificar el so real ni cap objecte per una imatge.",
@@ -2487,12 +2489,13 @@
       "Ferran": "Algenib"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 25/11: S106, S111, S107, S110 validats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
   },
   "S111": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "10b2c8efe11959ead71b4c9aed488cdb17f11bbdbd32dbd509982aac9d87ecb3",
+    "reviewedAt": "2026-11-25",
     "reviewActivity": "ca-S111",
     "reviewContent": "content/propostes/universos/a-peu-de-cami.js",
     "format": "6è avançada: distingir el record d’una ruta de la informació d’aquell dia, relacionar temps d’anada i recollida i confirmar una decisió. Tota la informació del cartell i del missatge es diu en veu alta; no cal mapa, telèfon ni càlcul exacte per respondre.",
@@ -2507,6 +2510,7 @@
       "Ferran": "Algenib"
     },
     "strategy": "packed-title-program-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 25/11: S106, S111, S107, S110 validats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
   }
 }

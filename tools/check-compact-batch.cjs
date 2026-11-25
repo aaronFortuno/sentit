@@ -4,11 +4,18 @@ const assert = require('node:assert/strict'), fs = require('node:fs/promises'), 
 const { buildBatch } = require('./synthesis-batch.cjs');
 const { assertSynthesisWindow } = require('./audio-batch-policy.cjs');
 (async () => {
-  const root = path.resolve(__dirname, '..'), { activities } = await import('../catalogue.js');
+  const root = path.resolve(__dirname, '..'), { activities: currentActivities } = await import('../catalogue.js');
+  // Replay frozen requests against their pre-montage view. Keep the live
+  // generator guard: a published montage must never authorize resynthesis.
+  const activities = currentActivities.map(entry => ({ ...entry, audio: null }));
+  await (await import('../editorial-review.js')).registerEditorialReviews(activities);
   const read = file => fs.readFile(path.join(root, file), 'utf8').then(JSON.parse);
   const plans = await read('content/production-plans.json'), repairs = await read('content/audio-repairs.json'), catalog = await read('content/synthesis-batches.json');
   const log = path.resolve(root, '../output/sentit-primera-tanda/request-log.json'), before = await fs.readFile(log);
   const batch = catalog.batches.find(b => b.id === 'L35'), compact = await buildBatch(activities, plans, repairs, batch);
+  if (batch.blocks.some(part => currentActivities.some(entry => entry.code === part.code && entry.audio))) {
+    await assert.rejects(buildBatch(currentActivities, plans, repairs, batch), /ja té àudio/);
+  }
   assertSynthesisWindow(compact.body);
   assert(compact.estimatedInputTokens <= 8192);
   assert.deepEqual(compact.voices.map(v => v.voice), ['Erinome', 'Despina']);

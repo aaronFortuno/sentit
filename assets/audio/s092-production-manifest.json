@@ -1,0 +1,83 @@
+{
+  "code": "S092",
+  "activity": "ca-S092",
+  "state": "awaiting-montage-validation",
+  "file": "s092-mixed-v1.mp3",
+  "introFile": "s092-mixed-v1-intro.mp3",
+  "bodyFile": "s092-mixed-v1-cos.mp3",
+  "offset": 3.9899999999999998,
+  "bodyDuration": 78.695,
+  "fullDuration": 82.685,
+  "voices": {
+    "Mar": "Erinome",
+    "Policia": "Despina"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "2e429c977e701ef1f63c2570d8f4ce02143fc47e4241bb11ee74e0760f029f2e",
+  "sourceRequestHash": "ae6ecfeacaefa92a81d1436477aeead97e4a50077b774d2b5584088dd1478ad9",
+  "batch": "L35",
+  "rawSha256": "d57bbc3b3b2098192643be92fb576b7712479884661730de76a9bd6452161333",
+  "takeSha256": "a7526542d23262cf97f442317d236e93f8e981f710bb6cd39b17fd458e9da3ba",
+  "coverage": 0.8659003831417624,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.72,
+  "peakDbTP": -2.48,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "soaress-546234",
+      "start": 0,
+      "source": "assets/audio/sources/soaress-546234.mp3",
+      "sourceSha256": "1059086683943b6b8d679a9283eda0bf08a75c05cbc711b2ec6a14a276f5028c",
+      "sourceUrl": "https://freesound.org/people/soaress/sounds/546234/",
+      "author": "soaress",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.1,
+      "openingGain": 0.22,
+      "raisedGain": 0.28,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -48,
+      "lowPassHz": 3600,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 40,
+        "seconds": 90
+      },
+      "envelope": {
+        "riseStart": 74.48000833333332,
+        "riseEnd": 75.28000833333333,
+        "holdSeconds": 0.8149916666666712,
+        "fadeStart": 76.095,
+        "fadeEnd": 77.495
+      }
+    }
+  ],
+  "sha256": "4c3a936d601dca61ac3b36de520dec51842a55df1bc524ba87555534034b720f",
+  "voiceHandles": {
+    "body": {
+      "start": 1.1002916666666667,
+      "end": 74.09529166666667,
+      "retainedPcmSha256": "c31f7ee84647afd76a44402f6508594a6f0f4ca849e50f987caf06398136b6b3",
+      "sourceSha256": "472ad600c0d915f5c0dd85993933cd80147f00d255252ece8558dd21f46e01d5",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.13,
+      "end": 3.17,
+      "retainedPcmSha256": "33fa5f867da1f416965563b319fe9cb137060e9aff207dab9c50a56882c0f657",
+      "sourceSha256": "56c7ce7a58b2b7e39bded2f9a07d41b8741898d0a9087ef6ea5de5c50ef53408",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-25",
+    "sourceTakeSha256": "a7526542d23262cf97f442317d236e93f8e981f710bb6cd39b17fd458e9da3ba",
+    "confirmation": "Docent 25/11: S092 validat per muntatge."
+  }
+}

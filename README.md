@@ -2,13 +2,13 @@
 
 Banc de comprensió oral d’ortogra.fi. El docent tria una activitat, prepara la fitxa i el solucionari i els imprimeix. L’alumnat respon al paper i escolta l’àudio des del QR o l’enllaç. Web estàtic, sense comptes ni servidor d’aplicació.
 
-[Veus rebudes el 24/11](docs/lots-2026-11-24.md): L32–L35, quatre peticions seqüencials i 17 preses per revisar, més l’inici de S056. S097 té el títol i el primer torn omesos, amb avís explícit. S092/S093 adopten el tractament de vostè i S095 un comiat neutre, amb revisió independent renovada. Les veus s’escolten abans de fer cap muntatge.
+[Actualització del 25/11](docs/lots-2026-11-25.md): L36/L37 rebuts, amb vuit comprensions S104–S111 i cinc fragments per comparar o reposar (S059, S081 i S097). Deu muntatges preparats després de validar les veus: S060, S074, S076, S086, S091, S092, S096, S098, S101 i S103. Esmenes noves de S085/S093/S095/S102 en cua, encara sense enviar. Les veus s’escolten abans de fer cap muntatge i el muntatge requereix una altra audició.
 
-[Mans a l’obra i A peu de camí](docs/lot-mans-i-cami.md): vuit guions S104–S111 per a 3r–6è, amb preguntes, solucionari, context i escaleta. Projectes de taller amb Biel/Elies i passejades amb Aina/Ferran, comprensibles sense imatges ni mapes. Revisió independent superada; guions S104/S105/S108/S109 validats pel docent, resta en revisió i àudio pendent.
+[Mans a l’obra i A peu de camí](docs/lot-mans-i-cami.md): vuit guions S104–S111 per a 3r–6è, amb preguntes, solucionari, context i escaleta. Projectes de taller amb Biel/Elies i passejades amb Aina/Ferran, comprensibles sense imatges ni mapes. Tots els guions validats i les veus rebudes, pendents d’audició docent.
 
-[Situacions quotidianes](docs/lot-situacions-quotidianes.md): nou converses breus amb revisió independent i guions validats. L29 inclou la Mar i el pilot multimodal; L30/L31 aporten Ferran i Laia/Biel amb esmenes per comparar. S085/S086/S089 esperen material compatible. S088/S090 tenen omissions o dubtes visibles, pendents d’audició; cap presa nova es dona per bona automàticament.
+[Situacions quotidianes](docs/lot-situacions-quotidianes.md): nou converses breus amb revisió independent, guions validats i veus rebudes. S083/S084/S086 tenen muntatge per escoltar; S085 espera corregir el timbre del comiat. S088/S090 tenen omissions o dubtes visibles, pendents d’audició; cap presa nova es dona per bona automàticament.
 
-[Serveis i gestions quotidianes](docs/lot-situacions-quotidianes-avancades.md): dotze guions S092–S103 per a 5è, 6è i 1r d’ESO, validats pel docent i amb veus rebudes. Audició pendent, amb la incidència inicial de S097 documentada; recurrents i convidats ocasionals mantenen les seves identitats.
+[Serveis i gestions quotidianes](docs/lot-situacions-quotidianes-avancades.md): dotze guions S092–S103 per a 5è, 6è i 1r d’ESO, validats pel docent i amb veus rebudes. S092/S096/S098/S101/S103 tenen muntatge per escoltar; S093/S095/S102 esperen esmenes de veu. L’inici de S097 ja té fragments nous per revisar, encara sense aplicar. Recurrents i convidats ocasionals mantenen les seves identitats.
 
 [Obre Sentit](https://sentit.ortogra.fi/) · [Feina pendent](docs/seguiment-produccio.md) · [Publicacions finalitzades](docs/publicades.md) · [Cua de síntesi](docs/lots-sintesi.md) · [Sintonies](https://sentit.ortogra.fi/proves/sintonies-mireia.html)
 

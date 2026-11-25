@@ -1,5 +1,12 @@
 # Canvis
 
+## 0.1.100 · 25 de novembre de 2026
+
+- L36/L37 rebuts: vuit comprensions S104–S111 i cinc fragments de correcció o reposició per a S059, S081 i S097. Guions nous validats, dues peticions i 11:21,96 crus; L37 amb l’excepció docent explícita de 5:55. Preses, peticions i rebuts conservats, sense reenviar síntesi ni aprovar-ne les veus automàticament.
+- Deu muntatges per a audició després de validar les veus: S060, S074, S076, S086, S091, S092, S096, S098, S101 i S103. Ambients enregistrats continus i molt baixos de passadís, cuina, restaurant, interior i carrer, amb foses curtes; cap canvi de to o velocitat. Fonts i manifests actualitzats.
+- Esmenes de S085 (timbre del comiat), S093 («vint-i-cinc»), S095 (primers torns de l’empleada) i S102 (dues mencions de «Til·lers») identificades a les cards i a la cua, pendents de síntesi compatible. Els fragments nous de S097 es poden escoltar sense donar per aprovada la resta de la seva presa.
+- Seguiment i documents de treball actualitzats. Comprovacions locals de reproducció, integritat, fases i crèdits; la regressió de peticions històriques conserva les empremtes encara que ja hi hagi muntatge, mantenint el bloqueig de resíntesi al generador real.
+
 ## 0.1.99 · 24 de novembre de 2026
 
 - P23/P13/P21/P19 produïts seqüencialment com L32–L35: quatre peticions, 25:26,44 crus, 17 preses per audició i reposició de l’inici de S056. Totes les veus es publiquen abans del muntatge, sense aprovació automàtica.

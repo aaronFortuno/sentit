@@ -1,8 +1,8 @@
 # Històric de lots de síntesi
 
-Actualitzat: **24/11/2026**. Registre dels **29 lots ja rebuts**, amb 165:38 d’àudio cru i 50.916 tokens d’entrada. No és una cua executable ni un comptador de quota. [Tornar als pendents](lots-sintesi.md).
+Actualitzat: **25/11/2026**. Registre dels **31 lots ja rebuts**, amb 177:00 d’àudio cru i 54.317 tokens d’entrada. No és una cua executable ni un comptador de quota. [Tornar als pendents](lots-sintesi.md).
 
-Aquests enviaments van aportar veus per a **93 comprensions** i **21 frases d’esmena**. És l’abast d’aquests lots, no el nombre total de comprensions del catàleg ni el nombre de peces pendents avui. L’estat actual de cada activitat consta al [seguiment](seguiment-produccio.md).
+Aquests enviaments van aportar veus per a **101 comprensions** i **26 frases d’esmena**. És l’abast d’aquests lots, no el nombre total de comprensions del catàleg ni el nombre de peces pendents avui. L’estat actual de cada activitat consta al [seguiment](seguiment-produccio.md).
 
 | Lot | Data d’enviament · UTC | Preses i esmenes | Àudio cru | Tokens d’entrada | Tokens d’àudio |
 | --- | --- | --- | ---: | ---: | ---: |
@@ -35,6 +35,8 @@ Aquests enviaments van aportar veus per a **93 comprensions** i **21 frases d’
 | [L33](../assets/audio/synthesis-batches/l33.json) | 2026-11-24 | S074-T01, S076-T01, S098-T01, S103-T01 | 6:48 | 2117 | 10204 |
 | [L34](../assets/audio/synthesis-batches/l34.json) | 2026-11-24 | S089-T01, S095-T01, S096-T01, S097-T01 | 5:47 | 1784 | 8685 |
 | [L35](../assets/audio/synthesis-batches/l35.json) | 2026-11-24 | S085-T01, S086-T01, S092-T01, S093-T01, S094-T01 | 6:21 | 1982 | 9520 |
+| [L36](../assets/audio/synthesis-batches/l36.json) | 2026-11-25 | S104-T01, S105-T01, S106-T01, S107-T01, S081-telefon, S081-final, S059-arbre | 5:47 | 1765 | 8665 |
+| [L37](../assets/audio/synthesis-batches/l37.json) | 2026-11-25 | S108-T01, S109-T01, S110-T01, S111-T01, S097-introduction, S097-hola | 5:35 | 1636 | 8384 |
 
 Cada rebut apunta a la petició exacta i a les empremtes d’origen; les respostes completes, les preses crues i els mapes de tall es conserven localment. No es repeteix una presa perquè encara falti revisar-la o muntar-la. Les planificacions anteriors, superades pels rebuts, es conserven a l’historial de Git.
 

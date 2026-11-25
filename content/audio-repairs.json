@@ -494,5 +494,176 @@
     ],
     "application": "Només reposició dels fragments omesos per escoltar abans de muntar. La resta de la locució aprovada i la presa crua es conserven; cap substitució automàtica.",
     "approvedRequestHash": "9443ce573ba6e4ec1c863557b368548aa9344a8bc7816bb1f709cd3bbca97dd4"
+  },
+  "S059": {
+    "activity": "ca-S059",
+    "status": "approved-for-correction",
+    "approvedAt": "2026-11-25",
+    "approvalSource": "Docent 25/11: corregir cartron en lloc de cartró; resta de la locució correcta.",
+    "scope": "spoken-turn",
+    "sourceTakeId": "S059-T01",
+    "sourceRequestHash": "a60fe358a66004eba2e6b742133d7f9780780baf5a8739a3a428828c3e6fa590",
+    "sourceRawSha256": "bd17485cca82d19a097a226a1f1287a035db454d787194c9e781fa088a9d8555",
+    "sourceTakeSha256": "8cb4bfbb0afa9e182b91982c960106d706969905499b4cffa78c98bd85800689",
+    "voices": {
+      "Biel": "Puck"
+    },
+    "direction": "Natural Central Catalan. Preserve the exact assigned recurring character and their natural conversational pace. Read each supplied turn once, with complete consonant onsets and endings. No title unless supplied, extra words, labels, breaths, sounds, or spoken instructions.",
+    "repairs": [
+      {
+        "part": "arbre",
+        "speaker": "Biel",
+        "text": "A aquesta sí. A les del final... Ai, he fet caure l’arbre de cartró! Sempre em queda al mig. És bonic, però el podríem posar dret al costat de la capsa, a la cadira.",
+        "pronunciation": "Keep youthful male Biel/Puck. Catalan cartró ends with stressed O, /kərˈtɾo/, with no final N. Say cartró, never cartron. Keep the spontaneous surprise and all other words."
+      }
+    ],
+    "application": "Presa per comparar i escoltar; no aplicada al màster. Conservar l’original i esperar la validació docent abans del muntatge.",
+    "approvedRequestHash": "31d97f8fe95632f984b4598f790f145fb1ff0f88a7a7a9a6b51ba9ae297c83cf"
+  },
+  "S085": {
+    "activity": "ca-S085",
+    "status": "approved-for-correction",
+    "approvedAt": "2026-11-25",
+    "approvalSource": "Docent 25/11: repetir l’últim torn de Mar, Doncs pugem juntes, per un canvi de timbre extremadament greu. Resta correcta.",
+    "scope": "spoken-turn",
+    "sourceTakeId": "S085-T01",
+    "sourceRequestHash": "2e429c977e701ef1f63c2570d8f4ce02143fc47e4241bb11ee74e0760f029f2e",
+    "sourceRawSha256": "d57bbc3b3b2098192643be92fb576b7712479884661730de76a9bd6452161333",
+    "sourceTakeSha256": "76fa131296115bbdcad2ab187b5b2a9c2313d18170930f1d2c1d15e136c65242",
+    "voices": {
+      "Mar": "Erinome"
+    },
+    "direction": "Natural Central Catalan. Preserve the exact assigned recurring character and their natural conversational pace. Read each supplied turn once, with complete consonant onsets and endings. No title unless supplied, extra words, labels, breaths, sounds, or spoken instructions.",
+    "repairs": [
+      {
+        "part": "comiat",
+        "speaker": "Mar",
+        "text": "Doncs pugem juntes. Entro un moment les bosses i et vinc a ajudar. Els tomàquets ja han viatjat prou per avui.",
+        "pronunciation": "Keep adult female Mar/Erinome, in her warm everyday conversational register. Stable natural female tone from the first words Doncs pugem juntes; no sudden deep baritone or change of speaker."
+      }
+    ],
+    "application": "Presa per comparar i escoltar; no aplicada al màster. Conservar l’original i esperar la validació docent abans del muntatge.",
+    "approvedRequestHash": "f842c1cba0a886280361f843b5b49d32e29f60207eb741b12952a259987ee00f"
+  },
+  "S097": {
+    "activity": "ca-S097",
+    "status": "approved-for-correction",
+    "approvedAt": "2026-11-25",
+    "approvalSource": "Guió validat pel docent. El retorn de L34 omet títol i primer torn; reposició dins el lot compatible autoritzat el 25/11, sense donar per validades les veus.",
+    "scope": "missing-title",
+    "sourceTakeId": "S097-T01",
+    "sourceRequestHash": "aef37a3e56d6a4126206a0905030aad2bc53160804678de652431febf809e7e6",
+    "sourceRawSha256": "e745dbb235852711298ebf545af5ec836adc9e26531e6290cf3c4e457a4ecadd",
+    "sourceTakeSha256": "bc2141f6960d93c4870fda81394c97c9c72c05446b6cf414342f08ba78b4b2f3",
+    "voices": {
+      "Ferran": "Algenib"
+    },
+    "direction": "Natural Central Catalan. Preserve the exact assigned recurring character and their natural conversational pace. Read each supplied turn once, with complete consonant onsets and endings. No title unless supplied, extra words, labels, breaths, sounds, or spoken instructions.",
+    "repairs": [
+      {
+        "part": "introduction",
+        "speaker": "Ferran",
+        "text": "Comprensió oral. Quina parada em queda més a prop?",
+        "pronunciation": "Read the complete exercise introduction and title exactly once in the warm older male Ferran/Algenib voice.",
+        "missingOriginal": true
+      },
+      {
+        "part": "hola",
+        "speaker": "Ferran",
+        "text": "Bon dia. Voldria un bitllet per anar a Portell de Mar aquesta tarda. M’han deixat una habitació prop del passeig de la Marina, però aquí no em conec gens les parades.",
+        "pronunciation": "Read the complete opening Bon dia and all the following sentences in the warm older male Ferran/Algenib voice. This whole opening turn was omitted previously; do not skip it.",
+        "missingOriginal": true
+      }
+    ],
+    "application": "Presa per comparar i escoltar; no aplicada al màster. Conservar l’original i esperar la validació docent abans del muntatge.",
+    "approvedRequestHash": "cebbf2e72c25546e6ece11b6265bb6efaa7c6480ae59e5b92c34e7cdbfa905e8"
+  },
+  "S095": {
+    "activity": "ca-S095",
+    "status": "approved-for-correction",
+    "approvedAt": "2026-11-25",
+    "approvalSource": "Docent 25/11: regenerar la primera part de l’empleada perquè inicialment sona massa greu i canvia a La primera recollida. Reposar els torns mida i recollida amb identitat femenina estable.",
+    "scope": "spoken-turn",
+    "sourceTakeId": "S095-T01",
+    "sourceRequestHash": "aef37a3e56d6a4126206a0905030aad2bc53160804678de652431febf809e7e6",
+    "sourceRawSha256": "e745dbb235852711298ebf545af5ec836adc9e26531e6290cf3c4e457a4ecadd",
+    "sourceTakeSha256": "b4ee57151a66ed8c7e4c63e8e030dd453bd1d02e2ccbb7601212fb3a21844712",
+    "voices": {
+      "Empleada": "Gacrux"
+    },
+    "direction": "Natural Central Catalan. Exact adult FEMALE Gacrux voice for Empleada, consistently female from the first syllable through both complete turns. Warm ordinary customer service conversation, no male voice or change of speaker. Verbatim speech, no title, instructions, sound effects or vocalizations.",
+    "repairs": [
+      {
+        "part": "mida",
+        "speaker": "Empleada",
+        "text": "Bon dia. El mesurem? Fa vuitanta-cinc centímetres. El servei que recollim aquí admet paquets de fins a vuitanta. Per a aquest tub hem de mirar la modalitat de paquets grans.",
+        "pronunciation": "Keep the same adult female Gacrux voice across the complete intervention; natural tone and stable identity, not a male or very deep voice. Read only the supplied words."
+      },
+      {
+        "part": "recollida",
+        "speaker": "Empleada",
+        "text": "Sí. El podem preparar des d’aquest taulell, però el transportista recull el paquet al domicili. Aquí tenim poc espai i els tubs grans els van a buscar directament.",
+        "pronunciation": "Keep the same adult female Gacrux voice across the complete intervention; natural tone and stable identity, not a male or very deep voice. Read only the supplied words."
+      }
+    ],
+    "application": "Comparar amb els dos torns originals abans de substituir. La resta de la presa es conserva i no s’aprova cap muntatge automàticament.",
+    "approvedRequestHash": "eeaf1a94bf7ee900e571f28d41adaa39a91bbcde793d2c6f6079b3dea3c42244"
+  },
+  "S093": {
+    "activity": "ca-S093",
+    "status": "approved-for-correction",
+    "approvedAt": "2026-11-25",
+    "approvalSource": "Docent 25/11: la Mar omet la i de vint-i-cinc a Ah! Doncs el directe, el de les deu i vint-i-cinc. Regenerar aquest torn; resta correcta.",
+    "scope": "spoken-turn",
+    "sourceTakeId": "S093-T01",
+    "sourceRequestHash": "2e429c977e701ef1f63c2570d8f4ce02143fc47e4241bb11ee74e0760f029f2e",
+    "sourceRawSha256": "d57bbc3b3b2098192643be92fb576b7712479884661730de76a9bd6452161333",
+    "sourceTakeSha256": "66c820836d9636dbfa46fb630f811ba63cec30d373a17db35f83f4691b56fbc8",
+    "voices": {
+      "Mar": "Erinome"
+    },
+    "direction": "Natural Central Catalan. Keep the exact adult female Mar/Erinome identity, warm everyday conversational register and natural pace. Read the complete supplied turn once, without title, added words, labels, sounds, or spoken instructions.",
+    "repairs": [
+      {
+        "part": "confirmar",
+        "speaker": "Mar",
+        "text": "Ah! Doncs el directe, el de les deu i vint-i-cinc. Jo m’havia fixat només en l’hora de sortir. La meva amiga ja ve expressament a buscar-me i no la vull fer esperar.",
+        "pronunciation": "In deu i vint-i-cinc, pronounce both written I sounds. Vint-i-cinc must include the I between vint and cinc, never vint-cinc. Say the full number fluently, not by spelling it or reading this instruction. Keep the same adult female Mar voice throughout."
+      }
+    ],
+    "application": "Comparar el torn complet amb l’original abans de substituir. Cap canvi al text editorial, retoc de to o aprovació automàtica.",
+    "approvedRequestHash": "de6c03afbce9dd817671644e29f30aa9f88947641327ac61d36e8cb15a3956a2"
+  },
+  "S102": {
+    "activity": "ca-S102",
+    "status": "approved-for-correction",
+    "approvedAt": "2026-11-25",
+    "approvalSource": "Docent 25/11: esmenar Til·lers al torn sentit de la Informadora i al torn final de Mar. Conservar linia de Mar, amb pronunciació correcta.",
+    "scope": "spoken-turns",
+    "sourceTakeId": "S102-T01",
+    "sourceRequestHash": "a38715e579b55a270d1e2b0f493b471ebe0f7ed700681aceec1aadfd202a5f75",
+    "sourceRawSha256": "dbfe51e338dfe13edbea6f589e2b50227add83c034010620624ca265411144bf",
+    "sourceTakeSha256": "cf45c4b06820ebd43f8fc0a5032b49fc26f87c08b7786d13a8b867f689356ad5",
+    "voices": {
+      "Mar": "Erinome",
+      "Informadora": "Callirrhoe"
+    },
+    "direction": "Natural Central Catalan everyday conversation. Keep Mar/Erinome and Informadora/Callirrhoe as two stable adult female voices, each on her own complete turn. No title, added words, labels, effects, or spoken instructions.",
+    "repairs": [
+      {
+        "part": "sentit",
+        "speaker": "Informadora",
+        "text": "Plaça dels Til·lers, línia sis, cap al centre, ahir a les cinc i vint. T’ho repeteixo perquè a l’altra banda de la plaça hi ha la parada del sentit contrari.",
+        "pronunciation": "In Til·lers, pronounce the L gemination clearly: an audible sustained double L /lː/ across the syllable boundary, never the palatal LL sound. Keep the natural Catalan word and the exact assigned adult female voice. Read the entire supplied turn once. Do not read this instruction."
+      },
+      {
+        "part": "final",
+        "speaker": "Mar",
+        "text": "Sí, està bé: plaça dels Til·lers, cap al centre. Gràcies per atendre’m. Adeu.",
+        "pronunciation": "In Til·lers, pronounce the L gemination clearly: an audible sustained double L /lː/ across the syllable boundary, never the palatal LL sound. Keep the natural Catalan word and the exact assigned adult female voice. Read the entire supplied turn once. Do not read this instruction."
+      }
+    ],
+    "application": "Comparar cada torn amb l’original abans d’aplicar-lo. Conservar intacta la primera menció de Til·lers de Mar (linia), validada pel docent. Cap canvi editorial ni aprovació automàtica de la resta de la presa.",
+    "approvedRequestHash": "22a19c67d1ea29be233549e657f9ba6b3e36ec501e2d2f89419b8d39046766c7"
   }
 }

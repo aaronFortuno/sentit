@@ -73,6 +73,9 @@ export const dailyMarEnquiries = [
   }),
   dailyProposal({
     id: 'arribarem-quan-la-recepcio-sigui-tancada', code: 'S101', title: 'Arribarem quan la recepció sigui tancada', grade: '6', level: 'middle', genre: 'dialogue',
+    seconds: 98, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s101-mixed-v1.mp3', tracks: { introduction: './assets/audio/s101-mixed-v1-intro.mp3', body: './assets/audio/s101-mixed-v1-cos.mp3' },
+    fragment: { start: 4.680000000000001, seconds: 93 },
     voices: { Mar: 'Erinome', Recepcionista: 'Callirrhoe' }, guestSpeakers: [{ name: 'Recepcionista', voice: 'Callirrhoe', role: 'Recepcionista d’un hostal · ocasional' }], delivery,
     summary: 'La Mar truca a l’hostal perquè el tren porta retard. La recepció ja serà tancada quan arribin i han de concretar com recolliran la clau.',
     editorialFocus: '6è intermèdia: seguir unes instruccions d’arribada, diferenciar la clau del codi per recollir-la i comprovar el canal de contacte. Reserva i funcionament d’aquest allotjament són ficticis.',

@@ -1,5 +1,7 @@
 export const strings = {
   ca: {
+    releaseDateWorkshopVoices: '25 de novembre de 2026',
+    releaseWorkshopVoices: 'Vuit comprensions noves amb veus per revisar i cinc fragments d’esmena rebuts. Deu muntatges preparats després de validar les veus, amb ambients enregistrats molt tènues. S085, S093, S095 i S102 tenen correccions en cua; seguiment i documentació al dia.',
     releaseFourCompleteBatches: 'Quatre lots rebuts: disset preses per escoltar i l’inici que faltava de S056, abans de muntar. S097 té un avís perquè falta el títol i la primera intervenció. S092 i S093 es tracten de vostè, i S095 tanca amb un comiat neutre. Validacions i seguiment actualitzats.',
     releaseDateNewUniverses: '24 de novembre de 2026',
     releaseHandsAndWalks: 'Mans a l’obra i A peu de camí: quatre guions de cada univers per a 3r–6è, amb preguntes, contextos i escaletes revisats independentment. Taller amb Biel i Elies, passejades amb Aina i Ferran. Totes les pistes són escoltables, sense mapa ni imatge necessaris. Pendents de validació docent; cap síntesi nova.',
@@ -303,6 +305,8 @@ export const strings = {
     sessionEnded: 'Sessió acabada', remainingTime: 'Temps restant',
   },
   es: {
+    releaseDateWorkshopVoices: '25 de noviembre de 2026',
+    releaseWorkshopVoices: 'Ocho comprensiones nuevas con voces para revisar y cinco fragmentos de corrección recibidos. Diez montajes preparados tras validar las voces, con ambientes grabados muy tenues. S085, S093, S095 y S102 tienen correcciones en cola; seguimiento y documentación al día.',
     releaseFourCompleteBatches: 'Cuatro lotes recibidos: diecisiete tomas para escuchar y el inicio que faltaba de S056, antes de montar. S097 avisa de la omisión del título y la primera intervención. S092 y S093 se tratan de usted, y S095 termina con una despedida neutra. Validaciones y seguimiento actualizados.',
     releaseDateNewUniverses: '24 de noviembre de 2026',
     releaseHandsAndWalks: 'Manos a la obra y A pie de camino: cuatro guiones de cada universo para 3.º–6.º, con preguntas, contextos y planes revisados de forma independiente. Taller con Biel y Elies, paseos con Aina y Ferran. Todas las pistas se escuchan, sin necesitar mapas ni imágenes. Pendientes de validación docente; sin síntesis nueva.',
