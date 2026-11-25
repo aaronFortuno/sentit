@@ -1,5 +1,12 @@
 # Canvis
 
+## 0.1.118 · 25 de novembre de 2026
+
+- S112, S113, S115, S117, S119, S121 i S127 passen a publicació definitiva amb confirmació docent. Set il·lustracions contextuals amb models canònics, revisió independent de 37 preguntes i 41 cites, fitxes il·lustrades i solucionaris només parlats. Els màsters aprovats es conserven intactes.
+- Set veus validades i muntatges nous pendents d’audició: S114, S116, S120, S123, S124, S125 i S126. S113 conserva el muntatge ja existent. Fonts sonores i fases actualitzades, sense síntesi nova.
+- S122 torna a esmenes: nova gravació completa per estabilitzar Mireia/Aoede i Laia/Leda i pronunciar ampolla íntegrament. Pla exacte, presa original preservada i cua separada de les esmenes puntuals; espera completar un lot compatible.
+- El muntatge conserva des de la primera mostra les presentacions que ja comencen amb parla, afegint-hi marge abans de reproduir-les sense retallar consonants.
+
 ## 0.1.117 · 25 de novembre de 2026
 
 - Veus de S112, S113, S115, S117, S119, S121 i S127 validades pel docent i muntatges disponibles per a audició. La validació definitiva de cada muntatge continua pendent.

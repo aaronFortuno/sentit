@@ -6867,13 +6867,13 @@ export const productionProgress = {
     }
   },
   "ca-S113": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
-    "editorialFingerprint": "fc51545f68389658aa8817713eb55cbfa79965d7e84f846a989ba5ae06a4f87a",
-    "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "confirmation": "Docent 25/11: S113 també puja a síntesi.",
+    "editorialFingerprint": "6baa969e056fc43fc3809b0d84352ba0c1391ab46225c6c041260c6f149456b9",
+    "plannedNewRequests": 0,
+    "listeningApproval": true,
+    "confirmation": "Docent 25/11: S127, S119, S121, S117, S115, S112 i S113 validats per publicació definitiva.",
     "scriptApprovalSource": "Docent 25/11: S113 també puja a síntesi.",
     "reason": "Guió i escaleta validats. Pendent de completar i congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada.",
     "uncertainTurns": [],
@@ -6902,17 +6902,19 @@ export const productionProgress = {
     "requestHash": "5451b4cea3e920f9aa007be12efb850987a7a6376108afb4dff422c3b91341ac",
     "audioSha256": "08f9b5796fbf412e8a0d38975d79bd8726324dcf64ead0dc6bd119b23f0489c4",
     "montageNewSynthesisRequests": 0,
-    "reviewUpdate": {
-      "audio": "./assets/audio/s113-mixed-v1.mp3",
-      "at": "2026-11-25",
-      "summary": {
-        "ca": "Primer muntatge amb les veus validades. Base comuna «Breaking News Background Music», amb entrada, música contínua atenuada sota la Mar i sortida. Sense papers ni tons afegits. Pendent de la teva audició.",
-        "es": "Primer montaje con las voces validadas y fondo continuo discreto, con entrada y salida. Pendiente de escucha."
-      }
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "teacherAssessment": "Veus i muntatge validats definitivament pel docent. Màster aprovat conservat intacte.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s113-publicacio-v1.webp",
+      "illustrationSha256": "5d75c47c43fb394b79c7960e639a0065f94cc104e6301a1e21417e5e073bca58",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-25",
+      "audioChanged": false
     }
   },
   "ca-S114": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
     "editorialFingerprint": "64168473d9db415d5fc2db7d38ef0791af662d28fc2f1d420f6812af31cc462d",
@@ -6931,14 +6933,33 @@ export const productionProgress = {
         "L38"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-25",
+      "sourceTakeSha256": "929ec2855805b0f1b4156ec8ba06abbe43d387105d19726b8005b25ab4c6d44c",
+      "sourceBatch": "L38",
+      "confirmation": "Docent 25/11: S123, S114, S125, S120, S126, S116, S113 i S124 validats per passar a muntatge."
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-25T20:03:33.548Z",
     "voicePreview": "./proves/veus-rebudes.html#S114",
-    "voicePreviewFile": "./assets/audio/s114-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s114-voices-review-v1.mp3",
+    "mountedAt": "2026-11-25T21:18:52.604Z",
+    "synthesisBatch": "L38",
+    "requestHash": "5451b4cea3e920f9aa007be12efb850987a7a6376108afb4dff422c3b91341ac",
+    "audioSha256": "27edf060b31d01eed155cea8ca693575043f7d1d478508b1035aa8040f2dc7fb",
+    "montageNewSynthesisRequests": 0,
+    "reviewUpdate": {
+      "audio": "./assets/audio/s114-mixed-v1.mp3",
+      "at": "2026-11-25",
+      "summary": {
+        "ca": "Primer muntatge amb les veus validades. Base comuna de notícies, amb entrada, música contínua atenuada sota la Mar i sortida. Entrada suau i fosa final; pendent d’audició.",
+        "es": "Primer montaje con las voces validadas y ambiente continuo discreto. Entrada suave y fundido final; pendiente de escucha."
+      }
+    }
   },
   "ca-S116": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
     "editorialFingerprint": "f92e5dc3c41d10fa3157ba2cb7b22609c50540c69668c65f86731c7a1dd9aa87",
@@ -6957,20 +6978,39 @@ export const productionProgress = {
         "L38"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-25",
+      "sourceTakeSha256": "793a004b326e97f25ceef5c847e60afd7a6530ad2eb9c54ada2b8f884fec5a37",
+      "sourceBatch": "L38",
+      "confirmation": "Docent 25/11: S123, S114, S125, S120, S126, S116, S113 i S124 validats per passar a muntatge."
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-25T20:03:33.548Z",
     "voicePreview": "./proves/veus-rebudes.html#S116",
-    "voicePreviewFile": "./assets/audio/s116-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s116-voices-review-v1.mp3",
+    "mountedAt": "2026-11-25T21:19:02.685Z",
+    "synthesisBatch": "L38",
+    "requestHash": "5451b4cea3e920f9aa007be12efb850987a7a6376108afb4dff422c3b91341ac",
+    "audioSha256": "2b60ca8568781b005ebde0b473d507ce3fd58a47ca59ace4c224c0b5fcec4881",
+    "montageNewSynthesisRequests": 0,
+    "reviewUpdate": {
+      "audio": "./assets/audio/s116-mixed-v1.mp3",
+      "at": "2026-11-25",
+      "summary": {
+        "ca": "Primer muntatge amb les veus validades. Base comuna de notícies, amb entrada, música contínua atenuada sota la Mar i sortida. Entrada suau i fosa final; pendent d’audició.",
+        "es": "Primer montaje con las voces validadas y ambiente continuo discreto. Entrada suave y fundido final; pendiente de escucha."
+      }
+    }
   },
   "ca-S119": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
-    "editorialFingerprint": "a51786420582c03135de74abcf98cf2236b5eb6e53c0be8ba2ec77c2ff54640f",
-    "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "confirmation": "Docent 25/11: S119 també puja a síntesi de veus.",
+    "editorialFingerprint": "7eedb606d7b68b5e7ece9d780775dd9be91284cc03cda910cd69d05d8747fc85",
+    "plannedNewRequests": 0,
+    "listeningApproval": true,
+    "confirmation": "Docent 25/11: S127, S119, S121, S117, S115, S112 i S113 validats per publicació definitiva.",
     "scriptApprovalSource": "Docent 25/11: S119 també puja a síntesi de veus.",
     "reason": "Guió i escaleta validats. Pendent de completar i congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada.",
     "uncertainTurns": [],
@@ -6999,17 +7039,19 @@ export const productionProgress = {
     "requestHash": "5451b4cea3e920f9aa007be12efb850987a7a6376108afb4dff422c3b91341ac",
     "audioSha256": "cf1711ea26a0773ba61cca3fd63a1ea88b338542c14a18218aed7fab7ec42f60",
     "montageNewSynthesisRequests": 0,
-    "reviewUpdate": {
-      "audio": "./assets/audio/s119-mixed-v1.mp3",
-      "at": "2026-11-25",
-      "summary": {
-        "ca": "Primer muntatge amb les veus validades. Base comuna «Breaking News Background Music», amb entrada, música contínua atenuada sota la Mar i sortida. Sense papers ni tons afegits. Pendent de la teva audició.",
-        "es": "Primer montaje con las voces validadas y fondo continuo discreto, con entrada y salida. Pendiente de escucha."
-      }
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "teacherAssessment": "Veus i muntatge validats definitivament pel docent. Màster aprovat conservat intacte.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s119-publicacio-v1.webp",
+      "illustrationSha256": "cb33b82b89860f6a095e60a75b88e3d1777831988cbc96e1bd26db5c73d0b072",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-25",
+      "audioChanged": false
     }
   },
   "ca-S123": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
     "editorialFingerprint": "b87b2703645fc69bb3793a4e25038365efa72f903d456293cae925265be19d63",
@@ -7028,14 +7070,33 @@ export const productionProgress = {
         "L40"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-25",
+      "sourceTakeSha256": "e84e858a2da483c7d06ee99464fe96ad17483d71632022c4bd7a56d91dab5cfc",
+      "sourceBatch": "L40",
+      "confirmation": "Docent 25/11: S123, S114, S125, S120, S126, S116, S113 i S124 validats per passar a muntatge."
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-25T20:26:15.166Z",
     "voicePreview": "./proves/veus-rebudes.html#S123",
-    "voicePreviewFile": "./assets/audio/s123-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s123-voices-review-v1.mp3",
+    "mountedAt": "2026-11-25T21:24:54.780Z",
+    "synthesisBatch": "L40",
+    "requestHash": "5808ddd12485a1772a021a21db2f16fa5be9cd4a42ed90c894aaf948ed7a38be",
+    "audioSha256": "22234b223a78ba93e15e3bf97d127eef8b33c8db0f73196f508b9543d360c98d",
+    "montageNewSynthesisRequests": 0,
+    "reviewUpdate": {
+      "audio": "./assets/audio/s123-mixed-v1.mp3",
+      "at": "2026-11-25",
+      "summary": {
+        "ca": "Primer muntatge amb les veus validades. Ambient molt atenuat de passadís darrere d’una porta, sense afegir reverberació a les veus. Entrada suau i fosa final; pendent d’audició.",
+        "es": "Primer montaje con las voces validadas y ambiente continuo discreto. Entrada suave y fundido final; pendiente de escucha."
+      }
+    }
   },
   "ca-S125": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
     "editorialFingerprint": "630aa0a5955295fcbbc7257f245fe0e17e1073caeb90d5d6c565e303ec394d80",
@@ -7054,20 +7115,39 @@ export const productionProgress = {
         "L39"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-25",
+      "sourceTakeSha256": "7fe0c7ad2de954ab1f3585afd78e6246bb28c12af21979debafd6e6e2c6de962",
+      "sourceBatch": "L39",
+      "confirmation": "Docent 25/11: S123, S114, S125, S120, S126, S116, S113 i S124 validats per passar a muntatge."
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-25T20:20:56.138Z",
     "voicePreview": "./proves/veus-rebudes.html#S125",
-    "voicePreviewFile": "./assets/audio/s125-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s125-voices-review-v1.mp3",
+    "mountedAt": "2026-11-25T21:25:09.453Z",
+    "synthesisBatch": "L39",
+    "requestHash": "507a423d7bc8bf6247c3ff6b5ca198711696b71edabb32edb9158ce33eb4eb40",
+    "audioSha256": "dd79d7b2a52345be57cbc305baf7eebe065f1f19ab52c47834c41f94a249675e",
+    "montageNewSynthesisRequests": 0,
+    "reviewUpdate": {
+      "audio": "./assets/audio/s125-mixed-v1.mp3",
+      "at": "2026-11-25",
+      "summary": {
+        "ca": "Primer muntatge amb les veus validades. Ambient real continu d’interior tranquil de taller, molt baix sota Biel i Elies. Entrada suau i fosa final; pendent d’audició.",
+        "es": "Primer montaje con las voces validadas y ambiente continuo discreto. Entrada suave y fundido final; pendiente de escucha."
+      }
+    }
   },
   "ca-S127": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
-    "editorialFingerprint": "84d53941c191f651e1748bd65a1c4031986c13ec38fd8763b962d9e71a0489f1",
-    "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "confirmation": "Docent 25/11: S116 i S127 també pugen a síntesi de veus.",
+    "editorialFingerprint": "fe0f5bc96e5e5ba77d3fe597a80bc28fd193d25733f78be547b1735e1054c8d4",
+    "plannedNewRequests": 0,
+    "listeningApproval": true,
+    "confirmation": "Docent 25/11: S127, S119, S121, S117, S115, S112 i S113 validats per publicació definitiva.",
     "scriptApprovalSource": "Docent 25/11: S116 i S127 també pugen a síntesi de veus.",
     "reason": "Guió i escaleta validats. Pendent de completar i congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada.",
     "uncertainTurns": [],
@@ -7096,23 +7176,25 @@ export const productionProgress = {
     "requestHash": "507a423d7bc8bf6247c3ff6b5ca198711696b71edabb32edb9158ce33eb4eb40",
     "audioSha256": "7aae0faa9f808f99558ced65ed9b808466516548d1a93dd576a1c20613f55ab5",
     "montageNewSynthesisRequests": 0,
-    "reviewUpdate": {
-      "audio": "./assets/audio/s127-mixed-v1.mp3",
-      "at": "2026-11-25",
-      "summary": {
-        "ca": "Primer muntatge amb les veus validades. Ambient real continu d’interior tranquil de taller, molt baix sota Biel i Elies, amb entrada discreta i pujada breu abans de la fosa final. Pendent de la teva audició.",
-        "es": "Primer montaje con las voces validadas y fondo continuo discreto, con entrada y salida. Pendiente de escucha."
-      }
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "teacherAssessment": "Veus i muntatge validats definitivament pel docent. Màster aprovat conservat intacte.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s127-publicacio-v1.webp",
+      "illustrationSha256": "4efabe4d171ecbcdfffbc63d29a8e9f6b47c9b73a639c04cd08540f0db08b6c0",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-25",
+      "audioChanged": false
     }
   },
   "ca-S115": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
-    "editorialFingerprint": "31288eb6cbe468ee9f5b905525632c7b01ec9caaae146d39194f82b2ec0b1d96",
-    "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "confirmation": "Docent 25/11: S115, S120 i S116 validats per síntesi.",
+    "editorialFingerprint": "8ade4c7777af978abf57f0db1313dd9b467f75b346cab99aac1744b6769385e5",
+    "plannedNewRequests": 0,
+    "listeningApproval": true,
+    "confirmation": "Docent 25/11: S127, S119, S121, S117, S115, S112 i S113 validats per publicació definitiva.",
     "scriptApprovalSource": "Docent 25/11: S115, S120 i S116 validats per síntesi.",
     "reason": "Guió i escaleta validats. Pendent de completar i congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada.",
     "uncertainTurns": [],
@@ -7141,17 +7223,19 @@ export const productionProgress = {
     "requestHash": "5451b4cea3e920f9aa007be12efb850987a7a6376108afb4dff422c3b91341ac",
     "audioSha256": "9d0d24ca945029a451ba0bdbf416b7f45772de44d62a31e6aec28f82035744e5",
     "montageNewSynthesisRequests": 0,
-    "reviewUpdate": {
-      "audio": "./assets/audio/s115-mixed-v1.mp3",
-      "at": "2026-11-25",
-      "summary": {
-        "ca": "Primer muntatge amb les veus validades. Base comuna «Breaking News Background Music», amb entrada, música contínua atenuada sota la Mar i sortida. Sense papers ni tons afegits. Pendent de la teva audició.",
-        "es": "Primer montaje con las voces validadas y fondo continuo discreto, con entrada y salida. Pendiente de escucha."
-      }
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "teacherAssessment": "Veus i muntatge validats definitivament pel docent. Màster aprovat conservat intacte.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s115-publicacio-v1.webp",
+      "illustrationSha256": "fcd98c79be1b3401c679291310bd90cea20769485f7a6a988db0db7395c96d07",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-25",
+      "audioChanged": false
     }
   },
   "ca-S120": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
     "editorialFingerprint": "1cbc1f2676b4675d05020893d617b0be48cd6fdd8a4f217a20cc5aa64869f9f6",
@@ -7170,20 +7254,39 @@ export const productionProgress = {
         "L40"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-25",
+      "sourceTakeSha256": "999f95f62822bfcc86cff4ea43abcffe45ba93bbbb760713a72e1cd547df0517",
+      "sourceBatch": "L40",
+      "confirmation": "Docent 25/11: S123, S114, S125, S120, S126, S116, S113 i S124 validats per passar a muntatge."
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-25T20:26:15.166Z",
     "voicePreview": "./proves/veus-rebudes.html#S120",
-    "voicePreviewFile": "./assets/audio/s120-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s120-voices-review-v1.mp3",
+    "mountedAt": "2026-11-25T21:24:47.961Z",
+    "synthesisBatch": "L40",
+    "requestHash": "5808ddd12485a1772a021a21db2f16fa5be9cd4a42ed90c894aaf948ed7a38be",
+    "audioSha256": "b92e1bfd09c4047a898b19d609037bc69cdb139ac4fc0cf7decf65d919f1e1c7",
+    "montageNewSynthesisRequests": 0,
+    "reviewUpdate": {
+      "audio": "./assets/audio/s120-mixed-v1.mp3",
+      "at": "2026-11-25",
+      "summary": {
+        "ca": "Primer muntatge amb les veus validades. Ambient enregistrat continu d’aula amb jovent, molt discret sota les dues veus. Entrada suau i fosa final; pendent d’audició.",
+        "es": "Primer montaje con las voces validadas y ambiente continuo discreto. Entrada suave y fundido final; pendiente de escucha."
+      }
+    }
   },
   "ca-S112": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
-    "editorialFingerprint": "539285edcf1642efe668f70f93df62270c59585c1b73eeca2a3d4d147f67f43d",
-    "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "confirmation": "Docent 25/11: S112 també validat per síntesi.",
+    "editorialFingerprint": "39e9b91eca5e1d05efec61f7f9db9d803a74f554392121e0e41e1b71649a13fb",
+    "plannedNewRequests": 0,
+    "listeningApproval": true,
+    "confirmation": "Docent 25/11: S127, S119, S121, S117, S115, S112 i S113 validats per publicació definitiva.",
     "scriptApprovalSource": "Docent 25/11: S112 també validat per síntesi.",
     "reason": "Guió i escaleta validats. Pendent de completar i congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada.",
     "uncertainTurns": [],
@@ -7212,23 +7315,25 @@ export const productionProgress = {
     "requestHash": "5451b4cea3e920f9aa007be12efb850987a7a6376108afb4dff422c3b91341ac",
     "audioSha256": "9c5582e2e4eed2700a737ca5ff8a1ead13787ae89e9f88eb743b19296fbf136b",
     "montageNewSynthesisRequests": 0,
-    "reviewUpdate": {
-      "audio": "./assets/audio/s112-mixed-v1.mp3",
-      "at": "2026-11-25",
-      "summary": {
-        "ca": "Primer muntatge amb les veus validades. Base comuna «Breaking News Background Music», amb entrada, música contínua atenuada sota la Mar i sortida. Sense papers ni tons afegits. Pendent de la teva audició.",
-        "es": "Primer montaje con las voces validadas y fondo continuo discreto, con entrada y salida. Pendiente de escucha."
-      }
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "teacherAssessment": "Veus i muntatge validats definitivament pel docent. Màster aprovat conservat intacte.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s112-publicacio-v1.webp",
+      "illustrationSha256": "3aab70a0e2b91f3e9f727e597e8c58c4846e5f43eca39e92e40019c6b88fc8eb",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-25",
+      "audioChanged": false
     }
   },
   "ca-S117": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
-    "editorialFingerprint": "b73371445150891120c9e12b002c9cd4bb4fb88b6826c6609eba9b17afecbfeb",
-    "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "confirmation": "Docent 25/11: S117 validat, i S118 també, per a síntesi.",
+    "editorialFingerprint": "686877f937d10afedf5639446fd588baac8e02eb2ecefc40e5c99bb2d6e13488",
+    "plannedNewRequests": 0,
+    "listeningApproval": true,
+    "confirmation": "Docent 25/11: S127, S119, S121, S117, S115, S112 i S113 validats per publicació definitiva.",
     "scriptApprovalSource": "Docent 25/11: S117 validat, i S118 també, per a síntesi.",
     "reason": "Guió i escaleta validats. Pendent de congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada.",
     "uncertainTurns": [],
@@ -7257,13 +7362,15 @@ export const productionProgress = {
     "requestHash": "5451b4cea3e920f9aa007be12efb850987a7a6376108afb4dff422c3b91341ac",
     "audioSha256": "0a0ff273a3c12aeff73e7d0b4d89f7b0e7b61d86439630e4aad9219a829f0a21",
     "montageNewSynthesisRequests": 0,
-    "reviewUpdate": {
-      "audio": "./assets/audio/s117-mixed-v1.mp3",
-      "at": "2026-11-25",
-      "summary": {
-        "ca": "Primer muntatge amb les veus validades. Base comuna «Breaking News Background Music», amb entrada, música contínua atenuada sota la Mar i sortida. Sense papers ni tons afegits. Pendent de la teva audició.",
-        "es": "Primer montaje con las voces validadas y fondo continuo discreto, con entrada y salida. Pendiente de escucha."
-      }
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "teacherAssessment": "Veus i muntatge validats definitivament pel docent. Màster aprovat conservat intacte.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s117-publicacio-v1.webp",
+      "illustrationSha256": "2f74697881d54e4224950cacfd58b3b82b5c522a119845d9df6547fb26b9fda1",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-25",
+      "audioChanged": false
     }
   },
   "ca-S118": {
@@ -7293,13 +7400,13 @@ export const productionProgress = {
     "voicePreviewFile": "./assets/audio/s118-voices-review-v1.mp3"
   },
   "ca-S121": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
-    "editorialFingerprint": "4a69c0d467077accb8abb05185f54598d4b7d30362d6d54f3fec8e679fe9f1b6",
-    "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "confirmation": "Docent 25/11: tots els guions validats; preparar i enviar els lots compatibles seqüencialment.",
+    "editorialFingerprint": "cfe3583abdc32128eb9d4d9e02e58de6d6aa3d7f5dbf23e152771867a38e8a3d",
+    "plannedNewRequests": 0,
+    "listeningApproval": true,
+    "confirmation": "Docent 25/11: S127, S119, S121, S117, S115, S112 i S113 validats per publicació definitiva.",
     "scriptApprovalSource": "Docent 25/11: tots els guions validats; preparar i enviar els lots compatibles seqüencialment.",
     "reason": "Guió i escaleta validats; pendent d’un lot compatible de sis a vuit minuts.",
     "uncertainTurns": [],
@@ -7328,17 +7435,19 @@ export const productionProgress = {
     "requestHash": "5808ddd12485a1772a021a21db2f16fa5be9cd4a42ed90c894aaf948ed7a38be",
     "audioSha256": "bc77e862e73ef1fcadc1ba2b9e036642498cbf5f64f246bf830edd3a9e3dc91d",
     "montageNewSynthesisRequests": 0,
-    "reviewUpdate": {
-      "audio": "./assets/audio/s121-mixed-v1.mp3",
-      "at": "2026-11-25",
-      "summary": {
-        "ca": "Primer muntatge amb les veus validades. Ambient real continu de pati escolar, molt baix sota Mireia i Laia, amb entrada discreta i pujada breu abans de la fosa final. Pendent de la teva audició.",
-        "es": "Primer montaje con las voces validadas y fondo continuo discreto, con entrada y salida. Pendiente de escucha."
-      }
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "teacherAssessment": "Veus i muntatge validats definitivament pel docent. Màster aprovat conservat intacte.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s121-publicacio-v1.webp",
+      "illustrationSha256": "38c1dc50c11dfe47bc510f556883286f05a3f18115aa0c2cf07f35d4744eb721",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-25",
+      "audioChanged": false
     }
   },
   "ca-S122": {
-    "state": "voices-received",
+    "state": "audio-corrections-pending",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
     "editorialFingerprint": "87985c1ebba5cf32cb53707c0bdfa300804684982d64458006185eb243e0012d",
@@ -7346,7 +7455,7 @@ export const productionProgress = {
     "listeningApproval": false,
     "confirmation": "Docent 25/11: tots els guions validats; preparar i enviar els lots compatibles seqüencialment.",
     "scriptApprovalSource": "Docent 25/11: tots els guions validats; preparar i enviar els lots compatibles seqüencialment.",
-    "reason": "Guió i escaleta validats; pendent d’un lot compatible de sis a vuit minuts.",
+    "reason": "Nova presa completa pendent d’un lot compatible Mireia/Aoede + Laia/Leda de sis a vuit minuts. Cap muntatge amb la presa rebutjada.",
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -7361,10 +7470,54 @@ export const productionProgress = {
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-25T20:26:15.166Z",
     "voicePreview": "./proves/veus-rebudes.html#S122",
-    "voicePreviewFile": "./assets/audio/s122-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s122-voices-review-v1.mp3",
+    "feedbackAt": "2026-11-25",
+    "teacherAssessment": "Regenerar el diàleg complet: Mireia passa a una veu masculina al torn de la bossa i es perd l’inici d’ampolla en dos torns.",
+    "feedback": [
+      {
+        "part": "bossa",
+        "word": "Veu de Mireia",
+        "heard": "Una altra veu masculina",
+        "status": "pending"
+      },
+      {
+        "part": "freda",
+        "word": "ampolla (Mireia)",
+        "heard": "La bolla",
+        "status": "pending"
+      },
+      {
+        "part": "comparar",
+        "word": "ampolla (Laia)",
+        "heard": "una bolla",
+        "status": "pending"
+      }
+    ],
+    "plannedRepair": {
+      "scope": "whole-recording",
+      "part": "whole",
+      "takeId": "S122-T02",
+      "status": "awaiting-compatible-batch",
+      "sourceTakeId": "S122-T01",
+      "sourceTakeSha256": "305bd2b4519c45ea7a36988f194240774eb7b6f5535350ad2257a3e80ae018fe",
+      "parts": [
+        "introduction",
+        "ampolles",
+        "bossa",
+        "endoll",
+        "freda",
+        "obrir",
+        "tancar",
+        "comparar",
+        "igual",
+        "final"
+      ],
+      "planFile": "content/full-voice-retakes.json",
+      "approvedRequestHash": "12daae52bce00c68bd63eccb91c1f75cf1d189a893d6dbe80c9f5f80250ce45c"
+    }
   },
   "ca-S124": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
     "editorialFingerprint": "51172442bdb389727cb26d1baced6f2da755e179027b1e04e3825891aa49a889",
@@ -7383,14 +7536,33 @@ export const productionProgress = {
         "L39"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-25",
+      "sourceTakeSha256": "d30ec9a0a41ae23e713ae99dfdab74cd28c65df946fbab29d0923030f763a327",
+      "sourceBatch": "L39",
+      "confirmation": "Docent 25/11: S123, S114, S125, S120, S126, S116, S113 i S124 validats per passar a muntatge."
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-25T20:20:56.138Z",
     "voicePreview": "./proves/veus-rebudes.html#S124",
-    "voicePreviewFile": "./assets/audio/s124-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s124-voices-review-v1.mp3",
+    "mountedAt": "2026-11-25T21:25:01.830Z",
+    "synthesisBatch": "L39",
+    "requestHash": "507a423d7bc8bf6247c3ff6b5ca198711696b71edabb32edb9158ce33eb4eb40",
+    "audioSha256": "10947b2e8b284cb84ebd4386239d32b8026c499d0cc6eb9443d578f62e2675ed",
+    "montageNewSynthesisRequests": 0,
+    "reviewUpdate": {
+      "audio": "./assets/audio/s124-mixed-v1.mp3",
+      "at": "2026-11-25",
+      "summary": {
+        "ca": "Primer muntatge amb les veus validades. Ambient real continu d’interior tranquil de taller, molt baix sota Biel i Elies. Entrada suau i fosa final; pendent d’audició.",
+        "es": "Primer montaje con las voces validadas y ambiente continuo discreto. Entrada suave y fundido final; pendiente de escucha."
+      }
+    }
   },
   "ca-S126": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
     "editorialFingerprint": "a9cc7e2ad2cd3f939b2840440bbad6b173c204f62cfb4f2731451b4045fe60ab",
@@ -7409,11 +7581,30 @@ export const productionProgress = {
         "L39"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-25",
+      "sourceTakeSha256": "3651654d3aa77dec46d1c331fd266979f4fc51bc51adfa28a014f0cf298aa683",
+      "sourceBatch": "L39",
+      "confirmation": "Docent 25/11: S123, S114, S125, S120, S126, S116, S113 i S124 validats per passar a muntatge."
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-25T20:20:56.138Z",
     "voicePreview": "./proves/veus-rebudes.html#S126",
-    "voicePreviewFile": "./assets/audio/s126-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s126-voices-review-v1.mp3",
+    "mountedAt": "2026-11-25T21:25:17.711Z",
+    "synthesisBatch": "L39",
+    "requestHash": "507a423d7bc8bf6247c3ff6b5ca198711696b71edabb32edb9158ce33eb4eb40",
+    "audioSha256": "8986ca354b2f91dbf775d1db3e5855c5e4114fa57324a6f7078a06cb9c4006e8",
+    "montageNewSynthesisRequests": 0,
+    "reviewUpdate": {
+      "audio": "./assets/audio/s126-mixed-v1.mp3",
+      "at": "2026-11-25",
+      "summary": {
+        "ca": "Primer muntatge amb les veus validades. Ambient real continu d’interior tranquil de taller, molt baix sota Biel i Elies. Entrada suau i fosa final; pendent d’audició.",
+        "es": "Primer montaje con las voces validadas y ambiente continuo discreto. Entrada suave y fundido final; pendiente de escucha."
+      }
+    }
   },
   "ca-S128": {
     "state": "ready-for-voices",

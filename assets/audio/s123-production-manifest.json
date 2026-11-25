@@ -1,0 +1,84 @@
+{
+  "code": "S123",
+  "activity": "ca-S123",
+  "state": "awaiting-montage-validation",
+  "file": "s123-mixed-v1.mp3",
+  "introFile": "s123-mixed-v1-intro.mp3",
+  "bodyFile": "s123-mixed-v1-cos.mp3",
+  "offset": 4.800000000000001,
+  "bodyDuration": 86.385,
+  "fullDuration": 91.185,
+  "voices": {
+    "Mireia": "Aoede",
+    "Laia": "Leda"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "5808ddd12485a1772a021a21db2f16fa5be9cd4a42ed90c894aaf948ed7a38be",
+  "sourceRequestHash": "5f98606b70b46eb25ff71deb43a0bd98cd05894d659810188f27802ff4af48a4",
+  "batch": "L40",
+  "rawSha256": "580030ad367459bf30851f7d6d2f2126b2a58bd88b03e9dc2cf92e2796491a98",
+  "takeSha256": "e84e858a2da483c7d06ee99464fe96ad17483d71632022c4bd7a56d91dab5cfc",
+  "coverage": 0.9322709163346613,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.23,
+  "peakDbTP": -2.48,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "bexhillcollege-274213",
+      "start": 0,
+      "source": "assets/audio/sources/bexhillcollege-274213-hallway.mp3",
+      "sourceSha256": "ac07b275131c3517007369de9cd2e3d566e6d0de9fc9ae7c7e3ac0345cbcc5f7",
+      "sourceUrl": "https://freesound.org/people/Bexhillcollege/sounds/274213/",
+      "author": "Bexhillcollege",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.06,
+      "openingGain": 0.14,
+      "raisedGain": 0.2,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -52.43697499232712,
+      "lowPassHz": 800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 6,
+        "seconds": 55.35733333333334
+      },
+      "envelope": {
+        "riseStart": 82.01999999999998,
+        "riseEnd": 82.82,
+        "holdSeconds": 0.9650000000000034,
+        "fadeStart": 83.785,
+        "fadeEnd": 85.185
+      }
+    }
+  ],
+  "sha256": "22234b223a78ba93e15e3bf97d127eef8b33c8db0f73196f508b9543d360c98d",
+  "voiceHandles": {
+    "body": {
+      "start": 0.1,
+      "end": 80.985,
+      "retainedPcmSha256": "cbc5a355a0b60427fa7915fa689a511e4289ddd758972003b20a5b8515aab393",
+      "sourceSha256": "2ecdc4892190e765a4e700608b8d410bbc42827057d00c240e6286bc4e3ee729",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.145,
+      "end": 3.995,
+      "retainedPcmSha256": "91da6c754bd090557385b486800038ed4fb10dae957f35fb34bf12edfa1a2c43",
+      "sourceSha256": "dacbd02db5d5f76ab65ac6ec73c26cdf08cf6cc03be097184cd148b0831d3b3b",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-25",
+    "sourceTakeSha256": "e84e858a2da483c7d06ee99464fe96ad17483d71632022c4bd7a56d91dab5cfc",
+    "sourceBatch": "L40",
+    "confirmation": "Docent 25/11: S123, S114, S125, S120, S126, S116, S113 i S124 validats per passar a muntatge."
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "reviewedAt": "2026-11-25",
+  "reviewer": "revisio_tancament_equilibri",
+  "scope": "Tancament editorial independent de les set peces validades definitivament pel docent; inspecció visual amb view_image de cada il·lustració i dels cinc models canònics, contrast d’alts, guions, preguntes obertes i ABCD, cites i transcripció resultant de review.js en estat validated. Sense comprovació remota ni modificació de fitxers de producció.",
+  "summary": {
+    "passed": 7,
+    "blocked": 0,
+    "questions": 37,
+    "evidenceAnchors": 41,
+    "publishedSpeechPartsIncludingIntroductions": 43,
+    "minimumRequiredCorrections": []
+  },
+  "rows": [
+    {
+      "code": "S112",
+      "status": "passed",
+      "fingerprint": "39e9b91eca5e1d05efec61f7f9db9d803a74f554392121e0e41e1b71649a13fb",
+      "imageSha256": "3aab70a0e2b91f3e9f727e597e8c58c4846e5f43eca39e92e40019c6b88fc8eb",
+      "notes": [
+        "Mar coherent amb el model. El bibliobús de portes tancades dona context; no identifica el gimnàs, l’horari, l’acompanyant ni les accions de préstec i retorn. Alt contextual segur.",
+        "Guió complet i 5 preguntes obertes/ABCD contrastats: una clau defensable per ítem, distractors descartables des de la parla i cap dependència de la imatge. Cites exactes presents a la transcripció definitiva.",
+        "review.js conserva la presentació i els 3 torns parlats, incloent-hi els comiats, i exclou les tres acotacions. Guió font anotat conservat. SHA del màster igual al preflight aprovat. Cap canvi d’àudio ni síntesi."
+      ]
+    },
+    {
+      "code": "S113",
+      "status": "passed",
+      "fingerprint": "6baa969e056fc43fc3809b0d84352ba0c1391ab46225c6c041260c6f149456b9",
+      "imageSha256": "5d75c47c43fb394b79c7960e639a0065f94cc104e6301a1e21417e5e073bca58",
+      "notes": [
+        "Mar coherent amb el model. Arbre encara al test i sacs tancats; no hi ha jardinera trencada, regadora, corda, cartell ni persones fent les tasques preguntades. El banc de fons no representa el racó anterior. Alt contextual segur.",
+        "Guió complet i 5 preguntes obertes/ABCD contrastats: una clau defensable per ítem, distractors descartables des de la parla i cap dependència de la imatge. Cites exactes presents a la transcripció definitiva.",
+        "review.js conserva la presentació i els 3 torns parlats, incloent-hi els comiats, i exclou les tres acotacions. Guió font anotat conservat. SHA del màster igual al preflight aprovat. Cap canvi d’àudio ni síntesi."
+      ]
+    },
+    {
+      "code": "S115",
+      "status": "passed",
+      "fingerprint": "8ade4c7777af978abf57f0db1313dd9b467f75b346cab99aac1744b6769385e5",
+      "imageSha256": "fcd98c79be1b3401c679291310bd90cea20769485f7a6a988db0db7395c96d07",
+      "notes": [
+        "Mar coherent amb el model. Font sense aigua visible, tubs, reparació, tanca ni itinerari identificable. L’enquadrament no resol les causes, la reparació o la feina pendent. Alt contextual segur.",
+        "Guió complet i 5 preguntes obertes/ABCD contrastats: una clau defensable per ítem, distractors descartables des de la parla i cap dependència de la imatge. Cites exactes presents a la transcripció definitiva.",
+        "review.js conserva la presentació i els 3 torns parlats, incloent-hi els comiats, i exclou les tres acotacions. Guió font anotat conservat. SHA del màster igual al preflight aprovat. Cap canvi d’àudio ni síntesi."
+      ]
+    },
+    {
+      "code": "S117",
+      "status": "passed",
+      "fingerprint": "686877f937d10afedf5639446fd588baac8e02eb2ecefc40e5c99bb2d6e13488",
+      "imageSha256": "2f74697881d54e4224950cacfd58b3b82b5c522a119845d9df6547fb26b9fda1",
+      "notes": [
+        "Mar coherent amb el model. Patinets en un racó indeterminat: sense porxo identificable, rampa, porta, cadenats ni demostració de la norma del manillar. No es resol cap dels cinc ítems. Alt contextual segur.",
+        "Guió complet i 5 preguntes obertes/ABCD contrastats: una clau defensable per ítem, distractors descartables des de la parla i cap dependència de la imatge. Cites exactes presents a la transcripció definitiva.",
+        "review.js conserva la presentació i els 3 torns parlats, incloent-hi els comiats, i exclou les tres acotacions. Guió font anotat conservat. SHA del màster igual al preflight aprovat. Cap canvi d’àudio ni síntesi."
+      ]
+    },
+    {
+      "code": "S119",
+      "status": "passed",
+      "fingerprint": "7eedb606d7b68b5e7ece9d780775dd9be91284cc03cda910cd69d05d8747fc85",
+      "imageSha256": "cb33b82b89860f6a095e60a75b88e3d1777831988cbc96e1bd26db5c73d0b072",
+      "notes": [
+        "Mar coherent amb el model. Estoig i faristols desats situen preparatius musicals, sense sala d’actes identificable, pluja, horari, capacitat o missatges sobre la ubicació. Cap resposta revelada. Alt contextual segur.",
+        "Guió complet i 5 preguntes obertes/ABCD contrastats: una clau defensable per ítem, distractors descartables des de la parla i cap dependència de la imatge. Cites exactes presents a la transcripció definitiva.",
+        "review.js conserva la presentació i els 3 torns parlats, incloent-hi els comiats, i exclou les tres acotacions. Guió font anotat conservat. SHA del màster igual al preflight aprovat. Cap canvi d’àudio ni síntesi."
+      ]
+    },
+    {
+      "code": "S121",
+      "status": "passed",
+      "fingerprint": "cfe3583abdc32128eb9d4d9e02e58de6d6aa3d7f5dbf23e152771867a38e8a3d",
+      "imageSha256": "38c1dc50c11dfe47bc510f556883286f05a3f18115aa0c2cf07f35d4744eb721",
+      "notes": [
+        "Laia i Mireia recognoscibles segons els models. Pal amb base fora de camp, sense ombres, marques, llum solar dibuixada, llanterna o diagrames. No il·lustra cap demostració que resolgui els sis ítems. Alt contextual segur.",
+        "Guió complet i 6 preguntes obertes/ABCD contrastats: una clau defensable per ítem, distractors descartables des de la parla i cap dependència de la imatge. Cites exactes presents a la transcripció definitiva.",
+        "review.js conserva la presentació i els 9 torns parlats, incloent-hi els comiats, i exclou les tres acotacions. Guió font anotat conservat. SHA del màster igual al preflight aprovat. Cap canvi d’àudio ni síntesi."
+      ]
+    },
+    {
+      "code": "S127",
+      "status": "passed",
+      "fingerprint": "fe0f5bc96e5e5ba77d3fe597a80bc28fd193d25733f78be547b1735e1054c8d4",
+      "imageSha256": "4efabe4d171ecbcdfffbc63d29a8e9f6b47c9b73a639c04cd08540f0db08b6c0",
+      "notes": [
+        "Biel i Elies coherents amb els models. Gest d’entrevista al taller i dues guitarres de mida semblant; sense clavilla avariada, guitarra infantil, records familiars, pressupost ni passos de reparació. Cap resposta revelada. Alt contextual segur.",
+        "Guió complet i 6 preguntes obertes/ABCD contrastats: una clau defensable per ítem, distractors descartables des de la parla i cap dependència de la imatge. Cites exactes presents a la transcripció definitiva.",
+        "review.js conserva la presentació i els 12 torns parlats, incloent-hi els comiats, i exclou les tres acotacions. Guió font anotat conservat. SHA del màster igual al preflight aprovat. Cap canvi d’àudio ni síntesi."
+      ]
+    }
+  ]
+}

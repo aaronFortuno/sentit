@@ -16,6 +16,14 @@ Les esmenes soles no arriben als **6–8 minuts** acordats. Les durades següent
 | Empleada | 2 / 2 | S095 | 0:25 | Situacions de servei amb la mateixa identitat femenina ocasional i una segona veu fixa. |
 | Joana + Nora | 2 / 2 | S005, S015 | 0:14 | L04 és molt petit; pot esperar. Cal conciliar el registre editorial històric de S015. |
 
+## Regeneracions completes
+
+Aquestes peces necessiten una presa seguida, no una suma d’esmenes aïllades. Els originals es conserven; cal un lot compatible de sis a vuit minuts i una nova audició abans del muntatge.
+
+| Peça | Presa nova | Veus | Previsió | Pla exacte |
+| --- | --- | --- | ---: | --- |
+| [S122](https://sentit.ortogra.fi/#lectura=ca-S122) | S122-T02 · títol i diàleg complets | Mireia / Aoede; Laia / Leda | 1:38 | [Pla i empremta](../content/full-voice-retakes.json) |
+
 Prioritat pràctica: completar primer **Ferran** i **Mar + informadora**, que tenen represes ben delimitades i identitats simples. Després **Elies + Biel**. No omplir cap lot amb frases repetides ni fer passar instruccions de pronunciació al text parlat. Una proposta amb una sola veu pot admetre una segona veu fixa, però mai una tercera.
 
 ## Fragments exactes i estat de preparació

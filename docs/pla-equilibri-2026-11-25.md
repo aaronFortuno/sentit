@@ -1,6 +1,6 @@
 # Nova tanda per equilibrar el catàleg · 25/11/2026
 
-**S112–S127: els setze guions estan validats i les veus rebudes**, amb preguntes obertes/ABCD, context i revisió independent. L38 conté les notícies; L39, taller i entrevistes; L40, explicacions. S112, S113, S115, S117, S119, S121 i S127 ja tenen les veus validades i un primer muntatge per escoltar; les altres nou esperen audició de veus. S125 incorpora «Per tocar» i «Gastades» com a rètols literals. [Revisa L39/L40 i les esmenes](lots-l39-l40.md).
+**Estat actual de S112–S127:** set peces definitives (S112, S113, S115, S117, S119, S121 i S127); set muntatges pendents d’audició (S114, S116, S120, S123, S124, S125 i S126); S118 pendent d’audició de veus i S122 en regeneració completa. [Accés i detall](publicacio-equilibri-2026-11-25.md).
 
 | Bloc | Codis amb veus rebudes | Objectiu | Previsió de veu amb esmenes |
 | --- | --- | --- | ---: |
@@ -58,3 +58,7 @@ Les vuit notícies S112–S119 ja tenen el guió validat. L38 agrupa els vuit t�
 ## Tanda completada a nivell de guió i veus
 
 S112–S127 tenen guió validat i les veus rebudes: L38 (notícies), L39 (taller) i L40 (explicacions). Set peces ja tenen muntatge pendent d’audició: S112, S113, S115, S117, S119, S121 i S127. Les altres nou esperen audició de veus. Les esmenes compatibles d’Elies i Mireia també són disponibles. [Detall de L39/L40](lots-l39-l40.md). Els pilots culturals S128–S130 tenen guió aprovat i esperen completar un lot narrat.
+
+## Tancament i segona tanda de muntatges
+
+**Estat actual de S112–S127:** set peces definitives (S112, S113, S115, S117, S119, S121 i S127); set muntatges pendents d’audició (S114, S116, S120, S123, S124, S125 i S126); S118 pendent d’audició de veus i S122 en regeneració completa. [Accés i detall](publicacio-equilibri-2026-11-25.md).

@@ -1,0 +1,98 @@
+{
+  "code": "S115",
+  "activity": "ca-S115",
+  "state": "published",
+  "file": "s115-mixed-v1.mp3",
+  "introFile": "s115-mixed-v1-intro.mp3",
+  "bodyFile": "s115-mixed-v1-cos.mp3",
+  "offset": 6.035,
+  "bodyDuration": 42.640791666666665,
+  "fullDuration": 48.67579166666667,
+  "voices": {
+    "Mar": "Erinome"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "5451b4cea3e920f9aa007be12efb850987a7a6376108afb4dff422c3b91341ac",
+  "sourceRequestHash": "f843f38f1688b8d1fb697ff6f01f5225503d91910ae9dbe12da7d6e239ea1c0f",
+  "batch": "L38",
+  "rawSha256": "99234bdcad2f77209580f8657378497a82e88cad867431a32a8410636162ff7f",
+  "takeSha256": "ca1db70a2029336d8400350e38b8b6e5bd99e747e4e6460cdeab3c857ac5496b",
+  "coverage": 0.9851851851851852,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.77,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "grand-project-breaking-news-505617",
+      "origin": "licensed-music-in-montage",
+      "start": 0,
+      "underSpeech": true,
+      "credit": {
+        "id": "grand-project-breaking-news-505617",
+        "title": "Breaking News Background Music",
+        "author": "Grand_Project",
+        "url": "https://pixabay.com/music/percussion-breaking-news-background-music-505617/",
+        "license": "Pixabay Content License",
+        "licenseUrl": "https://pixabay.com/service/license-summary/",
+        "source": "tools/news-bed.cjs",
+        "origin": "licensed-music",
+        "kind": "news-programme",
+        "sourceNotDistributedSeparately": true,
+        "newSynthesisRequests": 0
+      },
+      "sourceSha256": "32e3e6c978ef1bc5c013c40880ac3ad9714957548f956c1355ad8852c94405ae",
+      "voiceMarginTargetDb": 25,
+      "sidechain": {
+        "threshold": 0.018,
+        "ratio": 6,
+        "attackMs": 12,
+        "releaseMs": 450
+      },
+      "openingSeconds": 3.5,
+      "closingSeconds": 4.5
+    }
+  ],
+  "sha256": "9d0d24ca945029a451ba0bdbf416b7f45772de44d62a31e6aec28f82035744e5",
+  "voiceHandles": {
+    "body": {
+      "start": 0.6407083333333333,
+      "end": 35.9315,
+      "retainedPcmSha256": "5c843efa192f41e7b2ad06f41d354b377e39ce343a5b568cbe546cd0ec613d2c",
+      "sourceSha256": "80d1675cebdf7300dfc946c56341c96b481d3a6186a14a84c9873c22d12fc803",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0,
+      "end": 4.835,
+      "retainedPcmSha256": "20a0738bd5ef5a4886dffa1f9ee97a70a13ce98059ff0e8c51ef830531373aef",
+      "sourceSha256": "e902fe91ebea8aae71572e9863b6cf4cc35abc6cd20c4d1db72653726650e4c5",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-25",
+    "sourceTakeSha256": "ca1db70a2029336d8400350e38b8b6e5bd99e747e4e6460cdeab3c857ac5496b",
+    "sourceBatch": "L38",
+    "confirmation": "Docent 25/11: S119, S117, S115, S113, S112, S121 i S127 validats per pujar a muntatge."
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "confirmation": "Docent 25/11: S127, S119, S121, S117, S115, S112 i S113 validats per publicació definitiva.",
+    "audioSha256": "9d0d24ca945029a451ba0bdbf416b7f45772de44d62a31e6aec28f82035744e5",
+    "editorialFingerprint": "8ade4c7777af978abf57f0db1313dd9b467f75b346cab99aac1744b6769385e5",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/s115-publicacio-v1.webp",
+    "illustrationSha256": "fcd98c79be1b3401c679291310bd90cea20769485f7a6a988db0db7395c96d07",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-25",
+    "audioChanged": false
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "S122": {
+    "activity": "ca-S122",
+    "status": "approved-awaiting-compatible-batch",
+    "scope": "whole-recording",
+    "takeId": "S122-T02",
+    "approvedAt": "2026-11-25",
+    "approvalSource": "Docent: refer S122 pràcticament sencera per una veu masculina en lloc de Mireia i dues omissions a ampolla. Guió i repartiment canònics conservats.",
+    "sourceTakeId": "S122-T01",
+    "sourceTakeSha256": "305bd2b4519c45ea7a36988f194240774eb7b6f5535350ad2257a3e80ae018fe",
+    "sourceRequestHash": "5808ddd12485a1772a021a21db2f16fa5be9cd4a42ed90c894aaf948ed7a38be",
+    "sourceRawSha256": "580030ad367459bf30851f7d6d2f2126b2a58bd88b03e9dc2cf92e2796491a98",
+    "sourceEditorialFingerprint": "87985c1ebba5cf32cb53707c0bdfa300804684982d64458006185eb243e0012d",
+    "voices": {
+      "Mireia": "Aoede",
+      "Laia": "Leda"
+    },
+    "parts": [
+      "introduction",
+      "ampolles",
+      "bossa",
+      "endoll",
+      "freda",
+      "obrir",
+      "tancar",
+      "comparar",
+      "igual",
+      "final"
+    ],
+    "preservesOriginals": true,
+    "request": {
+      "model": "gemini-3.8-flash-tts",
+      "input": [
+        {
+          "type": "user_input",
+          "content": [
+            {
+              "type": "text",
+              "text": "Comprensió oral. Com conserva el fred una bossa tèrmica?",
+              "annotations": [
+                {
+                  "type": "speech_metadata",
+                  "speaker": "Mireia",
+                  "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants. Mireia adulta propera, Aoede estable; Laia jove, Leda estable. Conversa de petit grup amb preguntes reals, dubtes i reaccions breus. L’explicació causal és el centre; cap tercera veu, moralina ni llenguatge de reunió. Dicció natural i clara, sense llegir les acotacions. Read the title and complete programme verbatim. Leave a brief quiet boundary after the title, without speaking any stage directions or pause instructions. No added sounds, music, words or vocalizations. Preserve the exact assigned female voices: Mireia is Aoede, Laia is Leda, never a male voice. Keep each identity stable throughout this entire dialogue. Say the full Catalan word ampolla and its plural ampolles whenever supplied, including the initial am; do not omit that syllable or replace the word with bolla. Read only the supplied text; no spoken directions or added sounds."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Mireia, aquestes dues ampolles eren fredes quan les hem tret de la nevera. La que ha quedat a la taula ja és més tèbia. La de dins de la bossa encara és fresca.",
+              "annotations": [
+                {
+                  "type": "speech_metadata",
+                  "speaker": "Laia",
+                  "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants. Mireia adulta propera, Aoede estable; Laia jove, Leda estable. Conversa de petit grup amb preguntes reals, dubtes i reaccions breus. L’explicació causal és el centre; cap tercera veu, moralina ni llenguatge de reunió. Dicció natural i clara, sense llegir les acotacions. Read the title and complete programme verbatim. Leave a brief quiet boundary after the title, without speaking any stage directions or pause instructions. No added sounds, music, words or vocalizations. Preserve the exact assigned female voices: Mireia is Aoede, Laia is Leda, never a male voice. Keep each identity stable throughout this entire dialogue. Say the full Catalan word ampolla and its plural ampolles whenever supplied, including the initial am; do not omit that syllable or replace the word with bolla. Read only the supplied text; no spoken directions or added sounds."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Aquesta és una bossa tèrmica. Té una capa de material que dificulta el pas de la calor. Com que a fora fa més calor que a dins, aquesta capa fa que l’ampolla s’escalfi més a poc a poc.",
+              "annotations": [
+                {
+                  "type": "speech_metadata",
+                  "speaker": "Mireia",
+                  "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Preserve the exact assigned female voices: Mireia is Aoede, Laia is Leda, never a male voice. Keep each identity stable throughout this entire dialogue. Say the full Catalan word ampolla and its plural ampolles whenever supplied, including the initial am; do not omit that syllable or replace the word with bolla. Read only the supplied text; no spoken directions or added sounds."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Però no té cap endoll. Si hi poso una ampolla que ha estat a l’habitació, es tornarà freda com a la nevera?",
+              "annotations": [
+                {
+                  "type": "speech_metadata",
+                  "speaker": "Laia",
+                  "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Preserve the exact assigned female voices: Mireia is Aoede, Laia is Leda, never a male voice. Keep each identity stable throughout this entire dialogue. Say the full Catalan word ampolla and its plural ampolles whenever supplied, including the initial am; do not omit that syllable or replace the word with bolla. Read only the supplied text; no spoken directions or added sounds."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "La bossa tota sola no produeix fred. L’ampolla que hi has deixat ja era freda quan l’hi has posada. La bossa retarda el canvi de temperatura. Si hi afegim un acumulador congelat, també hi posem una cosa freda que ajuda a mantenir fresc l’interior.",
+              "annotations": [
+                {
+                  "type": "speech_metadata",
+                  "speaker": "Mireia",
+                  "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Preserve the exact assigned female voices: Mireia is Aoede, Laia is Leda, never a male voice. Keep each identity stable throughout this entire dialogue. Say the full Catalan word ampolla and its plural ampolles whenever supplied, including the initial am; do not omit that syllable or replace the word with bolla. Read only the supplied text; no spoken directions or added sounds."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Ah, per això per a la sortida hi posem aquella peça blava del congelador. I si vaig obrint la bossa tota l’estona?",
+              "annotations": [
+                {
+                  "type": "speech_metadata",
+                  "speaker": "Laia",
+                  "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Preserve the exact assigned female voices: Mireia is Aoede, Laia is Leda, never a male voice. Keep each identity stable throughout this entire dialogue. Say the full Catalan word ampolla and its plural ampolles whenever supplied, including the initial am; do not omit that syllable or replace the word with bolla. Read only the supplied text; no spoken directions or added sounds."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Cada vegada que l’obres, es barreja l’aire de dins amb el de fora. Mantenir-la tancada ajuda a conservar-ne la temperatura. Amb el temps, el que hi ha a dins també es va escalfant.",
+              "annotations": [
+                {
+                  "type": "speech_metadata",
+                  "speaker": "Mireia",
+                  "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Preserve the exact assigned female voices: Mireia is Aoede, Laia is Leda, never a male voice. Keep each identity stable throughout this entire dialogue. Say the full Catalan word ampolla and its plural ampolles whenever supplied, including the initial am; do not omit that syllable or replace the word with bolla. Read only the supplied text; no spoken directions or added sounds."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Demà podem deixar una ampolla a cada lloc i mirar què passa al cap d’una estona?",
+              "annotations": [
+                {
+                  "type": "speech_metadata",
+                  "speaker": "Laia",
+                  "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Preserve the exact assigned female voices: Mireia is Aoede, Laia is Leda, never a male voice. Keep each identity stable throughout this entire dialogue. Say the full Catalan word ampolla and its plural ampolles whenever supplied, including the initial am; do not omit that syllable or replace the word with bolla. Read only the supplied text; no spoken directions or added sounds."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "Sí. Posem la mateixa quantitat d’aigua en dues ampolles iguals, igual de fredes al començament. Una dins de la bossa i l’altra a fora, al costat, totes dues a l’ombra. Així compararem l’efecte de la bossa.",
+              "annotations": [
+                {
+                  "type": "speech_metadata",
+                  "speaker": "Mireia",
+                  "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Preserve the exact assigned female voices: Mireia is Aoede, Laia is Leda, never a male voice. Keep each identity stable throughout this entire dialogue. Say the full Catalan word ampolla and its plural ampolles whenever supplied, including the initial am; do not omit that syllable or replace the word with bolla. Read only the supplied text; no spoken directions or added sounds."
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "text": "D’acord. Ara tanco aquesta, que l’he deixada oberta mentre en parlàvem.",
+              "annotations": [
+                {
+                  "type": "speech_metadata",
+                  "speaker": "Laia",
+                  "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Preserve the exact assigned female voices: Mireia is Aoede, Laia is Leda, never a male voice. Keep each identity stable throughout this entire dialogue. Say the full Catalan word ampolla and its plural ampolles whenever supplied, including the initial am; do not omit that syllable or replace the word with bolla. Read only the supplied text; no spoken directions or added sounds."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "response_format": {
+        "type": "audio",
+        "mime_type": "audio/wav",
+        "sample_rate": 24000
+      },
+      "generation_config": {
+        "speech_config": {
+          "speakers": [
+            {
+              "speaker": "Mireia",
+              "voice": "Aoede"
+            },
+            {
+              "speaker": "Laia",
+              "voice": "Leda"
+            }
+          ]
+        }
+      }
+    },
+    "approvedRequestHash": "12daae52bce00c68bd63eccb91c1f75cf1d189a893d6dbe80c9f5f80250ce45c",
+    "forecast": {
+      "words": 264,
+      "longPauses": 0,
+      "shortPauses": 0,
+      "seconds": 98
+    },
+    "montageAllowed": false,
+    "application": "Una nova presa completa de títol i diàleg per mantenir coherència de les dues veus. Comparar-la amb l’original i esperar audició docent abans de muntar; no generar torns aïllats ni substituir automàticament."
+  }
+}

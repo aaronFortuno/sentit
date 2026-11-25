@@ -1,7 +1,7 @@
 {
   "code": "S121",
   "activity": "ca-S121",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s121-mixed-v1.mp3",
   "introFile": "s121-mixed-v1-intro.mp3",
   "bodyFile": "s121-mixed-v1-cos.mp3",
@@ -80,5 +80,20 @@
     "sourceTakeSha256": "42323a8975d4497fdbac89075c0f4c46fc4ea128fb3e59a6035414f48858b789",
     "sourceBatch": "L40",
     "confirmation": "Docent 25/11: S119, S117, S115, S113, S112, S121 i S127 validats per pujar a muntatge."
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "confirmation": "Docent 25/11: S127, S119, S121, S117, S115, S112 i S113 validats per publicació definitiva.",
+    "audioSha256": "bc77e862e73ef1fcadc1ba2b9e036642498cbf5f64f246bf830edd3a9e3dc91d",
+    "editorialFingerprint": "cfe3583abdc32128eb9d4d9e02e58de6d6aa3d7f5dbf23e152771867a38e8a3d",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/s121-publicacio-v1.webp",
+    "illustrationSha256": "38c1dc50c11dfe47bc510f556883286f05a3f18115aa0c2cf07f35d4744eb721",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-25",
+    "audioChanged": false
   }
 }

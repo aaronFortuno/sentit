@@ -1,6 +1,6 @@
 # L39 i L40 · veus per validar
 
-Rebuts el **25/11/2026**, amb una petició per lot. Tots els guions nous S112–S130 tenen el vistiplau docent. S121 i S127 ja tenen veus validades i primers muntatges pendents d’audició. La resta d’aquestes gravacions són només veus: cal validar dicció, artefactes i continuïtat abans de muntar.
+Rebuts el **25/11/2026**, amb una petició per lot. Tots els guions nous S112–S130 tenen el vistiplau docent. S121 i S127 ja són definitives; S120, S123, S124, S125 i S126 tenen muntatge pendent d’audició. S122 requereix una presa completa nova per identitat de veu i pronunciació d’ampolla. [Estat vigent](publicacio-equilibri-2026-11-25.md).
 
 | Lot | Veus | Guions nous | Esmenes | Previsió / retorn real |
 | --- | --- | --- | --- | --- |

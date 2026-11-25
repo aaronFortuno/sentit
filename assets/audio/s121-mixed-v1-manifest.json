@@ -1,0 +1,99 @@
+{
+  "code": "S121",
+  "activity": "ca-S121",
+  "state": "published",
+  "file": "s121-mixed-v1.mp3",
+  "introFile": "s121-mixed-v1-intro.mp3",
+  "bodyFile": "s121-mixed-v1-cos.mp3",
+  "offset": 3.96,
+  "bodyDuration": 79.875,
+  "fullDuration": 83.835,
+  "voices": {
+    "Mireia": "Aoede",
+    "Laia": "Leda"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "5808ddd12485a1772a021a21db2f16fa5be9cd4a42ed90c894aaf948ed7a38be",
+  "sourceRequestHash": "a53da9b845b05fc3e61eba97708617dadf2630087ec053a209d9bef75cb0e245",
+  "batch": "L40",
+  "rawSha256": "580030ad367459bf30851f7d6d2f2126b2a58bd88b03e9dc2cf92e2796491a98",
+  "takeSha256": "42323a8975d4497fdbac89075c0f4c46fc4ea128fb3e59a6035414f48858b789",
+  "coverage": 0.9450980392156862,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.94,
+  "peakDbTP": -3.15,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "mcconnell-731979",
+      "start": 0,
+      "source": "assets/audio/sources/mcconnell-731979.mp3",
+      "sourceSha256": "05a3c04683be95aaa12df1e59b8d92e4c31be85652c2681caac16889c4678355",
+      "sourceUrl": "https://freesound.org/people/McConnell_Audioprojekte/sounds/731979/",
+      "author": "McConnell_Audioprojekte",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.06,
+      "openingGain": 0.14,
+      "raisedGain": 0.2,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -52.43697499232712,
+      "lowPassHz": 1800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 12,
+        "seconds": 51.48679166666667
+      },
+      "envelope": {
+        "riseStart": 75.63000000000001,
+        "riseEnd": 76.43000000000002,
+        "holdSeconds": 0.8449999999999847,
+        "fadeStart": 77.275,
+        "fadeEnd": 78.67500000000001
+      }
+    }
+  ],
+  "sha256": "bc77e862e73ef1fcadc1ba2b9e036642498cbf5f64f246bf830edd3a9e3dc91d",
+  "voiceHandles": {
+    "body": {
+      "start": 0.07,
+      "end": 74.445,
+      "retainedPcmSha256": "4c8dff8f5538c3144e2f2518abc3a2e888a919c035f62c74cb5d3ae19413bfc4",
+      "sourceSha256": "567086b5238424d332893ff8cc5b7ced84c5669e5f9b660dc2028abb69f33527",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.07,
+      "end": 3.08,
+      "retainedPcmSha256": "3c20f93eee5c0e458dc265270cfaf41ce8b00d1da7140248d6a023ac89ea78f1",
+      "sourceSha256": "5538c6998e7ac6e7204e9d402b6677a3ad5d07de52eb8baac9c68434b39bd6e7",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-25",
+    "sourceTakeSha256": "42323a8975d4497fdbac89075c0f4c46fc4ea128fb3e59a6035414f48858b789",
+    "sourceBatch": "L40",
+    "confirmation": "Docent 25/11: S119, S117, S115, S113, S112, S121 i S127 validats per pujar a muntatge."
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "confirmation": "Docent 25/11: S127, S119, S121, S117, S115, S112 i S113 validats per publicació definitiva.",
+    "audioSha256": "bc77e862e73ef1fcadc1ba2b9e036642498cbf5f64f246bf830edd3a9e3dc91d",
+    "editorialFingerprint": "cfe3583abdc32128eb9d4d9e02e58de6d6aa3d7f5dbf23e152771867a38e8a3d",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/s121-publicacio-v1.webp",
+    "illustrationSha256": "38c1dc50c11dfe47bc510f556883286f05a3f18115aa0c2cf07f35d4744eb721",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-25",
+    "audioChanged": false
+  }
+}

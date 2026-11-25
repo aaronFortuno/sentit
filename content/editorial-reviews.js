@@ -1,4 +1,4 @@
-// Final independent reviews only. This is not teacher approval for production.
+// Only independent final reviews are recorded; no teacher or synthesis approval is implied.
 export const editorialReviews = {
   "ca-S003": {
     "status": "passed",
@@ -718,14 +718,14 @@ export const editorialReviews = {
   "ca-S112": {
     "status": "passed",
     "reviewedAt": "2026-11-25",
-    "reviewer": "/root/abcd_author_002",
-    "fingerprint": "539285edcf1642efe668f70f93df62270c59585c1b73eeca2a3d4d147f67f43d"
+    "reviewer": "revisio_tancament_equilibri",
+    "fingerprint": "39e9b91eca5e1d05efec61f7f9db9d803a74f554392121e0e41e1b71649a13fb"
   },
   "ca-S113": {
     "status": "passed",
     "reviewedAt": "2026-11-25",
-    "reviewer": "/root/abcd_author_002",
-    "fingerprint": "fc51545f68389658aa8817713eb55cbfa79965d7e84f846a989ba5ae06a4f87a"
+    "reviewer": "revisio_tancament_equilibri",
+    "fingerprint": "6baa969e056fc43fc3809b0d84352ba0c1391ab46225c6c041260c6f149456b9"
   },
   "ca-S114": {
     "status": "passed",
@@ -736,8 +736,8 @@ export const editorialReviews = {
   "ca-S115": {
     "status": "passed",
     "reviewedAt": "2026-11-25",
-    "reviewer": "/root/abcd_author_002",
-    "fingerprint": "31288eb6cbe468ee9f5b905525632c7b01ec9caaae146d39194f82b2ec0b1d96"
+    "reviewer": "revisio_tancament_equilibri",
+    "fingerprint": "8ade4c7777af978abf57f0db1313dd9b467f75b346cab99aac1744b6769385e5"
   },
   "ca-S116": {
     "status": "passed",
@@ -748,8 +748,8 @@ export const editorialReviews = {
   "ca-S117": {
     "status": "passed",
     "reviewedAt": "2026-11-25",
-    "reviewer": "/root/abcd_author_002",
-    "fingerprint": "b73371445150891120c9e12b002c9cd4bb4fb88b6826c6609eba9b17afecbfeb"
+    "reviewer": "revisio_tancament_equilibri",
+    "fingerprint": "686877f937d10afedf5639446fd588baac8e02eb2ecefc40e5c99bb2d6e13488"
   },
   "ca-S118": {
     "status": "passed",
@@ -760,8 +760,8 @@ export const editorialReviews = {
   "ca-S119": {
     "status": "passed",
     "reviewedAt": "2026-11-25",
-    "reviewer": "/root/abcd_author_002",
-    "fingerprint": "a51786420582c03135de74abcf98cf2236b5eb6e53c0be8ba2ec77c2ff54640f"
+    "reviewer": "revisio_tancament_equilibri",
+    "fingerprint": "7eedb606d7b68b5e7ece9d780775dd9be91284cc03cda910cd69d05d8747fc85"
   },
   "ca-S120": {
     "status": "passed",
@@ -772,8 +772,8 @@ export const editorialReviews = {
   "ca-S121": {
     "status": "passed",
     "reviewedAt": "2026-11-25",
-    "reviewer": "/root/abcd_author_003",
-    "fingerprint": "4a69c0d467077accb8abb05185f54598d4b7d30362d6d54f3fec8e679fe9f1b6"
+    "reviewer": "revisio_tancament_equilibri",
+    "fingerprint": "cfe3583abdc32128eb9d4d9e02e58de6d6aa3d7f5dbf23e152771867a38e8a3d"
   },
   "ca-S122": {
     "status": "passed",
@@ -808,8 +808,8 @@ export const editorialReviews = {
   "ca-S127": {
     "status": "passed",
     "reviewedAt": "2026-11-25",
-    "reviewer": "/root/abcd_author_004",
-    "fingerprint": "84d53941c191f651e1748bd65a1c4031986c13ec38fd8763b962d9e71a0489f1"
+    "reviewer": "revisio_tancament_equilibri",
+    "fingerprint": "fe0f5bc96e5e5ba77d3fe597a80bc28fd193d25733f78be547b1735e1054c8d4"
   },
   "ca-S128": {
     "status": "passed",

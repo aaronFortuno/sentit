@@ -4,7 +4,7 @@ Actualitzat el **25/11/2026**. L’adaptació ABCD del fons anterior està resol
 
 La selecció reforça les mancances detectades en el fons inicial de 119 entrades: vuit notícies breus (quatre de 3r i quatre de 4t), quatre explicacions (dues de cada curs), dues instruccions de 3r–4t i dues entrevistes de 5è. S’afegeixen set peces de 3r, set de 4t i dues de 5è. Els diàlegs i les narracions conserven el fons existent mentre creixen les altres tipologies. Les variants continuen comptant com a entrades pròpies.
 
-**Prioritat immediata:** escoltar els muntatges de S112, S113, S115, S117, S119, S121 i S127, i validar les veus de les altres nou peces i les esmenes rebudes abans de muntar-les. Els tres pilots culturals S128–S130 també tenen el guió aprovat i esperen completar una petició compatible. Confirmar curs, dificultat i durada després de les veus i el muntatge, mantenint les dues audicions separades.
+**Prioritat immediata:** escoltar els set muntatges nous i la presa de S118. S122 necessita una nova gravació completa, que espera completar un lot Mireia/Laia. Les set publicacions definitives ja surten del seguiment pendent. [Detall i accés](publicacio-equilibri-2026-11-25.md).
 
 **Pas següent:** confirmar l’oferta curta real amb les durades mesurades; continuar ampliant explicacions i instruccions accessibles segons l’ús docent. Cap intenció d’igualar artificialment totes les quotes. Ferran i altres veus amb esmenes curtes necessitaran complements propis que aportin noves situacions útils.
 

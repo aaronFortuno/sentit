@@ -1,0 +1,17 @@
+{
+  "code": "S117",
+  "use": "publication-context",
+  "generatedAt": "2026-11-25",
+  "prompt": "Create ONE new 3:2 landscape illustration for a Catalan school listening worksheet. Inputs are character identity and style REFERENCES only, not edit targets. Soft watercolor and colored-pencil storybook drawing on warm ivory paper, muted sage and earth tones, natural relaxed expressions, one single coherent scene. Match the reference characters precisely. Not a character sheet. No readable text, labels, numbers, logos, border, or watermark. Do not visually reveal answers to comprehension questions. Mar, adult woman with dark brown ponytail, olive blazer and cream top, crouches slightly to include a few parked kick scooters in her local radio report, holding a handheld microphone. Use a specific closer side-angle composition in an indistinct corner near a school. Scooters simply stand casually close together; do not illustrate any placement rule. No children, ramps, porches, school gates, lanes, route marks, padlocks, locks, chains or signs. Do not show a handlebar sticking out into or being checked against a path.",
+  "references": [
+    "assets/characters/mar-model-sheet-v1.webp"
+  ],
+  "originalPngSha256": "3fe2794244463800ce549bfd4b55e411ea07ca1f42aac388172a881d26486233",
+  "file": "assets/images/s117-publicacio-v1.webp",
+  "width": 1536,
+  "height": 1024,
+  "sha256": "2f74697881d54e4224950cacfd58b3b82b5c522a119845d9df6547fb26b9fda1",
+  "alt": "La Mar grava una notícia prop d’uns patinets desats al costat d’una escola.",
+  "notes": "Il·lustració contextual pròpia; els models fixen la identitat dels recurrents. Revisió independent abans de publicar. Conversió a WebP, sense retoc del contingut.",
+  "tool": "image_gen built-in"
+}

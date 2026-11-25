@@ -3,7 +3,7 @@ import { createRequire } from 'node:module';
 const { estimateSynthesis } = createRequire(import.meta.url)('./audio-batch-policy.cjs');
 const receivedStates = new Set(['received-awaiting-listening', 'approved-awaiting-application']);
 export function repairQueue(entries, progress, plans) {
-  const queued = [], received = [], conditional = [], notes = [];
+  const queued = [], received = [], conditional = [], notes = [], retakes = [];
   const add = (entry, part, status, formal) => {
     if (!part?.speaker || !part.text) throw Error('Unresolved pending voice turn: ' + entry.code);
     const plan = plans[entry.code], voice = plan?.voices?.[part.speaker] ?? entry.production?.voices?.[part.speaker];
@@ -17,6 +17,11 @@ export function repairQueue(entries, progress, plans) {
   for (const entry of entries) {
     const state = progress[entry.language + '-' + entry.code];
     if (!state || state.state === 'published') continue;
+    if (state.plannedRepair?.scope === 'whole-recording') {
+      const plan = state.plannedRepair;
+      retakes.push({code:entry.code,take:plan.takeId,voices:entry.production.voices,parts:plan.parts,text:[entry.introduction,...entry.transcript.filter(p=>p.speaker).map(p=>p.text)].join('\n\n'),planFile:plan.planFile,status:plan.status});
+      continue;
+    }
     const covered = new Set();
     for (const repair of plans[entry.code]?.repairs ?? []) {
       for (const part of repair.sourceParts ?? [repair.part]) covered.add(part);
@@ -36,7 +41,7 @@ export function repairQueue(entries, progress, plans) {
       add(entry, part, planned?.status === 'awaiting-teacher-recheck-of-clean-audio' ? 'conditional' : 'queued', false);
     }
   }
-  return { queued, received, conditional, notes, takes: new Set(queued.map(i => i.take)).size };
+  return { queued, received, conditional, notes, retakes, takes: new Set(queued.map(i => i.take)).size };
 }
 export function repairQueueMarkdown(queue, date) {
   const fmt = n => `${Math.floor(n / 60)}:${String(Math.round(n) % 60).padStart(2, '0')}`;
@@ -52,6 +57,7 @@ export function repairQueueMarkdown(queue, date) {
   let text = `# Pla d’esmenes de veu\n\nActualitzat: **${date.split('-').reverse().join('/')}**. **${queue.queued.length} fragments en ${queue.takes} preses previstes** encara necessiten síntesi o re-síntesi. Les correccions de paràgrafs consecutius de la mateixa veu es compten com una sola presa. **${queue.conditional.length} fragment addicional pendent de confirmar a l’àudio net** i **${queue.received.length} fragments ja rebuts que no s’han de tornar a generar ara**.\n\nAquest inventari exclou les esmenes ja incorporades als muntatges i les publicacions definitives. No és una autorització ni una cua executable. No s’ha fet cap petició nova per preparar-lo.\n\n## Blocs per completar\n\nLes esmenes soles no arriben als **6–8 minuts** acordats. Les durades següents són estimacions de parla a 170 mots/minut i un marge de quatre segons per bloc; el resultat real pot variar. Consulteu la [tanda d’equilibri](pla-equilibri-2026-11-25.md) i la [cua vigent](lots-sintesi.md) per distingir complements encara disponibles i veus ja rebudes. Aquesta taula mesura només les esmenes; els complements proposats són orientacions editorials.\n\n| Bloc candidat | Fragments / preses | Esmenes | Parla estimada | Complement que ajudaria |\n| --- | ---: | --- | ---: | --- |\n`;
   for (const group of groups) { const items = queue.queued.filter(i => group.voices.includes(i.voice)); if (!items.length) continue; const seconds = estimateSynthesis({ input: [{ content: items.map(i => ({ type: 'text', text: i.text })) }] }).seconds;
     text += `| ${group.label} | ${items.length} / ${new Set(items.map(i => i.take)).size} | ${[...new Set(items.map(i => i.code))].join(', ')} | ${fmt(seconds)} | ${group.complement} |\n`; }
+  if(queue.retakes.length){text+='\n## Regeneracions completes\n\nAquestes peces necessiten una presa seguida, no una suma d’esmenes aïllades. Els originals es conserven; cal un lot compatible de sis a vuit minuts i una nova audició abans del muntatge.\n\n| Peça | Presa nova | Veus | Previsió | Pla exacte |\n| --- | --- | --- | ---: | --- |\n';for(const item of queue.retakes){const seconds=estimateSynthesis({input:[{content:[{type:'text',text:item.text}]}]}).seconds;text+=`| [${item.code}](https://sentit.ortogra.fi/#lectura=ca-${item.code}) | ${item.take} · títol i diàleg complets | ${Object.entries(item.voices).map(([speaker,voice])=>speaker+' / '+voice).join('; ')} | ${fmt(seconds)} | [Pla i empremta](../${item.planFile}) |\n`;}}
   text += '\nPrioritat pràctica: completar primer **Ferran** i **Mar + informadora**, que tenen represes ben delimitades i identitats simples. Després **Elies + Biel**. No omplir cap lot amb frases repetides ni fer passar instruccions de pronunciació al text parlat. Una proposta amb una sola veu pot admetre una segona veu fixa, però mai una tercera.\n\n## Fragments exactes i estat de preparació\n\n| Peça | Fragment | Veu | Preparació |\n| --- | --- | --- | --- |\n';
   for (const item of queue.queued) text += `| [${item.code}](https://sentit.ortogra.fi/#lectura=ca-${item.code}) | ${item.part} | ${item.speaker} · ${item.voice} | ${item.formal ? 'Pla exacte disponible; falta completar i verificar el lot' : 'Retorn docent registrat; cal formalitzar la petició exacta'} |\n`;
   text += '\n## Material rebut i decisions locals\n\n';

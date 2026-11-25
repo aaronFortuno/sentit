@@ -1,0 +1,84 @@
+{
+  "code": "S120",
+  "activity": "ca-S120",
+  "state": "awaiting-montage-validation",
+  "file": "s120-mixed-v1.mp3",
+  "introFile": "s120-mixed-v1-intro.mp3",
+  "bodyFile": "s120-mixed-v1-cos.mp3",
+  "offset": 3.9699999999999998,
+  "bodyDuration": 77.64,
+  "fullDuration": 81.61,
+  "voices": {
+    "Mireia": "Aoede",
+    "Laia": "Leda"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "5808ddd12485a1772a021a21db2f16fa5be9cd4a42ed90c894aaf948ed7a38be",
+  "sourceRequestHash": "45556fe1c28562d1defc4c15a2e051f7f2b592d1032afc4c993492f37ff50fbd",
+  "batch": "L40",
+  "rawSha256": "580030ad367459bf30851f7d6d2f2126b2a58bd88b03e9dc2cf92e2796491a98",
+  "takeSha256": "999f95f62822bfcc86cff4ea43abcffe45ba93bbbb760713a72e1cd547df0517",
+  "coverage": 0.8949579831932774,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.7,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "kyles-450728",
+      "start": 0,
+      "source": "assets/audio/sources/kyles-450728.mp3",
+      "sourceSha256": "20f19e1eec5394003835bcc940e246b941b2dd733b062c2743dcef1443f7b0c1",
+      "sourceUrl": "https://freesound.org/people/kyles/sounds/450728/",
+      "author": "kyles",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.06,
+      "openingGain": 0.14,
+      "raisedGain": 0.2,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -52.43697499232712,
+      "lowPassHz": 1800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 5,
+        "seconds": 90
+      },
+      "envelope": {
+        "riseStart": 73.31999999999998,
+        "riseEnd": 74.11999999999999,
+        "holdSeconds": 0.9200000000000159,
+        "fadeStart": 75.04,
+        "fadeEnd": 76.44000000000001
+      }
+    }
+  ],
+  "sha256": "b92e1bfd09c4047a898b19d609037bc69cdb139ac4fc0cf7decf65d919f1e1c7",
+  "voiceHandles": {
+    "body": {
+      "start": 0.025,
+      "end": 72.165,
+      "retainedPcmSha256": "b58dcc11850528cef91d14b06700c12152344a0404f8d0141c664444cc37f9a6",
+      "sourceSha256": "c543a3413b027be47af53fb548b505e5b61990a7e6c24069ec3b677a80ad86e7",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0,
+      "end": 3.02,
+      "retainedPcmSha256": "aa38646be4a8919ed3ec6f5c682c7063aa2884b1dea14ef3f5fabdf3bbd06705",
+      "sourceSha256": "db73995604d4bcc9e99bc7f9a260d45aeb76eb26286e1dfd52539644fd213149",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-25",
+    "sourceTakeSha256": "999f95f62822bfcc86cff4ea43abcffe45ba93bbbb760713a72e1cd547df0517",
+    "sourceBatch": "L40",
+    "confirmation": "Docent 25/11: S123, S114, S125, S120, S126, S116, S113 i S124 validats per passar a muntatge."
+  }
+}

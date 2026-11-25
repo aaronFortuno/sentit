@@ -1,0 +1,17 @@
+{
+  "code": "S112",
+  "use": "publication-context",
+  "generatedAt": "2026-11-25",
+  "prompt": "Create a new 3:2 landscape editorial illustration for Sentit, a Catalan school listening worksheet. Reference image is a character identity/style reference, not an edit target. Keep Mar exactly recognizable: adult woman with dark brown low ponytail, olive blazer, cream shirt, charcoal trousers. Soft watercolor and colored-pencil storybook drawing on warm ivory paper, quiet natural light, muted sage and earth colors. One single scene, no panels or lettering. Mar is standing in three-quarter view recording a local radio report with a handheld microphone, near a parked small mobile-library bus with CLOSED doors in an indistinct public outdoor space. A very subtle book pictogram on the bus is fine, but no readable words. Make this scene specific through the bus and reporting gesture. Do NOT depict children, teachers, a library worker, lending/returning books, gym entrances, any identifiable parking location, clocks, dates, schedules, signs, or specific books. No graphic showing answers. No text, watermark or border.",
+  "references": [
+    "assets/characters/mar-model-sheet-v1.webp"
+  ],
+  "originalPngSha256": "6453c59993c0615ca7ce4ee760ba9e3af6d9f5699dcdf0febeac17398c893313",
+  "file": "assets/images/s112-publicacio-v1.webp",
+  "width": 1536,
+  "height": 1024,
+  "sha256": "3aab70a0e2b91f3e9f727e597e8c58c4846e5f43eca39e92e40019c6b88fc8eb",
+  "alt": "La Mar prepara una crònica amb el micròfon, prop d’un vehicle de biblioteca estacionat.",
+  "notes": "Il·lustració contextual pròpia; els models fixen la identitat dels recurrents. Revisió independent abans de publicar. Conversió a WebP, sense retoc del contingut.",
+  "tool": "image_gen built-in"
+}

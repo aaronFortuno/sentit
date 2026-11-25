@@ -1,0 +1,17 @@
+{
+  "code": "S115",
+  "use": "publication-context",
+  "generatedAt": "2026-11-25",
+  "prompt": "Create ONE new 3:2 landscape illustration for a Catalan school listening worksheet. Inputs are character identity and style REFERENCES only, not edit targets. Soft watercolor and colored-pencil storybook drawing on warm ivory paper, muted sage and earth tones, natural relaxed expressions, one single coherent scene. Match the reference characters precisely. Not a character sheet. No readable text, labels, numbers, logos, border, or watermark. Do not visually reveal answers to comprehension questions. Mar, adult woman with dark low ponytail, olive blazer and cream shirt, stands beside a compact older stone public DRINKING fountain in a small leafy park, recording a local report with her handheld microphone. Use a closer three-quarter composition and a different viewpoint from the bus and school images. Fountain tap and basin are visible but there is NO flowing water. Do not show repair work, pipes, workers, broken parts, pavement repairs, construction barriers, a route or path to the fountain, schedules or dates. Keep background surfaces visually indistinct.",
+  "references": [
+    "assets/characters/mar-model-sheet-v1.webp"
+  ],
+  "originalPngSha256": "7bc06c4c26b16d38a3d419f9be3d062d8c79e236ec72e3d8a98bd80077edda69",
+  "file": "assets/images/s115-publicacio-v1.webp",
+  "width": 1536,
+  "height": 1024,
+  "sha256": "fcd98c79be1b3401c679291310bd90cea20769485f7a6a988db0db7395c96d07",
+  "alt": "La Mar informa des d’un parc amb una font de beure al fons.",
+  "notes": "Il·lustració contextual pròpia; els models fixen la identitat dels recurrents. Revisió independent abans de publicar. Conversió a WebP, sense retoc del contingut.",
+  "tool": "image_gen built-in"
+}

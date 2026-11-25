@@ -1,5 +1,6 @@
 export const strings = {
   ca: {
+    releaseEquilibriPublication: "Set publicacions definitives: S112, S113, S115, S117, S119, S121 i S127, amb il·lustracions i solucionaris nets. Set muntatges nous per escoltar: S114, S116, S120, S123, S124, S125 i S126. S122 espera una nova presa completa de les dues veus.",
     releaseSevenBalanceMontages: "S112, S113, S115, S117, S119, S121 i S127: veus validades i primers muntatges disponibles. Base comuna de notícies, ambient discret de pati o de taller, segons l’escena. Tot pendent d’audició de muntatge; cap síntesi nova.",
     releaseL39L40Voices: "Guions pendents validats. L39 i L40 rebuts: veus de S120–S127 i cinc comparacions d’esmena de S081, S107, S017 i S041. Dos paràgrafs de S017 en una sola presa contínua. Sense muntatge ni substitució automàtica; pilots S128–S130 esperen un lot més complet.",
     releaseL38Voices: "Veus rebudes de S112–S119 en un únic lot amb Erinome, més les esmenes S085/comiat, S093/confirmar i S102/final. Reproductors i comparacions disponibles; tot pendent d’audició, sense muntatge automàtic. Recuperació local del contenidor i metadades, sense repetir la petició ni alterar el ritme.",
@@ -337,6 +338,7 @@ export const strings = {
     sessionEnded: 'Sessió acabada', remainingTime: 'Temps restant',
   },
   es: {
+    releaseEquilibriPublication: "Siete publicaciones definitivas: S112, S113, S115, S117, S119, S121 y S127, con ilustraciones y solucionarios limpios. Siete montajes nuevos para escuchar: S114, S116, S120, S123, S124, S125 y S126. S122 espera una nueva toma completa de las dos voces.",
     releaseSevenBalanceMontages: "S112, S113, S115, S117, S119, S121 y S127: voces validadas y primeros montajes disponibles. Base común de noticias, ambiente discreto de patio o de taller, según la escena. Todo pendiente de escucha del montaje; ninguna síntesis nueva.",
     releaseL39L40Voices: "Guiones pendientes validados. L39 y L40 recibidos: voces de S120–S127 y cinco comparaciones de correcciones de S081, S107, S017 y S041. Dos párrafos de S017 en una sola toma continua. Sin montaje ni sustitución automática; los pilotos S128–S130 esperan un lote más completo.",
     releaseL38Voices: "Voces recibidas de S112–S119 en un único lote con Erinome, más las correcciones S085/comiat, S093/confirmar y S102/final. Reproductores y comparaciones disponibles; todo pendiente de audición, sin montaje automático. Recuperación local del contenedor y metadatos, sin repetir la petición ni alterar el ritmo.",

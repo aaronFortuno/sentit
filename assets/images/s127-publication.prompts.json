@@ -1,0 +1,18 @@
+{
+  "code": "S127",
+  "use": "publication-context",
+  "generatedAt": "2026-11-25",
+  "prompt": "Create ONE new 3:2 landscape illustration for a Catalan school listening worksheet. Inputs are character identity and style REFERENCES only, not edit targets. Soft watercolor and colored-pencil storybook drawing on warm ivory paper, muted sage and earth tones, natural relaxed expressions, one single coherent scene. Match the reference characters precisely. Not a character sheet. No readable text, labels, numbers, logos, border, or watermark. Do not visually reveal answers to comprehension questions. Biel is the young boy with tousled brown hair, charcoal zip hoodie and cream shirt; Elies is the adult luthier with curly salt-and-pepper hair, short beard, slate shirt and tan work apron. Biel holds a small audio recorder toward Elies in a real instrument workshop and is asking a question. Elies pauses thoughtfully with open relaxed hands. Two similar-size acoustic guitars rest on supports in the soft-focus background; none is being repaired. Make a specific interview gesture and workshop setting, with detailed wood textures but no readable paper. No broken tuning pegs, visible damage, small child-size guitar, family photos, heirloom clues, pricing, estimates, agreement forms or repair sequence.",
+  "references": [
+    "assets/characters/biel-model-sheet-v1.webp",
+    "assets/characters/elies-model-sheet-v1.webp"
+  ],
+  "originalPngSha256": "6abb53cea70d9e9d33e1ad5e57691ed1b88334301d38f3a3deb7aafdf0a814bb",
+  "file": "assets/images/s127-publicacio-v1.webp",
+  "width": 1536,
+  "height": 1024,
+  "sha256": "4efabe4d171ecbcdfffbc63d29a8e9f6b47c9b73a639c04cd08540f0db08b6c0",
+  "alt": "En Biel entrevista l’Elies al taller amb dos instruments desats al fons.",
+  "notes": "Il·lustració contextual pròpia; els models fixen la identitat dels recurrents. Revisió independent abans de publicar. Conversió a WebP, sense retoc del contingut.",
+  "tool": "image_gen built-in"
+}

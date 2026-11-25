@@ -1,0 +1,18 @@
+{
+  "code": "S121",
+  "use": "publication-context",
+  "generatedAt": "2026-11-25",
+  "prompt": "Create ONE new 3:2 landscape illustration for a Catalan school listening worksheet. Inputs are character identity and style REFERENCES only, not edit targets. Soft watercolor and colored-pencil storybook drawing on warm ivory paper, muted sage and earth tones, natural relaxed expressions, one single coherent scene. Match the reference characters precisely. Not a character sheet. No readable text, labels, numbers, logos, border, or watermark. Do not visually reveal answers to comprehension questions. Mireia is the adult teacher with brown skin, short dark tight curls, sage cardigan and cream top. Laia is the young girl with freckles, curly brown hair in a loose high bun, sage sweater. They are in a school courtyard, Laia leaning inquisitively forward and gesturing toward an off-frame spot while Mireia listens attentively. A simple vertical pole appears at the far side but its base and all ground are OUT OF FRAME. Waist-up framing so NO cast shadows, chalk marks or geometry appear. Soft diffuse light; no sun disk, flashlight, globe, clocks, diagrams, arrows or model demonstration. Contextual natural conversation, not generic posed portrait.",
+  "references": [
+    "assets/characters/mireia-model-sheet-v1.webp",
+    "assets/characters/laia-model-sheet-v1.webp"
+  ],
+  "originalPngSha256": "efd7b2233832823a10f3251dc6a0d1d285eec13a5f7facd5818b9f939f42935a",
+  "file": "assets/images/s121-publicacio-v1.webp",
+  "width": 1536,
+  "height": 1024,
+  "sha256": "38c1dc50c11dfe47bc510f556883286f05a3f18115aa0c2cf07f35d4744eb721",
+  "alt": "La Laia conversa amb la Mireia al pati, prop d’un pal, sense ombres ni marques visibles.",
+  "notes": "Il·lustració contextual pròpia; els models fixen la identitat dels recurrents. Revisió independent abans de publicar. Conversió a WebP, sense retoc del contingut.",
+  "tool": "image_gen built-in"
+}

@@ -18,17 +18,17 @@ Les preses originals es conserven i la cobertura s’ha comprovat localment. La 
 
 | Peça | Presa |
 | --- | --- |
-| [ca-S114](https://sentit.ortogra.fi/#lectura=ca-S114) | [Escolta les veus](../proves/veus-rebudes.html#S114) |
-| [ca-S116](https://sentit.ortogra.fi/#lectura=ca-S116) | [Escolta les veus](../proves/veus-rebudes.html#S116) |
 | [ca-S118](https://sentit.ortogra.fi/#lectura=ca-S118) | [Escolta les veus](../proves/veus-rebudes.html#S118) |
-| [ca-S120](https://sentit.ortogra.fi/#lectura=ca-S120) | [Escolta les veus](../proves/veus-rebudes.html#S120) |
-| [ca-S122](https://sentit.ortogra.fi/#lectura=ca-S122) | [Escolta les veus](../proves/veus-rebudes.html#S122) |
-| [ca-S123](https://sentit.ortogra.fi/#lectura=ca-S123) | [Escolta les veus](../proves/veus-rebudes.html#S123) |
-| [ca-S124](https://sentit.ortogra.fi/#lectura=ca-S124) | [Escolta les veus](../proves/veus-rebudes.html#S124) |
-| [ca-S125](https://sentit.ortogra.fi/#lectura=ca-S125) | [Escolta les veus](../proves/veus-rebudes.html#S125) |
-| [ca-S126](https://sentit.ortogra.fi/#lectura=ca-S126) | [Escolta les veus](../proves/veus-rebudes.html#S126) |
 
 Les previsions provenen dels guions i del calibratge local; cal recalcular-les amb el format definitiu abans d’enviar. Una mateixa veu en dos guions no implica el mateix personatge. No es canvien repartiments ni s’allarguen guions per omplir un lot.
+
+## Preses completes per regenerar
+
+No repetir-les com a esmenes separades. Esperen completar una petició compatible de sis a vuit minuts.
+
+| Peça | Presa | Repartiment | Pla |
+| --- | --- | --- | --- |
+| [S122](https://sentit.ortogra.fi/#lectura=ca-S122) | S122-T02 | Mireia / Aoede; Laia / Leda | [Regeneració completa](../content/full-voice-retakes.json) |
 
 ## Agrupacions candidates · validació i preparació pendents
 
@@ -37,7 +37,7 @@ La previsió utilitza el text pla real, amb els títols i sense marques literals
 | Proposta | Repartiment | Comprensions | Previsió completa | Disponible ara | Mida orientativa | Guions validats | Validacions que falten |
 | --- | --- | --- | ---: | ---: | --- | ---: | --- |
 
-Les previsions «amb esmenes» sumen només els fragments que encara són a la cua, no les proves ja rebudes. La composició de P26–P28 és al [pla d’equilibri](pla-equilibri-2026-11-25.md). S017/S041 encara requereixen formalitzar la presa exacta; P26 ha de resoldre també l’encaix de l’esmena d’informadora, que no parla a les notícies noves. Cap d’aquestes previsions equival a una entrada congelada i preparada per enviar.
+Les previsions «amb esmenes» sumen només els fragments que encara són a la cua, no les proves ja rebudes. La composició de P26–P28 és al [pla d’equilibri](pla-equilibri-2026-11-25.md). Les correccions ja rebudes es revisen abans de demanar-ne cap altra; els papers ocasionals i els recurrents conserven el seu repartiment. Cap d’aquestes previsions equival a una entrada congelada i preparada per enviar.
 
 P02 reuneix quatre lectures breus del mateix repartiment per conservar els guions de 3r curts i senzills. Els grups nous de 5è–6è es poden validar per repartiments sencers i es proposen en lots de dues o tres comprensions completes. Les previsions utilitzen el text pla i encara s’han de verificar amb l’entrada definitiva; la validació dels guions no garanteix que la mida final del lot sigui admissible. Les preses ja rebudes s’exclouen d’aquesta taula. [Tanda de 3r–4t](lot-cicle-mitja.md) · [Tanda de 5è–6è per repartiment](lot-cicle-superior.md) · [Composició proposada](../content/synthesis-proposals.json).
 
@@ -68,6 +68,7 @@ P02 reuneix quatre lectures breus del mateix repartiment per conservar els guion
 | [ca-S095](https://sentit.ortogra.fi/#lectura=ca-S095) | Empleada · Gacrux | mida + recollida |
 | [ca-S102](https://sentit.ortogra.fi/#lectura=ca-S102) | Mar · Erinome; Informadora · Callirrhoe | sentit + final |
 | [ca-S109](https://sentit.ortogra.fi/#lectura=ca-S109) | Ferran · Algenib | temps + final |
+| [ca-S122](https://sentit.ortogra.fi/#lectura=ca-S122) | Personatge per concretar · Veu per concretar | introduction + ampolles + bossa + endoll + freda + obrir + tancar + comparar + igual + final |
 
 Esperen un lot compatible de sis a vuit minuts. Les proves antigues i les descartades es conserven a l’històric; el pla actual exclou les esmenes ja aplicades.
 

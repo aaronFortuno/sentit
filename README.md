@@ -4,7 +4,7 @@ Banc de comprensió oral d’ortogra.fi. El docent tria una activitat, prepara l
 
 **Doble format a tot el catàleg:** 138 peces, 1.001 preguntes: 997 alternatives ABCD i 4 obertes justificades. El format general i les excepcions es desen entre sessions i col·leccions. [Cobertura](docs/preguntes-abcd-seguiment.md) · [Criteris](docs/preguntes-abcd.md). El pilot conserva l’aprovació docent; la resta d’alternatives continua pendent del seu vistiplau.
 
-**Tanda d’equilibri:** [S112–S127](docs/pla-equilibri-2026-11-25.md), setze guions per reforçar notícies curtes de 3r–4t, explicacions, instruccions i entrevistes. Inclouen 88 preguntes duals, context i escaleta amb revisió independent. Tots tenen el guió validat i les veus rebudes a L38–L40. Set primers muntatges per revisar: S112, S113, S115, S117, S119, S121 i S127; les altres nou peces encara esperen validació de veus. Comparacions d’esmena també disponibles. [Detall de L39 i L40](docs/lots-l39-l40.md).
+**Tanda d’equilibri:** [S112–S127](docs/pla-equilibri-2026-11-25.md), setze guions amb preguntes duals i revisió independent. Set peces definitives, set muntatges pendents d’audició, S118 pendent de validar les veus i S122 en regeneració completa. [Publicacions i accés als muntatges](docs/publicacio-equilibri-2026-11-25.md).
 
 **Pilots de tradició amb guió validat:** [S128–S130](docs/pilots-tradicio.md), una faula de 3r, una llegenda de 4t i un mite grec de 5è. Fonts i decisions d’adaptació explícites, 18 preguntes duals i revisió adversària superada. Narrador amb timbre flexible; esperen completar un lot útil de sis a vuit minuts amb les esmenes pendents.
 

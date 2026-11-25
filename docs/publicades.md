@@ -1,6 +1,6 @@
 # Comprensions finalitzades
 
-Actualitzat: **25/11/2026**. **101 publicacions definitives**. Aquest registre conserva les peces que han sortit de la [taula de pendents](seguiment-produccio.md). Les variants es validen per separat.
+Actualitzat: **25/11/2026**. **108 publicacions definitives**. Aquest registre conserva les peces que han sortit de la [taula de pendents](seguiment-produccio.md). Les variants es validen per separat.
 
 | Codi | Títol | Curs | Dificultat · tipologia | Fragment | Validació definitiva |
 | --- | --- | --- | --- | --- | --- |
@@ -105,6 +105,13 @@ Actualitzat: **25/11/2026**. **101 publicacions definitives**. Aquest registre c
 | [ca-S108](https://sentit.ortogra.fi/#lectura=ca-S108) | Un lloc per berenar | 3r | Accessible · Diàleg | 1:02 | 2026-11-25 |
 | [ca-S110](https://sentit.ortogra.fi/#lectura=ca-S110) | Un so darrere els arbres | 5è | Intermèdia · Diàleg | 1:27 | 2026-11-25 |
 | [ca-S111](https://sentit.ortogra.fi/#lectura=ca-S111) | La porta del camí vell | 6è | Avançada · Diàleg | 1:42 | 2026-11-25 |
+| [ca-S112](https://sentit.ortogra.fi/#lectura=ca-S112) | El bibliobús visita l’escola | 3r | Accessible · Notícia | 0:42 | 2026-11-25 |
+| [ca-S113](https://sentit.ortogra.fi/#lectura=ca-S113) | Un arbre nou al pati | 3r | Accessible · Notícia | 0:44 | 2026-11-25 |
+| [ca-S115](https://sentit.ortogra.fi/#lectura=ca-S115) | La font torna a rajar | 3r | Intermèdia · Notícia | 0:43 | 2026-11-25 |
+| [ca-S117](https://sentit.ortogra.fi/#lectura=ca-S117) | Els patinets estrenen aparcament | 4t | Intermèdia · Notícia | 0:44 | 2026-11-25 |
+| [ca-S119](https://sentit.ortogra.fi/#lectura=ca-S119) | El concert busca un altre espai | 4t | Avançada · Notícia | 0:42 | 2026-11-25 |
+| [ca-S121](https://sentit.ortogra.fi/#lectura=ca-S121) | L’ombra s’ha mogut | 3r | Intermèdia · Explicació | 1:20 | 2026-11-25 |
+| [ca-S127](https://sentit.ortogra.fi/#lectura=ca-S127) | Quan val la pena reparar un instrument? | 5è | Intermèdia · Entrevista | 1:50 | 2026-11-25 |
 
 Les aprovacions estan vinculades al guió i al màster exactes al [registre de producció](../content/production-progress.js). No es concedeix cap aprovació per regenerar aquest document.
 

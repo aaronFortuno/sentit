@@ -41,3 +41,6 @@ Quarta tanda del 25/11/2026: S061, S071, S022, S059 i S025 passen a definitives.
 
 
 S058 tancada el 25/11/2026 amb aprovació definitiva del docent. Il·lustració contextual nova amb models canònics, revisió independent de 8 preguntes, 10 cites i 11 torns, fitxa i solucionari nets comprovats en local. Màster aprovat conservat exactament; cap síntesi. [Detall i procedència](publicacio-s058-2026-11-25.md).
+
+
+Tancament del 25/11/2026 aplicat a S112, S113, S115, S117, S119, S121 i S127: set il·lustracions amb models canònics, prompts conservats, revisió independent de 37 preguntes i 41 cites, transcripcions només parlades i màsters aprovats intactes. [Detall i procedència](publicacio-equilibri-2026-11-25.md).

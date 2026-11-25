@@ -100,6 +100,13 @@ Object.assign(recipes,{
  S115:{newsMusic:true,events:[],ending:'ambient',lead:2.5,tail:4.25,titleGap:.65,cleanHandles:true},
  S117:{newsMusic:true,events:[],ending:'ambient',lead:2.5,tail:4.25,titleGap:.65,cleanHandles:true},
  S119:{newsMusic:true,events:[],ending:'ambient',lead:2.5,tail:4.25,titleGap:.65,cleanHandles:true},
+ S114:{newsMusic:true,events:[],ending:'ambient',lead:2.5,tail:4.25,titleGap:.65,cleanHandles:true},
+ S116:{newsMusic:true,events:[],ending:'ambient',lead:2.5,tail:4.25,titleGap:.65,cleanHandles:true},
+ S120:{ambient:'kyles-450728',ambientFrom:5,bed:true,events:[],ending:'ambient',lead:1.1,tail:3.8,titleGap:.4,cleanHandles:true,bedFadeSeconds:1.4,bedOpeningGain:.14,bedSpeechGain:.06,bedRaisedGain:.20},
+ S123:{ambient:'bexhillcollege-274213',ambientFrom:6,bed:true,events:[],ending:'ambient',lead:1.1,tail:3.8,titleGap:.4,cleanHandles:true,bedFadeSeconds:1.4,bedOpeningGain:.14,bedSpeechGain:.06,bedRaisedGain:.20,bedLowpassHz:800},
+ S124:{ambient:'callmethefoo-744447',ambientFrom:12,bed:true,events:[],ending:'ambient',lead:1.1,tail:3.8,titleGap:.4,cleanHandles:true,bedFadeSeconds:1.4,bedOpeningGain:.16,bedSpeechGain:.07,bedRaisedGain:.23},
+ S125:{ambient:'callmethefoo-744447',ambientFrom:12,bed:true,events:[],ending:'ambient',lead:1.1,tail:3.8,titleGap:.4,cleanHandles:true,bedFadeSeconds:1.4,bedOpeningGain:.16,bedSpeechGain:.07,bedRaisedGain:.23},
+ S126:{ambient:'callmethefoo-744447',ambientFrom:12,bed:true,events:[],ending:'ambient',lead:1.1,tail:3.8,titleGap:.4,cleanHandles:true,bedFadeSeconds:1.4,bedOpeningGain:.16,bedSpeechGain:.07,bedRaisedGain:.23},
  S121:{ambient:'mcconnell-731979',ambientFrom:12,bed:true,events:[],ending:'ambient',lead:1.1,tail:3.8,titleGap:.4,cleanHandles:true,bedFadeSeconds:1.4,bedOpeningGain:.14,bedSpeechGain:.06,bedRaisedGain:.20,bedLowpassHz:1800},
  S127:{ambient:'callmethefoo-744447',ambientFrom:12,bed:true,events:[],ending:'ambient',lead:1.1,tail:3.8,titleGap:.4,cleanHandles:true,bedFadeSeconds:1.4,bedOpeningGain:.16,bedSpeechGain:.07,bedRaisedGain:.23},
 });
@@ -117,7 +124,7 @@ async function main(){
  if(recipe.cleanHandles){
   const trim=async(source,name,start,end)=>{
    const original=await fs.readFile(source.file),decoded=waveParts(original),rate=decoded.format.readUInt32LE(4),frame=decoded.format.readUInt16LE(12),seconds=decoded.pcm.length/frame/rate;
-   const safe=(target,opening)=>{for(const margin of [0,.04,.08,.16,.24,.32,.48]){const at=Math.max(0,Math.min(seconds,target+(opening?-margin:margin))),first=Math.max(0,Math.floor((at-.006)*rate)*frame),last=Math.min(decoded.pcm.length,Math.ceil((at+.006)*rate)*frame);let peak=0;for(let i=first;i<last;i+=2)peak=Math.max(peak,Math.abs(decoded.pcm.readInt16LE(i)));if(peak<=32768*10**(-40/20))return Math.round(at*rate);}throw Error('Sense marge silenciós segur a '+name);};
+   const safe=(target,opening)=>{if(opening&&target<=0)return 0;for(const margin of [0,.04,.08,.16,.24,.32,.48]){const at=Math.max(0,Math.min(seconds,target+(opening?-margin:margin))),first=Math.max(0,Math.floor((at-.006)*rate)*frame),last=Math.min(decoded.pcm.length,Math.ceil((at+.006)*rate)*frame);let peak=0;for(let i=first;i<last;i+=2)peak=Math.max(peak,Math.abs(decoded.pcm.readInt16LE(i)));if(peak<=32768*10**(-40/20))return Math.round(at*rate);}throw Error('Sense marge silenciós segur a '+name);};
    const first=safe(start,true),last=safe(end,false),pcm=decoded.pcm.subarray(first*frame,last*frame),file=path.join(output,name+'.wav');
    await fs.writeFile(file,encodeWave(decoded.format,pcm));return{file,start:first/rate,end:last/rate,retainedPcmSha256:sha(pcm),sourceSha256:sha(original),allRetainedSamplesIdentical:true};
   };
