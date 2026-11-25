@@ -11,6 +11,7 @@ Actualitzat: **25/11/2026**. Aquest document mostra només la feina pendent d’
 | Lot | Material pendent | Veus | Previsió orientativa | Què falta |
 | --- | --- | --- | ---: | --- |
 | L04 | S005: Aquest matí, per exemple, he apartat un sobre per revisar-lo abans de sortir.; S015: Per això es controla la il·luminació i també les condicions de temperatura i humitat. | Vindemiatrix + Kore | 0:22 | Completar amb material del mateix repartiment; S015: conciliar el registre editorial històric abans de preparar l’esmena |
+| L38 | S112; S113; S114; S115; S116; S117; S118; S119; S085: Doncs pugem juntes. Entro un moment les bosses i et vinc a ajudar. Els tomàquets ja han viatjat prou per avui.; S093: Ah! Doncs el directe, el de les deu i vint-i-cinc. Jo m’havia fixat només en l’hora de sortir. La meva amiga ja ve expressament a buscar-me i no la vull fer esperar.; S102: Sí, està bé: plaça dels Til·lers, cap al centre. Gràcies per atendre’m. Adeu. | Erinome | 6:08 | Entrada verificada · pendent d’enviament |
 
 Les previsions provenen dels guions i del calibratge local; cal recalcular-les amb el format definitiu abans d’enviar. Una mateixa veu en dos guions no implica el mateix personatge. No es canvien repartiments ni s’allarguen guions per omplir un lot.
 
@@ -22,7 +23,6 @@ Ordenades pel nombre de guions que falta validar. Són candidats de mida compati
 | --- | --- | --- | ---: |
 | P27 | [ca-S121](https://sentit.ortogra.fi/#lectura=ca-S121), [ca-S122](https://sentit.ortogra.fi/#lectura=ca-S122) | [ca-S120](https://sentit.ortogra.fi/#lectura=ca-S120), [ca-S121](https://sentit.ortogra.fi/#lectura=ca-S121), [ca-S122](https://sentit.ortogra.fi/#lectura=ca-S122), [ca-S123](https://sentit.ortogra.fi/#lectura=ca-S123); esmenes S017, S041 | 6:13 |
 | P28 | [ca-S124](https://sentit.ortogra.fi/#lectura=ca-S124), [ca-S126](https://sentit.ortogra.fi/#lectura=ca-S126) | [ca-S124](https://sentit.ortogra.fi/#lectura=ca-S124), [ca-S125](https://sentit.ortogra.fi/#lectura=ca-S125), [ca-S126](https://sentit.ortogra.fi/#lectura=ca-S126), [ca-S127](https://sentit.ortogra.fi/#lectura=ca-S127); esmenes S081, S107 | 6:52 |
-| P26 | [ca-S112](https://sentit.ortogra.fi/#lectura=ca-S112), [ca-S117](https://sentit.ortogra.fi/#lectura=ca-S117), [ca-S118](https://sentit.ortogra.fi/#lectura=ca-S118) | [ca-S112](https://sentit.ortogra.fi/#lectura=ca-S112), [ca-S113](https://sentit.ortogra.fi/#lectura=ca-S113), [ca-S114](https://sentit.ortogra.fi/#lectura=ca-S114), [ca-S115](https://sentit.ortogra.fi/#lectura=ca-S115), [ca-S116](https://sentit.ortogra.fi/#lectura=ca-S116), [ca-S117](https://sentit.ortogra.fi/#lectura=ca-S117), [ca-S118](https://sentit.ortogra.fi/#lectura=ca-S118), [ca-S119](https://sentit.ortogra.fi/#lectura=ca-S119); esmenes S085, S093, S102 | 6:19 |
 
 ## Agrupacions candidates · validació i preparació pendents
 
@@ -30,7 +30,6 @@ La previsió utilitza el text pla real, amb els títols i sense marques literals
 
 | Proposta | Repartiment | Comprensions | Previsió completa | Disponible ara | Mida orientativa | Guions validats | Validacions que falten |
 | --- | --- | --- | ---: | ---: | --- | ---: | --- |
-| P26 | Mar · Erinome; Informadora · Callirrhoe | [ca-S112](https://sentit.ortogra.fi/#lectura=ca-S112), [ca-S113](https://sentit.ortogra.fi/#lectura=ca-S113), [ca-S114](https://sentit.ortogra.fi/#lectura=ca-S114), [ca-S115](https://sentit.ortogra.fi/#lectura=ca-S115), [ca-S116](https://sentit.ortogra.fi/#lectura=ca-S116), [ca-S117](https://sentit.ortogra.fi/#lectura=ca-S117), [ca-S118](https://sentit.ortogra.fi/#lectura=ca-S118), [ca-S119](https://sentit.ortogra.fi/#lectura=ca-S119) | 6:19 amb 4 fragments d’esmena | 4:13 | Dins la finestra prevista | 5/8 | [ca-S112](https://sentit.ortogra.fi/#lectura=ca-S112), [ca-S117](https://sentit.ortogra.fi/#lectura=ca-S117), [ca-S118](https://sentit.ortogra.fi/#lectura=ca-S118) |
 | P27 | Mireia · Aoede; Laia · Leda | [ca-S120](https://sentit.ortogra.fi/#lectura=ca-S120), [ca-S121](https://sentit.ortogra.fi/#lectura=ca-S121), [ca-S122](https://sentit.ortogra.fi/#lectura=ca-S122), [ca-S123](https://sentit.ortogra.fi/#lectura=ca-S123) | 6:13 amb 3 fragments d’esmena | 3:15 | Dins la finestra prevista | 2/4 | [ca-S121](https://sentit.ortogra.fi/#lectura=ca-S121), [ca-S122](https://sentit.ortogra.fi/#lectura=ca-S122) |
 | P28 | Biel · Puck; Elies · Algieba | [ca-S124](https://sentit.ortogra.fi/#lectura=ca-S124), [ca-S125](https://sentit.ortogra.fi/#lectura=ca-S125), [ca-S126](https://sentit.ortogra.fi/#lectura=ca-S126), [ca-S127](https://sentit.ortogra.fi/#lectura=ca-S127) | 6:52 amb 3 fragments d’esmena | 3:53 | Dins la finestra prevista | 2/4 | [ca-S124](https://sentit.ortogra.fi/#lectura=ca-S124), [ca-S126](https://sentit.ortogra.fi/#lectura=ca-S126) |
 

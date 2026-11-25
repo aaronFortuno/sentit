@@ -6,7 +6,7 @@
     {
       "id": "P26",
       "title": "Notícies breus de la Mar",
-      "state": "awaiting-remaining-teacher-validation",
+      "state": "scheduled-as-L38",
       "speechTextFormat": "plain-v1",
       "styleFormat": "compact-v1",
       "codes": [
@@ -64,18 +64,54 @@
         "seconds": 379,
         "assumption": "170 spoken words/minute; title and body plus repairs, no artificial pauses. Final payload and actual duration may differ."
       },
-      "note": "Candidat editorial complet, sense autorització de síntesi. Validació docent de guions, veus i escaleta pendent. Congelar plans d’esmena i empremta exacta abans d’enviar. Un sol lot en curs, respectant els límits.",
+      "note": "Guions S112–S119 validats i enviats a L38 amb S085/comiat, S093/confirmar i S102/final, una sola veu Mar/Erinome. Retorn pendent. S102/sentit amb Informadora/Callirrhoe espera un altre lot compatible.",
       "approvedScripts": [
+        "S112",
         "S113",
         "S114",
         "S115",
         "S116",
+        "S117",
+        "S118",
         "S119"
       ],
-      "pendingScripts": [
-        "S112",
-        "S117",
-        "S118"
+      "pendingScripts": [],
+      "scheduledBatch": "L38",
+      "scheduledRepairCandidates": [
+        {
+          "code": "S085",
+          "part": "comiat",
+          "take": "S085-comiat",
+          "speaker": "Mar",
+          "voice": "Erinome",
+          "preparation": "existing-plan-needs-final-check"
+        },
+        {
+          "code": "S093",
+          "part": "confirmar",
+          "take": "S093-confirmar",
+          "speaker": "Mar",
+          "voice": "Erinome",
+          "preparation": "existing-plan-needs-final-check"
+        },
+        {
+          "code": "S102",
+          "part": "final",
+          "take": "S102-final",
+          "speaker": "Mar",
+          "voice": "Erinome",
+          "preparation": "existing-plan-needs-final-check"
+        }
+      ],
+      "deferredRepairCandidates": [
+        {
+          "code": "S102",
+          "part": "sentit",
+          "take": "S102-sentit",
+          "speaker": "Informadora",
+          "voice": "Callirrhoe",
+          "preparation": "existing-plan-needs-final-check"
+        }
       ]
     },
     {

@@ -1,6 +1,6 @@
 # Nova tanda per equilibrar el catàleg · 25/11/2026
 
-**S112–S127: setze propostes revisades independentment.** Guió, escaleta, context i 88 preguntes en resposta oberta o ABCD, amb solucionari i evidències. **Guions validats per a síntesi: S113, S114, S115, S116, S119, S120, S123, S125 i S127**; la resta espera el vistiplau docent. S125 incorpora els rètols «Per tocar» i «Gastades», amb nova revisió exacta. Encara no s’ha enviat cap síntesi d’aquesta tanda. Al web, activar «Només provisionals» i entrar al codi per llegir primer el guió del solucionari.
+**S112–S127: setze propostes revisades independentment.** Guió, escaleta, context i 88 preguntes en resposta oberta o ABCD, amb solucionari i evidències. **Guions validats per a síntesi: S112, S113, S114, S115, S116, S117, S118, S119, S120, S123, S125 i S127**; la resta espera el vistiplau docent. S125 incorpora els rètols «Per tocar» i «Gastades», amb nova revisió exacta. L38 ja s’ha enviat amb les vuit notícies i tres esmenes de la Mar; el retorn de veus està pendent. Al web, activar «Només provisionals» i entrar al codi per llegir primer el guió del solucionari.
 
 | Bloc | Codis per validar | Objectiu | Previsió de veu amb esmenes |
 | --- | --- | --- | ---: |
@@ -48,3 +48,7 @@ La ciència de les explicacions s’ha contrastat amb fonts primàries, enllaça
 Revisions separades: /root/abcd_author_002 (Mar), /root/abcd_author_003 (explicacions), /root/abcd_author_004 (taller). Cada registre vincula el guió exacte, les alternatives i el context. L’aprovació docent continua pendent. Les 119 peces anteriors, els seus àudios i les seves aprovacions es conserven intactes.
 
 [Cobertura ABCD](preguntes-abcd-seguiment.md) · [Seguiment de producció](seguiment-produccio.md) · [Estat de les esmenes](pla-esmenes-veu.md).
+
+## Lot concret L38 · 25/11
+
+Les vuit notícies S112–S119 ja tenen el guió validat. L38 agrupa els vuit títols i fragments complets amb S085/comiat, S093/confirmar i S102/final: una sola identitat Mar/Erinome, 1.031 mots, uns **6:08** i 4.931 tokens d’entrada estimats. S102/sentit (Informadora/Callirrhoe) queda fora per conservar el repartiment exacte i esperarà un altre lot compatible. La composició executada es consulta a la [cua de síntesi](lots-sintesi.md) i al [registre de lots](../content/synthesis-batches.json). El retorn de veus encara necessita audició docent abans del muntatge.

@@ -6859,5 +6859,38 @@ export const productionProgress = {
     "confirmation": "Docent 25/11: S115, S120 i S116 validats per síntesi.",
     "scriptApprovalSource": "Docent 25/11: S115, S120 i S116 validats per síntesi.",
     "reason": "Guió i escaleta validats. Pendent de completar i congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada."
+  },
+  "ca-S112": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-25",
+    "scriptApprovedAt": "2026-11-25",
+    "editorialFingerprint": "539285edcf1642efe668f70f93df62270c59585c1b73eeca2a3d4d147f67f43d",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "Docent 25/11: S112 també validat per síntesi.",
+    "scriptApprovalSource": "Docent 25/11: S112 també validat per síntesi.",
+    "reason": "Guió i escaleta validats. Pendent de completar i congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada."
+  },
+  "ca-S117": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-25",
+    "scriptApprovedAt": "2026-11-25",
+    "editorialFingerprint": "b73371445150891120c9e12b002c9cd4bb4fb88b6826c6609eba9b17afecbfeb",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "Docent 25/11: S117 validat, i S118 també, per a síntesi.",
+    "scriptApprovalSource": "Docent 25/11: S117 validat, i S118 també, per a síntesi.",
+    "reason": "Guió i escaleta validats. Pendent de congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada."
+  },
+  "ca-S118": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-25",
+    "scriptApprovedAt": "2026-11-25",
+    "editorialFingerprint": "0152946eacecfdbc430710e8fa8c09da340594e366be305b20294674f332224f",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "Docent 25/11: S117 validat, i S118 també, per a síntesi.",
+    "scriptApprovalSource": "Docent 25/11: S117 validat, i S118 també, per a síntesi.",
+    "reason": "Guió i escaleta validats. Pendent de congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada."
   }
 };

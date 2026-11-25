@@ -2514,9 +2514,9 @@
     "approvalSource": "Docent 25/11: S106, S111, S107, S110 validats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
   },
   "S112": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "23e45c70c496e332c4da43158dccf4b4beb89d5a94021791a0f804da916acf39",
+    "reviewedAt": "2026-11-25",
     "reviewActivity": "ca-S112",
     "reviewContent": "content/propostes/equilibri/noticies.js",
     "format": "3r accessible. Notícia breu amb un moment, un lloc i una finalitat. Cinc preguntes concretes, obertes o ABCD. Durada objectiu aproximada de menys d’un minut, pendent de l’àudio real.",
@@ -2530,7 +2530,8 @@
       "Mar": "Erinome"
     },
     "strategy": "plain-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 25/11: S112 també validat per síntesi."
   },
   "S113": {
     "status": "approved",
@@ -2613,9 +2614,9 @@
     "approvalSource": "Docent 25/11: S116 i S127 també pugen a síntesi de veus."
   },
   "S117": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "cbfaf482d4ba404d96a850a2800d6d9ddb29c367f91cbacbf3b251485bab15a7",
+    "reviewedAt": "2026-11-25",
     "reviewActivity": "ca-S117",
     "reviewContent": "content/propostes/equilibri/noticies.js",
     "format": "4t intermèdia. Relacionar canvi d’ubicació amb necessitat de pas; distingir com s’arriba i què es deixa a l’aparcament. Cinc ítems amb doble format.",
@@ -2629,12 +2630,13 @@
       "Mar": "Erinome"
     },
     "strategy": "plain-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 25/11: S117 validat, i S118 també, per a síntesi."
   },
   "S118": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "0b8f909a9abd9752044e811b19a6df6eb82b1936a8a9b50ea79249c7d0e64447",
+    "reviewedAt": "2026-11-25",
     "reviewActivity": "ca-S118",
     "reviewContent": "content/propostes/equilibri/noticies.js",
     "format": "4t intermèdia. Entendre la funció d’una còpia i el motiu d’una col·laboració veïnal; cinc preguntes sense coneixements previs d’arxivística.",
@@ -2648,7 +2650,8 @@
       "Mar": "Erinome"
     },
     "strategy": "plain-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 25/11: S117 validat, i S118 també, per a síntesi."
   },
   "S119": {
     "status": "approved",
