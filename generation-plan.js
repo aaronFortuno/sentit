@@ -16,14 +16,17 @@ export function renderGenerationPlan(root, entry, t) {
     parent.append(element); return element;
   };
   const requests = plan.takes.reduce((sum, take) => sum + take.requests, 0);
-  node('p', t('generationSummary')(plan.takes.length, requests), content, 'generation-summary');
+  // Plain takes are packed with other approved scripts into a shared request.
+  // Counting each take as a separate provider request overstates the batch cost.
+  const sharedBatch = entry.production?.strategy === 'plain-v1';
+  node('p', sharedBatch ? t('generationSharedSummary')(plan.takes.length) : t('generationSummary')(plan.takes.length, requests), content, 'generation-summary');
   const list = node('ol', '');
   for (const take of plan.takes) {
     const item = node('li', '', list);
     const button = node('button', `${take.id} · ${take.label}`, item);
     button.type = 'button'; button.dataset.take = take.id;
     button.title = t('seeTake');
-    const status = node('small', t('takeRequests')(take.requests), item);
+    const status = node('small', sharedBatch && take.requests ? t('takeSharedRequest') : t('takeRequests')(take.requests), item);
     status.className = take.requests ? 'new-take' : 'reused-take';
     const speech = takeParts(entry, take).filter(Boolean);
     const first = speech[0]?.text.split(/\s+/).slice(0, 7).join(' ');

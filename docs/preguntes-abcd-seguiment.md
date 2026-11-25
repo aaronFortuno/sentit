@@ -1,6 +1,6 @@
 # Seguiment de preguntes obertes / ABCD
 
-Actualitzat: **25/11/2026**. **119 de 119 peces** amb totes les preguntes classificades i revisades independentment: **891 alternatives ABCD**, **4 obertes amb motiu**, **0 preguntes pendents** de 895. **6 peces amb validació docent del format de preguntes.**
+Actualitzat: **25/11/2026**. **135 de 135 peces** amb totes les preguntes classificades i revisades independentment: **979 alternatives ABCD**, **4 obertes amb motiu**, **0 preguntes pendents** de 983. **6 peces amb validació docent del format de preguntes.**
 
 [Pla i criteris](preguntes-abcd.md). Aquest registre és independent de l’audició i la publicació dels àudios. Les variants es compten per separat.
 
@@ -125,5 +125,21 @@ Actualitzat: **25/11/2026**. **119 de 119 peces** amb totes les preguntes classi
 | [ca-S109](https://sentit.ortogra.fi/#lectura=ca-S109) | Les sabates del diumenge | 7 | 7 | 0 | 0 |
 | [ca-S110](https://sentit.ortogra.fi/#lectura=ca-S110) | Un so darrere els arbres | 8 | 8 | 0 | 0 |
 | [ca-S111](https://sentit.ortogra.fi/#lectura=ca-S111) | La porta del camí vell | 9 | 9 | 0 | 0 |
+| [ca-S112](https://sentit.ortogra.fi/#lectura=ca-S112) | El bibliobús visita l’escola | 5 | 5 | 0 | 0 |
+| [ca-S113](https://sentit.ortogra.fi/#lectura=ca-S113) | Un arbre nou al pati | 5 | 5 | 0 | 0 |
+| [ca-S114](https://sentit.ortogra.fi/#lectura=ca-S114) | L’assaig s’obre al barri | 5 | 5 | 0 | 0 |
+| [ca-S115](https://sentit.ortogra.fi/#lectura=ca-S115) | La font torna a rajar | 5 | 5 | 0 | 0 |
+| [ca-S116](https://sentit.ortogra.fi/#lectura=ca-S116) | Una tarda per mirar les estrelles | 5 | 5 | 0 | 0 |
+| [ca-S117](https://sentit.ortogra.fi/#lectura=ca-S117) | Els patinets estrenen aparcament | 5 | 5 | 0 | 0 |
+| [ca-S118](https://sentit.ortogra.fi/#lectura=ca-S118) | La capsa de fotografies arriba a l’arxiu | 5 | 5 | 0 | 0 |
+| [ca-S119](https://sentit.ortogra.fi/#lectura=ca-S119) | El concert busca un altre espai | 5 | 5 | 0 | 0 |
+| [ca-S120](https://sentit.ortogra.fi/#lectura=ca-S120) | Com s’enganxa el velcro? | 6 | 6 | 0 | 0 |
+| [ca-S121](https://sentit.ortogra.fi/#lectura=ca-S121) | L’ombra s’ha mogut | 6 | 6 | 0 | 0 |
+| [ca-S122](https://sentit.ortogra.fi/#lectura=ca-S122) | Com conserva el fred una bossa tèrmica? | 6 | 6 | 0 | 0 |
+| [ca-S123](https://sentit.ortogra.fi/#lectura=ca-S123) | Per què ressona una sala buida? | 6 | 6 | 0 | 0 |
+| [ca-S124](https://sentit.ortogra.fi/#lectura=ca-S124) | Posem nom als estoigs | 6 | 6 | 0 | 0 |
+| [ca-S125](https://sentit.ortogra.fi/#lectura=ca-S125) | Una capseta per a les pues | 6 | 6 | 0 | 0 |
+| [ca-S126](https://sentit.ortogra.fi/#lectura=ca-S126) | Com es prova un instrument reparat? | 6 | 6 | 0 | 0 |
+| [ca-S127](https://sentit.ortogra.fi/#lectura=ca-S127) | Quan val la pena reparar un instrument? | 6 | 6 | 0 | 0 |
 
 Regeneració local: `node tools/build-choice-coverage.mjs --date=AAAA-MM-DD`. Només llegeix dades i revisions i escriu aquest informe; no modifica aprovacions ni genera àudios.

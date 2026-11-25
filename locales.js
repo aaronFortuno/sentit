@@ -1,5 +1,6 @@
 export const strings = {
   ca: {
+    releaseBalancedScripts: "Setze guions nous S112–S127 per equilibrar el catàleg: notícies breus, explicacions, instruccions i entrevistes, amb 88 preguntes duals, context i escaleta. Revisió adversària superada; pendents de validació docent. Tres candidats de síntesi amb esmenes, sense enviar cap petició.",
     releaseFullQuestionChoices: "Doble format complet a les 119 comprensions: 891 alternatives ABCD i 4 preguntes que mantenen resposta oberta amb motiu. Revisió creuada independent i solucionaris amb clau i evidències. Les alternatives noves esperen validació docent; guions, àudios i aprovacions intactes.",
     releaseRealPrintSamples: "S058 publicada definitivament amb il·lustració i solucionari net: 101 comprensions definitives. La tria de format mostra retalls del full imprimible real, amb dues línies de resposta o quatre opcions ABCD i degradat transparent a la dreta.",
     responseSampleOpen: "Retall de la fitxa impresa de S001: una pregunta amb dues línies per escriure la resposta.",
@@ -185,6 +186,8 @@ export const strings = {
     releaseProductionStages: 'S015: guió validat i àudio muntat amb Puck i Kore en una sola petició. S008 i S015 continuen amb l’àudio pendent de validar, indicat també al PDF. Nova escaleta de S023 amb una sola petició prevista. Seguiment de producció al repositori i neteja de filtres amb una creu al costat del títol.',
     generationTitle: 'Talls per a Gemini', seeTake: 'Veure el tall al guió',
     generationSummary: (takes, requests) => `${takes} ${takes === 1 ? 'tall' : 'talls'} · ${requests} ${requests === 1 ? 'petició nova prevista' : 'peticions noves previstes'}`,
+    generationSharedSummary: takes => `${takes} ${takes === 1 ? 'tall per integrar' : 'talls per integrar'} en un lot compartit`,
+    takeSharedRequest: 'Dins una petició compartida amb altres guions',
     takeRequests: n => n ? `${n} petició nova prevista` : 'Presa conservada · cap petició nova',
     takeEnd: id => `Final del text parlat del tall ${id}. Els efectes, la música i els silencis s’afegeixen al muntatge, sense peticions de veu.`,
     generationEstimate: 'Previsió pendent de validació. No inclou possibles reintents o preses descartades. Prem un tall per localitzar-lo al guió.',
@@ -329,6 +332,7 @@ export const strings = {
     sessionEnded: 'Sessió acabada', remainingTime: 'Temps restant',
   },
   es: {
+    releaseBalancedScripts: "Dieciséis guiones nuevos S112–S127 para equilibrar el catálogo: noticias breves, explicaciones, instrucciones y entrevistas, con 88 preguntas duales, contexto y escaleta. Revisión independiente superada; pendientes de validación docente. Tres candidatos de síntesis con correcciones, sin enviar peticiones.",
     releaseFullQuestionChoices: "Doble formato completo en las 119 comprensiones: 891 alternativas ABCD y 4 preguntas que mantienen respuesta abierta con motivo. Revisión cruzada independiente y solucionarios con clave y evidencias. Las alternativas nuevas esperan validación docente; guiones, audios y aprobaciones intactos.",
     releaseRealPrintSamples: "S058 publicada definitivamente con ilustración y solucionario limpio: 101 comprensiones definitivas. La elección de formato muestra recortes de la ficha imprimible real, con dos líneas de respuesta o cuatro opciones ABCD y degradado transparente a la derecha.",
     responseSampleOpen: "Recorte de la ficha impresa de S001: una pregunta con dos líneas para escribir la respuesta.",
@@ -514,6 +518,8 @@ export const strings = {
     releaseProductionStages: 'S015: guion validado y audio montado con Puck y Kore en una sola petición. S008 y S015 siguen con el audio pendiente de validar, indicado también en el PDF. Nueva escaleta de S023 con una petición prevista. Seguimiento de producción en el repositorio y limpieza de filtros con una cruz junto al título.',
     generationTitle: 'Tomas para Gemini', seeTake: 'Ver la toma en el guion',
     generationSummary: (takes, requests) => `${takes} ${takes === 1 ? 'toma' : 'tomas'} · ${requests} ${requests === 1 ? 'petición nueva prevista' : 'peticiones nuevas previstas'}`,
+    generationSharedSummary: takes => `${takes} ${takes === 1 ? 'toma para integrar' : 'tomas para integrar'} en un lote compartido`,
+    takeSharedRequest: 'Dentro de una petición compartida con otros guiones',
     takeRequests: n => n ? `${n} petición nueva prevista` : 'Toma conservada · ninguna petición nueva',
     takeEnd: id => `Final del texto hablado de la toma ${id}. Los efectos, la música y los silencios se añaden en el montaje, sin peticiones de voz.`,
     generationEstimate: 'Previsión pendiente de validación. No incluye posibles reintentos o tomas descartadas. Pulsa una toma para localizarla en el guion.',

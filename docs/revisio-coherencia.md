@@ -1,6 +1,6 @@
 # Revisió independent de coherència
 
-Actualitzat: **25/11/2026**. **116 de 116** propostes de la tanda tenen revisió independent superada per a la versió actual. Abast: 873 preguntes i 1092 cites literals.
+Actualitzat: **25/11/2026**. **132 de 132** propostes de la tanda tenen revisió independent superada per a la versió actual. Abast: 961 preguntes i 1194 cites literals.
 
 S’han revisat situacions, cronologia, circulació d’objectes, coneixement dels personatges, causes i desenllaços, acotacions sonores, preguntes, respostes i ancoratges. Les dades factuals sensibles s’han contrastat amb fonts primàries indicades al [dossier editorial](lot-editorial-24.md). La revisió del muntatge és sobre el guió; les veus i el resultat sonor requeriran audició.
 
@@ -124,6 +124,22 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S109](https://sentit.ortogra.fi/#lectura=ca-S109) | Les sabates del diumenge | 4t | Provisional · revisió superada | 2026-11-24 | `49f5f4af5c5b…` |
 | [ca-S110](https://sentit.ortogra.fi/#lectura=ca-S110) | Un so darrere els arbres | 5è | Revisió superada · publicació definitiva | 2026-11-25 | `3b377041184c…` |
 | [ca-S111](https://sentit.ortogra.fi/#lectura=ca-S111) | La porta del camí vell | 6è | Revisió superada · publicació definitiva | 2026-11-25 | `7a80ff9ded56…` |
+| [ca-S112](https://sentit.ortogra.fi/#lectura=ca-S112) | El bibliobús visita l’escola | 3r | Provisional · revisió superada | 2026-11-25 | `539285edcf16…` |
+| [ca-S113](https://sentit.ortogra.fi/#lectura=ca-S113) | Un arbre nou al pati | 3r | Provisional · revisió superada | 2026-11-25 | `fc51545f6838…` |
+| [ca-S114](https://sentit.ortogra.fi/#lectura=ca-S114) | L’assaig s’obre al barri | 3r | Provisional · revisió superada | 2026-11-25 | `64168473d9db…` |
+| [ca-S115](https://sentit.ortogra.fi/#lectura=ca-S115) | La font torna a rajar | 3r | Provisional · revisió superada | 2026-11-25 | `31288eb6cbe4…` |
+| [ca-S116](https://sentit.ortogra.fi/#lectura=ca-S116) | Una tarda per mirar les estrelles | 4t | Provisional · revisió superada | 2026-11-25 | `f92e5dc3c41d…` |
+| [ca-S117](https://sentit.ortogra.fi/#lectura=ca-S117) | Els patinets estrenen aparcament | 4t | Provisional · revisió superada | 2026-11-25 | `b73371445150…` |
+| [ca-S118](https://sentit.ortogra.fi/#lectura=ca-S118) | La capsa de fotografies arriba a l’arxiu | 4t | Provisional · revisió superada | 2026-11-25 | `0152946eacec…` |
+| [ca-S119](https://sentit.ortogra.fi/#lectura=ca-S119) | El concert busca un altre espai | 4t | Provisional · revisió superada | 2026-11-25 | `a51786420582…` |
+| [ca-S120](https://sentit.ortogra.fi/#lectura=ca-S120) | Com s’enganxa el velcro? | 3r | Provisional · revisió superada | 2026-11-25 | `1cbc1f2676b4…` |
+| [ca-S121](https://sentit.ortogra.fi/#lectura=ca-S121) | L’ombra s’ha mogut | 3r | Provisional · revisió superada | 2026-11-25 | `4a69c0d46707…` |
+| [ca-S122](https://sentit.ortogra.fi/#lectura=ca-S122) | Com conserva el fred una bossa tèrmica? | 4t | Provisional · revisió superada | 2026-11-25 | `87985c1ebba5…` |
+| [ca-S123](https://sentit.ortogra.fi/#lectura=ca-S123) | Per què ressona una sala buida? | 4t | Provisional · revisió superada | 2026-11-25 | `b87b2703645f…` |
+| [ca-S124](https://sentit.ortogra.fi/#lectura=ca-S124) | Posem nom als estoigs | 3r | Provisional · revisió superada | 2026-11-25 | `51172442bdb3…` |
+| [ca-S125](https://sentit.ortogra.fi/#lectura=ca-S125) | Una capseta per a les pues | 4t | Provisional · revisió superada | 2026-11-25 | `4fbc6bc2e22f…` |
+| [ca-S126](https://sentit.ortogra.fi/#lectura=ca-S126) | Com es prova un instrument reparat? | 5è | Provisional · revisió superada | 2026-11-25 | `a9cc7e2ad2cd…` |
+| [ca-S127](https://sentit.ortogra.fi/#lectura=ca-S127) | Quan val la pena reparar un instrument? | 5è | Provisional · revisió superada | 2026-11-25 | `84d53941c191…` |
 
 Les empremtes completes i el revisor consten al [registre de revisions](../content/editorial-reviews.js). La marca provisional només apareix al web si l’empremta coincideix amb el contingut actual. Canviar el guió, les preguntes, les respostes, les pistes, el repartiment o l’escaleta invalida la revisió anterior. Les comprovacions detecten registres caducats abans de publicar.
 

@@ -1,0 +1,172 @@
+{
+  "schema": 1,
+  "createdAt": "2026-11-25",
+  "status": "editorial-proposals-not-authorized",
+  "groups": [
+    {
+      "id": "P26",
+      "title": "Notícies breus de la Mar",
+      "state": "awaiting-teacher-validation",
+      "speechTextFormat": "plain-v1",
+      "styleFormat": "compact-v1",
+      "codes": [
+        "S112",
+        "S113",
+        "S114",
+        "S115",
+        "S116",
+        "S117",
+        "S118",
+        "S119"
+      ],
+      "voices": {
+        "Mar": "Erinome",
+        "Informadora": "Callirrhoe"
+      },
+      "repairCandidates": [
+        {
+          "code": "S085",
+          "part": "comiat",
+          "take": "S085-comiat",
+          "speaker": "Mar",
+          "voice": "Erinome",
+          "preparation": "existing-plan-needs-final-check"
+        },
+        {
+          "code": "S093",
+          "part": "confirmar",
+          "take": "S093-confirmar",
+          "speaker": "Mar",
+          "voice": "Erinome",
+          "preparation": "existing-plan-needs-final-check"
+        },
+        {
+          "code": "S102",
+          "part": "sentit",
+          "take": "S102-sentit",
+          "speaker": "Informadora",
+          "voice": "Callirrhoe",
+          "preparation": "existing-plan-needs-final-check"
+        },
+        {
+          "code": "S102",
+          "part": "final",
+          "take": "S102-final",
+          "speaker": "Mar",
+          "voice": "Erinome",
+          "preparation": "existing-plan-needs-final-check"
+        }
+      ],
+      "estimate": {
+        "words": 1061,
+        "longPauses": 0,
+        "shortPauses": 0,
+        "seconds": 379,
+        "assumption": "170 spoken words/minute; title and body plus repairs, no artificial pauses. Final payload and actual duration may differ."
+      },
+      "note": "Candidat editorial complet, sense autorització de síntesi. Validació docent de guions, veus i escaleta pendent. Congelar plans d’esmena i empremta exacta abans d’enviar. Un sol lot en curs, respectant els límits."
+    },
+    {
+      "id": "P27",
+      "title": "Explicacions amb Mireia i Laia",
+      "state": "awaiting-teacher-validation",
+      "speechTextFormat": "plain-v1",
+      "styleFormat": "compact-v1",
+      "codes": [
+        "S120",
+        "S121",
+        "S122",
+        "S123"
+      ],
+      "voices": {
+        "Mireia": "Aoede",
+        "Laia": "Leda"
+      },
+      "repairCandidates": [
+        {
+          "code": "S017",
+          "part": "coordinacio",
+          "take": "S017-coordinacio-retorn",
+          "speaker": "Mireia",
+          "voice": "Aoede",
+          "preparation": "exact-repair-plan-still-required"
+        },
+        {
+          "code": "S017",
+          "part": "retorn",
+          "take": "S017-coordinacio-retorn",
+          "speaker": "Mireia",
+          "voice": "Aoede",
+          "preparation": "exact-repair-plan-still-required"
+        },
+        {
+          "code": "S041",
+          "part": "finalreunio",
+          "take": "S041-finalreunio",
+          "speaker": "Mireia",
+          "voice": "Aoede",
+          "preparation": "exact-repair-plan-still-required"
+        }
+      ],
+      "estimate": {
+        "words": 1045,
+        "longPauses": 0,
+        "shortPauses": 0,
+        "seconds": 373,
+        "assumption": "170 spoken words/minute; title and body plus repairs, no artificial pauses. Final payload and actual duration may differ."
+      },
+      "note": "Candidat editorial complet, sense autorització de síntesi. Validació docent de guions, veus i escaleta pendent. Congelar plans d’esmena i empremta exacta abans d’enviar. Un sol lot en curs, respectant els límits."
+    },
+    {
+      "id": "P28",
+      "title": "Instruccions i entrevistes amb Biel i Elies",
+      "state": "awaiting-teacher-validation",
+      "speechTextFormat": "plain-v1",
+      "styleFormat": "compact-v1",
+      "codes": [
+        "S124",
+        "S125",
+        "S126",
+        "S127"
+      ],
+      "voices": {
+        "Biel": "Puck",
+        "Elies": "Algieba"
+      },
+      "repairCandidates": [
+        {
+          "code": "S081",
+          "part": "telefon",
+          "take": "S081-telefon",
+          "speaker": "Elies",
+          "voice": "Algieba",
+          "preparation": "existing-plan-needs-final-check"
+        },
+        {
+          "code": "S081",
+          "part": "final",
+          "take": "S081-final",
+          "speaker": "Elies",
+          "voice": "Algieba",
+          "preparation": "existing-plan-needs-final-check"
+        },
+        {
+          "code": "S107",
+          "part": "sortida",
+          "take": "S107-sortida",
+          "speaker": "Elies",
+          "voice": "Algieba",
+          "preparation": "existing-plan-needs-final-check"
+        }
+      ],
+      "estimate": {
+        "words": 1155,
+        "longPauses": 0,
+        "shortPauses": 0,
+        "seconds": 412,
+        "assumption": "170 spoken words/minute; title and body plus repairs, no artificial pauses. Final payload and actual duration may differ."
+      },
+      "note": "Candidat editorial complet, sense autorització de síntesi. Validació docent de guions, veus i escaleta pendent. Congelar plans d’esmena i empremta exacta abans d’enviar. Un sol lot en curs, respectant els límits."
+    }
+  ]
+}

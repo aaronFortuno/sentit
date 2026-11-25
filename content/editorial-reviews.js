@@ -1,4 +1,4 @@
-// Only independent final reviews are recorded; no teacher or synthesis approval is implied.
+// Final independent reviews only. This is not teacher approval for production.
 export const editorialReviews = {
   "ca-S003": {
     "status": "passed",
@@ -714,5 +714,101 @@ export const editorialReviews = {
     "reviewedAt": "2026-11-25",
     "reviewer": "/root/review_final_five_20261125",
     "fingerprint": "7a80ff9ded56c7571a4dbdbbf4429b2603181a0b30b985f6e67451a2a68153a5"
+  },
+  "ca-S112": {
+    "status": "passed",
+    "reviewedAt": "2026-11-25",
+    "reviewer": "/root/abcd_author_002",
+    "fingerprint": "539285edcf1642efe668f70f93df62270c59585c1b73eeca2a3d4d147f67f43d"
+  },
+  "ca-S113": {
+    "status": "passed",
+    "reviewedAt": "2026-11-25",
+    "reviewer": "/root/abcd_author_002",
+    "fingerprint": "fc51545f68389658aa8817713eb55cbfa79965d7e84f846a989ba5ae06a4f87a"
+  },
+  "ca-S114": {
+    "status": "passed",
+    "reviewedAt": "2026-11-25",
+    "reviewer": "/root/abcd_author_002",
+    "fingerprint": "64168473d9db415d5fc2db7d38ef0791af662d28fc2f1d420f6812af31cc462d"
+  },
+  "ca-S115": {
+    "status": "passed",
+    "reviewedAt": "2026-11-25",
+    "reviewer": "/root/abcd_author_002",
+    "fingerprint": "31288eb6cbe468ee9f5b905525632c7b01ec9caaae146d39194f82b2ec0b1d96"
+  },
+  "ca-S116": {
+    "status": "passed",
+    "reviewedAt": "2026-11-25",
+    "reviewer": "/root/abcd_author_002",
+    "fingerprint": "f92e5dc3c41d10fa3157ba2cb7b22609c50540c69668c65f86731c7a1dd9aa87"
+  },
+  "ca-S117": {
+    "status": "passed",
+    "reviewedAt": "2026-11-25",
+    "reviewer": "/root/abcd_author_002",
+    "fingerprint": "b73371445150891120c9e12b002c9cd4bb4fb88b6826c6609eba9b17afecbfeb"
+  },
+  "ca-S118": {
+    "status": "passed",
+    "reviewedAt": "2026-11-25",
+    "reviewer": "/root/abcd_author_002",
+    "fingerprint": "0152946eacecfdbc430710e8fa8c09da340594e366be305b20294674f332224f"
+  },
+  "ca-S119": {
+    "status": "passed",
+    "reviewedAt": "2026-11-25",
+    "reviewer": "/root/abcd_author_002",
+    "fingerprint": "a51786420582c03135de74abcf98cf2236b5eb6e53c0be8ba2ec77c2ff54640f"
+  },
+  "ca-S120": {
+    "status": "passed",
+    "reviewedAt": "2026-11-25",
+    "reviewer": "/root/abcd_author_003",
+    "fingerprint": "1cbc1f2676b4675d05020893d617b0be48cd6fdd8a4f217a20cc5aa64869f9f6"
+  },
+  "ca-S121": {
+    "status": "passed",
+    "reviewedAt": "2026-11-25",
+    "reviewer": "/root/abcd_author_003",
+    "fingerprint": "4a69c0d467077accb8abb05185f54598d4b7d30362d6d54f3fec8e679fe9f1b6"
+  },
+  "ca-S122": {
+    "status": "passed",
+    "reviewedAt": "2026-11-25",
+    "reviewer": "/root/abcd_author_003",
+    "fingerprint": "87985c1ebba5cf32cb53707c0bdfa300804684982d64458006185eb243e0012d"
+  },
+  "ca-S123": {
+    "status": "passed",
+    "reviewedAt": "2026-11-25",
+    "reviewer": "/root/abcd_author_003",
+    "fingerprint": "b87b2703645fc69bb3793a4e25038365efa72f903d456293cae925265be19d63"
+  },
+  "ca-S124": {
+    "status": "passed",
+    "reviewedAt": "2026-11-25",
+    "reviewer": "/root/abcd_author_004",
+    "fingerprint": "51172442bdb389727cb26d1baced6f2da755e179027b1e04e3825891aa49a889"
+  },
+  "ca-S125": {
+    "status": "passed",
+    "reviewedAt": "2026-11-25",
+    "reviewer": "/root/abcd_author_004",
+    "fingerprint": "4fbc6bc2e22fbeb0f98771f6784c339d62d5f5daa0aad4c752620829601fd7bf"
+  },
+  "ca-S126": {
+    "status": "passed",
+    "reviewedAt": "2026-11-25",
+    "reviewer": "/root/abcd_author_004",
+    "fingerprint": "a9cc7e2ad2cd3f939b2840440bbad6b173c204f62cfb4f2731451b4045fe60ab"
+  },
+  "ca-S127": {
+    "status": "passed",
+    "reviewedAt": "2026-11-25",
+    "reviewer": "/root/abcd_author_004",
+    "fingerprint": "84d53941c191f651e1748bd65a1c4031986c13ec38fd8763b962d9e71a0489f1"
   }
 };

@@ -1,10 +1,10 @@
 {
   "schema": 1,
   "status": "passed",
-  "reviewedAt": "2026-11-24",
+  "reviewedAt": "2026-11-25",
   "reviewer": "revisio_contextos_previs",
-  "scope": "90 contextos impresos revisats independentment. S045D incorporada i contextos S079/S081 revalidats després dels comiats demanats pel docent. Sense canvis d’aprovacions d’àudio. S029 revalidada el 23/11 després de recuperar la presentació i retirar la ubicació del context previ. S068D i S071D incorporades amb revisió independent el 23/11; correspondència de S068 revalidada després de variar-ne l’inici. Ampliació independent: ca-S083, ca-S084, ca-S085, ca-S086 (revisio_tancament_s027). Ampliació independent: ca-S087, ca-S088, ca-S089, ca-S090, ca-S091 (revisio_tancament_s027). Ampliació independent: ca-S084, ca-S086 (revisio_tancament_s027). Ampliació independent: ca-S092, ca-S093, ca-S094, ca-S095, ca-S096, ca-S097 (revisio_tancament_s027). Ampliació independent: ca-S098, ca-S099, ca-S100, ca-S101, ca-S102, ca-S103 (auditoria_registre_pendents). Ampliació independent: ca-S104, ca-S105, ca-S106, ca-S107 (revisio_tancament_s027). Ampliació independent: ca-S108, ca-S109, ca-S110, ca-S111 (auditoria_registre_pendents). Ampliació independent: ca-S092, ca-S093, ca-S095 (revisio_tancament_s027).",
-  "fileSha256": "aef57a8e7282d26cc2e0aaf11eeeac6ecef36c548ad1476ee7cacd7549ebffe4",
+  "scope": "90 contextos impresos revisats independentment. S045D incorporada i contextos S079/S081 revalidats després dels comiats demanats pel docent. Sense canvis d’aprovacions d’àudio. S029 revalidada el 23/11 després de recuperar la presentació i retirar la ubicació del context previ. S068D i S071D incorporades amb revisió independent el 23/11; correspondència de S068 revalidada després de variar-ne l’inici. Ampliació independent: ca-S083, ca-S084, ca-S085, ca-S086 (revisio_tancament_s027). Ampliació independent: ca-S087, ca-S088, ca-S089, ca-S090, ca-S091 (revisio_tancament_s027). Ampliació independent: ca-S084, ca-S086 (revisio_tancament_s027). Ampliació independent: ca-S092, ca-S093, ca-S094, ca-S095, ca-S096, ca-S097 (revisio_tancament_s027). Ampliació independent: ca-S098, ca-S099, ca-S100, ca-S101, ca-S102, ca-S103 (auditoria_registre_pendents). Ampliació independent: ca-S104, ca-S105, ca-S106, ca-S107 (revisio_tancament_s027). Ampliació independent: ca-S108, ca-S109, ca-S110, ca-S111 (auditoria_registre_pendents). Ampliació independent: ca-S092, ca-S093, ca-S095 (revisio_tancament_s027). Ampliació del 25/11: S112–S127 amb doble format i contextos revisats per /root/abcd_author_002, /root/abcd_author_003, /root/abcd_author_004.",
+  "fileSha256": "00c53773905f41150c4d5dd762a295068a245dd445cd25bff48907083d5da1be",
   "entries": {
     "ca-S001": {
       "contextSha256": "86a2e53e056b3476191785f60aeb95ceaeed57b5958b995a1c5ac832470bfedf",
@@ -541,6 +541,102 @@
       "sourceSha256": "94b09e22f29489e0001e320768e6afa2f97d336a4455dcb453b2f321cc6b6237",
       "reviewer": "auditoria_registre_pendents",
       "reviewedAt": "2026-11-24"
+    },
+    "ca-S112": {
+      "contextSha256": "ecf31461a7d302babe427427fa13a68cde7155a92c149889bfbf855934866c93",
+      "sourceSha256": "8002940950ad96ee5ac0ea7a4cd734f6a3b1112e70b944ac94a3890ee8580ffc",
+      "reviewer": "/root/abcd_author_002",
+      "reviewedAt": "2026-11-25"
+    },
+    "ca-S113": {
+      "contextSha256": "bce337a7c3907252688145df00f5d49eec84cbd408e424e1fa00b6fdddff2078",
+      "sourceSha256": "c058d176eef685fa25c65cef5fa04d713f66949f18f25f7f99396e5d829a4976",
+      "reviewer": "/root/abcd_author_002",
+      "reviewedAt": "2026-11-25"
+    },
+    "ca-S114": {
+      "contextSha256": "3a1ec873d7d9c4f29096b311ac6fa0dcee438f81d646e98ff7f7ac33a9e1773f",
+      "sourceSha256": "4e58ea4048e19b8654eb0145ba53d90c7f52fade3ab141a7406be6f55ede1d41",
+      "reviewer": "/root/abcd_author_002",
+      "reviewedAt": "2026-11-25"
+    },
+    "ca-S115": {
+      "contextSha256": "d61fb4b0d07cba3853330ff665d206fc0940142d0a5dc93baaa7f5d0e72f160e",
+      "sourceSha256": "61c6e8bd21873f669676d284bcacd7330ab8bea34af5ac67491919388ad56161",
+      "reviewer": "/root/abcd_author_002",
+      "reviewedAt": "2026-11-25"
+    },
+    "ca-S116": {
+      "contextSha256": "52eef6d16783a63036d34178d02ec03fd9b0e3ac8d69a837e19e776b1d1a7694",
+      "sourceSha256": "45cfd13060add213af9d166702c7ca695a5ce76f0d3a2f85df26d4d73630df25",
+      "reviewer": "/root/abcd_author_002",
+      "reviewedAt": "2026-11-25"
+    },
+    "ca-S117": {
+      "contextSha256": "745e74b5fd9a1818373b2667182790a94f415a126db0ee31fa20b50ab881f8f3",
+      "sourceSha256": "88a55e85fe89a647ec34da18c9d80ce4a8befe55b77d2c37c9739b958170a234",
+      "reviewer": "/root/abcd_author_002",
+      "reviewedAt": "2026-11-25"
+    },
+    "ca-S118": {
+      "contextSha256": "0a9ebe0fb1aaec7821989351dac22e8e63315bf38b7d0100f1a4d25401b2164f",
+      "sourceSha256": "c941b7bfbebb2a12781e7486fb6f01edfcb565ccaf32c66b49771d3fe839059c",
+      "reviewer": "/root/abcd_author_002",
+      "reviewedAt": "2026-11-25"
+    },
+    "ca-S119": {
+      "contextSha256": "f9b41034e558313abcc024cb3735d5559aa8422c71875199e34d39b39aa1f51c",
+      "sourceSha256": "2b275163aea6959162b4290d832e4edc1d20f802c4404bb6526b7114f2392560",
+      "reviewer": "/root/abcd_author_002",
+      "reviewedAt": "2026-11-25"
+    },
+    "ca-S120": {
+      "contextSha256": "de1a4718dac92f3cec88b1e518b7f765357be62a9d8b17bf32af8a63ed62c739",
+      "sourceSha256": "7c36973dd8ee35b8ad0abd9fb56fdb72b3f908cb4e000d5492fe85d4ea553fe6",
+      "reviewer": "/root/abcd_author_003",
+      "reviewedAt": "2026-11-25"
+    },
+    "ca-S121": {
+      "contextSha256": "5190a9eca527eb4c0f32b585c6d4048e8dee16dce66e6e4ebbec01c739727d52",
+      "sourceSha256": "f9ecfac3d2349a2b6146e30015a10c90daf0a4bdaec7d07082c76baed95a3727",
+      "reviewer": "/root/abcd_author_003",
+      "reviewedAt": "2026-11-25"
+    },
+    "ca-S122": {
+      "contextSha256": "efc4acc6f9be460665ab181025b713bf00ed9947fd47d60b6db1692d6f46461e",
+      "sourceSha256": "06e04554a0258b03b5cd214d31926df3c220d5673934dac3e93bda16049c2e27",
+      "reviewer": "/root/abcd_author_003",
+      "reviewedAt": "2026-11-25"
+    },
+    "ca-S123": {
+      "contextSha256": "173d00120d8655c5520f070caf815c8cd75b642d8b5ac62371c0fb12171b8b1e",
+      "sourceSha256": "887b3d892317413f0223533e618666a67fb7a85b6bb1923236c41e19f567ef21",
+      "reviewer": "/root/abcd_author_003",
+      "reviewedAt": "2026-11-25"
+    },
+    "ca-S124": {
+      "contextSha256": "4e5cf93571570eadeda40d0d000ba892f50084740918cfc0c337716cb1dbbc54",
+      "sourceSha256": "1fd7b3031e3f97d9dff113f5fcd7255237bfbfe0639c9e9ac2c8904eedf5d057",
+      "reviewer": "/root/abcd_author_004",
+      "reviewedAt": "2026-11-25"
+    },
+    "ca-S125": {
+      "contextSha256": "494fbe5886d51de4c100e2ea0927325bb8ee373acf18cac16be3e981eaa47144",
+      "sourceSha256": "81e8c2fc8825b9b478fb8b8814c75947a4775380ebc4e5fc9afc6d8123be8764",
+      "reviewer": "/root/abcd_author_004",
+      "reviewedAt": "2026-11-25"
+    },
+    "ca-S126": {
+      "contextSha256": "bed6bf00ea151290ef474994d6939433b306ef6cdb068143cccdebf560daae54",
+      "sourceSha256": "19d5d20e1b9428f803f740fbc12b2eb69d44e3ecd6e6921d8146d6520e7b469b",
+      "reviewer": "/root/abcd_author_004",
+      "reviewedAt": "2026-11-25"
+    },
+    "ca-S127": {
+      "contextSha256": "2ac367619b9d7716644f86dba7eef4452487983ef4a80e80930c287a7601dc29",
+      "sourceSha256": "2d7e6ba203bd2514f507cb1b35a6989e417af995ac74cd3254f3e1d141ef91ae",
+      "reviewer": "/root/abcd_author_004",
+      "reviewedAt": "2026-11-25"
     }
   },
   "latestReview": {

@@ -5,6 +5,7 @@ const {request}=require('./audio-plan.cjs');
 const {fingerprint}=require('./production-approval.cjs');
 function productionSpec(entry){
   if(!entry.production)throw Error('Aquesta activitat no és una proposta del lot editorial.');
+  if(entry.production.strategy==='plain-v1')return {code:entry.code,strategy:'plain-v1',voices:entry.production.voices,titleSpeaker:entry.production.titleSpeaker,pace:`Natural Central Catalan, clear complete consonants. ${entry.production.delivery} Read the title and complete programme verbatim. Leave a brief quiet boundary after the title, without speaking any stage directions or pause instructions. No added sounds, music, words or vocalizations.`};
   if(entry.production.strategy==='grouped-voices-v1')return {code:entry.code,strategy:entry.production.strategy,voices:entry.production.voices,titleSpeaker:entry.production.titleSpeaker,pace:`Natural Central Catalan, clear complete consonants and natural pauses. ${entry.production.delivery} Read only the supplied lines verbatim, separated by the explicit long pauses for local editing. Do not add missing characters, questions or answers. No added sounds, words or vocalizations.`};
   const performance=entry.production.performance;
   if(performance){
@@ -23,7 +24,7 @@ function packedProposalRequest(entry){
     if(!host||!reaction||host.speaker===reaction.speaker||Object.keys(spec.voices).length!==2||!overlap.after||host.text.split(overlap.after).length!==2||reactions.has(reaction.id)||/[|<>]/.test(reaction.text))throw Error('Solapament sense punt exacte o reacció vàlida.');
     host.text=host.text.replace(overlap.after,overlap.after+' |'+reaction.text+'|');reactions.add(reaction.id);
   }
-  for(const part of [{speaker:spec.titleSpeaker,text:entry.introduction+' <long pause>'},...spoken.filter(part=>!reactions.has(part.id))]){
+  for(const part of [{speaker:spec.titleSpeaker,text:entry.introduction+(spec.strategy==='plain-v1'?'':' <long pause>')},...spoken.filter(part=>!reactions.has(part.id))]){
     const text=part.text+(spec.performance&&part.id===spec.performance.after?' <chuckle> |<chuckle>| <short pause>':'');
     const previous=turns.at(-1);if(previous?.speaker===part.speaker)previous.text+='\n\n'+text;else turns.push({speaker:part.speaker,text});
   }

@@ -2512,5 +2512,317 @@
     "strategy": "packed-title-program-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
     "approvalSource": "Docent 25/11: S106, S111, S107, S110 validats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
+  },
+  "S112": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S112",
+    "reviewContent": "content/propostes/equilibri/noticies.js",
+    "format": "3r accessible. Notícia breu amb un moment, un lloc i una finalitat. Cinc preguntes concretes, obertes o ABCD. Durada objectiu aproximada de menys d’un minut, pendent de l’àudio real.",
+    "cues": [
+      "Identitat sonora de noticiari enregistrada. Entrada breu i fosa abans de les dades.",
+      "Base contínua tènue; sense clàxon, portes ni motor que tapin informació.",
+      "Pujada breu de base després de la veu i fosa de sortida."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mar": "Erinome"
+    },
+    "strategy": "plain-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S113": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S113",
+    "reviewContent": "content/propostes/equilibri/noticies.js",
+    "format": "3r accessible. Un fet principal i rols concrets, sense haver de memoritzar diversos horaris. Cinc preguntes breus amb doble format.",
+    "cues": [
+      "Entrada breu de la base comuna de notícies i fosa sota la veu.",
+      "Mantenir la base baixa; cap so d’aigua que anticipi l’ajuda dels alumnes.",
+      "Pujada de base dos segons i fosa després del tancament."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mar": "Erinome"
+    },
+    "strategy": "plain-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S114": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S114",
+    "reviewContent": "content/propostes/equilibri/noticies.js",
+    "format": "3r intermèdia. Entendre l’activitat real a partir del que hi faran, i distingir moment d’entrada de la continuació de l’assaig. Cinc ítems breus.",
+    "cues": [
+      "Entrada comuna de noticiari enregistrat. Baixar la música abans del primer fet.",
+      "Base molt tènue contínua; cap fragment musical d’assaig amb una resposta implícita.",
+      "Deixar acabar la locució i fer el tancament comú amb fosa."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mar": "Erinome"
+    },
+    "strategy": "plain-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S115": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S115",
+    "reviewContent": "content/propostes/equilibri/noticies.js",
+    "format": "3r intermèdia. Relacionar avaria i reparació, distingir servei recuperat i treball del voltant sense reserves preventives. Cinc preguntes amb resposta determinada.",
+    "cues": [
+      "Base comuna de noticiari amb entrada curta i fosa sota la veu.",
+      "Base contínua baixa. Sense aigua ni eines aïllades que donin pistes.",
+      "Base puja dos segons després de parlar i es fon."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mar": "Erinome"
+    },
+    "strategy": "plain-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S116": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S116",
+    "reviewContent": "content/propostes/equilibri/noticies.js",
+    "format": "4t accessible. Seguir una activitat i una condició meteorològica senzilla. Cinc preguntes breus; les dades són de ficció.",
+    "cues": [
+      "Entrada comuna de notícies breu. Base molt baixa durant tota la parla.",
+      "Sense sons d’espai o efectes fantàstics. La base musical no dramatitza les condicions.",
+      "Pujada i fosa de la mateixa base després de la locució."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mar": "Erinome"
+    },
+    "strategy": "plain-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S117": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S117",
+    "reviewContent": "content/propostes/equilibri/noticies.js",
+    "format": "4t intermèdia. Relacionar canvi d’ubicació amb necessitat de pas; distingir com s’arriba i què es deixa a l’aparcament. Cinc ítems amb doble format.",
+    "cues": [
+      "Base enregistrada de noticiari, amb fosa d’entrada abans del text.",
+      "Mantenir la base discreta; sense campanetes ni rodes afegides a les frases.",
+      "Sortida comuna després de la darrera paraula, sense pausa afegida de papers."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mar": "Erinome"
+    },
+    "strategy": "plain-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S118": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S118",
+    "reviewContent": "content/propostes/equilibri/noticies.js",
+    "format": "4t intermèdia. Entendre la funció d’una còpia i el motiu d’una col·laboració veïnal; cinc preguntes sense coneixements previs d’arxivística.",
+    "cues": [
+      "Entrada de noticiari amb la base comuna i atenuació sota la veu.",
+      "Base suau contínua, sense sons de màquina ni fulls que separin dades.",
+      "Pujada i fosa final alineades amb el final de la notícia."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mar": "Erinome"
+    },
+    "strategy": "plain-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S119": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S119",
+    "reviewContent": "content/propostes/equilibri/noticies.js",
+    "format": "4t avançada. Una condició pendent i una dada que es manté, amb inferència sobre què ha de comprovar el públic. Cinc preguntes breus, sense encadenar diversos terminis.",
+    "cues": [
+      "Identitat comuna de noticiari i base baixa sota les dades.",
+      "Cap efecte de pluja ni públic. La condició s’entén només amb la parla.",
+      "Pujada breu i fosa de la base comuna; conservar tota l’última frase."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mar": "Erinome"
+    },
+    "strategy": "plain-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S120": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S120",
+    "reviewContent": "content/propostes/equilibri/explicacions.js",
+    "format": "3r accessible. Una relació mecànica concreta, amb les dues cares descrites en veu alta. Sis preguntes breus, respostes obertes i ABCD. L’alumne no ha de veure les tires ni saber-ne el nom tècnic.",
+    "cues": [
+      "Ambient escolar molt suau des de l’inici; veus seques i clares.",
+      "Deixar la rèplica de prova seguida; cap so afegit de cola, tisores ni ganxets.",
+      "Mantenir una sortida curta d’ambient i fosa sense tons finals."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mireia": "Aoede",
+      "Laia": "Leda"
+    },
+    "strategy": "plain-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S121": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S121",
+    "reviewContent": "content/propostes/equilibri/explicacions.js",
+    "format": "3r intermèdia. Seguir el mateix objecte en dos moments i relacionar la posició aparent del Sol amb la direcció de la llum. Sis preguntes sense plànol ni orientacions cardinals.",
+    "cues": [
+      "Ambient enregistrat discret de pati llunyà, sense crits ni ocells destacats.",
+      "Pausa natural de conversa; cap desplaçament sonor de Sol ni efecte fantàstic.",
+      "Sortida curta d’ambient i fosa."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mireia": "Aoede",
+      "Laia": "Leda"
+    },
+    "strategy": "plain-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S122": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S122",
+    "reviewContent": "content/propostes/equilibri/explicacions.js",
+    "format": "4t intermèdia. Relació entre aïllament i transferència de calor, sense exigir saber el mot tècnic. Sis preguntes amb condició inicial i control d’una comparació.",
+    "cues": [
+      "Ambient d’aula molt suau i continu; sense sons de frigorífic ni gel.",
+      "Conversa seguida amb pauses naturals; cap so de cremallera que remarqui una resposta.",
+      "Mig segon després de la frase, ambient puja dos segons i es fon."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mireia": "Aoede",
+      "Laia": "Leda"
+    },
+    "strategy": "plain-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S123": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S123",
+    "reviewContent": "content/propostes/equilibri/explicacions.js",
+    "format": "4t avançada. Relacionar reflexions, prolongació del so i absorció, amb un exemple explicat oralment i una comparació controlada. Sis preguntes; el tecnicisme reverberació és presentat dins el guió.",
+    "cues": [
+      "Ambient interior enregistrat molt discret; no aplicar cua de reverberació a les dades ni a tot el diàleg.",
+      "Cap efecte que interrompi o tapi la conversa; tota l’observació queda dita en veu alta.",
+      "Sortida curta d’ambient i fosa, sense ressò afegit a la frase final."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Mireia": "Aoede",
+      "Laia": "Leda"
+    },
+    "strategy": "plain-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S124": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S124",
+    "reviewContent": "content/propostes/equilibri/taller.js",
+    "format": "3r avançada. Instruccions amb ordre i una condició: identificar l’estoig correcte abans de posar-hi la targeta. Sis preguntes amb referents concrets i sense haver de veure els objectes.",
+    "cues": [
+      "Ambient de taller baix i continu. No afegir una seqüència de sons d’eines.",
+      "La comprovació continua sense pausa d’efecte ni soroll de retolador.",
+      "Deixar acabar la veu i tancar l’ambient amb una fosa curta."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Biel": "Puck",
+      "Elies": "Algieba"
+    },
+    "strategy": "plain-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S125": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S125",
+    "reviewContent": "content/propostes/equilibri/taller.js",
+    "format": "4t intermèdia. Seguir una seqüència curta, relacionar cada part amb la seva funció i comprendre una prova abans d’omplir el recipient. Sis preguntes duals.",
+    "cues": [
+      "Ambient d’interior real molt baix. Cap efecte de tall obligat ni eines sintetitzades.",
+      "No afegir sorolls de paper que allarguin el pas entre instruccions.",
+      "Sortida curta d’ambient amb fosa; sense cops de tapa afegits després de la frase."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Biel": "Puck",
+      "Elies": "Algieba"
+    },
+    "strategy": "plain-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S126": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S126",
+    "reviewContent": "content/propostes/equilibri/taller.js",
+    "format": "5è accessible. Entrevista clara de preguntes i respostes, amb un sol cas de guitarra i tres moments: informació inicial, prova al taller i comprovació amb qui la toca. Sis preguntes sense tècnica instrumental prèvia.",
+    "cues": [
+      "Entrevista al taller amb ambient real continu molt baix. Cap demostració instrumental necessària per entendre les respostes.",
+      "No inserir una nota o un brunzit que doni la resposta; la parla explica el cas complet.",
+      "Mantenir un final curt d’ambient, pujada moderada i fosa després del comiat."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Biel": "Puck",
+      "Elies": "Algieba"
+    },
+    "strategy": "plain-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S127": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S127",
+    "reviewContent": "content/propostes/equilibri/taller.js",
+    "format": "5è intermèdia. Entrevista amb dos exemples breus per distingir reparació, adequació d’ús i preferència de qui té l’instrument. Sis preguntes amb causes concretes, sense demanar un judici universal de consum.",
+    "cues": [
+      "Entrevista amb ambient real de taller molt tènue. Sense jingle de noticiari ni efectes de caixa registradora.",
+      "Pausa natural de canvi de pregunta; sense sons que assignin una resposta als exemples.",
+      "Deixar acabar el comiat i fer una fosa curta de l’ambient, sense tons finals."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Biel": "Puck",
+      "Elies": "Algieba"
+    },
+    "strategy": "plain-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
   }
 }

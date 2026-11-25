@@ -275,6 +275,43 @@
         "S111"
       ],
       "note": "Primera tanda d’univers, guions pendents de validació docent. Repartiment fix i converses senceres. Previsió de text pla encara inferior a sis minuts: esperar material o esmenes compatibles, sense allargar guions ni afegir silencis. Sense reserva de quota ni autorització de síntesi."
+    },
+    {
+      "id": "P26",
+      "cast": "Mar · Erinome; Informadora · Callirrhoe",
+      "codes": [
+        "S112",
+        "S113",
+        "S114",
+        "S115",
+        "S116",
+        "S117",
+        "S118",
+        "S119"
+      ],
+      "note": "Candidat editorial complet, sense autorització de síntesi. Validació docent de guions, veus i escaleta pendent. Congelar plans d’esmena i empremta exacta abans d’enviar. Un sol lot en curs, respectant els límits. Estimació amb esmenes: 6:19. Detall a content/balance-synthesis-proposals.json."
+    },
+    {
+      "id": "P27",
+      "cast": "Mireia · Aoede; Laia · Leda",
+      "codes": [
+        "S120",
+        "S121",
+        "S122",
+        "S123"
+      ],
+      "note": "Candidat editorial complet, sense autorització de síntesi. Validació docent de guions, veus i escaleta pendent. Congelar plans d’esmena i empremta exacta abans d’enviar. Un sol lot en curs, respectant els límits. Estimació amb esmenes: 6:13. Detall a content/balance-synthesis-proposals.json."
+    },
+    {
+      "id": "P28",
+      "cast": "Biel · Puck; Elies · Algieba",
+      "codes": [
+        "S124",
+        "S125",
+        "S126",
+        "S127"
+      ],
+      "note": "Candidat editorial complet, sense autorització de síntesi. Validació docent de guions, veus i escaleta pendent. Congelar plans d’esmena i empremta exacta abans d’enviar. Un sol lot en curs, respectant els límits. Estimació amb esmenes: 6:52. Detall a content/balance-synthesis-proposals.json."
     }
   ]
 }

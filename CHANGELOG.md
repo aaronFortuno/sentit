@@ -1,5 +1,12 @@
 # Canvis
 
+## 0.1.112 · 25 de novembre de 2026
+
+- Setze propostes S112–S127 per equilibrar curs, dificultat, durada, tipologia i univers: vuit notícies breus, quatre explicacions, dues instruccions i dues entrevistes. Set de 3r, set de 4t i dues de 5è.
+- Guions, 88 preguntes obertes/ABCD, solucions, cites, contextos i escaletes revisats independentment. Precisió factual contrastada en explicacions; distractors i coherència corregits abans del registre. Tot pendent de validació docent.
+- Tres candidats P26–P28 de sis a vuit minuts amb esmenes compatibles, només planificats. Preparació en text pla, sense marques literals de pausa; les aprovacions existents i les 119 peces anteriors es conserven. Cap síntesi ni despesa.
+- Catàleg, imprimibles i solucionaris, doble format, filtres, contextos, plans i cobertura comprovats localment.
+
 ## 0.1.111 · 25 de novembre de 2026
 
 - Doble format a les 119 comprensions i 895 preguntes: 891 alternatives ABCD i 4 obertes justificades. Tres blocs nous amb autoria i revisió creuades, empremta per ítem i evidències revisades. El pilot conserva l’aprovació docent; les alternatives noves esperen el seu vistiplau.

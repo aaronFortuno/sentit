@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { createRequire } from 'node:module';
 import { activities } from '../catalogue.js';
-import { proposedActivities, proposedVariants, firstBatchActivities, secondBatchActivities, thirdBatchActivities, fourthBatchActivities, fourthBatchGroups, dailyActivities, newUniverseActivities } from '../content/propostes/index.js';
+import { proposedActivities, proposedVariants, firstBatchActivities, secondBatchActivities, thirdBatchActivities, fourthBatchActivities, fourthBatchGroups, dailyActivities, newUniverseActivities, balanceActivities } from '../content/propostes/index.js';
 import { universes, universesForActivity } from '../content/universes.js';
 import { characters, charactersForActivity } from '../content/characters.js';
 import { buildEvidence } from '../evidence.js';
@@ -21,7 +21,7 @@ for(const grade of ['3','4','5','6']){
 assert.equal(base.find(entry=>entry.code==='S010').grade,'5','Teacher calibration: S010 is 5th grade');
 assert.equal(base.find(entry=>entry.code==='S010').level,'middle');
 assert.equal(firstBatchActivities.length,19);
-assert.equal(proposedActivities.length,19+secondBatchActivities.length+thirdBatchActivities.length+fourthBatchActivities.length+dailyActivities.length+newUniverseActivities.length);
+assert.equal(proposedActivities.length,19+secondBatchActivities.length+thirdBatchActivities.length+fourthBatchActivities.length+dailyActivities.length+newUniverseActivities.length+balanceActivities.length);
 assert.equal(fourthBatchActivities.length,30);
 for(const group of fourthBatchGroups){
  assert.equal(group.entries.length,5);
@@ -51,9 +51,9 @@ for(const entry of [...proposedActivities,...proposedVariants]){
  if(!approved){assert.equal(plans[entry.code].status,'awaiting-validation');assert.equal(plans[entry.code].approvedFingerprint,null);}
  assert.deepEqual(buildEvidence(entry).errors,[],entry.code+' evidence anchors');
  const body=entry.transcript.filter(part=>part.speaker),ids=body.map(part=>part.id);
- assert.equal(new Set(ids).size,ids.length);assert(entry.production.words>=150&&entry.production.words<=650,entry.code+' complete age-appropriate spoken length');
+ assert.equal(new Set(ids).size,ids.length);assert(entry.production.words>=(balanceActivities.includes(entry)?80:150)&&entry.production.words<=650,entry.code+' complete age-appropriate spoken length');
  assert(entry.transcript.filter(part=>part.kind==='direction').length>=3);
- assert(entry.questions.length>=6&&entry.questions.length<=10);questions+=entry.questions.length;
+ assert(entry.questions.length>=(balanceActivities.includes(entry)?4:6)&&entry.questions.length<=10);questions+=entry.questions.length;
  const anonymous = speaker => ['Narradora','Narrador'].includes(speaker);
  const cast=charactersForActivity(entry),guests=entry.guestSpeakers??[],guestNames=new Set(guests.map(guest=>guest.name));
  assert.equal(guestNames.size,guests.length,entry.code+' unique occasional guest roles');

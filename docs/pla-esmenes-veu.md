@@ -6,7 +6,7 @@ Aquest inventari exclou les esmenes ja incorporades als muntatges i les publicac
 
 ## Blocs per completar
 
-Cap bloc arriba ara als **6–8 minuts** acordats. Les durades següents són estimacions de parla a 170 mots/minut i un marge de quatre segons per bloc; el resultat real pot variar. Els complements són orientacions editorials, encara sense guions ni aprovacions. L’autoria nova continua ajornada mentre s’adapta el fons actual a ABCD.
+Les esmenes soles no arriben als **6–8 minuts** acordats. Les durades següents són estimacions de parla a 170 mots/minut i un marge de quatre segons per bloc; el resultat real pot variar. La [tanda d’equilibri](pla-equilibri-2026-11-25.md) aporta guions amb doble format als blocs Mar, Mireia i Elies, pendents de validació docent. La previsió conjunta és al seu pla; aquesta taula mesura només les esmenes. Els altres complements continuen com a orientacions editorials.
 
 | Bloc candidat | Fragments / preses | Esmenes | Parla estimada | Complement que ajudaria |
 | --- | ---: | --- | ---: | --- |

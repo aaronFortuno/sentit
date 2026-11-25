@@ -2,7 +2,9 @@
 
 Banc de comprensió oral d’ortogra.fi. El docent tria una activitat, prepara la fitxa i el solucionari i els imprimeix. L’alumnat respon al paper i escolta l’àudio des del QR o l’enllaç. Web estàtic, sense comptes ni servidor d’aplicació.
 
-**Preguntes en dos formats a tot el catàleg:** 119 peces, 891 alternatives ABCD i 4 preguntes obertes justificades, amb revisió independent. El docent pot conservar la resposta textual, activar ABCD o combinar formats. La preferència es recorda entre sessions, fitxes i col·leccions; «Tria de nou» la reinicia sense esborrar altres ajustos. [Criteris](docs/preguntes-abcd.md) · [Cobertura de les 895 preguntes](docs/preguntes-abcd-seguiment.md). Les alternatives noves esperen validació docent; el pilot S001–S005 i S004D manté el vistiplau rebut. Els guions nous ja s’hauran de preparar amb tots dos formats allà on sigui adequat.
+**Doble format a tot el catàleg:** 135 peces, 983 preguntes: 979 alternatives ABCD i 4 obertes justificades. El format general i les excepcions es desen entre sessions i col·leccions. [Cobertura](docs/preguntes-abcd-seguiment.md) · [Criteris](docs/preguntes-abcd.md). El pilot conserva l’aprovació docent; la resta d’alternatives continua pendent del seu vistiplau.
+
+**Nova tanda per validar:** [S112–S127](docs/pla-equilibri-2026-11-25.md), setze guions per reforçar notícies curtes de 3r–4t, explicacions, instruccions i entrevistes. Inclouen 88 preguntes duals, context i escaleta amb revisió independent. Tres candidats compatibles amb esmenes; cap veu nova sol·licitada.
 
 [Pla actual d’esmenes de veu](docs/pla-esmenes-veu.md): preses pendents, fragments ja rebuts i blocs per completar amb guions compatibles. S022/S025/S059/S061/S071 i S058 ja són definitives.
 

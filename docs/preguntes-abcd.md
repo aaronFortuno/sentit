@@ -127,3 +127,6 @@ Regeneració local: `node tools/capture-question-format-samples.cjs`. Fitxers i 
 Preparar conjuntament les versions oberta i ABCD de cada ítem convertible, amb quatre opcions, clau, explicació i cites. Conservar l’objectiu i les parts de les preguntes compostes. Opinió, creació i justificació personal continuen obertes amb motiu específic. Un agent diferent de l’autor revisa totes les opcions, intenta defensar els distractors i comprova una única clau, càrrega de lectura i calibratge. Una modificació invalida la revisió exacta d’aquell ítem.
 
 Registrar els lots a `content/question-choices/index.js` i la revisió amb `node tools/record-question-choice-review.mjs --file=informe-independent.json`. `node tools/check-choice-catalogue.mjs --complete` exigeix cobertura total; `node tools/check-editorial-review.mjs` impedeix presentar provisionals nous sense doble format revisat o motius d’obertura. Les aprovacions del docent de preguntes i àudio són independents.
+
+
+Tanda d’equilibri del 25/11/2026 (0.1.112): S112–S127 s’han escrit ja amb els dos formats i revisió independent abans de publicar-se com a provisionals. El fons arriba a 135 peces i 983 preguntes (979 ABCD i 4 obertes justificades), amb validació docent pendent per al material nou. [Pla de revisió](pla-equilibri-2026-11-25.md).
