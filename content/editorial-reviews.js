@@ -796,8 +796,8 @@ export const editorialReviews = {
   "ca-S125": {
     "status": "passed",
     "reviewedAt": "2026-11-25",
-    "reviewer": "/root/abcd_author_004",
-    "fingerprint": "4fbc6bc2e22fbeb0f98771f6784c339d62d5f5daa0aad4c752620829601fd7bf"
+    "reviewer": "/root/review_s125_labels",
+    "fingerprint": "630aa0a5955295fcbbc7257f245fe0e17e1073caeb90d5d6c565e303ec394d80"
   },
   "ca-S126": {
     "status": "passed",
@@ -810,5 +810,23 @@ export const editorialReviews = {
     "reviewedAt": "2026-11-25",
     "reviewer": "/root/abcd_author_004",
     "fingerprint": "84d53941c191f651e1748bd65a1c4031986c13ec38fd8763b962d9e71a0489f1"
+  },
+  "ca-S128": {
+    "status": "passed",
+    "reviewedAt": "2026-11-25",
+    "reviewer": "/root/review_tradition_pilots",
+    "fingerprint": "99615c0422a803e949373b3c19c0aaa8f9eba44110ee6355cf73b4ad6a1add3a"
+  },
+  "ca-S129": {
+    "status": "passed",
+    "reviewedAt": "2026-11-25",
+    "reviewer": "/root/review_tradition_pilots",
+    "fingerprint": "7d58aeacae24b658ddc6f46929c09da13c598f19a51447b99ced666d914bedef"
+  },
+  "ca-S130": {
+    "status": "passed",
+    "reviewedAt": "2026-11-25",
+    "reviewer": "/root/review_tradition_pilots",
+    "fingerprint": "937eeb6988810383653f82c41d8cb02f9b33361a2a4087ff51003e4ce42af6a3"
   }
 };

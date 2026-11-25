@@ -1,4 +1,4 @@
-// Production stages are separate from editorial review and final listening approval.
+// Production progress and teacher approvals. Voice and montage validations remain separate.
 export const productionProgress = {
   "ca-S020": {
     "state": "published",
@@ -6760,5 +6760,82 @@ export const productionProgress = {
       "checkedAt": "2026-11-25",
       "audioChanged": false
     }
+  },
+  "ca-S113": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-25",
+    "scriptApprovedAt": "2026-11-25",
+    "editorialFingerprint": "fc51545f68389658aa8817713eb55cbfa79965d7e84f846a989ba5ae06a4f87a",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "Docent 25/11: S113 també puja a síntesi.",
+    "scriptApprovalSource": "Docent 25/11: S113 també puja a síntesi.",
+    "reason": "Guió i escaleta validats. Pendent de completar i congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada."
+  },
+  "ca-S114": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-25",
+    "scriptApprovedAt": "2026-11-25",
+    "editorialFingerprint": "64168473d9db415d5fc2db7d38ef0791af662d28fc2f1d420f6812af31cc462d",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "Docent 25/11: S114 és vàlid per pujar a síntesi.",
+    "scriptApprovalSource": "Docent 25/11: S114 és vàlid per pujar a síntesi.",
+    "reason": "Guió i escaleta validats. Pendent de completar i congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada."
+  },
+  "ca-S116": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-25",
+    "scriptApprovedAt": "2026-11-25",
+    "editorialFingerprint": "f92e5dc3c41d10fa3157ba2cb7b22609c50540c69668c65f86731c7a1dd9aa87",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "Docent 25/11: S116 i S127 també pugen a síntesi de veus.",
+    "scriptApprovalSource": "Docent 25/11: S116 i S127 també pugen a síntesi de veus.",
+    "reason": "Guió i escaleta validats. Pendent de completar i congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada."
+  },
+  "ca-S119": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-25",
+    "scriptApprovedAt": "2026-11-25",
+    "editorialFingerprint": "a51786420582c03135de74abcf98cf2236b5eb6e53c0be8ba2ec77c2ff54640f",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "Docent 25/11: S119 també puja a síntesi de veus.",
+    "scriptApprovalSource": "Docent 25/11: S119 també puja a síntesi de veus.",
+    "reason": "Guió i escaleta validats. Pendent de completar i congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada."
+  },
+  "ca-S123": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-25",
+    "scriptApprovedAt": "2026-11-25",
+    "editorialFingerprint": "b87b2703645fc69bb3793a4e25038365efa72f903d456293cae925265be19d63",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "Docent 25/11: S123 també puja a síntesi.",
+    "scriptApprovalSource": "Docent 25/11: S123 també puja a síntesi.",
+    "reason": "Guió i escaleta validats. Pendent de completar i congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada."
+  },
+  "ca-S125": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-25",
+    "scriptApprovedAt": "2026-11-25",
+    "editorialFingerprint": "630aa0a5955295fcbbc7257f245fe0e17e1073caeb90d5d6c565e303ec394d80",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "Docent 25/11: S125 queda validat amb «Per tocar» i «Gastades» com a rètols literals. Ajust aplicat i revalidat independentment.",
+    "scriptApprovalSource": "Docent 25/11: S125 queda validat amb «Per tocar» i «Gastades» com a rètols literals. Ajust aplicat i revalidat independentment.",
+    "reason": "Guió i escaleta validats. Pendent de completar i congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada."
+  },
+  "ca-S127": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-25",
+    "scriptApprovedAt": "2026-11-25",
+    "editorialFingerprint": "84d53941c191f651e1748bd65a1c4031986c13ec38fd8763b962d9e71a0489f1",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "Docent 25/11: S116 i S127 també pugen a síntesi de veus.",
+    "scriptApprovalSource": "Docent 25/11: S116 i S127 també pugen a síntesi de veus.",
+    "reason": "Guió i escaleta validats. Pendent de completar i congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada."
   }
 };

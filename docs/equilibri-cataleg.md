@@ -2,7 +2,7 @@
 
 Instantània del **25/11/2026**. [Prioritats i proposta de tanda](prioritats-cataleg.md).
 
-**135 entrades**, amb **101 publicacions definitives** i **34 peces obertes**. Les 8 variants addicionals es compten per separat, com al catàleg. Idiomes del contingut: català (135).
+**138 entrades**, amb **101 publicacions definitives** i **37 peces obertes**. Les 8 variants addicionals es compten per separat, com al catàleg. Idiomes del contingut: català (138).
 
 El catàleg sense provisionals mostra 103 entrades: les 101 definitives i els prototips històrics S001, S002. Aquests prototips encara no tenen el tancament formal de publicació i aquí no es compten com a definitius.
 
@@ -12,9 +12,9 @@ El catàleg sense provisionals mostra 103 entrades: les 101 definitives i els pr
 | --- | ---: | ---: | ---: |
 | 1r | 0 | 0 | 0 |
 | 2n | 0 | 0 | 0 |
-| 3r | 20 | 10 | 30 |
-| 4t | 19 | 11 | 30 |
-| 5è | 34 | 7 | 41 |
+| 3r | 20 | 11 | 31 |
+| 4t | 19 | 12 | 31 |
+| 5è | 34 | 8 | 42 |
 | 6è | 26 | 6 | 32 |
 | 1r d’ESO | 2 | 0 | 2 |
 
@@ -24,8 +24,8 @@ El catàleg sense provisionals mostra 103 entrades: les 101 definitives i els pr
 
 | Dificultat | Definitives | Obertes | Total previst |
 | --- | ---: | ---: | ---: |
-| Accessible | 38 | 11 | 49 |
-| Intermèdia | 40 | 15 | 55 |
+| Accessible | 38 | 12 | 50 |
+| Intermèdia | 40 | 17 | 57 |
 | Avançada | 23 | 8 | 31 |
 
 ## Durada del fragment
@@ -33,10 +33,10 @@ El catàleg sense provisionals mostra 103 entrades: les 101 definitives i els pr
 | Durada del fragment | Definitives | Obertes | Total previst |
 | --- | ---: | ---: | ---: |
 | Fins a 1 min | 3 | 9 | 12 |
-| Més d’1 i fins a 2 min | 70 | 24 | 94 |
-| Més de 2 min | 28 | 13 | 41 |
+| Més d’1 i fins a 2 min | 70 | 27 | 97 |
+| Més de 2 min | 28 | 14 | 42 |
 
-S’utilitza el mateix predicat que al filtre del web. 26 peces encara tenen durada estimada en aquestes metadades. 12 estimacions travessen una frontera i apareixen en dues franges: S070, S085, S095, S102, S107, S113, S114, S115, S118, S121, S122, S126. Els totals de les franges no s’han de sumar com si fossin grups exclusius. Les durades de les definitives ja són mesurades.
+S’utilitza el mateix predicat que al filtre del web. 29 peces encara tenen durada estimada en aquestes metadades. 13 estimacions travessen una frontera i apareixen en dues franges: S070, S085, S095, S102, S107, S113, S114, S115, S118, S121, S122, S126, S130. Els totals de les franges no s’han de sumar com si fossin grups exclusius. Les durades de les definitives ja són mesurades.
 
 La durada correspon al fragment d’una escolta amb el seu muntatge, sense presentació, lectura prèvia, repeticions ni pauses de la sessió. No és una mesura de dificultat.
 
@@ -45,7 +45,7 @@ La durada correspon al fragment d’una escolta amb el seu muntatge, sense prese
 | Tipologia textual | Definitives | Obertes | Total previst |
 | --- | ---: | ---: | ---: |
 | Diàleg | 42 | 11 | 53 |
-| Narració | 23 | 1 | 24 |
+| Narració | 23 | 4 | 27 |
 | Notícia | 12 | 8 | 20 |
 | Entrevista | 10 | 4 | 14 |
 | Instruccions | 6 | 6 | 12 |
@@ -55,6 +55,9 @@ La durada correspon al fragment d’una escolta amb el seu muntatge, sense prese
 
 | Univers | Definitives | Obertes | Total previst |
 | --- | ---: | ---: | ---: |
+| Faules del món | 0 | 1 | 1 |
+| Llegendes d’aquí i d’arreu | 0 | 1 | 1 |
+| Mites de l’antiguitat | 0 | 1 | 1 |
 | Mans a l’obra | 3 | 3 | 6 |
 | A peu de camí | 3 | 1 | 4 |
 | Situacions quotidianes | 15 | 6 | 21 |
@@ -74,9 +77,9 @@ Cada casella indica **definitives / total amb pendents**.
 
 | Curs | Accessible | Intermèdia | Avançada |
 | --- | ---: | ---: | ---: |
-| 3r | 10 / 14 | 7 / 12 | 3 / 4 |
-| 4t | 10 / 13 | 5 / 10 | 4 / 7 |
-| 5è | 10 / 12 | 17 / 20 | 7 / 9 |
+| 3r | 10 / 15 | 7 / 12 | 3 / 4 |
+| 4t | 10 / 13 | 5 / 11 | 4 / 7 |
+| 5è | 10 / 12 | 17 / 21 | 7 / 9 |
 | 6è | 8 / 10 | 9 / 11 | 9 / 11 |
 | 1r d’ESO | 0 / 0 | 2 / 2 | 0 / 0 |
 
@@ -86,9 +89,9 @@ Cada casella indica **definitives / total amb pendents**.
 
 | Curs | Diàleg | Narració | Notícia | Entrevista | Instruccions | Explicació |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| 3r | 10 / 11 | 3 / 3 | 2 / 6 | 3 / 4 | 1 / 3 | 1 / 3 |
-| 4t | 4 / 7 | 8 / 8 | 2 / 6 | 3 / 3 | 1 / 3 | 1 / 3 |
-| 5è | 15 / 18 | 9 / 9 | 5 / 5 | 1 / 4 | 2 / 3 | 2 / 2 |
+| 3r | 10 / 11 | 3 / 4 | 2 / 6 | 3 / 4 | 1 / 3 | 1 / 3 |
+| 4t | 4 / 7 | 8 / 9 | 2 / 6 | 3 / 3 | 1 / 3 | 1 / 3 |
+| 5è | 15 / 18 | 9 / 10 | 5 / 5 | 1 / 4 | 2 / 3 | 2 / 2 |
 | 6è | 12 / 16 | 3 / 4 | 3 / 3 | 3 / 3 | 2 / 3 | 3 / 3 |
 | 1r d’ESO | 1 / 1 | 0 / 0 | 0 / 0 | 0 / 0 | 0 / 0 | 1 / 1 |
 
@@ -108,6 +111,9 @@ Cada casella indica **definitives / total amb pendents**. Les pertinences se sol
 
 | Univers | 3r | 4t | 5è | 6è | 1r d’ESO |
 | --- | ---: | ---: | ---: | ---: | ---: |
+| Faules del món | 0 / 1 | 0 / 0 | 0 / 0 | 0 / 0 | 0 / 0 |
+| Llegendes d’aquí i d’arreu | 0 / 0 | 0 / 1 | 0 / 0 | 0 / 0 | 0 / 0 |
+| Mites de l’antiguitat | 0 / 0 | 0 / 0 | 0 / 1 | 0 / 0 | 0 / 0 |
 | Mans a l’obra | 1 / 2 | 1 / 2 | 1 / 1 | 0 / 1 | 0 / 0 |
 | A peu de camí | 1 / 1 | 0 / 1 | 1 / 1 | 1 / 1 | 0 / 0 |
 | Situacions quotidianes | 5 / 6 | 1 / 3 | 5 / 5 | 3 / 6 | 1 / 1 |

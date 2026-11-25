@@ -3,8 +3,8 @@
   "status": "passed",
   "reviewedAt": "2026-11-25",
   "reviewer": "revisio_contextos_previs",
-  "scope": "90 contextos impresos revisats independentment. S045D incorporada i contextos S079/S081 revalidats després dels comiats demanats pel docent. Sense canvis d’aprovacions d’àudio. S029 revalidada el 23/11 després de recuperar la presentació i retirar la ubicació del context previ. S068D i S071D incorporades amb revisió independent el 23/11; correspondència de S068 revalidada després de variar-ne l’inici. Ampliació independent: ca-S083, ca-S084, ca-S085, ca-S086 (revisio_tancament_s027). Ampliació independent: ca-S087, ca-S088, ca-S089, ca-S090, ca-S091 (revisio_tancament_s027). Ampliació independent: ca-S084, ca-S086 (revisio_tancament_s027). Ampliació independent: ca-S092, ca-S093, ca-S094, ca-S095, ca-S096, ca-S097 (revisio_tancament_s027). Ampliació independent: ca-S098, ca-S099, ca-S100, ca-S101, ca-S102, ca-S103 (auditoria_registre_pendents). Ampliació independent: ca-S104, ca-S105, ca-S106, ca-S107 (revisio_tancament_s027). Ampliació independent: ca-S108, ca-S109, ca-S110, ca-S111 (auditoria_registre_pendents). Ampliació independent: ca-S092, ca-S093, ca-S095 (revisio_tancament_s027). Ampliació del 25/11: S112–S127 amb doble format i contextos revisats per /root/abcd_author_002, /root/abcd_author_003, /root/abcd_author_004.",
-  "fileSha256": "00c53773905f41150c4d5dd762a295068a245dd445cd25bff48907083d5da1be",
+  "scope": "90 contextos impresos revisats independentment. S045D incorporada i contextos S079/S081 revalidats després dels comiats demanats pel docent. Sense canvis d’aprovacions d’àudio. S029 revalidada el 23/11 després de recuperar la presentació i retirar la ubicació del context previ. S068D i S071D incorporades amb revisió independent el 23/11; correspondència de S068 revalidada després de variar-ne l’inici. Ampliació independent: ca-S083, ca-S084, ca-S085, ca-S086 (revisio_tancament_s027). Ampliació independent: ca-S087, ca-S088, ca-S089, ca-S090, ca-S091 (revisio_tancament_s027). Ampliació independent: ca-S084, ca-S086 (revisio_tancament_s027). Ampliació independent: ca-S092, ca-S093, ca-S094, ca-S095, ca-S096, ca-S097 (revisio_tancament_s027). Ampliació independent: ca-S098, ca-S099, ca-S100, ca-S101, ca-S102, ca-S103 (auditoria_registre_pendents). Ampliació independent: ca-S104, ca-S105, ca-S106, ca-S107 (revisio_tancament_s027). Ampliació independent: ca-S108, ca-S109, ca-S110, ca-S111 (auditoria_registre_pendents). Ampliació independent: ca-S092, ca-S093, ca-S095 (revisio_tancament_s027). Ampliació del 25/11: S112–S127 amb doble format i contextos revisats per /root/abcd_author_002, /root/abcd_author_003, /root/abcd_author_004. Pilots S128–S130 i retolació S125: revisió independent del 25/11.",
+  "fileSha256": "62f3d7c433cd69863d94747168e17c5f7e06bc44b0cb6b103c976775d4dd0e48",
   "entries": {
     "ca-S001": {
       "contextSha256": "86a2e53e056b3476191785f60aeb95ceaeed57b5958b995a1c5ac832470bfedf",
@@ -622,9 +622,9 @@
     },
     "ca-S125": {
       "contextSha256": "494fbe5886d51de4c100e2ea0927325bb8ee373acf18cac16be3e981eaa47144",
-      "sourceSha256": "81e8c2fc8825b9b478fb8b8814c75947a4775380ebc4e5fc9afc6d8123be8764",
-      "reviewer": "/root/abcd_author_004",
-      "reviewedAt": "2026-11-25"
+      "sourceSha256": "a255daa70beadd8d342a72a810c29fbe7c9849d9a049ee7169841479bd8277e6",
+      "reviewedAt": "2026-11-25",
+      "reviewer": "/root/review_s125_labels"
     },
     "ca-S126": {
       "contextSha256": "bed6bf00ea151290ef474994d6939433b306ef6cdb068143cccdebf560daae54",
@@ -637,6 +637,24 @@
       "sourceSha256": "2d7e6ba203bd2514f507cb1b35a6989e417af995ac74cd3254f3e1d141ef91ae",
       "reviewer": "/root/abcd_author_004",
       "reviewedAt": "2026-11-25"
+    },
+    "ca-S128": {
+      "contextSha256": "a8d4ec8a993e2c6d0160ec042eb2998b66043ea8acbd08f632878fae8f530be9",
+      "sourceSha256": "949ffd069e38247d65f8d3d179913fead750135f814c36cdbc95b7332154dfda",
+      "reviewedAt": "2026-11-25",
+      "reviewer": "/root/review_tradition_pilots"
+    },
+    "ca-S129": {
+      "contextSha256": "e276a1783721087f1824abf9ffbc207e31af3dea0f1c9ff34d52cba0fb7ef130",
+      "sourceSha256": "6fa0b472bc311547a3a69a525afb15dde63db928f1033a218ae963ab0564fc15",
+      "reviewedAt": "2026-11-25",
+      "reviewer": "/root/review_tradition_pilots"
+    },
+    "ca-S130": {
+      "contextSha256": "a5eafe96a2f2e9dfff777a363883311a3257dabb03126c6e0eebebcfb42daf34",
+      "sourceSha256": "667adef640822241092523fc43e0d78db726e8421d7178760528559e83ab5757",
+      "reviewedAt": "2026-11-25",
+      "reviewer": "/root/review_tradition_pilots"
     }
   },
   "latestReview": {

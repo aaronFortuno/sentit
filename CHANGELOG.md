@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.113 · 25 de novembre de 2026
+
+- Pilots S128 «El lleó i el ratolí», S129 «Sant Jordi i la rosa» i S130 «El fil d’Ariadna»: nous universos de faules, llegendes i mites. Guió, escaleta, fonts, context i 18 preguntes obertes/ABCD amb revisió adversària exacta; pendents de validació docent.
+- Narrador anònim amb timbre candidat flexible per completar lots; una sola veu estable per peça, pendent de concreció abans de sintetitzar. Sense nous recurrents ni àudios generats.
+- Guions S113, S114, S116, S119, S123, S125 i S127 validats per a síntesi. S125 marca «Per tocar» i «Gastades» com a rètols literals, amb revisió independent renovada. Seguiment i plans actualitzats; cap petició nova.
+
 ## 0.1.112 · 25 de novembre de 2026
 
 - Setze propostes S112–S127 per equilibrar curs, dificultat, durada, tipologia i univers: vuit notícies breus, quatre explicacions, dues instruccions i dues entrevistes. Set de 3r, set de 4t i dues de 5è.

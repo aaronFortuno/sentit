@@ -2,6 +2,24 @@
 // A narrated character can link stories without being a participating voice.
 export const universes = [
   {
+    id: 'faules-mon',
+    name: { ca: 'Faules del món', es: 'Fábulas del mundo' },
+    description: { ca: 'Faules tradicionals adaptades per escoltar, amb animals, decisions i conseqüències.', es: 'Fábulas tradicionales adaptadas para escuchar, con animales, decisiones y consecuencias.' },
+    activities: [],
+  },
+  {
+    id: 'llegendes-mon',
+    name: { ca: 'Llegendes d’aquí i d’arreu', es: 'Leyendas de aquí y de allá' },
+    description: { ca: 'Relats tradicionals lligats a llocs i costums, amb la seva procedència i versió identificades.', es: 'Relatos tradicionales vinculados a lugares y costumbres, con su procedencia y versión identificadas.' },
+    activities: [],
+  },
+  {
+    id: 'mites-antiguitat',
+    name: { ca: 'Mites de l’antiguitat', es: 'Mitos de la antigüedad' },
+    description: { ca: 'Episodis de la mitologia grega i romana, adaptats amb context i fonts de referència.', es: 'Episodios de la mitología griega y romana, adaptados con contexto y fuentes de referencia.' },
+    activities: [],
+  },
+  {
     id: 'mans-a-lobra',
     name: { ca: 'Mans a l’obra', es: 'Manos a la obra' },
     description: { ca: 'Projectes petits, reparacions i proves compartides: les idees van prenent forma mentre els personatges treballen.', es: 'Pequeños proyectos, reparaciones y pruebas compartidas: las ideas toman forma mientras los personajes trabajan.' },

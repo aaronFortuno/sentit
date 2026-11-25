@@ -28,7 +28,7 @@ export function draft({ items, context, ...data }) {
   });
   const entry = proposal({
     ...data, strategy: 'plain-v1', questions: items.map(item => item.open),
-    soundCredits: 'Muntatge proposat amb enregistraments reals acreditats o la base comuna ja registrada. Cap veu, mostra nova ni il·lustració produïda per a aquesta proposta.',
+    soundCredits: data.soundCredits ?? 'Muntatge proposat amb enregistraments reals acreditats o la base comuna ja registrada. Cap veu, mostra nova ni il·lustració produïda per a aquesta proposta.',
     generationPlan: {
       note: 'Un tall complet per comprensió, amb títol i cos. Agrupar amb el mateix repartiment en un lot estimat de 6–8 minuts. Text pla sense etiquetes de pausa llegibles; direcció només a les metadades. La revisió independent no autoritza síntesi: falta validació docent del guió i de tota l’escaleta.',
       takes: [{ id: data.code + '-T01', label: 'Presentació i fragment complets', parts: ['introduction', ...parts], requests: 1, note: 'Una presa completa dins un lot compartit, no una petició separada per cada comprensió. Màxim dues veus i cap canvi d’identitat entre torns.' }],

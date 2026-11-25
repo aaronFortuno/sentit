@@ -5,6 +5,7 @@ import { batch004Choices } from './batch-004.js';
 import { batch005Choices } from './batch-005.js';
 import { batch006Choices } from './batch-006.js';
 import { batch007Choices } from './batch-007.js';
+import { batch008Choices } from './batch-008.js';
 
 // Each batch is authored and reviewed independently from its canonical reading.
 // Register future batches here before recording their exact question reviews.
@@ -16,6 +17,7 @@ export const questionChoiceBatches = [
   { id: 'batch-005', author: 'root', choices: batch005Choices },
   { id: 'batch-006', author: 'root', choices: batch006Choices },
   { id: 'batch-007', author: 'root', choices: batch007Choices },
+  { id: 'batch-008', author: 'root', choices: batch008Choices },
 ];
 const entries = questionChoiceBatches.flatMap(batch => Object.entries(batch.choices));
 if (new Set(entries.map(([key]) => key)).size !== entries.length) throw Error('Duplicate question-choice activity across batches');

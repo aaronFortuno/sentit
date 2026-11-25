@@ -1,6 +1,6 @@
 # Seguiment de preguntes obertes / ABCD
 
-Actualitzat: **25/11/2026**. **135 de 135 peces** amb totes les preguntes classificades i revisades independentment: **979 alternatives ABCD**, **4 obertes amb motiu**, **0 preguntes pendents** de 983. **6 peces amb validació docent del format de preguntes.**
+Actualitzat: **25/11/2026**. **138 de 138 peces** amb totes les preguntes classificades i revisades independentment: **997 alternatives ABCD**, **4 obertes amb motiu**, **0 preguntes pendents** de 1001. **6 peces amb validació docent del format de preguntes.**
 
 [Pla i criteris](preguntes-abcd.md). Aquest registre és independent de l’audició i la publicació dels àudios. Les variants es compten per separat.
 
@@ -141,5 +141,8 @@ Actualitzat: **25/11/2026**. **135 de 135 peces** amb totes les preguntes classi
 | [ca-S125](https://sentit.ortogra.fi/#lectura=ca-S125) | Una capseta per a les pues | 6 | 6 | 0 | 0 |
 | [ca-S126](https://sentit.ortogra.fi/#lectura=ca-S126) | Com es prova un instrument reparat? | 6 | 6 | 0 | 0 |
 | [ca-S127](https://sentit.ortogra.fi/#lectura=ca-S127) | Quan val la pena reparar un instrument? | 6 | 6 | 0 | 0 |
+| [ca-S128](https://sentit.ortogra.fi/#lectura=ca-S128) | El lleó i el ratolí | 5 | 5 | 0 | 0 |
+| [ca-S129](https://sentit.ortogra.fi/#lectura=ca-S129) | Sant Jordi i la rosa | 6 | 6 | 0 | 0 |
+| [ca-S130](https://sentit.ortogra.fi/#lectura=ca-S130) | El fil d’Ariadna | 7 | 7 | 0 | 0 |
 
 Regeneració local: `node tools/build-choice-coverage.mjs --date=AAAA-MM-DD`. Només llegeix dades i revisions i escriu aquest informe; no modifica aprovacions ni genera àudios.

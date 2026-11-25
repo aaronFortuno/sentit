@@ -1,5 +1,6 @@
 export const strings = {
   ca: {
+    releaseTraditionPilots: "Tres pilots de faules, llegendes i mites: S128–S130, amb fonts, escaleta, context i 18 preguntes obertes/ABCD revisades independentment. Narrador flexible per completar lots. Set guions de la tanda anterior validats per a síntesi; encara sense peticions noves.",
     releaseBalancedScripts: "Setze guions nous S112–S127 per equilibrar el catàleg: notícies breus, explicacions, instruccions i entrevistes, amb 88 preguntes duals, context i escaleta. Revisió adversària superada; pendents de validació docent. Tres candidats de síntesi amb esmenes, sense enviar cap petició.",
     releaseFullQuestionChoices: "Doble format complet a les 119 comprensions: 891 alternatives ABCD i 4 preguntes que mantenen resposta oberta amb motiu. Revisió creuada independent i solucionaris amb clau i evidències. Les alternatives noves esperen validació docent; guions, àudios i aprovacions intactes.",
     releaseRealPrintSamples: "S058 publicada definitivament amb il·lustració i solucionari net: 101 comprensions definitives. La tria de format mostra retalls del full imprimible real, amb dues línies de resposta o quatre opcions ABCD i degradat transparent a la dreta.",
@@ -332,6 +333,7 @@ export const strings = {
     sessionEnded: 'Sessió acabada', remainingTime: 'Temps restant',
   },
   es: {
+    releaseTraditionPilots: "Tres pilotos de fábulas, leyendas y mitos: S128–S130, con fuentes, escaleta, contexto y 18 preguntas abiertas/ABCD revisadas de forma independiente. Narrador flexible para completar lotes. Siete guiones de la tanda anterior validados para síntesis; todavía sin peticiones nuevas.",
     releaseBalancedScripts: "Dieciséis guiones nuevos S112–S127 para equilibrar el catálogo: noticias breves, explicaciones, instrucciones y entrevistas, con 88 preguntas duales, contexto y escaleta. Revisión independiente superada; pendientes de validación docente. Tres candidatos de síntesis con correcciones, sin enviar peticiones.",
     releaseFullQuestionChoices: "Doble formato completo en las 119 comprensiones: 891 alternativas ABCD y 4 preguntas que mantienen respuesta abierta con motivo. Revisión cruzada independiente y solucionarios con clave y evidencias. Las alternativas nuevas esperan validación docente; guiones, audios y aprobaciones intactos.",
     releaseRealPrintSamples: "S058 publicada definitivamente con ilustración y solucionario limpio: 101 comprensiones definitivas. La elección de formato muestra recortes de la ficha imprimible real, con dos líneas de respuesta o cuatro opciones ABCD y degradado transparente a la derecha.",

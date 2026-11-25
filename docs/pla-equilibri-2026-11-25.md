@@ -1,6 +1,6 @@
 # Nova tanda per equilibrar el catàleg · 25/11/2026
 
-**S112–S127: setze propostes revisades independentment, pendents de validació docent.** Guió, escaleta, context i 88 preguntes en resposta oberta o ABCD, amb solucionari i evidències. No hi ha àudios nous ni autorització de síntesi. Al web, activar «Només provisionals» i entrar al codi per llegir primer el guió del solucionari.
+**S112–S127: setze propostes revisades independentment.** Guió, escaleta, context i 88 preguntes en resposta oberta o ABCD, amb solucionari i evidències. **Guions validats per a síntesi: S113, S114, S116, S119, S123, S125 i S127**; la resta espera el vistiplau docent. S125 incorpora els rètols «Per tocar» i «Gastades», amb nova revisió exacta. Encara no s’ha enviat cap síntesi d’aquesta tanda. Al web, activar «Només provisionals» i entrar al codi per llegir primer el guió del solucionari.
 
 | Bloc | Codis per validar | Objectiu | Previsió de veu amb esmenes |
 | --- | --- | --- | ---: |

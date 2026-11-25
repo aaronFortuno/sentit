@@ -9730,61 +9730,61 @@ export const questionChoiceReviews = [
     "activity": "ca-S125",
     "questionId": "barreja",
     "status": "passed",
+    "fingerprint": "098f7fbe63c75345334b0dacb34072c0822dccfeb81140653207922a40d53960",
     "author": "root",
-    "reviewer": "/root/abcd_author_004",
+    "reviewer": "/root/review_s125_labels",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "d33adbaf1336768dc98350834f9aa85358a28a164914c37af31d718815fefb00"
+    "teacherValidation": "pending"
   },
   {
     "activity": "ca-S125",
     "questionId": "papers",
     "status": "passed",
+    "fingerprint": "ef30b1b4eb7b6c11c122f3861aa1587fd9a77c64a9fefe9a3f0662097d1c1104",
     "author": "root",
-    "reviewer": "/root/abcd_author_004",
+    "reviewer": "/root/review_s125_labels",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "bcc48e7b79cebf40f65291dd84bb49b158098cef9f4520ebf2d6df09e46c644d"
+    "teacherValidation": "pending"
   },
   {
     "activity": "ca-S125",
     "questionId": "primer",
     "status": "passed",
+    "fingerprint": "6a0fbbaff91e56aa67c7b1b924ea7aefc6c43a61c063076647806d9ec1fc2a21",
     "author": "root",
-    "reviewer": "/root/abcd_author_004",
+    "reviewer": "/root/review_s125_labels",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "9d4b59d55d5add73e96c29428c3a3d0228be7b613363462fa2c271ce42bdb50d"
+    "teacherValidation": "pending"
   },
   {
     "activity": "ca-S125",
     "questionId": "prova",
     "status": "passed",
+    "fingerprint": "aac2d818564ffa165f9a7df5446389f5d0cfdd126e4be471bbaccc2d0553a9a5",
     "author": "root",
-    "reviewer": "/root/abcd_author_004",
+    "reviewer": "/root/review_s125_labels",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "fd958e1ec527da55eead3e2d17adfa731b3278032070cdb79ab65a7b89636350"
+    "teacherValidation": "pending"
   },
   {
     "activity": "ca-S125",
     "questionId": "tira",
     "status": "passed",
+    "fingerprint": "666a088e37f6174d9bede12d2c7ceb6b7b93ef8c6eb1424ecfa6a2ab7f19cd2c",
     "author": "root",
-    "reviewer": "/root/abcd_author_004",
+    "reviewer": "/root/review_s125_labels",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "c0dacb513d08bd338ec7762199b9065516451cea31315cea29caf301b21ae6f7"
+    "teacherValidation": "pending"
   },
   {
     "activity": "ca-S125",
     "questionId": "topa",
     "status": "passed",
+    "fingerprint": "62f93ddff2892e2a9b64e7fbef35b3d23e40e2e90da5cc4705d480cb8bdb2840",
     "author": "root",
-    "reviewer": "/root/abcd_author_004",
+    "reviewer": "/root/review_s125_labels",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "3fb202c6b0499bb444dd509c0c64b335e2c536669f68ace8c3fed875c66364ae"
+    "teacherValidation": "pending"
   },
   {
     "activity": "ca-S126",
@@ -9905,5 +9905,185 @@ export const questionChoiceReviews = [
     "reviewedAt": "2026-11-25",
     "teacherValidation": "pending",
     "fingerprint": "12dd69203330fea209282c8902ad76d3fb414fefab438a2cd6fa035e7e01c041"
+  },
+  {
+    "activity": "ca-S128",
+    "questionId": "atrapat",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/review_tradition_pilots",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "7e6e2d13a338d224c54a41e8aefd00dd433b55c06a9487a467fef293242f4b54"
+  },
+  {
+    "activity": "ca-S128",
+    "questionId": "canvi",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/review_tradition_pilots",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "68b6f64bdfb2bbfa6d737d45f25c4cd3141a64561a92c60df582c95666181515"
+  },
+  {
+    "activity": "ca-S128",
+    "questionId": "deixar",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/review_tradition_pilots",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "acf5f2580fd6ac5ef2104f6cf351b7eafb42aa57e34d351ef02625f2178bb2b2"
+  },
+  {
+    "activity": "ca-S128",
+    "questionId": "despertar",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/review_tradition_pilots",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a6b81adc3965e9169d8775bbbd4662af07554447b803c7ca5bc8c362c82fc50d"
+  },
+  {
+    "activity": "ca-S128",
+    "questionId": "sortir",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/review_tradition_pilots",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "00d3e8581ac53bfba7376dfe3e72da74f7d7370015ca2f2719d0edc7491cf87f"
+  },
+  {
+    "activity": "ca-S129",
+    "questionId": "bestiar",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/review_tradition_pilots",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "00c740a69d1cf599e1a1b835b8d61ee3da2804926efb381ad45540a1a470e4ae"
+  },
+  {
+    "activity": "ca-S129",
+    "questionId": "moment",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/review_tradition_pilots",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "03a0032aa1cc6e4def038b8c9b53c6eae6171b42763ac5cd8cf488eb0f1eb2ca"
+  },
+  {
+    "activity": "ca-S129",
+    "questionId": "portes",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/review_tradition_pilots",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "dacc23b2464b6987148f9fc62135a6536f0795fe18d582e526eea24b64442935"
+  },
+  {
+    "activity": "ca-S129",
+    "questionId": "rei",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/review_tradition_pilots",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "b2c517e4ae1930841b7bbea9f14ccbcf82a6910d4823aca819e0b5d8fb5daa6b"
+  },
+  {
+    "activity": "ca-S129",
+    "questionId": "roser",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/review_tradition_pilots",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "fc9ae69a3f40b9350ef2ec049d953b67c8a6dea1769f7bc1118b2e045a63dde8"
+  },
+  {
+    "activity": "ca-S129",
+    "questionId": "triar",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/review_tradition_pilots",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "808b4710cc9bdad83d0aaae1981c5002e1b351d5307e1cb95042834cc97c2ebf"
+  },
+  {
+    "activity": "ca-S130",
+    "questionId": "ajuda",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/review_tradition_pilots",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ddecd8f06f04ba3351ff6fe4475cd06478a4d28e35bad63e59a92dc78504bba8"
+  },
+  {
+    "activity": "ca-S130",
+    "questionId": "consulta",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/review_tradition_pilots",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "d567a0107747ca696f3dc334308f35f2216d5c560ee2bcf6b71f3d9e5a896420"
+  },
+  {
+    "activity": "ca-S130",
+    "questionId": "doble",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/review_tradition_pilots",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "1ea6c853a59dc2921ab1596d357760e999a54b5d33abb3bea8a8b89ea9797635"
+  },
+  {
+    "activity": "ca-S130",
+    "questionId": "final",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/review_tradition_pilots",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "bfc85750d039c187144e6b73635467159e7068ed98f774337b369ff04549353b"
+  },
+  {
+    "activity": "ca-S130",
+    "questionId": "fixar",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/review_tradition_pilots",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "e6ca836eea544ca3cb842923a091d3efa0de6ac9d0a07c497d2a417e057943bc"
+  },
+  {
+    "activity": "ca-S130",
+    "questionId": "objectiu",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/review_tradition_pilots",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "846ca95fe1d4e812e386ce69f99372b7170ebf0008c2d3edb61d8b9ea36fa99a"
+  },
+  {
+    "activity": "ca-S130",
+    "questionId": "retorn",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/review_tradition_pilots",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "830c8a32df13a081ed2ca28f841358ecdf05b7b7ee1e52ff5fad8deb845b8fbd"
   }
 ];

@@ -1,7 +1,9 @@
 // Introduccions impreses: situen l'escena sense explicar-ne el desenllaç.
 // Separades dels guions de veu: no s'envien a síntesi ni alteren les preses.
 import { balanceContexts } from './propostes/equilibri/index.js';
+import { traditionContexts } from './propostes/tradicio/index.js';
 export const listeningContexts = {
+  ...traditionContexts,
   ...balanceContexts,
   'ca-S104': 'En Biel porta un treball fet de casa al taller de l’Elies. El vol tenir a punt i demana ajuda per acabar-lo. Escolta què proven amb les coses que tenen al taller.',
   'ca-S105': 'En Biel prepara les coses que farà servir per tocar. Hi ha una cosa del taller que es mou més del compte, i l’Elies s’acosta a mirar-la amb ell. Escolta què comproven i què decideixen fer.',

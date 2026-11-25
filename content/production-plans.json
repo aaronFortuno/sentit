@@ -2533,9 +2533,9 @@
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
   },
   "S113": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "3a973455b8b5d7d5ce399a971a4b4c4290c238370dcbc3d2e0f00ef908a490a9",
+    "reviewedAt": "2026-11-25",
     "reviewActivity": "ca-S113",
     "reviewContent": "content/propostes/equilibri/noticies.js",
     "format": "3r accessible. Un fet principal i rols concrets, sense haver de memoritzar diversos horaris. Cinc preguntes breus amb doble format.",
@@ -2549,12 +2549,13 @@
       "Mar": "Erinome"
     },
     "strategy": "plain-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 25/11: S113 també puja a síntesi."
   },
   "S114": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "72f4f257321128def2718b9a032e3c1bc5f628991b9af2813bf1fb063f1492c4",
+    "reviewedAt": "2026-11-25",
     "reviewActivity": "ca-S114",
     "reviewContent": "content/propostes/equilibri/noticies.js",
     "format": "3r intermèdia. Entendre l’activitat real a partir del que hi faran, i distingir moment d’entrada de la continuació de l’assaig. Cinc ítems breus.",
@@ -2568,7 +2569,8 @@
       "Mar": "Erinome"
     },
     "strategy": "plain-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 25/11: S114 és vàlid per pujar a síntesi."
   },
   "S115": {
     "status": "awaiting-validation",
@@ -2590,9 +2592,9 @@
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
   },
   "S116": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "a32112204f218dccef642ecb7d156f1ab1e6564a5ba783418d191b87a6d93921",
+    "reviewedAt": "2026-11-25",
     "reviewActivity": "ca-S116",
     "reviewContent": "content/propostes/equilibri/noticies.js",
     "format": "4t accessible. Seguir una activitat i una condició meteorològica senzilla. Cinc preguntes breus; les dades són de ficció.",
@@ -2606,7 +2608,8 @@
       "Mar": "Erinome"
     },
     "strategy": "plain-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 25/11: S116 i S127 també pugen a síntesi de veus."
   },
   "S117": {
     "status": "awaiting-validation",
@@ -2647,9 +2650,9 @@
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
   },
   "S119": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "ee2e92c9fd47720234fe4635b56c708c4188ce67a837fd5b5187c42dc2a22ec1",
+    "reviewedAt": "2026-11-25",
     "reviewActivity": "ca-S119",
     "reviewContent": "content/propostes/equilibri/noticies.js",
     "format": "4t avançada. Una condició pendent i una dada que es manté, amb inferència sobre què ha de comprovar el públic. Cinc preguntes breus, sense encadenar diversos terminis.",
@@ -2663,7 +2666,8 @@
       "Mar": "Erinome"
     },
     "strategy": "plain-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 25/11: S119 també puja a síntesi de veus."
   },
   "S120": {
     "status": "awaiting-validation",
@@ -2726,9 +2730,9 @@
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
   },
   "S123": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "9f58ab8828378a098b66ed8bed57ec516f09b75c3cfb697eb82989b8fcc528de",
+    "reviewedAt": "2026-11-25",
     "reviewActivity": "ca-S123",
     "reviewContent": "content/propostes/equilibri/explicacions.js",
     "format": "4t avançada. Relacionar reflexions, prolongació del so i absorció, amb un exemple explicat oralment i una comparació controlada. Sis preguntes; el tecnicisme reverberació és presentat dins el guió.",
@@ -2743,7 +2747,8 @@
       "Laia": "Leda"
     },
     "strategy": "plain-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 25/11: S123 també puja a síntesi."
   },
   "S124": {
     "status": "awaiting-validation",
@@ -2766,9 +2771,9 @@
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
   },
   "S125": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "c6b786dde679c0368b4fbca211ff219294f4de8d6a27bf768975ed0d24355e8b",
+    "reviewedAt": "2026-11-25",
     "reviewActivity": "ca-S125",
     "reviewContent": "content/propostes/equilibri/taller.js",
     "format": "4t intermèdia. Seguir una seqüència curta, relacionar cada part amb la seva funció i comprendre una prova abans d’omplir el recipient. Sis preguntes duals.",
@@ -2783,7 +2788,8 @@
       "Elies": "Algieba"
     },
     "strategy": "plain-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 25/11: S125 queda validat amb «Per tocar» i «Gastades» com a rètols literals. Ajust aplicat i revalidat independentment."
   },
   "S126": {
     "status": "awaiting-validation",
@@ -2806,9 +2812,9 @@
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
   },
   "S127": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "6baeaf10ea09b9076ea5c19a2de56fd24b59dd7e68195020a778c00388ba27fb",
+    "reviewedAt": "2026-11-25",
     "reviewActivity": "ca-S127",
     "reviewContent": "content/propostes/equilibri/taller.js",
     "format": "5è intermèdia. Entrevista amb dos exemples breus per distingir reparació, adequació d’ús i preferència de qui té l’instrument. Sis preguntes amb causes concretes, sense demanar un judici universal de consum.",
@@ -2821,6 +2827,64 @@
     "requiredVoices": {
       "Biel": "Puck",
       "Elies": "Algieba"
+    },
+    "strategy": "plain-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 25/11: S116 i S127 també pugen a síntesi de veus."
+  },
+  "S128": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S128",
+    "reviewContent": "content/propostes/tradicio/index.js",
+    "format": "Pilot Faules del món. 3r accessible: dos personatges, una sola veu i dos moments ben marcats. Cinc preguntes obertes/ABCD sobre accions, causes i canvi de situació. La moral es deixa inferir, sense afegir una sentència final.",
+    "cues": [
+      "Adaptació original en prosa de la faula isòpica, contrastada amb Townsend i La Fontaine. Conservar captura, alliberament, xarxa i ajuda del ratolí. Les frases citades són recreació de Sentit. Moral inferida; no locutar cap aforisme final.",
+      "Una pausa natural marca el pas del temps. No fer rugits o sorolls de cordes que responguin preguntes per si sols.",
+      "Deixar acabar la paraula cau; pujar la base dos segons i fer una fosa curta."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Narrador": "Algenib"
+    },
+    "strategy": "plain-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S129": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S129",
+    "reviewContent": "content/propostes/tradicio/index.js",
+    "format": "Pilot Llegendes d’aquí i d’arreu. 4t intermèdia: causalitat, sorteig i transformació meravellosa. Sis preguntes duals resolubles només escoltant aquesta versió. Violència breu, sense descripció gràfica.",
+    "cues": [
+      "Adaptació original de l’argument tradicional: localització a Montblanc, pròleg de les ovelles i variant popular de la rosa. Combina motius documentats a les dues fonts, no una transcripció d’Amades. La mort del drac es condensa en el combat fora de la vila, en lloc de narrar-ne la mort col·lectiva posterior a la plaça del testimoni citat per Patrimoni. S’ometen conversió religiosa i recompensa matrimonial; violència sense detall gràfic. És una llegenda, no una notícia històrica.",
+      "La tensió s’expressa amb la intenció de la narració; música baixa, cap crit o cop fort que tapi l’acció.",
+      "Base puja breument després de la veu i es fon. Cap efecte d’espasa, crits ni rosa màgica afegit."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Narrador": "Algenib"
+    },
+    "strategy": "plain-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S130": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S130",
+    "reviewContent": "content/propostes/tradicio/index.js",
+    "format": "Pilot Mites de l’antiguitat. 5è intermèdia, pendent de calibratge oral: tres protagonistes centrals i una seqüència de preparació, entrada i retorn. Set preguntes duals sobre objectiu, procediment i contribució dels personatges. Sense coneixement previ del mite.",
+    "cues": [
+      "Adaptació original d’un episodi del mite grec segons Apol·lodor: Ariadna consulta el constructor i facilita el fil; Teseu el fixa a l’entrada, mata el Minotaure i surt desfent el camí. S’ometen el pacte matrimonial i els episodis posteriors a la fugida de Creta. No afegir una espasa com a element decisiu d’aquesta versió; combat resumit sense detall gràfic.",
+      "Entrada al laberint amb música sostinguda molt tènue; sense passes aïllades, rugits o pauses de suspens llargues.",
+      "Tancar l’episodi aquí; no afegir la història de Naxos ni una moral. Base puja dos segons i fosa després de l’última paraula."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Narrador": "Algenib"
     },
     "strategy": "plain-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."

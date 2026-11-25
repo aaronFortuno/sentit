@@ -6,7 +6,7 @@
     {
       "id": "P26",
       "title": "Notícies breus de la Mar",
-      "state": "awaiting-teacher-validation",
+      "state": "awaiting-remaining-teacher-validation",
       "speechTextFormat": "plain-v1",
       "styleFormat": "compact-v1",
       "codes": [
@@ -64,12 +64,24 @@
         "seconds": 379,
         "assumption": "170 spoken words/minute; title and body plus repairs, no artificial pauses. Final payload and actual duration may differ."
       },
-      "note": "Candidat editorial complet, sense autorització de síntesi. Validació docent de guions, veus i escaleta pendent. Congelar plans d’esmena i empremta exacta abans d’enviar. Un sol lot en curs, respectant els límits."
+      "note": "Candidat editorial complet, sense autorització de síntesi. Validació docent de guions, veus i escaleta pendent. Congelar plans d’esmena i empremta exacta abans d’enviar. Un sol lot en curs, respectant els límits.",
+      "approvedScripts": [
+        "S113",
+        "S114",
+        "S116",
+        "S119"
+      ],
+      "pendingScripts": [
+        "S112",
+        "S115",
+        "S117",
+        "S118"
+      ]
     },
     {
       "id": "P27",
       "title": "Explicacions amb Mireia i Laia",
-      "state": "awaiting-teacher-validation",
+      "state": "awaiting-remaining-teacher-validation",
       "speechTextFormat": "plain-v1",
       "styleFormat": "compact-v1",
       "codes": [
@@ -115,12 +127,20 @@
         "seconds": 373,
         "assumption": "170 spoken words/minute; title and body plus repairs, no artificial pauses. Final payload and actual duration may differ."
       },
-      "note": "Candidat editorial complet, sense autorització de síntesi. Validació docent de guions, veus i escaleta pendent. Congelar plans d’esmena i empremta exacta abans d’enviar. Un sol lot en curs, respectant els límits."
+      "note": "Candidat editorial complet, sense autorització de síntesi. Validació docent de guions, veus i escaleta pendent. Congelar plans d’esmena i empremta exacta abans d’enviar. Un sol lot en curs, respectant els límits.",
+      "approvedScripts": [
+        "S123"
+      ],
+      "pendingScripts": [
+        "S120",
+        "S121",
+        "S122"
+      ]
     },
     {
       "id": "P28",
       "title": "Instruccions i entrevistes amb Biel i Elies",
-      "state": "awaiting-teacher-validation",
+      "state": "awaiting-remaining-teacher-validation",
       "speechTextFormat": "plain-v1",
       "styleFormat": "compact-v1",
       "codes": [
@@ -166,7 +186,15 @@
         "seconds": 412,
         "assumption": "170 spoken words/minute; title and body plus repairs, no artificial pauses. Final payload and actual duration may differ."
       },
-      "note": "Candidat editorial complet, sense autorització de síntesi. Validació docent de guions, veus i escaleta pendent. Congelar plans d’esmena i empremta exacta abans d’enviar. Un sol lot en curs, respectant els límits."
+      "note": "Candidat editorial complet, sense autorització de síntesi. Validació docent de guions, veus i escaleta pendent. Congelar plans d’esmena i empremta exacta abans d’enviar. Un sol lot en curs, respectant els límits.",
+      "approvedScripts": [
+        "S125",
+        "S127"
+      ],
+      "pendingScripts": [
+        "S124",
+        "S126"
+      ]
     }
   ]
 }
