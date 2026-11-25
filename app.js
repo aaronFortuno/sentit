@@ -1,13 +1,13 @@
 import { activities, legacyActivities } from './catalogue.js';
 import { renderRepairPreview, renderVoicePreview } from './repair-preview.js?v=0.1.96';
-import { strings } from './locales.js?v=0.1.105';
-import { defaultFormat, imageOptions, maxLines, questionFormat, renderWorksheet } from './worksheet.js?v=0.1.79';
+import { strings } from './locales.js?v=0.1.106';
+import { defaultFormat, imageOptions, maxLines, questionFormat, renderWorksheet } from './worksheet.js?v=0.1.106';
 import { clockTime, decodeSession, defaultSession, encodeSession, guidedPrompts, validRate, sessionJingles, validJingle } from './session.js';
 import { renderAudioResources } from './audio-resources.js';
 import { isPendingReview, needsReview } from './review.js';
 import { renderGenerationPlan } from './generation-plan.js';
 import { startAnalytics, track, countBucket, excluded, setExcluded, restriction } from './analytics.js';
-import { mountErrorReport } from './error-report.js?v=0.1.79';
+import { mountErrorReport } from './error-report.js?v=0.1.106';
 import { initGuidedPlayer } from './guided-player.js';
 import { mountAudioPreview } from './audio-preview.js';
 import { mountCatalog } from './catalog.js';
@@ -21,6 +21,7 @@ import { mountSelectMenus } from './select-menu.js';
 import { mountWorkspacePanels } from './workspace-panels.js';
 import { mottos, nextMotto } from './mottos.js';
 import { listeningContext } from './content/listening-contexts.js';
+import { registerQuestionChoices, multipleChoice, responseQuestion, responseSummary, responseSettings } from './question-responses.js';
 
 const byId = id => document.getElementById(id);
 const preferences = {
@@ -72,9 +73,9 @@ const standardFormat = { ...format };
 
 function snapshot(entry, collectionId = '') {
   const stored = collectionId ? listCollections().find(item => item.id === collectionId)?.layouts?.[entry.id] : null;
-  if (stored) return structuredClone(stored);
+  if (stored) return { ...structuredClone(stored), settings: responseSettings(structuredClone(stored.settings ?? {}), true) };
   const { format: savedFormat, ...settings } = activitySettings[entry.id] ?? {};
-  return { format: { ...standardFormat, ...savedFormat }, settings: structuredClone(settings) };
+  return { format: { ...standardFormat, ...savedFormat }, settings: responseSettings(structuredClone(settings), Boolean(activitySettings[entry.id])) };
 }
 
 function applyFormat(settings) {
@@ -199,6 +200,13 @@ function renderEditor() {
   byId('show-instructions').closest('label').hidden = documentMode === 'answers';
   byId('evidence-option').hidden = documentMode !== 'answers';
   byId('show-evidence').checked = settings.showEvidence ?? true;
+  const responses = responseSummary(selected, settings);
+  for (const button of document.querySelectorAll('[data-response-mode]')) {
+    button.disabled = !responses.available;
+    button.setAttribute('aria-pressed', String(responses.available > 0 && (button.dataset.responseMode === 'choice' ? responses.choices === responses.available : responses.choices === 0)));
+  }
+  byId('response-summary').textContent = responses.available ? t('responseCount')(responses.choices, responses.open) : t('responseUnavailable');
+  byId('choice-review-notice').hidden = !responses.available;
   renderImageEditor();
   selected.questions.forEach((question, index) => {
     const { id, included } = questionFormat(question, index, settings);
@@ -573,11 +581,14 @@ paper.addEventListener('click', event => {
   const settings = currentSettings;
   const index = selected.questions.findIndex((question, i) => (question.id ?? String(i)) === id);
   if (index === -1) return;
-  track('maqueta_fitxa',{code:selected.code,bloc:'preguntes',accio:action==='hide'?'amaga':'linies'});
+  const mode = action === 'mode-open' ? 'open' : action === 'mode-choice' ? 'choice' : null;
+  if (mode && !multipleChoice(selected, selected.questions[index])) return;
+  track('maqueta_fitxa',{code:selected.code,bloc:'preguntes',accio:mode?'format':action==='hide'?'amaga':'linies',...(mode?{format_pregunta:mode==='choice'?'abcd':'oberta'}:{})});
   const { lines } = questionFormat(selected.questions[index], index, settings);
   settings.questions ??= {};
   const override = settings.questions[id] ??= {};
-  if (action === 'hide') override.included = false;
+  if (mode) { settings.questionModes ??= {}; settings.questionModes[id] = mode; }
+  else if (action === 'hide') override.included = false;
   else override.lines = Math.max(0, Math.min(maxLines, lines + (action === 'more' ? 1 : -1)));
   const expanded = tools.classList.contains('is-open');
   saveActivity();
@@ -594,6 +605,12 @@ paper.addEventListener('click', event => {
     const focus = restored.querySelector(`[data-question-action="${action}"]`);
     (focus.disabled ? restored.querySelector(`[data-question-action="${action === 'more' ? 'less' : 'more'}"]`) : focus).focus({ preventScroll: true });
   }
+});
+for (const button of document.querySelectorAll('[data-response-mode]')) button.addEventListener('click', () => {
+  if (!selected || button.disabled) return;
+  currentSettings.questionMode = button.dataset.responseMode; currentSettings.questionModes = {};
+  track('maqueta_fitxa', {code:selected.code,bloc:'preguntes',accio:'format',format_pregunta:button.dataset.responseMode==='choice'?'abcd':'oberta'});
+  saveActivity(); renderEditor();
 });
 byId('hidden-questions').addEventListener('click', event => {
   const button = event.target.closest('[data-restore-question]');
@@ -642,7 +659,7 @@ for (const [id, mode] of [['worksheet-mode', 'worksheet'], ['answers-mode', 'ans
   });
 }
 byId('print').addEventListener('click', () => { if (selected && !isPendingReview(selected)) { track('obre_impressio',{code:selected.code,contingut:documentMode==='answers'?'solucionari':'fitxa',colleccio:Boolean(activeCollectionId)});window.print(); } });
-function reportQuestions(){return selected.questions.filter((question,index)=>questionFormat(question,index,currentSettings).included);}
+function reportQuestions(){return selected.questions.filter((question,index)=>questionFormat(question,index,currentSettings).included).map(question=>responseQuestion(selected,question,currentSettings));}
 byId('report-error').addEventListener('click',()=>{if(selected){byId('teacher-audio').pause();errorReporter.open(selected,{questions:reportQuestions()});}});
 byId('player-report').addEventListener('click',()=>{const entry=findActivity(listenId);if(entry){window.dispatchEvent(new Event('sentit-pause-playback'));errorReporter.open(entry,{audioOnly:true});}});
 function syncPrivacy(){byId('analytics-excluded').checked=excluded();const reason=restriction();byId('analytics-browser-notice').hidden=!['dnt','gpc'].includes(reason);}
@@ -721,6 +738,7 @@ setDetailsOpen(byId('filter-panel'), !compactCatalog.matches || catalog.hasChara
 if (catalog.hasCharacterFilter()) setDetailsOpen(byId('character-filter'), true, { animated: false });
 compactCatalog.addEventListener('change', event => { setDetailsOpen(byId('filter-panel'), !event.matches); });
 startAnalytics();
+await registerQuestionChoices(activities);
 theme();
 translate();
 route();

@@ -16,7 +16,7 @@ export function mountErrorReport(dialog,t){
   function updateSubmit(){submit.disabled=busy||fields.disabled||Boolean(blocked())||!part.value||!options.querySelector(':checked')||(element.required&&!element.value);}
   function updatePart(selected=''){
     let targets=[];
-    if(['question','solution'].includes(part.value))targets=visibleQuestions.map((q,index)=>({id:q.id,label:t('reportQuestionLabel')(index+1)}));
+    if(['question','solution'].includes(part.value))targets=visibleQuestions.map((q,index)=>({id:q.id,label:t('reportQuestionLabel')(index+1)+(q.responseMode?` · ${t(q.responseMode==='choice'?'responseChoice':'responseOpen')}`:'')}));
     else if(part.value==='image')targets=[{id:'image',label:t('reportParts').image}];
     else targets=[...(active.introduction?[{id:'introduction',label:t('introduction')}]:[]),...active.transcript.filter(p=>p.speaker&&p.id).map((p,index)=>({id:p.id,label:t('reportBlock')(index+1)}))];
     element.replaceChildren(new Option(t('reportWhole'),''),...targets.map(target=>new Option(target.label,target.id)));
@@ -37,7 +37,8 @@ export function mountErrorReport(dialog,t){
   form.addEventListener('submit',async event=>{
     event.preventDefault();if(!active||submit.disabled)return;
     const values={part:part.value,element:element.value,motiu:form.elements.motiu.value};
-    const key=[active.code,values.part,values.element,values.motiu].join('|');
+    if(['question','solution'].includes(values.part))values.responseMode=visibleQuestions.find(q=>q.id===values.element)?.responseMode??'open';
+    const key=[active.code,values.part,values.element,values.motiu,values.responseMode??''].join('|');
     if(sent.has(key)){status.textContent=t('reportAlreadySent');return;}
     busy=true;failed=false;availability();status.textContent=t('reportSending');const version=revision;
     const delivered=await sendReport(active,values);

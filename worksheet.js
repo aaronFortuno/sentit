@@ -3,6 +3,7 @@ import { buildEvidence, evidenceQuestions, evidenceSegments } from './evidence.j
 import { isPendingReview, isAudioReview, needsReview, reviewScript } from './review.js';
 import { isEditoriallyReviewed, reviewCaption, hasPendingMontage, hasApprovedScript } from './editorial-review.js';
 import { listeningContext } from './content/listening-contexts.js';
+import { responseQuestion, responseSummary } from './question-responses.js';
 
 export const defaultFormat = { font: 'serif', size: 12, spacing: 7, leading: 1.6 };
 
@@ -108,12 +109,18 @@ function makeIdentity(labels) {
   return identity;
 }
 
-export function worksheetInstructions(entry, session) {
+export function worksheetInstructions(entry, session, settings = {}) {
   const spanish = entry.language?.split('-')[0] === 'es';
+  const summary = responseSummary(entry, settings);
+  const action = summary.choices ? summary.open
+    ? spanish ? 'Marca una respuesta en las preguntas ABCD y escribe las respuestas abiertas.' : 'Marca una resposta a les preguntes ABCD i escriu les respostes obertes.'
+    : spanish ? 'Marca una sola respuesta en cada pregunta.' : 'Marca una sola resposta a cada pregunta.'
+    : spanish ? 'Responde a las preguntas por escrito.' : 'Respon les preguntes per escrit.';
+  const questions = summary.choices ? (spanish ? 'las preguntas y las opciones' : 'les preguntes i les opcions') : (spanish ? 'las preguntas' : 'les preguntes');
   if (!session || session.enabled === false) {
     return spanish
-      ? 'Lee las preguntas antes de empezar. Escucha el audio y responde por escrito. Puedes volver a escucharlo cuando lo necesites.'
-      : 'Llegeix les preguntes abans de començar. Escolta l’àudio i respon per escrit. Pots tornar-lo a escoltar quan ho necessitis.';
+      ? `Lee ${questions} antes de empezar. Escucha el audio. ${action} Puedes volver a escucharlo cuando lo necesites.`
+      : `Llegeix ${questions} abans de començar. Escolta l’àudio. ${action} Pots tornar-lo a escoltar quan ho necessitis.`;
   }
   const duration = seconds => {
     const minutes = Math.floor(seconds / 60);
@@ -129,8 +136,8 @@ export function worksheetInstructions(entry, session) {
   const sentences = [];
   if (session.reading > 0) {
     sentences.push(spanish
-      ? `Tienes ${duration(session.reading)} para leer las preguntas antes de escuchar el audio.`
-      : `Tens ${duration(session.reading)} per llegir les preguntes abans d’escoltar l’àudio.`);
+      ? `Tienes ${duration(session.reading)} para leer ${questions} antes de escuchar el audio.`
+      : `Tens ${duration(session.reading)} per llegir ${questions} abans d’escoltar l’àudio.`);
   }
   const once = spanish ? 'una vez' : 'una vegada';
   const times = session.listens === 1 ? once : `${session.listens} ${spanish ? 'veces' : 'vegades'}`;
@@ -144,7 +151,7 @@ export function worksheetInstructions(entry, session) {
       sentences.push(spanish ? 'Las escuchas se suceden sin pausa.' : 'Les escoltes se succeeixen sense pausa.');
     }
   }
-  sentences.push(spanish ? 'Responde a las preguntas por escrito.' : 'Respon les preguntes per escrit.');
+  sentences.push(action);
   return sentences.join(' ');
 }
 
@@ -160,7 +167,7 @@ function questionBlock(number, heading, parts) {
   return block;
 }
 
-function questionTools(id, number, count, answerKey, labels) {
+function questionTools(id, number, count, answerKey, labels, question) {
   const tools = element('div', 'paper-question-tools');
   tools.dataset.questionId = id;
   tools.lang = labels.language;
@@ -175,7 +182,17 @@ function questionTools(id, number, count, answerKey, labels) {
   const toggle = button('toggle', '⋯', labels.questionOptions(number));
   toggle.setAttribute('aria-expanded', 'false');
   const actions = element('div', 'paper-question-actions');
-  if (!answerKey) {
+  if (question.alternative) {
+    const modes = element('span', 'paper-response-modes');
+    modes.setAttribute('role', 'group'); modes.setAttribute('aria-label', labels.questionResponseMode(number));
+    for (const [mode, text, label] of [['open','',labels.responseOpen],['choice','ABCD',labels.responseChoice]]) {
+      const control = button(`mode-${mode}`, text, label);
+      if (mode === 'open') control.innerHTML = '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m16 3 5 5-13 13H3v-5L16 3Z"/><path d="m14 5 5 5"/></svg>';
+      control.setAttribute('aria-pressed', String(question.responseMode === mode)); modes.append(control);
+    }
+    actions.append(modes);
+  }
+  if (!answerKey && question.responseMode !== 'choice') {
     const less = button('less', '−', labels.questionLess(number));
     const more = button('more', '+', labels.questionMore(number));
     less.disabled = count === 0;
@@ -231,10 +248,10 @@ function transcriptBlock({ speaker, text, kind, takeId }, heading, ranges, offse
   return block;
 }
 
-function answerBlock(text, labels, reference, first = true, last = true) {
+function answerBlock(text, labels, reference, first = true, last = true, choice = false) {
   const answer = element('div', 'paper-answer');
   const header = element('div', 'paper-answer-header');
-  if (first) header.append(element('span', 'paper-answer-label', labels.suggestedAnswer));
+  if (first) header.append(element('span', 'paper-answer-label', choice ? labels.correctAnswer : labels.suggestedAnswer));
   if (reference && last) {
     const cue = element('a', 'paper-evidence-cue', labels.seeTranscript);
     cue.href = `#${reference.target}`;
@@ -264,11 +281,22 @@ function flowingIllustration(entry, options, transcript = false) {
   return figure;
 }
 
+function choiceRow(option, answerKey, correct) {
+  const row = element('div', 'paper-choice');
+  row.dataset.option = option.id;
+  const box = element('span', 'paper-choice-box', answerKey && correct === option.id ? '✓' : '');
+  box.setAttribute('aria-hidden', 'true');
+  row.classList.toggle('is-correct', answerKey && correct === option.id);
+  row.append(box, element('strong', 'paper-choice-letter', `${option.id.toUpperCase()}.`), element('span', '', option.text));
+  return row;
+}
+
 export function renderWorksheet(container, entry, format, settings, { answerKey, labels, toolLabels = labels, listenUrl, session }) {
   if (isPendingReview(entry)) labels = { ...labels, seeTranscript: labels.seeScript, seeTranscriptQuestion: labels.seeScriptQuestion };
   const footers = [];
   const image = imageOptions(entry, settings);
-  const evidence = answerKey && (settings?.showEvidence ?? true) ? buildEvidence(entry, evidenceQuestions(entry, settings)) : { byPart: new Map(), byQuestion: new Map() };
+  const resolvedQuestions = entry.questions.map(question => responseQuestion(entry, question, settings));
+  const evidence = answerKey && (settings?.showEvidence ?? true) ? buildEvidence(entry, evidenceQuestions({ ...entry, questions: resolvedQuestions }, settings)) : { byPart: new Map(), byQuestion: new Map() };
   let content;
   container.replaceChildren();
   container.lang = entry.language;
@@ -360,8 +388,9 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
       block.append(element('h4', '', labels.listeningContextTitle), element('p', '', context));
       placeBlock(block);
     }
-    if (settings?.showInstructions ?? true) placeBlock(element('p', 'paper-instructions', worksheetInstructions(entry, session)));
+    if (settings?.showInstructions ?? true) placeBlock(element('p', 'paper-instructions', worksheetInstructions(entry, session, settings)));
   }
+  if (responseSummary(entry, settings).choices) placeBlock(element('p', 'paper-choice-review', labels.choiceReviewNotice));
 
   function placeTranscript() {
     const parts = reviewScript(entry, labels, session);
@@ -381,7 +410,7 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
   if (answerKey && needsReview(entry)) placeTranscript();
 
   let number = 0;
-  entry.questions.forEach((question, index) => {
+  resolvedQuestions.forEach((question, index) => {
     const { id, included, lines } = questionFormat(question, index, settings);
     if (!included) return;
     const position = ++number;
@@ -389,19 +418,22 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
     const makePrompt = (text, first = true) => {
       const wrap = element('div', 'paper-prompt-wrap');
       wrap.append(element('p', 'paper-prompt', text));
-      if (first) wrap.append(questionTools(id, position, lines, answerKey, toolLabels));
+      if (first) wrap.append(questionTools(id, position, lines, answerKey, toolLabels, question));
       return wrap;
     };
-    const response = answerKey
-      ? [answerBlock(question.answer ?? labels.noAnswer, labels, evidence.byQuestion.get(id))]
-      : Array.from({ length: lines }, () => element('div', 'write-line'));
+    const choice = question.responseMode === 'choice';
+    const options = choice ? question.alternative.options.map(option => choiceRow(option, answerKey, question.alternative.correct)) : [];
+    const response = [...options, ...(answerKey
+      ? [answerBlock(question.answer ?? labels.noAnswer, labels, evidence.byQuestion.get(id), true, true, choice)]
+      : choice ? [] : Array.from({ length: lines }, () => element('div', 'write-line')))];
     const block = questionBlock(position, heading, [makePrompt(question.prompt), ...response]);
     block.dataset.completeQuestion = id;
     placeBlock(block, () => {
       placeText(question.prompt, (text, first) => questionBlock(first && position, first && heading, [makePrompt(text, first)]));
+      for (const option of options) placeBlock(questionBlock(null, '', [option]));
       if (answerKey) {
-        placeText(question.answer ?? labels.noAnswer, (text, first, offset, last) => questionBlock(null, '', [answerBlock(text, labels, evidence.byQuestion.get(id), first, last)]));
-      } else {
+        placeText(question.answer ?? labels.noAnswer, (text, first, offset, last) => questionBlock(null, '', [answerBlock(text, labels, evidence.byQuestion.get(id), first, last, choice)]));
+      } else if (!choice) {
         for (const line of response) placeBlock(questionBlock(null, '', [line]));
       }
     });

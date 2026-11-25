@@ -3,6 +3,7 @@ import { characters } from './content/characters.js';
 import { universes } from './content/universes.js';
 import { sessionJingles } from './session.js';
 import { pendingProductionStages } from './production-stage.js';
+import { multipleChoice } from './question-responses.js';
 
 export const analyticsConfig={website:'6acf2cae-4b28-4d71-98dd-550d2d086dcc',hostname:'sentit.ortogra.fi',script:'https://maquestria.tail72bc84.ts.net:8443/script.js'};
 const page={website:analyticsConfig.website,hostname:analyticsConfig.hostname,title:'Sentit',url:'/'};
@@ -21,7 +22,7 @@ const rules={
   obre_impressio:{code:true,contingut:['fitxa','solucionari'],colleccio:'boolean'},
   escolta_audio:{code:true,accio:['inicia','pausa','repren','finalitza','reinicia','previsualitza']},
   configura_audio:{code:true,escoltes:['1','2','3'],ritme:['0.80','0.85','0.90','0.95','1.00','1.05','1.10','1.15','1.20'],lectura:times,pausa:times,sintonia:['cap',...sessionJingles.map(jingle=>jingle.id)],pautada:'boolean'},
-  maqueta_fitxa:{code:true,bloc:['font','size','spacing','leading','codi_aula','imatge','instruccions','pistes','preguntes'],accio:['ajusta','amaga','recupera','linies','restableix'],font:['serif','sans','verdana']},
+  maqueta_fitxa:{code:true,bloc:['font','size','spacing','leading','codi_aula','imatge','instruccions','pistes','preguntes'],accio:['ajusta','amaga','recupera','linies','restableix','format'],font:['serif','sans','verdana'],format_pregunta:['oberta','abcd']},
   colleccio:{accio:['crea','afegeix','selecciona','reordena','retira','elimina','canvia_nom'],quantitat:buckets},
   cerca_cataleg:{tipus:['codi','text'],resultats:buckets},neteja_filtres:{},
   copia_enllac:{code:true},obre_vista_escolta:{code:true},
@@ -93,7 +94,7 @@ export function track(name,data={}){
   if(!ready()){if(loading&&queue.length<40)queue.push(event);return;}
   try{window.umami.track(event.name,event.data)?.catch?.(()=>{});}catch{}
 }
-export async function sendReport(entry,{part,element='',motiu}){
+export async function sendReport(entry,{part,element='',motiu,responseMode}){
   const known=entries.get(entry?.code);
   if(reportAvailability()||!known||known.id!==entry?.id||!Object.hasOwn(reportReasons,part)||!Object.hasOwn(reportReasons[part],motiu))return false;
   entry=known;
@@ -101,6 +102,12 @@ export async function sendReport(entry,{part,element='',motiu}){
   if(element&&!allowed.includes(element))return false;
   if(['question','solution'].includes(part)&&!element)return false;
   const data={codi:entry.code,llengua:entry.language,part,motiu,...(element?{element}:{})};
+  if(['question','solution'].includes(part)){
+    if(responseMode!==undefined&&!['open','choice'].includes(responseMode))return false;
+    const question=entry.questions.find(q=>q.id===element);
+    if(responseMode==='choice'&&!multipleChoice(entry,question))return false;
+    data.format_pregunta=responseMode==='choice'?'abcd':'oberta';
+  }
   try{
     const headers={'Content-Type':'application/json','x-umami-website-id':analyticsConfig.website,'x-umami-hostname':analyticsConfig.hostname};
     const cache=window.umami.getSession?.()?.cache;if(cache)headers['x-umami-cache']=cache;

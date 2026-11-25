@@ -1,5 +1,11 @@
 export const strings = {
   ca: {
+    releaseQuestionChoices: 'Pilot de resposta oberta o ABCD a S001–S005 i S004D: 37 alternatives amb revisió independent i una pregunta oberta justificada. Tria general i individual, maquetats conservats, solucionari amb lletra i evidències. Alternatives provisionals, pendents de validació docent.',
+    responseFormat: 'Format de les preguntes', responseOpen: 'Resposta oberta', responseChoice: 'ABCD',
+    responseCount: (choices, open) => `${choices} ABCD · ${open} obertes`,
+    responseUnavailable: 'Aquesta comprensió encara no té alternatives ABCD revisades.',
+    questionResponseMode: n => `Format de la pregunta ${n}`, correctAnswer: 'Resposta correcta',
+    choiceReviewNotice: 'Alternatives ABCD provisionals · pendents de validació docent.',
     releaseLeakMontage: 'S099, S111, S094, S072 i S089 amb muntatges per escoltar, amb ambients i música segons l’escena. S072 incorpora una base suau per a Ferran. Omissions de S088/S090 confirmades i en cua per a properes peticions. Sense síntesi nova de veu.',
     releaseNineFinalPublications: 'Nou comprensions més publicades definitivament, amb il·lustracions pròpies revisades i els àudios aprovats intactes. S074 és diàleg; S056 i S097 tanquen les esmenes incorporades. Fitxes i solucionaris nets comprovats. Ja no queda cap muntatge pendent d’audició final.',
     releaseHandoffPublications: 'Tretze comprensions publicades definitivament amb els àudios validats al traspàs. Il·lustracions contextuals integrades, fitxes i solucionaris nets comprovats. S076 és diàleg; les altres nou peces amb muntatge pendent conserven el seu estat.',
@@ -310,6 +316,12 @@ export const strings = {
     sessionEnded: 'Sessió acabada', remainingTime: 'Temps restant',
   },
   es: {
+    releaseQuestionChoices: 'Piloto de respuesta abierta o ABCD en S001–S005 y S004D: 37 alternativas con revisión independiente y una pregunta abierta justificada. Elección general e individual, maquetaciones conservadas, solucionario con letra y evidencias. Alternativas provisionales, pendientes de validación docente.',
+    responseFormat: 'Formato de las preguntas', responseOpen: 'Respuesta abierta', responseChoice: 'ABCD',
+    responseCount: (choices, open) => `${choices} ABCD · ${open} abiertas`,
+    responseUnavailable: 'Esta comprensión todavía no tiene alternativas ABCD revisadas.',
+    questionResponseMode: n => `Formato de la pregunta ${n}`, correctAnswer: 'Respuesta correcta',
+    choiceReviewNotice: 'Alternativas ABCD provisionales · pendientes de validación docente.',
     releaseLeakMontage: 'S099, S111, S094, S072 y S089 con montajes para escuchar, con ambientes y música según la escena. S072 incorpora una base suave para Ferran. Omisiones de S088/S090 confirmadas y en cola para próximas peticiones. Sin síntesis nueva de voz.',
     releaseNineFinalPublications: 'Nueve comprensiones más publicadas definitivamente, con ilustraciones propias revisadas y los audios aprobados intactos. S074 es diálogo; S056 y S097 cierran las correcciones incorporadas. Fichas y solucionarios limpios comprobados. Ya no queda ningún montaje pendiente de escucha final.',
     releaseHandoffPublications: 'Trece comprensiones publicadas definitivamente con los audios validados en el traspaso. Ilustraciones contextuales integradas, fichas y solucionarios limpios comprobados. S076 es diálogo; las otras nueve piezas con montaje pendiente conservan su estado.',

@@ -1,0 +1,12 @@
+import{writeFile}from'node:fs/promises';
+import{activities}from'../catalogue.js';
+import{registerQuestionChoices,multipleChoice,openOnlyReason}from'../question-responses.js';
+const date=process.argv.find(a=>a.startsWith('--date='))?.slice(7);
+if(!/^\d{4}-\d{2}-\d{2}$/u.test(date??''))throw Error('Cal indicar --date=AAAA-MM-DD.');
+await registerQuestionChoices(activities);
+const rows=activities.map(a=>{const choice=a.questions.filter(q=>multipleChoice(a,q)).length,open=a.questions.filter(q=>openOnlyReason(a,q)).length;return{activity:`${a.language}-${a.code}`,title:a.title,total:a.questions.length,choice,open,pending:a.questions.length-choice-open};}).sort((a,b)=>a.activity.localeCompare(b.activity,'ca',{numeric:true}));
+const covered=rows.filter(r=>r.pending===0),total=rows.reduce((n,r)=>n+r.total,0),choices=rows.reduce((n,r)=>n+r.choice,0),opens=rows.reduce((n,r)=>n+r.open,0);
+let md=`# Seguiment de preguntes obertes / ABCD\n\nActualitzat: **${date.split('-').reverse().join('/')}**. **${covered.length} de ${rows.length} peces** amb totes les preguntes classificades i revisades independentment: **${choices} alternatives ABCD**, **${opens} obertes amb motiu**, **${total-choices-opens} preguntes pendents** de ${total}. La validació docent del pilot continua pendent.\n\n[Pla i criteris](preguntes-abcd.md). Aquest registre és independent de l’audició i la publicació dels àudios. Les variants es compten per separat.\n\n| Codi | Títol | Preguntes | ABCD revisades | Obertes justificades | Pendents |\n| --- | --- | ---: | ---: | ---: | ---: |\n`;
+for(const r of rows)md+=`| [${r.activity}](https://sentit.ortogra.fi/#lectura=${r.activity}) | ${r.title.replaceAll('|','\\|')} | ${r.total} | ${r.choice} | ${r.open} | ${r.pending} |\n`;
+md+='\nRegeneració local: `node tools/build-choice-coverage.mjs --date=AAAA-MM-DD`. Només llegeix dades i revisions i escriu aquest informe; no modifica aprovacions ni genera àudios.\n';
+await writeFile(new URL('../docs/preguntes-abcd-seguiment.md',import.meta.url),md);console.log(`${covered.length}/${rows.length} peces · ${choices} ABCD · ${opens} obertes justificades · ${total-choices-opens} pendents.`);

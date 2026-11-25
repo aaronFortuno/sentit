@@ -9,13 +9,13 @@
   <link rel="canonical" href="https://sentit.ortogra.fi/">
   <link rel="icon" href="./assets/sentit.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./styles.css?v=0.1.79">
-  <link rel="stylesheet" href="./worksheet.css">
+  <link rel="stylesheet" href="./worksheet.css?v=0.1.106">
   <link rel="stylesheet" href="./catalog.css">
   <link rel="stylesheet" href="./select-menu.css">
   <link rel="stylesheet" href="./characters.css">
   <title>Sentit · Comprensió oral</title>
   <script defer src="./assets/vendor/qrcode.js"></script>
-  <script type="module" src="./app.js?v=0.1.105"></script>
+  <script type="module" src="./app.js?v=0.1.106"></script>
 </head>
 <body>
   <a class="skip" href="#workspace" data-t="skip">Ves al contingut</a>
@@ -240,6 +240,9 @@
           <details id="question-panel" class="print-settings-group">
             <summary><span data-t="printQuestions">Preguntes</span><span id="hidden-count" class="count" hidden></span></summary>
             <div class="print-question-options">
+              <fieldset class="response-selector"><legend data-t="responseFormat">Format de les preguntes</legend><div class="response-buttons"><button type="button" data-response-mode="open" aria-pressed="false" data-t="responseOpen">Resposta oberta</button><button type="button" data-response-mode="choice" aria-pressed="false" data-t="responseChoice">ABCD</button></div></fieldset>
+              <p id="response-summary" class="print-help" role="status"></p>
+              <p id="choice-review-notice" class="print-help" data-t="choiceReviewNotice" hidden>Alternatives ABCD provisionals · pendents de validació docent.</p>
               <p class="print-help" data-t="printQuestionsHelp">Ajusta les línies o elimina preguntes directament al full.</p>
               <label class="print-toggle" id="evidence-option" hidden><input type="checkbox" id="show-evidence" checked><span data-t="showEvidence">Ressalta les pistes a la transcripció</span></label>
               <div id="hidden-questions-group" hidden>
@@ -282,7 +285,7 @@
       <nav aria-label="Projecte" data-label="project">
         <label class="provisional-option footer-provisional" title="Funció experimental"><input id="show-provisional" type="checkbox" role="switch" checked><span data-t="showProvisionalExperimental">Només provisionals · experimental</span></label>
         <a href="./LICENSE" data-t="license">Llicència</a>
-        <button type="button" data-open="changes" data-label="changes">v0.1.105</button>
+        <button type="button" data-open="changes" data-label="changes">v0.1.106</button>
         <button type="button" data-open="v4v">V4V</button>
       </nav>
     </div>
@@ -328,6 +331,8 @@
       </div>
       <a class="changelog-full" href="https://github.com/aaronFortuno/sentit/blob/main/CHANGELOG.md" target="_blank" rel="noopener noreferrer" data-t="fullChangelog">Changelog complet a GitHub</a>
       <div class="changelog-scroll dialog-scroll">
+      <h3>0.1.106 <time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></h3>
+      <p data-t="releaseQuestionChoices">Pilot de resposta oberta o ABCD a S001–S005 i S004D.</p>
       <h3>0.1.105 <time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></h3>
       <p data-t="releaseLeakMontage">S099, S111, S094, S072 i S089 amb muntatges per escoltar, amb ambients i música segons l’escena. S072 incorpora una base suau per a Ferran. Omissions de S088/S090 confirmades i en cua per a properes peticions. Sense síntesi nova de veu.</p>
       <h3>0.1.104 <time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></h3>

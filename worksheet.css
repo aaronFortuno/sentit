@@ -1,3 +1,17 @@
+.paper-choice { display: grid; grid-template-columns: 3.5mm 6mm minmax(0, 1fr); align-items: baseline; gap: 1.5mm; margin-block: 1.6mm; break-inside: avoid; }
+.paper-choice-box { inline-size: 3mm; block-size: 3mm; border: .25mm solid currentColor; display: inline-flex; align-items: center; justify-content: center; font-family: Arial, sans-serif; }
+.paper-choice.is-correct { font-weight: 600; }
+.paper-choice-letter { font-family: Arial, sans-serif; }
+.paper-choice-review { color: var(--paper-green); font: 9pt/1.35 "Segoe UI", sans-serif; margin-block: 2mm; }
+.paper-response-modes { display: flex; gap: 3px; }
+.paper-response-modes [data-question-action="mode-choice"] { width: 42px; font-size: 11px; }
+.paper-response-modes [aria-pressed="true"] { background: var(--paper-green); color: white; }
+.response-selector { margin: 0; padding: 0; border: 0; min-inline-size: 0; }
+.response-selector legend { font-size: .8rem; margin-block-end: 6px; }
+.response-buttons { display: flex; gap: 5px; }
+.response-buttons button { flex: 1; min-height: 31px; border: 1px solid var(--line); border-radius: 7px; padding: 5px; background: var(--panel); color: var(--ink); font: inherit; font-size: .78rem; transition: background var(--motion), color var(--motion); }
+.response-buttons [aria-pressed="true"] { color: var(--on-green); background: var(--green); }
+.response-buttons button:disabled { opacity: .5; }
 .paper-heading {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;

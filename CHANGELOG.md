@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.106 · 25 de novembre de 2026
+
+- Pilot seqüencial S001–S005 i S004D amb doble format obert/ABCD. 37 alternatives i una pregunta oberta justificada amb revisió independent exacta; validació docent pendent. Distractors graduats i evidències pròpies, amb transcripcions, preguntes originals i àudios conservats.
+- Preferència general i excepcions per pregunta al preview, fitxes mixtes, línies recuperades en tornar al format obert i desat per lectura i col·lecció. Els maquetats antics conserven resposta oberta; els nous parteixen d’ABCD si hi ha alternatives revisades.
+- Solucionaris amb opcions, correcta, lletra, explicació i ressaltats. Instruccions adaptades al format; bandera amb identificació oberta/ABCD i Umami amb dades tancades. Seguiment separat de les 895 preguntes.
+
 ## 0.1.105 · 25 de novembre de 2026
 
 - S099, S111, S094, S072 i S089 amb veus validades i muntatges per escoltar. Interiors discrets per a S099/S094, vent natural per al camí rural de S111 i exterior tranquil per a S089. Preses originals i timbres conservats, sense síntesi nova de veu.

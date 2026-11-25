@@ -1,6 +1,6 @@
 # Resposta oberta i ABCD a Sentit
 
-Pla d’adaptació del **25/11/2026**, després de revisar la implementació local de Trama. Aquesta fase concreta el funcionament i la migració; encara no afegeix opcions ABCD al web.
+Pla d’adaptació del **25/11/2026**, després de revisar la implementació local de Trama. El pilot S001–S005, amb S004D, ja incorpora doble format al web: 37 alternatives ABCD i una pregunta oberta justificada, revisades independentment i pendents de validació docent. [Seguiment de cobertura](preguntes-abcd-seguiment.md).
 
 **Prioritat vigent:** adaptar les preguntes de les 119 peces actuals abans de reprendre l’autoria de comprensions noves. La proposta d’ampliació del [catàleg](prioritats-cataleg.md) queda ajornada. Les esmenes de veu, els muntatges i les validacions de material existent poden continuar.
 
@@ -87,17 +87,18 @@ Les alternatives sense revisió vigent no es poden utilitzar com a ABCD públic;
 | 4. Migració per lots | Completar totes les peces actuals en rangs de codis, amb les variants existents incloses i revisades individualment. Publicar cada lot revisat i mantenir cobertura explícita. |
 | 5. Tancament | Cada pregunta té alternativa revisada o una decisió justificada de mantenir-la oberta; cap expedient sense classificar. QA de fitxes i solucionaris, després reprendre l’ampliació del catàleg. |
 
-### Pilot proposat: cinc peces, 39 preguntes originals
+### Pilot seqüencial: S001–S005 i S004D, 38 preguntes originals
 
 | Codi | Curs · dificultat | Què comprova |
 | --- | --- | --- |
-| S003 · El paraigua intercanviat | 3r · accessible | Dades explícites, opcions curtes i seqüència de diàleg. |
-| S033 · Qui tria què es mostra? | 4t · intermèdia | Causa, finalitat i alternatives amb dades de la mateixa entrevista. |
-| S014 · Què passa dins d’una llavor? | 5è · accessible | Conceptes, preguntes compostes i relacions causals. |
-| S023 · Reobren el mercat: què canvia i què falta decidir? | 6è · avançada | Fet/proposta, diverses condicions i una pregunta de producció que es pot conservar oberta. |
-| S067 · La mateixa pregunta? | 1r d’ESO · intermèdia | Inferències i distractors plausibles amb diferències de significat precises. |
+| S001 · El senyal de la ràdio | 5è · accessible | Set alternatives, tasques compostes i una pregunta d’aplicació oberta. |
+| S002 · Preparem una capsa de records | 3r · accessible | Sis alternatives: ordre d’instruccions, dades i finalitat. |
+| S003 · El paraigua intercanviat | 3r · accessible | Sis alternatives: dades explícites i seqüència de diàleg. |
+| S004 · El botó de la jaqueta | 3r · intermèdia | Sis alternatives: pistes i inferència amb causa. |
+| S004D · El botó de la jaqueta · versió dialogada | 3r · intermèdia | Sis alternatives amb revisió i evidències pròpies de la variant. |
+| S005 · La feina d’una cartera | 3r · intermèdia | Sis alternatives: processos, imprevistos i resum amb exemple. |
 
-No es fixa per avançat que totes les 39 tindran ABCD. Es decideix pregunta a pregunta i es registra el motiu de les excepcions.
+El docent ha triat explícitament l’ordre S001–S005 per facilitar el seguiment. S004D completa el rang amb revisió pròpia. S001/repetir-lloc conserva la generació oberta d’un exemple; les altres 37 tenen alternativa revisada. Aquesta classificació no canvia cap aprovació d’àudio. La cobertura dels cursos superiors s’ampliarà després amb els rangs successius.
 
 Després del pilot, recórrer els codis base en ordre i incloure les variants del rang. El registre farà visibles els codis ja coberts pel pilot per evitar duplicacions. Un ritme inicial de cinc a deu peces per lot permet revisar i publicar resultats sense esperar el catàleg sencer; la mida s’ajustarà a la complexitat de les preguntes.
 

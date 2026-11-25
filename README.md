@@ -2,7 +2,7 @@
 
 Banc de comprensió oral d’ortogra.fi. El docent tria una activitat, prepara la fitxa i el solucionari i els imprimeix. L’alumnat respon al paper i escolta l’àudio des del QR o l’enllaç. Web estàtic, sense comptes ni servidor d’aplicació.
 
-**Prioritat actual:** [adaptar les preguntes a resposta oberta o ABCD](docs/preguntes-abcd.md), seguint el patró de Trama. Pla per a les 119 peces actuals i 895 preguntes, amb pilot de cinc peces; l’ampliació amb guions nous queda ajornada fins a resoldre aquest canvi.
+**Prioritat actual:** [adaptar les preguntes a resposta oberta o ABCD](docs/preguntes-abcd.md), seguint el patró de Trama. Pilot seqüencial S001–S005 i S004D disponible, amb 37 alternatives revisades independentment i una pregunta oberta justificada, pendent de validació docent. [Cobertura de les 119 peces i 895 preguntes](docs/preguntes-abcd-seguiment.md). L’ampliació amb guions nous queda ajornada fins a resoldre aquest canvi.
 
 [Equilibri del catàleg](docs/equilibri-cataleg.md) i [prioritats de nous guions](docs/prioritats-cataleg.md): recompte dels cinc filtres, publicacions definitives i pendents, amb proposta de tres blocs per ampliar sobretot l’oferta breu i les explicacions de 3r–4t.
 
