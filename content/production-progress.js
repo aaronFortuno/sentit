@@ -5718,13 +5718,18 @@ export const productionProgress = {
     "voicePreviewFile": "./assets/audio/s104-voices-review-v1.mp3"
   },
   "ca-S105": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "editorialFingerprint": "3cb9bf954dcd95248a165d289e6249c328faecf945c2a589a8e36fed0ad33b60",
     "plannedNewRequests": 1,
     "listeningApproval": false,
     "teacherAssessment": "Guió, veus i escaleta validats pel docent; preparar un lot compatible de síntesi.",
     "scriptApprovedAt": "2026-11-24",
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-25",
+      "sourceTakeSha256": "3e6f365795d6efe3af6c3ac58aafed4e91f794ec3554bc5a5dcd1e20a4b4b5cf",
+      "confirmation": "Docent 25/11: S105 validat per fer muntatge."
+    },
     "scriptApprovalSource": "Docent 24/11: S104, S100 i S108 validats per síntesi de veus; S109, S102 i S105 també preparats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar.",
     "uncertainTurns": [],
     "receivedTakes": {
@@ -5739,7 +5744,12 @@ export const productionProgress = {
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-25T07:23:59.464Z",
     "voicePreview": "./proves/veus-rebudes.html#S105",
-    "voicePreviewFile": "./assets/audio/s105-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s105-voices-review-v1.mp3",
+    "mountedAt": "2026-11-25T11:38:19.005Z",
+    "synthesisBatch": "L36",
+    "requestHash": "8176fbf46265f9e3a131fc1725426c5d108483d7613cc38bbddfc69c9e425901",
+    "audioSha256": "cabff8502cf492c1be171e241d5dbf8f388d24efcdbc6bea0095d55e7ead946e",
+    "montageNewSynthesisRequests": 0
   },
   "ca-S106": {
     "state": "voices-received",
@@ -5814,7 +5824,7 @@ export const productionProgress = {
     "voicePreviewFile": "./assets/audio/s108-voices-review-v1.mp3"
   },
   "ca-S109": {
-    "state": "voices-received",
+    "state": "audio-corrections-pending",
     "editorialFingerprint": "49f5f4af5c5bed3c90b0ea7350c5bb1af5d3e73e71b4815a470036fdb9293689",
     "plannedNewRequests": 1,
     "listeningApproval": false,
@@ -5835,7 +5845,36 @@ export const productionProgress = {
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-25T07:27:33.506Z",
     "voicePreview": "./proves/veus-rebudes.html#S109",
-    "voicePreviewFile": "./assets/audio/s109-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s109-voices-review-v1.mp3",
+    "feedback": [
+      {
+        "part": "temps",
+        "speaker": "Ferran",
+        "kind": "pronunciation",
+        "word": "passeig",
+        "heard": "passaig",
+        "status": "pending"
+      },
+      {
+        "part": "final",
+        "speaker": "Ferran",
+        "kind": "pronunciation",
+        "word": "bassals",
+        "heard": "basalls",
+        "status": "pending"
+      }
+    ],
+    "plannedRepair": {
+      "status": "awaiting-compatible-batch",
+      "parts": [
+        "temps",
+        "final"
+      ],
+      "speaker": "Ferran",
+      "voice": "Algenib",
+      "sourceTakeSha256": "19d485fc7d429f225f848b1ff866fd34ae162b265aca0341a9479f218159ea24",
+      "confirmation": "Docent 25/11: Ferran diu passaig a Pel passeig en trigaríem uns vint i basalls al darrer torn amb trepitjar bassals. Esmenar els dos torns."
+    }
   },
   "ca-S110": {
     "state": "voices-received",

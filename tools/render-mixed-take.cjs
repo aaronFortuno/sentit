@@ -22,6 +22,7 @@ Object.assign(recipes,{
  S101:{ambient:'callmethefoo-744447',ambientFrom:12,bed:true,events:[],ending:'ambient',lead:1.1,tail:3.8,titleGap:.4,cleanHandles:true,bedFadeSeconds:1.4,bedOpeningGain:.16,bedSpeechGain:.07,bedRaisedGain:.23},
  S096:{ambient:'soaress-546234',ambientFrom:140,bed:true,events:[],ending:'ambient',lead:1.1,tail:3.8,titleGap:.4,cleanHandles:true,bedFadeSeconds:1.4,bedOpeningGain:.16,bedSpeechGain:.08,bedRaisedGain:.23,bedLowpassHz:800},
  S091:{ambient:'soaress-546234',ambientFrom:40,bed:true,events:[],ending:'ambient',lead:1.3,tail:3.8,titleGap:.4,cleanHandles:true,bedFadeSeconds:1.4,bedOpeningGain:.22,bedSpeechGain:.10,bedRaisedGain:.28,bedLowpassHz:3600},
+ S105:{ambient:'soaress-546234',ambientFrom:140,bed:true,events:[],ending:'ambient',lead:1.1,tail:3.8,titleGap:.4,cleanHandles:true,bedFadeSeconds:1.4,bedOpeningGain:.16,bedSpeechGain:.08,bedRaisedGain:.23,bedLowpassHz:800},
  S069:{takeId:'S069-REPAIRED',music:true,events:[],ending:'ambient',lead:1.6,tail:5.6,titleGap:.4,cleanHandles:true,preserveBodyEnd:true},
  S082:{takeId:'S082-REPAIRED',ambient:'callmethefoo-744447',ambientFrom:12,bed:true,events:[],ending:'ambient',lead:2,tail:5.4,titleGap:.4,cleanHandles:true,bedFadeSeconds:2,bedOpeningGain:.3,bedSpeechGain:.12,bedRaisedGain:.4},
  S028:{ambient:'jmdh-covered-market-388315',ambientFrom:12,bed:true,events:[],ending:'ambient',lead:2,tail:5.4,titleGap:.4,cleanHandles:true,bedFadeSeconds:2,bedOpeningGain:.35,bedSpeechGain:.14,bedRaisedGain:.45},

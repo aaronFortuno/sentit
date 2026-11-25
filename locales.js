@@ -1,5 +1,6 @@
 export const strings = {
   ca: {
+    releaseLecternMontage: 'S105 amb veus validades i muntatge per escoltar, amb ambient de taller molt tènue. S109 té dues esmenes de Ferran en cua: «passeig» i «bassals». Originals conservats, sense síntesi nova.',
     releaseDateWorkshopVoices: '25 de novembre de 2026',
     releaseWorkshopVoices: 'Vuit comprensions noves amb veus per revisar i cinc fragments d’esmena rebuts. Deu muntatges preparats després de validar les veus, amb ambients enregistrats molt tènues. S085, S093, S095 i S102 tenen correccions en cua; seguiment i documentació al dia.',
     releaseFourCompleteBatches: 'Quatre lots rebuts: disset preses per escoltar i l’inici que faltava de S056, abans de muntar. S097 té un avís perquè falta el títol i la primera intervenció. S092 i S093 es tracten de vostè, i S095 tanca amb un comiat neutre. Validacions i seguiment actualitzats.',
@@ -305,6 +306,7 @@ export const strings = {
     sessionEnded: 'Sessió acabada', remainingTime: 'Temps restant',
   },
   es: {
+    releaseLecternMontage: 'S105 con voces validadas y montaje para escuchar, con ambiente de taller muy tenue. S109 tiene dos correcciones de Ferran en cola: «passeig» y «bassals». Originales conservados, sin síntesis nueva.',
     releaseDateWorkshopVoices: '25 de noviembre de 2026',
     releaseWorkshopVoices: 'Ocho comprensiones nuevas con voces para revisar y cinco fragmentos de corrección recibidos. Diez montajes preparados tras validar las voces, con ambientes grabados muy tenues. S085, S093, S095 y S102 tienen correcciones en cola; seguimiento y documentación al día.',
     releaseFourCompleteBatches: 'Cuatro lotes recibidos: diecisiete tomas para escuchar y el inicio que faltaba de S056, antes de montar. S097 avisa de la omisión del título y la primera intervención. S092 y S093 se tratan de usted, y S095 termina con una despedida neutra. Validaciones y seguimiento actualizados.',

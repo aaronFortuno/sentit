@@ -37,6 +37,9 @@ export const handsOnActivities = [
   }),
   make({
     id: 'el-faristol-que-ballava', code: 'S105', title: 'El faristol que ballava', grade: '4', level: 'middle', genre: 'dialogue',
+    seconds: 83, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s105-mixed-v1.mp3', tracks: { introduction: './assets/audio/s105-mixed-v1-intro.mp3', body: './assets/audio/s105-mixed-v1-cos.mp3' },
+    fragment: { start: 4.08, seconds: 79 },
     summary: 'Un suport per a les partitures es mou al taller. En Biel vol arreglar-lo i l’Elies l’ajuda a comprovar què passa.',
     editorialFocus: '4t intermèdia: distingir una primera sospita del resultat de dues comprovacions. El terme faristol queda definit a la primera intervenció i la disposició del terra s’explica en veu alta.',
     illustrationBrief: 'Biel sosté unes partitures al costat d’un faristol de tres peus i Elies s’ajup per mirar-lo. Taller amb una catifa, sense mostrar quin peu queda a cada superfície ni el desenllaç.',

@@ -27,11 +27,9 @@ Les preses originals es conserven i la cobertura s’ha comprovat localment. La 
 | [ca-S099](https://sentit.ortogra.fi/#lectura=ca-S099) | [Escolta les veus](../proves/veus-rebudes.html#S099) |
 | [ca-S100](https://sentit.ortogra.fi/#lectura=ca-S100) | [Escolta les veus](../proves/veus-rebudes.html#S100) |
 | [ca-S104](https://sentit.ortogra.fi/#lectura=ca-S104) | [Escolta les veus](../proves/veus-rebudes.html#S104) |
-| [ca-S105](https://sentit.ortogra.fi/#lectura=ca-S105) | [Escolta les veus](../proves/veus-rebudes.html#S105) |
 | [ca-S106](https://sentit.ortogra.fi/#lectura=ca-S106) | [Escolta les veus](../proves/veus-rebudes.html#S106) |
 | [ca-S107](https://sentit.ortogra.fi/#lectura=ca-S107) | [Escolta les veus](../proves/veus-rebudes.html#S107) |
 | [ca-S108](https://sentit.ortogra.fi/#lectura=ca-S108) | [Escolta les veus](../proves/veus-rebudes.html#S108) |
-| [ca-S109](https://sentit.ortogra.fi/#lectura=ca-S109) | [Escolta les veus](../proves/veus-rebudes.html#S109) |
 | [ca-S110](https://sentit.ortogra.fi/#lectura=ca-S110) | [Escolta les veus](../proves/veus-rebudes.html#S110) |
 | [ca-S111](https://sentit.ortogra.fi/#lectura=ca-S111) | [Escolta les veus](../proves/veus-rebudes.html#S111) |
 
@@ -79,6 +77,7 @@ P02 reuneix quatre lectures breus del mateix repartiment per conservar els guion
 | [ca-S093](https://sentit.ortogra.fi/#lectura=ca-S093) | Mar · Erinome | confirmar |
 | [ca-S095](https://sentit.ortogra.fi/#lectura=ca-S095) | Empleada · Gacrux | mida + recollida |
 | [ca-S102](https://sentit.ortogra.fi/#lectura=ca-S102) | undefined · Veu per concretar | sentit + final |
+| [ca-S109](https://sentit.ortogra.fi/#lectura=ca-S109) | Ferran · Algenib | temps + final |
 
 Esperen un lot compatible de sis a vuit minuts. Les proves auxiliars de S022 es poden comprovar localment amb `node tools/pronunciation-trials.cjs --only=S022`; aquest comandament no envia cap petició.
 

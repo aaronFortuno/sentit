@@ -1,5 +1,10 @@
 # Canvis
 
+## 0.1.101 · 25 de novembre de 2026
+
+- S105 amb veus validades pel docent i muntatge preparat per escoltar: ambient enregistrat continu de taller amb carrer esmorteït, molt baix durant la conversa, amb entrada curta i fosa final. Originals i timbres conservats; sense peticions noves de síntesi.
+- S109 torna a «Síntesi pendent d’esmena» per «passeig» i «bassals» de Ferran. Dos torns complets identificats i vinculats a la presa original, en espera d’un lot compatible; la resta es conserva intacta. Card, cua i seguiment actualitzats.
+
 ## 0.1.100 · 25 de novembre de 2026
 
 - L36/L37 rebuts: vuit comprensions S104–S111 i cinc fragments de correcció o reposició per a S059, S081 i S097. Guions nous validats, dues peticions i 11:21,96 crus; L37 amb l’excepció docent explícita de 5:55. Preses, peticions i rebuts conservats, sense reenviar síntesi ni aprovar-ne les veus automàticament.

@@ -117,7 +117,7 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S102](https://sentit.ortogra.fi/#lectura=ca-S102) | L’autobús que no es va aturar | 6è | Provisional · revisió superada | 2026-11-23 | `4dd156b4c265…` |
 | [ca-S103](https://sentit.ortogra.fi/#lectura=ca-S103) | Canvi a la reserva de dissabte | 5è | Revisió superada · àudio pendent | 2026-11-23 | `133bb8951962…` |
 | [ca-S104](https://sentit.ortogra.fi/#lectura=ca-S104) | El cartell que es doblegava | 3r | Provisional · revisió superada | 2026-11-24 | `a232dd05ea42…` |
-| [ca-S105](https://sentit.ortogra.fi/#lectura=ca-S105) | El faristol que ballava | 4t | Provisional · revisió superada | 2026-11-24 | `3cb9bf954dcd…` |
+| [ca-S105](https://sentit.ortogra.fi/#lectura=ca-S105) | El faristol que ballava | 4t | Revisió superada · àudio pendent | 2026-11-24 | `3cb9bf954dcd…` |
 | [ca-S106](https://sentit.ortogra.fi/#lectura=ca-S106) | Un suport per a la gravadora | 5è | Provisional · revisió superada | 2026-11-24 | `a3adbcb1c929…` |
 | [ca-S107](https://sentit.ortogra.fi/#lectura=ca-S107) | El carro que s’encallava | 6è | Provisional · revisió superada | 2026-11-24 | `f53c7d88670b…` |
 | [ca-S108](https://sentit.ortogra.fi/#lectura=ca-S108) | Un lloc per berenar | 3r | Provisional · revisió superada | 2026-11-24 | `a42a9fc07182…` |

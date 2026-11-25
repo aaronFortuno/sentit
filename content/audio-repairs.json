@@ -665,5 +665,36 @@
     ],
     "application": "Comparar cada torn amb l’original abans d’aplicar-lo. Conservar intacta la primera menció de Til·lers de Mar (linia), validada pel docent. Cap canvi editorial ni aprovació automàtica de la resta de la presa.",
     "approvedRequestHash": "22a19c67d1ea29be233549e657f9ba6b3e36ec501e2d2f89419b8d39046766c7"
+  },
+  "S109": {
+    "activity": "ca-S109",
+    "status": "approved-for-correction",
+    "approvedAt": "2026-11-25",
+    "approvalSource": "Docent 25/11: Ferran diu passaig a Pel passeig en trigaríem uns vint i basalls al darrer torn amb trepitjar bassals. Esmenar els dos torns.",
+    "scope": "spoken-turns",
+    "sourceTakeId": "S109-T01",
+    "sourceRequestHash": "f8f95587af9933a81a7732a732045a0094ec864fc0d9d79fb70e2daac13764d9",
+    "sourceRawSha256": "b99990632ae375e147c0dbf518405868ce02ecf1fe1f18a401a94d3353feb027",
+    "sourceTakeSha256": "19d485fc7d429f225f848b1ff866fd34ae162b265aca0341a9479f218159ea24",
+    "voices": {
+      "Ferran": "Algenib"
+    },
+    "direction": "Natural Central Catalan. Keep the same warm older male Ferran/Algenib throughout, with his relaxed conversational pace and gentle humour. Read only the complete supplied turns, without title, added words, labels, sound effects or spoken instructions.",
+    "repairs": [
+      {
+        "part": "temps",
+        "speaker": "Ferran",
+        "text": "Pel passeig en trigaríem uns vint. Ara són les quatre i tenim fins a les cinc per tornar a casa. La mare ens vindrà a buscar llavors.",
+        "pronunciation": "Pronounce the Catalan word passeig clearly, preserving the written E vowel; never say passaig. Keep the natural Catalan stress and final consonant, and the warm older male Ferran/Algenib identity. Read the entire supplied turn once; do not read this instruction."
+      },
+      {
+        "part": "final",
+        "speaker": "Ferran",
+        "text": "Tracte fet. I el pròxim cop posa’m les botes al costat de la porta, que avui he sortit ben mudat per anar a trepitjar bassals.",
+        "pronunciation": "Pronounce bassals clearly: ba-SALS, stressed on the final syllable, with unvoiced SS and a plain final L plus S. Never change the ending into palatal LL or say basalls. Keep the warm older male Ferran/Algenib identity. Read the entire supplied turn once; do not read this instruction."
+      }
+    ],
+    "application": "Comparar els dos torns nous amb els originals abans de substituir-los. Conservar intacta la resta de la presa i el text editorial. Cap aprovació automàtica de veus ni muntatge fins a la validació docent.",
+    "approvedRequestHash": "b97377a8effc1d8cf8115b7a2d32e6364be7fce48193ec50e22a05caee690968"
   }
 }
