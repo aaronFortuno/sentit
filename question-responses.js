@@ -1,17 +1,17 @@
-import { pilotChoices } from './content/question-choices/pilot-001.js';
-import { questionChoiceReviews } from './content/question-choice-reviews.js';
+import { questionChoices } from './content/question-choices/index.js';
+import { questionChoiceReviews } from './content/question-choice-reviews.js?v=0.1.111';
 
 const reviewed = new WeakMap();
 const key = entry => `${entry.language}-${entry.code}`;
 export function draftQuestionChoice(entry, question) {
-  const record = pilotChoices[key(entry)]?.questions[question.id];
+  const record = questionChoices[key(entry)]?.questions[question.id];
   return record ? { ...record, options: record.options.map((text, i) => ({ id: 'abcd'[i], text })), evidence: record.evidence ?? question.evidence ?? [] } : null;
 }
 export function questionChoiceSnapshot(entry, question) {
   return JSON.stringify({ schema: 1, activity: key(entry), questionId: question.id,
     grade: entry.grade, level: entry.level, introduction: entry.introduction, transcript: entry.transcript,
     question, alternative: draftQuestionChoice(entry, question),
-    openOnly: pilotChoices[key(entry)]?.openOnly[question.id] ?? null });
+    openOnly: questionChoices[key(entry)]?.openOnly[question.id] ?? null });
 }
 export async function registerQuestionChoices(entries, records = questionChoiceReviews) {
   const index = new Map(records.map(record => [`${record.activity}/${record.questionId}`, record]));
@@ -31,7 +31,7 @@ export async function registerQuestionChoices(entries, records = questionChoiceR
   }));
 }
 export const multipleChoice = (entry, question) => reviewed.get(entry)?.has(question.id) ? draftQuestionChoice(entry, question) : null;
-export const openOnlyReason = (entry, question) => reviewed.get(entry)?.has(question.id) ? pilotChoices[key(entry)]?.openOnly[question.id] ?? '' : '';
+export const openOnlyReason = (entry, question) => reviewed.get(entry)?.has(question.id) ? questionChoices[key(entry)]?.openOnly[question.id] ?? '' : '';
 export function questionMode(entry, question, settings = {}) {
   return multipleChoice(entry, question) && (settings.questionModes?.[question.id] ?? settings.questionMode ?? 'choice') === 'choice' ? 'choice' : 'open';
 }

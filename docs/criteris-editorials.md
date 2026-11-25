@@ -63,3 +63,10 @@ Als universos **Mans a l’obra** i **A peu de camí**, reconstruir l’escena n
 2. El revisor independent fa una passada específica de naturalitat, a més de lògica i coherència. Revisa inicis, interiors, tancaments i preguntes, i demana la correcció dels aclariments sense motiu. A les aules reconstrueix l’escena sencera i comprova si el funcionament és escolar o un protocol professional disfressat; una conversa ordenada o sense patrons prohibits no és suficient per donar-la per bona.
 3. Després de corregir, es comproven de nou els passatges afectats, les respostes, les cites exactes i el pla sonor. La validació final correspon al contingut complet que es presenta, no a una versió anterior.
 4. Només aleshores es registra la revisió superada i es presenta al docent. El seu vistiplau i la posterior audició conserven les fases i autoritzacions pròpies.
+
+
+### Doble format des del primer guió
+
+Preparar conjuntament les versions oberta i ABCD de cada ítem convertible, amb quatre opcions, clau, explicació i cites. Conservar l’objectiu i les parts de les preguntes compostes. Opinió, creació i justificació personal continuen obertes amb motiu específic. Un agent diferent de l’autor revisa totes les opcions, intenta defensar els distractors i comprova una única clau, càrrega de lectura i calibratge. Una modificació invalida la revisió exacta d’aquell ítem.
+
+Registrar els lots a `content/question-choices/index.js` i la revisió amb `node tools/record-question-choice-review.mjs --file=informe-independent.json`. `node tools/check-choice-catalogue.mjs --complete` exigeix cobertura total; `node tools/check-editorial-review.mjs` impedeix presentar provisionals nous sense doble format revisat o motius d’obertura. Les aprovacions del docent de preguntes i àudio són independents.

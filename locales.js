@@ -1,5 +1,6 @@
 export const strings = {
   ca: {
+    releaseFullQuestionChoices: "Doble format complet a les 119 comprensions: 891 alternatives ABCD i 4 preguntes que mantenen resposta oberta amb motiu. Revisió creuada independent i solucionaris amb clau i evidències. Les alternatives noves esperen validació docent; guions, àudios i aprovacions intactes.",
     releaseRealPrintSamples: "S058 publicada definitivament amb il·lustració i solucionari net: 101 comprensions definitives. La tria de format mostra retalls del full imprimible real, amb dues línies de resposta o quatre opcions ABCD i degradat transparent a la dreta.",
     responseSampleOpen: "Retall de la fitxa impresa de S001: una pregunta amb dues línies per escriure la resposta.",
     responseSampleChoice: "Retall de la mateixa pregunta de S001 en format ABCD: quatre opcions amb caselles sense marcar.",
@@ -328,6 +329,7 @@ export const strings = {
     sessionEnded: 'Sessió acabada', remainingTime: 'Temps restant',
   },
   es: {
+    releaseFullQuestionChoices: "Doble formato completo en las 119 comprensiones: 891 alternativas ABCD y 4 preguntas que mantienen respuesta abierta con motivo. Revisión cruzada independiente y solucionarios con clave y evidencias. Las alternativas nuevas esperan validación docente; guiones, audios y aprobaciones intactos.",
     releaseRealPrintSamples: "S058 publicada definitivamente con ilustración y solucionario limpio: 101 comprensiones definitivas. La elección de formato muestra recortes de la ficha imprimible real, con dos líneas de respuesta o cuatro opciones ABCD y degradado transparente a la derecha.",
     responseSampleOpen: "Recorte de la ficha impresa de S001: una pregunta con dos líneas para escribir la respuesta.",
     responseSampleChoice: "Recorte de la misma pregunta de S001 en formato ABCD: cuatro opciones con casillas sin marcar.",

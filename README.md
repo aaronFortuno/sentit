@@ -2,9 +2,9 @@
 
 Banc de comprensió oral d’ortogra.fi. El docent tria una activitat, prepara la fitxa i el solucionari i els imprimeix. L’alumnat respon al paper i escolta l’àudio des del QR o l’enllaç. Web estàtic, sense comptes ni servidor d’aplicació.
 
-**Prioritat actual:** [adaptar les preguntes a resposta oberta o ABCD](docs/preguntes-abcd.md), seguint el patró de Trama. Pilot seqüencial S001–S005 i S004D disponible, amb 37 alternatives revisades independentment i una pregunta oberta justificada, validat pel docent el 25/11/2026. [Cobertura de les 119 peces i 895 preguntes](docs/preguntes-abcd-seguiment.md). La primera visita a una fitxa mostra dos retalls reals del full imprès de S001, amb degradat transparent a la dreta, i permet triar el format preferit, recordat entre sessions i fitxes i modificable al primer bloc d’impressió amb «Tria de nou». L’ampliació amb guions nous queda ajornada fins a resoldre aquest canvi.
+**Preguntes en dos formats a tot el catàleg:** 119 peces, 891 alternatives ABCD i 4 preguntes obertes justificades, amb revisió independent. El docent pot conservar la resposta textual, activar ABCD o combinar formats. La preferència es recorda entre sessions, fitxes i col·leccions; «Tria de nou» la reinicia sense esborrar altres ajustos. [Criteris](docs/preguntes-abcd.md) · [Cobertura de les 895 preguntes](docs/preguntes-abcd-seguiment.md). Les alternatives noves esperen validació docent; el pilot S001–S005 i S004D manté el vistiplau rebut. Els guions nous ja s’hauran de preparar amb tots dos formats allà on sigui adequat.
 
-[Pla actual d’esmenes de veu](docs/pla-esmenes-veu.md): preses pendents, fragments ja rebuts i blocs per completar amb guions compatibles. S022/S025/S059/S061/S071 ja són definitives; S058 té el muntatge per escoltar.
+[Pla actual d’esmenes de veu](docs/pla-esmenes-veu.md): preses pendents, fragments ja rebuts i blocs per completar amb guions compatibles. S022/S025/S059/S061/S071 i S058 ja són definitives.
 
 [Equilibri del catàleg](docs/equilibri-cataleg.md) i [prioritats de nous guions](docs/prioritats-cataleg.md): recompte dels cinc filtres, publicacions definitives i pendents, amb proposta de tres blocs per ampliar sobretot l’oferta breu i les explicacions de 3r–4t.
 

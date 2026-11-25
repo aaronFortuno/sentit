@@ -1,7 +1,7 @@
 import { activities, legacyActivities } from './catalogue.js';
 import { renderRepairPreview, renderVoicePreview } from './repair-preview.js?v=0.1.96';
-import { strings } from './locales.js?v=0.1.110';
-import { defaultFormat, imageOptions, maxLines, questionFormat, renderWorksheet } from './worksheet.js?v=0.1.110';
+import { strings } from './locales.js?v=0.1.111';
+import { defaultFormat, imageOptions, maxLines, questionFormat, renderWorksheet } from './worksheet.js?v=0.1.111';
 import { clockTime, decodeSession, defaultSession, encodeSession, guidedPrompts, validRate, sessionJingles, validJingle } from './session.js';
 import { renderAudioResources } from './audio-resources.js';
 import { isPendingReview, needsReview } from './review.js';
@@ -21,7 +21,7 @@ import { mountSelectMenus } from './select-menu.js';
 import { mountWorkspacePanels } from './workspace-panels.js';
 import { mottos, nextMotto } from './mottos.js';
 import { listeningContext } from './content/listening-contexts.js';
-import { registerQuestionChoices, multipleChoice, responseQuestion, responseSummary } from './question-responses.js';
+import { registerQuestionChoices, multipleChoice, responseQuestion, responseSummary } from './question-responses.js?v=0.1.111';
 import { createQuestionFormatPreference } from './question-format-preference.js';
 
 const byId = id => document.getElementById(id);

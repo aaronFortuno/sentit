@@ -3,6 +3,7 @@ import { activities } from '../catalogue.js';
 import { editorialReviews } from '../content/editorial-reviews.js';
 import { editorialFingerprint, registerEditorialReviews, isEditoriallyReviewed, reviewCaption, hasPendingMontage, hasApprovedScript, hasPendingSynthesisEdit } from '../editorial-review.js';
 import { strings } from '../locales.js';
+import { registerQuestionChoices, multipleChoice, openOnlyReason } from '../question-responses.js';
 
 const pending = activities.filter(entry => entry.reviewStatus === 'pending');
 for (const entry of pending) {
@@ -34,4 +35,10 @@ assert(!isEditoriallyReviewed(unreviewed), 'L’absència de registre no és una
 await registerEditorialReviews([unreviewed], {[key]: {...editorialReviews[key], status: 'awaiting-review'}});
 assert(!isEditoriallyReviewed(unreviewed));
 assert(pending.every(entry => entry.audio === null && entry.reviewStatus === 'pending'));
+// A new provisional reading must already include both response modes wherever
+// appropriate, or an independently reviewed reason to retain an open question.
+await registerQuestionChoices(activities);
+for (const entry of pending) for (const question of entry.questions) {
+  assert(multipleChoice(entry, question) || openOnlyReason(entry, question), `${entry.code}/${question.id}: falta el doble format revisat o el motiu de resposta oberta`);
+}
 console.log(`PASS · ${pending.length} revisions independents exactes; canvis de guió, preguntes, respostes, pistes, sons i veus invaliden la marca provisional. Sense aprovació docent ni síntesi.`);

@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.111 · 25 de novembre de 2026
+
+- Doble format a les 119 comprensions i 895 preguntes: 891 alternatives ABCD i 4 obertes justificades. Tres blocs nous amb autoria i revisió creuades, empremta per ítem i evidències revisades. El pilot conserva l’aprovació docent; les alternatives noves esperen el seu vistiplau.
+- Preguntes obertes, transcripcions, àudios, aprovacions i maquetats conservats. Opcions A–D fixes entre impressions, amb posicions correctes variades.
+- Cobertura completa, claus, cites, fitxes i solucionaris, paginació, formats mixtos, preferència i col·leccions comprovats localment. Els guions nous hauran d’incorporar els dos formats revisats abans de presentar-se com a provisionals.
+
 ## 0.1.110 · 25 de novembre de 2026
 
 - S058 passa a publicació definitiva després de l’aprovació docent. Il·lustració contextual amb els models canònics, revisió independent de 8 preguntes i 10 cites, fitxa i solucionari només parlat. El màster aprovat es conserva intacte; 101 comprensions definitives.

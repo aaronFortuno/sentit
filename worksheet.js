@@ -3,7 +3,7 @@ import { buildEvidence, evidenceQuestions, evidenceSegments } from './evidence.j
 import { isPendingReview, isAudioReview, needsReview, reviewScript } from './review.js';
 import { isEditoriallyReviewed, reviewCaption, hasPendingMontage, hasApprovedScript } from './editorial-review.js';
 import { listeningContext } from './content/listening-contexts.js';
-import { responseQuestion, responseSummary } from './question-responses.js';
+import { responseQuestion, responseSummary } from './question-responses.js?v=0.1.111';
 
 export const defaultFormat = { font: 'serif', size: 12, spacing: 7, leading: 1.6 };
 

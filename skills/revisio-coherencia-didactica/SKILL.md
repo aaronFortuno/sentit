@@ -43,6 +43,8 @@ No converteixis preferències estilístiques en errors. Una el·lipsi ordinària
 
 ## Preguntes i solucionari
 
+- **Sentit, doble format obligatori des del primer esborrany:** revisar alhora pregunta oberta i alternativa ABCD, sempre que sigui convertible. Per a cada ítem, intentar defensar cadascun dels tres distractors amb el que s’escolta; si dues opcions són acceptables, demanar reformulació. Opcions comparables en llargada, detall i registre, amb confusions plausibles i graduades segons curs i dificultat. Conservar l’objectiu i les parts d’una pregunta composta, sense reduir-la arbitràriament a una dada més fàcil. Opinió, creació i justificació personal es mantenen obertes amb motiu específic. Comprovar clau, explicació i cites pròpies de cada variant. La revisió ABCD té empremta pròpia i no canvia l’aprovació de veu ni de muntatge; el docent revisa les alternatives noves separadament.
+
 - Respon totes les preguntes utilitzant només la informació que rep l'alumne. Distingir resposta literal, inferència sustentada i opinió oberta. No donar per òbvia informació externa o visual absent de l'àudio.
 - Comprova que hi ha una resposta defensable, que el solucionari accepta alternatives raonables i que la formulació no presuposa un fet que el text no estableix.
 - Revisa xifres, horaris, seqüències, quantitats i comparacions amb un càlcul explícit quan calgui. Contrasta les afirmacions factuals dubtoses amb fonts primàries; no inventis una dada per fer encaixar el relat.

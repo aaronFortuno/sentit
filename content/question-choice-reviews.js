@@ -38,18 +38,6 @@ export const questionChoiceReviews = [
   },
   {
     "activity": "ca-S001",
-    "questionId": "senyal-visual",
-    "status": "passed",
-    "author": "root",
-    "reviewer": "review_abcd_pilot_001",
-    "reviewedAt": "2026-11-25",
-    "teacherValidation": "approved",
-    "fingerprint": "6c99d3aaf09ba6945d7a6cdc4624aaa30ec18e31f0f13825791acca1e21c9481",
-    "teacherValidatedAt": "2026-11-25",
-    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
-  },
-  {
-    "activity": "ca-S001",
     "questionId": "musica-de-fons",
     "status": "passed",
     "author": "root",
@@ -97,38 +85,14 @@ export const questionChoiceReviews = [
     "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
-    "activity": "ca-S002",
-    "questionId": "recipient",
+    "activity": "ca-S001",
+    "questionId": "senyal-visual",
     "status": "passed",
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
     "teacherValidation": "approved",
-    "fingerprint": "8d6775f3f75b4bfcf95b2caeba8daf2b21fffde2efb67d69a89dcc2f7ea55a70",
-    "teacherValidatedAt": "2026-11-25",
-    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
-  },
-  {
-    "activity": "ca-S002",
-    "questionId": "fons",
-    "status": "passed",
-    "author": "root",
-    "reviewer": "review_abcd_pilot_001",
-    "reviewedAt": "2026-11-25",
-    "teacherValidation": "approved",
-    "fingerprint": "322e3c58fa43c4a20b5f12089ef73246fb2e4d84a1fac2ff1af111ed42fdf99a",
-    "teacherValidatedAt": "2026-11-25",
-    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
-  },
-  {
-    "activity": "ca-S002",
-    "questionId": "original",
-    "status": "passed",
-    "author": "root",
-    "reviewer": "review_abcd_pilot_001",
-    "reviewedAt": "2026-11-25",
-    "teacherValidation": "approved",
-    "fingerprint": "4471b9ae1ac2ee209e2fd19c0f2db1e9ef0a65dd607c05f6d9302758d6f9d59e",
+    "fingerprint": "6c99d3aaf09ba6945d7a6cdc4624aaa30ec18e31f0f13825791acca1e21c9481",
     "teacherValidatedAt": "2026-11-25",
     "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
@@ -146,6 +110,18 @@ export const questionChoiceReviews = [
   },
   {
     "activity": "ca-S002",
+    "questionId": "fons",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "review_abcd_pilot_001",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "approved",
+    "fingerprint": "322e3c58fa43c4a20b5f12089ef73246fb2e4d84a1fac2ff1af111ed42fdf99a",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
+  },
+  {
+    "activity": "ca-S002",
     "questionId": "identificar",
     "status": "passed",
     "author": "root",
@@ -158,6 +134,18 @@ export const questionChoiceReviews = [
   },
   {
     "activity": "ca-S002",
+    "questionId": "original",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "review_abcd_pilot_001",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "approved",
+    "fingerprint": "4471b9ae1ac2ee209e2fd19c0f2db1e9ef0a65dd607c05f6d9302758d6f9d59e",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
+  },
+  {
+    "activity": "ca-S002",
     "questionId": "quan",
     "status": "passed",
     "author": "root",
@@ -165,6 +153,30 @@ export const questionChoiceReviews = [
     "reviewedAt": "2026-11-25",
     "teacherValidation": "approved",
     "fingerprint": "07e051efc2d93d2c981d69af47a42f958064a8728fd26567a2ed8936e336fbdf",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
+  },
+  {
+    "activity": "ca-S002",
+    "questionId": "recipient",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "review_abcd_pilot_001",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "approved",
+    "fingerprint": "8d6775f3f75b4bfcf95b2caeba8daf2b21fffde2efb67d69a89dcc2f7ea55a70",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
+  },
+  {
+    "activity": "ca-S003",
+    "questionId": "aprendre",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "review_abcd_pilot_001",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "approved",
+    "fingerprint": "b42e27b9e8528c9070a284f8159b504f79fb2e6ef051fc3f306a7a76567b82cb",
     "teacherValidatedAt": "2026-11-25",
     "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
@@ -182,13 +194,13 @@ export const questionChoiceReviews = [
   },
   {
     "activity": "ca-S003",
-    "questionId": "senyal",
+    "questionId": "motiu",
     "status": "passed",
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
     "teacherValidation": "approved",
-    "fingerprint": "d0e03a4f16a5b3026c0ced226d56e5b9a4bedcf4c2f8043f87aa7d1081d255a4",
+    "fingerprint": "50214b823048642adc4210488f4d68d16211aae5e4da53aabc5b7006a6f506a8",
     "teacherValidatedAt": "2026-11-25",
     "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
@@ -206,18 +218,6 @@ export const questionChoiceReviews = [
   },
   {
     "activity": "ca-S003",
-    "questionId": "motiu",
-    "status": "passed",
-    "author": "root",
-    "reviewer": "review_abcd_pilot_001",
-    "reviewedAt": "2026-11-25",
-    "teacherValidation": "approved",
-    "fingerprint": "50214b823048642adc4210488f4d68d16211aae5e4da53aabc5b7006a6f506a8",
-    "teacherValidatedAt": "2026-11-25",
-    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
-  },
-  {
-    "activity": "ca-S003",
     "questionId": "retorn",
     "status": "passed",
     "author": "root",
@@ -230,49 +230,25 @@ export const questionChoiceReviews = [
   },
   {
     "activity": "ca-S003",
-    "questionId": "aprendre",
+    "questionId": "senyal",
     "status": "passed",
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
     "teacherValidation": "approved",
-    "fingerprint": "b42e27b9e8528c9070a284f8159b504f79fb2e6ef051fc3f306a7a76567b82cb",
+    "fingerprint": "d0e03a4f16a5b3026c0ced226d56e5b9a4bedcf4c2f8043f87aa7d1081d255a4",
     "teacherValidatedAt": "2026-11-25",
     "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S004",
-    "questionId": "quan",
+    "questionId": "comparar",
     "status": "passed",
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
     "teacherValidation": "approved",
-    "fingerprint": "9d29f1230ad4f061a3c730157c861fc346046451f4b5e45059a268b124d25925",
-    "teacherValidatedAt": "2026-11-25",
-    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
-  },
-  {
-    "activity": "ca-S004",
-    "questionId": "fitxa",
-    "status": "passed",
-    "author": "root",
-    "reviewer": "review_abcd_pilot_001",
-    "reviewedAt": "2026-11-25",
-    "teacherValidation": "approved",
-    "fingerprint": "4f6ac863642167077e960dd7850dd074ff78ca3c5f43a7e9c1511d726ecf3c60",
-    "teacherValidatedAt": "2026-11-25",
-    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
-  },
-  {
-    "activity": "ca-S004",
-    "questionId": "record",
-    "status": "passed",
-    "author": "root",
-    "reviewer": "review_abcd_pilot_001",
-    "reviewedAt": "2026-11-25",
-    "teacherValidation": "approved",
-    "fingerprint": "2824c540d552bc22d2fbb33e67217d2d7ecfff40b560465108d7446fe8f0ea29",
+    "fingerprint": "7897ca04c2b773cabbcec20f02af8ecb8cca6d0438035b0eddb931db71943f73",
     "teacherValidatedAt": "2026-11-25",
     "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
@@ -290,6 +266,42 @@ export const questionChoiceReviews = [
   },
   {
     "activity": "ca-S004",
+    "questionId": "fitxa",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "review_abcd_pilot_001",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "approved",
+    "fingerprint": "4f6ac863642167077e960dd7850dd074ff78ca3c5f43a7e9c1511d726ecf3c60",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
+  },
+  {
+    "activity": "ca-S004",
+    "questionId": "quan",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "review_abcd_pilot_001",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "approved",
+    "fingerprint": "9d29f1230ad4f061a3c730157c861fc346046451f4b5e45059a268b124d25925",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
+  },
+  {
+    "activity": "ca-S004",
+    "questionId": "record",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "review_abcd_pilot_001",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "approved",
+    "fingerprint": "2824c540d552bc22d2fbb33e67217d2d7ecfff40b560465108d7446fe8f0ea29",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
+  },
+  {
+    "activity": "ca-S004",
     "questionId": "troballa",
     "status": "passed",
     "author": "root",
@@ -301,50 +313,14 @@ export const questionChoiceReviews = [
     "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
-    "activity": "ca-S004",
+    "activity": "ca-S004D",
     "questionId": "comparar",
     "status": "passed",
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
     "teacherValidation": "approved",
-    "fingerprint": "7897ca04c2b773cabbcec20f02af8ecb8cca6d0438035b0eddb931db71943f73",
-    "teacherValidatedAt": "2026-11-25",
-    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
-  },
-  {
-    "activity": "ca-S004D",
-    "questionId": "quan",
-    "status": "passed",
-    "author": "root",
-    "reviewer": "review_abcd_pilot_001",
-    "reviewedAt": "2026-11-25",
-    "teacherValidation": "approved",
-    "fingerprint": "cbd7b70613d08d147b87863929b19e0324d689bccc5850848013c2a3d2916c74",
-    "teacherValidatedAt": "2026-11-25",
-    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
-  },
-  {
-    "activity": "ca-S004D",
-    "questionId": "fitxa",
-    "status": "passed",
-    "author": "root",
-    "reviewer": "review_abcd_pilot_001",
-    "reviewedAt": "2026-11-25",
-    "teacherValidation": "approved",
-    "fingerprint": "a9d01b58b6c614ea50fccdcbae04efb40d94f36acc263c2f2524d81e529c062e",
-    "teacherValidatedAt": "2026-11-25",
-    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
-  },
-  {
-    "activity": "ca-S004D",
-    "questionId": "record",
-    "status": "passed",
-    "author": "root",
-    "reviewer": "review_abcd_pilot_001",
-    "reviewedAt": "2026-11-25",
-    "teacherValidation": "approved",
-    "fingerprint": "4c9b2e4dc7fb2e80f204a284492b10bf721818d2bda10a628070caf80765349f",
+    "fingerprint": "7cafd1636fe7162e0c1e474bdb8c64cb9fae90ab4223228ab863e2c2f59e1b39",
     "teacherValidatedAt": "2026-11-25",
     "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
@@ -362,6 +338,42 @@ export const questionChoiceReviews = [
   },
   {
     "activity": "ca-S004D",
+    "questionId": "fitxa",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "review_abcd_pilot_001",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "approved",
+    "fingerprint": "a9d01b58b6c614ea50fccdcbae04efb40d94f36acc263c2f2524d81e529c062e",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
+  },
+  {
+    "activity": "ca-S004D",
+    "questionId": "quan",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "review_abcd_pilot_001",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "approved",
+    "fingerprint": "cbd7b70613d08d147b87863929b19e0324d689bccc5850848013c2a3d2916c74",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
+  },
+  {
+    "activity": "ca-S004D",
+    "questionId": "record",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "review_abcd_pilot_001",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "approved",
+    "fingerprint": "4c9b2e4dc7fb2e80f204a284492b10bf721818d2bda10a628070caf80765349f",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
+  },
+  {
+    "activity": "ca-S004D",
     "questionId": "troballa",
     "status": "passed",
     "author": "root",
@@ -369,18 +381,6 @@ export const questionChoiceReviews = [
     "reviewedAt": "2026-11-25",
     "teacherValidation": "approved",
     "fingerprint": "761b29ac629e78a874afed04418f38f12833c3a07a48e68fadd3aec06021eb02",
-    "teacherValidatedAt": "2026-11-25",
-    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
-  },
-  {
-    "activity": "ca-S004D",
-    "questionId": "comparar",
-    "status": "passed",
-    "author": "root",
-    "reviewer": "review_abcd_pilot_001",
-    "reviewedAt": "2026-11-25",
-    "teacherValidation": "approved",
-    "fingerprint": "7cafd1636fe7162e0c1e474bdb8c64cb9fae90ab4223228ab863e2c2f59e1b39",
     "teacherValidatedAt": "2026-11-25",
     "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
@@ -398,13 +398,13 @@ export const questionChoiceReviews = [
   },
   {
     "activity": "ca-S005",
-    "questionId": "ordre",
+    "questionId": "idea",
     "status": "passed",
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
     "teacherValidation": "approved",
-    "fingerprint": "57c7bd87f07094d44ff383065724da99b80d02cbf3a911e60fcedfc1bac46daa",
+    "fingerprint": "e83a3f3b2a323ffd0f2961795d314e18ef31838a81c29b510e71fac2082ba31b",
     "teacherValidatedAt": "2026-11-25",
     "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
@@ -434,6 +434,18 @@ export const questionChoiceReviews = [
   },
   {
     "activity": "ca-S005",
+    "questionId": "ordre",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "review_abcd_pilot_001",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "approved",
+    "fingerprint": "57c7bd87f07094d44ff383065724da99b80d02cbf3a911e60fcedfc1bac46daa",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
+  },
+  {
+    "activity": "ca-S005",
     "questionId": "plou",
     "status": "passed",
     "author": "root",
@@ -445,15 +457,8573 @@ export const questionChoiceReviews = [
     "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
-    "activity": "ca-S005",
+    "activity": "ca-S006",
+    "questionId": "abans",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "59927b1d401fd082ea5e7e0b75d62ea66d1da943bd8658de9fdef935706b630f"
+  },
+  {
+    "activity": "ca-S006",
+    "questionId": "cotxet",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ff9886f3ba05f35dd761b6388697b3fe57b1acf16d567bf5a396b513886e22ed"
+  },
+  {
+    "activity": "ca-S006",
+    "questionId": "entrades",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "4c4a405d6542e89373170941ae19e85c294c3d78cb0977376c4638e435ca257a"
+  },
+  {
+    "activity": "ca-S006",
+    "questionId": "guia",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "567f62f02c1ffa71f9360c2fce972c49a556beb1f00c8e176fb2a6fdff382d3e"
+  },
+  {
+    "activity": "ca-S006",
+    "questionId": "pendent",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "c3e50eba38c12513a93d413ddea8aa7812d7eb9bc8b4d90a35a1992548f4b8c6"
+  },
+  {
+    "activity": "ca-S006",
+    "questionId": "uneix",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ae6dbbd97e31005740134be8f1a74b4c00b8dbac0d0016f493645c9da8bbee2f"
+  },
+  {
+    "activity": "ca-S007",
+    "questionId": "ajuda",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "6f4c7fd36c5083a16e1c1311f898799f829729861499737731517272e7720e4d"
+  },
+  {
+    "activity": "ca-S007",
+    "questionId": "canvi",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "3aa68f0e0d870fc9a09c43366d070b9ba5fde6945788f5d44e2fab1ebaee2fb2"
+  },
+  {
+    "activity": "ca-S007",
+    "questionId": "igual",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "2b40548894a0ed7b2bcdbab30f2d46ff6546b98289cbecbc51c8335c46b90ea7"
+  },
+  {
+    "activity": "ca-S007",
+    "questionId": "limit",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "6fe6225af88c54613484c2fb4bb13dc6547c147aeb07521e4ac42fbf6e11e3bb"
+  },
+  {
+    "activity": "ca-S007",
+    "questionId": "plat",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "767d6542d23d2721e34210bd3a65971dc731c1dee5f8d0e3fb88c607bb97bff2"
+  },
+  {
+    "activity": "ca-S007",
+    "questionId": "terra",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "f365453f04d348038b6ac94ad49d14cbeb00a1b8f20bad0c513c6f353e43ff2e"
+  },
+  {
+    "activity": "ca-S008",
+    "questionId": "canvi",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "018ebfa956eba40d5c5ae4a78ca21058c0fd1ed3bd7c14308b0652958d78593c"
+  },
+  {
+    "activity": "ca-S008",
+    "questionId": "ensenyament",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "24d48a9a5b45b06835a436d5d14000bf2e0f79c0242a794a81cc307ce5d0df7c"
+  },
+  {
+    "activity": "ca-S008",
+    "questionId": "mida",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "5b0b16ff759645a4d4bb709a88390539217d6cbed6f55e8ee29031a847bde34b"
+  },
+  {
+    "activity": "ca-S008",
+    "questionId": "sobre",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ce31e5e6aea0748d0854cc51f429aac39403bc8d183362d4fb10dcb8b8ffe788"
+  },
+  {
+    "activity": "ca-S008",
+    "questionId": "sospita",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "8f2a9f9fcc84100014c518c011e5457e5c545fab9a2dac0725fb7e4105366bfd"
+  },
+  {
+    "activity": "ca-S008",
+    "questionId": "treball",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "6809b30ead4063c265ce871562c9a51cda9c53206d4f9c44633fa2f0d2e5ebae"
+  },
+  {
+    "activity": "ca-S008R",
+    "questionId": "canvi",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "793bd836d717c22da69c59e0100add8fb70198260830dd0c413c737514e38d00"
+  },
+  {
+    "activity": "ca-S008R",
+    "questionId": "ensenyament",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "b6613d6e172fe15de6d047d87a26d9e1d65cb21f6f14c5cc184a697df716154c"
+  },
+  {
+    "activity": "ca-S008R",
+    "questionId": "mida",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ee9d1231b822040127921303b1366132963855cbea3088ed9b5f4b48c1a890c0"
+  },
+  {
+    "activity": "ca-S008R",
+    "questionId": "sobre",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "91711d60768306089d8581f791d947199fba24e388e0492ecc65d7ecd4b0c73d"
+  },
+  {
+    "activity": "ca-S008R",
+    "questionId": "sospita",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "0f59227653303fcb683f428c7aec208378f99ed6172ae035ba4a2391b2bb8d20"
+  },
+  {
+    "activity": "ca-S008R",
+    "questionId": "treball",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "97190191b73eb724ebb79e0936ee8190ccb671bd68f5d11a7d4cbf6f48d6481b"
+  },
+  {
+    "activity": "ca-S009",
+    "questionId": "dissabte",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ace5aa75344b2301898e1e3d4fb5460f7951c567a40e6a6095de0d8057e319b9"
+  },
+  {
+    "activity": "ca-S009",
+    "questionId": "durada",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "02aa383fd2695762cc0a050ad740dce605f4513dd5bdc2965df13bfef64a019c"
+  },
+  {
+    "activity": "ca-S009",
+    "questionId": "inscripcio",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "78a9f8bd3661724e64124ff2c41fc8e9ba168b587043b72cf54ab23ada068e0a"
+  },
+  {
+    "activity": "ca-S009",
+    "questionId": "llibre",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "eafff2ec7552811cefe361f1c2ff4547939ba0fee994403f4281e467ba184637"
+  },
+  {
+    "activity": "ca-S009",
+    "questionId": "sala",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "bd6e6e87c5f0b8398e5cc737ecaacade6ada8b551077254bd7a095a1ffe1a49f"
+  },
+  {
+    "activity": "ca-S009",
+    "questionId": "setmana",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "4ab81e02a1973e3fb8160b8fed3c471c38143c10fbcfa9bd8ce858399e3d952f"
+  },
+  {
+    "activity": "ca-S010",
+    "questionId": "actualitzar",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "24badc7033234f873059b2bdec005ac894decdd60d64a1b053892ace7118db3e"
+  },
+  {
+    "activity": "ca-S010",
+    "questionId": "carreto",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "496c066398847926d6b21adc946ab444a38edfd2daf05fe1d5b63ad1e6f20ccb"
+  },
+  {
+    "activity": "ca-S010",
+    "questionId": "entrada",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "7117f17bfa294139146d484ae8a062344a2c5b96206bb569757457762542b5f1"
+  },
+  {
+    "activity": "ca-S010",
+    "questionId": "fita",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "4c5a4ccf4141b578ba9c10c901df5abaf78a1bd5b095d12029e7d2f5854b96bc"
+  },
+  {
+    "activity": "ca-S010",
+    "questionId": "font",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "5b52bb6306141b835c54739448f43fa50bc34b4c7e2a48f47b78bad07cb2ee01"
+  },
+  {
+    "activity": "ca-S010",
+    "questionId": "ordre",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "1a86b9f9407e4182e9e3d2cab741340563470eca5e2a2640ff3ad719ddb624ae"
+  },
+  {
+    "activity": "ca-S010",
+    "questionId": "pont",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "1ad0d98e1361e004292380e5684bf0be55efbb9111483fdfb0a2bc8d5fb2f9d2"
+  },
+  {
+    "activity": "ca-S011",
+    "questionId": "final",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a1acd2314b9ac636debf96e1e06c2dea6bd914e4b1885f5ac5db0f1ec890ca66"
+  },
+  {
+    "activity": "ca-S011",
+    "questionId": "maqueta",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "9efe16f5bf5cdb87a58ca72f879934162d107d80675be6a675811571e827508a"
+  },
+  {
+    "activity": "ca-S011",
+    "questionId": "nom",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "c2b16333f1a4b9f75b267cc331ef564d37d77fce4063a3550c41faa948278660"
+  },
+  {
+    "activity": "ca-S011",
+    "questionId": "objectiu",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "3eb0e09f7200b4b701667dde88fa79f2a132524feba2db432fe0c315bb9c7c15"
+  },
+  {
+    "activity": "ca-S011",
+    "questionId": "problema",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ae42ac797c44d4d25f3944ef4bafea8d9b0582da5e9e24210a699159b49be1fe"
+  },
+  {
+    "activity": "ca-S011",
+    "questionId": "reforc",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "498fc26510f5807ec7b83519aa26f5d1e173b4994dd2547983613e2c2674fbb4"
+  },
+  {
+    "activity": "ca-S011",
+    "questionId": "tapa",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "b9a187e9ff96bf27986add2f4cd6a06fdfdc42c1ff72ccbaf2a2b4a01e9b0648"
+  },
+  {
+    "activity": "ca-S012",
+    "questionId": "ambient",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "65922aac72ba87d85643a85c3eda722314ebc32d5d31f41e7c8b9e69acd5bd8e"
+  },
+  {
+    "activity": "ca-S012",
+    "questionId": "canvis",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "5b28589c646076b2a0c6c83c54a0476c3deb2c8812a506d1534ea7de08bf265e"
+  },
+  {
+    "activity": "ca-S012",
+    "questionId": "final",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "41b5d09dc0d4f05bf9320dea2f7ef4aff375120441ef0d5e84108e787f2de4f9"
+  },
+  {
+    "activity": "ca-S012",
+    "questionId": "ofici",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "423c1e653a755e2126c471e886ac6db3f05364ea70f855251eebca5f9bc28afa"
+  },
+  {
+    "activity": "ca-S012",
+    "questionId": "primer",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "dfe82c7f7d4705d3ffd0b89b88d671c4b2cab6269bd93d131b11ec4af66f3794"
+  },
+  {
+    "activity": "ca-S012",
+    "questionId": "promesa",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "17933c2e60820555ec18c76114d3519bd3ae103f46b166ebee1fafb6523a1152"
+  },
+  {
+    "activity": "ca-S012",
+    "questionId": "suposicio",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "62b417a47feade4468b145bc7493975a6c3c831aae40485fcb13a89c357297cc"
+  },
+  {
+    "activity": "ca-S013",
+    "questionId": "classificar",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "3cd322f9230cabe231893cab583000342e6eb145a84a0f2fa778480d9c5962d5"
+  },
+  {
+    "activity": "ca-S013",
+    "questionId": "codi",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "f4d9ab5a81652ef0f4e8a43fd301847a7546738ff01972ace1b3c678d4dea59b"
+  },
+  {
+    "activity": "ca-S013",
+    "questionId": "franqueig",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "c79cff1ca7a8414501f7a862ed08d29e146120a7f40a3e4ad61fcff909196726"
+  },
+  {
+    "activity": "ca-S013",
+    "questionId": "funcio",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "cc3ab21f00c49b3951341ba35faeced20b4731d3a1a0cf3eb0d4c71fa9cac868"
+  },
+  {
+    "activity": "ca-S013",
+    "questionId": "ordre",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "93821500d81428dedd75a27a14aeb0691eda1d17c25e9e3d7b274cf75a715031"
+  },
+  {
+    "activity": "ca-S013",
+    "questionId": "papers",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "5b64c4819d6e88ec272e3068795cd2cb72604244f67cd6538dcbb201996cb76e"
+  },
+  {
+    "activity": "ca-S013",
+    "questionId": "resposta",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "befcd70864a612afe83b8f5e9b16f1ff074e8c8daecba508f79f11e7cc8e8c58"
+  },
+  {
+    "activity": "ca-S014",
+    "questionId": "aigua",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "e6a65337f4bf479cba3568f057ecdb1893c196e1bf2120f6802e5fb1570d2052"
+  },
+  {
+    "activity": "ca-S014",
+    "questionId": "embrio",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "5dccfc67874e3ba7d360ea94e6fde5f5a9eb049fd081ebe491fec6aaca94667c"
+  },
+  {
+    "activity": "ca-S014",
+    "questionId": "primer",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "b8fd4502c058c0e50bd07ff7533fc050053c0f955c3083e457c798ca57c4e59c"
+  },
+  {
+    "activity": "ca-S014",
+    "questionId": "prova",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "3718814ef58603a32b1c854589e7c0e28c72c702f082f7d6ba555ce1094a5e09"
+  },
+  {
+    "activity": "ca-S014",
+    "questionId": "registre",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "98ba811541b7f46e77c7d74b8aeeb4f6adb03a5ae7a82ccd511bcdf664e80360"
+  },
+  {
+    "activity": "ca-S014",
+    "questionId": "reserva",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "d18de0da9ef2062be47e115540c235a8deb6d1f295db7333f0878751d464f3f6"
+  },
+  {
+    "activity": "ca-S014",
+    "questionId": "terme",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "12ca80377c9ed4ae8d9a6992a30ad7f3bd97e0d77d0e6b3bb3146edd1422436a"
+  },
+  {
+    "activity": "ca-S015",
+    "questionId": "documentar",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "4074d83c2e9002efc4999d621483699a6d68f5ff66084be4c2cc15aab8ff84ea"
+  },
+  {
+    "activity": "ca-S015",
     "questionId": "idea",
     "status": "passed",
-    "author": "root",
-    "reviewer": "review_abcd_pilot_001",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "approved",
-    "fingerprint": "e83a3f3b2a323ffd0f2961795d314e18ef31838a81c29b510e71fac2082ba31b",
-    "teacherValidatedAt": "2026-11-25",
-    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
+    "teacherValidation": "pending",
+    "fingerprint": "6dcb896e569d24517d36123f78a592f34b9ecc37c47dcf4b6541fa8382427e0a"
+  },
+  {
+    "activity": "ca-S015",
+    "questionId": "inventar",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "babf78149ffe950b75ec82c15bbb98f07a0f60ee02a5bc9145c002b029b869bf"
+  },
+  {
+    "activity": "ca-S015",
+    "questionId": "neteja",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "4eb582a7ccfa9d3b408cece83f307662362563a3e4b6be5044f0966a31ebc4f6"
+  },
+  {
+    "activity": "ca-S015",
+    "questionId": "ofici",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "6863a221e72fc779a6548e45f4a5fd8bb4d77793723d9b7f48c7d7c3b91f1d03"
+  },
+  {
+    "activity": "ca-S015",
+    "questionId": "pressa",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "01d0a605ec92a1fc5951844899bde7dcf426509cea9a8715bc198e427792fa60"
+  },
+  {
+    "activity": "ca-S015",
+    "questionId": "primer",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "88df91112e7349e76eebc305a7fa29dfae00962528d3cf6a10164c971f297e92"
+  },
+  {
+    "activity": "ca-S015",
+    "questionId": "protegir",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "212a3ec2f02d64b6603974c1fb3304c6410b4ef25905eabba9afca66c0cfc7a5"
+  },
+  {
+    "activity": "ca-S016",
+    "questionId": "barreja",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "b8f55b8486e36bb7e1f5b2c5cccd7e738995ef8dc9782c26f0eb00134b8a5171"
+  },
+  {
+    "activity": "ca-S016",
+    "questionId": "context",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "0a9cb3e3dd86a915d63f5e2503374fbadbf4f93ce8554b02bfc361f6c3e119c5"
+  },
+  {
+    "activity": "ca-S016",
+    "questionId": "data",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "991188ac2a965a2a391e5a0786f90a969fa690d2632016cb56cdc0c0632cdbb8"
+  },
+  {
+    "activity": "ca-S016",
+    "questionId": "moneda",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "187c3793136e9f0000ac572d003525c58b466b81166cf38f7bb60c597d42a186"
+  },
+  {
+    "activity": "ca-S016",
+    "questionId": "possibilitat",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "2919ffb3f82fd1d7e2c4893dbbcab4ecb277b42bafa548f11b76813769aec211"
+  },
+  {
+    "activity": "ca-S016",
+    "questionId": "titular",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "d0d7554e10e3d2cdd164eee97d5b9b06fe50bbf22244e1e8bf54b6945c73cf1c"
+  },
+  {
+    "activity": "ca-S016",
+    "questionId": "troballa",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a2e48f536b36a4ba7b212f0a687bd64a100b2225156ab0ae5dbbd122437ced86"
+  },
+  {
+    "activity": "ca-S016",
+    "questionId": "visita",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ef1e6c385d6c7878c65fdaf9a220ace32d7d794e172fc14857a38f0664ef8084"
+  },
+  {
+    "activity": "ca-S017",
+    "questionId": "aigua",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "d659f68a9f51f15423660f76af282284e7d1715283e63dbb67a3d4ab31731951"
+  },
+  {
+    "activity": "ca-S017",
+    "questionId": "caixa",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "dde649f4a2b3de107ecc54dd391aa1ab2f4a3525a99dd6318f2bc0bc68bc3542"
+  },
+  {
+    "activity": "ca-S017",
+    "questionId": "cas",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "cecbf80ba19f4b85fbb78bc962d3ddf7e0dcf7be79023e9909c8e053d56e640c"
+  },
+  {
+    "activity": "ca-S017",
+    "questionId": "foto",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "3d1819af9762654ae6a31997c18cfd5999b8a568e8cff5d1f056618856ffada2"
+  },
+  {
+    "activity": "ca-S017",
+    "questionId": "identificar",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "0dc34b1315d1779bc9346b265f20b7a82416b8c52fa3115b0fa7c134bfc109a4"
+  },
+  {
+    "activity": "ca-S017",
+    "questionId": "primer",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a9e476f657c6f9892f00ea122203bde5e5f4ea5c20b4bbe329aac1409987981e"
+  },
+  {
+    "activity": "ca-S017",
+    "questionId": "prova",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "27e2c498700711c07bf9aa46a5d32d0a6d8f125be9ba04ebcc0927d384217bfa"
+  },
+  {
+    "activity": "ca-S017",
+    "questionId": "registre",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "623200d02caf4b16ed9c2af715c45d0107ee3be2b16dd38413b040f369bdc46e"
+  },
+  {
+    "activity": "ca-S018",
+    "questionId": "canvi",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "8df5c23f443a5135d13798a92dcc5abe5d7640a930f9481bf486d302a7fc860e"
+  },
+  {
+    "activity": "ca-S018",
+    "questionId": "clau",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "1723ca30c8022b608ee71a267fa8ec9e0aea290ce155348655af4d1c5432ac1c"
+  },
+  {
+    "activity": "ca-S018",
+    "questionId": "copia",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "dee9579d2620c9bb2e68d87180651d4024be383a649865c71f0694610d1336cf"
+  },
+  {
+    "activity": "ca-S018",
+    "questionId": "llista",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a7908ff3635ca1dee318f2ae27d29d3f8d10f8e282f57efc9cc90b6c123c04a9"
+  },
+  {
+    "activity": "ca-S018",
+    "questionId": "pendent",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "4a03da2748ae78bf6ac46f3ae3380078216b5bcd8757f4d96b37ef8f3f644e83"
+  },
+  {
+    "activity": "ca-S018",
+    "questionId": "pensament",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "2edda2bd664190e3769825ed3410c67c1e6a745e02ec5aa1c849b7fa16df4b61"
+  },
+  {
+    "activity": "ca-S018",
+    "questionId": "tots",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "b537e580141de81f2df91388208ada0f5274babc7ded06a7d5e0178cfa7ec877"
+  },
+  {
+    "activity": "ca-S018",
+    "questionId": "veina",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "1e9e24395867c7c7b4be865cc2cf8c38e98fb76635056614ff1eb637503c6307"
+  },
+  {
+    "activity": "ca-S019",
+    "questionId": "abans",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "f25a493901e689b408c22e1f05c833a6d7048568dffad3b5fff2aec931f432e0"
+  },
+  {
+    "activity": "ca-S019",
+    "questionId": "anotar",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "23a4048f14cb0b1a45d2b53ae1cc26c60333ce88976015c21c92acc1a665eeab"
+  },
+  {
+    "activity": "ca-S019",
+    "questionId": "higiene",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "4ff829c11b844485fcacaa42db9631fbbb93280f8d33e31cac62d4b7ce49fa82"
+  },
+  {
+    "activity": "ca-S019",
+    "questionId": "llista",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "c026aa379e733a9ce9dd1d441157f52568ac286ba4902f29140fa206bd76119c"
+  },
+  {
+    "activity": "ca-S019",
+    "questionId": "pastanaga",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "34d7bc5c19fd851fafae1fe06aa88f5dc65750c9ada842f00ca3893d91d655fd"
+  },
+  {
+    "activity": "ca-S019",
+    "questionId": "persones",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "09f2fb41a6bbebeccec97d22c8377cf5a5eaf814e9eee2deaee591e0ad5f743c"
+  },
+  {
+    "activity": "ca-S019",
+    "questionId": "racio",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "f9abc119960bc7a3014b408b8df905fb09203f3629cc53a52c447c0043ebbd34"
+  },
+  {
+    "activity": "ca-S019",
+    "questionId": "sintesi",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "4b9de95144d4249858c4adad14ba03f671983d8b3393784e9e7e082421884c4d"
+  },
+  {
+    "activity": "ca-S020",
+    "questionId": "equip",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a458e26d9c827a7470e94c5671dc33b4139bad721ce846d87a560a400d2e6fc9"
+  },
+  {
+    "activity": "ca-S020",
+    "questionId": "peca",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ccaf9f36acf947c92e232dc3b6590d5bed9419e810c76810c0ae1651eb61c877"
+  },
+  {
+    "activity": "ca-S020",
+    "questionId": "prova",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a4248159a18f140ccf5e1e31a968705e81757b06968affb02c84e1c60b7b141a"
+  },
+  {
+    "activity": "ca-S020",
+    "questionId": "pseudonim",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "7c249161eb78538182996d505a796e97d6f07832723686483b90ed008c3ef8f8"
+  },
+  {
+    "activity": "ca-S020",
+    "questionId": "sons",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "88c6281289e213e2e801435e9efa364270c471e3a07c3e449d031b7dca6eacf0"
+  },
+  {
+    "activity": "ca-S020",
+    "questionId": "taller",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "9d23d9a1a3a89233b53992425bc55d5172ff4c10603b3f8109edc82dc2973129"
+  },
+  {
+    "activity": "ca-S020",
+    "questionId": "termini",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "0e063450762087d89cf550160e88694d9b196daa543e70044047f097a4e969cd"
+  },
+  {
+    "activity": "ca-S020",
+    "questionId": "versions",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "1193f50110e789f3a66327183f08962078fe420bc6004a71605575bd2f428258"
+  },
+  {
+    "activity": "ca-S021",
+    "questionId": "aplicar",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "1ad25027a94e80ebd91c53850bf48636ffe35f03998b19ab72bdae6e6ee4852d"
+  },
+  {
+    "activity": "ca-S021",
+    "questionId": "arbres",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "f2fc91022b7b6866d85c0886ebd282ec721e9fc438dc970914c0250d3ab14457"
+  },
+  {
+    "activity": "ca-S021",
+    "questionId": "causes",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "f20938b040994a3069484ac8a0ebb1a917dfaef5c7ce09d60754da58664ecb63"
+  },
+  {
+    "activity": "ca-S021",
+    "questionId": "condicions",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "68610525efb3fd57425c607321049b347d37a930b490d3847fda546f2365d9d5"
+  },
+  {
+    "activity": "ca-S021",
+    "questionId": "limit",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "5974827fe042bfbeed4519587cfd94f54ea07faa03be2a5ffba74bd0b98782c9"
+  },
+  {
+    "activity": "ca-S021",
+    "questionId": "mesures",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "7ce2bfc5c2eadf309def16d138eacbe006c571e5438ca9681970903f9ffe9856"
+  },
+  {
+    "activity": "ca-S021",
+    "questionId": "temps",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "55f4d402987c2a7048c7522407a2cd49cda9d8e3bebeae2a4102e8e64a1b7335"
+  },
+  {
+    "activity": "ca-S021",
+    "questionId": "vespre",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "f246a2e3f3ab88ae5db4dd32f954e29692b94478c4d5083154195a3500e03e72"
+  },
+  {
+    "activity": "ca-S022",
+    "questionId": "abans",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "2d27f47c77f9c08c0a1f83f54eb591cc90052d4ad23c7713b1ac2598eae15174"
+  },
+  {
+    "activity": "ca-S022",
+    "questionId": "bossa",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "1b237017877e80121f861b1f4e6be7549017ea66c9522e2762f3e37348f8864b"
+  },
+  {
+    "activity": "ca-S022",
+    "questionId": "certesa",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a5f7b451a1705941d2ba4f5b457a3e0338d4338659d31a8769fa34a5636b8539"
+  },
+  {
+    "activity": "ca-S022",
+    "questionId": "etapa",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "514b8ec9395e5b4f9ce7687f2bf0424e1324288981b22f175fb43a8845f782c4"
+  },
+  {
+    "activity": "ca-S022",
+    "questionId": "final",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "06cffd869511e95e674c186ccc61ac914e12de7f30b451e9de89c589de526180"
+  },
+  {
+    "activity": "ca-S022",
+    "questionId": "infant",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "26f13017308d75b5bbe5606e4c200e5ff241d9a345638ef92e8074e53147161c"
+  },
+  {
+    "activity": "ca-S022",
+    "questionId": "interpretar",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "e30511d8aa9aa73e9eb907d5265a326e86d2ee92bbdf6aa46608e7c76b60a490"
+  },
+  {
+    "activity": "ca-S022",
+    "questionId": "motius",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "c3357393189eba359a89b41aee354636f70c359488b31170cec2893e8b2c3d6b"
+  },
+  {
+    "activity": "ca-S022",
+    "questionId": "objectes",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a44602003ea99a0b4a03ba503a3ccfd371bdeb3f215a62f6051e9acde2596a05"
+  },
+  {
+    "activity": "ca-S023",
+    "questionId": "entrada",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "90a3424b88df8454fb1edba0a0e974d11099f3ae0569daee31ab3d44404ca14f"
+  },
+  {
+    "activity": "ca-S023",
+    "questionId": "envasos",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "fc5b24569ce487a3447c2a58e6f720b39557bc55aaa261cff7618ed20db66b2d"
+  },
+  {
+    "activity": "ca-S023",
+    "questionId": "font",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "e21aa4b9b86ae21f7beb08dd44ee03c74c165c7299f96db23fbf5757649aed2e"
+  },
+  {
+    "activity": "ca-S023",
+    "questionId": "pendents",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "127731c2c27134635c818be69211ea95b18c1a3895b98b75fb0c86c41f4a5341"
+  },
+  {
+    "activity": "ca-S023",
+    "questionId": "principal",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "0a2988370bb7603622eaa0ea5c618dc9d9edde2abe2bedcf07b8c153dbd4e0e8"
+  },
+  {
+    "activity": "ca-S023",
+    "questionId": "seguiment",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "77a68bfaff6e12d304f627f2efb952a108db11a5c5cedac2bc36b6707054e080"
+  },
+  {
+    "activity": "ca-S023",
+    "questionId": "suggeriments",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "b0a56fa4b0567f589c68c2db202074326775f4e10880a24fc3cecec25c9b77cf"
+  },
+  {
+    "activity": "ca-S023",
+    "questionId": "tarda",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "b21041ad9674f05c5b9ef9f507b0e436120c076315421d65281fcfff7841c73b"
+  },
+  {
+    "activity": "ca-S023",
+    "questionId": "titular",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "315ff27ba9e5ba0b32a214eec23679fbe889fb528e3366287a4ec123c34c08b2"
+  },
+  {
+    "activity": "ca-S023",
+    "questionId": "vendes",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "2d9d880efdcd0d4374ec5528965830a59dcaeb4997dd229f8fd3955bd4108cb9"
+  },
+  {
+    "activity": "ca-S024",
+    "questionId": "acord",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "0e6321070ccefc70945db1929b03e0c43ce8efec671bb763110dec8316329a35"
+  },
+  {
+    "activity": "ca-S024",
+    "questionId": "arbres",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ec637e0add98fa8c4b82add29c26b53fad97b70b6d0e50bf3415fed7d96a404b"
+  },
+  {
+    "activity": "ca-S024",
+    "questionId": "bancs",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "42ded46594d38eec9ca9f2460cbf2d17c0b59a1fbe82c38026720767a16bede6"
+  },
+  {
+    "activity": "ca-S024",
+    "questionId": "enquesta",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "c4b8a0d5455ed8569b4ee4d1d31ac2d38778e1c4d0eb5f44bddadac27a7081af"
+  },
+  {
+    "activity": "ca-S024",
+    "questionId": "final",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "63bf159a347a5d9886368472f32acc6c8ec7a9bc2ea0b6058c75ac01e250b3ce"
+  },
+  {
+    "activity": "ca-S024",
+    "questionId": "informar",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a30f986619509996dafc4addd9aa71ece2cdcca65d8900b1c1d57fd9e5f91f77"
+  },
+  {
+    "activity": "ca-S024",
+    "questionId": "jocs",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "aadb722082c24b49942db5c299c279dc8282a3199495cac93f5aa9322cd154d8"
+  },
+  {
+    "activity": "ca-S024",
+    "questionId": "limit",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "1a06e39c09aa12210114ba25cc420ca181564051402321d0d4553973ce358695"
+  },
+  {
+    "activity": "ca-S024",
+    "questionId": "necessitats",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "cd335ad1892ee6f96c978d5ba9e95610ecd908631d2052499d12d4a279ac03e4"
+  },
+  {
+    "activity": "ca-S024",
+    "questionId": "tria",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a851b057d30b731807e3b2a3c53769f4784da64526acff529d049fb343d5c965"
+  },
+  {
+    "activity": "ca-S025",
+    "questionId": "causa",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "3dfdf7c7b3ca2e232740d2e618768da6b0e92d797639e4e67d7cde23bfacbb23"
+  },
+  {
+    "activity": "ca-S025",
+    "questionId": "motiu",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "28428403def721144b21b70ebfb38b8bd9febe35ad08c894c3c1c431d22be61e"
+  },
+  {
+    "activity": "ca-S025",
+    "questionId": "principi",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a399f5c197ec52f602434ed1489b2c0a73f41b1afaa0a2da04bebc896f537480"
+  },
+  {
+    "activity": "ca-S025",
+    "questionId": "que",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "569a0c3a0f5805f20dc9f56c3e9075f65c7aca57bee056858dd2128f5dce0702"
+  },
+  {
+    "activity": "ca-S025",
+    "questionId": "qui",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "4186c5d8973e3dc3457dd038036530711e31ba70f1ae1239128fa166a842af66"
+  },
+  {
+    "activity": "ca-S025",
+    "questionId": "taula",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "b669444e38b163efd50711cefbe45853d2bbcfabcd3035aeab376d4c8601bcd8"
+  },
+  {
+    "activity": "ca-S026",
+    "questionId": "abans",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "b65883e8386495e86e48f637e78ce6b2a8436255783965487090343ef64c47ae"
+  },
+  {
+    "activity": "ca-S026",
+    "questionId": "avui",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "180e1e93cbd2637dc4dd13646461b2669f0f043c48d5ce414f77c469932d1cff"
+  },
+  {
+    "activity": "ca-S026",
+    "questionId": "barrejar",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "6995c1b37dfcef6dec7d5ceabb65e18fea3051fabd3753fc1a66019ad988af71"
+  },
+  {
+    "activity": "ca-S026",
+    "questionId": "inici",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "8863a296a157f30aad966ae431626f4e2700661b25e7bc3f34cc4f4868288106"
+  },
+  {
+    "activity": "ca-S026",
+    "questionId": "llista",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "1411b9083fc010da497bd7812f5853815fffd2917229a51b6776fc74b5b1cde8"
+  },
+  {
+    "activity": "ca-S026",
+    "questionId": "nota",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "1393e8cc2fd6b057b64c4d711ec681848e6a347ed2806918cfb9e7d42cd55998"
+  },
+  {
+    "activity": "ca-S027",
+    "questionId": "ajuda",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "f4eac6276d5786b102b7e25afd456a019ff35443a550762d0f5bc31bcd0c793a"
+  },
+  {
+    "activity": "ca-S027",
+    "questionId": "avis",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "bb2d1b6be2d998a19b65a2c4a565b78962673c9b0553b01f9185f97e8fcd5603"
+  },
+  {
+    "activity": "ca-S027",
+    "questionId": "estel",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "119575f196b22d490e311a58a8b0bc745f1adc344df441283f44dd8993ed3e30"
+  },
+  {
+    "activity": "ca-S027",
+    "questionId": "on",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "0aed81e6008c33732fd95514a2aa1e40fd8f7d3af944e194c45c68e9ac64f73d"
+  },
+  {
+    "activity": "ca-S027",
+    "questionId": "pinces",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "60f76dcdfa6529bbd845944882334ecb549fc230a5067c363f9fbf4030771a0f"
+  },
+  {
+    "activity": "ca-S027",
+    "questionId": "pluja",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "c11e82ef806aac6ca48e3cd0edc86451e672aca6ce48434fecd4725f109f3dff"
+  },
+  {
+    "activity": "ca-S028",
+    "questionId": "error",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "95490ef4099d579721489f7ea75a538e3aa929a1482ecbd9fac2b789189e7aec"
+  },
+  {
+    "activity": "ca-S028",
+    "questionId": "maduixes",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "fa97f67c7b295556a2abacee6132a05d140eee2f293b561b6d2b69dfd0e7da94"
+  },
+  {
+    "activity": "ca-S028",
+    "questionId": "motiu",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "80fcea11d7948b9c6d09dc107d165d445940d560a870bf88f73a897ba9c18f01"
+  },
+  {
+    "activity": "ca-S028",
+    "questionId": "pas",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "368b8cb46880f651bd5d008479ddc693b2f51b1d37d192507d649db3114474dc"
+  },
+  {
+    "activity": "ca-S028",
+    "questionId": "preus",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "33762c90e9cbd43398f4f40374d99e40b9d90e649cc93a52707ed4869434b869"
+  },
+  {
+    "activity": "ca-S028",
+    "questionId": "primer",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "554d682e93c065ed413441433959717fc3d4ebb715f70926cfe5794a8e356572"
+  },
+  {
+    "activity": "ca-S029",
+    "questionId": "cadires",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "4de074ed64f340cde53127fc65f1d14fc708b28ba0c7e1bd911aa6b7f8a74c6c"
+  },
+  {
+    "activity": "ca-S029",
+    "questionId": "condicio",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "fac2c74b92bbd11719a9abfef0601f06806b7498b5844848f566e8ba2cde57dc"
+  },
+  {
+    "activity": "ca-S029",
+    "questionId": "confirmar",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "7542cebb7bb7b07c37ea3d6fc2631e89943a38df5bb1033f2d9b983e2e6ad3cb"
+  },
+  {
+    "activity": "ca-S029",
+    "questionId": "portar",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "e294dc029a1d4adaebba1e097e999bc09ba2889c3c45d50a7d35fccc9dcbd2fb"
+  },
+  {
+    "activity": "ca-S029",
+    "questionId": "previst",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "fbe4b85019e6440b0476d7902af1925fe87a1eae1c29e2f2676cbb40ac0e8f5f"
+  },
+  {
+    "activity": "ca-S029",
+    "questionId": "reserva",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "0ab3ccddc4c8dc28ba3a7e7949da75a1d24183c640a52cae4c3eb9cd96537093"
+  },
+  {
+    "activity": "ca-S030",
+    "questionId": "classe",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "9ca055b87c08edd72befd83a3033e6e05f5e9a9a3ed0572f4ef5efb8a95bf650"
+  },
+  {
+    "activity": "ca-S030",
+    "questionId": "comprovar",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "71b9f63fb5da40cdf202135e8f14505220ba4884f7bd9f0a5e43e39ed3c6306c"
+  },
+  {
+    "activity": "ca-S030",
+    "questionId": "dibuix",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "629915e2de3868abaa0489700832d954ae0ff53f9bec4dd1385302d19b436aa5"
+  },
+  {
+    "activity": "ca-S030",
+    "questionId": "espai",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "305f153702dbf4b0d8df8ece406624b2cd2ea62bdc0fc6f207691d4c2d2473ee"
+  },
+  {
+    "activity": "ca-S030",
+    "questionId": "lloc",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "01125f4d9f0b4d3ece6a85167bbf22abba4b1f6bea6d713741de713a1d2ae262"
+  },
+  {
+    "activity": "ca-S030",
+    "questionId": "on",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "bcf86e4583887ba38cd6a6acbd62f8e02cd4ef144bb5d388c6673091c58b3406"
+  },
+  {
+    "activity": "ca-S030",
+    "questionId": "titol",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "6852d2996c159cd4c64515c1b0b1c8bf85f07d5c69b87edc50f84c4b3c0e3eb9"
+  },
+  {
+    "activity": "ca-S031",
+    "questionId": "ajuda",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "f7f3a780385780c3b0749cd417374c6afd2ba61d9c664e222d01b65eb4005537"
+  },
+  {
+    "activity": "ca-S031",
+    "questionId": "decisio",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "169e5b4170fbc3dd3b66a330c12f88b725484bfb06fa253c07ff327570b9462f"
+  },
+  {
+    "activity": "ca-S031",
+    "questionId": "escriure",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "6edd75b254df0e2a9abcd3c8f22589355d64390acef2c9455715e4d7271b0da1"
+  },
+  {
+    "activity": "ca-S031",
+    "questionId": "finalitat",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "7840644e8829ff30de4e61258b2a317324d688b44c9c14946bfd683c9cd446e4"
+  },
+  {
+    "activity": "ca-S031",
+    "questionId": "lloc",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "7308656110fa0d3a53ed49768948f08c3394ff713e6f00a6bed11c1e4ab5644a"
+  },
+  {
+    "activity": "ca-S031",
+    "questionId": "nom",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "5465ee233833b84b7bf5c3d6887bbea1470f5048229c590fdc0346968d6b541d"
+  },
+  {
+    "activity": "ca-S031",
+    "questionId": "retorn",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "5e213bcf1a0e42976f22f5b0b5f30ff5fa754ce92597e0cbb58ca143a35f1719"
+  },
+  {
+    "activity": "ca-S032",
+    "questionId": "ambigu",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "f66513babf6dca1ba366b0a72a4fb8ecd33d94c60d59a65b8be52a54385cd95e"
+  },
+  {
+    "activity": "ca-S032",
+    "questionId": "destinataris",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "c83695b23af90adb09241f991509180b1f27740cbac07093b84818650a115ee9"
+  },
+  {
+    "activity": "ca-S032",
+    "questionId": "encallat",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "69783b5f4b56b427d9a6ac67d78e0088472e2387238704728613b51ec544dc2c"
+  },
+  {
+    "activity": "ca-S032",
+    "questionId": "laia",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "898a5e391de470aea4ab013e219d730e8ecccf32c8e40ce421be726bbe788131"
+  },
+  {
+    "activity": "ca-S032",
+    "questionId": "ordre",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "aefcf6904a74ecb44b78a9e3392936c89f842d1ff9f808664f36567d162a4e4a"
+  },
+  {
+    "activity": "ca-S032",
+    "questionId": "qui",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "dfaae39ec3a7ec8f62962d8109cc5dbef2461695ebaa88dcc265595e944056e2"
+  },
+  {
+    "activity": "ca-S032",
+    "questionId": "solucio",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a55c2790b79c929bfed8c3973da713fc12ead5e493e3ba420c2a6b4d78811643"
+  },
+  {
+    "activity": "ca-S033",
+    "questionId": "calaix",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "6432c532d45dc721706b1f23da297daaf519213ec5abe325696fa02f5b972269"
+  },
+  {
+    "activity": "ca-S033",
+    "questionId": "capsa",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "626f0c7285d1f4fced63c18c749c1455e7e4442f76ed7d83f2f3a6afddf4278a"
+  },
+  {
+    "activity": "ca-S033",
+    "questionId": "cartell",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "5afdf64fe3fa6e8e120b07b2f3dc28ce4921ae8cb9ad6b5faee6c015f760946a"
+  },
+  {
+    "activity": "ca-S033",
+    "questionId": "mostrar",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "96071c5a7f41468bdd104efb86cb93fc8c19c39663dcb41039c75e252539f3a9"
+  },
+  {
+    "activity": "ca-S033",
+    "questionId": "prova",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "65b8faf168349d10438a65886987dae467939fd63ce56c737512525852dd318e"
+  },
+  {
+    "activity": "ca-S033",
+    "questionId": "semblants",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "0616583462171bfd85ba85b4d5f3bf77d075de25e047d69b8ce798fe3cae460c"
+  },
+  {
+    "activity": "ca-S033",
+    "questionId": "totes",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "823fbf33affd753e4f0cfa459fc92409cd8cac30a0334eb1a086b2cbe94e8f5b"
+  },
+  {
+    "activity": "ca-S034",
+    "questionId": "aturada",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "f435d074daef81860a46349fcc5a61457b2cc08cdbf30be9cec7423ec8126ce6"
+  },
+  {
+    "activity": "ca-S034",
+    "questionId": "confusio",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "f3acf2789ea0919333bef984f94dc9068d378741612981af692fe701631ced64"
+  },
+  {
+    "activity": "ca-S034",
+    "questionId": "data",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "e7a2de33637b6055408f850b243eb520ea53a6dcd18e8401065d33d2ed737e7d"
+  },
+  {
+    "activity": "ca-S034",
+    "questionId": "feina",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "b7583579a93bfe608a33be19ffd262e06e960721e87bfb1c45c207f73815496b"
+  },
+  {
+    "activity": "ca-S034",
+    "questionId": "ferran",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a6fec3e4f22ba27521944c3f448c757e0028b18033141cfd1a3cc45d45a1bb36"
+  },
+  {
+    "activity": "ca-S034",
+    "questionId": "final",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ce53df351ad754737fc0cfa94c11a169600f2bb8d5cb0d094760a44356baba8e"
+  },
+  {
+    "activity": "ca-S034",
+    "questionId": "porta",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "9d0318bf5dd582ddd2ef5d2add620c4351ea58d22edf8f530176fbbbb25be098"
+  },
+  {
+    "activity": "ca-S035",
+    "questionId": "absents",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "8c576b534aa89348ad16d21bf17502348bc120d4fcf48dc2be9567d66ae6138b"
+  },
+  {
+    "activity": "ca-S035",
+    "questionId": "destinacio",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "7c45013188feea31a5efad41a67b1374654b4304d769f0aeb91ebb1a2033648e"
+  },
+  {
+    "activity": "ca-S035",
+    "questionId": "dues",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "11f17a3bffc9902d0f707add5da7439a93f9abad266045ac67cbaebf29051504"
+  },
+  {
+    "activity": "ca-S035",
+    "questionId": "noms",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "acfb703a58a9b15751f1a00c794fc358f321a2a670f19a8244c457b2d888826c"
+  },
+  {
+    "activity": "ca-S035",
+    "questionId": "opcions",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "41f2825b6183486f16f76852e01ba4d3fcc24a9117cf59eeafcdfde712e0580c"
+  },
+  {
+    "activity": "ca-S035",
+    "questionId": "problema",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "2cecad08b2e3142b3fff1d6e80d8f1ccc5633e04a0e7745bc24e2b11d18e3047"
+  },
+  {
+    "activity": "ca-S035",
+    "questionId": "prova",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "fb96f55d99c3e0d0558c74f0961ca4ce53b78632e160b97208b47f26940a6924"
+  },
+  {
+    "activity": "ca-S035",
+    "questionId": "resultat",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "9defdf8b38761d3c066b144eb40d1f3ad997dd88ef09e5c650256eb6a78544ba"
+  },
+  {
+    "activity": "ca-S036",
+    "questionId": "comparar",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "dd05404ddd327150cf0472e25f3aafcf9848c8e58ff5ad6dae6e9bb432284367"
+  },
+  {
+    "activity": "ca-S036",
+    "questionId": "fotografia",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "d47def58b98c0140583e35776245a5ba15a968b1df457b68254c5fd3bad86fa2"
+  },
+  {
+    "activity": "ca-S036",
+    "questionId": "material",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "e41923ff4efe4e0c255a570b214c1a45e0736463e187f7a97ed6fdec48557f05"
+  },
+  {
+    "activity": "ca-S036",
+    "questionId": "noms",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ae45c5b6c1345fdb616c4959ce9221c13be8539eb52cdeb5b48a1d09ff658609"
+  },
+  {
+    "activity": "ca-S036",
+    "questionId": "numero",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a18454c6f6cb6e252aa98974238eea6559b98446069cb285f0f8632800892ca1"
+  },
+  {
+    "activity": "ca-S036",
+    "questionId": "paper",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "f6653f49b9b9ceb181d41b45bf5efefa8acf12f5aa2d5799f0a60f7ee2bfc030"
+  },
+  {
+    "activity": "ca-S036",
+    "questionId": "public",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "5bb36bf22849e697a36b6da0e112ba8d62459dacbe8feed561b568e50e85cc50"
+  },
+  {
+    "activity": "ca-S036",
+    "questionId": "registrar",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "dee3f846ea6973bd19e51692b39f34a3a92391eb18e414ecd5456a659eb7a4d6"
+  },
+  {
+    "activity": "ca-S037",
+    "questionId": "aina",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "850edca52bc840be1d6c4a3cce5f1d321012fb2714ec546d56b8fe8345b27f72"
+  },
+  {
+    "activity": "ca-S037",
+    "questionId": "hora",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "0c168176fb5845b5767f268b5bba34fc083868d43a9452361c864e72c8c647c4"
+  },
+  {
+    "activity": "ca-S037",
+    "questionId": "llocs",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "c2e2f1f4adb2b743a9ed50396a9d2423c27cc20d0ab059ad13099895fd7720aa"
+  },
+  {
+    "activity": "ca-S037",
+    "questionId": "motiu",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "fa109552fc94bbc08ab7bfa2ff7d17a2d2ceef81b5902020f4ff8e9a2cb74564"
+  },
+  {
+    "activity": "ca-S037",
+    "questionId": "ordre",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "669b65df01fae9901e93c6bd3aa53b6415558d34626e57083e231c8ab4f29fca"
+  },
+  {
+    "activity": "ca-S037",
+    "questionId": "pendent",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "2d1bfa64d67476917cdb789287b66aba275e7ad87488aa0a57b3f323665758e0"
+  },
+  {
+    "activity": "ca-S037",
+    "questionId": "porta",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "90ea6d64457fa3081a65dbd75b5dfa9524863928acde4287354e52087bd2a254"
+  },
+  {
+    "activity": "ca-S037",
+    "questionId": "vell",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "530dbc7ed1db5b9ca58533303c59e1d8e7180f51916e6a4cb259ce1d512a8755"
+  },
+  {
+    "activity": "ca-S038",
+    "questionId": "ajuda",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "3bcaf9d1e09e17b7b5cecaa183dc72ee16eee2256f14a12ea3d5dc59ef1524af"
+  },
+  {
+    "activity": "ca-S038",
+    "questionId": "alternatiu",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "3496de3bc2a4fb06193068837e10baf3089decec38e9767f86499c93d787f3ff"
+  },
+  {
+    "activity": "ca-S038",
+    "questionId": "amic",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "88483b8e7afe631c958f06287681c4d45599056f5b2f8175821a4f85ecb8e24b"
+  },
+  {
+    "activity": "ca-S038",
+    "questionId": "canvi",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "7e10aa0c6de80f12440a2d54167d7c7613eab3821fbc6441293a90e77173c0c2"
+  },
+  {
+    "activity": "ca-S038",
+    "questionId": "cita",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "7d06e34c7a9346e2d2d339bacfc446b8bc16de3951c8ab511d87d7802bdcabbb"
+  },
+  {
+    "activity": "ca-S038",
+    "questionId": "ferran",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "74176201be2cd0f5ef2e88d498492fb930b2b3ecbfcfd57a3057e301cdf828cc"
+  },
+  {
+    "activity": "ca-S038",
+    "questionId": "interpretacio",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "787b5ffb7d600513bab0ce30551cda9770a965f5561f7d445fa52bba5bfa1a82"
+  },
+  {
+    "activity": "ca-S038",
+    "questionId": "rellotge",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "174abfb260e86739935e7d62126f03a04661f8c9bd36dc985510fe859abbdc7a"
+  },
+  {
+    "activity": "ca-S038D",
+    "questionId": "ajuda",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "af2e5e96ea576e771f606bf563f5014aaf888d8db9e0125b195eff8439c64509"
+  },
+  {
+    "activity": "ca-S038D",
+    "questionId": "alternatiu",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "064f2499554ec077b948fbb51b87a28db75e61b0c309ad92f28104b84503d84f"
+  },
+  {
+    "activity": "ca-S038D",
+    "questionId": "amic",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "b1e309e245bb11021d6faaaf820973d715c5efb50762b50c4d62857b44e39362"
+  },
+  {
+    "activity": "ca-S038D",
+    "questionId": "canvi",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "94956a10aea010830c795a2470bdb0672332b5398a6fa2d5771395d7f2813e95"
+  },
+  {
+    "activity": "ca-S038D",
+    "questionId": "cita",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "bd172809d7fb8f829e88885e3a4d12323049cf6166c8aef45fee0034cfe8bc6f"
+  },
+  {
+    "activity": "ca-S038D",
+    "questionId": "ferran",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "9719b9d0fd045530bb800ee06d675b416b4b9f6cb9a45b02f96be2f6d137b4df"
+  },
+  {
+    "activity": "ca-S038D",
+    "questionId": "interpretacio",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a3f92d3e771f1804ac6fa84c480107b0392ecea20e8f85c5a0619f5550cbb845"
+  },
+  {
+    "activity": "ca-S038D",
+    "questionId": "rellotge",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "2cb4700bfd975026e790446b42672f5cae1cfde1b89a1f454a0a55a5c58119c3"
+  },
+  {
+    "activity": "ca-S039",
+    "questionId": "armari",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "82d71c66eab514eff7c46b3bb77b8bd0a91b1f347b02877ac9173495e96a5c26"
+  },
+  {
+    "activity": "ca-S039",
+    "questionId": "capsa",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "2e409e0c1be86b6c0616f5f471161e75c36b52873a5739cfb629dd38a5ef2e9e"
+  },
+  {
+    "activity": "ca-S039",
+    "questionId": "continuar",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "9f4a824a12f0cbed5d375725a95ca1ddfa7a55a9001cd9ac400159d2653cb47b"
+  },
+  {
+    "activity": "ca-S039",
+    "questionId": "durada",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "628c18d6b8aa69b6c9694d91a501069df30031be26b70e980de2acc6def64759"
+  },
+  {
+    "activity": "ca-S039",
+    "questionId": "interes",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "9182971c430747e5f8202cd535b243e875b7a82bf252edda2aa796312a874ca0"
+  },
+  {
+    "activity": "ca-S039",
+    "questionId": "objectes",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "6a523d82bca5e02ef53498438b774b912800a987b40d00c40191ddecb2a2a29b"
+  },
+  {
+    "activity": "ca-S039",
+    "questionId": "recompte",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "f62290c76bd7e67f5ab44037360c89df36faa36dc385501b112b07bfaaeec240"
+  },
+  {
+    "activity": "ca-S039",
+    "questionId": "sense",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "9b6565fc7763d2bd33fdd22ecc91557db5bdfcc3812b4c2113f65d4653624d06"
+  },
+  {
+    "activity": "ca-S040",
+    "questionId": "cartells",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "106b016dfb078ced7d7f2176d98b64bb56a67bf6ee854a1059a2b8df4dc734ef"
+  },
+  {
+    "activity": "ca-S040",
+    "questionId": "comparar",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "b913328b4129593cfd9250ec1afe5af40d89eb9f6a8c9da09187d10fcff98013"
+  },
+  {
+    "activity": "ca-S040",
+    "questionId": "inici",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "fc13fbbfed29430b2c91fbf3026d28dfa8dfaca2a367b4b2cdcf07b4ee0cec84"
+  },
+  {
+    "activity": "ca-S040",
+    "questionId": "moltes",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "78d954390168018e9e8bf934843c42fdc036ed239775f5049c5044520f64fe56"
+  },
+  {
+    "activity": "ca-S040",
+    "questionId": "musica",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "d55da8123dd1123139d09210ea1dc311e734e2914cd4aedc770c327480259acc"
+  },
+  {
+    "activity": "ca-S040",
+    "questionId": "opinio",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "9be487133829415e94108195124c94defa96e9c837182da7fd724b9f86988a50"
+  },
+  {
+    "activity": "ca-S040",
+    "questionId": "qui",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "1db81c9855dfb6190fffb7e2635f1de3ce7d4174cccab5d506ca4e701960d6ee"
+  },
+  {
+    "activity": "ca-S040",
+    "questionId": "retoc",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ae1627500bca2b7c6fa4a7cb4f89741111a2de854c7e534f87c40cf096359aa3"
+  },
+  {
+    "activity": "ca-S040",
+    "questionId": "veu",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "b189f5c823e2bc664b38e075a475b3d69456fd141a3348436564e3d9f97f705e"
+  },
+  {
+    "activity": "ca-S041",
+    "questionId": "curta",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "f5d2717bf8d4962a50f7ebb15e534ce1006d2e781516cf95b159b91396db67ce"
+  },
+  {
+    "activity": "ca-S041",
+    "questionId": "decidir",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "362c525b98a09ac070db822faeadc7d6eeda31ab2d5489683f44ba017de73887"
+  },
+  {
+    "activity": "ca-S041",
+    "questionId": "encarrec",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "18a32deb1753560aceb5e0207845f47f7e770799e52483f16bad60fbd3edd4c6"
+  },
+  {
+    "activity": "ca-S041",
+    "questionId": "piles",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "550c4dbc70e162b6516ea6c648067890db5b77060876fb29646c9a0faef8d343"
+  },
+  {
+    "activity": "ca-S041",
+    "questionId": "primer",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "585e16f1ee36ddc2959087aa483b234da393d22f9fd4b2d5b575459b6b00c64f"
+  },
+  {
+    "activity": "ca-S041",
+    "questionId": "radio",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "99f2691ece003255f4b08ada075887903c575c6c2cc3325c642b84b00ccdd5d8"
+  },
+  {
+    "activity": "ca-S041",
+    "questionId": "sala",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "f6ee2ec17330298ddc457450a8979e06e7a09bab65fa559d228f23a4fdbe405c"
+  },
+  {
+    "activity": "ca-S041",
+    "questionId": "seguent",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "f43adf3ce0caee0da750e53e1a3ef5d493b718d1e848a26ba69df618fe370a75"
+  },
+  {
+    "activity": "ca-S041",
+    "questionId": "versio",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "09e9f8a334e3467bf320dd228332c903b2af091abcff583c58492631992313b4"
+  },
+  {
+    "activity": "ca-S042",
+    "questionId": "cotxes",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "98d975bc12e11ce5072e71d71da90ef379f6f73529d2565fa1151a5e3fe9fead"
+  },
+  {
+    "activity": "ca-S042",
+    "questionId": "dies",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "c421e624595130707a3600bc3425900c958388ec49ea8929b2e17ffeef87ffa9"
+  },
+  {
+    "activity": "ca-S042",
+    "questionId": "diferencia",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "16c277e1e728b06b3a319188c3935471ec9344d0a355613741f27216fb866f55"
+  },
+  {
+    "activity": "ca-S042",
+    "questionId": "hora",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "6c892784938bc6d035a588bd5443d74b6ac863398cae2395deedd13709b77acd"
+  },
+  {
+    "activity": "ca-S042",
+    "questionId": "lloc",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "42e5b5f32e49da2ce08eb5d52a5a6d045ce584f2114717e0afe11184376fd3de"
+  },
+  {
+    "activity": "ca-S042",
+    "questionId": "mitjana",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "6635f375f101df7075728ee1e31b9344f36e09cafcc573546668ca647309e702"
+  },
+  {
+    "activity": "ca-S042",
+    "questionId": "resum",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "b9fb968e44ed708bac5a4d5f78e0316fab873c331fe53eb5d7d2927ee1f52834"
+  },
+  {
+    "activity": "ca-S042",
+    "questionId": "seguent",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "f88a2e71de5bd9ff82e26569933c0c35a2541c57248a2cd46e46a656ccb38126"
+  },
+  {
+    "activity": "ca-S042",
+    "questionId": "sempre",
+    "status": "passed",
+    "author": "/root/abcd_author_002",
+    "reviewer": "/root/abcd_author_004",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "f77a5c2dcd33fb4796468d4075c341099891e61347b9aacfe194354fc6d5ab38"
+  },
+  {
+    "activity": "ca-S043",
+    "questionId": "decisio",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "72f829e21e92c7e4e6eb2eabeb73989748bd13bf6401bac65a277642f66dd771"
+  },
+  {
+    "activity": "ca-S043",
+    "questionId": "diferent",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a1ceeaf672274bc02959f169240bf46bfbc04d1490ac4a162cbddc9e2eb75880"
+  },
+  {
+    "activity": "ca-S043",
+    "questionId": "edifici",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "c68aa3d6d1bf2cae504b38e0ec23dcce0e2de6aa9efc0d65ad61f54b1fc186cc"
+  },
+  {
+    "activity": "ca-S043",
+    "questionId": "hipotesi",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "4e0b137c61f76b7802cf94728327d6ef2ae50a0f875476e493d286c0fa6e316e"
+  },
+  {
+    "activity": "ca-S043",
+    "questionId": "peu",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "1d3eef71dfd390d3b7cef750a338bf9f43c7bc2927b0a76b1ea9e48c6f38db34"
+  },
+  {
+    "activity": "ca-S043",
+    "questionId": "proposta",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "1051c0a1a7bc1f5fcdc72d461c19d4078fae59a4c8575068538d4b378597ee03"
+  },
+  {
+    "activity": "ca-S043",
+    "questionId": "record",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "91b1b8d4417f5e97a6c6eab4e9454458b14b8b5a1c05c6b18540ffeb290da872"
+  },
+  {
+    "activity": "ca-S043",
+    "questionId": "sortir",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "65bd8a250827488378557e78f68a3ad004fe06dd321115d8ad2e14d8f9034d22"
+  },
+  {
+    "activity": "ca-S043",
+    "questionId": "vora",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "664055838dcd0b46e27ef3b82857504503e0f6dffb1f5447cfdd2d02e8fbb171"
+  },
+  {
+    "activity": "ca-S044",
+    "questionId": "cent",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "58498c485a2090893e2bffd373a7aa85ce9f41c902dce00411607f884abdefae"
+  },
+  {
+    "activity": "ca-S044",
+    "questionId": "comentaris",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ee908ec6def87eb7eebba6214fe03582d802e154d6364c73e1505a58820755e9"
+  },
+  {
+    "activity": "ca-S044",
+    "questionId": "exemple",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "78e5ed792fb26bf8e1b3dcfc6261eeae76a3279daf8267da85c6325ae7c3f45b"
+  },
+  {
+    "activity": "ca-S044",
+    "questionId": "gravat",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ff17be1297010d6bbb1bf0c1b9be14a2edf59c7585cd99ee07f32aa20440f9cd"
+  },
+  {
+    "activity": "ca-S044",
+    "questionId": "nota",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "c1bd5a21300205b8b039a3e238da60584e59bc32173b01e62adfa5ecd9043929"
+  },
+  {
+    "activity": "ca-S044",
+    "questionId": "preguntes",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "316ba54e9a574a09bc866a6bc3afe3c8488219c1b2f533f621e586ca69dae1a5"
+  },
+  {
+    "activity": "ca-S044",
+    "questionId": "presentacio",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "8cff94cda859324d06f69a39c80bc491bee8a25297ecf69b152a52319cf9c75a"
+  },
+  {
+    "activity": "ca-S044",
+    "questionId": "seixanta",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a6ca0bca172d5d5bcc1ca256f0e72fdf3b7f16a6993fa0bce3e53a4cc7035357"
+  },
+  {
+    "activity": "ca-S044",
+    "questionId": "tothom",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "d12abff08205fd0d127b485891ca19ab1510368276be5fe46f3c6f4aa2c44913"
+  },
+  {
+    "activity": "ca-S045",
+    "questionId": "lloc",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "061394f72f4dc38623a8a8292f6221ceabc7b3c2656b12e139bf83eb15f48f83"
+  },
+  {
+    "activity": "ca-S045",
+    "questionId": "marca",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "cc1d5119e3d85f9179063e3b159a092b4c016e88e26d5f36fe0ec681d0fbaa96"
+  },
+  {
+    "activity": "ca-S045",
+    "questionId": "paret",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "3e4ca98cce50a1bb250d2bfe4d00d5dd2e17ea1cb802126951de28fd99e2747c"
+  },
+  {
+    "activity": "ca-S045",
+    "questionId": "portar",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "7d64a0afdcd59af94424ec43e88a660237b3f34cea0d7bbfc3b65adc858c011d"
+  },
+  {
+    "activity": "ca-S045",
+    "questionId": "problema",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "6d9a8b1b3a8afa0417753857c59e17b7f52b502d09a14ba924269aeaccc923d6"
+  },
+  {
+    "activity": "ca-S045",
+    "questionId": "solucio",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "686656f621c7f343bbfcf9ef4062af72d4909184f99ffac790b872fd23682adf"
+  },
+  {
+    "activity": "ca-S045",
+    "questionId": "tornada",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a1de33e84b6fba5c786b931359becd073a8ebf98cdb9e6aabc3b4e9b691e0e1c"
+  },
+  {
+    "activity": "ca-S045D",
+    "questionId": "lloc",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "02e191f06cd16213cad0c1db944cce2cd362b504b5536b025b08ee9196ccbdfe"
+  },
+  {
+    "activity": "ca-S045D",
+    "questionId": "marca",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "bdbcf032c553ff2c0e6eb9fefeaebd28dd15a74e738068b4ff157be336dcbb3a"
+  },
+  {
+    "activity": "ca-S045D",
+    "questionId": "paret",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "b849d792bdbd31437d3af3506443e8510548bbd6ff2a5dbd1579c938ce0c3a7c"
+  },
+  {
+    "activity": "ca-S045D",
+    "questionId": "portar",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "780108250a14570af2bc282e21fe824181db05f363a77a858cb5fb3231d9767e"
+  },
+  {
+    "activity": "ca-S045D",
+    "questionId": "problema",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "da9626be1d8be6899b8103ec0e144eaeeb3a020010aca3edd6c09402d8f6229d"
+  },
+  {
+    "activity": "ca-S045D",
+    "questionId": "solucio",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "3f4794dc4ac57a04cd518c305d8661cc4c8b23cfd39e976cee69db1bdb0d2230"
+  },
+  {
+    "activity": "ca-S045D",
+    "questionId": "tornada",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ef856da2e9fc07cfa34f709c02f6509866e5fe49dcb70e08143409bf9532ec0b"
+  },
+  {
+    "activity": "ca-S046",
+    "questionId": "buit",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "7ef8688414ffef0ed18b74f736fe30d2727959e516d154201f31abd816bf432f"
+  },
+  {
+    "activity": "ca-S046",
+    "questionId": "habitual",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "2211592ce6522a549cf4baa2370e4329dadc34cf8c5134b037ab6f71312df3f3"
+  },
+  {
+    "activity": "ca-S046",
+    "questionId": "obrir",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "cd4f7d8a01d58ac5eaaf9ad6e1814596149a88e4d80d8548575e8dba721ebeeb"
+  },
+  {
+    "activity": "ca-S046",
+    "questionId": "on",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a10b9396bdeca323117bc26b6c0d35d3af6f693aae113fed495abcd515a51d32"
+  },
+  {
+    "activity": "ca-S046",
+    "questionId": "pany",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a4fe06993f37e1748a7f77240d419b61165adcfaacec0e9623c891339dd03e93"
+  },
+  {
+    "activity": "ca-S046",
+    "questionId": "pes",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "33c097fb7e388d404d29626ff0a7be51db583da1ba8f1c0cfb03511f610b08c2"
+  },
+  {
+    "activity": "ca-S046",
+    "questionId": "regadora",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "950c245cbb8a5e0c18b441514eb425f3dbe0c50f7b5891ff110b470eaacb7087"
+  },
+  {
+    "activity": "ca-S046D",
+    "questionId": "buit",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "d051498f6f62b55dcbb656e90ba9d39cb7eefe94b862a0b45c4bc2200be82176"
+  },
+  {
+    "activity": "ca-S046D",
+    "questionId": "habitual",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "e93061bfc91444b9ead37b2ccdbf54081d09c44245929b94482c3bbf769d122b"
+  },
+  {
+    "activity": "ca-S046D",
+    "questionId": "obrir",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "507809ecd45e6df27d114e5538570cd0cd054948e2c37886c4a6fb2ac43dbad5"
+  },
+  {
+    "activity": "ca-S046D",
+    "questionId": "on",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "0d00c15d5417093bebf1ec2b298a867ccb09311d2c370e5962fc2618a6c0ac78"
+  },
+  {
+    "activity": "ca-S046D",
+    "questionId": "pany",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "69170270a4dc80844700fa1c1b8a4562b38ca40c56c3866fba65c121eaa2eaee"
+  },
+  {
+    "activity": "ca-S046D",
+    "questionId": "pes",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "1115308e02eea62b222becfa5208e28802c371a4886bcffdc4d0174189376d57"
+  },
+  {
+    "activity": "ca-S046D",
+    "questionId": "regadora",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "92319295c1bd16053e3e8dbd2408578b66008dcecaa468f88785938dc30724cb"
+  },
+  {
+    "activity": "ca-S047",
+    "questionId": "blau",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "c83338f8ba5b49e5b2e8e2eb1271215087811af30a09def808c39508169e152a"
+  },
+  {
+    "activity": "ca-S047",
+    "questionId": "capsa",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "b71886074d77c6b462212b7ede5ad590704dc338fc8faa032d9bd490bba8fb6d"
+  },
+  {
+    "activity": "ca-S047",
+    "questionId": "destinacio",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "615bbb1db8f4f2393efa984e6771bf0402828a0fc8019c9a950e5aa84c3dbbb2"
+  },
+  {
+    "activity": "ca-S047",
+    "questionId": "esperar",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ab2d599826c1af912918c1e28b169f5da0c26ad07fbdeb9b22f3bb8838b9ab5f"
+  },
+  {
+    "activity": "ca-S047",
+    "questionId": "imagina",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a094b02cacd7b76424d0a1ee272adbc6048a2af9ef507abc07064f41d62aade7"
+  },
+  {
+    "activity": "ca-S047",
+    "questionId": "ofici",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "e48501aa20c4fd269a35a340a7f803c1d31abe7326d118c0edf4c979a7cfda95"
+  },
+  {
+    "activity": "ca-S047",
+    "questionId": "so",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a2414cf64c16c0be1240035d9661cf0156bb5c39603f7c938b4467d836c75dc9"
+  },
+  {
+    "activity": "ca-S048",
+    "questionId": "espai",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "75c26f29c11b058a294a408f4e871965f2d03653a002fac49e0a7bb6e0b0d98d"
+  },
+  {
+    "activity": "ca-S048",
+    "questionId": "nansa",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "8c20c34a8b1fd9be181d91000af0a337537928e7fb88b58959903fc1fc59926b"
+  },
+  {
+    "activity": "ca-S048",
+    "questionId": "pas",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "fb613b32334a5593e25a60857b9cf0fc9845fd4aafb6a2fcdbc141d8d09003b2"
+  },
+  {
+    "activity": "ca-S048",
+    "questionId": "primer",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "3807342fe26dca5fc3749c7e7bbd58b56e1ac083bef0398fee94e823c2e6b4bb"
+  },
+  {
+    "activity": "ca-S048",
+    "questionId": "retorn",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "aee6b05b375aea0fa61ea4c666e21924ffb97422249059e2ae1433b1489ff6d6"
+  },
+  {
+    "activity": "ca-S048",
+    "questionId": "us",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "210bda299970ea758af371403ab53c7864d2b6cd850b50f41ac60996a8df76e0"
+  },
+  {
+    "activity": "ca-S049",
+    "questionId": "ajuda",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "1173b545e31ec03ad62c7e3ec5a0ecd86eb06453fa5faa520948e5b7d5412f9c"
+  },
+  {
+    "activity": "ca-S049",
+    "questionId": "avui",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "fa34118865d2734c6bb6e5bbfd5eb84083433c04ccbe735557d8e2a9a756b824"
+  },
+  {
+    "activity": "ca-S049",
+    "questionId": "habitual",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "aa31b794014ac46308ce80f851c075e5f1c4931c27a7047be44a53723afe84af"
+  },
+  {
+    "activity": "ca-S049",
+    "questionId": "motiu",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "5d2d60f1b259b1497dfb22a97e698bf63ebf8f1af3e75439b41a87a9d12999a4"
+  },
+  {
+    "activity": "ca-S049",
+    "questionId": "quan",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "4d22a1f311468babb8b275014ea809d922e3f9995c7667fcccb791c6b565990a"
+  },
+  {
+    "activity": "ca-S049",
+    "questionId": "sota",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "de79855a916ec936c95384f3933b05ef2abb0ff0283796ed21f61726be54b049"
+  },
+  {
+    "activity": "ca-S050",
+    "questionId": "boto",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "5bbf9d65ea82831db3a00496bed0bbbdb754ab313a29292b8a8c7c535a34abe1"
+  },
+  {
+    "activity": "ca-S050",
+    "questionId": "encarrec",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "385c493dc5a73af4c86b2c128a4abf3ed8f6fc4f06ad0f44b3a7859e1db54c05"
+  },
+  {
+    "activity": "ca-S050",
+    "questionId": "final",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "212f2e2e63cfaa32f207022fa781d87a343a8866afe54be22791ae75a11b1eb3"
+  },
+  {
+    "activity": "ca-S050",
+    "questionId": "numero",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "9d3903dd5c0bce5d07666500d939c04d8a718ccf1b30288a89d41408afa7472f"
+  },
+  {
+    "activity": "ca-S050",
+    "questionId": "ordre",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "f0f581aac0cd06453d6a4fabd03ba67e30e9ff59c6bcd237299b58857262c3cd"
+  },
+  {
+    "activity": "ca-S050",
+    "questionId": "safata",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "9b2e3f7ccfc4fd6de3e8424c32126d6b703ea921180ec0658dcc19b88cbbbfd5"
+  },
+  {
+    "activity": "ca-S051",
+    "questionId": "costat",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "607272d483a496b3d92540c0f10e4926d1d70f1345ba7c56c250c5e907c25f6d"
+  },
+  {
+    "activity": "ca-S051",
+    "questionId": "lletres",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "0a33ef3abf1d78cb3111842b68ae4cf07ab2b2e02598be205e02a7140194ec36"
+  },
+  {
+    "activity": "ca-S051",
+    "questionId": "objecte",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "9684bd9f6a514f72884676521ac1ebb435a22314bf6c422f10bb0acd43a91f86"
+  },
+  {
+    "activity": "ca-S051",
+    "questionId": "paret",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "1fc44d9e901bb5f8efa4771dcdd9f9d677fe4d21be9c00dbb5af2c0e656d682a"
+  },
+  {
+    "activity": "ca-S051",
+    "questionId": "repetir",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "53d79811c4663946c6c4708f9d7bf944ed547085306e43d16cff0b5036b014ba"
+  },
+  {
+    "activity": "ca-S051",
+    "questionId": "suport",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "3f563ec43d4610cd007533cf8a0366156c03d61ee6da8ca43d1fc925ed524d80"
+  },
+  {
+    "activity": "ca-S051",
+    "questionId": "tapat",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "9ce0b3a1406f71bad40dcf29a4438298427c18e703e96bb96b1bc338bee1d4f7"
+  },
+  {
+    "activity": "ca-S052",
+    "questionId": "espais",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "6385ee3451a98122ada67c76e14234b5053a8273972687489389285bc211990a"
+  },
+  {
+    "activity": "ca-S052",
+    "questionId": "guardar",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "fd8dee5d526c6fd4dd5632cd2b62074832a76b51ff029c59222638aa245c8eea"
+  },
+  {
+    "activity": "ca-S052",
+    "questionId": "mostra",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ae155ae56fcd925f162264a1829db33fe6064d3fc9c1580c11edd089323562db"
+  },
+  {
+    "activity": "ca-S052",
+    "questionId": "original",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "5891db656777dc12fb7a25da1729ead7fe28a47d3518795988b1c9ca008ce0e7"
+  },
+  {
+    "activity": "ca-S052",
+    "questionId": "principi",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ad991f4a3c528a4e5bfd69f5fd2c3971ff1078d91323ffc2fabb7cd2da84d79e"
+  },
+  {
+    "activity": "ca-S052",
+    "questionId": "real",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "d8badb73dfc20c87ca7c48969eee3a3a531a7200920db4faedbe30a9e088fd32"
+  },
+  {
+    "activity": "ca-S052",
+    "questionId": "tapa",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "6b0d2bd864b70c02076fa5d79d2e591ea148ebfd89881b4f02c0a661d26f0d48"
+  },
+  {
+    "activity": "ca-S053",
+    "questionId": "acces",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "19b59a626fd2458a881e46b81604d3b3d6a23358e0b445c7760c64d355389356"
+  },
+  {
+    "activity": "ca-S053",
+    "questionId": "coincidir",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "45fb24bc95c307a747f70fe5024b8fde38d8d4232e361d14c0f460bf3e97c73e"
+  },
+  {
+    "activity": "ca-S053",
+    "questionId": "dia",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "17b5f81a6baccba9354d00aef0b4a97cd1e39e94c270f1d6e7bb21e1fb057897"
+  },
+  {
+    "activity": "ca-S053",
+    "questionId": "dissabte",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "6598221dade98a00ffdab62f690d122db4187911e849e233e49e915c276ea88a"
+  },
+  {
+    "activity": "ca-S053",
+    "questionId": "lliure",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "681e9e31ef86a6cb9d4143e368a53e0847ac89fdad5bed1a813867efd2dd7bb7"
+  },
+  {
+    "activity": "ca-S053",
+    "questionId": "pilotes",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "f0e9d85569e55166773bd6f45123e40b07d7fb1036227714f891ee7295beebb7"
+  },
+  {
+    "activity": "ca-S053",
+    "questionId": "problema",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a2c637e99226d5eda6a01510524478734128d79b2fa1e04b5fff19c1decdbafd"
+  },
+  {
+    "activity": "ca-S053",
+    "questionId": "reserva",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "be99f7a2dfb4d91aa52ca3020e8282d7b01bc65873e7a5f85ce3da2972526021"
+  },
+  {
+    "activity": "ca-S054",
+    "questionId": "afegir",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "0d4aa9284c40a191fb6c76c30b62c5c0729400ba7400e76bccef1fec603d65cd"
+  },
+  {
+    "activity": "ca-S054",
+    "questionId": "canvi",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a449c7147d6b25751c25acc7b27fe42fca72fcc5e46a60afe606cd679aa50a1e"
+  },
+  {
+    "activity": "ca-S054",
+    "questionId": "confusio",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "35e5af996ddb97e21066a45aaf954989a881176bf8c2928c679edde44ffcfc1b"
+  },
+  {
+    "activity": "ca-S054",
+    "questionId": "espai",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "18234d3ab4ff73b2f8ae91e779b104d455c940c458bd82acb865b32642e71d9e"
+  },
+  {
+    "activity": "ca-S054",
+    "questionId": "motiu",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "27ef107ed4b0025c1ae7d19771794827e4f20793ec4f5771dcf5a53298763dad"
+  },
+  {
+    "activity": "ca-S054",
+    "questionId": "prova",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "c09c74bb53e4f9afe13bdf049f3d69bf12d238be0f1395ee1c0bb453d3883ea3"
+  },
+  {
+    "activity": "ca-S054",
+    "questionId": "qui",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "e50ad36a4cae5cf2e7b8c1894abc0453e86d5e8465b3c9316bd61605bdd3bb4f"
+  },
+  {
+    "activity": "ca-S054",
+    "questionId": "tard",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "eb2503269b5739388953334ce369e036fd265146e92b097f3c55b15b7b0378ed"
+  },
+  {
+    "activity": "ca-S055",
+    "questionId": "copies",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a4f1f575787302b93fa59a607d10a4eea62647eca98e9ee74336334e73473f5d"
+  },
+  {
+    "activity": "ca-S055",
+    "questionId": "dates",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "6361282fb46cf9db440190155770771a4839b484738fafa95b5e1f19e2e15696"
+  },
+  {
+    "activity": "ca-S055",
+    "questionId": "despres",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "940c80e7be848166778bac9abc10a45ee97c1690dd8eaf9cbefc660decf04ce8"
+  },
+  {
+    "activity": "ca-S055",
+    "questionId": "etiqueta",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "2970834ed4be564f2c7041e3a8bbfe733ee42a17d36ceee788252a159bbd9445"
+  },
+  {
+    "activity": "ca-S055",
+    "questionId": "guardar",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "655afd5dbf2b67ed709d298f8c4ab2378f9485c8ea8ef368c6f7141c0ccc0286"
+  },
+  {
+    "activity": "ca-S055",
+    "questionId": "origen",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "5df0ec1edfd983319025ad2a6c687c48c83a9039c83640dcd1d412535d4fc04c"
+  },
+  {
+    "activity": "ca-S055",
+    "questionId": "participar",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "020ba2fabf9029af4980cf0311f7053b65b2dd58849b2eb2a87d0f93b5d7ef75"
+  },
+  {
+    "activity": "ca-S055",
+    "questionId": "programes",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "146e9384a2aabb4e55c54d20a2aa7a20153c11193c25c2f4cbef09311c056311"
+  },
+  {
+    "activity": "ca-S055",
+    "questionId": "versions",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "17bad1316bbcd078cce3cefaae508b1e10b97424b6f22ebdd0ce84fbf46b2110"
+  },
+  {
+    "activity": "ca-S056",
+    "questionId": "abans",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "555e8acf7d9b9f4e88d72384a59eb53eb1187feb55cf5bab31bbd6d20ccd161c"
+  },
+  {
+    "activity": "ca-S056",
+    "questionId": "conversa",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "4a346af1b6315ed862fc6a774d0d2b67dca1e9b435df43107c3396eceb3330ab"
+  },
+  {
+    "activity": "ca-S056",
+    "questionId": "dues",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "84ae3ee14601a1c5ab1e7552cbfff6515f897a7025eedc515a11c64bfd3c83e5"
+  },
+  {
+    "activity": "ca-S056",
+    "questionId": "franja",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "d91865e4f6e85c8e363d05a983a20f1eaca545fd317440d88378245c97280d87"
+  },
+  {
+    "activity": "ca-S056",
+    "questionId": "grans",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "6180eb92b464fbb86dfdb871112d80f9357e62386111f0ed41c86cb5ad0a7532"
+  },
+  {
+    "activity": "ca-S056",
+    "questionId": "inscripcio",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "0f4d6da13aceeef63ab1d3edd301d4133cd0f3e4dee9fafe51fb852091d6a231"
+  },
+  {
+    "activity": "ca-S056",
+    "questionId": "joguina",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "7a6681a404c3a41fd8790c9befe657bb30eb8643ca067f8295989e2f60a936d9"
+  },
+  {
+    "activity": "ca-S056",
+    "questionId": "taula",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "6a8dfb5f919c5786a2737f3d092d4c8a8a38bd3b99ebcfa9bd46cf5b3f675a0f"
+  },
+  {
+    "activity": "ca-S057",
+    "questionId": "ajust",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "39159d362a5267b00415bc9df0b4caef4242b559e0e196fe02ba90b42954ed87"
+  },
+  {
+    "activity": "ca-S057",
+    "questionId": "dies",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "b42432f502e3a37aa5b989f9b9b25d51e8fb8eec90f0af071f03c825d01ee774"
+  },
+  {
+    "activity": "ca-S057",
+    "questionId": "dos",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "50a983e505d0297dbf6970ecb1d4f44e1805ef6a076b2ff8afe069bd60a4481e"
+  },
+  {
+    "activity": "ca-S057",
+    "questionId": "enllac",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "0b542789fb9f5ce9f178623121ed4092d117d0e002eaa9aac214d1f0eb5a9e44"
+  },
+  {
+    "activity": "ca-S057",
+    "questionId": "error",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "6499ffe6a4006322682ed39a16a932481ac1e2bee60d1072a0e79c6d599cbe2d"
+  },
+  {
+    "activity": "ca-S057",
+    "questionId": "full",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a36fca6e4d6084f453eb07ce269f0dbf4b28f4c1688695d6392636fa4267aba9"
+  },
+  {
+    "activity": "ca-S057",
+    "questionId": "motiu",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "9898e60408e4de2513dcd45140bd5abbfdc6e906917b89b8e1c56eadff578099"
+  },
+  {
+    "activity": "ca-S057",
+    "questionId": "parada",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "90d5132d8cc030b45f9ff78a4d05d39f45fe90c756892f0224a946560aabd93b"
+  },
+  {
+    "activity": "ca-S057",
+    "questionId": "retard",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a7739fb725c23cd35ebc2b76bd8e1d54f9524efadfbf93e4fae6c18d786f623f"
+  },
+  {
+    "activity": "ca-S058",
+    "questionId": "abans",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "3ed8e026e8788cead5ca16f26d64b7abf94ece20182e5f8e6597a68bf09320af"
+  },
+  {
+    "activity": "ca-S058",
+    "questionId": "acte",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "cbb00c69db9d71092fa23fcec4bbbd3463b18895a3a857baccfb745c8965c232"
+  },
+  {
+    "activity": "ca-S058",
+    "questionId": "invitacio",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "e1a20c4e0b07d19114edc161b6d73ef3c53dc378757eb153e2294f065317ece4"
+  },
+  {
+    "activity": "ca-S058",
+    "questionId": "mirar",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "f27c32750ad6f902b83178be1cd61517447ddbdc9a0ccbedc6bd8495dd982b39"
+  },
+  {
+    "activity": "ca-S058",
+    "questionId": "numero",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a518a93a21080a68b30c70e249e7c586be8b1eb677ac22bc5dae4c41069caa2a"
+  },
+  {
+    "activity": "ca-S058",
+    "questionId": "paret",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "7a4b06e23ff65a642937349b8144c3477bd3004c4ceb72ba2f1f9e02b2de6f4c"
+  },
+  {
+    "activity": "ca-S058",
+    "questionId": "porta",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "f148fa490fe3addaf603c812492bfd8b4a6d2a321be91a1d3b6cf02ba7b67515"
+  },
+  {
+    "activity": "ca-S058",
+    "questionId": "prova",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "201117f4f2bac7e7a08fcca5a2940c54bcb6e61f1f799f0b9854ae599d026b61"
+  },
+  {
+    "activity": "ca-S059",
+    "questionId": "arbre",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "7227bb527241a8628e4ed7155f99541cbbd403619fd1527aa760f0229779cb31"
+  },
+  {
+    "activity": "ca-S059",
+    "questionId": "cartes",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ebd56437ca4b72211a758c9294ebd9b9890184bedb4b6c6884f1a15c579b7700"
+  },
+  {
+    "activity": "ca-S059",
+    "questionId": "espai",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "315e6e37730bee77b0f8192b0daf0020f49f4384f2f52bcef127d3bee6cbc18e"
+  },
+  {
+    "activity": "ca-S059",
+    "questionId": "finestra",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "90735875c6a9487362062c8dd0721137849a88ea670d4c719a02ca3a800c47a9"
+  },
+  {
+    "activity": "ca-S059",
+    "questionId": "mes",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "2c1e60e39996ba610a944342afaaf4d4a83223ed14d4adccde6e0541a5a77b55"
+  },
+  {
+    "activity": "ca-S059",
+    "questionId": "motiu",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "5e99748e3cfb25aae23357d47f0428532bf7511f19a680cfca730955d8b69d16"
+  },
+  {
+    "activity": "ca-S059",
+    "questionId": "solucio",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "0a2d9d8a9a66f89b00d4a50d1ecd134f55a1412d98c508f4ac03f9650df37425"
+  },
+  {
+    "activity": "ca-S059",
+    "questionId": "terra",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a061b97cb7597e30a29f3b8bf1406c18795baa3507e611a1b220eea2d4df7bea"
+  },
+  {
+    "activity": "ca-S060",
+    "questionId": "causa",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "b772e2d4a5dce68a17dab53073d3beaa492085b2e3bcf2ffba119343a045e389"
+  },
+  {
+    "activity": "ca-S060",
+    "questionId": "comprovar",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a21aaa47cd88817d6a745f4c0f139dd8aa397a9bf6907804d429d8cae9f42372"
+  },
+  {
+    "activity": "ca-S060",
+    "questionId": "evitar",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "4cd20dc13eb86fd6c3cf7bc0399bf774c8ba43bc0a07ec5410b76482c1fc44b6"
+  },
+  {
+    "activity": "ca-S060",
+    "questionId": "moment",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "0a576ea7f4f6d3374063b6de6ea27bb71071793ee14f8871828b80efce14c882"
+  },
+  {
+    "activity": "ca-S060",
+    "questionId": "pregunta",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "5de9e8a45caff10d3ad998ce2db25530b3ab1ac3c362451f5d4776a1fafb6a62"
+  },
+  {
+    "activity": "ca-S060",
+    "questionId": "problema",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a30069235824d2a87d94779026c69e1fcf847eb0ccb2df91b4728f693bac5d76"
+  },
+  {
+    "activity": "ca-S060",
+    "questionId": "prop",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "f5c52bb36bec5cc618c255b29a1b08821cfb0d4bf0377f2977adfdaf17f724a1"
+  },
+  {
+    "activity": "ca-S060",
+    "questionId": "quant",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "5e513ff22e2cad7c485865292b54620f449aaa9caeeaae8e9fd5b7d5f57c8e05"
+  },
+  {
+    "activity": "ca-S060",
+    "questionId": "silenci",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "9531239630d6f8a2d0b0413a44ccf8b9e33349935da65497d2c1af799e11871a"
+  },
+  {
+    "activity": "ca-S061",
+    "questionId": "confusio",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a16a3770b277a568ab06dd295683dfd652bb55f18e2e930abd032c50c16ee714"
+  },
+  {
+    "activity": "ca-S061",
+    "questionId": "descart",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "57d6922f8dea92e3a4cb11e109b28bf2c9855b1542900764d09a34b96d6ee587"
+  },
+  {
+    "activity": "ca-S061",
+    "questionId": "espectador",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "643cd64f6d5d4c66763cf1fed96062d557d1cad8f6d71825c15572279b5bcd05"
+  },
+  {
+    "activity": "ca-S061",
+    "questionId": "inici",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "e6847fb51a609cde27a8bcd6c7d24354767d81500f5479075891ea89163b35cc"
+  },
+  {
+    "activity": "ca-S061",
+    "questionId": "ordre",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "c35f3a6d672693ddbe00b126d2c97a4be3ff9cb37d796d517b77d121c7e0b4a0"
+  },
+  {
+    "activity": "ca-S061",
+    "questionId": "portal",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ba114f410fbd51302cd3100c807c031314fff02b0a2a8c6f3408bda2926c4daf"
+  },
+  {
+    "activity": "ca-S061",
+    "questionId": "salt",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "6bca0538052d01d10c45635ca429bf9dadae094961e9d9cd629b8bf2c377eef6"
+  },
+  {
+    "activity": "ca-S061",
+    "questionId": "so",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "27d26aa273a5dcf2af3ad61e6087c396ab0f834e467acb0d2b9a13b8a4aa7fc8"
+  },
+  {
+    "activity": "ca-S062",
+    "questionId": "cadena",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "383c4a32b13e894bb06a581e885e991a80917a772f3f072b0e6a506297c57e9a"
+  },
+  {
+    "activity": "ca-S062",
+    "questionId": "canvi",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "b6f90844e6c14e10222870a5c7306068111da65cc0a20aeedcae77fafe90d4e2"
+  },
+  {
+    "activity": "ca-S062",
+    "questionId": "confirmar",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "dc147140cf1112a447a7ad7ea14de7cd38a9501c7464c9145f5147ad364c7482"
+  },
+  {
+    "activity": "ca-S062",
+    "questionId": "dubte",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a753ee2ffe990fff1d0db68d8cc53d21b52d9a36644c37ce33f818f6c746b461"
+  },
+  {
+    "activity": "ca-S062",
+    "questionId": "dues",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "0f5eacbb5f9b5bc9332a47268fb829deeaff2a0a4a436e3acb3159c32354f9f8"
+  },
+  {
+    "activity": "ca-S062",
+    "questionId": "nou",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "111a6e1b555dcd2892bc6e9cc4cd14720c88f05c9d3dd309159a4143a7f43bb0"
+  },
+  {
+    "activity": "ca-S062",
+    "questionId": "paper",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "86c5317ea6f5b97a2bbda873d196e630109055d56dfa427a7b3229f4ed2bc726"
+  },
+  {
+    "activity": "ca-S062",
+    "questionId": "pista",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "62182952fe1074ace880ead15cf22cbf6bbd4f42fa365ac0552a6db9583bb968"
+  },
+  {
+    "activity": "ca-S062",
+    "questionId": "rebut",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "2db164ec8787b3efb12dfb334bfa842d699805773f875024bc66f751afe455c9"
+  },
+  {
+    "activity": "ca-S063",
+    "questionId": "canvi",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "c95310202254849099bbadd02f62c90e6b44c0ff655aeb4e1bb965600f4c6a57"
+  },
+  {
+    "activity": "ca-S063",
+    "questionId": "cinquena",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "c7e9ec5784f3b0b81a945ae8c49e1eb98d636493284dffca57a49a35ae2c974b"
+  },
+  {
+    "activity": "ca-S063",
+    "questionId": "comparar",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "4fb135247375c56127843acfd83ef45add90b08aa7c5f6cf38dd71103f557baf"
+  },
+  {
+    "activity": "ca-S063",
+    "questionId": "igual",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a4eb4acb877f45ea7e4d5ce7111e7d9f978a88a127eab4b3d70eb979e4172710"
+  },
+  {
+    "activity": "ca-S063",
+    "questionId": "moure",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "2a0ec097afd5ed7435d6dd00780d96e90998e62c8d90a350943539a788b69cc3"
+  },
+  {
+    "activity": "ca-S063",
+    "questionId": "ordre",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "04e0593ebdc5660217f91b7ac8a27ef4dcb76c93469ca680cfe215311b2d447a"
+  },
+  {
+    "activity": "ca-S063",
+    "questionId": "primer",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ea831be0d1187f7b8322a074676e2ee89194a0e62a77386725eb63e2e9fbb594"
+  },
+  {
+    "activity": "ca-S063",
+    "questionId": "ratlles",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "e4343af421006f3996f08d3d143d738d24337de90e16b092267cbf221c967f47"
+  },
+  {
+    "activity": "ca-S064",
+    "questionId": "entrada",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "bd2275c32f5fc2f3e0b743c3a8521182080961633064430d9523d507273da907"
+  },
+  {
+    "activity": "ca-S064",
+    "questionId": "materials",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "5dd916417ae3ed6bbf8052d25c6a65db05ed5dfa9242bdf4fb8cb01f882d761d"
+  },
+  {
+    "activity": "ca-S064",
+    "questionId": "pauses",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "d75be5f4165c7d81448a0f7695bb669edd853f892ee468000ca19ac61cbb40d9"
+  },
+  {
+    "activity": "ca-S064",
+    "questionId": "pregunta",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "9d7d2eef38398f4b0b2df525e2a480c3675a8179b343463a81ee05555f7bc3cc"
+  },
+  {
+    "activity": "ca-S064",
+    "questionId": "problema",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "6197b77202e8a4a2793767f2f89dea666062b551d16c6d71e7e7cf59d2b2d704"
+  },
+  {
+    "activity": "ca-S064",
+    "questionId": "public",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "bda9b8a6f92bc62825bf7d0772533ce632ad87b0fdab0196666a3e472e0253ad"
+  },
+  {
+    "activity": "ca-S064",
+    "questionId": "soroll",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a2d8e54b4a5e59afa159e295d9ede5462f6acbdded0a73ebf6a9b28fc207c29f"
+  },
+  {
+    "activity": "ca-S064",
+    "questionId": "taller",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "248f98ea46e08cf47dfce9db35780803d64e96181096a33ce16ec2038282a82e"
+  },
+  {
+    "activity": "ca-S065",
+    "questionId": "ajuda",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "19a5d514bd2003d791688a10bf64b27b44ad674f9f4d0dbe574c914c118ccea5"
+  },
+  {
+    "activity": "ca-S065",
+    "questionId": "cinta",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "08c85b991581173751928ca744c0796259b5a03df42fad541b1806c719b5c5b1"
+  },
+  {
+    "activity": "ca-S065",
+    "questionId": "comencar",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "6391307174bd4673bbf9b0887298417065b8248b3a9e878d412adf3c7a8d37b3"
+  },
+  {
+    "activity": "ca-S065",
+    "questionId": "dit",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "d040f0f33469af912e1ec0a683142571a9c1cb29e947348fc1d5976beb394ebb"
+  },
+  {
+    "activity": "ca-S065",
+    "questionId": "finalitat",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "7b88ea8c1875bd3bb76e5eca6886d10ab31a57b80c0b7ce249daeb77a5896e5f"
+  },
+  {
+    "activity": "ca-S065",
+    "questionId": "funcio",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "f2929627690930bd4a26e10fb3414e12f331cddd2da270cdb36cfe1273a2318e"
+  },
+  {
+    "activity": "ca-S065",
+    "questionId": "objecte",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "336f2ad2b9c19552bd51554e782228be8b0b990f1f0850429d3c90d47acbdc3b"
+  },
+  {
+    "activity": "ca-S065",
+    "questionId": "plàstic",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "d39394d59442c92aae44bd4beeabc9fafcc2dedc1f86393cd2632dafba78d79e"
+  },
+  {
+    "activity": "ca-S065",
+    "questionId": "repetir",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "5d02d07c92bcd291e681bf05f2345d3129ad9127678afa65edb51b13f93f227d"
+  },
+  {
+    "activity": "ca-S066",
+    "questionId": "canvi",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "982b4f8a76694439165a58747d16ee1a0a957af50874672e8d2b448cfe4090ba"
+  },
+  {
+    "activity": "ca-S066",
+    "questionId": "finalitat",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "9e47ff4dd484c2fffa7a4711d95012d5fdd4930cc111980bf2c32697dc90ca92"
+  },
+  {
+    "activity": "ca-S066",
+    "questionId": "inici",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "048695bb96e8998a86c6a4caee409b5dde1396145843ca3719345a088d4e8e78"
+  },
+  {
+    "activity": "ca-S066",
+    "questionId": "nom",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "9a9495f3bb5e125caea0fa2991591f90b7c245abc4b7f7cebbb9d4a37aa9219b"
+  },
+  {
+    "activity": "ca-S066",
+    "questionId": "original",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "398f3efce72f6e622c1a7c2823532b3456bbe5abb3744ba34c242322a296b7a9"
+  },
+  {
+    "activity": "ca-S066",
+    "questionId": "primer",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "759f8b6ac5b336da71ba927332a08f13d3a4b899cb7cfdbc1cf8ef308b82ca2a"
+  },
+  {
+    "activity": "ca-S066",
+    "questionId": "timbre",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "301bae2757807b6d366977e0e8a8fa15e25be41fe148514a3ebda09e2aacc780"
+  },
+  {
+    "activity": "ca-S066",
+    "questionId": "triat",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "d1d4779745c39ed532d4cfe6153f0da70dc64d16ff13583f99118abcef28ed12"
+  },
+  {
+    "activity": "ca-S067",
+    "questionId": "arnau",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "f9f2c0c1277370fd999ee73fd9f5f95b25ba6386de6a0dfb1e35b8fed0f246b7"
+  },
+  {
+    "activity": "ca-S067",
+    "questionId": "biel",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "6085b0fb338124daf00e66c5004b7e73733c52212ee064c88b5dee53f92de0fc"
+  },
+  {
+    "activity": "ca-S067",
+    "questionId": "canviar",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "018bb1eabbcd471f310a6f80720de0fc4bce8e9cffc30c6b8ad7b23a5c98f971"
+  },
+  {
+    "activity": "ca-S067",
+    "questionId": "colors",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "5f84632f1d617c57e7fb3529b9213b4dea1a751534b6d951614892008393eebd"
+  },
+  {
+    "activity": "ca-S067",
+    "questionId": "grafics",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "94d58ff0877896713e6431b895d629b6e4aa92016f3689dcb4f50d4cdbca7642"
+  },
+  {
+    "activity": "ca-S067",
+    "questionId": "primera",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "f154265644a7e40c8828be790dd0f9f868de5c4acd3749f715285a8740211fe2"
+  },
+  {
+    "activity": "ca-S067",
+    "questionId": "recuperar",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "2758928d6cf3f79efdbac8c2bb051b96a71f14fe56abfb26f1c424c280fbef99"
+  },
+  {
+    "activity": "ca-S067",
+    "questionId": "segona",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "efc89d77557d3657ffb1e978fa57528ad628b04f3cb470c10a31aa00fcc0da74"
+  },
+  {
+    "activity": "ca-S067",
+    "questionId": "sorpresa",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a02d1330296c427b540c39e4cbd03aaaa7165b868226e25574eb9228ef1eae45"
+  },
+  {
+    "activity": "ca-S068",
+    "questionId": "capsa",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "6f167f64b1872c0199a6e1ca059a9cfab6883febc7768e0a755e15a6e82a6002"
+  },
+  {
+    "activity": "ca-S068",
+    "questionId": "lloc",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "e33e5ccd5db791868b2eff9a4f88c15f98606d4986de7b3fe8a48a13c578d3b0"
+  },
+  {
+    "activity": "ca-S068",
+    "questionId": "previsio",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "acdf52f622c6c24657226ff008ccdf5963078b6d02df11bdc9d9189e2ae5fbdf"
+  },
+  {
+    "activity": "ca-S068",
+    "questionId": "regal",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "1abdcbadc8a23247a7df0817a7725966846748b8cfcbf7474e19ce5e99a86bf3"
+  },
+  {
+    "activity": "ca-S068",
+    "questionId": "sopar",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "9dc3afb0046e8b78a4679786e546db31b4c41f1ba8e6af91e113fecaf8ecd217"
+  },
+  {
+    "activity": "ca-S068",
+    "questionId": "tren",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "e250f3665eaa0897b327ca04d2a36bcf04729e2104eeec1f2d1f1ea11840f1d5"
+  },
+  {
+    "activity": "ca-S068",
+    "questionId": "trucada",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "91e5dd9b66f430881b4d89b874845ddabf9bbffbc17b3de0c7be40ea209d7e63"
+  },
+  {
+    "activity": "ca-S068",
+    "questionId": "visita",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "589f30f2dff4530f4d93587b37138e546b2144160e87c43d98bad419e195603c"
+  },
+  {
+    "activity": "ca-S068D",
+    "questionId": "capsa",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "1817b9e10a1cea899930066b81512202d4784896d11ff7223466e7f348240776"
+  },
+  {
+    "activity": "ca-S068D",
+    "questionId": "lloc",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "2d7defd613149638ead4b54edd3af8065667b566ef9b15a205bbab0f003d9b75"
+  },
+  {
+    "activity": "ca-S068D",
+    "questionId": "previsio",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a0508945fa8fd040e81e0970bab98a190b1f470ca871937293553a055502230f"
+  },
+  {
+    "activity": "ca-S068D",
+    "questionId": "regal",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "dec4a63eeb81290ce7fc43afb3726b79070fc5b23d9a54e24bb66c6a0fcaacae"
+  },
+  {
+    "activity": "ca-S068D",
+    "questionId": "sopar",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "2d21c3abb2bd517a6dd02bd95e3ab61c0a0084c0ae7756a15b7cc0716729128c"
+  },
+  {
+    "activity": "ca-S068D",
+    "questionId": "tren",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "0baf3a61cc4b947ec7d6c576e22c3da9fae3180eb913ef45c0a3fe9c09e13b76"
+  },
+  {
+    "activity": "ca-S068D",
+    "questionId": "trucada",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "fe17c304a9aef46a091874226433447a402b7349c16a5361f0d96e453bcd2713"
+  },
+  {
+    "activity": "ca-S068D",
+    "questionId": "visita",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "291027196e6b88e954f75a231b884e612734633b03e44e8bd2b0f5e79e45d390"
+  },
+  {
+    "activity": "ca-S069",
+    "questionId": "corregir",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "fd6fd0f0f286d61312cad29b8c9291c75b0eb5f637b27b51d59cd688c54a16bf"
+  },
+  {
+    "activity": "ca-S069",
+    "questionId": "despres",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "0eb201f25556a1f1c3b926368fcbfe0953234ba0c151cf12f60183dfe462a229"
+  },
+  {
+    "activity": "ca-S069",
+    "questionId": "error",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "d87c9addec5a72e55e272be5af39a2be1dbd0edf4e39e1aab49b09fd6c87cdb7"
+  },
+  {
+    "activity": "ca-S069",
+    "questionId": "feina",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "9cfca3913a7b4ad29cb0fd99d17425fce55e3a5c60b444f4f96ca2ab330b703a"
+  },
+  {
+    "activity": "ca-S069",
+    "questionId": "foto",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "8e4ad2eecac877519ea0d7efbb7d644ded7881dac31fb96d623ad5fbad0fe45b"
+  },
+  {
+    "activity": "ca-S069",
+    "questionId": "mitja",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "463981b5f083a6d179ba5a6e9f5e1c958fc382cbb88163c72d7d8a7d2d60feb6"
+  },
+  {
+    "activity": "ca-S069",
+    "questionId": "noms",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "303f53760387426e6f8e6ac5322773c150a610ba4722cdef4dfcbc77458cc9f9"
+  },
+  {
+    "activity": "ca-S069",
+    "questionId": "senyals",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "256523255c60140043300445db25a2ba669c1ae6f79971bd843882953f94cd01"
+  },
+  {
+    "activity": "ca-S069D",
+    "questionId": "corregir",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "bf12a5ba35428d08678619dc1decbbf1529df66dbb54262cd4aaa021e143e06b"
+  },
+  {
+    "activity": "ca-S069D",
+    "questionId": "despres",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "f2379e9d62ec50d88e729d83bed047ac35d16a9e0a5d6bb60f92264bfcfe1379"
+  },
+  {
+    "activity": "ca-S069D",
+    "questionId": "error",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "f7876bb1c87936ef67a946b5fbcf5f0ff9c9502bd30ee1aa42573a12f4bdd6ae"
+  },
+  {
+    "activity": "ca-S069D",
+    "questionId": "feina",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "bcec51fa4c9627f93903235a012ce136e43aafbee20078f11e376b2d387a09e0"
+  },
+  {
+    "activity": "ca-S069D",
+    "questionId": "foto",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "b5c55d96c0402aa78bb725ef472f5b92336fc889e42a5d20acede83ebf7bfd9a"
+  },
+  {
+    "activity": "ca-S069D",
+    "questionId": "mitja",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "8438128cf82257b05cd4fa35a8880ab2d53c018424fa728cba878d9e0fc3e7b3"
+  },
+  {
+    "activity": "ca-S069D",
+    "questionId": "noms",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "e26334dd9ceeeee968ee2ec56c7309d295e08c56b38e7930328a1dd84af7f153"
+  },
+  {
+    "activity": "ca-S069D",
+    "questionId": "senyals",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "c5e597499cb918d94e29b2febac767e21ecfd58973726919527c5d11340ba129"
+  },
+  {
+    "activity": "ca-S070",
+    "questionId": "ball",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "f5082a07bb8c1abeb0d0f8f879204b965ac71612ed3213d69884a7fc6422d92a"
+  },
+  {
+    "activity": "ca-S070",
+    "questionId": "espera",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "480d4c4cc2c2489ab20a29c3f29cd953c90b9e95dc2c17ec83b2c99c7abf4793"
+  },
+  {
+    "activity": "ca-S070",
+    "questionId": "got",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "c850b1dd8769d1dc7cf9f01229e0a285985591601fbb08598bebcbef5fcf3abb"
+  },
+  {
+    "activity": "ca-S070",
+    "questionId": "guardat",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "e08ea720b052078083fede130513a3b9a7eacba80e57d9a6ea65f7f25f76d3c9"
+  },
+  {
+    "activity": "ca-S070",
+    "questionId": "instrument",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "c8b0ac8b43fc716e4b84e100c6f830e036b585359e71ecce5790bf9243e1cabe"
+  },
+  {
+    "activity": "ca-S070",
+    "questionId": "mare",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "fdc83a859b6636c85930cfd3969a3ecbf6d5285412f89445bc49cb00da2bf381"
+  },
+  {
+    "activity": "ca-S070",
+    "questionId": "pla",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "e5851e740c5e29dde56e17819b86834c581c6246a60e21da1bed075c7de9a2c7"
+  },
+  {
+    "activity": "ca-S070",
+    "questionId": "previ",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "423c2ae75cfca6e53cda8311ea413f10bfd71bc4a262efde8c60712da54df0ab"
+  },
+  {
+    "activity": "ca-S070",
+    "questionId": "tall",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ed8102cd16eef0974a769c5b78aadb1602ea1aaeed7facc9676c2ebb173bd42a"
+  },
+  {
+    "activity": "ca-S071",
+    "questionId": "causa",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "bc558335844e661cae9b320481a4dbb5adabca77a085c8cacefac3a977e192ca"
+  },
+  {
+    "activity": "ca-S071",
+    "questionId": "data",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "11091844f20669ce682b8dabc256fcef44b06f1361a57421de0a14d4a7ffe8c1"
+  },
+  {
+    "activity": "ca-S071",
+    "questionId": "noves",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "3e5786720fdae4353ec4ba97807a21353cd15213735bffd07132941e1ee1cba0"
+  },
+  {
+    "activity": "ca-S071",
+    "questionId": "record",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "69db51ddc9db49cd5eaec963bcd8e3ff565f6ca73c5d0f4929c0a810409c321f"
+  },
+  {
+    "activity": "ca-S071",
+    "questionId": "semblants",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "1115f48ececd52f6c54a0cddb4226386686dcf10fbb6ba145e20bdbf223a71eb"
+  },
+  {
+    "activity": "ca-S071",
+    "questionId": "sobre",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "dffd9782619736dd61a167a75b25bf81c42e4d5a3179208a9c051c645c6f7371"
+  },
+  {
+    "activity": "ca-S071",
+    "questionId": "temps",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "6afdf56c6159f46d0c3f7f3ce6f9eadda07d7621bcdca4a051954bfa88b8f52b"
+  },
+  {
+    "activity": "ca-S071",
+    "questionId": "velles",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "aec0b5e64532e7c74d00e95898fca43dac4dddb6e6d48cb5a920a41fac9d12dc"
+  },
+  {
+    "activity": "ca-S071D",
+    "questionId": "causa",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "4825055e5e304ca17953414de003a1f8d751a638945c033bea49f71f464730a1"
+  },
+  {
+    "activity": "ca-S071D",
+    "questionId": "data",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "49b5b416e07419c2b43aee39c56ab54caeb639a2bc6495bee532b2fa3eb87ef7"
+  },
+  {
+    "activity": "ca-S071D",
+    "questionId": "noves",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "18f86cfe51068b6f00e0bcb7aeb06001083c4e5570316612d9945c7bc01f3fcf"
+  },
+  {
+    "activity": "ca-S071D",
+    "questionId": "record",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "e9d34a88d85c6b456a747d9fa83fbc151af07e245715bc61b3df6e4243a7ed1e"
+  },
+  {
+    "activity": "ca-S071D",
+    "questionId": "semblants",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a432b0f41123805f7cd1e01b2429ac8024acbb7f6160ecd41940547b7e435c02"
+  },
+  {
+    "activity": "ca-S071D",
+    "questionId": "sobre",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "e859ee69b7f350193df4e8d490b4978ac6bf246e3f30627efa1d12ad07524865"
+  },
+  {
+    "activity": "ca-S071D",
+    "questionId": "temps",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "0d030891f2e650dc29496089504fe73b6edaf96f037d34f799db3e0dfb36f801"
+  },
+  {
+    "activity": "ca-S071D",
+    "questionId": "velles",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "5ffc1e4de3a65aa351b109446ff9baeb64ded268e6cd23e0006af0a7d2b9b427"
+  },
+  {
+    "activity": "ca-S072",
+    "questionId": "canvi",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "4b5dd9aa5d49cf2bf36f51c86dda585d223193855fa2d2a4cfc7dfa5670107bf"
+  },
+  {
+    "activity": "ca-S072",
+    "questionId": "coca",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a8d0c8965b454d972c64060e85985f5a0f061a8fe870242ffa7c586ec3aab738"
+  },
+  {
+    "activity": "ca-S072",
+    "questionId": "compra",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "b6d464d36d24ba9003aabe0cf5d0e9a47037c1d9c15cbf2bc2e43fa77ff18f01"
+  },
+  {
+    "activity": "ca-S072",
+    "questionId": "deduccio",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "aa4c5c4dddfcb74cea1032763ce449cb7276f09c854ee5144f2834eeda6088cc"
+  },
+  {
+    "activity": "ca-S072",
+    "questionId": "dues",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "5fda0bdd3235886cf8df505ff44b5521b465f95b36508c139eeae59ad1c1102b"
+  },
+  {
+    "activity": "ca-S072",
+    "questionId": "feina",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "1227b4e6e7268b0acd509d5956c7aa73fe0e57001ee1c7bf9532839d19a36c05"
+  },
+  {
+    "activity": "ca-S072",
+    "questionId": "final",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "2fbe56b2ab098bd13677467c4497d72154aefa9e518481f2ac1126d67be5e6b0"
+  },
+  {
+    "activity": "ca-S072",
+    "questionId": "parts",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "b9a0975b6ce3cfc3f41e5cf9bb5d7568d39ce38b9c8c9528abe3163225c8bacc"
+  },
+  {
+    "activity": "ca-S072",
+    "questionId": "tapat",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "c4f0949c66157b36f80697cdcd3096c6d4defd665d2ae0fcff9a674de42f7190"
+  },
+  {
+    "activity": "ca-S073",
+    "questionId": "canvi",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "3497b2d1a0c71797b3df9c3dbde539ba999e669eca2bb917e03218be0e093376"
+  },
+  {
+    "activity": "ca-S073",
+    "questionId": "fruita",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "784c47c8ee17f323f3747a4a2b863ea1b7ce4c022ccfe514725547b6ff45e73b"
+  },
+  {
+    "activity": "ca-S073",
+    "questionId": "motxilles",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "5bb01ec360e0d05bb38e1af742f85b9ccc83ac3db03fa563aa42f9aed0c01dd6"
+  },
+  {
+    "activity": "ca-S073",
+    "questionId": "plats",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "faa6ee6c98ba1bdc3053a0ba235819566b846c19205044d8c8d59e5721faf8a1"
+  },
+  {
+    "activity": "ca-S073",
+    "questionId": "preparades",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "67791ab3e883acb65d4a0bf632ebf7dec8ae3ae27deeaabd263a753449ea9e0c"
+  },
+  {
+    "activity": "ca-S073",
+    "questionId": "servir",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "c48f43bc561261f4279758998d75b2a391925bb84c48c36e5f2d16dbecf42318"
+  },
+  {
+    "activity": "ca-S073",
+    "questionId": "tard",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "49e6929502ebf38b77c6866d81064a9ad84ee648ac7b1f8c5607a31e662e7841"
+  },
+  {
+    "activity": "ca-S073",
+    "questionId": "taula",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "e85ef291d0ba060a523c4060b3a9d65fe556c9c7c300a5dcd80e01a6714929b4"
+  },
+  {
+    "activity": "ca-S074",
+    "questionId": "aturar",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "0a430cb278b2743321664581e7f8e9015c9430006eab00ac18e502bf5640e3c5"
+  },
+  {
+    "activity": "ca-S074",
+    "questionId": "barreja",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "62f778f0e755c4d7bda3e967f3dc7280c2f63833732e9b34ced8f68bd439580e"
+  },
+  {
+    "activity": "ca-S074",
+    "questionId": "comprovar",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "3eb75a7b4c6f40f28b87b3362503f8a8423f2150091ee6e64bcb81e0ae575fa5"
+  },
+  {
+    "activity": "ca-S074",
+    "questionId": "motiu",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "06ea7ba2b52323027bd70fdd5b7d1291277d631d8c934c9d4bb46fc1243c8927"
+  },
+  {
+    "activity": "ca-S074",
+    "questionId": "negra",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "888a5cf9a9784f706686602c3efff8761bd66d72cacdf727af0409ffa480b800"
+  },
+  {
+    "activity": "ca-S074",
+    "questionId": "primer",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "dd5741bfa12220ae136367b3e055bd1367dd64a5099bdc5c3acc3add92b61f48"
+  },
+  {
+    "activity": "ca-S074",
+    "questionId": "segona",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "398a89398962f191548b0f24bc9f382d81aac7bf6df37330dc77c40c0e668b8f"
+  },
+  {
+    "activity": "ca-S074",
+    "questionId": "tria",
+    "status": "passed",
+    "author": "/root/abcd_author_003",
+    "reviewer": "/root/abcd_author_002",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "afbd87ae78042658d43a16ca3ddb0d2952e7b2afd892722240c302d934c775a2"
+  },
+  {
+    "activity": "ca-S075",
+    "questionId": "activitat",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "666766c15210b77a12183284310b8bfd4c7fc9fa23613d28a01c1402c29ac3c0"
+  },
+  {
+    "activity": "ca-S075",
+    "questionId": "allunyar",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "af6e10eea75f168b5431c929db09cb54eb13e9d062c977f049e3389dadd36514"
+  },
+  {
+    "activity": "ca-S075",
+    "questionId": "confusio",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "70ca25d1fe36f3f02045859479b45990cb652e37856fc4a9393cefee4bf859ad"
+  },
+  {
+    "activity": "ca-S075",
+    "questionId": "diferencia",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "7b779a5e3ce39702ae7566d2436a45c647857218e2eac2997d32c94727acde27"
+  },
+  {
+    "activity": "ca-S075",
+    "questionId": "falta",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "2e8dc8c3c724911e40a09f0306fca6fe6a6180a1da30fd9b2f8de69eecc28f40"
+  },
+  {
+    "activity": "ca-S075",
+    "questionId": "peu",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "d02800f14fb99b20decb29028f97c69f82624756b28c4ca1099d0cf07906066a"
+  },
+  {
+    "activity": "ca-S075",
+    "questionId": "preparacio",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "78d6ee8a67514c832878c54a05fb0be8988eb85aa3bed44950fa72cbe6c3d208"
+  },
+  {
+    "activity": "ca-S075",
+    "questionId": "primera",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "e009f962f161eef041fa54966c287617499f323517b86f59a5e9a550382a661c"
+  },
+  {
+    "activity": "ca-S075",
+    "questionId": "util",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "aa5b9431b7abe67f0f885056139086baacd1534cb1b0111595b6903d4c83d127"
+  },
+  {
+    "activity": "ca-S076",
+    "questionId": "buides",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "3bf6bc560a83d2c1e37872c173ca6c81639779bf47362b63ed7f47008b2338ca"
+  },
+  {
+    "activity": "ca-S076",
+    "questionId": "canvi",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "6983759c3f78dbf01ec43793a63907640d94669fb03579fc77dbfca188dc5789"
+  },
+  {
+    "activity": "ca-S076",
+    "questionId": "dos",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "7e285a1e490fcc8b85ca143471c8392262c538e111746fcd772c468298849733"
+  },
+  {
+    "activity": "ca-S076",
+    "questionId": "finalmissatge",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "e2f0de19d8b808ca3688bffe038b75f4a09f041bfa930181c1fff68e3af4eb1c"
+  },
+  {
+    "activity": "ca-S076",
+    "questionId": "grup",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "54282b504f9ca41b3d418efb540f65de3b6cdb034c68be05ba9ef1c66629585a"
+  },
+  {
+    "activity": "ca-S076",
+    "questionId": "pregunta",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "2a6ef8d4ed23d757622a979b1be3d3ecd0967b747468190139f7b2a7c480e73b"
+  },
+  {
+    "activity": "ca-S076",
+    "questionId": "repetits",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "d360c2eeb2ba10a83c317f8989a730c8447456fb9729a4657e0a2dee44f3c6ca"
+  },
+  {
+    "activity": "ca-S076",
+    "questionId": "separada",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "fa902152f227778c4b0f969fd05f86ea0557758b0e7a20bfac0db3db89ab8e4e"
+  },
+  {
+    "activity": "ca-S077",
+    "questionId": "bar",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "2ec35910c7d47701add72afd6b84645a5dbb0a4b4381e1f2cf76df3540eaf032"
+  },
+  {
+    "activity": "ca-S077",
+    "questionId": "cuina",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "61db125b81e2cc907902ea418d34fbc04e624519a46200ad93e762881fb7ea77"
+  },
+  {
+    "activity": "ca-S077",
+    "questionId": "curt",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "b3272606895cc799116e20ab03528c20276e7eab3b8c2a71508dcb7dd0105d3f"
+  },
+  {
+    "activity": "ca-S077",
+    "questionId": "damunt",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "4433c225397a44f5e516c05db19e683950e7cd8a78ee4f4685bf0772ff1d469e"
+  },
+  {
+    "activity": "ca-S077",
+    "questionId": "fundes",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "e66aa7ee64491aebd4bd97a49dbcccbcef3d264741fb0913adaf18f2e28f1809"
+  },
+  {
+    "activity": "ca-S077",
+    "questionId": "motiu",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "3b87aa3b0a06ed554c3db6e9a8e2f0fa1742fcff26ae5e9004556758e3e03c7d"
+  },
+  {
+    "activity": "ca-S077",
+    "questionId": "ruta",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "c0c6620dac1752569e7f4822874f2abe645b6306460ec8b24b39e7b9dadea9b0"
+  },
+  {
+    "activity": "ca-S077",
+    "questionId": "sortir",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "7d4d3119e3115ce6c1d3335be4312762b6c153f4b33d3e24309beb5c7a940cf7"
+  },
+  {
+    "activity": "ca-S077",
+    "questionId": "tornar",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a9a1d01630efa609ea94594fe16df4679aa137cd0a6c301d936e94a50abeb2fe"
+  },
+  {
+    "activity": "ca-S078",
+    "questionId": "altre",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "813070818b096be04f9c1fb1d5ba2364da792f0871ece50d89ba654a39df1007"
+  },
+  {
+    "activity": "ca-S078",
+    "questionId": "full",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a4863d65754ddafe1659e4c8c09a18e4d43b1c903ed0346b8c133ea5fd9a026c"
+  },
+  {
+    "activity": "ca-S078",
+    "questionId": "funda",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a4cfa73b09a01640d1bfd3e72476c5a4140ee0bbe59690b85c2f25e628c7375c"
+  },
+  {
+    "activity": "ca-S078",
+    "questionId": "guitarra",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "9616767764af0a5c62b971bbd58d854bc25813d6d7f9d445d8fd2054b2430727"
+  },
+  {
+    "activity": "ca-S078",
+    "questionId": "mans",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "dad8427d2df18f1e072ad79974f293a28261191087f09be959eb156afd3b7287"
+  },
+  {
+    "activity": "ca-S078",
+    "questionId": "moviment",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "f3b8ee97087268e5522da89ad078c29f02609d39c619336c0e38ffbbc98bca7d"
+  },
+  {
+    "activity": "ca-S078",
+    "questionId": "origen",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a3c711f08199750c9bac4904ddfc1cbacb8b10b838af2d92c45e18e9851df7e9"
+  },
+  {
+    "activity": "ca-S078",
+    "questionId": "repetir",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "5ade26d4416d1b1fba6093ccf96448dd1a79536fd06e3733baf8361e220e2812"
+  },
+  {
+    "activity": "ca-S079",
+    "questionId": "aturar",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "1d45a921cffd4c2e8fa121c64415ecfc06b9c61c598e7fcd13109ff8d890d78f"
+  },
+  {
+    "activity": "ca-S079",
+    "questionId": "cosi",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a3deb777fb9ce8208c9ce1786af3f7a4ba4a90a22b5ad4c41927745dcd26c124"
+  },
+  {
+    "activity": "ca-S079",
+    "questionId": "foto",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "d603b2cbd0b9270d32bfd9693ee1015ce396c08619b80890f5e1e123f0fc8300"
+  },
+  {
+    "activity": "ca-S079",
+    "questionId": "full",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "8f975a65a6c081b608a8d518d8bdbddcd77037b2bf785432a13a2d9b25a6c0cb"
+  },
+  {
+    "activity": "ca-S079",
+    "questionId": "gris",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "da0fcdd1527c12a6f475aa1b7858bf14c90d51bd2360ecb019fffb386659377c"
+  },
+  {
+    "activity": "ca-S079",
+    "questionId": "limit",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "39c88bfcf9da0516c46469f5674c294827675142aba53eefdfde3af449b37598"
+  },
+  {
+    "activity": "ca-S079",
+    "questionId": "nota",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "e1e55428fbdf4b205bcd04b0a258f0e26b693d660128e29b1a8ef5822b323c36"
+  },
+  {
+    "activity": "ca-S079",
+    "questionId": "retorn",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "fa6af8b9c1b7df288a83f91fbefa317a701bc8a68d76eda2f42483d30a5533f3"
+  },
+  {
+    "activity": "ca-S080",
+    "questionId": "diferencia",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "98ac2c2ac5f6b3dd51dc0157b916b68bda8aa3749e58dba0e4102ca73d161692"
+  },
+  {
+    "activity": "ca-S080",
+    "questionId": "pitjor",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "4a32ce52e41fadf43ee5c91237d2397836cc3ed13ce830fc7d4a776de5e4ff74"
+  },
+  {
+    "activity": "ca-S080",
+    "questionId": "primerlloc",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "cc14fc211c0bd714beac28ab139ca6c278a49a150d6bc8b04b3ad932763d53e4"
+  },
+  {
+    "activity": "ca-S080",
+    "questionId": "prova",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "5820dd809768077a1f9c2055ba012d8c4cd32d78221aee45f9fc68c37ca87b66"
+  },
+  {
+    "activity": "ca-S080",
+    "questionId": "segonlloc",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "2ac8bde84129ea939746a93cf270fb085a9d96586c88b14957b9decdc541454c"
+  },
+  {
+    "activity": "ca-S080",
+    "questionId": "sencer",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "9abe5700028d463621dd3f1cb573c36bb9a3b2fa5d3b4615fb3b706194eb5b72"
+  },
+  {
+    "activity": "ca-S080",
+    "questionId": "sensacio",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "2cd3ec7b54b76e3b4056b3258e3d62aefc07d4f571686adbdea0d470481e01f5"
+  },
+  {
+    "activity": "ca-S080",
+    "questionId": "sons",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "5c890054d9a3a410a929a77e014f46a612ab0f62a1d13179c9a900bb1d0ce436"
+  },
+  {
+    "activity": "ca-S080",
+    "questionId": "triar",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "9cf07e4c338da49ca53b117c62237983e0f40cc452cf6b2b1270a11bc42b680d"
+  },
+  {
+    "activity": "ca-S081",
+    "questionId": "abans",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "0a8ea3acec186e20071b696a41acd0045d337f2e696e5a46e1a402f90950c2ce"
+  },
+  {
+    "activity": "ca-S081",
+    "questionId": "centre",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "43b6be2bf6b9eef91caecf81820b230b4894bd9f4583b15cdf1a736deaad50f2"
+  },
+  {
+    "activity": "ca-S081",
+    "questionId": "concert",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "1562c3376f6d8d68a2cd8b8242ab7635457296ca6a90ca319535842ce838a232"
+  },
+  {
+    "activity": "ca-S081",
+    "questionId": "dijous",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "c80c3aaf75f5dd7b3d17b293ee425c78b221cde5b49c545cb65097afedf704e6"
+  },
+  {
+    "activity": "ca-S081",
+    "questionId": "falta",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "263b101da33673cb4dbdb968a1caf5a1a3e38ac5034c68d4e5d6c2a6c565000a"
+  },
+  {
+    "activity": "ca-S081",
+    "questionId": "mentrestant",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "14967a850bb66163697b8b6b02d6e3b99619c88afbd08567a08e3b97b1d64116"
+  },
+  {
+    "activity": "ca-S081",
+    "questionId": "mida",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "5db1de229b3e5d959a77158a286eabff80cce3f6a1a37c2d2b2c3e4552e6775d"
+  },
+  {
+    "activity": "ca-S081",
+    "questionId": "retorn",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "e3fe11a9cc8a03df56255c51a07b33323435e1821f329338adccad6365f1a391"
+  },
+  {
+    "activity": "ca-S082",
+    "questionId": "antiga",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ceb9cdd78bfd2a08567d577691d4b6d8b5674ce322ad21bdc595ddfa2db3ac9d"
+  },
+  {
+    "activity": "ca-S082",
+    "questionId": "confusio",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "52cd2cd66d02d6051a8980f021c7c204a9f13c9402b4f997383f83ba713a53bc"
+  },
+  {
+    "activity": "ca-S082",
+    "questionId": "conservar",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "845b41577dbcd06c80b1e52ac6ed3108da08ea8c77cf4e2c691fb23b87f29292"
+  },
+  {
+    "activity": "ca-S082",
+    "questionId": "descriure",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "7ba5faa8a4db64619c4ecdd7f4defdeaf9a216c8874e5a7a8e2dc00350587f36"
+  },
+  {
+    "activity": "ca-S082",
+    "questionId": "igual",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "6e44e5d95f0da72559db817394138295f544a545dd1481c0a5ff7c8bf4205b43"
+  },
+  {
+    "activity": "ca-S082",
+    "questionId": "nom",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "520c1d990bd3d5487532cff9d77375b37ed90287a0eb5083e66d0d9743ecd900"
+  },
+  {
+    "activity": "ca-S082",
+    "questionId": "ordre",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "703711dacfde159edd6554de8e3a484d078f1ab62a0ca2c80de2586085cce418"
+  },
+  {
+    "activity": "ca-S082",
+    "questionId": "problema",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "4fb2a85c96e59bcf8629cac3723da675d5a72b4800f020d145c47a884bc7709b"
+  },
+  {
+    "activity": "ca-S082",
+    "questionId": "retallar",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "56ac76c10a586eae8fbaf7a71d32443f0566b7673c4f540d695ceb9626a18f5b"
+  },
+  {
+    "activity": "ca-S083",
+    "questionId": "abans",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "6ed72f25c24c19e3d8af73d3fa6965f327c73e1bb4ed0b64b3eb0eedef8094e7"
+  },
+  {
+    "activity": "ca-S083",
+    "questionId": "ara",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "3b08c2cfe026ff6c559855b2ec17b12f7af90f63cffceda192635d44231afd3a"
+  },
+  {
+    "activity": "ca-S083",
+    "questionId": "compra",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "31a5996652d253942de85d181765e20f58d86a6e1d80b9433ee376b9c24aca56"
+  },
+  {
+    "activity": "ca-S083",
+    "questionId": "coneixer",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "fb6bd9902b160d9bc807aa7df21e75b1edd1d17570362f442ce5890fe0703972"
+  },
+  {
+    "activity": "ca-S083",
+    "questionId": "llibres",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "bb482d899928d31d195a91d2cb632bce7f03910106df92c66210652ad4e787d3"
+  },
+  {
+    "activity": "ca-S083",
+    "questionId": "mare",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "852d0911cc02416e841b1a15f2990200281e820c9ce41229321ab003d8ed4b9a"
+  },
+  {
+    "activity": "ca-S083",
+    "questionId": "missatge",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "0fa91aca6ab17165e861793695c3bfe4cb904c33b0572a0a637838485ee5608d"
+  },
+  {
+    "activity": "ca-S084",
+    "questionId": "ajuda",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "29a95abf7e2ebd5088ed60164513942630fe9b2adea919cb052f0e2f713cc9eb"
+  },
+  {
+    "activity": "ca-S084",
+    "questionId": "capsa",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "0a1dd62136c401d38d0574be05109e0d6d1a7580b426c247cf3e9a7e0bd4109c"
+  },
+  {
+    "activity": "ca-S084",
+    "questionId": "oblidar",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "1bed9917d7fb32208e01097c6288b1b78650bb88991d0e2538b36a7f78df3c39"
+  },
+  {
+    "activity": "ca-S084",
+    "questionId": "paper",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "2f5eaa4690f2a5e8d4ac36ae4560edcf9b41d5ac4cb65357c169e4e31cf8b0d7"
+  },
+  {
+    "activity": "ca-S084",
+    "questionId": "penjat",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "71cda408bb8e929f96334bff4654fb1871695b72d7a5d015032424c502dcf92e"
+  },
+  {
+    "activity": "ca-S084",
+    "questionId": "regal",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "8bcdab9351a9c39684da401d81276eb9aca2a15fadc232903cc09cfc23f6554b"
+  },
+  {
+    "activity": "ca-S085",
+    "questionId": "ajuda",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ccabc9ef05cb17599f75c4e97ffa37347253ae5a13bbe6e1aa1f49078477a3be"
+  },
+  {
+    "activity": "ca-S085",
+    "questionId": "fanal",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "0e21c3e3eb912b62ff9060fe707d66281400e494fb569c2aaa2806c8b9c316c4"
+  },
+  {
+    "activity": "ca-S085",
+    "questionId": "germà",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "b280abcfc109d1df490c55edfa4d3c5b6f4c456434975f19abfa171844962fa2"
+  },
+  {
+    "activity": "ca-S085",
+    "questionId": "lloc",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "df6b619942cf9ad28704d8f74a7e86b8cedd88eb76981e355dfb2b48d9522d12"
+  },
+  {
+    "activity": "ca-S085",
+    "questionId": "problema",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "e73901f8594ce6752224a200c402c4233bc99a0f53c356c0b2cdd2e37dd35390"
+  },
+  {
+    "activity": "ca-S085",
+    "questionId": "qui",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "c2e6dd65f440c85e51a301230f3ddd0e324c9d61e85c2752b5dc9645d72fe043"
+  },
+  {
+    "activity": "ca-S086",
+    "questionId": "barra",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "bcc137b949f5694dedd1ac295a53b4c528b039e4026ffe6a6cc019736b5368d3"
+  },
+  {
+    "activity": "ca-S086",
+    "questionId": "encarrec",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "bd3c0bf9d6d2d684290b57e49700b01900818b55f0508537b8379117c1735642"
+  },
+  {
+    "activity": "ca-S086",
+    "questionId": "llesques",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "163009277579fe515f26de6ad3eaba193a7724d10f6852a029680cf32a84eb42"
+  },
+  {
+    "activity": "ca-S086",
+    "questionId": "portada",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "c30a737d7ba33dce5a52e50a67fca167005e0aaa286c31d5d4da86cd36be3385"
+  },
+  {
+    "activity": "ca-S086",
+    "questionId": "separat",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "aefd4b31d956ed59a8ffb63b49b62020807cf5b66f979a607397bc4ba35bbef0"
+  },
+  {
+    "activity": "ca-S086",
+    "questionId": "sopar",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "c76cf664869f0683554f36102b9ba913a2573d11ae193d781107318a044f9739"
+  },
+  {
+    "activity": "ca-S087",
+    "questionId": "botiga",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "2eb59d4404cca145859f119224c8c5de77c0e142d2b8e1472996f4bc1a42562e"
+  },
+  {
+    "activity": "ca-S087",
+    "questionId": "dos",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a28848d7fd1538aa821edd4774a3f04564625dff123f6f4c5f3d80bf1b43e1f3"
+  },
+  {
+    "activity": "ca-S087",
+    "questionId": "guardar",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "7128be1ffff908e252f5c7f2ab61a3d1dbc6936ec2f011fd8616fa840b52d7d2"
+  },
+  {
+    "activity": "ca-S087",
+    "questionId": "objecte",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "7b7993ede9da1230931c50828b566bc582db2f52f5c73dde6870ec5d999fd70f"
+  },
+  {
+    "activity": "ca-S087",
+    "questionId": "perdut",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "7ddc42cc0e3987f3de5eca17e3ca9ab4d72ee070c83df6edd305a8b1e82b29d5"
+  },
+  {
+    "activity": "ca-S087",
+    "questionId": "provar",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "b25072d0925b47102325f745236d9cb636d16397ddfa00f2b7d7c18d8b47d653"
+  },
+  {
+    "activity": "ca-S088",
+    "questionId": "bossa",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "1d16501dbb3c6eb7c76435d17b682b33365d5858383153e65ee0e862082af6ed"
+  },
+  {
+    "activity": "ca-S088",
+    "questionId": "carnet",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "b390acb4c4927362ce89e1e0a41f850df49883a755c5a345dc4bf29912ea642d"
+  },
+  {
+    "activity": "ca-S088",
+    "questionId": "divendres",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "b31965a0db5d1c4fc57108b04d736dcb7964c39b776cebeadae1a68d2b23f548"
+  },
+  {
+    "activity": "ca-S088",
+    "questionId": "lloc",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "b24009bd3a611f8f4237e9d079cc9fead91cb1bdbd4db7bb3efdd9d2875fe7c5"
+  },
+  {
+    "activity": "ca-S088",
+    "questionId": "pendent",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "00b848d88b15a351efeaaf4faed05736bc46ea6f440af2796a8b07a1253d3a09"
+  },
+  {
+    "activity": "ca-S088",
+    "questionId": "propietat",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "9aa184413c3c679165aba1bea4ba540d6fbf5183e372dd4df93e1bd9820bb25e"
+  },
+  {
+    "activity": "ca-S089",
+    "questionId": "amo",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "5263ad83d250aafc75e114943ce6e035ef598cf8798eb60aee1663f58d5a5808"
+  },
+  {
+    "activity": "ca-S089",
+    "questionId": "cami",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "53bc3f4c67ea2167f5af0eb0ea3ee6a667fff3c5d97b2cad6fa212b522b1eea9"
+  },
+  {
+    "activity": "ca-S089",
+    "questionId": "compra",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "8296dd1d1b2f2dc93ec7a13dc2084114b2483e1dceb7c5c0ee82f5c5994fdc5a"
+  },
+  {
+    "activity": "ca-S089",
+    "questionId": "descans",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "90a2abfba7b05f4df7246815bcafbf392fc9d63e3985db9be630b554a7c8bd09"
+  },
+  {
+    "activity": "ca-S089",
+    "questionId": "favor",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a452e24521cefc8433db71e45bda1a2cdf2ffcf2e81a5e3d4646a322e54a7965"
+  },
+  {
+    "activity": "ca-S089",
+    "questionId": "nom",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "4b0065c0633366d892fef438b87527a89d3df92c273b80b9f3d3064b3c2b8c59"
+  },
+  {
+    "activity": "ca-S090",
+    "questionId": "banc",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "7e9f47afcc65eb48e82b905f797bac9724b225527e0c3abd4622104f637325ec"
+  },
+  {
+    "activity": "ca-S090",
+    "questionId": "camino",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "f1a0e06448bac616189b87b7ae301b4b60e15671cfb9c45695e9b613b0127c43"
+  },
+  {
+    "activity": "ca-S090",
+    "questionId": "cotxet",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "c33591d8bdc0bf16a9290640b73c21cca2b366c3b7c1cc777d261283fd5776b7"
+  },
+  {
+    "activity": "ca-S090",
+    "questionId": "curtes",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "06bf5d4a76b0aefd329848a7e50746ec4673293b33194fe02ce30470b61a3529"
+  },
+  {
+    "activity": "ca-S090",
+    "questionId": "final",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "7d43071ea05d0dd9d0626ceaa69b95d541d4ce424620190ffdf8bedc83dccd8b"
+  },
+  {
+    "activity": "ca-S090",
+    "questionId": "font",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "076d8859b997136a3b0c23c391a73307034141a7992ec9f3cea12922c0c181c2"
+  },
+  {
+    "activity": "ca-S091",
+    "questionId": "aspecte",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ce42daf263f191c8d831103881dc28da2ceb5a6d052f0cb0c964086da90e27ee"
+  },
+  {
+    "activity": "ca-S091",
+    "questionId": "causa",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "4173443c61aea8bca13b85ae63734a5d79df6fc8bf13a16d2fe5cec9ad5d46df"
+  },
+  {
+    "activity": "ca-S091",
+    "questionId": "formatge",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "974096087056120d06dd6a7f56b2e1027523517bc9dec76c478305cf42257ba5"
+  },
+  {
+    "activity": "ca-S091",
+    "questionId": "jugar",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "8d2a3391e9431d5204da181dca1fd4d49747e92704a4df3f81a9dad5ca1cb85a"
+  },
+  {
+    "activity": "ca-S091",
+    "questionId": "oferiment",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "7e4389bd888703589df53e5c0a99b655813d3f3fe469240b969572903da73f9f"
+  },
+  {
+    "activity": "ca-S091",
+    "questionId": "recollir",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "6aea6864d3812f4ceeafb7d23d3b75b7aee638a94b50ac880090f5496a972288"
+  },
+  {
+    "activity": "ca-S092",
+    "questionId": "alternativa",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "81212cb85ea745d43f3103f206c13f092c0d95501ad878b1198b5cb9345340c2"
+  },
+  {
+    "activity": "ca-S092",
+    "questionId": "decisio",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "d7a3fb098b12163388e4edd740aecc7b1a4705913fbf0914c4105369bcde80d7"
+  },
+  {
+    "activity": "ca-S092",
+    "questionId": "espera",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "b3aa9baf4882caf885caad77c4dd0d79d0b37ea0331cc924fe94e3f2b0ede544"
+  },
+  {
+    "activity": "ca-S092",
+    "questionId": "pes",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "79f540f03cdd45e994b3e50795ed33aa8fe42b8e2615c470036d894f7675b4c8"
+  },
+  {
+    "activity": "ca-S092",
+    "questionId": "referencia",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "532d877dd0864fa420860cf6f2be4562bb4d92d0c98682c8302763492acb147f"
+  },
+  {
+    "activity": "ca-S092",
+    "questionId": "tancat",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "cd9cf60860713c87735cc6ecb6c2583fde25f92fd7a74101d46e78c677863987"
+  },
+  {
+    "activity": "ca-S092",
+    "questionId": "visita",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "9f90eba0a518233905b58126a3aa0bb776bbf79061b672307f945e1c31ca53d8"
+  },
+  {
+    "activity": "ca-S093",
+    "questionId": "anada",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "115b4ad25f50ef4ee22facfc37f9b7b31515964e12c05ecd38fb038f87a8f369"
+  },
+  {
+    "activity": "ca-S093",
+    "questionId": "canvi",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "9519c7010fab210a65fcaa15add4129feb96329d6f024b54a57188373bfab61f"
+  },
+  {
+    "activity": "ca-S093",
+    "questionId": "cita",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "1427fb61829fe5c4f33e7f71a51b35dec29b851320e2ad2a438afa98be3333f5"
+  },
+  {
+    "activity": "ca-S093",
+    "questionId": "hora",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "88cea99906d4d0121276d17caac096399e761583087bfe658272ab1e7202aab0"
+  },
+  {
+    "activity": "ca-S093",
+    "questionId": "pantalla",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a8e453f4183bead585d9b00b1448c359c08b2b85d3b76ecf45da403f6e9a12e2"
+  },
+  {
+    "activity": "ca-S093",
+    "questionId": "tard",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "92079f48bd62a9846d3218069d6385cd14671159f6b951211eb1a65c459cc4fb"
+  },
+  {
+    "activity": "ca-S093",
+    "questionId": "tria",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "11031ab9be10ecfdfbb8ba6e7b3391b7fc2851d37aa977cb4eb7439c73097a1f"
+  },
+  {
+    "activity": "ca-S093",
+    "questionId": "via",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "d8e72087d97a3a9ad7f74e07047342bab0403a88fa2c8cdae59e9f9addd2a44d"
+  },
+  {
+    "activity": "ca-S094",
+    "questionId": "necessitat",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "709b47257830daf347813accf686671349f2e730ef4830dc1beefc9228ca3f6e"
+  },
+  {
+    "activity": "ca-S094",
+    "questionId": "papers",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "36e3011d43e0991487a7b4dfafe29a9c658266d3d3397729ad59ae9b151c189c"
+  },
+  {
+    "activity": "ca-S094",
+    "questionId": "primer",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "3733b6d3ce2e46fc80c200e8645e9a937bd0a55cb2e7671e17e750d8f2426e6d"
+  },
+  {
+    "activity": "ca-S094",
+    "questionId": "problema",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "725f734e2f33036c24091030c017c6fe9631f95f98bdcaf88ec5ba3b1c62970b"
+  },
+  {
+    "activity": "ca-S094",
+    "questionId": "prova",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "12fe565ac7ad7038d014f07d44ce1b36ca3fd1a26b10714afd5070300d29e381"
+  },
+  {
+    "activity": "ca-S094",
+    "questionId": "tria",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "548f2efb92cb27780fa88459d70e11e38004f6d8a7153b409b303ac268b0052a"
+  },
+  {
+    "activity": "ca-S094",
+    "questionId": "verd",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "c862f46d6d0d1ec4374a1d176f2a330d33d3ccc57b46ffb5a2b2d876b86d1193"
+  },
+  {
+    "activity": "ca-S095",
+    "questionId": "dades",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ea2fb8696a3a96537e4f1c94085748f4a927c186e1b6c403782de03754dcb523"
+  },
+  {
+    "activity": "ca-S095",
+    "questionId": "dins",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "9de6e3cd427e79bb79bca9412223b0f5d27c9280d13ed7e49732da2819d29ef1"
+  },
+  {
+    "activity": "ca-S095",
+    "questionId": "franja",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "104e3c1e6b32916c5a548743ba913c78c6a529b3eb3e85b0b86e7f49852e7847"
+  },
+  {
+    "activity": "ca-S095",
+    "questionId": "mati",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "83db8560437f27cd2186ec5bc1be51102444c91edaebb029f7140532523f73a0"
+  },
+  {
+    "activity": "ca-S095",
+    "questionId": "mida",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "f3ad91a97b2064a16f9c001f2c248ec12e7cb5cd4251f6226dcc58fccb62c383"
+  },
+  {
+    "activity": "ca-S095",
+    "questionId": "plegar",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "b84ecf8809ccd357d058f1f3bd3c404b542c1c0909aec54879acd1f91535db9a"
+  },
+  {
+    "activity": "ca-S095",
+    "questionId": "recollida",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ca6a405c1a3141a25066e25b1def245fe842524fa974e975f536c71d7f6e2cbc"
+  },
+  {
+    "activity": "ca-S095",
+    "questionId": "tub",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "516d56a7143782dde5f990517dd33c184d95dcd6b4f1b5cdf935ebec41c22ea1"
+  },
+  {
+    "activity": "ca-S096",
+    "questionId": "arbre",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ebcb0393162cf5bf41af56cb0f0d3ac9d19ce97b8df59c9c7266e94a9c4c485d"
+  },
+  {
+    "activity": "ca-S096",
+    "questionId": "avis",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "c02a0346be21e28a2b5d6e5d96355675f05be04c56ebd6b694bf6924a7259b72"
+  },
+  {
+    "activity": "ca-S096",
+    "questionId": "foto",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "fea55903d65c0e386044be66d20e8f1d027431be824476dbb7fc1ddfd25fa490"
+  },
+  {
+    "activity": "ca-S096",
+    "questionId": "instancia",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "de383d532758e5a83f96797f4d7237bdf945b44bec13f9b778d0f718d1b183d7"
+  },
+  {
+    "activity": "ca-S096",
+    "questionId": "motiu",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "0456a23333655f050a1aa1ed8f9ba9112b3153a8be99ada64f3acc22143ed62b"
+  },
+  {
+    "activity": "ca-S096",
+    "questionId": "registre",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "7bd27117640d8933bc5687b9cb9dea6e0166ed3507e0a77463fcc6dd4e262a57"
+  },
+  {
+    "activity": "ca-S096",
+    "questionId": "signar",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ce1c09031861aa76dcf2d46c9deccaded49c6ce1285f94c175f271a901d58c0c"
+  },
+  {
+    "activity": "ca-S096",
+    "questionId": "ubicacio",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "1b50185af63b33555d1f4c7580d2f24f7c468cda961fe17cbfb4aaa188675285"
+  },
+  {
+    "activity": "ca-S097",
+    "questionId": "andana",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "28f82b40300f8f8d9064e669ddab529868ef6269ce02be34e67d09d6ea92b618"
+  },
+  {
+    "activity": "ca-S097",
+    "questionId": "destinacio",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "613b5f61b5c733c88f891ecbaaf768f9d695db37186d3d43dcb411c64c42edf2"
+  },
+  {
+    "activity": "ca-S097",
+    "questionId": "esperar",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "e3a972452f72b8465459c57d0d704da42f775d4e93d162f97df4cbef7440bf9b"
+  },
+  {
+    "activity": "ca-S097",
+    "questionId": "marina",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "5bd4cca7002ea3c000f94b28ea733c217840b7a99373db1a1f18184412e869c8"
+  },
+  {
+    "activity": "ca-S097",
+    "questionId": "paper",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "0ae85f859ec270d4a4e750b9154be30ea238ea16d990a6d906dff0c6f48118bf"
+  },
+  {
+    "activity": "ca-S097",
+    "questionId": "primer",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "8983a2a076b7e1b5b6653bb52bb731b3edd0856e3d2b385adfa1881916d052ba"
+  },
+  {
+    "activity": "ca-S097",
+    "questionId": "urbans",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a7c05b1766fd003f88e6beaa33a28ae1cb9ca93fa6ad3cbaca298233309d298e"
+  },
+  {
+    "activity": "ca-S098",
+    "questionId": "berenar",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "fc10cfcc57fc57139e0fec4cf1d036ab71cd847fff0c7e93d55cb8ecd18a8249"
+  },
+  {
+    "activity": "ca-S098",
+    "questionId": "confusio",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "62bcbd7df8ddce892c6b5da9c6486616579b6b63c4ec61d725e80f9e5625c53c"
+  },
+  {
+    "activity": "ca-S098",
+    "questionId": "diferencia",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "14484d727b60e20e2921459d1de6953f51390792ce35bae99fd7ed399d50542a"
+  },
+  {
+    "activity": "ca-S098",
+    "questionId": "moment",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a2df22340e16da331ebfe1c997e3c13ebbd674fa8863437503f5c5d5421b2e62"
+  },
+  {
+    "activity": "ca-S098",
+    "questionId": "parella",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "37bc3fe060c3c38cb782423d51a9a318c1b0e3c08843d62f9a6c20a227b483b5"
+  },
+  {
+    "activity": "ca-S098",
+    "questionId": "sol",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "d33e35391eaa6993730c3de7643e4c597d6db77a6fa9eb7ff87af2a9d532ea86"
+  },
+  {
+    "activity": "ca-S098",
+    "questionId": "taules",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "6d26f89831e36da34c19faa7c2e3cdf612dfd1fa5d3d95330cb2bb2c5bbd4520"
+  },
+  {
+    "activity": "ca-S099",
+    "questionId": "cobertura",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "058d70456c7298854af6d935ca438988431acb8de3be0851f9ebeaaa233a3571"
+  },
+  {
+    "activity": "ca-S099",
+    "questionId": "danys",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "be232907f1334ead67a74ad254ee2a0d99b779dde6954dc79be4d91bc6ef3caf"
+  },
+  {
+    "activity": "ca-S099",
+    "questionId": "factura",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a5b999e123c9ab9aa497eb9a1e93c01feebaa1ddf2715424dce8dbc0332342b6"
+  },
+  {
+    "activity": "ca-S099",
+    "questionId": "fotos",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "7a49495a686264add27896881b1d89e1933963ebd4eeab5dc4280927ffd69be3"
+  },
+  {
+    "activity": "ca-S099",
+    "questionId": "informe",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "996b254bcee0aa16e27e21176462f69ddc2f0d1d06a6289f7d3cf546a01fd77c"
+  },
+  {
+    "activity": "ca-S099",
+    "questionId": "origen",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "7af55fc7bd9ae8bf9d8c80c3d1f79e986463849d8b3203ace1fa48a674a8db86"
+  },
+  {
+    "activity": "ca-S099",
+    "questionId": "referencia",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "54a66f7101e7919b11c7562445bcc03a88d5d223eeec4984928e7aa713ce504b"
+  },
+  {
+    "activity": "ca-S099",
+    "questionId": "reparacio",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "89eda77ec67474ae7f06e542e4a6566a3b4e15983bcdc4dd29778bd7d9d131a2"
+  },
+  {
+    "activity": "ca-S100",
+    "questionId": "bolis",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "005f0abf0637b3944f14e692079621b72ca3662fd22f802244166bbec9bd918d"
+  },
+  {
+    "activity": "ca-S100",
+    "questionId": "comprovar",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a3247b8ef2ef488de8897b4129259ebdc2197a189b0e9c413583e97aea5af443"
+  },
+  {
+    "activity": "ca-S100",
+    "questionId": "comptes",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "27d98ea6631550b724fb7296ee76321d6c13f859ee16b4804af4237643f0037f"
+  },
+  {
+    "activity": "ca-S100",
+    "questionId": "metode",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a306f967b350f196214dd69ab05b702da5168b42db7cd27639b117d3ea2a125f"
+  },
+  {
+    "activity": "ca-S100",
+    "questionId": "papers",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "9a5158c915b9850ff4314161757c9a7e3c281997ba46b3fa821060a70923954e"
+  },
+  {
+    "activity": "ca-S100",
+    "questionId": "preu",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ebabfa708d74b4e7b0115ab86b7493b95bf9de5fa7e7479ed8f6b0748511a823"
+  },
+  {
+    "activity": "ca-S100",
+    "questionId": "tornar",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "f355156f8a395400eba706f6e9a84bc0074cb3b830d7c6fb71901621daff672a"
+  },
+  {
+    "activity": "ca-S100",
+    "questionId": "unitats",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "e89816574cadef0c00563341ca853aeed4c0dbffcb6406449f15aa424bfdd72f"
+  },
+  {
+    "activity": "ca-S101",
+    "questionId": "arribada",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "0ba94d17eac6396c0fc28ce19b5a8a94ac9e3706496b54e89b6f718d0c69f6e3"
+  },
+  {
+    "activity": "ca-S101",
+    "questionId": "assistencia",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "788daab3e1a0b535a32716eba575b0e4fc82b8d0e93b0bf7d9d7e137109e8a28"
+  },
+  {
+    "activity": "ca-S101",
+    "questionId": "codi",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ac7b55237601eb9f3d6ea0c78e5e0804f1b0d1a3b2043ffafe260b1093ab58e8"
+  },
+  {
+    "activity": "ca-S101",
+    "questionId": "esmorzar",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "afddb36b9cd3d74c397900502b46ab9c6c16cc38d43ee6f0c8c3571be079f9ca"
+  },
+  {
+    "activity": "ca-S101",
+    "questionId": "fitxa",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "76b0670d5a82885853f50084b66144858c6d09d9b833307a60ad286ae397584c"
+  },
+  {
+    "activity": "ca-S101",
+    "questionId": "lloc",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "4c6c56e4abbabd6fd6c2707b63c175fd463371545b52175054c0fb6e85f81a77"
+  },
+  {
+    "activity": "ca-S101",
+    "questionId": "sobre",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "5dc33b5f944043e03c24840f44b59b4cd41084fbb0dc788b428c068215e084ab"
+  },
+  {
+    "activity": "ca-S101",
+    "questionId": "trucada",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "bd462c40d34411665dca8613f4958f864ead1e5e00f135ef5816068739af5dfe"
+  },
+  {
+    "activity": "ca-S102",
+    "questionId": "copia",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "faf9ceddeb8089453e905b8ce61ef45353100572e81dc34dea84da7b0b467d92"
+  },
+  {
+    "activity": "ca-S102",
+    "questionId": "hora",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "b18d05de6ceab745a48120265cd056b7dc3d12bec8d61e2e9fba103d15317859"
+  },
+  {
+    "activity": "ca-S102",
+    "questionId": "incidencia",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ace7f7674bdf26c054ab04ca8bd606efee87481d58b75b1db35ad9feff907b11"
+  },
+  {
+    "activity": "ca-S102",
+    "questionId": "linia",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "7d4926c4ea7ffd5928e96001d44160e968b0c2398319e69d07e2987d01bed94e"
+  },
+  {
+    "activity": "ca-S102",
+    "questionId": "motiu",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "7eaaf47375c82a50d96b582f019a089bb16c4d55a19ad0f68caaa62c6fdcd900"
+  },
+  {
+    "activity": "ca-S102",
+    "questionId": "parada",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "d9779f65a19744b4ae53379f6a8d8a37aa29f1af5830cd41febd071b72834568"
+  },
+  {
+    "activity": "ca-S102",
+    "questionId": "resposta",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "e7fd80a2a3d4e9ba5bf55531f315205431a4f4c002ec9edf3e52bdf35a1a9b4b"
+  },
+  {
+    "activity": "ca-S102",
+    "questionId": "sentit",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "e05a8d7b69f8b59feac25c5b61e45a778fa82db8fa2a3a192cd9dadf4bc4d79a"
+  },
+  {
+    "activity": "ca-S103",
+    "questionId": "avis",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "4cc1ad2bc64db31ba34d09c719648a0abfd096f24f716d23906ddb1817c6fde2"
+  },
+  {
+    "activity": "ca-S103",
+    "questionId": "hora",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "50d0f61a8fc8ce2b5949bb7c1d2ef7a50afe0d86c43c8476e91080fd7aac22f6"
+  },
+  {
+    "activity": "ca-S103",
+    "questionId": "menu",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "4ca7d1617767f8538ac4977f9c76eefcae584f098aa0765d235b2da6689525a1"
+  },
+  {
+    "activity": "ca-S103",
+    "questionId": "nom",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "91dd15ffff6d2bf5cea80867da2105817c48b3338982a413fde3b146913064bf"
+  },
+  {
+    "activity": "ca-S103",
+    "questionId": "partit",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a7fa768a7e986b7156c853d393f48f155fa9b43b6e386baa5d51177fee4c4ff0"
+  },
+  {
+    "activity": "ca-S103",
+    "questionId": "persones",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "f56d821d1adc6e2b3a2936aebe25d69cef948458ca65885c512c850d3ee0f251"
+  },
+  {
+    "activity": "ca-S103",
+    "questionId": "racions",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "5d9f42d7182de129e5ccfce6ef0f0283e0956f9ea339046b9b8762b4da1f0382"
+  },
+  {
+    "activity": "ca-S104",
+    "questionId": "buscar",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "20aad27a0b5dcf73ae591e8ba4d45fc4f0b0fabdfa6a925b0e54096465b47b01"
+  },
+  {
+    "activity": "ca-S104",
+    "questionId": "feina",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "86de97fd09337c98fe9022e30e40efb6e166ff2797358cd60645049b0a27614e"
+  },
+  {
+    "activity": "ca-S104",
+    "questionId": "lloc",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "22ed68fadefed2e1716c9c66013247040e89ffa18901ee0259b1bc551898cd3b"
+  },
+  {
+    "activity": "ca-S104",
+    "questionId": "motiu",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "1b9f9a6377351e9be0d19ce070e33b084ca1872c33e49e3acc532c39f73db6a8"
+  },
+  {
+    "activity": "ca-S104",
+    "questionId": "problema",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "16ad82125fb764de7aeee4b563b2a148a5ac44dcd8551f7a5f11219773bcd2e5"
+  },
+  {
+    "activity": "ca-S104",
+    "questionId": "tria",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "6228d86a2b655e200606354afe6c8f388957e183a7a2bef8249dfc17b7eae7c2"
+  },
+  {
+    "activity": "ca-S105",
+    "questionId": "canvi",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "35a620c49db1158306f3dda28b029dbcfcb744ddc97aa8a34c58f02e08e5f851"
+  },
+  {
+    "activity": "ca-S105",
+    "questionId": "causa",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "c076a5d098dd695eccd0b6ec9d62ec83de340741ea4ef65db6df4372f048b1a3"
+  },
+  {
+    "activity": "ca-S105",
+    "questionId": "comprovar",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a6820fd43dd2667d39124353947de008256c00d5d869a6e9da67b7748019a1a6"
+  },
+  {
+    "activity": "ca-S105",
+    "questionId": "despres",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "916a0f960e59307785ffb1b51441bbe3bd1389cd46cc340cac24d488f38c7f3e"
+  },
+  {
+    "activity": "ca-S105",
+    "questionId": "objecte",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ba1ac0a4214ca49d1384bba47748c1fc900f502cddee0311eaaee3bda9372519"
+  },
+  {
+    "activity": "ca-S105",
+    "questionId": "primer",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "7fb54f2c85c36b063e52eb2efcb1c00fee7e397bab9284f4f2542fdbfdee05c9"
+  },
+  {
+    "activity": "ca-S105",
+    "questionId": "sospita",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "2eb4972da2930cb8e142096c141bf9d87a7165137798fb8525b2ac6727a223af"
+  },
+  {
+    "activity": "ca-S106",
+    "questionId": "abans",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "610d304c95ad5f0f9cd52d2f0a2b1c208c6cbfe61301c34b155f12d79d5b1ab8"
+  },
+  {
+    "activity": "ca-S106",
+    "questionId": "caiguda",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "b518d33a15c2949727565624c12ba11e5938aa6718e71eb5a992d96fb93fb799"
+  },
+  {
+    "activity": "ca-S106",
+    "questionId": "corrent",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "e78336fa0d6ea645428808179d89b1c4992d0d9f172cf4d799ffc3a6714f1e99"
+  },
+  {
+    "activity": "ca-S106",
+    "questionId": "final",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "c42306c088cf43110b8b93a35610d3d3e170465485240e8883ecae638f7bb081"
+  },
+  {
+    "activity": "ca-S106",
+    "questionId": "ma",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "735c1603d6139d39685b622ebfaf895d45154e2c5311da40a9d99e9af9969750"
+  },
+  {
+    "activity": "ca-S106",
+    "questionId": "primer",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "dbae9a6430fd02fa810117a2f8ef2ae54be3dc19db7084e63b5047ce913661c8"
+  },
+  {
+    "activity": "ca-S106",
+    "questionId": "segon",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "53d1b325f639a0e0eb51a40be90974b637963c9e2db054e92dbb0f2de9fea3fc"
+  },
+  {
+    "activity": "ca-S106",
+    "questionId": "tall",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "dbcd85e591bf565eaf8f08d4da38f1e0f822b616cf633db9f0059b2954ea2c00"
+  },
+  {
+    "activity": "ca-S107",
+    "questionId": "bossa",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "b11c39ecd3648bb395e52736095d5f7d6a457303d266864bc93d30b638a9ae4c"
+  },
+  {
+    "activity": "ca-S107",
+    "questionId": "canvi",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "b30b9e4cec61014cf815a1149ebad812d027f576be2ed50aadf0e1203bb85f59"
+  },
+  {
+    "activity": "ca-S107",
+    "questionId": "mesures",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "d4fde364c17fac57d672bf654e0b0cb2af6aa5507bd5e2f53f43ba7d04a78427"
+  },
+  {
+    "activity": "ca-S107",
+    "questionId": "on",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "eaaa0f9be1a3797015c7f999266bd6d4d4fb59324a5ea6214ebff144f7e18636"
+  },
+  {
+    "activity": "ca-S107",
+    "questionId": "ordre",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "eeee3f6d254e85d3e69a6ab859c8424252e4d6ae175289d1bea7dd642c8ca4fe"
+  },
+  {
+    "activity": "ca-S107",
+    "questionId": "solucio",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "56925c633cfd61a30cb3316aa7c1f4101da21a9bc283a63f56976a1d3e0cc1db"
+  },
+  {
+    "activity": "ca-S107",
+    "questionId": "toc",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ffa3aa680a6ea493f731e569590014fb2a447835fff003a4d30827ce47e97dda"
+  },
+  {
+    "activity": "ca-S107",
+    "questionId": "una",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "c8c4e127b55ed40e7b71410c08384e86908a03185aa537ec4d9373d0870c9730"
+  },
+  {
+    "activity": "ca-S107",
+    "questionId": "us",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "3fa6c51d0ad1d4831fb832957da9182c30b159f6c46a410b2ba6f72365dc6f90"
+  },
+  {
+    "activity": "ca-S108",
+    "questionId": "aigua",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "5c50efbb6e957e0fb3acadf96c17e586c787e07a4b8f6f460337570de3d66598"
+  },
+  {
+    "activity": "ca-S108",
+    "questionId": "banc",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "e6f9e0d78e2fdb42df57ad228c6af547983e2fbc62d3f7b5b08a716b292bc63f"
+  },
+  {
+    "activity": "ca-S108",
+    "questionId": "bossa",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "0592673adaf23f5c650ca16c90be51450d344fc01744e4627bb3e350f8191892"
+  },
+  {
+    "activity": "ca-S108",
+    "questionId": "idea",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "d21f6633e378ad5988a3db69b09ca6e0920ead84d2cdcb0e39351acc8b6787a6"
+  },
+  {
+    "activity": "ca-S108",
+    "questionId": "lloc",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a67d412f5e12abc87e4cd5bfc7185cb7e09dc6d980a875ef9b0153a79ef12886"
+  },
+  {
+    "activity": "ca-S108",
+    "questionId": "temps",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "cdb9099f38d8f15de0dda3e715e46d0abfe9f444cc3a3af284d710b455cf2aa6"
+  },
+  {
+    "activity": "ca-S109",
+    "questionId": "acord",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "2637f0a99055828524a490f43c96474c69c34adaca990807b39253fb09775325"
+  },
+  {
+    "activity": "ca-S109",
+    "questionId": "alternativa",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "f2bfee62a5c838711523d4678ff6f433e33f79dc3304ce055691ef6211d3a299"
+  },
+  {
+    "activity": "ca-S109",
+    "questionId": "calcat",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "b2ea05037713b21b86f31fae1a9da0e2b2aa6baebe27478c8442db4707037ba1"
+  },
+  {
+    "activity": "ca-S109",
+    "questionId": "destinacio",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "d11786e11f5baa0fffc3804cad863ba5526ed647ad013c3969a252a8ac101531"
+  },
+  {
+    "activity": "ca-S109",
+    "questionId": "motiu",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "50261f96b70c512cc192fdb5b125642aa27783b739b92e68a699c7219952b59f"
+  },
+  {
+    "activity": "ca-S109",
+    "questionId": "retorn",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "5d10ce86a42cc93f17f06ece4a6a29a036cb590db1af6dad892a33321b8493d9"
+  },
+  {
+    "activity": "ca-S109",
+    "questionId": "temps",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ba3f3b9f2187f9f1ff01607aa5ad03bda5641c55fdd81c264affad5e6019c781"
+  },
+  {
+    "activity": "ca-S110",
+    "questionId": "aina",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "9ab59b3484f15f7fb022a5e1566d389a875faf8d149cc6971a1f767093f4e829"
+  },
+  {
+    "activity": "ca-S110",
+    "questionId": "aire",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "6086704023223d00892bf010644999b3c04e1c8d49b02baf932df771a072ef95"
+  },
+  {
+    "activity": "ca-S110",
+    "questionId": "amagat",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "a8577132abd891f36a6a52c29712462a5c401729d39a6b6c0e4ced95bec5e64f"
+  },
+  {
+    "activity": "ca-S110",
+    "questionId": "avi",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "fc1b217843ba65f82cc5ac07622f604e6d7672efb9b7f8e7f6b3397defdadbae"
+  },
+  {
+    "activity": "ca-S110",
+    "questionId": "balco",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "c6455610c707e590751169e7b514081b03dee91d783982f8b2e98128c218b4e3"
+  },
+  {
+    "activity": "ca-S110",
+    "questionId": "dubte",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "9afc1fad8591267a2dcbf9b866d30ccf29fa7ace4ed65223270c3d6c5e6fae2b"
+  },
+  {
+    "activity": "ca-S110",
+    "questionId": "moure",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "42a74aa51b15b6ff5caea17be790fd72d6647702761d11aa79159128b76e974f"
+  },
+  {
+    "activity": "ca-S110",
+    "questionId": "origen",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "bb7eb1eca44dc5a33b56c4107fd479b72bdfe97f9c3cba3faec97ae041e87a80"
+  },
+  {
+    "activity": "ca-S111",
+    "questionId": "coneix",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "00cf18be45a1ed9e1a806dad80da04543bf160b58789bd46d886bc8ecf6c8daf"
+  },
+  {
+    "activity": "ca-S111",
+    "questionId": "confirmat",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "e6c88ee8281d6068d6b5018c6dffee9f0cb36c1be4043828288b9686ff17aa19"
+  },
+  {
+    "activity": "ca-S111",
+    "questionId": "idea",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "37810d30f665806c7625ebc3f663be03822946df7b41ac369401aa24278165f2"
+  },
+  {
+    "activity": "ca-S111",
+    "questionId": "proposta",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "9fe4de99a8e9d1860a3991d015a7d8c65a769c9a13f487ea4ca4a18b31230442"
+  },
+  {
+    "activity": "ca-S111",
+    "questionId": "record",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "2a8951c61f41b1f75720cc732eee977864a0433bb14262b0b395a0f561a4f078"
+  },
+  {
+    "activity": "ca-S111",
+    "questionId": "sense",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "1046958176f422ccb1b933d44f550d1c9f269ac63656d033d54f77e17a00ed7e"
+  },
+  {
+    "activity": "ca-S111",
+    "questionId": "tancat",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "dda93ff362c546e78a076a842e5c13ba0e37a37d9405e61b1e376ac27e4edc77"
+  },
+  {
+    "activity": "ca-S111",
+    "questionId": "telèfon",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "ee83703c3d133cbc040c1c0bb3affff46cc64923950a036844ccff48cc326e9c"
+  },
+  {
+    "activity": "ca-S111",
+    "questionId": "temps",
+    "status": "passed",
+    "author": "/root/abcd_author_004",
+    "reviewer": "/root/abcd_author_003",
+    "reviewedAt": "2026-11-25",
+    "teacherValidation": "pending",
+    "fingerprint": "72b40e87674b568f1d206ee50196064bc42f8b83abde5a1af3017ff840159ad0"
   }
 ];

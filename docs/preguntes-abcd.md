@@ -2,7 +2,7 @@
 
 Pla d’adaptació del **25/11/2026**, després de revisar la implementació local de Trama. El pilot S001–S005, amb S004D, ja incorpora doble format al web: 37 alternatives ABCD i una pregunta oberta justificada, revisades independentment i validades pel docent el 25/11/2026. [Seguiment de cobertura](preguntes-abcd-seguiment.md).
 
-**Prioritat vigent:** adaptar les preguntes de les 119 peces actuals abans de reprendre l’autoria de comprensions noves. La proposta d’ampliació del [catàleg](prioritats-cataleg.md) queda ajornada. Les esmenes de veu, els muntatges i les validacions de material existent poden continuar.
+**Migració completada (0.1.111):** les 119 peces tenen classificades i revisades les 895 preguntes: 891 alternatives ABCD i 4 obertes amb motiu. El pilot conserva l’aprovació docent; els blocs nous han superat revisió independent i es mostren amb l’avís de validació docent pendent. Aquest avís només afecta el format de preguntes, sense reobrir aprovacions d’àudio. Cada guió nou s’ha de preparar de bon començament amb els dos formats adequats.
 
 ## Punt de partida
 
@@ -120,3 +120,10 @@ La cobertura tindrà un seguiment propi de preguntes, separat del [seguiment de 
 Els exemples són captures de la primera pregunta de S001, generades amb `renderWorksheet`, tipografia i escala A4 reals. Es captura el full sencer i es retalla la pregunta amb les dues línies o les quatre opcions sense marcar; el popup en mostra només l’inici i aplica un degradat cap a transparent a la dreta, sense reduir ni remaquetar el text. El canvi visual conserva el desat de la preferència. Les imatges tenen descripció alternativa en català i castellà.
 
 Regeneració local: `node tools/capture-question-format-samples.cjs`. Fitxers i procedència a `assets/images/question-format-{open,choice}-print-v1.webp` i `question-format-print-samples.json`. Les captures es conserven en escala doble per a pantalles d’alta densitat, amb la composició i tipografia del full.
+
+
+### Doble format des del primer guió
+
+Preparar conjuntament les versions oberta i ABCD de cada ítem convertible, amb quatre opcions, clau, explicació i cites. Conservar l’objectiu i les parts de les preguntes compostes. Opinió, creació i justificació personal continuen obertes amb motiu específic. Un agent diferent de l’autor revisa totes les opcions, intenta defensar els distractors i comprova una única clau, càrrega de lectura i calibratge. Una modificació invalida la revisió exacta d’aquell ítem.
+
+Registrar els lots a `content/question-choices/index.js` i la revisió amb `node tools/record-question-choice-review.mjs --file=informe-independent.json`. `node tools/check-choice-catalogue.mjs --complete` exigeix cobertura total; `node tools/check-editorial-review.mjs` impedeix presentar provisionals nous sense doble format revisat o motius d’obertura. Les aprovacions del docent de preguntes i àudio són independents.
