@@ -51,5 +51,6 @@ export function responseSummary(entry, settings = {}) {
   const visible = entry.questions.filter(q => settings.questions?.[q.id]?.included !== false);
   const compatible = visible.filter(q => multipleChoice(entry,q));
   const choices = compatible.filter(q => questionMode(entry,q,settings) === 'choice').length;
-  return { available: compatible.length, choices, open: visible.length - choices, total: visible.length };
+  const pendingApproval = compatible.filter(q => questionMode(entry,q,settings) === 'choice' && reviewed.get(entry)?.get(q.id)?.teacherValidation !== 'approved').length;
+  return { available: compatible.length, choices, open: visible.length - choices, total: visible.length, pendingApproval };
 }

@@ -1,0 +1,26 @@
+'use strict';
+const assert=require('node:assert/strict'),fs=require('node:fs/promises'),path=require('node:path'),{createHash}=require('node:crypto');
+const{waveParts}=require('./gemini-result.cjs'),{ffmpeg,ffmpegBinary}=require('./audio-files.cjs'),{assertExactSelection}=require('./render-reviewed-revision.cjs');
+const root=path.resolve(__dirname,'..'),work=path.resolve(root,'../output/sentit-primera-tanda'),sha=b=>createHash('sha256').update(b).digest('hex');
+(async()=>{
+ const{activities}=await import('../catalogue.js'),{productionProgress:p}=await import('../content/production-progress.js'),{productionStage}=await import('../production-stage.js'),{pendingRepairClips}=await import('../repair-preview.js');
+ const requestLog=await fs.readFile(path.join(work,'request-log.json')),binary=await ffmpegBinary();let clips=0;
+ for(const code of['S022','S025','S059','S061','S071']){
+  const a=activities.find(a=>a.code===code),s=p['ca-'+code],m=JSON.parse(await fs.readFile(path.join(root,'assets/audio/'+code.toLowerCase()+'-production-manifest.json'))),folder=path.join(work,code.toLowerCase(),code==='S061'?'approved-opening-v1':'reviewed-repair-v3'),r=JSON.parse(await fs.readFile(path.join(folder,'repair-application.json')));
+  assertExactSelection(code,r,s.repairApplicationApproval);assert.equal(r.newRequests,0);assert.equal(r.voiceRetimed,false);assert.equal(r.pitchShifted,false);assert.equal(r.allOtherVoiceSamplesIdentical,true);
+  const originalBytes=await fs.readFile(r.originalRawFile),patchedBytes=await fs.readFile(r.patchedFile);assert.equal(sha(originalBytes),r.originalRawSha256);assert.equal(sha(patchedBytes),r.patchedSha256);
+  const original=waveParts(originalBytes),patched=waveParts(patchedBytes),rate=patched.format.readUInt32LE(4),frame=patched.format.readUInt16LE(12),at=t=>Math.round(t*rate)*frame;assert(original.format.equals(patched.format));
+  const ranges=[];
+  for(const kept of r.retainedRanges){const bytes=original.pcm.subarray(at(kept.originalStart),at(kept.originalEnd)),start=at(kept.outputStart);assert.equal(sha(bytes),kept.sha256);assert(patched.pcm.subarray(start,start+bytes.length).equals(bytes),code+' unchanged speech');ranges.push([start,start+bytes.length]);}
+  for(const e of r.edits){const candidateBytes=await fs.readFile(e.candidateRawFile);assert.equal(sha(candidateBytes),e.candidateRawSha256);assert.equal(sha(await fs.readFile(path.join(root,e.accepted.candidateFile))),e.accepted.candidateSha256);const candidate=waveParts(candidateBytes);assert(patched.format.equals(candidate.format));const b=candidate.pcm.subarray(at(e.candidateRange.start),at(e.candidateRange.end)),start=at(e.outputStart),actual=patched.pcm.subarray(start,start+b.length),gain=10**(e.gainDb/20);for(let i=0;i<b.length;i+=2)assert.equal(actual.readInt16LE(i),Math.round(b.readInt16LE(i)*gain));ranges.push([start,start+b.length]);const receipt=s.receivedRepairs.find(x=>x.candidateFile===e.accepted.candidateFile);assert.equal(receipt.applied,true);assert.equal(receipt.appliedAudio,a.audio);assert.equal(receipt.appliedAudioSha256,m.sha256);clips++;}
+  ranges.sort((a,b)=>a[0]-b[0]);let cursor=0;for(const[first,last]of ranges){assert.equal(first,cursor);cursor=last;}assert.equal(cursor,patched.pcm.length);
+  assert.equal(m.repairApplication.patchedSha256,r.patchedSha256);assert.equal(a.audio,'./assets/audio/'+m.file);assert.equal(s.state,'montage-awaiting-listening');assert.equal(productionStage(a).id,'montage');assert.equal(s.listeningApproval,false);assert.equal(m.state,'awaiting-montage-validation');assert.equal(s.plannedNewRequests,0);assert.equal(pendingRepairClips(a).length,0);assert.equal(sha(await fs.readFile(path.join(root,a.audio))),m.sha256);assert.equal(s.reviewUpdate.audio,a.audio);assert(m.lufs>=-24&&m.lufs<=-15&&m.peakDbTP<=-1);
+  for(const name of[m.file,m.introFile,m.bodyFile])ffmpeg(binary,['-v','error','-xerror','-i',path.join(root,'assets/audio',name),'-f','null','-']);
+  if(m.previousMaster)assert.equal(sha(await fs.readFile(path.join(root,'assets/audio',m.previousMaster.file))),m.previousMaster.sha256);
+  if(code==='S022'){assert.equal(r.edits[0].accepted.trialId,'S022-rails-dieresis');assert.equal(s.receivedRepairs.find(x=>x.trialId==='S022-rails-accent').applied,false);assert(a.transcript.some(p=>p.text.includes('els rails')));assert(!a.transcript.some(p=>p.text.includes('els raïls')));assert.equal(m.effects.filter(e=>e.name==='gentle-tram-memory-bed').length,1);}
+  if(code==='S025'){assert.deepEqual(m.effects,[]);assert(m.voiceTrim.removedTailSeconds>8);assert(m.voiceTrim.handles.every(db=>db<=-40));assert(m.fullDuration<54);}
+  if(code==='S061'){assert.equal(s.bodyVoiceApproval.confirmedAfterMetadataCleanup,true);assert.deepEqual(s.missingVoiceParts??[],[]);assert.equal(r.edits[0].operation,'insert-omitted-introduction');assert.equal(r.retainedRanges[0].sha256,sha(original.pcm));}
+  if(['S059','S061'].includes(code))assert(m.effects[0].underSpeech&&m.effects[0].speechNominalLufs< -45);
+ }
+ assert.equal(sha(await fs.readFile(path.join(work,'request-log.json'))),sha(requestLog));console.log(JSON.stringify({pass:true,montages:5,approvedReplacements:clips,retainedPcmIdentical:true,secondRailsTrial:true,decodedTracks:15,newRequests:0,awaitingFinalListening:true}));
+})().catch(e=>{console.error(e.stack);process.exitCode=1;});

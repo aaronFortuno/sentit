@@ -19,29 +19,39 @@
       "part": "final",
       "text": "D’acord. I després la deixem preparada per al grup. Aquesta vegada em toca prémer el botó a mi!",
       "pronunciation": "Keep Laia/Leda youthful and natural. Pronounce prémer fluently with its M before the final ER, never prémre. Read only the supplied complete turn.",
-      "status": "received-awaiting-listening",
+      "status": "applied-awaiting-montage-listening",
       "originalFile": "assets/audio/repairs/l31-s025-final-original.mp3",
       "candidateFile": "assets/audio/repairs/l31-s025-final-prova.mp3",
       "sourceRawSha256": "56e38fc4c127a624b3e598d3dfb83d3e73a61ee7ab639a0f984c6a91f1b92c24",
       "sourceTakeId": "S025-T01",
       "sourceTakeSha256": "96daab49592b1dcc9c0c965c97b39c9ade39b1ba56d2e44a738f15ebad3a61bc",
       "batchRequestHash": "a60fe358a66004eba2e6b742133d7f9780780baf5a8739a3a428828c3e6fa590",
-      "applied": false
+      "applied": true,
+      "approvedAt": "2026-11-25",
+      "confirmation": "Docent 25/11: S025 validada amb la frase rectificada, llesta per pujar a muntatge.",
+      "appliedAt": "2026-11-25",
+      "appliedAudio": "./assets/audio/s025-repair-v3.mp3",
+      "appliedAudioSha256": "8374fb7e0d00d6526d249c4931812caf5716a1a45fa9e250d24699c31d5ff805"
     },
     {
       "code": "S061",
       "part": "introduction",
       "text": "Comprensió oral. El curt que començava pel final.",
       "pronunciation": "Read the exercise introduction and title exactly once in the same youthful Laia/Leda voice. Do not start the dialogue or add a third voice.",
-      "status": "received-awaiting-listening",
+      "status": "applied-awaiting-montage-listening",
       "missingOriginal": true,
       "candidateFile": "assets/audio/repairs/l31-s061-introduction-prova.mp3",
       "sourceRawSha256": "31d64681f63f83a2ea00ceaae4e856d2c22a5a1c3eaa089c652442b3ecebf497",
       "sourceTakeId": "S061-T01",
       "sourceTakeSha256": "f8c2abe90710bcd8f81d4437c03c30b36c5c1be4ac58f2c7a46e63e0aa60cd4b",
       "batchRequestHash": "a60fe358a66004eba2e6b742133d7f9780780baf5a8739a3a428828c3e6fa590",
-      "applied": false
+      "applied": true,
+      "approvedAt": "2026-11-25",
+      "confirmation": "Docent 25/11: S061 validat per a muntatge amb l’esmena de la frase que faltava.",
+      "appliedAt": "2026-11-25",
+      "appliedAudio": "./assets/audio/s061-mixed-v1.mp3",
+      "appliedAudioSha256": "aea14978de1b304d38448c4a66a5fe038cfaa2b227d6adc23fb756b8acd24924"
     }
   ],
-  "masterChanged": false
+  "masterChanged": true
 }

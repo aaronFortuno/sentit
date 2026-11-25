@@ -4,6 +4,8 @@ Actualitzat: **25/11/2026**. Aquest document mostra només la feina pendent d’
 
 **Pilot multimodal rebut:** MM-PILOT-001 ja és al final de L29. [Escolta la pista independent](../assets/audio/external/mm-pilot-001-voices-v1.mp3) · [Manifest](../assets/audio/external/mm-pilot-001-voices-v1.json). Pendent d’audició al projecte paral·lel; no tornar a sintetitzar-lo per omplir lots.
 
+[Pla actual d’esmenes per veus, preses i complements](pla-esmenes-veu.md).
+
 ## Lots pendents
 
 | Lot | Material pendent | Veus | Previsió orientativa | Què falta |
@@ -26,18 +28,15 @@ P02 reuneix quatre lectures breus del mateix repartiment per conservar els guion
 | Peça | Prova rebuda | Estat actual | Comparació |
 | --- | --- | --- | --- |
 | S010 | Després ja som a la porta. És el camí que vam fer l’any passat. | Validada · pendent d’incorporar | [L01](../proves/correccions-l01.html) |
-| S010 | Des de la plaça anem pel carrer dels Til·lers fins a la farmàcia. | Pendent d’audició | [L02](../proves/correccions-l02.html) |
-| S022 | Hauria pogut passar el dia mirant els rails i saludant la gent de les parades. | Rebutjada · cal una altra prova | [L13](../proves/correccions-l13.html) |
 | S070 | Els grans anaven d’un costat a l’altre per saber què havia passat. Mentrestant, la gent s’asseia i els petits corríem entre les cadires. El pare va anar a buscar l’acordió, que havia deixat a casa d’aquell veí, a la planta baixa, perquè no li fes nosa. | Pendent d’audició | [L30](../proves/correccions-l30.html) |
-| S071 | Aina, en aquest sobre hi guardo quatre entrades. Són del mateix teatre i tenen el mateix color blau, però dues són d’un diumenge i dues, del dissabte següent. Si les mires de pressa semblen iguals. A mi em van fer passar una bona vergonya. | Validada · pendent d’incorporar | [L30](../proves/correccions-l30.html) |
-| S022 | Hauria pogut passar el dia mirant els rails i saludant la gent de les parades. · prova raíls | Pendent d’audició | [L30](../proves/correccions-l30.html) |
-| S022 | Hauria pogut passar el dia mirant els rails i saludant la gent de les parades. · prova raïls | Validada · pendent d’incorporar | [L30](../proves/correccions-l30.html) |
+| S071 | Aina, en aquest sobre hi guardo quatre entrades. Són del mateix teatre i tenen el mateix color blau, però dues són d’un diumenge i dues, del dissabte següent. Si les mires de pressa semblen iguals. A mi em van fer passar una bona vergonya. | Incorporada · pendent d’audició del muntatge | [L30](../proves/correccions-l30.html) |
+| S022 | Hauria pogut passar el dia mirant els rails i saludant la gent de les parades. · prova raïls | Incorporada · pendent d’audició del muntatge | [L30](../proves/correccions-l30.html) |
 | S010 | Des de la plaça anem pel carrer dels Til·lers fins a la farmàcia. | Pendent d’audició | [L31](../proves/correccions-l31.html) |
-| S025 | D’acord. I després la deixem preparada per al grup. Aquesta vegada em toca prémer el botó a mi! | Validada · pendent d’incorporar | [L31](../proves/correccions-l31.html) |
-| S061 | Comprensió oral. El curt que començava pel final. | Validada · pendent d’incorporar | [L31](../proves/correccions-l31.html) |
+| S025 | D’acord. I després la deixem preparada per al grup. Aquesta vegada em toca prémer el botó a mi! | Incorporada · pendent d’audició del muntatge | [L31](../proves/correccions-l31.html) |
+| S061 | Comprensió oral. El curt que començava pel final. | Incorporada · pendent d’audició del muntatge | [L31](../proves/correccions-l31.html) |
 | S081 | Sí, truca abans de venir. T’ho explicaré per telèfon. Aquest matí ja he comprovat la guitarra de préstec i només falta que la guardem a la funda. | Rebutjada · cal una altra prova | [L36](../proves/correccions-l36.html) |
 | S081 | De res, Biel. Espera, que t’aguanto la funda mentre hi poses el full... així... Fins dijous, i ja m’explicaràs com va l’assaig. | Rebutjada · cal una altra prova | [L36](../proves/correccions-l36.html) |
-| S059 | A aquesta sí. A les del final... Ai, he fet caure l’arbre de cartró! Sempre em queda al mig. És bonic, però el podríem posar dret al costat de la capsa, a la cadira. | Validada · pendent d’incorporar | [L36](../proves/correccions-l36.html) |
+| S059 | A aquesta sí. A les del final... Ai, he fet caure l’arbre de cartró! Sempre em queda al mig. És bonic, però el podríem posar dret al costat de la capsa, a la cadira. | Incorporada · pendent d’audició del muntatge | [L36](../proves/correccions-l36.html) |
 
 ### Següents esmenes · encara sense petició
 
@@ -54,17 +53,17 @@ P02 reuneix quatre lectures breus del mateix repartiment per conservar els guion
 | [ca-S107](https://sentit.ortogra.fi/#lectura=ca-S107) | Elies · Algieba | sortida |
 | [ca-S109](https://sentit.ortogra.fi/#lectura=ca-S109) | Ferran · Algenib | temps + final |
 
-Esperen un lot compatible de sis a vuit minuts. Les proves auxiliars de S022 es poden comprovar localment amb `node tools/pronunciation-trials.cjs --only=S022`; aquest comandament no envia cap petició.
+Esperen un lot compatible de sis a vuit minuts. Les proves antigues i les descartades es conserven a l’històric; el pla actual exclou les esmenes ja aplicades.
 
 Aquestes preses són proves per comparar amb l’original; el [registre de pendents](seguiment-produccio.md#esmenes-obertes) indica què continua obert. La recepció no n’autoritza l’aplicació ni valida el muntatge final.
 
-S011, S025 i S041 tenen retorns posteriors a aquests lots: cal preparar les esmenes d’identitat o pronunciació que descriu el [registre de producció](../content/production-progress.js). Els antics R01–R04 són agrupacions alternatives, no peticions addicionals: part del seu material ja és als lots rebuts.
+El [pla actual d’esmenes](pla-esmenes-veu.md) inclou els retorns posteriors a aquests lots i distingeix preses per generar, rebudes i correccions locals. Els antics R01–R04 són agrupacions alternatives, no peticions addicionals: part del seu material ja és als lots rebuts.
 
 ## Criteris per al proper enviament
 
 1. Guió, veus i escaleta validats pel docent, amb aprovació i empremta vigents. Les propostes noves esperen aquesta confirmació encara que la quota s’hagi restablert.
 2. **6–8 minuts estimats**, com a màxim dues veus. Prioritzar dues o tres comprensions completes amb el mateix repartiment. Els lots petits esperen; una excepció requereix explicar-ne la mida al docent i acordar-la explícitament.
-3. Els nous lots de lectures completes utilitzen `plain-v1`: cap marca literal de pausa al text, guió i repartiment intactes, direcció no parlada a `speech_metadata.style`. L14 és la primera presa d’aquest format i continua pendent d’audició; la cobertura automàtica no certifica la dicció. El format segueix la [documentació oficial de Gemini TTS](https://aistudio.google.com/docs/speech-generation#controllable).
+3. Els nous lots de lectures completes utilitzen `plain-v1`: cap marca literal de pausa al text, guió i repartiment intactes, direcció no parlada a `speech_metadata.style`. La cobertura automàtica no certifica la dicció ni la identitat. El format segueix la [documentació oficial de Gemini TTS](https://aistudio.google.com/docs/speech-generation#controllable).
 4. Un únic enviament en curs, almenys 65 segons entre inicis. Comprovar aprovacions, duplicats, mida, espai en disc i límits abans de reservar quota o llegir claus. No repetir automàticament intents incerts.
 5. Conservar resposta i preses crues. Comprovar cobertura, identitats, inici, unions i final; retallar només farciment localitzat amb marges de consonants. El reconeixement automàtic no certifica pronunciació ni timbre.
 6. Muntar i escoltar abans de publicar definitivament. Actualitzar el seguiment després de cada canvi de fase.

@@ -1,6 +1,6 @@
 # Seguiment de preguntes obertes / ABCD
 
-Actualitzat: **25/11/2026**. **6 de 119 peces** amb totes les preguntes classificades i revisades independentment: **37 alternatives ABCD**, **1 obertes amb motiu**, **857 preguntes pendents** de 895. La validació docent del pilot continua pendent.
+Actualitzat: **25/11/2026**. **6 de 119 peces** amb totes les preguntes classificades i revisades independentment: **37 alternatives ABCD**, **1 obertes amb motiu**, **857 preguntes pendents** de 895. **6 peces amb validació docent del format de preguntes.**
 
 [Pla i criteris](preguntes-abcd.md). Aquest registre és independent de l’audició i la publicació dels àudios. Les variants es compten per separat.
 

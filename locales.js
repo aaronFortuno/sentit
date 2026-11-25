@@ -1,5 +1,6 @@
 export const strings = {
   ca: {
+    releaseFiveRepairedMontages: "S022, S025, S059, S061 i S071 amb les esmenes validades incorporades als muntatges. S022 utilitza la segona prova de rails; S025 manté retirats clic i cadira; S061 recupera el títol. Les cinc peces esperen audició final. Pilot ABCD validat pel docent i avís provisional retirat. Pla de les 20 preses d’esmena pendents actualitzat, sense peticions noves de síntesi.",
     releaseFiveFinalPublications: 'S094, S111, S099, S072 i S089 publicades definitivament, amb il·lustracions pròpies revisades, fitxes i solucionaris nets. Els cinc àudios aprovats es conserven intactes. Retorns de veu i cua d’esmenes actualitzats, sense síntesi nova.',
     releaseQuestionChoices: 'Pilot de resposta oberta o ABCD a S001–S005 i S004D: 37 alternatives amb revisió independent i una pregunta oberta justificada. Tria general i individual, maquetats conservats, solucionari amb lletra i evidències. Alternatives provisionals, pendents de validació docent.',
     responseFormat: 'Format de les preguntes', responseOpen: 'Resposta oberta', responseChoice: 'ABCD',
@@ -317,6 +318,7 @@ export const strings = {
     sessionEnded: 'Sessió acabada', remainingTime: 'Temps restant',
   },
   es: {
+    releaseFiveRepairedMontages: "S022, S025, S059, S061 y S071 con las correcciones validadas incorporadas a los montajes. S022 usa la segunda prueba de rails; S025 mantiene retirados clic y silla; S061 recupera el título. Las cinco piezas esperan audición final. Piloto ABCD validado y aviso provisional retirado. Plan de las 20 tomas de corrección pendientes actualizado, sin nuevas peticiones de síntesis.",
     releaseFiveFinalPublications: 'S094, S111, S099, S072 y S089 publicadas definitivamente, con ilustraciones propias revisadas, fichas y solucionarios limpios. Los cinco audios aprobados se conservan intactos. Revisiones de voz y cola de correcciones actualizadas, sin síntesis nueva.',
     releaseQuestionChoices: 'Piloto de respuesta abierta o ABCD en S001–S005 y S004D: 37 alternativas con revisión independiente y una pregunta abierta justificada. Elección general e individual, maquetaciones conservadas, solucionario con letra y evidencias. Alternativas provisionales, pendientes de validación docente.',
     responseFormat: 'Formato de las preguntas', responseOpen: 'Respuesta abierta', responseChoice: 'ABCD',

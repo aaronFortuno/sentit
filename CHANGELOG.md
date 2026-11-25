@@ -1,5 +1,13 @@
 # Canvis
 
+## 0.1.108 · 25 de novembre de 2026
+
+- S022 incorpora la segona prova de «rails» (grafia auxiliar raïls només al TTS), conservant el text canònic, la música i els efectes anteriors. S025 incorpora el torn final amb «prémer», manté retirats el clic i la cadira i retalla la cua sobrera. Els màsters anteriors es conserven.
+- S059 incorpora «cartró» amb fons d’aula molt baix; S061 recupera la presentació omesa amb ambient de passadís atenuat i tot el cos original conservat; S071 incorpora la primera intervenció amb «Aina» i la base musical suau del relat. Les cinc cards mostren esmena aplicada i muntatge pendent d’audició final.
+- Pilot S001–S005 i S004D validat pel docent: 37 alternatives ABCD i una pregunta oberta justificada. Aprovació registrada per pregunta exacta i avís de pilot pendent retirat dels imprimibles. Formats i maquetats conservats.
+- Pla d’esmenes per veu regenerable: 21 fragments en 20 preses previstes; els dos paràgrafs consecutius de S017 van junts. Un fragment addicional de S058 espera confirmació a la presa neta i tres fragments ja rebuts no s’han de tornar a sintetitzar ara. Cap bloc arriba als sis minuts. Cap petició nova de veu.
+- Verificades les substitucions exactes, la conservació de totes les altres mostres PCM, els quinze MP3, els nivells i la reproducció amb desplaçament al navegador local. Crèdits, comparacions i seguiment actualitzats.
+
 ## 0.1.107 · 25 de novembre de 2026
 
 - Publicació definitiva de S094, S111, S099, S072 i S089 amb aprovació docent. Cinc il·lustracions contextuals, amb models i prompts conservats, revisades independentment al costat de les 39 preguntes i cites.

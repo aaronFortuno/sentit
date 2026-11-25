@@ -21,14 +21,19 @@
       "part": "sobre",
       "text": "Aina, en aquest sobre hi guardo quatre entrades. Són del mateix teatre i tenen el mateix color blau, però dues són d’un diumenge i dues, del dissabte següent. Si les mires de pressa semblen iguals. A mi em van fer passar una bona vergonya.",
       "pronunciation": "Aina is the Catalan name /ˈaj.nə/: start clearly with an open A and the AI diphthong, as in the beginning of Catalan aire, never EI or Eina. Keep the warm older male Ferran/Algenib identity and a fluent natural sentence. Do not spell the name, add a lead-in, or read these directions.",
-      "status": "received-awaiting-listening",
+      "status": "applied-awaiting-montage-listening",
       "originalFile": "assets/audio/repairs/l30-s071-sobre-original.mp3",
       "candidateFile": "assets/audio/repairs/l30-s071-sobre-prova.mp3",
       "sourceRawSha256": "f59f33398e753916473bd88dc78345ff02faeedc4f4bb046275f9d453bc4b561",
       "sourceTakeId": "S071-T01",
       "sourceTakeSha256": "be81a7fabf103859d65f69972f783d0fa1b9777fd8c943f8c4676659fedd0ba3",
       "batchRequestHash": "e976118d4059a3906fef68d10a896878017b880860e49a669844b0cafb799cb1",
-      "applied": false
+      "applied": true,
+      "approvedAt": "2026-11-25",
+      "confirmation": "Docent 25/11: S071 validat amb les esmenes del paràgraf que estava malament, pot passar a muntatge.",
+      "appliedAt": "2026-11-25",
+      "appliedAudio": "./assets/audio/s071-mixed-v1.mp3",
+      "appliedAudioSha256": "6c60ab1deb9f3499213b121e2cece26352d131f0a66cff6d96f46869e32c3d06"
     },
     {
       "code": "S022",
@@ -55,13 +60,18 @@
       "ttsWord": "raïls",
       "ttsText": "Hauria pogut passar el dia mirant els raïls i saludant la gent de les parades.",
       "canonicalTextChanged": false,
-      "status": "received-awaiting-listening",
+      "status": "applied-awaiting-montage-listening",
       "originalFile": "assets/audio/repairs/l30-s022-S022-rails-dieresis-original.mp3",
       "candidateFile": "assets/audio/repairs/l30-s022-S022-rails-dieresis-prova.mp3",
       "sourceRawSha256": "7c44d2c01fff3768eb38f6ec5429d388dda661fe91e6580c8d596556e66b7566",
       "batchRequestHash": "e976118d4059a3906fef68d10a896878017b880860e49a669844b0cafb799cb1",
-      "applied": false
+      "applied": true,
+      "approvedAt": "2026-11-25",
+      "confirmation": "Docent 25/11: de les dues possibilitats de S022, la segona mostrada és molt millor; amb aquesta rectificació pot passar a muntatge.",
+      "appliedAt": "2026-11-25",
+      "appliedAudio": "./assets/audio/s022-repair-v3.mp3",
+      "appliedAudioSha256": "a1799942ca51dafe7a7072302c8dd083485e7f3958a8ebcda5a810b1fcd3c736"
     }
   ],
-  "masterChanged": false
+  "masterChanged": true
 }

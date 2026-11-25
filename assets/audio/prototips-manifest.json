@@ -1260,7 +1260,7 @@
       "code": "S022",
       "activity": "ca-S022",
       "date": "2026-11-20T13:16:25.889Z",
-      "state": "awaiting-pronunciation-correction-and-audio-review",
+      "state": "awaiting-montage-validation",
       "model": "gemini-3.8-flash-tts",
       "voices": {
         "Ferran": "Algenib"
@@ -1298,29 +1298,30 @@
         "peakDbFS": -53.7,
         "rawSamplesPreserved": true
       },
-      "file": "s022-tramvia-v2.mp3",
+      "file": "s022-repair-v3.mp3",
       "introFile": "s022-tramvia-v2-intro.mp3",
-      "bodyFile": "s022-tramvia-v2-cos.mp3",
-      "offset": 6.415,
-      "bodyDuration": 176.195,
-      "fullDuration": 182.60999999999999,
-      "lufs": -20.5,
-      "peakDbTP": -2.8,
+      "bodyFile": "s022-repair-v3-cos.mp3",
+      "offset": 6.41502083333333,
+      "bodyDuration": 176.57004166666667,
+      "fullDuration": 182.9850625,
+      "lufs": -19.82,
+      "peakDbTP": -2.37,
       "voice": {
         "bodyLead": 2.7,
-        "bodyRawDuration": 167.495,
-        "untrimmedApartFromSilenceSplit": true,
-        "retimed": false
+        "bodyRawDuration": 167.87004166666665,
+        "untrimmedApartFromSilenceSplit": false,
+        "retimed": false,
+        "repairedWithoutRetiming": true
       },
       "effects": [
         {
           "name": "gentle-tram-memory-bed",
-          "start": 0,
-          "end": 175.595,
-          "origin": "original-procedural",
           "musicId": "sentit-tramvia-records-v1",
           "title": "Rails de memòria",
-          "timelineDuration": 176.195,
+          "start": 0,
+          "end": 175.970042,
+          "timelineDuration": 176.570042,
+          "origin": "original-procedural",
           "author": "Sentit",
           "license": "MIT",
           "source": "tools/s022-music.cjs",
@@ -1335,7 +1336,7 @@
           "normalizedBaseLufs": -27,
           "normalizationCorrectionDb": 0,
           "renderedLufs": -39.55,
-          "truePeakDbtp": -12.45,
+          "truePeakDbtp": -12.44,
           "envelope": {
             "fadeIn": {
               "start": 0,
@@ -1349,20 +1350,20 @@
             },
             "speech": {
               "start": 2.52,
-              "end": 170.315,
+              "end": 170.690042,
               "gain": 0.14,
               "gainDb": -17.077439,
               "nominalLufs": -44.077439
             },
             "riseAfterSpeech": {
-              "start": 170.315,
-              "end": 171.035,
+              "start": 170.690042,
+              "end": 171.410042,
               "safetyAfterVoiceEnd": 0.12,
               "targetGain": 0.7
             },
             "fadeOut": {
-              "start": 174.295,
-              "end": 175.595
+              "start": 174.670042,
+              "end": 175.970042
             },
             "silentTail": 0.6,
             "curve": "smoothstep"
@@ -1385,14 +1386,12 @@
             "feltNotes": 66,
             "airNotes": 22
           },
-          "sha256": "9ed56886da315599a11ac3e60bc129bab3489e6a4e88ed0b5003f245d9e16111",
-          "rawSha256": "7257ed7bea90ac4ddda3102f575dcfea5981dde589ea679cabb02520a1c0b90c",
-          "normalizedSha256": "437e9674288edf89af5c8b3dbb52191434717bfde4bac25434d16f5e5bdb03a8",
+          "sha256": "932cb61c593109d6f1f52166baa5f985dfbb411222ae91ba66f6cff2a2e04a42",
+          "rawSha256": "f59d8a81b791ff73adc1789e300b017448305204fdf1910ec03e5c3252c8580f",
+          "normalizedSha256": "515678aaa703482d5180444e54a266904700a87224559b49b9d5ea7ad506455a",
           "decodeVerified": true,
           "listeningValidation": "pending",
-          "speechWindowMusicLufs": -44.3,
-          "speechWindowVoiceLufs": -20,
-          "speechWindowMarginDb": 24.299999999999997
+          "inheritedFrom": "s022-tramvia-v2.mp3"
         },
         {
           "name": "real-tram-opening",
@@ -1410,12 +1409,14 @@
             "end": 2.8000000000000003
           },
           "retimed": false,
-          "pitchShifted": false
+          "pitchShifted": false,
+          "inheritedFrom": "s022-tramvia-v2.mp3",
+          "inheritedRenderedSha256": "f79536bfdd24796eb6ed54dd97a10e688835e8d92347bb61f4f2caabb8b1ced8"
         },
         {
           "name": "real-tram-memory-transition",
-          "start": 81.805,
-          "end": 82.605,
+          "start": 82.18004166666667,
+          "end": 82.98004166666666,
           "origin": "external-recording",
           "source": "assets/audio/sources/migweis-713419-tram.mp3",
           "sourceSha256": "7b4f76280d81090d08e84abd89d2bf224ebf6bc3ed8c801535b3280cabc78452",
@@ -1428,25 +1429,29 @@
             "end": 3.5
           },
           "retimed": false,
-          "pitchShifted": false
+          "pitchShifted": false,
+          "inheritedFrom": "s022-tramvia-v2.mp3",
+          "inheritedRenderedSha256": "00756914d96fedcfef82cdde141d4ddd47d275c3ef4f44dad92ce0de2530889a"
         },
         {
           "name": "note-paper",
-          "start": 83.12500000000001,
-          "end": 83.52500000000002,
-          "origin": "original-procedural"
+          "start": 83.50004166666668,
+          "end": 83.9000416666667,
+          "origin": "original-procedural",
+          "inheritedFrom": "s022-tramvia-v2.mp3",
+          "inheritedRenderedSha256": "e773846b09e20cc7378da2eb2a5c5cd22a4944541cbf0794c2517cde4a9cb517"
         }
       ],
-      "sha256": "377b14f0d555312476b7bb020e53256eb6c25ead40e610f7de37117d02a02189",
+      "sha256": "a1799942ca51dafe7a7072302c8dd083485e7f3958a8ebcda5a810b1fcd3c736",
       "montageNewSynthesisRequests": 0,
       "previousMaster": {
-        "file": "s022-tramvia-v1.mp3",
-        "sha256": "6afd88bc2fff0adb4149a89fb1a4d071a1931963687e88bb7bd8e02f7c5d4b27"
+        "file": "s022-tramvia-v2.mp3",
+        "sha256": "377b14f0d555312476b7bb020e53256eb6c25ead40e610f7de37117d02a02189"
       },
       "pronunciationRepair": {
         "plan": "content/audio-repairs.json",
-        "status": "pending-quota-and-listening",
-        "applied": false
+        "status": "applied-awaiting-montage-listening",
+        "applied": true
       },
       "musicTrack": {
         "id": "sentit-tramvia-records-v1",
@@ -1454,7 +1459,86 @@
         "author": "Sentit",
         "license": "MIT",
         "source": "tools/s022-music.cjs"
-      }
+      },
+      "repairApplication": {
+        "code": "S022",
+        "date": "2026-11-25",
+        "scope": "approved-repair",
+        "originalRawSha256": "7c44d2c01fff3768eb38f6ec5429d388dda661fe91e6580c8d596556e66b7566",
+        "patchedSha256": "fff131ae2cb49343ddba5fb07f84472695cd5a3b9979547a8d35345a047339e6",
+        "originalSeconds": 173.36,
+        "seconds": 173.73504166666666,
+        "edits": [
+          {
+            "part": "dema",
+            "text": "Hauria pogut passar el dia mirant els rails i saludant la gent de les parades.",
+            "accepted": {
+              "part": "dema",
+              "trialId": "S022-rails-dieresis",
+              "text": "Hauria pogut passar el dia mirant els rails i saludant la gent de les parades.",
+              "candidateFile": "assets/audio/repairs/l30-s022-S022-rails-dieresis-prova.mp3",
+              "candidateSha256": "f08fc655d43b26f3a9c64f0e0c6bc687fc74f95cfb11b5a0a9ffa602a9ebf7ee",
+              "batchRequestHash": "e976118d4059a3906fef68d10a896878017b880860e49a669844b0cafb799cb1"
+            },
+            "candidateRawSha256": "fce5f37de13a92c3cd0ffaf94e89437d62b23b06255790d350cc46f180d6db0f",
+            "candidateBatch": "L30",
+            "candidateRawBatchSha256": "04afb60c95adf853ada0d0585d59cf29947e8f0ea242907727c74bdce86491cf",
+            "originalRange": {
+              "start": 35.620041666666665,
+              "end": 39.825,
+              "handles": [
+                -65.20354859712823,
+                -59.93871990163661
+              ]
+            },
+            "candidateRange": {
+              "start": 0.02,
+              "end": 4.6,
+              "handles": [
+                -72.24719895935549,
+                -71.22414851040786
+              ]
+            },
+            "spoken": {
+              "start": 0.2200000000000091,
+              "end": 4.3000000000000504
+            },
+            "gainDb": -0.050451783518107245,
+            "requestedGainDb": -0.050451783518107245,
+            "peakLimitedByGain": false,
+            "peakAfterGain": 26360,
+            "deltaSeconds": 0.37504166666666666,
+            "outputStart": 35.620041666666665,
+            "candidateRawFile": "s022-rails-dieresis.wav"
+          }
+        ],
+        "retainedRanges": [
+          {
+            "originalStart": 0,
+            "originalEnd": 35.620041666666665,
+            "outputStart": 0,
+            "sha256": "6182623e3a780b9ba00bbd563446dc0a78d3592f6a48ea30805911337d27a167"
+          },
+          {
+            "originalStart": 39.825,
+            "originalEnd": 173.36,
+            "outputStart": 40.200041666666664,
+            "sha256": "1fc190fbe09b6a9b3d5e5f24f5ac6a8bb1fb42ca205752594cf83c7838b40f9c"
+          }
+        ],
+        "allOtherVoiceSamplesIdentical": true,
+        "voiceRetimed": false,
+        "pitchShifted": false,
+        "newRequests": 0,
+        "originalRawFile": "titol-fragment-73c878d68405.wav",
+        "patchedFile": "patched-source.wav"
+      },
+      "voiceRetimed": false,
+      "titleTrackPreserved": {
+        "file": "s022-tramvia-v2-intro.mp3",
+        "sha256": "cadfdbb9a69df11b0d6e9c4441c021756c5fad425fddbf191f321375449cebad"
+      },
+      "productionMode": "repaired-existing-master"
     },
     {
       "code": "S010",
@@ -5156,19 +5240,19 @@
     {
       "code": "S025",
       "activity": "ca-S025",
-      "state": "awaiting-audio-corrections",
-      "file": "s025-timing-v2.mp3",
+      "state": "awaiting-montage-validation",
+      "file": "s025-repair-v3.mp3",
       "introFile": "s025-timing-v2-intro.mp3",
-      "bodyFile": "s025-timing-v2-cos.mp3",
-      "offset": 4.261583333333333,
-      "bodyDuration": 49.452395833333334,
-      "fullDuration": 53.71397916666667,
+      "bodyFile": "s025-repair-v3-cos.mp3",
+      "offset": 4.261583333333334,
+      "bodyDuration": 47.202,
+      "fullDuration": 51.46358333333333,
       "voices": {
         "Laia": "Leda",
         "Biel": "Puck"
       },
       "model": "gemini-3.8-flash-tts",
-      "productionMode": "shared-mixed-batch",
+      "productionMode": "repaired-existing-master",
       "requestHash": "ac8a3b34fa098dc7a38e788b2cadc9c81d3039b44c7af229a4c9c104184e94cc",
       "sourceRequestHash": "66b84a43c74e66237c4049b0453309d1724120d30fe4eabea97f38667d75e48b",
       "batch": "L08",
@@ -5178,11 +5262,11 @@
       "uncertainTurns": [],
       "newSynthesisRequests": 0,
       "sharedRequest": true,
-      "lufs": -19.18,
-      "peakDbTP": -3.01,
+      "lufs": -18.91,
+      "peakDbTP": -2.61,
       "voiceRetimed": false,
       "effects": [],
-      "sha256": "3815d49a588ab076c04541100c4c8825d641c858c91b3a72c222dcf06c7d851b",
+      "sha256": "8374fb7e0d00d6526d249c4931812caf5716a1a45fa9e250d24699c31d5ff805",
       "timingRevision": {
         "baseFile": "s025-mixed-v1.mp3",
         "baseAudioSha256": "e5769997c7ce12116558b76240833a604be36474cd6f10c7df88b07a3d89751f",
@@ -5230,6 +5314,104 @@
         "allRetainedSamplesIdentical": true,
         "newRequests": 0,
         "originalPreserved": true
+      },
+      "previousMaster": {
+        "file": "s025-timing-v2.mp3",
+        "sha256": "3815d49a588ab076c04541100c4c8825d641c858c91b3a72c222dcf06c7d851b"
+      },
+      "repairApplication": {
+        "code": "S025",
+        "date": "2026-11-25",
+        "scope": "approved-repair",
+        "originalRawSha256": "96daab49592b1dcc9c0c965c97b39c9ade39b1ba56d2e44a738f15ebad3a61bc",
+        "patchedSha256": "02163c1129dcfcfa484c03e21e2f40f6399cd8b6cdab43761fce264ab54bfcfa",
+        "originalSeconds": 59.112208333333335,
+        "seconds": 58.99220833333333,
+        "edits": [
+          {
+            "part": "final",
+            "text": "D’acord. I després la deixem preparada per al grup. Aquesta vegada em toca prémer el botó a mi!",
+            "accepted": {
+              "part": "final",
+              "text": "D’acord. I després la deixem preparada per al grup. Aquesta vegada em toca prémer el botó a mi!",
+              "candidateFile": "assets/audio/repairs/l31-s025-final-prova.mp3",
+              "candidateSha256": "a028c52cfd4285a655db893a8fe025831d0c594c24db55fa03526172f04d5e48",
+              "batchRequestHash": "a60fe358a66004eba2e6b742133d7f9780780baf5a8739a3a428828c3e6fa590"
+            },
+            "candidateRawSha256": "2d84b3df4d4afffda8900676b52ad9bd90edfa862f4a4bd0d5752d50480aa37c",
+            "candidateBatch": "L31",
+            "candidateRawBatchSha256": "bd17485cca82d19a097a226a1f1287a035db454d787194c9e781fa088a9d8555",
+            "originalRange": {
+              "start": 43.65,
+              "end": 49.65,
+              "handles": [
+                -72.24719895935549,
+                -63.0744419788425
+              ]
+            },
+            "candidateRange": {
+              "start": 0,
+              "end": 5.88,
+              "handles": [
+                -68.03013165305762,
+                -61.68172341601461
+              ]
+            },
+            "spoken": {
+              "start": 0.1349999999999909,
+              "end": 5.625
+            },
+            "gainDb": -1.411371998587454,
+            "requestedGainDb": -1.411371998587454,
+            "peakLimitedByGain": false,
+            "peakAfterGain": 25207,
+            "deltaSeconds": -0.12,
+            "outputStart": 43.65,
+            "candidateRawFile": "s025-final.wav"
+          }
+        ],
+        "retainedRanges": [
+          {
+            "originalStart": 0,
+            "originalEnd": 43.65,
+            "outputStart": 0,
+            "sha256": "627479cc8a5f5aef996a7b421e8c3a1fb2fe6d21b12be037754b44b2f9abaa1f"
+          },
+          {
+            "originalStart": 49.65,
+            "originalEnd": 59.112208333333335,
+            "outputStart": 49.53,
+            "sha256": "9f4e995e3f196ed21a4d42328eee8787dbd62eacacf9895649f9b010d74b758f"
+          }
+        ],
+        "allOtherVoiceSamplesIdentical": true,
+        "voiceRetimed": false,
+        "pitchShifted": false,
+        "newRequests": 0,
+        "originalRawFile": "s025-t01.wav",
+        "patchedFile": "patched-source.wav"
+      },
+      "montageNewSynthesisRequests": 0,
+      "titleTrackPreserved": {
+        "file": "s025-timing-v2-intro.mp3",
+        "sha256": "d6ba51215de6376fd096d9f99410734961368e75a4fc7e96becbb4feb72780d1"
+      },
+      "voiceTrim": {
+        "start": 3.298,
+        "end": 49.7,
+        "handles": [
+          -41.242631898253606,
+          -63.86461280451598
+        ],
+        "removedHeadSeconds": 0.3864000000000001,
+        "removedTailSeconds": 9.292208333333328
+      },
+      "voice": {
+        "bodyLead": 0.2,
+        "bodyRawDuration": 46.402,
+        "untrimmedApartFromSilenceSplit": false,
+        "retimed": false,
+        "repairedWithoutRetiming": true
       }
     },
     {
@@ -13384,6 +13566,609 @@
         "transcript": "speech-only",
         "checkedAt": "2026-11-25",
         "audioChanged": false
+      }
+    },
+    {
+      "code": "S059",
+      "activity": "ca-S059",
+      "state": "awaiting-montage-validation",
+      "file": "s059-mixed-v1.mp3",
+      "introFile": "s059-mixed-v1-intro.mp3",
+      "bodyFile": "s059-mixed-v1-cos.mp3",
+      "offset": 4.75,
+      "bodyDuration": 98.20704166666667,
+      "fullDuration": 102.95704166666667,
+      "voices": {
+        "Laia": "Leda",
+        "Biel": "Puck"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "repaired-mixed-take",
+      "requestHash": "d19fa8c15f905cd107994f58adda34c33df085401b865bb99b831e5fd527bbfb",
+      "sourceRequestHash": "80c52515b5877acf5a8cc9fa1a64aeee21b20bdb93dfb1a952bb64719dd7fbca",
+      "batch": "L31+L36",
+      "sourceBatchRequests": [
+        {
+          "batch": "L31",
+          "requestHash": "a60fe358a66004eba2e6b742133d7f9780780baf5a8739a3a428828c3e6fa590",
+          "rawSha256": "bd17485cca82d19a097a226a1f1287a035db454d787194c9e781fa088a9d8555"
+        },
+        {
+          "batch": "L36",
+          "requestHash": "8176fbf46265f9e3a131fc1725426c5d108483d7613cc38bbddfc69c9e425901",
+          "rawSha256": "815d6171203b9b51d2d614e8bc5127851f4857c64e348631ae75cc09bd47d65f"
+        }
+      ],
+      "assembly": [
+        {
+          "part": "arbre",
+          "text": "A aquesta sí. A les del final... Ai, he fet caure l’arbre de cartró! Sempre em queda al mig. És bonic, però el podríem posar dret al costat de la capsa, a la cadira.",
+          "accepted": {
+            "part": "arbre",
+            "text": "A aquesta sí. A les del final... Ai, he fet caure l’arbre de cartró! Sempre em queda al mig. És bonic, però el podríem posar dret al costat de la capsa, a la cadira.",
+            "candidateFile": "assets/audio/repairs/l36-s059-arbre-prova.mp3",
+            "candidateSha256": "063c3ecbf61d4873ad65526d26584f39d88e8e8a3ca73d156473a32565f75be6",
+            "batchRequestHash": "8176fbf46265f9e3a131fc1725426c5d108483d7613cc38bbddfc69c9e425901"
+          },
+          "candidateRawFile": "C:\\Users\\afortun8\\Desktop\\Projects\\Escola\\output\\sentit-primera-tanda\\mixed-batches\\l36-8176fbf46265\\s059-arbre.wav",
+          "candidateRawSha256": "b4a556d80d5e918b879b78782de80ede39756da71ef1d22209475c86cb820abb",
+          "candidateBatch": "L36",
+          "candidateRawBatchSha256": "815d6171203b9b51d2d614e8bc5127851f4857c64e348631ae75cc09bd47d65f",
+          "originalRange": {
+            "start": 65.91,
+            "end": 76.845,
+            "handles": [
+              -59.182948683848615,
+              -62.35019852575361
+            ]
+          },
+          "candidateRange": {
+            "start": 0.20295833333333332,
+            "end": 10.1,
+            "handles": [
+              -41.77877347190286,
+              -52.692726853578534
+            ]
+          },
+          "spoken": {
+            "start": 0.26700266666662187,
+            "end": 9.61704166666666
+          },
+          "gainDb": -5.250542995249585,
+          "requestedGainDb": -5.250542995249585,
+          "peakLimitedByGain": false,
+          "peakAfterGain": 16435,
+          "deltaSeconds": -1.0379583333333333,
+          "outputStart": 65.91
+        }
+      ],
+      "requestHashIsCompositionChecksum": true,
+      "rawSha256": "52e4660fd16743fe694ffc6ea255ac44865fff0e6a1fb69f421b7d0316d4e64b",
+      "takeSha256": "52e4660fd16743fe694ffc6ea255ac44865fff0e6a1fb69f421b7d0316d4e64b",
+      "coverage": 0.8858858858858859,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -18.74,
+      "peakDbTP": -2.5,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "kyles-450728",
+          "start": 0,
+          "source": "assets/audio/sources/kyles-450728.mp3",
+          "sourceSha256": "20f19e1eec5394003835bcc940e246b941b2dd733b062c2743dcef1443f7b0c1",
+          "sourceUrl": "https://freesound.org/people/kyles/sounds/450728/",
+          "author": "kyles",
+          "license": "CC0 1.0",
+          "underSpeech": true,
+          "speechGain": 0.07,
+          "openingGain": 0.16,
+          "raisedGain": 0.24,
+          "sourceTargetLufs": -28,
+          "speechNominalLufs": -51.09803919971486,
+          "lowPassHz": 1800,
+          "passes": 3,
+          "crossfadeSeconds": 1,
+          "excerpt": {
+            "start": 5,
+            "seconds": 90
+          },
+          "envelope": {
+            "riseStart": 93.90205833333331,
+            "riseEnd": 94.70205833333333,
+            "holdSeconds": 0.9049833333333339,
+            "fadeStart": 95.60704166666666,
+            "fadeEnd": 97.00704166666667
+          }
+        }
+      ],
+      "sha256": "1174333b393519753812891a6e28dab74c4eb8a815df6283ed6e6f025f6faba7",
+      "voiceHandles": {
+        "body": {
+          "start": 0.4855833333333333,
+          "end": 93.092625,
+          "retainedPcmSha256": "d0554d64730f652444dcd940331f2d641695ed100ff69cfc99cb4e283c75a212",
+          "sourceSha256": "d9458f717eadb3f7331dfc06390ce969917c261b2844d57cb327599b1a1096d8",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0,
+          "end": 3.8,
+          "retainedPcmSha256": "b82ce65d978c673d7fc1c5c2e30e82464bcf614cce65aa49b8c98aba2ca96085",
+          "sourceSha256": "65e66edff76cd25d0d8d7165dfc46368d87986128ac40f6d91146bb403c91ee5",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-25",
+        "sourceTakeSha256": "52e4660fd16743fe694ffc6ea255ac44865fff0e6a1fb69f421b7d0316d4e64b",
+        "baseTakeSha256": "8cb4bfbb0afa9e182b91982c960106d706969905499b4cffa78c98bd85800689",
+        "confirmation": "Docent 25/11: S059 validat amb les esmenes rebudes.",
+        "derivation": "Previously approved remaining speech plus the exact teacher-approved replacement; assembled playback still awaits montage audition.",
+        "repairs": [
+          {
+            "part": "arbre",
+            "text": "A aquesta sí. A les del final... Ai, he fet caure l’arbre de cartró! Sempre em queda al mig. És bonic, però el podríem posar dret al costat de la capsa, a la cadira.",
+            "candidateFile": "assets/audio/repairs/l36-s059-arbre-prova.mp3",
+            "candidateSha256": "063c3ecbf61d4873ad65526d26584f39d88e8e8a3ca73d156473a32565f75be6",
+            "batchRequestHash": "8176fbf46265f9e3a131fc1725426c5d108483d7613cc38bbddfc69c9e425901"
+          }
+        ]
+      },
+      "repairApplication": {
+        "code": "S059",
+        "date": "2026-11-25",
+        "scope": "approved-repair",
+        "originalRawSha256": "8cb4bfbb0afa9e182b91982c960106d706969905499b4cffa78c98bd85800689",
+        "patchedSha256": "52e4660fd16743fe694ffc6ea255ac44865fff0e6a1fb69f421b7d0316d4e64b",
+        "originalSeconds": 98.325,
+        "seconds": 97.28704166666667,
+        "edits": [
+          {
+            "part": "arbre",
+            "text": "A aquesta sí. A les del final... Ai, he fet caure l’arbre de cartró! Sempre em queda al mig. És bonic, però el podríem posar dret al costat de la capsa, a la cadira.",
+            "accepted": {
+              "part": "arbre",
+              "text": "A aquesta sí. A les del final... Ai, he fet caure l’arbre de cartró! Sempre em queda al mig. És bonic, però el podríem posar dret al costat de la capsa, a la cadira.",
+              "candidateFile": "assets/audio/repairs/l36-s059-arbre-prova.mp3",
+              "candidateSha256": "063c3ecbf61d4873ad65526d26584f39d88e8e8a3ca73d156473a32565f75be6",
+              "batchRequestHash": "8176fbf46265f9e3a131fc1725426c5d108483d7613cc38bbddfc69c9e425901"
+            },
+            "candidateRawSha256": "b4a556d80d5e918b879b78782de80ede39756da71ef1d22209475c86cb820abb",
+            "candidateBatch": "L36",
+            "candidateRawBatchSha256": "815d6171203b9b51d2d614e8bc5127851f4857c64e348631ae75cc09bd47d65f",
+            "originalRange": {
+              "start": 65.91,
+              "end": 76.845,
+              "handles": [
+                -59.182948683848615,
+                -62.35019852575361
+              ]
+            },
+            "candidateRange": {
+              "start": 0.20295833333333332,
+              "end": 10.1,
+              "handles": [
+                -41.77877347190286,
+                -52.692726853578534
+              ]
+            },
+            "spoken": {
+              "start": 0.26700266666662187,
+              "end": 9.61704166666666
+            },
+            "gainDb": -5.250542995249585,
+            "requestedGainDb": -5.250542995249585,
+            "peakLimitedByGain": false,
+            "peakAfterGain": 16435,
+            "deltaSeconds": -1.0379583333333333,
+            "outputStart": 65.91,
+            "candidateRawFile": "s059-arbre.wav"
+          }
+        ],
+        "allOtherVoiceSamplesIdentical": true,
+        "voiceRetimed": false,
+        "pitchShifted": false,
+        "newRequests": 0,
+        "retainedRanges": [
+          {
+            "originalStart": 0,
+            "originalEnd": 65.91,
+            "outputStart": 0,
+            "sha256": "b9ed1b11dfb4c5d2e46235c2c4a51a4ed58cdbd295c265dc8f177c318a839262"
+          },
+          {
+            "originalStart": 76.845,
+            "originalEnd": 98.325,
+            "outputStart": 75.80704166666666,
+            "sha256": "b3c7027108125dd035c2b0e8f57f1d462e6d33b43f153858aa8a5f07b925b29a"
+          }
+        ],
+        "originalRawFile": "s059-t01.wav",
+        "patchedFile": "patched-source.wav"
+      }
+    },
+    {
+      "code": "S061",
+      "activity": "ca-S061",
+      "state": "awaiting-montage-validation",
+      "file": "s061-mixed-v1.mp3",
+      "introFile": "s061-mixed-v1-intro.mp3",
+      "bodyFile": "s061-mixed-v1-cos.mp3",
+      "offset": 4.66,
+      "bodyDuration": 132.005,
+      "fullDuration": 136.665,
+      "voices": {
+        "Laia": "Leda",
+        "Biel": "Puck"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "repaired-mixed-take",
+      "requestHash": "dc16a998dd54c016f29aea9ddeb8f96910642e7c54885a3d6631840bd64a2ab5",
+      "sourceRequestHash": "3db42032dbf751ede0a3ca87a6272d856525381bf5ce2a73d3596522acc5a846",
+      "batch": "L18+L31",
+      "sourceBatchRequests": [
+        {
+          "batch": "L18",
+          "requestHash": "f1a68c184a8ed0118f14d57dc5a685880f5b7affe7562ae9d14cbc273639f768",
+          "rawSha256": "31d64681f63f83a2ea00ceaae4e856d2c22a5a1c3eaa089c652442b3ecebf497"
+        },
+        {
+          "batch": "L31",
+          "requestHash": "a60fe358a66004eba2e6b742133d7f9780780baf5a8739a3a428828c3e6fa590",
+          "rawSha256": "bd17485cca82d19a097a226a1f1287a035db454d787194c9e781fa088a9d8555"
+        }
+      ],
+      "requestHashIsCompositionChecksum": true,
+      "rawSha256": "4a06dc8d1d90f2c8f4b6a6fe42c35d845cdd14548069c559fe279ff3edc4c193",
+      "takeSha256": "4a06dc8d1d90f2c8f4b6a6fe42c35d845cdd14548069c559fe279ff3edc4c193",
+      "coverage": 0.8782608695652174,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -19.3,
+      "peakDbTP": -2.48,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "bexhillcollege-274213",
+          "start": 0,
+          "source": "assets/audio/sources/bexhillcollege-274213-hallway.mp3",
+          "sourceSha256": "ac07b275131c3517007369de9cd2e3d566e6d0de9fc9ae7c7e3ac0345cbcc5f7",
+          "sourceUrl": "https://freesound.org/people/Bexhillcollege/sounds/274213/",
+          "author": "Bexhillcollege",
+          "license": "CC0 1.0",
+          "underSpeech": true,
+          "speechGain": 0.07,
+          "openingGain": 0.16,
+          "raisedGain": 0.24,
+          "sourceTargetLufs": -28,
+          "speechNominalLufs": -51.09803919971486,
+          "lowPassHz": 800,
+          "passes": 3,
+          "crossfadeSeconds": 1,
+          "excerpt": {
+            "start": 6,
+            "seconds": 55.35733333333334
+          },
+          "envelope": {
+            "riseStart": 127.75999999999999,
+            "riseEnd": 128.56,
+            "holdSeconds": 0.8449999999999989,
+            "fadeStart": 129.405,
+            "fadeEnd": 130.805
+          }
+        }
+      ],
+      "sha256": "aea14978de1b304d38448c4a66a5fe038cfaa2b227d6adc23fb756b8acd24924",
+      "voiceHandles": {
+        "body": {
+          "start": 0.04,
+          "end": 126.345,
+          "retainedPcmSha256": "c09dd8bdbf17d19beab4c88b2dd323d811ba4a74ee67012b3adf4644ae8004b5",
+          "sourceSha256": "5fef7a364902acdcb074fda0d1916de33c2bca9451d47b51e82ed12c399d3177",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0.055,
+          "end": 3.765,
+          "retainedPcmSha256": "e6682551ab6574ddb3aac62c2d87a9d5ed02ae9572d7ae65f4671df85d3058a7",
+          "sourceSha256": "b531d5c617c77c3fb8b09f036f3737a66a2efb7d5a33c10f65367967c387120d",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-25",
+        "sourceTakeSha256": "4a06dc8d1d90f2c8f4b6a6fe42c35d845cdd14548069c559fe279ff3edc4c193",
+        "baseTakeSha256": "f8c2abe90710bcd8f81d4437c03c30b36c5c1be4ac58f2c7a46e63e0aa60cd4b",
+        "confirmation": "Docent 25/11: S061 validat per a muntatge amb l’esmena de la frase que faltava.",
+        "derivation": "Previously approved complete body, plus the exact teacher-approved opening clips. Full montage still awaits listening.",
+        "repairs": [
+          {
+            "part": "introduction",
+            "text": "Comprensió oral. El curt que començava pel final.",
+            "candidateFile": "assets/audio/repairs/l31-s061-introduction-prova.mp3",
+            "candidateSha256": "f25dcd4aeb9ab9be38fa50b46a5518884fd514a6ca3361a5f020fda834e4f0b6",
+            "batchRequestHash": "a60fe358a66004eba2e6b742133d7f9780780baf5a8739a3a428828c3e6fa590"
+          }
+        ]
+      },
+      "repairApplication": {
+        "code": "S061",
+        "date": "2026-11-25",
+        "scope": "approved-repair",
+        "originalRawSha256": "f8c2abe90710bcd8f81d4437c03c30b36c5c1be4ac58f2c7a46e63e0aa60cd4b",
+        "originalBodySha256": "f8c2abe90710bcd8f81d4437c03c30b36c5c1be4ac58f2c7a46e63e0aa60cd4b",
+        "patchedSha256": "4a06dc8d1d90f2c8f4b6a6fe42c35d845cdd14548069c559fe279ff3edc4c193",
+        "seconds": 130.11,
+        "edits": [
+          {
+            "part": "introduction",
+            "text": "Comprensió oral. El curt que començava pel final.",
+            "accepted": {
+              "part": "introduction",
+              "text": "Comprensió oral. El curt que començava pel final.",
+              "candidateFile": "assets/audio/repairs/l31-s061-introduction-prova.mp3",
+              "candidateSha256": "f25dcd4aeb9ab9be38fa50b46a5518884fd514a6ca3361a5f020fda834e4f0b6",
+              "batchRequestHash": "a60fe358a66004eba2e6b742133d7f9780780baf5a8739a3a428828c3e6fa590"
+            },
+            "candidateRawSha256": "774cfda8d658adb8842eba84306f7b40eacadf722a7b0e939ac4610640d82b6a",
+            "candidateBatch": "L31",
+            "candidateRawBatchSha256": "bd17485cca82d19a097a226a1f1287a035db454d787194c9e781fa088a9d8555",
+            "candidateRange": {
+              "start": 0,
+              "end": 3.765
+            },
+            "outputStart": 0,
+            "operation": "insert-omitted-introduction",
+            "gainDb": 0,
+            "candidateRawFile": "s061-introduction.wav"
+          }
+        ],
+        "insertedSilenceSeconds": 0,
+        "allOtherVoiceSamplesIdentical": true,
+        "voiceRetimed": false,
+        "pitchShifted": false,
+        "newRequests": 0,
+        "retainedRanges": [
+          {
+            "originalStart": 0,
+            "originalEnd": 126.345,
+            "outputStart": 3.765,
+            "sha256": "227ebe4128ce0408bd4b0939d4161d7d93f9adb43e5dd0f90a26b7db7b9200a1",
+            "originalFile": "s061-t01.wav"
+          }
+        ],
+        "originalBodyFile": "s061-t01.wav",
+        "originalRawFile": "s061-t01.wav",
+        "patchedFile": "patched-source.wav"
+      }
+    },
+    {
+      "code": "S071",
+      "activity": "ca-S071",
+      "state": "awaiting-montage-validation",
+      "file": "s071-mixed-v1.mp3",
+      "introFile": "s071-mixed-v1-intro.mp3",
+      "bodyFile": "s071-mixed-v1-cos.mp3",
+      "offset": 4.2,
+      "bodyDuration": 161.665,
+      "fullDuration": 165.865,
+      "voices": {
+        "Ferran": "Algenib"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "repaired-mixed-take",
+      "requestHash": "6a2abf512eae17230106b5c42ce211e324dd6d0a46e53076009c391727dda8db",
+      "sourceRequestHash": "db3b6803c46b0a95f5895895743f85114c1e5d61fadded8b0ef30b4a4a811f79",
+      "batch": "L22+L30",
+      "sourceBatchRequests": [
+        {
+          "batch": "L22",
+          "requestHash": "4a2634e49163d602016cbc69c25809b31754d5e940e3283e0c938522deada250",
+          "rawSha256": "f59f33398e753916473bd88dc78345ff02faeedc4f4bb046275f9d453bc4b561"
+        },
+        {
+          "batch": "L30",
+          "requestHash": "e976118d4059a3906fef68d10a896878017b880860e49a669844b0cafb799cb1",
+          "rawSha256": "04afb60c95adf853ada0d0585d59cf29947e8f0ea242907727c74bdce86491cf"
+        }
+      ],
+      "assembly": [
+        {
+          "part": "sobre",
+          "text": "Aina, en aquest sobre hi guardo quatre entrades. Són del mateix teatre i tenen el mateix color blau, però dues són d’un diumenge i dues, del dissabte següent. Si les mires de pressa semblen iguals. A mi em van fer passar una bona vergonya.",
+          "accepted": {
+            "part": "sobre",
+            "text": "Aina, en aquest sobre hi guardo quatre entrades. Són del mateix teatre i tenen el mateix color blau, però dues són d’un diumenge i dues, del dissabte següent. Si les mires de pressa semblen iguals. A mi em van fer passar una bona vergonya.",
+            "candidateFile": "assets/audio/repairs/l30-s071-sobre-prova.mp3",
+            "candidateSha256": "e8b906466ff00dee312c09f7a933353324061a24bab6bfb2ebc83339bac1c972",
+            "batchRequestHash": "e976118d4059a3906fef68d10a896878017b880860e49a669844b0cafb799cb1"
+          },
+          "candidateRawFile": "C:\\Users\\afortun8\\Desktop\\Projects\\Escola\\output\\sentit-primera-tanda\\mixed-batches\\l30-e976118d4059\\s071-sobre.wav",
+          "candidateRawSha256": "9356ab37b1cd4b46418beefd6da67bee9a3d8e9ee30193b01b052771da10fcd2",
+          "candidateBatch": "L30",
+          "candidateRawBatchSha256": "04afb60c95adf853ada0d0585d59cf29947e8f0ea242907727c74bdce86491cf",
+          "originalRange": {
+            "start": 3.885,
+            "end": 20.145,
+            "handles": [
+              -57.84401289123635,
+              -40.85386971285011
+            ]
+          },
+          "candidateRange": {
+            "start": 0.11,
+            "end": 15.82,
+            "handles": [
+              -64.28839878591474,
+              -61.68172341601461
+            ]
+          },
+          "spoken": {
+            "start": 0.2199999999999841,
+            "end": 15.430000000000021
+          },
+          "gainDb": 0.8942644658516461,
+          "requestedGainDb": 1.6852632472903852,
+          "peakLimitedByGain": true,
+          "peakAfterGain": 30000,
+          "deltaSeconds": -0.55,
+          "outputStart": 3.885
+        }
+      ],
+      "requestHashIsCompositionChecksum": true,
+      "rawSha256": "de87f5bc7839af57cca5a7ddffb7d73694382a5bd7667472a1b5e28556606017",
+      "takeSha256": "de87f5bc7839af57cca5a7ddffb7d73694382a5bd7667472a1b5e28556606017",
+      "coverage": 0.9379699248120301,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -19.01,
+      "peakDbTP": -2.46,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "gentle-narration-bed",
+          "origin": "original-procedural-composition",
+          "author": "Sentit",
+          "license": "MIT",
+          "source": "tools/narration-bed.cjs",
+          "title": "Paper blau a la butxaca",
+          "compositionId": "sentit-s071-v1",
+          "tempoBpm": 62,
+          "rootMidi": 52,
+          "scoreSeed": 71,
+          "notes": 123,
+          "externalSamples": false,
+          "noSpeech": true,
+          "retimed": false,
+          "sha256": "4a87f3d833adf60dda9615b091ab0681f3388d7f21cda1196a035f03b02766d9",
+          "envelope": {
+            "fadeInSeconds": 0.6,
+            "duckStart": 0.7000000000000001,
+            "duckEnd": 1.4500000000000002,
+            "speechGain": 0.14,
+            "nominalSpeechMusicLufs": -43.07743928643524,
+            "riseStart": 155.53499999999997,
+            "riseEnd": 156.33499999999998,
+            "holdSeconds": 2,
+            "fadeStart": 158.33499999999998,
+            "fadeEnd": 160.33499999999998
+          },
+          "listeningValidation": "pending",
+          "start": 0,
+          "underSpeech": true
+        }
+      ],
+      "sha256": "6c60ab1deb9f3499213b121e2cece26352d131f0a66cff6d96f46869e32c3d06",
+      "voiceHandles": {
+        "body": {
+          "start": 0.02,
+          "end": 153.885,
+          "retainedPcmSha256": "b6f8da3fb2b3d81e39eb9a9a4c50ed44335db8e18fc159225d0d286814615dfb",
+          "sourceSha256": "c8c74365503974dcd9e9a950e90bdfa79ed99c5533de40d4475a27ece17c46bd",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0.1,
+          "end": 3.35,
+          "retainedPcmSha256": "ecb92807daeb49fa6dcbc828e25898fa069320513464ad5080ee09288c450085",
+          "sourceSha256": "d3d35241b2326df95b44b4b60413804cd92a077f07e6e11ed98e1ff0ab22a726",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-25",
+        "sourceTakeSha256": "de87f5bc7839af57cca5a7ddffb7d73694382a5bd7667472a1b5e28556606017",
+        "baseTakeSha256": "be81a7fabf103859d65f69972f783d0fa1b9777fd8c943f8c4676659fedd0ba3",
+        "confirmation": "Docent 25/11: S071 validat amb les esmenes del paràgraf que estava malament, pot passar a muntatge.",
+        "derivation": "Previously approved remaining speech plus the exact teacher-approved replacement; assembled playback still awaits montage audition.",
+        "repairs": [
+          {
+            "part": "sobre",
+            "text": "Aina, en aquest sobre hi guardo quatre entrades. Són del mateix teatre i tenen el mateix color blau, però dues són d’un diumenge i dues, del dissabte següent. Si les mires de pressa semblen iguals. A mi em van fer passar una bona vergonya.",
+            "candidateFile": "assets/audio/repairs/l30-s071-sobre-prova.mp3",
+            "candidateSha256": "e8b906466ff00dee312c09f7a933353324061a24bab6bfb2ebc83339bac1c972",
+            "batchRequestHash": "e976118d4059a3906fef68d10a896878017b880860e49a669844b0cafb799cb1"
+          }
+        ]
+      },
+      "repairApplication": {
+        "code": "S071",
+        "date": "2026-11-25",
+        "scope": "approved-repair",
+        "originalRawSha256": "be81a7fabf103859d65f69972f783d0fa1b9777fd8c943f8c4676659fedd0ba3",
+        "patchedSha256": "de87f5bc7839af57cca5a7ddffb7d73694382a5bd7667472a1b5e28556606017",
+        "originalSeconds": 158.32,
+        "seconds": 157.77,
+        "edits": [
+          {
+            "part": "sobre",
+            "text": "Aina, en aquest sobre hi guardo quatre entrades. Són del mateix teatre i tenen el mateix color blau, però dues són d’un diumenge i dues, del dissabte següent. Si les mires de pressa semblen iguals. A mi em van fer passar una bona vergonya.",
+            "accepted": {
+              "part": "sobre",
+              "text": "Aina, en aquest sobre hi guardo quatre entrades. Són del mateix teatre i tenen el mateix color blau, però dues són d’un diumenge i dues, del dissabte següent. Si les mires de pressa semblen iguals. A mi em van fer passar una bona vergonya.",
+              "candidateFile": "assets/audio/repairs/l30-s071-sobre-prova.mp3",
+              "candidateSha256": "e8b906466ff00dee312c09f7a933353324061a24bab6bfb2ebc83339bac1c972",
+              "batchRequestHash": "e976118d4059a3906fef68d10a896878017b880860e49a669844b0cafb799cb1"
+            },
+            "candidateRawSha256": "9356ab37b1cd4b46418beefd6da67bee9a3d8e9ee30193b01b052771da10fcd2",
+            "candidateBatch": "L30",
+            "candidateRawBatchSha256": "04afb60c95adf853ada0d0585d59cf29947e8f0ea242907727c74bdce86491cf",
+            "originalRange": {
+              "start": 3.885,
+              "end": 20.145,
+              "handles": [
+                -57.84401289123635,
+                -40.85386971285011
+              ]
+            },
+            "candidateRange": {
+              "start": 0.11,
+              "end": 15.82,
+              "handles": [
+                -64.28839878591474,
+                -61.68172341601461
+              ]
+            },
+            "spoken": {
+              "start": 0.2199999999999841,
+              "end": 15.430000000000021
+            },
+            "gainDb": 0.8942644658516461,
+            "requestedGainDb": 1.6852632472903852,
+            "peakLimitedByGain": true,
+            "peakAfterGain": 30000,
+            "deltaSeconds": -0.55,
+            "outputStart": 3.885,
+            "candidateRawFile": "s071-sobre.wav"
+          }
+        ],
+        "allOtherVoiceSamplesIdentical": true,
+        "voiceRetimed": false,
+        "pitchShifted": false,
+        "newRequests": 0,
+        "retainedRanges": [
+          {
+            "originalStart": 0,
+            "originalEnd": 3.885,
+            "outputStart": 0,
+            "sha256": "beb2434488a419567f7754c922d5b63a9571b3d42320a883c66563f3b43fb383"
+          },
+          {
+            "originalStart": 20.145,
+            "originalEnd": 158.32,
+            "outputStart": 19.595,
+            "sha256": "0504cea5bdfaf081972e8e9f1908c29e2f50275aaecb44149691e09b6bf52350"
+          }
+        ],
+        "originalRawFile": "s071-t01.wav",
+        "patchedFile": "patched-source.wav"
       }
     }
   ]

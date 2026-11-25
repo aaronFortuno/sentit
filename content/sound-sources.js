@@ -459,7 +459,8 @@ export const soundSources = [
       "ca-S030",
       "ca-S037",
       "ca-S044",
-      "ca-S060"
+      "ca-S060",
+      "ca-S061"
     ],
     "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
   },
@@ -530,6 +531,7 @@ export const soundSources = [
     "sha256": "20f19e1eec5394003835bcc940e246b941b2dd733b062c2743dcef1443f7b0c1",
     "usedBy": [
       "ca-S007",
+      "ca-S059",
       "ca-S062",
       "ca-S063",
       "ca-S064",

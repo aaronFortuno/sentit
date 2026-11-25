@@ -93,3 +93,13 @@ Les esmenes de veu esperen un lot compatible prou ple. Prioritzar comprensions c
 L’estat viu de cada prova i la seva audició consta al [seguiment de producció](seguiment-produccio.md) i a la [cua de síntesi](lots-sintesi.md).
 
 **Segona tanda del 23/11:** L27 aporta les represes de Biel/Puck de S007 (`invisible`) i S024 (`dubtes`); L28 aporta el torn inicial de Ferran/Algenib de S069 (`encarrec`). S’han mantingut les grafies canòniques «Aina» i «guix», amb les indicacions de dicció fora del text parlat. Les tres proves esperen audició i no s’han incorporat als muntatges. «La duies tu?» de S068D queda assenyalat com a torn molt breu que el reconeixement local no ha pogut confirmar; l’àudio es conserva per comprovar-lo a l’oïda.
+
+
+## Retorns del 25/11 · esmenes incorporades
+
+- S022: el docent tria la segona prova de L30, amb `raïls` exclusivament a l’entrada de síntesi. Incorporada la frase completa; el text editorial continua sent `rails`. Es conserva la primera prova i la presa L13 rebutjada. Muntatge pendent d’audició final.
+- S025 (`prémer`), S059 (`cartró`) i S071 (`Aina`): represes validades incorporades sense canviar to ni ritme. La resta de les mostres de veu és idèntica a l’original.
+- S061: presentació del títol validada i afegida; tot el cos aprovat després de la neteja de metadades es conserva intacte.
+- S081: les dues proves rebudes continuen dient funa/fona segons el docent; no s’han aplicat. Dos torns complets en espera d’un lot compatible.
+
+[Pla actual de preses pendents](pla-esmenes-veu.md). No s’han fet peticions noves de síntesi per aquests muntatges.

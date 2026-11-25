@@ -1,4 +1,4 @@
-// Exact independent review records; teacher validation is a separate step.
+// Exact independent review records; teacher validation is recorded separately per item.
 export const questionChoiceReviews = [
   {
     "activity": "ca-S001",
@@ -7,8 +7,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "4ae931171e77f4f94ffc73b626284a3466ae3912fed3aa9f6cd8ec79cafefa72"
+    "teacherValidation": "approved",
+    "fingerprint": "4ae931171e77f4f94ffc73b626284a3466ae3912fed3aa9f6cd8ec79cafefa72",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S001",
@@ -17,8 +19,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "e12c86f0e672bdb8d3b8661cfb79df25520a83b28a334b04cb78f828e9e4e16f"
+    "teacherValidation": "approved",
+    "fingerprint": "e12c86f0e672bdb8d3b8661cfb79df25520a83b28a334b04cb78f828e9e4e16f",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S001",
@@ -27,8 +31,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "26d96fcea086f8656092eaf720efb85e36b92e413c868ccbcb238d5cdba763d2"
+    "teacherValidation": "approved",
+    "fingerprint": "26d96fcea086f8656092eaf720efb85e36b92e413c868ccbcb238d5cdba763d2",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S001",
@@ -37,8 +43,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "6c99d3aaf09ba6945d7a6cdc4624aaa30ec18e31f0f13825791acca1e21c9481"
+    "teacherValidation": "approved",
+    "fingerprint": "6c99d3aaf09ba6945d7a6cdc4624aaa30ec18e31f0f13825791acca1e21c9481",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S001",
@@ -47,8 +55,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "ab23502ef2dfad43a8956c921342cd74da189e28054633cc30f68583d6307fbb"
+    "teacherValidation": "approved",
+    "fingerprint": "ab23502ef2dfad43a8956c921342cd74da189e28054633cc30f68583d6307fbb",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S001",
@@ -57,8 +67,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "1625374b057b09599d47e8893b7b5e02942ce4303f94b7fbf126afd694b4b937"
+    "teacherValidation": "approved",
+    "fingerprint": "1625374b057b09599d47e8893b7b5e02942ce4303f94b7fbf126afd694b4b937",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S001",
@@ -67,8 +79,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "c944bad20ad2c910703d19a08cf3c0a4fd95451c4744815b2f48b6ca79128bdf"
+    "teacherValidation": "approved",
+    "fingerprint": "c944bad20ad2c910703d19a08cf3c0a4fd95451c4744815b2f48b6ca79128bdf",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S001",
@@ -77,8 +91,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "c737cc864d1bf46a1e789c9b918b5fee058694a57cebd771164e6a0b6eae4519"
+    "teacherValidation": "approved",
+    "fingerprint": "c737cc864d1bf46a1e789c9b918b5fee058694a57cebd771164e6a0b6eae4519",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S002",
@@ -87,8 +103,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "8d6775f3f75b4bfcf95b2caeba8daf2b21fffde2efb67d69a89dcc2f7ea55a70"
+    "teacherValidation": "approved",
+    "fingerprint": "8d6775f3f75b4bfcf95b2caeba8daf2b21fffde2efb67d69a89dcc2f7ea55a70",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S002",
@@ -97,8 +115,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "322e3c58fa43c4a20b5f12089ef73246fb2e4d84a1fac2ff1af111ed42fdf99a"
+    "teacherValidation": "approved",
+    "fingerprint": "322e3c58fa43c4a20b5f12089ef73246fb2e4d84a1fac2ff1af111ed42fdf99a",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S002",
@@ -107,8 +127,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "4471b9ae1ac2ee209e2fd19c0f2db1e9ef0a65dd607c05f6d9302758d6f9d59e"
+    "teacherValidation": "approved",
+    "fingerprint": "4471b9ae1ac2ee209e2fd19c0f2db1e9ef0a65dd607c05f6d9302758d6f9d59e",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S002",
@@ -117,8 +139,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "c261bbed69e8f087dd32aabe390d5c5c9b57a40dd8aee587148f28727fdd7afe"
+    "teacherValidation": "approved",
+    "fingerprint": "c261bbed69e8f087dd32aabe390d5c5c9b57a40dd8aee587148f28727fdd7afe",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S002",
@@ -127,8 +151,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "a0466f794222a5006b4e9c1376d35914a9fe4adc8026ea2879a5a5fa38a729a5"
+    "teacherValidation": "approved",
+    "fingerprint": "a0466f794222a5006b4e9c1376d35914a9fe4adc8026ea2879a5a5fa38a729a5",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S002",
@@ -137,8 +163,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "07e051efc2d93d2c981d69af47a42f958064a8728fd26567a2ed8936e336fbdf"
+    "teacherValidation": "approved",
+    "fingerprint": "07e051efc2d93d2c981d69af47a42f958064a8728fd26567a2ed8936e336fbdf",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S003",
@@ -147,8 +175,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "fad2b11a8b806323bbb05ec72fda36c8a57cccc055c7191c2a71696094dcce8f"
+    "teacherValidation": "approved",
+    "fingerprint": "fad2b11a8b806323bbb05ec72fda36c8a57cccc055c7191c2a71696094dcce8f",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S003",
@@ -157,8 +187,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "d0e03a4f16a5b3026c0ced226d56e5b9a4bedcf4c2f8043f87aa7d1081d255a4"
+    "teacherValidation": "approved",
+    "fingerprint": "d0e03a4f16a5b3026c0ced226d56e5b9a4bedcf4c2f8043f87aa7d1081d255a4",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S003",
@@ -167,8 +199,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "d2179a5a7c310f5f26b062f2130e24221a0843c78db600b3fb32ee016bca2466"
+    "teacherValidation": "approved",
+    "fingerprint": "d2179a5a7c310f5f26b062f2130e24221a0843c78db600b3fb32ee016bca2466",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S003",
@@ -177,8 +211,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "50214b823048642adc4210488f4d68d16211aae5e4da53aabc5b7006a6f506a8"
+    "teacherValidation": "approved",
+    "fingerprint": "50214b823048642adc4210488f4d68d16211aae5e4da53aabc5b7006a6f506a8",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S003",
@@ -187,8 +223,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "36c6b19cae82ddaa1ab48eab25a25fd25ca6cfa5afaa17faf27f68afc5d57861"
+    "teacherValidation": "approved",
+    "fingerprint": "36c6b19cae82ddaa1ab48eab25a25fd25ca6cfa5afaa17faf27f68afc5d57861",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S003",
@@ -197,8 +235,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "b42e27b9e8528c9070a284f8159b504f79fb2e6ef051fc3f306a7a76567b82cb"
+    "teacherValidation": "approved",
+    "fingerprint": "b42e27b9e8528c9070a284f8159b504f79fb2e6ef051fc3f306a7a76567b82cb",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S004",
@@ -207,8 +247,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "9d29f1230ad4f061a3c730157c861fc346046451f4b5e45059a268b124d25925"
+    "teacherValidation": "approved",
+    "fingerprint": "9d29f1230ad4f061a3c730157c861fc346046451f4b5e45059a268b124d25925",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S004",
@@ -217,8 +259,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "4f6ac863642167077e960dd7850dd074ff78ca3c5f43a7e9c1511d726ecf3c60"
+    "teacherValidation": "approved",
+    "fingerprint": "4f6ac863642167077e960dd7850dd074ff78ca3c5f43a7e9c1511d726ecf3c60",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S004",
@@ -227,8 +271,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "2824c540d552bc22d2fbb33e67217d2d7ecfff40b560465108d7446fe8f0ea29"
+    "teacherValidation": "approved",
+    "fingerprint": "2824c540d552bc22d2fbb33e67217d2d7ecfff40b560465108d7446fe8f0ea29",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S004",
@@ -237,8 +283,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "8b753ded6c55ee08d2a4719403f2bd8a1739753b98e9ad545ee68a1edf435b33"
+    "teacherValidation": "approved",
+    "fingerprint": "8b753ded6c55ee08d2a4719403f2bd8a1739753b98e9ad545ee68a1edf435b33",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S004",
@@ -247,8 +295,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "fcfdc708ac7a990bd307502d4bb9a761711ab70c8bf37834f2af55aabdda9486"
+    "teacherValidation": "approved",
+    "fingerprint": "fcfdc708ac7a990bd307502d4bb9a761711ab70c8bf37834f2af55aabdda9486",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S004",
@@ -257,8 +307,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "7897ca04c2b773cabbcec20f02af8ecb8cca6d0438035b0eddb931db71943f73"
+    "teacherValidation": "approved",
+    "fingerprint": "7897ca04c2b773cabbcec20f02af8ecb8cca6d0438035b0eddb931db71943f73",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S004D",
@@ -267,8 +319,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "cbd7b70613d08d147b87863929b19e0324d689bccc5850848013c2a3d2916c74"
+    "teacherValidation": "approved",
+    "fingerprint": "cbd7b70613d08d147b87863929b19e0324d689bccc5850848013c2a3d2916c74",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S004D",
@@ -277,8 +331,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "a9d01b58b6c614ea50fccdcbae04efb40d94f36acc263c2f2524d81e529c062e"
+    "teacherValidation": "approved",
+    "fingerprint": "a9d01b58b6c614ea50fccdcbae04efb40d94f36acc263c2f2524d81e529c062e",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S004D",
@@ -287,8 +343,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "4c9b2e4dc7fb2e80f204a284492b10bf721818d2bda10a628070caf80765349f"
+    "teacherValidation": "approved",
+    "fingerprint": "4c9b2e4dc7fb2e80f204a284492b10bf721818d2bda10a628070caf80765349f",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S004D",
@@ -297,8 +355,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "3a8ba02f28c73da64f117c89fa0511ff81563e41912f3e753e7165392a56b948"
+    "teacherValidation": "approved",
+    "fingerprint": "3a8ba02f28c73da64f117c89fa0511ff81563e41912f3e753e7165392a56b948",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S004D",
@@ -307,8 +367,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "761b29ac629e78a874afed04418f38f12833c3a07a48e68fadd3aec06021eb02"
+    "teacherValidation": "approved",
+    "fingerprint": "761b29ac629e78a874afed04418f38f12833c3a07a48e68fadd3aec06021eb02",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S004D",
@@ -317,8 +379,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "7cafd1636fe7162e0c1e474bdb8c64cb9fae90ab4223228ab863e2c2f59e1b39"
+    "teacherValidation": "approved",
+    "fingerprint": "7cafd1636fe7162e0c1e474bdb8c64cb9fae90ab4223228ab863e2c2f59e1b39",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S005",
@@ -327,8 +391,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "b969ed908f7f6493c332a36f92cc7ed294dd068747a8cfd2e0b9ee7f87d3dcdb"
+    "teacherValidation": "approved",
+    "fingerprint": "b969ed908f7f6493c332a36f92cc7ed294dd068747a8cfd2e0b9ee7f87d3dcdb",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S005",
@@ -337,8 +403,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "57c7bd87f07094d44ff383065724da99b80d02cbf3a911e60fcedfc1bac46daa"
+    "teacherValidation": "approved",
+    "fingerprint": "57c7bd87f07094d44ff383065724da99b80d02cbf3a911e60fcedfc1bac46daa",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S005",
@@ -347,8 +415,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "77a5efa51154125dbd5d59ea66f6d2a95bd1e1130eea0af32afe44f2ca6cb49c"
+    "teacherValidation": "approved",
+    "fingerprint": "77a5efa51154125dbd5d59ea66f6d2a95bd1e1130eea0af32afe44f2ca6cb49c",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S005",
@@ -357,8 +427,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "5281674d0fbda4d0f11780558193690206a1e149c4f7d9cb7bdeef04e55de379"
+    "teacherValidation": "approved",
+    "fingerprint": "5281674d0fbda4d0f11780558193690206a1e149c4f7d9cb7bdeef04e55de379",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S005",
@@ -367,8 +439,10 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "8c907d29a67266d2f9e7b08f6b57283afb6eb4d0dbeddda644a9af8b18bc7d78"
+    "teacherValidation": "approved",
+    "fingerprint": "8c907d29a67266d2f9e7b08f6b57283afb6eb4d0dbeddda644a9af8b18bc7d78",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   },
   {
     "activity": "ca-S005",
@@ -377,7 +451,9 @@ export const questionChoiceReviews = [
     "author": "root",
     "reviewer": "review_abcd_pilot_001",
     "reviewedAt": "2026-11-25",
-    "teacherValidation": "pending",
-    "fingerprint": "e83a3f3b2a323ffd0f2961795d314e18ef31838a81c29b510e71fac2082ba31b"
+    "teacherValidation": "approved",
+    "fingerprint": "e83a3f3b2a323ffd0f2961795d314e18ef31838a81c29b510e71fac2082ba31b",
+    "teacherValidatedAt": "2026-11-25",
+    "teacherConfirmation": "Docent 25/11: ja he revisat el pilot ABCD i em sembla correcte i ben plantejat."
   }
 ];

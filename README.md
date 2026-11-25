@@ -2,7 +2,9 @@
 
 Banc de comprensió oral d’ortogra.fi. El docent tria una activitat, prepara la fitxa i el solucionari i els imprimeix. L’alumnat respon al paper i escolta l’àudio des del QR o l’enllaç. Web estàtic, sense comptes ni servidor d’aplicació.
 
-**Prioritat actual:** [adaptar les preguntes a resposta oberta o ABCD](docs/preguntes-abcd.md), seguint el patró de Trama. Pilot seqüencial S001–S005 i S004D disponible, amb 37 alternatives revisades independentment i una pregunta oberta justificada, pendent de validació docent. [Cobertura de les 119 peces i 895 preguntes](docs/preguntes-abcd-seguiment.md). L’ampliació amb guions nous queda ajornada fins a resoldre aquest canvi.
+**Prioritat actual:** [adaptar les preguntes a resposta oberta o ABCD](docs/preguntes-abcd.md), seguint el patró de Trama. Pilot seqüencial S001–S005 i S004D disponible, amb 37 alternatives revisades independentment i una pregunta oberta justificada, validat pel docent el 25/11/2026. [Cobertura de les 119 peces i 895 preguntes](docs/preguntes-abcd-seguiment.md). L’ampliació amb guions nous queda ajornada fins a resoldre aquest canvi.
+
+[Pla actual d’esmenes de veu](docs/pla-esmenes-veu.md): preses pendents, fragments ja rebuts i blocs per completar amb guions compatibles. S022/S025/S059/S061/S071 tenen les esmenes incorporades i el muntatge pendent d’audició final.
 
 [Equilibri del catàleg](docs/equilibri-cataleg.md) i [prioritats de nous guions](docs/prioritats-cataleg.md): recompte dels cinc filtres, publicacions definitives i pendents, amb proposta de tres blocs per ampliar sobretot l’oferta breu i les explicacions de 3r–4t.
 
@@ -16,7 +18,7 @@ Banc de comprensió oral d’ortogra.fi. El docent tria una activitat, prepara l
 
 [Mans a l’obra i A peu de camí](docs/lot-mans-i-cami.md): vuit guions S104–S111 per a 3r–6è, amb preguntes, solucionari, context i escaleta. Projectes de taller amb Biel/Elies i passejades amb Aina/Ferran, comprensibles sense imatges ni mapes. S104/S105/S106/S108/S110 són definitives, S107/S109 esperen esmenes de veu i S111 té muntatge per escoltar.
 
-[Situacions quotidianes](docs/lot-situacions-quotidianes.md): nou converses breus amb revisió independent, guions validats i veus rebudes. S083/S084/S086/S087/S091 són definitives i S089 té muntatge per escoltar. S085 espera corregir el timbre del comiat; S088/S090 tenen omissions confirmades en cua de síntesi.
+[Situacions quotidianes](docs/lot-situacions-quotidianes.md): nou converses breus amb revisió independent, guions validats i veus rebudes. S083/S084/S086/S087/S089/S091 són definitives. S085 espera corregir el timbre del comiat; S088/S090 tenen omissions confirmades en cua de síntesi.
 
 [Serveis i gestions quotidianes](docs/lot-situacions-quotidianes-avancades.md): dotze guions S092–S103 per a 5è, 6è i 1r d’ESO, validats pel docent i amb veus rebudes. S092/S096/S097/S098/S100/S101/S103 són definitives i S093/S095/S102 esperen esmenes de veu. S097 incorpora el títol i el primer torn de Ferran després de validar les esmenes. Recurrents i convidats ocasionals mantenen les seves identitats.
 

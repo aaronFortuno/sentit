@@ -125,8 +125,8 @@ export const sise = [
   proposal({
     id: 'lultim-trajecte-del-tramvia', code: 'S022', title: 'L’últim trajecte del tramvia', grade: '6', level: 'middle', genre: 'story',
     seconds: 183, status: 'ready-for-review', reviewStatus: 'audio-review',
-    audio: './assets/audio/s022-tramvia-v2.mp3', tracks: { introduction: './assets/audio/s022-tramvia-v2-intro.mp3', body: './assets/audio/s022-tramvia-v2-cos.mp3' },
-    fragment: { start: 6.415, seconds: 176 },
+    audio: './assets/audio/s022-repair-v3.mp3', tracks: { introduction: './assets/audio/s022-tramvia-v2-intro.mp3', body: './assets/audio/s022-repair-v3-cos.mp3' },
+    fragment: { start: 6.41502083333333, seconds: 177 },
     summary: 'En Ferran rellegeix una nota antiga i revisa el record d’un viatge amb el seu pare.',
     voices: { Ferran: 'Algenib' }, delivery: 'Ferran adult gran que recorda en primera persona, sense caricatura de veu envellida. Nostàlgia continguda i canvi d’interpretació progressiu, amb pauses naturals.',
     editorialFocus: '6è intermèdia: distingir el record d’infant de la interpretació actual i relacionar una pista escrita amb el comportament del pare. Relat i línia de tramvia ficticis.',

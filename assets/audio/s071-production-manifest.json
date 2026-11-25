@@ -1,0 +1,224 @@
+{
+  "code": "S071",
+  "activity": "ca-S071",
+  "state": "awaiting-montage-validation",
+  "file": "s071-mixed-v1.mp3",
+  "introFile": "s071-mixed-v1-intro.mp3",
+  "bodyFile": "s071-mixed-v1-cos.mp3",
+  "offset": 4.2,
+  "bodyDuration": 161.665,
+  "fullDuration": 165.865,
+  "voices": {
+    "Ferran": "Algenib"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "repaired-mixed-take",
+  "requestHash": "6a2abf512eae17230106b5c42ce211e324dd6d0a46e53076009c391727dda8db",
+  "sourceRequestHash": "db3b6803c46b0a95f5895895743f85114c1e5d61fadded8b0ef30b4a4a811f79",
+  "batch": "L22+L30",
+  "sourceBatchRequests": [
+    {
+      "batch": "L22",
+      "requestHash": "4a2634e49163d602016cbc69c25809b31754d5e940e3283e0c938522deada250",
+      "rawSha256": "f59f33398e753916473bd88dc78345ff02faeedc4f4bb046275f9d453bc4b561"
+    },
+    {
+      "batch": "L30",
+      "requestHash": "e976118d4059a3906fef68d10a896878017b880860e49a669844b0cafb799cb1",
+      "rawSha256": "04afb60c95adf853ada0d0585d59cf29947e8f0ea242907727c74bdce86491cf"
+    }
+  ],
+  "assembly": [
+    {
+      "part": "sobre",
+      "text": "Aina, en aquest sobre hi guardo quatre entrades. Són del mateix teatre i tenen el mateix color blau, però dues són d’un diumenge i dues, del dissabte següent. Si les mires de pressa semblen iguals. A mi em van fer passar una bona vergonya.",
+      "accepted": {
+        "part": "sobre",
+        "text": "Aina, en aquest sobre hi guardo quatre entrades. Són del mateix teatre i tenen el mateix color blau, però dues són d’un diumenge i dues, del dissabte següent. Si les mires de pressa semblen iguals. A mi em van fer passar una bona vergonya.",
+        "candidateFile": "assets/audio/repairs/l30-s071-sobre-prova.mp3",
+        "candidateSha256": "e8b906466ff00dee312c09f7a933353324061a24bab6bfb2ebc83339bac1c972",
+        "batchRequestHash": "e976118d4059a3906fef68d10a896878017b880860e49a669844b0cafb799cb1"
+      },
+      "candidateRawFile": "C:\\Users\\afortun8\\Desktop\\Projects\\Escola\\output\\sentit-primera-tanda\\mixed-batches\\l30-e976118d4059\\s071-sobre.wav",
+      "candidateRawSha256": "9356ab37b1cd4b46418beefd6da67bee9a3d8e9ee30193b01b052771da10fcd2",
+      "candidateBatch": "L30",
+      "candidateRawBatchSha256": "04afb60c95adf853ada0d0585d59cf29947e8f0ea242907727c74bdce86491cf",
+      "originalRange": {
+        "start": 3.885,
+        "end": 20.145,
+        "handles": [
+          -57.84401289123635,
+          -40.85386971285011
+        ]
+      },
+      "candidateRange": {
+        "start": 0.11,
+        "end": 15.82,
+        "handles": [
+          -64.28839878591474,
+          -61.68172341601461
+        ]
+      },
+      "spoken": {
+        "start": 0.2199999999999841,
+        "end": 15.430000000000021
+      },
+      "gainDb": 0.8942644658516461,
+      "requestedGainDb": 1.6852632472903852,
+      "peakLimitedByGain": true,
+      "peakAfterGain": 30000,
+      "deltaSeconds": -0.55,
+      "outputStart": 3.885
+    }
+  ],
+  "requestHashIsCompositionChecksum": true,
+  "rawSha256": "de87f5bc7839af57cca5a7ddffb7d73694382a5bd7667472a1b5e28556606017",
+  "takeSha256": "de87f5bc7839af57cca5a7ddffb7d73694382a5bd7667472a1b5e28556606017",
+  "coverage": 0.9379699248120301,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.01,
+  "peakDbTP": -2.46,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "gentle-narration-bed",
+      "origin": "original-procedural-composition",
+      "author": "Sentit",
+      "license": "MIT",
+      "source": "tools/narration-bed.cjs",
+      "title": "Paper blau a la butxaca",
+      "compositionId": "sentit-s071-v1",
+      "tempoBpm": 62,
+      "rootMidi": 52,
+      "scoreSeed": 71,
+      "notes": 123,
+      "externalSamples": false,
+      "noSpeech": true,
+      "retimed": false,
+      "sha256": "4a87f3d833adf60dda9615b091ab0681f3388d7f21cda1196a035f03b02766d9",
+      "envelope": {
+        "fadeInSeconds": 0.6,
+        "duckStart": 0.7000000000000001,
+        "duckEnd": 1.4500000000000002,
+        "speechGain": 0.14,
+        "nominalSpeechMusicLufs": -43.07743928643524,
+        "riseStart": 155.53499999999997,
+        "riseEnd": 156.33499999999998,
+        "holdSeconds": 2,
+        "fadeStart": 158.33499999999998,
+        "fadeEnd": 160.33499999999998
+      },
+      "listeningValidation": "pending",
+      "start": 0,
+      "underSpeech": true
+    }
+  ],
+  "sha256": "6c60ab1deb9f3499213b121e2cece26352d131f0a66cff6d96f46869e32c3d06",
+  "voiceHandles": {
+    "body": {
+      "start": 0.02,
+      "end": 153.885,
+      "retainedPcmSha256": "b6f8da3fb2b3d81e39eb9a9a4c50ed44335db8e18fc159225d0d286814615dfb",
+      "sourceSha256": "c8c74365503974dcd9e9a950e90bdfa79ed99c5533de40d4475a27ece17c46bd",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.1,
+      "end": 3.35,
+      "retainedPcmSha256": "ecb92807daeb49fa6dcbc828e25898fa069320513464ad5080ee09288c450085",
+      "sourceSha256": "d3d35241b2326df95b44b4b60413804cd92a077f07e6e11ed98e1ff0ab22a726",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-25",
+    "sourceTakeSha256": "de87f5bc7839af57cca5a7ddffb7d73694382a5bd7667472a1b5e28556606017",
+    "baseTakeSha256": "be81a7fabf103859d65f69972f783d0fa1b9777fd8c943f8c4676659fedd0ba3",
+    "confirmation": "Docent 25/11: S071 validat amb les esmenes del paràgraf que estava malament, pot passar a muntatge.",
+    "derivation": "Previously approved remaining speech plus the exact teacher-approved replacement; assembled playback still awaits montage audition.",
+    "repairs": [
+      {
+        "part": "sobre",
+        "text": "Aina, en aquest sobre hi guardo quatre entrades. Són del mateix teatre i tenen el mateix color blau, però dues són d’un diumenge i dues, del dissabte següent. Si les mires de pressa semblen iguals. A mi em van fer passar una bona vergonya.",
+        "candidateFile": "assets/audio/repairs/l30-s071-sobre-prova.mp3",
+        "candidateSha256": "e8b906466ff00dee312c09f7a933353324061a24bab6bfb2ebc83339bac1c972",
+        "batchRequestHash": "e976118d4059a3906fef68d10a896878017b880860e49a669844b0cafb799cb1"
+      }
+    ]
+  },
+  "repairApplication": {
+    "code": "S071",
+    "date": "2026-11-25",
+    "scope": "approved-repair",
+    "originalRawSha256": "be81a7fabf103859d65f69972f783d0fa1b9777fd8c943f8c4676659fedd0ba3",
+    "patchedSha256": "de87f5bc7839af57cca5a7ddffb7d73694382a5bd7667472a1b5e28556606017",
+    "originalSeconds": 158.32,
+    "seconds": 157.77,
+    "edits": [
+      {
+        "part": "sobre",
+        "text": "Aina, en aquest sobre hi guardo quatre entrades. Són del mateix teatre i tenen el mateix color blau, però dues són d’un diumenge i dues, del dissabte següent. Si les mires de pressa semblen iguals. A mi em van fer passar una bona vergonya.",
+        "accepted": {
+          "part": "sobre",
+          "text": "Aina, en aquest sobre hi guardo quatre entrades. Són del mateix teatre i tenen el mateix color blau, però dues són d’un diumenge i dues, del dissabte següent. Si les mires de pressa semblen iguals. A mi em van fer passar una bona vergonya.",
+          "candidateFile": "assets/audio/repairs/l30-s071-sobre-prova.mp3",
+          "candidateSha256": "e8b906466ff00dee312c09f7a933353324061a24bab6bfb2ebc83339bac1c972",
+          "batchRequestHash": "e976118d4059a3906fef68d10a896878017b880860e49a669844b0cafb799cb1"
+        },
+        "candidateRawSha256": "9356ab37b1cd4b46418beefd6da67bee9a3d8e9ee30193b01b052771da10fcd2",
+        "candidateBatch": "L30",
+        "candidateRawBatchSha256": "04afb60c95adf853ada0d0585d59cf29947e8f0ea242907727c74bdce86491cf",
+        "originalRange": {
+          "start": 3.885,
+          "end": 20.145,
+          "handles": [
+            -57.84401289123635,
+            -40.85386971285011
+          ]
+        },
+        "candidateRange": {
+          "start": 0.11,
+          "end": 15.82,
+          "handles": [
+            -64.28839878591474,
+            -61.68172341601461
+          ]
+        },
+        "spoken": {
+          "start": 0.2199999999999841,
+          "end": 15.430000000000021
+        },
+        "gainDb": 0.8942644658516461,
+        "requestedGainDb": 1.6852632472903852,
+        "peakLimitedByGain": true,
+        "peakAfterGain": 30000,
+        "deltaSeconds": -0.55,
+        "outputStart": 3.885,
+        "candidateRawFile": "s071-sobre.wav"
+      }
+    ],
+    "allOtherVoiceSamplesIdentical": true,
+    "voiceRetimed": false,
+    "pitchShifted": false,
+    "newRequests": 0,
+    "retainedRanges": [
+      {
+        "originalStart": 0,
+        "originalEnd": 3.885,
+        "outputStart": 0,
+        "sha256": "beb2434488a419567f7754c922d5b63a9571b3d42320a883c66563f3b43fb383"
+      },
+      {
+        "originalStart": 20.145,
+        "originalEnd": 158.32,
+        "outputStart": 19.595,
+        "sha256": "0504cea5bdfaf081972e8e9f1908c29e2f50275aaecb44149691e09b6bf52350"
+      }
+    ],
+    "originalRawFile": "s071-t01.wav",
+    "patchedFile": "patched-source.wav"
+  }
+}

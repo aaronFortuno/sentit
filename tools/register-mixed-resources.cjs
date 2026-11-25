@@ -13,7 +13,8 @@ async function main(){
   const key=entry.language+'-'+entry.code,labels=Object.entries(entry.production?.voices??report.voices).map(([name,voice])=>`${name}: ${voice}`).join('; ');
   const descriptions=[];
   for(const effect of report.effects??[]){
-   if(report.productionMode==='repaired-existing-master'&&effect.origin==='original-procedural'&&['envelope-opening','sorting-to-delivery'].includes(effect.name)){descriptions.push('Efecte breu del muntatge anterior conservat en la mateixa escena, sense generar cap so nou.');continue;}
+   if(report.productionMode==='repaired-existing-master'&&effect.origin==='original-procedural'&&effect.musicId){const music=musicCatalogue.find(m=>m.id===effect.musicId);if(!music)throw Error('Inherited music absent from catalogue');descriptions.push(`Base original «${music.title}» (${music.license}), molt baixa sota la narració, amb pujada i fosa final.`);continue;}
+   if(report.productionMode==='repaired-existing-master'&&effect.origin==='original-procedural'&&['envelope-opening','sorting-to-delivery','note-paper'].includes(effect.name)){descriptions.push('Efecte breu del muntatge anterior conservat en la mateixa escena, sense generar cap so nou.');continue;}
    if(effect.origin==='licensed-recording-in-montage'){
     if(!effect.credit?.sourceNotDistributedSeparately||sha(await fs.readFile(path.join(work,'sources',effect.name+'.mp3')))!==effect.sourceSha256)throw Error('Licensed recording identity or distribution mismatch.');
     let recording=soundSources.find(s=>s.id===effect.name);if(!recording){recording={...effect.credit,sha256:effect.sourceSha256,usedBy:[]};soundSources.push(recording);}else Object.assign(recording,effect.credit,{sha256:effect.sourceSha256});if(!recording.usedBy.includes(key))recording.usedBy.push(key);
@@ -28,7 +29,7 @@ async function main(){
     if(effect.compositionId){const composition=musicCatalogue.find(m=>m.id===effect.compositionId);if(!composition.usedBy.includes(key))composition.usedBy.push(key);for(const code of ['S045','S046','S068','S069'])if(effect.compositionId==='sentit-'+code.toLowerCase()+'-v1'&&composition.usedBy.includes('ca-'+code+'D'))composition.sharedReason=`Composició compartida intencionadament entre ${code} narrada i ${code}D dialogada, amb mescles i durades pròpies.`;}
     descriptions.push(effect.jingleId?'Sintonia de programa «Ona curta» (MIT), només fora de la parla.':effect.compositionId?`Base original «${effect.title}» (MIT), molt baixa durant la narració, amb pujada i fosa final.`:'Dues notes originals de Sentit (MIT), fora de la parla.');continue;
    }
-   let record=soundSources.find(s=>s.id===effect.name);
+   let record=soundSources.find(s=>s.id===(effect.sourceId??effect.name));
    if(!record){const source=JSON.parse(await fs.readFile(path.join(work,'source-records',effect.name+'.json'),'utf8'));record={id:source.id,title:source.name.replace(/^Freesound - /,'').replace(/ by .*$/,''),author:source.author,url:source.url,license:source.license,licenseUrl:source.licenseUrl,origin:'external-recording',description:'Enregistrament real utilitzat en els muntatges indicats.',file:source.file,rendition:'Còpia pública HQ en MP3 de Freesound; no és el WAV original.',downloadUrl:source.downloadUrl??source.download,retrievedAt:source.retrievedAt??source.checkedAt,sha256:source.sha256,usedBy:[],treatment:'Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva.'};soundSources.push(record);}
    if(sha(await fs.readFile(path.join(root,record.file)))!==record.sha256||record.sha256!==effect.sourceSha256)throw Error('Font diferent del muntatge: '+record.id);
    if(!record.usedBy.includes(key))record.usedBy.push(key);

@@ -43,6 +43,9 @@ export const troballes = [
   }),
   dialogue({
     id: 'la-partida-que-no-cabia-a-la-taula', code: 'S059', title: 'La partida que no cabia a la taula', grade: '5', level: 'middle',
+    seconds: 103, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s059-mixed-v1.mp3', tracks: { introduction: './assets/audio/s059-mixed-v1-intro.mp3', body: './assets/audio/s059-mixed-v1-cos.mp3' },
+    fragment: { start: 4.75, seconds: 98 },
     summary: 'Laia i Biel proven un joc inventat per a la festa de l’escola. Per poder jugar-hi, primer han de veure com hi caben el tauler, les cartes i les mans dels jugadors.',
     editorialFocus: '5è intermèdia: relacionar una prova real amb canvis successius i distingir entre material necessari i decoració. Vuit preguntes sobre decisions motivades; no cal conèixer regles de cap joc comercial.',
     soundPlan: 'Ambient real d’aula al començament i molt baix sota el diàleg. Cartes de paper i un moviment real de capsa en la pausa prevista. Cap dau audible, veu de guanyador o so que doni el nombre de jugadors. Dos segons d’ambient i fosa al final.',
@@ -114,6 +117,9 @@ export const troballes = [
   }),
   dialogue({
     id: 'el-curt-que-comencava-pel-final', code: 'S061', title: 'El curt que començava pel final', grade: '6', level: 'middle',
+    seconds: 137, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s061-mixed-v1.mp3', tracks: { introduction: './assets/audio/s061-mixed-v1-intro.mp3', body: './assets/audio/s061-mixed-v1-cos.mp3' },
+    fragment: { start: 4.66, seconds: 132 },
     summary: 'Els dos joves revisen un curt que han gravat amb el mòbil. Una escena els fa riure perquè saben què va passar abans, però l’ordre de les imatges deixa l’espectador sense una pista important.',
     editorialFocus: '6è intermèdia: reconstruir una petita història dins del diàleg, relacionar ordre, informació i inferència de l’espectador. Vuit preguntes; no cal saber editar vídeo ni interpretar vocabulari cinematogràfic.',
     soundPlan: 'Estança de treball enregistrada durant dos segons. No reproduir àudio del curt ni veus de la Laia o el Biel duplicades. Paper real a la pausa de reordenació, sense clics sintètics. Fons baix i estable; al final, dos segons d’ambient i fosa amb marges.',

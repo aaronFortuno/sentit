@@ -1,6 +1,6 @@
 # Resposta oberta i ABCD a Sentit
 
-Pla d’adaptació del **25/11/2026**, després de revisar la implementació local de Trama. El pilot S001–S005, amb S004D, ja incorpora doble format al web: 37 alternatives ABCD i una pregunta oberta justificada, revisades independentment i pendents de validació docent. [Seguiment de cobertura](preguntes-abcd-seguiment.md).
+Pla d’adaptació del **25/11/2026**, després de revisar la implementació local de Trama. El pilot S001–S005, amb S004D, ja incorpora doble format al web: 37 alternatives ABCD i una pregunta oberta justificada, revisades independentment i validades pel docent el 25/11/2026. [Seguiment de cobertura](preguntes-abcd-seguiment.md).
 
 **Prioritat vigent:** adaptar les preguntes de les 119 peces actuals abans de reprendre l’autoria de comprensions noves. La proposta d’ampliació del [catàleg](prioritats-cataleg.md) queda ajornada. Les esmenes de veu, els muntatges i les validacions de material existent poden continuar.
 
@@ -31,7 +31,7 @@ Referències del projecte germà: `../trama/docs/question-choices.md`, `../trama
 - Les línies de resposta oberta es conserven en canviar de format. El desat de lectures i col·leccions conserva les preferències.
 - Revisió independent de cada alternativa completa i registre de cobertura per pregunta, variant i idioma. Els esborranys no s’importen al catàleg públic.
 
-Trama parteix de resposta oberta per defecte. **Per a Sentit es proposa ABCD per defecte en maquetats nous**, allà on hi hagi alternatives revisades, atesa la situació d’escolta pautada. La decisió es comprovarà amb el pilot. Els maquetats existents conservaran el format obert i les línies que tenien; la migració haurà de distingir un maquetat antic d’un de nou, no tractar l’absència del camp com una mateixa preferència en tots dos casos.
+Trama parteix de resposta oberta per defecte. **Per a Sentit es proposa ABCD per defecte en maquetats nous**, allà on hi hagi alternatives revisades, atesa la situació d’escolta pautada. El pilot i el seu format per defecte queden validats pel docent el 25/11/2026. Els maquetats existents conservaran el format obert i les línies que tenien; la migració haurà de distingir un maquetat antic d’un de nou, no tractar l’absència del camp com una mateixa preferència en tots dos casos.
 
 ## Criteri editorial adaptat a l’escolta
 

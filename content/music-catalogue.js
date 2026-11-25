@@ -269,7 +269,8 @@ export const musicCatalogue = [
     "externalSamples": false,
     "source": "tools/narration-bed.cjs",
     "usedBy": [
-      "ca-S071D"
+      "ca-S071D",
+      "ca-S071"
     ],
     "description": "Composició pròpia de piano suau i harmonia espaiada, 62 pulsacions per minut; partitura determinista 71, fosa d’entrada, música atenuada sota la veu i pujada de dos segons seguida de fosa al final."
   },

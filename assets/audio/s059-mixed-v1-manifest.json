@@ -1,0 +1,222 @@
+{
+  "code": "S059",
+  "activity": "ca-S059",
+  "state": "awaiting-montage-validation",
+  "file": "s059-mixed-v1.mp3",
+  "introFile": "s059-mixed-v1-intro.mp3",
+  "bodyFile": "s059-mixed-v1-cos.mp3",
+  "offset": 4.75,
+  "bodyDuration": 98.20704166666667,
+  "fullDuration": 102.95704166666667,
+  "voices": {
+    "Laia": "Leda",
+    "Biel": "Puck"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "repaired-mixed-take",
+  "requestHash": "d19fa8c15f905cd107994f58adda34c33df085401b865bb99b831e5fd527bbfb",
+  "sourceRequestHash": "80c52515b5877acf5a8cc9fa1a64aeee21b20bdb93dfb1a952bb64719dd7fbca",
+  "batch": "L31+L36",
+  "sourceBatchRequests": [
+    {
+      "batch": "L31",
+      "requestHash": "a60fe358a66004eba2e6b742133d7f9780780baf5a8739a3a428828c3e6fa590",
+      "rawSha256": "bd17485cca82d19a097a226a1f1287a035db454d787194c9e781fa088a9d8555"
+    },
+    {
+      "batch": "L36",
+      "requestHash": "8176fbf46265f9e3a131fc1725426c5d108483d7613cc38bbddfc69c9e425901",
+      "rawSha256": "815d6171203b9b51d2d614e8bc5127851f4857c64e348631ae75cc09bd47d65f"
+    }
+  ],
+  "assembly": [
+    {
+      "part": "arbre",
+      "text": "A aquesta sí. A les del final... Ai, he fet caure l’arbre de cartró! Sempre em queda al mig. És bonic, però el podríem posar dret al costat de la capsa, a la cadira.",
+      "accepted": {
+        "part": "arbre",
+        "text": "A aquesta sí. A les del final... Ai, he fet caure l’arbre de cartró! Sempre em queda al mig. És bonic, però el podríem posar dret al costat de la capsa, a la cadira.",
+        "candidateFile": "assets/audio/repairs/l36-s059-arbre-prova.mp3",
+        "candidateSha256": "063c3ecbf61d4873ad65526d26584f39d88e8e8a3ca73d156473a32565f75be6",
+        "batchRequestHash": "8176fbf46265f9e3a131fc1725426c5d108483d7613cc38bbddfc69c9e425901"
+      },
+      "candidateRawFile": "C:\\Users\\afortun8\\Desktop\\Projects\\Escola\\output\\sentit-primera-tanda\\mixed-batches\\l36-8176fbf46265\\s059-arbre.wav",
+      "candidateRawSha256": "b4a556d80d5e918b879b78782de80ede39756da71ef1d22209475c86cb820abb",
+      "candidateBatch": "L36",
+      "candidateRawBatchSha256": "815d6171203b9b51d2d614e8bc5127851f4857c64e348631ae75cc09bd47d65f",
+      "originalRange": {
+        "start": 65.91,
+        "end": 76.845,
+        "handles": [
+          -59.182948683848615,
+          -62.35019852575361
+        ]
+      },
+      "candidateRange": {
+        "start": 0.20295833333333332,
+        "end": 10.1,
+        "handles": [
+          -41.77877347190286,
+          -52.692726853578534
+        ]
+      },
+      "spoken": {
+        "start": 0.26700266666662187,
+        "end": 9.61704166666666
+      },
+      "gainDb": -5.250542995249585,
+      "requestedGainDb": -5.250542995249585,
+      "peakLimitedByGain": false,
+      "peakAfterGain": 16435,
+      "deltaSeconds": -1.0379583333333333,
+      "outputStart": 65.91
+    }
+  ],
+  "requestHashIsCompositionChecksum": true,
+  "rawSha256": "52e4660fd16743fe694ffc6ea255ac44865fff0e6a1fb69f421b7d0316d4e64b",
+  "takeSha256": "52e4660fd16743fe694ffc6ea255ac44865fff0e6a1fb69f421b7d0316d4e64b",
+  "coverage": 0.8858858858858859,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.74,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "kyles-450728",
+      "start": 0,
+      "source": "assets/audio/sources/kyles-450728.mp3",
+      "sourceSha256": "20f19e1eec5394003835bcc940e246b941b2dd733b062c2743dcef1443f7b0c1",
+      "sourceUrl": "https://freesound.org/people/kyles/sounds/450728/",
+      "author": "kyles",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.07,
+      "openingGain": 0.16,
+      "raisedGain": 0.24,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -51.09803919971486,
+      "lowPassHz": 1800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 5,
+        "seconds": 90
+      },
+      "envelope": {
+        "riseStart": 93.90205833333331,
+        "riseEnd": 94.70205833333333,
+        "holdSeconds": 0.9049833333333339,
+        "fadeStart": 95.60704166666666,
+        "fadeEnd": 97.00704166666667
+      }
+    }
+  ],
+  "sha256": "1174333b393519753812891a6e28dab74c4eb8a815df6283ed6e6f025f6faba7",
+  "voiceHandles": {
+    "body": {
+      "start": 0.4855833333333333,
+      "end": 93.092625,
+      "retainedPcmSha256": "d0554d64730f652444dcd940331f2d641695ed100ff69cfc99cb4e283c75a212",
+      "sourceSha256": "d9458f717eadb3f7331dfc06390ce969917c261b2844d57cb327599b1a1096d8",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0,
+      "end": 3.8,
+      "retainedPcmSha256": "b82ce65d978c673d7fc1c5c2e30e82464bcf614cce65aa49b8c98aba2ca96085",
+      "sourceSha256": "65e66edff76cd25d0d8d7165dfc46368d87986128ac40f6d91146bb403c91ee5",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-25",
+    "sourceTakeSha256": "52e4660fd16743fe694ffc6ea255ac44865fff0e6a1fb69f421b7d0316d4e64b",
+    "baseTakeSha256": "8cb4bfbb0afa9e182b91982c960106d706969905499b4cffa78c98bd85800689",
+    "confirmation": "Docent 25/11: S059 validat amb les esmenes rebudes.",
+    "derivation": "Previously approved remaining speech plus the exact teacher-approved replacement; assembled playback still awaits montage audition.",
+    "repairs": [
+      {
+        "part": "arbre",
+        "text": "A aquesta sí. A les del final... Ai, he fet caure l’arbre de cartró! Sempre em queda al mig. És bonic, però el podríem posar dret al costat de la capsa, a la cadira.",
+        "candidateFile": "assets/audio/repairs/l36-s059-arbre-prova.mp3",
+        "candidateSha256": "063c3ecbf61d4873ad65526d26584f39d88e8e8a3ca73d156473a32565f75be6",
+        "batchRequestHash": "8176fbf46265f9e3a131fc1725426c5d108483d7613cc38bbddfc69c9e425901"
+      }
+    ]
+  },
+  "repairApplication": {
+    "code": "S059",
+    "date": "2026-11-25",
+    "scope": "approved-repair",
+    "originalRawSha256": "8cb4bfbb0afa9e182b91982c960106d706969905499b4cffa78c98bd85800689",
+    "patchedSha256": "52e4660fd16743fe694ffc6ea255ac44865fff0e6a1fb69f421b7d0316d4e64b",
+    "originalSeconds": 98.325,
+    "seconds": 97.28704166666667,
+    "edits": [
+      {
+        "part": "arbre",
+        "text": "A aquesta sí. A les del final... Ai, he fet caure l’arbre de cartró! Sempre em queda al mig. És bonic, però el podríem posar dret al costat de la capsa, a la cadira.",
+        "accepted": {
+          "part": "arbre",
+          "text": "A aquesta sí. A les del final... Ai, he fet caure l’arbre de cartró! Sempre em queda al mig. És bonic, però el podríem posar dret al costat de la capsa, a la cadira.",
+          "candidateFile": "assets/audio/repairs/l36-s059-arbre-prova.mp3",
+          "candidateSha256": "063c3ecbf61d4873ad65526d26584f39d88e8e8a3ca73d156473a32565f75be6",
+          "batchRequestHash": "8176fbf46265f9e3a131fc1725426c5d108483d7613cc38bbddfc69c9e425901"
+        },
+        "candidateRawSha256": "b4a556d80d5e918b879b78782de80ede39756da71ef1d22209475c86cb820abb",
+        "candidateBatch": "L36",
+        "candidateRawBatchSha256": "815d6171203b9b51d2d614e8bc5127851f4857c64e348631ae75cc09bd47d65f",
+        "originalRange": {
+          "start": 65.91,
+          "end": 76.845,
+          "handles": [
+            -59.182948683848615,
+            -62.35019852575361
+          ]
+        },
+        "candidateRange": {
+          "start": 0.20295833333333332,
+          "end": 10.1,
+          "handles": [
+            -41.77877347190286,
+            -52.692726853578534
+          ]
+        },
+        "spoken": {
+          "start": 0.26700266666662187,
+          "end": 9.61704166666666
+        },
+        "gainDb": -5.250542995249585,
+        "requestedGainDb": -5.250542995249585,
+        "peakLimitedByGain": false,
+        "peakAfterGain": 16435,
+        "deltaSeconds": -1.0379583333333333,
+        "outputStart": 65.91,
+        "candidateRawFile": "s059-arbre.wav"
+      }
+    ],
+    "allOtherVoiceSamplesIdentical": true,
+    "voiceRetimed": false,
+    "pitchShifted": false,
+    "newRequests": 0,
+    "retainedRanges": [
+      {
+        "originalStart": 0,
+        "originalEnd": 65.91,
+        "outputStart": 0,
+        "sha256": "b9ed1b11dfb4c5d2e46235c2c4a51a4ed58cdbd295c265dc8f177c318a839262"
+      },
+      {
+        "originalStart": 76.845,
+        "originalEnd": 98.325,
+        "outputStart": 75.80704166666666,
+        "sha256": "b3c7027108125dd035c2b0e8f57f1d462e6d33b43f153858aa8a5f07b925b29a"
+      }
+    ],
+    "originalRawFile": "s059-t01.wav",
+    "patchedFile": "patched-source.wav"
+  }
+}

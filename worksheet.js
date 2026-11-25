@@ -390,7 +390,7 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
     }
     if (settings?.showInstructions ?? true) placeBlock(element('p', 'paper-instructions', worksheetInstructions(entry, session, settings)));
   }
-  if (responseSummary(entry, settings).choices) placeBlock(element('p', 'paper-choice-review', labels.choiceReviewNotice));
+  if (responseSummary(entry, settings).pendingApproval) placeBlock(element('p', 'paper-choice-review', labels.choiceReviewNotice));
 
   function placeTranscript() {
     const parts = reviewScript(entry, labels, session);

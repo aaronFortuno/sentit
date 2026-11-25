@@ -19,7 +19,7 @@ for(const key of keys){
  assert.equal(legacy.questionMode,'open');assert.equal(responseSettings({},false).questionMode,'choice');
  for(const question of entry.questions){
   const review=questionChoiceReviews.find(r=>r.activity===key&&r.questionId===question.id);
-  assert(review&&review.status==='passed'&&review.author!==review.reviewer&&review.teacherValidation==='pending');
+  assert(review&&review.status==='passed'&&review.author!==review.reviewer&&review.teacherValidation==='approved'&&review.teacherValidatedAt==='2026-11-25'&&review.teacherConfirmation);
   assert.equal(review.fingerprint,sha(questionChoiceSnapshot(entry,question)));
   const alternative=multipleChoice(entry,question);
   if(!alternative){assert(records.openOnly[question.id]);assert.equal(responseQuestion(entry,question).responseMode,'open');open++;continue;}
@@ -31,6 +31,7 @@ for(const key of keys){
   assert.equal(legacy.questions[entry.questions[0].id].lines,5);
  }
  const summary=responseSummary(entry,{});assert.equal(summary.total,entry.questions.length);
+ assert.equal(summary.pendingApproval,0,'The approved pilot has no provisional print notice');
  assert.equal(responseSummary(entry,{questions:{[entry.questions[0].id]:{included:false}}}).total,entry.questions.length-1);
 }
 assert.equal(choices,37);assert.equal(open,1);
@@ -38,6 +39,9 @@ const example=activities.find(a=>a.code==='S001'),question=example.questions[0];
 const tampered=questionChoiceReviews.map(r=>r.activity==='ca-S001'&&r.questionId===question.id?{...r,fingerprint:'0'.repeat(64)}:r);
 await registerQuestionChoices([example],tampered);assert.equal(multipleChoice(example,question),null);assert.equal(responseQuestion(example,question).responseMode,'open');
 await registerQuestionChoices([example]);assert(draftQuestionChoice(example,question));assert(multipleChoice(example,question));
+const unapproved=questionChoiceReviews.map(r=>r.activity==='ca-S001'&&r.questionId===question.id?{...r,teacherValidation:'pending'}:r);
+await registerQuestionChoices([example],unapproved);assert.equal(responseSummary(example,{}).pendingApproval,1);assert.equal(responseSummary(example,{questionMode:'open'}).pendingApproval,0);
+await registerQuestionChoices([example]);assert.equal(responseSummary(example,{}).pendingApproval,0);
 assert.equal(JSON.stringify(activities),original,'Never mutate original editorial questions or approvals');
 const memory=new Map(),storage={getItem:key=>memory.get(key)??null,setItem:(key,value)=>memory.set(key,value)};
 const layout={format:{font:'serif'},settings:{questionMode:'choice',questionModes:{activitat:'open'},questions:{activitat:{lines:5,included:false}}}};

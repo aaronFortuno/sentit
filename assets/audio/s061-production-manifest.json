@@ -1,0 +1,157 @@
+{
+  "code": "S061",
+  "activity": "ca-S061",
+  "state": "awaiting-montage-validation",
+  "file": "s061-mixed-v1.mp3",
+  "introFile": "s061-mixed-v1-intro.mp3",
+  "bodyFile": "s061-mixed-v1-cos.mp3",
+  "offset": 4.66,
+  "bodyDuration": 132.005,
+  "fullDuration": 136.665,
+  "voices": {
+    "Laia": "Leda",
+    "Biel": "Puck"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "repaired-mixed-take",
+  "requestHash": "dc16a998dd54c016f29aea9ddeb8f96910642e7c54885a3d6631840bd64a2ab5",
+  "sourceRequestHash": "3db42032dbf751ede0a3ca87a6272d856525381bf5ce2a73d3596522acc5a846",
+  "batch": "L18+L31",
+  "sourceBatchRequests": [
+    {
+      "batch": "L18",
+      "requestHash": "f1a68c184a8ed0118f14d57dc5a685880f5b7affe7562ae9d14cbc273639f768",
+      "rawSha256": "31d64681f63f83a2ea00ceaae4e856d2c22a5a1c3eaa089c652442b3ecebf497"
+    },
+    {
+      "batch": "L31",
+      "requestHash": "a60fe358a66004eba2e6b742133d7f9780780baf5a8739a3a428828c3e6fa590",
+      "rawSha256": "bd17485cca82d19a097a226a1f1287a035db454d787194c9e781fa088a9d8555"
+    }
+  ],
+  "requestHashIsCompositionChecksum": true,
+  "rawSha256": "4a06dc8d1d90f2c8f4b6a6fe42c35d845cdd14548069c559fe279ff3edc4c193",
+  "takeSha256": "4a06dc8d1d90f2c8f4b6a6fe42c35d845cdd14548069c559fe279ff3edc4c193",
+  "coverage": 0.8782608695652174,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.3,
+  "peakDbTP": -2.48,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "bexhillcollege-274213",
+      "start": 0,
+      "source": "assets/audio/sources/bexhillcollege-274213-hallway.mp3",
+      "sourceSha256": "ac07b275131c3517007369de9cd2e3d566e6d0de9fc9ae7c7e3ac0345cbcc5f7",
+      "sourceUrl": "https://freesound.org/people/Bexhillcollege/sounds/274213/",
+      "author": "Bexhillcollege",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.07,
+      "openingGain": 0.16,
+      "raisedGain": 0.24,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -51.09803919971486,
+      "lowPassHz": 800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 6,
+        "seconds": 55.35733333333334
+      },
+      "envelope": {
+        "riseStart": 127.75999999999999,
+        "riseEnd": 128.56,
+        "holdSeconds": 0.8449999999999989,
+        "fadeStart": 129.405,
+        "fadeEnd": 130.805
+      }
+    }
+  ],
+  "sha256": "aea14978de1b304d38448c4a66a5fe038cfaa2b227d6adc23fb756b8acd24924",
+  "voiceHandles": {
+    "body": {
+      "start": 0.04,
+      "end": 126.345,
+      "retainedPcmSha256": "c09dd8bdbf17d19beab4c88b2dd323d811ba4a74ee67012b3adf4644ae8004b5",
+      "sourceSha256": "5fef7a364902acdcb074fda0d1916de33c2bca9451d47b51e82ed12c399d3177",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.055,
+      "end": 3.765,
+      "retainedPcmSha256": "e6682551ab6574ddb3aac62c2d87a9d5ed02ae9572d7ae65f4671df85d3058a7",
+      "sourceSha256": "b531d5c617c77c3fb8b09f036f3737a66a2efb7d5a33c10f65367967c387120d",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-25",
+    "sourceTakeSha256": "4a06dc8d1d90f2c8f4b6a6fe42c35d845cdd14548069c559fe279ff3edc4c193",
+    "baseTakeSha256": "f8c2abe90710bcd8f81d4437c03c30b36c5c1be4ac58f2c7a46e63e0aa60cd4b",
+    "confirmation": "Docent 25/11: S061 validat per a muntatge amb l’esmena de la frase que faltava.",
+    "derivation": "Previously approved complete body, plus the exact teacher-approved opening clips. Full montage still awaits listening.",
+    "repairs": [
+      {
+        "part": "introduction",
+        "text": "Comprensió oral. El curt que començava pel final.",
+        "candidateFile": "assets/audio/repairs/l31-s061-introduction-prova.mp3",
+        "candidateSha256": "f25dcd4aeb9ab9be38fa50b46a5518884fd514a6ca3361a5f020fda834e4f0b6",
+        "batchRequestHash": "a60fe358a66004eba2e6b742133d7f9780780baf5a8739a3a428828c3e6fa590"
+      }
+    ]
+  },
+  "repairApplication": {
+    "code": "S061",
+    "date": "2026-11-25",
+    "scope": "approved-repair",
+    "originalRawSha256": "f8c2abe90710bcd8f81d4437c03c30b36c5c1be4ac58f2c7a46e63e0aa60cd4b",
+    "originalBodySha256": "f8c2abe90710bcd8f81d4437c03c30b36c5c1be4ac58f2c7a46e63e0aa60cd4b",
+    "patchedSha256": "4a06dc8d1d90f2c8f4b6a6fe42c35d845cdd14548069c559fe279ff3edc4c193",
+    "seconds": 130.11,
+    "edits": [
+      {
+        "part": "introduction",
+        "text": "Comprensió oral. El curt que començava pel final.",
+        "accepted": {
+          "part": "introduction",
+          "text": "Comprensió oral. El curt que començava pel final.",
+          "candidateFile": "assets/audio/repairs/l31-s061-introduction-prova.mp3",
+          "candidateSha256": "f25dcd4aeb9ab9be38fa50b46a5518884fd514a6ca3361a5f020fda834e4f0b6",
+          "batchRequestHash": "a60fe358a66004eba2e6b742133d7f9780780baf5a8739a3a428828c3e6fa590"
+        },
+        "candidateRawSha256": "774cfda8d658adb8842eba84306f7b40eacadf722a7b0e939ac4610640d82b6a",
+        "candidateBatch": "L31",
+        "candidateRawBatchSha256": "bd17485cca82d19a097a226a1f1287a035db454d787194c9e781fa088a9d8555",
+        "candidateRange": {
+          "start": 0,
+          "end": 3.765
+        },
+        "outputStart": 0,
+        "operation": "insert-omitted-introduction",
+        "gainDb": 0,
+        "candidateRawFile": "s061-introduction.wav"
+      }
+    ],
+    "insertedSilenceSeconds": 0,
+    "allOtherVoiceSamplesIdentical": true,
+    "voiceRetimed": false,
+    "pitchShifted": false,
+    "newRequests": 0,
+    "retainedRanges": [
+      {
+        "originalStart": 0,
+        "originalEnd": 126.345,
+        "outputStart": 3.765,
+        "sha256": "227ebe4128ce0408bd4b0939d4161d7d93f9adb43e5dd0f90a26b7db7b9200a1",
+        "originalFile": "s061-t01.wav"
+      }
+    ],
+    "originalBodyFile": "s061-t01.wav",
+    "originalRawFile": "s061-t01.wav",
+    "patchedFile": "patched-source.wav"
+  }
+}

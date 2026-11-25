@@ -1,0 +1,284 @@
+{
+  "code": "S022",
+  "activity": "ca-S022",
+  "date": "2026-11-20T13:16:25.889Z",
+  "state": "awaiting-montage-validation",
+  "model": "gemini-3.8-flash-tts",
+  "voices": {
+    "Ferran": "Algenib"
+  },
+  "newSynthesisRequests": 1,
+  "approvalFingerprint": "b2be16c9d9e88f1cb8121cedf7416015426a6cc7d1db086d5daff168bc6af96c",
+  "requestHash": "73c878d684054e29be48d432b64b0ec0e852eac6f06e7565893168e4588cb2b9",
+  "rawSha256": "7c44d2c01fff3768eb38f6ec5429d388dda661fe91e6580c8d596556e66b7566",
+  "usage": {
+    "total_tokens": 5080,
+    "total_input_tokens": 746,
+    "input_tokens_by_modality": [
+      {
+        "modality": "text",
+        "tokens": 746
+      }
+    ],
+    "total_cached_tokens": 0,
+    "total_output_tokens": 4334,
+    "output_tokens_by_modality": [
+      {
+        "modality": "audio",
+        "tokens": 4334
+      }
+    ],
+    "total_tool_use_tokens": 0,
+    "total_thought_tokens": 0,
+    "initial_input_tokens": 746
+  },
+  "rawDuration": 173.36,
+  "cut": {
+    "at": 5.865,
+    "previousWordEnd": 3.72,
+    "nextWordStart": 8.01,
+    "peakDbFS": -53.7,
+    "rawSamplesPreserved": true
+  },
+  "file": "s022-repair-v3.mp3",
+  "introFile": "s022-tramvia-v2-intro.mp3",
+  "bodyFile": "s022-repair-v3-cos.mp3",
+  "offset": 6.41502083333333,
+  "bodyDuration": 176.57004166666667,
+  "fullDuration": 182.9850625,
+  "lufs": -19.82,
+  "peakDbTP": -2.37,
+  "voice": {
+    "bodyLead": 2.7,
+    "bodyRawDuration": 167.87004166666665,
+    "untrimmedApartFromSilenceSplit": false,
+    "retimed": false,
+    "repairedWithoutRetiming": true
+  },
+  "effects": [
+    {
+      "name": "gentle-tram-memory-bed",
+      "musicId": "sentit-tramvia-records-v1",
+      "title": "Rails de memòria",
+      "start": 0,
+      "end": 175.970042,
+      "timelineDuration": 176.570042,
+      "origin": "original-procedural",
+      "author": "Sentit",
+      "license": "MIT",
+      "source": "tools/s022-music.cjs",
+      "rawFile": "s022-music-original-cru.wav",
+      "normalizedFile": "s022-music-base-normalized.wav",
+      "renderedFile": "s022-music-envelope.wav",
+      "sampleRate": 48000,
+      "channels": 1,
+      "noSpeech": true,
+      "externalSamples": false,
+      "apiRequests": 0,
+      "normalizedBaseLufs": -27,
+      "normalizationCorrectionDb": 0,
+      "renderedLufs": -39.55,
+      "truePeakDbtp": -12.44,
+      "envelope": {
+        "fadeIn": {
+          "start": 0,
+          "end": 0.8,
+          "targetGain": 0.7
+        },
+        "duckBeforeSpeech": {
+          "start": 1.87,
+          "end": 2.52,
+          "safetyBeforeLead": 0.18
+        },
+        "speech": {
+          "start": 2.52,
+          "end": 170.690042,
+          "gain": 0.14,
+          "gainDb": -17.077439,
+          "nominalLufs": -44.077439
+        },
+        "riseAfterSpeech": {
+          "start": 170.690042,
+          "end": 171.410042,
+          "safetyAfterVoiceEnd": 0.12,
+          "targetGain": 0.7
+        },
+        "fadeOut": {
+          "start": 174.670042,
+          "end": 175.970042
+        },
+        "silentTail": 0.6,
+        "curve": "smoothstep"
+      },
+      "recipe": {
+        "key": "Sol major",
+        "tempoBpm": 60,
+        "chordSeconds": 8,
+        "harmony": "G6, D/F#, Cmaj9, G/B, Em7, C6, Am7, Dadd9, Gmaj9, Cmaj7, D6, G6; dotze disposicions de vuit temps.",
+        "instruments": [
+          "Corda polsada suau amb cos llarg i harmònics que decauen ràpid",
+          "Acompanyament molt espaiat de piano amb sordina",
+          "Dues notes de pad molt discretes cada dos acords"
+        ],
+        "synthesis": "Taules harmòniques deterministes a 48 kHz mono. Decaïments diferents del cos i de l’atac de la corda, dos reflexos de sala curta, filtre 60–3500 Hz, normalització en dues passades i ajust fi de guany mesurat a −27 LUFS.",
+        "variation": "Dotze frases pròpies amb tres o quatre notes espaiades de manera desigual; canvis de ritme i registre en cicles posteriors. Sense bucle d’àudio ni ostinato de quatre notes.",
+        "cadence": "Re major cap a G6 després de la veu. Nostàlgia continguda, sense tristesa imposada, gir de suspens ni ritme literal de tramvia.",
+        "chords": 22,
+        "stringNotes": 66,
+        "feltNotes": 66,
+        "airNotes": 22
+      },
+      "sha256": "932cb61c593109d6f1f52166baa5f985dfbb411222ae91ba66f6cff2a2e04a42",
+      "rawSha256": "f59d8a81b791ff73adc1789e300b017448305204fdf1910ec03e5c3252c8580f",
+      "normalizedSha256": "515678aaa703482d5180444e54a266904700a87224559b49b9d5ea7ad506455a",
+      "decodeVerified": true,
+      "listeningValidation": "pending",
+      "inheritedFrom": "s022-tramvia-v2.mp3"
+    },
+    {
+      "name": "real-tram-opening",
+      "start": 0,
+      "end": 2.2,
+      "origin": "external-recording",
+      "source": "assets/audio/sources/migweis-713419-tram.mp3",
+      "sourceSha256": "7b4f76280d81090d08e84abd89d2bf224ebf6bc3ed8c801535b3280cabc78452",
+      "sourceId": "migweis-tram-713419",
+      "author": "migweis",
+      "license": "CC0 1.0",
+      "url": "https://freesound.org/people/migweis/sounds/713419/",
+      "excerpt": {
+        "start": 0.6,
+        "end": 2.8000000000000003
+      },
+      "retimed": false,
+      "pitchShifted": false,
+      "inheritedFrom": "s022-tramvia-v2.mp3",
+      "inheritedRenderedSha256": "f79536bfdd24796eb6ed54dd97a10e688835e8d92347bb61f4f2caabb8b1ced8"
+    },
+    {
+      "name": "real-tram-memory-transition",
+      "start": 82.18004166666667,
+      "end": 82.98004166666666,
+      "origin": "external-recording",
+      "source": "assets/audio/sources/migweis-713419-tram.mp3",
+      "sourceSha256": "7b4f76280d81090d08e84abd89d2bf224ebf6bc3ed8c801535b3280cabc78452",
+      "sourceId": "migweis-tram-713419",
+      "author": "migweis",
+      "license": "CC0 1.0",
+      "url": "https://freesound.org/people/migweis/sounds/713419/",
+      "excerpt": {
+        "start": 2.7,
+        "end": 3.5
+      },
+      "retimed": false,
+      "pitchShifted": false,
+      "inheritedFrom": "s022-tramvia-v2.mp3",
+      "inheritedRenderedSha256": "00756914d96fedcfef82cdde141d4ddd47d275c3ef4f44dad92ce0de2530889a"
+    },
+    {
+      "name": "note-paper",
+      "start": 83.50004166666668,
+      "end": 83.9000416666667,
+      "origin": "original-procedural",
+      "inheritedFrom": "s022-tramvia-v2.mp3",
+      "inheritedRenderedSha256": "e773846b09e20cc7378da2eb2a5c5cd22a4944541cbf0794c2517cde4a9cb517"
+    }
+  ],
+  "sha256": "a1799942ca51dafe7a7072302c8dd083485e7f3958a8ebcda5a810b1fcd3c736",
+  "montageNewSynthesisRequests": 0,
+  "previousMaster": {
+    "file": "s022-tramvia-v2.mp3",
+    "sha256": "377b14f0d555312476b7bb020e53256eb6c25ead40e610f7de37117d02a02189"
+  },
+  "pronunciationRepair": {
+    "plan": "content/audio-repairs.json",
+    "status": "applied-awaiting-montage-listening",
+    "applied": true
+  },
+  "musicTrack": {
+    "id": "sentit-tramvia-records-v1",
+    "title": "Rails de memòria",
+    "author": "Sentit",
+    "license": "MIT",
+    "source": "tools/s022-music.cjs"
+  },
+  "repairApplication": {
+    "code": "S022",
+    "date": "2026-11-25",
+    "scope": "approved-repair",
+    "originalRawSha256": "7c44d2c01fff3768eb38f6ec5429d388dda661fe91e6580c8d596556e66b7566",
+    "patchedSha256": "fff131ae2cb49343ddba5fb07f84472695cd5a3b9979547a8d35345a047339e6",
+    "originalSeconds": 173.36,
+    "seconds": 173.73504166666666,
+    "edits": [
+      {
+        "part": "dema",
+        "text": "Hauria pogut passar el dia mirant els rails i saludant la gent de les parades.",
+        "accepted": {
+          "part": "dema",
+          "trialId": "S022-rails-dieresis",
+          "text": "Hauria pogut passar el dia mirant els rails i saludant la gent de les parades.",
+          "candidateFile": "assets/audio/repairs/l30-s022-S022-rails-dieresis-prova.mp3",
+          "candidateSha256": "f08fc655d43b26f3a9c64f0e0c6bc687fc74f95cfb11b5a0a9ffa602a9ebf7ee",
+          "batchRequestHash": "e976118d4059a3906fef68d10a896878017b880860e49a669844b0cafb799cb1"
+        },
+        "candidateRawSha256": "fce5f37de13a92c3cd0ffaf94e89437d62b23b06255790d350cc46f180d6db0f",
+        "candidateBatch": "L30",
+        "candidateRawBatchSha256": "04afb60c95adf853ada0d0585d59cf29947e8f0ea242907727c74bdce86491cf",
+        "originalRange": {
+          "start": 35.620041666666665,
+          "end": 39.825,
+          "handles": [
+            -65.20354859712823,
+            -59.93871990163661
+          ]
+        },
+        "candidateRange": {
+          "start": 0.02,
+          "end": 4.6,
+          "handles": [
+            -72.24719895935549,
+            -71.22414851040786
+          ]
+        },
+        "spoken": {
+          "start": 0.2200000000000091,
+          "end": 4.3000000000000504
+        },
+        "gainDb": -0.050451783518107245,
+        "requestedGainDb": -0.050451783518107245,
+        "peakLimitedByGain": false,
+        "peakAfterGain": 26360,
+        "deltaSeconds": 0.37504166666666666,
+        "outputStart": 35.620041666666665,
+        "candidateRawFile": "s022-rails-dieresis.wav"
+      }
+    ],
+    "retainedRanges": [
+      {
+        "originalStart": 0,
+        "originalEnd": 35.620041666666665,
+        "outputStart": 0,
+        "sha256": "6182623e3a780b9ba00bbd563446dc0a78d3592f6a48ea30805911337d27a167"
+      },
+      {
+        "originalStart": 39.825,
+        "originalEnd": 173.36,
+        "outputStart": 40.200041666666664,
+        "sha256": "1fc190fbe09b6a9b3d5e5f24f5ac6a8bb1fb42ca205752594cf83c7838b40f9c"
+      }
+    ],
+    "allOtherVoiceSamplesIdentical": true,
+    "voiceRetimed": false,
+    "pitchShifted": false,
+    "newRequests": 0,
+    "originalRawFile": "titol-fragment-73c878d68405.wav",
+    "patchedFile": "patched-source.wav"
+  },
+  "voiceRetimed": false,
+  "titleTrackPreserved": {
+    "file": "s022-tramvia-v2-intro.mp3",
+    "sha256": "cadfdbb9a69df11b0d6e9c4441c021756c5fad425fddbf191f321375449cebad"
+  },
+  "productionMode": "repaired-existing-master"
+}
