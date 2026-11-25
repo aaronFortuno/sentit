@@ -1,5 +1,10 @@
 # Canvis
 
+## 0.1.102 · 25 de novembre de 2026
+
+- S108 amb veus validades i muntatge preparat per escoltar: ambient exterior enregistrat continu, molt tènue sota la conversa, amb entrada curta i fosa final. Preses i timbres conservats, sense síntesi addicional.
+- S107 amb esmena pendent al darrer torn de l’Elies («funda», que sona «funa»). Torn complet en cua per a la mateixa veu Algieba, vinculat a l’original i sense modificar el text del solucionari. Card i seguiment actualitzats.
+
 ## 0.1.101 · 25 de novembre de 2026
 
 - S105 amb veus validades pel docent i muntatge preparat per escoltar: ambient enregistrat continu de taller amb carrer esmorteït, molt baix durant la conversa, amb entrada curta i fosa final. Originals i timbres conservats; sense peticions noves de síntesi.

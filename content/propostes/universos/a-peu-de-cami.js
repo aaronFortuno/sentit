@@ -9,6 +9,9 @@ const make = data => universeProposal({ ...data, voices, delivery, soundPlan, un
 export const walkingActivities = [
   make({
     id: 'un-lloc-per-berenar', code: 'S108', title: 'Un lloc per berenar', grade: '3', level: 'easy', genre: 'dialogue',
+    seconds: 67, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s108-mixed-v1.mp3', tracks: { introduction: './assets/audio/s108-mixed-v1-intro.mp3', body: './assets/audio/s108-mixed-v1-cos.mp3' },
+    fragment: { start: 4.11, seconds: 62 },
     summary: 'L’Aina i l’avi Ferran surten a passejar després de ploure. Quan volen berenar, han de buscar on posar-se.',
     editorialFocus: '3r accessible: situar dos llocs descrits en veu alta, recordar què porta cadascú i seguir una decisió senzilla. L’escena s’entén sense cap imatge o plànol; les preguntes no depenen d’identificar sons.',
     illustrationBrief: 'Aina i Ferran en pla mitjà en un parc, amb una bossa discreta. Arbres contextuals, sense representar pluja, bassals, estat dels bancs, lloc final o contingut de la bossa.',

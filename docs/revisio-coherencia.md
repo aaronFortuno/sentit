@@ -120,7 +120,7 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S105](https://sentit.ortogra.fi/#lectura=ca-S105) | El faristol que ballava | 4t | Revisió superada · àudio pendent | 2026-11-24 | `3cb9bf954dcd…` |
 | [ca-S106](https://sentit.ortogra.fi/#lectura=ca-S106) | Un suport per a la gravadora | 5è | Provisional · revisió superada | 2026-11-24 | `a3adbcb1c929…` |
 | [ca-S107](https://sentit.ortogra.fi/#lectura=ca-S107) | El carro que s’encallava | 6è | Provisional · revisió superada | 2026-11-24 | `f53c7d88670b…` |
-| [ca-S108](https://sentit.ortogra.fi/#lectura=ca-S108) | Un lloc per berenar | 3r | Provisional · revisió superada | 2026-11-24 | `a42a9fc07182…` |
+| [ca-S108](https://sentit.ortogra.fi/#lectura=ca-S108) | Un lloc per berenar | 3r | Revisió superada · àudio pendent | 2026-11-24 | `a42a9fc07182…` |
 | [ca-S109](https://sentit.ortogra.fi/#lectura=ca-S109) | Les sabates del diumenge | 4t | Provisional · revisió superada | 2026-11-24 | `49f5f4af5c5b…` |
 | [ca-S110](https://sentit.ortogra.fi/#lectura=ca-S110) | Un so darrere els arbres | 5è | Provisional · revisió superada | 2026-11-24 | `cbce144985ac…` |
 | [ca-S111](https://sentit.ortogra.fi/#lectura=ca-S111) | La porta del camí vell | 6è | Provisional · revisió superada | 2026-11-24 | `522e9ccf998c…` |

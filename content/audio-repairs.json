@@ -696,5 +696,30 @@
     ],
     "application": "Comparar els dos torns nous amb els originals abans de substituir-los. Conservar intacta la resta de la presa i el text editorial. Cap aprovació automàtica de veus ni muntatge fins a la validació docent.",
     "approvedRequestHash": "b97377a8effc1d8cf8115b7a2d32e6364be7fce48193ec50e22a05caee690968"
+  },
+  "S107": {
+    "activity": "ca-S107",
+    "status": "approved-for-correction",
+    "approvedAt": "2026-11-25",
+    "approvalSource": "Docent 25/11: l’Elies diu funa en lloc de funda al seu últim torn de S107. Regenerar aquest torn amb la mateixa veu.",
+    "scope": "spoken-turn",
+    "sourceTakeId": "S107-T01",
+    "sourceRequestHash": "8176fbf46265f9e3a131fc1725426c5d108483d7613cc38bbddfc69c9e425901",
+    "sourceRawSha256": "815d6171203b9b51d2d614e8bc5127851f4857c64e348631ae75cc09bd47d65f",
+    "sourceTakeSha256": "525ff41226cc378f4ebbe5371647df5394eeef5eadedde5cc9695ed1b5334dbd",
+    "voices": {
+      "Elies": "Algieba"
+    },
+    "direction": "Natural Central Catalan. Keep the same warm adult male Elies/Algieba voice and natural conversational pace throughout. Read the supplied complete turn once, without title, added words, labels, sound effects or spoken instructions.",
+    "repairs": [
+      {
+        "part": "sortida",
+        "speaker": "Elies",
+        "text": "Aquí tens el carro, amb una nansa a cada extrem. La bossa ja és dins d’aquesta funda. Obro la porta: prova’l.",
+        "pronunciation": "Pronounce funda /ˈfun.də/ with stressed U and audible N followed by D: FUN-da, never funa or fona. Keep the adult male Elies/Algieba voice throughout the whole turn. Do not read this instruction."
+      }
+    ],
+    "application": "Comparar el torn complet amb l’original abans de substituir-lo. Conservar intacta la resta de la presa i el text editorial. Cap muntatge ni aprovació automàtica de veus fins a la validació docent.",
+    "approvedRequestHash": "70d6ab30ccd06ed07a8123801b7de4fbe39f043c3b0d78ec45f3591cb47b4c8d"
   }
 }

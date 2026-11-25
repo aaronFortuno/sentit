@@ -5776,7 +5776,7 @@ export const productionProgress = {
     "voicePreviewFile": "./assets/audio/s106-voices-review-v1.mp3"
   },
   "ca-S107": {
-    "state": "voices-received",
+    "state": "audio-corrections-pending",
     "editorialFingerprint": "f53c7d88670bbcf0b1fda9c16010078ab99a255af85b66ffa864c5fcb89994c0",
     "plannedNewRequests": 1,
     "listeningApproval": false,
@@ -5797,16 +5797,41 @@ export const productionProgress = {
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-25T07:23:59.464Z",
     "voicePreview": "./proves/veus-rebudes.html#S107",
-    "voicePreviewFile": "./assets/audio/s107-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s107-voices-review-v1.mp3",
+    "feedback": [
+      {
+        "part": "sortida",
+        "speaker": "Elies",
+        "kind": "pronunciation",
+        "word": "funda",
+        "heard": "funa",
+        "status": "pending"
+      }
+    ],
+    "plannedRepair": {
+      "status": "awaiting-compatible-batch",
+      "parts": [
+        "sortida"
+      ],
+      "speaker": "Elies",
+      "voice": "Algieba",
+      "sourceTakeSha256": "525ff41226cc378f4ebbe5371647df5394eeef5eadedde5cc9695ed1b5334dbd",
+      "confirmation": "Docent 25/11: l’Elies diu funa en lloc de funda al seu últim torn de S107. Regenerar aquest torn amb la mateixa veu."
+    }
   },
   "ca-S108": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "editorialFingerprint": "a42a9fc07182fd8ad17c79c0a5f7cb1c3b61e9cadfcd815ee2ba1c74c58104df",
     "plannedNewRequests": 1,
     "listeningApproval": false,
     "teacherAssessment": "Guió, veus i escaleta validats pel docent; preparar un lot compatible de síntesi.",
     "scriptApprovedAt": "2026-11-24",
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-25",
+      "sourceTakeSha256": "42c92651d7b9595cfc520249c9d9a818f1d6519e2f696555ec73f7ca427e7cfc",
+      "confirmation": "Docent 25/11: S108 validat per muntatge."
+    },
     "scriptApprovalSource": "Docent 24/11: S104, S100 i S108 validats per síntesi de veus; S109, S102 i S105 també preparats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar.",
     "uncertainTurns": [],
     "receivedTakes": {
@@ -5821,7 +5846,12 @@ export const productionProgress = {
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-25T07:27:33.506Z",
     "voicePreview": "./proves/veus-rebudes.html#S108",
-    "voicePreviewFile": "./assets/audio/s108-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s108-voices-review-v1.mp3",
+    "mountedAt": "2026-11-25T12:04:44.042Z",
+    "synthesisBatch": "L37",
+    "requestHash": "f8f95587af9933a81a7732a732045a0094ec864fc0d9d79fb70e2daac13764d9",
+    "audioSha256": "496d2d8ea9b0dc357af8736908d399188f09090dd0337203d47d1877cb68cf87",
+    "montageNewSynthesisRequests": 0
   },
   "ca-S109": {
     "state": "audio-corrections-pending",

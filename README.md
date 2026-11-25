@@ -2,9 +2,9 @@
 
 Banc de comprensió oral d’ortogra.fi. El docent tria una activitat, prepara la fitxa i el solucionari i els imprimeix. L’alumnat respon al paper i escolta l’àudio des del QR o l’enllaç. Web estàtic, sense comptes ni servidor d’aplicació.
 
-[Actualització del 25/11](docs/lots-2026-11-25.md): L36/L37 rebuts, amb vuit comprensions S104–S111 i cinc fragments per comparar o reposar (S059, S081 i S097). Onze muntatges preparats després de validar les veus: S060, S074, S076, S086, S091, S092, S096, S098, S101, S103 i S105. Esmenes noves de S085/S093/S095/S102/S109 en cua, encara sense enviar. Les veus s’escolten abans de fer cap muntatge i el muntatge requereix una altra audició.
+[Actualització del 25/11](docs/lots-2026-11-25.md): L36/L37 rebuts, amb vuit comprensions S104–S111 i cinc fragments per comparar o reposar (S059, S081 i S097). Dotze muntatges preparats després de validar les veus: S060, S074, S076, S086, S091, S092, S096, S098, S101, S103, S105 i S108. Esmenes noves de S085/S093/S095/S102/S107/S109 en cua, encara sense enviar. Les veus s’escolten abans de fer cap muntatge i el muntatge requereix una altra audició.
 
-[Mans a l’obra i A peu de camí](docs/lot-mans-i-cami.md): vuit guions S104–S111 per a 3r–6è, amb preguntes, solucionari, context i escaleta. Projectes de taller amb Biel/Elies i passejades amb Aina/Ferran, comprensibles sense imatges ni mapes. Tots els guions validats i les veus rebudes; S105 té muntatge per escoltar i S109 espera dues esmenes de veu.
+[Mans a l’obra i A peu de camí](docs/lot-mans-i-cami.md): vuit guions S104–S111 per a 3r–6è, amb preguntes, solucionari, context i escaleta. Projectes de taller amb Biel/Elies i passejades amb Aina/Ferran, comprensibles sense imatges ni mapes. Tots els guions validats i les veus rebudes; S105/S108 tenen muntatge per escoltar i S107/S109 esperen esmenes de veu.
 
 [Situacions quotidianes](docs/lot-situacions-quotidianes.md): nou converses breus amb revisió independent, guions validats i veus rebudes. S083/S084/S086 tenen muntatge per escoltar; S085 espera corregir el timbre del comiat. S088/S090 tenen omissions o dubtes visibles, pendents d’audició; cap presa nova es dona per bona automàticament.
 
