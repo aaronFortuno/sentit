@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-25",
+  "tool": "image_gen built-in",
+  "code": "S096",
+  "file": "s096-publicacio-v1.jpg",
+  "alt": "En Ferran conversa amb una informadora al taulell d’una oficina municipal.",
+  "width": 768,
+  "height": 512,
+  "references": [
+    "../characters/mar-model-sheet-v1.webp",
+    "../characters/ferran-model-sheet-v1.webp"
+  ],
+  "models": [
+    "../characters/ferran-model-sheet-v1.webp"
+  ],
+  "framing": "Vinyeta inferior esquerra de la quadrícula generada.",
+  "prompt": "Produce a single landscape 3:2 image divided into a perfectly even 2×2 matrix of four independent 3:2 landscape spot illustrations. Leave ample clean white space along all four edges of each cell and around the exact central dividing lines, so each cell can be cropped separately. No visible dividing borders or printed labels. Bottom right is pure white. Fine precise ink and warm soft watercolor, paper fading into white edges. Match the two reference models only for appearance, not pose or arrangement: Mar, adult woman in olive tailored jacket and cream shirt with dark brown hair in low ponytail; Ferran, friendly elderly man with curly white hair, short white beard, dark glasses, charcoal cable-knit cardigan over green shirt. Natural expressions and everyday gestures.\nTop left: Mar seated in an anonymous covered waiting area calling on a smartphone held up to her ear with the screen away, a plain closed travel bag in the background. No keys, locks, keypad, envelope, clock, schedules, signs or vehicle visible.\nTop right: Mar speaking politely with an adult female police officer in neutral municipal uniform beside a street barrier on a generic quiet urban pavement. Empty hands, no parcel or other carried objects, no distinct shops, numbers, arrows, street signs, route, construction or visible cause of closure.\nBottom left: Ferran in a neutral modern municipal office, gesturing with an empty hand at a service counter while an unnamed adult woman in discreet navy cardigan listens. No phone, bench, photograph, visible documents, papers, maps, data or numbers.\nBottom right: leave blank white. No lettering, logos or watermarks anywhere."
+}

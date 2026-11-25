@@ -1,7 +1,7 @@
 {
   "code": "S083",
   "activity": "ca-S083",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s083-mixed-v1.mp3",
   "introFile": "s083-mixed-v1-intro.mp3",
   "bodyFile": "s083-mixed-v1-cos.mp3",
@@ -79,5 +79,20 @@
     "approvedAt": "2026-11-23",
     "sourceTakeSha256": "03bf3de27f15b5aba9ff14a132aa8107e429f63fdf0fa74f925c2ee25ef44cc3",
     "confirmation": "Docent: veus validades per pujar a muntatge."
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "confirmation": "S083: muntatge validat per publicació definitiva al traspàs docent del 25/11/2026; abast de les tretze peces confirmat pel docent en aquesta conversa.",
+    "audioSha256": "2d1e3ce79bbfd9caf13b87302e69d1f782efc39233790e0d7943b3cd0c72cd56",
+    "editorialFingerprint": "0293de87c1c12e12152a0ab9a04878911cce14a1eaf32909daa0a26da3172dbf",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/s083-publicacio-v1.jpg",
+    "illustrationSha256": "3517a1115209630dcfc95c0664a7e8886aae6c62b4f3e2da7f53e875054c6ae4",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-25",
+    "audioChanged": false
   }
 }

@@ -1,7 +1,7 @@
 {
   "code": "S105",
   "activity": "ca-S105",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s105-mixed-v1.mp3",
   "introFile": "s105-mixed-v1-intro.mp3",
   "bodyFile": "s105-mixed-v1-cos.mp3",
@@ -79,5 +79,20 @@
     "approvedAt": "2026-11-25",
     "sourceTakeSha256": "3e6f365795d6efe3af6c3ac58aafed4e91f794ec3554bc5a5dcd1e20a4b4b5cf",
     "confirmation": "Docent 25/11: S105 validat per fer muntatge."
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "confirmation": "S105: muntatge validat per publicació definitiva al traspàs docent del 25/11/2026; abast de les tretze peces confirmat pel docent en aquesta conversa.",
+    "audioSha256": "cabff8502cf492c1be171e241d5dbf8f388d24efcdbc6bea0095d55e7ead946e",
+    "editorialFingerprint": "0fdf8c01aee77f5c69430cf0657f2e03223506571db73379133d291b6b128a67",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/s105-publicacio-v1.jpg",
+    "illustrationSha256": "9666399f39742d8b2a8924a32058bcd0124b3b19e0ec0347471de1cf847d533c",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-25",
+    "audioChanged": false
   }
 }

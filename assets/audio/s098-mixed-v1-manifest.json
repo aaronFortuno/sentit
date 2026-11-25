@@ -1,0 +1,98 @@
+{
+  "code": "S098",
+  "activity": "ca-S098",
+  "state": "published",
+  "file": "s098-mixed-v1.mp3",
+  "introFile": "s098-mixed-v1-intro.mp3",
+  "bodyFile": "s098-mixed-v1-cos.mp3",
+  "offset": 3.96,
+  "bodyDuration": 70.975,
+  "fullDuration": 74.935,
+  "voices": {
+    "Laia": "Leda",
+    "Ona": "Sulafat"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "c8516a1b636a26a9ed64fa2c7c6106cf90afe153ae62018e472a7fbda49e8c1a",
+  "sourceRequestHash": "f39179722053f43a5fa62fbdc976387f943b71e84e7fa034a15c2a705fcdf38f",
+  "batch": "L33",
+  "rawSha256": "329fc261b8681a5947a2ac957ccab766625bd33da1df18538d104afabcd5273c",
+  "takeSha256": "a2c6a912ba914729c9366a11a23ede254fe589246b836f225962a15e74de81e9",
+  "coverage": 0.8416666666666667,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.46,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "vecera999-cafe-706805",
+      "start": 0,
+      "source": "assets/audio/sources/vecera999-cafe-706805.mp3",
+      "sourceSha256": "a5faa173bbc886eb77ebb5035631e56f912ceff988b8c3d8a417d887bd6dccc6",
+      "sourceUrl": "https://freesound.org/people/Vecera_999/sounds/706805/",
+      "author": "Vecera_999",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.08,
+      "openingGain": 0.16,
+      "raisedGain": 0.24,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -49.938200260161125,
+      "lowPassHz": 1800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 12,
+        "seconds": 90
+      },
+      "envelope": {
+        "riseStart": 66.7600083333333,
+        "riseEnd": 67.56000833333331,
+        "holdSeconds": 0.8149916666666854,
+        "fadeStart": 68.375,
+        "fadeEnd": 69.775
+      }
+    }
+  ],
+  "sha256": "cfd08c1dcb75297a5ff2a3e8199fb43f1aec75b38a133655384ec38b43e7f8b1",
+  "voiceHandles": {
+    "body": {
+      "start": 0.7617916666666666,
+      "end": 66.13679166666667,
+      "retainedPcmSha256": "016abb5c1817549bb92244000ab02d8893ce308d57790e3685ebbb02f1a1cc58",
+      "sourceSha256": "7d0372a36c8af4e21074e770927d266da6b3cc8ca61d06b7aacb1c20fd6ab6b2",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.04,
+      "end": 3.05,
+      "retainedPcmSha256": "9c7789b499aaa994aa15e952283cef8245a75ade32c3783d8e20dff18e47d537",
+      "sourceSha256": "9cd7eeaef8a27907570f93076a98e11dd3e60ecb16d27369dd5abe494287c932",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-25",
+    "sourceTakeSha256": "a2c6a912ba914729c9366a11a23ede254fe589246b836f225962a15e74de81e9",
+    "confirmation": "Docent 25/11: S098 validat per muntatge."
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "confirmation": "S098: muntatge validat per publicació definitiva al traspàs docent del 25/11/2026; abast de les tretze peces confirmat pel docent en aquesta conversa.",
+    "audioSha256": "cfd08c1dcb75297a5ff2a3e8199fb43f1aec75b38a133655384ec38b43e7f8b1",
+    "editorialFingerprint": "ced0567852428f0bdd1455e53d176112bdac0eb02b3e14eb1cb8a2fc50459f66",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/s098-publicacio-v1.jpg",
+    "illustrationSha256": "fd512866881d51ff2beabaac2a7344485430becb6d1ecb8fd23040ff405a21ad",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-25",
+    "audioChanged": false
+  }
+}

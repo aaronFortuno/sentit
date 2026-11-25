@@ -24,7 +24,9 @@ for (const change of ['dialogue', 'question', 'answer', 'evidence', 'cue', 'voic
   if (change === 'voices') modified.production.voices = {...modified.production.voices, Extra: 'Aoede'};
   await registerEditorialReviews([modified], {[key]: editorialReviews[key]});
   assert(!isEditoriallyReviewed(modified), `${change}: un canvi invalida la revisió`);
-  assert.equal(reviewCaption(modified, strings.ca), strings.ca.reviewInProgress);
+  // An existing synthesis incident keeps its priority banner; the editorial
+  // verification above must still reject the changed content independently.
+  assert.equal(reviewCaption(modified, strings.ca), hasPendingSynthesisEdit(modified)?strings.ca.reviewSynthesisEdit:strings.ca.reviewInProgress);
 }
 const unreviewed = structuredClone(original);
 await registerEditorialReviews([unreviewed], {});

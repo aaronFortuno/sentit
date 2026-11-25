@@ -2775,12 +2775,12 @@ export const productionProgress = {
     }
   },
   "ca-S076": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-22T18:01:27.247Z",
-    "editorialFingerprint": "f2370f29f20a57c3644fe7e9852f213e6c97158b3afc5b93e3a4fa3178acc803",
-    "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "confirmation": "S076 validada per síntesi de veus",
+    "editorialFingerprint": "618b0b24523188fa45a73f55d5466fe9029664c994674c5e26b4d8558cd513bb",
+    "plannedNewRequests": 0,
+    "listeningApproval": true,
+    "confirmation": "S076: muntatge validat per publicació definitiva al traspàs docent del 25/11/2026; abast de les tretze peces confirmat pel docent en aquesta conversa.",
     "reason": "Veus validades pel docent; muntatge autoritzat, encara pendent de la seva audició.",
     "gradingReview": {
       "status": "pending-listening",
@@ -2814,7 +2814,17 @@ export const productionProgress = {
     "synthesisBatch": "L33",
     "requestHash": "c8516a1b636a26a9ed64fa2c7c6106cf90afe153ae62018e472a7fbda49e8c1a",
     "audioSha256": "21cb3f622b54e2f5fcc981fe646821cc14ee2da84c2b9fb4f7341026506f2155",
-    "montageNewSynthesisRequests": 0
+    "montageNewSynthesisRequests": 0,
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "teacherAssessment": "Muntatge validat definitivament pel docent al traspàs confirmat. Àudio conservat sense canvis.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s076-publicacio-v1.jpg",
+      "illustrationSha256": "0d9a94be5cfc1903d761b07d5349a96ad08e91144a3887c1fec64c662577b10e",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-25",
+      "audioChanged": false
+    }
   },
   "ca-S074": {
     "state": "montage-awaiting-listening",
@@ -4098,12 +4108,12 @@ export const productionProgress = {
     }
   },
   "ca-S060": {
-    "editorialFingerprint": "93c4356933cf3407225b79f23a9b40ac40d78185ac177c5dd6a77c3c1c6bfccb",
-    "state": "montage-awaiting-listening",
+    "editorialFingerprint": "820aeb028c55194b422957bca89655931f49cdd925c569dd9a366926e5e230bd",
+    "state": "published",
     "approvedAt": "2026-11-23T09:53:37.288Z",
-    "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "confirmation": "Diàleg S060 validat per síntesi de veu, dificultat intermèdia i passadís atenuat de fons",
+    "plannedNewRequests": 0,
+    "listeningApproval": true,
+    "confirmation": "S060: muntatge validat per publicació definitiva al traspàs docent del 25/11/2026; abast de les tretze peces confirmat pel docent en aquesta conversa.",
     "reason": "Guió validat pel docent amb metadades i escaleta requalificades; pendent de lot compatible.",
     "uncertainTurns": [],
     "receivedTakes": {
@@ -4129,7 +4139,17 @@ export const productionProgress = {
     "synthesisBatch": "L31",
     "requestHash": "a60fe358a66004eba2e6b742133d7f9780780baf5a8739a3a428828c3e6fa590",
     "audioSha256": "dde3cd998bb713db155613d7d24c664c1601c2d71ce4a9230b52f4a72f0b3185",
-    "montageNewSynthesisRequests": 0
+    "montageNewSynthesisRequests": 0,
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "teacherAssessment": "Muntatge validat definitivament pel docent al traspàs confirmat. Àudio conservat sense canvis.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s060-publicacio-v1.jpg",
+      "illustrationSha256": "e7ea7998beaa871a8f4e928304818b2592221e73b6fbb774b638fb189b7f5ccf",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-25",
+      "audioChanged": false
+    }
   },
   "ca-S066": {
     "editorialFingerprint": "9faf67197254fd1dad8710cf27c885f88bd0a7f1bbe7b969f2090298fed209fe",
@@ -4720,12 +4740,12 @@ export const productionProgress = {
     }
   },
   "ca-S055": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-23",
-    "editorialFingerprint": "7ba953cb5e8e224a14843def2f977ad3519ed4031a355c3b6d9a108eba7e27ed",
-    "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "confirmation": "S055 validat per síntesi de veus",
+    "editorialFingerprint": "77e0ed4509cfbb1a77304f56987df28e4bec412fd53e15dfc2eb8a3b0ed04b16",
+    "plannedNewRequests": 0,
+    "listeningApproval": true,
+    "confirmation": "S055: muntatge validat per publicació definitiva al traspàs docent del 25/11/2026; abast de les tretze peces confirmat pel docent en aquesta conversa.",
     "reason": "Veus aprovades pel docent; pendent de muntatge amb el fons adequat.",
     "uncertainTurns": [],
     "receivedTakes": {
@@ -4751,7 +4771,17 @@ export const productionProgress = {
     "synthesisBatch": "L29",
     "requestHash": "b0a730b180a626cc040f5673c2e59704c01d046548a2b4090c0538b629495e23",
     "audioSha256": "b1795b65689244310e984442b898d8186a4fc2634d7941a6502c6b9d4ae3841a",
-    "montageNewSynthesisRequests": 0
+    "montageNewSynthesisRequests": 0,
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "teacherAssessment": "Muntatge validat definitivament pel docent al traspàs confirmat. Àudio conservat sense canvis.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s055-publicacio-v1.jpg",
+      "illustrationSha256": "d1087ad50725a1a785c90cc5785ca27ca98b5bba4115a2e74577c3eb375249a7",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-25",
+      "audioChanged": false
+    }
   },
   "ca-S071D": {
     "state": "published",
@@ -4946,11 +4976,11 @@ export const productionProgress = {
     }
   },
   "ca-S083": {
-    "state": "montage-awaiting-listening",
-    "editorialFingerprint": "05ae5519ccaa9957e1c90364fc0aa005168f5035aaaa46105b132c155678f08a",
-    "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "teacherAssessment": "Guió i escaleta validats pel docent; síntesi autoritzada dins d’un lot compatible.",
+    "state": "published",
+    "editorialFingerprint": "0293de87c1c12e12152a0ab9a04878911cce14a1eaf32909daa0a26da3172dbf",
+    "plannedNewRequests": 0,
+    "listeningApproval": true,
+    "teacherAssessment": "Muntatge validat definitivament pel docent al traspàs confirmat. Àudio conservat sense canvis.",
     "scriptApprovedAt": "2026-11-23",
     "voiceApproval": {
       "status": "approved",
@@ -4977,14 +5007,24 @@ export const productionProgress = {
     "synthesisBatch": "L29",
     "requestHash": "b0a730b180a626cc040f5673c2e59704c01d046548a2b4090c0538b629495e23",
     "audioSha256": "2d1e3ce79bbfd9caf13b87302e69d1f782efc39233790e0d7943b3cd0c72cd56",
-    "montageNewSynthesisRequests": 0
+    "montageNewSynthesisRequests": 0,
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "confirmation": "S083: muntatge validat per publicació definitiva al traspàs docent del 25/11/2026; abast de les tretze peces confirmat pel docent en aquesta conversa.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s083-publicacio-v1.jpg",
+      "illustrationSha256": "3517a1115209630dcfc95c0664a7e8886aae6c62b4f3e2da7f53e875054c6ae4",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-25",
+      "audioChanged": false
+    }
   },
   "ca-S084": {
-    "state": "montage-awaiting-listening",
-    "editorialFingerprint": "99d3bfc103bcb45f91853e6cf8f8afd1f7cd4094911f4757db2b30bf1105de27",
-    "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "teacherAssessment": "Guió i escaleta validats pel docent; síntesi autoritzada dins d’un lot compatible.",
+    "state": "published",
+    "editorialFingerprint": "ee3de8c8c0bb2703d332dd7e2b09224855f9467421ece0220ba0a260a787d5e9",
+    "plannedNewRequests": 0,
+    "listeningApproval": true,
+    "teacherAssessment": "Muntatge validat definitivament pel docent al traspàs confirmat. Àudio conservat sense canvis.",
     "scriptApprovedAt": "2026-11-23",
     "voiceApproval": {
       "status": "approved",
@@ -5011,7 +5051,17 @@ export const productionProgress = {
     "synthesisBatch": "L29",
     "requestHash": "b0a730b180a626cc040f5673c2e59704c01d046548a2b4090c0538b629495e23",
     "audioSha256": "1aed42a43867c9d73ac9968da3670084d9941699f41d33acdfb95dc693de9426",
-    "montageNewSynthesisRequests": 0
+    "montageNewSynthesisRequests": 0,
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "confirmation": "S084: muntatge validat per publicació definitiva al traspàs docent del 25/11/2026; abast de les tretze peces confirmat pel docent en aquesta conversa.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s084-publicacio-v1.jpg",
+      "illustrationSha256": "ecf458b102a53086e5ac9afaadeb459107ec329f59c748b0398bbf11d2ebc187",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-25",
+      "audioChanged": false
+    }
   },
   "ca-S085": {
     "state": "audio-corrections-pending",
@@ -5065,11 +5115,11 @@ export const productionProgress = {
     }
   },
   "ca-S086": {
-    "state": "montage-awaiting-listening",
-    "editorialFingerprint": "6429d0540cb2fcf37299676173406b20640f592d38d18c0c1a044b9d4453109c",
-    "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "teacherAssessment": "Guió i escaleta validats pel docent; síntesi autoritzada dins d’un lot compatible.",
+    "state": "published",
+    "editorialFingerprint": "79f17c46e76b0e72df66da9857a25b43af16337d5029fd47b57830760e95fa67",
+    "plannedNewRequests": 0,
+    "listeningApproval": true,
+    "teacherAssessment": "Muntatge validat definitivament pel docent al traspàs confirmat. Àudio conservat sense canvis.",
     "scriptApprovedAt": "2026-11-23",
     "voiceApproval": {
       "status": "approved",
@@ -5096,7 +5146,17 @@ export const productionProgress = {
     "synthesisBatch": "L35",
     "requestHash": "2e429c977e701ef1f63c2570d8f4ce02143fc47e4241bb11ee74e0760f029f2e",
     "audioSha256": "a77516edc14105890484c21e0a4dbb06ff182396966232841f9c12229367b900",
-    "montageNewSynthesisRequests": 0
+    "montageNewSynthesisRequests": 0,
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "confirmation": "S086: muntatge validat per publicació definitiva al traspàs docent del 25/11/2026; abast de les tretze peces confirmat pel docent en aquesta conversa.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s086-publicacio-v1.jpg",
+      "illustrationSha256": "c0defcc6b1920c927ec234c2deea0f2035cba5e8a6cae6031f473864236f1165",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-25",
+      "audioChanged": false
+    }
   },
   "ca-S087": {
     "state": "montage-awaiting-listening",
@@ -5237,11 +5297,11 @@ export const productionProgress = {
     }
   },
   "ca-S091": {
-    "state": "montage-awaiting-listening",
-    "editorialFingerprint": "2fabfd886680c27149b3928e8024e32062e652dec3a7714a2e17e6298a41c9db",
-    "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "teacherAssessment": "Guió, preguntes i escaleta validats pel docent; preparar un lot compatible.",
+    "state": "published",
+    "editorialFingerprint": "ca43f9ee5ce043395b4735f5ec163374ced1628b3981d35843a7113398ae7d76",
+    "plannedNewRequests": 0,
+    "listeningApproval": true,
+    "teacherAssessment": "Muntatge validat definitivament pel docent al traspàs confirmat. Àudio conservat sense canvis.",
     "scriptApprovedAt": "2026-11-23",
     "voiceApproval": {
       "status": "approved",
@@ -5267,14 +5327,24 @@ export const productionProgress = {
     "synthesisBatch": "L31",
     "requestHash": "a60fe358a66004eba2e6b742133d7f9780780baf5a8739a3a428828c3e6fa590",
     "audioSha256": "8b3c96aaa58f393482a14a2824d21d6f31aaed049d8c031d1ff63e34ae92df87",
-    "montageNewSynthesisRequests": 0
+    "montageNewSynthesisRequests": 0,
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "confirmation": "S091: muntatge validat per publicació definitiva al traspàs docent del 25/11/2026; abast de les tretze peces confirmat pel docent en aquesta conversa.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s091-publicacio-v1.jpg",
+      "illustrationSha256": "48e0fd9abffbae8862dff0f16145a1c61569edd4f070591dfd079cfe92c78d4d",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-25",
+      "audioChanged": false
+    }
   },
   "ca-S092": {
-    "state": "montage-awaiting-listening",
-    "editorialFingerprint": "11b0bd1b2e67bd7b04a2075835163bd91cb3517aeb2e0cf94343bef968707cd3",
-    "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "teacherAssessment": "Guió, veus i escaleta validats pel docent; preparar un lot compatible de síntesi.",
+    "state": "published",
+    "editorialFingerprint": "84d6f3b9df031f340ed262324879778cb46a051137a6263482a677f907dc1f3c",
+    "plannedNewRequests": 0,
+    "listeningApproval": true,
+    "teacherAssessment": "Muntatge validat definitivament pel docent al traspàs confirmat. Àudio conservat sense canvis.",
     "scriptApprovedAt": "2026-11-24",
     "voiceApproval": {
       "status": "approved",
@@ -5301,7 +5371,17 @@ export const productionProgress = {
     "synthesisBatch": "L35",
     "requestHash": "2e429c977e701ef1f63c2570d8f4ce02143fc47e4241bb11ee74e0760f029f2e",
     "audioSha256": "4c3a936d601dca61ac3b36de520dec51842a55df1bc524ba87555534034b720f",
-    "montageNewSynthesisRequests": 0
+    "montageNewSynthesisRequests": 0,
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "confirmation": "S092: muntatge validat per publicació definitiva al traspàs docent del 25/11/2026; abast de les tretze peces confirmat pel docent en aquesta conversa.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s092-publicacio-v1.jpg",
+      "illustrationSha256": "139a1f901bf177f411a7d9941b4ae5c05eb47d23fa5fa208918b85a183219696",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-25",
+      "audioChanged": false
+    }
   },
   "ca-S093": {
     "state": "audio-corrections-pending",
@@ -5433,11 +5513,11 @@ export const productionProgress = {
     }
   },
   "ca-S096": {
-    "state": "montage-awaiting-listening",
-    "editorialFingerprint": "9cbd79ad4c19b402774c2ca1e069c6768691e98aefc4646b3e38284fb618c1fa",
-    "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "teacherAssessment": "Guió, veus i escaleta validats pel docent; preparar un lot compatible de síntesi.",
+    "state": "published",
+    "editorialFingerprint": "aff0cd6efccee69c7c2024d4c5bbe031b8b3b92b96ff80f1a429066bfe72dad9",
+    "plannedNewRequests": 0,
+    "listeningApproval": true,
+    "teacherAssessment": "Muntatge validat definitivament pel docent al traspàs confirmat. Àudio conservat sense canvis.",
     "scriptApprovedAt": "2026-11-24",
     "voiceApproval": {
       "status": "approved",
@@ -5464,7 +5544,17 @@ export const productionProgress = {
     "synthesisBatch": "L34",
     "requestHash": "aef37a3e56d6a4126206a0905030aad2bc53160804678de652431febf809e7e6",
     "audioSha256": "c3243edc78fb5c229c855e4f6d653a2cb90ef04f38f291430c59d950b17f3382",
-    "montageNewSynthesisRequests": 0
+    "montageNewSynthesisRequests": 0,
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "confirmation": "S096: muntatge validat per publicació definitiva al traspàs docent del 25/11/2026; abast de les tretze peces confirmat pel docent en aquesta conversa.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s096-publicacio-v1.jpg",
+      "illustrationSha256": "724cd2d25115a848161b49176d6b7290d8f79cc3d01451f4b0435c8387953d08",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-25",
+      "audioChanged": false
+    }
   },
   "ca-S097": {
     "state": "montage-awaiting-listening",
@@ -5628,11 +5718,11 @@ export const productionProgress = {
     }
   },
   "ca-S098": {
-    "state": "montage-awaiting-listening",
-    "editorialFingerprint": "f2abb16bda23217d85c50238ee46efc72b68e9f901f6601eca5a482c9cdc9a19",
-    "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "teacherAssessment": "Guió, veus i escaleta validats pel docent; preparar un lot compatible de síntesi.",
+    "state": "published",
+    "editorialFingerprint": "ced0567852428f0bdd1455e53d176112bdac0eb02b3e14eb1cb8a2fc50459f66",
+    "plannedNewRequests": 0,
+    "listeningApproval": true,
+    "teacherAssessment": "Muntatge validat definitivament pel docent al traspàs confirmat. Àudio conservat sense canvis.",
     "scriptApprovedAt": "2026-11-24",
     "voiceApproval": {
       "status": "approved",
@@ -5659,7 +5749,17 @@ export const productionProgress = {
     "synthesisBatch": "L33",
     "requestHash": "c8516a1b636a26a9ed64fa2c7c6106cf90afe153ae62018e472a7fbda49e8c1a",
     "audioSha256": "cfd08c1dcb75297a5ff2a3e8199fb43f1aec75b38a133655384ec38b43e7f8b1",
-    "montageNewSynthesisRequests": 0
+    "montageNewSynthesisRequests": 0,
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "confirmation": "S098: muntatge validat per publicació definitiva al traspàs docent del 25/11/2026; abast de les tretze peces confirmat pel docent en aquesta conversa.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s098-publicacio-v1.jpg",
+      "illustrationSha256": "fd512866881d51ff2beabaac2a7344485430becb6d1ecb8fd23040ff405a21ad",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-25",
+      "audioChanged": false
+    }
   },
   "ca-S099": {
     "state": "voices-received",
@@ -5720,11 +5820,11 @@ export const productionProgress = {
     "montageNewSynthesisRequests": 0
   },
   "ca-S101": {
-    "state": "montage-awaiting-listening",
-    "editorialFingerprint": "e23899434e24340fb28223053b02d46e441f709fcdfb328604525b3b422fda63",
-    "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "teacherAssessment": "Guió, veus i escaleta validats pel docent; preparar un lot compatible de síntesi.",
+    "state": "published",
+    "editorialFingerprint": "cdf204ed1c0182c8af94100baf82f2538d0eaa054ded80b9681aa0ae9a9186cd",
+    "plannedNewRequests": 0,
+    "listeningApproval": true,
+    "teacherAssessment": "Muntatge validat definitivament pel docent al traspàs confirmat. Àudio conservat sense canvis.",
     "scriptApprovedAt": "2026-11-24",
     "voiceApproval": {
       "status": "approved",
@@ -5751,7 +5851,17 @@ export const productionProgress = {
     "synthesisBatch": "L32",
     "requestHash": "a38715e579b55a270d1e2b0f493b471ebe0f7ed700681aceec1aadfd202a5f75",
     "audioSha256": "b1638ccdb7f41995f5621fb3989d4a214cd23416e2841e7d55fc6af52312491b",
-    "montageNewSynthesisRequests": 0
+    "montageNewSynthesisRequests": 0,
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "confirmation": "S101: muntatge validat per publicació definitiva al traspàs docent del 25/11/2026; abast de les tretze peces confirmat pel docent en aquesta conversa.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s101-publicacio-v1.jpg",
+      "illustrationSha256": "70103b4ba0ef40d53d7b780ea60cf7843020107758721e5b5802429ab639d95b",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-25",
+      "audioChanged": false
+    }
   },
   "ca-S102": {
     "state": "audio-corrections-pending",
@@ -5812,11 +5922,11 @@ export const productionProgress = {
     }
   },
   "ca-S103": {
-    "state": "montage-awaiting-listening",
-    "editorialFingerprint": "133bb89519625af8fec6ec11510fde1bba5131ea8f7b04cf9f0ce0dc2f2a935f",
-    "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "teacherAssessment": "Guió, veus i escaleta validats pel docent; preparar un lot compatible de síntesi.",
+    "state": "published",
+    "editorialFingerprint": "6738f1d698a1472ae29b51a295f4eac043937fdf73ca3a93cf6c6fa2b618737b",
+    "plannedNewRequests": 0,
+    "listeningApproval": true,
+    "teacherAssessment": "Muntatge validat definitivament pel docent al traspàs confirmat. Àudio conservat sense canvis.",
     "scriptApprovedAt": "2026-11-24",
     "voiceApproval": {
       "status": "approved",
@@ -5843,7 +5953,17 @@ export const productionProgress = {
     "synthesisBatch": "L33",
     "requestHash": "c8516a1b636a26a9ed64fa2c7c6106cf90afe153ae62018e472a7fbda49e8c1a",
     "audioSha256": "116ef06febb8f9f2c70a34be15c5eb6f194f20f5175ed5bdbaa0109fc12921b2",
-    "montageNewSynthesisRequests": 0
+    "montageNewSynthesisRequests": 0,
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "confirmation": "S103: muntatge validat per publicació definitiva al traspàs docent del 25/11/2026; abast de les tretze peces confirmat pel docent en aquesta conversa.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s103-publicacio-v1.jpg",
+      "illustrationSha256": "3765d18aeb82bf3d2194fc88d5e96e9fa8903a892377cc6132e6d3a0864888d5",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-25",
+      "audioChanged": false
+    }
   },
   "ca-S104": {
     "state": "montage-awaiting-listening",
@@ -5880,11 +6000,11 @@ export const productionProgress = {
     "montageNewSynthesisRequests": 0
   },
   "ca-S105": {
-    "state": "montage-awaiting-listening",
-    "editorialFingerprint": "3cb9bf954dcd95248a165d289e6249c328faecf945c2a589a8e36fed0ad33b60",
-    "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "teacherAssessment": "Guió, veus i escaleta validats pel docent; preparar un lot compatible de síntesi.",
+    "state": "published",
+    "editorialFingerprint": "0fdf8c01aee77f5c69430cf0657f2e03223506571db73379133d291b6b128a67",
+    "plannedNewRequests": 0,
+    "listeningApproval": true,
+    "teacherAssessment": "Muntatge validat definitivament pel docent al traspàs confirmat. Àudio conservat sense canvis.",
     "scriptApprovedAt": "2026-11-24",
     "voiceApproval": {
       "status": "approved",
@@ -5911,7 +6031,17 @@ export const productionProgress = {
     "synthesisBatch": "L36",
     "requestHash": "8176fbf46265f9e3a131fc1725426c5d108483d7613cc38bbddfc69c9e425901",
     "audioSha256": "cabff8502cf492c1be171e241d5dbf8f388d24efcdbc6bea0095d55e7ead946e",
-    "montageNewSynthesisRequests": 0
+    "montageNewSynthesisRequests": 0,
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "confirmation": "S105: muntatge validat per publicació definitiva al traspàs docent del 25/11/2026; abast de les tretze peces confirmat pel docent en aquesta conversa.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s105-publicacio-v1.jpg",
+      "illustrationSha256": "9666399f39742d8b2a8924a32058bcd0124b3b19e0ec0347471de1cf847d533c",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-25",
+      "audioChanged": false
+    }
   },
   "ca-S106": {
     "state": "montage-awaiting-listening",

@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-25",
+  "tool": "image_gen built-in",
+  "code": "S083",
+  "file": "s083-publicacio-v1.jpg",
+  "alt": "La Mar i la Núria se saluden en una vorera arbrada.",
+  "width": 768,
+  "height": 512,
+  "references": [
+    "../characters/mar-model-sheet-v1.webp"
+  ],
+  "models": [
+    "../characters/mar-model-sheet-v1.webp"
+  ],
+  "framing": "Vinyeta superior dreta de la quadrícula generada.",
+  "prompt": "Create a landscape 3:2 canvas containing four separate landscape 3:2 spot illustrations in a precise 2-by-2 grid with midlines at exactly 50% width and 50% height. Artwork in each cell stays INSIDE its cell with a generous blank white buffer along every edge, including grid central seams. No stripes, visible panel borders, writing, numerals, logos, or watermarks. Fine line ink and softly textured muted watercolor, warm paper fading into pure white around each independent composition. Three-quarter figures and natural everyday expressions legible at small print sizes. Match the recurring Mar exactly to the provided character sheet: olive-green tailored jacket over a cream shirt, brown tied-back hair, brown eyes, adult Catalan woman. Use the references for character appearance and style only. Occasional characters must be distinguishable by hair and clothes. Never depict a prop or detail excluded below.\nTOP LEFT, Mar in a small neighborhood exhibition venue, holding a reporter microphone loosely by her side and tilting her head toward a distant nondescript blank exhibition wall. Architectural doorway and plain wall; absolutely no posters, documents, newspaper, recognisable photographs, captions or film titles.\nTOP RIGHT, Mar greeting a distinct adult friend with curly dark hair and a rust-colored scarf on an anonymous quiet sidewalk, both hands visible gesturing greeting. No bags, signs, calendar, clock, identifiable shops or food.\nBOTTOM LEFT, Mar gestures politely to an adult stationery-shop assistant across a wood counter, background shelves suggested as soft abstract colored blocks. No book, gift parcel, specific paper pattern, box, choice, or sheets prominently shown.\nBOTTOM RIGHT, Mar speaks with a baker in a plain oat linen apron across a bakery counter, a warm oven glow and a blurred generic shelving backdrop. Keep both hands and the counter empty. No identifiable bread shapes, neither cutting nor wrapping, no bags, slices or countable items."
+}

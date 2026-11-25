@@ -7,7 +7,7 @@ const root = path.resolve(__dirname, '..');
 const types = {
   '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8',
   '.js': 'text/javascript; charset=utf-8', '.svg': 'image/svg+xml',
-  '.png': 'image/png', '.webp': 'image/webp', '.mp3': 'audio/mpeg', '.md': 'text/plain; charset=utf-8',
+  '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.webp': 'image/webp', '.mp3': 'audio/mpeg', '.md': 'text/plain; charset=utf-8',
 };
 const port = Number(process.env.SENTIT_PORT || 4231);
 

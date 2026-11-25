@@ -37,7 +37,8 @@ export const dailyLaiaBiel = [
   }),
   dailyProposal({
     id: 'el-berenar-ben-pla', code: 'S091', title: 'El berenar ben pla', grade: '3', level: 'easy', genre: 'dialogue',
-    seconds: 75, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s091-publicacio-v1.jpg","alt":"La Laia i en Biel seuen en un banc del parc i miren una motxilla.","width":768,"height":512},
+    seconds: 75, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s091-mixed-v1.mp3', tracks: { introduction: './assets/audio/s091-mixed-v1-intro.mp3', body: './assets/audio/s091-mixed-v1-cos.mp3' },
     fragment: { start: 4.0200000000000005, seconds: 70 },
     voices: { Laia: 'Leda', Biel: 'Puck' }, delivery,

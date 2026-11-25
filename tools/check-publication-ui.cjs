@@ -16,7 +16,7 @@ const {chromium}=require('C:/Users/afortun8/.cache/codex-runtimes/codex-primary-
    const entry=activities.find(e=>e.code===code);assert.equal(entry.reviewStatus,'validated');const image=imageOptions(entry);assert(image.visible);assert.equal(image.width,80);assert.equal(image.position,'right');
    assert.deepEqual(reviewScript(entry,strings.ca).slice(1),entry.transcript.filter(p=>p.speaker&&!p.kind));
    await page.goto(base+'#lectura=ca-'+code);await page.waitForFunction(c=>document.querySelector('#activity-select')?.selectedOptions[0]?.textContent.startsWith(c),code);await page.locator('#workspace').waitFor({state:'visible'});await page.locator('.paper-illustration img').first().waitFor();
-   await page.waitForFunction(()=>[...document.querySelectorAll('.paper-illustration img')].every(i=>i.complete&&i.naturalWidth===1536));
+   await page.waitForFunction(size=>[...document.querySelectorAll('.paper-illustration img')].every(i=>i.complete&&i.naturalWidth===size.width&&i.naturalHeight===size.height),{width:entry.image.width,height:entry.image.height});
    assert.equal(await page.locator('.paper-review-watermark').count(),0);assert.equal(await page.locator('.paper-illustration').first().evaluate(n=>n.style.inlineSize),'80mm');
    assert(await page.locator('.paper-flow-image.image-right').count()>0);if(only)await page.screenshot({path:path.join(output,code+'-worksheet.png')});await page.locator('#answers-mode').click();
    assert.equal(await page.locator('.paper-direction,.paper-sound-cue,.paper-take,.paper-local-cut').count(),0);

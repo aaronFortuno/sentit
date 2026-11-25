@@ -1,6 +1,6 @@
 # Comprensions finalitzades
 
-Actualitzat: **25/11/2026**. **68 publicacions definitives**. Aquest registre conserva les peces que han sortit de la [taula de pendents](seguiment-produccio.md). Les variants es validen per separat.
+Actualitzat: **25/11/2026**. **81 publicacions definitives**. Aquest registre conserva les peces que han sortit de la [taula de pendents](seguiment-produccio.md). Les variants es validen per separat.
 
 | Codi | Títol | Curs | Dificultat · tipologia | Fragment | Validació definitiva |
 | --- | --- | --- | --- | --- | --- |
@@ -53,7 +53,9 @@ Actualitzat: **25/11/2026**. **68 publicacions definitives**. Aquest registre co
 | [ca-S052](https://sentit.ortogra.fi/#lectura=ca-S052) | La capsa que semblava un llibre | 4t | Intermèdia · Entrevista | 1:47 | 2026-11-23 |
 | [ca-S053](https://sentit.ortogra.fi/#lectura=ca-S053) | La pista torna a obrir al vespre | 5è | Accessible · Notícia | 1:36 | 2026-11-23 |
 | [ca-S054](https://sentit.ortogra.fi/#lectura=ca-S054) | Una finestra per recollir els encàrrecs | 5è | Intermèdia · Notícia | 1:39 | 2026-11-23 |
+| [ca-S055](https://sentit.ortogra.fi/#lectura=ca-S055) | Els cartells de cinema tornen al barri | 6è | Accessible · Notícia | 1:46 | 2026-11-25 |
 | [ca-S057](https://sentit.ortogra.fi/#lectura=ca-S057) | La volta nova del bus de dissabte | 6è | Avançada · Notícia | 2:31 | 2026-11-23 |
+| [ca-S060](https://sentit.ortogra.fi/#lectura=ca-S060) | Un soroll darrere de les veus | 6è | Intermèdia · Diàleg | 1:36 | 2026-11-25 |
 | [ca-S062](https://sentit.ortogra.fi/#lectura=ca-S062) | Dos cartells per al mateix concert | 6è | Avançada · Diàleg | 2:14 | 2026-11-23 |
 | [ca-S063](https://sentit.ortogra.fi/#lectura=ca-S063) | El pont de paper es doblega | 5è | Accessible · Explicació | 1:53 | 2026-11-23 |
 | [ca-S064](https://sentit.ortogra.fi/#lectura=ca-S064) | Un anunci que va massa de pressa | 5è | Intermèdia · Instruccions | 1:40 | 2026-11-23 |
@@ -67,11 +69,22 @@ Actualitzat: **25/11/2026**. **68 publicacions definitives**. Aquest registre co
 | [ca-S071D](https://sentit.ortogra.fi/#lectura=ca-S071D) | Les dues entrades blaves · versió dialogada | 5è | Avançada · Narració | 3:01 | 2026-11-23 |
 | [ca-S073](https://sentit.ortogra.fi/#lectura=ca-S073) | El dinar que surt en dues tandes | 5è | Accessible · Diàleg | 1:44 | 2026-11-23 |
 | [ca-S075](https://sentit.ortogra.fi/#lectura=ca-S075) | La foto del plat de demà | 6è | Accessible · Entrevista | 1:42 | 2026-11-23 |
+| [ca-S076](https://sentit.ortogra.fi/#lectura=ca-S076) | L’encàrrec que havia crescut | 5è | Avançada · Diàleg | 2:39 | 2026-11-25 |
 | [ca-S077](https://sentit.ortogra.fi/#lectura=ca-S077) | El sopar que havia de viatjar | 6è | Avançada · Diàleg | 2:33 | 2026-11-23 |
 | [ca-S078](https://sentit.ortogra.fi/#lectura=ca-S078) | El soroll que seguia la cadira | 5è | Accessible · Diàleg | 1:39 | 2026-11-23 |
 | [ca-S079](https://sentit.ortogra.fi/#lectura=ca-S079) | Una funda que no tanca | 5è | Intermèdia · Diàleg | 1:45 | 2026-11-23 |
 | [ca-S080](https://sentit.ortogra.fi/#lectura=ca-S080) | El segon assaig sona lluny | 6è | Accessible · Diàleg | 1:50 | 2026-11-23 |
 | [ca-S082](https://sentit.ortogra.fi/#lectura=ca-S082) | El so que volíem gravar | 6è | Avançada · Diàleg | 2:43 | 2026-11-23 |
+| [ca-S083](https://sentit.ortogra.fi/#lectura=ca-S083) | Quant de temps, Núria! | 4t | Accessible · Diàleg | 1:16 | 2026-11-25 |
+| [ca-S084](https://sentit.ortogra.fi/#lectura=ca-S084) | Paper de regal | 3r | Accessible · Diàleg | 1:08 | 2026-11-25 |
+| [ca-S086](https://sentit.ortogra.fi/#lectura=ca-S086) | El pa per al sopar | 3r | Accessible · Diàleg | 1:06 | 2026-11-25 |
+| [ca-S091](https://sentit.ortogra.fi/#lectura=ca-S091) | El berenar ben pla | 3r | Accessible · Diàleg | 1:10 | 2026-11-25 |
+| [ca-S092](https://sentit.ortogra.fi/#lectura=ca-S092) | El carrer està tallat | 5è | Intermèdia · Diàleg | 1:19 | 2026-11-25 |
+| [ca-S096](https://sentit.ortogra.fi/#lectura=ca-S096) | El banc de la placeta | 6è | Intermèdia · Diàleg | 1:40 | 2026-11-25 |
+| [ca-S098](https://sentit.ortogra.fi/#lectura=ca-S098) | El tiquet d’una altra taula | 5è | Intermèdia · Diàleg | 1:11 | 2026-11-25 |
+| [ca-S101](https://sentit.ortogra.fi/#lectura=ca-S101) | Arribarem quan la recepció sigui tancada | 6è | Intermèdia · Diàleg | 1:33 | 2026-11-25 |
+| [ca-S103](https://sentit.ortogra.fi/#lectura=ca-S103) | Canvi a la reserva de dissabte | 5è | Intermèdia · Diàleg | 1:15 | 2026-11-25 |
+| [ca-S105](https://sentit.ortogra.fi/#lectura=ca-S105) | El faristol que ballava | 4t | Intermèdia · Diàleg | 1:19 | 2026-11-25 |
 
 Les aprovacions estan vinculades al guió i al màster exactes al [registre de producció](../content/production-progress.js). No es concedeix cap aprovació per regenerar aquest document.
 

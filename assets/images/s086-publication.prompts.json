@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-25",
+  "tool": "image_gen built-in",
+  "code": "S086",
+  "file": "s086-publicacio-v1.jpg",
+  "alt": "La Mar parla amb la fornera davant del taulell d’un forn.",
+  "width": 768,
+  "height": 512,
+  "references": [
+    "../characters/mar-model-sheet-v1.webp"
+  ],
+  "models": [
+    "../characters/mar-model-sheet-v1.webp"
+  ],
+  "framing": "Imatge única.",
+  "prompt": "Single 3:2 landscape watercolor and fine ink illustration for Catalan school audio worksheet. Match the reference character Mar, adult woman with brown hair tied back and a green jacket over a cream shirt; use the sheet only for appearance and style. In a warm small bakery with a distant softly blurred old oven, Mar speaks to a friendly clearly female baker, a middle-aged woman with short silver hair, rolled-up sleeves and plain oat linen apron. The baker rests one hand on the blank counter as she listens. Natural conversation and welcoming expression, empty hands and no objects on the counter. Use gentle neutral earthy colors, muted olive and warm off-white, blank white edges. Nothing that reveals the dialogue: no bags, food, bread shapes, cutting, paper, slices, packaging, countable items, text, prices, logos or watermark."
+}

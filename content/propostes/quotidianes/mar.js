@@ -8,7 +8,8 @@ const shop = 'Ambient enregistrat real de botiga tranquil·la, tènue sota tota 
 export const dailyMar = [
   dailyProposal({
     id: 'quant-de-temps-nuria', code: 'S083', title: 'Quant de temps, Núria!', grade: '4', level: 'easy', genre: 'dialogue',
-    seconds: 81, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s083-publicacio-v1.jpg","alt":"La Mar i la Núria se saluden en una vorera arbrada.","width":768,"height":512},
+    seconds: 81, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s083-mixed-v1.mp3', tracks: { introduction: './assets/audio/s083-mixed-v1-intro.mp3', body: './assets/audio/s083-mixed-v1-cos.mp3' },
     fragment: { start: 4.53, seconds: 76 },
     voices: { Mar: 'Erinome', Núria: 'Callirrhoe' }, guestSpeakers: [{ name: 'Núria', voice: 'Callirrhoe', role: 'Amiga de la Mar · ocasional' }], delivery,
@@ -42,7 +43,8 @@ export const dailyMar = [
   }),
   dailyProposal({
     id: 'el-paper-per-al-regal', code: 'S084', title: 'Paper de regal', grade: '3', level: 'easy', genre: 'dialogue',
-    seconds: 73, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s084-publicacio-v1.jpg","alt":"La Mar conversa amb la dependenta al taulell d’una papereria.","width":768,"height":512},
+    seconds: 73, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s084-mixed-v1.mp3', tracks: { introduction: './assets/audio/s084-mixed-v1-intro.mp3', body: './assets/audio/s084-mixed-v1-cos.mp3' },
     fragment: { start: 4.03, seconds: 68 },
     voices: { Mar: 'Erinome', Dependenta: 'Callirrhoe' }, guestSpeakers: [{ name: 'Dependenta', voice: 'Callirrhoe', role: 'Dependenta de papereria · ocasional' }], delivery,
@@ -104,7 +106,8 @@ export const dailyMar = [
   }),
   dailyProposal({
     id: 'el-pa-per-al-sopar', code: 'S086', title: 'El pa per al sopar', grade: '3', level: 'easy', genre: 'dialogue',
-    seconds: 71, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s086-publicacio-v1.jpg","alt":"La Mar parla amb la fornera davant del taulell d’un forn.","width":768,"height":512},
+    seconds: 71, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s086-mixed-v1.mp3', tracks: { introduction: './assets/audio/s086-mixed-v1-intro.mp3', body: './assets/audio/s086-mixed-v1-cos.mp3' },
     fragment: { start: 3.96, seconds: 66 },
     voices: { Mar: 'Erinome', Fornera: 'Despina' }, guestSpeakers: [{ name: 'Fornera', voice: 'Despina', role: 'Fornera del barri · ocasional' }], delivery,

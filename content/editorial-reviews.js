@@ -357,9 +357,9 @@ export const editorialReviews = {
   },
   "ca-S055": {
     "status": "passed",
-    "reviewedAt": "2026-11-22",
-    "reviewer": "autoria_tanda4_aula_records",
-    "fingerprint": "7ba953cb5e8e224a14843def2f977ad3519ed4031a355c3b6d9a108eba7e27ed"
+    "reviewedAt": "2026-11-25",
+    "reviewer": "revisio_traspas_publicacio_a",
+    "fingerprint": "77e0ed4509cfbb1a77304f56987df28e4bec412fd53e15dfc2eb8a3b0ed04b16"
   },
   "ca-S056": {
     "status": "passed",
@@ -387,9 +387,9 @@ export const editorialReviews = {
   },
   "ca-S060": {
     "status": "passed",
-    "reviewedAt": "2026-11-23",
-    "reviewer": "revisio_tancament_s042",
-    "fingerprint": "93c4356933cf3407225b79f23a9b40ac40d78185ac177c5dd6a77c3c1c6bfccb"
+    "reviewedAt": "2026-11-25",
+    "reviewer": "revisio_traspas_publicacio_a",
+    "fingerprint": "820aeb028c55194b422957bca89655931f49cdd925c569dd9a366926e5e230bd"
   },
   "ca-S061": {
     "status": "passed",
@@ -501,9 +501,9 @@ export const editorialReviews = {
   },
   "ca-S076": {
     "status": "passed",
-    "reviewedAt": "2026-11-22",
-    "reviewer": "autoria_tanda4_noticies_troballes",
-    "fingerprint": "f2370f29f20a57c3644fe7e9852f213e6c97158b3afc5b93e3a4fa3178acc803"
+    "reviewedAt": "2026-11-25",
+    "reviewer": "revisio_traspas_publicacio_a",
+    "fingerprint": "618b0b24523188fa45a73f55d5466fe9029664c994674c5e26b4d8558cd513bb"
   },
   "ca-S077": {
     "status": "passed",
@@ -543,15 +543,15 @@ export const editorialReviews = {
   },
   "ca-S083": {
     "status": "passed",
-    "reviewedAt": "2026-11-23",
-    "reviewer": "revisio_tancament_s027",
-    "fingerprint": "05ae5519ccaa9957e1c90364fc0aa005168f5035aaaa46105b132c155678f08a"
+    "reviewedAt": "2026-11-25",
+    "reviewer": "revisio_traspas_publicacio_a",
+    "fingerprint": "0293de87c1c12e12152a0ab9a04878911cce14a1eaf32909daa0a26da3172dbf"
   },
   "ca-S084": {
     "status": "passed",
-    "reviewedAt": "2026-11-23",
-    "reviewer": "revisio_tancament_s027",
-    "fingerprint": "99d3bfc103bcb45f91853e6cf8f8afd1f7cd4094911f4757db2b30bf1105de27"
+    "reviewedAt": "2026-11-25",
+    "reviewer": "revisio_traspas_publicacio_a",
+    "fingerprint": "ee3de8c8c0bb2703d332dd7e2b09224855f9467421ece0220ba0a260a787d5e9"
   },
   "ca-S085": {
     "status": "passed",
@@ -561,9 +561,9 @@ export const editorialReviews = {
   },
   "ca-S086": {
     "status": "passed",
-    "reviewedAt": "2026-11-23",
-    "reviewer": "revisio_tancament_s027",
-    "fingerprint": "6429d0540cb2fcf37299676173406b20640f592d38d18c0c1a044b9d4453109c"
+    "reviewedAt": "2026-11-25",
+    "reviewer": "revisio_traspas_publicacio_a",
+    "fingerprint": "79f17c46e76b0e72df66da9857a25b43af16337d5029fd47b57830760e95fa67"
   },
   "ca-S087": {
     "status": "passed",
@@ -591,15 +591,15 @@ export const editorialReviews = {
   },
   "ca-S091": {
     "status": "passed",
-    "reviewedAt": "2026-11-23",
-    "reviewer": "revisio_tancament_s027",
-    "fingerprint": "2fabfd886680c27149b3928e8024e32062e652dec3a7714a2e17e6298a41c9db"
+    "reviewedAt": "2026-11-25",
+    "reviewer": "revisio_traspas_publicacio_b",
+    "fingerprint": "ca43f9ee5ce043395b4735f5ec163374ced1628b3981d35843a7113398ae7d76"
   },
   "ca-S092": {
     "status": "passed",
-    "reviewedAt": "2026-11-24",
-    "reviewer": "revisio_tancament_s027",
-    "fingerprint": "11b0bd1b2e67bd7b04a2075835163bd91cb3517aeb2e0cf94343bef968707cd3"
+    "reviewedAt": "2026-11-25",
+    "reviewer": "revisio_traspas_publicacio_b",
+    "fingerprint": "84d6f3b9df031f340ed262324879778cb46a051137a6263482a677f907dc1f3c"
   },
   "ca-S093": {
     "status": "passed",
@@ -621,9 +621,9 @@ export const editorialReviews = {
   },
   "ca-S096": {
     "status": "passed",
-    "reviewedAt": "2026-11-23",
-    "reviewer": "revisio_tancament_s027",
-    "fingerprint": "9cbd79ad4c19b402774c2ca1e069c6768691e98aefc4646b3e38284fb618c1fa"
+    "reviewedAt": "2026-11-25",
+    "reviewer": "revisio_traspas_publicacio_b",
+    "fingerprint": "aff0cd6efccee69c7c2024d4c5bbe031b8b3b92b96ff80f1a429066bfe72dad9"
   },
   "ca-S097": {
     "status": "passed",
@@ -633,9 +633,9 @@ export const editorialReviews = {
   },
   "ca-S098": {
     "status": "passed",
-    "reviewedAt": "2026-11-23",
-    "reviewer": "auditoria_registre_pendents",
-    "fingerprint": "f2abb16bda23217d85c50238ee46efc72b68e9f901f6601eca5a482c9cdc9a19"
+    "reviewedAt": "2026-11-25",
+    "reviewer": "revisio_traspas_publicacio_b",
+    "fingerprint": "ced0567852428f0bdd1455e53d176112bdac0eb02b3e14eb1cb8a2fc50459f66"
   },
   "ca-S099": {
     "status": "passed",
@@ -651,9 +651,9 @@ export const editorialReviews = {
   },
   "ca-S101": {
     "status": "passed",
-    "reviewedAt": "2026-11-23",
-    "reviewer": "auditoria_registre_pendents",
-    "fingerprint": "e23899434e24340fb28223053b02d46e441f709fcdfb328604525b3b422fda63"
+    "reviewedAt": "2026-11-25",
+    "reviewer": "revisio_traspas_publicacio_b",
+    "fingerprint": "cdf204ed1c0182c8af94100baf82f2538d0eaa054ded80b9681aa0ae9a9186cd"
   },
   "ca-S102": {
     "status": "passed",
@@ -663,9 +663,9 @@ export const editorialReviews = {
   },
   "ca-S103": {
     "status": "passed",
-    "reviewedAt": "2026-11-23",
-    "reviewer": "auditoria_registre_pendents",
-    "fingerprint": "133bb89519625af8fec6ec11510fde1bba5131ea8f7b04cf9f0ce0dc2f2a935f"
+    "reviewedAt": "2026-11-25",
+    "reviewer": "revisio_traspas_publicacio_b",
+    "fingerprint": "6738f1d698a1472ae29b51a295f4eac043937fdf73ca3a93cf6c6fa2b618737b"
   },
   "ca-S104": {
     "status": "passed",
@@ -675,9 +675,9 @@ export const editorialReviews = {
   },
   "ca-S105": {
     "status": "passed",
-    "reviewedAt": "2026-11-24",
-    "reviewer": "revisio_tancament_s027",
-    "fingerprint": "3cb9bf954dcd95248a165d289e6249c328faecf945c2a589a8e36fed0ad33b60"
+    "reviewedAt": "2026-11-25",
+    "reviewer": "revisio_traspas_publicacio_b",
+    "fingerprint": "0fdf8c01aee77f5c69430cf0657f2e03223506571db73379133d291b6b128a67"
   },
   "ca-S106": {
     "status": "passed",

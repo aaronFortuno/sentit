@@ -1,0 +1,98 @@
+{
+  "code": "S101",
+  "activity": "ca-S101",
+  "state": "published",
+  "file": "s101-mixed-v1.mp3",
+  "introFile": "s101-mixed-v1-intro.mp3",
+  "bodyFile": "s101-mixed-v1-cos.mp3",
+  "offset": 4.680000000000001,
+  "bodyDuration": 92.78,
+  "fullDuration": 97.46,
+  "voices": {
+    "Mar": "Erinome",
+    "Recepcionista": "Callirrhoe"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "a38715e579b55a270d1e2b0f493b471ebe0f7ed700681aceec1aadfd202a5f75",
+  "sourceRequestHash": "852f55c5221f1185164e220475f97c110cdd0a9f1c9a39f1417681217a803e3a",
+  "batch": "L32",
+  "rawSha256": "dbfe51e338dfe13edbea6f589e2b50227add83c034010620624ca265411144bf",
+  "takeSha256": "d645ae1f783750952d1da9ca090580180c8c351a7981862c96cbbd4fb677dd5e",
+  "coverage": 0.95,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.97,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "callmethefoo-744447",
+      "start": 0,
+      "source": "assets/audio/sources/callmethefoo-744447.mp3",
+      "sourceSha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
+      "sourceUrl": "https://freesound.org/people/callmethefoo/sounds/744447/",
+      "author": "callmethefoo",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.07,
+      "openingGain": 0.16,
+      "raisedGain": 0.23,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -51.09803919971486,
+      "lowPassHz": 1800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 12,
+        "seconds": 85.24
+      },
+      "envelope": {
+        "riseStart": 88.37999999999998,
+        "riseEnd": 89.17999999999999,
+        "holdSeconds": 1.0000000000000142,
+        "fadeStart": 90.18,
+        "fadeEnd": 91.58000000000001
+      }
+    }
+  ],
+  "sha256": "b1638ccdb7f41995f5621fb3989d4a214cd23416e2841e7d55fc6af52312491b",
+  "voiceHandles": {
+    "body": {
+      "start": 0.325,
+      "end": 87.605,
+      "retainedPcmSha256": "350e12872c1f11761256a67f12b8609650573c0ec30276d61489a312ef165392",
+      "sourceSha256": "106326062f41877ebf228578eb5aaaed14edb6447cf7bcb49f67aba78423ce0c",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.25,
+      "end": 3.98,
+      "retainedPcmSha256": "00825462e5e8120baf925ecf095d587e82c52ea3ad5990f19e8bc7c209d3d4e6",
+      "sourceSha256": "46de0fd87aa5163e2a3c6d51cedecd6a856877fc52800a27b44f991e0a00c4c8",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-25",
+    "sourceTakeSha256": "d645ae1f783750952d1da9ca090580180c8c351a7981862c96cbbd4fb677dd5e",
+    "confirmation": "Docent 25/11: S101 validat per muntatge."
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "confirmation": "S101: muntatge validat per publicació definitiva al traspàs docent del 25/11/2026; abast de les tretze peces confirmat pel docent en aquesta conversa.",
+    "audioSha256": "b1638ccdb7f41995f5621fb3989d4a214cd23416e2841e7d55fc6af52312491b",
+    "editorialFingerprint": "cdf204ed1c0182c8af94100baf82f2538d0eaa054ded80b9681aa0ae9a9186cd",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/s101-publicacio-v1.jpg",
+    "illustrationSha256": "70103b4ba0ef40d53d7b780ea60cf7843020107758721e5b5802429ab639d95b",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-25",
+    "audioChanged": false
+  }
+}

@@ -8,7 +8,8 @@ const inside = 'Ambient real interior discret, amb moviment llunyà i exterior e
 export const dailyMarServices = [
   dailyProposal({
     id: 'el-carrer-esta-tallat', code: 'S092', title: 'El carrer està tallat', grade: '5', level: 'middle', genre: 'dialogue',
-    seconds: 83, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s092-publicacio-v1.jpg","alt":"La Mar parla amb una agent de policia al costat d’una tanca.","width":768,"height":512},
+    seconds: 83, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s092-mixed-v1.mp3', tracks: { introduction: './assets/audio/s092-mixed-v1-intro.mp3', body: './assets/audio/s092-mixed-v1-cos.mp3' },
     fragment: { start: 3.9899999999999998, seconds: 79 },
     voices: { Mar: 'Erinome', Policia: 'Despina' }, guestSpeakers: [{ name: 'Policia', voice: 'Despina', role: 'Agent de policia que regula un accés · ocasional' }], delivery: delivery + ' Tractament mutu de vostè, cordial i espontani, sense solemnitat.',

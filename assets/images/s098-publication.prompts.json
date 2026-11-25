@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-25",
+  "tool": "image_gen built-in",
+  "code": "S098",
+  "file": "s098-publicacio-v1.jpg",
+  "alt": "La Laia parla amb l’Ona al taulell del restaurant, amb un tiquet capgirat.",
+  "width": 768,
+  "height": 512,
+  "references": [
+    "../characters/laia-model-sheet-v1.webp",
+    "../characters/biel-model-sheet-v1.webp",
+    "../characters/ona-model-sheet-v1.webp",
+    "../characters/elies-model-sheet-v1.webp"
+  ],
+  "models": [
+    "../characters/laia-model-sheet-v1.webp",
+    "../characters/ona-model-sheet-v1.webp"
+  ],
+  "framing": "Vinyeta superior esquerra de la quadrícula generada.",
+  "prompt": "Single landscape 3:2 canvas with a perfectly even 2×2 matrix of four strictly independent landscape spot illustrations, ready for exact cropping down the middle vertically and horizontally. All art remains inside its own cell, leaving generous pure white buffer along all four edges and along the exact center seams. No frames or visible dividing lines. Fine precise naturalistic ink and muted watercolor, warm paper fading to pure white, economical background, lively gestures legible at 80mm. No text, digits, logos or watermarks. Match character model sheets exactly: Laia, freckled girl with curly chestnut high bun and sage pullover; Biel, young boy with tousled curly brown crop and charcoal zip hoodie over cream tee; Ona, adult dark-skinned woman with dark textured braided low bun, cream chef shirt and terracotta apron; Elies, adult bearded man with close dark curls, grey shirt and tan workshop apron.\nTOP LEFT: Laia talks with Ona at the wood restaurant service counter, Laia just beginning to slide a blank face-down slip toward her. Vague warm chair backs in background but no table numbers, glasses, meals, money, lettering or clues to any table change.\nTOP RIGHT: Ona holds a phone to one ear at the restaurant bar and listens, a closed blank reservation book behind her away from the phone, vague shelves, no clock, visible text, group of people, food, menus or anything that shows why she is speaking.\nBOTTOM LEFT and BOTTOM RIGHT: pure blank white with no art."
+}

@@ -76,7 +76,8 @@ export const noticies = [
   }),
   news({
     id: 'els-cartells-de-cinema-tornen-al-barri', code: 'S055', title: 'Els cartells de cinema tornen al barri', grade: '6', level: 'easy',
-    seconds: 113, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s055-publicacio-v1.jpg","alt":"La Mar sosté un micròfon en una sala d’exposicions del barri.","width":768,"height":512},
+    seconds: 113, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s055-mixed-v1.mp3', tracks: { introduction: './assets/audio/s055-mixed-v1-intro.mp3', body: './assets/audio/s055-mixed-v1-cos.mp3' },
     fragment: { start: 6.5, seconds: 106 },
     summary: 'Una mostra reuneix cartells que havien passat anys guardats a cases del barri. La Mar explica com s’han reunit i per què una paret tindrà fotografies en lloc d’originals.',

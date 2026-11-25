@@ -76,7 +76,8 @@ export const troballes = [
   }),
   dialogue({
     id: 'un-soroll-darrere-de-les-veus', code: 'S060', title: 'Un soroll darrere de les veus', grade: '6', level: 'middle',
-    seconds: 101, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s060-publicacio-v1.jpg","alt":"La Laia i en Biel escolten una gravació amb auriculars a taula.","width":768,"height":512},
+    seconds: 101, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s060-mixed-v1.mp3', tracks: { introduction: './assets/audio/s060-mixed-v1-intro.mp3', body: './assets/audio/s060-mixed-v1-cos.mp3' },
     fragment: { start: 4.7700000000000005, seconds: 96 },
     summary: 'La Laia i en Biel escolten una entrevista que van enregistrar i detecten un soroll que no recordaven. Abans de repetir res, intenten saber en quines frases molesta.',

@@ -1,0 +1,97 @@
+{
+  "code": "S055",
+  "activity": "ca-S055",
+  "state": "published",
+  "file": "s055-mixed-v1.mp3",
+  "introFile": "s055-mixed-v1-intro.mp3",
+  "bodyFile": "s055-mixed-v1-cos.mp3",
+  "offset": 6.5,
+  "bodyDuration": 106.06,
+  "fullDuration": 112.56,
+  "voices": {
+    "Mar": "Erinome"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "b0a730b180a626cc040f5673c2e59704c01d046548a2b4090c0538b629495e23",
+  "sourceRequestHash": "60873a8e69e4a46d687ebebd2760db3b3c5fee3fbe7da3e7fe7ea035b70c0537",
+  "batch": "L29",
+  "rawSha256": "20d716f9a5513b380c1885e64229e4d4f31e4951d03b0c5e3e53b542a7913fcd",
+  "takeSha256": "57ba3ed3f69b95b77d0900be5900c6df512cfcabfcefb1b96b6a100c4de4b80a",
+  "coverage": 0.963963963963964,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.97,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "grand-project-breaking-news-505617",
+      "origin": "licensed-music-in-montage",
+      "start": 0,
+      "underSpeech": true,
+      "credit": {
+        "id": "grand-project-breaking-news-505617",
+        "title": "Breaking News Background Music",
+        "author": "Grand_Project",
+        "url": "https://pixabay.com/music/percussion-breaking-news-background-music-505617/",
+        "license": "Pixabay Content License",
+        "licenseUrl": "https://pixabay.com/service/license-summary/",
+        "source": "tools/news-bed.cjs",
+        "origin": "licensed-music",
+        "kind": "news-programme",
+        "sourceNotDistributedSeparately": true,
+        "newSynthesisRequests": 0
+      },
+      "sourceSha256": "32e3e6c978ef1bc5c013c40880ac3ad9714957548f956c1355ad8852c94405ae",
+      "voiceMarginTargetDb": 25,
+      "sidechain": {
+        "threshold": 0.018,
+        "ratio": 6,
+        "attackMs": 12,
+        "releaseMs": 450
+      },
+      "openingSeconds": 3.5,
+      "closingSeconds": 4.5
+    }
+  ],
+  "sha256": "b1795b65689244310e984442b898d8186a4fc2634d7941a6502c6b9d4ae3841a",
+  "voiceHandles": {
+    "body": {
+      "start": 0.295,
+      "end": 99.005,
+      "retainedPcmSha256": "39e780612f22f65990407e91be71832937331c9f9854eedae0d40225e615e806",
+      "sourceSha256": "ec1e90a6e8dae9e6736cb6e6a860960f1d6dcfa58f6c111ba9e752a38cfaa41d",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0,
+      "end": 5.3,
+      "retainedPcmSha256": "c4610fff1e4eeba154b3d0ff66a38ad71c8436fabefaf836965d89b6ee00be6a",
+      "sourceSha256": "79f911ce323b39dc570a6942986af7c0fc30e964d84c72ae41b5aa633bb7c5bb",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-23",
+    "sourceTakeSha256": "57ba3ed3f69b95b77d0900be5900c6df512cfcabfcefb1b96b6a100c4de4b80a",
+    "confirmation": "Docent: veus validades per pujar a muntatge."
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "confirmation": "S055: muntatge validat per publicació definitiva al traspàs docent del 25/11/2026; abast de les tretze peces confirmat pel docent en aquesta conversa.",
+    "audioSha256": "b1795b65689244310e984442b898d8186a4fc2634d7941a6502c6b9d4ae3841a",
+    "editorialFingerprint": "77e0ed4509cfbb1a77304f56987df28e4bec412fd53e15dfc2eb8a3b0ed04b16",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/s055-publicacio-v1.jpg",
+    "illustrationSha256": "d1087ad50725a1a785c90cc5785ca27ca98b5bba4115a2e74577c3eb375249a7",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-25",
+    "audioChanged": false
+  }
+}

@@ -40,7 +40,8 @@ export const dailyFerranErrands = [
   }),
   dailyProposal({
     id: 'el-banc-de-la-placeta', code: 'S096', title: 'El banc de la placeta', grade: '6', level: 'middle', genre: 'dialogue',
-    seconds: 105, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s096-publicacio-v1.jpg","alt":"En Ferran conversa amb una informadora al taulell d’una oficina municipal.","width":768,"height":512},
+    seconds: 105, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s096-mixed-v1.mp3', tracks: { introduction: './assets/audio/s096-mixed-v1-intro.mp3', body: './assets/audio/s096-mixed-v1-cos.mp3' },
     fragment: { start: 4.08, seconds: 100 },
     voices: { Ferran: 'Algenib', Informadora: 'Gacrux' }, guestSpeakers: [{ name: 'Informadora', voice: 'Gacrux', role: 'Informadora d’atenció ciutadana · ocasional' }], delivery,

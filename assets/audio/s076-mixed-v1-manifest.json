@@ -1,0 +1,98 @@
+{
+  "code": "S076",
+  "activity": "ca-S076",
+  "state": "published",
+  "file": "s076-mixed-v1.mp3",
+  "introFile": "s076-mixed-v1-intro.mp3",
+  "bodyFile": "s076-mixed-v1-cos.mp3",
+  "offset": 4.38,
+  "bodyDuration": 158.86,
+  "fullDuration": 163.24,
+  "voices": {
+    "Laia": "Leda",
+    "Ona": "Sulafat"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "c8516a1b636a26a9ed64fa2c7c6106cf90afe153ae62018e472a7fbda49e8c1a",
+  "sourceRequestHash": "36700c905be55f8dac875c6c259472d0487fc2c3cdec3046574ce18cc8952aeb",
+  "batch": "L33",
+  "rawSha256": "329fc261b8681a5947a2ac957ccab766625bd33da1df18538d104afabcd5273c",
+  "takeSha256": "f3bf7d90101ac08a75bdf2711bd83b49e1d5b8b73f6bce58ee0ad8b14a10b5a2",
+  "coverage": 0.9334600760456274,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.89,
+  "peakDbTP": -2.51,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "soundtasticpro-kitchen-484572",
+      "start": 0,
+      "source": "assets/audio/sources/soundtasticpro-484572-kitchen.mp3",
+      "sourceSha256": "1bd886bb25614d7e0768e77cd4200ad84f4db55f51257a5e16c11f47737155ad",
+      "sourceUrl": "https://freesound.org/people/SoundtasticPro/sounds/484572/",
+      "author": "SoundtasticPro",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.08,
+      "openingGain": 0.18,
+      "raisedGain": 0.28,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -49.938200260161125,
+      "lowPassHz": 1800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 5,
+        "seconds": 67.096
+      },
+      "envelope": {
+        "riseStart": 154.56999999999996,
+        "riseEnd": 155.36999999999998,
+        "holdSeconds": 0.8900000000000148,
+        "fadeStart": 156.26,
+        "fadeEnd": 157.66
+      }
+    }
+  ],
+  "sha256": "21cb3f622b54e2f5fcc981fe646821cc14ee2da84c2b9fb4f7341026506f2155",
+  "voiceHandles": {
+    "body": {
+      "start": 0.76,
+      "end": 154.02,
+      "retainedPcmSha256": "8c8a04607a99b5d9ca25d4c12de8ac105eefa8df19ebc5ecf54c865c885b0caf",
+      "sourceSha256": "c0f5afbbab23b6edb86f10732c03e29f8de05fe0015aca0461a90d9ee6c20b60",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.13,
+      "end": 3.56,
+      "retainedPcmSha256": "91a58f0fbe9217310f0bc2090553394e2a54a94b8a20f847fdac2d31390d8377",
+      "sourceSha256": "f46f695b6806d2f4afa547f5a6fa1cb28c419f51b146c67ce647bcdd5381d9e7",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-25",
+    "sourceTakeSha256": "f3bf7d90101ac08a75bdf2711bd83b49e1d5b8b73f6bce58ee0ad8b14a10b5a2",
+    "confirmation": "Docent: S076 validat per a muntatge."
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "confirmation": "S076: muntatge validat per publicació definitiva al traspàs docent del 25/11/2026; abast de les tretze peces confirmat pel docent en aquesta conversa.",
+    "audioSha256": "21cb3f622b54e2f5fcc981fe646821cc14ee2da84c2b9fb4f7341026506f2155",
+    "editorialFingerprint": "618b0b24523188fa45a73f55d5466fe9029664c994674c5e26b4d8558cd513bb",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/s076-publicacio-v1.jpg",
+    "illustrationSha256": "0d9a94be5cfc1903d761b07d5349a96ad08e91144a3887c1fec64c662577b10e",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-25",
+    "audioChanged": false
+  }
+}

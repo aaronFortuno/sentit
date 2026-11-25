@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.103 · 25 de novembre de 2026
+
+- Publicació definitiva de S055, S060, S076, S083, S084, S086, S091, S092, S096, S098, S101, S103 i S105 a partir del traspàs docent confirmat. Es conserven exactament els tretze màsters aprovats; les altres nou peces amb muntatge pendent mantenen la seva fase.
+- Tretze il·lustracions contextuals integrades amb prompts, models i textos alternatius revisats independentment. Fitxes amb imatge opcional de 80 mm i solucionaris amb transcripció només parlada, sense escaletes ni marques provisionals. S076 es classifica com a diàleg; cursos i dificultats es conserven.
+- Crèdits, manifests, validacions i seguiment actualitzats. JPG servits correctament en local i comprovació de resolució adaptada a les dimensions declarades de cada imatge. Fitxes, solucionaris, ressaltats, paginació i àudios comprovats localment, sense síntesi nova.
+
 ## 0.1.102 · 25 de novembre de 2026
 
 - S087, S100, S104, S106, S108 i S110 amb veus validades i muntatges preparats per escoltar. Ambients enregistrats continus i molt tènues de botiga, taller o exterior segons l’escena, amb entrada curta i fosa final. Preses i timbres conservats, sense síntesi addicional.

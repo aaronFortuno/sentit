@@ -1,6 +1,6 @@
 # Situacions quotidianes · guions per validar
 
-[Tanda de serveis i gestions · S092–S103](lot-situacions-quotidianes-avancades.md): dotze guions de cicle superior i ESO, validats i amb veus rebudes. Els candidats amb S085/S086/S089 i S074/S076 ja s’han enviat com L32–L35. [Actualització del 25/11](lots-2026-11-25.md): S083/S084/S086/S087/S091 tenen muntatge per escoltar; S085 espera esmenar el timbre del comiat.
+[Tanda de serveis i gestions · S092–S103](lot-situacions-quotidianes-avancades.md): dotze guions de cicle superior i ESO, validats i amb veus rebudes. Els candidats amb S085/S086/S089 i S074/S076 ja s’han enviat com L32–L35. [Actualització del 25/11](lots-2026-11-25.md): S083/S084/S086/S091 ja són definitives; S087 té muntatge per escoltar; S085 espera esmenar el timbre del comiat.
 
 23 de novembre de 2026. Converses autònomes del dia a dia. Les fitxes i els solucionaris del web mostren el guió i l’escaleta. S083–S091 tenen validació docent de guió; la recepció i l’audició de les veus mantenen les fases pròpies que s’indiquen més avall.
 

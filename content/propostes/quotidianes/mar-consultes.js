@@ -76,7 +76,8 @@ export const dailyMarEnquiries = [
   }),
   dailyProposal({
     id: 'arribarem-quan-la-recepcio-sigui-tancada', code: 'S101', title: 'Arribarem quan la recepció sigui tancada', grade: '6', level: 'middle', genre: 'dialogue',
-    seconds: 98, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s101-publicacio-v1.jpg","alt":"La Mar parla per telèfon en una sala d’espera amb una bossa de viatge.","width":768,"height":512},
+    seconds: 98, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s101-mixed-v1.mp3', tracks: { introduction: './assets/audio/s101-mixed-v1-intro.mp3', body: './assets/audio/s101-mixed-v1-cos.mp3' },
     fragment: { start: 4.680000000000001, seconds: 93 },
     voices: { Mar: 'Erinome', Recepcionista: 'Callirrhoe' }, guestSpeakers: [{ name: 'Recepcionista', voice: 'Callirrhoe', role: 'Recepcionista d’un hostal · ocasional' }], delivery,

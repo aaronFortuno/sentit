@@ -7,7 +7,8 @@ const room = 'Ambient real continu de sala de restaurant o barra, molt tènue so
 export const dailyLaiaOnaErrands = [
   dailyProposal({
     id: 'el-tiquet-duna-altra-taula', code: 'S098', title: 'El tiquet d’una altra taula', grade: '5', level: 'middle', genre: 'dialogue',
-    seconds: 75, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s098-publicacio-v1.jpg","alt":"La Laia parla amb l’Ona al taulell del restaurant, amb un tiquet capgirat.","width":768,"height":512},
+    seconds: 75, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s098-mixed-v1.mp3', tracks: { introduction: './assets/audio/s098-mixed-v1-intro.mp3', body: './assets/audio/s098-mixed-v1-cos.mp3' },
     fragment: { start: 3.96, seconds: 71 },
     voices: { Laia: 'Leda', Ona: 'Sulafat' }, delivery,
@@ -40,7 +41,8 @@ export const dailyLaiaOnaErrands = [
   }),
   dailyProposal({
     id: 'canvi-a-la-reserva-de-dissabte', code: 'S103', title: 'Canvi a la reserva de dissabte', grade: '5', level: 'middle', genre: 'dialogue',
-    seconds: 80, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s103-publicacio-v1.jpg","alt":"L’Ona atén una trucada al taulell del restaurant.","width":768,"height":512},
+    seconds: 80, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s103-mixed-v1.mp3', tracks: { introduction: './assets/audio/s103-mixed-v1-intro.mp3', body: './assets/audio/s103-mixed-v1-cos.mp3' },
     fragment: { start: 4.255, seconds: 75 },
     voices: { Laia: 'Leda', Ona: 'Sulafat' }, delivery,
