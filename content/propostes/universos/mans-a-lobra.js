@@ -9,7 +9,8 @@ const make = data => universeProposal({ ...data, voices, delivery, soundPlan, un
 export const handsOnActivities = [
   make({
     id: 'el-cartell-que-es-doblegava', code: 'S104', title: 'El cartell que es doblegava', grade: '3', level: 'easy', genre: 'dialogue',
-    seconds: 63, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s104-publicacio-v1.webp","alt":"En Biel i l’Elies observen un full en blanc al taulell del taller.","width":1536,"height":1024},
+    seconds: 63, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s104-mixed-v1.mp3', tracks: { introduction: './assets/audio/s104-mixed-v1-intro.mp3', body: './assets/audio/s104-mixed-v1-cos.mp3' },
     fragment: { start: 4.0600000000000005, seconds: 58 },
     summary: 'En Biel porta un cartell al taller de l’Elies. El volen penjar per a un concert, però costa que es quedi ben posat.',
@@ -75,7 +76,8 @@ export const handsOnActivities = [
   }),
   make({
     id: 'un-suport-per-a-la-gravadora', code: 'S106', title: 'Un suport per a la gravadora', grade: '5', level: 'middle', genre: 'dialogue',
-    seconds: 91, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s106-publicacio-v1.webp","alt":"En Biel ensenya una gravadora a l’Elies a la taula del taller.","width":1536,"height":1024},
+    seconds: 91, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s106-mixed-v1.mp3', tracks: { introduction: './assets/audio/s106-mixed-v1-intro.mp3', body: './assets/audio/s106-mixed-v1-cos.mp3' },
     fragment: { start: 3.9899999999999998, seconds: 87 },
     summary: 'En Biel vol enregistrar una cançó sense aguantar la gravadora amb la mà. Al taller proven una idea amb el que tenen a prop.',

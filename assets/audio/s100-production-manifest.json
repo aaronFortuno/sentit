@@ -1,7 +1,7 @@
 {
   "code": "S100",
   "activity": "ca-S100",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s100-mixed-v1.mp3",
   "introFile": "s100-mixed-v1-intro.mp3",
   "bodyFile": "s100-mixed-v1-cos.mp3",
@@ -79,5 +79,20 @@
     "approvedAt": "2026-11-25",
     "sourceTakeSha256": "975d588a565c7533b27058efecdbaeccd43c77629312b27d87b32b61ea2a2aec",
     "confirmation": "Docent 25/11: S100 validat per muntatge."
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "confirmation": "Docent 25/11: S104, S106, S087, S110, S074, S100, S108, S056 i S097 validats tots per publicació definitiva.",
+    "audioSha256": "a5a7d7d3a07c60f48896ddbd44d42b5c4511c58402536f39b0b7a71afe571683",
+    "editorialFingerprint": "4dff90bac370d9fc26b7e2718881d0018459080b762c6c0c32da68ba75f3939d",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/s100-publicacio-v1.webp",
+    "illustrationSha256": "049026915cb6431e7149b257d5e4720a97b619a17d1609747141b722bbd87d55",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-25",
+    "audioChanged": false
   }
 }

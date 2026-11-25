@@ -9,7 +9,8 @@ const make = data => universeProposal({ ...data, voices, delivery, soundPlan, un
 export const walkingActivities = [
   make({
     id: 'un-lloc-per-berenar', code: 'S108', title: 'Un lloc per berenar', grade: '3', level: 'easy', genre: 'dialogue',
-    seconds: 67, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s108-publicacio-v1.webp","alt":"L’Aina i l’avi Ferran conversen durant una passejada pel parc.","width":1536,"height":1024},
+    seconds: 67, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s108-mixed-v1.mp3', tracks: { introduction: './assets/audio/s108-mixed-v1-intro.mp3', body: './assets/audio/s108-mixed-v1-cos.mp3' },
     fragment: { start: 4.11, seconds: 62 },
     summary: 'L’Aina i l’avi Ferran surten a passejar després de ploure. Quan volen berenar, han de buscar on posar-se.',
@@ -71,7 +72,8 @@ export const walkingActivities = [
   }),
   make({
     id: 'un-so-darrere-els-arbres', code: 'S110', title: 'Un so darrere els arbres', grade: '5', level: 'middle', genre: 'dialogue',
-    seconds: 91, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s110-publicacio-v1.webp","alt":"L’Aina i en Ferran s’aturen a escoltar en un camí entre arbres.","width":1536,"height":1024},
+    seconds: 91, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s110-mixed-v1.mp3', tracks: { introduction: './assets/audio/s110-mixed-v1-intro.mp3', body: './assets/audio/s110-mixed-v1-cos.mp3' },
     fragment: { start: 4.33, seconds: 87 },
     summary: 'Durant una passejada, l’Aina i en Ferran senten un dring que els fa aturar. Cadascú s’imagina d’on pot venir.',

@@ -31,3 +31,5 @@ Fitxa i solucionari comprovats en local: imatge opcional per defecte de 80 mm a 
 Les altres nou peces amb muntatge pendent d’audició **no formen part d’aquesta validació**: S056, S074, S087, S097, S100, S104, S106, S108 i S110. Les seves fases i les esmenes pendents d’altres peces es conserven.
 
 [Publicacions finalitzades](publicades.md) · [Feina pendent](seguiment-produccio.md) · [Cua de síntesi](lots-sintesi.md) · [Lots i audicions del 25/11](lots-2026-11-25.md).
+
+> Actualització posterior · v0.1.104: el docent ha validat separadament les altres nou peces. Vegeu [la segona tanda del 25/11](publicacio-2026-11-25-segona-tanda.md). L’abast de tretze d’aquest document correspon a la validació anterior.

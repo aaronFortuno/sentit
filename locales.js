@@ -1,5 +1,6 @@
 export const strings = {
   ca: {
+    releaseNineFinalPublications: 'Nou comprensions més publicades definitivament, amb il·lustracions pròpies revisades i els àudios aprovats intactes. S074 és diàleg; S056 i S097 tanquen les esmenes incorporades. Fitxes i solucionaris nets comprovats. Ja no queda cap muntatge pendent d’audició final.',
     releaseHandoffPublications: 'Tretze comprensions publicades definitivament amb els àudios validats al traspàs. Il·lustracions contextuals integrades, fitxes i solucionaris nets comprovats. S076 és diàleg; les altres nou peces amb muntatge pendent conserven el seu estat.',
     releasePicnicMontage: 'S087, S100, S104, S106, S108 i S110 amb muntatges per escoltar. Esmenes validades de S056 i S097 incorporades, amb la resta de les veus intacta. S107 espera corregir «funda» de l’Elies. Sense síntesi nova.',
     releaseLecternMontage: 'S105 amb veus validades i muntatge per escoltar, amb ambient de taller molt tènue. S109 té dues esmenes de Ferran en cua: «passeig» i «bassals». Originals conservats, sense síntesi nova.',
@@ -308,6 +309,7 @@ export const strings = {
     sessionEnded: 'Sessió acabada', remainingTime: 'Temps restant',
   },
   es: {
+    releaseNineFinalPublications: 'Nueve comprensiones más publicadas definitivamente, con ilustraciones propias revisadas y los audios aprobados intactos. S074 es diálogo; S056 y S097 cierran las correcciones incorporadas. Fichas y solucionarios limpios comprobados. Ya no queda ningún montaje pendiente de escucha final.',
     releaseHandoffPublications: 'Trece comprensiones publicadas definitivamente con los audios validados en el traspaso. Ilustraciones contextuales integradas, fichas y solucionarios limpios comprobados. S076 es diálogo; las otras nueve piezas con montaje pendiente conservan su estado.',
     releasePicnicMontage: 'S087, S100, S104, S106, S108 y S110 con montajes para escuchar. Correcciones validadas de S056 y S097 incorporadas, con el resto de las voces intacto. S107 espera corregir «funda» de Elies. Sin síntesis nueva.',
     releaseLecternMontage: 'S105 con voces validadas y montaje para escuchar, con ambiente de taller muy tenue. S109 tiene dos correcciones de Ferran en cola: «passeig» y «bassals». Originales conservados, sin síntesis nueva.',

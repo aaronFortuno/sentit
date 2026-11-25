@@ -2827,12 +2827,12 @@ export const productionProgress = {
     }
   },
   "ca-S074": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-22T18:08:54.593Z",
-    "editorialFingerprint": "a6a24886eb9e42ad0e78c8e568172582ed50b3c2becf8531b55fb6fa670f864c",
-    "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "confirmation": "S074 validada per síntesi de veus",
+    "editorialFingerprint": "455121f7226b449779ffef213905ffc0d1d8441e78e93289abd4283fc0ab7b01",
+    "plannedNewRequests": 0,
+    "listeningApproval": true,
+    "confirmation": "Docent 25/11: S104, S106, S087, S110, S074, S100, S108, S056 i S097 validats tots per publicació definitiva.",
     "reason": "Pendent de completar les validacions del lot Laia/Leda i Ona/Sulafat.",
     "gradingReview": {
       "status": "pending-listening",
@@ -2866,7 +2866,17 @@ export const productionProgress = {
     "synthesisBatch": "L33",
     "requestHash": "c8516a1b636a26a9ed64fa2c7c6106cf90afe153ae62018e472a7fbda49e8c1a",
     "audioSha256": "f0ba39a4ee9d45d8cf53e88e9c7ff73a81dabbdf20cca8047ba0fd94bb82ae3c",
-    "montageNewSynthesisRequests": 0
+    "montageNewSynthesisRequests": 0,
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "teacherAssessment": "Veus i muntatge validats definitivament pel docent. Màster aprovat conservat intacte.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s074-publicacio-v2.webp",
+      "illustrationSha256": "7b0beee91d746c0c12d04a611e6e8299c9dd39b2b1259dbd1447d06f1a1ae825",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-25",
+      "audioChanged": false
+    }
   },
   "ca-S062": {
     "state": "published",
@@ -4483,12 +4493,12 @@ export const productionProgress = {
     }
   },
   "ca-S056": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-23",
-    "editorialFingerprint": "39766217bff33bd79a3463e0a5e3746bce91308c4561475d3eeab0d524e145eb",
+    "editorialFingerprint": "a5e8e14658cb1a0d6e85edf594d54b33a77232a8b6172235bfaf558f4bca518c",
     "plannedNewRequests": 0,
-    "listeningApproval": false,
-    "confirmation": "S056 validat per síntesi de veus",
+    "listeningApproval": true,
+    "confirmation": "Docent 25/11: S104, S106, S087, S110, S074, S100, S108, S056 i S097 validats tots per publicació definitiva.",
     "reason": "Validació docent explícita de guió, veus i escaleta. Agrupar lectures completes del mateix repartiment en sis a vuit minuts abans d’enviar.",
     "uncertainTurns": [],
     "receivedTakes": {
@@ -4537,7 +4547,7 @@ export const productionProgress = {
       }
     },
     "plannedRepair": {
-      "status": "applied-awaiting-montage-listening",
+      "status": "applied-validated",
       "scope": "missing-opening",
       "speaker": "Mar",
       "voice": "Erinome",
@@ -4579,7 +4589,7 @@ export const productionProgress = {
         "part": "introduction",
         "text": "Comprensió oral. El taller canvia de casa. Notícia de ficció.",
         "pronunciation": "Say the complete exercise introduction, title and Notícia de ficció. Do not omit any sentence. Keep initial and final consonants.",
-        "status": "applied-awaiting-montage-listening",
+        "status": "applied-validated",
         "missingOriginal": true,
         "candidateFile": "assets/audio/repairs/l32-s056-introduction-prova.mp3",
         "sourceRawSha256": "20d716f9a5513b380c1885e64229e4d4f31e4951d03b0c5e3e53b542a7913fcd",
@@ -4592,7 +4602,9 @@ export const productionProgress = {
         "approvedBy": "docent",
         "confirmation": "Docent 25/11: les esmenes de S056 passen validació i pot anar a muntatge.",
         "appliedAt": "2026-11-25",
-        "appliedAudio": "./assets/audio/s056-mixed-v1.mp3"
+        "appliedAudio": "./assets/audio/s056-mixed-v1.mp3",
+        "validatedAt": "2026-11-25",
+        "validatedAudioSha256": "e5d616bfc5b37c2b88aa397d8afbd9f96120f9ae3ad2d014a295859f718c7914"
       },
       {
         "code": "S056",
@@ -4600,7 +4612,7 @@ export const productionProgress = {
         "missingPart": "opening-greeting",
         "text": "Bon dia.",
         "pronunciation": "Say the complete greeting Bon dia, once, in the same adult Mar/Erinome voice. Both words are missing from the original; this is an insertion for audition, without an original greeting clip.",
-        "status": "applied-awaiting-montage-listening",
+        "status": "applied-validated",
         "missingOriginal": true,
         "candidateFile": "assets/audio/repairs/l32-s056-trasllat-prova.mp3",
         "sourceRawSha256": "20d716f9a5513b380c1885e64229e4d4f31e4951d03b0c5e3e53b542a7913fcd",
@@ -4613,7 +4625,9 @@ export const productionProgress = {
         "approvedBy": "docent",
         "confirmation": "Docent 25/11: les esmenes de S056 passen validació i pot anar a muntatge.",
         "appliedAt": "2026-11-25",
-        "appliedAudio": "./assets/audio/s056-mixed-v1.mp3"
+        "appliedAudio": "./assets/audio/s056-mixed-v1.mp3",
+        "validatedAt": "2026-11-25",
+        "validatedAudioSha256": "e5d616bfc5b37c2b88aa397d8afbd9f96120f9ae3ad2d014a295859f718c7914"
       }
     ],
     "missingVoiceDetails": [],
@@ -4644,13 +4658,15 @@ export const productionProgress = {
     "requestHash": "883e30ffbd8bad78e67e2f6932b1dece73f71005b7c72e0be6b9504ab50ab761",
     "audioSha256": "e5d616bfc5b37c2b88aa397d8afbd9f96120f9ae3ad2d014a295859f718c7914",
     "montageNewSynthesisRequests": 0,
-    "reviewUpdate": {
-      "audio": "./assets/audio/s056-mixed-v1.mp3",
-      "at": "2026-11-25",
-      "summary": {
-        "ca": "Títol complet, «Notícia de ficció» i «Bon dia» validats i incorporats. La resta de la locució es conserva intacta, amb la base comuna de notícies molt baixa sota la veu. Muntatge pendent d’audició.",
-        "es": "Título completo, «Notícia de ficció» y «Bon dia» validados e incorporados. El resto de la locución se conserva intacto, con la base común de noticias muy baja bajo la voz. Montaje pendiente de escucha."
-      }
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "teacherAssessment": "Veus i muntatge validats definitivament pel docent. Màster aprovat conservat intacte.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s056-publicacio-v1.webp",
+      "illustrationSha256": "46d008bc2d5e13a7d7249d10e079d2a966141913c993b9bf167849478fb9b956",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-25",
+      "audioChanged": false
     }
   },
   "ca-S045D": {
@@ -5159,11 +5175,11 @@ export const productionProgress = {
     }
   },
   "ca-S087": {
-    "state": "montage-awaiting-listening",
-    "editorialFingerprint": "06b28afd8f0c5e4655382befad905102928beb606832c046f8729408eb6897e8",
-    "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "teacherAssessment": "Guió, preguntes i escaleta validats pel docent; preparar un lot compatible.",
+    "state": "published",
+    "editorialFingerprint": "71d4fad64c76c537bb974a66701e7a3f0cd82a6f57e13779c1429d2824edbbaf",
+    "plannedNewRequests": 0,
+    "listeningApproval": true,
+    "teacherAssessment": "Veus i muntatge validats definitivament pel docent. Màster aprovat conservat intacte.",
     "scriptApprovedAt": "2026-11-23",
     "voiceApproval": {
       "status": "approved",
@@ -5189,7 +5205,17 @@ export const productionProgress = {
     "synthesisBatch": "L30",
     "requestHash": "e976118d4059a3906fef68d10a896878017b880860e49a669844b0cafb799cb1",
     "audioSha256": "d6c4e7d9558af223cf99f2b7f279cd5bb56d5e11324158b7ac18364943e8c47a",
-    "montageNewSynthesisRequests": 0
+    "montageNewSynthesisRequests": 0,
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "confirmation": "Docent 25/11: S104, S106, S087, S110, S074, S100, S108, S056 i S097 validats tots per publicació definitiva.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s087-publicacio-v1.webp",
+      "illustrationSha256": "897c04118b3bfe97f470499350b4e431988a3fc8d1856d2e3184a05e6097d664",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-25",
+      "audioChanged": false
+    }
   },
   "ca-S088": {
     "state": "voices-received",
@@ -5557,11 +5583,11 @@ export const productionProgress = {
     }
   },
   "ca-S097": {
-    "state": "montage-awaiting-listening",
-    "editorialFingerprint": "d67a4e8f556120739df79e9844a4095e735f84abc49c4b57cfbf37df05ec4c5d",
+    "state": "published",
+    "editorialFingerprint": "e6fbfc105080ad31f3568d2a7b102c2c99e6e2effec7bcede065031d7661ed81",
     "plannedNewRequests": 0,
-    "listeningApproval": false,
-    "teacherAssessment": "Guió, veus i escaleta validats pel docent; preparar un lot compatible de síntesi.",
+    "listeningApproval": true,
+    "teacherAssessment": "Veus i muntatge validats definitivament pel docent. Màster aprovat conservat intacte.",
     "scriptApprovedAt": "2026-11-24",
     "voiceApproval": {
       "status": "approved",
@@ -5611,7 +5637,7 @@ export const productionProgress = {
       }
     },
     "plannedRepair": {
-      "status": "applied-awaiting-montage-listening",
+      "status": "applied-validated",
       "scope": "missing-opening",
       "parts": [
         {
@@ -5637,7 +5663,7 @@ export const productionProgress = {
         "part": "introduction",
         "text": "Comprensió oral. Quina parada em queda més a prop?",
         "pronunciation": "Read the complete exercise introduction and title exactly once in the warm older male Ferran/Algenib voice.",
-        "status": "applied-awaiting-montage-listening",
+        "status": "applied-validated",
         "missingOriginal": true,
         "candidateFile": "assets/audio/repairs/l37-s097-introduction-prova.mp3",
         "sourceRawSha256": "e745dbb235852711298ebf545af5ec836adc9e26531e6290cf3c4e457a4ecadd",
@@ -5650,14 +5676,16 @@ export const productionProgress = {
         "approvedBy": "docent",
         "confirmation": "Docent 25/11: S097 queda validat amb les dues esmenes que havíem demanat; passar a muntatge.",
         "appliedAt": "2026-11-25",
-        "appliedAudio": "./assets/audio/s097-mixed-v1.mp3"
+        "appliedAudio": "./assets/audio/s097-mixed-v1.mp3",
+        "validatedAt": "2026-11-25",
+        "validatedAudioSha256": "8bda965862ac582419d8b518cd91f1677ddf2e0071f955327570e888a5b0fec2"
       },
       {
         "code": "S097",
         "part": "hola",
         "text": "Bon dia. Voldria un bitllet per anar a Portell de Mar aquesta tarda. M’han deixat una habitació prop del passeig de la Marina, però aquí no em conec gens les parades.",
         "pronunciation": "Read the complete opening Bon dia and all the following sentences in the warm older male Ferran/Algenib voice. This whole opening turn was omitted previously; do not skip it.",
-        "status": "applied-awaiting-montage-listening",
+        "status": "applied-validated",
         "missingOriginal": true,
         "candidateFile": "assets/audio/repairs/l37-s097-hola-prova.mp3",
         "sourceRawSha256": "e745dbb235852711298ebf545af5ec836adc9e26531e6290cf3c4e457a4ecadd",
@@ -5670,7 +5698,9 @@ export const productionProgress = {
         "approvedBy": "docent",
         "confirmation": "Docent 25/11: S097 queda validat amb les dues esmenes que havíem demanat; passar a muntatge.",
         "appliedAt": "2026-11-25",
-        "appliedAudio": "./assets/audio/s097-mixed-v1.mp3"
+        "appliedAudio": "./assets/audio/s097-mixed-v1.mp3",
+        "validatedAt": "2026-11-25",
+        "validatedAudioSha256": "8bda965862ac582419d8b518cd91f1677ddf2e0071f955327570e888a5b0fec2"
       }
     ],
     "bodyVoiceApproval": {
@@ -5708,13 +5738,15 @@ export const productionProgress = {
     "audioSha256": "8bda965862ac582419d8b518cd91f1677ddf2e0071f955327570e888a5b0fec2",
     "montageNewSynthesisRequests": 0,
     "missingVoiceDetails": [],
-    "reviewUpdate": {
-      "audio": "./assets/audio/s097-mixed-v1.mp3",
-      "at": "2026-11-25",
-      "summary": {
-        "ca": "Títol i primera intervenció completa de Ferran validats i incorporats. La resta de la conversa es conserva intacta, amb ambient interior molt tènue. Muntatge pendent d’audició.",
-        "es": "Título y primera intervención completa de Ferran validados e incorporados. El resto de la conversación se conserva intacto, con ambiente interior muy tenue. Montaje pendiente de escucha."
-      }
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "confirmation": "Docent 25/11: S104, S106, S087, S110, S074, S100, S108, S056 i S097 validats tots per publicació definitiva.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s097-publicacio-v1.webp",
+      "illustrationSha256": "6df0b50d7b31688e47ea46468520664ea04b60cbd0d33bb61f471fad9983275c",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-25",
+      "audioChanged": false
     }
   },
   "ca-S098": {
@@ -5786,11 +5818,11 @@ export const productionProgress = {
     "voicePreviewFile": "./assets/audio/s099-voices-review-v1.mp3"
   },
   "ca-S100": {
-    "state": "montage-awaiting-listening",
-    "editorialFingerprint": "bc40756d2ec9521e61cde3e2f10ef4c8103ecb0e02f32a8b29fc3d36c3d01e4c",
-    "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "teacherAssessment": "Guió, veus i escaleta validats pel docent; preparar un lot compatible de síntesi.",
+    "state": "published",
+    "editorialFingerprint": "4dff90bac370d9fc26b7e2718881d0018459080b762c6c0c32da68ba75f3939d",
+    "plannedNewRequests": 0,
+    "listeningApproval": true,
+    "teacherAssessment": "Veus i muntatge validats definitivament pel docent. Màster aprovat conservat intacte.",
     "scriptApprovedAt": "2026-11-24",
     "voiceApproval": {
       "status": "approved",
@@ -5817,7 +5849,17 @@ export const productionProgress = {
     "synthesisBatch": "L32",
     "requestHash": "a38715e579b55a270d1e2b0f493b471ebe0f7ed700681aceec1aadfd202a5f75",
     "audioSha256": "a5a7d7d3a07c60f48896ddbd44d42b5c4511c58402536f39b0b7a71afe571683",
-    "montageNewSynthesisRequests": 0
+    "montageNewSynthesisRequests": 0,
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "confirmation": "Docent 25/11: S104, S106, S087, S110, S074, S100, S108, S056 i S097 validats tots per publicació definitiva.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s100-publicacio-v1.webp",
+      "illustrationSha256": "049026915cb6431e7149b257d5e4720a97b619a17d1609747141b722bbd87d55",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-25",
+      "audioChanged": false
+    }
   },
   "ca-S101": {
     "state": "published",
@@ -5966,11 +6008,11 @@ export const productionProgress = {
     }
   },
   "ca-S104": {
-    "state": "montage-awaiting-listening",
-    "editorialFingerprint": "a232dd05ea42467b650734e3f5618c38f6c7f096f4aeef87c47eabd082679a7a",
-    "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "teacherAssessment": "Guió, veus i escaleta validats pel docent; preparar un lot compatible de síntesi.",
+    "state": "published",
+    "editorialFingerprint": "2f5fb7f0ab5a825e1caa88f29482415ac7d5212803f6d5a3046ed161ecc2b28e",
+    "plannedNewRequests": 0,
+    "listeningApproval": true,
+    "teacherAssessment": "Veus i muntatge validats definitivament pel docent. Màster aprovat conservat intacte.",
     "scriptApprovedAt": "2026-11-24",
     "voiceApproval": {
       "status": "approved",
@@ -5997,7 +6039,17 @@ export const productionProgress = {
     "synthesisBatch": "L36",
     "requestHash": "8176fbf46265f9e3a131fc1725426c5d108483d7613cc38bbddfc69c9e425901",
     "audioSha256": "0b06376cb48f7356a97eb9056bd787e6f021250f13056f263572030d221e5146",
-    "montageNewSynthesisRequests": 0
+    "montageNewSynthesisRequests": 0,
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "confirmation": "Docent 25/11: S104, S106, S087, S110, S074, S100, S108, S056 i S097 validats tots per publicació definitiva.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s104-publicacio-v1.webp",
+      "illustrationSha256": "f902116973c2f12af0f4227819e2c94f4d16659aba9aa3cdc835ed5c52ab742f",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-25",
+      "audioChanged": false
+    }
   },
   "ca-S105": {
     "state": "published",
@@ -6044,11 +6096,11 @@ export const productionProgress = {
     }
   },
   "ca-S106": {
-    "state": "montage-awaiting-listening",
-    "editorialFingerprint": "a3adbcb1c929a31182f49854e5b1889a7d91307d7ddccbc6409eb68b32bfc27d",
-    "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "teacherAssessment": "Guió, veus i escaleta validats pel docent; preparar un lot compatible de síntesi.",
+    "state": "published",
+    "editorialFingerprint": "8522a7e9b60c08723ec7a6d07b13c9d2959249d1519a11be98ae7c5154f844f3",
+    "plannedNewRequests": 0,
+    "listeningApproval": true,
+    "teacherAssessment": "Veus i muntatge validats definitivament pel docent. Màster aprovat conservat intacte.",
     "scriptApprovedAt": "2026-11-25",
     "voiceApproval": {
       "status": "approved",
@@ -6075,7 +6127,17 @@ export const productionProgress = {
     "synthesisBatch": "L36",
     "requestHash": "8176fbf46265f9e3a131fc1725426c5d108483d7613cc38bbddfc69c9e425901",
     "audioSha256": "9807c1125d809e97f0675b73f25f5524edf68a32bea7b86b52bb92d33ddc1059",
-    "montageNewSynthesisRequests": 0
+    "montageNewSynthesisRequests": 0,
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "confirmation": "Docent 25/11: S104, S106, S087, S110, S074, S100, S108, S056 i S097 validats tots per publicació definitiva.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s106-publicacio-v1.webp",
+      "illustrationSha256": "def5281be41a9d9a41567ab37511eb17dc43e78703f38a52d9ab59810c72ae72",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-25",
+      "audioChanged": false
+    }
   },
   "ca-S107": {
     "state": "audio-corrections-pending",
@@ -6122,11 +6184,11 @@ export const productionProgress = {
     }
   },
   "ca-S108": {
-    "state": "montage-awaiting-listening",
-    "editorialFingerprint": "a42a9fc07182fd8ad17c79c0a5f7cb1c3b61e9cadfcd815ee2ba1c74c58104df",
-    "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "teacherAssessment": "Guió, veus i escaleta validats pel docent; preparar un lot compatible de síntesi.",
+    "state": "published",
+    "editorialFingerprint": "393f58bd9fb7c0e997964c2f6413bcf5ef39e3adff7fe7183510af9899e4f3d9",
+    "plannedNewRequests": 0,
+    "listeningApproval": true,
+    "teacherAssessment": "Veus i muntatge validats definitivament pel docent. Màster aprovat conservat intacte.",
     "scriptApprovedAt": "2026-11-24",
     "voiceApproval": {
       "status": "approved",
@@ -6153,7 +6215,17 @@ export const productionProgress = {
     "synthesisBatch": "L37",
     "requestHash": "f8f95587af9933a81a7732a732045a0094ec864fc0d9d79fb70e2daac13764d9",
     "audioSha256": "496d2d8ea9b0dc357af8736908d399188f09090dd0337203d47d1877cb68cf87",
-    "montageNewSynthesisRequests": 0
+    "montageNewSynthesisRequests": 0,
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "confirmation": "Docent 25/11: S104, S106, S087, S110, S074, S100, S108, S056 i S097 validats tots per publicació definitiva.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s108-publicacio-v1.webp",
+      "illustrationSha256": "bf01257addd17865a094fbd1d21949be64e8cbef4c69dde2c90d2b805aab6027",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-25",
+      "audioChanged": false
+    }
   },
   "ca-S109": {
     "state": "audio-corrections-pending",
@@ -6209,11 +6281,11 @@ export const productionProgress = {
     }
   },
   "ca-S110": {
-    "state": "montage-awaiting-listening",
-    "editorialFingerprint": "cbce144985ac4c1db5f8f83124fc5e3217cf5295049fd9c1c203675bbb243071",
-    "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "teacherAssessment": "Guió, veus i escaleta validats pel docent; preparar un lot compatible de síntesi.",
+    "state": "published",
+    "editorialFingerprint": "3b377041184cba78af49198bdff68d1a4b35896019fe1cbf4ca38a840f1029f6",
+    "plannedNewRequests": 0,
+    "listeningApproval": true,
+    "teacherAssessment": "Veus i muntatge validats definitivament pel docent. Màster aprovat conservat intacte.",
     "scriptApprovedAt": "2026-11-25",
     "voiceApproval": {
       "status": "approved",
@@ -6240,7 +6312,17 @@ export const productionProgress = {
     "synthesisBatch": "L37",
     "requestHash": "f8f95587af9933a81a7732a732045a0094ec864fc0d9d79fb70e2daac13764d9",
     "audioSha256": "344ee8235ac97149500ee811cee084ea800a5639d140259c9b42de577fd36622",
-    "montageNewSynthesisRequests": 0
+    "montageNewSynthesisRequests": 0,
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "confirmation": "Docent 25/11: S104, S106, S087, S110, S074, S100, S108, S056 i S097 validats tots per publicació definitiva.",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s110-publicacio-v1.webp",
+      "illustrationSha256": "b313cdff1cc8069902348586bc20b5f098c47da5bad74a7964d8b2a839a383a0",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-25",
+      "audioChanged": false
+    }
   },
   "ca-S111": {
     "state": "voices-received",

@@ -109,7 +109,8 @@ export const noticies = [
   }),
   news({
     id: 'el-taller-canvia-de-casa', code: 'S056', title: 'El taller canvia de casa', grade: '5', level: 'advanced',
-    seconds: 161, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s056-publicacio-v1.webp","alt":"La Mar presenta una notícia davant d’un local del barri.","width":1536,"height":1024},
+    seconds: 161, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s056-mixed-v1.mp3', tracks: { introduction: './assets/audio/s056-mixed-v1-intro.mp3', body: './assets/audio/s056-mixed-v1-cos.mp3' },
     fragment: { start: 5.675000000000001, seconds: 155 },
     summary: 'El taller de reparació del barri s’instal·la en un local nou. La Mar explica què s’hi podrà fer des del primer dia i per què una part del material encara es quedarà guardada.',

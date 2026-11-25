@@ -7,7 +7,8 @@ const shop = 'Ambient enregistrat real de botiga o biblioteca segons l’escena,
 export const dailyFerran = [
   dailyProposal({
     id: 'el-pom-del-calaix', code: 'S087', title: 'El pom del calaix', grade: '3', level: 'middle', genre: 'dialogue',
-    seconds: 85, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s087-publicacio-v1.webp","alt":"L’avi Ferran conversa amb el dependent d’una ferreteria.","width":1536,"height":1024},
+    seconds: 85, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s087-mixed-v1.mp3', tracks: { introduction: './assets/audio/s087-mixed-v1-intro.mp3', body: './assets/audio/s087-mixed-v1-cos.mp3' },
     fragment: { start: 3.835, seconds: 80 },
     voices: { Ferran: 'Algenib', Ferreter: 'Achird' }, guestSpeakers: [{ name: 'Ferreter', voice: 'Achird', role: 'Dependent de ferreteria · ocasional' }], delivery,

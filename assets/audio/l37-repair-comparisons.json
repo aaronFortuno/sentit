@@ -7,29 +7,45 @@
       "part": "introduction",
       "text": "Comprensió oral. Quina parada em queda més a prop?",
       "pronunciation": "Read the complete exercise introduction and title exactly once in the warm older male Ferran/Algenib voice.",
-      "status": "received-awaiting-listening",
+      "status": "applied-validated",
       "missingOriginal": true,
       "candidateFile": "assets/audio/repairs/l37-s097-introduction-prova.mp3",
       "sourceRawSha256": "e745dbb235852711298ebf545af5ec836adc9e26531e6290cf3c4e457a4ecadd",
       "sourceTakeId": "S097-T01",
       "sourceTakeSha256": "bc2141f6960d93c4870fda81394c97c9c72c05446b6cf414342f08ba78b4b2f3",
       "batchRequestHash": "f8f95587af9933a81a7732a732045a0094ec864fc0d9d79fb70e2daac13764d9",
-      "applied": false
+      "applied": true,
+      "candidateSha256": "28283524604e44dde198d9b4fd9e1e7b0011d20604ed3ccc0acf013bafe26918",
+      "approvedAt": "2026-11-25",
+      "approvedBy": "docent",
+      "confirmation": "Docent 25/11: S097 queda validat amb les dues esmenes que havíem demanat; passar a muntatge.",
+      "appliedAt": "2026-11-25",
+      "appliedAudio": "./assets/audio/s097-mixed-v1.mp3",
+      "validatedAt": "2026-11-25",
+      "validatedAudioSha256": "8bda965862ac582419d8b518cd91f1677ddf2e0071f955327570e888a5b0fec2"
     },
     {
       "code": "S097",
       "part": "hola",
       "text": "Bon dia. Voldria un bitllet per anar a Portell de Mar aquesta tarda. M’han deixat una habitació prop del passeig de la Marina, però aquí no em conec gens les parades.",
       "pronunciation": "Read the complete opening Bon dia and all the following sentences in the warm older male Ferran/Algenib voice. This whole opening turn was omitted previously; do not skip it.",
-      "status": "received-awaiting-listening",
+      "status": "applied-validated",
       "missingOriginal": true,
       "candidateFile": "assets/audio/repairs/l37-s097-hola-prova.mp3",
       "sourceRawSha256": "e745dbb235852711298ebf545af5ec836adc9e26531e6290cf3c4e457a4ecadd",
       "sourceTakeId": "S097-T01",
       "sourceTakeSha256": "bc2141f6960d93c4870fda81394c97c9c72c05446b6cf414342f08ba78b4b2f3",
       "batchRequestHash": "f8f95587af9933a81a7732a732045a0094ec864fc0d9d79fb70e2daac13764d9",
-      "applied": false
+      "applied": true,
+      "candidateSha256": "713a61be5f56283635dbcec1cec7a0ecd2d04a8b7488fcadefed577a82684f36",
+      "approvedAt": "2026-11-25",
+      "approvedBy": "docent",
+      "confirmation": "Docent 25/11: S097 queda validat amb les dues esmenes que havíem demanat; passar a muntatge.",
+      "appliedAt": "2026-11-25",
+      "appliedAudio": "./assets/audio/s097-mixed-v1.mp3",
+      "validatedAt": "2026-11-25",
+      "validatedAudioSha256": "8bda965862ac582419d8b518cd91f1677ddf2e0071f955327570e888a5b0fec2"
     }
   ],
-  "masterChanged": false
+  "masterChanged": true
 }

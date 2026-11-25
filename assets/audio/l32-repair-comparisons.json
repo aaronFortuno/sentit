@@ -7,14 +7,22 @@
       "part": "introduction",
       "text": "Comprensió oral. El taller canvia de casa. Notícia de ficció.",
       "pronunciation": "Say the complete exercise introduction, title and Notícia de ficció. Do not omit any sentence. Keep initial and final consonants.",
-      "status": "received-awaiting-listening",
+      "status": "applied-validated",
       "missingOriginal": true,
       "candidateFile": "assets/audio/repairs/l32-s056-introduction-prova.mp3",
       "sourceRawSha256": "20d716f9a5513b380c1885e64229e4d4f31e4951d03b0c5e3e53b542a7913fcd",
       "sourceTakeId": "S056-T01",
       "sourceTakeSha256": "fafe5e399b5421f0e177d5a8602c74da49992434fe756e18fbe6ff13e1e31552",
       "batchRequestHash": "a38715e579b55a270d1e2b0f493b471ebe0f7ed700681aceec1aadfd202a5f75",
-      "applied": false
+      "applied": true,
+      "candidateSha256": "5584221a0607f9f304cf2d81f8bff93e7a7f4b3bf6c50d3f7137c845f35574f0",
+      "approvedAt": "2026-11-25",
+      "approvedBy": "docent",
+      "confirmation": "Docent 25/11: les esmenes de S056 passen validació i pot anar a muntatge.",
+      "appliedAt": "2026-11-25",
+      "appliedAudio": "./assets/audio/s056-mixed-v1.mp3",
+      "validatedAt": "2026-11-25",
+      "validatedAudioSha256": "e5d616bfc5b37c2b88aa397d8afbd9f96120f9ae3ad2d014a295859f718c7914"
     },
     {
       "code": "S056",
@@ -22,15 +30,23 @@
       "missingPart": "opening-greeting",
       "text": "Bon dia.",
       "pronunciation": "Say the complete greeting Bon dia, once, in the same adult Mar/Erinome voice. Both words are missing from the original; this is an insertion for audition, without an original greeting clip.",
-      "status": "received-awaiting-listening",
+      "status": "applied-validated",
       "missingOriginal": true,
       "candidateFile": "assets/audio/repairs/l32-s056-trasllat-prova.mp3",
       "sourceRawSha256": "20d716f9a5513b380c1885e64229e4d4f31e4951d03b0c5e3e53b542a7913fcd",
       "sourceTakeId": "S056-T01",
       "sourceTakeSha256": "fafe5e399b5421f0e177d5a8602c74da49992434fe756e18fbe6ff13e1e31552",
       "batchRequestHash": "a38715e579b55a270d1e2b0f493b471ebe0f7ed700681aceec1aadfd202a5f75",
-      "applied": false
+      "applied": true,
+      "candidateSha256": "d5d8e89087cfc5f8666a11404b45ed76dd65c4630962d472f1d81f28906d9149",
+      "approvedAt": "2026-11-25",
+      "approvedBy": "docent",
+      "confirmation": "Docent 25/11: les esmenes de S056 passen validació i pot anar a muntatge.",
+      "appliedAt": "2026-11-25",
+      "appliedAudio": "./assets/audio/s056-mixed-v1.mp3",
+      "validatedAt": "2026-11-25",
+      "validatedAudioSha256": "e5d616bfc5b37c2b88aa397d8afbd9f96120f9ae3ad2d014a295859f718c7914"
     }
   ],
-  "masterChanged": false
+  "masterChanged": true
 }

@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-25",
+  "tool": "image_gen built-in",
+  "code": "S097",
+  "file": "s097-publicacio-v1.webp",
+  "alt": "En Ferran demana informació a la taquilla d’una estació d’autobusos.",
+  "width": 1536,
+  "height": 1024,
+  "references": [
+    "../characters/ferran-model-sheet-v1.webp"
+  ],
+  "models": [
+    "../characters/ferran-model-sheet-v1.webp"
+  ],
+  "sourceImage": "exec-2a0de89d-38b7-45fd-a30e-39e4b7c24891.png",
+  "sourceImageSha256": "0686f1ef4077f5fbd312be39aea7e7aa481eb139264661c67a7089603bc59db2",
+  "prompt": "Use case: illustration-story. Asset: one single landscape 3:2 illustration, ideally 1536×1024, for a Catalan listening-comprehension worksheet and catalogue card, printed around 80 mm wide. Reference images specify only canonical character appearance and established drawing style. Fine naturalistic ink and softly textured muted watercolor, warm paper fading into a generous pure-white border on all four edges; no frame. Warm gentle light, restrained earthy colors. Single coherent specific scene, large readable figures and natural hands, no panels, no labels, writing, numerals, logos or watermark. Keep all reference character faces, ages and clothing consistent; do not include the lettering or layout of the model sheets. Canonical Ferran: elderly man with wavy silver hair, white beard, dark round glasses, charcoal cable-knit cardigan and sage checked shirt. At a bus-station ticket counter he asks an occasional female clerk a practical question. The clerk has short dark curls, no glasses, a navy-blue cardigan, and is listening attentively with empty hands. A soft travel bag rests low beside Ferran, not visibly heavy and mostly cropped by the lower edge. Soft generic service-counter window in background, no readable signage or maps. Do not show clocks, route names, numbers, tickets, a phone, battery levels, platforms, street exits, hotel names, arrows, chosen buses or destination. Do not illustrate the final decision. The clerk must not look like another recurring character.",
+  "encoding": "WebP quality 90; original composition and dimensions retained."
+}

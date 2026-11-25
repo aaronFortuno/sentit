@@ -77,7 +77,8 @@ export const dailyFerranErrands = [
   }),
   dailyProposal({
     id: 'quina-parada-em-queda-mes-a-prop', code: 'S097', title: 'Quina parada em queda més a prop?', grade: '5', level: 'advanced', genre: 'dialogue',
-    seconds: 99, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s097-publicacio-v1.webp","alt":"En Ferran demana informació a la taquilla d’una estació d’autobusos.","width":1536,"height":1024},
+    seconds: 99, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s097-mixed-v1.mp3', tracks: { introduction: './assets/audio/s097-mixed-v1-intro.mp3', body: './assets/audio/s097-mixed-v1-cos.mp3' },
     fragment: { start: 4.74, seconds: 94 },
     voices: { Ferran: 'Algenib', Taquillera: 'Gacrux' }, guestSpeakers: [{ name: 'Taquillera', voice: 'Gacrux', role: 'Empleada d’una estació d’autobusos · ocasional' }], delivery,

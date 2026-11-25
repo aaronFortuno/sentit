@@ -40,7 +40,8 @@ export const dailyMarEnquiries = [
   }),
   dailyProposal({
     id: 'un-paquet-de-bolis-cobrat-dos-cops', code: 'S100', title: 'Un paquet de bolis cobrat dos cops', grade: '6', level: 'easy', genre: 'dialogue',
-    seconds: 98, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s100-publicacio-v1.webp","alt":"La Mar consulta un tiquet amb una dependenta de la papereria.","width":1536,"height":1024},
+    seconds: 98, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s100-mixed-v1.mp3', tracks: { introduction: './assets/audio/s100-mixed-v1-intro.mp3', body: './assets/audio/s100-mixed-v1-cos.mp3' },
     fragment: { start: 4.705, seconds: 93 },
     voices: { Mar: 'Erinome', Dependenta: 'Callirrhoe' }, guestSpeakers: [{ name: 'Dependenta', voice: 'Callirrhoe', role: 'Dependenta d’una papereria · ocasional' }], delivery,

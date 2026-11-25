@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-25",
+  "tool": "image_gen built-in",
+  "code": "S104",
+  "file": "s104-publicacio-v1.webp",
+  "alt": "En Biel i l’Elies observen un full en blanc al taulell del taller.",
+  "width": 1536,
+  "height": 1024,
+  "references": [
+    "../characters/biel-model-sheet-v1.webp",
+    "../characters/elies-model-sheet-v1.webp"
+  ],
+  "models": [
+    "../characters/biel-model-sheet-v1.webp",
+    "../characters/elies-model-sheet-v1.webp"
+  ],
+  "sourceImage": "exec-eaea2bbd-cab9-4538-b968-cf140c3c276c.png",
+  "sourceImageSha256": "631a3518069334f26e004f6bcab142288c53a97e67f241180ab6d569b99fb750",
+  "prompt": "Use case: illustration-story. Asset: one single landscape 3:2 illustration, ideally 1536×1024, for a Catalan listening-comprehension worksheet and catalogue card, printed around 80 mm wide. Input images are character appearance and drawing-style references only: image 1 Biel; image 2 Elies. Match them closely. Biel is a young boy with tousled curly brown hair, charcoal zip hoodie over cream shirt. Elies is an adult man with salt-and-pepper short curls and beard, grey shirt and tan workshop apron. Scene: inside an instrument-repair workshop, Biel has placed a large completely blank sheet of paper flat on a wooden workbench. He lightly holds an edge flat while talking to Elies, who leans forward to look at it with a patient expression and an open hand. A few softly suggested instrument silhouettes establish the workshop. Make the interaction natural and specific. Fine naturalistic ink and softly textured muted watercolor, warm paper fading into a generous pure-white border on all four edges; no frame. Warm gentle light, restrained greens, browns and greys. Single coherent scene, no panels or model-sheet poses. Do not show a bend, a crease, any mounting or reinforcing board, cut cardboard, scissors, tape, poster text, music notes, readable signage, logos, numbers, watermark, or a finished solution. Do not reveal where the poster will be hung or what it advertises. Keep hands anatomically natural, subjects large enough to read at small print size.",
+  "encoding": "WebP quality 90; original composition and dimensions retained."
+}
