@@ -1316,7 +1316,7 @@
     },
     {
       "id": "L38",
-      "state": "authorized",
+      "state": "received",
       "speechTextFormat": "plain-v1",
       "styleFormat": "compact-v1",
       "execution": "background-v1",
@@ -1383,7 +1383,9 @@
       "approvedAt": "2026-11-25T19:58:30.004Z",
       "approvedRequestHash": "5451b4cea3e920f9aa007be12efb850987a7a6376108afb4dff422c3b91341ac",
       "estimatedSeconds": 368,
-      "estimatedInputTokens": 4931
+      "estimatedInputTokens": 4931,
+      "receipt": "assets/audio/synthesis-batches/l38.json",
+      "completedAt": "2026-11-25T20:03:33.548Z"
     }
   ],
   "calibration": {

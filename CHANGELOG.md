@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.115 · 25 de novembre de 2026
+
+- Veus rebudes de S112–S119 en un únic lot amb Erinome, més les esmenes S085/comiat, S093/confirmar i S102/final. Reproductors i comparacions disponibles; tot pendent d’audició, sense muntatge automàtic. Recuperació local del contenidor i metadades, sense repetir la petició ni alterar el ritme.
+- L38: 11 talls, una petició, 351,61 segons rebuts i 1.815 tokens d’entrada segons el proveïdor. Cobertura local sense omissions detectades; la pronunciació i el timbre continuen pendents de validació docent.
+- Recuperació admet el prefix PCM de 10 ms observat, conserva totes les mostres de veu i separa les metadades C2PA/ID3. Originals i resposta preservats; proves de recuperació i descodificació local.
+
 ## 0.1.114 · 25 de novembre de 2026
 
 - S115 i S120: guió i escaleta validats per a síntesi. S116 manté la seva aprovació anterior, sense duplicar-la. Nou guions de la tanda d’equilibri preparats per a veus; filtres i seguiment actualitzats.

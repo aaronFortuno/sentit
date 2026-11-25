@@ -6,7 +6,7 @@
     {
       "id": "P26",
       "title": "Notícies breus de la Mar",
-      "state": "scheduled-as-L38",
+      "state": "voices-received-in-L38",
       "speechTextFormat": "plain-v1",
       "styleFormat": "compact-v1",
       "codes": [
@@ -64,7 +64,7 @@
         "seconds": 379,
         "assumption": "170 spoken words/minute; title and body plus repairs, no artificial pauses. Final payload and actual duration may differ."
       },
-      "note": "Guions S112–S119 validats i enviats a L38 amb S085/comiat, S093/confirmar i S102/final, una sola veu Mar/Erinome. Retorn pendent. S102/sentit amb Informadora/Callirrhoe espera un altre lot compatible.",
+      "note": "L38 rebut: vuit notícies i tres esmenes de Mar. Pendent d’audició docent; cap muntatge automàtic. S102/sentit de la Informadora continua pendent per a un altre lot compatible.",
       "approvedScripts": [
         "S112",
         "S113",

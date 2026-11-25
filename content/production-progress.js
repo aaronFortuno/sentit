@@ -1,4 +1,4 @@
-// Production progress and teacher approvals. Voice and montage validations remain separate.
+// Production stages are separate from editorial review and final listening approval.
 export const productionProgress = {
   "ca-S020": {
     "state": "published",
@@ -5399,7 +5399,24 @@ export const productionProgress = {
         "comiat"
       ],
       "confirmation": "Docent 25/11: repetir l’últim torn de Mar, Doncs pugem juntes, per un canvi de timbre extremadament greu. Resta correcta."
-    }
+    },
+    "repairComparison": "./proves/correccions-l38.html#S085-comiat",
+    "receivedRepairs": [
+      {
+        "code": "S085",
+        "part": "comiat",
+        "text": "Doncs pugem juntes. Entro un moment les bosses i et vinc a ajudar. Els tomàquets ja han viatjat prou per avui.",
+        "pronunciation": "Keep adult female Mar/Erinome, in her warm everyday conversational register. Stable natural female tone from the first words Doncs pugem juntes; no sudden deep baritone or change of speaker.",
+        "status": "received-awaiting-listening",
+        "originalFile": "assets/audio/repairs/l38-s085-comiat-original.mp3",
+        "candidateFile": "assets/audio/repairs/l38-s085-comiat-prova.mp3",
+        "sourceRawSha256": "d57bbc3b3b2098192643be92fb576b7712479884661730de76a9bd6452161333",
+        "sourceTakeId": "S085-T01",
+        "sourceTakeSha256": "76fa131296115bbdcad2ab187b5b2a9c2313d18170930f1d2c1d15e136c65242",
+        "batchRequestHash": "5451b4cea3e920f9aa007be12efb850987a7a6376108afb4dff422c3b91341ac",
+        "applied": false
+      }
+    ]
   },
   "ca-S086": {
     "state": "published",
@@ -5812,7 +5829,24 @@ export const productionProgress = {
         "confirmar"
       ],
       "confirmation": "Docent 25/11: la Mar omet la i de vint-i-cinc a Ah! Doncs el directe, el de les deu i vint-i-cinc. Regenerar aquest torn; resta correcta."
-    }
+    },
+    "repairComparison": "./proves/correccions-l38.html#S093-confirmar",
+    "receivedRepairs": [
+      {
+        "code": "S093",
+        "part": "confirmar",
+        "text": "Ah! Doncs el directe, el de les deu i vint-i-cinc. Jo m’havia fixat només en l’hora de sortir. La meva amiga ja ve expressament a buscar-me i no la vull fer esperar.",
+        "pronunciation": "In deu i vint-i-cinc, pronounce both written I sounds. Vint-i-cinc must include the I between vint and cinc, never vint-cinc. Say the full number fluently, not by spelling it or reading this instruction. Keep the same adult female Mar voice throughout.",
+        "status": "received-awaiting-listening",
+        "originalFile": "assets/audio/repairs/l38-s093-confirmar-original.mp3",
+        "candidateFile": "assets/audio/repairs/l38-s093-confirmar-prova.mp3",
+        "sourceRawSha256": "d57bbc3b3b2098192643be92fb576b7712479884661730de76a9bd6452161333",
+        "sourceTakeId": "S093-T01",
+        "sourceTakeSha256": "66c820836d9636dbfa46fb630f811ba63cec30d373a17db35f83f4691b56fbc8",
+        "batchRequestHash": "5451b4cea3e920f9aa007be12efb850987a7a6376108afb4dff422c3b91341ac",
+        "applied": false
+      }
+    ]
   },
   "ca-S094": {
     "state": "published",
@@ -6354,7 +6388,24 @@ export const productionProgress = {
         "linia"
       ],
       "confirmation": "Docent 25/11: esmenar Til·lers al torn sentit de la Informadora i al torn final de Mar. Conservar linia de Mar, amb pronunciació correcta."
-    }
+    },
+    "repairComparison": "./proves/correccions-l38.html#S102-final",
+    "receivedRepairs": [
+      {
+        "code": "S102",
+        "part": "final",
+        "text": "Sí, està bé: plaça dels Til·lers, cap al centre. Gràcies per atendre’m. Adeu.",
+        "pronunciation": "In Til·lers, pronounce the L gemination clearly: an audible sustained double L /lː/ across the syllable boundary, never the palatal LL sound. Keep the natural Catalan word and the exact assigned adult female voice. Read the entire supplied turn once. Do not read this instruction.",
+        "status": "received-awaiting-listening",
+        "originalFile": "assets/audio/repairs/l38-s102-final-original.mp3",
+        "candidateFile": "assets/audio/repairs/l38-s102-final-prova.mp3",
+        "sourceRawSha256": "dbfe51e338dfe13edbea6f589e2b50227add83c034010620624ca265411144bf",
+        "sourceTakeId": "S102-T01",
+        "sourceTakeSha256": "cf45c4b06820ebd43f8fc0a5032b49fc26f87c08b7786d13a8b867f689356ad5",
+        "batchRequestHash": "5451b4cea3e920f9aa007be12efb850987a7a6376108afb4dff422c3b91341ac",
+        "applied": false
+      }
+    ]
   },
   "ca-S103": {
     "state": "published",
@@ -6762,7 +6813,7 @@ export const productionProgress = {
     }
   },
   "ca-S113": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
     "editorialFingerprint": "fc51545f68389658aa8817713eb55cbfa79965d7e84f846a989ba5ae06a4f87a",
@@ -6770,10 +6821,25 @@ export const productionProgress = {
     "listeningApproval": false,
     "confirmation": "Docent 25/11: S113 també puja a síntesi.",
     "scriptApprovalSource": "Docent 25/11: S113 també puja a síntesi.",
-    "reason": "Guió i escaleta validats. Pendent de completar i congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada."
+    "reason": "Guió i escaleta validats. Pendent de completar i congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S113-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L38"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-25T20:03:33.548Z",
+    "voicePreview": "./proves/veus-rebudes.html#S113",
+    "voicePreviewFile": "./assets/audio/s113-voices-review-v1.mp3"
   },
   "ca-S114": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
     "editorialFingerprint": "64168473d9db415d5fc2db7d38ef0791af662d28fc2f1d420f6812af31cc462d",
@@ -6781,10 +6847,25 @@ export const productionProgress = {
     "listeningApproval": false,
     "confirmation": "Docent 25/11: S114 és vàlid per pujar a síntesi.",
     "scriptApprovalSource": "Docent 25/11: S114 és vàlid per pujar a síntesi.",
-    "reason": "Guió i escaleta validats. Pendent de completar i congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada."
+    "reason": "Guió i escaleta validats. Pendent de completar i congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S114-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L38"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-25T20:03:33.548Z",
+    "voicePreview": "./proves/veus-rebudes.html#S114",
+    "voicePreviewFile": "./assets/audio/s114-voices-review-v1.mp3"
   },
   "ca-S116": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
     "editorialFingerprint": "f92e5dc3c41d10fa3157ba2cb7b22609c50540c69668c65f86731c7a1dd9aa87",
@@ -6792,10 +6873,25 @@ export const productionProgress = {
     "listeningApproval": false,
     "confirmation": "Docent 25/11: S116 i S127 també pugen a síntesi de veus.",
     "scriptApprovalSource": "Docent 25/11: S116 i S127 també pugen a síntesi de veus.",
-    "reason": "Guió i escaleta validats. Pendent de completar i congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada."
+    "reason": "Guió i escaleta validats. Pendent de completar i congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S116-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L38"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-25T20:03:33.548Z",
+    "voicePreview": "./proves/veus-rebudes.html#S116",
+    "voicePreviewFile": "./assets/audio/s116-voices-review-v1.mp3"
   },
   "ca-S119": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
     "editorialFingerprint": "a51786420582c03135de74abcf98cf2236b5eb6e53c0be8ba2ec77c2ff54640f",
@@ -6803,7 +6899,22 @@ export const productionProgress = {
     "listeningApproval": false,
     "confirmation": "Docent 25/11: S119 també puja a síntesi de veus.",
     "scriptApprovalSource": "Docent 25/11: S119 també puja a síntesi de veus.",
-    "reason": "Guió i escaleta validats. Pendent de completar i congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada."
+    "reason": "Guió i escaleta validats. Pendent de completar i congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S119-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L38"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-25T20:03:33.548Z",
+    "voicePreview": "./proves/veus-rebudes.html#S119",
+    "voicePreviewFile": "./assets/audio/s119-voices-review-v1.mp3"
   },
   "ca-S123": {
     "state": "ready-for-voices",
@@ -6839,7 +6950,7 @@ export const productionProgress = {
     "reason": "Guió i escaleta validats. Pendent de completar i congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada."
   },
   "ca-S115": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
     "editorialFingerprint": "31288eb6cbe468ee9f5b905525632c7b01ec9caaae146d39194f82b2ec0b1d96",
@@ -6847,7 +6958,22 @@ export const productionProgress = {
     "listeningApproval": false,
     "confirmation": "Docent 25/11: S115, S120 i S116 validats per síntesi.",
     "scriptApprovalSource": "Docent 25/11: S115, S120 i S116 validats per síntesi.",
-    "reason": "Guió i escaleta validats. Pendent de completar i congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada."
+    "reason": "Guió i escaleta validats. Pendent de completar i congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S115-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L38"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-25T20:03:33.548Z",
+    "voicePreview": "./proves/veus-rebudes.html#S115",
+    "voicePreviewFile": "./assets/audio/s115-voices-review-v1.mp3"
   },
   "ca-S120": {
     "state": "ready-for-voices",
@@ -6861,7 +6987,7 @@ export const productionProgress = {
     "reason": "Guió i escaleta validats. Pendent de completar i congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada."
   },
   "ca-S112": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
     "editorialFingerprint": "539285edcf1642efe668f70f93df62270c59585c1b73eeca2a3d4d147f67f43d",
@@ -6869,10 +6995,25 @@ export const productionProgress = {
     "listeningApproval": false,
     "confirmation": "Docent 25/11: S112 també validat per síntesi.",
     "scriptApprovalSource": "Docent 25/11: S112 també validat per síntesi.",
-    "reason": "Guió i escaleta validats. Pendent de completar i congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada."
+    "reason": "Guió i escaleta validats. Pendent de completar i congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S112-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L38"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-25T20:03:33.548Z",
+    "voicePreview": "./proves/veus-rebudes.html#S112",
+    "voicePreviewFile": "./assets/audio/s112-voices-review-v1.mp3"
   },
   "ca-S117": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
     "editorialFingerprint": "b73371445150891120c9e12b002c9cd4bb4fb88b6826c6609eba9b17afecbfeb",
@@ -6880,10 +7021,25 @@ export const productionProgress = {
     "listeningApproval": false,
     "confirmation": "Docent 25/11: S117 validat, i S118 també, per a síntesi.",
     "scriptApprovalSource": "Docent 25/11: S117 validat, i S118 també, per a síntesi.",
-    "reason": "Guió i escaleta validats. Pendent de congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada."
+    "reason": "Guió i escaleta validats. Pendent de congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S117-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L38"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-25T20:03:33.548Z",
+    "voicePreview": "./proves/veus-rebudes.html#S117",
+    "voicePreviewFile": "./assets/audio/s117-voices-review-v1.mp3"
   },
   "ca-S118": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
     "editorialFingerprint": "0152946eacecfdbc430710e8fa8c09da340594e366be305b20294674f332224f",
@@ -6891,6 +7047,21 @@ export const productionProgress = {
     "listeningApproval": false,
     "confirmation": "Docent 25/11: S117 validat, i S118 també, per a síntesi.",
     "scriptApprovalSource": "Docent 25/11: S117 validat, i S118 també, per a síntesi.",
-    "reason": "Guió i escaleta validats. Pendent de congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada."
+    "reason": "Guió i escaleta validats. Pendent de congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S118-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L38"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-25T20:03:33.548Z",
+    "voicePreview": "./proves/veus-rebudes.html#S118",
+    "voicePreviewFile": "./assets/audio/s118-voices-review-v1.mp3"
   }
 };

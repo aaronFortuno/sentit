@@ -11,7 +11,21 @@ Actualitzat: **25/11/2026**. Aquest document mostra només la feina pendent d’
 | Lot | Material pendent | Veus | Previsió orientativa | Què falta |
 | --- | --- | --- | ---: | --- |
 | L04 | S005: Aquest matí, per exemple, he apartat un sobre per revisar-lo abans de sortir.; S015: Per això es controla la il·luminació i també les condicions de temperatura i humitat. | Vindemiatrix + Kore | 0:22 | Completar amb material del mateix repartiment; S015: conciliar el registre editorial històric abans de preparar l’esmena |
-| L38 | S112; S113; S114; S115; S116; S117; S118; S119; S085: Doncs pugem juntes. Entro un moment les bosses i et vinc a ajudar. Els tomàquets ja han viatjat prou per avui.; S093: Ah! Doncs el directe, el de les deu i vint-i-cinc. Jo m’havia fixat només en l’hora de sortir. La meva amiga ja ve expressament a buscar-me i no la vull fer esperar.; S102: Sí, està bé: plaça dels Til·lers, cap al centre. Gràcies per atendre’m. Adeu. | Erinome | 6:08 | Entrada verificada · pendent d’enviament |
+
+## Veus rebudes · per escoltar abans del muntatge
+
+Les preses originals es conserven i la cobertura s’ha comprovat localment. La pronunciació i la identitat de les veus continuen pendents d’audició; encara no són muntatges finals.
+
+| Peça | Presa |
+| --- | --- |
+| [ca-S112](https://sentit.ortogra.fi/#lectura=ca-S112) | [Escolta les veus](../proves/veus-rebudes.html#S112) |
+| [ca-S113](https://sentit.ortogra.fi/#lectura=ca-S113) | [Escolta les veus](../proves/veus-rebudes.html#S113) |
+| [ca-S114](https://sentit.ortogra.fi/#lectura=ca-S114) | [Escolta les veus](../proves/veus-rebudes.html#S114) |
+| [ca-S115](https://sentit.ortogra.fi/#lectura=ca-S115) | [Escolta les veus](../proves/veus-rebudes.html#S115) |
+| [ca-S116](https://sentit.ortogra.fi/#lectura=ca-S116) | [Escolta les veus](../proves/veus-rebudes.html#S116) |
+| [ca-S117](https://sentit.ortogra.fi/#lectura=ca-S117) | [Escolta les veus](../proves/veus-rebudes.html#S117) |
+| [ca-S118](https://sentit.ortogra.fi/#lectura=ca-S118) | [Escolta les veus](../proves/veus-rebudes.html#S118) |
+| [ca-S119](https://sentit.ortogra.fi/#lectura=ca-S119) | [Escolta les veus](../proves/veus-rebudes.html#S119) |
 
 Les previsions provenen dels guions i del calibratge local; cal recalcular-les amb el format definitiu abans d’enviar. Una mateixa veu en dos guions no implica el mateix personatge. No es canvien repartiments ni s’allarguen guions per omplir un lot.
 
@@ -46,6 +60,9 @@ P02 reuneix quatre lectures breus del mateix repartiment per conservar els guion
 | S010 | Des de la plaça anem pel carrer dels Til·lers fins a la farmàcia. | Pendent d’audició | [L31](../proves/correccions-l31.html) |
 | S081 | Sí, truca abans de venir. T’ho explicaré per telèfon. Aquest matí ja he comprovat la guitarra de préstec i només falta que la guardem a la funda. | Rebutjada · cal una altra prova | [L36](../proves/correccions-l36.html) |
 | S081 | De res, Biel. Espera, que t’aguanto la funda mentre hi poses el full... així... Fins dijous, i ja m’explicaràs com va l’assaig. | Rebutjada · cal una altra prova | [L36](../proves/correccions-l36.html) |
+| S085 | Doncs pugem juntes. Entro un moment les bosses i et vinc a ajudar. Els tomàquets ja han viatjat prou per avui. | Pendent d’audició | [L38](../proves/correccions-l38.html) |
+| S093 | Ah! Doncs el directe, el de les deu i vint-i-cinc. Jo m’havia fixat només en l’hora de sortir. La meva amiga ja ve expressament a buscar-me i no la vull fer esperar. | Pendent d’audició | [L38](../proves/correccions-l38.html) |
+| S102 | Sí, està bé: plaça dels Til·lers, cap al centre. Gràcies per atendre’m. Adeu. | Pendent d’audició | [L38](../proves/correccions-l38.html) |
 
 ### Següents esmenes · encara sense petició
 

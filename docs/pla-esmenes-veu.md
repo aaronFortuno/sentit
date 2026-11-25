@@ -1,6 +1,6 @@
 # Pla d’esmenes de veu
 
-Actualitzat: **25/11/2026**. **21 fragments en 20 preses previstes** encara necessiten síntesi o re-síntesi. Els dos paràgrafs consecutius de S017 s’han de gravar junts. **0 fragment addicional pendent de confirmar a l’àudio net** i **3 fragments ja rebuts que no s’han de tornar a generar ara**.
+Actualitzat: **25/11/2026**. **18 fragments en 17 preses previstes** encara necessiten síntesi o re-síntesi. Els dos paràgrafs consecutius de S017 s’han de gravar junts. **0 fragment addicional pendent de confirmar a l’àudio net** i **6 fragments ja rebuts que no s’han de tornar a generar ara**.
 
 Aquest inventari exclou les esmenes ja incorporades als muntatges i les publicacions definitives. No és una autorització ni una cua executable. No s’ha fet cap petició nova per preparar-lo.
 
@@ -10,7 +10,7 @@ Les esmenes soles no arriben als **6–8 minuts** acordats. Les durades següent
 
 | Bloc candidat | Fragments / preses | Esmenes | Parla estimada | Complement que ajudaria |
 | --- | ---: | --- | ---: | --- |
-| Mar + informadora | 4 / 4 | S085, S093, S102 | 0:38 | Situacions quotidianes de la Mar amb una interlocutora de veu Callirrhoe. |
+| Mar + informadora | 1 / 1 | S102 | 0:15 | Situacions quotidianes de la Mar amb una interlocutora de veu Callirrhoe. |
 | Ferran | 3 / 3 | S088, S109 | 0:33 | Records narrats de Ferran; pot incorporar Aina/Zephyr en nous diàlegs. |
 | Elies | 3 / 3 | S081, S107 | 0:29 | Diàlegs de taller amb Biel/Puck, sense repetir «funda» com a farciment. |
 | Mireia | 3 / 2 | S017, S041 | 0:30 | Escenes d’aula amb una sola veu d’alumne per petició; evitar tornar al muntatge de tres veus. |
@@ -33,15 +33,12 @@ Prioritat pràctica: completar primer **Ferran** i **Mar + informadora**, que te
 | [S041](https://sentit.ortogra.fi/#lectura=ca-S041) | finalreunio | Mireia · Aoede | Retorn docent registrat; cal formalitzar la petició exacta |
 | [S081](https://sentit.ortogra.fi/#lectura=ca-S081) | telefon | Elies · Algieba | Pla exacte disponible; falta completar i verificar el lot |
 | [S081](https://sentit.ortogra.fi/#lectura=ca-S081) | final | Elies · Algieba | Pla exacte disponible; falta completar i verificar el lot |
-| [S085](https://sentit.ortogra.fi/#lectura=ca-S085) | comiat | Mar · Erinome | Pla exacte disponible; falta completar i verificar el lot |
 | [S088](https://sentit.ortogra.fi/#lectura=ca-S088) | hola | Ferran · Algenib | Pla exacte disponible; falta completar i verificar el lot |
 | [S090](https://sentit.ortogra.fi/#lectura=ca-S090) | introduction | Laia · Leda | Pla exacte disponible; falta completar i verificar el lot |
 | [S090](https://sentit.ortogra.fi/#lectura=ca-S090) | pilota | Laia · Leda | Pla exacte disponible; falta completar i verificar el lot |
-| [S093](https://sentit.ortogra.fi/#lectura=ca-S093) | confirmar | Mar · Erinome | Pla exacte disponible; falta completar i verificar el lot |
 | [S095](https://sentit.ortogra.fi/#lectura=ca-S095) | mida | Empleada · Gacrux | Pla exacte disponible; falta completar i verificar el lot |
 | [S095](https://sentit.ortogra.fi/#lectura=ca-S095) | recollida | Empleada · Gacrux | Pla exacte disponible; falta completar i verificar el lot |
 | [S102](https://sentit.ortogra.fi/#lectura=ca-S102) | sentit | Informadora · Callirrhoe | Pla exacte disponible; falta completar i verificar el lot |
-| [S102](https://sentit.ortogra.fi/#lectura=ca-S102) | final | Mar · Erinome | Pla exacte disponible; falta completar i verificar el lot |
 | [S107](https://sentit.ortogra.fi/#lectura=ca-S107) | sortida | Elies · Algieba | Pla exacte disponible; falta completar i verificar el lot |
 | [S109](https://sentit.ortogra.fi/#lectura=ca-S109) | temps | Ferran · Algenib | Pla exacte disponible; falta completar i verificar el lot |
 | [S109](https://sentit.ortogra.fi/#lectura=ca-S109) | final | Ferran · Algenib | Pla exacte disponible; falta completar i verificar el lot |
@@ -51,6 +48,9 @@ Prioritat pràctica: completar primer **Ferran** i **Mar + informadora**, que te
 - **S010 / pla:** fragment validat, pendent d’aplicar. No generar-ne una altra abans de resoldre aquesta revisió.
 - **S010 / alternativa:** presa rebuda, pendent d’audició. No generar-ne una altra abans de resoldre aquesta revisió.
 - **S070 / esperar:** presa rebuda, pendent d’audició; comparació parcial local demanada. No generar-ne una altra abans de resoldre aquesta revisió.
+- **S085 / comiat:** presa rebuda, pendent d’audició. No generar-ne una altra abans de resoldre aquesta revisió.
+- **S093 / confirmar:** presa rebuda, pendent d’audició. No generar-ne una altra abans de resoldre aquesta revisió.
+- **S102 / final:** presa rebuda, pendent d’audició. No generar-ne una altra abans de resoldre aquesta revisió.
 - **S011:** Cal revisar també l’estabilitat del conjunt de veus; dues frases corregides poden no resoldre tota la peça.
 
 La quota disponible es consulta a AI Studio. Aquest document i el registre local no en substitueixen el comptador. [Cua i rebuts](lots-sintesi.md) · [Seguiment de producció](seguiment-produccio.md).

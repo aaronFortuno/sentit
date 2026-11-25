@@ -18,14 +18,14 @@ const { chromium } = require('C:/Users/afortun8/.cache/codex-runtimes/codex-prim
     await page.goto(base+'__choice_checks__');
     const keys=await page.evaluate(async()=>{
       const {activities}=await import('./catalogue.js');
-      const {registerQuestionChoices}=await import('./question-responses.js?v=0.1.114');
+      const {registerQuestionChoices}=await import('./question-responses.js?v=0.1.115');
       await registerQuestionChoices(activities);await document.fonts.ready;
       return activities.map(a=>a.language+'-'+a.code);
     });
     const render=async(key,mode,answerKey,stress=false)=>page.evaluate(async({key,mode,answerKey,stress})=>{
       const {activities}=await import('./catalogue.js');
       const {renderWorksheet,defaultFormat}=await import('./worksheet.js');
-      const {responseQuestion,openOnlyReason}=await import('./question-responses.js?v=0.1.114');
+      const {responseQuestion,openOnlyReason}=await import('./question-responses.js?v=0.1.115');
       const {strings}=await import('./locales.js');
       const {defaultSession}=await import('./session.js');
       const a=activities.find(a=>a.language+'-'+a.code===key),root=document.querySelector('#check-paper');

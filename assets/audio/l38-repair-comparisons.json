@@ -1,0 +1,49 @@
+{
+  "batch": "L38",
+  "requestHash": "5451b4cea3e920f9aa007be12efb850987a7a6376108afb4dff422c3b91341ac",
+  "repairs": [
+    {
+      "code": "S085",
+      "part": "comiat",
+      "text": "Doncs pugem juntes. Entro un moment les bosses i et vinc a ajudar. Els tomàquets ja han viatjat prou per avui.",
+      "pronunciation": "Keep adult female Mar/Erinome, in her warm everyday conversational register. Stable natural female tone from the first words Doncs pugem juntes; no sudden deep baritone or change of speaker.",
+      "status": "received-awaiting-listening",
+      "originalFile": "assets/audio/repairs/l38-s085-comiat-original.mp3",
+      "candidateFile": "assets/audio/repairs/l38-s085-comiat-prova.mp3",
+      "sourceRawSha256": "d57bbc3b3b2098192643be92fb576b7712479884661730de76a9bd6452161333",
+      "sourceTakeId": "S085-T01",
+      "sourceTakeSha256": "76fa131296115bbdcad2ab187b5b2a9c2313d18170930f1d2c1d15e136c65242",
+      "batchRequestHash": "5451b4cea3e920f9aa007be12efb850987a7a6376108afb4dff422c3b91341ac",
+      "applied": false
+    },
+    {
+      "code": "S093",
+      "part": "confirmar",
+      "text": "Ah! Doncs el directe, el de les deu i vint-i-cinc. Jo m’havia fixat només en l’hora de sortir. La meva amiga ja ve expressament a buscar-me i no la vull fer esperar.",
+      "pronunciation": "In deu i vint-i-cinc, pronounce both written I sounds. Vint-i-cinc must include the I between vint and cinc, never vint-cinc. Say the full number fluently, not by spelling it or reading this instruction. Keep the same adult female Mar voice throughout.",
+      "status": "received-awaiting-listening",
+      "originalFile": "assets/audio/repairs/l38-s093-confirmar-original.mp3",
+      "candidateFile": "assets/audio/repairs/l38-s093-confirmar-prova.mp3",
+      "sourceRawSha256": "d57bbc3b3b2098192643be92fb576b7712479884661730de76a9bd6452161333",
+      "sourceTakeId": "S093-T01",
+      "sourceTakeSha256": "66c820836d9636dbfa46fb630f811ba63cec30d373a17db35f83f4691b56fbc8",
+      "batchRequestHash": "5451b4cea3e920f9aa007be12efb850987a7a6376108afb4dff422c3b91341ac",
+      "applied": false
+    },
+    {
+      "code": "S102",
+      "part": "final",
+      "text": "Sí, està bé: plaça dels Til·lers, cap al centre. Gràcies per atendre’m. Adeu.",
+      "pronunciation": "In Til·lers, pronounce the L gemination clearly: an audible sustained double L /lː/ across the syllable boundary, never the palatal LL sound. Keep the natural Catalan word and the exact assigned adult female voice. Read the entire supplied turn once. Do not read this instruction.",
+      "status": "received-awaiting-listening",
+      "originalFile": "assets/audio/repairs/l38-s102-final-original.mp3",
+      "candidateFile": "assets/audio/repairs/l38-s102-final-prova.mp3",
+      "sourceRawSha256": "dbfe51e338dfe13edbea6f589e2b50227add83c034010620624ca265411144bf",
+      "sourceTakeId": "S102-T01",
+      "sourceTakeSha256": "cf45c4b06820ebd43f8fc0a5032b49fc26f87c08b7786d13a8b867f689356ad5",
+      "batchRequestHash": "5451b4cea3e920f9aa007be12efb850987a7a6376108afb4dff422c3b91341ac",
+      "applied": false
+    }
+  ],
+  "masterChanged": false
+}

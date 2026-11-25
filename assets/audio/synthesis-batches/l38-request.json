@@ -1,0 +1,133 @@
+{
+  "model": "gemini-3.8-flash-tts",
+  "input": [
+    {
+      "type": "user_input",
+      "content": [
+        {
+          "type": "text",
+          "text": "Comprensió oral. El bibliobús visita l’escola. Notícia de ficció.\n\nBon dia. Dijous al matí, el bibliobús farà una parada al costat de l’escola. És un autobús que porta prestatges plens de llibres. Quedarà aparcat a la plaça petita, davant de la porta del gimnàs.\n\nLes classes hi entraran per torns, acompanyades de la mestra. La bibliotecària els ensenyarà on són els contes i els llibres d’animals. Després, cada nen podrà triar un llibre per endur-se’l en préstec.\n\nQui ja tingui un llibre del bibliobús el pot portar per tornar-lo. Abans de marxar, la bibliotecària dirà quin dia tornarà a passar. Les mestres recordaran demà a cada grup quan li toca la visita.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants. Mar manté Erinome i el to proper de noticiari local. Dicció clara i ritme àgil sense córrer. Una novetat principal per peça; llegir només text parlat, sense afegir indicacions ni efectes. Read the title and complete programme verbatim. Leave a brief quiet boundary after the title, without speaking any stage directions or pause instructions. No added sounds, music, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its story. Keep this same single character voice throughout all recordings. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. Un arbre nou al pati. Notícia de ficció.\n\nBon dia. Divendres, l’escola plantarà un arbre al racó del pati on abans hi havia una jardinera trencada. L’equip de jardineria ja ha preparat el clot. Els alumnes de tercer hi aniran després d’esmorzar per veure com el col·loquen.\n\nQuan els jardiners acabin, cada grup podrà ajudar a regar-lo amb una regadora petita. A terra hi haurà unes estaques amb una corda al voltant. Serviran per deixar lliure aquell tros de pati mentre l’arbre comença a arrelar.\n\nA la sortida, les famílies el podran veure des del camí d’entrada. Al costat hi trobaran un petit cartell amb el nom de l’arbre, preparat a classe. La plantada es farà durant el matí.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same natural Central Catalan voice, pace and character. Read the words verbatim, with conversational turn-taking. No added sounds. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its story. Keep this same single character voice throughout all recordings. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. L’assaig s’obre al barri. Notícia de ficció.\n\nBona tarda. El grup de música del centre cívic obrirà una part de l’assaig al veïnat aquest dissabte. A les cinc, qui vulgui escoltar-los podrà entrar a la sala petita. L’entrada serà gratuïta i hi haurà cadires preparades.\n\nEls músics tocaran una cançó i després repetiran els trossos que encara estan preparant. La directora explicarà què proven cada vegada. Si s’equivoquen o s’aturen, els visitants podran sentir com ho tornen a intentar.\n\nA dos quarts de sis, el públic sortirà i el grup continuarà assajant sol. Per entrar, caldrà passar pel vestíbul del centre cívic. La directora espera que aquesta estona ajudi a conèixer la feina que hi ha abans d’un concert.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same natural Central Catalan voice, pace and character. Read the words verbatim, with conversational turn-taking. No added sounds. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its story. Keep this same single character voice throughout all recordings. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. La font torna a rajar. Notícia de ficció.\n\nBon dia. La font del parc del Molí torna a funcionar des d’aquest matí. Feia una setmana que estava tancada perquè perdia aigua per un tub de sota. Els operaris han canviat el tros que estava trencat i han comprovat que ja no perd.\n\nAl voltant de la font encara hi ha una part de terra aixecada. L’han protegida amb una tanca baixa i han deixat un pas des del camí per poder-hi arribar. Les persones que vagin al parc ja hi podran omplir l’ampolla.\n\nLa setmana que ve es tornaran a posar les rajoles del costat. Fins aleshores, la tanca es mantindrà al lloc de les obres. Les feines quedaran fora del pas preparat per acostar-se a la font.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same natural Central Catalan voice, pace and character. Read the words verbatim, with conversational turn-taking. No added sounds. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its story. Keep this same single character voice throughout all recordings. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. Una tarda per mirar les estrelles. Notícia de ficció.\n\nBona tarda. Divendres, l’escola farà una trobada per observar el cel. Les famílies es trobaran a les sis al menjador, on els voluntaris explicaran com es farà servir el telescopi. Qui vulgui podrà portar el berenar.\n\nQuan es faci fosc, sortiran al pati per mirar pel telescopi en grups petits. Mentre uns observen, els altres podran fer preguntes a una astrònoma convidada. Cada grup passarà per les dues activitats.\n\nSi els núvols tapen el cel, es quedaran al menjador. L’astrònoma hi mostrarà fotografies del cel i explicarà què s’hi veu. La trobada es manté encara que aquell vespre no es pugui mirar directament les estrelles.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same natural Central Catalan voice, pace and character. Read the words verbatim, with conversational turn-taking. No added sounds. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its story. Keep this same single character voice throughout all recordings. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. Els patinets estrenen aparcament. Notícia de ficció.\n\nBon dia. Dilluns s’estrenarà un aparcament per als patinets de l’escola. L’han posat al costat del porxo. Fins ara molts quedaven arrambats a la paret de l’entrada i envaïen una part del pas fins a la rampa.\n\nAl nou aparcament, cada patinet tindrà un espai entre dues barres. Qui hi arribi haurà de baixar del patinet a la porta del pati i portar-lo caminant fins al seu lloc. L’escola ha demanat que cadascú porti un cadenat.\n\nLes motxilles aniran a l’aula, com fins ara. En deixar el patinet, caldrà comprovar que el manillar no sobresurti cap al camí. Durant els primers dies, una persona de l’escola ajudarà a trobar els llocs lliures.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same natural Central Catalan voice, pace and character. Read the words verbatim, with conversational turn-taking. No added sounds. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its story. Keep this same single character voice throughout all recordings. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. La capsa de fotografies arriba a l’arxiu. Notícia de ficció.\n\nBona tarda. Una família del barri ha portat a l’arxiu una capsa de fotografies que havia trobat a les golfes. Hi surten festes al carrer i botigues que ja han canviat molt. Algunes imatges tenen una data escrita al darrere, però en moltes no hi ha noms.\n\nEl personal de l’arxiu les està digitalitzant: en fa una còpia que es pot mirar a l’ordinador. Quan acabin aquesta feina, tornaran les fotografies originals a la família.\n\nEl mes que ve, el veïnat podrà veure les còpies en una trobada a la biblioteca. Qui reconegui una persona o un establiment ho podrà explicar perquè quedi apuntat. L’arxiu espera completar així la informació de les imatges.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same natural Central Catalan voice, pace and character. Read the words verbatim, with conversational turn-taking. No added sounds. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its story. Keep this same single character voice throughout all recordings. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. El concert busca un altre espai. Notícia de ficció.\n\nBona tarda. L’organització del concert de dissabte busca un altre espai davant la previsió de pluja. El programa el situava a la plaça, però ara s’està preparant la sala d’actes de l’escola. Els músics mantenen l’assaig i l’hora del concert, les sis.\n\nAbans d’anunciar el canvi, comprovaran si hi caben els intèrprets i les cadires del públic. Ja han portat els faristols a la sala per fer-ne una prova. Les entrades que s’han repartit serviran al lloc que finalment es confirmi.\n\nDemà al matí es publicarà la ubicació al web de l’escola i al cartell del centre cívic. Les famílies podran consultar-ho abans de sortir de casa dissabte.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same natural Central Catalan voice, pace and character. Read the words verbatim, with conversational turn-taking. No added sounds. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its story. Keep this same single character voice throughout all recordings. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Doncs pugem juntes. Entro un moment les bosses i et vinc a ajudar. Els tomàquets ja han viatjat prou per avui.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan. Preserve the exact assigned recurring character and their natural conversational pace. Read each supplied turn once, with complete consonant onsets and endings. No title unless supplied, extra words, labels, breaths, sounds, or spoken instructions. Keep adult female Mar/Erinome, in her warm everyday conversational register. Stable natural female tone from the first words Doncs pugem juntes; no sudden deep baritone or change of speaker. This is a separate repair paragraph with no title. Keep the same character voice as in the complete recordings. Read every supplied word once, including the first sentence. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ah! Doncs el directe, el de les deu i vint-i-cinc. Jo m’havia fixat només en l’hora de sortir. La meva amiga ja ve expressament a buscar-me i no la vull fer esperar.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan. Keep the exact adult female Mar/Erinome identity, warm everyday conversational register and natural pace. Read the complete supplied turn once, without title, added words, labels, sounds, or spoken instructions. In deu i vint-i-cinc, pronounce both written I sounds. Vint-i-cinc must include the I between vint and cinc, never vint-cinc. Say the full number fluently, not by spelling it or reading this instruction. Keep the same adult female Mar voice throughout. This is a separate repair paragraph with no title. Keep the same character voice as in the complete recordings. Read every supplied word once, including the first sentence. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí, està bé: plaça dels Til·lers, cap al centre. Gràcies per atendre’m. Adeu.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan everyday conversation. Keep Mar/Erinome and Informadora/Callirrhoe as two stable adult female voices, each on her own complete turn. No title, added words, labels, effects, or spoken instructions. In Til·lers, pronounce the L gemination clearly: an audible sustained double L /lː/ across the syllable boundary, never the palatal LL sound. Keep the natural Catalan word and the exact assigned adult female voice. Read the entire supplied turn once. Do not read this instruction. This is a separate repair paragraph with no title. Keep the same character voice as in the complete recordings. Read every supplied word once, including the first sentence. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "response_format": {
+    "type": "audio",
+    "mime_type": "audio/wav",
+    "sample_rate": 24000
+  },
+  "generation_config": {
+    "speech_config": [
+      {
+        "voice": "Erinome"
+      }
+    ]
+  },
+  "background": true
+}
