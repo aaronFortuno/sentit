@@ -1,5 +1,10 @@
 # Canvis
 
+## 0.1.114 · 25 de novembre de 2026
+
+- S115 i S120: guió i escaleta validats per a síntesi. S116 manté la seva aprovació anterior, sense duplicar-la. Nou guions de la tanda d’equilibri preparats per a veus; filtres i seguiment actualitzats.
+- Els candidats P26–P28 compten també les esmenes pendents: previsions completes de 6:19, 6:13 i 6:52. El seguiment diferencia la durada del material validat ara de la del lot complet, amb els codis que encara falten validar. Cap lot complet disponible ni petició nova de síntesi.
+
 ## 0.1.113 · 25 de novembre de 2026
 
 - Pilots S128 «El lleó i el ratolí», S129 «Sant Jordi i la rosa» i S130 «El fil d’Ariadna»: nous universos de faules, llegendes i mites. Guió, escaleta, fonts, context i 18 preguntes obertes/ABCD amb revisió adversària exacta; pendents de validació docent.

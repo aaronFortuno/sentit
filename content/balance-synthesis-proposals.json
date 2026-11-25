@@ -68,12 +68,12 @@
       "approvedScripts": [
         "S113",
         "S114",
+        "S115",
         "S116",
         "S119"
       ],
       "pendingScripts": [
         "S112",
-        "S115",
         "S117",
         "S118"
       ]
@@ -129,10 +129,10 @@
       },
       "note": "Candidat editorial complet, sense autorització de síntesi. Validació docent de guions, veus i escaleta pendent. Congelar plans d’esmena i empremta exacta abans d’enviar. Un sol lot en curs, respectant els límits.",
       "approvedScripts": [
+        "S120",
         "S123"
       ],
       "pendingScripts": [
-        "S120",
         "S121",
         "S122"
       ]

@@ -140,23 +140,30 @@ export async function productionDocuments(date) {
   }
   synthesis += '\nLes previsions provenen dels guions i del calibratge local; cal recalcular-les amb el format definitiu abans d’enviar. Una mateixa veu en dos guions no implica el mateix personatge. No es canvien repartiments ni s’allarguen guions per omplir un lot.\n';
   const proposals = await json('content/synthesis-proposals.json');
+  const balance = await json('content/balance-synthesis-proposals.json');
+  const correctionQueue = repairQueue(activities, productionProgress, repairs);
   const validationPriorities = [];
   const plannedIds = new Set(batchCatalogue.batches.filter(batch=>!batch.supersededBy&&['planned','authorized','provider-failed'].includes(batch.state)).flatMap(batch=>batch.blocks.map(ref=>ref.take??ref.code+'-'+ref.part)));
-  synthesis += '\n## Agrupacions candidates · validació i preparació pendents\n\nLa previsió utilitza el text pla real, amb els títols i sense marques literals de pausa ni marges afegits per omplir la petició. Un grup de guions validats encara necessita preparar i comprovar l’entrada definitiva abans d’enviar-lo. Els candidats petits continuen esperant material compatible.\n\n| Proposta | Repartiment | Comprensions | Previsió en text pla | Mida orientativa | Guions validats | Validacions que falten |\n| --- | --- | --- | ---: | --- | ---: | --- |\n';
+  synthesis += '\n## Agrupacions candidates · validació i preparació pendents\n\nLa previsió utilitza el text pla real, amb els títols i sense marques literals de pausa ni marges afegits per omplir la petició. «Disponible ara» suma només els guions validats i les esmenes candidates encara pendents. Un grup de guions validats encara necessita preparar i comprovar l’entrada definitiva abans d’enviar-lo. Els candidats petits continuen esperant material compatible.\n\n| Proposta | Repartiment | Comprensions | Previsió completa | Disponible ara | Mida orientativa | Guions validats | Validacions que falten |\n| --- | --- | --- | ---: | ---: | --- | ---: | --- |\n';
   for (const group of proposals.groups) {
     const proposed = group.codes.map(code => activities.find(entry => entry.code === code));
     if (proposed.some(entry => !entry)) throw Error('Unknown activity in batch proposal: ' + group.id);
     const entries = proposed.filter(entry => !entry.audio && !hasPendingMontage(entry) && !entry.generationPlan?.takes.some(take => receivedIds.has(take.id)||plannedIds.has(take.id)));
     if (!entries.length) continue;
-    const seconds = plainSpeechForecast(entries).seconds;
-    synthesis += row([group.anchor ? `[${group.id}](lot-cicle-superior.md#${group.anchor})` : group.id, group.cast, list(entries), clock(seconds), seconds < policy.minimumSeconds ? 'Per completar' : seconds > policy.maximumSeconds ? 'Per dividir' : 'Dins la finestra prevista', entries.filter(teacherApproved).length + '/' + entries.length, list(entries.filter(entry => !teacherApproved(entry)))]);
+    const repairCandidates = balance.groups.find(candidate => candidate.id === group.id)?.repairCandidates ?? [];
+    const queuedRepairs = repairCandidates.map(ref => correctionQueue.queued.find(item => item.code === ref.code && item.part === ref.part)).filter(Boolean);
+    const seconds = plainSpeechForecast(entries, queuedRepairs.map(item => item.text)).seconds;
+    const approvedEntries = entries.filter(teacherApproved);
+    const readySeconds = approvedEntries.length ? plainSpeechForecast(approvedEntries, queuedRepairs.map(item => item.text)).seconds : null;
+    synthesis += row([group.anchor ? `[${group.id}](lot-cicle-superior.md#${group.anchor})` : group.id, group.cast, list(entries), clock(seconds) + (queuedRepairs.length ? ` amb ${queuedRepairs.length} fragments d’esmena` : ''), readySeconds === null ? '—' : clock(readySeconds), seconds < policy.minimumSeconds ? 'Per completar' : seconds > policy.maximumSeconds ? 'Per dividir' : 'Dins la finestra prevista', approvedEntries.length + '/' + entries.length, list(entries.filter(entry => !teacherApproved(entry)))]);
     const missing = entries.filter(entry => !teacherApproved(entry));
-    if (missing.length && seconds >= policy.minimumSeconds && seconds <= policy.maximumSeconds) validationPriorities.push({ group, entries, missing, seconds });
+    if (missing.length && seconds >= policy.minimumSeconds && seconds <= policy.maximumSeconds) validationPriorities.push({ group, entries, missing, seconds, queuedRepairs });
   }
+  synthesis += '\nLes previsions «amb esmenes» sumen només els fragments que encara són a la cua, no les proves ja rebudes. La composició de P26–P28 és al [pla d’equilibri](pla-equilibri-2026-11-25.md). S017/S041 encara requereixen formalitzar la presa exacta; P26 ha de resoldre també l’encaix de l’esmena d’informadora, que no parla a les notícies noves. Cap d’aquestes previsions equival a una entrada congelada i preparada per enviar.\n';
   if (validationPriorities.length) {
     validationPriorities.sort((a,b) => a.missing.length - b.missing.length || a.group.id.localeCompare(b.group.id));
     let priority = '\n## Validacions que completen un lot\n\nOrdenades pel nombre de guions que falta validar. Són candidats de mida compatible; després cal preparar l’entrada definitiva.\n\n| Prioritat | Guions que falten | Lot complet resultant | Text pla estimat |\n| --- | --- | --- | ---: |\n';
-    for (const item of validationPriorities) priority += row([item.group.id, list(item.missing), list(item.entries), clock(item.seconds)]);
+    for (const item of validationPriorities) priority += row([item.group.id, list(item.missing), list(item.entries) + (item.queuedRepairs.length ? `; esmenes ${[...new Set(item.queuedRepairs.map(repair=>repair.code))].join(', ')}` : ''), clock(item.seconds)]);
     synthesis = synthesis.replace('\n## Agrupacions candidates', priority + '\n## Agrupacions candidates');
   }
   synthesis += '\nP02 reuneix quatre lectures breus del mateix repartiment per conservar els guions de 3r curts i senzills. Els grups nous de 5è–6è es poden validar per repartiments sencers i es proposen en lots de dues o tres comprensions completes. Les previsions utilitzen el text pla i encara s’han de verificar amb l’entrada definitiva; la validació dels guions no garanteix que la mida final del lot sigui admissible. Les preses ja rebudes s’exclouen d’aquesta taula. [Tanda de 3r–4t](lot-cicle-mitja.md) · [Tanda de 5è–6è per repartiment](lot-cicle-superior.md) · [Composició proposada](../content/synthesis-proposals.json).\n\n## Esmenes de veu\n\n| Peça | Prova rebuda | Estat actual | Comparació |\n| --- | --- | --- | --- |\n';

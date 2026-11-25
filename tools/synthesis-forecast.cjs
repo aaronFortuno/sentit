@@ -3,7 +3,7 @@
 const { packedProposalRequests } = require('./proposal-plan.cjs');
 const { estimateSynthesis } = require('./audio-batch-policy.cjs');
 
-function plainSpeechForecast(entries) {
+function plainSpeechForecast(entries, additionalSpeech = []) {
   const content = entries.flatMap(entry => {
     const requests = packedProposalRequests(entry);
     if (requests.length !== 1) throw Error(entry.code + ': forecast requires one complete take');
@@ -13,6 +13,11 @@ function plainSpeechForecast(entries) {
       return { type: 'text', text };
     });
   });
+  // Include only actual pending correction text, never estimated padding.
+  for (const text of additionalSpeech) {
+    if (typeof text !== 'string' || !text.trim() || /[<>|]/u.test(text)) throw Error('Invalid additional spoken text');
+    content.push({type:'text',text});
+  }
   return estimateSynthesis({ input: [{ content }] });
 }
 

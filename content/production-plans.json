@@ -2573,9 +2573,9 @@
     "approvalSource": "Docent 25/11: S114 és vàlid per pujar a síntesi."
   },
   "S115": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "f6724652c479b9bd7f02f6d09e167f13400fd5b09363161494557b91a0e46779",
+    "reviewedAt": "2026-11-25",
     "reviewActivity": "ca-S115",
     "reviewContent": "content/propostes/equilibri/noticies.js",
     "format": "3r intermèdia. Relacionar avaria i reparació, distingir servei recuperat i treball del voltant sense reserves preventives. Cinc preguntes amb resposta determinada.",
@@ -2589,7 +2589,8 @@
       "Mar": "Erinome"
     },
     "strategy": "plain-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 25/11: S115, S120 i S116 validats per síntesi."
   },
   "S116": {
     "status": "approved",
@@ -2670,9 +2671,9 @@
     "approvalSource": "Docent 25/11: S119 també puja a síntesi de veus."
   },
   "S120": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "8f2c3c86419960b62f5220a73dd66c1e84f819060496c1da3e19ffde3248d257",
+    "reviewedAt": "2026-11-25",
     "reviewActivity": "ca-S120",
     "reviewContent": "content/propostes/equilibri/explicacions.js",
     "format": "3r accessible. Una relació mecànica concreta, amb les dues cares descrites en veu alta. Sis preguntes breus, respostes obertes i ABCD. L’alumne no ha de veure les tires ni saber-ne el nom tècnic.",
@@ -2687,7 +2688,8 @@
       "Laia": "Leda"
     },
     "strategy": "plain-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 25/11: S115, S120 i S116 validats per síntesi."
   },
   "S121": {
     "status": "awaiting-validation",

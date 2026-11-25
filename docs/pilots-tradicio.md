@@ -28,6 +28,6 @@ Escaleta comuna: títol i cos en una presa, límit títol/cos retallat localment
 
 ## Validacions rebudes de la tanda anterior
 
-**S113, S114, S116, S119, S123, S125 i S127** tenen guió i escaleta validats per a síntesi. S125 incorpora «Per tocar» i «Gastades» com a rètols literals a guió, resposta i ABCD; el canvi ha passat revisió independent. Les altres peces conserven el seu text. Els candidats P26–P28 encara necessiten les validacions restants abans de congelar el conjunt. No s’ha enviat cap petició nova.
+**S113, S114, S115, S116, S119, S120, S123, S125 i S127** tenen guió i escaleta validats per a síntesi. S125 incorpora «Per tocar» i «Gastades» com a rètols literals a guió, resposta i ABCD; el canvi ha passat revisió independent. Les altres peces conserven el seu text. Els candidats P26–P28 encara necessiten les validacions restants abans de congelar el conjunt. No s’ha enviat cap petició nova.
 
 [Pla S112–S127](pla-equilibri-2026-11-25.md) · [Feina pendent](seguiment-produccio.md) · [Cua de síntesi](lots-sintesi.md).

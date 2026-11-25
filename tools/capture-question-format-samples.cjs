@@ -24,7 +24,7 @@ const sha = buffer => createHash('sha256').update(buffer).digest('hex');
       const source = await page.evaluate(async mode => {
         const { activities } = await import('./catalogue.js');
         const { renderWorksheet, defaultFormat } = await import('./worksheet.js');
-        const { responseQuestion, registerQuestionChoices } = await import('./question-responses.js?v=0.1.113');
+        const { responseQuestion, registerQuestionChoices } = await import('./question-responses.js?v=0.1.114');
         const { strings } = await import('./locales.js');
         const entry = activities.find(a => a.code === 'S001' && a.language === 'ca');
         await registerQuestionChoices([entry]);

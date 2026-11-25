@@ -2,8 +2,8 @@ import { clockTime } from './session.js';
 import { buildEvidence, evidenceQuestions, evidenceSegments } from './evidence.js';
 import { isPendingReview, isAudioReview, needsReview, reviewScript } from './review.js';
 import { isEditoriallyReviewed, reviewCaption, hasPendingMontage, hasApprovedScript } from './editorial-review.js';
-import { listeningContext } from './content/listening-contexts.js?v=0.1.113';
-import { responseQuestion, responseSummary } from './question-responses.js?v=0.1.113';
+import { listeningContext } from './content/listening-contexts.js?v=0.1.114';
+import { responseQuestion, responseSummary } from './question-responses.js?v=0.1.114';
 
 export const defaultFormat = { font: 'serif', size: 12, spacing: 7, leading: 1.6 };
 

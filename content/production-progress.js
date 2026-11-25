@@ -6837,5 +6837,27 @@ export const productionProgress = {
     "confirmation": "Docent 25/11: S116 i S127 també pugen a síntesi de veus.",
     "scriptApprovalSource": "Docent 25/11: S116 i S127 també pugen a síntesi de veus.",
     "reason": "Guió i escaleta validats. Pendent de completar i congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada."
+  },
+  "ca-S115": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-25",
+    "scriptApprovedAt": "2026-11-25",
+    "editorialFingerprint": "31288eb6cbe468ee9f5b905525632c7b01ec9caaae146d39194f82b2ec0b1d96",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "Docent 25/11: S115, S120 i S116 validats per síntesi.",
+    "scriptApprovalSource": "Docent 25/11: S115, S120 i S116 validats per síntesi.",
+    "reason": "Guió i escaleta validats. Pendent de completar i congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada."
+  },
+  "ca-S120": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-25",
+    "scriptApprovedAt": "2026-11-25",
+    "editorialFingerprint": "1cbc1f2676b4675d05020893d617b0be48cd6fdd8a4f217a20cc5aa64869f9f6",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "Docent 25/11: S115, S120 i S116 validats per síntesi.",
+    "scriptApprovalSource": "Docent 25/11: S115, S120 i S116 validats per síntesi.",
+    "reason": "Guió i escaleta validats. Pendent de completar i congelar un lot compatible de sis a vuit minuts; cap síntesi nova enviada."
   }
 };
