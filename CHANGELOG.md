@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.117 · 25 de novembre de 2026
+
+- Veus de S112, S113, S115, S117, S119, S121 i S127 validades pel docent i muntatges disponibles per a audició. La validació definitiva de cada muntatge continua pendent.
+- Cinc notícies amb la base comuna enregistrada, atenuada sota la Mar i amb entrada i sortida. S121 amb ambient real de pati escolar; S127 amb interior de taller discret. Sense efectes puntuals ni pauses afegides.
+- Preses originals i timbres conservats; zero peticions noves. Registre de fonts, durades i seguiment actualitzats. El preparador comprova la capçalera abans de renderitzar i admet els espaiats dels nous guions.
+
 ## 0.1.116 · 25 de novembre de 2026
 
 - Guions S121, S122, S124, S126 i pilots S128–S130 validats pel docent. Els pilots conserven el narrador anònim i la flexibilitat de timbre autoritzada; esperen una agrupació útil de sis a vuit minuts.

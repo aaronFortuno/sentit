@@ -1,6 +1,6 @@
 # L39 i L40 · veus per validar
 
-Rebuts el **25/11/2026**, amb una petició per lot. Tots els guions nous S112–S130 tenen el vistiplau docent. Aquestes gravacions són només veus: cal validar dicció, artefactes i continuïtat abans de fer-ne els muntatges.
+Rebuts el **25/11/2026**, amb una petició per lot. Tots els guions nous S112–S130 tenen el vistiplau docent. S121 i S127 ja tenen veus validades i primers muntatges pendents d’audició. La resta d’aquestes gravacions són només veus: cal validar dicció, artefactes i continuïtat abans de muntar.
 
 | Lot | Veus | Guions nous | Esmenes | Previsió / retorn real |
 | --- | --- | --- | --- | --- |
@@ -18,7 +18,7 @@ Rebuts el **25/11/2026**, amb una petició per lot. Tots els guions nous S112–
 - [S126 · Com es prova un instrument reparat?](https://sentit.ortogra.fi/#lectura=ca-S126)
 - [S127 · Quan val la pena reparar un instrument?](https://sentit.ortogra.fi/#lectura=ca-S127)
 
-Les fitxes tenen «Escolta les veus rebudes», amb comptador i barra per avançar. Les esmenes són a «Escolta les esmenes» de cada peça, i també agrupades a [L39 · Elies](../proves/correccions-l39.html) i [L40 · Mireia](../proves/correccions-l40.html). Cap prova està aplicada als màsters anteriors.
+Les fitxes amb veu pendent tenen «Escolta les veus rebudes», amb comptador i barra per avançar. S121 i S127 ja mostren el primer muntatge a «Escolta la comprensió». S112, S113, S115, S117 i S119, de L38, també tenen muntatge pendent d’audició. Les esmenes són a «Escolta les esmenes» de cada peça, i també agrupades a [L39 · Elies](../proves/correccions-l39.html) i [L40 · Mireia](../proves/correccions-l40.html). Cap prova està aplicada als màsters anteriors.
 
 ## Conservació i comprovació
 

@@ -6867,7 +6867,7 @@ export const productionProgress = {
     }
   },
   "ca-S113": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
     "editorialFingerprint": "fc51545f68389658aa8817713eb55cbfa79965d7e84f846a989ba5ae06a4f87a",
@@ -6886,11 +6886,30 @@ export const productionProgress = {
         "L38"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-25",
+      "sourceTakeSha256": "ee83184fc1b51c08598c06c0db87851043e65fe0d1796507f8e8c247d8494445",
+      "sourceBatch": "L38",
+      "confirmation": "Docent 25/11: S119, S117, S115, S113, S112, S121 i S127 validats per pujar a muntatge."
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-25T20:03:33.548Z",
     "voicePreview": "./proves/veus-rebudes.html#S113",
-    "voicePreviewFile": "./assets/audio/s113-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s113-voices-review-v1.mp3",
+    "mountedAt": "2026-11-25T21:07:40.876Z",
+    "synthesisBatch": "L38",
+    "requestHash": "5451b4cea3e920f9aa007be12efb850987a7a6376108afb4dff422c3b91341ac",
+    "audioSha256": "08f9b5796fbf412e8a0d38975d79bd8726324dcf64ead0dc6bd119b23f0489c4",
+    "montageNewSynthesisRequests": 0,
+    "reviewUpdate": {
+      "audio": "./assets/audio/s113-mixed-v1.mp3",
+      "at": "2026-11-25",
+      "summary": {
+        "ca": "Primer muntatge amb les veus validades. Base comuna «Breaking News Background Music», amb entrada, música contínua atenuada sota la Mar i sortida. Sense papers ni tons afegits. Pendent de la teva audició.",
+        "es": "Primer montaje con las voces validadas y fondo continuo discreto, con entrada y salida. Pendiente de escucha."
+      }
+    }
   },
   "ca-S114": {
     "state": "voices-received",
@@ -6945,7 +6964,7 @@ export const productionProgress = {
     "voicePreviewFile": "./assets/audio/s116-voices-review-v1.mp3"
   },
   "ca-S119": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
     "editorialFingerprint": "a51786420582c03135de74abcf98cf2236b5eb6e53c0be8ba2ec77c2ff54640f",
@@ -6964,11 +6983,30 @@ export const productionProgress = {
         "L38"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-25",
+      "sourceTakeSha256": "31616a5b1381188dcb4eb5889e408ff072b99d44238ef51db3c8a892dfc67eaf",
+      "sourceBatch": "L38",
+      "confirmation": "Docent 25/11: S119, S117, S115, S113, S112, S121 i S127 validats per pujar a muntatge."
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-25T20:03:33.548Z",
     "voicePreview": "./proves/veus-rebudes.html#S119",
-    "voicePreviewFile": "./assets/audio/s119-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s119-voices-review-v1.mp3",
+    "mountedAt": "2026-11-25T21:08:05.539Z",
+    "synthesisBatch": "L38",
+    "requestHash": "5451b4cea3e920f9aa007be12efb850987a7a6376108afb4dff422c3b91341ac",
+    "audioSha256": "cf1711ea26a0773ba61cca3fd63a1ea88b338542c14a18218aed7fab7ec42f60",
+    "montageNewSynthesisRequests": 0,
+    "reviewUpdate": {
+      "audio": "./assets/audio/s119-mixed-v1.mp3",
+      "at": "2026-11-25",
+      "summary": {
+        "ca": "Primer muntatge amb les veus validades. Base comuna «Breaking News Background Music», amb entrada, música contínua atenuada sota la Mar i sortida. Sense papers ni tons afegits. Pendent de la teva audició.",
+        "es": "Primer montaje con las voces validadas y fondo continuo discreto, con entrada y salida. Pendiente de escucha."
+      }
+    }
   },
   "ca-S123": {
     "state": "voices-received",
@@ -7023,7 +7061,7 @@ export const productionProgress = {
     "voicePreviewFile": "./assets/audio/s125-voices-review-v1.mp3"
   },
   "ca-S127": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
     "editorialFingerprint": "84d53941c191f651e1748bd65a1c4031986c13ec38fd8763b962d9e71a0489f1",
@@ -7042,14 +7080,33 @@ export const productionProgress = {
         "L39"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-25",
+      "sourceTakeSha256": "b31d7719b5aa4b6b3eb6b6c7496c23117c80db4630609852e1827beb2e706e8e",
+      "sourceBatch": "L39",
+      "confirmation": "Docent 25/11: S119, S117, S115, S113, S112, S121 i S127 validats per pujar a muntatge."
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-25T20:20:56.138Z",
     "voicePreview": "./proves/veus-rebudes.html#S127",
-    "voicePreviewFile": "./assets/audio/s127-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s127-voices-review-v1.mp3",
+    "mountedAt": "2026-11-25T21:08:19.190Z",
+    "synthesisBatch": "L39",
+    "requestHash": "507a423d7bc8bf6247c3ff6b5ca198711696b71edabb32edb9158ce33eb4eb40",
+    "audioSha256": "7aae0faa9f808f99558ced65ed9b808466516548d1a93dd576a1c20613f55ab5",
+    "montageNewSynthesisRequests": 0,
+    "reviewUpdate": {
+      "audio": "./assets/audio/s127-mixed-v1.mp3",
+      "at": "2026-11-25",
+      "summary": {
+        "ca": "Primer muntatge amb les veus validades. Ambient real continu d’interior tranquil de taller, molt baix sota Biel i Elies, amb entrada discreta i pujada breu abans de la fosa final. Pendent de la teva audició.",
+        "es": "Primer montaje con las voces validadas y fondo continuo discreto, con entrada y salida. Pendiente de escucha."
+      }
+    }
   },
   "ca-S115": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
     "editorialFingerprint": "31288eb6cbe468ee9f5b905525632c7b01ec9caaae146d39194f82b2ec0b1d96",
@@ -7068,11 +7125,30 @@ export const productionProgress = {
         "L38"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-25",
+      "sourceTakeSha256": "ca1db70a2029336d8400350e38b8b6e5bd99e747e4e6460cdeab3c857ac5496b",
+      "sourceBatch": "L38",
+      "confirmation": "Docent 25/11: S119, S117, S115, S113, S112, S121 i S127 validats per pujar a muntatge."
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-25T20:03:33.548Z",
     "voicePreview": "./proves/veus-rebudes.html#S115",
-    "voicePreviewFile": "./assets/audio/s115-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s115-voices-review-v1.mp3",
+    "mountedAt": "2026-11-25T21:07:49.527Z",
+    "synthesisBatch": "L38",
+    "requestHash": "5451b4cea3e920f9aa007be12efb850987a7a6376108afb4dff422c3b91341ac",
+    "audioSha256": "9d0d24ca945029a451ba0bdbf416b7f45772de44d62a31e6aec28f82035744e5",
+    "montageNewSynthesisRequests": 0,
+    "reviewUpdate": {
+      "audio": "./assets/audio/s115-mixed-v1.mp3",
+      "at": "2026-11-25",
+      "summary": {
+        "ca": "Primer muntatge amb les veus validades. Base comuna «Breaking News Background Music», amb entrada, música contínua atenuada sota la Mar i sortida. Sense papers ni tons afegits. Pendent de la teva audició.",
+        "es": "Primer montaje con las voces validadas y fondo continuo discreto, con entrada y salida. Pendiente de escucha."
+      }
+    }
   },
   "ca-S120": {
     "state": "voices-received",
@@ -7101,7 +7177,7 @@ export const productionProgress = {
     "voicePreviewFile": "./assets/audio/s120-voices-review-v1.mp3"
   },
   "ca-S112": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
     "editorialFingerprint": "539285edcf1642efe668f70f93df62270c59585c1b73eeca2a3d4d147f67f43d",
@@ -7120,14 +7196,33 @@ export const productionProgress = {
         "L38"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-25",
+      "sourceTakeSha256": "6940a44b44c6feb47f12a63475119e77d6d77b44545b1cafa5b022f3d7d5925e",
+      "sourceBatch": "L38",
+      "confirmation": "Docent 25/11: S119, S117, S115, S113, S112, S121 i S127 validats per pujar a muntatge."
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-25T20:03:33.548Z",
     "voicePreview": "./proves/veus-rebudes.html#S112",
-    "voicePreviewFile": "./assets/audio/s112-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s112-voices-review-v1.mp3",
+    "mountedAt": "2026-11-25T21:07:32.993Z",
+    "synthesisBatch": "L38",
+    "requestHash": "5451b4cea3e920f9aa007be12efb850987a7a6376108afb4dff422c3b91341ac",
+    "audioSha256": "9c5582e2e4eed2700a737ca5ff8a1ead13787ae89e9f88eb743b19296fbf136b",
+    "montageNewSynthesisRequests": 0,
+    "reviewUpdate": {
+      "audio": "./assets/audio/s112-mixed-v1.mp3",
+      "at": "2026-11-25",
+      "summary": {
+        "ca": "Primer muntatge amb les veus validades. Base comuna «Breaking News Background Music», amb entrada, música contínua atenuada sota la Mar i sortida. Sense papers ni tons afegits. Pendent de la teva audició.",
+        "es": "Primer montaje con las voces validadas y fondo continuo discreto, con entrada y salida. Pendiente de escucha."
+      }
+    }
   },
   "ca-S117": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
     "editorialFingerprint": "b73371445150891120c9e12b002c9cd4bb4fb88b6826c6609eba9b17afecbfeb",
@@ -7146,11 +7241,30 @@ export const productionProgress = {
         "L38"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-25",
+      "sourceTakeSha256": "1780b867858cad0e340e407b62ce91dad1a5bb7f7a9226cfecfc04e90565b481",
+      "sourceBatch": "L38",
+      "confirmation": "Docent 25/11: S119, S117, S115, S113, S112, S121 i S127 validats per pujar a muntatge."
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-25T20:03:33.548Z",
     "voicePreview": "./proves/veus-rebudes.html#S117",
-    "voicePreviewFile": "./assets/audio/s117-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s117-voices-review-v1.mp3",
+    "mountedAt": "2026-11-25T21:07:57.657Z",
+    "synthesisBatch": "L38",
+    "requestHash": "5451b4cea3e920f9aa007be12efb850987a7a6376108afb4dff422c3b91341ac",
+    "audioSha256": "0a0ff273a3c12aeff73e7d0b4d89f7b0e7b61d86439630e4aad9219a829f0a21",
+    "montageNewSynthesisRequests": 0,
+    "reviewUpdate": {
+      "audio": "./assets/audio/s117-mixed-v1.mp3",
+      "at": "2026-11-25",
+      "summary": {
+        "ca": "Primer muntatge amb les veus validades. Base comuna «Breaking News Background Music», amb entrada, música contínua atenuada sota la Mar i sortida. Sense papers ni tons afegits. Pendent de la teva audició.",
+        "es": "Primer montaje con las voces validadas y fondo continuo discreto, con entrada y salida. Pendiente de escucha."
+      }
+    }
   },
   "ca-S118": {
     "state": "voices-received",
@@ -7179,7 +7293,7 @@ export const productionProgress = {
     "voicePreviewFile": "./assets/audio/s118-voices-review-v1.mp3"
   },
   "ca-S121": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
     "editorialFingerprint": "4a69c0d467077accb8abb05185f54598d4b7d30362d6d54f3fec8e679fe9f1b6",
@@ -7198,11 +7312,30 @@ export const productionProgress = {
         "L40"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-25",
+      "sourceTakeSha256": "42323a8975d4497fdbac89075c0f4c46fc4ea128fb3e59a6035414f48858b789",
+      "sourceBatch": "L40",
+      "confirmation": "Docent 25/11: S119, S117, S115, S113, S112, S121 i S127 validats per pujar a muntatge."
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-25T20:26:15.166Z",
     "voicePreview": "./proves/veus-rebudes.html#S121",
-    "voicePreviewFile": "./assets/audio/s121-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s121-voices-review-v1.mp3",
+    "mountedAt": "2026-11-25T21:08:11.074Z",
+    "synthesisBatch": "L40",
+    "requestHash": "5808ddd12485a1772a021a21db2f16fa5be9cd4a42ed90c894aaf948ed7a38be",
+    "audioSha256": "bc77e862e73ef1fcadc1ba2b9e036642498cbf5f64f246bf830edd3a9e3dc91d",
+    "montageNewSynthesisRequests": 0,
+    "reviewUpdate": {
+      "audio": "./assets/audio/s121-mixed-v1.mp3",
+      "at": "2026-11-25",
+      "summary": {
+        "ca": "Primer muntatge amb les veus validades. Ambient real continu de pati escolar, molt baix sota Mireia i Laia, amb entrada discreta i pujada breu abans de la fosa final. Pendent de la teva audició.",
+        "es": "Primer montaje con las voces validadas y fondo continuo discreto, con entrada y salida. Pendiente de escucha."
+      }
+    }
   },
   "ca-S122": {
     "state": "voices-received",

@@ -321,7 +321,9 @@ export const soundSources = [
     "downloadUrl": "https://cdn.freesound.org/previews/731/731979_14002744-hq.mp3",
     "retrievedAt": "2026-11-21",
     "sha256": "05a3c04683be95aaa12df1e59b8d92e4c31be85652c2681caac16889c4678355",
-    "usedBy": [],
+    "usedBy": [
+      "ca-S121"
+    ],
     "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
   },
   {
@@ -421,7 +423,8 @@ export const soundSources = [
       "ca-S079",
       "ca-S080",
       "ca-S082",
-      "ca-S101"
+      "ca-S101",
+      "ca-S127"
     ],
     "treatment": "Fragments curts dins pauses i/o ambient atenuat sota la veu, segons el manifest de cada muntatge. Foses, filtratge i normalització locals. La font crua es conserva."
   },

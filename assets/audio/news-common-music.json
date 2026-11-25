@@ -17,7 +17,12 @@
     "ca-S023",
     "ca-S029",
     "ca-S031",
-    "ca-S039"
+    "ca-S039",
+    "ca-S112",
+    "ca-S113",
+    "ca-S115",
+    "ca-S117",
+    "ca-S119"
   ],
   "newSynthesisRequests": 0
 }

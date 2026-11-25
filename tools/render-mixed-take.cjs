@@ -94,9 +94,19 @@ Object.assign(recipes,{
  S037:{ambient:'elenalostale-648659',ambientFrom:20,opening:[{source:'beussa-749880',from:0,seconds:.678,at:.3}],events:[],ending:'steps'},
  S044:{opening:[{source:'brnck-257357',from:0,seconds:.257,at:.6}],events:[{before:'provar',after:'afegir',source:'beussa-749880',from:0,seconds:.678,gap:1.05}],ending:'paper'},
 });
+Object.assign(recipes,{
+ S112:{newsMusic:true,events:[],ending:'ambient',lead:2.5,tail:4.25,titleGap:.65,cleanHandles:true},
+ S113:{newsMusic:true,events:[],ending:'ambient',lead:2.5,tail:4.25,titleGap:.65,cleanHandles:true},
+ S115:{newsMusic:true,events:[],ending:'ambient',lead:2.5,tail:4.25,titleGap:.65,cleanHandles:true},
+ S117:{newsMusic:true,events:[],ending:'ambient',lead:2.5,tail:4.25,titleGap:.65,cleanHandles:true},
+ S119:{newsMusic:true,events:[],ending:'ambient',lead:2.5,tail:4.25,titleGap:.65,cleanHandles:true},
+ S121:{ambient:'mcconnell-731979',ambientFrom:12,bed:true,events:[],ending:'ambient',lead:1.1,tail:3.8,titleGap:.4,cleanHandles:true,bedFadeSeconds:1.4,bedOpeningGain:.14,bedSpeechGain:.06,bedRaisedGain:.20,bedLowpassHz:1800},
+ S127:{ambient:'callmethefoo-744447',ambientFrom:12,bed:true,events:[],ending:'ambient',lead:1.1,tail:3.8,titleGap:.4,cleanHandles:true,bedFadeSeconds:1.4,bedOpeningGain:.16,bedSpeechGain:.07,bedRaisedGain:.23},
+});
 async function main(){
  const code=process.argv.find(a=>a.startsWith('--only='))?.slice(7).toUpperCase(),recipe=recipes[code];if(!recipe)throw Error('Recepta de muntatge encara pendent per a aquest codi.');
  const {activities}=await import('../catalogue.js'),entry=activities.find(e=>e.code===code),plans=JSON.parse(await fs.readFile(path.join(root,'content/production-plans.json'),'utf8'));assertProductionApproved(entry,productionSpec(entry),plans[code]);if(entry.audio)throw Error('Ja hi ha un muntatge: conservar-lo i obrir-ne una revisió explícita.');
+ const contentFile=path.join(root,recipe.source??plans[code].reviewContent);let source=await fs.readFile(contentFile,'utf8');const at=new RegExp(`\\bcode:\\s*['"]${code}['"]`).exec(source)?.index??-1,lineEnd=source.indexOf('\n',at);if(at<0||lineEnd<0||source.slice(lineEnd,lineEnd+220).includes('audio:'))throw Error('Capçalera no esperada.');
  const takes=JSON.parse(await fs.readFile(path.join(work,'mixed-batches/takes.json'),'utf8')),take=takes[recipe.takeId??(entry.production.strategy==='grouped-voices-v1'?`${code}-ASSEMBLED`:`${code}-T01`)];if(!take?.body)throw Error('Presa completa verificada encara absent.');
  for(const source of [take,take.intro,take.body])if(!source||sha(await fs.readFile(source.file))!==source.sha256)throw Error('Presa alterada o incompleta.');
  require('./voice-audition.cjs').assertVoiceAudition(entry,take,(await import('../content/production-progress.js')).productionProgress['ca-'+code]);
@@ -164,7 +174,7 @@ async function main(){
  if(!(report.lufs>=-24&&report.lufs<=-15&&report.peakDbTP<=-1))throw Error('Nivells del màster fora de marge.');
  await fs.writeFile(path.join(root,`assets/audio/${code.toLowerCase()}-production-manifest.json`),JSON.stringify(report,null,2)+'\n');
  const manifestFile=path.join(root,'assets/audio/prototips-manifest.json'),manifest=JSON.parse(await fs.readFile(manifestFile,'utf8'));if(manifest.activities.some(a=>a.code===code))throw Error('Informe ja existent: no sobreescriure.');manifest.activities.push(report);manifest.state='partially-produced-awaiting-validation';await fs.writeFile(manifestFile,JSON.stringify(manifest,null,2)+'\n');
- const contentFile=path.join(root,recipe.source??plans[code].reviewContent);let source=await fs.readFile(contentFile,'utf8');const at=source.indexOf(`code: '${code}'`),lineEnd=source.indexOf('\n',at);if(at<0||source.slice(lineEnd,lineEnd+220).includes('audio:'))throw Error('Capçalera no esperada.');const metadata=`\n    seconds: ${Math.ceil(fullDuration)}, status: 'ready-for-review', reviewStatus: 'audio-review',\n    audio: './assets/audio/${file}', tracks: { introduction: './assets/audio/${introFile}', body: './assets/audio/${bodyFile}' },\n    fragment: { start: ${report.offset}, seconds: ${Math.round(bodyDuration)} },`;source=source.slice(0,lineEnd)+metadata+source.slice(lineEnd);await fs.writeFile(contentFile,source);
+ const metadata=`\n    seconds: ${Math.ceil(fullDuration)}, status: 'ready-for-review', reviewStatus: 'audio-review',\n    audio: './assets/audio/${file}', tracks: { introduction: './assets/audio/${introFile}', body: './assets/audio/${bodyFile}' },\n    fragment: { start: ${report.offset}, seconds: ${Math.round(bodyDuration)} },`;source=source.slice(0,lineEnd)+metadata+source.slice(lineEnd);await fs.writeFile(contentFile,source);
  const {productionProgress}=await import('../content/production-progress.js');Object.assign(productionProgress['ca-'+code],{state:'montage-awaiting-listening',mountedAt:new Date().toISOString(),synthesisBatch:take.batch,requestHash:take.batchRequestHash,audioSha256:report.sha256,listeningApproval:false,montageNewSynthesisRequests:0});await fs.writeFile(path.join(root,'content/production-progress.js'),'// Production stages are separate from editorial review and final listening approval.\nexport const productionProgress = '+JSON.stringify(productionProgress,null,2)+';\n');
  console.log(JSON.stringify({code,state:report.state,bodyDuration,lufs:report.lufs,peakDbTP:report.peakDbTP,effects:effects.length,newRequests:0}));
 }

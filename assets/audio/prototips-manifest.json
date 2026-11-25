@@ -14359,6 +14359,589 @@
         "checkedAt": "2026-11-25",
         "audioChanged": false
       }
+    },
+    {
+      "code": "S112",
+      "activity": "ca-S112",
+      "state": "awaiting-montage-validation",
+      "file": "s112-mixed-v1.mp3",
+      "introFile": "s112-mixed-v1-intro.mp3",
+      "bodyFile": "s112-mixed-v1-cos.mp3",
+      "offset": 5.45,
+      "bodyDuration": 42.445,
+      "fullDuration": 47.895,
+      "voices": {
+        "Mar": "Erinome"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "5451b4cea3e920f9aa007be12efb850987a7a6376108afb4dff422c3b91341ac",
+      "sourceRequestHash": "d7dee28520610d3a276cd499381664992e742fa3c2c2daa0c4a5333be2675c0f",
+      "batch": "L38",
+      "rawSha256": "99234bdcad2f77209580f8657378497a82e88cad867431a32a8410636162ff7f",
+      "takeSha256": "6940a44b44c6feb47f12a63475119e77d6d77b44545b1cafa5b022f3d7d5925e",
+      "coverage": 0.9830508474576272,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -18.8,
+      "peakDbTP": -2.5,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "grand-project-breaking-news-505617",
+          "origin": "licensed-music-in-montage",
+          "start": 0,
+          "underSpeech": true,
+          "credit": {
+            "id": "grand-project-breaking-news-505617",
+            "title": "Breaking News Background Music",
+            "author": "Grand_Project",
+            "url": "https://pixabay.com/music/percussion-breaking-news-background-music-505617/",
+            "license": "Pixabay Content License",
+            "licenseUrl": "https://pixabay.com/service/license-summary/",
+            "source": "tools/news-bed.cjs",
+            "origin": "licensed-music",
+            "kind": "news-programme",
+            "sourceNotDistributedSeparately": true,
+            "newSynthesisRequests": 0
+          },
+          "sourceSha256": "32e3e6c978ef1bc5c013c40880ac3ad9714957548f956c1355ad8852c94405ae",
+          "voiceMarginTargetDb": 25,
+          "sidechain": {
+            "threshold": 0.018,
+            "ratio": 6,
+            "attackMs": 12,
+            "releaseMs": 450
+          },
+          "openingSeconds": 3.5,
+          "closingSeconds": 4.5
+        }
+      ],
+      "sha256": "9c5582e2e4eed2700a737ca5ff8a1ead13787ae89e9f88eb743b19296fbf136b",
+      "voiceHandles": {
+        "body": {
+          "start": 0.08079166666666666,
+          "end": 35.17579166666667,
+          "retainedPcmSha256": "6d4688de44111669f27be06ab3102d0b9ee2e76c124d9c1a3042446d51642e75",
+          "sourceSha256": "804d60d00394b87d710d2af3cefe8fcfcfac329d5a7f6453e5bd96f35f9c135b",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0,
+          "end": 4.25,
+          "retainedPcmSha256": "e5f320a628d8ca871d67afc6d29346bb96d388adb8daf4845b551c8a5f00de12",
+          "sourceSha256": "a10d918ffb33be13cfb886de36616eb23e9e38816e4167dd8418078631b769e2",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-25",
+        "sourceTakeSha256": "6940a44b44c6feb47f12a63475119e77d6d77b44545b1cafa5b022f3d7d5925e",
+        "sourceBatch": "L38",
+        "confirmation": "Docent 25/11: S119, S117, S115, S113, S112, S121 i S127 validats per pujar a muntatge."
+      }
+    },
+    {
+      "code": "S113",
+      "activity": "ca-S113",
+      "state": "awaiting-montage-validation",
+      "file": "s113-mixed-v1.mp3",
+      "introFile": "s113-mixed-v1-intro.mp3",
+      "bodyFile": "s113-mixed-v1-cos.mp3",
+      "offset": 5.680000000000001,
+      "bodyDuration": 44.35641666666667,
+      "fullDuration": 50.03641666666667,
+      "voices": {
+        "Mar": "Erinome"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "5451b4cea3e920f9aa007be12efb850987a7a6376108afb4dff422c3b91341ac",
+      "sourceRequestHash": "6bde53fa20d611c937f9169e7f8e3787882786265c9c5f49593f468b289afe43",
+      "batch": "L38",
+      "rawSha256": "99234bdcad2f77209580f8657378497a82e88cad867431a32a8410636162ff7f",
+      "takeSha256": "ee83184fc1b51c08598c06c0db87851043e65fe0d1796507f8e8c247d8494445",
+      "coverage": 0.9534883720930233,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -18.56,
+      "peakDbTP": -2.5,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "grand-project-breaking-news-505617",
+          "origin": "licensed-music-in-montage",
+          "start": 0,
+          "underSpeech": true,
+          "credit": {
+            "id": "grand-project-breaking-news-505617",
+            "title": "Breaking News Background Music",
+            "author": "Grand_Project",
+            "url": "https://pixabay.com/music/percussion-breaking-news-background-music-505617/",
+            "license": "Pixabay Content License",
+            "licenseUrl": "https://pixabay.com/service/license-summary/",
+            "source": "tools/news-bed.cjs",
+            "origin": "licensed-music",
+            "kind": "news-programme",
+            "sourceNotDistributedSeparately": true,
+            "newSynthesisRequests": 0
+          },
+          "sourceSha256": "32e3e6c978ef1bc5c013c40880ac3ad9714957548f956c1355ad8852c94405ae",
+          "voiceMarginTargetDb": 25,
+          "sidechain": {
+            "threshold": 0.018,
+            "ratio": 6,
+            "attackMs": 12,
+            "releaseMs": 450
+          },
+          "openingSeconds": 3.5,
+          "closingSeconds": 4.5
+        }
+      ],
+      "sha256": "08f9b5796fbf412e8a0d38975d79bd8726324dcf64ead0dc6bd119b23f0489c4",
+      "voiceHandles": {
+        "body": {
+          "start": 0.19,
+          "end": 37.196416666666664,
+          "retainedPcmSha256": "2104d19f0811eeacc05951208412f82f590786fd2fefe3012becd0712d3321ea",
+          "sourceSha256": "1984a7a427dfbf033b9cb629bb95790bf655aa05480d2da4de6b8419776e6d5f",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0.005,
+          "end": 4.485,
+          "retainedPcmSha256": "f2319d98b5581b848a27310218588199659a6f3e9efc3efd553c1ea70e206cb8",
+          "sourceSha256": "fe35977f1afe91b499867202f7220c544b4a326301e66d78a890482817a60f1c",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-25",
+        "sourceTakeSha256": "ee83184fc1b51c08598c06c0db87851043e65fe0d1796507f8e8c247d8494445",
+        "sourceBatch": "L38",
+        "confirmation": "Docent 25/11: S119, S117, S115, S113, S112, S121 i S127 validats per pujar a muntatge."
+      }
+    },
+    {
+      "code": "S115",
+      "activity": "ca-S115",
+      "state": "awaiting-montage-validation",
+      "file": "s115-mixed-v1.mp3",
+      "introFile": "s115-mixed-v1-intro.mp3",
+      "bodyFile": "s115-mixed-v1-cos.mp3",
+      "offset": 6.035,
+      "bodyDuration": 42.640791666666665,
+      "fullDuration": 48.67579166666667,
+      "voices": {
+        "Mar": "Erinome"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "5451b4cea3e920f9aa007be12efb850987a7a6376108afb4dff422c3b91341ac",
+      "sourceRequestHash": "f843f38f1688b8d1fb697ff6f01f5225503d91910ae9dbe12da7d6e239ea1c0f",
+      "batch": "L38",
+      "rawSha256": "99234bdcad2f77209580f8657378497a82e88cad867431a32a8410636162ff7f",
+      "takeSha256": "ca1db70a2029336d8400350e38b8b6e5bd99e747e4e6460cdeab3c857ac5496b",
+      "coverage": 0.9851851851851852,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -18.77,
+      "peakDbTP": -2.5,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "grand-project-breaking-news-505617",
+          "origin": "licensed-music-in-montage",
+          "start": 0,
+          "underSpeech": true,
+          "credit": {
+            "id": "grand-project-breaking-news-505617",
+            "title": "Breaking News Background Music",
+            "author": "Grand_Project",
+            "url": "https://pixabay.com/music/percussion-breaking-news-background-music-505617/",
+            "license": "Pixabay Content License",
+            "licenseUrl": "https://pixabay.com/service/license-summary/",
+            "source": "tools/news-bed.cjs",
+            "origin": "licensed-music",
+            "kind": "news-programme",
+            "sourceNotDistributedSeparately": true,
+            "newSynthesisRequests": 0
+          },
+          "sourceSha256": "32e3e6c978ef1bc5c013c40880ac3ad9714957548f956c1355ad8852c94405ae",
+          "voiceMarginTargetDb": 25,
+          "sidechain": {
+            "threshold": 0.018,
+            "ratio": 6,
+            "attackMs": 12,
+            "releaseMs": 450
+          },
+          "openingSeconds": 3.5,
+          "closingSeconds": 4.5
+        }
+      ],
+      "sha256": "9d0d24ca945029a451ba0bdbf416b7f45772de44d62a31e6aec28f82035744e5",
+      "voiceHandles": {
+        "body": {
+          "start": 0.6407083333333333,
+          "end": 35.9315,
+          "retainedPcmSha256": "5c843efa192f41e7b2ad06f41d354b377e39ce343a5b568cbe546cd0ec613d2c",
+          "sourceSha256": "80d1675cebdf7300dfc946c56341c96b481d3a6186a14a84c9873c22d12fc803",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0,
+          "end": 4.835,
+          "retainedPcmSha256": "20a0738bd5ef5a4886dffa1f9ee97a70a13ce98059ff0e8c51ef830531373aef",
+          "sourceSha256": "e902fe91ebea8aae71572e9863b6cf4cc35abc6cd20c4d1db72653726650e4c5",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-25",
+        "sourceTakeSha256": "ca1db70a2029336d8400350e38b8b6e5bd99e747e4e6460cdeab3c857ac5496b",
+        "sourceBatch": "L38",
+        "confirmation": "Docent 25/11: S119, S117, S115, S113, S112, S121 i S127 validats per pujar a muntatge."
+      }
+    },
+    {
+      "code": "S117",
+      "activity": "ca-S117",
+      "state": "awaiting-montage-validation",
+      "file": "s117-mixed-v1.mp3",
+      "introFile": "s117-mixed-v1-intro.mp3",
+      "bodyFile": "s117-mixed-v1-cos.mp3",
+      "offset": 5.800000000000001,
+      "bodyDuration": 44.255,
+      "fullDuration": 50.055,
+      "voices": {
+        "Mar": "Erinome"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "5451b4cea3e920f9aa007be12efb850987a7a6376108afb4dff422c3b91341ac",
+      "sourceRequestHash": "7ef7d5d3f0a9ded704127dd58bc0ec515e1960fd71da6dace43be2d933039cbf",
+      "batch": "L38",
+      "rawSha256": "99234bdcad2f77209580f8657378497a82e88cad867431a32a8410636162ff7f",
+      "takeSha256": "1780b867858cad0e340e407b62ce91dad1a5bb7f7a9226cfecfc04e90565b481",
+      "coverage": 0.9689922480620154,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -18.81,
+      "peakDbTP": -2.5,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "grand-project-breaking-news-505617",
+          "origin": "licensed-music-in-montage",
+          "start": 0,
+          "underSpeech": true,
+          "credit": {
+            "id": "grand-project-breaking-news-505617",
+            "title": "Breaking News Background Music",
+            "author": "Grand_Project",
+            "url": "https://pixabay.com/music/percussion-breaking-news-background-music-505617/",
+            "license": "Pixabay Content License",
+            "licenseUrl": "https://pixabay.com/service/license-summary/",
+            "source": "tools/news-bed.cjs",
+            "origin": "licensed-music",
+            "kind": "news-programme",
+            "sourceNotDistributedSeparately": true,
+            "newSynthesisRequests": 0
+          },
+          "sourceSha256": "32e3e6c978ef1bc5c013c40880ac3ad9714957548f956c1355ad8852c94405ae",
+          "voiceMarginTargetDb": 25,
+          "sidechain": {
+            "threshold": 0.018,
+            "ratio": 6,
+            "attackMs": 12,
+            "releaseMs": 450
+          },
+          "openingSeconds": 3.5,
+          "closingSeconds": 4.5
+        }
+      ],
+      "sha256": "0a0ff273a3c12aeff73e7d0b4d89f7b0e7b61d86439630e4aad9219a829f0a21",
+      "voiceHandles": {
+        "body": {
+          "start": 0.4529166666666667,
+          "end": 37.35791666666667,
+          "retainedPcmSha256": "bfb228964d4534cd225c4bc0b42d71475da100ef3774ef3b275602512b99e4b8",
+          "sourceSha256": "d0ba57331467fda8e5d07a8ec5077b1c1091d408e0c0bc8e26351178a1bc0642",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0.025,
+          "end": 4.625,
+          "retainedPcmSha256": "798450724386eb60b32636467b71e2ba4b23c060f08e70358a6102718e76dd4b",
+          "sourceSha256": "c05a2e96a6ce1b9097ccc4a26f1236838756913e3a0d1512a09de26bdf21de5f",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-25",
+        "sourceTakeSha256": "1780b867858cad0e340e407b62ce91dad1a5bb7f7a9226cfecfc04e90565b481",
+        "sourceBatch": "L38",
+        "confirmation": "Docent 25/11: S119, S117, S115, S113, S112, S121 i S127 validats per pujar a muntatge."
+      }
+    },
+    {
+      "code": "S119",
+      "activity": "ca-S119",
+      "state": "awaiting-montage-validation",
+      "file": "s119-mixed-v1.mp3",
+      "introFile": "s119-mixed-v1-intro.mp3",
+      "bodyFile": "s119-mixed-v1-cos.mp3",
+      "offset": 6.1000000000000005,
+      "bodyDuration": 42.14429166666667,
+      "fullDuration": 48.24429166666667,
+      "voices": {
+        "Mar": "Erinome"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "5451b4cea3e920f9aa007be12efb850987a7a6376108afb4dff422c3b91341ac",
+      "sourceRequestHash": "8c1adbaa44969b9bfac9c20b0cafea8a7ea06232cc82f161a0d8004510728344",
+      "batch": "L38",
+      "rawSha256": "99234bdcad2f77209580f8657378497a82e88cad867431a32a8410636162ff7f",
+      "takeSha256": "31616a5b1381188dcb4eb5889e408ff072b99d44238ef51db3c8a892dfc67eaf",
+      "coverage": 0.9461538461538461,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -19.1,
+      "peakDbTP": -2.5,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "grand-project-breaking-news-505617",
+          "origin": "licensed-music-in-montage",
+          "start": 0,
+          "underSpeech": true,
+          "credit": {
+            "id": "grand-project-breaking-news-505617",
+            "title": "Breaking News Background Music",
+            "author": "Grand_Project",
+            "url": "https://pixabay.com/music/percussion-breaking-news-background-music-505617/",
+            "license": "Pixabay Content License",
+            "licenseUrl": "https://pixabay.com/service/license-summary/",
+            "source": "tools/news-bed.cjs",
+            "origin": "licensed-music",
+            "kind": "news-programme",
+            "sourceNotDistributedSeparately": true,
+            "newSynthesisRequests": 0
+          },
+          "sourceSha256": "32e3e6c978ef1bc5c013c40880ac3ad9714957548f956c1355ad8852c94405ae",
+          "voiceMarginTargetDb": 25,
+          "sidechain": {
+            "threshold": 0.018,
+            "ratio": 6,
+            "attackMs": 12,
+            "releaseMs": 450
+          },
+          "openingSeconds": 3.5,
+          "closingSeconds": 4.5
+        }
+      ],
+      "sha256": "cf1711ea26a0773ba61cca3fd63a1ea88b338542c14a18218aed7fab7ec42f60",
+      "voiceHandles": {
+        "body": {
+          "start": 0.5830833333333333,
+          "end": 35.377375,
+          "retainedPcmSha256": "389433912c0b9aa8615f9a2031b9bbf56960ff7ef0803b67beea8177739e1fa2",
+          "sourceSha256": "b6c306f406ce03e9f8161609c551cb85bf41b62493a3267f26f2329242ff8683",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0.055,
+          "end": 4.955,
+          "retainedPcmSha256": "808b8e1b73145308cc58cc629d26e5e5a708ec2969479f82a9c1d48de5b3a4dc",
+          "sourceSha256": "6cbceb3d209fee40662d7fb46c140cd087fc586754b65582bdc9df3101b5a2a7",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-25",
+        "sourceTakeSha256": "31616a5b1381188dcb4eb5889e408ff072b99d44238ef51db3c8a892dfc67eaf",
+        "sourceBatch": "L38",
+        "confirmation": "Docent 25/11: S119, S117, S115, S113, S112, S121 i S127 validats per pujar a muntatge."
+      }
+    },
+    {
+      "code": "S121",
+      "activity": "ca-S121",
+      "state": "awaiting-montage-validation",
+      "file": "s121-mixed-v1.mp3",
+      "introFile": "s121-mixed-v1-intro.mp3",
+      "bodyFile": "s121-mixed-v1-cos.mp3",
+      "offset": 3.96,
+      "bodyDuration": 79.875,
+      "fullDuration": 83.835,
+      "voices": {
+        "Mireia": "Aoede",
+        "Laia": "Leda"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "5808ddd12485a1772a021a21db2f16fa5be9cd4a42ed90c894aaf948ed7a38be",
+      "sourceRequestHash": "a53da9b845b05fc3e61eba97708617dadf2630087ec053a209d9bef75cb0e245",
+      "batch": "L40",
+      "rawSha256": "580030ad367459bf30851f7d6d2f2126b2a58bd88b03e9dc2cf92e2796491a98",
+      "takeSha256": "42323a8975d4497fdbac89075c0f4c46fc4ea128fb3e59a6035414f48858b789",
+      "coverage": 0.9450980392156862,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -18.94,
+      "peakDbTP": -3.15,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "mcconnell-731979",
+          "start": 0,
+          "source": "assets/audio/sources/mcconnell-731979.mp3",
+          "sourceSha256": "05a3c04683be95aaa12df1e59b8d92e4c31be85652c2681caac16889c4678355",
+          "sourceUrl": "https://freesound.org/people/McConnell_Audioprojekte/sounds/731979/",
+          "author": "McConnell_Audioprojekte",
+          "license": "CC0 1.0",
+          "underSpeech": true,
+          "speechGain": 0.06,
+          "openingGain": 0.14,
+          "raisedGain": 0.2,
+          "sourceTargetLufs": -28,
+          "speechNominalLufs": -52.43697499232712,
+          "lowPassHz": 1800,
+          "passes": 3,
+          "crossfadeSeconds": 1,
+          "excerpt": {
+            "start": 12,
+            "seconds": 51.48679166666667
+          },
+          "envelope": {
+            "riseStart": 75.63000000000001,
+            "riseEnd": 76.43000000000002,
+            "holdSeconds": 0.8449999999999847,
+            "fadeStart": 77.275,
+            "fadeEnd": 78.67500000000001
+          }
+        }
+      ],
+      "sha256": "bc77e862e73ef1fcadc1ba2b9e036642498cbf5f64f246bf830edd3a9e3dc91d",
+      "voiceHandles": {
+        "body": {
+          "start": 0.07,
+          "end": 74.445,
+          "retainedPcmSha256": "4c8dff8f5538c3144e2f2518abc3a2e888a919c035f62c74cb5d3ae19413bfc4",
+          "sourceSha256": "567086b5238424d332893ff8cc5b7ced84c5669e5f9b660dc2028abb69f33527",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0.07,
+          "end": 3.08,
+          "retainedPcmSha256": "3c20f93eee5c0e458dc265270cfaf41ce8b00d1da7140248d6a023ac89ea78f1",
+          "sourceSha256": "5538c6998e7ac6e7204e9d402b6677a3ad5d07de52eb8baac9c68434b39bd6e7",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-25",
+        "sourceTakeSha256": "42323a8975d4497fdbac89075c0f4c46fc4ea128fb3e59a6035414f48858b789",
+        "sourceBatch": "L40",
+        "confirmation": "Docent 25/11: S119, S117, S115, S113, S112, S121 i S127 validats per pujar a muntatge."
+      }
+    },
+    {
+      "code": "S127",
+      "activity": "ca-S127",
+      "state": "awaiting-montage-validation",
+      "file": "s127-mixed-v1.mp3",
+      "introFile": "s127-mixed-v1-intro.mp3",
+      "bodyFile": "s127-mixed-v1-cos.mp3",
+      "offset": 4.08,
+      "bodyDuration": 110.08,
+      "fullDuration": 114.16,
+      "voices": {
+        "Biel": "Puck",
+        "Elies": "Algieba"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "507a423d7bc8bf6247c3ff6b5ca198711696b71edabb32edb9158ce33eb4eb40",
+      "sourceRequestHash": "88ee8a17a9d14c5c6f1d8e2d570942282ef7085f882397c90e9294e7e92cd919",
+      "batch": "L39",
+      "rawSha256": "b7f09b64f583e715cf51b98b91e44fadd9294cd65d73e8b358c6d0cf1fb0351c",
+      "takeSha256": "b31d7719b5aa4b6b3eb6b6c7496c23117c80db4630609852e1827beb2e706e8e",
+      "coverage": 0.8879781420765027,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -19.08,
+      "peakDbTP": -2.48,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "callmethefoo-744447",
+          "start": 0,
+          "source": "assets/audio/sources/callmethefoo-744447.mp3",
+          "sourceSha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
+          "sourceUrl": "https://freesound.org/people/callmethefoo/sounds/744447/",
+          "author": "callmethefoo",
+          "license": "CC0 1.0",
+          "underSpeech": true,
+          "speechGain": 0.07,
+          "openingGain": 0.16,
+          "raisedGain": 0.23,
+          "sourceTargetLufs": -28,
+          "speechNominalLufs": -51.09803919971486,
+          "lowPassHz": 1800,
+          "passes": 3,
+          "crossfadeSeconds": 1,
+          "excerpt": {
+            "start": 12,
+            "seconds": 85.24
+          },
+          "envelope": {
+            "riseStart": 105.93,
+            "riseEnd": 106.73000000000002,
+            "holdSeconds": 0.7499999999999858,
+            "fadeStart": 107.48,
+            "fadeEnd": 108.88000000000001
+          }
+        }
+      ],
+      "sha256": "7aae0faa9f808f99558ced65ed9b808466516548d1a93dd576a1c20613f55ab5",
+      "voiceHandles": {
+        "body": {
+          "start": 0.19,
+          "end": 104.77,
+          "retainedPcmSha256": "213cde4028174c5294525a8b9d685f74f2e62ddd33285d172dd8b14a4a50ad06",
+          "sourceSha256": "6ed153035ed31ce77b304a724b36c22a60306c3260075835f11a107365e59298",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0.175,
+          "end": 3.305,
+          "retainedPcmSha256": "4e016cae295cb3c0dc289b4fd5a7ce983c9d281afdca3b5c76b78286bf9d783d",
+          "sourceSha256": "31d9de7cef398d29752f30be1a52fae641a78e64ee30e2f91a61799af58de5f8",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-25",
+        "sourceTakeSha256": "b31d7719b5aa4b6b3eb6b6c7496c23117c80db4630609852e1827beb2e706e8e",
+        "sourceBatch": "L39",
+        "confirmation": "Docent 25/11: S119, S117, S115, S113, S112, S121 i S127 validats per pujar a muntatge."
+      }
     }
   ]
 }

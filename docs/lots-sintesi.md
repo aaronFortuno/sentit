@@ -18,22 +18,15 @@ Les preses originals es conserven i la cobertura s’ha comprovat localment. La 
 
 | Peça | Presa |
 | --- | --- |
-| [ca-S112](https://sentit.ortogra.fi/#lectura=ca-S112) | [Escolta les veus](../proves/veus-rebudes.html#S112) |
-| [ca-S113](https://sentit.ortogra.fi/#lectura=ca-S113) | [Escolta les veus](../proves/veus-rebudes.html#S113) |
 | [ca-S114](https://sentit.ortogra.fi/#lectura=ca-S114) | [Escolta les veus](../proves/veus-rebudes.html#S114) |
-| [ca-S115](https://sentit.ortogra.fi/#lectura=ca-S115) | [Escolta les veus](../proves/veus-rebudes.html#S115) |
 | [ca-S116](https://sentit.ortogra.fi/#lectura=ca-S116) | [Escolta les veus](../proves/veus-rebudes.html#S116) |
-| [ca-S117](https://sentit.ortogra.fi/#lectura=ca-S117) | [Escolta les veus](../proves/veus-rebudes.html#S117) |
 | [ca-S118](https://sentit.ortogra.fi/#lectura=ca-S118) | [Escolta les veus](../proves/veus-rebudes.html#S118) |
-| [ca-S119](https://sentit.ortogra.fi/#lectura=ca-S119) | [Escolta les veus](../proves/veus-rebudes.html#S119) |
 | [ca-S120](https://sentit.ortogra.fi/#lectura=ca-S120) | [Escolta les veus](../proves/veus-rebudes.html#S120) |
-| [ca-S121](https://sentit.ortogra.fi/#lectura=ca-S121) | [Escolta les veus](../proves/veus-rebudes.html#S121) |
 | [ca-S122](https://sentit.ortogra.fi/#lectura=ca-S122) | [Escolta les veus](../proves/veus-rebudes.html#S122) |
 | [ca-S123](https://sentit.ortogra.fi/#lectura=ca-S123) | [Escolta les veus](../proves/veus-rebudes.html#S123) |
 | [ca-S124](https://sentit.ortogra.fi/#lectura=ca-S124) | [Escolta les veus](../proves/veus-rebudes.html#S124) |
 | [ca-S125](https://sentit.ortogra.fi/#lectura=ca-S125) | [Escolta les veus](../proves/veus-rebudes.html#S125) |
 | [ca-S126](https://sentit.ortogra.fi/#lectura=ca-S126) | [Escolta les veus](../proves/veus-rebudes.html#S126) |
-| [ca-S127](https://sentit.ortogra.fi/#lectura=ca-S127) | [Escolta les veus](../proves/veus-rebudes.html#S127) |
 
 Les previsions provenen dels guions i del calibratge local; cal recalcular-les amb el format definitiu abans d’enviar. Una mateixa veu en dos guions no implica el mateix personatge. No es canvien repartiments ni s’allarguen guions per omplir un lot.
 

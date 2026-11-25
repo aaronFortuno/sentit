@@ -1,0 +1,84 @@
+{
+  "code": "S127",
+  "activity": "ca-S127",
+  "state": "awaiting-montage-validation",
+  "file": "s127-mixed-v1.mp3",
+  "introFile": "s127-mixed-v1-intro.mp3",
+  "bodyFile": "s127-mixed-v1-cos.mp3",
+  "offset": 4.08,
+  "bodyDuration": 110.08,
+  "fullDuration": 114.16,
+  "voices": {
+    "Biel": "Puck",
+    "Elies": "Algieba"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "507a423d7bc8bf6247c3ff6b5ca198711696b71edabb32edb9158ce33eb4eb40",
+  "sourceRequestHash": "88ee8a17a9d14c5c6f1d8e2d570942282ef7085f882397c90e9294e7e92cd919",
+  "batch": "L39",
+  "rawSha256": "b7f09b64f583e715cf51b98b91e44fadd9294cd65d73e8b358c6d0cf1fb0351c",
+  "takeSha256": "b31d7719b5aa4b6b3eb6b6c7496c23117c80db4630609852e1827beb2e706e8e",
+  "coverage": 0.8879781420765027,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.08,
+  "peakDbTP": -2.48,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "callmethefoo-744447",
+      "start": 0,
+      "source": "assets/audio/sources/callmethefoo-744447.mp3",
+      "sourceSha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
+      "sourceUrl": "https://freesound.org/people/callmethefoo/sounds/744447/",
+      "author": "callmethefoo",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.07,
+      "openingGain": 0.16,
+      "raisedGain": 0.23,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -51.09803919971486,
+      "lowPassHz": 1800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 12,
+        "seconds": 85.24
+      },
+      "envelope": {
+        "riseStart": 105.93,
+        "riseEnd": 106.73000000000002,
+        "holdSeconds": 0.7499999999999858,
+        "fadeStart": 107.48,
+        "fadeEnd": 108.88000000000001
+      }
+    }
+  ],
+  "sha256": "7aae0faa9f808f99558ced65ed9b808466516548d1a93dd576a1c20613f55ab5",
+  "voiceHandles": {
+    "body": {
+      "start": 0.19,
+      "end": 104.77,
+      "retainedPcmSha256": "213cde4028174c5294525a8b9d685f74f2e62ddd33285d172dd8b14a4a50ad06",
+      "sourceSha256": "6ed153035ed31ce77b304a724b36c22a60306c3260075835f11a107365e59298",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.175,
+      "end": 3.305,
+      "retainedPcmSha256": "4e016cae295cb3c0dc289b4fd5a7ce983c9d281afdca3b5c76b78286bf9d783d",
+      "sourceSha256": "31d9de7cef398d29752f30be1a52fae641a78e64ee30e2f91a61799af58de5f8",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-25",
+    "sourceTakeSha256": "b31d7719b5aa4b6b3eb6b6c7496c23117c80db4630609852e1827beb2e706e8e",
+    "sourceBatch": "L39",
+    "confirmation": "Docent 25/11: S119, S117, S115, S113, S112, S121 i S127 validats per pujar a muntatge."
+  }
+}

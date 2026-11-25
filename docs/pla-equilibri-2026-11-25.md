@@ -1,6 +1,6 @@
 # Nova tanda per equilibrar el catàleg · 25/11/2026
 
-**S112–S127: els setze guions estan validats i les veus rebudes**, amb preguntes obertes/ABCD, context i revisió independent. L38 conté les notícies; L39, taller i entrevistes; L40, explicacions. Totes esperen audició docent de veus abans del muntatge. S125 incorpora «Per tocar» i «Gastades» com a rètols literals. [Revisa L39/L40 i les esmenes](lots-l39-l40.md).
+**S112–S127: els setze guions estan validats i les veus rebudes**, amb preguntes obertes/ABCD, context i revisió independent. L38 conté les notícies; L39, taller i entrevistes; L40, explicacions. S112, S113, S115, S117, S119, S121 i S127 ja tenen les veus validades i un primer muntatge per escoltar; les altres nou esperen audició de veus. S125 incorpora «Per tocar» i «Gastades» com a rètols literals. [Revisa L39/L40 i les esmenes](lots-l39-l40.md).
 
 | Bloc | Codis amb veus rebudes | Objectiu | Previsió de veu amb esmenes |
 | --- | --- | --- | ---: |
@@ -51,10 +51,10 @@ Revisions separades: /root/abcd_author_002 (Mar), /root/abcd_author_003 (explica
 
 ## Lot concret L38 · 25/11
 
-Les vuit notícies S112–S119 ja tenen el guió validat. L38 agrupa els vuit títols i fragments complets amb S085/comiat, S093/confirmar i S102/final: una sola identitat Mar/Erinome, 1.031 mots, uns **6:08** i 4.931 tokens d’entrada estimats. S102/sentit (Informadora/Callirrhoe) queda fora per conservar el repartiment exacte i esperarà un altre lot compatible. La composició executada es consulta a la [cua de síntesi](lots-sintesi.md) i al [registre de lots](../content/synthesis-batches.json). El retorn de veus encara necessita audició docent abans del muntatge.
+Les vuit notícies S112–S119 ja tenen el guió validat. L38 agrupa els vuit títols i fragments complets amb S085/comiat, S093/confirmar i S102/final: una sola identitat Mar/Erinome, 1.031 mots, uns **6:08** i 4.931 tokens d’entrada estimats. S102/sentit (Informadora/Callirrhoe) queda fora per conservar el repartiment exacte i esperarà un altre lot compatible. La composició executada es consulta a la [cua de síntesi](lots-sintesi.md) i al [registre de lots](../content/synthesis-batches.json). S112, S113, S115, S117 i S119 ja tenen les veus validades i muntatge per escoltar; S114, S116 i S118 esperen audició de veus.
 
 **Retorn de L38:** rebut i separat en onze talls, 351,61 segons de gravació. Veus de [S112–S119](../proves/veus-rebudes.html#S112) i [comparacions de les tres esmenes](../proves/correccions-l38.html) disponibles. Una sola petició; resposta original i mostres preservades. La comprovació local no ha detectat omissions de torns; no valida pronunciació, timbre ni muntatge. S102/sentit segueix pendent.
 
 ## Tanda completada a nivell de guió i veus
 
-S112–S127 tenen guió validat i les veus rebudes: L38 (notícies), L39 (taller) i L40 (explicacions). Totes esperen audició docent de veu abans de muntar. Les esmenes compatibles d’Elies i Mireia també són disponibles. [Detall de L39/L40](lots-l39-l40.md). Els pilots culturals S128–S130 tenen guió aprovat i esperen completar un lot narrat.
+S112–S127 tenen guió validat i les veus rebudes: L38 (notícies), L39 (taller) i L40 (explicacions). Set peces ja tenen muntatge pendent d’audició: S112, S113, S115, S117, S119, S121 i S127. Les altres nou esperen audició de veus. Les esmenes compatibles d’Elies i Mireia també són disponibles. [Detall de L39/L40](lots-l39-l40.md). Els pilots culturals S128–S130 tenen guió aprovat i esperen completar un lot narrat.

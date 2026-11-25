@@ -172,7 +172,12 @@ export const musicCatalogue = [
       "ca-S054",
       "ca-S057",
       "ca-S055",
-      "ca-S056"
+      "ca-S056",
+      "ca-S112",
+      "ca-S113",
+      "ca-S115",
+      "ca-S117",
+      "ca-S119"
     ]
   },
   {

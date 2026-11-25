@@ -1,0 +1,83 @@
+{
+  "code": "S112",
+  "activity": "ca-S112",
+  "state": "awaiting-montage-validation",
+  "file": "s112-mixed-v1.mp3",
+  "introFile": "s112-mixed-v1-intro.mp3",
+  "bodyFile": "s112-mixed-v1-cos.mp3",
+  "offset": 5.45,
+  "bodyDuration": 42.445,
+  "fullDuration": 47.895,
+  "voices": {
+    "Mar": "Erinome"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "5451b4cea3e920f9aa007be12efb850987a7a6376108afb4dff422c3b91341ac",
+  "sourceRequestHash": "d7dee28520610d3a276cd499381664992e742fa3c2c2daa0c4a5333be2675c0f",
+  "batch": "L38",
+  "rawSha256": "99234bdcad2f77209580f8657378497a82e88cad867431a32a8410636162ff7f",
+  "takeSha256": "6940a44b44c6feb47f12a63475119e77d6d77b44545b1cafa5b022f3d7d5925e",
+  "coverage": 0.9830508474576272,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.8,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "grand-project-breaking-news-505617",
+      "origin": "licensed-music-in-montage",
+      "start": 0,
+      "underSpeech": true,
+      "credit": {
+        "id": "grand-project-breaking-news-505617",
+        "title": "Breaking News Background Music",
+        "author": "Grand_Project",
+        "url": "https://pixabay.com/music/percussion-breaking-news-background-music-505617/",
+        "license": "Pixabay Content License",
+        "licenseUrl": "https://pixabay.com/service/license-summary/",
+        "source": "tools/news-bed.cjs",
+        "origin": "licensed-music",
+        "kind": "news-programme",
+        "sourceNotDistributedSeparately": true,
+        "newSynthesisRequests": 0
+      },
+      "sourceSha256": "32e3e6c978ef1bc5c013c40880ac3ad9714957548f956c1355ad8852c94405ae",
+      "voiceMarginTargetDb": 25,
+      "sidechain": {
+        "threshold": 0.018,
+        "ratio": 6,
+        "attackMs": 12,
+        "releaseMs": 450
+      },
+      "openingSeconds": 3.5,
+      "closingSeconds": 4.5
+    }
+  ],
+  "sha256": "9c5582e2e4eed2700a737ca5ff8a1ead13787ae89e9f88eb743b19296fbf136b",
+  "voiceHandles": {
+    "body": {
+      "start": 0.08079166666666666,
+      "end": 35.17579166666667,
+      "retainedPcmSha256": "6d4688de44111669f27be06ab3102d0b9ee2e76c124d9c1a3042446d51642e75",
+      "sourceSha256": "804d60d00394b87d710d2af3cefe8fcfcfac329d5a7f6453e5bd96f35f9c135b",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0,
+      "end": 4.25,
+      "retainedPcmSha256": "e5f320a628d8ca871d67afc6d29346bb96d388adb8daf4845b551c8a5f00de12",
+      "sourceSha256": "a10d918ffb33be13cfb886de36616eb23e9e38816e4167dd8418078631b769e2",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-25",
+    "sourceTakeSha256": "6940a44b44c6feb47f12a63475119e77d6d77b44545b1cafa5b022f3d7d5925e",
+    "sourceBatch": "L38",
+    "confirmation": "Docent 25/11: S119, S117, S115, S113, S112, S121 i S127 validats per pujar a muntatge."
+  }
+}
