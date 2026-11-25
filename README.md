@@ -2,6 +2,8 @@
 
 Banc de comprensió oral d’ortogra.fi. El docent tria una activitat, prepara la fitxa i el solucionari i els imprimeix. L’alumnat respon al paper i escolta l’àudio des del QR o l’enllaç. Web estàtic, sense comptes ni servidor d’aplicació.
 
+[Equilibri del catàleg](docs/equilibri-cataleg.md) i [prioritats de nous guions](docs/prioritats-cataleg.md): recompte dels cinc filtres, publicacions definitives i pendents, amb proposta de tres blocs per ampliar sobretot l’oferta breu i les explicacions de 3r–4t.
+
 [Muntatges per revisar del 25/11](docs/lots-2026-11-25.md): S099, S111, S094, S072 i S089 amb veus validades i muntatges preparats per a l’audició final. S072 té una base musical suau de narració; S111, vent natural continu. Omissions de S088/S090 confirmades i en cua per als propers lots compatibles. Originals conservats, sense síntesi nova de veu.
 
 [Segona publicació del 25/11](docs/publicacio-2026-11-25-segona-tanda.md): S104, S106, S087, S110, S074, S100, S108, S056 i S097 definitives. Nou il·lustracions amb prompts i referències, materials nets comprovats i màsters aprovats intactes. S074 és diàleg i les esmenes de S056/S097 queden tancades. Aquesta tanda va completar tots els muntatges que hi havia aleshores en revisió; continuen les esmenes i audicions de veus d’altres peces.
