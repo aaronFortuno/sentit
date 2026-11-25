@@ -3791,12 +3791,12 @@ export const productionProgress = {
     }
   },
   "ca-S058": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-22T20:16:52.042Z",
-    "editorialFingerprint": "56df8abc8b9aef92135f8a89300a7c5fe779f8015e30a91c1f13aade6b97b869",
+    "editorialFingerprint": "d23504df787869cb72ff7281e4d9da4e76067b9dda4c09b16bd219e408b8a8a1",
     "plannedNewRequests": 0,
-    "listeningApproval": false,
-    "confirmation": "S058 validada per síntesi de veus",
+    "listeningApproval": true,
+    "confirmation": "Docent 25/11: S058 validat per publicació definitiva.",
     "reason": "P06 complet amb S058,S061,S062; preparar un lot Laia/Leda i Biel/Puck de sis a vuit minuts.",
     "uncertainTurns": [],
     "receivedTakes": {
@@ -3852,19 +3852,20 @@ export const productionProgress = {
       "sourceTakeSha256": "41b9054c90bc68390aade806e98599e2fe8038e9e5c790219c2d5ec465253b78",
       "status": "not-needed-after-teacher-listening"
     },
-    "teacherAssessment": "Presa neta validada pel docent. Muntatge amb ambient continu suau d’aula, pendent d’audició final.",
+    "teacherAssessment": "Veus, esmenes incorporades i muntatge validats definitivament pel docent. Màster aprovat conservat intacte.",
     "mountedAt": "2026-11-25T17:11:13.508Z",
     "synthesisBatch": "L18",
     "requestHash": "f1a68c184a8ed0118f14d57dc5a685880f5b7affe7562ae9d14cbc273639f768",
     "audioSha256": "f692e7ee26901e76187b63003059719cfa7cd0b28f41b8f586da396025c8ef32",
     "montageNewSynthesisRequests": 0,
-    "reviewUpdate": {
-      "at": "2026-11-25",
-      "audio": "./assets/audio/s058-mixed-v1.mp3",
-      "summary": {
-        "ca": "Veus netes validades, amb ambient continu molt suau d’aula. Muntatge pendent d’audició final.",
-        "es": "Voces limpias validadas, con ambiente continuo muy suave de aula. Montaje pendiente de audición final."
-      }
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s058-publicacio-v1.webp",
+      "illustrationSha256": "69cbe395870264ecf4f49d2e7d591ff3aa2c5abb3df8942fd06f799432e1a300",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-25",
+      "audioChanged": false
     }
   },
   "ca-S081": {

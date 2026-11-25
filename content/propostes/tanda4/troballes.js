@@ -10,7 +10,8 @@ const dialogue = data => proposal({
 export const troballes = [
   dialogue({
     id: 'la-pancarta-que-tapava-la-porta', code: 'S058', title: 'La pancarta que tapava la porta', grade: '5', level: 'easy',
-    seconds: 96, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s058-publicacio-v1.webp","alt":"La Laia sosté un rotlle de paper mentre en Biel recull fulls sobre una taula de l’aula.","width":1536,"height":1024},
+    seconds: 96, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s058-mixed-v1.mp3', tracks: { introduction: './assets/audio/s058-mixed-v1-intro.mp3', body: './assets/audio/s058-mixed-v1-cos.mp3' },
     fragment: { start: 4.630000000000001, seconds: 91 },
     summary: 'La Laia i en Biel volen penjar una pancarta per a una mostra de classe. Quan es miren l’entrada des del passadís, troben un detall que no havien vist des de dins.',

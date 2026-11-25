@@ -375,9 +375,9 @@ export const editorialReviews = {
   },
   "ca-S058": {
     "status": "passed",
-    "reviewedAt": "2026-11-22",
-    "reviewer": "autoria_tanda4_aula_records",
-    "fingerprint": "56df8abc8b9aef92135f8a89300a7c5fe779f8015e30a91c1f13aade6b97b869"
+    "reviewedAt": "2026-11-25",
+    "reviewer": "/root/review_s058_final_20261125",
+    "fingerprint": "d23504df787869cb72ff7281e4d9da4e76067b9dda4c09b16bd219e408b8a8a1"
   },
   "ca-S059": {
     "status": "passed",

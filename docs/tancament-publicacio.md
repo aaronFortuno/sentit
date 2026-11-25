@@ -38,3 +38,6 @@ Tancament del 25/11/2026, tercera tanda: S094, S111, S099, S072 i S089, amb vali
 
 
 Quarta tanda del 25/11/2026: S061, S071, S022, S059 i S025 passen a definitives. Quatre il·lustracions noves amb models canònics i prompts conservats; S071 comparteix la imatge de S071D amb alt propi. Revisió independent de 39 preguntes, 48 cites, 53 intervencions i les cinc imatges, sense respostes revelades. Màsters aprovats intactes i esmenes tancades. Fitxes i solucionaris nets comprovats en local. [Detall i fitxers](publicacio-2026-11-25-quarta-tanda.md).
+
+
+S058 tancada el 25/11/2026 amb aprovació definitiva del docent. Il·lustració contextual nova amb models canònics, revisió independent de 8 preguntes, 10 cites i 11 torns, fitxa i solucionari nets comprovats en local. Màster aprovat conservat exactament; cap síntesi. [Detall i procedència](publicacio-s058-2026-11-25.md).

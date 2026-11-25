@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.110 · 25 de novembre de 2026
+
+- S058 passa a publicació definitiva després de l’aprovació docent. Il·lustració contextual amb els models canònics, revisió independent de 8 preguntes i 10 cites, fitxa i solucionari només parlat. El màster aprovat es conserva intacte; 101 comprensions definitives.
+- El popup de format substitueix els exemples reconstruïts per captures reals de la primera pregunta de S001, fetes amb el maquetador A4. Retall a escala del full amb línies o ABCD sense marcar; degradat transparent a la dreta i adaptació al mode fosc.
+- Preferència, botons i desat entre fitxes conservats. Retalls, degradat, mòbil, accessibilitat i publicació comprovats localment; cap síntesi nova.
+
 ## 0.1.109 · 25 de novembre de 2026
 
 - S061, S071, S022, S059 i S025 publicades definitivament amb el vistiplau docent: 100 peces definitives. Quatre il·lustracions noves i una compartida amb la variant dialogada, amb revisió independent de les cinc imatges, 39 preguntes, 48 cites i 53 intervencions. Fitxes i solucionaris nets, amb els cinc màsters aprovats intactes.

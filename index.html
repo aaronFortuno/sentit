@@ -8,14 +8,14 @@
   <meta name="theme-color" content="#f7f5ee">
   <link rel="canonical" href="https://sentit.ortogra.fi/">
   <link rel="icon" href="./assets/sentit.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css?v=0.1.109">
-  <link rel="stylesheet" href="./worksheet.css?v=0.1.109">
+  <link rel="stylesheet" href="./styles.css?v=0.1.110">
+  <link rel="stylesheet" href="./worksheet.css?v=0.1.110">
   <link rel="stylesheet" href="./catalog.css">
   <link rel="stylesheet" href="./select-menu.css">
   <link rel="stylesheet" href="./characters.css">
   <title>Sentit · Comprensió oral</title>
   <script defer src="./assets/vendor/qrcode.js"></script>
-  <script type="module" src="./app.js?v=0.1.109"></script>
+  <script type="module" src="./app.js?v=0.1.110"></script>
 </head>
 <body>
   <a class="skip" href="#workspace" data-t="skip">Ves al contingut</a>
@@ -287,7 +287,7 @@
       <nav aria-label="Projecte" data-label="project">
         <label class="provisional-option footer-provisional" title="Funció experimental"><input id="show-provisional" type="checkbox" role="switch" checked><span data-t="showProvisionalExperimental">Només provisionals · experimental</span></label>
         <a href="./LICENSE" data-t="license">Llicència</a>
-        <button type="button" data-open="changes" data-label="changes">v0.1.109</button>
+        <button type="button" data-open="changes" data-label="changes">v0.1.110</button>
         <button type="button" data-open="v4v">V4V</button>
       </nav>
     </div>
@@ -332,8 +332,8 @@
       <div class="dialog-scroll question-format-dialog-scroll">
         <p id="question-format-description" data-t="responseWelcomeDescription">Tria entre resposta textual i opcions ABCD, quan n’hi hagi. Les preguntes d’opinió o justificació personal mantenen la resposta textual.</p>
         <div class="response-example-grid">
-          <article class="response-example-card"><h3 data-t="responseOpen">Resposta oberta</h3><div id="response-example-open" class="response-paper-sample"></div><button class="button" type="button" data-preference-mode="open" data-t="responsePreferOpen">Prefereixo resposta textual</button></article>
-          <article class="response-example-card"><h3 data-t="responseChoice">ABCD</h3><div id="response-example-choice" class="response-paper-sample"></div><button class="button primary" type="button" data-preference-mode="choice" data-t="responsePreferChoice">Prefereixo ABCD</button></article>
+          <article class="response-example-card"><h3 data-t="responseOpen">Resposta oberta</h3><div id="response-example-open" class="response-paper-sample"><img src="./assets/images/question-format-open-print-v1.webp" width="1440" height="244" alt="Retall d’una pregunta del full imprimible, amb dues línies per escriure la resposta." data-alt="responseSampleOpen" lang="ca" data-response-sample="open"></div><button class="button" type="button" data-preference-mode="open" data-t="responsePreferOpen">Prefereixo resposta textual</button></article>
+          <article class="response-example-card"><h3 data-t="responseChoice">ABCD</h3><div id="response-example-choice" class="response-paper-sample"><img src="./assets/images/question-format-choice-print-v1.webp" width="1440" height="350" alt="La mateixa pregunta al full imprimible, amb quatre opcions ABCD i caselles sense marcar." data-alt="responseSampleChoice" lang="ca" data-response-sample="choice"></div><button class="button primary" type="button" data-preference-mode="choice" data-t="responsePreferChoice">Prefereixo ABCD</button></article>
         </div>
         <p class="print-help" data-t="responseWelcomeAvailability">Les fitxes sense alternatives disponibles continuen amb resposta textual.</p>
       </div>
@@ -348,6 +348,8 @@
       </div>
       <a class="changelog-full" href="https://github.com/aaronFortuno/sentit/blob/main/CHANGELOG.md" target="_blank" rel="noopener noreferrer" data-t="fullChangelog">Changelog complet a GitHub</a>
       <div class="changelog-scroll dialog-scroll">
+      <h3>0.1.110 <time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></h3>
+      <p data-t="releaseRealPrintSamples">S058 publicada definitivament amb il·lustració i solucionari net: 101 comprensions definitives. La tria de format mostra retalls del full imprimible real, amb dues línies de resposta o quatre opcions ABCD i degradat transparent a la dreta.</p>
       <h3>0.1.109 <time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></h3>
       <p data-t="releaseQuestionPreference">S061, S071, S022, S059 i S025 definitives: 100 comprensions publicades. Primera tria de format textual/ABCD amb exemples, memòria entre fitxes i sessions i «Tria de nou» al primer bloc d’impressió. S058 muntada i pendent d’audició final, sense síntesi nova.</p>
       <h3>0.1.108 <time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></h3>

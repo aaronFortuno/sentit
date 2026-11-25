@@ -1,0 +1,17 @@
+{
+  "code": "S058",
+  "date": "2026-11-25",
+  "tool": "image_gen built-in",
+  "file": "s058-publicacio-v1.webp",
+  "alt": "La Laia sosté un rotlle de paper mentre en Biel recull fulls sobre una taula de l’aula.",
+  "width": 1536,
+  "height": 1024,
+  "references": [
+    "../characters/laia-model-sheet-v1.webp",
+    "../characters/biel-model-sheet-v1.webp"
+  ],
+  "sourceImage": "exec-3c9766a0-7bea-4cd7-9245-871dd3f7de52.png",
+  "sourceImageSha256": "1fd4817860e81fb7762bc103f37354a6a4f44086758cc4169da94e548fdb64c3",
+  "prompt": "Use case: illustration-story. Create one landscape 1536x1024 watercolor and fine warm ink illustration for a Catalan school listening worksheet S058. The two supplied images are character identity/style references ONLY, not layouts to reproduce. Match Laia from reference 1 (curly brown hair in loose high bun, freckles, sage green sweater, taupe trousers) and Biel from reference 2 (tousled brown hair, charcoal zip hoodie, off-white T-shirt, taupe trousers). Exactly these two young characters. In a real classroom, they stand at a worktable, actively gathering a large closed roll of blank paper together before preparing their class display. Laia supports the roll, Biel collects the loose blank sheets on the table, a natural warm collaborative moment. A few brushes and pencils in a jar establish the classroom craft setting. Soft shelves and desks in background. Mid-wide composition with bodies visible to hips, spacious paper-white edges and restrained sage, ochre and muted grey washes, traditional children's book illustration matching the references. No text, numbers, signs, doorway, hung banner, arrows, measurement, scissors, tape, or clues to the solutions. No other characters. No title, labels, panels or character sheet. This is a concrete preparatory action, not two characters posing at camera.",
+  "encoding": "WebP quality 90; composition and dimensions retained."
+}

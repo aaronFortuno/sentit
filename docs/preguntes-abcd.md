@@ -113,3 +113,10 @@ Després del pilot, recórrer els codis base en ordre i incloure les variants de
 - Bandera i Umami amb format identificat, valors admesos i exclusions de privadesa. Comprovar localment i publicar al repositori; el docent revisa el desplegament.
 
 La cobertura tindrà un seguiment propi de preguntes, separat del [seguiment de producció d’àudio](seguiment-produccio.md). Rebre una veu, validar un muntatge i revisar les opcions ABCD són processos diferents.
+
+
+### Retalls impresos del selector · 0.1.110
+
+Els exemples són captures de la primera pregunta de S001, generades amb `renderWorksheet`, tipografia i escala A4 reals. Es captura el full sencer i es retalla la pregunta amb les dues línies o les quatre opcions sense marcar; el popup en mostra només l’inici i aplica un degradat cap a transparent a la dreta, sense reduir ni remaquetar el text. El canvi visual conserva el desat de la preferència. Les imatges tenen descripció alternativa en català i castellà.
+
+Regeneració local: `node tools/capture-question-format-samples.cjs`. Fitxers i procedència a `assets/images/question-format-{open,choice}-print-v1.webp` i `question-format-print-samples.json`. Les captures es conserven en escala doble per a pantalles d’alta densitat, amb la composició i tipografia del full.

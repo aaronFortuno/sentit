@@ -291,17 +291,6 @@ function choiceRow(option, answerKey, correct) {
   return row;
 }
 
-// Same question blocks and option rows as the worksheet, without editing or answer cues.
-export function renderResponseExample(root, entry, question, mode) {
-  const resolved = responseQuestion(entry, question, { questionMode: mode });
-  const prompt = element('p', 'paper-prompt', resolved.prompt);
-  const response = resolved.responseMode === 'choice'
-    ? resolved.alternative.options.map(option => choiceRow(option, false))
-    : Array.from({ length: 2 }, () => element('div', 'write-line'));
-  root.lang = entry.language;
-  root.replaceChildren(questionBlock(1, '', [prompt, ...response]));
-}
-
 export function renderWorksheet(container, entry, format, settings, { answerKey, labels, toolLabels = labels, listenUrl, session }) {
   if (isPendingReview(entry)) labels = { ...labels, seeTranscript: labels.seeScript, seeTranscriptQuestion: labels.seeScriptQuestion };
   const footers = [];

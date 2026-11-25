@@ -1,0 +1,155 @@
+{
+  "method": "Local screenshot of the complete A4 renderWorksheet output, cropped to the first question. No rewritten sample markup, no solution marks, no generated image.",
+  "language": "ca",
+  "rightFade": "Applied by CSS mask in the preference dialog, outside the source captures.",
+  "sourceHashes": {
+    "worksheet.js": "3b947090d8fae3bc5f5526b20520fd705cf6fe76343d431c992af6d2e2c5bcd5",
+    "worksheet.css": "646d18d89ac9fcd684c529ed0137d18365fadfa7bf61f6f06edfacbac8fd9f50",
+    "styles.css": "6e1e742f0450aa59352e6c0ecec1da318f9698a4e4725a63186adcbb2e48336d"
+  },
+  "captures": [
+    {
+      "mode": "open",
+      "file": "question-format-open-print-v1.webp",
+      "cssWidth": 720,
+      "pixelRatio": 2,
+      "code": "S001",
+      "questionId": "activitat",
+      "format": {
+        "font": "serif",
+        "size": 12,
+        "spacing": 7,
+        "leading": 1.6
+      },
+      "settings": {
+        "questionMode": "open",
+        "showImage": false,
+        "showContext": false,
+        "showInstructions": false
+      },
+      "question": {
+        "id": "activitat",
+        "prompt": "Quina activitat anuncien a la ràdio? Quin dia i en quin moment del dia es farà?",
+        "answer": "Un intercanvi de còmics, divendres a l’hora del pati. S’accepten paraules clau.",
+        "evidence": [
+          {
+            "part": "avis-inicial",
+            "quote": "Divendres, a l’hora del pati, farem un intercanvi de còmics"
+          }
+        ],
+        "lines": 2,
+        "alternative": {
+          "prompt": "Quina activitat faran i quan?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Intercanviaran còmics divendres, a l’hora del pati."
+            },
+            {
+              "id": "b",
+              "text": "Intercanviaran còmics divendres, després de classe."
+            },
+            {
+              "id": "c",
+              "text": "Intercanviaran còmics dijous, a l’hora del pati."
+            },
+            {
+              "id": "d",
+              "text": "Intercanviaran còmics dijous, després de classe."
+            }
+          ],
+          "correct": "a",
+          "explanation": "L’avís anuncia un intercanvi de còmics divendres, a l’hora del pati.",
+          "evidence": [
+            {
+              "part": "avis-inicial",
+              "quote": "Divendres, a l’hora del pati, farem un intercanvi de còmics"
+            }
+          ]
+        },
+        "responseMode": "open",
+        "openOnlyReason": ""
+      },
+      "lines": 2,
+      "options": 0,
+      "crop": {
+        "x": 8,
+        "y": 232,
+        "width": 720,
+        "height": 122
+      },
+      "sha256": "f24e245b7d91abd0dfa408414ad05473b2d64d6a0b04bf3d536b91e19b632803"
+    },
+    {
+      "mode": "choice",
+      "file": "question-format-choice-print-v1.webp",
+      "cssWidth": 720,
+      "pixelRatio": 2,
+      "code": "S001",
+      "questionId": "activitat",
+      "format": {
+        "font": "serif",
+        "size": 12,
+        "spacing": 7,
+        "leading": 1.6
+      },
+      "settings": {
+        "questionMode": "choice",
+        "showImage": false,
+        "showContext": false,
+        "showInstructions": false
+      },
+      "question": {
+        "id": "activitat",
+        "prompt": "Quina activitat faran i quan?",
+        "answer": "A. Intercanviaran còmics divendres, a l’hora del pati.\nL’avís anuncia un intercanvi de còmics divendres, a l’hora del pati.",
+        "evidence": [
+          {
+            "part": "avis-inicial",
+            "quote": "Divendres, a l’hora del pati, farem un intercanvi de còmics"
+          }
+        ],
+        "lines": 2,
+        "alternative": {
+          "prompt": "Quina activitat faran i quan?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Intercanviaran còmics divendres, a l’hora del pati."
+            },
+            {
+              "id": "b",
+              "text": "Intercanviaran còmics divendres, després de classe."
+            },
+            {
+              "id": "c",
+              "text": "Intercanviaran còmics dijous, a l’hora del pati."
+            },
+            {
+              "id": "d",
+              "text": "Intercanviaran còmics dijous, després de classe."
+            }
+          ],
+          "correct": "a",
+          "explanation": "L’avís anuncia un intercanvi de còmics divendres, a l’hora del pati.",
+          "evidence": [
+            {
+              "part": "avis-inicial",
+              "quote": "Divendres, a l’hora del pati, farem un intercanvi de còmics"
+            }
+          ]
+        },
+        "responseMode": "choice"
+      },
+      "lines": 0,
+      "options": 4,
+      "crop": {
+        "x": 8,
+        "y": 232,
+        "width": 720,
+        "height": 175
+      },
+      "sha256": "5c8772682c523671152d8b961c9412dae078f25fa8c8ca0d87942a3b50712aba"
+    }
+  ]
+}

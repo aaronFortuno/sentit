@@ -1,7 +1,7 @@
 import { activities, legacyActivities } from './catalogue.js';
 import { renderRepairPreview, renderVoicePreview } from './repair-preview.js?v=0.1.96';
-import { strings } from './locales.js?v=0.1.109';
-import { defaultFormat, imageOptions, maxLines, questionFormat, renderWorksheet, renderResponseExample } from './worksheet.js?v=0.1.109';
+import { strings } from './locales.js?v=0.1.110';
+import { defaultFormat, imageOptions, maxLines, questionFormat, renderWorksheet } from './worksheet.js?v=0.1.110';
 import { clockTime, decodeSession, defaultSession, encodeSession, guidedPrompts, validRate, sessionJingles, validJingle } from './session.js';
 import { renderAudioResources } from './audio-resources.js';
 import { isPendingReview, needsReview } from './review.js';
@@ -342,10 +342,6 @@ function showActivity(entry, collectionId = '') {
 function showResponsePreference() {
   if (listenId !== null || !selected) return;
   responsePreferenceShown = true;
-  const entry = activities.find(a => a.code === 'S003' && a.language === 'ca');
-  const question = entry.questions.find(q => q.id === 'lloc');
-  renderResponseExample(byId('response-example-open'), entry, question, 'open');
-  renderResponseExample(byId('response-example-choice'), entry, question, 'choice');
   openDialog(byId('question-format-dialog'));
 }
 
@@ -452,6 +448,7 @@ function translate() {
   }
   for (const element of document.querySelectorAll('[data-placeholder]')) element.placeholder = t(element.dataset.placeholder);
   for (const element of document.querySelectorAll('[data-title]')) element.title = t(element.dataset.title);
+  for (const element of document.querySelectorAll('[data-alt]')) element.alt = t(element.dataset.alt);
   byId('header-motto').textContent = mottos[language][mottoIndex];
   syncPrivacy();
   characterExplorer?.render();

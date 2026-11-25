@@ -1,7 +1,7 @@
 {
   "code": "S058",
   "activity": "ca-S058",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s058-mixed-v1.mp3",
   "introFile": "s058-mixed-v1-intro.mp3",
   "bodyFile": "s058-mixed-v1-cos.mp3",
@@ -80,5 +80,20 @@
     "sourceTakeSha256": "41b9054c90bc68390aade806e98599e2fe8038e9e5c790219c2d5ec465253b78",
     "confirmation": "Docent 25/11: S058 validat per muntatge.",
     "confirmedAfterMetadataCleanup": true
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "confirmation": "Docent 25/11: S058 validat per publicació definitiva.",
+    "audioSha256": "f692e7ee26901e76187b63003059719cfa7cd0b28f41b8f586da396025c8ef32",
+    "editorialFingerprint": "d23504df787869cb72ff7281e4d9da4e76067b9dda4c09b16bd219e408b8a8a1",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/s058-publicacio-v1.webp",
+    "illustrationSha256": "69cbe395870264ecf4f49d2e7d591ff3aa2c5abb3df8942fd06f799432e1a300",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-25",
+    "audioChanged": false
   }
 }

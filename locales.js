@@ -1,5 +1,8 @@
 export const strings = {
   ca: {
+    releaseRealPrintSamples: "S058 publicada definitivament amb il·lustració i solucionari net: 101 comprensions definitives. La tria de format mostra retalls del full imprimible real, amb dues línies de resposta o quatre opcions ABCD i degradat transparent a la dreta.",
+    responseSampleOpen: "Retall de la fitxa impresa de S001: una pregunta amb dues línies per escriure la resposta.",
+    responseSampleChoice: "Retall de la mateixa pregunta de S001 en format ABCD: quatre opcions amb caselles sense marcar.",
     releaseQuestionPreference: "S061, S071, S022, S059 i S025 definitives: 100 comprensions publicades. Primera tria de format textual/ABCD amb exemples, memòria entre fitxes i sessions i «Tria de nou» al primer bloc d’impressió. S058 muntada i pendent d’audició final, sense síntesi nova.",
     responseBrowserDefault: 'Per defecte entre fitxes', responseChooseAgain: 'Tria de nou',
     responseWelcomeTitle: 'Com prefereixes les preguntes?',
@@ -325,6 +328,9 @@ export const strings = {
     sessionEnded: 'Sessió acabada', remainingTime: 'Temps restant',
   },
   es: {
+    releaseRealPrintSamples: "S058 publicada definitivamente con ilustración y solucionario limpio: 101 comprensiones definitivas. La elección de formato muestra recortes de la ficha imprimible real, con dos líneas de respuesta o cuatro opciones ABCD y degradado transparente a la derecha.",
+    responseSampleOpen: "Recorte de la ficha impresa de S001: una pregunta con dos líneas para escribir la respuesta.",
+    responseSampleChoice: "Recorte de la misma pregunta de S001 en formato ABCD: cuatro opciones con casillas sin marcar.",
     releaseQuestionPreference: "S061, S071, S022, S059 y S025 definitivas: 100 comprensiones publicadas. Primera elección de formato textual/ABCD con ejemplos, memoria entre fichas y sesiones y «Elige de nuevo» al primer bloque de impresión. S058 montada y pendiente de audición final, sin síntesis nueva.",
     responseBrowserDefault: 'Por defecto entre fichas', responseChooseAgain: 'Elige de nuevo',
     responseWelcomeTitle: '¿Cómo prefieres las preguntas?',
