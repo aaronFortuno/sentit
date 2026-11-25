@@ -2,6 +2,8 @@
 
 Proposta editorial del **25/11/2026**, basada en el [recompte dels cinc filtres](equilibri-cataleg.md). És una proposta de nous encàrrecs: no són guions revisats ni autoritzacions de síntesi. La numeració S es reservarà quan comenci l’autoria.
 
+**Ampliació ajornada per decisió del docent:** primer cal resoldre el [doble format de preguntes obertes/ABCD](preguntes-abcd.md) a les peces actuals. Els briefs següents es conserven per reprendre’ls després amb aquest format incorporat.
+
 ## Diagnosi
 
 - **Curs:** 3r i 4t tenen 23 entrades cadascun, davant de 39 de 5è i 32 de 6è, comptant les pendents. La propera ampliació pot reforçar sobretot cicle mitjà. L’oferta de 1r d’ESO és testimonial: dues peces que s’hi han requalificat, sense un pla complet d’ESO.
