@@ -1,6 +1,6 @@
 # Pla d’esmenes de veu
 
-Actualitzat: **25/11/2026**. **21 fragments en 20 preses previstes** encara necessiten síntesi o re-síntesi. Els dos paràgrafs consecutius de S017 s’han de gravar junts. **1 fragment addicional pendent de confirmar a l’àudio net** i **3 fragments ja rebuts que no s’han de tornar a generar ara**.
+Actualitzat: **25/11/2026**. **21 fragments en 20 preses previstes** encara necessiten síntesi o re-síntesi. Els dos paràgrafs consecutius de S017 s’han de gravar junts. **0 fragment addicional pendent de confirmar a l’àudio net** i **3 fragments ja rebuts que no s’han de tornar a generar ara**.
 
 Aquest inventari exclou les esmenes ja incorporades als muntatges i les publicacions definitives. No és una autorització ni una cua executable. No s’ha fet cap petició nova per preparar-lo.
 
@@ -51,7 +51,6 @@ Prioritat pràctica: completar primer **Ferran** i **Mar + informadora**, que te
 - **S010 / pla:** fragment validat, pendent d’aplicar. No generar-ne una altra abans de resoldre aquesta revisió.
 - **S010 / alternativa:** presa rebuda, pendent d’audició. No generar-ne una altra abans de resoldre aquesta revisió.
 - **S070 / esperar:** presa rebuda, pendent d’audició; comparació parcial local demanada. No generar-ne una altra abans de resoldre aquesta revisió.
-- **S058 / avis:** tornar a escoltar la presa neta de metadades abans de confirmar que cal regenerar «trossets».
 - **S011:** Cal revisar també l’estabilitat del conjunt de veus; dues frases corregides poden no resoldre tota la peça.
 
 La quota disponible es consulta a AI Studio. Aquest document i el registre local no en substitueixen el comptador. [Cua i rebuts](lots-sintesi.md) · [Seguiment de producció](seguiment-produccio.md).

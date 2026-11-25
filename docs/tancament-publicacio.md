@@ -35,3 +35,6 @@ Tancament del 25/11/2026, segona tanda: S104, S106, S087, S110, S074, S100, S108
 
 
 Tancament del 25/11/2026, tercera tanda: S094, S111, S099, S072 i S089, amb validació definitiva explícita del docent. Cinc il·lustracions creades amb el generador integrat i models canònics, amb prompts i edicions a `assets/images/sXXX-publication.prompts.json`. Revisió independent d’imatges, alts i 39 preguntes amb cites; S094 evita suggerir el color del paraigua de recanvi. Màsters intactes, fitxes i solucionaris només parlats comprovats en local. Detall a [la tercera publicació del 25/11](publicacio-2026-11-25-tercera-tanda.md).
+
+
+Quarta tanda del 25/11/2026: S061, S071, S022, S059 i S025 passen a definitives. Quatre il·lustracions noves amb models canònics i prompts conservats; S071 comparteix la imatge de S071D amb alt propi. Revisió independent de 39 preguntes, 48 cites, 53 intervencions i les cinc imatges, sense respostes revelades. Màsters aprovats intactes i esmenes tancades. Fitxes i solucionaris nets comprovats en local. [Detall i fitxers](publicacio-2026-11-25-quarta-tanda.md).

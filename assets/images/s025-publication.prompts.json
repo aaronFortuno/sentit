@@ -1,0 +1,17 @@
+{
+  "code": "S025",
+  "date": "2026-11-25",
+  "tool": "image_gen built-in",
+  "file": "s025-publicacio-v1.webp",
+  "alt": "La Laia i en Biel parlen al costat d’una gravadora en una sala de ràdio.",
+  "width": 1536,
+  "height": 1024,
+  "references": [
+    "../characters/laia-model-sheet-v1.webp",
+    "../characters/biel-model-sheet-v1.webp"
+  ],
+  "sourceImage": "exec-6b2dc7cb-adf0-4c26-ba3d-56cf4c33c084.png",
+  "sourceImageSha256": "6a1e36fb15a3cf449a6c28cfa86abf3405c448044dec6088a86d2a46812e4085",
+  "prompt": "Use case: illustration-story. One individual landscape 3:2 illustration, 1536x1024, for a Catalan listening worksheet, fine naturalistic ink with restrained textured watercolor, warm earthy tones and soft natural light. Generous white soft-fading margins on all four edges. No border, lettering, numbers, logo, panels or watermark. Exactly TWO people: Laia and Biel. Match their identities and clothes from the two model sheets, which are reference images only. Laia has brown curly hair in a loose bun, freckles and sage green sweater with taupe trousers; Biel has tousled brown hair, charcoal hoodie over off-white shirt and taupe trousers. Natural teenage proportions, hands and lively attentive expressions. In a small school radio recording room, Laia and Biel are preparing to listen to a recording, sitting at a narrow desk, with acoustic wall panels and a small loudspeaker on a shelf. A portable digital audio recorder is shown only from the back at the far edge of the desk, its face, controls and sockets hidden. Laia speaks with one open conversational hand while Biel looks towards her. Hands are away from the recorder, nobody presses a control. Do not show headphones, cables, connected sockets, a visible screen, waveform, names, or any clue explaining why only one character can hear the recording. Do not place the recorder in the middle of the table. No other people.",
+  "encoding": "WebP quality 90; composition and dimensions retained."
+}

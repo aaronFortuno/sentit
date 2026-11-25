@@ -31,7 +31,7 @@ Referències del projecte germà: `../trama/docs/question-choices.md`, `../trama
 - Les línies de resposta oberta es conserven en canviar de format. El desat de lectures i col·leccions conserva les preferències.
 - Revisió independent de cada alternativa completa i registre de cobertura per pregunta, variant i idioma. Els esborranys no s’importen al catàleg públic.
 
-Trama parteix de resposta oberta per defecte. **Per a Sentit es proposa ABCD per defecte en maquetats nous**, allà on hi hagi alternatives revisades, atesa la situació d’escolta pautada. El pilot i el seu format per defecte queden validats pel docent el 25/11/2026. Els maquetats existents conservaran el format obert i les línies que tenien; la migració haurà de distingir un maquetat antic d’un de nou, no tractar l’absència del camp com una mateixa preferència en tots dos casos.
+Trama parteix de resposta oberta per defecte. El pilot de Sentit queda validat pel docent el 25/11/2026. **A partir de 0.1.109, la primera visita a una fitxa demana triar resposta textual o ABCD**, amb dos retalls de la mateixa pregunta imprimible. La preferència es conserva entre sessions i fitxes a `sentit.question-format.v1`. Té prioritat sobre el format general desat a cada lectura o col·lecció, mantenint-ne els ajustos individuals de preguntes, línies, omissions, imatge i tipografia. Abans de triar, els maquetats antics conserven el format obert i els nous parteixen d’ABCD quan hi ha alternatives revisades.
 
 ## Criteri editorial adaptat a l’escolta
 
@@ -61,7 +61,7 @@ Les alternatives sense revisió vigent no es poden utilitzar com a ABCD públic;
 
 ## Interfície i imprimibles
 
-**Sidebar dret, secció Preguntes:** un control de dos formats aplicable a totes les compatibles i un recompte clar, per exemple «6 ABCD · 1 oberta». L’aplicació general elimina les excepcions individuals de format, mantenint línies i preguntes ocultes. Una pregunta sense alternativa ha de mostrar el motiu o l’estat de cobertura, sense simular una opció disponible.
+**Sidebar dret, primer bloc independent:** un control de dos formats aplicable a totes les compatibles i un recompte clar, per exemple «6 ABCD · 1 oberta». Continua disponible encara que totes les preguntes siguin amagades o que la secció Preguntes estigui plegada. Canviar-lo actualitza també la preferència del navegador; l’aplicació explícita a tota la fitxa elimina només les excepcions individuals de format de la fitxa actual, mantenint línies i preguntes ocultes. La tria inicial al popup conserva aquestes excepcions. Una pregunta sense alternativa manté resposta textual. «Tria de nou» esborra només la preferència global i obre de nou els exemples; no elimina col·leccions ni maquetats. Tancar el popup sense triar no desa cap preferència ni el torna a mostrar a cada fitxa de la mateixa sessió. La vista d’escolta de l’alumnat no mostra aquest popup.
 
 **Preview:** llapis/ABCD a les eines de cada pregunta, com a Trama; ocultar els controls de línies quan sigui ABCD i recuperar-los en tornar a oberta. Es conserva l’acció d’eliminar i recuperar preguntes. Controls amb focus de teclat coherent i animacions de 220 ms.
 

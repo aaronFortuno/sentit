@@ -1,0 +1,84 @@
+{
+  "code": "S058",
+  "activity": "ca-S058",
+  "state": "awaiting-montage-validation",
+  "file": "s058-mixed-v1.mp3",
+  "introFile": "s058-mixed-v1-intro.mp3",
+  "bodyFile": "s058-mixed-v1-cos.mp3",
+  "offset": 4.630000000000001,
+  "bodyDuration": 91.15,
+  "fullDuration": 95.78,
+  "voices": {
+    "Laia": "Leda",
+    "Biel": "Puck"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "f1a68c184a8ed0118f14d57dc5a685880f5b7affe7562ae9d14cbc273639f768",
+  "sourceRequestHash": "489632e31df32749e9ee505207f0db46a14f4147739d9f3e263ae0144da97e34",
+  "batch": "L18",
+  "rawSha256": "31d64681f63f83a2ea00ceaae4e856d2c22a5a1c3eaa089c652442b3ecebf497",
+  "takeSha256": "41b9054c90bc68390aade806e98599e2fe8038e9e5c790219c2d5ec465253b78",
+  "coverage": 0.9006410256410257,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.93,
+  "peakDbTP": -2.48,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "elenalostale-648659",
+      "start": 0,
+      "source": "assets/audio/sources/elenalostale-648659.mp3",
+      "sourceSha256": "bdb5a2e1b40bdcec49cf7c3752c186e355e58499ec7d0578022da599d9291bf8",
+      "sourceUrl": "https://freesound.org/people/Elenalostale/sounds/648659/",
+      "author": "Elenalostale",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.07,
+      "openingGain": 0.16,
+      "raisedGain": 0.24,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -51.09803919971486,
+      "lowPassHz": 1800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 20,
+        "seconds": 81.74145833333333
+      },
+      "envelope": {
+        "riseStart": 86.86,
+        "riseEnd": 87.66000000000001,
+        "holdSeconds": 0.8899999999999864,
+        "fadeStart": 88.55,
+        "fadeEnd": 89.95
+      }
+    }
+  ],
+  "sha256": "f692e7ee26901e76187b63003059719cfa7cd0b28f41b8f586da396025c8ef32",
+  "voiceHandles": {
+    "body": {
+      "start": 0.16,
+      "end": 85.71,
+      "retainedPcmSha256": "a4c181f3be5737d668ee74f7f3211a45cd66db0b61b843eb25cd27ef03d6e107",
+      "sourceSha256": "99e827ca26b17373ca8a4fba3d65e56d72eec1816fd93c46da06b954fe194d87",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0,
+      "end": 3.68,
+      "retainedPcmSha256": "65ea2571090cacf7cd8d6e653d0758621d837fedbdb347632c465c98f1086361",
+      "sourceSha256": "99d94d6867c43fb9b4582cae17104447d0b2469cb232a1eb108ac5ddb3ef0a10",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-25",
+    "sourceTakeSha256": "41b9054c90bc68390aade806e98599e2fe8038e9e5c790219c2d5ec465253b78",
+    "confirmation": "Docent 25/11: S058 validat per muntatge.",
+    "confirmedAfterMetadataCleanup": true
+  }
+}

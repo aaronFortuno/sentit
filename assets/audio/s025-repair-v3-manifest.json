@@ -1,7 +1,7 @@
 {
   "code": "S025",
   "activity": "ca-S025",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s025-repair-v3.mp3",
   "introFile": "s025-timing-v2-intro.mp3",
   "bodyFile": "s025-repair-v3-cos.mp3",
@@ -150,7 +150,10 @@
     "pitchShifted": false,
     "newRequests": 0,
     "originalRawFile": "s025-t01.wav",
-    "patchedFile": "patched-source.wav"
+    "patchedFile": "patched-source.wav",
+    "teacherMontageApproval": true,
+    "validatedAt": "2026-11-25",
+    "validatedAudioSha256": "8374fb7e0d00d6526d249c4931812caf5716a1a45fa9e250d24699c31d5ff805"
   },
   "montageNewSynthesisRequests": 0,
   "titleTrackPreserved": {
@@ -173,5 +176,20 @@
     "untrimmedApartFromSilenceSplit": false,
     "retimed": false,
     "repairedWithoutRetiming": true
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "confirmation": "Docent 25/11: S061, S071, S022, S059 i S025 validats per publicació definitiva.",
+    "audioSha256": "8374fb7e0d00d6526d249c4931812caf5716a1a45fa9e250d24699c31d5ff805",
+    "editorialFingerprint": "6d363e23677c4844086a5e1e6b60de8ff01f1c53df3cd6f312200eb3b7db0405",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/s025-publicacio-v1.webp",
+    "illustrationSha256": "7cc4f168f33c565a2476d02ecf21bbb6cfa922c0055c1d8600dcd53b0e9c0e8f",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-25",
+    "audioChanged": false
   }
 }

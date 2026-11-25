@@ -183,7 +183,8 @@ export const soundSources = [
     "usedBy": [
       "ca-S024",
       "ca-S011",
-      "ca-S032"
+      "ca-S032",
+      "ca-S058"
     ],
     "treatment": "Dos segons de l’enregistrament a partir del segon 20, amb foses; es retira abans de la salutació. No s’utilitzen el timbre ni converses com a pistes."
   },

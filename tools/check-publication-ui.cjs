@@ -7,7 +7,7 @@ const {chromium}=require('C:/Users/afortun8/.cache/codex-runtimes/codex-primary-
  try{
   await new Promise(r=>server.stdout.once('data',r));browser=await chromium.launch({channel:'chrome',headless:true});const context=await browser.newContext({viewport:{width:1500,height:1000}});
   await context.route('**/*',r=>new URL(r.request().url()).origin===new URL(base).origin?r.continue():r.abort());const page=await context.newPage();page.on('pageerror',e=>errors.push(e.message));
-  await context.addInitScript(()=>localStorage.setItem('sentit.catalogue.show-provisional.v1','false'));
+  await context.addInitScript(()=>{localStorage.setItem('sentit.catalogue.show-provisional.v1','false');localStorage.setItem('sentit.question-format.v1','choice');});
   const {activities}=await import('../catalogue.js'),{reviewScript}=await import('../review.js'),{imageOptions}=await import('../worksheet.js'),{strings}=await import('../locales.js');
  const only=process.argv.find(arg=>arg.startsWith('--only='))?.slice(7);
  const codes=only?only.split(','):process.argv.includes('--audio-only')?[]:['S003','S004','S004D','S012','S018','S019','S020','S027','S038','S038D','S032'];

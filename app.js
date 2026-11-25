@@ -1,7 +1,7 @@
 import { activities, legacyActivities } from './catalogue.js';
 import { renderRepairPreview, renderVoicePreview } from './repair-preview.js?v=0.1.96';
-import { strings } from './locales.js?v=0.1.106';
-import { defaultFormat, imageOptions, maxLines, questionFormat, renderWorksheet } from './worksheet.js?v=0.1.106';
+import { strings } from './locales.js?v=0.1.109';
+import { defaultFormat, imageOptions, maxLines, questionFormat, renderWorksheet, renderResponseExample } from './worksheet.js?v=0.1.109';
 import { clockTime, decodeSession, defaultSession, encodeSession, guidedPrompts, validRate, sessionJingles, validJingle } from './session.js';
 import { renderAudioResources } from './audio-resources.js';
 import { isPendingReview, needsReview } from './review.js';
@@ -21,7 +21,8 @@ import { mountSelectMenus } from './select-menu.js';
 import { mountWorkspacePanels } from './workspace-panels.js';
 import { mottos, nextMotto } from './mottos.js';
 import { listeningContext } from './content/listening-contexts.js';
-import { registerQuestionChoices, multipleChoice, responseQuestion, responseSummary, responseSettings } from './question-responses.js';
+import { registerQuestionChoices, multipleChoice, responseQuestion, responseSummary } from './question-responses.js';
+import { createQuestionFormatPreference } from './question-format-preference.js';
 
 const byId = id => document.getElementById(id);
 const preferences = {
@@ -54,6 +55,8 @@ byId('audio-jingle-choice').replaceChildren(...sessionJingles.map(jingle => {
 }));
 const paper = byId('paper');
 const format = { ...defaultFormat };
+const responsePreference = createQuestionFormatPreference();
+let responsePreferenceShown = false;
 let activitySettings = {};
 function restoreFormat(saved) {
   const previousDefault = saved?.font === 'serif' && saved.size === 12
@@ -73,9 +76,9 @@ const standardFormat = { ...format };
 
 function snapshot(entry, collectionId = '') {
   const stored = collectionId ? listCollections().find(item => item.id === collectionId)?.layouts?.[entry.id] : null;
-  if (stored) return { ...structuredClone(stored), settings: responseSettings(structuredClone(stored.settings ?? {}), true) };
+  if (stored) return { ...structuredClone(stored), settings: responsePreference.settings(structuredClone(stored.settings ?? {}), true) };
   const { format: savedFormat, ...settings } = activitySettings[entry.id] ?? {};
-  return { format: { ...standardFormat, ...savedFormat }, settings: responseSettings(structuredClone(settings), Boolean(activitySettings[entry.id])) };
+  return { format: { ...standardFormat, ...savedFormat }, settings: responsePreference.settings(structuredClone(settings), Boolean(activitySettings[entry.id])) };
 }
 
 function applyFormat(settings) {
@@ -202,11 +205,11 @@ function renderEditor() {
   byId('show-evidence').checked = settings.showEvidence ?? true;
   const responses = responseSummary(selected, settings);
   for (const button of document.querySelectorAll('[data-response-mode]')) {
-    button.disabled = !responses.available;
-    button.setAttribute('aria-pressed', String(responses.available > 0 && (button.dataset.responseMode === 'choice' ? responses.choices === responses.available : responses.choices === 0)));
+    button.disabled = false;
+    button.setAttribute('aria-pressed', String(responses.available ? (button.dataset.responseMode === 'choice' ? responses.choices === responses.available : responses.choices === 0) : currentSettings.questionMode === button.dataset.responseMode));
   }
-  byId('response-summary').textContent = responses.available ? t('responseCount')(responses.choices, responses.open) : t('responseUnavailable');
-  byId('choice-review-notice').hidden = !responses.available;
+  byId('response-summary').textContent = selected.questions.some(q => multipleChoice(selected, q)) ? t('responseCount')(responses.choices, responses.open) : t('responseUnavailable');
+  byId('choice-review-notice').hidden = !responses.pendingApproval;
   renderImageEditor();
   selected.questions.forEach((question, index) => {
     const { id, included } = questionFormat(question, index, settings);
@@ -333,6 +336,26 @@ function showActivity(entry, collectionId = '') {
   renderSelection();
   byId('workspace').focus({ preventScroll: true });
   animateRefresh(byId('workspace'));
+  if (!responsePreferenceShown && !responsePreference.mode()) showResponsePreference();
+}
+
+function showResponsePreference() {
+  if (listenId !== null || !selected) return;
+  responsePreferenceShown = true;
+  const entry = activities.find(a => a.code === 'S003' && a.language === 'ca');
+  const question = entry.questions.find(q => q.id === 'lloc');
+  renderResponseExample(byId('response-example-open'), entry, question, 'open');
+  renderResponseExample(byId('response-example-choice'), entry, question, 'choice');
+  openDialog(byId('question-format-dialog'));
+}
+
+function chooseResponsePreference(mode, clearOverrides = false) {
+  responsePreference.set(mode);
+  if (!selected) return;
+  currentSettings.questionMode = mode;
+  if (clearOverrides) currentSettings.questionModes = {};
+  saveActivity(); renderEditor();
+  track('maqueta_fitxa', { code:selected.code, bloc:'preguntes', accio:'format', format_pregunta:mode === 'choice' ? 'abcd' : 'oberta' });
 }
 
 function route() {
@@ -349,6 +372,7 @@ function route() {
     showActivity(entry, hash.get('col') ?? '');
   }
   else {
+    if (byId('question-format-dialog').open) closeDialog(byId('question-format-dialog'));
     byId('teacher-audio').pause();
     byId('workspace').hidden = true;
     document.body.classList.remove('reviewing-draft');
@@ -608,10 +632,13 @@ paper.addEventListener('click', event => {
 });
 for (const button of document.querySelectorAll('[data-response-mode]')) button.addEventListener('click', () => {
   if (!selected || button.disabled) return;
-  currentSettings.questionMode = button.dataset.responseMode; currentSettings.questionModes = {};
-  track('maqueta_fitxa', {code:selected.code,bloc:'preguntes',accio:'format',format_pregunta:button.dataset.responseMode==='choice'?'abcd':'oberta'});
-  saveActivity(); renderEditor();
+  chooseResponsePreference(button.dataset.responseMode, true);
 });
+for (const button of document.querySelectorAll('[data-preference-mode]')) button.addEventListener('click', () => {
+  chooseResponsePreference(button.dataset.preferenceMode);
+  closeDialog(byId('question-format-dialog'));
+});
+byId('response-preference-reset').addEventListener('click', () => { responsePreference.clear(); showResponsePreference(); });
 byId('hidden-questions').addEventListener('click', event => {
   const button = event.target.closest('[data-restore-question]');
   if (!selected || !button) return;

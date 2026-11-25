@@ -124,7 +124,8 @@ export const sise = [
   }),
   proposal({
     id: 'lultim-trajecte-del-tramvia', code: 'S022', title: 'L’últim trajecte del tramvia', grade: '6', level: 'middle', genre: 'story',
-    seconds: 183, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s022-publicacio-v1.webp","alt":"L’avi Ferran obre una capsa de records a casa.","width":1536,"height":1024},
+    seconds: 183, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s022-repair-v3.mp3', tracks: { introduction: './assets/audio/s022-tramvia-v2-intro.mp3', body: './assets/audio/s022-repair-v3-cos.mp3' },
     fragment: { start: 6.41502083333333, seconds: 177 },
     summary: 'En Ferran rellegeix una nota antiga i revisa el record d’un viatge amb el seu pare.',

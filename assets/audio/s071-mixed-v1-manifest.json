@@ -1,7 +1,7 @@
 {
   "code": "S071",
   "activity": "ca-S071",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s071-mixed-v1.mp3",
   "introFile": "s071-mixed-v1-intro.mp3",
   "bodyFile": "s071-mixed-v1-cos.mp3",
@@ -219,6 +219,24 @@
       }
     ],
     "originalRawFile": "s071-t01.wav",
-    "patchedFile": "patched-source.wav"
+    "patchedFile": "patched-source.wav",
+    "teacherMontageApproval": true,
+    "validatedAt": "2026-11-25",
+    "validatedAudioSha256": "6c60ab1deb9f3499213b121e2cece26352d131f0a66cff6d96f46869e32c3d06"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "confirmation": "Docent 25/11: S061, S071, S022, S059 i S025 validats per publicació definitiva.",
+    "audioSha256": "6c60ab1deb9f3499213b121e2cece26352d131f0a66cff6d96f46869e32c3d06",
+    "editorialFingerprint": "6fbc947267ad876bc565d16a230bf45ca510ffcb237cd3a96e42d92a0d357ede",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/les-dues-entrades-blaves-dialogada-v1.webp",
+    "illustrationSha256": "8d891c42a7419e3e5ccd38492f9da54e9b49de35f013827d672717703c88cc9f",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-25",
+    "audioChanged": false
   }
 }

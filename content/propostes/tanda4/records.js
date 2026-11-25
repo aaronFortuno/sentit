@@ -107,7 +107,8 @@ export const records = [
   }),
   proposal({
     id: 'les-dues-entrades-blaves', code: 'S071', title: 'Les dues entrades blaves', grade: '5', level: 'advanced', genre: 'story', universeIds: ['aina-ferran'],
-    seconds: 166, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/les-dues-entrades-blaves-dialogada-v1.webp","alt":"L’Aina escolta l’avi Ferran, que sosté un sobre tancat en una estança de casa.","width":1536,"height":1024},
+    seconds: 166, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s071-mixed-v1.mp3', tracks: { introduction: './assets/audio/s071-mixed-v1-intro.mp3', body: './assets/audio/s071-mixed-v1-cos.mp3' },
     fragment: { start: 4.2, seconds: 162 },
     summary: 'En Ferran arriba a un espectacle amb dues entrades blaves a la mà. A la porta descobreix que són d’una altra funció i han de reconstruir on han quedat les del dia.',

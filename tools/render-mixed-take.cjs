@@ -9,6 +9,7 @@ const {productionSpec}=require('./proposal-plan.cjs'),{assertProductionApproved}
 const root=path.resolve(__dirname,'..'),work=path.resolve(root,'../output/sentit-primera-tanda'),sha=b=>createHash('sha256').update(b).digest('hex');
 const recipes={S021:{source:'content/propostes/sise.js',ambient:'soaress-546234',ambientFrom:40,events:[{before:'materials',after:'vespre',source:'evsecrets-footsteps-334457',from:1.4,seconds:1.1,gap:1.45},{before:'final',after:'limit',source:'beussa-749880',from:0,seconds:.678,gap:1.05}]},S032:{source:'content/propostes/tanda2/quart.js',ambient:'elenalostale-648659',ambientFrom:20,events:[{before:'prova',after:'ordre',source:'beussa-749880',from:0,seconds:.678,gap:1.05}]}};
 Object.assign(recipes,{
+ S058:{ambient:'elenalostale-648659',ambientFrom:20,bed:true,events:[],ending:'ambient',lead:1.2,tail:3.8,titleGap:.4,cleanHandles:true,bedFadeSeconds:1.4,bedOpeningGain:.16,bedSpeechGain:.07,bedRaisedGain:.24},
  S059:{takeId:'S059-REPAIRED',ambient:'kyles-450728',ambientFrom:5,bed:true,events:[],ending:'ambient',lead:1.2,tail:3.8,titleGap:.4,cleanHandles:true,bedFadeSeconds:1.4,bedOpeningGain:.16,bedSpeechGain:.07,bedRaisedGain:.24},
  S061:{takeId:'S061-REPAIRED',ambient:'bexhillcollege-274213',ambientFrom:6,bed:true,events:[],ending:'ambient',lead:1.3,tail:3.8,titleGap:.4,cleanHandles:true,bedFadeSeconds:1.4,bedOpeningGain:.16,bedSpeechGain:.07,bedRaisedGain:.24,bedLowpassHz:800},
  S071:{takeId:'S071-REPAIRED',music:true,events:[],ending:'ambient',lead:1.6,tail:5.6,titleGap:.4,cleanHandles:true,preserveBodyEnd:true},

@@ -1,5 +1,12 @@
 export const strings = {
   ca: {
+    releaseQuestionPreference: "S061, S071, S022, S059 i S025 definitives: 100 comprensions publicades. Primera tria de format textual/ABCD amb exemples, memòria entre fitxes i sessions i «Tria de nou» al primer bloc d’impressió. S058 muntada i pendent d’audició final, sense síntesi nova.",
+    responseBrowserDefault: 'Per defecte entre fitxes', responseChooseAgain: 'Tria de nou',
+    responseWelcomeTitle: 'Com prefereixes les preguntes?',
+    responseWelcomeDescription: 'Pots respondre amb text o triar entre opcions ABCD, quan la fitxa en tingui. Les preguntes d’opinió o justificació personal mantenen la resposta textual.',
+    responsePreferOpen: 'Prefereixo resposta textual', responsePreferChoice: 'Prefereixo ABCD',
+    responseWelcomeAvailability: 'Les fitxes sense alternatives disponibles continuen amb resposta textual.',
+    responseWelcomeRemember: 'Recordarem la tria entre sessions i fitxes. La pots canviar al començament del panell d’impressió o oblidar-la amb «Tria de nou».',
     releaseFiveRepairedMontages: "S022, S025, S059, S061 i S071 amb les esmenes validades incorporades als muntatges. S022 utilitza la segona prova de rails; S025 manté retirats clic i cadira; S061 recupera el títol. Les cinc peces esperen audició final. Pilot ABCD validat pel docent i avís provisional retirat. Pla de les 20 preses d’esmena pendents actualitzat, sense peticions noves de síntesi.",
     releaseFiveFinalPublications: 'S094, S111, S099, S072 i S089 publicades definitivament, amb il·lustracions pròpies revisades, fitxes i solucionaris nets. Els cinc àudios aprovats es conserven intactes. Retorns de veu i cua d’esmenes actualitzats, sense síntesi nova.',
     releaseQuestionChoices: 'Pilot de resposta oberta o ABCD a S001–S005 i S004D: 37 alternatives amb revisió independent i una pregunta oberta justificada. Tria general i individual, maquetats conservats, solucionari amb lletra i evidències. Alternatives provisionals, pendents de validació docent.',
@@ -318,6 +325,13 @@ export const strings = {
     sessionEnded: 'Sessió acabada', remainingTime: 'Temps restant',
   },
   es: {
+    releaseQuestionPreference: "S061, S071, S022, S059 y S025 definitivas: 100 comprensiones publicadas. Primera elección de formato textual/ABCD con ejemplos, memoria entre fichas y sesiones y «Elige de nuevo» al primer bloque de impresión. S058 montada y pendiente de audición final, sin síntesis nueva.",
+    responseBrowserDefault: 'Por defecto entre fichas', responseChooseAgain: 'Elige de nuevo',
+    responseWelcomeTitle: '¿Cómo prefieres las preguntas?',
+    responseWelcomeDescription: 'Puedes responder con texto o elegir entre opciones ABCD, cuando la ficha las tenga. Las preguntas de opinión o justificación personal mantienen la respuesta textual.',
+    responsePreferOpen: 'Prefiero respuesta textual', responsePreferChoice: 'Prefiero ABCD',
+    responseWelcomeAvailability: 'Las fichas sin alternativas disponibles continúan con respuesta textual.',
+    responseWelcomeRemember: 'Recordaremos la elección entre sesiones y fichas. Puedes cambiarla al principio del panel de impresión u olvidarla con «Elige de nuevo».',
     releaseFiveRepairedMontages: "S022, S025, S059, S061 y S071 con las correcciones validadas incorporadas a los montajes. S022 usa la segunda prueba de rails; S025 mantiene retirados clic y silla; S061 recupera el título. Las cinco piezas esperan audición final. Piloto ABCD validado y aviso provisional retirado. Plan de las 20 tomas de corrección pendientes actualizado, sin nuevas peticiones de síntesis.",
     releaseFiveFinalPublications: 'S094, S111, S099, S072 y S089 publicadas definitivamente, con ilustraciones propias revisadas, fichas y solucionarios limpios. Los cinco audios aprobados se conservan intactos. Revisiones de voz y cola de correcciones actualizadas, sin síntesis nueva.',
     releaseQuestionChoices: 'Piloto de respuesta abierta o ABCD en S001–S005 y S004D: 37 alternativas con revisión independiente y una pregunta abierta justificada. Elección general e individual, maquetaciones conservadas, solucionario con letra y evidencias. Alternativas provisionales, pendientes de validación docente.',

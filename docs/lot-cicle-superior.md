@@ -41,10 +41,10 @@ Laia i Biel · Leda + Puck. Les lectures són independents; no cal haver-ne esco
 
 | Codi | Títol | Curs · dificultat | Tipologia | Durada prevista | Preguntes | Estat |
 | --- | --- | --- | --- | --- | ---: | --- |
-| [ca-S058](https://sentit.ortogra.fi/#lectura=ca-S058) | La pancarta que tapava la porta | 5è · Accessible | Diàleg | Prevista 1:50–2:15 | 8 | Provisional · pendent del docent |
-| [ca-S059](https://sentit.ortogra.fi/#lectura=ca-S059) | La partida que no cabia a la taula | 5è · Intermèdia | Diàleg | 1:38 | 8 | Àudio en revisió |
+| [ca-S058](https://sentit.ortogra.fi/#lectura=ca-S058) | La pancarta que tapava la porta | 5è · Accessible | Diàleg | 1:31 | 8 | Àudio en revisió |
+| [ca-S059](https://sentit.ortogra.fi/#lectura=ca-S059) | La partida que no cabia a la taula | 5è · Intermèdia | Diàleg | 1:38 | 8 | Definitiva |
 | [ca-S060](https://sentit.ortogra.fi/#lectura=ca-S060) | Un soroll darrere de les veus | 6è · Intermèdia | Diàleg | 1:36 | 9 | Definitiva |
-| [ca-S061](https://sentit.ortogra.fi/#lectura=ca-S061) | El curt que començava pel final | 6è · Intermèdia | Diàleg | 2:12 | 8 | Àudio en revisió |
+| [ca-S061](https://sentit.ortogra.fi/#lectura=ca-S061) | El curt que començava pel final | 6è · Intermèdia | Diàleg | 2:12 | 8 | Definitiva |
 | [ca-S062](https://sentit.ortogra.fi/#lectura=ca-S062) | Dos cartells per al mateix concert | 6è · Avançada | Diàleg | 2:14 | 9 | Definitiva · curs i dificultat per valorar després d’escoltar |
 
 [Filtra el catàleg per aquest repartiment](https://sentit.ortogra.fi/?personatge=laia&personatge=biel&coincidencia=tots) · [Guions i escaletes del bloc](../content/propostes/tanda4/troballes.js). El filtre també pot mostrar peces de tandes anteriors; activa «Només provisionals» per revisar feina oberta. Les acotacions descriuen recursos proposats, no gravacions ja produïdes.
@@ -76,7 +76,7 @@ Ferran · Algenib. Les lectures són independents; no cal haver-ne escoltat cap 
 | [ca-S068](https://sentit.ortogra.fi/#lectura=ca-S068) | El dinar al banc de l’estació | 5è · Accessible | Narració | 1:39 | 8 | Definitiva |
 | [ca-S069](https://sentit.ortogra.fi/#lectura=ca-S069) | La pissarra del partit | 5è · Intermèdia | Narració | 1:47 | 8 | Definitiva |
 | [ca-S070](https://sentit.ortogra.fi/#lectura=ca-S070) | El dia que no va sonar el disc | 6è · Accessible | Narració | Prevista 1:55–2:20 | 9 | Provisional · pendent del docent |
-| [ca-S071](https://sentit.ortogra.fi/#lectura=ca-S071) | Les dues entrades blaves | 5è · Avançada | Narració | 2:42 | 8 | Àudio en revisió |
+| [ca-S071](https://sentit.ortogra.fi/#lectura=ca-S071) | Les dues entrades blaves | 5è · Avançada | Narració | 2:42 | 8 | Definitiva |
 | [ca-S072](https://sentit.ortogra.fi/#lectura=ca-S072) | El quadern de la parada | 6è · Avançada | Narració | 2:33 | 9 | Definitiva |
 
 [Filtra el catàleg per aquest repartiment](https://sentit.ortogra.fi/?personatge=ferran) · [Guions i escaletes del bloc](../content/propostes/tanda4/records.js). El filtre també pot mostrar peces de tandes anteriors; activa «Només provisionals» per revisar feina oberta. Les acotacions descriuen recursos proposats, no gravacions ja produïdes.

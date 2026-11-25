@@ -1260,7 +1260,7 @@
       "code": "S022",
       "activity": "ca-S022",
       "date": "2026-11-20T13:16:25.889Z",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "model": "gemini-3.8-flash-tts",
       "voices": {
         "Ferran": "Algenib"
@@ -1531,14 +1531,32 @@
         "pitchShifted": false,
         "newRequests": 0,
         "originalRawFile": "titol-fragment-73c878d68405.wav",
-        "patchedFile": "patched-source.wav"
+        "patchedFile": "patched-source.wav",
+        "teacherMontageApproval": true,
+        "validatedAt": "2026-11-25",
+        "validatedAudioSha256": "a1799942ca51dafe7a7072302c8dd083485e7f3958a8ebcda5a810b1fcd3c736"
       },
       "voiceRetimed": false,
       "titleTrackPreserved": {
         "file": "s022-tramvia-v2-intro.mp3",
         "sha256": "cadfdbb9a69df11b0d6e9c4441c021756c5fad425fddbf191f321375449cebad"
       },
-      "productionMode": "repaired-existing-master"
+      "productionMode": "repaired-existing-master",
+      "teacherValidation": {
+        "validatedAt": "2026-11-25",
+        "validatedBy": "docent",
+        "confirmation": "Docent 25/11: S061, S071, S022, S059 i S025 validats per publicació definitiva.",
+        "audioSha256": "a1799942ca51dafe7a7072302c8dd083485e7f3958a8ebcda5a810b1fcd3c736",
+        "editorialFingerprint": "04de5f0434d8120f58e0c1fd7e3f99fb21081f489f7eb7e07d9970941902a4b9",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/s022-publicacio-v1.webp",
+        "illustrationSha256": "25d0b0d5726b1fdb9c4250ba21187b9d97ea61ff46e5f4fb486eba7ceb864313",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-25",
+        "audioChanged": false
+      }
     },
     {
       "code": "S010",
@@ -5240,7 +5258,7 @@
     {
       "code": "S025",
       "activity": "ca-S025",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s025-repair-v3.mp3",
       "introFile": "s025-timing-v2-intro.mp3",
       "bodyFile": "s025-repair-v3-cos.mp3",
@@ -5389,7 +5407,10 @@
         "pitchShifted": false,
         "newRequests": 0,
         "originalRawFile": "s025-t01.wav",
-        "patchedFile": "patched-source.wav"
+        "patchedFile": "patched-source.wav",
+        "teacherMontageApproval": true,
+        "validatedAt": "2026-11-25",
+        "validatedAudioSha256": "8374fb7e0d00d6526d249c4931812caf5716a1a45fa9e250d24699c31d5ff805"
       },
       "montageNewSynthesisRequests": 0,
       "titleTrackPreserved": {
@@ -5412,6 +5433,21 @@
         "untrimmedApartFromSilenceSplit": false,
         "retimed": false,
         "repairedWithoutRetiming": true
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-25",
+        "validatedBy": "docent",
+        "confirmation": "Docent 25/11: S061, S071, S022, S059 i S025 validats per publicació definitiva.",
+        "audioSha256": "8374fb7e0d00d6526d249c4931812caf5716a1a45fa9e250d24699c31d5ff805",
+        "editorialFingerprint": "6d363e23677c4844086a5e1e6b60de8ff01f1c53df3cd6f312200eb3b7db0405",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/s025-publicacio-v1.webp",
+        "illustrationSha256": "7cc4f168f33c565a2476d02ecf21bbb6cfa922c0055c1d8600dcd53b0e9c0e8f",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-25",
+        "audioChanged": false
       }
     },
     {
@@ -13571,7 +13607,7 @@
     {
       "code": "S059",
       "activity": "ca-S059",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s059-mixed-v1.mp3",
       "introFile": "s059-mixed-v1-intro.mp3",
       "bodyFile": "s059-mixed-v1-cos.mp3",
@@ -13787,13 +13823,31 @@
           }
         ],
         "originalRawFile": "s059-t01.wav",
-        "patchedFile": "patched-source.wav"
+        "patchedFile": "patched-source.wav",
+        "teacherMontageApproval": true,
+        "validatedAt": "2026-11-25",
+        "validatedAudioSha256": "1174333b393519753812891a6e28dab74c4eb8a815df6283ed6e6f025f6faba7"
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-25",
+        "validatedBy": "docent",
+        "confirmation": "Docent 25/11: S061, S071, S022, S059 i S025 validats per publicació definitiva.",
+        "audioSha256": "1174333b393519753812891a6e28dab74c4eb8a815df6283ed6e6f025f6faba7",
+        "editorialFingerprint": "1a454cb2afcd9a58c64dee952a445e5655045242a593d79b79f8a5d36a766c65",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/s059-publicacio-v1.webp",
+        "illustrationSha256": "a197bd571edcea935d3ed4499331e3058da46f0e8175b6c6500e9993529116a5",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-25",
+        "audioChanged": false
       }
     },
     {
       "code": "S061",
       "activity": "ca-S061",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s061-mixed-v1.mp3",
       "introFile": "s061-mixed-v1-intro.mp3",
       "bodyFile": "s061-mixed-v1-cos.mp3",
@@ -13944,13 +13998,31 @@
         ],
         "originalBodyFile": "s061-t01.wav",
         "originalRawFile": "s061-t01.wav",
-        "patchedFile": "patched-source.wav"
+        "patchedFile": "patched-source.wav",
+        "teacherMontageApproval": true,
+        "validatedAt": "2026-11-25",
+        "validatedAudioSha256": "aea14978de1b304d38448c4a66a5fe038cfaa2b227d6adc23fb756b8acd24924"
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-25",
+        "validatedBy": "docent",
+        "confirmation": "Docent 25/11: S061, S071, S022, S059 i S025 validats per publicació definitiva.",
+        "audioSha256": "aea14978de1b304d38448c4a66a5fe038cfaa2b227d6adc23fb756b8acd24924",
+        "editorialFingerprint": "1b2334253da463ed8aa3fc806de6ea256df269b77e69b75f88833bfe16fffad1",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/s061-publicacio-v1.webp",
+        "illustrationSha256": "feed04db2e819248589caa1eec0c2d6d9a190baf135930cdd9c243067772e1e6",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-25",
+        "audioChanged": false
       }
     },
     {
       "code": "S071",
       "activity": "ca-S071",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s071-mixed-v1.mp3",
       "introFile": "s071-mixed-v1-intro.mp3",
       "bodyFile": "s071-mixed-v1-cos.mp3",
@@ -14168,7 +14240,109 @@
           }
         ],
         "originalRawFile": "s071-t01.wav",
-        "patchedFile": "patched-source.wav"
+        "patchedFile": "patched-source.wav",
+        "teacherMontageApproval": true,
+        "validatedAt": "2026-11-25",
+        "validatedAudioSha256": "6c60ab1deb9f3499213b121e2cece26352d131f0a66cff6d96f46869e32c3d06"
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-25",
+        "validatedBy": "docent",
+        "confirmation": "Docent 25/11: S061, S071, S022, S059 i S025 validats per publicació definitiva.",
+        "audioSha256": "6c60ab1deb9f3499213b121e2cece26352d131f0a66cff6d96f46869e32c3d06",
+        "editorialFingerprint": "6fbc947267ad876bc565d16a230bf45ca510ffcb237cd3a96e42d92a0d357ede",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/les-dues-entrades-blaves-dialogada-v1.webp",
+        "illustrationSha256": "8d891c42a7419e3e5ccd38492f9da54e9b49de35f013827d672717703c88cc9f",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-25",
+        "audioChanged": false
+      }
+    },
+    {
+      "code": "S058",
+      "activity": "ca-S058",
+      "state": "awaiting-montage-validation",
+      "file": "s058-mixed-v1.mp3",
+      "introFile": "s058-mixed-v1-intro.mp3",
+      "bodyFile": "s058-mixed-v1-cos.mp3",
+      "offset": 4.630000000000001,
+      "bodyDuration": 91.15,
+      "fullDuration": 95.78,
+      "voices": {
+        "Laia": "Leda",
+        "Biel": "Puck"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "f1a68c184a8ed0118f14d57dc5a685880f5b7affe7562ae9d14cbc273639f768",
+      "sourceRequestHash": "489632e31df32749e9ee505207f0db46a14f4147739d9f3e263ae0144da97e34",
+      "batch": "L18",
+      "rawSha256": "31d64681f63f83a2ea00ceaae4e856d2c22a5a1c3eaa089c652442b3ecebf497",
+      "takeSha256": "41b9054c90bc68390aade806e98599e2fe8038e9e5c790219c2d5ec465253b78",
+      "coverage": 0.9006410256410257,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -18.93,
+      "peakDbTP": -2.48,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "elenalostale-648659",
+          "start": 0,
+          "source": "assets/audio/sources/elenalostale-648659.mp3",
+          "sourceSha256": "bdb5a2e1b40bdcec49cf7c3752c186e355e58499ec7d0578022da599d9291bf8",
+          "sourceUrl": "https://freesound.org/people/Elenalostale/sounds/648659/",
+          "author": "Elenalostale",
+          "license": "CC0 1.0",
+          "underSpeech": true,
+          "speechGain": 0.07,
+          "openingGain": 0.16,
+          "raisedGain": 0.24,
+          "sourceTargetLufs": -28,
+          "speechNominalLufs": -51.09803919971486,
+          "lowPassHz": 1800,
+          "passes": 3,
+          "crossfadeSeconds": 1,
+          "excerpt": {
+            "start": 20,
+            "seconds": 81.74145833333333
+          },
+          "envelope": {
+            "riseStart": 86.86,
+            "riseEnd": 87.66000000000001,
+            "holdSeconds": 0.8899999999999864,
+            "fadeStart": 88.55,
+            "fadeEnd": 89.95
+          }
+        }
+      ],
+      "sha256": "f692e7ee26901e76187b63003059719cfa7cd0b28f41b8f586da396025c8ef32",
+      "voiceHandles": {
+        "body": {
+          "start": 0.16,
+          "end": 85.71,
+          "retainedPcmSha256": "a4c181f3be5737d668ee74f7f3211a45cd66db0b61b843eb25cd27ef03d6e107",
+          "sourceSha256": "99e827ca26b17373ca8a4fba3d65e56d72eec1816fd93c46da06b954fe194d87",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0,
+          "end": 3.68,
+          "retainedPcmSha256": "65ea2571090cacf7cd8d6e653d0758621d837fedbdb347632c465c98f1086361",
+          "sourceSha256": "99d94d6867c43fb9b4582cae17104447d0b2469cb232a1eb108ac5ddb3ef0a10",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-25",
+        "sourceTakeSha256": "41b9054c90bc68390aade806e98599e2fe8038e9e5c790219c2d5ec465253b78",
+        "confirmation": "Docent 25/11: S058 validat per muntatge.",
+        "confirmedAfterMetadataCleanup": true
       }
     }
   ]

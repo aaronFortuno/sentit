@@ -51,7 +51,7 @@ export const mixedAudioResources = {
     "recipe": "tools/remount-s021-city-bed.cjs"
   },
   "ca-S022": {
-    "voices": "Ferran: Algenib. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Ferran: Algenib. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "Base original «Rails de memòria» (MIT), molt baixa sota la narració, amb pujada i fosa final. tram sound · migweis (CC0 1.0), fora de la parla. Efecte breu del muntatge anterior conservat en la mateixa escena, sense generar cap so nou.",
     "recipe": "tools/render-reviewed-revision.cjs",
     "currentRevision": "s022-repair-v3"
@@ -69,7 +69,7 @@ export const mixedAudioResources = {
     "currentRevision": "s024-timbre-trial-v3"
   },
   "ca-S025": {
-    "voices": "Laia: Leda; Biel: Puck. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Laia: Leda; Biel: Puck. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "",
     "recipe": "tools/render-reviewed-revision.cjs",
     "currentRevision": "s025-repair-v3"
@@ -253,8 +253,13 @@ export const mixedAudioResources = {
     "sounds": "Breaking News Background Music · Grand_Project (Pixabay Content License). Entrada, base contínua atenuada sota la parla i sortida; font completa conservada localment, no distribuïda sola.",
     "recipe": "tools/render-mixed-take.cjs"
   },
-  "ca-S059": {
+  "ca-S058": {
     "voices": "Laia: Leda; Biel: Puck. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "sounds": "SCHOOL CLASSROOM AMBIENCE · Elenalostale (CC0 1.0), molt baix sota la conversa.",
+    "recipe": "tools/render-mixed-take.cjs"
+  },
+  "ca-S059": {
+    "voices": "Laia: Leda; Biel: Puck. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "classroom students whispering +presence · kyles (CC0 1.0), molt baix sota la conversa.",
     "recipe": "tools/render-mixed-take.cjs",
     "currentRevision": "s059-mixed-v1"
@@ -265,7 +270,7 @@ export const mixedAudioResources = {
     "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S061": {
-    "voices": "Laia: Leda; Biel: Puck. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Laia: Leda; Biel: Puck. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "College Hallway ambience · Bexhillcollege (CC0 1.0), molt baix sota la conversa.",
     "recipe": "tools/render-mixed-take.cjs",
     "currentRevision": "s061-mixed-v1"
@@ -322,7 +327,7 @@ export const mixedAudioResources = {
     "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S071": {
-    "voices": "Ferran: Algenib. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Ferran: Algenib. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "Base original «Paper blau a la butxaca» (MIT), molt baixa durant la narració, amb pujada i fosa final.",
     "recipe": "tools/render-mixed-take.cjs",
     "currentRevision": "s071-mixed-v1"
@@ -488,11 +493,6 @@ export const mixedAudioResources = {
     "voices": "Aina: Zephyr; Ferran: Algenib. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "Gentle wind · fthgurdy (CC0 1.0), molt baix sota la conversa.",
     "recipe": "tools/render-mixed-take.cjs"
-  },
-  "ca-S058": {
-    "voices": "Laia: Leda; Biel: Puck. Lot L18, veus rebudes i pendents d’audició.",
-    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
-    "recipe": "tools/prepare-batch-voice-previews.cjs"
   },
   "ca-S081": {
     "voices": "Biel: Puck; Elies: Algieba. Lot L20, veus rebudes i pendents d’audició.",

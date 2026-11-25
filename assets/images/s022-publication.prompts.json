@@ -1,0 +1,16 @@
+{
+  "code": "S022",
+  "date": "2026-11-25",
+  "tool": "image_gen built-in",
+  "file": "s022-publicacio-v1.webp",
+  "alt": "L’avi Ferran obre una capsa de records a casa.",
+  "width": 1536,
+  "height": 1024,
+  "references": [
+    "../characters/ferran-model-sheet-v1.webp"
+  ],
+  "sourceImage": "exec-9cd4addd-3720-4a2c-86c7-6caab6ab19fd.png",
+  "sourceImageSha256": "932f24696ccaf02a9126403c8799e299139f0919c603651d21321a20105c3433",
+  "prompt": "Use case: illustration-story. One individual landscape 3:2 illustration for a Catalan listening worksheet, fine ink and restrained softly textured watercolor, warm earthy tones and natural light. Match only Ferran's exact identity in the reference model sheet: elderly man, wavy silver hair, short white beard, round dark glasses, charcoal cable-knit cardigan and sage checked shirt. Show Ferran ALONE at a small table in a lived-in home study, thoughtfully opening an old plain storage box and looking inside with a gentle half-smile. The lid and near side conceal the contents completely. Natural specific action, not a portrait or model-sheet montage. Do not show tickets, photographs, letters, notebooks, written notes, tram scenes, dates, numerals or any identifiable contents: the image must not answer the comprehension questions. Exactly one person. No Aina or other people. Preserve a generous white fading margin on every edge, no frame, lettering, logo or watermark. 1536x1024.",
+  "encoding": "WebP quality 90; composition and dimensions retained."
+}

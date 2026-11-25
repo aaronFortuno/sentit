@@ -2,7 +2,7 @@
   "code": "S022",
   "activity": "ca-S022",
   "date": "2026-11-20T13:16:25.889Z",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "model": "gemini-3.8-flash-tts",
   "voices": {
     "Ferran": "Algenib"
@@ -273,12 +273,30 @@
     "pitchShifted": false,
     "newRequests": 0,
     "originalRawFile": "titol-fragment-73c878d68405.wav",
-    "patchedFile": "patched-source.wav"
+    "patchedFile": "patched-source.wav",
+    "teacherMontageApproval": true,
+    "validatedAt": "2026-11-25",
+    "validatedAudioSha256": "a1799942ca51dafe7a7072302c8dd083485e7f3958a8ebcda5a810b1fcd3c736"
   },
   "voiceRetimed": false,
   "titleTrackPreserved": {
     "file": "s022-tramvia-v2-intro.mp3",
     "sha256": "cadfdbb9a69df11b0d6e9c4441c021756c5fad425fddbf191f321375449cebad"
   },
-  "productionMode": "repaired-existing-master"
+  "productionMode": "repaired-existing-master",
+  "teacherValidation": {
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "confirmation": "Docent 25/11: S061, S071, S022, S059 i S025 validats per publicació definitiva.",
+    "audioSha256": "a1799942ca51dafe7a7072302c8dd083485e7f3958a8ebcda5a810b1fcd3c736",
+    "editorialFingerprint": "04de5f0434d8120f58e0c1fd7e3f99fb21081f489f7eb7e07d9970941902a4b9",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/s022-publicacio-v1.webp",
+    "illustrationSha256": "25d0b0d5726b1fdb9c4250ba21187b9d97ea61ff46e5f4fb486eba7ceb864313",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-25",
+    "audioChanged": false
+  }
 }

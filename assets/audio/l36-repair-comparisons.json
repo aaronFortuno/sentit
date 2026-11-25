@@ -35,7 +35,7 @@
       "part": "arbre",
       "text": "A aquesta sí. A les del final... Ai, he fet caure l’arbre de cartró! Sempre em queda al mig. És bonic, però el podríem posar dret al costat de la capsa, a la cadira.",
       "pronunciation": "Keep youthful male Biel/Puck. Catalan cartró ends with stressed O, /kərˈtɾo/, with no final N. Say cartró, never cartron. Keep the spontaneous surprise and all other words.",
-      "status": "applied-awaiting-montage-listening",
+      "status": "applied-validated",
       "originalFile": "assets/audio/repairs/l36-s059-arbre-original.mp3",
       "candidateFile": "assets/audio/repairs/l36-s059-arbre-prova.mp3",
       "sourceRawSha256": "bd17485cca82d19a097a226a1f1287a035db454d787194c9e781fa088a9d8555",
@@ -47,7 +47,9 @@
       "confirmation": "Docent 25/11: S059 validat amb les esmenes rebudes.",
       "appliedAt": "2026-11-25",
       "appliedAudio": "./assets/audio/s059-mixed-v1.mp3",
-      "appliedAudioSha256": "1174333b393519753812891a6e28dab74c4eb8a815df6283ed6e6f025f6faba7"
+      "appliedAudioSha256": "1174333b393519753812891a6e28dab74c4eb8a815df6283ed6e6f025f6faba7",
+      "validatedAt": "2026-11-25",
+      "validatedAudioSha256": "1174333b393519753812891a6e28dab74c4eb8a815df6283ed6e6f025f6faba7"
     }
   ],
   "masterChanged": true

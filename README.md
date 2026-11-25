@@ -2,9 +2,9 @@
 
 Banc de comprensió oral d’ortogra.fi. El docent tria una activitat, prepara la fitxa i el solucionari i els imprimeix. L’alumnat respon al paper i escolta l’àudio des del QR o l’enllaç. Web estàtic, sense comptes ni servidor d’aplicació.
 
-**Prioritat actual:** [adaptar les preguntes a resposta oberta o ABCD](docs/preguntes-abcd.md), seguint el patró de Trama. Pilot seqüencial S001–S005 i S004D disponible, amb 37 alternatives revisades independentment i una pregunta oberta justificada, validat pel docent el 25/11/2026. [Cobertura de les 119 peces i 895 preguntes](docs/preguntes-abcd-seguiment.md). L’ampliació amb guions nous queda ajornada fins a resoldre aquest canvi.
+**Prioritat actual:** [adaptar les preguntes a resposta oberta o ABCD](docs/preguntes-abcd.md), seguint el patró de Trama. Pilot seqüencial S001–S005 i S004D disponible, amb 37 alternatives revisades independentment i una pregunta oberta justificada, validat pel docent el 25/11/2026. [Cobertura de les 119 peces i 895 preguntes](docs/preguntes-abcd-seguiment.md). La primera visita a una fitxa permet triar el format preferit, recordat entre sessions i fitxes i modificable al primer bloc d’impressió amb «Tria de nou». L’ampliació amb guions nous queda ajornada fins a resoldre aquest canvi.
 
-[Pla actual d’esmenes de veu](docs/pla-esmenes-veu.md): preses pendents, fragments ja rebuts i blocs per completar amb guions compatibles. S022/S025/S059/S061/S071 tenen les esmenes incorporades i el muntatge pendent d’audició final.
+[Pla actual d’esmenes de veu](docs/pla-esmenes-veu.md): preses pendents, fragments ja rebuts i blocs per completar amb guions compatibles. S022/S025/S059/S061/S071 ja són definitives; S058 té el muntatge per escoltar.
 
 [Equilibri del catàleg](docs/equilibri-cataleg.md) i [prioritats de nous guions](docs/prioritats-cataleg.md): recompte dels cinc filtres, publicacions definitives i pendents, amb proposta de tres blocs per ampliar sobretot l’oferta breu i les explicacions de 3r–4t.
 

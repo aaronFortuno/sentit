@@ -10,6 +10,9 @@ const dialogue = data => proposal({
 export const troballes = [
   dialogue({
     id: 'la-pancarta-que-tapava-la-porta', code: 'S058', title: 'La pancarta que tapava la porta', grade: '5', level: 'easy',
+    seconds: 96, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s058-mixed-v1.mp3', tracks: { introduction: './assets/audio/s058-mixed-v1-intro.mp3', body: './assets/audio/s058-mixed-v1-cos.mp3' },
+    fragment: { start: 4.630000000000001, seconds: 91 },
     summary: 'La Laia i en Biel volen penjar una pancarta per a una mostra de classe. Quan es miren l’entrada des del passadís, troben un detall que no havien vist des de dins.',
     editorialFocus: '5è accessible: entendre un canvi de punt de vista, relacionar la funció d’un objecte amb la seva posició i seguir una solució feta entre tots dos. Vuit preguntes sense haver de veure la pancarta.',
     soundPlan: 'Dos segons d’aula real tranquil·la amb passadís llunyà, sense paraules entenedores. Paper real desplegat abans de les veus i moviment curt de cadira a la pausa central, retirat abans de parlar. Fons discret i continu; sense so de porta que doni la solució. Sortida amb dos segons d’ambient i fosa.',
@@ -43,7 +46,8 @@ export const troballes = [
   }),
   dialogue({
     id: 'la-partida-que-no-cabia-a-la-taula', code: 'S059', title: 'La partida que no cabia a la taula', grade: '5', level: 'middle',
-    seconds: 103, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s059-publicacio-v1.webp","alt":"La Laia i en Biel es preparen per obrir la capsa d’un joc que han fet a classe.","width":1536,"height":1024},
+    seconds: 103, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s059-mixed-v1.mp3', tracks: { introduction: './assets/audio/s059-mixed-v1-intro.mp3', body: './assets/audio/s059-mixed-v1-cos.mp3' },
     fragment: { start: 4.75, seconds: 98 },
     summary: 'Laia i Biel proven un joc inventat per a la festa de l’escola. Per poder jugar-hi, primer han de veure com hi caben el tauler, les cartes i les mans dels jugadors.',
@@ -117,7 +121,8 @@ export const troballes = [
   }),
   dialogue({
     id: 'el-curt-que-comencava-pel-final', code: 'S061', title: 'El curt que començava pel final', grade: '6', level: 'middle',
-    seconds: 137, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s061-publicacio-v1.webp","alt":"En Biel i la Laia revisen una gravació en un ordinador, en una sala de treball.","width":1536,"height":1024},
+    seconds: 137, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s061-mixed-v1.mp3', tracks: { introduction: './assets/audio/s061-mixed-v1-intro.mp3', body: './assets/audio/s061-mixed-v1-cos.mp3' },
     fragment: { start: 4.66, seconds: 132 },
     summary: 'Els dos joves revisen un curt que han gravat amb el mòbil. Una escena els fa riure perquè saben què va passar abans, però l’ordre de les imatges deixa l’espectador sense una pista important.',

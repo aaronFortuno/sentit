@@ -1,0 +1,17 @@
+{
+  "code": "S061",
+  "date": "2026-11-25",
+  "tool": "image_gen built-in",
+  "file": "s061-publicacio-v1.webp",
+  "alt": "En Biel i la Laia revisen una gravació en un ordinador, en una sala de treball.",
+  "width": 1536,
+  "height": 1024,
+  "references": [
+    "../characters/laia-model-sheet-v1.webp",
+    "../characters/biel-model-sheet-v1.webp"
+  ],
+  "sourceImage": "exec-ee979528-be95-4826-a9b2-d44a67c7cff5.png",
+  "sourceImageSha256": "a6b61e2eeca4219f189588d162c1f6b776151d91c642e9f9106069db63c1a8f8",
+  "prompt": "Use case: illustration-story. One individual landscape 3:2 illustration, 1536x1024, for a Catalan listening worksheet, fine naturalistic ink with restrained textured watercolor, warm earthy tones and soft natural light. Generous white soft-fading margins on all four edges. No border, lettering, numbers, logo, panels or watermark. Exactly TWO people: Laia and Biel. Match their identities and clothes from the two model sheets, which are reference images only. Laia has brown curly hair in a loose bun, freckles and sage green sweater with taupe trousers; Biel has tousled brown hair, charcoal hoodie over off-white shirt and taupe trousers. Natural teenage proportions, hands and lively attentive expressions. Inside a quiet school editing workspace, Biel and Laia sit together reviewing a recording on a small open laptop. The opaque BACK of the laptop screen faces the viewer, so NO screen content is visible. Biel's hand is near the touchpad while Laia gestures lightly in conversation, both focused and amused. A subtle film-reel ornament on a distant shelf and neutral acoustic wall panels establish the video-editing context, with no text. No shoes, water, puddles, newspaper, film frames, motorbike, storyboard, image order, arrows, visible screen, editing timeline or answers to the story. No other people.",
+  "encoding": "WebP quality 90; composition and dimensions retained."
+}

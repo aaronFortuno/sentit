@@ -5,7 +5,8 @@ const soundCredits = 'Els ambients i efectes puntuals previstos seran enregistra
 export const tercer = [
   proposal({
     id: 'el-so-que-faltava', code: 'S025', title: 'El so que faltava', grade: '3', level: 'easy', genre: 'dialogue', universeIds: ['laia-biel'],
-    seconds: 52, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s025-publicacio-v1.webp","alt":"La Laia i en Biel parlen al costat d’una gravadora en una sala de ràdio.","width":1536,"height":1024},
+    seconds: 52, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s025-repair-v3.mp3', tracks: { introduction: './assets/audio/s025-timing-v2-intro.mp3', body: './assets/audio/s025-repair-v3-cos.mp3' },
     fragment: { start: 4.261583333333334, seconds: 47 },
     summary: 'La Laia i en Biel proven una gravació abans de presentar-la al grup i descobreixen per què un dels dos no sent res.',

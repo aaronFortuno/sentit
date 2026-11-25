@@ -1,5 +1,12 @@
 # Canvis
 
+## 0.1.109 · 25 de novembre de 2026
+
+- S061, S071, S022, S059 i S025 publicades definitivament amb el vistiplau docent: 100 peces definitives. Quatre il·lustracions noves i una compartida amb la variant dialogada, amb revisió independent de les cinc imatges, 39 preguntes, 48 cites i 53 intervencions. Fitxes i solucionaris nets, amb els cinc màsters aprovats intactes.
+- Selector textual/ABCD al primer bloc del sidebar d’impressió, independent de les preguntes amagades. Primera visita a una fitxa amb popup i dos retalls imprimibles de la mateixa pregunta per triar la preferència general. Record entre sessions, lectures i col·leccions; «Tria de nou» oblida només aquest format. Els ajustos individuals es conserven i la vista d’escolta de l’alumnat no rep el popup.
+- S058 amb veus netes validades i muntatge amb ambient continu d’aula molt suau, pendent d’audició final. «Trossets» surt de les possibles esmenes de síntesi. Seguiment, crèdits i cua actualitzats, sense síntesi nova.
+- Flux inicial, exemples sense solucions, memòria i restabliment, preguntes amagades, fitxes sense ABCD, mode fosc, mòbil i reproducció de S058 comprovats en local.
+
 ## 0.1.108 · 25 de novembre de 2026
 
 - S022 incorpora la segona prova de «rails» (grafia auxiliar raïls només al TTS), conservant el text canònic, la música i els efectes anteriors. S025 incorpora el torn final amb «prémer», manté retirats el clic i la cadira i retalla la cua sobrera. Els màsters anteriors es conserven.

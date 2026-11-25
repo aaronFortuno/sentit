@@ -129,9 +129,9 @@ export const editorialReviews = {
   },
   "ca-S022": {
     "status": "passed",
-    "reviewedAt": "2026-11-20",
-    "reviewer": "revisor-coherencia-independent",
-    "fingerprint": "906d139200b144e03f3b327710a09c497900ffd32b25e9ffcd0f706958f029ac"
+    "reviewedAt": "2026-11-25",
+    "reviewer": "/root/review_publication_fourth_20261125",
+    "fingerprint": "04de5f0434d8120f58e0c1fd7e3f99fb21081f489f7eb7e07d9970941902a4b9"
   },
   "ca-S023": {
     "status": "passed",
@@ -150,9 +150,9 @@ export const editorialReviews = {
   },
   "ca-S025": {
     "status": "passed",
-    "reviewedAt": "2026-11-21",
-    "reviewer": "independent-naturalness-and-coherence-b",
-    "fingerprint": "464d5002ad52e9784973952ec6d86789ec3bc4951b006b2beabc6d7acc03aced"
+    "reviewedAt": "2026-11-25",
+    "reviewer": "/root/review_publication_fourth_20261125",
+    "fingerprint": "6d363e23677c4844086a5e1e6b60de8ff01f1c53df3cd6f312200eb3b7db0405"
   },
   "ca-S026": {
     "status": "passed",
@@ -381,9 +381,9 @@ export const editorialReviews = {
   },
   "ca-S059": {
     "status": "passed",
-    "reviewedAt": "2026-11-22",
-    "reviewer": "autoria_tanda4_aula_records",
-    "fingerprint": "90553a1f4742942d52958320c3210f077f94a7d091ba4b3fdd6332d08d713d1e"
+    "reviewedAt": "2026-11-25",
+    "reviewer": "/root/review_publication_fourth_20261125",
+    "fingerprint": "1a454cb2afcd9a58c64dee952a445e5655045242a593d79b79f8a5d36a766c65"
   },
   "ca-S060": {
     "status": "passed",
@@ -393,9 +393,9 @@ export const editorialReviews = {
   },
   "ca-S061": {
     "status": "passed",
-    "reviewedAt": "2026-11-23",
-    "reviewer": "revisio_tancament_s042",
-    "fingerprint": "e88eb349d6eff83efc20de15f643e8f34938f8b306f4f0523d386403ef403c88"
+    "reviewedAt": "2026-11-25",
+    "reviewer": "/root/review_publication_fourth_20261125",
+    "fingerprint": "1b2334253da463ed8aa3fc806de6ea256df269b77e69b75f88833bfe16fffad1"
   },
   "ca-S062": {
     "status": "passed",
@@ -465,9 +465,9 @@ export const editorialReviews = {
   },
   "ca-S071": {
     "status": "passed",
-    "reviewedAt": "2026-11-22",
-    "reviewer": "autoria_tanda4_cuina_taller",
-    "fingerprint": "63e0c902e8ff63f6421a4a62d95bc541eff9d7af6e10d05d7599790aaadb102f"
+    "reviewedAt": "2026-11-25",
+    "reviewer": "/root/review_publication_fourth_20261125",
+    "fingerprint": "6fbc947267ad876bc565d16a230bf45ca510ffcb237cd3a96e42d92a0d357ede"
   },
   "ca-S071D": {
     "status": "passed",

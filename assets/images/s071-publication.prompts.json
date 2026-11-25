@@ -1,0 +1,12 @@
+{
+  "code": "S071",
+  "date": "2026-11-25",
+  "tool": "image_gen built-in",
+  "file": "les-dues-entrades-blaves-dialogada-v1.webp",
+  "alt": "L’Aina escolta l’avi Ferran, que sosté un sobre tancat en una estança de casa.",
+  "width": 1536,
+  "height": 1024,
+  "reusedFrom": "ca-S071D",
+  "sharedReason": "Mateixa història, personatges i situació d’inici; les versions narrada i dialogada conserven aprovacions independents.",
+  "provenance": "s071d-publication.prompts.json"
+}

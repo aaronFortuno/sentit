@@ -1,6 +1,6 @@
 # Comprensions finalitzades
 
-Actualitzat: **25/11/2026**. **95 publicacions definitives**. Aquest registre conserva les peces que han sortit de la [taula de pendents](seguiment-produccio.md). Les variants es validen per separat.
+Actualitzat: **25/11/2026**. **100 publicacions definitives**. Aquest registre conserva les peces que han sortit de la [taula de pendents](seguiment-produccio.md). Les variants es validen per separat.
 
 | Codi | Títol | Curs | Dificultat · tipologia | Fragment | Validació definitiva |
 | --- | --- | --- | --- | --- | --- |
@@ -20,8 +20,10 @@ Actualitzat: **25/11/2026**. **95 publicacions definitives**. Aquest registre co
 | [ca-S019](https://sentit.ortogra.fi/#lectura=ca-S019) | Una cuinera contra el malbaratament | 6è | Accessible · Entrevista | 1:53 | 2026-11-20 |
 | [ca-S020](https://sentit.ortogra.fi/#lectura=ca-S020) | Com participar en el concurs de pòdcasts | 6è | Accessible · Instruccions | 2:03 | 2026-11-20 |
 | [ca-S021](https://sentit.ortogra.fi/#lectura=ca-S021) | Per què una ciutat guarda la calor? | 6è | Intermèdia · Explicació | 2:26 | 2026-11-23 |
+| [ca-S022](https://sentit.ortogra.fi/#lectura=ca-S022) | L’últim trajecte del tramvia | 6è | Intermèdia · Narració | 2:57 | 2026-11-25 |
 | [ca-S023](https://sentit.ortogra.fi/#lectura=ca-S023) | Reobren el mercat: què canvia i què falta decidir? | 6è | Avançada · Notícia | 3:14 | 2026-11-23 |
 | [ca-S024](https://sentit.ortogra.fi/#lectura=ca-S024) | Tres maneres de transformar el pati | 6è | Avançada · Diàleg | 2:15 | 2026-11-23 |
+| [ca-S025](https://sentit.ortogra.fi/#lectura=ca-S025) | El so que faltava | 3r | Accessible · Diàleg | 0:47 | 2026-11-25 |
 | [ca-S026](https://sentit.ortogra.fi/#lectura=ca-S026) | Preparem el racó dels jocs | 3r | Accessible · Instruccions | 1:00 | 2026-11-23 |
 | [ca-S027](https://sentit.ortogra.fi/#lectura=ca-S027) | El berenar del terrat | 3r | Intermèdia · Narració | 1:13 | 2026-11-21 |
 | [ca-S028](https://sentit.ortogra.fi/#lectura=ca-S028) | Una parada abans d’obrir | 3r | Intermèdia · Entrevista | 1:11 | 2026-11-23 |
@@ -56,7 +58,9 @@ Actualitzat: **25/11/2026**. **95 publicacions definitives**. Aquest registre co
 | [ca-S055](https://sentit.ortogra.fi/#lectura=ca-S055) | Els cartells de cinema tornen al barri | 6è | Accessible · Notícia | 1:46 | 2026-11-25 |
 | [ca-S056](https://sentit.ortogra.fi/#lectura=ca-S056) | El taller canvia de casa | 5è | Avançada · Notícia | 2:35 | 2026-11-25 |
 | [ca-S057](https://sentit.ortogra.fi/#lectura=ca-S057) | La volta nova del bus de dissabte | 6è | Avançada · Notícia | 2:31 | 2026-11-23 |
+| [ca-S059](https://sentit.ortogra.fi/#lectura=ca-S059) | La partida que no cabia a la taula | 5è | Intermèdia · Diàleg | 1:38 | 2026-11-25 |
 | [ca-S060](https://sentit.ortogra.fi/#lectura=ca-S060) | Un soroll darrere de les veus | 6è | Intermèdia · Diàleg | 1:36 | 2026-11-25 |
+| [ca-S061](https://sentit.ortogra.fi/#lectura=ca-S061) | El curt que començava pel final | 6è | Intermèdia · Diàleg | 2:12 | 2026-11-25 |
 | [ca-S062](https://sentit.ortogra.fi/#lectura=ca-S062) | Dos cartells per al mateix concert | 6è | Avançada · Diàleg | 2:14 | 2026-11-23 |
 | [ca-S063](https://sentit.ortogra.fi/#lectura=ca-S063) | El pont de paper es doblega | 5è | Accessible · Explicació | 1:53 | 2026-11-23 |
 | [ca-S064](https://sentit.ortogra.fi/#lectura=ca-S064) | Un anunci que va massa de pressa | 5è | Intermèdia · Instruccions | 1:40 | 2026-11-23 |
@@ -67,6 +71,7 @@ Actualitzat: **25/11/2026**. **95 publicacions definitives**. Aquest registre co
 | [ca-S068D](https://sentit.ortogra.fi/#lectura=ca-S068D) | El dinar al banc de l’estació · versió dialogada | 5è | Accessible · Narració | 2:04 | 2026-11-23 |
 | [ca-S069](https://sentit.ortogra.fi/#lectura=ca-S069) | La pissarra del partit | 5è | Intermèdia · Narració | 1:47 | 2026-11-23 |
 | [ca-S069D](https://sentit.ortogra.fi/#lectura=ca-S069D) | La pissarra del partit · versió dialogada | 5è | Intermèdia · Narració | 2:12 | 2026-11-23 |
+| [ca-S071](https://sentit.ortogra.fi/#lectura=ca-S071) | Les dues entrades blaves | 5è | Avançada · Narració | 2:42 | 2026-11-25 |
 | [ca-S071D](https://sentit.ortogra.fi/#lectura=ca-S071D) | Les dues entrades blaves · versió dialogada | 5è | Avançada · Narració | 3:01 | 2026-11-23 |
 | [ca-S072](https://sentit.ortogra.fi/#lectura=ca-S072) | El quadern de la parada | 6è | Avançada · Narració | 2:33 | 2026-11-25 |
 | [ca-S073](https://sentit.ortogra.fi/#lectura=ca-S073) | El dinar que surt en dues tandes | 5è | Accessible · Diàleg | 1:44 | 2026-11-23 |

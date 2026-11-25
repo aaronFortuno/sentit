@@ -1,0 +1,17 @@
+{
+  "code": "S059",
+  "date": "2026-11-25",
+  "tool": "image_gen built-in",
+  "file": "s059-publicacio-v1.webp",
+  "alt": "La Laia i en Biel es preparen per obrir la capsa d’un joc que han fet a classe.",
+  "width": 1536,
+  "height": 1024,
+  "references": [
+    "../characters/laia-model-sheet-v1.webp",
+    "../characters/biel-model-sheet-v1.webp"
+  ],
+  "sourceImage": "exec-13d70f70-95e9-41a5-bb93-ed0e34936433.png",
+  "sourceImageSha256": "792a4bd34c3f505550b0b081b00635048d4c16f1dd58b9d4b1589ff842f68eb7",
+  "prompt": "Use case: illustration-story. One individual landscape 3:2 illustration, 1536x1024, for a Catalan listening worksheet, fine naturalistic ink with restrained textured watercolor, warm earthy tones and soft natural light. Generous white soft-fading margins on all four edges. No border, lettering, numbers, logo, panels or watermark. Exactly TWO people: Laia and Biel. Match their identities and clothes from the two model sheets, which are reference images only. Laia has brown curly hair in a loose bun, freckles and sage green sweater with taupe trousers; Biel has tousled brown hair, charcoal hoodie over off-white shirt and taupe trousers. Natural teenage proportions, hands and lively attentive expressions. Inside a classroom, Laia and Biel stand at the visible corner of ONE ordinary table, preparing to open a plain handmade board-game box. Laia holds the lid still fully CLOSED, Biel leans forward in curiosity with an amused expression. The plain cardboard box has no pictures or lettering. A pencil pot, muted classroom shelves and a window softly establish a school setting. Crop the table so its size and arrangement cannot be assessed. Do not show a board grid, loose playing cards, hands reaching across a board, a cardboard tree, a chair used for storage, any joined tables, floor-play scene or suggested solution to a lack of space. No extra people.",
+  "encoding": "WebP quality 90; composition and dimensions retained."
+}

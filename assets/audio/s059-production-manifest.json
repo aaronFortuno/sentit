@@ -1,7 +1,7 @@
 {
   "code": "S059",
   "activity": "ca-S059",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s059-mixed-v1.mp3",
   "introFile": "s059-mixed-v1-intro.mp3",
   "bodyFile": "s059-mixed-v1-cos.mp3",
@@ -217,6 +217,24 @@
       }
     ],
     "originalRawFile": "s059-t01.wav",
-    "patchedFile": "patched-source.wav"
+    "patchedFile": "patched-source.wav",
+    "teacherMontageApproval": true,
+    "validatedAt": "2026-11-25",
+    "validatedAudioSha256": "1174333b393519753812891a6e28dab74c4eb8a815df6283ed6e6f025f6faba7"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-25",
+    "validatedBy": "docent",
+    "confirmation": "Docent 25/11: S061, S071, S022, S059 i S025 validats per publicació definitiva.",
+    "audioSha256": "1174333b393519753812891a6e28dab74c4eb8a815df6283ed6e6f025f6faba7",
+    "editorialFingerprint": "1a454cb2afcd9a58c64dee952a445e5655045242a593d79b79f8a5d36a766c65",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/s059-publicacio-v1.webp",
+    "illustrationSha256": "a197bd571edcea935d3ed4499331e3058da46f0e8175b6c6500e9993529116a5",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-25",
+    "audioChanged": false
   }
 }
