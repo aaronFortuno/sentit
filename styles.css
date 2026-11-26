@@ -340,6 +340,8 @@ dialog.is-closing::backdrop { animation: backdrop-out var(--motion) ease both; }
 .music-candidate { border: 1px solid var(--line); border-radius: 8px; padding: 12px; background: var(--soft); }
 .music-candidate-heading { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
 .music-candidate h3 { margin: 0; font-size: .88rem; }
+.music-choice-state { display: inline-block; color: var(--quiet); font-size: .68rem; margin-top: 3px; }
+.music-choice-state[data-status="approved"] { color: var(--green); }
 .music-candidate p { margin: 5px 0 9px; font-size: .78rem; line-height: 1.4; color: var(--quiet); }
 .music-candidate .music-credit { font-size: .69rem; margin: 4px 0 0; }
 .music-candidate .music-status:empty { display: none; }

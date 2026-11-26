@@ -1,14 +1,18 @@
 # Música per a faules, llegendes i mites
 
-Proposta del **26/11/2026**. [Comparador al web](https://sentit.ortogra.fi/?musiques=faules-mon), també accessible amb «Músiques de narració · propostes» al peu del panell d’àudio d’una comprensió. Cada univers té tres fragments de 32 segons, amb volum comparable, reproductor i font original. Els codis F1–M3 permeten indicar la tria sense ambigüitat.
+Proposta del **26/11/2026**. [Comparador al web](https://sentit.ortogra.fi/?musiques=faules-mon), també accessible amb «Músiques de narració · propostes» al peu del panell d’àudio d’una comprensió. Les faules mostren **F1 com a referència validada i quatre alternatives noves F4–F7**; llegendes i mites mantenen les tres pistes de cada repertori, ara validades. Fragments de 32 segons, amb volum comparable, reproductor i font original. Es mantenen codis nous per a les noves propostes, sense reutilitzar F2/F3.
 
 ## Candidats
 
 | Univers | Codi | Composició | Instrumentació publicada per l’autor | Caràcter proposat |
 | --- | --- | --- | --- | --- |
 | Faules del món | F1 | [Easy Lemon](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076) | Guitarra, baix, bateria, celesta, marimba | Tranquil i càlid |
-| Faules del món | F2 | [Carefree](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400037) | Ukelele, guitarra, marimba, glockenspiel, percussió | Alegre i juganer |
-| Faules del món | F3 | [Dreamy Flashback](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100532) | Arpa, campanes, cordes pizzicato | Conte i fantasia |
+| Faules del món | F2 · anterior | [Carefree](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400037) | Ukelele, guitarra, marimba, glockenspiel, percussió | Fora del repertori actual |
+| Faules del món | F3 · anterior | [Dreamy Flashback](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100532) | Arpa, campanes, cordes pizzicato | No validada; fora del comparador actiu |
+| Faules del món | **F4 · nova** | [Windswept](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100757) | Guitarra i cordes | Pausada i càlida |
+| Faules del món | **F5 · nova** | [Fresh Air](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1500084) | Piano sol | Tranquil·la i espaiada |
+| Faules del món | **F6 · nova** | [Almost New](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1800008) | Piano i baixos | Misteri suau |
+| Faules del món | **F7 · nova** | [The Forest and the Trees](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100766) | Clarinet, flauta, trombons, glockenspiel | Relat i natura |
 | Llegendes d’aquí i d’arreu | L1 | [Teller of the Tales](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400020) | Llaüt i guitarra | Íntim i contingut |
 | Llegendes d’aquí i d’arreu | L2 | [Folk Round](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100357) | Guitarra, violí, flautes, percussió, acordió | Tradició popular |
 | Llegendes d’aquí i d’arreu | L3 | [Angevin](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200110) | Flauta, llaüt, cor, percussió | Lent i misteriós |
@@ -20,11 +24,13 @@ Proposta del **26/11/2026**. [Comparador al web](https://sentit.ortogra.fi/?musi
 
 | Univers | Acceptades per al repertori | Altres mostres |
 | --- | --- | --- |
-| Faules | **F1** | F2 fora del repertori actual pel caràcter massa divertit; F3 pendent de decidir |
+| Faules | **F1** | Alternatives noves **F4–F7**, pendents de validació; F2 exclosa i F3 no validada |
 | Llegendes | **L1, L2 i L3** | — |
 | Mites | **M1, M2 i M3** | — |
 
-Aquest retorn valida les set pistes com a recursos possibles, no un muntatge concret. F2 i F3 es conserven al comparador per referència; F3 no s’utilitza mentre hi hagi dubtes. Encara no s’ha assignat música a cap activitat.
+El docent ha confirmat la validació de **L1–L3 i M1–M3**. F1 continua validada per a faules. F2 i F3 es conserven amb els seus codis i empremtes com a mostres anteriors, però no apareixen al comparador actiu ni s’utilitzen. Les noves F4–F7 no tenen validació encara. Encara no s’ha assignat música a cap activitat.
+
+**Ordre de treball demanat:** tancar primer el repertori musical de faules abans de continuar amb els muntatges. La validació dels repertoris de llegendes i mites queda registrada i no requereix tornar-los a triar.
 
 ### Criteri de treball proposat
 
@@ -36,11 +42,11 @@ Registrar la composició real utilitzada a cada muntatge. Aquesta línia de treb
 
 ## Origen i llicència
 
-Les nou composicions són de **Kevin MacLeod (incompetech.com)**, publicades sota **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**. Són pistes musicals de biblioteca ja produïdes, descarregades del web oficial; no són música generada per Sentit ni una petició nova de síntesi. L’autor identifica els instruments, però això **no acredita una interpretació acústica íntegra en directe**: les produccions de biblioteca poden utilitzar instruments mostrejats. No les presentem com a gravacions de camp o interpretacions acústiques verificades.
+Les tretze composicions, incloses les dues mostres anteriors fora del comparador actiu, són de **Kevin MacLeod (incompetech.com)**, publicades sota **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**. Són pistes musicals de biblioteca ja produïdes, descarregades del web oficial; no són música generada per Sentit ni una petició nova de síntesi. L’autor identifica els instruments, però això **no acredita una interpretació acústica íntegra en directe**: les produccions de biblioteca poden utilitzar instruments mostrejats. No les presentem com a gravacions de camp o interpretacions acústiques verificades.
 
 La [llicència del proveïdor](https://incompetech.com/music/royalty-free/licenses/) permet l’ús gratuït amb atribució. Cada mostra mostra autoria, llicència i font, també presents al seu MP3 i al [manifest](../assets/audio/music-previews/manifest.json). Les pistes externes conserven la seva llicència; no passen a ser MIT pel fet d’incloure-les al repositori.
 
-Modificacions dels fragments: segons 6–38 de cada original, ajust de sonoritat a −23 LUFS de referència, foses de 0,7 s i 2 s, MP3 estèreo a 128 kb/s. Les mostres pesen **4,62 MB en conjunt**. No són un muntatge de les comprensions. Els originals complets i les fitxes oficials es conserven fora del repositori a `../output/sentit-music-tradicio/`, amb empremtes al manifest. Reproducció tècnica: `node tools/prepare-narration-music.mjs`; només `--download` permet descarregar originals absents.
+Modificacions dels fragments: segons 6–38 de cada original, ajust de sonoritat a −23 LUFS de referència, foses de 0,7 s i 2 s, MP3 estèreo a 128 kb/s. Les quatre mostres noves sumen **2,05 MB**; les tretze, aproximadament **6,68 MB**. No són un muntatge de les comprensions. Els originals complets i les fitxes oficials es conserven fora del repositori a `../output/sentit-music-tradicio/`, amb empremtes al manifest. Reproducció tècnica: `node tools/prepare-narration-music.mjs --only=F4,F5,F6,F7 --download`; conserva sense regenerar els altres fragments i només descarrega originals absents amb `--download`.
 
 ## Aplicació després de la tria
 

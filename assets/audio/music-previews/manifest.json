@@ -1,5 +1,20 @@
 {
-  "status": "candidates-awaiting-teacher-selection",
+  "status": "legends-and-myths-approved-fables-selection-open",
+  "approvedIds": [
+    "F1",
+    "L1",
+    "L2",
+    "L3",
+    "M1",
+    "M2",
+    "M3"
+  ],
+  "pendingIds": [
+    "F4",
+    "F5",
+    "F6",
+    "F7"
+  ],
   "author": "Kevin MacLeod (incompetech.com)",
   "license": "CC BY 4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -11,7 +26,7 @@
       "title": "Easy Lemon",
       "isrc": "USUAN1200076",
       "author": "Kevin MacLeod",
-      "status": "candidate",
+      "status": "approved",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
       "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076",
@@ -37,7 +52,9 @@
         "channels": 2
       },
       "retrievedAt": "2026-11-26",
-      "usedBy": []
+      "usedBy": [],
+      "active": true,
+      "reviewedAt": "2026-11-26"
     },
     {
       "id": "F2",
@@ -45,7 +62,7 @@
       "title": "Carefree",
       "isrc": "USUAN1400037",
       "author": "Kevin MacLeod",
-      "status": "candidate",
+      "status": "excluded",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
       "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400037",
@@ -71,7 +88,9 @@
         "channels": 2
       },
       "retrievedAt": "2026-11-26",
-      "usedBy": []
+      "usedBy": [],
+      "active": false,
+      "reviewedAt": "2026-11-26"
     },
     {
       "id": "F3",
@@ -79,7 +98,7 @@
       "title": "Dreamy Flashback",
       "isrc": "USUAN1100532",
       "author": "Kevin MacLeod",
-      "status": "candidate",
+      "status": "deferred",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
       "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100532",
@@ -105,6 +124,152 @@
         "channels": 2
       },
       "retrievedAt": "2026-11-26",
+      "usedBy": [],
+      "active": false,
+      "reviewedAt": "2026-11-26"
+    },
+    {
+      "id": "F4",
+      "universe": "faules-mon",
+      "title": "Windswept",
+      "isrc": "USUAN1100757",
+      "author": "Kevin MacLeod",
+      "status": "candidate",
+      "active": true,
+      "reviewedAt": null,
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100757",
+      "downloadUrl": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Windswept.mp3",
+      "preview": "./assets/audio/music-previews/F4.mp3",
+      "excerpt": {
+        "start": 6,
+        "seconds": 32
+      },
+      "description": {
+        "ca": "Guitarra i cordes, pausada i càlida. Una alternativa amb aire acústic per acompanyar el relat.",
+        "es": "Guitarra y cuerdas, pausada y cálida. Una alternativa con aire acústico para acompañar el relato."
+      },
+      "sourceSha256": "0d7445201046bf536e9982c56a8b068d3c4bda18d01817edc6610b4a6a46e706",
+      "sourceBytes": 8335980,
+      "sourcePageSha256": "39b817215b8ffaa69a4cdf83a28a303d79da1068e5c457c1ae8b0605ca1c8240",
+      "previewSha256": "bdc110f952982072ad10bad96950e9ceb26a09223fc751ee1b3e3d1acc25bf5f",
+      "previewBytes": 513470,
+      "processing": {
+        "filter": "loudnorm=I=-23:TP=-3:LRA=7,afade=t=in:st=0:d=0.7,afade=t=out:st=30:d=2",
+        "bitrate": 128000,
+        "sampleRate": 44100,
+        "channels": 2
+      },
+      "retrievedAt": "2026-11-26",
+      "usedBy": []
+    },
+    {
+      "id": "F5",
+      "universe": "faules-mon",
+      "title": "Fresh Air",
+      "isrc": "USUAN1500084",
+      "author": "Kevin MacLeod",
+      "status": "candidate",
+      "active": true,
+      "reviewedAt": null,
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1500084",
+      "downloadUrl": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Fresh%20Air.mp3",
+      "preview": "./assets/audio/music-previews/F5.mp3",
+      "excerpt": {
+        "start": 6,
+        "seconds": 32
+      },
+      "description": {
+        "ca": "Piano sol i tranquil, amb espai entre les frases musicals.",
+        "es": "Piano solo y tranquilo, con espacio entre las frases musicales."
+      },
+      "sourceSha256": "528a53352595d5d37bc1eb4e738df66f0c390f833d5fd3de08ba0ab5fe317522",
+      "sourceBytes": 9412181,
+      "sourcePageSha256": "39b817215b8ffaa69a4cdf83a28a303d79da1068e5c457c1ae8b0605ca1c8240",
+      "previewSha256": "1e501115141b27290deb23572578d6ec8af78f22d38307d91f09cc6ac1f06c17",
+      "previewBytes": 513501,
+      "processing": {
+        "filter": "loudnorm=I=-23:TP=-3:LRA=7,afade=t=in:st=0:d=0.7,afade=t=out:st=30:d=2",
+        "bitrate": 128000,
+        "sampleRate": 44100,
+        "channels": 2
+      },
+      "retrievedAt": "2026-11-26",
+      "usedBy": []
+    },
+    {
+      "id": "F6",
+      "universe": "faules-mon",
+      "title": "Almost New",
+      "isrc": "USUAN1800008",
+      "author": "Kevin MacLeod",
+      "status": "candidate",
+      "active": true,
+      "reviewedAt": null,
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1800008",
+      "downloadUrl": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Almost%20New.mp3",
+      "preview": "./assets/audio/music-previews/F6.mp3",
+      "excerpt": {
+        "start": 6,
+        "seconds": 32
+      },
+      "description": {
+        "ca": "Piano i baixos, amb un punt de misteri suau per a relats de descoberta.",
+        "es": "Piano y bajos, con un punto de misterio suave para relatos de descubrimiento."
+      },
+      "sourceSha256": "3cb29102881aa9cb56292753dfa6c92004eddf4e0ad367e979c7292b0e1ac1a0",
+      "sourceBytes": 6483966,
+      "sourcePageSha256": "39b817215b8ffaa69a4cdf83a28a303d79da1068e5c457c1ae8b0605ca1c8240",
+      "previewSha256": "3265429e7a03ea8de6886ba7f6023d64e210360ee80ceb8bb6a0ffed62da757d",
+      "previewBytes": 513518,
+      "processing": {
+        "filter": "loudnorm=I=-23:TP=-3:LRA=7,afade=t=in:st=0:d=0.7,afade=t=out:st=30:d=2",
+        "bitrate": 128000,
+        "sampleRate": 44100,
+        "channels": 2
+      },
+      "retrievedAt": "2026-11-26",
+      "usedBy": []
+    },
+    {
+      "id": "F7",
+      "universe": "faules-mon",
+      "title": "The Forest and the Trees",
+      "isrc": "USUAN1100766",
+      "author": "Kevin MacLeod",
+      "status": "candidate",
+      "active": true,
+      "reviewedAt": null,
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100766",
+      "downloadUrl": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/The%20Forest%20and%20the%20Trees.mp3",
+      "preview": "./assets/audio/music-previews/F7.mp3",
+      "excerpt": {
+        "start": 6,
+        "seconds": 32
+      },
+      "description": {
+        "ca": "Clarinet, flauta i metalls suaus; una textura de conte vinculada a la natura.",
+        "es": "Clarinete, flauta y metales suaves; una textura de cuento vinculada a la naturaleza."
+      },
+      "sourceSha256": "63d952caead40f792b1a4afdab023b049bef80075659580d1029ad46823c60fc",
+      "sourceBytes": 3772033,
+      "sourcePageSha256": "39b817215b8ffaa69a4cdf83a28a303d79da1068e5c457c1ae8b0605ca1c8240",
+      "previewSha256": "86ac593aad1a43860cf80cb438667f820f4316e8c7b03702f11b374ee1ad1fee",
+      "previewBytes": 513443,
+      "processing": {
+        "filter": "loudnorm=I=-23:TP=-3:LRA=7,afade=t=in:st=0:d=0.7,afade=t=out:st=30:d=2",
+        "bitrate": 128000,
+        "sampleRate": 44100,
+        "channels": 2
+      },
+      "retrievedAt": "2026-11-26",
       "usedBy": []
     },
     {
@@ -113,7 +278,7 @@
       "title": "Teller of the Tales",
       "isrc": "USUAN1400020",
       "author": "Kevin MacLeod",
-      "status": "candidate",
+      "status": "approved",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
       "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400020",
@@ -139,7 +304,9 @@
         "channels": 2
       },
       "retrievedAt": "2026-11-26",
-      "usedBy": []
+      "usedBy": [],
+      "active": true,
+      "reviewedAt": "2026-11-26"
     },
     {
       "id": "L2",
@@ -147,7 +314,7 @@
       "title": "Folk Round",
       "isrc": "USUAN1100357",
       "author": "Kevin MacLeod",
-      "status": "candidate",
+      "status": "approved",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
       "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100357",
@@ -173,7 +340,9 @@
         "channels": 2
       },
       "retrievedAt": "2026-11-26",
-      "usedBy": []
+      "usedBy": [],
+      "active": true,
+      "reviewedAt": "2026-11-26"
     },
     {
       "id": "L3",
@@ -181,7 +350,7 @@
       "title": "Angevin",
       "isrc": "USUAN1200110",
       "author": "Kevin MacLeod",
-      "status": "candidate",
+      "status": "approved",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
       "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200110",
@@ -207,7 +376,9 @@
         "channels": 2
       },
       "retrievedAt": "2026-11-26",
-      "usedBy": []
+      "usedBy": [],
+      "active": true,
+      "reviewedAt": "2026-11-26"
     },
     {
       "id": "M1",
@@ -215,7 +386,7 @@
       "title": "Temple of the Manes",
       "isrc": "USUAN1100053",
       "author": "Kevin MacLeod",
-      "status": "candidate",
+      "status": "approved",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
       "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100053",
@@ -241,7 +412,9 @@
         "channels": 2
       },
       "retrievedAt": "2026-11-26",
-      "usedBy": []
+      "usedBy": [],
+      "active": true,
+      "reviewedAt": "2026-11-26"
     },
     {
       "id": "M2",
@@ -249,7 +422,7 @@
       "title": "Desert City",
       "isrc": "USUAN1100564",
       "author": "Kevin MacLeod",
-      "status": "candidate",
+      "status": "approved",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
       "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100564",
@@ -275,7 +448,9 @@
         "channels": 2
       },
       "retrievedAt": "2026-11-26",
-      "usedBy": []
+      "usedBy": [],
+      "active": true,
+      "reviewedAt": "2026-11-26"
     },
     {
       "id": "M3",
@@ -283,7 +458,7 @@
       "title": "Virtutes Instrumenti",
       "isrc": "USUAN1100801",
       "author": "Kevin MacLeod",
-      "status": "candidate",
+      "status": "approved",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
       "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100801",
@@ -309,7 +484,9 @@
         "channels": 2
       },
       "retrievedAt": "2026-11-26",
-      "usedBy": []
+      "usedBy": [],
+      "active": true,
+      "reviewedAt": "2026-11-26"
     }
   ]
 }

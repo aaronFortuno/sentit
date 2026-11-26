@@ -1,4 +1,4 @@
-import { narrationMusic, narrationMusicGroups } from './content/narration-music.js';
+import { narrationMusic, narrationMusicGroups } from './content/narration-music.js?v=0.1.125';
 import { openDialog } from './motion.js';
 import { mountAudioSeek } from './audio-seek.js';
 
@@ -13,12 +13,13 @@ export function mountNarrationMusicPreview({ t, language, icon, track }) {
       const button=document.createElement('button');button.type='button';button.textContent=group[lang];button.setAttribute('aria-pressed',String(group.id===selected));
       button.addEventListener('click',()=>{selected=group.id;render();});return button;
     }));
-    list.replaceChildren(...narrationMusic.filter(candidate=>candidate.universe===selected).map(candidate=>{
+    list.replaceChildren(...narrationMusic.filter(candidate=>candidate.universe===selected&&candidate.active!==false).map(candidate=>{
       const card=document.createElement('section');card.className='music-candidate';card.dataset.candidate=candidate.id;
       const heading=document.createElement('div');heading.className='music-candidate-heading';
       const title=document.createElement('h3');title.textContent=`${candidate.id} · ${candidate.title}`;
+      const titleGroup=document.createElement('div'),state=document.createElement('span');state.className='music-choice-state';state.dataset.status=candidate.status;state.textContent=t(candidate.status==='approved'?'musicApproved':'musicNewCandidate');titleGroup.append(title,state);
       const button=document.createElement('button');button.type='button';button.className='icon-button';
-      const symbol=document.createElement('span');symbol.dataset.icon='play';symbol.setAttribute('aria-hidden','true');button.append(symbol);heading.append(title,button);
+      const symbol=document.createElement('span');symbol.dataset.icon='play';symbol.setAttribute('aria-hidden','true');button.append(symbol);heading.append(titleGroup,button);
       const audio=document.createElement('audio');audio.preload='none';audio.src=candidate.preview;audio.hidden=true;
       const paint=()=>{const playing=!audio.paused&&!audio.ended;icon(symbol,playing?'pause':'play');button.setAttribute('aria-pressed',String(playing));button.setAttribute('aria-label',`${t(playing?'pauseComprehension':'previewMusic')} · ${candidate.id} · ${candidate.title}`);};
       button.addEventListener('click',async()=>{if(!audio.paused){audio.pause();return;}window.dispatchEvent(new Event('sentit-pause-playback'));document.querySelectorAll('audio').forEach(other=>{if(other!==audio)other.pause();});if(audio.ended)audio.currentTime=0;try{await audio.play();track('escolta_musica_proposta',{pista:candidate.id,univers:selected});}catch{status.textContent=t('audioError');}});
@@ -32,6 +33,7 @@ export function mountNarrationMusicPreview({ t, language, icon, track }) {
       const status=document.createElement('p');status.className='music-status';status.setAttribute('role','status');
       card.append(heading,description,audio,seek,credits,status);paint();return card;
     }));
+    list.scrollTop=0;
   };
   const open=(group)=>{selected=narrationMusicGroups.some(g=>g.id===group)?group:selected;window.dispatchEvent(new Event('sentit-pause-playback'));document.querySelectorAll('audio').forEach(audio=>audio.pause());render();openDialog(dialog);track('compara_musiques_narracio');};
   document.getElementById('compare-narration-music').addEventListener('click',()=>open());

@@ -1,12 +1,16 @@
 # Comparison excerpts · Kevin MacLeod
 
-The nine excerpts F1–F3, L1–L3 and M1–M3 are music by **Kevin MacLeod (incompetech.com)**, licensed under **[Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)**.
+The thirteen excerpts F1–F7, L1–L3 and M1–M3 are music by **Kevin MacLeod (incompetech.com)**, licensed under **[Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)**. F2/F3 are preserved historical proposals outside the active comparison; F4–F7 are new alternatives. Approval of a library track is separate from approval of an activity's final mix.
 
 | File | Composition | Original source |
 | --- | --- | --- |
 | F1.mp3 | Easy Lemon | https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076 |
 | F2.mp3 | Carefree | https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400037 |
 | F3.mp3 | Dreamy Flashback | https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100532 |
+| F4.mp3 | Windswept | https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100757 |
+| F5.mp3 | Fresh Air | https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1500084 |
+| F6.mp3 | Almost New | https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1800008 |
+| F7.mp3 | The Forest and the Trees | https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100766 |
 | L1.mp3 | Teller of the Tales | https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400020 |
 | L2.mp3 | Folk Round | https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100357 |
 | L3.mp3 | Angevin | https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200110 |

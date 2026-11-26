@@ -177,6 +177,34 @@
       ]
     },
     {
+      "file": "assets/audio/music-previews/F4.mp3",
+      "bytes": 513470,
+      "reasons": [
+        "reusable-source-or-export"
+      ]
+    },
+    {
+      "file": "assets/audio/music-previews/F5.mp3",
+      "bytes": 513501,
+      "reasons": [
+        "reusable-source-or-export"
+      ]
+    },
+    {
+      "file": "assets/audio/music-previews/F6.mp3",
+      "bytes": 513518,
+      "reasons": [
+        "reusable-source-or-export"
+      ]
+    },
+    {
+      "file": "assets/audio/music-previews/F7.mp3",
+      "bytes": 513443,
+      "reasons": [
+        "reusable-source-or-export"
+      ]
+    },
+    {
       "file": "assets/audio/music-previews/L1.mp3",
       "bytes": 513502,
       "reasons": [

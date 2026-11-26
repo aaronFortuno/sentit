@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.125 · 26 de novembre de 2026
+
+- Llegendes L1–L3 i mites M1–M3 validats com a repertori. F1 conserva la validació; quatre alternatives noves de faules F4–F7 amb guitarra/cordes, piano i instruments de vent. F2/F3 es conserven com a mostres anteriors, fora del comparador actiu, sense reutilitzar-ne els codis.
+- Comparador amb estats «Validada» i «Nova proposta», 32 segons per mostra i fonts CC BY 4.0. Originals complets fora del repositori; només es preparen els quatre fragments nous i els anteriors queden intactes.
+- Primer es tanca la selecció de faules abans de reprendre muntatges. Cap síntesi de veu ni canvi d’aprovació de cap lectura.
+
 ## 0.1.124 · 26 de novembre de 2026
 
 - Tancament de publicació unificat: prepara les pistes, retira material de treball tancat, comprova contingut i actualitza seguiment. Arxiu local amb reutilització per empremta entre dates, sense duplicar els mateixos MP3 cada dia. Auditoria local de material antic a Git per agrupar purgues; cap aprovació ni reescriptura d’historial automàtica.
