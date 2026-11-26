@@ -4,7 +4,7 @@ Decisió docent del **26/11/2026**: mantenir l’allotjament a GitHub Pages i op
 
 **Segona fase:** [reproducció modular](audio-modular.md). Es conserven al web títol i relat; els 130 màsters complets equivalents passen també a l’arxiu local. Estalvi addicional de 170 MB i arbre publicable d’uns 298 MB. Les xifres següents documenten la primera neteja i no inclouen aquesta segona reducció.
 
-**Purga de l’historial autoritzada i completada el 26/11/2026.** La pujada protegida a `main` ha estat acceptada i aquesta còpia local ja està sincronitzada. Historial net verificat: **456,06 MB**; arbre publicable: **468,22 MB**. Muntatges, pistes separades i recursos reutilitzables intactes.
+**Dues fases completades el 26/11/2026.** Les pujades protegides a `main` han estat acceptades i aquesta còpia local ja està sincronitzada. Resultat actual: **288,96 MB d’historial net** i **298,27 MB d’arbre publicable**. Títol/relat i recursos reutilitzables al web, màsters complets en local. Els apartats següents detallen la primera neteja; el [registre modular](audio-modular.md) documenta la segona purga i la seva còpia de recuperació.
 
 ## Neteja actual, sense reescriure l’historial
 

@@ -1,10 +1,10 @@
 # Espai actual i creixement fins a 600 exercicis
 
-**Després de la reproducció modular (0.1.124):** les 260 pistes de títol/relat ocupen 169,98 MB i els 130 màsters complets equivalents queden en local, amb 170,03 MB menys publicats. Arbre públic d’uns 298 MB. Per a 600 exercicis, una sola representació títol/relat serien uns 785 MB, més recursos comuns i imatges. [Dades i comprovacions](audio-modular.md). Les taules anteriors es conserven com a comparativa històrica.
+**Després de la reproducció modular (0.1.124):** les 260 pistes de títol/relat ocupen 169,98 MB i els 130 màsters complets equivalents queden en local, amb 170,03 MB menys publicats. Arbre públic de **298,27 MB** i historial local net de **288,96 MB**, amb la segona purga completada. Per a 600 exercicis, una sola representació títol/relat serien uns 785 MB, més recursos comuns i imatges. [Dades i comprovacions](audio-modular.md). Les taules de les fases anteriors es conserven com a comparativa històrica.
 
 Mesura local del **26/11/2026**, sobre el commit base `33ebb80` (v0.1.121), abans d’afegir les nou mostres musicals. Sense consultar el desplegament remot. MB i GB són decimals; MiB i GiB són potències de dos.
 
-**Actualització posterior:** el docent manté GitHub Pages i descarta investigar altres allotjaments per aquest objectiu. S’han retirat de la publicació i de l’historial 303 MP3 de treball, conservats en local: arbre publicable d’uns **468 MB** i historial net verificat d’uns **456 MB**. La purga de l’historial ha estat autoritzada i aplicada, amb còpies completes de recuperació. Detalls a [la política d’àudio](neteja-audio.md). La taula següent conserva la mesura anterior com a comparació.
+**Primera neteja, abans de modularitzar:** el docent manté GitHub Pages i descarta investigar altres allotjaments per aquest objectiu. Es van retirar de la publicació i de l’historial 303 MP3 de treball, conservats en local: arbre publicable d’uns **468 MB** i historial net verificat d’uns **456 MB**. La purga es va autoritzar i aplicar amb còpies completes de recuperació. Detalls a [la política d’àudio](neteja-audio.md). La taula següent conserva la mesura inicial com a comparació.
 
 ## Què ocupa cada cosa
 

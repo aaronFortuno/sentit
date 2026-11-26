@@ -55,4 +55,10 @@ Les proves de publicació es repeteixen des d’una exportació neta, perquè l�
 
 L’arbre publicable passa d’uns **468 a 298 MB**, amb un estalvi addicional de **170 MB**. Eliminar només del commit actual no allibera l’historial anterior: la neteja es completa amb el mateix procediment autoritzat de còpia completa, filtratge en còpia independent, verificació d’arbre idèntic i pujada protegida, segons `docs/neteja-audio.md`.
 
+**Neteja completada:** s’han retirat les 130 rutes també de l’historial, amb acceptació de la pujada protegida i sincronització local. Els 151 commits previs a aquest registre es conserven; l’arbre actual del canvi és idèntic abans/després del filtratge (`26ddd9d35bac3d5f7da8c855a890e845dcbf66b2`). `git fsck` correcte i comprovació de publicació superada.
+
+Resultat mesurat: **298,27 MB de fitxers publicables** i **288,96 MB de Git local net**, davant dels 468,22 MB i 456,06 MB de la primera neteja. La recollida d’objectes del servidor de GitHub pot trigar a reflectir-se al seu comptador; no s’ha comprovat el desplegament remot.
+
+Abans d’aplicar el filtratge s’ha creat i verificat `../output/sentit-modular-20261126/before-history-purge.bundle`, que conserva l’historial complet anterior amb els muntatges. Plans, empremtes, resultats i mesures són a la mateixa carpeta: `history-plan.json`, `history-result.json`, `purge-applied.json` i `storage-final.json`. Els 130 màsters també es mantenen als seus camins de producció originals i a l’arxiu local amb manifest.
+
 Per a 600 exercicis amb la mitjana actual, títol i relat sumarien uns **785 MB**, més il·lustracions i recursos comuns. Aquesta estimació ja compta una sola representació de cada exercici.
