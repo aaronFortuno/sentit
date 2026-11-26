@@ -4,6 +4,7 @@ import { isPendingReview, isAudioReview, needsReview, reviewScript } from './rev
 import { isEditoriallyReviewed, reviewCaption, hasPendingMontage, hasApprovedScript } from './editorial-review.js';
 import { listeningContext } from './content/listening-contexts.js?v=0.1.121';
 import { responseQuestion, responseSummary } from './question-responses.js?v=0.1.121';
+import { traditionSources } from './content/tradition-sources.js';
 
 export const defaultFormat = { font: 'serif', size: 12, spacing: 7, leading: 1.6 };
 
@@ -456,6 +457,15 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
   }
 
   if (answerKey && !needsReview(entry)) placeTranscript();
+
+  const sources=traditionSources(entry);
+  if(sources.length){
+    const citation=element('aside','paper-attribution');
+    citation.append(element('p',null,labels.adaptationOwnNote));
+    const references=element('p',null,labels.adaptationSourcesTitle+': ');
+    sources.forEach((source,index)=>{if(index)references.append(document.createTextNode(' · '));const link=element('a',null,source.label);link.href=source.url;references.append(link);});
+    citation.append(references);placeBlock(citation);
+  }
 
   footers.forEach((footer, index) => {
     const label = index === 0 ? 'sentit.ortogra.fi' : entry.title;

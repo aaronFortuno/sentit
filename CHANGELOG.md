@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.128 · 26 de novembre de 2026
+
+- Fonts de faules, llegendes i mites visibles al web i a fitxes/solucionaris, amb autoria de l’adaptació identificada i referències breus contrastades. S133 corregida a voleiaven; final de S142 clarificat amb cites obertes/ABCD actualitzades, tots dos pendents de vistiplau docent.
+- Deu guions aprovats. L45/L46 rebuts en dues peticions: vuit preses per audició, sense muntatge automàtic; presentació parcial de S131 marcada. Metadades de transport retirades localment conservant totes les mostres de veu.
+- S128/S129 amb F1/L1, S070/S122 amb preses completes validades i S095 amb tres interlocutors i la gravació original: cinc muntatges nous pendents d’audició. S130 conserva el muntatge M1. Pistes modulars publicables i treball arxivat localment.
+
 ## 0.1.127 · 26 de novembre de 2026
 
 - S088, S041, S085, S090, S093, S118, S109, S017 i S081 publicades definitivament amb aprovació docent. Les esmenes queden tancades en context i les nou peces surten de la vista de provisionals. Màsters i pistes de servei aprovats intactes.

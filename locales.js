@@ -1,5 +1,8 @@
 export const strings = {
   ca: {
+    releaseCulturalSourcesAndMontages: 'Fonts dels relats culturals al web i al paper; S133/S142 esmenats i pendents de validar. Deu guions aprovats i vuit preses rebudes a L45/L46; títol de S131 parcial. Cinc muntatges nous per escoltar: S070, S095, S122, S128 i S129. S095 amb tres interlocutors i imatge coherent.',
+    adaptationSourcesTitle: 'Fonts del relat',
+    adaptationOwnNote: 'Adaptació catalana pròpia de Sentit a partir de les fonts indicades.',
     releaseNineFinalPublications: 'Nou definitives: S088, S041, S085, S090, S093, S118, S109, S017 i S081, amb esmenes validades, il·lustracions contextuals i solucionaris nets. Àudios aprovats intactes, comparacions tancades i seguiment actualitzat.',
     releaseApprovedMusicMontage: 'Repertoris validats: faules F1/F4/F5/F6, llegendes L1–L3 i mites M1–M3. Alternança dins de cada univers i mateixa música entre variants. S130 amb primer muntatge M1 pendent d’audició, sense síntesi nova; títol i relat separats.',
     musicApproved: 'Validada',
@@ -358,6 +361,9 @@ export const strings = {
     sessionEnded: 'Sessió acabada', remainingTime: 'Temps restant',
   },
   es: {
+    releaseCulturalSourcesAndMontages: 'Fuentes de los relatos culturales en la web y el papel; S133/S142 corregidos y pendientes de validar. Diez guiones aprobados y ocho tomas recibidas en L45/L46; título de S131 parcial. Cinco montajes nuevos para escuchar: S070, S095, S122, S128 y S129. S095 con tres interlocutores e imagen coherente.',
+    adaptationSourcesTitle: 'Fuentes del relato',
+    adaptationOwnNote: 'Adaptación catalana propia de Sentit a partir de las fuentes indicadas.',
     releaseNineFinalPublications: 'Nueve definitivas: S088, S041, S085, S090, S093, S118, S109, S017 y S081, con correcciones validadas, ilustraciones contextuales y soluciones limpias. Audios aprobados intactos, comparaciones cerradas y seguimiento actualizado.',
     musicApproved: 'Validada',
     releaseApprovedMusicMontage: 'Repertorios validados: fábulas F1/F4/F5/F6, leyendas L1–L3 y mitos M1–M3. Alternancia por universo y misma música entre variantes. S130 con primer montaje M1 pendiente de audición, sin nueva síntesis; título y relato separados.',

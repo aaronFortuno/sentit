@@ -17,9 +17,9 @@ function recoverStreamedWave(bytes) {
   const [fmt, first] = chunks.map(chunk => chunk.data), rest = bytes.subarray(end);
   if (fmt.length !== 16 || fmt.readUInt16LE(0) !== 1 || fmt.readUInt16LE(2) !== 1 || fmt.readUInt16LE(14) !== 16 || fmt.readUInt16LE(12) !== 2 || fmt.readUInt32LE(4) !== 24000 || fmt.readUInt32LE(8) !== 48000 || first.length % 2 || rest.length % 2) throw Error('Unsupported PCM format');
   // Observed provider prefixes: 10 ms (L38), 20 ms (L42), 30 ms (L40),
-  // 40 ms, 60 ms (L43), 80 ms, or 110 ms (L41) of initial PCM.
+  // 40 ms, 60 ms (L43), 80 ms, 110 ms (L41), or 120 ms (L46) of initial PCM.
   // Accept only those observed layouts; all other format checks stay strict.
-  if (![480,960,1440,1920,2880,3840,5280].includes(first.length)) throw Error('Unexpected first streaming frame');
+  if (![480,960,1440,1920,2880,3840,5280,5760].includes(first.length)) throw Error('Unexpected first streaming frame');
   const pieces=[first],tags=[];let cursor=end,scan=end;
   while((scan=bytes.indexOf('ID3',scan))!==-1){
     const at=scan;scan+=3;

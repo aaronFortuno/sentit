@@ -3,8 +3,8 @@
   "status": "passed",
   "reviewedAt": "2026-11-26",
   "reviewer": "revisio_contextos_previs",
-  "scope": "90 contextos impresos revisats independentment. S045D incorporada i contextos S079/S081 revalidats després dels comiats demanats pel docent. Sense canvis d’aprovacions d’àudio. S029 revalidada el 23/11 després de recuperar la presentació i retirar la ubicació del context previ. S068D i S071D incorporades amb revisió independent el 23/11; correspondència de S068 revalidada després de variar-ne l’inici. Ampliació independent: ca-S083, ca-S084, ca-S085, ca-S086 (revisio_tancament_s027). Ampliació independent: ca-S087, ca-S088, ca-S089, ca-S090, ca-S091 (revisio_tancament_s027). Ampliació independent: ca-S084, ca-S086 (revisio_tancament_s027). Ampliació independent: ca-S092, ca-S093, ca-S094, ca-S095, ca-S096, ca-S097 (revisio_tancament_s027). Ampliació independent: ca-S098, ca-S099, ca-S100, ca-S101, ca-S102, ca-S103 (auditoria_registre_pendents). Ampliació independent: ca-S104, ca-S105, ca-S106, ca-S107 (revisio_tancament_s027). Ampliació independent: ca-S108, ca-S109, ca-S110, ca-S111 (auditoria_registre_pendents). Ampliació independent: ca-S092, ca-S093, ca-S095 (revisio_tancament_s027). Ampliació del 25/11: S112–S127 amb doble format i contextos revisats per /root/abcd_author_002, /root/abcd_author_003, /root/abcd_author_004. Pilots S128–S130 i retolació S125: revisió independent del 25/11. S131–S142: revisió creuada independent de guions, contextos, doble format i fonts del 26/11.",
-  "fileSha256": "62f3d7c433cd69863d94747168e17c5f7e06bc44b0cb6b103c976775d4dd0e48",
+  "scope": "90 contextos impresos revisats independentment. S045D incorporada i contextos S079/S081 revalidats després dels comiats demanats pel docent. Sense canvis d’aprovacions d’àudio. S029 revalidada el 23/11 després de recuperar la presentació i retirar la ubicació del context previ. S068D i S071D incorporades amb revisió independent el 23/11; correspondència de S068 revalidada després de variar-ne l’inici. Ampliació independent: ca-S083, ca-S084, ca-S085, ca-S086 (revisio_tancament_s027). Ampliació independent: ca-S087, ca-S088, ca-S089, ca-S090, ca-S091 (revisio_tancament_s027). Ampliació independent: ca-S084, ca-S086 (revisio_tancament_s027). Ampliació independent: ca-S092, ca-S093, ca-S094, ca-S095, ca-S096, ca-S097 (revisio_tancament_s027). Ampliació independent: ca-S098, ca-S099, ca-S100, ca-S101, ca-S102, ca-S103 (auditoria_registre_pendents). Ampliació independent: ca-S104, ca-S105, ca-S106, ca-S107 (revisio_tancament_s027). Ampliació independent: ca-S108, ca-S109, ca-S110, ca-S111 (auditoria_registre_pendents). Ampliació independent: ca-S092, ca-S093, ca-S095 (revisio_tancament_s027). Ampliació del 25/11: S112–S127 amb doble format i contextos revisats per /root/abcd_author_002, /root/abcd_author_003, /root/abcd_author_004. Pilots S128–S130 i retolació S125: revisió independent del 25/11. S131–S142: revisió creuada independent de guions, contextos, doble format i fonts del 26/11. Esmenes de S133/S142 i adaptació de S095 a dos empleats: revisió independent del 26/11.",
+  "fileSha256": "283dcbf0000da1ad7c700f7bcc7aaa7bf387b293b5d6ad7363ba31f90ef635b0",
   "entries": {
     "ca-S001": {
       "contextSha256": "86a2e53e056b3476191785f60aeb95ceaeed57b5958b995a1c5ac832470bfedf",
@@ -441,10 +441,8 @@
       "reviewedAt": "2026-11-23"
     },
     "ca-S095": {
-      "contextSha256": "10162f1a51ad525b2b684b72bc7c74f9c6725a823becccc69721304d738716e3",
-      "sourceSha256": "66ba376fea820fd3e24f55bb383c9ffa5d6882ba8d9afb8fc6aa0ce2947c99e4",
-      "reviewer": "revisio_tancament_s027",
-      "reviewedAt": "2026-11-24"
+      "contextSha256": "764e13ceb3dfeacb80f30c797463af2946347036b1d513c0e0aa32db81f7811d",
+      "sourceSha256": "ea4314bc5c01b206b241dcddfcef18499a0fb71981f9eeec93a51488ea921198"
     },
     "ca-S096": {
       "contextSha256": "8ddb290968288f391e0f03f5b6989d1ffc182dd056ff7213181275de4b7e33ca",
@@ -670,9 +668,7 @@
     },
     "ca-S133": {
       "contextSha256": "338668857697037ff0d0a26b2234b57bf2d7c8a0db1ef4bd210b645ed75f7494",
-      "sourceSha256": "b86dd82a838f15e3bb90c740a4599ea6b3ecb530c3b879b5cd1b67f7028304cb",
-      "reviewer": "autoria_llegendes_135_138",
-      "reviewedAt": "2026-11-26"
+      "sourceSha256": "668a143aaa6aada79cdb79617bf2c01dde688cb0f1d164754d7628601258f199"
     },
     "ca-S134": {
       "contextSha256": "e62e638bce1409ec7d6c1c2aa879e101fce700c9221f29ee33d91901c7a3d7b5",
@@ -724,9 +720,7 @@
     },
     "ca-S142": {
       "contextSha256": "c07c6523e825044a8c22480d1546c5011eb6334ee014070227e5ef9a9a55e680",
-      "sourceSha256": "21d8bd390b30ee95707967c41bc4917b472933c9aafa129af9169dcfeeec9f32",
-      "reviewer": "/root/autoria_faules_131_134",
-      "reviewedAt": "2026-11-26"
+      "sourceSha256": "12776ac29c3582d8d5099ce04339d1c566b93bb8e15f285b99370a785ea4ed0a"
     }
   },
   "latestReview": {

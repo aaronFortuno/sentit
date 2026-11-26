@@ -92,3 +92,5 @@ S009 i S050: generació integrada amb models de personatge; 1536 × 1024, WebP q
 ## Nou escenes de publicació · 26/11/2026
 
 S088, S041, S085, S090, S093, S118, S109, S017 i S081. Generació integrada amb els models recurrents, 1536 × 1024, WebP qualitat 88 sense retall; PNG originals conservats localment. Cada `sXXX-publicacio-v1.webp` disposa del prompt exacte i referències a `sXXX-publication.prompts.json`. [Índex de fitxers i revisió independent](../../docs/publicacio-2026-11-26-nou.md).
+
+S095: [escena de tres interlocutors](s095-publicacio-v1.webp), Ferran i dos treballadors ocasionals al taulell d’enviaments. Generació integrada amb model de Ferran, PNG original local i WebP de 1536 × 1024, qualitat 88. [Prompt i procedència](s095-publication.prompts.json). Context sense dades de les respostes, revisat independentment.

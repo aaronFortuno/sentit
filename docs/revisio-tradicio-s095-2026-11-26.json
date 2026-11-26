@@ -1,0 +1,155 @@
+{
+  "reviewer": "revisio_esmenes_fonts_20261126",
+  "summary": {
+    "passed": 3,
+    "blocked": 0,
+    "questionCount": 21
+  },
+  "citations": {
+    "status": "passed",
+    "activities": 15,
+    "notes": [
+      "21 referències breus de S128–S142 contrastades amb production.factualSources; ordre i URLs idèntics als registres existents. Cap font afegida ni inventada.",
+      "Autors, obres, anys, edicions i passatges coherents amb les fitxes completes; els trams contigus de Demèter es condensen correctament en 305–473.",
+      "Frazer, Brookes More i Evelyn-White s’identifiquen com a traductors dels testimonis consultats. El peu d’impressió atribueix l’adaptació catalana pròpia a Sentit, sense atribuir-la a les traduccions."
+    ]
+  },
+  "rows": [
+    {
+      "code": "S133",
+      "status": "passed",
+      "fingerprint": "a5b1503a512d4b45756793514459340565ad4f06f98b55227036c24e424c9558",
+      "questionChoiceFingerprints": [
+        {
+          "id": "condicio",
+          "fingerprint": "17c8eb9456a690d56845f09158fc2965e6ee65cba75c56de6dc117ea36c8c7e0"
+        },
+        {
+          "id": "primer",
+          "fingerprint": "612f9d2140cab63d973b424594dd07ff19a2c0d5a0a613ad8a0bc1057461264f"
+        },
+        {
+          "id": "reaccio",
+          "fingerprint": "145862e2e2c21a89150448cff18474df7a39fae02add3c880a2a8527da3972ea"
+        },
+        {
+          "id": "canvi",
+          "fingerprint": "dfa157012fd3e03286c23cab430d67b9f588ee557ca065bcc15b6981b2ea1719"
+        },
+        {
+          "id": "calor",
+          "fingerprint": "1bbb5d9c6195873a093ff2700bcaf5ac13da38fb3d797ca28a2eb3db5aef2ebe"
+        },
+        {
+          "id": "guanyador",
+          "fingerprint": "0a152c3fab0cd37bb9af8e48c398ee6f55e2678f6b4d918135734b00c34b9313"
+        }
+      ],
+      "context": {
+        "contextSha256": "338668857697037ff0d0a26b2234b57bf2d7c8a0db1ef4bd210b645ed75f7494",
+        "sourceSha256": "668a143aaa6aada79cdb79617bf2c01dde688cb0f1d164754d7628601258f199"
+      },
+      "notes": [
+        "Forma voleiaven correcta; la correcció no canvia accions, ordre ni significat del relat.",
+        "Sis preguntes obertes i ABCD: claus i explicacions sustentades, distractors no defensables amb el relat; ancoratges exactes.",
+        "Context previ breu, coherent amb la personificació i sense donar resultat ni reaccions. Guió i escaleta continuen pendents de vistiplau docent; cap autorització de síntesi."
+      ]
+    },
+    {
+      "code": "S142",
+      "status": "passed",
+      "fingerprint": "289dc4620077ae471d9e57830f64b5e3615e1079d348d168cbe8af55c7a40dbd",
+      "questionChoiceFingerprints": [
+        {
+          "id": "ordre",
+          "fingerprint": "933baa584005ac25638a34c97abc01d3984367197d38130b8906bd4c4f8e0e02"
+        },
+        {
+          "id": "petjades",
+          "fingerprint": "00044160cf77ebdd606a0c4c3ba5347bb06503969501e6117ace11d6847c5464"
+        },
+        {
+          "id": "excusa",
+          "fingerprint": "e39fb9374faa6bb0207fce541fd2c73c711e1caf036ccc0bb8b3bf90ff93b359"
+        },
+        {
+          "id": "pare",
+          "fingerprint": "7efad34c7d52f97275a6bc4e97425d3af7584b44fc2867fcf0bfa204e49020ad"
+        },
+        {
+          "id": "ordre-zeus",
+          "fingerprint": "650e55f6b56e3a43e993db688ff71bc8bcd9024089185387406a9b6733ac9bf1"
+        },
+        {
+          "id": "canvi",
+          "fingerprint": "3c6627d7a5b628bc615c5771c977483d9dd7823f8c65b1865514c622ed22cabb"
+        },
+        {
+          "id": "intercanvi",
+          "fingerprint": "ad167ab97de7a16f6ea0249adde3fbbede91cb210d2e35a97903c3c167bb6f5e"
+        }
+      ],
+      "context": {
+        "contextSha256": "c07c6523e825044a8c22480d1546c5011eb6334ee014070227e5ef9a9a55e680",
+        "sourceSha256": "12776ac29c3582d8d5099ce04339d1c566b93bb8e15f285b99370a785ea4ed0a"
+      },
+      "notes": [
+        "El final formula explícitament la proposta de donar la lira a Apol·lo a canvi de deixar les vaques a Hermes per cuidar-les; acceptació i accions posteriors coherents.",
+        "Set preguntes obertes i ABCD: les dues últimes i les seves cites corresponen al final nou; una clau defensable en cada alternativa.",
+        "Context previ coherent i sense revelar petjades, ordre de Zeus ni intercanvi. La referència d’Evelyn-White correspon al testimoni ja registrat; el final concorda amb el contrast primari aportat pel coordinador.",
+        "Guió i escaleta continuen pendents de vistiplau docent; aquesta revisió no autoritza síntesi."
+      ]
+    },
+    {
+      "code": "S095",
+      "status": "passed",
+      "fingerprint": "02100f358d48f5665d0578cde25f9cca7ff53ac99c2fdfeac6c4c3eed95d4661",
+      "imageSha256": "033bb66f113f72ddf5bce5e184fe0fc333384765a8f07e57a45007ba193644df",
+      "questionChoiceFingerprints": [
+        {
+          "id": "dins",
+          "fingerprint": "c1915ef560af0872873b9b554898de75bed7c4190da502fc05d1f0bc9f74a81e"
+        },
+        {
+          "id": "mida",
+          "fingerprint": "84c7b186a6c14df516a4be8661d2783b9f1dc6b0b6dab0b85d6d993b162dbe1d"
+        },
+        {
+          "id": "plegar",
+          "fingerprint": "3318eabe267f73ef1fbe30429abaa47ba6a25db364a9e5052c82623a7942c187"
+        },
+        {
+          "id": "recollida",
+          "fingerprint": "2b36e32e2aed9f4a7760552a1739b397f1bb7a7105c5328fd9d2a196f7bc61ce"
+        },
+        {
+          "id": "mati",
+          "fingerprint": "4561c0e596fe20f840e03aa9d42d08920a3dbc9e887ec8a0f9bb26840e56dc0b"
+        },
+        {
+          "id": "franja",
+          "fingerprint": "5c0debe1b6db41c5821d4dc5eaf77db3ab4c204912887080b8c4f935ee67f733"
+        },
+        {
+          "id": "dades",
+          "fingerprint": "48a3c3d099b41a1730e1b03733411c799d1bb45c65fc48b8bbe83d7d74d8d896"
+        },
+        {
+          "id": "tub",
+          "fingerprint": "e6c47634bc490f3f34b4317088af8dd5d9fe59cadef6675543d9876d78802070"
+        }
+      ],
+      "context": {
+        "contextSha256": "764e13ceb3dfeacb80f30c797463af2946347036b1d513c0e0aa32db81f7811d",
+        "sourceSha256": "ea4314bc5c01b206b241dcddfcef18499a0fb71981f9eeec93a51488ea921198"
+      },
+      "notes": [
+        "Imatge vista amb view_image: tres persones al mateix taulell, Ferran coherent amb el model i dos treballadors ocasionals diferenciats. Tub tancat; cap text llegible, mesures, contingut, horari, adreces o modalitat de recollida revelats. Alt coherent.",
+        "Dos primers torns d’atenció (mida, recollida) etiquetats Empleat; des de franja, Empleada. El context imprès presenta tots dos. L’acotació de relleu no té speaker i no és locutada.",
+        "Comparació amb assets/audio/synthesis-batches/l34-request.json: es conserven exactament les paraules de la presentació i els onze torns originals de S095-T01, normalitzant únicament espais de comparació; no s’afegeix cap salutació ni relleu parlat.",
+        "Vuit preguntes obertes i ABCD coherents; 85−80=5 cm, recollida l’endemà de 16 a 18 h, dades de destinatària i emissor diferenciades, tub retornat a Ferran. Claus, explicacions, distractors i cites vàlids.",
+        "Es respecta l’acceptació docent dels dos timbres de Gacrux com dos treballadors ocasionals; no s’atribueix una aprovació nova ni es modifica àudio."
+      ]
+    }
+  ]
+}

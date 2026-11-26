@@ -18,10 +18,14 @@ Les preses originals es conserven i la cobertura s’ha comprovat localment. La 
 
 | Peça | Presa |
 | --- | --- |
-| [ca-S070](https://sentit.ortogra.fi/#lectura=ca-S070) | [Escolta les veus](../proves/veus-rebudes.html#S070) |
-| [ca-S122](https://sentit.ortogra.fi/#lectura=ca-S122) | [Escolta les veus](../proves/veus-rebudes.html#S122) |
-| [ca-S128](https://sentit.ortogra.fi/#lectura=ca-S128) | [Escolta les veus](../proves/veus-rebudes.html#S128) |
-| [ca-S129](https://sentit.ortogra.fi/#lectura=ca-S129) | [Escolta les veus](../proves/veus-rebudes.html#S129) |
+| [ca-S131](https://sentit.ortogra.fi/#lectura=ca-S131) | [Escolta les veus](../proves/veus-rebudes.html#S131) |
+| [ca-S132](https://sentit.ortogra.fi/#lectura=ca-S132) | [Escolta les veus](../proves/veus-rebudes.html#S132) |
+| [ca-S135](https://sentit.ortogra.fi/#lectura=ca-S135) | [Escolta les veus](../proves/veus-rebudes.html#S135) |
+| [ca-S136](https://sentit.ortogra.fi/#lectura=ca-S136) | [Escolta les veus](../proves/veus-rebudes.html#S136) |
+| [ca-S137](https://sentit.ortogra.fi/#lectura=ca-S137) | [Escolta les veus](../proves/veus-rebudes.html#S137) |
+| [ca-S138](https://sentit.ortogra.fi/#lectura=ca-S138) | [Escolta les veus](../proves/veus-rebudes.html#S138) |
+| [ca-S139](https://sentit.ortogra.fi/#lectura=ca-S139) | [Escolta les veus](../proves/veus-rebudes.html#S139) |
+| [ca-S140](https://sentit.ortogra.fi/#lectura=ca-S140) | [Escolta les veus](../proves/veus-rebudes.html#S140) |
 
 Les previsions provenen dels guions i del calibratge local; cal recalcular-les amb el format definitiu abans d’enviar. Una mateixa veu en dos guions no implica el mateix personatge. No es canvien repartiments ni s’allarguen guions per omplir un lot.
 
@@ -31,8 +35,7 @@ Ordenades pel nombre de guions que falta validar. Són candidats de mida compati
 
 | Prioritat | Guions que falten | Lot complet resultant | Text pla estimat |
 | --- | --- | --- | ---: |
-| P30 | [ca-S135](https://sentit.ortogra.fi/#lectura=ca-S135), [ca-S136](https://sentit.ortogra.fi/#lectura=ca-S136), [ca-S137](https://sentit.ortogra.fi/#lectura=ca-S137), [ca-S138](https://sentit.ortogra.fi/#lectura=ca-S138) | [ca-S135](https://sentit.ortogra.fi/#lectura=ca-S135), [ca-S136](https://sentit.ortogra.fi/#lectura=ca-S136), [ca-S137](https://sentit.ortogra.fi/#lectura=ca-S137), [ca-S138](https://sentit.ortogra.fi/#lectura=ca-S138) | 6:39 |
-| P31 | [ca-S139](https://sentit.ortogra.fi/#lectura=ca-S139), [ca-S140](https://sentit.ortogra.fi/#lectura=ca-S140), [ca-S141](https://sentit.ortogra.fi/#lectura=ca-S141), [ca-S142](https://sentit.ortogra.fi/#lectura=ca-S142) | [ca-S139](https://sentit.ortogra.fi/#lectura=ca-S139), [ca-S140](https://sentit.ortogra.fi/#lectura=ca-S140), [ca-S141](https://sentit.ortogra.fi/#lectura=ca-S141), [ca-S142](https://sentit.ortogra.fi/#lectura=ca-S142) | 7:30 |
+| P32 | [ca-S133](https://sentit.ortogra.fi/#lectura=ca-S133), [ca-S142](https://sentit.ortogra.fi/#lectura=ca-S142) | [ca-S133](https://sentit.ortogra.fi/#lectura=ca-S133), [ca-S134](https://sentit.ortogra.fi/#lectura=ca-S134), [ca-S141](https://sentit.ortogra.fi/#lectura=ca-S141), [ca-S142](https://sentit.ortogra.fi/#lectura=ca-S142) | 7:00 |
 
 ## Agrupacions candidates · validació i preparació pendents
 
@@ -40,9 +43,9 @@ La previsió utilitza el text pla real, amb els títols i sense marques literals
 
 | Proposta | Repartiment | Comprensions | Previsió completa | Disponible ara | Mida orientativa | Guions validats | Validacions que falten |
 | --- | --- | --- | ---: | ---: | --- | ---: | --- |
-| P29 | Narrador anònim · candidat Algenib, amb alternatives segons el lot | [ca-S131](https://sentit.ortogra.fi/#lectura=ca-S131), [ca-S132](https://sentit.ortogra.fi/#lectura=ca-S132), [ca-S133](https://sentit.ortogra.fi/#lectura=ca-S133), [ca-S134](https://sentit.ortogra.fi/#lectura=ca-S134) | 5:42 | — | Per completar | 0/4 | [ca-S131](https://sentit.ortogra.fi/#lectura=ca-S131), [ca-S132](https://sentit.ortogra.fi/#lectura=ca-S132), [ca-S133](https://sentit.ortogra.fi/#lectura=ca-S133), [ca-S134](https://sentit.ortogra.fi/#lectura=ca-S134) |
-| P30 | Narrador anònim · candidat Algenib, amb alternatives segons el lot | [ca-S135](https://sentit.ortogra.fi/#lectura=ca-S135), [ca-S136](https://sentit.ortogra.fi/#lectura=ca-S136), [ca-S137](https://sentit.ortogra.fi/#lectura=ca-S137), [ca-S138](https://sentit.ortogra.fi/#lectura=ca-S138) | 6:39 | — | Dins la finestra prevista | 0/4 | [ca-S135](https://sentit.ortogra.fi/#lectura=ca-S135), [ca-S136](https://sentit.ortogra.fi/#lectura=ca-S136), [ca-S137](https://sentit.ortogra.fi/#lectura=ca-S137), [ca-S138](https://sentit.ortogra.fi/#lectura=ca-S138) |
-| P31 | Narrador anònim · candidat Algenib, amb alternatives segons el lot | [ca-S139](https://sentit.ortogra.fi/#lectura=ca-S139), [ca-S140](https://sentit.ortogra.fi/#lectura=ca-S140), [ca-S141](https://sentit.ortogra.fi/#lectura=ca-S141), [ca-S142](https://sentit.ortogra.fi/#lectura=ca-S142) | 7:30 | — | Dins la finestra prevista | 0/4 | [ca-S139](https://sentit.ortogra.fi/#lectura=ca-S139), [ca-S140](https://sentit.ortogra.fi/#lectura=ca-S140), [ca-S141](https://sentit.ortogra.fi/#lectura=ca-S141), [ca-S142](https://sentit.ortogra.fi/#lectura=ca-S142) |
+| P29 | Narrador anònim · candidat Algenib, amb alternatives segons el lot | [ca-S133](https://sentit.ortogra.fi/#lectura=ca-S133), [ca-S134](https://sentit.ortogra.fi/#lectura=ca-S134) | 3:02 | 1:35 | Per completar | 1/2 | [ca-S133](https://sentit.ortogra.fi/#lectura=ca-S133) |
+| P31 | Narrador anònim · candidat Algenib, amb alternatives segons el lot | [ca-S141](https://sentit.ortogra.fi/#lectura=ca-S141), [ca-S142](https://sentit.ortogra.fi/#lectura=ca-S142) | 4:02 | 1:52 | Per completar | 1/2 | [ca-S142](https://sentit.ortogra.fi/#lectura=ca-S142) |
+| P32 | Narrador anònim · Algenib | [ca-S133](https://sentit.ortogra.fi/#lectura=ca-S133), [ca-S134](https://sentit.ortogra.fi/#lectura=ca-S134), [ca-S141](https://sentit.ortogra.fi/#lectura=ca-S141), [ca-S142](https://sentit.ortogra.fi/#lectura=ca-S142) | 7:00 | 3:23 | Dins la finestra prevista | 2/4 | [ca-S133](https://sentit.ortogra.fi/#lectura=ca-S133), [ca-S142](https://sentit.ortogra.fi/#lectura=ca-S142) |
 
 Les previsions «amb esmenes» sumen només els fragments que encara són a la cua, no les proves ja rebudes. La composició de P26–P28 és al [pla d’equilibri](pla-equilibri-2026-11-25.md). Les correccions ja rebudes es revisen abans de demanar-ne cap altra; els papers ocasionals i els recurrents conserven el seu repartiment. Cap d’aquestes previsions equival a una entrada congelada i preparada per enviar.
 
@@ -53,12 +56,9 @@ P02 reuneix quatre lectures breus del mateix repartiment per conservar els guion
 | Peça | Prova rebuda | Estat actual | Comparació |
 | --- | --- | --- | --- |
 | S010 | Després ja som a la porta. És el camí que vam fer l’any passat. | Validada · pendent d’incorporar | [L01](../proves/correccions-l01.html) |
-| S070 | Els grans anaven d’un costat a l’altre per saber què havia passat. Mentrestant, la gent s’asseia i els petits corríem entre les cadires. El pare va anar a buscar l’acordió, que havia deixat a casa d’aquell veí, a la planta baixa, perquè no li fes nosa. | Pendent d’audició | [L30](../proves/correccions-l30.html) |
 | S010 | Des de la plaça anem pel carrer dels Til·lers fins a la farmàcia. | Rebutjada · cal una altra prova | [L31](../proves/correccions-l31.html) |
 | S102 | Sí, està bé: plaça dels Til·lers, cap al centre. Gràcies per atendre’m. Adeu. | Rebutjada · cal una altra prova | [L38](../proves/correccions-l38.html) |
 | S107 | Aquí tens el carro, amb una nansa a cada extrem. La bossa ja és dins d’aquesta funda. Obro la porta: prova’l. | Rebutjada · cal una altra prova | [L43](../proves/correccions-l43.html) |
-| S095 | Bon dia. El mesurem? Fa vuitanta-cinc centímetres. El servei que recollim aquí admet paquets de fins a vuitanta. Per a aquest tub hem de mirar la modalitat de paquets grans. | Pendent d’audició | [L44](../proves/correccions-l44.html) |
-| S095 | Sí. El podem preparar des d’aquest taulell, però el transportista recull el paquet al domicili. Aquí tenim poc espai i els tubs grans els van a buscar directament. | Pendent d’audició | [L44](../proves/correccions-l44.html) |
 | S102 | Plaça dels Til·lers, línia sis, cap al centre, ahir a les cinc i vint. T’ho repeteixo perquè a l’altra banda de la plaça hi ha la parada del sentit contrari. | Validada · pendent d’incorporar | [L44](../proves/correccions-l44.html) |
 
 ### Següents esmenes · encara sense petició
@@ -66,7 +66,6 @@ P02 reuneix quatre lectures breus del mateix repartiment per conservar els guion
 | Peça | Veu | Fragment |
 | --- | --- | --- |
 | [ca-S010](https://sentit.ortogra.fi/#lectura=ca-S010) | Biel · Puck | alternativa |
-| [ca-S095](https://sentit.ortogra.fi/#lectura=ca-S095) | Empleada · Gacrux | mida + recollida |
 | [ca-S102](https://sentit.ortogra.fi/#lectura=ca-S102) | Mar · Erinome; Informadora · Callirrhoe | final |
 | [ca-S107](https://sentit.ortogra.fi/#lectura=ca-S107) | Elies · Algieba | sortida |
 

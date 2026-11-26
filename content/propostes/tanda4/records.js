@@ -77,6 +77,9 @@ export const records = [
   }),
   proposal({
     id: 'el-dia-que-no-va-sonar-el-disc', code: 'S070', title: 'El dia que no va sonar el disc', grade: '6', level: 'easy', genre: 'story', universeIds: ['aina-ferran'],
+    seconds: 110, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s070-mixed-v1.mp3', tracks: { introduction: './assets/audio/s070-mixed-v1-intro.mp3', body: './assets/audio/s070-mixed-v1-cos.mp3' },
+    fragment: { start: 4.54, seconds: 105 },
     summary: 'Un tall de llum atura el ball d’una festa. Mentre esperen que torni, el pare d’en Ferran recupera un instrument que feia temps que no tocava davant de tanta gent.',
     voices, delivery, soundCredits,
     editorialFocus: '6è accessible: seguir dues maneres de continuar una activitat i relacionar una informació prèvia sobre el pare amb la solució posterior. Nou preguntes; cap coneixement de discos o instruments.',

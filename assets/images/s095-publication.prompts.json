@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-26",
+  "tool": "image_gen built-in",
+  "code": "S095",
+  "file": "s095-publicacio-v1.webp",
+  "alt": "En Ferran consulta l’enviament d’un tub amb un empleat i una empleada al mateix taulell.",
+  "width": 1536,
+  "height": 1024,
+  "references": [
+    "../characters/ferran-model-sheet-v1.webp"
+  ],
+  "sourceImage": "exec-794e32fa-cd25-46bd-9886-cc2cefd9b10c.png",
+  "sourceImageSha256": "3d94caf4e8e4fb320db26f285a3ac44befeb1144acbb3a73f8fc30290bd83295",
+  "prompt": "Use case: illustration-story. One new Sentit listening worksheet illustration, landscape 3:2 1536x1024. Use the supplied model sheet only for Ferran's exact face, age, hair, glasses and clothes, and for the refined ink and muted watercolor style; never copy labels or model-sheet layout. Warm white paper with soft fading margins. Show exactly THREE people at a parcel-service counter: canonical Ferran with silver hair, white beard, round dark glasses, charcoal cable-knit cardigan and sage checked shirt, facing a male employee and a female employee standing together behind the same counter. A closed plain cardboard mailing tube rests diagonally on Ferran's side, completely unmarked. The male employee, short dark hair and navy cardigan, gestures toward his female colleague, who has short chestnut hair and a plain light-blue work shirt; she leans slightly forward listening, ready to take over the conversation. Distinct faces, natural helpful expressions and anatomically sound hands, no romantic intimacy. A few generic CLOSED shipping boxes blurred behind. Clear specific service-counter context, not a group portrait. No visible drawings or tube contents, measurements, writing, rulers, scales, labels, numerals, clocks, addresses, logos, route maps, vehicles, receipts, delivery decisions or solution clues. Do not show any actual shipping-company branding. This is not a new recurring character sheet.",
+  "encoding": "WebP quality 88, original composition retained; original PNG kept locally."
+}

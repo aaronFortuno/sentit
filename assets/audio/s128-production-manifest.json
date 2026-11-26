@@ -1,0 +1,88 @@
+{
+  "code": "S128",
+  "activity": "ca-S128",
+  "state": "awaiting-montage-validation",
+  "file": "s128-mixed-v1.mp3",
+  "introFile": "s128-mixed-v1-intro.mp3",
+  "bodyFile": "s128-mixed-v1-cos.mp3",
+  "offset": 6.87,
+  "bodyDuration": 68.71764583333334,
+  "fullDuration": 75.58764583333334,
+  "voices": {
+    "Narrador": "Algenib"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "a16e647266987a40b1e523ae8ecfd15122f720daf485fd84922a69c01b36ef62",
+  "sourceRequestHash": "97999d1e9a4960c6aed2818abae9cf2ab9146397fbc0e144d8fb832dd2ca6abd",
+  "batch": "L41",
+  "rawSha256": "c77ea4c9487aeedc99d096607d46e7f299751a1b7069dcdb83a71beb23e6fa83",
+  "takeSha256": "0a5d0eb94fff90d329a054d914b3dda8a57472d804c939d399aabb429b5cff1f",
+  "coverage": 0.9264705882352942,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.54,
+  "peakDbTP": -2.48,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "licensed-narration-bed",
+      "origin": "licensed-library-music",
+      "compositionId": "incompetech-USUAN1200076",
+      "libraryId": "F1",
+      "title": "Easy Lemon",
+      "author": "Kevin MacLeod",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076",
+      "sourceSha256": "2486b8ecfe4575f9ab31613a2c03c2ee45e6e5280301d05b4dd7237c9e1c2531",
+      "sourceNotDistributedSeparately": true,
+      "sourceStart": 6,
+      "sourceSeconds": 120.38041666666666,
+      "loopCopies": 1,
+      "crossfadeSeconds": 0,
+      "retimed": false,
+      "underSpeech": true,
+      "sha256": "9374cbbe67acdec640aa1199dfffb9d7e2573838060cc2df9c39c47a7b5aa6d1",
+      "envelope": {
+        "fadeInSeconds": 0.6,
+        "duckStart": 0.3,
+        "duckEnd": 1.05,
+        "speechGain": 0.1,
+        "nominalSpeechMusicLufs": -43,
+        "riseStart": 64.49998333333333,
+        "riseEnd": 65.29998333333334,
+        "holdSeconds": 2,
+        "fadeStart": 67.29998333333334,
+        "fadeEnd": 68.44998333333335
+      },
+      "listeningValidation": "pending",
+      "start": 0
+    }
+  ],
+  "sha256": "066ca1266949f660b1bcd1c2346645351d40174218b2f934bbb75675c1e3064d",
+  "voiceHandles": {
+    "body": {
+      "start": 0.2629166666666667,
+      "end": 63.28791666666667,
+      "retainedPcmSha256": "52e63b34e79c2d71def8fb7e1be9b1c417f22a62fe1503add9db7180e806dd9f",
+      "sourceSha256": "d2c5bc70d31d4dfa01263b52da5938a5c16b3b95dc7d3674d05ed70b3ac2351a",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.13308333333333333,
+      "end": 6.053083333333333,
+      "retainedPcmSha256": "d3e22bee67b15fd74b1b1ba83cca282316fde1ca786778b1c85edeb8e25bc742",
+      "sourceSha256": "dce9bbdd56089b6b50227367ba35a208d5d259b82f11552c56fd53d6ffc89d9b",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-26",
+    "sourceTakeSha256": "0a5d0eb94fff90d329a054d914b3dda8a57472d804c939d399aabb429b5cff1f",
+    "sourceBatch": "L41",
+    "confirmation": "Docent 26/11: validat per passar a muntatge S129, S130, S122, S070 i S128, amb el criteri de música de fons ja definit."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "model": "gemini-3.8-flash-tts",
+  "input": [
+    {
+      "type": "user_input",
+      "content": [
+        {
+          "type": "text",
+          "text": "Comprensió oral. La guineu i el corb. Una faula de la tradició d’Isop.\n\nUn matí, un corb va trobar un tros de formatge al costat d’un cistell abandonat. El va agafar amb el bec i va volar fins a una branca, ben amunt. Abans de menjar-se’l, va mirar al voltant. A baix, una guineu s’havia aturat amb el nas enlaire.\n\nLa guineu tenia gana. Va donar una volta al tronc, però la branca era massa alta per arribar-hi. Es va asseure i va saludar: «Bon dia! Quin goig que fas dalt de l’arbre!» El corb va abaixar el cap per mirar-la. Es va quedar callat, amb el formatge ben subjectat al bec.\n\n«Tens unes plomes que brillen molt», va continuar la guineu. «I unes ales ben grosses! Si la teva veu és tan bonica com les teves plomes, t’hauria de sentir tot el bosc. Em cantaries una cançó?»\n\nEl corb va estirar el coll. Li agradava tant que parlessin bé d’ell que es va oblidar del que duia al bec. Va obrir-lo per cantar i el formatge va caure a terra.\n\nLa guineu el va agafar de seguida i se’l va empassar. El corb va fer un salt a la branca i va mirar el terra buit. «Jo encara no havia acabat la cançó!», va cridar. Però la guineu ja s’allunyava entre els arbres.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants. Narració en català central, càlida, clara i expressiva, amb ritme natural. Una sola veu narradora, també als diàlegs citats, amb canvis suaus d’intenció i sense imitar criatures o monstres. Algenib és candidat provisional; el docent autoritza triar un timbre compatible amb el lot abans de congelar-lo. No llegir acotacions ni indicacions de pausa. Read the title and complete programme verbatim. Leave a brief quiet boundary after the title, without speaking any stage directions or pause instructions. No added sounds, music, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its story. Keep this same single character voice throughout all recordings. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. La llebre i la tortuga. Una faula de la tradició d’Isop.\n\nUna llebre es reia de la tortuga perquè caminava molt a poc a poc. Cada vegada que es trobaven al camí, li preguntava si encara era al mateix lloc. Aquell matí, la tortuga es va aturar. «Vols fer una cursa amb mi?», li va preguntar. La llebre va esclatar a riure, però va acceptar.\n\nVan triar el camí que arribava fins a un roure gros. Qui toqués primer el tronc guanyaria. Es van posar l’una al costat de l’altra i van sortir alhora. La llebre va arrencar a córrer. En pocs salts, va deixar la tortuga molt enrere.\n\nQuan ja no la veia, la llebre es va estirar a l’ombra. «Tinc temps de sobres», va pensar. «Quan la tortuga arribi fins aquí, em posaré a córrer una altra vegada.» Va recolzar el cap sobre les potes i es va adormir.\n\nLa tortuga va continuar caminant. Feia passes curtes, una darrere l’altra, sense aturar-se. Va passar pel costat de la llebre adormida i va seguir cap al roure.\n\nQuan la llebre va obrir els ulls, la tortuga ja era a prop del tronc. La llebre es va aixecar d’un bot i va córrer tan de pressa com va poder. Però va arribar just a temps de veure com la tortuga tocava el roure amb una pota.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same natural Central Catalan voice, pace and character. Read the words verbatim, with conversational turn-taking. No added sounds. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its story. Keep this same single character voice throughout all recordings. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. El rei Mides. Un mite de l’antiguitat.\n\nUn mite antic explica que el rei Mides va acollir al seu palau un vell company del déu Dionís. Li va oferir menjar i descans i, al cap d’uns dies, el va acompanyar fins al lloc on l’esperava el déu. Dionís, content de retrobar el seu company, va prometre a Mides el regal que volgués.\n\nEl rei va demanar que tot allò que toqués es convertís en or. Tan bon punt va rebre aquest poder, va voler provar-lo. Va agafar una branca: es va tornar daurada i rígida. Després va collir una pedra, i també es va transformar en or. Mides va tornar al palau imaginant les riqueses que podria reunir.\n\nQuan va arribar l’hora de menjar, els servents van parar la taula. El rei va allargar la mà cap al pa, però el pa es va endurir i va brillar entre els seus dits. Va intentar mossegar un altre aliment: també es convertia en metall. Quan va acostar la beguda als llavis, el líquid es va tornar or. Tenia gana i set, i la taula era plena.\n\nMides va deixar el menjar i va suplicar a Dionís que li retirés aquell poder. Ara volia desfer el desig que havia triat amb tanta alegria. El déu el va escoltar i li va indicar que anés al riu Pactol. Havia de seguir el curs de l’aigua cap amunt, fins a trobar el lloc on naixia, i banyar-s’hi el cap i el cos.\n\nEl rei va remuntar el riu fins a la font i es va submergir a l’aigua. El poder va abandonar el seu cos i va passar al corrent. Segons el mite, d’aquí venien les partícules d’or que es trobaven a la sorra del Pactol. Quan Mides va tornar al palau, va agafar un tros de pa. Aquesta vegada el va poder menjar.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same natural Central Catalan voice, pace and character. Read the words verbatim, with conversational turn-taking. No added sounds. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its story. Keep this same single character voice throughout all recordings. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. Dèdal i Ícar. Un mite grec.\n\nUn mite grec explica que Dèdal era un inventor que vivia a Creta amb el seu fill Ícar. Feia temps que volia tornar a casa, però el rei Minos els impedia marxar de l’illa. Els camins i el mar eren sota el poder del rei. Dèdal va mirar el cel i va començar a preparar una altra manera de fugir.\n\nVa reunir plomes de mides diferents i les va ordenar com les d’un ocell. Amb fil i cera, les va unir fins a formar dues ales grans. Després en va fer dues més per a Ícar. Mentre el pare treballava, el noi jugava amb les plomes que el vent aixecava i estovava trossets de cera entre els dits.\n\nQuan tot va estar a punt, Dèdal es va posar les ales i va provar de moure’s per l’aire. A continuació va ajustar les del seu fill. Li va dir que el seguís i mantingués una altura mitjana. Si volava massa baix, l’aigua del mar podia mullar-li les plomes i fer-les pesants. Si pujava massa, l’escalfor del sol podia fondre la cera que les subjectava.\n\nPare i fill van deixar Creta enrere. Dèdal anava al davant i girava el cap per comprovar que Ícar el seguia. Al principi, el noi es mantenia darrere seu. Però el vol li agradava cada vegada més. Va començar a pujar, entusiasmat amb l’aire que tenia al voltant, fins que es va separar del camí que marcava el pare.\n\nL’escalfor va estovar la cera de les seves ales. Les plomes es van desprendre i Ícar va moure els braços sense poder sostenir-se. Va caure al mar i va morir. Dèdal el cridava mentre el buscava des de l’aire. En veure les plomes sobre l’aigua, va baixar a buscar-lo. Va trobar el cos a la costa d’una illa i hi va enterrar el seu fill.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same natural Central Catalan voice, pace and character. Read the words verbatim, with conversational turn-taking. No added sounds. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its story. Keep this same single character voice throughout all recordings. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "response_format": {
+    "type": "audio",
+    "mime_type": "audio/wav",
+    "sample_rate": 24000
+  },
+  "generation_config": {
+    "speech_config": [
+      {
+        "voice": "Algenib"
+      }
+    ]
+  },
+  "background": true
+}

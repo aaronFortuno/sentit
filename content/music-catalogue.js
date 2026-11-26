@@ -315,6 +315,57 @@ export const musicCatalogue = [
     ],
     "sharedReason": "Repertori de mites M1–M3 validat; alternança entre produccions i mateixa composició entre variants d’un relat.",
     "description": "Base de biblioteca, molt baixa sota la narració. Fosa d’entrada i pujada de dos segons seguida de fosa final; sense canvis de to ni ritme de la veu."
+  },
+  {
+    "id": "sentit-s070-v1",
+    "title": "Un disc que es feia esperar",
+    "kind": "narration-bed",
+    "author": "Sentit",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/aaronFortuno/sentit/blob/main/LICENSE",
+    "origin": "original-procedural",
+    "externalSamples": false,
+    "source": "tools/narration-bed.cjs",
+    "usedBy": [
+      "ca-S070"
+    ],
+    "description": "Composició pròpia de piano suau i harmonia espaiada, 64 pulsacions per minut; partitura determinista 70, fosa d’entrada, música atenuada sota la veu i pujada de dos segons seguida de fosa al final."
+  },
+  {
+    "id": "incompetech-USUAN1200076",
+    "libraryId": "F1",
+    "title": "Easy Lemon",
+    "kind": "narration-bed",
+    "author": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "origin": "licensed-library-music",
+    "externalSamples": true,
+    "url": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076",
+    "source": "tools/library-narration-bed.cjs",
+    "sourceSha256": "2486b8ecfe4575f9ab31613a2c03c2ee45e6e5280301d05b4dd7237c9e1c2531",
+    "usedBy": [
+      "ca-S128"
+    ],
+    "sharedReason": "Repertori validat per univers; alternança entre produccions i mateixa música entre variants."
+  },
+  {
+    "id": "incompetech-USUAN1400020",
+    "libraryId": "L1",
+    "title": "Teller of the Tales",
+    "kind": "narration-bed",
+    "author": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "origin": "licensed-library-music",
+    "externalSamples": true,
+    "url": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400020",
+    "source": "tools/library-narration-bed.cjs",
+    "sourceSha256": "320b37a09fc37ec5962c975563541bee9bcbf1208b0181789248780286f4c1d4",
+    "usedBy": [
+      "ca-S129"
+    ],
+    "sharedReason": "Repertori validat per univers; alternança entre produccions i mateixa música entre variants."
   }
 ];
 

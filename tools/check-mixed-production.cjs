@@ -4,7 +4,9 @@ const {ffmpeg,ffmpegBinary}=require('./audio-files.cjs');
 const root=path.resolve(__dirname,'..'),sha=b=>createHash('sha256').update(b).digest('hex');
 (async()=>{
  const {activities}=await import('../catalogue.js'),{productionProgress}=await import('../content/production-progress.js'),{soundSources}=await import('../content/sound-sources.js'),{musicCatalogue}=await import('../content/music-catalogue.js'),{mixedAudioResources}=await import('../content/mixed-audio-resources.js'),binary=await ffmpegBinary();let montages=0,clips=0;
+ const onlyValue=process.argv.find(a=>a.startsWith('--only='))?.slice(7),only=onlyValue?new Set(onlyValue.split(',')):null;
  for(const entry of activities){
+  if(only&&!only.has(entry.code))continue;
   const manifest=await fs.readFile(path.join(root,`assets/audio/${entry.code.toLowerCase()}-production-manifest.json`),'utf8').then(JSON.parse).catch(e=>{if(e.code==='ENOENT')return null;throw e;});
   if(!manifest||(!manifest.newsRevision&&!['shared-mixed-batch','assembled-grouped-voices','repaired-mixed-take','repaired-existing-master'].includes(manifest.productionMode)))continue;
   const key=entry.language+'-'+entry.code;

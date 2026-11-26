@@ -132,3 +132,7 @@ Fonts, còpies HQ, empremtes i tractament exactes a `content/sound-sources.js` i
 ## Nou publicacions · 26/11/2026
 
 S088, S041, S085, S090, S093, S118, S109, S017 i S081: il·lustracions noves amb la generació integrada `image_gen` i models canònics, sense alterar els àudios aprovats ni les llicències sonores. Originals locals i WebP al repositori; [nou escenes, prompts i referències](docs/publicacio-2026-11-26-nou.md).
+
+## Fonts dels relats i muntatges culturals · 26/11
+
+Bibliografia de quinze adaptacions pròpies visible al web i al paper: [fonts i decisions](docs/fonts-tradicio.md). S128: [Easy Lemon](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076); S129: [Teller of the Tales](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400020); Kevin MacLeod (incompetech.com), CC BY 4.0, fragments, normalització, atenuació i foses de Sentit. S095: nova escena de tres persones amb generació integrada, model canònic de Ferran i [prompt conservat](assets/images/s095-publication.prompts.json).

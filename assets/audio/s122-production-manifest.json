@@ -1,0 +1,96 @@
+{
+  "code": "S122",
+  "activity": "ca-S122",
+  "state": "awaiting-montage-validation",
+  "file": "s122-mixed-v1.mp3",
+  "introFile": "s122-mixed-v1-intro.mp3",
+  "bodyFile": "s122-mixed-v1-cos.mp3",
+  "offset": 4.75,
+  "bodyDuration": 83.235,
+  "fullDuration": 87.985,
+  "voices": {
+    "Mireia": "Aoede",
+    "Laia": "Leda"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "8c88a52f86f88e6e32937a960ccaad2dbd0c0d7033a3ee64b278fb2175c7f25e",
+  "sourceRequestHash": "12daae52bce00c68bd63eccb91c1f75cf1d189a893d6dbe80c9f5f80250ce45c",
+  "batch": "L42",
+  "rawSha256": "77c2b7dbf5472bb7c748c0e50f5e260958fd9dabcafd06ae589622e63fbc27ba",
+  "takeSha256": "f8de736be4ca6360467d67a10c6198055a34a2feb383854e1d11553410b8aeee",
+  "coverage": 0.9539007092198581,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.94,
+  "peakDbTP": -2.89,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "kyles-450728",
+      "start": 0,
+      "source": "assets/audio/sources/kyles-450728.mp3",
+      "sourceSha256": "20f19e1eec5394003835bcc940e246b941b2dd733b062c2743dcef1443f7b0c1",
+      "sourceUrl": "https://freesound.org/people/kyles/sounds/450728/",
+      "author": "kyles",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.06,
+      "openingGain": 0.12,
+      "raisedGain": 0.2,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -52.43697499232712,
+      "lowPassHz": 1800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 5,
+        "seconds": 90
+      },
+      "envelope": {
+        "riseStart": 78.77999999999999,
+        "riseEnd": 79.58,
+        "holdSeconds": 1.0550000000000068,
+        "fadeStart": 80.635,
+        "fadeEnd": 82.03500000000001
+      }
+    }
+  ],
+  "sha256": "0c4e51fc6bb9248fa2505315b411e853f11dda3ba4568faee6f417ea088f45ec",
+  "voiceHandles": {
+    "body": {
+      "start": 0.025,
+      "end": 77.76,
+      "retainedPcmSha256": "8c6299d6b9cee67fa3204d6ea0d17c397b33eb4d2a7787a9c12071567080ced5",
+      "sourceSha256": "a28c56b0b2b71bed73702eb3d710db02d01558ae3aabed791c5e7a1bf5a24112",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0,
+      "end": 3.8,
+      "retainedPcmSha256": "061cf65d13017b16f4187f3cd401eca3f9985d1b1656007f07993bc2fd564503",
+      "sourceSha256": "7d2748e4430fd4d6d6844500b7683d87388cfd213f6d1708971af599a793e090",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-26",
+    "sourceTakeSha256": "f8de736be4ca6360467d67a10c6198055a34a2feb383854e1d11553410b8aeee",
+    "sourceBatch": "L42",
+    "confirmation": "Docent 26/11: validat per passar a muntatge S129, S130, S122, S070 i S128, amb el criteri de música de fons ja definit."
+  },
+  "fullRetakeApplication": {
+    "takeId": "S122-T02",
+    "takeSha256": "f8de736be4ca6360467d67a10c6198055a34a2feb383854e1d11553410b8aeee",
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-26",
+      "sourceTakeSha256": "f8de736be4ca6360467d67a10c6198055a34a2feb383854e1d11553410b8aeee",
+      "sourceBatch": "L42",
+      "confirmation": "Docent 26/11: validat per passar a muntatge S129, S130, S122, S070 i S128, amb el criteri de música de fons ja definit."
+    },
+    "previousTakePreserved": true
+  }
+}

@@ -4,6 +4,7 @@ import { productionProgress } from './content/production-progress.js';
 import { musicForActivity } from './content/music-catalogue.js';
 import { soundSourcesForActivity } from './content/sound-sources.js';
 import { hasApprovedScript, hasPendingMontage } from './editorial-review.js';
+import { traditionSources } from './content/tradition-sources.js';
 const gemini = { title: 'Gemini TTS · Google', url: 'https://ai.google.dev/gemini-api/docs/speech-generation', license: 'Condicions de Gemini API', licenseUrl: 'https://ai.google.dev/gemini-api/terms' };
 const original = { title: 'Sentit · síntesi i muntatge originals amb FFmpeg', url: repo + 'tools/remaster-audio.cjs', license: 'MIT · projecte Sentit', licenseUrl: repo + 'LICENSE' };
 
@@ -37,6 +38,12 @@ export function renderAudioResources(root, entry, t) {
   const add = (tag, text, parent = root) => { const node = document.createElement(tag); node.textContent = text; parent.append(node); return node; };
   const link = (parent, text, url) => { const a = add('a', text, parent); a.href = url; a.target = '_blank'; a.rel = 'noopener noreferrer'; };
   const progress = productionProgress[`${entry.language}-${entry.code}`] ?? {};
+  const storySources=traditionSources(entry);
+  if(storySources.length){
+    const section=add('section','');section.className='adaptation-sources';
+    add('h4',t('adaptationSourcesTitle'),section);add('p',t('adaptationOwnNote'),section);
+    const list=add('ul','',section);for(const source of storySources){const item=add('li','',list);link(item,source.label,source.url);}
+  }
   if(hasPendingMontage(entry)||hasApprovedScript(entry)){
     add('p', t(hasPendingMontage(entry)?'reviewVoicesNotice':'reviewReadyNotice'));
     if(progress.sharedJingle?.status==='awaiting-validation')link(root,t('hearJingleProposal'),new URL(progress.sharedJingle.url,import.meta.url).href);

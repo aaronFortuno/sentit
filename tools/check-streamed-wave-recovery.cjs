@@ -14,7 +14,7 @@ const thirtyPrefix=Buffer.alloc(prefix.length-480);
 prefix.subarray(0,44).copy(thirtyPrefix);thirtyPrefix.writeUInt32LE(thirtyPrefix.length-8,4);thirtyPrefix.writeUInt32LE(1440,40);first.subarray(0,1440).copy(thirtyPrefix,44);prefix.subarray(44+1920).copy(thirtyPrefix,44+1440);
 assert(waveParts(recoverStreamedWave(Buffer.concat([thirtyPrefix,rest])).audio).pcm.equals(Buffer.concat([first.subarray(0,1440),rest])),'30 ms initial frame observed in L40 preserves every PCM sample');
 assert(waveParts(recovered.audio).pcm.equals(Buffer.concat([first, rest])));
-for(const [size,batch]of [[960,'L42'],[2880,'L43'],[5280,'L41']]){
+for(const [size,batch]of [[960,'L42'],[2880,'L43'],[5280,'L41'],[5760,'L46']]){
  const observed=Buffer.alloc(prefix.length-first.length+size),pcm=Buffer.alloc(size,23);
  prefix.subarray(0,44).copy(observed);observed.writeUInt32LE(observed.length-8,4);observed.writeUInt32LE(size,40);pcm.copy(observed,44);prefix.subarray(44+first.length).copy(observed,44+size);
  const result=recoverStreamedWave(Buffer.concat([observed,rest]));

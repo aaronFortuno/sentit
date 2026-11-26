@@ -409,7 +409,7 @@
   },
   "S070": {
     "activity": "ca-S070",
-    "status": "approved-for-correction",
+    "status": "superseded-by-approved-full-retake",
     "approvedAt": "2026-11-23",
     "approvalSource": "El docent detecta s’asseia amb tonicitat desplaçada a la i i demana reprendre la frase o el paràgraf complet dins un lot compatible de Ferran o d’Aina i Ferran.",
     "sourceRequestHash": "4a2634e49163d602016cbc69c25809b31754d5e940e3283e0c938522deada250",
@@ -429,7 +429,8 @@
       }
     ],
     "application": "Compare the complete corrected paragraph with the original before choosing a phrase or whole-turn splice. Preserve all other speech and the canonical spelling s’asseia. No montage or automatic voice approval; wait for a compatible full batch.",
-    "approvedRequestHash": "e7204c142f62c7ca3e65f6a795d48df00515f44cdcfc9ab7aa638dd577d12fee"
+    "approvedRequestHash": "e7204c142f62c7ca3e65f6a795d48df00515f44cdcfc9ab7aa638dd577d12fee",
+    "closedAt": "2026-11-26"
   },
   "S025": {
     "activity": "ca-S025",
@@ -599,7 +600,7 @@
   },
   "S095": {
     "activity": "ca-S095",
-    "status": "approved-for-correction",
+    "status": "closed-original-role-adaptation",
     "approvedAt": "2026-11-25",
     "approvalSource": "Docent 25/11: regenerar la primera part de l’empleada perquè inicialment sona massa greu i canvia a La primera recollida. Reposar els torns mida i recollida amb identitat femenina estable.",
     "scope": "spoken-turn",
@@ -626,7 +627,9 @@
       }
     ],
     "application": "Comparar amb els dos torns originals abans de substituir. La resta de la presa es conserva i no s’aprova cap muntatge automàticament.",
-    "approvedRequestHash": "eeaf1a94bf7ee900e571f28d41adaa39a91bbcde793d2c6f6079b3dea3c42244"
+    "approvedRequestHash": "eeaf1a94bf7ee900e571f28d41adaa39a91bbcde793d2c6f6079b3dea3c42244",
+    "closedAt": "2026-11-26",
+    "resolution": "Docent 26/11: conservar la presa original amb un empleat als dos primers torns fins a Aquí tenim poc espai i els tubs grans els van a buscar directament, i una empleada a partir de La primera recollida. Guió i il·lustració amb tres persones; validada per muntatge."
   },
   "S093": {
     "activity": "ca-S093",

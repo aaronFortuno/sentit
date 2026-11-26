@@ -2157,24 +2157,48 @@
   },
   "S095": {
     "status": "approved",
-    "approvedFingerprint": "e080cf840f6dc71975d4bc512484a176a794e20c516af985a2fd811a75f34ff3",
-    "reviewedAt": "2026-11-24",
+    "approvedFingerprint": "56503f56f89207e7fee31af318bbb533b78c42f2bff3d532947417861c88a274",
+    "reviewedAt": "2026-11-26",
     "reviewActivity": "ca-S095",
     "reviewContent": "content/propostes/quotidianes/ferran-gestions.js",
     "format": "6è intermèdia: relacionar les mides amb un servei, comparar recollida i lliurament al local i preparar les dades necessàries. Límits, modalitats i horaris inventats per a aquest punt d’enviaments.",
     "cues": [
       "Punt d’enviaments amb ambient interior real molt baix. Sense sons de cinta adhesiva o balances afegits.",
+      "Una empleada del mateix taulell pren el relleu del company i respon la consulta sobre la recollida. Canvi d’interlocutor coherent amb el timbre de la presa original, validat pel docent. Cap frase nova locutada.",
       "La gestió continua al taulell. Cap trucada representada ni veu del transportista.",
       "Fosa curta després del comiat. Sense simular una recollida que encara no ha passat."
     ],
     "plannedNewRequests": 1,
     "requiredVoices": {
       "Ferran": "Algenib",
+      "Empleat": "Gacrux",
       "Empleada": "Gacrux"
     },
     "strategy": "packed-title-program-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
-    "approvalSource": "Docent 24/11: S092, S093, S095 validats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
+    "approvalSource": "Docent 26/11: conservar la presa original amb un empleat als dos primers torns fins a Aquí tenim poc espai i els tubs grans els van a buscar directament, i una empleada a partir de La primera recollida. Guió i il·lustració amb tres persones; validada per muntatge.",
+    "approvedScope": "montage-role-adaptation",
+    "originalSynthesisApproval": {
+      "status": "approved",
+      "approvedFingerprint": "e080cf840f6dc71975d4bc512484a176a794e20c516af985a2fd811a75f34ff3",
+      "reviewedAt": "2026-11-24",
+      "reviewActivity": "ca-S095",
+      "reviewContent": "content/propostes/quotidianes/ferran-gestions.js",
+      "format": "6è intermèdia: relacionar les mides amb un servei, comparar recollida i lliurament al local i preparar les dades necessàries. Límits, modalitats i horaris inventats per a aquest punt d’enviaments.",
+      "cues": [
+        "Punt d’enviaments amb ambient interior real molt baix. Sense sons de cinta adhesiva o balances afegits.",
+        "La gestió continua al taulell. Cap trucada representada ni veu del transportista.",
+        "Fosa curta després del comiat. Sense simular una recollida que encara no ha passat."
+      ],
+      "plannedNewRequests": 1,
+      "requiredVoices": {
+        "Ferran": "Algenib",
+        "Empleada": "Gacrux"
+      },
+      "strategy": "packed-title-program-v1",
+      "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+      "approvalSource": "Docent 24/11: S092, S093, S095 validats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar."
+    }
   },
   "S096": {
     "status": "approved",
@@ -2917,9 +2941,9 @@
     }
   },
   "S131": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "6b08e9bb98c7808f95d04aa0945e61497a2519f9f03293860646401aba78ea91",
+    "reviewedAt": "2026-11-26",
     "reviewActivity": "ca-S131",
     "reviewContent": "content/propostes/tradicio/faules-20261126.js",
     "format": "Faules del món. 3r intermèdia: dos personatges i una escena contínua; sis preguntes duals sobre accions, causa i intenció inferida. La diferència entre els elogis i el propòsit de la guineu es reconstrueix amb el relat, sense sentència moral.",
@@ -2932,12 +2956,18 @@
       "Narrador": "Algenib"
     },
     "strategy": "plain-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "voiceSelection": {
+      "speaker": "Narrador",
+      "voice": "Algenib",
+      "reason": "Timbre candidat fixat dins la flexibilitat autoritzada; narrador anònim, sense atribuir-lo al personatge Ferran."
+    }
   },
   "S132": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "88427ec10573fef66cf227d41d9adf83df3bd4a5feb4ffbcb4ad7bddaef82a5a",
+    "reviewedAt": "2026-11-26",
     "reviewActivity": "ca-S132",
     "reviewContent": "content/propostes/tradicio/faules-20261126.js",
     "format": "Faules del món. 3r accessible: dos personatges, una cursa i una seqüència lineal. Cinc preguntes duals amb causes pròximes i una explicació global del resultat. Sense temps numèrics, tercers personatges o moral final.",
@@ -2950,7 +2980,13 @@
       "Narrador": "Algenib"
     },
     "strategy": "plain-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "voiceSelection": {
+      "speaker": "Narrador",
+      "voice": "Algenib",
+      "reason": "Timbre candidat fixat dins la flexibilitat autoritzada; narrador anònim, sense atribuir-lo al personatge Ferran."
+    }
   },
   "S133": {
     "status": "awaiting-validation",
@@ -2971,9 +3007,9 @@
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
   },
   "S134": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "0f5ae2a7b0bc0567845d4482e9a1013dc34eadab2826ef623067dc5af2b11334",
+    "reviewedAt": "2026-11-26",
     "reviewActivity": "ca-S134",
     "reviewContent": "content/propostes/tradicio/faules-20261126.js",
     "format": "Faules del món. 4t intermèdia: tres moments marcats i un canvi en la confiança dels veïns. Sis preguntes duals sobre motiu, comparació, causa i conseqüència. Perill breu sense detall gràfic; el desenllaç mostra la pèrdua d’una ovella i deixa inferir la moral.",
@@ -2986,12 +3022,18 @@
       "Narrador": "Algenib"
     },
     "strategy": "plain-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "voiceSelection": {
+      "speaker": "Narrador",
+      "voice": "Algenib",
+      "reason": "Timbre candidat fixat dins la flexibilitat autoritzada; narrador anònim, sense atribuir-lo al personatge Ferran."
+    }
   },
   "S135": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "271a2ae73e619896035ceab9ed1a812be313bf73a9ef3a36e9a49422d7fcd296",
+    "reviewedAt": "2026-11-26",
     "reviewActivity": "ca-S135",
     "reviewContent": "content/propostes/tradicio/llegendes-20261126.js",
     "format": "4t intermèdia: pacte amb termini, seqüència nocturna i confusió entre un senyal i el moment real. Sis preguntes duals; no cal conèixer el pont ni altres variants.",
@@ -3004,12 +3046,18 @@
       "Narrador": "Algenib"
     },
     "strategy": "plain-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "voiceSelection": {
+      "speaker": "Narrador",
+      "voice": "Algenib",
+      "reason": "Timbre candidat fixat dins la flexibilitat autoritzada; narrador anònim, sense atribuir-lo al personatge Ferran."
+    }
   },
   "S136": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "2e0d2500575e0d9c1c1167500ba848a5787992ccc4eff38b9579ab290337b670",
+    "reviewedAt": "2026-11-26",
     "reviewActivity": "ca-S136",
     "reviewContent": "content/propostes/tradicio/llegendes-20261126.js",
     "format": "4t intermèdia: contrast entre dos intents de resoldre un problema i canvi de conducta de la criatura. Sis preguntes duals, sense exigir coneixements religiosos ni geogràfics previs.",
@@ -3022,12 +3070,18 @@
       "Narrador": "Algenib"
     },
     "strategy": "plain-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "voiceSelection": {
+      "speaker": "Narrador",
+      "voice": "Algenib",
+      "reason": "Timbre candidat fixat dins la flexibilitat autoritzada; narrador anònim, sense atribuir-lo al personatge Ferran."
+    }
   },
   "S137": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "431127a66c4d8f29da94c9550c40f6c2c4a9419c31e943efb57247dafb08ebb9",
+    "reviewedAt": "2026-11-26",
     "reviewActivity": "ca-S137",
     "reviewContent": "content/propostes/tradicio/llegendes-20261126.js",
     "format": "5è intermèdia: dues perspectives sobre un mateix so, inferència causal i atribució de creences. Sis preguntes duals. El protagonisme de l’eco es manté dins del marc llegendari, separat de la realitat documentada de les batalles.",
@@ -3040,12 +3094,18 @@
       "Narrador": "Algenib"
     },
     "strategy": "plain-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "voiceSelection": {
+      "speaker": "Narrador",
+      "voice": "Algenib",
+      "reason": "Timbre candidat fixat dins la flexibilitat autoritzada; narrador anònim, sense atribuir-lo al personatge Ferran."
+    }
   },
   "S138": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "fbe1203077b2f5b3ee93ca0a0600746a5dc0bb768370e595d6d476eef27f3b34",
+    "reviewedAt": "2026-11-26",
     "reviewActivity": "ca-S138",
     "reviewContent": "content/propostes/tradicio/llegendes-20261126.js",
     "format": "5è avançada, pendent de calibratge oral: acord, incompliment i repetició transformada en dues visites. Sis preguntes duals; final inquietant sense violència gràfica i sense afegir un retorn feliç aliè a la font.",
@@ -3058,12 +3118,18 @@
       "Narrador": "Algenib"
     },
     "strategy": "plain-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "voiceSelection": {
+      "speaker": "Narrador",
+      "voice": "Algenib",
+      "reason": "Timbre candidat fixat dins la flexibilitat autoritzada; narrador anònim, sense atribuir-lo al personatge Ferran."
+    }
   },
   "S139": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "12056a6788e9695c119aba5ae6b74559cc50d527ee03b388289b84210fec8c68",
+    "reviewedAt": "2026-11-26",
     "reviewActivity": "ca-S139",
     "reviewContent": "content/propostes/tradicio/mites-20261126.js",
     "format": "5è intermèdia, pendent de calibratge oral: desig, proves, conseqüència imprevista i reparació en una seqüència lineal. Set preguntes duals, amb inferència causal breu. Dos noms centrals i un riu, introduïts en moments diferents.",
@@ -3076,12 +3142,18 @@
       "Narrador": "Algenib"
     },
     "strategy": "plain-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "voiceSelection": {
+      "speaker": "Narrador",
+      "voice": "Algenib",
+      "reason": "Timbre candidat fixat dins la flexibilitat autoritzada; narrador anònim, sense atribuir-lo al personatge Ferran."
+    }
   },
   "S140": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "0b5b2f33a4ef0000aac918b3b2b2f0d0009cd9ddea87980f51a26859af28c190",
+    "reviewedAt": "2026-11-26",
     "reviewActivity": "ca-S140",
     "reviewContent": "content/propostes/tradicio/mites-20261126.js",
     "format": "5è intermèdia, pendent de calibratge oral: tres noms, amb Minos només al plantejament, i una acció lineal. Set preguntes duals sobre finalitat, instrucció doble i cadena causal. Desenllaç tràgic explícit i sense detall gràfic.",
@@ -3094,12 +3166,18 @@
       "Narrador": "Algenib"
     },
     "strategy": "plain-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "voiceSelection": {
+      "speaker": "Narrador",
+      "voice": "Algenib",
+      "reason": "Timbre candidat fixat dins la flexibilitat autoritzada; narrador anònim, sense atribuir-lo al personatge Ferran."
+    }
   },
   "S141": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "b6843aeeb8c993099b567b3d3049196d360ae00408db0798cfee95cfd40d9bcd",
+    "reviewedAt": "2026-11-26",
     "reviewActivity": "ca-S141",
     "reviewContent": "content/propostes/tradicio/mites-20261126.js",
     "format": "6è avançada, pendent de calibratge oral: separació, recerca, protesta i retorn condicionat. Cinc noms amb funcions immediatament explicades; el Sol és testimoni sense un nom afegit. Set preguntes duals. La càrrega prové de dues cadenes causals, no de dates ni fraccions d’any.",
@@ -3112,7 +3190,13 @@
       "Narrador": "Algenib"
     },
     "strategy": "plain-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "voiceSelection": {
+      "speaker": "Narrador",
+      "voice": "Algenib",
+      "reason": "Timbre candidat fixat dins la flexibilitat autoritzada; narrador anònim, sense atribuir-lo al personatge Ferran."
+    }
   },
   "S142": {
     "status": "awaiting-validation",

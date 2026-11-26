@@ -1,6 +1,6 @@
 # Ampliació de tradició · 26/11/2026
 
-Dotze propostes provisionals, quatre per univers. Els tres autors han fet revisió creuada independent de guió, context, fonts, escaleta, preguntes obertes i ABCD; les esmenes ja estan incorporades. **Validació docent pendent. No s’ha sintetitzat cap d’aquestes peces.**
+Dotze propostes provisionals, quatre per univers. Els tres autors han fet revisió creuada independent de guió, context, fonts, escaleta, preguntes obertes i ABCD; les esmenes ja estan incorporades. **Actualització: deu guions validats; L45 (S135–S138) i L46 (S131/S132/S139/S140) rebuts, pendents d’audició de veus. S134/S141 esperen un lot compatible. S133/S142, esmenats, continuen pendents de validació docent.**
 
 | Codi | Títol | Curs | Dificultat | Preguntes duals |
 | --- | --- | --- | --- | ---: |
@@ -16,6 +16,8 @@ Dotze propostes provisionals, quatre per univers. Els tres autors han fet revisi
 | [S140](https://sentit.ortogra.fi/#lectura=ca-S140) | Dèdal i Ícar | 5è | Intermèdia | 7 |
 | [S141](https://sentit.ortogra.fi/#lectura=ca-S141) | Demèter i Persèfone | 6è | Avançada | 7 |
 | [S142](https://sentit.ortogra.fi/#lectura=ca-S142) | Hermes i la lira | 6è | Intermèdia | 7 |
+
+[Estat vigent, muntatges i retorns](muntatges-2026-11-26-cultura.md) · [Fonts als fulls i al web](fonts-tradicio.md).
 
 ## Preparació de lots
 

@@ -4338,13 +4338,13 @@ export const productionProgress = {
     }
   },
   "ca-S070": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-23T09:49:01.707Z",
     "editorialFingerprint": "c329111785d5c98723a68257817238bd4792b6d1e4aa29db52169070f355f2dd",
     "plannedNewRequests": 1,
     "listeningApproval": false,
     "confirmation": "S070 validat per pujar a síntesi de veus",
-    "reason": "S’asseia sona amb accent a la i. Esmena del torn esperar en cua per a un lot compatible; muntatge pendent de validació de veus.",
+    "reason": "Presa completa T02 validada, amb base musical molt baixa. Substitueix la versió i les esmenes anteriors; pendent d’escoltar el muntatge.",
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -4355,7 +4355,13 @@ export const productionProgress = {
         "L41"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-26",
+      "sourceTakeSha256": "150e948d9d6bd552b1d95c71294d4ea6ff2cbb0e135ca023df81932770880210",
+      "sourceBatch": "L41",
+      "confirmation": "Docent 26/11: validat per passar a muntatge S129, S130, S122, S070 i S128, amb el criteri de música de fons ja definit."
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-26T07:48:14.206Z",
     "voicePreview": "./proves/veus-rebudes.html#S070",
@@ -4369,14 +4375,15 @@ export const productionProgress = {
         "kind": "pronunciation",
         "word": "s’asseia",
         "heard": "s’assaía, amb tonicitat a la i",
-        "status": "pending"
+        "status": "resolved-by-approved-full-retake",
+        "resolvedAt": "2026-11-26"
       }
     ],
     "plannedRepair": {
       "scope": "whole-recording",
       "part": "whole",
       "takeId": "S070-T02",
-      "status": "received-awaiting-listening",
+      "status": "applied-awaiting-montage-listening",
       "sourceTakeId": "S070-T01",
       "sourceTakeSha256": "760143315f68bf9b649e208ed3e37c6ad3e325488f8b73198d1a1b8099367da3",
       "parts": [
@@ -4389,7 +4396,8 @@ export const productionProgress = {
         "despres"
       ],
       "planFile": "content/full-voice-retakes.json",
-      "approvedRequestHash": "7b04358057b0407a6902450302d6c6bc8f58ca3f687f64fe4fe5206347e06782"
+      "approvedRequestHash": "7b04358057b0407a6902450302d6c6bc8f58ca3f687f64fe4fe5206347e06782",
+      "appliedAt": "2026-11-26"
     },
     "repairComparison": "./proves/correccions-l30.html#S070-esperar",
     "receivedRepairs": [
@@ -4429,8 +4437,23 @@ export const productionProgress = {
       "sourceRawSha256": "f59f33398e753916473bd88dc78345ff02faeedc4f4bb046275f9d453bc4b561",
       "sourceEditorialFingerprint": "c329111785d5c98723a68257817238bd4792b6d1e4aa29db52169070f355f2dd",
       "preservesOriginals": true,
-      "montageAllowed": false,
-      "voiceApproval": false
+      "montageAllowed": true,
+      "voiceApproval": true,
+      "voiceApprovedAt": "2026-11-26",
+      "appliedToMontage": "s070-mixed-v1.mp3"
+    },
+    "mountedAt": "2026-11-26T14:33:48.288Z",
+    "synthesisBatch": "L41",
+    "requestHash": "a16e647266987a40b1e523ae8ecfd15122f720daf485fd84922a69c01b36ef62",
+    "audioSha256": "48133be44ef6ee07d35358005623c8c7daf451a99614b1c33f13014021fb1260",
+    "montageNewSynthesisRequests": 0,
+    "reviewUpdate": {
+      "date": "2026-11-26",
+      "file": "./assets/audio/s070-mixed-v1.mp3",
+      "summary": {
+        "ca": "Presa completa T02 validada, amb base musical molt baixa. Substitueix la versió i les esmenes anteriors; pendent d’escoltar el muntatge.",
+        "es": "Toma completa T02 validada, con base musical muy baja. Sustituye la versión y correcciones anteriores; montaje pendiente de escuchar."
+      }
     }
   },
   "ca-S072": {
@@ -6529,13 +6552,19 @@ export const productionProgress = {
     }
   },
   "ca-S095": {
-    "state": "audio-corrections-pending",
-    "editorialFingerprint": "7ed0378eef4a769903b2c525ca116fda8179722e7f2c2dab256cbbbcb2a5eb3d",
-    "plannedNewRequests": 1,
+    "state": "montage-awaiting-listening",
+    "editorialFingerprint": "02100f358d48f5665d0578cde25f9cca7ff53ac99c2fdfeac6c4c3eed95d4661",
+    "plannedNewRequests": 0,
     "listeningApproval": false,
-    "teacherAssessment": "Guió, veus i escaleta validats pel docent; preparar un lot compatible de síntesi.",
+    "teacherAssessment": "Docent 26/11: conservar la presa original amb un empleat als dos primers torns fins a Aquí tenim poc espai i els tubs grans els van a buscar directament, i una empleada a partir de La primera recollida. Guió i il·lustració amb tres persones; validada per muntatge.",
     "scriptApprovedAt": "2026-11-24",
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-26",
+      "sourceTakeSha256": "b4ee57151a66ed8c7e4c63e8e030dd453bd1d02e2ccbb7601212fb3a21844712",
+      "sourceBatch": "L34",
+      "confirmation": "Docent 26/11: conservar la presa original amb un empleat als dos primers torns fins a Aquí tenim poc espai i els tubs grans els van a buscar directament, i una empleada a partir de La primera recollida. Guió i il·lustració amb tres persones; validada per muntatge."
+    },
     "scriptApprovalSource": "Docent 24/11: S092, S093, S095 validats per síntesi de veus. Guions, veus i escaletes aprovats; esperar un lot compatible i comprovar-ne la mida abans d’enviar.",
     "uncertainTurns": [],
     "receivedTakes": {
@@ -6558,7 +6587,8 @@ export const productionProgress = {
         "kind": "voice-identity",
         "word": "veu de l’empleada",
         "heard": "veu inicial massa greu; canvia a La primera recollida",
-        "status": "pending"
+        "status": "resolved-by-role-adaptation",
+        "resolvedAt": "2026-11-26"
       },
       {
         "part": "recollida",
@@ -6566,11 +6596,12 @@ export const productionProgress = {
         "kind": "voice-identity",
         "word": "veu de l’empleada",
         "heard": "veu inicial massa greu; canvia a La primera recollida",
-        "status": "pending"
+        "status": "resolved-by-role-adaptation",
+        "resolvedAt": "2026-11-26"
       }
     ],
     "plannedRepair": {
-      "status": "awaiting-compatible-batch",
+      "status": "cancelled-original-role-adaptation",
       "parts": [
         "mida",
         "recollida"
@@ -6578,39 +6609,72 @@ export const productionProgress = {
       "speaker": "Empleada",
       "voice": "Gacrux",
       "sourceTakeSha256": "b4ee57151a66ed8c7e4c63e8e030dd453bd1d02e2ccbb7601212fb3a21844712",
-      "note": "Repetir només els dos torns inicials de l’empleada, abans de franja, amb una identitat femenina estable."
+      "note": "Repetir només els dos torns inicials de l’empleada, abans de franja, amb una identitat femenina estable.",
+      "closedAt": "2026-11-26"
     },
-    "repairComparison": "./proves/correccions-l44.html#S095-recollida",
     "receivedRepairs": [
       {
         "code": "S095",
         "part": "mida",
         "text": "Bon dia. El mesurem? Fa vuitanta-cinc centímetres. El servei que recollim aquí admet paquets de fins a vuitanta. Per a aquest tub hem de mirar la modalitat de paquets grans.",
         "pronunciation": "Keep the same adult female Gacrux voice across the complete intervention; natural tone and stable identity, not a male or very deep voice. Read only the supplied words.",
-        "status": "received-awaiting-listening",
+        "status": "rejected-original-preferred",
         "originalFile": "assets/audio/repairs/l44-s095-mida-original.mp3",
         "candidateFile": "assets/audio/repairs/l44-s095-mida-prova.mp3",
         "sourceRawSha256": "e745dbb235852711298ebf545af5ec836adc9e26531e6290cf3c4e457a4ecadd",
         "sourceTakeId": "S095-T01",
         "sourceTakeSha256": "b4ee57151a66ed8c7e4c63e8e030dd453bd1d02e2ccbb7601212fb3a21844712",
         "batchRequestHash": "9248c489c64e875fe1064129ec8b89af997b81a15790709c61813ac08f3d23e0",
-        "applied": false
+        "applied": false,
+        "closedAt": "2026-11-26",
+        "resolution": "El docent conserva la presa original amb dos treballadors."
       },
       {
         "code": "S095",
         "part": "recollida",
         "text": "Sí. El podem preparar des d’aquest taulell, però el transportista recull el paquet al domicili. Aquí tenim poc espai i els tubs grans els van a buscar directament.",
         "pronunciation": "Keep the same adult female Gacrux voice across the complete intervention; natural tone and stable identity, not a male or very deep voice. Read only the supplied words.",
-        "status": "received-awaiting-listening",
+        "status": "rejected-original-preferred",
         "originalFile": "assets/audio/repairs/l44-s095-recollida-original.mp3",
         "candidateFile": "assets/audio/repairs/l44-s095-recollida-prova.mp3",
         "sourceRawSha256": "e745dbb235852711298ebf545af5ec836adc9e26531e6290cf3c4e457a4ecadd",
         "sourceTakeId": "S095-T01",
         "sourceTakeSha256": "b4ee57151a66ed8c7e4c63e8e030dd453bd1d02e2ccbb7601212fb3a21844712",
         "batchRequestHash": "9248c489c64e875fe1064129ec8b89af997b81a15790709c61813ac08f3d23e0",
-        "applied": false
+        "applied": false,
+        "closedAt": "2026-11-26",
+        "resolution": "El docent conserva la presa original amb dos treballadors."
       }
-    ]
+    ],
+    "reason": "Presa original amb dos empleats: primer l’empleat, després l’empleada. Guió i imatge de tres persones, amb ambient interior discret. Pendent d’escoltar el muntatge.",
+    "roleAdaptation": {
+      "approvedAt": "2026-11-26",
+      "maleParts": [
+        "mida",
+        "recollida"
+      ],
+      "femaleParts": [
+        "franja",
+        "telefon",
+        "comiat"
+      ],
+      "spokenWordsChanged": false,
+      "sourceTakeSha256": "b4ee57151a66ed8c7e4c63e8e030dd453bd1d02e2ccbb7601212fb3a21844712",
+      "illustration": "./assets/images/s095-publicacio-v1.webp"
+    },
+    "mountedAt": "2026-11-26T14:43:14.173Z",
+    "synthesisBatch": "L34",
+    "requestHash": "aef37a3e56d6a4126206a0905030aad2bc53160804678de652431febf809e7e6",
+    "audioSha256": "1757767033c5369a4144cdb9b588fbb6b680c7ccd2206c1c2b337a506c61a5d9",
+    "montageNewSynthesisRequests": 0,
+    "reviewUpdate": {
+      "date": "2026-11-26",
+      "file": "./assets/audio/s095-mixed-v1.mp3",
+      "summary": {
+        "ca": "Presa original amb dos empleats: primer l’empleat, després l’empleada. Guió i imatge de tres persones, amb ambient interior discret. Pendent d’escoltar el muntatge.",
+        "es": "Toma original con dos empleados: primero el empleado, después la empleada. Guion e imagen de tres personas, con ambiente interior discreto. Montaje pendiente de escuchar."
+      }
+    }
   },
   "ca-S096": {
     "state": "published",
@@ -8299,7 +8363,7 @@ export const productionProgress = {
     }
   },
   "ca-S122": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
     "editorialFingerprint": "87985c1ebba5cf32cb53707c0bdfa300804684982d64458006185eb243e0012d",
@@ -8307,7 +8371,7 @@ export const productionProgress = {
     "listeningApproval": false,
     "confirmation": "Docent 25/11: tots els guions validats; preparar i enviar els lots compatibles seqüencialment.",
     "scriptApprovalSource": "Docent 25/11: tots els guions validats; preparar i enviar els lots compatibles seqüencialment.",
-    "reason": "Nova presa completa pendent d’un lot compatible Mireia/Aoede + Laia/Leda de sis a vuit minuts. Cap muntatge amb la presa rebutjada.",
+    "reason": "Presa completa T02 validada, amb ambient real continu d’aula molt suau. Pendent d’escoltar el muntatge.",
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -8318,7 +8382,13 @@ export const productionProgress = {
         "L42"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-26",
+      "sourceTakeSha256": "f8de736be4ca6360467d67a10c6198055a34a2feb383854e1d11553410b8aeee",
+      "sourceBatch": "L42",
+      "confirmation": "Docent 26/11: validat per passar a muntatge S129, S130, S122, S070 i S128, amb el criteri de música de fons ja definit."
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-26T07:48:53.961Z",
     "voicePreview": "./proves/veus-rebudes.html#S122",
@@ -8330,26 +8400,29 @@ export const productionProgress = {
         "part": "bossa",
         "word": "Veu de Mireia",
         "heard": "Una altra veu masculina",
-        "status": "pending"
+        "status": "resolved-by-approved-full-retake",
+        "resolvedAt": "2026-11-26"
       },
       {
         "part": "freda",
         "word": "ampolla (Mireia)",
         "heard": "La bolla",
-        "status": "pending"
+        "status": "resolved-by-approved-full-retake",
+        "resolvedAt": "2026-11-26"
       },
       {
         "part": "comparar",
         "word": "ampolla (Laia)",
         "heard": "una bolla",
-        "status": "pending"
+        "status": "resolved-by-approved-full-retake",
+        "resolvedAt": "2026-11-26"
       }
     ],
     "plannedRepair": {
       "scope": "whole-recording",
       "part": "whole",
       "takeId": "S122-T02",
-      "status": "received-awaiting-listening",
+      "status": "applied-awaiting-montage-listening",
       "sourceTakeId": "S122-T01",
       "sourceTakeSha256": "305bd2b4519c45ea7a36988f194240774eb7b6f5535350ad2257a3e80ae018fe",
       "parts": [
@@ -8365,7 +8438,8 @@ export const productionProgress = {
         "final"
       ],
       "planFile": "content/full-voice-retakes.json",
-      "approvedRequestHash": "12daae52bce00c68bd63eccb91c1f75cf1d189a893d6dbe80c9f5f80250ce45c"
+      "approvedRequestHash": "12daae52bce00c68bd63eccb91c1f75cf1d189a893d6dbe80c9f5f80250ce45c",
+      "appliedAt": "2026-11-26"
     },
     "fullRetakeReceived": {
       "takeId": "S122-T02",
@@ -8378,8 +8452,23 @@ export const productionProgress = {
       "sourceRawSha256": "580030ad367459bf30851f7d6d2f2126b2a58bd88b03e9dc2cf92e2796491a98",
       "sourceEditorialFingerprint": "87985c1ebba5cf32cb53707c0bdfa300804684982d64458006185eb243e0012d",
       "preservesOriginals": true,
-      "montageAllowed": false,
-      "voiceApproval": false
+      "montageAllowed": true,
+      "voiceApproval": true,
+      "voiceApprovedAt": "2026-11-26",
+      "appliedToMontage": "s122-mixed-v1.mp3"
+    },
+    "mountedAt": "2026-11-26T14:33:40.854Z",
+    "synthesisBatch": "L42",
+    "requestHash": "8c88a52f86f88e6e32937a960ccaad2dbd0c0d7033a3ee64b278fb2175c7f25e",
+    "audioSha256": "0c4e51fc6bb9248fa2505315b411e853f11dda3ba4568faee6f417ea088f45ec",
+    "montageNewSynthesisRequests": 0,
+    "reviewUpdate": {
+      "date": "2026-11-26",
+      "file": "./assets/audio/s122-mixed-v1.mp3",
+      "summary": {
+        "ca": "Presa completa T02 validada, amb ambient real continu d’aula molt suau. Pendent d’escoltar el muntatge.",
+        "es": "Toma completa T02 validada, con ambiente real continuo de aula muy suave. Montaje pendiente de escuchar."
+      }
     }
   },
   "ca-S124": {
@@ -8490,7 +8579,7 @@ export const productionProgress = {
     }
   },
   "ca-S128": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
     "editorialFingerprint": "99615c0422a803e949373b3c19c0aaa8f9eba44110ee6355cf73b4ad6a1add3a",
@@ -8498,7 +8587,7 @@ export const productionProgress = {
     "listeningApproval": false,
     "confirmation": "Docent 25/11: tots els guions validats; preparar i enviar els lots compatibles seqüencialment.",
     "scriptApprovalSource": "Docent 25/11: tots els guions validats; preparar i enviar els lots compatibles seqüencialment.",
-    "reason": "Guió i escaleta validats; pendent d’un lot compatible de sis a vuit minuts.",
+    "reason": "Veu validada amb F1 · Easy Lemon, molt baixa sota el relat i pujada abans de la fosa. Pendent d’escoltar el muntatge.",
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -8509,14 +8598,33 @@ export const productionProgress = {
         "L41"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-26",
+      "sourceTakeSha256": "0a5d0eb94fff90d329a054d914b3dda8a57472d804c939d399aabb429b5cff1f",
+      "sourceBatch": "L41",
+      "confirmation": "Docent 26/11: validat per passar a muntatge S129, S130, S122, S070 i S128, amb el criteri de música de fons ja definit."
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-26T07:48:14.206Z",
     "voicePreview": "./proves/veus-rebudes.html#S128",
-    "voicePreviewFile": "./assets/audio/s128-voices-review-v2.mp3"
+    "voicePreviewFile": "./assets/audio/s128-voices-review-v2.mp3",
+    "mountedAt": "2026-11-26T14:33:32.342Z",
+    "synthesisBatch": "L41",
+    "requestHash": "a16e647266987a40b1e523ae8ecfd15122f720daf485fd84922a69c01b36ef62",
+    "audioSha256": "066ca1266949f660b1bcd1c2346645351d40174218b2f934bbb75675c1e3064d",
+    "montageNewSynthesisRequests": 0,
+    "reviewUpdate": {
+      "date": "2026-11-26",
+      "file": "./assets/audio/s128-mixed-v1.mp3",
+      "summary": {
+        "ca": "Veu validada amb F1 · Easy Lemon, molt baixa sota el relat i pujada abans de la fosa. Pendent d’escoltar el muntatge.",
+        "es": "Voz validada con F1 · Easy Lemon, muy baja durante el relato y subida antes del fundido. Montaje pendiente de escuchar."
+      }
+    }
   },
   "ca-S129": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
     "editorialFingerprint": "7d58aeacae24b658ddc6f46929c09da13c598f19a51447b99ced666d914bedef",
@@ -8524,7 +8632,7 @@ export const productionProgress = {
     "listeningApproval": false,
     "confirmation": "Docent 25/11: tots els guions validats; preparar i enviar els lots compatibles seqüencialment.",
     "scriptApprovalSource": "Docent 25/11: tots els guions validats; preparar i enviar els lots compatibles seqüencialment.",
-    "reason": "Guió i escaleta validats; pendent d’un lot compatible de sis a vuit minuts.",
+    "reason": "Veu validada amb L1 · Teller of the Tales, molt baixa sota el relat i pujada abans de la fosa. Pendent d’escoltar el muntatge.",
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -8535,11 +8643,30 @@ export const productionProgress = {
         "L41"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-26",
+      "sourceTakeSha256": "4d0bc68d21083c74ff8adc1d7556baceec9127b0326e592da72197ef2130b608",
+      "sourceBatch": "L41",
+      "confirmation": "Docent 26/11: validat per passar a muntatge S129, S130, S122, S070 i S128, amb el criteri de música de fons ja definit."
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-26T07:48:14.206Z",
     "voicePreview": "./proves/veus-rebudes.html#S129",
-    "voicePreviewFile": "./assets/audio/s129-voices-review-v2.mp3"
+    "voicePreviewFile": "./assets/audio/s129-voices-review-v2.mp3",
+    "mountedAt": "2026-11-26T14:32:51.615Z",
+    "synthesisBatch": "L41",
+    "requestHash": "a16e647266987a40b1e523ae8ecfd15122f720daf485fd84922a69c01b36ef62",
+    "audioSha256": "6f0c4b43da31ede9cb24d6fb6d4debc957dd2bcb58ee74b8ec6207735df59e6a",
+    "montageNewSynthesisRequests": 0,
+    "reviewUpdate": {
+      "date": "2026-11-26",
+      "file": "./assets/audio/s129-mixed-v1.mp3",
+      "summary": {
+        "ca": "Veu validada amb L1 · Teller of the Tales, molt baixa sota el relat i pujada abans de la fosa. Pendent d’escoltar el muntatge.",
+        "es": "Voz validada con L1 · Teller of the Tales, muy baja durante el relato y subida antes del fundido. Montaje pendiente de escuchar."
+      }
+    }
   },
   "ca-S130": {
     "state": "montage-awaiting-listening",
@@ -8609,5 +8736,245 @@ export const productionProgress = {
         "es": "Montaje con M1: música muy baja durante la narración y subida de dos segundos antes del fundido. Voces validadas conservadas. Pendiente de escuchar el montaje."
       }
     }
+  },
+  "ca-S132": {
+    "state": "voices-received",
+    "approvedAt": "2026-11-26",
+    "scriptApprovedAt": "2026-11-26",
+    "editorialFingerprint": "590f755cd2d91262736585e24a9162ece121d122a553505ed8721a73b4e188c6",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "scriptApprovalSource": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "reason": "Guió i escaleta validats; esperant un lot compatible.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S132-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L46"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-26T14:47:10.477Z",
+    "voicePreview": "./proves/veus-rebudes.html#S132",
+    "voicePreviewFile": "./assets/audio/s132-voices-review-v1.mp3"
+  },
+  "ca-S136": {
+    "state": "voices-received",
+    "approvedAt": "2026-11-26",
+    "scriptApprovedAt": "2026-11-26",
+    "editorialFingerprint": "8aab46b9820327e196120d5f07e3a9cccf452c7b42c792d7fb16ee6d631ced0b",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "scriptApprovalSource": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "reason": "Guió i escaleta validats; esperant un lot compatible.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S136-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L45"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-26T14:32:35.452Z",
+    "voicePreview": "./proves/veus-rebudes.html#S136",
+    "voicePreviewFile": "./assets/audio/s136-voices-review-v1.mp3"
+  },
+  "ca-S140": {
+    "state": "voices-received",
+    "approvedAt": "2026-11-26",
+    "scriptApprovedAt": "2026-11-26",
+    "editorialFingerprint": "be3d2fa471e29a96190d27a000682395920b1be4acd627c77e684157948667dc",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "scriptApprovalSource": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "reason": "Guió i escaleta validats; esperant un lot compatible.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S140-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L46"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-26T14:47:10.477Z",
+    "voicePreview": "./proves/veus-rebudes.html#S140",
+    "voicePreviewFile": "./assets/audio/s140-voices-review-v1.mp3"
+  },
+  "ca-S138": {
+    "state": "voices-received",
+    "approvedAt": "2026-11-26",
+    "scriptApprovedAt": "2026-11-26",
+    "editorialFingerprint": "870f5f5fe6e960a33d949a034ddd6b887508a58b7726564c765965db4efb0c3b",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "scriptApprovalSource": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "reason": "Guió i escaleta validats; esperant un lot compatible.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S138-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L45"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-26T14:32:35.452Z",
+    "voicePreview": "./proves/veus-rebudes.html#S138",
+    "voicePreviewFile": "./assets/audio/s138-voices-review-v1.mp3"
+  },
+  "ca-S137": {
+    "state": "voices-received",
+    "approvedAt": "2026-11-26",
+    "scriptApprovedAt": "2026-11-26",
+    "editorialFingerprint": "4649f1c80aa3afb6054293b296bd6cfe1a90a8133b51b67b1b90aba35243f1ea",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "scriptApprovalSource": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "reason": "Guió i escaleta validats; esperant un lot compatible.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S137-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L45"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-26T14:32:35.452Z",
+    "voicePreview": "./proves/veus-rebudes.html#S137",
+    "voicePreviewFile": "./assets/audio/s137-voices-review-v1.mp3"
+  },
+  "ca-S131": {
+    "state": "voices-received",
+    "approvedAt": "2026-11-26",
+    "scriptApprovedAt": "2026-11-26",
+    "editorialFingerprint": "f43a868f0f1a10b8e23d657bc0ecff405d1e4f443925192e81c08e2d9035c3f5",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "scriptApprovalSource": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "reason": "Guió i escaleta validats; esperant un lot compatible.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S131-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L46"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [
+      "introduction"
+    ],
+    "voicesReceivedAt": "2026-11-26T14:47:10.477Z",
+    "voicePreview": "./proves/veus-rebudes.html#S131",
+    "voicePreviewFile": "./assets/audio/s131-voices-review-v1.mp3",
+    "voiceReviewUpdate": {
+      "date": "2026-11-26",
+      "file": "./assets/audio/s131-voices-review-v1.mp3",
+      "summary": {
+        "ca": "Presentació parcial: el control local troba «Comprensió oral», però no el títol ni la referència inicial a Isop. El relat s’ha conservat complet per a l’audició. Falta confirmar i reposar la presentació abans del muntatge.",
+        "es": "Presentación parcial: el control local encuentra «Comprensió oral», pero no el título ni la referencia inicial a Esopo. El relato se conserva completo para la audición. Falta confirmar y reponer la presentación antes del montaje."
+      }
+    }
+  },
+  "ca-S135": {
+    "state": "voices-received",
+    "approvedAt": "2026-11-26",
+    "scriptApprovedAt": "2026-11-26",
+    "editorialFingerprint": "914fa5c5688483e41cce1ae02e85f2d40984d2a0c657b0801f34d2e13dcec78f",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "scriptApprovalSource": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "reason": "Guió i escaleta validats; esperant un lot compatible.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S135-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L45"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-26T14:32:35.452Z",
+    "voicePreview": "./proves/veus-rebudes.html#S135",
+    "voicePreviewFile": "./assets/audio/s135-voices-review-v1.mp3"
+  },
+  "ca-S134": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-26",
+    "scriptApprovedAt": "2026-11-26",
+    "editorialFingerprint": "33e0920e991fbfb6ac555e79e695344cddd050cc14e814bb3c3b8f2232b7837b",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "scriptApprovalSource": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "reason": "Guió i escaleta validats; esperant un lot compatible."
+  },
+  "ca-S139": {
+    "state": "voices-received",
+    "approvedAt": "2026-11-26",
+    "scriptApprovedAt": "2026-11-26",
+    "editorialFingerprint": "2253394fdfd970b4b87a1ffecb5f4ad1dee28ea780f6eb6840354479dc4d6c57",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "scriptApprovalSource": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "reason": "Guió i escaleta validats; esperant un lot compatible.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S139-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L46"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-26T14:47:10.477Z",
+    "voicePreview": "./proves/veus-rebudes.html#S139",
+    "voicePreviewFile": "./assets/audio/s139-voices-review-v1.mp3"
+  },
+  "ca-S141": {
+    "state": "ready-for-voices",
+    "approvedAt": "2026-11-26",
+    "scriptApprovedAt": "2026-11-26",
+    "editorialFingerprint": "f805526504540fb8a6e99f0723f1c2a6b27c826a993829a4e93d63bd951058e1",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "scriptApprovalSource": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "reason": "Guió i escaleta validats; esperant un lot compatible."
   }
 };

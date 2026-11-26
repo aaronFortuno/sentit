@@ -607,9 +607,9 @@ export const mixedAudioResources = {
     "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S070": {
-    "voices": "Ferran: Algenib. Lot L41, veus rebudes i pendents d’audició.",
-    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
-    "recipe": "tools/prepare-batch-voice-previews.cjs"
+    "voices": "Ferran: Algenib. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "sounds": "Base original «Un disc que es feia esperar» (MIT), molt baixa durant la narració, amb pujada i fosa final.",
+    "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S102": {
     "voices": "Mar: Erinome; Informadora: Callirrhoe. Lot L32, veus rebudes i pendents d’audició.",
@@ -617,9 +617,9 @@ export const mixedAudioResources = {
     "recipe": "tools/prepare-batch-voice-previews.cjs"
   },
   "ca-S095": {
-    "voices": "Ferran: Algenib; Empleada: Gacrux. Lot L34, veus rebudes i pendents d’audició.",
-    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
-    "recipe": "tools/prepare-batch-voice-previews.cjs"
+    "voices": "Ferran: Algenib; Empleat: Gacrux; Empleada: Gacrux. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "sounds": "College Hallway ambience · Bexhillcollege (CC0 1.0), molt baix sota la conversa.",
+    "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S107": {
     "voices": "Biel: Puck; Elies: Algieba. Lot L36, veus rebudes i pendents d’audició.",
@@ -627,24 +627,64 @@ export const mixedAudioResources = {
     "recipe": "tools/prepare-batch-voice-previews.cjs"
   },
   "ca-S122": {
-    "voices": "Mireia: Aoede; Laia: Leda. Lot L42, veus rebudes i pendents d’audició.",
-    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
-    "recipe": "tools/prepare-batch-voice-previews.cjs"
+    "voices": "Mireia: Aoede; Laia: Leda. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "sounds": "classroom students whispering +presence · kyles (CC0 1.0), molt baix sota la conversa.",
+    "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S128": {
-    "voices": "Narrador: Algenib. Lot L41, veus rebudes i pendents d’audició.",
-    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
-    "recipe": "tools/prepare-batch-voice-previews.cjs"
+    "voices": "Narrador: Algenib. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "sounds": "Easy Lemon · Kevin MacLeod (CC BY 4.0). Entrada discreta, base molt baixa sota el relat i pujada de dos segons abans de la fosa final.",
+    "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S129": {
-    "voices": "Narrador: Algenib. Lot L41, veus rebudes i pendents d’audició.",
-    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
-    "recipe": "tools/prepare-batch-voice-previews.cjs"
+    "voices": "Narrador: Algenib. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "sounds": "Teller of the Tales · Kevin MacLeod (CC BY 4.0). Entrada discreta, base molt baixa sota el relat i pujada de dos segons abans de la fosa final.",
+    "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S130": {
     "voices": "Narrador anònim: Algenib. Presa S130-T01 de L41, validada pel docent. Sense canvis de ritme ni de to i sense cap petició nova. Muntatge pendent d’audició.",
     "sounds": "Temple of the Manes · Kevin MacLeod (incompetech.com), CC BY 4.0. Entrada discreta, base molt baixa sota el relat i pujada de dos segons abans de la fosa final. Sense efectes addicionals.",
     "currentRevision": "s130-mixed-v1",
     "recipe": "tools/render-mixed-take.cjs"
+  },
+  "ca-S135": {
+    "voices": "Narrador: Algenib. Lot L45, veus rebudes i pendents d’audició.",
+    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
+    "recipe": "tools/prepare-batch-voice-previews.cjs"
+  },
+  "ca-S136": {
+    "voices": "Narrador: Algenib. Lot L45, veus rebudes i pendents d’audició.",
+    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
+    "recipe": "tools/prepare-batch-voice-previews.cjs"
+  },
+  "ca-S137": {
+    "voices": "Narrador: Algenib. Lot L45, veus rebudes i pendents d’audició.",
+    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
+    "recipe": "tools/prepare-batch-voice-previews.cjs"
+  },
+  "ca-S138": {
+    "voices": "Narrador: Algenib. Lot L45, veus rebudes i pendents d’audició.",
+    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
+    "recipe": "tools/prepare-batch-voice-previews.cjs"
+  },
+  "ca-S131": {
+    "voices": "Narrador: Algenib. Lot L46, veus rebudes i pendents d’audició.",
+    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
+    "recipe": "tools/prepare-batch-voice-previews.cjs"
+  },
+  "ca-S132": {
+    "voices": "Narrador: Algenib. Lot L46, veus rebudes i pendents d’audició.",
+    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
+    "recipe": "tools/prepare-batch-voice-previews.cjs"
+  },
+  "ca-S139": {
+    "voices": "Narrador: Algenib. Lot L46, veus rebudes i pendents d’audició.",
+    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
+    "recipe": "tools/prepare-batch-voice-previews.cjs"
+  },
+  "ca-S140": {
+    "voices": "Narrador: Algenib. Lot L46, veus rebudes i pendents d’audició.",
+    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
+    "recipe": "tools/prepare-batch-voice-previews.cjs"
   }
 };

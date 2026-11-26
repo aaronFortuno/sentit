@@ -1,0 +1,63 @@
+{
+  "model": "gemini-3.8-flash-tts",
+  "input": [
+    {
+      "type": "user_input",
+      "content": [
+        {
+          "type": "text",
+          "text": "Comprensió oral. El pont abans de l’alba. Una llegenda del Pont del Diable de Martorell.\n\nSegons la llegenda, una minyona de Martorell havia d’anar cada dia a buscar aigua a una font que hi havia a l’altra banda del Llobregat. Travessava el riu per unes fustes estretes que tremolaven sota els seus peus. Quan baixava una riuada, l’aigua se les enduia i el pas encara era més perillós.\n\nUn dia, després d’una travessa difícil, va trobar un desconegut a la riba. Era el diable. Li va oferir construir un pont de pedra en una sola nit. A canvi, la noia li entregaria l’ànima. Però només si acabava el pont abans de l’alba. Ella, convençuda que aquella feina era impossible, va acceptar.\n\nQuan es va fer fosc, el diable va començar a portar pedres de la muntanya. Anava i venia sense descansar. La minyona es va ficar al llit, però no podia dormir. Va mirar per la finestra i va veure que el pont ja arribava gairebé a l’altra riba. Espantada, va anar a explicar el tracte a la mestressa.\n\nLa mestressa va escoltar-la i va anar al galliner. Allà va aconseguir que el gall cantés abans d’hora. Els galls de les cases veïnes li van respondre. El cant es va escampar fins a Palausolità, on el diable passava amb l’última pedra del pont.\n\nEn sentir els galls, el diable va creure que ja sortia el sol. Va deixar caure la pedra i va marxar furiós: havia perdut el tracte. La noia es va quedar a casa. Quan de debò va arribar el matí, al pont encara li faltava aquella pedra.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants. Narració en català central, càlida, clara i expressiva, amb ritme natural. Una sola veu narradora, també als diàlegs citats, amb canvis suaus d’intenció i sense imitar criatures o monstres. Algenib és candidat provisional; el docent autoritza triar un timbre compatible amb el lot abans de congelar-lo. No llegir acotacions ni indicacions de pausa. Read the title and complete programme verbatim. Leave a brief quiet boundary after the title, without speaking any stage directions or pause instructions. No added sounds, music, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its story. Keep this same single character voice throughout all recordings. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. Sant Mer i el drac de Banyoles. Una llegenda de l’estany.\n\nSegons la llegenda, prop de l’estany de Banyoles hi vivia un drac que tenia tota la població espantada. El seu cau era en una esquerda de terra. Quan sortia, es menjava el bestiar i feia malbé els camps. La gent evitava acostar-se a aquell indret i tornava de pressa cap a casa.\n\nEls habitants van demanar ajuda a Carlemany, que va arribar amb els seus soldats. Duien armes i estaven acostumats a combatre. Però la força d’aquell exèrcit va resultar inútil davant del drac. Després d’intentar aturar-lo, els soldats es van haver de retirar. La gent de Banyoles continuava amb la mateixa por.\n\nLlavors va arribar Sant Mer, un monjo. Quan va saber què passava, va decidir anar a trobar la criatura. Va caminar fins al cau sense portar cap arma. Alguns habitants van quedar-se lluny, mirant-lo. El drac el va veure arribar i va començar a bramar. Sant Mer va continuar acostant-s’hi.\n\nEl monjo es va treure la capa i la va estendre damunt de la bèstia. A l’instant, el drac es va calmar. Va deixar de bramar i es va quedar al seu costat. Quan Sant Mer va emprendre el camí de tornada, la criatura el va seguir tranquil·lament, com si fos un animal de companyia.\n\nTots dos van arribar fins a la plaça de Banyoles. En veure el drac, la gent va recular i alguns van agafar les armes. Sant Mer els va dir que les deixessin a terra: la bèstia ja estava amansida. Els veïns van anar abaixant les armes. El drac es mantenia quiet al costat del monjo.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same natural Central Catalan voice, pace and character. Read the words verbatim, with conversational turn-taking. No added sounds. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its story. Keep this same single character voice throughout all recordings. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. El timbaler i el ressò. La llegenda del Timbaler del Bruc.\n\nSegons la llegenda del Timbaler del Bruc, un jove que tocava el tambor va acompanyar un grup d’homes que defensaven els camins de Montserrat. Era durant la guerra contra l’exèrcit de Napoleó. Els francesos avançaven cap al Bruc i els defensors, que eren menys, s’havien reunit entre els passos de la muntanya.\n\nEl jove portava el tambor penjat al cos i duia una baqueta a cada mà. Va començar a tocar amb un ritme seguit. Els homes del seu grup el sentien de prop. Al davant tenien les grans parets de roca de Montserrat, que retornaven els tocs una vegada i una altra.\n\nEl so rebotava entre les roques. Un cop de tambor tornava des d’un costat, i el següent semblava arribar de més lluny. Era el ressò, o eco. El jove continuava tocant mentre el so del seu instrument s’escampava pels passos de la muntanya. Des de l’altra banda, els francesos sentien aquella percussió repetida.\n\nEls soldats francesos no veien quants homes hi havia darrere de les roques. En escoltar tants tocs, van creure que s’hi acostaven molts soldats més. S’imaginaven una gran tropa de reforç avançant acompanyada de tambors. Els defensors continuaven al seu lloc i el jove mantenia el ritme.\n\nEn aquest relat, la por de trobar-se davant d’un exèrcit molt més nombrós va fer que els francesos es retiressin. Els homes que eren amb el timbaler van veure com s’allunyaven pel camí. Quan el jove va parar de tocar, encara va sentir uns últims tocs que tornaven de les roques. Després, va abaixar les baquetes.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same natural Central Catalan voice, pace and character. Read the words verbatim, with conversational turn-taking. No added sounds. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its story. Keep this same single character voice throughout all recordings. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. El flautista d’Hamelín. Una llegenda recollida pels germans Grimm.\n\nSegons la llegenda, la ciutat alemanya d’Hamelín estava plena de rates. S’escolaven als rebosts, corrien per les cuines i es menjaven el gra. Els habitants tapaven forats i protegien els sacs, però les rates continuaven apareixent. Un dia va arribar un home amb un vestit de molts colors i una flauta.\n\nEl desconegut va oferir-se a alliberar la ciutat d’aquella plaga a canvi d’una quantitat de diners. Els habitants van acceptar el preu. Aleshores ell va començar a tocar. Les rates van sortir de les cases i es van reunir al seu voltant. El flautista va caminar cap al riu, sense deixar la melodia.\n\nTotes les rates el seguien. Quan ell va entrar al riu, elles també s’hi van ficar i van desaparèixer sota l’aigua. Després, el músic va tornar a la ciutat per cobrar. Els rebosts ja eren lliures de rates i els habitants van canviar de parer: van negar-se a pagar el que havien promès.\n\nEl flautista els va recordar el tracte. Havia fet la feina, però continuaven negant-li els diners. Enfadat, va marxar d’Hamelín. Durant un temps, els carrers van estar tranquils. Les famílies tornaven a guardar el menjar sense trobar-lo rosegat i el músic ja era lluny.\n\nUn matí, però, va tornar. Va recórrer els carrers tocant la flauta una altra vegada. Ara qui sortia de les cases eren els nens i les nenes. Van seguir la música fins a fora de la ciutat. Aquesta vegada, el flautista els va conduir cap a un turó, on ell i el grup van desaparèixer.\n\nQuan els adults ho van saber, van sortir a buscar-los. Van recórrer els camins i van enviar missatgers a altres poblacions. Els missatgers tornaven sense notícies. A les cases d’Hamelín, les famílies continuaven esperant.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same natural Central Catalan voice, pace and character. Read the words verbatim, with conversational turn-taking. No added sounds. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its story. Keep this same single character voice throughout all recordings. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "response_format": {
+    "type": "audio",
+    "mime_type": "audio/wav",
+    "sample_rate": 24000
+  },
+  "generation_config": {
+    "speech_config": [
+      {
+        "voice": "Algenib"
+      }
+    ]
+  },
+  "background": true
+}

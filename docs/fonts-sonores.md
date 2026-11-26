@@ -170,3 +170,7 @@ S060, S063, S066, S070, S072, S046D i S069D tenen guió i escaleta validats per 
 ### S130 · El fil d’Ariadna · 26/11
 
 Veu anònima Algenib de L41, presa S130-T01 validada pel docent. Primer muntatge amb [Temple of the Manes](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100053), Kevin MacLeod (incompetech.com), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), codi musical M1. Fragment des del segon 6, normalització, base contínua molt baixa sota la narració i pujada de dos segons abans de la fosa. Sense efectes addicionals, canvis de ritme o síntesi nova. Pistes modulars al web; màster complet i original de música locals. [Manifest](../assets/audio/s130-production-manifest.json). Pendent d’audició del muntatge.
+
+## Noves veus i muntatges de cultura · 26/11
+
+L45/L46 rebuts per audició, sense muntatge automàtic. S128 amb Easy Lemon (F1) i S129 amb Teller of the Tales (L1), Kevin MacLeod, CC BY 4.0: normalització, atenuació sota la veu i foses, originals locals. S070 amb base original «Un disc que es feia esperar», Sentit, MIT; S122 amb ambient real d’aula kyles-450728, CC0; S095 amb interior BexhillCollege-274213, CC0. Fonts, empremtes i usos reals als manifests i catàlegs. [Muntatges, síntesi i incidències](muntatges-2026-11-26-cultura.md).

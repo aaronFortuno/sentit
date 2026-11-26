@@ -4,10 +4,14 @@
 const fs=require('node:fs/promises'),path=require('node:path'),{createHash}=require('node:crypto');
 const root=path.resolve(__dirname,'..'),work=path.resolve(root,'../output/sentit-primera-tanda'),sha=b=>createHash('sha256').update(b).digest('hex');
 async function main(){
- const {activities}=await import('../catalogue.js'),{soundSources}=await import('../content/sound-sources.js'),{musicCatalogue}=await import('../content/music-catalogue.js'),resources={};
- const mixedKeys=new Set(activities.filter(e=>/-(?:mixed|timing|directives|no-ambience|no-opening|title|news|corridor|hallway|classroom|city-bed|train|breaths|clean|inline-paper|tail)-v\d+|-news-(?:common|repair)-v\d+/.test(e.audio??'')).map(e=>e.language+'-'+e.code));
+ const {activities}=await import('../catalogue.js'),{soundSources}=await import('../content/sound-sources.js'),{musicCatalogue}=await import('../content/music-catalogue.js');
+ const onlyValue=process.argv.find(a=>a.startsWith('--only='))?.slice(7),only=onlyValue?new Set(onlyValue.split(',')):null;
+ if(only&&[...only].some(code=>!activities.some(e=>e.code===code)))throw Error('Unknown activity code');
+ const resources=only?structuredClone((await import('../content/mixed-audio-resources.js')).mixedAudioResources):{};
+ const mixedKeys=new Set(activities.filter(e=>(!only||only.has(e.code))&&/-(?:mixed|timing|directives|no-ambience|no-opening|title|news|corridor|hallway|classroom|city-bed|train|breaths|clean|inline-paper|tail)-v\d+|-news-(?:common|repair)-v\d+/.test(e.audio??'')).map(e=>e.language+'-'+e.code));
  for(const recording of soundSources)recording.usedBy=recording.usedBy.filter(id=>!mixedKeys.has(id));
  for(const entry of activities){
+  if(only&&!only.has(entry.code))continue;
   const report=await fs.readFile(path.join(root,`assets/audio/${entry.code.toLowerCase()}-production-manifest.json`),'utf8').then(JSON.parse).catch(e=>{if(e.code==='ENOENT')return null;throw e;});
   if(!report||(!report.newsRevision&&!['shared-mixed-batch','assembled-grouped-voices','repaired-mixed-take','repaired-existing-master'].includes(report.productionMode)))continue;
   const key=entry.language+'-'+entry.code,labels=Object.entries(entry.production?.voices??report.voices).map(([name,voice])=>`${name}: ${voice}`).join('; ');
@@ -24,6 +28,12 @@ async function main(){
     let music=musicCatalogue.find(item=>item.id===effect.credit.id);if(!music){music={...effect.credit,usedBy:[]};musicCatalogue.push(music);}if(!music.usedBy.includes(key))music.usedBy.push(key);
     descriptions.push(`${music.title} · ${music.author} (${music.license}). Entrada, base contínua atenuada sota la parla i sortida; font completa conservada localment, no distribuïda sola.`);continue;
    }
+   if(effect.origin==='licensed-library-music'){
+    const {narrationMusic}=await import('../content/narration-music.js'),track=narrationMusic.find(t=>t.id===effect.libraryId);
+    if(track?.status!=='approved'||track.isrc!==effect.compositionId.replace('incompetech-','')||track.license!==effect.license)throw Error('Unapproved or mismatched library composition');
+    let music=musicCatalogue.find(m=>m.id===effect.compositionId);if(!music){music={id:effect.compositionId,libraryId:effect.libraryId,title:effect.title,kind:'narration-bed',author:effect.author,license:effect.license,licenseUrl:effect.licenseUrl,origin:effect.origin,externalSamples:true,url:effect.sourceUrl,source:'tools/library-narration-bed.cjs',sourceSha256:effect.sourceSha256,usedBy:[],sharedReason:'Repertori validat per univers; alternança entre produccions i mateixa música entre variants.'};musicCatalogue.push(music);}if(music.sourceSha256!==effect.sourceSha256)throw Error('Library source hash changed');if(!music.usedBy.includes(key))music.usedBy.push(key);
+    descriptions.push(`${music.title} · ${music.author} (${music.license}). Entrada discreta, base molt baixa sota el relat i pujada de dos segons abans de la fosa final.`);continue;
+   }
    if(effect.origin==='original-procedural-composition'){
     if(effect.compositionId&&!musicCatalogue.some(m=>m.id===effect.compositionId))musicCatalogue.push({id:effect.compositionId,title:effect.title,kind:'narration-bed',author:'Sentit',license:'MIT',licenseUrl:'https://github.com/aaronFortuno/sentit/blob/main/LICENSE',origin:'original-procedural',externalSamples:false,source:'tools/narration-bed.cjs',usedBy:[key],description:`Composició pròpia de piano suau i harmonia espaiada, ${effect.tempoBpm} pulsacions per minut; partitura determinista ${effect.scoreSeed}, fosa d’entrada, música atenuada sota la veu i pujada de dos segons seguida de fosa al final.`});
     if(effect.compositionId){const composition=musicCatalogue.find(m=>m.id===effect.compositionId);if(!composition.usedBy.includes(key))composition.usedBy.push(key);for(const code of ['S045','S046','S068','S069'])if(effect.compositionId==='sentit-'+code.toLowerCase()+'-v1'&&composition.usedBy.includes('ca-'+code+'D'))composition.sharedReason=`Composició compartida intencionadament entre ${code} narrada i ${code}D dialogada, amb mescles i durades pròpies.`;}
@@ -35,7 +45,7 @@ async function main(){
    if(!record.usedBy.includes(key))record.usedBy.push(key);
    descriptions.push(`${record.title} · ${record.author} (${record.license})${effect.underSpeech?', molt baix sota la conversa':', fora de la parla'}.`);
   }
-  const uncertain=(report.uncertainTurns??[]).map(u=>report.voiceApproval?.status==='approved'?` Torn curt «${u.text}» no confirmat pel reconeixement local; la presa completa té validació de veus del docent.`:` Torn curt pendent de comprovar a l’oïda: «${u.text}»; el reconeixement local no el confirma.`).join('');
+  const uncertain=entry.reviewStatus==='validated'?'':(report.uncertainTurns??[]).map(u=>report.voiceApproval?.status==='approved'?` Torn curt «${u.text}» no confirmat pel reconeixement local; la presa completa té validació de veus del docent.`:` Torn curt pendent de comprovar a l’oïda: «${u.text}»; el reconeixement local no el confirma.`).join('');
   const status=entry.reviewStatus==='validated'?'Guió, veus i muntatge validats pel docent; publicació definitiva.':report.state==='awaiting-audio-corrections'?(report.directiveRevision?'Instruccions llegides per error retirades; pronunciació de «Quan hagis parlat» pendent d’esmena.':'Pauses tècniques escurçades; identitat i estabilitat de les veus pendents d’esmena.'):'Muntatge pendent d’audició docent, sense canvis de ritme.';
   resources[key]={voices:labels+'. Preses originals conservades; '+(report.productionMode==='assembled-grouped-voices'?'tres personatges intercalats a partir de dues preses compatibles. ':'')+status+uncertain,sounds:[...new Set(descriptions)].join(' '),...(report.newsRevision?{currentRevision:report.synthesisRepair?'news-repair-v3':'news-common-v2'}:{}),recipe:report.newsRevision?'tools/remount-news-common.cjs':report.montageAuthorization?'tools/render-news-batch.cjs':'tools/render-mixed-take.cjs'};
   if(report.cleanRevision)resources[key].recipe='tools/clean-s026-bookends.cjs';
@@ -52,7 +62,7 @@ async function main(){
   if(report.repairApplication){resources[key].recipe=report.productionMode==='repaired-mixed-take'?'tools/render-mixed-take.cjs':'tools/render-reviewed-revision.cjs';resources[key].currentRevision=report.file.replace(/\.mp3$/,'');}
  }
  const previews=JSON.parse(await fs.readFile(path.join(root,'assets/audio/batch-voice-previews.json'),'utf8').catch(e=>{if(e.code==='ENOENT')return '[]';throw e;}));
- for(const preview of previews){const entry=activities.find(e=>e.code===preview.code);if(entry.audio)continue;resources[entry.language+'-'+entry.code]={voices:Object.entries(entry.production.voices).map(([name,voice])=>`${name}: ${voice}`).join('; ')+`. Lot ${preview.batch}, veus rebudes i pendents d’audició.`,sounds:'Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.',recipe:'tools/prepare-batch-voice-previews.cjs'};}
+ for(const preview of previews){const entry=activities.find(e=>e.code===preview.code);if(!entry||entry.audio||(only&&!only.has(entry.code)))continue;resources[entry.language+'-'+entry.code]={voices:Object.entries(entry.production.voices).map(([name,voice])=>`${name}: ${voice}`).join('; ')+`. Lot ${preview.batch}, veus rebudes i pendents d’audició.`,sounds:'Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.',recipe:'tools/prepare-batch-voice-previews.cjs'};}
  const sourcesFile=path.join(root,'content/sound-sources.js'),sourceText=await fs.readFile(sourcesFile,'utf8'),musicFile=path.join(root,'content/music-catalogue.js'),musicText=await fs.readFile(musicFile,'utf8');
  await fs.writeFile(sourcesFile,'// Sources actually used, with verified licenses and file fingerprints.\nexport const soundSources = '+JSON.stringify(soundSources,null,2)+';\n\n'+sourceText.slice(sourceText.indexOf('export function soundSourcesForActivity')));
  await fs.writeFile(musicFile,'// Narration compositions; recurring programme jingles have their own register.\nexport const musicCatalogue = '+JSON.stringify(musicCatalogue,null,2)+';\n\n'+musicText.slice(musicText.indexOf('export function musicForActivity')));

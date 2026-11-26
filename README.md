@@ -16,9 +16,11 @@ Banc de comprensió oral d’ortogra.fi. El docent tria una activitat, prepara l
 
 **Tanda d’equilibri:** [S112–S127](docs/pla-equilibri-2026-11-25.md), setze guions amb preguntes duals i revisió independent. Quinze peces definitives i S122 amb la regeneració completa pendent d’audició. [Publicacions i accés als muntatges](docs/publicacio-equilibri-2026-11-26.md).
 
-**Pilots de tradició amb guió validat:** [S128–S130](docs/pilots-tradicio.md), una faula de 3r, una llegenda de 4t i un mite grec de 5è. Fonts i decisions d’adaptació explícites, 18 preguntes duals i revisió adversària superada. Veus rebudes a L41, juntament amb la nova presa íntegra de S070. [Resultats i comparacions del 26/11](docs/lots-2026-11-26.md). S128/S129 esperen audició de veus; S130 ja té les veus validades i un primer muntatge amb M1 pendent d’audició.
+**Fonts dels relats culturals:** [bibliografia de S128–S142](docs/fonts-tradicio.md) visible al web i als dos imprimibles, amb l’adaptació de Sentit identificada. [Cinc muntatges nous i L45/L46](docs/muntatges-2026-11-26-cultura.md), per a l’audició docent. S133/S142 esmenats i pendents de validar; S095 adaptada a tres interlocutors amb la gravació original.
 
-**Ampliació de tradició:** [S131–S142](docs/ampliacio-tradicio-2026-11-26.md), quatre faules, quatre llegendes i quatre mites, amb 75 preguntes duals, fonts i revisió creuada. Guions pendents de la validació docent abans de sintetitzar.
+**Pilots de tradició amb guió validat:** [S128–S130](docs/pilots-tradicio.md), una faula de 3r, una llegenda de 4t i un mite grec de 5è. Fonts i decisions d’adaptació explícites, 18 preguntes duals i revisió adversària superada. Veus rebudes a L41, juntament amb la nova presa íntegra de S070. [Resultats i comparacions del 26/11](docs/lots-2026-11-26.md). S128/S129/S130 tenen les veus validades i primers muntatges amb F1/L1/M1 pendents d’audició.
+
+**Ampliació de tradició:** [S131–S142](docs/ampliacio-tradicio-2026-11-26.md), quatre faules, quatre llegendes i quatre mites, amb 75 preguntes duals, fonts i revisió creuada. Deu guions validats: vuit preses rebudes i dues esperen un lot compatible. S133 i S142, esmenats, continuen pendents de vistiplau docent.
 
 **Muntatges amb esmenes validades:** [S109, S088, S081 i S090](docs/muntatges-esmenes-2026-11-26.md), amb veus ja aprovades i pendents d’audició final. S017 conserva les veus originals. Les proves bones de S010 i S102 es guarden mentre es repeteixen només els torns encara incorrectes.
 

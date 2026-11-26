@@ -17,6 +17,11 @@ export function repairQueue(entries, progress, plans) {
   for (const entry of entries) {
     const state = progress[entry.language + '-' + entry.code];
     if (!state || state.state === 'published' || plans[entry.code]?.status === 'closed-original-accepted') continue;
+    // A mounted, teacher-approved take has already resolved its old repair plan.
+    // Keep any genuinely pending feedback or new audition candidate visible.
+    if (state.state === 'montage-awaiting-listening' && state.voiceApproval?.status === 'approved'
+      && !(state.feedback ?? []).some(feedback => feedback.status === 'pending')
+      && !(state.receivedRepairs ?? []).some(repair => receivedStates.has(repair.status))) continue;
     if (state.plannedRepair?.scope === 'whole-recording') {
       const plan = state.plannedRepair;
       if (plan.status === 'received-awaiting-listening') {
@@ -62,7 +67,7 @@ export function repairQueueMarkdown(queue, date) {
   for (const group of groups) { const items = queue.queued.filter(i => group.voices.includes(i.voice)); if (!items.length) continue; const seconds = estimateSynthesis({ input: [{ content: items.map(i => ({ type: 'text', text: i.text })) }] }).seconds;
     text += `| ${group.label} | ${items.length} / ${new Set(items.map(i => i.take)).size} | ${[...new Set(items.map(i => i.code))].join(', ')} | ${fmt(seconds)} | ${group.complement} |\n`; }
   if(queue.retakes.length){text+='\n## Regeneracions completes\n\nAquestes peces necessiten una presa seguida, no una suma d’esmenes aïllades. Els originals es conserven; cal un lot compatible de sis a vuit minuts i una nova audició abans del muntatge.\n\n| Peça | Presa nova | Veus | Previsió | Pla exacte |\n| --- | --- | --- | ---: | --- |\n';for(const item of queue.retakes){const seconds=estimateSynthesis({input:[{content:[{type:'text',text:item.text}]}]}).seconds;text+=`| [${item.code}](https://sentit.ortogra.fi/#lectura=ca-${item.code}) | ${item.take} · títol i diàleg complets | ${Object.entries(item.voices).map(([speaker,voice])=>speaker+' / '+voice).join('; ')} | ${fmt(seconds)} | [Pla i empremta](../${item.planFile}) |\n`;}}
-  text += '\nPrioritat pràctica: completar primer **Ferran** i **Mar + informadora**, que tenen represes ben delimitades i identitats simples. Després **Elies + Biel**. No omplir cap lot amb frases repetides ni fer passar instruccions de pronunciació al text parlat. Una proposta amb una sola veu pot admetre una segona veu fixa, però mai una tercera.\n\n## Fragments exactes i estat de preparació\n\n| Peça | Fragment | Veu | Preparació |\n| --- | --- | --- | --- |\n';
+  text += '\nCompletar els blocs pendents de la taula amb guions validats de veus compatibles. No omplir cap lot amb frases repetides ni fer passar instruccions de pronunciació al text parlat. Una proposta amb una sola veu pot admetre una segona veu fixa, però mai una tercera.\n\n## Fragments exactes i estat de preparació\n\n| Peça | Fragment | Veu | Preparació |\n| --- | --- | --- | --- |\n';
   for (const item of queue.queued) text += `| [${item.code}](https://sentit.ortogra.fi/#lectura=ca-${item.code}) | ${item.part} | ${item.speaker} · ${item.voice} | ${item.formal ? 'Pla exacte disponible; falta completar i verificar el lot' : 'Retorn docent registrat; cal formalitzar la petició exacta'} |\n`;
   text += '\n## Material rebut i decisions locals\n\n';
   for (const item of queue.received) text += `- **${item.code} / ${item.part}:** ${item.status === 'approved-awaiting-application' ? 'fragment validat, pendent d’aplicar' : 'presa rebuda, pendent d’audició'}${item.localTrial ? '; comparació parcial local demanada' : ''}. No generar-ne una altra abans de resoldre aquesta revisió.\n`;

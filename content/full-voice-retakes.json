@@ -1,7 +1,7 @@
 {
   "S122": {
     "activity": "ca-S122",
-    "status": "approved-awaiting-compatible-batch",
+    "status": "applied-awaiting-montage-listening",
     "scope": "whole-recording",
     "takeId": "S122-T02",
     "approvedAt": "2026-11-25",
@@ -175,11 +175,14 @@
       "seconds": 98
     },
     "montageAllowed": false,
-    "application": "Una nova presa completa de títol i diàleg per mantenir coherència de les dues veus. Comparar-la amb l’original i esperar audició docent abans de muntar; no generar torns aïllats ni substituir automàticament."
+    "application": "Una nova presa completa de títol i diàleg per mantenir coherència de les dues veus. Comparar-la amb l’original i esperar audició docent abans de muntar; no generar torns aïllats ni substituir automàticament.",
+    "voiceApprovedAt": "2026-11-26",
+    "approvedTakeSha256": "f8de736be4ca6360467d67a10c6198055a34a2feb383854e1d11553410b8aeee",
+    "montage": "s122-mixed-v1.mp3"
   },
   "S070": {
     "activity": "ca-S070",
-    "status": "approved-awaiting-compatible-batch",
+    "status": "applied-awaiting-montage-listening",
     "scope": "whole-recording",
     "takeId": "S070-T02",
     "approvedAt": "2026-11-26",
@@ -242,6 +245,9 @@
       "seconds": 118
     },
     "montageAllowed": false,
-    "application": "Presa completa estable; comparar abans de muntar. Es conserven el màster i les esmenes anteriors com a històric, sense aplicar-les."
+    "application": "Presa completa estable; comparar abans de muntar. Es conserven el màster i les esmenes anteriors com a històric, sense aplicar-les.",
+    "voiceApprovedAt": "2026-11-26",
+    "approvedTakeSha256": "150e948d9d6bd552b1d95c71294d4ea6ff2cbb0e135ca023df81932770880210",
+    "montage": "s070-mixed-v1.mp3"
   }
 }

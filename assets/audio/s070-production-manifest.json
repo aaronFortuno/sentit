@@ -1,0 +1,98 @@
+{
+  "code": "S070",
+  "activity": "ca-S070",
+  "state": "awaiting-montage-validation",
+  "file": "s070-mixed-v1.mp3",
+  "introFile": "s070-mixed-v1-intro.mp3",
+  "bodyFile": "s070-mixed-v1-cos.mp3",
+  "offset": 4.54,
+  "bodyDuration": 104.58960416666666,
+  "fullDuration": 109.12960416666667,
+  "voices": {
+    "Ferran": "Algenib"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "a16e647266987a40b1e523ae8ecfd15122f720daf485fd84922a69c01b36ef62",
+  "sourceRequestHash": "7b04358057b0407a6902450302d6c6bc8f58ca3f687f64fe4fe5206347e06782",
+  "batch": "L41",
+  "rawSha256": "c77ea4c9487aeedc99d096607d46e7f299751a1b7069dcdb83a71beb23e6fa83",
+  "takeSha256": "150e948d9d6bd552b1d95c71294d4ea6ff2cbb0e135ca023df81932770880210",
+  "coverage": 0.9461077844311377,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.38,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "gentle-narration-bed",
+      "origin": "original-procedural-composition",
+      "author": "Sentit",
+      "license": "MIT",
+      "source": "tools/narration-bed.cjs",
+      "title": "Un disc que es feia esperar",
+      "compositionId": "sentit-s070-v1",
+      "tempoBpm": 64,
+      "rootMidi": 52,
+      "scoreSeed": 70,
+      "notes": 83,
+      "externalSamples": false,
+      "noSpeech": true,
+      "retimed": false,
+      "sha256": "a05633bf0c643975446212ec63bb7cebf98b92cb48fc11665451d7c9a27700b1",
+      "envelope": {
+        "fadeInSeconds": 0.6,
+        "duckStart": 0.3,
+        "duckEnd": 1.05,
+        "speechGain": 0.14,
+        "nominalSpeechMusicLufs": -43.07743928643524,
+        "riseStart": 99.46001666666666,
+        "riseEnd": 100.26001666666667,
+        "holdSeconds": 2,
+        "fadeStart": 102.26001666666667,
+        "fadeEnd": 104.26001666666667
+      },
+      "listeningValidation": "pending",
+      "start": 0,
+      "underSpeech": true
+    }
+  ],
+  "sha256": "48133be44ef6ee07d35358005623c8c7daf451a99614b1c33f13014021fb1260",
+  "voiceHandles": {
+    "body": {
+      "start": 0.46108333333333335,
+      "end": 98.548,
+      "retainedPcmSha256": "f439577118b7570692ca11a5e2c5cdc4740cb8c771e51d3c2130dad09d76b0ec",
+      "sourceSha256": "80f344b56fc1297627e1477bbea32fd3e537d20b0da30adf05fd5276152d6973",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0,
+      "end": 3.59,
+      "retainedPcmSha256": "2bf426976910f55fb23f2a0e47047197ccd8f77cee65a2fdf632e3e3f4b8d66b",
+      "sourceSha256": "9013fcd13f53ef7990c6c5755155d35cccbe601f7b9fad106f3f00d5ce8e6495",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-26",
+    "sourceTakeSha256": "150e948d9d6bd552b1d95c71294d4ea6ff2cbb0e135ca023df81932770880210",
+    "sourceBatch": "L41",
+    "confirmation": "Docent 26/11: validat per passar a muntatge S129, S130, S122, S070 i S128, amb el criteri de música de fons ja definit."
+  },
+  "fullRetakeApplication": {
+    "takeId": "S070-T02",
+    "takeSha256": "150e948d9d6bd552b1d95c71294d4ea6ff2cbb0e135ca023df81932770880210",
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-26",
+      "sourceTakeSha256": "150e948d9d6bd552b1d95c71294d4ea6ff2cbb0e135ca023df81932770880210",
+      "sourceBatch": "L41",
+      "confirmation": "Docent 26/11: validat per passar a muntatge S129, S130, S122, S070 i S128, amb el criteri de música de fons ja definit."
+    },
+    "previousTakePreserved": true
+  }
+}

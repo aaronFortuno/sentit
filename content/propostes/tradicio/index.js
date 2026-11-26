@@ -6,6 +6,9 @@ import { mythExpansionDrafts } from './mites-20261126.js';
 
 const traditionPilots = [
   cultural({code:'S128',id:'el-lleo-i-el-ratoli',title:'El lleó i el ratolí',grade:'3',level:'easy',universeIds:['faules-mon'],
+    seconds: 76, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s128-mixed-v1.mp3', tracks: { introduction: './assets/audio/s128-mixed-v1-intro.mp3', body: './assets/audio/s128-mixed-v1-cos.mp3' },
+    fragment: { start: 6.87, seconds: 69 },
     introduction:'Comprensió oral. El lleó i el ratolí. Una faula de la tradició d’Isop.',
     summary:'Un lleó deixa escapar un ratolí. Més endavant, és ell qui queda atrapat i necessita ajuda.',
     context:'En aquesta faula els animals parlen i es troben en una situació inesperada. Escolta què els passa i fixa’t en les decisions que prenen. Després podràs explicar com canvia la relació entre ells.',
@@ -29,6 +32,9 @@ const traditionPilots = [
       q('canvi','Per què el lleó ja no riu de l’ajuda del ratolí al final?','Perquè el ratolí l’ha pogut alliberar.',['Perquè el ratolí ha aconseguit alliberar-lo.','Perquè té por de despertar els caçadors.','Perquè el ratolí li ha pres el seu cau.','Perquè encara està atrapat a la xarxa.'],'a','Al principi troba divertida l’oferta del petit animal; després en rep l’ajuda i li dona les gràcies.',[e('promesa','El lleó es va posar a riure'),e('ajuda','El lleó hi va poder passar i va quedar lliure'),e('final','Aquesta vegada ja no reia. «Gràcies»')],2)
     ]}),
   cultural({code:'S129',id:'sant-jordi-i-la-rosa',title:'Sant Jordi i la rosa',grade:'4',level:'middle',universeIds:['llegendes-mon'],
+    seconds: 95, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s129-mixed-v1.mp3', tracks: { introduction: './assets/audio/s129-mixed-v1-intro.mp3', body: './assets/audio/s129-mixed-v1-cos.mp3' },
+    fragment: { start: 6.54, seconds: 88 },
     introduction:'Comprensió oral. Sant Jordi i la rosa. Una llegenda de la tradició catalana.',
     summary:'La llegenda d’un drac que espanta una vila, una princesa i un cavaller, en una adaptació de la versió amb la rosa.',
     context:'Aquest relat forma part de les llegendes que s’expliquen per Sant Jordi. Potser ja en coneixes alguna versió. Escolta aquesta adaptació amb atenció: les preguntes fan referència als fets que sentiràs aquí.',

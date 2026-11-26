@@ -182,7 +182,7 @@ export async function productionDocuments(date) {
     if (isPublished(activities.find(entry => entry.code === code))) continue;
     const comparisons = progress(activities.find(entry => entry.code === code))?.receivedRepairs ?? [];
     const current = comparisons.find(repair => repair.part === name&&repair.trialId===part.trialId&&repair.candidateFile?.includes('/'+part.batch.toLowerCase()+'-'));
-    if ((!current && comparisons.some(repair => repair.part === name)) || current?.status === 'not-selected' || (!current?.applied && comparisons.some(repair => repair.part === name && repair.applied))) continue;
+    if ((!current && comparisons.some(repair => repair.part === name)) || ['not-selected', 'rejected-original-preferred', 'superseded-by-whole-retake'].includes(current?.status) || (!current?.applied && comparisons.some(repair => repair.part === name && repair.applied))) continue;
     const status = current?.applied ? 'Incorporada · pendent d’audició del muntatge' : current?.status === 'approved-awaiting-application' ? 'Validada · pendent d’incorporar' : current?.status?.startsWith('rejected-') ? 'Rebutjada · cal una altra prova' : 'Pendent d’audició';
     synthesis += row([code, part.trialId?`${repair?.text??name} · prova ${part.spokenText?.includes('raíls')?'raíls':'raïls'}`:repair?.text ?? name, status, `[${part.batch}](../proves/correccions-${part.batch.toLowerCase()}.html)`]);
   }

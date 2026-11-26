@@ -1,0 +1,88 @@
+{
+  "code": "S129",
+  "activity": "ca-S129",
+  "state": "awaiting-montage-validation",
+  "file": "s129-mixed-v1.mp3",
+  "introFile": "s129-mixed-v1-intro.mp3",
+  "bodyFile": "s129-mixed-v1-cos.mp3",
+  "offset": 6.54,
+  "bodyDuration": 87.73266666666666,
+  "fullDuration": 94.27266666666667,
+  "voices": {
+    "Narrador": "Algenib"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "a16e647266987a40b1e523ae8ecfd15122f720daf485fd84922a69c01b36ef62",
+  "sourceRequestHash": "5cd572a15b2ac1a4a16b848575903593998291635102dd1f58eeba033eee04bd",
+  "batch": "L41",
+  "rawSha256": "c77ea4c9487aeedc99d096607d46e7f299751a1b7069dcdb83a71beb23e6fa83",
+  "takeSha256": "4d0bc68d21083c74ff8adc1d7556baceec9127b0326e592da72197ef2130b608",
+  "coverage": 0.9693486590038314,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.37,
+  "peakDbTP": -2.49,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "licensed-narration-bed",
+      "origin": "licensed-library-music",
+      "compositionId": "incompetech-USUAN1400020",
+      "libraryId": "L1",
+      "title": "Teller of the Tales",
+      "author": "Kevin MacLeod",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400020",
+      "sourceSha256": "320b37a09fc37ec5962c975563541bee9bcbf1208b0181789248780286f4c1d4",
+      "sourceNotDistributedSeparately": true,
+      "sourceStart": 6,
+      "sourceSeconds": 206.37552083333333,
+      "loopCopies": 1,
+      "crossfadeSeconds": 0,
+      "retimed": false,
+      "underSpeech": true,
+      "sha256": "04d55cf1fb6cbebe4b24f5365d9da109bba8d0a3f72a53f5e5c4b79bf0d8db05",
+      "envelope": {
+        "fadeInSeconds": 0.6,
+        "duckStart": 0.3,
+        "duckEnd": 1.05,
+        "speechGain": 0.1,
+        "nominalSpeechMusicLufs": -43,
+        "riseStart": 83.53000833333337,
+        "riseEnd": 84.33000833333338,
+        "holdSeconds": 2,
+        "fadeStart": 86.33000833333338,
+        "fadeEnd": 87.48000833333339
+      },
+      "listeningValidation": "pending",
+      "start": 0
+    }
+  ],
+  "sha256": "6f0c4b43da31ede9cb24d6fb6d4debc957dd2bcb58ee74b8ec6207735df59e6a",
+  "voiceHandles": {
+    "body": {
+      "start": 0.4422916666666667,
+      "end": 82.75229166666666,
+      "retainedPcmSha256": "59d98acaf528157227b165248cfb52112b617b5982f0eec2c732184f79f34161",
+      "sourceSha256": "0f21320b8be306039b091c2c7b852192eba571448d25c33a466b3ce5f7d1c91f",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.025,
+      "end": 5.615,
+      "retainedPcmSha256": "d77f30ec9de51545d7c4f77f52fbbc5bed46969da2c325dcb547968868275fe8",
+      "sourceSha256": "4b660851ad850e86ac7fb33aa7a60f59a3e226f0ce78adac7a5e7f1271549dd1",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-26",
+    "sourceTakeSha256": "4d0bc68d21083c74ff8adc1d7556baceec9127b0326e592da72197ef2130b608",
+    "sourceBatch": "L41",
+    "confirmation": "Docent 26/11: validat per passar a muntatge S129, S130, S122, S070 i S128, amb el criteri de música de fons ja definit."
+  }
+}

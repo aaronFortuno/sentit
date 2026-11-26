@@ -1,6 +1,6 @@
 # Revisió independent de coherència
 
-Actualitzat: **26/11/2026**. **147 de 147** propostes de la tanda tenen revisió independent superada per a la versió actual. Abast: 1054 preguntes i 1335 cites literals.
+Actualitzat: **26/11/2026**. **147 de 147** propostes de la tanda tenen revisió independent superada per a la versió actual. Abast: 1054 preguntes i 1336 cites literals.
 
 S’han revisat situacions, cronologia, circulació d’objectes, coneixement dels personatges, causes i desenllaços, acotacions sonores, preguntes, respostes i ancoratges. Les dades factuals sensibles s’han contrastat amb fonts primàries indicades al [dossier editorial](lot-editorial-24.md). La revisió del muntatge és sobre el guió; les veus i el resultat sonor requeriran audició.
 
@@ -81,7 +81,7 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S068D](https://sentit.ortogra.fi/#lectura=ca-S068D) | El dinar al banc de l’estació · versió dialogada | 5è | Revisió superada · publicació definitiva | 2026-11-23 | `faf5b6b2ccb8…` |
 | [ca-S069](https://sentit.ortogra.fi/#lectura=ca-S069) | La pissarra del partit | 5è | Revisió superada · publicació definitiva | 2026-11-23 | `a9e9e02ec48b…` |
 | [ca-S069D](https://sentit.ortogra.fi/#lectura=ca-S069D) | La pissarra del partit · versió dialogada | 5è | Revisió superada · publicació definitiva | 2026-11-23 | `bf16fa6e87da…` |
-| [ca-S070](https://sentit.ortogra.fi/#lectura=ca-S070) | El dia que no va sonar el disc | 6è | Provisional · revisió superada | 2026-11-22 | `c329111785d5…` |
+| [ca-S070](https://sentit.ortogra.fi/#lectura=ca-S070) | El dia que no va sonar el disc | 6è | Revisió superada · àudio pendent | 2026-11-22 | `c329111785d5…` |
 | [ca-S071](https://sentit.ortogra.fi/#lectura=ca-S071) | Les dues entrades blaves | 5è | Revisió superada · publicació definitiva | 2026-11-25 | `6fbc947267ad…` |
 | [ca-S071D](https://sentit.ortogra.fi/#lectura=ca-S071D) | Les dues entrades blaves · versió dialogada | 5è | Revisió superada · publicació definitiva | 2026-11-23 | `e5a78cab5c4a…` |
 | [ca-S072](https://sentit.ortogra.fi/#lectura=ca-S072) | El quadern de la parada | 6è | Revisió superada · publicació definitiva | 2026-11-25 | `050e3758c3de…` |
@@ -107,7 +107,7 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S092](https://sentit.ortogra.fi/#lectura=ca-S092) | El carrer està tallat | 5è | Revisió superada · publicació definitiva | 2026-11-25 | `84d6f3b9df03…` |
 | [ca-S093](https://sentit.ortogra.fi/#lectura=ca-S093) | El tren que arriba abans | 6è | Revisió superada · publicació definitiva | 2026-11-26 | `73d15e8bf781…` |
 | [ca-S094](https://sentit.ortogra.fi/#lectura=ca-S094) | El paraigua no s’obre | 5è | Revisió superada · publicació definitiva | 2026-11-25 | `2b23227c9a7c…` |
-| [ca-S095](https://sentit.ortogra.fi/#lectura=ca-S095) | Un paquet massa llarg | 6è | Provisional · revisió superada | 2026-11-24 | `7ed0378eef4a…` |
+| [ca-S095](https://sentit.ortogra.fi/#lectura=ca-S095) | Un paquet massa llarg | 6è | Revisió superada · àudio pendent | 2026-11-26 | `02100f358d48…` |
 | [ca-S096](https://sentit.ortogra.fi/#lectura=ca-S096) | El banc de la placeta | 6è | Revisió superada · publicació definitiva | 2026-11-25 | `aff0cd6efcce…` |
 | [ca-S097](https://sentit.ortogra.fi/#lectura=ca-S097) | Quina parada em queda més a prop? | 5è | Revisió superada · publicació definitiva | 2026-11-25 | `e6fbfc105080…` |
 | [ca-S098](https://sentit.ortogra.fi/#lectura=ca-S098) | El tiquet d’una altra taula | 5è | Revisió superada · publicació definitiva | 2026-11-25 | `ced056785242…` |
@@ -134,27 +134,27 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S119](https://sentit.ortogra.fi/#lectura=ca-S119) | El concert busca un altre espai | 4t | Revisió superada · publicació definitiva | 2026-11-25 | `7eedb606d7b6…` |
 | [ca-S120](https://sentit.ortogra.fi/#lectura=ca-S120) | Com s’enganxa el velcro? | 3r | Revisió superada · publicació definitiva | 2026-11-26 | `b25a327a945c…` |
 | [ca-S121](https://sentit.ortogra.fi/#lectura=ca-S121) | L’ombra s’ha mogut | 3r | Revisió superada · publicació definitiva | 2026-11-25 | `cfe3583abdc3…` |
-| [ca-S122](https://sentit.ortogra.fi/#lectura=ca-S122) | Com conserva el fred una bossa tèrmica? | 4t | Provisional · revisió superada | 2026-11-25 | `87985c1ebba5…` |
+| [ca-S122](https://sentit.ortogra.fi/#lectura=ca-S122) | Com conserva el fred una bossa tèrmica? | 4t | Revisió superada · àudio pendent | 2026-11-25 | `87985c1ebba5…` |
 | [ca-S123](https://sentit.ortogra.fi/#lectura=ca-S123) | Per què ressona una sala buida? | 4t | Revisió superada · publicació definitiva | 2026-11-26 | `bfae01665d46…` |
 | [ca-S124](https://sentit.ortogra.fi/#lectura=ca-S124) | Posem nom als estoigs | 3r | Revisió superada · publicació definitiva | 2026-11-26 | `e6199a2c2f7f…` |
 | [ca-S125](https://sentit.ortogra.fi/#lectura=ca-S125) | Una capseta per a les pues | 4t | Revisió superada · publicació definitiva | 2026-11-26 | `256ef3ea2ab5…` |
 | [ca-S126](https://sentit.ortogra.fi/#lectura=ca-S126) | Com es prova un instrument reparat? | 5è | Revisió superada · publicació definitiva | 2026-11-26 | `290981379b88…` |
 | [ca-S127](https://sentit.ortogra.fi/#lectura=ca-S127) | Quan val la pena reparar un instrument? | 5è | Revisió superada · publicació definitiva | 2026-11-25 | `fe0f5bc96e5e…` |
-| [ca-S128](https://sentit.ortogra.fi/#lectura=ca-S128) | El lleó i el ratolí | 3r | Provisional · revisió superada | 2026-11-25 | `99615c0422a8…` |
-| [ca-S129](https://sentit.ortogra.fi/#lectura=ca-S129) | Sant Jordi i la rosa | 4t | Provisional · revisió superada | 2026-11-25 | `7d58aeacae24…` |
+| [ca-S128](https://sentit.ortogra.fi/#lectura=ca-S128) | El lleó i el ratolí | 3r | Revisió superada · àudio pendent | 2026-11-25 | `99615c0422a8…` |
+| [ca-S129](https://sentit.ortogra.fi/#lectura=ca-S129) | Sant Jordi i la rosa | 4t | Revisió superada · àudio pendent | 2026-11-25 | `7d58aeacae24…` |
 | [ca-S130](https://sentit.ortogra.fi/#lectura=ca-S130) | El fil d’Ariadna | 5è | Revisió superada · àudio pendent | 2026-11-25 | `937eeb698881…` |
 | [ca-S131](https://sentit.ortogra.fi/#lectura=ca-S131) | La guineu i el corb | 3r | Provisional · revisió superada | 2026-11-26 | `f43a868f0f1a…` |
 | [ca-S132](https://sentit.ortogra.fi/#lectura=ca-S132) | La llebre i la tortuga | 3r | Provisional · revisió superada | 2026-11-26 | `590f755cd2d9…` |
-| [ca-S133](https://sentit.ortogra.fi/#lectura=ca-S133) | El vent i el Sol | 4t | Provisional · revisió superada | 2026-11-26 | `bf6163ebccf2…` |
-| [ca-S134](https://sentit.ortogra.fi/#lectura=ca-S134) | El pastor i el llop | 4t | Provisional · revisió superada | 2026-11-26 | `33e0920e991f…` |
+| [ca-S133](https://sentit.ortogra.fi/#lectura=ca-S133) | El vent i el Sol | 4t | Provisional · revisió superada | 2026-11-26 | `a5b1503a512d…` |
+| [ca-S134](https://sentit.ortogra.fi/#lectura=ca-S134) | El pastor i el llop | 4t | Revisió superada · guió validat | 2026-11-26 | `33e0920e991f…` |
 | [ca-S135](https://sentit.ortogra.fi/#lectura=ca-S135) | El pont abans de l’alba | 4t | Provisional · revisió superada | 2026-11-26 | `914fa5c56884…` |
 | [ca-S136](https://sentit.ortogra.fi/#lectura=ca-S136) | Sant Mer i el drac de Banyoles | 4t | Provisional · revisió superada | 2026-11-26 | `8aab46b98203…` |
 | [ca-S137](https://sentit.ortogra.fi/#lectura=ca-S137) | El timbaler i el ressò | 5è | Provisional · revisió superada | 2026-11-26 | `4649f1c80aa3…` |
 | [ca-S138](https://sentit.ortogra.fi/#lectura=ca-S138) | El flautista d’Hamelín | 5è | Provisional · revisió superada | 2026-11-26 | `870f5f5fe6e9…` |
 | [ca-S139](https://sentit.ortogra.fi/#lectura=ca-S139) | El rei Mides | 5è | Provisional · revisió superada | 2026-11-26 | `2253394fdfd9…` |
 | [ca-S140](https://sentit.ortogra.fi/#lectura=ca-S140) | Dèdal i Ícar | 5è | Provisional · revisió superada | 2026-11-26 | `be3d2fa471e2…` |
-| [ca-S141](https://sentit.ortogra.fi/#lectura=ca-S141) | Demèter i Persèfone | 6è | Provisional · revisió superada | 2026-11-26 | `f80552650454…` |
-| [ca-S142](https://sentit.ortogra.fi/#lectura=ca-S142) | Hermes i la lira | 6è | Provisional · revisió superada | 2026-11-26 | `ad592bbca32a…` |
+| [ca-S141](https://sentit.ortogra.fi/#lectura=ca-S141) | Demèter i Persèfone | 6è | Revisió superada · guió validat | 2026-11-26 | `f80552650454…` |
+| [ca-S142](https://sentit.ortogra.fi/#lectura=ca-S142) | Hermes i la lira | 6è | Provisional · revisió superada | 2026-11-26 | `289dc4620077…` |
 
 Les empremtes completes i el revisor consten al [registre de revisions](../content/editorial-reviews.js). La marca provisional només apareix al web si l’empremta coincideix amb el contingut actual. Canviar el guió, les preguntes, les respostes, les pistes, el repartiment o l’escaleta invalida la revisió anterior. Les comprovacions detecten registres caducats abans de publicar.
 

@@ -261,34 +261,6 @@
       ]
     },
     {
-      "file": "assets/audio/repairs/l44-s095-mida-original.mp3",
-      "bytes": 170420,
-      "reasons": [
-        "pending-repair-comparison"
-      ]
-    },
-    {
-      "file": "assets/audio/repairs/l44-s095-mida-prova.mp3",
-      "bytes": 142052,
-      "reasons": [
-        "pending-repair-comparison"
-      ]
-    },
-    {
-      "file": "assets/audio/repairs/l44-s095-recollida-original.mp3",
-      "bytes": 136340,
-      "reasons": [
-        "pending-repair-comparison"
-      ]
-    },
-    {
-      "file": "assets/audio/repairs/l44-s095-recollida-prova.mp3",
-      "bytes": 114692,
-      "reasons": [
-        "pending-repair-comparison"
-      ]
-    },
-    {
       "file": "assets/audio/repairs/l44-s102-sentit-original.mp3",
       "bytes": 135548,
       "reasons": [
@@ -1367,10 +1339,17 @@
       ]
     },
     {
-      "file": "assets/audio/s070-voices-review-v2.mp3",
-      "bytes": 1292948,
+      "file": "assets/audio/s070-mixed-v1-cos.mp3",
+      "bytes": 1287452,
       "reasons": [
-        "pending-voice-review"
+        "modular-service-tracks"
+      ]
+    },
+    {
+      "file": "assets/audio/s070-mixed-v1-intro.mp3",
+      "bytes": 45740,
+      "reasons": [
+        "modular-service-tracks"
       ]
     },
     {
@@ -1724,10 +1703,17 @@
       ]
     },
     {
-      "file": "assets/audio/s095-voices-review-v1.mp3",
-      "bytes": 1301276,
+      "file": "assets/audio/s095-mixed-v1-cos.mp3",
+      "bytes": 1280372,
       "reasons": [
-        "pending-voice-review"
+        "modular-service-tracks"
+      ]
+    },
+    {
+      "file": "assets/audio/s095-mixed-v1-intro.mp3",
+      "bytes": 38588,
+      "reasons": [
+        "modular-service-tracks"
       ]
     },
     {
@@ -2081,10 +2067,17 @@
       ]
     },
     {
-      "file": "assets/audio/s122-voices-review-v2.mp3",
-      "bytes": 970580,
+      "file": "assets/audio/s122-mixed-v1-cos.mp3",
+      "bytes": 967172,
       "reasons": [
-        "pending-voice-review"
+        "modular-service-tracks"
+      ]
+    },
+    {
+      "file": "assets/audio/s122-mixed-v1-intro.mp3",
+      "bytes": 46436,
+      "reasons": [
+        "modular-service-tracks"
       ]
     },
     {
@@ -2158,17 +2151,31 @@
       ]
     },
     {
-      "file": "assets/audio/s128-voices-review-v2.mp3",
-      "bytes": 847628,
+      "file": "assets/audio/s128-mixed-v1-cos.mp3",
+      "bytes": 828764,
       "reasons": [
-        "pending-voice-review"
+        "modular-service-tracks"
       ]
     },
     {
-      "file": "assets/audio/s129-voices-review-v2.mp3",
-      "bytes": 1163924,
+      "file": "assets/audio/s128-mixed-v1-intro.mp3",
+      "bytes": 73148,
       "reasons": [
-        "pending-voice-review"
+        "modular-service-tracks"
+      ]
+    },
+    {
+      "file": "assets/audio/s129-mixed-v1-cos.mp3",
+      "bytes": 1126076,
+      "reasons": [
+        "modular-service-tracks"
+      ]
+    },
+    {
+      "file": "assets/audio/s129-mixed-v1-intro.mp3",
+      "bytes": 76532,
+      "reasons": [
+        "modular-service-tracks"
       ]
     },
     {
@@ -2183,6 +2190,62 @@
       "bytes": 66668,
       "reasons": [
         "modular-service-tracks"
+      ]
+    },
+    {
+      "file": "assets/audio/s131-voices-review-v1.mp3",
+      "bytes": 952964,
+      "reasons": [
+        "pending-voice-review"
+      ]
+    },
+    {
+      "file": "assets/audio/s132-voices-review-v1.mp3",
+      "bytes": 1004108,
+      "reasons": [
+        "pending-voice-review"
+      ]
+    },
+    {
+      "file": "assets/audio/s135-voices-review-v1.mp3",
+      "bytes": 1121300,
+      "reasons": [
+        "pending-voice-review"
+      ]
+    },
+    {
+      "file": "assets/audio/s136-voices-review-v1.mp3",
+      "bytes": 1203404,
+      "reasons": [
+        "pending-voice-review"
+      ]
+    },
+    {
+      "file": "assets/audio/s137-voices-review-v1.mp3",
+      "bytes": 1235180,
+      "reasons": [
+        "pending-voice-review"
+      ]
+    },
+    {
+      "file": "assets/audio/s138-voices-review-v1.mp3",
+      "bytes": 1539788,
+      "reasons": [
+        "pending-voice-review"
+      ]
+    },
+    {
+      "file": "assets/audio/s139-voices-review-v1.mp3",
+      "bytes": 1302380,
+      "reasons": [
+        "pending-voice-review"
+      ]
+    },
+    {
+      "file": "assets/audio/s140-voices-review-v1.mp3",
+      "bytes": 1240364,
+      "reasons": [
+        "pending-voice-review"
       ]
     },
     {

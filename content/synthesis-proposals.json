@@ -323,7 +323,7 @@
         "S134"
       ],
       "cast": "Narrador anònim · candidat Algenib, amb alternatives segons el lot",
-      "note": "Guions nous amb revisió independent superada, validació docent pendent. Cap síntesi. Fixar timbre i empremtes abans de congelar; es poden combinar universos per completar 6–8 minuts sense afegir farciment."
+      "note": "Part de les peces rebudes a L46. La resta es pot completar amb P32 després de validar les esmenes de S133/S142; no repetir preses rebudes."
     },
     {
       "id": "P30",
@@ -335,7 +335,7 @@
         "S138"
       ],
       "cast": "Narrador anònim · candidat Algenib, amb alternatives segons el lot",
-      "note": "Guions nous amb revisió independent superada, validació docent pendent. Cap síntesi. Fixar timbre i empremtes abans de congelar; es poden combinar universos per completar 6–8 minuts sense afegir farciment."
+      "note": "Quatre llegendes rebudes a L45, veus pendents d’audició abans del muntatge. Repertori L1–L3 validat."
     },
     {
       "id": "P31",
@@ -347,7 +347,19 @@
         "S142"
       ],
       "cast": "Narrador anònim · candidat Algenib, amb alternatives segons el lot",
-      "note": "Guions nous amb revisió independent superada, validació docent pendent. Cap síntesi. Fixar timbre i empremtes abans de congelar; es poden combinar universos per completar 6–8 minuts sense afegir farciment."
+      "note": "Part de les peces rebudes a L46. La resta es pot completar amb P32 després de validar les esmenes de S133/S142; no repetir preses rebudes."
+    },
+    {
+      "id": "P32",
+      "name": "Tancament de tradició: faules i mites",
+      "codes": [
+        "S133",
+        "S134",
+        "S141",
+        "S142"
+      ],
+      "cast": "Narrador anònim · Algenib",
+      "note": "S134/S141 ja validats; S133 amb passat corregit i S142 amb final reescrit esperen el vistiplau docent. Lot futur compatible de 6–8 minuts, sense petició fins a la validació exacta dels quatre guions."
     }
   ]
 }

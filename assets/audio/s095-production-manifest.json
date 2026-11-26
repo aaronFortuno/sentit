@@ -1,0 +1,100 @@
+{
+  "code": "S095",
+  "activity": "ca-S095",
+  "state": "awaiting-montage-validation",
+  "file": "s095-mixed-v1.mp3",
+  "introFile": "s095-mixed-v1-intro.mp3",
+  "bodyFile": "s095-mixed-v1-cos.mp3",
+  "offset": 4.01,
+  "bodyDuration": 103.68,
+  "fullDuration": 107.69,
+  "voices": {
+    "Ferran": "Algenib",
+    "Empleat": "Gacrux",
+    "Empleada": "Gacrux"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "aef37a3e56d6a4126206a0905030aad2bc53160804678de652431febf809e7e6",
+  "sourceRequestHash": "34a5580fb1f227c695880eedf777de9b6834e4e67406fc5e629f6902f4a40e21",
+  "batch": "L34",
+  "rawSha256": "e745dbb235852711298ebf545af5ec836adc9e26531e6290cf3c4e457a4ecadd",
+  "takeSha256": "b4ee57151a66ed8c7e4c63e8e030dd453bd1d02e2ccbb7601212fb3a21844712",
+  "coverage": 0.8906752411575563,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.89,
+  "peakDbTP": -2.48,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "bexhillcollege-274213",
+      "start": 0,
+      "source": "assets/audio/sources/bexhillcollege-274213-hallway.mp3",
+      "sourceSha256": "ac07b275131c3517007369de9cd2e3d566e6d0de9fc9ae7c7e3ac0345cbcc5f7",
+      "sourceUrl": "https://freesound.org/people/Bexhillcollege/sounds/274213/",
+      "author": "Bexhillcollege",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.06,
+      "openingGain": 0.12,
+      "raisedGain": 0.2,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -52.43697499232712,
+      "lowPassHz": 800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 6,
+        "seconds": 55.35733333333334
+      },
+      "envelope": {
+        "riseStart": 99.23999999999998,
+        "riseEnd": 100.03999999999999,
+        "holdSeconds": 1.0400000000000063,
+        "fadeStart": 101.08,
+        "fadeEnd": 102.48
+      }
+    }
+  ],
+  "sha256": "1757767033c5369a4144cdb9b588fbb6b680c7ccd2206c1c2b337a506c61a5d9",
+  "voiceHandles": {
+    "body": {
+      "start": 0.295,
+      "end": 98.475,
+      "retainedPcmSha256": "6328244881214caa1095ea4dbc91a54976e933510c5b5984033c6ddbe2b0368f",
+      "sourceSha256": "a4ba3a5740f36b408925b295f440bd70fc410e828998fdebc79cde22428873aa",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.3112083333333333,
+      "end": 3.371208333333333,
+      "retainedPcmSha256": "b8da140d2ad789562f2fb3ebd505f927c22c1ea2f4af0ec434c0c59ca2451b31",
+      "sourceSha256": "bfe44e3126fe860a8c14d10397b792bf42a6e78736ae5f3fe1b14136ca3d7187",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-26",
+    "sourceTakeSha256": "b4ee57151a66ed8c7e4c63e8e030dd453bd1d02e2ccbb7601212fb3a21844712",
+    "sourceBatch": "L34",
+    "confirmation": "Docent 26/11: conservar la presa original amb un empleat als dos primers torns fins a Aquí tenim poc espai i els tubs grans els van a buscar directament, i una empleada a partir de La primera recollida. Guió i il·lustració amb tres persones; validada per muntatge."
+  },
+  "roleAdaptation": {
+    "approvedAt": "2026-11-26",
+    "maleParts": [
+      "mida",
+      "recollida"
+    ],
+    "femaleParts": [
+      "franja",
+      "telefon",
+      "comiat"
+    ],
+    "spokenWordsChanged": false,
+    "sourceTakeSha256": "b4ee57151a66ed8c7e4c63e8e030dd453bd1d02e2ccbb7601212fb3a21844712",
+    "illustration": "./assets/images/s095-publicacio-v1.webp"
+  }
+}

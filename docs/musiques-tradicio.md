@@ -57,3 +57,7 @@ Modificacions dels fragments: segons 6–38 de cada original, ajust de sonoritat
 5. Presentar el muntatge al docent. Una tria musical no és la validació perceptiva del muntatge final.
 
 **S130 · El fil d’Ariadna:** veus de L41 validades pel docent el 26/11. Presa `S130-T01`, SHA-256 `de7def44287bd5ae73ee7d493c900bd0e86b2e735ec0d78148a8266790a12fc4`. Primer muntatge amb **M1 · Temple of the Manes**, pendent d’audició. Base contínua molt baixa sota el relat, pujada de dos segons i fosa final; sense efectes afegits ni canvi de ritme de la veu. Títol i relat separats al web, màster complet local. [Escoltar i revisar S130](https://sentit.ortogra.fi/#lectura=ca-S130). Sense peticions noves a Gemini ni canvis del guió o les preguntes.
+
+## Primers usos reals
+
+S128 amb F1, S129 amb L1 i S130 amb M1. Els tres muntatges esperen l’audició del docent; l’aprovació del repertori i de les veus continua separada de la publicació definitiva. Les pròximes produccions alternaran amb F4/F5/F6, L2/L3 o M2/M3 segons l’univers i el caràcter del relat.

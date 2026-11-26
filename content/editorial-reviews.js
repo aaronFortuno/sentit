@@ -615,9 +615,9 @@ export const editorialReviews = {
   },
   "ca-S095": {
     "status": "passed",
-    "reviewedAt": "2026-11-24",
-    "reviewer": "revisio_tancament_s027",
-    "fingerprint": "7ed0378eef4a769903b2c525ca116fda8179722e7f2c2dab256cbbbcb2a5eb3d"
+    "reviewedAt": "2026-11-26",
+    "reviewer": "revisio_esmenes_fonts_20261126",
+    "fingerprint": "02100f358d48f5665d0578cde25f9cca7ff53ac99c2fdfeac6c4c3eed95d4661"
   },
   "ca-S096": {
     "status": "passed",
@@ -843,9 +843,9 @@ export const editorialReviews = {
   },
   "ca-S133": {
     "status": "passed",
-    "reviewer": "autoria_llegendes_135_138",
     "reviewedAt": "2026-11-26",
-    "fingerprint": "bf6163ebccf2614fb30f7b41f71815e388e18ed63c7aa2f7200bafa43b21824c"
+    "reviewer": "revisio_esmenes_fonts_20261126",
+    "fingerprint": "a5b1503a512d4b45756793514459340565ad4f06f98b55227036c24e424c9558"
   },
   "ca-S134": {
     "status": "passed",
@@ -897,8 +897,8 @@ export const editorialReviews = {
   },
   "ca-S142": {
     "status": "passed",
-    "reviewer": "/root/autoria_faules_131_134",
     "reviewedAt": "2026-11-26",
-    "fingerprint": "ad592bbca32a94a67de10b9e4d3ffe970d352e4a45b83c8736e9fab8c0d67ff4"
+    "reviewer": "revisio_esmenes_fonts_20261126",
+    "fingerprint": "289dc4620077ae471d9e57830f64b5e3615e1079d348d168cbe8af55c7a40dbd"
   }
 };

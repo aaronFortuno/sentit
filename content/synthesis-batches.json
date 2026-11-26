@@ -1674,6 +1674,82 @@
       "estimatedInputTokens": 1280,
       "receipt": "assets/audio/synthesis-batches/l44.json",
       "completedAt": "2026-11-26T07:49:49.615Z"
+    },
+    {
+      "id": "L45",
+      "state": "received",
+      "speechTextFormat": "plain-v1",
+      "styleFormat": "compact-v1",
+      "execution": "background-v1",
+      "createdAt": "2026-11-26T14:29:34.980Z",
+      "authorization": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+      "note": "Quatre llegendes completes amb el mateix narrador Algenib. Text pla; cap marca literal de pausa. Només veus per audició docent abans del muntatge. Repertori L1–L3 validat per al muntatge posterior.",
+      "blocks": [
+        {
+          "code": "S135",
+          "take": "S135-T01",
+          "sourceRequestHash": "dcd9647072b1c912eb2601547da7d7f57cc6541c736d320568e7b9df4c3d0d44"
+        },
+        {
+          "code": "S136",
+          "take": "S136-T01",
+          "sourceRequestHash": "4336badb9c5a40de1d8141b732fffd0448067e452fc4ce27a3392ee1992aabb4"
+        },
+        {
+          "code": "S137",
+          "take": "S137-T01",
+          "sourceRequestHash": "1952375f537081613e4e8c3a6ab00eb0dd3f1d6f5daa63593b7ab3c104b1b76e"
+        },
+        {
+          "code": "S138",
+          "take": "S138-T01",
+          "sourceRequestHash": "7c235e2cac85d835b70b29f2b875488079df02ae72cf66ef7070012d0813b050"
+        }
+      ],
+      "approvedAt": "2026-11-26T14:29:38.521Z",
+      "approvedRequestHash": "3402b7ae874c38c102c2e3bba9f629c25b1b9d6aaa1fe835d901041f4c06dd90",
+      "estimatedSeconds": 399,
+      "estimatedInputTokens": 3169,
+      "receipt": "assets/audio/synthesis-batches/l45.json",
+      "completedAt": "2026-11-26T14:32:35.452Z"
+    },
+    {
+      "id": "L46",
+      "state": "received",
+      "speechTextFormat": "plain-v1",
+      "styleFormat": "compact-v1",
+      "execution": "background-v1",
+      "createdAt": "2026-11-26T14:43:44.173Z",
+      "authorization": "Docent 26/11: passar a síntesi S131, S132, S139 i S140, entre els deu guions validats. Autorització vigent de lots compatibles de 6–8 minuts, una petició cada vegada.",
+      "note": "Dues faules i dos mites complets amb narrador anònim Algenib. Universos compatibles en veu i direcció; llibres i títols separats en local. S134/S141 esperen poder completar un altre lot amb S133/S142 després de la seva revisió docent. Cap muntatge abans d’audició.",
+      "blocks": [
+        {
+          "code": "S131",
+          "take": "S131-T01",
+          "sourceRequestHash": "149387ecf3a6fb33da89e032dcc1cc86c31cfc66477a3461a119b47ba5007ca9"
+        },
+        {
+          "code": "S132",
+          "take": "S132-T01",
+          "sourceRequestHash": "91ac45ca68e96b1e9dd6ee0d45fa6767f0c8c2a5ae2ee898c3d9242028bc4176"
+        },
+        {
+          "code": "S139",
+          "take": "S139-T01",
+          "sourceRequestHash": "5ea682a955f5c761afcc7223be81a51b8649380e067440a508ccaa1074600b95"
+        },
+        {
+          "code": "S140",
+          "take": "S140-T01",
+          "sourceRequestHash": "35e8f2567c66be3a62b21759dbb18eb93413671edbe4f6d55ebfeec698c3d452"
+        }
+      ],
+      "approvedAt": "2026-11-26T14:43:47.139Z",
+      "approvedRequestHash": "c83866d90107652b9335bbbe92d4d107b131e22468328cf5dbdd1e5c174a1d89",
+      "estimatedSeconds": 385,
+      "estimatedInputTokens": 2934,
+      "receipt": "assets/audio/synthesis-batches/l46.json",
+      "completedAt": "2026-11-26T14:47:10.477Z"
     }
   ],
   "calibration": {

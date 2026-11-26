@@ -16,7 +16,7 @@ export const listeningContexts = {
   'ca-S092': 'La Mar camina per un carrer amb moviment de gent. Quan arriba a una cantonada, veu que el pas no és com esperava i s’atura per preguntar. Escolta com explica on vol anar i què li proposen.',
   'ca-S093': 'La Mar és en una estació de tren que coneix poc. Abans de comprar el bitllet, s’acosta al taulell per demanar informació. Escolta quines opcions li expliquen i com va decidint què li convé.',
   'ca-S094': 'La Mar torna a una botiga on va fer una compra fa uns dies. Porta l’objecte i un paper a la bossa. Escolta què explica a la dependenta i com resolen la situació al taulell.',
-  'ca-S095': 'En Ferran ha preparat un paquet per a un familiar i el porta a un punt d’enviaments. Parla amb l’empleada per saber com el pot enviar. Escolta què comproven i què han de preparar per fer l’enviament.',
+  'ca-S095': 'En Ferran ha preparat un paquet per a un familiar i el porta a un punt d’enviaments. L’atenen un empleat i una empleada al mateix taulell. Escolta què comproven i què han de preparar per fer l’enviament.',
   'ca-S096': 'En Ferran entra en una oficina d’atenció ciutadana. Porta una explicació escrita i espera poder fer una gestió amb l’ajuda de la informadora. Escolta les preguntes que li fan i com va concretant el que vol comunicar.',
   'ca-S097': 'En Ferran és en una estació d’autobusos de fora i vol continuar el viatge. S’acosta a la taquilla amb la bossa i una adreça apuntada. Escolta la conversa amb la taquillera abans que compri el bitllet.',
   'ca-S098': 'La Laia s’acosta a la barra del restaurant per parlar amb l’Ona. Totes dues miren un paper i intenten aclarir una cosa de l’estona que hi ha passat amb en Biel. Escolta què recorda cadascuna.',
