@@ -1,0 +1,340 @@
+{
+  "code": "S109",
+  "activity": "ca-S109",
+  "state": "awaiting-montage-validation",
+  "file": "s109-mixed-v1.mp3",
+  "introFile": "s109-mixed-v1-intro.mp3",
+  "bodyFile": "s109-mixed-v1-cos.mp3",
+  "offset": 3.96,
+  "bodyDuration": 76.86,
+  "fullDuration": 80.82,
+  "voices": {
+    "Aina": "Zephyr",
+    "Ferran": "Algenib"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "repaired-mixed-take",
+  "requestHash": "ba773b2cf9c2af564a3b4231cc6d58e10968db6dfcb700f6952424200e209fd7",
+  "sourceRequestHash": "8fb8198d0661d5b2fc68e3fda6f12d1b180d52e1e7a983f83666d89c03f330e4",
+  "batch": "L37+L43+L43",
+  "sourceBatchRequests": [
+    {
+      "batch": "L37",
+      "requestHash": "f8f95587af9933a81a7732a732045a0094ec864fc0d9d79fb70e2daac13764d9",
+      "rawSha256": "b99990632ae375e147c0dbf518405868ce02ecf1fe1f18a401a94d3353feb027"
+    },
+    {
+      "batch": "L43",
+      "requestHash": "9960a95b4a6a51078cec246c7fc38c6fb297a46045a22136e5b69ded99107088",
+      "rawSha256": "3127c55a56722699ca68f41e45784946127d3ec95ed3d15add57bc122dd83995"
+    },
+    {
+      "batch": "L43",
+      "requestHash": "9960a95b4a6a51078cec246c7fc38c6fb297a46045a22136e5b69ded99107088",
+      "rawSha256": "3127c55a56722699ca68f41e45784946127d3ec95ed3d15add57bc122dd83995"
+    }
+  ],
+  "assembly": [
+    {
+      "part": "temps",
+      "text": "Pel passeig en trigaríem uns vint. Ara són les quatre i tenim fins a les cinc per tornar a casa. La mare ens vindrà a buscar llavors.",
+      "accepted": {
+        "part": "temps",
+        "text": "Pel passeig en trigaríem uns vint. Ara són les quatre i tenim fins a les cinc per tornar a casa. La mare ens vindrà a buscar llavors.",
+        "candidateFile": "assets/audio/repairs/l43-s109-temps-prova.mp3",
+        "candidateSha256": "08c27bed1ad498109c99b60bfab87c95d92dadf527760f18f54fb3f97a0ea649",
+        "batchRequestHash": "9960a95b4a6a51078cec246c7fc38c6fb297a46045a22136e5b69ded99107088",
+        "sourceTakeSha256": "19d485fc7d429f225f848b1ff866fd34ae162b265aca0341a9479f218159ea24",
+        "candidateTakeId": "S109-temps",
+        "sourceRequestHash": "b97377a8effc1d8cf8115b7a2d32e6364be7fce48193ec50e22a05caee690968"
+      },
+      "candidateRawFile": "C:\\Users\\afortun8\\Desktop\\Projects\\Escola\\output\\sentit-primera-tanda\\mixed-batches\\l43-9960a95b4a6a\\s109-temps.wav",
+      "candidateRawSha256": "3f75665c763d1a2659108af0c40ae3f09fade8397fe601259909f075e5f8621b",
+      "candidateBatch": "L43",
+      "candidateRawBatchSha256": "3127c55a56722699ca68f41e45784946127d3ec95ed3d15add57bc122dd83995",
+      "originalRange": {
+        "start": 37.07170833333333,
+        "end": 44.226708333333335,
+        "handles": [
+          -65.20354859712823,
+          -63.86461280451598
+        ]
+      },
+      "candidateRange": {
+        "start": 0.5892083333333333,
+        "end": 7.944208333333333,
+        "handles": [
+          -41.061038741215235,
+          -60.48176482250891
+        ]
+      },
+      "spoken": {
+        "start": 0.09499166666666725,
+        "end": 7.144991666666668
+      },
+      "gainDb": -0.9706184297344039,
+      "requestedGainDb": -0.9706184297344039,
+      "peakLimitedByGain": false,
+      "peakAfterGain": 25238,
+      "deltaSeconds": 0.2,
+      "outputStart": 37.07170833333333
+    },
+    {
+      "part": "final",
+      "text": "Tracte fet. I el pròxim cop posa’m les botes al costat de la porta, que avui he sortit ben mudat per anar a trepitjar bassals.",
+      "accepted": {
+        "part": "final",
+        "text": "Tracte fet. I el pròxim cop posa’m les botes al costat de la porta, que avui he sortit ben mudat per anar a trepitjar bassals.",
+        "candidateFile": "assets/audio/repairs/l43-s109-final-prova.mp3",
+        "candidateSha256": "af4e0763545b3baa2a65af067a0ef7af609d04d0d9583c460090ec33f36089ed",
+        "batchRequestHash": "9960a95b4a6a51078cec246c7fc38c6fb297a46045a22136e5b69ded99107088",
+        "sourceTakeSha256": "19d485fc7d429f225f848b1ff866fd34ae162b265aca0341a9479f218159ea24",
+        "candidateTakeId": "S109-final",
+        "sourceRequestHash": "b97377a8effc1d8cf8115b7a2d32e6364be7fce48193ec50e22a05caee690968"
+      },
+      "candidateRawFile": "C:\\Users\\afortun8\\Desktop\\Projects\\Escola\\output\\sentit-primera-tanda\\mixed-batches\\l43-9960a95b4a6a\\s109-final.wav",
+      "candidateRawSha256": "6ebed85d534eb662a144e5a8a5f42e08c30af7f39b1b9b390ece86deaa5cb918",
+      "candidateBatch": "L43",
+      "candidateRawBatchSha256": "3127c55a56722699ca68f41e45784946127d3ec95ed3d15add57bc122dd83995",
+      "originalRange": {
+        "start": 67.23670833333334,
+        "end": 74.46670833333333,
+        "handles": [
+          -59.67942035834926,
+          -72.24719895935549
+        ]
+      },
+      "candidateRange": {
+        "start": 0,
+        "end": 8.23,
+        "handles": [
+          -62.70477386496224,
+          -80.76657360480111
+        ]
+      },
+      "spoken": {
+        "start": 0.21000000000000085,
+        "end": 7.950000000000003
+      },
+      "gainDb": -0.3448140482921226,
+      "requestedGainDb": -0.3448140482921226,
+      "peakLimitedByGain": false,
+      "peakAfterGain": 26955,
+      "deltaSeconds": 1,
+      "outputStart": 67.43670833333333
+    }
+  ],
+  "requestHashIsCompositionChecksum": true,
+  "rawSha256": "addbed3f9f7678fefb2bd607081c6bdd3b8dca309bdfee06a3703dcf91a64a24",
+  "takeSha256": "addbed3f9f7678fefb2bd607081c6bdd3b8dca309bdfee06a3703dcf91a64a24",
+  "coverage": 0.8833333333333333,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.88,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "soaress-546234",
+      "start": 0,
+      "source": "assets/audio/sources/soaress-546234.mp3",
+      "sourceSha256": "1059086683943b6b8d679a9283eda0bf08a75c05cbc711b2ec6a14a276f5028c",
+      "sourceUrl": "https://freesound.org/people/soaress/sounds/546234/",
+      "author": "soaress",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.07,
+      "openingGain": 0.16,
+      "raisedGain": 0.23,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -51.09803919971486,
+      "lowPassHz": 3600,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 40,
+        "seconds": 90
+      },
+      "envelope": {
+        "riseStart": 72.52999166666665,
+        "riseEnd": 73.32999166666666,
+        "holdSeconds": 0.9300083333333475,
+        "fadeStart": 74.26,
+        "fadeEnd": 75.66000000000001
+      }
+    }
+  ],
+  "sha256": "9232b5dbadf553883507825087aa3eb4915001067f643bdd4dead78d801f654a",
+  "voiceHandles": {
+    "body": {
+      "start": 0.7159166666666666,
+      "end": 72.07591666666667,
+      "retainedPcmSha256": "9e687360e240375b88061681ab05857110ffe96dc917dc29db17207f00270805",
+      "sourceSha256": "ebdf6caec4863c9af4858b60096a8162ef564630f360553e282567802744b164",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.2567083333333333,
+      "end": 3.2667083333333333,
+      "retainedPcmSha256": "f8dedafee19c82c0e742bf8ff03c9b5d35983a690e9682be18ac4798161cc65e",
+      "sourceSha256": "6c1501652b126eda84b41dfbcd67775fff8c5811db77fc731aade83b3dc6098b",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-26",
+    "sourceTakeSha256": "addbed3f9f7678fefb2bd607081c6bdd3b8dca309bdfee06a3703dcf91a64a24",
+    "baseTakeSha256": "19d485fc7d429f225f848b1ff866fd34ae162b265aca0341a9479f218159ea24",
+    "confirmation": "Docent 26/11: S109 validat per muntatge amb les esmenes rebudes temps, final.",
+    "derivation": "Previously approved remaining speech plus the exact teacher-approved replacement; assembled playback still awaits montage audition.",
+    "repairs": [
+      {
+        "part": "temps",
+        "text": "Pel passeig en trigaríem uns vint. Ara són les quatre i tenim fins a les cinc per tornar a casa. La mare ens vindrà a buscar llavors.",
+        "candidateFile": "assets/audio/repairs/l43-s109-temps-prova.mp3",
+        "candidateSha256": "08c27bed1ad498109c99b60bfab87c95d92dadf527760f18f54fb3f97a0ea649",
+        "batchRequestHash": "9960a95b4a6a51078cec246c7fc38c6fb297a46045a22136e5b69ded99107088",
+        "sourceTakeSha256": "19d485fc7d429f225f848b1ff866fd34ae162b265aca0341a9479f218159ea24",
+        "candidateTakeId": "S109-temps",
+        "sourceRequestHash": "b97377a8effc1d8cf8115b7a2d32e6364be7fce48193ec50e22a05caee690968"
+      },
+      {
+        "part": "final",
+        "text": "Tracte fet. I el pròxim cop posa’m les botes al costat de la porta, que avui he sortit ben mudat per anar a trepitjar bassals.",
+        "candidateFile": "assets/audio/repairs/l43-s109-final-prova.mp3",
+        "candidateSha256": "af4e0763545b3baa2a65af067a0ef7af609d04d0d9583c460090ec33f36089ed",
+        "batchRequestHash": "9960a95b4a6a51078cec246c7fc38c6fb297a46045a22136e5b69ded99107088",
+        "sourceTakeSha256": "19d485fc7d429f225f848b1ff866fd34ae162b265aca0341a9479f218159ea24",
+        "candidateTakeId": "S109-final",
+        "sourceRequestHash": "b97377a8effc1d8cf8115b7a2d32e6364be7fce48193ec50e22a05caee690968"
+      }
+    ]
+  },
+  "repairApplication": {
+    "code": "S109",
+    "date": "2026-11-26",
+    "scope": "approved-repair",
+    "originalRawSha256": "19d485fc7d429f225f848b1ff866fd34ae162b265aca0341a9479f218159ea24",
+    "patchedSha256": "addbed3f9f7678fefb2bd607081c6bdd3b8dca309bdfee06a3703dcf91a64a24",
+    "originalSeconds": 74.46670833333333,
+    "seconds": 75.66670833333333,
+    "edits": [
+      {
+        "part": "temps",
+        "text": "Pel passeig en trigaríem uns vint. Ara són les quatre i tenim fins a les cinc per tornar a casa. La mare ens vindrà a buscar llavors.",
+        "accepted": {
+          "part": "temps",
+          "text": "Pel passeig en trigaríem uns vint. Ara són les quatre i tenim fins a les cinc per tornar a casa. La mare ens vindrà a buscar llavors.",
+          "candidateFile": "assets/audio/repairs/l43-s109-temps-prova.mp3",
+          "candidateSha256": "08c27bed1ad498109c99b60bfab87c95d92dadf527760f18f54fb3f97a0ea649",
+          "batchRequestHash": "9960a95b4a6a51078cec246c7fc38c6fb297a46045a22136e5b69ded99107088",
+          "sourceTakeSha256": "19d485fc7d429f225f848b1ff866fd34ae162b265aca0341a9479f218159ea24",
+          "candidateTakeId": "S109-temps",
+          "sourceRequestHash": "b97377a8effc1d8cf8115b7a2d32e6364be7fce48193ec50e22a05caee690968"
+        },
+        "candidateRawSha256": "3f75665c763d1a2659108af0c40ae3f09fade8397fe601259909f075e5f8621b",
+        "candidateBatch": "L43",
+        "candidateRawBatchSha256": "3127c55a56722699ca68f41e45784946127d3ec95ed3d15add57bc122dd83995",
+        "originalRange": {
+          "start": 37.07170833333333,
+          "end": 44.226708333333335,
+          "handles": [
+            -65.20354859712823,
+            -63.86461280451598
+          ]
+        },
+        "candidateRange": {
+          "start": 0.5892083333333333,
+          "end": 7.944208333333333,
+          "handles": [
+            -41.061038741215235,
+            -60.48176482250891
+          ]
+        },
+        "spoken": {
+          "start": 0.09499166666666725,
+          "end": 7.144991666666668
+        },
+        "gainDb": -0.9706184297344039,
+        "requestedGainDb": -0.9706184297344039,
+        "peakLimitedByGain": false,
+        "peakAfterGain": 25238,
+        "deltaSeconds": 0.2,
+        "outputStart": 37.07170833333333,
+        "candidateRawFile": "s109-temps.wav"
+      },
+      {
+        "part": "final",
+        "text": "Tracte fet. I el pròxim cop posa’m les botes al costat de la porta, que avui he sortit ben mudat per anar a trepitjar bassals.",
+        "accepted": {
+          "part": "final",
+          "text": "Tracte fet. I el pròxim cop posa’m les botes al costat de la porta, que avui he sortit ben mudat per anar a trepitjar bassals.",
+          "candidateFile": "assets/audio/repairs/l43-s109-final-prova.mp3",
+          "candidateSha256": "af4e0763545b3baa2a65af067a0ef7af609d04d0d9583c460090ec33f36089ed",
+          "batchRequestHash": "9960a95b4a6a51078cec246c7fc38c6fb297a46045a22136e5b69ded99107088",
+          "sourceTakeSha256": "19d485fc7d429f225f848b1ff866fd34ae162b265aca0341a9479f218159ea24",
+          "candidateTakeId": "S109-final",
+          "sourceRequestHash": "b97377a8effc1d8cf8115b7a2d32e6364be7fce48193ec50e22a05caee690968"
+        },
+        "candidateRawSha256": "6ebed85d534eb662a144e5a8a5f42e08c30af7f39b1b9b390ece86deaa5cb918",
+        "candidateBatch": "L43",
+        "candidateRawBatchSha256": "3127c55a56722699ca68f41e45784946127d3ec95ed3d15add57bc122dd83995",
+        "originalRange": {
+          "start": 67.23670833333334,
+          "end": 74.46670833333333,
+          "handles": [
+            -59.67942035834926,
+            -72.24719895935549
+          ]
+        },
+        "candidateRange": {
+          "start": 0,
+          "end": 8.23,
+          "handles": [
+            -62.70477386496224,
+            -80.76657360480111
+          ]
+        },
+        "spoken": {
+          "start": 0.21000000000000085,
+          "end": 7.950000000000003
+        },
+        "gainDb": -0.3448140482921226,
+        "requestedGainDb": -0.3448140482921226,
+        "peakLimitedByGain": false,
+        "peakAfterGain": 26955,
+        "deltaSeconds": 1,
+        "outputStart": 67.43670833333333,
+        "candidateRawFile": "s109-final.wav"
+      }
+    ],
+    "allOtherVoiceSamplesIdentical": true,
+    "voiceRetimed": false,
+    "pitchShifted": false,
+    "newRequests": 0,
+    "retainedRanges": [
+      {
+        "originalStart": 0,
+        "originalEnd": 37.07170833333333,
+        "outputStart": 0,
+        "sha256": "3832ac51391da8b77a950b0be7044d4366c36346069f14895d068ad8c77242fb"
+      },
+      {
+        "originalStart": 44.226708333333335,
+        "originalEnd": 67.23670833333334,
+        "outputStart": 44.42670833333333,
+        "sha256": "ea911225d1f5e7887bc9a2945bcbe030ae1f97c9f27fd89116abde0a1521d284"
+      },
+      {
+        "originalStart": 74.46670833333333,
+        "originalEnd": 74.46670833333333,
+        "outputStart": 75.66670833333333,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      }
+    ],
+    "originalRawFile": "s109-t01.wav",
+    "patchedFile": "patched-source.wav"
+  }
+}

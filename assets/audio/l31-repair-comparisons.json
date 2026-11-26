@@ -7,12 +7,14 @@
       "part": "alternativa",
       "text": "Des de la plaça anem pel carrer dels Til·lers fins a la farmàcia.",
       "pronunciation": "Til·lers has two consecutive lateral L sounds (l·l), a gently lengthened L, never the palatal LL of lluna. Keep the stressed open E and fluent natural Central Catalan. Do not read the middle dot or say the explanation.",
-      "status": "received-awaiting-listening",
+      "status": "rejected-awaiting-resynthesis",
       "originalFile": "assets/audio/repairs/l31-s010-alternativa-original.mp3",
       "candidateFile": "assets/audio/repairs/l31-s010-alternativa-prova.mp3",
       "sourceRawSha256": "5ae1ca4fd12bac21243b7e519981c14bdb2e34319cc06bdc1fbc318f91833fe4",
       "batchRequestHash": "a60fe358a66004eba2e6b742133d7f9780780baf5a8739a3a428828c3e6fa590",
-      "applied": false
+      "applied": false,
+      "rejectedAt": "2026-11-26",
+      "rejection": "Tillers; falta la geminació"
     },
     {
       "code": "S025",

@@ -25,11 +25,11 @@
         "text": "Des de la plaça anem pel carrer dels Til·lers fins a la farmàcia.",
         "pronunciation": "Til·lers has two consecutive lateral L sounds (l·l), a gently lengthened L, never the palatal LL of lluna. Keep the stressed open E and fluent natural Central Catalan. Do not read the middle dot or say the explanation.",
         "nextAttempt": {
+          "id": "S010-alternativa-v3",
           "status": "awaiting-compatible-batch",
-          "voice": "Puck",
           "speaker": "Biel",
-          "instruction": "Use the youthful male Biel/Puck voice throughout this sentence, never Laia/Leda. Keep Til·lers as the two lateral L sounds directed in the frozen plan.",
-          "id": "S010-alternativa-v2"
+          "voice": "Puck",
+          "instruction": "Keep the exact assigned voice. In Til·lers use a sustained alveolar lateral L-L across the syllable boundary, not the palatal LL. Slightly prolong /lː/ naturally, with the stressed E, without reading punctuation or instructions. Preserve all canonical words."
         }
       }
     ],
@@ -679,7 +679,14 @@
         "part": "final",
         "speaker": "Mar",
         "text": "Sí, està bé: plaça dels Til·lers, cap al centre. Gràcies per atendre’m. Adeu.",
-        "pronunciation": "In Til·lers, pronounce the L gemination clearly: an audible sustained double L /lː/ across the syllable boundary, never the palatal LL sound. Keep the natural Catalan word and the exact assigned adult female voice. Read the entire supplied turn once. Do not read this instruction."
+        "pronunciation": "In Til·lers, pronounce the L gemination clearly: an audible sustained double L /lː/ across the syllable boundary, never the palatal LL sound. Keep the natural Catalan word and the exact assigned adult female voice. Read the entire supplied turn once. Do not read this instruction.",
+        "nextAttempt": {
+          "id": "S102-final-r2",
+          "status": "awaiting-compatible-batch",
+          "speaker": "Mar",
+          "voice": "Erinome",
+          "instruction": "Keep the exact assigned voice. In Til·lers use a sustained alveolar lateral L-L across the syllable boundary, not the palatal LL. Slightly prolong /lː/ naturally, with the stressed E, without reading punctuation or instructions. Preserve all canonical words."
+        }
       }
     ],
     "application": "Comparar cada torn amb l’original abans d’aplicar-lo. Conservar intacta la primera menció de Til·lers de Mar (linia), validada pel docent. Cap canvi editorial ni aprovació automàtica de la resta de la presa.",
@@ -737,11 +744,11 @@
         "text": "Aquí tens el carro, amb una nansa a cada extrem. La bossa ja és dins d’aquesta funda. Obro la porta: prova’l.",
         "pronunciation": "Pronounce funda /ˈfun.də/ with stressed U and audible N followed by D: FUN-da, never funa or fona. Keep the adult male Elies/Algieba voice throughout the whole turn. Do not read this instruction.",
         "nextAttempt": {
-          "id": "S107-sortida-r2",
+          "id": "S107-sortida-r3",
+          "status": "awaiting-compatible-batch",
           "speaker": "Elies",
           "voice": "Algieba",
-          "status": "awaiting-compatible-batch",
-          "instruction": "Keep the exact adult male Elies/Algieba identity. Say the full canonical word funda with stressed U and the N-D transition, never fona or funa. Say carro with final O, never carre. Natural connected Catalan, not spelling; read only the supplied speech."
+          "instruction": "Same natural adult male Elies/Algieba. Clearly articulate the complete word funda, with U and N followed by D, as in the accepted S081 recording; never funa or fona. Keep all canonical words and natural pitch. Read speech only."
         }
       }
     ],
@@ -810,7 +817,7 @@
   },
   "S017": {
     "activity": "ca-S017",
-    "status": "approved-for-correction",
+    "status": "closed-original-accepted",
     "approvedAt": "2026-11-25",
     "approvalSource": "Docent 22/11: tornar a sintetitzar els dos paràgrafs finals de Mireia, junts i sense canvi de timbre ni crepitar.",
     "scope": "consecutive-spoken-turns",
@@ -835,7 +842,9 @@
       }
     ],
     "application": "Comparació d’original i esmena per audició docent. No aplicada al màster; originals preservats.",
-    "approvedRequestHash": "b70c268921d9e219ec20f3a6fe6d0ca35f19b72006933e3d8216f83b04605c4f"
+    "approvedRequestHash": "b70c268921d9e219ec20f3a6fe6d0ca35f19b72006933e3d8216f83b04605c4f",
+    "resolvedAt": "2026-11-26",
+    "resolution": "Docent 26/11: S017 validat per muntatge amb la versió original; no aplicar l’esmena rebuda."
   },
   "S041": {
     "activity": "ca-S041",

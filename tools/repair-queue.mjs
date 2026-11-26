@@ -16,7 +16,7 @@ export function repairQueue(entries, progress, plans) {
   };
   for (const entry of entries) {
     const state = progress[entry.language + '-' + entry.code];
-    if (!state || state.state === 'published') continue;
+    if (!state || state.state === 'published' || plans[entry.code]?.status === 'closed-original-accepted') continue;
     if (state.plannedRepair?.scope === 'whole-recording') {
       const plan = state.plannedRepair;
       if (plan.status === 'received-awaiting-listening') {

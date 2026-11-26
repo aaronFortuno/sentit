@@ -4,7 +4,7 @@ const fs=require('node:fs/promises'),path=require('node:path'),{createHash}=requ
 const {waveParts}=require('./gemini-result.cjs'),{wav}=require('./compact-mixed-pauses.cjs'),{repairRequest}=require('./audio-repairs.cjs');
 const root=path.resolve(__dirname,'..'),work=path.resolve(root,'../output/sentit-primera-tanda'),sha=b=>createHash('sha256').update(b).digest('hex');
 async function prepare(code){
- const config={S056:{part:'trasllat',prefixOnly:true},S097:{part:'hola',prefixOnly:false},S061:{titleOnly:true}}[code];
+ const config={S056:{part:'trasllat',prefixOnly:true},S097:{part:'hola',prefixOnly:false},S061:{titleOnly:true},S090:{part:'pilota',prefixOnly:false}}[code];
  if(!config)throw Error('No authorized opening restoration for this code');
  const {activities}=await import('../catalogue.js'),{productionProgress:p}=await import('../content/production-progress.js'),entry=activities.find(a=>a.code===code),state=p['ca-'+code],approval=state.repairApplicationApproval;
  const read=f=>fs.readFile(f,'utf8').then(JSON.parse),indexFile=path.join(work,'mixed-batches/takes.json'),index=await read(indexFile),plan=(await read(path.join(root,'content/audio-repairs.json')))[code],take=index[plan.sourceTakeId],batches=(await read(path.join(root,'content/synthesis-batches.json'))).batches;
@@ -40,6 +40,7 @@ async function prepare(code){
  const sourceBatchRequests=[{batch:take.batch,requestHash:take.batchRequestHash,rawSha256:take.rawBatchSha256},{batch:title.batch.id,requestHash:title.batch.approvedRequestHash,rawSha256:title.cut.rawBatchSha256}];
  const next={...take,id:code+'-REPAIRED',file:patchedFile,sha256:sha(patched),rawBatchSha256:sha(patched),batch:sourceBatchRequests.map(r=>r.batch).join('+'),batchRequestHash:sha(JSON.stringify(sourceBatchRequests)),sourceBatchRequests,repairApplication:record,spans,start:0,end:record.seconds,seconds:record.seconds,titleCut:newTitle,intro:{file:introFile,sha256:sha(titleBytes),seconds:newTitle},body:{file:bodyFile,sha256:sha(nextBody),seconds:bodyPcm.length/frame/rate},missingParts:[]};
  delete next.partialIntroduction;delete next.missingVoiceDetails;
+ if(code==='S090')delete next.omittedSpeech;
  for(const[file,bytes]of[[patchedFile,patched],[introFile,titleBytes],[bodyFile,nextBody]])await fs.writeFile(file,bytes,{flag:'wx'});
  await fs.writeFile(path.join(folder,'split.json'),JSON.stringify({silences:[],uncertainties:[],repairApplication:record},null,2)+'\n',{flag:'wx'});await fs.writeFile(path.join(folder,'usage.json'),JSON.stringify({usage:null,sharedRequests:sourceBatchRequests},null,2)+'\n',{flag:'wx'});await fs.writeFile(path.join(folder,'repair-application.json'),JSON.stringify(record,null,2)+'\n',{flag:'wx'});
  index[next.id]=next;await fs.writeFile(indexFile,JSON.stringify(index,null,2)+'\n');

@@ -108,7 +108,7 @@ Biel i Elies · Puck + Algieba. Les lectures són independents; no cal haver-ne 
 | [ca-S078](https://sentit.ortogra.fi/#lectura=ca-S078) | El soroll que seguia la cadira | 5è · Accessible | Diàleg | 1:39 | 8 | Definitiva |
 | [ca-S079](https://sentit.ortogra.fi/#lectura=ca-S079) | Una funda que no tanca | 5è · Intermèdia | Diàleg | 1:45 | 8 | Definitiva |
 | [ca-S080](https://sentit.ortogra.fi/#lectura=ca-S080) | El segon assaig sona lluny | 6è · Accessible | Diàleg | 1:50 | 9 | Definitiva |
-| [ca-S081](https://sentit.ortogra.fi/#lectura=ca-S081) | La guitarra del concert de divendres | 5è · Avançada | Diàleg | Prevista 3:05–3:40 | 8 | Provisional · pendent del docent |
+| [ca-S081](https://sentit.ortogra.fi/#lectura=ca-S081) | La guitarra del concert de divendres | 5è · Avançada | Diàleg | 2:23 | 8 | Àudio en revisió |
 | [ca-S082](https://sentit.ortogra.fi/#lectura=ca-S082) | El so que volíem gravar | 6è · Avançada | Diàleg | 2:43 | 9 | Definitiva · curs per valorar després d’escoltar |
 
 [Filtra el catàleg per aquest repartiment](https://sentit.ortogra.fi/?personatge=biel&personatge=elies&coincidencia=tots) · [Guions i escaletes del bloc](../content/propostes/tanda4/taller.js). El filtre també pot mostrar peces de tandes anteriors; activa «Només provisionals» per revisar feina oberta. Les acotacions descriuen recursos proposats, no gravacions ja produïdes.

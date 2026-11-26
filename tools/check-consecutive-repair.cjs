@@ -15,10 +15,12 @@ const {repairRequest}=require('./audio-repairs.cjs'),{buildBatch}=require('./syn
  assert.throws(()=>repairRequest(entry,mutate({text:expected+' Paraula afegida.'})),/text complet/);
  assert.throws(()=>repairRequest(entry,mutate({sourceParts:['sortida','coordinacio'],part:'sortida'})),/mateixa veu/);
  const awaiting={...productionProgress,'ca-S017':{...productionProgress['ca-S017'],receivedRepairs:[]}};
- const queue=repairQueue(activities,awaiting,repairs);assert.equal(queue.queued.filter(r=>r.code==='S017').length,1,'No duplicate second paragraph from feedback');
+ const historicRepairs={...repairs,S017:{...plan,status:'approved-for-correction'}};
+ const queue=repairQueue(activities,awaiting,historicRepairs);assert.equal(queue.queued.filter(r=>r.code==='S017').length,1,'No duplicate second paragraph from feedback');
  const progress={...productionProgress,'ca-S017':{...productionProgress['ca-S017'],receivedRepairs:[{part:'coordinacio',sourceParts:ids,status:'received-awaiting-listening',candidateFile:'test.mp3'}]}};
- assert.equal(repairQueue(activities,progress,repairs).queued.filter(r=>r.code==='S017').length,0,'Both source paragraphs are covered by the received take');
+ assert.equal(repairQueue(activities,progress,historicRepairs).queued.filter(r=>r.code==='S017').length,0,'Both source paragraphs are covered by the received take');
+ if(plan.status==='closed-original-accepted')assert(!repairQueue(activities,productionProgress,repairs).queued.some(r=>r.code==='S017'),'Teacher-retained original must never re-enter the queue');
  const batch=batches.batches.find(b=>b.id==='L40'),saved=batch.blocks.filter(b=>b.take).map(b=>{const entry=activities.find(e=>e.code===b.code);return{entry,audio:entry.audio};});
- try{for(const{entry}of saved)entry.audio=null;const built=await buildBatch(activities,plans,repairs,batch),block=built.blocks.find(b=>b.code==='S017');assert.equal(block.items.length,1);assert.equal(block.items[0].text,expected);assert.equal(block.items[0].voice,'Aoede');assert.equal(built.voices.length,2);}finally{for(const{entry,audio}of saved)entry.audio=audio;}
+ try{for(const{entry}of saved)entry.audio=null;if(plan.status==='closed-original-accepted')await assert.rejects(buildBatch(activities,plans,repairs,batch),/no autoritzada/);const built=await buildBatch(activities,plans,historicRepairs,batch),block=built.blocks.find(b=>b.code==='S017');assert.equal(block.items.length,1);assert.equal(block.items[0].text,expected);assert.equal(block.items[0].voice,'Aoede');assert.equal(built.voices.length,2);}finally{for(const{entry,audio}of saved)entry.audio=audio;}
  console.log('PASS · S017 consecutive canonical paragraphs in one Aoede take; edits, reordering and mixed speakers rejected; no duplicate queue or new request.');
 })().catch(e=>{console.error(e.stack);process.exitCode=1});

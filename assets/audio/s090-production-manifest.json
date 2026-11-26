@@ -1,0 +1,198 @@
+{
+  "code": "S090",
+  "activity": "ca-S090",
+  "state": "awaiting-montage-validation",
+  "file": "s090-mixed-v1.mp3",
+  "introFile": "s090-mixed-v1-intro.mp3",
+  "bodyFile": "s090-mixed-v1-cos.mp3",
+  "offset": 3.81,
+  "bodyDuration": 59.02,
+  "fullDuration": 62.83,
+  "voices": {
+    "Laia": "Leda",
+    "Biel": "Puck"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "repaired-mixed-take",
+  "requestHash": "78eef507cf1dac74e4a5837413f1484c38828de6fa834fe9aedfcfd3c1de330c",
+  "sourceRequestHash": "40a82a02916946c359f537bbbe148477b2df8f63c56dc4dfdbaad9bbec849f75",
+  "batch": "L31+L42",
+  "sourceBatchRequests": [
+    {
+      "batch": "L31",
+      "requestHash": "a60fe358a66004eba2e6b742133d7f9780780baf5a8739a3a428828c3e6fa590",
+      "rawSha256": "bd17485cca82d19a097a226a1f1287a035db454d787194c9e781fa088a9d8555"
+    },
+    {
+      "batch": "L42",
+      "requestHash": "8c88a52f86f88e6e32937a960ccaad2dbd0c0d7033a3ee64b278fb2175c7f25e",
+      "rawSha256": "77c2b7dbf5472bb7c748c0e50f5e260958fd9dabcafd06ae589622e63fbc27ba"
+    }
+  ],
+  "requestHashIsCompositionChecksum": true,
+  "rawSha256": "4b07e8697e0448aeac95cd52843a0fd25fe3939284adf28849cb7362c8f6b3cd",
+  "takeSha256": "4b07e8697e0448aeac95cd52843a0fd25fe3939284adf28849cb7362c8f6b3cd",
+  "coverage": 0.8181818181818182,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.96,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "soaress-546234",
+      "start": 0,
+      "source": "assets/audio/sources/soaress-546234.mp3",
+      "sourceSha256": "1059086683943b6b8d679a9283eda0bf08a75c05cbc711b2ec6a14a276f5028c",
+      "sourceUrl": "https://freesound.org/people/soaress/sounds/546234/",
+      "author": "soaress",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.07,
+      "openingGain": 0.16,
+      "raisedGain": 0.23,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -51.09803919971486,
+      "lowPassHz": 3600,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 40,
+        "seconds": 90
+      },
+      "envelope": {
+        "riseStart": 54.760000000000005,
+        "riseEnd": 55.56,
+        "holdSeconds": 0.8599999999999994,
+        "fadeStart": 56.42,
+        "fadeEnd": 57.82
+      }
+    }
+  ],
+  "sha256": "ae0ff134a6f47704490c5f151afb10335488b37724cc092a9c332bc1ca25041b",
+  "voiceHandles": {
+    "body": {
+      "start": 0.055,
+      "end": 53.575,
+      "retainedPcmSha256": "93f460411b6c2f6c7228f72e9b61f5671fcdcac1b498cba9e4da2f43b20f6ab2",
+      "sourceSha256": "6a9fcdbc22cb2aee3e3ff1f38209716df5b63632f21d2bf879ea870cc0ae84ec",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.205,
+      "end": 3.065,
+      "retainedPcmSha256": "47b86ac34758e7a9198d43db9667a03cbb10ae9c9b2a7a28261d0bb3519f4007",
+      "sourceSha256": "26f22f310b3d72cd95972d6b7a01f0a18f1b793263735cc0f754642ff53421fd",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-26",
+    "sourceTakeSha256": "4b07e8697e0448aeac95cd52843a0fd25fe3939284adf28849cb7362c8f6b3cd",
+    "baseTakeSha256": "8f7f465eadc453b44bfc28b97cd2e956afd4c4950741c66cd88576c076e234b5",
+    "confirmation": "Docent 26/11: S090 validat per muntatge amb les esmenes rebudes introduction, pilota.",
+    "derivation": "Previously approved complete body, plus the exact teacher-approved opening clips. Full montage still awaits listening.",
+    "repairs": [
+      {
+        "part": "introduction",
+        "text": "Comprensió oral. Ens falta espai per jugar.",
+        "candidateFile": "assets/audio/repairs/l42-s090-introduction-prova.mp3",
+        "candidateSha256": "960e48900746141d0ebf9e554462269a24e75147bc5da33699386ba01e2a956a",
+        "batchRequestHash": "8c88a52f86f88e6e32937a960ccaad2dbd0c0d7033a3ee64b278fb2175c7f25e",
+        "sourceTakeSha256": "8f7f465eadc453b44bfc28b97cd2e956afd4c4950741c66cd88576c076e234b5",
+        "candidateTakeId": "S090-introduction",
+        "sourceRequestHash": "ec493323fe29d5e206c967e4db3450dee7af041004ff0e86e6b79455d893b902"
+      },
+      {
+        "part": "pilota",
+        "text": "Biel, la pilota! Agafa-la, que va cap al camí!",
+        "candidateFile": "assets/audio/repairs/l42-s090-pilota-prova.mp3",
+        "candidateSha256": "06304fc9c2633c2ea627c05b33fc4bd4d7aa96bf6bf1666baecfdb48866c6e76",
+        "batchRequestHash": "8c88a52f86f88e6e32937a960ccaad2dbd0c0d7033a3ee64b278fb2175c7f25e",
+        "sourceTakeSha256": "8f7f465eadc453b44bfc28b97cd2e956afd4c4950741c66cd88576c076e234b5",
+        "candidateTakeId": "S090-pilota",
+        "sourceRequestHash": "ec493323fe29d5e206c967e4db3450dee7af041004ff0e86e6b79455d893b902"
+      }
+    ]
+  },
+  "repairApplication": {
+    "code": "S090",
+    "date": "2026-11-26",
+    "scope": "approved-repair",
+    "originalRawSha256": "8f7f465eadc453b44bfc28b97cd2e956afd4c4950741c66cd88576c076e234b5",
+    "originalBodySha256": "8f7f465eadc453b44bfc28b97cd2e956afd4c4950741c66cd88576c076e234b5",
+    "patchedSha256": "4b07e8697e0448aeac95cd52843a0fd25fe3939284adf28849cb7362c8f6b3cd",
+    "seconds": 56.695,
+    "edits": [
+      {
+        "part": "introduction",
+        "text": "Comprensió oral. Ens falta espai per jugar.",
+        "accepted": {
+          "part": "introduction",
+          "text": "Comprensió oral. Ens falta espai per jugar.",
+          "candidateFile": "assets/audio/repairs/l42-s090-introduction-prova.mp3",
+          "candidateSha256": "960e48900746141d0ebf9e554462269a24e75147bc5da33699386ba01e2a956a",
+          "batchRequestHash": "8c88a52f86f88e6e32937a960ccaad2dbd0c0d7033a3ee64b278fb2175c7f25e",
+          "sourceTakeSha256": "8f7f465eadc453b44bfc28b97cd2e956afd4c4950741c66cd88576c076e234b5",
+          "candidateTakeId": "S090-introduction",
+          "sourceRequestHash": "ec493323fe29d5e206c967e4db3450dee7af041004ff0e86e6b79455d893b902"
+        },
+        "candidateRawSha256": "901780a839e3dcb36796dec172cab16af6a5b53b0930de1ebffb0fa20a12e414",
+        "candidateBatch": "L42",
+        "candidateRawBatchSha256": "77c2b7dbf5472bb7c748c0e50f5e260958fd9dabcafd06ae589622e63fbc27ba",
+        "candidateRange": {
+          "start": 0,
+          "end": 3.12
+        },
+        "outputStart": 0,
+        "operation": "insert-omitted-introduction",
+        "gainDb": 0,
+        "candidateRawFile": "s090-introduction.wav"
+      },
+      {
+        "part": "pilota",
+        "text": "Biel, la pilota! Agafa-la, que va cap al camí!",
+        "accepted": {
+          "part": "pilota",
+          "text": "Biel, la pilota! Agafa-la, que va cap al camí!",
+          "candidateFile": "assets/audio/repairs/l42-s090-pilota-prova.mp3",
+          "candidateSha256": "06304fc9c2633c2ea627c05b33fc4bd4d7aa96bf6bf1666baecfdb48866c6e76",
+          "batchRequestHash": "8c88a52f86f88e6e32937a960ccaad2dbd0c0d7033a3ee64b278fb2175c7f25e",
+          "sourceTakeSha256": "8f7f465eadc453b44bfc28b97cd2e956afd4c4950741c66cd88576c076e234b5",
+          "candidateTakeId": "S090-pilota",
+          "sourceRequestHash": "ec493323fe29d5e206c967e4db3450dee7af041004ff0e86e6b79455d893b902"
+        },
+        "candidateRawSha256": "4add269276aadc5556a6cc938a5798349b075fb4807dba0f1daa7901e0f41f59",
+        "candidateBatch": "L42",
+        "candidateRawBatchSha256": "77c2b7dbf5472bb7c748c0e50f5e260958fd9dabcafd06ae589622e63fbc27ba",
+        "candidateRange": {
+          "start": 0,
+          "end": 3.275
+        },
+        "outputStart": 3.12,
+        "operation": "insert-omitted-opening-turn",
+        "gainDb": 0,
+        "candidateRawFile": "s090-pilota.wav"
+      }
+    ],
+    "insertedSilenceSeconds": 0.15,
+    "allOtherVoiceSamplesIdentical": true,
+    "voiceRetimed": false,
+    "pitchShifted": false,
+    "newRequests": 0,
+    "retainedRanges": [
+      {
+        "originalStart": 0,
+        "originalEnd": 50.15,
+        "outputStart": 6.545,
+        "sha256": "fe327e2cacad64ff63a9d4511bc45bacecf86d22c43bc51c4015c7230b337571",
+        "originalFile": "s090-t01.wav"
+      }
+    ],
+    "originalBodyFile": "s090-t01.wav",
+    "originalRawFile": "s090-t01.wav",
+    "patchedFile": "patched-source.wav"
+  }
+}

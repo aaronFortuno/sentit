@@ -1,0 +1,231 @@
+{
+  "code": "S088",
+  "activity": "ca-S088",
+  "state": "awaiting-montage-validation",
+  "file": "s088-mixed-v1.mp3",
+  "introFile": "s088-mixed-v1-intro.mp3",
+  "bodyFile": "s088-mixed-v1-cos.mp3",
+  "offset": 4.78,
+  "bodyDuration": 70.12020833333334,
+  "fullDuration": 74.90020833333334,
+  "voices": {
+    "Ferran": "Algenib",
+    "Bibliotecari": "Achird"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "repaired-mixed-take",
+  "requestHash": "5ed59232b69faa60d8941f58707e2257e023d90a4ae4a53f0fcb54d6435c3fd6",
+  "sourceRequestHash": "ef1f07c24cbb5769cb10de71c6b015f6770ea9a403e47b84aed444e8b27db170",
+  "batch": "L30+L43",
+  "sourceBatchRequests": [
+    {
+      "batch": "L30",
+      "requestHash": "e976118d4059a3906fef68d10a896878017b880860e49a669844b0cafb799cb1",
+      "rawSha256": "04afb60c95adf853ada0d0585d59cf29947e8f0ea242907727c74bdce86491cf"
+    },
+    {
+      "batch": "L43",
+      "requestHash": "9960a95b4a6a51078cec246c7fc38c6fb297a46045a22136e5b69ded99107088",
+      "rawSha256": "3127c55a56722699ca68f41e45784946127d3ec95ed3d15add57bc122dd83995"
+    }
+  ],
+  "assembly": [
+    {
+      "part": "hola",
+      "text": "Bon dia. Vinc a tornar la novel·la que em vaig endur. Em falta llegir l’últim capítol, però em sembla que l’havia de tornar avui. Em podríeu deixar uns dies més?",
+      "accepted": {
+        "part": "hola",
+        "text": "Bon dia. Vinc a tornar la novel·la que em vaig endur. Em falta llegir l’últim capítol, però em sembla que l’havia de tornar avui. Em podríeu deixar uns dies més?",
+        "candidateFile": "assets/audio/repairs/l43-s088-hola-prova.mp3",
+        "candidateSha256": "05e9b69243685065401fd804400ca05bcbf07e0bba45e62589167421ded46543",
+        "batchRequestHash": "9960a95b4a6a51078cec246c7fc38c6fb297a46045a22136e5b69ded99107088",
+        "sourceTakeSha256": "bc242d90a2e17f16242d9bd8f2d3af8281b2d18548f4172539851e7fa4bd7888",
+        "candidateTakeId": "S088-hola",
+        "sourceRequestHash": "e2075224c586efb6ff249dbcf23b3a286eff4556a72ee4599c38d09d8e4c8977"
+      },
+      "candidateRawFile": "C:\\Users\\afortun8\\Desktop\\Projects\\Escola\\output\\sentit-primera-tanda\\mixed-batches\\l43-9960a95b4a6a\\s088-hola.wav",
+      "candidateRawSha256": "1e8da33a5ab831671cf8de106e7103cd6ea6ff774233b6c271596335d41f7e89",
+      "candidateBatch": "L43",
+      "candidateRawBatchSha256": "3127c55a56722699ca68f41e45784946127d3ec95ed3d15add57bc122dd83995",
+      "originalRange": {
+        "start": 4.96,
+        "end": 11.2,
+        "handles": [
+          -62.35019852575361,
+          -54.18539921951662
+        ]
+      },
+      "candidateRange": {
+        "start": 0.19241666666666668,
+        "end": 9.808208333333333,
+        "handles": [
+          -50.05225420509092,
+          -60.76657360480111
+        ]
+      },
+      "spoken": {
+        "start": 0.2199833333333332,
+        "end": 9.369983333333332
+      },
+      "gainDb": -1.7831281588328673,
+      "requestedGainDb": -1.7831281588328673,
+      "peakLimitedByGain": false,
+      "peakAfterGain": 23451,
+      "deltaSeconds": 3.3757916666666667,
+      "outputStart": 4.96
+    }
+  ],
+  "requestHashIsCompositionChecksum": true,
+  "rawSha256": "dc3c44955ab0b8223cf113085e722f49d52ff121fdfc2e82fb07690f03144266",
+  "takeSha256": "dc3c44955ab0b8223cf113085e722f49d52ff121fdfc2e82fb07690f03144266",
+  "coverage": 0.7957446808510639,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.7,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "bexhillcollege-274213",
+      "start": 0,
+      "source": "assets/audio/sources/bexhillcollege-274213-hallway.mp3",
+      "sourceSha256": "ac07b275131c3517007369de9cd2e3d566e6d0de9fc9ae7c7e3ac0345cbcc5f7",
+      "sourceUrl": "https://freesound.org/people/Bexhillcollege/sounds/274213/",
+      "author": "Bexhillcollege",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.07,
+      "openingGain": 0.16,
+      "raisedGain": 0.23,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -51.09803919971486,
+      "lowPassHz": 800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 6,
+        "seconds": 55.35733333333334
+      },
+      "envelope": {
+        "riseStart": 65.86079166666667,
+        "riseEnd": 66.66079166666668,
+        "holdSeconds": 0.8594166666666467,
+        "fadeStart": 67.52020833333333,
+        "fadeEnd": 68.92020833333333
+      }
+    }
+  ],
+  "sha256": "9c104980714d1e802579179ea9ffd398b85d05a095c19922fe077ba184621955",
+  "voiceHandles": {
+    "body": {
+      "start": 0.02,
+      "end": 64.64020833333333,
+      "retainedPcmSha256": "cf13ce4577e7a527e9341f539a2f5a8641688adfe520b8d598cbe3c19cf8f126",
+      "sourceSha256": "ae980d18e929255bf974f134e5cd58b5a3bd65536b5677394d78d1c70a69f55f",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.025,
+      "end": 3.855,
+      "retainedPcmSha256": "a08a26a4ad6346529aab0d03b0caa15f8ee041b16f3855e3f47d948c4b01dbe4",
+      "sourceSha256": "dd537bbdf43e030d3cecbe139fbc52e2b998d287c12bad9a91c753b8200c9990",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-26",
+    "sourceTakeSha256": "dc3c44955ab0b8223cf113085e722f49d52ff121fdfc2e82fb07690f03144266",
+    "baseTakeSha256": "bc242d90a2e17f16242d9bd8f2d3af8281b2d18548f4172539851e7fa4bd7888",
+    "confirmation": "Docent 26/11: S088 validat per muntatge amb les esmenes rebudes hola.",
+    "derivation": "Previously approved remaining speech plus the exact teacher-approved replacement; assembled playback still awaits montage audition.",
+    "repairs": [
+      {
+        "part": "hola",
+        "text": "Bon dia. Vinc a tornar la novel·la que em vaig endur. Em falta llegir l’últim capítol, però em sembla que l’havia de tornar avui. Em podríeu deixar uns dies més?",
+        "candidateFile": "assets/audio/repairs/l43-s088-hola-prova.mp3",
+        "candidateSha256": "05e9b69243685065401fd804400ca05bcbf07e0bba45e62589167421ded46543",
+        "batchRequestHash": "9960a95b4a6a51078cec246c7fc38c6fb297a46045a22136e5b69ded99107088",
+        "sourceTakeSha256": "bc242d90a2e17f16242d9bd8f2d3af8281b2d18548f4172539851e7fa4bd7888",
+        "candidateTakeId": "S088-hola",
+        "sourceRequestHash": "e2075224c586efb6ff249dbcf23b3a286eff4556a72ee4599c38d09d8e4c8977"
+      }
+    ]
+  },
+  "repairApplication": {
+    "code": "S088",
+    "date": "2026-11-26",
+    "scope": "approved-repair",
+    "originalRawSha256": "bc242d90a2e17f16242d9bd8f2d3af8281b2d18548f4172539851e7fa4bd7888",
+    "patchedSha256": "dc3c44955ab0b8223cf113085e722f49d52ff121fdfc2e82fb07690f03144266",
+    "originalSeconds": 66.22441666666667,
+    "seconds": 69.60020833333333,
+    "edits": [
+      {
+        "part": "hola",
+        "text": "Bon dia. Vinc a tornar la novel·la que em vaig endur. Em falta llegir l’últim capítol, però em sembla que l’havia de tornar avui. Em podríeu deixar uns dies més?",
+        "accepted": {
+          "part": "hola",
+          "text": "Bon dia. Vinc a tornar la novel·la que em vaig endur. Em falta llegir l’últim capítol, però em sembla que l’havia de tornar avui. Em podríeu deixar uns dies més?",
+          "candidateFile": "assets/audio/repairs/l43-s088-hola-prova.mp3",
+          "candidateSha256": "05e9b69243685065401fd804400ca05bcbf07e0bba45e62589167421ded46543",
+          "batchRequestHash": "9960a95b4a6a51078cec246c7fc38c6fb297a46045a22136e5b69ded99107088",
+          "sourceTakeSha256": "bc242d90a2e17f16242d9bd8f2d3af8281b2d18548f4172539851e7fa4bd7888",
+          "candidateTakeId": "S088-hola",
+          "sourceRequestHash": "e2075224c586efb6ff249dbcf23b3a286eff4556a72ee4599c38d09d8e4c8977"
+        },
+        "candidateRawSha256": "1e8da33a5ab831671cf8de106e7103cd6ea6ff774233b6c271596335d41f7e89",
+        "candidateBatch": "L43",
+        "candidateRawBatchSha256": "3127c55a56722699ca68f41e45784946127d3ec95ed3d15add57bc122dd83995",
+        "originalRange": {
+          "start": 4.96,
+          "end": 11.2,
+          "handles": [
+            -62.35019852575361,
+            -54.18539921951662
+          ]
+        },
+        "candidateRange": {
+          "start": 0.19241666666666668,
+          "end": 9.808208333333333,
+          "handles": [
+            -50.05225420509092,
+            -60.76657360480111
+          ]
+        },
+        "spoken": {
+          "start": 0.2199833333333332,
+          "end": 9.369983333333332
+        },
+        "gainDb": -1.7831281588328673,
+        "requestedGainDb": -1.7831281588328673,
+        "peakLimitedByGain": false,
+        "peakAfterGain": 23451,
+        "deltaSeconds": 3.3757916666666667,
+        "outputStart": 4.96,
+        "candidateRawFile": "s088-hola.wav"
+      }
+    ],
+    "allOtherVoiceSamplesIdentical": true,
+    "voiceRetimed": false,
+    "pitchShifted": false,
+    "newRequests": 0,
+    "retainedRanges": [
+      {
+        "originalStart": 0,
+        "originalEnd": 4.96,
+        "outputStart": 0,
+        "sha256": "f6efee16065b52a93970ac456c260cc9363080eb0622b228ebbb64bdf0dbb367"
+      },
+      {
+        "originalStart": 11.2,
+        "originalEnd": 66.22441666666667,
+        "outputStart": 14.575791666666667,
+        "sha256": "246c41ca9fa6459e82447405c221f05f4521d8b0c9654b7c445abdf952fd6e59"
+      }
+    ],
+    "originalRawFile": "s088-t01.wav",
+    "patchedFile": "patched-source.wav"
+  }
+}

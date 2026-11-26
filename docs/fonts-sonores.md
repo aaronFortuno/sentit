@@ -161,3 +161,8 @@ S060, S063, S066, S070, S072, S046D i S069D tenen guió i escaleta validats per 
 ## 26/11/2026 · recepció i muntatges locals
 
 [L41–L44](lots-2026-11-26.md): quatre peticions, cinc preses completes i deu esmenes per escoltar, sense muntatge automàtic. Recuperació local íntegra del PCM. S041, S085, S093 i S118 disposen de muntatge pendent d’audició: respectivament ambient d’aula Tallis0410 CC0, interior urbà soaress CC0 filtrat, passadís interior BexhillCollege CC0 atenuat i base comuna de notícies amb llicència Pixabay. Identitats i SHA verificats als manifests; fonts i crèdits derivats dels recursos realment inclosos. Set publicacions noves conserven exactament els màsters aprovats.
+
+
+### Muntatges amb esmenes aprovades · 26/11
+
+[S109, S088, S081 i S090](muntatges-esmenes-2026-11-26.md) incorporen les seleccions exactes validades pel docent, amb ambient real continu molt baix i sense efectes puntuals. Respectivament soaress-546234, bexhillcollege-274213, callmethefoo-744447 i soaress-546234; tots CC0 1.0, amb origen i SHA al registre de fonts. S017 conserva exactament el màster net de respiracions amb les veus originals, ara acceptades. Cap síntesi nova ni canvi d’estat a publicació definitiva.

@@ -11,14 +11,16 @@
       ],
       "text": "Exacte. L’equip de coordinació confirmarà la sortida de tot el conjunt. Ningú no s’avançarà amb cap caixa.\n\nA cada parada anotaran si falta alguna peça o està malmesa. El registre viatjarà amb les caixes perquè a la parada següent ja coneguin les incidències. Vinga, comencem a escriure i, quan acabeu, Laia, ja podreu pintar, d’acord?",
       "pronunciation": "These two consecutive paragraphs belong to one continuous intervention. Maintain exactly the same mature female voice, natural pitch, clarity and recording quality through both paragraphs. No pause label, breath sounds or change of speaker between them.",
-      "status": "received-awaiting-listening",
+      "status": "rejected-original-preferred",
       "originalFile": "assets/audio/repairs/l40-s017-coordinacio-original.mp3",
       "candidateFile": "assets/audio/repairs/l40-s017-coordinacio-prova.mp3",
       "sourceRawSha256": "b2ca0f5d981a00325ac67d2963f0c278018bf6ef431e1a87219d954159383482",
       "sourceTakeId": "S017-T01",
       "sourceTakeSha256": "042c2641600ef339ec2b25abd546acdb68bff155af377de6933c8aefb3c6a8ea",
       "batchRequestHash": "5808ddd12485a1772a021a21db2f16fa5be9cd4a42ed90c894aaf948ed7a38be",
-      "applied": false
+      "applied": false,
+      "rejectedAt": "2026-11-26",
+      "rejection": "El docent prefereix conservar les veus originals; la represa no és satisfactòria."
     },
     {
       "code": "S041",

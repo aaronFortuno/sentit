@@ -10,6 +10,8 @@ Banc de comprensió oral d’ortogra.fi. El docent tria una activitat, prepara l
 
 **Ampliació de tradició:** [S131–S142](docs/ampliacio-tradicio-2026-11-26.md), quatre faules, quatre llegendes i quatre mites, amb 75 preguntes duals, fonts i revisió creuada. Guions pendents de la validació docent abans de sintetitzar.
 
+**Muntatges amb esmenes validades:** [S109, S088, S081 i S090](docs/muntatges-esmenes-2026-11-26.md), amb veus ja aprovades i pendents d’audició final. S017 conserva les veus originals. Les proves bones de S010 i S102 es guarden mentre es repeteixen només els torns encara incorrectes.
+
 [Pla actual d’esmenes de veu](docs/pla-esmenes-veu.md): preses pendents, fragments ja rebuts i blocs per completar amb guions compatibles. S022/S025/S059/S061/S071 i S058 ja són definitives.
 
 [Equilibri del catàleg](docs/equilibri-cataleg.md) i [prioritats de nous guions](docs/prioritats-cataleg.md): recompte dels cinc filtres, publicacions definitives i pendents, amb proposta de tres blocs per ampliar sobretot l’oferta breu i les explicacions de 3r–4t.

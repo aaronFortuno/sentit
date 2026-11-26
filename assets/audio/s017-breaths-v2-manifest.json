@@ -1,7 +1,7 @@
 {
   "code": "S017",
   "activity": "ca-S017",
-  "state": "awaiting-audio-corrections",
+  "state": "awaiting-montage-validation",
   "file": "s017-breaths-v2.mp3",
   "introFile": "s017-breaths-v2-intro.mp3",
   "bodyFile": "s017-breaths-v2-cos.mp3",
@@ -368,6 +368,21 @@
     "protectedNextSpeechStart": 156.90775,
     "voiceRetimed": false,
     "ambientLevelsUnchanged": true,
+    "newRequests": 0
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-26",
+    "scope": "current-cleaned-original-recording",
+    "file": "./assets/audio/s017-breaths-v2.mp3",
+    "sourceAudioSha256": "d32fb1c42ae4db13e44d70696120459ce559545da29b69803f7fa7cb258376ec",
+    "confirmation": "Docent 26/11: S017 validat per muntatge amb la versió original; no aplicar l’esmena rebuda."
+  },
+  "originalVoiceSelection": {
+    "at": "2026-11-26",
+    "confirmation": "Docent 26/11: S017 validat per muntatge amb la versió original; no aplicar l’esmena rebuda.",
+    "retainedMasterSha256": "d32fb1c42ae4db13e44d70696120459ce559545da29b69803f7fa7cb258376ec",
+    "rejectedCandidate": "assets/audio/repairs/l40-s017-coordinacio-prova.mp3",
     "newRequests": 0
   }
 }

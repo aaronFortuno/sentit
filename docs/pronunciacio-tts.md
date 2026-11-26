@@ -112,3 +112,12 @@ L’estat viu de cada prova i la seva audició consta al [seguiment de producci�
 - Funda és una incidència recurrent de Gemini: conservar la grafia editorial; comprovar la U tònica i la transició N+D a l’oïda en cada presa. Les indicacions no en garanteixen la correcció i el reconeixement automàtic no la valida.
 - S070: l’esmena aïllada de s’asseia enfosqueix la veu; el docent demana una presa completa amb el mateix Ferran/Algenib, conservant les preses anteriors.
 - S093, S041 i S085: esmenes validades pel docent; incorporar les proves exactes i presentar el muntatge per a audició.
+
+
+## Retorn posterior del 26/11
+
+- S107/sortida de L43 encara diu fona/funa: rebutjada, següent intent r3 d’Elies/Algieba preparat, sense enviar. El comiat de S081 amb funda de la mateixa tanda sí que passa l’audició: la pronunciació correcta depèn també del context i s’ha de validar cada vegada.
+- S010/pla amb Després continua aprovat. La represa L31 de Biel amb Til·lers torna a fallar: es prepara v3, conservant la selecció bona de Laia.
+- S102: primera prova del quadre, final de Mar/L38, rebutjada per Tillers; segona, sentit de la Informadora/L44, aprovada. Aquesta última conserva l’exemple perceptiu correcte de la geminació. No es canvia la grafia editorial ni s’aplica automàticament un empelt de sons entre veus.
+- S109: passeig i bassals de L43 aprovats. S088, S081 i S090 també aprovats per muntatge amb les parts rebudes.
+- S017: es descarta la represa L40 i s’accepta la veu original amb la neteja anterior, sense més síntesi.

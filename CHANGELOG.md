@@ -1,5 +1,12 @@
 # Canvis
 
+## 0.1.121 · 26 de novembre de 2026
+
+- Muntatges de S109, S088, S081 i S090 amb les esmenes de veu validades; ambients enregistrats continus i suaus, sense efectes que allarguin l’espera. S081 conserva la primera esmena ja aplicada i incorpora el comiat nou; S090 recupera presentació i primer torn. Preses originals i mostres de veu alienes a les esmenes intactes, sense síntesi nova.
+- S017 passa a audició del muntatge amb les veus originals, per decisió docent. Es conserva el màster amb les respiracions ja retirades; la represa rebutjada queda arxivada i fora de la cua.
+- S107 torna a esmenes per «funda». A S010 queda validada «Després» i pendent «Til·lers» del Biel. A S102, segons l’ordre del quadre, queda validada la segona prova de la informadora i pendent el primer comiat de la Mar. Seleccions exactes conservades per aplicar-les quan es completin les esmenes.
+- Controls, etiquetes de revisió, cua i seguiment actualitzats. Els cinc muntatges continuen pendents de l’audició final del docent.
+
 ## 0.1.120 · 26 de novembre de 2026
 
 - S124: corregida la il·lustració dels estoigs perquè tinguin la silueta i l’escala d’una guitarra, amb cos ample i mànec llarg i estret. Mateixos personatges i estil, versió anterior conservada. Actualització a la card, la fitxa i el solucionari, amb revisió independent; àudio i contingut aprovats intactes.

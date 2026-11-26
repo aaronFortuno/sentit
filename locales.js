@@ -1,5 +1,6 @@
 export const strings = {
   ca: {
+    releaseReviewedVoiceMontages: 'S109, S088, S081 i S090: muntatges amb les esmenes validades. S017 conserva les veus originals i la neteja de respiracions. Tot pendent d’audició final. S107, S010 i S102 mantenen només les esmenes encara no resoltes; proves bones conservades.',
     releaseS124Cases: 'S124: estoigs de guitarra amb forma i mida més realistes. Il·lustració corregida a la card, la fitxa i el solucionari, mantenint els personatges i l’àudio aprovat.',
     releaseDateTraditionExpansion: '26 de novembre de 2026',
     releaseTraditionExpansion: 'Set noves publicacions definitives: S114, S116, S120, S123, S124, S125 i S126, amb il·lustracions i solucionaris nets. Dotze guions provisionals S131–S142 amb preguntes obertes/ABCD i revisió creuada, pendents del docent. S118, S085 i S093 amb muntatge per escoltar; primera esmena de S081 incorporada.',
@@ -341,6 +342,7 @@ export const strings = {
     sessionEnded: 'Sessió acabada', remainingTime: 'Temps restant',
   },
   es: {
+    releaseReviewedVoiceMontages: 'S109, S088, S081 y S090: montajes con las correcciones validadas. S017 conserva las voces originales y la limpieza de respiraciones. Todo pendiente de audición final. S107, S010 y S102 mantienen solo las correcciones aún sin resolver; pruebas buenas conservadas.',
     releaseS124Cases: 'S124: estuches de guitarra con forma y tamaño más realistas. Ilustración corregida en la tarjeta, la ficha y las soluciones, manteniendo los personajes y el audio aprobado.',
     releaseDateTraditionExpansion: '26 de noviembre de 2026',
     releaseTraditionExpansion: 'Siete nuevas publicaciones definitivas: S114, S116, S120, S123, S124, S125 y S126, con ilustraciones y soluciones limpias. Doce guiones provisionales S131–S142 con preguntas abiertas/ABCD y revisión cruzada, pendientes del docente. S118, S085 y S093 con montaje para escuchar; primera corrección de S081 incorporada.',

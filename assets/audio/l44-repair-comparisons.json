@@ -35,14 +35,17 @@
       "part": "sentit",
       "text": "Plaça dels Til·lers, línia sis, cap al centre, ahir a les cinc i vint. T’ho repeteixo perquè a l’altra banda de la plaça hi ha la parada del sentit contrari.",
       "pronunciation": "In Til·lers, pronounce the L gemination clearly: an audible sustained double L /lː/ across the syllable boundary, never the palatal LL sound. Keep the natural Catalan word and the exact assigned adult female voice. Read the entire supplied turn once. Do not read this instruction.",
-      "status": "received-awaiting-listening",
+      "status": "approved-awaiting-application",
       "originalFile": "assets/audio/repairs/l44-s102-sentit-original.mp3",
       "candidateFile": "assets/audio/repairs/l44-s102-sentit-prova.mp3",
       "sourceRawSha256": "dbfe51e338dfe13edbea6f589e2b50227add83c034010620624ca265411144bf",
       "sourceTakeId": "S102-T01",
       "sourceTakeSha256": "cf45c4b06820ebd43f8fc0a5032b49fc26f87c08b7786d13a8b867f689356ad5",
       "batchRequestHash": "9248c489c64e875fe1064129ec8b89af997b81a15790709c61813ac08f3d23e0",
-      "applied": false
+      "applied": false,
+      "approvedAt": "2026-11-26",
+      "confirmation": "Docent 26/11: esmena S102/sentit validada.",
+      "candidateSha256": "1f9ced9f49556b52a787935cb727fe5312a4c5e98ed945fc26bafafdab1f1547"
     }
   ],
   "masterChanged": false

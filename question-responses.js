@@ -1,5 +1,5 @@
-import { questionChoices } from './content/question-choices/index.js?v=0.1.120';
-import { questionChoiceReviews } from './content/question-choice-reviews.js?v=0.1.120';
+import { questionChoices } from './content/question-choices/index.js?v=0.1.121';
+import { questionChoiceReviews } from './content/question-choice-reviews.js?v=0.1.121';
 
 const reviewed = new WeakMap();
 const key = entry => `${entry.language}-${entry.code}`;

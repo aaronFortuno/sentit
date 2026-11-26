@@ -1,0 +1,237 @@
+{
+  "code": "S081",
+  "activity": "ca-S081",
+  "state": "awaiting-montage-validation",
+  "file": "s081-mixed-v1.mp3",
+  "introFile": "s081-mixed-v1-intro.mp3",
+  "bodyFile": "s081-mixed-v1-cos.mp3",
+  "offset": 4.45,
+  "bodyDuration": 143.391,
+  "fullDuration": 147.841,
+  "voices": {
+    "Biel": "Puck",
+    "Elies": "Algieba"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "repaired-mixed-take",
+  "requestHash": "22a4f2afc9eb1656b70dcb9ef2c841a1246fb6ac3466d93c71899531dcdd8690",
+  "sourceRequestHash": "1d9cf4d8eaae74a57fc5ae85952abc1c1348649af6c66e2556e3eee7defdff2b",
+  "batch": "L20+L39+L43",
+  "sourceBatchRequests": [
+    {
+      "batch": "L20+L39",
+      "requestHash": "4dfc7cb64746c2834aeb04fce5661e42c831a731d480965604290b3c8817780f",
+      "rawSha256": "c0d440ba68229efe4457f53243bf0683e8f7241768c39b72b716cd7fa18bc35a"
+    },
+    {
+      "batch": "L43",
+      "requestHash": "9960a95b4a6a51078cec246c7fc38c6fb297a46045a22136e5b69ded99107088",
+      "rawSha256": "3127c55a56722699ca68f41e45784946127d3ec95ed3d15add57bc122dd83995"
+    }
+  ],
+  "assembly": [
+    {
+      "part": "final",
+      "text": "De res, Biel. Espera, que t’aguanto la funda mentre hi poses el full... així... Fins dijous, i ja m’explicaràs com va l’assaig.",
+      "accepted": {
+        "part": "final",
+        "text": "De res, Biel. Espera, que t’aguanto la funda mentre hi poses el full... així... Fins dijous, i ja m’explicaràs com va l’assaig.",
+        "candidateFile": "assets/audio/repairs/l43-s081-final-prova.mp3",
+        "candidateSha256": "666c04857ccd3c078c21ed1230127c286204654a617c122e8b901224c9ec4c8c",
+        "batchRequestHash": "9960a95b4a6a51078cec246c7fc38c6fb297a46045a22136e5b69ded99107088",
+        "sourceTakeSha256": "c0d440ba68229efe4457f53243bf0683e8f7241768c39b72b716cd7fa18bc35a",
+        "candidateTakeId": "S081-final-r4",
+        "sourceRequestHash": "40b985582496b2996c4c2fec3ae2c6e288afd02b2f9b8ed3032bc1e3086bed38"
+      },
+      "candidateRawFile": "C:\\Users\\afortun8\\Desktop\\Projects\\Escola\\output\\sentit-primera-tanda\\mixed-batches\\l43-9960a95b4a6a\\s081-final-r4.wav",
+      "candidateRawSha256": "084b4bf6650aaa0000a1543f339bfb0399ad8339a26e85cedd1b12320d0ceea8",
+      "candidateBatch": "L43",
+      "candidateRawBatchSha256": "3127c55a56722699ca68f41e45784946127d3ec95ed3d15add57bc122dd83995",
+      "originalRange": {
+        "start": 134.311,
+        "end": 141.758,
+        "handles": [
+          -46.012121738240396,
+          -120
+        ]
+      },
+      "candidateRange": {
+        "start": 0,
+        "end": 7.575,
+        "handles": [
+          -72.24719895935549,
+          -52.24719895935549
+        ],
+        "startMode": "preserved-file-start",
+        "startSampleNearZero": true,
+        "sourcePrefixUntrimmed": true
+      },
+      "spoken": {
+        "start": 0.075299,
+        "end": 7.35
+      },
+      "gainDb": 0.7680981315173943,
+      "requestedGainDb": 3.2616228341180076,
+      "peakLimitedByGain": true,
+      "peakAfterGain": 30000,
+      "deltaSeconds": 0.128,
+      "outputStart": 134.311
+    }
+  ],
+  "requestHashIsCompositionChecksum": true,
+  "rawSha256": "4cd47508a7eab16e8c7dce05299780125afd9369b66eace81836b6dee42af3c3",
+  "takeSha256": "4cd47508a7eab16e8c7dce05299780125afd9369b66eace81836b6dee42af3c3",
+  "coverage": 0.8817829457364341,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.96,
+  "peakDbTP": -2.46,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "callmethefoo-744447",
+      "start": 0,
+      "source": "assets/audio/sources/callmethefoo-744447.mp3",
+      "sourceSha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
+      "sourceUrl": "https://freesound.org/people/callmethefoo/sounds/744447/",
+      "author": "callmethefoo",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.07,
+      "openingGain": 0.16,
+      "raisedGain": 0.23,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -51.09803919971486,
+      "lowPassHz": 1800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 12,
+        "seconds": 85.24
+      },
+      "envelope": {
+        "riseStart": 138.99099166666664,
+        "riseEnd": 139.79099166666666,
+        "holdSeconds": 1.0000083333333407,
+        "fadeStart": 140.791,
+        "fadeEnd": 142.191
+      }
+    }
+  ],
+  "sha256": "aa6363a4bb2b44510e323de8cda53bd4317ded3441d41fc029c1fbee5a02973f",
+  "voiceHandles": {
+    "body": {
+      "start": 0.5882083333333333,
+      "end": 138.47920833333333,
+      "retainedPcmSha256": "9d0b30a4f006e59b637e0f64043b216cacb647a06b792c828f8cfeb70dd75fbe",
+      "sourceSha256": "cb5dee0169ea17f7fc5e1839cd3f301ef50558f3ffcfe52fe079aeb7709bba65",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0,
+      "end": 3.5,
+      "retainedPcmSha256": "fde35d8dd4df485fa36b74415e53671131985990205b668ab7422effbe3394e6",
+      "sourceSha256": "ac22f7f4dfdb6b0b03ef510740ce96bf954ec49b80bfea81a4e212c834941f45",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-26",
+    "sourceTakeSha256": "4cd47508a7eab16e8c7dce05299780125afd9369b66eace81836b6dee42af3c3",
+    "baseTakeSha256": "c0d440ba68229efe4457f53243bf0683e8f7241768c39b72b716cd7fa18bc35a",
+    "confirmation": "Docent 26/11: S081 validat per muntatge amb les esmenes rebudes final.",
+    "derivation": "Previously approved remaining speech plus the exact teacher-approved replacement; assembled playback still awaits montage audition.",
+    "repairs": [
+      {
+        "part": "final",
+        "text": "De res, Biel. Espera, que t’aguanto la funda mentre hi poses el full... així... Fins dijous, i ja m’explicaràs com va l’assaig.",
+        "candidateFile": "assets/audio/repairs/l43-s081-final-prova.mp3",
+        "candidateSha256": "666c04857ccd3c078c21ed1230127c286204654a617c122e8b901224c9ec4c8c",
+        "batchRequestHash": "9960a95b4a6a51078cec246c7fc38c6fb297a46045a22136e5b69ded99107088",
+        "sourceTakeSha256": "c0d440ba68229efe4457f53243bf0683e8f7241768c39b72b716cd7fa18bc35a",
+        "candidateTakeId": "S081-final-r4",
+        "sourceRequestHash": "40b985582496b2996c4c2fec3ae2c6e288afd02b2f9b8ed3032bc1e3086bed38"
+      }
+    ]
+  },
+  "repairApplication": {
+    "code": "S081",
+    "date": "2026-11-26",
+    "scope": "approved-repair",
+    "originalRawSha256": "c0d440ba68229efe4457f53243bf0683e8f7241768c39b72b716cd7fa18bc35a",
+    "patchedSha256": "4cd47508a7eab16e8c7dce05299780125afd9369b66eace81836b6dee42af3c3",
+    "originalSeconds": 141.938,
+    "seconds": 142.066,
+    "edits": [
+      {
+        "part": "final",
+        "text": "De res, Biel. Espera, que t’aguanto la funda mentre hi poses el full... així... Fins dijous, i ja m’explicaràs com va l’assaig.",
+        "accepted": {
+          "part": "final",
+          "text": "De res, Biel. Espera, que t’aguanto la funda mentre hi poses el full... així... Fins dijous, i ja m’explicaràs com va l’assaig.",
+          "candidateFile": "assets/audio/repairs/l43-s081-final-prova.mp3",
+          "candidateSha256": "666c04857ccd3c078c21ed1230127c286204654a617c122e8b901224c9ec4c8c",
+          "batchRequestHash": "9960a95b4a6a51078cec246c7fc38c6fb297a46045a22136e5b69ded99107088",
+          "sourceTakeSha256": "c0d440ba68229efe4457f53243bf0683e8f7241768c39b72b716cd7fa18bc35a",
+          "candidateTakeId": "S081-final-r4",
+          "sourceRequestHash": "40b985582496b2996c4c2fec3ae2c6e288afd02b2f9b8ed3032bc1e3086bed38"
+        },
+        "candidateRawSha256": "084b4bf6650aaa0000a1543f339bfb0399ad8339a26e85cedd1b12320d0ceea8",
+        "candidateBatch": "L43",
+        "candidateRawBatchSha256": "3127c55a56722699ca68f41e45784946127d3ec95ed3d15add57bc122dd83995",
+        "originalRange": {
+          "start": 134.311,
+          "end": 141.758,
+          "handles": [
+            -46.012121738240396,
+            -120
+          ]
+        },
+        "candidateRange": {
+          "start": 0,
+          "end": 7.575,
+          "handles": [
+            -72.24719895935549,
+            -52.24719895935549
+          ],
+          "startMode": "preserved-file-start",
+          "startSampleNearZero": true,
+          "sourcePrefixUntrimmed": true
+        },
+        "spoken": {
+          "start": 0.075299,
+          "end": 7.35
+        },
+        "gainDb": 0.7680981315173943,
+        "requestedGainDb": 3.2616228341180076,
+        "peakLimitedByGain": true,
+        "peakAfterGain": 30000,
+        "deltaSeconds": 0.128,
+        "outputStart": 134.311,
+        "candidateRawFile": "s081-final-r4.wav"
+      }
+    ],
+    "allOtherVoiceSamplesIdentical": true,
+    "voiceRetimed": false,
+    "pitchShifted": false,
+    "newRequests": 0,
+    "retainedRanges": [
+      {
+        "originalStart": 0,
+        "originalEnd": 134.311,
+        "outputStart": 0,
+        "sha256": "bfcaf0248d41a8f009668a6e79b1d111bf51bec6fca70d4f16f354b5622df51d"
+      },
+      {
+        "originalStart": 141.758,
+        "originalEnd": 141.938,
+        "outputStart": 141.886,
+        "sha256": "09ceba8cd24cebc2c1af0ccd0f8887b5c129f921d3573b0a4eda81fc561226ca"
+      }
+    ],
+    "originalRawFile": "patched-source.wav",
+    "patchedFile": "patched-source.wav"
+  }
+}

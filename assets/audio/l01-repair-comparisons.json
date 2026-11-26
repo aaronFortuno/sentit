@@ -45,12 +45,15 @@
       "part": "pla",
       "text": "Després ja som a la porta. És el camí que vam fer l’any passat.",
       "pronunciation": "Pronounce Després faithfully, with its final /s/ before ja, not Desprén. Keep the entire sentence fluent; do not spell it aloud.",
-      "status": "received-awaiting-listening",
+      "status": "approved-awaiting-application",
       "originalFile": "assets/audio/repairs/l01-s010-pla-original.mp3",
       "candidateFile": "assets/audio/repairs/l01-s010-pla-prova.mp3",
       "sourceRawSha256": "5ae1ca4fd12bac21243b7e519981c14bdb2e34319cc06bdc1fbc318f91833fe4",
       "batchRequestHash": "0cd61066dabfeb8992968fa3e45c9f95dd07621aa58ca5a919a5e873cee48df7",
-      "applied": false
+      "applied": false,
+      "approvedAt": "2026-11-26",
+      "confirmation": "Docent 26/11: esmena S010/pla validada.",
+      "candidateSha256": "895d21bf0ce056c3925f69011890ca49c15526418f249abe48e1d51cf421c9b9"
     }
   ],
   "masterChanged": true
