@@ -55,6 +55,20 @@ Els identificadors dels commits afectats canvien. Les còpies externes, forquill
 
 No hi ha una urgència per un tall rígid del repositori a 1 GB: és una mida recomanada per a Pages. El límit de **1 GB del lloc publicat** sí que és diferent. [Límits de Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits) · [Mides recomanades de repositori](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github).
 
+### Assaig local completat
+
+S’ha executat git-filter-repo 2.47.0 **només en una còpia local independent**, després de guardar el bundle. Resultat sobre el commit de neteja `7354608`:
+
+| Mesura de l’historial | Abans | Després, a la còpia de prova |
+| --- | ---: | ---: |
+| Fitxers interns de Git | **727,73 MB** | **455,95 MB** |
+| Commits de `main` | 148 | 148 |
+| Rutes d’àudio antigues presents a l’historial | 303 | 0 |
+
+L’arbre actual conserva exactament el mateix identificador de contingut `c41f9f6691db5afe3b898a47935b6213b4369289`: **tots els fitxers actuals són idèntics**, inclosos màsters, aprovacions, fonts i codi. La comprovació `git fsck --full --no-reflogs` ha passat. Els 459 àudios de servei també s’han comparat byte a byte en una exportació neta i s’han provat controls de muntatge, esmenes pendents i música al navegador local, sense els 303 MP3 arxivats.
+
+L’assaig, llistes i mesures són a `../output/sentit-cleanup-20261126/`; la còpia és `filtered.git`. Aquesta còpia **no té remot de publicació**. No s’ha fet cap force-push. Si hi ha commits nous abans d’aprovar la substitució de l’historial compartit, cal actualitzar l’assaig i el SHA esperat abans d’aplicar-lo.
+
 ## Objectiu de 600 exercicis
 
 La neteja de proves redueix l’excés actual, però no resol per si sola la duplicació de màster i pistes separades: aquestes dues representacions sumarien uns **1,57 GB** per a 600 exercicis amb la mitjana actual. La següent optimització és servir **una sola representació sonora** i adaptar-ne el reproductor, conservant totes les funcions i els marges de consonants. Un màster per exercici serien uns **785 MB**, més imatges i recursos comuns; caldrà deixar marge i mesurar de nou.
