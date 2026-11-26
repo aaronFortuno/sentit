@@ -1,5 +1,6 @@
 export const strings = {
   ca: {
+    releaseS124Cases: 'S124: estoigs de guitarra amb forma i mida més realistes. Il·lustració corregida a la card, la fitxa i el solucionari, mantenint els personatges i l’àudio aprovat.',
     releaseDateTraditionExpansion: '26 de novembre de 2026',
     releaseTraditionExpansion: 'Set noves publicacions definitives: S114, S116, S120, S123, S124, S125 i S126, amb il·lustracions i solucionaris nets. Dotze guions provisionals S131–S142 amb preguntes obertes/ABCD i revisió creuada, pendents del docent. S118, S085 i S093 amb muntatge per escoltar; primera esmena de S081 incorporada.',
     releaseEquilibriPublication: "Set publicacions definitives: S112, S113, S115, S117, S119, S121 i S127, amb il·lustracions i solucionaris nets. Set muntatges nous per escoltar: S114, S116, S120, S123, S124, S125 i S126. S122 espera una nova presa completa de les dues veus.",
@@ -340,6 +341,7 @@ export const strings = {
     sessionEnded: 'Sessió acabada', remainingTime: 'Temps restant',
   },
   es: {
+    releaseS124Cases: 'S124: estuches de guitarra con forma y tamaño más realistas. Ilustración corregida en la tarjeta, la ficha y las soluciones, manteniendo los personajes y el audio aprobado.',
     releaseDateTraditionExpansion: '26 de noviembre de 2026',
     releaseTraditionExpansion: 'Siete nuevas publicaciones definitivas: S114, S116, S120, S123, S124, S125 y S126, con ilustraciones y soluciones limpias. Doce guiones provisionales S131–S142 con preguntas abiertas/ABCD y revisión cruzada, pendientes del docente. S118, S085 y S093 con montaje para escuchar; primera corrección de S081 incorporada.',
     releaseEquilibriPublication: "Siete publicaciones definitivas: S112, S113, S115, S117, S119, S121 y S127, con ilustraciones y solucionarios limpios. Siete montajes nuevos para escuchar: S114, S116, S120, S123, S124, S125 y S126. S122 espera una nueva toma completa de las dos voces.",

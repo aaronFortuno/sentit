@@ -1,0 +1,22 @@
+{
+  "code": "S124",
+  "use": "publication-context-correction",
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-11-26",
+  "prompt": "Use case: precise-object-edit. Edit this existing watercolor/colored-pencil Catalan educational story illustration. PRIMARY CORRECTION: the two small malformed instrument cases must become anatomically and proportionally convincing FULL-SIZE CLASSICAL GUITAR CASES. Preserve the exact identities, facial features, hair, clothing, warm friendly interaction of Biel (teen boy, charcoal hoodie) and Elies (adult with salt-and-pepper curls, short beard, slate shirt, tan apron), workshop setting, paper texture, palette and hand-drawn style. You may pull the camera back and adjust the table/perspective as necessary to show the cases at believable full size beside the people. Keep the boy and adult clearly recognizable. Show TWO CLOSED black fitted guitar cases, each visibly approximately 105–110 cm long and 40–43 cm wide at the lower body, substantial next to the characters (roughly twice an adult forearm length). Their silhouettes MUST unmistakably fit a six-string classical guitar: large broad rounded pear/figure-eight lower body, narrower waist, rounded upper-bout shoulders, then a LONG VERY NARROW STRAIGHT NECK SECTION occupying nearly half the case length and a small subtly widened rounded headstock end. At least 3 to 4 times greater width at the lower guitar body than the narrow neck. The headstock end must never be almost as wide as the body. No violin, flute or clarinet case shape, no miniature cases, no symmetrical elongated oval boxes. Arrange the cases naturally on a generously sized workbench or one resting upright against its front if that makes their full scale clearer. Ensure their broad body and long slender neck are visible, not hidden by foreshortening. Keep both closed; do not reveal instruments, labels, name tags, transparent label pockets, writing, papers with answers, or a door bench. No readable text, logo, border or watermark. Landscape 3:2, 1536x1024. Educational context image only; do not illustrate the labeling procedure or answers.",
+  "references": [
+    "assets/images/s124-publicacio-v1.webp"
+  ],
+  "originalPngSha256": "00a05161b7f0a66ecd896df19e395ade9c9ce91ae2b769ce17d5bddc0e51ec3a",
+  "file": "assets/images/s124-publicacio-v2.webp",
+  "width": 1536,
+  "height": 1024,
+  "sha256": "78471751b8501324f71b8b9cef68ce4acd12629a36e1baa145be029f691f6d4d",
+  "alt": "En Biel i l’Elies conversen al taller amb dos estoigs de guitarra tancats sobre la taula.",
+  "corrects": "Proporcions i escala dels dos estoigs: silueta de guitarra clàssica, cos ample i llarg mànec estret.",
+  "previousVersion": {
+    "file": "assets/images/s124-publicacio-v1.webp",
+    "sha256": "f3faebc6a9b895a1689519d9fdce1b7f0b0e507ec16888becaa11bebbcc61084"
+  },
+  "notes": "Edició integrada de la il·lustració anterior; mateixos personatges i estil. Originals preservats; conversió a WebP sense retoc semàntic."
+}

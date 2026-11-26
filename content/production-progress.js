@@ -7894,7 +7894,7 @@ export const productionProgress = {
     "state": "published",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
-    "editorialFingerprint": "f28bb613c47a4ead2c7dbfce472c308a7e65ddd43764135e99d723f0ca724134",
+    "editorialFingerprint": "e6199a2c2f7fc348c323526e2666691c0efbdf26f990c433ed8d3b2bf2ebc307",
     "plannedNewRequests": 0,
     "listeningApproval": true,
     "confirmation": "Docent 26/11: S124, S126, S120, S114, S123, S116 i S125 validats per publicació definitiva.",
@@ -7930,11 +7930,24 @@ export const productionProgress = {
     "validatedBy": "docent",
     "teacherAssessment": "Veus i muntatge validats definitivament pel docent. Màster aprovat conservat intacte.",
     "publicationMaterials": {
-      "illustration": "./assets/images/s124-publicacio-v1.webp",
-      "illustrationSha256": "f3faebc6a9b895a1689519d9fdce1b7f0b0e507ec16888becaa11bebbcc61084",
+      "illustration": "./assets/images/s124-publicacio-v2.webp",
+      "illustrationSha256": "78471751b8501324f71b8b9cef68ce4acd12629a36e1baa145be029f691f6d4d",
       "transcript": "speech-only",
       "checkedAt": "2026-11-26",
-      "audioChanged": false
+      "audioChanged": false,
+      "illustrationRevision": {
+        "at": "2026-11-26",
+        "scope": "illustration-only",
+        "reason": "Peticio docent: corregir la forma i l’escala dels estoigs perquè es reconeguin com a estoigs de guitarra.",
+        "previous": {
+          "file": "./assets/images/s124-publicacio-v1.webp",
+          "sha256": "f3faebc6a9b895a1689519d9fdce1b7f0b0e507ec16888becaa11bebbcc61084",
+          "editorialFingerprint": "f28bb613c47a4ead2c7dbfce472c308a7e65ddd43764135e99d723f0ca724134"
+        },
+        "review": "docs/s124-illustration-v2.review.json",
+        "editorialFingerprint": "e6199a2c2f7fc348c323526e2666691c0efbdf26f990c433ed8d3b2bf2ebc307",
+        "audioChanged": false
+      }
     }
   },
   "ca-S126": {

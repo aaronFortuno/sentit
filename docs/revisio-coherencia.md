@@ -136,7 +136,7 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S121](https://sentit.ortogra.fi/#lectura=ca-S121) | L’ombra s’ha mogut | 3r | Revisió superada · publicació definitiva | 2026-11-25 | `cfe3583abdc3…` |
 | [ca-S122](https://sentit.ortogra.fi/#lectura=ca-S122) | Com conserva el fred una bossa tèrmica? | 4t | Provisional · revisió superada | 2026-11-25 | `87985c1ebba5…` |
 | [ca-S123](https://sentit.ortogra.fi/#lectura=ca-S123) | Per què ressona una sala buida? | 4t | Revisió superada · publicació definitiva | 2026-11-26 | `bfae01665d46…` |
-| [ca-S124](https://sentit.ortogra.fi/#lectura=ca-S124) | Posem nom als estoigs | 3r | Revisió superada · publicació definitiva | 2026-11-26 | `f28bb613c47a…` |
+| [ca-S124](https://sentit.ortogra.fi/#lectura=ca-S124) | Posem nom als estoigs | 3r | Revisió superada · publicació definitiva | 2026-11-26 | `e6199a2c2f7f…` |
 | [ca-S125](https://sentit.ortogra.fi/#lectura=ca-S125) | Una capseta per a les pues | 4t | Revisió superada · publicació definitiva | 2026-11-26 | `256ef3ea2ab5…` |
 | [ca-S126](https://sentit.ortogra.fi/#lectura=ca-S126) | Com es prova un instrument reparat? | 5è | Revisió superada · publicació definitiva | 2026-11-26 | `290981379b88…` |
 | [ca-S127](https://sentit.ortogra.fi/#lectura=ca-S127) | Quan val la pena reparar un instrument? | 5è | Revisió superada · publicació definitiva | 2026-11-25 | `fe0f5bc96e5e…` |

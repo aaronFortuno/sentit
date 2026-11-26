@@ -1,0 +1,48 @@
+{
+  "reviewer": "independent-agent-review_s124_guitar_cases",
+  "reviewedAt": "2026-11-26",
+  "status": "passed",
+  "code": "S124",
+  "language": "ca",
+  "scope": "Correcció de la il·lustració i de les metadades de publicació; comparació visual v1/v2 i comprovació contra els sis ítems oberts/ABCD. No és una nova aprovació d'àudio.",
+  "editorialFingerprint": "e6199a2c2f7fc348c323526e2666691c0efbdf26f990c433ed8d3b2bf2ebc307",
+  "image": "assets/images/s124-publicacio-v2.webp",
+  "imageSha256": "78471751b8501324f71b8b9cef68ce4acd12629a36e1baa145be029f691f6d4d",
+  "findings": [
+    {
+      "check": "image-comparison",
+      "status": "passed",
+      "detail": "V1 mostra dues caixes petites gairebé ovalades, amb l'extrem del cap tan ample com el cos i sense coll de guitarra recognoscible. A v2, tots dos estoigs tenen cos ample amb cintura i espatlles, tram llarg i estret per al mànec, i un extrem de claviller petit. La silueta es llegeix clarament com un estoig de guitarra. La perspectiva i la mida relativa a les mans, avantbraços i torsos de Biel/Elies són plausibles per a estoigs de guitarra de mida completa; ja no semblen miniatures. No s'infereixen centímetres exactes d'una il·lustració."
+    },
+    {
+      "check": "characters-style-context",
+      "status": "passed",
+      "detail": "Es conserven les identitats de la versió anterior: Biel jove, cabells castanys arrissats i dessuadora gris; Elies adult, rínxols foscos amb gris, barba curta, camisa blava grisa i davantal marró. Mateixa conversa amable, taller, paleta càlida i textura d'aquarel·la/llapis. L'enquadrament més ample integra els dos estoigs grans sobre una taula de treball creïble."
+    },
+    {
+      "check": "closed-cases-and-alt",
+      "status": "passed",
+      "detail": "Els dos estoigs estan tancats. No es mostren instruments, noms, targetes, etiquetes, butxaquetes transparents, instruccions, seqüències o banc de la porta. L'alt descriu objectivament Biel i Elies conversant al taller amb dos estoigs de guitarra tancats sobre la taula; no indica cap resposta. Dimensions declarades 1536 × 1024 coherents amb la imatge vista."
+    },
+    {
+      "check": "question-safety-open-and-abcd",
+      "status": "passed",
+      "questionIds": [
+        "primer",
+        "nom",
+        "comparar",
+        "lloc",
+        "canviar",
+        "banc"
+      ],
+      "detail": "Llegits el guió i els sis enunciats amb les quatre alternatives, claus, explicacions i evidències. La imatge i l'alt no indiquen que calgui obrir i comprovar abans, de qui és el nom, quina comparació fer, on/orientació de l'etiqueta, per què es pot canviar ni què significa la ubicació al banc. La guitarra només concreta el context visual: cap pregunta demana identificar quin instrument conté un estoig. La taula amb estoigs no permet deduir la resposta sobre el banc absent. Totes les dades necessàries continuen en les veus."
+    },
+    {
+      "check": "scope-and-integrity",
+      "status": "passed",
+      "detail": "Revisió de lectura local i visual mitjançant view_image sobre v1/v2. No s'ha editat guió, preguntes, àudio, registre editorial global o plans de producció. Cap síntesi ni comprovació remota."
+    }
+  ],
+  "blockingIssues": [],
+  "recommendation": "La correcció v2 resol la incidència de proporcions i escala i és apta per substituir la v1 després de les comprovacions locals de presentació del responsable."
+}

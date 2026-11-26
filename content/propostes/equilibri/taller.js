@@ -2,7 +2,7 @@ import { draft, item as q, d, s, e, entries, alternatives, contexts } from './pr
 const workshop = data => draft({ voices:{Biel:'Puck',Elies:'Algieba'}, delivery:'Biel jove i proper, Puck estable; Elies adult atent, Algieba estable. Biel pregunta amb paraules quotidianes i Elies explica el seu treball concret. Saludar i respondre amb naturalitat. Cap tercer personatge, conclusió moralitzadora ni imitació de la veu d’un client. Cap acotació llegida.', soundPlan:'Ambient enregistrat molt baix i continu d’interior de taller, sense paraules o música identificables. Veus sempre clares. Cap efecte de paper, eina o corda intercalat amb pauses obligades; només un detall real si aporta context i pot anar en línia amb la parla. Entrada discreta i pujada curta amb fosa al final. No muntar fins a validar les veus.', ...data });
 export const workshopDrafts = [
   workshop({ code:'S124', id:'posem-nom-als-estoigs', title:'Posem nom als estoigs', grade:'3', level:'advanced', genre:'instructions', universeIds:['mans-a-lobra'],
-    image: {"src":"./assets/images/s124-publicacio-v1.webp","alt":"En Biel i l’Elies conversen al taller amb dues fundes tancades.","width":1536,"height":1024},
+    image: {"src":"./assets/images/s124-publicacio-v2.webp","alt":"En Biel i l’Elies conversen al taller amb dos estoigs de guitarra tancats sobre la taula.","width":1536,"height":1024},
     seconds: 70, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s124-mixed-v1.mp3', tracks: { introduction: './assets/audio/s124-mixed-v1-intro.mp3', body: './assets/audio/s124-mixed-v1-cos.mp3' },
     fragment: { start: 3.9099999999999997, seconds: 66 },

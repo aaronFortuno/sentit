@@ -790,8 +790,8 @@ export const editorialReviews = {
   "ca-S124": {
     "status": "passed",
     "reviewedAt": "2026-11-26",
-    "reviewer": "autoria_llegendes_135_138",
-    "fingerprint": "f28bb613c47a4ead2c7dbfce472c308a7e65ddd43764135e99d723f0ca724134"
+    "reviewer": "independent-agent-review_s124_guitar_cases",
+    "fingerprint": "e6199a2c2f7fc348c323526e2666691c0efbdf26f990c433ed8d3b2bf2ebc307"
   },
   "ca-S125": {
     "status": "passed",

@@ -1,5 +1,9 @@
 # Canvis
 
+## 0.1.120 · 26 de novembre de 2026
+
+- S124: corregida la il·lustració dels estoigs perquè tinguin la silueta i l’escala d’una guitarra, amb cos ample i mànec llarg i estret. Mateixos personatges i estil, versió anterior conservada. Actualització a la card, la fitxa i el solucionari, amb revisió independent; àudio i contingut aprovats intactes.
+
 ## 0.1.119 · 26 de novembre de 2026
 
 - S114, S116, S120, S123, S124, S125 i S126 passen a publicació definitiva: il·lustracions contextuals amb models canònics, revisió independent i solucionaris només parlats. Els set màsters aprovats es conserven intactes.
