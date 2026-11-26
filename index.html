@@ -8,14 +8,14 @@
   <meta name="theme-color" content="#f7f5ee">
   <link rel="canonical" href="https://sentit.ortogra.fi/">
   <link rel="icon" href="./assets/sentit.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css?v=0.1.121">
-  <link rel="stylesheet" href="./worksheet.css?v=0.1.121">
+  <link rel="stylesheet" href="./styles.css?v=0.1.122">
+  <link rel="stylesheet" href="./worksheet.css?v=0.1.122">
   <link rel="stylesheet" href="./catalog.css">
   <link rel="stylesheet" href="./select-menu.css">
   <link rel="stylesheet" href="./characters.css">
   <title>Sentit · Comprensió oral</title>
   <script defer src="./assets/vendor/qrcode.js"></script>
-  <script type="module" src="./app.js?v=0.1.121"></script>
+  <script type="module" src="./app.js?v=0.1.122"></script>
 </head>
 <body>
   <a class="skip" href="#workspace" data-t="skip">Ves al contingut</a>
@@ -180,6 +180,7 @@
           <details id="generation-plan" class="generation-plan" open hidden><summary data-t="generationTitle">Talls per a Gemini</summary><div class="generation-plan-content"></div></details>
         </section></div>
       <div class="panel-footer audio-panel-footer">
+          <button type="button" id="compare-narration-music" class="text-button music-compare-link" aria-haspopup="dialog" aria-controls="narration-music-dialog" data-t="compareNarrationMusic">Músiques de narració · propostes</button>
           <details class="audio-sources"><summary data-t="audioSources">Fonts i crèdits sonors</summary><div id="audio-resources"></div></details>
       </div>
     </aside>
@@ -287,12 +288,21 @@
       <nav aria-label="Projecte" data-label="project">
         <label class="provisional-option footer-provisional" title="Funció experimental"><input id="show-provisional" type="checkbox" role="switch" checked><span data-t="showProvisionalExperimental">Només provisionals · experimental</span></label>
         <a href="./LICENSE" data-t="license">Llicència</a>
-        <button type="button" data-open="changes" data-label="changes">v0.1.121</button>
+        <button type="button" data-open="changes" data-label="changes">v0.1.122</button>
         <button type="button" data-open="v4v">V4V</button>
       </nav>
     </div>
   </footer>
 
+  <dialog id="narration-music-dialog" class="audio-dialog music-dialog" aria-labelledby="narration-music-title">
+    <div class="dialog-content">
+      <div class="dialog-head"><h2 id="narration-music-title" data-t="narrationMusicTitle">Músiques per explicar històries</h2><form method="dialog"><button type="submit" class="icon-button" data-label="close"><span data-icon="close" aria-hidden="true"></span></button></form></div>
+      <p class="small music-explanation" data-t="narrationMusicHelp">Tres propostes per univers. Escolta fragments de 32 segons abans de triar; encara no s’han aplicat a cap comprensió.</p>
+      <div class="music-tabs" role="group" data-label="musicUniverses"></div>
+      <div class="music-candidates dialog-scroll"></div>
+      <p class="small music-note" data-t="narrationMusicNote">Pistes d’autor ja produïdes, sense generar música nova. Fragments amb volum ajustat i foses per comparar. Al muntatge, el fons anirà molt més baix sota la veu.</p>
+    </div>
+  </dialog>
   <dialog id="jingles-dialog" class="audio-dialog" aria-labelledby="jingles-title">
     <div class="dialog-content"><div class="dialog-head"><h2 id="jingles-title" data-t="compareJingles">Compara les sintonies</h2><form method="dialog"><button type="submit" class="icon-button" data-label="close"><span data-icon="close" aria-hidden="true"></span></button></form></div><p class="small jingle-explanation" data-t="jingleExplanation">Una sintonia breu identifica l’inici de la sessió. Compara els quatre estils i tria’n un al selector; també la pots desactivar. Cada proposta té una obertura i un tancament.</p><div id="jingles-list" class="dialog-scroll jingle-pairs"></div></div>
   </dialog>
@@ -348,6 +358,8 @@
       </div>
       <a class="changelog-full" href="https://github.com/aaronFortuno/sentit/blob/main/CHANGELOG.md" target="_blank" rel="noopener noreferrer" data-t="fullChangelog">Changelog complet a GitHub</a>
       <div class="changelog-scroll dialog-scroll">
+      <h3>0.1.122 <time datetime="2026-11-26" data-t="releaseDateTraditionExpansion">26 de novembre de 2026</time></h3>
+      <p data-t="releaseNarrationMusic"></p>
       <h3>0.1.121 <time datetime="2026-11-26" data-t="releaseDateTraditionExpansion">26 de novembre de 2026</time></h3>
       <p data-t="releaseReviewedVoiceMontages">S109, S088, S081 i S090: muntatges amb les esmenes validades. S017 conserva les veus originals i la neteja de respiracions. Tot pendent d’audició final. S107, S010 i S102 mantenen només les esmenes encara no resoltes; proves bones conservades.</p>
       <h3>0.1.120 <time datetime="2026-11-26" data-t="releaseDateTraditionExpansion">26 de novembre de 2026</time></h3>

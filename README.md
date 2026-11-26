@@ -2,11 +2,13 @@
 
 Banc de comprensió oral d’ortogra.fi. El docent tria una activitat, prepara la fitxa i el solucionari i els imprimeix. L’alumnat respon al paper i escolta l’àudio des del QR o l’enllaç. Web estàtic, sense comptes ni servidor d’aplicació.
 
+[Músiques per a faules, llegendes i mites](docs/musiques-tradicio.md): nou mostres de biblioteca, tres per univers, al [comparador integrat](https://sentit.ortogra.fi/?musiques=mites-antiguitat). S130 té les veus validades i espera la tria musical abans del muntatge. [Mida actual i previsió per a 600 exercicis](docs/mida-i-creixement.md): inventari local, sense eliminar originals ni canviar l’allotjament.
+
 **Doble format a tot el catàleg:** 150 peces, 1.076 preguntes: 1.072 alternatives ABCD i 4 obertes justificades. El format general i les excepcions es desen entre sessions i col·leccions. [Cobertura](docs/preguntes-abcd-seguiment.md) · [Criteris](docs/preguntes-abcd.md). El pilot conserva l’aprovació docent; la resta d’alternatives continua pendent del seu vistiplau.
 
 **Tanda d’equilibri:** [S112–S127](docs/pla-equilibri-2026-11-25.md), setze guions amb preguntes duals i revisió independent. Catorze peces definitives, S118 amb muntatge pendent d’audició i S122 en regeneració completa. [Publicacions i accés als muntatges](docs/publicacio-equilibri-2026-11-26.md).
 
-**Pilots de tradició amb guió validat:** [S128–S130](docs/pilots-tradicio.md), una faula de 3r, una llegenda de 4t i un mite grec de 5è. Fonts i decisions d’adaptació explícites, 18 preguntes duals i revisió adversària superada. Veus rebudes a L41, juntament amb la nova presa íntegra de S070. [Resultats i comparacions del 26/11](docs/lots-2026-11-26.md); pendents d’audició abans del muntatge.
+**Pilots de tradició amb guió validat:** [S128–S130](docs/pilots-tradicio.md), una faula de 3r, una llegenda de 4t i un mite grec de 5è. Fonts i decisions d’adaptació explícites, 18 preguntes duals i revisió adversària superada. Veus rebudes a L41, juntament amb la nova presa íntegra de S070. [Resultats i comparacions del 26/11](docs/lots-2026-11-26.md). S128/S129 esperen audició de veus; S130 ja té les veus validades i espera la tria musical.
 
 **Ampliació de tradició:** [S131–S142](docs/ampliacio-tradicio-2026-11-26.md), quatre faules, quatre llegendes i quatre mites, amb 75 preguntes duals, fonts i revisió creuada. Guions pendents de la validació docent abans de sintetitzar.
 

@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.122 · 26 de novembre de 2026
+
+- S130: veus validades pel docent, muntatge pendent de tria musical. Estat, card i seguiment ho distingeixen d’una audició encara pendent.
+- Comparador integrat de nou pistes de biblioteca: tres per a faules, tres per a llegendes i tres per a mites. Fragments de 32 segons, control de reproducció i desplaçament, fonts i llicències CC BY 4.0. Originals complets fora del repositori; cap pista assignada ni síntesi nova.
+- Inventari local del repositori i projecció d’espai per a 600 exercicis, distingint pistes vigents, revisions, pistes separades i historial de Git. Cap eliminació ni canvi d’allotjament.
+
 ## 0.1.121 · 26 de novembre de 2026
 
 - Muntatges de S109, S088, S081 i S090 amb les esmenes de veu validades; ambients enregistrats continus i suaus, sense efectes que allarguin l’espera. S081 conserva la primera esmena ja aplicada i incorpora el comiat nou; S090 recupera presentació i primer torn. Preses originals i mostres de veu alienes a les esmenes intactes, sense síntesi nova.

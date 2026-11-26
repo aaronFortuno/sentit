@@ -1,0 +1,315 @@
+{
+  "status": "candidates-awaiting-teacher-selection",
+  "author": "Kevin MacLeod (incompetech.com)",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "changes": "32-second excerpts from second 6, loudness adjustment and fades; no new synthesis.",
+  "tracks": [
+    {
+      "id": "F1",
+      "universe": "faules-mon",
+      "title": "Easy Lemon",
+      "isrc": "USUAN1200076",
+      "author": "Kevin MacLeod",
+      "status": "candidate",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076",
+      "downloadUrl": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Easy%20Lemon.mp3",
+      "preview": "./assets/audio/music-previews/F1.mp3",
+      "excerpt": {
+        "start": 6,
+        "seconds": 32
+      },
+      "description": {
+        "ca": "Guitarra i marimba, càlida i tranquil·la. Primera candidata per a relats senzills.",
+        "es": "Guitarra y marimba, cálida y tranquila. Primera candidata para relatos sencillos."
+      },
+      "sourceSha256": "2486b8ecfe4575f9ab31613a2c03c2ee45e6e5280301d05b4dd7237c9e1c2531",
+      "sourceBytes": 5057420,
+      "sourcePageSha256": "39b817215b8ffaa69a4cdf83a28a303d79da1068e5c457c1ae8b0605ca1c8240",
+      "previewSha256": "d3880fa1b86183b1eccfd2c0e6e78e68be2afaad1ab2a9af14170bd9c7ad8c2f",
+      "previewBytes": 513449,
+      "processing": {
+        "filter": "loudnorm=I=-23:TP=-3:LRA=7,afade=t=in:st=0:d=0.7,afade=t=out:st=30:d=2",
+        "bitrate": 128000,
+        "sampleRate": 44100,
+        "channels": 2
+      },
+      "retrievedAt": "2026-11-26",
+      "usedBy": []
+    },
+    {
+      "id": "F2",
+      "universe": "faules-mon",
+      "title": "Carefree",
+      "isrc": "USUAN1400037",
+      "author": "Kevin MacLeod",
+      "status": "candidate",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400037",
+      "downloadUrl": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Carefree.mp3",
+      "preview": "./assets/audio/music-previews/F2.mp3",
+      "excerpt": {
+        "start": 6,
+        "seconds": 32
+      },
+      "description": {
+        "ca": "Ukelele i percussió lleugera, més alegre i juganera.",
+        "es": "Ukelele y percusión ligera, más alegre y juguetona."
+      },
+      "sourceSha256": "8433b770a630d9b1594fd484442c677907ece899a4d149954cd2e74fd733e311",
+      "sourceBytes": 6566713,
+      "sourcePageSha256": "39b817215b8ffaa69a4cdf83a28a303d79da1068e5c457c1ae8b0605ca1c8240",
+      "previewSha256": "bac83bc18cdb6831520801c85093a3eab11cd38ac5b80c7f6bb7d69f77d0244e",
+      "previewBytes": 513503,
+      "processing": {
+        "filter": "loudnorm=I=-23:TP=-3:LRA=7,afade=t=in:st=0:d=0.7,afade=t=out:st=30:d=2",
+        "bitrate": 128000,
+        "sampleRate": 44100,
+        "channels": 2
+      },
+      "retrievedAt": "2026-11-26",
+      "usedBy": []
+    },
+    {
+      "id": "F3",
+      "universe": "faules-mon",
+      "title": "Dreamy Flashback",
+      "isrc": "USUAN1100532",
+      "author": "Kevin MacLeod",
+      "status": "candidate",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100532",
+      "downloadUrl": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Dreamy%20Flashback.mp3",
+      "preview": "./assets/audio/music-previews/F3.mp3",
+      "excerpt": {
+        "start": 6,
+        "seconds": 32
+      },
+      "description": {
+        "ca": "Arpa, campanes i cordes pinçades; un aire de conte més màgic.",
+        "es": "Arpa, campanas y cuerdas pulsadas; un aire de cuento más mágico."
+      },
+      "sourceSha256": "e63abdb9bcadadb48945760a06ccd56f7fe17207a940729cb9bc806bac636473",
+      "sourceBytes": 5170799,
+      "sourcePageSha256": "39b817215b8ffaa69a4cdf83a28a303d79da1068e5c457c1ae8b0605ca1c8240",
+      "previewSha256": "77a7196cb38dd5368ba41ea00337d177c4d73335864fd99778f687bfc30c57ff",
+      "previewBytes": 513465,
+      "processing": {
+        "filter": "loudnorm=I=-23:TP=-3:LRA=7,afade=t=in:st=0:d=0.7,afade=t=out:st=30:d=2",
+        "bitrate": 128000,
+        "sampleRate": 44100,
+        "channels": 2
+      },
+      "retrievedAt": "2026-11-26",
+      "usedBy": []
+    },
+    {
+      "id": "L1",
+      "universe": "llegendes-mon",
+      "title": "Teller of the Tales",
+      "isrc": "USUAN1400020",
+      "author": "Kevin MacLeod",
+      "status": "candidate",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400020",
+      "downloadUrl": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Teller%20of%20the%20Tales.mp3",
+      "preview": "./assets/audio/music-previews/L1.mp3",
+      "excerpt": {
+        "start": 6,
+        "seconds": 32
+      },
+      "description": {
+        "ca": "Llaüt i guitarra, íntima i continguda. Primera candidata per a llegendes.",
+        "es": "Laúd y guitarra, íntima y contenida. Primera candidata para leyendas."
+      },
+      "sourceSha256": "320b37a09fc37ec5962c975563541bee9bcbf1208b0181789248780286f4c1d4",
+      "sourceBytes": 6798250,
+      "sourcePageSha256": "39b817215b8ffaa69a4cdf83a28a303d79da1068e5c457c1ae8b0605ca1c8240",
+      "previewSha256": "ce5a923d75c18b733f6b7f2b7ffcc0dc05f3f9f32282cc72f29ed0fa0a479ed1",
+      "previewBytes": 513502,
+      "processing": {
+        "filter": "loudnorm=I=-23:TP=-3:LRA=7,afade=t=in:st=0:d=0.7,afade=t=out:st=30:d=2",
+        "bitrate": 128000,
+        "sampleRate": 44100,
+        "channels": 2
+      },
+      "retrievedAt": "2026-11-26",
+      "usedBy": []
+    },
+    {
+      "id": "L2",
+      "universe": "llegendes-mon",
+      "title": "Folk Round",
+      "isrc": "USUAN1100357",
+      "author": "Kevin MacLeod",
+      "status": "candidate",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100357",
+      "downloadUrl": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Folk%20Round.mp3",
+      "preview": "./assets/audio/music-previews/L2.mp3",
+      "excerpt": {
+        "start": 6,
+        "seconds": 32
+      },
+      "description": {
+        "ca": "Roda folk amb cordes i flauta; un aire de relat popular.",
+        "es": "Ronda folk con cuerdas y flauta; un aire de relato popular."
+      },
+      "sourceSha256": "b4e6aa7d67bb05a269b6f916662355358b6e849d29b81f5185f211a31fdb8051",
+      "sourceBytes": 7472358,
+      "sourcePageSha256": "39b817215b8ffaa69a4cdf83a28a303d79da1068e5c457c1ae8b0605ca1c8240",
+      "previewSha256": "2975198b04cc83df9b07b2631f9b7dccec9da980b2c385ef154cd6daa4f54d15",
+      "previewBytes": 513474,
+      "processing": {
+        "filter": "loudnorm=I=-23:TP=-3:LRA=7,afade=t=in:st=0:d=0.7,afade=t=out:st=30:d=2",
+        "bitrate": 128000,
+        "sampleRate": 44100,
+        "channels": 2
+      },
+      "retrievedAt": "2026-11-26",
+      "usedBy": []
+    },
+    {
+      "id": "L3",
+      "universe": "llegendes-mon",
+      "title": "Angevin",
+      "isrc": "USUAN1200110",
+      "author": "Kevin MacLeod",
+      "status": "candidate",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200110",
+      "downloadUrl": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Angevin.mp3",
+      "preview": "./assets/audio/music-previews/L3.mp3",
+      "excerpt": {
+        "start": 6,
+        "seconds": 32
+      },
+      "description": {
+        "ca": "Flauta i llaüt amb un tempo lent; més ombrívola i misteriosa.",
+        "es": "Flauta y laúd con un tempo lento; más sombría y misteriosa."
+      },
+      "sourceSha256": "425f5febc62aee69761f16eae09158c35fd922a72c0fe8165af51c3a1f8818bf",
+      "sourceBytes": 11224420,
+      "sourcePageSha256": "39b817215b8ffaa69a4cdf83a28a303d79da1068e5c457c1ae8b0605ca1c8240",
+      "previewSha256": "2424b591af076cd9ad1e073f1f429f88f4ad7dc0da0ec3eb157f1bb873114588",
+      "previewBytes": 513463,
+      "processing": {
+        "filter": "loudnorm=I=-23:TP=-3:LRA=7,afade=t=in:st=0:d=0.7,afade=t=out:st=30:d=2",
+        "bitrate": 128000,
+        "sampleRate": 44100,
+        "channels": 2
+      },
+      "retrievedAt": "2026-11-26",
+      "usedBy": []
+    },
+    {
+      "id": "M1",
+      "universe": "mites-antiguitat",
+      "title": "Temple of the Manes",
+      "isrc": "USUAN1100053",
+      "author": "Kevin MacLeod",
+      "status": "candidate",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100053",
+      "downloadUrl": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Temple%20of%20the%20Manes.mp3",
+      "preview": "./assets/audio/music-previews/M1.mp3",
+      "excerpt": {
+        "start": 6,
+        "seconds": 32
+      },
+      "description": {
+        "ca": "Arpes, flautes i oboè; una atmosfera antiga. Primera candidata per a S130.",
+        "es": "Arpas, flautas y oboe; una atmósfera antigua. Primera candidata para S130."
+      },
+      "sourceSha256": "21774c909751472f4fb6621e4cb5d0ac29ae535c4768392d13d2917f7107bcbf",
+      "sourceBytes": 6336457,
+      "sourcePageSha256": "39b817215b8ffaa69a4cdf83a28a303d79da1068e5c457c1ae8b0605ca1c8240",
+      "previewSha256": "9d6700ee0569359e06055f19135ddf5beb366aaf126bd564006395915776e643",
+      "previewBytes": 513477,
+      "processing": {
+        "filter": "loudnorm=I=-23:TP=-3:LRA=7,afade=t=in:st=0:d=0.7,afade=t=out:st=30:d=2",
+        "bitrate": 128000,
+        "sampleRate": 44100,
+        "channels": 2
+      },
+      "retrievedAt": "2026-11-26",
+      "usedBy": []
+    },
+    {
+      "id": "M2",
+      "universe": "mites-antiguitat",
+      "title": "Desert City",
+      "isrc": "USUAN1100564",
+      "author": "Kevin MacLeod",
+      "status": "candidate",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100564",
+      "downloadUrl": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Desert%20City.mp3",
+      "preview": "./assets/audio/music-previews/M2.mp3",
+      "excerpt": {
+        "start": 6,
+        "seconds": 32
+      },
+      "description": {
+        "ca": "Dulcimer i percussió, més rítmica i amb sensació de viatge.",
+        "es": "Dulcémele y percusión, más rítmica y con sensación de viaje."
+      },
+      "sourceSha256": "aeefb582c77059aaf5b10d1e9125d7b19adca07cd841f3654e74aed7da9a3a71",
+      "sourceBytes": 3679550,
+      "sourcePageSha256": "39b817215b8ffaa69a4cdf83a28a303d79da1068e5c457c1ae8b0605ca1c8240",
+      "previewSha256": "eebdfd51a77b07e8d7f96d08ba0f21ef2f40493958630caaf219e5281faa0b34",
+      "previewBytes": 513441,
+      "processing": {
+        "filter": "loudnorm=I=-23:TP=-3:LRA=7,afade=t=in:st=0:d=0.7,afade=t=out:st=30:d=2",
+        "bitrate": 128000,
+        "sampleRate": 44100,
+        "channels": 2
+      },
+      "retrievedAt": "2026-11-26",
+      "usedBy": []
+    },
+    {
+      "id": "M3",
+      "universe": "mites-antiguitat",
+      "title": "Virtutes Instrumenti",
+      "isrc": "USUAN1100801",
+      "author": "Kevin MacLeod",
+      "status": "candidate",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100801",
+      "downloadUrl": "https://incompetech.com/music/royalty-free/mp3-royaltyfree/Virtutes%20Instrumenti.mp3",
+      "preview": "./assets/audio/music-previews/M3.mp3",
+      "excerpt": {
+        "start": 6,
+        "seconds": 32
+      },
+      "description": {
+        "ca": "Viola i bordó sostingut, més solemne i pausada.",
+        "es": "Viola y bordón sostenido, más solemne y pausada."
+      },
+      "sourceSha256": "46e4569b5f515917e5a879f52f1db1a83b5ea912d26f0b67f7779027a39ce670",
+      "sourceBytes": 10486513,
+      "sourcePageSha256": "39b817215b8ffaa69a4cdf83a28a303d79da1068e5c457c1ae8b0605ca1c8240",
+      "previewSha256": "27d643b3f026d5043adb969793ff116135f0c8a8516cc1416c330890b031745b",
+      "previewBytes": 513446,
+      "processing": {
+        "filter": "loudnorm=I=-23:TP=-3:LRA=7,afade=t=in:st=0:d=0.7,afade=t=out:st=30:d=2",
+        "bitrate": 128000,
+        "sampleRate": 44100,
+        "channels": 2
+      },
+      "retrievedAt": "2026-11-26",
+      "usedBy": []
+    }
+  ]
+}

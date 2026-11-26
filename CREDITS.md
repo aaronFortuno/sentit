@@ -1,5 +1,9 @@
 # Crèdits
 
+## Mostres de música per a narracions
+
+Nou propostes de **Kevin MacLeod (incompetech.com)** sota **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**, amb atribució individual, font i modificacions al [registre de mostres](assets/audio/music-previews/LICENSE.md) i al [manifest](assets/audio/music-previews/manifest.json). Fragments de 32 segons amb sonoritat ajustada i foses; cap assignació a una comprensió abans de la tria docent. [Comparador](https://sentit.ortogra.fi/?musiques=faules-mon) i [criteris de muntatge](docs/musiques-tradicio.md).
+
 Les locucions inicials i les guies de la sessió pautada en català s’han generat amb la veu Aoede de [Gemini TTS](https://ai.google.dev/gemini-api/docs/speech-generation).
 
 ## «El senyal de la ràdio»

@@ -55,6 +55,8 @@ export async function productionDocuments(date) {
   tracking += row(['Produir les veus, amb guió validat', voices.length, list(voices)]);
   tracking += row(['Escoltar i validar les veus abans de muntar', voiceListening.length, list(voiceListening)]);
   tracking += row(['Muntar les veus rebudes', montage.length, list(montage)]);
+  const musicHolds=montage.filter(entry=>progress(entry)?.montageHold?.reason==='awaiting-music-selection');
+  if(musicHolds.length)tracking+='\n**Tria musical abans de muntar:** '+list(musicHolds)+'. Veus ja validades; comparar les [propostes musicals](https://sentit.ortogra.fi/?musiques=mites-antiguitat). Cap música assignada encara.\n';
   tracking += row(['Revisió editorial o validació inicial pendent', other.length, list(other)]);
   tracking += '\n## Taula de pendents\n\n**✅ Completat** · **⏳ Proper pas** · **◐ Parcial o històric sense validació completa registrada** · **— Encara no toca**\n\n| Codi | Títol | Curs | Dificultat · tipologia | Fragment | Preg. | 1. Guió/escaleta | 2. Revisió adversària | 3. Proposta validada | 4. Veus rebudes | 5. Muntatge fet | 6. Àudio validat | 7. Definitiva |\n| --- | --- | --- | --- | --- | ---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |\n';
   const specialSpecs = { S008R: require('./radio-production.cjs').spec, S015: require('./interview-production.cjs').spec, S023: require('./news-production.cjs').spec };
@@ -71,7 +73,7 @@ export async function productionDocuments(date) {
       '✅', isEditoriallyReviewed(entry) ? '✅' : reviewing ? '**⏳ Revisar**' : '◐',
       approved ? (plan.approvedScope === 'voices-only' ? '✅ Veus' : '✅') : plan?.contentValidation ? '◐ Contingut · **⏳ Guió**' : reviewing ? '**⏳ Revisar**' : '◐',
       received ? '✅' : hasApprovedScript(entry) ? '**⏳ Síntesi**' : '—',
-      audio ? '✅' : received ? (hasVoiceApproval(entry) ? '**⏳ Muntar**' : '**⏳ Escoltar veus**') : '—',
+      audio ? '✅' : received ? (hasVoiceApproval(entry) ? progress(entry)?.montageHold?.reason==='awaiting-music-selection' ? '**⏳ Tria musical**' : '**⏳ Muntar**' : '**⏳ Escoltar veus**') : '—',
       audio ? progress(entry)?.state === 'audio-corrections-pending' ? '◐ **Correccions**' : entry.reviewStatus === 'audio-review' ? '**⏳ Escoltar**' : '◐' : '—', '—']);
   }
   if (!pending.length) tracking += '\nNo queda cap comprensió pendent.\n';
@@ -139,7 +141,7 @@ export async function productionDocuments(date) {
     synthesis += row([batch.id, descriptions.join('; '), [...batchVoices].join(' + '), clock(seconds), batch.state==='provider-failed' ? batch.failureSummary : blockers.join('; ') || (batch.state==='authorized'?'Entrada verificada · pendent d’enviament':'Preparar i comprovar l’entrada definitiva')]);
   }
   if (!waiting.length) synthesis += '\nNo queda cap lot pendent.\n';
-  const voicePreviews = pending.filter(entry => hasPendingMontage(entry) && progress(entry)?.voicePreview);
+  const voicePreviews = pending.filter(entry => hasPendingMontage(entry) && !hasVoiceApproval(entry) && progress(entry)?.voicePreview);
   if (voicePreviews.length) {
     synthesis += '\n## Veus rebudes · per escoltar abans del muntatge\n\nLes preses originals es conserven i la cobertura s’ha comprovat localment. La pronunciació i la identitat de les veus continuen pendents d’audició; encara no són muntatges finals.\n\n| Peça | Presa |\n| --- | --- |\n';
     for (const entry of voicePreviews) synthesis += row([link(entry), `[Escolta les veus](${progress(entry).voicePreview.replace(/^\.\//u,'../')})`]);

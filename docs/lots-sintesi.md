@@ -22,7 +22,6 @@ Les preses originals es conserven i la cobertura s’ha comprovat localment. La 
 | [ca-S122](https://sentit.ortogra.fi/#lectura=ca-S122) | [Escolta les veus](../proves/veus-rebudes.html#S122) |
 | [ca-S128](https://sentit.ortogra.fi/#lectura=ca-S128) | [Escolta les veus](../proves/veus-rebudes.html#S128) |
 | [ca-S129](https://sentit.ortogra.fi/#lectura=ca-S129) | [Escolta les veus](../proves/veus-rebudes.html#S129) |
-| [ca-S130](https://sentit.ortogra.fi/#lectura=ca-S130) | [Escolta les veus](../proves/veus-rebudes.html#S130) |
 
 Les previsions provenen dels guions i del calibratge local; cal recalcular-les amb el format definitiu abans d’enviar. Una mateixa veu en dos guions no implica el mateix personatge. No es canvien repartiments ni s’allarguen guions per omplir un lot.
 

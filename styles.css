@@ -329,6 +329,21 @@ dialog.is-closing::backdrop { animation: backdrop-out var(--motion) ease both; }
 .audio-dialog { width: min(760px, calc(100% - 28px)); overflow: hidden; }
 .audio-dialog .dialog-content { display: flex; flex-direction: column; max-height: 86dvh; padding: 22px; }
 .audio-dialog .dialog-head { flex: none; }
+.music-compare-link { display: block; margin: 0 0 10px; padding: 0; border: 0; color: var(--quiet); background: none; font: inherit; font-size: .76rem; text-align: start; cursor: pointer; transition: color var(--motion); }
+.music-compare-link:hover { color: var(--green); }
+.music-dialog { width: min(700px, calc(100% - 28px)); }
+.music-explanation { line-height: 1.45; margin: 0 0 12px; }
+.music-tabs { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; flex: none; }
+.music-tabs button { flex: 1 1 auto; padding: 7px 10px; border: 1px solid var(--line); border-radius: 7px; background: var(--soft); color: var(--quiet); font: inherit; font-size: .76rem; cursor: pointer; transition: background var(--motion), color var(--motion), border-color var(--motion); }
+.music-tabs button[aria-pressed="true"] { color: var(--ink); border-color: var(--green); background: var(--stage); }
+.music-candidates { display: grid; gap: 10px; padding-inline-end: 8px; min-height: 0; }
+.music-candidate { border: 1px solid var(--line); border-radius: 8px; padding: 12px; background: var(--soft); }
+.music-candidate-heading { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.music-candidate h3 { margin: 0; font-size: .88rem; }
+.music-candidate p { margin: 5px 0 9px; font-size: .78rem; line-height: 1.4; color: var(--quiet); }
+.music-candidate .music-credit { font-size: .69rem; margin: 4px 0 0; }
+.music-candidate .music-status:empty { display: none; }
+.music-note { margin: 12px 0 0; line-height: 1.4; flex: none; font-size: .73rem; }
 .jingle-pairs { display: grid; gap: 12px; padding-inline-end: 8px; }
 .jingle-pair { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 6px 16px; padding: 12px; border: 1px solid var(--line); border-radius: 9px; background: var(--soft); }
 .jingle-pair h3 { grid-column: 1/-1; margin: 0; font-size: .9rem; }

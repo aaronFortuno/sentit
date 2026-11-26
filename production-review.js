@@ -5,6 +5,7 @@ import { hasPendingSynthesisEdit } from './editorial-review.js';
 export function cardReviewUpdate(entry) {
   const progress = productionProgress[`${entry.language}-${entry.code}`];
   const pendingEdit = hasPendingSynthesisEdit(entry);
+  if (!entry.audio && progress?.voiceApproval?.status === 'approved' && progress?.montageHold?.reason === 'awaiting-music-selection') return { id: 'music-selection-pending', title: 'reviewMusicSelection', help: 'openReview', summary: progress.montageHold.summary };
   if (!entry.audio && progress?.synthesisIssue) return { id: 'synthesis-failed', title: 'reviewSynthesisFailed', help: 'reviewSynthesisNotRepeated' };
   if (progress?.state === 'voices-awaiting-listening') return { id: 'voices-awaiting-listening', title: 'reviewVoicesReceived', help: 'openReview', summary: progress.voiceReviewNote };
   if (!pendingEdit && !entry.audio && progress?.missingVoiceParts?.some(part=>!progress.receivedRepairs?.some(r=>(r.part===part||r.missingPart===part)&&r.applied===false&&r.status==='received-awaiting-listening'))) return { id: 'voices-incomplete', title: 'reviewVoicesIncomplete', help: progress.missingVoiceParts.some(part=>part!=='introduction')?'reviewIncompleteVoices':'reviewMissingTitle',summary:progress.voiceReviewUpdate?.summary };

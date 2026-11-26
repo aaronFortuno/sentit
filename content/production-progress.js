@@ -8405,11 +8405,11 @@ export const productionProgress = {
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
     "editorialFingerprint": "937eeb6988810383653f82c41d8cb02f9b33361a2a4087ff51003e4ce42af6a3",
-    "plannedNewRequests": 1,
+    "plannedNewRequests": 0,
     "listeningApproval": false,
     "confirmation": "Docent 25/11: tots els guions validats; preparar i enviar els lots compatibles seqüencialment.",
     "scriptApprovalSource": "Docent 25/11: tots els guions validats; preparar i enviar els lots compatibles seqüencialment.",
-    "reason": "Guió i escaleta validats; pendent d’un lot compatible de sis a vuit minuts.",
+    "reason": "Veus validades. Muntatge aturat fins a la tria docent de música de fons per a mites.",
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -8420,10 +8420,30 @@ export const productionProgress = {
         "L41"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-26",
+      "sourceTakeSha256": "de7def44287bd5ae73ee7d493c900bd0e86b2e735ec0d78148a8266790a12fc4",
+      "sourceBatch": "L41",
+      "confirmation": "Docent 26/11: S130 llest per muntatge. Abans de muntar, comparar i triar músiques de biblioteca per a faules, llegendes i mites."
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-26T07:48:14.206Z",
     "voicePreview": "./proves/veus-rebudes.html#S130",
-    "voicePreviewFile": "./assets/audio/s130-voices-review-v2.mp3"
+    "voicePreviewFile": "./assets/audio/s130-voices-review-v2.mp3",
+    "montageHold": {
+      "reason": "awaiting-music-selection",
+      "since": "2026-11-26",
+      "summary": {
+        "ca": "Veus validades. Abans de muntar S130, cal triar la música de fons. Les propostes són a «Músiques de narració», al peu d’aquest panell.",
+        "es": "Voces validadas. Antes de montar S130, hay que elegir la música de fondo. Las propuestas están en «Músicas de narración», al pie de este panel."
+      },
+      "comparison": "https://sentit.ortogra.fi/?musiques=mites-antiguitat",
+      "candidateIds": [
+        "M1",
+        "M2",
+        "M3"
+      ]
+    }
   }
 };
