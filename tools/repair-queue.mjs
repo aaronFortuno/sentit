@@ -19,6 +19,10 @@ export function repairQueue(entries, progress, plans) {
     if (!state || state.state === 'published') continue;
     if (state.plannedRepair?.scope === 'whole-recording') {
       const plan = state.plannedRepair;
+      if (plan.status === 'received-awaiting-listening') {
+        received.push({code:entry.code,part:'gravació completa',speaker:Object.keys(entry.production.voices).join(' + '),voice:Object.values(entry.production.voices).join(' + '),status:'received-awaiting-listening',candidate:state.voicePreviewFile});
+        continue;
+      }
       retakes.push({code:entry.code,take:plan.takeId,voices:entry.production.voices,parts:plan.parts,text:[entry.introduction,...entry.transcript.filter(p=>p.speaker).map(p=>p.text)].join('\n\n'),planFile:plan.planFile,status:plan.status});
       continue;
     }

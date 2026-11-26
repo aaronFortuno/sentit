@@ -1,0 +1,185 @@
+{
+  "date": "2026-11-26",
+  "status": "passed-local-recovery-and-split",
+  "batches": [
+    {
+      "batch": "L41",
+      "status": "recovered-and-split-awaiting-listening",
+      "seconds": 377.43,
+      "coverage": 0.9505736981465137,
+      "parts": [
+        {
+          "id": "S070-T02",
+          "seconds": 102.5369,
+          "coverage": 0.9461077844311377,
+          "sha256": "150e948d9d6bd552b1d95c71294d4ea6ff2cbb0e135ca023df81932770880210",
+          "fullRetake": "S070-T02"
+        },
+        {
+          "id": "S128-T01",
+          "seconds": 69.43809999999999,
+          "coverage": 0.9264705882352942,
+          "sha256": "0a5d0eb94fff90d329a054d914b3dda8a57472d804c939d399aabb429b5cff1f"
+        },
+        {
+          "id": "S129-T01",
+          "seconds": 89.26500000000001,
+          "coverage": 0.9693486590038314,
+          "sha256": "4d0bc68d21083c74ff8adc1d7556baceec9127b0326e592da72197ef2130b608"
+        },
+        {
+          "id": "S130-T01",
+          "seconds": 116.19,
+          "coverage": 0.9550898203592815,
+          "sha256": "de7def44287bd5ae73ee7d493c900bd0e86b2e735ec0d78148a8266790a12fc4"
+        }
+      ],
+      "rawSha256": "c77ea4c9487aeedc99d096607d46e7f299751a1b7069dcdb83a71beb23e6fa83",
+      "providerWaveSha256": "51431e888d350505b81cf92891d69741fcf5c658e4e210e71f02d8842532f2bc",
+      "responsePreserved": true,
+      "responseGzipExact": true,
+      "prefixPcmBytes": 5280,
+      "allPcmSamplesPreserved": true,
+      "splitPcmIdenticalToRaw": true,
+      "verifiedQuietCuts": [
+        {
+          "key": "S128-T01/S129-T01",
+          "at": 171.975,
+          "windowStart": 171.925,
+          "windowEnd": 172.025,
+          "maximumDbFS": -68.72537377824186,
+          "reason": "Finestra PCM mesurada de 100 ms entre paraules alineades, pic de -68,7 dBFS; el tall separa les preses sense eliminar cap mostra de veu.",
+          "voiceSamplesRemoved": 0
+        }
+      ],
+      "newRequests": 0,
+      "teacherAudioApproval": false
+    },
+    {
+      "batch": "L42",
+      "status": "recovered-and-split-awaiting-listening",
+      "seconds": 87.98,
+      "coverage": 0.9498327759197325,
+      "parts": [
+        {
+          "id": "S122-T02",
+          "seconds": 81.585,
+          "coverage": 0.9539007092198581,
+          "sha256": "f8de736be4ca6360467d67a10c6198055a34a2feb383854e1d11553410b8aeee",
+          "fullRetake": "S122-T02"
+        },
+        {
+          "id": "S090-introduction",
+          "seconds": 3.1200000000000045,
+          "coverage": 1,
+          "sha256": "901780a839e3dcb36796dec172cab16af6a5b53b0930de1ebffb0fa20a12e414"
+        },
+        {
+          "id": "S090-pilota",
+          "seconds": 3.2750000000000057,
+          "coverage": 0.8,
+          "sha256": "4add269276aadc5556a6cc938a5798349b075fb4807dba0f1daa7901e0f41f59"
+        }
+      ],
+      "rawSha256": "77c2b7dbf5472bb7c748c0e50f5e260958fd9dabcafd06ae589622e63fbc27ba",
+      "providerWaveSha256": "e8593af33714c71a17169aab7f44b410858d1efe6d7d41c212fade728e57e704",
+      "responsePreserved": true,
+      "responseGzipExact": true,
+      "prefixPcmBytes": 960,
+      "allPcmSamplesPreserved": true,
+      "splitPcmIdenticalToRaw": true,
+      "verifiedQuietCuts": [],
+      "newRequests": 0,
+      "teacherAudioApproval": false
+    },
+    {
+      "batch": "L43",
+      "status": "recovered-and-split-awaiting-listening",
+      "seconds": 41.62,
+      "coverage": 0.8955223880597015,
+      "parts": [
+        {
+          "id": "S081-final-r4",
+          "seconds": 7.575,
+          "coverage": 0.84,
+          "sha256": "084b4bf6650aaa0000a1543f339bfb0399ad8339a26e85cedd1b12320d0ceea8"
+        },
+        {
+          "id": "S107-sortida-r2",
+          "seconds": 8.0626,
+          "coverage": 0.8695652173913043,
+          "sha256": "544dead906b9aa529fdba3f34640db79ca09f79d8e68a3814c66cded5b7995ff"
+        },
+        {
+          "id": "S088-hola",
+          "seconds": 9.808199999999998,
+          "coverage": 0.9090909090909091,
+          "sha256": "1e8da33a5ab831671cf8de106e7103cd6ea6ff774233b6c271596335d41f7e89"
+        },
+        {
+          "id": "S109-temps",
+          "seconds": 7.944200000000002,
+          "coverage": 1,
+          "sha256": "3f75665c763d1a2659108af0c40ae3f09fade8397fe601259909f075e5f8621b"
+        },
+        {
+          "id": "S109-final",
+          "seconds": 8.229999999999997,
+          "coverage": 0.8461538461538461,
+          "sha256": "6ebed85d534eb662a144e5a8a5f42e08c30af7f39b1b9b390ece86deaa5cb918"
+        }
+      ],
+      "rawSha256": "3127c55a56722699ca68f41e45784946127d3ec95ed3d15add57bc122dd83995",
+      "providerWaveSha256": "c675ec5e85d9181d18dd1f76cce27a38dbef32b1451f3a148cdb684de8609d93",
+      "responsePreserved": true,
+      "responseGzipExact": true,
+      "prefixPcmBytes": 2880,
+      "allPcmSamplesPreserved": true,
+      "splitPcmIdenticalToRaw": true,
+      "verifiedQuietCuts": [],
+      "newRequests": 0,
+      "teacherAudioApproval": false
+    },
+    {
+      "batch": "L44",
+      "status": "recovered-and-split-awaiting-listening",
+      "seconds": 29.98,
+      "coverage": 0.9139784946236559,
+      "parts": [
+        {
+          "id": "S095-mida",
+          "seconds": 11.43,
+          "coverage": 0.9354838709677419,
+          "sha256": "3db1b4c8a35b3c03dd079483c23f526eee43bb17efa634c7547e34963f54b9f4"
+        },
+        {
+          "id": "S095-recollida",
+          "seconds": 8.835,
+          "coverage": 1,
+          "sha256": "09bab990ed2b5564360312849bb60bb2bcd5eb7c31a5c6df214a06c210f47206"
+        },
+        {
+          "id": "S102-sentit",
+          "seconds": 9.715,
+          "coverage": 0.8181818181818182,
+          "sha256": "0e51cca843a9331c7aae80af9be45f95e7c7add1ec13c1dc275008750000be89"
+        }
+      ],
+      "rawSha256": "a8ad769f4935ef0f1890ad4e6625046905b82e67d3a91249751a4d8fd8896220",
+      "providerWaveSha256": "10b15bd775e261ca76c24cf542f4f6d87132dab64107687ba3f759c677934604",
+      "responsePreserved": true,
+      "responseGzipExact": true,
+      "prefixPcmBytes": 960,
+      "allPcmSamplesPreserved": true,
+      "splitPcmIdenticalToRaw": true,
+      "verifiedQuietCuts": [],
+      "newRequests": 0,
+      "teacherAudioApproval": false
+    }
+  ],
+  "originalsPreserved": true,
+  "providerCalls": 0,
+  "registerBatchReceiptRun": false,
+  "productionProgressChanged": false,
+  "notes": "Cap síntesi repetida, retiming, clipping ni aprovació de pronunciació. Les quatre respostes completes i els WAV de proveïdor es conserven; cadascun dels talls concatenats reconstrueix exactament totes les mostres PCM del cru recuperat."
+}

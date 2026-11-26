@@ -43,6 +43,9 @@ export const dailyMarServices = [
   }),
   dailyProposal({
     id: 'el-tren-que-arriba-abans', code: 'S093', title: 'El tren que arriba abans', grade: '6', level: 'advanced', genre: 'dialogue',
+    seconds: 85, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s093-mixed-v1.mp3', tracks: { introduction: './assets/audio/s093-mixed-v1-intro.mp3', body: './assets/audio/s093-mixed-v1-cos.mp3' },
+    fragment: { start: 3.955, seconds: 80 },
     voices: { Mar: 'Erinome', Informadora: 'Despina' }, guestSpeakers: [{ name: 'Informadora', voice: 'Despina', role: 'Empleada d’una estació de tren · ocasional' }], delivery: delivery + ' Tractament mutu de vostè, cordial i espontani, sense solemnitat.',
     summary: 'En una estació que no coneix, la Mar compara dos trens per arribar a una cita. El que surt primer no és el que arriba abans.',
     editorialFocus: '6è avançada: comparar dues sortides i dues arribades, entendre el motiu del canvi de tren i confirmar el trajecte escollit. Horaris, estació i condicions d’aquests bitllets són de ficció.',

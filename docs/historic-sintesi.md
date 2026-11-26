@@ -1,8 +1,8 @@
 # Històric de lots de síntesi
 
-Actualitzat: **25/11/2026**. Registre dels **34 lots ja rebuts**, amb 194:50 d’àudio cru i 59.709 tokens d’entrada. No és una cua executable ni un comptador de quota. [Tornar als pendents](lots-sintesi.md).
+Actualitzat: **26/11/2026**. Registre dels **38 lots ja rebuts**, amb 203:47 d’àudio cru i 62.321 tokens d’entrada. No és una cua executable ni un comptador de quota. [Tornar als pendents](lots-sintesi.md).
 
-Aquests enviaments van aportar veus per a **117 comprensions** i **34 frases d’esmena**. És l’abast d’aquests lots, no el nombre total de comprensions del catàleg ni el nombre de peces pendents avui. L’estat actual de cada activitat consta al [seguiment](seguiment-produccio.md).
+Aquests enviaments van aportar veus per a **120 comprensions** i **44 frases d’esmena**. És l’abast d’aquests lots, no el nombre total de comprensions del catàleg ni el nombre de peces pendents avui. L’estat actual de cada activitat consta al [seguiment](seguiment-produccio.md).
 
 | Lot | Data d’enviament · UTC | Preses i esmenes | Àudio cru | Tokens d’entrada | Tokens d’àudio |
 | --- | --- | --- | ---: | ---: | ---: |
@@ -40,6 +40,10 @@ Aquests enviaments van aportar veus per a **117 comprensions** i **34 frases d�
 | [L38](../assets/audio/synthesis-batches/l38.json) | 2026-11-25 | S112-T01, S113-T01, S114-T01, S115-T01, S116-T01, S117-T01, S118-T01, S119-T01, S085-comiat, S093-confirmar, S102-final | 5:52 | 1815 | 8791 |
 | [L39](../assets/audio/synthesis-batches/l39.json) | 2026-11-25 | S124-T01, S125-T01, S126-T01, S127-T01, S081-telefon-r3, S081-final-r3, S107-sortida | 6:10 | 1856 | 9240 |
 | [L40](../assets/audio/synthesis-batches/l40.json) | 2026-11-25 | S120-T01, S121-T01, S122-T01, S123-T01, S017-coordinacio, S041-finalreunio | 5:48 | 1721 | 8710 |
+| [L41](../assets/audio/synthesis-batches/l41.json) | 2026-11-26 | S070-T02, S128-T01, S129-T01, S130-T01 | 6:17 | 1788 | 9436 |
+| [L42](../assets/audio/synthesis-batches/l42.json) | 2026-11-26 | S122-T02, S090-introduction, S090-pilota | 1:28 | 464 | 2200 |
+| [L43](../assets/audio/synthesis-batches/l43.json) | 2026-11-26 | S081-final-r4, S107-sortida-r2, S088-hola, S109-temps, S109-final | 0:42 | 213 | 1041 |
+| [L44](../assets/audio/synthesis-batches/l44.json) | 2026-11-26 | S095-mida, S095-recollida, S102-sentit | 0:30 | 147 | 750 |
 
 Cada rebut apunta a la petició exacta i a les empremtes d’origen; les respostes completes, les preses crues i els mapes de tall es conserven localment. No es repeteix una presa perquè encara falti revisar-la o muntar-la. Les planificacions anteriors, superades pels rebuts, es conserven a l’historial de Git.
 

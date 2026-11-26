@@ -1,6 +1,6 @@
 # Comprensions finalitzades
 
-Actualitzat: **25/11/2026**. **108 publicacions definitives**. Aquest registre conserva les peces que han sortit de la [taula de pendents](seguiment-produccio.md). Les variants es validen per separat.
+Actualitzat: **26/11/2026**. **115 publicacions definitives**. Aquest registre conserva les peces que han sortit de la [taula de pendents](seguiment-produccio.md). Les variants es validen per separat.
 
 | Codi | Títol | Curs | Dificultat · tipologia | Fragment | Validació definitiva |
 | --- | --- | --- | --- | --- | --- |
@@ -107,10 +107,17 @@ Actualitzat: **25/11/2026**. **108 publicacions definitives**. Aquest registre c
 | [ca-S111](https://sentit.ortogra.fi/#lectura=ca-S111) | La porta del camí vell | 6è | Avançada · Diàleg | 1:42 | 2026-11-25 |
 | [ca-S112](https://sentit.ortogra.fi/#lectura=ca-S112) | El bibliobús visita l’escola | 3r | Accessible · Notícia | 0:42 | 2026-11-25 |
 | [ca-S113](https://sentit.ortogra.fi/#lectura=ca-S113) | Un arbre nou al pati | 3r | Accessible · Notícia | 0:44 | 2026-11-25 |
+| [ca-S114](https://sentit.ortogra.fi/#lectura=ca-S114) | L’assaig s’obre al barri | 3r | Intermèdia · Notícia | 0:45 | 2026-11-26 |
 | [ca-S115](https://sentit.ortogra.fi/#lectura=ca-S115) | La font torna a rajar | 3r | Intermèdia · Notícia | 0:43 | 2026-11-25 |
+| [ca-S116](https://sentit.ortogra.fi/#lectura=ca-S116) | Una tarda per mirar les estrelles | 4t | Accessible · Notícia | 0:44 | 2026-11-26 |
 | [ca-S117](https://sentit.ortogra.fi/#lectura=ca-S117) | Els patinets estrenen aparcament | 4t | Intermèdia · Notícia | 0:44 | 2026-11-25 |
 | [ca-S119](https://sentit.ortogra.fi/#lectura=ca-S119) | El concert busca un altre espai | 4t | Avançada · Notícia | 0:42 | 2026-11-25 |
+| [ca-S120](https://sentit.ortogra.fi/#lectura=ca-S120) | Com s’enganxa el velcro? | 3r | Accessible · Explicació | 1:18 | 2026-11-26 |
 | [ca-S121](https://sentit.ortogra.fi/#lectura=ca-S121) | L’ombra s’ha mogut | 3r | Intermèdia · Explicació | 1:20 | 2026-11-25 |
+| [ca-S123](https://sentit.ortogra.fi/#lectura=ca-S123) | Per què ressona una sala buida? | 4t | Avançada · Explicació | 1:26 | 2026-11-26 |
+| [ca-S124](https://sentit.ortogra.fi/#lectura=ca-S124) | Posem nom als estoigs | 3r | Avançada · Instruccions | 1:06 | 2026-11-26 |
+| [ca-S125](https://sentit.ortogra.fi/#lectura=ca-S125) | Una capseta per a les pues | 4t | Intermèdia · Instruccions | 1:20 | 2026-11-26 |
+| [ca-S126](https://sentit.ortogra.fi/#lectura=ca-S126) | Com es prova un instrument reparat? | 5è | Accessible · Entrevista | 1:35 | 2026-11-26 |
 | [ca-S127](https://sentit.ortogra.fi/#lectura=ca-S127) | Quan val la pena reparar un instrument? | 5è | Intermèdia · Entrevista | 1:50 | 2026-11-25 |
 
 Les aprovacions estan vinculades al guió i al màster exactes al [registre de producció](../content/production-progress.js). No es concedeix cap aprovació per regenerar aquest document.

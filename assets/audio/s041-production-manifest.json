@@ -1,19 +1,19 @@
 {
   "code": "S041",
   "activity": "ca-S041",
-  "state": "awaiting-audio-corrections",
-  "file": "s041-directives-v2.mp3",
+  "state": "awaiting-montage-validation",
+  "file": "s041-repair-v3.mp3",
   "introFile": "s041-directives-v2-intro.mp3",
-  "bodyFile": "s041-mixed-v1-cos.mp3",
-  "offset": 4.37,
-  "bodyDuration": 96.64558333333333,
-  "fullDuration": 101.01558333333334,
+  "bodyFile": "s041-repair-v3-cos.mp3",
+  "offset": 4.36999999999999,
+  "bodyDuration": 94.24304166666667,
+  "fullDuration": 98.61304166666666,
   "voices": {
     "Mireia": "Aoede",
     "Biel": "Puck"
   },
   "model": "gemini-3.8-flash-tts",
-  "productionMode": "shared-mixed-batch",
+  "productionMode": "repaired-existing-master",
   "requestHash": "a0bcff78c1b77973ff7ddd60722557464823fa57c596f11b98c6ecc64a97223a",
   "sourceRequestHash": "a69e46ffa002c31081a977e22d2b4140be4b1b3c969601fca2b8971bd190cb02",
   "batch": "L06",
@@ -35,7 +35,7 @@
   ],
   "newSynthesisRequests": 0,
   "sharedRequest": true,
-  "lufs": -19.43,
+  "lufs": -19.42,
   "peakDbTP": -2.5,
   "voiceRetimed": false,
   "effects": [
@@ -53,11 +53,24 @@
       "speechNominalLufs": -42,
       "lowPassHz": 1800,
       "passes": 3,
-      "crossfadeSeconds": 1
+      "crossfadeSeconds": 1,
+      "openingGain": 0.7,
+      "raisedGain": 0.7,
+      "excerpt": {
+        "start": 15,
+        "seconds": 90
+      },
+      "envelope": {
+        "riseStart": 90.69304166666667,
+        "riseEnd": 91.49304166666668,
+        "fadeStart": 91.84304166666668,
+        "fadeEnd": 93.04304166666668
+      },
+      "inheritedFrom": "s041-directives-v2.mp3"
     },
     {
       "name": "funkysandwich-871017",
-      "start": 65.6096,
+      "start": 65.31,
       "source": "assets/audio/sources/funkysandwich-871017.mp3",
       "sourceSha256": "91f0758edb74981b079afe514c96645efe829b97c924cec132bb245cbf70c7a6",
       "sourceUrl": "https://freesound.org/people/funkysandwich/sounds/871017/",
@@ -68,10 +81,12 @@
         "seconds": 1.2
       },
       "underSpeech": false,
-      "insertedPause": 1.5
+      "insertedPause": 1.5,
+      "end": 66.51,
+      "inheritedFrom": "s041-directives-v2.mp3"
     }
   ],
-  "sha256": "b277087c3deafb2966f82d624ee47ed02feecd68b756ea4e7ab68a28243b61e3",
+  "sha256": "c2c832ce1d045db7b9436ced9135a6d1cefd4fd743102f9975488117493c78c9",
   "directiveRevision": {
     "originalFile": "s041-mixed-v1.mp3",
     "originalSha256": "644ace07ff499b084ef2f1fdffa3e5ccee0c0c290ebc624d63ffe9c17317d942",
@@ -98,5 +113,189 @@
     "bodyUnchanged": true,
     "voiceRetimed": false,
     "newRequests": 0
+  },
+  "previousMaster": {
+    "file": "s041-directives-v2.mp3",
+    "sha256": "b277087c3deafb2966f82d624ee47ed02feecd68b756ea4e7ab68a28243b61e3"
+  },
+  "repairApplication": {
+    "code": "S041",
+    "date": "2026-11-26",
+    "scope": "approved-repair",
+    "originalRawSha256": "67ea4df411eb27fa99e64ff706302a192277746961c0153c0ee7f72a5fc73e9e",
+    "patchedSha256": "04ab9df52e56e796de853937588c6da39195d35ece7bd3d9ee33418b89230404",
+    "originalSeconds": 95.86,
+    "seconds": 96.165,
+    "edits": [
+      {
+        "part": "finalreunio",
+        "text": "Quan hagis parlat amb ella, ens expliques què t’ha dit. Va, ara escoltem el grup de les endevinalles.",
+        "accepted": {
+          "part": "finalreunio",
+          "text": "Quan hagis parlat amb ella, ens expliques què t’ha dit. Va, ara escoltem el grup de les endevinalles.",
+          "candidateFile": "assets/audio/repairs/l40-s041-finalreunio-prova.mp3",
+          "candidateSha256": "68ba9f5b295afe179685468ad9298522bab0e2d079ff6b73a3be97415cbc2bba",
+          "batchRequestHash": "5808ddd12485a1772a021a21db2f16fa5be9cd4a42ed90c894aaf948ed7a38be",
+          "sourceTakeSha256": "67ea4df411eb27fa99e64ff706302a192277746961c0153c0ee7f72a5fc73e9e",
+          "candidateTakeId": "S041-finalreunio",
+          "sourceRequestHash": "3d25f087898f538ca6605b0b0393ce7c158881a7dafb013a5d918565aa47b994"
+        },
+        "candidateRawSha256": "b6775f0096b93d3dbfe60339c6558638480c50f9c3b740b68b1d958f682b31f1",
+        "candidateBatch": "L40",
+        "candidateRawBatchSha256": "580030ad367459bf30851f7d6d2f2126b2a58bd88b03e9dc2cf92e2796491a98",
+        "originalRange": {
+          "start": 82.049,
+          "end": 87.284,
+          "handles": [
+            -65.70002027162887,
+            -64.73392668013778
+          ]
+        },
+        "candidateRange": {
+          "start": 0.017791666666666667,
+          "end": 5.557791666666667,
+          "handles": [
+            -61.061038741215235,
+            -120
+          ]
+        },
+        "spoken": {
+          "start": 0.22000833333332623,
+          "end": 5.260008333333347
+        },
+        "gainDb": -3.0519483106938674,
+        "requestedGainDb": -3.0519483106938674,
+        "peakLimitedByGain": false,
+        "peakAfterGain": 19454,
+        "deltaSeconds": 0.305,
+        "outputStart": 82.049,
+        "candidateRawFile": "s041-finalreunio.wav"
+      }
+    ],
+    "retainedRanges": [
+      {
+        "originalStart": 0,
+        "originalEnd": 82.049,
+        "outputStart": 0,
+        "sha256": "7f8fcd9464fe4be478a066e20fd67b3afcc6f5ae0ff9421ee3c907f3fdf3ab47"
+      },
+      {
+        "originalStart": 87.284,
+        "originalEnd": 95.86,
+        "outputStart": 87.589,
+        "sha256": "ab91f6265ddc15af3e0e02a918d2dd8c75bbaae3665746bc42b520de4885c0ba"
+      }
+    ],
+    "allOtherVoiceSamplesIdentical": true,
+    "voiceRetimed": false,
+    "pitchShifted": false,
+    "newRequests": 0,
+    "originalRawFile": "s041-t01.wav",
+    "patchedFile": "patched-source.wav"
+  },
+  "voiceTrim": {
+    "start": 7.314,
+    "end": 93.75704166666667,
+    "handles": [
+      -66.22659904607586,
+      -69.48114499602985
+    ],
+    "removedHeadSeconds": 0.2996000000000052,
+    "removedTailSeconds": 2.4079583333333403,
+    "removedHeadPeakDbFS": -61.061038741215235,
+    "removedTailPeakDbFS": -55.66112350273499,
+    "lastAlignedSpeechSeconds": 92.50900000000001,
+    "lastTailActivitySeconds": 93.63704166666666,
+    "minimumTailActivityMarginSeconds": 0.12,
+    "chairRawSeconds": 70.104,
+    "chairBoundaryPeakDbFS": -56.505077098624085,
+    "insertedPauseSeconds": 1.5,
+    "retainedSourcePcmSha256": "73055f38d401bf34b30de7ed80da77bc727fdcd4271dd403af2e60bde12eb783",
+    "allRetainedSamplesIdentical": true,
+    "voiceRetimed": false,
+    "pitchShifted": false
+  },
+  "titleTrackPreserved": {
+    "file": "s041-directives-v2-intro.mp3",
+    "sha256": "0b56c8573e0e9579ed37315d00503c2ee43d63340b7ddd4eb7abaeaf042565d7",
+    "retainedTitlePcmSha256": "af8c5722c009470b121d3947aca27f3649dba4cdb4e8eb311779755e8dcfb5a4"
+  },
+  "montageNewSynthesisRequests": 0,
+  "pitchShifted": false,
+  "voice": {
+    "bodyLead": 2.4,
+    "bodyRawDuration": 87.94304166666667,
+    "retimed": false,
+    "repairedWithoutRetiming": true,
+    "allRetainedSourceSamplesIdentical": true
+  },
+  "offlineRevision": {
+    "sharedRegistriesUpdated": true,
+    "teacherFinalApproval": false,
+    "voiceInputSha256": "d74499430c5faa248b1f2bbace74096079e88db84f536aba8746514b22049f09",
+    "timing": {
+      "from": 7.314,
+      "to": 93.75704166666667,
+      "lead": 2.4,
+      "tail": 3.3,
+      "total": 93.64304166666668,
+      "voiceEnd": 90.34304166666668,
+      "chairStart": 65.31,
+      "room": {
+        "name": "tallis0410-707510",
+        "start": 0,
+        "source": "assets/audio/sources/tallis0410-707510.mp3",
+        "sourceSha256": "1cceca74ca79bd56764a8482ce0721afa5d2a7612c15ef1160ce2c5b923a45ff",
+        "sourceUrl": "https://freesound.org/people/Tallis0410/sounds/707510/",
+        "author": "Tallis0410",
+        "license": "CC0 1.0",
+        "underSpeech": true,
+        "speechGain": 0.2,
+        "sourceTargetLufs": -28,
+        "speechNominalLufs": -42,
+        "lowPassHz": 1800,
+        "passes": 3,
+        "crossfadeSeconds": 1
+      },
+      "chair": {
+        "name": "funkysandwich-871017",
+        "start": 65.6096,
+        "source": "assets/audio/sources/funkysandwich-871017.mp3",
+        "sourceSha256": "91f0758edb74981b079afe514c96645efe829b97c924cec132bb245cbf70c7a6",
+        "sourceUrl": "https://freesound.org/people/funkysandwich/sounds/871017/",
+        "author": "funkysandwich",
+        "license": "CC0 1.0",
+        "excerpt": {
+          "start": 0,
+          "seconds": 1.2
+        },
+        "underSpeech": false,
+        "insertedPause": 1.5
+      },
+      "trimProof": {
+        "start": 7.314,
+        "end": 93.75704166666667,
+        "handles": [
+          -66.22659904607586,
+          -69.48114499602985
+        ],
+        "removedHeadSeconds": 0.2996000000000052,
+        "removedTailSeconds": 2.4079583333333403,
+        "removedHeadPeakDbFS": -61.061038741215235,
+        "removedTailPeakDbFS": -55.66112350273499,
+        "lastAlignedSpeechSeconds": 92.50900000000001,
+        "lastTailActivitySeconds": 93.63704166666666,
+        "minimumTailActivityMarginSeconds": 0.12,
+        "chairRawSeconds": 70.104,
+        "chairBoundaryPeakDbFS": -56.505077098624085,
+        "insertedPauseSeconds": 1.5,
+        "retainedSourcePcmSha256": "73055f38d401bf34b30de7ed80da77bc727fdcd4271dd403af2e60bde12eb783",
+        "allRetainedSamplesIdentical": true,
+        "voiceRetimed": false,
+        "pitchShifted": false
+      }
+    },
+    "appliedAt": "2026-11-26",
+    "scope": "S041 only"
   }
 }

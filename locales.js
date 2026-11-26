@@ -1,5 +1,7 @@
 export const strings = {
   ca: {
+    releaseDateTraditionExpansion: '26 de novembre de 2026',
+    releaseTraditionExpansion: 'Set noves publicacions definitives: S114, S116, S120, S123, S124, S125 i S126, amb il·lustracions i solucionaris nets. Dotze guions provisionals S131–S142 amb preguntes obertes/ABCD i revisió creuada, pendents del docent. S118, S085 i S093 amb muntatge per escoltar; primera esmena de S081 incorporada.',
     releaseEquilibriPublication: "Set publicacions definitives: S112, S113, S115, S117, S119, S121 i S127, amb il·lustracions i solucionaris nets. Set muntatges nous per escoltar: S114, S116, S120, S123, S124, S125 i S126. S122 espera una nova presa completa de les dues veus.",
     releaseSevenBalanceMontages: "S112, S113, S115, S117, S119, S121 i S127: veus validades i primers muntatges disponibles. Base comuna de notícies, ambient discret de pati o de taller, segons l’escena. Tot pendent d’audició de muntatge; cap síntesi nova.",
     releaseL39L40Voices: "Guions pendents validats. L39 i L40 rebuts: veus de S120–S127 i cinc comparacions d’esmena de S081, S107, S017 i S041. Dos paràgrafs de S017 en una sola presa contínua. Sense muntatge ni substitució automàtica; pilots S128–S130 esperen un lot més complet.",
@@ -338,6 +340,8 @@ export const strings = {
     sessionEnded: 'Sessió acabada', remainingTime: 'Temps restant',
   },
   es: {
+    releaseDateTraditionExpansion: '26 de noviembre de 2026',
+    releaseTraditionExpansion: 'Siete nuevas publicaciones definitivas: S114, S116, S120, S123, S124, S125 y S126, con ilustraciones y soluciones limpias. Doce guiones provisionales S131–S142 con preguntas abiertas/ABCD y revisión cruzada, pendientes del docente. S118, S085 y S093 con montaje para escuchar; primera corrección de S081 incorporada.',
     releaseEquilibriPublication: "Siete publicaciones definitivas: S112, S113, S115, S117, S119, S121 y S127, con ilustraciones y solucionarios limpios. Siete montajes nuevos para escuchar: S114, S116, S120, S123, S124, S125 y S126. S122 espera una nueva toma completa de las dos voces.",
     releaseSevenBalanceMontages: "S112, S113, S115, S117, S119, S121 y S127: voces validadas y primeros montajes disponibles. Base común de noticias, ambiente discreto de patio o de taller, según la escena. Todo pendiente de escucha del montaje; ninguna síntesis nueva.",
     releaseL39L40Voices: "Guiones pendientes validados. L39 y L40 recibidos: voces de S120–S127 y cinco comparaciones de correcciones de S081, S107, S017 y S041. Dos párrafos de S017 en una sola toma continua. Sin montaje ni sustitución automática; los pilotos S128–S130 esperan un lote más completo.",

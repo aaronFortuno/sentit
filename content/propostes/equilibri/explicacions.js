@@ -2,7 +2,8 @@ import { draft, item as q, d, s, e, entries, alternatives, contexts } from './pr
 const lesson = data => draft({ genre:'explanation', universeIds:['amb-mireia'], voices:{Mireia:'Aoede',Laia:'Leda'}, delivery:'Mireia adulta propera, Aoede estable; Laia jove, Leda estable. Conversa de petit grup amb preguntes reals, dubtes i reaccions breus. L’explicació causal és el centre; cap tercera veu, moralina ni llenguatge de reunió. Dicció natural i clara, sense llegir les acotacions.', soundPlan:'Ambient escolar enregistrat amb jovent, molt suau des de l’entrada fins al final i sense paraules entenedores. Cap efecte puntual necessari per respondre. Evitar papers, cadires i silencis de muntatge entre torns; conservar petites pauses naturals. Entrada discreta; després de l’última paraula, mig segon, pujada de dos segons i fosa. Audició de veus abans de muntar.', ...data });
 export const explanationDrafts = [
   lesson({ code:'S120', id:'com-senganxa-el-velcro', title:'Com s’enganxa el velcro?', grade:'3', level:'easy',
-    seconds: 82, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s120-publicacio-v1.webp","alt":"La Mireia i la Laia preparen una motxilla a l’aula.","width":1536,"height":1024},
+    seconds: 82, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s120-mixed-v1.mp3', tracks: { introduction: './assets/audio/s120-mixed-v1-intro.mp3', body: './assets/audio/s120-mixed-v1-cos.mp3' },
     fragment: { start: 3.9699999999999998, seconds: 78 },
     summary:'La Laia mira el tancament de la seva bossa i la Mireia li explica què passa entre les dues tires.',
@@ -84,7 +85,8 @@ export const explanationDrafts = [
       q('prova','Quina comparació concreta proposa la Mireia per provar la bossa?','Ampolles iguals i igual de fredes, amb la mateixa quantitat d’aigua: una dins i una fora, a l’ombra.',['Ampolles iguals, mateixa quantitat: una tèbia dins i una freda fora, a l’ombra.','Ampolles iguals i fredes, mateixa quantitat: una dins i una fora, al sol.','Ampolles iguals i fredes: una plena dins i una gairebé buida fora, a l’ombra.','Ampolles iguals i fredes, mateixa quantitat: una dins i una fora, a l’ombra.'],'d','La Mireia proposa igualar ampolles, aigua i fred inicial, amb una dins de la bossa i l’altra fora a l’ombra.',[e('igual','la mateixa quantitat d’aigua en dues ampolles iguals, igual de fredes al començament'),e('igual','Una dins de la bossa i l’altra a fora, al costat, totes dues a l’ombra')],2),
     ] }),
   lesson({ code:'S123', id:'per-que-ressona-una-sala-buida', title:'Per què ressona una sala buida?', grade:'4', level:'advanced',
-    seconds: 92, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s123-publicacio-v1.webp","alt":"La Mireia i la Laia visiten una sala d’exposicions encara buida.","width":1536,"height":1024},
+    seconds: 92, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s123-mixed-v1.mp3', tracks: { introduction: './assets/audio/s123-mixed-v1-intro.mp3', body: './assets/audio/s123-mixed-v1-cos.mp3' },
     fragment: { start: 4.800000000000001, seconds: 86 },
     soundPlan:'Sala encara buida; ambient enregistrat molt tènue de passadís llunyà, darrere d’una porta. Cap parla entenedora dins la sala ni reverberació afegida a les dades. La cua sonora queda descrita en veu alta; cap efecte és necessari per respondre. Sortida curta amb fosa.',

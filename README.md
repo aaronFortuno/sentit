@@ -2,11 +2,13 @@
 
 Banc de comprensió oral d’ortogra.fi. El docent tria una activitat, prepara la fitxa i el solucionari i els imprimeix. L’alumnat respon al paper i escolta l’àudio des del QR o l’enllaç. Web estàtic, sense comptes ni servidor d’aplicació.
 
-**Doble format a tot el catàleg:** 138 peces, 1.001 preguntes: 997 alternatives ABCD i 4 obertes justificades. El format general i les excepcions es desen entre sessions i col·leccions. [Cobertura](docs/preguntes-abcd-seguiment.md) · [Criteris](docs/preguntes-abcd.md). El pilot conserva l’aprovació docent; la resta d’alternatives continua pendent del seu vistiplau.
+**Doble format a tot el catàleg:** 150 peces, 1.076 preguntes: 1.072 alternatives ABCD i 4 obertes justificades. El format general i les excepcions es desen entre sessions i col·leccions. [Cobertura](docs/preguntes-abcd-seguiment.md) · [Criteris](docs/preguntes-abcd.md). El pilot conserva l’aprovació docent; la resta d’alternatives continua pendent del seu vistiplau.
 
-**Tanda d’equilibri:** [S112–S127](docs/pla-equilibri-2026-11-25.md), setze guions amb preguntes duals i revisió independent. Set peces definitives, set muntatges pendents d’audició, S118 pendent de validar les veus i S122 en regeneració completa. [Publicacions i accés als muntatges](docs/publicacio-equilibri-2026-11-25.md).
+**Tanda d’equilibri:** [S112–S127](docs/pla-equilibri-2026-11-25.md), setze guions amb preguntes duals i revisió independent. Catorze peces definitives, S118 amb muntatge pendent d’audició i S122 en regeneració completa. [Publicacions i accés als muntatges](docs/publicacio-equilibri-2026-11-26.md).
 
-**Pilots de tradició amb guió validat:** [S128–S130](docs/pilots-tradicio.md), una faula de 3r, una llegenda de 4t i un mite grec de 5è. Fonts i decisions d’adaptació explícites, 18 preguntes duals i revisió adversària superada. Narrador amb timbre flexible; esperen completar un lot útil de sis a vuit minuts amb les esmenes pendents.
+**Pilots de tradició amb guió validat:** [S128–S130](docs/pilots-tradicio.md), una faula de 3r, una llegenda de 4t i un mite grec de 5è. Fonts i decisions d’adaptació explícites, 18 preguntes duals i revisió adversària superada. Veus rebudes a L41, juntament amb la nova presa íntegra de S070. [Resultats i comparacions del 26/11](docs/lots-2026-11-26.md); pendents d’audició abans del muntatge.
+
+**Ampliació de tradició:** [S131–S142](docs/ampliacio-tradicio-2026-11-26.md), quatre faules, quatre llegendes i quatre mites, amb 75 preguntes duals, fonts i revisió creuada. Guions pendents de la validació docent abans de sintetitzar.
 
 [Pla actual d’esmenes de veu](docs/pla-esmenes-veu.md): preses pendents, fragments ja rebuts i blocs per completar amb guions compatibles. S022/S025/S059/S061/S071 i S058 ja són definitives.
 
@@ -20,11 +22,11 @@ Banc de comprensió oral d’ortogra.fi. El docent tria una activitat, prepara l
 
 [Actualització del 25/11](docs/lots-2026-11-25.md): L36/L37 rebuts, amb vuit comprensions S104–S111 i cinc fragments per comparar o reposar (S059, S081 i S097). Muntatges de les peces amb veus validades disponibles per escoltar; S056/S097 ja incorporen les obertures corregides i aprovades. Esmenes noves de S085/S093/S095/S102/S107/S109 en cua, encara sense enviar. Les veus s’escolten abans de fer cap muntatge i el muntatge requereix una altra audició.
 
-[Mans a l’obra i A peu de camí](docs/lot-mans-i-cami.md): vuit guions S104–S111 per a 3r–6è, amb preguntes, solucionari, context i escaleta. Projectes de taller amb Biel/Elies i passejades amb Aina/Ferran, comprensibles sense imatges ni mapes. S104/S105/S106/S108/S110 són definitives, S107/S109 esperen esmenes de veu i S111 té muntatge per escoltar.
+[Mans a l’obra i A peu de camí](docs/lot-mans-i-cami.md): vuit guions S104–S111 per a 3r–6è, amb preguntes, solucionari, context i escaleta. Projectes de taller amb Biel/Elies i passejades amb Aina/Ferran, comprensibles sense imatges ni mapes. S104/S105/S106/S108/S110 són definitives, S107/S109 tenen esmenes noves per escoltar i S111 és definitiva.
 
-[Situacions quotidianes](docs/lot-situacions-quotidianes.md): nou converses breus amb revisió independent, guions validats i veus rebudes. S083/S084/S086/S087/S089/S091 són definitives. S085 espera corregir el timbre del comiat; S088/S090 tenen omissions confirmades en cua de síntesi.
+[Situacions quotidianes](docs/lot-situacions-quotidianes.md): nou converses breus amb revisió independent, guions validats i veus rebudes. S083/S084/S086/S087/S089/S091 són definitives. S085 incorpora el comiat corregit i té muntatge pendent d’audició; S088/S090 tenen omissions confirmades en cua de síntesi.
 
-[Serveis i gestions quotidianes](docs/lot-situacions-quotidianes-avancades.md): dotze guions S092–S103 per a 5è, 6è i 1r d’ESO, validats pel docent i amb veus rebudes. S092/S096/S097/S098/S100/S101/S103 són definitives i S093/S095/S102 esperen esmenes de veu. S097 incorpora el títol i el primer torn de Ferran després de validar les esmenes. Recurrents i convidats ocasionals mantenen les seves identitats.
+[Serveis i gestions quotidianes](docs/lot-situacions-quotidianes-avancades.md): dotze guions S092–S103 per a 5è, 6è i 1r d’ESO, validats pel docent i amb veus rebudes. S092/S096/S097/S098/S100/S101/S103 són definitives i S093 té muntatge pendent d’audició; S095/S102 tenen esmenes noves pendents d’audició. S097 incorpora el títol i el primer torn de Ferran després de validar les esmenes. Recurrents i convidats ocasionals mantenen les seves identitats.
 
 [Obre Sentit](https://sentit.ortogra.fi/) · [Feina pendent](docs/seguiment-produccio.md) · [Publicacions finalitzades](docs/publicades.md) · [Cua de síntesi](docs/lots-sintesi.md) · [Sintonies](https://sentit.ortogra.fi/proves/sintonies-mireia.html)
 

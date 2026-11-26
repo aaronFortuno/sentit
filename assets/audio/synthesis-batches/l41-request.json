@@ -1,0 +1,63 @@
+{
+  "model": "gemini-3.8-flash-tts",
+  "input": [
+    {
+      "type": "user_input",
+      "content": [
+        {
+          "type": "text",
+          "text": "Comprensió oral. El dia que no va sonar el disc. \n\nAina, el meu pare tenia un acordió guardat a l’armari. El tocava alguns diumenges a casa, quan acabàvem de dinar. Un any el vam portar a la festa del carrer perquè un veí li havia demanat que toqués una cançó al final. La resta del ball el farien amb discos.\n\nLa plaça estava plena de taules i havien penjat unes bombetes damunt de la pista de ball. Jo ajudava a recollir els gots buits. Quan el veí anava a posar el primer disc, es van apagar les bombetes. També es va quedar sense llum la botiga del costat.\n\nEls grans anaven d’un costat a l’altre per saber què havia passat. Mentrestant, la gent s’asseia i els petits corríem entre les cadires. El pare va anar a buscar l’acordió, que havia deixat a casa d’aquell veí, a la planta baixa, perquè no li fes nosa.\n\nVa seure prop de la porta i va començar a tocar. Al principi només se li acostaven quatre persones. Després una parella es va posar a ballar, algú més els va seguir i la rotllana de cadires es va anar eixamplant. El pare em va demanar el got d’aigua que jo portava i el vaig deixar al seu costat.\n\nAl cap d’una estona van tornar les bombetes. El veí ja tenia la mà a punt per posar el disc, però va veure que el pare encara tocava i va esperar que acabés la cançó. La gent va aplaudir i el pare va plegar l’acordió sobre els genolls, tot vermell de galtes.\n\nLlavors van començar els discos i ell va baixar a ballar amb la mare. L’acordió va tornar al seu estoig i jo vaig continuar recollint gots. Això sí: quan passava pel seu costat, el pare m’anava dient que aquell era seu, que no l’hi prengués. Després de tanta estona tocant, encara no havia begut ni un glop.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Ferran explica un record a l’Aina amb veu adulta càlida, ritme natural i petites reaccions pròpies de qui recorda una escena. Una sola veu: les persones del passat s’expliquen, no es representen amb altres timbres. Tancaments concrets de la història, sense consell universal afegit. No llegir anotacions ni afegir rialles o paraules. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. Keep the warm, lightly smiling older male Ferran/Algenib voice stable from beginning to end. Natural clear Central Catalan. Pronounce the canonical word asseia fluently with its normal stress, without shifting stress to the I. No sudden darker or deeper replacement voice. Read only supplied speech; no instructions, music or effects. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its story. Keep the assigned physical voice stable. Each recording has its own supplied role and direction: the anonymous narrator is separate from the recurring character. Do not carry names or character mannerisms between recordings. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. El lleó i el ratolí. Una faula de la tradició d’Isop.\n\nUn lleó dormia a l’ombra d’un arbre. Un ratolí va passar corrents per damunt de la seva pota i el va despertar. El lleó el va atrapar abans que pogués fugir.\n\n«Deixa’m anar, si us plau!», va suplicar el ratolí. «Potser algun dia et podré ajudar.» El lleó es va posar a riure. Aquell animal tan petit li oferia ajuda! Però va aixecar la pota i el va deixar marxar.\n\nAl cap d’uns dies, el lleó va quedar atrapat en una xarxa que havien parat uns caçadors. Estirava les cordes amb totes les seves forces, però cada vegada s’hi embolicava més. Va rugir tan fort que el ratolí el va sentir.\n\nEl ratolí va córrer fins a la xarxa. Va agafar una corda amb les dents i la va començar a rosegar. Mossegada rere mossegada, va obrir un forat. El lleó hi va poder passar i va quedar lliure.\n\nEl lleó es va ajupir fins a tenir el ratolí davant dels ulls. Aquesta vegada ja no reia. «Gràcies», li va dir. El ratolí es va espolsar els bigotis i va tornar cap al seu cau.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants. Narració en català central, càlida, clara i expressiva, amb ritme natural. Una sola veu narradora, també als diàlegs citats, amb canvis suaus d’intenció i sense imitar criatures o monstres. Algenib és candidat provisional; el docent autoritza triar un timbre compatible amb el lot abans de congelar-lo. No llegir acotacions ni indicacions de pausa. Read the title and complete programme verbatim. Leave a brief quiet boundary after the title, without speaking any stage directions or pause instructions. No added sounds, music, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its story. Keep the assigned physical voice stable. Each recording has its own supplied role and direction: the anonymous narrator is separate from the recurring character. Do not carry names or character mannerisms between recordings. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. Sant Jordi i la rosa. Una llegenda de la tradició catalana.\n\nDiu una llegenda que, fa molt de temps, prop de Montblanc vivia un drac. Quan s’acostava a la vila, tothom s’amagava darrere les muralles. Per mantenir-lo lluny de les cases, els habitants li portaven bestiar fins a la cova.\n\nPerò el drac cada vegada menjava més, i les ovelles es van acabar. Llavors els habitants van fer un pacte terrible: cada dia una persona sortiria de la vila per entregar-se al drac. Per decidir qui hi aniria, feien un sorteig. Un dia, el nom escollit va ser el de la filla del rei.\n\nEl rei estava desesperat. Algunes persones es van oferir a anar-hi en lloc de la princesa. Ell, però, va acceptar el resultat del sorteig. La seva filla va travessar la porta de la muralla i va començar a caminar cap a la cova, mentre la gent la mirava des de dalt.\n\nAbans que arribés al cau del drac, va aparèixer un cavaller muntat a cavall. Era Jordi. Quan la bèstia va sortir, ell s’hi va enfrontar amb la llança. Després del combat, el drac va caure mort i la princesa va poder tornar a la vila.\n\nEn aquesta versió de la llegenda, al lloc on havia caigut la sang del drac va créixer un roser. Jordi en va tallar una rosa vermella i la va oferir a la princesa. Des de les muralles, la gent va veure com tornaven. Aquell dia les portes de la vila van quedar obertes.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same natural Central Catalan voice, pace and character. Read the words verbatim, with conversational turn-taking. No added sounds. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its story. Keep the assigned physical voice stable. Each recording has its own supplied role and direction: the anonymous narrator is separate from the recurring character. Do not carry names or character mannerisms between recordings. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. El fil d’Ariadna. Un episodi de la mitologia grega.\n\nEn un mite grec s’explica que, a l’illa de Creta, hi havia un laberint de passadissos que es creuaven i tornaven a començar. Al seu interior vivia el Minotaure, una criatura amb cos d’home i cap de toro. Els qui hi entraven corrien un perill doble: trobar el monstre i perdre el camí de tornada.\n\nLa ciutat d’Atenes havia d’enviar joves a Creta perquè els fessin entrar al laberint. Un d’aquells joves era Teseu. Havia decidit enfrontar-se al Minotaure i acabar amb aquell sacrifici. Però encara que aconseguís vèncer-lo, havia de trobar la manera de sortir d’aquell embolic de passadissos.\n\nAriadna, la filla del rei de Creta, va voler ajudar-lo. Va preguntar al constructor del laberint com se’n podia trobar la sortida. Després es va acostar a Teseu i li va donar un cabdell de fil. Li va explicar que n’havia de lligar un extrem a l’entrada i anar deixant fil darrere seu mentre avançava.\n\nTeseu va subjectar el fil a la porta. Amb el cabdell a la mà, va endinsar-se al laberint. Cada vegada que girava per un corredor, deixava que el fil es desplegués. Aviat va perdre de vista l’entrada. Els murs s’assemblaven tant que hauria estat difícil recordar tots els tombs que havia fet.\n\nA la part més fonda va trobar el Minotaure. S’hi va enfrontar i el va matar. Ara havia de tornar. Va buscar el fil que havia anat deixant i el va recollir mentre avançava en sentit contrari. Quan arribava a un encreuament, el fil li indicava per quin passadís havia passat.\n\nA poc a poc, va arribar a la porta i va tornar a veure la llum. Ariadna l’esperava a fora. Aquella nit, ella, Teseu i els altres joves van marxar de Creta en vaixell. El laberint va anar quedant enrere mentre s’allunyaven de l’illa.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same natural Central Catalan voice, pace and character. Read the words verbatim, with conversational turn-taking. No added sounds. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its story. Keep the assigned physical voice stable. Each recording has its own supplied role and direction: the anonymous narrator is separate from the recurring character. Do not carry names or character mannerisms between recordings. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "response_format": {
+    "type": "audio",
+    "mime_type": "audio/wav",
+    "sample_rate": 24000
+  },
+  "generation_config": {
+    "speech_config": [
+      {
+        "voice": "Algenib"
+      }
+    ]
+  },
+  "background": true
+}

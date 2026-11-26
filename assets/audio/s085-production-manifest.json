@@ -1,0 +1,231 @@
+{
+  "code": "S085",
+  "activity": "ca-S085",
+  "state": "awaiting-montage-validation",
+  "file": "s085-mixed-v1.mp3",
+  "introFile": "s085-mixed-v1-intro.mp3",
+  "bodyFile": "s085-mixed-v1-cos.mp3",
+  "offset": 4.44,
+  "bodyDuration": 74.32791666666667,
+  "fullDuration": 78.76791666666666,
+  "voices": {
+    "Mar": "Erinome",
+    "Veïna": "Despina"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "repaired-mixed-take",
+  "requestHash": "5cdbd8c6d0e0758808df27f758e8db26f4c21069a67dba8736fc613da86cf3f2",
+  "sourceRequestHash": "118c27f2d99810abd12238e1e33fd0bbda9457078524973721f3a6da47b69fa0",
+  "batch": "L35+L38",
+  "sourceBatchRequests": [
+    {
+      "batch": "L35",
+      "requestHash": "2e429c977e701ef1f63c2570d8f4ce02143fc47e4241bb11ee74e0760f029f2e",
+      "rawSha256": "d57bbc3b3b2098192643be92fb576b7712479884661730de76a9bd6452161333"
+    },
+    {
+      "batch": "L38",
+      "requestHash": "5451b4cea3e920f9aa007be12efb850987a7a6376108afb4dff422c3b91341ac",
+      "rawSha256": "99234bdcad2f77209580f8657378497a82e88cad867431a32a8410636162ff7f"
+    }
+  ],
+  "assembly": [
+    {
+      "part": "comiat",
+      "text": "Doncs pugem juntes. Entro un moment les bosses i et vinc a ajudar. Els tomàquets ja han viatjat prou per avui.",
+      "accepted": {
+        "part": "comiat",
+        "text": "Doncs pugem juntes. Entro un moment les bosses i et vinc a ajudar. Els tomàquets ja han viatjat prou per avui.",
+        "candidateFile": "assets/audio/repairs/l38-s085-comiat-prova.mp3",
+        "candidateSha256": "855125a3cff01c45f609fed1bf5a7e94474a79653bc97cbc78e1aecf42f86773",
+        "batchRequestHash": "5451b4cea3e920f9aa007be12efb850987a7a6376108afb4dff422c3b91341ac",
+        "sourceTakeSha256": "76fa131296115bbdcad2ab187b5b2a9c2313d18170930f1d2c1d15e136c65242",
+        "candidateTakeId": "S085-comiat",
+        "sourceRequestHash": "f842c1cba0a886280361f843b5b49d32e29f60207eb741b12952a259987ee00f"
+      },
+      "candidateRawFile": "C:\\Users\\afortun8\\Desktop\\Projects\\Escola\\output\\sentit-primera-tanda\\mixed-batches\\l38-5451b4cea3e9\\s085-comiat.wav",
+      "candidateRawSha256": "bbcf917ba9a3e9246ccd60a9f7f2372957bb3a4e81e7b1d5f7475cd6704bd287",
+      "candidateBatch": "L38",
+      "candidateRawBatchSha256": "99234bdcad2f77209580f8657378497a82e88cad867431a32a8410636162ff7f",
+      "originalRange": {
+        "start": 63.045,
+        "end": 69.255,
+        "handles": [
+          -55.66112350273499,
+          -55.66112350273499
+        ]
+      },
+      "candidateRange": {
+        "start": 0.08470833333333333,
+        "end": 5.712625,
+        "handles": [
+          -40.79557493270577,
+          -70.30899869919436
+        ]
+      },
+      "spoken": {
+        "start": 0.2109916666666774,
+        "end": 5.370991666666702
+      },
+      "gainDb": 0.4449183794943241,
+      "requestedGainDb": 1.880035101904503,
+      "peakLimitedByGain": true,
+      "peakAfterGain": 30000,
+      "deltaSeconds": -0.5820833333333333,
+      "outputStart": 63.045
+    }
+  ],
+  "requestHashIsCompositionChecksum": true,
+  "rawSha256": "8238454ff0658ab5d21731ac969cd72317e3c8ae620223c7c43d09da512fef85",
+  "takeSha256": "8238454ff0658ab5d21731ac969cd72317e3c8ae620223c7c43d09da512fef85",
+  "coverage": 0.8333333333333334,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.19,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "soaress-546234",
+      "start": 0,
+      "source": "assets/audio/sources/soaress-546234.mp3",
+      "sourceSha256": "1059086683943b6b8d679a9283eda0bf08a75c05cbc711b2ec6a14a276f5028c",
+      "sourceUrl": "https://freesound.org/people/soaress/sounds/546234/",
+      "author": "soaress",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.08,
+      "openingGain": 0.16,
+      "raisedGain": 0.23,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -49.938200260161125,
+      "lowPassHz": 800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 140,
+        "seconds": 49.6085625
+      },
+      "envelope": {
+        "riseStart": 69.94789999999999,
+        "riseEnd": 70.7479,
+        "holdSeconds": 0.9800166666666712,
+        "fadeStart": 71.72791666666667,
+        "fadeEnd": 73.12791666666668
+      }
+    }
+  ],
+  "sha256": "5edb6420f02f3e1da0b488b5416f23fa8cd19f2c71752788511f664e862736f3",
+  "voiceHandles": {
+    "body": {
+      "start": 0.16391666666666665,
+      "end": 68.99183333333333,
+      "retainedPcmSha256": "4feafcccbb6fc610dcdd873add168c59bec2ee7b2d9de58b87d517e98db65df2",
+      "sourceSha256": "a4fd21053c6e925c5c05e13583e476e7f70c4a7f1748a86306eb7582e73f7244",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.07,
+      "end": 3.56,
+      "retainedPcmSha256": "7c65bdca07ae71c0c68ce31e2c5890ba41b2c30ecd3a105de73996564579b378",
+      "sourceSha256": "603ea4a941a096ef67f2f893e0d9caf5eece2c9e8ba058d4798c5ecceb596606",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-26",
+    "sourceTakeSha256": "8238454ff0658ab5d21731ac969cd72317e3c8ae620223c7c43d09da512fef85",
+    "baseTakeSha256": "76fa131296115bbdcad2ab187b5b2a9c2313d18170930f1d2c1d15e136c65242",
+    "confirmation": "Docent 26/11: esmena comiat de S085 validada; incorporar la presa exacta.",
+    "derivation": "Previously approved remaining speech plus the exact teacher-approved replacement; assembled playback still awaits montage audition.",
+    "repairs": [
+      {
+        "part": "comiat",
+        "text": "Doncs pugem juntes. Entro un moment les bosses i et vinc a ajudar. Els tomàquets ja han viatjat prou per avui.",
+        "candidateFile": "assets/audio/repairs/l38-s085-comiat-prova.mp3",
+        "candidateSha256": "855125a3cff01c45f609fed1bf5a7e94474a79653bc97cbc78e1aecf42f86773",
+        "batchRequestHash": "5451b4cea3e920f9aa007be12efb850987a7a6376108afb4dff422c3b91341ac",
+        "sourceTakeSha256": "76fa131296115bbdcad2ab187b5b2a9c2313d18170930f1d2c1d15e136c65242",
+        "candidateTakeId": "S085-comiat",
+        "sourceRequestHash": "f842c1cba0a886280361f843b5b49d32e29f60207eb741b12952a259987ee00f"
+      }
+    ]
+  },
+  "repairApplication": {
+    "code": "S085",
+    "date": "2026-11-26",
+    "scope": "approved-repair",
+    "originalRawSha256": "76fa131296115bbdcad2ab187b5b2a9c2313d18170930f1d2c1d15e136c65242",
+    "patchedSha256": "8238454ff0658ab5d21731ac969cd72317e3c8ae620223c7c43d09da512fef85",
+    "originalSeconds": 74.07,
+    "seconds": 73.48791666666666,
+    "edits": [
+      {
+        "part": "comiat",
+        "text": "Doncs pugem juntes. Entro un moment les bosses i et vinc a ajudar. Els tomàquets ja han viatjat prou per avui.",
+        "accepted": {
+          "part": "comiat",
+          "text": "Doncs pugem juntes. Entro un moment les bosses i et vinc a ajudar. Els tomàquets ja han viatjat prou per avui.",
+          "candidateFile": "assets/audio/repairs/l38-s085-comiat-prova.mp3",
+          "candidateSha256": "855125a3cff01c45f609fed1bf5a7e94474a79653bc97cbc78e1aecf42f86773",
+          "batchRequestHash": "5451b4cea3e920f9aa007be12efb850987a7a6376108afb4dff422c3b91341ac",
+          "sourceTakeSha256": "76fa131296115bbdcad2ab187b5b2a9c2313d18170930f1d2c1d15e136c65242",
+          "candidateTakeId": "S085-comiat",
+          "sourceRequestHash": "f842c1cba0a886280361f843b5b49d32e29f60207eb741b12952a259987ee00f"
+        },
+        "candidateRawSha256": "bbcf917ba9a3e9246ccd60a9f7f2372957bb3a4e81e7b1d5f7475cd6704bd287",
+        "candidateBatch": "L38",
+        "candidateRawBatchSha256": "99234bdcad2f77209580f8657378497a82e88cad867431a32a8410636162ff7f",
+        "originalRange": {
+          "start": 63.045,
+          "end": 69.255,
+          "handles": [
+            -55.66112350273499,
+            -55.66112350273499
+          ]
+        },
+        "candidateRange": {
+          "start": 0.08470833333333333,
+          "end": 5.712625,
+          "handles": [
+            -40.79557493270577,
+            -70.30899869919436
+          ]
+        },
+        "spoken": {
+          "start": 0.2109916666666774,
+          "end": 5.370991666666702
+        },
+        "gainDb": 0.4449183794943241,
+        "requestedGainDb": 1.880035101904503,
+        "peakLimitedByGain": true,
+        "peakAfterGain": 30000,
+        "deltaSeconds": -0.5820833333333333,
+        "outputStart": 63.045,
+        "candidateRawFile": "s085-comiat.wav"
+      }
+    ],
+    "allOtherVoiceSamplesIdentical": true,
+    "voiceRetimed": false,
+    "pitchShifted": false,
+    "newRequests": 0,
+    "retainedRanges": [
+      {
+        "originalStart": 0,
+        "originalEnd": 63.045,
+        "outputStart": 0,
+        "sha256": "46a46b268f347770f33f4131069087e8af5d2774f297650c5541aec4c90c1e51"
+      },
+      {
+        "originalStart": 69.255,
+        "originalEnd": 74.07,
+        "outputStart": 68.67291666666667,
+        "sha256": "c445e07e5dd25363a75caa7431b9806b2900b56b5301d4e7d61bed104963d8f4"
+      }
+    ],
+    "originalRawFile": "s085-t01.wav",
+    "patchedFile": "patched-source.wav"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "code": "S124",
+  "use": "publication-context",
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-11-26",
+  "prompt": "Create ONE new 3:2 landscape watercolor and colored-pencil storybook illustration for a Catalan school listening worksheet. Use the inputs only as canonical character/style REFERENCES, not edit targets. Warm ivory paper, muted sage and earth tones, natural expressive poses, one coherent scene, no panels. Keep exact character identities and clothes. No readable text, numbers, logos, border or watermark; no diagram or visual answers to comprehension questions. Biel, young boy with tousled brown hair and charcoal zip hoodie over cream shirt, stands in Elies's instrument workshop. Elies, adult salt-and-pepper curly-haired man with short beard, slate shirt and tan apron, is listening to Biel beside TWO CLOSED black instrument cases on a plain worktable. Medium-wide over-the-case view, informal thoughtful exchange. No opened cases, labels, tags, transparent handle pockets, visible name cards, markers in use, paper-writing, door bench or visible instruments that reveal the sequence or who will borrow them.",
+  "references": [
+    "assets/characters/biel-model-sheet-v1.webp",
+    "assets/characters/elies-model-sheet-v1.webp"
+  ],
+  "originalPngSha256": "003c640c6e1db55ef956ca815b9920916b6db5528affd2cb66869a68110c790c",
+  "file": "assets/images/s124-publicacio-v1.webp",
+  "width": 1536,
+  "height": 1024,
+  "sha256": "f3faebc6a9b895a1689519d9fdce1b7f0b0e507ec16888becaa11bebbcc61084",
+  "alt": "En Biel i l’Elies conversen al taller amb dues fundes tancades.",
+  "notes": "Il·lustració contextual pròpia; els models fixen la identitat dels recurrents. Revisió independent abans de publicar. Conversió a WebP, sense retoc del contingut."
+}

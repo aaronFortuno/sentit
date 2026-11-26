@@ -1,0 +1,1126 @@
+{
+  "reviewedAt": "2026-11-26",
+  "teacherValidation": "pending",
+  "reports": [
+    {
+      "author": "/root/autoria_faules_131_134",
+      "reviewer": "autoria_llegendes_135_138",
+      "reviewedAt": "2026-11-26",
+      "status": "passed",
+      "teacherValidation": "pending",
+      "entries": [
+        {
+          "code": "S131",
+          "status": "passed",
+          "fingerprint": "f43a868f0f1a10b8e23d657bc0ecff405d1e4f443925192e81c08e2d9035c3f5",
+          "contextSha256": "317f56f164082b99d74c632f59c3d97330655c825d7d49d98e619cfb016661bf",
+          "sourceSha256": "5fccde9dd5a927db908c7a669d207450529ec808b65c52cc66c09478a379416d",
+          "teacherValidation": "pending"
+        },
+        {
+          "code": "S132",
+          "status": "passed",
+          "fingerprint": "590f755cd2d91262736585e24a9162ece121d122a553505ed8721a73b4e188c6",
+          "contextSha256": "886dfd98f606bd2d1d4021d5d3d68d359b2a420eaa1d3db76ae7f36002b98852",
+          "sourceSha256": "1bded60b02ebb470a46782e0b8c5235e73fe374d23d3985adb67d75a72030e5f",
+          "teacherValidation": "pending"
+        },
+        {
+          "code": "S133",
+          "status": "passed",
+          "fingerprint": "bf6163ebccf2614fb30f7b41f71815e388e18ed63c7aa2f7200bafa43b21824c",
+          "contextSha256": "338668857697037ff0d0a26b2234b57bf2d7c8a0db1ef4bd210b645ed75f7494",
+          "sourceSha256": "b86dd82a838f15e3bb90c740a4599ea6b3ecb530c3b879b5cd1b67f7028304cb",
+          "teacherValidation": "pending"
+        },
+        {
+          "code": "S134",
+          "status": "passed",
+          "fingerprint": "33e0920e991fbfb6ac555e79e695344cddd050cc14e814bb3c3b8f2232b7837b",
+          "contextSha256": "e62e638bce1409ec7d6c1c2aa879e101fce700c9221f29ee33d91901c7a3d7b5",
+          "sourceSha256": "7b3f22110ed7edf36afa62d13cc14f129681e4f90ebc270dee90e5c953e51613",
+          "teacherValidation": "pending"
+        }
+      ],
+      "choices": {
+        "batch": "batch-009",
+        "author": "/root/autoria_faules_131_134",
+        "reviewer": "autoria_llegendes_135_138",
+        "reviewedAt": "2026-11-26",
+        "status": "passed",
+        "teacherValidation": "pending",
+        "reviews": [
+          {
+            "activity": "ca-S131",
+            "questionId": "bec",
+            "status": "passed",
+            "fingerprint": "4c09548306a0d6b8e411ead10259181c35430b55c3337ed991782c2253134dae",
+            "teacherValidation": "pending"
+          },
+          {
+            "activity": "ca-S131",
+            "questionId": "arribar",
+            "status": "passed",
+            "fingerprint": "2f376c606c705ce01399ff0d665527ccc03f02bcc7d63ee658e1522e2812ed11",
+            "teacherValidation": "pending"
+          },
+          {
+            "activity": "ca-S131",
+            "questionId": "demanar",
+            "status": "passed",
+            "fingerprint": "2440cb607765e771479dfc1c6f8cb75f0e57ec36685cb15fa7f3fd349ac9a189",
+            "teacherValidation": "pending"
+          },
+          {
+            "activity": "ca-S131",
+            "questionId": "oblidar",
+            "status": "passed",
+            "fingerprint": "ceed5685505660564939bc5e8ec7f8f760a55dbae4390b8b4c33130b3a6e896f",
+            "teacherValidation": "pending"
+          },
+          {
+            "activity": "ca-S131",
+            "questionId": "caiguda",
+            "status": "passed",
+            "fingerprint": "fdf321f8e84e0cb24d10754430ef2d59df247f46c6081fd1d19e53dd86167f27",
+            "teacherValidation": "pending"
+          },
+          {
+            "activity": "ca-S131",
+            "questionId": "intencio",
+            "status": "passed",
+            "fingerprint": "8c8d8cec44d2ddc5e7378f0bd7d82343a705fffd0e043405655e5ef76ab64d7e",
+            "teacherValidation": "pending"
+          },
+          {
+            "activity": "ca-S132",
+            "questionId": "meta",
+            "status": "passed",
+            "fingerprint": "73e2285d01b6818b77ac4005bf66625e1ed083dd0c2c85a63b67f473d2d328d5",
+            "teacherValidation": "pending"
+          },
+          {
+            "activity": "ca-S132",
+            "questionId": "confianca",
+            "status": "passed",
+            "fingerprint": "c29bd556c921002251c01462d82a9d53d4727c5807070b2bfcfb751ca2bcabcc",
+            "teacherValidation": "pending"
+          },
+          {
+            "activity": "ca-S132",
+            "questionId": "continuar",
+            "status": "passed",
+            "fingerprint": "d94a7ce2989da408f2175921ca7aca142e5200bccfb2e4489e9aaa0683e97dbc",
+            "teacherValidation": "pending"
+          },
+          {
+            "activity": "ca-S132",
+            "questionId": "despertar",
+            "status": "passed",
+            "fingerprint": "8cc7a4edda364208a789f691114881587c2e9759f4968350db76dc5fd004fa7b",
+            "teacherValidation": "pending"
+          },
+          {
+            "activity": "ca-S132",
+            "questionId": "resultat",
+            "status": "passed",
+            "fingerprint": "05d0c75b091eb64c6fab3dc38105e670ec1b48c4c39b199e238646b8c2a4cfe5",
+            "teacherValidation": "pending"
+          },
+          {
+            "activity": "ca-S133",
+            "questionId": "condicio",
+            "status": "passed",
+            "fingerprint": "3a30e8023f98ee7caab3068fc6895f95fc1f80f352a5bb391a8e78392e348e93",
+            "teacherValidation": "pending"
+          },
+          {
+            "activity": "ca-S133",
+            "questionId": "primer",
+            "status": "passed",
+            "fingerprint": "61ecd6481e0cf0328531acc15f12657cf429dc12d4671863c8b12aa62e0bbfc6",
+            "teacherValidation": "pending"
+          },
+          {
+            "activity": "ca-S133",
+            "questionId": "reaccio",
+            "status": "passed",
+            "fingerprint": "762bb6700ad8e4b77f4f4861ba72457ca8cbd804270c7e112eda875b8726b25a",
+            "teacherValidation": "pending"
+          },
+          {
+            "activity": "ca-S133",
+            "questionId": "canvi",
+            "status": "passed",
+            "fingerprint": "f057acbaace6eee8fbace867d5083d15163f77bba09df8c5bea0b44b9e2ae411",
+            "teacherValidation": "pending"
+          },
+          {
+            "activity": "ca-S133",
+            "questionId": "calor",
+            "status": "passed",
+            "fingerprint": "09e76d744bb18608b2ca29e1971e2a709e5d242d0ee6bc4b9a675fd575f4b7db",
+            "teacherValidation": "pending"
+          },
+          {
+            "activity": "ca-S133",
+            "questionId": "guanyador",
+            "status": "passed",
+            "fingerprint": "1902ffe625d54c3095dbfceb9993d097974029e3ec40d11a3322f8c13c993d7a",
+            "teacherValidation": "pending"
+          },
+          {
+            "activity": "ca-S134",
+            "questionId": "motiu",
+            "status": "passed",
+            "fingerprint": "162b71d330a023ae18805a100c6c79580b4bc95ef651ef8cc26d1c0cb7a35ead",
+            "teacherValidation": "pending"
+          },
+          {
+            "activity": "ca-S134",
+            "questionId": "primera-resposta",
+            "status": "passed",
+            "fingerprint": "bf9fac0aa395130fff2369465dccd2ef1ab5111e8ed23cae83493caf0796298a",
+            "teacherValidation": "pending"
+          },
+          {
+            "activity": "ca-S134",
+            "questionId": "enfadament",
+            "status": "passed",
+            "fingerprint": "b2d0f9e9f95fa27bc524f1edbb3c3c121809ba9e3b0b2da6a6af6e5a91ef80ae",
+            "teacherValidation": "pending"
+          },
+          {
+            "activity": "ca-S134",
+            "questionId": "diferent",
+            "status": "passed",
+            "fingerprint": "7349a784457b877febedc9dbd7fb8c17d72caff9ba2013a5d6b592c2e918a4ae",
+            "teacherValidation": "pending"
+          },
+          {
+            "activity": "ca-S134",
+            "questionId": "confianca",
+            "status": "passed",
+            "fingerprint": "17b1765195f897fe43ced69ee99fc50f279736c0cede6a8b86168165eb25efbe",
+            "teacherValidation": "pending"
+          },
+          {
+            "activity": "ca-S134",
+            "questionId": "consequencia",
+            "status": "passed",
+            "fingerprint": "961108a990e17ddae41fa0e3bce1b3e0d2153bfc7e5b45959f43590dbc2ab18a",
+            "teacherValidation": "pending"
+          }
+        ]
+      },
+      "findings": [],
+      "reviewNotes": {
+        "scope": "Revisió independent completa dels quatre guions, metadades, contextos, escaletes, respostes obertes i 23 alternatives ABCD; no s’ha modificat el fitxer de l’autor ni cap registre global.",
+        "method": "Reconstrucció de cada escena només amb la parla; resolució pròpia dels ítems; intent de defensar els tres distractors; contrast de les quatre fonts primàries LOC i comprovació d’ancoratges exactes sobre el text final integrat.",
+        "causality": "S131: gana, inaccessibilitat, elogi, bec obert i apropiació s’encadenen. S132: meta acordada, avantatge, descans adormit i marxa contínua expliquen la victòria dins la convenció de faula. S133: dos intents successius, fred i calor amb reaccions oposades. S134: dos avisos falsos seguits d’un atac real expliquen la pèrdua de confiança i una ovella.",
+        "naturalness": "Diàlegs breus i comprensibles, narrador únic i referents clars. La rèplica humorística del corb, el silenci del vent i el retorn del pastor són tancaments propis de l’escena. No hi ha moral afegida, ni aforismes al cos, ni aclariments que rebutgin malentesos inexistents.",
+        "calibration": "S132 3r accessible: dos agents i seqüència lineal. S131 3r intermèdia: intenció oculta inferida dels elogis. S133 4t accessible: personificació del temps i comparació de dos intents. S134 4t intermèdia: tres ocasions separades i canvi de confiança. Qualificació coherent com a proposta pendent d’audició docent.",
+        "context": "Els quatre contextos situen la convenció, els participants o què cal seguir; no donen solucions ni la moral. Es pot respondre sense il·lustració ni sons.",
+        "sources": "LOC confirma els quatre arguments. La font, les omissions i les recreacions principals estan declarades: cistell i rèpliques a S131; àrbitre omès i roure recreat a S132; abric per capa a S133; una ovella perduda per moltes mortes a S134. Adaptacions originals i sense violència gràfica.",
+        "sound": "Una sola veu també als diàlegs citats; base molt baixa contínua i instruccions per impedir que efectes, música o canvis sobtats de volum resolguin els ítems. Cap producció o aprovació autoritzada per aquest informe.",
+        "exactness": "74 cites comptant les dues versions verificades com a fragments literals, quatre opcions diferents a cada alternativa, clau final reordenada verificada contra el lot i 23 empremtes de questionChoiceSnapshot amb alternativa present."
+      },
+      "consultedSources": [
+        {
+          "code": "S131",
+          "title": "The Fox & the Crow",
+          "url": "https://read.gov/aesop/027.html",
+          "result": "argument i omissions contrastats"
+        },
+        {
+          "code": "S132",
+          "title": "The Hare & the Tortoise",
+          "url": "https://read.gov/aesop/025.html",
+          "result": "argument i omissió de la guineu contrastats"
+        },
+        {
+          "code": "S133",
+          "title": "The North Wind & the Sun",
+          "url": "https://read.gov/aesop/143.html",
+          "result": "prova, ordre i reaccions contrastats"
+        },
+        {
+          "code": "S134",
+          "title": "The Shepherd Boy & the Wolf",
+          "url": "https://www.loc.gov/static/collections/childrens-book-selections/articles-and-essays/aesop/043.html",
+          "result": "dos avisos falsos, tercer real i desenllaç adaptat contrastats"
+        }
+      ],
+      "itemAudit": [
+        {
+          "activity": "ca-S131",
+          "questionId": "bec",
+          "correct": "a",
+          "correctText": "Un tros de formatge.",
+          "verdict": "single-defensible-key",
+          "reason": "El formatge és explícit. Branca, pa i fruita són confusions amb l’arbre o el cistell; cap d’aquests objectes ocupa el bec."
+        },
+        {
+          "activity": "ca-S131",
+          "questionId": "arribar",
+          "correct": "c",
+          "correctText": "La branca del corb és massa alta per arribar-hi.",
+          "verdict": "single-defensible-key",
+          "reason": "La branca és massa alta. El corb encara té el menjar, el cistell no s’intenta moure i no hi ha canvi d’arbre."
+        },
+        {
+          "activity": "ca-S131",
+          "questionId": "demanar",
+          "correct": "a",
+          "correctText": "Que li canti una cançó.",
+          "verdict": "single-defensible-key",
+          "reason": "La petició exacta és cantar. No demana baixar, revelar l’origen del formatge ni volar."
+        },
+        {
+          "activity": "ca-S131",
+          "questionId": "oblidar",
+          "correct": "c",
+          "correctText": "Perquè li agrada que la guineu parli bé d’ell.",
+          "verdict": "single-defensible-key",
+          "reason": "El narrador atribueix l’oblit al plaer dels elogis. Pressa, un altre corb i falsa caiguda no es narren."
+        },
+        {
+          "activity": "ca-S131",
+          "questionId": "caiguda",
+          "correct": "b",
+          "correctText": "El corb obre el bec per cantar.",
+          "verdict": "single-defensible-key",
+          "reason": "Obrir el bec deixa anar el formatge. Sacsejar el tronc, baixar al cistell o fer caure la branca són accions absents."
+        },
+        {
+          "activity": "ca-S131",
+          "questionId": "intencio",
+          "correct": "d",
+          "correctText": "Que deixi anar el formatge per poder-se’l menjar.",
+          "verdict": "single-defensible-key",
+          "reason": "Gana, impossibilitat d’arribar i ingestió immediata sostenen aconseguir el formatge. La frase sobre sentir-lo tot el bosc és un elogi instrumental: no hi ha cap gest d’atreure altres ocells, demanar camí o pujar a la branca."
+        },
+        {
+          "activity": "ca-S132",
+          "questionId": "meta",
+          "correct": "d",
+          "correctText": "Tocar primer el tronc del roure.",
+          "verdict": "single-defensible-key",
+          "reason": "Tocar primer el tronc és la condició acordada. Passar la llebre és només un pas intermedi; ombra i retorn a la sortida no són la meta."
+        },
+        {
+          "activity": "ca-S132",
+          "questionId": "confianca",
+          "correct": "a",
+          "correctText": "Perquè ha deixat la tortuga enrere i creu que té molt temps.",
+          "verdict": "single-defensible-key",
+          "reason": "Avantatge i temps de sobres sostenen el descans. La tortuga no demana esperar, no hi ha lesió i la llebre no confon el roure amb una arribada ja feta."
+        },
+        {
+          "activity": "ca-S132",
+          "questionId": "continuar",
+          "correct": "a",
+          "correctText": "Continua caminant i passa pel seu costat.",
+          "verdict": "single-defensible-key",
+          "reason": "La tortuga camina i passa pel costat. No dorm, no reinicia la cursa ni desperta la llebre."
+        },
+        {
+          "activity": "ca-S132",
+          "questionId": "despertar",
+          "correct": "b",
+          "correctText": "Ja és a prop del tronc del roure.",
+          "verdict": "single-defensible-key",
+          "reason": "La tortuga és prop del tronc. No és a la sortida, no espera la llebre ni torna després de la cursa."
+        },
+        {
+          "activity": "ca-S132",
+          "questionId": "resultat",
+          "correct": "c",
+          "correctText": "Continua avançant mentre la llebre s’adorm.",
+          "verdict": "single-defensible-key",
+          "reason": "La marxa contínua i el son expliquen la victòria. No hi ha drecera, ordre de tornar ni augment de velocitat de la tortuga."
+        },
+        {
+          "activity": "ca-S133",
+          "questionId": "condicio",
+          "correct": "b",
+          "correctText": "Que el viatger es tregui l’abric.",
+          "verdict": "single-defensible-key",
+          "reason": "Treure’s l’abric és l’objectiu. Canviar de camí, aturar-se sota el núvol o caminar de pressa no determina guanyador."
+        },
+        {
+          "activity": "ca-S133",
+          "questionId": "primer",
+          "correct": "a",
+          "correctText": "El vent.",
+          "verdict": "single-defensible-key",
+          "reason": "El vent demana començar i actua mentre el Sol és darrere del núvol. Ni Sol primer, ni viatger competidor, ni actuació simultània encaixen amb la seqüència."
+        },
+        {
+          "activity": "ca-S133",
+          "questionId": "reaccio",
+          "correct": "c",
+          "correctText": "S’agafa l’abric amb més força.",
+          "verdict": "single-defensible-key",
+          "reason": "L’home s’agafa l’abric més fort. Treure-se’l i descordar-lo són accions posteriors amb el Sol; abandonar-lo no passa."
+        },
+        {
+          "activity": "ca-S133",
+          "questionId": "canvi",
+          "correct": "b",
+          "correctText": "Se’l descorda.",
+          "verdict": "single-defensible-key",
+          "reason": "Descordar-se’l ocorre durant l’escalfor i abans de treure-se’l. Posar-lo al braç és posterior; prémer-se’l és de l’intent del vent; tornar-lo a cordar no passa."
+        },
+        {
+          "activity": "ca-S133",
+          "questionId": "calor",
+          "correct": "c",
+          "correctText": "Perquè té calor després que el Sol hagi escalfat.",
+          "verdict": "single-defensible-key",
+          "reason": "L’exclamació de calor i l’escalfor sostenen el motiu. No hi ha botons arrencats, peça mullada ni roba enganxada a branques."
+        },
+        {
+          "activity": "ca-S133",
+          "questionId": "guanyador",
+          "correct": "d",
+          "correctText": "El Sol, perquè l’home es treu l’abric.",
+          "verdict": "single-defensible-key",
+          "reason": "Sol i retirada de l’abric formen l’únic parell correcte. Agafar-se’l i continuar caminant no compleixen la prova; moure branques pertany al vent i tampoc compleix la condició."
+        },
+        {
+          "activity": "ca-S134",
+          "questionId": "motiu",
+          "correct": "d",
+          "correctText": "Perquè s’avorreix i vol distreure’s.",
+          "verdict": "single-defensible-key",
+          "reason": "L’avorriment i voler distreure’s precedeixen l’avís fals. El llop encara no hi és, no ha fugit cap ovella i els veïns no demanen una prova."
+        },
+        {
+          "activity": "ca-S134",
+          "questionId": "primera-resposta",
+          "correct": "a",
+          "correctText": "Deixen la feina i corren fins al prat.",
+          "verdict": "single-defensible-key",
+          "reason": "Els veïns deixen la feina i pugen. Esperar, no creure el crit o demanar baixar el ramat no correspon a la primera alarma."
+        },
+        {
+          "activity": "ca-S134",
+          "questionId": "enfadament",
+          "correct": "d",
+          "correctText": "Perquè han deixat la feina per una altra alarma inventada.",
+          "verdict": "single-defensible-key",
+          "reason": "S’han interromput de nou per una alarma inventada. No han rebut ovelles al poble, no ha fugit un llop real i els bastons no expliquen l’enuig."
+        },
+        {
+          "activity": "ca-S134",
+          "questionId": "diferent",
+          "correct": "b",
+          "correctText": "Aquesta vegada hi ha un llop de debò.",
+          "verdict": "single-defensible-key",
+          "reason": "El tercer crit té llop real. Els veïns són al poble, la intenció no és fer broma i les ovelles encara són al prat."
+        },
+        {
+          "activity": "ca-S134",
+          "questionId": "confianca",
+          "correct": "c",
+          "correctText": "Perquè creuen que els vol enganyar una altra vegada.",
+          "verdict": "single-defensible-key",
+          "reason": "Els veïns senten el crit i expressen que espera tornar-los a enganyar. No és falta d’audició, no afirmen que el llop ja sigui al bosc i el pastor demana ajuda."
+        },
+        {
+          "activity": "ca-S134",
+          "questionId": "consequencia",
+          "correct": "a",
+          "correctText": "El llop s’enduu una ovella i el pastor fa baixar les altres.",
+          "verdict": "single-defensible-key",
+          "reason": "El llop s’enduu una ovella i les altres baixen amb el pastor. Ni totes marxen amb el llop, ni els veïns mouen el ramat, ni queda abandonat al prat."
+        }
+      ]
+    },
+    {
+      "author": "autoria_llegendes_135_138",
+      "reviewer": "autoria_mites_139_142",
+      "reviewedAt": "2026-11-26",
+      "status": "passed",
+      "teacherValidation": "pending",
+      "scope": "S135–S138: guions, metadades, contextos, fons i adaptacions, gradació, narrador, escaleta i 24 ítems complets en format obert i ABCD.",
+      "naturalitat": "Lectura integral independent: inicis, interiors, tancaments i preguntes sense moralines, aforismes intrusos, vocabulari expert ni aclariments anticipats sense motiu. Les el·lipsis mantenen la causalitat, els referents i la convenció de llegenda.",
+      "audio": "Una veu anònima estable per peça amb Algenib com a candidata flexible. La parla conté totes les dades necessàries; la música i els efectes no resolen preguntes. Cap síntesi, validació de veu o aprovació docent.",
+      "entries": [
+        {
+          "code": "S135",
+          "status": "passed",
+          "teacherValidation": "pending",
+          "fingerprint": "914fa5c5688483e41cce1ae02e85f2d40984d2a0c657b0801f34d2e13dcec78f",
+          "contextSha256": "1522d2e7ac7ceb19e1e37b5a386635dd0c53a6de7d8fe0cf55e61b51c08b1746",
+          "sourceSha256": "1fd946917166d8da4e30a619720311fdcea2d6c4a7da7b8aa4eeaf6ca45a43a2",
+          "notes": "Revisió superada. Variant de la minyona, la mestressa i el gall documentada a DIBA i a la Biblioteca de Martorell; omissió del mètode de fer cantar el gall explícita. Font i fustes escoltables, pacte anterior a l’alba, senyal anticipat i pedra abandonada formen una cadena coherent. La confusió del diable no canvia el moment real de l’alba. Context sense respostes i 4t intermèdia defensable."
+        },
+        {
+          "code": "S136",
+          "status": "passed",
+          "teacherValidation": "pending",
+          "fingerprint": "8aab46b9820327e196120d5f07e3a9cccf452c7b42c792d7fb16ee6d631ced0b",
+          "contextSha256": "a36286e24e45f9d9d2050f6bc39230e4d25390f73848dfd9d8ac80e5a4cff7b7",
+          "sourceSha256": "bd7a6e4edcb876af546df60048e3ceef68482f12bbfbce1e7ff0910c7bbb358e",
+          "notes": "Revisió superada. Capa i arribada a la plaça contrastades al fullet municipal de Banyoles; no es barreja la capa amb l’estola de Constans. Derrota de l’exèrcit i amansiment per Sant Mer són dues accions diferents, explícites. Es tanquen les accions a la plaça sense inventar destí final del drac. Final natural i sense moralina. 4t intermèdia defensable."
+        },
+        {
+          "code": "S137",
+          "status": "passed",
+          "teacherValidation": "pending",
+          "fingerprint": "4649f1c80aa3afb6054293b296bd6cfe1a90a8133b51b67b1b90aba35243f1ea",
+          "contextSha256": "4ede9596ab70aad1e5ef6bb584c9c1b3bc5f7f6daacc2699106464e1fc951b1d",
+          "sourceSha256": "2c91bfe1b7ee6b3176f8747a08cd99023a8cda91bf4b1eccb2533e183acadf42",
+          "notes": "Revisió superada. Context bèl·lic i explicació tradicional del ressò contrastats amb Ajuntament del Bruc i DIBA. La causalitat llegendària queda marcada des de l’inici i en la retirada, sense atribuir una explicació acústica a una victòria històricament demostrada. Les dues perspectives i la diferència entre creença i fet són clares. Distractors finals vinculats a l’escena militar. 5è intermèdia defensable."
+        },
+        {
+          "code": "S138",
+          "status": "passed",
+          "teacherValidation": "pending",
+          "fingerprint": "870f5f5fe6e960a33d949a034ddd6b887508a58b7726564c765965db4efb0c3b",
+          "contextSha256": "f95b2e1864da3abb1328768acd0bf89a3317c60d6313152510360f30f9af19cd",
+          "sourceSha256": "84a4071f526509308cc16657502d7af44d9dc21b5d780802bedebc208cecc1dc",
+          "notes": "Revisió superada. Contrastat el passatge Grimm-Gutch de Folk-Lore 3 (1892), incloent pacte, rates al riu, negativa de pagament, retorn i desaparició al turó. Adaptació original i omissions declarades; no s’afegeix rescat ni retorn feliç. Final inquietant contingut, sense detall gràfic ni lliçó moral. Dues visites ben separades i 5è avançada defensable."
+        }
+      ],
+      "choices": {
+        "batch": "batch-010",
+        "author": "/root/autoria_llegendes_135_138",
+        "reviewer": "autoria_mites_139_142",
+        "reviewedAt": "2026-11-26",
+        "status": "passed",
+        "teacherValidation": "pending",
+        "reviews": [
+          {
+            "activity": "ca-S135",
+            "questionId": "travessa",
+            "status": "passed",
+            "teacherValidation": "pending",
+            "fingerprint": "5e5d580ab43764e1f45a42043be82166345f4475d27d32c55d809fabee36cd37",
+            "notes": "La font de l’altra riba i les fustes inestables s’escolten; cap tancament de camí, robatori d’aigua ni horari de font apareix al relat."
+          },
+          {
+            "activity": "ca-S135",
+            "questionId": "termini",
+            "status": "passed",
+            "teacherValidation": "pending",
+            "fingerprint": "e7b08d2aad6ae6b8eaafa6e8ebb98fd0bd169db888935a6e81356298ab6cf04f",
+            "notes": "El pacte fixa acabar el pont abans de l’alba; les altres opcions canvien el termini, l’obra o la persona implicada."
+          },
+          {
+            "activity": "ca-S135",
+            "questionId": "accepta",
+            "status": "passed",
+            "teacherValidation": "pending",
+            "fingerprint": "d2731ea137a21b470593c6150b359eb2fdd040fbe1854f427014eb2bd6a9910a",
+            "notes": "La confiança en la impossibilitat de l’obra està expressada; el pont avançat i la intervenció de la mestressa són posteriors."
+          },
+          {
+            "activity": "ca-S135",
+            "questionId": "ajuda",
+            "status": "passed",
+            "teacherValidation": "pending",
+            "fingerprint": "752888ae2edd348e52ca11d95a215abaad43643b4e56a2fc35591d5cb8af0cdc",
+            "notes": "La noia explica el tracte a la mestressa; les altres accions possibles no són les que fa en aquell moment."
+          },
+          {
+            "activity": "ca-S135",
+            "questionId": "error",
+            "status": "passed",
+            "teacherValidation": "pending",
+            "fingerprint": "64b994ffd87b6fe8601d1bb0c063a7836849405c40b5b89154169f479e7db40a",
+            "notes": "El cant dels galls provoca la creença; no hi ha llum real d’alba, travessa de la mestressa ni pedra que caigui com a senyal."
+          },
+          {
+            "activity": "ca-S135",
+            "questionId": "falta",
+            "status": "passed",
+            "teacherValidation": "pending",
+            "fingerprint": "cec7877381018be160f3a8fa6e36d8ca619754a7d6982245b90a1d67b38f5838",
+            "notes": "El diable abandona la darrera pedra que encara duu; cap pedra és retirada del pont acabat per la riuada, la mestressa o la noia."
+          },
+          {
+            "activity": "ca-S136",
+            "questionId": "problema",
+            "status": "passed",
+            "teacherValidation": "pending",
+            "fingerprint": "9ee57ba012fd67541f405d64fffbb4c7cacfe1204817f7af95f2bc26b850b7e5",
+            "notes": "El bestiar menjat i els camps malmesos són les accions inicials; els soldats i la capa pertanyen a escenes posteriors."
+          },
+          {
+            "activity": "ca-S136",
+            "questionId": "soldats",
+            "status": "passed",
+            "teacherValidation": "pending",
+            "fingerprint": "39a549a54579b8e36e3706314b57c06fe56bf2307953a73d29a3724f8d47be05",
+            "notes": "La retirada segueix un intent fallit; els soldats no empresonen, tanquen al cau ni són seguits pel drac."
+          },
+          {
+            "activity": "ca-S136",
+            "questionId": "sense-armes",
+            "status": "passed",
+            "teacherValidation": "pending",
+            "fingerprint": "8e0422a2bf89f2367722d029db4e5a70b7de5252768892cf1b190c5f7eac28d9",
+            "notes": "Soldats armats i monjo sense armes és l’únic contrast sostingut per tots dos segments; les altres opcions inverteixen actors o llocs."
+          },
+          {
+            "activity": "ca-S136",
+            "questionId": "gest",
+            "status": "passed",
+            "teacherValidation": "pending",
+            "fingerprint": "575a5faab2683def24c5960caefa40155692220db870ff93b81604cca150267b",
+            "notes": "La capa estesa precedeix immediatament la calma; les armes a terra apareixen més tard i els altres gestos són aliens a l’acció."
+          },
+          {
+            "activity": "ca-S136",
+            "questionId": "tornada",
+            "status": "passed",
+            "teacherValidation": "pending",
+            "fingerprint": "d2a43f4ed23f5d16175ccf140bd09a06ec50fae9090c50db6a849da8833ec706",
+            "notes": "El drac segueix tranquil·lament Sant Mer; no és engabiat, conduït amb bestiar ni perseguidor dels veïns."
+          },
+          {
+            "activity": "ca-S136",
+            "questionId": "armes",
+            "status": "passed",
+            "teacherValidation": "pending",
+            "fingerprint": "f9b02a163c39c901485a123c79f9defe2c4dce8b2d497061c9fbb6c291df8151",
+            "notes": "La bèstia amansida explica la petició de deixar les armes; no hi ha un nou combat ni usos del material per al cau o Carlemany."
+          },
+          {
+            "activity": "ca-S137",
+            "questionId": "grup",
+            "status": "passed",
+            "teacherValidation": "pending",
+            "fingerprint": "61371bbf43db7c24307e8ce686da14f896fe2774ed5edac90eda8294acd5e518",
+            "notes": "El protagonista acompanya els defensors; fugir, ser de l’exèrcit francès o anar a buscar reforços són funcions diferents que el relat no li atribueix."
+          },
+          {
+            "activity": "ca-S137",
+            "questionId": "retorn",
+            "status": "passed",
+            "teacherValidation": "pending",
+            "fingerprint": "1e3a03c74d3bc911519a7bc92c4a19b58433d002ccf7200353a37d2dca2837c5",
+            "notes": "El ressò produeix les repeticions; no es presenten reforços reals, segon timbaler ni francesos copiant el ritme."
+          },
+          {
+            "activity": "ca-S137",
+            "questionId": "no-veuen",
+            "status": "passed",
+            "teacherValidation": "pending",
+            "fingerprint": "5ba6d675f3588c4f70fa93093ffa0d3f0d7a26c99a4d351cba257c84477e40fd",
+            "notes": "Les roques amaguen els defensors; cap descens al riu, barreja de grups ni avanç nocturn sosté una altra resposta."
+          },
+          {
+            "activity": "ca-S137",
+            "questionId": "interpreten",
+            "status": "passed",
+            "teacherValidation": "pending",
+            "fingerprint": "b22255101cec88725d48244409bdc86f9374b8ca2f5c2b751ba353268994887c",
+            "notes": "Els francesos creuen que arriba una tropa de reforç amb tambors; no interpreten fugida, invitació ni roques que cauen."
+          },
+          {
+            "activity": "ca-S137",
+            "questionId": "causa",
+            "status": "passed",
+            "teacherValidation": "pending",
+            "fingerprint": "e42e0b3d72174766af7962e942f3f53acaa12fd2682083bf5187e44f01477e57",
+            "notes": "La retirada deriva de la por d’una força molt superior; ni una cova tancada, ni ordre de tornada, ni reforços ja marxats apareixen com a motiu."
+          },
+          {
+            "activity": "ca-S137",
+            "questionId": "diferencia",
+            "status": "passed",
+            "teacherValidation": "pending",
+            "fingerprint": "a381221dd987b902911f4b1ba7908541c6a1c4f54ef69dbb141e97a5f9e4756c",
+            "notes": "La formulació final contraposa creença i fet: molts tambors imaginats davant d’un instrument repetit per l’eco. Els distractors inverteixen o canvien aquests dos plans."
+          },
+          {
+            "activity": "ca-S138",
+            "questionId": "oferta",
+            "status": "passed",
+            "teacherValidation": "pending",
+            "fingerprint": "e5b259e5f8393f9d702891ac361d71a9a428afc8f4b8471cba1ca8b9a4d28bdb",
+            "notes": "L’encàrrec pagat és acabar amb les rates; no hi ha classes de música, nous rebosts ni recerca d’un camí."
+          },
+          {
+            "activity": "ca-S138",
+            "questionId": "seguir",
+            "status": "passed",
+            "teacherValidation": "pending",
+            "fingerprint": "b281ebe22fcccd3231d896586867be3bdcca7a791543e034595265b26194679f",
+            "notes": "Toca mentre camina i les rates segueixen la melodia; sacs, empentes i forats tapats no són el procediment del músic."
+          },
+          {
+            "activity": "ca-S138",
+            "questionId": "incompliment",
+            "status": "passed",
+            "teacherValidation": "pending",
+            "fingerprint": "cbd1a8fbece52ce8a87fd7be5b91880164e5a3cf9632c32def87b2ddcd89f8ca",
+            "notes": "La negativa a pagar contradiu el preu acceptat; no li paguen més, no el conviden a quedar-se ni al·leguen rates restants."
+          },
+          {
+            "activity": "ca-S138",
+            "questionId": "enfadat",
+            "status": "passed",
+            "teacherValidation": "pending",
+            "fingerprint": "992d5c2c173f22f64ad0ec6748b52c110ae022d4bd3fddbb5b037f5182c18ae4",
+            "notes": "La feina feta i el pagament negat expliquen l’enuig; les rates no tornen, no rebutgen música i la cerca d’infants encara no ha passat."
+          },
+          {
+            "activity": "ca-S138",
+            "questionId": "dues-visites",
+            "status": "passed",
+            "teacherValidation": "pending",
+            "fingerprint": "dd7f8f205a1a9fbf97869ea083d88a8e019bc1587b6087f7db59bdc87100972d",
+            "notes": "Es conserva la doble relació: primer rates i després infants; les opcions inverteixen l’ordre o hi afegeixen adults o missatgers."
+          },
+          {
+            "activity": "ca-S138",
+            "questionId": "destinacions",
+            "status": "passed",
+            "teacherValidation": "pending",
+            "fingerprint": "3f72fe5faffd5bfabde3a70543b2bbac538da2e2eaaf191932d2adc8f2992d9a",
+            "notes": "La primera destinació és el riu i la segona el turó; cada distractor canvia almenys un lloc i no manté la doble relació."
+          }
+        ]
+      },
+      "checks": {
+        "activities": 4,
+        "openQuestions": 24,
+        "multipleChoiceQuestions": 24,
+        "exactEvidenceOccurrencesAcrossBothFormats": 72,
+        "unresolvedIssues": []
+      }
+    },
+    {
+      "author": "/root/autoria_mites_139_142",
+      "reviewer": "/root/autoria_faules_131_134",
+      "reviewedAt": "2026-11-26",
+      "status": "passed",
+      "teacherValidation": "pending",
+      "scope": "Revisió independent final dels guions, preguntes obertes i ABCD, claus, explicacions, cites, contextos, gradació, il·lustracions i escaleta de S139–S142. No és validació docent ni autoritza síntesi.",
+      "checks": [
+        "Reconstrucció oral de referents, espai, temps, objectes i coneixement de cada personatge.",
+        "Lectura completa de naturalitat: noms explicats, paraules corrents, cap aclariment preventiu o moral afegida a la parla.",
+        "28 preguntes resoltes només amb la informació locutada; intent de defensar cadascun dels 84 distractors. Una sola clau defensable per ítem.",
+        "Cites exactes comprovades en les dues versions i alternatives finals preses del catàleg integrat.",
+        "Plans heretats de cultural(): narrador anònim i una veu física candidata, entrada breu, base pròpia molt suau, pujada de dos segons i fosa; sense efectes o imatges que resolguin preguntes.",
+        "Fonts primàries verificades en els quatre passatges corresponents del mirall ftp.theoi.com després del 403 dels URL www."
+      ],
+      "resolvedFindings": [
+        {
+          "code": "S140",
+          "questionId": "causa",
+          "severity": "a corregir",
+          "issue": "Els tres distractors originals incloïen transformacions o accions extravagants que afeblien la comprensió causal.",
+          "resolution": "Substituïts per confusions sobre aigua, vent i cansament. Revalidació final superada; clau, pregunta i cites intactes."
+        },
+        {
+          "code": "S142",
+          "questionId": "intercanvi",
+          "severity": "opcional",
+          "issue": "Alguns distractors originals afegien objectes o intercanvis massa allunyats del relat.",
+          "resolution": "Autor ha substituït els tres distractors per confusions de receptor de la lira i responsable del ramat. Revalidació final superada."
+        }
+      ],
+      "unresolvedFindings": [],
+      "sourceChecks": [
+        {
+          "code": "S139",
+          "url": "https://ftp.theoi.com/Text/OvidMetamorphoses11.html",
+          "passages": "85–145",
+          "result": "Acollida i retorn de Silè, do de contacte, menjar i beguda transformats, penediment i bany de cap i cos a la font del Pactol contrastats."
+        },
+        {
+          "code": "S140",
+          "url": "https://ftp.theoi.com/Text/OvidMetamorphoses8.html",
+          "passages": "183–235",
+          "result": "Bloqueig, fil i cera, dos límits del vol, entusiasme d’Ícar, cera desfeta, plomes sobre l’aigua i enterrament contrastats."
+        },
+        {
+          "code": "S141",
+          "url": "https://ftp.theoi.com/Text/HomericHymns1.html",
+          "passages": "1–89, 305–333, 334–473",
+          "result": "Rapte i consentiment, Sol, manca de collites, missatge d’Hermes, magrana amb engany i retorn periòdic contrastats."
+        },
+        {
+          "code": "S142",
+          "url": "https://ftp.theoi.com/Text/HomericHymns2.html",
+          "passages": "17–61, 68–94, nota 14, 182–396, 414–502",
+          "result": "Lira abans del bestiar, caminar enrere, excusa, Zeus, exhibició musical i funció de pastor a canvi de l’instrument contrastats."
+        }
+      ],
+      "entries": [
+        {
+          "code": "S139",
+          "status": "passed",
+          "author": "/root/autoria_mites_139_142",
+          "reviewer": "/root/autoria_faules_131_134",
+          "reviewedAt": "2026-11-26",
+          "teacherValidation": "pending",
+          "fingerprint": "2253394fdfd970b4b87a1ffecb5f4ad1dee28ea780f6eb6840354479dc4d6c57",
+          "contextSha256": "40c8b32ded2bb1b2d303f141a38a99baa3b31e21fc90f30bb849391983a7a6fb",
+          "sourceSha256": "0d6bad835f5294681a3f0605998722baf38f6f03f50e3096e2b5e79182761c3e",
+          "notes": "Seqüència de desig, proves, gana i reparació coherent amb Ovidi XI, 85–145. Dionís substitueix el nom llatí Bacus de manera declarada; no es barreja l’episodi de la filla. El bany i l’escena final del pa sostenen les respostes. Nivell 5è intermèdia coherent, pendent de calibratge amb l’àudio."
+        },
+        {
+          "code": "S140",
+          "status": "passed",
+          "author": "/root/autoria_mites_139_142",
+          "reviewer": "/root/autoria_faules_131_134",
+          "reviewedAt": "2026-11-26",
+          "teacherValidation": "pending",
+          "fingerprint": "be3d2fa471e29a96190d27a000682395920b1be4acd627c77e684157948667dc",
+          "contextSha256": "a98c767b1790ba9b692d06b53abe56e09555e4312885214545361b6990b022bc",
+          "sourceSha256": "dd8fff8896c7f8a173b05b5966283130f4943e4b60cbfb30511948143bca6b50",
+          "notes": "Preparació, instrucció doble, entusiasme, escalfor i caiguda mantenen la cadena d’Ovidi VIII, 183–235. La mort i l’enterrament s’expressen sense detall gràfic ni moral sobre desobediència. Distractors de causa corregits i revalidats: aigua, vent i cansament són confusions plausibles, però l’àudio només sosté escalfor i despreniment de plomes. Nivell 5è intermèdia coherent."
+        },
+        {
+          "code": "S141",
+          "status": "passed",
+          "author": "/root/autoria_mites_139_142",
+          "reviewer": "/root/autoria_faules_131_134",
+          "reviewedAt": "2026-11-26",
+          "teacherValidation": "pending",
+          "fingerprint": "f805526504540fb8a6e99f0723f1c2a6b27c826a993829a4e93d63bd951058e1",
+          "contextSha256": "5b9fbb263ac0ce885f3cddff81e5ef234554bd06ec0bb771f0baa809d31d506c",
+          "sourceSha256": "d8a4498cb637eee6a20c11e8d54037a27afa2fea6d1533f96390729a0718add9",
+          "notes": "La versió conserva el rapte contra la voluntat de Persèfone, el consentiment de Zeus, el testimoni del Sol, la protesta de Demèter, l’encàrrec d’Hermes i l’engany de la magrana. Els períodes sense nombre condensen el terç/dos terços de l’himne i no introdueixen la variant de sis mesos. Els cinc noms tenen funció explicada; 6è avançada és coherent amb les dues cadenes causals."
+        },
+        {
+          "code": "S142",
+          "status": "passed",
+          "author": "/root/autoria_mites_139_142",
+          "reviewer": "/root/autoria_faules_131_134",
+          "reviewedAt": "2026-11-26",
+          "teacherValidation": "pending",
+          "fingerprint": "ad592bbca32a94a67de10b9e4d3ffe970d352e4a45b83c8736e9fab8c0d67ff4",
+          "contextSha256": "c07c6523e825044a8c22480d1546c5011eb6334ee014070227e5ef9a9a55e680",
+          "sourceSha256": "21d8bd390b30ee95707967c41bc4917b472933c9aafa129af9169dcfeeec9f32",
+          "notes": "Lira anterior al robatori, bestiar caminant enrere segons la nota 14 de l’edició, falsa excusa de nadó, ordre de Zeus i intercanvi contrastats a l’himne. L’instrument té descripció oral i manté continuïtat entre cova i estable. Distractors de l’intercanvi revalidats després de substituir objectes aliens per confusions de rols. Nivell 6è intermèdia coherent."
+        }
+      ],
+      "choices": {
+        "batch": "batch-011",
+        "author": "/root/autoria_mites_139_142",
+        "reviewer": "/root/autoria_faules_131_134",
+        "reviewedAt": "2026-11-26",
+        "status": "passed",
+        "teacherValidation": "pending",
+        "reviews": [
+          {
+            "activity": "ca-S139",
+            "questionId": "regal",
+            "status": "passed",
+            "author": "/root/autoria_mites_139_142",
+            "reviewer": "/root/autoria_faules_131_134",
+            "reviewedAt": "2026-11-26",
+            "teacherValidation": "pending",
+            "fingerprint": "1a1e1d22e195361875f5956679493986c344d037610bd61b76dc0db7f6f0cade",
+            "questionChoiceSnapshot": "{\"schema\":1,\"activity\":\"ca-S139\",\"questionId\":\"regal\",\"grade\":\"5\",\"level\":\"middle\",\"introduction\":\"Comprensió oral. El rei Mides. Un mite de l’antiguitat.\",\"transcript\":[{\"kind\":\"direction\",\"text\":\"Adaptació original segons Ovidi XI, 85–145. Dionís és el nom grec del déu anomenat Bacus en el text llatí; Silè queda com un vell company per reduir noms. Es condensen festa i proves del do. Es mantenen el menjar i la beguda transformats, el penediment i el bany a la font del Pactol. El pa final és una escena de tancament afegida, coherent amb la retirada del do. No s’hi incorpora la filla convertida en or de la versió de Hawthorne, ni l’episodi de les orelles d’ase.\"},{\"id\":\"regal\",\"speaker\":\"Narrador\",\"text\":\"Un mite antic explica que el rei Mides va acollir al seu palau un vell company del déu Dionís. Li va oferir menjar i descans i, al cap d’uns dies, el va acompanyar fins al lloc on l’esperava el déu. Dionís, content de retrobar el seu company, va prometre a Mides el regal que volgués.\"},{\"id\":\"desig\",\"speaker\":\"Narrador\",\"text\":\"El rei va demanar que tot allò que toqués es convertís en or. Tan bon punt va rebre aquest poder, va voler provar-lo. Va agafar una branca: es va tornar daurada i rígida. Després va collir una pedra, i també es va transformar en or. Mides va tornar al palau imaginant les riqueses que podria reunir.\"},{\"id\":\"taula\",\"speaker\":\"Narrador\",\"text\":\"Quan va arribar l’hora de menjar, els servents van parar la taula. El rei va allargar la mà cap al pa, però el pa es va endurir i va brillar entre els seus dits. Va intentar mossegar un altre aliment: també es convertia en metall. Quan va acostar la beguda als llavis, el líquid es va tornar or. Tenia gana i set, i la taula era plena.\"},{\"id\":\"peticio\",\"speaker\":\"Narrador\",\"text\":\"Mides va deixar el menjar i va suplicar a Dionís que li retirés aquell poder. Ara volia desfer el desig que havia triat amb tanta alegria. El déu el va escoltar i li va indicar que anés al riu Pactol. Havia de seguir el curs de l’aigua cap amunt, fins a trobar el lloc on naixia, i banyar-s’hi el cap i el cos.\"},{\"id\":\"riu\",\"speaker\":\"Narrador\",\"text\":\"El rei va remuntar el riu fins a la font i es va submergir a l’aigua. El poder va abandonar el seu cos i va passar al corrent. Segons el mite, d’aquí venien les partícules d’or que es trobaven a la sorra del Pactol. Quan Mides va tornar al palau, va agafar un tros de pa. Aquesta vegada el va poder menjar.\"},{\"kind\":\"direction\",\"text\":\"Una sola veu també per a les intencions dels personatges. Cap so de metall o d’aigua necessari per respondre; tancament musical breu després de la veu, sense moral afegida.\"}],\"question\":{\"id\":\"regal\",\"prompt\":\"Per què Dionís ofereix un regal a Mides?\",\"answer\":\"Perquè ha acollit el seu company i l’ha acompanyat fins a ell.\",\"lines\":2,\"evidence\":[{\"part\":\"regal\",\"quote\":\"va acollir al seu palau un vell company del déu Dionís\"},{\"part\":\"regal\",\"quote\":\"Dionís, content de retrobar el seu company, va prometre a Mides el regal que volgués\"}]},\"alternative\":{\"prompt\":\"Per què Dionís ofereix un regal a Mides?\",\"options\":[{\"id\":\"a\",\"text\":\"Perquè ha preparat un dinar per als servents.\"},{\"id\":\"b\",\"text\":\"Perquè ha trobat or a la sorra del riu.\"},{\"id\":\"c\",\"text\":\"Perquè ha acollit el seu company i l’ha dut fins a ell.\"},{\"id\":\"d\",\"text\":\"Perquè ha promès quedar-se a viure amb ell.\"}],\"correct\":\"c\",\"explanation\":\"El regal arriba després de l’acollida i del retrobament.\",\"evidence\":[{\"part\":\"regal\",\"quote\":\"va acollir al seu palau un vell company del déu Dionís\"},{\"part\":\"regal\",\"quote\":\"Dionís, content de retrobar el seu company, va prometre a Mides el regal que volgués\"}]},\"openOnly\":null}"
+          },
+          {
+            "activity": "ca-S139",
+            "questionId": "desig",
+            "status": "passed",
+            "author": "/root/autoria_mites_139_142",
+            "reviewer": "/root/autoria_faules_131_134",
+            "reviewedAt": "2026-11-26",
+            "teacherValidation": "pending",
+            "fingerprint": "6bd63a46f4fc8a9be68de096556b5a26fb85c3be35463151b80a7b64cff61573",
+            "questionChoiceSnapshot": "{\"schema\":1,\"activity\":\"ca-S139\",\"questionId\":\"desig\",\"grade\":\"5\",\"level\":\"middle\",\"introduction\":\"Comprensió oral. El rei Mides. Un mite de l’antiguitat.\",\"transcript\":[{\"kind\":\"direction\",\"text\":\"Adaptació original segons Ovidi XI, 85–145. Dionís és el nom grec del déu anomenat Bacus en el text llatí; Silè queda com un vell company per reduir noms. Es condensen festa i proves del do. Es mantenen el menjar i la beguda transformats, el penediment i el bany a la font del Pactol. El pa final és una escena de tancament afegida, coherent amb la retirada del do. No s’hi incorpora la filla convertida en or de la versió de Hawthorne, ni l’episodi de les orelles d’ase.\"},{\"id\":\"regal\",\"speaker\":\"Narrador\",\"text\":\"Un mite antic explica que el rei Mides va acollir al seu palau un vell company del déu Dionís. Li va oferir menjar i descans i, al cap d’uns dies, el va acompanyar fins al lloc on l’esperava el déu. Dionís, content de retrobar el seu company, va prometre a Mides el regal que volgués.\"},{\"id\":\"desig\",\"speaker\":\"Narrador\",\"text\":\"El rei va demanar que tot allò que toqués es convertís en or. Tan bon punt va rebre aquest poder, va voler provar-lo. Va agafar una branca: es va tornar daurada i rígida. Després va collir una pedra, i també es va transformar en or. Mides va tornar al palau imaginant les riqueses que podria reunir.\"},{\"id\":\"taula\",\"speaker\":\"Narrador\",\"text\":\"Quan va arribar l’hora de menjar, els servents van parar la taula. El rei va allargar la mà cap al pa, però el pa es va endurir i va brillar entre els seus dits. Va intentar mossegar un altre aliment: també es convertia en metall. Quan va acostar la beguda als llavis, el líquid es va tornar or. Tenia gana i set, i la taula era plena.\"},{\"id\":\"peticio\",\"speaker\":\"Narrador\",\"text\":\"Mides va deixar el menjar i va suplicar a Dionís que li retirés aquell poder. Ara volia desfer el desig que havia triat amb tanta alegria. El déu el va escoltar i li va indicar que anés al riu Pactol. Havia de seguir el curs de l’aigua cap amunt, fins a trobar el lloc on naixia, i banyar-s’hi el cap i el cos.\"},{\"id\":\"riu\",\"speaker\":\"Narrador\",\"text\":\"El rei va remuntar el riu fins a la font i es va submergir a l’aigua. El poder va abandonar el seu cos i va passar al corrent. Segons el mite, d’aquí venien les partícules d’or que es trobaven a la sorra del Pactol. Quan Mides va tornar al palau, va agafar un tros de pa. Aquesta vegada el va poder menjar.\"},{\"kind\":\"direction\",\"text\":\"Una sola veu també per a les intencions dels personatges. Cap so de metall o d’aigua necessari per respondre; tancament musical breu després de la veu, sense moral afegida.\"}],\"question\":{\"id\":\"desig\",\"prompt\":\"Quin poder demana el rei?\",\"answer\":\"Que tot allò que toqui es converteixi en or.\",\"lines\":1,\"evidence\":[{\"part\":\"desig\",\"quote\":\"tot allò que toqués es convertís en or\"}]},\"alternative\":{\"prompt\":\"Quin poder demana el rei?\",\"options\":[{\"id\":\"a\",\"text\":\"Que el seu palau es converteixi en un jardí.\"},{\"id\":\"b\",\"text\":\"Que el menjar es renovi cada vegada que en mengi.\"},{\"id\":\"c\",\"text\":\"Que totes les pedres del riu desapareguin.\"},{\"id\":\"d\",\"text\":\"Que tot allò que toqui es converteixi en or.\"}],\"correct\":\"d\",\"explanation\":\"El do actua sobre allò que entra en contacte amb Mides.\",\"evidence\":[{\"part\":\"desig\",\"quote\":\"tot allò que toqués es convertís en or\"}]},\"openOnly\":null}"
+          },
+          {
+            "activity": "ca-S139",
+            "questionId": "proves",
+            "status": "passed",
+            "author": "/root/autoria_mites_139_142",
+            "reviewer": "/root/autoria_faules_131_134",
+            "reviewedAt": "2026-11-26",
+            "teacherValidation": "pending",
+            "fingerprint": "814798be660b1922a59afd92ffa8e4fc1d31132b359c5ef69debb9305897a05b",
+            "questionChoiceSnapshot": "{\"schema\":1,\"activity\":\"ca-S139\",\"questionId\":\"proves\",\"grade\":\"5\",\"level\":\"middle\",\"introduction\":\"Comprensió oral. El rei Mides. Un mite de l’antiguitat.\",\"transcript\":[{\"kind\":\"direction\",\"text\":\"Adaptació original segons Ovidi XI, 85–145. Dionís és el nom grec del déu anomenat Bacus en el text llatí; Silè queda com un vell company per reduir noms. Es condensen festa i proves del do. Es mantenen el menjar i la beguda transformats, el penediment i el bany a la font del Pactol. El pa final és una escena de tancament afegida, coherent amb la retirada del do. No s’hi incorpora la filla convertida en or de la versió de Hawthorne, ni l’episodi de les orelles d’ase.\"},{\"id\":\"regal\",\"speaker\":\"Narrador\",\"text\":\"Un mite antic explica que el rei Mides va acollir al seu palau un vell company del déu Dionís. Li va oferir menjar i descans i, al cap d’uns dies, el va acompanyar fins al lloc on l’esperava el déu. Dionís, content de retrobar el seu company, va prometre a Mides el regal que volgués.\"},{\"id\":\"desig\",\"speaker\":\"Narrador\",\"text\":\"El rei va demanar que tot allò que toqués es convertís en or. Tan bon punt va rebre aquest poder, va voler provar-lo. Va agafar una branca: es va tornar daurada i rígida. Després va collir una pedra, i també es va transformar en or. Mides va tornar al palau imaginant les riqueses que podria reunir.\"},{\"id\":\"taula\",\"speaker\":\"Narrador\",\"text\":\"Quan va arribar l’hora de menjar, els servents van parar la taula. El rei va allargar la mà cap al pa, però el pa es va endurir i va brillar entre els seus dits. Va intentar mossegar un altre aliment: també es convertia en metall. Quan va acostar la beguda als llavis, el líquid es va tornar or. Tenia gana i set, i la taula era plena.\"},{\"id\":\"peticio\",\"speaker\":\"Narrador\",\"text\":\"Mides va deixar el menjar i va suplicar a Dionís que li retirés aquell poder. Ara volia desfer el desig que havia triat amb tanta alegria. El déu el va escoltar i li va indicar que anés al riu Pactol. Havia de seguir el curs de l’aigua cap amunt, fins a trobar el lloc on naixia, i banyar-s’hi el cap i el cos.\"},{\"id\":\"riu\",\"speaker\":\"Narrador\",\"text\":\"El rei va remuntar el riu fins a la font i es va submergir a l’aigua. El poder va abandonar el seu cos i va passar al corrent. Segons el mite, d’aquí venien les partícules d’or que es trobaven a la sorra del Pactol. Quan Mides va tornar al palau, va agafar un tros de pa. Aquesta vegada el va poder menjar.\"},{\"kind\":\"direction\",\"text\":\"Una sola veu també per a les intencions dels personatges. Cap so de metall o d’aigua necessari per respondre; tancament musical breu després de la veu, sense moral afegida.\"}],\"question\":{\"id\":\"proves\",\"prompt\":\"Què comprova Mides amb la branca i la pedra?\",\"answer\":\"Que el poder que ha demanat funciona.\",\"lines\":2,\"evidence\":[{\"part\":\"desig\",\"quote\":\"va voler provar-lo\"},{\"part\":\"desig\",\"quote\":\"Va agafar una branca: es va tornar daurada i rígida\"},{\"part\":\"desig\",\"quote\":\"també es va transformar en or\"}]},\"alternative\":{\"prompt\":\"Què comprova Mides amb la branca i la pedra?\",\"options\":[{\"id\":\"a\",\"text\":\"Que Dionís li ha retirat el regal.\"},{\"id\":\"b\",\"text\":\"Que només pot transformar coses del palau.\"},{\"id\":\"c\",\"text\":\"Que el poder que ha demanat funciona.\"},{\"id\":\"d\",\"text\":\"Que l’or es desfà quan el deixa a terra.\"}],\"correct\":\"c\",\"explanation\":\"Les dues proves transformen els objectes en or.\",\"evidence\":[{\"part\":\"desig\",\"quote\":\"va voler provar-lo\"},{\"part\":\"desig\",\"quote\":\"Va agafar una branca: es va tornar daurada i rígida\"},{\"part\":\"desig\",\"quote\":\"també es va transformar en or\"}]},\"openOnly\":null}"
+          },
+          {
+            "activity": "ca-S139",
+            "questionId": "gana",
+            "status": "passed",
+            "author": "/root/autoria_mites_139_142",
+            "reviewer": "/root/autoria_faules_131_134",
+            "reviewedAt": "2026-11-26",
+            "teacherValidation": "pending",
+            "fingerprint": "d55d614e44f8cd97c23917918e2ed8fe36bebddbeaa0c7c3b33d69dfa8b949f1",
+            "questionChoiceSnapshot": "{\"schema\":1,\"activity\":\"ca-S139\",\"questionId\":\"gana\",\"grade\":\"5\",\"level\":\"middle\",\"introduction\":\"Comprensió oral. El rei Mides. Un mite de l’antiguitat.\",\"transcript\":[{\"kind\":\"direction\",\"text\":\"Adaptació original segons Ovidi XI, 85–145. Dionís és el nom grec del déu anomenat Bacus en el text llatí; Silè queda com un vell company per reduir noms. Es condensen festa i proves del do. Es mantenen el menjar i la beguda transformats, el penediment i el bany a la font del Pactol. El pa final és una escena de tancament afegida, coherent amb la retirada del do. No s’hi incorpora la filla convertida en or de la versió de Hawthorne, ni l’episodi de les orelles d’ase.\"},{\"id\":\"regal\",\"speaker\":\"Narrador\",\"text\":\"Un mite antic explica que el rei Mides va acollir al seu palau un vell company del déu Dionís. Li va oferir menjar i descans i, al cap d’uns dies, el va acompanyar fins al lloc on l’esperava el déu. Dionís, content de retrobar el seu company, va prometre a Mides el regal que volgués.\"},{\"id\":\"desig\",\"speaker\":\"Narrador\",\"text\":\"El rei va demanar que tot allò que toqués es convertís en or. Tan bon punt va rebre aquest poder, va voler provar-lo. Va agafar una branca: es va tornar daurada i rígida. Després va collir una pedra, i també es va transformar en or. Mides va tornar al palau imaginant les riqueses que podria reunir.\"},{\"id\":\"taula\",\"speaker\":\"Narrador\",\"text\":\"Quan va arribar l’hora de menjar, els servents van parar la taula. El rei va allargar la mà cap al pa, però el pa es va endurir i va brillar entre els seus dits. Va intentar mossegar un altre aliment: també es convertia en metall. Quan va acostar la beguda als llavis, el líquid es va tornar or. Tenia gana i set, i la taula era plena.\"},{\"id\":\"peticio\",\"speaker\":\"Narrador\",\"text\":\"Mides va deixar el menjar i va suplicar a Dionís que li retirés aquell poder. Ara volia desfer el desig que havia triat amb tanta alegria. El déu el va escoltar i li va indicar que anés al riu Pactol. Havia de seguir el curs de l’aigua cap amunt, fins a trobar el lloc on naixia, i banyar-s’hi el cap i el cos.\"},{\"id\":\"riu\",\"speaker\":\"Narrador\",\"text\":\"El rei va remuntar el riu fins a la font i es va submergir a l’aigua. El poder va abandonar el seu cos i va passar al corrent. Segons el mite, d’aquí venien les partícules d’or que es trobaven a la sorra del Pactol. Quan Mides va tornar al palau, va agafar un tros de pa. Aquesta vegada el va poder menjar.\"},{\"kind\":\"direction\",\"text\":\"Una sola veu també per a les intencions dels personatges. Cap so de metall o d’aigua necessari per respondre; tancament musical breu després de la veu, sense moral afegida.\"}],\"question\":{\"id\":\"gana\",\"prompt\":\"Per què Mides té gana i set amb la taula plena?\",\"answer\":\"Perquè el menjar i la beguda es converteixen en or quan els toca.\",\"lines\":2,\"evidence\":[{\"part\":\"taula\",\"quote\":\"també es convertia en metall\"},{\"part\":\"taula\",\"quote\":\"el líquid es va tornar or\"},{\"part\":\"taula\",\"quote\":\"Tenia gana i set, i la taula era plena\"}]},\"alternative\":{\"prompt\":\"Per què Mides té gana i set amb la taula plena?\",\"options\":[{\"id\":\"a\",\"text\":\"Perquè ha reservat tot el menjar per al seu company.\"},{\"id\":\"b\",\"text\":\"Perquè el menjar i la beguda es converteixen en or.\"},{\"id\":\"c\",\"text\":\"Perquè els servents encara no han portat res.\"},{\"id\":\"d\",\"text\":\"Perquè Dionís ha amagat el pa i la beguda.\"}],\"correct\":\"b\",\"explanation\":\"El mateix poder que el feia sentir ric li impedeix alimentar-se.\",\"evidence\":[{\"part\":\"taula\",\"quote\":\"també es convertia en metall\"},{\"part\":\"taula\",\"quote\":\"el líquid es va tornar or\"},{\"part\":\"taula\",\"quote\":\"Tenia gana i set, i la taula era plena\"}]},\"openOnly\":null}"
+          },
+          {
+            "activity": "ca-S139",
+            "questionId": "canvi",
+            "status": "passed",
+            "author": "/root/autoria_mites_139_142",
+            "reviewer": "/root/autoria_faules_131_134",
+            "reviewedAt": "2026-11-26",
+            "teacherValidation": "pending",
+            "fingerprint": "9d09f4a24ef05badb1b1b6145a9fc951677dcde098d67efe1545982a8ccc2b29",
+            "questionChoiceSnapshot": "{\"schema\":1,\"activity\":\"ca-S139\",\"questionId\":\"canvi\",\"grade\":\"5\",\"level\":\"middle\",\"introduction\":\"Comprensió oral. El rei Mides. Un mite de l’antiguitat.\",\"transcript\":[{\"kind\":\"direction\",\"text\":\"Adaptació original segons Ovidi XI, 85–145. Dionís és el nom grec del déu anomenat Bacus en el text llatí; Silè queda com un vell company per reduir noms. Es condensen festa i proves del do. Es mantenen el menjar i la beguda transformats, el penediment i el bany a la font del Pactol. El pa final és una escena de tancament afegida, coherent amb la retirada del do. No s’hi incorpora la filla convertida en or de la versió de Hawthorne, ni l’episodi de les orelles d’ase.\"},{\"id\":\"regal\",\"speaker\":\"Narrador\",\"text\":\"Un mite antic explica que el rei Mides va acollir al seu palau un vell company del déu Dionís. Li va oferir menjar i descans i, al cap d’uns dies, el va acompanyar fins al lloc on l’esperava el déu. Dionís, content de retrobar el seu company, va prometre a Mides el regal que volgués.\"},{\"id\":\"desig\",\"speaker\":\"Narrador\",\"text\":\"El rei va demanar que tot allò que toqués es convertís en or. Tan bon punt va rebre aquest poder, va voler provar-lo. Va agafar una branca: es va tornar daurada i rígida. Després va collir una pedra, i també es va transformar en or. Mides va tornar al palau imaginant les riqueses que podria reunir.\"},{\"id\":\"taula\",\"speaker\":\"Narrador\",\"text\":\"Quan va arribar l’hora de menjar, els servents van parar la taula. El rei va allargar la mà cap al pa, però el pa es va endurir i va brillar entre els seus dits. Va intentar mossegar un altre aliment: també es convertia en metall. Quan va acostar la beguda als llavis, el líquid es va tornar or. Tenia gana i set, i la taula era plena.\"},{\"id\":\"peticio\",\"speaker\":\"Narrador\",\"text\":\"Mides va deixar el menjar i va suplicar a Dionís que li retirés aquell poder. Ara volia desfer el desig que havia triat amb tanta alegria. El déu el va escoltar i li va indicar que anés al riu Pactol. Havia de seguir el curs de l’aigua cap amunt, fins a trobar el lloc on naixia, i banyar-s’hi el cap i el cos.\"},{\"id\":\"riu\",\"speaker\":\"Narrador\",\"text\":\"El rei va remuntar el riu fins a la font i es va submergir a l’aigua. El poder va abandonar el seu cos i va passar al corrent. Segons el mite, d’aquí venien les partícules d’or que es trobaven a la sorra del Pactol. Quan Mides va tornar al palau, va agafar un tros de pa. Aquesta vegada el va poder menjar.\"},{\"kind\":\"direction\",\"text\":\"Una sola veu també per a les intencions dels personatges. Cap so de metall o d’aigua necessari per respondre; tancament musical breu després de la veu, sense moral afegida.\"}],\"question\":{\"id\":\"canvi\",\"prompt\":\"Què demana Mides a Dionís després del menjar?\",\"answer\":\"Que li retiri el poder de convertir les coses en or.\",\"lines\":1,\"evidence\":[{\"part\":\"peticio\",\"quote\":\"va suplicar a Dionís que li retirés aquell poder\"}]},\"alternative\":{\"prompt\":\"Què demana Mides a Dionís després del menjar?\",\"options\":[{\"id\":\"a\",\"text\":\"Que li retiri el poder de convertir les coses en or.\"},{\"id\":\"b\",\"text\":\"Que li doni un segon palau ple de menjar.\"},{\"id\":\"c\",\"text\":\"Que comparteixi el poder amb tots els servents.\"},{\"id\":\"d\",\"text\":\"Que transformi el riu sencer en metall.\"}],\"correct\":\"a\",\"explanation\":\"El seu nou desig consisteix a desfer el primer.\",\"evidence\":[{\"part\":\"peticio\",\"quote\":\"va suplicar a Dionís que li retirés aquell poder\"}]},\"openOnly\":null}"
+          },
+          {
+            "activity": "ca-S139",
+            "questionId": "font",
+            "status": "passed",
+            "author": "/root/autoria_mites_139_142",
+            "reviewer": "/root/autoria_faules_131_134",
+            "reviewedAt": "2026-11-26",
+            "teacherValidation": "pending",
+            "fingerprint": "db8222faef59ae0a6439e76a8a8e780022893ca3e36cc4811b5e7eed73f1cdba",
+            "questionChoiceSnapshot": "{\"schema\":1,\"activity\":\"ca-S139\",\"questionId\":\"font\",\"grade\":\"5\",\"level\":\"middle\",\"introduction\":\"Comprensió oral. El rei Mides. Un mite de l’antiguitat.\",\"transcript\":[{\"kind\":\"direction\",\"text\":\"Adaptació original segons Ovidi XI, 85–145. Dionís és el nom grec del déu anomenat Bacus en el text llatí; Silè queda com un vell company per reduir noms. Es condensen festa i proves del do. Es mantenen el menjar i la beguda transformats, el penediment i el bany a la font del Pactol. El pa final és una escena de tancament afegida, coherent amb la retirada del do. No s’hi incorpora la filla convertida en or de la versió de Hawthorne, ni l’episodi de les orelles d’ase.\"},{\"id\":\"regal\",\"speaker\":\"Narrador\",\"text\":\"Un mite antic explica que el rei Mides va acollir al seu palau un vell company del déu Dionís. Li va oferir menjar i descans i, al cap d’uns dies, el va acompanyar fins al lloc on l’esperava el déu. Dionís, content de retrobar el seu company, va prometre a Mides el regal que volgués.\"},{\"id\":\"desig\",\"speaker\":\"Narrador\",\"text\":\"El rei va demanar que tot allò que toqués es convertís en or. Tan bon punt va rebre aquest poder, va voler provar-lo. Va agafar una branca: es va tornar daurada i rígida. Després va collir una pedra, i també es va transformar en or. Mides va tornar al palau imaginant les riqueses que podria reunir.\"},{\"id\":\"taula\",\"speaker\":\"Narrador\",\"text\":\"Quan va arribar l’hora de menjar, els servents van parar la taula. El rei va allargar la mà cap al pa, però el pa es va endurir i va brillar entre els seus dits. Va intentar mossegar un altre aliment: també es convertia en metall. Quan va acostar la beguda als llavis, el líquid es va tornar or. Tenia gana i set, i la taula era plena.\"},{\"id\":\"peticio\",\"speaker\":\"Narrador\",\"text\":\"Mides va deixar el menjar i va suplicar a Dionís que li retirés aquell poder. Ara volia desfer el desig que havia triat amb tanta alegria. El déu el va escoltar i li va indicar que anés al riu Pactol. Havia de seguir el curs de l’aigua cap amunt, fins a trobar el lloc on naixia, i banyar-s’hi el cap i el cos.\"},{\"id\":\"riu\",\"speaker\":\"Narrador\",\"text\":\"El rei va remuntar el riu fins a la font i es va submergir a l’aigua. El poder va abandonar el seu cos i va passar al corrent. Segons el mite, d’aquí venien les partícules d’or que es trobaven a la sorra del Pactol. Quan Mides va tornar al palau, va agafar un tros de pa. Aquesta vegada el va poder menjar.\"},{\"kind\":\"direction\",\"text\":\"Una sola veu també per a les intencions dels personatges. Cap so de metall o d’aigua necessari per respondre; tancament musical breu després de la veu, sense moral afegida.\"}],\"question\":{\"id\":\"font\",\"prompt\":\"Què ha de fer Mides per perdre aquell poder?\",\"answer\":\"Remuntar el Pactol fins a la font i banyar-s’hi el cap i el cos.\",\"lines\":2,\"evidence\":[{\"part\":\"peticio\",\"quote\":\"seguir el curs de l’aigua cap amunt, fins a trobar el lloc on naixia, i banyar-s’hi el cap i el cos\"},{\"part\":\"riu\",\"quote\":\"va remuntar el riu fins a la font i es va submergir a l’aigua\"}]},\"alternative\":{\"prompt\":\"Què ha de fer Mides per perdre aquell poder?\",\"options\":[{\"id\":\"a\",\"text\":\"Arribar a la font del Pactol i banyar-s’hi el cap i el cos.\"},{\"id\":\"b\",\"text\":\"Seguir el Pactol fins al mar i rentar-s’hi les mans.\"},{\"id\":\"c\",\"text\":\"Llançar totes les pedres d’or al mig del Pactol.\"},{\"id\":\"d\",\"text\":\"Beure aigua del Pactol abans de tornar al palau.\"}],\"correct\":\"a\",\"explanation\":\"La instrucció combina un lloc precís i una acció que el rei compleix.\",\"evidence\":[{\"part\":\"peticio\",\"quote\":\"seguir el curs de l’aigua cap amunt, fins a trobar el lloc on naixia, i banyar-s’hi el cap i el cos\"},{\"part\":\"riu\",\"quote\":\"va remuntar el riu fins a la font i es va submergir a l’aigua\"}]},\"openOnly\":null}"
+          },
+          {
+            "activity": "ca-S139",
+            "questionId": "pa",
+            "status": "passed",
+            "author": "/root/autoria_mites_139_142",
+            "reviewer": "/root/autoria_faules_131_134",
+            "reviewedAt": "2026-11-26",
+            "teacherValidation": "pending",
+            "fingerprint": "a784d0a5b6767488836ff87e9b3c0ee2505c922f79348fab92082fe9f73a22e8",
+            "questionChoiceSnapshot": "{\"schema\":1,\"activity\":\"ca-S139\",\"questionId\":\"pa\",\"grade\":\"5\",\"level\":\"middle\",\"introduction\":\"Comprensió oral. El rei Mides. Un mite de l’antiguitat.\",\"transcript\":[{\"kind\":\"direction\",\"text\":\"Adaptació original segons Ovidi XI, 85–145. Dionís és el nom grec del déu anomenat Bacus en el text llatí; Silè queda com un vell company per reduir noms. Es condensen festa i proves del do. Es mantenen el menjar i la beguda transformats, el penediment i el bany a la font del Pactol. El pa final és una escena de tancament afegida, coherent amb la retirada del do. No s’hi incorpora la filla convertida en or de la versió de Hawthorne, ni l’episodi de les orelles d’ase.\"},{\"id\":\"regal\",\"speaker\":\"Narrador\",\"text\":\"Un mite antic explica que el rei Mides va acollir al seu palau un vell company del déu Dionís. Li va oferir menjar i descans i, al cap d’uns dies, el va acompanyar fins al lloc on l’esperava el déu. Dionís, content de retrobar el seu company, va prometre a Mides el regal que volgués.\"},{\"id\":\"desig\",\"speaker\":\"Narrador\",\"text\":\"El rei va demanar que tot allò que toqués es convertís en or. Tan bon punt va rebre aquest poder, va voler provar-lo. Va agafar una branca: es va tornar daurada i rígida. Després va collir una pedra, i també es va transformar en or. Mides va tornar al palau imaginant les riqueses que podria reunir.\"},{\"id\":\"taula\",\"speaker\":\"Narrador\",\"text\":\"Quan va arribar l’hora de menjar, els servents van parar la taula. El rei va allargar la mà cap al pa, però el pa es va endurir i va brillar entre els seus dits. Va intentar mossegar un altre aliment: també es convertia en metall. Quan va acostar la beguda als llavis, el líquid es va tornar or. Tenia gana i set, i la taula era plena.\"},{\"id\":\"peticio\",\"speaker\":\"Narrador\",\"text\":\"Mides va deixar el menjar i va suplicar a Dionís que li retirés aquell poder. Ara volia desfer el desig que havia triat amb tanta alegria. El déu el va escoltar i li va indicar que anés al riu Pactol. Havia de seguir el curs de l’aigua cap amunt, fins a trobar el lloc on naixia, i banyar-s’hi el cap i el cos.\"},{\"id\":\"riu\",\"speaker\":\"Narrador\",\"text\":\"El rei va remuntar el riu fins a la font i es va submergir a l’aigua. El poder va abandonar el seu cos i va passar al corrent. Segons el mite, d’aquí venien les partícules d’or que es trobaven a la sorra del Pactol. Quan Mides va tornar al palau, va agafar un tros de pa. Aquesta vegada el va poder menjar.\"},{\"kind\":\"direction\",\"text\":\"Una sola veu també per a les intencions dels personatges. Cap so de metall o d’aigua necessari per respondre; tancament musical breu després de la veu, sense moral afegida.\"}],\"question\":{\"id\":\"pa\",\"prompt\":\"Què demostra el tros de pa que Mides menja al final?\",\"answer\":\"Que ja pot tocar coses sense convertir-les en or.\",\"lines\":2,\"evidence\":[{\"part\":\"riu\",\"quote\":\"El poder va abandonar el seu cos\"},{\"part\":\"riu\",\"quote\":\"va agafar un tros de pa. Aquesta vegada el va poder menjar\"}]},\"alternative\":{\"prompt\":\"Què demostra el tros de pa que Mides menja al final?\",\"options\":[{\"id\":\"a\",\"text\":\"Que els servents han amagat l’or dins del pa.\"},{\"id\":\"b\",\"text\":\"Que ha après a menjar aliments fets d’or.\"},{\"id\":\"c\",\"text\":\"Que el seu poder ara només transforma les pedres.\"},{\"id\":\"d\",\"text\":\"Que ja pot tocar coses sense convertir-les en or.\"}],\"correct\":\"d\",\"explanation\":\"El pa conserva la seva forma comestible després del bany.\",\"evidence\":[{\"part\":\"riu\",\"quote\":\"El poder va abandonar el seu cos\"},{\"part\":\"riu\",\"quote\":\"va agafar un tros de pa. Aquesta vegada el va poder menjar\"}]},\"openOnly\":null}"
+          },
+          {
+            "activity": "ca-S140",
+            "questionId": "fugida",
+            "status": "passed",
+            "author": "/root/autoria_mites_139_142",
+            "reviewer": "/root/autoria_faules_131_134",
+            "reviewedAt": "2026-11-26",
+            "teacherValidation": "pending",
+            "fingerprint": "e43511cff3678fc4b27f3c2712e37486d266a72c7ae518ff3a4fd33f4b92b7af",
+            "questionChoiceSnapshot": "{\"schema\":1,\"activity\":\"ca-S140\",\"questionId\":\"fugida\",\"grade\":\"5\",\"level\":\"middle\",\"introduction\":\"Comprensió oral. Dèdal i Ícar. Un mite grec.\",\"transcript\":[{\"kind\":\"direction\",\"text\":\"Adaptació original d’Ovidi VIII, 183–235. S’ometen la llista d’illes sobrevolades, els testimonis del vol i l’episodi posterior de Perdix. Es mantenen el bloqueig de Minos, fil i cera, els dos límits de vol, l’entusiasme d’Ícar i la mort al mar. La causalitat de l’escalfor és interna al mite, anunciat com a tal; cap presentació científica del vol humà.\"},{\"id\":\"illa\",\"speaker\":\"Narrador\",\"text\":\"Un mite grec explica que Dèdal era un inventor que vivia a Creta amb el seu fill Ícar. Feia temps que volia tornar a casa, però el rei Minos els impedia marxar de l’illa. Els camins i el mar eren sota el poder del rei. Dèdal va mirar el cel i va començar a preparar una altra manera de fugir.\"},{\"id\":\"ales\",\"speaker\":\"Narrador\",\"text\":\"Va reunir plomes de mides diferents i les va ordenar com les d’un ocell. Amb fil i cera, les va unir fins a formar dues ales grans. Després en va fer dues més per a Ícar. Mentre el pare treballava, el noi jugava amb les plomes que el vent aixecava i estovava trossets de cera entre els dits.\"},{\"id\":\"avis\",\"speaker\":\"Narrador\",\"text\":\"Quan tot va estar a punt, Dèdal es va posar les ales i va provar de moure’s per l’aire. A continuació va ajustar les del seu fill. Li va dir que el seguís i mantingués una altura mitjana. Si volava massa baix, l’aigua del mar podia mullar-li les plomes i fer-les pesants. Si pujava massa, l’escalfor del sol podia fondre la cera que les subjectava.\"},{\"id\":\"vol\",\"speaker\":\"Narrador\",\"text\":\"Pare i fill van deixar Creta enrere. Dèdal anava al davant i girava el cap per comprovar que Ícar el seguia. Al principi, el noi es mantenia darrere seu. Però el vol li agradava cada vegada més. Va començar a pujar, entusiasmat amb l’aire que tenia al voltant, fins que es va separar del camí que marcava el pare.\"},{\"id\":\"caiguda\",\"speaker\":\"Narrador\",\"text\":\"L’escalfor va estovar la cera de les seves ales. Les plomes es van desprendre i Ícar va moure els braços sense poder sostenir-se. Va caure al mar i va morir. Dèdal el cridava mentre el buscava des de l’aire. En veure les plomes sobre l’aigua, va baixar a buscar-lo. Va trobar el cos a la costa d’una illa i hi va enterrar el seu fill.\"},{\"kind\":\"direction\",\"text\":\"Conservar un to contingut al desenllaç. Sense crit, impacte, aleteig o caiguda sonora. Base baixa sostinguda i fosa final; cap sentència sobre desobediència afegida.\"}],\"question\":{\"id\":\"fugida\",\"prompt\":\"Per què Dèdal busca una manera de fugir pel cel?\",\"answer\":\"Perquè Minos els impedeix marxar per terra i per mar.\",\"lines\":2,\"evidence\":[{\"part\":\"illa\",\"quote\":\"el rei Minos els impedia marxar de l’illa\"},{\"part\":\"illa\",\"quote\":\"Els camins i el mar eren sota el poder del rei\"}]},\"alternative\":{\"prompt\":\"Per què Dèdal busca una manera de fugir pel cel?\",\"options\":[{\"id\":\"a\",\"text\":\"Perquè vol trobar una illa on hi hagi més cera.\"},{\"id\":\"b\",\"text\":\"Perquè Minos els impedeix marxar per terra i per mar.\"},{\"id\":\"c\",\"text\":\"Perquè vol recollir plomes dels ocells en ple vol.\"},{\"id\":\"d\",\"text\":\"Perquè Ícar li ha demanat que li ensenyi el sol.\"}],\"correct\":\"b\",\"explanation\":\"El cel és la sortida que Dèdal prova davant del bloqueig del rei.\",\"evidence\":[{\"part\":\"illa\",\"quote\":\"el rei Minos els impedia marxar de l’illa\"},{\"part\":\"illa\",\"quote\":\"Els camins i el mar eren sota el poder del rei\"}]},\"openOnly\":null}"
+          },
+          {
+            "activity": "ca-S140",
+            "questionId": "unio",
+            "status": "passed",
+            "author": "/root/autoria_mites_139_142",
+            "reviewer": "/root/autoria_faules_131_134",
+            "reviewedAt": "2026-11-26",
+            "teacherValidation": "pending",
+            "fingerprint": "e7d79b5e4658dca395404a2a59713289c6e22a09086a845bc091540205f78227",
+            "questionChoiceSnapshot": "{\"schema\":1,\"activity\":\"ca-S140\",\"questionId\":\"unio\",\"grade\":\"5\",\"level\":\"middle\",\"introduction\":\"Comprensió oral. Dèdal i Ícar. Un mite grec.\",\"transcript\":[{\"kind\":\"direction\",\"text\":\"Adaptació original d’Ovidi VIII, 183–235. S’ometen la llista d’illes sobrevolades, els testimonis del vol i l’episodi posterior de Perdix. Es mantenen el bloqueig de Minos, fil i cera, els dos límits de vol, l’entusiasme d’Ícar i la mort al mar. La causalitat de l’escalfor és interna al mite, anunciat com a tal; cap presentació científica del vol humà.\"},{\"id\":\"illa\",\"speaker\":\"Narrador\",\"text\":\"Un mite grec explica que Dèdal era un inventor que vivia a Creta amb el seu fill Ícar. Feia temps que volia tornar a casa, però el rei Minos els impedia marxar de l’illa. Els camins i el mar eren sota el poder del rei. Dèdal va mirar el cel i va començar a preparar una altra manera de fugir.\"},{\"id\":\"ales\",\"speaker\":\"Narrador\",\"text\":\"Va reunir plomes de mides diferents i les va ordenar com les d’un ocell. Amb fil i cera, les va unir fins a formar dues ales grans. Després en va fer dues més per a Ícar. Mentre el pare treballava, el noi jugava amb les plomes que el vent aixecava i estovava trossets de cera entre els dits.\"},{\"id\":\"avis\",\"speaker\":\"Narrador\",\"text\":\"Quan tot va estar a punt, Dèdal es va posar les ales i va provar de moure’s per l’aire. A continuació va ajustar les del seu fill. Li va dir que el seguís i mantingués una altura mitjana. Si volava massa baix, l’aigua del mar podia mullar-li les plomes i fer-les pesants. Si pujava massa, l’escalfor del sol podia fondre la cera que les subjectava.\"},{\"id\":\"vol\",\"speaker\":\"Narrador\",\"text\":\"Pare i fill van deixar Creta enrere. Dèdal anava al davant i girava el cap per comprovar que Ícar el seguia. Al principi, el noi es mantenia darrere seu. Però el vol li agradava cada vegada més. Va començar a pujar, entusiasmat amb l’aire que tenia al voltant, fins que es va separar del camí que marcava el pare.\"},{\"id\":\"caiguda\",\"speaker\":\"Narrador\",\"text\":\"L’escalfor va estovar la cera de les seves ales. Les plomes es van desprendre i Ícar va moure els braços sense poder sostenir-se. Va caure al mar i va morir. Dèdal el cridava mentre el buscava des de l’aire. En veure les plomes sobre l’aigua, va baixar a buscar-lo. Va trobar el cos a la costa d’una illa i hi va enterrar el seu fill.\"},{\"kind\":\"direction\",\"text\":\"Conservar un to contingut al desenllaç. Sense crit, impacte, aleteig o caiguda sonora. Base baixa sostinguda i fosa final; cap sentència sobre desobediència afegida.\"}],\"question\":{\"id\":\"unio\",\"prompt\":\"Amb què uneix Dèdal les plomes?\",\"answer\":\"Amb fil i cera.\",\"lines\":1,\"evidence\":[{\"part\":\"ales\",\"quote\":\"Amb fil i cera, les va unir\"}]},\"alternative\":{\"prompt\":\"Amb què uneix Dèdal les plomes?\",\"options\":[{\"id\":\"a\",\"text\":\"Amb fil i cera.\"},{\"id\":\"b\",\"text\":\"Amb fusta i cordills.\"},{\"id\":\"c\",\"text\":\"Amb aigua i sorra.\"},{\"id\":\"d\",\"text\":\"Amb pedres i metall.\"}],\"correct\":\"a\",\"explanation\":\"Aquests materials subjecten les plomes de les ales.\",\"evidence\":[{\"part\":\"ales\",\"quote\":\"Amb fil i cera, les va unir\"}]},\"openOnly\":null}"
+          },
+          {
+            "activity": "ca-S140",
+            "questionId": "altura",
+            "status": "passed",
+            "author": "/root/autoria_mites_139_142",
+            "reviewer": "/root/autoria_faules_131_134",
+            "reviewedAt": "2026-11-26",
+            "teacherValidation": "pending",
+            "fingerprint": "18f2e07ed9862a20fbeffcd054ccc1fce736819b508ea8176e38d9c6a316ec99",
+            "questionChoiceSnapshot": "{\"schema\":1,\"activity\":\"ca-S140\",\"questionId\":\"altura\",\"grade\":\"5\",\"level\":\"middle\",\"introduction\":\"Comprensió oral. Dèdal i Ícar. Un mite grec.\",\"transcript\":[{\"kind\":\"direction\",\"text\":\"Adaptació original d’Ovidi VIII, 183–235. S’ometen la llista d’illes sobrevolades, els testimonis del vol i l’episodi posterior de Perdix. Es mantenen el bloqueig de Minos, fil i cera, els dos límits de vol, l’entusiasme d’Ícar i la mort al mar. La causalitat de l’escalfor és interna al mite, anunciat com a tal; cap presentació científica del vol humà.\"},{\"id\":\"illa\",\"speaker\":\"Narrador\",\"text\":\"Un mite grec explica que Dèdal era un inventor que vivia a Creta amb el seu fill Ícar. Feia temps que volia tornar a casa, però el rei Minos els impedia marxar de l’illa. Els camins i el mar eren sota el poder del rei. Dèdal va mirar el cel i va començar a preparar una altra manera de fugir.\"},{\"id\":\"ales\",\"speaker\":\"Narrador\",\"text\":\"Va reunir plomes de mides diferents i les va ordenar com les d’un ocell. Amb fil i cera, les va unir fins a formar dues ales grans. Després en va fer dues més per a Ícar. Mentre el pare treballava, el noi jugava amb les plomes que el vent aixecava i estovava trossets de cera entre els dits.\"},{\"id\":\"avis\",\"speaker\":\"Narrador\",\"text\":\"Quan tot va estar a punt, Dèdal es va posar les ales i va provar de moure’s per l’aire. A continuació va ajustar les del seu fill. Li va dir que el seguís i mantingués una altura mitjana. Si volava massa baix, l’aigua del mar podia mullar-li les plomes i fer-les pesants. Si pujava massa, l’escalfor del sol podia fondre la cera que les subjectava.\"},{\"id\":\"vol\",\"speaker\":\"Narrador\",\"text\":\"Pare i fill van deixar Creta enrere. Dèdal anava al davant i girava el cap per comprovar que Ícar el seguia. Al principi, el noi es mantenia darrere seu. Però el vol li agradava cada vegada més. Va començar a pujar, entusiasmat amb l’aire que tenia al voltant, fins que es va separar del camí que marcava el pare.\"},{\"id\":\"caiguda\",\"speaker\":\"Narrador\",\"text\":\"L’escalfor va estovar la cera de les seves ales. Les plomes es van desprendre i Ícar va moure els braços sense poder sostenir-se. Va caure al mar i va morir. Dèdal el cridava mentre el buscava des de l’aire. En veure les plomes sobre l’aigua, va baixar a buscar-lo. Va trobar el cos a la costa d’una illa i hi va enterrar el seu fill.\"},{\"kind\":\"direction\",\"text\":\"Conservar un to contingut al desenllaç. Sense crit, impacte, aleteig o caiguda sonora. Base baixa sostinguda i fosa final; cap sentència sobre desobediència afegida.\"}],\"question\":{\"id\":\"altura\",\"prompt\":\"Quina altura recomana Dèdal a Ícar?\",\"answer\":\"Una altura mitjana, seguint-lo a ell.\",\"lines\":1,\"evidence\":[{\"part\":\"avis\",\"quote\":\"el seguís i mantingués una altura mitjana\"}]},\"alternative\":{\"prompt\":\"Quina altura recomana Dèdal a Ícar?\",\"options\":[{\"id\":\"a\",\"text\":\"Una altura diferent cada vegada que vegi una illa.\"},{\"id\":\"b\",\"text\":\"Tan amunt com pugui, per sobre del pare.\"},{\"id\":\"c\",\"text\":\"Una altura mitjana, seguint-lo a ell.\"},{\"id\":\"d\",\"text\":\"Tan arran de mar com li permetin les ales.\"}],\"correct\":\"c\",\"explanation\":\"Dèdal li dona un camí a seguir entre dos perills.\",\"evidence\":[{\"part\":\"avis\",\"quote\":\"el seguís i mantingués una altura mitjana\"}]},\"openOnly\":null}"
+          },
+          {
+            "activity": "ca-S140",
+            "questionId": "baix",
+            "status": "passed",
+            "author": "/root/autoria_mites_139_142",
+            "reviewer": "/root/autoria_faules_131_134",
+            "reviewedAt": "2026-11-26",
+            "teacherValidation": "pending",
+            "fingerprint": "27c7324635cfb13d096c5f3711fa60c7e44983aa5c8740d4edf47efc3b0ad179",
+            "questionChoiceSnapshot": "{\"schema\":1,\"activity\":\"ca-S140\",\"questionId\":\"baix\",\"grade\":\"5\",\"level\":\"middle\",\"introduction\":\"Comprensió oral. Dèdal i Ícar. Un mite grec.\",\"transcript\":[{\"kind\":\"direction\",\"text\":\"Adaptació original d’Ovidi VIII, 183–235. S’ometen la llista d’illes sobrevolades, els testimonis del vol i l’episodi posterior de Perdix. Es mantenen el bloqueig de Minos, fil i cera, els dos límits de vol, l’entusiasme d’Ícar i la mort al mar. La causalitat de l’escalfor és interna al mite, anunciat com a tal; cap presentació científica del vol humà.\"},{\"id\":\"illa\",\"speaker\":\"Narrador\",\"text\":\"Un mite grec explica que Dèdal era un inventor que vivia a Creta amb el seu fill Ícar. Feia temps que volia tornar a casa, però el rei Minos els impedia marxar de l’illa. Els camins i el mar eren sota el poder del rei. Dèdal va mirar el cel i va començar a preparar una altra manera de fugir.\"},{\"id\":\"ales\",\"speaker\":\"Narrador\",\"text\":\"Va reunir plomes de mides diferents i les va ordenar com les d’un ocell. Amb fil i cera, les va unir fins a formar dues ales grans. Després en va fer dues més per a Ícar. Mentre el pare treballava, el noi jugava amb les plomes que el vent aixecava i estovava trossets de cera entre els dits.\"},{\"id\":\"avis\",\"speaker\":\"Narrador\",\"text\":\"Quan tot va estar a punt, Dèdal es va posar les ales i va provar de moure’s per l’aire. A continuació va ajustar les del seu fill. Li va dir que el seguís i mantingués una altura mitjana. Si volava massa baix, l’aigua del mar podia mullar-li les plomes i fer-les pesants. Si pujava massa, l’escalfor del sol podia fondre la cera que les subjectava.\"},{\"id\":\"vol\",\"speaker\":\"Narrador\",\"text\":\"Pare i fill van deixar Creta enrere. Dèdal anava al davant i girava el cap per comprovar que Ícar el seguia. Al principi, el noi es mantenia darrere seu. Però el vol li agradava cada vegada més. Va començar a pujar, entusiasmat amb l’aire que tenia al voltant, fins que es va separar del camí que marcava el pare.\"},{\"id\":\"caiguda\",\"speaker\":\"Narrador\",\"text\":\"L’escalfor va estovar la cera de les seves ales. Les plomes es van desprendre i Ícar va moure els braços sense poder sostenir-se. Va caure al mar i va morir. Dèdal el cridava mentre el buscava des de l’aire. En veure les plomes sobre l’aigua, va baixar a buscar-lo. Va trobar el cos a la costa d’una illa i hi va enterrar el seu fill.\"},{\"kind\":\"direction\",\"text\":\"Conservar un to contingut al desenllaç. Sense crit, impacte, aleteig o caiguda sonora. Base baixa sostinguda i fosa final; cap sentència sobre desobediència afegida.\"}],\"question\":{\"id\":\"baix\",\"prompt\":\"Quin problema tindria Ícar si volés massa baix?\",\"answer\":\"L’aigua podria mullar les plomes i fer-les pesants.\",\"lines\":1,\"evidence\":[{\"part\":\"avis\",\"quote\":\"l’aigua del mar podia mullar-li les plomes i fer-les pesants\"}]},\"alternative\":{\"prompt\":\"Quin problema tindria Ícar si volés massa baix?\",\"options\":[{\"id\":\"a\",\"text\":\"El vent podria emportar-se les plomes que duu als braços.\"},{\"id\":\"b\",\"text\":\"L’aigua podria mullar les plomes i fer-les pesants.\"},{\"id\":\"c\",\"text\":\"L’escalfor podria fondre la cera de les ales.\"},{\"id\":\"d\",\"text\":\"Podria deixar de veure el camí que segueix el pare.\"}],\"correct\":\"b\",\"explanation\":\"El risc de volar baix està relacionat amb l’aigua del mar.\",\"evidence\":[{\"part\":\"avis\",\"quote\":\"l’aigua del mar podia mullar-li les plomes i fer-les pesants\"}]},\"openOnly\":null}"
+          },
+          {
+            "activity": "ca-S140",
+            "questionId": "separa",
+            "status": "passed",
+            "author": "/root/autoria_mites_139_142",
+            "reviewer": "/root/autoria_faules_131_134",
+            "reviewedAt": "2026-11-26",
+            "teacherValidation": "pending",
+            "fingerprint": "dcccf17860415b1d4293137ee8ecbd76f501dc36a5bd10407aa370bc29b492ca",
+            "questionChoiceSnapshot": "{\"schema\":1,\"activity\":\"ca-S140\",\"questionId\":\"separa\",\"grade\":\"5\",\"level\":\"middle\",\"introduction\":\"Comprensió oral. Dèdal i Ícar. Un mite grec.\",\"transcript\":[{\"kind\":\"direction\",\"text\":\"Adaptació original d’Ovidi VIII, 183–235. S’ometen la llista d’illes sobrevolades, els testimonis del vol i l’episodi posterior de Perdix. Es mantenen el bloqueig de Minos, fil i cera, els dos límits de vol, l’entusiasme d’Ícar i la mort al mar. La causalitat de l’escalfor és interna al mite, anunciat com a tal; cap presentació científica del vol humà.\"},{\"id\":\"illa\",\"speaker\":\"Narrador\",\"text\":\"Un mite grec explica que Dèdal era un inventor que vivia a Creta amb el seu fill Ícar. Feia temps que volia tornar a casa, però el rei Minos els impedia marxar de l’illa. Els camins i el mar eren sota el poder del rei. Dèdal va mirar el cel i va començar a preparar una altra manera de fugir.\"},{\"id\":\"ales\",\"speaker\":\"Narrador\",\"text\":\"Va reunir plomes de mides diferents i les va ordenar com les d’un ocell. Amb fil i cera, les va unir fins a formar dues ales grans. Després en va fer dues més per a Ícar. Mentre el pare treballava, el noi jugava amb les plomes que el vent aixecava i estovava trossets de cera entre els dits.\"},{\"id\":\"avis\",\"speaker\":\"Narrador\",\"text\":\"Quan tot va estar a punt, Dèdal es va posar les ales i va provar de moure’s per l’aire. A continuació va ajustar les del seu fill. Li va dir que el seguís i mantingués una altura mitjana. Si volava massa baix, l’aigua del mar podia mullar-li les plomes i fer-les pesants. Si pujava massa, l’escalfor del sol podia fondre la cera que les subjectava.\"},{\"id\":\"vol\",\"speaker\":\"Narrador\",\"text\":\"Pare i fill van deixar Creta enrere. Dèdal anava al davant i girava el cap per comprovar que Ícar el seguia. Al principi, el noi es mantenia darrere seu. Però el vol li agradava cada vegada més. Va començar a pujar, entusiasmat amb l’aire que tenia al voltant, fins que es va separar del camí que marcava el pare.\"},{\"id\":\"caiguda\",\"speaker\":\"Narrador\",\"text\":\"L’escalfor va estovar la cera de les seves ales. Les plomes es van desprendre i Ícar va moure els braços sense poder sostenir-se. Va caure al mar i va morir. Dèdal el cridava mentre el buscava des de l’aire. En veure les plomes sobre l’aigua, va baixar a buscar-lo. Va trobar el cos a la costa d’una illa i hi va enterrar el seu fill.\"},{\"kind\":\"direction\",\"text\":\"Conservar un to contingut al desenllaç. Sense crit, impacte, aleteig o caiguda sonora. Base baixa sostinguda i fosa final; cap sentència sobre desobediència afegida.\"}],\"question\":{\"id\":\"separa\",\"prompt\":\"Per què Ícar acaba separant-se del camí del pare?\",\"answer\":\"Perquè s’entusiasma amb el vol i comença a pujar.\",\"lines\":2,\"evidence\":[{\"part\":\"vol\",\"quote\":\"el vol li agradava cada vegada més\"},{\"part\":\"vol\",\"quote\":\"Va començar a pujar, entusiasmat\"}]},\"alternative\":{\"prompt\":\"Per què Ícar acaba separant-se del camí del pare?\",\"options\":[{\"id\":\"a\",\"text\":\"Perquè el pare li ordena que voli més amunt.\"},{\"id\":\"b\",\"text\":\"Perquè vol tornar a buscar les plomes al taller.\"},{\"id\":\"c\",\"text\":\"Perquè les ales ja s’han mullat abans de sortir.\"},{\"id\":\"d\",\"text\":\"Perquè s’entusiasma amb el vol i comença a pujar.\"}],\"correct\":\"d\",\"explanation\":\"El canvi arriba després que el noi gaudeixi cada vegada més del vol.\",\"evidence\":[{\"part\":\"vol\",\"quote\":\"el vol li agradava cada vegada més\"},{\"part\":\"vol\",\"quote\":\"Va començar a pujar, entusiasmat\"}]},\"openOnly\":null}"
+          },
+          {
+            "activity": "ca-S140",
+            "questionId": "causa",
+            "status": "passed",
+            "author": "/root/autoria_mites_139_142",
+            "reviewer": "/root/autoria_faules_131_134",
+            "reviewedAt": "2026-11-26",
+            "teacherValidation": "pending",
+            "fingerprint": "4a71dfa737d7df37242fda8bad6c34820eeb7a7da47ae25e6dadd5636fc46a0a",
+            "questionChoiceSnapshot": "{\"schema\":1,\"activity\":\"ca-S140\",\"questionId\":\"causa\",\"grade\":\"5\",\"level\":\"middle\",\"introduction\":\"Comprensió oral. Dèdal i Ícar. Un mite grec.\",\"transcript\":[{\"kind\":\"direction\",\"text\":\"Adaptació original d’Ovidi VIII, 183–235. S’ometen la llista d’illes sobrevolades, els testimonis del vol i l’episodi posterior de Perdix. Es mantenen el bloqueig de Minos, fil i cera, els dos límits de vol, l’entusiasme d’Ícar i la mort al mar. La causalitat de l’escalfor és interna al mite, anunciat com a tal; cap presentació científica del vol humà.\"},{\"id\":\"illa\",\"speaker\":\"Narrador\",\"text\":\"Un mite grec explica que Dèdal era un inventor que vivia a Creta amb el seu fill Ícar. Feia temps que volia tornar a casa, però el rei Minos els impedia marxar de l’illa. Els camins i el mar eren sota el poder del rei. Dèdal va mirar el cel i va començar a preparar una altra manera de fugir.\"},{\"id\":\"ales\",\"speaker\":\"Narrador\",\"text\":\"Va reunir plomes de mides diferents i les va ordenar com les d’un ocell. Amb fil i cera, les va unir fins a formar dues ales grans. Després en va fer dues més per a Ícar. Mentre el pare treballava, el noi jugava amb les plomes que el vent aixecava i estovava trossets de cera entre els dits.\"},{\"id\":\"avis\",\"speaker\":\"Narrador\",\"text\":\"Quan tot va estar a punt, Dèdal es va posar les ales i va provar de moure’s per l’aire. A continuació va ajustar les del seu fill. Li va dir que el seguís i mantingués una altura mitjana. Si volava massa baix, l’aigua del mar podia mullar-li les plomes i fer-les pesants. Si pujava massa, l’escalfor del sol podia fondre la cera que les subjectava.\"},{\"id\":\"vol\",\"speaker\":\"Narrador\",\"text\":\"Pare i fill van deixar Creta enrere. Dèdal anava al davant i girava el cap per comprovar que Ícar el seguia. Al principi, el noi es mantenia darrere seu. Però el vol li agradava cada vegada més. Va començar a pujar, entusiasmat amb l’aire que tenia al voltant, fins que es va separar del camí que marcava el pare.\"},{\"id\":\"caiguda\",\"speaker\":\"Narrador\",\"text\":\"L’escalfor va estovar la cera de les seves ales. Les plomes es van desprendre i Ícar va moure els braços sense poder sostenir-se. Va caure al mar i va morir. Dèdal el cridava mentre el buscava des de l’aire. En veure les plomes sobre l’aigua, va baixar a buscar-lo. Va trobar el cos a la costa d’una illa i hi va enterrar el seu fill.\"},{\"kind\":\"direction\",\"text\":\"Conservar un to contingut al desenllaç. Sense crit, impacte, aleteig o caiguda sonora. Base baixa sostinguda i fosa final; cap sentència sobre desobediència afegida.\"}],\"question\":{\"id\":\"causa\",\"prompt\":\"Què fa que les ales d’Ícar deixin de sostenir-lo?\",\"answer\":\"La cera s’estova amb l’escalfor i les plomes es desprenen.\",\"lines\":2,\"evidence\":[{\"part\":\"caiguda\",\"quote\":\"L’escalfor va estovar la cera de les seves ales. Les plomes es van desprendre\"}]},\"alternative\":{\"prompt\":\"Què fa que les ales d’Ícar deixin de sostenir-lo?\",\"options\":[{\"id\":\"a\",\"text\":\"Ícar deixa de moure els braços perquè està cansat.\"},{\"id\":\"b\",\"text\":\"L’aigua mulla les plomes i les fa massa pesants.\"},{\"id\":\"c\",\"text\":\"La cera s’estova amb l’escalfor i les plomes es desprenen.\"},{\"id\":\"d\",\"text\":\"Un cop de vent arrenca les plomes de les ales.\"}],\"correct\":\"c\",\"explanation\":\"La pèrdua de les plomes segueix l’avís sobre l’escalfor.\",\"evidence\":[{\"part\":\"caiguda\",\"quote\":\"L’escalfor va estovar la cera de les seves ales. Les plomes es van desprendre\"}]},\"openOnly\":null}"
+          },
+          {
+            "activity": "ca-S140",
+            "questionId": "pista",
+            "status": "passed",
+            "author": "/root/autoria_mites_139_142",
+            "reviewer": "/root/autoria_faules_131_134",
+            "reviewedAt": "2026-11-26",
+            "teacherValidation": "pending",
+            "fingerprint": "d878a376e365a40c01488cc35be482cb065357fb07528b450b89e12412b5b7d4",
+            "questionChoiceSnapshot": "{\"schema\":1,\"activity\":\"ca-S140\",\"questionId\":\"pista\",\"grade\":\"5\",\"level\":\"middle\",\"introduction\":\"Comprensió oral. Dèdal i Ícar. Un mite grec.\",\"transcript\":[{\"kind\":\"direction\",\"text\":\"Adaptació original d’Ovidi VIII, 183–235. S’ometen la llista d’illes sobrevolades, els testimonis del vol i l’episodi posterior de Perdix. Es mantenen el bloqueig de Minos, fil i cera, els dos límits de vol, l’entusiasme d’Ícar i la mort al mar. La causalitat de l’escalfor és interna al mite, anunciat com a tal; cap presentació científica del vol humà.\"},{\"id\":\"illa\",\"speaker\":\"Narrador\",\"text\":\"Un mite grec explica que Dèdal era un inventor que vivia a Creta amb el seu fill Ícar. Feia temps que volia tornar a casa, però el rei Minos els impedia marxar de l’illa. Els camins i el mar eren sota el poder del rei. Dèdal va mirar el cel i va començar a preparar una altra manera de fugir.\"},{\"id\":\"ales\",\"speaker\":\"Narrador\",\"text\":\"Va reunir plomes de mides diferents i les va ordenar com les d’un ocell. Amb fil i cera, les va unir fins a formar dues ales grans. Després en va fer dues més per a Ícar. Mentre el pare treballava, el noi jugava amb les plomes que el vent aixecava i estovava trossets de cera entre els dits.\"},{\"id\":\"avis\",\"speaker\":\"Narrador\",\"text\":\"Quan tot va estar a punt, Dèdal es va posar les ales i va provar de moure’s per l’aire. A continuació va ajustar les del seu fill. Li va dir que el seguís i mantingués una altura mitjana. Si volava massa baix, l’aigua del mar podia mullar-li les plomes i fer-les pesants. Si pujava massa, l’escalfor del sol podia fondre la cera que les subjectava.\"},{\"id\":\"vol\",\"speaker\":\"Narrador\",\"text\":\"Pare i fill van deixar Creta enrere. Dèdal anava al davant i girava el cap per comprovar que Ícar el seguia. Al principi, el noi es mantenia darrere seu. Però el vol li agradava cada vegada més. Va començar a pujar, entusiasmat amb l’aire que tenia al voltant, fins que es va separar del camí que marcava el pare.\"},{\"id\":\"caiguda\",\"speaker\":\"Narrador\",\"text\":\"L’escalfor va estovar la cera de les seves ales. Les plomes es van desprendre i Ícar va moure els braços sense poder sostenir-se. Va caure al mar i va morir. Dèdal el cridava mentre el buscava des de l’aire. En veure les plomes sobre l’aigua, va baixar a buscar-lo. Va trobar el cos a la costa d’una illa i hi va enterrar el seu fill.\"},{\"kind\":\"direction\",\"text\":\"Conservar un to contingut al desenllaç. Sense crit, impacte, aleteig o caiguda sonora. Base baixa sostinguda i fosa final; cap sentència sobre desobediència afegida.\"}],\"question\":{\"id\":\"pista\",\"prompt\":\"Què veu Dèdal sobre l’aigua que el fa baixar a buscar Ícar?\",\"answer\":\"Les plomes de les ales.\",\"lines\":1,\"evidence\":[{\"part\":\"caiguda\",\"quote\":\"En veure les plomes sobre l’aigua, va baixar a buscar-lo\"}]},\"alternative\":{\"prompt\":\"Què veu Dèdal sobre l’aigua que el fa baixar a buscar Ícar?\",\"options\":[{\"id\":\"a\",\"text\":\"Una branca que Ícar havia deixat caure.\"},{\"id\":\"b\",\"text\":\"El fil que sortia de la costa.\"},{\"id\":\"c\",\"text\":\"Les eines amb què havia fet les ales.\"},{\"id\":\"d\",\"text\":\"Les plomes de les ales.\"}],\"correct\":\"d\",\"explanation\":\"Les plomes flotants són la pista que troba mentre el busca.\",\"evidence\":[{\"part\":\"caiguda\",\"quote\":\"En veure les plomes sobre l’aigua, va baixar a buscar-lo\"}]},\"openOnly\":null}"
+          },
+          {
+            "activity": "ca-S141",
+            "questionId": "separacio",
+            "status": "passed",
+            "author": "/root/autoria_mites_139_142",
+            "reviewer": "/root/autoria_faules_131_134",
+            "reviewedAt": "2026-11-26",
+            "teacherValidation": "pending",
+            "fingerprint": "86e7ee6fd0a54f9e9b601575175e9cc08d79fe4242d50bc2e54170e79bb099d9",
+            "questionChoiceSnapshot": "{\"schema\":1,\"activity\":\"ca-S141\",\"questionId\":\"separacio\",\"grade\":\"6\",\"level\":\"advanced\",\"introduction\":\"Comprensió oral. Demèter i Persèfone. Un mite grec.\",\"transcript\":[{\"kind\":\"direction\",\"text\":\"Adaptació original de l’Himne homèric a Demèter. Es conserva que Hades s’endú Persèfone contra la seva voluntat amb el consentiment de Zeus. Hèlios s’anomena el Sol; s’ometen Hècate, Eleusis, Demofont i els ritus. La magrana es dona amb engany: no es presenta una elecció lliure de quedar-se. La font assigna un terç de l’any sota terra i dos terços amb la mare; l’adaptació diu períodes sense quantificar i no hi barreja la variant de sis mesos. El tancament és mític i no una explicació científica de les estacions.\"},{\"id\":\"prat\",\"speaker\":\"Narrador\",\"text\":\"Un mite grec explica que Demèter, la deessa que feia créixer el blat, tenia una filla anomenada Persèfone. Un dia, mentre la noia collia flors en un prat, la terra es va obrir. En va sortir Hades, el déu que regnava al món dels morts. La va fer pujar al seu carro i se la va endur sota terra, contra la seva voluntat.\"},{\"id\":\"recerca\",\"speaker\":\"Narrador\",\"text\":\"Demèter va sentir el crit de la seva filla i va córrer a buscar-la. Va recórrer la terra durant dies amb torxes a les mans. Finalment va preguntar al Sol, que havia vist què havia passat des del cel. Ell li va explicar que Hades s’havia endut Persèfone i que Zeus, el déu que governava els altres déus, hi havia donat el consentiment.\"},{\"id\":\"collita\",\"speaker\":\"Narrador\",\"text\":\"Enfurismada, Demèter es va apartar dels déus i va impedir que el blat creixés. Els pagesos sembraven, però les llavors quedaven amagades a terra. Les collites van faltar i la gent va començar a passar gana. Zeus li va enviar missatges perquè tornés a fer créixer els camps. Demèter va respondre que abans volia recuperar la seva filla.\"},{\"id\":\"missatger\",\"speaker\":\"Narrador\",\"text\":\"Llavors Zeus va enviar Hermes, el seu missatger, al món dels morts. Havia de portar Persèfone de tornada. Quan va rebre la notícia, la noia es va alegrar. Abans que marxés, però, Hades li va fer menjar un gra de magrana amb engany: volia que aquell aliment la lligués al seu regne i l’obligués a tornar-hi.\"},{\"id\":\"retorn\",\"speaker\":\"Narrador\",\"text\":\"Hermes va acompanyar Persèfone fins a la seva mare. Totes dues es van abraçar, i la noia li va explicar què havia menjat. Finalment es va acordar que passaria una part de cada any sota terra i la resta amb Demèter. La mare va tornar a fer créixer el blat i els camps es van omplir de vida.\"},{\"kind\":\"direction\",\"text\":\"Una sola veu narradora, sense veu de monstre per a Hades. No afegir mesos ni una correspondència científica amb les estacions. Cap crit o carro que tapi l’inici; base discreta i sortida breu.\"}],\"question\":{\"id\":\"separacio\",\"prompt\":\"Què li passa a Persèfone mentre cull flors?\",\"answer\":\"Hades se l’endú al món dels morts contra la seva voluntat.\",\"lines\":1,\"evidence\":[{\"part\":\"prat\",\"quote\":\"se la va endur sota terra, contra la seva voluntat\"}]},\"alternative\":{\"prompt\":\"Què li passa a Persèfone mentre cull flors?\",\"options\":[{\"id\":\"a\",\"text\":\"Zeus li encarrega que porti blat al món dels morts.\"},{\"id\":\"b\",\"text\":\"Hades se l’endú sota terra contra la seva voluntat.\"},{\"id\":\"c\",\"text\":\"Demèter li demana que s’amagui dins d’una cova.\"},{\"id\":\"d\",\"text\":\"Hermes l’acompanya a visitar els pagesos.\"}],\"correct\":\"b\",\"explanation\":\"L’inici estableix una separació imposada.\",\"evidence\":[{\"part\":\"prat\",\"quote\":\"se la va endur sota terra, contra la seva voluntat\"}]},\"openOnly\":null}"
+          },
+          {
+            "activity": "ca-S141",
+            "questionId": "testimoni",
+            "status": "passed",
+            "author": "/root/autoria_mites_139_142",
+            "reviewer": "/root/autoria_faules_131_134",
+            "reviewedAt": "2026-11-26",
+            "teacherValidation": "pending",
+            "fingerprint": "fb3feb68ab1395ace8bf899071c0f91588d88a9811bb14aa5ef8515cffb24af7",
+            "questionChoiceSnapshot": "{\"schema\":1,\"activity\":\"ca-S141\",\"questionId\":\"testimoni\",\"grade\":\"6\",\"level\":\"advanced\",\"introduction\":\"Comprensió oral. Demèter i Persèfone. Un mite grec.\",\"transcript\":[{\"kind\":\"direction\",\"text\":\"Adaptació original de l’Himne homèric a Demèter. Es conserva que Hades s’endú Persèfone contra la seva voluntat amb el consentiment de Zeus. Hèlios s’anomena el Sol; s’ometen Hècate, Eleusis, Demofont i els ritus. La magrana es dona amb engany: no es presenta una elecció lliure de quedar-se. La font assigna un terç de l’any sota terra i dos terços amb la mare; l’adaptació diu períodes sense quantificar i no hi barreja la variant de sis mesos. El tancament és mític i no una explicació científica de les estacions.\"},{\"id\":\"prat\",\"speaker\":\"Narrador\",\"text\":\"Un mite grec explica que Demèter, la deessa que feia créixer el blat, tenia una filla anomenada Persèfone. Un dia, mentre la noia collia flors en un prat, la terra es va obrir. En va sortir Hades, el déu que regnava al món dels morts. La va fer pujar al seu carro i se la va endur sota terra, contra la seva voluntat.\"},{\"id\":\"recerca\",\"speaker\":\"Narrador\",\"text\":\"Demèter va sentir el crit de la seva filla i va córrer a buscar-la. Va recórrer la terra durant dies amb torxes a les mans. Finalment va preguntar al Sol, que havia vist què havia passat des del cel. Ell li va explicar que Hades s’havia endut Persèfone i que Zeus, el déu que governava els altres déus, hi havia donat el consentiment.\"},{\"id\":\"collita\",\"speaker\":\"Narrador\",\"text\":\"Enfurismada, Demèter es va apartar dels déus i va impedir que el blat creixés. Els pagesos sembraven, però les llavors quedaven amagades a terra. Les collites van faltar i la gent va començar a passar gana. Zeus li va enviar missatges perquè tornés a fer créixer els camps. Demèter va respondre que abans volia recuperar la seva filla.\"},{\"id\":\"missatger\",\"speaker\":\"Narrador\",\"text\":\"Llavors Zeus va enviar Hermes, el seu missatger, al món dels morts. Havia de portar Persèfone de tornada. Quan va rebre la notícia, la noia es va alegrar. Abans que marxés, però, Hades li va fer menjar un gra de magrana amb engany: volia que aquell aliment la lligués al seu regne i l’obligués a tornar-hi.\"},{\"id\":\"retorn\",\"speaker\":\"Narrador\",\"text\":\"Hermes va acompanyar Persèfone fins a la seva mare. Totes dues es van abraçar, i la noia li va explicar què havia menjat. Finalment es va acordar que passaria una part de cada any sota terra i la resta amb Demèter. La mare va tornar a fer créixer el blat i els camps es van omplir de vida.\"},{\"kind\":\"direction\",\"text\":\"Una sola veu narradora, sense veu de monstre per a Hades. No afegir mesos ni una correspondència científica amb les estacions. Cap crit o carro que tapi l’inici; base discreta i sortida breu.\"}],\"question\":{\"id\":\"testimoni\",\"prompt\":\"Per què el Sol pot explicar a Demèter què ha passat?\",\"answer\":\"Perquè ho ha vist des del cel.\",\"lines\":1,\"evidence\":[{\"part\":\"recerca\",\"quote\":\"al Sol, que havia vist què havia passat des del cel\"}]},\"alternative\":{\"prompt\":\"Per què el Sol pot explicar a Demèter què ha passat?\",\"options\":[{\"id\":\"a\",\"text\":\"Perquè ho ha vist des del cel.\"},{\"id\":\"b\",\"text\":\"Perquè ha viatjat al carro amb Persèfone.\"},{\"id\":\"c\",\"text\":\"Perquè Hermes ja li ha explicat el retorn.\"},{\"id\":\"d\",\"text\":\"Perquè ha rebut un missatge dels pagesos.\"}],\"correct\":\"a\",\"explanation\":\"La informació del Sol prové del que ha presenciat.\",\"evidence\":[{\"part\":\"recerca\",\"quote\":\"al Sol, que havia vist què havia passat des del cel\"}]},\"openOnly\":null}"
+          },
+          {
+            "activity": "ca-S141",
+            "questionId": "gana",
+            "status": "passed",
+            "author": "/root/autoria_mites_139_142",
+            "reviewer": "/root/autoria_faules_131_134",
+            "reviewedAt": "2026-11-26",
+            "teacherValidation": "pending",
+            "fingerprint": "c3fd73951d45492a58d32241d644617d563726111051899e56c96fb4290a7853",
+            "questionChoiceSnapshot": "{\"schema\":1,\"activity\":\"ca-S141\",\"questionId\":\"gana\",\"grade\":\"6\",\"level\":\"advanced\",\"introduction\":\"Comprensió oral. Demèter i Persèfone. Un mite grec.\",\"transcript\":[{\"kind\":\"direction\",\"text\":\"Adaptació original de l’Himne homèric a Demèter. Es conserva que Hades s’endú Persèfone contra la seva voluntat amb el consentiment de Zeus. Hèlios s’anomena el Sol; s’ometen Hècate, Eleusis, Demofont i els ritus. La magrana es dona amb engany: no es presenta una elecció lliure de quedar-se. La font assigna un terç de l’any sota terra i dos terços amb la mare; l’adaptació diu períodes sense quantificar i no hi barreja la variant de sis mesos. El tancament és mític i no una explicació científica de les estacions.\"},{\"id\":\"prat\",\"speaker\":\"Narrador\",\"text\":\"Un mite grec explica que Demèter, la deessa que feia créixer el blat, tenia una filla anomenada Persèfone. Un dia, mentre la noia collia flors en un prat, la terra es va obrir. En va sortir Hades, el déu que regnava al món dels morts. La va fer pujar al seu carro i se la va endur sota terra, contra la seva voluntat.\"},{\"id\":\"recerca\",\"speaker\":\"Narrador\",\"text\":\"Demèter va sentir el crit de la seva filla i va córrer a buscar-la. Va recórrer la terra durant dies amb torxes a les mans. Finalment va preguntar al Sol, que havia vist què havia passat des del cel. Ell li va explicar que Hades s’havia endut Persèfone i que Zeus, el déu que governava els altres déus, hi havia donat el consentiment.\"},{\"id\":\"collita\",\"speaker\":\"Narrador\",\"text\":\"Enfurismada, Demèter es va apartar dels déus i va impedir que el blat creixés. Els pagesos sembraven, però les llavors quedaven amagades a terra. Les collites van faltar i la gent va començar a passar gana. Zeus li va enviar missatges perquè tornés a fer créixer els camps. Demèter va respondre que abans volia recuperar la seva filla.\"},{\"id\":\"missatger\",\"speaker\":\"Narrador\",\"text\":\"Llavors Zeus va enviar Hermes, el seu missatger, al món dels morts. Havia de portar Persèfone de tornada. Quan va rebre la notícia, la noia es va alegrar. Abans que marxés, però, Hades li va fer menjar un gra de magrana amb engany: volia que aquell aliment la lligués al seu regne i l’obligués a tornar-hi.\"},{\"id\":\"retorn\",\"speaker\":\"Narrador\",\"text\":\"Hermes va acompanyar Persèfone fins a la seva mare. Totes dues es van abraçar, i la noia li va explicar què havia menjat. Finalment es va acordar que passaria una part de cada any sota terra i la resta amb Demèter. La mare va tornar a fer créixer el blat i els camps es van omplir de vida.\"},{\"kind\":\"direction\",\"text\":\"Una sola veu narradora, sense veu de monstre per a Hades. No afegir mesos ni una correspondència científica amb les estacions. Cap crit o carro que tapi l’inici; base discreta i sortida breu.\"}],\"question\":{\"id\":\"gana\",\"prompt\":\"Què fa que la gent comenci a passar gana?\",\"answer\":\"Demèter impedeix que el blat creixi i falten les collites.\",\"lines\":2,\"evidence\":[{\"part\":\"collita\",\"quote\":\"va impedir que el blat creixés\"},{\"part\":\"collita\",\"quote\":\"Les collites van faltar i la gent va començar a passar gana\"}]},\"alternative\":{\"prompt\":\"Què fa que la gent comenci a passar gana?\",\"options\":[{\"id\":\"a\",\"text\":\"Hades s’emporta els sacs de blat al seu regne.\"},{\"id\":\"b\",\"text\":\"Zeus envia totes les llavors al palau dels déus.\"},{\"id\":\"c\",\"text\":\"Els pagesos deixen de sembrar per buscar Persèfone.\"},{\"id\":\"d\",\"text\":\"Demèter impedeix que creixi el blat i falten les collites.\"}],\"correct\":\"d\",\"explanation\":\"La manca de menjar és conseqüència de l’acció de Demèter sobre els camps.\",\"evidence\":[{\"part\":\"collita\",\"quote\":\"va impedir que el blat creixés\"},{\"part\":\"collita\",\"quote\":\"Les collites van faltar i la gent va començar a passar gana\"}]},\"openOnly\":null}"
+          },
+          {
+            "activity": "ca-S141",
+            "questionId": "condicio",
+            "status": "passed",
+            "author": "/root/autoria_mites_139_142",
+            "reviewer": "/root/autoria_faules_131_134",
+            "reviewedAt": "2026-11-26",
+            "teacherValidation": "pending",
+            "fingerprint": "195128d405ba9c3866657d56419b795709de3fdd097024a3fbf0e09365f96025",
+            "questionChoiceSnapshot": "{\"schema\":1,\"activity\":\"ca-S141\",\"questionId\":\"condicio\",\"grade\":\"6\",\"level\":\"advanced\",\"introduction\":\"Comprensió oral. Demèter i Persèfone. Un mite grec.\",\"transcript\":[{\"kind\":\"direction\",\"text\":\"Adaptació original de l’Himne homèric a Demèter. Es conserva que Hades s’endú Persèfone contra la seva voluntat amb el consentiment de Zeus. Hèlios s’anomena el Sol; s’ometen Hècate, Eleusis, Demofont i els ritus. La magrana es dona amb engany: no es presenta una elecció lliure de quedar-se. La font assigna un terç de l’any sota terra i dos terços amb la mare; l’adaptació diu períodes sense quantificar i no hi barreja la variant de sis mesos. El tancament és mític i no una explicació científica de les estacions.\"},{\"id\":\"prat\",\"speaker\":\"Narrador\",\"text\":\"Un mite grec explica que Demèter, la deessa que feia créixer el blat, tenia una filla anomenada Persèfone. Un dia, mentre la noia collia flors en un prat, la terra es va obrir. En va sortir Hades, el déu que regnava al món dels morts. La va fer pujar al seu carro i se la va endur sota terra, contra la seva voluntat.\"},{\"id\":\"recerca\",\"speaker\":\"Narrador\",\"text\":\"Demèter va sentir el crit de la seva filla i va córrer a buscar-la. Va recórrer la terra durant dies amb torxes a les mans. Finalment va preguntar al Sol, que havia vist què havia passat des del cel. Ell li va explicar que Hades s’havia endut Persèfone i que Zeus, el déu que governava els altres déus, hi havia donat el consentiment.\"},{\"id\":\"collita\",\"speaker\":\"Narrador\",\"text\":\"Enfurismada, Demèter es va apartar dels déus i va impedir que el blat creixés. Els pagesos sembraven, però les llavors quedaven amagades a terra. Les collites van faltar i la gent va començar a passar gana. Zeus li va enviar missatges perquè tornés a fer créixer els camps. Demèter va respondre que abans volia recuperar la seva filla.\"},{\"id\":\"missatger\",\"speaker\":\"Narrador\",\"text\":\"Llavors Zeus va enviar Hermes, el seu missatger, al món dels morts. Havia de portar Persèfone de tornada. Quan va rebre la notícia, la noia es va alegrar. Abans que marxés, però, Hades li va fer menjar un gra de magrana amb engany: volia que aquell aliment la lligués al seu regne i l’obligués a tornar-hi.\"},{\"id\":\"retorn\",\"speaker\":\"Narrador\",\"text\":\"Hermes va acompanyar Persèfone fins a la seva mare. Totes dues es van abraçar, i la noia li va explicar què havia menjat. Finalment es va acordar que passaria una part de cada any sota terra i la resta amb Demèter. La mare va tornar a fer créixer el blat i els camps es van omplir de vida.\"},{\"kind\":\"direction\",\"text\":\"Una sola veu narradora, sense veu de monstre per a Hades. No afegir mesos ni una correspondència científica amb les estacions. Cap crit o carro que tapi l’inici; base discreta i sortida breu.\"}],\"question\":{\"id\":\"condicio\",\"prompt\":\"Què vol Demèter abans de tornar a fer créixer els camps?\",\"answer\":\"Recuperar la seva filla.\",\"lines\":1,\"evidence\":[{\"part\":\"collita\",\"quote\":\"abans volia recuperar la seva filla\"}]},\"alternative\":{\"prompt\":\"Què vol Demèter abans de tornar a fer créixer els camps?\",\"options\":[{\"id\":\"a\",\"text\":\"Que els pagesos canviïn de llavors.\"},{\"id\":\"b\",\"text\":\"Recuperar la seva filla.\"},{\"id\":\"c\",\"text\":\"Que el Sol li doni les seves torxes.\"},{\"id\":\"d\",\"text\":\"Que Hermes es quedi al món dels morts.\"}],\"correct\":\"b\",\"explanation\":\"La resposta de Demèter posa el retorn de Persèfone abans de la collita.\",\"evidence\":[{\"part\":\"collita\",\"quote\":\"abans volia recuperar la seva filla\"}]},\"openOnly\":null}"
+          },
+          {
+            "activity": "ca-S141",
+            "questionId": "encarrec",
+            "status": "passed",
+            "author": "/root/autoria_mites_139_142",
+            "reviewer": "/root/autoria_faules_131_134",
+            "reviewedAt": "2026-11-26",
+            "teacherValidation": "pending",
+            "fingerprint": "bb2a8e0bb90a57ce8cf73e1fa61e96118313c81643fe253a230d6343f91b5581",
+            "questionChoiceSnapshot": "{\"schema\":1,\"activity\":\"ca-S141\",\"questionId\":\"encarrec\",\"grade\":\"6\",\"level\":\"advanced\",\"introduction\":\"Comprensió oral. Demèter i Persèfone. Un mite grec.\",\"transcript\":[{\"kind\":\"direction\",\"text\":\"Adaptació original de l’Himne homèric a Demèter. Es conserva que Hades s’endú Persèfone contra la seva voluntat amb el consentiment de Zeus. Hèlios s’anomena el Sol; s’ometen Hècate, Eleusis, Demofont i els ritus. La magrana es dona amb engany: no es presenta una elecció lliure de quedar-se. La font assigna un terç de l’any sota terra i dos terços amb la mare; l’adaptació diu períodes sense quantificar i no hi barreja la variant de sis mesos. El tancament és mític i no una explicació científica de les estacions.\"},{\"id\":\"prat\",\"speaker\":\"Narrador\",\"text\":\"Un mite grec explica que Demèter, la deessa que feia créixer el blat, tenia una filla anomenada Persèfone. Un dia, mentre la noia collia flors en un prat, la terra es va obrir. En va sortir Hades, el déu que regnava al món dels morts. La va fer pujar al seu carro i se la va endur sota terra, contra la seva voluntat.\"},{\"id\":\"recerca\",\"speaker\":\"Narrador\",\"text\":\"Demèter va sentir el crit de la seva filla i va córrer a buscar-la. Va recórrer la terra durant dies amb torxes a les mans. Finalment va preguntar al Sol, que havia vist què havia passat des del cel. Ell li va explicar que Hades s’havia endut Persèfone i que Zeus, el déu que governava els altres déus, hi havia donat el consentiment.\"},{\"id\":\"collita\",\"speaker\":\"Narrador\",\"text\":\"Enfurismada, Demèter es va apartar dels déus i va impedir que el blat creixés. Els pagesos sembraven, però les llavors quedaven amagades a terra. Les collites van faltar i la gent va començar a passar gana. Zeus li va enviar missatges perquè tornés a fer créixer els camps. Demèter va respondre que abans volia recuperar la seva filla.\"},{\"id\":\"missatger\",\"speaker\":\"Narrador\",\"text\":\"Llavors Zeus va enviar Hermes, el seu missatger, al món dels morts. Havia de portar Persèfone de tornada. Quan va rebre la notícia, la noia es va alegrar. Abans que marxés, però, Hades li va fer menjar un gra de magrana amb engany: volia que aquell aliment la lligués al seu regne i l’obligués a tornar-hi.\"},{\"id\":\"retorn\",\"speaker\":\"Narrador\",\"text\":\"Hermes va acompanyar Persèfone fins a la seva mare. Totes dues es van abraçar, i la noia li va explicar què havia menjat. Finalment es va acordar que passaria una part de cada any sota terra i la resta amb Demèter. La mare va tornar a fer créixer el blat i els camps es van omplir de vida.\"},{\"kind\":\"direction\",\"text\":\"Una sola veu narradora, sense veu de monstre per a Hades. No afegir mesos ni una correspondència científica amb les estacions. Cap crit o carro que tapi l’inici; base discreta i sortida breu.\"}],\"question\":{\"id\":\"encarrec\",\"prompt\":\"Quin encàrrec rep Hermes de Zeus?\",\"answer\":\"Portar Persèfone de tornada del món dels morts.\",\"lines\":1,\"evidence\":[{\"part\":\"missatger\",\"quote\":\"Zeus va enviar Hermes, el seu missatger, al món dels morts. Havia de portar Persèfone de tornada\"}]},\"alternative\":{\"prompt\":\"Quin encàrrec rep Hermes de Zeus?\",\"options\":[{\"id\":\"a\",\"text\":\"Donar grans de magrana a Demèter.\"},{\"id\":\"b\",\"text\":\"Ensenyar als pagesos a sembrar el blat.\"},{\"id\":\"c\",\"text\":\"Buscar el carro d’Hades al prat de les flors.\"},{\"id\":\"d\",\"text\":\"Portar Persèfone de tornada del món dels morts.\"}],\"correct\":\"d\",\"explanation\":\"Hermes actua com a missatger i acompanya després la noia.\",\"evidence\":[{\"part\":\"missatger\",\"quote\":\"Zeus va enviar Hermes, el seu missatger, al món dels morts. Havia de portar Persèfone de tornada\"}]},\"openOnly\":null}"
+          },
+          {
+            "activity": "ca-S141",
+            "questionId": "magrana",
+            "status": "passed",
+            "author": "/root/autoria_mites_139_142",
+            "reviewer": "/root/autoria_faules_131_134",
+            "reviewedAt": "2026-11-26",
+            "teacherValidation": "pending",
+            "fingerprint": "1c9e5222daa24789d494150766ed8c8833efd9e6d05c3212cfc3d404bd06906c",
+            "questionChoiceSnapshot": "{\"schema\":1,\"activity\":\"ca-S141\",\"questionId\":\"magrana\",\"grade\":\"6\",\"level\":\"advanced\",\"introduction\":\"Comprensió oral. Demèter i Persèfone. Un mite grec.\",\"transcript\":[{\"kind\":\"direction\",\"text\":\"Adaptació original de l’Himne homèric a Demèter. Es conserva que Hades s’endú Persèfone contra la seva voluntat amb el consentiment de Zeus. Hèlios s’anomena el Sol; s’ometen Hècate, Eleusis, Demofont i els ritus. La magrana es dona amb engany: no es presenta una elecció lliure de quedar-se. La font assigna un terç de l’any sota terra i dos terços amb la mare; l’adaptació diu períodes sense quantificar i no hi barreja la variant de sis mesos. El tancament és mític i no una explicació científica de les estacions.\"},{\"id\":\"prat\",\"speaker\":\"Narrador\",\"text\":\"Un mite grec explica que Demèter, la deessa que feia créixer el blat, tenia una filla anomenada Persèfone. Un dia, mentre la noia collia flors en un prat, la terra es va obrir. En va sortir Hades, el déu que regnava al món dels morts. La va fer pujar al seu carro i se la va endur sota terra, contra la seva voluntat.\"},{\"id\":\"recerca\",\"speaker\":\"Narrador\",\"text\":\"Demèter va sentir el crit de la seva filla i va córrer a buscar-la. Va recórrer la terra durant dies amb torxes a les mans. Finalment va preguntar al Sol, que havia vist què havia passat des del cel. Ell li va explicar que Hades s’havia endut Persèfone i que Zeus, el déu que governava els altres déus, hi havia donat el consentiment.\"},{\"id\":\"collita\",\"speaker\":\"Narrador\",\"text\":\"Enfurismada, Demèter es va apartar dels déus i va impedir que el blat creixés. Els pagesos sembraven, però les llavors quedaven amagades a terra. Les collites van faltar i la gent va començar a passar gana. Zeus li va enviar missatges perquè tornés a fer créixer els camps. Demèter va respondre que abans volia recuperar la seva filla.\"},{\"id\":\"missatger\",\"speaker\":\"Narrador\",\"text\":\"Llavors Zeus va enviar Hermes, el seu missatger, al món dels morts. Havia de portar Persèfone de tornada. Quan va rebre la notícia, la noia es va alegrar. Abans que marxés, però, Hades li va fer menjar un gra de magrana amb engany: volia que aquell aliment la lligués al seu regne i l’obligués a tornar-hi.\"},{\"id\":\"retorn\",\"speaker\":\"Narrador\",\"text\":\"Hermes va acompanyar Persèfone fins a la seva mare. Totes dues es van abraçar, i la noia li va explicar què havia menjat. Finalment es va acordar que passaria una part de cada any sota terra i la resta amb Demèter. La mare va tornar a fer créixer el blat i els camps es van omplir de vida.\"},{\"kind\":\"direction\",\"text\":\"Una sola veu narradora, sense veu de monstre per a Hades. No afegir mesos ni una correspondència científica amb les estacions. Cap crit o carro que tapi l’inici; base discreta i sortida breu.\"}],\"question\":{\"id\":\"magrana\",\"prompt\":\"Per què Hades fa menjar un gra de magrana a Persèfone?\",\"answer\":\"Per lligar-la al seu regne i obligar-la a tornar-hi.\",\"lines\":2,\"evidence\":[{\"part\":\"missatger\",\"quote\":\"volia que aquell aliment la lligués al seu regne i l’obligués a tornar-hi\"}]},\"alternative\":{\"prompt\":\"Per què Hades fa menjar un gra de magrana a Persèfone?\",\"options\":[{\"id\":\"a\",\"text\":\"Perquè Demèter li ha demanat una llavor per sembrar.\"},{\"id\":\"b\",\"text\":\"Per ajudar-la a reconèixer Hermes quan arribi.\"},{\"id\":\"c\",\"text\":\"Per lligar-la al seu regne i obligar-la a tornar-hi.\"},{\"id\":\"d\",\"text\":\"Perquè pugui quedar-se per sempre al costat de la mare.\"}],\"correct\":\"c\",\"explanation\":\"L’engany té com a objectiu que el retorn a la mare sigui només per períodes.\",\"evidence\":[{\"part\":\"missatger\",\"quote\":\"volia que aquell aliment la lligués al seu regne i l’obligués a tornar-hi\"}]},\"openOnly\":null}"
+          },
+          {
+            "activity": "ca-S141",
+            "questionId": "acord",
+            "status": "passed",
+            "author": "/root/autoria_mites_139_142",
+            "reviewer": "/root/autoria_faules_131_134",
+            "reviewedAt": "2026-11-26",
+            "teacherValidation": "pending",
+            "fingerprint": "aabbcc750bad97ff34c7683f8b6e0a26f3f324df3ebd339c77da77ec954fe82a",
+            "questionChoiceSnapshot": "{\"schema\":1,\"activity\":\"ca-S141\",\"questionId\":\"acord\",\"grade\":\"6\",\"level\":\"advanced\",\"introduction\":\"Comprensió oral. Demèter i Persèfone. Un mite grec.\",\"transcript\":[{\"kind\":\"direction\",\"text\":\"Adaptació original de l’Himne homèric a Demèter. Es conserva que Hades s’endú Persèfone contra la seva voluntat amb el consentiment de Zeus. Hèlios s’anomena el Sol; s’ometen Hècate, Eleusis, Demofont i els ritus. La magrana es dona amb engany: no es presenta una elecció lliure de quedar-se. La font assigna un terç de l’any sota terra i dos terços amb la mare; l’adaptació diu períodes sense quantificar i no hi barreja la variant de sis mesos. El tancament és mític i no una explicació científica de les estacions.\"},{\"id\":\"prat\",\"speaker\":\"Narrador\",\"text\":\"Un mite grec explica que Demèter, la deessa que feia créixer el blat, tenia una filla anomenada Persèfone. Un dia, mentre la noia collia flors en un prat, la terra es va obrir. En va sortir Hades, el déu que regnava al món dels morts. La va fer pujar al seu carro i se la va endur sota terra, contra la seva voluntat.\"},{\"id\":\"recerca\",\"speaker\":\"Narrador\",\"text\":\"Demèter va sentir el crit de la seva filla i va córrer a buscar-la. Va recórrer la terra durant dies amb torxes a les mans. Finalment va preguntar al Sol, que havia vist què havia passat des del cel. Ell li va explicar que Hades s’havia endut Persèfone i que Zeus, el déu que governava els altres déus, hi havia donat el consentiment.\"},{\"id\":\"collita\",\"speaker\":\"Narrador\",\"text\":\"Enfurismada, Demèter es va apartar dels déus i va impedir que el blat creixés. Els pagesos sembraven, però les llavors quedaven amagades a terra. Les collites van faltar i la gent va començar a passar gana. Zeus li va enviar missatges perquè tornés a fer créixer els camps. Demèter va respondre que abans volia recuperar la seva filla.\"},{\"id\":\"missatger\",\"speaker\":\"Narrador\",\"text\":\"Llavors Zeus va enviar Hermes, el seu missatger, al món dels morts. Havia de portar Persèfone de tornada. Quan va rebre la notícia, la noia es va alegrar. Abans que marxés, però, Hades li va fer menjar un gra de magrana amb engany: volia que aquell aliment la lligués al seu regne i l’obligués a tornar-hi.\"},{\"id\":\"retorn\",\"speaker\":\"Narrador\",\"text\":\"Hermes va acompanyar Persèfone fins a la seva mare. Totes dues es van abraçar, i la noia li va explicar què havia menjat. Finalment es va acordar que passaria una part de cada any sota terra i la resta amb Demèter. La mare va tornar a fer créixer el blat i els camps es van omplir de vida.\"},{\"kind\":\"direction\",\"text\":\"Una sola veu narradora, sense veu de monstre per a Hades. No afegir mesos ni una correspondència científica amb les estacions. Cap crit o carro que tapi l’inici; base discreta i sortida breu.\"}],\"question\":{\"id\":\"acord\",\"prompt\":\"Com es reparteix el temps de Persèfone a partir de l’acord final?\",\"answer\":\"Passa una part de cada any sota terra i la resta amb la mare.\",\"lines\":2,\"evidence\":[{\"part\":\"retorn\",\"quote\":\"passaria una part de cada any sota terra i la resta amb Demèter\"}]},\"alternative\":{\"prompt\":\"Com es reparteix el temps de Persèfone a partir de l’acord final?\",\"options\":[{\"id\":\"a\",\"text\":\"Una part de cada any sota terra i la resta amb la mare.\"},{\"id\":\"b\",\"text\":\"Tot l’any amb la mare, sense tornar al regne d’Hades.\"},{\"id\":\"c\",\"text\":\"Tot l’any sota terra, amb visites de la mare.\"},{\"id\":\"d\",\"text\":\"Una part amb el Sol i la resta amb Hermes.\"}],\"correct\":\"a\",\"explanation\":\"La versió escoltada estableix períodes sense indicar-ne els mesos.\",\"evidence\":[{\"part\":\"retorn\",\"quote\":\"passaria una part de cada any sota terra i la resta amb Demèter\"}]},\"openOnly\":null}"
+          },
+          {
+            "activity": "ca-S142",
+            "questionId": "ordre",
+            "status": "passed",
+            "author": "/root/autoria_mites_139_142",
+            "reviewer": "/root/autoria_faules_131_134",
+            "reviewedAt": "2026-11-26",
+            "teacherValidation": "pending",
+            "fingerprint": "f5ae136ef0bad9734c8f9025b97a8beb823a780d0384eed53a337d7bb9afff05",
+            "questionChoiceSnapshot": "{\"schema\":1,\"activity\":\"ca-S142\",\"questionId\":\"ordre\",\"grade\":\"6\",\"level\":\"middle\",\"introduction\":\"Comprensió oral. Hermes i la lira. Un mite grec.\",\"transcript\":[{\"kind\":\"direction\",\"text\":\"Adaptació original de l’Himne homèric a Hermes. Es conserva el nadó diví extraordinàriament actiu, la lira construïda abans de robar les vaques i el bestiar fet caminar enrere, segons la lectura de la nota 14 de l’edició consultada. S’ometen mort de la tortuga, sacrifici de dues vaques, nombres del ramat, vell testimoni, sandàlies, profecia i juraments finals. La localització de les vaques es condensa després de l’ordre de Zeus. L’intercanvi de lira per bestiar tanca l’episodi; la definició oral de l’instrument és una ajuda de l’adaptació. Els passos i el plany són narrats sense imitacions sonores.\"},{\"id\":\"invent\",\"speaker\":\"Narrador\",\"text\":\"Un mite grec explica que el déu Hermes, fill de Zeus, acabava de néixer i ja caminava i parlava. A la cova on vivia amb la seva mare va construir un instrument amb una closca de tortuga i unes cordes tibades. Quan les tocava amb els dits, sonaven. Era una lira. Hermes la va deixar al costat del bressol i va sortir de la cova.\"},{\"id\":\"ramat\",\"speaker\":\"Narrador\",\"text\":\"Al vespre va trobar unes vaques del seu germà Apol·lo i se les va endur. Per confondre qui les busqués, les va fer caminar enrere sobre la sorra. Les marques de les potes semblaven indicar que anaven cap al lloc d’on, en realitat, s’allunyaven. Després les va amagar en un estable i va tornar al bressol.\"},{\"id\":\"reclamacio\",\"speaker\":\"Narrador\",\"text\":\"Quan Apol·lo va descobrir que li faltaven vaques, va començar a buscar-les. Va examinar les petjades i finalment va arribar a la cova d’Hermes. El petit déu es va arraulir entre les mantes. Apol·lo li va exigir que li digués on era el bestiar. Hermes va respondre que ell era un nadó, que tenia els peus molt petits i que gairebé no sabia què era una vaca.\"},{\"id\":\"zeus\",\"speaker\":\"Narrador\",\"text\":\"Apol·lo el va portar davant de Zeus, el pare de tots dos, perquè resolgués la disputa. Hermes s’havia endut la lira i va continuar negant el robatori. Zeus va riure en sentir les excuses del seu fill, però li va ordenar que acompanyés Apol·lo i li mostrés on havia amagat les vaques. Tots dos van anar fins a l’estable i van trobar-hi el bestiar.\"},{\"id\":\"musica\",\"speaker\":\"Narrador\",\"text\":\"Apol·lo encara estava enfadat. Llavors Hermes va agafar la lira i es va posar a tocar i a cantar. El germà es va quedar escoltant, sorprès. Volia saber d’on sortia aquella música i com podia aprendre a fer-la. Hermes li va oferir l’instrument. A canvi, Apol·lo li va deixar les vaques perquè les cuidés. Hermes li va posar la lira a les mans i Apol·lo va provar-ne les cordes.\"},{\"kind\":\"direction\",\"text\":\"Una veu narradora, sense imitació de nadó ni canvi de timbre per als déus. Cap lira sonora ni bestiar necessaris per resoldre preguntes. Base pròpia de la peça molt baixa; fosa breu després del gest final.\"}],\"question\":{\"id\":\"ordre\",\"prompt\":\"Què fa Hermes amb la lira abans de sortir a trobar les vaques?\",\"answer\":\"La construeix i la deixa al costat del bressol.\",\"lines\":2,\"evidence\":[{\"part\":\"invent\",\"quote\":\"va construir un instrument amb una closca de tortuga i unes cordes tibades\"},{\"part\":\"invent\",\"quote\":\"la va deixar al costat del bressol i va sortir de la cova\"}]},\"alternative\":{\"prompt\":\"Què fa Hermes amb la lira abans de sortir a trobar les vaques?\",\"options\":[{\"id\":\"a\",\"text\":\"La construeix i la deixa al costat del bressol.\"},{\"id\":\"b\",\"text\":\"La dona a Apol·lo perquè escolti com sona.\"},{\"id\":\"c\",\"text\":\"La porta a Zeus perquè escolti la seva música.\"},{\"id\":\"d\",\"text\":\"La guarda a l’estable on després amaga les vaques.\"}],\"correct\":\"a\",\"explanation\":\"L’instrument ja existeix quan comença l’episodi del bestiar.\",\"evidence\":[{\"part\":\"invent\",\"quote\":\"va construir un instrument amb una closca de tortuga i unes cordes tibades\"},{\"part\":\"invent\",\"quote\":\"la va deixar al costat del bressol i va sortir de la cova\"}]},\"openOnly\":null}"
+          },
+          {
+            "activity": "ca-S142",
+            "questionId": "petjades",
+            "status": "passed",
+            "author": "/root/autoria_mites_139_142",
+            "reviewer": "/root/autoria_faules_131_134",
+            "reviewedAt": "2026-11-26",
+            "teacherValidation": "pending",
+            "fingerprint": "70d68ef1d33605af33fa5a38f3906ba245ce9245217188900bdbe434a1ded54f",
+            "questionChoiceSnapshot": "{\"schema\":1,\"activity\":\"ca-S142\",\"questionId\":\"petjades\",\"grade\":\"6\",\"level\":\"middle\",\"introduction\":\"Comprensió oral. Hermes i la lira. Un mite grec.\",\"transcript\":[{\"kind\":\"direction\",\"text\":\"Adaptació original de l’Himne homèric a Hermes. Es conserva el nadó diví extraordinàriament actiu, la lira construïda abans de robar les vaques i el bestiar fet caminar enrere, segons la lectura de la nota 14 de l’edició consultada. S’ometen mort de la tortuga, sacrifici de dues vaques, nombres del ramat, vell testimoni, sandàlies, profecia i juraments finals. La localització de les vaques es condensa després de l’ordre de Zeus. L’intercanvi de lira per bestiar tanca l’episodi; la definició oral de l’instrument és una ajuda de l’adaptació. Els passos i el plany són narrats sense imitacions sonores.\"},{\"id\":\"invent\",\"speaker\":\"Narrador\",\"text\":\"Un mite grec explica que el déu Hermes, fill de Zeus, acabava de néixer i ja caminava i parlava. A la cova on vivia amb la seva mare va construir un instrument amb una closca de tortuga i unes cordes tibades. Quan les tocava amb els dits, sonaven. Era una lira. Hermes la va deixar al costat del bressol i va sortir de la cova.\"},{\"id\":\"ramat\",\"speaker\":\"Narrador\",\"text\":\"Al vespre va trobar unes vaques del seu germà Apol·lo i se les va endur. Per confondre qui les busqués, les va fer caminar enrere sobre la sorra. Les marques de les potes semblaven indicar que anaven cap al lloc d’on, en realitat, s’allunyaven. Després les va amagar en un estable i va tornar al bressol.\"},{\"id\":\"reclamacio\",\"speaker\":\"Narrador\",\"text\":\"Quan Apol·lo va descobrir que li faltaven vaques, va començar a buscar-les. Va examinar les petjades i finalment va arribar a la cova d’Hermes. El petit déu es va arraulir entre les mantes. Apol·lo li va exigir que li digués on era el bestiar. Hermes va respondre que ell era un nadó, que tenia els peus molt petits i que gairebé no sabia què era una vaca.\"},{\"id\":\"zeus\",\"speaker\":\"Narrador\",\"text\":\"Apol·lo el va portar davant de Zeus, el pare de tots dos, perquè resolgués la disputa. Hermes s’havia endut la lira i va continuar negant el robatori. Zeus va riure en sentir les excuses del seu fill, però li va ordenar que acompanyés Apol·lo i li mostrés on havia amagat les vaques. Tots dos van anar fins a l’estable i van trobar-hi el bestiar.\"},{\"id\":\"musica\",\"speaker\":\"Narrador\",\"text\":\"Apol·lo encara estava enfadat. Llavors Hermes va agafar la lira i es va posar a tocar i a cantar. El germà es va quedar escoltant, sorprès. Volia saber d’on sortia aquella música i com podia aprendre a fer-la. Hermes li va oferir l’instrument. A canvi, Apol·lo li va deixar les vaques perquè les cuidés. Hermes li va posar la lira a les mans i Apol·lo va provar-ne les cordes.\"},{\"kind\":\"direction\",\"text\":\"Una veu narradora, sense imitació de nadó ni canvi de timbre per als déus. Cap lira sonora ni bestiar necessaris per resoldre preguntes. Base pròpia de la peça molt baixa; fosa breu després del gest final.\"}],\"question\":{\"id\":\"petjades\",\"prompt\":\"Per què Hermes fa caminar les vaques enrere?\",\"answer\":\"Perquè les petjades confonguin qui les busqui.\",\"lines\":1,\"evidence\":[{\"part\":\"ramat\",\"quote\":\"Per confondre qui les busqués, les va fer caminar enrere sobre la sorra\"}]},\"alternative\":{\"prompt\":\"Per què Hermes fa caminar les vaques enrere?\",\"options\":[{\"id\":\"a\",\"text\":\"Perquè les petjades confonguin qui les busqui.\"},{\"id\":\"b\",\"text\":\"Perquè Apol·lo li ha ensenyat a conduir-les així.\"},{\"id\":\"c\",\"text\":\"Perquè així arribin abans a la cova de la mare.\"},{\"id\":\"d\",\"text\":\"Perquè puguin sentir la lira mentre caminen.\"}],\"correct\":\"a\",\"explanation\":\"La direcció aparent de les marques ha de dificultar la recerca.\",\"evidence\":[{\"part\":\"ramat\",\"quote\":\"Per confondre qui les busqués, les va fer caminar enrere sobre la sorra\"}]},\"openOnly\":null}"
+          },
+          {
+            "activity": "ca-S142",
+            "questionId": "excusa",
+            "status": "passed",
+            "author": "/root/autoria_mites_139_142",
+            "reviewer": "/root/autoria_faules_131_134",
+            "reviewedAt": "2026-11-26",
+            "teacherValidation": "pending",
+            "fingerprint": "454b462201576064cac73a5bc98527f910958221ed21fb553d2636b11ff527e7",
+            "questionChoiceSnapshot": "{\"schema\":1,\"activity\":\"ca-S142\",\"questionId\":\"excusa\",\"grade\":\"6\",\"level\":\"middle\",\"introduction\":\"Comprensió oral. Hermes i la lira. Un mite grec.\",\"transcript\":[{\"kind\":\"direction\",\"text\":\"Adaptació original de l’Himne homèric a Hermes. Es conserva el nadó diví extraordinàriament actiu, la lira construïda abans de robar les vaques i el bestiar fet caminar enrere, segons la lectura de la nota 14 de l’edició consultada. S’ometen mort de la tortuga, sacrifici de dues vaques, nombres del ramat, vell testimoni, sandàlies, profecia i juraments finals. La localització de les vaques es condensa després de l’ordre de Zeus. L’intercanvi de lira per bestiar tanca l’episodi; la definició oral de l’instrument és una ajuda de l’adaptació. Els passos i el plany són narrats sense imitacions sonores.\"},{\"id\":\"invent\",\"speaker\":\"Narrador\",\"text\":\"Un mite grec explica que el déu Hermes, fill de Zeus, acabava de néixer i ja caminava i parlava. A la cova on vivia amb la seva mare va construir un instrument amb una closca de tortuga i unes cordes tibades. Quan les tocava amb els dits, sonaven. Era una lira. Hermes la va deixar al costat del bressol i va sortir de la cova.\"},{\"id\":\"ramat\",\"speaker\":\"Narrador\",\"text\":\"Al vespre va trobar unes vaques del seu germà Apol·lo i se les va endur. Per confondre qui les busqués, les va fer caminar enrere sobre la sorra. Les marques de les potes semblaven indicar que anaven cap al lloc d’on, en realitat, s’allunyaven. Després les va amagar en un estable i va tornar al bressol.\"},{\"id\":\"reclamacio\",\"speaker\":\"Narrador\",\"text\":\"Quan Apol·lo va descobrir que li faltaven vaques, va començar a buscar-les. Va examinar les petjades i finalment va arribar a la cova d’Hermes. El petit déu es va arraulir entre les mantes. Apol·lo li va exigir que li digués on era el bestiar. Hermes va respondre que ell era un nadó, que tenia els peus molt petits i que gairebé no sabia què era una vaca.\"},{\"id\":\"zeus\",\"speaker\":\"Narrador\",\"text\":\"Apol·lo el va portar davant de Zeus, el pare de tots dos, perquè resolgués la disputa. Hermes s’havia endut la lira i va continuar negant el robatori. Zeus va riure en sentir les excuses del seu fill, però li va ordenar que acompanyés Apol·lo i li mostrés on havia amagat les vaques. Tots dos van anar fins a l’estable i van trobar-hi el bestiar.\"},{\"id\":\"musica\",\"speaker\":\"Narrador\",\"text\":\"Apol·lo encara estava enfadat. Llavors Hermes va agafar la lira i es va posar a tocar i a cantar. El germà es va quedar escoltant, sorprès. Volia saber d’on sortia aquella música i com podia aprendre a fer-la. Hermes li va oferir l’instrument. A canvi, Apol·lo li va deixar les vaques perquè les cuidés. Hermes li va posar la lira a les mans i Apol·lo va provar-ne les cordes.\"},{\"kind\":\"direction\",\"text\":\"Una veu narradora, sense imitació de nadó ni canvi de timbre per als déus. Cap lira sonora ni bestiar necessaris per resoldre preguntes. Base pròpia de la peça molt baixa; fosa breu després del gest final.\"}],\"question\":{\"id\":\"excusa\",\"prompt\":\"Per què l’excusa d’Hermes davant d’Apol·lo resulta enganyosa?\",\"answer\":\"Diu que és massa petit, però ja ha caminat i s’ha endut les vaques.\",\"lines\":2,\"evidence\":[{\"part\":\"invent\",\"quote\":\"ja caminava i parlava\"},{\"part\":\"ramat\",\"quote\":\"se les va endur\"},{\"part\":\"reclamacio\",\"quote\":\"ell era un nadó, que tenia els peus molt petits i que gairebé no sabia què era una vaca\"}]},\"alternative\":{\"prompt\":\"Per què l’excusa d’Hermes davant d’Apol·lo resulta enganyosa?\",\"options\":[{\"id\":\"a\",\"text\":\"Diu que toca la lira, però encara no l’ha construïda.\"},{\"id\":\"b\",\"text\":\"Diu que és massa petit, però ja s’ha endut les vaques.\"},{\"id\":\"c\",\"text\":\"Diu que Zeus és el seu pare, però Zeus és el pare d’Apol·lo.\"},{\"id\":\"d\",\"text\":\"Diu que viu en una cova, però ha nascut en un estable.\"}],\"correct\":\"b\",\"explanation\":\"Qui escolta coneix les accions que Hermes intenta amagar rere l’edat.\",\"evidence\":[{\"part\":\"invent\",\"quote\":\"ja caminava i parlava\"},{\"part\":\"ramat\",\"quote\":\"se les va endur\"},{\"part\":\"reclamacio\",\"quote\":\"ell era un nadó, que tenia els peus molt petits i que gairebé no sabia què era una vaca\"}]},\"openOnly\":null}"
+          },
+          {
+            "activity": "ca-S142",
+            "questionId": "pare",
+            "status": "passed",
+            "author": "/root/autoria_mites_139_142",
+            "reviewer": "/root/autoria_faules_131_134",
+            "reviewedAt": "2026-11-26",
+            "teacherValidation": "pending",
+            "fingerprint": "98b5c59035e3f6f16f6da4061232eaf3cc3d952b20661f127c89a42405d96430",
+            "questionChoiceSnapshot": "{\"schema\":1,\"activity\":\"ca-S142\",\"questionId\":\"pare\",\"grade\":\"6\",\"level\":\"middle\",\"introduction\":\"Comprensió oral. Hermes i la lira. Un mite grec.\",\"transcript\":[{\"kind\":\"direction\",\"text\":\"Adaptació original de l’Himne homèric a Hermes. Es conserva el nadó diví extraordinàriament actiu, la lira construïda abans de robar les vaques i el bestiar fet caminar enrere, segons la lectura de la nota 14 de l’edició consultada. S’ometen mort de la tortuga, sacrifici de dues vaques, nombres del ramat, vell testimoni, sandàlies, profecia i juraments finals. La localització de les vaques es condensa després de l’ordre de Zeus. L’intercanvi de lira per bestiar tanca l’episodi; la definició oral de l’instrument és una ajuda de l’adaptació. Els passos i el plany són narrats sense imitacions sonores.\"},{\"id\":\"invent\",\"speaker\":\"Narrador\",\"text\":\"Un mite grec explica que el déu Hermes, fill de Zeus, acabava de néixer i ja caminava i parlava. A la cova on vivia amb la seva mare va construir un instrument amb una closca de tortuga i unes cordes tibades. Quan les tocava amb els dits, sonaven. Era una lira. Hermes la va deixar al costat del bressol i va sortir de la cova.\"},{\"id\":\"ramat\",\"speaker\":\"Narrador\",\"text\":\"Al vespre va trobar unes vaques del seu germà Apol·lo i se les va endur. Per confondre qui les busqués, les va fer caminar enrere sobre la sorra. Les marques de les potes semblaven indicar que anaven cap al lloc d’on, en realitat, s’allunyaven. Després les va amagar en un estable i va tornar al bressol.\"},{\"id\":\"reclamacio\",\"speaker\":\"Narrador\",\"text\":\"Quan Apol·lo va descobrir que li faltaven vaques, va començar a buscar-les. Va examinar les petjades i finalment va arribar a la cova d’Hermes. El petit déu es va arraulir entre les mantes. Apol·lo li va exigir que li digués on era el bestiar. Hermes va respondre que ell era un nadó, que tenia els peus molt petits i que gairebé no sabia què era una vaca.\"},{\"id\":\"zeus\",\"speaker\":\"Narrador\",\"text\":\"Apol·lo el va portar davant de Zeus, el pare de tots dos, perquè resolgués la disputa. Hermes s’havia endut la lira i va continuar negant el robatori. Zeus va riure en sentir les excuses del seu fill, però li va ordenar que acompanyés Apol·lo i li mostrés on havia amagat les vaques. Tots dos van anar fins a l’estable i van trobar-hi el bestiar.\"},{\"id\":\"musica\",\"speaker\":\"Narrador\",\"text\":\"Apol·lo encara estava enfadat. Llavors Hermes va agafar la lira i es va posar a tocar i a cantar. El germà es va quedar escoltant, sorprès. Volia saber d’on sortia aquella música i com podia aprendre a fer-la. Hermes li va oferir l’instrument. A canvi, Apol·lo li va deixar les vaques perquè les cuidés. Hermes li va posar la lira a les mans i Apol·lo va provar-ne les cordes.\"},{\"kind\":\"direction\",\"text\":\"Una veu narradora, sense imitació de nadó ni canvi de timbre per als déus. Cap lira sonora ni bestiar necessaris per resoldre preguntes. Base pròpia de la peça molt baixa; fosa breu després del gest final.\"}],\"question\":{\"id\":\"pare\",\"prompt\":\"Per què Apol·lo porta Hermes davant de Zeus?\",\"answer\":\"Perquè Zeus resolgui la disputa pel bestiar.\",\"lines\":1,\"evidence\":[{\"part\":\"zeus\",\"quote\":\"davant de Zeus, el pare de tots dos, perquè resolgués la disputa\"}]},\"alternative\":{\"prompt\":\"Per què Apol·lo porta Hermes davant de Zeus?\",\"options\":[{\"id\":\"a\",\"text\":\"Perquè Zeus vegi les petjades que han deixat a la sorra.\"},{\"id\":\"b\",\"text\":\"Perquè Zeus els ensenyi a tocar aquell instrument.\"},{\"id\":\"c\",\"text\":\"Perquè Zeus resolgui la disputa pel bestiar.\"},{\"id\":\"d\",\"text\":\"Perquè Zeus els indiqui on poden guardar les vaques.\"}],\"correct\":\"c\",\"explanation\":\"El pare de tots dos intervé en el conflicte.\",\"evidence\":[{\"part\":\"zeus\",\"quote\":\"davant de Zeus, el pare de tots dos, perquè resolgués la disputa\"}]},\"openOnly\":null}"
+          },
+          {
+            "activity": "ca-S142",
+            "questionId": "ordre-zeus",
+            "status": "passed",
+            "author": "/root/autoria_mites_139_142",
+            "reviewer": "/root/autoria_faules_131_134",
+            "reviewedAt": "2026-11-26",
+            "teacherValidation": "pending",
+            "fingerprint": "d3d074b3410475af27c8d9864a111617e795dbfe11230fc2ed121d4b66ccd315",
+            "questionChoiceSnapshot": "{\"schema\":1,\"activity\":\"ca-S142\",\"questionId\":\"ordre-zeus\",\"grade\":\"6\",\"level\":\"middle\",\"introduction\":\"Comprensió oral. Hermes i la lira. Un mite grec.\",\"transcript\":[{\"kind\":\"direction\",\"text\":\"Adaptació original de l’Himne homèric a Hermes. Es conserva el nadó diví extraordinàriament actiu, la lira construïda abans de robar les vaques i el bestiar fet caminar enrere, segons la lectura de la nota 14 de l’edició consultada. S’ometen mort de la tortuga, sacrifici de dues vaques, nombres del ramat, vell testimoni, sandàlies, profecia i juraments finals. La localització de les vaques es condensa després de l’ordre de Zeus. L’intercanvi de lira per bestiar tanca l’episodi; la definició oral de l’instrument és una ajuda de l’adaptació. Els passos i el plany són narrats sense imitacions sonores.\"},{\"id\":\"invent\",\"speaker\":\"Narrador\",\"text\":\"Un mite grec explica que el déu Hermes, fill de Zeus, acabava de néixer i ja caminava i parlava. A la cova on vivia amb la seva mare va construir un instrument amb una closca de tortuga i unes cordes tibades. Quan les tocava amb els dits, sonaven. Era una lira. Hermes la va deixar al costat del bressol i va sortir de la cova.\"},{\"id\":\"ramat\",\"speaker\":\"Narrador\",\"text\":\"Al vespre va trobar unes vaques del seu germà Apol·lo i se les va endur. Per confondre qui les busqués, les va fer caminar enrere sobre la sorra. Les marques de les potes semblaven indicar que anaven cap al lloc d’on, en realitat, s’allunyaven. Després les va amagar en un estable i va tornar al bressol.\"},{\"id\":\"reclamacio\",\"speaker\":\"Narrador\",\"text\":\"Quan Apol·lo va descobrir que li faltaven vaques, va començar a buscar-les. Va examinar les petjades i finalment va arribar a la cova d’Hermes. El petit déu es va arraulir entre les mantes. Apol·lo li va exigir que li digués on era el bestiar. Hermes va respondre que ell era un nadó, que tenia els peus molt petits i que gairebé no sabia què era una vaca.\"},{\"id\":\"zeus\",\"speaker\":\"Narrador\",\"text\":\"Apol·lo el va portar davant de Zeus, el pare de tots dos, perquè resolgués la disputa. Hermes s’havia endut la lira i va continuar negant el robatori. Zeus va riure en sentir les excuses del seu fill, però li va ordenar que acompanyés Apol·lo i li mostrés on havia amagat les vaques. Tots dos van anar fins a l’estable i van trobar-hi el bestiar.\"},{\"id\":\"musica\",\"speaker\":\"Narrador\",\"text\":\"Apol·lo encara estava enfadat. Llavors Hermes va agafar la lira i es va posar a tocar i a cantar. El germà es va quedar escoltant, sorprès. Volia saber d’on sortia aquella música i com podia aprendre a fer-la. Hermes li va oferir l’instrument. A canvi, Apol·lo li va deixar les vaques perquè les cuidés. Hermes li va posar la lira a les mans i Apol·lo va provar-ne les cordes.\"},{\"kind\":\"direction\",\"text\":\"Una veu narradora, sense imitació de nadó ni canvi de timbre per als déus. Cap lira sonora ni bestiar necessaris per resoldre preguntes. Base pròpia de la peça molt baixa; fosa breu després del gest final.\"}],\"question\":{\"id\":\"ordre-zeus\",\"prompt\":\"Què ordena Zeus a Hermes?\",\"answer\":\"Acompanyar Apol·lo i mostrar-li on ha amagat les vaques.\",\"lines\":2,\"evidence\":[{\"part\":\"zeus\",\"quote\":\"li va ordenar que acompanyés Apol·lo i li mostrés on havia amagat les vaques\"}]},\"alternative\":{\"prompt\":\"Què ordena Zeus a Hermes?\",\"options\":[{\"id\":\"a\",\"text\":\"Tornar les vaques caminant enrere fins al prat.\"},{\"id\":\"b\",\"text\":\"Deixar la lira al bressol i anar-se’n tot sol.\"},{\"id\":\"c\",\"text\":\"Acompanyar Apol·lo i mostrar-li on ha amagat les vaques.\"},{\"id\":\"d\",\"text\":\"Ensenyar Apol·lo a fer petjades sobre la sorra.\"}],\"correct\":\"c\",\"explanation\":\"L’ordre obliga Hermes a revelar l’amagatall.\",\"evidence\":[{\"part\":\"zeus\",\"quote\":\"li va ordenar que acompanyés Apol·lo i li mostrés on havia amagat les vaques\"}]},\"openOnly\":null}"
+          },
+          {
+            "activity": "ca-S142",
+            "questionId": "canvi",
+            "status": "passed",
+            "author": "/root/autoria_mites_139_142",
+            "reviewer": "/root/autoria_faules_131_134",
+            "reviewedAt": "2026-11-26",
+            "teacherValidation": "pending",
+            "fingerprint": "19220b77c139f6710f608e6df6e73405f03572f9824f367d57f572ad7028fe43",
+            "questionChoiceSnapshot": "{\"schema\":1,\"activity\":\"ca-S142\",\"questionId\":\"canvi\",\"grade\":\"6\",\"level\":\"middle\",\"introduction\":\"Comprensió oral. Hermes i la lira. Un mite grec.\",\"transcript\":[{\"kind\":\"direction\",\"text\":\"Adaptació original de l’Himne homèric a Hermes. Es conserva el nadó diví extraordinàriament actiu, la lira construïda abans de robar les vaques i el bestiar fet caminar enrere, segons la lectura de la nota 14 de l’edició consultada. S’ometen mort de la tortuga, sacrifici de dues vaques, nombres del ramat, vell testimoni, sandàlies, profecia i juraments finals. La localització de les vaques es condensa després de l’ordre de Zeus. L’intercanvi de lira per bestiar tanca l’episodi; la definició oral de l’instrument és una ajuda de l’adaptació. Els passos i el plany són narrats sense imitacions sonores.\"},{\"id\":\"invent\",\"speaker\":\"Narrador\",\"text\":\"Un mite grec explica que el déu Hermes, fill de Zeus, acabava de néixer i ja caminava i parlava. A la cova on vivia amb la seva mare va construir un instrument amb una closca de tortuga i unes cordes tibades. Quan les tocava amb els dits, sonaven. Era una lira. Hermes la va deixar al costat del bressol i va sortir de la cova.\"},{\"id\":\"ramat\",\"speaker\":\"Narrador\",\"text\":\"Al vespre va trobar unes vaques del seu germà Apol·lo i se les va endur. Per confondre qui les busqués, les va fer caminar enrere sobre la sorra. Les marques de les potes semblaven indicar que anaven cap al lloc d’on, en realitat, s’allunyaven. Després les va amagar en un estable i va tornar al bressol.\"},{\"id\":\"reclamacio\",\"speaker\":\"Narrador\",\"text\":\"Quan Apol·lo va descobrir que li faltaven vaques, va començar a buscar-les. Va examinar les petjades i finalment va arribar a la cova d’Hermes. El petit déu es va arraulir entre les mantes. Apol·lo li va exigir que li digués on era el bestiar. Hermes va respondre que ell era un nadó, que tenia els peus molt petits i que gairebé no sabia què era una vaca.\"},{\"id\":\"zeus\",\"speaker\":\"Narrador\",\"text\":\"Apol·lo el va portar davant de Zeus, el pare de tots dos, perquè resolgués la disputa. Hermes s’havia endut la lira i va continuar negant el robatori. Zeus va riure en sentir les excuses del seu fill, però li va ordenar que acompanyés Apol·lo i li mostrés on havia amagat les vaques. Tots dos van anar fins a l’estable i van trobar-hi el bestiar.\"},{\"id\":\"musica\",\"speaker\":\"Narrador\",\"text\":\"Apol·lo encara estava enfadat. Llavors Hermes va agafar la lira i es va posar a tocar i a cantar. El germà es va quedar escoltant, sorprès. Volia saber d’on sortia aquella música i com podia aprendre a fer-la. Hermes li va oferir l’instrument. A canvi, Apol·lo li va deixar les vaques perquè les cuidés. Hermes li va posar la lira a les mans i Apol·lo va provar-ne les cordes.\"},{\"kind\":\"direction\",\"text\":\"Una veu narradora, sense imitació de nadó ni canvi de timbre per als déus. Cap lira sonora ni bestiar necessaris per resoldre preguntes. Base pròpia de la peça molt baixa; fosa breu després del gest final.\"}],\"question\":{\"id\":\"canvi\",\"prompt\":\"Què desperta l’interès d’Apol·lo quan encara està enfadat?\",\"answer\":\"La música que Hermes toca i canta amb la lira.\",\"lines\":2,\"evidence\":[{\"part\":\"musica\",\"quote\":\"Hermes va agafar la lira i es va posar a tocar i a cantar\"},{\"part\":\"musica\",\"quote\":\"Volia saber d’on sortia aquella música i com podia aprendre a fer-la\"}]},\"alternative\":{\"prompt\":\"Què desperta l’interès d’Apol·lo quan encara està enfadat?\",\"options\":[{\"id\":\"a\",\"text\":\"La manera com les vaques han caminat enrere.\"},{\"id\":\"b\",\"text\":\"Les excuses que Hermes ha donat davant de Zeus.\"},{\"id\":\"c\",\"text\":\"El bressol que hi havia a l’entrada de la cova.\"},{\"id\":\"d\",\"text\":\"La música que Hermes toca i canta amb la lira.\"}],\"correct\":\"d\",\"explanation\":\"La música fa que Apol·lo vulgui conèixer l’instrument.\",\"evidence\":[{\"part\":\"musica\",\"quote\":\"Hermes va agafar la lira i es va posar a tocar i a cantar\"},{\"part\":\"musica\",\"quote\":\"Volia saber d’on sortia aquella música i com podia aprendre a fer-la\"}]},\"openOnly\":null}"
+          },
+          {
+            "activity": "ca-S142",
+            "questionId": "intercanvi",
+            "status": "passed",
+            "author": "/root/autoria_mites_139_142",
+            "reviewer": "/root/autoria_faules_131_134",
+            "reviewedAt": "2026-11-26",
+            "teacherValidation": "pending",
+            "fingerprint": "7054149ee722bb24bca1dece4847cb95dd360799053524140005667315ef5540",
+            "questionChoiceSnapshot": "{\"schema\":1,\"activity\":\"ca-S142\",\"questionId\":\"intercanvi\",\"grade\":\"6\",\"level\":\"middle\",\"introduction\":\"Comprensió oral. Hermes i la lira. Un mite grec.\",\"transcript\":[{\"kind\":\"direction\",\"text\":\"Adaptació original de l’Himne homèric a Hermes. Es conserva el nadó diví extraordinàriament actiu, la lira construïda abans de robar les vaques i el bestiar fet caminar enrere, segons la lectura de la nota 14 de l’edició consultada. S’ometen mort de la tortuga, sacrifici de dues vaques, nombres del ramat, vell testimoni, sandàlies, profecia i juraments finals. La localització de les vaques es condensa després de l’ordre de Zeus. L’intercanvi de lira per bestiar tanca l’episodi; la definició oral de l’instrument és una ajuda de l’adaptació. Els passos i el plany són narrats sense imitacions sonores.\"},{\"id\":\"invent\",\"speaker\":\"Narrador\",\"text\":\"Un mite grec explica que el déu Hermes, fill de Zeus, acabava de néixer i ja caminava i parlava. A la cova on vivia amb la seva mare va construir un instrument amb una closca de tortuga i unes cordes tibades. Quan les tocava amb els dits, sonaven. Era una lira. Hermes la va deixar al costat del bressol i va sortir de la cova.\"},{\"id\":\"ramat\",\"speaker\":\"Narrador\",\"text\":\"Al vespre va trobar unes vaques del seu germà Apol·lo i se les va endur. Per confondre qui les busqués, les va fer caminar enrere sobre la sorra. Les marques de les potes semblaven indicar que anaven cap al lloc d’on, en realitat, s’allunyaven. Després les va amagar en un estable i va tornar al bressol.\"},{\"id\":\"reclamacio\",\"speaker\":\"Narrador\",\"text\":\"Quan Apol·lo va descobrir que li faltaven vaques, va començar a buscar-les. Va examinar les petjades i finalment va arribar a la cova d’Hermes. El petit déu es va arraulir entre les mantes. Apol·lo li va exigir que li digués on era el bestiar. Hermes va respondre que ell era un nadó, que tenia els peus molt petits i que gairebé no sabia què era una vaca.\"},{\"id\":\"zeus\",\"speaker\":\"Narrador\",\"text\":\"Apol·lo el va portar davant de Zeus, el pare de tots dos, perquè resolgués la disputa. Hermes s’havia endut la lira i va continuar negant el robatori. Zeus va riure en sentir les excuses del seu fill, però li va ordenar que acompanyés Apol·lo i li mostrés on havia amagat les vaques. Tots dos van anar fins a l’estable i van trobar-hi el bestiar.\"},{\"id\":\"musica\",\"speaker\":\"Narrador\",\"text\":\"Apol·lo encara estava enfadat. Llavors Hermes va agafar la lira i es va posar a tocar i a cantar. El germà es va quedar escoltant, sorprès. Volia saber d’on sortia aquella música i com podia aprendre a fer-la. Hermes li va oferir l’instrument. A canvi, Apol·lo li va deixar les vaques perquè les cuidés. Hermes li va posar la lira a les mans i Apol·lo va provar-ne les cordes.\"},{\"kind\":\"direction\",\"text\":\"Una veu narradora, sense imitació de nadó ni canvi de timbre per als déus. Cap lira sonora ni bestiar necessaris per resoldre preguntes. Base pròpia de la peça molt baixa; fosa breu després del gest final.\"}],\"question\":{\"id\":\"intercanvi\",\"prompt\":\"Què rep cadascun en l’intercanvi final?\",\"answer\":\"Apol·lo rep la lira i Hermes es queda les vaques per cuidar-les.\",\"lines\":2,\"evidence\":[{\"part\":\"musica\",\"quote\":\"Hermes li va oferir l’instrument. A canvi, Apol·lo li va deixar les vaques perquè les cuidés\"}]},\"alternative\":{\"prompt\":\"Què rep cadascun en l’intercanvi final?\",\"options\":[{\"id\":\"a\",\"text\":\"Hermes rep la lira i Apol·lo es queda les vaques.\"},{\"id\":\"b\",\"text\":\"Apol·lo rep la lira i Hermes les vaques per cuidar-les.\"},{\"id\":\"c\",\"text\":\"Zeus rep la lira i Apol·lo es queda les vaques.\"},{\"id\":\"d\",\"text\":\"Apol·lo rep la lira i Zeus es queda les vaques.\"}],\"correct\":\"b\",\"explanation\":\"Hermes ofereix l’instrument i Apol·lo li deixa el bestiar.\",\"evidence\":[{\"part\":\"musica\",\"quote\":\"Hermes li va oferir l’instrument. A canvi, Apol·lo li va deixar les vaques perquè les cuidés\"}]},\"openOnly\":null}"
+          }
+        ]
+      }
+    }
+  ]
+}

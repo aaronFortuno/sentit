@@ -1,0 +1,18 @@
+{
+  "code": "S126",
+  "use": "publication-context",
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-11-26",
+  "prompt": "Create ONE new 3:2 landscape watercolor and colored-pencil storybook illustration for a Catalan school listening worksheet. Use the inputs only as canonical character/style REFERENCES, not edit targets. Warm ivory paper, muted sage and earth tones, natural expressive poses, one coherent scene, no panels. Keep exact character identities and clothes. No readable text, numbers, logos, border or watermark; no diagram or visual answers to comprehension questions. Biel, young boy in charcoal hoodie with tousled brown hair, holds a small audio recorder toward Elies, the adult luthier in slate shirt and tan apron with salt-and-pepper curls and beard. They are STANDING by a tall workshop window, with ONE acoustic guitar resting safely in a stand off to the side. Elies rests his hand on the workbench and is talking, not playing or examining the guitar. Make this different from a seated interview: standing side view, foreground recorder, window and shelves. No visible damage, instrument playing, repaired mechanism, comparisons of notes, customer, recording phone sample or checklist.",
+  "references": [
+    "assets/characters/biel-model-sheet-v1.webp",
+    "assets/characters/elies-model-sheet-v1.webp"
+  ],
+  "originalPngSha256": "639f6db57e78528c9b12d68d48814c4fe4c6d1d79944ba4c1ffd326c24d04b9d",
+  "file": "assets/images/s126-publicacio-v1.webp",
+  "width": 1536,
+  "height": 1024,
+  "sha256": "5482f91e07a5e736efb6b048a7ad33cc58ce1e14f9714ea8a43612f33dd66bbc",
+  "alt": "En Biel enregistra una conversa amb l’Elies al taller.",
+  "notes": "Il·lustració contextual pròpia; els models fixen la identitat dels recurrents. Revisió independent abans de publicar. Conversió a WebP, sense retoc del contingut."
+}

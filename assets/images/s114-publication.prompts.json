@@ -1,0 +1,17 @@
+{
+  "code": "S114",
+  "use": "publication-context",
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-11-26",
+  "prompt": "Create ONE new 3:2 landscape watercolor and colored-pencil storybook illustration for a Catalan school listening worksheet. Use the inputs only as canonical character/style REFERENCES, not edit targets. Warm ivory paper, muted sage and earth tones, natural expressive poses, one coherent scene, no panels. Keep exact character identities and clothes. No readable text, numbers, logos, border or watermark; no diagram or visual answers to comprehension questions. Mar, adult woman with dark brown low ponytail, olive blazer and cream top, records a radio report holding her microphone in a lobby beside a closed door to a rehearsal space. A folded instrument case and a coat rail suggest musical preparations. Medium-wide side angle, warm late light. No people rehearsing, director, audience, clocks, schedule, music being played or readable room label. Do not reveal the small room or civic center or what the ensemble will do later.",
+  "references": [
+    "assets/characters/mar-model-sheet-v1.webp"
+  ],
+  "originalPngSha256": "173405928f3ef6f9d516dbb9ea74a979586669fa531d4a21cdcf06a138a4f994",
+  "file": "assets/images/s114-publicacio-v1.webp",
+  "width": 1536,
+  "height": 1024,
+  "sha256": "fe2670ed7b2f46962137abf4c258ad408436dbe43d140d7bdb947074d35d5a56",
+  "alt": "La Mar presenta una notícia en un vestíbul, amb un estoig de música al fons.",
+  "notes": "Il·lustració contextual pròpia; els models fixen la identitat dels recurrents. Revisió independent abans de publicar. Conversió a WebP, sense retoc del contingut."
+}

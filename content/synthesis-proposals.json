@@ -312,6 +312,42 @@
         "S127"
       ],
       "note": "Guions i esmenes rebuts a L39. Veus i comparacions disponibles, pendents d’audició docent. Cap muntatge automàtic."
+    },
+    {
+      "id": "P29",
+      "name": "Faules del món",
+      "codes": [
+        "S131",
+        "S132",
+        "S133",
+        "S134"
+      ],
+      "cast": "Narrador anònim · candidat Algenib, amb alternatives segons el lot",
+      "note": "Guions nous amb revisió independent superada, validació docent pendent. Cap síntesi. Fixar timbre i empremtes abans de congelar; es poden combinar universos per completar 6–8 minuts sense afegir farciment."
+    },
+    {
+      "id": "P30",
+      "name": "Llegendes d’aquí i d’arreu",
+      "codes": [
+        "S135",
+        "S136",
+        "S137",
+        "S138"
+      ],
+      "cast": "Narrador anònim · candidat Algenib, amb alternatives segons el lot",
+      "note": "Guions nous amb revisió independent superada, validació docent pendent. Cap síntesi. Fixar timbre i empremtes abans de congelar; es poden combinar universos per completar 6–8 minuts sense afegir farciment."
+    },
+    {
+      "id": "P31",
+      "name": "Mites de l’antiguitat",
+      "codes": [
+        "S139",
+        "S140",
+        "S141",
+        "S142"
+      ],
+      "cast": "Narrador anònim · candidat Algenib, amb alternatives segons el lot",
+      "note": "Guions nous amb revisió independent superada, validació docent pendent. Cap síntesi. Fixar timbre i empremtes abans de congelar; es poden combinar universos per completar 6–8 minuts sense afegir farciment."
     }
   ]
 }

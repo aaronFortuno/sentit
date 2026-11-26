@@ -9,6 +9,8 @@ const {productionSpec}=require('./proposal-plan.cjs'),{assertProductionApproved}
 const root=path.resolve(__dirname,'..'),work=path.resolve(root,'../output/sentit-primera-tanda'),sha=b=>createHash('sha256').update(b).digest('hex');
 const recipes={S021:{source:'content/propostes/sise.js',ambient:'soaress-546234',ambientFrom:40,events:[{before:'materials',after:'vespre',source:'evsecrets-footsteps-334457',from:1.4,seconds:1.1,gap:1.45},{before:'final',after:'limit',source:'beussa-749880',from:0,seconds:.678,gap:1.05}]},S032:{source:'content/propostes/tanda2/quart.js',ambient:'elenalostale-648659',ambientFrom:20,events:[{before:'prova',after:'ordre',source:'beussa-749880',from:0,seconds:.678,gap:1.05}]}};
 Object.assign(recipes,{
+ S085:{takeId:'S085-REPAIRED',ambient:'soaress-546234',ambientFrom:140,bed:true,events:[],ending:'ambient',lead:1.1,tail:3.8,titleGap:.4,cleanHandles:true,bedFadeSeconds:1.4,bedOpeningGain:.16,bedSpeechGain:.08,bedRaisedGain:.23,bedLowpassHz:800},
+ S093:{takeId:'S093-REPAIRED',ambient:'bexhillcollege-274213',ambientFrom:6,bed:true,events:[],ending:'ambient',lead:1.1,tail:3.8,titleGap:.4,cleanHandles:true,bedFadeSeconds:1.4,bedOpeningGain:.16,bedSpeechGain:.07,bedRaisedGain:.23,bedLowpassHz:800},
  S058:{ambient:'elenalostale-648659',ambientFrom:20,bed:true,events:[],ending:'ambient',lead:1.2,tail:3.8,titleGap:.4,cleanHandles:true,bedFadeSeconds:1.4,bedOpeningGain:.16,bedSpeechGain:.07,bedRaisedGain:.24},
  S059:{takeId:'S059-REPAIRED',ambient:'kyles-450728',ambientFrom:5,bed:true,events:[],ending:'ambient',lead:1.2,tail:3.8,titleGap:.4,cleanHandles:true,bedFadeSeconds:1.4,bedOpeningGain:.16,bedSpeechGain:.07,bedRaisedGain:.24},
  S061:{takeId:'S061-REPAIRED',ambient:'bexhillcollege-274213',ambientFrom:6,bed:true,events:[],ending:'ambient',lead:1.3,tail:3.8,titleGap:.4,cleanHandles:true,bedFadeSeconds:1.4,bedOpeningGain:.16,bedSpeechGain:.07,bedRaisedGain:.24,bedLowpassHz:800},
@@ -102,6 +104,7 @@ Object.assign(recipes,{
  S119:{newsMusic:true,events:[],ending:'ambient',lead:2.5,tail:4.25,titleGap:.65,cleanHandles:true},
  S114:{newsMusic:true,events:[],ending:'ambient',lead:2.5,tail:4.25,titleGap:.65,cleanHandles:true},
  S116:{newsMusic:true,events:[],ending:'ambient',lead:2.5,tail:4.25,titleGap:.65,cleanHandles:true},
+ S118:{newsMusic:true,events:[],ending:'ambient',lead:2.5,tail:4.25,titleGap:.65,cleanHandles:true},
  S120:{ambient:'kyles-450728',ambientFrom:5,bed:true,events:[],ending:'ambient',lead:1.1,tail:3.8,titleGap:.4,cleanHandles:true,bedFadeSeconds:1.4,bedOpeningGain:.14,bedSpeechGain:.06,bedRaisedGain:.20},
  S123:{ambient:'bexhillcollege-274213',ambientFrom:6,bed:true,events:[],ending:'ambient',lead:1.1,tail:3.8,titleGap:.4,cleanHandles:true,bedFadeSeconds:1.4,bedOpeningGain:.14,bedSpeechGain:.06,bedRaisedGain:.20,bedLowpassHz:800},
  S124:{ambient:'callmethefoo-744447',ambientFrom:12,bed:true,events:[],ending:'ambient',lead:1.1,tail:3.8,titleGap:.4,cleanHandles:true,bedFadeSeconds:1.4,bedOpeningGain:.16,bedSpeechGain:.07,bedRaisedGain:.23},

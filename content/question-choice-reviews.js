@@ -10085,5 +10085,755 @@ export const questionChoiceReviews = [
     "reviewedAt": "2026-11-25",
     "teacherValidation": "pending",
     "fingerprint": "830c8a32df13a081ed2ca28f841358ecdf05b7b7ee1e52ff5fad8deb845b8fbd"
+  },
+  {
+    "activity": "ca-S131",
+    "questionId": "arribar",
+    "status": "passed",
+    "author": "/root/autoria_faules_131_134",
+    "reviewer": "autoria_llegendes_135_138",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "2f376c606c705ce01399ff0d665527ccc03f02bcc7d63ee658e1522e2812ed11",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S131",
+    "questionId": "bec",
+    "status": "passed",
+    "author": "/root/autoria_faules_131_134",
+    "reviewer": "autoria_llegendes_135_138",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "4c09548306a0d6b8e411ead10259181c35430b55c3337ed991782c2253134dae",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S131",
+    "questionId": "caiguda",
+    "status": "passed",
+    "author": "/root/autoria_faules_131_134",
+    "reviewer": "autoria_llegendes_135_138",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "fdf321f8e84e0cb24d10754430ef2d59df247f46c6081fd1d19e53dd86167f27",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S131",
+    "questionId": "demanar",
+    "status": "passed",
+    "author": "/root/autoria_faules_131_134",
+    "reviewer": "autoria_llegendes_135_138",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "2440cb607765e771479dfc1c6f8cb75f0e57ec36685cb15fa7f3fd349ac9a189",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S131",
+    "questionId": "intencio",
+    "status": "passed",
+    "author": "/root/autoria_faules_131_134",
+    "reviewer": "autoria_llegendes_135_138",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "8c8d8cec44d2ddc5e7378f0bd7d82343a705fffd0e043405655e5ef76ab64d7e",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S131",
+    "questionId": "oblidar",
+    "status": "passed",
+    "author": "/root/autoria_faules_131_134",
+    "reviewer": "autoria_llegendes_135_138",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "ceed5685505660564939bc5e8ec7f8f760a55dbae4390b8b4c33130b3a6e896f",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S132",
+    "questionId": "confianca",
+    "status": "passed",
+    "author": "/root/autoria_faules_131_134",
+    "reviewer": "autoria_llegendes_135_138",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "c29bd556c921002251c01462d82a9d53d4727c5807070b2bfcfb751ca2bcabcc",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S132",
+    "questionId": "continuar",
+    "status": "passed",
+    "author": "/root/autoria_faules_131_134",
+    "reviewer": "autoria_llegendes_135_138",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "d94a7ce2989da408f2175921ca7aca142e5200bccfb2e4489e9aaa0683e97dbc",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S132",
+    "questionId": "despertar",
+    "status": "passed",
+    "author": "/root/autoria_faules_131_134",
+    "reviewer": "autoria_llegendes_135_138",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "8cc7a4edda364208a789f691114881587c2e9759f4968350db76dc5fd004fa7b",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S132",
+    "questionId": "meta",
+    "status": "passed",
+    "author": "/root/autoria_faules_131_134",
+    "reviewer": "autoria_llegendes_135_138",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "73e2285d01b6818b77ac4005bf66625e1ed083dd0c2c85a63b67f473d2d328d5",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S132",
+    "questionId": "resultat",
+    "status": "passed",
+    "author": "/root/autoria_faules_131_134",
+    "reviewer": "autoria_llegendes_135_138",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "05d0c75b091eb64c6fab3dc38105e670ec1b48c4c39b199e238646b8c2a4cfe5",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S133",
+    "questionId": "calor",
+    "status": "passed",
+    "author": "/root/autoria_faules_131_134",
+    "reviewer": "autoria_llegendes_135_138",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "09e76d744bb18608b2ca29e1971e2a709e5d242d0ee6bc4b9a675fd575f4b7db",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S133",
+    "questionId": "canvi",
+    "status": "passed",
+    "author": "/root/autoria_faules_131_134",
+    "reviewer": "autoria_llegendes_135_138",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "f057acbaace6eee8fbace867d5083d15163f77bba09df8c5bea0b44b9e2ae411",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S133",
+    "questionId": "condicio",
+    "status": "passed",
+    "author": "/root/autoria_faules_131_134",
+    "reviewer": "autoria_llegendes_135_138",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "3a30e8023f98ee7caab3068fc6895f95fc1f80f352a5bb391a8e78392e348e93",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S133",
+    "questionId": "guanyador",
+    "status": "passed",
+    "author": "/root/autoria_faules_131_134",
+    "reviewer": "autoria_llegendes_135_138",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "1902ffe625d54c3095dbfceb9993d097974029e3ec40d11a3322f8c13c993d7a",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S133",
+    "questionId": "primer",
+    "status": "passed",
+    "author": "/root/autoria_faules_131_134",
+    "reviewer": "autoria_llegendes_135_138",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "61ecd6481e0cf0328531acc15f12657cf429dc12d4671863c8b12aa62e0bbfc6",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S133",
+    "questionId": "reaccio",
+    "status": "passed",
+    "author": "/root/autoria_faules_131_134",
+    "reviewer": "autoria_llegendes_135_138",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "762bb6700ad8e4b77f4f4861ba72457ca8cbd804270c7e112eda875b8726b25a",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S134",
+    "questionId": "confianca",
+    "status": "passed",
+    "author": "/root/autoria_faules_131_134",
+    "reviewer": "autoria_llegendes_135_138",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "17b1765195f897fe43ced69ee99fc50f279736c0cede6a8b86168165eb25efbe",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S134",
+    "questionId": "consequencia",
+    "status": "passed",
+    "author": "/root/autoria_faules_131_134",
+    "reviewer": "autoria_llegendes_135_138",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "961108a990e17ddae41fa0e3bce1b3e0d2153bfc7e5b45959f43590dbc2ab18a",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S134",
+    "questionId": "diferent",
+    "status": "passed",
+    "author": "/root/autoria_faules_131_134",
+    "reviewer": "autoria_llegendes_135_138",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "7349a784457b877febedc9dbd7fb8c17d72caff9ba2013a5d6b592c2e918a4ae",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S134",
+    "questionId": "enfadament",
+    "status": "passed",
+    "author": "/root/autoria_faules_131_134",
+    "reviewer": "autoria_llegendes_135_138",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "b2d0f9e9f95fa27bc524f1edbb3c3c121809ba9e3b0b2da6a6af6e5a91ef80ae",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S134",
+    "questionId": "motiu",
+    "status": "passed",
+    "author": "/root/autoria_faules_131_134",
+    "reviewer": "autoria_llegendes_135_138",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "162b71d330a023ae18805a100c6c79580b4bc95ef651ef8cc26d1c0cb7a35ead",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S134",
+    "questionId": "primera-resposta",
+    "status": "passed",
+    "author": "/root/autoria_faules_131_134",
+    "reviewer": "autoria_llegendes_135_138",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "bf9fac0aa395130fff2369465dccd2ef1ab5111e8ed23cae83493caf0796298a",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S135",
+    "questionId": "accepta",
+    "status": "passed",
+    "author": "/root/autoria_llegendes_135_138",
+    "reviewer": "autoria_mites_139_142",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "d2731ea137a21b470593c6150b359eb2fdd040fbe1854f427014eb2bd6a9910a",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S135",
+    "questionId": "ajuda",
+    "status": "passed",
+    "author": "/root/autoria_llegendes_135_138",
+    "reviewer": "autoria_mites_139_142",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "752888ae2edd348e52ca11d95a215abaad43643b4e56a2fc35591d5cb8af0cdc",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S135",
+    "questionId": "error",
+    "status": "passed",
+    "author": "/root/autoria_llegendes_135_138",
+    "reviewer": "autoria_mites_139_142",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "64b994ffd87b6fe8601d1bb0c063a7836849405c40b5b89154169f479e7db40a",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S135",
+    "questionId": "falta",
+    "status": "passed",
+    "author": "/root/autoria_llegendes_135_138",
+    "reviewer": "autoria_mites_139_142",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "cec7877381018be160f3a8fa6e36d8ca619754a7d6982245b90a1d67b38f5838",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S135",
+    "questionId": "termini",
+    "status": "passed",
+    "author": "/root/autoria_llegendes_135_138",
+    "reviewer": "autoria_mites_139_142",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "e7b08d2aad6ae6b8eaafa6e8ebb98fd0bd169db888935a6e81356298ab6cf04f",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S135",
+    "questionId": "travessa",
+    "status": "passed",
+    "author": "/root/autoria_llegendes_135_138",
+    "reviewer": "autoria_mites_139_142",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "5e5d580ab43764e1f45a42043be82166345f4475d27d32c55d809fabee36cd37",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S136",
+    "questionId": "armes",
+    "status": "passed",
+    "author": "/root/autoria_llegendes_135_138",
+    "reviewer": "autoria_mites_139_142",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "f9b02a163c39c901485a123c79f9defe2c4dce8b2d497061c9fbb6c291df8151",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S136",
+    "questionId": "gest",
+    "status": "passed",
+    "author": "/root/autoria_llegendes_135_138",
+    "reviewer": "autoria_mites_139_142",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "575a5faab2683def24c5960caefa40155692220db870ff93b81604cca150267b",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S136",
+    "questionId": "problema",
+    "status": "passed",
+    "author": "/root/autoria_llegendes_135_138",
+    "reviewer": "autoria_mites_139_142",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "9ee57ba012fd67541f405d64fffbb4c7cacfe1204817f7af95f2bc26b850b7e5",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S136",
+    "questionId": "sense-armes",
+    "status": "passed",
+    "author": "/root/autoria_llegendes_135_138",
+    "reviewer": "autoria_mites_139_142",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "8e0422a2bf89f2367722d029db4e5a70b7de5252768892cf1b190c5f7eac28d9",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S136",
+    "questionId": "soldats",
+    "status": "passed",
+    "author": "/root/autoria_llegendes_135_138",
+    "reviewer": "autoria_mites_139_142",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "39a549a54579b8e36e3706314b57c06fe56bf2307953a73d29a3724f8d47be05",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S136",
+    "questionId": "tornada",
+    "status": "passed",
+    "author": "/root/autoria_llegendes_135_138",
+    "reviewer": "autoria_mites_139_142",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "d2a43f4ed23f5d16175ccf140bd09a06ec50fae9090c50db6a849da8833ec706",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S137",
+    "questionId": "causa",
+    "status": "passed",
+    "author": "/root/autoria_llegendes_135_138",
+    "reviewer": "autoria_mites_139_142",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "e42e0b3d72174766af7962e942f3f53acaa12fd2682083bf5187e44f01477e57",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S137",
+    "questionId": "diferencia",
+    "status": "passed",
+    "author": "/root/autoria_llegendes_135_138",
+    "reviewer": "autoria_mites_139_142",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "a381221dd987b902911f4b1ba7908541c6a1c4f54ef69dbb141e97a5f9e4756c",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S137",
+    "questionId": "grup",
+    "status": "passed",
+    "author": "/root/autoria_llegendes_135_138",
+    "reviewer": "autoria_mites_139_142",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "61371bbf43db7c24307e8ce686da14f896fe2774ed5edac90eda8294acd5e518",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S137",
+    "questionId": "interpreten",
+    "status": "passed",
+    "author": "/root/autoria_llegendes_135_138",
+    "reviewer": "autoria_mites_139_142",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "b22255101cec88725d48244409bdc86f9374b8ca2f5c2b751ba353268994887c",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S137",
+    "questionId": "no-veuen",
+    "status": "passed",
+    "author": "/root/autoria_llegendes_135_138",
+    "reviewer": "autoria_mites_139_142",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "5ba6d675f3588c4f70fa93093ffa0d3f0d7a26c99a4d351cba257c84477e40fd",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S137",
+    "questionId": "retorn",
+    "status": "passed",
+    "author": "/root/autoria_llegendes_135_138",
+    "reviewer": "autoria_mites_139_142",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "1e3a03c74d3bc911519a7bc92c4a19b58433d002ccf7200353a37d2dca2837c5",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S138",
+    "questionId": "destinacions",
+    "status": "passed",
+    "author": "/root/autoria_llegendes_135_138",
+    "reviewer": "autoria_mites_139_142",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "3f72fe5faffd5bfabde3a70543b2bbac538da2e2eaaf191932d2adc8f2992d9a",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S138",
+    "questionId": "dues-visites",
+    "status": "passed",
+    "author": "/root/autoria_llegendes_135_138",
+    "reviewer": "autoria_mites_139_142",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "dd7f8f205a1a9fbf97869ea083d88a8e019bc1587b6087f7db59bdc87100972d",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S138",
+    "questionId": "enfadat",
+    "status": "passed",
+    "author": "/root/autoria_llegendes_135_138",
+    "reviewer": "autoria_mites_139_142",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "992d5c2c173f22f64ad0ec6748b52c110ae022d4bd3fddbb5b037f5182c18ae4",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S138",
+    "questionId": "incompliment",
+    "status": "passed",
+    "author": "/root/autoria_llegendes_135_138",
+    "reviewer": "autoria_mites_139_142",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "cbd1a8fbece52ce8a87fd7be5b91880164e5a3cf9632c32def87b2ddcd89f8ca",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S138",
+    "questionId": "oferta",
+    "status": "passed",
+    "author": "/root/autoria_llegendes_135_138",
+    "reviewer": "autoria_mites_139_142",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "e5b259e5f8393f9d702891ac361d71a9a428afc8f4b8471cba1ca8b9a4d28bdb",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S138",
+    "questionId": "seguir",
+    "status": "passed",
+    "author": "/root/autoria_llegendes_135_138",
+    "reviewer": "autoria_mites_139_142",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "b281ebe22fcccd3231d896586867be3bdcca7a791543e034595265b26194679f",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S139",
+    "questionId": "canvi",
+    "status": "passed",
+    "author": "/root/autoria_mites_139_142",
+    "reviewer": "/root/autoria_faules_131_134",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "9d09f4a24ef05badb1b1b6145a9fc951677dcde098d67efe1545982a8ccc2b29",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S139",
+    "questionId": "desig",
+    "status": "passed",
+    "author": "/root/autoria_mites_139_142",
+    "reviewer": "/root/autoria_faules_131_134",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "6bd63a46f4fc8a9be68de096556b5a26fb85c3be35463151b80a7b64cff61573",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S139",
+    "questionId": "font",
+    "status": "passed",
+    "author": "/root/autoria_mites_139_142",
+    "reviewer": "/root/autoria_faules_131_134",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "db8222faef59ae0a6439e76a8a8e780022893ca3e36cc4811b5e7eed73f1cdba",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S139",
+    "questionId": "gana",
+    "status": "passed",
+    "author": "/root/autoria_mites_139_142",
+    "reviewer": "/root/autoria_faules_131_134",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "d55d614e44f8cd97c23917918e2ed8fe36bebddbeaa0c7c3b33d69dfa8b949f1",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S139",
+    "questionId": "pa",
+    "status": "passed",
+    "author": "/root/autoria_mites_139_142",
+    "reviewer": "/root/autoria_faules_131_134",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "a784d0a5b6767488836ff87e9b3c0ee2505c922f79348fab92082fe9f73a22e8",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S139",
+    "questionId": "proves",
+    "status": "passed",
+    "author": "/root/autoria_mites_139_142",
+    "reviewer": "/root/autoria_faules_131_134",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "814798be660b1922a59afd92ffa8e4fc1d31132b359c5ef69debb9305897a05b",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S139",
+    "questionId": "regal",
+    "status": "passed",
+    "author": "/root/autoria_mites_139_142",
+    "reviewer": "/root/autoria_faules_131_134",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "1a1e1d22e195361875f5956679493986c344d037610bd61b76dc0db7f6f0cade",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S140",
+    "questionId": "altura",
+    "status": "passed",
+    "author": "/root/autoria_mites_139_142",
+    "reviewer": "/root/autoria_faules_131_134",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "18f2e07ed9862a20fbeffcd054ccc1fce736819b508ea8176e38d9c6a316ec99",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S140",
+    "questionId": "baix",
+    "status": "passed",
+    "author": "/root/autoria_mites_139_142",
+    "reviewer": "/root/autoria_faules_131_134",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "27c7324635cfb13d096c5f3711fa60c7e44983aa5c8740d4edf47efc3b0ad179",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S140",
+    "questionId": "causa",
+    "status": "passed",
+    "author": "/root/autoria_mites_139_142",
+    "reviewer": "/root/autoria_faules_131_134",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "4a71dfa737d7df37242fda8bad6c34820eeb7a7da47ae25e6dadd5636fc46a0a",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S140",
+    "questionId": "fugida",
+    "status": "passed",
+    "author": "/root/autoria_mites_139_142",
+    "reviewer": "/root/autoria_faules_131_134",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "e43511cff3678fc4b27f3c2712e37486d266a72c7ae518ff3a4fd33f4b92b7af",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S140",
+    "questionId": "pista",
+    "status": "passed",
+    "author": "/root/autoria_mites_139_142",
+    "reviewer": "/root/autoria_faules_131_134",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "d878a376e365a40c01488cc35be482cb065357fb07528b450b89e12412b5b7d4",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S140",
+    "questionId": "separa",
+    "status": "passed",
+    "author": "/root/autoria_mites_139_142",
+    "reviewer": "/root/autoria_faules_131_134",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "dcccf17860415b1d4293137ee8ecbd76f501dc36a5bd10407aa370bc29b492ca",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S140",
+    "questionId": "unio",
+    "status": "passed",
+    "author": "/root/autoria_mites_139_142",
+    "reviewer": "/root/autoria_faules_131_134",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "e7d79b5e4658dca395404a2a59713289c6e22a09086a845bc091540205f78227",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S141",
+    "questionId": "acord",
+    "status": "passed",
+    "author": "/root/autoria_mites_139_142",
+    "reviewer": "/root/autoria_faules_131_134",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "aabbcc750bad97ff34c7683f8b6e0a26f3f324df3ebd339c77da77ec954fe82a",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S141",
+    "questionId": "condicio",
+    "status": "passed",
+    "author": "/root/autoria_mites_139_142",
+    "reviewer": "/root/autoria_faules_131_134",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "195128d405ba9c3866657d56419b795709de3fdd097024a3fbf0e09365f96025",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S141",
+    "questionId": "encarrec",
+    "status": "passed",
+    "author": "/root/autoria_mites_139_142",
+    "reviewer": "/root/autoria_faules_131_134",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "bb2a8e0bb90a57ce8cf73e1fa61e96118313c81643fe253a230d6343f91b5581",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S141",
+    "questionId": "gana",
+    "status": "passed",
+    "author": "/root/autoria_mites_139_142",
+    "reviewer": "/root/autoria_faules_131_134",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "c3fd73951d45492a58d32241d644617d563726111051899e56c96fb4290a7853",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S141",
+    "questionId": "magrana",
+    "status": "passed",
+    "author": "/root/autoria_mites_139_142",
+    "reviewer": "/root/autoria_faules_131_134",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "1c9e5222daa24789d494150766ed8c8833efd9e6d05c3212cfc3d404bd06906c",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S141",
+    "questionId": "separacio",
+    "status": "passed",
+    "author": "/root/autoria_mites_139_142",
+    "reviewer": "/root/autoria_faules_131_134",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "86e7ee6fd0a54f9e9b601575175e9cc08d79fe4242d50bc2e54170e79bb099d9",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S141",
+    "questionId": "testimoni",
+    "status": "passed",
+    "author": "/root/autoria_mites_139_142",
+    "reviewer": "/root/autoria_faules_131_134",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "fb3feb68ab1395ace8bf899071c0f91588d88a9811bb14aa5ef8515cffb24af7",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S142",
+    "questionId": "canvi",
+    "status": "passed",
+    "author": "/root/autoria_mites_139_142",
+    "reviewer": "/root/autoria_faules_131_134",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "19220b77c139f6710f608e6df6e73405f03572f9824f367d57f572ad7028fe43",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S142",
+    "questionId": "excusa",
+    "status": "passed",
+    "author": "/root/autoria_mites_139_142",
+    "reviewer": "/root/autoria_faules_131_134",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "454b462201576064cac73a5bc98527f910958221ed21fb553d2636b11ff527e7",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S142",
+    "questionId": "intercanvi",
+    "status": "passed",
+    "author": "/root/autoria_mites_139_142",
+    "reviewer": "/root/autoria_faules_131_134",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "7054149ee722bb24bca1dece4847cb95dd360799053524140005667315ef5540",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S142",
+    "questionId": "ordre",
+    "status": "passed",
+    "author": "/root/autoria_mites_139_142",
+    "reviewer": "/root/autoria_faules_131_134",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "f5ae136ef0bad9734c8f9025b97a8beb823a780d0384eed53a337d7bb9afff05",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S142",
+    "questionId": "ordre-zeus",
+    "status": "passed",
+    "author": "/root/autoria_mites_139_142",
+    "reviewer": "/root/autoria_faules_131_134",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "d3d074b3410475af27c8d9864a111617e795dbfe11230fc2ed121d4b66ccd315",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S142",
+    "questionId": "pare",
+    "status": "passed",
+    "author": "/root/autoria_mites_139_142",
+    "reviewer": "/root/autoria_faules_131_134",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "98b5c59035e3f6f16f6da4061232eaf3cc3d952b20661f127c89a42405d96430",
+    "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S142",
+    "questionId": "petjades",
+    "status": "passed",
+    "author": "/root/autoria_mites_139_142",
+    "reviewer": "/root/autoria_faules_131_134",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "70d68ef1d33605af33fa5a38f3906ba245ce9245217188900bdbe434a1ded54f",
+    "teacherValidation": "pending"
   }
 ];

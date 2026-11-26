@@ -52,7 +52,10 @@ for(const entry of [...proposedActivities,...proposedVariants]){
  assert.deepEqual(buildEvidence(entry).errors,[],entry.code+' evidence anchors');
  const body=entry.transcript.filter(part=>part.speaker),ids=body.map(part=>part.id);
  assert.equal(new Set(ids).size,ids.length);assert(entry.production.words>=(balanceActivities.includes(entry)?80:150)&&entry.production.words<=650,entry.code+' complete age-appropriate spoken length');
- assert(entry.transcript.filter(part=>part.kind==='direction').length>=3);
+ // Continuous single-narrator stories need opening/closing directions; the
+ // complete bed, ducking and ending plan lives in production.soundPlan.
+ assert(entry.transcript.filter(part=>part.kind==='direction').length>=(traditionActivities.includes(entry)?2:3),entry.code+' montage directions');
+ if(traditionActivities.includes(entry))assert(entry.production.soundPlan&&entry.productionNotes.length>=3,entry.code+' complete continuous narration plan');
  assert(entry.questions.length>=([ ...balanceActivities,...traditionActivities].includes(entry)?4:6)&&entry.questions.length<=10);questions+=entry.questions.length;
  const anonymous = speaker => ['Narradora','Narrador'].includes(speaker);
  const cast=charactersForActivity(entry),guests=entry.guestSpeakers??[],guestNames=new Set(guests.map(guest=>guest.name));

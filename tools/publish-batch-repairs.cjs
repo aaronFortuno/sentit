@@ -8,9 +8,9 @@ async function main(){
  const folder=path.join(work,'mixed-batches',id.toLowerCase()+'-'+batch.approvedRequestHash.slice(0,12)),split=JSON.parse(await fs.readFile(path.join(folder,'split.json'),'utf8')),plans=JSON.parse(await fs.readFile(path.join(root,'content/audio-repairs.json'),'utf8')),{activities}=await import('../catalogue.js'),binary=await ffmpegBinary(),records=[],takeIndex=JSON.parse(await fs.readFile(path.join(work,'mixed-batches/takes.json'),'utf8'));
  await fs.mkdir(path.join(root,'assets/audio/repairs'),{recursive:true});
  for(const take of split.cuts.filter(c=>!/-T\d+$/.test(c.id)&&!batch.blocks.some(b=>b.extra===c.id))){
-  const plan=plans[take.code],repair=plan.repairs.find(r=>r.part===take.parts[0]),trial=plan.nextTrials?.trials.find(t=>t.id===take.id),entry=activities.find(e=>e.code===take.code),legacy=path.join(work,take.code.toLowerCase());await fs.mkdir(legacy,{recursive:true});let raw;
+  const plan=plans[take.code],repair=plan.repairs.find(r=>r.part===take.parts[0]),trial=plan.nextTrials?.trials.find(t=>t.id===take.id),entry=activities.find(e=>e.code===take.code),legacy=path.join(work,take.code.toLowerCase());await fs.mkdir(legacy,{recursive:true});let raw,sourceTake;
   if(plan.sourceTakeId){
-   const source=takeIndex[plan.sourceTakeId];if(!source||source.code!==take.code||source.sha256!==plan.sourceTakeSha256||source.batchRequestHash!==plan.sourceRequestHash||source.rawBatchSha256!==plan.sourceRawSha256||createHash('sha256').update(await fs.readFile(source.file)).digest('hex')!==plan.sourceTakeSha256)throw Error('Presa original canviada.');raw=source.file;
+   const source=takeIndex[plan.sourceTakeId];if(!source||source.code!==take.code||source.sha256!==plan.sourceTakeSha256||source.batchRequestHash!==plan.sourceRequestHash||source.rawBatchSha256!==plan.sourceRawSha256||createHash('sha256').update(await fs.readFile(source.file)).digest('hex')!==plan.sourceTakeSha256)throw Error('Presa original canviada.');raw=source.file;sourceTake=source;
   }else{
    const files=await fs.readdir(legacy),names=files.filter(n=>n.endsWith('.wav')&&n.includes(plan.sourceRequestHash.slice(0,12)));
    for(const name of names){const file=path.join(legacy,name);if(createHash('sha256').update(await fs.readFile(file)).digest('hex')===plan.sourceRawSha256){raw=file;break;}}
@@ -18,10 +18,17 @@ async function main(){
   if(!raw)throw Error('Presa original no localitzada: '+take.code);
   const missingOriginal=repair.missingOriginal===true||repair.part==='introduction'&&plan.scope==='missing-title',stem=id.toLowerCase()+'-'+take.code.toLowerCase()+'-'+(trial?trial.id:repair.part),candidateFile='assets/audio/repairs/'+stem+'-prova.mp3';let originalFile;
   if(!missingOriginal){
+  // A derived take keeps its verified, shifted turn boundaries. Re-recognizing
+  // the full recording can align a repeated phrase to the wrong occurrence.
+  const known=sourceTake?.spans?.find(s=>s.part===repair.part&&s.text===repair.text&&s.coverage>=.65&&s.start>=0&&s.end>s.start&&s.end<=sourceTake.seconds);
+  let from,to;
+  if(known){from=Math.max(0,known.start-.3);to=Math.min(sourceTake.seconds,known.end+.45);}
+  else {
   const recognition=await recognize(raw,path.join(legacy,'comparison-original-alignment.json')),expected=tokens([entry.introduction,...entry.transcript.filter(p=>p.speaker).map(p=>p.text)].join(' ')),phrase=tokens(repair.text),offsets=[];
   for(let i=0;i<=expected.length-phrase.length;i++)if(phrase.every((t,j)=>expected[i+j]===t))offsets.push(i);if(offsets.length!==1)throw Error('Frase original ambigua.');
   const {map}=align(expected,recognition.words),words=map.slice(offsets[0],offsets[0]+phrase.length).filter(Boolean);if(words.length/phrase.length<.65)throw Error('Comparació original sense prou cobertura.');
-  const from=Math.max(0,words[0].start-.25),to=Math.min(recognition.duration,words.at(-1).end+.4);
+  from=Math.max(0,words[0].start-.25);to=Math.min(recognition.duration,words.at(-1).end+.4);
+  }
   originalFile='assets/audio/repairs/'+stem+'-original.mp3';
   ffmpeg(binary,['-v','error','-y','-i',raw,'-af',`atrim=start=${from}:end=${to},asetpts=PTS-STARTPTS,loudnorm=I=-19:TP=-2.5:LRA=9,aresample=48000,adelay=250:all=1,apad=pad_dur=0.3`,'-c:a','libmp3lame','-q:a','3',path.join(root,originalFile)]);
   }

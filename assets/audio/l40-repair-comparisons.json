@@ -25,14 +25,17 @@
       "part": "finalreunio",
       "text": "Quan hagis parlat amb ella, ens expliques què t’ha dit. Va, ara escoltem el grup de les endevinalles.",
       "pronunciation": "Clearly pronounce the canonical Catalan word hagis in Quan hagis parlat, never hagues or hagas. Keep the same adult female Mireia voice and natural rhythm. Read the full turn and do not read these instructions.",
-      "status": "received-awaiting-listening",
+      "status": "approved-awaiting-application",
       "originalFile": "assets/audio/repairs/l40-s041-finalreunio-original.mp3",
       "candidateFile": "assets/audio/repairs/l40-s041-finalreunio-prova.mp3",
       "sourceRawSha256": "4bcdb6306e09bc40b58de637d9e4c3d8cb63477429a60ccf89bb8602cf05d809",
       "sourceTakeId": "S041-T01",
       "sourceTakeSha256": "67ea4df411eb27fa99e64ff706302a192277746961c0153c0ee7f72a5fc73e9e",
       "batchRequestHash": "5808ddd12485a1772a021a21db2f16fa5be9cd4a42ed90c894aaf948ed7a38be",
-      "applied": false
+      "applied": false,
+      "approvedAt": "2026-11-26",
+      "confirmation": "Docent 26/11: esmena finalreunio de S041 validada; incorporar la presa exacta.",
+      "candidateSha256": "68ba9f5b295afe179685468ad9298522bab0e2d079ff6b73a3be97415cbc2bba"
     }
   ],
   "masterChanged": false

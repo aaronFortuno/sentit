@@ -1,0 +1,162 @@
+{
+  "model": "gemini-3.8-flash-tts",
+  "input": [
+    {
+      "type": "user_input",
+      "content": [
+        {
+          "type": "text",
+          "text": "Comprensió oral. Com conserva el fred una bossa tèrmica?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants. Mireia adulta propera, Aoede estable; Laia jove, Leda estable. Conversa de petit grup amb preguntes reals, dubtes i reaccions breus. L’explicació causal és el centre; cap tercera veu, moralina ni llenguatge de reunió. Dicció natural i clara, sense llegir les acotacions. Read the title and complete programme verbatim. Leave a brief quiet boundary after the title, without speaking any stage directions or pause instructions. No added sounds, music, words or vocalizations. Preserve the exact assigned female voices: Mireia is Aoede, Laia is Leda, never a male voice. Keep each identity stable throughout this entire dialogue. Say the full Catalan word ampolla and its plural ampolles whenever supplied, including the initial am; do not omit that syllable or replace the word with bolla. Read only the supplied text; no spoken directions or added sounds. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its dialogue. Keep the same two character voices throughout all recordings. Instructions are not spoken."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Mireia, aquestes dues ampolles eren fredes quan les hem tret de la nevera. La que ha quedat a la taula ja és més tèbia. La de dins de la bossa encara és fresca.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants. Mireia adulta propera, Aoede estable; Laia jove, Leda estable. Conversa de petit grup amb preguntes reals, dubtes i reaccions breus. L’explicació causal és el centre; cap tercera veu, moralina ni llenguatge de reunió. Dicció natural i clara, sense llegir les acotacions. Read the title and complete programme verbatim. Leave a brief quiet boundary after the title, without speaking any stage directions or pause instructions. No added sounds, music, words or vocalizations. Preserve the exact assigned female voices: Mireia is Aoede, Laia is Leda, never a male voice. Keep each identity stable throughout this entire dialogue. Say the full Catalan word ampolla and its plural ampolles whenever supplied, including the initial am; do not omit that syllable or replace the word with bolla. Read only the supplied text; no spoken directions or added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Aquesta és una bossa tèrmica. Té una capa de material que dificulta el pas de la calor. Com que a fora fa més calor que a dins, aquesta capa fa que l’ampolla s’escalfi més a poc a poc.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Preserve the exact assigned female voices: Mireia is Aoede, Laia is Leda, never a male voice. Keep each identity stable throughout this entire dialogue. Say the full Catalan word ampolla and its plural ampolles whenever supplied, including the initial am; do not omit that syllable or replace the word with bolla. Read only the supplied text; no spoken directions or added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Però no té cap endoll. Si hi poso una ampolla que ha estat a l’habitació, es tornarà freda com a la nevera?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice and pace. Verbatim, no added sounds. Preserve the exact assigned female voices: Mireia is Aoede, Laia is Leda, never a male voice. Keep each identity stable throughout this entire dialogue. Say the full Catalan word ampolla and its plural ampolles whenever supplied, including the initial am; do not omit that syllable or replace the word with bolla. Read only the supplied text; no spoken directions or added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "La bossa tota sola no produeix fred. L’ampolla que hi has deixat ja era freda quan l’hi has posada. La bossa retarda el canvi de temperatura. Si hi afegim un acumulador congelat, també hi posem una cosa freda que ajuda a mantenir fresc l’interior.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice, pace and character. Read the words verbatim, with conversational turn-taking. No added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Ah, per això per a la sortida hi posem aquella peça blava del congelador. I si vaig obrint la bossa tota l’estona?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice, pace and character. Read the words verbatim, with conversational turn-taking. No added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Cada vegada que l’obres, es barreja l’aire de dins amb el de fora. Mantenir-la tancada ajuda a conservar-ne la temperatura. Amb el temps, el que hi ha a dins també es va escalfant.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice, pace and character. Read the words verbatim, with conversational turn-taking. No added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Demà podem deixar una ampolla a cada lloc i mirar què passa al cap d’una estona?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice, pace and character. Read the words verbatim, with conversational turn-taking. No added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí. Posem la mateixa quantitat d’aigua en dues ampolles iguals, igual de fredes al començament. Una dins de la bossa i l’altra a fora, al costat, totes dues a l’ombra. Així compararem l’efecte de la bossa.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice1",
+              "style": "Same natural Central Catalan voice, pace and character. Read the words verbatim, with conversational turn-taking. No added sounds."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "D’acord. Ara tanco aquesta, que l’he deixada oberta mentre en parlàvem.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Same natural Central Catalan voice, pace and character. Read the words verbatim, with conversational turn-taking. No added sounds. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. Ens falta espai per jugar.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, exact assigned character identity and natural pace. Read every supplied word completely, without labels, spoken instructions, music, effects or added narration. Read the complete exercise introduction and title once, with the same youthful female Laia/Leda identity; no omitted beginning or added words. This is a separate repair paragraph with no title. Keep the same character voice as in the complete recordings. Read every supplied word once, including the first sentence. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition.",
+              "speaker": "Voice2"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Biel, la pilota! Agafa-la, que va cap al camí!",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, exact assigned character identity and natural pace. Read every supplied word completely, without labels, spoken instructions, music, effects or added narration. Read the entire brief Laia line clearly in a youthful female Laia/Leda voice, alert but not shrieking. Both sentences were omitted; do not skip either. Do not read this direction. This is a separate repair paragraph with no title. Keep the same character voice as in the complete recordings. Read every supplied word once, including the first sentence. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition.",
+              "speaker": "Voice2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "response_format": {
+    "type": "audio",
+    "mime_type": "audio/wav",
+    "sample_rate": 24000
+  },
+  "generation_config": {
+    "speech_config": {
+      "speakers": [
+        {
+          "speaker": "Voice1",
+          "voice": "Aoede"
+        },
+        {
+          "speaker": "Voice2",
+          "voice": "Leda"
+        }
+      ]
+    }
+  },
+  "background": true
+}

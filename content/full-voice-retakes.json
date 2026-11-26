@@ -176,5 +176,72 @@
     },
     "montageAllowed": false,
     "application": "Una nova presa completa de títol i diàleg per mantenir coherència de les dues veus. Comparar-la amb l’original i esperar audició docent abans de muntar; no generar torns aïllats ni substituir automàticament."
+  },
+  "S070": {
+    "activity": "ca-S070",
+    "status": "approved-awaiting-compatible-batch",
+    "scope": "whole-recording",
+    "takeId": "S070-T02",
+    "approvedAt": "2026-11-26",
+    "approvalSource": "Docent 26/11: tornar a generar l’àudio sencer de S070 perquè l’esmena enfosqueix la veu i no resol el problema.",
+    "sourceTakeId": "S070-T01",
+    "sourceTakeSha256": "760143315f68bf9b649e208ed3e37c6ad3e325488f8b73198d1a1b8099367da3",
+    "sourceRequestHash": "4a2634e49163d602016cbc69c25809b31754d5e940e3283e0c938522deada250",
+    "sourceRawSha256": "f59f33398e753916473bd88dc78345ff02faeedc4f4bb046275f9d453bc4b561",
+    "sourceEditorialFingerprint": "c329111785d5c98723a68257817238bd4792b6d1e4aa29db52169070f355f2dd",
+    "voices": {
+      "Ferran": "Algenib"
+    },
+    "parts": [
+      "introduction",
+      "festa",
+      "llum",
+      "esperar",
+      "comencar",
+      "tornar",
+      "despres"
+    ],
+    "preservesOriginals": true,
+    "request": {
+      "model": "gemini-3.8-flash-tts",
+      "input": [
+        {
+          "type": "user_input",
+          "content": [
+            {
+              "type": "text",
+              "text": "Comprensió oral. El dia que no va sonar el disc. \n\nAina, el meu pare tenia un acordió guardat a l’armari. El tocava alguns diumenges a casa, quan acabàvem de dinar. Un any el vam portar a la festa del carrer perquè un veí li havia demanat que toqués una cançó al final. La resta del ball el farien amb discos.\n\nLa plaça estava plena de taules i havien penjat unes bombetes damunt de la pista de ball. Jo ajudava a recollir els gots buits. Quan el veí anava a posar el primer disc, es van apagar les bombetes. També es va quedar sense llum la botiga del costat.\n\nEls grans anaven d’un costat a l’altre per saber què havia passat. Mentrestant, la gent s’asseia i els petits corríem entre les cadires. El pare va anar a buscar l’acordió, que havia deixat a casa d’aquell veí, a la planta baixa, perquè no li fes nosa.\n\nVa seure prop de la porta i va començar a tocar. Al principi només se li acostaven quatre persones. Després una parella es va posar a ballar, algú més els va seguir i la rotllana de cadires es va anar eixamplant. El pare em va demanar el got d’aigua que jo portava i el vaig deixar al seu costat.\n\nAl cap d’una estona van tornar les bombetes. El veí ja tenia la mà a punt per posar el disc, però va veure que el pare encara tocava i va esperar que acabés la cançó. La gent va aplaudir i el pare va plegar l’acordió sobre els genolls, tot vermell de galtes.\n\nLlavors van començar els discos i ell va baixar a ballar amb la mare. L’acordió va tornar al seu estoig i jo vaig continuar recollint gots. Això sí: quan passava pel seu costat, el pare m’anava dient que aquell era seu, que no l’hi prengués. Després de tanta estona tocant, encara no havia begut ni un glop.",
+              "annotations": [
+                {
+                  "type": "speech_metadata",
+                  "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants and natural pauses. Ferran explica un record a l’Aina amb veu adulta càlida, ritme natural i petites reaccions pròpies de qui recorda una escena. Una sola veu: les persones del passat s’expliquen, no es representen amb altres timbres. Tancaments concrets de la història, sense consell universal afegit. No llegir anotacions ni afegir rialles o paraules. Read only the supplied dialogue verbatim. First the exercise title, a long pause, then the whole program. No added sounds, words or vocalizations. Keep the warm, lightly smiling older male Ferran/Algenib voice stable from beginning to end. Natural clear Central Catalan. Pronounce the canonical word asseia fluently with its normal stress, without shifting stress to the I. No sudden darker or deeper replacement voice. Read only supplied speech; no instructions, music or effects."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "response_format": {
+        "type": "audio",
+        "mime_type": "audio/wav",
+        "sample_rate": 24000
+      },
+      "generation_config": {
+        "speech_config": [
+          {
+            "voice": "Algenib"
+          }
+        ]
+      }
+    },
+    "approvedRequestHash": "7b04358057b0407a6902450302d6c6bc8f58ca3f687f64fe4fe5206347e06782",
+    "forecast": {
+      "words": 322,
+      "longPauses": 0,
+      "shortPauses": 0,
+      "seconds": 118
+    },
+    "montageAllowed": false,
+    "application": "Presa completa estable; comparar abans de muntar. Es conserven el màster i les esmenes anteriors com a històric, sense aplicar-les."
   }
 }

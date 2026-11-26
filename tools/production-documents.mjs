@@ -29,8 +29,8 @@ const list = entries => entries.map(link).join(', ') || 'Cap';
 export async function productionDocuments(date) {
   if (!/^\d{4}-\d{2}-\d{2}$/u.test(date) || new Date(date).toISOString().slice(0, 10) !== date) throw Error('Invalid report date');
   const displayDate = date.split('-').reverse().join('/');
-  const [plans, batchCatalogue, repairs] = await Promise.all([
-    json('content/production-plans.json'), json('content/synthesis-batches.json'), json('content/audio-repairs.json'),
+  const [plans, batchCatalogue, repairs, fullRetakes] = await Promise.all([
+    json('content/production-plans.json'), json('content/synthesis-batches.json'), json('content/audio-repairs.json'), json('content/full-voice-retakes.json'),
   ]);
   const receiptDirectory = new URL('../assets/audio/synthesis-batches/', import.meta.url);
   const receiptFiles = (await readdir(receiptDirectory)).filter(file => /^l\d+\.json$/u.test(file));
@@ -103,19 +103,25 @@ export async function productionDocuments(date) {
         weight+=estimateSynthesis({input:[{content:[extra.canonicalBlock]}]}).words*60/policy.wordsPerMinute;
         batchVoices.add(extra.voice);descriptions.push(extra.id+' · pilot multimodal final');continue;
       }
-      const id = ref.take ?? ref.retry ?? ref.trial ?? ref.code + '-' + ref.part;
+      const id = ref.fullRetake ?? ref.take ?? ref.retry ?? ref.trial ?? ref.code + '-' + ref.part;
       if (receivedIds.has(id)) throw Error(`${batch.id}: received material still listed as pending: ${id}`);
       const entry = activities.find(entry => entry.code === ref.code);
       if (!entry) throw Error('Unknown pending activity: ' + ref.code);
       let body;
-      if (ref.take) {
+      if (ref.take || ref.fullRetake) {
         if (entry.audio) throw Error('Pending take already has a montage: ' + ref.code);
-        const index = entry.generationPlan.takes.findIndex(take => take.id === ref.take);
-        if (index < 0) throw Error('Unknown pending take: ' + ref.take);
-        body = packedProposalRequests(entry)[index];
+        if (ref.fullRetake) {
+          const plan = fullRetakes[ref.code];
+          if (!plan || plan.takeId !== ref.fullRetake || plan.approvedRequestHash !== ref.sourceRequestHash) throw Error('Unknown pending full retake: ' + ref.fullRetake);
+          body = plan.request;
+        } else {
+          const index = entry.generationPlan.takes.findIndex(take => take.id === ref.take);
+          if (index < 0) throw Error('Unknown pending take: ' + ref.take);
+          body = packedProposalRequests(entry)[index];
+        }
         const speech = body.generation_config.speech_config;
         for (const speaker of Array.isArray(speech) ? speech : speech.speakers) batchVoices.add(speaker.voice);
-        descriptions.push(ref.code);
+        descriptions.push(ref.code + (ref.fullRetake ? ' · nova presa íntegra' : ''));
       } else {
         const plan = repairs[ref.code], trial=plan?.nextTrials?.trials.find(t=>t.id===ref.trial),repair = plan?.repairs.find(repair => repair.part === (trial?plan.nextTrials.part:ref.part));
         if (!repair) throw Error('Unknown pending repair: ' + id);

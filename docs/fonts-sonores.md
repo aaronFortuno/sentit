@@ -156,3 +156,8 @@ S023 es publica amb la variació inicial de timbre de la represa acceptada expl�
 - **S029 · 80,39 s:** recuperada la presentació íntegra del cru entre 1,5 i 5,8 s, incloent Notícia de ficció; fora el farciment Molt bé xic… també de la còpia de revisió de veus v2. Cos PCM i MP3 conservats. La primera frase no va ser sintetitzada pel proveïdor; el docent autoritza el primer paràgraf complet per al proper lot de Mar. Primer caldrà comparar el timbre i decidir si s’incorpora tot o només la frase absent. No s’ha enviat cap petició curta ni aplicat una veu nova.
 
 S060, S063, S066, S070, S072, S046D i S069D tenen guió i escaleta validats per a futurs lots. S060 incorpora passadís atenuat; S066 passa a 6è intermèdia, per confirmar amb l’audició. L21 prepara S066/S067, sense enviar-lo. Les futures entrades d’aula seran més suaus i s’alternaran fonts verificades; S026 conserva el màster validat.
+
+
+## 26/11/2026 · recepció i muntatges locals
+
+[L41–L44](lots-2026-11-26.md): quatre peticions, cinc preses completes i deu esmenes per escoltar, sense muntatge automàtic. Recuperació local íntegra del PCM. S041, S085, S093 i S118 disposen de muntatge pendent d’audició: respectivament ambient d’aula Tallis0410 CC0, interior urbà soaress CC0 filtrat, passadís interior BexhillCollege CC0 atenuat i base comuna de notícies amb llicència Pixabay. Identitats i SHA verificats als manifests; fonts i crèdits derivats dels recursos realment inclosos. Set publicacions noves conserven exactament els màsters aprovats.

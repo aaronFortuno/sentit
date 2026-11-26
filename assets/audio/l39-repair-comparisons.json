@@ -7,42 +7,51 @@
       "part": "telefon",
       "text": "Sí, truca abans de venir. T’ho explicaré per telèfon. Aquest matí ja he comprovat la guitarra de préstec i només falta que la guardem a la funda.",
       "pronunciation": "Pronounce funda /ˈfun.də/ with stressed U and audible N followed by D: FUN-da, never funa or fona. Keep the adult male Elies voice; do not read this instruction. Prior renderings omitted D or changed U to O. Give the N-D transition enough articulation to hear both consonants, without adding a vowel or spelling letters aloud.",
-      "status": "received-awaiting-listening",
+      "status": "applied-validated-partial",
       "originalFile": "assets/audio/repairs/l39-s081-telefon-original.mp3",
       "candidateFile": "assets/audio/repairs/l39-s081-telefon-prova.mp3",
       "sourceRawSha256": "6b4382326bc34f447e016e085b7ff82937c642a245eeb59de1fc3cf7f531076a",
       "sourceTakeId": "S081-T01",
       "sourceTakeSha256": "abda1d2cdb2f1727886fb57d1c539a7df87595eeba6fae9f2d43c4885f9fa0bd",
       "batchRequestHash": "507a423d7bc8bf6247c3ff6b5ca198711696b71edabb32edb9158ce33eb4eb40",
-      "applied": false
+      "applied": true,
+      "approvedAt": "2026-11-26",
+      "confirmation": "Docent 26/11: esmena telefon de S081 validada; incorporar la presa exacta.",
+      "candidateSha256": "fb382bbd9dc74b27dac12bb0fe3ed893c7f8e4c4a3eef5812b4b44bededb242a",
+      "appliedAt": "2026-11-26",
+      "appliedFile": "assets/audio/s081-voices-review-v2.mp3"
     },
     {
       "code": "S081",
       "part": "final",
       "text": "De res, Biel. Espera, que t’aguanto la funda mentre hi poses el full... així... Fins dijous, i ja m’explicaràs com va l’assaig.",
       "pronunciation": "Pronounce funda /ˈfun.də/ with stressed U and audible N followed by D: FUN-da, never funa or fona. Keep the adult male Elies voice; do not read this instruction. Prior renderings omitted D or changed U to O. Give the N-D transition enough articulation to hear both consonants, without adding a vowel or spelling letters aloud.",
-      "status": "received-awaiting-listening",
+      "status": "rejected-awaiting-resynthesis",
       "originalFile": "assets/audio/repairs/l39-s081-final-original.mp3",
       "candidateFile": "assets/audio/repairs/l39-s081-final-prova.mp3",
       "sourceRawSha256": "6b4382326bc34f447e016e085b7ff82937c642a245eeb59de1fc3cf7f531076a",
       "sourceTakeId": "S081-T01",
       "sourceTakeSha256": "abda1d2cdb2f1727886fb57d1c539a7df87595eeba6fae9f2d43c4885f9fa0bd",
       "batchRequestHash": "507a423d7bc8bf6247c3ff6b5ca198711696b71edabb32edb9158ce33eb4eb40",
-      "applied": false
+      "applied": false,
+      "rejectedAt": "2026-11-26",
+      "rejection": "fona en lloc de funda"
     },
     {
       "code": "S107",
       "part": "sortida",
       "text": "Aquí tens el carro, amb una nansa a cada extrem. La bossa ja és dins d’aquesta funda. Obro la porta: prova’l.",
       "pronunciation": "Pronounce funda /ˈfun.də/ with stressed U and audible N followed by D: FUN-da, never funa or fona. Keep the adult male Elies/Algieba voice throughout the whole turn. Do not read this instruction.",
-      "status": "received-awaiting-listening",
+      "status": "rejected-awaiting-resynthesis",
       "originalFile": "assets/audio/repairs/l39-s107-sortida-original.mp3",
       "candidateFile": "assets/audio/repairs/l39-s107-sortida-prova.mp3",
       "sourceRawSha256": "815d6171203b9b51d2d614e8bc5127851f4857c64e348631ae75cc09bd47d65f",
       "sourceTakeId": "S107-T01",
       "sourceTakeSha256": "525ff41226cc378f4ebbe5371647df5394eeef5eadedde5cc9695ed1b5334dbd",
       "batchRequestHash": "507a423d7bc8bf6247c3ff6b5ca198711696b71edabb32edb9158ce33eb4eb40",
-      "applied": false
+      "applied": false,
+      "rejectedAt": "2026-11-26",
+      "rejection": "carre en lloc de carro i fona en lloc de funda"
     }
   ],
   "masterChanged": false

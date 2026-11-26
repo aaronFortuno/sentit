@@ -1,0 +1,85 @@
+{
+  "model": "gemini-3.8-flash-tts",
+  "input": [
+    {
+      "type": "user_input",
+      "content": [
+        {
+          "type": "text",
+          "text": "De res, Biel. Espera, que t’aguanto la funda mentre hi poses el full... així... Fins dijous, i ja m’explicaràs com va l’assaig.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Same natural adult male Elies/Algieba voice. Warm and helpful, Central Catalan. Read the supplied turns verbatim; preserve each complete word. No title, music, sound effects or added words. This is a corrective retake after both previous attempts failed on funda. Preserve the U vowel and make a complete voiced D closure/release after N, with ordinary fluent rhythm. The recording must contain funda, not funa or fona. Pronounce funda /ˈfun.də/ with stressed U and audible N followed by D: FUN-da, never funa or fona. Keep the adult male Elies voice; do not read this instruction. Prior renderings omitted D or changed U to O. Give the N-D transition enough articulation to hear both consonants, without adding a vowel or spelling letters aloud. Keep the exact adult male Elies/Algieba identity. Say the full canonical word funda with stressed U and the N-D transition, never fona or funa. Natural connected Catalan, not spelling; read only the supplied speech. This is a separate repair paragraph with no title. Keep the exact assigned character voice stable throughout this corrective recording. Read every supplied word once, including the first sentence. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Aquí tens el carro, amb una nansa a cada extrem. La bossa ja és dins d’aquesta funda. Obro la porta: prova’l.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan. Keep the same warm adult male Elies/Algieba voice and natural conversational pace throughout. Read the supplied complete turn once, without title, added words, labels, sound effects or spoken instructions. Pronounce funda /ˈfun.də/ with stressed U and audible N followed by D: FUN-da, never funa or fona. Keep the adult male Elies/Algieba voice throughout the whole turn. Do not read this instruction. Keep the exact adult male Elies/Algieba identity. Say the full canonical word funda with stressed U and the N-D transition, never fona or funa. Say carro with final O, never carre. Natural connected Catalan, not spelling; read only the supplied speech. This is a separate repair paragraph with no title. Keep the exact assigned character voice stable throughout this corrective recording. Read every supplied word once, including the first sentence. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Bon dia. Vinc a tornar la novel·la que em vaig endur. Em falta llegir l’últim capítol, però em sembla que l’havia de tornar avui. Em podríeu deixar uns dies més?",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, exact assigned character identity and natural pace. Read every supplied word completely, without labels, spoken instructions, music, effects or added narration. Read the complete first Ferran turn, including Em falta llegir l’últim capítol, però em sembla que l’havia de tornar avui. Keep warm older male Ferran/Algenib throughout. Do not skip any sentence or read this direction. This is a separate repair paragraph with no title. Keep the exact assigned character voice stable throughout this corrective recording. Read every supplied word once, including the first sentence. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition.",
+              "speaker": "Voice2"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Pel passeig en trigaríem uns vint. Ara són les quatre i tenim fins a les cinc per tornar a casa. La mare ens vindrà a buscar llavors.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan. Keep the same warm older male Ferran/Algenib throughout, with his relaxed conversational pace and gentle humour. Read only the complete supplied turns, without title, added words, labels, sound effects or spoken instructions. Pronounce the Catalan word passeig clearly, preserving the written E vowel; never say passaig. Keep the natural Catalan stress and final consonant, and the warm older male Ferran/Algenib identity. Read the entire supplied turn once; do not read this instruction. This is a separate repair paragraph with no title. Keep the exact assigned character voice stable throughout this corrective recording. Read every supplied word once, including the first sentence. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition.",
+              "speaker": "Voice2"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Tracte fet. I el pròxim cop posa’m les botes al costat de la porta, que avui he sortit ben mudat per anar a trepitjar bassals.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan. Keep the same warm older male Ferran/Algenib throughout, with his relaxed conversational pace and gentle humour. Read only the complete supplied turns, without title, added words, labels, sound effects or spoken instructions. Pronounce bassals clearly: ba-SALS, stressed on the final syllable, with unvoiced SS and a plain final L plus S. Never change the ending into palatal LL or say basalls. Keep the warm older male Ferran/Algenib identity. Read the entire supplied turn once; do not read this instruction. This is a separate repair paragraph with no title. Keep the exact assigned character voice stable throughout this corrective recording. Read every supplied word once, including the first sentence. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition.",
+              "speaker": "Voice2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "response_format": {
+    "type": "audio",
+    "mime_type": "audio/wav",
+    "sample_rate": 24000
+  },
+  "generation_config": {
+    "speech_config": {
+      "speakers": [
+        {
+          "speaker": "Voice1",
+          "voice": "Algieba"
+        },
+        {
+          "speaker": "Voice2",
+          "voice": "Algenib"
+        }
+      ]
+    }
+  },
+  "background": true
+}

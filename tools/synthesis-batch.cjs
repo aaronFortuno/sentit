@@ -13,17 +13,21 @@ async function buildBatch(activities,plans,repairs,batch){
  const content=[],blocks=[],labels=new Map(),voiceIdentities=new Map();
  const plain=batch.speechTextFormat==='plain-v1';
  if(batch.speechTextFormat&&!plain)throw Error('Format de parla desconegut.');
- const compact=batch.styleFormat==='compact-v1',sharedStyles=new Set();
+ const compact=batch.styleFormat==='compact-v1',sharedStyles=new Set(),flexibleRoles=new Set();
  if(batch.styleFormat&&!compact)throw Error('Format de direcció desconegut.');
  if(compact&&!plain)throw Error('La direcció compacta requereix text pla.');
- const guestPolicy=batch.castPolicy;
- const {characters}=guestPolicy?await import('../content/characters.js'):{characters:[]};
+ const repairOnly=batch.castPolicy?.kind==='repair-only-v1',narratorPolicy=batch.castPolicy?.kind==='anchor-with-flexible-narrator-v1'?batch.castPolicy:null,guestPolicy=narratorPolicy||repairOnly?null:batch.castPolicy;
+ const {characters}=batch.castPolicy?await import('../content/characters.js'):{characters:[]};
+ const {loadFullRetake,assertFlexibleNarratorPolicy,assertFlexibleNarratorCast}=require('./full-voice-retake.cjs');
  const {assertGuestPolicy,assertGuestCast,loadExtra}=require('./synthesis-extra.cjs');
  if(guestPolicy){if(!plain)throw Error('Els convidats requereixen text pla.');assertGuestPolicy(guestPolicy,characters);}
+ if(narratorPolicy){if(!plain)throw Error('El narrador flexible requereix text pla.');assertFlexibleNarratorPolicy(narratorPolicy,characters);}
+ if(repairOnly&&(!plain||Object.keys(batch.castPolicy).length!==1||!batch.blocks.length||batch.blocks.some(b=>b.take||b.fullRetake||b.extra||b.trial||!b.code||!b.part)))throw Error('repair-only-v1 només admet esmenes canòniques en text pla, sense lectures, proves o extres.');
  let cast;
  const separatorTags=batch.separatorTags??2;if(![1,2].includes(separatorTags))throw Error('Cal almenys una pausa llarga entre blocs.');
- if(new Set(batch.blocks.map(b=>b.extra??b.retry??b.trial??b.code+':'+(b.take??b.part))).size!==batch.blocks.length)throw Error('Blocs duplicats al lot.');
+ if(new Set(batch.blocks.map(b=>b.extra??b.retry??b.trial??b.code+':'+(b.fullRetake??b.take??b.part))).size!==batch.blocks.length)throw Error('Blocs duplicats al lot.');
  for(const ref of batch.blocks){
+  const whole=Boolean(ref.take||ref.fullRetake);
   if(ref.extra){
    if(!guestPolicy||!cast||ref.code||ref.take||ref.part)throw Error('El tall extern necessita lectures completes compatibles abans.');
    const extra=await loadExtra(ref,guestPolicy,batch.blocks.indexOf(ref),batch.blocks.length),voice=extra.voice;
@@ -38,19 +42,26 @@ async function buildBatch(activities,plans,repairs,batch){
   }
   const entry=activities.find(e=>e.code===ref.code),plan=plans[ref.code];if(!entry||!isEditoriallyReviewed(entry))throw Error(ref.code+': revisió editorial no vigent.');
   let original,sourceItems,parts,spec,sourceRequestHash,selected;
-  if(ref.take){
+  if(whole){
    if(entry.audio)throw Error(ref.code+': ja té àudio; no repetir la síntesi.');
    spec=productionSpec(entry);assertProductionApproved(entry,spec,plan);
    if(plain){
     if(entry.generationPlan.takes.length!==1||spec.performance||spec.overlaps)throw Error('plain-v1 requereix lectures completes sense marques vocals ni solapaments.');
     const identity=JSON.stringify(Object.entries(spec.voices).sort(([a],[b])=>a.localeCompare(b)));
     if(guestPolicy)assertGuestCast(entry,spec,guestPolicy,characters);
+    else if(narratorPolicy){assertFlexibleNarratorCast(entry,spec,plan,narratorPolicy);flexibleRoles.add(Object.keys(spec.voices)[0]===narratorPolicy.narratorRole?'narrator':'anchor');}
     else if(cast&&cast!==identity)throw Error('plain-v1 requereix el mateix repartiment exacte a totes les lectures.');
     cast=identity;
    }
-   const index=entry.generationPlan.takes.findIndex(t=>t.id===ref.take);if(index<0)throw Error('Presa desconeguda.');
-   original=packedProposalRequests(entry)[index];sourceItems=original.input[0].content;parts=entry.generationPlan.takes[index].parts;
+   if(ref.fullRetake){
+    if(!plain)throw Error('Les preses completes de substitució requereixen text pla.');
+    selected=await loadFullRetake(entry,spec,ref);({original,sourceItems,parts}=selected);
+   }else{
+    const index=entry.generationPlan.takes.findIndex(t=>t.id===ref.take);if(index<0)throw Error('Presa desconeguda.');
+    original=packedProposalRequests(entry)[index];sourceItems=original.input[0].content;parts=entry.generationPlan.takes[index].parts;
+   }
   }else{
+   if(narratorPolicy)throw Error('El lot amb narrador flexible només admet lectures completes.');
    if(guestPolicy&&!guestPolicy.allowAnchorRepairs)throw Error('Les esmenes requereixen un lot estricte separat dels papers ocasionals.');
    const correction=repairs[ref.code],trialPart=ref.trial?correction?.nextTrials?.part:null,repair=correction?.repairs.find(r=>r.part===(trialPart??ref.part));spec=repairSpec(entry);assertProductionApproved(entry,spec,plan);
    if(!repair||correction.status!=='approved-for-correction')throw Error('Esmena no autoritzada.');
@@ -73,7 +84,7 @@ async function buildBatch(activities,plans,repairs,batch){
   // once per physical voice. Historical frozen requests keep their old format.
   const start=content.length,items=[],styles=compact?sharedStyles:new Set();
   for(const item of sourceItems){
-   const annotation=item.annotations.find(a=>a.type==='speech_metadata'),sourceSpeaker=annotation.speaker??(ref.take?spec.titleSpeaker:repairs[ref.code].repairs.find(r=>r.part===parts[0]).speaker),voice=voices.find(v=>v.speaker===annotation.speaker)?.voice??(voices.length===1?voices[0].voice:null);
+   const annotation=item.annotations.find(a=>a.type==='speech_metadata'),sourceSpeaker=annotation.speaker??(whole?spec.titleSpeaker:repairs[ref.code].repairs.find(r=>r.part===parts[0]).speaker),voice=voices.find(v=>v.speaker===annotation.speaker)?.voice??(voices.length===1?voices[0].voice:null);
    if(!voice)throw Error('Veu sense correspondència.');
    if(voiceIdentities.has(sourceSpeaker)&&voiceIdentities.get(sourceSpeaker)!==voice)throw Error('Identitat inconsistent dins del lot.');voiceIdentities.set(sourceSpeaker,voice);
    if(!labels.has(voice))labels.set(voice,'Voice'+(labels.size+1));
@@ -87,25 +98,26 @@ async function buildBatch(activities,plans,repairs,batch){
    if(styles.has(styleKey)&&cloned.annotations[0].style.length>repeatedStyle.length)cloned.annotations[0].style=repeatedStyle;
    styles.add(styleKey);
    // A selected repair must not carry separators belonging to its old bundle.
-   if(!ref.take)cloned.text=cloned.text.replace(/(?:\s*<long pause>)+$/u,'');
+   if(!whole)cloned.text=cloned.text.replace(/(?:\s*<long pause>)+$/u,'');
    items.push({text:cloned.text,sourceSpeaker,voice,requestIndex:content.length});content.push(cloned);
   }
   if(plain){
-   if(ref.take){
-   const continuity=guestPolicy?'Keep the assigned physical voices unchanged. This recording has only the supplied cast; guest roles belong only to this scene.':Object.keys(spec.voices).length===1?'Keep this same single character voice throughout all recordings.':'Keep the same two character voices throughout all recordings.';
+   if(whole){
+   const continuity=narratorPolicy?'Keep the assigned physical voice stable. Each recording has its own supplied role and direction: the anonymous narrator is separate from the recurring character. Do not carry names or character mannerisms between recordings.':guestPolicy?'Keep the assigned physical voices unchanged. This recording has only the supplied cast; guest roles belong only to this scene.':Object.keys(spec.voices).length===1?'Keep this same single character voice throughout all recordings.':'Keep the same two character voices throughout all recordings.';
     const passage=Object.keys(spec.voices).length===1?'story':'dialogue';
     content[start].annotations[0].style+=' This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its '+passage+'. '+continuity+' Instructions are not spoken.';
-   }else content[start].annotations[0].style+=' This is a separate repair paragraph with no title. Keep the same character voice as in the complete recordings. Read every supplied word once, including the first sentence. Instructions are not spoken.';
+   }else content[start].annotations[0].style+=repairOnly?' This is a separate repair paragraph with no title. Keep the exact assigned character voice stable throughout this corrective recording. Read every supplied word once, including the first sentence. Instructions are not spoken.':' This is a separate repair paragraph with no title. Keep the same character voice as in the complete recordings. Read every supplied word once, including the first sentence. Instructions are not spoken.';
    content.at(-1).annotations[0].style+=' Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition.';
   }else{
    content[start].annotations[0].style+=' This is a separate recording in a batch. Read this block exactly once, without referring to any other block. The text fields contain all and only the words to speak; never speak labels or instructions. After this block leave the indicated long pauses.';
    content.at(-1).text+=' <long pause>'.repeat(separatorTags);
   }
-  blocks.push({...ref,id:ref.take??selected?.id??`${ref.code}-${ref.part}`,...(selected?.trial?{trial:selected.trial,canonicalText:selected.canonicalText}:{}),parts,firstItem:start,lastItem:content.length-1,items,productionApproval:fingerprint(entry,spec,plan)});
+  blocks.push({...ref,id:ref.fullRetake??ref.take??selected?.id??`${ref.code}-${ref.part}`,...(ref.fullRetake?{take:ref.fullRetake,retakeAuthorization:selected.authorization}:{}),...(selected?.trial?{trial:selected.trial,canonicalText:selected.canonicalText}:{}),parts,firstItem:start,lastItem:content.length-1,items,productionApproval:fingerprint(entry,spec,plan)});
  }
  if(plain){
-  if(!cast)throw Error('El text pla d’esmenes requereix almenys una lectura completa del mateix repartiment.');
-  if(!guestPolicy){const expectedCast=new Map(JSON.parse(cast));
+  if(!cast&&!repairOnly)throw Error('El text pla d’esmenes requereix almenys una lectura completa del mateix repartiment.');
+  if(narratorPolicy&&flexibleRoles.size!==2)throw Error('La política de narrador flexible requereix el recurrent de referència i una narració anònima al mateix lot.');
+  if(!guestPolicy&&!narratorPolicy&&!repairOnly){const expectedCast=new Map(JSON.parse(cast));
    for(const[name,voice]of voiceIdentities)if(expectedCast.get(name)!==voice)throw Error('Les esmenes en text pla requereixen el mateix repartiment de les lectures completes.');}
  }
  if(labels.size>2)throw Error('El lot supera les dues veus.');

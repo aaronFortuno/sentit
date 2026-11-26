@@ -1,0 +1,133 @@
+{
+  "reviewedAt": "2026-11-26",
+  "reviewer": "autoria_llegendes_135_138",
+  "scope": "Tancament editorial independent de S114,S116,S120,S123,S124,S125,S126. Inspecció visual amb view_image de les set il·lustracions i dels cinc models canònics Mar, Mireia, Laia, Biel i Elies; contrast d’alts, guions, preguntes obertes/ABCD, cites i transcripció projectada per review.js en estat validated, amb S112 com a referència. Comprovació local de SHA d’àudio. Metadades encara en fase de tancament: aquest informe no canvia estats ni registra aprovacions docents.",
+  "summary": {
+    "passed": 7,
+    "blocked": 0,
+    "questions": 40,
+    "evidenceAnchors": 46,
+    "alternativeEvidenceAnchors": 46,
+    "publishedSpeechPartsIncludingIntroductions": 60,
+    "minimumRequiredCorrections": []
+  },
+  "repairsRevalidated": [
+    {
+      "code": "S116",
+      "field": "image.alt",
+      "result": "Alt corregit: pati i equip recollit; eliminada la localització d’observatori no sostinguda pel guió ni la imatge. Mòdul, promptregistry i preflight coincideixen."
+    },
+    {
+      "code": "S114",
+      "field": "image.alt",
+      "result": "Alt corregit a notícia en vestíbul amb un únic estoig visible, sense atribuir un moviment d’arribada. Aplicat amb coordinació al mòdul, promptregistry i preflight."
+    }
+  ],
+  "rows": [
+    {
+      "code": "S114",
+      "status": "passed",
+      "fingerprint": "dede002a48c6662d55771332fcfa2b8684738c07befc28bd734f83047f172e53",
+      "imageSha256": "fe2670ed7b2f46962137abf4c258ad408436dbe43d140d7bdb947074d35d5a56",
+      "approvedAudioSha256": "27edf060b31d01eed155cea8ca693575043f7d1d478508b1035aa8040f2dc7fb",
+      "questions": 5,
+      "evidenceAnchors": 5,
+      "alternativeEvidenceAnchors": 5,
+      "notes": [
+        "Mar coherent amb el model canònic: cua baixa, cara allargada, americana sàlvia i roba clara. Vestíbul amb micròfon i un únic estoig tancat: no identifica la sala petita del centre cívic, les hores, el motiu de repetir, l’explicació de la directora ni què passa després. Alt final ajustat al singular i a l’acció visible, segur.",
+        "Guió complet i 5 preguntes obertes/ABCD contrastats: clau única defensable en cada ítem, distractors descartables amb la parla i cap dependència de la imatge. Les 5 cites obertes i 5 cites ABCD són fragments literals presents als torns publicats.",
+        "Projecció de review.js amb reviewStatus validated, segons S112: conserva presentació i 3 torns parlats en ordre, inclosos els comiats, i exclou 3 acotacions i totes les notes de producció. Guió anotat font conservat. SHA del màster igual al preflight aprovat; àudio intacte, sense nova audició, síntesi o aprovació."
+      ]
+    },
+    {
+      "code": "S116",
+      "status": "passed",
+      "fingerprint": "d99e80b07b124da9debd3a46a9439c881a110c555387deda5abf9edf69219937",
+      "imageSha256": "99f938249fd787bcdb7dd0c6de18af4170a35cd98971d9e83d6918f59445cb44",
+      "approvedAudioSha256": "2b60ca8568781b005ebde0b473d507ce3fd58a47ca59ace4c224c0b5fcec4881",
+      "questions": 5,
+      "evidenceAnchors": 6,
+      "alternativeEvidenceAnchors": 6,
+      "notes": [
+        "Mar coherent amb el model. Pati davant d’un edifici, estoig tancat i trípode plegat, sense telescopi en ús, nit, núvols, menjador, fotografies ni rotació de grups. El context mostra preparatius, sense resoldre lloc inicial, moment, instruccions o alternativa meteorològica. Alt final descriu el pati i l’equip recollit sense inventar un observatori.",
+        "Guió complet i 5 preguntes obertes/ABCD contrastats: clau única defensable en cada ítem, distractors descartables amb la parla i cap dependència de la imatge. Les 6 cites obertes i 6 cites ABCD són fragments literals presents als torns publicats.",
+        "Projecció de review.js amb reviewStatus validated, segons S112: conserva presentació i 3 torns parlats en ordre, inclosos els comiats, i exclou 3 acotacions i totes les notes de producció. Guió anotat font conservat. SHA del màster igual al preflight aprovat; àudio intacte, sense nova audició, síntesi o aprovació."
+      ]
+    },
+    {
+      "code": "S120",
+      "status": "passed",
+      "fingerprint": "b25a327a945cd73978fe4a2273c8951d9e425f34e5581dda04a5158ec67faf93",
+      "imageSha256": "429a33304cd014e7f159fc7d11cfb5040b5acb3adb47a348f4b51a79e40d43fb",
+      "approvedAudioSha256": "b92e1bfd09c4047a898b19d609037bc69cdb139ac4fc0cf7decf65d919f1e1c7",
+      "questions": 6,
+      "evidenceAnchors": 7,
+      "alternativeEvidenceAnchors": 7,
+      "notes": [
+        "Mireia i Laia recognoscibles segons els models: pell i cabells de Mireia, monyo arrissat, pigues, anelles i jersei de Laia. Motxilla tancada entre totes dues a l’aula; no mostra ganxets, bucles, cola, dues cares, separació de tires ni mecanisme que resolgui els sis ítems. Alt contextual segur.",
+        "Guió complet i 6 preguntes obertes/ABCD contrastats: clau única defensable en cada ítem, distractors descartables amb la parla i cap dependència de la imatge. Les 7 cites obertes i 7 cites ABCD són fragments literals presents als torns publicats.",
+        "Projecció de review.js amb reviewStatus validated, segons S112: conserva presentació i 9 torns parlats en ordre, inclosos els comiats, i exclou 3 acotacions i totes les notes de producció. Guió anotat font conservat. SHA del màster igual al preflight aprovat; àudio intacte, sense nova audició, síntesi o aprovació."
+      ]
+    },
+    {
+      "code": "S123",
+      "status": "passed",
+      "fingerprint": "bfae01665d46cab690972e1bfb8e095d98f6f98c9ed789d05105e031ad562de7",
+      "imageSha256": "7d13cefcfbe31c9d1928c1291c11049b1a7b0b465263c0129c5516b089dee395",
+      "approvedAudioSha256": "22234b223a78ba93e15e3bf97d127eef8b33c8db0f73196f508b9543d360c98d",
+      "questions": 6,
+      "evidenceAnchors": 7,
+      "alternativeEvidenceAnchors": 7,
+      "notes": [
+        "Mireia i Laia coherents amb els models. Gest d’observar una sala àmplia encara sense muntar; caixes tancades i sense textos. No hi ha raigs de so, cortines gruixudes visibles, persones al voltant d’un micro, enregistrament, rajola indicada o demostració d’absorció. La buidor ja és al títol; la imatge no resol observació oral, camins del so, nom, efecte dels teixits o condicions de comparació. Alt contextual segur.",
+        "Guió complet i 6 preguntes obertes/ABCD contrastats: clau única defensable en cada ítem, distractors descartables amb la parla i cap dependència de la imatge. Les 7 cites obertes i 7 cites ABCD són fragments literals presents als torns publicats.",
+        "Projecció de review.js amb reviewStatus validated, segons S112: conserva presentació i 9 torns parlats en ordre, inclosos els comiats, i exclou 3 acotacions i totes les notes de producció. Guió anotat font conservat. SHA del màster igual al preflight aprovat; àudio intacte, sense nova audició, síntesi o aprovació."
+      ]
+    },
+    {
+      "code": "S124",
+      "status": "passed",
+      "fingerprint": "f28bb613c47a4ead2c7dbfce472c308a7e65ddd43764135e99d723f0ca724134",
+      "imageSha256": "f3faebc6a9b895a1689519d9fdce1b7f0b0e507ec16888becaa11bebbcc61084",
+      "approvedAudioSha256": "10947b2e8b284cb84ebd4386239d32b8026c499d0cc6eb9443d578f62e2675ed",
+      "questions": 6,
+      "evidenceAnchors": 6,
+      "alternativeEvidenceAnchors": 6,
+      "notes": [
+        "Biel i Elies coherents amb els models: dessuadora fosca, cabells esbullats de Biel i barba curta, temples grises, camisa blau grisós i davantal marró d’Elies. Dos estoigs negres tancats sobre la taula sense noms, targetes, etiquetes, butxaques transparents ni banc de preparats. La imatge no resol cap pas ni significat de les etiquetes. Alt contextual segur.",
+        "Guió complet i 6 preguntes obertes/ABCD contrastats: clau única defensable en cada ítem, distractors descartables amb la parla i cap dependència de la imatge. Les 6 cites obertes i 6 cites ABCD són fragments literals presents als torns publicats.",
+        "Projecció de review.js amb reviewStatus validated, segons S112: conserva presentació i 8 torns parlats en ordre, inclosos els comiats, i exclou 3 acotacions i totes les notes de producció. Guió anotat font conservat. SHA del màster igual al preflight aprovat; àudio intacte, sense nova audició, síntesi o aprovació."
+      ]
+    },
+    {
+      "code": "S125",
+      "status": "passed",
+      "fingerprint": "256ef3ea2ab5cfdf42130be7fe36f5493cd3ab27c779576a970d8922533398e1",
+      "imageSha256": "125c80de8c750deeec7cd3c7f632a638ae2e50cc9ed3a447e0867a22c776ba33",
+      "approvedAudioSha256": "dd79d7b2a52345be57cbc305baf7eebe065f1f19ab52c47834c41f94a249675e",
+      "questions": 6,
+      "evidenceAnchors": 8,
+      "alternativeEvidenceAnchors": 8,
+      "notes": [
+        "Biel i Elies coherents amb els models. Capsa tancada i papers blancs a la taula, en situació de conversa al taller. Cap pua gastada o nova, compartiment, tira, cinta, drap, prova de topada o paraula escrita. Els papers no mostren les etiquetes preguntades. Alt contextual segur.",
+        "Guió complet i 6 preguntes obertes/ABCD contrastats: clau única defensable en cada ítem, distractors descartables amb la parla i cap dependència de la imatge. Les 8 cites obertes i 8 cites ABCD són fragments literals presents als torns publicats.",
+        "Projecció de review.js amb reviewStatus validated, segons S112: conserva presentació i 9 torns parlats en ordre, inclosos els comiats, i exclou 3 acotacions i totes les notes de producció. Guió anotat font conservat. SHA del màster igual al preflight aprovat; àudio intacte, sense nova audició, síntesi o aprovació."
+      ]
+    },
+    {
+      "code": "S126",
+      "status": "passed",
+      "fingerprint": "290981379b8808df05188bc000c074f7fd868c9bb10d5b73ffa5b8f6aa360311",
+      "imageSha256": "5482f91e07a5e736efb6b048a7ad33cc58ce1e14f9714ea8a43612f33dd66bbc",
+      "approvedAudioSha256": "8986ca354b2f91dbf775d1db3e5855c5e4114fa57324a6f7078a06cb9c4006e8",
+      "questions": 6,
+      "evidenceAnchors": 7,
+      "alternativeEvidenceAnchors": 7,
+      "notes": [
+        "Biel i Elies coherents amb els models. Biel enregistra l’entrevista i hi ha una guitarra sense tocar al taller. Cap corda defectuosa, noia tocant, brunzit visible, passatge, comparació abans/després o client aportant una gravació; el gravador contextualitza la ràdio. Cap resposta es pot resoldre només mirant-lo. Alt contextual segur.",
+        "Guió complet i 6 preguntes obertes/ABCD contrastats: clau única defensable en cada ítem, distractors descartables amb la parla i cap dependència de la imatge. Les 7 cites obertes i 7 cites ABCD són fragments literals presents als torns publicats.",
+        "Projecció de review.js amb reviewStatus validated, segons S112: conserva presentació i 12 torns parlats en ordre, inclosos els comiats, i exclou 3 acotacions i totes les notes de producció. Guió anotat font conservat. SHA del màster igual al preflight aprovat; àudio intacte, sense nova audició, síntesi o aprovació."
+      ]
+    }
+  ]
+}

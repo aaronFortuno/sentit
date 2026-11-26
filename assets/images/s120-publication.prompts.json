@@ -1,0 +1,18 @@
+{
+  "code": "S120",
+  "use": "publication-context",
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-11-26",
+  "prompt": "Create ONE new 3:2 landscape watercolor and colored-pencil storybook illustration for a Catalan school listening worksheet. Use the inputs only as canonical character/style REFERENCES, not edit targets. Warm ivory paper, muted sage and earth tones, natural expressive poses, one coherent scene, no panels. Keep exact character identities and clothes. No readable text, numbers, logos, border or watermark; no diagram or visual answers to comprehension questions. Mireia, brown-skinned adult teacher with short dark tight curls, sage cardigan and cream top, listens to Laia, a young freckled girl with curly brown messy bun and sage sweater. They lean near a CLOSED fabric schoolbag on a classroom table. Laia lightly holds the outside carry handle, puzzled and interested, Mireia leans closer to listen. Composition centered on curious conversation around this bag. Do not expose its fastening mechanism, velcro hooks, loops, separate fabric faces, glue, diagrams or written labels. No demonstrations that reveal how it works.",
+  "references": [
+    "assets/characters/mireia-model-sheet-v1.webp",
+    "assets/characters/laia-model-sheet-v1.webp"
+  ],
+  "originalPngSha256": "646cdf9480e224e839b0aec6a629dea29e6ea53a7186c132158350fc12a33d92",
+  "file": "assets/images/s120-publicacio-v1.webp",
+  "width": 1536,
+  "height": 1024,
+  "sha256": "429a33304cd014e7f159fc7d11cfb5040b5acb3adb47a348f4b51a79e40d43fb",
+  "alt": "La Mireia i la Laia preparen una motxilla a l’aula.",
+  "notes": "Il·lustració contextual pròpia; els models fixen la identitat dels recurrents. Revisió independent abans de publicar. Conversió a WebP, sense retoc del contingut."
+}

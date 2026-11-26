@@ -1,5 +1,12 @@
 # Canvis
 
+## 0.1.119 · 26 de novembre de 2026
+
+- S114, S116, S120, S123, S124, S125 i S126 passen a publicació definitiva: il·lustracions contextuals amb models canònics, revisió independent i solucionaris només parlats. Els set màsters aprovats es conserven intactes.
+- Dotze guions provisionals S131–S142: quatre faules, quatre llegendes i quatre mites, amb fonts, escaleta, context i 75 preguntes obertes/ABCD. Revisió creuada superada; falta la validació docent abans de sintetitzar.
+- S118 amb muntatge de notícies disponible. Esmenes validades de S085 i S093 incorporades als muntatges; S041 també amb muntatge revisable. Primera esmena de S081 aplicada a les veus, amb només el comiat pendent de re-síntesi. S107 torna a cua per «carro» i «funda».
+- L41–L44 rebuts: noves gravacions completes de S070/S122, pilots S128–S130 i deu esmenes. Quatre peticions, amb excepció docent per als tres lots petits. PCM recuperat i quinze talls íntegres; reproductors i comparacions pendents d’audició abans de qualsevol muntatge. Originals preservats i cues actualitzades.
+
 ## 0.1.118 · 25 de novembre de 2026
 
 - S112, S113, S115, S117, S119, S121 i S127 passen a publicació definitiva amb confirmació docent. Set il·lustracions contextuals amb models canònics, revisió independent de 37 preguntes i 41 cites, fitxes il·lustrades i solucionaris només parlats. Els màsters aprovats es conserven intactes.

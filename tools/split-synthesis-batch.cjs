@@ -23,6 +23,7 @@ async function main(){
  const id=process.argv.find(a=>a.startsWith('--only='))?.slice(7).toUpperCase(),catalog=JSON.parse(await fs.readFile(path.join(root,'content/synthesis-batches.json'),'utf8')),batch=catalog.batches.find(b=>b.id===id);if(!batch?.approvedRequestHash)throw Error('Lot no congelat.');
  const folder=path.join(work,'mixed-batches',id.toLowerCase()+'-'+batch.approvedRequestHash.slice(0,12)),raw=path.join(folder,'raw.wav'),attempt=JSON.parse(await fs.readFile(path.join(folder,'attempt.json'),'utf8')),bytes=await fs.readFile(raw);if(attempt.state!=='raw-received'||attempt.rawSha256!==sha(bytes))throw Error('Presa rebuda no íntegra.');
  const blocks=JSON.parse(await fs.readFile(path.join(folder,'blocks.json'),'utf8')),{activities}=await import('../catalogue.js');
+ await require('./full-voice-retake.cjs').validateRetakeBlocks(activities,blocks);
  const missingTitles=new Set((process.argv.find(a=>a.startsWith('--missing-introduction='))?.split('=')[1]??'').split(',').filter(Boolean));
  if([...missingTitles].some(id=>!blocks.some(b=>b.id===id&&b.take&&b.parts[0]==='introduction')))throw Error('Missing-title exception must name an existing whole take.');
  const partialTitles=new Set((process.argv.find(a=>a.startsWith('--partial-introduction='))?.split('=')[1]??'').split(',').filter(Boolean));
@@ -57,6 +58,7 @@ async function main(){
   const spans=report.filter(r=>r.block===block.id),start=boundaries[i],end=boundaries[i+1],coverage=spans.reduce((n,s)=>n+s.coverage*s.length,0)/spans.reduce((n,s)=>n+s.length,0);if(coverage<.7)throw Error(block.id+': cobertura total insuficient.');
   const blockFile=path.join(folder,block.id.toLowerCase()+'.wav');ffmpeg(binary,['-v','error','-y','-i',raw,'-af',`atrim=start=${start}:end=${end},asetpts=PTS-STARTPTS`,'-c:a','pcm_s16le',blockFile]);
   const info={id:block.id,code:block.code,parts:block.parts,sourceRequestHash:block.sourceRequestHash,batch:id,batchRequestHash:batch.approvedRequestHash,rawBatchSha256:attempt.rawSha256,file:blockFile,sha256:sha(await fs.readFile(blockFile)),start,end,seconds:end-start,coverage,spans:spans.map(s=>({...s,start:s.start-start,end:s.end-start}))};
+  if(block.fullRetake){info.fullRetake=block.fullRetake;info.retakeAuthorization=block.retakeAuthorization;}
   if(block.take&&spans[0].part==='introduction'){
    const cut=chooseCut(block.id+'/title',spans[0].end,spans[1].start);info.titleCut=cut-start;
    for(const [name,from,to]of [['intro',start,cut],['body',cut,end]]){const file=path.join(folder,block.id.toLowerCase()+'-'+name+'.wav');ffmpeg(binary,['-v','error','-y','-i',raw,'-af',`atrim=start=${from}:end=${to},asetpts=PTS-STARTPTS`,'-c:a','pcm_s16le',file]);info[name]={file,sha256:sha(await fs.readFile(file)),seconds:to-from};}

@@ -291,10 +291,10 @@
     "status": "approved-for-correction",
     "approvedAt": "2026-11-25",
     "approvalSource": "Docent 25/11: cap de les dues esmenes rebudes resol funda; tornar a enviar a reesmenar.",
-    "sourceRequestHash": "a07c5841452fb9f7fc87fa5889bc4cc31ab97780eeaeb6a8c2d38b1b655af0e0",
-    "sourceRawSha256": "6b4382326bc34f447e016e085b7ff82937c642a245eeb59de1fc3cf7f531076a",
-    "sourceTakeId": "S081-T01",
-    "sourceTakeSha256": "abda1d2cdb2f1727886fb57d1c539a7df87595eeba6fae9f2d43c4885f9fa0bd",
+    "sourceRequestHash": "4dfc7cb64746c2834aeb04fce5661e42c831a731d480965604290b3c8817780f",
+    "sourceRawSha256": "c0d440ba68229efe4457f53243bf0683e8f7241768c39b72b716cd7fa18bc35a",
+    "sourceTakeId": "S081-PARTIAL-TELEFON-V1",
+    "sourceTakeSha256": "c0d440ba68229efe4457f53243bf0683e8f7241768c39b72b716cd7fa18bc35a",
     "voices": {
       "Elies": "Algieba"
     },
@@ -304,14 +304,7 @@
         "part": "telefon",
         "speaker": "Elies",
         "text": "Sí, truca abans de venir. T’ho explicaré per telèfon. Aquest matí ja he comprovat la guitarra de préstec i només falta que la guardem a la funda.",
-        "pronunciation": "Pronounce funda /ˈfun.də/ with stressed U and audible N followed by D: FUN-da, never funa or fona. Keep the adult male Elies voice; do not read this instruction. Prior renderings omitted D or changed U to O. Give the N-D transition enough articulation to hear both consonants, without adding a vowel or spelling letters aloud.",
-        "nextAttempt": {
-          "id": "S081-telefon-r3",
-          "status": "awaiting-compatible-batch",
-          "speaker": "Elies",
-          "voice": "Algieba",
-          "instruction": "New corrective take after the previous attempts failed. Keep the exact adult male Elies/Algieba identity and U vowel. Articulate the N followed by D in funda clearly, with no pitch shift, extra vowel or spoken pronunciation instruction."
-        }
+        "pronunciation": "Pronounce funda /ˈfun.də/ with stressed U and audible N followed by D: FUN-da, never funa or fona. Keep the adult male Elies voice; do not read this instruction. Prior renderings omitted D or changed U to O. Give the N-D transition enough articulation to hear both consonants, without adding a vowel or spelling letters aloud."
       },
       {
         "part": "final",
@@ -319,16 +312,28 @@
         "text": "De res, Biel. Espera, que t’aguanto la funda mentre hi poses el full... així... Fins dijous, i ja m’explicaràs com va l’assaig.",
         "pronunciation": "Pronounce funda /ˈfun.də/ with stressed U and audible N followed by D: FUN-da, never funa or fona. Keep the adult male Elies voice; do not read this instruction. Prior renderings omitted D or changed U to O. Give the N-D transition enough articulation to hear both consonants, without adding a vowel or spelling letters aloud.",
         "nextAttempt": {
-          "id": "S081-final-r3",
-          "status": "awaiting-compatible-batch",
+          "id": "S081-final-r4",
           "speaker": "Elies",
           "voice": "Algieba",
-          "instruction": "New corrective take after the previous attempts failed. Keep the exact adult male Elies/Algieba identity and U vowel. Articulate the N followed by D in funda clearly, with no pitch shift, extra vowel or spoken pronunciation instruction."
+          "status": "awaiting-compatible-batch",
+          "instruction": "Keep the exact adult male Elies/Algieba identity. Say the full canonical word funda with stressed U and the N-D transition, never fona or funa. Natural connected Catalan, not spelling; read only the supplied speech."
         }
       }
     ],
-    "application": "Compare both complete interventions with the original. Keep the natural pauses in Espera... així...; no digital pitch correction or automatic master change.",
-    "approvedRequestHash": "1441f4c32ac1f59c9751d6d7f8f74aef55e054fa06ab3f09cf2a282bf2cb3d08"
+    "application": "El torn telefon validat ja és a la base parcial preservada. Aplicar només la futura esmena final sobre aquesta base; no tornar a substituir telefon.",
+    "approvedRequestHash": "1441f4c32ac1f59c9751d6d7f8f74aef55e054fa06ab3f09cf2a282bf2cb3d08",
+    "sourceHistory": [
+      {
+        "sourceTakeId": "S081-T01",
+        "sourceTakeSha256": "abda1d2cdb2f1727886fb57d1c539a7df87595eeba6fae9f2d43c4885f9fa0bd",
+        "sourceRequestHash": "a07c5841452fb9f7fc87fa5889bc4cc31ab97780eeaeb6a8c2d38b1b655af0e0",
+        "sourceRawSha256": "6b4382326bc34f447e016e085b7ff82937c642a245eeb59de1fc3cf7f531076a",
+        "reason": "Original conservat abans d’aplicar la primera esmena validada."
+      }
+    ],
+    "appliedParts": [
+      "telefon"
+    ]
   },
   "S024": {
     "activity": "ca-S024",
@@ -730,7 +735,14 @@
         "part": "sortida",
         "speaker": "Elies",
         "text": "Aquí tens el carro, amb una nansa a cada extrem. La bossa ja és dins d’aquesta funda. Obro la porta: prova’l.",
-        "pronunciation": "Pronounce funda /ˈfun.də/ with stressed U and audible N followed by D: FUN-da, never funa or fona. Keep the adult male Elies/Algieba voice throughout the whole turn. Do not read this instruction."
+        "pronunciation": "Pronounce funda /ˈfun.də/ with stressed U and audible N followed by D: FUN-da, never funa or fona. Keep the adult male Elies/Algieba voice throughout the whole turn. Do not read this instruction.",
+        "nextAttempt": {
+          "id": "S107-sortida-r2",
+          "speaker": "Elies",
+          "voice": "Algieba",
+          "status": "awaiting-compatible-batch",
+          "instruction": "Keep the exact adult male Elies/Algieba identity. Say the full canonical word funda with stressed U and the N-D transition, never fona or funa. Say carro with final O, never carre. Natural connected Catalan, not spelling; read only the supplied speech."
+        }
       }
     ],
     "application": "Comparar el torn complet amb l’original abans de substituir-lo. Conservar intacta la resta de la presa i el text editorial. Cap muntatge ni aprovació automàtica de veus fins a la validació docent.",
@@ -755,7 +767,9 @@
         "part": "hola",
         "speaker": "Ferran",
         "text": "Bon dia. Vinc a tornar la novel·la que em vaig endur. Em falta llegir l’últim capítol, però em sembla que l’havia de tornar avui. Em podríeu deixar uns dies més?",
-        "pronunciation": "Read the complete first Ferran turn, including Em falta llegir l’últim capítol, però em sembla que l’havia de tornar avui. Keep warm older male Ferran/Algenib throughout. Do not skip any sentence or read this direction."
+        "pronunciation": "Read the complete first Ferran turn, including Em falta llegir l’últim capítol, però em sembla que l’havia de tornar avui. Keep warm older male Ferran/Algenib throughout. Do not skip any sentence or read this direction.",
+        "missingOriginal": true,
+        "missingOriginalReason": "El docent confirma que falta una part del primer torn. La presa original completa es conserva a la vista de veus; la comparació mostra el nou torn íntegre."
       }
     ],
     "application": "Regenerar el primer torn complet i comparar-lo abans de substituir la versió incompleta. Conservar la resta de la presa; cap muntatge ni aprovació automàtica.",

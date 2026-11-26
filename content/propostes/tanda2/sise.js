@@ -45,9 +45,9 @@ export const sise = [
   }),
   proposal({
     id: 'una-reunio-amb-decisions-clares', code: 'S041', title: 'Què farem per portes obertes?', grade: '6', level: 'easy', genre: 'instructions', universeIds: ['amb-mireia'],
-    seconds: 102, status: 'ready-for-review', reviewStatus: 'audio-review',
-    audio: './assets/audio/s041-directives-v2.mp3', tracks: { introduction: './assets/audio/s041-directives-v2-intro.mp3', body: './assets/audio/s041-mixed-v1-cos.mp3' },
-    fragment: { start: 4.37, seconds: 97 },
+    seconds: 99, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s041-repair-v3.mp3', tracks: { introduction: './assets/audio/s041-directives-v2-intro.mp3', body: './assets/audio/s041-repair-v3-cos.mp3' },
+    fragment: { start: 4.37, seconds: 94 },
     summary: 'En Biel vol fer ràdio per portes obertes, però s’haurà d’espavilar amb el temps i trobar un lloc on se senti bé.',
     voices: { Mireia: 'Aoede', Biel: 'Puck' }, delivery: 'Conversa dins d’una aula, sense to de reunió. Biel s’entusiasma amb la ràdio i s’avança; Mireia li pregunta com ho vol fer i el fa tornar a escoltar els companys. Tornades curtes i reaccions al que s’acaba de dir, sense recitar llistes. L’humor surt de la pressa del Biel, no d’un acudit afegit.',
     editorialFocus: '6è accessible: seguir com canvia una idea concreta en parlar del temps i el lloc disponibles. Relacionar els suggeriments del Biel amb les preguntes de la mestra, sense actes, apartats ni càrrecs a recordar.',

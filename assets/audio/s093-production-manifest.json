@@ -1,0 +1,231 @@
+{
+  "code": "S093",
+  "activity": "ca-S093",
+  "state": "awaiting-montage-validation",
+  "file": "s093-mixed-v1.mp3",
+  "introFile": "s093-mixed-v1-intro.mp3",
+  "bodyFile": "s093-mixed-v1-cos.mp3",
+  "offset": 3.955,
+  "bodyDuration": 80.069,
+  "fullDuration": 84.024,
+  "voices": {
+    "Mar": "Erinome",
+    "Informadora": "Despina"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "repaired-mixed-take",
+  "requestHash": "5cdbd8c6d0e0758808df27f758e8db26f4c21069a67dba8736fc613da86cf3f2",
+  "sourceRequestHash": "b44a3a4409937ea89c28b305650fcb169fdccbb963e2a44a8f4c0e1d18b3dc42",
+  "batch": "L35+L38",
+  "sourceBatchRequests": [
+    {
+      "batch": "L35",
+      "requestHash": "2e429c977e701ef1f63c2570d8f4ce02143fc47e4241bb11ee74e0760f029f2e",
+      "rawSha256": "d57bbc3b3b2098192643be92fb576b7712479884661730de76a9bd6452161333"
+    },
+    {
+      "batch": "L38",
+      "requestHash": "5451b4cea3e920f9aa007be12efb850987a7a6376108afb4dff422c3b91341ac",
+      "rawSha256": "99234bdcad2f77209580f8657378497a82e88cad867431a32a8410636162ff7f"
+    }
+  ],
+  "assembly": [
+    {
+      "part": "confirmar",
+      "text": "Ah! Doncs el directe, el de les deu i vint-i-cinc. Jo m’havia fixat només en l’hora de sortir. La meva amiga ja ve expressament a buscar-me i no la vull fer esperar.",
+      "accepted": {
+        "part": "confirmar",
+        "text": "Ah! Doncs el directe, el de les deu i vint-i-cinc. Jo m’havia fixat només en l’hora de sortir. La meva amiga ja ve expressament a buscar-me i no la vull fer esperar.",
+        "candidateFile": "assets/audio/repairs/l38-s093-confirmar-prova.mp3",
+        "candidateSha256": "21be79cdc3e31b9d182ed13c43c3d80e1622961ea8ef7171cf2a6b6c1b465b93",
+        "batchRequestHash": "5451b4cea3e920f9aa007be12efb850987a7a6376108afb4dff422c3b91341ac",
+        "sourceTakeSha256": "66c820836d9636dbfa46fb630f811ba63cec30d373a17db35f83f4691b56fbc8",
+        "candidateTakeId": "S093-confirmar",
+        "sourceRequestHash": "de6c03afbce9dd817671644e29f30aa9f88947641327ac61d36e8cb15a3956a2"
+      },
+      "candidateRawFile": "C:\\Users\\afortun8\\Desktop\\Projects\\Escola\\output\\sentit-primera-tanda\\mixed-batches\\l38-5451b4cea3e9\\s093-confirmar.wav",
+      "candidateRawSha256": "d6f5c1f2e13f421558465b2a09fe54c7b6abf9eb6143c44782eafc897192538f",
+      "candidateBatch": "L38",
+      "candidateRawBatchSha256": "99234bdcad2f77209580f8657378497a82e88cad867431a32a8410636162ff7f",
+      "originalRange": {
+        "start": 35.182,
+        "end": 44.91,
+        "handles": [
+          -49.968331913218755,
+          -51.7206201849085
+        ]
+      },
+      "candidateRange": {
+        "start": 0.17108333333333334,
+        "end": 9.088083333333334,
+        "handles": [
+          -41.273269988708556,
+          -66.78717351808073
+        ]
+      },
+      "spoken": {
+        "start": 0.682016666666707,
+        "end": 8.692016666666698
+      },
+      "gainDb": -1.9659892277249826,
+      "requestedGainDb": -1.9659892277249826,
+      "peakLimitedByGain": false,
+      "peakAfterGain": 25139,
+      "deltaSeconds": -0.811,
+      "outputStart": 35.182
+    }
+  ],
+  "requestHashIsCompositionChecksum": true,
+  "rawSha256": "5728382eded2a849dc50cf639c9c471961123fea65180df1e181df456b5f5b6f",
+  "takeSha256": "5728382eded2a849dc50cf639c9c471961123fea65180df1e181df456b5f5b6f",
+  "coverage": 0.9018181818181819,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.9,
+  "peakDbTP": -2.49,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "bexhillcollege-274213",
+      "start": 0,
+      "source": "assets/audio/sources/bexhillcollege-274213-hallway.mp3",
+      "sourceSha256": "ac07b275131c3517007369de9cd2e3d566e6d0de9fc9ae7c7e3ac0345cbcc5f7",
+      "sourceUrl": "https://freesound.org/people/Bexhillcollege/sounds/274213/",
+      "author": "Bexhillcollege",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.07,
+      "openingGain": 0.16,
+      "raisedGain": 0.23,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -51.09803919971486,
+      "lowPassHz": 800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 6,
+        "seconds": 55.35733333333334
+      },
+      "envelope": {
+        "riseStart": 75.66898333333329,
+        "riseEnd": 76.4689833333333,
+        "holdSeconds": 1.0000166666666956,
+        "fadeStart": 77.469,
+        "fadeEnd": 78.869
+      }
+    }
+  ],
+  "sha256": "11cbdbedd65133ee4b26dd7a6cbd6680b601a026b9e5d26391fd77eaf98a31b2",
+  "voiceHandles": {
+    "body": {
+      "start": 0.09491666666666666,
+      "end": 74.66391666666667,
+      "retainedPcmSha256": "532d43b5e168c2a3b25490bccd1fa3b86ce3cf0e701a0cb8a2f2d42f03a3f156",
+      "sourceSha256": "b19d10ad09150f977465fcc53c26c1f99e253c0ba8fee4946729de528e44ff71",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0,
+      "end": 3.005,
+      "retainedPcmSha256": "c6e02e1d509a0310fd497ed93ab743c1df74f9c87750d02b697be7c38514f125",
+      "sourceSha256": "f67ce40b03a820e499ae786263ed01cd28bffb688c3d499c1e60581102a0825e",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-26",
+    "sourceTakeSha256": "5728382eded2a849dc50cf639c9c471961123fea65180df1e181df456b5f5b6f",
+    "baseTakeSha256": "66c820836d9636dbfa46fb630f811ba63cec30d373a17db35f83f4691b56fbc8",
+    "confirmation": "Docent 26/11: esmena confirmar de S093 validada; incorporar la presa exacta.",
+    "derivation": "Previously approved remaining speech plus the exact teacher-approved replacement; assembled playback still awaits montage audition.",
+    "repairs": [
+      {
+        "part": "confirmar",
+        "text": "Ah! Doncs el directe, el de les deu i vint-i-cinc. Jo m’havia fixat només en l’hora de sortir. La meva amiga ja ve expressament a buscar-me i no la vull fer esperar.",
+        "candidateFile": "assets/audio/repairs/l38-s093-confirmar-prova.mp3",
+        "candidateSha256": "21be79cdc3e31b9d182ed13c43c3d80e1622961ea8ef7171cf2a6b6c1b465b93",
+        "batchRequestHash": "5451b4cea3e920f9aa007be12efb850987a7a6376108afb4dff422c3b91341ac",
+        "sourceTakeSha256": "66c820836d9636dbfa46fb630f811ba63cec30d373a17db35f83f4691b56fbc8",
+        "candidateTakeId": "S093-confirmar",
+        "sourceRequestHash": "de6c03afbce9dd817671644e29f30aa9f88947641327ac61d36e8cb15a3956a2"
+      }
+    ]
+  },
+  "repairApplication": {
+    "code": "S093",
+    "date": "2026-11-26",
+    "scope": "approved-repair",
+    "originalRawSha256": "66c820836d9636dbfa46fb630f811ba63cec30d373a17db35f83f4691b56fbc8",
+    "patchedSha256": "5728382eded2a849dc50cf639c9c471961123fea65180df1e181df456b5f5b6f",
+    "originalSeconds": 78.57,
+    "seconds": 77.759,
+    "edits": [
+      {
+        "part": "confirmar",
+        "text": "Ah! Doncs el directe, el de les deu i vint-i-cinc. Jo m’havia fixat només en l’hora de sortir. La meva amiga ja ve expressament a buscar-me i no la vull fer esperar.",
+        "accepted": {
+          "part": "confirmar",
+          "text": "Ah! Doncs el directe, el de les deu i vint-i-cinc. Jo m’havia fixat només en l’hora de sortir. La meva amiga ja ve expressament a buscar-me i no la vull fer esperar.",
+          "candidateFile": "assets/audio/repairs/l38-s093-confirmar-prova.mp3",
+          "candidateSha256": "21be79cdc3e31b9d182ed13c43c3d80e1622961ea8ef7171cf2a6b6c1b465b93",
+          "batchRequestHash": "5451b4cea3e920f9aa007be12efb850987a7a6376108afb4dff422c3b91341ac",
+          "sourceTakeSha256": "66c820836d9636dbfa46fb630f811ba63cec30d373a17db35f83f4691b56fbc8",
+          "candidateTakeId": "S093-confirmar",
+          "sourceRequestHash": "de6c03afbce9dd817671644e29f30aa9f88947641327ac61d36e8cb15a3956a2"
+        },
+        "candidateRawSha256": "d6f5c1f2e13f421558465b2a09fe54c7b6abf9eb6143c44782eafc897192538f",
+        "candidateBatch": "L38",
+        "candidateRawBatchSha256": "99234bdcad2f77209580f8657378497a82e88cad867431a32a8410636162ff7f",
+        "originalRange": {
+          "start": 35.182,
+          "end": 44.91,
+          "handles": [
+            -49.968331913218755,
+            -51.7206201849085
+          ]
+        },
+        "candidateRange": {
+          "start": 0.17108333333333334,
+          "end": 9.088083333333334,
+          "handles": [
+            -41.273269988708556,
+            -66.78717351808073
+          ]
+        },
+        "spoken": {
+          "start": 0.682016666666707,
+          "end": 8.692016666666698
+        },
+        "gainDb": -1.9659892277249826,
+        "requestedGainDb": -1.9659892277249826,
+        "peakLimitedByGain": false,
+        "peakAfterGain": 25139,
+        "deltaSeconds": -0.811,
+        "outputStart": 35.182,
+        "candidateRawFile": "s093-confirmar.wav"
+      }
+    ],
+    "allOtherVoiceSamplesIdentical": true,
+    "voiceRetimed": false,
+    "pitchShifted": false,
+    "newRequests": 0,
+    "retainedRanges": [
+      {
+        "originalStart": 0,
+        "originalEnd": 35.182,
+        "outputStart": 0,
+        "sha256": "a516732e1232d8796ca4dc943a996f194bab7ea403e00f8d1c048ae5525409ed"
+      },
+      {
+        "originalStart": 44.91,
+        "originalEnd": 78.57,
+        "outputStart": 44.099,
+        "sha256": "5d28bab94e7bbeff0e9d9db9a1ae8bdc5062842ae584fc0c302e89e872bd0614"
+      }
+    ],
+    "originalRawFile": "s093-t01.wav",
+    "patchedFile": "patched-source.wav"
+  }
+}

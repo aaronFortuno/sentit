@@ -2915,5 +2915,221 @@
       "voice": "Algenib",
       "reason": "Candidat de treball dins la flexibilitat autoritzada pel docent; complement de Ferran, sense canviar la identitat del narrador anònim."
     }
+  },
+  "S131": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S131",
+    "reviewContent": "content/propostes/tradicio/faules-20261126.js",
+    "format": "Faules del món. 3r intermèdia: dos personatges i una escena contínua; sis preguntes duals sobre accions, causa i intenció inferida. La diferència entre els elogis i el propòsit de la guineu es reconstrueix amb el relat, sense sentència moral.",
+    "cues": [
+      "Adaptació original en català de l’argument isòpic contrastat a la Library of Congress. El cistell inicial i les rèpliques són recreacions de Sentit; no és una traducció del text de 1919. S’ometen el títol de reina dels ocells i el comentari final de la guineu sobre el seny del corb. Una sola veu per al narrador i els diàlegs citats. Entrada musical breu; mantenir una única base molt suau sota tot el relat.",
+      "Mantenir els elogis en la mateixa veu, amb intenció amable; no caricaturitzar el corb. Cap efecte de caiguda, mossegada o cant que respongui per si sol. Després de l’última paraula, pujar la base dos segons i fer la fosa final."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Narrador": "Algenib"
+    },
+    "strategy": "plain-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S132": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S132",
+    "reviewContent": "content/propostes/tradicio/faules-20261126.js",
+    "format": "Faules del món. 3r accessible: dos personatges, una cursa i una seqüència lineal. Cinc preguntes duals amb causes pròximes i una explicació global del resultat. Sense temps numèrics, tercers personatges o moral final.",
+    "cues": [
+      "Adaptació original en català de la faula isòpica. Les dues corredores acorden directament el recorregut; s’omet la guineu que fa d’àrbitre a la versió consultada. L’arribada al roure i els diàlegs són recreació de Sentit. Narració i rèpliques amb una sola veu. Entrada breu d’una base pròpia de la peça, molt suau i contínua sota la parla.",
+      "Cap soroll de roncs, cursa o arribada que substitueixi les paraules. Mantenir la mateixa base molt suau, sense accelerar-la quan corre la llebre. Deixar acabar pota, pujar la base dos segons i fondre-la."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Narrador": "Algenib"
+    },
+    "strategy": "plain-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S133": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S133",
+    "reviewContent": "content/propostes/tradicio/faules-20261126.js",
+    "format": "Faules del món. 4t accessible: un mateix objectiu i dos intents successius. Sis preguntes duals sobre condició, reaccions i causa del resultat. La comparació es limita a aquesta prova; no es locuta una lliçó general.",
+    "cues": [
+      "Adaptació original en català de la faula isòpica. S’utilitza un abric quotidià en lloc de la capa del testimoni anglès; es conserven la prova, els dos intents i les reaccions oposades del viatger. Diàlegs recreats per a Sentit i una sola veu narradora. Entrada musical breu; una única base molt suau es manté durant tots dos intents, sense donar una pista musical del guanyador.",
+      "Narrar els dos intents amb intensitat vocal moderada, sense vent enregistrat o crescendos sota dades clau. Conservar la mateixa base sota la parla. Després de res, pujar-la dos segons i acabar amb una fosa."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Narrador": "Algenib"
+    },
+    "strategy": "plain-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S134": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S134",
+    "reviewContent": "content/propostes/tradicio/faules-20261126.js",
+    "format": "Faules del món. 4t intermèdia: tres moments marcats i un canvi en la confiança dels veïns. Sis preguntes duals sobre motiu, comparació, causa i conseqüència. Perill breu sense detall gràfic; el desenllaç mostra la pèrdua d’una ovella i deixa inferir la moral.",
+    "cues": [
+      "Adaptació original en català de l’argument isòpic contrastat a la Library of Congress. Es conserven dos avisos falsos i un atac real. La pèrdua d’una ovella substitueix la mort de moltes ovelles del testimoni per adequar la intensitat al públic; no s’hi afegeix una sentència moral. Entrada breu d’una base narrativa pròpia, molt suau. Una sola veu per al narrador i els diàlegs citats.",
+      "Diferenciar els dies amb pauses naturals. Els crits citats es narren amb intenció, sense salts de volum. Cap udol, atac o bel enregistrat que avanci les respostes; conservar la mateixa base molt baixa. Després de silenci, pujar la base dos segons i fondre-la."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Narrador": "Algenib"
+    },
+    "strategy": "plain-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S135": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S135",
+    "reviewContent": "content/propostes/tradicio/llegendes-20261126.js",
+    "format": "4t intermèdia: pacte amb termini, seqüència nocturna i confusió entre un senyal i el moment real. Sis preguntes duals; no cal conèixer el pont ni altres variants.",
+    "cues": [
+      "Adaptació original de la variant documentada per DIBA i la Biblioteca de Martorell. Conservar minyona, font a l’altra riba, ànima com a preu, termini abans de l’alba i darrera pedra abandonada a Palausolità. Per evitar una escena de maltractament, l’acció de tirar aigua al gall es condensa en fer-lo cantar, sense inventar un procediment alternatiu. Diàleg i transicions recreats. Una sola veu estable; cap personatge recurrent nou.",
+      "Base narrativa pròpia molt baixa. El cant s’explica amb paraules: cap efecte que avanci la resposta. Fosa breu després de pedra."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Narrador": "Algenib"
+    },
+    "strategy": "plain-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S136": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S136",
+    "reviewContent": "content/propostes/tradicio/llegendes-20261126.js",
+    "format": "4t intermèdia: contrast entre dos intents de resoldre un problema i canvi de conducta de la criatura. Sis preguntes duals, sense exigir coneixements religiosos ni geogràfics previs.",
+    "cues": [
+      "Adaptació catalana original de l’episodi del fullet municipal Itinerari llegendari: mantenir la capa, sense barrejar-la amb l’estola d’altres variants. S’ometen les víctimes infantils i qualsevol mort posterior del drac; el relat acaba a la plaça després de l’amansiment. Frases, gestos de la gent i transicions són recreacions narratives. Sant Mer i Carlemany participen en una llegenda, sense atribuir-los aquí una gesta històrica acreditada.",
+      "Narració expressiva amb base molt suau; els brams només es narren. Cap efecte d’atac o de combat. Tancar l’episodi a la plaça i fondre la base."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Narrador": "Algenib"
+    },
+    "strategy": "plain-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S137": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S137",
+    "reviewContent": "content/propostes/tradicio/llegendes-20261126.js",
+    "format": "5è intermèdia: dues perspectives sobre un mateix so, inferència causal i atribució de creences. Sis preguntes duals. El protagonisme de l’eco es manté dins del marc llegendari, separat de la realitat documentada de les batalles.",
+    "cues": [
+      "Recreació narrativa de la llegenda del Timbaler del Bruc, contrastada amb Ajuntament i DIBA. El context militar és històric; l’eco com a causa decisiva de la retirada pertany al relat llegendari. No atribuir una victòria documentada a una demostració acústica. S’ometen nom propi, segona batalla i detalls bèl·lics per concentrar una sola escena. Mirades, gestos i pensaments són dramatització original. Sense violència descrita ni moral final.",
+      "La veu descriu la repetició del so; no fer una demostració d’eco necessària per respondre ni simular batalles. Base molt baixa i fosa després de baquetes."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Narrador": "Algenib"
+    },
+    "strategy": "plain-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S138": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S138",
+    "reviewContent": "content/propostes/tradicio/llegendes-20261126.js",
+    "format": "5è avançada, pendent de calibratge oral: acord, incompliment i repetició transformada en dues visites. Sis preguntes duals; final inquietant sense violència gràfica i sense afegir un retorn feliç aliè a la font.",
+    "cues": [
+      "Prosa catalana original a partir del resum anglès de Grimm publicat per Eliza Gutch el 1892. Conservar plaga, preu acordat, flauta que atrau, negativa de pagament, retorn i desaparició del grup d’infants al turó. S’ometen dates, xifra de desapareguts, canvi de vestit, testimonis i variants finals. La mort de les rates es condensa en la desaparició sota l’aigua; cap detall gràfic. Escenes domèstiques inicials i transicions recreades. Una sola veu anònima, també en les frases citades.",
+      "Final sostingut amb sobrietat, sense moralina ni canvi inventat de desenllaç. Cap melodia de flauta necessària per respondre, crits, plors o desaparició sonora. Base molt tènue i fosa."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Narrador": "Algenib"
+    },
+    "strategy": "plain-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S139": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S139",
+    "reviewContent": "content/propostes/tradicio/mites-20261126.js",
+    "format": "5è intermèdia, pendent de calibratge oral: desig, proves, conseqüència imprevista i reparació en una seqüència lineal. Set preguntes duals, amb inferència causal breu. Dos noms centrals i un riu, introduïts en moments diferents.",
+    "cues": [
+      "Adaptació original segons Ovidi XI, 85–145. Dionís és el nom grec del déu anomenat Bacus en el text llatí; Silè queda com un vell company per reduir noms. Es condensen festa i proves del do. Es mantenen el menjar i la beguda transformats, el penediment i el bany a la font del Pactol. El pa final és una escena de tancament afegida, coherent amb la retirada del do. No s’hi incorpora la filla convertida en or de la versió de Hawthorne, ni l’episodi de les orelles d’ase.",
+      "Una sola veu també per a les intencions dels personatges. Cap so de metall o d’aigua necessari per respondre; tancament musical breu després de la veu, sense moral afegida."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Narrador": "Algenib"
+    },
+    "strategy": "plain-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S140": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S140",
+    "reviewContent": "content/propostes/tradicio/mites-20261126.js",
+    "format": "5è intermèdia, pendent de calibratge oral: tres noms, amb Minos només al plantejament, i una acció lineal. Set preguntes duals sobre finalitat, instrucció doble i cadena causal. Desenllaç tràgic explícit i sense detall gràfic.",
+    "cues": [
+      "Adaptació original d’Ovidi VIII, 183–235. S’ometen la llista d’illes sobrevolades, els testimonis del vol i l’episodi posterior de Perdix. Es mantenen el bloqueig de Minos, fil i cera, els dos límits de vol, l’entusiasme d’Ícar i la mort al mar. La causalitat de l’escalfor és interna al mite, anunciat com a tal; cap presentació científica del vol humà.",
+      "Conservar un to contingut al desenllaç. Sense crit, impacte, aleteig o caiguda sonora. Base baixa sostinguda i fosa final; cap sentència sobre desobediència afegida."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Narrador": "Algenib"
+    },
+    "strategy": "plain-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S141": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S141",
+    "reviewContent": "content/propostes/tradicio/mites-20261126.js",
+    "format": "6è avançada, pendent de calibratge oral: separació, recerca, protesta i retorn condicionat. Cinc noms amb funcions immediatament explicades; el Sol és testimoni sense un nom afegit. Set preguntes duals. La càrrega prové de dues cadenes causals, no de dates ni fraccions d’any.",
+    "cues": [
+      "Adaptació original de l’Himne homèric a Demèter. Es conserva que Hades s’endú Persèfone contra la seva voluntat amb el consentiment de Zeus. Hèlios s’anomena el Sol; s’ometen Hècate, Eleusis, Demofont i els ritus. La magrana es dona amb engany: no es presenta una elecció lliure de quedar-se. La font assigna un terç de l’any sota terra i dos terços amb la mare; l’adaptació diu períodes sense quantificar i no hi barreja la variant de sis mesos. El tancament és mític i no una explicació científica de les estacions.",
+      "Una sola veu narradora, sense veu de monstre per a Hades. No afegir mesos ni una correspondència científica amb les estacions. Cap crit o carro que tapi l’inici; base discreta i sortida breu."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Narrador": "Algenib"
+    },
+    "strategy": "plain-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+  },
+  "S142": {
+    "status": "awaiting-validation",
+    "approvedFingerprint": null,
+    "reviewedAt": null,
+    "reviewActivity": "ca-S142",
+    "reviewContent": "content/propostes/tradicio/mites-20261126.js",
+    "format": "6è intermèdia, pendent de calibratge oral: invenció, robatori, engany, intervenció i intercanvi. Tres noms principals. Set preguntes duals; cal relacionar el comportament d’Hermes amb allò que ja sap qui escolta.",
+    "cues": [
+      "Adaptació original de l’Himne homèric a Hermes. Es conserva el nadó diví extraordinàriament actiu, la lira construïda abans de robar les vaques i el bestiar fet caminar enrere, segons la lectura de la nota 14 de l’edició consultada. S’ometen mort de la tortuga, sacrifici de dues vaques, nombres del ramat, vell testimoni, sandàlies, profecia i juraments finals. La localització de les vaques es condensa després de l’ordre de Zeus. L’intercanvi de lira per bestiar tanca l’episodi; la definició oral de l’instrument és una ajuda de l’adaptació. Els passos i el plany són narrats sense imitacions sonores.",
+      "Una veu narradora, sense imitació de nadó ni canvi de timbre per als déus. Cap lira sonora ni bestiar necessaris per resoldre preguntes. Base pròpia de la peça molt baixa; fosa breu després del gest final."
+    ],
+    "plannedNewRequests": 1,
+    "requiredVoices": {
+      "Narrador": "Algenib"
+    },
+    "strategy": "plain-v1",
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
   }
 }

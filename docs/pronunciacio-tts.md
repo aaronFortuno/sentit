@@ -103,3 +103,12 @@ L’estat viu de cada prova i la seva audició consta al [seguiment de producci�
 - S081: les dues proves rebudes continuen dient funa/fona segons el docent; no s’han aplicat. Dos torns complets en espera d’un lot compatible.
 
 [Pla actual de preses pendents](pla-esmenes-veu.md). No s’han fet peticions noves de síntesi per aquests muntatges.
+
+
+## Retorns del 26/11
+
+- S081: torn telefon de L39 validat; aplicar-lo una sola vegada. El torn final encara diu fona i queda com a única esmena pendent.
+- S107: re-presa rebutjada perquè diu carre i fona en lloc de carro i funda. Preparar el torn complet, amb dicció explícita només a les metadades.
+- Funda és una incidència recurrent de Gemini: conservar la grafia editorial; comprovar la U tònica i la transició N+D a l’oïda en cada presa. Les indicacions no en garanteixen la correcció i el reconeixement automàtic no la valida.
+- S070: l’esmena aïllada de s’asseia enfosqueix la veu; el docent demana una presa completa amb el mateix Ferran/Algenib, conservant les preses anteriors.
+- S093, S041 i S085: esmenes validades pel docent; incorporar les proves exactes i presentar el muntatge per a audició.

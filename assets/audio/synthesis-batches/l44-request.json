@@ -1,0 +1,63 @@
+{
+  "model": "gemini-3.8-flash-tts",
+  "input": [
+    {
+      "type": "user_input",
+      "content": [
+        {
+          "type": "text",
+          "text": "Bon dia. El mesurem? Fa vuitanta-cinc centímetres. El servei que recollim aquí admet paquets de fins a vuitanta. Per a aquest tub hem de mirar la modalitat de paquets grans.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan. Exact adult FEMALE Gacrux voice for Empleada, consistently female from the first syllable through both complete turns. Warm ordinary customer service conversation, no male voice or change of speaker. Verbatim speech, no title, instructions, sound effects or vocalizations. Keep the same adult female Gacrux voice across the complete intervention; natural tone and stable identity, not a male or very deep voice. Read only the supplied words. This is a separate repair paragraph with no title. Keep the exact assigned character voice stable throughout this corrective recording. Read every supplied word once, including the first sentence. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Sí. El podem preparar des d’aquest taulell, però el transportista recull el paquet al domicili. Aquí tenim poc espai i els tubs grans els van a buscar directament.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same natural Central Catalan voice, pace and character. Read the words verbatim, with conversational turn-taking. No added sounds. This is a separate repair paragraph with no title. Keep the exact assigned character voice stable throughout this corrective recording. Read every supplied word once, including the first sentence. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition.",
+              "speaker": "Voice1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Plaça dels Til·lers, línia sis, cap al centre, ahir a les cinc i vint. T’ho repeteixo perquè a l’altra banda de la plaça hi ha la parada del sentit contrari.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "speaker": "Voice2",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan everyday conversation. Keep Mar/Erinome and Informadora/Callirrhoe as two stable adult female voices, each on her own complete turn. No title, added words, labels, effects, or spoken instructions. In Til·lers, pronounce the L gemination clearly: an audible sustained double L /lː/ across the syllable boundary, never the palatal LL sound. Keep the natural Catalan word and the exact assigned adult female voice. Read the entire supplied turn once. Do not read this instruction. This is a separate repair paragraph with no title. Keep the exact assigned character voice stable throughout this corrective recording. Read every supplied word once, including the first sentence. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "response_format": {
+    "type": "audio",
+    "mime_type": "audio/wav",
+    "sample_rate": 24000
+  },
+  "generation_config": {
+    "speech_config": {
+      "speakers": [
+        {
+          "speaker": "Voice1",
+          "voice": "Gacrux"
+        },
+        {
+          "speaker": "Voice2",
+          "voice": "Callirrhoe"
+        }
+      ]
+    }
+  },
+  "background": true
+}

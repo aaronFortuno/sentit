@@ -1,0 +1,99 @@
+{
+  "code": "S126",
+  "activity": "ca-S126",
+  "state": "published",
+  "file": "s126-mixed-v1.mp3",
+  "introFile": "s126-mixed-v1-intro.mp3",
+  "bodyFile": "s126-mixed-v1-cos.mp3",
+  "offset": 4.44,
+  "bodyDuration": 95.18,
+  "fullDuration": 99.62,
+  "voices": {
+    "Biel": "Puck",
+    "Elies": "Algieba"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "507a423d7bc8bf6247c3ff6b5ca198711696b71edabb32edb9158ce33eb4eb40",
+  "sourceRequestHash": "5aeea49978dde640b68fc0bacbfb2997bb7452d14eb82adbf3a72bfff031f3ec",
+  "batch": "L39",
+  "rawSha256": "b7f09b64f583e715cf51b98b91e44fadd9294cd65d73e8b358c6d0cf1fb0351c",
+  "takeSha256": "3651654d3aa77dec46d1c331fd266979f4fc51bc51adfa28a014f0cf298aa683",
+  "coverage": 0.941358024691358,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -18.96,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "callmethefoo-744447",
+      "start": 0,
+      "source": "assets/audio/sources/callmethefoo-744447.mp3",
+      "sourceSha256": "0c0e38e634bae6e954c2cc451d331800cfb0b3c97cef5276d596f3e2aca9e1ec",
+      "sourceUrl": "https://freesound.org/people/callmethefoo/sounds/744447/",
+      "author": "callmethefoo",
+      "license": "CC0 1.0",
+      "underSpeech": true,
+      "speechGain": 0.07,
+      "openingGain": 0.16,
+      "raisedGain": 0.23,
+      "sourceTargetLufs": -28,
+      "speechNominalLufs": -51.09803919971486,
+      "lowPassHz": 1800,
+      "passes": 3,
+      "crossfadeSeconds": 1,
+      "excerpt": {
+        "start": 12,
+        "seconds": 85.24
+      },
+      "envelope": {
+        "riseStart": 90.77999999999997,
+        "riseEnd": 91.57999999999998,
+        "holdSeconds": 1.0000000000000142,
+        "fadeStart": 92.58,
+        "fadeEnd": 93.98
+      }
+    }
+  ],
+  "sha256": "8986ca354b2f91dbf775d1db3e5855c5e4114fa57324a6f7078a06cb9c4006e8",
+  "voiceHandles": {
+    "body": {
+      "start": 0.43,
+      "end": 90.11,
+      "retainedPcmSha256": "9ea349e6e954414d5918e1a2a28cbc74f149c9a3c5458303e3f480b600602c76",
+      "sourceSha256": "018ec361ce7605dc3e7793c9efa524ca882e60a5b3d6ec22bc113ed10897c8b7",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.295,
+      "end": 3.785,
+      "retainedPcmSha256": "6756d12d970159c7d33ed19fd061407da300affc99b3568b68f3977f1d589a01",
+      "sourceSha256": "ac94de72c60e958f3d4679206117b3cfe616ac1ae4ab97f29ddd167b873085fc",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-25",
+    "sourceTakeSha256": "3651654d3aa77dec46d1c331fd266979f4fc51bc51adfa28a014f0cf298aa683",
+    "sourceBatch": "L39",
+    "confirmation": "Docent 25/11: S123, S114, S125, S120, S126, S116, S113 i S124 validats per passar a muntatge."
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-26",
+    "validatedBy": "docent",
+    "confirmation": "Docent 26/11: S124, S126, S120, S114, S123, S116 i S125 validats per publicació definitiva.",
+    "audioSha256": "8986ca354b2f91dbf775d1db3e5855c5e4114fa57324a6f7078a06cb9c4006e8",
+    "editorialFingerprint": "290981379b8808df05188bc000c074f7fd868c9bb10d5b73ffa5b8f6aa360311",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/s126-publicacio-v1.webp",
+    "illustrationSha256": "5482f91e07a5e736efb6b048a7ad33cc58ce1e14f9714ea8a43612f33dd66bbc",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-26",
+    "audioChanged": false
+  }
+}

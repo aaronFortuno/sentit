@@ -4,22 +4,37 @@
 const fs=require('node:fs/promises'),path=require('node:path'),{createHash}=require('node:crypto');
 const {ffmpeg,ffmpegBinary}=require('./audio-files.cjs');
 const root=path.resolve(__dirname,'..'),work=path.resolve(root,'../output/sentit-primera-tanda'),sha=b=>createHash('sha256').update(b).digest('hex');
+function selectPreviewTakes(index,only){
+ const takes=only?Object.values(index).filter(t=>t.batch===only&&/-T\d+$/u.test(t.id)):['S006','S009','S029','S031','S039'].map(code=>index[code+'-T01']).filter(Boolean);
+ if(only&&!takes.length)throw Error('El lot encara no té preses completes verificades.');
+ if(new Set(takes.map(t=>t.code)).size!==takes.length)throw Error('El lot té més d’una presa completa per activitat; cal separar la revisió.');
+ return takes;
+}
+function assertPreviewDestination(take,old,revision,file,exists){
+ if(old&&old.sourceTakeSha256!==take.sha256&&revision<=(old.revision??1))throw Error('Previsualització anterior d’una altra presa: conservar-la abans de revisar.');
+ if(exists&&(!old||old.file!==file||old.sourceTakeSha256!==take.sha256))throw Error('Fitxer de previsualització ja conservat: tria una revisió nova.');
+}
+function previewHistory(old,file){
+ if(!old)return {};
+ if(old.file===file)return old.replaces?{replaces:old.replaces}:{};
+ return {replaces:{file:old.file,sha256:old.sha256,sourceTakeId:old.sourceTakeId,sourceTakeSha256:old.sourceTakeSha256,...(old.replaces?{replaces:old.replaces}:{})}};
+}
 async function main(){
  const {activities}=await import('../catalogue.js'),{productionProgress}=await import('../content/production-progress.js'),index=JSON.parse(await fs.readFile(path.join(work,'mixed-batches/takes.json'),'utf8')),binary=await ffmpegBinary();
  const only=process.argv.find(arg=>arg.startsWith('--only='))?.slice(7).toUpperCase();
  const revision=Number(process.argv.find(arg=>arg.startsWith('--revision='))?.slice(11)??1);if(!Number.isInteger(revision)||revision<1||revision>99)throw Error('Revisió de presa no vàlida.');
  if(only&&!/^L\d+$/u.test(only))throw Error('Indica --only=LXX per a un lot rebut.');
  const rows=JSON.parse(await fs.readFile(path.join(root,'assets/audio/batch-voice-previews.json'),'utf8').catch(error=>{if(error.code==='ENOENT')return '[]';throw error;}));
- const codes=only?[...new Set(Object.values(index).filter(take=>take.batch===only&&/-T\d+$/u.test(take.id)).map(take=>take.code))]:['S006','S009','S029','S031','S039'];
- if(only&&!codes.length)throw Error('El lot encara no té preses completes verificades.');
- for(const code of codes){
-  const entry=activities.find(e=>e.code===code),take=index[code+'-T01'];if(!take||entry.audio)continue;
+ const takes=selectPreviewTakes(index,only);
+ for(const take of takes){
+  const code=take.code,entry=activities.find(e=>e.code===code);if(!entry||entry.audio)continue;
   if(sha(await fs.readFile(take.file))!==take.sha256)throw Error('Presa alterada: '+code);
   const old=rows.findIndex(row=>row.code===code);
-  if(old>=0&&rows[old].sourceTakeSha256!==take.sha256&&revision<=(rows[old].revision??1))throw Error('Previsualització anterior d’una altra presa: conservar-la abans de revisar.');
   const file=`assets/audio/${code.toLowerCase()}-voices-review-v${revision}.mp3`;
+  const exists=await fs.access(path.join(root,file)).then(()=>true,error=>{if(error.code==='ENOENT')return false;throw error;});
+  assertPreviewDestination(take,old>=0?rows[old]:null,revision,file,exists);
   ffmpeg(binary,['-v','error','-y','-i',take.file,'-af','loudnorm=I=-19:TP=-2.5:LRA=9,aresample=48000,adelay=250:all=1,apad=pad_dur=0.35','-map_metadata','-1','-c:a','libmp3lame','-q:a','3',path.join(root,file)]);
-  const record={code,title:entry.title,batch:take.batch,revision,sourceTakeSha256:take.sha256,sourceRawSha256:take.rawBatchSha256,file,sha256:sha(await fs.readFile(path.join(root,file))),state:'voices-received-awaiting-listening',missingParts:take.missingParts??[],teacherAudioApproval:false,newRequests:0,voiceRetimed:false,...(old>=0&&rows[old].file!==file?{replaces:{file:rows[old].file,sha256:rows[old].sha256,sourceTakeSha256:rows[old].sourceTakeSha256}}:{})};
+  const record={code,title:entry.title,batch:take.batch,revision,sourceTakeId:take.id,sourceTakeSha256:take.sha256,sourceRawSha256:take.rawBatchSha256,...(take.fullRetake?{fullRetake:take.fullRetake,retakeAuthorization:take.retakeAuthorization,montageAllowed:false}:{}),file,sha256:sha(await fs.readFile(path.join(root,file))),state:'voices-received-awaiting-listening',missingParts:take.missingParts??[],teacherAudioApproval:false,newRequests:0,voiceRetimed:false,...previewHistory(old>=0?rows[old]:null,file)};
   if(old>=0)rows[old]=record;else rows.push(record);
   productionProgress['ca-'+code].voicePreview='./proves/veus-rebudes.html#'+code;
   productionProgress['ca-'+code].voicePreviewFile='./'+file;
@@ -33,3 +48,4 @@ async function main(){
  console.log(JSON.stringify({voicePreviews:rows.map(r=>r.code),newRequests:0}));
 }
 if(require.main===module)main().catch(e=>{console.error(e.message);process.exitCode=1;});
+module.exports={selectPreviewTakes,assertPreviewDestination,previewHistory};

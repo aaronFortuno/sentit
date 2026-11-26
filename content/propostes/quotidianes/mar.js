@@ -76,6 +76,9 @@ export const dailyMar = [
   }),
   dailyProposal({
     id: 'el-carro-davant-de-la-porta', code: 'S085', title: 'El carro davant de la porta', grade: '3', level: 'middle', genre: 'dialogue',
+    seconds: 79, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s085-mixed-v1.mp3', tracks: { introduction: './assets/audio/s085-mixed-v1-intro.mp3', body: './assets/audio/s085-mixed-v1-cos.mp3' },
+    fragment: { start: 4.44, seconds: 74 },
     voices: { Mar: 'Erinome', Veïna: 'Despina' }, guestSpeakers: [{ name: 'Veïna', voice: 'Despina', role: 'Veïna de l’edifici · ocasional' }], delivery,
     summary: 'La Mar arriba a casa amb dues bosses i troba un carro davant de la porta. Una veïna surt a buscar una caixa i s’aturen a parlar.',
     editorialFocus: '3r intermèdia: entendre un obstacle quotidià i seguir com dues persones ajusten on deixen les coses. Una sola ubicació, sense normes d’edifici que calgui saber abans.',

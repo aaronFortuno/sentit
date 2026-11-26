@@ -1,0 +1,17 @@
+{
+  "code": "S116",
+  "use": "publication-context",
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-11-26",
+  "prompt": "Create ONE new 3:2 landscape watercolor and colored-pencil storybook illustration for a Catalan school listening worksheet. Use the inputs only as canonical character/style REFERENCES, not edit targets. Warm ivory paper, muted sage and earth tones, natural expressive poses, one coherent scene, no panels. Keep exact character identities and clothes. No readable text, numbers, logos, border or watermark; no diagram or visual answers to comprehension questions. Mar with dark low ponytail, olive blazer and cream shirt, makes a radio report outdoors near an indistinct school building, with a CLOSED telescope case and a folded tripod resting on a low wall behind her. Soft even early evening tones without visible sky details. Specific astronomy-preparation context. No use of telescope, no stars, moon or clouds, no dining hall, astronomer, volunteers, photos, groups, clocks or calendar; do not show any weather outcome or observation sequence.",
+  "references": [
+    "assets/characters/mar-model-sheet-v1.webp"
+  ],
+  "originalPngSha256": "d20a32dd5f7648ff247be30c21cf3d26aee24d9bf49f8b2d4d62279c675eaf34",
+  "file": "assets/images/s116-publicacio-v1.webp",
+  "width": 1536,
+  "height": 1024,
+  "sha256": "99f938249fd787bcdb7dd0c6de18af4170a35cd98971d9e83d6918f59445cb44",
+  "alt": "La Mar parla en un pati, al costat d’un estoig tancat i un trípode plegat.",
+  "notes": "Il·lustració contextual pròpia; els models fixen la identitat dels recurrents. Revisió independent abans de publicar. Conversió a WebP, sense retoc del contingut."
+}

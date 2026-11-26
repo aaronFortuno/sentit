@@ -1,0 +1,49 @@
+{
+  "batch": "L44",
+  "requestHash": "9248c489c64e875fe1064129ec8b89af997b81a15790709c61813ac08f3d23e0",
+  "repairs": [
+    {
+      "code": "S095",
+      "part": "mida",
+      "text": "Bon dia. El mesurem? Fa vuitanta-cinc centímetres. El servei que recollim aquí admet paquets de fins a vuitanta. Per a aquest tub hem de mirar la modalitat de paquets grans.",
+      "pronunciation": "Keep the same adult female Gacrux voice across the complete intervention; natural tone and stable identity, not a male or very deep voice. Read only the supplied words.",
+      "status": "received-awaiting-listening",
+      "originalFile": "assets/audio/repairs/l44-s095-mida-original.mp3",
+      "candidateFile": "assets/audio/repairs/l44-s095-mida-prova.mp3",
+      "sourceRawSha256": "e745dbb235852711298ebf545af5ec836adc9e26531e6290cf3c4e457a4ecadd",
+      "sourceTakeId": "S095-T01",
+      "sourceTakeSha256": "b4ee57151a66ed8c7e4c63e8e030dd453bd1d02e2ccbb7601212fb3a21844712",
+      "batchRequestHash": "9248c489c64e875fe1064129ec8b89af997b81a15790709c61813ac08f3d23e0",
+      "applied": false
+    },
+    {
+      "code": "S095",
+      "part": "recollida",
+      "text": "Sí. El podem preparar des d’aquest taulell, però el transportista recull el paquet al domicili. Aquí tenim poc espai i els tubs grans els van a buscar directament.",
+      "pronunciation": "Keep the same adult female Gacrux voice across the complete intervention; natural tone and stable identity, not a male or very deep voice. Read only the supplied words.",
+      "status": "received-awaiting-listening",
+      "originalFile": "assets/audio/repairs/l44-s095-recollida-original.mp3",
+      "candidateFile": "assets/audio/repairs/l44-s095-recollida-prova.mp3",
+      "sourceRawSha256": "e745dbb235852711298ebf545af5ec836adc9e26531e6290cf3c4e457a4ecadd",
+      "sourceTakeId": "S095-T01",
+      "sourceTakeSha256": "b4ee57151a66ed8c7e4c63e8e030dd453bd1d02e2ccbb7601212fb3a21844712",
+      "batchRequestHash": "9248c489c64e875fe1064129ec8b89af997b81a15790709c61813ac08f3d23e0",
+      "applied": false
+    },
+    {
+      "code": "S102",
+      "part": "sentit",
+      "text": "Plaça dels Til·lers, línia sis, cap al centre, ahir a les cinc i vint. T’ho repeteixo perquè a l’altra banda de la plaça hi ha la parada del sentit contrari.",
+      "pronunciation": "In Til·lers, pronounce the L gemination clearly: an audible sustained double L /lː/ across the syllable boundary, never the palatal LL sound. Keep the natural Catalan word and the exact assigned adult female voice. Read the entire supplied turn once. Do not read this instruction.",
+      "status": "received-awaiting-listening",
+      "originalFile": "assets/audio/repairs/l44-s102-sentit-original.mp3",
+      "candidateFile": "assets/audio/repairs/l44-s102-sentit-prova.mp3",
+      "sourceRawSha256": "dbfe51e338dfe13edbea6f589e2b50227add83c034010620624ca265411144bf",
+      "sourceTakeId": "S102-T01",
+      "sourceTakeSha256": "cf45c4b06820ebd43f8fc0a5032b49fc26f87c08b7786d13a8b867f689356ad5",
+      "batchRequestHash": "9248c489c64e875fe1064129ec8b89af997b81a15790709c61813ac08f3d23e0",
+      "applied": false
+    }
+  ],
+  "masterChanged": false
+}

@@ -1,0 +1,18 @@
+{
+  "code": "S123",
+  "use": "publication-context",
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-11-26",
+  "prompt": "Create ONE new 3:2 landscape watercolor and colored-pencil storybook illustration for a Catalan school listening worksheet. Use the inputs only as canonical character/style REFERENCES, not edit targets. Warm ivory paper, muted sage and earth tones, natural expressive poses, one coherent scene, no panels. Keep exact character identities and clothes. No readable text, numbers, logos, border or watermark; no diagram or visual answers to comprehension questions. Mireia, brown-skinned adult teacher with short tight curls and sage cardigan, and Laia, young freckled girl with brown curly messy bun and sage sweater, stand just inside a light-filled nearly EMPTY gallery room. Laia is looking around with interest after speaking, Mireia listens. A few unopened exhibition crates are stacked far back. Wide airy room perspective with bare walls. No curtains, fabric rolls, audio equipment, sound-wave graphics, echoes made visual, marked floor tiles, recorded comparison, or extra people. Context is acoustics curiosity; do not illustrate acoustic explanations or answers.",
+  "references": [
+    "assets/characters/mireia-model-sheet-v1.webp",
+    "assets/characters/laia-model-sheet-v1.webp"
+  ],
+  "originalPngSha256": "2dae737aa5cdeb9865f22c82323f6c21e8dee759e0e81fde9d902d6c52473f86",
+  "file": "assets/images/s123-publicacio-v1.webp",
+  "width": 1536,
+  "height": 1024,
+  "sha256": "7d13cefcfbe31c9d1928c1291c11049b1a7b0b465263c0129c5516b089dee395",
+  "alt": "La Mireia i la Laia visiten una sala d’exposicions encara buida.",
+  "notes": "Il·lustració contextual pròpia; els models fixen la identitat dels recurrents. Revisió independent abans de publicar. Conversió a WebP, sense retoc del contingut."
+}

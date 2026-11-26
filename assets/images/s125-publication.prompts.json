@@ -1,0 +1,18 @@
+{
+  "code": "S125",
+  "use": "publication-context",
+  "generator": "built-in image_gen",
+  "generatedAt": "2026-11-26",
+  "prompt": "Create ONE new 3:2 landscape watercolor and colored-pencil storybook illustration for a Catalan school listening worksheet. Use the inputs only as canonical character/style REFERENCES, not edit targets. Warm ivory paper, muted sage and earth tones, natural expressive poses, one coherent scene, no panels. Keep exact character identities and clothes. No readable text, numbers, logos, border or watermark; no diagram or visual answers to comprehension questions. Biel with tousled brown hair and charcoal hoodie over cream shirt, and Elies with salt-and-pepper curls, short beard, slate shirt and tan apron, sit on opposite sides of a workbench discussing a small plain CLOSED wooden box. A couple of blank sheets sit loosely beside it. Closer tabletop three-quarter view, Elies leans forward naturally and Biel points toward the closed lid. Do not show the box's interior, dividers, cardboard strip, wiping cloth, guitar picks, sorting, lid fit, glue, labels or any writing. No demonstration that gives away construction steps.",
+  "references": [
+    "assets/characters/biel-model-sheet-v1.webp",
+    "assets/characters/elies-model-sheet-v1.webp"
+  ],
+  "originalPngSha256": "63612c8e8ef9175fda0a722cb6452b8587d1ad91e8830a513a31abddc6b15e4b",
+  "file": "assets/images/s125-publicacio-v1.webp",
+  "width": 1536,
+  "height": 1024,
+  "sha256": "125c80de8c750deeec7cd3c7f632a638ae2e50cc9ed3a447e0867a22c776ba33",
+  "alt": "En Biel i l’Elies treballen al taller al costat d’una capsa tancada.",
+  "notes": "Il·lustració contextual pròpia; els models fixen la identitat dels recurrents. Revisió independent abans de publicar. Conversió a WebP, sense retoc del contingut."
+}

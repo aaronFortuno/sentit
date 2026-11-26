@@ -729,9 +729,9 @@ export const editorialReviews = {
   },
   "ca-S114": {
     "status": "passed",
-    "reviewedAt": "2026-11-25",
-    "reviewer": "/root/abcd_author_002",
-    "fingerprint": "64168473d9db415d5fc2db7d38ef0791af662d28fc2f1d420f6812af31cc462d"
+    "reviewedAt": "2026-11-26",
+    "reviewer": "autoria_llegendes_135_138",
+    "fingerprint": "dede002a48c6662d55771332fcfa2b8684738c07befc28bd734f83047f172e53"
   },
   "ca-S115": {
     "status": "passed",
@@ -741,9 +741,9 @@ export const editorialReviews = {
   },
   "ca-S116": {
     "status": "passed",
-    "reviewedAt": "2026-11-25",
-    "reviewer": "/root/abcd_author_002",
-    "fingerprint": "f92e5dc3c41d10fa3157ba2cb7b22609c50540c69668c65f86731c7a1dd9aa87"
+    "reviewedAt": "2026-11-26",
+    "reviewer": "autoria_llegendes_135_138",
+    "fingerprint": "d99e80b07b124da9debd3a46a9439c881a110c555387deda5abf9edf69219937"
   },
   "ca-S117": {
     "status": "passed",
@@ -765,9 +765,9 @@ export const editorialReviews = {
   },
   "ca-S120": {
     "status": "passed",
-    "reviewedAt": "2026-11-25",
-    "reviewer": "/root/abcd_author_003",
-    "fingerprint": "1cbc1f2676b4675d05020893d617b0be48cd6fdd8a4f217a20cc5aa64869f9f6"
+    "reviewedAt": "2026-11-26",
+    "reviewer": "autoria_llegendes_135_138",
+    "fingerprint": "b25a327a945cd73978fe4a2273c8951d9e425f34e5581dda04a5158ec67faf93"
   },
   "ca-S121": {
     "status": "passed",
@@ -783,27 +783,27 @@ export const editorialReviews = {
   },
   "ca-S123": {
     "status": "passed",
-    "reviewedAt": "2026-11-25",
-    "reviewer": "/root/abcd_author_003",
-    "fingerprint": "b87b2703645fc69bb3793a4e25038365efa72f903d456293cae925265be19d63"
+    "reviewedAt": "2026-11-26",
+    "reviewer": "autoria_llegendes_135_138",
+    "fingerprint": "bfae01665d46cab690972e1bfb8e095d98f6f98c9ed789d05105e031ad562de7"
   },
   "ca-S124": {
     "status": "passed",
-    "reviewedAt": "2026-11-25",
-    "reviewer": "/root/abcd_author_004",
-    "fingerprint": "51172442bdb389727cb26d1baced6f2da755e179027b1e04e3825891aa49a889"
+    "reviewedAt": "2026-11-26",
+    "reviewer": "autoria_llegendes_135_138",
+    "fingerprint": "f28bb613c47a4ead2c7dbfce472c308a7e65ddd43764135e99d723f0ca724134"
   },
   "ca-S125": {
     "status": "passed",
-    "reviewedAt": "2026-11-25",
-    "reviewer": "/root/review_s125_labels",
-    "fingerprint": "630aa0a5955295fcbbc7257f245fe0e17e1073caeb90d5d6c565e303ec394d80"
+    "reviewedAt": "2026-11-26",
+    "reviewer": "autoria_llegendes_135_138",
+    "fingerprint": "256ef3ea2ab5cfdf42130be7fe36f5493cd3ab27c779576a970d8922533398e1"
   },
   "ca-S126": {
     "status": "passed",
-    "reviewedAt": "2026-11-25",
-    "reviewer": "/root/abcd_author_004",
-    "fingerprint": "a9cc7e2ad2cd3f939b2840440bbad6b173c204f62cfb4f2731451b4045fe60ab"
+    "reviewedAt": "2026-11-26",
+    "reviewer": "autoria_llegendes_135_138",
+    "fingerprint": "290981379b8808df05188bc000c074f7fd868c9bb10d5b73ffa5b8f6aa360311"
   },
   "ca-S127": {
     "status": "passed",
@@ -828,5 +828,77 @@ export const editorialReviews = {
     "reviewedAt": "2026-11-25",
     "reviewer": "/root/review_tradition_pilots",
     "fingerprint": "937eeb6988810383653f82c41d8cb02f9b33361a2a4087ff51003e4ce42af6a3"
+  },
+  "ca-S131": {
+    "status": "passed",
+    "reviewer": "autoria_llegendes_135_138",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "f43a868f0f1a10b8e23d657bc0ecff405d1e4f443925192e81c08e2d9035c3f5"
+  },
+  "ca-S132": {
+    "status": "passed",
+    "reviewer": "autoria_llegendes_135_138",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "590f755cd2d91262736585e24a9162ece121d122a553505ed8721a73b4e188c6"
+  },
+  "ca-S133": {
+    "status": "passed",
+    "reviewer": "autoria_llegendes_135_138",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "bf6163ebccf2614fb30f7b41f71815e388e18ed63c7aa2f7200bafa43b21824c"
+  },
+  "ca-S134": {
+    "status": "passed",
+    "reviewer": "autoria_llegendes_135_138",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "33e0920e991fbfb6ac555e79e695344cddd050cc14e814bb3c3b8f2232b7837b"
+  },
+  "ca-S135": {
+    "status": "passed",
+    "reviewer": "autoria_mites_139_142",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "914fa5c5688483e41cce1ae02e85f2d40984d2a0c657b0801f34d2e13dcec78f"
+  },
+  "ca-S136": {
+    "status": "passed",
+    "reviewer": "autoria_mites_139_142",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "8aab46b9820327e196120d5f07e3a9cccf452c7b42c792d7fb16ee6d631ced0b"
+  },
+  "ca-S137": {
+    "status": "passed",
+    "reviewer": "autoria_mites_139_142",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "4649f1c80aa3afb6054293b296bd6cfe1a90a8133b51b67b1b90aba35243f1ea"
+  },
+  "ca-S138": {
+    "status": "passed",
+    "reviewer": "autoria_mites_139_142",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "870f5f5fe6e960a33d949a034ddd6b887508a58b7726564c765965db4efb0c3b"
+  },
+  "ca-S139": {
+    "status": "passed",
+    "reviewer": "/root/autoria_faules_131_134",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "2253394fdfd970b4b87a1ffecb5f4ad1dee28ea780f6eb6840354479dc4d6c57"
+  },
+  "ca-S140": {
+    "status": "passed",
+    "reviewer": "/root/autoria_faules_131_134",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "be3d2fa471e29a96190d27a000682395920b1be4acd627c77e684157948667dc"
+  },
+  "ca-S141": {
+    "status": "passed",
+    "reviewer": "/root/autoria_faules_131_134",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "f805526504540fb8a6e99f0723f1c2a6b27c826a993829a4e93d63bd951058e1"
+  },
+  "ca-S142": {
+    "status": "passed",
+    "reviewer": "/root/autoria_faules_131_134",
+    "reviewedAt": "2026-11-26",
+    "fingerprint": "ad592bbca32a94a67de10b9e4d3ffe970d352e4a45b83c8736e9fab8c0d67ff4"
   }
 };

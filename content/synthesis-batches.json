@@ -1489,6 +1489,191 @@
       "estimatedInputTokens": 6087,
       "receipt": "assets/audio/synthesis-batches/l40.json",
       "completedAt": "2026-11-25T20:26:15.166Z"
+    },
+    {
+      "id": "L41",
+      "state": "received",
+      "speechTextFormat": "plain-v1",
+      "styleFormat": "compact-v1",
+      "execution": "background-v1",
+      "castPolicy": {
+        "kind": "anchor-with-flexible-narrator-v1",
+        "speaker": "Ferran",
+        "voice": "Algenib",
+        "narratorRole": "Narrador",
+        "allowSharedPhysicalVoice": true
+      },
+      "note": "S070-T02 completa per petició docent del 26/11 més els tres pilots culturals S128–S130 ja validats. Algenib compartida com a timbre, amb papers i direccions separats. Estimació 6:28, sense marques de pausa llegibles ni farciment. Una sola petició; després audició de veus abans de muntar.",
+      "blocks": [
+        {
+          "code": "S070",
+          "fullRetake": "S070-T02",
+          "sourceRequestHash": "7b04358057b0407a6902450302d6c6bc8f58ca3f687f64fe4fe5206347e06782"
+        },
+        {
+          "code": "S128",
+          "take": "S128-T01",
+          "sourceRequestHash": "97999d1e9a4960c6aed2818abae9cf2ab9146397fbc0e144d8fb832dd2ca6abd"
+        },
+        {
+          "code": "S129",
+          "take": "S129-T01",
+          "sourceRequestHash": "5cd572a15b2ac1a4a16b848575903593998291635102dd1f58eeba033eee04bd"
+        },
+        {
+          "code": "S130",
+          "take": "S130-T01",
+          "sourceRequestHash": "c308ab98e0ee406e36ac7c93748facc1d1b8735fec93db4c379e1ef2097ce37e"
+        }
+      ],
+      "authorization": "Docent: regenerar íntegrament S070 i produir els pilots S128–S130 amb veu flexible. Es manté l’autorització vigent d’enviar lots compatibles de 6–8 minuts seqüencialment.",
+      "approvedAt": "2026-11-26T07:43:27.094Z",
+      "approvedRequestHash": "a16e647266987a40b1e523ae8ecfd15122f720daf485fd84922a69c01b36ef62",
+      "estimatedSeconds": 388,
+      "estimatedInputTokens": 3578,
+      "receipt": "assets/audio/synthesis-batches/l41.json",
+      "completedAt": "2026-11-26T07:48:14.206Z"
+    },
+    {
+      "id": "L42",
+      "state": "received",
+      "speechTextFormat": "plain-v1",
+      "styleFormat": "compact-v1",
+      "execution": "background-v1",
+      "note": "Excepció docent del 26/11 abans del restabliment: nova presa completa S122 amb dues veus estables i dos talls omesos de Laia a S090. Sense marques literals de pausa. Veus per revisar abans de muntar.",
+      "authorization": "Docent: pots enviar-los encara que siguin petits, màxim quatre lots en total inclòs L41.",
+      "blocks": [
+        {
+          "code": "S122",
+          "fullRetake": "S122-T02",
+          "sourceRequestHash": "12daae52bce00c68bd63eccb91c1f75cf1d189a893d6dbe80c9f5f80250ce45c"
+        },
+        {
+          "code": "S090",
+          "part": "introduction",
+          "sourceRequestHash": "ec493323fe29d5e206c967e4db3450dee7af041004ff0e86e6b79455d893b902"
+        },
+        {
+          "code": "S090",
+          "part": "pilota",
+          "sourceRequestHash": "ec493323fe29d5e206c967e4db3450dee7af041004ff0e86e6b79455d893b902"
+        }
+      ],
+      "windowException": {
+        "kind": "teacher-short-batch",
+        "approvedBy": "docent",
+        "batchId": "L42",
+        "requestHash": "8c88a52f86f88e6e32937a960ccaad2dbd0c0d7033a3ee64b278fb2175c7f25e",
+        "approvedAt": "2026-11-26T07:45:25.596Z",
+        "expiresAt": "2026-11-26T08:00:00.000Z",
+        "confirmation": "Docent: pots enviar-los encara que siguin petits, màxim quatre lots en total inclòs L41."
+      },
+      "approvedAt": "2026-11-26T07:45:25.845Z",
+      "approvedRequestHash": "8c88a52f86f88e6e32937a960ccaad2dbd0c0d7033a3ee64b278fb2175c7f25e",
+      "estimatedSeconds": 103,
+      "estimatedInputTokens": 3109,
+      "receipt": "assets/audio/synthesis-batches/l42.json",
+      "completedAt": "2026-11-26T07:48:53.961Z"
+    },
+    {
+      "id": "L43",
+      "state": "received",
+      "speechTextFormat": "plain-v1",
+      "styleFormat": "compact-v1",
+      "execution": "background-v1",
+      "castPolicy": {
+        "kind": "repair-only-v1"
+      },
+      "blocks": [
+        {
+          "code": "S081",
+          "part": "final",
+          "retry": "S081-final-r4",
+          "sourceRequestHash": "40b985582496b2996c4c2fec3ae2c6e288afd02b2f9b8ed3032bc1e3086bed38"
+        },
+        {
+          "code": "S107",
+          "part": "sortida",
+          "retry": "S107-sortida-r2",
+          "sourceRequestHash": "9602bb47cc193b2b0395e6a5f34a0e351cd834e75c0d62b6f23baa8c99648e6c"
+        },
+        {
+          "code": "S088",
+          "part": "hola",
+          "sourceRequestHash": "e2075224c586efb6ff249dbcf23b3a286eff4556a72ee4599c38d09d8e4c8977"
+        },
+        {
+          "code": "S109",
+          "part": "temps",
+          "sourceRequestHash": "b97377a8effc1d8cf8115b7a2d32e6364be7fce48193ec50e22a05caee690968"
+        },
+        {
+          "code": "S109",
+          "part": "final",
+          "sourceRequestHash": "b97377a8effc1d8cf8115b7a2d32e6364be7fce48193ec50e22a05caee690968"
+        }
+      ],
+      "authorization": "Docent 26/11: enviar tres lots més ara abans del restabliment, encara que siguin petits, màxim quatre en total inclòs L41.",
+      "note": "Petició curta excepcional i exacta per aprofitar quota del 26/11, només esmenes de veu autoritzades. Text pla, dues veus físiques, sense marques literals de pausa. Cap aplicació o muntatge abans d’audició docent.",
+      "windowException": {
+        "kind": "teacher-short-batch",
+        "approvedBy": "docent",
+        "batchId": "L43",
+        "requestHash": "9960a95b4a6a51078cec246c7fc38c6fb297a46045a22136e5b69ded99107088",
+        "approvedAt": "2026-11-26T07:46:35.201Z",
+        "expiresAt": "2026-11-26T08:00:00.000Z",
+        "confirmation": "Docent 26/11: enviar tres lots més ara abans del restabliment, encara que siguin petits, màxim quatre en total inclòs L41."
+      },
+      "approvedAt": "2026-11-26T07:46:35.511Z",
+      "approvedRequestHash": "9960a95b4a6a51078cec246c7fc38c6fb297a46045a22136e5b69ded99107088",
+      "estimatedSeconds": 49,
+      "estimatedInputTokens": 2592,
+      "receipt": "assets/audio/synthesis-batches/l43.json",
+      "completedAt": "2026-11-26T07:48:54.900Z"
+    },
+    {
+      "id": "L44",
+      "state": "received",
+      "speechTextFormat": "plain-v1",
+      "styleFormat": "compact-v1",
+      "execution": "background-v1",
+      "castPolicy": {
+        "kind": "repair-only-v1"
+      },
+      "blocks": [
+        {
+          "code": "S095",
+          "part": "mida",
+          "sourceRequestHash": "eeaf1a94bf7ee900e571f28d41adaa39a91bbcde793d2c6f6079b3dea3c42244"
+        },
+        {
+          "code": "S095",
+          "part": "recollida",
+          "sourceRequestHash": "eeaf1a94bf7ee900e571f28d41adaa39a91bbcde793d2c6f6079b3dea3c42244"
+        },
+        {
+          "code": "S102",
+          "part": "sentit",
+          "sourceRequestHash": "22a19c67d1ea29be233549e657f9ba6b3e36ec501e2d2f89419b8d39046766c7"
+        }
+      ],
+      "authorization": "Docent 26/11: enviar tres lots més ara abans del restabliment, encara que siguin petits, màxim quatre en total inclòs L41.",
+      "note": "Petició curta excepcional i exacta per aprofitar quota del 26/11, només esmenes de veu autoritzades. Text pla, dues veus físiques, sense marques literals de pausa. Cap aplicació o muntatge abans d’audició docent.",
+      "windowException": {
+        "kind": "teacher-short-batch",
+        "approvedBy": "docent",
+        "batchId": "L44",
+        "requestHash": "9248c489c64e875fe1064129ec8b89af997b81a15790709c61813ac08f3d23e0",
+        "approvedAt": "2026-11-26T07:46:35.234Z",
+        "expiresAt": "2026-11-26T08:00:00.000Z",
+        "confirmation": "Docent 26/11: enviar tres lots més ara abans del restabliment, encara que siguin petits, màxim quatre en total inclòs L41."
+      },
+      "approvedAt": "2026-11-26T07:47:27.317Z",
+      "approvedRequestHash": "9248c489c64e875fe1064129ec8b89af997b81a15790709c61813ac08f3d23e0",
+      "estimatedSeconds": 36,
+      "estimatedInputTokens": 1280,
+      "receipt": "assets/audio/synthesis-batches/l44.json",
+      "completedAt": "2026-11-26T07:49:49.615Z"
     }
   ],
   "calibration": {
