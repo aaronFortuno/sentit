@@ -1,15 +1,17 @@
 import { activities, legacyActivities } from './catalogue.js';
 import { renderRepairPreview, renderVoicePreview } from './repair-preview.js?v=0.1.96';
-import { strings } from './locales.js?v=0.1.123';
-import { defaultFormat, imageOptions, maxLines, questionFormat, renderWorksheet } from './worksheet.js?v=0.1.123';
+import { strings } from './locales.js?v=0.1.124';
+import { defaultFormat, imageOptions, maxLines, questionFormat, renderWorksheet } from './worksheet.js?v=0.1.124';
 import { clockTime, decodeSession, defaultSession, encodeSession, guidedPrompts, validRate, sessionJingles, validJingle } from './session.js';
 import { renderAudioResources } from './audio-resources.js';
 import { isPendingReview, needsReview } from './review.js';
-import { renderGenerationPlan } from './generation-plan.js?v=0.1.123';
+import { renderGenerationPlan } from './generation-plan.js?v=0.1.124';
 import { startAnalytics, track, countBucket, excluded, setExcluded, restriction } from './analytics.js';
 import { mountErrorReport } from './error-report.js?v=0.1.106';
-import { initGuidedPlayer } from './guided-player.js';
-import { mountAudioPreview } from './audio-preview.js';
+import { initGuidedPlayer } from './guided-player.js?v=0.1.124';
+import { mountAudioPreview } from './audio-preview.js?v=0.1.124';
+import { createTrackPlayer } from './track-player.js';
+import { activityAudioParts } from './activity-audio.js';
 import { mountNarrationMusicPreview } from './narration-music-preview.js';
 import { mountCatalog } from './catalog.js';
 import { listCollections, saveCollectionLayout } from './collections.js';
@@ -22,10 +24,11 @@ import { mountSelectMenus } from './select-menu.js';
 import { mountWorkspacePanels } from './workspace-panels.js';
 import { mottos, nextMotto } from './mottos.js';
 import { listeningContext } from './content/listening-contexts.js';
-import { registerQuestionChoices, multipleChoice, responseQuestion, responseSummary } from './question-responses.js?v=0.1.123';
+import { registerQuestionChoices, multipleChoice, responseQuestion, responseSummary } from './question-responses.js?v=0.1.124';
 import { createQuestionFormatPreference } from './question-format-preference.js';
 
 const byId = id => document.getElementById(id);
+const teacherPlayback=createTrackPlayer(byId('teacher-audio'));
 const preferences = {
   get(key) { try { return localStorage.getItem(`sentit-${key}`); } catch { return null; } },
   set(key, value) { try { localStorage.setItem(`sentit-${key}`, value); } catch { /* Usable without storage. */ } },
@@ -273,8 +276,8 @@ function renderSessionEditor() {
     byId('audio-jingle').checked = session.jingle;
     byId('audio-jingle-choice').value = sessionJingles.some(jingle => jingle.id === session.jingleId) ? session.jingleId : defaultSession.jingleId;
     byId('audio-jingle-choice').disabled = !session.jingle;
-    byId('teacher-audio').playbackRate = session.rate;
-    byId('teacher-audio').preservesPitch = true;
+    teacherPlayback.playbackRate = session.rate;
+    teacherPlayback.preservesPitch = true;
   }
   if (selected) byId('open-player').href = listenUrl(selected);
   byId('open-player').hidden = !selected?.audio;
@@ -301,13 +304,7 @@ function renderSelection() {
   }
   renderPaper();
   renderEditor();
-  const audio = byId('teacher-audio');
-  if (selected?.audio !== (audio.getAttribute('src') ?? undefined)) {
-    audio.pause();
-    if (selected?.audio) audio.src = selected.audio;
-    else audio.removeAttribute('src');
-    audio.load();
-  }
+  teacherPlayback.setTracks(activityAudioParts(selected));
   byId('audio-actions').hidden = !selected?.audio;
   byId('audio-empty').hidden = Boolean(selected?.audio);
   byId('audio-empty').textContent = selected ? t('audioPendingHint') : t('noAudio');
@@ -370,7 +367,7 @@ function route() {
   }
   else {
     if (byId('question-format-dialog').open) closeDialog(byId('question-format-dialog'));
-    byId('teacher-audio').pause();
+    teacherPlayback.pause();
     byId('workspace').hidden = true;
     document.body.classList.remove('reviewing-draft');
     byId('catalog-view').hidden = false;
@@ -685,14 +682,14 @@ for (const [id, mode] of [['worksheet-mode', 'worksheet'], ['answers-mode', 'ans
 }
 byId('print').addEventListener('click', () => { if (selected && !isPendingReview(selected)) { track('obre_impressio',{code:selected.code,contingut:documentMode==='answers'?'solucionari':'fitxa',colleccio:Boolean(activeCollectionId)});window.print(); } });
 function reportQuestions(){return selected.questions.filter((question,index)=>questionFormat(question,index,currentSettings).included).map(question=>responseQuestion(selected,question,currentSettings));}
-byId('report-error').addEventListener('click',()=>{if(selected){byId('teacher-audio').pause();errorReporter.open(selected,{questions:reportQuestions()});}});
+byId('report-error').addEventListener('click',()=>{if(selected){teacherPlayback.pause();errorReporter.open(selected,{questions:reportQuestions()});}});
 byId('player-report').addEventListener('click',()=>{const entry=findActivity(listenId);if(entry){window.dispatchEvent(new Event('sentit-pause-playback'));errorReporter.open(entry,{audioOnly:true});}});
 function syncPrivacy(){byId('analytics-excluded').checked=excluded();const reason=restriction();byId('analytics-browser-notice').hidden=!['dnt','gpc'].includes(reason);}
 byId('analytics-excluded').addEventListener('change',event=>{setExcluded(event.target.checked);syncPrivacy();});
 window.addEventListener('sentit-analytics-change',syncPrivacy);
 byId('open-player').addEventListener('click',()=>track('obre_vista_escolta',{code:selected?.code}));
-byId('teacher-audio').addEventListener('play',()=>track('escolta_audio',{code:selected?.code,accio:'previsualitza'}));
-mountAudioPreview({ t, entry: () => selected, session: () => sessionSettings(selected), pauseFragment: () => byId('teacher-audio').pause(), icon, track });
+teacherPlayback.addEventListener('play',()=>track('escolta_audio',{code:selected?.code,accio:'previsualitza'}));
+mountAudioPreview({ t, entry: () => selected, session: () => sessionSettings(selected), pauseFragment: () => teacherPlayback.pause(), fragmentPlayer:teacherPlayback, icon, track });
 const musicPreview=mountNarrationMusicPreview({t,language:()=>language,icon,track});
 document.querySelector('#v4v a[href="https://aaronfortuno.github.io/portfolio/"]').addEventListener('click',()=>track('obre_portafoli'));
 byId('meet-characters').addEventListener('click',()=>track('obre_personatges'));

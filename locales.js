@@ -1,5 +1,6 @@
 export const strings = {
   ca: {
+    releaseModularAudio: 'Títol i relat separats amb una sola barra de reproducció; sessions, repeticions, ritme i QR conservats. Els 130 muntatges complets equivalents queden en local: uns 170 MB menys publicats. Mateixes veus, música i efectes, sense síntesi ni recompressió.',
     releaseAudioArchive: '303 MP3 antics passen a l’arxiu local: uns 279 MB menys publicats. Historial purgat amb autorització docent i còpia completa de recuperació: de 728 a 456 MB. Màsters, sessions pautades, revisions pendents i recursos reutilitzables intactes.',
     reviewMusicSelection: 'Veus validades · Tria musical pendent',
     releaseNarrationMusic: 'S130 amb les veus validades; muntatge pendent de triar el fons. Nou mostres musicals de biblioteca per comparar: tres per a faules, tres per a llegendes i tres per a mites, amb fonts i llicències. Inventari de mida i previsió per a 600 exercicis documentats.',
@@ -352,6 +353,7 @@ export const strings = {
     sessionEnded: 'Sessió acabada', remainingTime: 'Temps restant',
   },
   es: {
+    releaseModularAudio: 'Título y relato separados con una sola barra de reproducción; sesiones, repeticiones, ritmo y QR conservados. Los 130 montajes completos equivalentes quedan en local: unos 170 MB menos publicados. Mismas voces, música y efectos, sin síntesis ni recompresión.',
     releaseAudioArchive: '303 MP3 antiguos pasan al archivo local: unos 279 MB menos publicados. Historial purgado con autorización docente y copia completa de recuperación: de 728 a 456 MB. Másteres, sesiones pautadas, revisiones pendientes y recursos reutilizables intactos.',
     reviewMusicSelection: 'Voces validadas · Elección musical pendiente',
     releaseNarrationMusic: 'S130 con las voces validadas; montaje pendiente de elegir el fondo. Nueve muestras musicales de biblioteca para comparar: tres para fábulas, tres para leyendas y tres para mitos, con fuentes y licencias. Inventario de tamaño y previsión para 600 ejercicios documentados.',

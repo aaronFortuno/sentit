@@ -13,7 +13,12 @@ export function initGuidedPlayer(entry, session, prompts, button, render, onActi
   const clip = (url, status, options = {}) => steps.push({ url, status, ...options });
   const wait = (seconds, status) => { if (seconds > 0) steps.push({ seconds, status }); };
   if (session.jingle ?? true) clip(selectedJingleUrl(session.jingleId), 'sessionIntroduction');
-  if (session.enabled === false) clip(entry.audio, 'sessionListening', { rate, number: 1 });
+  if (session.enabled === false) {
+    if(entry.tracks?.introduction&&entry.tracks?.body){
+      clip(entry.tracks.introduction, 'sessionIntroduction', {rate});
+      clip(entry.tracks.body, 'sessionListening', {rate,number:1});
+    } else clip(entry.audio, 'sessionListening', { rate, number: 1 });
+  }
   else {
     const split = entry.tracks;
     clip(split?.introduction ?? entry.audio, 'sessionIntroduction', { rate, end: split ? undefined : entry.fragment.start });

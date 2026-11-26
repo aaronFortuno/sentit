@@ -34,7 +34,7 @@ const { specs } = require('./generate-prototypes.cjs');
     pause(){}
   }
   const source = (await fs.readFile(path.join(__dirname,'../guided-player.js'),'utf8')).replace(/^import[^\n]+\n/,'').replace('export function','function');
-  const init = vm.runInNewContext(source+'\ninitGuidedPlayer;', {Audio:FakeAudio,selectedJingleUrl:()=> 'jingle',window:{addEventListener(){}},performance:{now:()=>now},requestAnimationFrame:cb=>{frame=cb;return 1;},cancelAnimationFrame(){}});
+  const init = vm.runInNewContext(source+'\ninitGuidedPlayer;', {Audio:FakeAudio,AbortController,selectedJingleUrl:()=> 'jingle',window:{addEventListener(){}},performance:{now:()=>now},requestAnimationFrame:cb=>{frame=cb;return 1;},cancelAnimationFrame(){}});
   const button={addEventListener(event,cb){this.click=cb;}};
   init({audio:'full',tracks:{introduction:'intro',body:'body'}},{enabled:true,jingle:true,rate:.85,reading:60,interval:30,listens:2,prepare:true,repeat:true},{prepareMinute:'prepare',repeat:'repeat'},button,state=>painted.push(state));
   const ended = async()=>{ audio.events.ended(); await new Promise(resolve=>setImmediate(resolve)); };
@@ -56,6 +56,10 @@ const { specs } = require('./generate-prototypes.cjs');
   const simple={addEventListener(event,cb){this.click=cb;}};
   init({audio:'full'},{enabled:false,jingle:false,rate:1.2},{},simple,()=>{});
   await simple.click(); assert.equal(played.at(-1).url,'full'); assert.equal(played.at(-1).rate,1.2);
+  const modularSimple={addEventListener(event,cb){this.click=cb;}};
+  init({audio:'local-only-master',tracks:{introduction:'modular-intro',body:'modular-body'}},{enabled:false,jingle:false,rate:1.1},{},modularSimple,()=>{});
+  await modularSimple.click();assert.equal(played.at(-1).url,'modular-intro');await ended();assert.equal(played.at(-1).url,'modular-body');assert.equal(played.at(-1).rate,1.1);await ended();
+  assert(!played.some(item=>item.url==='local-only-master'),'Simple playback must never request archived full master');
   const manifest = require('../assets/audio/remaster-v2-manifest.json');
   const {createHash}=require('node:crypto');
   for(const record of manifest.activities){

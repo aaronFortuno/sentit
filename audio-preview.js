@@ -1,13 +1,13 @@
 import { guidedPrompts, sessionJingles } from './session.js';
-import { initGuidedPlayer } from './guided-player.js';
+import { initGuidedPlayer } from './guided-player.js?v=0.1.124';
 import { openDialog } from './motion.js';
 import { mountAudioSeek } from './audio-seek.js';
 
 // Teacher-only rehearsal. The shared player keeps the QR session and this
 // preview in sync; skipping waits never changes the teacher's saved settings.
-export function mountAudioPreview({ t, entry, session, pauseFragment, icon, track }) {
+export function mountAudioPreview({ t, entry, session, pauseFragment, fragmentPlayer, icon, track }) {
   const byId = id => document.getElementById(id);
-  const pairs = byId('jingles-dialog'), fragment = byId('teacher-audio');
+  const pairs = byId('jingles-dialog'), fragment = fragmentPlayer ?? byId('teacher-audio');
   mountAudioSeek(byId('fragment-seek'), fragment, t);
   const fullButton = byId('preview-session'), fragmentButton = byId('preview-fragment'), statusLine = byId('audio-preview-status');
   let controller;

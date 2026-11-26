@@ -2,6 +2,8 @@
 
 Decisió docent del **26/11/2026**: mantenir l’allotjament a GitHub Pages i optimitzar el repositori. Publicar els muntatges vigents, efectes, músiques, sintonies i locucions reutilitzables. Les preses i proves antigues es conserven en local.
 
+**Segona fase:** [reproducció modular](audio-modular.md). Es conserven al web títol i relat; els 130 màsters complets equivalents passen també a l’arxiu local. Estalvi addicional de 170 MB i arbre publicable d’uns 298 MB. Les xifres següents documenten la primera neteja i no inclouen aquesta segona reducció.
+
 **Purga de l’historial autoritzada i completada el 26/11/2026.** La pujada protegida a `main` ha estat acceptada i aquesta còpia local ja està sincronitzada. Historial net verificat: **456,06 MB**; arbre publicable: **468,22 MB**. Muntatges, pistes separades i recursos reutilitzables intactes.
 
 ## Neteja actual, sense reescriure l’historial
@@ -99,4 +101,4 @@ Resultats complets i empremtes a `authorized-history-result.json`, `purge-applie
 
 La neteja de proves redueix l’excés actual, però no resol per si sola la duplicació de màster i pistes separades: aquestes dues representacions sumarien uns **1,57 GB** per a 600 exercicis amb la mitjana actual. La següent optimització és servir **una sola representació sonora** i adaptar-ne el reproductor, conservant totes les funcions i els marges de consonants. Un màster per exercici serien uns **785 MB**, més imatges i recursos comuns; caldrà deixar marge i mesurar de nou.
 
-Aquesta adaptació no forma part de la neteja de proves: encara no s’han retirat les pistes separades ni alterat el funcionament de la sessió pautada.
+L’adaptació posterior conserva les pistes separades i retira de la publicació el màster complet equivalent; [detalls i proves](audio-modular.md). La sessió pautada conserva el seu funcionament i l’escolta seguida encadena el títol i el relat.
