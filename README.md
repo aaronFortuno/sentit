@@ -2,7 +2,7 @@
 
 Banc de comprensió oral d’ortogra.fi. El docent tria una activitat, prepara la fitxa i el solucionari i els imprimeix. L’alumnat respon al paper i escolta l’àudio des del QR o l’enllaç. Web estàtic, sense comptes ni servidor d’aplicació.
 
-[Política d’àudio i neteja del repositori](docs/neteja-audio.md): muntatges vigents, recursos reutilitzables i revisions pendents al web; proves tancades en local. `node tools/public-audio.mjs --apply` sincronitza la publicació sense esborrar originals; `--check` comprova els fitxers abans de pujar. Cap canvi d’allotjament. Reescriure l’historial remot és un pas separat que requereix aprovació concreta.
+[Política d’àudio i neteja del repositori](docs/neteja-audio.md): muntatges vigents, recursos reutilitzables i revisions pendents al web; proves tancades en local. `node tools/public-audio.mjs --apply` sincronitza la publicació sense esborrar originals; `--check` comprova els fitxers abans de pujar. Purga de l’historial autoritzada i aplicada el 26/11: uns 456 MB d’historial net i 468 MB de fitxers publicables. Còpies completes de recuperació fora del repo; allotjament a GitHub Pages. Altres clons antics s’han de sincronitzar amb la història nova abans de treballar-hi.
 
 [Músiques per a faules, llegendes i mites](docs/musiques-tradicio.md): nou mostres de biblioteca, tres per univers, al [comparador integrat](https://sentit.ortogra.fi/?musiques=mites-antiguitat). S130 té les veus validades i espera la tria musical abans del muntatge. [Mida actual i previsió per a 600 exercicis](docs/mida-i-creixement.md): inventari local, sense eliminar originals ni canviar l’allotjament.
 

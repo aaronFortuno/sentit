@@ -2,9 +2,10 @@
 
 ## 0.1.123 · 26 de novembre de 2026
 
-- Deixen de publicar-se 303 MP3 antics de proves i esmenes tancades, uns 279 MB. Tots conservats a les ubicacions de treball i en un arxiu local amb empremtes verificades; còpia completa de l’historial. Sense reescriure encara Git ni alterar màsters, preguntes o validacions.
+- Deixen de publicar-se 303 MP3 antics de proves i esmenes tancades, uns 279 MB. Tots conservats a les ubicacions de treball i en un arxiu local amb empremtes verificades; còpia completa de l’historial. Màsters, preguntes i validacions intactes.
 - Màsters vigents, pistes de sessió pautada, comparacions pendents, fonts, músiques i sintonies conservats. Les pàgines històriques de proves enllacen al material actual quan una presa queda arxivada.
-- Llista de publicació d’àudio i comprovació abans de pujar, per evitar tornar a publicar proves tancades. Política documentada i continuïtat a GitHub Pages; reduir l’historial és un pas separat.
+- Llista de publicació d’àudio i comprovació abans de pujar, per evitar tornar a publicar proves tancades. Política documentada i continuïtat a GitHub Pages.
+- Després de l’autorització docent, les 303 rutes també surten de l’historial compartit. Els 149 commits i l’arbre actual es conserven; canvien els identificadors de la història afectada. Purga preparada i comprovada en còpia independent, publicada amb protecció contra canvis nous i sincronitzada en local: historial de 728 a 456 MB. Còpia completa de recuperació i registres fora del repo; pistes separades encara conservades.
 
 ## 0.1.122 · 26 de novembre de 2026
 

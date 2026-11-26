@@ -2,6 +2,8 @@
 
 Decisió docent del **26/11/2026**: mantenir l’allotjament a GitHub Pages i optimitzar el repositori. Publicar els muntatges vigents, efectes, músiques, sintonies i locucions reutilitzables. Les preses i proves antigues es conserven en local.
 
+**Purga de l’historial autoritzada i completada el 26/11/2026.** La pujada protegida a `main` ha estat acceptada i aquesta còpia local ja està sincronitzada. Historial net verificat: **456,06 MB**; arbre publicable: **468,22 MB**. Muntatges, pistes separades i recursos reutilitzables intactes.
+
 ## Neteja actual, sense reescriure l’historial
 
 Base: `b9241df` · 150 activitats, 138 amb àudio. Inventari semàntic dels àudios que utilitzen el catàleg, el reproductor, les guies, les comparacions pendents i el registre de fonts.
@@ -23,6 +25,12 @@ Els WAV crus de Gemini **ja eren fora de Git**, a `../output/sentit-primera-tand
 Abans de la neteja s’ha creat i verificat un **Git bundle amb tot l’historial**, amb les tres referències locals del commit base:
 
 `../output/sentit-cleanup-20261126/before-cleanup.bundle`
+
+Abans d’aplicar la purga autoritzada s’ha creat i verificat una còpia completa més recent, que inclou els commits de neteja i l’informe de l’assaig:
+
+`../output/sentit-cleanup-20261126/authorized-before-purge.bundle`
+
+Aquesta última és la còpia de recuperació preferent. Es conserva fora del repositori i no es publica a Pages.
 
 Els 303 MP3 tenen una còpia addicional, comprovada individualment amb SHA-256, i un manifest a:
 
@@ -67,7 +75,25 @@ S’ha executat git-filter-repo 2.47.0 **només en una còpia local independent*
 
 L’arbre actual conserva exactament el mateix identificador de contingut `c41f9f6691db5afe3b898a47935b6213b4369289`: **tots els fitxers actuals són idèntics**, inclosos màsters, aprovacions, fonts i codi. La comprovació `git fsck --full --no-reflogs` ha passat. Els 459 àudios de servei també s’han comparat byte a byte en una exportació neta i s’han provat controls de muntatge, esmenes pendents i música al navegador local, sense els 303 MP3 arxivats.
 
-L’assaig, llistes i mesures són a `../output/sentit-cleanup-20261126/`; la còpia és `filtered.git`. Aquesta còpia **no té remot de publicació**. No s’ha fet cap force-push. Si hi ha commits nous abans d’aprovar la substitució de l’historial compartit, cal actualitzar l’assaig i el SHA esperat abans d’aplicar-lo.
+L’assaig, llistes i mesures són a `../output/sentit-cleanup-20261126/`; la còpia inicial és `filtered.git`. Durant aquell assaig no es va publicar cap reescriptura. Per aplicar l’autorització posterior s’ha preparat una còpia nova amb tots els commits més recents, descrita a continuació.
+
+### Aplicació autoritzada completada
+
+El docent ha autoritzat explícitament la purga de l’historial remot. S’ha repetit la preparació sobre l’estat vigent `0e3688415ac7d1a1a0aa8b1a9cbae7a2ffc3dcee`, amb còpia completa de seguretat, abans de publicar el nou historial `bb15754ef148663273dc5abc7a645c84bb5f1180`.
+
+- **149 commits abans i després de la purga.** Es conserva la història del codi; canvien els identificadors dels commits afectats.
+- **303 rutes de proves d’àudio retirades de tot l’historial de servei.** Les còpies locals i els bundles anteriors es conserven.
+- **Contingut actual idèntic byte a byte:** arbre `51632c75783738ad483f5369a2964167d8a48ea1`. Els 459 àudios vigents es mantenen.
+- `git fsck --full --no-reflogs` correcte a la còpia filtrada i, després, al repositori de treball; comprovació de publicació d’àudio i revisions editorials correcta.
+- `main` remot substituït amb `--force-with-lease` sobre el SHA exacte esperat; GitHub n’ha confirmat l’acceptació. No s’han sobreescrit altres branques o etiquetes.
+- Aquesta còpia local s’ha sincronitzat mitjançant canvi atòmic de referència, amb el mateix arbre, sense restablir ni esborrar fitxers de treball. S’han retirat les referències i els objectes antics locals de Git després de verificar la còpia de seguretat.
+- Historial local: **727,74 → 456,06 MB**, uns **272 MB alliberats**. La mida que mostra GitHub pot trigar a reflectir la seva recollida d’objectes; aquesta operació no comprova el desplegament de Pages.
+
+Resultats complets i empremtes a `authorized-history-result.json`, `purge-applied.json` i `size-after-authorized-purge.json`, dins `../output/sentit-cleanup-20261126/`. Els commits nous de documentació posteriors continuen normalment sobre aquest historial net.
+
+**Altres clons o agents:** la carpeta de treball d’aquesta conversa ja està actualitzada. Si apareix un altre clon amb l’historial anterior, guardar primer qualsevol feina pròpia i tornar-lo a clonar o traslladar els canvis concrets a la història nova. No fusionar l’historial antic amb el nou, perquè tornaria a introduir l’àudio purgat. Els bundles de recuperació són arxiu, no una branca de publicació.
+
+**Crus i remuntatges:** continuen a l’arxiu local de producció. No cal crear ara un altre repositori amb els WAV i les proves: el bundle i l’arxiu amb empremtes cobreixen la recuperació. Es pot conservar una còpia d’aquest arxiu en un altre disc si es vol redundància. La política de servei manté separats aquest material i els fitxers que necessita la web.
 
 ## Objectiu de 600 exercicis
 

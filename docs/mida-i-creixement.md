@@ -2,7 +2,7 @@
 
 Mesura local del **26/11/2026**, sobre el commit base `33ebb80` (v0.1.121), abans d’afegir les nou mostres musicals. Sense consultar el desplegament remot. MB i GB són decimals; MiB i GiB són potències de dos.
 
-**Actualització posterior:** el docent manté GitHub Pages i descarta investigar altres allotjaments per aquest objectiu. S’han identificat i retirat de la publicació 303 MP3 de treball, conservats en local: arbre publicable d’uns 468 MB. La neteja i el pas separat de l’historial s’expliquen a [la política d’àudio](neteja-audio.md). La taula següent conserva la mesura anterior com a comparació.
+**Actualització posterior:** el docent manté GitHub Pages i descarta investigar altres allotjaments per aquest objectiu. S’han retirat de la publicació i de l’historial 303 MP3 de treball, conservats en local: arbre publicable d’uns **468 MB** i historial net verificat d’uns **456 MB**. La purga de l’historial ha estat autoritzada i aplicada, amb còpies completes de recuperació. Detalls a [la política d’àudio](neteja-audio.md). La taula següent conserva la mesura anterior com a comparació.
 
 ## Què ocupa cada cosa
 
@@ -44,7 +44,7 @@ La [documentació oficial de GitHub Pages](https://docs.github.com/en/pages/gett
 3. Mantenir GitHub Pages, per decisió docent posterior, i optimitzar la representació sonora abans d’ampliar l’allotjament. L’alternativa de magatzem extern queda descartada per a aquesta fase.
 4. Mesurar de nou abans d’apropar-nos al límit. Reduir històricament `.git` seria una altra operació, separada i no necessària ara.
 
-No s’ha esborrat ni recomprimit cap àudio existent, no s’ha reescrit l’historial i no s’ha canviat l’allotjament.
+La mesura inicial no modificava cap fitxer. La neteja i la purga autoritzades posteriorment es descriuen al document enllaçat; no han recomprimit els àudios ni canviat l’allotjament.
 
 ## Repetir l’inventari
 
