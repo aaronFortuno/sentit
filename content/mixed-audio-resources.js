@@ -658,9 +658,9 @@ export const mixedAudioResources = {
     "recipe": "tools/prepare-batch-voice-previews.cjs"
   },
   "ca-S137": {
-    "voices": "Narrador: Algenib. Lot L45, veus rebudes i pendents d’audició.",
-    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
-    "recipe": "tools/prepare-batch-voice-previews.cjs"
+    "voices": "Narrador: Algenib. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "sounds": "Folk Round · Kevin MacLeod (CC BY 4.0). Entrada discreta, base molt baixa sota el relat i pujada de dos segons abans de la fosa final.",
+    "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S138": {
     "voices": "Narrador: Algenib. Lot L45, veus rebudes i pendents d’audició.",
@@ -673,9 +673,9 @@ export const mixedAudioResources = {
     "recipe": "tools/prepare-batch-voice-previews.cjs"
   },
   "ca-S132": {
-    "voices": "Narrador: Algenib. Lot L46, veus rebudes i pendents d’audició.",
-    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
-    "recipe": "tools/prepare-batch-voice-previews.cjs"
+    "voices": "Narrador: Algenib. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "sounds": "Windswept · Kevin MacLeod (CC BY 4.0). Entrada discreta, base molt baixa sota el relat i pujada de dos segons abans de la fosa final.",
+    "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S139": {
     "voices": "Narrador: Algenib. Lot L46, veus rebudes i pendents d’audició.",
@@ -684,6 +684,26 @@ export const mixedAudioResources = {
   },
   "ca-S140": {
     "voices": "Narrador: Algenib. Lot L46, veus rebudes i pendents d’audició.",
+    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
+    "recipe": "tools/prepare-batch-voice-previews.cjs"
+  },
+  "ca-S133": {
+    "voices": "Narrador: Algenib. Lot L47, veus rebudes i pendents d’audició.",
+    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
+    "recipe": "tools/prepare-batch-voice-previews.cjs"
+  },
+  "ca-S134": {
+    "voices": "Narrador: Algenib. Lot L47, veus rebudes i pendents d’audició.",
+    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
+    "recipe": "tools/prepare-batch-voice-previews.cjs"
+  },
+  "ca-S141": {
+    "voices": "Narrador: Algenib. Lot L47, veus rebudes i pendents d’audició.",
+    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
+    "recipe": "tools/prepare-batch-voice-previews.cjs"
+  },
+  "ca-S142": {
+    "voices": "Narrador: Algenib. Lot L47, veus rebudes i pendents d’audició.",
     "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
     "recipe": "tools/prepare-batch-voice-previews.cjs"
   }

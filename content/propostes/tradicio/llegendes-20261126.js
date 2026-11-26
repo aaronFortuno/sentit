@@ -51,6 +51,9 @@ export const legendExpansionDrafts = [
       q('armes','Per què Sant Mer demana als veïns que deixin les armes?','Perquè el drac ja està amansit.',['Perquè vol entregar les armes a Carlemany.','Perquè necessita les armes per tancar el cau.','Perquè els soldats encara han de combatre el drac.','Perquè el drac ja està amansit.'],'d','El monjo explica el canvi que s’ha produït en la criatura.',[e('placa','Sant Mer els va dir que les deixessin a terra: la bèstia ja estava amansida')])
     ]}),
   cultural({code:'S137',id:'el-timbaler-i-el-resso',title:'El timbaler i el ressò',grade:'5',level:'middle',universeIds:['llegendes-mon'],
+    seconds: 98, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s137-mixed-v1.mp3', tracks: { introduction: './assets/audio/s137-mixed-v1-intro.mp3', body: './assets/audio/s137-mixed-v1-cos.mp3' },
+    fragment: { start: 6.15, seconds: 92 },
     introduction:'Comprensió oral. El timbaler i el ressò. La llegenda del Timbaler del Bruc.',
     summary:'Prop de Montserrat, el tambor d’un jove es converteix en el centre d’una confusió que canvia el curs del relat.',
     context:'Escoltaràs una llegenda situada durant una guerra. El relat explica què senten i què creuen els personatges que són a cada banda de la muntanya. Fixa’t en els fets i en les seves interpretacions.',

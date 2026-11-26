@@ -61,3 +61,5 @@ Modificacions dels fragments: segons 6–38 de cada original, ajust de sonoritat
 ## Primers usos reals
 
 S128 amb F1, S129 amb L1 i S130 amb M1. Els tres muntatges esperen l’audició del docent; l’aprovació del repertori i de les veus continua separada de la publicació definitiva. Les pròximes produccions alternaran amb F4/F5/F6, L2/L3 o M2/M3 segons l’univers i el caràcter del relat.
+
+- S132: F4 «Windswept»; S137: L2 «Folk Round». Alternança respecte de F1/S128 i L1/S129, música enregistrada de Kevin MacLeod (CC BY 4.0), usos i empremtes al catàleg i manifests. Veus validades; muntatges pendents d’audició.

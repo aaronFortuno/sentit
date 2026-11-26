@@ -873,5 +873,36 @@
     ],
     "application": "Comparació d’original i esmena per audició docent. No aplicada al màster; originals preservats.",
     "approvedRequestHash": "3d25f087898f538ca6605b0b0393ce7c158881a7dafb013a5d918565aa47b994"
+  },
+  "S135": {
+    "activity": "ca-S135",
+    "status": "approved-for-correction",
+    "approvedAt": "2026-11-26",
+    "approvalSource": "Docent: S135 no es pot validar; cal esmenar travessa difícil i Palausolità. Conservar la resta i comparar les dues seccions abans del muntatge.",
+    "scope": "spoken-turns",
+    "sourceTakeId": "S135-T01",
+    "sourceRequestHash": "3402b7ae874c38c102c2e3bba9f629c25b1b9d6aaa1fe835d901041f4c06dd90",
+    "sourceRawSha256": "40b09c86c189a3ac4034621bc21308fe06e3966a5377e8d88a5bb29fa720bcb8",
+    "sourceTakeSha256": "7b177f5200344a3f50f5c5adde15a2adad61e65ee91594e567c4283a9c0202fd",
+    "voices": {
+      "Narrador": "Algenib"
+    },
+    "direction": "Natural Central Catalan anonymous narration, same mature voice Algenib throughout. Preserve the exact supplied words and stable timbre. No title, added words or spoken instructions.",
+    "repairs": [
+      {
+        "part": "pacte",
+        "speaker": "Narrador",
+        "text": "Un dia, després d’una travessa difícil, va trobar un desconegut a la riba. Era el diable. Li va oferir construir un pont de pedra en una sola nit. A canvi, la noia li entregaria l’ànima. Però només si acabava el pont abans de l’alba. Ella, convençuda que aquella feina era impossible, va acceptar.",
+        "pronunciation": "Read travessa difícil exactly as supplied, with the normal Catalan stressed E in travessa. Never substitute travassa. Read the whole paragraph in the same assigned voice. These instructions are not spoken."
+      },
+      {
+        "part": "gall",
+        "speaker": "Narrador",
+        "text": "La mestressa va escoltar-la i va anar al galliner. Allà va aconseguir que el gall cantés abans d’hora. Els galls de les cases veïnes li van respondre. El cant es va escampar fins a Palausolità, on el diable passava amb l’última pedra del pont.",
+        "pronunciation": "Keep the place name Palausolità exactly as supplied, with stress on the final tà. Never replace it with another place name or add words inside it. Read the entire paragraph in the same assigned voice. These instructions are not spoken."
+      }
+    ],
+    "application": "Dues seccions completes per comparar amb l’original. No aplicar-les ni muntar abans de la validació docent. Esperar un lot compatible de 6–8 minuts.",
+    "approvedRequestHash": "347c590ad782e27d93f7475201ea8c004d1339e807c5f1a10618202481e3ddce"
   }
 }

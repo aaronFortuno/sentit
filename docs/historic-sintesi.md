@@ -1,8 +1,8 @@
 # Històric de lots de síntesi
 
-Actualitzat: **26/11/2026**. Registre dels **40 lots ja rebuts**, amb 216:18 d’àudio cru i 65.903 tokens d’entrada. No és una cua executable ni un comptador de quota. [Tornar als pendents](lots-sintesi.md).
+Actualitzat: **26/11/2026**. Registre dels **41 lots ja rebuts**, amb 222:39 d’àudio cru i 67.791 tokens d’entrada. No és una cua executable ni un comptador de quota. [Tornar als pendents](lots-sintesi.md).
 
-Aquests enviaments van aportar veus per a **128 comprensions** i **44 frases d’esmena**. És l’abast d’aquests lots, no el nombre total de comprensions del catàleg ni el nombre de peces pendents avui. L’estat actual de cada activitat consta al [seguiment](seguiment-produccio.md).
+Aquests enviaments van aportar veus per a **132 comprensions** i **44 frases d’esmena**. És l’abast d’aquests lots, no el nombre total de comprensions del catàleg ni el nombre de peces pendents avui. L’estat actual de cada activitat consta al [seguiment](seguiment-produccio.md).
 
 | Lot | Data d’enviament · UTC | Preses i esmenes | Àudio cru | Tokens d’entrada | Tokens d’àudio |
 | --- | --- | --- | ---: | ---: | ---: |
@@ -46,6 +46,7 @@ Aquests enviaments van aportar veus per a **128 comprensions** i **44 frases d�
 | [L44](../assets/audio/synthesis-batches/l44.json) | 2026-11-26 | S095-mida, S095-recollida, S102-sentit | 0:30 | 147 | 750 |
 | [L45](../assets/audio/synthesis-batches/l45.json) | 2026-11-26 | S135-T01, S136-T01, S137-T01, S138-T01 | 6:40 | 1852 | 10010 |
 | [L46](../assets/audio/synthesis-batches/l46.json) | 2026-11-26 | S131-T01, S132-T01, S139-T01, S140-T01 | 5:50 | 1730 | 8759 |
+| [L47](../assets/audio/synthesis-batches/l47.json) | 2026-11-26 | S133-T01, S134-T01, S141-T01, S142-T01 | 6:22 | 1888 | 9540 |
 
 Cada rebut apunta a la petició exacta i a les empremtes d’origen; les respostes completes, les preses crues i els mapes de tall es conserven localment. No es repeteix una presa perquè encara falti revisar-la o muntar-la. Les planificacions anteriors, superades pels rebuts, es conserven a l’historial de Git.
 

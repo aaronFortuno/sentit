@@ -12,6 +12,8 @@ Object.assign(recipes,{
  S130:{libraryMusic:'M1',events:[],ending:'ambient',lead:1.2,tail:5.6,titleGap:.4,cleanHandles:true,preserveBodyEnd:true},
  S128:{libraryMusic:'F1',events:[],ending:'ambient',lead:1.2,tail:5.6,titleGap:.4,cleanHandles:true,preserveBodyEnd:true},
  S129:{libraryMusic:'L1',events:[],ending:'ambient',lead:1.2,tail:5.6,titleGap:.4,cleanHandles:true,preserveBodyEnd:true},
+ S132:{libraryMusic:'F4',events:[],ending:'ambient',lead:1.2,tail:5.6,titleGap:.4,cleanHandles:true,preserveBodyEnd:true},
+ S137:{libraryMusic:'L2',events:[],ending:'ambient',lead:1.2,tail:5.6,titleGap:.4,cleanHandles:true,preserveBodyEnd:true},
  S070:{takeId:'S070-T02',music:true,events:[],ending:'ambient',lead:1.2,tail:6.2,titleGap:.4,cleanHandles:true,preserveBodyEnd:true},
  S122:{takeId:'S122-T02',ambient:'kyles-450728',ambientFrom:5,bed:true,events:[],ending:'ambient',lead:1.1,tail:3.8,titleGap:.4,cleanHandles:true,preserveBodyEnd:true,bedFadeSeconds:1.4,bedOpeningGain:.12,bedSpeechGain:.06,bedRaisedGain:.20},
  S095:{takeId:'S095-T01',ambient:'bexhillcollege-274213',ambientFrom:6,bed:true,events:[],ending:'ambient',lead:1.1,tail:3.8,titleGap:.4,cleanHandles:true,preserveBodyEnd:true,bedFadeSeconds:1.4,bedOpeningGain:.12,bedSpeechGain:.06,bedRaisedGain:.20,bedLowpassHz:800},

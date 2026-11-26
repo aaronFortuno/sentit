@@ -56,7 +56,7 @@ export function repairQueueMarkdown(queue, date) {
   const fmt = n => `${Math.floor(n / 60)}:${String(Math.round(n) % 60).padStart(2, '0')}`;
   const groups = [
     { label: 'Mar + informadora', voices: ['Erinome', 'Callirrhoe'], complement: 'Situacions quotidianes de la Mar amb una interlocutora de veu Callirrhoe.' },
-    { label: 'Ferran', voices: ['Algenib'], complement: 'Records narrats de Ferran; pot incorporar Aina/Zephyr en nous diàlegs.' },
+    { label: 'Veu Algenib', voices: ['Algenib'], complement: 'Relats amb narrador anònim o records de Ferran; conservar cada rol i comprovar la política de repartiment del lot.' },
     { label: 'Elies', voices: ['Algieba'], complement: 'Diàlegs de taller amb Biel/Puck, sense repetir «funda» com a farciment.' },
     { label: 'Mireia', voices: ['Aoede'], complement: 'Escenes d’aula amb una sola veu d’alumne per petició; evitar tornar al muntatge de tres veus.' },
     { label: 'Laia + Biel', voices: ['Leda', 'Puck'], complement: 'Converses quotidianes breus del duet. S011 necessita abans una decisió sobre l’estabilitat global.' },

@@ -8738,7 +8738,7 @@ export const productionProgress = {
     }
   },
   "ca-S132": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-26",
     "scriptApprovedAt": "2026-11-26",
     "editorialFingerprint": "590f755cd2d91262736585e24a9162ece121d122a553505ed8721a73b4e188c6",
@@ -8746,7 +8746,7 @@ export const productionProgress = {
     "listeningApproval": false,
     "confirmation": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
     "scriptApprovalSource": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
-    "reason": "Guió i escaleta validats; esperant un lot compatible.",
+    "reason": "Veus validades; muntatge amb F4 · Windswept molt baixa i pujada abans de la fosa. Pendent d’audició docent.",
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -8757,11 +8757,22 @@ export const productionProgress = {
         "L46"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-26",
+      "sourceTakeSha256": "2858c5219df0c0a2ac6a07deac91181e36fbd332973209303760d8c7f8d81245",
+      "sourceBatch": "L46",
+      "confirmation": "Docent 26/11: poden pujar a muntatge S132 i S137."
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-26T14:47:10.477Z",
     "voicePreview": "./proves/veus-rebudes.html#S132",
-    "voicePreviewFile": "./assets/audio/s132-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s132-voices-review-v1.mp3",
+    "mountedAt": "2026-11-26T15:17:42.078Z",
+    "synthesisBatch": "L46",
+    "requestHash": "c83866d90107652b9335bbbe92d4d107b131e22468328cf5dbdd1e5c174a1d89",
+    "audioSha256": "5350f2145bf1f767ec314e2400ff0a3662b9c1f98ff4b55e74d490384c502ce6",
+    "montageNewSynthesisRequests": 0
   },
   "ca-S136": {
     "state": "voices-received",
@@ -8842,7 +8853,7 @@ export const productionProgress = {
     "voicePreviewFile": "./assets/audio/s138-voices-review-v1.mp3"
   },
   "ca-S137": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-26",
     "scriptApprovedAt": "2026-11-26",
     "editorialFingerprint": "4649f1c80aa3afb6054293b296bd6cfe1a90a8133b51b67b1b90aba35243f1ea",
@@ -8850,7 +8861,7 @@ export const productionProgress = {
     "listeningApproval": false,
     "confirmation": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
     "scriptApprovalSource": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
-    "reason": "Guió i escaleta validats; esperant un lot compatible.",
+    "reason": "Veus validades; muntatge amb L2 · Folk Round molt baixa i pujada abans de la fosa. Pendent d’audició docent.",
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -8861,11 +8872,22 @@ export const productionProgress = {
         "L45"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-26",
+      "sourceTakeSha256": "3dbe187bde53dc3bc9a4c7f9a4d562ec1de3c084771256614712b0b326daafcf",
+      "sourceBatch": "L45",
+      "confirmation": "Docent 26/11: poden pujar a muntatge S132 i S137."
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-26T14:32:35.452Z",
     "voicePreview": "./proves/veus-rebudes.html#S137",
-    "voicePreviewFile": "./assets/audio/s137-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s137-voices-review-v1.mp3",
+    "mountedAt": "2026-11-26T15:17:52.110Z",
+    "synthesisBatch": "L45",
+    "requestHash": "3402b7ae874c38c102c2e3bba9f629c25b1b9d6aaa1fe835d901041f4c06dd90",
+    "audioSha256": "b2b35b1bc2793f33c755093acb711dc45ac6384f6db3d2d692090801eaadd0ef",
+    "montageNewSynthesisRequests": 0
   },
   "ca-S131": {
     "state": "voices-received",
@@ -8904,7 +8926,7 @@ export const productionProgress = {
     }
   },
   "ca-S135": {
-    "state": "voices-received",
+    "state": "audio-corrections-pending",
     "approvedAt": "2026-11-26",
     "scriptApprovedAt": "2026-11-26",
     "editorialFingerprint": "914fa5c5688483e41cce1ae02e85f2d40984d2a0c657b0801f34d2e13dcec78f",
@@ -8912,7 +8934,7 @@ export const productionProgress = {
     "listeningApproval": false,
     "confirmation": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
     "scriptApprovalSource": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
-    "reason": "Guió i escaleta validats; esperant un lot compatible.",
+    "reason": "Síntesi pendent d’esmena: travessa difícil i Palausolità.",
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -8927,10 +8949,39 @@ export const productionProgress = {
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-26T14:32:35.452Z",
     "voicePreview": "./proves/veus-rebudes.html#S135",
-    "voicePreviewFile": "./assets/audio/s135-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s135-voices-review-v1.mp3",
+    "feedback": [
+      {
+        "part": "pacte",
+        "word": "travessa difícil",
+        "heard": "travassa difícil",
+        "status": "pending",
+        "receivedAt": "2026-11-26",
+        "kind": "pronunciation",
+        "message": "Docent: esmenar aquest passatge abans de validar les veus."
+      },
+      {
+        "part": "gall",
+        "word": "Palausolità",
+        "heard": "Palau de la Sogonera o similar",
+        "status": "pending",
+        "receivedAt": "2026-11-26",
+        "kind": "pronunciation",
+        "message": "Docent: esmenar aquest passatge abans de validar les veus."
+      }
+    ],
+    "plannedRepair": {
+      "status": "awaiting-compatible-batch",
+      "parts": [
+        "pacte",
+        "gall"
+      ],
+      "planFile": "content/audio-repairs.json",
+      "approvedAt": "2026-11-26"
+    }
   },
   "ca-S134": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-26",
     "scriptApprovedAt": "2026-11-26",
     "editorialFingerprint": "33e0920e991fbfb6ac555e79e695344cddd050cc14e814bb3c3b8f2232b7837b",
@@ -8938,7 +8989,22 @@ export const productionProgress = {
     "listeningApproval": false,
     "confirmation": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
     "scriptApprovalSource": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
-    "reason": "Guió i escaleta validats; esperant un lot compatible."
+    "reason": "Guió i escaleta validats; esperant un lot compatible.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S134-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L47"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-26T15:09:20.562Z",
+    "voicePreview": "./proves/veus-rebudes.html#S134",
+    "voicePreviewFile": "./assets/audio/s134-voices-review-v1.mp3"
   },
   "ca-S139": {
     "state": "voices-received",
@@ -8967,7 +9033,7 @@ export const productionProgress = {
     "voicePreviewFile": "./assets/audio/s139-voices-review-v1.mp3"
   },
   "ca-S141": {
-    "state": "ready-for-voices",
+    "state": "voices-received",
     "approvedAt": "2026-11-26",
     "scriptApprovedAt": "2026-11-26",
     "editorialFingerprint": "f805526504540fb8a6e99f0723f1c2a6b27c826a993829a4e93d63bd951058e1",
@@ -8975,6 +9041,73 @@ export const productionProgress = {
     "listeningApproval": false,
     "confirmation": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
     "scriptApprovalSource": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
-    "reason": "Guió i escaleta validats; esperant un lot compatible."
+    "reason": "Guió i escaleta validats; esperant un lot compatible.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S141-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L47"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-26T15:09:20.562Z",
+    "voicePreview": "./proves/veus-rebudes.html#S141",
+    "voicePreviewFile": "./assets/audio/s141-voices-review-v1.mp3"
+  },
+  "ca-S133": {
+    "state": "voices-received",
+    "approvedAt": "2026-11-26",
+    "scriptApprovedAt": "2026-11-26",
+    "editorialFingerprint": "a5b1503a512d4b45756793514459340565ad4f06f98b55227036c24e424c9558",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "Docent 26/11: S133 i S142 validats per síntesi, després de les esmenes revisades. Autorització vigent de lots compatibles de 6–8 minuts, seqüencials.",
+    "scriptApprovalSource": "Docent 26/11: S133 i S142 validats per síntesi, després de les esmenes revisades. Autorització vigent de lots compatibles de 6–8 minuts, seqüencials.",
+    "reason": "Guió i escaleta revisats i validats pel docent; lot compatible complet.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S133-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L47"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-26T15:09:20.562Z",
+    "voicePreview": "./proves/veus-rebudes.html#S133",
+    "voicePreviewFile": "./assets/audio/s133-voices-review-v1.mp3"
+  },
+  "ca-S142": {
+    "state": "voices-received",
+    "approvedAt": "2026-11-26",
+    "scriptApprovedAt": "2026-11-26",
+    "editorialFingerprint": "289dc4620077ae471d9e57830f64b5e3615e1079d348d168cbe8af55c7a40dbd",
+    "plannedNewRequests": 1,
+    "listeningApproval": false,
+    "confirmation": "Docent 26/11: S133 i S142 validats per síntesi, després de les esmenes revisades. Autorització vigent de lots compatibles de 6–8 minuts, seqüencials.",
+    "scriptApprovalSource": "Docent 26/11: S133 i S142 validats per síntesi, després de les esmenes revisades. Autorització vigent de lots compatibles de 6–8 minuts, seqüencials.",
+    "reason": "Guió i escaleta revisats i validats pel docent; lot compatible complet.",
+    "uncertainTurns": [],
+    "receivedTakes": {
+      "received": [
+        "S142-T01"
+      ],
+      "total": 1,
+      "batches": [
+        "L47"
+      ]
+    },
+    "voiceApproval": false,
+    "missingVoiceParts": [],
+    "voicesReceivedAt": "2026-11-26T15:09:20.562Z",
+    "voicePreview": "./proves/veus-rebudes.html#S142",
+    "voicePreviewFile": "./assets/audio/s142-voices-review-v1.mp3"
   }
 };

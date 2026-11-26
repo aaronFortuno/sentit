@@ -1,5 +1,6 @@
 export const strings = {
   ca: {
+    releaseTraditionVoicesAndReviewSpeed: "S133 i S142 validats; L47 rebut amb S133, S134, S141 i S142 en una sola petició. Preses de veu per audició abans del muntatge. Botons ×1, ×1,25 i ×1,5 als reproductors de veus i esmenes, amb el to conservat i preferència durant la sessió. S132/S137 muntats amb F4/L2; S135 pendent d’esmena de travessa difícil i Palausolità.",
     releaseCulturalSourcesAndMontages: 'Fonts dels relats culturals al web i al paper; S133/S142 esmenats i pendents de validar. Deu guions aprovats i vuit preses rebudes a L45/L46; títol de S131 parcial. Cinc muntatges nous per escoltar: S070, S095, S122, S128 i S129. S095 amb tres interlocutors i imatge coherent.',
     adaptationSourcesTitle: 'Fonts del relat',
     adaptationOwnNote: 'Adaptació catalana pròpia de Sentit a partir de les fonts indicades.',
@@ -231,6 +232,7 @@ export const strings = {
     reviewRepetition: (n, seconds, spoken) => n > 1 ? `Després de cada escolta, excepte l’última: ${seconds} segons de pausa${spoken ? ', locució «Ara escoltaràs el text una altra vegada, per repassar les teves respostes»' : ''} i nova reproducció íntegra del fragment principal. No es repeteixen la sintonia de Sentit, el títol ni el temps inicial de lectura. En acabar l’última escolta, silenci.` : 'Acaba l’única escolta. Es manté la cua completa de so i silenci, sense tallar el final.',
     releaseDraftReview: 'Propostes pendents de validar accessibles al catàleg: fitxa, solucionari i guió amb les anotacions de muntatge intercalades. Sobreimprès a les targetes, marca d’aigua a cada pàgina i impressió bloquejada fins a la validació. Notes amb els talls de Gemini, les preses conservades i les peticions noves previstes.',
     releaseDateReview: '19 de novembre de 2026',
+    reviewPlaybackSpeed: 'Velocitat de revisió',
     speechRate: 'Ritme de locució', jingle: 'Sintonia inicial', audioSources: 'Fonts i crèdits sonors',
     audioSourcesPending: 'El muntatge encara és una proposta. No s’ha sintetitzat ni publicat.',
     resourceVoice: 'Veus sintetitzades', resourceOriginal: 'Música i efectes originals', fullAudioCredits: 'Fonts, llicències i escaletes completes',
@@ -361,6 +363,7 @@ export const strings = {
     sessionEnded: 'Sessió acabada', remainingTime: 'Temps restant',
   },
   es: {
+    releaseTraditionVoicesAndReviewSpeed: "S133 y S142 validados; L47 recibido con S133, S134, S141 y S142 en una sola petición. Tomas de voz para escuchar antes del montaje. Botones ×1, ×1,25 y ×1,5 en los reproductores de voces y correcciones, conservando el tono y la preferencia durante la sesión. S132/S137 montados con F4/L2; S135 pendiente de corregir travessa difícil y Palausolità.",
     releaseCulturalSourcesAndMontages: 'Fuentes de los relatos culturales en la web y el papel; S133/S142 corregidos y pendientes de validar. Diez guiones aprobados y ocho tomas recibidas en L45/L46; título de S131 parcial. Cinco montajes nuevos para escuchar: S070, S095, S122, S128 y S129. S095 con tres interlocutores e imagen coherente.',
     adaptationSourcesTitle: 'Fuentes del relato',
     adaptationOwnNote: 'Adaptación catalana propia de Sentit a partir de las fuentes indicadas.',
@@ -592,6 +595,7 @@ export const strings = {
     reviewRepetition: (n, seconds, spoken) => n > 1 ? `Después de cada escucha, excepto la última: ${seconds} segundos de pausa${spoken ? ', locución «Ahora escucharás el texto otra vez, para repasar tus respuestas»' : ''} y nueva reproducción íntegra del fragmento principal. No se repiten la sintonía de Sentit, el título ni el tiempo inicial de lectura. Al terminar la última escucha, silencio.` : 'Termina la única escucha. Se conserva la cola completa de sonido y silencio, sin cortar el final.',
     releaseDraftReview: 'Propuestas pendientes de validar accesibles en el catálogo: ficha, solucionario y guion con las anotaciones de montaje intercaladas. Sobreimpreso en las tarjetas, marca de agua en cada página e impresión bloqueada hasta la validación.',
     releaseDateReview: '19 de noviembre de 2026',
+    reviewPlaybackSpeed: 'Velocidad de revisión',
     speechRate: 'Ritmo de locución', jingle: 'Sintonía inicial', audioSources: 'Fuentes y créditos sonoros',
     audioSourcesPending: 'El montaje todavía es una propuesta. No se ha sintetizado ni publicado.',
     resourceVoice: 'Voces sintetizadas', resourceOriginal: 'Música y efectos originales', fullAudioCredits: 'Fuentes, licencias y escaletas completas',

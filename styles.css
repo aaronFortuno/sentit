@@ -513,7 +513,7 @@ button, a, input, select, summary, fieldset { transition: color var(--motion), b
 .repair-preview-pair + .repair-preview-pair { margin-top: 20px; padding-top: 14px; border-top: 1px solid var(--line); }
 .repair-preview-pair > p { font-weight: 600; }
 .repair-preview-clips { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
-.repair-preview-clips label { display: grid; gap: 8px; font-size: .82rem; color: var(--quiet); }
+.repair-preview-clip { display: grid; align-content: start; gap: 8px; min-width: 0; font-size: .82rem; color: var(--quiet); }
 .repair-preview-clips audio { width: 100%; min-width: 0; }
 @media (max-width: 540px) { .repair-preview-clips { grid-template-columns: 1fr; } }
 @media print {

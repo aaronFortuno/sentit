@@ -1750,6 +1750,44 @@
       "estimatedInputTokens": 2934,
       "receipt": "assets/audio/synthesis-batches/l46.json",
       "completedAt": "2026-11-26T14:47:10.477Z"
+    },
+    {
+      "id": "L47",
+      "state": "received",
+      "speechTextFormat": "plain-v1",
+      "styleFormat": "compact-v1",
+      "execution": "background-v1",
+      "createdAt": "2026-11-26T15:07:30.214Z",
+      "authorization": "Docent 26/11: S133 i S142 validats per síntesi, després de les esmenes revisades. Autorització vigent de lots compatibles de 6–8 minuts, seqüencials.",
+      "note": "P32 complet: dues faules i dos mites amb el narrador anònim Algenib. Text pla sense instruccions de pausa locutables. Només veus per audició docent; cap muntatge automàtic.",
+      "blocks": [
+        {
+          "code": "S133",
+          "take": "S133-T01",
+          "sourceRequestHash": "4b1aca460567027dde440e16ec8f99ba031e82d0bfb648fe742007c0290ab010"
+        },
+        {
+          "code": "S134",
+          "take": "S134-T01",
+          "sourceRequestHash": "78353ae723e1df8024d7c181344a1752da9b93b28565ed91d42c14c69182abcf"
+        },
+        {
+          "code": "S141",
+          "take": "S141-T01",
+          "sourceRequestHash": "0e7ab73a2c4d9f54edcfd1ffc8b490d0a5dd5a0088d5c52148e8cd36132f1f41"
+        },
+        {
+          "code": "S142",
+          "take": "S142-T01",
+          "sourceRequestHash": "dd0d59b53d8f09b49cc08407f85a3967ec23ec6d4b9e887b92aad0c36490fc28"
+        }
+      ],
+      "approvedAt": "2026-11-26T15:07:30.418Z",
+      "approvedRequestHash": "ddad9f4b98af013f5a5d6acb74d921c8486339be0b1e7a1d6929add26315e1b2",
+      "estimatedSeconds": 420,
+      "estimatedInputTokens": 3165,
+      "receipt": "assets/audio/synthesis-batches/l47.json",
+      "completedAt": "2026-11-26T15:09:20.562Z"
     }
   ],
   "calibration": {

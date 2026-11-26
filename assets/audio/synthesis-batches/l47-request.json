@@ -1,0 +1,63 @@
+{
+  "model": "gemini-3.8-flash-tts",
+  "input": [
+    {
+      "type": "user_input",
+      "content": [
+        {
+          "type": "text",
+          "text": "Comprensió oral. El vent i el Sol. Una faula de la tradició d’Isop.\n\nEl vent del nord i el Sol discutien sobre qui tenia més força. El vent feia moure les branques i deia: «Mira com tremolen els arbres quan bufo!» El Sol estava a punt de respondre quan van veure un home que avançava pel camí. Duia un abric llarg ben cordat.\n\n«Fem una prova», va proposar el Sol. «Guanyarà qui aconsegueixi que aquell home es tregui l’abric.» El vent va voler començar. El Sol es va amagar darrere d’un núvol i el vent va bufar amb força sobre el camí.\n\nL’home es va aturar. Les vores de l’abric voleiaven i el fred li entrava per les mànigues. Va ajuntar les dues vores amb les mans i se les va prémer contra el cos. El vent va bufar encara més fort. L’home es va agafar l’abric amb més força i va continuar caminant, amb el cap baix.\n\nFinalment, el vent va parar. El Sol va sortir de darrere del núvol i va començar a escalfar el camí. L’home va aixecar el cap i va afluixar les mans. Al cap d’una estona, es va descordar l’abric. El Sol continuava escalfant i l’home es va eixugar el front.\n\n«Quina calor!», va dir el viatger. Es va treure l’abric, se’l va posar al braç i va anar a seure a l’ombra d’un arbre. El vent va mirar l’abric que l’home duia al braç. Durant una estona, no va dir res.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants. Narració en català central, càlida, clara i expressiva, amb ritme natural. Una sola veu narradora, també als diàlegs citats, amb canvis suaus d’intenció i sense imitar criatures o monstres. Algenib és candidat provisional; el docent autoritza triar un timbre compatible amb el lot abans de congelar-lo. No llegir acotacions ni indicacions de pausa. Read the title and complete programme verbatim. Leave a brief quiet boundary after the title, without speaking any stage directions or pause instructions. No added sounds, music, words or vocalizations. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its story. Keep this same single character voice throughout all recordings. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. El pastor i el llop. Una faula de la tradició d’Isop.\n\nUn jove pastor vigilava les ovelles en un prat prop del poble. Els veïns li havien dit que, si apareixia un llop, cridés i vindrien a ajudar-lo. Aquell matí, el ramat pasturava tranquil. El noi s’avorria. Mirava les cases i pensava què podia fer per distreure’s.\n\nDe sobte, es va posar a cridar: «El llop! Que ve el llop!» Els veïns van deixar la feina i van córrer fins al prat, alguns amb bastons. Quan hi van arribar, el pastor va esclatar a riure. «Us ho heu cregut!», deia. Les ovelles continuaven menjant herba. No hi havia cap llop.\n\nUns dies després, el noi va repetir la broma. Va cridar amb totes les seves forces i els veïns van tornar a pujar. Aquesta vegada, quan el van sentir riure, es van enfadar. Havien deixat la feina per una altra alarma inventada. Van girar cua i van tornar al poble.\n\nUna tarda, va sortir un llop d’entre els arbres. El ramat es va escampar pel prat. El noi va córrer cap al camí i va cridar: «El llop! Ajudeu-me! Aquesta vegada és veritat!» Els veïns el van sentir des del poble, però van continuar treballant. «Ja ens vol tornar a enganyar», es deien.\n\nNingú no va pujar al prat. El llop va atrapar una ovella i se la va endur cap al bosc. El pastor va ajuntar les altres i les va fer baixar pel camí. Aquell vespre caminava darrere del ramat en silenci.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same natural Central Catalan voice, pace and character. Read the words verbatim, with conversational turn-taking. No added sounds. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its story. Keep this same single character voice throughout all recordings. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. Demèter i Persèfone. Un mite grec.\n\nUn mite grec explica que Demèter, la deessa que feia créixer el blat, tenia una filla anomenada Persèfone. Un dia, mentre la noia collia flors en un prat, la terra es va obrir. En va sortir Hades, el déu que regnava al món dels morts. La va fer pujar al seu carro i se la va endur sota terra, contra la seva voluntat.\n\nDemèter va sentir el crit de la seva filla i va córrer a buscar-la. Va recórrer la terra durant dies amb torxes a les mans. Finalment va preguntar al Sol, que havia vist què havia passat des del cel. Ell li va explicar que Hades s’havia endut Persèfone i que Zeus, el déu que governava els altres déus, hi havia donat el consentiment.\n\nEnfurismada, Demèter es va apartar dels déus i va impedir que el blat creixés. Els pagesos sembraven, però les llavors quedaven amagades a terra. Les collites van faltar i la gent va començar a passar gana. Zeus li va enviar missatges perquè tornés a fer créixer els camps. Demèter va respondre que abans volia recuperar la seva filla.\n\nLlavors Zeus va enviar Hermes, el seu missatger, al món dels morts. Havia de portar Persèfone de tornada. Quan va rebre la notícia, la noia es va alegrar. Abans que marxés, però, Hades li va fer menjar un gra de magrana amb engany: volia que aquell aliment la lligués al seu regne i l’obligués a tornar-hi.\n\nHermes va acompanyar Persèfone fins a la seva mare. Totes dues es van abraçar, i la noia li va explicar què havia menjat. Finalment es va acordar que passaria una part de cada any sota terra i la resta amb Demèter. La mare va tornar a fer créixer el blat i els camps es van omplir de vida.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same natural Central Catalan voice, pace and character. Read the words verbatim, with conversational turn-taking. No added sounds. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its story. Keep this same single character voice throughout all recordings. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "Comprensió oral. Hermes i la lira. Un mite grec.\n\nUn mite grec explica que el déu Hermes, fill de Zeus, acabava de néixer i ja caminava i parlava. A la cova on vivia amb la seva mare va construir un instrument amb una closca de tortuga i unes cordes tibades. Quan les tocava amb els dits, sonaven. Era una lira. Hermes la va deixar al costat del bressol i va sortir de la cova.\n\nAl vespre va trobar unes vaques del seu germà Apol·lo i se les va endur. Per confondre qui les busqués, les va fer caminar enrere sobre la sorra. Les marques de les potes semblaven indicar que anaven cap al lloc d’on, en realitat, s’allunyaven. Després les va amagar en un estable i va tornar al bressol.\n\nQuan Apol·lo va descobrir que li faltaven vaques, va començar a buscar-les. Va examinar les petjades i finalment va arribar a la cova d’Hermes. El petit déu es va arraulir entre les mantes. Apol·lo li va exigir que li digués on era el bestiar. Hermes va respondre que ell era un nadó, que tenia els peus molt petits i que gairebé no sabia què era una vaca.\n\nApol·lo el va portar davant de Zeus, el pare de tots dos, perquè resolgués la disputa. Hermes s’havia endut la lira i va continuar negant el robatori. Zeus va riure en sentir les excuses del seu fill, però li va ordenar que acompanyés Apol·lo i li mostrés on havia amagat les vaques. Tots dos van anar fins a l’estable i van trobar-hi el bestiar.\n\nApol·lo encara estava enfadat pel robatori. Hermes va agafar la lira i es va posar a tocar i a cantar. Apol·lo es va acostar per veure com feia sonar les cordes. No havia sentit mai aquell instrument. «Me n’ensenyaràs?», li va preguntar. Hermes va deixar de tocar. «Et puc donar aquesta lira. I tu em podries deixar les vaques a mi, per cuidar-les.» Apol·lo va mirar l’instrument i va acceptar la proposta. Hermes li va posar la lira a les mans. Apol·lo en va provar les cordes, primer d’una en una i després totes seguides. Mentrestant, Hermes va anar a reunir les vaques per dur-les a pasturar.",
+          "annotations": [
+            {
+              "type": "speech_metadata",
+              "style": "Same natural Central Catalan voice, pace and character. Read the words verbatim, with conversational turn-taking. No added sounds. This begins a separate complete recording. Read this title once, then leave a clear quiet gap before its story. Keep this same single character voice throughout all recordings. Instructions are not spoken. Finish the final word fully, then leave a clear quiet gap before the next recording. Do not speak any instruction or transition."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "response_format": {
+    "type": "audio",
+    "mime_type": "audio/wav",
+    "sample_rate": 24000
+  },
+  "generation_config": {
+    "speech_config": [
+      {
+        "voice": "Algenib"
+      }
+    ]
+  },
+  "background": true
+}

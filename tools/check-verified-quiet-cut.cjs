@@ -4,6 +4,9 @@ const b=Buffer.alloc(48044);b.write('RIFF');b.writeUInt32LE(b.length-8,4);b.writ
 const record={at:.4,windowStart:.35,windowEnd:.45,reason:'Measured quiet window between two aligned words'};
 assert.equal(verifiedQuietCut(b,record,.3,.5).at,.4);assert.equal(verifiedQuietCut(b,record,.3,.5).voiceSamplesRemoved,0);
 const audible=Buffer.from(b);audible.writeInt16LE(1000,44+Math.round(.4*24000)*2);assert.throws(()=>verifiedQuietCut(audible,record,.3,.5),/audible/);
+const quietNoise=Buffer.from(b);for(let i=Math.floor(.35*24000);i<Math.ceil(.45*24000);i++)quietNoise.writeInt16LE(i%3?12:34,44+i*2);assert(verifiedQuietCut(quietNoise,record,.3,.5).rmsDbFS< -60);
+const sustained=Buffer.from(b);for(let i=Math.floor(.35*24000);i<Math.ceil(.45*24000);i++)sustained.writeInt16LE(60,44+i*2);assert.throws(()=>verifiedQuietCut(sustained,record,.3,.5),/audible/,'Sustained noise fails even below the peak ceiling');
+const transient=Buffer.from(b);transient.writeInt16LE(90,44+Math.round(.4*24000)*2);assert.throws(()=>verifiedQuietCut(transient,record,.3,.5),/audible/,'A transient fails even with a very low RMS');
 assert.throws(()=>verifiedQuietCut(b,record,.37,.5),/margins/);assert.throws(()=>verifiedQuietCut(b,{...record,windowEnd:.41},.3,.5),/margins/);assert.throws(()=>verifiedQuietCut(b,{...record,at:NaN},.3,.5),/margins/);
 const stereo=Buffer.from(b);stereo.writeUInt16LE(2,22);assert.throws(()=>verifiedQuietCut(stereo,record,.3,.5),/PCM/);
 assert.throws(()=>silenceCut(.3,.48,[{start:.34,end:.47}]),/silenci segur/,'Default margins remain strict; only an explicit measured exception can partition a short silence');

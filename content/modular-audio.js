@@ -1903,5 +1903,33 @@ export const modularAudio = {
       "seconds": 115.03,
       "sha256": "1a6c31fcd3aa04a7edb04269c23b206efa742866673f8cfa46ef44d756fb5b5d"
     }
+  },
+  "ca-S132": {
+    "master": "./assets/audio/s132-mixed-v1.mp3",
+    "masterSha256": "5350f2145bf1f767ec314e2400ff0a3662b9c1f98ff4b55e74d490384c502ce6",
+    "introduction": {
+      "src": "./assets/audio/s132-mixed-v1-intro.mp3",
+      "seconds": 5.9,
+      "sha256": "fae369a3f0b396a5c7e06e07edfc8616c597e74476ed5c8b364f1a99039d5b58"
+    },
+    "body": {
+      "src": "./assets/audio/s132-mixed-v1-cos.mp3",
+      "seconds": 78.5,
+      "sha256": "87259f2c1ab77ad7b24929575d425fc07e6015b67501b36164c3800588a9d138"
+    }
+  },
+  "ca-S137": {
+    "master": "./assets/audio/s137-mixed-v1.mp3",
+    "masterSha256": "b2b35b1bc2793f33c755093acb711dc45ac6384f6db3d2d692090801eaadd0ef",
+    "introduction": {
+      "src": "./assets/audio/s137-mixed-v1-intro.mp3",
+      "seconds": 5.78,
+      "sha256": "b7307194c9715f24995ae9271cae030d39e8cd2b93e0a25f6e123c46bcd67992"
+    },
+    "body": {
+      "src": "./assets/audio/s137-mixed-v1-cos.mp3",
+      "seconds": 91.53999999999999,
+      "sha256": "1b2cce9344d973a4c0ff4e971cb5e51f8da671e1b781f5b800c24222c4117c51"
+    }
   }
 };

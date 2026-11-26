@@ -19,23 +19,16 @@ Les preses originals es conserven i la cobertura s’ha comprovat localment. La 
 | Peça | Presa |
 | --- | --- |
 | [ca-S131](https://sentit.ortogra.fi/#lectura=ca-S131) | [Escolta les veus](../proves/veus-rebudes.html#S131) |
-| [ca-S132](https://sentit.ortogra.fi/#lectura=ca-S132) | [Escolta les veus](../proves/veus-rebudes.html#S132) |
-| [ca-S135](https://sentit.ortogra.fi/#lectura=ca-S135) | [Escolta les veus](../proves/veus-rebudes.html#S135) |
+| [ca-S133](https://sentit.ortogra.fi/#lectura=ca-S133) | [Escolta les veus](../proves/veus-rebudes.html#S133) |
+| [ca-S134](https://sentit.ortogra.fi/#lectura=ca-S134) | [Escolta les veus](../proves/veus-rebudes.html#S134) |
 | [ca-S136](https://sentit.ortogra.fi/#lectura=ca-S136) | [Escolta les veus](../proves/veus-rebudes.html#S136) |
-| [ca-S137](https://sentit.ortogra.fi/#lectura=ca-S137) | [Escolta les veus](../proves/veus-rebudes.html#S137) |
 | [ca-S138](https://sentit.ortogra.fi/#lectura=ca-S138) | [Escolta les veus](../proves/veus-rebudes.html#S138) |
 | [ca-S139](https://sentit.ortogra.fi/#lectura=ca-S139) | [Escolta les veus](../proves/veus-rebudes.html#S139) |
 | [ca-S140](https://sentit.ortogra.fi/#lectura=ca-S140) | [Escolta les veus](../proves/veus-rebudes.html#S140) |
+| [ca-S141](https://sentit.ortogra.fi/#lectura=ca-S141) | [Escolta les veus](../proves/veus-rebudes.html#S141) |
+| [ca-S142](https://sentit.ortogra.fi/#lectura=ca-S142) | [Escolta les veus](../proves/veus-rebudes.html#S142) |
 
 Les previsions provenen dels guions i del calibratge local; cal recalcular-les amb el format definitiu abans d’enviar. Una mateixa veu en dos guions no implica el mateix personatge. No es canvien repartiments ni s’allarguen guions per omplir un lot.
-
-## Validacions que completen un lot
-
-Ordenades pel nombre de guions que falta validar. Són candidats de mida compatible; després cal preparar l’entrada definitiva.
-
-| Prioritat | Guions que falten | Lot complet resultant | Text pla estimat |
-| --- | --- | --- | ---: |
-| P32 | [ca-S133](https://sentit.ortogra.fi/#lectura=ca-S133), [ca-S142](https://sentit.ortogra.fi/#lectura=ca-S142) | [ca-S133](https://sentit.ortogra.fi/#lectura=ca-S133), [ca-S134](https://sentit.ortogra.fi/#lectura=ca-S134), [ca-S141](https://sentit.ortogra.fi/#lectura=ca-S141), [ca-S142](https://sentit.ortogra.fi/#lectura=ca-S142) | 7:00 |
 
 ## Agrupacions candidates · validació i preparació pendents
 
@@ -43,9 +36,6 @@ La previsió utilitza el text pla real, amb els títols i sense marques literals
 
 | Proposta | Repartiment | Comprensions | Previsió completa | Disponible ara | Mida orientativa | Guions validats | Validacions que falten |
 | --- | --- | --- | ---: | ---: | --- | ---: | --- |
-| P29 | Narrador anònim · candidat Algenib, amb alternatives segons el lot | [ca-S133](https://sentit.ortogra.fi/#lectura=ca-S133), [ca-S134](https://sentit.ortogra.fi/#lectura=ca-S134) | 3:02 | 1:35 | Per completar | 1/2 | [ca-S133](https://sentit.ortogra.fi/#lectura=ca-S133) |
-| P31 | Narrador anònim · candidat Algenib, amb alternatives segons el lot | [ca-S141](https://sentit.ortogra.fi/#lectura=ca-S141), [ca-S142](https://sentit.ortogra.fi/#lectura=ca-S142) | 4:02 | 1:52 | Per completar | 1/2 | [ca-S142](https://sentit.ortogra.fi/#lectura=ca-S142) |
-| P32 | Narrador anònim · Algenib | [ca-S133](https://sentit.ortogra.fi/#lectura=ca-S133), [ca-S134](https://sentit.ortogra.fi/#lectura=ca-S134), [ca-S141](https://sentit.ortogra.fi/#lectura=ca-S141), [ca-S142](https://sentit.ortogra.fi/#lectura=ca-S142) | 7:00 | 3:23 | Dins la finestra prevista | 2/4 | [ca-S133](https://sentit.ortogra.fi/#lectura=ca-S133), [ca-S142](https://sentit.ortogra.fi/#lectura=ca-S142) |
 
 Les previsions «amb esmenes» sumen només els fragments que encara són a la cua, no les proves ja rebudes. La composició de P26–P28 és al [pla d’equilibri](pla-equilibri-2026-11-25.md). Les correccions ja rebudes es revisen abans de demanar-ne cap altra; els papers ocasionals i els recurrents conserven el seu repartiment. Cap d’aquestes previsions equival a una entrada congelada i preparada per enviar.
 
@@ -68,6 +58,7 @@ P02 reuneix quatre lectures breus del mateix repartiment per conservar els guion
 | [ca-S010](https://sentit.ortogra.fi/#lectura=ca-S010) | Biel · Puck | alternativa |
 | [ca-S102](https://sentit.ortogra.fi/#lectura=ca-S102) | Mar · Erinome; Informadora · Callirrhoe | final |
 | [ca-S107](https://sentit.ortogra.fi/#lectura=ca-S107) | Elies · Algieba | sortida |
+| [ca-S135](https://sentit.ortogra.fi/#lectura=ca-S135) | Personatge per concretar · Veu per concretar | pacte + gall |
 
 Esperen un lot compatible de sis a vuit minuts. Les proves antigues i les descartades es conserven a l’històric; el pla actual exclou les esmenes ja aplicades.
 

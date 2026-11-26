@@ -366,6 +366,42 @@ export const musicCatalogue = [
       "ca-S129"
     ],
     "sharedReason": "Repertori validat per univers; alternança entre produccions i mateixa música entre variants."
+  },
+  {
+    "id": "incompetech-USUAN1100757",
+    "libraryId": "F4",
+    "title": "Windswept",
+    "kind": "narration-bed",
+    "author": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "origin": "licensed-library-music",
+    "externalSamples": true,
+    "url": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100757",
+    "source": "tools/library-narration-bed.cjs",
+    "sourceSha256": "0d7445201046bf536e9982c56a8b068d3c4bda18d01817edc6610b4a6a46e706",
+    "usedBy": [
+      "ca-S132"
+    ],
+    "sharedReason": "Repertori validat per univers; alternança entre produccions i mateixa música entre variants."
+  },
+  {
+    "id": "incompetech-USUAN1100357",
+    "libraryId": "L2",
+    "title": "Folk Round",
+    "kind": "narration-bed",
+    "author": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "origin": "licensed-library-music",
+    "externalSamples": true,
+    "url": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100357",
+    "source": "tools/library-narration-bed.cjs",
+    "sourceSha256": "b4e6aa7d67bb05a269b6f916662355358b6e849d29b81f5185f211a31fdb8051",
+    "usedBy": [
+      "ca-S137"
+    ],
+    "sharedReason": "Repertori validat per univers; alternança entre produccions i mateixa música entre variants."
   }
 ];
 

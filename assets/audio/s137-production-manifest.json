@@ -1,0 +1,88 @@
+{
+  "code": "S137",
+  "activity": "ca-S137",
+  "state": "awaiting-montage-validation",
+  "file": "s137-mixed-v1.mp3",
+  "introFile": "s137-mixed-v1-intro.mp3",
+  "bodyFile": "s137-mixed-v1-cos.mp3",
+  "offset": 6.15,
+  "bodyDuration": 91.50766666666667,
+  "fullDuration": 97.65766666666667,
+  "voices": {
+    "Narrador": "Algenib"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "3402b7ae874c38c102c2e3bba9f629c25b1b9d6aaa1fe835d901041f4c06dd90",
+  "sourceRequestHash": "1952375f537081613e4e8c3a6ab00eb0dd3f1d6f5daa63593b7ab3c104b1b76e",
+  "batch": "L45",
+  "rawSha256": "40b09c86c189a3ac4034621bc21308fe06e3966a5377e8d88a5bb29fa720bcb8",
+  "takeSha256": "3dbe187bde53dc3bc9a4c7f9a4d562ec1de3c084771256614712b0b326daafcf",
+  "coverage": 0.9717314487632509,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.12,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "licensed-narration-bed",
+      "origin": "licensed-library-music",
+      "compositionId": "incompetech-USUAN1100357",
+      "libraryId": "L2",
+      "title": "Folk Round",
+      "author": "Kevin MacLeod",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100357",
+      "sourceSha256": "b4e6aa7d67bb05a269b6f916662355358b6e849d29b81f5185f211a31fdb8051",
+      "sourceNotDistributedSeparately": true,
+      "sourceStart": 6,
+      "sourceSeconds": 177.7453125,
+      "loopCopies": 1,
+      "crossfadeSeconds": 0,
+      "retimed": false,
+      "underSpeech": true,
+      "sha256": "577ed69a6bcdc0784414c4a08b1b0ebf4c023d6a5d9a85710dc3ac48d3e273ff",
+      "envelope": {
+        "fadeInSeconds": 0.6,
+        "duckStart": 0.3,
+        "duckEnd": 1.05,
+        "speechGain": 0.1,
+        "nominalSpeechMusicLufs": -43,
+        "riseStart": 87.29000000000003,
+        "riseEnd": 88.09000000000005,
+        "holdSeconds": 2,
+        "fadeStart": 90.09000000000005,
+        "fadeEnd": 91.24000000000005
+      },
+      "listeningValidation": "pending",
+      "start": 0
+    }
+  ],
+  "sha256": "b2b35b1bc2793f33c755093acb711dc45ac6384f6db3d2d692090801eaadd0ef",
+  "voiceHandles": {
+    "body": {
+      "start": 0.6275,
+      "end": 86.6525,
+      "retainedPcmSha256": "4b44c84c9edfbaa4beb591647acacbbb885a4c00605087d57105528fb873c683",
+      "sourceSha256": "7cb50525b4bbbeab278e3e8490c716c8659a4300c8fc369d3a13131bf91da8d9",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.055,
+      "end": 5.255,
+      "retainedPcmSha256": "41f2acd90baef8096893b475a4f52d233b526f177d06b5ff4fa9d1a88b439fcc",
+      "sourceSha256": "aac944148cce579e86839c8f0b90363d2d0a8cdd51e763ddc960c734c879da47",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-26",
+    "sourceTakeSha256": "3dbe187bde53dc3bc9a4c7f9a4d562ec1de3c084771256614712b0b326daafcf",
+    "sourceBatch": "L45",
+    "confirmation": "Docent 26/11: poden pujar a muntatge S132 i S137."
+  }
+}

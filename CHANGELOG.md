@@ -1,5 +1,12 @@
 # Canvis
 
+## 0.1.129 · 26 de novembre de 2026
+
+- S132 i S137: veus validades, muntatges amb F4/L2 i pistes modulars per a l’audició final. S135 pendent d’esmena de «travessa difícil» i «Palausolità», amb dos paràgrafs complets en cua sense enviar.
+
+- S133 i S142 validats per síntesi després de les esmenes. L47 completa P32 amb S133/S134/S141/S142: una petició, previsió 7:00 i retorn 6:22; quatre preses íntegres per audició docent, sense muntatge automàtic. Metadades de transport retirades i tall entre S134/S141 verificat amb energia i marges de paraules, sense eliminar parla.
+- Velocitats de revisió ×1, ×1,25 i ×1,5 a veus rebudes i comparadors d’esmenes, també a les pàgines de proves. Conservació de to, preferència durant la sessió i sincronització entre fragments; no modifica el ritme configurat per a l’alumnat.
+
 ## 0.1.128 · 26 de novembre de 2026
 
 - Fonts de faules, llegendes i mites visibles al web i a fitxes/solucionaris, amb autoria de l’adaptació identificada i referències breus contrastades. S133 corregida a voleiaven; final de S142 clarificat amb cites obertes/ABCD actualitzades, tots dos pendents de vistiplau docent.

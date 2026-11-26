@@ -16,11 +16,11 @@ Banc de comprensió oral d’ortogra.fi. El docent tria una activitat, prepara l
 
 **Tanda d’equilibri:** [S112–S127](docs/pla-equilibri-2026-11-25.md), setze guions amb preguntes duals i revisió independent. Quinze peces definitives i S122 amb la regeneració completa pendent d’audició. [Publicacions i accés als muntatges](docs/publicacio-equilibri-2026-11-26.md).
 
-**Fonts dels relats culturals:** [bibliografia de S128–S142](docs/fonts-tradicio.md) visible al web i als dos imprimibles, amb l’adaptació de Sentit identificada. [Cinc muntatges nous i L45/L46](docs/muntatges-2026-11-26-cultura.md), per a l’audició docent. S133/S142 esmenats i pendents de validar; S095 adaptada a tres interlocutors amb la gravació original.
+**Fonts dels relats culturals:** [bibliografia de S128–S142](docs/fonts-tradicio.md) visible al web i als dos imprimibles, amb l’adaptació de Sentit identificada. [Muntatges i lots L45–L47](docs/muntatges-2026-11-26-cultura.md), per a l’audició docent. S133/S142 validats i rebuts a L47; S095 adaptada a tres interlocutors amb la gravació original.
 
 **Pilots de tradició amb guió validat:** [S128–S130](docs/pilots-tradicio.md), una faula de 3r, una llegenda de 4t i un mite grec de 5è. Fonts i decisions d’adaptació explícites, 18 preguntes duals i revisió adversària superada. Veus rebudes a L41, juntament amb la nova presa íntegra de S070. [Resultats i comparacions del 26/11](docs/lots-2026-11-26.md). S128/S129/S130 tenen les veus validades i primers muntatges amb F1/L1/M1 pendents d’audició.
 
-**Ampliació de tradició:** [S131–S142](docs/ampliacio-tradicio-2026-11-26.md), quatre faules, quatre llegendes i quatre mites, amb 75 preguntes duals, fonts i revisió creuada. Deu guions validats: vuit preses rebudes i dues esperen un lot compatible. S133 i S142, esmenats, continuen pendents de vistiplau docent.
+**Ampliació de tradició:** [S131–S142](docs/ampliacio-tradicio-2026-11-26.md), quatre faules, quatre llegendes i quatre mites, amb 75 preguntes duals, fonts i revisió creuada. Els dotze guions estan validats i les dotze preses rebudes a L45–L47. S132/S137 tenen muntatge pendent d’audició; S135 espera dues esmenes i la resta de veus, revisió docent. El títol de S131 continua parcial.
 
 **Muntatges amb esmenes validades:** [S109, S088, S081 i S090](docs/muntatges-esmenes-2026-11-26.md), amb veus ja aprovades i pendents d’audició final. S017 conserva les veus originals. Les proves bones de S010 i S102 es guarden mentre es repeteixen només els torns encara incorrectes.
 
@@ -288,3 +288,5 @@ El control «Només provisionals» està activat inicialment i recorda la prefer
 Les validacions definitives i les esmenes obertes consten a l’estat inicial d’aquest document i a la taula de fases. Els originals de les preses i els màsters anteriors es conserven.
 
 `workspace-panels.js` gestiona exclusivitat, accessibilitat i canvi entre panells fixos i desplegables. `node tools/check-workspace-panels.cjs` comprova scrolls independents, botons fixats, persistència dels ajustos, resize, teclat, mòbil, tema, idioma, PDF i bloqueig dels esborranys, només en local.
+
+**Audició de veus i esmenes:** botons ×1, ×1,25 i ×1,5, amb el to conservat i la preferència recordada durant la sessió del navegador. A la fitxa i als comparadors, sense canviar el ritme de la sessió de l’alumnat.

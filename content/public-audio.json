@@ -2200,8 +2200,29 @@
       ]
     },
     {
-      "file": "assets/audio/s132-voices-review-v1.mp3",
-      "bytes": 1004108,
+      "file": "assets/audio/s132-mixed-v1-cos.mp3",
+      "bytes": 991604,
+      "reasons": [
+        "modular-service-tracks"
+      ]
+    },
+    {
+      "file": "assets/audio/s132-mixed-v1-intro.mp3",
+      "bytes": 68996,
+      "reasons": [
+        "modular-service-tracks"
+      ]
+    },
+    {
+      "file": "assets/audio/s133-voices-review-v1.mp3",
+      "bytes": 1019828,
+      "reasons": [
+        "pending-voice-review"
+      ]
+    },
+    {
+      "file": "assets/audio/s134-voices-review-v1.mp3",
+      "bytes": 1058348,
       "reasons": [
         "pending-voice-review"
       ]
@@ -2221,10 +2242,17 @@
       ]
     },
     {
-      "file": "assets/audio/s137-voices-review-v1.mp3",
-      "bytes": 1235180,
+      "file": "assets/audio/s137-mixed-v1-cos.mp3",
+      "bytes": 1233812,
       "reasons": [
-        "pending-voice-review"
+        "modular-service-tracks"
+      ]
+    },
+    {
+      "file": "assets/audio/s137-mixed-v1-intro.mp3",
+      "bytes": 70196,
+      "reasons": [
+        "modular-service-tracks"
       ]
     },
     {
@@ -2244,6 +2272,20 @@
     {
       "file": "assets/audio/s140-voices-review-v1.mp3",
       "bytes": 1240364,
+      "reasons": [
+        "pending-voice-review"
+      ]
+    },
+    {
+      "file": "assets/audio/s141-voices-review-v1.mp3",
+      "bytes": 1319948,
+      "reasons": [
+        "pending-voice-review"
+      ]
+    },
+    {
+      "file": "assets/audio/s142-voices-review-v1.mp3",
+      "bytes": 1467692,
       "reasons": [
         "pending-voice-review"
       ]

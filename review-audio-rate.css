@@ -1,0 +1,4 @@
+.review-rate-controls { display: flex; align-items: center; gap: 5px; margin: 6px 0; }
+.review-rate-controls button { flex: 0 0 auto; padding: 4px 9px; border: 1px solid var(--line, #c8d0c8); border-radius: 5px; background: var(--panel, #fffdf8); color: var(--quiet, #52645b); font: 600 .75rem/1.3 system-ui, sans-serif; cursor: pointer; transition: color 220ms, background-color 220ms, border-color 220ms; }
+.review-rate-controls button[aria-pressed="true"] { background: #234e42; border-color: #234e42; color: #fffdf8; }
+.review-rate-controls button:focus-visible { outline: 2px solid var(--accent, #a44631); outline-offset: 2px; }

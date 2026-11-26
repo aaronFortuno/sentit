@@ -1,6 +1,7 @@
 import { productionProgress } from './content/production-progress.js';
 import { openDialog, closeDialog } from './motion.js';
 import { mountAudioSeek } from './audio-seek.js';
+import { mountReviewRateControls } from './review-audio-rate.js?v=0.1.129';
 
 export function pendingRepairClips(entry) {
   return productionProgress[`${entry?.language}-${entry?.code}`]?.receivedRepairs?.filter(repair => repair.applied === false && ['received-awaiting-listening', 'approved-awaiting-application'].includes(repair.status) && repair.candidateFile && (repair.originalFile||repair.missingOriginal)) ?? [];
@@ -25,7 +26,7 @@ export function renderVoicePreview(root, entry, t, icon) {
   mountAudioSeek(seek,audio,t);paint();
   audio.addEventListener('play', () => { window.dispatchEvent(new Event('sentit-pause-playback')); document.querySelectorAll('audio').forEach(other => { if (other !== audio) other.pause(); }); });
   const note = document.createElement('p'); note.className = 'small'; note.textContent = progress.montageHold?.summary?.[document.documentElement.lang] ?? progress.voiceReviewUpdate?.summary?.[document.documentElement.lang] ?? progress.voiceReviewUpdate?.summary?.ca ?? t(progress.missingVoiceParts?.length ? 'reviewMissingTitle' : 'voiceBeforeMontage');
-  root.append(title, button, seek, audio, note);
+  root.append(title, button, seek, mountReviewRateControls(audio, t), audio, note);
 }
 
 export function renderRepairPreview(root, entry, t) {
@@ -65,12 +66,15 @@ export function renderRepairPreview(root, entry, t) {
       const clips = document.createElement('div'); clips.className = 'repair-preview-clips';
       for (const [key, label] of [['originalFile', 'repairOriginal'], ['candidateFile', 'repairNewTake']]) {
         if(!repair[key])continue;
-        const wrapper = document.createElement('label'), caption = document.createElement('span'), audio = document.createElement('audio');
+        const wrapper = document.createElement('div'), caption = document.createElement('span'), audio = document.createElement('audio');
+        wrapper.className = 'repair-preview-clip';
         caption.textContent = t(key === 'candidateFile' && repair.status === 'approved-awaiting-application' ? 'repairApprovedTake' : label); audio.controls = true; audio.preload = 'none'; audio.src = repair[key];
         audio.dataset.repairPart = repair.part; audio.dataset.repairVersion = key;
         audio.setAttribute('aria-label', `${t(label)} · ${repair.text}`);
         audio.addEventListener('play', () => { document.querySelectorAll('audio').forEach(other => { if (other !== audio) other.pause(); }); });
-        wrapper.append(caption, audio); clips.append(wrapper);
+        const clip = document.createElement('div');
+        clip.append(audio, mountReviewRateControls(audio, t));
+        wrapper.append(caption, clip); clips.append(wrapper);
       }
       section.append(sentence);if(variant)section.append(variant);section.append(clips);list.append(section);
     }

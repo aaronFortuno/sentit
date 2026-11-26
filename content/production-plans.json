@@ -2989,9 +2989,9 @@
     }
   },
   "S133": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "ca8628036f716e1257fd86feb2802a3250714356ee92af93df94a140c1fc1e16",
+    "reviewedAt": "2026-11-26",
     "reviewActivity": "ca-S133",
     "reviewContent": "content/propostes/tradicio/faules-20261126.js",
     "format": "Faules del món. 4t accessible: un mateix objectiu i dos intents successius. Sis preguntes duals sobre condició, reaccions i causa del resultat. La comparació es limita a aquesta prova; no es locuta una lliçó general.",
@@ -3004,7 +3004,13 @@
       "Narrador": "Algenib"
     },
     "strategy": "plain-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 26/11: S133 i S142 validats per síntesi, després de les esmenes revisades. Autorització vigent de lots compatibles de 6–8 minuts, seqüencials.",
+    "voiceSelection": {
+      "speaker": "Narrador",
+      "voice": "Algenib",
+      "reason": "Narrador anònim, veu flexible fixada per al lot; sense atribució al personatge Ferran."
+    }
   },
   "S134": {
     "status": "approved",
@@ -3199,9 +3205,9 @@
     }
   },
   "S142": {
-    "status": "awaiting-validation",
-    "approvedFingerprint": null,
-    "reviewedAt": null,
+    "status": "approved",
+    "approvedFingerprint": "043ec54fb15179fa53bc8afc8b0af12f9044a8994cffcb092424610c97efbc7f",
+    "reviewedAt": "2026-11-26",
     "reviewActivity": "ca-S142",
     "reviewContent": "content/propostes/tradicio/mites-20261126.js",
     "format": "6è intermèdia, pendent de calibratge oral: invenció, robatori, engany, intervenció i intercanvi. Tres noms principals. Set preguntes duals; cal relacionar el comportament d’Hermes amb allò que ja sap qui escolta.",
@@ -3214,6 +3220,12 @@
       "Narrador": "Algenib"
     },
     "strategy": "plain-v1",
-    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta."
+    "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
+    "approvalSource": "Docent 26/11: S133 i S142 validats per síntesi, després de les esmenes revisades. Autorització vigent de lots compatibles de 6–8 minuts, seqüencials.",
+    "voiceSelection": {
+      "speaker": "Narrador",
+      "voice": "Algenib",
+      "reason": "Narrador anònim, veu flexible fixada per al lot; sense atribució al personatge Ferran."
+    }
   }
 }

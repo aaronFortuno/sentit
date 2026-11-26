@@ -1,6 +1,6 @@
 # Ampliació de tradició · 26/11/2026
 
-Dotze propostes provisionals, quatre per univers. Els tres autors han fet revisió creuada independent de guió, context, fonts, escaleta, preguntes obertes i ABCD; les esmenes ja estan incorporades. **Actualització: deu guions validats; L45 (S135–S138) i L46 (S131/S132/S139/S140) rebuts, pendents d’audició de veus. S134/S141 esperen un lot compatible. S133/S142, esmenats, continuen pendents de validació docent.**
+Dotze propostes provisionals, quatre per univers. Els tres autors han fet revisió creuada independent de guió, context, fonts, escaleta, preguntes obertes i ABCD; les esmenes ja estan incorporades. **Actualització: els dotze guions validats; L45, L46 i L47 rebuts. S132/S137 amb veus validades i muntatges per escoltar; S135 pendent de dues esmenes i la resta de veus pendent d’audició. S131 manté la presentació parcial identificada.**
 
 | Codi | Títol | Curs | Dificultat | Preguntes duals |
 | --- | --- | --- | --- | ---: |

@@ -72,8 +72,8 @@ Les referències no s’envien a Gemini i no alteren cap àudio validat. El mate
 
 ## Esmenes del 26/11
 
-- S133: «Les vores de l’abric voleiaven i el fred li entrava per les mànigues». Temps passat coherent; pendent de vistiplau docent.
-- S142: Apol·lo s’interessa per la lira, Hermes formula la proposta i Apol·lo l’accepta; el gest de provar les cordes i la sortida amb les vaques tanquen l’escena. Les dues últimes preguntes mantenen els objectius i les cites s’actualitzen. Contrast de l’acord amb [l’Himne a Hermes, 475–504, Evelyn-White 1914](https://en.wikisource.org/wiki/Page:Hesiod,_The_Homeric_Hymns,_and_Homerica.djvu/453). Pendent de vistiplau docent abans de sintetitzar.
+- S133: «Les vores de l’abric voleiaven i el fred li entrava per les mànigues». Temps passat coherent; validat pel docent i sintetitzat a L47.
+- S142: Apol·lo s’interessa per la lira, Hermes formula la proposta i Apol·lo l’accepta; el gest de provar les cordes i la sortida amb les vaques tanquen l’escena. Les dues últimes preguntes mantenen els objectius i les cites s’actualitzen. Contrast de l’acord amb [l’Himne a Hermes, 475–504, Evelyn-White 1914](https://en.wikisource.org/wiki/Page:Hesiod,_The_Homeric_Hymns,_and_Homerica.djvu/453). Validat pel docent i sintetitzat a L47.
 - S095: guió, context i imatge ajustats al relleu entre un empleat i una empleada; cap paraula locutada nova.
 
 [Revisió independent de les esmenes i referències](revisio-tradicio-s095-2026-11-26.json).
