@@ -124,3 +124,7 @@ L01 produeix en una sola petició Gemini les veus de S021 i S032 i tres esmenes 
 - Passos d’evsecrets, Freesound 334457, CC0 1.0, ja documentats: fragment breu durant el desplaçament de S021.
 
 Fonts, còpies HQ, empremtes i tractament exactes a `content/sound-sources.js` i als manifests S021/S032. Cap imitació procedural dels efectes ni canvi de ritme de les veus.
+
+## S130 · música de narració
+
+«Temple of the Manes» (M1), Kevin MacLeod (incompetech.com), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). [Font original](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100053). Fragment des del segon 6, normalització, atenuació sota la veu i foses de Sentit. Original complet conservat localment; al web només el muntatge amb la veu. [Manifest](assets/audio/s130-production-manifest.json) i [repertoris aprovats](docs/musiques-tradicio.md).

@@ -296,6 +296,25 @@ export const musicCatalogue = [
       "ca-S072"
     ],
     "description": "Composició pròpia de piano suau i harmonia espaiada, 64 pulsacions per minut; partitura determinista 72, fosa d’entrada, música atenuada sota la veu i pujada de dos segons seguida de fosa al final."
+  },
+  {
+    "id": "incompetech-USUAN1100053",
+    "libraryId": "M1",
+    "title": "Temple of the Manes",
+    "kind": "narration-bed",
+    "author": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "origin": "licensed-library-music",
+    "externalSamples": true,
+    "url": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100053",
+    "source": "tools/library-narration-bed.cjs",
+    "sourceSha256": "21774c909751472f4fb6621e4cb5d0ac29ae535c4768392d13d2917f7107bcbf",
+    "usedBy": [
+      "ca-S130"
+    ],
+    "sharedReason": "Repertori de mites M1–M3 validat; alternança entre produccions i mateixa composició entre variants d’un relat.",
+    "description": "Base de biblioteca, molt baixa sota la narració. Fosa d’entrada i pujada de dos segons seguida de fosa final; sense canvis de to ni ritme de la veu."
   }
 ];
 

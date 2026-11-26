@@ -166,3 +166,7 @@ S060, S063, S066, S070, S072, S046D i S069D tenen guió i escaleta validats per 
 ### Muntatges amb esmenes aprovades · 26/11
 
 [S109, S088, S081 i S090](muntatges-esmenes-2026-11-26.md) incorporen les seleccions exactes validades pel docent, amb ambient real continu molt baix i sense efectes puntuals. Respectivament soaress-546234, bexhillcollege-274213, callmethefoo-744447 i soaress-546234; tots CC0 1.0, amb origen i SHA al registre de fonts. S017 conserva exactament el màster net de respiracions amb les veus originals, ara acceptades. Cap síntesi nova ni canvi d’estat a publicació definitiva.
+
+### S130 · El fil d’Ariadna · 26/11
+
+Veu anònima Algenib de L41, presa S130-T01 validada pel docent. Primer muntatge amb [Temple of the Manes](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100053), Kevin MacLeod (incompetech.com), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), codi musical M1. Fragment des del segon 6, normalització, base contínua molt baixa sota la narració i pujada de dos segons abans de la fosa. Sense efectes addicionals, canvis de ritme o síntesi nova. Pistes modulars al web; màster complet i original de música locals. [Manifest](../assets/audio/s130-production-manifest.json). Pendent d’audició del muntatge.

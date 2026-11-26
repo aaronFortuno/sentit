@@ -642,8 +642,9 @@ export const mixedAudioResources = {
     "recipe": "tools/prepare-batch-voice-previews.cjs"
   },
   "ca-S130": {
-    "voices": "Narrador: Algenib. Lot L41, veus rebudes i pendents d’audició.",
-    "sounds": "Previsualització de les veus sense música ni efectes. El muntatge i la sintonia encara estan pendents; no és un àudio definitiu.",
-    "recipe": "tools/prepare-batch-voice-previews.cjs"
+    "voices": "Narrador anònim: Algenib. Presa S130-T01 de L41, validada pel docent. Sense canvis de ritme ni de to i sense cap petició nova. Muntatge pendent d’audició.",
+    "sounds": "Temple of the Manes · Kevin MacLeod (incompetech.com), CC BY 4.0. Entrada discreta, base molt baixa sota el relat i pujada de dos segons abans de la fosa final. Sense efectes addicionals.",
+    "currentRevision": "s130-mixed-v1",
+    "recipe": "tools/render-mixed-take.cjs"
   }
 };

@@ -51,6 +51,9 @@ const traditionPilots = [
       q('portes','Què ha canviat perquè les portes puguin quedar obertes al final?','El drac ha mort i ja no amenaça la vila.',['La princesa ha decidit viure a la cova.','Els habitants han trobat més ovelles.','El drac ha mort i ja no amenaça la vila.','El rei ha traslladat el sorteig fora de la muralla.'],'c','La mort del drac posa fi a l’amenaça que feia amagar la gent.',[e('vila','tothom s’amagava darrere les muralles'),e('cavaller','el drac va caure mort'),e('rosa','Aquell dia les portes de la vila van quedar obertes')],2)
     ]}),
   cultural({code:'S130',id:'el-fil-dariadna',title:'El fil d’Ariadna',grade:'5',level:'middle',universeIds:['mites-antiguitat'],
+    seconds: 122, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s130-mixed-v1.mp3', tracks: { introduction: './assets/audio/s130-mixed-v1-intro.mp3', body: './assets/audio/s130-mixed-v1-cos.mp3' },
+    fragment: { start: 6.2700000000000005, seconds: 115 },
     introduction:'Comprensió oral. El fil d’Ariadna. Un episodi de la mitologia grega.',
     summary:'Teseu entra al laberint del Minotaure. Ariadna li ofereix una ajuda que serà decisiva per trobar la sortida.',
     context:'Escoltaràs un episodi de la mitologia grega, amb una criatura extraordinària i un lloc del qual costa sortir. Fixa’t en allò que preparen els personatges i en com es resol el retorn.',

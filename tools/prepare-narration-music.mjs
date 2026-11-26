@@ -10,10 +10,11 @@ await fs.mkdir(sourceDir,{recursive:true});await fs.mkdir(targetDir,{recursive:t
 const sha=data=>createHash('sha256').update(data).digest('hex');
 const rows=[];
 const onlyValue=process.argv.find(arg=>arg.startsWith('--only='))?.slice(7),only=onlyValue?new Set(onlyValue.split(',')):null;
+const metadataOnly=process.argv.includes('--metadata-only');
 if(only&&[...only].some(id=>!narrationMusic.some(track=>track.id===id)))throw Error('Unknown music ID');
 const previous=await fs.readFile(new URL('manifest.json',targetDir),'utf8').then(JSON.parse).catch(error=>{if(error.code==='ENOENT')return{tracks:[]};throw error;});
 for(const track of narrationMusic){
-  if(only&&!only.has(track.id)){
+  if(metadataOnly||(only&&!only.has(track.id))){
     const old=previous.tracks.find(row=>row.id===track.id);
     if(!old||old.isrc!==track.isrc||old.preview!==track.preview||sha(await fs.readFile(new URL('../'+track.preview.replace(/^\.\//u,''),import.meta.url)))!==old.previewSha256)throw Error('Preserved preview identity mismatch: '+track.id);
     rows.push({...old,...track});continue;
@@ -29,4 +30,4 @@ for(const track of narrationMusic){
   rows.push({...track,sourceSha256:sha(original),sourceBytes:original.length,sourcePageSha256:sha(Buffer.from(html)),previewSha256:sha(excerpt),previewBytes:excerpt.length,processing:{filter:recipe,bitrate:128000,sampleRate:44100,channels:2},retrievedAt:'2026-11-26',usedBy:[]});
   console.log(`${track.id} · ${track.title} · ${excerpt.length} bytes`);
 }
-await fs.writeFile(new URL('manifest.json',targetDir),JSON.stringify({status:'legends-and-myths-approved-fables-selection-open',approvedIds:narrationMusic.filter(track=>track.status==='approved').map(track=>track.id),pendingIds:narrationMusic.filter(track=>track.status==='candidate').map(track=>track.id),author:'Kevin MacLeod (incompetech.com)',license:'CC BY 4.0',licenseUrl:'https://creativecommons.org/licenses/by/4.0/',changes:'32-second excerpts from second 6, loudness adjustment and fades; no new synthesis.',tracks:rows},null,2)+'\n');
+await fs.writeFile(new URL('manifest.json',targetDir),JSON.stringify({status:narrationMusic.some(track=>track.active&&track.status!=='approved')?'selection-open':'repertoires-approved',approvedIds:narrationMusic.filter(track=>track.status==='approved').map(track=>track.id),pendingIds:narrationMusic.filter(track=>track.status==='candidate').map(track=>track.id),author:'Kevin MacLeod (incompetech.com)',license:'CC BY 4.0',licenseUrl:'https://creativecommons.org/licenses/by/4.0/',changes:'32-second excerpts from second 6, loudness adjustment and fades; no new synthesis.',tracks:rows},null,2)+'\n');

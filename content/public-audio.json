@@ -2172,10 +2172,17 @@
       ]
     },
     {
-      "file": "assets/audio/s130-voices-review-v2.mp3",
-      "bytes": 1422380,
+      "file": "assets/audio/s130-mixed-v1-cos.mp3",
+      "bytes": 1412180,
       "reasons": [
-        "pending-voice-review"
+        "modular-service-tracks"
+      ]
+    },
+    {
+      "file": "assets/audio/s130-mixed-v1-intro.mp3",
+      "bytes": 66668,
+      "reasons": [
+        "modular-service-tracks"
       ]
     },
     {

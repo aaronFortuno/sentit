@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.126 · 26 de novembre de 2026
+
+- Selecció musical tancada: faules F1/F4/F5/F6, llegendes L1–L3 i mites M1–M3. Alternança entre produccions del mateix univers, mateixa composició entre variants i registre dels usos reals. F2/F3/F7 fora del repertori actiu, amb mostres i fonts conservades.
+- Comparador i documents actualitzats, sense regenerar els fragments musicals.
+- S130 «El fil d’Ariadna»: primer muntatge amb M1 «Temple of the Manes» de Kevin MacLeod, CC BY 4.0. Veus ja validades, música molt baixa i pujada de dos segons abans de la fosa; pendent d’audició del muntatge. Només es publiquen títol i relat separats; màster complet i originals locals. Cap petició nova de síntesi.
+
 ## 0.1.125 · 26 de novembre de 2026
 
 - Llegendes L1–L3 i mites M1–M3 validats com a repertori. F1 conserva la validació; quatre alternatives noves de faules F4–F7 amb guitarra/cordes, piano i instruments de vent. F2/F3 es conserven com a mostres anteriors, fora del comparador actiu, sense reutilitzar-ne els codis.

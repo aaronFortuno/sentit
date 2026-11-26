@@ -8,13 +8,11 @@ La taula conté només feina oberta. Una peça en surt quan té publicació defi
 
 | Feina | Peces | Codis |
 | --- | ---: | --- |
-| Escoltar el muntatge | 9 | [ca-S017](https://sentit.ortogra.fi/#lectura=ca-S017), [ca-S041](https://sentit.ortogra.fi/#lectura=ca-S041), [ca-S081](https://sentit.ortogra.fi/#lectura=ca-S081), [ca-S085](https://sentit.ortogra.fi/#lectura=ca-S085), [ca-S088](https://sentit.ortogra.fi/#lectura=ca-S088), [ca-S090](https://sentit.ortogra.fi/#lectura=ca-S090), [ca-S093](https://sentit.ortogra.fi/#lectura=ca-S093), [ca-S109](https://sentit.ortogra.fi/#lectura=ca-S109), [ca-S118](https://sentit.ortogra.fi/#lectura=ca-S118) |
+| Escoltar el muntatge | 10 | [ca-S017](https://sentit.ortogra.fi/#lectura=ca-S017), [ca-S041](https://sentit.ortogra.fi/#lectura=ca-S041), [ca-S081](https://sentit.ortogra.fi/#lectura=ca-S081), [ca-S085](https://sentit.ortogra.fi/#lectura=ca-S085), [ca-S088](https://sentit.ortogra.fi/#lectura=ca-S088), [ca-S090](https://sentit.ortogra.fi/#lectura=ca-S090), [ca-S093](https://sentit.ortogra.fi/#lectura=ca-S093), [ca-S109](https://sentit.ortogra.fi/#lectura=ca-S109), [ca-S118](https://sentit.ortogra.fi/#lectura=ca-S118), [ca-S130](https://sentit.ortogra.fi/#lectura=ca-S130) |
 | Resoldre esmenes de veu i tornar a escoltar | 7 | [ca-S005](https://sentit.ortogra.fi/#lectura=ca-S005), [ca-S010](https://sentit.ortogra.fi/#lectura=ca-S010), [ca-S011](https://sentit.ortogra.fi/#lectura=ca-S011), [ca-S015](https://sentit.ortogra.fi/#lectura=ca-S015), [ca-S095](https://sentit.ortogra.fi/#lectura=ca-S095), [ca-S102](https://sentit.ortogra.fi/#lectura=ca-S102), [ca-S107](https://sentit.ortogra.fi/#lectura=ca-S107) |
 | Produir les veus, amb guió validat | 0 | Cap |
 | Escoltar i validar les veus abans de muntar | 4 | [ca-S070](https://sentit.ortogra.fi/#lectura=ca-S070), [ca-S122](https://sentit.ortogra.fi/#lectura=ca-S122), [ca-S128](https://sentit.ortogra.fi/#lectura=ca-S128), [ca-S129](https://sentit.ortogra.fi/#lectura=ca-S129) |
-| Muntar les veus rebudes | 1 | [ca-S130](https://sentit.ortogra.fi/#lectura=ca-S130) |
-
-**Tria musical abans de muntar:** [ca-S130](https://sentit.ortogra.fi/#lectura=ca-S130). Veus ja validades; comparar les [propostes musicals](https://sentit.ortogra.fi/?musiques=mites-antiguitat). Cap música assignada encara.
+| Muntar les veus rebudes | 0 | Cap |
 | Revisió editorial o validació inicial pendent | 14 | [ca-S001](https://sentit.ortogra.fi/#lectura=ca-S001), [ca-S002](https://sentit.ortogra.fi/#lectura=ca-S002), [ca-S131](https://sentit.ortogra.fi/#lectura=ca-S131), [ca-S132](https://sentit.ortogra.fi/#lectura=ca-S132), [ca-S133](https://sentit.ortogra.fi/#lectura=ca-S133), [ca-S134](https://sentit.ortogra.fi/#lectura=ca-S134), [ca-S135](https://sentit.ortogra.fi/#lectura=ca-S135), [ca-S136](https://sentit.ortogra.fi/#lectura=ca-S136), [ca-S137](https://sentit.ortogra.fi/#lectura=ca-S137), [ca-S138](https://sentit.ortogra.fi/#lectura=ca-S138), [ca-S139](https://sentit.ortogra.fi/#lectura=ca-S139), [ca-S140](https://sentit.ortogra.fi/#lectura=ca-S140), [ca-S141](https://sentit.ortogra.fi/#lectura=ca-S141), [ca-S142](https://sentit.ortogra.fi/#lectura=ca-S142) |
 
 ## Taula de pendents
@@ -45,7 +43,7 @@ La taula conté només feina oberta. Una peça en surt quan té publicació defi
 | [ca-S122](https://sentit.ortogra.fi/#lectura=ca-S122) | Com conserva el fred una bossa tèrmica? | 4t | Intermèdia · Explicació | Prevista 1:40–2:05 | 6 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
 | [ca-S128](https://sentit.ortogra.fi/#lectura=ca-S128) | El lleó i el ratolí | 3r | Accessible · Narració | Prevista 1:20–1:40 | 5 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
 | [ca-S129](https://sentit.ortogra.fi/#lectura=ca-S129) | Sant Jordi i la rosa | 4t | Intermèdia · Narració | Prevista 1:35–2:00 | 6 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
-| [ca-S130](https://sentit.ortogra.fi/#lectura=ca-S130) | El fil d’Ariadna | 5è | Intermèdia · Narració | Prevista 1:55–2:20 | 7 | ✅ | ✅ | ✅ | ✅ | **⏳ Tria musical** | — | — |
+| [ca-S130](https://sentit.ortogra.fi/#lectura=ca-S130) | El fil d’Ariadna | 5è | Intermèdia · Narració | 1:55 | 7 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
 | [ca-S131](https://sentit.ortogra.fi/#lectura=ca-S131) | La guineu i el corb | 3r | Intermèdia · Narració | Prevista 1:30–1:55 | 6 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S132](https://sentit.ortogra.fi/#lectura=ca-S132) | La llebre i la tortuga | 3r | Accessible · Narració | Prevista 1:30–1:55 | 5 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 | [ca-S133](https://sentit.ortogra.fi/#lectura=ca-S133) | El vent i el Sol | 4t | Accessible · Narració | Prevista 1:30–1:55 | 6 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |

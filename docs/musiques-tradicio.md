@@ -1,18 +1,18 @@
 # Música per a faules, llegendes i mites
 
-Proposta del **26/11/2026**. [Comparador al web](https://sentit.ortogra.fi/?musiques=faules-mon), també accessible amb «Músiques de narració · propostes» al peu del panell d’àudio d’una comprensió. Les faules mostren **F1 com a referència validada i quatre alternatives noves F4–F7**; llegendes i mites mantenen les tres pistes de cada repertori, ara validades. Fragments de 32 segons, amb volum comparable, reproductor i font original. Es mantenen codis nous per a les noves propostes, sense reutilitzar F2/F3.
+Repertori validat pel docent el **26/11/2026**. [Comparador al web](https://sentit.ortogra.fi/?musiques=faules-mon), també accessible amb «Músiques de narració» al peu del panell d’àudio. **Faules: F1, F4, F5 i F6; llegendes: L1–L3; mites: M1–M3.** Fragments de 32 segons, amb volum comparable i fonts originals. Els codis anteriors i les empremtes es conserven.
 
-## Candidats
+## Composicions
 
 | Univers | Codi | Composició | Instrumentació publicada per l’autor | Caràcter proposat |
 | --- | --- | --- | --- | --- |
 | Faules del món | F1 | [Easy Lemon](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076) | Guitarra, baix, bateria, celesta, marimba | Tranquil i càlid |
 | Faules del món | F2 · anterior | [Carefree](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400037) | Ukelele, guitarra, marimba, glockenspiel, percussió | Fora del repertori actual |
 | Faules del món | F3 · anterior | [Dreamy Flashback](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100532) | Arpa, campanes, cordes pizzicato | No validada; fora del comparador actiu |
-| Faules del món | **F4 · nova** | [Windswept](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100757) | Guitarra i cordes | Pausada i càlida |
-| Faules del món | **F5 · nova** | [Fresh Air](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1500084) | Piano sol | Tranquil·la i espaiada |
-| Faules del món | **F6 · nova** | [Almost New](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1800008) | Piano i baixos | Misteri suau |
-| Faules del món | **F7 · nova** | [The Forest and the Trees](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100766) | Clarinet, flauta, trombons, glockenspiel | Relat i natura |
+| Faules del món | **F4 · validada** | [Windswept](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100757) | Guitarra i cordes | Pausada i càlida |
+| Faules del món | **F5 · validada** | [Fresh Air](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1500084) | Piano sol | Tranquil·la i espaiada |
+| Faules del món | **F6 · validada** | [Almost New](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1800008) | Piano i baixos | Misteri suau |
+| Faules del món | F7 · no seleccionada | [The Forest and the Trees](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100766) | Clarinet, flauta, trombons, glockenspiel | No seleccionada; fora del repertori actiu |
 | Llegendes d’aquí i d’arreu | L1 | [Teller of the Tales](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400020) | Llaüt i guitarra | Íntim i contingut |
 | Llegendes d’aquí i d’arreu | L2 | [Folk Round](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100357) | Guitarra, violí, flautes, percussió, acordió | Tradició popular |
 | Llegendes d’aquí i d’arreu | L3 | [Angevin](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200110) | Flauta, llaüt, cor, percussió | Lent i misteriós |
@@ -24,29 +24,29 @@ Proposta del **26/11/2026**. [Comparador al web](https://sentit.ortogra.fi/?musi
 
 | Univers | Acceptades per al repertori | Altres mostres |
 | --- | --- | --- |
-| Faules | **F1** | Alternatives noves **F4–F7**, pendents de validació; F2 exclosa i F3 no validada |
+| Faules | **F1, F4, F5 i F6** | F2 exclosa; F3 no validada i F7 no seleccionada |
 | Llegendes | **L1, L2 i L3** | — |
 | Mites | **M1, M2 i M3** | — |
 
-El docent ha confirmat la validació de **L1–L3 i M1–M3**. F1 continua validada per a faules. F2 i F3 es conserven amb els seus codis i empremtes com a mostres anteriors, però no apareixen al comparador actiu ni s’utilitzen. Les noves F4–F7 no tenen validació encara. Encara no s’ha assignat música a cap activitat.
+El docent ha validat els tres repertoris i ha confirmat que s’alternin les composicions entre produccions. F2, F3 i F7 no apareixen al comparador actiu ni s’utilitzen; els originals i fragments es conserven. F7 simplement no forma part de la selecció actual.
 
-**Ordre de treball demanat:** tancar primer el repertori musical de faules abans de continuar amb els muntatges. La validació dels repertoris de llegendes i mites queda registrada i no requereix tornar-los a triar.
+**Selecció tancada:** es reprenen els muntatges que ja tenen les veus validades. Aquesta aprovació no autoritza síntesi de guions pendents ni publicació definitiva d’àudios sense audició.
 
-### Criteri de treball proposat
+### Criteri de treball acordat
 
-Mantenir un repertori petit per univers i triar segons el caràcter del relat. Quan diverses opcions encaixin, afavorir una de les menys utilitzades recentment, sense imposar una roda fixa. Per orientar la tria: L1 per a relats més íntims, L2 per a un aire popular i L3 per a misteri; M1 com a punt de partida atmosfèric, M2 per a viatge o moviment i M3 per a un to més solemne. Són orientacions de selecció, pendents de comprovar amb la veu al muntatge.
+Alternar les composicions aprovades dins de cada univers. Triar segons el caràcter del relat i, quan diverses encaixin, afavorir les menys utilitzades recentment. Faules: F1 càlida, F4 pausada amb cordes, F5 piano espaiat i F6 misteri suau; llegendes: L1 íntima, L2 popular i L3 misteriosa; mites: M1 atmosfèrica, M2 de viatge i M3 solemne. No intercanviar els repertoris entre universos per defecte.
 
-Conservar la mateixa composició entre variants d’un mateix relat, encara que canviï el nivell o el repartiment. La base molt baixa i les foses són més importants per a la comprensió que augmentar contínuament el nombre de pistes. Per a les faules, començar amb F1; una sola base funciona mentre el repertori encara és petit. Per a S130, la primera candidata continua sent M1.
+Conservar la mateixa composició entre variants d’un relat, encara que canviïn el nivell o el repartiment. Registrar-ne cada ús real a `content/music-catalogue.js` i al manifest; no anticipar usos de guions que encara no estan muntats. La mescla ha de mantenir la veu sempre en primer pla.
 
-Registrar la composició real utilitzada a cada muntatge. Aquesta línia de treball manté la petició de disposar de dues o tres pistes compartides per univers i substitueix aquí l’antic criteri d’una composició diferent per narració; no modifica muntatges ja validats. La valoració del docent sobre l’alternança és encara exploratòria: aquest apartat és una proposta editorial, no una nova selecció automàtica.
+L’alternança queda aprovada, sense necessitat de consultar la pista per cada producció. El docent continua validant cada muntatge. Aquest repertori compartit substitueix aquí l’antic criteri d’una composició diferent per narració i no modifica muntatges ja validats.
 
 ## Origen i llicència
 
-Les tretze composicions, incloses les dues mostres anteriors fora del comparador actiu, són de **Kevin MacLeod (incompetech.com)**, publicades sota **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**. Són pistes musicals de biblioteca ja produïdes, descarregades del web oficial; no són música generada per Sentit ni una petició nova de síntesi. L’autor identifica els instruments, però això **no acredita una interpretació acústica íntegra en directe**: les produccions de biblioteca poden utilitzar instruments mostrejats. No les presentem com a gravacions de camp o interpretacions acústiques verificades.
+Les tretze composicions, incloses les tres mostres fora del repertori actiu, són de **Kevin MacLeod (incompetech.com)**, publicades sota **[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)**. Són pistes musicals de biblioteca ja produïdes, descarregades del web oficial; no són música generada per Sentit ni una petició nova de síntesi. L’autor identifica els instruments, però això **no acredita una interpretació acústica íntegra en directe**: les produccions de biblioteca poden utilitzar instruments mostrejats. No les presentem com a gravacions de camp o interpretacions acústiques verificades.
 
 La [llicència del proveïdor](https://incompetech.com/music/royalty-free/licenses/) permet l’ús gratuït amb atribució. Cada mostra mostra autoria, llicència i font, també presents al seu MP3 i al [manifest](../assets/audio/music-previews/manifest.json). Les pistes externes conserven la seva llicència; no passen a ser MIT pel fet d’incloure-les al repositori.
 
-Modificacions dels fragments: segons 6–38 de cada original, ajust de sonoritat a −23 LUFS de referència, foses de 0,7 s i 2 s, MP3 estèreo a 128 kb/s. Les quatre mostres noves sumen **2,05 MB**; les tretze, aproximadament **6,68 MB**. No són un muntatge de les comprensions. Els originals complets i les fitxes oficials es conserven fora del repositori a `../output/sentit-music-tradicio/`, amb empremtes al manifest. Reproducció tècnica: `node tools/prepare-narration-music.mjs --only=F4,F5,F6,F7 --download`; conserva sense regenerar els altres fragments i només descarrega originals absents amb `--download`.
+Modificacions dels fragments: segons 6–38 de cada original, ajust de sonoritat a −23 LUFS de referència, foses de 0,7 s i 2 s, MP3 estèreo a 128 kb/s. Les quatre mostres noves sumen **2,05 MB**; les tretze, aproximadament **6,68 MB**. No són un muntatge de les comprensions. Els originals complets i les fitxes oficials es conserven fora del repositori a `../output/sentit-music-tradicio/`, amb empremtes al manifest. Reproducció tècnica: `node tools/prepare-narration-music.mjs --only=F4,F5,F6,F7 --download`; conserva sense regenerar els altres fragments i només descarrega originals absents amb `--download`. Per sincronitzar aprovacions i metadades sense recomprimir cap mostra: `node tools/prepare-narration-music.mjs --metadata-only`.
 
 ## Aplicació després de la tria
 
@@ -56,4 +56,4 @@ Modificacions dels fragments: segons 6–38 de cada original, ajust de sonoritat
 4. Després de l’última paraula, deixar respirar el relat, pujar la música aproximadament dos segons i fer la fosa final.
 5. Presentar el muntatge al docent. Una tria musical no és la validació perceptiva del muntatge final.
 
-**S130 · El fil d’Ariadna:** veus de L41 validades pel docent el 26/11. Presa `S130-T01`, SHA-256 `de7def44287bd5ae73ee7d493c900bd0e86b2e735ec0d78148a8266790a12fc4`. Falta la tria musical M1/M2/M3 abans de començar a muntar. Sense peticions noves a Gemini i sense alterar la transcripció, les preguntes ni l’aprovació del guió.
+**S130 · El fil d’Ariadna:** veus de L41 validades pel docent el 26/11. Presa `S130-T01`, SHA-256 `de7def44287bd5ae73ee7d493c900bd0e86b2e735ec0d78148a8266790a12fc4`. Primer muntatge amb **M1 · Temple of the Manes**, pendent d’audició. Base contínua molt baixa sota el relat, pujada de dos segons i fosa final; sense efectes afegits ni canvi de ritme de la veu. Títol i relat separats al web, màster complet local. [Escoltar i revisar S130](https://sentit.ortogra.fi/#lectura=ca-S130). Sense peticions noves a Gemini ni canvis del guió o les preguntes.

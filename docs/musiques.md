@@ -52,3 +52,7 @@ Cinc composicions originals distintes, encara pendents d’audició docent. Pian
 | sentit-s038d-v1 · Una tarda per explicar | ca-S038D | Sentit · MIT · [Partitura i recepta](../tools/narration-bed.cjs) |
 
 Cada manifest conserva tempo, llavor de partitura, envolupant de volum i empremta del resultat. S038 i S038D utilitzen bases diferents; no es reutilitza una pista sense indicar-ho.
+
+## Repertoris de tradició validats · 26/11/2026
+
+[Faules F1/F4/F5/F6, llegendes L1–L3 i mites M1–M3](musiques-tradicio.md), Kevin MacLeod, CC BY 4.0. Alternança entre produccions d’un univers i mateixa composició entre variants d’un relat. Primera aplicació: S130 amb M1 «Temple of the Manes», pendent d’audició del muntatge; normalització, atenuació sota la veu i foses. Font i empremta al [manifest de S130](../assets/audio/s130-production-manifest.json); originals complets locals. Aquesta regla compartida s’aplica a aquests universos i substitueix aquí el criteri anterior d’una composició diferent per narració.

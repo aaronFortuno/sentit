@@ -17516,6 +17516,95 @@
         "originalRawFile": "s090-t01.wav",
         "patchedFile": "patched-source.wav"
       }
+    },
+    {
+      "code": "S130",
+      "activity": "ca-S130",
+      "state": "awaiting-montage-validation",
+      "file": "s130-mixed-v1.mp3",
+      "introFile": "s130-mixed-v1-intro.mp3",
+      "bodyFile": "s130-mixed-v1-cos.mp3",
+      "offset": 6.2700000000000005,
+      "bodyDuration": 115.00002083333334,
+      "fullDuration": 121.27002083333333,
+      "voices": {
+        "Narrador": "Algenib"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "a16e647266987a40b1e523ae8ecfd15122f720daf485fd84922a69c01b36ef62",
+      "sourceRequestHash": "c308ab98e0ee406e36ac7c93748facc1d1b8735fec93db4c379e1ef2097ce37e",
+      "batch": "L41",
+      "rawSha256": "c77ea4c9487aeedc99d096607d46e7f299751a1b7069dcdb83a71beb23e6fa83",
+      "takeSha256": "de7def44287bd5ae73ee7d493c900bd0e86b2e735ec0d78148a8266790a12fc4",
+      "coverage": 0.9550898203592815,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -19.87,
+      "peakDbTP": -2.48,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "licensed-narration-bed",
+          "origin": "licensed-library-music",
+          "compositionId": "incompetech-USUAN1100053",
+          "libraryId": "M1",
+          "title": "Temple of the Manes",
+          "author": "Kevin MacLeod",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100053",
+          "sourceSha256": "21774c909751472f4fb6621e4cb5d0ac29ae535c4768392d13d2917f7107bcbf",
+          "sourceNotDistributedSeparately": true,
+          "sourceStart": 6,
+          "sourceSeconds": 149.6114375,
+          "loopCopies": 1,
+          "crossfadeSeconds": 0,
+          "retimed": false,
+          "underSpeech": true,
+          "sha256": "f0e77219a3f43f9377f160f9f02f5f9062b489070a3aca563f931a7f4586a30e",
+          "envelope": {
+            "fadeInSeconds": 0.6,
+            "duckStart": 0.3,
+            "duckEnd": 1.05,
+            "speechGain": 0.1,
+            "nominalSpeechMusicLufs": -43,
+            "riseStart": 110.50001666666667,
+            "riseEnd": 111.30001666666668,
+            "holdSeconds": 2,
+            "fadeStart": 113.30001666666668,
+            "fadeEnd": 114.45001666666668
+          },
+          "listeningValidation": "pending",
+          "start": 0
+        }
+      ],
+      "sha256": "6d9a1914e0e6b9dd6b6f901631e3a06c67ad204282717e1b28323527c102741d",
+      "voiceHandles": {
+        "body": {
+          "start": 1.0365833333333334,
+          "end": 110.55658333333334,
+          "retainedPcmSha256": "7045664f049761a7f5d42e366fb0a3d29db9d172e6333a53d09a49d9d3ba9279",
+          "sourceSha256": "78f7a2984008d7888292ba1248d0324fd1b7fc5d3cbe6a2a0e7d3a80981da550",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0.13,
+          "end": 5.45,
+          "retainedPcmSha256": "1e61645600a727f4ad15870dbc845b2ba8ac9e5bad472408ef80c48c96c684ca",
+          "sourceSha256": "39b70acd4ec774123bd8220c5823117683a4089ccbbcd7572c49ceb593230a62",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-26",
+        "sourceTakeSha256": "de7def44287bd5ae73ee7d493c900bd0e86b2e735ec0d78148a8266790a12fc4",
+        "sourceBatch": "L41",
+        "confirmation": "Docent 26/11: S130 llest per muntatge. Abans de muntar, comparar i triar músiques de biblioteca per a faules, llegendes i mites."
+      },
+      "postMusicTailSeconds": 0.3
     }
   ]
 }

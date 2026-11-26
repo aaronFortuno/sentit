@@ -142,7 +142,7 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S127](https://sentit.ortogra.fi/#lectura=ca-S127) | Quan val la pena reparar un instrument? | 5è | Revisió superada · publicació definitiva | 2026-11-25 | `fe0f5bc96e5e…` |
 | [ca-S128](https://sentit.ortogra.fi/#lectura=ca-S128) | El lleó i el ratolí | 3r | Provisional · revisió superada | 2026-11-25 | `99615c0422a8…` |
 | [ca-S129](https://sentit.ortogra.fi/#lectura=ca-S129) | Sant Jordi i la rosa | 4t | Provisional · revisió superada | 2026-11-25 | `7d58aeacae24…` |
-| [ca-S130](https://sentit.ortogra.fi/#lectura=ca-S130) | El fil d’Ariadna | 5è | Provisional · revisió superada | 2026-11-25 | `937eeb698881…` |
+| [ca-S130](https://sentit.ortogra.fi/#lectura=ca-S130) | El fil d’Ariadna | 5è | Revisió superada · àudio pendent | 2026-11-25 | `937eeb698881…` |
 | [ca-S131](https://sentit.ortogra.fi/#lectura=ca-S131) | La guineu i el corb | 3r | Provisional · revisió superada | 2026-11-26 | `f43a868f0f1a…` |
 | [ca-S132](https://sentit.ortogra.fi/#lectura=ca-S132) | La llebre i la tortuga | 3r | Provisional · revisió superada | 2026-11-26 | `590f755cd2d9…` |
 | [ca-S133](https://sentit.ortogra.fi/#lectura=ca-S133) | El vent i el Sol | 4t | Provisional · revisió superada | 2026-11-26 | `bf6163ebccf2…` |

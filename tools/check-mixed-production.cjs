@@ -19,6 +19,7 @@ const root=path.resolve(__dirname,'..'),sha=b=>createHash('sha256').update(b).di
   for(const file of [manifest.file,manifest.introFile,manifest.bodyFile]){ffmpeg(binary,['-v','error','-xerror','-i',path.join(root,'assets/audio',file),'-f','null','-']);clips++;}
   const metadata=ffmpeg(binary,['-i',path.join(root,'assets/audio',manifest.file),'-f','null','-']),match=/Duration: (\d+):(\d+):([\d.]+)/.exec(metadata);assert(match);const seconds=Number(match[1])*3600+Number(match[2])*60+Number(match[3]);assert(Math.abs(seconds-manifest.fullDuration)<.2);
   for(const effect of manifest.effects){
+   if(effect.origin==='licensed-library-music'){const track=musicCatalogue.find(m=>m.id===effect.compositionId);assert(track?.usedBy.includes(key));assert.equal(track.license,'CC BY 4.0');assert.equal(track.libraryId,effect.libraryId);assert.equal(track.sourceSha256,effect.sourceSha256);assert.equal(effect.retimed,false);assert.equal(effect.envelope.holdSeconds,2);assert(effect.envelope.fadeEnd<=manifest.bodyDuration);continue;}
    if(manifest.activity==='ca-S013'&&manifest.productionMode==='repaired-existing-master'&&effect.origin==='original-procedural'){
     assert(['envelope-opening','sorting-to-delivery'].includes(effect.name));
     assert.equal(effect.inheritedFrom,manifest.previousMaster.file);

@@ -8401,7 +8401,7 @@ export const productionProgress = {
     "voicePreviewFile": "./assets/audio/s129-voices-review-v2.mp3"
   },
   "ca-S130": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
     "editorialFingerprint": "937eeb6988810383653f82c41d8cb02f9b33361a2a4087ff51003e4ce42af6a3",
@@ -8409,7 +8409,7 @@ export const productionProgress = {
     "listeningApproval": false,
     "confirmation": "Docent 25/11: tots els guions validats; preparar i enviar els lots compatibles seqüencialment.",
     "scriptApprovalSource": "Docent 25/11: tots els guions validats; preparar i enviar els lots compatibles seqüencialment.",
-    "reason": "Veus validades. Muntatge aturat fins a la tria docent de música de fons per a mites.",
+    "reason": "Muntatge amb M1 · Temple of the Manes, pendent d’audició docent.",
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -8431,19 +8431,42 @@ export const productionProgress = {
     "voicesReceivedAt": "2026-11-26T07:48:14.206Z",
     "voicePreview": "./proves/veus-rebudes.html#S130",
     "voicePreviewFile": "./assets/audio/s130-voices-review-v2.mp3",
-    "montageHold": {
-      "reason": "awaiting-music-selection",
-      "since": "2026-11-26",
+    "mountedAt": "2026-11-26T14:00:02.331Z",
+    "synthesisBatch": "L41",
+    "requestHash": "a16e647266987a40b1e523ae8ecfd15122f720daf485fd84922a69c01b36ef62",
+    "audioSha256": "6d9a1914e0e6b9dd6b6f901631e3a06c67ad204282717e1b28323527c102741d",
+    "montageNewSynthesisRequests": 0,
+    "resolvedMontageHolds": [
+      {
+        "reason": "awaiting-music-selection",
+        "since": "2026-11-26",
+        "summary": {
+          "ca": "Veus validades. Abans de muntar S130, cal triar la música de fons. Les propostes són a «Músiques de narració», al peu d’aquest panell.",
+          "es": "Voces validadas. Antes de montar S130, hay que elegir la música de fondo. Las propuestas están en «Músicas de narración», al pie de este panel."
+        },
+        "comparison": "https://sentit.ortogra.fi/?musiques=mites-antiguitat",
+        "candidateIds": [
+          "M1",
+          "M2",
+          "M3"
+        ],
+        "resolvedAt": "2026-11-26",
+        "resolution": "Docent: repertoris M1–M3, L1–L3 i F1/F4/F5/F6 validats; alternança entre produccions. S130 es munta amb M1."
+      }
+    ],
+    "musicAssignment": {
+      "libraryId": "M1",
+      "compositionId": "incompetech-USUAN1100053",
+      "selectedAt": "2026-11-26",
+      "reason": "Primera base atmosfèrica del repertori de mites validat; en les següents produccions s’alternaran les tres pistes aprovades."
+    },
+    "reviewUpdate": {
+      "date": "2026-11-26",
+      "file": "./assets/audio/s130-mixed-v1.mp3",
       "summary": {
-        "ca": "Veus validades. Abans de muntar S130, cal triar la música de fons. Les propostes són a «Músiques de narració», al peu d’aquest panell.",
-        "es": "Voces validadas. Antes de montar S130, hay que elegir la música de fondo. Las propuestas están en «Músicas de narración», al pie de este panel."
-      },
-      "comparison": "https://sentit.ortogra.fi/?musiques=mites-antiguitat",
-      "candidateIds": [
-        "M1",
-        "M2",
-        "M3"
-      ]
+        "ca": "Muntatge amb M1: música molt baixa sota la narració i pujada de dos segons abans de la fosa. Veus validades conservades. Pendent d’escoltar el muntatge.",
+        "es": "Montaje con M1: música muy baja durante la narración y subida de dos segundos antes del fundido. Voces validadas conservadas. Pendiente de escuchar el montaje."
+      }
     }
   }
 };

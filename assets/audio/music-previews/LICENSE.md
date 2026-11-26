@@ -1,6 +1,6 @@
 # Comparison excerpts · Kevin MacLeod
 
-The thirteen excerpts F1–F7, L1–L3 and M1–M3 are music by **Kevin MacLeod (incompetech.com)**, licensed under **[Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)**. F2/F3 are preserved historical proposals outside the active comparison; F4–F7 are new alternatives. Approval of a library track is separate from approval of an activity's final mix.
+The thirteen excerpts F1–F7, L1–L3 and M1–M3 are music by **Kevin MacLeod (incompetech.com)**, licensed under **[Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)**. Approved selections: F1/F4/F5/F6, L1–L3 and M1–M3. F2/F3/F7 are preserved outside the active selection. Approval of a library track is separate from approval of an activity's final mix.
 
 | File | Composition | Original source |
 | --- | --- | --- |

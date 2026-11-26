@@ -1,10 +1,10 @@
 // Library selection and audition samples. Activity assignments still require a montage record.
 const licenseUrl = 'https://creativecommons.org/licenses/by/4.0/';
-const approved=new Set(['F1','L1','L2','L3','M1','M2','M3']);
-const retired=new Set(['F2','F3']);
+const approved=new Set(['F1','F4','F5','F6','L1','L2','L3','M1','M2','M3']);
+const retired=new Set(['F2','F3','F7']);
 const candidate = (id, universe, title, isrc, ca, es) => ({
   id, universe, title, isrc, author: 'Kevin MacLeod',
-  status:approved.has(id)?'approved':id==='F2'?'excluded':id==='F3'?'deferred':'candidate',
+  status:approved.has(id)?'approved':id==='F2'?'excluded':retired.has(id)?'deferred':'candidate',
   active:!retired.has(id),reviewedAt:approved.has(id)||retired.has(id)?'2026-11-26':null,
   license: 'CC BY 4.0', licenseUrl,
   sourceUrl: `https://incompetech.com/music/royalty-free/index.html?isrc=${isrc}`,

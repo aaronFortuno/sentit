@@ -1819,5 +1819,19 @@ export const modularAudio = {
       "seconds": 110.11,
       "sha256": "343387fbec5f5c850d5938a5176d3e76bead4e7095eff57b764d8650405ee2c3"
     }
+  },
+  "ca-S130": {
+    "master": "./assets/audio/s130-mixed-v1.mp3",
+    "masterSha256": "6d9a1914e0e6b9dd6b6f901631e3a06c67ad204282717e1b28323527c102741d",
+    "introduction": {
+      "src": "./assets/audio/s130-mixed-v1-intro.mp3",
+      "seconds": 5.9,
+      "sha256": "c80bab3d4beb6f3d2fd367a09e653d3792f32d5225669a7dc57d88d8394bfa87"
+    },
+    "body": {
+      "src": "./assets/audio/s130-mixed-v1-cos.mp3",
+      "seconds": 115.03,
+      "sha256": "1a6c31fcd3aa04a7edb04269c23b206efa742866673f8cfa46ef44d756fb5b5d"
+    }
   }
 };

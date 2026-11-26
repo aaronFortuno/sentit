@@ -1,4 +1,4 @@
-import { narrationMusic, narrationMusicGroups } from './content/narration-music.js?v=0.1.125';
+import { narrationMusic, narrationMusicGroups } from './content/narration-music.js?v=0.1.126';
 import { openDialog } from './motion.js';
 import { mountAudioSeek } from './audio-seek.js';
 
