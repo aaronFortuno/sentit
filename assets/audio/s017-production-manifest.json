@@ -1,7 +1,7 @@
 {
   "code": "S017",
   "activity": "ca-S017",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s017-breaths-v2.mp3",
   "introFile": "s017-breaths-v2-intro.mp3",
   "bodyFile": "s017-breaths-v2-cos.mp3",
@@ -384,5 +384,20 @@
     "retainedMasterSha256": "d32fb1c42ae4db13e44d70696120459ce559545da29b69803f7fa7cb258376ec",
     "rejectedCandidate": "assets/audio/repairs/l40-s017-coordinacio-prova.mp3",
     "newRequests": 0
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-26",
+    "validatedBy": "docent",
+    "confirmation": "Docent 26/11: «Pugem a definitiu: S088, S041, S085, S090, S093, S118, S109, S017 i S081».",
+    "audioSha256": "d32fb1c42ae4db13e44d70696120459ce559545da29b69803f7fa7cb258376ec",
+    "editorialFingerprint": "b49a1c85a8ce15189d30dc4f527d1ed97ed0005c9f42150be6cda0d826ef454b",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/s017-publicacio-v1.webp",
+    "illustrationSha256": "83fc49c01bc50872e096152a64602a87249840bd6e7ed36902c00c06da376db1",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-26",
+    "audioChanged": false
   }
 }

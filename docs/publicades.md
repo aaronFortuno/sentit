@@ -1,6 +1,6 @@
 # Comprensions finalitzades
 
-Actualitzat: **26/11/2026**. **115 publicacions definitives**. Aquest registre conserva les peces que han sortit de la [taula de pendents](seguiment-produccio.md). Les variants es validen per separat.
+Actualitzat: **26/11/2026**. **124 publicacions definitives**. Aquest registre conserva les peces que han sortit de la [taula de pendents](seguiment-produccio.md). Les variants es validen per separat.
 
 | Codi | Títol | Curs | Dificultat · tipologia | Fragment | Validació definitiva |
 | --- | --- | --- | --- | --- | --- |
@@ -16,6 +16,7 @@ Actualitzat: **26/11/2026**. **115 publicacions definitives**. Aquest registre c
 | [ca-S013](https://sentit.ortogra.fi/#lectura=ca-S013) | Com viatja una carta? | 4t | Avançada · Explicació | 2:18 | 2026-11-23 |
 | [ca-S014](https://sentit.ortogra.fi/#lectura=ca-S014) | Què passa dins d’una llavor? | 5è | Accessible · Explicació | 2:12 | 2026-11-23 |
 | [ca-S016](https://sentit.ortogra.fi/#lectura=ca-S016) | Una troballa al jaciment | 5è | Intermèdia · Notícia | 2:17 | 2026-11-23 |
+| [ca-S017](https://sentit.ortogra.fi/#lectura=ca-S017) | Preparem una exposició itinerant | 5è | Avançada · Instruccions | 2:48 | 2026-11-26 |
 | [ca-S018](https://sentit.ortogra.fi/#lectura=ca-S018) | La clau de l’armari verd | 5è | Avançada · Narració | 2:57 | 2026-11-20 |
 | [ca-S019](https://sentit.ortogra.fi/#lectura=ca-S019) | Una cuinera contra el malbaratament | 6è | Accessible · Entrevista | 1:53 | 2026-11-20 |
 | [ca-S020](https://sentit.ortogra.fi/#lectura=ca-S020) | Com participar en el concurs de pòdcasts | 6è | Accessible · Instruccions | 2:03 | 2026-11-20 |
@@ -40,6 +41,7 @@ Actualitzat: **26/11/2026**. **115 publicacions definitives**. Aquest registre c
 | [ca-S038D](https://sentit.ortogra.fi/#lectura=ca-S038D) | El banc que havien mogut · versió dialogada | 5è | Intermèdia · Narració | 2:17 | 2026-11-21 |
 | [ca-S039](https://sentit.ortogra.fi/#lectura=ca-S039) | Una biblioteca d’objectes en prova | 5è | Avançada · Notícia | 2:05 | 2026-11-23 |
 | [ca-S040](https://sentit.ortogra.fi/#lectura=ca-S040) | Una exposició que es pugui escoltar | 6è | Accessible · Entrevista | 2:10 | 2026-11-23 |
+| [ca-S041](https://sentit.ortogra.fi/#lectura=ca-S041) | Què farem per portes obertes? | 6è | Accessible · Instruccions | 1:34 | 2026-11-26 |
 | [ca-S042](https://sentit.ortogra.fi/#lectura=ca-S042) | Dos camins amb la mateixa mitjana | 6è | Intermèdia · Explicació | 1:24 | 2026-11-23 |
 | [ca-S043](https://sentit.ortogra.fi/#lectura=ca-S043) | El balcó que només era al paper | 6è | Intermèdia · Narració | 2:16 | 2026-11-23 |
 | [ca-S044](https://sentit.ortogra.fi/#lectura=ca-S044) | El recompte del programa | 6è | Avançada · Diàleg | 1:30 | 2026-11-23 |
@@ -83,14 +85,19 @@ Actualitzat: **26/11/2026**. **115 publicacions definitives**. Aquest registre c
 | [ca-S078](https://sentit.ortogra.fi/#lectura=ca-S078) | El soroll que seguia la cadira | 5è | Accessible · Diàleg | 1:39 | 2026-11-23 |
 | [ca-S079](https://sentit.ortogra.fi/#lectura=ca-S079) | Una funda que no tanca | 5è | Intermèdia · Diàleg | 1:45 | 2026-11-23 |
 | [ca-S080](https://sentit.ortogra.fi/#lectura=ca-S080) | El segon assaig sona lluny | 6è | Accessible · Diàleg | 1:50 | 2026-11-23 |
+| [ca-S081](https://sentit.ortogra.fi/#lectura=ca-S081) | La guitarra del concert de divendres | 5è | Avançada · Diàleg | 2:23 | 2026-11-26 |
 | [ca-S082](https://sentit.ortogra.fi/#lectura=ca-S082) | El so que volíem gravar | 6è | Avançada · Diàleg | 2:43 | 2026-11-23 |
 | [ca-S083](https://sentit.ortogra.fi/#lectura=ca-S083) | Quant de temps, Núria! | 4t | Accessible · Diàleg | 1:16 | 2026-11-25 |
 | [ca-S084](https://sentit.ortogra.fi/#lectura=ca-S084) | Paper de regal | 3r | Accessible · Diàleg | 1:08 | 2026-11-25 |
+| [ca-S085](https://sentit.ortogra.fi/#lectura=ca-S085) | El carro davant de la porta | 3r | Intermèdia · Diàleg | 1:14 | 2026-11-26 |
 | [ca-S086](https://sentit.ortogra.fi/#lectura=ca-S086) | El pa per al sopar | 3r | Accessible · Diàleg | 1:06 | 2026-11-25 |
 | [ca-S087](https://sentit.ortogra.fi/#lectura=ca-S087) | El pom del calaix | 3r | Intermèdia · Diàleg | 1:20 | 2026-11-25 |
+| [ca-S088](https://sentit.ortogra.fi/#lectura=ca-S088) | Un llibre que encara tinc a casa | 4t | Accessible · Diàleg | 1:10 | 2026-11-26 |
 | [ca-S089](https://sentit.ortogra.fi/#lectura=ca-S089) | La gossa que passeja en Ferran | 3r | Accessible · Diàleg | 1:10 | 2026-11-25 |
+| [ca-S090](https://sentit.ortogra.fi/#lectura=ca-S090) | Ens falta espai per jugar | 4t | Accessible · Diàleg | 0:59 | 2026-11-26 |
 | [ca-S091](https://sentit.ortogra.fi/#lectura=ca-S091) | El berenar ben pla | 3r | Accessible · Diàleg | 1:10 | 2026-11-25 |
 | [ca-S092](https://sentit.ortogra.fi/#lectura=ca-S092) | El carrer està tallat | 5è | Intermèdia · Diàleg | 1:19 | 2026-11-25 |
+| [ca-S093](https://sentit.ortogra.fi/#lectura=ca-S093) | El tren que arriba abans | 6è | Avançada · Diàleg | 1:20 | 2026-11-26 |
 | [ca-S094](https://sentit.ortogra.fi/#lectura=ca-S094) | El paraigua no s’obre | 5è | Intermèdia · Diàleg | 1:27 | 2026-11-25 |
 | [ca-S096](https://sentit.ortogra.fi/#lectura=ca-S096) | El banc de la placeta | 6è | Intermèdia · Diàleg | 1:40 | 2026-11-25 |
 | [ca-S097](https://sentit.ortogra.fi/#lectura=ca-S097) | Quina parada em queda més a prop? | 5è | Avançada · Diàleg | 1:34 | 2026-11-25 |
@@ -103,6 +110,7 @@ Actualitzat: **26/11/2026**. **115 publicacions definitives**. Aquest registre c
 | [ca-S105](https://sentit.ortogra.fi/#lectura=ca-S105) | El faristol que ballava | 4t | Intermèdia · Diàleg | 1:19 | 2026-11-25 |
 | [ca-S106](https://sentit.ortogra.fi/#lectura=ca-S106) | Un suport per a la gravadora | 5è | Intermèdia · Diàleg | 1:27 | 2026-11-25 |
 | [ca-S108](https://sentit.ortogra.fi/#lectura=ca-S108) | Un lloc per berenar | 3r | Accessible · Diàleg | 1:02 | 2026-11-25 |
+| [ca-S109](https://sentit.ortogra.fi/#lectura=ca-S109) | Les sabates del diumenge | 4t | Intermèdia · Diàleg | 1:17 | 2026-11-26 |
 | [ca-S110](https://sentit.ortogra.fi/#lectura=ca-S110) | Un so darrere els arbres | 5è | Intermèdia · Diàleg | 1:27 | 2026-11-25 |
 | [ca-S111](https://sentit.ortogra.fi/#lectura=ca-S111) | La porta del camí vell | 6è | Avançada · Diàleg | 1:42 | 2026-11-25 |
 | [ca-S112](https://sentit.ortogra.fi/#lectura=ca-S112) | El bibliobús visita l’escola | 3r | Accessible · Notícia | 0:42 | 2026-11-25 |
@@ -111,6 +119,7 @@ Actualitzat: **26/11/2026**. **115 publicacions definitives**. Aquest registre c
 | [ca-S115](https://sentit.ortogra.fi/#lectura=ca-S115) | La font torna a rajar | 3r | Intermèdia · Notícia | 0:43 | 2026-11-25 |
 | [ca-S116](https://sentit.ortogra.fi/#lectura=ca-S116) | Una tarda per mirar les estrelles | 4t | Accessible · Notícia | 0:44 | 2026-11-26 |
 | [ca-S117](https://sentit.ortogra.fi/#lectura=ca-S117) | Els patinets estrenen aparcament | 4t | Intermèdia · Notícia | 0:44 | 2026-11-25 |
+| [ca-S118](https://sentit.ortogra.fi/#lectura=ca-S118) | La capsa de fotografies arriba a l’arxiu | 4t | Intermèdia · Notícia | 0:42 | 2026-11-26 |
 | [ca-S119](https://sentit.ortogra.fi/#lectura=ca-S119) | El concert busca un altre espai | 4t | Avançada · Notícia | 0:42 | 2026-11-25 |
 | [ca-S120](https://sentit.ortogra.fi/#lectura=ca-S120) | Com s’enganxa el velcro? | 3r | Accessible · Explicació | 1:18 | 2026-11-26 |
 | [ca-S121](https://sentit.ortogra.fi/#lectura=ca-S121) | L’ombra s’ha mogut | 3r | Intermèdia · Explicació | 1:20 | 2026-11-25 |

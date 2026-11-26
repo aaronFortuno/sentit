@@ -1,7 +1,7 @@
 {
   "code": "S118",
   "activity": "ca-S118",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s118-mixed-v1.mp3",
   "introFile": "s118-mixed-v1-intro.mp3",
   "bodyFile": "s118-mixed-v1-cos.mp3",
@@ -79,5 +79,20 @@
     "sourceTakeSha256": "267a0d244a52dc094d9e6b053b89092d7dad5ec039e7f60e697bc9fcbdcb6e83",
     "sourceBatch": "L38",
     "confirmation": "Docent 26/11: S118 validat per muntatge."
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-26",
+    "validatedBy": "docent",
+    "confirmation": "Docent 26/11: «Pugem a definitiu: S088, S041, S085, S090, S093, S118, S109, S017 i S081».",
+    "audioSha256": "a14f3642ad76c6ffcac4600053a4a4c71aca853a835a2bd4c902b1935093db69",
+    "editorialFingerprint": "7fc7b8988d3f9b8664bc1b53f04a11edff9cbb1cbefb376784338a33fc416190",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/s118-publicacio-v1.webp",
+    "illustrationSha256": "97c2873bf4f29452e26e3d5fe77465436f0aaca3d23ec704f3cdf42f3d71f2f9",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-26",
+    "audioChanged": false
   }
 }

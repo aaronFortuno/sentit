@@ -40,7 +40,8 @@ export const dailyFerran = [
   }),
   dailyProposal({
     id: 'un-llibre-que-encara-tinc-a-casa', code: 'S088', title: 'Un llibre que encara tinc a casa', grade: '4', level: 'easy', genre: 'dialogue',
-    seconds: 75, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s088-publicacio-v1.webp","alt":"En Ferran obre una bossa al taulell de la biblioteca, davant del bibliotecari.","width":1536,"height":1024},
+    seconds: 75, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s088-mixed-v1.mp3', tracks: { introduction: './assets/audio/s088-mixed-v1-intro.mp3', body: './assets/audio/s088-mixed-v1-cos.mp3' },
     fragment: { start: 4.78, seconds: 70 },
     voices: { Ferran: 'Algenib', Bibliotecari: 'Achird' }, guestSpeakers: [{ name: 'Bibliotecari', voice: 'Achird', role: 'Bibliotecari · ocasional' }], delivery,

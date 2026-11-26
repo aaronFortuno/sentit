@@ -12,7 +12,9 @@ Banc de comprensió oral d’ortogra.fi. El docent tria una activitat, prepara l
 
 **Doble format a tot el catàleg:** 150 peces, 1.076 preguntes: 1.072 alternatives ABCD i 4 obertes justificades. El format general i les excepcions es desen entre sessions i col·leccions. [Cobertura](docs/preguntes-abcd-seguiment.md) · [Criteris](docs/preguntes-abcd.md). El pilot conserva l’aprovació docent; la resta d’alternatives continua pendent del seu vistiplau.
 
-**Tanda d’equilibri:** [S112–S127](docs/pla-equilibri-2026-11-25.md), setze guions amb preguntes duals i revisió independent. Catorze peces definitives, S118 amb muntatge pendent d’audició i S122 en regeneració completa. [Publicacions i accés als muntatges](docs/publicacio-equilibri-2026-11-26.md).
+**Publicació del 26/11:** [nou peces definitives](docs/publicacio-2026-11-26-nou.md): S088, S041, S085, S090, S093, S118, S109, S017 i S081. Il·lustracions noves, solucionaris nets i màsters aprovats intactes.
+
+**Tanda d’equilibri:** [S112–S127](docs/pla-equilibri-2026-11-25.md), setze guions amb preguntes duals i revisió independent. Quinze peces definitives i S122 amb la regeneració completa pendent d’audició. [Publicacions i accés als muntatges](docs/publicacio-equilibri-2026-11-26.md).
 
 **Pilots de tradició amb guió validat:** [S128–S130](docs/pilots-tradicio.md), una faula de 3r, una llegenda de 4t i un mite grec de 5è. Fonts i decisions d’adaptació explícites, 18 preguntes duals i revisió adversària superada. Veus rebudes a L41, juntament amb la nova presa íntegra de S070. [Resultats i comparacions del 26/11](docs/lots-2026-11-26.md). S128/S129 esperen audició de veus; S130 ja té les veus validades i un primer muntatge amb M1 pendent d’audició.
 

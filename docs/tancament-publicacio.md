@@ -60,3 +60,5 @@ S058 tancada el 25/11/2026 amb aprovació definitiva del docent. Il·lustració 
 
 
 Tancament del 25/11/2026 aplicat a S112, S113, S115, S117, S119, S121 i S127: set il·lustracions amb models canònics, prompts conservats, revisió independent de 37 preguntes i 41 cites, transcripcions només parlades i màsters aprovats intactes. [Detall i procedència](publicacio-equilibri-2026-11-25.md).
+
+Tancament del 26/11/2026 aplicat a S088, S041, S085, S090, S093, S118, S109, S017 i S081, amb aprovació definitiva explícita. Nou il·lustracions contextuals, revisió independent de 63 preguntes obertes/ABCD i cites, transcripcions netes i àudios aprovats intactes. Comparacions tancades i treball retirat conservat en local. [Detall, imatges i prompts](publicacio-2026-11-26-nou.md).

@@ -1,5 +1,6 @@
 export const strings = {
   ca: {
+    releaseNineFinalPublications: 'Nou definitives: S088, S041, S085, S090, S093, S118, S109, S017 i S081, amb esmenes validades, il·lustracions contextuals i solucionaris nets. Àudios aprovats intactes, comparacions tancades i seguiment actualitzat.',
     releaseApprovedMusicMontage: 'Repertoris validats: faules F1/F4/F5/F6, llegendes L1–L3 i mites M1–M3. Alternança dins de cada univers i mateixa música entre variants. S130 amb primer muntatge M1 pendent d’audició, sense síntesi nova; títol i relat separats.',
     musicApproved: 'Validada',
     musicNewCandidate: 'Nova proposta',
@@ -357,6 +358,7 @@ export const strings = {
     sessionEnded: 'Sessió acabada', remainingTime: 'Temps restant',
   },
   es: {
+    releaseNineFinalPublications: 'Nueve definitivas: S088, S041, S085, S090, S093, S118, S109, S017 y S081, con correcciones validadas, ilustraciones contextuales y soluciones limpias. Audios aprobados intactos, comparaciones cerradas y seguimiento actualizado.',
     musicApproved: 'Validada',
     releaseApprovedMusicMontage: 'Repertorios validados: fábulas F1/F4/F5/F6, leyendas L1–L3 y mitos M1–M3. Alternancia por universo y misma música entre variantes. S130 con primer montaje M1 pendiente de audición, sin nueva síntesis; título y relato separados.',
     musicNewCandidate: 'Nueva propuesta',

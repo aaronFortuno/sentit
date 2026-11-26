@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-26",
+  "tool": "image_gen built-in",
+  "code": "S118",
+  "file": "s118-publicacio-v1.webp",
+  "alt": "La Mar prepara una notícia a l’arxiu, al costat d’una capsa tancada i carpetes.",
+  "width": 1536,
+  "height": 1024,
+  "references": [
+    "../characters/mar-model-sheet-v1.webp"
+  ],
+  "prompt": "Use case: illustration-story. Create ONE contextual scene for a Sentit educational worksheet and catalogue, landscape 3:2, 1536x1024. The supplied character model sheets are appearance and style references only, not scene edit targets: retain their exact identities, ages, faces, hair and clothes, never their labels or multi-view layout. Refined naturalistic fine ink and softly textured watercolor, warm light, muted sage/ochre/charcoal, paper fading into generous pure-white margins on all four sides. One coherent scene, clear at 80mm printed width, natural hands and active believable gestures. NO text, letters, numbers, symbols, labels, speech bubbles, logos or watermark. Establish the specific situation without illustrating answers or final decisions. Reference order: image 1 = mar. Scene: Mar, the canonical reporter, is in the neighbourhood archive, preparing a local news report beside an archivist’s worktable. She holds a small microphone down near her chest while looking toward a CLOSED plain archival cardboard box on the far side of the table; her other hand rests on the table edge. Soft rows of unlabelled archival folders behind. A concrete small news-reporting scene, not a posed portrait. Do not show any photographs, copies, scanner, computer, attic, donors, names, signs, labels, identifiable places or contents of the box.",
+  "sourceImage": "exec-cd264551-a408-4a88-af49-782cf25dc969.png",
+  "sourceImageSha256": "bbb58b67fc8829d583a78fb9c2202c79186a5ca2daf512e0235599c8dfabf96a",
+  "encoding": "WebP quality 88; original composition and dimensions retained. Original PNG preserved locally."
+}

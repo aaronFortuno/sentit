@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-26",
+  "tool": "image_gen built-in",
+  "code": "S085",
+  "file": "s085-publicacio-v1.webp",
+  "alt": "La Mar, amb dues bosses, conversa amb una veïna al carrer, al costat d’un carro.",
+  "width": 1536,
+  "height": 1024,
+  "references": [
+    "../characters/mar-model-sheet-v1.webp"
+  ],
+  "prompt": "Use case: illustration-story. Create ONE contextual scene for a Sentit educational worksheet and catalogue, landscape 3:2, 1536x1024. The supplied character model sheets are appearance and style references only, not scene edit targets: retain their exact identities, ages, faces, hair and clothes, never their labels or multi-view layout. Refined naturalistic fine ink and softly textured watercolor, warm light, muted sage/ochre/charcoal, paper fading into generous pure-white margins on all four sides. One coherent scene, clear at 80mm printed width, natural hands and active believable gestures. NO text, letters, numbers, symbols, labels, speech bubbles, logos or watermark. Establish the specific situation without illustrating answers or final decisions. Reference order: image 1 = mar. Scene: On the pavement outside her apartment building, Mar is carrying two simple shopping bags and greets an occasional adult neighbour with short silver hair and a muted lavender cardigan. The neighbour holds a small empty flat cardboard carton at her side and gestures toward a plain utility trolley parked discreetly at the far edge of the scene, NOT across any door or pathway. Medium-close three-quarter view, an anonymous facade in soft background, no explicit entrance layout. No lamp-post, staircase, van, door lock, blocked passage, boxes on trolley or visible proposed parking place. Keep the trolley secondary.",
+  "sourceImage": "exec-072db762-8179-4def-9db5-f3798ca716d0.png",
+  "sourceImageSha256": "d9d9b757b6285366f04778ae88e85c1ee01089196b832e76d6891f6cd757c461",
+  "encoding": "WebP quality 88; original composition and dimensions retained. Original PNG preserved locally."
+}

@@ -7,7 +7,8 @@ const park = 'Ambient enregistrat real de parc tranquil, molt baix sota la conve
 export const dailyLaiaBiel = [
   dailyProposal({
     id: 'ens-falta-espai-per-jugar', code: 'S090', title: 'Ens falta espai per jugar', grade: '4', level: 'easy', genre: 'dialogue',
-    seconds: 63, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s090-publicacio-v1.webp","alt":"La Laia i en Biel fan una pausa amb la pilota en un parc.","width":1536,"height":1024},
+    seconds: 63, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s090-mixed-v1.mp3', tracks: { introduction: './assets/audio/s090-mixed-v1-intro.mp3', body: './assets/audio/s090-mixed-v1-cos.mp3' },
     fragment: { start: 3.81, seconds: 59 },
     voices: { Laia: 'Leda', Biel: 'Puck' }, delivery,

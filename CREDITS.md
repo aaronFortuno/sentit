@@ -128,3 +128,7 @@ Fonts, còpies HQ, empremtes i tractament exactes a `content/sound-sources.js` i
 ## S130 · música de narració
 
 «Temple of the Manes» (M1), Kevin MacLeod (incompetech.com), [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). [Font original](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100053). Fragment des del segon 6, normalització, atenuació sota la veu i foses de Sentit. Original complet conservat localment; al web només el muntatge amb la veu. [Manifest](assets/audio/s130-production-manifest.json) i [repertoris aprovats](docs/musiques-tradicio.md).
+
+## Nou publicacions · 26/11/2026
+
+S088, S041, S085, S090, S093, S118, S109, S017 i S081: il·lustracions noves amb la generació integrada `image_gen` i models canònics, sense alterar els àudios aprovats ni les llicències sonores. Originals locals i WebP al repositori; [nou escenes, prompts i referències](docs/publicacio-2026-11-26-nou.md).

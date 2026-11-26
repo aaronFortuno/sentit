@@ -1,7 +1,7 @@
 {
   "code": "S093",
   "activity": "ca-S093",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s093-mixed-v1.mp3",
   "introFile": "s093-mixed-v1-intro.mp3",
   "bodyFile": "s093-mixed-v1-cos.mp3",
@@ -227,5 +227,20 @@
     ],
     "originalRawFile": "s093-t01.wav",
     "patchedFile": "patched-source.wav"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-26",
+    "validatedBy": "docent",
+    "confirmation": "Docent 26/11: «Pugem a definitiu: S088, S041, S085, S090, S093, S118, S109, S017 i S081».",
+    "audioSha256": "11cbdbedd65133ee4b26dd7a6cbd6680b601a026b9e5d26391fd77eaf98a31b2",
+    "editorialFingerprint": "73d15e8bf78166ca9866bc38dcd0768e2679e1b294c994b7f34aabd22bcc3ed1",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/s093-publicacio-v1.webp",
+    "illustrationSha256": "760675c591d172f306d25b6a6667a4c62567ef3f5a1bc5954ea026fa6cc688a7",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-26",
+    "audioChanged": false
   }
 }

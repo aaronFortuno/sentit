@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-26",
+  "tool": "image_gen built-in",
+  "code": "S081",
+  "file": "s081-publicacio-v1.webp",
+  "alt": "En Biel conversa amb l’Elies al taller, amb una funda de guitarra tancada al costat.",
+  "width": 1536,
+  "height": 1024,
+  "references": [
+    "../characters/biel-model-sheet-v1.webp",
+    "../characters/elies-model-sheet-v1.webp"
+  ],
+  "prompt": "Use case: illustration-story. Create ONE contextual scene for a Sentit educational worksheet and catalogue, landscape 3:2, 1536x1024. The supplied character model sheets are appearance and style references only, not scene edit targets: retain their exact identities, ages, faces, hair and clothes, never their labels or multi-view layout. Refined naturalistic fine ink and softly textured watercolor, warm light, muted sage/ochre/charcoal, paper fading into generous pure-white margins on all four sides. One coherent scene, clear at 80mm printed width, natural hands and active believable gestures. NO text, letters, numbers, symbols, labels, speech bubbles, logos or watermark. Establish the specific situation without illustrating answers or final decisions. Reference order: image 1 = biel; image 2 = elies. Scene: At the entrance to a luthier’s workshop, Biel stands with one hand on the carrying handle of a CLOSED padded classical-guitar gig bag resting upright beside him, while Elies, in his canonical brown work apron, pauses beside a bare workbench to greet him warmly with an open hand. Show a genuine full-size guitar case: roughly 110cm long relative to the people, broad rounded lower body with two bouts and an inward waist, narrowing distinctly into a long slender neck and small headstock section; not violin-shaped or flute-like. The case is neutral dark charcoal with no labels. No visible instrument, guitar selection, repair part, shipment label, clock, calendar, dates, sizes compared, loan paperwork or readable note.",
+  "sourceImage": "exec-7980667f-7b1e-4046-9ba4-cab4c332077e.png",
+  "sourceImageSha256": "acea87de8155636713aa4ed7c953ea818b4cb96474c2dcb634bbb8f16683a115",
+  "encoding": "WebP quality 88; original composition and dimensions retained. Original PNG preserved locally."
+}

@@ -43,7 +43,8 @@ export const dailyMarServices = [
   }),
   dailyProposal({
     id: 'el-tren-que-arriba-abans', code: 'S093', title: 'El tren que arriba abans', grade: '6', level: 'advanced', genre: 'dialogue',
-    seconds: 85, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s093-publicacio-v1.webp","alt":"La Mar demana informació a una treballadora al taulell d’una estació de tren.","width":1536,"height":1024},
+    seconds: 85, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s093-mixed-v1.mp3', tracks: { introduction: './assets/audio/s093-mixed-v1-intro.mp3', body: './assets/audio/s093-mixed-v1-cos.mp3' },
     fragment: { start: 3.955, seconds: 80 },
     voices: { Mar: 'Erinome', Informadora: 'Despina' }, guestSpeakers: [{ name: 'Informadora', voice: 'Despina', role: 'Empleada d’una estació de tren · ocasional' }], delivery: delivery + ' Tractament mutu de vostè, cordial i espontani, sense solemnitat.',

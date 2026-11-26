@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-26",
+  "tool": "image_gen built-in",
+  "code": "S017",
+  "file": "s017-publicacio-v1.webp",
+  "alt": "La Mireia, la Laia i en Biel comenten un projecte amb un panell en blanc a l’aula.",
+  "width": 1536,
+  "height": 1024,
+  "references": [
+    "../characters/mireia-model-sheet-v1.webp",
+    "../characters/laia-model-sheet-v1.webp",
+    "../characters/biel-model-sheet-v1.webp"
+  ],
+  "prompt": "Use case: illustration-story. Create ONE contextual scene for a Sentit educational worksheet and catalogue, landscape 3:2, 1536x1024. The supplied character model sheets are appearance and style references only, not scene edit targets: retain their exact identities, ages, faces, hair and clothes, never their labels or multi-view layout. Refined naturalistic fine ink and softly textured watercolor, warm light, muted sage/ochre/charcoal, paper fading into generous pure-white margins on all four sides. One coherent scene, clear at 80mm printed width, natural hands and active believable gestures. NO text, letters, numbers, symbols, labels, speech bubbles, logos or watermark. Establish the specific situation without illustrating answers or final decisions. Reference order: image 1 = mireia; image 2 = laia; image 3 = biel. Scene: Mireia is sitting on the side of a classroom worktable with Laia and Biel, helping them organise an exhibition project while other small groups work softly in the background. Biel has turned a large totally BLANK display panel slightly toward Mireia; Laia steadies its opposite edge and asks a question. The panel remains upright on the tabletop, no assembly method or stand shown. A few unmarked closed craft containers are far in the background. Clearly a practical classroom project, not a committee meeting. No photographs, labels, names, lists, packing sequence, coloured tapes, transport cart, umbrella, wet glue, timetable, permissions, solution drawings or visible decisions.",
+  "sourceImage": "exec-da2ab798-2d7e-473b-87c7-3b5f5a438d7d.png",
+  "sourceImageSha256": "27fa90f9b48db9db1ca355a9c2ad0ac66d0977ff9474d5d2df017a7ca9bd8f72",
+  "encoding": "WebP quality 88; original composition and dimensions retained. Original PNG preserved locally."
+}

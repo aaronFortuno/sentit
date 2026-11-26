@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.127 · 26 de novembre de 2026
+
+- S088, S041, S085, S090, S093, S118, S109, S017 i S081 publicades definitivament amb aprovació docent. Les esmenes queden tancades en context i les nou peces surten de la vista de provisionals. Màsters i pistes de servei aprovats intactes.
+- Nou il·lustracions contextuals amb models canònics, opcionals als imprimibles; solucionaris sense notes de producció. Revisió independent de les imatges, 63 preguntes obertes/ABCD, cites i transcripcions.
+- Seguiment i crèdits actualitzats; proves tancades arxivades localment, sense peticions noves de síntesi.
+
 ## 0.1.126 · 26 de novembre de 2026
 
 - Selecció musical tancada: faules F1/F4/F5/F6, llegendes L1–L3 i mites M1–M3. Alternança entre produccions del mateix univers, mateixa composició entre variants i registre dels usos reals. F2/F3/F7 fora del repertori actiu, amb mostres i fonts conservades.

@@ -7,7 +7,7 @@
       "part": "introduction",
       "text": "Comprensió oral. Ens falta espai per jugar.",
       "pronunciation": "Read the complete exercise introduction and title once, with the same youthful female Laia/Leda identity; no omitted beginning or added words.",
-      "status": "applied-awaiting-montage-listening",
+      "status": "applied-validated",
       "missingOriginal": true,
       "candidateFile": "assets/audio/repairs/l42-s090-introduction-prova.mp3",
       "sourceRawSha256": "bd17485cca82d19a097a226a1f1287a035db454d787194c9e781fa088a9d8555",
@@ -20,14 +20,16 @@
       "candidateSha256": "960e48900746141d0ebf9e554462269a24e75147bc5da33699386ba01e2a956a",
       "appliedAt": "2026-11-26",
       "appliedAudio": "./assets/audio/s090-mixed-v1.mp3",
-      "appliedAudioSha256": "ae0ff134a6f47704490c5f151afb10335488b37724cc092a9c332bc1ca25041b"
+      "appliedAudioSha256": "ae0ff134a6f47704490c5f151afb10335488b37724cc092a9c332bc1ca25041b",
+      "closedAt": "2026-11-26",
+      "validatedAt": "2026-11-26"
     },
     {
       "code": "S090",
       "part": "pilota",
       "text": "Biel, la pilota! Agafa-la, que va cap al camí!",
       "pronunciation": "Read the entire brief Laia line clearly in a youthful female Laia/Leda voice, alert but not shrieking. Both sentences were omitted; do not skip either. Do not read this direction.",
-      "status": "applied-awaiting-montage-listening",
+      "status": "applied-validated",
       "missingOriginal": true,
       "candidateFile": "assets/audio/repairs/l42-s090-pilota-prova.mp3",
       "sourceRawSha256": "bd17485cca82d19a097a226a1f1287a035db454d787194c9e781fa088a9d8555",
@@ -40,7 +42,9 @@
       "candidateSha256": "06304fc9c2633c2ea627c05b33fc4bd4d7aa96bf6bf1666baecfdb48866c6e76",
       "appliedAt": "2026-11-26",
       "appliedAudio": "./assets/audio/s090-mixed-v1.mp3",
-      "appliedAudioSha256": "ae0ff134a6f47704490c5f151afb10335488b37724cc092a9c332bc1ca25041b"
+      "appliedAudioSha256": "ae0ff134a6f47704490c5f151afb10335488b37724cc092a9c332bc1ca25041b",
+      "closedAt": "2026-11-26",
+      "validatedAt": "2026-11-26"
     }
   ],
   "masterChanged": false

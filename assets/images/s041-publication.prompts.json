@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-26",
+  "tool": "image_gen built-in",
+  "code": "S041",
+  "file": "s041-publicacio-v1.webp",
+  "alt": "La Mireia s’atura al costat del pupitre d’en Biel per parlar d’una proposta a classe.",
+  "width": 1536,
+  "height": 1024,
+  "references": [
+    "../characters/mireia-model-sheet-v1.webp",
+    "../characters/biel-model-sheet-v1.webp"
+  ],
+  "prompt": "Use case: illustration-story. Create ONE contextual scene for a Sentit educational worksheet and catalogue, landscape 3:2, 1536x1024. The supplied character model sheets are appearance and style references only, not scene edit targets: retain their exact identities, ages, faces, hair and clothes, never their labels or multi-view layout. Refined naturalistic fine ink and softly textured watercolor, warm light, muted sage/ochre/charcoal, paper fading into generous pure-white margins on all four sides. One coherent scene, clear at 80mm printed width, natural hands and active believable gestures. NO text, letters, numbers, symbols, labels, speech bubbles, logos or watermark. Establish the specific situation without illustrating answers or final decisions. Reference order: image 1 = mireia; image 2 = biel. Scene: In an ordinary classroom, teacher Mireia has crouched beside Biel’s desk to hear his idea, and Biel leans forward eagerly, one hand slightly raised while the other rests on a closed unmarked notebook. Two loosely suggested small groups work far behind without identifiable faces or writing. Specific informal classroom planning conversation, not a meeting. No microphones, batteries, music instruments, voting hands, clocks, family visitors, doors, blackboard diagram, room labels, schedules or lists.",
+  "sourceImage": "exec-059639e6-6979-4348-a932-7bd74e16657b.png",
+  "sourceImageSha256": "bb6d91e1921d979ca48391508a9b5494446c395db485c73e3ba666ba6e06d898",
+  "encoding": "WebP quality 88; original composition and dimensions retained. Original PNG preserved locally."
+}

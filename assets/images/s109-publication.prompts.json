@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-26",
+  "tool": "image_gen built-in",
+  "code": "S109",
+  "file": "s109-publicacio-v1.webp",
+  "alt": "L’Aina i en Ferran conversen a l’inici d’una passejada pel parc.",
+  "width": 1536,
+  "height": 1024,
+  "references": [
+    "../characters/aina-model-sheet-v1.webp",
+    "../characters/ferran-model-sheet-v1.webp"
+  ],
+  "prompt": "Use case: illustration-story. Create ONE contextual scene for a Sentit educational worksheet and catalogue, landscape 3:2, 1536x1024. The supplied character model sheets are appearance and style references only, not scene edit targets: retain their exact identities, ages, faces, hair and clothes, never their labels or multi-view layout. Refined naturalistic fine ink and softly textured watercolor, warm light, muted sage/ochre/charcoal, paper fading into generous pure-white margins on all four sides. One coherent scene, clear at 80mm printed width, natural hands and active believable gestures. NO text, letters, numbers, symbols, labels, speech bubbles, logos or watermark. Establish the specific situation without illustrating answers or final decisions. Reference order: image 1 = aina; image 2 = ferran. Scene: Aina and Ferran at the beginning of a park walk, framed waist-up in a lively three-quarter composition. Aina has stopped and turned back toward her grandfather, holding a small plain water flask at her side; Ferran smiles and tugs his cardigan cuff playfully while replying. Their focus is on each other. Only softly suggested leafy park surroundings. The crop MUST hide both characters’ feet, footwear and all ground surfaces. No ducks, lake, mud, wet marks, paving, crossroads, arrows, timepieces or indication of the route chosen.",
+  "sourceImage": "exec-9166a6c0-e44a-4f2e-9610-0ef5b8cfab58.png",
+  "sourceImageSha256": "5aa00a9fadf2ccc89e45a3be1d03f1d59c692179741323b9597e9abffdc99ca6",
+  "encoding": "WebP quality 88; original composition and dimensions retained. Original PNG preserved locally."
+}

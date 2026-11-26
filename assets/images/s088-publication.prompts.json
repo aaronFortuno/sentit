@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-26",
+  "tool": "image_gen built-in",
+  "code": "S088",
+  "file": "s088-publicacio-v1.webp",
+  "alt": "En Ferran obre una bossa al taulell de la biblioteca, davant del bibliotecari.",
+  "width": 1536,
+  "height": 1024,
+  "references": [
+    "../characters/ferran-model-sheet-v1.webp"
+  ],
+  "prompt": "Use case: illustration-story. Create ONE contextual scene for a Sentit educational worksheet and catalogue, landscape 3:2, 1536x1024. The supplied character model sheets are appearance and style references only, not scene edit targets: retain their exact identities, ages, faces, hair and clothes, never their labels or multi-view layout. Refined naturalistic fine ink and softly textured watercolor, warm light, muted sage/ochre/charcoal, paper fading into generous pure-white margins on all four sides. One coherent scene, clear at 80mm printed width, natural hands and active believable gestures. NO text, letters, numbers, symbols, labels, speech bubbles, logos or watermark. Establish the specific situation without illustrating answers or final decisions. Reference order: image 1 = ferran. Scene: Ferran arrives at the library counter and begins opening his plain soft tote bag, looking up with a friendly slightly absent-minded smile. An occasional male librarian in a muted navy cardigan waits attentively, empty-handed, behind the wooden counter. A neutral closed book lies mostly concealed INSIDE the bag, no visible cover design or title. Soft generic bookshelves behind. Only Ferran matches the reference. No food, soup, cooking images, library card, labels, calendar, chair at home or visible open pages.",
+  "sourceImage": "exec-cb74a45b-c931-43e6-a635-51ee9fa41215.png",
+  "sourceImageSha256": "c0b0ddc0c6e8eb61c95035355f7767ab5478222781f4a229d6bdfa53ecc48529",
+  "encoding": "WebP quality 88; original composition and dimensions retained. Original PNG preserved locally."
+}

@@ -55,19 +55,8 @@ P02 reuneix quatre lectures breus del mateix repartiment per conservar els guion
 | S010 | Després ja som a la porta. És el camí que vam fer l’any passat. | Validada · pendent d’incorporar | [L01](../proves/correccions-l01.html) |
 | S070 | Els grans anaven d’un costat a l’altre per saber què havia passat. Mentrestant, la gent s’asseia i els petits corríem entre les cadires. El pare va anar a buscar l’acordió, que havia deixat a casa d’aquell veí, a la planta baixa, perquè no li fes nosa. | Pendent d’audició | [L30](../proves/correccions-l30.html) |
 | S010 | Des de la plaça anem pel carrer dels Til·lers fins a la farmàcia. | Rebutjada · cal una altra prova | [L31](../proves/correccions-l31.html) |
-| S085 | Doncs pugem juntes. Entro un moment les bosses i et vinc a ajudar. Els tomàquets ja han viatjat prou per avui. | Incorporada · pendent d’audició del muntatge | [L38](../proves/correccions-l38.html) |
-| S093 | Ah! Doncs el directe, el de les deu i vint-i-cinc. Jo m’havia fixat només en l’hora de sortir. La meva amiga ja ve expressament a buscar-me i no la vull fer esperar. | Incorporada · pendent d’audició del muntatge | [L38](../proves/correccions-l38.html) |
 | S102 | Sí, està bé: plaça dels Til·lers, cap al centre. Gràcies per atendre’m. Adeu. | Rebutjada · cal una altra prova | [L38](../proves/correccions-l38.html) |
-| S081 | Sí, truca abans de venir. T’ho explicaré per telèfon. Aquest matí ja he comprovat la guitarra de préstec i només falta que la guardem a la funda. | Incorporada · pendent d’audició del muntatge | [L39](../proves/correccions-l39.html) |
-| S017 | Exacte. L’equip de coordinació confirmarà la sortida de tot el conjunt. Ningú no s’avançarà amb cap caixa. A cada parada anotaran si falta alguna peça o està malmesa. El registre viatjarà amb les caixes perquè a la parada següent ja coneguin les incidències. Vinga, comencem a escriure i, quan acabeu, Laia, ja podreu pintar, d’acord? | Rebutjada · cal una altra prova | [L40](../proves/correccions-l40.html) |
-| S041 | Quan hagis parlat amb ella, ens expliques què t’ha dit. Va, ara escoltem el grup de les endevinalles. | Incorporada · pendent d’audició del muntatge | [L40](../proves/correccions-l40.html) |
-| S090 | Comprensió oral. Ens falta espai per jugar. | Incorporada · pendent d’audició del muntatge | [L42](../proves/correccions-l42.html) |
-| S090 | Biel, la pilota! Agafa-la, que va cap al camí! | Incorporada · pendent d’audició del muntatge | [L42](../proves/correccions-l42.html) |
-| S081 | De res, Biel. Espera, que t’aguanto la funda mentre hi poses el full... així... Fins dijous, i ja m’explicaràs com va l’assaig. | Incorporada · pendent d’audició del muntatge | [L43](../proves/correccions-l43.html) |
 | S107 | Aquí tens el carro, amb una nansa a cada extrem. La bossa ja és dins d’aquesta funda. Obro la porta: prova’l. | Rebutjada · cal una altra prova | [L43](../proves/correccions-l43.html) |
-| S088 | Bon dia. Vinc a tornar la novel·la que em vaig endur. Em falta llegir l’últim capítol, però em sembla que l’havia de tornar avui. Em podríeu deixar uns dies més? | Incorporada · pendent d’audició del muntatge | [L43](../proves/correccions-l43.html) |
-| S109 | Pel passeig en trigaríem uns vint. Ara són les quatre i tenim fins a les cinc per tornar a casa. La mare ens vindrà a buscar llavors. | Incorporada · pendent d’audició del muntatge | [L43](../proves/correccions-l43.html) |
-| S109 | Tracte fet. I el pròxim cop posa’m les botes al costat de la porta, que avui he sortit ben mudat per anar a trepitjar bassals. | Incorporada · pendent d’audició del muntatge | [L43](../proves/correccions-l43.html) |
 | S095 | Bon dia. El mesurem? Fa vuitanta-cinc centímetres. El servei que recollim aquí admet paquets de fins a vuitanta. Per a aquest tub hem de mirar la modalitat de paquets grans. | Pendent d’audició | [L44](../proves/correccions-l44.html) |
 | S095 | Sí. El podem preparar des d’aquest taulell, però el transportista recull el paquet al domicili. Aquí tenim poc espai i els tubs grans els van a buscar directament. | Pendent d’audició | [L44](../proves/correccions-l44.html) |
 | S102 | Plaça dels Til·lers, línia sis, cap al centre, ahir a les cinc i vint. T’ho repeteixo perquè a l’altra banda de la plaça hi ha la parada del sentit contrari. | Validada · pendent d’incorporar | [L44](../proves/correccions-l44.html) |
@@ -77,8 +66,6 @@ P02 reuneix quatre lectures breus del mateix repartiment per conservar els guion
 | Peça | Veu | Fragment |
 | --- | --- | --- |
 | [ca-S010](https://sentit.ortogra.fi/#lectura=ca-S010) | Biel · Puck | alternativa |
-| [ca-S085](https://sentit.ortogra.fi/#lectura=ca-S085) | Mar · Erinome | comiat |
-| [ca-S093](https://sentit.ortogra.fi/#lectura=ca-S093) | Mar · Erinome | confirmar |
 | [ca-S095](https://sentit.ortogra.fi/#lectura=ca-S095) | Empleada · Gacrux | mida + recollida |
 | [ca-S102](https://sentit.ortogra.fi/#lectura=ca-S102) | Mar · Erinome; Informadora · Callirrhoe | final |
 | [ca-S107](https://sentit.ortogra.fi/#lectura=ca-S107) | Elies · Algieba | sortida |

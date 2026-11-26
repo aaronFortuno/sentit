@@ -7,7 +7,7 @@
       "part": "final",
       "text": "De res, Biel. Espera, que t’aguanto la funda mentre hi poses el full... així... Fins dijous, i ja m’explicaràs com va l’assaig.",
       "pronunciation": "Pronounce funda /ˈfun.də/ with stressed U and audible N followed by D: FUN-da, never funa or fona. Keep the adult male Elies voice; do not read this instruction. Prior renderings omitted D or changed U to O. Give the N-D transition enough articulation to hear both consonants, without adding a vowel or spelling letters aloud.",
-      "status": "applied-awaiting-montage-listening",
+      "status": "applied-validated",
       "originalFile": "assets/audio/repairs/l43-s081-final-original.mp3",
       "candidateFile": "assets/audio/repairs/l43-s081-final-prova.mp3",
       "sourceRawSha256": "c0d440ba68229efe4457f53243bf0683e8f7241768c39b72b716cd7fa18bc35a",
@@ -20,7 +20,9 @@
       "candidateSha256": "666c04857ccd3c078c21ed1230127c286204654a617c122e8b901224c9ec4c8c",
       "appliedAt": "2026-11-26",
       "appliedAudio": "./assets/audio/s081-mixed-v1.mp3",
-      "appliedAudioSha256": "aa6363a4bb2b44510e323de8cda53bd4317ded3441d41fc029c1fbee5a02973f"
+      "appliedAudioSha256": "aa6363a4bb2b44510e323de8cda53bd4317ded3441d41fc029c1fbee5a02973f",
+      "closedAt": "2026-11-26",
+      "validatedAt": "2026-11-26"
     },
     {
       "code": "S107",
@@ -43,7 +45,7 @@
       "part": "hola",
       "text": "Bon dia. Vinc a tornar la novel·la que em vaig endur. Em falta llegir l’últim capítol, però em sembla que l’havia de tornar avui. Em podríeu deixar uns dies més?",
       "pronunciation": "Read the complete first Ferran turn, including Em falta llegir l’últim capítol, però em sembla que l’havia de tornar avui. Keep warm older male Ferran/Algenib throughout. Do not skip any sentence or read this direction.",
-      "status": "applied-awaiting-montage-listening",
+      "status": "applied-validated",
       "missingOriginal": true,
       "candidateFile": "assets/audio/repairs/l43-s088-hola-prova.mp3",
       "sourceRawSha256": "04afb60c95adf853ada0d0585d59cf29947e8f0ea242907727c74bdce86491cf",
@@ -56,14 +58,16 @@
       "candidateSha256": "05e9b69243685065401fd804400ca05bcbf07e0bba45e62589167421ded46543",
       "appliedAt": "2026-11-26",
       "appliedAudio": "./assets/audio/s088-mixed-v1.mp3",
-      "appliedAudioSha256": "9c104980714d1e802579179ea9ffd398b85d05a095c19922fe077ba184621955"
+      "appliedAudioSha256": "9c104980714d1e802579179ea9ffd398b85d05a095c19922fe077ba184621955",
+      "closedAt": "2026-11-26",
+      "validatedAt": "2026-11-26"
     },
     {
       "code": "S109",
       "part": "temps",
       "text": "Pel passeig en trigaríem uns vint. Ara són les quatre i tenim fins a les cinc per tornar a casa. La mare ens vindrà a buscar llavors.",
       "pronunciation": "Pronounce the Catalan word passeig clearly, preserving the written E vowel; never say passaig. Keep the natural Catalan stress and final consonant, and the warm older male Ferran/Algenib identity. Read the entire supplied turn once; do not read this instruction.",
-      "status": "applied-awaiting-montage-listening",
+      "status": "applied-validated",
       "originalFile": "assets/audio/repairs/l43-s109-temps-original.mp3",
       "candidateFile": "assets/audio/repairs/l43-s109-temps-prova.mp3",
       "sourceRawSha256": "b99990632ae375e147c0dbf518405868ce02ecf1fe1f18a401a94d3353feb027",
@@ -76,14 +80,16 @@
       "candidateSha256": "08c27bed1ad498109c99b60bfab87c95d92dadf527760f18f54fb3f97a0ea649",
       "appliedAt": "2026-11-26",
       "appliedAudio": "./assets/audio/s109-mixed-v1.mp3",
-      "appliedAudioSha256": "9232b5dbadf553883507825087aa3eb4915001067f643bdd4dead78d801f654a"
+      "appliedAudioSha256": "9232b5dbadf553883507825087aa3eb4915001067f643bdd4dead78d801f654a",
+      "closedAt": "2026-11-26",
+      "validatedAt": "2026-11-26"
     },
     {
       "code": "S109",
       "part": "final",
       "text": "Tracte fet. I el pròxim cop posa’m les botes al costat de la porta, que avui he sortit ben mudat per anar a trepitjar bassals.",
       "pronunciation": "Pronounce bassals clearly: ba-SALS, stressed on the final syllable, with unvoiced SS and a plain final L plus S. Never change the ending into palatal LL or say basalls. Keep the warm older male Ferran/Algenib identity. Read the entire supplied turn once; do not read this instruction.",
-      "status": "applied-awaiting-montage-listening",
+      "status": "applied-validated",
       "originalFile": "assets/audio/repairs/l43-s109-final-original.mp3",
       "candidateFile": "assets/audio/repairs/l43-s109-final-prova.mp3",
       "sourceRawSha256": "b99990632ae375e147c0dbf518405868ce02ecf1fe1f18a401a94d3353feb027",
@@ -96,7 +102,9 @@
       "candidateSha256": "af4e0763545b3baa2a65af067a0ef7af609d04d0d9583c460090ec33f36089ed",
       "appliedAt": "2026-11-26",
       "appliedAudio": "./assets/audio/s109-mixed-v1.mp3",
-      "appliedAudioSha256": "9232b5dbadf553883507825087aa3eb4915001067f643bdd4dead78d801f654a"
+      "appliedAudioSha256": "9232b5dbadf553883507825087aa3eb4915001067f643bdd4dead78d801f654a",
+      "closedAt": "2026-11-26",
+      "validatedAt": "2026-11-26"
     }
   ],
   "masterChanged": false

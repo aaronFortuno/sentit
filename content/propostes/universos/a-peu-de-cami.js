@@ -42,7 +42,8 @@ export const walkingActivities = [
   }),
   make({
     id: 'les-sabates-del-diumenge', code: 'S109', title: 'Les sabates del diumenge', grade: '4', level: 'middle', genre: 'dialogue',
-    seconds: 81, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s109-publicacio-v1.webp","alt":"L’Aina i en Ferran conversen a l’inici d’una passejada pel parc.","width":1536,"height":1024},
+    seconds: 81, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s109-mixed-v1.mp3', tracks: { introduction: './assets/audio/s109-mixed-v1-intro.mp3', body: './assets/audio/s109-mixed-v1-cos.mp3' },
     fragment: { start: 3.96, seconds: 77 },
     summary: 'L’Aina vol seguir pel camí de sempre fins a l’estany. En Ferran s’ha posat unes sabates que potser no li aniran gaire bé per passar-hi.',

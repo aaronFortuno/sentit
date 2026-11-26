@@ -4218,7 +4218,7 @@
     {
       "code": "S017",
       "activity": "ca-S017",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s017-breaths-v2.mp3",
       "introFile": "s017-breaths-v2-intro.mp3",
       "bodyFile": "s017-breaths-v2-cos.mp3",
@@ -4601,6 +4601,21 @@
         "retainedMasterSha256": "d32fb1c42ae4db13e44d70696120459ce559545da29b69803f7fa7cb258376ec",
         "rejectedCandidate": "assets/audio/repairs/l40-s017-coordinacio-prova.mp3",
         "newRequests": 0
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-26",
+        "validatedBy": "docent",
+        "confirmation": "Docent 26/11: «Pugem a definitiu: S088, S041, S085, S090, S093, S118, S109, S017 i S081».",
+        "audioSha256": "d32fb1c42ae4db13e44d70696120459ce559545da29b69803f7fa7cb258376ec",
+        "editorialFingerprint": "b49a1c85a8ce15189d30dc4f527d1ed97ed0005c9f42150be6cda0d826ef454b",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/s017-publicacio-v1.webp",
+        "illustrationSha256": "83fc49c01bc50872e096152a64602a87249840bd6e7ed36902c00c06da376db1",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-26",
+        "audioChanged": false
       }
     },
     {
@@ -4973,7 +4988,7 @@
     {
       "code": "S041",
       "activity": "ca-S041",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s041-repair-v3.mp3",
       "introFile": "s041-directives-v2-intro.mp3",
       "bodyFile": "s041-repair-v3-cos.mp3",
@@ -5269,6 +5284,21 @@
         },
         "appliedAt": "2026-11-26",
         "scope": "S041 only"
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-26",
+        "validatedBy": "docent",
+        "confirmation": "Docent 26/11: «Pugem a definitiu: S088, S041, S085, S090, S093, S118, S109, S017 i S081».",
+        "audioSha256": "c2c832ce1d045db7b9436ced9135a6d1cefd4fd743102f9975488117493c78c9",
+        "editorialFingerprint": "a31c1e8d85e2c8ba3ff74825b4a38311acfa56d9863c6ea39d044fb8500da831",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/s041-publicacio-v1.webp",
+        "illustrationSha256": "3cfc8cc63eb893da1e1a2d78a439f518837073deb2f787a66be281ee276292eb",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-26",
+        "audioChanged": false
       }
     },
     {
@@ -15969,7 +15999,7 @@
     {
       "code": "S118",
       "activity": "ca-S118",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s118-mixed-v1.mp3",
       "introFile": "s118-mixed-v1-intro.mp3",
       "bodyFile": "s118-mixed-v1-cos.mp3",
@@ -16047,12 +16077,27 @@
         "sourceTakeSha256": "267a0d244a52dc094d9e6b053b89092d7dad5ec039e7f60e697bc9fcbdcb6e83",
         "sourceBatch": "L38",
         "confirmation": "Docent 26/11: S118 validat per muntatge."
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-26",
+        "validatedBy": "docent",
+        "confirmation": "Docent 26/11: «Pugem a definitiu: S088, S041, S085, S090, S093, S118, S109, S017 i S081».",
+        "audioSha256": "a14f3642ad76c6ffcac4600053a4a4c71aca853a835a2bd4c902b1935093db69",
+        "editorialFingerprint": "7fc7b8988d3f9b8664bc1b53f04a11edff9cbb1cbefb376784338a33fc416190",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/s118-publicacio-v1.webp",
+        "illustrationSha256": "97c2873bf4f29452e26e3d5fe77465436f0aaca3d23ec704f3cdf42f3d71f2f9",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-26",
+        "audioChanged": false
       }
     },
     {
       "code": "S085",
       "activity": "ca-S085",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s085-mixed-v1.mp3",
       "introFile": "s085-mixed-v1-intro.mp3",
       "bodyFile": "s085-mixed-v1-cos.mp3",
@@ -16278,12 +16323,27 @@
         ],
         "originalRawFile": "s085-t01.wav",
         "patchedFile": "patched-source.wav"
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-26",
+        "validatedBy": "docent",
+        "confirmation": "Docent 26/11: «Pugem a definitiu: S088, S041, S085, S090, S093, S118, S109, S017 i S081».",
+        "audioSha256": "5edb6420f02f3e1da0b488b5416f23fa8cd19f2c71752788511f664e862736f3",
+        "editorialFingerprint": "648b2be60c6d1b2a0deff9a356ceeb6ec05abb85997d058b7ea89b0c00e7c75e",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/s085-publicacio-v1.webp",
+        "illustrationSha256": "4b3d1e5c8a7df1b711746f57e7b1b72725067537d17c56099afe50e7a5c6bc48",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-26",
+        "audioChanged": false
       }
     },
     {
       "code": "S093",
       "activity": "ca-S093",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s093-mixed-v1.mp3",
       "introFile": "s093-mixed-v1-intro.mp3",
       "bodyFile": "s093-mixed-v1-cos.mp3",
@@ -16509,12 +16569,27 @@
         ],
         "originalRawFile": "s093-t01.wav",
         "patchedFile": "patched-source.wav"
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-26",
+        "validatedBy": "docent",
+        "confirmation": "Docent 26/11: «Pugem a definitiu: S088, S041, S085, S090, S093, S118, S109, S017 i S081».",
+        "audioSha256": "11cbdbedd65133ee4b26dd7a6cbd6680b601a026b9e5d26391fd77eaf98a31b2",
+        "editorialFingerprint": "73d15e8bf78166ca9866bc38dcd0768e2679e1b294c994b7f34aabd22bcc3ed1",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/s093-publicacio-v1.webp",
+        "illustrationSha256": "760675c591d172f306d25b6a6667a4c62567ef3f5a1bc5954ea026fa6cc688a7",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-26",
+        "audioChanged": false
       }
     },
     {
       "code": "S109",
       "activity": "ca-S109",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s109-mixed-v1.mp3",
       "introFile": "s109-mixed-v1-intro.mp3",
       "bodyFile": "s109-mixed-v1-cos.mp3",
@@ -16849,12 +16924,27 @@
         ],
         "originalRawFile": "s109-t01.wav",
         "patchedFile": "patched-source.wav"
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-26",
+        "validatedBy": "docent",
+        "confirmation": "Docent 26/11: «Pugem a definitiu: S088, S041, S085, S090, S093, S118, S109, S017 i S081».",
+        "audioSha256": "9232b5dbadf553883507825087aa3eb4915001067f643bdd4dead78d801f654a",
+        "editorialFingerprint": "64b5b389a52c6398c3219295d426488688a778874bb50cfe181b9e17b825023e",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/s109-publicacio-v1.webp",
+        "illustrationSha256": "95f7fa9fb9b13115cb09b9341441707ea13ff3589726eb3b10f4a35489e4eebf",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-26",
+        "audioChanged": false
       }
     },
     {
       "code": "S088",
       "activity": "ca-S088",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s088-mixed-v1.mp3",
       "introFile": "s088-mixed-v1-intro.mp3",
       "bodyFile": "s088-mixed-v1-cos.mp3",
@@ -17080,12 +17170,27 @@
         ],
         "originalRawFile": "s088-t01.wav",
         "patchedFile": "patched-source.wav"
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-26",
+        "validatedBy": "docent",
+        "confirmation": "Docent 26/11: «Pugem a definitiu: S088, S041, S085, S090, S093, S118, S109, S017 i S081».",
+        "audioSha256": "9c104980714d1e802579179ea9ffd398b85d05a095c19922fe077ba184621955",
+        "editorialFingerprint": "000959a9a81a5bde4459f3ea6b02a6d64396d2ea3d45100e0d70410e3749cd69",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/s088-publicacio-v1.webp",
+        "illustrationSha256": "5c3fd400aa2c8ae348f6094ae6ebdc2e8fe6e905fafb748ee8fe6de9cd62fb9a",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-26",
+        "audioChanged": false
       }
     },
     {
       "code": "S081",
       "activity": "ca-S081",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s081-mixed-v1.mp3",
       "introFile": "s081-mixed-v1-intro.mp3",
       "bodyFile": "s081-mixed-v1-cos.mp3",
@@ -17317,12 +17422,27 @@
         ],
         "originalRawFile": "patched-source.wav",
         "patchedFile": "patched-source.wav"
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-26",
+        "validatedBy": "docent",
+        "confirmation": "Docent 26/11: «Pugem a definitiu: S088, S041, S085, S090, S093, S118, S109, S017 i S081».",
+        "audioSha256": "aa6363a4bb2b44510e323de8cda53bd4317ded3441d41fc029c1fbee5a02973f",
+        "editorialFingerprint": "2b7f25545eeffbcf2563a55a5be43ec69074468f3d4c2ca92768a2ee3ffb9438",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/s081-publicacio-v1.webp",
+        "illustrationSha256": "e9118359e96df7ce166dafbeeb1cfd14bf1f6633a2d77ee252d9db7c9186961b",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-26",
+        "audioChanged": false
       }
     },
     {
       "code": "S090",
       "activity": "ca-S090",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s090-mixed-v1.mp3",
       "introFile": "s090-mixed-v1-intro.mp3",
       "bodyFile": "s090-mixed-v1-cos.mp3",
@@ -17515,6 +17635,21 @@
         "originalBodyFile": "s090-t01.wav",
         "originalRawFile": "s090-t01.wav",
         "patchedFile": "patched-source.wav"
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-26",
+        "validatedBy": "docent",
+        "confirmation": "Docent 26/11: «Pugem a definitiu: S088, S041, S085, S090, S093, S118, S109, S017 i S081».",
+        "audioSha256": "ae0ff134a6f47704490c5f151afb10335488b37724cc092a9c332bc1ca25041b",
+        "editorialFingerprint": "83ebc4e010d4c7b721247133c07ac28dc8d2644b2e51de3ae2a6b4526601e7b4",
+        "listeningApproval": true
+      },
+      "publicationMaterials": {
+        "illustration": "./assets/images/s090-publicacio-v1.webp",
+        "illustrationSha256": "bbe40d7b58d30218d3b6a2e91ff8dd5984ac6b0938b65fb616a2cc7ad14f4f79",
+        "transcript": "speech-only",
+        "checkedAt": "2026-11-26",
+        "audioChanged": false
       }
     },
     {

@@ -76,7 +76,8 @@ export const dailyMar = [
   }),
   dailyProposal({
     id: 'el-carro-davant-de-la-porta', code: 'S085', title: 'El carro davant de la porta', grade: '3', level: 'middle', genre: 'dialogue',
-    seconds: 79, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s085-publicacio-v1.webp","alt":"La Mar, amb dues bosses, conversa amb una veïna al carrer, al costat d’un carro.","width":1536,"height":1024},
+    seconds: 79, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s085-mixed-v1.mp3', tracks: { introduction: './assets/audio/s085-mixed-v1-intro.mp3', body: './assets/audio/s085-mixed-v1-cos.mp3' },
     fragment: { start: 4.44, seconds: 74 },
     voices: { Mar: 'Erinome', Veïna: 'Despina' }, guestSpeakers: [{ name: 'Veïna', voice: 'Despina', role: 'Veïna de l’edifici · ocasional' }], delivery,

@@ -1,7 +1,7 @@
 {
   "code": "S088",
   "activity": "ca-S088",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s088-mixed-v1.mp3",
   "introFile": "s088-mixed-v1-intro.mp3",
   "bodyFile": "s088-mixed-v1-cos.mp3",
@@ -227,5 +227,20 @@
     ],
     "originalRawFile": "s088-t01.wav",
     "patchedFile": "patched-source.wav"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-26",
+    "validatedBy": "docent",
+    "confirmation": "Docent 26/11: «Pugem a definitiu: S088, S041, S085, S090, S093, S118, S109, S017 i S081».",
+    "audioSha256": "9c104980714d1e802579179ea9ffd398b85d05a095c19922fe077ba184621955",
+    "editorialFingerprint": "000959a9a81a5bde4459f3ea6b02a6d64396d2ea3d45100e0d70410e3749cd69",
+    "listeningApproval": true
+  },
+  "publicationMaterials": {
+    "illustration": "./assets/images/s088-publicacio-v1.webp",
+    "illustrationSha256": "5c3fd400aa2c8ae348f6094ae6ebdc2e8fe6e905fafb748ee8fe6de9cd62fb9a",
+    "transcript": "speech-only",
+    "checkedAt": "2026-11-26",
+    "audioChanged": false
   }
 }

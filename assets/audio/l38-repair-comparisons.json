@@ -7,7 +7,7 @@
       "part": "comiat",
       "text": "Doncs pugem juntes. Entro un moment les bosses i et vinc a ajudar. Els tomàquets ja han viatjat prou per avui.",
       "pronunciation": "Keep adult female Mar/Erinome, in her warm everyday conversational register. Stable natural female tone from the first words Doncs pugem juntes; no sudden deep baritone or change of speaker.",
-      "status": "applied-awaiting-montage-listening",
+      "status": "applied-validated",
       "originalFile": "assets/audio/repairs/l38-s085-comiat-original.mp3",
       "candidateFile": "assets/audio/repairs/l38-s085-comiat-prova.mp3",
       "sourceRawSha256": "d57bbc3b3b2098192643be92fb576b7712479884661730de76a9bd6452161333",
@@ -19,14 +19,16 @@
       "confirmation": "Docent 26/11: esmena comiat de S085 validada; incorporar la presa exacta.",
       "candidateSha256": "855125a3cff01c45f609fed1bf5a7e94474a79653bc97cbc78e1aecf42f86773",
       "appliedAt": "2026-11-26",
-      "appliedFile": "assets/audio/s085-mixed-v1.mp3"
+      "appliedFile": "assets/audio/s085-mixed-v1.mp3",
+      "closedAt": "2026-11-26",
+      "validatedAt": "2026-11-26"
     },
     {
       "code": "S093",
       "part": "confirmar",
       "text": "Ah! Doncs el directe, el de les deu i vint-i-cinc. Jo m’havia fixat només en l’hora de sortir. La meva amiga ja ve expressament a buscar-me i no la vull fer esperar.",
       "pronunciation": "In deu i vint-i-cinc, pronounce both written I sounds. Vint-i-cinc must include the I between vint and cinc, never vint-cinc. Say the full number fluently, not by spelling it or reading this instruction. Keep the same adult female Mar voice throughout.",
-      "status": "applied-awaiting-montage-listening",
+      "status": "applied-validated",
       "originalFile": "assets/audio/repairs/l38-s093-confirmar-original.mp3",
       "candidateFile": "assets/audio/repairs/l38-s093-confirmar-prova.mp3",
       "sourceRawSha256": "d57bbc3b3b2098192643be92fb576b7712479884661730de76a9bd6452161333",
@@ -38,7 +40,9 @@
       "confirmation": "Docent 26/11: esmena confirmar de S093 validada; incorporar la presa exacta.",
       "candidateSha256": "21be79cdc3e31b9d182ed13c43c3d80e1622961ea8ef7171cf2a6b6c1b465b93",
       "appliedAt": "2026-11-26",
-      "appliedFile": "assets/audio/s093-mixed-v1.mp3"
+      "appliedFile": "assets/audio/s093-mixed-v1.mp3",
+      "closedAt": "2026-11-26",
+      "validatedAt": "2026-11-26"
     },
     {
       "code": "S102",

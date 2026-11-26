@@ -83,7 +83,8 @@ export const cinque = [
   }),
   proposal({
     id: 'preparem-una-exposicio-itinerant', code: 'S017', title: 'Preparem una exposició itinerant', grade: '5', level: 'advanced', genre: 'instructions',
-    seconds: 174, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s017-publicacio-v1.webp","alt":"La Mireia, la Laia i en Biel comenten un projecte amb un panell en blanc a l’aula.","width":1536,"height":1024},
+    seconds: 174, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s017-breaths-v2.mp3', tracks: { introduction: './assets/audio/s017-breaths-v2-intro.mp3', body: './assets/audio/s017-breaths-v2-cos.mp3' },
     fragment: { start: 5.444999999999999, seconds: 168 },
     summary: 'La Mireia s’asseu amb el grup de la Laia i en Biel per ordenar una exposició que ha de viatjar, mentre la resta de la classe treballa en altres projectes.',

@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-26",
+  "tool": "image_gen built-in",
+  "code": "S093",
+  "file": "s093-publicacio-v1.webp",
+  "alt": "La Mar demana informació a una treballadora al taulell d’una estació de tren.",
+  "width": 1536,
+  "height": 1024,
+  "references": [
+    "../characters/mar-model-sheet-v1.webp"
+  ],
+  "prompt": "Use case: illustration-story. Create ONE contextual scene for a Sentit educational worksheet and catalogue, landscape 3:2, 1536x1024. The supplied character model sheets are appearance and style references only, not scene edit targets: retain their exact identities, ages, faces, hair and clothes, never their labels or multi-view layout. Refined naturalistic fine ink and softly textured watercolor, warm light, muted sage/ochre/charcoal, paper fading into generous pure-white margins on all four sides. One coherent scene, clear at 80mm printed width, natural hands and active believable gestures. NO text, letters, numbers, symbols, labels, speech bubbles, logos or watermark. Establish the specific situation without illustrating answers or final decisions. Reference order: image 1 = mar. Scene: At an unfamiliar railway-station information counter, Mar sets a small travel bag beside her and leans forward to ask a practical question. An occasional female information clerk, dark skin and short straight hair, plain blue uniform cardigan, listens from behind the counter with a welcoming open hand. A softly suggested station concourse through glass behind, no train visible. No clocks, screens, numbers, routes, tickets, track signs, destinations or map.",
+  "sourceImage": "exec-ae29161e-f895-4a1d-9445-83287a4778cc.png",
+  "sourceImageSha256": "ccd7870fa693c1fe9356c2c9375374abd5fb03c11748ecb5d3eaa233df5ffe05",
+  "encoding": "WebP quality 88; original composition and dimensions retained. Original PNG preserved locally."
+}

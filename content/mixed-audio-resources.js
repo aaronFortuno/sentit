@@ -41,7 +41,7 @@ export const mixedAudioResources = {
     "recipe": "tools/remount-news-common.cjs"
   },
   "ca-S017": {
-    "voices": "Mireia: Aoede; Laia: Leda; Biel: Puck. Preses originals conservades; tres personatges intercalats a partir de dues preses compatibles. Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Mireia: Aoede; Laia: Leda; Biel: Puck. Preses originals conservades; tres personatges intercalats a partir de dues preses compatibles. Veus i muntatge validats definitivament pel docent; sense canvis de ritme.",
     "sounds": "Classroom Ambience · Tallis0410 (CC0 1.0), molt baix sota la conversa. Dragging chair on concrete floor · funkysandwich (CC0 1.0), fora de la parla. Page turned · Beussa (CC0 1.0), fora de la parla.",
     "recipe": "tools/render-mixed-take.cjs"
   },
@@ -158,7 +158,7 @@ export const mixedAudioResources = {
     "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S041": {
-    "voices": "Mireia: Aoede; Biel: Puck. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme. Torn curt pendent de comprovar a l’oïda: «Hi vaig ara?»; el reconeixement local no el confirma.",
+    "voices": "Mireia: Aoede; Biel: Puck. Preses originals conservades; Veus i muntatge validats definitivament pel docent; sense canvis de ritme.",
     "sounds": "Classroom Ambience · Tallis0410 (CC0 1.0), molt baix sota la conversa. Dragging chair on concrete floor · funkysandwich (CC0 1.0), fora de la parla.",
     "recipe": "tools/render-reviewed-revision.cjs",
     "currentRevision": "s041-repair-v3"
@@ -384,7 +384,7 @@ export const mixedAudioResources = {
     "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S081": {
-    "voices": "Biel: Puck; Elies: Algieba. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Biel: Puck; Elies: Algieba. Preses originals conservades; Veus i muntatge validats definitivament pel docent; sense canvis de ritme.",
     "sounds": "Soft Room Tone · callmethefoo (CC0 1.0), molt baix sota la conversa.",
     "recipe": "tools/render-mixed-take.cjs",
     "currentRevision": "s081-mixed-v1"
@@ -406,7 +406,7 @@ export const mixedAudioResources = {
     "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S085": {
-    "voices": "Mar: Erinome; Veïna: Despina. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Mar: Erinome; Veïna: Despina. Preses originals conservades; Veus i muntatge validats definitivament pel docent; sense canvis de ritme.",
     "sounds": "City Ambience Quiet Neighborhood · soaress (CC0 1.0), molt baix sota la conversa.",
     "recipe": "tools/render-mixed-take.cjs",
     "currentRevision": "s085-mixed-v1"
@@ -422,7 +422,7 @@ export const mixedAudioResources = {
     "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S088": {
-    "voices": "Ferran: Algenib; Bibliotecari: Achird. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Ferran: Algenib; Bibliotecari: Achird. Preses originals conservades; Veus i muntatge validats definitivament pel docent; sense canvis de ritme.",
     "sounds": "College Hallway ambience · Bexhillcollege (CC0 1.0), molt baix sota la conversa.",
     "recipe": "tools/render-mixed-take.cjs",
     "currentRevision": "s088-mixed-v1"
@@ -433,7 +433,7 @@ export const mixedAudioResources = {
     "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S090": {
-    "voices": "Laia: Leda; Biel: Puck. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Laia: Leda; Biel: Puck. Preses originals conservades; Veus i muntatge validats definitivament pel docent; sense canvis de ritme.",
     "sounds": "City Ambience Quiet Neighborhood · soaress (CC0 1.0), molt baix sota la conversa.",
     "recipe": "tools/render-mixed-take.cjs",
     "currentRevision": "s090-mixed-v1"
@@ -449,7 +449,7 @@ export const mixedAudioResources = {
     "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S093": {
-    "voices": "Mar: Erinome; Informadora: Despina. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Mar: Erinome; Informadora: Despina. Preses originals conservades; Veus i muntatge validats definitivament pel docent; sense canvis de ritme.",
     "sounds": "College Hallway ambience · Bexhillcollege (CC0 1.0), molt baix sota la conversa.",
     "recipe": "tools/render-mixed-take.cjs",
     "currentRevision": "s093-mixed-v1"
@@ -516,7 +516,7 @@ export const mixedAudioResources = {
     "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S109": {
-    "voices": "Aina: Zephyr; Ferran: Algenib. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Aina: Zephyr; Ferran: Algenib. Preses originals conservades; Veus i muntatge validats definitivament pel docent; sense canvis de ritme.",
     "sounds": "City Ambience Quiet Neighborhood · soaress (CC0 1.0), molt baix sota la conversa.",
     "recipe": "tools/render-mixed-take.cjs",
     "currentRevision": "s109-mixed-v1"
@@ -562,7 +562,7 @@ export const mixedAudioResources = {
     "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S118": {
-    "voices": "Mar: Erinome. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Mar: Erinome. Preses originals conservades; Veus i muntatge validats definitivament pel docent; sense canvis de ritme.",
     "sounds": "Breaking News Background Music · Grand_Project (Pixabay Content License). Entrada, base contínua atenuada sota la parla i sortida; font completa conservada localment, no distribuïda sola.",
     "recipe": "tools/render-mixed-take.cjs"
   },

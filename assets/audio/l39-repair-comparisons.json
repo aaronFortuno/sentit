@@ -7,7 +7,7 @@
       "part": "telefon",
       "text": "Sí, truca abans de venir. T’ho explicaré per telèfon. Aquest matí ja he comprovat la guitarra de préstec i només falta que la guardem a la funda.",
       "pronunciation": "Pronounce funda /ˈfun.də/ with stressed U and audible N followed by D: FUN-da, never funa or fona. Keep the adult male Elies voice; do not read this instruction. Prior renderings omitted D or changed U to O. Give the N-D transition enough articulation to hear both consonants, without adding a vowel or spelling letters aloud.",
-      "status": "applied-validated-partial",
+      "status": "applied-validated",
       "originalFile": "assets/audio/repairs/l39-s081-telefon-original.mp3",
       "candidateFile": "assets/audio/repairs/l39-s081-telefon-prova.mp3",
       "sourceRawSha256": "6b4382326bc34f447e016e085b7ff82937c642a245eeb59de1fc3cf7f531076a",
@@ -19,7 +19,9 @@
       "confirmation": "Docent 26/11: esmena telefon de S081 validada; incorporar la presa exacta.",
       "candidateSha256": "fb382bbd9dc74b27dac12bb0fe3ed893c7f8e4c4a3eef5812b4b44bededb242a",
       "appliedAt": "2026-11-26",
-      "appliedFile": "assets/audio/s081-voices-review-v2.mp3"
+      "appliedFile": "assets/audio/s081-voices-review-v2.mp3",
+      "closedAt": "2026-11-26",
+      "validatedAt": "2026-11-26"
     },
     {
       "code": "S081",

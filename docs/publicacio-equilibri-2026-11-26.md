@@ -16,10 +16,10 @@ Revisió independent: set imatges, identitats i alts, 40 preguntes obertes/ABCD,
 
 ## Altres peces
 
-- S118: veus aprovades i muntatge de notícies disponible, pendent d’audició.
-- S085 i S093: esmenes validades incorporades i primers muntatges disponibles per escoltar.
-- S041: esmena final validada incorporada al muntatge, amb l’obertura neta conservada; pendent d’audició.
-- S081: primera esmena aplicada a la nova previsualització; només resta el comiat amb funda pendent de re-síntesi.
+- S118: publicada definitivament en el [tancament de nou peces](publicacio-2026-11-26-nou.md).
+- S085 i S093: esmenes i muntatges validats; publicació definitiva en el mateix tancament.
+- S041: esmena i muntatge validats; publicació definitiva amb l’obertura neta conservada.
+- S081: les dues esmenes aplicades i validades en context; muntatge i materials publicats definitivament.
 - S107: nova presa rebuda a L43 per comprovar carro i funda.
 - S070 i S122: regeneracions íntegres rebudes, amb originals preservats, pendents d’audició. [Plans exactes](../content/full-voice-retakes.json).
 

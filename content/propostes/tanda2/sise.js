@@ -45,7 +45,8 @@ export const sise = [
   }),
   proposal({
     id: 'una-reunio-amb-decisions-clares', code: 'S041', title: 'Què farem per portes obertes?', grade: '6', level: 'easy', genre: 'instructions', universeIds: ['amb-mireia'],
-    seconds: 99, status: 'ready-for-review', reviewStatus: 'audio-review',
+    image: {"src":"./assets/images/s041-publicacio-v1.webp","alt":"La Mireia s’atura al costat del pupitre d’en Biel per parlar d’una proposta a classe.","width":1536,"height":1024},
+    seconds: 99, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s041-repair-v3.mp3', tracks: { introduction: './assets/audio/s041-directives-v2-intro.mp3', body: './assets/audio/s041-repair-v3-cos.mp3' },
     fragment: { start: 4.37, seconds: 94 },
     summary: 'En Biel vol fer ràdio per portes obertes, però s’haurà d’espavilar amb el temps i trobar un lloc on se senti bé.',

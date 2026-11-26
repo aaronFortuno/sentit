@@ -1,0 +1,126 @@
+{
+  "reviewer": "revisio_tancament_nou_20261126",
+  "summary": {
+    "passed": 9,
+    "blocked": 0
+  },
+  "rows": [
+    {
+      "code": "S088",
+      "status": "passed",
+      "fingerprint": "000959a9a81a5bde4459f3ea6b02a6d64396d2ea3d45100e0d70410e3749cd69",
+      "imageSha256": "5c3fd400aa2c8ae348f6094ae6ebdc2e8fe6e905fafb748ee8fe6de9cd62fb9a",
+      "notes": [
+        "Ferran coincideix amb el model; escena de biblioteca i llibre neutre parcialment ocult. No es veuen sopes, carnet, títol, punt de llibre, butaca ni termini.",
+        "Il·lustració i alt contextuals, sense text llegible ni dades que donin les respostes.",
+        "6 preguntes obertes i 6 alternatives ABCD contrastades amb transcripció, claus, explicacions i distractors; 7 cites obertes i 7 cites ABCD exactes i vàlides.",
+        "Comprovat reviewScript amb reviewStatus validated: 11 parts parlades, inclosa la presentació; cap acotació, escaleta, marcador de presa ni nota de producció. Font anotada conservada.",
+        "SHA-256 real de la imatge i del màster coincidents amb l’índex de la tanda. Guió, preguntes i àudio validats no modificats."
+      ]
+    },
+    {
+      "code": "S041",
+      "status": "passed",
+      "fingerprint": "a31c1e8d85e2c8ba3ff74825b4a38311acfa56d9863c6ea39d044fb8500da831",
+      "imageSha256": "3cfc8cc63eb893da1e1a2d78a439f518837073deb2f787a66be281ee276292eb",
+      "notes": [
+        "Mireia i Biel coincideixen amb els models; conversa escolar al pupitre, amb grups al fons. Sense equips de ràdio, horaris ni decisions que anticipin respostes.",
+        "Il·lustració i alt contextuals, sense text llegible ni dades que donin les respostes.",
+        "9 preguntes obertes i 9 alternatives ABCD contrastades amb transcripció, claus, explicacions i distractors; 10 cites obertes i 10 cites ABCD exactes i vàlides.",
+        "Comprovat reviewScript amb reviewStatus validated: 17 parts parlades, inclosa la presentació; cap acotació, escaleta, marcador de presa ni nota de producció. Font anotada conservada.",
+        "SHA-256 real de la imatge i del màster coincidents amb l’índex de la tanda. Guió, preguntes i àudio validats no modificats."
+      ]
+    },
+    {
+      "code": "S085",
+      "status": "passed",
+      "fingerprint": "648b2be60c6d1b2a0deff9a356ceeb6ec05abb85997d058b7ea89b0c00e7c75e",
+      "imageSha256": "4b3d1e5c8a7df1b711746f57e7b1b72725067537d17c56099afe50e7a5c6bc48",
+      "notes": [
+        "Mar coincideix amb el model; conversa quotidiana amb veïna ocasional, dues bosses i carro secundari. Sense pany, obstacle, fanal, escala, furgoneta ni ubicació final que resolguin les preguntes.",
+        "Il·lustració i alt contextuals, sense text llegible ni dades que donin les respostes.",
+        "6 preguntes obertes i 6 alternatives ABCD contrastades amb transcripció, claus, explicacions i distractors; 9 cites obertes i 9 cites ABCD exactes i vàlides.",
+        "Comprovat reviewScript amb reviewStatus validated: 11 parts parlades, inclosa la presentació; cap acotació, escaleta, marcador de presa ni nota de producció. Font anotada conservada.",
+        "SHA-256 real de la imatge i del màster coincidents amb l’índex de la tanda. Guió, preguntes i àudio validats no modificats."
+      ]
+    },
+    {
+      "code": "S090",
+      "status": "passed",
+      "fingerprint": "83ebc4e010d4c7b721247133c07ac28dc8d2644b2e51de3ae2a6b4526601e7b4",
+      "imageSha256": "bbe40d7b58d30218d3b6a2e91ff8dd5984ac6b0938b65fb616a2cc7ad14f4f79",
+      "notes": [
+        "Laia i Biel coincideixen amb els models; pausa al parc amb la pilota aturada. Sense camí, cotxet, banc, font, paret ni trajecte de passada que resolguin les preguntes.",
+        "Il·lustració i alt contextuals, sense text llegible ni dades que donin les respostes.",
+        "6 preguntes obertes i 6 alternatives ABCD contrastades amb transcripció, claus, explicacions i distractors; 8 cites obertes i 8 cites ABCD exactes i vàlides.",
+        "Comprovat reviewScript amb reviewStatus validated: 11 parts parlades, inclosa la presentació; cap acotació, escaleta, marcador de presa ni nota de producció. Font anotada conservada.",
+        "SHA-256 real de la imatge i del màster coincidents amb l’índex de la tanda. Guió, preguntes i àudio validats no modificats."
+      ]
+    },
+    {
+      "code": "S093",
+      "status": "passed",
+      "fingerprint": "73d15e8bf78166ca9866bc38dcd0768e2679e1b294c994b7f34aabd22bcc3ed1",
+      "imageSha256": "760675c591d172f306d25b6a6667a4c62567ef3f5a1bc5954ea026fa6cc688a7",
+      "notes": [
+        "Mar coincideix amb el model; taulell d’informació d’estació i informadora ocasional. Sense rellotges, horaris, bitllets, pantalles, andanes numerades ni recorreguts.",
+        "Il·lustració i alt contextuals, sense text llegible ni dades que donin les respostes.",
+        "8 preguntes obertes i 8 alternatives ABCD contrastades amb transcripció, claus, explicacions i distractors; 9 cites obertes i 9 cites ABCD exactes i vàlides.",
+        "Comprovat reviewScript amb reviewStatus validated: 12 parts parlades, inclosa la presentació; cap acotació, escaleta, marcador de presa ni nota de producció. Font anotada conservada.",
+        "SHA-256 real de la imatge i del màster coincidents amb l’índex de la tanda. Guió, preguntes i àudio validats no modificats."
+      ]
+    },
+    {
+      "code": "S118",
+      "status": "passed",
+      "fingerprint": "7fc7b8988d3f9b8664bc1b53f04a11edff9cbb1cbefb376784338a33fc416190",
+      "imageSha256": "97c2873bf4f29452e26e3d5fe77465436f0aaca3d23ec704f3cdf42f3d71f2f9",
+      "notes": [
+        "Mar coincideix amb el model; reportatge a l’arxiu amb capsa tancada i carpetes neutres. Sense fotografies, dates, noms, ordinador, originals retornats ni trobada veïnal.",
+        "Il·lustració i alt contextuals, sense text llegible ni dades que donin les respostes.",
+        "5 preguntes obertes i 5 alternatives ABCD contrastades amb transcripció, claus, explicacions i distractors; 7 cites obertes i 7 cites ABCD exactes i vàlides.",
+        "Comprovat reviewScript amb reviewStatus validated: 4 parts parlades, inclosa la presentació; cap acotació, escaleta, marcador de presa ni nota de producció. Font anotada conservada.",
+        "SHA-256 real de la imatge i del màster coincidents amb l’índex de la tanda. Guió, preguntes i àudio validats no modificats."
+      ]
+    },
+    {
+      "code": "S109",
+      "status": "passed",
+      "fingerprint": "64b5b389a52c6398c3219295d426488688a778874bb50cfe181b9e17b825023e",
+      "imageSha256": "95f7fa9fb9b13115cb09b9341441707ea13ff3589726eb3b10f4a35489e4eebf",
+      "notes": [
+        "Aina i Ferran coincideixen amb els models; conversa en entorn de parc. L’enquadrament amaga calçat i terra; no mostra fang, ànecs, estany, itinerari ni hores.",
+        "Il·lustració i alt contextuals, sense text llegible ni dades que donin les respostes.",
+        "7 preguntes obertes i 7 alternatives ABCD contrastades amb transcripció, claus, explicacions i distractors; 11 cites obertes i 11 cites ABCD exactes i vàlides.",
+        "Comprovat reviewScript amb reviewStatus validated: 11 parts parlades, inclosa la presentació; cap acotació, escaleta, marcador de presa ni nota de producció. Font anotada conservada.",
+        "SHA-256 real de la imatge i del màster coincidents amb l’índex de la tanda. Guió, preguntes i àudio validats no modificats."
+      ]
+    },
+    {
+      "code": "S017",
+      "status": "passed",
+      "fingerprint": "b49a1c85a8ce15189d30dc4f527d1ed97ed0005c9f42150be6cda0d826ef454b",
+      "imageSha256": "83fc49c01bc50872e096152a64602a87249840bd6e7ed36902c00c06da376db1",
+      "notes": [
+        "Mireia, Laia i Biel coincideixen amb els models; projecte d’aula amb panell en blanc. Sense textos, fotos, cintes, etiquetes, cola humida, embalatge, permisos ni transport.",
+        "Il·lustració i alt contextuals, sense text llegible ni dades que donin les respostes.",
+        "8 preguntes obertes i 8 alternatives ABCD contrastades amb transcripció, claus, explicacions i distractors; 15 cites obertes i 15 cites ABCD exactes i vàlides.",
+        "Comprovat reviewScript amb reviewStatus validated: 21 parts parlades, inclosa la presentació; cap acotació, escaleta, marcador de presa ni nota de producció. Font anotada conservada.",
+        "SHA-256 real de la imatge i del màster coincidents amb l’índex de la tanda. Guió, preguntes i àudio validats no modificats."
+      ]
+    },
+    {
+      "code": "S081",
+      "status": "passed",
+      "fingerprint": "2b7f25545eeffbcf2563a55a5be43ec69074468f3d4c2ca92768a2ee3ffb9438",
+      "imageSha256": "e9118359e96df7ce166dafbeeb1cfd14bf1f6633a2d77ee252d9db7c9186961b",
+      "notes": [
+        "Biel i Elies coincideixen amb els models. La funda tancada té cos ample amb cintura, mànec llarg i proporcions plausibles de guitarra respecte d’en Biel, sense mostrar selecció, mida comparada, peça de reparació, paquet, dates ni full llegible.",
+        "Il·lustració i alt contextuals, sense text llegible ni dades que donin les respostes.",
+        "8 preguntes obertes i 8 alternatives ABCD contrastades amb transcripció, claus, explicacions i distractors; 11 cites obertes i 13 cites ABCD exactes i vàlides.",
+        "Comprovat reviewScript amb reviewStatus validated: 15 parts parlades, inclosa la presentació; cap acotació, escaleta, marcador de presa ni nota de producció. Font anotada conservada.",
+        "SHA-256 real de la imatge i del màster coincidents amb l’índex de la tanda. Guió, preguntes i àudio validats no modificats."
+      ]
+    }
+  ]
+}

@@ -88,3 +88,7 @@ Publicacions del 21/11: S027, S032 i S038/S038D tenen il·lustracions contextual
 - S050: [La balança marca massa](la-balanca-marca-massa-v1.webp), Laia i Pau al mercat, sense fruita, bossa, safata o balança. [Prompt i referències](s050-publication-v1.prompt.json).
 
 S009 i S050: generació integrada amb models de personatge; 1536 × 1024, WebP qualitat 88, sense retall. Tancament 23/11/2026.
+
+## Nou escenes de publicació · 26/11/2026
+
+S088, S041, S085, S090, S093, S118, S109, S017 i S081. Generació integrada amb els models recurrents, 1536 × 1024, WebP qualitat 88 sense retall; PNG originals conservats localment. Cada `sXXX-publicacio-v1.webp` disposa del prompt exacte i referències a `sXXX-publication.prompts.json`. [Índex de fitxers i revisió independent](../../docs/publicacio-2026-11-26-nou.md).
