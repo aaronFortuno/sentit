@@ -1,5 +1,6 @@
 export const strings = {
   ca: {
+    releaseAudioArchive: '303 MP3 antics de treball passen a l’arxiu local: uns 279 MB menys publicats. Màsters, sessions pautades, revisions pendents i recursos reutilitzables intactes. Comprovació de publicació incorporada; historial de Git encara sense reescriure.',
     reviewMusicSelection: 'Veus validades · Tria musical pendent',
     releaseNarrationMusic: 'S130 amb les veus validades; muntatge pendent de triar el fons. Nou mostres musicals de biblioteca per comparar: tres per a faules, tres per a llegendes i tres per a mites, amb fonts i llicències. Inventari de mida i previsió per a 600 exercicis documentats.',
     compareNarrationMusic: 'Músiques de narració · propostes',
@@ -351,6 +352,7 @@ export const strings = {
     sessionEnded: 'Sessió acabada', remainingTime: 'Temps restant',
   },
   es: {
+    releaseAudioArchive: '303 MP3 antiguos de trabajo pasan al archivo local: unos 279 MB menos publicados. Másteres, sesiones pautadas, revisiones pendientes y recursos reutilizables intactos. Comprobación de publicación incorporada; historial de Git todavía sin reescribir.',
     reviewMusicSelection: 'Voces validadas · Elección musical pendiente',
     releaseNarrationMusic: 'S130 con las voces validadas; montaje pendiente de elegir el fondo. Nueve muestras musicales de biblioteca para comparar: tres para fábulas, tres para leyendas y tres para mitos, con fuentes y licencias. Inventario de tamaño y previsión para 600 ejercicios documentados.',
     compareNarrationMusic: 'Músicas de narración · propuestas',

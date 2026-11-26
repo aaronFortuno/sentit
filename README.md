@@ -2,6 +2,8 @@
 
 Banc de comprensió oral d’ortogra.fi. El docent tria una activitat, prepara la fitxa i el solucionari i els imprimeix. L’alumnat respon al paper i escolta l’àudio des del QR o l’enllaç. Web estàtic, sense comptes ni servidor d’aplicació.
 
+[Política d’àudio i neteja del repositori](docs/neteja-audio.md): muntatges vigents, recursos reutilitzables i revisions pendents al web; proves tancades en local. `node tools/public-audio.mjs --apply` sincronitza la publicació sense esborrar originals; `--check` comprova els fitxers abans de pujar. Cap canvi d’allotjament. Reescriure l’historial remot és un pas separat que requereix aprovació concreta.
+
 [Músiques per a faules, llegendes i mites](docs/musiques-tradicio.md): nou mostres de biblioteca, tres per univers, al [comparador integrat](https://sentit.ortogra.fi/?musiques=mites-antiguitat). S130 té les veus validades i espera la tria musical abans del muntatge. [Mida actual i previsió per a 600 exercicis](docs/mida-i-creixement.md): inventari local, sense eliminar originals ni canviar l’allotjament.
 
 **Doble format a tot el catàleg:** 150 peces, 1.076 preguntes: 1.072 alternatives ABCD i 4 obertes justificades. El format general i les excepcions es desen entre sessions i col·leccions. [Cobertura](docs/preguntes-abcd-seguiment.md) · [Criteris](docs/preguntes-abcd.md). El pilot conserva l’aprovació docent; la resta d’alternatives continua pendent del seu vistiplau.

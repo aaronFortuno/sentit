@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.123 · 26 de novembre de 2026
+
+- Deixen de publicar-se 303 MP3 antics de proves i esmenes tancades, uns 279 MB. Tots conservats a les ubicacions de treball i en un arxiu local amb empremtes verificades; còpia completa de l’historial. Sense reescriure encara Git ni alterar màsters, preguntes o validacions.
+- Màsters vigents, pistes de sessió pautada, comparacions pendents, fonts, músiques i sintonies conservats. Les pàgines històriques de proves enllacen al material actual quan una presa queda arxivada.
+- Llista de publicació d’àudio i comprovació abans de pujar, per evitar tornar a publicar proves tancades. Política documentada i continuïtat a GitHub Pages; reduir l’historial és un pas separat.
+
 ## 0.1.122 · 26 de novembre de 2026
 
 - S130: veus validades pel docent, muntatge pendent de tria musical. Estat, card i seguiment ho distingeixen d’una audició encara pendent.

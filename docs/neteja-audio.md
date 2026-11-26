@@ -1,0 +1,62 @@
+# Àudio de servei i arxiu de producció
+
+Decisió docent del **26/11/2026**: mantenir l’allotjament a GitHub Pages i optimitzar el repositori. Publicar els muntatges vigents, efectes, músiques, sintonies i locucions reutilitzables. Les preses i proves antigues es conserven en local.
+
+## Neteja actual, sense reescriure l’historial
+
+Base: `b9241df` · 150 activitats, 138 amb àudio. Inventari semàntic dels àudios que utilitzen el catàleg, el reproductor, les guies, les comparacions pendents i el registre de fonts.
+
+| Resultat | Fitxers | Espai |
+| --- | ---: | ---: |
+| Àudio publicat abans | 762 | 671,62 MB |
+| Àudio vigent i reutilitzable conservat | 459 | 392,69 MB |
+| MP3 antics que deixen de publicar-se | **303** | **278,93 MB** |
+
+L’arbre publicable baixa d’uns **747 a 468 MB**, aproximadament un **37%**. No és encara el 70–80%: es conserven els 130 muntatges, les seves 260 pistes de títol/cos i els recursos compartits. No es perd qualitat ni es recomprimeixen enregistraments.
+
+També es conserven temporalment les veus i esmenes que encara es poden escoltar als controls de revisió, i els muntatges pendents d’audició. Això permet continuar les validacions al web. Quan es tanquen, les còpies de revisió passen a locals amb la mateixa eina.
+
+Els WAV crus de Gemini **ja eren fora de Git**, a `../output/sentit-primera-tanda/`. No són la causa d’aquests 279 MB: són MP3 de revisió, comparacions i versions substituïdes. Les pàgines històriques de proves indiquen que les preses arxivades ja no es reprodueixen públicament i enllacen al material vigent.
+
+## Còpies i recuperació
+
+Abans de la neteja s’ha creat i verificat un **Git bundle amb tot l’historial**, amb les tres referències locals del commit base:
+
+`../output/sentit-cleanup-20261126/before-cleanup.bundle`
+
+Els 303 MP3 tenen una còpia addicional, comprovada individualment amb SHA-256, i un manifest a:
+
+`../output/sentit-production-archive/2026-11-26/manifest.json`
+
+Es mantenen també a les seves ubicacions de treball originals, ara ignorades per Git, perquè els generadors i remuntatges locals continuïn funcionant. `git rm --cached` els treu del proper commit sense esborrar-los del disc. Un clon nou contindrà només els fitxers de servei; per produir o refer àudios caldrà també recuperar l’arxiu local de producció.
+
+## Evitar que torni a créixer el web amb proves velles
+
+1. `node tools/public-audio.mjs`: veure què s’ha de conservar i què es pot arxivar.
+2. `node tools/public-audio.mjs --apply`: copiar i verificar les preses antigues fora del repo, actualitzar `assets/audio/.gitignore` i el manifest `content/public-audio.json`, retirar només el seguiment de Git i substituir reproductors històrics que apuntarien a arxius locals.
+3. Afegir els fitxers vigents a Git i comprovar `node tools/public-audio.mjs --check`.
+4. Fer les proves en una còpia neta dels fitxers seguits: una prova només a l’arbre local podria trobar accidentalment un MP3 que ja no es publica.
+
+La selecció conserva fitxers concrets, no l’arbre complet de metadades històriques. Només publica les comparacions d’esmena encara actives; un `previousAudio`, una esmena rebutjada o una anotació de procedència no obliga a continuar publicant aquell àudio.
+
+## Historial de Git: segon pas separat
+
+Eliminar un fitxer del commit actual allibera el lloc publicat, però **Git encara en conserva les versions antigues**. Per reduir també la descàrrega del repositori cal reescriure l’historial, per exemple amb [git-filter-repo](https://github.com/newren/git-filter-repo), conservant el codi i només les rutes d’àudio que continuen en servei.
+
+Procediment preparable en una còpia local independent:
+
+1. Partir d’un clon local complet amb còpia de seguretat verificada.
+2. Retirar de tots els commits les rutes d’àudio que no formen part de la llista de servei actual. No esborrar el codi, les aprovacions, els manifests ni els crèdits.
+3. Comprovar la integritat de Git, la igualtat del contingut actual, els controls de reproducció i les mides abans/després.
+4. Amb aprovació explícita, substituir únicament `main` remot protegint-se contra canvis nous amb `--force-with-lease` i el SHA remot esperat. No fer un `--mirror` indiscriminat.
+5. Sincronitzar la còpia de treball i qualsevol altre agent o clon perquè no tornin a introduir l’historial antic.
+
+Els identificadors dels commits afectats canvien. Les còpies externes, forquilles i referències internes de GitHub poden continuar conservant objectes antics; la recollida d’objectes del servidor no és immediata ni controlable des d’aquí. **No prometem un esborrament immediat de totes les còpies a GitHub.** [Explicació oficial dels efectes de reescriure l’historial](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository).
+
+No hi ha una urgència per un tall rígid del repositori a 1 GB: és una mida recomanada per a Pages. El límit de **1 GB del lloc publicat** sí que és diferent. [Límits de Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits) · [Mides recomanades de repositori](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github).
+
+## Objectiu de 600 exercicis
+
+La neteja de proves redueix l’excés actual, però no resol per si sola la duplicació de màster i pistes separades: aquestes dues representacions sumarien uns **1,57 GB** per a 600 exercicis amb la mitjana actual. La següent optimització és servir **una sola representació sonora** i adaptar-ne el reproductor, conservant totes les funcions i els marges de consonants. Un màster per exercici serien uns **785 MB**, més imatges i recursos comuns; caldrà deixar marge i mesurar de nou.
+
+Aquesta adaptació no forma part de la neteja de proves: encara no s’han retirat les pistes separades ni alterat el funcionament de la sessió pautada.
