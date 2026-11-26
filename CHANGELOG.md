@@ -2,6 +2,8 @@
 
 ## 0.1.124 · 26 de novembre de 2026
 
+- Tancament de publicació unificat: prepara les pistes, retira material de treball tancat, comprova contingut i actualitza seguiment. Arxiu local amb reutilització per empremta entre dates, sense duplicar els mateixos MP3 cada dia. Auditoria local de material antic a Git per agrupar purgues; cap aprovació ni reescriptura d’historial automàtica.
+
 - Reproducció modular del títol i el relat amb una sola barra de temps per al docent: avançar i retrocedir entre pistes, pausa, represa, inici de nou, ritme amb preservació de to i reintent de càrrega. La sessió pautada, la prova completa i els QR simples utilitzen les mateixes pistes separades.
 - Els 130 muntatges complets equivalents deixen de publicar-se i es conserven en local: uns 170 MB addicionals alliberats de l’arbre públic, que baixa a uns 298 MB. Es mantenen les 260 pistes de servei, recursos comuns i revisions pendents. Sense recomprimir, regenerar veus ni canviar guions o validacions.
 - Durades i empremtes de totes les pistes registrades; procés de publicació adaptat perquè els nous màsters complets continuïn en local. Comprovacions de la línia de temps, sessions, empremtes i navegador sobre una còpia neta.

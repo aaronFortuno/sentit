@@ -42,6 +42,8 @@ Es mantenen també a les seves ubicacions de treball originals, ara ignorades pe
 
 ## Evitar que torni a créixer el web amb proves velles
 
+El procés següent queda integrat en un pas habitual: `node tools/prepare-publication.mjs --apply` després del tancament de materials; després d’afegir a Git els canvis, `--check` abans de publicar. El docent continua validant el material; la gestió de fitxers forma part de la feina de l’agent.
+
 1. `node tools/public-audio.mjs`: veure què s’ha de conservar i què es pot arxivar.
 2. `node tools/public-audio.mjs --apply`: copiar i verificar les preses antigues fora del repo, actualitzar `assets/audio/.gitignore` i el manifest `content/public-audio.json`, retirar només el seguiment de Git i substituir reproductors històrics que apuntarien a arxius locals.
 3. Afegir els fitxers vigents a Git i comprovar `node tools/public-audio.mjs --check`.
@@ -49,7 +51,13 @@ Es mantenen també a les seves ubicacions de treball originals, ara ignorades pe
 
 La selecció conserva fitxers concrets, no l’arbre complet de metadades històriques. Només publica les comparacions d’esmena encara actives; un `previousAudio`, una esmena rebutjada o una anotació de procedència no obliga a continuar publicant aquell àudio.
 
+**Arxiu sense còpies diàries duplicades.** Les còpies existents es reutilitzen pel seu SHA-256. El manifest de cada data pot apuntar a una còpia anterior o a `objects/<sha256>.mp3`; una gravació modificada conserva una còpia nova. Abans de retirar un fitxer de Git es comprova la integritat de la còpia preservada. Els originals de producció es mantenen al seu lloc. Proves automàtiques: `node tools/check-publication-automation.mjs`.
+
 ## Historial de Git: segon pas separat
+
+`node tools/audit-audio-history.mjs` prepara un informe **local i de lectura** de les rutes d’àudio històriques que ja no formen part del manifest de servei. Distingeix si encara s’han de retirar del commit actual o si només queden en commits antics. Amb `--output=../output/informe.json` en desa la llista completa per preparar una futura purga. No modifica referències, no contacta amb el remot i no calcula un estalvi comprimit garantit: això es mesura a la còpia filtrada abans d’aplicar una purga. El pas de preparació de publicació ja executa aquesta auditoria.
+
+Agrupar aquest manteniment quan s’hagi acumulat material de diverses peces, en lloc de canviar l’historial després de cada validació. Les purgues requereixen el procediment i autorització indicats a continuació; no s’han activat purgues automàtiques ni tasques programades.
 
 Eliminar un fitxer del commit actual allibera el lloc publicat, però **Git encara en conserva les versions antigues**. Per reduir també la descàrrega del repositori cal reescriure l’historial, per exemple amb [git-filter-repo](https://github.com/newren/git-filter-repo), conservant el codi i només les rutes d’àudio que continuen en servei.
 

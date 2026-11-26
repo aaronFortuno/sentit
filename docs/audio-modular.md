@@ -37,9 +37,13 @@ No es modifiquen el guió, les preguntes, les aprovacions ni les veus. El nou re
 
 ## Arxiu i manteniment
 
+El tancament de cada lectura utilitza `node tools/prepare-publication.mjs --apply` i, després de preparar el commit, `--check`. La neteja de fitxers de servei, les comprovacions, el seguiment i l’informe de l’historial formen part d’aquest mateix pas, sense aprovacions o síntesi automàtiques.
+
 `node tools/public-audio.mjs --apply` genera o actualitza les durades i empremtes, arxiva còpies verificades dels fitxers de producció i retira de Git només els que no necessita la web. Conserva els originals a les seves ubicacions de treball, ara ignorades, i còpies amb manifest a `../output/sentit-production-archive/2026-11-26/`.
 
 Els generadors poden continuar produint el màster complet en local per a futures rectificacions. No s’ha de tornar a afegir al web si ja hi ha títol i relat. Després d’un render nou, actualitzar el registre amb l’eina de publicació abans de pujar. Un clon net pot comprovar o servir el catàleg amb les pistes publicades; per refer un muntatge cal recuperar el material local de producció.
+
+L’arxiu reutilitza còpies idèntiques entre dates a partir de les empremtes; cada dia pot tenir el seu manifest sense tornar a copiar tots els MP3. Les revisions de contingut noves es preserven per separat.
 
 ## Comprovacions
 

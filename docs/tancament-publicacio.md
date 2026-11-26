@@ -1,5 +1,21 @@
 # Tancament dels materials abans de publicar
 
+## Rutina de neteja en cada publicació definitiva
+
+Després de la validació docent i del tancament de materials i incidències, executar `node tools/prepare-publication.mjs --apply`. És part obligatòria del mateix procés de publicació, no una tasca que hagi de fer el docent a mà:
+
+- Genera les durades i empremtes de títol/relat, amb els MP3 ja existents.
+- Selecciona els fitxers que encara necessita el web, incloent revisions pendents d’altres peces i recursos compartits.
+- Arxiva el treball retirat amb empremtes, reutilitzant còpies idèntiques entre dies; conserva també els originals al seu lloc de producció.
+- Retira de la publicació les proves tancades i els màsters complets equivalents, comprova els materials i actualitza el seguiment.
+- Informa de les rutes antigues que encara queden a l’historial de Git.
+
+L’agent afegeix a Git els canvis de la publicació i executa `node tools/prepare-publication.mjs --check` abans de pujar. Aquesta rutina no atorga aprovacions, no genera veus ni fa commits o pushes pel seu compte. Les revisions actives han de constar tancades quan el docent les dona per resoltes; es conserva el registre del que s’ha acceptat o rebutjat.
+
+La retirada del lloc publicat és immediata amb el commit següent. L’eliminació retroactiva de l’historial és un manteniment separat, preparat per l’auditoria i agrupat en lots amb còpia completa i autorització concreta. No es fa un force-push per cada lectura. [Política i recuperació](neteja-audio.md) · [Reproducció modular](audio-modular.md).
+
+## Registre de tancaments
+
 El 23/11/2026, tanda 0.1.92: S007, S013, S024, S029, S045D, S046D, S057, S063, S064, S065, S066, S068, S068D, S069, S069D, S079 i S082 passen a definitives amb aprovació docent explícita. Tretze il·lustracions noves, amb prompts a `assets/images/sXXX-publication.prompts.json`; S045D/S045, S046D/S046, S068/S068D i S069/S069D comparteixen imatge per ser la mateixa història, conservant les aprovacions pròpies de cada àudio. Revisió independent de totes les imatges, alts, preguntes, cites i transcripcions només parlades. Els SHA dels disset MP3 coincideixen amb els aprovats; la prova de timbre de S024 queda validada sense canviar el muntatge.
 
 La validació de l’àudio és l’últim pas docent. Abans de donar una comprensió per definitiva, també s’ha d’acabar la seva presentació. Aquesta comprovació és obligatòria per a les publicacions futures.

@@ -2,6 +2,8 @@
 
 Banc de comprensió oral d’ortogra.fi. El docent tria una activitat, prepara la fitxa i el solucionari i els imprimeix. L’alumnat respon al paper i escolta l’àudio des del QR o l’enllaç. Web estàtic, sense comptes ni servidor d’aplicació.
 
+**Preparació habitual de publicació:** `node tools/prepare-publication.mjs --apply` prepara àudios, arxiu local sense duplicats diaris, comprovacions, seguiment i auditoria de l’historial. Després d’afegir els canvis a Git, `--check` verifica el que es publicarà. Forma part del [tancament de cada lectura](docs/tancament-publicacio.md); no aprova contingut ni reescriu l’historial automàticament.
+
 **Àudio modular:** només es publiquen el títol i el relat separats. L’escolta seguida del docent té una sola barra de temps; la sessió configura locucions, pauses, repeticions, ritme i sintonia amb les mateixes pistes. Els 130 màsters complets equivalents continuen en local: uns 170 MB menys publicats i arbre públic d’uns 298 MB. [Arquitectura, manteniment i comprovacions](docs/audio-modular.md).
 
 [Política d’àudio i neteja del repositori](docs/neteja-audio.md): títol/relat, recursos reutilitzables i revisions pendents al web; màsters complets i proves tancades en local. `node tools/public-audio.mjs --apply` sincronitza la publicació sense esborrar originals; `--check` comprova els fitxers abans de pujar. Neteja de proves i duplicats aplicada el 26/11: uns **289 MB d’historial net** i **298 MB de fitxers publicables**. Còpies completes de recuperació fora del repo; allotjament a GitHub Pages. Altres clons antics s’han de sincronitzar amb la història nova abans de treballar-hi.
