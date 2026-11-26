@@ -16,7 +16,23 @@ Proposta del **26/11/2026**. [Comparador al web](https://sentit.ortogra.fi/?musi
 | Mites de l’antiguitat | M2 | [Desert City](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100564) | Percussió i dulcimer | Viatge i ritme |
 | Mites de l’antiguitat | M3 | [Virtutes Instrumenti](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100801) | Viola i bordó | Solemne i pausat |
 
-Primera preselecció per textura: F1, L1 i M1. És una proposta d’escolta, **cap peça no està triada ni assignada**. Podem aprovar dues o tres per univers i alternar-les segons el relat, mantenint-ne el registre. Aquesta petició docent substitueix, per a aquests tres universos, l’anterior criteri d’una composició diferent per a cada narració; no modifica els muntatges ja validats.
+## Retorn docent del 26/11
+
+| Univers | Acceptades per al repertori | Altres mostres |
+| --- | --- | --- |
+| Faules | **F1** | F2 fora del repertori actual pel caràcter massa divertit; F3 pendent de decidir |
+| Llegendes | **L1, L2 i L3** | — |
+| Mites | **M1, M2 i M3** | — |
+
+Aquest retorn valida les set pistes com a recursos possibles, no un muntatge concret. F2 i F3 es conserven al comparador per referència; F3 no s’utilitza mentre hi hagi dubtes. Encara no s’ha assignat música a cap activitat.
+
+### Criteri de treball proposat
+
+Mantenir un repertori petit per univers i triar segons el caràcter del relat. Quan diverses opcions encaixin, afavorir una de les menys utilitzades recentment, sense imposar una roda fixa. Per orientar la tria: L1 per a relats més íntims, L2 per a un aire popular i L3 per a misteri; M1 com a punt de partida atmosfèric, M2 per a viatge o moviment i M3 per a un to més solemne. Són orientacions de selecció, pendents de comprovar amb la veu al muntatge.
+
+Conservar la mateixa composició entre variants d’un mateix relat, encara que canviï el nivell o el repartiment. La base molt baixa i les foses són més importants per a la comprensió que augmentar contínuament el nombre de pistes. Per a les faules, començar amb F1; una sola base funciona mentre el repertori encara és petit. Per a S130, la primera candidata continua sent M1.
+
+Registrar la composició real utilitzada a cada muntatge. Aquesta línia de treball manté la petició de disposar de dues o tres pistes compartides per univers i substitueix aquí l’antic criteri d’una composició diferent per narració; no modifica muntatges ja validats. La valoració del docent sobre l’alternança és encara exploratòria: aquest apartat és una proposta editorial, no una nova selecció automàtica.
 
 ## Origen i llicència
 
