@@ -22,12 +22,27 @@ No repetir-les com a esmenes separades. Esperen completar una petició compatibl
 | --- | --- | --- | --- |
 | [S142](https://sentit.ortogra.fi/#lectura=ca-S142) | S142-T02 | Narrador / Erinome | [Regeneració completa](../content/full-voice-retakes.json) |
 
+## Validacions que completen un lot
+
+Ordenades pel nombre de guions que falta validar. Són candidats de mida compatible; després cal preparar l’entrada definitiva.
+
+| Prioritat | Guions que falten | Lot complet resultant | Text pla estimat |
+| --- | --- | --- | ---: |
+| P35 | [ca-S148](https://sentit.ortogra.fi/#lectura=ca-S148), [ca-S151](https://sentit.ortogra.fi/#lectura=ca-S151) | [ca-S148](https://sentit.ortogra.fi/#lectura=ca-S148), [ca-S151](https://sentit.ortogra.fi/#lectura=ca-S151); esmenes S102; presa íntegra S142-T02 | 6:12 |
+| P34 | [ca-S144](https://sentit.ortogra.fi/#lectura=ca-S144), [ca-S149](https://sentit.ortogra.fi/#lectura=ca-S149), [ca-S152](https://sentit.ortogra.fi/#lectura=ca-S152) | [ca-S144](https://sentit.ortogra.fi/#lectura=ca-S144), [ca-S149](https://sentit.ortogra.fi/#lectura=ca-S149), [ca-S152](https://sentit.ortogra.fi/#lectura=ca-S152); esmenes S010, S011 | 6:14 |
+| P36 | [ca-S145](https://sentit.ortogra.fi/#lectura=ca-S145), [ca-S153](https://sentit.ortogra.fi/#lectura=ca-S153), [ca-S154](https://sentit.ortogra.fi/#lectura=ca-S154) | [ca-S145](https://sentit.ortogra.fi/#lectura=ca-S145), [ca-S153](https://sentit.ortogra.fi/#lectura=ca-S153), [ca-S154](https://sentit.ortogra.fi/#lectura=ca-S154); esmenes S005, S015 | 6:28 |
+| P33 | [ca-S143](https://sentit.ortogra.fi/#lectura=ca-S143), [ca-S146](https://sentit.ortogra.fi/#lectura=ca-S146), [ca-S147](https://sentit.ortogra.fi/#lectura=ca-S147), [ca-S150](https://sentit.ortogra.fi/#lectura=ca-S150) | [ca-S143](https://sentit.ortogra.fi/#lectura=ca-S143), [ca-S146](https://sentit.ortogra.fi/#lectura=ca-S146), [ca-S147](https://sentit.ortogra.fi/#lectura=ca-S147), [ca-S150](https://sentit.ortogra.fi/#lectura=ca-S150); esmenes S131, S135, S107 | 6:48 |
+
 ## Agrupacions candidates · validació i preparació pendents
 
 La previsió utilitza el text pla real, amb els títols i sense marques literals de pausa ni marges afegits per omplir la petició. «Disponible ara» suma només els guions validats i les esmenes candidates encara pendents. Un grup de guions validats encara necessita preparar i comprovar l’entrada definitiva abans d’enviar-lo. Els candidats petits continuen esperant material compatible.
 
 | Proposta | Repartiment | Comprensions | Previsió completa | Disponible ara | Mida orientativa | Guions validats | Validacions que falten |
 | --- | --- | --- | ---: | ---: | --- | ---: | --- |
+| [P33](lot-tradicio-20261127.md#p33) | Algenib + Algieba | [ca-S143](https://sentit.ortogra.fi/#lectura=ca-S143), [ca-S146](https://sentit.ortogra.fi/#lectura=ca-S146), [ca-S147](https://sentit.ortogra.fi/#lectura=ca-S147), [ca-S150](https://sentit.ortogra.fi/#lectura=ca-S150) | 6:48 amb 4 fragments d’esmena | — | Dins la finestra prevista | 0/4 | [ca-S143](https://sentit.ortogra.fi/#lectura=ca-S143), [ca-S146](https://sentit.ortogra.fi/#lectura=ca-S146), [ca-S147](https://sentit.ortogra.fi/#lectura=ca-S147), [ca-S150](https://sentit.ortogra.fi/#lectura=ca-S150) |
+| [P34](lot-tradicio-20261127.md#p34) | Leda + Puck | [ca-S144](https://sentit.ortogra.fi/#lectura=ca-S144), [ca-S149](https://sentit.ortogra.fi/#lectura=ca-S149), [ca-S152](https://sentit.ortogra.fi/#lectura=ca-S152) | 6:14 amb 3 fragments d’esmena | — | Dins la finestra prevista | 0/3 | [ca-S144](https://sentit.ortogra.fi/#lectura=ca-S144), [ca-S149](https://sentit.ortogra.fi/#lectura=ca-S149), [ca-S152](https://sentit.ortogra.fi/#lectura=ca-S152) |
+| [P35](lot-tradicio-20261127.md#p35) | Erinome + Callirrhoe | [ca-S148](https://sentit.ortogra.fi/#lectura=ca-S148), [ca-S151](https://sentit.ortogra.fi/#lectura=ca-S151) | 6:12 amb 1 fragment d’esmena i 1 presa íntegra | — | Dins la finestra prevista | 0/2 | [ca-S148](https://sentit.ortogra.fi/#lectura=ca-S148), [ca-S151](https://sentit.ortogra.fi/#lectura=ca-S151) |
+| [P36](lot-tradicio-20261127.md#p36) | Vindemiatrix + Kore | [ca-S145](https://sentit.ortogra.fi/#lectura=ca-S145), [ca-S153](https://sentit.ortogra.fi/#lectura=ca-S153), [ca-S154](https://sentit.ortogra.fi/#lectura=ca-S154) | 6:28 amb 2 fragments d’esmena | — | Dins la finestra prevista | 0/3 | [ca-S145](https://sentit.ortogra.fi/#lectura=ca-S145), [ca-S153](https://sentit.ortogra.fi/#lectura=ca-S153), [ca-S154](https://sentit.ortogra.fi/#lectura=ca-S154) |
 
 Les previsions «amb esmenes» sumen només els fragments que encara són a la cua, no les proves ja rebudes. La composició de P26–P28 és al [pla d’equilibri](pla-equilibri-2026-11-25.md). Les correccions ja rebudes es revisen abans de demanar-ne cap altra; els papers ocasionals i els recurrents conserven el seu repartiment. Cap d’aquestes previsions equival a una entrada congelada i preparada per enviar.
 

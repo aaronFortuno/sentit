@@ -900,5 +900,77 @@ export const editorialReviews = {
     "reviewedAt": "2026-11-27",
     "reviewer": "revisio_publicacio_vuit_20261127-independent",
     "fingerprint": "9fcf84c8b045cb5b0848d755e646e322ace87b21a98ce49193fa32b3e8810d45"
+  },
+  "ca-S143": {
+    "status": "passed",
+    "reviewedAt": "2026-11-27",
+    "reviewer": "/root/revisio_tradicio_143_146",
+    "fingerprint": "3f0b98cd1946d6c8bef2050b6ba415ec8adadd0d543c6157e9735b161bdd6aff"
+  },
+  "ca-S144": {
+    "status": "passed",
+    "reviewedAt": "2026-11-27",
+    "reviewer": "/root/revisio_tradicio_143_146",
+    "fingerprint": "2eeaf8d20679efe8e00f28b2f164a037340a397af5204908365a43acde9a58a8"
+  },
+  "ca-S145": {
+    "status": "passed",
+    "reviewedAt": "2026-11-27",
+    "reviewer": "/root/revisio_tradicio_143_146",
+    "fingerprint": "1195eba367b0e6de40adafdf44f1dbdc882c67dda46a3d18cfad296d0710870f"
+  },
+  "ca-S146": {
+    "status": "passed",
+    "reviewedAt": "2026-11-27",
+    "reviewer": "/root/revisio_tradicio_143_146",
+    "fingerprint": "2bea917ca781fecb19196daabbf503f342a82aa0e7c6e63ea05cab6722b29735"
+  },
+  "ca-S147": {
+    "status": "passed",
+    "reviewedAt": "2026-11-27",
+    "reviewer": "/root/revisio_tradicio_147_150",
+    "fingerprint": "edeedd8bfeab8186145110ad60493dff92c97e492864a82bc8ec704478949752"
+  },
+  "ca-S148": {
+    "status": "passed",
+    "reviewedAt": "2026-11-27",
+    "reviewer": "/root/revisio_tradicio_147_150",
+    "fingerprint": "88d32e03fd041c1795e70518a8234d6477be6c42cdf018674dda1a7716c8e38a"
+  },
+  "ca-S149": {
+    "status": "passed",
+    "reviewedAt": "2026-11-27",
+    "reviewer": "/root/revisio_tradicio_147_150",
+    "fingerprint": "787935d7142d5398733c8cfd44e8fba3b2e908eb0fe008b19e9d4a6f633cb375"
+  },
+  "ca-S150": {
+    "status": "passed",
+    "reviewedAt": "2026-11-27",
+    "reviewer": "/root/revisio_tradicio_147_150",
+    "fingerprint": "8c6801560bdb6115a0047718966f9ad251cd71be5d1ba0bd2a1aec422667a010"
+  },
+  "ca-S151": {
+    "status": "passed",
+    "reviewedAt": "2026-11-27",
+    "reviewer": "/root/revisio_tradicio_151_154",
+    "fingerprint": "e80eb8741e60c84ce3514d5d417d6a23c3ffb86a6b5b6dc0c38cb76d2d952d10"
+  },
+  "ca-S152": {
+    "status": "passed",
+    "reviewedAt": "2026-11-27",
+    "reviewer": "/root/revisio_tradicio_151_154",
+    "fingerprint": "a2336cfdf3b93ddf41c001f423b8d8062f7566057b13595050dabf1974e8813f"
+  },
+  "ca-S153": {
+    "status": "passed",
+    "reviewedAt": "2026-11-27",
+    "reviewer": "/root/revisio_tradicio_151_154",
+    "fingerprint": "ee7c29bb607c10f55b6afd59b677541e14f2bf2acdc92396793d37d5d21659c9"
+  },
+  "ca-S154": {
+    "status": "passed",
+    "reviewedAt": "2026-11-27",
+    "reviewer": "/root/revisio_tradicio_151_154",
+    "fingerprint": "8bc31c25f8f3f5335f50f55cac94d1e9cf890948ab1f83328e69442157bb0de1"
   }
 };

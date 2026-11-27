@@ -1,5 +1,7 @@
 # Sentit
 
+**Dotze guions nous del 27/11:** [pla de revisió i lots P33–P36](docs/lot-tradicio-20261127.md), S143–S154: quatre faules, quatre llegendes i quatre mites. Revisió adversària, contextos i 68 preguntes obertes/ABCD comprovades. Candidats de 6:12–6:48 amb les esmenes pendents; guions i escaletes encara per validar, sense síntesi nova.
+
 **Publicació de tradició del 27/11:** [set peces definitives més](docs/publicacio-2026-11-27-tradicio.md), S133, S134, S136, S138, S139, S140 i S141, amb il·lustracions, fonts i imprimibles nets revisats. Mateixos àudios aprovats, sense síntesi ni remuntatge. Dotze peces de tradició definitives; S131 espera la presentació, S135 dues esmenes i S142 la nova presa íntegra amb Erinome.
 
 **Publicació del 27/11:** [vuit muntatges definitius](docs/publicacio-2026-11-27-vuit.md): S070, S095, S122, S128, S129, S130, S132 i S137. Primeres faules, llegendes i mite disponibles, amb il·lustracions i imprimibles nets. Pistes aprovades intactes, sense síntesi nova.

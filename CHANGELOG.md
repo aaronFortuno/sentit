@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.137 · 27 de novembre de 2026
+
+- Dotze esborranys revisats per validar: S143–S146, faules; S147–S150, llegendes; S151–S154, mites. Fonts, notes d’adaptació, contextos, escaletes i 68 preguntes amb resposta oberta i alternativa ABCD, revisades independentment.
+- Quatre grups candidats P33–P36 amb dues veus físiques com a màxim i les esmenes encara obertes. Previsions de 6:12–6:48 amb el text real, sense farciment. S142-T02 íntegra inclosa; S011 i S015 mantenen punts de preparació pendents. Cap petició enviada ni validació docent atribuïda.
+- Fonts visibles al web i als imprimibles de treball; registres de revisió i seguiment actualitzats. Els relats apareixen com a provisionals, amb solucionari i escaleta inicials, sense àudio ni impressió definitiva habilitada.
+
 ## 0.1.136 · 27 de novembre de 2026
 
 - S133, S134, S136, S138, S139, S140 i S141 passen a publicació definitiva amb la validació explícita del docent. Mateixos màsters i pistes modulars aprovats, sense síntesi, remuntatge ni recompressió d’àudio.

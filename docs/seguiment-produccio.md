@@ -1,6 +1,6 @@
 # Seguiment de les comprensions
 
-Actualitzat: **27/11/2026**. **11 pendents** de 150 comprensions orals; **139 finalitzades** al [registre de publicacions](publicades.md). Les variants es compten per separat.
+Actualitzat: **27/11/2026**. **23 pendents** de 162 comprensions orals; **139 finalitzades** al [registre de publicacions](publicades.md). Les variants es compten per separat.
 
 La taula conté només feina oberta. Una peça en surt quan té publicació definitiva registrada per al contingut exacte. Les noves propostes s’hi incorporen automàticament; quan no quedi feina, la taula quedarà buida.
 
@@ -13,7 +13,7 @@ La taula conté només feina oberta. Una peça en surt quan té publicació defi
 | Produir les veus, amb guió validat | 0 | Cap |
 | Escoltar i validar les veus abans de muntar | 0 | Cap |
 | Muntar les veus rebudes | 0 | Cap |
-| Revisió editorial o validació inicial pendent | 2 | [ca-S001](https://sentit.ortogra.fi/#lectura=ca-S001), [ca-S002](https://sentit.ortogra.fi/#lectura=ca-S002) |
+| Revisió editorial o validació inicial pendent | 14 | [ca-S001](https://sentit.ortogra.fi/#lectura=ca-S001), [ca-S002](https://sentit.ortogra.fi/#lectura=ca-S002), [ca-S143](https://sentit.ortogra.fi/#lectura=ca-S143), [ca-S144](https://sentit.ortogra.fi/#lectura=ca-S144), [ca-S145](https://sentit.ortogra.fi/#lectura=ca-S145), [ca-S146](https://sentit.ortogra.fi/#lectura=ca-S146), [ca-S147](https://sentit.ortogra.fi/#lectura=ca-S147), [ca-S148](https://sentit.ortogra.fi/#lectura=ca-S148), [ca-S149](https://sentit.ortogra.fi/#lectura=ca-S149), [ca-S150](https://sentit.ortogra.fi/#lectura=ca-S150), [ca-S151](https://sentit.ortogra.fi/#lectura=ca-S151), [ca-S152](https://sentit.ortogra.fi/#lectura=ca-S152), [ca-S153](https://sentit.ortogra.fi/#lectura=ca-S153), [ca-S154](https://sentit.ortogra.fi/#lectura=ca-S154) |
 
 ## Taula de pendents
 
@@ -32,6 +32,18 @@ La taula conté només feina oberta. Una peça en surt quan té publicació defi
 | [ca-S131](https://sentit.ortogra.fi/#lectura=ca-S131) | La guineu i el corb | 3r | Intermèdia · Narració | Prevista 1:30–1:55 | 6 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
 | [ca-S135](https://sentit.ortogra.fi/#lectura=ca-S135) | El pont abans de l’alba | 4t | Intermèdia · Narració | Prevista 1:40–2:05 | 6 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
 | [ca-S142](https://sentit.ortogra.fi/#lectura=ca-S142) | Hermes i la lira | 6è | Intermèdia · Narració | Prevista 2:10–2:40 | 7 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
+| [ca-S143](https://sentit.ortogra.fi/#lectura=ca-S143) | El corb i la gerra | 3r | Accessible · Narració | Prevista 1:35–2:00 | 5 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S144](https://sentit.ortogra.fi/#lectura=ca-S144) | La guineu i la cigonya | 4t | Accessible · Narració | Prevista 1:50–2:20 | 6 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S145](https://sentit.ortogra.fi/#lectura=ca-S145) | El ratolí de camp i el de ciutat | 4t | Intermèdia · Narració | Prevista 2:05–2:35 | 6 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S146](https://sentit.ortogra.fi/#lectura=ca-S146) | El gos i el reflex | 3r | Intermèdia · Narració | Prevista 1:30–1:55 | 5 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S147](https://sentit.ortogra.fi/#lectura=ca-S147) | El pescallunes de Torelló | 3r | Intermèdia · Narració | Prevista 1:45–2:15 | 5 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S148](https://sentit.ortogra.fi/#lectura=ca-S148) | Les quatre barres de la llegenda | 5è | Intermèdia · Narració | Prevista 1:55–2:20 | 6 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S149](https://sentit.ortogra.fi/#lectura=ca-S149) | Guillem Tell i la poma | 5è | Intermèdia · Narració | Prevista 2:00–2:30 | 6 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S150](https://sentit.ortogra.fi/#lectura=ca-S150) | El gegant i l’Agullola | 4t | Accessible · Narració | Prevista 1:45–2:15 | 5 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S151](https://sentit.ortogra.fi/#lectura=ca-S151) | Atena i l’olivera | 5è | Intermèdia · Narració | Prevista 2:10–2:35 | 6 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S152](https://sentit.ortogra.fi/#lectura=ca-S152) | Aracne i el tapís | 6è | Intermèdia · Narració | Prevista 2:10–2:40 | 6 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S153](https://sentit.ortogra.fi/#lectura=ca-S153) | La gerra de Pandora | 6è | Intermèdia · Narració | Prevista 2:05–2:35 | 6 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
+| [ca-S154](https://sentit.ortogra.fi/#lectura=ca-S154) | Orfeu i Eurídice | 6è | Avançada · Narració | Prevista 2:10–2:40 | 6 | ✅ | ✅ | **⏳ Revisar** | — | — | — | — |
 
 ## Esmenes obertes
 

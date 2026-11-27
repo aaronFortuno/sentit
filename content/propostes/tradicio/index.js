@@ -3,6 +3,9 @@ import { cultural } from './shared.js';
 import { fableExpansionDrafts } from './faules-20261126.js';
 import { legendExpansionDrafts } from './llegendes-20261126.js';
 import { mythExpansionDrafts } from './mites-20261126.js';
+import { fableSecondExpansionDrafts } from './faules-20261127.js';
+import { legendSecondExpansionDrafts } from './llegendes-20261127.js';
+import { mythSecondExpansionDrafts } from './mites-20261127.js';
 
 const traditionPilots = [
   cultural({code:'S128', image: {"src":"./assets/images/s128-publicacio-v1.webp","alt":"Un lleó i un ratolí es miren en una clariana.","width":1536,"height":1024},id:'el-lleo-i-el-ratoli',title:'El lleó i el ratolí',grade:'3',level:'easy',universeIds:['faules-mon'],
@@ -85,8 +88,9 @@ const traditionPilots = [
     ]})
 ];
 
-export const traditionDrafts=[...traditionPilots,...fableExpansionDrafts,...legendExpansionDrafts,...mythExpansionDrafts];
+export const traditionDrafts=[...traditionPilots,...fableExpansionDrafts,...legendExpansionDrafts,...mythExpansionDrafts,...fableSecondExpansionDrafts,...legendSecondExpansionDrafts,...mythSecondExpansionDrafts];
 export const traditionActivities=entries(traditionDrafts);
 export const traditionChoices=alternatives(traditionDrafts);
 export const traditionContexts=contexts(traditionDrafts);
-export const traditionSources=Object.fromEntries(traditionActivities.map(a=>[a.code,'content/propostes/tradicio/'+(Number(a.code.slice(1))<=130?'index.js':Number(a.code.slice(1))<=134?'faules-20261126.js':Number(a.code.slice(1))<=138?'llegendes-20261126.js':'mites-20261126.js')]));
+const sourceGroups=[['index.js',traditionPilots],['faules-20261126.js',fableExpansionDrafts],['llegendes-20261126.js',legendExpansionDrafts],['mites-20261126.js',mythExpansionDrafts],['faules-20261127.js',fableSecondExpansionDrafts],['llegendes-20261127.js',legendSecondExpansionDrafts],['mites-20261127.js',mythSecondExpansionDrafts]];
+export const traditionSources=Object.fromEntries(sourceGroups.flatMap(([file,drafts])=>drafts.map(({entry})=>[entry.code,'content/propostes/tradicio/'+file])));

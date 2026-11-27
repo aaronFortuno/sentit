@@ -360,6 +360,54 @@
       ],
       "cast": "Narrador anònim · Algenib",
       "note": "S134/S141 ja validats; S133 amb passat corregit i S142 amb final reescrit esperen el vistiplau docent. Lot futur compatible de 6–8 minuts, sense petició fins a la validació exacta dels quatre guions."
+    },
+    {
+      "id": "P33",
+      "name": "Faules i llegendes · Algenib i Algieba",
+      "codes": [
+        "S143",
+        "S146",
+        "S147",
+        "S150"
+      ],
+      "cast": "Algenib + Algieba",
+      "document": "lot-tradicio-20261127.md#p33",
+      "note": "Candidata, no executable ni autoritzada. Dotze propostes del27/11 amb revisió independent. Vegeu el pla de tradició per a esmenes, aliases de narrador i bloqueigs particulars."
+    },
+    {
+      "id": "P34",
+      "name": "Faula, llegenda i mite · Leda i Puck",
+      "codes": [
+        "S144",
+        "S149",
+        "S152"
+      ],
+      "cast": "Leda + Puck",
+      "document": "lot-tradicio-20261127.md#p34",
+      "note": "Candidata, no executable ni autoritzada. Dotze propostes del27/11 amb revisió independent. Vegeu el pla de tradició per a esmenes, aliases de narrador i bloqueigs particulars."
+    },
+    {
+      "id": "P35",
+      "name": "Llegenda i mite · Erinome i Callirrhoe",
+      "codes": [
+        "S148",
+        "S151"
+      ],
+      "cast": "Erinome + Callirrhoe",
+      "document": "lot-tradicio-20261127.md#p35",
+      "note": "Candidata, no executable ni autoritzada. Dotze propostes del27/11 amb revisió independent. Vegeu el pla de tradició per a esmenes, aliases de narrador i bloqueigs particulars."
+    },
+    {
+      "id": "P36",
+      "name": "Faula i mites · Vindemiatrix i Kore",
+      "codes": [
+        "S145",
+        "S153",
+        "S154"
+      ],
+      "cast": "Vindemiatrix + Kore",
+      "document": "lot-tradicio-20261127.md#p36",
+      "note": "Candidata, no executable ni autoritzada. Dotze propostes del27/11 amb revisió independent. Vegeu el pla de tradició per a esmenes, aliases de narrador i bloqueigs particulars."
     }
   ]
 }

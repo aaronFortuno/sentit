@@ -3,7 +3,7 @@
   "status": "passed",
   "reviewedAt": "2026-11-27",
   "reviewer": "revisio_contextos_previs",
-  "scope": "90 contextos impresos revisats independentment. S045D incorporada i contextos S079/S081 revalidats després dels comiats demanats pel docent. Sense canvis d’aprovacions d’àudio. S029 revalidada el 23/11 després de recuperar la presentació i retirar la ubicació del context previ. S068D i S071D incorporades amb revisió independent el 23/11; correspondència de S068 revalidada després de variar-ne l’inici. Ampliació independent: ca-S083, ca-S084, ca-S085, ca-S086 (revisio_tancament_s027). Ampliació independent: ca-S087, ca-S088, ca-S089, ca-S090, ca-S091 (revisio_tancament_s027). Ampliació independent: ca-S084, ca-S086 (revisio_tancament_s027). Ampliació independent: ca-S092, ca-S093, ca-S094, ca-S095, ca-S096, ca-S097 (revisio_tancament_s027). Ampliació independent: ca-S098, ca-S099, ca-S100, ca-S101, ca-S102, ca-S103 (auditoria_registre_pendents). Ampliació independent: ca-S104, ca-S105, ca-S106, ca-S107 (revisio_tancament_s027). Ampliació independent: ca-S108, ca-S109, ca-S110, ca-S111 (auditoria_registre_pendents). Ampliació independent: ca-S092, ca-S093, ca-S095 (revisio_tancament_s027). Ampliació del 25/11: S112–S127 amb doble format i contextos revisats per /root/abcd_author_002, /root/abcd_author_003, /root/abcd_author_004. Pilots S128–S130 i retolació S125: revisió independent del 25/11. S131–S142: revisió creuada independent de guions, contextos, doble format i fonts del 26/11. Esmenes de S133/S142 i adaptació de S095 a dos empleats: revisió independent del 26/11. S142, inici Aquest mite grec explica que i nova veu Erinome: coherència amb el context revalidada independentment el 27/11.",
+  "scope": "90 contextos impresos revisats independentment. S045D incorporada i contextos S079/S081 revalidats després dels comiats demanats pel docent. Sense canvis d’aprovacions d’àudio. S029 revalidada el 23/11 després de recuperar la presentació i retirar la ubicació del context previ. S068D i S071D incorporades amb revisió independent el 23/11; correspondència de S068 revalidada després de variar-ne l’inici. Ampliació independent: ca-S083, ca-S084, ca-S085, ca-S086 (revisio_tancament_s027). Ampliació independent: ca-S087, ca-S088, ca-S089, ca-S090, ca-S091 (revisio_tancament_s027). Ampliació independent: ca-S084, ca-S086 (revisio_tancament_s027). Ampliació independent: ca-S092, ca-S093, ca-S094, ca-S095, ca-S096, ca-S097 (revisio_tancament_s027). Ampliació independent: ca-S098, ca-S099, ca-S100, ca-S101, ca-S102, ca-S103 (auditoria_registre_pendents). Ampliació independent: ca-S104, ca-S105, ca-S106, ca-S107 (revisio_tancament_s027). Ampliació independent: ca-S108, ca-S109, ca-S110, ca-S111 (auditoria_registre_pendents). Ampliació independent: ca-S092, ca-S093, ca-S095 (revisio_tancament_s027). Ampliació del 25/11: S112–S127 amb doble format i contextos revisats per /root/abcd_author_002, /root/abcd_author_003, /root/abcd_author_004. Pilots S128–S130 i retolació S125: revisió independent del 25/11. S131–S142: revisió creuada independent de guions, contextos, doble format i fonts del 26/11. Esmenes de S133/S142 i adaptació de S095 a dos empleats: revisió independent del 26/11. S142, inici Aquest mite grec explica que i nova veu Erinome: coherència amb el context revalidada independentment el 27/11. S143–S154: guions, contextos, fonts, escaletes i doble format revisats independentment el27/11/2026 per revisio_tradicio_143_146, revisio_tradicio_147_150 i revisio_tradicio_151_154.",
   "fileSha256": "283dcbf0000da1ad7c700f7bcc7aaa7bf387b293b5d6ad7363ba31f90ef635b0",
   "entries": {
     "ca-S001": {
@@ -721,6 +721,54 @@
     "ca-S142": {
       "contextSha256": "c07c6523e825044a8c22480d1546c5011eb6334ee014070227e5ef9a9a55e680",
       "sourceSha256": "27449777622e5237963099c45b5c92b1644d04a6ecc86d386836e3ca0411a7cf"
+    },
+    "ca-S143": {
+      "contextSha256": "9e41417150c3e4240ed0e9200b8b0dafb5ccdb34603d1c00315dea3540160060",
+      "sourceSha256": "a42fa51fd8af1fd83e503767e477d041d25239217261ff9d871534e8333c9d2c"
+    },
+    "ca-S144": {
+      "contextSha256": "b271f56c803943f024e46a2554549bf85f336acb080615bfd11312391ea3fcca",
+      "sourceSha256": "f60dfba595204fa1241135ef275f65768aa0c5758fbcae5a6b349b81a9515be5"
+    },
+    "ca-S145": {
+      "contextSha256": "6d86230462e363e5fe4991d48e9f95e62f633ee90078bb20813dd09437f4401f",
+      "sourceSha256": "b3637b15784a26203737f6406c401344e381e9395b9d11ad9005b703ea255f69"
+    },
+    "ca-S146": {
+      "contextSha256": "80a7bfb6260863c774bde62e2aae606a25ab55e96217ddfd30fedddce65a4bf6",
+      "sourceSha256": "6b3787ca9160764de5ff1e6c188ac9b96641fe612156414951e4e22f4813c251"
+    },
+    "ca-S147": {
+      "contextSha256": "755102cc11041e42b85df4e152d6e1f711f4a0e84bb73a6bb2ec8a7355ab9044",
+      "sourceSha256": "96daae7d5c4ff77a0a8e63206beb7e203e53f7a0354694b14c0fc25d37d3f7c4"
+    },
+    "ca-S148": {
+      "contextSha256": "6711aa43482f28e9bddffe857ca446791258b2f87c856036c4841e8185b0d909",
+      "sourceSha256": "ad11054d3d352fe0ede6ee6c5f320c68aec5107bfe4b779d161b395d4d5043fd"
+    },
+    "ca-S149": {
+      "contextSha256": "20f505a7b4912d80ec2c152fd151fe7aa23fae09b8296ebe99ce59b592bb88e1",
+      "sourceSha256": "67b89f9b2dba1143ae765e51a10d711a8bf52c24c3090b90fa759940ab4ac683"
+    },
+    "ca-S150": {
+      "contextSha256": "6003aa72dfd5c1f40b72944c57a81e7a2358189eaf653b0489939aa450ca2331",
+      "sourceSha256": "88e207f7007e2172f4670debcaed8e8d9133d977c3a282fd4a82088b13eb6573"
+    },
+    "ca-S151": {
+      "contextSha256": "37741d359aff0e729a6e97c7d878c98ca5e863e1ff1182139e2931a316d9d860",
+      "sourceSha256": "c9f39a63f9450c94d685fcff040543f34363848fae091f1c614378abec92266b"
+    },
+    "ca-S152": {
+      "contextSha256": "36927d29f40b79046c079318a10bb955bf0423a2ecc15e80e19908505ef4f9f0",
+      "sourceSha256": "10eae3b1cc5e7e2c7a7135bbc83a39e6420bab2857ea60724a6c7382fba57732"
+    },
+    "ca-S153": {
+      "contextSha256": "aeeacbe67c9f61108f6e640b713f6e7b3c5dc4c16c5d1554fb181a426ee002b4",
+      "sourceSha256": "b2da462a311ae83a75fd9ffdf2686f6be4371ec098b184e42719305d5077fdf7"
+    },
+    "ca-S154": {
+      "contextSha256": "558ce29631fc904423e2e711256bac3b9e99c02eac8aa05f3088fe46a646df48",
+      "sourceSha256": "4141fb935c92b2e81a9b6d52d0ec01ed427d48c6d2d090e08578475fca29fa56"
     }
   },
   "latestReview": {

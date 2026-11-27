@@ -161,18 +161,21 @@ export async function productionDocuments(date) {
     if (!entries.length) continue;
     const repairCandidates = balance.groups.find(candidate => candidate.id === group.id)?.repairCandidates ?? [];
     const queuedRepairs = repairCandidates.map(ref => correctionQueue.queued.find(item => item.code === ref.code && item.part === ref.part)).filter(Boolean);
-    const seconds = plainSpeechForecast(entries, queuedRepairs.map(item => item.text)).seconds;
+    const retakeCandidates = balance.groups.find(candidate => candidate.id === group.id)?.fullRetakeCandidates ?? [];
+    const queuedRetakes = retakeCandidates.map(ref => correctionQueue.retakes.find(item => item.code === ref.code && item.take === ref.take)).filter(Boolean);
+    const extraSpeech = [...queuedRepairs, ...queuedRetakes].map(item => item.text);
+    const seconds = plainSpeechForecast(entries, extraSpeech).seconds;
     const approvedEntries = entries.filter(teacherApproved);
-    const readySeconds = approvedEntries.length ? plainSpeechForecast(approvedEntries, queuedRepairs.map(item => item.text)).seconds : null;
-    synthesis += row([group.anchor ? `[${group.id}](lot-cicle-superior.md#${group.anchor})` : group.id, group.cast, list(entries), clock(seconds) + (queuedRepairs.length ? ` amb ${queuedRepairs.length} fragments d’esmena` : ''), readySeconds === null ? '—' : clock(readySeconds), seconds < policy.minimumSeconds ? 'Per completar' : seconds > policy.maximumSeconds ? 'Per dividir' : 'Dins la finestra prevista', approvedEntries.length + '/' + entries.length, list(entries.filter(entry => !teacherApproved(entry)))]);
+    const readySeconds = approvedEntries.length ? plainSpeechForecast(approvedEntries, extraSpeech).seconds : null;
+    synthesis += row([group.document ? `[${group.id}](${group.document})` : group.anchor ? `[${group.id}](lot-cicle-superior.md#${group.anchor})` : group.id, group.cast, list(entries), clock(seconds) + (queuedRepairs.length ? ` amb ${queuedRepairs.length} ${queuedRepairs.length === 1 ? 'fragment' : 'fragments'} d’esmena` : '') + (queuedRetakes.length ? ` i ${queuedRetakes.length} presa íntegra` : ''), readySeconds === null ? '—' : clock(readySeconds), seconds < policy.minimumSeconds ? 'Per completar' : seconds > policy.maximumSeconds ? 'Per dividir' : 'Dins la finestra prevista', approvedEntries.length + '/' + entries.length, list(entries.filter(entry => !teacherApproved(entry)))]);
     const missing = entries.filter(entry => !teacherApproved(entry));
-    if (missing.length && seconds >= policy.minimumSeconds && seconds <= policy.maximumSeconds) validationPriorities.push({ group, entries, missing, seconds, queuedRepairs });
+    if (missing.length && seconds >= policy.minimumSeconds && seconds <= policy.maximumSeconds) validationPriorities.push({ group, entries, missing, seconds, queuedRepairs, queuedRetakes });
   }
   synthesis += '\nLes previsions «amb esmenes» sumen només els fragments que encara són a la cua, no les proves ja rebudes. La composició de P26–P28 és al [pla d’equilibri](pla-equilibri-2026-11-25.md). Les correccions ja rebudes es revisen abans de demanar-ne cap altra; els papers ocasionals i els recurrents conserven el seu repartiment. Cap d’aquestes previsions equival a una entrada congelada i preparada per enviar.\n';
   if (validationPriorities.length) {
     validationPriorities.sort((a,b) => a.missing.length - b.missing.length || a.group.id.localeCompare(b.group.id));
     let priority = '\n## Validacions que completen un lot\n\nOrdenades pel nombre de guions que falta validar. Són candidats de mida compatible; després cal preparar l’entrada definitiva.\n\n| Prioritat | Guions que falten | Lot complet resultant | Text pla estimat |\n| --- | --- | --- | ---: |\n';
-    for (const item of validationPriorities) priority += row([item.group.id, list(item.missing), list(item.entries) + (item.queuedRepairs.length ? `; esmenes ${[...new Set(item.queuedRepairs.map(repair=>repair.code))].join(', ')}` : ''), clock(item.seconds)]);
+    for (const item of validationPriorities) priority += row([item.group.id, list(item.missing), list(item.entries) + (item.queuedRepairs.length ? `; esmenes ${[...new Set(item.queuedRepairs.map(repair=>repair.code))].join(', ')}` : '') + (item.queuedRetakes.length ? `; presa íntegra ${item.queuedRetakes.map(retake=>retake.take).join(', ')}` : ''), clock(item.seconds)]);
     synthesis = synthesis.replace('\n## Agrupacions candidates', priority + '\n## Agrupacions candidates');
   }
   synthesis += '\nP02 reuneix quatre lectures breus del mateix repartiment per conservar els guions de 3r curts i senzills. Els grups nous de 5è–6è es poden validar per repartiments sencers i es proposen en lots de dues o tres comprensions completes. Les previsions utilitzen el text pla i encara s’han de verificar amb l’entrada definitiva; la validació dels guions no garanteix que la mida final del lot sigui admissible. Les preses ja rebudes s’exclouen d’aquesta taula. [Tanda de 3r–4t](lot-cicle-mitja.md) · [Tanda de 5è–6è per repartiment](lot-cicle-superior.md) · [Composició proposada](../content/synthesis-proposals.json).\n\n## Esmenes de veu\n\n| Peça | Prova rebuda | Estat actual | Comparació |\n| --- | --- | --- | --- |\n';

@@ -1,4 +1,4 @@
-import { reportAvailability, reportReasons, sendReport, setExcluded, startAnalytics } from './analytics.js?v=0.1.136';
+import { reportAvailability, reportReasons, sendReport, setExcluded, startAnalytics } from './analytics.js?v=0.1.137';
 import { openDialog } from './motion.js';
 
 export function mountErrorReport(dialog,t){

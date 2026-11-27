@@ -231,6 +231,136 @@
       ],
       "pendingScripts": [],
       "scheduledBatch": "L39"
+    },
+    {
+      "id": "P33",
+      "title": "Faules i llegendes · Algenib i Algieba",
+      "state": "awaiting-script-validation",
+      "speechTextFormat": "plain-v1",
+      "styleFormat": "compact-v1",
+      "codes": [
+        "S143",
+        "S146",
+        "S147",
+        "S150"
+      ],
+      "repairCandidates": [
+        {
+          "code": "S131",
+          "part": "introduction"
+        },
+        {
+          "code": "S135",
+          "part": "pacte"
+        },
+        {
+          "code": "S135",
+          "part": "gall"
+        },
+        {
+          "code": "S107",
+          "part": "sortida"
+        }
+      ],
+      "blockers": [],
+      "note": "Candidata, no executable ni autoritzada. Dotze propostes del27/11 amb revisió independent. Vegeu el pla de tradició per a esmenes, aliases de narrador i bloqueigs particulars.",
+      "physicalVoices": [
+        "Algenib",
+        "Algieba"
+      ]
+    },
+    {
+      "id": "P34",
+      "title": "Faula, llegenda i mite · Leda i Puck",
+      "state": "awaiting-script-validation",
+      "speechTextFormat": "plain-v1",
+      "styleFormat": "compact-v1",
+      "codes": [
+        "S144",
+        "S149",
+        "S152"
+      ],
+      "repairCandidates": [
+        {
+          "code": "S010",
+          "part": "alternativa"
+        },
+        {
+          "code": "S011",
+          "part": "problema"
+        },
+        {
+          "code": "S011",
+          "part": "exposicio"
+        }
+      ],
+      "blockers": [
+        "S011: dos fragments encara sense petició formal i estabilitat global per decidir. Es poden reservar fora del lot sense declarar resolta la peça."
+      ],
+      "note": "Candidata, no executable ni autoritzada. Dotze propostes del27/11 amb revisió independent. Vegeu el pla de tradició per a esmenes, aliases de narrador i bloqueigs particulars.",
+      "physicalVoices": [
+        "Leda",
+        "Puck"
+      ]
+    },
+    {
+      "id": "P35",
+      "title": "Llegenda i mite · Erinome i Callirrhoe",
+      "state": "awaiting-script-validation",
+      "speechTextFormat": "plain-v1",
+      "styleFormat": "compact-v1",
+      "codes": [
+        "S148",
+        "S151"
+      ],
+      "repairCandidates": [
+        {
+          "code": "S102",
+          "part": "final"
+        }
+      ],
+      "fullRetakeCandidates": [
+        {
+          "code": "S142",
+          "take": "S142-T02"
+        }
+      ],
+      "blockers": [],
+      "note": "Candidata, no executable ni autoritzada. Dotze propostes del27/11 amb revisió independent. Vegeu el pla de tradició per a esmenes, aliases de narrador i bloqueigs particulars.",
+      "physicalVoices": [
+        "Erinome",
+        "Callirrhoe"
+      ]
+    },
+    {
+      "id": "P36",
+      "title": "Faula i mites · Vindemiatrix i Kore",
+      "state": "awaiting-script-validation",
+      "speechTextFormat": "plain-v1",
+      "styleFormat": "compact-v1",
+      "codes": [
+        "S145",
+        "S153",
+        "S154"
+      ],
+      "repairCandidates": [
+        {
+          "code": "S005",
+          "part": "comprovar"
+        },
+        {
+          "code": "S015",
+          "part": "llum"
+        }
+      ],
+      "blockers": [
+        "S015: conciliar el registre editorial històric amb l’aprovació i l’origen de la petició abans de congelar. No substituir empremtes per forçar-ne l’aprovació."
+      ],
+      "note": "Candidata, no executable ni autoritzada. Dotze propostes del27/11 amb revisió independent. Vegeu el pla de tradició per a esmenes, aliases de narrador i bloqueigs particulars.",
+      "physicalVoices": [
+        "Vindemiatrix",
+        "Kore"
+      ]
     }
   ]
 }

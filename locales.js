@@ -1,5 +1,6 @@
 export const strings = {
   ca: {
+    releaseTraditionTwelveDrafts: 'Dotze propostes noves per validar, S143–S154: quatre faules, quatre llegendes i quatre mites. Fonts contrastades, revisió adversària, contextos i 68 preguntes amb format obert i ABCD. Veus candidates agrupades amb les esmenes en quatre lots de mida útil; encara sense síntesi ni aprovació docent.',
     releaseSevenTraditionFinal: 'S133, S134, S136, S138, S139, S140 i S141 definitives, amb set il·lustracions noves i revisió independent dels materials. Àudios aprovats intactes, fonts culturals i solucionaris nets. Manifests i seguiment actualitzats; cap muntatge pendent d’audició. S131, S135 i S142 continuen amb esmenes obertes.',
     releaseSevenTraditionMontages: 'Set muntatges nous per escoltar: S133, S134, S136, S138, S139, S140 i S141, amb veus validades i músiques de biblioteca alternades. S131 espera la presentació completa; S142, una nova presa íntegra amb Erinome i inici revisat. Incidències visibles i cap síntesi enviada. Manifests de les vuit definitives anteriors sincronitzats.',
     releaseEightFinalMontages: 'Vuit definitives: S070, S095, S122, S128, S129, S130, S132 i S137. Muntatges aprovats intactes, set il·lustracions noves i solucionaris nets revisats. Primeres faules, llegendes i mite disponibles, amb fonts i preguntes obertes/ABCD. Seguiment i arxiu local de proves actualitzats.',
@@ -372,6 +373,7 @@ export const strings = {
     sessionEnded: 'Sessió acabada', remainingTime: 'Temps restant',
   },
   es: {
+    releaseTraditionTwelveDrafts: 'Doce propuestas nuevas para validar, S143–S154: cuatro fábulas, cuatro leyendas y cuatro mitos. Fuentes contrastadas, revisión adversaria, contextos y 68 preguntas con formato abierto y ABCD. Voces candidatas agrupadas con las correcciones en cuatro lotes de tamaño útil; todavía sin síntesis ni aprobación docente.',
     releaseSevenTraditionFinal: 'S133, S134, S136, S138, S139, S140 y S141 definitivas, con siete ilustraciones nuevas y revisión independiente de los materiales. Audios aprobados intactos, fuentes culturales y solucionarios limpios. Manifiestos y seguimiento actualizados; ningún montaje pendiente de audición. S131, S135 y S142 siguen con correcciones abiertas.',
     releaseSevenTraditionMontages: 'Siete montajes nuevos para escuchar: S133, S134, S136, S138, S139, S140 y S141, con voces validadas y músicas de biblioteca alternadas. S131 espera la presentación completa; S142, una nueva toma íntegra con Erinome e inicio revisado. Incidencias visibles y ninguna síntesis enviada. Manifiestos de las ocho definitivas anteriores sincronizados.',
     releaseEightFinalMontages: 'Ocho definitivas: S070, S095, S122, S128, S129, S130, S132 y S137. Montajes aprobados intactos, siete ilustraciones nuevas y solucionarios limpios revisados. Primeras fábulas, leyendas y mito disponibles, con fuentes y preguntas abiertas/ABCD. Seguimiento y archivo local de pruebas actualizados.',

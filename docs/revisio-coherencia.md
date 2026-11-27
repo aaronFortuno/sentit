@@ -1,6 +1,6 @@
 # Revisió independent de coherència
 
-Actualitzat: **27/11/2026**. **147 de 147** propostes de la tanda tenen revisió independent superada per a la versió actual. Abast: 1054 preguntes i 1336 cites literals.
+Actualitzat: **27/11/2026**. **159 de 159** propostes de la tanda tenen revisió independent superada per a la versió actual. Abast: 1122 preguntes i 1435 cites literals.
 
 S’han revisat situacions, cronologia, circulació d’objectes, coneixement dels personatges, causes i desenllaços, acotacions sonores, preguntes, respostes i ancoratges. Les dades factuals sensibles s’han contrastat amb fonts primàries indicades al [dossier editorial](lot-editorial-24.md). La revisió del muntatge és sobre el guió; les veus i el resultat sonor requeriran audició.
 
@@ -155,6 +155,18 @@ S’han revisat situacions, cronologia, circulació d’objectes, coneixement de
 | [ca-S140](https://sentit.ortogra.fi/#lectura=ca-S140) | Dèdal i Ícar | 5è | Revisió superada · publicació definitiva | 2026-11-27 | `739c81f5edec…` |
 | [ca-S141](https://sentit.ortogra.fi/#lectura=ca-S141) | Demèter i Persèfone | 6è | Revisió superada · publicació definitiva | 2026-11-27 | `429dfa594f3c…` |
 | [ca-S142](https://sentit.ortogra.fi/#lectura=ca-S142) | Hermes i la lira | 6è | Provisional · revisió superada | 2026-11-27 | `9fcf84c8b045…` |
+| [ca-S143](https://sentit.ortogra.fi/#lectura=ca-S143) | El corb i la gerra | 3r | Provisional · revisió superada | 2026-11-27 | `3f0b98cd1946…` |
+| [ca-S144](https://sentit.ortogra.fi/#lectura=ca-S144) | La guineu i la cigonya | 4t | Provisional · revisió superada | 2026-11-27 | `2eeaf8d20679…` |
+| [ca-S145](https://sentit.ortogra.fi/#lectura=ca-S145) | El ratolí de camp i el de ciutat | 4t | Provisional · revisió superada | 2026-11-27 | `1195eba367b0…` |
+| [ca-S146](https://sentit.ortogra.fi/#lectura=ca-S146) | El gos i el reflex | 3r | Provisional · revisió superada | 2026-11-27 | `2bea917ca781…` |
+| [ca-S147](https://sentit.ortogra.fi/#lectura=ca-S147) | El pescallunes de Torelló | 3r | Provisional · revisió superada | 2026-11-27 | `edeedd8bfeab…` |
+| [ca-S148](https://sentit.ortogra.fi/#lectura=ca-S148) | Les quatre barres de la llegenda | 5è | Provisional · revisió superada | 2026-11-27 | `88d32e03fd04…` |
+| [ca-S149](https://sentit.ortogra.fi/#lectura=ca-S149) | Guillem Tell i la poma | 5è | Provisional · revisió superada | 2026-11-27 | `787935d7142d…` |
+| [ca-S150](https://sentit.ortogra.fi/#lectura=ca-S150) | El gegant i l’Agullola | 4t | Provisional · revisió superada | 2026-11-27 | `8c6801560bdb…` |
+| [ca-S151](https://sentit.ortogra.fi/#lectura=ca-S151) | Atena i l’olivera | 5è | Provisional · revisió superada | 2026-11-27 | `e80eb8741e60…` |
+| [ca-S152](https://sentit.ortogra.fi/#lectura=ca-S152) | Aracne i el tapís | 6è | Provisional · revisió superada | 2026-11-27 | `a2336cfdf3b9…` |
+| [ca-S153](https://sentit.ortogra.fi/#lectura=ca-S153) | La gerra de Pandora | 6è | Provisional · revisió superada | 2026-11-27 | `ee7c29bb607c…` |
+| [ca-S154](https://sentit.ortogra.fi/#lectura=ca-S154) | Orfeu i Eurídice | 6è | Provisional · revisió superada | 2026-11-27 | `8bc31c25f8f3…` |
 
 Les empremtes completes i el revisor consten al [registre de revisions](../content/editorial-reviews.js). La marca provisional només apareix al web si l’empremta coincideix amb el contingut actual. Canviar el guió, les preguntes, les respostes, les pistes, el repartiment o l’escaleta invalida la revisió anterior. Les comprovacions detecten registres caducats abans de publicar.
 

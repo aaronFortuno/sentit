@@ -10835,5 +10835,685 @@ export const questionChoiceReviews = [
     "reviewedAt": "2026-11-27",
     "fingerprint": "caec9491758ecf8bc8fda94828644f2f40da605a338f13751bc57fc7cdb60a20",
     "teacherValidation": "pending"
+  },
+  {
+    "activity": "ca-S143",
+    "questionId": "abast",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_143_146",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "a1fe9c801090e51ddd4691d3ac189b4ef8c8e189efc0bdda0f11fb1f89246d01"
+  },
+  {
+    "activity": "ca-S143",
+    "questionId": "busca",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_143_146",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "d1ddbd2a1b6db40031adb66c09f740994954f54ce3f1d5db1605cf57bd7e4738"
+  },
+  {
+    "activity": "ca-S143",
+    "questionId": "canvi",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_143_146",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "6dbcd349777b76954ded5b36f532eafe537a91ec07de03f93593080e5b977202"
+  },
+  {
+    "activity": "ca-S143",
+    "questionId": "final",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_143_146",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "4f35d651c54ab37b520731c90f26e2b0849d6d4d4117fe024e12b5eb603d8c3f"
+  },
+  {
+    "activity": "ca-S143",
+    "questionId": "tombar",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_143_146",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "79b12d32c85f8f657d02bf2b5486caadf952c090f44b0fb20bae4357c95b053f"
+  },
+  {
+    "activity": "ca-S144",
+    "questionId": "bec",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_143_146",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "af91051015b7a22b6db2761eeeeb2c0bbb8c295b5fbff35c6f0e90955defd8a4"
+  },
+  {
+    "activity": "ca-S144",
+    "questionId": "dificultat",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_143_146",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "33084b04ba35e4a172b158b1494bc9a6732ecb82228d106aad6430bd6b7833ce"
+  },
+  {
+    "activity": "ca-S144",
+    "questionId": "intencio",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_143_146",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "82d718dffe633a86c1d00be937e708111c697e9ff214cc9a5bab433e088a86d8"
+  },
+  {
+    "activity": "ca-S144",
+    "questionId": "primer",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_143_146",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "9bff60ed2795804c6bb302ed5d9b3dea71efa4588cd4bf631d2280a645d5499d"
+  },
+  {
+    "activity": "ca-S144",
+    "questionId": "relacio",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_143_146",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "77c7b0bd0d514cffe512e406cb3e7e08f7f52e092b01fa5053fa0e9c66f7e02f"
+  },
+  {
+    "activity": "ca-S144",
+    "questionId": "segon",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_143_146",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "2afe55c19971e7eeb7d30994cfb8659287a5abd8a9a55e1b250b7d925a151583"
+  },
+  {
+    "activity": "ca-S145",
+    "questionId": "banquet",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_143_146",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "8d199bfead01e283fe6bc925be379ea34eb57b1ab8222a6e010ba8f58716131c"
+  },
+  {
+    "activity": "ca-S145",
+    "questionId": "comparacio",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_143_146",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "b2b5684ae5a8eedab7dfa45f88ddcbce69a1a7908ddaf71aa2cff0c6fdda3a35"
+  },
+  {
+    "activity": "ca-S145",
+    "questionId": "motiu",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_143_146",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "690c492891babad039ff696c5a2b134b27e7242415d64ba9eba19deb6c944681"
+  },
+  {
+    "activity": "ca-S145",
+    "questionId": "oferta",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_143_146",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "47987ceeb3244b5bb7782189444b3cf18d33c15bc6a7dcf28c96b2ebf94c3d96"
+  },
+  {
+    "activity": "ca-S145",
+    "questionId": "primera",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_143_146",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "946b0e2b9e2980a5fcd2f2d6ae7f9043951f7762d4c8fd8eb4e7b19ec3908122"
+  },
+  {
+    "activity": "ca-S145",
+    "questionId": "segona",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_143_146",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "d1c92915d71182b58e422c538d1dfbc97d839dc0538a49746cfd3d8b9d2f8e17"
+  },
+  {
+    "activity": "ca-S146",
+    "questionId": "perdua",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_143_146",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "7cf92aed593c18e4a1ec8b7a87dd10826de0d419e5dd270255fcb63d73eb99ed"
+  },
+  {
+    "activity": "ca-S146",
+    "questionId": "porta",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_143_146",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "f9758a75501a5c2e0401221865f004860b8afb58f40a5401675c730fb656cdf6"
+  },
+  {
+    "activity": "ca-S146",
+    "questionId": "resultat",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_143_146",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "67ba7b284f85d8f692d73539925e1f3feded7e4918e8cbd58f96bfa210516a8e"
+  },
+  {
+    "activity": "ca-S146",
+    "questionId": "veu",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_143_146",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "f107845cbba2a2930af32fb25b7abf261f2185f682f5be72116f6b20b194933c"
+  },
+  {
+    "activity": "ca-S146",
+    "questionId": "vol",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_143_146",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "26e1c628cb0eb48548c824161e1bf285419feb992d8d75e93e13ed84a7cecc1e"
+  },
+  {
+    "activity": "ca-S147",
+    "questionId": "eina",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_147_150",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "f2f88ecc09ffde5cb9784e5d4bb5b16429632bb1ea58ee66e0536046ba6cd5ab"
+  },
+  {
+    "activity": "ca-S147",
+    "questionId": "espera",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_147_150",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "39f434161e856684851b156dd0b1a2a3700dbee88a393e116cc0726f0fba6d43"
+  },
+  {
+    "activity": "ca-S147",
+    "questionId": "lloc",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_147_150",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "e612f15f08661cd414944b8dd3678982c8d96c495549442aac543384decbe0c2"
+  },
+  {
+    "activity": "ca-S147",
+    "questionId": "resultat",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_147_150",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "0c72fdba898da947dceb6acd23058d5a1972158ae35ec14a35fd41cfe888af85"
+  },
+  {
+    "activity": "ca-S147",
+    "questionId": "sobrenom",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_147_150",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "4cc20b9f4e877e81e29af7720f9951fba8cc090c45790a908fc887b85fc025d4"
+  },
+  {
+    "activity": "ca-S148",
+    "questionId": "abast",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_147_150",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "098293c171f5817616623de21dba61bd6b79572ac1e0e0060d7b0f8a05f19797"
+  },
+  {
+    "activity": "ca-S148",
+    "questionId": "escut",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_147_150",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "147992474eb9a7d1a9ab453a0f6b6715f4a90d899e95215af5d00c20a4888741"
+  },
+  {
+    "activity": "ca-S148",
+    "questionId": "fons",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_147_150",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "185f2bda48d44382499ad89f7bad301220fd90cd73368a9750f4956a57554451"
+  },
+  {
+    "activity": "ca-S148",
+    "questionId": "ratlles",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_147_150",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "4dbcbdfeb265666c11ed588b775b63f846439d12f99d63729226f24ab66aa564"
+  },
+  {
+    "activity": "ca-S148",
+    "questionId": "visita",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_147_150",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "b16f7e73cbb50b605f465f7b77cad3aac458afaeaa95ffd67c3088f872d7d30d"
+  },
+  {
+    "activity": "ca-S148",
+    "questionId": "vol",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_147_150",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "71f28e5c7a9227fb531be037ce254635102cb012600d20f16780fd019be1fea7"
+  },
+  {
+    "activity": "ca-S149",
+    "questionId": "condicio",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_147_150",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "56ba0317e14b1c43bec0f781ebd15c77573cfacb74fe9829b79058cf919e4013"
+  },
+  {
+    "activity": "ca-S149",
+    "questionId": "detencio",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_147_150",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "2f5a4a6b9157d931e5ee01072d1b1a242a67fc5cf003611bbf560cf59fb2ce22"
+  },
+  {
+    "activity": "ca-S149",
+    "questionId": "fugida",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_147_150",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "41cae011e6290e59d38df0f142941f26ac45ba8c69521b8d1ce30f2a867e061e"
+  },
+  {
+    "activity": "ca-S149",
+    "questionId": "lligadures",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_147_150",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "0f5389fcc49b42a73f34cbf2513545a5abfa2a4a1454d0f8ca7df8998628fac3"
+  },
+  {
+    "activity": "ca-S149",
+    "questionId": "ordre",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_147_150",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "18eebbc0948a89dcd0ccc1c7c3ba48775fcff36e485d6baf14924bf826280415"
+  },
+  {
+    "activity": "ca-S149",
+    "questionId": "reserva",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_147_150",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "5112cf660c806702d9a0f933047bd3a9008290329704e6544b5c4dd202fbd993"
+  },
+  {
+    "activity": "ca-S150",
+    "questionId": "accio",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_147_150",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "51956a9705ef55b82d4b8757bd4ab4454ba9aae6df4a89d2aab0d651602ce764"
+  },
+  {
+    "activity": "ca-S150",
+    "questionId": "forma",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_147_150",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "51d0734221f6b80bbd182c17d0271605ea3dfd4e7234d8243eff70eced0d9ddb"
+  },
+  {
+    "activity": "ca-S150",
+    "questionId": "lloc",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_147_150",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "24848e4a00e7c4d3f0eaa6c230b9921976793025dfb40c3d98d9c3cf5f910c4e"
+  },
+  {
+    "activity": "ca-S150",
+    "questionId": "motiu",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_147_150",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "c42835470d52d6d0d776df90280020c7795b960256d4197f32479a9d35ba5e63"
+  },
+  {
+    "activity": "ca-S150",
+    "questionId": "relacio",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_147_150",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "1567d5de937a8cdfffde6194fdf345033b4a26eebcbf6133c513630717cdc275"
+  },
+  {
+    "activity": "ca-S151",
+    "questionId": "aigua",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_151_154",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "0f42f7966d00ceeedb70ddec1a8f3eca10a29833c45da1a984698e265da303d4"
+  },
+  {
+    "activity": "ca-S151",
+    "questionId": "disputa",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_151_154",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "f44bd4242bda246ea4cf40486d20ed8b8e82243fe5cf1f8d1e4e1da50cc4cc7a"
+  },
+  {
+    "activity": "ca-S151",
+    "questionId": "marques",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_151_154",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "228db9393d7cf576be6b3730bd0795285ffa8703d4fd4c47830c5174f2c2b975"
+  },
+  {
+    "activity": "ca-S151",
+    "questionId": "oli",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_151_154",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "3eead5c28ae0623dceb96093e90e234490196e0c06d208f3999ce043c587a02b"
+  },
+  {
+    "activity": "ca-S151",
+    "questionId": "resolucio",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_151_154",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "4b855db8fb4532917bf4b3a971f3207f5c0a279650d22540ce766f8eb39e0cee"
+  },
+  {
+    "activity": "ca-S151",
+    "questionId": "testimoni",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_151_154",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "b0a08a10f91adbf601e8a4767f787cf4ce7a42ec22d9ff4fa1fa6f9501f16049"
+  },
+  {
+    "activity": "ca-S152",
+    "questionId": "comparacio",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_151_154",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "994fa3f2a986e915e2d3395b8f9ee9f910dae667879f98bc4a38cb996d6a2df8"
+  },
+  {
+    "activity": "ca-S152",
+    "questionId": "continuitat",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_151_154",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "371db749732bbedfccd12396af7840750f8c99508c84b957b3ad49b73b788e40"
+  },
+  {
+    "activity": "ca-S152",
+    "questionId": "defecte",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_151_154",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "12ab3c7749d75e53161e5b28c6e27a5be96724246d59baecedd31f1948d850e6"
+  },
+  {
+    "activity": "ca-S152",
+    "questionId": "disfressa",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_151_154",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "a3ecc6333607bc73ffa8069ee22396dfa0aebd73c15e8f146303f12ca09f2057"
+  },
+  {
+    "activity": "ca-S152",
+    "questionId": "enuig",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_151_154",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "737555a0647f2d089e78fd87f0b3bba3554319a7fc18e65314a89c67f18927a5"
+  },
+  {
+    "activity": "ca-S152",
+    "questionId": "habilitat",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_151_154",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "08a3fd7949c9bc94282fd8ba45f715981edcd904d9a2b603cd1fa6f03e014bc3"
+  },
+  {
+    "activity": "ca-S153",
+    "questionId": "escampa",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_151_154",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "fa04cc7d3570343966e4c308f31f242dd342b965b079b7725fc7a6a748b22759"
+  },
+  {
+    "activity": "ca-S153",
+    "questionId": "esperanca",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_151_154",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "e2781bf5a70eb447e11491c0d64d2ca1fc408b6491d277aa9fb4f6955788fb5d"
+  },
+  {
+    "activity": "ca-S153",
+    "questionId": "foc",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_151_154",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "6af4368dbbaf0b0c59254cf29868d7359911fea1ec5610b79d44219720108347"
+  },
+  {
+    "activity": "ca-S153",
+    "questionId": "regal",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_151_154",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "f5d7b342420b02d8786d49afc1c219362fde199d12c62bcd9e7216d531306f54"
+  },
+  {
+    "activity": "ca-S153",
+    "questionId": "seqüencia",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_151_154",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "23054262d11ec76dcb30a63c0a7056031db3f2beff753429b720f76c8c48df0b"
+  },
+  {
+    "activity": "ca-S153",
+    "questionId": "silenci",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_151_154",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "401e6ef6340ca786ee8937146ba034793f85e974cfd2dff97c70a9d8529cee42"
+  },
+  {
+    "activity": "ca-S154",
+    "questionId": "accepten",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_151_154",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "87722b29a9aa655eeeb144f5db50d9f9d12237b096998a6b8bc20b4507941012"
+  },
+  {
+    "activity": "ca-S154",
+    "questionId": "condicio",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_151_154",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "b4118907a9095063b07867c43727ee1f89be978403d30c163eab648492c70f00"
+  },
+  {
+    "activity": "ca-S154",
+    "questionId": "demanda",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_151_154",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "63f30d568625e9bf04fb4739996472fc3d5db71cb40eac822a024a03d423c319"
+  },
+  {
+    "activity": "ca-S154",
+    "questionId": "fracassa",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_151_154",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "e71e65bd1ca7ec1733a822bb03888f000ecd47bed0688eaf71903a3b2ea43ace"
+  },
+  {
+    "activity": "ca-S154",
+    "questionId": "nou",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_151_154",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "36cd7d2170892b95b11ab7136705cad2de8cf42b49bc0a25b5fff75e4ccaa0a1"
+  },
+  {
+    "activity": "ca-S154",
+    "questionId": "por",
+    "status": "passed",
+    "author": "root",
+    "reviewer": "/root/revisio_tradicio_151_154",
+    "reviewedAt": "2026-11-27",
+    "teacherValidation": "pending",
+    "fingerprint": "93ae4b9ef49bff9c891ae98e4d08a9ca6343d66cebec35dd7c1c4b9bf0afe52a"
   }
 ];
