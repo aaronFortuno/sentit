@@ -1,5 +1,5 @@
 import { mountLicense } from './ortografi-base/license.js?v=0.3.0';
-import { mountV4V } from './ortografi-base/v4v.js?v=0.3.0';
+import { mountV4V } from './ortografi-base/v4v.js?v=0.4.0';
 import { activities, legacyActivities } from './catalogue.js';
 import { renderRepairPreview, renderVoicePreview } from './repair-preview.js?v=0.1.136';
 import { strings } from './locales.js?v=0.1.136';
@@ -739,7 +739,6 @@ byId('copy-link').addEventListener('click', async () => {
   }
 });
 mountV4V(byId('v4v'), document.querySelector('[data-of-open="v4v"]'), {
-  messages: () => ({ copied: t('addressCopied'), manual: t('copyHelp') }),
   onOpen: () => track('obre_v4v'),
   onCopy: () => track('copia_lightning'),
 });
