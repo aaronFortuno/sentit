@@ -432,11 +432,9 @@ button, a, input, select, summary, fieldset { transition: color var(--motion), b
 @media (max-width: 640px) {
   .top-inner { min-height: 53px; }
   .identity { flex-direction: column; align-items: flex-start; gap: 2px; }
-  .header-motto { display: none; }
   .identity { flex-direction: column; align-items: start; gap: 3px; }
   .header-context { max-width: 100%; padding: 0; border: 0; }
   .header-catalog-count { font-size: .7rem; }
-  .catalog-ready-context { display: none; }
   .brand { font-size: 1.8rem; }
   .brand img { width: 30px; height: 30px; }
   .catalog { padding: 9px 12px; max-height: 180px; }

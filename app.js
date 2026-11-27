@@ -1,9 +1,11 @@
+import { mountGalleryHelp, mountGallerySearch } from './ortografi-base/gallery-controls.js?v=0.8.0';
+import { localiseGalleryHelp } from './ortografi-base/gallery-help-copy.js?v=0.8.0';
 import { mountChangelog } from './ortografi-base/changelog.js?v=0.5.0';
 import { mountLicense } from './ortografi-base/license.js?v=0.6.0';
 import { mountV4V } from './ortografi-base/v4v.js?v=0.4.0';
 import { activities, legacyActivities } from './catalogue.js';
 import { renderRepairPreview, renderVoicePreview } from './repair-preview.js?v=0.1.136';
-import { strings } from './locales.js?v=0.1.136';
+import { strings } from './locales.js?v=0.1.136&base=0.8.0';
 import { defaultFormat, imageOptions, maxLines, questionFormat, renderWorksheet, transcriptPosition } from './worksheet.js?v=0.1.136';
 import { clockTime, decodeSession, defaultSession, encodeSession, guidedPrompts, validRate, sessionJingles, validJingle } from './session.js';
 import { renderAudioResources } from './audio-resources.js';
@@ -16,7 +18,7 @@ import { mountAudioPreview } from './audio-preview.js?v=0.1.136';
 import { createTrackPlayer } from './track-player.js';
 import { activityAudioParts } from './activity-audio.js';
 import { mountNarrationMusicPreview } from './narration-music-preview.js?v=0.1.136';
-import { mountCatalog } from './catalog.js?v=0.1.136&base=0.7.0';
+import { mountCatalog } from './catalog.js?v=0.1.136&base=0.8.0';
 import { listCollections, saveCollectionLayout } from './collections.js';
 import { durationText } from './activity-meta.js';
 import { universeName, universesForActivity } from './content/universes.js';
@@ -773,6 +775,8 @@ translate();
 route();
 if(listenId===null && query.has('musiques'))musicPreview.open(query.get('musiques'));
 
+mountGallerySearch(document.querySelector('.of-gallery-head'));
+mountGalleryHelp(byId('help-dialog'), byId('help-open'), () => localiseGalleryHelp(byId('help-dialog'), 'sentit', language));
 mountLicense(document.getElementById('project-license'), document.getElementById('license-open'));
 
 mountChangelog(document.getElementById('changes'), document.querySelector('[data-of-release="changes"]'), { onOpen: () => track('consulta_canvis') });

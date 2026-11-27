@@ -1,19 +1,17 @@
 .catalog-view {
   min-height: 0;
   margin-inline: auto;
-  padding-block: clamp(12px, 1.65vw, 25px);
+  padding-block: 14px 15px;
   display: grid;
   grid-template-rows: minmax(0, 1fr);
 }
 .catalog-view:focus, .workspace:focus { outline: none; }
-.catalog-search { width: min(100%, 340px); }
-.header-catalog-search { flex: 0 1 340px; min-width: 180px; }
-.catalog-search input, #collection-select, .dialog-content :is(input, select) {
+#collection-select, .dialog-content :is(input, select) {
   width: 100%; min-height: 36px; padding: 7px 10px;
   border: 1px solid var(--line); border-radius: 7px; background: var(--panel); color: var(--ink);
 }
 .catalog-layout { min-height: 0; }
-.catalog-view .catalog { grid-area: auto; max-height: none; padding: 16px 19px 16px 16px; }
+.catalog-view .catalog { grid-area: auto; max-height: none; padding: 12px; }
 .catalog-view #filters { grid-template-columns: minmax(0, 1fr); gap: 10px; padding-bottom: 0; }
 .filter-panel-wrap { position: relative; }
 #filter-panel > summary { min-height: 28px; padding-inline-end: 35px; }
@@ -120,9 +118,7 @@
 }
 @media (max-width: 640px) {
   .catalog-view { padding-block: 12px 8px; }
-  .top-inner { flex-wrap: wrap; padding-block: 8px; row-gap: 4px; }
   .top-actions { margin-inline-start: auto; }
-  .header-catalog-search { order: 3; flex: 1 0 100%; width: 100%; min-width: 0; }
   .catalog-view .catalog { padding: 10px 14px; }
   .catalog-view #filters { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 12px; }
   .catalog-collections { margin-top: 10px; padding-top: 9px; }
