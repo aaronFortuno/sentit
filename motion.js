@@ -121,7 +121,7 @@ export function closeDialog(dialog, afterClose) {
 }
 
 export function mountDialogs() {
-  for (const dialog of document.querySelectorAll('dialog:not([data-of-v4v])')) {
+  for (const dialog of document.querySelectorAll('dialog:not([data-of-v4v], [data-of-dialog])')) {
     dialog.addEventListener('cancel', event => { event.preventDefault(); closeDialog(dialog); });
     dialog.addEventListener('submit', event => { if (event.target.method === 'dialog') { event.preventDefault(); closeDialog(dialog); } });
     dialog.addEventListener('click', event => {

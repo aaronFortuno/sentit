@@ -1,4 +1,5 @@
-import { mountV4V } from './ortografi-base/v4v.js?v=0.2.0';
+import { mountLicense } from './ortografi-base/license.js?v=0.3.0';
+import { mountV4V } from './ortografi-base/v4v.js?v=0.3.0';
 import { activities, legacyActivities } from './catalogue.js';
 import { renderRepairPreview, renderVoicePreview } from './repair-preview.js?v=0.1.136';
 import { strings } from './locales.js?v=0.1.136';
@@ -771,3 +772,5 @@ theme();
 translate();
 route();
 if(listenId===null && query.has('musiques'))musicPreview.open(query.get('musiques'));
+
+mountLicense(document.getElementById('project-license'), document.getElementById('license-open'));

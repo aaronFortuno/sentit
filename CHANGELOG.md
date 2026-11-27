@@ -2,6 +2,8 @@
 
 ## Pendent de publicar
 
+- Peu de pilot amb icones per a l’historial, el diàleg de llicències, el repositori i el V4V. En mòbil es mantenen les icones amb etiquetes accessibles.
+
 - La mostra incorpora el menú d’idioma amb icona, lemes, un historial d’exemple i l’enllaç a la llicència. Els diàlegs, els menús i els canvis de tema de la mostra comparteixen una transició de 220 ms.
 
 - Pilot de la capçalera, el peu i el diàleg V4V compartits amb Trama. La mostra és a `proves/base-v2/` i el reproductor d’alumnat manté la seva vista reduïda.

@@ -256,6 +256,7 @@ audio[controls] { inline-size: 100%; min-width: 0; margin-top: 7px; height: 38px
 .panel-footer .small { margin-top: 7px; }
 .bottom-inner { min-height: 47px; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 10px; font-size: .85rem; }
 .motto { color: var(--quiet); }
+.footer-context { display: grid; gap: 2px; min-width: 0; }
 .parent-brand { display: flex; gap: 4px; align-items: center; text-decoration: none; }
 .parent-brand img { object-fit: contain; }
 [data-theme="dark"] .parent-brand img { filter: brightness(2.35) saturate(.65); }
@@ -459,7 +460,7 @@ button, a, input, select, summary, fieldset { transition: color var(--motion), b
   .activity-selector select { font-size: 1rem; }
   .activity-selection .meta { display: none; }
   .bottom-inner { min-height: 43px; grid-template-columns: 1fr auto; gap: 5px; font-size: .75rem; }
-  .motto { display: none; }
+  .footer-context { grid-column: 1 / -1; }
   .parent-brand img { width: 67px; }
   .bottom nav { gap: 4px 8px; }
   .bottom .footer-provisional { flex-basis: 100%; justify-content: flex-end; }
