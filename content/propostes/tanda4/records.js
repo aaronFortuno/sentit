@@ -76,8 +76,8 @@ export const records = [
     ],
   }),
   proposal({
-    id: 'el-dia-que-no-va-sonar-el-disc', code: 'S070', title: 'El dia que no va sonar el disc', grade: '6', level: 'easy', genre: 'story', universeIds: ['aina-ferran'],
-    seconds: 110, status: 'ready-for-review', reviewStatus: 'audio-review',
+    id: 'el-dia-que-no-va-sonar-el-disc', code: 'S070', image: {"src":"./assets/images/s070-publicacio-v1.webp","alt":"En Ferran explica un record a l’Aina al costat d’una finestra que dona a la plaça.","width":1536,"height":1024}, title: 'El dia que no va sonar el disc', grade: '6', level: 'easy', genre: 'story', universeIds: ['aina-ferran'],
+    seconds: 110, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s070-mixed-v1.mp3', tracks: { introduction: './assets/audio/s070-mixed-v1-intro.mp3', body: './assets/audio/s070-mixed-v1-cos.mp3' },
     fragment: { start: 4.54, seconds: 105 },
     summary: 'Un tall de llum atura el ball d’una festa. Mentre esperen que torni, el pare d’en Ferran recupera un instrument que feia temps que no tocava davant de tanta gent.',

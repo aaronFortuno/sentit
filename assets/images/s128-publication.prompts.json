@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-27",
+  "tool": "image_gen built-in",
+  "code": "S128",
+  "file": "s128-publicacio-v1.webp",
+  "alt": "Un lleó i un ratolí es miren en una clariana.",
+  "width": 1536,
+  "height": 1024,
+  "references": [],
+  "sourceImage": "exec-f8b072f2-1813-485f-91e6-e991c519b085.png",
+  "prompt": "Use case: illustration-story. One new educational storybook illustration for Sentit, landscape 3:2 1536x1024. Fine expressive ink lines and delicate muted watercolor on warm white textured paper, sage foliage, earthy ochre, softly fading outer margins, refined naturalistic children's book art matching a quiet Catalan classroom worksheet. In a sunlit woodland clearing, an awake adult male lion sits alert in the midground and looks with mild curiosity at a tiny brown mouse standing on a low stone in the foreground at a respectful distance. Mouse and lion clearly recognizable, believable animal proportions and anatomy, friendly but not comic or dressed as humans. Their bodies do not touch. Establish the contrast of size and their encounter without illustrating an action or ending. No sleeping, paw on mouse, capture, hunters, nets, ropes, teeth gnawing, gratitude gesture, released animal or rescue. No text, letters, numbers, speech bubbles, logo, watermark, panels or human characters.",
+  "encoding": "WebP quality 88; original PNG preserved locally.",
+  "sourceImageSha256": "d2dbf5202a1780ce474d2bb5023441e9db9b2e7f1a18f162018df81080574f11",
+  "imageSha256": "80f6c8202e49ad34cbdde592f4d9374d7c7127a510758af854d96dc3c3a2ea23"
+}

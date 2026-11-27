@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-27",
+  "tool": "image_gen built-in",
+  "code": "S130",
+  "file": "s130-publicacio-v1.webp",
+  "alt": "Ariadna i Teseu conversen davant d’una entrada de pedra a Creta.",
+  "width": 1536,
+  "height": 1024,
+  "references": [],
+  "sourceImage": "exec-d92a091b-892a-416c-9f60-51225a44c274.png",
+  "prompt": "Use case: illustration-story. Create one new Sentit educational worksheet illustration, landscape 3:2 1536x1024. Delicate ink and muted watercolor on warm white paper with softly fading edges, ochre limestone, sage and dusty terracotta. An ancient Cretan palace courtyard with a monumental dark stone doorway and angular adjoining walls suggesting a maze beyond. Two young ancient Greek characters, Ariadne and Theseus, stand naturally in the foreground before approaching the doorway, turned slightly towards each other in a thoughtful conversation. Ariadne wears a simple muted terracotta ancient dress, Theseus a plain blue-grey tunic with sandals, natural anatomy and neither resembling any modern recurring Sentit character. Their hands are EMPTY, relaxed and visible. No spool, thread, string, cords, tools, weapons, monster or bull-headed figure; no map or view revealing the labyrinth route, no boat, rescue, fight, victory or ending. No text, labels, numbers, logos, watermark, panels or modern clothing.",
+  "encoding": "WebP quality 88; original PNG preserved locally.",
+  "sourceImageSha256": "baace4b42ca5865339e07bf2bcca84f821ea1aa98403afee389db74b4ffbd66d",
+  "imageSha256": "4c121c0ee0a4969adc57b5efd8ae6b3e52dd54bc4f385b43cc9c0bced0ccdf8f"
+}

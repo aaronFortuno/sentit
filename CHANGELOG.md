@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.134 · 27 de novembre de 2026
+
+- Vuit publicacions definitives validades pel docent: S070, S095, S122, S128, S129, S130, S132 i S137. Els muntatges i les pistes modulars aprovades es conserven exactament, sense síntesi ni remuntatge.
+- Set il·lustracions contextuals noves i imatge de S095 conservada. Cards, fitxes i solucionaris nets, amb transcripció només parlada, preguntes obertes/ABCD i fonts culturals visibles.
+- Primeres faules, llegendes i mite definitius als seus universos. Revisió independent final, seguiment actualitzat i retirada de les proves de treball tancades de la publicació, conservades en local.
+
 ## 0.1.133 · 27 de novembre de 2026
 
 - Universos de dotze a deu: A peu de camí s’integra a Situacions quotidianes; Històries amb sentit, al fil de l’Aina i l’avi Ferran. Els noms locutats de programa i els guions aprovats es conserven, amb equivalències dels IDs antics a la classificació.

@@ -1,0 +1,184 @@
+{
+  "date": "2026-11-27",
+  "confirmation": "Els 8 muntatges finals que teníem pendents de revisió queden validats per publicació definitiva",
+  "codes": [
+    "S070",
+    "S095",
+    "S122",
+    "S128",
+    "S129",
+    "S130",
+    "S132",
+    "S137"
+  ],
+  "entries": [
+    {
+      "code": "S070",
+      "title": "El dia que no va sonar el disc",
+      "source": "content/propostes/tanda4/records.js",
+      "beforeFingerprint": "c329111785d5c98723a68257817238bd4792b6d1e4aa29db52169070f355f2dd",
+      "speechHash": "beb401001a4450b2ac23c0c7ce2a24a0abe15abe13b65cabbfdba51e59495341",
+      "audio": [
+        {
+          "file": "./assets/audio/s070-mixed-v1.mp3",
+          "sha256": "48133be44ef6ee07d35358005623c8c7daf451a99614b1c33f13014021fb1260"
+        },
+        {
+          "file": "./assets/audio/s070-mixed-v1-intro.mp3",
+          "sha256": "c33a4e83788c0a7afeac8d6eb9564a7f453c589b80476637c01f0b4738ac3ad1"
+        },
+        {
+          "file": "./assets/audio/s070-mixed-v1-cos.mp3",
+          "sha256": "057c82a786306e76966446032813f189c188b84bc49cbabdca680f236639229d"
+        }
+      ]
+    },
+    {
+      "code": "S095",
+      "title": "Un paquet massa llarg",
+      "source": "content/propostes/quotidianes/ferran-gestions.js",
+      "beforeFingerprint": "02100f358d48f5665d0578cde25f9cca7ff53ac99c2fdfeac6c4c3eed95d4661",
+      "speechHash": "a14faa349ecd9d7d54bc2fabe2b5ad32fa6defc03842ff0bcc1ba7c3e8b9b9b4",
+      "audio": [
+        {
+          "file": "./assets/audio/s095-mixed-v1.mp3",
+          "sha256": "1757767033c5369a4144cdb9b588fbb6b680c7ccd2206c1c2b337a506c61a5d9"
+        },
+        {
+          "file": "./assets/audio/s095-mixed-v1-intro.mp3",
+          "sha256": "c03c788a28392270db3c1d067078fc66ceeda72d283eedf4d0e5f4e9314e004d"
+        },
+        {
+          "file": "./assets/audio/s095-mixed-v1-cos.mp3",
+          "sha256": "6de4d81d1d8eb5da69114613af166f33a087296cbb98a76b14293b9da0f38890"
+        }
+      ]
+    },
+    {
+      "code": "S122",
+      "title": "Com conserva el fred una bossa tèrmica?",
+      "source": "content/propostes/equilibri/explicacions.js",
+      "beforeFingerprint": "87985c1ebba5cf32cb53707c0bdfa300804684982d64458006185eb243e0012d",
+      "speechHash": "267ea87313d2b43622921a3b9cc857701f462d3ffff0abf2337fdb81f66fdc1d",
+      "audio": [
+        {
+          "file": "./assets/audio/s122-mixed-v1.mp3",
+          "sha256": "0c4e51fc6bb9248fa2505315b411e853f11dda3ba4568faee6f417ea088f45ec"
+        },
+        {
+          "file": "./assets/audio/s122-mixed-v1-intro.mp3",
+          "sha256": "59d2a7bbabec630ca6f635063bb04b624b00699d98de1b2510d0f5dd0cdf4647"
+        },
+        {
+          "file": "./assets/audio/s122-mixed-v1-cos.mp3",
+          "sha256": "c1db820ae3794884b2194be0ee950309ec6a04549c471f3fac98f6cc09fcd7a0"
+        }
+      ]
+    },
+    {
+      "code": "S128",
+      "title": "El lleó i el ratolí",
+      "source": "content/propostes/tradicio/index.js",
+      "beforeFingerprint": "99615c0422a803e949373b3c19c0aaa8f9eba44110ee6355cf73b4ad6a1add3a",
+      "speechHash": "f7a126494e4b66580fbe46e897a649032d0cf3ea2240bc4de5148ef86184daee",
+      "audio": [
+        {
+          "file": "./assets/audio/s128-mixed-v1.mp3",
+          "sha256": "066ca1266949f660b1bcd1c2346645351d40174218b2f934bbb75675c1e3064d"
+        },
+        {
+          "file": "./assets/audio/s128-mixed-v1-intro.mp3",
+          "sha256": "c83d26d81c73ffc7ee14a5c53ea4f80fcbd0fd1ea6ef98c1d539889b4f665d83"
+        },
+        {
+          "file": "./assets/audio/s128-mixed-v1-cos.mp3",
+          "sha256": "fc2ad293205e885d5e2d0be24fbe162d3c79a29bf33f401cf630c4ff8c3eedc0"
+        }
+      ]
+    },
+    {
+      "code": "S129",
+      "title": "Sant Jordi i la rosa",
+      "source": "content/propostes/tradicio/index.js",
+      "beforeFingerprint": "7d58aeacae24b658ddc6f46929c09da13c598f19a51447b99ced666d914bedef",
+      "speechHash": "9ce2daa7ec99e20a395958c12c7fd7290487f64db097f83e42cf1e67e7412d31",
+      "audio": [
+        {
+          "file": "./assets/audio/s129-mixed-v1.mp3",
+          "sha256": "6f0c4b43da31ede9cb24d6fb6d4debc957dd2bcb58ee74b8ec6207735df59e6a"
+        },
+        {
+          "file": "./assets/audio/s129-mixed-v1-intro.mp3",
+          "sha256": "b41c7d9bea4fa377f490cddda8a3ce6c9da7bb7ea8219865a3c309e893d11753"
+        },
+        {
+          "file": "./assets/audio/s129-mixed-v1-cos.mp3",
+          "sha256": "010a08ac945592708f4a66a5cabdc4e340aebb5142562c0aef0149862943696a"
+        }
+      ]
+    },
+    {
+      "code": "S130",
+      "title": "El fil d’Ariadna",
+      "source": "content/propostes/tradicio/index.js",
+      "beforeFingerprint": "937eeb6988810383653f82c41d8cb02f9b33361a2a4087ff51003e4ce42af6a3",
+      "speechHash": "b63b2506d9112c0b827823fdfd4e43c59b11385c3bee9171b4aca3eb8a415c34",
+      "audio": [
+        {
+          "file": "./assets/audio/s130-mixed-v1.mp3",
+          "sha256": "6d9a1914e0e6b9dd6b6f901631e3a06c67ad204282717e1b28323527c102741d"
+        },
+        {
+          "file": "./assets/audio/s130-mixed-v1-intro.mp3",
+          "sha256": "c80bab3d4beb6f3d2fd367a09e653d3792f32d5225669a7dc57d88d8394bfa87"
+        },
+        {
+          "file": "./assets/audio/s130-mixed-v1-cos.mp3",
+          "sha256": "1a6c31fcd3aa04a7edb04269c23b206efa742866673f8cfa46ef44d756fb5b5d"
+        }
+      ]
+    },
+    {
+      "code": "S132",
+      "title": "La llebre i la tortuga",
+      "source": "content/propostes/tradicio/faules-20261126.js",
+      "beforeFingerprint": "590f755cd2d91262736585e24a9162ece121d122a553505ed8721a73b4e188c6",
+      "speechHash": "c355b3aa490f767bde3f8c6d0c460ec7f83b63f7d0484b19260f09f2d8d6651c",
+      "audio": [
+        {
+          "file": "./assets/audio/s132-mixed-v1.mp3",
+          "sha256": "5350f2145bf1f767ec314e2400ff0a3662b9c1f98ff4b55e74d490384c502ce6"
+        },
+        {
+          "file": "./assets/audio/s132-mixed-v1-intro.mp3",
+          "sha256": "fae369a3f0b396a5c7e06e07edfc8616c597e74476ed5c8b364f1a99039d5b58"
+        },
+        {
+          "file": "./assets/audio/s132-mixed-v1-cos.mp3",
+          "sha256": "87259f2c1ab77ad7b24929575d425fc07e6015b67501b36164c3800588a9d138"
+        }
+      ]
+    },
+    {
+      "code": "S137",
+      "title": "El timbaler i el ressò",
+      "source": "content/propostes/tradicio/llegendes-20261126.js",
+      "beforeFingerprint": "4649f1c80aa3afb6054293b296bd6cfe1a90a8133b51b67b1b90aba35243f1ea",
+      "speechHash": "ddc6a3e764e52217feccf9908c34622cdddee109f935f8d28b2ca62cd09d8ff7",
+      "audio": [
+        {
+          "file": "./assets/audio/s137-mixed-v1.mp3",
+          "sha256": "b2b35b1bc2793f33c755093acb711dc45ac6384f6db3d2d692090801eaadd0ef"
+        },
+        {
+          "file": "./assets/audio/s137-mixed-v1-intro.mp3",
+          "sha256": "b7307194c9715f24995ae9271cae030d39e8cd2b93e0a25f6e123c46bcd67992"
+        },
+        {
+          "file": "./assets/audio/s137-mixed-v1-cos.mp3",
+          "sha256": "1b2cce9344d973a4c0ff4e971cb5e51f8da671e1b781f5b800c24222c4117c51"
+        }
+      ]
+    }
+  ]
+}

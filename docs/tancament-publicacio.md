@@ -1,5 +1,7 @@
 # Tancament dels materials abans de publicar
 
+Tanda del 27/11/2026: S070, S095, S122, S128, S129, S130, S132 i S137, els vuit muntatges pendents d’audició, validats explícitament pel docent per a publicació definitiva. Set il·lustracions noves amb prompts conservats; S095 manté la imatge coherent amb els tres interlocutors. Transcripcions només parlades, fonts culturals, preguntes obertes/ABCD i pistes modulars aprovades intactes. [Detall de la publicació](publicacio-2026-11-27-vuit.md).
+
 ## Rutina de neteja en cada publicació definitiva
 
 Després de la validació docent i del tancament de materials i incidències, executar `node tools/prepare-publication.mjs --apply`. És part obligatòria del mateix procés de publicació, no una tasca que hagi de fer el docent a mà:

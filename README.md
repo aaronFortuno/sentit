@@ -1,5 +1,7 @@
 # Sentit
 
+**Publicació del 27/11:** [vuit muntatges definitius](docs/publicacio-2026-11-27-vuit.md): S070, S095, S122, S128, S129, S130, S132 i S137. Primeres faules, llegendes i mite disponibles, amb il·lustracions i imprimibles nets. Pistes aprovades intactes, sense síntesi nova.
+
 **Seguiment d’ús i difusió:** [guia d’estadístiques d’Umami](docs/estadistiques.md): lectures i universos més consultats, intenció d’impressió, sessions d’escolta, col·leccions i canals coneguts. Dades de publicats i provisionals separades, sense textos privats.
 
 Banc de comprensió oral d’ortogra.fi. El docent tria una activitat, prepara la fitxa i el solucionari i els imprimeix. L’alumnat respon al paper i escolta l’àudio des del QR o l’enllaç. Web estàtic, sense comptes ni servidor d’aplicació.
@@ -12,19 +14,19 @@ Banc de comprensió oral d’ortogra.fi. El docent tria una activitat, prepara l
 
 [Política d’àudio i neteja del repositori](docs/neteja-audio.md): títol/relat, recursos reutilitzables i revisions pendents al web; màsters complets i proves tancades en local. `node tools/public-audio.mjs --apply` sincronitza la publicació sense esborrar originals; `--check` comprova els fitxers abans de pujar. Neteja de proves i duplicats aplicada el 26/11: uns **289 MB d’historial net** i **298 MB de fitxers publicables**. Còpies completes de recuperació fora del repo; allotjament a GitHub Pages. Altres clons antics s’han de sincronitzar amb la història nova abans de treballar-hi.
 
-[Músiques per a faules, llegendes i mites](docs/musiques-tradicio.md): repertori validat de faules **F1/F4/F5/F6**, llegendes **L1–L3** i mites **M1–M3** al [comparador integrat](https://sentit.ortogra.fi/?musiques=faules-mon). Alternança entre produccions del mateix univers i mateixa composició entre variants d’un relat. S130 muntada amb M1, pendent d’audició; originals complets locals. [Mida i previsió per a 600 exercicis](docs/mida-i-creixement.md).
+[Músiques per a faules, llegendes i mites](docs/musiques-tradicio.md): repertori validat de faules **F1/F4/F5/F6**, llegendes **L1–L3** i mites **M1–M3** al [comparador integrat](https://sentit.ortogra.fi/?musiques=faules-mon). Alternança entre produccions del mateix univers i mateixa composició entre variants d’un relat. S130 definitiva amb M1; originals complets locals. [Mida i previsió per a 600 exercicis](docs/mida-i-creixement.md).
 
 **Doble format a tot el catàleg:** 150 peces, 1.076 preguntes: 1.072 alternatives ABCD i 4 obertes justificades. El format general i les excepcions es desen entre sessions i col·leccions. [Cobertura](docs/preguntes-abcd-seguiment.md) · [Criteris](docs/preguntes-abcd.md). El pilot conserva l’aprovació docent; la resta d’alternatives continua pendent del seu vistiplau.
 
 **Publicació del 26/11:** [nou peces definitives](docs/publicacio-2026-11-26-nou.md): S088, S041, S085, S090, S093, S118, S109, S017 i S081. Il·lustracions noves, solucionaris nets i màsters aprovats intactes.
 
-**Tanda d’equilibri:** [S112–S127](docs/pla-equilibri-2026-11-25.md), setze guions amb preguntes duals i revisió independent. Quinze peces definitives i S122 amb la regeneració completa pendent d’audició. [Publicacions i accés als muntatges](docs/publicacio-equilibri-2026-11-26.md).
+**Tanda d’equilibri:** [S112–S127](docs/pla-equilibri-2026-11-25.md), setze guions amb preguntes duals i revisió independent, tots definitius. S122 tancada el 27/11 amb la regeneració completa validada i il·lustració. [Publicacions i accés als muntatges](docs/publicacio-equilibri-2026-11-26.md).
 
 **Fonts dels relats culturals:** [bibliografia de S128–S142](docs/fonts-tradicio.md) visible al web i als dos imprimibles, amb l’adaptació de Sentit identificada. [Muntatges i lots L45–L47](docs/muntatges-2026-11-26-cultura.md), per a l’audició docent. S133/S142 validats i rebuts a L47; S095 adaptada a tres interlocutors amb la gravació original.
 
-**Pilots de tradició amb guió validat:** [S128–S130](docs/pilots-tradicio.md), una faula de 3r, una llegenda de 4t i un mite grec de 5è. Fonts i decisions d’adaptació explícites, 18 preguntes duals i revisió adversària superada. Veus rebudes a L41, juntament amb la nova presa íntegra de S070. [Resultats i comparacions del 26/11](docs/lots-2026-11-26.md). S128/S129/S130 tenen les veus validades i primers muntatges amb F1/L1/M1 pendents d’audició.
+**Pilots de tradició definitius:** [S128–S130](docs/pilots-tradicio.md), una faula de 3r, una llegenda de 4t i un mite grec de 5è. Fonts i decisions d’adaptació explícites, 18 preguntes duals i revisió adversària superada. Muntatges amb F1/L1/M1 validats i publicats el 27/11. Veus rebudes a L41, juntament amb la nova presa íntegra de S070, també definitiva.
 
-**Ampliació de tradició:** [S131–S142](docs/ampliacio-tradicio-2026-11-26.md), quatre faules, quatre llegendes i quatre mites, amb 75 preguntes duals, fonts i revisió creuada. Els dotze guions estan validats i les dotze preses rebudes a L45–L47. S132/S137 tenen muntatge pendent d’audició; S135 espera dues esmenes i la resta de veus, revisió docent. El títol de S131 continua parcial.
+**Ampliació de tradició:** [S131–S142](docs/ampliacio-tradicio-2026-11-26.md), quatre faules, quatre llegendes i quatre mites, amb 75 preguntes duals, fonts i revisió creuada. Els dotze guions estan validats i les dotze preses rebudes a L45–L47. S132/S137 són definitives des del 27/11; S135 espera dues esmenes i la resta de veus, revisió docent. El títol de S131 continua parcial.
 
 **Muntatges amb esmenes validades:** [S109, S088, S081 i S090](docs/muntatges-esmenes-2026-11-26.md), amb veus ja aprovades i pendents d’audició final. S017 conserva les veus originals. Les proves bones de S010 i S102 es guarden mentre es repeteixen només els torns encara incorrectes.
 

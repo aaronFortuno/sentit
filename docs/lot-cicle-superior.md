@@ -75,7 +75,7 @@ Ferran · Algenib. Les lectures són independents; no cal haver-ne escoltat cap 
 | --- | --- | --- | --- | --- | ---: | --- |
 | [ca-S068](https://sentit.ortogra.fi/#lectura=ca-S068) | El dinar al banc de l’estació | 5è · Accessible | Narració | 1:39 | 8 | Definitiva |
 | [ca-S069](https://sentit.ortogra.fi/#lectura=ca-S069) | La pissarra del partit | 5è · Intermèdia | Narració | 1:47 | 8 | Definitiva |
-| [ca-S070](https://sentit.ortogra.fi/#lectura=ca-S070) | El dia que no va sonar el disc | 6è · Accessible | Narració | 1:45 | 9 | Àudio en revisió |
+| [ca-S070](https://sentit.ortogra.fi/#lectura=ca-S070) | El dia que no va sonar el disc | 6è · Accessible | Narració | 1:45 | 9 | Definitiva |
 | [ca-S071](https://sentit.ortogra.fi/#lectura=ca-S071) | Les dues entrades blaves | 5è · Avançada | Narració | 2:42 | 8 | Definitiva |
 | [ca-S072](https://sentit.ortogra.fi/#lectura=ca-S072) | El quadern de la parada | 6è · Avançada | Narració | 2:33 | 9 | Definitiva |
 

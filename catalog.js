@@ -6,7 +6,7 @@ import { characters } from './content/characters.js';
 import { isPendingReview, needsReview } from './review.js';
 import { universes, universeName, universesForActivity } from './content/universes.js';
 import { reviewCaption } from './editorial-review.js';
-import { track, countBucket } from './analytics.js?v=0.1.133';
+import { track, countBucket } from './analytics.js?v=0.1.134';
 import { productionStage, productionStages, pendingProductionStages } from './production-stage.js';
 import { syncSelects } from './select-menu.js';
 import { matchesCatalogFilters, catalogFacetCounts } from './catalog-filters.js';

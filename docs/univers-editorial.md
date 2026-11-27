@@ -26,7 +26,7 @@ Les assignacions i els IDs estables consten a [content/universes.js](../content/
 - **A peu de camí → Situacions quotidianes.** Les quatre passejades S108–S111 comparteixen el marc de converses quotidianes. No necessiten una categoria addicional per poder-les localitzar.
 - **Històries amb sentit → Els records de l’avi Ferran.** S008R i S043 expliquen històries de l’Aina i el seu avi. S008R ja constava en aquest fil: s’hi compta una sola vegada. «Històries amb sentit» continua sent el nom del programa anunciat a S008R, sense un filtre propi.
 
-De dotze universos a deu. Set tenen material definitiu i els altres tres —faules, llegendes i mites— apareixen a la vista de provisionals fins que es validin els muntatges. Es mantenen diferenciats pel seu valor de cerca i treball cultural; una categoria amb poc material no implica per si sola que s’hagi d’eliminar.
+De dotze universos a deu. Tots deu tenen material definitiu des de la [publicació del 27/11](publicacio-2026-11-27-vuit.md), que incorpora les primeres faules, llegendes i mite. Es mantenen diferenciats pel seu valor de cerca i treball cultural; una categoria amb poc material no implica per si sola que s’hagi d’eliminar.
 
 Els IDs antics dels guions i plans de producció es conserven. `universeAliases` resol `a-peu-de-cami` com `situacions-quotidianes` i `histories-sentit` com `aina-ferran` a la classificació, als filtres i als esdeveniments nous. No s’alteren textos, veus, aprovacions ni col·leccions. L’històric d’estadístiques manté les etiquetes originals; vegeu [la guia d’Umami](estadistiques.md).
 

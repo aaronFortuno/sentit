@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-27",
+  "tool": "image_gen built-in",
+  "code": "S137",
+  "file": "s137-publicacio-v1.webp",
+  "alt": "Un jove amb un tambor descansa en un camí de Montserrat.",
+  "width": 1536,
+  "height": 1024,
+  "references": [],
+  "sourceImage": "exec-08956f06-cf7d-4443-8abe-31c92432e0f7.png",
+  "prompt": "Use case: illustration-story. Create one new Sentit educational worksheet illustration, landscape 3:2 1536x1024. Refined fine ink and soft muted watercolor, warm white textured paper and gently fading edges, ochre limestone, dusty terracotta and sage. A young Catalan drummer of the early nineteenth century, in a plain cream shirt, dark waistcoat, worn brown trousers, simple shoes and muted red cloth cap, pauses on a mountain footpath. A small historically plausible rope-tension wooden side drum hangs from a shoulder strap, both drumsticks held lowered, NOT playing. He looks thoughtfully ahead towards the route. Recognizable rounded Montserrat ridgeline in the DISTANCE, sparse shrubs and a low stone wall. Natural youthful face and believable hands; no modern recurring Sentit character identity. Establish the period and mountainous location without depicting the legend's explanation or result. No additional people, armies, marching soldiers, French troops, confrontation, retreat, echo lines, duplicated drums, maps, diagrams, direction arrows, text, numbers, logos, watermark or heroic propaganda pose.",
+  "encoding": "WebP quality 88; original PNG preserved locally.",
+  "sourceImageSha256": "fc89ef5417fde7170c47078d0a4cc0dc706b3a8b8869142d3bd6bcc1be82be10",
+  "imageSha256": "e2f95f67457923ce01a371384260803a12be40738e5de5208c708cb77209b2dd"
+}

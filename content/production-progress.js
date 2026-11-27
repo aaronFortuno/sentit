@@ -4338,13 +4338,13 @@ export const productionProgress = {
     }
   },
   "ca-S070": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-23T09:49:01.707Z",
-    "editorialFingerprint": "c329111785d5c98723a68257817238bd4792b6d1e4aa29db52169070f355f2dd",
+    "editorialFingerprint": "aed960b198858baf79739a5960c80c49599921b18c1ca8f9fcac1e06d5efa1a8",
     "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "confirmation": "S070 validat per pujar a síntesi de veus",
-    "reason": "Presa completa T02 validada, amb base musical molt baixa. Substitueix la versió i les esmenes anteriors; pendent d’escoltar el muntatge.",
+    "listeningApproval": true,
+    "confirmation": "Els 8 muntatges finals que teníem pendents de revisió queden validats per publicació definitiva",
+    "reason": "Muntatge final validat pel docent; materials definitius comprovats i publicats sense modificar l’àudio.",
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -4364,8 +4364,6 @@ export const productionProgress = {
     },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-26T07:48:14.206Z",
-    "voicePreview": "./proves/veus-rebudes.html#S070",
-    "voicePreviewFile": "./assets/audio/s070-voices-review-v2.mp3",
     "feedbackAt": "2026-11-23",
     "teacherAssessment": "Regeneració íntegra validada: les esmenes parcials enfosqueixen el timbre de Ferran. Conservar original i esperar una presa homogènia.",
     "feedback": [
@@ -4383,7 +4381,7 @@ export const productionProgress = {
       "scope": "whole-recording",
       "part": "whole",
       "takeId": "S070-T02",
-      "status": "applied-awaiting-montage-listening",
+      "status": "validated-in-montage",
       "sourceTakeId": "S070-T01",
       "sourceTakeSha256": "760143315f68bf9b649e208ed3e37c6ad3e325488f8b73198d1a1b8099367da3",
       "parts": [
@@ -4397,9 +4395,9 @@ export const productionProgress = {
       ],
       "planFile": "content/full-voice-retakes.json",
       "approvedRequestHash": "7b04358057b0407a6902450302d6c6bc8f58ca3f687f64fe4fe5206347e06782",
-      "appliedAt": "2026-11-26"
+      "appliedAt": "2026-11-26",
+      "validatedAt": "2026-11-27"
     },
-    "repairComparison": "./proves/correccions-l30.html#S070-esperar",
     "receivedRepairs": [
       {
         "code": "S070",
@@ -4417,15 +4415,6 @@ export const productionProgress = {
         "supersededAt": "2026-11-26"
       }
     ],
-    "localRepairTrial": {
-      "status": "requested",
-      "at": "2026-11-25",
-      "preserveOriginalSentence": "Els grans anaven d’un costat a l’altre per saber què havia passat.",
-      "replaceFrom": "Mentrestant, la gent s’asseia",
-      "candidateFile": "assets/audio/repairs/l30-s070-esperar-prova.mp3",
-      "candidateSha256": "3e25308e931435fec6a88f95df01489ee8ea5419648a979f634a1fa60591d5b8",
-      "voiceApproval": false
-    },
     "fullRetakeReceived": {
       "takeId": "S070-T02",
       "approvedAt": "2026-11-26",
@@ -4447,13 +4436,38 @@ export const productionProgress = {
     "requestHash": "a16e647266987a40b1e523ae8ecfd15122f720daf485fd84922a69c01b36ef62",
     "audioSha256": "48133be44ef6ee07d35358005623c8c7daf451a99614b1c33f13014021fb1260",
     "montageNewSynthesisRequests": 0,
-    "reviewUpdate": {
-      "date": "2026-11-26",
-      "file": "./assets/audio/s070-mixed-v1.mp3",
-      "summary": {
-        "ca": "Presa completa T02 validada, amb base musical molt baixa. Substitueix la versió i les esmenes anteriors; pendent d’escoltar el muntatge.",
-        "es": "Toma completa T02 validada, con base musical muy baja. Sustituye la versión y correcciones anteriores; montaje pendiente de escuchar."
+    "closedPublicationReview": {
+      "closedAt": "2026-11-27",
+      "reviewUpdate": {
+        "date": "2026-11-26",
+        "file": "./assets/audio/s070-mixed-v1.mp3",
+        "summary": {
+          "ca": "Presa completa T02 validada, amb base musical molt baixa. Substitueix la versió i les esmenes anteriors; pendent d’escoltar el muntatge.",
+          "es": "Toma completa T02 validada, con base musical muy baja. Sustituye la versión y correcciones anteriores; montaje pendiente de escuchar."
+        }
+      },
+      "voicePreview": "./proves/veus-rebudes.html#S070",
+      "voicePreviewFile": "./assets/audio/s070-voices-review-v2.mp3",
+      "repairComparison": "./proves/correccions-l30.html#S070-esperar",
+      "localRepairTrial": {
+        "status": "requested",
+        "at": "2026-11-25",
+        "preserveOriginalSentence": "Els grans anaven d’un costat a l’altre per saber què havia passat.",
+        "replaceFrom": "Mentrestant, la gent s’asseia",
+        "candidateFile": "assets/audio/repairs/l30-s070-esperar-prova.mp3",
+        "candidateSha256": "3e25308e931435fec6a88f95df01489ee8ea5419648a979f634a1fa60591d5b8",
+        "voiceApproval": false
       }
+    },
+    "validatedAt": "2026-11-27",
+    "validatedBy": "docent",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s070-publicacio-v1.webp",
+      "illustrationSha256": "66e80ab416804108a34c50b372f320b7bcb7fb1f4c3a213980e06efafba46b44",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-27",
+      "audioChanged": false,
+      "review": "docs/publicacio-2026-11-27-vuit.review.json"
     }
   },
   "ca-S072": {
@@ -6552,10 +6566,10 @@ export const productionProgress = {
     }
   },
   "ca-S095": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "editorialFingerprint": "02100f358d48f5665d0578cde25f9cca7ff53ac99c2fdfeac6c4c3eed95d4661",
     "plannedNewRequests": 0,
-    "listeningApproval": false,
+    "listeningApproval": true,
     "teacherAssessment": "Docent 26/11: conservar la presa original amb un empleat als dos primers torns fins a Aquí tenim poc espai i els tubs grans els van a buscar directament, i una empleada a partir de La primera recollida. Guió i il·lustració amb tres persones; validada per muntatge.",
     "scriptApprovedAt": "2026-11-24",
     "voiceApproval": {
@@ -6578,8 +6592,6 @@ export const productionProgress = {
     },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-24T13:59:03.085Z",
-    "voicePreview": "./proves/veus-rebudes.html#S095",
-    "voicePreviewFile": "./assets/audio/s095-voices-review-v1.mp3",
     "feedback": [
       {
         "part": "mida",
@@ -6646,7 +6658,7 @@ export const productionProgress = {
         "resolution": "El docent conserva la presa original amb dos treballadors."
       }
     ],
-    "reason": "Presa original amb dos empleats: primer l’empleat, després l’empleada. Guió i imatge de tres persones, amb ambient interior discret. Pendent d’escoltar el muntatge.",
+    "reason": "Muntatge final validat pel docent; materials definitius comprovats i publicats sense modificar l’àudio.",
     "roleAdaptation": {
       "approvedAt": "2026-11-26",
       "maleParts": [
@@ -6667,13 +6679,29 @@ export const productionProgress = {
     "requestHash": "aef37a3e56d6a4126206a0905030aad2bc53160804678de652431febf809e7e6",
     "audioSha256": "1757767033c5369a4144cdb9b588fbb6b680c7ccd2206c1c2b337a506c61a5d9",
     "montageNewSynthesisRequests": 0,
-    "reviewUpdate": {
-      "date": "2026-11-26",
-      "file": "./assets/audio/s095-mixed-v1.mp3",
-      "summary": {
-        "ca": "Presa original amb dos empleats: primer l’empleat, després l’empleada. Guió i imatge de tres persones, amb ambient interior discret. Pendent d’escoltar el muntatge.",
-        "es": "Toma original con dos empleados: primero el empleado, después la empleada. Guion e imagen de tres personas, con ambiente interior discreto. Montaje pendiente de escuchar."
-      }
+    "closedPublicationReview": {
+      "closedAt": "2026-11-27",
+      "reviewUpdate": {
+        "date": "2026-11-26",
+        "file": "./assets/audio/s095-mixed-v1.mp3",
+        "summary": {
+          "ca": "Presa original amb dos empleats: primer l’empleat, després l’empleada. Guió i imatge de tres persones, amb ambient interior discret. Pendent d’escoltar el muntatge.",
+          "es": "Toma original con dos empleados: primero el empleado, después la empleada. Guion e imagen de tres personas, con ambiente interior discreto. Montaje pendiente de escuchar."
+        }
+      },
+      "voicePreview": "./proves/veus-rebudes.html#S095",
+      "voicePreviewFile": "./assets/audio/s095-voices-review-v1.mp3"
+    },
+    "validatedAt": "2026-11-27",
+    "validatedBy": "docent",
+    "confirmation": "Els 8 muntatges finals que teníem pendents de revisió queden validats per publicació definitiva",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s095-publicacio-v1.webp",
+      "illustrationSha256": "033bb66f113f72ddf5bce5e184fe0fc333384765a8f07e57a45007ba193644df",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-27",
+      "audioChanged": false,
+      "review": "docs/publicacio-2026-11-27-vuit.review.json"
     }
   },
   "ca-S096": {
@@ -8363,15 +8391,15 @@ export const productionProgress = {
     }
   },
   "ca-S122": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
-    "editorialFingerprint": "87985c1ebba5cf32cb53707c0bdfa300804684982d64458006185eb243e0012d",
+    "editorialFingerprint": "dca4fcd9bda7e05419f4cae655036ba63c0a636b6ec33fe5bce679c238c6c78b",
     "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "confirmation": "Docent 25/11: tots els guions validats; preparar i enviar els lots compatibles seqüencialment.",
+    "listeningApproval": true,
+    "confirmation": "Els 8 muntatges finals que teníem pendents de revisió queden validats per publicació definitiva",
     "scriptApprovalSource": "Docent 25/11: tots els guions validats; preparar i enviar els lots compatibles seqüencialment.",
-    "reason": "Presa completa T02 validada, amb ambient real continu d’aula molt suau. Pendent d’escoltar el muntatge.",
+    "reason": "Muntatge final validat pel docent; materials definitius comprovats i publicats sense modificar l’àudio.",
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -8391,8 +8419,6 @@ export const productionProgress = {
     },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-26T07:48:53.961Z",
-    "voicePreview": "./proves/veus-rebudes.html#S122",
-    "voicePreviewFile": "./assets/audio/s122-voices-review-v2.mp3",
     "feedbackAt": "2026-11-25",
     "teacherAssessment": "Regenerar el diàleg complet: Mireia passa a una veu masculina al torn de la bossa i es perd l’inici d’ampolla en dos torns.",
     "feedback": [
@@ -8422,7 +8448,7 @@ export const productionProgress = {
       "scope": "whole-recording",
       "part": "whole",
       "takeId": "S122-T02",
-      "status": "applied-awaiting-montage-listening",
+      "status": "validated-in-montage",
       "sourceTakeId": "S122-T01",
       "sourceTakeSha256": "305bd2b4519c45ea7a36988f194240774eb7b6f5535350ad2257a3e80ae018fe",
       "parts": [
@@ -8439,7 +8465,8 @@ export const productionProgress = {
       ],
       "planFile": "content/full-voice-retakes.json",
       "approvedRequestHash": "12daae52bce00c68bd63eccb91c1f75cf1d189a893d6dbe80c9f5f80250ce45c",
-      "appliedAt": "2026-11-26"
+      "appliedAt": "2026-11-26",
+      "validatedAt": "2026-11-27"
     },
     "fullRetakeReceived": {
       "takeId": "S122-T02",
@@ -8462,13 +8489,28 @@ export const productionProgress = {
     "requestHash": "8c88a52f86f88e6e32937a960ccaad2dbd0c0d7033a3ee64b278fb2175c7f25e",
     "audioSha256": "0c4e51fc6bb9248fa2505315b411e853f11dda3ba4568faee6f417ea088f45ec",
     "montageNewSynthesisRequests": 0,
-    "reviewUpdate": {
-      "date": "2026-11-26",
-      "file": "./assets/audio/s122-mixed-v1.mp3",
-      "summary": {
-        "ca": "Presa completa T02 validada, amb ambient real continu d’aula molt suau. Pendent d’escoltar el muntatge.",
-        "es": "Toma completa T02 validada, con ambiente real continuo de aula muy suave. Montaje pendiente de escuchar."
-      }
+    "closedPublicationReview": {
+      "closedAt": "2026-11-27",
+      "reviewUpdate": {
+        "date": "2026-11-26",
+        "file": "./assets/audio/s122-mixed-v1.mp3",
+        "summary": {
+          "ca": "Presa completa T02 validada, amb ambient real continu d’aula molt suau. Pendent d’escoltar el muntatge.",
+          "es": "Toma completa T02 validada, con ambiente real continuo de aula muy suave. Montaje pendiente de escuchar."
+        }
+      },
+      "voicePreview": "./proves/veus-rebudes.html#S122",
+      "voicePreviewFile": "./assets/audio/s122-voices-review-v2.mp3"
+    },
+    "validatedAt": "2026-11-27",
+    "validatedBy": "docent",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s122-publicacio-v1.webp",
+      "illustrationSha256": "46f32373b94b26bcd3afab4e412616f9489b6c07957087c5220efe578dfd0485",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-27",
+      "audioChanged": false,
+      "review": "docs/publicacio-2026-11-27-vuit.review.json"
     }
   },
   "ca-S124": {
@@ -8579,15 +8621,15 @@ export const productionProgress = {
     }
   },
   "ca-S128": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
-    "editorialFingerprint": "99615c0422a803e949373b3c19c0aaa8f9eba44110ee6355cf73b4ad6a1add3a",
+    "editorialFingerprint": "717aad366afa154fa9f61c5755668ac0231663d274cedf4bc102fa6fda8ad816",
     "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "confirmation": "Docent 25/11: tots els guions validats; preparar i enviar els lots compatibles seqüencialment.",
+    "listeningApproval": true,
+    "confirmation": "Els 8 muntatges finals que teníem pendents de revisió queden validats per publicació definitiva",
     "scriptApprovalSource": "Docent 25/11: tots els guions validats; preparar i enviar els lots compatibles seqüencialment.",
-    "reason": "Veu validada amb F1 · Easy Lemon, molt baixa sota el relat i pujada abans de la fosa. Pendent d’escoltar el muntatge.",
+    "reason": "Muntatge final validat pel docent; materials definitius comprovats i publicats sense modificar l’àudio.",
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -8607,32 +8649,45 @@ export const productionProgress = {
     },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-26T07:48:14.206Z",
-    "voicePreview": "./proves/veus-rebudes.html#S128",
-    "voicePreviewFile": "./assets/audio/s128-voices-review-v2.mp3",
     "mountedAt": "2026-11-26T14:33:32.342Z",
     "synthesisBatch": "L41",
     "requestHash": "a16e647266987a40b1e523ae8ecfd15122f720daf485fd84922a69c01b36ef62",
     "audioSha256": "066ca1266949f660b1bcd1c2346645351d40174218b2f934bbb75675c1e3064d",
     "montageNewSynthesisRequests": 0,
-    "reviewUpdate": {
-      "date": "2026-11-26",
-      "file": "./assets/audio/s128-mixed-v1.mp3",
-      "summary": {
-        "ca": "Veu validada amb F1 · Easy Lemon, molt baixa sota el relat i pujada abans de la fosa. Pendent d’escoltar el muntatge.",
-        "es": "Voz validada con F1 · Easy Lemon, muy baja durante el relato y subida antes del fundido. Montaje pendiente de escuchar."
-      }
+    "closedPublicationReview": {
+      "closedAt": "2026-11-27",
+      "reviewUpdate": {
+        "date": "2026-11-26",
+        "file": "./assets/audio/s128-mixed-v1.mp3",
+        "summary": {
+          "ca": "Veu validada amb F1 · Easy Lemon, molt baixa sota el relat i pujada abans de la fosa. Pendent d’escoltar el muntatge.",
+          "es": "Voz validada con F1 · Easy Lemon, muy baja durante el relato y subida antes del fundido. Montaje pendiente de escuchar."
+        }
+      },
+      "voicePreview": "./proves/veus-rebudes.html#S128",
+      "voicePreviewFile": "./assets/audio/s128-voices-review-v2.mp3"
+    },
+    "validatedAt": "2026-11-27",
+    "validatedBy": "docent",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s128-publicacio-v1.webp",
+      "illustrationSha256": "80f6c8202e49ad34cbdde592f4d9374d7c7127a510758af854d96dc3c3a2ea23",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-27",
+      "audioChanged": false,
+      "review": "docs/publicacio-2026-11-27-vuit.review.json"
     }
   },
   "ca-S129": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
-    "editorialFingerprint": "7d58aeacae24b658ddc6f46929c09da13c598f19a51447b99ced666d914bedef",
+    "editorialFingerprint": "6e5d0cabe4050ad48daad2590b45e6d4b0c78b76fa107b6a01d77d03f68cffe9",
     "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "confirmation": "Docent 25/11: tots els guions validats; preparar i enviar els lots compatibles seqüencialment.",
+    "listeningApproval": true,
+    "confirmation": "Els 8 muntatges finals que teníem pendents de revisió queden validats per publicació definitiva",
     "scriptApprovalSource": "Docent 25/11: tots els guions validats; preparar i enviar els lots compatibles seqüencialment.",
-    "reason": "Veu validada amb L1 · Teller of the Tales, molt baixa sota el relat i pujada abans de la fosa. Pendent d’escoltar el muntatge.",
+    "reason": "Muntatge final validat pel docent; materials definitius comprovats i publicats sense modificar l’àudio.",
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -8652,32 +8707,45 @@ export const productionProgress = {
     },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-26T07:48:14.206Z",
-    "voicePreview": "./proves/veus-rebudes.html#S129",
-    "voicePreviewFile": "./assets/audio/s129-voices-review-v2.mp3",
     "mountedAt": "2026-11-26T14:32:51.615Z",
     "synthesisBatch": "L41",
     "requestHash": "a16e647266987a40b1e523ae8ecfd15122f720daf485fd84922a69c01b36ef62",
     "audioSha256": "6f0c4b43da31ede9cb24d6fb6d4debc957dd2bcb58ee74b8ec6207735df59e6a",
     "montageNewSynthesisRequests": 0,
-    "reviewUpdate": {
-      "date": "2026-11-26",
-      "file": "./assets/audio/s129-mixed-v1.mp3",
-      "summary": {
-        "ca": "Veu validada amb L1 · Teller of the Tales, molt baixa sota el relat i pujada abans de la fosa. Pendent d’escoltar el muntatge.",
-        "es": "Voz validada con L1 · Teller of the Tales, muy baja durante el relato y subida antes del fundido. Montaje pendiente de escuchar."
-      }
+    "closedPublicationReview": {
+      "closedAt": "2026-11-27",
+      "reviewUpdate": {
+        "date": "2026-11-26",
+        "file": "./assets/audio/s129-mixed-v1.mp3",
+        "summary": {
+          "ca": "Veu validada amb L1 · Teller of the Tales, molt baixa sota el relat i pujada abans de la fosa. Pendent d’escoltar el muntatge.",
+          "es": "Voz validada con L1 · Teller of the Tales, muy baja durante el relato y subida antes del fundido. Montaje pendiente de escuchar."
+        }
+      },
+      "voicePreview": "./proves/veus-rebudes.html#S129",
+      "voicePreviewFile": "./assets/audio/s129-voices-review-v2.mp3"
+    },
+    "validatedAt": "2026-11-27",
+    "validatedBy": "docent",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s129-publicacio-v1.webp",
+      "illustrationSha256": "80bd80f801cd8f26a3049f793fdb0ced901f0b65da231bfccd6380459e523897",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-27",
+      "audioChanged": false,
+      "review": "docs/publicacio-2026-11-27-vuit.review.json"
     }
   },
   "ca-S130": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-25",
     "scriptApprovedAt": "2026-11-25",
-    "editorialFingerprint": "937eeb6988810383653f82c41d8cb02f9b33361a2a4087ff51003e4ce42af6a3",
+    "editorialFingerprint": "658922f81f5f48066d5fd15feb8ac7778c2b8f15409d164beac353a5d8f4ab09",
     "plannedNewRequests": 0,
-    "listeningApproval": false,
-    "confirmation": "Docent 25/11: tots els guions validats; preparar i enviar els lots compatibles seqüencialment.",
+    "listeningApproval": true,
+    "confirmation": "Els 8 muntatges finals que teníem pendents de revisió queden validats per publicació definitiva",
     "scriptApprovalSource": "Docent 25/11: tots els guions validats; preparar i enviar els lots compatibles seqüencialment.",
-    "reason": "Muntatge amb M1 · Temple of the Manes, pendent d’audició docent.",
+    "reason": "Muntatge final validat pel docent; materials definitius comprovats i publicats sense modificar l’àudio.",
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -8697,8 +8765,6 @@ export const productionProgress = {
     },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-26T07:48:14.206Z",
-    "voicePreview": "./proves/veus-rebudes.html#S130",
-    "voicePreviewFile": "./assets/audio/s130-voices-review-v2.mp3",
     "mountedAt": "2026-11-26T14:00:02.331Z",
     "synthesisBatch": "L41",
     "requestHash": "a16e647266987a40b1e523ae8ecfd15122f720daf485fd84922a69c01b36ef62",
@@ -8728,25 +8794,40 @@ export const productionProgress = {
       "selectedAt": "2026-11-26",
       "reason": "Primera base atmosfèrica del repertori de mites validat; en les següents produccions s’alternaran les tres pistes aprovades."
     },
-    "reviewUpdate": {
-      "date": "2026-11-26",
-      "file": "./assets/audio/s130-mixed-v1.mp3",
-      "summary": {
-        "ca": "Muntatge amb M1: música molt baixa sota la narració i pujada de dos segons abans de la fosa. Veus validades conservades. Pendent d’escoltar el muntatge.",
-        "es": "Montaje con M1: música muy baja durante la narración y subida de dos segundos antes del fundido. Voces validadas conservadas. Pendiente de escuchar el montaje."
-      }
+    "closedPublicationReview": {
+      "closedAt": "2026-11-27",
+      "reviewUpdate": {
+        "date": "2026-11-26",
+        "file": "./assets/audio/s130-mixed-v1.mp3",
+        "summary": {
+          "ca": "Muntatge amb M1: música molt baixa sota la narració i pujada de dos segons abans de la fosa. Veus validades conservades. Pendent d’escoltar el muntatge.",
+          "es": "Montaje con M1: música muy baja durante la narración y subida de dos segundos antes del fundido. Voces validadas conservadas. Pendiente de escuchar el montaje."
+        }
+      },
+      "voicePreview": "./proves/veus-rebudes.html#S130",
+      "voicePreviewFile": "./assets/audio/s130-voices-review-v2.mp3"
+    },
+    "validatedAt": "2026-11-27",
+    "validatedBy": "docent",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s130-publicacio-v1.webp",
+      "illustrationSha256": "4c121c0ee0a4969adc57b5efd8ae6b3e52dd54bc4f385b43cc9c0bced0ccdf8f",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-27",
+      "audioChanged": false,
+      "review": "docs/publicacio-2026-11-27-vuit.review.json"
     }
   },
   "ca-S132": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-26",
     "scriptApprovedAt": "2026-11-26",
-    "editorialFingerprint": "590f755cd2d91262736585e24a9162ece121d122a553505ed8721a73b4e188c6",
+    "editorialFingerprint": "f22987be424197fd1f1c5c9a27c8696736793cab697575ba6b89f2de453d3f53",
     "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "confirmation": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "listeningApproval": true,
+    "confirmation": "Els 8 muntatges finals que teníem pendents de revisió queden validats per publicació definitiva",
     "scriptApprovalSource": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
-    "reason": "Veus validades; muntatge amb F4 · Windswept molt baixa i pujada abans de la fosa. Pendent d’audició docent.",
+    "reason": "Muntatge final validat pel docent; materials definitius comprovats i publicats sense modificar l’àudio.",
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -8766,13 +8847,26 @@ export const productionProgress = {
     },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-26T14:47:10.477Z",
-    "voicePreview": "./proves/veus-rebudes.html#S132",
-    "voicePreviewFile": "./assets/audio/s132-voices-review-v1.mp3",
     "mountedAt": "2026-11-26T15:17:42.078Z",
     "synthesisBatch": "L46",
     "requestHash": "c83866d90107652b9335bbbe92d4d107b131e22468328cf5dbdd1e5c174a1d89",
     "audioSha256": "5350f2145bf1f767ec314e2400ff0a3662b9c1f98ff4b55e74d490384c502ce6",
-    "montageNewSynthesisRequests": 0
+    "montageNewSynthesisRequests": 0,
+    "closedPublicationReview": {
+      "closedAt": "2026-11-27",
+      "voicePreview": "./proves/veus-rebudes.html#S132",
+      "voicePreviewFile": "./assets/audio/s132-voices-review-v1.mp3"
+    },
+    "validatedAt": "2026-11-27",
+    "validatedBy": "docent",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s132-publicacio-v1.webp",
+      "illustrationSha256": "344087bdccf8157fa334b23b33ce5d5cd6436b2903923c30a53983dc9da8ac56",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-27",
+      "audioChanged": false,
+      "review": "docs/publicacio-2026-11-27-vuit.review.json"
+    }
   },
   "ca-S136": {
     "state": "voices-received",
@@ -8853,15 +8947,15 @@ export const productionProgress = {
     "voicePreviewFile": "./assets/audio/s138-voices-review-v1.mp3"
   },
   "ca-S137": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-26",
     "scriptApprovedAt": "2026-11-26",
-    "editorialFingerprint": "4649f1c80aa3afb6054293b296bd6cfe1a90a8133b51b67b1b90aba35243f1ea",
+    "editorialFingerprint": "2791e97551365f6700a6d7c74616330b3b6ec5dd2d4f63e5cccd91a362d0df3a",
     "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "confirmation": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "listeningApproval": true,
+    "confirmation": "Els 8 muntatges finals que teníem pendents de revisió queden validats per publicació definitiva",
     "scriptApprovalSource": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
-    "reason": "Veus validades; muntatge amb L2 · Folk Round molt baixa i pujada abans de la fosa. Pendent d’audició docent.",
+    "reason": "Muntatge final validat pel docent; materials definitius comprovats i publicats sense modificar l’àudio.",
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -8881,13 +8975,26 @@ export const productionProgress = {
     },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-26T14:32:35.452Z",
-    "voicePreview": "./proves/veus-rebudes.html#S137",
-    "voicePreviewFile": "./assets/audio/s137-voices-review-v1.mp3",
     "mountedAt": "2026-11-26T15:17:52.110Z",
     "synthesisBatch": "L45",
     "requestHash": "3402b7ae874c38c102c2e3bba9f629c25b1b9d6aaa1fe835d901041f4c06dd90",
     "audioSha256": "b2b35b1bc2793f33c755093acb711dc45ac6384f6db3d2d692090801eaadd0ef",
-    "montageNewSynthesisRequests": 0
+    "montageNewSynthesisRequests": 0,
+    "closedPublicationReview": {
+      "closedAt": "2026-11-27",
+      "voicePreview": "./proves/veus-rebudes.html#S137",
+      "voicePreviewFile": "./assets/audio/s137-voices-review-v1.mp3"
+    },
+    "validatedAt": "2026-11-27",
+    "validatedBy": "docent",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s137-publicacio-v1.webp",
+      "illustrationSha256": "e2f95f67457923ce01a371384260803a12be40738e5de5208c708cb77209b2dd",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-27",
+      "audioChanged": false,
+      "review": "docs/publicacio-2026-11-27-vuit.review.json"
+    }
   },
   "ca-S131": {
     "state": "voices-received",

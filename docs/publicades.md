@@ -1,6 +1,6 @@
 # Comprensions finalitzades
 
-Actualitzat: **27/11/2026**. **124 publicacions definitives**. Aquest registre conserva les peces que han sortit de la [taula de pendents](seguiment-produccio.md). Les variants es validen per separat.
+Actualitzat: **27/11/2026**. **132 publicacions definitives**. Aquest registre conserva les peces que han sortit de la [taula de pendents](seguiment-produccio.md). Les variants es validen per separat.
 
 | Codi | Títol | Curs | Dificultat · tipologia | Fragment | Validació definitiva |
 | --- | --- | --- | --- | --- | --- |
@@ -74,6 +74,7 @@ Actualitzat: **27/11/2026**. **124 publicacions definitives**. Aquest registre c
 | [ca-S068D](https://sentit.ortogra.fi/#lectura=ca-S068D) | El dinar al banc de l’estació · versió dialogada | 5è | Accessible · Narració | 2:04 | 2026-11-23 |
 | [ca-S069](https://sentit.ortogra.fi/#lectura=ca-S069) | La pissarra del partit | 5è | Intermèdia · Narració | 1:47 | 2026-11-23 |
 | [ca-S069D](https://sentit.ortogra.fi/#lectura=ca-S069D) | La pissarra del partit · versió dialogada | 5è | Intermèdia · Narració | 2:12 | 2026-11-23 |
+| [ca-S070](https://sentit.ortogra.fi/#lectura=ca-S070) | El dia que no va sonar el disc | 6è | Accessible · Narració | 1:45 | 2026-11-27 |
 | [ca-S071](https://sentit.ortogra.fi/#lectura=ca-S071) | Les dues entrades blaves | 5è | Avançada · Narració | 2:42 | 2026-11-25 |
 | [ca-S071D](https://sentit.ortogra.fi/#lectura=ca-S071D) | Les dues entrades blaves · versió dialogada | 5è | Avançada · Narració | 3:01 | 2026-11-23 |
 | [ca-S072](https://sentit.ortogra.fi/#lectura=ca-S072) | El quadern de la parada | 6è | Avançada · Narració | 2:33 | 2026-11-25 |
@@ -99,6 +100,7 @@ Actualitzat: **27/11/2026**. **124 publicacions definitives**. Aquest registre c
 | [ca-S092](https://sentit.ortogra.fi/#lectura=ca-S092) | El carrer està tallat | 5è | Intermèdia · Diàleg | 1:19 | 2026-11-25 |
 | [ca-S093](https://sentit.ortogra.fi/#lectura=ca-S093) | El tren que arriba abans | 6è | Avançada · Diàleg | 1:20 | 2026-11-26 |
 | [ca-S094](https://sentit.ortogra.fi/#lectura=ca-S094) | El paraigua no s’obre | 5è | Intermèdia · Diàleg | 1:27 | 2026-11-25 |
+| [ca-S095](https://sentit.ortogra.fi/#lectura=ca-S095) | Un paquet massa llarg | 6è | Intermèdia · Diàleg | 1:44 | 2026-11-27 |
 | [ca-S096](https://sentit.ortogra.fi/#lectura=ca-S096) | El banc de la placeta | 6è | Intermèdia · Diàleg | 1:40 | 2026-11-25 |
 | [ca-S097](https://sentit.ortogra.fi/#lectura=ca-S097) | Quina parada em queda més a prop? | 5è | Avançada · Diàleg | 1:34 | 2026-11-25 |
 | [ca-S098](https://sentit.ortogra.fi/#lectura=ca-S098) | El tiquet d’una altra taula | 5è | Intermèdia · Diàleg | 1:11 | 2026-11-25 |
@@ -123,11 +125,17 @@ Actualitzat: **27/11/2026**. **124 publicacions definitives**. Aquest registre c
 | [ca-S119](https://sentit.ortogra.fi/#lectura=ca-S119) | El concert busca un altre espai | 4t | Avançada · Notícia | 0:42 | 2026-11-25 |
 | [ca-S120](https://sentit.ortogra.fi/#lectura=ca-S120) | Com s’enganxa el velcro? | 3r | Accessible · Explicació | 1:18 | 2026-11-26 |
 | [ca-S121](https://sentit.ortogra.fi/#lectura=ca-S121) | L’ombra s’ha mogut | 3r | Intermèdia · Explicació | 1:20 | 2026-11-25 |
+| [ca-S122](https://sentit.ortogra.fi/#lectura=ca-S122) | Com conserva el fred una bossa tèrmica? | 4t | Intermèdia · Explicació | 1:23 | 2026-11-27 |
 | [ca-S123](https://sentit.ortogra.fi/#lectura=ca-S123) | Per què ressona una sala buida? | 4t | Avançada · Explicació | 1:26 | 2026-11-26 |
 | [ca-S124](https://sentit.ortogra.fi/#lectura=ca-S124) | Posem nom als estoigs | 3r | Avançada · Instruccions | 1:06 | 2026-11-26 |
 | [ca-S125](https://sentit.ortogra.fi/#lectura=ca-S125) | Una capseta per a les pues | 4t | Intermèdia · Instruccions | 1:20 | 2026-11-26 |
 | [ca-S126](https://sentit.ortogra.fi/#lectura=ca-S126) | Com es prova un instrument reparat? | 5è | Accessible · Entrevista | 1:35 | 2026-11-26 |
 | [ca-S127](https://sentit.ortogra.fi/#lectura=ca-S127) | Quan val la pena reparar un instrument? | 5è | Intermèdia · Entrevista | 1:50 | 2026-11-25 |
+| [ca-S128](https://sentit.ortogra.fi/#lectura=ca-S128) | El lleó i el ratolí | 3r | Accessible · Narració | 1:09 | 2026-11-27 |
+| [ca-S129](https://sentit.ortogra.fi/#lectura=ca-S129) | Sant Jordi i la rosa | 4t | Intermèdia · Narració | 1:28 | 2026-11-27 |
+| [ca-S130](https://sentit.ortogra.fi/#lectura=ca-S130) | El fil d’Ariadna | 5è | Intermèdia · Narració | 1:55 | 2026-11-27 |
+| [ca-S132](https://sentit.ortogra.fi/#lectura=ca-S132) | La llebre i la tortuga | 3r | Accessible · Narració | 1:18 | 2026-11-27 |
+| [ca-S137](https://sentit.ortogra.fi/#lectura=ca-S137) | El timbaler i el ressò | 5è | Intermèdia · Narració | 1:32 | 2026-11-27 |
 
 Les aprovacions estan vinculades al guió i al màster exactes al [registre de producció](../content/production-progress.js). No es concedeix cap aprovació per regenerar aquest document.
 

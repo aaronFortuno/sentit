@@ -7,7 +7,7 @@ const room = 'Ambient real continu d’atenció al públic, amb carrer esmorteï
 export const dailyFerranErrands = [
   dailyProposal({
     id: 'un-paquet-massa-llarg', code: 'S095', title: 'Un paquet massa llarg', grade: '6', level: 'middle', genre: 'dialogue',
-    seconds: 108, status: 'ready-for-review', reviewStatus: 'audio-review',
+    seconds: 108, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s095-mixed-v1.mp3', tracks: { introduction: './assets/audio/s095-mixed-v1-intro.mp3', body: './assets/audio/s095-mixed-v1-cos.mp3' },
     fragment: { start: 4.01, seconds: 104 },
     image: {"src":"./assets/images/s095-publicacio-v1.webp","alt":"En Ferran consulta l’enviament d’un tub amb un empleat i una empleada al mateix taulell.","width":1536,"height":1024},

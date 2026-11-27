@@ -24,8 +24,8 @@ export const fableExpansionDrafts = [
       q('caiguda','Què fa que el formatge caigui a terra?','El corb obre el bec per cantar.',['El corb obre el bec per cantar.','La guineu sacseja el tronc de l’arbre.','El corb baixa volant fins al cistell.','La guineu fa caure la branca.'],'a','El formatge deixa d’estar subjectat quan el corb obre el bec.',[e('cant','Va obrir-lo per cantar i el formatge va caure a terra')]),
       q('intencio','Què vol aconseguir la guineu fent cantar el corb?','Que deixi anar el formatge per poder-se’l menjar.',['Que els altres ocells s’acostin a escoltar.','Que el corb li indiqui el camí del bosc.','Que deixi anar el formatge per poder-se’l menjar.','Que el corb l’ajudi a pujar a la branca.'],'c','La gana, l’intent d’arribar a la branca i la rapidesa amb què agafa el formatge permeten inferir el propòsit dels elogis.',[e('salutacio','La guineu tenia gana'),e('salutacio','la branca era massa alta per arribar-hi'),e('final','La guineu el va agafar de seguida i se’l va empassar')],2)
     ]}),
-  cultural({code:'S132',id:'la-llebre-i-la-tortuga',title:'La llebre i la tortuga',grade:'3',level:'easy',universeIds:['faules-mon'],
-    seconds: 85, status: 'ready-for-review', reviewStatus: 'audio-review',
+  cultural({code:'S132', image: {"src":"./assets/images/s132-publicacio-v1.webp","alt":"Una llebre i una tortuga es troben en un camí.","width":1536,"height":1024},id:'la-llebre-i-la-tortuga',title:'La llebre i la tortuga',grade:'3',level:'easy',universeIds:['faules-mon'],
+    seconds: 85, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s132-mixed-v1.mp3', tracks: { introduction: './assets/audio/s132-mixed-v1-intro.mp3', body: './assets/audio/s132-mixed-v1-cos.mp3' },
     fragment: { start: 6.265000000000001, seconds: 78 },
     introduction:'Comprensió oral. La llebre i la tortuga. Una faula de la tradició d’Isop.',

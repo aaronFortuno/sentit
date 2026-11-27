@@ -1,0 +1,94 @@
+{
+  "reviewer": "revisio_publicacio_vuit_20261127-independent",
+  "summary": "passed",
+  "rows": [
+    {
+      "code": "S070",
+      "status": "passed",
+      "fingerprint": "aed960b198858baf79739a5960c80c49599921b18c1ca8f9fcac1e06d5efa1a8",
+      "imageSha256": "66e80ab416804108a34c50b372f320b7bcb7fb1f4c3a213980e06efafba46b44",
+      "notes": [
+        "Imatge i alt revisats visualment: Ferran i Aina mantenen els models canònics; conversa present al costat de la plaça, sense representar el ball recordat ni mostrar acordió, discos, tall de llum o got.",
+        "9 preguntes obertes i ABCD amb clau única defensable; 11 cites coherents. Transcripció definitiva: intro i 6 fragments parlats, sense acotacions.",
+        "Integritat contrastada amb l’auditoria: guió, preguntes, producció i escaleta sense canvis; beforeFingerprint coincideix en retirar només la imatge nova quan escau. Els SHA-256 del màster, intro i cos coincideixen amb els tres MP3 aprovats. Revisió de tancament sense nova audició, síntesi, aprovacions ni consultes remotes."
+      ]
+    },
+    {
+      "code": "S095",
+      "status": "passed",
+      "fingerprint": "02100f358d48f5665d0578cde25f9cca7ff53ac99c2fdfeac6c4c3eed95d4661",
+      "imageSha256": "033bb66f113f72ddf5bce5e184fe0fc333384765a8f07e57a45007ba193644df",
+      "notes": [
+        "Imatge i alt revisats visualment: Ferran conserva la identitat canònica; empleat i empleada ocasionals al mateix taulell, tub tancat sense contingut, mesures, dades de recollida o desenllaç visibles.",
+        "8 preguntes obertes i ABCD amb clau única defensable; 10 cites coherents. 85 cm supera 80 cm en 5 cm. Transcripció definitiva: intro i 11 torns parlats, amb el relleu Empleat/Empleada conservat.",
+        "Integritat contrastada amb l’auditoria: guió, preguntes, producció i escaleta sense canvis; beforeFingerprint coincideix en retirar només la imatge nova quan escau. Els SHA-256 del màster, intro i cos coincideixen amb els tres MP3 aprovats. Revisió de tancament sense nova audició, síntesi, aprovacions ni consultes remotes."
+      ]
+    },
+    {
+      "code": "S122",
+      "status": "passed",
+      "fingerprint": "dca4fcd9bda7e05419f4cae655036ba63c0a636b6ec33fe5bce679c238c6c78b",
+      "imageSha256": "46f32373b94b26bcd3afab4e412616f9489b6c07957087c5220efe578dfd0485",
+      "notes": [
+        "Imatge i alt revisats visualment: Mireia i Laia mantenen edat, pell, cabells, roba i trets dels models; bossa tancada i ampolla opaca, sense capa interior, acumulador o experiment comparatiu visibles.",
+        "6 preguntes obertes i ABCD amb clau única defensable; 8 cites coherents. Transcripció definitiva: intro i 9 torns parlats, sense notes de muntatge.",
+        "Integritat contrastada amb l’auditoria: guió, preguntes, producció i escaleta sense canvis; beforeFingerprint coincideix en retirar només la imatge nova quan escau. Els SHA-256 del màster, intro i cos coincideixen amb els tres MP3 aprovats. Revisió de tancament sense nova audició, síntesi, aprovacions ni consultes remotes."
+      ]
+    },
+    {
+      "code": "S128",
+      "status": "passed",
+      "fingerprint": "717aad366afa154fa9f61c5755668ac0231663d274cedf4bc102fa6fda8ad816",
+      "imageSha256": "80f6c8202e49ad34cbdde592f4d9374d7c7127a510758af854d96dc3c3a2ea23",
+      "notes": [
+        "Imatge i alt revisats visualment: lleó i ratolí en trobada contextual, sense captura, alliberament, xarxa, caçadors o rescat; no resol les preguntes.",
+        "5 preguntes obertes i ABCD amb clau única defensable; 7 cites coherents. Transcripció definitiva: intro i 5 fragments parlats, sense acotacions ni moral afegida.",
+        "Integritat contrastada amb l’auditoria: guió, preguntes, producció i escaleta sense canvis; beforeFingerprint coincideix en retirar només la imatge nova quan escau. Els SHA-256 del màster, intro i cos coincideixen amb els tres MP3 aprovats. Revisió de tancament sense nova audició, síntesi, aprovacions ni consultes remotes."
+      ]
+    },
+    {
+      "code": "S129",
+      "status": "passed",
+      "fingerprint": "6e5d0cabe4050ad48daad2590b45e6d4b0c78b76fa107b6a01d77d03f68cffe9",
+      "imageSha256": "80bd80f801cd8f26a3049f793fdb0ced901f0b65da231bfccd6380459e523897",
+      "notes": [
+        "Imatge i alt revisats visualment: drac viu davant de la vila emmurallada, sense bestiar, sorteig, princesa, cavaller, combat, sang, rosa o canvi de les portes que reveli el desenllaç.",
+        "6 preguntes obertes i ABCD amb clau única defensable; 9 cites coherents. Transcripció definitiva: intro i 5 fragments parlats, conservant la identificació de llegenda.",
+        "Integritat contrastada amb l’auditoria: guió, preguntes, producció i escaleta sense canvis; beforeFingerprint coincideix en retirar només la imatge nova quan escau. Els SHA-256 del màster, intro i cos coincideixen amb els tres MP3 aprovats. Revisió de tancament sense nova audició, síntesi, aprovacions ni consultes remotes."
+      ]
+    },
+    {
+      "code": "S130",
+      "status": "passed",
+      "fingerprint": "658922f81f5f48066d5fd15feb8ac7778c2b8f15409d164beac353a5d8f4ab09",
+      "imageSha256": "4c121c0ee0a4969adc57b5efd8ae6b3e52dd54bc4f385b43cc9c0bced0ccdf8f",
+      "notes": [
+        "Imatge i alt revisats visualment: Ariadna i Teseu conversen en context cretenc amb mans buides; sense fil, cabdell, recorregut, constructor, Minotaure, combat o fugida que resolgui les preguntes.",
+        "7 preguntes obertes i ABCD amb clau única defensable; 10 cites coherents. Transcripció definitiva: intro i 6 fragments parlats, sense acotacions o episodis afegits.",
+        "Integritat contrastada amb l’auditoria: guió, preguntes, producció i escaleta sense canvis; beforeFingerprint coincideix en retirar només la imatge nova quan escau. Els SHA-256 del màster, intro i cos coincideixen amb els tres MP3 aprovats. Revisió de tancament sense nova audició, síntesi, aprovacions ni consultes remotes."
+      ]
+    },
+    {
+      "code": "S132",
+      "status": "passed",
+      "fingerprint": "f22987be424197fd1f1c5c9a27c8696736793cab697575ba6b89f2de453d3f53",
+      "imageSha256": "344087bdccf8157fa334b23b33ce5d5cd6436b2903923c30a53983dc9da8ac56",
+      "notes": [
+        "Imatge i alt revisats visualment: llebre i tortuga despertes, al mateix punt del camí, sense cursa, roure, descans, avançament o victòria visibles; no revela respostes.",
+        "5 preguntes obertes i ABCD amb clau única defensable; 8 cites coherents. Transcripció definitiva: intro i 5 fragments parlats, sense instruccions de muntatge.",
+        "Integritat contrastada amb l’auditoria: guió, preguntes, producció i escaleta sense canvis; beforeFingerprint coincideix en retirar només la imatge nova quan escau. Els SHA-256 del màster, intro i cos coincideixen amb els tres MP3 aprovats. Revisió de tancament sense nova audició, síntesi, aprovacions ni consultes remotes."
+      ]
+    },
+    {
+      "code": "S137",
+      "status": "passed",
+      "fingerprint": "2791e97551365f6700a6d7c74616330b3b6ec5dd2d4f63e5cccd91a362d0df3a",
+      "imageSha256": "e2f95f67457923ce01a371384260803a12be40738e5de5208c708cb77209b2dd",
+      "notes": [
+        "Imatge i alt revisats visualment: jove amb tambor i baquetes baixades en camí de Montserrat, sense altres tropes, defensors amagats, eco representat o retirada; només situa època i entorn.",
+        "6 preguntes obertes i ABCD amb clau única defensable; 9 cites coherents. Transcripció definitiva: intro i 5 fragments parlats, conservant el marc llegendari.",
+        "Integritat contrastada amb l’auditoria: guió, preguntes, producció i escaleta sense canvis; beforeFingerprint coincideix en retirar només la imatge nova quan escau. Els SHA-256 del màster, intro i cos coincideixen amb els tres MP3 aprovats. Revisió de tancament sense nova audició, síntesi, aprovacions ni consultes remotes."
+      ]
+    }
+  ]
+}

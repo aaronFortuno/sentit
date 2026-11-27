@@ -50,8 +50,8 @@ export const legendExpansionDrafts = [
       q('tornada','Com arriba el drac a la plaça?','Segueix Sant Mer tranquil·lament.',['Els soldats l’hi porten tancat en una gàbia.','Hi arriba perseguint els veïns que fugen.','Segueix Sant Mer tranquil·lament.','Els habitants l’hi atreuen amb el bestiar.'],'c','La criatura amansida segueix el monjo en el camí de tornada.',[e('capa','la criatura el va seguir tranquil·lament'),e('placa','Tots dos van arribar fins a la plaça de Banyoles')]),
       q('armes','Per què Sant Mer demana als veïns que deixin les armes?','Perquè el drac ja està amansit.',['Perquè vol entregar les armes a Carlemany.','Perquè necessita les armes per tancar el cau.','Perquè els soldats encara han de combatre el drac.','Perquè el drac ja està amansit.'],'d','El monjo explica el canvi que s’ha produït en la criatura.',[e('placa','Sant Mer els va dir que les deixessin a terra: la bèstia ja estava amansida')])
     ]}),
-  cultural({code:'S137',id:'el-timbaler-i-el-resso',title:'El timbaler i el ressò',grade:'5',level:'middle',universeIds:['llegendes-mon'],
-    seconds: 98, status: 'ready-for-review', reviewStatus: 'audio-review',
+  cultural({code:'S137', image: {"src":"./assets/images/s137-publicacio-v1.webp","alt":"Un jove amb un tambor descansa en un camí de Montserrat.","width":1536,"height":1024},id:'el-timbaler-i-el-resso',title:'El timbaler i el ressò',grade:'5',level:'middle',universeIds:['llegendes-mon'],
+    seconds: 98, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s137-mixed-v1.mp3', tracks: { introduction: './assets/audio/s137-mixed-v1-intro.mp3', body: './assets/audio/s137-mixed-v1-cos.mp3' },
     fragment: { start: 6.15, seconds: 92 },
     introduction:'Comprensió oral. El timbaler i el ressò. La llegenda del Timbaler del Bruc.',

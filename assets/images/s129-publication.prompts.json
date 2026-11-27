@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-27",
+  "tool": "image_gen built-in",
+  "code": "S129",
+  "file": "s129-publicacio-v1.webp",
+  "alt": "Un drac observa una vila emmurallada des d’un turó.",
+  "width": 1536,
+  "height": 1024,
+  "references": [],
+  "sourceImage": "exec-6062fd67-a3d6-4740-ad54-ad73987ca991.png",
+  "prompt": "Use case: illustration-story. Create one new Sentit educational worksheet illustration, landscape 3:2 1536x1024. Fine ink with quiet muted watercolor, warm white paper, sage/ochre/slate palette, soft fading outer margins, refined children's book style. Atmospheric medieval Montblanc-like Catalan walled hill town, terracotta roofs and distant hills. In the foreground a clearly recognizable but calm GREEN DRAGON stands on a rocky ridge outside the town, looking towards the distant walls; its tail curls naturally around a stone. A quiet establishing scene before the events of a traditional legend. Correct four-legged dragon anatomy, elegant non-comic character, no threat to a person. Do not show a knight, princess, rose, blood, injured animal, battle, cave offerings, sheep, lottery, open/closed gateway as focal point, cheering crowds or any solution/ending. No letters, writing, numbers, heraldic slogans, logo or watermark.",
+  "encoding": "WebP quality 88; original PNG preserved locally.",
+  "sourceImageSha256": "a9665b56d5b51b1c43017fb391edc021701dde72a2454a9c3aa1e0e2a3ae9cb7",
+  "imageSha256": "80bd80f801cd8f26a3049f793fdb0ced901f0b65da231bfccd6380459e523897"
+}

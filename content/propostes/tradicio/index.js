@@ -5,8 +5,8 @@ import { legendExpansionDrafts } from './llegendes-20261126.js';
 import { mythExpansionDrafts } from './mites-20261126.js';
 
 const traditionPilots = [
-  cultural({code:'S128',id:'el-lleo-i-el-ratoli',title:'El lleó i el ratolí',grade:'3',level:'easy',universeIds:['faules-mon'],
-    seconds: 76, status: 'ready-for-review', reviewStatus: 'audio-review',
+  cultural({code:'S128', image: {"src":"./assets/images/s128-publicacio-v1.webp","alt":"Un lleó i un ratolí es miren en una clariana.","width":1536,"height":1024},id:'el-lleo-i-el-ratoli',title:'El lleó i el ratolí',grade:'3',level:'easy',universeIds:['faules-mon'],
+    seconds: 76, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s128-mixed-v1.mp3', tracks: { introduction: './assets/audio/s128-mixed-v1-intro.mp3', body: './assets/audio/s128-mixed-v1-cos.mp3' },
     fragment: { start: 6.87, seconds: 69 },
     introduction:'Comprensió oral. El lleó i el ratolí. Una faula de la tradició d’Isop.',
@@ -31,8 +31,8 @@ const traditionPilots = [
       q('sortir','Com aconsegueix ajudar-lo el ratolí?','Rosega una corda i obre un forat a la xarxa.',['Crida els caçadors perquè desfacin els nusos.','Estira les cordes amb totes les potes.','Demana al lleó que torni a rugir.','Rosega una corda i obre un forat.'],'d','Les dents del ratolí permeten obrir un pas per al lleó.',[e('ajuda','la va començar a rosegar. Mossegada rere mossegada, va obrir un forat')]),
       q('canvi','Per què el lleó ja no riu de l’ajuda del ratolí al final?','Perquè el ratolí l’ha pogut alliberar.',['Perquè el ratolí ha aconseguit alliberar-lo.','Perquè té por de despertar els caçadors.','Perquè el ratolí li ha pres el seu cau.','Perquè encara està atrapat a la xarxa.'],'a','Al principi troba divertida l’oferta del petit animal; després en rep l’ajuda i li dona les gràcies.',[e('promesa','El lleó es va posar a riure'),e('ajuda','El lleó hi va poder passar i va quedar lliure'),e('final','Aquesta vegada ja no reia. «Gràcies»')],2)
     ]}),
-  cultural({code:'S129',id:'sant-jordi-i-la-rosa',title:'Sant Jordi i la rosa',grade:'4',level:'middle',universeIds:['llegendes-mon'],
-    seconds: 95, status: 'ready-for-review', reviewStatus: 'audio-review',
+  cultural({code:'S129', image: {"src":"./assets/images/s129-publicacio-v1.webp","alt":"Un drac observa una vila emmurallada des d’un turó.","width":1536,"height":1024},id:'sant-jordi-i-la-rosa',title:'Sant Jordi i la rosa',grade:'4',level:'middle',universeIds:['llegendes-mon'],
+    seconds: 95, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s129-mixed-v1.mp3', tracks: { introduction: './assets/audio/s129-mixed-v1-intro.mp3', body: './assets/audio/s129-mixed-v1-cos.mp3' },
     fragment: { start: 6.54, seconds: 88 },
     introduction:'Comprensió oral. Sant Jordi i la rosa. Una llegenda de la tradició catalana.',
@@ -56,8 +56,8 @@ const traditionPilots = [
       q('roser','On creix el roser d’aquesta versió?','Al lloc on havia caigut la sang del drac.',['Al costat de la porta del palau.','Al lloc on havia caigut la sang del drac.','A dalt de la muralla de la vila.','Al camí on havien fet el sorteig.'],'b','La transformació meravellosa es produeix al lloc de la sang del drac.',[e('rosa','al lloc on havia caigut la sang del drac va créixer un roser')]),
       q('portes','Què ha canviat perquè les portes puguin quedar obertes al final?','El drac ha mort i ja no amenaça la vila.',['La princesa ha decidit viure a la cova.','Els habitants han trobat més ovelles.','El drac ha mort i ja no amenaça la vila.','El rei ha traslladat el sorteig fora de la muralla.'],'c','La mort del drac posa fi a l’amenaça que feia amagar la gent.',[e('vila','tothom s’amagava darrere les muralles'),e('cavaller','el drac va caure mort'),e('rosa','Aquell dia les portes de la vila van quedar obertes')],2)
     ]}),
-  cultural({code:'S130',id:'el-fil-dariadna',title:'El fil d’Ariadna',grade:'5',level:'middle',universeIds:['mites-antiguitat'],
-    seconds: 122, status: 'ready-for-review', reviewStatus: 'audio-review',
+  cultural({code:'S130', image: {"src":"./assets/images/s130-publicacio-v1.webp","alt":"Ariadna i Teseu conversen davant d’una entrada de pedra a Creta.","width":1536,"height":1024},id:'el-fil-dariadna',title:'El fil d’Ariadna',grade:'5',level:'middle',universeIds:['mites-antiguitat'],
+    seconds: 122, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s130-mixed-v1.mp3', tracks: { introduction: './assets/audio/s130-mixed-v1-intro.mp3', body: './assets/audio/s130-mixed-v1-cos.mp3' },
     fragment: { start: 6.2700000000000005, seconds: 115 },
     introduction:'Comprensió oral. El fil d’Ariadna. Un episodi de la mitologia grega.',

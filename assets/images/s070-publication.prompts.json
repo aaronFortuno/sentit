@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-27",
+  "tool": "image_gen built-in",
+  "code": "S070",
+  "file": "s070-publicacio-v1.webp",
+  "alt": "En Ferran explica un record a l’Aina al costat d’una finestra que dona a la plaça.",
+  "width": 1536,
+  "height": 1024,
+  "references": [
+    "../characters/ferran-model-sheet-v1.webp",
+    "../characters/aina-model-sheet-v1.webp"
+  ],
+  "sourceImage": "exec-80a21465-4d96-4ecc-92fd-74f851cb1572.png",
+  "prompt": "Use case: illustration-story. Create one NEW Sentit listening worksheet illustration, landscape 3:2, 1536x1024. Input reference 1 is Ferran's exact identity and ink/watercolor style; reference 2 is Aina's exact identity. Never reproduce model sheet labels or layout. Fine ink lines, restrained sage/ochre/grey watercolor, warm white paper with softly fading margins. Present-day home beside an open window overlooking an ordinary quiet Catalan town square: canonical Ferran, elderly silver wavy hair, short white beard, round dark glasses, grey cable-knit cardigan and green checked shirt, is midway through telling a fond memory, one hand naturally gesturing towards the square. Aina, short straight dark bob and fringe, round glasses and ochre sweatshirt, leans on the windowsill listening with an amused expression. Specific natural interaction and lived-in architectural context, not a posed portrait. The remembered street celebration is NOT pictured. No instruments, accordion, turntable, records, lightbulbs, blackout, water glasses, dancing or any answer clues; no writing, numbers, logo, watermark or speech bubbles. Do not show any second remembered scene or duplicate characters.",
+  "encoding": "WebP quality 88; original PNG preserved locally.",
+  "sourceImageSha256": "ee3c52741dd097af2c5df9ba94afe71e0eb034f932e2956a03d5cb9ef0302a2d",
+  "imageSha256": "66e80ab416804108a34c50b372f320b7bcb7fb1f4c3a213980e06efafba46b44"
+}

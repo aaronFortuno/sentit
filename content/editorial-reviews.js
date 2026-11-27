@@ -1,4 +1,4 @@
-// Only independent final reviews are recorded; no teacher or synthesis approval is implied.
+// Final independent reviews only. This is not teacher approval for production.
 export const editorialReviews = {
   "ca-S003": {
     "status": "passed",
@@ -459,9 +459,9 @@ export const editorialReviews = {
   },
   "ca-S070": {
     "status": "passed",
-    "reviewedAt": "2026-11-22",
-    "reviewer": "autoria_tanda4_cuina_taller",
-    "fingerprint": "c329111785d5c98723a68257817238bd4792b6d1e4aa29db52169070f355f2dd"
+    "reviewedAt": "2026-11-27",
+    "reviewer": "revisio_publicacio_vuit_20261127-independent",
+    "fingerprint": "aed960b198858baf79739a5960c80c49599921b18c1ca8f9fcac1e06d5efa1a8"
   },
   "ca-S071": {
     "status": "passed",
@@ -615,8 +615,8 @@ export const editorialReviews = {
   },
   "ca-S095": {
     "status": "passed",
-    "reviewedAt": "2026-11-26",
-    "reviewer": "revisio_esmenes_fonts_20261126",
+    "reviewedAt": "2026-11-27",
+    "reviewer": "revisio_publicacio_vuit_20261127-independent",
     "fingerprint": "02100f358d48f5665d0578cde25f9cca7ff53ac99c2fdfeac6c4c3eed95d4661"
   },
   "ca-S096": {
@@ -777,9 +777,9 @@ export const editorialReviews = {
   },
   "ca-S122": {
     "status": "passed",
-    "reviewedAt": "2026-11-25",
-    "reviewer": "/root/abcd_author_003",
-    "fingerprint": "87985c1ebba5cf32cb53707c0bdfa300804684982d64458006185eb243e0012d"
+    "reviewedAt": "2026-11-27",
+    "reviewer": "revisio_publicacio_vuit_20261127-independent",
+    "fingerprint": "dca4fcd9bda7e05419f4cae655036ba63c0a636b6ec33fe5bce679c238c6c78b"
   },
   "ca-S123": {
     "status": "passed",
@@ -813,21 +813,21 @@ export const editorialReviews = {
   },
   "ca-S128": {
     "status": "passed",
-    "reviewedAt": "2026-11-25",
-    "reviewer": "/root/review_tradition_pilots",
-    "fingerprint": "99615c0422a803e949373b3c19c0aaa8f9eba44110ee6355cf73b4ad6a1add3a"
+    "reviewedAt": "2026-11-27",
+    "reviewer": "revisio_publicacio_vuit_20261127-independent",
+    "fingerprint": "717aad366afa154fa9f61c5755668ac0231663d274cedf4bc102fa6fda8ad816"
   },
   "ca-S129": {
     "status": "passed",
-    "reviewedAt": "2026-11-25",
-    "reviewer": "/root/review_tradition_pilots",
-    "fingerprint": "7d58aeacae24b658ddc6f46929c09da13c598f19a51447b99ced666d914bedef"
+    "reviewedAt": "2026-11-27",
+    "reviewer": "revisio_publicacio_vuit_20261127-independent",
+    "fingerprint": "6e5d0cabe4050ad48daad2590b45e6d4b0c78b76fa107b6a01d77d03f68cffe9"
   },
   "ca-S130": {
     "status": "passed",
-    "reviewedAt": "2026-11-25",
-    "reviewer": "/root/review_tradition_pilots",
-    "fingerprint": "937eeb6988810383653f82c41d8cb02f9b33361a2a4087ff51003e4ce42af6a3"
+    "reviewedAt": "2026-11-27",
+    "reviewer": "revisio_publicacio_vuit_20261127-independent",
+    "fingerprint": "658922f81f5f48066d5fd15feb8ac7778c2b8f15409d164beac353a5d8f4ab09"
   },
   "ca-S131": {
     "status": "passed",
@@ -837,9 +837,9 @@ export const editorialReviews = {
   },
   "ca-S132": {
     "status": "passed",
-    "reviewer": "autoria_llegendes_135_138",
-    "reviewedAt": "2026-11-26",
-    "fingerprint": "590f755cd2d91262736585e24a9162ece121d122a553505ed8721a73b4e188c6"
+    "reviewedAt": "2026-11-27",
+    "reviewer": "revisio_publicacio_vuit_20261127-independent",
+    "fingerprint": "f22987be424197fd1f1c5c9a27c8696736793cab697575ba6b89f2de453d3f53"
   },
   "ca-S133": {
     "status": "passed",
@@ -867,9 +867,9 @@ export const editorialReviews = {
   },
   "ca-S137": {
     "status": "passed",
-    "reviewer": "autoria_mites_139_142",
-    "reviewedAt": "2026-11-26",
-    "fingerprint": "4649f1c80aa3afb6054293b296bd6cfe1a90a8133b51b67b1b90aba35243f1ea"
+    "reviewedAt": "2026-11-27",
+    "reviewer": "revisio_publicacio_vuit_20261127-independent",
+    "fingerprint": "2791e97551365f6700a6d7c74616330b3b6ec5dd2d4f63e5cccd91a362d0df3a"
   },
   "ca-S138": {
     "status": "passed",

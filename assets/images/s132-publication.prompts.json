@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-27",
+  "tool": "image_gen built-in",
+  "code": "S132",
+  "file": "s132-publicacio-v1.webp",
+  "alt": "Una llebre i una tortuga es troben en un camí.",
+  "width": 1536,
+  "height": 1024,
+  "references": [],
+  "sourceImage": "exec-20dc9ca0-073e-42ba-ab9c-80cfeeb64251.png",
+  "prompt": "Use case: illustration-story. One new educational storybook illustration for Sentit, landscape 3:2 1536x1024. Fine expressive ink lines and delicate muted watercolor on warm white textured paper, sage/ochre woodland colors, softly fading margins, refined naturalistic children's book art. A slim brown wild HARE with long ears and a small Mediterranean TORTOISE meet facing each other on a winding country footpath in a low grassy clearing. Both are awake, stationary and at the same point in the path, as though having a lively conversation before anything happens. The hare is attentive and slightly lively, the tortoise calm; no clothes, no exaggerated cartoons. Clear recognizable ears, shell and proper four-limbed anatomy. Specific tranquil setting with distant shrubs, no prominent tree or destination. Do not show running, race starting/finish lines, oak tree or trunk, sleeping/resting hare, passing/overtaking, a winner, medals, signs, arrows or any clue about how the race ends. No text, logo, watermark or panels.",
+  "encoding": "WebP quality 88; original PNG preserved locally.",
+  "sourceImageSha256": "cb4369909dfeab04a36cd1cf870f73068b2bb9e343d994c2b5cb45236d34a193",
+  "imageSha256": "344087bdccf8157fa334b23b33ce5d5cd6436b2903923c30a53983dc9da8ac56"
+}

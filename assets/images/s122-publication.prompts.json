@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-27",
+  "tool": "image_gen built-in",
+  "code": "S122",
+  "file": "s122-publicacio-v1.webp",
+  "alt": "La Laia conversa amb la Mireia a classe, al costat d’una bossa tèrmica tancada.",
+  "width": 1536,
+  "height": 1024,
+  "references": [
+    "../characters/mireia-model-sheet-v1.webp",
+    "../characters/laia-model-sheet-v1.webp"
+  ],
+  "sourceImage": "exec-7db8e929-4c4c-49af-8ff8-33959eef68de.png",
+  "prompt": "Use case: illustration-story. One new Sentit listening worksheet illustration, landscape 3:2 1536x1024. Reference 1 is MIREIA, reference 2 LAIA: preserve exactly their faces, ages, skin, hair and clothes and the delicate ink/soft muted watercolor style; do not copy model sheet lettering or multiple poses. Warm white paper, soft fading outer edges. In a real secondary/upper-primary classroom corner beside the excursion bags, Mireia, adult teacher with dark brown skin, short tight black curls, sage cardigan and ivory blouse, crouches slightly to listen to Laia, young teenager with brown curly messy bun, freckles, small hoop earrings, sage jumper and taupe trousers. Laia rests a hand on a CLOSED plain insulated lunch bag on a classroom table and is asking an interested question, not giving a lecture. Exactly one plain opaque water bottle stands beside it. Natural eye contact, believable hands, the table and school setting clearly recognizable. No other characters. Do NOT show inside the bag, insulating layers, blue ice pack, fridge, plug, sun/shade experiment, second bottle, arrows, diagrams, temperatures, writing, labels, numbers, logos or answers to the exercise.",
+  "encoding": "WebP quality 88; original PNG preserved locally.",
+  "sourceImageSha256": "2e768808ef0781b2d66333e72cfeb74ddb87cc2d1182fc618a89f3a149db6ce9",
+  "imageSha256": "46f32373b94b26bcd3afab4e412616f9489b6c07957087c5220efe578dfd0485"
+}
