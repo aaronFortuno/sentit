@@ -6,9 +6,11 @@
   <meta name="robots" content="noindex">
   <title>Sentit · Prova de la base comuna</title>
   <link rel="icon" href="../../assets/sentit.svg">
-  <link rel="stylesheet" href="preview.css?v=0.6.0">
-  <link rel="stylesheet" href="shell.css?v=0.6.0">
-  <script type="module" src="preview-ui.js?v=0.6.0"></script>
+  <link rel="stylesheet" href="preview.css?v=0.7.0">
+  <link rel="stylesheet" href="shell.css?v=0.7.0">
+  <link rel="stylesheet" href="gallery.css?v=0.7.0">
+  <link rel="stylesheet" href="gallery-preview.css?v=0.7.0">
+  <script type="module" src="preview-ui.js?v=0.7.0"></script>
 </head>
 <body data-project="sentit">
   <a class="skip" href="#contingut">Ves al contingut</a>
@@ -28,20 +30,119 @@
       </div>
     </div>
   </header>
-  <main id="contingut" tabindex="-1">
-    <article>
-      <p class="description" id="project-description"></p>
-      <h1 data-message="title">Prova de la base comuna</h1>
-      <p data-message="summary">Comprova la capçalera, el peu i el diàleg V4V d’aquesta versió. Els ajustos de la mostra duren fins que tanques o recarregues la pàgina.</p>
-      <a class="site-link" href="../../" data-message="website">Obre el web actual</a>
-    </article>
+  <main id="contingut" class="of-gallery-shell gallery-preview" tabindex="-1" data-gallery-preview>
+    <div class="sample-toolbar">
+      <div>
+        <h1 data-gallery-label="title">Comprensions orals</h1>
+        <output id="sample-count" role="status"></output>
+      </div>
+      <label class="sample-search"><span class="preview-sr" data-gallery-label="search">Cerca per títol o codi</span><input type="search" autocomplete="off" placeholder="Cerca per títol o codi"></label>
+    </div>
+    <div class="of-gallery-layout sample-layout">
+      <aside class="sample-sidebar" aria-labelledby="sample-filters-label">
+        <details open>
+          <summary id="sample-filters-label" data-gallery-label="filters">Filtres</summary>
+          <div class="sample-fields">
+            <label><span data-gallery-label="level">Curs</span><select data-filter="level"><option value="" data-gallery-label="allLevels">Tots els cursos</option><option>5è de primària</option><option>3r de primària</option><option>4t de primària</option><option>6è de primària</option></select></label>
+            <label><span data-gallery-label="type">Tipologia</span><select data-filter="type"><option value="" data-gallery-label="allTypes">Totes les tipologies</option><option>Diàleg</option><option>Narració</option><option>Entrevista</option><option>Notícia</option><option>Explicació</option><option>Instruccions</option></select></label>
+            <button type="button" class="sample-reset" data-gallery-label="reset" hidden>Esborra els filtres</button>
+          </div>
+        </details>
+        <a class="site-link" href="../../" data-message="website">Obre el web actual</a>
+      </aside>
+      <section class="sample-results" aria-label="Galeria de mostra" tabindex="0">
+        <div class="of-gallery-grid">
+          <article class="of-card sample-card of-card-typed" data-genre="dialogue" data-sample data-type="Diàleg" data-level="5è de primària">
+    <div class="sample-type"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 11.5a7 7 0 0 1-7 7H9l-5 3 .9-4.4A7 7 0 1 1 21 11.5Z"/></svg>Diàleg</div><div class="sample-listening-art" aria-hidden="true"><img src="../../assets/images/el-senyal-de-la-radio.webp" alt="" loading="eager" decoding="async"></div>
+    <div class="sample-card-body">
+      <div class="sample-kicker"><span>5è de primària</span><span>S001</span></div>
+      <h2 class="of-card-title" lang="ca">El senyal de la ràdio</h2>
+      <p class="sample-summary" lang="ca">La Laia i en Biel preparen un avís per a la ràdio de l’escola i proven com posar-se d’acord.</p>
+      <ul class="sample-meta"><li>Accessible</li><li>1:21</li></ul>
+      <a class="sample-action" href="../../#lectura=ca-S001"><span data-gallery-label="listening">Obre la comprensió</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg><span class="preview-sr"> · El senyal de la ràdio</span></a>
+    </div>
+  </article>
+          <article class="of-card sample-card of-card-typed" data-genre="story" data-sample data-type="Narració" data-level="3r de primària">
+    <div class="sample-type"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 6v14M3 5c4-1 6-1 9 1 3-2 5-2 9-1v14c-4-1-6-1-9 1-3-2-5-2-9-1Z"/></svg>Narració</div><div class="sample-listening-art" aria-hidden="true"><img src="../../assets/images/el-boto-de-la-jaqueta-v1.webp" alt="" loading="eager" decoding="async"></div>
+    <div class="sample-card-body">
+      <div class="sample-kicker"><span>3r de primària</span><span>S004</span></div>
+      <h2 class="of-card-title" lang="ca">El botó de la jaqueta</h2>
+      <p class="sample-summary" lang="ca">Una marca a la roba ajuda l’Aina a buscar amb més criteri allò que ha perdut.</p>
+      <ul class="sample-meta"><li>Intermèdia</li><li>1:26</li></ul>
+      <a class="sample-action" href="../../#lectura=ca-S004"><span data-gallery-label="listening">Obre la comprensió</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg><span class="preview-sr"> · El botó de la jaqueta</span></a>
+    </div>
+  </article>
+          <article class="of-card sample-card of-card-typed" data-genre="interview" data-sample data-type="Entrevista" data-level="4t de primària">
+    <div class="sample-type"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10v2a7 7 0 0 0 14 0v-2M12 19v3m-4 0h8"/></svg>Entrevista</div><div class="sample-listening-art" aria-hidden="true"><img src="../../assets/images/qui-arregla-els-instruments-v1.webp" alt="" loading="eager" decoding="async"></div>
+    <div class="sample-card-body">
+      <div class="sample-kicker"><span>4t de primària</span><span>S012</span></div>
+      <h2 class="of-card-title" lang="ca">Qui arregla els instruments?</h2>
+      <p class="sample-summary" lang="ca">En Biel visita l’Elies i descobreix per què reparar comença escoltant i comprovant.</p>
+      <ul class="sample-meta"><li>Avançada</li><li>1:59</li></ul>
+      <a class="sample-action" href="../../#lectura=ca-S012"><span data-gallery-label="listening">Obre la comprensió</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg><span class="preview-sr"> · Qui arregla els instruments?</span></a>
+    </div>
+  </article>
+          <article class="of-card sample-card of-card-typed" data-genre="news" data-sample data-type="Notícia" data-level="3r de primària">
+    <div class="sample-type"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8h5v5H7zm8 0h3m-3 5h3M7 17h11"/></svg>Notícia</div><div class="sample-listening-art" aria-hidden="true"><img src="../../assets/images/sobre-un-nou-cami-al-parc-v1.webp" alt="" loading="eager" decoding="async"></div>
+    <div class="sample-card-body">
+      <div class="sample-kicker"><span>3r de primària</span><span>S006</span></div>
+      <h2 class="of-card-title" lang="ca">S’obre un nou camí al parc</h2>
+      <p class="sample-summary" lang="ca">La Mar explica què canviarà dilluns al parc i què continuarà com fins ara.</p>
+      <ul class="sample-meta"><li>Avançada</li><li>1:24</li></ul>
+      <a class="sample-action" href="../../#lectura=ca-S006"><span data-gallery-label="listening">Obre la comprensió</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg><span class="preview-sr"> · S’obre un nou camí al parc</span></a>
+    </div>
+  </article>
+          <article class="of-card sample-card of-card-typed" data-genre="explanation" data-sample data-type="Explicació" data-level="3r de primària">
+    <div class="sample-type"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 18v-2c-3-2-4-5-3-8a6 6 0 0 1 12 0c1 3 0 6-3 8v2m-6 0h6m-5 4h4"/></svg>Explicació</div><div class="sample-listening-art" aria-hidden="true"><img src="../../assets/images/on-va-laigua-del-bassal-v1.webp" alt="" loading="lazy" decoding="async"></div>
+    <div class="sample-card-body">
+      <div class="sample-kicker"><span>3r de primària</span><span>S007</span></div>
+      <h2 class="of-card-title" lang="ca">On va l’aigua del bassal?</h2>
+      <p class="sample-summary" lang="ca">Una conversa a classe sobre el bassal del pati ajuda a distingir dos camins de l’aigua i a proposar una comparació.</p>
+      <ul class="sample-meta"><li>Avançada</li><li>1:52</li></ul>
+      <a class="sample-action" href="../../#lectura=ca-S007"><span data-gallery-label="listening">Obre la comprensió</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg><span class="preview-sr"> · On va l’aigua del bassal?</span></a>
+    </div>
+  </article>
+          <article class="of-card sample-card of-card-typed" data-genre="instructions" data-sample data-type="Instruccions" data-level="3r de primària">
+    <div class="sample-type"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 6 2 2 3-4m3 3h10M3 13l2 2 3-4m3 3h10M3 21h5m3 0h10"/></svg>Instruccions</div><div class="sample-listening-art" aria-hidden="true"><img src="../../assets/images/preparem-una-capsa-de-records-v2.webp" alt="" loading="lazy" decoding="async"></div>
+    <div class="sample-card-body">
+      <div class="sample-kicker"><span>3r de primària</span><span>S002</span></div>
+      <h2 class="of-card-title" lang="ca">Preparem una capsa de records</h2>
+      <p class="sample-summary" lang="ca">Una proposta senzilla per guardar records i retrobar-los a final de curs.</p>
+      <ul class="sample-meta"><li>Accessible</li><li>0:53</li></ul>
+      <a class="sample-action" href="../../#lectura=ca-S002"><span data-gallery-label="listening">Obre la comprensió</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg><span class="preview-sr"> · Preparem una capsa de records</span></a>
+    </div>
+  </article>
+          <article class="of-card sample-card of-card-typed" data-genre="interview" data-sample data-type="Entrevista" data-level="6è de primària">
+    <div class="sample-type"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10v2a7 7 0 0 0 14 0v-2M12 19v3m-4 0h8"/></svg>Entrevista</div><div class="sample-listening-art" aria-hidden="true"><img src="../../assets/images/una-cuinera-que-no-vol-llencar-menjar-v1.webp" alt="" loading="lazy" decoding="async"></div>
+    <div class="sample-card-body">
+      <div class="sample-kicker"><span>6è de primària</span><span>S019</span></div>
+      <h2 class="of-card-title" lang="ca">Una cuinera contra el malbaratament</h2>
+      <p class="sample-summary" lang="ca">La Laia pregunta a l’Ona per dos hàbits que ajuden a comprar i servir amb més criteri.</p>
+      <ul class="sample-meta"><li>Accessible</li><li>1:53</li></ul>
+      <a class="sample-action" href="../../#lectura=ca-S019"><span data-gallery-label="listening">Obre la comprensió</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg><span class="preview-sr"> · Una cuinera contra el malbaratament</span></a>
+    </div>
+  </article>
+          <article class="of-card sample-card of-card-typed" data-genre="story" data-sample data-type="Narració" data-level="4t de primària">
+    <div class="sample-type"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 6v14M3 5c4-1 6-1 9 1 3-2 5-2 9-1v14c-4-1-6-1-9 1-3-2-5-2-9-1Z"/></svg>Narració</div><div class="sample-listening-art" aria-hidden="true"><img src="../../assets/images/la-foto-que-faltava-v2.webp" alt="" loading="lazy" decoding="async"></div>
+    <div class="sample-card-body">
+      <div class="sample-kicker"><span>4t de primària</span><span>S008</span></div>
+      <h2 class="of-card-title" lang="ca">La foto que faltava</h2>
+      <p class="sample-summary" lang="ca">L’Aina busca una fotografia i descobreix per què no és al lloc de sempre.</p>
+      <ul class="sample-meta"><li>Accessible</li><li>1:33</li></ul>
+      <a class="sample-action" href="../../#lectura=ca-S008"><span data-gallery-label="listening">Obre la comprensió</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 12h15m-6-6 6 6-6 6"/></svg><span class="preview-sr"> · La foto que faltava</span></a>
+    </div>
+  </article>
+        </div>
+        <p class="sample-empty" data-gallery-label="empty" hidden>Cap resultat amb aquests filtres.</p>
+      </section>
+    </div>
   </main>
   <footer class="of-footer">
     <div class="of-bar preview-footer">
       <p class="footer-context" id="footer-motto"></p>
       <a class="of-signature" href="https://ortogra.fi/" aria-label="ortogra.fi"><svg viewBox="0 0 48 48" width="22" height="22" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" aria-hidden="true"><circle cx="22" cy="28" r="14"/><path d="m27 9 7-6"/></svg><span>ortogra<span class="accent">.</span>fi</span></a>
       <div class="of-footer-tools">
-          <button type="button" class="of-footer-action" id="changes-open" aria-haspopup="dialog" aria-controls="changes" aria-label="v0.6.0 · Historial de versions" title="Historial de versions"><svg class="of-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="6" x2="6" y1="3" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></svg><span class="of-footer-label">v0.6.0</span></button>
+          <button type="button" class="of-footer-action" id="changes-open" aria-haspopup="dialog" aria-controls="changes" aria-label="v0.7.0 · Historial de versions" title="Historial de versions"><svg class="of-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="6" x2="6" y1="3" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></svg><span class="of-footer-label">v0.7.0</span></button>
           <button type="button" class="of-footer-action" id="license-open" aria-haspopup="dialog" aria-controls="project-license" aria-label="Llicència" title="Llicència"><svg class="of-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v16"/><path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z"/></svg><span class="of-footer-label" data-message="license">Llicència</span></button>
           <a class="of-footer-action" href="https://github.com/aaronFortuno/sentit" target="_blank" rel="noopener noreferrer" aria-label="Repositori" title="Repositori"><svg class="of-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><line x1="3" x2="9" y1="12" y2="12"/><line x1="15" x2="21" y1="12" y2="12"/></svg><span class="of-footer-label" data-message="repo">Repositori</span></a>
           <button type="button" class="of-footer-action" id="support-open" aria-haspopup="dialog" aria-controls="support" aria-label="V4V · Value for Value" title="Value for Value"><svg class="of-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.414 14.414C21 12.828 22 11.5 22 9.5a5.5 5.5 0 0 0-9.591-3.676.6.6 0 0 1-.818.001A5.5 5.5 0 0 0 2 9.5c0 2.3 1.5 4 3 5.5l5.535 5.362a2 2 0 0 0 2.879.052 2.12 2.12 0 0 0-.004-3 2.124 2.124 0 1 0 3-3 2.124 2.124 0 0 0 3.004 0 2 2 0 0 0 0-2.828l-1.881-1.882a2.41 2.41 0 0 0-3.409 0l-1.71 1.71a2 2 0 0 1-2.828 0 2 2 0 0 1 0-2.828l2.823-2.762"/></svg><span class="of-footer-label">V4V</span></button>
