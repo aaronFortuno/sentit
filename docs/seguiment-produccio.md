@@ -1,6 +1,6 @@
 # Seguiment de les comprensions
 
-Actualitzat: **27/11/2026**. **18 pendents** de 150 comprensions orals; **132 finalitzades** al [registre de publicacions](publicades.md). Les variants es compten per separat.
+Actualitzat: **27/11/2026**. **11 pendents** de 150 comprensions orals; **139 finalitzades** al [registre de publicacions](publicades.md). Les variants es compten per separat.
 
 La taula conté només feina oberta. Una peça en surt quan té publicació definitiva registrada per al contingut exacte. Les noves propostes s’hi incorporen automàticament; quan no quedi feina, la taula quedarà buida.
 
@@ -8,7 +8,7 @@ La taula conté només feina oberta. Una peça en surt quan té publicació defi
 
 | Feina | Peces | Codis |
 | --- | ---: | --- |
-| Escoltar el muntatge | 7 | [ca-S133](https://sentit.ortogra.fi/#lectura=ca-S133), [ca-S134](https://sentit.ortogra.fi/#lectura=ca-S134), [ca-S136](https://sentit.ortogra.fi/#lectura=ca-S136), [ca-S138](https://sentit.ortogra.fi/#lectura=ca-S138), [ca-S139](https://sentit.ortogra.fi/#lectura=ca-S139), [ca-S140](https://sentit.ortogra.fi/#lectura=ca-S140), [ca-S141](https://sentit.ortogra.fi/#lectura=ca-S141) |
+| Escoltar el muntatge | 0 | Cap |
 | Resoldre esmenes de veu i tornar a escoltar | 9 | [ca-S005](https://sentit.ortogra.fi/#lectura=ca-S005), [ca-S010](https://sentit.ortogra.fi/#lectura=ca-S010), [ca-S011](https://sentit.ortogra.fi/#lectura=ca-S011), [ca-S015](https://sentit.ortogra.fi/#lectura=ca-S015), [ca-S102](https://sentit.ortogra.fi/#lectura=ca-S102), [ca-S107](https://sentit.ortogra.fi/#lectura=ca-S107), [ca-S131](https://sentit.ortogra.fi/#lectura=ca-S131), [ca-S135](https://sentit.ortogra.fi/#lectura=ca-S135), [ca-S142](https://sentit.ortogra.fi/#lectura=ca-S142) |
 | Produir les veus, amb guió validat | 0 | Cap |
 | Escoltar i validar les veus abans de muntar | 0 | Cap |
@@ -30,14 +30,7 @@ La taula conté només feina oberta. Una peça en surt quan té publicació defi
 | [ca-S102](https://sentit.ortogra.fi/#lectura=ca-S102) | L’autobús que no es va aturar | 6è | Intermèdia · Diàleg | Prevista 1:40–2:05 | 8 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
 | [ca-S107](https://sentit.ortogra.fi/#lectura=ca-S107) | El carro que s’encallava | 6è | Avançada · Diàleg | Prevista 1:50–2:15 | 9 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
 | [ca-S131](https://sentit.ortogra.fi/#lectura=ca-S131) | La guineu i el corb | 3r | Intermèdia · Narració | Prevista 1:30–1:55 | 6 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
-| [ca-S133](https://sentit.ortogra.fi/#lectura=ca-S133) | El vent i el Sol | 4t | Accessible · Narració | 1:23 | 6 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
-| [ca-S134](https://sentit.ortogra.fi/#lectura=ca-S134) | El pastor i el llop | 4t | Intermèdia · Narració | 1:25 | 6 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
 | [ca-S135](https://sentit.ortogra.fi/#lectura=ca-S135) | El pont abans de l’alba | 4t | Intermèdia · Narració | Prevista 1:40–2:05 | 6 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
-| [ca-S136](https://sentit.ortogra.fi/#lectura=ca-S136) | Sant Mer i el drac de Banyoles | 4t | Intermèdia · Narració | 1:36 | 6 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
-| [ca-S138](https://sentit.ortogra.fi/#lectura=ca-S138) | El flautista d’Hamelín | 5è | Avançada · Narració | 2:01 | 6 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
-| [ca-S139](https://sentit.ortogra.fi/#lectura=ca-S139) | El rei Mides | 5è | Intermèdia · Narració | 1:40 | 7 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
-| [ca-S140](https://sentit.ortogra.fi/#lectura=ca-S140) | Dèdal i Ícar | 5è | Intermèdia · Narració | 1:39 | 7 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
-| [ca-S141](https://sentit.ortogra.fi/#lectura=ca-S141) | Demèter i Persèfone | 6è | Avançada · Narració | 1:35 | 7 | ✅ | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar** | — |
 | [ca-S142](https://sentit.ortogra.fi/#lectura=ca-S142) | Hermes i la lira | 6è | Intermèdia · Narració | Prevista 2:10–2:40 | 7 | ✅ | ✅ | ✅ | ✅ | **⏳ Escoltar veus** | — | — |
 
 ## Esmenes obertes

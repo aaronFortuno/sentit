@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-27",
+  "tool": "image_gen built-in",
+  "code": "S133",
+  "file": "s133-publicacio-v1.webp",
+  "alt": "El Sol i el vent es miren damunt d’un paisatge de turons amb un viatger llunyà.",
+  "width": 1536,
+  "height": 1024,
+  "references": [],
+  "sourceImage": "exec-20587efa-0112-433f-b1f0-642ac83cde1f.png",
+  "prompt": "Use case: illustration-story. One NEW Sentit educational listening worksheet illustration, landscape 3:2 1536x1024. Refined fine ink and delicate muted watercolor on warm white textured paper, soft fading outer edges, sage fields, ochre road and pale blue sky. An evocative traditional fable landscape: a winding path between low hills, an expressive warm SUN face in one part of the sky and a gently personified NORTH WIND face formed by a separate pale cloud, both appearing engaged in a conversation on equal terms. The cloud is NOT blowing or acting and the sun casts no special beam. A tiny distant traveler walks neutrally down the path, seen from behind, arms relaxed and wearing a plain CLOSED long coat; too small to show garment details. Neither weather character is winning or shown acting first. No flying clothes, gripping a coat, opening buttons, discarded coat, sweating, resting traveler or outcome. No arrows, labels, numbers, writing, logos, speech bubbles or watermark. Quiet expressive children's book art, not a cartoon diagram or sequential panels.",
+  "encoding": "WebP quality 88; original PNG preserved locally.",
+  "sourceImageSha256": "d44d113d77c0177db78188cd42d6d0a4b3bb189916a215e914a72205949983d8",
+  "imageSha256": "a21e75882b8d1798714f6cbc2bc52b9a360c10184034a45db80bf6b41fd4e133"
+}

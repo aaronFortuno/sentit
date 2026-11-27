@@ -8869,15 +8869,15 @@ export const productionProgress = {
     }
   },
   "ca-S136": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-26",
     "scriptApprovedAt": "2026-11-26",
-    "editorialFingerprint": "8aab46b9820327e196120d5f07e3a9cccf452c7b42c792d7fb16ee6d631ced0b",
+    "editorialFingerprint": "8f57cecd7f54bf5116c2d8e32590305d1fa56d3a2ecddabd7c5ddc94685e0d8b",
     "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "confirmation": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "listeningApproval": true,
+    "confirmation": "Queden validades per pujar a publicació definitiva els 7 muntatges que teníem pendents actualment",
     "scriptApprovalSource": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
-    "reason": "Guió i escaleta validats; esperant un lot compatible.",
+    "reason": "Muntatge final validat pel docent; materials definitius comprovats i publicats sense modificar l’àudio.",
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -8897,25 +8897,38 @@ export const productionProgress = {
     },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-26T14:32:35.452Z",
-    "voicePreview": "./proves/veus-rebudes.html#S136",
-    "voicePreviewFile": "./assets/audio/s136-voices-review-v1.mp3",
     "teacherAssessment": "Veus validades pel docent; muntatge autoritzat amb el repertori musical aprovat.",
     "mountedAt": "2026-11-27T10:00:34.651Z",
     "synthesisBatch": "L45",
     "requestHash": "3402b7ae874c38c102c2e3bba9f629c25b1b9d6aaa1fe835d901041f4c06dd90",
     "audioSha256": "d8a5f59ecf7c6db4ab49ef71aa18cdd94a60a0e1ae9a04d911f544b8a1414b07",
-    "montageNewSynthesisRequests": 0
+    "montageNewSynthesisRequests": 0,
+    "closedPublicationReview": {
+      "closedAt": "2026-11-27",
+      "voicePreview": "./proves/veus-rebudes.html#S136",
+      "voicePreviewFile": "./assets/audio/s136-voices-review-v1.mp3"
+    },
+    "validatedAt": "2026-11-27",
+    "validatedBy": "docent",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s136-publicacio-v1.webp",
+      "illustrationSha256": "7fa38a45a142dbf3719b3b3e22c9b3e873685f7b69e8b4ea4fc70166d55c0f8f",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-27",
+      "audioChanged": false,
+      "review": "docs/publicacio-2026-11-27-tradicio.review.json"
+    }
   },
   "ca-S140": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-26",
     "scriptApprovedAt": "2026-11-26",
-    "editorialFingerprint": "be3d2fa471e29a96190d27a000682395920b1be4acd627c77e684157948667dc",
+    "editorialFingerprint": "739c81f5edec7b6494f789c629652b4ef044d4a8c49049459979e7f0367c69b2",
     "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "confirmation": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "listeningApproval": true,
+    "confirmation": "Queden validades per pujar a publicació definitiva els 7 muntatges que teníem pendents actualment",
     "scriptApprovalSource": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
-    "reason": "Guió i escaleta validats; esperant un lot compatible.",
+    "reason": "Muntatge final validat pel docent; materials definitius comprovats i publicats sense modificar l’àudio.",
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -8935,25 +8948,38 @@ export const productionProgress = {
     },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-26T14:47:10.477Z",
-    "voicePreview": "./proves/veus-rebudes.html#S140",
-    "voicePreviewFile": "./assets/audio/s140-voices-review-v1.mp3",
     "teacherAssessment": "Veus validades pel docent; muntatge autoritzat amb el repertori musical aprovat.",
     "mountedAt": "2026-11-27T10:01:07.280Z",
     "synthesisBatch": "L46",
     "requestHash": "c83866d90107652b9335bbbe92d4d107b131e22468328cf5dbdd1e5c174a1d89",
     "audioSha256": "e48d30d9c35ded1deed85f46f9c3ac61a2fbc7367a39dd7b071659fe1d5eb171",
-    "montageNewSynthesisRequests": 0
+    "montageNewSynthesisRequests": 0,
+    "closedPublicationReview": {
+      "closedAt": "2026-11-27",
+      "voicePreview": "./proves/veus-rebudes.html#S140",
+      "voicePreviewFile": "./assets/audio/s140-voices-review-v1.mp3"
+    },
+    "validatedAt": "2026-11-27",
+    "validatedBy": "docent",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s140-publicacio-v1.webp",
+      "illustrationSha256": "97e72088373aba25e79d5991106f1f860c6b83acacbc3e1ac3830a76d6135d75",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-27",
+      "audioChanged": false,
+      "review": "docs/publicacio-2026-11-27-tradicio.review.json"
+    }
   },
   "ca-S138": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-26",
     "scriptApprovedAt": "2026-11-26",
-    "editorialFingerprint": "870f5f5fe6e960a33d949a034ddd6b887508a58b7726564c765965db4efb0c3b",
+    "editorialFingerprint": "a51af7cd37df65bb90ee0a872b693575a87af2769e7a49a1c99f38f6bbe27657",
     "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "confirmation": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "listeningApproval": true,
+    "confirmation": "Queden validades per pujar a publicació definitiva els 7 muntatges que teníem pendents actualment",
     "scriptApprovalSource": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
-    "reason": "Guió i escaleta validats; esperant un lot compatible.",
+    "reason": "Muntatge final validat pel docent; materials definitius comprovats i publicats sense modificar l’àudio.",
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -8973,14 +8999,27 @@ export const productionProgress = {
     },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-26T14:32:35.452Z",
-    "voicePreview": "./proves/veus-rebudes.html#S138",
-    "voicePreviewFile": "./assets/audio/s138-voices-review-v1.mp3",
     "teacherAssessment": "Veus validades pel docent; muntatge autoritzat amb el repertori musical aprovat.",
     "mountedAt": "2026-11-27T10:00:46.812Z",
     "synthesisBatch": "L45",
     "requestHash": "3402b7ae874c38c102c2e3bba9f629c25b1b9d6aaa1fe835d901041f4c06dd90",
     "audioSha256": "853f0dda9fe51a73c973855c5da694bc072a1b3ac4f849e56f921a4567e24fe5",
-    "montageNewSynthesisRequests": 0
+    "montageNewSynthesisRequests": 0,
+    "closedPublicationReview": {
+      "closedAt": "2026-11-27",
+      "voicePreview": "./proves/veus-rebudes.html#S138",
+      "voicePreviewFile": "./assets/audio/s138-voices-review-v1.mp3"
+    },
+    "validatedAt": "2026-11-27",
+    "validatedBy": "docent",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s138-publicacio-v1.webp",
+      "illustrationSha256": "89e0011cafe2cadfdf230124980c755d61f73fdf01a5cacd0cf2e0f33c3ff952",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-27",
+      "audioChanged": false,
+      "review": "docs/publicacio-2026-11-27-tradicio.review.json"
+    }
   },
   "ca-S137": {
     "state": "published",
@@ -9150,15 +9189,15 @@ export const productionProgress = {
     }
   },
   "ca-S134": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-26",
     "scriptApprovedAt": "2026-11-26",
-    "editorialFingerprint": "33e0920e991fbfb6ac555e79e695344cddd050cc14e814bb3c3b8f2232b7837b",
+    "editorialFingerprint": "b823834f2ccfc790fc5b3729e789d9b1bb255ec13527476af3da572d4eb27f77",
     "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "confirmation": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "listeningApproval": true,
+    "confirmation": "Queden validades per pujar a publicació definitiva els 7 muntatges que teníem pendents actualment",
     "scriptApprovalSource": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
-    "reason": "Guió i escaleta validats; esperant un lot compatible.",
+    "reason": "Muntatge final validat pel docent; materials definitius comprovats i publicats sense modificar l’àudio.",
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -9178,25 +9217,38 @@ export const productionProgress = {
     },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-26T15:09:20.562Z",
-    "voicePreview": "./proves/veus-rebudes.html#S134",
-    "voicePreviewFile": "./assets/audio/s134-voices-review-v1.mp3",
     "teacherAssessment": "Veus validades pel docent; muntatge autoritzat amb el repertori musical aprovat.",
     "mountedAt": "2026-11-27T10:00:21.932Z",
     "synthesisBatch": "L47",
     "requestHash": "ddad9f4b98af013f5a5d6acb74d921c8486339be0b1e7a1d6929add26315e1b2",
     "audioSha256": "a4850ed76acc73719782e889634a31f03edfb521a302889866cf6acd63c333f8",
-    "montageNewSynthesisRequests": 0
+    "montageNewSynthesisRequests": 0,
+    "closedPublicationReview": {
+      "closedAt": "2026-11-27",
+      "voicePreview": "./proves/veus-rebudes.html#S134",
+      "voicePreviewFile": "./assets/audio/s134-voices-review-v1.mp3"
+    },
+    "validatedAt": "2026-11-27",
+    "validatedBy": "docent",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s134-publicacio-v1.webp",
+      "illustrationSha256": "528a7c2a4d2c72583489487649c4556db3fd0e69f978c58092afd769915a9648",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-27",
+      "audioChanged": false,
+      "review": "docs/publicacio-2026-11-27-tradicio.review.json"
+    }
   },
   "ca-S139": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-26",
     "scriptApprovedAt": "2026-11-26",
-    "editorialFingerprint": "2253394fdfd970b4b87a1ffecb5f4ad1dee28ea780f6eb6840354479dc4d6c57",
+    "editorialFingerprint": "f8659478dc0a9dbea0f28bd65a9bafd7451a37e4ef828c7d77294ac8a439ba88",
     "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "confirmation": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "listeningApproval": true,
+    "confirmation": "Queden validades per pujar a publicació definitiva els 7 muntatges que teníem pendents actualment",
     "scriptApprovalSource": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
-    "reason": "Guió i escaleta validats; esperant un lot compatible.",
+    "reason": "Muntatge final validat pel docent; materials definitius comprovats i publicats sense modificar l’àudio.",
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -9216,25 +9268,38 @@ export const productionProgress = {
     },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-26T14:47:10.477Z",
-    "voicePreview": "./proves/veus-rebudes.html#S139",
-    "voicePreviewFile": "./assets/audio/s139-voices-review-v1.mp3",
     "teacherAssessment": "Veus validades pel docent; muntatge autoritzat amb el repertori musical aprovat.",
     "mountedAt": "2026-11-27T10:00:54.779Z",
     "synthesisBatch": "L46",
     "requestHash": "c83866d90107652b9335bbbe92d4d107b131e22468328cf5dbdd1e5c174a1d89",
     "audioSha256": "e7eb51143fa920703c2e02f5c1a9693339e65a2e2173e1e427920096434377e7",
-    "montageNewSynthesisRequests": 0
+    "montageNewSynthesisRequests": 0,
+    "closedPublicationReview": {
+      "closedAt": "2026-11-27",
+      "voicePreview": "./proves/veus-rebudes.html#S139",
+      "voicePreviewFile": "./assets/audio/s139-voices-review-v1.mp3"
+    },
+    "validatedAt": "2026-11-27",
+    "validatedBy": "docent",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s139-publicacio-v1.webp",
+      "illustrationSha256": "0d36af9e83dbc533a233802113baf4373c8f97ac2cb4da1150e3f90911a6523f",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-27",
+      "audioChanged": false,
+      "review": "docs/publicacio-2026-11-27-tradicio.review.json"
+    }
   },
   "ca-S141": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-26",
     "scriptApprovedAt": "2026-11-26",
-    "editorialFingerprint": "f805526504540fb8a6e99f0723f1c2a6b27c826a993829a4e93d63bd951058e1",
+    "editorialFingerprint": "429dfa594f3cfd4e34418f5672b653bec433bb3daf1ba041daa648cdfb455341",
     "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "confirmation": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
+    "listeningApproval": true,
+    "confirmation": "Queden validades per pujar a publicació definitiva els 7 muntatges que teníem pendents actualment",
     "scriptApprovalSource": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
-    "reason": "Guió i escaleta validats; esperant un lot compatible.",
+    "reason": "Muntatge final validat pel docent; materials definitius comprovats i publicats sense modificar l’àudio.",
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -9254,25 +9319,38 @@ export const productionProgress = {
     },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-26T15:09:20.562Z",
-    "voicePreview": "./proves/veus-rebudes.html#S141",
-    "voicePreviewFile": "./assets/audio/s141-voices-review-v1.mp3",
     "teacherAssessment": "Veus validades pel docent; muntatge autoritzat amb el repertori musical aprovat.",
     "mountedAt": "2026-11-27T10:01:16.278Z",
     "synthesisBatch": "L47",
     "requestHash": "ddad9f4b98af013f5a5d6acb74d921c8486339be0b1e7a1d6929add26315e1b2",
     "audioSha256": "394ca3174a3c4bd0b19ac7ab68b24b3700540aecc5765340eee023a4793084d2",
-    "montageNewSynthesisRequests": 0
+    "montageNewSynthesisRequests": 0,
+    "closedPublicationReview": {
+      "closedAt": "2026-11-27",
+      "voicePreview": "./proves/veus-rebudes.html#S141",
+      "voicePreviewFile": "./assets/audio/s141-voices-review-v1.mp3"
+    },
+    "validatedAt": "2026-11-27",
+    "validatedBy": "docent",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s141-publicacio-v1.webp",
+      "illustrationSha256": "0e51abc276f5ac6705cae8df179ac0630e70c07f0893ae7a3bda704073015ec5",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-27",
+      "audioChanged": false,
+      "review": "docs/publicacio-2026-11-27-tradicio.review.json"
+    }
   },
   "ca-S133": {
-    "state": "montage-awaiting-listening",
+    "state": "published",
     "approvedAt": "2026-11-26",
     "scriptApprovedAt": "2026-11-26",
-    "editorialFingerprint": "a5b1503a512d4b45756793514459340565ad4f06f98b55227036c24e424c9558",
+    "editorialFingerprint": "28dc88b605ae99dfac86d846e394083dd464d79d50750c4ee829ce9b63b0ece6",
     "plannedNewRequests": 1,
-    "listeningApproval": false,
-    "confirmation": "Docent 26/11: S133 i S142 validats per síntesi, després de les esmenes revisades. Autorització vigent de lots compatibles de 6–8 minuts, seqüencials.",
+    "listeningApproval": true,
+    "confirmation": "Queden validades per pujar a publicació definitiva els 7 muntatges que teníem pendents actualment",
     "scriptApprovalSource": "Docent 26/11: S133 i S142 validats per síntesi, després de les esmenes revisades. Autorització vigent de lots compatibles de 6–8 minuts, seqüencials.",
-    "reason": "Guió i escaleta revisats i validats pel docent; lot compatible complet.",
+    "reason": "Muntatge final validat pel docent; materials definitius comprovats i publicats sense modificar l’àudio.",
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -9292,14 +9370,27 @@ export const productionProgress = {
     },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-26T15:09:20.562Z",
-    "voicePreview": "./proves/veus-rebudes.html#S133",
-    "voicePreviewFile": "./assets/audio/s133-voices-review-v1.mp3",
     "teacherAssessment": "Veus validades pel docent; muntatge autoritzat amb el repertori musical aprovat.",
     "mountedAt": "2026-11-27T10:00:11.495Z",
     "synthesisBatch": "L47",
     "requestHash": "ddad9f4b98af013f5a5d6acb74d921c8486339be0b1e7a1d6929add26315e1b2",
     "audioSha256": "0667d7653c783daaadba098e632f1cf1222050b996965fa7721325a39e476d72",
-    "montageNewSynthesisRequests": 0
+    "montageNewSynthesisRequests": 0,
+    "closedPublicationReview": {
+      "closedAt": "2026-11-27",
+      "voicePreview": "./proves/veus-rebudes.html#S133",
+      "voicePreviewFile": "./assets/audio/s133-voices-review-v1.mp3"
+    },
+    "validatedAt": "2026-11-27",
+    "validatedBy": "docent",
+    "publicationMaterials": {
+      "illustration": "./assets/images/s133-publicacio-v1.webp",
+      "illustrationSha256": "a21e75882b8d1798714f6cbc2bc52b9a360c10184034a45db80bf6b41fd4e133",
+      "transcript": "speech-only",
+      "checkedAt": "2026-11-27",
+      "audioChanged": false,
+      "review": "docs/publicacio-2026-11-27-tradicio.review.json"
+    }
   },
   "ca-S142": {
     "state": "audio-corrections-pending",

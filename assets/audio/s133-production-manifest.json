@@ -1,7 +1,7 @@
 {
   "code": "S133",
   "activity": "ca-S133",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s133-mixed-v1.mp3",
   "introFile": "s133-mixed-v1-intro.mp3",
   "bodyFile": "s133-mixed-v1-cos.mp3",
@@ -57,7 +57,7 @@
         "fadeStart": 81.44000000000001,
         "fadeEnd": 82.59000000000002
       },
-      "listeningValidation": "pending",
+      "listeningValidation": "approved",
       "start": 0
     }
   ],
@@ -84,5 +84,13 @@
     "sourceTakeSha256": "8d768ce18de9c981c3acd17d85fb5548decfd170b18b15f97ea5bb7e12ec45bf",
     "sourceBatch": "L47",
     "confirmation": "Docent 27/11: totes les veus rebudes pendents de revisió validades per muntatge, excepte S131 i S142."
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-27",
+    "validatedBy": "docent",
+    "confirmation": "Queden validades per pujar a publicació definitiva els 7 muntatges que teníem pendents actualment",
+    "audioSha256": "0667d7653c783daaadba098e632f1cf1222050b996965fa7721325a39e476d72",
+    "editorialFingerprint": "28dc88b605ae99dfac86d846e394083dd464d79d50750c4ee829ce9b63b0ece6",
+    "listeningApproval": true
   }
 }

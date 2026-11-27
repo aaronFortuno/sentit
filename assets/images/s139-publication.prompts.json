@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-27",
+  "tool": "image_gen built-in",
+  "code": "S139",
+  "file": "s139-publicacio-v1.webp",
+  "alt": "El rei Mides observa un jardí des de la porta d’un palau antic.",
+  "width": 1536,
+  "height": 1024,
+  "references": [],
+  "sourceImage": "exec-2234a807-1dab-4b08-866d-012edb01b075.png",
+  "prompt": "Use case: illustration-story. One NEW Sentit educational listening worksheet illustration, landscape 3:2 1536x1024. Refined fine ink and delicate muted watercolor on warm white textured paper, softly fading edges. An ancient Phrygian royal palace garden with limestone columns, terracotta paving, ordinary green shrubs and a simple garden doorway. King Midas, middle-aged bearded man in an understated deep plum ancient robe and a plain woven royal headband, stands by the door looking thoughtfully across the garden, hands EMPTY and relaxed, not touching anything. A specific ancient palace setting, natural anatomy, quiet storybook atmosphere. NO GOLD or gold-colored objects, metallic crown, transformed objects, branches or stones being touched, food, drink, table, bread, river, bathing or visual explanation of a wish or its reversal. No other gods, writing, labels, numbers, logos or watermark. Do not portray any modern recurring Sentit characters.",
+  "encoding": "WebP quality 88; original PNG preserved locally.",
+  "sourceImageSha256": "8f69c7cb84e1b5eb925b97b0ca46e56c67edb65240eb1d5f5199945f34c51da4",
+  "imageSha256": "0d36af9e83dbc533a233802113baf4373c8f97ac2cb4da1150e3f90911a6523f"
+}

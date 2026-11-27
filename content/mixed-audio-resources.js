@@ -652,7 +652,7 @@ export const mixedAudioResources = {
     "recipe": "tools/prepare-batch-voice-previews.cjs"
   },
   "ca-S136": {
-    "voices": "Narrador: Algenib. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Narrador: Algenib. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "Angevin · Kevin MacLeod (CC BY 4.0). Entrada discreta, base molt baixa sota el relat i pujada de dos segons abans de la fosa final.",
     "recipe": "tools/render-mixed-take.cjs"
   },
@@ -662,7 +662,7 @@ export const mixedAudioResources = {
     "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S138": {
-    "voices": "Narrador: Algenib. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Narrador: Algenib. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "Teller of the Tales · Kevin MacLeod (CC BY 4.0). Entrada discreta, base molt baixa sota el relat i pujada de dos segons abans de la fosa final.",
     "recipe": "tools/render-mixed-take.cjs"
   },
@@ -677,27 +677,27 @@ export const mixedAudioResources = {
     "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S139": {
-    "voices": "Narrador: Algenib. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Narrador: Algenib. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "Desert City · Kevin MacLeod (CC BY 4.0). Entrada discreta, base molt baixa sota el relat i pujada de dos segons abans de la fosa final.",
     "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S140": {
-    "voices": "Narrador: Algenib. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Narrador: Algenib. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "Virtutes Instrumenti · Kevin MacLeod (CC BY 4.0). Entrada discreta, base molt baixa sota el relat i pujada de dos segons abans de la fosa final.",
     "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S133": {
-    "voices": "Narrador: Algenib. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Narrador: Algenib. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "Fresh Air · Kevin MacLeod (CC BY 4.0). Entrada discreta, base molt baixa sota el relat i pujada de dos segons abans de la fosa final.",
     "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S134": {
-    "voices": "Narrador: Algenib. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Narrador: Algenib. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "Almost New · Kevin MacLeod (CC BY 4.0). Entrada discreta, base molt baixa sota el relat i pujada de dos segons abans de la fosa final.",
     "recipe": "tools/render-mixed-take.cjs"
   },
   "ca-S141": {
-    "voices": "Narrador: Algenib. Preses originals conservades; Muntatge pendent d’audició docent, sense canvis de ritme.",
+    "voices": "Narrador: Algenib. Preses originals conservades; Guió, veus i muntatge validats pel docent; publicació definitiva.",
     "sounds": "Temple of the Manes · Kevin MacLeod (CC BY 4.0). Entrada discreta, base molt baixa sota el relat i pujada de dos segons abans de la fosa final.",
     "recipe": "tools/render-mixed-take.cjs"
   },

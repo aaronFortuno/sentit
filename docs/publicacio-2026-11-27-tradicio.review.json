@@ -1,0 +1,90 @@
+{
+  "reviewer": "revisio_publicacio_vuit_20261127-independent",
+  "summary": "passed",
+  "rows": [
+    {
+      "code": "S133",
+      "status": "passed",
+      "fingerprint": "28dc88b605ae99dfac86d846e394083dd464d79d50750c4ee829ce9b63b0ece6",
+      "imageSha256": "a21e75882b8d1798714f6cbc2bc52b9a360c10184034a45db80bf6b41fd4e133",
+      "notes": [
+        "Il·lustració i alt revisats amb view_image: Sol i vent personificats en conversa, sense bufar, escalfar especialment o assenyalar un guanyador; viatger llunyà amb abric, braços relaxats. No mostra cap reacció, descordament, calor o retirada de l’abric que resolgui les preguntes. Ambient de faula coherent.",
+        "6 preguntes obertes i ABCD, claus úniques defensables i 9 cites coherents. reviewScript definitiu: introducció i 5 fragments parlats, sense acotacions.",
+        "Prompt, alt i empremta de la imatge concorden amb el fitxer real. Personatges propis dels relats, sense nous recurrents.",
+        "Integritat amb l’auditoria superada: speechHash idèntic i beforeFingerprint recuperat en retirar només image. Guió, preguntes, veus, direcció, producció i escaleta intactes. Els SHA-256 del màster, intro i cos coincideixen amb els tres MP3 aprovats. Cap síntesi, nova audició o canvi d’aprovacions per aquesta revisió."
+      ]
+    },
+    {
+      "code": "S134",
+      "status": "passed",
+      "fingerprint": "b823834f2ccfc790fc5b3729e789d9b1bb255ec13527476af3da572d4eb27f77",
+      "imageSha256": "528a7c2a4d2c72583489487649c4556db3fd0e69f978c58092afd769915a9648",
+      "notes": [
+        "Il·lustració i alt revisats amb view_image: pastor atent amb el ramat tranquil i poble llunyà; escena pastoral coherent, sense avorriment explícit, crits, rialles, veïns corrent, llop, atac o pèrdua que resolgui les preguntes.",
+        "6 preguntes obertes i ABCD, claus úniques defensables i 11 cites coherents. reviewScript definitiu: introducció i 5 fragments parlats, sense acotacions.",
+        "Prompt, alt i empremta de la imatge concorden amb el fitxer real. Personatges propis dels relats, sense nous recurrents.",
+        "Integritat amb l’auditoria superada: speechHash idèntic i beforeFingerprint recuperat en retirar només image. Guió, preguntes, veus, direcció, producció i escaleta intactes. Els SHA-256 del màster, intro i cos coincideixen amb els tres MP3 aprovats. Cap síntesi, nova audició o canvi d’aprovacions per aquesta revisió."
+      ]
+    },
+    {
+      "code": "S136",
+      "status": "passed",
+      "fingerprint": "8f57cecd7f54bf5116c2d8e32590305d1fa56d3a2ecddabd7c5ddc94685e0d8b",
+      "imageSha256": "7fa38a45a142dbf3719b3b3e22c9b3e873685f7b69e8b4ea4fc70166d55c0f8f",
+      "notes": [
+        "Il·lustració i alt revisats amb view_image: estany, canyissar, arbres i un drac solitari mig amagat; ambient de Banyoles coherent amb la llegenda. Sense monjo, capa, soldats, armes, camps malmesos, bestiar o seguiment fins a la plaça que reveli respostes.",
+        "6 preguntes obertes i ABCD, claus úniques defensables i 9 cites coherents. reviewScript definitiu: introducció i 5 fragments parlats, sense acotacions.",
+        "Prompt, alt i empremta de la imatge concorden amb el fitxer real. Personatges propis dels relats, sense nous recurrents.",
+        "Integritat amb l’auditoria superada: speechHash idèntic i beforeFingerprint recuperat en retirar només image. Guió, preguntes, veus, direcció, producció i escaleta intactes. Els SHA-256 del màster, intro i cos coincideixen amb els tres MP3 aprovats. Cap síntesi, nova audició o canvi d’aprovacions per aquesta revisió."
+      ]
+    },
+    {
+      "code": "S138",
+      "status": "passed",
+      "fingerprint": "a51af7cd37df65bb90ee0a872b693575a87af2769e7a49a1c99f38f6bbe27657",
+      "imageSha256": "89e0011cafe2cadfdf230124980c755d61f73fdf01a5cacd0cf2e0f33c3ff952",
+      "notes": [
+        "Il·lustració i alt revisats amb view_image: viatger amb roba de colors apagats en un carrer antic de cases entramades, coherent amb Hamelín. Sense flauta visible o en ús, rates, infants, diners, discussió, riu o turó que resolgui les preguntes.",
+        "6 preguntes obertes i ABCD, claus úniques defensables i 10 cites coherents. reviewScript definitiu: introducció i 6 fragments parlats, sense acotacions.",
+        "Prompt, alt i empremta de la imatge concorden amb el fitxer real. Personatges propis dels relats, sense nous recurrents.",
+        "Integritat amb l’auditoria superada: speechHash idèntic i beforeFingerprint recuperat en retirar només image. Guió, preguntes, veus, direcció, producció i escaleta intactes. Els SHA-256 del màster, intro i cos coincideixen amb els tres MP3 aprovats. Cap síntesi, nova audició o canvi d’aprovacions per aquesta revisió."
+      ]
+    },
+    {
+      "code": "S139",
+      "status": "passed",
+      "fingerprint": "f8659478dc0a9dbea0f28bd65a9bafd7451a37e4ef828c7d77294ac8a439ba88",
+      "imageSha256": "0d36af9e83dbc533a233802113baf4373c8f97ac2cb4da1150e3f90911a6523f",
+      "notes": [
+        "Il·lustració i alt revisats amb view_image: rei en un palau antic amb jardí, mans buides i sense tocar objectes. Ambient antic coherent; sense or, transformació, menjar, beguda, branca o pedra manipulades, riu, bany o reversió del do que resolgui les preguntes.",
+        "7 preguntes obertes i ABCD, claus úniques defensables i 14 cites coherents. reviewScript definitiu: introducció i 5 fragments parlats, sense acotacions.",
+        "Prompt, alt i empremta de la imatge concorden amb el fitxer real. Personatges propis dels relats, sense nous recurrents.",
+        "Integritat amb l’auditoria superada: speechHash idèntic i beforeFingerprint recuperat en retirar només image. Guió, preguntes, veus, direcció, producció i escaleta intactes. Els SHA-256 del màster, intro i cos coincideixen amb els tres MP3 aprovats. Cap síntesi, nova audició o canvi d’aprovacions per aquesta revisió."
+      ]
+    },
+    {
+      "code": "S140",
+      "status": "passed",
+      "fingerprint": "739c81f5edec7b6494f789c629652b4ef044d4a8c49049459979e7f0367c69b2",
+      "imageSha256": "97e72088373aba25e79d5991106f1f860c6b83acacbc3e1ac3830a76d6135d75",
+      "notes": [
+        "Il·lustració i alt revisats amb view_image: pare i fill d’edats recognoscibles conversen en un pati cretenc davant del mar; roba i ambient antics coherents. Sense ales, plomes, fil, cera, instrucció d’altura, vol o caiguda que resolgui les preguntes.",
+        "7 preguntes obertes i ABCD, claus úniques defensables i 9 cites coherents. reviewScript definitiu: introducció i 5 fragments parlats, sense acotacions.",
+        "Prompt, alt i empremta de la imatge concorden amb el fitxer real. Personatges propis dels relats, sense nous recurrents.",
+        "Integritat amb l’auditoria superada: speechHash idèntic i beforeFingerprint recuperat en retirar només image. Guió, preguntes, veus, direcció, producció i escaleta intactes. Els SHA-256 del màster, intro i cos coincideixen amb els tres MP3 aprovats. Cap síntesi, nova audició o canvi d’aprovacions per aquesta revisió."
+      ]
+    },
+    {
+      "code": "S141",
+      "status": "passed",
+      "fingerprint": "429dfa594f3cfd4e34418f5672b653bec433bb3daf1ba041daa648cdfb455341",
+      "imageSha256": "0e51abc276f5ac6705cae8df179ac0630e70c07f0893ae7a3bda704073015ec5",
+      "notes": [
+        "Il·lustració i alt revisats amb view_image: Persèfone observa un prat de flors en un paisatge grec; escena prèvia coherent. Sense altres déus, carro, esquerda, rapte, collites, magrana, retrobament o divisió de l’any que resolgui les preguntes.",
+        "7 preguntes obertes i ABCD, claus úniques defensables i 8 cites coherents. reviewScript definitiu: introducció i 5 fragments parlats, sense acotacions.",
+        "Prompt, alt i empremta de la imatge concorden amb el fitxer real. Personatges propis dels relats, sense nous recurrents.",
+        "Integritat amb l’auditoria superada: speechHash idèntic i beforeFingerprint recuperat en retirar només image. Guió, preguntes, veus, direcció, producció i escaleta intactes. Els SHA-256 del màster, intro i cos coincideixen amb els tres MP3 aprovats. Cap síntesi, nova audició o canvi d’aprovacions per aquesta revisió."
+      ]
+    }
+  ]
+}

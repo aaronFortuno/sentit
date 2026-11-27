@@ -1,5 +1,7 @@
 # Tancament dels materials abans de publicar
 
+Segona tanda del 27/11/2026: S133, S134, S136, S138, S139, S140 i S141, els set muntatges pendents d’audició, validats explícitament pel docent per publicació definitiva. Set il·lustracions de context amb prompts conservats i revisió independent final. Mateixes pistes aprovades, manifests sincronitzats, fitxes i solucionaris nets amb fonts. [Detall i registre d’integritat](publicacio-2026-11-27-tradicio.md).
+
 Tanda del 27/11/2026: S070, S095, S122, S128, S129, S130, S132 i S137, els vuit muntatges pendents d’audició, validats explícitament pel docent per a publicació definitiva. Set il·lustracions noves amb prompts conservats; S095 manté la imatge coherent amb els tres interlocutors. Transcripcions només parlades, fonts culturals, preguntes obertes/ABCD i pistes modulars aprovades intactes. [Detall de la publicació](publicacio-2026-11-27-vuit.md).
 
 ## Rutina de neteja en cada publicació definitiva

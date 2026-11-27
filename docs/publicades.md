@@ -1,6 +1,6 @@
 # Comprensions finalitzades
 
-Actualitzat: **27/11/2026**. **132 publicacions definitives**. Aquest registre conserva les peces que han sortit de la [taula de pendents](seguiment-produccio.md). Les variants es validen per separat.
+Actualitzat: **27/11/2026**. **139 publicacions definitives**. Aquest registre conserva les peces que han sortit de la [taula de pendents](seguiment-produccio.md). Les variants es validen per separat.
 
 | Codi | Títol | Curs | Dificultat · tipologia | Fragment | Validació definitiva |
 | --- | --- | --- | --- | --- | --- |
@@ -135,7 +135,14 @@ Actualitzat: **27/11/2026**. **132 publicacions definitives**. Aquest registre c
 | [ca-S129](https://sentit.ortogra.fi/#lectura=ca-S129) | Sant Jordi i la rosa | 4t | Intermèdia · Narració | 1:28 | 2026-11-27 |
 | [ca-S130](https://sentit.ortogra.fi/#lectura=ca-S130) | El fil d’Ariadna | 5è | Intermèdia · Narració | 1:55 | 2026-11-27 |
 | [ca-S132](https://sentit.ortogra.fi/#lectura=ca-S132) | La llebre i la tortuga | 3r | Accessible · Narració | 1:18 | 2026-11-27 |
+| [ca-S133](https://sentit.ortogra.fi/#lectura=ca-S133) | El vent i el Sol | 4t | Accessible · Narració | 1:23 | 2026-11-27 |
+| [ca-S134](https://sentit.ortogra.fi/#lectura=ca-S134) | El pastor i el llop | 4t | Intermèdia · Narració | 1:25 | 2026-11-27 |
+| [ca-S136](https://sentit.ortogra.fi/#lectura=ca-S136) | Sant Mer i el drac de Banyoles | 4t | Intermèdia · Narració | 1:36 | 2026-11-27 |
 | [ca-S137](https://sentit.ortogra.fi/#lectura=ca-S137) | El timbaler i el ressò | 5è | Intermèdia · Narració | 1:32 | 2026-11-27 |
+| [ca-S138](https://sentit.ortogra.fi/#lectura=ca-S138) | El flautista d’Hamelín | 5è | Avançada · Narració | 2:01 | 2026-11-27 |
+| [ca-S139](https://sentit.ortogra.fi/#lectura=ca-S139) | El rei Mides | 5è | Intermèdia · Narració | 1:40 | 2026-11-27 |
+| [ca-S140](https://sentit.ortogra.fi/#lectura=ca-S140) | Dèdal i Ícar | 5è | Intermèdia · Narració | 1:39 | 2026-11-27 |
+| [ca-S141](https://sentit.ortogra.fi/#lectura=ca-S141) | Demèter i Persèfone | 6è | Avançada · Narració | 1:35 | 2026-11-27 |
 
 Les aprovacions estan vinculades al guió i al màster exactes al [registre de producció](../content/production-progress.js). No es concedeix cap aprovació per regenerar aquest document.
 

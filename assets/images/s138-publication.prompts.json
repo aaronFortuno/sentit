@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-27",
+  "tool": "image_gen built-in",
+  "code": "S138",
+  "file": "s138-publicacio-v1.webp",
+  "alt": "Un músic de viatge entra en un carrer de cases antigues de fusta.",
+  "width": 1536,
+  "height": 1024,
+  "references": [],
+  "sourceImage": "exec-1b17d211-4a7b-4b88-b500-e88db7ceeae6.png",
+  "prompt": "Use case: illustration-story. One NEW Sentit educational listening worksheet illustration, landscape 3:2 1536x1024. Refined fine ink and delicate muted watercolor on warm white textured paper, softly fading edges, sage, ochre and dusty terracotta. An old German town street, visually distinct half-timbered houses, cobblestones and a broad street curving between steep tiled roofs. In the middle distance, a solitary traveling musician seen from behind walks neutrally into the street, wearing a modest muted patchwork medieval tunic and simple hat. His hands are relaxed, NOT holding or playing an instrument; a closed plain small instrument pouch hangs at his side. The story is about Hamelin but this is only an establishing view before any events. No rats, crowds or children following him, no coins, argument, river, mountain opening, secret doorway or clues about the contract or ending. No readable text, signs, numbers, logos, speech bubbles or watermark.",
+  "encoding": "WebP quality 88; original PNG preserved locally.",
+  "sourceImageSha256": "4772c3f2a5e9f0e7591ab479503cddf87c92b960d46d41973b39b7eb8a703f43",
+  "imageSha256": "89e0011cafe2cadfdf230124980c755d61f73fdf01a5cacd0cf2e0f33c3ff952"
+}

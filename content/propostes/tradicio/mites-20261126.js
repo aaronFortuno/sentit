@@ -2,8 +2,8 @@ import { cultural } from './shared.js';
 import { item as q, d, s, e } from '../equilibri/proposal.js';
 
 export const mythExpansionDrafts = [
-  cultural({ code:'S139', id:'el-rei-mides', title:'El rei Mides', grade:'5', level:'middle', universeIds:['mites-antiguitat'],
-    seconds: 106, status: 'ready-for-review', reviewStatus: 'audio-review',
+  cultural({ code:'S139', image: {"src":"./assets/images/s139-publicacio-v1.webp","alt":"El rei Mides observa un jardí des de la porta d’un palau antic.","width":1536,"height":1024}, id:'el-rei-mides', title:'El rei Mides', grade:'5', level:'middle', universeIds:['mites-antiguitat'],
+    seconds: 106, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s139-mixed-v1.mp3', tracks: { introduction: './assets/audio/s139-mixed-v1-intro.mp3', body: './assets/audio/s139-mixed-v1-cos.mp3' },
     fragment: { start: 5.19, seconds: 100 },
     introduction:'Comprensió oral. El rei Mides. Un mite de l’antiguitat.',
@@ -28,8 +28,8 @@ export const mythExpansionDrafts = [
       q('font','Què ha de fer Mides per perdre aquell poder?','Remuntar el Pactol fins a la font i banyar-s’hi el cap i el cos.',['Llançar totes les pedres d’or al mig del Pactol.','Beure aigua del Pactol abans de tornar al palau.','Arribar a la font del Pactol i banyar-s’hi el cap i el cos.','Seguir el Pactol fins al mar i rentar-s’hi les mans.'],'c','La instrucció combina un lloc precís i una acció que el rei compleix.',[e('peticio','seguir el curs de l’aigua cap amunt, fins a trobar el lloc on naixia, i banyar-s’hi el cap i el cos'),e('riu','va remuntar el riu fins a la font i es va submergir a l’aigua')],2),
       q('pa','Què demostra el tros de pa que Mides menja al final?','Que ja pot tocar coses sense convertir-les en or.',['Que ja pot tocar coses sense convertir-les en or.','Que el seu poder ara només transforma les pedres.','Que ha après a menjar aliments fets d’or.','Que els servents han amagat l’or dins del pa.'],'a','El pa conserva la seva forma comestible després del bany.',[e('riu','El poder va abandonar el seu cos'),e('riu','va agafar un tros de pa. Aquesta vegada el va poder menjar')],2)
     ]}),
-  cultural({ code:'S140', id:'dedal-i-icar', title:'Dèdal i Ícar', grade:'5', level:'middle', universeIds:['mites-antiguitat'],
-    seconds: 105, status: 'ready-for-review', reviewStatus: 'audio-review',
+  cultural({ code:'S140', image: {"src":"./assets/images/s140-publicacio-v1.webp","alt":"Dèdal i Ícar conversen en un pati de pedra davant del mar.","width":1536,"height":1024}, id:'dedal-i-icar', title:'Dèdal i Ícar', grade:'5', level:'middle', universeIds:['mites-antiguitat'],
+    seconds: 105, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s140-mixed-v1.mp3', tracks: { introduction: './assets/audio/s140-mixed-v1-intro.mp3', body: './assets/audio/s140-mixed-v1-cos.mp3' },
     fragment: { start: 5.550000000000001, seconds: 99 },
     introduction:'Comprensió oral. Dèdal i Ícar. Un mite grec.',
@@ -54,8 +54,8 @@ export const mythExpansionDrafts = [
       q('causa','Què fa que les ales d’Ícar deixin de sostenir-lo?','La cera s’estova amb l’escalfor i les plomes es desprenen.',['L’aigua mulla les plomes i les fa massa pesants.','Un cop de vent arrenca les plomes de les ales.','La cera s’estova amb l’escalfor i les plomes es desprenen.','Ícar deixa de moure els braços perquè està cansat.'],'c','La pèrdua de les plomes segueix l’avís sobre l’escalfor.',[e('caiguda','L’escalfor va estovar la cera de les seves ales. Les plomes es van desprendre')],2),
       q('pista','Què veu Dèdal sobre l’aigua que el fa baixar a buscar Ícar?','Les plomes de les ales.',['Les plomes de les ales.','El fil que sortia de la costa.','Una branca que Ícar havia deixat caure.','Les eines amb què havia fet les ales.'],'a','Les plomes flotants són la pista que troba mentre el busca.',[e('caiguda','En veure les plomes sobre l’aigua, va baixar a buscar-lo')])
     ]}),
-  cultural({ code:'S141', id:'demeter-i-persefone', title:'Demèter i Persèfone', grade:'6', level:'advanced', universeIds:['mites-antiguitat'],
-    seconds: 101, status: 'ready-for-review', reviewStatus: 'audio-review',
+  cultural({ code:'S141', image: {"src":"./assets/images/s141-publicacio-v1.webp","alt":"Persèfone observa les flors d’un prat grec amb muntanyes al fons.","width":1536,"height":1024}, id:'demeter-i-persefone', title:'Demèter i Persèfone', grade:'6', level:'advanced', universeIds:['mites-antiguitat'],
+    seconds: 101, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s141-mixed-v1.mp3', tracks: { introduction: './assets/audio/s141-mixed-v1-intro.mp3', body: './assets/audio/s141-mixed-v1-cos.mp3' },
     fragment: { start: 5.115, seconds: 95 },
     introduction:'Comprensió oral. Demèter i Persèfone. Un mite grec.',

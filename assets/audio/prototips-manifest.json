@@ -18454,7 +18454,7 @@
     {
       "code": "S133",
       "activity": "ca-S133",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s133-mixed-v1.mp3",
       "introFile": "s133-mixed-v1-intro.mp3",
       "bodyFile": "s133-mixed-v1-cos.mp3",
@@ -18510,7 +18510,7 @@
             "fadeStart": 81.44000000000001,
             "fadeEnd": 82.59000000000002
           },
-          "listeningValidation": "pending",
+          "listeningValidation": "approved",
           "start": 0
         }
       ],
@@ -18537,12 +18537,20 @@
         "sourceTakeSha256": "8d768ce18de9c981c3acd17d85fb5548decfd170b18b15f97ea5bb7e12ec45bf",
         "sourceBatch": "L47",
         "confirmation": "Docent 27/11: totes les veus rebudes pendents de revisió validades per muntatge, excepte S131 i S142."
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-27",
+        "validatedBy": "docent",
+        "confirmation": "Queden validades per pujar a publicació definitiva els 7 muntatges que teníem pendents actualment",
+        "audioSha256": "0667d7653c783daaadba098e632f1cf1222050b996965fa7721325a39e476d72",
+        "editorialFingerprint": "28dc88b605ae99dfac86d846e394083dd464d79d50750c4ee829ce9b63b0ece6",
+        "listeningApproval": true
       }
     },
     {
       "code": "S134",
       "activity": "ca-S134",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s134-mixed-v1.mp3",
       "introFile": "s134-mixed-v1-intro.mp3",
       "bodyFile": "s134-mixed-v1-cos.mp3",
@@ -18598,7 +18606,7 @@
             "fadeStart": 83.63,
             "fadeEnd": 84.78
           },
-          "listeningValidation": "pending",
+          "listeningValidation": "approved",
           "start": 0
         }
       ],
@@ -18625,12 +18633,20 @@
         "sourceTakeSha256": "a80c26847ef982b32a423dbd11242cd90252ef5b98f91ab1b797229b8b209f3f",
         "sourceBatch": "L47",
         "confirmation": "Docent 27/11: totes les veus rebudes pendents de revisió validades per muntatge, excepte S131 i S142."
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-27",
+        "validatedBy": "docent",
+        "confirmation": "Queden validades per pujar a publicació definitiva els 7 muntatges que teníem pendents actualment",
+        "audioSha256": "a4850ed76acc73719782e889634a31f03edfb521a302889866cf6acd63c333f8",
+        "editorialFingerprint": "b823834f2ccfc790fc5b3729e789d9b1bb255ec13527476af3da572d4eb27f77",
+        "listeningApproval": true
       }
     },
     {
       "code": "S136",
       "activity": "ca-S136",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s136-mixed-v1.mp3",
       "introFile": "s136-mixed-v1-intro.mp3",
       "bodyFile": "s136-mixed-v1-cos.mp3",
@@ -18686,7 +18702,7 @@
             "fadeStart": 94.67000000000002,
             "fadeEnd": 95.82000000000002
           },
-          "listeningValidation": "pending",
+          "listeningValidation": "approved",
           "start": 0
         }
       ],
@@ -18713,12 +18729,20 @@
         "sourceTakeSha256": "dd19d5bbc73665ac79f84c41ce9f9103a6f6322011a525b714d77d4f134e22de",
         "sourceBatch": "L45",
         "confirmation": "Docent 27/11: totes les veus rebudes pendents de revisió validades per muntatge, excepte S131 i S142."
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-27",
+        "validatedBy": "docent",
+        "confirmation": "Queden validades per pujar a publicació definitiva els 7 muntatges que teníem pendents actualment",
+        "audioSha256": "d8a5f59ecf7c6db4ab49ef71aa18cdd94a60a0e1ae9a04d911f544b8a1414b07",
+        "editorialFingerprint": "8f57cecd7f54bf5116c2d8e32590305d1fa56d3a2ecddabd7c5ddc94685e0d8b",
+        "listeningApproval": true
       }
     },
     {
       "code": "S138",
       "activity": "ca-S138",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s138-mixed-v1.mp3",
       "introFile": "s138-mixed-v1-intro.mp3",
       "bodyFile": "s138-mixed-v1-cos.mp3",
@@ -18774,7 +18798,7 @@
             "fadeStart": 119.68998333333334,
             "fadeEnd": 120.83998333333335
           },
-          "listeningValidation": "pending",
+          "listeningValidation": "approved",
           "start": 0
         }
       ],
@@ -18801,12 +18825,20 @@
         "sourceTakeSha256": "947cffff2078d16820a353ced5c9f02a00baaf7eaa5704f6d8187fe7b25207a4",
         "sourceBatch": "L45",
         "confirmation": "Docent 27/11: totes les veus rebudes pendents de revisió validades per muntatge, excepte S131 i S142."
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-27",
+        "validatedBy": "docent",
+        "confirmation": "Queden validades per pujar a publicació definitiva els 7 muntatges que teníem pendents actualment",
+        "audioSha256": "853f0dda9fe51a73c973855c5da694bc072a1b3ac4f849e56f921a4567e24fe5",
+        "editorialFingerprint": "a51af7cd37df65bb90ee0a872b693575a87af2769e7a49a1c99f38f6bbe27657",
+        "listeningApproval": true
       }
     },
     {
       "code": "S139",
       "activity": "ca-S139",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s139-mixed-v1.mp3",
       "introFile": "s139-mixed-v1-intro.mp3",
       "bodyFile": "s139-mixed-v1-cos.mp3",
@@ -18862,7 +18894,7 @@
             "fadeStart": 98.50999166666666,
             "fadeEnd": 99.65999166666667
           },
-          "listeningValidation": "pending",
+          "listeningValidation": "approved",
           "start": 0
         }
       ],
@@ -18889,12 +18921,20 @@
         "sourceTakeSha256": "0eedd7edf6b0599221fee22ddcaefdff5d56f8aa5332ea2ddb545fcf73bdb7ed",
         "sourceBatch": "L46",
         "confirmation": "Docent 27/11: totes les veus rebudes pendents de revisió validades per muntatge, excepte S131 i S142."
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-27",
+        "validatedBy": "docent",
+        "confirmation": "Queden validades per pujar a publicació definitiva els 7 muntatges que teníem pendents actualment",
+        "audioSha256": "e7eb51143fa920703c2e02f5c1a9693339e65a2e2173e1e427920096434377e7",
+        "editorialFingerprint": "f8659478dc0a9dbea0f28bd65a9bafd7451a37e4ef828c7d77294ac8a439ba88",
+        "listeningApproval": true
       }
     },
     {
       "code": "S140",
       "activity": "ca-S140",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s140-mixed-v1.mp3",
       "introFile": "s140-mixed-v1-intro.mp3",
       "bodyFile": "s140-mixed-v1-cos.mp3",
@@ -18950,7 +18990,7 @@
             "fadeStart": 97.87999999999998,
             "fadeEnd": 99.02999999999999
           },
-          "listeningValidation": "pending",
+          "listeningValidation": "approved",
           "start": 0
         }
       ],
@@ -18977,12 +19017,20 @@
         "sourceTakeSha256": "c1fff44b78eba654b8ffa02c6e934561da6e8a45eb95babadef8583c8c4dd834",
         "sourceBatch": "L46",
         "confirmation": "Docent 27/11: totes les veus rebudes pendents de revisió validades per muntatge, excepte S131 i S142."
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-27",
+        "validatedBy": "docent",
+        "confirmation": "Queden validades per pujar a publicació definitiva els 7 muntatges que teníem pendents actualment",
+        "audioSha256": "e48d30d9c35ded1deed85f46f9c3ac61a2fbc7367a39dd7b071659fe1d5eb171",
+        "editorialFingerprint": "739c81f5edec7b6494f789c629652b4ef044d4a8c49049459979e7f0367c69b2",
+        "listeningApproval": true
       }
     },
     {
       "code": "S141",
       "activity": "ca-S141",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s141-mixed-v1.mp3",
       "introFile": "s141-mixed-v1-intro.mp3",
       "bodyFile": "s141-mixed-v1-cos.mp3",
@@ -19038,7 +19086,7 @@
             "fadeStart": 93.74000000000004,
             "fadeEnd": 94.89000000000004
           },
-          "listeningValidation": "pending",
+          "listeningValidation": "approved",
           "start": 0
         }
       ],
@@ -19065,6 +19113,14 @@
         "sourceTakeSha256": "c0103ed1a4b72edce24595144bb380dd0b87932789ed8f8b6974aec650e987b5",
         "sourceBatch": "L47",
         "confirmation": "Docent 27/11: totes les veus rebudes pendents de revisió validades per muntatge, excepte S131 i S142."
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-27",
+        "validatedBy": "docent",
+        "confirmation": "Queden validades per pujar a publicació definitiva els 7 muntatges que teníem pendents actualment",
+        "audioSha256": "394ca3174a3c4bd0b19ac7ab68b24b3700540aecc5765340eee023a4793084d2",
+        "editorialFingerprint": "429dfa594f3cfd4e34418f5672b653bec433bb3daf1ba041daa648cdfb455341",
+        "listeningApproval": true
       }
     }
   ]

@@ -1,18 +1,18 @@
 # Veus validades i muntatges de tradició · 27/11/2026
 
-El docent valida totes les veus rebudes que estaven pendents d’audició, excepte S131 i S142. Set peces passen a muntatge, amb els repertoris musicals ja aprovats i sense cap petició nova de síntesi.
+El docent valida totes les veus rebudes que estaven pendents d’audició, excepte S131 i S142. Set peces passen a muntatge i després a publicació definitiva amb la segona validació explícita del docent el mateix dia. Es conserven els repertoris musicals aprovats i no es fa cap petició nova de síntesi.
 
 | Peça | Música de fons | Estat |
 | --- | --- | --- |
-| [S133 · El vent i el Sol](https://sentit.ortogra.fi/#lectura=ca-S133) | F5 · Fresh Air | Muntatge per escoltar |
-| [S134 · El pastor i el llop](https://sentit.ortogra.fi/#lectura=ca-S134) | F6 · Almost New | Muntatge per escoltar |
-| [S136 · Sant Mer i el drac de Banyoles](https://sentit.ortogra.fi/#lectura=ca-S136) | L3 · Angevin | Muntatge per escoltar |
-| [S138 · El flautista d’Hamelín](https://sentit.ortogra.fi/#lectura=ca-S138) | L1 · Teller of the Tales | Muntatge per escoltar |
-| [S139 · El rei Mides](https://sentit.ortogra.fi/#lectura=ca-S139) | M2 · Desert City | Muntatge per escoltar |
-| [S140 · Dèdal i Ícar](https://sentit.ortogra.fi/#lectura=ca-S140) | M3 · Virtutes Instrumenti | Muntatge per escoltar |
-| [S141 · Demèter i Persèfone](https://sentit.ortogra.fi/#lectura=ca-S141) | M1 · Temple of the Manes | Muntatge per escoltar |
+| [S133 · El vent i el Sol](https://sentit.ortogra.fi/#lectura=ca-S133) | F5 · Fresh Air | Publicació definitiva |
+| [S134 · El pastor i el llop](https://sentit.ortogra.fi/#lectura=ca-S134) | F6 · Almost New | Publicació definitiva |
+| [S136 · Sant Mer i el drac de Banyoles](https://sentit.ortogra.fi/#lectura=ca-S136) | L3 · Angevin | Publicació definitiva |
+| [S138 · El flautista d’Hamelín](https://sentit.ortogra.fi/#lectura=ca-S138) | L1 · Teller of the Tales | Publicació definitiva |
+| [S139 · El rei Mides](https://sentit.ortogra.fi/#lectura=ca-S139) | M2 · Desert City | Publicació definitiva |
+| [S140 · Dèdal i Ícar](https://sentit.ortogra.fi/#lectura=ca-S140) | M3 · Virtutes Instrumenti | Publicació definitiva |
+| [S141 · Demèter i Persèfone](https://sentit.ortogra.fi/#lectura=ca-S141) | M1 · Temple of the Manes | Publicació definitiva |
 
-Composicions de Kevin MacLeod, CC BY 4.0, alternades dins de cada univers. Base contínua molt baixa sota la veu, entrada discreta, pujada de dos segons i fosa després de la locució. Sense efectes afegits, canvi de ritme ni correcció artificial del timbre. Títol i relat separats al web; màster complet i fonts originals en local. Crèdits, empremtes i mesures als manifests i al catàleg musical. La validació de les veus autoritza el muntatge; aquestes set peces encara necessiten audició del resultat final.
+Composicions de Kevin MacLeod, CC BY 4.0, alternades dins de cada univers. Base contínua molt baixa sota la veu, entrada discreta, pujada de dos segons i fosa després de la locució. Sense efectes afegits, canvi de ritme ni correcció artificial del timbre. Títol i relat separats al web; màster complet i fonts originals en local. Crèdits, empremtes i mesures als manifests i al catàleg musical. La validació de les veus autoritza el muntatge; aquestes set peces ja tenen també la validació definitiva del resultat final. Vegeu [la publicació de tradició](publicacio-2026-11-27-tradicio.md).
 
 ## S131 · La guineu i el corb
 

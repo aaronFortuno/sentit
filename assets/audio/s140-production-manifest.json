@@ -1,7 +1,7 @@
 {
   "code": "S140",
   "activity": "ca-S140",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s140-mixed-v1.mp3",
   "introFile": "s140-mixed-v1-intro.mp3",
   "bodyFile": "s140-mixed-v1-cos.mp3",
@@ -57,7 +57,7 @@
         "fadeStart": 97.87999999999998,
         "fadeEnd": 99.02999999999999
       },
-      "listeningValidation": "pending",
+      "listeningValidation": "approved",
       "start": 0
     }
   ],
@@ -84,5 +84,13 @@
     "sourceTakeSha256": "c1fff44b78eba654b8ffa02c6e934561da6e8a45eb95babadef8583c8c4dd834",
     "sourceBatch": "L46",
     "confirmation": "Docent 27/11: totes les veus rebudes pendents de revisió validades per muntatge, excepte S131 i S142."
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-27",
+    "validatedBy": "docent",
+    "confirmation": "Queden validades per pujar a publicació definitiva els 7 muntatges que teníem pendents actualment",
+    "audioSha256": "e48d30d9c35ded1deed85f46f9c3ac61a2fbc7367a39dd7b071659fe1d5eb171",
+    "editorialFingerprint": "739c81f5edec7b6494f789c629652b4ef044d4a8c49049459979e7f0367c69b2",
+    "listeningApproval": true
   }
 }

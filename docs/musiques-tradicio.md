@@ -63,4 +63,4 @@ Modificacions dels fragments: segons 6–38 de cada original, ajust de sonoritat
 S128 amb F1, S129 amb L1 i S130 amb M1, definitius el 27/11. L’aprovació del repertori i de les veus continua separada de la publicació definitiva de cada peça.
 
 - S132: F4 «Windswept»; S137: L2 «Folk Round», també definitius el 27/11.
-- Nous muntatges pendents d’audició: S133/F5, S134/F6, S136/L3, S138/L1, S139/M2, S140/M3 i S141/M1. Es completa la primera rotació del repertori abans de repetir les composicions; totes són de Kevin MacLeod (CC BY 4.0). Usos, fonts i empremtes al catàleg i als manifests. [Muntatges i incidències](veus-i-muntatges-2026-11-27.md).
+- S133/F5, S134/F6, S136/L3, S138/L1, S139/M2, S140/M3 i S141/M1 també definitives el 27/11. Es completa la primera rotació del repertori abans de repetir les composicions; totes són de Kevin MacLeod (CC BY 4.0). Usos, fonts i empremtes al catàleg i als manifests. [Publicació final](publicacio-2026-11-27-tradicio.md) · [Incidències que continuen obertes](veus-i-muntatges-2026-11-27.md).

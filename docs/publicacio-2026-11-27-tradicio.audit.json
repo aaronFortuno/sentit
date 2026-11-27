@@ -1,0 +1,162 @@
+{
+  "date": "2026-11-27",
+  "confirmation": "Queden validades per pujar a publicació definitiva els 7 muntatges que teníem pendents actualment",
+  "codes": [
+    "S133",
+    "S134",
+    "S136",
+    "S138",
+    "S139",
+    "S140",
+    "S141"
+  ],
+  "entries": [
+    {
+      "code": "S133",
+      "title": "El vent i el Sol",
+      "source": "content/propostes/tradicio/faules-20261126.js",
+      "beforeFingerprint": "a5b1503a512d4b45756793514459340565ad4f06f98b55227036c24e424c9558",
+      "speechHash": "99a92ec064221c3fd7097a6c6fcf977c4d9598f988d024d199358d337adb5750",
+      "audio": [
+        {
+          "file": "./assets/audio/s133-mixed-v1.mp3",
+          "sha256": "0667d7653c783daaadba098e632f1cf1222050b996965fa7721325a39e476d72"
+        },
+        {
+          "file": "./assets/audio/s133-mixed-v1-intro.mp3",
+          "sha256": "a8004739f99b42996d57e66af6a1757ceedf12e02a6b99c62ca665994d4ef8e1"
+        },
+        {
+          "file": "./assets/audio/s133-mixed-v1-cos.mp3",
+          "sha256": "3c03b81f3f92503b40a21534b593529e2e659a7450c28d01879666b02307b2ec"
+        }
+      ]
+    },
+    {
+      "code": "S134",
+      "title": "El pastor i el llop",
+      "source": "content/propostes/tradicio/faules-20261126.js",
+      "beforeFingerprint": "33e0920e991fbfb6ac555e79e695344cddd050cc14e814bb3c3b8f2232b7837b",
+      "speechHash": "743dd6541e0cac1370c707d50205fc52e114378e27a818c32e9629030a5358dd",
+      "audio": [
+        {
+          "file": "./assets/audio/s134-mixed-v1.mp3",
+          "sha256": "a4850ed76acc73719782e889634a31f03edfb521a302889866cf6acd63c333f8"
+        },
+        {
+          "file": "./assets/audio/s134-mixed-v1-intro.mp3",
+          "sha256": "31efc92cb417b480473e2bdba78a902f854803051cc901d1c11e0659b300df00"
+        },
+        {
+          "file": "./assets/audio/s134-mixed-v1-cos.mp3",
+          "sha256": "a034e13eabe131afadb5ff5f7e921ef67ed5ff18a1330d987d18dd2649b20725"
+        }
+      ]
+    },
+    {
+      "code": "S136",
+      "title": "Sant Mer i el drac de Banyoles",
+      "source": "content/propostes/tradicio/llegendes-20261126.js",
+      "beforeFingerprint": "8aab46b9820327e196120d5f07e3a9cccf452c7b42c792d7fb16ee6d631ced0b",
+      "speechHash": "90fa6c6bee08f68a9f79007b0e09a5762d0778eab52ee28fc79df8b11f9b68ec",
+      "audio": [
+        {
+          "file": "./assets/audio/s136-mixed-v1.mp3",
+          "sha256": "d8a5f59ecf7c6db4ab49ef71aa18cdd94a60a0e1ae9a04d911f544b8a1414b07"
+        },
+        {
+          "file": "./assets/audio/s136-mixed-v1-intro.mp3",
+          "sha256": "57796a542ae4d994123297e7ec8e2c6a0931d5baee93b97d7eb2f2b54202105e"
+        },
+        {
+          "file": "./assets/audio/s136-mixed-v1-cos.mp3",
+          "sha256": "1f072e6b849712bb917aa3e0684c8453a1c228345e23399b19ab37afb6a0344c"
+        }
+      ]
+    },
+    {
+      "code": "S138",
+      "title": "El flautista d’Hamelín",
+      "source": "content/propostes/tradicio/llegendes-20261126.js",
+      "beforeFingerprint": "870f5f5fe6e960a33d949a034ddd6b887508a58b7726564c765965db4efb0c3b",
+      "speechHash": "f59bc4d78bdf09f34c3c4214da3c14adf75fabc3ffe36309a4d9aaac6e3ba14a",
+      "audio": [
+        {
+          "file": "./assets/audio/s138-mixed-v1.mp3",
+          "sha256": "853f0dda9fe51a73c973855c5da694bc072a1b3ac4f849e56f921a4567e24fe5"
+        },
+        {
+          "file": "./assets/audio/s138-mixed-v1-intro.mp3",
+          "sha256": "9cbe833c6b41facf8bda1b136dfb776e57de14e0fd27cb3a77f54bf99ef994b8"
+        },
+        {
+          "file": "./assets/audio/s138-mixed-v1-cos.mp3",
+          "sha256": "896f6a80dd156ba19c8f5662f4e322df8dbba58143ca10d02cc02677345588f8"
+        }
+      ]
+    },
+    {
+      "code": "S139",
+      "title": "El rei Mides",
+      "source": "content/propostes/tradicio/mites-20261126.js",
+      "beforeFingerprint": "2253394fdfd970b4b87a1ffecb5f4ad1dee28ea780f6eb6840354479dc4d6c57",
+      "speechHash": "5d283e40c47f748aac243a041f174d1770e7e1597a23a4b6dc8b479e78feba97",
+      "audio": [
+        {
+          "file": "./assets/audio/s139-mixed-v1.mp3",
+          "sha256": "e7eb51143fa920703c2e02f5c1a9693339e65a2e2173e1e427920096434377e7"
+        },
+        {
+          "file": "./assets/audio/s139-mixed-v1-intro.mp3",
+          "sha256": "e02e340b47edada7524b9de94e4516d4f76cb222af1a695b283b5fbdd1c76862"
+        },
+        {
+          "file": "./assets/audio/s139-mixed-v1-cos.mp3",
+          "sha256": "b2e493712fd1f72024115964a79c83fc79deff4df051c7e37e78413884a52b69"
+        }
+      ]
+    },
+    {
+      "code": "S140",
+      "title": "Dèdal i Ícar",
+      "source": "content/propostes/tradicio/mites-20261126.js",
+      "beforeFingerprint": "be3d2fa471e29a96190d27a000682395920b1be4acd627c77e684157948667dc",
+      "speechHash": "074e5445ff50e51c91547d5217f8a967fefc3ea89cdd4ae00263a75efae2b565",
+      "audio": [
+        {
+          "file": "./assets/audio/s140-mixed-v1.mp3",
+          "sha256": "e48d30d9c35ded1deed85f46f9c3ac61a2fbc7367a39dd7b071659fe1d5eb171"
+        },
+        {
+          "file": "./assets/audio/s140-mixed-v1-intro.mp3",
+          "sha256": "8185ea93bdb54795cb6d5e4c11774dea143f9a74876229cc0d534f4045e48be1"
+        },
+        {
+          "file": "./assets/audio/s140-mixed-v1-cos.mp3",
+          "sha256": "fd712710859dee59eb50a140050804cdac3bf463e208021ded837644e304930b"
+        }
+      ]
+    },
+    {
+      "code": "S141",
+      "title": "Demèter i Persèfone",
+      "source": "content/propostes/tradicio/mites-20261126.js",
+      "beforeFingerprint": "f805526504540fb8a6e99f0723f1c2a6b27c826a993829a4e93d63bd951058e1",
+      "speechHash": "6e2a82fbc172690fd0a2ee211f0ea6da37077f0f7772323651da7e1b67be3773",
+      "audio": [
+        {
+          "file": "./assets/audio/s141-mixed-v1.mp3",
+          "sha256": "394ca3174a3c4bd0b19ac7ab68b24b3700540aecc5765340eee023a4793084d2"
+        },
+        {
+          "file": "./assets/audio/s141-mixed-v1-intro.mp3",
+          "sha256": "57947bfffb4a9245c695d3b942dbb2c2e677453b6e7ea008692343eea2360edd"
+        },
+        {
+          "file": "./assets/audio/s141-mixed-v1-cos.mp3",
+          "sha256": "c90412c06b7ec5a3faa64cf3b9ccdad0d9e5e30c5263f458f0ef30a4d33391a1"
+        }
+      ]
+    }
+  ]
+}

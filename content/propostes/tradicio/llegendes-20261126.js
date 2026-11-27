@@ -26,8 +26,8 @@ export const legendExpansionDrafts = [
       q('error','Què fa creure al diable que ja ha arribat l’alba?','El cant dels galls.',['El cant dels galls.','La llum que entra per la finestra de la noia.','La mestressa que travessa el pont.','L’última pedra que cau dins del riu.'],'a','Interpreta el cant anticipat com un senyal que ja surt el sol.',[e('pedra','En sentir els galls, el diable va creure que ja sortia el sol')]),
       q('falta','Per què al pont li falta una pedra al final?','Perquè el diable abandona l’última pedra quan creu que ha perdut el tracte.',['Perquè la riuada s’emporta una pedra del pont acabat.','Perquè el diable abandona l’última pedra en creure que ha perdut.','Perquè la mestressa s’endú una pedra al galliner.','Perquè la minyona amaga la primera pedra del pont.'],'b','El diable encara transporta l’última pedra quan sent els galls i l’abandona.',[e('gall','el diable passava amb l’última pedra del pont'),e('pedra','Va deixar caure la pedra i va marxar furiós')],2)
     ]}),
-  cultural({code:'S136',id:'sant-mer-i-el-drac-de-banyoles',title:'Sant Mer i el drac de Banyoles',grade:'4',level:'middle',universeIds:['llegendes-mon'],
-    seconds: 103, status: 'ready-for-review', reviewStatus: 'audio-review',
+  cultural({code:'S136', image: {"src":"./assets/images/s136-publicacio-v1.webp","alt":"L’estany de Banyoles amb canyissar i un drac mig amagat entre els arbres.","width":1536,"height":1024},id:'sant-mer-i-el-drac-de-banyoles',title:'Sant Mer i el drac de Banyoles',grade:'4',level:'middle',universeIds:['llegendes-mon'],
+    seconds: 103, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s136-mixed-v1.mp3', tracks: { introduction: './assets/audio/s136-mixed-v1-intro.mp3', body: './assets/audio/s136-mixed-v1-cos.mp3' },
     fragment: { start: 6.180000000000001, seconds: 96 },
     introduction:'Comprensió oral. Sant Mer i el drac de Banyoles. Una llegenda de l’estany.',
@@ -80,8 +80,8 @@ export const legendExpansionDrafts = [
       q('causa','Per què es retiren els francesos, segons aquest relat?','Per por de trobar-se davant d’un exèrcit molt més nombrós.',['Perquè els defensors els han tancat dins d’una cova.','Perquè han sentit un senyal que els ordena tornar.','Perquè han comprovat que els reforços ja han marxat.','Per por de trobar-se davant d’un exèrcit molt més nombrós.'],'d','La retirada prové del que creuen sobre la força que els espera.',[e('retirada','la por de trobar-se davant d’un exèrcit molt més nombrós va fer que els francesos es retiressin')]),
       q('diferencia','Quina diferència hi ha entre el que creuen els francesos i el que passa a la muntanya?','Creuen que arriben molts tambors, però senten un tambor repetit per l’eco.',['Creuen que arriben molts tambors, però senten un tambor repetit per l’eco.','Creuen que hi ha un sol tambor, però han arribat molts reforços.','Creuen que toquen les roques, però els defensors piquen amb les armes.','Creuen que els reforços ja marxen, però encara s’estan reunint.'],'a','Relacionar el ressò amb la interpretació dels soldats permet distingir el so real de la tropa que s’imaginen.',[e('eco','El so rebotava entre les roques'),e('eco','el so del seu instrument s’escampava'),e('creença','S’imaginaven una gran tropa de reforç avançant acompanyada de tambors')],2)
     ]}),
-  cultural({code:'S138',id:'el-flautista-dhamelin',title:'El flautista d’Hamelín',grade:'5',level:'advanced',universeIds:['llegendes-mon'],
-    seconds: 129, status: 'ready-for-review', reviewStatus: 'audio-review',
+  cultural({code:'S138', image: {"src":"./assets/images/s138-publicacio-v1.webp","alt":"Un músic de viatge entra en un carrer de cases antigues de fusta.","width":1536,"height":1024},id:'el-flautista-dhamelin',title:'El flautista d’Hamelín',grade:'5',level:'advanced',universeIds:['llegendes-mon'],
+    seconds: 129, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s138-mixed-v1.mp3', tracks: { introduction: './assets/audio/s138-mixed-v1-intro.mp3', body: './assets/audio/s138-mixed-v1-cos.mp3' },
     fragment: { start: 6.98, seconds: 121 },
     introduction:'Comprensió oral. El flautista d’Hamelín. Una llegenda recollida pels germans Grimm.',

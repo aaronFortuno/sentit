@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-27",
+  "tool": "image_gen built-in",
+  "code": "S136",
+  "file": "s136-publicacio-v1.webp",
+  "alt": "L’estany de Banyoles amb canyissar i un drac mig amagat entre els arbres.",
+  "width": 1536,
+  "height": 1024,
+  "references": [],
+  "sourceImage": "exec-b4b67aaf-eeca-4991-9de0-072fa1d9e94f.png",
+  "prompt": "Use case: illustration-story. One NEW Sentit educational listening worksheet illustration, landscape 3:2 1536x1024. Refined fine ink, delicate muted watercolor on warm white textured paper, soft fading outer edges. An atmospheric legend setting at the lake of Banyoles: a calm broad lake, green reedbeds in the foreground, a curved narrow stone-and-earth path along its bank, distant old terracotta roofs beneath low hills. A small solitary GREEN DRAGON is partly visible among trees in the middle distance near the bank, naturally alert but neither attacking nor tamed. Distinctly lakeside Catalan setting, not a walled hill town, subtly mysterious but safe for children. No monk, cloaks, weapons, soldiers, livestock, ruined fields, cave opening, people following an animal, square/procession or ending clues. No text, numbers, labels, signs, logo or watermark.",
+  "encoding": "WebP quality 88; original PNG preserved locally.",
+  "sourceImageSha256": "0526a9276576254bc872d1a38116f4e1a99f781430e237b4d52a9d2567589d91",
+  "imageSha256": "7fa38a45a142dbf3719b3b3e22c9b3e873685f7b69e8b4ea4fc70166d55c0f8f"
+}

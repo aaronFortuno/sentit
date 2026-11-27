@@ -843,15 +843,15 @@ export const editorialReviews = {
   },
   "ca-S133": {
     "status": "passed",
-    "reviewedAt": "2026-11-26",
-    "reviewer": "revisio_esmenes_fonts_20261126",
-    "fingerprint": "a5b1503a512d4b45756793514459340565ad4f06f98b55227036c24e424c9558"
+    "reviewedAt": "2026-11-27",
+    "reviewer": "revisio_publicacio_vuit_20261127-independent",
+    "fingerprint": "28dc88b605ae99dfac86d846e394083dd464d79d50750c4ee829ce9b63b0ece6"
   },
   "ca-S134": {
     "status": "passed",
-    "reviewer": "autoria_llegendes_135_138",
-    "reviewedAt": "2026-11-26",
-    "fingerprint": "33e0920e991fbfb6ac555e79e695344cddd050cc14e814bb3c3b8f2232b7837b"
+    "reviewedAt": "2026-11-27",
+    "reviewer": "revisio_publicacio_vuit_20261127-independent",
+    "fingerprint": "b823834f2ccfc790fc5b3729e789d9b1bb255ec13527476af3da572d4eb27f77"
   },
   "ca-S135": {
     "status": "passed",
@@ -861,9 +861,9 @@ export const editorialReviews = {
   },
   "ca-S136": {
     "status": "passed",
-    "reviewer": "autoria_mites_139_142",
-    "reviewedAt": "2026-11-26",
-    "fingerprint": "8aab46b9820327e196120d5f07e3a9cccf452c7b42c792d7fb16ee6d631ced0b"
+    "reviewedAt": "2026-11-27",
+    "reviewer": "revisio_publicacio_vuit_20261127-independent",
+    "fingerprint": "8f57cecd7f54bf5116c2d8e32590305d1fa56d3a2ecddabd7c5ddc94685e0d8b"
   },
   "ca-S137": {
     "status": "passed",
@@ -873,27 +873,27 @@ export const editorialReviews = {
   },
   "ca-S138": {
     "status": "passed",
-    "reviewer": "autoria_mites_139_142",
-    "reviewedAt": "2026-11-26",
-    "fingerprint": "870f5f5fe6e960a33d949a034ddd6b887508a58b7726564c765965db4efb0c3b"
+    "reviewedAt": "2026-11-27",
+    "reviewer": "revisio_publicacio_vuit_20261127-independent",
+    "fingerprint": "a51af7cd37df65bb90ee0a872b693575a87af2769e7a49a1c99f38f6bbe27657"
   },
   "ca-S139": {
     "status": "passed",
-    "reviewer": "/root/autoria_faules_131_134",
-    "reviewedAt": "2026-11-26",
-    "fingerprint": "2253394fdfd970b4b87a1ffecb5f4ad1dee28ea780f6eb6840354479dc4d6c57"
+    "reviewedAt": "2026-11-27",
+    "reviewer": "revisio_publicacio_vuit_20261127-independent",
+    "fingerprint": "f8659478dc0a9dbea0f28bd65a9bafd7451a37e4ef828c7d77294ac8a439ba88"
   },
   "ca-S140": {
     "status": "passed",
-    "reviewer": "/root/autoria_faules_131_134",
-    "reviewedAt": "2026-11-26",
-    "fingerprint": "be3d2fa471e29a96190d27a000682395920b1be4acd627c77e684157948667dc"
+    "reviewedAt": "2026-11-27",
+    "reviewer": "revisio_publicacio_vuit_20261127-independent",
+    "fingerprint": "739c81f5edec7b6494f789c629652b4ef044d4a8c49049459979e7f0367c69b2"
   },
   "ca-S141": {
     "status": "passed",
-    "reviewer": "/root/autoria_faules_131_134",
-    "reviewedAt": "2026-11-26",
-    "fingerprint": "f805526504540fb8a6e99f0723f1c2a6b27c826a993829a4e93d63bd951058e1"
+    "reviewedAt": "2026-11-27",
+    "reviewer": "revisio_publicacio_vuit_20261127-independent",
+    "fingerprint": "429dfa594f3cfd4e34418f5672b653bec433bb3daf1ba041daa648cdfb455341"
   },
   "ca-S142": {
     "status": "passed",

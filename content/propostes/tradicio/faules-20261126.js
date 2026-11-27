@@ -48,8 +48,8 @@ export const fableExpansionDrafts = [
       q('despertar','On és la tortuga quan la llebre es desperta?','Ja és a prop del tronc del roure.',['Encara és al lloc de sortida.','És al costat de la llebre, esperant-la.','Ja és a prop del tronc del roure.','Torna pel camí després de la cursa.'],'c','La llebre es desperta quan la tortuga està a punt d’arribar.',[e('arribada','Quan la llebre va obrir els ulls, la tortuga ja era a prop del tronc')]),
       q('resultat','Com aconsegueix guanyar la tortuga si camina més a poc a poc?','Continua avançant mentre la llebre s’atura i s’adorm.',['Troba un camí més curt fins al roure.','Continua avançant mentre la llebre s’adorm.','Fa que la llebre torni al lloc de sortida.','Aprèn a córrer més de pressa que la llebre.'],'b','La marxa contínua de la tortuga li permet aprofitar el temps que la llebre passa adormida.',[e('descans','es va adormir'),e('caminar','La tortuga va continuar caminant'),e('arribada','la tortuga tocava el roure amb una pota')],2)
     ]}),
-  cultural({code:'S133',id:'el-vent-i-el-sol',title:'El vent i el Sol',grade:'4',level:'easy',universeIds:['faules-mon'],
-    seconds: 90, status: 'ready-for-review', reviewStatus: 'audio-review',
+  cultural({code:'S133', image: {"src":"./assets/images/s133-publicacio-v1.webp","alt":"El Sol i el vent es miren damunt d’un paisatge de turons amb un viatger llunyà.","width":1536,"height":1024},id:'el-vent-i-el-sol',title:'El vent i el Sol',grade:'4',level:'easy',universeIds:['faules-mon'],
+    seconds: 90, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s133-mixed-v1.mp3', tracks: { introduction: './assets/audio/s133-mixed-v1-intro.mp3', body: './assets/audio/s133-mixed-v1-cos.mp3' },
     fragment: { start: 6.8500000000000005, seconds: 83 },
     introduction:'Comprensió oral. El vent i el Sol. Una faula de la tradició d’Isop.',
@@ -73,8 +73,8 @@ export const fableExpansionDrafts = [
       q('calor','Per què el viatger acaba traient-se l’abric?','Perquè té calor després que el Sol hagi escalfat el camí.',['Perquè el vent li ha arrencat els botons.','Perquè vol deixar-lo al Sol perquè s’eixugui.','Perquè té calor després que el Sol hagi escalfat.','Perquè l’abric s’ha enganxat a les branques.'],'c','La calor fa que el viatger decideixi treure’s la peça de roba.',[e('sol','El Sol continuava escalfant'),e('final','«Quina calor!», va dir el viatger. Es va treure l’abric')]),
       q('guanyador','Qui guanya la prova i quin fet ho demostra?','El Sol, perquè l’home es treu l’abric després del seu intent.',['El Sol, perquè l’home es treu l’abric.','El vent, perquè l’home s’agafa l’abric.','El Sol, perquè el vent mou les branques.','El vent, perquè l’home continua caminant.'],'a','El resultat es decideix amb la condició acordada: el viatger es treu l’abric quan actua el Sol.',[e('prova','Guanyarà qui aconsegueixi que aquell home es tregui l’abric'),e('sol','El Sol continuava escalfant'),e('final','Es va treure l’abric')],2)
     ]}),
-  cultural({code:'S134',id:'el-pastor-i-el-llop',title:'El pastor i el llop',grade:'4',level:'middle',universeIds:['faules-mon'],
-    seconds: 92, status: 'ready-for-review', reviewStatus: 'audio-review',
+  cultural({code:'S134', image: {"src":"./assets/images/s134-publicacio-v1.webp","alt":"Un jove pastor vigila un ramat tranquil en un prat, amb el poble al fons.","width":1536,"height":1024},id:'el-pastor-i-el-llop',title:'El pastor i el llop',grade:'4',level:'middle',universeIds:['faules-mon'],
+    seconds: 92, status: 'published', reviewStatus: 'validated',
     audio: './assets/audio/s134-mixed-v1.mp3', tracks: { introduction: './assets/audio/s134-mixed-v1-intro.mp3', body: './assets/audio/s134-mixed-v1-cos.mp3' },
     fragment: { start: 6.490291666666667, seconds: 85 },
     introduction:'Comprensió oral. El pastor i el llop. Una faula de la tradició d’Isop.',

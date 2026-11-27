@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-27",
+  "tool": "image_gen built-in",
+  "code": "S140",
+  "file": "s140-publicacio-v1.webp",
+  "alt": "Dèdal i Ícar conversen en un pati de pedra davant del mar.",
+  "width": 1536,
+  "height": 1024,
+  "references": [],
+  "sourceImage": "exec-61cfa507-f26c-45e9-b710-7b92d7c86c03.png",
+  "prompt": "Use case: illustration-story. One NEW Sentit educational listening worksheet illustration, landscape 3:2 1536x1024. Refined fine ink and delicate muted watercolor on warm white textured paper, softly fading edges, ochre limestone and quiet blue-grey sea. Ancient Cretan stone courtyard or open balcony with a low parapet overlooking the distant Mediterranean. Daedalus, an older thoughtful artisan with greying dark beard and simple ochre ancient tunic, stands beside his teenage son Icarus, in a muted slate blue ancient tunic and sandals. They look out across the distant sea as though discussing a difficult situation, bodies turned naturally towards one another. Hands are EMPTY, no technical demonstration. Recognizable parent/son age difference, believable faces and anatomy; no modern recurring Sentit character identity. No wings, feathers, wax, string, thread, finished inventions, construction diagrams, maps, flying, fall, bodies in water, boats, guards or blocked routes that answer questions. No writing, labels, numbers, logo or watermark.",
+  "encoding": "WebP quality 88; original PNG preserved locally.",
+  "sourceImageSha256": "95a1408d8161199d7d2317183ea014fa2b8ee4c37744aa8d9e434a01af355323",
+  "imageSha256": "97e72088373aba25e79d5991106f1f860c6b83acacbc3e1ac3830a76d6135d75"
+}

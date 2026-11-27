@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-27",
+  "tool": "image_gen built-in",
+  "code": "S141",
+  "file": "s141-publicacio-v1.webp",
+  "alt": "Persèfone observa les flors d’un prat grec amb muntanyes al fons.",
+  "width": 1536,
+  "height": 1024,
+  "references": [],
+  "sourceImage": "exec-afa9298b-a911-499a-8281-cbfcb2e8a4aa.png",
+  "prompt": "Use case: illustration-story. One NEW Sentit educational listening worksheet illustration, landscape 3:2 1536x1024. Refined fine ink and delicate muted watercolor on warm white textured paper, softly fading edges, muted sage, lilac and ochre. An ancient Greek flower meadow with low mountains beyond and a distant grove of olive trees. A young woman representing Persephone in a simple muted lavender ancient dress stands among wildflowers, looking down attentively at them, hands relaxed at her sides and not yet picking anything. Peaceful establishing moment before the events of the myth. Natural anatomy, refined children's book art, no modern recurring Sentit character identity. Do not show another character, mother/daughter reunion, named gods, a face in the sun, a chariot, crack in the ground, underworld, pomegranate or other food, dry crops, wheat or any division into seasons/months or ending clues. No text, lettering, labels, numbers, logo or watermark.",
+  "encoding": "WebP quality 88; original PNG preserved locally.",
+  "sourceImageSha256": "e1a363c4892c5284859319518b85242a588ec8d7f5dc2beb201e4ca0b9e2a2d6",
+  "imageSha256": "0e51abc276f5ac6705cae8df179ac0630e70c07f0893ae7a3bda704073015ec5"
+}

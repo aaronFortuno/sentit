@@ -1,5 +1,6 @@
 export const strings = {
   ca: {
+    releaseSevenTraditionFinal: 'S133, S134, S136, S138, S139, S140 i S141 definitives, amb set il·lustracions noves i revisió independent dels materials. Àudios aprovats intactes, fonts culturals i solucionaris nets. Manifests i seguiment actualitzats; cap muntatge pendent d’audició. S131, S135 i S142 continuen amb esmenes obertes.',
     releaseSevenTraditionMontages: 'Set muntatges nous per escoltar: S133, S134, S136, S138, S139, S140 i S141, amb veus validades i músiques de biblioteca alternades. S131 espera la presentació completa; S142, una nova presa íntegra amb Erinome i inici revisat. Incidències visibles i cap síntesi enviada. Manifests de les vuit definitives anteriors sincronitzats.',
     releaseEightFinalMontages: 'Vuit definitives: S070, S095, S122, S128, S129, S130, S132 i S137. Muntatges aprovats intactes, set il·lustracions noves i solucionaris nets revisats. Primeres faules, llegendes i mite disponibles, amb fonts i preguntes obertes/ABCD. Seguiment i arxiu local de proves actualitzats.',
     releaseUniverseSimplification: 'Universos simplificats: les passejades passen a Situacions quotidianes i Històries amb sentit al fil de l’Aina i l’avi Ferran. De dotze grups a deu, amb les categories buides ocultes i els recomptes combinats amb els altres filtres. Guions, àudios i col·leccions conservats.',
@@ -371,6 +372,7 @@ export const strings = {
     sessionEnded: 'Sessió acabada', remainingTime: 'Temps restant',
   },
   es: {
+    releaseSevenTraditionFinal: 'S133, S134, S136, S138, S139, S140 y S141 definitivas, con siete ilustraciones nuevas y revisión independiente de los materiales. Audios aprobados intactos, fuentes culturales y solucionarios limpios. Manifiestos y seguimiento actualizados; ningún montaje pendiente de audición. S131, S135 y S142 siguen con correcciones abiertas.',
     releaseSevenTraditionMontages: 'Siete montajes nuevos para escuchar: S133, S134, S136, S138, S139, S140 y S141, con voces validadas y músicas de biblioteca alternadas. S131 espera la presentación completa; S142, una nueva toma íntegra con Erinome e inicio revisado. Incidencias visibles y ninguna síntesis enviada. Manifiestos de las ocho definitivas anteriores sincronizados.',
     releaseEightFinalMontages: 'Ocho definitivas: S070, S095, S122, S128, S129, S130, S132 y S137. Montajes aprobados intactos, siete ilustraciones nuevas y solucionarios limpios revisados. Primeras fábulas, leyendas y mito disponibles, con fuentes y preguntas abiertas/ABCD. Seguimiento y archivo local de pruebas actualizados.',
     releaseUniverseSimplification: 'Universos simplificados: los paseos pasan a Situaciones cotidianas e Historias con sentido al hilo de Aina y su abuelo Ferran. De doce grupos a diez, con las categorías vacías ocultas y los recuentos combinados con los demás filtros. Guiones, audios y colecciones conservados.',

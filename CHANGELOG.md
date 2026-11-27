@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.136 · 27 de novembre de 2026
+
+- S133, S134, S136, S138, S139, S140 i S141 passen a publicació definitiva amb la validació explícita del docent. Mateixos màsters i pistes modulars aprovats, sense síntesi, remuntatge ni recompressió d’àudio.
+- Set il·lustracions contextuals noves, prompts conservats i revisió independent final. Fitxes i solucionaris nets amb fonts culturals, preguntes obertes/ABCD, cites i transcripció només parlada.
+- Manifests, crèdits i seguiment sincronitzats amb la publicació. Cap muntatge pendent d’audició; S131, S135 i S142 conserven les seves esmenes de veu obertes.
+
 ## 0.1.135 · 27 de novembre de 2026
 
 - S133, S134, S136, S138, S139, S140 i S141: veus validades pel docent i muntatges per escoltar, amb música de biblioteca aprovada, base contínua discreta i fosa final. Pistes de títol/relat separades; cap síntesi nova ni publicació definitiva anticipada.

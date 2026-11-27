@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-27",
+  "tool": "image_gen built-in",
+  "code": "S134",
+  "file": "s134-publicacio-v1.webp",
+  "alt": "Un jove pastor vigila un ramat tranquil en un prat, amb el poble al fons.",
+  "width": 1536,
+  "height": 1024,
+  "references": [],
+  "sourceImage": "exec-e484287d-6d04-4706-b1ff-2e5517677001.png",
+  "prompt": "Use case: illustration-story. One NEW Sentit educational listening worksheet illustration, landscape 3:2 1536x1024. Refined ink lines and muted watercolor on warm white textured paper, softly fading edges, sage meadow and ochre rural buildings. A young shepherd stands naturally on a grassy hillside holding a plain wooden staff, quietly watching a small GROUP of calm sheep grazing together. An old village is visible in the distance. His expression is neutral and attentive, not bored, amused, distressed or shouting. Specific pastoral setting, believable anatomy and soft natural lighting, refined traditional storybook art. No wolf, people running, warnings, laughter, attack, missing or isolated sheep, frightened flock or ending. No visible numbers, tally marks, text, writing, signs, logos, speech bubbles or watermark.",
+  "encoding": "WebP quality 88; original PNG preserved locally.",
+  "sourceImageSha256": "0a3c9e3a7b48d66e794d7ce2d4e43f6008c6e38cb3be14d436d23ee78d1c105c",
+  "imageSha256": "528a7c2a4d2c72583489487649c4556db3fd0e69f978c58092afd769915a9648"
+}
