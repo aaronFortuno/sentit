@@ -292,3 +292,5 @@ Les validacions definitives i les esmenes obertes consten a l’estat inicial d�
 `workspace-panels.js` gestiona exclusivitat, accessibilitat i canvi entre panells fixos i desplegables. `node tools/check-workspace-panels.cjs` comprova scrolls independents, botons fixats, persistència dels ajustos, resize, teclat, mòbil, tema, idioma, PDF i bloqueig dels esborranys, només en local.
 
 **Audició de veus i esmenes:** botons ×1, ×1,25 i ×1,5, amb el to conservat i la preferència recordada durant la sessió del navegador. A la fitxa i als comparadors, sense canviar el ritme de la sessió de l’alumnat.
+
+**Retorn docent del nivell:** bandera → Guió o transcripció → text massa fàcil o massa difícil per al nivell indicat. Els avisos incorporen el curs i la dificultat publicats, sense demanar dades del grup, i serveixen per revisar el calibratge. [Detall del seguiment](docs/estadistiques.md#bandera-derrors).

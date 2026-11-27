@@ -1,5 +1,10 @@
 # Canvis
 
+## 0.1.131 · 27 de novembre de 2026
+
+- Retorn de dificultat a les banderes: «Text massa fàcil» i «Text massa difícil per al nivell indicat», a Guió o transcripció, seguint Trama. Només motius predefinits, amb curs i dificultat canònics del material; sense informació del grup ni requalificació automàtica.
+- Avisos duplicats separats també per llengua. Verificació local dels dos motius, confirmació, deduplicació i bloqueig amb DNT/GPC; cap senyal real enviat.
+
 ## 0.1.130 · 27 de novembre de 2026
 
 - Umami: codi amb idioma, títol, curs, dificultat, tipologia, universos i estat públic/provisional als esdeveniments de lectura. `us_univers` compta cada univers vinculat una vegada per acció, també en peces compartides. Entrada a la vista d’escolta i addicions efectives de lectures a col·leccions. Els inicis i reinicis de sessió queden diferenciats de les previsualitzacions del docent.

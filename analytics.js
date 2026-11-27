@@ -72,7 +72,7 @@ const rules={
 };
 export const reportReasons={
   audio:{pronunciation:'Pronunciació o accent',cut:'Inici o final tallat',mix:'Música o efecte massa fort',missing:'No es reprodueix',other:'Un altre problema d’àudio'},
-  text:{wording:'Errada de llengua',fact:'Dada incorrecta',coherence:'Incoherència'},
+  text:{wording:'Errada de llengua',fact:'Dada incorrecta',coherence:'Incoherència',too_easy:'Text massa fàcil per al nivell indicat',too_difficult:'Text massa difícil per al nivell indicat'},
   image:{mismatch:'No encaixa amb el text',error:'Conté un error'},
   question:{wording:'Està mal formulada',unsupported:'No es pot respondre amb l’àudio'},
   solution:{incorrect:'Resposta incorrecta',incomplete:'Resposta incompleta'},
@@ -158,6 +158,7 @@ export async function sendReport(entry,{part,element='',motiu,responseMode}){
   if(element&&!allowed.includes(element))return false;
   if(['question','solution'].includes(part)&&!element)return false;
   const data={codi:entry.code,llengua:entry.language,part,motiu,...(element?{element}:{})};
+  if(part==='text'&&['too_easy','too_difficult'].includes(motiu))Object.assign(data,{curs:entry.grade,dificultat:entry.level});
   if(['question','solution'].includes(part)){
     if(responseMode!==undefined&&!['open','choice'].includes(responseMode))return false;
     const question=entry.questions.find(q=>q.id===element);

@@ -65,6 +65,22 @@ const publicBase='https://sentit.ortogra.fi';const receiver='https://maquestria.
     assert.deepEqual(report.payload.data,{codi:'S008R',llengua:'ca',part:'audio',motiu:'cut'});
     await page.screenshot({path:path.join(output,'report.png')});
     await page.keyboard.press('Escape');await page.locator('#error-report-dialog').waitFor({state:'hidden'});
+    for(const motiu of ['too_easy','too_difficult']){
+      await page.locator('#report-error').click();
+      await page.locator('#error-report-form [name="part"]').selectOption('text');
+      assert.equal(await page.locator('#error-report-form [name="element"]').inputValue(),'');
+      await page.locator('#error-report-form [name="motiu"][value="'+motiu+'"]').check();
+      await page.locator('#error-report-form [type="submit"]').click();
+      await page.waitForFunction(()=>document.querySelector('.report-status').textContent.includes('Avís enviat'));
+      assert.deepEqual(sent.findLast(event=>event.payload.name==='notifica_error').payload.data,{codi:'S008R',llengua:'ca',part:'text',motiu,curs:'4',dificultat:'easy'});
+      await page.keyboard.press('Escape');await page.locator('#error-report-dialog').waitFor({state:'hidden'});
+    }
+    const reportsBeforeDuplicate=sent.filter(event=>event.payload.name==='notifica_error').length;
+    await page.locator('#report-error').click();await page.locator('#error-report-form [name="part"]').selectOption('text');
+    await page.locator('#error-report-form [name="motiu"][value="too_easy"]').check();await page.locator('#error-report-form [type="submit"]').click();
+    await page.waitForFunction(()=>document.querySelector('.report-status').textContent.includes('ja s’ha enviat'));
+    assert.equal(sent.filter(event=>event.payload.name==='notifica_error').length,reportsBeforeDuplicate);
+    await page.keyboard.press('Escape');await page.locator('#error-report-dialog').waitFor({state:'hidden'});
     await page.locator('.paper-block').first().hover();await page.locator('[data-question-action="report"]').first().click();
     await checkFlag(page,'[data-question-action="report"] svg >> nth=0');
     assert.equal(await page.locator('#error-report-form [name="part"]').inputValue(),'question');
@@ -94,6 +110,12 @@ const publicBase='https://sentit.ortogra.fi';const receiver='https://maquestria.
       assert.equal(await test.page.locator('#error-report-form [type="submit"]').isDisabled(),true,'Completing a report does not bypass GPC/DNT');
       await test.page.locator('#error-report-form').evaluate(form=>form.requestSubmit());
       assert.equal(scriptRequests,beforeScripts);assert.equal(sent.length,beforeEvents);
+      await test.page.locator('#error-report-form [name="part"]').selectOption('text');
+      await test.page.locator('#error-report-form [name="motiu"][value="too_difficult"]').check();
+      assert.equal(await test.page.locator('.report-fields').isEnabled(),true);
+      assert.equal(await test.page.locator('#error-report-form [type="submit"]').isDisabled(),true);
+      await test.page.locator('#error-report-form').evaluate(form=>form.requestSubmit());
+      assert.equal(scriptRequests,beforeScripts);assert.equal(sent.length,beforeEvents);
       await test.page.keyboard.press('Escape');
       await test.page.setViewportSize({width:375,height:800});
       await checkFlag(test.page,'#report-error svg');
@@ -108,6 +130,6 @@ const publicBase='https://sentit.ortogra.fi';const receiver='https://maquestria.
     assert(!JSON.stringify(sent).includes('Joana'));
     for(const event of sent){assert.equal(event.payload.url,'/');assert.equal(event.payload.website,'6acf2cae-4b28-4d71-98dd-550d2d086dcc');}
     assert.deepEqual(errors,[]);
-    console.log('PASS · Square Lucide flags in desktop/mobile/question controls; GPC/DNT allow report choices but block submit and all requests; opt-out, acknowledged reports, failure/retry and audio pause. Collector mocked: no real analytics traffic.');
+    console.log('PASS · Difficulty feedback sends canonical grade/level with predefined reasons, no private fields or duplicate reports; GPC/DNT allow inspection but block sending. Square flags, opt-out, acknowledged reports, retry and pupil audio pause. Collector mocked: no real analytics traffic.');
   }finally{await browser?.close();server.kill();}
 })().catch(error=>{console.error(error);process.exitCode=1;});

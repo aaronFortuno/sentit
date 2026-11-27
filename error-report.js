@@ -1,4 +1,4 @@
-import { reportAvailability, reportReasons, sendReport, setExcluded, startAnalytics } from './analytics.js?v=0.1.130';
+import { reportAvailability, reportReasons, sendReport, setExcluded, startAnalytics } from './analytics.js?v=0.1.131';
 import { openDialog } from './motion.js';
 
 export function mountErrorReport(dialog,t){
@@ -38,7 +38,7 @@ export function mountErrorReport(dialog,t){
     event.preventDefault();if(!active||submit.disabled)return;
     const values={part:part.value,element:element.value,motiu:form.elements.motiu.value};
     if(['question','solution'].includes(values.part))values.responseMode=visibleQuestions.find(q=>q.id===values.element)?.responseMode??'open';
-    const key=[active.code,values.part,values.element,values.motiu,values.responseMode??''].join('|');
+    const key=[active.language,active.code,values.part,values.element,values.motiu,values.responseMode??''].join('|');
     if(sent.has(key)){status.textContent=t('reportAlreadySent');return;}
     busy=true;failed=false;availability();status.textContent=t('reportSending');const version=revision;
     const delivered=await sendReport(active,values);

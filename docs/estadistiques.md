@@ -91,6 +91,8 @@ La bandera del preview permet indicar àudio, guió, imatge, pregunta o solucion
 
 No hi ha nom, correu ni camp de comentari lliure. L’avís es transmet pel receptor d’Umami i només es dona per enviat quan retorna una confirmació vàlida. Els errors de connexió, bloqueig o resposta es mostren com a errors i es pot reintentar. Els duplicats confirmats de la mateixa sessió no es tornen a enviar. La implementació segueix la referència de Trama; no necessita un servidor de formularis ni autenticació addicional.
 
+Des de **v0.1.131**, a **Guió o transcripció** també hi ha «Text massa fàcil per al nivell indicat» i «Text massa difícil per al nivell indicat», com a Trama. Aquests avisos de `notifica_error` tenen `part=text` i `motiu=too_easy` o `too_difficult`, amb `curs` i `dificultat` copiats del material públic. Es pot indicar tot el fragment o un dels blocs existents. No es demana el curs real de cap alumne ni informació sobre el grup; els avisos serveixen per a la revisió docent i no requalifiquen automàticament les peces. A la vista mínima d’escolta es mantenen només les incidències d’àudio.
+
 Les comprovacions locals simulen tant el web públic com el receptor d’Umami i validen la cua de càrrega, els universos múltiples, la vista d’escolta, la impressió i les preferències de privadesa. No generen visites reals ni consulten el desplegament remot. La comprovació al tauler la fa el responsable del projecte.
 
 Comandes: `node tools/check-analytics.mjs`, `node tools/check-analytics-usage.cjs` i `node tools/check-analytics-ui.cjs`. A l’històric consta un `prova_connexio` autoritzat el 19/11/2026 amb resposta HTTP 200 i confirmació del receptor real; no és una comprovació del desplegament actual.
