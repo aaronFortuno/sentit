@@ -10771,9 +10771,9 @@ export const questionChoiceReviews = [
     "questionId": "canvi",
     "status": "passed",
     "author": "/root/autoria_mites_139_142",
-    "reviewer": "revisio_esmenes_fonts_20261126",
-    "reviewedAt": "2026-11-26",
-    "fingerprint": "3c6627d7a5b628bc615c5771c977483d9dd7823f8c65b1865514c622ed22cabb",
+    "reviewer": "revisio_publicacio_vuit_20261127-independent",
+    "reviewedAt": "2026-11-27",
+    "fingerprint": "fc61b0ff71984dca76416a27d6b51e42143219f284b4ae7d4ec2d7b1cb60880c",
     "teacherValidation": "pending"
   },
   {
@@ -10781,9 +10781,9 @@ export const questionChoiceReviews = [
     "questionId": "excusa",
     "status": "passed",
     "author": "/root/autoria_mites_139_142",
-    "reviewer": "revisio_esmenes_fonts_20261126",
-    "reviewedAt": "2026-11-26",
-    "fingerprint": "e39fb9374faa6bb0207fce541fd2c73c711e1caf036ccc0bb8b3bf90ff93b359",
+    "reviewer": "revisio_publicacio_vuit_20261127-independent",
+    "reviewedAt": "2026-11-27",
+    "fingerprint": "974ef0c17ad9c9f5d46aace9215ee37f2c27dc1fdefbb62863d48fe46c2e8a12",
     "teacherValidation": "pending"
   },
   {
@@ -10791,9 +10791,9 @@ export const questionChoiceReviews = [
     "questionId": "intercanvi",
     "status": "passed",
     "author": "/root/autoria_mites_139_142",
-    "reviewer": "revisio_esmenes_fonts_20261126",
-    "reviewedAt": "2026-11-26",
-    "fingerprint": "ad167ab97de7a16f6ea0249adde3fbbede91cb210d2e35a97903c3c167bb6f5e",
+    "reviewer": "revisio_publicacio_vuit_20261127-independent",
+    "reviewedAt": "2026-11-27",
+    "fingerprint": "d899715dfdd94b57e5acc206384ce5970a73e204066870d1db39e85d8fadf7a3",
     "teacherValidation": "pending"
   },
   {
@@ -10801,9 +10801,9 @@ export const questionChoiceReviews = [
     "questionId": "ordre",
     "status": "passed",
     "author": "/root/autoria_mites_139_142",
-    "reviewer": "revisio_esmenes_fonts_20261126",
-    "reviewedAt": "2026-11-26",
-    "fingerprint": "933baa584005ac25638a34c97abc01d3984367197d38130b8906bd4c4f8e0e02",
+    "reviewer": "revisio_publicacio_vuit_20261127-independent",
+    "reviewedAt": "2026-11-27",
+    "fingerprint": "809018f8ca4a192dd06bcdcf75888dab8f9f08cb63d12c2a4264279158030071",
     "teacherValidation": "pending"
   },
   {
@@ -10811,9 +10811,9 @@ export const questionChoiceReviews = [
     "questionId": "ordre-zeus",
     "status": "passed",
     "author": "/root/autoria_mites_139_142",
-    "reviewer": "revisio_esmenes_fonts_20261126",
-    "reviewedAt": "2026-11-26",
-    "fingerprint": "650e55f6b56e3a43e993db688ff71bc8bcd9024089185387406a9b6733ac9bf1",
+    "reviewer": "revisio_publicacio_vuit_20261127-independent",
+    "reviewedAt": "2026-11-27",
+    "fingerprint": "ffae6b9561853738acccdb93190ddf5306fe780e7abbfe1d0b8590701ea81820",
     "teacherValidation": "pending"
   },
   {
@@ -10821,9 +10821,9 @@ export const questionChoiceReviews = [
     "questionId": "pare",
     "status": "passed",
     "author": "/root/autoria_mites_139_142",
-    "reviewer": "revisio_esmenes_fonts_20261126",
-    "reviewedAt": "2026-11-26",
-    "fingerprint": "7efad34c7d52f97275a6bc4e97425d3af7584b44fc2867fcf0bfa204e49020ad",
+    "reviewer": "revisio_publicacio_vuit_20261127-independent",
+    "reviewedAt": "2026-11-27",
+    "fingerprint": "2034b6bec2544aeeb2e998f44a58f5ed6241c4ac3585be420579f704b0ca77f7",
     "teacherValidation": "pending"
   },
   {
@@ -10831,9 +10831,9 @@ export const questionChoiceReviews = [
     "questionId": "petjades",
     "status": "passed",
     "author": "/root/autoria_mites_139_142",
-    "reviewer": "revisio_esmenes_fonts_20261126",
-    "reviewedAt": "2026-11-26",
-    "fingerprint": "00044160cf77ebdd606a0c4c3ba5347bb06503969501e6117ace11d6847c5464",
+    "reviewer": "revisio_publicacio_vuit_20261127-independent",
+    "reviewedAt": "2026-11-27",
+    "fingerprint": "caec9491758ecf8bc8fda94828644f2f40da605a338f13751bc57fc7cdb60a20",
     "teacherValidation": "pending"
   }
 ];

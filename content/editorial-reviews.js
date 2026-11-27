@@ -897,8 +897,8 @@ export const editorialReviews = {
   },
   "ca-S142": {
     "status": "passed",
-    "reviewedAt": "2026-11-26",
-    "reviewer": "revisio_esmenes_fonts_20261126",
-    "fingerprint": "289dc4620077ae471d9e57830f64b5e3615e1079d348d168cbe8af55c7a40dbd"
+    "reviewedAt": "2026-11-27",
+    "reviewer": "revisio_publicacio_vuit_20261127-independent",
+    "fingerprint": "9fcf84c8b045cb5b0848d755e646e322ace87b21a98ce49193fa32b3e8810d45"
   }
 };

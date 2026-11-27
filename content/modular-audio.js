@@ -1918,6 +1918,48 @@ export const modularAudio = {
       "sha256": "87259f2c1ab77ad7b24929575d425fc07e6015b67501b36164c3800588a9d138"
     }
   },
+  "ca-S133": {
+    "master": "./assets/audio/s133-mixed-v1.mp3",
+    "masterSha256": "0667d7653c783daaadba098e632f1cf1222050b996965fa7721325a39e476d72",
+    "introduction": {
+      "src": "./assets/audio/s133-mixed-v1-intro.mp3",
+      "seconds": 6.48,
+      "sha256": "a8004739f99b42996d57e66af6a1757ceedf12e02a6b99c62ca665994d4ef8e1"
+    },
+    "body": {
+      "src": "./assets/audio/s133-mixed-v1-cos.mp3",
+      "seconds": 82.9,
+      "sha256": "3c03b81f3f92503b40a21534b593529e2e659a7450c28d01879666b02307b2ec"
+    }
+  },
+  "ca-S134": {
+    "master": "./assets/audio/s134-mixed-v1.mp3",
+    "masterSha256": "a4850ed76acc73719782e889634a31f03edfb521a302889866cf6acd63c333f8",
+    "introduction": {
+      "src": "./assets/audio/s134-mixed-v1-intro.mp3",
+      "seconds": 6.12,
+      "sha256": "31efc92cb417b480473e2bdba78a902f854803051cc901d1c11e0659b300df00"
+    },
+    "body": {
+      "src": "./assets/audio/s134-mixed-v1-cos.mp3",
+      "seconds": 85.1,
+      "sha256": "a034e13eabe131afadb5ff5f7e921ef67ed5ff18a1330d987d18dd2649b20725"
+    }
+  },
+  "ca-S136": {
+    "master": "./assets/audio/s136-mixed-v1.mp3",
+    "masterSha256": "d8a5f59ecf7c6db4ab49ef71aa18cdd94a60a0e1ae9a04d911f544b8a1414b07",
+    "introduction": {
+      "src": "./assets/audio/s136-mixed-v1-intro.mp3",
+      "seconds": 5.81,
+      "sha256": "57796a542ae4d994123297e7ec8e2c6a0931d5baee93b97d7eb2f2b54202105e"
+    },
+    "body": {
+      "src": "./assets/audio/s136-mixed-v1-cos.mp3",
+      "seconds": 96.17,
+      "sha256": "1f072e6b849712bb917aa3e0684c8453a1c228345e23399b19ab37afb6a0344c"
+    }
+  },
   "ca-S137": {
     "master": "./assets/audio/s137-mixed-v1.mp3",
     "masterSha256": "b2b35b1bc2793f33c755093acb711dc45ac6384f6db3d2d692090801eaadd0ef",
@@ -1930,6 +1972,62 @@ export const modularAudio = {
       "src": "./assets/audio/s137-mixed-v1-cos.mp3",
       "seconds": 91.53999999999999,
       "sha256": "1b2cce9344d973a4c0ff4e971cb5e51f8da671e1b781f5b800c24222c4117c51"
+    }
+  },
+  "ca-S138": {
+    "master": "./assets/audio/s138-mixed-v1.mp3",
+    "masterSha256": "853f0dda9fe51a73c973855c5da694bc072a1b3ac4f849e56f921a4567e24fe5",
+    "introduction": {
+      "src": "./assets/audio/s138-mixed-v1-intro.mp3",
+      "seconds": 6.62,
+      "sha256": "9cbe833c6b41facf8bda1b136dfb776e57de14e0fd27cb3a77f54bf99ef994b8"
+    },
+    "body": {
+      "src": "./assets/audio/s138-mixed-v1-cos.mp3",
+      "seconds": 121.15,
+      "sha256": "896f6a80dd156ba19c8f5662f4e322df8dbba58143ca10d02cc02677345588f8"
+    }
+  },
+  "ca-S139": {
+    "master": "./assets/audio/s139-mixed-v1.mp3",
+    "masterSha256": "e7eb51143fa920703c2e02f5c1a9693339e65a2e2173e1e427920096434377e7",
+    "introduction": {
+      "src": "./assets/audio/s139-mixed-v1-intro.mp3",
+      "seconds": 4.82,
+      "sha256": "e02e340b47edada7524b9de94e4516d4f76cb222af1a695b283b5fbdd1c76862"
+    },
+    "body": {
+      "src": "./assets/audio/s139-mixed-v1-cos.mp3",
+      "seconds": 100.03,
+      "sha256": "b2e493712fd1f72024115964a79c83fc79deff4df051c7e37e78413884a52b69"
+    }
+  },
+  "ca-S140": {
+    "master": "./assets/audio/s140-mixed-v1.mp3",
+    "masterSha256": "e48d30d9c35ded1deed85f46f9c3ac61a2fbc7367a39dd7b071659fe1d5eb171",
+    "introduction": {
+      "src": "./assets/audio/s140-mixed-v1-intro.mp3",
+      "seconds": 5.18,
+      "sha256": "8185ea93bdb54795cb6d5e4c11774dea143f9a74876229cc0d534f4045e48be1"
+    },
+    "body": {
+      "src": "./assets/audio/s140-mixed-v1-cos.mp3",
+      "seconds": 99.41,
+      "sha256": "fd712710859dee59eb50a140050804cdac3bf463e208021ded837644e304930b"
+    }
+  },
+  "ca-S141": {
+    "master": "./assets/audio/s141-mixed-v1.mp3",
+    "masterSha256": "394ca3174a3c4bd0b19ac7ab68b24b3700540aecc5765340eee023a4793084d2",
+    "introduction": {
+      "src": "./assets/audio/s141-mixed-v1-intro.mp3",
+      "seconds": 4.75,
+      "sha256": "57947bfffb4a9245c695d3b942dbb2c2e677453b6e7ea008692343eea2360edd"
+    },
+    "body": {
+      "src": "./assets/audio/s141-mixed-v1-cos.mp3",
+      "seconds": 95.25999999999999,
+      "sha256": "c90412c06b7ec5a3faa64cf3b9ccdad0d9e5e30c5263f458f0ef30a4d33391a1"
     }
   }
 };

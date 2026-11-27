@@ -1,0 +1,88 @@
+{
+  "code": "S140",
+  "activity": "ca-S140",
+  "state": "awaiting-montage-validation",
+  "file": "s140-mixed-v1.mp3",
+  "introFile": "s140-mixed-v1-intro.mp3",
+  "bodyFile": "s140-mixed-v1-cos.mp3",
+  "offset": 5.550000000000001,
+  "bodyDuration": 99.37266666666666,
+  "fullDuration": 104.92266666666667,
+  "voices": {
+    "Narrador": "Algenib"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "c83866d90107652b9335bbbe92d4d107b131e22468328cf5dbdd1e5c174a1d89",
+  "sourceRequestHash": "35e8f2567c66be3a62b21759dbb18eb93413671edbe4f6d55ebfeec698c3d452",
+  "batch": "L46",
+  "rawSha256": "539614c56a4ebd078d5a8ff839e759081de7b5329124bd09c92b5bfa7b92f6dd",
+  "takeSha256": "c1fff44b78eba654b8ffa02c6e934561da6e8a45eb95babadef8583c8c4dd834",
+  "coverage": 0.9242424242424242,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.44,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "licensed-narration-bed",
+      "origin": "licensed-library-music",
+      "compositionId": "incompetech-USUAN1100801",
+      "libraryId": "M3",
+      "title": "Virtutes Instrumenti",
+      "author": "Kevin MacLeod",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100801",
+      "sourceSha256": "46e4569b5f515917e5a879f52f1db1a83b5ea912d26f0b67f7779027a39ce670",
+      "sourceNotDistributedSeparately": true,
+      "sourceStart": 6,
+      "sourceSeconds": 256.06041666666664,
+      "loopCopies": 1,
+      "crossfadeSeconds": 0,
+      "retimed": false,
+      "underSpeech": true,
+      "sha256": "e53850e2d8ec27fef96f916382d405b8b9503a6d2e660454b26ba745306869f9",
+      "envelope": {
+        "fadeInSeconds": 0.6,
+        "duckStart": 0.3,
+        "duckEnd": 1.05,
+        "speechGain": 0.1,
+        "nominalSpeechMusicLufs": -43,
+        "riseStart": 95.07999999999997,
+        "riseEnd": 95.87999999999998,
+        "holdSeconds": 2,
+        "fadeStart": 97.87999999999998,
+        "fadeEnd": 99.02999999999999
+      },
+      "listeningValidation": "pending",
+      "start": 0
+    }
+  ],
+  "sha256": "e48d30d9c35ded1deed85f46f9c3ac61a2fbc7367a39dd7b071659fe1d5eb171",
+  "voiceHandles": {
+    "body": {
+      "start": 0.37,
+      "end": 94.07,
+      "retainedPcmSha256": "c4e47818fd9363fa97294249e02263f8d243712f6651b89f32275dc21cbbf11e",
+      "sourceSha256": "fb3e2384017c6106d78c66927035a022b9b8752209f6d6971acc3d60521f6b13",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.025,
+      "end": 4.625,
+      "retainedPcmSha256": "bed4d66d164a23f29e508c2ba22b0357f15c4a294161c8e9f1e8d24140ec9572",
+      "sourceSha256": "e643e02432b6df5ffba155657cc507682fcef5d113bb8ebb9e737a571f5e328a",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-27",
+    "sourceTakeSha256": "c1fff44b78eba654b8ffa02c6e934561da6e8a45eb95babadef8583c8c4dd834",
+    "sourceBatch": "L46",
+    "confirmation": "Docent 27/11: totes les veus rebudes pendents de revisió validades per muntatge, excepte S131 i S142."
+  }
+}

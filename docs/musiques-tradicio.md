@@ -56,10 +56,11 @@ Modificacions dels fragments: segons 6–38 de cada original, ajust de sonoritat
 4. Després de l’última paraula, deixar respirar el relat, pujar la música aproximadament dos segons i fer la fosa final.
 5. Presentar el muntatge al docent. Una tria musical no és la validació perceptiva del muntatge final.
 
-**S130 · El fil d’Ariadna:** veus de L41 validades pel docent el 26/11. Presa `S130-T01`, SHA-256 `de7def44287bd5ae73ee7d493c900bd0e86b2e735ec0d78148a8266790a12fc4`. Primer muntatge amb **M1 · Temple of the Manes**, pendent d’audició. Base contínua molt baixa sota el relat, pujada de dos segons i fosa final; sense efectes afegits ni canvi de ritme de la veu. Títol i relat separats al web, màster complet local. [Escoltar i revisar S130](https://sentit.ortogra.fi/#lectura=ca-S130). Sense peticions noves a Gemini ni canvis del guió o les preguntes.
+**S130 · El fil d’Ariadna:** veus de L41 validades pel docent el 26/11 i muntatge definitiu el 27/11. Presa `S130-T01`, SHA-256 `de7def44287bd5ae73ee7d493c900bd0e86b2e735ec0d78148a8266790a12fc4`. Música **M1 · Temple of the Manes**, contínua molt baixa sota el relat, pujada de dos segons i fosa final; sense efectes afegits ni canvi de ritme de la veu. Títol i relat separats al web, màster complet local. [Escoltar S130](https://sentit.ortogra.fi/#lectura=ca-S130). Sense peticions noves a Gemini ni canvis del guió o les preguntes.
 
 ## Primers usos reals
 
-S128 amb F1, S129 amb L1 i S130 amb M1. Els tres muntatges esperen l’audició del docent; l’aprovació del repertori i de les veus continua separada de la publicació definitiva. Les pròximes produccions alternaran amb F4/F5/F6, L2/L3 o M2/M3 segons l’univers i el caràcter del relat.
+S128 amb F1, S129 amb L1 i S130 amb M1, definitius el 27/11. L’aprovació del repertori i de les veus continua separada de la publicació definitiva de cada peça.
 
-- S132: F4 «Windswept»; S137: L2 «Folk Round». Alternança respecte de F1/S128 i L1/S129, música enregistrada de Kevin MacLeod (CC BY 4.0), usos i empremtes al catàleg i manifests. Veus validades; muntatges pendents d’audició.
+- S132: F4 «Windswept»; S137: L2 «Folk Round», també definitius el 27/11.
+- Nous muntatges pendents d’audició: S133/F5, S134/F6, S136/L3, S138/L1, S139/M2, S140/M3 i S141/M1. Es completa la primera rotació del repertori abans de repetir les composicions; totes són de Kevin MacLeod (CC BY 4.0). Usos, fonts i empremtes al catàleg i als manifests. [Muntatges i incidències](veus-i-muntatges-2026-11-27.md).

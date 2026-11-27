@@ -311,7 +311,8 @@ export const musicCatalogue = [
     "source": "tools/library-narration-bed.cjs",
     "sourceSha256": "21774c909751472f4fb6621e4cb5d0ac29ae535c4768392d13d2917f7107bcbf",
     "usedBy": [
-      "ca-S130"
+      "ca-S130",
+      "ca-S141"
     ],
     "sharedReason": "Repertori de mites M1–M3 validat; alternança entre produccions i mateixa composició entre variants d’un relat.",
     "description": "Base de biblioteca, molt baixa sota la narració. Fosa d’entrada i pujada de dos segons seguida de fosa final; sense canvis de to ni ritme de la veu."
@@ -363,7 +364,8 @@ export const musicCatalogue = [
     "source": "tools/library-narration-bed.cjs",
     "sourceSha256": "320b37a09fc37ec5962c975563541bee9bcbf1208b0181789248780286f4c1d4",
     "usedBy": [
-      "ca-S129"
+      "ca-S129",
+      "ca-S138"
     ],
     "sharedReason": "Repertori validat per univers; alternança entre produccions i mateixa música entre variants."
   },
@@ -400,6 +402,96 @@ export const musicCatalogue = [
     "sourceSha256": "b4e6aa7d67bb05a269b6f916662355358b6e849d29b81f5185f211a31fdb8051",
     "usedBy": [
       "ca-S137"
+    ],
+    "sharedReason": "Repertori validat per univers; alternança entre produccions i mateixa música entre variants."
+  },
+  {
+    "id": "incompetech-USUAN1500084",
+    "libraryId": "F5",
+    "title": "Fresh Air",
+    "kind": "narration-bed",
+    "author": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "origin": "licensed-library-music",
+    "externalSamples": true,
+    "url": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1500084",
+    "source": "tools/library-narration-bed.cjs",
+    "sourceSha256": "528a53352595d5d37bc1eb4e738df66f0c390f833d5fd3de08ba0ab5fe317522",
+    "usedBy": [
+      "ca-S133"
+    ],
+    "sharedReason": "Repertori validat per univers; alternança entre produccions i mateixa música entre variants."
+  },
+  {
+    "id": "incompetech-USUAN1800008",
+    "libraryId": "F6",
+    "title": "Almost New",
+    "kind": "narration-bed",
+    "author": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "origin": "licensed-library-music",
+    "externalSamples": true,
+    "url": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1800008",
+    "source": "tools/library-narration-bed.cjs",
+    "sourceSha256": "3cb29102881aa9cb56292753dfa6c92004eddf4e0ad367e979c7292b0e1ac1a0",
+    "usedBy": [
+      "ca-S134"
+    ],
+    "sharedReason": "Repertori validat per univers; alternança entre produccions i mateixa música entre variants."
+  },
+  {
+    "id": "incompetech-USUAN1200110",
+    "libraryId": "L3",
+    "title": "Angevin",
+    "kind": "narration-bed",
+    "author": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "origin": "licensed-library-music",
+    "externalSamples": true,
+    "url": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200110",
+    "source": "tools/library-narration-bed.cjs",
+    "sourceSha256": "425f5febc62aee69761f16eae09158c35fd922a72c0fe8165af51c3a1f8818bf",
+    "usedBy": [
+      "ca-S136"
+    ],
+    "sharedReason": "Repertori validat per univers; alternança entre produccions i mateixa música entre variants."
+  },
+  {
+    "id": "incompetech-USUAN1100564",
+    "libraryId": "M2",
+    "title": "Desert City",
+    "kind": "narration-bed",
+    "author": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "origin": "licensed-library-music",
+    "externalSamples": true,
+    "url": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100564",
+    "source": "tools/library-narration-bed.cjs",
+    "sourceSha256": "aeefb582c77059aaf5b10d1e9125d7b19adca07cd841f3654e74aed7da9a3a71",
+    "usedBy": [
+      "ca-S139"
+    ],
+    "sharedReason": "Repertori validat per univers; alternança entre produccions i mateixa música entre variants."
+  },
+  {
+    "id": "incompetech-USUAN1100801",
+    "libraryId": "M3",
+    "title": "Virtutes Instrumenti",
+    "kind": "narration-bed",
+    "author": "Kevin MacLeod",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "origin": "licensed-library-music",
+    "externalSamples": true,
+    "url": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100801",
+    "source": "tools/library-narration-bed.cjs",
+    "sourceSha256": "46e4569b5f515917e5a879f52f1db1a83b5ea912d26f0b67f7779027a39ce670",
+    "usedBy": [
+      "ca-S140"
     ],
     "sharedReason": "Repertori validat per univers; alternança entre produccions i mateixa música entre variants."
   }

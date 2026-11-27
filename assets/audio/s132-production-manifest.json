@@ -1,7 +1,7 @@
 {
   "code": "S132",
   "activity": "ca-S132",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s132-mixed-v1.mp3",
   "introFile": "s132-mixed-v1-intro.mp3",
   "bodyFile": "s132-mixed-v1-cos.mp3",
@@ -57,7 +57,7 @@
         "fadeStart": 77.07000000000002,
         "fadeEnd": 78.22000000000003
       },
-      "listeningValidation": "pending",
+      "listeningValidation": "approved",
       "start": 0
     }
   ],
@@ -84,5 +84,13 @@
     "sourceTakeSha256": "2858c5219df0c0a2ac6a07deac91181e36fbd332973209303760d8c7f8d81245",
     "sourceBatch": "L46",
     "confirmation": "Docent 26/11: poden pujar a muntatge S132 i S137."
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-27",
+    "validatedBy": "docent",
+    "confirmation": "Els 8 muntatges finals que teníem pendents de revisió queden validats per publicació definitiva",
+    "audioSha256": "5350f2145bf1f767ec314e2400ff0a3662b9c1f98ff4b55e74d490384c502ce6",
+    "editorialFingerprint": "f22987be424197fd1f1c5c9a27c8696736793cab697575ba6b89f2de453d3f53",
+    "listeningApproval": true
   }
 }

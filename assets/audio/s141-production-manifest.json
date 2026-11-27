@@ -1,0 +1,88 @@
+{
+  "code": "S141",
+  "activity": "ca-S141",
+  "state": "awaiting-montage-validation",
+  "file": "s141-mixed-v1.mp3",
+  "introFile": "s141-mixed-v1-intro.mp3",
+  "bodyFile": "s141-mixed-v1-cos.mp3",
+  "offset": 5.115,
+  "bodyDuration": 95.21266666666666,
+  "fullDuration": 100.32766666666667,
+  "voices": {
+    "Narrador": "Algenib"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "ddad9f4b98af013f5a5d6acb74d921c8486339be0b1e7a1d6929add26315e1b2",
+  "sourceRequestHash": "0e7ab73a2c4d9f54edcfd1ffc8b490d0a5dd5a0088d5c52148e8cd36132f1f41",
+  "batch": "L47",
+  "rawSha256": "353823b15880808efb45e0e480b1a9a75d26ae8fbd9da85cf94b954aa70e06f9",
+  "takeSha256": "c0103ed1a4b72edce24595144bb380dd0b87932789ed8f8b6974aec650e987b5",
+  "coverage": 0.9258064516129032,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.03,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "licensed-narration-bed",
+      "origin": "licensed-library-music",
+      "compositionId": "incompetech-USUAN1100053",
+      "libraryId": "M1",
+      "title": "Temple of the Manes",
+      "author": "Kevin MacLeod",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100053",
+      "sourceSha256": "21774c909751472f4fb6621e4cb5d0ac29ae535c4768392d13d2917f7107bcbf",
+      "sourceNotDistributedSeparately": true,
+      "sourceStart": 6,
+      "sourceSeconds": 149.6114375,
+      "loopCopies": 1,
+      "crossfadeSeconds": 0,
+      "retimed": false,
+      "underSpeech": true,
+      "sha256": "3139fce15a0e5688fbd6dd5fdf595b0c4173cea034cfd66948c402b097dcf59d",
+      "envelope": {
+        "fadeInSeconds": 0.6,
+        "duckStart": 0.3,
+        "duckEnd": 1.05,
+        "speechGain": 0.1,
+        "nominalSpeechMusicLufs": -43,
+        "riseStart": 90.94000000000003,
+        "riseEnd": 91.74000000000004,
+        "holdSeconds": 2,
+        "fadeStart": 93.74000000000004,
+        "fadeEnd": 94.89000000000004
+      },
+      "listeningValidation": "pending",
+      "start": 0
+    }
+  ],
+  "sha256": "394ca3174a3c4bd0b19ac7ab68b24b3700540aecc5765340eee023a4793084d2",
+  "voiceHandles": {
+    "body": {
+      "start": 0.092,
+      "end": 89.872,
+      "retainedPcmSha256": "2d089e80a23ac981c9f90ab2295a644b6c2ce0eaeb65cb675a32bbe720c4b23a",
+      "sourceSha256": "d8665ccd70024386911001fb532822ce6e61bafb36e12b42e41613d137de80ad",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0,
+      "end": 4.165,
+      "retainedPcmSha256": "d3f841ae83076a4956387103719a48a8e0a77d4d98e300244b8b59ae5e5097ac",
+      "sourceSha256": "9ce375b540b9a360e6664fee3245234b87803497107032f2ff9ae4f0250b5416",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-27",
+    "sourceTakeSha256": "c0103ed1a4b72edce24595144bb380dd0b87932789ed8f8b6974aec650e987b5",
+    "sourceBatch": "L47",
+    "confirmation": "Docent 27/11: totes les veus rebudes pendents de revisió validades per muntatge, excepte S131 i S142."
+  }
+}

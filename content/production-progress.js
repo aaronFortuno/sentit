@@ -8869,7 +8869,7 @@ export const productionProgress = {
     }
   },
   "ca-S136": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-26",
     "scriptApprovedAt": "2026-11-26",
     "editorialFingerprint": "8aab46b9820327e196120d5f07e3a9cccf452c7b42c792d7fb16ee6d631ced0b",
@@ -8888,14 +8888,26 @@ export const productionProgress = {
         "L45"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-27",
+      "sourceTakeSha256": "dd19d5bbc73665ac79f84c41ce9f9103a6f6322011a525b714d77d4f134e22de",
+      "sourceBatch": "L45",
+      "confirmation": "Docent 27/11: totes les veus rebudes pendents de revisió validades per muntatge, excepte S131 i S142."
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-26T14:32:35.452Z",
     "voicePreview": "./proves/veus-rebudes.html#S136",
-    "voicePreviewFile": "./assets/audio/s136-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s136-voices-review-v1.mp3",
+    "teacherAssessment": "Veus validades pel docent; muntatge autoritzat amb el repertori musical aprovat.",
+    "mountedAt": "2026-11-27T10:00:34.651Z",
+    "synthesisBatch": "L45",
+    "requestHash": "3402b7ae874c38c102c2e3bba9f629c25b1b9d6aaa1fe835d901041f4c06dd90",
+    "audioSha256": "d8a5f59ecf7c6db4ab49ef71aa18cdd94a60a0e1ae9a04d911f544b8a1414b07",
+    "montageNewSynthesisRequests": 0
   },
   "ca-S140": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-26",
     "scriptApprovedAt": "2026-11-26",
     "editorialFingerprint": "be3d2fa471e29a96190d27a000682395920b1be4acd627c77e684157948667dc",
@@ -8914,14 +8926,26 @@ export const productionProgress = {
         "L46"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-27",
+      "sourceTakeSha256": "c1fff44b78eba654b8ffa02c6e934561da6e8a45eb95babadef8583c8c4dd834",
+      "sourceBatch": "L46",
+      "confirmation": "Docent 27/11: totes les veus rebudes pendents de revisió validades per muntatge, excepte S131 i S142."
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-26T14:47:10.477Z",
     "voicePreview": "./proves/veus-rebudes.html#S140",
-    "voicePreviewFile": "./assets/audio/s140-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s140-voices-review-v1.mp3",
+    "teacherAssessment": "Veus validades pel docent; muntatge autoritzat amb el repertori musical aprovat.",
+    "mountedAt": "2026-11-27T10:01:07.280Z",
+    "synthesisBatch": "L46",
+    "requestHash": "c83866d90107652b9335bbbe92d4d107b131e22468328cf5dbdd1e5c174a1d89",
+    "audioSha256": "e48d30d9c35ded1deed85f46f9c3ac61a2fbc7367a39dd7b071659fe1d5eb171",
+    "montageNewSynthesisRequests": 0
   },
   "ca-S138": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-26",
     "scriptApprovedAt": "2026-11-26",
     "editorialFingerprint": "870f5f5fe6e960a33d949a034ddd6b887508a58b7726564c765965db4efb0c3b",
@@ -8940,11 +8964,23 @@ export const productionProgress = {
         "L45"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-27",
+      "sourceTakeSha256": "947cffff2078d16820a353ced5c9f02a00baaf7eaa5704f6d8187fe7b25207a4",
+      "sourceBatch": "L45",
+      "confirmation": "Docent 27/11: totes les veus rebudes pendents de revisió validades per muntatge, excepte S131 i S142."
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-26T14:32:35.452Z",
     "voicePreview": "./proves/veus-rebudes.html#S138",
-    "voicePreviewFile": "./assets/audio/s138-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s138-voices-review-v1.mp3",
+    "teacherAssessment": "Veus validades pel docent; muntatge autoritzat amb el repertori musical aprovat.",
+    "mountedAt": "2026-11-27T10:00:46.812Z",
+    "synthesisBatch": "L45",
+    "requestHash": "3402b7ae874c38c102c2e3bba9f629c25b1b9d6aaa1fe835d901041f4c06dd90",
+    "audioSha256": "853f0dda9fe51a73c973855c5da694bc072a1b3ac4f849e56f921a4567e24fe5",
+    "montageNewSynthesisRequests": 0
   },
   "ca-S137": {
     "state": "published",
@@ -8997,7 +9033,7 @@ export const productionProgress = {
     }
   },
   "ca-S131": {
-    "state": "voices-received",
+    "state": "audio-corrections-pending",
     "approvedAt": "2026-11-26",
     "scriptApprovedAt": "2026-11-26",
     "editorialFingerprint": "f43a868f0f1a10b8e23d657bc0ecff405d1e4f443925192e81c08e2d9035c3f5",
@@ -9005,7 +9041,7 @@ export const productionProgress = {
     "listeningApproval": false,
     "confirmation": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
     "scriptApprovalSource": "Docent 26/11: passar a síntesi de veus S132, S136, S140, S138, S137, S131, S135, S134, S139 i S141; S133 i S142 requereixen esmenes.",
-    "reason": "Guió i escaleta validats; esperant un lot compatible.",
+    "reason": "Presentació inicial incompleta confirmada pel docent. Esmena en cua amb Algenib; no muntar una peça incompleta.",
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -9016,7 +9052,14 @@ export const productionProgress = {
         "L46"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "incomplete",
+      "reviewedAt": "2026-11-27",
+      "sourceTakeSha256": "6128156c5d32ee702ce8459f69a3536acc30383198a6ad8244f355652ae8c8a2",
+      "missing": [
+        "introduction"
+      ]
+    },
     "missingVoiceParts": [
       "introduction"
     ],
@@ -9030,6 +9073,25 @@ export const productionProgress = {
         "ca": "Presentació parcial: el control local troba «Comprensió oral», però no el títol ni la referència inicial a Isop. El relat s’ha conservat complet per a l’audició. Falta confirmar i reposar la presentació abans del muntatge.",
         "es": "Presentación parcial: el control local encuentra «Comprensió oral», pero no el título ni la referencia inicial a Esopo. El relato se conserva completo para la audición. Falta confirmar y reponer la presentación antes del montaje."
       }
+    },
+    "feedbackAt": "2026-11-27",
+    "feedback": [
+      {
+        "part": "introduction",
+        "speaker": "Narrador",
+        "kind": "omission",
+        "status": "pending",
+        "word": "Presentació inicial completa",
+        "heard": "Presentació incompleta a la presa de L46; manca confirmada pel docent."
+      }
+    ],
+    "plannedRepair": {
+      "scope": "missing-title",
+      "parts": [
+        "introduction"
+      ],
+      "status": "approved-awaiting-compatible-batch",
+      "planFile": "content/audio-repairs.json"
     }
   },
   "ca-S135": {
@@ -9088,7 +9150,7 @@ export const productionProgress = {
     }
   },
   "ca-S134": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-26",
     "scriptApprovedAt": "2026-11-26",
     "editorialFingerprint": "33e0920e991fbfb6ac555e79e695344cddd050cc14e814bb3c3b8f2232b7837b",
@@ -9107,14 +9169,26 @@ export const productionProgress = {
         "L47"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-27",
+      "sourceTakeSha256": "a80c26847ef982b32a423dbd11242cd90252ef5b98f91ab1b797229b8b209f3f",
+      "sourceBatch": "L47",
+      "confirmation": "Docent 27/11: totes les veus rebudes pendents de revisió validades per muntatge, excepte S131 i S142."
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-26T15:09:20.562Z",
     "voicePreview": "./proves/veus-rebudes.html#S134",
-    "voicePreviewFile": "./assets/audio/s134-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s134-voices-review-v1.mp3",
+    "teacherAssessment": "Veus validades pel docent; muntatge autoritzat amb el repertori musical aprovat.",
+    "mountedAt": "2026-11-27T10:00:21.932Z",
+    "synthesisBatch": "L47",
+    "requestHash": "ddad9f4b98af013f5a5d6acb74d921c8486339be0b1e7a1d6929add26315e1b2",
+    "audioSha256": "a4850ed76acc73719782e889634a31f03edfb521a302889866cf6acd63c333f8",
+    "montageNewSynthesisRequests": 0
   },
   "ca-S139": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-26",
     "scriptApprovedAt": "2026-11-26",
     "editorialFingerprint": "2253394fdfd970b4b87a1ffecb5f4ad1dee28ea780f6eb6840354479dc4d6c57",
@@ -9133,14 +9207,26 @@ export const productionProgress = {
         "L46"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-27",
+      "sourceTakeSha256": "0eedd7edf6b0599221fee22ddcaefdff5d56f8aa5332ea2ddb545fcf73bdb7ed",
+      "sourceBatch": "L46",
+      "confirmation": "Docent 27/11: totes les veus rebudes pendents de revisió validades per muntatge, excepte S131 i S142."
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-26T14:47:10.477Z",
     "voicePreview": "./proves/veus-rebudes.html#S139",
-    "voicePreviewFile": "./assets/audio/s139-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s139-voices-review-v1.mp3",
+    "teacherAssessment": "Veus validades pel docent; muntatge autoritzat amb el repertori musical aprovat.",
+    "mountedAt": "2026-11-27T10:00:54.779Z",
+    "synthesisBatch": "L46",
+    "requestHash": "c83866d90107652b9335bbbe92d4d107b131e22468328cf5dbdd1e5c174a1d89",
+    "audioSha256": "e7eb51143fa920703c2e02f5c1a9693339e65a2e2173e1e427920096434377e7",
+    "montageNewSynthesisRequests": 0
   },
   "ca-S141": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-26",
     "scriptApprovedAt": "2026-11-26",
     "editorialFingerprint": "f805526504540fb8a6e99f0723f1c2a6b27c826a993829a4e93d63bd951058e1",
@@ -9159,14 +9245,26 @@ export const productionProgress = {
         "L47"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-27",
+      "sourceTakeSha256": "c0103ed1a4b72edce24595144bb380dd0b87932789ed8f8b6974aec650e987b5",
+      "sourceBatch": "L47",
+      "confirmation": "Docent 27/11: totes les veus rebudes pendents de revisió validades per muntatge, excepte S131 i S142."
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-26T15:09:20.562Z",
     "voicePreview": "./proves/veus-rebudes.html#S141",
-    "voicePreviewFile": "./assets/audio/s141-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s141-voices-review-v1.mp3",
+    "teacherAssessment": "Veus validades pel docent; muntatge autoritzat amb el repertori musical aprovat.",
+    "mountedAt": "2026-11-27T10:01:16.278Z",
+    "synthesisBatch": "L47",
+    "requestHash": "ddad9f4b98af013f5a5d6acb74d921c8486339be0b1e7a1d6929add26315e1b2",
+    "audioSha256": "394ca3174a3c4bd0b19ac7ab68b24b3700540aecc5765340eee023a4793084d2",
+    "montageNewSynthesisRequests": 0
   },
   "ca-S133": {
-    "state": "voices-received",
+    "state": "montage-awaiting-listening",
     "approvedAt": "2026-11-26",
     "scriptApprovedAt": "2026-11-26",
     "editorialFingerprint": "a5b1503a512d4b45756793514459340565ad4f06f98b55227036c24e424c9558",
@@ -9185,22 +9283,34 @@ export const productionProgress = {
         "L47"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "approved",
+      "approvedAt": "2026-11-27",
+      "sourceTakeSha256": "8d768ce18de9c981c3acd17d85fb5548decfd170b18b15f97ea5bb7e12ec45bf",
+      "sourceBatch": "L47",
+      "confirmation": "Docent 27/11: totes les veus rebudes pendents de revisió validades per muntatge, excepte S131 i S142."
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-26T15:09:20.562Z",
     "voicePreview": "./proves/veus-rebudes.html#S133",
-    "voicePreviewFile": "./assets/audio/s133-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s133-voices-review-v1.mp3",
+    "teacherAssessment": "Veus validades pel docent; muntatge autoritzat amb el repertori musical aprovat.",
+    "mountedAt": "2026-11-27T10:00:11.495Z",
+    "synthesisBatch": "L47",
+    "requestHash": "ddad9f4b98af013f5a5d6acb74d921c8486339be0b1e7a1d6929add26315e1b2",
+    "audioSha256": "0667d7653c783daaadba098e632f1cf1222050b996965fa7721325a39e476d72",
+    "montageNewSynthesisRequests": 0
   },
   "ca-S142": {
-    "state": "voices-received",
+    "state": "audio-corrections-pending",
     "approvedAt": "2026-11-26",
     "scriptApprovedAt": "2026-11-26",
-    "editorialFingerprint": "289dc4620077ae471d9e57830f64b5e3615e1079d348d168cbe8af55c7a40dbd",
+    "editorialFingerprint": "9fcf84c8b045cb5b0848d755e646e322ace87b21a98ce49193fa32b3e8810d45",
     "plannedNewRequests": 1,
     "listeningApproval": false,
     "confirmation": "Docent 26/11: S133 i S142 validats per síntesi, després de les esmenes revisades. Autorització vigent de lots compatibles de 6–8 minuts, seqüencials.",
     "scriptApprovalSource": "Docent 26/11: S133 i S142 validats per síntesi, després de les esmenes revisades. Autorització vigent de lots compatibles de 6–8 minuts, seqüencials.",
-    "reason": "Guió i escaleta revisats i validats pel docent; lot compatible complet.",
+    "reason": "Nova presa íntegra pendent amb Erinome; quatre incidències de dicció i inici revisat. Cap muntatge fins a validar la nova veu.",
     "uncertainTurns": [],
     "receivedTakes": {
       "received": [
@@ -9211,10 +9321,78 @@ export const productionProgress = {
         "L47"
       ]
     },
-    "voiceApproval": false,
+    "voiceApproval": {
+      "status": "rejected",
+      "reviewedAt": "2026-11-27",
+      "sourceTakeSha256": "0b41da0c7fb5841f454b2aee4370c5c0d9ebfd91f9f605f555b281d1f9504b5c",
+      "sourceBatch": "L47",
+      "confirmation": "Docent 27/11: S142 rebutjada per clusca, bestiari en dos torns i asseptar. Autoritza provar una altra veu i canviar l’inici a Aquest mite grec explica que…"
+    },
     "missingVoiceParts": [],
     "voicesReceivedAt": "2026-11-26T15:09:20.562Z",
     "voicePreview": "./proves/veus-rebudes.html#S142",
-    "voicePreviewFile": "./assets/audio/s142-voices-review-v1.mp3"
+    "voicePreviewFile": "./assets/audio/s142-voices-review-v1.mp3",
+    "feedbackAt": "2026-11-27",
+    "feedback": [
+      {
+        "part": "invent",
+        "word": "closca",
+        "heard": "clusca",
+        "speaker": "Narrador",
+        "kind": "pronunciation",
+        "status": "pending"
+      },
+      {
+        "part": "reclamacio",
+        "word": "bestiar",
+        "heard": "bestiari",
+        "speaker": "Narrador",
+        "kind": "pronunciation",
+        "status": "pending"
+      },
+      {
+        "part": "zeus",
+        "word": "bestiar",
+        "heard": "bestiari",
+        "speaker": "Narrador",
+        "kind": "pronunciation",
+        "status": "pending"
+      },
+      {
+        "part": "musica",
+        "word": "acceptar",
+        "heard": "asseptar",
+        "speaker": "Narrador",
+        "kind": "pronunciation",
+        "status": "pending"
+      }
+    ],
+    "plannedRepair": {
+      "scope": "whole-recording",
+      "part": "whole",
+      "takeId": "S142-T02",
+      "status": "approved-awaiting-compatible-batch",
+      "sourceTakeId": "S142-T01",
+      "parts": [
+        "introduction",
+        "invent",
+        "ramat",
+        "reclamacio",
+        "zeus",
+        "musica"
+      ],
+      "planFile": "content/full-voice-retakes.json",
+      "approvedRequestHash": "255408be8a38be5f7d534fecf7f40b39a9c99b482700f09bf6e64762c59c2987",
+      "voice": "Erinome"
+    },
+    "teacherAssessment": "Nova presa íntegra pendent amb Erinome; quatre incidències de dicció i inici revisat. Cap muntatge fins a validar la nova veu.",
+    "voiceReviewUpdate": {
+      "at": "2026-11-27",
+      "file": "./assets/audio/s142-voices-review-v1.mp3",
+      "summary": {
+        "ca": "Presa original rebutjada: closca, bestiar (dues vegades) i acceptar. Nova gravació sencera amb Erinome en cua; inici Aquest mite grec explica que…",
+        "es": "Toma original rechazada: closca, bestiar (dos veces) y acceptar. Nueva grabación completa con Erinome en cola; inicio Aquest mite grec explica que…"
+      }
+    }
   }
 };

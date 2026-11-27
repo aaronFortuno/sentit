@@ -1,5 +1,11 @@
 # Control de pronunciació i reparacions locals
 
+## Retorn de tradició · 27/11/2026
+
+S142, amb Algenib, presenta «clusca» per *closca*, «bestiari» per *bestiar* en dos torns i «asseptar» per *acceptar*. El docent autoritza provar una altra veu: nova presa íntegra amb Erinome, començant «Aquest mite grec explica que…». Dicció només a les metadades: /ˈklɔskə/, final tònic de *bestiar* sense una i afegida i grup /ks/ a *acceptar*. Cap canvi de grafia al guió ni cap pronunciació donada per resolta abans de l’audició. [Registre exacte i muntatges](veus-i-muntatges-2026-11-27.md).
+
+S131 continua pendent de completar la presentació inicial de L46. L’inventari viu d’esmenes és [pla-esmenes-veu.md](pla-esmenes-veu.md); les seccions datades de sota conserven els retorns i propostes històrics.
+
 El docent valida les veus escoltant-les. Una transcripció automàtica pot reconstruir la paraula correcta encara que s'hagi pronunciat malament: no certifica la tonicitat, la geminació o la dicció. La validació del muntatge tampoc dona per corregides les incidències de veu.
 
 ## Incidències obertes · 20/11/2026

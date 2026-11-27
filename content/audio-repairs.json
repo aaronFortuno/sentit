@@ -904,5 +904,30 @@
     ],
     "application": "Dues seccions completes per comparar amb l’original. No aplicar-les ni muntar abans de la validació docent. Esperar un lot compatible de 6–8 minuts.",
     "approvedRequestHash": "347c590ad782e27d93f7475201ea8c004d1339e807c5f1a10618202481e3ddce"
+  },
+  "S131": {
+    "activity": "ca-S131",
+    "status": "approved-for-correction",
+    "approvedAt": "2026-11-27",
+    "approvalSource": "Docent 27/11: S131 encara incompleta; falta el fragment inicial ja identificat com introduction a L46. Completar-lo abans de muntar.",
+    "scope": "missing-title",
+    "sourceTakeId": "S131-T01",
+    "sourceRequestHash": "c83866d90107652b9335bbbe92d4d107b131e22468328cf5dbdd1e5c174a1d89",
+    "sourceRawSha256": "539614c56a4ebd078d5a8ff839e759081de7b5329124bd09c92b5bfa7b92f6dd",
+    "sourceTakeSha256": "6128156c5d32ee702ce8459f69a3536acc30383198a6ad8244f355652ae8c8a2",
+    "voices": {
+      "Narrador": "Algenib"
+    },
+    "direction": "Natural Central Catalan, warm stable Algenib narrator. Read the supplied complete introduction once, verbatim, no stage directions, extra words, breath performance, sound effects or music.",
+    "repairs": [
+      {
+        "part": "introduction",
+        "speaker": "Narrador",
+        "text": "Comprensió oral. La guineu i el corb. Una faula de la tradició d’Isop.",
+        "pronunciation": "Keep the entire beginning, complete title and source attribution. Do not omit the initial syllables or read any pause instructions."
+      }
+    ],
+    "application": "Presa nova només per audició; no substituir ni muntar abans de validar-ne la integritat i la dicció.",
+    "approvedRequestHash": "462ed6cfcaa0364734eda83394559a3352277535aebd43bb1eabac911f8b5644"
   }
 }

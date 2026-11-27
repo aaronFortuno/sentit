@@ -249,5 +249,72 @@
     "voiceApprovedAt": "2026-11-26",
     "approvedTakeSha256": "150e948d9d6bd552b1d95c71294d4ea6ff2cbb0e135ca023df81932770880210",
     "montage": "s070-mixed-v1.mp3"
+  },
+  "S142": {
+    "activity": "ca-S142",
+    "status": "approved-awaiting-compatible-batch",
+    "scope": "whole-recording",
+    "takeId": "S142-T02",
+    "approvedAt": "2026-11-27",
+    "approvalSource": "Docent 27/11: S142 rebutjada per clusca, bestiari en dos torns i asseptar. Autoritza provar una altra veu i canviar l’inici a Aquest mite grec explica que…",
+    "sourceTakeId": "S142-T01",
+    "sourceTakeSha256": "0b41da0c7fb5841f454b2aee4370c5c0d9ebfd91f9f605f555b281d1f9504b5c",
+    "sourceRequestHash": "ddad9f4b98af013f5a5d6acb74d921c8486339be0b1e7a1d6929add26315e1b2",
+    "sourceRawSha256": "353823b15880808efb45e0e480b1a9a75d26ae8fbd9da85cf94b954aa70e06f9",
+    "sourceEditorialFingerprint": "9fcf84c8b045cb5b0848d755e646e322ace87b21a98ce49193fa32b3e8810d45",
+    "originalEditorialFingerprint": "289dc4620077ae471d9e57830f64b5e3615e1079d348d168cbe8af55c7a40dbd",
+    "voices": {
+      "Narrador": "Erinome"
+    },
+    "parts": [
+      "introduction",
+      "invent",
+      "ramat",
+      "reclamacio",
+      "zeus",
+      "musica"
+    ],
+    "preservesOriginals": true,
+    "request": {
+      "model": "gemini-3.8-flash-tts",
+      "input": [
+        {
+          "type": "user_input",
+          "content": [
+            {
+              "type": "text",
+              "text": "Comprensió oral. Hermes i la lira. Un mite grec.\n\nAquest mite grec explica que el déu Hermes, fill de Zeus, acabava de néixer i ja caminava i parlava. A la cova on vivia amb la seva mare va construir un instrument amb una closca de tortuga i unes cordes tibades. Quan les tocava amb els dits, sonaven. Era una lira. Hermes la va deixar al costat del bressol i va sortir de la cova.\n\nAl vespre va trobar unes vaques del seu germà Apol·lo i se les va endur. Per confondre qui les busqués, les va fer caminar enrere sobre la sorra. Les marques de les potes semblaven indicar que anaven cap al lloc d’on, en realitat, s’allunyaven. Després les va amagar en un estable i va tornar al bressol.\n\nQuan Apol·lo va descobrir que li faltaven vaques, va començar a buscar-les. Va examinar les petjades i finalment va arribar a la cova d’Hermes. El petit déu es va arraulir entre les mantes. Apol·lo li va exigir que li digués on era el bestiar. Hermes va respondre que ell era un nadó, que tenia els peus molt petits i que gairebé no sabia què era una vaca.\n\nApol·lo el va portar davant de Zeus, el pare de tots dos, perquè resolgués la disputa. Hermes s’havia endut la lira i va continuar negant el robatori. Zeus va riure en sentir les excuses del seu fill, però li va ordenar que acompanyés Apol·lo i li mostrés on havia amagat les vaques. Tots dos van anar fins a l’estable i van trobar-hi el bestiar.\n\nApol·lo encara estava enfadat pel robatori. Hermes va agafar la lira i es va posar a tocar i a cantar. Apol·lo es va acostar per veure com feia sonar les cordes. No havia sentit mai aquell instrument. «Me n’ensenyaràs?», li va preguntar. Hermes va deixar de tocar. «Et puc donar aquesta lira. I tu em podries deixar les vaques a mi, per cuidar-les.» Apol·lo va mirar l’instrument i va acceptar la proposta. Hermes li va posar la lira a les mans. Apol·lo en va provar les cordes, primer d’una en una i després totes seguides. Mentrestant, Hermes va anar a reunir les vaques per dur-les a pasturar.",
+              "annotations": [
+                {
+                  "type": "speech_metadata",
+                  "style": "Read the supplied text exactly once, verbatim, in natural Central Catalan. Keep all words and all turns. Clean studio recording, dry and close-miked. No added words, no repetitions, no nonverbal vocalizations, no music or room sounds. Use a natural clear pace, not digitally slowed speech. Natural Central Catalan, clear complete consonants. Narració anònima en català central amb Erinome: propera, clara i expressiva, amb una sola identitat vocal durant tot el relat. Ritme natural, sense to de noticiari ni imitacions de nadó o dels déus. Pronunciar closca amb o tònica oberta, bestiar sense afegir-hi una i final i acceptar amb el grup consonàntic ks. Llegir exactament el text, sense acotacions, sorolls ni etiquetes de pausa. Read the title and complete programme verbatim. Leave a brief quiet boundary after the title, without speaking any stage directions or pause instructions. No added sounds, music, words or vocalizations. Pronunciation only, never spoken instructions: closca has stressed open O, /ˈklɔskə/, not U. Bestiar ends with the stressed A sound, /bəsˈtja/, with no extra final i or ri; never replace it with bestiari. In acceptar, retain the /ks/ consonant group, /əksəpˈta/, rather than asseptar. Keep one stable Erinome narrator throughout. Read the exact supplied words, including the exact Catalan opening Aquest mite grec explica que; do not translate, omit or add anything."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "response_format": {
+        "type": "audio",
+        "mime_type": "audio/wav",
+        "sample_rate": 24000
+      },
+      "generation_config": {
+        "speech_config": [
+          {
+            "voice": "Erinome"
+          }
+        ]
+      }
+    },
+    "approvedRequestHash": "255408be8a38be5f7d534fecf7f40b39a9c99b482700f09bf6e64762c59c2987",
+    "forecast": {
+      "words": 368,
+      "longPauses": 0,
+      "shortPauses": 0,
+      "seconds": 134
+    },
+    "montageAllowed": false,
+    "application": "Escoltar la presa completa nova abans de fer cap muntatge. Conservar T01 sense reutilitzar-ne fragments amb una identitat vocal diferent."
   }
 }

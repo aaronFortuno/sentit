@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.135 · 27 de novembre de 2026
+
+- S133, S134, S136, S138, S139, S140 i S141: veus validades pel docent i muntatges per escoltar, amb música de biblioteca aprovada, base contínua discreta i fosa final. Pistes de títol/relat separades; cap síntesi nova ni publicació definitiva anticipada.
+- S131: omissió de la presentació confirmada, esmena completa amb Algenib en cua. S142: quatre incidències de pronunciació registrades i nova presa íntegra preparada amb Erinome, començant «Aquest mite grec explica que…». Revisió independent del canvi i dels dos formats de pregunta; enviament pendent d’un lot compatible de 6–8 minuts.
+- Manifests dels vuit muntatges definitivament aprovats a la versió anterior sincronitzats amb aquella validació, sense modificar MP3. Seguiment, fonts i repertoris actualitzats.
+
 ## 0.1.134 · 27 de novembre de 2026
 
 - Vuit publicacions definitives validades pel docent: S070, S095, S122, S128, S129, S130, S132 i S137. Els muntatges i les pistes modulars aprovades es conserven exactament, sense síntesi ni remuntatge.

@@ -3,6 +3,9 @@ import { item as q, d, s, e } from '../equilibri/proposal.js';
 
 export const mythExpansionDrafts = [
   cultural({ code:'S139', id:'el-rei-mides', title:'El rei Mides', grade:'5', level:'middle', universeIds:['mites-antiguitat'],
+    seconds: 106, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s139-mixed-v1.mp3', tracks: { introduction: './assets/audio/s139-mixed-v1-intro.mp3', body: './assets/audio/s139-mixed-v1-cos.mp3' },
+    fragment: { start: 5.19, seconds: 100 },
     introduction:'Comprensió oral. El rei Mides. Un mite de l’antiguitat.',
     summary:'Un rei rep un regal extraordinari i aviat descobreix que li capgira la vida al palau.',
     context:'Escoltaràs l’adaptació d’un mite de l’antiguitat. Segueix què desitja el protagonista i com canvia la seva situació al llarg del relat.',
@@ -26,6 +29,9 @@ export const mythExpansionDrafts = [
       q('pa','Què demostra el tros de pa que Mides menja al final?','Que ja pot tocar coses sense convertir-les en or.',['Que ja pot tocar coses sense convertir-les en or.','Que el seu poder ara només transforma les pedres.','Que ha après a menjar aliments fets d’or.','Que els servents han amagat l’or dins del pa.'],'a','El pa conserva la seva forma comestible després del bany.',[e('riu','El poder va abandonar el seu cos'),e('riu','va agafar un tros de pa. Aquesta vegada el va poder menjar')],2)
     ]}),
   cultural({ code:'S140', id:'dedal-i-icar', title:'Dèdal i Ícar', grade:'5', level:'middle', universeIds:['mites-antiguitat'],
+    seconds: 105, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s140-mixed-v1.mp3', tracks: { introduction: './assets/audio/s140-mixed-v1-intro.mp3', body: './assets/audio/s140-mixed-v1-cos.mp3' },
+    fragment: { start: 5.550000000000001, seconds: 99 },
     introduction:'Comprensió oral. Dèdal i Ícar. Un mite grec.',
     summary:'Un inventor prepara una fugida extraordinària de l’illa on viu amb el seu fill.',
     context:'Escoltaràs un mite grec sobre un pare i un fill. Fixa’t en els preparatius del viatge i en les decisions que prenen quan ja han començat.',
@@ -49,6 +55,9 @@ export const mythExpansionDrafts = [
       q('pista','Què veu Dèdal sobre l’aigua que el fa baixar a buscar Ícar?','Les plomes de les ales.',['Les plomes de les ales.','El fil que sortia de la costa.','Una branca que Ícar havia deixat caure.','Les eines amb què havia fet les ales.'],'a','Les plomes flotants són la pista que troba mentre el busca.',[e('caiguda','En veure les plomes sobre l’aigua, va baixar a buscar-lo')])
     ]}),
   cultural({ code:'S141', id:'demeter-i-persefone', title:'Demèter i Persèfone', grade:'6', level:'advanced', universeIds:['mites-antiguitat'],
+    seconds: 101, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s141-mixed-v1.mp3', tracks: { introduction: './assets/audio/s141-mixed-v1-intro.mp3', body: './assets/audio/s141-mixed-v1-cos.mp3' },
+    fragment: { start: 5.115, seconds: 95 },
     introduction:'Comprensió oral. Demèter i Persèfone. Un mite grec.',
     summary:'La desaparició de Persèfone porta la seva mare a una recerca que acaba afectant tota la terra.',
     context:'Escoltaràs un mite grec en què participen diversos déus. El relat presenta qui és cadascú. Segueix la recerca de la mare i els canvis que provoca.',
@@ -72,6 +81,8 @@ export const mythExpansionDrafts = [
       q('acord','Com es reparteix el temps de Persèfone a partir de l’acord final?','Passa una part de cada any sota terra i la resta amb la mare.',['Una part de cada any sota terra i la resta amb la mare.','Tot l’any sota terra, amb visites de la mare.','Tot l’any amb la mare, sense tornar al regne d’Hades.','Una part amb el Sol i la resta amb Hermes.'],'a','La versió escoltada estableix períodes sense indicar-ne els mesos.',[e('retorn','passaria una part de cada any sota terra i la resta amb Demèter')],2)
     ]}),
   cultural({ code:'S142', id:'hermes-i-la-lira', title:'Hermes i la lira', grade:'6', level:'middle', universeIds:['mites-antiguitat'],
+    voices:{Narrador:'Erinome'},
+    delivery:'Narració anònima en català central amb Erinome: propera, clara i expressiva, amb una sola identitat vocal durant tot el relat. Ritme natural, sense to de noticiari ni imitacions de nadó o dels déus. Pronunciar closca amb o tònica oberta, bestiar sense afegir-hi una i final i acceptar amb el grup consonàntic ks. Llegir exactament el text, sense acotacions, sorolls ni etiquetes de pausa.',
     introduction:'Comprensió oral. Hermes i la lira. Un mite grec.',
     summary:'Un déu molt jove inventa un instrument i provoca una disputa amb el seu germà.',
     context:'Escoltaràs un mite grec amb una disputa entre dos germans. Fixa’t en què sap cadascun i en com evoluciona la seva relació.',
@@ -79,7 +90,7 @@ export const mythExpansionDrafts = [
     factualSources:[{label:'Himne homèric a Hermes, 17–61, 68–94, 138–153, 182–396 i 414–502: invenció de la lira abans del robatori, petjades invertides, reclamació d’Apol·lo, ordre de Zeus i intercanvi. Traducció de H. G. Evelyn-White (1914), a Theoi; argument antic reescrit en català original.',url:'https://www.theoi.com/Text/HomericHymns2.html'}],
     illustrationBrief:'Entrada d’una cova grega amb un bressol a l’ombra i dos déus de diferents edats. Sense lira, vaques, petjades ni objectes d’un intercanvi.',
     transcript:[d('Adaptació original de l’Himne homèric a Hermes. Es conserva el nadó diví extraordinàriament actiu, la lira construïda abans de robar les vaques i el bestiar fet caminar enrere, segons la lectura de la nota 14 de l’edició consultada. S’ometen mort de la tortuga, sacrifici de dues vaques, nombres del ramat, vell testimoni, sandàlies, profecia i juraments finals. La localització de les vaques es condensa després de l’ordre de Zeus. L’intercanvi de lira per bestiar tanca l’episodi; la definició oral de l’instrument és una ajuda de l’adaptació. Els passos i el plany són narrats sense imitacions sonores.'),
-      s('invent','Narrador','Un mite grec explica que el déu Hermes, fill de Zeus, acabava de néixer i ja caminava i parlava. A la cova on vivia amb la seva mare va construir un instrument amb una closca de tortuga i unes cordes tibades. Quan les tocava amb els dits, sonaven. Era una lira. Hermes la va deixar al costat del bressol i va sortir de la cova.'),
+      s('invent','Narrador','Aquest mite grec explica que el déu Hermes, fill de Zeus, acabava de néixer i ja caminava i parlava. A la cova on vivia amb la seva mare va construir un instrument amb una closca de tortuga i unes cordes tibades. Quan les tocava amb els dits, sonaven. Era una lira. Hermes la va deixar al costat del bressol i va sortir de la cova.'),
       s('ramat','Narrador','Al vespre va trobar unes vaques del seu germà Apol·lo i se les va endur. Per confondre qui les busqués, les va fer caminar enrere sobre la sorra. Les marques de les potes semblaven indicar que anaven cap al lloc d’on, en realitat, s’allunyaven. Després les va amagar en un estable i va tornar al bressol.'),
       s('reclamacio','Narrador','Quan Apol·lo va descobrir que li faltaven vaques, va començar a buscar-les. Va examinar les petjades i finalment va arribar a la cova d’Hermes. El petit déu es va arraulir entre les mantes. Apol·lo li va exigir que li digués on era el bestiar. Hermes va respondre que ell era un nadó, que tenia els peus molt petits i que gairebé no sabia què era una vaca.'),
       s('zeus','Narrador','Apol·lo el va portar davant de Zeus, el pare de tots dos, perquè resolgués la disputa. Hermes s’havia endut la lira i va continuar negant el robatori. Zeus va riure en sentir les excuses del seu fill, però li va ordenar que acompanyés Apol·lo i li mostrés on havia amagat les vaques. Tots dos van anar fins a l’estable i van trobar-hi el bestiar.'),

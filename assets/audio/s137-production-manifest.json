@@ -1,7 +1,7 @@
 {
   "code": "S137",
   "activity": "ca-S137",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s137-mixed-v1.mp3",
   "introFile": "s137-mixed-v1-intro.mp3",
   "bodyFile": "s137-mixed-v1-cos.mp3",
@@ -57,7 +57,7 @@
         "fadeStart": 90.09000000000005,
         "fadeEnd": 91.24000000000005
       },
-      "listeningValidation": "pending",
+      "listeningValidation": "approved",
       "start": 0
     }
   ],
@@ -84,5 +84,13 @@
     "sourceTakeSha256": "3dbe187bde53dc3bc9a4c7f9a4d562ec1de3c084771256614712b0b326daafcf",
     "sourceBatch": "L45",
     "confirmation": "Docent 26/11: poden pujar a muntatge S132 i S137."
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-27",
+    "validatedBy": "docent",
+    "confirmation": "Els 8 muntatges finals que teníem pendents de revisió queden validats per publicació definitiva",
+    "audioSha256": "b2b35b1bc2793f33c755093acb711dc45ac6384f6db3d2d692090801eaadd0ef",
+    "editorialFingerprint": "2791e97551365f6700a6d7c74616330b3b6ec5dd2d4f63e5cccd91a362d0df3a",
+    "listeningApproval": true
   }
 }

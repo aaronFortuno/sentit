@@ -12,23 +12,15 @@ Actualitzat: **27/11/2026**. Aquest document mostra només la feina pendent d’
 | --- | --- | --- | ---: | --- |
 | L04 | S005: Aquest matí, per exemple, he apartat un sobre per revisar-lo abans de sortir.; S015: Per això es controla la il·luminació i també les condicions de temperatura i humitat. | Vindemiatrix + Kore | 0:22 | Completar amb material del mateix repartiment; S015: conciliar el registre editorial històric abans de preparar l’esmena |
 
-## Veus rebudes · per escoltar abans del muntatge
-
-Les preses originals es conserven i la cobertura s’ha comprovat localment. La pronunciació i la identitat de les veus continuen pendents d’audició; encara no són muntatges finals.
-
-| Peça | Presa |
-| --- | --- |
-| [ca-S131](https://sentit.ortogra.fi/#lectura=ca-S131) | [Escolta les veus](../proves/veus-rebudes.html#S131) |
-| [ca-S133](https://sentit.ortogra.fi/#lectura=ca-S133) | [Escolta les veus](../proves/veus-rebudes.html#S133) |
-| [ca-S134](https://sentit.ortogra.fi/#lectura=ca-S134) | [Escolta les veus](../proves/veus-rebudes.html#S134) |
-| [ca-S136](https://sentit.ortogra.fi/#lectura=ca-S136) | [Escolta les veus](../proves/veus-rebudes.html#S136) |
-| [ca-S138](https://sentit.ortogra.fi/#lectura=ca-S138) | [Escolta les veus](../proves/veus-rebudes.html#S138) |
-| [ca-S139](https://sentit.ortogra.fi/#lectura=ca-S139) | [Escolta les veus](../proves/veus-rebudes.html#S139) |
-| [ca-S140](https://sentit.ortogra.fi/#lectura=ca-S140) | [Escolta les veus](../proves/veus-rebudes.html#S140) |
-| [ca-S141](https://sentit.ortogra.fi/#lectura=ca-S141) | [Escolta les veus](../proves/veus-rebudes.html#S141) |
-| [ca-S142](https://sentit.ortogra.fi/#lectura=ca-S142) | [Escolta les veus](../proves/veus-rebudes.html#S142) |
-
 Les previsions provenen dels guions i del calibratge local; cal recalcular-les amb el format definitiu abans d’enviar. Una mateixa veu en dos guions no implica el mateix personatge. No es canvien repartiments ni s’allarguen guions per omplir un lot.
+
+## Preses completes per regenerar
+
+No repetir-les com a esmenes separades. Esperen completar una petició compatible de sis a vuit minuts.
+
+| Peça | Presa | Repartiment | Pla |
+| --- | --- | --- | --- |
+| [S142](https://sentit.ortogra.fi/#lectura=ca-S142) | S142-T02 | Narrador / Erinome | [Regeneració completa](../content/full-voice-retakes.json) |
 
 ## Agrupacions candidates · validació i preparació pendents
 

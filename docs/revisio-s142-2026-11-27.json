@@ -1,0 +1,56 @@
+{
+  "reviewer": "revisio_publicacio_vuit_20261127-independent",
+  "reviewedAt": "2026-11-27",
+  "status": "passed",
+  "fingerprint": "9fcf84c8b045cb5b0848d755e646e322ace87b21a98ce49193fa32b3e8810d45",
+  "notes": [
+    "Revisió independent acotada segons AGENTS.md i revisio-coherencia-didactica. Cap bloqueig de la preparació.",
+    "Canvi parlat contrastat amb S142-T01: únicament «Un mite grec explica que…» passa a «Aquest mite grec explica que…». Introducció completa i resta de parts conservades exactament. Entrada natural que identifica la convenció mítica; causalitat, referents i desenvolupament coherents.",
+    "Revisades 7 preguntes obertes i 7 alternatives ABCD, claus, explicacions i 12 cites. Una sola resposta defensable per ítem; distractors incompatibles amb el relat. El nou inici no altera cap resposta o ancoratge.",
+    "Context amb Sentit sense canvis: presenta la disputa entre germans i orienta l’escolta sense revelar invenció, robatori, engany, ordre de Zeus ni intercanvi. Correspon renovar l’empremta del text font.",
+    "packedProposalRequest i loadFullRetake comprovats localment: S142-T02 cobreix introduction, invent, ramat, reclamacio, zeus i musica en ordre i una vegada. Parla exactament canònica, sense instruccions, acotacions o etiquetes de pausa. Dicció de closca, bestiar i acceptar exclusivament a speech_metadata.style.",
+    "Una única veu Erinome assignada al Narrador anònim durant tota la nova presa, sense atribució a la Mar o al noticiari. Petició congelada 255408be8a38be5f7d534fecf7f40b39a9c99b482700f09bf6e64762c59c2987. Previsió reproduïda: 368 mots, 134 segons. El control rebutja l’enviament individual; espera un lot compatible de 6–8 minuts.",
+    "S131: missing-title prepara literalment «Comprensió oral. La guineu i el corb. Una faula de la tradició d’Isop.», amb Algenib. repairRequest coincideix amb l’empremta aprovada 462ed6cfcaa0364734eda83394559a3352277535aebd43bb1eabac911f8b5644. Presentació incompleta i audició de l’esmena pendents abans de muntar.",
+    "Preses S131-T01 i S142-T01, intro/cos, raw.wav, provider-wave.wav i peticions JSON originals contrastats amb les empremtes locals, sense canvis. S142-T02 encara no consta rebuda.",
+    "S131 i S142 mantenen audio null, reviewStatus pending, listeningApproval false i audio-corrections-pending. S142 conserva voiceApproval rejected i montageAllowed false a la nova presa; S131 conserva voiceApproval incomplete. Cap veu o pronunciació donada per validada ni peça finalitzada; l’audició docent continua pendent.",
+    "Cap xarxa, TTS, canvi de codi o altre registre. Només s’ha escrit aquest informe."
+  ],
+  "choiceReviews": [
+    {
+      "questionId": "ordre",
+      "status": "passed",
+      "fingerprint": "809018f8ca4a192dd06bcdcf75888dab8f9f08cb63d12c2a4264279158030071"
+    },
+    {
+      "questionId": "petjades",
+      "status": "passed",
+      "fingerprint": "caec9491758ecf8bc8fda94828644f2f40da605a338f13751bc57fc7cdb60a20"
+    },
+    {
+      "questionId": "excusa",
+      "status": "passed",
+      "fingerprint": "974ef0c17ad9c9f5d46aace9215ee37f2c27dc1fdefbb62863d48fe46c2e8a12"
+    },
+    {
+      "questionId": "pare",
+      "status": "passed",
+      "fingerprint": "2034b6bec2544aeeb2e998f44a58f5ed6241c4ac3585be420579f704b0ca77f7"
+    },
+    {
+      "questionId": "ordre-zeus",
+      "status": "passed",
+      "fingerprint": "ffae6b9561853738acccdb93190ddf5306fe780e7abbfe1d0b8590701ea81820"
+    },
+    {
+      "questionId": "canvi",
+      "status": "passed",
+      "fingerprint": "fc61b0ff71984dca76416a27d6b51e42143219f284b4ae7d4ec2d7b1cb60880c"
+    },
+    {
+      "questionId": "intercanvi",
+      "status": "passed",
+      "fingerprint": "d899715dfdd94b57e5acc206384ce5970a73e204066870d1db39e85d8fadf7a3"
+    }
+  ],
+  "contextSourceSha256": "27449777622e5237963099c45b5c92b1644d04a6ecc86d386836e3ca0411a7cf"
+}

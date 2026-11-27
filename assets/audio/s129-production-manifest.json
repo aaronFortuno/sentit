@@ -1,7 +1,7 @@
 {
   "code": "S129",
   "activity": "ca-S129",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s129-mixed-v1.mp3",
   "introFile": "s129-mixed-v1-intro.mp3",
   "bodyFile": "s129-mixed-v1-cos.mp3",
@@ -57,7 +57,7 @@
         "fadeStart": 86.33000833333338,
         "fadeEnd": 87.48000833333339
       },
-      "listeningValidation": "pending",
+      "listeningValidation": "approved",
       "start": 0
     }
   ],
@@ -84,5 +84,13 @@
     "sourceTakeSha256": "4d0bc68d21083c74ff8adc1d7556baceec9127b0326e592da72197ef2130b608",
     "sourceBatch": "L41",
     "confirmation": "Docent 26/11: validat per passar a muntatge S129, S130, S122, S070 i S128, amb el criteri de música de fons ja definit."
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-27",
+    "validatedBy": "docent",
+    "confirmation": "Els 8 muntatges finals que teníem pendents de revisió queden validats per publicació definitiva",
+    "audioSha256": "6f0c4b43da31ede9cb24d6fb6d4debc957dd2bcb58ee74b8ec6207735df59e6a",
+    "editorialFingerprint": "6e5d0cabe4050ad48daad2590b45e6d4b0c78b76fa107b6a01d77d03f68cffe9",
+    "listeningApproval": true
   }
 }

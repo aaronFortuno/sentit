@@ -3206,8 +3206,8 @@
   },
   "S142": {
     "status": "approved",
-    "approvedFingerprint": "043ec54fb15179fa53bc8afc8b0af12f9044a8994cffcb092424610c97efbc7f",
-    "reviewedAt": "2026-11-26",
+    "approvedFingerprint": "0693d12693ddc0d90ff85922bec4ac66ea7601198f39c700b86bad1fd279e563",
+    "reviewedAt": "2026-11-27",
     "reviewActivity": "ca-S142",
     "reviewContent": "content/propostes/tradicio/mites-20261126.js",
     "format": "6è intermèdia, pendent de calibratge oral: invenció, robatori, engany, intervenció i intercanvi. Tres noms principals. Set preguntes duals; cal relacionar el comportament d’Hermes amb allò que ja sap qui escolta.",
@@ -3217,15 +3217,15 @@
     ],
     "plannedNewRequests": 1,
     "requiredVoices": {
-      "Narrador": "Algenib"
+      "Narrador": "Erinome"
     },
     "strategy": "plain-v1",
     "ending": "Es conserva la cua completa i s’afegeixen els marges indicats a l’escaleta; cap síntesi abans de validar la proposta.",
-    "approvalSource": "Docent 26/11: S133 i S142 validats per síntesi, després de les esmenes revisades. Autorització vigent de lots compatibles de 6–8 minuts, seqüencials.",
+    "approvalSource": "Docent 27/11: S142 rebutjada per clusca, bestiari en dos torns i asseptar. Autoritza provar una altra veu i canviar l’inici a Aquest mite grec explica que…",
     "voiceSelection": {
       "speaker": "Narrador",
-      "voice": "Algenib",
-      "reason": "Narrador anònim, veu flexible fixada per al lot; sense atribució al personatge Ferran."
+      "voice": "Erinome",
+      "reason": "Nova presa íntegra amb una altra veu per les quatre incidències de dicció notificades; narradora anònima propera, sense paper de la Mar ni estil de noticiari."
     }
   }
 }

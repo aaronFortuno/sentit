@@ -1,0 +1,88 @@
+{
+  "code": "S136",
+  "activity": "ca-S136",
+  "state": "awaiting-montage-validation",
+  "file": "s136-mixed-v1.mp3",
+  "introFile": "s136-mixed-v1-intro.mp3",
+  "bodyFile": "s136-mixed-v1-cos.mp3",
+  "offset": 6.180000000000001,
+  "bodyDuration": 96.13766666666666,
+  "fullDuration": 102.31766666666667,
+  "voices": {
+    "Narrador": "Algenib"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "3402b7ae874c38c102c2e3bba9f629c25b1b9d6aaa1fe835d901041f4c06dd90",
+  "sourceRequestHash": "4336badb9c5a40de1d8141b732fffd0448067e452fc4ce27a3392ee1992aabb4",
+  "batch": "L45",
+  "rawSha256": "40b09c86c189a3ac4034621bc21308fe06e3966a5377e8d88a5bb29fa720bcb8",
+  "takeSha256": "dd19d5bbc73665ac79f84c41ce9f9103a6f6322011a525b714d77d4f134e22de",
+  "coverage": 0.9444444444444444,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.43,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "licensed-narration-bed",
+      "origin": "licensed-library-music",
+      "compositionId": "incompetech-USUAN1200110",
+      "libraryId": "L3",
+      "title": "Angevin",
+      "author": "Kevin MacLeod",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200110",
+      "sourceSha256": "425f5febc62aee69761f16eae09158c35fd922a72c0fe8165af51c3a1f8818bf",
+      "sourceNotDistributedSeparately": true,
+      "sourceStart": 6,
+      "sourceSeconds": 274.5551041666667,
+      "loopCopies": 1,
+      "crossfadeSeconds": 0,
+      "retimed": false,
+      "underSpeech": true,
+      "sha256": "ede90d96f1924fa9db460b41a7f75b5817d89d9e261a14b7e39fd0e3fb93eab6",
+      "envelope": {
+        "fadeInSeconds": 0.6,
+        "duckStart": 0.3,
+        "duckEnd": 1.05,
+        "speechGain": 0.1,
+        "nominalSpeechMusicLufs": -43,
+        "riseStart": 91.87,
+        "riseEnd": 92.67000000000002,
+        "holdSeconds": 2,
+        "fadeStart": 94.67000000000002,
+        "fadeEnd": 95.82000000000002
+      },
+      "listeningValidation": "pending",
+      "start": 0
+    }
+  ],
+  "sha256": "d8a5f59ecf7c6db4ab49ef71aa18cdd94a60a0e1ae9a04d911f544b8a1414b07",
+  "voiceHandles": {
+    "body": {
+      "start": 0.25,
+      "end": 90.825,
+      "retainedPcmSha256": "6a8d637b90c007615d609586aa9ed308fac961d79f785b5cd9dce98aca3e05d3",
+      "sourceSha256": "f41c148e190d2cb26b8c586b617e863d267c7abd19552977e2439bc616f56149",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.055,
+      "end": 5.285,
+      "retainedPcmSha256": "7f210b7633f98c6c6b07345f25e0109610e1b580aa69a53e7a5c1cc2e49b9e9a",
+      "sourceSha256": "5b54d2c0d1654834300920971ecacfa5561d4bbf74454aaab68cbb7ffd86515c",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-27",
+    "sourceTakeSha256": "dd19d5bbc73665ac79f84c41ce9f9103a6f6322011a525b714d77d4f134e22de",
+    "sourceBatch": "L45",
+    "confirmation": "Docent 27/11: totes les veus rebudes pendents de revisió validades per muntatge, excepte S131 i S142."
+  }
+}

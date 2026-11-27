@@ -1,5 +1,7 @@
 # Sentit
 
+**Muntatges del 27/11:** [set peces de tradició per escoltar](docs/veus-i-muntatges-2026-11-27.md), S133, S134, S136, S138, S139, S140 i S141, amb veus validades i música de biblioteca. S131 espera completar la presentació i S142 té una nova presa íntegra preparada amb Erinome; no s’ha enviat cap petició petita ni fet cap publicació definitiva d’aquestes peces.
+
 **Publicació del 27/11:** [vuit muntatges definitius](docs/publicacio-2026-11-27-vuit.md): S070, S095, S122, S128, S129, S130, S132 i S137. Primeres faules, llegendes i mite disponibles, amb il·lustracions i imprimibles nets. Pistes aprovades intactes, sense síntesi nova.
 
 **Seguiment d’ús i difusió:** [guia d’estadístiques d’Umami](docs/estadistiques.md): lectures i universos més consultats, intenció d’impressió, sessions d’escolta, col·leccions i canals coneguts. Dades de publicats i provisionals separades, sense textos privats.
@@ -26,7 +28,7 @@ Banc de comprensió oral d’ortogra.fi. El docent tria una activitat, prepara l
 
 **Pilots de tradició definitius:** [S128–S130](docs/pilots-tradicio.md), una faula de 3r, una llegenda de 4t i un mite grec de 5è. Fonts i decisions d’adaptació explícites, 18 preguntes duals i revisió adversària superada. Muntatges amb F1/L1/M1 validats i publicats el 27/11. Veus rebudes a L41, juntament amb la nova presa íntegra de S070, també definitiva.
 
-**Ampliació de tradició:** [S131–S142](docs/ampliacio-tradicio-2026-11-26.md), quatre faules, quatre llegendes i quatre mites, amb 75 preguntes duals, fonts i revisió creuada. Els dotze guions estan validats i les dotze preses rebudes a L45–L47. S132/S137 són definitives des del 27/11; S135 espera dues esmenes i la resta de veus, revisió docent. El títol de S131 continua parcial.
+**Ampliació de tradició:** [S131–S142](docs/ampliacio-tradicio-2026-11-26.md), quatre faules, quatre llegendes i quatre mites, amb 75 preguntes duals, fonts i revisió creuada. S132/S137 definitives; S133/S134/S136/S138/S139/S140/S141 amb veus validades i muntatge per escoltar. S135 espera dues esmenes; S131, el títol complet; S142, una presa íntegra amb Erinome per quatre problemes de pronunciació.
 
 **Muntatges amb esmenes validades:** [S109, S088, S081 i S090](docs/muntatges-esmenes-2026-11-26.md), amb veus ja aprovades i pendents d’audició final. S017 conserva les veus originals. Les proves bones de S010 i S102 es guarden mentre es repeteixen només els torns encara incorrectes.
 

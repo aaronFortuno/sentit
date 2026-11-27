@@ -1,5 +1,6 @@
 export const strings = {
   ca: {
+    releaseSevenTraditionMontages: 'Set muntatges nous per escoltar: S133, S134, S136, S138, S139, S140 i S141, amb veus validades i músiques de biblioteca alternades. S131 espera la presentació completa; S142, una nova presa íntegra amb Erinome i inici revisat. Incidències visibles i cap síntesi enviada. Manifests de les vuit definitives anteriors sincronitzats.',
     releaseEightFinalMontages: 'Vuit definitives: S070, S095, S122, S128, S129, S130, S132 i S137. Muntatges aprovats intactes, set il·lustracions noves i solucionaris nets revisats. Primeres faules, llegendes i mite disponibles, amb fonts i preguntes obertes/ABCD. Seguiment i arxiu local de proves actualitzats.',
     releaseUniverseSimplification: 'Universos simplificats: les passejades passen a Situacions quotidianes i Històries amb sentit al fil de l’Aina i l’avi Ferran. De dotze grups a deu, amb les categories buides ocultes i els recomptes combinats amb els altres filtres. Guions, àudios i col·leccions conservats.',
     releaseTranscriptOrder: "Transcripció abans o després de les preguntes al solucionari, amb tria desada per lectura i col·lecció. Peu CC BY 4.0 centrat a totes les pàgines. Format ABCD del full sincronitzat amb el selector i els avisos de pregunta. Flexibilitat futura de capçalera, peu i QR documentada.",
@@ -370,6 +371,7 @@ export const strings = {
     sessionEnded: 'Sessió acabada', remainingTime: 'Temps restant',
   },
   es: {
+    releaseSevenTraditionMontages: 'Siete montajes nuevos para escuchar: S133, S134, S136, S138, S139, S140 y S141, con voces validadas y músicas de biblioteca alternadas. S131 espera la presentación completa; S142, una nueva toma íntegra con Erinome e inicio revisado. Incidencias visibles y ninguna síntesis enviada. Manifiestos de las ocho definitivas anteriores sincronizados.',
     releaseEightFinalMontages: 'Ocho definitivas: S070, S095, S122, S128, S129, S130, S132 y S137. Montajes aprobados intactos, siete ilustraciones nuevas y solucionarios limpios revisados. Primeras fábulas, leyendas y mito disponibles, con fuentes y preguntas abiertas/ABCD. Seguimiento y archivo local de pruebas actualizados.',
     releaseUniverseSimplification: 'Universos simplificados: los paseos pasan a Situaciones cotidianas e Historias con sentido al hilo de Aina y su abuelo Ferran. De doce grupos a diez, con las categorías vacías ocultas y los recuentos combinados con los demás filtros. Guiones, audios y colecciones conservados.',
     releaseTranscriptOrder: "Transcripción antes o después de las preguntas en el solucionario, con preferencia por lectura y colección. Pie CC BY 4.0 centrado en todas las páginas. Formato ABCD del documento sincronizado con el selector y los avisos de preguntas. Flexibilidad futura de cabecera, pie y QR documentada.",

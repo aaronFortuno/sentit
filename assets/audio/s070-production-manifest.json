@@ -1,7 +1,7 @@
 {
   "code": "S070",
   "activity": "ca-S070",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s070-mixed-v1.mp3",
   "introFile": "s070-mixed-v1-intro.mp3",
   "bodyFile": "s070-mixed-v1-cos.mp3",
@@ -54,7 +54,7 @@
         "fadeStart": 102.26001666666667,
         "fadeEnd": 104.26001666666667
       },
-      "listeningValidation": "pending",
+      "listeningValidation": "approved",
       "start": 0,
       "underSpeech": true
     }
@@ -94,5 +94,13 @@
       "confirmation": "Docent 26/11: validat per passar a muntatge S129, S130, S122, S070 i S128, amb el criteri de música de fons ja definit."
     },
     "previousTakePreserved": true
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-27",
+    "validatedBy": "docent",
+    "confirmation": "Els 8 muntatges finals que teníem pendents de revisió queden validats per publicació definitiva",
+    "audioSha256": "48133be44ef6ee07d35358005623c8c7daf451a99614b1c33f13014021fb1260",
+    "editorialFingerprint": "aed960b198858baf79739a5960c80c49599921b18c1ca8f9fcac1e06d5efa1a8",
+    "listeningApproval": true
   }
 }

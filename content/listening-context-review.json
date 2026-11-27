@@ -1,9 +1,9 @@
 {
   "schema": 1,
   "status": "passed",
-  "reviewedAt": "2026-11-26",
+  "reviewedAt": "2026-11-27",
   "reviewer": "revisio_contextos_previs",
-  "scope": "90 contextos impresos revisats independentment. S045D incorporada i contextos S079/S081 revalidats després dels comiats demanats pel docent. Sense canvis d’aprovacions d’àudio. S029 revalidada el 23/11 després de recuperar la presentació i retirar la ubicació del context previ. S068D i S071D incorporades amb revisió independent el 23/11; correspondència de S068 revalidada després de variar-ne l’inici. Ampliació independent: ca-S083, ca-S084, ca-S085, ca-S086 (revisio_tancament_s027). Ampliació independent: ca-S087, ca-S088, ca-S089, ca-S090, ca-S091 (revisio_tancament_s027). Ampliació independent: ca-S084, ca-S086 (revisio_tancament_s027). Ampliació independent: ca-S092, ca-S093, ca-S094, ca-S095, ca-S096, ca-S097 (revisio_tancament_s027). Ampliació independent: ca-S098, ca-S099, ca-S100, ca-S101, ca-S102, ca-S103 (auditoria_registre_pendents). Ampliació independent: ca-S104, ca-S105, ca-S106, ca-S107 (revisio_tancament_s027). Ampliació independent: ca-S108, ca-S109, ca-S110, ca-S111 (auditoria_registre_pendents). Ampliació independent: ca-S092, ca-S093, ca-S095 (revisio_tancament_s027). Ampliació del 25/11: S112–S127 amb doble format i contextos revisats per /root/abcd_author_002, /root/abcd_author_003, /root/abcd_author_004. Pilots S128–S130 i retolació S125: revisió independent del 25/11. S131–S142: revisió creuada independent de guions, contextos, doble format i fonts del 26/11. Esmenes de S133/S142 i adaptació de S095 a dos empleats: revisió independent del 26/11.",
+  "scope": "90 contextos impresos revisats independentment. S045D incorporada i contextos S079/S081 revalidats després dels comiats demanats pel docent. Sense canvis d’aprovacions d’àudio. S029 revalidada el 23/11 després de recuperar la presentació i retirar la ubicació del context previ. S068D i S071D incorporades amb revisió independent el 23/11; correspondència de S068 revalidada després de variar-ne l’inici. Ampliació independent: ca-S083, ca-S084, ca-S085, ca-S086 (revisio_tancament_s027). Ampliació independent: ca-S087, ca-S088, ca-S089, ca-S090, ca-S091 (revisio_tancament_s027). Ampliació independent: ca-S084, ca-S086 (revisio_tancament_s027). Ampliació independent: ca-S092, ca-S093, ca-S094, ca-S095, ca-S096, ca-S097 (revisio_tancament_s027). Ampliació independent: ca-S098, ca-S099, ca-S100, ca-S101, ca-S102, ca-S103 (auditoria_registre_pendents). Ampliació independent: ca-S104, ca-S105, ca-S106, ca-S107 (revisio_tancament_s027). Ampliació independent: ca-S108, ca-S109, ca-S110, ca-S111 (auditoria_registre_pendents). Ampliació independent: ca-S092, ca-S093, ca-S095 (revisio_tancament_s027). Ampliació del 25/11: S112–S127 amb doble format i contextos revisats per /root/abcd_author_002, /root/abcd_author_003, /root/abcd_author_004. Pilots S128–S130 i retolació S125: revisió independent del 25/11. S131–S142: revisió creuada independent de guions, contextos, doble format i fonts del 26/11. Esmenes de S133/S142 i adaptació de S095 a dos empleats: revisió independent del 26/11. S142, inici Aquest mite grec explica que i nova veu Erinome: coherència amb el context revalidada independentment el 27/11.",
   "fileSha256": "283dcbf0000da1ad7c700f7bcc7aaa7bf387b293b5d6ad7363ba31f90ef635b0",
   "entries": {
     "ca-S001": {
@@ -720,7 +720,7 @@
     },
     "ca-S142": {
       "contextSha256": "c07c6523e825044a8c22480d1546c5011eb6334ee014070227e5ef9a9a55e680",
-      "sourceSha256": "12776ac29c3582d8d5099ce04339d1c566b93bb8e15f285b99370a785ea4ed0a"
+      "sourceSha256": "27449777622e5237963099c45b5c92b1644d04a6ecc86d386836e3ca0411a7cf"
     }
   },
   "latestReview": {

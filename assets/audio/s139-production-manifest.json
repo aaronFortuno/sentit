@@ -1,0 +1,88 @@
+{
+  "code": "S139",
+  "activity": "ca-S139",
+  "state": "awaiting-montage-validation",
+  "file": "s139-mixed-v1.mp3",
+  "introFile": "s139-mixed-v1-intro.mp3",
+  "bodyFile": "s139-mixed-v1-cos.mp3",
+  "offset": 5.19,
+  "bodyDuration": 99.98766666666667,
+  "fullDuration": 105.17766666666667,
+  "voices": {
+    "Narrador": "Algenib"
+  },
+  "model": "gemini-3.8-flash-tts",
+  "productionMode": "shared-mixed-batch",
+  "requestHash": "c83866d90107652b9335bbbe92d4d107b131e22468328cf5dbdd1e5c174a1d89",
+  "sourceRequestHash": "5ea682a955f5c761afcc7223be81a51b8649380e067440a508ccaa1074600b95",
+  "batch": "L46",
+  "rawSha256": "539614c56a4ebd078d5a8ff839e759081de7b5329124bd09c92b5bfa7b92f6dd",
+  "takeSha256": "0eedd7edf6b0599221fee22ddcaefdff5d56f8aa5332ea2ddb545fcf73bdb7ed",
+  "coverage": 0.9566563467492261,
+  "uncertainTurns": [],
+  "newSynthesisRequests": 0,
+  "sharedRequest": true,
+  "lufs": -19.27,
+  "peakDbTP": -2.5,
+  "voiceRetimed": false,
+  "effects": [
+    {
+      "name": "licensed-narration-bed",
+      "origin": "licensed-library-music",
+      "compositionId": "incompetech-USUAN1100564",
+      "libraryId": "M2",
+      "title": "Desert City",
+      "author": "Kevin MacLeod",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100564",
+      "sourceSha256": "aeefb582c77059aaf5b10d1e9125d7b19adca07cd841f3654e74aed7da9a3a71",
+      "sourceNotDistributedSeparately": true,
+      "sourceStart": 6,
+      "sourceSeconds": 83.36489583333334,
+      "loopCopies": 2,
+      "crossfadeSeconds": 1,
+      "retimed": false,
+      "underSpeech": true,
+      "sha256": "89a5e60101f4ced6fea2475aa83beddea4e1087cbc41aa9dd6ef4312b2dbd532",
+      "envelope": {
+        "fadeInSeconds": 0.6,
+        "duckStart": 0.3,
+        "duckEnd": 1.05,
+        "speechGain": 0.1,
+        "nominalSpeechMusicLufs": -43,
+        "riseStart": 95.70999166666665,
+        "riseEnd": 96.50999166666666,
+        "holdSeconds": 2,
+        "fadeStart": 98.50999166666666,
+        "fadeEnd": 99.65999166666667
+      },
+      "listeningValidation": "pending",
+      "start": 0
+    }
+  ],
+  "sha256": "e7eb51143fa920703c2e02f5c1a9693339e65a2e2173e1e427920096434377e7",
+  "voiceHandles": {
+    "body": {
+      "start": 0.17770833333333333,
+      "end": 94.56270833333333,
+      "retainedPcmSha256": "3bc57afe631a94513a1f6edb5683e88b4ff84df68ae68657b08de330b1681e62",
+      "sourceSha256": "1d9e4cfdf56ad546f71d4ac4609b64a23beb93872a2ec79e0cfe2ddc300e48b4",
+      "allRetainedSamplesIdentical": true
+    },
+    "title": {
+      "start": 0.23720833333333333,
+      "end": 4.4772083333333335,
+      "retainedPcmSha256": "118bfd04227f21853f4cd53f8ba66da7bbca3da1f575a2107a91651f8fe7936f",
+      "sourceSha256": "3b211300576ae548233ecc417b039f50926f3f85362526332e5e09af3348ffbb",
+      "allRetainedSamplesIdentical": true
+    }
+  },
+  "voiceApproval": {
+    "status": "approved",
+    "approvedAt": "2026-11-27",
+    "sourceTakeSha256": "0eedd7edf6b0599221fee22ddcaefdff5d56f8aa5332ea2ddb545fcf73bdb7ed",
+    "sourceBatch": "L46",
+    "confirmation": "Docent 27/11: totes les veus rebudes pendents de revisió validades per muntatge, excepte S131 i S142."
+  }
+}

@@ -1,7 +1,7 @@
 {
   "code": "S122",
   "activity": "ca-S122",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s122-mixed-v1.mp3",
   "introFile": "s122-mixed-v1-intro.mp3",
   "bodyFile": "s122-mixed-v1-cos.mp3",
@@ -92,5 +92,13 @@
       "confirmation": "Docent 26/11: validat per passar a muntatge S129, S130, S122, S070 i S128, amb el criteri de música de fons ja definit."
     },
     "previousTakePreserved": true
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-27",
+    "validatedBy": "docent",
+    "confirmation": "Els 8 muntatges finals que teníem pendents de revisió queden validats per publicació definitiva",
+    "audioSha256": "0c4e51fc6bb9248fa2505315b411e853f11dda3ba4568faee6f417ea088f45ec",
+    "editorialFingerprint": "dca4fcd9bda7e05419f4cae655036ba63c0a636b6ec33fe5bce679c238c6c78b",
+    "listeningApproval": true
   }
 }

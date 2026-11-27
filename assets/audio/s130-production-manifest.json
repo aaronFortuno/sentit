@@ -1,7 +1,7 @@
 {
   "code": "S130",
   "activity": "ca-S130",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s130-mixed-v1.mp3",
   "introFile": "s130-mixed-v1-intro.mp3",
   "bodyFile": "s130-mixed-v1-cos.mp3",
@@ -57,7 +57,7 @@
         "fadeStart": 113.30001666666668,
         "fadeEnd": 114.45001666666668
       },
-      "listeningValidation": "pending",
+      "listeningValidation": "approved",
       "start": 0
     }
   ],
@@ -85,5 +85,13 @@
     "sourceBatch": "L41",
     "confirmation": "Docent 26/11: S130 llest per muntatge. Abans de muntar, comparar i triar músiques de biblioteca per a faules, llegendes i mites."
   },
-  "postMusicTailSeconds": 0.3
+  "postMusicTailSeconds": 0.3,
+  "teacherValidation": {
+    "validatedAt": "2026-11-27",
+    "validatedBy": "docent",
+    "confirmation": "Els 8 muntatges finals que teníem pendents de revisió queden validats per publicació definitiva",
+    "audioSha256": "6d9a1914e0e6b9dd6b6f901631e3a06c67ad204282717e1b28323527c102741d",
+    "editorialFingerprint": "658922f81f5f48066d5fd15feb8ac7778c2b8f15409d164beac353a5d8f4ab09",
+    "listeningApproval": true
+  }
 }

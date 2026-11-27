@@ -49,6 +49,9 @@ export const fableExpansionDrafts = [
       q('resultat','Com aconsegueix guanyar la tortuga si camina més a poc a poc?','Continua avançant mentre la llebre s’atura i s’adorm.',['Troba un camí més curt fins al roure.','Continua avançant mentre la llebre s’adorm.','Fa que la llebre torni al lloc de sortida.','Aprèn a córrer més de pressa que la llebre.'],'b','La marxa contínua de la tortuga li permet aprofitar el temps que la llebre passa adormida.',[e('descans','es va adormir'),e('caminar','La tortuga va continuar caminant'),e('arribada','la tortuga tocava el roure amb una pota')],2)
     ]}),
   cultural({code:'S133',id:'el-vent-i-el-sol',title:'El vent i el Sol',grade:'4',level:'easy',universeIds:['faules-mon'],
+    seconds: 90, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s133-mixed-v1.mp3', tracks: { introduction: './assets/audio/s133-mixed-v1-intro.mp3', body: './assets/audio/s133-mixed-v1-cos.mp3' },
+    fragment: { start: 6.8500000000000005, seconds: 83 },
     introduction:'Comprensió oral. El vent i el Sol. Una faula de la tradició d’Isop.',
     summary:'El vent i el Sol discuteixen sobre qui té més força. Un viatger que passa pel camí els dona una idea per fer una prova.',
     context:'En aquesta faula el vent i el Sol parlen com si fossin persones. Escolta la prova que es proposen i observa com reacciona el viatger amb cadascun.',
@@ -71,6 +74,9 @@ export const fableExpansionDrafts = [
       q('guanyador','Qui guanya la prova i quin fet ho demostra?','El Sol, perquè l’home es treu l’abric després del seu intent.',['El Sol, perquè l’home es treu l’abric.','El vent, perquè l’home s’agafa l’abric.','El Sol, perquè el vent mou les branques.','El vent, perquè l’home continua caminant.'],'a','El resultat es decideix amb la condició acordada: el viatger es treu l’abric quan actua el Sol.',[e('prova','Guanyarà qui aconsegueixi que aquell home es tregui l’abric'),e('sol','El Sol continuava escalfant'),e('final','Es va treure l’abric')],2)
     ]}),
   cultural({code:'S134',id:'el-pastor-i-el-llop',title:'El pastor i el llop',grade:'4',level:'middle',universeIds:['faules-mon'],
+    seconds: 92, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s134-mixed-v1.mp3', tracks: { introduction: './assets/audio/s134-mixed-v1-intro.mp3', body: './assets/audio/s134-mixed-v1-cos.mp3' },
+    fragment: { start: 6.490291666666667, seconds: 85 },
     introduction:'Comprensió oral. El pastor i el llop. Una faula de la tradició d’Isop.',
     summary:'Un jove pastor vigila les ovelles prop del poble. Un dia s’avorreix i decideix cridar els veïns.',
     context:'Escoltaràs una faula sobre un pastor, el seu ramat i els veïns del poble. Els crits del pastor es repeteixen en dies diferents. Fixa’t en què passa en cada ocasió.',

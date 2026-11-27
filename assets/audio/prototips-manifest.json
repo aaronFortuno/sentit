@@ -17655,7 +17655,7 @@
     {
       "code": "S130",
       "activity": "ca-S130",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s130-mixed-v1.mp3",
       "introFile": "s130-mixed-v1-intro.mp3",
       "bodyFile": "s130-mixed-v1-cos.mp3",
@@ -17711,7 +17711,7 @@
             "fadeStart": 113.30001666666668,
             "fadeEnd": 114.45001666666668
           },
-          "listeningValidation": "pending",
+          "listeningValidation": "approved",
           "start": 0
         }
       ],
@@ -17739,12 +17739,20 @@
         "sourceBatch": "L41",
         "confirmation": "Docent 26/11: S130 llest per muntatge. Abans de muntar, comparar i triar músiques de biblioteca per a faules, llegendes i mites."
       },
-      "postMusicTailSeconds": 0.3
+      "postMusicTailSeconds": 0.3,
+      "teacherValidation": {
+        "validatedAt": "2026-11-27",
+        "validatedBy": "docent",
+        "confirmation": "Els 8 muntatges finals que teníem pendents de revisió queden validats per publicació definitiva",
+        "audioSha256": "6d9a1914e0e6b9dd6b6f901631e3a06c67ad204282717e1b28323527c102741d",
+        "editorialFingerprint": "658922f81f5f48066d5fd15feb8ac7778c2b8f15409d164beac353a5d8f4ab09",
+        "listeningApproval": true
+      }
     },
     {
       "code": "S129",
       "activity": "ca-S129",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s129-mixed-v1.mp3",
       "introFile": "s129-mixed-v1-intro.mp3",
       "bodyFile": "s129-mixed-v1-cos.mp3",
@@ -17800,7 +17808,7 @@
             "fadeStart": 86.33000833333338,
             "fadeEnd": 87.48000833333339
           },
-          "listeningValidation": "pending",
+          "listeningValidation": "approved",
           "start": 0
         }
       ],
@@ -17827,12 +17835,20 @@
         "sourceTakeSha256": "4d0bc68d21083c74ff8adc1d7556baceec9127b0326e592da72197ef2130b608",
         "sourceBatch": "L41",
         "confirmation": "Docent 26/11: validat per passar a muntatge S129, S130, S122, S070 i S128, amb el criteri de música de fons ja definit."
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-27",
+        "validatedBy": "docent",
+        "confirmation": "Els 8 muntatges finals que teníem pendents de revisió queden validats per publicació definitiva",
+        "audioSha256": "6f0c4b43da31ede9cb24d6fb6d4debc957dd2bcb58ee74b8ec6207735df59e6a",
+        "editorialFingerprint": "6e5d0cabe4050ad48daad2590b45e6d4b0c78b76fa107b6a01d77d03f68cffe9",
+        "listeningApproval": true
       }
     },
     {
       "code": "S128",
       "activity": "ca-S128",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s128-mixed-v1.mp3",
       "introFile": "s128-mixed-v1-intro.mp3",
       "bodyFile": "s128-mixed-v1-cos.mp3",
@@ -17888,7 +17904,7 @@
             "fadeStart": 67.29998333333334,
             "fadeEnd": 68.44998333333335
           },
-          "listeningValidation": "pending",
+          "listeningValidation": "approved",
           "start": 0
         }
       ],
@@ -17915,12 +17931,20 @@
         "sourceTakeSha256": "0a5d0eb94fff90d329a054d914b3dda8a57472d804c939d399aabb429b5cff1f",
         "sourceBatch": "L41",
         "confirmation": "Docent 26/11: validat per passar a muntatge S129, S130, S122, S070 i S128, amb el criteri de música de fons ja definit."
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-27",
+        "validatedBy": "docent",
+        "confirmation": "Els 8 muntatges finals que teníem pendents de revisió queden validats per publicació definitiva",
+        "audioSha256": "066ca1266949f660b1bcd1c2346645351d40174218b2f934bbb75675c1e3064d",
+        "editorialFingerprint": "717aad366afa154fa9f61c5755668ac0231663d274cedf4bc102fa6fda8ad816",
+        "listeningApproval": true
       }
     },
     {
       "code": "S122",
       "activity": "ca-S122",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s122-mixed-v1.mp3",
       "introFile": "s122-mixed-v1-intro.mp3",
       "bodyFile": "s122-mixed-v1-cos.mp3",
@@ -18011,12 +18035,20 @@
           "confirmation": "Docent 26/11: validat per passar a muntatge S129, S130, S122, S070 i S128, amb el criteri de música de fons ja definit."
         },
         "previousTakePreserved": true
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-27",
+        "validatedBy": "docent",
+        "confirmation": "Els 8 muntatges finals que teníem pendents de revisió queden validats per publicació definitiva",
+        "audioSha256": "0c4e51fc6bb9248fa2505315b411e853f11dda3ba4568faee6f417ea088f45ec",
+        "editorialFingerprint": "dca4fcd9bda7e05419f4cae655036ba63c0a636b6ec33fe5bce679c238c6c78b",
+        "listeningApproval": true
       }
     },
     {
       "code": "S070",
       "activity": "ca-S070",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s070-mixed-v1.mp3",
       "introFile": "s070-mixed-v1-intro.mp3",
       "bodyFile": "s070-mixed-v1-cos.mp3",
@@ -18069,7 +18101,7 @@
             "fadeStart": 102.26001666666667,
             "fadeEnd": 104.26001666666667
           },
-          "listeningValidation": "pending",
+          "listeningValidation": "approved",
           "start": 0,
           "underSpeech": true
         }
@@ -18109,12 +18141,20 @@
           "confirmation": "Docent 26/11: validat per passar a muntatge S129, S130, S122, S070 i S128, amb el criteri de música de fons ja definit."
         },
         "previousTakePreserved": true
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-27",
+        "validatedBy": "docent",
+        "confirmation": "Els 8 muntatges finals que teníem pendents de revisió queden validats per publicació definitiva",
+        "audioSha256": "48133be44ef6ee07d35358005623c8c7daf451a99614b1c33f13014021fb1260",
+        "editorialFingerprint": "aed960b198858baf79739a5960c80c49599921b18c1ca8f9fcac1e06d5efa1a8",
+        "listeningApproval": true
       }
     },
     {
       "code": "S095",
       "activity": "ca-S095",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s095-mixed-v1.mp3",
       "introFile": "s095-mixed-v1-intro.mp3",
       "bodyFile": "s095-mixed-v1-cos.mp3",
@@ -18209,12 +18249,20 @@
         "spokenWordsChanged": false,
         "sourceTakeSha256": "b4ee57151a66ed8c7e4c63e8e030dd453bd1d02e2ccbb7601212fb3a21844712",
         "illustration": "./assets/images/s095-publicacio-v1.webp"
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-27",
+        "validatedBy": "docent",
+        "confirmation": "Els 8 muntatges finals que teníem pendents de revisió queden validats per publicació definitiva",
+        "audioSha256": "1757767033c5369a4144cdb9b588fbb6b680c7ccd2206c1c2b337a506c61a5d9",
+        "editorialFingerprint": "02100f358d48f5665d0578cde25f9cca7ff53ac99c2fdfeac6c4c3eed95d4661",
+        "listeningApproval": true
       }
     },
     {
       "code": "S132",
       "activity": "ca-S132",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s132-mixed-v1.mp3",
       "introFile": "s132-mixed-v1-intro.mp3",
       "bodyFile": "s132-mixed-v1-cos.mp3",
@@ -18270,7 +18318,7 @@
             "fadeStart": 77.07000000000002,
             "fadeEnd": 78.22000000000003
           },
-          "listeningValidation": "pending",
+          "listeningValidation": "approved",
           "start": 0
         }
       ],
@@ -18297,12 +18345,20 @@
         "sourceTakeSha256": "2858c5219df0c0a2ac6a07deac91181e36fbd332973209303760d8c7f8d81245",
         "sourceBatch": "L46",
         "confirmation": "Docent 26/11: poden pujar a muntatge S132 i S137."
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-27",
+        "validatedBy": "docent",
+        "confirmation": "Els 8 muntatges finals que teníem pendents de revisió queden validats per publicació definitiva",
+        "audioSha256": "5350f2145bf1f767ec314e2400ff0a3662b9c1f98ff4b55e74d490384c502ce6",
+        "editorialFingerprint": "f22987be424197fd1f1c5c9a27c8696736793cab697575ba6b89f2de453d3f53",
+        "listeningApproval": true
       }
     },
     {
       "code": "S137",
       "activity": "ca-S137",
-      "state": "awaiting-montage-validation",
+      "state": "published",
       "file": "s137-mixed-v1.mp3",
       "introFile": "s137-mixed-v1-intro.mp3",
       "bodyFile": "s137-mixed-v1-cos.mp3",
@@ -18358,7 +18414,7 @@
             "fadeStart": 90.09000000000005,
             "fadeEnd": 91.24000000000005
           },
-          "listeningValidation": "pending",
+          "listeningValidation": "approved",
           "start": 0
         }
       ],
@@ -18385,6 +18441,630 @@
         "sourceTakeSha256": "3dbe187bde53dc3bc9a4c7f9a4d562ec1de3c084771256614712b0b326daafcf",
         "sourceBatch": "L45",
         "confirmation": "Docent 26/11: poden pujar a muntatge S132 i S137."
+      },
+      "teacherValidation": {
+        "validatedAt": "2026-11-27",
+        "validatedBy": "docent",
+        "confirmation": "Els 8 muntatges finals que teníem pendents de revisió queden validats per publicació definitiva",
+        "audioSha256": "b2b35b1bc2793f33c755093acb711dc45ac6384f6db3d2d692090801eaadd0ef",
+        "editorialFingerprint": "2791e97551365f6700a6d7c74616330b3b6ec5dd2d4f63e5cccd91a362d0df3a",
+        "listeningApproval": true
+      }
+    },
+    {
+      "code": "S133",
+      "activity": "ca-S133",
+      "state": "awaiting-montage-validation",
+      "file": "s133-mixed-v1.mp3",
+      "introFile": "s133-mixed-v1-intro.mp3",
+      "bodyFile": "s133-mixed-v1-cos.mp3",
+      "offset": 6.8500000000000005,
+      "bodyDuration": 82.852375,
+      "fullDuration": 89.702375,
+      "voices": {
+        "Narrador": "Algenib"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "ddad9f4b98af013f5a5d6acb74d921c8486339be0b1e7a1d6929add26315e1b2",
+      "sourceRequestHash": "4b1aca460567027dde440e16ec8f99ba031e82d0bfb648fe742007c0290ab010",
+      "batch": "L47",
+      "rawSha256": "353823b15880808efb45e0e480b1a9a75d26ae8fbd9da85cf94b954aa70e06f9",
+      "takeSha256": "8d768ce18de9c981c3acd17d85fb5548decfd170b18b15f97ea5bb7e12ec45bf",
+      "coverage": 0.9358490566037736,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -18.99,
+      "peakDbTP": -2.5,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "licensed-narration-bed",
+          "origin": "licensed-library-music",
+          "compositionId": "incompetech-USUAN1500084",
+          "libraryId": "F5",
+          "title": "Fresh Air",
+          "author": "Kevin MacLeod",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1500084",
+          "sourceSha256": "528a53352595d5d37bc1eb4e738df66f0c390f833d5fd3de08ba0ab5fe317522",
+          "sourceNotDistributedSeparately": true,
+          "sourceStart": 6,
+          "sourceSeconds": 288.06041666666664,
+          "loopCopies": 1,
+          "crossfadeSeconds": 0,
+          "retimed": false,
+          "underSpeech": true,
+          "sha256": "57d1ff3facea52760c4d6627b492c935072948d53dc71600efd6d3fbee8491f7",
+          "envelope": {
+            "fadeInSeconds": 0.6,
+            "duckStart": 0.3,
+            "duckEnd": 1.05,
+            "speechGain": 0.1,
+            "nominalSpeechMusicLufs": -43,
+            "riseStart": 78.64,
+            "riseEnd": 79.44000000000001,
+            "holdSeconds": 2,
+            "fadeStart": 81.44000000000001,
+            "fadeEnd": 82.59000000000002
+          },
+          "listeningValidation": "pending",
+          "start": 0
+        }
+      ],
+      "sha256": "0667d7653c783daaadba098e632f1cf1222050b996965fa7721325a39e476d72",
+      "voiceHandles": {
+        "body": {
+          "start": 0.685,
+          "end": 78.10470833333333,
+          "retainedPcmSha256": "ee99e26bf58fe078e03a01cd12e5e6287f46a8c4fec84693198f91056756a92a",
+          "sourceSha256": "9c246ca7e5783fd291497aabe8c4b8178504442e8e5715132d06a821b09f7bea",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0,
+          "end": 5.9,
+          "retainedPcmSha256": "f3c6dab533ae56f15e8939cd1d8625d4003035b3d2f17931d16c06c24dc8f77e",
+          "sourceSha256": "6b6da5fe3c2da5dff2b52a4982abc1e79b76b429901dda775f761396243dd3de",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-27",
+        "sourceTakeSha256": "8d768ce18de9c981c3acd17d85fb5548decfd170b18b15f97ea5bb7e12ec45bf",
+        "sourceBatch": "L47",
+        "confirmation": "Docent 27/11: totes les veus rebudes pendents de revisió validades per muntatge, excepte S131 i S142."
+      }
+    },
+    {
+      "code": "S134",
+      "activity": "ca-S134",
+      "state": "awaiting-montage-validation",
+      "file": "s134-mixed-v1.mp3",
+      "introFile": "s134-mixed-v1-intro.mp3",
+      "bodyFile": "s134-mixed-v1-cos.mp3",
+      "offset": 6.490291666666667,
+      "bodyDuration": 85.06566666666667,
+      "fullDuration": 91.55595833333334,
+      "voices": {
+        "Narrador": "Algenib"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "ddad9f4b98af013f5a5d6acb74d921c8486339be0b1e7a1d6929add26315e1b2",
+      "sourceRequestHash": "78353ae723e1df8024d7c181344a1752da9b93b28565ed91d42c14c69182abcf",
+      "batch": "L47",
+      "rawSha256": "353823b15880808efb45e0e480b1a9a75d26ae8fbd9da85cf94b954aa70e06f9",
+      "takeSha256": "a80c26847ef982b32a423dbd11242cd90252ef5b98f91ab1b797229b8b209f3f",
+      "coverage": 0.9656488549618321,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -19.11,
+      "peakDbTP": -2.5,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "licensed-narration-bed",
+          "origin": "licensed-library-music",
+          "compositionId": "incompetech-USUAN1800008",
+          "libraryId": "F6",
+          "title": "Almost New",
+          "author": "Kevin MacLeod",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1800008",
+          "sourceSha256": "3cb29102881aa9cb56292753dfa6c92004eddf4e0ad367e979c7292b0e1ac1a0",
+          "sourceNotDistributedSeparately": true,
+          "sourceStart": 6,
+          "sourceSeconds": 196.55347916666668,
+          "loopCopies": 1,
+          "crossfadeSeconds": 0,
+          "retimed": false,
+          "underSpeech": true,
+          "sha256": "1470b4a8d3d110c8013967c8fce2619dc5944b05b145fcf5396f454110143a08",
+          "envelope": {
+            "fadeInSeconds": 0.6,
+            "duckStart": 0.3,
+            "duckEnd": 1.05,
+            "speechGain": 0.1,
+            "nominalSpeechMusicLufs": -43,
+            "riseStart": 80.82999999999998,
+            "riseEnd": 81.63,
+            "holdSeconds": 2,
+            "fadeStart": 83.63,
+            "fadeEnd": 84.78
+          },
+          "listeningValidation": "pending",
+          "start": 0
+        }
+      ],
+      "sha256": "a4850ed76acc73719782e889634a31f03edfb521a302889866cf6acd63c333f8",
+      "voiceHandles": {
+        "body": {
+          "start": 0.295,
+          "end": 79.738,
+          "retainedPcmSha256": "988be393ffb96769f2d7ec025c90bd73ef3a61ab2576e1fb1744ea957dbbf21b",
+          "sourceSha256": "1880012e546ec7e38b28ffec03ebe1950ad2ddf507b44d2a5936a51d6c13e89a",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0,
+          "end": 5.540291666666667,
+          "retainedPcmSha256": "6267cc1d42135693b6762701bd2ea80cf7dae502e876bdf2a1bb9462474dd461",
+          "sourceSha256": "ef0f6d30e445980ecb366fe7e49a62d47e28e728d34e54d806c728ea54c44c3d",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-27",
+        "sourceTakeSha256": "a80c26847ef982b32a423dbd11242cd90252ef5b98f91ab1b797229b8b209f3f",
+        "sourceBatch": "L47",
+        "confirmation": "Docent 27/11: totes les veus rebudes pendents de revisió validades per muntatge, excepte S131 i S142."
+      }
+    },
+    {
+      "code": "S136",
+      "activity": "ca-S136",
+      "state": "awaiting-montage-validation",
+      "file": "s136-mixed-v1.mp3",
+      "introFile": "s136-mixed-v1-intro.mp3",
+      "bodyFile": "s136-mixed-v1-cos.mp3",
+      "offset": 6.180000000000001,
+      "bodyDuration": 96.13766666666666,
+      "fullDuration": 102.31766666666667,
+      "voices": {
+        "Narrador": "Algenib"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "3402b7ae874c38c102c2e3bba9f629c25b1b9d6aaa1fe835d901041f4c06dd90",
+      "sourceRequestHash": "4336badb9c5a40de1d8141b732fffd0448067e452fc4ce27a3392ee1992aabb4",
+      "batch": "L45",
+      "rawSha256": "40b09c86c189a3ac4034621bc21308fe06e3966a5377e8d88a5bb29fa720bcb8",
+      "takeSha256": "dd19d5bbc73665ac79f84c41ce9f9103a6f6322011a525b714d77d4f134e22de",
+      "coverage": 0.9444444444444444,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -19.43,
+      "peakDbTP": -2.5,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "licensed-narration-bed",
+          "origin": "licensed-library-music",
+          "compositionId": "incompetech-USUAN1200110",
+          "libraryId": "L3",
+          "title": "Angevin",
+          "author": "Kevin MacLeod",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200110",
+          "sourceSha256": "425f5febc62aee69761f16eae09158c35fd922a72c0fe8165af51c3a1f8818bf",
+          "sourceNotDistributedSeparately": true,
+          "sourceStart": 6,
+          "sourceSeconds": 274.5551041666667,
+          "loopCopies": 1,
+          "crossfadeSeconds": 0,
+          "retimed": false,
+          "underSpeech": true,
+          "sha256": "ede90d96f1924fa9db460b41a7f75b5817d89d9e261a14b7e39fd0e3fb93eab6",
+          "envelope": {
+            "fadeInSeconds": 0.6,
+            "duckStart": 0.3,
+            "duckEnd": 1.05,
+            "speechGain": 0.1,
+            "nominalSpeechMusicLufs": -43,
+            "riseStart": 91.87,
+            "riseEnd": 92.67000000000002,
+            "holdSeconds": 2,
+            "fadeStart": 94.67000000000002,
+            "fadeEnd": 95.82000000000002
+          },
+          "listeningValidation": "pending",
+          "start": 0
+        }
+      ],
+      "sha256": "d8a5f59ecf7c6db4ab49ef71aa18cdd94a60a0e1ae9a04d911f544b8a1414b07",
+      "voiceHandles": {
+        "body": {
+          "start": 0.25,
+          "end": 90.825,
+          "retainedPcmSha256": "6a8d637b90c007615d609586aa9ed308fac961d79f785b5cd9dce98aca3e05d3",
+          "sourceSha256": "f41c148e190d2cb26b8c586b617e863d267c7abd19552977e2439bc616f56149",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0.055,
+          "end": 5.285,
+          "retainedPcmSha256": "7f210b7633f98c6c6b07345f25e0109610e1b580aa69a53e7a5c1cc2e49b9e9a",
+          "sourceSha256": "5b54d2c0d1654834300920971ecacfa5561d4bbf74454aaab68cbb7ffd86515c",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-27",
+        "sourceTakeSha256": "dd19d5bbc73665ac79f84c41ce9f9103a6f6322011a525b714d77d4f134e22de",
+        "sourceBatch": "L45",
+        "confirmation": "Docent 27/11: totes les veus rebudes pendents de revisió validades per muntatge, excepte S131 i S142."
+      }
+    },
+    {
+      "code": "S138",
+      "activity": "ca-S138",
+      "state": "awaiting-montage-validation",
+      "file": "s138-mixed-v1.mp3",
+      "introFile": "s138-mixed-v1-intro.mp3",
+      "bodyFile": "s138-mixed-v1-cos.mp3",
+      "offset": 6.98,
+      "bodyDuration": 121.12264583333334,
+      "fullDuration": 128.10264583333333,
+      "voices": {
+        "Narrador": "Algenib"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "3402b7ae874c38c102c2e3bba9f629c25b1b9d6aaa1fe835d901041f4c06dd90",
+      "sourceRequestHash": "7c235e2cac85d835b70b29f2b875488079df02ae72cf66ef7070012d0813b050",
+      "batch": "L45",
+      "rawSha256": "40b09c86c189a3ac4034621bc21308fe06e3966a5377e8d88a5bb29fa720bcb8",
+      "takeSha256": "947cffff2078d16820a353ced5c9f02a00baaf7eaa5704f6d8187fe7b25207a4",
+      "coverage": 0.9841269841269841,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -19.29,
+      "peakDbTP": -2.48,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "licensed-narration-bed",
+          "origin": "licensed-library-music",
+          "compositionId": "incompetech-USUAN1400020",
+          "libraryId": "L1",
+          "title": "Teller of the Tales",
+          "author": "Kevin MacLeod",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400020",
+          "sourceSha256": "320b37a09fc37ec5962c975563541bee9bcbf1208b0181789248780286f4c1d4",
+          "sourceNotDistributedSeparately": true,
+          "sourceStart": 6,
+          "sourceSeconds": 206.37552083333333,
+          "loopCopies": 1,
+          "crossfadeSeconds": 0,
+          "retimed": false,
+          "underSpeech": true,
+          "sha256": "bee7c441561d61ebd2c9d38a074ed4cfe30d4eaff768b7974671910276390027",
+          "envelope": {
+            "fadeInSeconds": 0.6,
+            "duckStart": 0.3,
+            "duckEnd": 1.05,
+            "speechGain": 0.1,
+            "nominalSpeechMusicLufs": -43,
+            "riseStart": 116.88998333333333,
+            "riseEnd": 117.68998333333334,
+            "holdSeconds": 2,
+            "fadeStart": 119.68998333333334,
+            "fadeEnd": 120.83998333333335
+          },
+          "listeningValidation": "pending",
+          "start": 0
+        }
+      ],
+      "sha256": "853f0dda9fe51a73c973855c5da694bc072a1b3ac4f849e56f921a4567e24fe5",
+      "voiceHandles": {
+        "body": {
+          "start": 0.7594166666666666,
+          "end": 116.39941666666667,
+          "retainedPcmSha256": "b3d2618182a7560eaf866d0846124284666cd832819a53ec81a69f735d067410",
+          "sourceSha256": "f08c0c127c203d5f815d8d0ce4343f4ae22ecd1031f46781da1b336f827f8864",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0.085,
+          "end": 6.115,
+          "retainedPcmSha256": "767ae66d91b97715ad1f0c9e5b82ed7c16dfd81102df197baadca03a581531cd",
+          "sourceSha256": "4892205db80b4531fd746391924900fd4dfcf5d43fdce00b9366e55608bbb49c",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-27",
+        "sourceTakeSha256": "947cffff2078d16820a353ced5c9f02a00baaf7eaa5704f6d8187fe7b25207a4",
+        "sourceBatch": "L45",
+        "confirmation": "Docent 27/11: totes les veus rebudes pendents de revisió validades per muntatge, excepte S131 i S142."
+      }
+    },
+    {
+      "code": "S139",
+      "activity": "ca-S139",
+      "state": "awaiting-montage-validation",
+      "file": "s139-mixed-v1.mp3",
+      "introFile": "s139-mixed-v1-intro.mp3",
+      "bodyFile": "s139-mixed-v1-cos.mp3",
+      "offset": 5.19,
+      "bodyDuration": 99.98766666666667,
+      "fullDuration": 105.17766666666667,
+      "voices": {
+        "Narrador": "Algenib"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "c83866d90107652b9335bbbe92d4d107b131e22468328cf5dbdd1e5c174a1d89",
+      "sourceRequestHash": "5ea682a955f5c761afcc7223be81a51b8649380e067440a508ccaa1074600b95",
+      "batch": "L46",
+      "rawSha256": "539614c56a4ebd078d5a8ff839e759081de7b5329124bd09c92b5bfa7b92f6dd",
+      "takeSha256": "0eedd7edf6b0599221fee22ddcaefdff5d56f8aa5332ea2ddb545fcf73bdb7ed",
+      "coverage": 0.9566563467492261,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -19.27,
+      "peakDbTP": -2.5,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "licensed-narration-bed",
+          "origin": "licensed-library-music",
+          "compositionId": "incompetech-USUAN1100564",
+          "libraryId": "M2",
+          "title": "Desert City",
+          "author": "Kevin MacLeod",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100564",
+          "sourceSha256": "aeefb582c77059aaf5b10d1e9125d7b19adca07cd841f3654e74aed7da9a3a71",
+          "sourceNotDistributedSeparately": true,
+          "sourceStart": 6,
+          "sourceSeconds": 83.36489583333334,
+          "loopCopies": 2,
+          "crossfadeSeconds": 1,
+          "retimed": false,
+          "underSpeech": true,
+          "sha256": "89a5e60101f4ced6fea2475aa83beddea4e1087cbc41aa9dd6ef4312b2dbd532",
+          "envelope": {
+            "fadeInSeconds": 0.6,
+            "duckStart": 0.3,
+            "duckEnd": 1.05,
+            "speechGain": 0.1,
+            "nominalSpeechMusicLufs": -43,
+            "riseStart": 95.70999166666665,
+            "riseEnd": 96.50999166666666,
+            "holdSeconds": 2,
+            "fadeStart": 98.50999166666666,
+            "fadeEnd": 99.65999166666667
+          },
+          "listeningValidation": "pending",
+          "start": 0
+        }
+      ],
+      "sha256": "e7eb51143fa920703c2e02f5c1a9693339e65a2e2173e1e427920096434377e7",
+      "voiceHandles": {
+        "body": {
+          "start": 0.17770833333333333,
+          "end": 94.56270833333333,
+          "retainedPcmSha256": "3bc57afe631a94513a1f6edb5683e88b4ff84df68ae68657b08de330b1681e62",
+          "sourceSha256": "1d9e4cfdf56ad546f71d4ac4609b64a23beb93872a2ec79e0cfe2ddc300e48b4",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0.23720833333333333,
+          "end": 4.4772083333333335,
+          "retainedPcmSha256": "118bfd04227f21853f4cd53f8ba66da7bbca3da1f575a2107a91651f8fe7936f",
+          "sourceSha256": "3b211300576ae548233ecc417b039f50926f3f85362526332e5e09af3348ffbb",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-27",
+        "sourceTakeSha256": "0eedd7edf6b0599221fee22ddcaefdff5d56f8aa5332ea2ddb545fcf73bdb7ed",
+        "sourceBatch": "L46",
+        "confirmation": "Docent 27/11: totes les veus rebudes pendents de revisió validades per muntatge, excepte S131 i S142."
+      }
+    },
+    {
+      "code": "S140",
+      "activity": "ca-S140",
+      "state": "awaiting-montage-validation",
+      "file": "s140-mixed-v1.mp3",
+      "introFile": "s140-mixed-v1-intro.mp3",
+      "bodyFile": "s140-mixed-v1-cos.mp3",
+      "offset": 5.550000000000001,
+      "bodyDuration": 99.37266666666666,
+      "fullDuration": 104.92266666666667,
+      "voices": {
+        "Narrador": "Algenib"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "c83866d90107652b9335bbbe92d4d107b131e22468328cf5dbdd1e5c174a1d89",
+      "sourceRequestHash": "35e8f2567c66be3a62b21759dbb18eb93413671edbe4f6d55ebfeec698c3d452",
+      "batch": "L46",
+      "rawSha256": "539614c56a4ebd078d5a8ff839e759081de7b5329124bd09c92b5bfa7b92f6dd",
+      "takeSha256": "c1fff44b78eba654b8ffa02c6e934561da6e8a45eb95babadef8583c8c4dd834",
+      "coverage": 0.9242424242424242,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -19.44,
+      "peakDbTP": -2.5,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "licensed-narration-bed",
+          "origin": "licensed-library-music",
+          "compositionId": "incompetech-USUAN1100801",
+          "libraryId": "M3",
+          "title": "Virtutes Instrumenti",
+          "author": "Kevin MacLeod",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100801",
+          "sourceSha256": "46e4569b5f515917e5a879f52f1db1a83b5ea912d26f0b67f7779027a39ce670",
+          "sourceNotDistributedSeparately": true,
+          "sourceStart": 6,
+          "sourceSeconds": 256.06041666666664,
+          "loopCopies": 1,
+          "crossfadeSeconds": 0,
+          "retimed": false,
+          "underSpeech": true,
+          "sha256": "e53850e2d8ec27fef96f916382d405b8b9503a6d2e660454b26ba745306869f9",
+          "envelope": {
+            "fadeInSeconds": 0.6,
+            "duckStart": 0.3,
+            "duckEnd": 1.05,
+            "speechGain": 0.1,
+            "nominalSpeechMusicLufs": -43,
+            "riseStart": 95.07999999999997,
+            "riseEnd": 95.87999999999998,
+            "holdSeconds": 2,
+            "fadeStart": 97.87999999999998,
+            "fadeEnd": 99.02999999999999
+          },
+          "listeningValidation": "pending",
+          "start": 0
+        }
+      ],
+      "sha256": "e48d30d9c35ded1deed85f46f9c3ac61a2fbc7367a39dd7b071659fe1d5eb171",
+      "voiceHandles": {
+        "body": {
+          "start": 0.37,
+          "end": 94.07,
+          "retainedPcmSha256": "c4e47818fd9363fa97294249e02263f8d243712f6651b89f32275dc21cbbf11e",
+          "sourceSha256": "fb3e2384017c6106d78c66927035a022b9b8752209f6d6971acc3d60521f6b13",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0.025,
+          "end": 4.625,
+          "retainedPcmSha256": "bed4d66d164a23f29e508c2ba22b0357f15c4a294161c8e9f1e8d24140ec9572",
+          "sourceSha256": "e643e02432b6df5ffba155657cc507682fcef5d113bb8ebb9e737a571f5e328a",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-27",
+        "sourceTakeSha256": "c1fff44b78eba654b8ffa02c6e934561da6e8a45eb95babadef8583c8c4dd834",
+        "sourceBatch": "L46",
+        "confirmation": "Docent 27/11: totes les veus rebudes pendents de revisió validades per muntatge, excepte S131 i S142."
+      }
+    },
+    {
+      "code": "S141",
+      "activity": "ca-S141",
+      "state": "awaiting-montage-validation",
+      "file": "s141-mixed-v1.mp3",
+      "introFile": "s141-mixed-v1-intro.mp3",
+      "bodyFile": "s141-mixed-v1-cos.mp3",
+      "offset": 5.115,
+      "bodyDuration": 95.21266666666666,
+      "fullDuration": 100.32766666666667,
+      "voices": {
+        "Narrador": "Algenib"
+      },
+      "model": "gemini-3.8-flash-tts",
+      "productionMode": "shared-mixed-batch",
+      "requestHash": "ddad9f4b98af013f5a5d6acb74d921c8486339be0b1e7a1d6929add26315e1b2",
+      "sourceRequestHash": "0e7ab73a2c4d9f54edcfd1ffc8b490d0a5dd5a0088d5c52148e8cd36132f1f41",
+      "batch": "L47",
+      "rawSha256": "353823b15880808efb45e0e480b1a9a75d26ae8fbd9da85cf94b954aa70e06f9",
+      "takeSha256": "c0103ed1a4b72edce24595144bb380dd0b87932789ed8f8b6974aec650e987b5",
+      "coverage": 0.9258064516129032,
+      "uncertainTurns": [],
+      "newSynthesisRequests": 0,
+      "sharedRequest": true,
+      "lufs": -19.03,
+      "peakDbTP": -2.5,
+      "voiceRetimed": false,
+      "effects": [
+        {
+          "name": "licensed-narration-bed",
+          "origin": "licensed-library-music",
+          "compositionId": "incompetech-USUAN1100053",
+          "libraryId": "M1",
+          "title": "Temple of the Manes",
+          "author": "Kevin MacLeod",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+          "sourceUrl": "https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1100053",
+          "sourceSha256": "21774c909751472f4fb6621e4cb5d0ac29ae535c4768392d13d2917f7107bcbf",
+          "sourceNotDistributedSeparately": true,
+          "sourceStart": 6,
+          "sourceSeconds": 149.6114375,
+          "loopCopies": 1,
+          "crossfadeSeconds": 0,
+          "retimed": false,
+          "underSpeech": true,
+          "sha256": "3139fce15a0e5688fbd6dd5fdf595b0c4173cea034cfd66948c402b097dcf59d",
+          "envelope": {
+            "fadeInSeconds": 0.6,
+            "duckStart": 0.3,
+            "duckEnd": 1.05,
+            "speechGain": 0.1,
+            "nominalSpeechMusicLufs": -43,
+            "riseStart": 90.94000000000003,
+            "riseEnd": 91.74000000000004,
+            "holdSeconds": 2,
+            "fadeStart": 93.74000000000004,
+            "fadeEnd": 94.89000000000004
+          },
+          "listeningValidation": "pending",
+          "start": 0
+        }
+      ],
+      "sha256": "394ca3174a3c4bd0b19ac7ab68b24b3700540aecc5765340eee023a4793084d2",
+      "voiceHandles": {
+        "body": {
+          "start": 0.092,
+          "end": 89.872,
+          "retainedPcmSha256": "2d089e80a23ac981c9f90ab2295a644b6c2ce0eaeb65cb675a32bbe720c4b23a",
+          "sourceSha256": "d8665ccd70024386911001fb532822ce6e61bafb36e12b42e41613d137de80ad",
+          "allRetainedSamplesIdentical": true
+        },
+        "title": {
+          "start": 0,
+          "end": 4.165,
+          "retainedPcmSha256": "d3f841ae83076a4956387103719a48a8e0a77d4d98e300244b8b59ae5e5097ac",
+          "sourceSha256": "9ce375b540b9a360e6664fee3245234b87803497107032f2ff9ae4f0250b5416",
+          "allRetainedSamplesIdentical": true
+        }
+      },
+      "voiceApproval": {
+        "status": "approved",
+        "approvedAt": "2026-11-27",
+        "sourceTakeSha256": "c0103ed1a4b72edce24595144bb380dd0b87932789ed8f8b6974aec650e987b5",
+        "sourceBatch": "L47",
+        "confirmation": "Docent 27/11: totes les veus rebudes pendents de revisió validades per muntatge, excepte S131 i S142."
       }
     }
   ]

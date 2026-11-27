@@ -1,5 +1,7 @@
 # Muntatges i noves veus · 26/11/2026
 
+**Actualització del 27/11:** els vuit muntatges de la taula següent ja són [publicacions definitives](publicacio-2026-11-27-vuit.md). Hi ha [set muntatges nous](veus-i-muntatges-2026-11-27.md) després de validar la resta de veus, amb les excepcions S131/S142 en cua d’esmena. La taula conserva el resultat inicial del 26/11; l’estat viu és al [seguiment de producció](seguiment-produccio.md).
+
 ## Muntatges per escoltar
 
 | Codi | Muntatge | Situació |

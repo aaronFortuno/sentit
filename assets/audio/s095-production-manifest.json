@@ -1,7 +1,7 @@
 {
   "code": "S095",
   "activity": "ca-S095",
-  "state": "awaiting-montage-validation",
+  "state": "published",
   "file": "s095-mixed-v1.mp3",
   "introFile": "s095-mixed-v1-intro.mp3",
   "bodyFile": "s095-mixed-v1-cos.mp3",
@@ -96,5 +96,13 @@
     "spokenWordsChanged": false,
     "sourceTakeSha256": "b4ee57151a66ed8c7e4c63e8e030dd453bd1d02e2ccbb7601212fb3a21844712",
     "illustration": "./assets/images/s095-publicacio-v1.webp"
+  },
+  "teacherValidation": {
+    "validatedAt": "2026-11-27",
+    "validatedBy": "docent",
+    "confirmation": "Els 8 muntatges finals que teníem pendents de revisió queden validats per publicació definitiva",
+    "audioSha256": "1757767033c5369a4144cdb9b588fbb6b680c7ccd2206c1c2b337a506c61a5d9",
+    "editorialFingerprint": "02100f358d48f5665d0578cde25f9cca7ff53ac99c2fdfeac6c4c3eed95d4661",
+    "listeningApproval": true
   }
 }

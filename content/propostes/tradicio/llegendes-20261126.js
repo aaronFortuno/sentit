@@ -27,6 +27,9 @@ export const legendExpansionDrafts = [
       q('falta','Per què al pont li falta una pedra al final?','Perquè el diable abandona l’última pedra quan creu que ha perdut el tracte.',['Perquè la riuada s’emporta una pedra del pont acabat.','Perquè el diable abandona l’última pedra en creure que ha perdut.','Perquè la mestressa s’endú una pedra al galliner.','Perquè la minyona amaga la primera pedra del pont.'],'b','El diable encara transporta l’última pedra quan sent els galls i l’abandona.',[e('gall','el diable passava amb l’última pedra del pont'),e('pedra','Va deixar caure la pedra i va marxar furiós')],2)
     ]}),
   cultural({code:'S136',id:'sant-mer-i-el-drac-de-banyoles',title:'Sant Mer i el drac de Banyoles',grade:'4',level:'middle',universeIds:['llegendes-mon'],
+    seconds: 103, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s136-mixed-v1.mp3', tracks: { introduction: './assets/audio/s136-mixed-v1-intro.mp3', body: './assets/audio/s136-mixed-v1-cos.mp3' },
+    fragment: { start: 6.180000000000001, seconds: 96 },
     introduction:'Comprensió oral. Sant Mer i el drac de Banyoles. Una llegenda de l’estany.',
     summary:'Un drac té atemorida la gent de Banyoles. Un monjo s’acosta al seu cau i la trobada pren un camí inesperat.',
     context:'Aquesta llegenda se situa a Banyoles, una població que té un estany al costat. Escolta com es desenvolupa la trobada entre els personatges en aquesta adaptació.',
@@ -78,6 +81,9 @@ export const legendExpansionDrafts = [
       q('diferencia','Quina diferència hi ha entre el que creuen els francesos i el que passa a la muntanya?','Creuen que arriben molts tambors, però senten un tambor repetit per l’eco.',['Creuen que arriben molts tambors, però senten un tambor repetit per l’eco.','Creuen que hi ha un sol tambor, però han arribat molts reforços.','Creuen que toquen les roques, però els defensors piquen amb les armes.','Creuen que els reforços ja marxen, però encara s’estan reunint.'],'a','Relacionar el ressò amb la interpretació dels soldats permet distingir el so real de la tropa que s’imaginen.',[e('eco','El so rebotava entre les roques'),e('eco','el so del seu instrument s’escampava'),e('creença','S’imaginaven una gran tropa de reforç avançant acompanyada de tambors')],2)
     ]}),
   cultural({code:'S138',id:'el-flautista-dhamelin',title:'El flautista d’Hamelín',grade:'5',level:'advanced',universeIds:['llegendes-mon'],
+    seconds: 129, status: 'ready-for-review', reviewStatus: 'audio-review',
+    audio: './assets/audio/s138-mixed-v1.mp3', tracks: { introduction: './assets/audio/s138-mixed-v1-intro.mp3', body: './assets/audio/s138-mixed-v1-cos.mp3' },
+    fragment: { start: 6.98, seconds: 121 },
     introduction:'Comprensió oral. El flautista d’Hamelín. Una llegenda recollida pels germans Grimm.',
     summary:'Un músic ofereix una solució a la plaga de rates d’una ciutat. Després de la seva feina, els habitants canvien de parer sobre el tracte.',
     context:'Aquesta llegenda alemanya té diverses versions. Escolta aquesta adaptació i segueix les dues visites del músic a la ciutat. Les preguntes es refereixen a la versió que sentiràs.',
