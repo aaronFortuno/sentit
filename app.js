@@ -1,3 +1,4 @@
+import { mountChangelog } from './ortografi-base/changelog.js?v=0.5.0';
 import { mountLicense } from './ortografi-base/license.js?v=0.3.0';
 import { mountV4V } from './ortografi-base/v4v.js?v=0.4.0';
 import { activities, legacyActivities } from './catalogue.js';
@@ -744,7 +745,7 @@ mountV4V(byId('v4v'), document.querySelector('[data-of-open="v4v"]'), {
 });
 for (const button of document.querySelectorAll('[data-open]')) {
   const dialog = byId(button.dataset.open);
-  button.addEventListener('click', () => { openDialog(dialog);if(button.dataset.open==='changes')track('consulta_canvis'); });
+  button.addEventListener('click', () => { openDialog(dialog); });
 }
 for (const element of document.querySelectorAll('[data-icon]')) {
   if (Object.hasOwn(icons, element.dataset.icon)) icon(element, element.dataset.icon);
@@ -773,3 +774,5 @@ route();
 if(listenId===null && query.has('musiques'))musicPreview.open(query.get('musiques'));
 
 mountLicense(document.getElementById('project-license'), document.getElementById('license-open'));
+
+mountChangelog(document.getElementById('changes'), document.querySelector('[data-of-release="changes"]'), { onOpen: () => track('consulta_canvis') });

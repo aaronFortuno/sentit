@@ -17,7 +17,7 @@
   <title>Sentit · Comprensió oral</title>
   <script defer src="./assets/vendor/qrcode.js"></script>
   <script type="module" src="./app.js?v=0.1.136"></script>
-  <link rel="stylesheet" href="./ortografi-base/shell.css?v=0.4.0">
+  <link rel="stylesheet" href="./ortografi-base/shell.css?v=0.5.0">
 </head>
 <body>
   <a class="skip" href="#workspace" data-t="skip">Ves al contingut</a>
@@ -294,7 +294,7 @@
       <div class="footer-context"><span class="motto" data-t="motto">Escolta. Entén. Respon.</span><label class="provisional-option footer-provisional" title="Funció experimental"><input id="show-provisional" type="checkbox" role="switch" checked><span data-t="showProvisionalExperimental">Només provisionals · experimental</span></label></div>
       <a class="parent-brand of-signature" href="https://ortogra.fi/"><span data-t="parent">Un projecte d’</span><img src="./assets/ortografi.svg" width="83" height="20" alt="ortogra.fi"></a>
       <div class="of-footer-tools">
-          <button type="button" class="of-footer-action" data-open="changes" data-label="changes" aria-label="Canvis" title="Canvis" aria-haspopup="dialog" aria-controls="changes"><svg class="of-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="6" x2="6" y1="3" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></svg><span class="of-footer-label">v0.1.136</span></button>
+          <button type="button" class="of-footer-action" data-of-release="changes" data-label="changes" aria-label="Canvis" title="Canvis" aria-haspopup="dialog" aria-controls="changes"><svg class="of-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="6" x2="6" y1="3" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></svg><span class="of-footer-label">v0.1.136</span></button>
           <button type="button" class="of-footer-action" id="license-open" aria-haspopup="dialog" aria-controls="project-license" aria-label="Llicència" title="Llicència" data-label="license"><svg class="of-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v16"/><path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z"/></svg><span class="of-footer-label" data-t="license">Llicència</span></button>
           <a class="of-footer-action" href="https://github.com/aaronFortuno/sentit" target="_blank" rel="noopener noreferrer" aria-label="Repositori" title="Repositori" data-label="repo"><svg class="of-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><line x1="3" x2="9" y1="12" y2="12"/><line x1="15" x2="21" y1="12" y2="12"/></svg><span class="of-footer-label" data-t="repo">Repositori</span></a>
           <button type="button" class="of-footer-action" data-of-open="v4v" aria-haspopup="dialog" aria-controls="v4v" aria-label="V4V · Value for Value" title="Value for Value"><svg class="of-icon" viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19.414 14.414C21 12.828 22 11.5 22 9.5a5.5 5.5 0 0 0-9.591-3.676.6.6 0 0 1-.818.001A5.5 5.5 0 0 0 2 9.5c0 2.3 1.5 4 3 5.5l5.535 5.362a2 2 0 0 0 2.879.052 2.12 2.12 0 0 0-.004-3 2.124 2.124 0 1 0 3-3 2.124 2.124 0 0 0 3.004 0 2 2 0 0 0 0-2.828l-1.881-1.882a2.41 2.41 0 0 0-3.409 0l-1.71 1.71a2 2 0 0 1-2.828 0 2 2 0 0 1 0-2.828l2.823-2.762"/></svg><span class="of-footer-label">V4V</span></button>
@@ -368,292 +368,430 @@
     </div>
   </dialog>
 
-  <dialog id="changes" aria-labelledby="changes-title">
-    <div class="dialog-content">
-      <div class="dialog-head"><h2 id="changes-title" data-t="changes">Canvis</h2>
-        <form method="dialog"><button class="icon-button" type="submit" data-label="close"><span data-icon="close" aria-hidden="true"></span></button></form>
+  <dialog id="changes" class="of-dialog of-changelog" data-of-dialog aria-labelledby="changes-title">
+    <div class="of-v4v-heading">
+      <div class="of-changelog-heading">
+        <h2 id="changes-title" data-of-changelog="title">Historial de versions</h2>
+        <a href="https://github.com/aaronFortuno/sentit/blob/main/CHANGELOG.md" target="_blank" rel="noopener noreferrer"><span data-of-changelog="full">Historial complet</span> <span aria-hidden="true">↗</span></a>
       </div>
-      <a class="changelog-full" href="https://github.com/aaronFortuno/sentit/blob/main/CHANGELOG.md" target="_blank" rel="noopener noreferrer" data-t="fullChangelog">Changelog complet a GitHub</a>
-      <div class="changelog-scroll dialog-scroll">
-      <h3>0.1.136 <time datetime="2026-11-27" data-t="releaseDateUsageTracking">27 de novembre de 2026</time></h3>
-      <p data-t="releaseSevenTraditionFinal"></p>
-      <h3>0.1.135 <time datetime="2026-11-27" data-t="releaseDateUsageTracking">27 de novembre de 2026</time></h3>
-      <p data-t="releaseSevenTraditionMontages"></p>
-      <h3>0.1.134 <time datetime="2026-11-27" data-t="releaseDateUsageTracking">27 de novembre de 2026</time></h3>
-      <p data-t="releaseEightFinalMontages"></p>
-      <h3>0.1.133 <time datetime="2026-11-27" data-t="releaseDateUsageTracking">27 de novembre de 2026</time></h3>
-      <p data-t="releaseUniverseSimplification"></p>
-      <h3>0.1.132 <time datetime="2026-11-27" data-t="releaseDateUsageTracking">27 de novembre de 2026</time></h3>
-      <p data-t="releaseTranscriptOrder"></p>
-      <h3>0.1.131 <time datetime="2026-11-27" data-t="releaseDateUsageTracking">27 de novembre de 2026</time></h3>
-      <p data-t="releaseDifficultyFeedback"></p>
-      <h3>0.1.130 <time datetime="2026-11-27" data-t="releaseDateUsageTracking">27 de novembre de 2026</time></h3>
-      <p data-t="releaseUsageTracking"></p>
-      <h3>0.1.129 <time datetime="2026-11-26" data-t="releaseDateTraditionExpansion">26 de novembre de 2026</time></h3>
-      <p data-t="releaseTraditionVoicesAndReviewSpeed"></p>
-      <h3>0.1.128 <time datetime="2026-11-26" data-t="releaseDateTraditionExpansion">26 de novembre de 2026</time></h3>
-      <p data-t="releaseCulturalSourcesAndMontages"></p>
-      <h3>0.1.127 <time datetime="2026-11-26" data-t="releaseDateTraditionExpansion">26 de novembre de 2026</time></h3>
-      <p data-t="releaseNineFinalPublications"></p>
-      <h3>0.1.126 <time datetime="2026-11-26" data-t="releaseDateTraditionExpansion">26 de novembre de 2026</time></h3>
-      <p data-t="releaseApprovedMusicMontage"></p>
-      <h3>0.1.125 <time datetime="2026-11-26" data-t="releaseDateTraditionExpansion">26 de novembre de 2026</time></h3>
-      <p data-t="releaseFableMusicAlternatives"></p>
-      <h3>0.1.124 <time datetime="2026-11-26" data-t="releaseDateTraditionExpansion">26 de novembre de 2026</time></h3>
-      <p data-t="releaseModularAudio"></p>
-      <h3>0.1.123 <time datetime="2026-11-26" data-t="releaseDateTraditionExpansion">26 de novembre de 2026</time></h3>
-      <p data-t="releaseAudioArchive"></p>
-      <h3>0.1.122 <time datetime="2026-11-26" data-t="releaseDateTraditionExpansion">26 de novembre de 2026</time></h3>
-      <p data-t="releaseNarrationMusic"></p>
-      <h3>0.1.121 <time datetime="2026-11-26" data-t="releaseDateTraditionExpansion">26 de novembre de 2026</time></h3>
-      <p data-t="releaseReviewedVoiceMontages">S109, S088, S081 i S090: muntatges amb les esmenes validades. S017 conserva les veus originals i la neteja de respiracions. Tot pendent d’audició final. S107, S010 i S102 mantenen només les esmenes encara no resoltes; proves bones conservades.</p>
-      <h3>0.1.120 <time datetime="2026-11-26" data-t="releaseDateTraditionExpansion">26 de novembre de 2026</time></h3>
-      <p data-t="releaseS124Cases">S124: estoigs de guitarra amb forma i mida més realistes. Il·lustració corregida a la card, la fitxa i el solucionari, mantenint els personatges i l’àudio aprovat.</p>
-      <h3>0.1.119 <time datetime="2026-11-26" data-t="releaseDateTraditionExpansion">26 de novembre de 2026</time></h3>
-      <p data-t="releaseTraditionExpansion">Set noves publicacions definitives: S114, S116, S120, S123, S124, S125 i S126, amb il·lustracions i solucionaris nets. Dotze guions provisionals S131–S142 amb preguntes obertes/ABCD i revisió creuada, pendents del docent. S118, S085 i S093 amb muntatge per escoltar; primera esmena de S081 incorporada.</p>
-      <h3>0.1.118 <time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></h3>
-      <p data-t="releaseEquilibriPublication">Set publicacions definitives: S112, S113, S115, S117, S119, S121 i S127, amb il·lustracions i solucionaris nets. Set muntatges nous per escoltar: S114, S116, S120, S123, S124, S125 i S126. S122 espera una nova presa completa de les dues veus.</p>
-      <h3>0.1.117 <time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></h3>
-      <p data-t="releaseSevenBalanceMontages">S112, S113, S115, S117, S119, S121 i S127: veus validades i primers muntatges disponibles. Base comuna de notícies, ambient discret de pati o de taller, segons l’escena. Tot pendent d’audició de muntatge; cap síntesi nova.</p>
-      <h3>0.1.116 <time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></h3>
-      <p data-t="releaseL39L40Voices">Guions pendents validats. L39 i L40 rebuts: veus de S120–S127 i cinc comparacions d’esmena de S081, S107, S017 i S041. Dos paràgrafs de S017 en una sola presa contínua. Sense muntatge ni substitució automàtica; pilots S128–S130 esperen un lot més complet.</p>
-      <h3>0.1.115 <time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></h3>
-      <p data-t="releaseL38Voices">Veus rebudes de S112–S119 en un únic lot amb Erinome, més les esmenes S085/comiat, S093/confirmar i S102/final. Reproductors i comparacions disponibles; tot pendent d’audició, sense muntatge automàtic. Recuperació local del contenidor i metadades, sense repetir la petició ni alterar el ritme.</p>
-      <h3>0.1.114 <time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></h3>
-      <p data-t="releaseMoreScriptApprovals">Guions S112–S120, S123, S125 i S127 validats per a síntesi. S116 conserva la validació anterior. Seguiment dels lots amb esmenes pendents incloses, durada disponible i validacions que falten. L38 preparat amb vuit notícies i tres esmenes de la Mar, una sola veu i uns 6:08 estimats.</p>
-      <h3>0.1.113 <time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></h3>
-      <p data-t="releaseTraditionPilots">Tres pilots de faules, llegendes i mites: S128–S130, amb fonts, escaleta, context i 18 preguntes obertes/ABCD revisades independentment. Narrador flexible per completar lots. Set guions de la tanda anterior validats per a síntesi; encara sense peticions noves.</p>
-      <h3>0.1.112 <time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></h3>
-      <p data-t="releaseBalancedScripts">Setze guions nous S112–S127 per equilibrar el catàleg: notícies breus, explicacions, instruccions i entrevistes, amb 88 preguntes duals, context i escaleta. Revisió adversària superada; pendents de validació docent. Tres candidats de síntesi amb esmenes, sense enviar cap petició.</p>
-      <h3>0.1.111 <time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></h3>
-      <p data-t="releaseFullQuestionChoices">Doble format complet a les 119 comprensions: 891 alternatives ABCD i 4 preguntes que mantenen resposta oberta amb motiu. Revisió creuada independent i solucionaris amb clau i evidències. Les alternatives noves esperen validació docent; guions, àudios i aprovacions intactes.</p>
-      <h3>0.1.110 <time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></h3>
-      <p data-t="releaseRealPrintSamples">S058 publicada definitivament amb il·lustració i solucionari net: 101 comprensions definitives. La tria de format mostra retalls del full imprimible real, amb dues línies de resposta o quatre opcions ABCD i degradat transparent a la dreta.</p>
-      <h3>0.1.109 <time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></h3>
-      <p data-t="releaseQuestionPreference">S061, S071, S022, S059 i S025 definitives: 100 comprensions publicades. Primera tria de format textual/ABCD amb exemples, memòria entre fitxes i sessions i «Tria de nou» al primer bloc d’impressió. S058 muntada i pendent d’audició final, sense síntesi nova.</p>
-      <h3>0.1.108 <time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></h3>
-      <p data-t="releaseFiveRepairedMontages">S022, S025, S059, S061 i S071 amb les esmenes validades incorporades als muntatges. S022 utilitza la segona prova de rails; S025 manté retirats clic i cadira; S061 recupera el títol. Les cinc peces esperen audició final. Pilot ABCD validat pel docent i avís provisional retirat. Pla de les 20 preses d’esmena pendents actualitzat, sense peticions noves de síntesi.</p>
-      <h3>0.1.107 <time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></h3>
-      <p data-t="releaseFiveFinalPublications">S094, S111, S099, S072 i S089 publicades definitivament, amb il·lustracions pròpies i els àudios aprovats intactes.</p>
-      <h3>0.1.106 <time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></h3>
-      <p data-t="releaseQuestionChoices">Pilot de resposta oberta o ABCD a S001–S005 i S004D.</p>
-      <h3>0.1.105 <time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></h3>
-      <p data-t="releaseLeakMontage">S099, S111, S094, S072 i S089 amb muntatges per escoltar, amb ambients i música segons l’escena. S072 incorpora una base suau per a Ferran. Omissions de S088/S090 confirmades i en cua per a properes peticions. Sense síntesi nova de veu.</p>
-      <h3>0.1.104 <time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></h3>
-      <p data-t="releaseNineFinalPublications">Nou comprensions més publicades definitivament, amb il·lustracions pròpies revisades i els àudios aprovats intactes. S074 és diàleg; S056 i S097 tanquen les esmenes incorporades. Fitxes i solucionaris nets comprovats. Ja no queda cap muntatge pendent d’audició final.</p>
-      <h3>0.1.103 <time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></h3>
-      <p data-t="releaseHandoffPublications">Tretze comprensions publicades definitivament amb els àudios validats al traspàs. Il·lustracions contextuals integrades, fitxes i solucionaris nets comprovats. S076 és diàleg; les altres nou peces amb muntatge pendent conserven el seu estat.</p>
-      <h3>0.1.102 <time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></h3>
-      <p data-t="releasePicnicMontage">S087, S100, S104, S106, S108 i S110 amb muntatges per escoltar. Esmenes validades de S056 i S097 incorporades, amb la resta de les veus intacta. S107 espera corregir «funda» de l’Elies. Sense síntesi nova.</p>
-      <h3>0.1.101 <time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></h3>
-      <p data-t="releaseLecternMontage">S105 amb veus validades i muntatge per escoltar, amb ambient de taller molt tènue. S109 té dues esmenes de Ferran en cua: «passeig» i «bassals». Originals conservats, sense síntesi nova.</p>
-      <h3>0.1.100 <time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></h3>
-      <p data-t="releaseWorkshopVoices">Vuit comprensions noves amb veus per revisar i cinc fragments d’esmena rebuts. Deu muntatges preparats després de validar les veus, amb ambients enregistrats molt tènues. S085, S093, S095 i S102 tenen correccions en cua; seguiment i documentació al dia.</p>
-      <h3>0.1.99 <time datetime="2026-11-24" data-t="releaseDateNewUniverses">24 de novembre de 2026</time></h3>
-      <p data-t="releaseFourCompleteBatches">Quatre lots rebuts: disset preses per escoltar i l’inici que faltava de S056, abans de muntar. S097 té un avís perquè falta el títol i la primera intervenció. S092 i S093 es tracten de vostè, i S095 tanca amb un comiat neutre. Validacions i seguiment actualitzats.</p>
-      <h3>0.1.98 <time datetime="2026-11-24" data-t="releaseDateNewUniverses">24 de novembre de 2026</time></h3>
-      <p data-t="releaseHandsAndWalks">Mans a l’obra i A peu de camí: quatre guions de cada univers per a 3r–6è, amb preguntes, contextos i escaletes revisats independentment. Taller amb Biel i Elies, passejades amb Aina i Ferran. Totes les pistes són escoltables, sense mapa ni imatge necessaris. Pendents de validació docent; cap síntesi nova.</p>
-      <h3>0.1.97 <time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></h3>
-      <p data-t="releaseEverydayServices">Dotze guions nous de serveis i gestions per a cicle superior i ESO: transports, compres, reclamacions, tràmits i una visita de la pèrita. Preguntes, contextos i escaletes revisats independentment, pendents del docent. Quatre agrupacions candidates per completar lots, sense síntesi nova.</p>
-      <h3>0.1.96 <time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></h3>
-      <p data-t="releaseDailyCompleteBatches">Cinc guions quotidians validats i dos lots rebuts: set comprensions i set proves de veu. Comparacions diferenciades de «raíls» i «raïls» i presentació de S061 per escoltar. S088 i S090 tenen fragments assenyalats per revisar. S055, S083 i S084 passen a muntatge; S056 espera reposar l’inici.</p>
-      <h3>0.1.95 <time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></h3>
-      <p data-t="releaseMarPilotVoices">Guions S083–S086 validats: S084 es diu «Paper de regal» i S086 simplifica la compra al forn. Veus de S055, S056, S083 i S084 rebudes amb el pilot multimodal al final de L29, separat per revisar. S056 té la presentació incompleta; cap muntatge ni audició aprovats.</p>
-      <h3>0.1.94 <time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></h3>
-      <p data-t="releaseDailyFerranFriends">Cinc guions quotidians més: Ferran a la botiga, a la biblioteca i de passeig; Laia i Biel al parc. Preguntes, contextos i escaletes revisats independentment, pendents de validació docent. Pla de lots actualitzat i pilot multimodal prioritari conservat. Cap síntesi enviada.</p>
-      <h3>0.1.93 <time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></h3>
-      <p data-t="releaseDailyMar">Situacions quotidianes: quatre guions de la Mar fora de la ràdio, amb convidats ocasionals i materials per validar. Nou univers filtrable, revisió independent i pla del pilot multimodal al final del proper lot compatible. Cap síntesi enviada.</p>
-      <h3>0.1.92 <time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></h3>
-      <p data-t="releaseSeventeenFinal">Disset comprensions amb publicació definitiva i els àudios aprovats conservats. Il·lustracions contextuals, transcripcions netes i seguiment actualitzat. S024 tanca la prova de timbre; les peces publicades deixen de mostrar les antigues veus de revisió.</p>
-      <h3>0.1.91 <time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></h3>
-      <p data-t="releaseReviewedVoiceSplices">Sis publicacions definitives il·lustrades i sis muntatges amb represes incorporades per revisar. S024 permet comparar el muntatge anterior i la prova de timbre. S061 conserva el cos de veus validat i espera el títol. Briefing de la línia multimodal disponible al repositori; cap síntesi nova.</p>
-      <h3>0.1.90 <time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></h3>
-      <p data-t="releaseCinemaClassroomMontages">S045D, S063, S064, S065, S068D i S071D amb veus validades i muntatges preparats per escoltar, amb música compartida amb les versions narrades o ambient continu d’aula. Esmenes de S070 (s’asseia) i S071 (Aina/Eina) en cua. Cap síntesi nova.</p>
-      <h3>0.1.89 <time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></h3>
-      <p data-t="releaseTwelveFinalElevenMontages">Dotze comprensions definitives amb il·lustracions i transcripcions netes. Onze muntatges nous amb veus validades, pendents d’audició final; seguiment i crèdits actualitzats. S033 es manté com a entrevista. Cap síntesi nova.</p>
-      <h3>0.1.88 <time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></h3>
-      <p data-t="releaseTwoMoreVoiceBatches">Veus rebudes de S063, S064, S065, S068D i S071D, més esmenes de S007, S024 i S069 per comparar. Dos lots complets addicionals; set peticions registrades, sense reintents. Tot pendent d’audició, sense substituir muntatges.</p>
-      <h3>0.1.87 <time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></h3>
-      <p data-t="releaseThreeFinalPublications">S021, S037 i S043 definitives amb els àudios validats, il·lustracions de context i solucionaris nets. Seguiment i crèdits actualitzats; cap síntesi nova.</p>
-      <h3>0.1.86 <time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></h3>
-      <p data-t="releaseVoiceBatchesAndMontages">Cinc lots rebuts amb veus per a catorze comprensions i esmenes de S029 i S082 per comparar. Dotze muntatges nous pendents d’audició, diàlegs i nivells ajustats. S061 espera la presentació i S081, dues esmenes de veu. Seguiment i crèdits actualitzats.</p>
-      <h3>0.1.85 <time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></h3>
-      <p data-t="releaseCinemaDialogueApproved">S045D, S053, S055, S064, S071D i S080 validades per a síntesi. P16 té les tres variants dialogades aprovades, amb una previsió de 6:50; els blocs de notícies, aula i taller tenen tots els guions validats. Seguiment i cua actualitzats, sense cap síntesi nova.</p>
-      <h3>0.1.84 <time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></h3>
-      <p data-t="releaseMoreFerranDialogues">S054, S056, S059, S065, S068 i S071 validades per a síntesi. Noves S068D i S071D dialogades amb l’Aina i en Ferran, amb preguntes, solucionaris i escaletes per validar. Entrades de Ferran més variades i cua de lots actualitzada. Cap síntesi nova.</p>
-      <h3>0.1.83 <time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></h3>
-      <p data-t="releaseFinalFourAndCleanBeds">S006, S034, S035 i S047 definitives, amb il·lustracions i solucionaris nets. S021 i S037 remuntades amb ambients continus i finals nets; pendents d’audició. S007 amb pauses netes i un altre fons d’aula; una frase del Biel pendent d’esmena de veu. Cap síntesi nova.</p>
-      <h3>0.1.82 <time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></h3>
-      <p data-t="releasePublishingAndAmbience">Vuit publicacions definitives amb il·lustracions i solucionaris nets. S035, S043 i S047 amb muntatges revisats per tornar a escoltar. S029 amb presentació recuperada i primer paràgraf en cua; noves validacions de guions i qualificacions actualitzades.</p>
-      <h3>0.1.81 <time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></h3>
-      <p data-t="releaseFourVoiceBatches">Quatre lots rebuts amb veus per a deu comprensions, disponibles a les fitxes per escoltar-les abans de fer el muntatge. Originals conservats i metadades intercalades retirades en local. Seguiment de producció i cua actualitzats.</p>
-      <h3>0.1.80 <time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></h3>
-      <p data-t="releaseAudioBookends">S009, S023, S030, S031 i S050 definitives, amb il·lustracions i solucionaris nets. S014, S026, S034, S035, S042 i S047 remuntades amb els efectes, silencis i ambients revisats; pendents d’última escolta. Cap síntesi de veu nova.</p>
-      <h3>0.1.79 <time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></h3>
-      <p data-t="releaseReportControls">Bandera de notificació amb proporcions corregides. El formulari permet consultar i triar opcions amb GPC o DNT actius; només l’enviament queda bloquejat.</p>
-      <h3>0.1.78 <time datetime="2026-11-22" data-t="releaseDateReviewUpdates">22 de novembre de 2026</time></h3>
-      <p data-t="releaseHallwayRevision">S044 amb ambient de passadís esmorteït, sense clics ni efectes previs al diàleg; pendent d’audició. Reproducció verificada a les fitxes de S028, S048, S049 i S050.</p>
-      <h3>0.1.77 <time datetime="2026-11-22" data-t="releaseDateReviewUpdates">22 de novembre de 2026</time></h3>
-      <p data-t="releaseBatchesAndCinema">Esmenes de veu comparables a la fitxa, nou pas d’audició abans del muntatge i nova base comuna per a les notícies de la Mar. S030 amb ambient continu de passadís. Lots de Ferran i Laia/Biel rebuts; S061 amb títol pendent i L19 amb error intern de Gemini. S067 passa a 1r d’ESO intermèdia i S010 a 5è intermèdia; S045D espera validació pròpia.</p>
-      <h3>0.1.76 <time datetime="2026-11-22" data-t="releaseDateReviewUpdates">22 de novembre de 2026</time></h3>
-      <p data-t="releaseS046Dialogue"></p>
-      <h3>0.1.75 <time datetime="2026-11-22" data-t="releaseDateReviewUpdates">22 de novembre de 2026</time></h3>
-      <p data-t="releaseS069Dialogue"></p>
-      <h3>0.1.74 <time datetime="2026-11-22" data-t="releaseDateReviewUpdates">22 de novembre de 2026</time></h3>
-      <p data-t="releaseContextAndCardFix"></p>
-      <h3>0.1.73 <time datetime="2026-11-22" data-t="releaseDateReviewUpdates">22 de novembre de 2026</time></h3>
-      <p data-t="releaseListeningContexts"></p>
-      <h3>0.1.72 <time datetime="2026-11-22" data-t="releaseDateReviewUpdates">22 de novembre de 2026</time></h3>
-      <p data-t="releasePlainVoiceBatch"></p>
-      <h3>0.1.71 <time datetime="2026-11-22" data-t="releaseDateReviewUpdates">22 de novembre de 2026</time></h3>
-      <p data-t="releaseUpperPrimaryScripts"></p>
-      <h3>0.1.70 <time datetime="2026-11-22" data-t="releaseDateReviewUpdates">22 de novembre de 2026</time></h3>
-      <p data-t="releaseInlineAudio"></p>
-      <h3>0.1.69 <time datetime="2026-11-22" data-t="releaseDateReviewUpdates">22 de novembre de 2026</time></h3>
-      <p data-t="releaseCycleMiddle"></p>
-      <h3>0.1.68 <time datetime="2026-11-22" data-t="releaseDateReviewUpdates">22 de novembre de 2026</time></h3>
-      <p data-t="releaseReviewUpdates"></p>
-      <h3>0.1.67 <time datetime="2026-11-21" data-t="releaseDateS033">21 de novembre de 2026</time></h3>
-      <p data-t="releaseNewsMontages"></p>
-      <h3>0.1.66 <time datetime="2026-11-21" data-t="releaseDateS033">21 de novembre de 2026</time></h3>
-      <p data-t="releaseTimingAndPublications"></p>
-      <h3>0.1.65 <time datetime="2026-11-21" data-t="releaseDateS033">21 de novembre de 2026</time></h3>
-      <p data-t="releaseFilterCounts"></p>
-      <h3>0.1.64 <time datetime="2026-11-21" data-t="releaseDateS033">21 de novembre de 2026</time></h3>
-      <p data-t="releaseMixedMontages"></p>
-      <h3>0.1.63 <time datetime="2026-11-21" data-t="releaseDateS033">21 de novembre de 2026</time></h3>
-      <p data-t="releaseFirstMixedBatch"></p>
-      <h3>0.1.62 <time datetime="2026-11-21" data-t="releaseDateS033">21 de novembre de 2026</time></h3>
-      <p data-t="releaseClassroomRegister"></p>
-      <h3>0.1.61 <time datetime="2026-11-21" data-t="releaseDateS033">21 de novembre de 2026</time></h3>
-      <p data-t="releaseS030AndS040Approved"></p>
-      <h3>0.1.60 <time datetime="2026-11-21" data-t="releaseDateS033">21 de novembre de 2026</time></h3>
-      <p data-t="releaseNaturalnessBatch"></p>
-      <h3>0.1.59 <time datetime="2026-11-21" data-t="releaseDateS033">21 de novembre de 2026</time></h3>
-      <p data-t="releaseS039AndGuidance"></p>
-      <h3>0.1.58 <time datetime="2026-11-21" data-t="releaseDateS033">21 de novembre de 2026</time></h3>
-      <p data-t="releaseS031AndS026"></p>
-      <h3>0.1.57 <time datetime="2026-11-21" data-t="releaseDateS033">21 de novembre de 2026</time></h3>
-      <p data-t="releaseS029Approved"></p>
-      <h3>0.1.56 <time datetime="2026-11-21" data-t="releaseDateS033">21 de novembre de 2026</time></h3>
-      <p data-t="releaseS040Context"></p>
-      <h3>0.1.55 <time datetime="2026-11-21" data-t="releaseDateS033">21 de novembre de 2026</time></h3>
-      <p data-t="releaseS032Context"></p>
-      <h3>0.1.54 <time datetime="2026-11-21" data-t="releaseDateS033">21 de novembre de 2026</time></h3>
-      <p data-t="releaseS033Context"></p>
-      <h3>0.1.53 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
-      <p data-t="releaseUniversesAndDrafts"></p>
-      <h3>0.1.52 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
-      <p data-t="releaseS020Published"></p>
-      <h3>0.1.51 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
-      <p data-t="releaseProductionStages"></p>
-      <h3>0.1.50 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
-      <p data-t="releaseDraftOnly"></p>
-      <h3>0.1.49 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
-      <p data-t="releasePublicationMaterials"></p>
-      <h3>0.1.48 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
-      <p data-t="releasePublishedRadio"></p>
-      <h3>0.1.47 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
-      <p data-t="releasePrintGroups"></p>
-      <h3>0.1.46 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
-      <p data-t="releaseAudioGroups"></p>
-      <h3>0.1.45 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
-      <p data-t="releaseWorkspacePanels"></p>
-      <h3>0.1.44 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
-      <p data-t="releaseSoundReview"></p>
-      <h3>0.1.43 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
-      <p data-t="releasePublishedVariant"></p>
-      <h3>0.1.42 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
-      <p data-t="releasePuddleAnalogy"></p>
-      <h3>0.1.41 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
-      <p data-t="releaseDescriptiveUniverses"></p>
-      <h3>0.1.40 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
-      <p data-t="releaseCatalogueUniverses"></p>
-      <h3>0.1.39 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
-      <p data-t="releaseCompactCatalogue"></p>
-      <h3>0.1.38 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
-      <p data-t="releaseAudioReviewCards"></p>
-      <h3>0.1.37 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
-      <p data-t="releaseContextsAndJingles"></p>
-      <h3>0.1.36 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
-      <p data-t="releaseButtonAndResearch"></p>
-      <h3>0.1.35 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
-      <p data-t="releaseNaturalClosings"></p>
-      <h3>0.1.34 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
-      <p data-t="releaseNarrationMusic"></p>
-      <h3>0.1.33 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
-      <p data-t="releaseS023Greeting"></p>
-      <h3>0.1.32 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
-      <p data-t="releaseNewProductions"></p>
-      <h3>0.1.31 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
-      <p data-t="releaseEditorialReview"></p>
-      <h3>0.1.30 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
-      <p data-t="releaseS003Revision"></p>
-      <h3>0.1.29 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
-      <p data-t="releaseCatalogDiscovery"></p>
-      <h3>0.1.28 <time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></h3>
-      <p data-t="releaseFullDraftCatalogue"></p>
-      <h3>0.1.27 <time datetime="2026-11-19" data-t="releaseDateReview">19 de novembre de 2026</time></h3>
-      <p data-t="releaseProductionStages"></p>
-      <h3>0.1.26 <time datetime="2026-11-19" data-t="releaseDateReview">19 de novembre de 2026</time></h3>
-      <p data-t="releaseReviewFirst">Les propostes pendents de validar s’obren al solucionari, amb el guió i l’escaleta abans de les preguntes.</p>
-      <h3>0.1.25 <time datetime="2026-11-19" data-t="releaseDateReview">19 de novembre de 2026</time></h3>
-      <p data-t="releaseRadioAnalytics"></p>
-      <h3>0.1.24 <time datetime="2026-11-19" data-t="releaseDateReview">19 de novembre de 2026</time></h3>
-      <p data-t="releaseDraftReview"></p>
-      <h3>0.1.23 <time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></h3>
-      <p data-t="releaseSound"></p>
-      <h3>0.1.22 <time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></h3>
-      <p data-t="releaseCharacterExplorer">Coneix els personatges des del header: retrats, presentacions i accés a les seves comprensions. Nou filtre per un o més personatges, amb coincidència de qualsevol o de tots junts. Presentacions amb veu preparades per afegir-hi els àudios.</p>
-      <h3>0.1.21 <time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></h3>
-      <p data-t="releaseCharacters">Vuit personatges recurrents amb fitxes gràfiques, personalitat, interessos i veus de referència. Noves il·lustracions amb identitats diferenciades i episodis independents. Les noves veus es marquen com a propostes pendents d’audició.</p>
+      <button type="button" data-of-close aria-label="Tanca l’historial" title="Tanca l’historial"><svg viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button>
+    </div>
+    <div class="of-v4v-scroll of-changelog-list" data-of-releases tabindex="0" role="region" aria-labelledby="changes-title">
+      <article class="of-release"><header><h3>v0.1.136</h3><time datetime="2026-11-27" data-t="releaseDateUsageTracking">27 de novembre de 2026</time></header>
+        <section><h4 data-of-changelog="materials">Materials</h4><ul><li data-t="releaseSevenTraditionFinal"></li></ul></section>
+      </article>
+      <article class="of-release"><header><h3>v0.1.135</h3><time datetime="2026-11-27" data-t="releaseDateUsageTracking">27 de novembre de 2026</time></header>
+        <section><h4 data-of-changelog="materials">Materials</h4><ul><li data-t="releaseSevenTraditionMontages"></li></ul></section>
+      </article>
+      <article class="of-release"><header><h3>v0.1.134</h3><time datetime="2026-11-27" data-t="releaseDateUsageTracking">27 de novembre de 2026</time></header>
+        <section><h4 data-of-changelog="materials">Materials</h4><ul><li data-t="releaseEightFinalMontages"></li></ul></section>
+      </article>
+      <article class="of-release"><header><h3>v0.1.133</h3><time datetime="2026-11-27" data-t="releaseDateUsageTracking">27 de novembre de 2026</time></header>
+        <p data-t="releaseUniverseSimplification"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.132</h3><time datetime="2026-11-27" data-t="releaseDateUsageTracking">27 de novembre de 2026</time></header>
+        <p data-t="releaseTranscriptOrder"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.131</h3><time datetime="2026-11-27" data-t="releaseDateUsageTracking">27 de novembre de 2026</time></header>
+        <p data-t="releaseDifficultyFeedback"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.130</h3><time datetime="2026-11-27" data-t="releaseDateUsageTracking">27 de novembre de 2026</time></header>
+        <p data-t="releaseUsageTracking"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.129</h3><time datetime="2026-11-26" data-t="releaseDateTraditionExpansion">26 de novembre de 2026</time></header>
+        <p data-t="releaseTraditionVoicesAndReviewSpeed"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.128</h3><time datetime="2026-11-26" data-t="releaseDateTraditionExpansion">26 de novembre de 2026</time></header>
+        <p data-t="releaseCulturalSourcesAndMontages"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.127</h3><time datetime="2026-11-26" data-t="releaseDateTraditionExpansion">26 de novembre de 2026</time></header>
+        <p data-t="releaseNineFinalPublications"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.126</h3><time datetime="2026-11-26" data-t="releaseDateTraditionExpansion">26 de novembre de 2026</time></header>
+        <p data-t="releaseApprovedMusicMontage"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.125</h3><time datetime="2026-11-26" data-t="releaseDateTraditionExpansion">26 de novembre de 2026</time></header>
+        <p data-t="releaseFableMusicAlternatives"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.124</h3><time datetime="2026-11-26" data-t="releaseDateTraditionExpansion">26 de novembre de 2026</time></header>
+        <p data-t="releaseModularAudio"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.123</h3><time datetime="2026-11-26" data-t="releaseDateTraditionExpansion">26 de novembre de 2026</time></header>
+        <p data-t="releaseAudioArchive"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.122</h3><time datetime="2026-11-26" data-t="releaseDateTraditionExpansion">26 de novembre de 2026</time></header>
+        <p data-t="releaseNarrationMusic"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.121</h3><time datetime="2026-11-26" data-t="releaseDateTraditionExpansion">26 de novembre de 2026</time></header>
+        <p data-t="releaseReviewedVoiceMontages">S109, S088, S081 i S090: muntatges amb les esmenes validades. S017 conserva les veus originals i la neteja de respiracions. Tot pendent d’audició final. S107, S010 i S102 mantenen només les esmenes encara no resoltes; proves bones conservades.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.120</h3><time datetime="2026-11-26" data-t="releaseDateTraditionExpansion">26 de novembre de 2026</time></header>
+        <p data-t="releaseS124Cases">S124: estoigs de guitarra amb forma i mida més realistes. Il·lustració corregida a la card, la fitxa i el solucionari, mantenint els personatges i l’àudio aprovat.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.119</h3><time datetime="2026-11-26" data-t="releaseDateTraditionExpansion">26 de novembre de 2026</time></header>
+        <p data-t="releaseTraditionExpansion">Set noves publicacions definitives: S114, S116, S120, S123, S124, S125 i S126, amb il·lustracions i solucionaris nets. Dotze guions provisionals S131–S142 amb preguntes obertes/ABCD i revisió creuada, pendents del docent. S118, S085 i S093 amb muntatge per escoltar; primera esmena de S081 incorporada.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.118</h3><time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></header>
+        <p data-t="releaseEquilibriPublication">Set publicacions definitives: S112, S113, S115, S117, S119, S121 i S127, amb il·lustracions i solucionaris nets. Set muntatges nous per escoltar: S114, S116, S120, S123, S124, S125 i S126. S122 espera una nova presa completa de les dues veus.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.117</h3><time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></header>
+        <p data-t="releaseSevenBalanceMontages">S112, S113, S115, S117, S119, S121 i S127: veus validades i primers muntatges disponibles. Base comuna de notícies, ambient discret de pati o de taller, segons l’escena. Tot pendent d’audició de muntatge; cap síntesi nova.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.116</h3><time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></header>
+        <p data-t="releaseL39L40Voices">Guions pendents validats. L39 i L40 rebuts: veus de S120–S127 i cinc comparacions d’esmena de S081, S107, S017 i S041. Dos paràgrafs de S017 en una sola presa contínua. Sense muntatge ni substitució automàtica; pilots S128–S130 esperen un lot més complet.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.115</h3><time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></header>
+        <p data-t="releaseL38Voices">Veus rebudes de S112–S119 en un únic lot amb Erinome, més les esmenes S085/comiat, S093/confirmar i S102/final. Reproductors i comparacions disponibles; tot pendent d’audició, sense muntatge automàtic. Recuperació local del contenidor i metadades, sense repetir la petició ni alterar el ritme.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.114</h3><time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></header>
+        <p data-t="releaseMoreScriptApprovals">Guions S112–S120, S123, S125 i S127 validats per a síntesi. S116 conserva la validació anterior. Seguiment dels lots amb esmenes pendents incloses, durada disponible i validacions que falten. L38 preparat amb vuit notícies i tres esmenes de la Mar, una sola veu i uns 6:08 estimats.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.113</h3><time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></header>
+        <p data-t="releaseTraditionPilots">Tres pilots de faules, llegendes i mites: S128–S130, amb fonts, escaleta, context i 18 preguntes obertes/ABCD revisades independentment. Narrador flexible per completar lots. Set guions de la tanda anterior validats per a síntesi; encara sense peticions noves.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.112</h3><time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></header>
+        <p data-t="releaseBalancedScripts">Setze guions nous S112–S127 per equilibrar el catàleg: notícies breus, explicacions, instruccions i entrevistes, amb 88 preguntes duals, context i escaleta. Revisió adversària superada; pendents de validació docent. Tres candidats de síntesi amb esmenes, sense enviar cap petició.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.111</h3><time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></header>
+        <p data-t="releaseFullQuestionChoices">Doble format complet a les 119 comprensions: 891 alternatives ABCD i 4 preguntes que mantenen resposta oberta amb motiu. Revisió creuada independent i solucionaris amb clau i evidències. Les alternatives noves esperen validació docent; guions, àudios i aprovacions intactes.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.110</h3><time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></header>
+        <p data-t="releaseRealPrintSamples">S058 publicada definitivament amb il·lustració i solucionari net: 101 comprensions definitives. La tria de format mostra retalls del full imprimible real, amb dues línies de resposta o quatre opcions ABCD i degradat transparent a la dreta.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.109</h3><time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></header>
+        <p data-t="releaseQuestionPreference">S061, S071, S022, S059 i S025 definitives: 100 comprensions publicades. Primera tria de format textual/ABCD amb exemples, memòria entre fitxes i sessions i «Tria de nou» al primer bloc d’impressió. S058 muntada i pendent d’audició final, sense síntesi nova.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.108</h3><time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></header>
+        <p data-t="releaseFiveRepairedMontages">S022, S025, S059, S061 i S071 amb les esmenes validades incorporades als muntatges. S022 utilitza la segona prova de rails; S025 manté retirats clic i cadira; S061 recupera el títol. Les cinc peces esperen audició final. Pilot ABCD validat pel docent i avís provisional retirat. Pla de les 20 preses d’esmena pendents actualitzat, sense peticions noves de síntesi.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.107</h3><time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></header>
+        <p data-t="releaseFiveFinalPublications">S094, S111, S099, S072 i S089 publicades definitivament, amb il·lustracions pròpies i els àudios aprovats intactes.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.106</h3><time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></header>
+        <p data-t="releaseQuestionChoices">Pilot de resposta oberta o ABCD a S001–S005 i S004D.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.105</h3><time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></header>
+        <p data-t="releaseLeakMontage">S099, S111, S094, S072 i S089 amb muntatges per escoltar, amb ambients i música segons l’escena. S072 incorpora una base suau per a Ferran. Omissions de S088/S090 confirmades i en cua per a properes peticions. Sense síntesi nova de veu.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.104</h3><time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></header>
+        <p data-t="releaseNineFinalPublications">Nou comprensions més publicades definitivament, amb il·lustracions pròpies revisades i els àudios aprovats intactes. S074 és diàleg; S056 i S097 tanquen les esmenes incorporades. Fitxes i solucionaris nets comprovats. Ja no queda cap muntatge pendent d’audició final.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.103</h3><time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></header>
+        <p data-t="releaseHandoffPublications">Tretze comprensions publicades definitivament amb els àudios validats al traspàs. Il·lustracions contextuals integrades, fitxes i solucionaris nets comprovats. S076 és diàleg; les altres nou peces amb muntatge pendent conserven el seu estat.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.102</h3><time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></header>
+        <p data-t="releasePicnicMontage">S087, S100, S104, S106, S108 i S110 amb muntatges per escoltar. Esmenes validades de S056 i S097 incorporades, amb la resta de les veus intacta. S107 espera corregir «funda» de l’Elies. Sense síntesi nova.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.101</h3><time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></header>
+        <p data-t="releaseLecternMontage">S105 amb veus validades i muntatge per escoltar, amb ambient de taller molt tènue. S109 té dues esmenes de Ferran en cua: «passeig» i «bassals». Originals conservats, sense síntesi nova.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.100</h3><time datetime="2026-11-25" data-t="releaseDateWorkshopVoices">25 de novembre de 2026</time></header>
+        <p data-t="releaseWorkshopVoices">Vuit comprensions noves amb veus per revisar i cinc fragments d’esmena rebuts. Deu muntatges preparats després de validar les veus, amb ambients enregistrats molt tènues. S085, S093, S095 i S102 tenen correccions en cua; seguiment i documentació al dia.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.99</h3><time datetime="2026-11-24" data-t="releaseDateNewUniverses">24 de novembre de 2026</time></header>
+        <p data-t="releaseFourCompleteBatches">Quatre lots rebuts: disset preses per escoltar i l’inici que faltava de S056, abans de muntar. S097 té un avís perquè falta el títol i la primera intervenció. S092 i S093 es tracten de vostè, i S095 tanca amb un comiat neutre. Validacions i seguiment actualitzats.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.98</h3><time datetime="2026-11-24" data-t="releaseDateNewUniverses">24 de novembre de 2026</time></header>
+        <p data-t="releaseHandsAndWalks">Mans a l’obra i A peu de camí: quatre guions de cada univers per a 3r–6è, amb preguntes, contextos i escaletes revisats independentment. Taller amb Biel i Elies, passejades amb Aina i Ferran. Totes les pistes són escoltables, sense mapa ni imatge necessaris. Pendents de validació docent; cap síntesi nova.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.97</h3><time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></header>
+        <p data-t="releaseEverydayServices">Dotze guions nous de serveis i gestions per a cicle superior i ESO: transports, compres, reclamacions, tràmits i una visita de la pèrita. Preguntes, contextos i escaletes revisats independentment, pendents del docent. Quatre agrupacions candidates per completar lots, sense síntesi nova.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.96</h3><time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></header>
+        <p data-t="releaseDailyCompleteBatches">Cinc guions quotidians validats i dos lots rebuts: set comprensions i set proves de veu. Comparacions diferenciades de «raíls» i «raïls» i presentació de S061 per escoltar. S088 i S090 tenen fragments assenyalats per revisar. S055, S083 i S084 passen a muntatge; S056 espera reposar l’inici.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.95</h3><time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></header>
+        <p data-t="releaseMarPilotVoices">Guions S083–S086 validats: S084 es diu «Paper de regal» i S086 simplifica la compra al forn. Veus de S055, S056, S083 i S084 rebudes amb el pilot multimodal al final de L29, separat per revisar. S056 té la presentació incompleta; cap muntatge ni audició aprovats.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.94</h3><time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></header>
+        <p data-t="releaseDailyFerranFriends">Cinc guions quotidians més: Ferran a la botiga, a la biblioteca i de passeig; Laia i Biel al parc. Preguntes, contextos i escaletes revisats independentment, pendents de validació docent. Pla de lots actualitzat i pilot multimodal prioritari conservat. Cap síntesi enviada.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.93</h3><time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></header>
+        <p data-t="releaseDailyMar">Situacions quotidianes: quatre guions de la Mar fora de la ràdio, amb convidats ocasionals i materials per validar. Nou univers filtrable, revisió independent i pla del pilot multimodal al final del proper lot compatible. Cap síntesi enviada.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.92</h3><time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></header>
+        <p data-t="releaseSeventeenFinal">Disset comprensions amb publicació definitiva i els àudios aprovats conservats. Il·lustracions contextuals, transcripcions netes i seguiment actualitzat. S024 tanca la prova de timbre; les peces publicades deixen de mostrar les antigues veus de revisió.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.91</h3><time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></header>
+        <p data-t="releaseReviewedVoiceSplices">Sis publicacions definitives il·lustrades i sis muntatges amb represes incorporades per revisar. S024 permet comparar el muntatge anterior i la prova de timbre. S061 conserva el cos de veus validat i espera el títol. Briefing de la línia multimodal disponible al repositori; cap síntesi nova.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.90</h3><time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></header>
+        <p data-t="releaseCinemaClassroomMontages">S045D, S063, S064, S065, S068D i S071D amb veus validades i muntatges preparats per escoltar, amb música compartida amb les versions narrades o ambient continu d’aula. Esmenes de S070 (s’asseia) i S071 (Aina/Eina) en cua. Cap síntesi nova.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.89</h3><time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></header>
+        <p data-t="releaseTwelveFinalElevenMontages">Dotze comprensions definitives amb il·lustracions i transcripcions netes. Onze muntatges nous amb veus validades, pendents d’audició final; seguiment i crèdits actualitzats. S033 es manté com a entrevista. Cap síntesi nova.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.88</h3><time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></header>
+        <p data-t="releaseTwoMoreVoiceBatches">Veus rebudes de S063, S064, S065, S068D i S071D, més esmenes de S007, S024 i S069 per comparar. Dos lots complets addicionals; set peticions registrades, sense reintents. Tot pendent d’audició, sense substituir muntatges.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.87</h3><time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></header>
+        <p data-t="releaseThreeFinalPublications">S021, S037 i S043 definitives amb els àudios validats, il·lustracions de context i solucionaris nets. Seguiment i crèdits actualitzats; cap síntesi nova.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.86</h3><time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></header>
+        <p data-t="releaseVoiceBatchesAndMontages">Cinc lots rebuts amb veus per a catorze comprensions i esmenes de S029 i S082 per comparar. Dotze muntatges nous pendents d’audició, diàlegs i nivells ajustats. S061 espera la presentació i S081, dues esmenes de veu. Seguiment i crèdits actualitzats.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.85</h3><time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></header>
+        <p data-t="releaseCinemaDialogueApproved">S045D, S053, S055, S064, S071D i S080 validades per a síntesi. P16 té les tres variants dialogades aprovades, amb una previsió de 6:50; els blocs de notícies, aula i taller tenen tots els guions validats. Seguiment i cua actualitzats, sense cap síntesi nova.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.84</h3><time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></header>
+        <p data-t="releaseMoreFerranDialogues">S054, S056, S059, S065, S068 i S071 validades per a síntesi. Noves S068D i S071D dialogades amb l’Aina i en Ferran, amb preguntes, solucionaris i escaletes per validar. Entrades de Ferran més variades i cua de lots actualitzada. Cap síntesi nova.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.83</h3><time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></header>
+        <p data-t="releaseFinalFourAndCleanBeds">S006, S034, S035 i S047 definitives, amb il·lustracions i solucionaris nets. S021 i S037 remuntades amb ambients continus i finals nets; pendents d’audició. S007 amb pauses netes i un altre fons d’aula; una frase del Biel pendent d’esmena de veu. Cap síntesi nova.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.82</h3><time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></header>
+        <p data-t="releasePublishingAndAmbience">Vuit publicacions definitives amb il·lustracions i solucionaris nets. S035, S043 i S047 amb muntatges revisats per tornar a escoltar. S029 amb presentació recuperada i primer paràgraf en cua; noves validacions de guions i qualificacions actualitzades.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.81</h3><time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></header>
+        <p data-t="releaseFourVoiceBatches">Quatre lots rebuts amb veus per a deu comprensions, disponibles a les fitxes per escoltar-les abans de fer el muntatge. Originals conservats i metadades intercalades retirades en local. Seguiment de producció i cua actualitzats.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.80</h3><time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></header>
+        <p data-t="releaseAudioBookends">S009, S023, S030, S031 i S050 definitives, amb il·lustracions i solucionaris nets. S014, S026, S034, S035, S042 i S047 remuntades amb els efectes, silencis i ambients revisats; pendents d’última escolta. Cap síntesi de veu nova.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.79</h3><time datetime="2026-11-23" data-t="releaseDateReportControls">23 de novembre de 2026</time></header>
+        <p data-t="releaseReportControls">Bandera de notificació amb proporcions corregides. El formulari permet consultar i triar opcions amb GPC o DNT actius; només l’enviament queda bloquejat.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.78</h3><time datetime="2026-11-22" data-t="releaseDateReviewUpdates">22 de novembre de 2026</time></header>
+        <p data-t="releaseHallwayRevision">S044 amb ambient de passadís esmorteït, sense clics ni efectes previs al diàleg; pendent d’audició. Reproducció verificada a les fitxes de S028, S048, S049 i S050.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.77</h3><time datetime="2026-11-22" data-t="releaseDateReviewUpdates">22 de novembre de 2026</time></header>
+        <p data-t="releaseBatchesAndCinema">Esmenes de veu comparables a la fitxa, nou pas d’audició abans del muntatge i nova base comuna per a les notícies de la Mar. S030 amb ambient continu de passadís. Lots de Ferran i Laia/Biel rebuts; S061 amb títol pendent i L19 amb error intern de Gemini. S067 passa a 1r d’ESO intermèdia i S010 a 5è intermèdia; S045D espera validació pròpia.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.76</h3><time datetime="2026-11-22" data-t="releaseDateReviewUpdates">22 de novembre de 2026</time></header>
+        <p data-t="releaseS046Dialogue"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.75</h3><time datetime="2026-11-22" data-t="releaseDateReviewUpdates">22 de novembre de 2026</time></header>
+        <p data-t="releaseS069Dialogue"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.74</h3><time datetime="2026-11-22" data-t="releaseDateReviewUpdates">22 de novembre de 2026</time></header>
+        <p data-t="releaseContextAndCardFix"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.73</h3><time datetime="2026-11-22" data-t="releaseDateReviewUpdates">22 de novembre de 2026</time></header>
+        <p data-t="releaseListeningContexts"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.72</h3><time datetime="2026-11-22" data-t="releaseDateReviewUpdates">22 de novembre de 2026</time></header>
+        <p data-t="releasePlainVoiceBatch"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.71</h3><time datetime="2026-11-22" data-t="releaseDateReviewUpdates">22 de novembre de 2026</time></header>
+        <p data-t="releaseUpperPrimaryScripts"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.70</h3><time datetime="2026-11-22" data-t="releaseDateReviewUpdates">22 de novembre de 2026</time></header>
+        <p data-t="releaseInlineAudio"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.69</h3><time datetime="2026-11-22" data-t="releaseDateReviewUpdates">22 de novembre de 2026</time></header>
+        <p data-t="releaseCycleMiddle"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.68</h3><time datetime="2026-11-22" data-t="releaseDateReviewUpdates">22 de novembre de 2026</time></header>
+        <p data-t="releaseReviewUpdates"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.67</h3><time datetime="2026-11-21" data-t="releaseDateS033">21 de novembre de 2026</time></header>
+        <p data-t="releaseNewsMontages"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.66</h3><time datetime="2026-11-21" data-t="releaseDateS033">21 de novembre de 2026</time></header>
+        <p data-t="releaseTimingAndPublications"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.65</h3><time datetime="2026-11-21" data-t="releaseDateS033">21 de novembre de 2026</time></header>
+        <p data-t="releaseFilterCounts"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.64</h3><time datetime="2026-11-21" data-t="releaseDateS033">21 de novembre de 2026</time></header>
+        <p data-t="releaseMixedMontages"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.63</h3><time datetime="2026-11-21" data-t="releaseDateS033">21 de novembre de 2026</time></header>
+        <p data-t="releaseFirstMixedBatch"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.62</h3><time datetime="2026-11-21" data-t="releaseDateS033">21 de novembre de 2026</time></header>
+        <p data-t="releaseClassroomRegister"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.61</h3><time datetime="2026-11-21" data-t="releaseDateS033">21 de novembre de 2026</time></header>
+        <p data-t="releaseS030AndS040Approved"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.60</h3><time datetime="2026-11-21" data-t="releaseDateS033">21 de novembre de 2026</time></header>
+        <p data-t="releaseNaturalnessBatch"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.59</h3><time datetime="2026-11-21" data-t="releaseDateS033">21 de novembre de 2026</time></header>
+        <p data-t="releaseS039AndGuidance"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.58</h3><time datetime="2026-11-21" data-t="releaseDateS033">21 de novembre de 2026</time></header>
+        <p data-t="releaseS031AndS026"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.57</h3><time datetime="2026-11-21" data-t="releaseDateS033">21 de novembre de 2026</time></header>
+        <p data-t="releaseS029Approved"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.56</h3><time datetime="2026-11-21" data-t="releaseDateS033">21 de novembre de 2026</time></header>
+        <p data-t="releaseS040Context"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.55</h3><time datetime="2026-11-21" data-t="releaseDateS033">21 de novembre de 2026</time></header>
+        <p data-t="releaseS032Context"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.54</h3><time datetime="2026-11-21" data-t="releaseDateS033">21 de novembre de 2026</time></header>
+        <p data-t="releaseS033Context"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.53</h3><time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></header>
+        <p data-t="releaseUniversesAndDrafts"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.52</h3><time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></header>
+        <p data-t="releaseS020Published"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.51</h3><time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></header>
+        <p data-t="releaseProductionStages"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.50</h3><time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></header>
+        <p data-t="releaseDraftOnly"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.49</h3><time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></header>
+        <p data-t="releasePublicationMaterials"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.48</h3><time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></header>
+        <p data-t="releasePublishedRadio"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.47</h3><time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></header>
+        <p data-t="releasePrintGroups"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.46</h3><time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></header>
+        <p data-t="releaseAudioGroups"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.45</h3><time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></header>
+        <p data-t="releaseWorkspacePanels"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.44</h3><time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></header>
+        <p data-t="releaseSoundReview"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.43</h3><time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></header>
+        <p data-t="releasePublishedVariant"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.42</h3><time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></header>
+        <p data-t="releasePuddleAnalogy"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.41</h3><time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></header>
+        <p data-t="releaseDescriptiveUniverses"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.40</h3><time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></header>
+        <p data-t="releaseCatalogueUniverses"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.39</h3><time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></header>
+        <p data-t="releaseCompactCatalogue"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.38</h3><time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></header>
+        <p data-t="releaseAudioReviewCards"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.37</h3><time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></header>
+        <p data-t="releaseContextsAndJingles"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.36</h3><time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></header>
+        <p data-t="releaseButtonAndResearch"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.35</h3><time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></header>
+        <p data-t="releaseNaturalClosings"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.34</h3><time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></header>
+        <p data-t="releaseNarrationMusic"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.33</h3><time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></header>
+        <p data-t="releaseS023Greeting"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.32</h3><time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></header>
+        <p data-t="releaseNewProductions"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.31</h3><time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></header>
+        <p data-t="releaseEditorialReview"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.30</h3><time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></header>
+        <p data-t="releaseS003Revision"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.29</h3><time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></header>
+        <p data-t="releaseCatalogDiscovery"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.28</h3><time datetime="2026-11-20" data-t="releaseDateBatch">20 de novembre de 2026</time></header>
+        <p data-t="releaseFullDraftCatalogue"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.27</h3><time datetime="2026-11-19" data-t="releaseDateReview">19 de novembre de 2026</time></header>
+        <p data-t="releaseProductionStages"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.26</h3><time datetime="2026-11-19" data-t="releaseDateReview">19 de novembre de 2026</time></header>
+        <p data-t="releaseReviewFirst">Les propostes pendents de validar s’obren al solucionari, amb el guió i l’escaleta abans de les preguntes.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.25</h3><time datetime="2026-11-19" data-t="releaseDateReview">19 de novembre de 2026</time></header>
+        <p data-t="releaseRadioAnalytics"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.24</h3><time datetime="2026-11-19" data-t="releaseDateReview">19 de novembre de 2026</time></header>
+        <p data-t="releaseDraftReview"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.23</h3><time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></header>
+        <p data-t="releaseSound"></p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.22</h3><time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></header>
+        <p data-t="releaseCharacterExplorer">Coneix els personatges des del header: retrats, presentacions i accés a les seves comprensions. Nou filtre per un o més personatges, amb coincidència de qualsevol o de tots junts. Presentacions amb veu preparades per afegir-hi els àudios.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.21</h3><time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></header>
+        <p data-t="releaseCharacters">Vuit personatges recurrents amb fitxes gràfiques, personalitat, interessos i veus de referència. Noves il·lustracions amb identitats diferenciades i episodis independents. Les noves veus es marquen com a propostes pendents d’audició.</p>
       <a href="./personatges.html" data-t="characters">Els personatges</a>
-      <h3>0.1.20 <time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></h3>
-      <p data-t="releaseEditorialReview">Revisió dels cinc primers prototips: preguntes més precises, criteris de correcció explícits i pistes ajustades. Es documenta l’adequació a cada curs i dificultat, amb el ritme de S008 pendent de validació a l’aula.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.20</h3><time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></header>
+        <p data-t="releaseEditorialReview">Revisió dels cinc primers prototips: preguntes més precises, criteris de correcció explícits i pistes ajustades. Es documenta l’adequació a cada curs i dificultat, amb el ritme de S008 pendent de validació a l’aula.</p>
       <a href="https://github.com/aaronFortuno/sentit/blob/main/docs/revisio-editorial-prototips.md" target="_blank" rel="noopener" data-t="editorialReview">Criteris i revisió dels prototips</a>
-      <h3>0.1.19 <time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></h3>
-      <p data-t="releaseCardGestures">Col·leccions amb clic llarg, menú d’accions i reordenació de targetes arrossegant, sense caselles de selecció. Nou indicador visual de durada en quatre segments.</p>
-      <h3>0.1.18 <time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></h3>
-      <p data-t="releaseCardGradient">Color de tipologia a la part superior de les targetes, amb un degradat suau cap al fons neutre inferior, en clar i en fosc.</p>
-      <h3>0.1.17 <time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></h3>
-      <p data-t="releaseTypeColours">Colors de tipologia més visibles al fons, les etiquetes i la vora de les targetes, amb verd i blau més diferenciats en clar i en fosc.</p>
-      <h3>0.1.16 <time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></h3>
-      <p data-t="releaseCatalogPolish">Menú d’idioma renovat, frases de capçalera variables i targetes amb icones, colors, il·lustracions i indicadors de dificultat. Idioma del text com a primer filtre i transicions uniformes de 220 ms.</p>
-      <h3>0.1.15 <time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></h3>
-      <p data-t="releaseReview">Fitxes de 5è i 6è disponibles per revisar mentre es preparen els àudios. Cerca i filtres revisats, millor repartiment de preguntes i generació amb menys peticions, conservant les preses fetes.</p>
-      <h3>0.1.14 <time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></h3>
-      <p data-t="releaseFirstBatch">Primers prototips de 3r i 4t: instruccions i narració, amb àudios, il·lustracions, preguntes i solucionaris. Guions i materials preparats per a l’entrevista de 5è i la notícia de 6è, pendents d’acabar els àudios.</p>
-      <h3>0.1.13 <time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></h3>
-      <p data-t="releaseImageFlow">Imatge de 80 mm per defecte, alineada amb el títol. El text envolta la il·lustració i recupera tota l’amplada quan s’acaba. Proposta inicial de 24 comprensions de 3r a 6è.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.19</h3><time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></header>
+        <p data-t="releaseCardGestures">Col·leccions amb clic llarg, menú d’accions i reordenació de targetes arrossegant, sense caselles de selecció. Nou indicador visual de durada en quatre segments.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.18</h3><time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></header>
+        <p data-t="releaseCardGradient">Color de tipologia a la part superior de les targetes, amb un degradat suau cap al fons neutre inferior, en clar i en fosc.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.17</h3><time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></header>
+        <p data-t="releaseTypeColours">Colors de tipologia més visibles al fons, les etiquetes i la vora de les targetes, amb verd i blau més diferenciats en clar i en fosc.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.16</h3><time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></header>
+        <p data-t="releaseCatalogPolish">Menú d’idioma renovat, frases de capçalera variables i targetes amb icones, colors, il·lustracions i indicadors de dificultat. Idioma del text com a primer filtre i transicions uniformes de 220 ms.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.15</h3><time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></header>
+        <p data-t="releaseReview">Fitxes de 5è i 6è disponibles per revisar mentre es preparen els àudios. Cerca i filtres revisats, millor repartiment de preguntes i generació amb menys peticions, conservant les preses fetes.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.14</h3><time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></header>
+        <p data-t="releaseFirstBatch">Primers prototips de 3r i 4t: instruccions i narració, amb àudios, il·lustracions, preguntes i solucionaris. Guions i materials preparats per a l’entrevista de 5è i la notícia de 6è, pendents d’acabar els àudios.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.13</h3><time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></header>
+        <p data-t="releaseImageFlow">Imatge de 80 mm per defecte, alineada amb el títol. El text envolta la il·lustració i recupera tota l’amplada quan s’acaba. Proposta inicial de 24 comprensions de 3r a 6è.</p>
       <a href="https://github.com/aaronFortuno/sentit/blob/main/docs/proposta-cataleg.md" target="_blank" rel="noopener" data-t="catalogueProposal">Consulta la proposta de catàleg</a>
-      <h3>0.1.12 <time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></h3>
-      <p data-t="releaseImages">Adreces d’edició amb idioma i codi d’activitat. Il·lustracions de context opcionals als fulls, amb mida i posició ajustables i desades a cada fitxa i col·lecció.</p>
-      <h3>0.1.11 <time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></h3>
-      <p data-t="releaseYoungVoices">Nou àudio complet d’«El senyal de la ràdio» amb Leda per a la Laia i Puck per a en Biel. Conserva els senyals i les pauses, amb la durada actualitzada al catàleg i als fulls.</p>
-      <h3>0.1.10 <time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></h3>
-      <p data-t="releaseEvidence">Solucionari amb respostes diferenciades i transcripció més compacta. Les pistes es ressalten amb el color i el número de cada pregunta. Els ressalts es poden desactivar i la preferència es desa amb la fitxa.</p>
-      <h3>0.1.9 <time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></h3>
-      <p data-t="releasePrintSpacing">Nom i data apilats al costat de la marca, amb el QR i les condicions d’escolta a la mateixa fila. Més aire als enunciats, a les línies de resposta i entre preguntes.</p>
-      <h3>0.1.8 <time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></h3>
-      <p data-t="releaseCollections">Catàleg amb filtres i col·leccions locals. Cada comprensió s’obre al seu editor i conserva el format de la col·lecció. Capçalera compacta i instruccions impreses opcionals segons la sessió.</p>
-      <h3>0.1.7 <time datetime="2026-11-17" data-t="releaseDate">17 de novembre de 2026</time></h3>
-      <p data-t="releaseVoices">Comparativa curta de les veus actuals i la parella Leda–Puck per a «El senyal de la ràdio».</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.12</h3><time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></header>
+        <p data-t="releaseImages">Adreces d’edició amb idioma i codi d’activitat. Il·lustracions de context opcionals als fulls, amb mida i posició ajustables i desades a cada fitxa i col·lecció.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.11</h3><time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></header>
+        <p data-t="releaseYoungVoices">Nou àudio complet d’«El senyal de la ràdio» amb Leda per a la Laia i Puck per a en Biel. Conserva els senyals i les pauses, amb la durada actualitzada al catàleg i als fulls.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.10</h3><time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></header>
+        <p data-t="releaseEvidence">Solucionari amb respostes diferenciades i transcripció més compacta. Les pistes es ressalten amb el color i el número de cada pregunta. Els ressalts es poden desactivar i la preferència es desa amb la fitxa.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.9</h3><time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></header>
+        <p data-t="releasePrintSpacing">Nom i data apilats al costat de la marca, amb el QR i les condicions d’escolta a la mateixa fila. Més aire als enunciats, a les línies de resposta i entre preguntes.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.8</h3><time datetime="2026-11-18" data-t="releaseDateCurrent">18 de novembre de 2026</time></header>
+        <p data-t="releaseCollections">Catàleg amb filtres i col·leccions locals. Cada comprensió s’obre al seu editor i conserva el format de la col·lecció. Capçalera compacta i instruccions impreses opcionals segons la sessió.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.7</h3><time datetime="2026-11-17" data-t="releaseDate">17 de novembre de 2026</time></header>
+        <p data-t="releaseVoices">Comparativa curta de les veus actuals i la parella Leda–Puck per a «El senyal de la ràdio».</p>
       <a href="./proves/veus-s001.html" data-t="voiceComparison">Escolta la prova de veus</a>
-      <h3>0.1.6 <time datetime="2026-11-17" data-t="releaseDate">17 de novembre de 2026</time></h3>
-      <p data-t="releasePrompts">Locució inicial i entre escoltes opcionals, amb una indicació del temps adaptada a la lectura prèvia.</p>
-      <h3>0.1.5 <time datetime="2026-11-17" data-t="releaseDate">17 de novembre de 2026</time></h3>
-      <p data-t="releaseWorkspace">Controls de preguntes al full, recuperació de preguntes amagades i accessos fixos a escolta i impressió. Selector compacte d’activitat sobre el visor.</p>
-      <h3>0.1.4 <time datetime="2026-11-17" data-t="releaseDate">17 de novembre de 2026</time></h3>
-      <p data-t="releaseGuided">Sessió pautada amb temps de lectura, escoltes i pauses configurables. La fitxa mostra el resum al costat del QR.</p>
-      <h3>0.1.3 <time datetime="2026-11-17" data-t="releaseDate">17 de novembre de 2026</time></h3>
-      <p data-t="releaseListening">Adreça d’escolta per idioma i codi al costat del QR. Els àudios s’obren amb el títol locutat i una pausa breu.</p>
-      <h3>0.1.2 <time datetime="2026-11-17" data-t="releaseDate">17 de novembre de 2026</time></h3>
-      <p data-t="releaseWorksheet">Maquetador A4 amb codi d’aula i QR d’escolta. «El senyal de la ràdio» estrena les activitats amb solucionari i transcripció.</p>
-      <h3>0.1.1 <time datetime="2026-11-17" data-t="releaseDate">17 de novembre de 2026</time></h3>
-      <p data-t="releaseUpdate">Vista d’escolta simplificada i selector amb icona de traducció.</p>
-      <h3>0.1.0 <time datetime="2026-11-17" data-t="releaseDate">17 de novembre de 2026</time></h3>
-      <p data-t="release">Catàleg, reproductor d’escolta i vista d’impressió amb una fitxa de mostra.</p>
-      </div>
+      </article>
+      <article class="of-release"><header><h3>v0.1.6</h3><time datetime="2026-11-17" data-t="releaseDate">17 de novembre de 2026</time></header>
+        <p data-t="releasePrompts">Locució inicial i entre escoltes opcionals, amb una indicació del temps adaptada a la lectura prèvia.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.5</h3><time datetime="2026-11-17" data-t="releaseDate">17 de novembre de 2026</time></header>
+        <p data-t="releaseWorkspace">Controls de preguntes al full, recuperació de preguntes amagades i accessos fixos a escolta i impressió. Selector compacte d’activitat sobre el visor.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.4</h3><time datetime="2026-11-17" data-t="releaseDate">17 de novembre de 2026</time></header>
+        <p data-t="releaseGuided">Sessió pautada amb temps de lectura, escoltes i pauses configurables. La fitxa mostra el resum al costat del QR.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.3</h3><time datetime="2026-11-17" data-t="releaseDate">17 de novembre de 2026</time></header>
+        <p data-t="releaseListening">Adreça d’escolta per idioma i codi al costat del QR. Els àudios s’obren amb el títol locutat i una pausa breu.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.2</h3><time datetime="2026-11-17" data-t="releaseDate">17 de novembre de 2026</time></header>
+        <p data-t="releaseWorksheet">Maquetador A4 amb codi d’aula i QR d’escolta. «El senyal de la ràdio» estrena les activitats amb solucionari i transcripció.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.1</h3><time datetime="2026-11-17" data-t="releaseDate">17 de novembre de 2026</time></header>
+        <p data-t="releaseUpdate">Vista d’escolta simplificada i selector amb icona de traducció.</p>
+      </article>
+      <article class="of-release"><header><h3>v0.1.0</h3><time datetime="2026-11-17" data-t="releaseDate">17 de novembre de 2026</time></header>
+        <p data-t="release">Catàleg, reproductor d’escolta i vista d’impressió amb una fitxa de mostra.</p>
+      </article>
     </div>
   </dialog>
   <dialog id="v4v" class="of-v4v" data-of-v4v="sentit" aria-labelledby="of-v4v-title">

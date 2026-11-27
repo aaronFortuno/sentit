@@ -403,16 +403,6 @@ dialog.is-closing::backdrop { animation: backdrop-out var(--motion) ease both; }
 .lightning-address .icon-button { flex: none; width: 27px; height: 27px; padding: 4px; }
 .v4v-grid :is(.analytics-privacy,.v4v-resources) { border-top: 1px solid var(--line); padding-top: 18px; font-size: inherit; }
 .v4v-grid .privacy-switch { margin-top: 12px; gap: 12px; }
-#changes { width: min(calc(100% - 24px), 760px); overflow: hidden; }
-#changes .dialog-content { display: flex; flex-direction: column; gap: 0; max-height: 88dvh; padding: 0; }
-#changes .dialog-head { flex: none; padding: 16px 22px 8px; }
-#changes h2 { font-size: 1.1rem; }
-.changelog-full { flex: none; align-self: flex-start; margin: 0 22px 14px; font-size: .79rem; }
-.changelog-scroll { min-height: 0; padding: 0 22px 20px; font-size: .83rem; line-height: 1.55; }
-.changelog-scroll h3 { font-size: .94rem; margin: 15px 0 7px; padding-top: 14px; border-top: 1px solid var(--line); }
-.changelog-scroll h3:first-child { margin-top: 0; padding-top: 0; border-top: 0; }
-.changelog-scroll p { margin: 0 0 11px; }
-.changelog-scroll time { font-size: .76rem; }
 .dialog-scroll { overflow: auto; overscroll-behavior: contain; scrollbar-gutter: stable; scrollbar-width: thin; scrollbar-color: var(--line) transparent; }
 .dialog-scroll::-webkit-scrollbar { width: 7px; height: 7px; }
 .dialog-scroll::-webkit-scrollbar-track { background: transparent; }
