@@ -1,30 +1,30 @@
 import { activities, legacyActivities } from './catalogue.js';
-import { renderRepairPreview, renderVoicePreview } from './repair-preview.js?v=0.1.131';
-import { strings } from './locales.js?v=0.1.131';
-import { defaultFormat, imageOptions, maxLines, questionFormat, renderWorksheet } from './worksheet.js?v=0.1.131';
+import { renderRepairPreview, renderVoicePreview } from './repair-preview.js?v=0.1.132';
+import { strings } from './locales.js?v=0.1.132';
+import { defaultFormat, imageOptions, maxLines, questionFormat, renderWorksheet, transcriptPosition } from './worksheet.js?v=0.1.132';
 import { clockTime, decodeSession, defaultSession, encodeSession, guidedPrompts, validRate, sessionJingles, validJingle } from './session.js';
 import { renderAudioResources } from './audio-resources.js';
 import { isPendingReview, needsReview } from './review.js';
-import { renderGenerationPlan } from './generation-plan.js?v=0.1.131';
-import { startAnalytics, track, countBucket, excluded, setExcluded, restriction } from './analytics.js?v=0.1.131';
-import { mountErrorReport } from './error-report.js?v=0.1.131';
-import { initGuidedPlayer } from './guided-player.js?v=0.1.131';
-import { mountAudioPreview } from './audio-preview.js?v=0.1.131';
+import { renderGenerationPlan } from './generation-plan.js?v=0.1.132';
+import { startAnalytics, track, countBucket, excluded, setExcluded, restriction } from './analytics.js?v=0.1.132';
+import { mountErrorReport } from './error-report.js?v=0.1.132';
+import { initGuidedPlayer } from './guided-player.js?v=0.1.132';
+import { mountAudioPreview } from './audio-preview.js?v=0.1.132';
 import { createTrackPlayer } from './track-player.js';
 import { activityAudioParts } from './activity-audio.js';
-import { mountNarrationMusicPreview } from './narration-music-preview.js?v=0.1.131';
-import { mountCatalog } from './catalog.js?v=0.1.131';
+import { mountNarrationMusicPreview } from './narration-music-preview.js?v=0.1.132';
+import { mountCatalog } from './catalog.js?v=0.1.132';
 import { listCollections, saveCollectionLayout } from './collections.js';
 import { durationText } from './activity-meta.js';
 import { universeName, universesForActivity } from './content/universes.js';
 import { animateRefresh, mountDetails, mountDialogs, openDialog, closeDialog, scrollToTarget, setDetailsOpen, setDisclosure } from './motion.js';
 import { mountCharacterExplorer } from './character-explorer.js';
 import { mountLanguageMenu } from './language-menu.js';
-import { mountSelectMenus } from './select-menu.js';
+import { mountSelectMenus, syncSelects } from './select-menu.js';
 import { mountWorkspacePanels } from './workspace-panels.js';
 import { mottos, nextMotto } from './mottos.js';
 import { listeningContext } from './content/listening-contexts.js';
-import { registerQuestionChoices, multipleChoice, responseQuestion, responseSummary } from './question-responses.js?v=0.1.131';
+import { registerQuestionChoices, multipleChoice, responseQuestion, responseSummary } from './question-responses.js';
 import { createQuestionFormatPreference } from './question-format-preference.js';
 
 const byId = id => document.getElementById(id);
@@ -205,8 +205,11 @@ function renderEditor() {
   byId('context-option').hidden = documentMode === 'answers' || !listeningContext(selected);
   byId('show-instructions').checked = settings.showInstructions ?? true;
   byId('show-instructions').closest('label').hidden = documentMode === 'answers';
+  byId('answer-key-panel').hidden = documentMode !== 'answers';
+  byId('transcript-position').value = transcriptPosition(selected, settings);
   byId('evidence-option').hidden = documentMode !== 'answers';
   byId('show-evidence').checked = settings.showEvidence ?? true;
+  syncSelects(byId('answer-key-panel'));
   const responses = responseSummary(selected, settings);
   for (const button of document.querySelectorAll('[data-response-mode]')) {
     button.disabled = false;
@@ -550,6 +553,12 @@ byId('show-context').addEventListener('change', event => {
 byId('show-evidence').addEventListener('change', event => {
   currentSettings.showEvidence = event.target.checked;
   saveActivity();
+});
+byId('transcript-position').addEventListener('change', event => {
+  if (!selected || !['top','bottom'].includes(event.target.value)) return;
+  currentSettings.transcriptPosition = event.target.value;
+  saveActivity();
+  track('maqueta_fitxa',{code:selected.code,llengua:selected.language,bloc:'transcripcio',accio:'ajusta',posicio:event.target.value});
 });
 function updateImage(event) {
   if (!selected) return;

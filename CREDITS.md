@@ -138,3 +138,5 @@ S088, S041, S085, S090, S093, S118, S109, S017 i S081: il·lustracions noves amb
 Bibliografia de quinze adaptacions pròpies visible al web i al paper: [fonts i decisions](docs/fonts-tradicio.md). S128: [Easy Lemon](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1200076); S129: [Teller of the Tales](https://incompetech.com/music/royalty-free/index.html?isrc=USUAN1400020); Kevin MacLeod (incompetech.com), CC BY 4.0, fragments, normalització, atenuació i foses de Sentit. S095: nova escena de tres persones amb generació integrada, model canònic de Ferran i [prompt conservat](assets/images/s095-publication.prompts.json).
 
 Muntatges culturals S132/S137: «Windswept» (F4) i «Folk Round» (L2), Kevin MacLeod, CC BY 4.0. Atribució, ISRC, enllaços de font i llicència i usos a `content/music-catalogue.js` i als crèdits de cada activitat.
+
+Els textos i la composició originals dels imprimibles de Sentit s’ofereixen sota [CC BY 4.0](LICENSE-CONTENT.md), amb avís al peu de fitxes i solucionaris. Els recursos externs acreditats aquí mantenen la llicència indicada; el codi de l’aplicació conserva MIT.

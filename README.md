@@ -294,3 +294,7 @@ Les validacions definitives i les esmenes obertes consten a l’estat inicial d�
 **Audició de veus i esmenes:** botons ×1, ×1,25 i ×1,5, amb el to conservat i la preferència recordada durant la sessió del navegador. A la fitxa i als comparadors, sense canviar el ritme de la sessió de l’alumnat.
 
 **Retorn docent del nivell:** bandera → Guió o transcripció → text massa fàcil o massa difícil per al nivell indicat. Els avisos incorporen el curs i la dificultat publicats, sense demanar dades del grup, i serveixen per revisar el calibratge. [Detall del seguiment](docs/estadistiques.md#bandera-derrors).
+
+**Ordre del solucionari:** al bloc Solucionari d’Impressió es pot posar la transcripció abans o després de les preguntes, amb preferència per lectura i col·lecció. Pistes i textos es conserven. [Maquetació actual i flexibilitat pendent](docs/maquetacio-imprimibles.md).
+
+**Llicències:** el codi conserva MIT; els textos i la composició originals de les fitxes i solucionaris s’ofereixen sota [CC BY 4.0](LICENSE-CONTENT.md), indicada al peu centrat dels fulls. Els recursos amb atribució pròpia conserven les seves llicències.

@@ -60,7 +60,7 @@ const rules={
   obre_impressio:{code:true,contingut:['fitxa','solucionari'],colleccio:'boolean'},
   escolta_audio:{code:true,accio:['inicia','pausa','repren','finalitza','reinicia','previsualitza']},
   configura_audio:{code:true,escoltes:['1','2','3'],ritme:['0.80','0.85','0.90','0.95','1.00','1.05','1.10','1.15','1.20'],lectura:times,pausa:times,sintonia:['cap',...sessionJingles.map(jingle=>jingle.id)],pautada:'boolean'},
-  maqueta_fitxa:{code:true,bloc:['font','size','spacing','leading','codi_aula','imatge','context','instruccions','pistes','preguntes'],accio:['ajusta','amaga','recupera','linies','restableix','format'],font:['serif','sans','verdana'],format_pregunta:['oberta','abcd']},
+  maqueta_fitxa:{code:true,bloc:['font','size','spacing','leading','codi_aula','imatge','context','instruccions','pistes','preguntes','transcripcio'],accio:['ajusta','amaga','recupera','linies','restableix','format'],font:['serif','sans','verdana'],format_pregunta:['oberta','abcd'],posicio:['top','bottom']},
   colleccio:{accio:['crea','afegeix','selecciona','reordena','retira','elimina','canvia_nom'],quantitat:buckets},
   cerca_cataleg:{tipus:['codi','text'],resultats:buckets},neteja_filtres:{},
   copia_enllac:{code:true},obre_vista_escolta:{code:true},

@@ -1,5 +1,6 @@
 export const strings = {
   ca: {
+    releaseTranscriptOrder: "Transcripció abans o després de les preguntes al solucionari, amb tria desada per lectura i col·lecció. Peu CC BY 4.0 centrat a totes les pàgines. Format ABCD del full sincronitzat amb el selector i els avisos de pregunta. Flexibilitat futura de capçalera, peu i QR documentada.",
     releaseDifficultyFeedback: "Les banderes permeten avisar que el text és massa fàcil o massa difícil per al nivell indicat, dins de Guió o transcripció, com a Trama. El retorn inclou el curs i la dificultat del material, sense dades de l’alumnat ni canvis automàtics de qualificació. Privadesa i deduplicació conservades.",
     releaseDateUsageTracking: "27 de novembre de 2026",
     releaseUsageTracking: "Seguiment d’ús ampliat: lectures, universos, impressió, col·leccions i sessions d’escolta, separant publicats i provisionals. Canals de difusió predefinits, sense enviar textos privats ni paràmetres lliures. Materials publicats per defecte als navegadors nous; es conserven les preferències de revisió. Guia de consulta d’Umami al repositori.",
@@ -236,6 +237,7 @@ export const strings = {
     releaseDraftReview: 'Propostes pendents de validar accessibles al catàleg: fitxa, solucionari i guió amb les anotacions de muntatge intercalades. Sobreimprès a les targetes, marca d’aigua a cada pàgina i impressió bloquejada fins a la validació. Notes amb els talls de Gemini, les preses conservades i les peticions noves previstes.',
     releaseDateReview: '19 de novembre de 2026',
     reviewPlaybackSpeed: 'Velocitat de revisió',
+    transcriptPosition: 'Posició de la transcripció', transcriptTop: 'Abans de les preguntes', transcriptBottom: 'Després de les preguntes',
     speechRate: 'Ritme de locució', jingle: 'Sintonia inicial', audioSources: 'Fonts i crèdits sonors',
     audioSourcesPending: 'El muntatge encara és una proposta. No s’ha sintetitzat ni publicat.',
     resourceVoice: 'Veus sintetitzades', resourceOriginal: 'Música i efectes originals', fullAudioCredits: 'Fonts, llicències i escaletes completes',
@@ -366,6 +368,7 @@ export const strings = {
     sessionEnded: 'Sessió acabada', remainingTime: 'Temps restant',
   },
   es: {
+    releaseTranscriptOrder: "Transcripción antes o después de las preguntas en el solucionario, con preferencia por lectura y colección. Pie CC BY 4.0 centrado en todas las páginas. Formato ABCD del documento sincronizado con el selector y los avisos de preguntas. Flexibilidad futura de cabecera, pie y QR documentada.",
     releaseDifficultyFeedback: "Las banderas permiten avisar de que el texto es demasiado fácil o difícil para el nivel indicado, en Guion o transcripción, como en Trama. El aviso incluye el curso y la dificultad del material, sin datos del alumnado ni cambios automáticos de calificación. Se conservan la privacidad y la deduplicación.",
     releaseDateUsageTracking: "27 de noviembre de 2026",
     releaseUsageTracking: "Seguimiento de uso ampliado: lecturas, universos, impresión, colecciones y sesiones de escucha, separando publicados y provisionales. Canales de difusión predefinidos, sin enviar textos privados ni parámetros libres. Materiales publicados por defecto en navegadores nuevos; se conservan las preferencias de revisión. Guía de consulta de Umami en el repositorio.",
@@ -602,6 +605,7 @@ export const strings = {
     releaseDraftReview: 'Propuestas pendientes de validar accesibles en el catálogo: ficha, solucionario y guion con las anotaciones de montaje intercaladas. Sobreimpreso en las tarjetas, marca de agua en cada página e impresión bloqueada hasta la validación.',
     releaseDateReview: '19 de noviembre de 2026',
     reviewPlaybackSpeed: 'Velocidad de revisión',
+    transcriptPosition: 'Posición de la transcripción', transcriptTop: 'Antes de las preguntas', transcriptBottom: 'Después de las preguntas',
     speechRate: 'Ritmo de locución', jingle: 'Sintonía inicial', audioSources: 'Fuentes y créditos sonoros',
     audioSourcesPending: 'El montaje todavía es una propuesta. No se ha sintetizado ni publicado.',
     resourceVoice: 'Voces sintetizadas', resourceOriginal: 'Música y efectos originales', fullAudioCredits: 'Fuentes, licencias y escaletas completas',

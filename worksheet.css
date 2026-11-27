@@ -171,6 +171,8 @@
   line-height: 1.3;
 }
 
+.paper-questions-after-transcript { clear: both; }
+
 .paper-block + .paper-transcript-block {
   margin-block-start: 2.5mm;
 }

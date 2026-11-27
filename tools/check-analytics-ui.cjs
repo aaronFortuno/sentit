@@ -86,6 +86,12 @@ const publicBase='https://sentit.ortogra.fi';const receiver='https://maquestria.
     assert.equal(await page.locator('#error-report-form [name="part"]').inputValue(),'question');
     assert.equal(await page.locator('#error-report-form [name="element"]').inputValue(),'treball');
     await page.keyboard.press('Escape');await page.locator('#error-report-dialog').waitFor({state:'hidden'});
+    await page.locator('[data-response-mode="choice"]').click();assert(await page.locator('.paper-choice').count()>0);
+    await page.locator('.paper-block').first().hover();await page.locator('[data-question-action="report"]').first().click();
+    await page.locator('#error-report-form [name="motiu"][value="unsupported"]').check();await page.locator('#error-report-form [type="submit"]').click();
+    await page.waitForFunction(()=>document.querySelector('.report-status').textContent.includes('Avís enviat'));
+    assert.deepEqual(sent.findLast(event=>event.payload.name==='notifica_error').payload.data,{codi:'S008R',llengua:'ca',part:'question',motiu:'unsupported',element:'treball',format_pregunta:'abcd'});
+    await page.keyboard.press('Escape');await page.locator('#error-report-dialog').waitFor({state:'hidden'});
     await page.locator('[data-open="v4v"]').click();await page.locator('.analytics-privacy').scrollIntoViewIfNeeded();
     await page.evaluate(()=>Promise.all(document.getAnimations().map(a=>a.finished.catch(()=>{}))));
     assert.equal(await page.locator('#analytics-excluded').evaluate(node=>Math.round(node.getBoundingClientRect().width)),34);

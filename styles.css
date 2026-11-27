@@ -184,9 +184,10 @@ summary { color: var(--quiet); cursor: pointer; }
 .paper-question-units { min-width: 15px; text-align: center; font-variant-numeric: tabular-nums; }
 .write-line { height: 8mm; border-bottom: 1px solid var(--paper-line); }
 .paper-answer { margin-block-start: 1mm; color: var(--paper-green); }
-.paper-footer { display: flex; justify-content: space-between; gap: 4mm; height: 7mm; padding-block-start: 2mm; border-top: 1px solid var(--paper-line); white-space: nowrap; }
+.paper-footer { display: grid; grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr); gap: 4mm; height: 7mm; padding-block-start: 2mm; border-top: 1px solid var(--paper-line); white-space: nowrap; }
 .paper-footer span:first-child { overflow: hidden; text-overflow: ellipsis; }
-.paper-footer span:last-child { flex: none; }
+.paper-footer span:last-child { justify-self: end; }
+.paper-footer .paper-license { justify-self: center; color: inherit; text-decoration: none; }
 .paper-empty { text-align: center; padding: 36px 8px; }
 #session-editor { margin: 0; }
 .audio-settings-group { min-width: 0; }

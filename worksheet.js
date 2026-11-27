@@ -3,7 +3,7 @@ import { buildEvidence, evidenceQuestions, evidenceSegments } from './evidence.j
 import { isPendingReview, isAudioReview, needsReview, reviewScript } from './review.js';
 import { isEditoriallyReviewed, reviewCaption, hasPendingMontage, hasApprovedScript } from './editorial-review.js';
 import { listeningContext } from './content/listening-contexts.js?v=0.1.121';
-import { responseQuestion, responseSummary } from './question-responses.js?v=0.1.121';
+import { responseQuestion, responseSummary } from './question-responses.js';
 import { traditionSources } from './content/tradition-sources.js';
 
 export const defaultFormat = { font: 'serif', size: 12, spacing: 7, leading: 1.6 };
@@ -15,6 +15,11 @@ const fontStacks = {
 };
 
 export const maxLines = 12;
+
+export function transcriptPosition(entry, settings = {}) {
+  return ['top', 'bottom'].includes(settings.transcriptPosition)
+    ? settings.transcriptPosition : needsReview(entry) ? 'top' : 'bottom';
+}
 
 export function imageOptions(entry, settings = {}) {
   const available = Boolean(entry?.image?.src);
@@ -296,6 +301,7 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
   if (isPendingReview(entry)) labels = { ...labels, seeTranscript: labels.seeScript, seeTranscriptQuestion: labels.seeScriptQuestion };
   const footers = [];
   const image = imageOptions(entry, settings);
+  const transcriptFirst = transcriptPosition(entry, settings) === 'top';
   const resolvedQuestions = entry.questions.map(question => responseQuestion(entry, question, settings));
   const evidence = answerKey && (settings?.showEvidence ?? true) ? buildEvidence(entry, evidenceQuestions({ ...entry, questions: resolvedQuestions }, settings)) : { byPart: new Map(), byQuestion: new Map() };
   let content;
@@ -408,7 +414,7 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
     });
   }
 
-  if (answerKey && needsReview(entry)) placeTranscript();
+  if (answerKey && transcriptFirst) placeTranscript();
 
   let number = 0;
   resolvedQuestions.forEach((question, index) => {
@@ -428,6 +434,7 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
       ? [answerBlock(question.answer ?? labels.noAnswer, labels, evidence.byQuestion.get(id), true, true, choice)]
       : choice ? [] : Array.from({ length: lines }, () => element('div', 'write-line')))];
     const block = questionBlock(position, heading, [makePrompt(question.prompt), ...response]);
+    if (answerKey && transcriptFirst && position === 1) block.classList.add('paper-questions-after-transcript');
     block.dataset.completeQuestion = id;
     placeBlock(block, () => {
       placeText(question.prompt, (text, first) => questionBlock(first && position, first && heading, [makePrompt(text, first)]));
@@ -456,7 +463,7 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
     }
   }
 
-  if (answerKey && !needsReview(entry)) placeTranscript();
+  if (answerKey && !transcriptFirst) placeTranscript();
 
   const sources=traditionSources(entry);
   if(sources.length){
@@ -469,7 +476,12 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
 
   footers.forEach((footer, index) => {
     const label = index === 0 ? 'sentit.ortogra.fi' : entry.title;
+    const license = element('a', 'paper-license', 'CC BY 4.0');
+    license.href = 'https://creativecommons.org/licenses/by/4.0/';
+    license.target = '_blank';
+    license.rel = 'noopener noreferrer';
     footer.append(element('span', null, `${label} · ${entry.code}`),
+      license,
       element('span', null, `${labels.page} ${index + 1} / ${footers.length}`));
   });
 }

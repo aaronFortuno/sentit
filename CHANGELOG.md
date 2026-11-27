@@ -1,5 +1,12 @@
 # Canvis
 
+## 0.1.132 · 27 de novembre de 2026
+
+- Bloc Solucionari al sidebar d’impressió: transcripció abans o després de les preguntes, amb pistes agrupades i preferència pròpia de lectura/col·lecció. Defaults conservats: preguntes primer als publicats i guió primer als provisionals.
+- CC BY 4.0 centrat al peu de cada pàgina de fitxa i solucionari, amb referència a l’esquerra i paginació a la dreta. Materials originals imprimibles sota [CC BY 4.0](LICENSE-CONTENT.md); codi i recursos amb llicència pròpia documentats.
+- Corregida la desconnexió entre el registre d’alternatives verificades del selector i el del render del full: una sola instància compartida de `question-responses.js`, també per als avisos ABCD. Verificats format obert/ABCD, text complet, pistes, ordre, persistència i paginació.
+- Documentada la futura configuració d’elements i ordre de capçalera/peu, incloent-hi amagar QR per a sessions col·lectives.
+
 ## 0.1.131 · 27 de novembre de 2026
 
 - Retorn de dificultat a les banderes: «Text massa fàcil» i «Text massa difícil per al nivell indicat», a Guió o transcripció, seguint Trama. Només motius predefinits, amb curs i dificultat canònics del material; sense informació del grup ni requalificació automàtica.
