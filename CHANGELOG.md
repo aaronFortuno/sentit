@@ -1,5 +1,9 @@
 # Canvis
 
+## Pendent de publicar
+
+- Pilot de la capçalera, el peu i el diàleg V4V compartits amb Trama. La mostra és a `proves/base-v2/` i el reproductor d’alumnat manté la seva vista reduïda.
+
 ## 0.1.136 · 27 de novembre de 2026
 
 - S133, S134, S136, S138, S139, S140 i S141 passen a publicació definitiva amb la validació explícita del docent. Mateixos màsters i pistes modulars aprovats, sense síntesi, remuntatge ni recompressió d’àudio.

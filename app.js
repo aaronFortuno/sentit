@@ -1,3 +1,4 @@
+import { mountV4V } from './ortografi-base/v4v.js?v=0.1.0';
 import { activities, legacyActivities } from './catalogue.js';
 import { renderRepairPreview, renderVoicePreview } from './repair-preview.js?v=0.1.136';
 import { strings } from './locales.js?v=0.1.136';
@@ -736,20 +737,14 @@ byId('copy-link').addEventListener('click', async () => {
     byId('copy-status').textContent = t('copyHelp');
   }
 });
-byId('copy-lightning').addEventListener('click', async () => {
-  const address = document.querySelector('.support code');
-  try {
-    await navigator.clipboard.writeText(address.textContent);
-    byId('lightning-status').textContent = t('addressCopied');
-    track('copia_lightning');
-  } catch {
-    byId('lightning-status').textContent = t('copyHelp');
-    getSelection()?.selectAllChildren(address);
-  }
+mountV4V(byId('v4v'), document.querySelector('[data-of-open="v4v"]'), {
+  messages: () => ({ copied: t('addressCopied'), manual: t('copyHelp') }),
+  onOpen: () => track('obre_v4v'),
+  onCopy: () => track('copia_lightning'),
 });
 for (const button of document.querySelectorAll('[data-open]')) {
   const dialog = byId(button.dataset.open);
-  button.addEventListener('click', () => { openDialog(dialog);if(button.dataset.open==='v4v')track('obre_v4v');else if(button.dataset.open==='changes')track('consulta_canvis'); });
+  button.addEventListener('click', () => { openDialog(dialog);if(button.dataset.open==='changes')track('consulta_canvis'); });
 }
 for (const element of document.querySelectorAll('[data-icon]')) {
   if (Object.hasOwn(icons, element.dataset.icon)) icon(element, element.dataset.icon);
