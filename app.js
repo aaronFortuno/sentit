@@ -1,4 +1,4 @@
-import { mountV4V } from './ortografi-base/v4v.js?v=0.1.0';
+import { mountV4V } from './ortografi-base/v4v.js?v=0.2.0';
 import { activities, legacyActivities } from './catalogue.js';
 import { renderRepairPreview, renderVoicePreview } from './repair-preview.js?v=0.1.136';
 import { strings } from './locales.js?v=0.1.136';
