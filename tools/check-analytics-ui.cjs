@@ -11,6 +11,7 @@ const publicBase='https://sentit.ortogra.fi';const receiver='https://maquestria.
     async function context(preference){
       const ctx=await browser.newContext({viewport:{width:1440,height:1000},serviceWorkers:'block'});
       await ctx.addInitScript(preference=>{
+        localStorage.setItem('sentit.question-format.v1','open');
         if(preference==='gpc')Object.defineProperty(navigator,'globalPrivacyControl',{value:true});
         if(preference==='dnt')Object.defineProperty(navigator,'doNotTrack',{value:'1'});
         const play=HTMLMediaElement.prototype.play;HTMLMediaElement.prototype.play=function(){window.activeSound=this;return play.call(this);};

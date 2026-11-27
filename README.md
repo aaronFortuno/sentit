@@ -1,5 +1,7 @@
 # Sentit
 
+**Seguiment d’ús i difusió:** [guia d’estadístiques d’Umami](docs/estadistiques.md): lectures i universos més consultats, intenció d’impressió, sessions d’escolta, col·leccions i canals coneguts. Dades de publicats i provisionals separades, sense textos privats.
+
 Banc de comprensió oral d’ortogra.fi. El docent tria una activitat, prepara la fitxa i el solucionari i els imprimeix. L’alumnat respon al paper i escolta l’àudio des del QR o l’enllaç. Web estàtic, sense comptes ni servidor d’aplicació.
 
 **Preparació habitual de publicació:** `node tools/prepare-publication.mjs --apply` prepara àudios, arxiu local sense duplicats diaris, comprovacions, seguiment i auditoria de l’historial. Després d’afegir els canvis a Git, `--check` verifica el que es publicarà. Forma part del [tancament de cada lectura](docs/tancament-publicacio.md); no aprova contingut ni reescriu l’historial automàticament.
@@ -281,7 +283,7 @@ Les comprovacions del so són `node tools/check-sound.cjs` (regles, aprovació, 
 
 Quatre universos editorials amb filtre combinable i etiquetes a les cards i a la fitxa: Les descobertes de la Laia i en Biel, Els records i misteris de l’Aina i l’avi Ferran, Les explicacions i els projectes de la Mireia i Les notícies de la Mar. Les peces són autònomes i poden tenir més d’un vincle. [Criteris i assignacions](docs/univers-editorial.md).
 
-El control «Només provisionals» està activat inicialment i recorda la preferència del navegador: activat mostra només guions i àudios pendents de validar; desactivat mostra només materials disponibles. La capçalera compta només els materials sense revisió pendent. No s’alteren col·leccions ni enllaços directes.
+El control «Només provisionals» està desactivat als navegadors nous i recorda la preferència del navegador: activat mostra només guions i àudios pendents de validar; desactivat mostra només materials disponibles. La capçalera compta només els materials sense revisió pendent. No s’alteren col·leccions ni enllaços directes.
 
 
 

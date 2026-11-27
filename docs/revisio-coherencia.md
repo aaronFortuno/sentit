@@ -1,6 +1,6 @@
 # Revisió independent de coherència
 
-Actualitzat: **26/11/2026**. **147 de 147** propostes de la tanda tenen revisió independent superada per a la versió actual. Abast: 1054 preguntes i 1336 cites literals.
+Actualitzat: **27/11/2026**. **147 de 147** propostes de la tanda tenen revisió independent superada per a la versió actual. Abast: 1054 preguntes i 1336 cites literals.
 
 S’han revisat situacions, cronologia, circulació d’objectes, coneixement dels personatges, causes i desenllaços, acotacions sonores, preguntes, respostes i ancoratges. Les dades factuals sensibles s’han contrastat amb fonts primàries indicades al [dossier editorial](lot-editorial-24.md). La revisió del muntatge és sobre el guió; les veus i el resultat sonor requeriran audició.
 

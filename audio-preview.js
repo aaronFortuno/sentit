@@ -67,7 +67,7 @@ export function mountAudioPreview({ t, entry, session, pauseFragment, fragmentPl
       icon(fullButton.querySelector('[data-icon]'), action === 'pause' ? 'pause' : 'play');
       fullButton.disabled = busy; fullButton.setAttribute('aria-pressed', String(running));
       statusLine.textContent = status === 'sessionListening' ? t(status)(number, config.enabled === false ? 1 : config.listens) : status ? t(status) : '';
-    }, action => track('prova_sessio', { code: selected.code, accio: action }), { skipWaits: () => true, bindButton: false });
+    }, action => track('prova_sessio', { code: selected.code,llengua:selected.language, accio: action }), { skipWaits: () => true, bindButton: false });
     controller.toggle();
   });
   byId('session-editor').addEventListener('change', () => { pauseFragment(); stop(); });

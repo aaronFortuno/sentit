@@ -1,13 +1,49 @@
 import { activities, legacyActivities } from './catalogue.js';
 import { characters } from './content/characters.js';
-import { universes } from './content/universes.js';
+import { universes, universesForActivity, universeName } from './content/universes.js';
 import { sessionJingles } from './session.js';
 import { pendingProductionStages } from './production-stage.js';
 import { multipleChoice } from './question-responses.js';
+import { needsReview } from './review.js';
 
 export const analyticsConfig={website:'6acf2cae-4b28-4d71-98dd-550d2d086dcc',hostname:'sentit.ortogra.fi',script:'https://maquestria.tail72bc84.ts.net:8443/script.js'};
 const page={website:analyticsConfig.website,hostname:analyticsConfig.hostname,title:'Sentit',url:'/'};
-const entries=new Map([...activities,...legacyActivities].map(entry=>[entry.code,entry]));
+const entries=new Map([...legacyActivities,...activities].map(entry=>[entry.code,entry]));
+const readingEntries=new Map([...legacyActivities,...activities].map(entry=>[entry.language+'-'+entry.code,entry]));
+const channels=['directe','ortografi','nus','vivecoding','altres'];
+let sessionChannel;
+export function arrivalChannel(url,referrer=''){
+  try{
+    const current=new URL(url),via=current.searchParams.get('via');
+    if(['ortografi','nus','vivecoding'].includes(via))return via;
+    if(!referrer)return 'directe';
+    const source=new URL(referrer);
+    if(source.hostname==='ortogra.fi'||source.hostname==='www.ortogra.fi')return 'ortografi';
+    return source.origin===current.origin?'directe':'altres';
+  }catch{return 'directe';}
+}
+function measurementContext(){
+  if(sessionChannel===undefined){
+    sessionChannel=arrivalChannel(location.href,document.referrer);
+    try{
+      if(sessionChannel==='directe'){
+        const saved=sessionStorage.getItem('sentit.analytics-channel.v1');
+        if(channels.includes(saved))sessionChannel=saved;
+      }
+      sessionStorage.setItem('sentit.analytics-channel.v1',sessionChannel);
+    }catch{ /* Aggregate measurement still works without browser storage. */ }
+  }
+  return {mesura:2,canal:sessionChannel,entorn:new URL(location.href).searchParams.has('escolta')?'escolta':'docent'};
+}
+function eventEntry(data){
+  if(data.lectura)return readingEntries.get(data.lectura);
+  const code=data.code??data.codi;
+  return data.llengua?readingEntries.get(data.llengua+'-'+code):entries.get(code);
+}
+function readingContext(entry){
+  return {codi:entry.code,lectura:entry.language+'-'+entry.code,titol:entry.title,llengua:entry.language,curs:entry.grade,dificultat:entry.level,tipus:entry.genre,
+    universos:universesForActivity(entry).map(universe=>universe.id).join('|')||'independent',estat:needsReview(entry)?'provisional':'publicada'};
+}
 const filters={
   'content-language':['','ca','es'],grade:['','3','4','5','6','eso1'],level:['','easy','middle','advanced'],duration:['','short','medium','long'],
   genre:['','story','dialogue','news','interview','instructions','explanation'],'character-match':['any','all'],character:characters.map(character=>character.id),
@@ -18,11 +54,13 @@ const buckets=['0','1','2-5','6-15','16+'];
 const times=Array.from({length:301},(_,index)=>String(index));
 const rules={
   obre_comprensio:{code:true,colleccio:'boolean',maquetat:'boolean'},
+  entra_escolta:{code:true},afegeix_colleccio:{code:true},
+  us_univers:{code:true,univers:universes.map(universe=>universe.id),accio:['obre','impressio_fitxa','impressio_solucionari','inicia_escolta','completa_escolta','afegeix_colleccio','copia_enllac']},
   canvia_vista:{code:true,vista:['fitxa','solucionari']},
   obre_impressio:{code:true,contingut:['fitxa','solucionari'],colleccio:'boolean'},
   escolta_audio:{code:true,accio:['inicia','pausa','repren','finalitza','reinicia','previsualitza']},
   configura_audio:{code:true,escoltes:['1','2','3'],ritme:['0.80','0.85','0.90','0.95','1.00','1.05','1.10','1.15','1.20'],lectura:times,pausa:times,sintonia:['cap',...sessionJingles.map(jingle=>jingle.id)],pautada:'boolean'},
-  maqueta_fitxa:{code:true,bloc:['font','size','spacing','leading','codi_aula','imatge','instruccions','pistes','preguntes'],accio:['ajusta','amaga','recupera','linies','restableix','format'],font:['serif','sans','verdana'],format_pregunta:['oberta','abcd']},
+  maqueta_fitxa:{code:true,bloc:['font','size','spacing','leading','codi_aula','imatge','context','instruccions','pistes','preguntes'],accio:['ajusta','amaga','recupera','linies','restableix','format'],font:['serif','sans','verdana'],format_pregunta:['oberta','abcd']},
   colleccio:{accio:['crea','afegeix','selecciona','reordena','retira','elimina','canvia_nom'],quantitat:buckets},
   cerca_cataleg:{tipus:['codi','text'],resultats:buckets},neteja_filtres:{},
   copia_enllac:{code:true},obre_vista_escolta:{code:true},
@@ -64,19 +102,35 @@ export function sanitizeEvent(name,data={}){
   }
   if(!Object.hasOwn(rules,name))return false;
   const clean={},rule=rules[name];
-  if(rule.code){const entry=entries.get(data.code??data.codi);if(!entry)return false;Object.assign(clean,{codi:entry.code,llengua:entry.language,curs:entry.grade,dificultat:entry.level,tipus:entry.genre});}
+  if(rule.code){const entry=eventEntry(data);if(!entry)return false;Object.assign(clean,readingContext(entry));}
   for(const [key,allowed]of Object.entries(rule)){
     if(key==='code')continue;
     if(allowed==='boolean'?typeof data[key]==='boolean':allowed.includes(data[key]))clean[key]=data[key];
   }
-  for(const key of ['accio','vista','contingut','tema','idioma','tipus','origen'])if(rule[key]&&!Object.hasOwn(clean,key))return false;
+  for(const key of ['accio','vista','contingut','tema','idioma','tipus','origen','univers'])if(rule[key]&&!Object.hasOwn(clean,key))return false;
+  if(name==='us_univers'){
+    const universe=universesForActivity(eventEntry(data)).find(universe=>universe.id===clean.univers);
+    if(!universe)return false;
+    clean.nom_univers=universeName(universe,'ca');
+  }
   return {name,...(Object.keys(clean).length?{data:clean}:{})};
+}
+export function universeEvents(event){
+  const action=event.name==='obre_comprensio'?'obre':event.name==='obre_impressio'?'impressio_'+event.data.contingut:event.name==='copia_enllac'?'copia_enllac':event.name==='afegeix_colleccio'?'afegeix_colleccio':event.name==='escolta_audio'&&['inicia','reinicia'].includes(event.data.accio)?'inicia_escolta':event.name==='escolta_audio'&&event.data.accio==='finalitza'?'completa_escolta':null;
+  if(!action)return [];
+  const entry=eventEntry(event.data);if(!entry)return [];
+  return universesForActivity(entry).map(universe=>sanitizeEvent('us_univers',{lectura:entry.language+'-'+entry.code,univers:universe.id,accio:action}));
 }
 function beforeSend(type,payload){
   if(restriction()||type!=='event'||!payload)return false;
-  if(payload.name===undefined)return page;
+  const context=measurementContext();
+  if(payload.name===undefined){
+    let referrer='';
+    try{if(['ortogra.fi','www.ortogra.fi'].includes(new URL(document.referrer).hostname))referrer='https://ortogra.fi/';}catch{}
+    return {...page,referrer,data:context};
+  }
   const event=sanitizeEvent(payload.name,payload.data??{});
-  return event?{...page,...event}:false;
+  return event?{...page,...event,data:{...event.data,...context}}:false;
 }
 export function startAnalytics(){
   if(restriction()||loading||ready())return;
@@ -92,10 +146,12 @@ export function track(name,data={}){
   if(restriction())return;
   const event=sanitizeEvent(name,data);if(!event)return;
   if(!ready()){if(loading&&queue.length<40)queue.push(event);return;}
-  try{window.umami.track(event.name,event.data)?.catch?.(()=>{});}catch{}
+  for(const item of [event,...universeEvents(event)]){
+    try{window.umami.track(item.name,item.data)?.catch?.(()=>{});}catch{}
+  }
 }
 export async function sendReport(entry,{part,element='',motiu,responseMode}){
-  const known=entries.get(entry?.code);
+  const known=readingEntries.get(entry?.language+'-'+entry?.code);
   if(reportAvailability()||!known||known.id!==entry?.id||!Object.hasOwn(reportReasons,part)||!Object.hasOwn(reportReasons[part],motiu))return false;
   entry=known;
   const allowed=part==='image'?['image']:['question','solution'].includes(part)?entry.questions.map(question=>question.id):[...(entry.introduction?['introduction']:[]),...entry.transcript.filter(p=>p.speaker&&p.id).map(p=>p.id)];

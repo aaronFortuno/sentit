@@ -1,5 +1,7 @@
 export const strings = {
   ca: {
+    releaseDateUsageTracking: "27 de novembre de 2026",
+    releaseUsageTracking: "Seguiment d’ús ampliat: lectures, universos, impressió, col·leccions i sessions d’escolta, separant publicats i provisionals. Canals de difusió predefinits, sense enviar textos privats ni paràmetres lliures. Materials publicats per defecte als navegadors nous; es conserven les preferències de revisió. Guia de consulta d’Umami al repositori.",
     releaseTraditionVoicesAndReviewSpeed: "S133 i S142 validats; L47 rebut amb S133, S134, S141 i S142 en una sola petició. Preses de veu per audició abans del muntatge. Botons ×1, ×1,25 i ×1,5 als reproductors de veus i esmenes, amb el to conservat i preferència durant la sessió. S132/S137 muntats amb F4/L2; S135 pendent d’esmena de travessa difícil i Palausolità.",
     releaseCulturalSourcesAndMontages: 'Fonts dels relats culturals al web i al paper; S133/S142 esmenats i pendents de validar. Deu guions aprovats i vuit preses rebudes a L45/L46; títol de S131 parcial. Cinc muntatges nous per escoltar: S070, S095, S122, S128 i S129. S095 amb tres interlocutors i imatge coherent.',
     adaptationSourcesTitle: 'Fonts del relat',
@@ -177,7 +179,7 @@ export const strings = {
     catalogLoaded: (shown, total) => `${shown} de ${total} comprensions carregades.`,
     audioReviewNotice: 'Comprensió definida · àudio pendent de validar',
     privacyTitle: 'Privadesa i estadístiques',
-    privacyInfo: 'Comptem visites i accions habituals amb Umami allotjat en una instància pròpia, sense cookies de seguiment. Enviem només opcions conegudes i codis públics: mai noms, respostes, cerques escrites, codis d’aula ni noms de col·leccions. Els paràmetres de l’enllaç tampoc s’envien.',
+    privacyInfo: 'Comptem visites i accions habituals amb Umami en una instància pròpia, sense cookies de seguiment. Registrem codis, títols i universos públics, opcions conegudes i un canal d’arribada predefinit. Mai noms d’usuaris, respostes, cerques escrites, codis d’aula ni noms de col·leccions. De l’enllaç només llegim una etiqueta de canal coneguda, si n’hi ha; no enviem la resta de paràmetres. Respectem DNT/GPC i l’exclusió d’aquest navegador.',
     privacyReports: 'Els avisos d’error utilitzen el mateix servei i inclouen el codi, la part afectada i un motiu predefinit. Si exclous aquest navegador o tens DNT/GPC activat, tampoc s’enviaran avisos. El web continua funcionant.',
     privacyExclude: 'Exclou aquest navegador de les estadístiques', privacyBrowser: 'El navegador ha demanat no fer seguiment. Respectem aquesta preferència.',
     reportError: 'Notifica un error', reportQuestion: n => `Notifica un error a la pregunta ${n}`,
@@ -363,6 +365,8 @@ export const strings = {
     sessionEnded: 'Sessió acabada', remainingTime: 'Temps restant',
   },
   es: {
+    releaseDateUsageTracking: "27 de noviembre de 2026",
+    releaseUsageTracking: "Seguimiento de uso ampliado: lecturas, universos, impresión, colecciones y sesiones de escucha, separando publicados y provisionales. Canales de difusión predefinidos, sin enviar textos privados ni parámetros libres. Materiales publicados por defecto en navegadores nuevos; se conservan las preferencias de revisión. Guía de consulta de Umami en el repositorio.",
     releaseTraditionVoicesAndReviewSpeed: "S133 y S142 validados; L47 recibido con S133, S134, S141 y S142 en una sola petición. Tomas de voz para escuchar antes del montaje. Botones ×1, ×1,25 y ×1,5 en los reproductores de voces y correcciones, conservando el tono y la preferencia durante la sesión. S132/S137 montados con F4/L2; S135 pendiente de corregir travessa difícil y Palausolità.",
     releaseCulturalSourcesAndMontages: 'Fuentes de los relatos culturales en la web y el papel; S133/S142 corregidos y pendientes de validar. Diez guiones aprobados y ocho tomas recibidas en L45/L46; título de S131 parcial. Cinco montajes nuevos para escuchar: S070, S095, S122, S128 y S129. S095 con tres interlocutores e imagen coherente.',
     adaptationSourcesTitle: 'Fuentes del relato',
@@ -540,7 +544,7 @@ export const strings = {
     catalogLoaded: (shown, total) => `${shown} de ${total} comprensiones cargadas.`,
     audioReviewNotice: 'Comprensión definida · audio pendiente de validar',
     privacyTitle: 'Privacidad y estadísticas',
-    privacyInfo: 'Contamos visitas y acciones habituales con Umami alojado en una instancia propia, sin cookies de seguimiento. Solo enviamos opciones conocidas y códigos públicos: nunca nombres, respuestas, búsquedas escritas, códigos de aula ni nombres de colecciones. Tampoco enviamos los parámetros del enlace.',
+    privacyInfo: 'Contamos visitas y acciones habituales con Umami en una instancia propia, sin cookies de seguimiento. Registramos códigos, títulos y universos públicos, opciones conocidas y un canal de llegada predefinido. Nunca nombres de usuarios, respuestas, búsquedas escritas, códigos de aula ni nombres de colecciones. Del enlace solo leemos una etiqueta de canal conocida, si la hay; no enviamos los demás parámetros. Respetamos DNT/GPC y la exclusión de este navegador.',
     privacyReports: 'Los avisos de error usan el mismo servicio e incluyen el código, la parte afectada y un motivo predefinido. Si excluyes este navegador o tienes DNT/GPC activado, tampoco se enviarán avisos. La web seguirá funcionando.',
     privacyExclude: 'Excluye este navegador de las estadísticas', privacyBrowser: 'El navegador ha pedido no hacer seguimiento. Respetamos esa preferencia.',
     reportError: 'Notifica un error', reportQuestion: n=>`Notifica un error en la pregunta ${n}`,

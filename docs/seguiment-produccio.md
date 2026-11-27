@@ -1,6 +1,6 @@
 # Seguiment de les comprensions
 
-Actualitzat: **26/11/2026**. **26 pendents** de 150 comprensions orals; **124 finalitzades** al [registre de publicacions](publicades.md). Les variants es compten per separat.
+Actualitzat: **27/11/2026**. **26 pendents** de 150 comprensions orals; **124 finalitzades** al [registre de publicacions](publicades.md). Les variants es compten per separat.
 
 La taula conté només feina oberta. Una peça en surt quan té publicació definitiva registrada per al contingut exacte. Les noves propostes s’hi incorporen automàticament; quan no quedi feina, la taula quedarà buida.
 

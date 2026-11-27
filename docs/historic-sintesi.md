@@ -1,6 +1,6 @@
 # Històric de lots de síntesi
 
-Actualitzat: **26/11/2026**. Registre dels **41 lots ja rebuts**, amb 222:39 d’àudio cru i 67.791 tokens d’entrada. No és una cua executable ni un comptador de quota. [Tornar als pendents](lots-sintesi.md).
+Actualitzat: **27/11/2026**. Registre dels **41 lots ja rebuts**, amb 222:39 d’àudio cru i 67.791 tokens d’entrada. No és una cua executable ni un comptador de quota. [Tornar als pendents](lots-sintesi.md).
 
 Aquests enviaments van aportar veus per a **132 comprensions** i **44 frases d’esmena**. És l’abast d’aquests lots, no el nombre total de comprensions del catàleg ni el nombre de peces pendents avui. L’estat actual de cada activitat consta al [seguiment](seguiment-produccio.md).
 

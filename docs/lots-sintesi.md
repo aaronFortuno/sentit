@@ -1,6 +1,6 @@
 # Cua de síntesi
 
-Actualitzat: **26/11/2026**. Aquest document mostra només la feina pendent d’enviar o de revisar. Els lots ja rebuts consten a l’[històric de síntesi](historic-sintesi.md); no s’han de tornar a enviar.
+Actualitzat: **27/11/2026**. Aquest document mostra només la feina pendent d’enviar o de revisar. Els lots ja rebuts consten a l’[històric de síntesi](historic-sintesi.md); no s’han de tornar a enviar.
 
 **Pilot multimodal rebut:** MM-PILOT-001 ja és al final de L29. [Escolta la pista independent](../assets/audio/external/mm-pilot-001-voices-v1.mp3) · [Manifest](../assets/audio/external/mm-pilot-001-voices-v1.json). Pendent d’audició al projecte paral·lel; no tornar a sintetitzar-lo per omplir lots.
 

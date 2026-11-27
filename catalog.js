@@ -6,7 +6,7 @@ import { characters } from './content/characters.js';
 import { isPendingReview, needsReview } from './review.js';
 import { universes, universeName, universesForActivity } from './content/universes.js';
 import { reviewCaption } from './editorial-review.js';
-import { track, countBucket } from './analytics.js';
+import { track, countBucket } from './analytics.js?v=0.1.130';
 import { productionStage, productionStages, pendingProductionStages } from './production-stage.js';
 import { syncSelects } from './select-menu.js';
 import { matchesCatalogFilters, catalogFacetCounts } from './catalog-filters.js';
@@ -17,7 +17,7 @@ const activeKey = 'sentit.collection.active.v1';
 const initialLimit = 12;
 const pageSize = 8;
 const provisionalKey = 'sentit.catalogue.show-provisional.v1';
-const defaultShowProvisional = true;
+const defaultShowProvisional = false;
 function provisionalPreference() {
   try { const saved = localStorage.getItem(provisionalKey); return saved === 'true' ? true : saved === 'false' ? false : defaultShowProvisional; }
   catch { return defaultShowProvisional; }
@@ -431,10 +431,12 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
     onAdd(id, target, name) {
       try {
         const entry = index.get(id);
+        const alreadySaved=listCollections().find(collection=>collection.id===target)?.readingIds.includes(id);
         const collection = saveCollectionEntries(name, [entry], { [id]: snapshot(entry, collectionId) }, target);
         // Keep the menu's anchor alive while adding to more than one collection.
         updatePicker();
         track('colleccio',{accio:target?'afegeix':'crea',quantitat:'1'});
+        if(!alreadySaved)track('afegeix_colleccio',{code:entry.code,llengua:entry.language});
         onCollectionsChange();
         return { ok: true, message: t('activityAdded')(collection.name) };
       } catch (error) { return { ok: false, message: errorMessage(error) }; }
@@ -509,8 +511,10 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
     try {
       const readings = sourceEntries().filter(entry => selectedIds.has(entry.id));
       const layouts = Object.fromEntries(readings.map(entry => [entry.id, snapshot(entry, selectionSource)]));
+      const previous=new Set(listCollections().find(collection=>collection.id===byId('collection-target').value)?.readingIds??[]);
       const collection = saveCollectionEntries(byId('collection-name').value, readings, layouts, byId('collection-target').value);
       track('colleccio',{accio:byId('collection-target').value?'afegeix':'crea',quantitat:countBucket(readings.length)});
+      for(const entry of readings)if(!previous.has(entry.id))track('afegeix_colleccio',{code:entry.code,llengua:entry.language});
       setCollection(collection.id);
       closeDialog(dialog, () => byId('collection-add').focus({ preventScroll: true }));
       onCollectionsChange();

@@ -1,6 +1,6 @@
 # Pla d’esmenes de veu
 
-Actualitzat: **26/11/2026**. **9 fragments en 9 preses previstes** encara necessiten síntesi o re-síntesi. Les correccions de paràgrafs consecutius de la mateixa veu es compten com una sola presa. **0 fragment addicional pendent de confirmar a l’àudio net** i **2 fragments ja rebuts que no s’han de tornar a generar ara**.
+Actualitzat: **27/11/2026**. **9 fragments en 9 preses previstes** encara necessiten síntesi o re-síntesi. Les correccions de paràgrafs consecutius de la mateixa veu es compten com una sola presa. **0 fragment addicional pendent de confirmar a l’àudio net** i **2 fragments ja rebuts que no s’han de tornar a generar ara**.
 
 Aquest inventari exclou les esmenes ja incorporades als muntatges i les publicacions definitives. No és una autorització ni una cua executable. No s’ha fet cap petició nova per preparar-lo.
 

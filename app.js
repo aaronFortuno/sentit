@@ -1,19 +1,19 @@
 import { activities, legacyActivities } from './catalogue.js';
-import { renderRepairPreview, renderVoicePreview } from './repair-preview.js?v=0.1.129';
-import { strings } from './locales.js?v=0.1.129';
-import { defaultFormat, imageOptions, maxLines, questionFormat, renderWorksheet } from './worksheet.js?v=0.1.129';
+import { renderRepairPreview, renderVoicePreview } from './repair-preview.js?v=0.1.130';
+import { strings } from './locales.js?v=0.1.130';
+import { defaultFormat, imageOptions, maxLines, questionFormat, renderWorksheet } from './worksheet.js?v=0.1.130';
 import { clockTime, decodeSession, defaultSession, encodeSession, guidedPrompts, validRate, sessionJingles, validJingle } from './session.js';
 import { renderAudioResources } from './audio-resources.js';
 import { isPendingReview, needsReview } from './review.js';
-import { renderGenerationPlan } from './generation-plan.js?v=0.1.129';
-import { startAnalytics, track, countBucket, excluded, setExcluded, restriction } from './analytics.js';
-import { mountErrorReport } from './error-report.js?v=0.1.106';
-import { initGuidedPlayer } from './guided-player.js?v=0.1.129';
-import { mountAudioPreview } from './audio-preview.js?v=0.1.129';
+import { renderGenerationPlan } from './generation-plan.js?v=0.1.130';
+import { startAnalytics, track, countBucket, excluded, setExcluded, restriction } from './analytics.js?v=0.1.130';
+import { mountErrorReport } from './error-report.js?v=0.1.130';
+import { initGuidedPlayer } from './guided-player.js?v=0.1.130';
+import { mountAudioPreview } from './audio-preview.js?v=0.1.130';
 import { createTrackPlayer } from './track-player.js';
 import { activityAudioParts } from './activity-audio.js';
-import { mountNarrationMusicPreview } from './narration-music-preview.js?v=0.1.129';
-import { mountCatalog } from './catalog.js';
+import { mountNarrationMusicPreview } from './narration-music-preview.js?v=0.1.130';
+import { mountCatalog } from './catalog.js?v=0.1.130';
 import { listCollections, saveCollectionLayout } from './collections.js';
 import { durationText } from './activity-meta.js';
 import { universeName, universesForActivity } from './content/universes.js';
@@ -24,7 +24,7 @@ import { mountSelectMenus } from './select-menu.js';
 import { mountWorkspacePanels } from './workspace-panels.js';
 import { mottos, nextMotto } from './mottos.js';
 import { listeningContext } from './content/listening-contexts.js';
-import { registerQuestionChoices, multipleChoice, responseQuestion, responseSummary } from './question-responses.js?v=0.1.129';
+import { registerQuestionChoices, multipleChoice, responseQuestion, responseSummary } from './question-responses.js?v=0.1.130';
 import { createQuestionFormatPreference } from './question-format-preference.js';
 
 const byId = id => document.getElementById(id);
@@ -322,7 +322,7 @@ function showActivity(entry, collectionId = '') {
   selected = entry;
   const saved = snapshot(entry, activeCollectionId);
   currentSettings = saved.settings ?? {};
-  track('obre_comprensio',{code:entry.code,colleccio:Boolean(activeCollectionId),maquetat:Boolean(activeCollectionId?collection?.layouts?.[entry.id]:activitySettings[entry.id])});
+  track('obre_comprensio',{code:entry.code,llengua:entry.language,colleccio:Boolean(activeCollectionId),maquetat:Boolean(activeCollectionId?collection?.layouts?.[entry.id]:activitySettings[entry.id])});
   applyFormat(saved.format);
   documentMode = needsReview(entry) ? 'answers' : 'worksheet';
   byId('catalog-view').hidden = true;
@@ -349,7 +349,7 @@ function chooseResponsePreference(mode, clearOverrides = false) {
   currentSettings.questionMode = mode;
   if (clearOverrides) currentSettings.questionModes = {};
   saveActivity(); renderEditor();
-  track('maqueta_fitxa', { code:selected.code, bloc:'preguntes', accio:'format', format_pregunta:mode === 'choice' ? 'abcd' : 'oberta' });
+  track('maqueta_fitxa', { code:selected.code,llengua:selected.language, bloc:'preguntes', accio:'format', format_pregunta:mode === 'choice' ? 'abcd' : 'oberta' });
 }
 
 function route() {
@@ -415,6 +415,7 @@ function player(entry) {
   if (!available) return;
   if (play.dataset.initialised) return;
   play.dataset.initialised = 'true';
+  track('entra_escolta',{code:entry.code,llengua:entry.language});
   const statusNode = byId('play-status');
   const timer = byId('session-countdown');
   const label = byId('play-label');
@@ -430,7 +431,7 @@ function player(entry) {
     if (timer.textContent !== time) timer.textContent = time;
     timer.hidden = countdown === null;
     play.disabled = busy;
-  }, action=>track('escolta_audio',{code:entry.code,accio:action}));
+  }, action=>track('escolta_audio',{code:entry.code,llengua:entry.language,accio:action}));
 }
 
 function translate() {
@@ -528,7 +529,7 @@ function updateFormat(event) {
 formatForm.addEventListener('input', updateFormat);
 formatForm.addEventListener('change', updateFormat);
 formatForm.addEventListener('reset', event => {
-  track('maqueta_fitxa',{code:selected?.code,bloc:'font',accio:'restableix'});
+  track('maqueta_fitxa',{code:selected?.code,llengua:selected?.language,bloc:'font',accio:'restableix'});
   event.preventDefault();
   Object.assign(format, defaultFormat);
   syncFormat();
@@ -602,7 +603,7 @@ paper.addEventListener('click', event => {
   if (index === -1) return;
   const mode = action === 'mode-open' ? 'open' : action === 'mode-choice' ? 'choice' : null;
   if (mode && !multipleChoice(selected, selected.questions[index])) return;
-  track('maqueta_fitxa',{code:selected.code,bloc:'preguntes',accio:mode?'format':action==='hide'?'amaga':'linies',...(mode?{format_pregunta:mode==='choice'?'abcd':'oberta'}:{})});
+  track('maqueta_fitxa',{code:selected.code,llengua:selected.language,bloc:'preguntes',accio:mode?'format':action==='hide'?'amaga':'linies',...(mode?{format_pregunta:mode==='choice'?'abcd':'oberta'}:{})});
   const { lines } = questionFormat(selected.questions[index], index, settings);
   settings.questions ??= {};
   const override = settings.questions[id] ??= {};
@@ -638,7 +639,7 @@ byId('hidden-questions').addEventListener('click', event => {
   const button = event.target.closest('[data-restore-question]');
   if (!selected || !button) return;
   currentSettings.questions[button.dataset.restoreQuestion].included = true;
-  track('maqueta_fitxa',{code:selected.code,bloc:'preguntes',accio:'recupera'});
+  track('maqueta_fitxa',{code:selected.code,llengua:selected.language,bloc:'preguntes',accio:'recupera'});
   saveActivity();
   renderEditor();
   if (!byId('question-panel').hidden) byId('question-panel').querySelector('summary').focus({ preventScroll: true });
@@ -677,31 +678,31 @@ for (const [id, mode] of [['worksheet-mode', 'worksheet'], ['answers-mode', 'ans
   byId(id).addEventListener('click', () => {
     documentMode = mode;
     renderSelection();
-    track('canvia_vista',{code:selected?.code,vista:mode==='answers'?'solucionari':'fitxa'});
+    track('canvia_vista',{code:selected?.code,llengua:selected?.language,vista:mode==='answers'?'solucionari':'fitxa'});
   });
 }
-byId('print').addEventListener('click', () => { if (selected && !isPendingReview(selected)) { track('obre_impressio',{code:selected.code,contingut:documentMode==='answers'?'solucionari':'fitxa',colleccio:Boolean(activeCollectionId)});window.print(); } });
+byId('print').addEventListener('click', () => { if (selected && !isPendingReview(selected)) { track('obre_impressio',{code:selected.code,llengua:selected.language,contingut:documentMode==='answers'?'solucionari':'fitxa',colleccio:Boolean(activeCollectionId)});window.print(); } });
 function reportQuestions(){return selected.questions.filter((question,index)=>questionFormat(question,index,currentSettings).included).map(question=>responseQuestion(selected,question,currentSettings));}
 byId('report-error').addEventListener('click',()=>{if(selected){teacherPlayback.pause();errorReporter.open(selected,{questions:reportQuestions()});}});
 byId('player-report').addEventListener('click',()=>{const entry=findActivity(listenId);if(entry){window.dispatchEvent(new Event('sentit-pause-playback'));errorReporter.open(entry,{audioOnly:true});}});
 function syncPrivacy(){byId('analytics-excluded').checked=excluded();const reason=restriction();byId('analytics-browser-notice').hidden=!['dnt','gpc'].includes(reason);}
 byId('analytics-excluded').addEventListener('change',event=>{setExcluded(event.target.checked);syncPrivacy();});
 window.addEventListener('sentit-analytics-change',syncPrivacy);
-byId('open-player').addEventListener('click',()=>track('obre_vista_escolta',{code:selected?.code}));
-teacherPlayback.addEventListener('play',()=>track('escolta_audio',{code:selected?.code,accio:'previsualitza'}));
+byId('open-player').addEventListener('click',()=>track('obre_vista_escolta',{code:selected?.code,llengua:selected?.language}));
+teacherPlayback.addEventListener('play',()=>track('escolta_audio',{code:selected?.code,llengua:selected?.language,accio:'previsualitza'}));
 mountAudioPreview({ t, entry: () => selected, session: () => sessionSettings(selected), pauseFragment: () => teacherPlayback.pause(), fragmentPlayer:teacherPlayback, icon, track });
 const musicPreview=mountNarrationMusicPreview({t,language:()=>language,icon,track});
 document.querySelector('#v4v a[href="https://aaronfortuno.github.io/portfolio/"]').addEventListener('click',()=>track('obre_portafoli'));
 byId('meet-characters').addEventListener('click',()=>track('obre_personatges'));
-document.querySelector('.audio-sources').addEventListener('toggle',event=>{if(event.currentTarget.open)track('consulta_fonts',{code:selected?.code});});
+document.querySelector('.audio-sources').addEventListener('toggle',event=>{if(event.currentTarget.open)track('consulta_fonts',{code:selected?.code,llengua:selected?.language});});
 byId('filters').addEventListener('change',event=>{if(event.target.id)track('aplica_filtre',{filtre:event.target.id,valor:event.target.value});});
 byId('filters').addEventListener('reset',()=>track('neteja_filtres'));
 byId('character-filter-options').addEventListener('click',event=>{const chip=event.target.closest('[data-filter-character]');if(chip)track('aplica_filtre',{filtre:'character',valor:chip.dataset.filterCharacter});});
 let searchTimer;
 byId('search').addEventListener('input',()=>{clearTimeout(searchTimer);searchTimer=setTimeout(()=>{const value=byId('search').value.trim();if(value)track('cerca_cataleg',{tipus:/^(?:ca-|es-)?s\d+[a-z]?$/i.test(value)?'codi':'text',resultats:countBucket(catalog.entries().length)});},600);});
-formatForm.addEventListener('change',event=>track('maqueta_fitxa',{code:selected?.code,bloc:event.target.name,accio:'ajusta',font:format.font}));
-for(const [id,bloc]of [['classroom-code','codi_aula'],['image-editor','imatge'],['show-context','context'],['show-instructions','instruccions'],['show-evidence','pistes']])byId(id).addEventListener('change',()=>track('maqueta_fitxa',{code:selected?.code,bloc,accio:'ajusta'}));
-sessionEditor.addEventListener('change',()=>{const config=sessionSettings(selected);track('configura_audio',{code:selected?.code,escoltes:String(config.listens),ritme:config.rate.toFixed(2),lectura:String(config.reading),pausa:String(config.interval),sintonia:config.jingle?config.jingleId:'cap',pautada:config.enabled});});
+formatForm.addEventListener('change',event=>track('maqueta_fitxa',{code:selected?.code,llengua:selected?.language,bloc:event.target.name,accio:'ajusta',font:format.font}));
+for(const [id,bloc]of [['classroom-code','codi_aula'],['image-editor','imatge'],['show-context','context'],['show-instructions','instruccions'],['show-evidence','pistes']])byId(id).addEventListener('change',()=>track('maqueta_fitxa',{code:selected?.code,llengua:selected?.language,bloc,accio:'ajusta'}));
+sessionEditor.addEventListener('change',()=>{const config=sessionSettings(selected);track('configura_audio',{code:selected?.code,llengua:selected?.language,escoltes:String(config.listens),ritme:config.rate.toFixed(2),lectura:String(config.reading),pausa:String(config.interval),sintonia:config.jingle?config.jingleId:'cap',pautada:config.enabled});});
 byId('generation-plan').addEventListener('click', event => {
   const take = event.target.closest('[data-take]');
   if (!take) return;
@@ -717,7 +718,7 @@ byId('copy-link').addEventListener('click', async () => {
   try {
     await navigator.clipboard.writeText(url);
     byId('copy-status').textContent = t('copied');
-    track('copia_enllac',{code:selected.code});
+    track('copia_enllac',{code:selected.code,llengua:selected.language});
   } catch {
     const input = byId('copy-fallback');
     input.hidden = false;

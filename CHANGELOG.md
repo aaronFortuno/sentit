@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.130 · 27 de novembre de 2026
+
+- Umami: codi amb idioma, títol, curs, dificultat, tipologia, universos i estat públic/provisional als esdeveniments de lectura. `us_univers` compta cada univers vinculat una vegada per acció, també en peces compartides. Entrada a la vista d’escolta i addicions efectives de lectures a col·leccions. Els inicis i reinicis de sessió queden diferenciats de les previsualitzacions del docent.
+- Canals coneguts per a la difusió (`via=nus`, `via=vivecoding`, `via=ortografi`) i record durant la sessió de la pestanya. URL neta, sense cerques, dades d’aula o noms locals; DNT/GPC i exclusió conservats. Text de privadesa actualitzat i [guia d’estadístiques](docs/estadistiques.md).
+- Visitants nous al catàleg publicat per defecte; les preferències desades continuen manant. Proves locals de l’embut d’ús, els universos múltiples i la privadesa amb el receptor simulat, sense visites reals ni comprovació remota.
+
 ## 0.1.129 · 26 de novembre de 2026
 
 - S132 i S137: veus validades, muntatges amb F4/L2 i pistes modulars per a l’audició final. S135 pendent d’esmena de «travessa difícil» i «Palausolità», amb dos paràgrafs complets en cua sense enviar.

@@ -1,6 +1,6 @@
 # Comprensions finalitzades
 
-Actualitzat: **26/11/2026**. **124 publicacions definitives**. Aquest registre conserva les peces que han sortit de la [taula de pendents](seguiment-produccio.md). Les variants es validen per separat.
+Actualitzat: **27/11/2026**. **124 publicacions definitives**. Aquest registre conserva les peces que han sortit de la [taula de pendents](seguiment-produccio.md). Les variants es validen per separat.
 
 | Codi | Títol | Curs | Dificultat · tipologia | Fragment | Validació definitiva |
 | --- | --- | --- | --- | --- | --- |
