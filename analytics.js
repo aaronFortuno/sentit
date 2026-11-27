@@ -1,6 +1,6 @@
 import { activities, legacyActivities } from './catalogue.js';
 import { characters } from './content/characters.js';
-import { universes, universesForActivity, universeName } from './content/universes.js';
+import { universes, universesForActivity, universeName, canonicalUniverseId } from './content/universes.js';
 import { sessionJingles } from './session.js';
 import { pendingProductionStages } from './production-stage.js';
 import { multipleChoice } from './question-responses.js';
@@ -96,9 +96,9 @@ export function setExcluded(value){
 export function sanitizeEvent(name,data={}){
   if(!data||typeof data!=='object'||Array.isArray(data))return false;
   if(name==='aplica_filtre'){
-    const value=data.valor==='tots'?'':data.valor;
+    const value=data.valor==='tots'?'':data.filtre==='universe'?canonicalUniverseId(data.valor):data.valor;
     if(!Object.hasOwn(filters,data.filtre)||!filters[data.filtre].includes(value))return false;
-    return {name,data:{filtre:data.filtre,valor:data.valor||'tots'}};
+    return {name,data:{filtre:data.filtre,valor:value||'tots'}};
   }
   if(!Object.hasOwn(rules,name))return false;
   const clean={},rule=rules[name];

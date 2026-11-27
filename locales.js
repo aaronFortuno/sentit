@@ -1,5 +1,6 @@
 export const strings = {
   ca: {
+    releaseUniverseSimplification: 'Universos simplificats: les passejades passen a Situacions quotidianes i Històries amb sentit al fil de l’Aina i l’avi Ferran. De dotze grups a deu, amb les categories buides ocultes i els recomptes combinats amb els altres filtres. Guions, àudios i col·leccions conservats.',
     releaseTranscriptOrder: "Transcripció abans o després de les preguntes al solucionari, amb tria desada per lectura i col·lecció. Peu CC BY 4.0 centrat a totes les pàgines. Format ABCD del full sincronitzat amb el selector i els avisos de pregunta. Flexibilitat futura de capçalera, peu i QR documentada.",
     releaseDifficultyFeedback: "Les banderes permeten avisar que el text és massa fàcil o massa difícil per al nivell indicat, dins de Guió o transcripció, com a Trama. El retorn inclou el curs i la dificultat del material, sense dades de l’alumnat ni canvis automàtics de qualificació. Privadesa i deduplicació conservades.",
     releaseDateUsageTracking: "27 de novembre de 2026",
@@ -368,6 +369,7 @@ export const strings = {
     sessionEnded: 'Sessió acabada', remainingTime: 'Temps restant',
   },
   es: {
+    releaseUniverseSimplification: 'Universos simplificados: los paseos pasan a Situaciones cotidianas e Historias con sentido al hilo de Aina y su abuelo Ferran. De doce grupos a diez, con las categorías vacías ocultas y los recuentos combinados con los demás filtros. Guiones, audios y colecciones conservados.',
     releaseTranscriptOrder: "Transcripción antes o después de las preguntas en el solucionario, con preferencia por lectura y colección. Pie CC BY 4.0 centrado en todas las páginas. Formato ABCD del documento sincronizado con el selector y los avisos de preguntas. Flexibilidad futura de cabecera, pie y QR documentada.",
     releaseDifficultyFeedback: "Las banderas permiten avisar de que el texto es demasiado fácil o difícil para el nivel indicado, en Guion o transcripción, como en Trama. El aviso incluye el curso y la dificultad del material, sin datos del alumnado ni cambios automáticos de calificación. Se conservan la privacidad y la deduplicación.",
     releaseDateUsageTracking: "27 de noviembre de 2026",

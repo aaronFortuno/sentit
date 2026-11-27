@@ -21,8 +21,8 @@ const{chromium}=require('C:/Users/afortun8/.cache/codex-runtimes/codex-primary-r
   const named=name=>events.filter(e=>e.name===name);
   assert.equal(named('obre_comprensio').length,1,'Delayed script keeps one direct-entry event');
   const reading=named('obre_comprensio')[0];assert.equal(reading.data.lectura,'ca-S008R');assert.equal(reading.data.titol,'La foto que faltava · Històries amb sentit');assert.equal(reading.data.estat,'publicada');assert.equal(reading.data.canal,'nus');assert.equal(reading.data.entorn,'docent');
-  assert.deepEqual(new Set(named('us_univers').filter(e=>e.data.accio==='obre').map(e=>e.data.univers)),new Set(['aina-ferran','histories-sentit']));assert.equal(named('us_univers').filter(e=>e.data.accio==='obre').length,2,'Queued opening expands once per universe');
-  await page.locator('#worksheet-mode').click();await page.locator('#print').click();await page.waitForTimeout(120);assert.equal(named('obre_impressio').length,1);assert.equal(named('obre_impressio')[0].data.contingut,'fitxa');assert.equal(named('us_univers').filter(e=>e.data.accio==='impressio_fitxa').length,2);
+  assert.deepEqual(new Set(named('us_univers').filter(e=>e.data.accio==='obre').map(e=>e.data.univers)),new Set(['aina-ferran']));assert.equal(named('us_univers').filter(e=>e.data.accio==='obre').length,1,'Merged source IDs do not duplicate universe events');
+  await page.locator('#worksheet-mode').click();await page.locator('#print').click();await page.waitForTimeout(120);assert.equal(named('obre_impressio').length,1);assert.equal(named('obre_impressio')[0].data.contingut,'fitxa');assert.equal(named('us_univers').filter(e=>e.data.accio==='impressio_fitxa').length,1);
   await page.locator('#copy-link').click();await page.waitForTimeout(100);assert.equal(named('copia_enllac').length,1);
   await page.locator('#preview-fragment').click();await page.waitForFunction(()=>!document.querySelector('#teacher-audio').paused);await page.waitForTimeout(100);
   assert.equal(named('escolta_audio').filter(e=>e.data.accio==='previsualitza').length,1);
@@ -35,7 +35,7 @@ const{chromium}=require('C:/Users/afortun8/.cache/codex-runtimes/codex-primary-r
   // Exercise both media-end callbacks without waiting through the full story.
   await page.evaluate(()=>window.activeSound.dispatchEvent(new Event('ended')));await page.waitForFunction(()=>window.activeSound.src.includes('-cos.mp3')&&!window.activeSound.paused&&window.activeSound.duration>30&&window.activeSound.currentTime>.1);await page.evaluate(()=>window.activeSound.dispatchEvent(new Event('ended')));await page.waitForTimeout(200);
   assert.equal(named('escolta_audio').filter(e=>e.data.accio==='finalitza').length,1);
-  for(const action of ['inicia_escolta','completa_escolta']){const list=named('us_univers').filter(e=>e.data.accio===action);assert.equal(list.length,2);assert(list.every(e=>e.data.entorn==='escolta'&&e.data.estat==='publicada'));}
+  for(const action of ['inicia_escolta','completa_escolta']){const list=named('us_univers').filter(e=>e.data.accio===action);assert.equal(list.length,1);assert(list.every(e=>e.data.entorn==='escolta'&&e.data.estat==='publicada'));}
   await page.goto(origin+'/');await page.locator('.activity-card').first().waitFor();assert.equal(await page.locator('#show-provisional').isChecked(),false,'New visitors start with published material');
   assert(await page.locator('.activity-card').evaluateAll(async cards=>{const{activities}=await import('./catalogue.js');return cards.every(card=>{const entry=activities.find(e=>e.id===card.dataset.id);return entry&&!['pending','audio-review'].includes(entry.reviewStatus);});}));
   await page.locator('#show-provisional').check();await page.reload();await page.locator('.activity-card').first().waitFor();assert.equal(await page.locator('#show-provisional').isChecked(),true,'Saved review preference survives the new default');

@@ -6,7 +6,7 @@ import { characters } from './content/characters.js';
 import { isPendingReview, needsReview } from './review.js';
 import { universes, universeName, universesForActivity } from './content/universes.js';
 import { reviewCaption } from './editorial-review.js';
-import { track, countBucket } from './analytics.js?v=0.1.132';
+import { track, countBucket } from './analytics.js?v=0.1.133';
 import { productionStage, productionStages, pendingProductionStages } from './production-stage.js';
 import { syncSelects } from './select-menu.js';
 import { matchesCatalogFilters, catalogFacetCounts } from './catalog-filters.js';
@@ -125,7 +125,10 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
     select.replaceChildren(...countedOptions('content-language', [['', t('all')], ...[...new Set(activities.map(entry => entry.language))].map(code => [code, languageName(code)])]));
     select.value = saved;
     const universeSelect = byId('universe'), savedUniverse = universeSelect.value;
-    universeSelect.replaceChildren(...countedOptions('universe', [['', t('all')], ...universes.map(universe => [universe.id, universeName(universe, locale())]), ['independent', t('independentActivities')]]));
+    const universeOptions = countedOptions('universe', [['', t('all')], ...universes.map(universe => [universe.id, universeName(universe, locale())]), ['independent', t('independentActivities')]]);
+    // Offer only useful groups in the current view. Retain a selected empty
+    // group so another filter never silently changes the teacher's selection.
+    universeSelect.replaceChildren(...universeOptions.filter(option => !option.value || option.value === savedUniverse || Number(option.dataset.count) > 0));
     universeSelect.value = savedUniverse;
     renderCharacterFilter(catalogFacetCounts(entries, state, 'characters', characters.map(character => character.id)));
     syncSelects(byId('filters'));

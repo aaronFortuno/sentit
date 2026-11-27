@@ -1,5 +1,11 @@
 # Canvis
 
+## 0.1.133 · 27 de novembre de 2026
+
+- Universos de dotze a deu: A peu de camí s’integra a Situacions quotidianes; Històries amb sentit, al fil de l’Aina i l’avi Ferran. Els noms locutats de programa i els guions aprovats es conserven, amb equivalències dels IDs antics a la classificació.
+- El filtre només ofereix universos amb material que compleixi els altres filtres i la vista publicada/provisional, incloent-hi [Sense univers]. Es conserva qualsevol selecció que quedi a zero per un filtre posterior, sense canvis silenciosos.
+- Classificació compartida a cards, fitxes i estadístiques noves, sense duplicar S008R. Històric d’Umami intacte i criteri de comparació documentat. Faules, llegendes i mites continuen diferenciats.
+
 ## 0.1.132 · 27 de novembre de 2026
 
 - Bloc Solucionari al sidebar d’impressió: transcripció abans o després de les preguntes, amb pistes agrupades i preferència pròpia de lectura/col·lecció. Defaults conservats: preguntes primer als publicats i guió primer als provisionals.

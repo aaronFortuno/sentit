@@ -41,6 +41,8 @@ Cada acció vinculada a una lectura porta el seu codi, idioma, títol, curs, dif
 
 Algunes peces pertanyen a dos universos: compten una vegada en cadascun. Per això els totals per univers **no s’han de sumar per obtenir lectures o persones**. Filtrar sempre una acció; sumar obertura, impressió i escolta barreja coses diferents. `universos` als altres esdeveniments conserva el conjunt d’IDs; per classificar cada univers per separat cal utilitzar `us_univers`.
 
+**Simplificació de v0.1.133 (27/11/2026):** els esdeveniments nous agrupen `a-peu-de-cami` a `situacions-quotidianes` i `histories-sentit` a `aina-ferran`. S008R ja pertanyia a Ferran: ara emet un sol `us_univers` per acció. L’històric no es reescriu. Per comparar períodes, prioritzar els codis de lectura o el període posterior al canvi; sumar les dues etiquetes antigues de S008R duplicaria accions.
+
 `entorn=docent` o `entorn=escolta` indica la interfície utilitzada. No identifica si la persona és docent o alumne. Les previsualitzacions del docent continuen a `escolta_audio` amb `accio=previsualitza`; no són inicis d’una sessió a la vista d’escolta. El pas del títol al relat no crea una segona previsualització. Les escoltes de veus crues per revisar no es barregen amb aquestes sessions.
 
 ## Comparar la difusió

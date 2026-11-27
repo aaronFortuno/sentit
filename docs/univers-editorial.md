@@ -6,28 +6,37 @@ Les comprensions comparteixen personatges, entorns o una veu periodística ident
 
 | Univers | Connexió | Comprensions |
 | --- | --- | --- |
+| Faules del món | Faules tradicionals adaptades amb animals, decisions i conseqüències. | [Pilots](pilots-tradicio.md) · [Ampliació](ampliacio-tradicio-2026-11-26.md) |
+| Llegendes d’aquí i d’arreu | Relats tradicionals vinculats a llocs i costums, amb fonts identificades. | [Pilots](pilots-tradicio.md) · [Ampliació](ampliacio-tradicio-2026-11-26.md) |
+| Mites de l’antiguitat | Episodis grecs i romans, amb context i fonts de referència. | [Pilots](pilots-tradicio.md) · [Ampliació](ampliacio-tradicio-2026-11-26.md) |
 | Mans a l’obra | Petits projectes i reparacions amb proves i ajustos mentre treballen. | [S104–S107: primera tanda](lot-mans-i-cami.md) |
-| A peu de camí | Passejades i imprevistos que s’entenen només escoltant, sense mapa. | [S108–S111: primera tanda](lot-mans-i-cami.md) |
-| Situacions quotidianes | Trobades i gestions en serveis, carrer, botigues o casa. | [Primera tanda](lot-situacions-quotidianes.md) · [Serveis i gestions](lot-situacions-quotidianes-avancades.md) |
+| Situacions quotidianes | Trobades, gestions i passejades en serveis, carrer, botigues o casa. | [Primera tanda](lot-situacions-quotidianes.md) · [Serveis i gestions](lot-situacions-quotidianes-avancades.md) · [Passejades S108–S111](lot-mans-i-cami.md) |
 | Les troballes de la Laia i en Biel | Descobertes, entrevistes i projectes dels dos joves, junts o per separat. | [S001](https://sentit.ortogra.fi/#lectura=ca-S001), [S003](https://sentit.ortogra.fi/#lectura=ca-S003), [S005](https://sentit.ortogra.fi/#lectura=ca-S005), [S007](https://sentit.ortogra.fi/#lectura=ca-S007), [S010](https://sentit.ortogra.fi/#lectura=ca-S010), [S011](https://sentit.ortogra.fi/#lectura=ca-S011), [S012](https://sentit.ortogra.fi/#lectura=ca-S012), [S014](https://sentit.ortogra.fi/#lectura=ca-S014), [S015](https://sentit.ortogra.fi/#lectura=ca-S015), [S017](https://sentit.ortogra.fi/#lectura=ca-S017), [S019](https://sentit.ortogra.fi/#lectura=ca-S019), [S021](https://sentit.ortogra.fi/#lectura=ca-S021), [S024](https://sentit.ortogra.fi/#lectura=ca-S024) |
 | Els records de l’avi Ferran | Petits misteris, fotografies i records familiars de l’Aina i el seu avi. | [S004](https://sentit.ortogra.fi/#lectura=ca-S004), [S004D](https://sentit.ortogra.fi/#lectura=ca-S004D), [S008](https://sentit.ortogra.fi/#lectura=ca-S008), [S008R](https://sentit.ortogra.fi/#lectura=ca-S008R), [S018](https://sentit.ortogra.fi/#lectura=ca-S018), [S022](https://sentit.ortogra.fi/#lectura=ca-S022) |
 | A classe amb la Mireia | Explicacions, experiments i projectes guiats per la Mireia. | [S002](https://sentit.ortogra.fi/#lectura=ca-S002), [S007](https://sentit.ortogra.fi/#lectura=ca-S007), [S011](https://sentit.ortogra.fi/#lectura=ca-S011), [S013](https://sentit.ortogra.fi/#lectura=ca-S013), [S014](https://sentit.ortogra.fi/#lectura=ca-S014), [S017](https://sentit.ortogra.fi/#lectura=ca-S017), [S020](https://sentit.ortogra.fi/#lectura=ca-S020), [S021](https://sentit.ortogra.fi/#lectura=ca-S021) |
 | Les notícies de la Mar | Notícies de ficció del barri presentades per la Mar, amb dades, testimonis i qüestions obertes. | [S006](https://sentit.ortogra.fi/#lectura=ca-S006), [S009](https://sentit.ortogra.fi/#lectura=ca-S009), [S016](https://sentit.ortogra.fi/#lectura=ca-S016), [S023](https://sentit.ortogra.fi/#lectura=ca-S023) |
+| Ràdio de l’escola | Entrevistes, converses i curiositats amb un to proper. | [S001](https://sentit.ortogra.fi/#lectura=ca-S001) i converses del catàleg |
 
 Les assignacions i els IDs estables consten a [content/universes.js](../content/universes.js), amb noms i descripcions en català i castellà. El selector **Univers** es combina amb curs, nivell, durada, idioma, tipus, personatges, cerca i col·lecció. Les cards i les dades de la fitxa n’indiquen els vincles.
 
-**[Sense univers]** és una opció especial del filtre, no el nom d’un univers: permet trobar futures activitats sense cap connexió editorial assignada. Ara totes les peces tenen un vincle justificat; no se’n força cap a quedar independent per omplir aquesta opció. S002 forma part del fil de la Mireia: el registre del personatge i la il·lustració ja identificaven la mestra.
+**[Sense univers]** només apareix quan hi ha peces sense connexió editorial que compleixin els altres filtres. Ara totes les peces tenen un vincle justificat i l’opció no es mostra. Els universos amb recompte zero també s’oculten: el menú ofereix material disponible a la vista actual, publicada o provisional. Si el docent ja ha seleccionat un univers i després un altre filtre en deixa el recompte a zero, la selecció es conserva i es pot netejar; no es canvia silenciosament.
 
-### Dos espais per ampliar el catàleg
+### Simplificació del filtre · 27/11/2026
 
-- **Ràdio de l’escola:** entrevistes, converses i curiositats amb un to proper. S001 ja transcorre en una ràdio escolar; els episodis nous podran compartir aquest marc sense ser un informatiu.
-- **Històries amb sentit:** el programa narratiu ja anunciat a S008R, amb nous relats independents. No es reetiqueten com a programa les versions antigues sense benvinguda i comiat.
+- **A peu de camí → Situacions quotidianes.** Les quatre passejades S108–S111 comparteixen el marc de converses quotidianes. No necessiten una categoria addicional per poder-les localitzar.
+- **Històries amb sentit → Els records de l’avi Ferran.** S008R i S043 expliquen històries de l’Aina i el seu avi. S008R ja constava en aquest fil: s’hi compta una sola vegada. «Històries amb sentit» continua sent el nom del programa anunciat a S008R, sense un filtre propi.
+
+De dotze universos a deu. Set tenen material definitiu i els altres tres —faules, llegendes i mites— apareixen a la vista de provisionals fins que es validin els muntatges. Es mantenen diferenciats pel seu valor de cerca i treball cultural; una categoria amb poc material no implica per si sola que s’hagi d’eliminar.
+
+Els IDs antics dels guions i plans de producció es conserven. `universeAliases` resol `a-peu-de-cami` com `situacions-quotidianes` i `histories-sentit` com `aina-ferran` a la classificació, als filtres i als esdeveniments nous. No s’alteren textos, veus, aprovacions ni col·leccions. L’històric d’estadístiques manté les etiquetes originals; vegeu [la guia d’Umami](estadistiques.md).
 
 No cal forçar tots els textos futurs dins d’un fil. Els actuals ja tenen almenys una connexió justificada; cada peça nova pot indicar un univers principal i, només si aporta valor, un segon. El registre `universeIds` de les noves propostes evita haver de mantenir una segona llista manual de codis.
 
-**Mans a l’obra** i **A peu de camí** comencen amb quatre propostes cadascun, de 3r a 6è. Les passejades són situacions de conversa, descoberta i decisió: totes les pistes necessàries es diuen en veu alta. Els projectes que exigeixin interpretar mapes o altres documents visuals es treballaran a Mirada. En Biel i l’Elies comparteixen les escenes de taller; l’Aina i en Ferran, les passejades. No s’hi afegeixen recurrents ni es modifica l’univers de peces publicades.
+**Mans a l’obra** i les passejades ara agrupades a **Situacions quotidianes** van començar amb quatre propostes cadascun, de 3r a 6è. Totes les pistes necessàries es diuen en veu alta. Els projectes que exigeixin interpretar mapes o altres documents visuals es treballaran a Mirada. En Biel i l’Elies comparteixen les escenes de taller; l’Aina i en Ferran, les passejades. La simplificació del filtre no altera aquests contextos ni el repartiment.
 
-## Proposta d’ampliació: faules, llegendes i mites · 25/11/2026
+## Proposta inicial d’ampliació: faules, llegendes i mites · 25/11/2026
+
+La secció següent conserva el plantejament editorial inicial. L’estat de les veus i muntatges es consulta al [seguiment de producció](seguiment-produccio.md); no és una cua de síntesi actual.
 
 Nova línia proposada pel docent per ampliar el bagatge cultural a través de l’escolta. Tres universos diferenciats permeten reconèixer el tipus de relat i trobar adaptacions adequades per a edats diferents. Ja tenen un pilot cadascun: [S128, S129 i S130](pilots-tradicio.md), amb revisió independent superada i guions validats pel docent. Esperen completar un lot narrat abans de sintetitzar. Els universos s’activen amb aquestes peces als filtres; no hi ha encara àudios nous.
 
@@ -74,7 +83,7 @@ Compartir la veu Aoede no converteix totes les narradores en la Mireia. S004/S00
 
 ## Univers, programa i col·lecció
 
-Els noms d’univers són organitzadors editorials; no són necessàriament noms locutats de programa. **Històries amb sentit** sí que és el programa anunciat a S008R, dins del fil de l’Aina i l’avi Ferran. No es presenta S018 o S022 com a episodis d’aquell programa sense un muntatge que ho estableixi.
+Els noms d’univers són organitzadors editorials; no són necessàriament noms locutats de programa. **Històries amb sentit** és el programa anunciat a S008R, dins del fil de l’Aina i l’avi Ferran, i ja no és un filtre separat. No es presenta S018 o S022 com a episodis d’aquell programa sense un muntatge que ho estableixi.
 
 **Les notícies de la Mar** agrupa les notícies de la mateixa periodista; no afegeix un butlletí nou als àudios. La proposta sonora d’informatiu i magazín continua pendent de tria de noms i sintonies. S006 té les veus autoritzades i espera aquesta tria abans del muntatge. [Comparativa de sintonies](https://sentit.ortogra.fi/proves/sintonies-mireia.html).
 
@@ -82,7 +91,7 @@ Les col·leccions són biblioteques personals del docent, desades al navegador: 
 
 ## Visibilitat dels provisionals
 
-El control **Només provisionals**, activat, mostra exclusivament els guions en revisió i els àudios pendents de validar. Desactivat, mostra només els materials disponibles. Per defecte està activat; cada navegador conserva la preferència a `sentit.catalogue.show-provisional.v1`. Es pot canviar el valor inicial a `defaultShowProvisional` de catalog.js quan el catàleg consolidat sigui més ampli. Netejar filtres no canvia aquesta preferència.
+El control **Només provisionals**, activat, mostra exclusivament els guions en revisió i els àudios pendents de validar. Desactivat, mostra només els materials disponibles. Per defecte està desactivat als navegadors nous; cada navegador conserva la preferència a `sentit.catalogue.show-provisional.v1`. Netejar filtres no canvia aquesta preferència. El selector d’universos i els recomptes segueixen la vista escollida.
 
 ## Seguiment visual de producció
 

@@ -26,15 +26,9 @@ export const universes = [
     activities: [],
   },
   {
-    id: 'a-peu-de-cami',
-    name: { ca: 'A peu de camí', es: 'A pie de camino' },
-    description: { ca: 'Passejades, descobertes i imprevistos a l’exterior. Situacions que s’entenen escoltant, sense necessitar mapes ni imatges.', es: 'Paseos, descubrimientos e imprevistos al aire libre. Situaciones que se entienden escuchando, sin necesitar mapas ni imágenes.' },
-    activities: [],
-  },
-  {
     id: 'situacions-quotidianes',
     name: { ca: 'Situacions quotidianes', es: 'Situaciones cotidianas' },
-    description: { ca: 'Trobades, compres i petites converses del dia a dia, amb persones conegudes o convidats ocasionals.', es: 'Encuentros, compras y pequeñas conversaciones del día a día, con personas conocidas o invitados ocasionales.' },
+    description: { ca: 'Trobades, compres, gestions i passejades del dia a dia, amb persones conegudes o convidats ocasionals.', es: 'Encuentros, compras, gestiones y paseos del día a día, con personas conocidas o invitados ocasionales.' },
     activities: [],
   },
   {
@@ -46,7 +40,7 @@ export const universes = [
   {
     id: 'aina-ferran',
     name: { ca: 'Els records de l’avi Ferran', es: 'Los recuerdos del abuelo Ferran' },
-    description: { ca: 'Petits misteris, fotografies i records familiars de l’Aina i el seu avi.', es: 'Pequeños misterios, fotografías y recuerdos familiares de Aina y su abuelo.' },
+    description: { ca: 'Petits misteris, fotografies i records familiars de l’Aina i el seu avi, en conversa o narrats.', es: 'Pequeños misterios, fotografías y recuerdos familiares de Aina y su abuelo, en conversación o narrados.' },
     activities: ['ca-S004','ca-S004D','ca-S008','ca-S008R','ca-S018','ca-S022'],
   },
   {
@@ -67,18 +61,22 @@ export const universes = [
     description: { ca: 'Entrevistes, converses i curiositats de la ràdio escolar, amb un to proper i menys formal que l’informatiu.', es: 'Entrevistas, conversaciones y curiosidades de la radio escolar, con un tono cercano y menos formal que el informativo.' },
     activities: ['ca-S001'],
   },
-  {
-    id: 'histories-sentit',
-    name: { ca: 'Històries amb sentit', es: 'Historias con sentido' },
-    description: { ca: 'Relats del programa de narracions: històries independents, amb benvinguda, comiat i ambientació sonora.', es: 'Relatos del programa narrativo: historias independientes, con bienvenida, despedida y ambientación sonora.' },
-    activities: ['ca-S008R'],
-  },
 ];
 
+// Keep the source IDs in approved scripts and production records. Classification
+// resolves them here, without renaming a spoken programme or changing approvals.
+export const universeAliases = Object.freeze({
+  'a-peu-de-cami': 'situacions-quotidianes',
+  'histories-sentit': 'aina-ferran',
+});
+export const canonicalUniverseId = id => Object.hasOwn(universeAliases, id) ? universeAliases[id] : id;
 export const universeName = (universe, language = 'ca') => universe.name[language] ?? universe.name.ca;
-export const universesForActivity = entry => universes.filter(universe => universe.activities.includes(`${entry?.language}-${entry?.code}`) || entry?.universeIds?.includes(universe.id));
+export const universesForActivity = entry => {
+  const assigned = new Set(entry?.universeIds?.map(canonicalUniverseId));
+  return universes.filter(universe => universe.activities.includes(`${entry?.language}-${entry?.code}`) || assigned.has(universe.id));
+};
 export function matchesUniverse(entry, selected) {
   if (!selected) return true;
   const linked = universesForActivity(entry);
-  return selected === 'independent' ? linked.length === 0 : linked.some(universe => universe.id === selected);
+  return selected === 'independent' ? linked.length === 0 : linked.some(universe => universe.id === canonicalUniverseId(selected));
 }

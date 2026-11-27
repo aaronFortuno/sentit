@@ -23,8 +23,11 @@ assert.equal(sanitizeEvent('aplica_filtre',{filtre:'genre',valor:'explanation'})
 assert.equal(countBucket(NaN),undefined);assert.equal(countBucket(-1),undefined);assert.equal(countBucket(20),'16+');
 const opening=sanitizeEvent('obre_comprensio',{code:'S008R',titol:'La classe de la Carla',universos:'privat',estat:'privada'});
 assert.equal(opening.data.lectura,'ca-S008R');assert.equal(opening.data.titol,'La foto que faltava · Històries amb sentit');assert.equal(opening.data.estat,'publicada');
-assert.deepEqual(new Set(opening.data.universos.split('|')),new Set(['aina-ferran','histories-sentit']));
-const linked=universeEvents(opening);assert.equal(linked.length,2);assert.deepEqual(new Set(linked.map(e=>e.data.univers)),new Set(['aina-ferran','histories-sentit']));assert(linked.every(e=>e.data.accio==='obre'&&e.data.nom_univers));
+assert.deepEqual(new Set(opening.data.universos.split('|')),new Set(['aina-ferran']));
+const linked=universeEvents(opening);assert.equal(linked.length,1);assert.deepEqual(new Set(linked.map(e=>e.data.univers)),new Set(['aina-ferran']));assert(linked.every(e=>e.data.accio==='obre'&&e.data.nom_univers));
+const shared=universeEvents(sanitizeEvent('obre_comprensio',{code:'S007'}));assert.deepEqual(new Set(shared.map(e=>e.data.univers)),new Set(['laia-biel','amb-mireia']));assert.equal(shared.length,2,'Distinct editorial connections still count once each');
+assert.deepEqual(sanitizeEvent('aplica_filtre',{filtre:'universe',valor:'a-peu-de-cami'}),{name:'aplica_filtre',data:{filtre:'universe',valor:'situacions-quotidianes'}});
+assert.deepEqual(sanitizeEvent('aplica_filtre',{filtre:'universe',valor:'histories-sentit'}),{name:'aplica_filtre',data:{filtre:'universe',valor:'aina-ferran'}});
 assert.equal(sanitizeEvent('us_univers',{code:'S008R',univers:'faules-mon',accio:'obre'}),false,'A reading cannot report another universe');
 assert.equal(sanitizeEvent('obre_comprensio',{lectura:'es-S008R'}),false,'Unknown language/code cannot alias the Catalan reading');
 assert.equal(sanitizeEvent('obre_comprensio',{code:'S132'}).data.estat,'provisional');

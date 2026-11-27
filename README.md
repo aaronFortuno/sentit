@@ -4,6 +4,8 @@
 
 Banc de comprensió oral d’ortogra.fi. El docent tria una activitat, prepara la fitxa i el solucionari i els imprimeix. L’alumnat respon al paper i escolta l’àudio des del QR o l’enllaç. Web estàtic, sense comptes ni servidor d’aplicació.
 
+**Universos simplificats:** [deu fils editorials](docs/univers-editorial.md), amb els grups buits ocults als filtres. Les passejades s’agrupen a Situacions quotidianes i les dues Històries amb sentit, al fil de l’Aina i l’avi Ferran. Es conserven els noms dels programes, els guions i els IDs de producció.
+
 **Preparació habitual de publicació:** `node tools/prepare-publication.mjs --apply` prepara àudios, arxiu local sense duplicats diaris, comprovacions, seguiment i auditoria de l’historial. Després d’afegir els canvis a Git, `--check` verifica el que es publicarà. Forma part del [tancament de cada lectura](docs/tancament-publicacio.md); no aprova contingut ni reescriu l’historial automàticament.
 
 **Àudio modular:** només es publiquen el títol i el relat separats. L’escolta seguida del docent té una sola barra de temps; la sessió configura locucions, pauses, repeticions, ritme i sintonia amb les mateixes pistes. Els 130 màsters complets equivalents continuen en local: uns 170 MB menys publicats i arbre públic d’uns 298 MB. [Arquitectura, manteniment i comprovacions](docs/audio-modular.md).
