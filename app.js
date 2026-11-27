@@ -16,7 +16,7 @@ import { mountAudioPreview } from './audio-preview.js?v=0.1.136';
 import { createTrackPlayer } from './track-player.js';
 import { activityAudioParts } from './activity-audio.js';
 import { mountNarrationMusicPreview } from './narration-music-preview.js?v=0.1.136';
-import { mountCatalog } from './catalog.js?v=0.1.136';
+import { mountCatalog } from './catalog.js?v=0.1.136&base=0.7.0';
 import { listCollections, saveCollectionLayout } from './collections.js';
 import { durationText } from './activity-meta.js';
 import { universeName, universesForActivity } from './content/universes.js';

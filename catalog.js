@@ -179,7 +179,7 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
     if (!append) { grid.replaceChildren(); byId('catalog-card-status').textContent = ''; }
     const added = [];
     for (const entry of matches.slice(start, limit)) {
-      const card = element('button', undefined, 'activity-card');
+      const card = element('button', undefined, 'activity-card of-card-typed');
       card.type = 'button';
       card.dataset.id = entry.id;
       card.dataset.openActivity = entry.id;
@@ -208,7 +208,7 @@ export function mountCatalog({ activities, t, locale, icon, snapshot, onOpen, on
       icon(symbol, { story: 'book', interview: 'mic', news: 'news', instructions: 'checklist', dialogue: 'messages', explanation: 'lightbulb' }[entry.genre] ?? 'book');
       type.append(symbol, element('span', t('genres')[entry.genre] ?? entry.genre));
       head.append(type, code);
-      const title = element('h2', entry.title);
+      const title = element('h2', entry.title, 'of-card-title');
       title.lang = entry.language;
       card.append(head, title);
       if (entry.summary) {

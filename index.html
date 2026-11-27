@@ -11,13 +11,14 @@
   <link rel="stylesheet" href="./styles.css?v=0.1.136">
   <link rel="stylesheet" href="./worksheet.css?v=0.1.136">
   <link rel="stylesheet" href="./review-audio-rate.css?v=0.1.136">
-  <link rel="stylesheet" href="./catalog.css">
+  <link rel="stylesheet" href="./catalog.css?base=0.7.0">
   <link rel="stylesheet" href="./select-menu.css">
   <link rel="stylesheet" href="./characters.css">
   <title>Sentit · Comprensió oral</title>
   <script defer src="./assets/vendor/qrcode.js"></script>
-  <script type="module" src="./app.js?v=0.1.136"></script>
+  <script type="module" src="./app.js?v=0.1.136&amp;base=0.7.0"></script>
   <link rel="stylesheet" href="./ortografi-base/shell.css?v=0.6.0">
+  <link rel="stylesheet" href="./ortografi-base/gallery.css?v=0.7.0">
 </head>
 <body>
   <a class="skip" href="#workspace" data-t="skip">Ves al contingut</a>
@@ -54,8 +55,8 @@
     </div>
   </header>
 
-  <main id="catalog-view" class="catalog-view" tabindex="-1" aria-label="Comprensions orals" data-label="catalogTitle" hidden>
-    <div class="catalog-layout">
+  <main id="catalog-view" class="catalog-view of-gallery-shell" tabindex="-1" aria-label="Comprensions orals" data-label="catalogTitle" hidden>
+    <div class="catalog-layout of-gallery-layout">
     <aside class="pane catalog" aria-label="Filtres i col·leccions" data-label="catalogOptions">
       <div class="filter-panel-wrap">
       <button type="reset" form="filters" id="reset-filters" class="icon-button filter-reset" data-label="reset"><span data-icon="close" aria-hidden="true"></span></button>
@@ -112,7 +113,7 @@
         <p id="catalog-card-help" class="sr-only" data-t="cardGestureHelp">Mantén premuda una targeta o prem Majúscules + F10 per veure’n les opcions. Dins d’una col·lecció, arrossega per ordenar o prem Alt + fletxes.</p>
         <p id="catalog-selection-help" class="sr-only" data-t="cardSelectionHelp">Fes clic o prem Espai per seleccionar o deseleccionar una comprensió.</p>
         <p id="catalog-card-status" class="sr-only" role="status"></p>
-        <div id="activity-grid" class="activity-grid"></div>
+        <div id="activity-grid" class="activity-grid of-gallery-grid"></div>
         <p class="empty" id="catalog-empty" hidden data-t="noResults">Cap activitat amb aquests filtres.</p>
       </div>
     </section>

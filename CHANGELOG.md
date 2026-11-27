@@ -2,6 +2,8 @@
 
 ## Pendent de publicar
 
+- El pilot comparteix l’amplada, el lateral i la graella adaptable del catàleg. La galeria manté el color i la icona de cada tipologia textual.
+
 - El quadre compartit de llicències incorpora les pestanyes MIT i CC BY 4.0, amb resum i text legal complet en una zona amb desplaçament intern.
 
 - Historial compartit amb data, versió, grups de canvis i enllaç al registre complet.
