@@ -1,4 +1,4 @@
-import { mountGalleryHelp, mountGallerySearch } from './ortografi-base/gallery-controls.js?v=0.8.0';
+import { mountGalleryHelp, mountGallerySearch } from './ortografi-base/gallery-controls.js?v=0.9.0';
 import { localiseGalleryHelp } from './ortografi-base/gallery-help-copy.js?v=0.8.0';
 import { mountChangelog } from './ortografi-base/changelog.js?v=0.5.0';
 import { mountLicense } from './ortografi-base/license.js?v=0.6.0';
