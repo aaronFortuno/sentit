@@ -46,7 +46,7 @@ const publicBase='https://sentit.ortogra.fi';const receiver='https://maquestria.
     assert.equal(await page.locator('#print').isEnabled(),true);
     assert(await page.locator('.paper-question').count()>0);
     await page.locator('#worksheet-mode').click();
-    await page.locator('[data-open="v4v"]').click();await page.locator('#v4v').waitFor({state:'visible'});
+    await page.locator('[data-of-open="v4v"]').click();await page.locator('#v4v').waitFor({state:'visible'});
     await page.locator('#analytics-excluded').check();
     const before=sent.length;await page.evaluate(()=>window.umami.track('obre_v4v'));await page.waitForTimeout(80);assert.equal(sent.length,before);
     await page.keyboard.press('Escape');await page.locator('#v4v').waitFor({state:'hidden'});
@@ -92,7 +92,7 @@ const publicBase='https://sentit.ortogra.fi';const receiver='https://maquestria.
     await page.waitForFunction(()=>document.querySelector('.report-status').textContent.includes('Avís enviat'));
     assert.deepEqual(sent.findLast(event=>event.payload.name==='notifica_error').payload.data,{codi:'S008R',llengua:'ca',part:'question',motiu:'unsupported',element:'treball',format_pregunta:'abcd'});
     await page.keyboard.press('Escape');await page.locator('#error-report-dialog').waitFor({state:'hidden'});
-    await page.locator('[data-open="v4v"]').click();await page.locator('.analytics-privacy').scrollIntoViewIfNeeded();
+    await page.locator('[data-of-open="v4v"]').click();await page.locator('.analytics-privacy').scrollIntoViewIfNeeded();
     await page.evaluate(()=>Promise.all(document.getAnimations().map(a=>a.finished.catch(()=>{}))));
     assert.equal(await page.locator('#analytics-excluded').evaluate(node=>Math.round(node.getBoundingClientRect().width)),34);
     await page.screenshot({path:path.join(output,'privacy.png')});

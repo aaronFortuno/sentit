@@ -8,7 +8,7 @@
   <meta name="theme-color" content="#f7f5ee">
   <link rel="canonical" href="https://sentit.ortogra.fi/">
   <link rel="icon" href="./assets/sentit.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css?v=0.1.136&amp;base=0.11.0">
+  <link rel="stylesheet" href="./styles.css?v=0.1.136&amp;base=0.12.0">
   <link rel="stylesheet" href="./worksheet.css?v=0.1.136">
   <link rel="stylesheet" href="./review-audio-rate.css?v=0.1.136">
   <link rel="stylesheet" href="./catalog.css?base=0.9.0">
@@ -16,10 +16,10 @@
   <link rel="stylesheet" href="./characters.css">
   <title>Sentit · Comprensió oral</title>
   <script defer src="./assets/vendor/qrcode.js"></script>
-  <script type="module" src="./app.js?v=0.1.136&amp;base=0.11.0"></script>
+  <script type="module" src="./app.js?v=0.1.136&amp;base=0.12.0"></script>
   <link rel="stylesheet" href="./ortografi-base/shell.css?v=0.6.0">
   <link rel="stylesheet" href="./ortografi-base/gallery.css?v=0.9.0">
-  <link rel="stylesheet" href="./ortografi-base/print-studio.css?v=0.11.0">
+  <link rel="stylesheet" href="./ortografi-base/print-studio.css?v=0.12.0">
 </head>
 <body>
   <a class="skip" href="#workspace" data-t="skip">Ves al contingut</a>
@@ -186,7 +186,7 @@
             </div>
           </details>
         </section></div>
-      <div class="panel-footer">
+      <div class="panel-footer" data-of-print-actions>
         <button id="print" class="button primary" type="button" disabled>
           <span data-icon="printer" aria-hidden="true"></span><span id="print-label">Imprimeix la fitxa</span>
         </button>
@@ -264,15 +264,13 @@
           <label class="activity-selector"><span class="sr-only" data-t="activity">Activitat</span><select id="activity-select"></select></label>
           <p id="activity-meta" class="meta"></p>
         </div>
-        <div class="mode-switch" role="group" data-label="document">
-          <button id="worksheet-mode" type="button" aria-pressed="true" data-t="worksheet">Fitxa</button>
-          <button id="answers-mode" type="button" aria-pressed="false" data-t="answers">Solucionari</button>
-        </div>
-        <button id="report-error" class="icon-button" type="button" data-label="reportError"><span data-icon="flag" aria-hidden="true"></span></button>
+        <div class="of-preview-head-actions"></div>
       </div>
-      <div class="paper-stage of-print-stage">
-        <div class="paper-pages" id="paper" data-label="printKind"></div>
-        <div class="empty paper-empty" id="paper-empty" hidden data-t="chooseActivity">Tria una activitat per veure la fitxa.</div>
+      <div class="print-preview-window of-preview-viewport">
+        <div class="paper-stage of-print-stage" tabindex="0" role="region" data-label="preview" aria-label="Previsualització">
+          <div class="paper-pages" id="paper" data-label="printKind"></div>
+          <div class="empty paper-empty" id="paper-empty" hidden data-t="chooseActivity">Tria una activitat per veure la fitxa.</div>
+        </div>
       </div>
     </section>
 

@@ -1,5 +1,7 @@
 import { mountGalleryHelp, mountGallerySearch } from './ortografi-base/gallery-controls.js?v=0.9.0';
 import { createLanguagePreference, createThemePreference } from './ortografi-base/interface-preferences.js?v=0.10.0';
+import { documentModes, localisePreviewControls, mountDocumentModes, mountPreviewReport, placePreviewPrintActions, reportFlag, zoomTools } from './ortografi-base/print-preview-controls.js?v=0.12.0';
+import { mountPreviewZoom } from './ortografi-base/preview-zoom.js?v=0.12.0';
 import { printFields, syncPrintRange } from './ortografi-base/print-controls.js?v=0.11.0';
 import { localiseGalleryHelp } from './ortografi-base/gallery-help-copy.js?v=0.8.0';
 import { mountChangelog } from './ortografi-base/changelog.js?v=0.5.0';
@@ -48,7 +50,6 @@ const linkedActivities = [...activities, ...legacyActivities];
 let selected = null;
 let activeCollectionId = '';
 let currentSettings = {};
-let documentMode = 'worksheet';
 const t = key => strings[language][key];
 const errorReporter=mountErrorReport(byId('error-report-dialog'),t);
 const query = new URL(location.href).searchParams;
@@ -73,6 +74,14 @@ byId('audio-jingle-choice').replaceChildren(...sessionJingles.map(jingle => {
   const option = document.createElement('option'); option.value = jingle.id; option.textContent = jingle.title; return option;
 }));
 const paper = byId('paper');
+const workspace = byId('workspace');
+const previewActions = workspace.querySelector('.of-preview-head-actions');
+previewActions.innerHTML = documentModes({ worksheetId: 'worksheet-mode', answersId: 'answers-mode' })
+  + reportFlag('error-report-dialog', { id: 'report-error' });
+paper.parentElement.insertAdjacentHTML('afterend', zoomTools());
+const previewZoom = mountPreviewZoom(paper.parentElement, paper, workspace.querySelector('.of-preview-zoom'), { scaleProperty: '--sheet-zoom' });
+const documentView = mountDocumentModes(workspace.querySelector('.of-preview-modes'), changeDocumentView);
+placePreviewPrintActions(workspace.querySelector('[data-of-print-actions]'), byId('print-panel'), workspace, matchMedia('(min-width: 1200px)'));
 const format = { ...defaultFormat };
 const responsePreference = createQuestionFormatPreference();
 let responsePreferenceShown = false;
@@ -176,10 +185,6 @@ function theme() {
   icon(byId('theme').querySelector('[data-icon]'), dark ? 'sun' : 'moon');
 }
 
-function fitZoom() {
-  if (paper.clientWidth) paper.style.setProperty('--sheet-zoom', Math.min(1, paper.clientWidth / (210 * 96 / 25.4)));
-}
-
 function renderPaper() {
   document.body.classList.toggle('reviewing-draft', Boolean(isPendingReview(selected) && !byId('workspace').hidden));
   paper.hidden = !selected;
@@ -188,10 +193,10 @@ function renderPaper() {
     paper.replaceChildren();
     return;
   }
-  fitZoom();
   const scroller = paper.parentElement;
-  const scrollTop = scroller.scrollTop;
-  const answerKey = documentMode === 'answers';
+  const { scrollLeft, scrollTop } = scroller;
+  const answerKey = documentView.answers;
+  paper.style.setProperty('--sheet-zoom', '1');
   renderWorksheet(paper, selected, format, currentSettings, {
     answerKey,
     labels: printLocale(selected),
@@ -199,7 +204,8 @@ function renderPaper() {
     listenUrl: !answerKey && selected.audio ? publicListenUrl(selected) : null,
     session: configuredSession(selected),
   });
-  scroller.scrollTop = scrollTop;
+  previewZoom.size();
+  scroller.scrollTo(scrollLeft, scrollTop);
   animateRefresh(paper);
 }
 
@@ -222,12 +228,12 @@ function renderEditor() {
   const settings = currentSettings;
   byId('classroom-code').value = settings?.code ?? '';
   byId('show-context').checked = settings.showContext ?? true;
-  byId('context-option').hidden = documentMode === 'answers' || !listeningContext(selected);
+  byId('context-option').hidden = documentView.answers || !listeningContext(selected);
   byId('show-instructions').checked = settings.showInstructions ?? true;
-  byId('show-instructions').closest('label').hidden = documentMode === 'answers';
-  byId('answer-key-panel').hidden = documentMode !== 'answers';
+  byId('show-instructions').closest('label').hidden = documentView.answers;
+  byId('answer-key-panel').hidden = !documentView.answers;
   byId('transcript-position').value = transcriptPosition(selected, settings);
-  byId('evidence-option').hidden = documentMode !== 'answers';
+  byId('evidence-option').hidden = !documentView.answers;
   byId('show-evidence').checked = settings.showEvidence ?? true;
   syncSelects(byId('answer-key-panel'));
   const responses = responseSummary(selected, settings);
@@ -314,10 +320,8 @@ function renderSelection() {
   const options = entries.includes(selected) ? entries : [...entries, selected].filter(Boolean);
   byId('activity-select').replaceChildren(...options.map(entry => new Option(`${entry.code} · ${entry.title}`, entry.id)));
   byId('activity-select').value = selected?.id ?? '';
-  byId('worksheet-mode').setAttribute('aria-pressed', String(documentMode === 'worksheet'));
-  byId('answers-mode').setAttribute('aria-pressed', String(documentMode === 'answers'));
   byId('print').disabled = !selected || isPendingReview(selected);
-  byId('print-label').textContent = t(isPendingReview(selected) ? 'reviewPending' : documentMode === 'answers' ? 'printAnswers' : 'printWorksheet');
+  byId('print-label').textContent = t(isPendingReview(selected) ? 'reviewPending' : documentView.answers ? 'printAnswers' : 'printWorksheet');
   byId('print-kind').textContent = selected ? t(isPendingReview(selected) ? 'reviewPrintBlocked' : 'printHint') : '';
   const scope = listCollections().find(entry => entry.id === activeCollectionId);
   byId('activity-meta').textContent = selected ? `${t('grades')[selected.grade] ?? selected.grade} · ${t('genres')[selected.genre] ?? selected.genre} · ${t('level')}: ${t('levels')[selected.level] ?? selected.level} · ${durationText(selected, t)}${scope ? ` · ${scope.name}` : ''}` : '';
@@ -347,7 +351,8 @@ function showActivity(entry, collectionId = '') {
   currentSettings = saved.settings ?? {};
   track('obre_comprensio',{code:entry.code,llengua:entry.language,colleccio:Boolean(activeCollectionId),maquetat:Boolean(activeCollectionId?collection?.layouts?.[entry.id]:activitySettings[entry.id])});
   applyFormat(saved.format);
-  documentMode = needsReview(entry) ? 'answers' : 'worksheet';
+  documentView.set(needsReview(entry) ? 'answers' : 'worksheet');
+  previewZoom.reset();
   byId('catalog-view').hidden = true;
   byId('catalog-search').hidden = true;
   byId('workspace').hidden = false;
@@ -460,6 +465,7 @@ function player(entry) {
 function translate() {
   document.documentElement.lang = language;
   document.title = t('title');
+  localisePreviewControls(workspace, language);
   syncFormat();
   for (const element of document.querySelectorAll('[data-t]')) {
     const text = t(element.dataset.t);
@@ -507,7 +513,6 @@ byId('header-motto').addEventListener('click', () => {
   animateRefresh(byId('header-motto'));
 });
 syncFormat();
-new ResizeObserver(fitZoom).observe(paper);
 sessionEditor.addEventListener('submit', event => event.preventDefault());
 function updateSession(event) {
   if (!guidedPrompts(selected)) return;
@@ -618,7 +623,7 @@ paper.addEventListener('click', event => {
   const tools = button.closest('[data-question-id]');
   const { questionId: id } = tools.dataset;
   const action = button.dataset.questionAction;
-  if(action==='report'){errorReporter.open(selected,{part:documentMode==='answers'?'solution':'question',element:id,questions:reportQuestions()});return;}
+  if(action==='report'){errorReporter.open(selected,{part:documentView.answers?'solution':'question',element:id,questions:reportQuestions()});return;}
   if (action === 'toggle') {
     const open = button.getAttribute('aria-expanded') !== 'true';
     button.setAttribute('aria-expanded', String(open));
@@ -700,16 +705,20 @@ document.querySelector('.brand').addEventListener('click', event => {
   }
 });
 window.addEventListener('hashchange', route);
-for (const [id, mode] of [['worksheet-mode', 'worksheet'], ['answers-mode', 'answers']]) {
-  byId(id).addEventListener('click', () => {
-    documentMode = mode;
-    renderSelection();
-    track('canvia_vista',{code:selected?.code,llengua:selected?.language,vista:mode==='answers'?'solucionari':'fitxa'});
-  });
+function changeDocumentView(mode) {
+  renderSelection();
+  track('canvia_vista',{code:selected?.code,llengua:selected?.language,vista:mode==='answers'?'solucionari':'fitxa'});
 }
-byId('print').addEventListener('click', () => { if (selected && !isPendingReview(selected)) { track('obre_impressio',{code:selected.code,llengua:selected.language,contingut:documentMode==='answers'?'solucionari':'fitxa',colleccio:Boolean(activeCollectionId)});window.print(); } });
+byId('print').addEventListener('click', () => { if (selected && !isPendingReview(selected)) { track('obre_impressio',{code:selected.code,llengua:selected.language,contingut:documentView.answers?'solucionari':'fitxa',colleccio:Boolean(activeCollectionId)});window.print(); } });
 function reportQuestions(){return selected.questions.filter((question,index)=>questionFormat(question,index,currentSettings).included).map(question=>responseQuestion(selected,question,currentSettings));}
-byId('report-error').addEventListener('click',()=>{if(selected){teacherPlayback.pause();errorReporter.open(selected,{questions:reportQuestions()});}});
+mountPreviewReport(byId('report-error'), byId('error-report-dialog'), {
+  isAnswerKey: () => documentView.answers,
+  open(target) {
+    if (!selected) return;
+    teacherPlayback.pause();
+    errorReporter.open(selected, { ...target, questions: reportQuestions() });
+  },
+});
 byId('player-report').addEventListener('click',()=>{const entry=findActivity(listenId);if(entry){window.dispatchEvent(new Event('sentit-pause-playback'));errorReporter.open(entry,{audioOnly:true});}});
 function syncPrivacy(){byId('analytics-excluded').checked=excluded();const reason=restriction();byId('analytics-browser-notice').hidden=!['dnt','gpc'].includes(reason);}
 byId('analytics-excluded').addEventListener('change',event=>{setExcluded(event.target.checked);syncPrivacy();});
@@ -732,7 +741,7 @@ sessionEditor.addEventListener('change',()=>{const config=sessionSettings(select
 byId('generation-plan').addEventListener('click', event => {
   const take = event.target.closest('[data-take]');
   if (!take) return;
-  documentMode = 'answers';
+  documentView.set('answers');
   renderSelection();
   const target = [...paper.querySelectorAll('[data-take-id]')].find(node => node.dataset.takeId === take.dataset.take);
   scrollToTarget(target);
