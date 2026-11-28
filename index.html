@@ -8,7 +8,7 @@
   <meta name="theme-color" content="#f7f5ee">
   <link rel="canonical" href="https://sentit.ortogra.fi/">
   <link rel="icon" href="./assets/sentit.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="./styles.css?v=0.1.136&amp;base=0.9.0">
+  <link rel="stylesheet" href="./styles.css?v=0.1.136&amp;base=0.11.0">
   <link rel="stylesheet" href="./worksheet.css?v=0.1.136">
   <link rel="stylesheet" href="./review-audio-rate.css?v=0.1.136">
   <link rel="stylesheet" href="./catalog.css?base=0.9.0">
@@ -16,9 +16,10 @@
   <link rel="stylesheet" href="./characters.css">
   <title>Sentit · Comprensió oral</title>
   <script defer src="./assets/vendor/qrcode.js"></script>
-  <script type="module" src="./app.js?v=0.1.136&amp;base=0.10.0"></script>
+  <script type="module" src="./app.js?v=0.1.136&amp;base=0.11.0"></script>
   <link rel="stylesheet" href="./ortografi-base/shell.css?v=0.6.0">
   <link rel="stylesheet" href="./ortografi-base/gallery.css?v=0.9.0">
+  <link rel="stylesheet" href="./ortografi-base/print-studio.css?v=0.11.0">
 </head>
 <body>
   <a class="skip" href="#workspace" data-t="skip">Ves al contingut</a>
@@ -122,12 +123,77 @@
     </div>
   </main>
 
-  <main id="workspace" class="workspace" tabindex="-1" hidden>
+  <main id="workspace" class="workspace of-print-shell of-print-layout" tabindex="-1" hidden>
     <div class="workspace-tools" role="group" data-label="workspaceSettings">
+      <button type="button" class="panel-launcher" data-workspace-panel="print" aria-expanded="false" aria-controls="print-panel"><span data-icon="printer" aria-hidden="true"></span><span data-t="sheetFormat">Format del full</span><span data-icon="chevron-down" aria-hidden="true"></span></button>
       <button type="button" class="panel-launcher" data-workspace-panel="audio" aria-expanded="false" aria-controls="audio-panel"><span data-icon="mic" aria-hidden="true"></span><span data-t="audio">Àudio</span><span data-icon="chevron-down" aria-hidden="true"></span></button>
-      <button type="button" class="panel-launcher" data-workspace-panel="print" aria-expanded="false" aria-controls="print-panel"><span data-icon="printer" aria-hidden="true"></span><span data-t="print">Impressió</span><span data-icon="chevron-down" aria-hidden="true"></span></button>
     </div>
     <div class="workspace-shade" data-close-workspace-panel aria-hidden="true"></div>
+    <aside id="print-panel" class="pane workspace-panel print-panel" aria-labelledby="print-panel-title">
+      <div class="panel-header"><div class="panel-heading"><h2 id="print-panel-title" data-t="sheetFormat">Format del full</h2><button type="reset" form="worksheet-format" class="subtle format-reset" data-t="resetFormat" data-label="resetPrintFormat">Restableix</button><button class="icon-button panel-close" type="button" data-close-workspace-panel data-label="closePrintSettings"><span data-icon="close" aria-hidden="true"></span></button></div></div>
+      <div class="panel-scroll" id="print-scroll"><section class="format-section" id="worksheet-editor" hidden>
+          <form id="worksheet-format" autocomplete="off">
+            <details id="format-panel" class="print-settings-group" open>
+              <summary data-t="printTypography">Text i tipografia</summary>
+              <div class="of-print-controls" data-print-group="text"></div>
+            </details>
+            <details id="margins-panel" class="print-settings-group">
+              <summary data-t="printMargins">Marges del full</summary>
+              <div class="of-print-controls" data-print-group="margins"></div>
+            </details>
+          </form>
+          <details id="instructions-panel" class="print-settings-group" open>
+            <summary data-t="printInstructions">Capçalera i instruccions</summary>
+            <div class="print-content-options">
+              <label class="print-field"><span data-t="classroomCode">Codi d’aula</span><input type="text" id="classroom-code" maxlength="18" spellcheck="false"></label>
+              <label class="print-toggle"><input type="checkbox" id="show-instructions" checked><span data-t="showInstructions">Mostra les instruccions al full</span></label>
+            </div>
+          </details>
+          <section id="response-format-panel" class="print-response-format" data-label="responseFormat" aria-label="Format de les preguntes">
+            <fieldset class="response-selector"><legend data-t="responseFormat">Format de les preguntes</legend><div class="response-buttons"><button type="button" data-response-mode="open" aria-pressed="false" data-t="responseOpen">Resposta oberta</button><button type="button" data-response-mode="choice" aria-pressed="false" data-t="responseChoice">ABCD</button></div></fieldset>
+            <p id="response-summary" class="print-help" role="status"></p>
+            <div class="response-preference-row"><span class="print-help" data-t="responseBrowserDefault">Per defecte entre fitxes</span><button id="response-preference-reset" type="button" class="subtle" data-t="responseChooseAgain">Tria de nou</button></div>
+            <p id="choice-review-notice" class="print-help" data-t="choiceReviewNotice" hidden>Alternatives ABCD provisionals · pendents de validació docent.</p>
+          </section>
+          <label id="context-option" class="print-toggle context-option"><input type="checkbox" id="show-context" checked><span data-t="showContext">Context amb Sentit al full</span></label>
+          <details id="answer-key-panel" class="print-settings-group" hidden open>
+            <summary data-t="answers">Solucionari</summary>
+            <div class="print-content-options">
+              <label class="print-field"><span data-t="transcriptPosition">Posició de la transcripció</span><select id="transcript-position"><option value="bottom" data-t="transcriptBottom">Després de les preguntes</option><option value="top" data-t="transcriptTop">Abans de les preguntes</option></select></label>
+              <label class="print-toggle" id="evidence-option" hidden><input type="checkbox" id="show-evidence" checked><span data-t="showEvidence">Ressalta les pistes a la transcripció</span></label>
+            </div>
+          </details>
+          <details id="image-panel" class="print-settings-group" hidden>
+            <summary data-t="contextImage">Imatge de context</summary>
+            <form id="image-editor" autocomplete="off">
+              <label class="image-toggle"><input type="checkbox" id="show-image" checked><span data-t="showImage">Mostra la imatge</span></label>
+              <fieldset id="image-fields">
+                <legend class="sr-only" data-t="contextImage">Imatge de context</legend>
+                <label><span data-t="imageWidth">Amplada (mm)</span><input type="number" id="image-width" min="30" max="90" step="5" value="80" required></label>
+                <label><span data-t="imagePosition">Posició</span><select id="image-position"><option value="left" data-t="imageLeft">Esquerra</option><option value="center" data-t="imageCenter">Al centre</option><option value="right" selected data-t="imageRight">Dreta</option></select></label>
+              </fieldset>
+            </form>
+          </details>
+          <details id="question-panel" class="print-settings-group">
+            <summary><span data-t="printQuestions">Preguntes</span><span id="hidden-count" class="count" hidden></span></summary>
+            <div class="print-question-options">
+              <p class="print-help" data-t="printQuestionsHelp">Ajusta les línies o elimina preguntes directament al full.</p>
+              <div id="hidden-questions-group" hidden>
+                <h3 class="print-subheading" data-t="hiddenQuestions">Preguntes amagades</h3>
+                <ul id="hidden-questions"></ul>
+                <button type="button" class="subtle" id="restore-all" data-t="restoreAll">Recupera-les totes</button>
+              </div>
+            </div>
+          </details>
+        </section></div>
+      <div class="panel-footer">
+        <button id="print" class="button primary" type="button" disabled>
+          <span data-icon="printer" aria-hidden="true"></span><span id="print-label">Imprimeix la fitxa</span>
+        </button>
+        <p class="small" id="print-kind"></p>
+        <p class="inline-status" id="layout-status" role="status"></p>
+      </div>
+    </aside>
     <aside id="audio-panel" class="pane workspace-panel audio-panel" aria-labelledby="actions-title">
       <div class="panel-header">
         <div class="panel-heading"><h2 id="actions-title" data-t="audio">Àudio</h2><button class="icon-button panel-close" type="button" data-close-workspace-panel data-label="closeAudioSettings"><span data-icon="close" aria-hidden="true"></span></button></div>
@@ -204,77 +270,12 @@
         </div>
         <button id="report-error" class="icon-button" type="button" data-label="reportError"><span data-icon="flag" aria-hidden="true"></span></button>
       </div>
-      <div class="paper-stage">
+      <div class="paper-stage of-print-stage">
         <div class="paper-pages" id="paper" data-label="printKind"></div>
         <div class="empty paper-empty" id="paper-empty" hidden data-t="chooseActivity">Tria una activitat per veure la fitxa.</div>
       </div>
     </section>
 
-    <aside id="print-panel" class="pane workspace-panel print-panel" aria-labelledby="print-panel-title">
-      <div class="panel-header"><div class="panel-heading"><h2 id="print-panel-title" data-t="print">Impressió</h2><button class="icon-button panel-close" type="button" data-close-workspace-panel data-label="closePrintSettings"><span data-icon="close" aria-hidden="true"></span></button></div></div>
-      <div class="panel-scroll" id="print-scroll"><section class="format-section" id="worksheet-editor" hidden>
-          <section id="response-format-panel" class="print-response-format" data-label="responseFormat" aria-label="Format de les preguntes">
-            <fieldset class="response-selector"><legend data-t="responseFormat">Format de les preguntes</legend><div class="response-buttons"><button type="button" data-response-mode="open" aria-pressed="false" data-t="responseOpen">Resposta oberta</button><button type="button" data-response-mode="choice" aria-pressed="false" data-t="responseChoice">ABCD</button></div></fieldset>
-            <p id="response-summary" class="print-help" role="status"></p>
-            <div class="response-preference-row"><span class="print-help" data-t="responseBrowserDefault">Per defecte entre fitxes</span><button id="response-preference-reset" type="button" class="subtle" data-t="responseChooseAgain">Tria de nou</button></div>
-            <p id="choice-review-notice" class="print-help" data-t="choiceReviewNotice" hidden>Alternatives ABCD provisionals · pendents de validació docent.</p>
-          </section>
-          <label id="context-option" class="print-toggle context-option"><input type="checkbox" id="show-context" checked><span data-t="showContext">Context amb Sentit al full</span></label>
-          <details id="format-panel" class="print-settings-group" open>
-            <summary data-t="printTypography">Tipografia i espaiats</summary>
-            <form id="worksheet-format" autocomplete="off">
-              <label><span data-t="sheetFont">Tipografia</span><select name="font" id="sheet-font"><option value="serif">Georgia</option><option value="sans">Arial</option><option value="verdana">Verdana</option></select></label>
-              <label><span data-t="sheetSize">Mida (pt)</span><input type="number" name="size" id="sheet-size" min="10" max="20" step="1"></label>
-              <label class="format-spacing-field"><span data-t="sheetSpacing">Espaiat (mm)</span><input type="number" name="spacing" id="sheet-spacing" min="2" max="9" step="1"></label>
-              <label class="format-spacing-field"><span data-t="sheetLeading">Interlineat</span><input type="number" name="leading" id="sheet-leading" min="1" max="1.8" step="0.05"></label>
-              <button type="reset" class="subtle format-reset" data-t="resetFormat">Restableix</button>
-            </form>
-          </details>
-          <details id="instructions-panel" class="print-settings-group" open>
-            <summary data-t="printInstructions">Capçalera i instruccions</summary>
-            <div class="print-content-options">
-              <label class="print-field"><span data-t="classroomCode">Codi d’aula</span><input type="text" id="classroom-code" maxlength="18" spellcheck="false"></label>
-              <label class="print-toggle"><input type="checkbox" id="show-instructions" checked><span data-t="showInstructions">Mostra les instruccions al full</span></label>
-            </div>
-          </details>
-          <details id="answer-key-panel" class="print-settings-group" hidden open>
-            <summary data-t="answers">Solucionari</summary>
-            <div class="print-content-options">
-              <label class="print-field"><span data-t="transcriptPosition">Posició de la transcripció</span><select id="transcript-position"><option value="bottom" data-t="transcriptBottom">Després de les preguntes</option><option value="top" data-t="transcriptTop">Abans de les preguntes</option></select></label>
-              <label class="print-toggle" id="evidence-option" hidden><input type="checkbox" id="show-evidence" checked><span data-t="showEvidence">Ressalta les pistes a la transcripció</span></label>
-            </div>
-          </details>
-          <details id="image-panel" class="print-settings-group" hidden>
-            <summary data-t="contextImage">Imatge de context</summary>
-            <form id="image-editor" autocomplete="off">
-              <label class="image-toggle"><input type="checkbox" id="show-image" checked><span data-t="showImage">Mostra la imatge</span></label>
-              <fieldset id="image-fields">
-                <legend class="sr-only" data-t="contextImage">Imatge de context</legend>
-                <label><span data-t="imageWidth">Amplada (mm)</span><input type="number" id="image-width" min="30" max="90" step="5" value="80" required></label>
-                <label><span data-t="imagePosition">Posició</span><select id="image-position"><option value="left" data-t="imageLeft">Esquerra</option><option value="center" data-t="imageCenter">Al centre</option><option value="right" selected data-t="imageRight">Dreta</option></select></label>
-              </fieldset>
-            </form>
-          </details>
-          <details id="question-panel" class="print-settings-group">
-            <summary><span data-t="printQuestions">Preguntes</span><span id="hidden-count" class="count" hidden></span></summary>
-            <div class="print-question-options">
-              <p class="print-help" data-t="printQuestionsHelp">Ajusta les línies o elimina preguntes directament al full.</p>
-              <div id="hidden-questions-group" hidden>
-                <h3 class="print-subheading" data-t="hiddenQuestions">Preguntes amagades</h3>
-                <ul id="hidden-questions"></ul>
-                <button type="button" class="subtle" id="restore-all" data-t="restoreAll">Recupera-les totes</button>
-              </div>
-            </div>
-          </details>
-        </section></div>
-      <div class="panel-footer">
-        <button id="print" class="button primary" type="button" disabled>
-          <span data-icon="printer" aria-hidden="true"></span><span id="print-label">Imprimeix la fitxa</span>
-        </button>
-        <p class="small" id="print-kind"></p>
-        <p class="inline-status" id="layout-status" role="status"></p>
-      </div>
-    </aside>
   </main>
 
   <main id="player" class="player" tabindex="-1" hidden>

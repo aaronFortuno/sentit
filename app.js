@@ -1,13 +1,14 @@
 import { mountGalleryHelp, mountGallerySearch } from './ortografi-base/gallery-controls.js?v=0.9.0';
 import { createLanguagePreference, createThemePreference } from './ortografi-base/interface-preferences.js?v=0.10.0';
+import { printFields, syncPrintRange } from './ortografi-base/print-controls.js?v=0.11.0';
 import { localiseGalleryHelp } from './ortografi-base/gallery-help-copy.js?v=0.8.0';
 import { mountChangelog } from './ortografi-base/changelog.js?v=0.5.0';
 import { mountLicense } from './ortografi-base/license.js?v=0.6.0';
 import { mountV4V } from './ortografi-base/v4v.js?v=0.4.0';
 import { activities, legacyActivities } from './catalogue.js';
 import { renderRepairPreview, renderVoicePreview } from './repair-preview.js?v=0.1.136';
-import { strings } from './locales.js?v=0.1.136&base=0.8.0';
-import { defaultFormat, imageOptions, maxLines, questionFormat, renderWorksheet, transcriptPosition } from './worksheet.js?v=0.1.136';
+import { strings } from './locales.js?v=0.1.136&base=0.11.0';
+import { defaultFormat, imageOptions, maxLines, questionFormat, renderWorksheet, transcriptPosition } from './worksheet.js?v=0.1.136&base=0.11.0';
 import { clockTime, decodeSession, defaultSession, encodeSession, guidedPrompts, validRate, sessionJingles, validJingle } from './session.js';
 import { renderAudioResources } from './audio-resources.js';
 import { isPendingReview, needsReview } from './review.js';
@@ -60,6 +61,13 @@ const findActivity = reference => {
 const publicListenUrl = entry => listenUrl(entry, 'https://sentit.ortogra.fi/');
 const printLocale = entry => strings[entry.language] ?? strings.ca;
 const formatForm = byId('worksheet-format');
+formatForm.querySelector('[data-print-group="text"]').innerHTML = printFields('text', {
+  font: { id: 'sheet-font', options: '<option value="serif">Georgia</option><option value="sans">Arial</option><option value="verdana">Verdana</option>' },
+  size: { id: 'sheet-size', min: 10, max: 20, step: 1 },
+  leading: { id: 'sheet-leading', min: 1, max: 1.8, step: .05 },
+  spacing: { id: 'sheet-spacing', min: 2, max: 9, step: 1 },
+}, { translations: true });
+formatForm.querySelector('[data-print-group="margins"]').innerHTML = printFields('margins', {}, { translations: true });
 const sessionEditor = byId('session-editor');
 byId('audio-jingle-choice').replaceChildren(...sessionJingles.map(jingle => {
   const option = document.createElement('option'); option.value = jingle.id; option.textContent = jingle.title; return option;
@@ -71,16 +79,12 @@ let responsePreferenceShown = false;
 let activitySettings = {};
 function restoreFormat(saved) {
   const previousDefault = saved?.font === 'serif' && saved.size === 12
+    && !Object.keys(saved).some(key => key.startsWith('margin'))
     && ((saved.spacing === 4 && saved.leading === 1.35) || (saved.spacing === 5 && saved.leading === 1.5));
   return previousDefault ? { ...defaultFormat } : saved;
 }
 try {
-  const saved = restoreFormat(JSON.parse(preferences.get('worksheet-format')));
-  for (const [key, fallback] of Object.entries(defaultFormat)) {
-    const input = formatForm.elements.namedItem(key);
-    input.value = saved?.[key] ?? fallback;
-    if (input.value && input.checkValidity()) format[key] = input.type === 'number' ? input.valueAsNumber : input.value;
-  }
+  applyFormat(JSON.parse(preferences.get('worksheet-format')));
   activitySettings = JSON.parse(preferences.get('worksheet-activities')) ?? {};
 } catch { /* Use defaults if settings cannot be read. */ }
 const standardFormat = { ...format };
@@ -96,8 +100,12 @@ function applyFormat(settings) {
   const saved = restoreFormat(settings);
   for (const [key, fallback] of Object.entries(defaultFormat)) {
     const input = formatForm.elements.namedItem(key);
-    input.value = saved?.[key] ?? fallback;
-    format[key] = input.value && input.checkValidity() ? input.type === 'number' ? input.valueAsNumber : input.value : fallback;
+    const value = saved?.[key] ?? fallback;
+    input.value = value;
+    format[key] = input.value || fallback;
+    if (input.type === 'range') {
+      format[key] = Math.abs(input.valueAsNumber - Number(value)) < .00001 ? input.valueAsNumber : fallback;
+    }
   }
   syncFormat();
 }
@@ -196,7 +204,12 @@ function renderPaper() {
 }
 
 function syncFormat() {
-  for (const key of Object.keys(defaultFormat)) formatForm.elements.namedItem(key).value = format[key];
+  const numbers = new Intl.NumberFormat(language, { maximumFractionDigits: 2 });
+  for (const key of Object.keys(defaultFormat)) {
+    const input = formatForm.elements.namedItem(key);
+    input.value = format[key];
+    if (input.type === 'range') syncPrintRange(input, numbers);
+  }
 }
 
 function renderEditor() {
@@ -447,6 +460,7 @@ function player(entry) {
 function translate() {
   document.documentElement.lang = language;
   document.title = t('title');
+  syncFormat();
   for (const element of document.querySelectorAll('[data-t]')) {
     const text = t(element.dataset.t);
     if (typeof text === 'string') element.textContent = text;
@@ -523,13 +537,10 @@ formatForm.addEventListener('submit', event => event.preventDefault());
 function updateFormat(event) {
   const input = event.target;
   if (!Object.hasOwn(defaultFormat, input.name)) return;
-  if (input.type === 'number' && (!input.value || !input.checkValidity())) {
-    if (event.type === 'change') input.value = format[input.name];
-    return;
-  }
-  const value = input.type === 'number' ? input.valueAsNumber : input.value;
+  const value = input.type === 'range' ? input.valueAsNumber : input.value;
   if (format[input.name] === value) return;
   format[input.name] = value;
+  if (input.type === 'range') syncPrintRange(input, new Intl.NumberFormat(language, { maximumFractionDigits: 2 }));
   if (!activeCollectionId) {
     Object.assign(standardFormat, format);
     preferences.set('worksheet-format', JSON.stringify(format));

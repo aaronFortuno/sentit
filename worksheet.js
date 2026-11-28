@@ -6,7 +6,10 @@ import { listeningContext } from './content/listening-contexts.js?v=0.1.121';
 import { responseQuestion, responseSummary } from './question-responses.js';
 import { traditionSources } from './content/tradition-sources.js';
 
-export const defaultFormat = { font: 'serif', size: 12, spacing: 7, leading: 1.6 };
+export const defaultFormat = {
+  font: 'serif', size: 12, spacing: 7, leading: 1.6,
+  marginTop: 15, marginRight: 17, marginBottom: 12, marginLeft: 17,
+};
 
 const fontStacks = {
   serif: 'Georgia, serif',
@@ -311,6 +314,10 @@ export function renderWorksheet(container, entry, format, settings, { answerKey,
   container.style.setProperty('--sheet-size', `${format.size}pt`);
   container.style.setProperty('--sheet-leading', format.leading);
   container.style.setProperty('--sheet-spacing', `${format.spacing}mm`);
+  container.style.setProperty('--sheet-margin-top', `${format.marginTop ?? defaultFormat.marginTop}mm`);
+  container.style.setProperty('--sheet-margin-right', `${format.marginRight ?? defaultFormat.marginRight}mm`);
+  container.style.setProperty('--sheet-margin-bottom', `${format.marginBottom ?? defaultFormat.marginBottom}mm`);
+  container.style.setProperty('--sheet-margin-left', `${format.marginLeft ?? defaultFormat.marginLeft}mm`);
 
   function startPage() {
     const page = element('article', 'paper');
