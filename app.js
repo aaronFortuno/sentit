@@ -1,4 +1,5 @@
 import { mountGalleryHelp, mountGallerySearch } from './ortografi-base/gallery-controls.js?v=0.9.0';
+import { createLanguagePreference, createThemePreference } from './ortografi-base/interface-preferences.js?v=0.10.0';
 import { localiseGalleryHelp } from './ortografi-base/gallery-help-copy.js?v=0.8.0';
 import { mountChangelog } from './ortografi-base/changelog.js?v=0.5.0';
 import { mountLicense } from './ortografi-base/license.js?v=0.6.0';
@@ -38,8 +39,9 @@ const preferences = {
   get(key) { try { return localStorage.getItem(`sentit-${key}`); } catch { return null; } },
   set(key, value) { try { localStorage.setItem(`sentit-${key}`, value); } catch { /* Usable without storage. */ } },
 };
-const mediaTheme = matchMedia('(prefers-color-scheme: dark)');
-let language = preferences.get('lang') === 'es' ? 'es' : 'ca';
+const themeChoice = createThemePreference('sentit-theme');
+const languageChoice = createLanguagePreference('sentit-lang', Object.keys(strings));
+let language = languageChoice.value;
 let mottoIndex = nextMotto();
 const linkedActivities = [...activities, ...legacyActivities];
 let selected = null;
@@ -159,7 +161,7 @@ function node(tag, text, className) {
   return element;
 }
 function theme() {
-  const dark = (preferences.get('theme') ?? (mediaTheme.matches ? 'dark' : 'light')) === 'dark';
+  const dark = themeChoice.value === 'dark';
   document.documentElement.dataset.theme = dark ? 'dark' : 'light';
   byId('theme').setAttribute('aria-pressed', String(dark));
   document.querySelector('[name="theme-color"]').content = dark ? '#131f1b' : '#f7f5ee';
@@ -666,17 +668,16 @@ byId('restore-all').addEventListener('click', () => {
   renderEditor();
 });
 byId('language').addEventListener('change', event => {
-  language = event.target.value;
-  preferences.set('lang', language);
+  if (!languageChoice.set(event.target.value)) return;
+  language = languageChoice.value;
   translate();
   track('canvia_idioma',{idioma:language});
 });
 byId('theme').addEventListener('click', () => {
-  preferences.set('theme', document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark');
+  themeChoice.set(themeChoice.value === 'dark' ? 'light' : 'dark');
   theme();
   track('canvia_tema',{tema:document.documentElement.dataset.theme});
 });
-mediaTheme.addEventListener('change', theme);
 byId('activity-select').addEventListener('change', event => {
   openActivity(activities.find(entry => entry.id === event.target.value), activeCollectionId);
 });
@@ -769,8 +770,8 @@ setDetailsOpen(byId('filter-panel'), !compactCatalog.matches || catalog.hasChara
 if (catalog.hasCharacterFilter()) setDetailsOpen(byId('character-filter'), true, { animated: false });
 compactCatalog.addEventListener('change', event => { setDetailsOpen(byId('filter-panel'), !event.matches); });
 startAnalytics();
-await registerQuestionChoices(activities);
 theme();
+await registerQuestionChoices(activities);
 translate();
 route();
 if(listenId===null && query.has('musiques'))musicPreview.open(query.get('musiques'));
